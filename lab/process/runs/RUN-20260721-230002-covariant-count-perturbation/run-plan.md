@@ -2,7 +2,7 @@
 
 Plan created at: 2026-07-21T23:00:02-05:00
 
-Status: validated_pending_versioning
+Status: completed
 
 Run type: `progress`
 
@@ -135,24 +135,56 @@ advance to perturbations, cosmic history, growth, and observational confrontatio
 
 ## Receipt
 
-Receipt created at: pending
+Receipt created at: 2026-07-21T23:20:52-05:00
 
-Terminal outcome: pending
+Terminal outcome: `completed`
 
 Pre-run target status: `COV-01 background-partial; covariant N, action/Q^mu, perturbations, growth, early-universe history, and data OPEN.`
 
-Post-run target status: pending
+Post-run target status: `VIABLE_ONLY_AS_LAMBDA_LIMIT` for the strongest local
+constant-`kappa` lift; Lane manifest revision `6`. The COV-01 background theorem
+remains valid, while a separate causal-past/nonlocal branch remains open.
 
-External actions performed: pending
+External actions performed: GitHub commit `551f811ef61be5c2e6bef735cb6bc6792d8636c0`
+was pushed to `origin/main` under Joe's direct authorization. No other external
+action was performed.
 
-Artifacts changed: pending
+Artifacts changed:
 
-Checks performed: pending
+- `explorations/lambda-N-covariant-perturbation-kill-2026-07-21.md`
+- `tests/du_lambda_N_covariant_perturbation_kill.py`
+- `tests/artifacts/du_lambda_N_covariant_perturbation_kill_result.json`
+- `explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md`
+- `explorations/50-persona-blind-spot-register-and-priority-map-2026-07-21.md`
+- `LANES.yaml`
+- this Run Plan and receipt
 
-Lane revalidation: pending
+Checks performed: foreground probe `18/18 PASS` twice; byte-identical result
+artifact SHA-256
+`00018356c368733514fd6a57d297a40e9f8895bd8760477223dde27c5e4d2845`;
+COV-01 regression `18/18 PASS`; YAML and JSON parse; 30k/60k growth convergence
+residual `2.109e-15`; explicit staged-path review; `git diff --check`; and session
+finish guard clean/even at the result commit.
 
-Follow-ups: pending
+Lane revalidation: admission manifest revision `5`, SHA-256
+`cf592365e5b1e2973b36b4e72cbd5c57f59f3c05941bd69e93491b98f31e7a77`;
+post-result revision `6`, SHA-256
+`799605dda2d230910588eca95f117b6328ce5ebb8a441963552b9818bb1a65e8`.
+Owner, permission intersection, directed flow, writer scope, and emergency
+revocation were rechecked; no revocation or overlapping write appeared. The
+repository was even with `origin/main` at `551f811` after the result push.
+
+Follow-ups: first draw the typed `N` dependency diagram separating local scalar,
+global slice, and causal-region meanings; then run `SWING-DU-COV-03` as a genuinely
+retarded causal-past/nonlocal model rather than back-fitting it to constant
+`kappa`; independently reimplement any surviving branch before credibility
+promotion. A theory passport follows only for a branch that survives those gates.
 
 Outcome reason:
 
-`Pending.`
+`The declared local covariant lift closes conservation and perturbations, but its
+accelerating fixed point has a metric-superluminal scalar characteristic; the
+geodesic escape deletes ordinary growing structure, and observationally quiet
+couplings make Lambda evolution negligible. The preregistered honest grade is
+therefore VIABLE_ONLY_AS_LAMBDA_LIMIT, without extending the no-go to distinct
+nonlocal or UV-completed definitions of N.`
