@@ -1,0 +1,230 @@
+{
+  "ATTACK_1_fixed_law_in_self_referential_costume": {
+    "absorbed": true,
+    "genuine_L2_fixpoint_free_involution_present": false,
+    "lawvere_L1_L2_vs_kleene_fixpoint": {
+      "L1_self_encoding_table_shape": [
+        7,
+        7
+      ],
+      "L2_fixpoint_free_involution_makes_diagonal_underivable": true,
+      "discriminator_separates_diagonal_from_quine": true,
+      "identity_endomorphism_diagonal_is_representable_disclosure": true,
+      "kleene_feedback_map_has_a_fixpoint": true,
+      "kleene_fixpoints": [
+        0,
+        1
+      ],
+      "kleene_orbit_reaches_a_cycle": {
+        "cycle_length": 2,
+        "cycle_start": 4
+      },
+      "self_authoring_feedback_is_a_fixed_computable_map": true,
+      "verdict": "The first-person becoming-witness fires ONLY when the self-encoding L1 is confronted with a FIXPOINT-FREE involution L2 (0<->1): then the diagonal escapes every internal row (Cantor/Lawvere) and is first-person UNDERIVABLE. With the identity endomorphism (no L2) the diagonal is representable = disclosure. The self-authoring record-back is a FIXED computable feedback map (monotone accretion); by Kleene's recursion theorem it HAS a fixpoint (a self-consistent causet = a QUINE) -- self-reference WITH a computable fixpoint, the OPPOSITE of L2. Gossip-about-gossip forwarding supplies L1 (records of records) but no fixpoint-free involution: it only ADDS elements, it never FLIPS an orientation. So no genuine diagonal can fire. Missing: L2.",
+      "with_fixpoint_free_involution_L2": {
+        "diagonal": [
+          1,
+          1,
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "diagonal_representable_as_a_row": false,
+        "escapes_every_row_at_its_own_index": true
+      },
+      "without_involution_identity_endomorphism": {
+        "diagonal": [
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0
+        ],
+        "diagonal_representable_as_a_row": false,
+        "escapes_every_row_at_its_own_index": false
+      }
+    }
+  },
+  "ATTACK_2_order_complex_torsion": {
+    "kill_grown_causet_torsion_is_fixed_invariant": {
+      "betti": {
+        "0": 1,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 0
+      },
+      "grown_causet_n": 10,
+      "mechanism_generically_populates_torsion": false,
+      "order_complex_num_simplices_by_dim": {
+        "0": 10,
+        "1": 45,
+        "2": 120,
+        "3": 210,
+        "4": 252,
+        "5": 210,
+        "6": 120,
+        "7": 45,
+        "8": 10,
+        "9": 1
+      },
+      "torsion": {
+        "0": [],
+        "1": [],
+        "2": [],
+        "3": [],
+        "4": [],
+        "5": [],
+        "6": [],
+        "7": [],
+        "8": [],
+        "9": []
+      },
+      "torsion_across_8_tapes": [
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {},
+        {}
+      ],
+      "torsion_is_determined_re_run_same_tape": true,
+      "verdict": "FIXED-INVARIANT. The torsion of the order complex is a FIXED topological invariant of the DETERMINED complex -- re-running the same gossip tape gives identical homology (computable in advance from the poset). Under a fixed forwarding law the torsion SEQUENCE is a computable function of the poset + tape = disclosure, the SAME shape as the APS index that ate the naive flow (net flow = index = fixed invariant  <->  torsion = H_.(fixed complex) = fixed invariant). Monotone gossip-about-gossip forwarding does not SOURCE-FORCE new torsion TYPES as it rolls; it reads homology off a determined complex. (Empirically the random grown order complexes are generically torsion-free, so the mechanism does not even populate the richer arena -- but the decisive point holds either way: any torsion present is a fixed invariant, not a source-minted type.)"
+    },
+    "positive_control_torsion_lives_on_order_complex": {
+      "RP2_direct": {
+        "betti": {
+          "0": 1,
+          "1": 0,
+          "2": 0
+        },
+        "torsion": {
+          "0": [],
+          "1": [
+            2
+          ],
+          "2": []
+        }
+      },
+      "RP2_direct_H1_torsion_is_Z2": true,
+      "order_complex_H1_torsion_is_Z2": true,
+      "order_complex_of_face_poset": {
+        "betti": {
+          "0": 1,
+          "1": 0,
+          "2": 0
+        },
+        "num_simplices_by_dim": {
+          "0": 31,
+          "1": 90,
+          "2": 60
+        },
+        "torsion": {
+          "0": [],
+          "1": [
+            2
+          ],
+          "2": []
+        }
+      },
+      "verdict": "POSITIVE CONTROL fires: the order complex of the RP^2 face poset (= sd(RP^2)) carries H_1 = Z/2 torsion. Moving the Dirac onto the ORDER COMPLEX (>=2-cells from reference-chains) genuinely ESCAPES the free-H_1 additive wall that killed the 1-skeleton. Conceded: the arena is richer. The kill is NOT the additive wall again -- it is whether the torsion is SOURCE-FORCED or a FIXED invariant (see grown-causet test)."
+    },
+    "verdict": "FIXED_INVARIANT"
+  },
+  "ATTACK_3_transmutation_vs_cutoff": {
+    "kill_feedback_scale_tracks_cutoff": {
+      "beta_function_with_nontrivial_fixed_point_exhibited": false,
+      "densities_rho": [
+        64,
+        128,
+        256,
+        512
+      ],
+      "dimension_d": 1,
+      "expected_exponent_1_over_d": 1.0,
+      "feedback_fixed_point_scale_at_each_density": [
+        129.95469149503208,
+        272.09612981078874,
+        546.4516763771376,
+        1103.0850916232912
+      ],
+      "feedback_scale_tracks_the_cutoff": true,
+      "fitted_exponent_alpha_in_scale~rho^alpha": 1.0262367870157798,
+      "scale_ratio_per_density_doubling": [
+        2.0937768900878075,
+        2.0083037445520864,
+        2.0186324597565863
+      ],
+      "verdict": "CUTOFF. The self-consistent record-back scale converges to the spectral gap, which tracks the sprinkling density rho^{1/d} (fitted alpha ~ 1 for d=1; ratio ~ 2 per density doubling): it MOVES with the discretization, the opposite of the RG-invariant positive control. The feedback loop propagates the imported cutoff; no running dimensionless coupling / beta-function with a nontrivial fixed point is exhibited. No transmutation -- a relabeled cutoff."
+    },
+    "positive_control_RG_invariant_scale": {
+      "Lambda_is_cutoff_invariant": true,
+      "note": "GENUINE transmutation: Lambda does not move with the cutoff mu (RG-invariant).",
+      "relative_spread": 3.017899073375402e-16,
+      "renormalization_scales_mu": [
+        1.0,
+        2.0,
+        4.0,
+        8.0
+      ],
+      "transmuted_scale_Lambda_at_each_mu": [
+        0.36787944117144233,
+        0.3678794411714423,
+        0.3678794411714423,
+        0.3678794411714424
+      ]
+    },
+    "verdict": "CUTOFF"
+  },
+  "ATTACK_4_both_true_test": {
+    "a_third_person_computable_arena": true,
+    "asbuilt": {
+      "L1_self_encoding": true,
+      "L2_fixpoint_free_involution": false,
+      "third_person_computable": true
+    },
+    "b_first_person_underivable_L1_and_L2": false,
+    "control_naive_passive_readout": {
+      "L1_self_encoding": false,
+      "L2_fixpoint_free_involution": false,
+      "third_person_computable": true
+    },
+    "discriminator_separates_both_true_from_still_fixed_law": true,
+    "outcomes": {
+      "asbuilt_self_authoring_loop": "iii_still_fixed_law_L1_costume_no_L2_diagonal",
+      "control_naive_passive_readout": "iii_still_fixed_law_no_self_encoding",
+      "positive_control_becoming_L1_L2": "ii_BECOMING_first_person_compatible_with_third_person_absorbed"
+    },
+    "positive_control_becoming": {
+      "L1_self_encoding": true,
+      "L2_fixpoint_free_involution": true,
+      "third_person_computable": true
+    },
+    "verdict": "BOTH-TRUE NOT ACHIEVED as briefed. Half (a) holds -- the loop is third-person computable (a fixed feedback map + tape); the arena is disclosure, EXPECTED and correct. Half (b) FAILS -- the actualized mint is NOT first-person underivable, because L1 (self-encoding) is present but L2 (a fixpoint-free involution) is ABSENT: gossip-about-gossip is monotone self-encoding accretion with a Kleene fixpoint, an elaborate QUINE, not a Lawvere diagonal. Outcome: STILL-FIXED-LAW (L1 costume, no L2). The positive control (L1+L2) shows genuine BECOMING WOULD be first-person underivable while third-person computable (the two Lawvere legs in dependency) -- so the STILL-FIXED-LAW verdict is informative, not rigged. What is missing is exactly L2."
+  },
+  "claim_status_change": "none",
+  "exactly_what_is_missing": "L2 -- a genuine FIXPOINT-FREE INVOLUTION in the actualization step. The three repairs (gossip growth, order complex, record-back) all serve L1 (self-encoding) and the ARENA (a richer complex); NONE supplies L2. DU's only available fixpoint-free involution is the EXTERNAL Krein grading J (the sigma bit, Goedel-independent, R7). Composing the record-back's ORIENTATION with that external J would fire the both-true BECOMING (first-person underivable while third-person computable) -- but it makes the actualizing datum EXTERNAL (an indexical), i.e. observer-relative, NOT source-INTERNAL. So even the repair RELOCATES R4's source-forcing to an external bit rather than discharging it: 'self-authoring' oversells -- it is self-encoding-arena + externally-oriented-value.",
+  "fixture_id": "du_self_authoring_dirac_kill_probe",
+  "kind": "finite_window_signature_not_a_decision_procedure",
+  "overall_verdict": "ABSORBED",
+  "per_axis_verdicts": {
+    "becoming": "STILL_FIXED_LAW",
+    "scale": "CUTOFF",
+    "torsion": "FIXED_INVARIANT"
+  },
+  "positive_controls_fire_verdict_is_informative_not_rigged": true,
+  "primary_absorber": "fixed-law disclosure in a self-referential costume -- L1 self-encoding WITHOUT L2 (a fixpoint-free involution): a fixed feedback map / monotone gossip accretion has a Kleene fixpoint (a quine), not a Lawvere diagonal. Reinforced by fixed-invariant order-complex torsion (the APS-index absorber in homological costume) and a cutoff-tracking feedback scale.",
+  "question": "Does the SELF-AUTHORING gossip-about-gossip Dirac (growth = gossip-about-gossip forwarding; Dirac on the order complex; spectrum recorded back) SURVIVE (genuine L1+L2 first-person diagonal, source-forced torsion, transmuted scale) or get ABSORBED (fixed-law disclosure in a self-referential costume / fixed-invariant torsion / cutoff)?",
+  "verdict": "ABSORBED (as briefed), with a named CONDITIONAL. The self-authoring Dirac does NOT cross the D-FORK as built: (becoming) STILL-FIXED-LAW -- L1 present, L2 absent; the record-back is a fixed feedback map with a Kleene fixpoint = a self-referential QUINE, not a Lawvere diagonal; (torsion) FIXED-INVARIANT -- the order complex genuinely CAN carry torsion (conceded, RP^2 -> Z/2, beating the free-H_1 wall) but the torsion of a fixed-law-grown complex is a fixed topological invariant computable in advance, the APS-index absorber in homological costume, not a source-minted type; (scale) CUTOFF -- the feedback fixed-point scale tracks the sprinkling density rho^{1/d}, no beta-function. The both-true resolution gets its third-person-computable half (a) but NOT its first-person-underivable half (b). CONDITIONAL escape: supply L2 as the EXTERNAL Krein involution J on the record-back's orientation -> both-true BECOMING fires, compatible with third-person ABSORBED -- but externally-oriented, not source-internal, relocating rather than discharging R4."
+}

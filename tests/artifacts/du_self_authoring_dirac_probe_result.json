@@ -1,0 +1,248 @@
+{
+  "axis1_non_additive_W1": {
+    "S": 5,
+    "any_order_H2": true,
+    "any_order_cup": false,
+    "any_order_torsion": false,
+    "axis1_cross": false,
+    "best": {
+      "H1_torsion": [],
+      "betti": [
+        1,
+        10,
+        30
+      ],
+      "cup_rank": 0,
+      "f_vector": [
+        34,
+        122,
+        109
+      ],
+      "skel_betti": [
+        1,
+        89,
+        0
+      ],
+      "skel_cup": 0,
+      "skel_torsion": [],
+      "theta_type_order": 1,
+      "trial": 21
+    },
+    "max_theta_type_order": 1,
+    "reading": "STRUCTURAL LIFT, NOT POPULATED (NULL on the crossing). Moving D to the order (reference) complex genuinely lifts the free-H_1 theorem wall: H_2 != 0 occurs in every run -- an invariant the 1-skeleton PROVABLY cannot carry (positive control: every 1-skeleton is free with H^2=0, cup rank 0). BUT the self-authoring gossip dynamics populate only FREE homology (+Z in each degree): NO torsion (Z/n), NO nonzero cup-product ring, across 24 runs and richer variants. So Theta_type stays 1 and W1 stays ADDITIVE -- now spread across degrees 1 and 2 rather than degree 1 alone, but still a direct sum of Z's. The gossip reference complex is a union of small simplices glued on shared faces => generically homologically free; torsion needs degree->=2 attaching maps (non-orientable-type gluings) the reference dynamics do not generate. The RP^2 / T^2 teeth confirm the detector WOULD catch torsion / a cup ring if present. OBSTRUCTION: the wall is available but the construction does not reach it.",
+    "sample": [
+      {
+        "H1_torsion": [],
+        "betti": [
+          1,
+          7,
+          28
+        ],
+        "cup_rank": 0,
+        "f_vector": [
+          33,
+          117,
+          106
+        ],
+        "skel_betti": [
+          1,
+          85,
+          0
+        ],
+        "skel_cup": 0,
+        "skel_torsion": [],
+        "theta_type_order": 1,
+        "trial": 0
+      },
+      {
+        "H1_torsion": [],
+        "betti": [
+          1,
+          9,
+          28
+        ],
+        "cup_rank": 0,
+        "f_vector": [
+          33,
+          118,
+          105
+        ],
+        "skel_betti": [
+          1,
+          86,
+          0
+        ],
+        "skel_cup": 0,
+        "skel_torsion": [],
+        "theta_type_order": 1,
+        "trial": 1
+      },
+      {
+        "H1_torsion": [],
+        "betti": [
+          1,
+          12,
+          28
+        ],
+        "cup_rank": 0,
+        "f_vector": [
+          33,
+          120,
+          104
+        ],
+        "skel_betti": [
+          1,
+          88,
+          0
+        ],
+        "skel_cup": 0,
+        "skel_torsion": [],
+        "theta_type_order": 1,
+        "trial": 2
+      },
+      {
+        "H1_torsion": [],
+        "betti": [
+          1,
+          7,
+          27
+        ],
+        "cup_rank": 0,
+        "f_vector": [
+          32,
+          113,
+          102
+        ],
+        "skel_betti": [
+          1,
+          82,
+          0
+        ],
+        "skel_cup": 0,
+        "skel_torsion": [],
+        "theta_type_order": 1,
+        "trial": 3
+      },
+      {
+        "H1_torsion": [],
+        "betti": [
+          1,
+          10,
+          28
+        ],
+        "cup_rank": 0,
+        "f_vector": [
+          33,
+          118,
+          104
+        ],
+        "skel_betti": [
+          1,
+          86,
+          0
+        ],
+        "skel_cup": 0,
+        "skel_torsion": [],
+        "theta_type_order": 1,
+        "trial": 4
+      },
+      {
+        "H1_torsion": [],
+        "betti": [
+          1,
+          12,
+          28
+        ],
+        "cup_rank": 0,
+        "f_vector": [
+          33,
+          116,
+          100
+        ],
+        "skel_betti": [
+          1,
+          84,
+          0
+        ],
+        "skel_cup": 0,
+        "skel_torsion": [],
+        "theta_type_order": 1,
+        "trial": 5
+      }
+    ],
+    "skeleton_all_cup0": true,
+    "skeleton_all_free": true,
+    "trials": 24
+  },
+  "axis2_first_person_self_encoding": {
+    "L1_self_encoding_present_iff_self_authoring": true,
+    "L2_fixpoint_free_involution": "present (Krein admissibility swap {+,-}, sigma^2=1, R7 untouched)",
+    "axis2_cross_firstperson_compatible_with_third_person_disclosure": true,
+    "blind_control": {
+      "diagonal_escapes_always": true,
+      "encoded_predicate_fraction": 0.0,
+      "fresh_predicate_fraction": 0.9149999999999998,
+      "selfencoding_rank_mean": 25.0
+    },
+    "diagonal_fires": true,
+    "reading": "the self-authoring loop realizes L1 (the admissibility predicate the growth consults IS a self-encoded knowledge-set K(a); the blind control's is external -> L1 fails, the feedback makes the difference), and mints FRESH predicates so the Lawvere/Cantor diagonal escapes the encoded family -> the next actualized selection is first-person underivable. HONEST: the feedback rule is a FIXED deterministic map, so a god's-eye observer CAN compute the trajectory -- this is BECOMING-FIRST-PERSON *compatible with* third-person DISCLOSURE (the reframe), NOT third-person incomputability. A genuine diagonal IS present (not a bare recursion: fresh predicates are minted), but whether first-person underivability counts as 'genuine becoming' vs a dressed recursion is the residual honest bit.",
+    "self_authoring": {
+      "diagonal_escapes_always": true,
+      "encoded_predicate_fraction": 0.6849999999999999,
+      "fresh_predicate_fraction": 0.515,
+      "selfencoding_rank_mean": 29.8
+    },
+    "third_person_computable_disclosure": true
+  },
+  "axis3_transmutation": {
+    "axis3_cross": false,
+    "blind_ghat": [
+      0.20449875996493339,
+      0.1793278229113914,
+      0.21165909142975706
+    ],
+    "blind_spread": 0.06985081570210867,
+    "feedback_adds_invariance": false,
+    "gap_over_weight": [
+      0.6205096613876454,
+      0.6205096613876454,
+      0.6205096613876454,
+      0.6205096613876454,
+      0.6205096613876407
+    ],
+    "raw_gap_is_imported_cutoff": true,
+    "raw_gap_vs_weight": [
+      0.3102548306938227,
+      0.6205096613876454,
+      1.2410193227752908,
+      2.4820386455505816,
+      4.529720528129777
+    ],
+    "reading": "NULL. Positive control (naive failure reproduced): the RAW Dirac gap = the imported cutoff -- gap ~ w exactly, cutoff-DEPENDENT. The dimensionless coupling g_hat = gap/radius is w-invariant by construction, but it does NOT run: g_hat ~ 0.18 across the roll and across the density knob, and it is essentially the SAME for self-authoring and blind (the feedback ADDS no invariance beyond the trivial dimensionless-ratio artifact). No beta-function, no fixed point that forgets the microscopic density. The 1-loop RG teeth show a genuine transmuted scale IS cutoff-invariant via a real beta-function -- which the recursive gossip feedback does NOT reproduce. The recursive self-authoring loop does not self-generate a scale; no dimensional transmutation.",
+    "rg_control_invariant": true,
+    "sa_spread": 0.06455351021024218,
+    "self_authoring_ghat": [
+      0.17144117311525675,
+      0.17018162623900268,
+      0.14846724871319014
+    ],
+    "site_grid": [
+      4,
+      5,
+      6
+    ]
+  },
+  "axis_grades": {
+    "axis1_non_additive_W1": "NULL (order-complex wall LIFTED but NOT populated: free homology, Theta_type=1)",
+    "axis2_first_person_self_encoding": "CROSS (first-person; compatible with third-person disclosure)",
+    "axis3_transmutation": "NULL (no beta-function; g_hat invariance is the trivial ratio, feedback adds nothing)"
+  },
+  "checks_passed": 25,
+  "checks_total": 25,
+  "part0_calibration": {
+    "note": "Dirac kernel = sum real Betti (torsion-blind); torsion via SNF"
+  },
+  "probe": "du_self_authoring_dirac",
+  "seed": 20260721,
+  "verdict": "PARTIAL"
+}
