@@ -1,0 +1,90 @@
+{
+  "probe": "du_covariant_finality_foliation_probe",
+  "attack": "Job A #1 -- is H1 global-section-of-finalized-bindings a hidden foliation?",
+  "model": "Z/2 finality sheaf on a causal diamond (Hasse = K_{2,2}, one H1 constraint)",
+  "scenarios": [
+    {
+      "scenario": "causal_diamond",
+      "g_case": "H1_trivial (section exists)",
+      "num_events": 4,
+      "covering_links": [
+        "b<d",
+        "a<d",
+        "b<c",
+        "a<c"
+      ],
+      "spacelike_pairs": [
+        "a|b",
+        "c|d"
+      ],
+      "num_foliations_linear_extensions": 4,
+      "COV_global_section_exists": true,
+      "COV_H1_obstruction_bits": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "COV_frame_invariant_across_all_foliations": true,
+      "FOL_which_finalized_first_by_pair": {
+        "a,b": [
+          "a",
+          "b"
+        ],
+        "c,d": [
+          "c",
+          "d"
+        ]
+      },
+      "FOL_frame_dependent_for_a_spacelike_pair": true
+    },
+    {
+      "scenario": "causal_diamond",
+      "g_case": "H1_nontrivial (no section)",
+      "num_events": 4,
+      "covering_links": [
+        "b<d",
+        "a<d",
+        "b<c",
+        "a<c"
+      ],
+      "spacelike_pairs": [
+        "a|b",
+        "c|d"
+      ],
+      "num_foliations_linear_extensions": 4,
+      "COV_global_section_exists": false,
+      "COV_H1_obstruction_bits": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "COV_frame_invariant_across_all_foliations": true,
+      "FOL_which_finalized_first_by_pair": {
+        "a,b": [
+          "a",
+          "b"
+        ],
+        "c,d": [
+          "c",
+          "d"
+        ]
+      },
+      "FOL_frame_dependent_for_a_spacelike_pair": true
+    }
+  ],
+  "controls": {
+    "H1_detects_both_regimes (trivial AND nontrivial)": true,
+    "FOL_readout_is_genuinely_frame_dependent (contrast is real)": true
+  },
+  "findings": {
+    "COV_H1_obstruction_frame_invariant_across_all_foliations": true,
+    "FOL_which_finalized_first_frame_dependent_for_spacelike_pairs": true,
+    "block_structural_note": "H1 is computed over the WHOLE completed poset -> its objectivity is BLOCK-STRUCTURAL (B-theoretic), not objective becoming (attack #2 concession)."
+  },
+  "verdict": "SURVIVES_NO_FOLIATION_SMUGGLED",
+  "reading": "The H1 global section of finalized bindings is a COVARIANT invariant of the causal poset -- identical for every foliation (linear extension) -- while the sliced 'which finalized first' readout is frame-dependent for spacelike pairs. DU's shared-reality object needs NO foliation; the object that WOULD need one is exactly the naive frontier DU declines to use. Foliation is NOT smuggled. Cost (attack #2): the invariant is a static property of the completed block, so the 'objective' earned is block-structural, not objective becoming."
+}

@@ -68,6 +68,32 @@ factory receives well-formed seeds, never speculative ones.
 - **Disposition.** Held as a SEAM. It is the flagship's first *empirical* target; it becomes a
   live REGISTERED prediction the moment H1 lands, and is not seeded to the factory before H2–H7.
 
+### PRED-DU-002 — the finality-threshold deviation is Lorentz-covariant-by-construction
+- **State: SEAM** (conditional — shares PRED-DU-001's antecedent, plus its own proviso). This is the
+  *covariance property* of PRED-DU-001's observable, not an independent observable.
+- **The claim (conditional).** *If* the finality threshold is real (the mode-issuance unlock), the
+  redundancy-gated recoverability knee of PRED-DU-001 is **Lorentz-covariant-by-construction** — its
+  trigger is the causal-order **redundancy count**, a frame-independent invariant — genuinely
+  **evading the frame-dependent-noise tension** that afflicts relativistic GRW/CSL (Pearle/Bedingham).
+  I.e. a *covariant objective-collapse* candidate: objective (observer-independent H¹ fact) yet not a
+  spacetime process. Established at causal-set/order + qubit-schematic level by the covariant-finality
+  build+kill pair (foliation NOT smuggled; the third position is real).
+- **Blocker(s).** (i) Shares PRED-DU-001's mode-issuance antecedent (doubly-gated). (ii) Its **own**
+  blocker — the **locality-of-update proviso**: finalization must be a *local* Fewster–Verch
+  operation; a *global* Lüders update reintroduces Sorkin's impossible measurement → superluminal
+  signal → DEVIATION-BUT-NON-COVARIANT. (iii) Likely survives existing collapse-model bounds (Donadi
+  X-ray, matter-wave) — no always-on coupling — but is experimentally subtle (coincidence, not marginal).
+- **Hardening checklist.** *SEAM → REGISTERED:* shares PRED-DU-001 **H1**, PLUS **H1'.** the
+  **AQFT-net (Haag–Kastler) embedding** — construct the finality closure on the net of local algebras
+  and *prove* Fewster–Verch causal factorization *from* "final ≡ fixed on J⁺" (currently matched, not
+  derived), AND establish the update is *local*, not global Lüders. *REGISTERED → SEED-READY:* inherits
+  PRED-DU-001 H2–H7.
+- **Source pointers.** `covariant-finality-collapse-synthesis-2026-07-21.md` (§3, §5); the build +
+  adversarial-kill pair it synthesizes.
+- **Disposition.** Held as a SEAM beside PRED-DU-001 — a *covariance upgrade* of the same observable,
+  its prize being that a covariant objective-collapse candidate evades the standard Lorentz tension.
+  Not seeded before its own H1' (the AQFT-net embedding) plus the shared gate.
+
 ---
 
 ## Boundary

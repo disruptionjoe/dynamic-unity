@@ -1,0 +1,120 @@
+{
+  "probe": "du_covariant_finality_collapse_probe",
+  "question": "Is the wavefunction update a covariant finality fact typed on the causal order J+ (frame-independent), or does it secretly smuggle a foliation? Does it supply Sorkin's admissibility restriction inside a covariant-measurement picture?",
+  "module_a_frame_independence": {
+    "labels": [
+      "P",
+      "A",
+      "B",
+      "C"
+    ],
+    "lab_incidence": [
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    "causal_structure_as_intended": {
+      "P<A": true,
+      "P<B": true,
+      "P<C": true,
+      "A<C": true,
+      "B<C": true,
+      "A||B (incomparable)": true
+    },
+    "n_boosts": 41,
+    "rapidity_range": [
+      -3.0,
+      3.0
+    ],
+    "max_incidence_deviation_across_boosts": 0,
+    "causal_order_invariant": true,
+    "AB_incomparable_in_every_frame": true,
+    "foliation_which_first_signs_observed": [
+      -1,
+      0,
+      1
+    ],
+    "foliation_order_is_frame_dependent": true,
+    "control_discriminates": true,
+    "verdict": "PASS",
+    "reading": "Causal-order (finality) data identical in every boost; the naive foliation collapse-order of the spacelike wings flips sign (both '+' and '-' observed). 'Which collapsed first' is malformed: A,B incomparable in <_c in EVERY frame."
+  },
+  "module_b_no_signaling": {
+    "grid": 24,
+    "max_deviation_of_marginal_from_half": 2.220446049250313e-16,
+    "marginal_independent_of_far_setting": true,
+    "verdict": "PASS",
+    "reading": "P(a | theta_a, theta_b) = 1/2 for every far setting theta_b: the local (non-selective / Fewster-Verch) marginal cannot be moved from the spacelike wing."
+  },
+  "module_c_global_section": {
+    "max_correlation_error_vs_minus_cos": 3.3306690738754696e-16,
+    "CHSH_S": -2.82842712474619,
+    "tsirelson_2root2": 2.8284271247461903,
+    "chsh_is_quantum_maximal": true,
+    "no_local_hidden_value_global_section": true,
+    "A_to_B_causal_edge_present": false,
+    "correlation_from_single_finalized_record": true,
+    "verdict": "PASS",
+    "reading": "E = -cos(dtheta) reproduced exactly as a readout of the ONE state prepared at P and read jointly at C -- with NO A->B edge in the causal set. CHSH=2sqrt2: no global section of LOCAL HIDDEN VALUES (Bell obstruction, H1!=0), but the finalized JOINT-RECORD section at C is a single well-defined object. Two different sheaves."
+  },
+  "module_d_sorkin_admissibility": {
+    "labels": [
+      "A",
+      "b1",
+      "b2",
+      "C"
+    ],
+    "geometry_as_intended": {
+      "A<b1": true,
+      "b2<C": true,
+      "A||C": true,
+      "b1||b2": true,
+      "A||b2": true,
+      "b1||C": true
+    },
+    "geometry_ok": true,
+    "foliation_update": {
+      "P(C=1|a=0)": 0.0,
+      "P(C=1|a=1)": 1.0,
+      "mutual_information_A_C_bits": 1.0,
+      "signals_superluminally": true
+    },
+    "causal_order_finality_update": {
+      "P(C=1|a=0)": 0.0,
+      "P(C=1|a=1)": 0.0,
+      "mutual_information_A_C_bits": 0.0,
+      "signals_superluminally": false
+    },
+    "finality_supplies_sorkin_restriction": true,
+    "verdict": "PASS",
+    "reading": "Foliation update fabricates the b1~b2 co-collapse (they share a slice) and leaks ~1 bit A->C across spacelike separation -- Sorkin's impossible measurement. The causal-order (finality) update forbids the b1-b2 link (incomparable in <_c) and leaks 0 bits. Finality-on-causal-order == Sorkin/Fewster-Verch admissible restriction."
+  },
+  "all_pass": true,
+  "verdicts": {
+    "module_a_frame_independence": "PASS",
+    "module_b_no_signaling": "PASS",
+    "module_c_global_section": "PASS",
+    "module_d_sorkin_admissibility": "PASS"
+  }
+}
