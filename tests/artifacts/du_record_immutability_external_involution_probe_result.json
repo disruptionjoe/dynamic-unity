@@ -1,0 +1,90 @@
+{
+  "PART_1_immutable_inflationary_has_fixpoint": {
+    "fixpoint_is_closed_under_generation_g_Rstar_subset_Rstar": true,
+    "fixpoint_reached_Phi_Rstar_eq_Rstar": true,
+    "fixpoint_size": 1,
+    "immutable_accretion_is_inflationary_every_step": true,
+    "monotonicity_of_law_NOT_required": true,
+    "positive_control_deleting_map_is_non_inflationary_and_cycles": true,
+    "trajectory_sizes": [
+      1,
+      1
+    ],
+    "verdict": "Claim alpha TRUE: immutability = union = inflationary (R subset Phi(R)); by Bourbaki-Witt an inflationary map on a chain-complete/finite carrier has a fixpoint R* with g(R*) subset R* -- the self-consistent record set = the QUINE / disclosure limit. Monotonicity of the generation LAW is NOT even needed (the modeled g is non-monotone). Control: a DELETING (non-immutable) map is non-inflationary and cycles -- no guaranteed closure. So 'immutable => the accretion has a fixpoint' is a theorem."
+  },
+  "PART_2_refutation_internal_fixpoint_free_involution": {
+    "derived_orientation_sequence": [
+      0,
+      1,
+      0,
+      1,
+      0,
+      1,
+      0
+    ],
+    "induced_map_is_an_involution_i2_eq_id": true,
+    "induced_map_is_fixpoint_free": true,
+    "induced_map_on_value_object": {
+      "0": 1,
+      "1": 0
+    },
+    "internal_fixpoint_free_involution_exists_in_immutable_dynamics": true,
+    "ledger_is_append_only_records_only_grow": true,
+    "on_records_append_flip_twice_returns_to_start": false,
+    "verdict": "LITERAL BRIDGE REFUTED. An immutable (append-only) ledger of flip-events carries a DERIVED orientation o(R)=(#flips) mod 2 whose induced map on {+,-} is the SWAP -- a genuine fixpoint-free involution (i^2=id, no fixed point) realized WITHOUT deleting any record (on records, append-a-flip is strictly increasing and never returns). So 'monotone accretion forbids an internal fixpoint-free involution' is FALSE: the involution acts on a derived orientation, not on the records, so immutability is not violated. The claim must be rescued at a different step -- see Part 3."
+  },
+  "PART_3_rescue_disclosed_vs_underivable": {
+    "derived_is_disclosed": true,
+    "derived_orientation_recoverable_from_records_accuracy": 1.0,
+    "discriminator_is_DERIVABILITY_not_fixpoint_freeness": true,
+    "external_coin_recoverable_from_records_accuracy": 0.492,
+    "external_is_underivable_no_invariant_valuation": true,
+    "verdict": "RESCUE HOLDS. The parity involution is DISCLOSED -- a third-person function recovers the orientation off the records EXACTLY (acc 1.0): a Kleene readout / quine, not a becoming-witness. An EXTERNAL coin is UNDERIVABLE -- no function of the records beats chance (acc ~0.5) = Goedel-independent / no_invariant_valuation (Lean-proved in TI). So the real discriminator is DERIVABILITY, not fixpoint-freeness: internally-derived => third-person computable => disclosed; genuine becoming needs first-person underivable => not-a-function-of-the-records => EXTERNAL. The becoming-L2 is external by necessity."
+  },
+  "PART_4_topological_instance_orientable_vs_moebius": {
+    "both_closures_exist_realization_dependent": true,
+    "cycle_length_S_I_O": 3,
+    "decorated_flip_closure_w1": 1,
+    "decorated_noflip_closure_w1": 0,
+    "flip_is_forced_by_record_structure": false,
+    "moebius_flip_is_fixpoint_free_no_global_section": true,
+    "record_arrow_has_global_section_fixpoint_ful": true,
+    "record_arrow_is_orientable_trivial_class_torsor": true,
+    "record_arrow_w1": 0,
+    "verdict": "THREE-SEAM PRONG A instance. The record-arrow cycle is ORIENTABLE (w1=0): its two orientations are a free Z/2 TORSOR -- a stable global section = fixpoint-ful, NOT the fixpoint-free involution the diagonal needs. The fixpoint-free flip is the Moebius band (w1=1), which has no global section -- but obtaining it requires DECORATING the cycle with a band whose accumulation is realization-dependent (both a flip-closure w1=1 and a no-flip-closure w1=0 exist on the same isospectral cycle). GU forces neither; the flip is an imported/external coin. sigma = w1(L_time) is the fixpoint-free one and it lives on the METRIC FIBER F ~ RP^3, external to the record accretion (A-NUMEROLOGY: reading-B is planting; reading-A stands alone)."
+  },
+  "PART_5_exhaustiveness_of_disjunction": {
+    "cases": {
+      "external_Krein_sigma (w1 L_time)": {
+        "internal_derived": false,
+        "underivable": true
+      },
+      "grown_causet_torsion (fixed law)": {
+        "internal_derived": true,
+        "underivable": false
+      },
+      "parity_of_flips (Part 2)": {
+        "internal_derived": true,
+        "underivable": false
+      },
+      "productive_noncomputable_law": {
+        "internal_derived": false,
+        "underivable": true
+      }
+    },
+    "disjunction_is_exhaustive_and_exclusive": true,
+    "internal_derived_AND_underivable_cell_is_empty": true,
+    "verdict": "EXHAUSTIVE & EXCLUSIVE. Every orientation-source is EITHER internal-derived (hence third-person computable = disclosed: parity, fixed-law torsion) OR external/underivable (a productive non-c.e. law factors through an ORACLE = external; the Krein sigma is the external posit). The cell 'internal-derived AND underivable' is EMPTY -- there is no source-internal, underivable, fixpoint-free involution. This is the alpha-parity eigenspace completeness (Prong III): even/odd exhaust, and the odd-underivable part is exactly the external bit."
+  },
+  "becoming_L2_external_THEOREM_under_underivability_standard": true,
+  "claim_status_change": "none",
+  "fixture_id": "du_record_immutability_external_involution_probe",
+  "informative": true,
+  "kind": "finite_window_signature_not_a_decision_procedure",
+  "literal_monotonicity_bridge_REFUTED": true,
+  "overall_verdict": "CONDITIONAL_THEOREM",
+  "positive_controls_fire_verdict_is_informative_not_rigged": true,
+  "question": "Does record-immutability force the becoming-involution (L2) EXTERNAL -- source-is-observer as a THEOREM (immutable => monotone => Kleene fixpoint => no internal fixpoint-free involution => L2 external) -- or is there a source-INTERNAL fixpoint-free involution in a genuine immutable record dynamics (REFUTED)?",
+  "sigma_externality_necessary_not_accidental": true,
+  "verdict": "CONDITIONAL-THEOREM. (1) The literal bridge 'monotone accretion forbids an internal fixpoint-free involution' is REFUTED: an immutable append-only ledger of flip-events carries a DERIVED orientation whose induced map on {+,-} is a genuine fixpoint-free involution, realized without deleting any record (Part 2). (2) BUT source-is-observer -- 'the becoming-L2 is external by NECESSITY' -- SURVIVES as a theorem under the corrected standard that genuine becoming requires FIRST-PERSON UNDERIVABILITY: every internally-derived orientation is a function of the records, hence third-person computable = DISCLOSED (Part 3); the record-arrow's own orientation is the trivial/orientable class (a torsor, fixpoint-ful), and the fixpoint-free flip is an un-forced external band (Part 4); and 'internal-derived AND underivable' is an EMPTY cell (Part 5). So the correct necessity runs through DERIVABILITY, not fixpoint-freeness: underivable => external. sigma = w1(L_time) is the unique fixpoint-free, underivable (Goedel-independent), external involution => sigma's externality is NECESSARY, not accidental. The CONDITION is exactly the fixed-rule-first-person caveat the trunk synthesis flagged open: if disclosed formal-involution (parity) is accepted as 'genuine becoming', the theorem downgrades to the Part-2 refutation."
+}
