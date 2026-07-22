@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 6
+manifest_revision: 7
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -68,16 +68,18 @@ lanes:
       (rtest-wave-synthesis-2026-07-21.md); type-III (modular/KMS) source-selection and the neural-
       scaling spectral-dimension lead are the adjacent routes to the same sourced scale.
   priority_guard: >-
-    SWING-DU-COV-02 is now executed. The strongest local lift, u.nabla N=kappa(Theta/3)^-3 with
-    T_V=-V(N)g and complete Q_vac=-nabla V, is genuinely covariant and reproduces COV-01, but its
-    scalar characteristic obeys c_N^2=beta Omega_V^3/[2(1-Omega_V)]=3 Omega_V* at every fixed point.
-    Every accelerating attractor is therefore superluminal in the declared continuum model; the
-    geodesic zero-sound escape contradicts the local count transport for a growing mode, and linear
-    clustering pressures beta toward ~1e-5 where the roll is the constant-Lambda limit. Outcome:
-    VIABLE_ONLY_AS_LAMBDA_LIMIT. COV-01 remains a scoped background theorem, but further coefficient
-    sourcing does not count as physical progress through this closure. Reopen Channel 1.4 only with
-    a separately recomputed causal-past/nonlocal model or new action/operator content that changes
-    the principal cone without inserting a free history.
+    SWING-DU-COV-02 kills the strongest local constant-kappa lift except at the constant-Lambda
+    limit: every accelerating fixed point has c_N^2=3 Omega_V*>1. SWING-DU-CMF-01 then executes the
+    class-relative escape rather than globalizing that no-go. Literal causal-past volume, a
+    metric-null bi-wave proxy and an order-first signed martingale are retarded and do not inherit
+    the local superluminal characteristic. They fail one level deeper: every built scale-free
+    positive memory tracks radiation/matter or does not accelerate; late calibration makes the
+    early fraction order one; the raw martingale is too noisy early, rarely preserves a positive
+    sign, and has no stationary de Sitter limit. Outcome: CAUSAL_ESCAPE_TRACKER_FAIL. A fitted
+    offset/window is REIMPORTS_COSMIC_CLOCK. Further coefficient or kernel tuning does not count as
+    physical progress. Reopen through the coupled HC-DU-011 + HC-DU-022 object: label-invariant
+    order-first growth with feedback and an endogenously generated dimensional memory scale,
+    followed by a causal response/noise action and common-past spectrum.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -118,23 +120,25 @@ lanes:
       stress/interaction completion, accelerated expansion, stable background/perturbative behavior,
       and an observationally viable H(z), q(z), w_eff(z), Ω_Λ(z) and growth history without importing
       an arbitrary function or target. SWING-DU-COV-01 closes the conserved accelerating background
-      leg. SWING-DU-COV-02 constructs and kills the strongest local covariant lift: it has a complete
-      transfer four-vector but a superluminal accelerating-attractor scalar cone and scale-dependent
-      growth, leaving only beta->0. A causal-past count is a distinct retarded nonlocal model whose
-      background must be recomputed rather than inherited.
+      leg. SWING-DU-COV-02 constructs and kills the strongest local covariant lift. SWING-DU-CMF-01
+      separately recomputes the literal causal-past count, a bi-wave memory and an order-first
+      martingale: nonlocality escapes the local cone, but the scale-free backgrounds track or fail
+      to accelerate and the stochastic branch fails early-RMS/sign/de-Sitter controls.
     grade: >-
-      SCOPED VERDICT / VIABLE_ONLY_AS_LAMBDA_LIMIT for the constant-kappa local lift. Background
-      conservation and acceleration remain executable; local covariant N and complete Q^mu were
-      constructed at phenomenological grade; gauge-invariant scalar principal structure and finite
-      growth were executed; no fundamental action/ghost clearance or likelihood. Causal-past and
-      other nonlocal/UV completions remain separate OPEN models, not rescues already earned.
+      TWO SCOPED VERDICTS: VIABLE_ONLY_AS_LAMBDA_LIMIT for the constant-kappa local lift;
+      CAUSAL_ESCAPE_TRACKER_FAIL for the literal/scale-free causal-memory tournament. Exact retarded
+      background, metric-null comparator, full finite history, common-past covariance and complete-Q
+      phenomenology exist. No order-first source law, generated memory scale, CTP/noise action,
+      finite-k feedback clearance or likelihood. Generated-scale/UV completions remain OPEN models,
+      not rescues already earned.
   - id: '1.5'
     title: Theory kernel, typed objects and low-energy recovery
     scope: >-
       Build the minimum complete theory passport (state space, action, symmetries, observables,
       quantization, constraints, limits and predictions); construct explicit typed maps among the
-      several N objects; test CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery
-      of GR plus the Standard Model. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
+      several N objects; build the HC-DU-011 + HC-DU-022 order-first causal scale generator; test
+      CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the Standard
+      Model. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
     grade: OPEN / foundational construction and audit
 - id: '2'
   label: Lane 2
@@ -158,19 +162,25 @@ lanes:
     title: Candidate-unification generation
     scope: >-
       Abduce / synthesize / reframe new candidate unifying structures (including non-GU frames);
-      give each a cheap discriminating test; promote survivors to Lane 1.
+      give each a cheap discriminating test; promote survivors to Lane 1. CMF-01's literal,
+      bi-wave, martingale, offset and generated-scale tournament leaves the order-first causal scale
+      generator as the active frontier candidate, not a generic fitted nonlocal kernel.
   - id: '2.3'
     title: GU ablation and rival-frame tournament
     scope: >-
       Remove GU from each candidate argument to measure its unique contribution, then compare DU
       against live causal-set, unimodular, sequestering and other unification frames with one common
-      recovery, prediction, complexity and evidence-independence scorecard. Work package WP-07.
+      recovery, prediction, complexity and evidence-independence scorecard. CMF-01 supplies the
+      first shared causal-memory scorecard and the exact common-past covariance observable. Work
+      package WP-07.
   - id: '2.4'
     title: Open-endedness, emergence and network alternatives
     scope: >-
       Rework the source-internal-MINT search with non-circular novelty measures, RG/emergence,
       evolutionary open-endedness, network topology and physically explicit selection dynamics;
-      distinguish operational novelty from literal fundamental algebra growth. Work package WP-08.
+      distinguish operational novelty from literal fundamental algebra growth. Couple the next
+      order-first causet law to a genuinely generated spectral/nonlocality scale; an inserted
+      `m~H0`, `N0`, reset or window does not qualify. Work package WP-08.
   - id: open
     title: (open)
     scope: New program-native candidates admitted as they earn an object + a cheap test.
@@ -300,13 +310,13 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 6
+  revision: 7
   status: founding
   created: '2026-07-21'
   approved_by: >-
     Joe direct chat via coordinator, 2026-07-21 (rev3 mode-lane redesign; rev4 lossless panel
     routing, channel additions and covariant-cosmology priority guard; rev5 COV-01 execution;
-    rev6 Joe-directed COV-02 execution via "Do it")
+    rev6 Joe-directed COV-02 execution via "Do it"; rev7 Joe-directed heterodox CMF-01 execution)
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -331,3 +341,11 @@ provenance:
     beta->0. Recorded VIABLE_ONLY_AS_LAMBDA_LIMIT without changing the Lane-1 anchor's mathematical
     half-power grade, canon, or public posture. Reopen physical cosmology only through a separately
     recomputed causal-past/nonlocal completion or genuinely new action/operator content.
+  rev7_note: >-
+    2026-07-21 (Joe direct chat: "Orchestrate and take a big wild frontier heterodox swing"):
+    executed SWING-DU-CMF-01 across literal causal-past volume, a retarded bi-wave memory and an
+    order-first signed martingale. Nonlocality genuinely escapes COV-02's local principal class,
+    but scale-free memory returns CAUSAL_ESCAPE_TRACKER_FAIL through exact tracker, early-history,
+    sign-persistence and de Sitter controls. Elevated the coupled HC-DU-011 + HC-DU-022 order-first
+    causal scale generator as the next frontier object without changing the Lane-1 anchor's
+    mathematical half-power grade, canon or public posture. No lane was added or removed.

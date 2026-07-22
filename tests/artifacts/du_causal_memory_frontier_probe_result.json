@@ -1,0 +1,685 @@
+{
+  "all_instrument_and_verdict_checks_pass": true,
+  "candidate_tournament": [
+    {
+      "candidate": "literal causal-past count as separately conserved effective component",
+      "decisive_evidence": "w_X=1/3 in radiation, 0 in matter; late-calibrated q0>0 and early Omega_X~1",
+      "gain": "covariant, retarded, unique unweighted count; pressure forced rather than selected",
+      "result": "TRACKING_NONACCELERATING"
+    },
+    {
+      "candidate": "literal count with vacuum stress and complete exchange",
+      "decisive_evidence": "positive vacuum in an exact radiation era forces negative receiving matter under the least arbitrary partition",
+      "gain": "Bianchi-compatible phenomenology can be written",
+      "result": "PATHOLOGICAL_SECTOR_EXCHANGE_OR_ALWAYS_ON_TRACKER"
+    },
+    {
+      "candidate": "retarded bi-wave memory N_box=8*pi*Box_ret^-2(1)",
+      "decisive_evidence": "still homogeneous degree four and late calibration predicts order-one radiation fraction; also a memory proxy, not an event count",
+      "gain": "metric-null principal polynomial; genuine escape from COV-02 local sound cone",
+      "result": "CAUSAL_ESCAPE_TRACKER_FAIL"
+    },
+    {
+      "candidate": "order-first signed causal martingale S_N/N",
+      "decisive_evidence": "weak early cap makes the late target >100 sigma; sign persistence is low; raw de Sitter memory never becomes stationary",
+      "gain": "half-power, sign, retarded update, and spatial covariance arise from count statistics/common-past overlap",
+      "result": "PRINCIPAL_ESCAPE_BACKGROUND_KILL / ACTION_OPEN"
+    },
+    {
+      "candidate": "order-first growth with an endogenously generated memory scale",
+      "decisive_evidence": "must construct label-invariant growth, geometry recovery, return arrow, CTP/noise action, and source the scale before cosmological fitting",
+      "gain": "only identified route that could break scale-free tracking without choosing today's history",
+      "result": "OPEN_UNBUILT_FRONTIER"
+    }
+  ],
+  "checks": [
+    {
+      "evidence": 0.0,
+      "name": "causal-volume quadrature matches exact coefficient at p=0",
+      "pass": true
+    },
+    {
+      "evidence": 1.0,
+      "name": "literal-count/bi-wave ratio identity holds at p=0",
+      "pass": true
+    },
+    {
+      "evidence": 3.482651053880067e-11,
+      "name": "causal-volume quadrature matches exact coefficient at p=0.5",
+      "pass": true
+    },
+    {
+      "evidence": 0.8571428571428572,
+      "name": "literal-count/bi-wave ratio identity holds at p=0.5",
+      "pass": true
+    },
+    {
+      "evidence": 1.1985979216256032e-13,
+      "name": "causal-volume quadrature matches exact coefficient at p=0.666667",
+      "pass": true
+    },
+    {
+      "evidence": 0.8181818181818181,
+      "name": "literal-count/bi-wave ratio identity holds at p=0.666667",
+      "pass": true
+    },
+    {
+      "evidence": 7.209257277983971e-15,
+      "name": "causal-volume quadrature matches exact coefficient at p=1",
+      "pass": true
+    },
+    {
+      "evidence": 0.75,
+      "name": "literal-count/bi-wave ratio identity holds at p=1",
+      "pass": true
+    },
+    {
+      "evidence": 0.0,
+      "name": "causal-volume quadrature matches exact coefficient at p=2.15054",
+      "pass": true
+    },
+    {
+      "evidence": 0.5824634655532359,
+      "name": "literal-count/bi-wave ratio identity holds at p=2.15054",
+      "pass": true
+    },
+    {
+      "evidence": 1.0471975511965976,
+      "name": "Minkowski literal count equals normalized bi-wave memory",
+      "pass": true
+    },
+    {
+      "evidence": 2.7755575615628914e-17,
+      "name": "retarded bi-wave power-law auxiliary equations close",
+      "pass": true
+    },
+    {
+      "evidence": 1.867481647196147e-15,
+      "name": "finite de Sitter causal volume matches independent quadrature",
+      "pass": true
+    },
+    {
+      "evidence": 2.0139580841432396,
+      "name": "literal full-past Lambda decays rather than reaching a de Sitter constant",
+      "pass": true
+    },
+    {
+      "evidence": 0.7483911860571968,
+      "name": "late-calibrated literal positive envelope predicts order-one radiation fraction",
+      "pass": true
+    },
+    {
+      "evidence": 0.7509564828482025,
+      "name": "late-calibrated bi-wave positive envelope predicts order-one radiation fraction",
+      "pass": true
+    },
+    {
+      "evidence": 0.013441595919980398,
+      "name": "weak radiation cap makes literal matter-era fraction negligible",
+      "pass": true
+    },
+    {
+      "evidence": 0.013141275150647225,
+      "name": "weak radiation cap makes bi-wave matter-era fraction negligible",
+      "pass": true
+    },
+    {
+      "evidence": 2.07,
+      "name": "COV-02 local control is superluminal at the late target",
+      "pass": true
+    },
+    {
+      "evidence": [
+        -1.0,
+        1.0
+      ],
+      "name": "retarded bi-wave proxy has only metric-null principal characteristics",
+      "pass": true
+    },
+    {
+      "evidence": 9.496048392065859e-11,
+      "name": "separately conserved history converges at 20k/40k",
+      "pass": true
+    },
+    {
+      "evidence": 0.9999999992573697,
+      "name": "late calibration closes E(1)=1",
+      "pass": true
+    },
+    {
+      "evidence": 1.0000000000000002,
+      "name": "algebraic Lambda sqrt(N)/A closure is exact",
+      "pass": true
+    },
+    {
+      "evidence": 0.9972559743736947,
+      "name": "late-calibrated conserved completion is radiation dominated by X at z~1e9",
+      "pass": true
+    },
+    {
+      "evidence": 0.989055056318926,
+      "name": "late-calibrated conserved completion violates weak early fraction at last scattering",
+      "pass": true
+    },
+    {
+      "evidence": 0.22383103416841932,
+      "name": "late-calibrated conserved completion never develops a standard matter interval",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "q0": 0.526223674049342,
+        "w_x0": 0.025480477249273603
+      },
+      "name": "late-calibrated conserved completion is nonaccelerating today",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "z1": 1.6177366318142956,
+        "z2": 1.7918106433561753
+      },
+      "name": "late-calibrated conserved completion strongly departs from LCDM over z=1..2",
+      "pass": true
+    },
+    {
+      "evidence": 0.6462691440891313,
+      "name": "age control flags a substantially too-young expansion history",
+      "pass": true
+    },
+    {
+      "evidence": {
+        "assumptions": "p_Lambda=-rho_Lambda; exact p=1/2 radiation scaling; radiation separately conserved; exchange assigned to matter",
+        "forced_omega_m": -0.04,
+        "forced_omega_r": 1.03,
+        "identity": "Omega_r=1+3 Omega_Lambda; Omega_m=-4 Omega_Lambda",
+        "test_positive_omega_Lambda": 0.01
+      },
+      "name": "vacuum-stress radiation completion forces negative matter for positive Lambda",
+      "pass": true
+    },
+    {
+      "evidence": 1.942890293094024e-16,
+      "name": "Brownian positive-survival formula matches quadrature from z=0.5",
+      "pass": true
+    },
+    {
+      "evidence": 1.3877787807814457e-16,
+      "name": "Brownian positive-survival formula matches quadrature from z=0.7",
+      "pass": true
+    },
+    {
+      "evidence": 9.71445146547012e-17,
+      "name": "Brownian positive-survival formula matches quadrature from z=1",
+      "pass": true
+    },
+    {
+      "evidence": 2.42861286636753e-17,
+      "name": "Brownian positive-survival formula matches quadrature from z=2",
+      "pass": true
+    },
+    {
+      "evidence": 0.0,
+      "name": "common-past covariance matches ball-overlap quadrature at r/T=0",
+      "pass": true
+    },
+    {
+      "evidence": 0.0,
+      "name": "common-past covariance matches ball-overlap quadrature at r/T=0.25",
+      "pass": true
+    },
+    {
+      "evidence": 5.551115123125783e-17,
+      "name": "common-past covariance matches ball-overlap quadrature at r/T=0.75",
+      "pass": true
+    },
+    {
+      "evidence": 1.0408340855860843e-17,
+      "name": "common-past covariance matches ball-overlap quadrature at r/T=1.5",
+      "pass": true
+    },
+    {
+      "evidence": 0.0,
+      "name": "common-past covariance matches ball-overlap quadrature at r/T=2",
+      "pass": true
+    },
+    {
+      "evidence": 210.27085242079147,
+      "name": "weak early RMS cap makes the late target an extreme martingale realization",
+      "pass": true
+    },
+    {
+      "evidence": 4.205417048415829,
+      "name": "late-RMS calibration makes radiation-era fluctuations supercritical",
+      "pass": true
+    },
+    {
+      "evidence": 0.023583904023815015,
+      "name": "unmodified martingale has poor positive-sign persistence from z=2",
+      "pass": true
+    },
+    {
+      "evidence": 0.5327705043257289,
+      "name": "common-past covariance is neither a global constant nor independent local noise",
+      "pass": true
+    },
+    {
+      "evidence": 9.716680706713867e-11,
+      "name": "an offset can suppress early density (positive rescue control)",
+      "pass": true
+    },
+    {
+      "evidence": 1.00427828414041,
+      "name": "the offset rescue requires a clock of order the present age",
+      "pass": true
+    }
+  ],
+  "checks_passed": 45,
+  "checks_total": 45,
+  "de_sitter": {
+    "H": 1.0,
+    "Lambda_rms_at_T100_over_T400": 2.0139580841432396,
+    "asymptotic_formula": "N=(4*pi/3H^3)[T-11/(6H)+O(exp(-HT))]",
+    "duration_20_exact": 76.096355412854,
+    "duration_20_quadrature": 76.09635541285385,
+    "relative_quadrature_error": 1.867481647196147e-15
+  },
+  "deterministic_positive_envelope": {
+    "biwave_memory": {
+      "amplitude_at_early_cap": 0.008175659473196902,
+      "amplitude_for_late_target": 2.0219074372010746,
+      "late_target_omega": 0.69,
+      "late_target_p_matter": 2.1505376344086016,
+      "predicted_matter_omega_from_early_cap": 0.013141275150647225,
+      "predicted_matter_p_from_early_cap": 0.6755441785939882,
+      "predicted_radiation_omega": 0.7509564828482025,
+      "predicted_radiation_p": 2.007681250723901,
+      "weak_early_cap": 0.02
+    },
+    "literal_count": {
+      "amplitude_at_early_cap": 0.007558180132635178,
+      "amplitude_for_late_target": 1.5431054839054634,
+      "late_target_omega": 0.69,
+      "late_target_p_matter": 2.1505376344086016,
+      "predicted_matter_omega_from_early_cap": 0.013441595919980398,
+      "predicted_matter_p_from_early_cap": 0.6757498227267582,
+      "predicted_radiation_omega": 0.7483911860571968,
+      "predicted_radiation_p": 1.987211783899042,
+      "weak_early_cap": 0.02
+    }
+  },
+  "geometry": {
+    "p=0": {
+      "C_J_exact": 1.0471975511965976,
+      "C_J_over_C_box": 1.0,
+      "C_J_quadrature": 1.0471975511965976,
+      "C_box": 1.0471975511965976,
+      "biwave_auxiliary_residuals": {
+        "D_S_minus_U_coefficient": 0.0,
+        "D_U_minus_1": 0.0
+      },
+      "ratio_identity_3_over_p_plus_3": 1.0,
+      "relative_quadrature_error": 0.0
+    },
+    "p=0.5": {
+      "C_J_exact": 0.23935944027350806,
+      "C_J_over_C_box": 0.8571428571428572,
+      "C_J_quadrature": 0.2393594402818441,
+      "C_box": 0.2792526803190927,
+      "biwave_auxiliary_residuals": {
+        "D_S_minus_U_coefficient": 0.0,
+        "D_U_minus_1": 0.0
+      },
+      "ratio_identity_3_over_p_plus_3": 0.8571428571428571,
+      "relative_quadrature_error": 3.482651053880067e-11
+    },
+    "p=0.666666666667": {
+      "C_J_exact": 0.17135959928671599,
+      "C_J_over_C_box": 0.8181818181818181,
+      "C_J_quadrature": 0.17135959928673652,
+      "C_box": 0.20943951023931956,
+      "biwave_auxiliary_residuals": {
+        "D_S_minus_U_coefficient": 2.7755575615628914e-17,
+        "D_U_minus_1": 0.0
+      },
+      "ratio_identity_3_over_p_plus_3": 0.8181818181818182,
+      "relative_quadrature_error": 1.1985979216256032e-13
+    },
+    "p=1": {
+      "C_J_exact": 0.09817477042468103,
+      "C_J_over_C_box": 0.75,
+      "C_J_quadrature": 0.09817477042468033,
+      "C_box": 0.1308996938995747,
+      "biwave_auxiliary_residuals": {
+        "D_S_minus_U_coefficient": 0.0,
+        "D_U_minus_1": 0.0
+      },
+      "ratio_identity_3_over_p_plus_3": 0.75,
+      "relative_quadrature_error": 7.209257277983971e-15
+    },
+    "p=2.15053763441": {
+      "C_J_exact": 0.025981388081736983,
+      "C_J_over_C_box": 0.5824634655532359,
+      "C_J_quadrature": 0.025981388081736983,
+      "C_box": 0.04460603903638715,
+      "biwave_auxiliary_residuals": {
+        "D_S_minus_U_coefficient": 0.0,
+        "D_U_minus_1": 0.0
+      },
+      "ratio_identity_3_over_p_plus_3": 0.5824634655532359,
+      "relative_quadrature_error": 0.0
+    }
+  },
+  "honest_grade": "Exact/structural for power-law causal volumes, bi-wave coefficients and principal cone, de Sitter full-past asymptotics, tracker equations of state, Brownian survival, and Minkowski common-past covariance. Deterministic finite-background grade for the separately conserved radiation/matter history. Phenomenological only for stress closure; no order-first growth law, CTP/noise-complete action, finite-k feedback spectrum, Boltzmann hierarchy, or likelihood.",
+  "imported_clock_control": {
+    "disposition": "positive rescue control, but t_c approximately t0 explicitly reimports the desired cosmic clock",
+    "model": "N=N0+C t^4; Omega=Omega_inf/sqrt(1+(t_c/t)^4)",
+    "omega_asymptotic": 0.98,
+    "omega_at_t_over_t0_1e-5": 9.716680706713867e-11,
+    "omega_now_target": 0.69,
+    "required_t_c_over_t0": 1.00427828414041
+  },
+  "order_first_martingale": {
+    "action_grade": "complete-Q stochastic phenomenology only; a causal response plus positive noise kernel/CTP construction is unbuilt",
+    "conditional_mean": 0.0,
+    "conditional_variance": "lambda^2/N_x",
+    "cross_covariance": "lambda^2*N_xz/(N_x*N_z), N_xz=|J-(x) intersect J-(z)|",
+    "definition": "S_x=sum_{e in J-(x)} xi_e; Lambda_x=lambda*S_x/N_x; E[xi]=0; Cov(xi_e,xi_f)=delta_ef",
+    "lambda_for_late_rms_target": 1.5431054839054636,
+    "lambda_max_from_weak_early_cap": 0.007338656148201748,
+    "late_rms_at_weak_early_cap": 0.0032814819175183653,
+    "late_rms_omega_per_lambda": 0.44715024811762766,
+    "late_target_in_sigma_units_at_early_cap": 210.27085242079147,
+    "minkowski_equal_time_common_past_correlation": {
+      "formula": "rho(s)=1-s+s^3/4-s^4/16 for 0<=s<=2, else 0",
+      "half_correlation_r_over_T": 0.5327705043257289,
+      "samples": {
+        "r_over_T=0": {
+          "absolute_error": 0.0,
+          "analytic_common_past_fraction": 1.0,
+          "quadrature": 1.0
+        },
+        "r_over_T=0.25": {
+          "absolute_error": 0.0,
+          "analytic_common_past_fraction": 0.753662109375,
+          "quadrature": 0.753662109375
+        },
+        "r_over_T=0.75": {
+          "absolute_error": 5.551115123125783e-17,
+          "analytic_common_past_fraction": 0.335693359375,
+          "quadrature": 0.33569335937500006
+        },
+        "r_over_T=1.5": {
+          "absolute_error": 1.0408340855860843e-17,
+          "analytic_common_past_fraction": 0.02734375,
+          "quadrature": 0.02734375000000001
+        },
+        "r_over_T=2": {
+          "absolute_error": 0.0,
+          "analytic_common_past_fraction": 0.0,
+          "quadrature": 0.0
+        }
+      }
+    },
+    "positive_sign_survival": {
+      "z=0.5_to_0": {
+        "absolute_error": 1.942890293094024e-16,
+        "analytic_continuous_survival": 0.19150316952319868,
+        "count_ratio": 11.390625,
+        "quadrature": 0.19150316952319887
+      },
+      "z=0.7_to_0": {
+        "absolute_error": 1.3877787807814457e-16,
+        "analytic_continuous_survival": 0.13049044921041225,
+        "count_ratio": 24.137568999999996,
+        "quadrature": 0.1304904492104124
+      },
+      "z=1_to_0": {
+        "absolute_error": 9.71445146547012e-17,
+        "analytic_continuous_survival": 0.07978617534953644,
+        "count_ratio": 64.0,
+        "quadrature": 0.07978617534953654
+      },
+      "z=2_to_0": {
+        "absolute_error": 2.42861286636753e-17,
+        "analytic_continuous_survival": 0.023583904023815015,
+        "count_ratio": 729.0,
+        "quadrature": 0.02358390402381504
+      }
+    },
+    "radiation_rms_omega_per_lambda": 2.7252946038220864,
+    "radiation_rms_when_late_rms_is_target": 4.205417048415829
+  },
+  "primary_sources": [
+    "https://arxiv.org/abs/astro-ph/0209274",
+    "https://arxiv.org/abs/0711.2904",
+    "https://arxiv.org/abs/1403.1622",
+    "https://arxiv.org/abs/1402.0448",
+    "https://arxiv.org/abs/1601.03808",
+    "https://arxiv.org/abs/2307.13743"
+  ],
+  "principal_structure": {
+    "COV02_local_control_c_squared": 2.07,
+    "biwave_characteristic_speeds_in_local_Minkowski_frame": [
+      -1.0,
+      1.0
+    ],
+    "biwave_principal_polynomial": "(g^ab k_a k_b)^2",
+    "honest_limit": "null support is not a quantum ghost or full feedback stability theorem"
+  },
+  "probe": "du_causal_memory_frontier_probe",
+  "separately_conserved_history": {
+    "absolute_20k_40k_convergence": {
+      "E": 7.757283704279416e-11,
+      "omega_x": 5.98686655806091e-11,
+      "q": 7.473177632277839e-11,
+      "tau": 9.496048392065859e-11,
+      "v": 1.538591476446527e-11,
+      "w_x": 7.052314288102934e-11
+    },
+    "analytic_radiation_tracker_fraction": 0.9972559836836601,
+    "analytic_w_X_matter": 0.0,
+    "analytic_w_X_radiation": 0.3333333333333333,
+    "calibrated_A": 0.3659259377995537,
+    "completion": "ordinary radiation and matter separately conserved; p_X forced by rho_X=A/sqrt(N_J)",
+    "max_convergence_residual": 9.496048392065859e-11,
+    "run_20k": {
+      "final": {
+        "E": 0.9999999993349425,
+        "E_over_LCDM": 0.9999999993324461,
+        "a": 0.9999999999947188,
+        "closure": 1.0,
+        "omega_m": 0.31500000042397697,
+        "omega_r": 9.200000012431405e-05,
+        "omega_x": 0.6849079995758988,
+        "q": 0.5262236741240738,
+        "tau": 0.6462691439941708,
+        "v": 0.031716072603082686,
+        "w_x": 0.025480477319796746,
+        "z": 5.28133092814187e-12
+      },
+      "max_omega_m_for_10_le_z_le_1000": 0.22383103397541798,
+      "samples": {
+        "z=0": {
+          "E": 0.9999999993349425,
+          "E_over_LCDM": 0.9999999993324461,
+          "a": 0.9999999999947188,
+          "closure": 1.0,
+          "omega_m": 0.31500000042397697,
+          "omega_r": 9.200000012431405e-05,
+          "omega_x": 0.6849079995758988,
+          "q": 0.5262236741240738,
+          "tau": 0.6462691439941708,
+          "v": 0.031716072603082686,
+          "w_x": 0.025480477319796746,
+          "z": 5.28133092814187e-12
+        },
+        "z=1": {
+          "E": 2.8965426431578774,
+          "E_over_LCDM": 1.617736632047747,
+          "a": 0.5000345349743348,
+          "closure": 1.0,
+          "omega_m": 0.3002967974144228,
+          "omega_r": 0.00017539934779272996,
+          "omega_x": 0.6995278032377845,
+          "q": 0.5442325157742085,
+          "tau": 0.21914107616056142,
+          "v": 0.000431930838238671,
+          "w_x": 0.04207106174192221,
+          "z": 0.9998618696433175
+        },
+        "z=1100": {
+          "E": 225017.5615814991,
+          "E_over_LCDM": 9.556576216015541,
+          "a": 0.0009088662990601694,
+          "closure": 1.0,
+          "omega_m": 0.008286625757360269,
+          "omega_r": 0.002662900867399964,
+          "omega_x": 0.9890504733752397,
+          "q": 0.9852488492335538,
+          "tau": 2.2331084569859654e-06,
+          "v": 5.93254871167499e-24,
+          "w_x": 0.32618315028853506,
+          "z": 1099.2718453022949
+        },
+        "z=1e+09": {
+          "E": 1.8310515690881834e+17,
+          "E_over_LCDM": 19.089999570505313,
+          "a": 9.99999999997148e-10,
+          "closure": 1.0,
+          "omega_m": 9.39527296164263e-09,
+          "omega_r": 0.00274401623007488,
+          "omega_x": 0.9972559743746521,
+          "q": 0.9999999832014848,
+          "tau": 2.7306713325024044e-18,
+          "v": 1.3308474687275856e-71,
+          "w_x": 0.33333332524388326,
+          "z": 999999999.0028521
+        },
+        "z=2": {
+          "E": 5.431944493038812,
+          "E_over_LCDM": 1.7918106436988663,
+          "a": 0.3334264127614732,
+          "closure": 0.9999999999999999,
+          "omega_m": 0.2880049200603963,
+          "omega_r": 0.0002522767227336635,
+          "omega_x": 0.71174280321687,
+          "q": 0.5596002558342608,
+          "tau": 0.11522931316087362,
+          "v": 3.373466618451502e-05,
+          "w_x": 0.05570749921093987,
+          "z": 1.9991625190034976
+        }
+      },
+      "steps": 20000
+    },
+    "run_40k": {
+      "final": {
+        "E": 0.9999999992573697,
+        "E_over_LCDM": 0.9999999992493817,
+        "a": 0.9999999999831006,
+        "closure": 1.0000000000000002,
+        "omega_m": 0.315000000483827,
+        "omega_r": 9.200000014286295e-05,
+        "omega_x": 0.6849079995160301,
+        "q": 0.526223674049342,
+        "tau": 0.6462691440891313,
+        "v": 0.0317160726184686,
+        "w_x": 0.025480477249273603,
+        "z": 1.6899370791634283e-11
+      },
+      "max_omega_m_for_10_le_z_le_1000": 0.22383103416841932,
+      "samples": {
+        "z=0": {
+          "E": 0.9999999992573697,
+          "E_over_LCDM": 0.9999999992493817,
+          "a": 0.9999999999831006,
+          "closure": 1.0000000000000002,
+          "omega_m": 0.315000000483827,
+          "omega_r": 9.200000014286295e-05,
+          "omega_x": 0.6849079995160301,
+          "q": 0.526223674049342,
+          "tau": 0.6462691440891313,
+          "v": 0.0317160726184686,
+          "w_x": 0.025480477249273603,
+          "z": 1.6899370791634283e-11
+        },
+        "z=1": {
+          "E": 2.896542642779531,
+          "E_over_LCDM": 1.6177366318142956,
+          "a": 0.5000345349685335,
+          "closure": 1.0,
+          "omega_m": 0.30029679750332433,
+          "omega_r": 0.00017539934784669114,
+          "omega_x": 0.6995278031488289,
+          "q": 0.5442325156616282,
+          "tau": 0.21914107621059883,
+          "v": 0.00043193083857419925,
+          "w_x": 0.04207106163995489,
+          "z": 0.9998618696665196
+        },
+        "z=1100": {
+          "E": 225274.85916622044,
+          "E_over_LCDM": 9.558576804978577,
+          "a": 0.0009083432641070222,
+          "closure": 0.9999999999999999,
+          "omega_m": 0.008281997595923298,
+          "omega_r": 0.002662946085150702,
+          "omega_x": 0.989055056318926,
+          "q": 0.9852570548492492,
+          "tau": 2.230551692550842e-06,
+          "v": 5.9054369506822166e-24,
+          "w_x": 0.32618715457408576,
+          "z": 1099.905395035966
+        },
+        "z=1e+09": {
+          "E": 1.8310515687687408e+17,
+          "E_over_LCDM": 19.0899995671749,
+          "a": 9.99999999997148e-10,
+          "closure": 1.0,
+          "omega_m": 9.3952729649208e-09,
+          "omega_r": 0.002744016231032314,
+          "omega_x": 0.9972559743736947,
+          "q": 0.9999999831998643,
+          "tau": 2.7306713329560364e-18,
+          "v": 1.3308474696588522e-71,
+          "w_x": 0.3333333252427999,
+          "z": 999999999.0028521
+        },
+        "z=2": {
+          "E": 5.43194449208722,
+          "E_over_LCDM": 1.7918106433561753,
+          "a": 0.3334264127576147,
+          "closure": 1.0000000000000002,
+          "omega_m": 0.28800492017130286,
+          "omega_r": 0.0002522767228337311,
+          "omega_x": 0.7117428031058634,
+          "q": 0.559600255691588,
+          "tau": 0.1152293131944951,
+          "v": 3.373466621867699e-05,
+          "w_x": 0.05570749908594452,
+          "z": 1.999162519038205
+        }
+      },
+      "steps": 40000
+    }
+  },
+  "surviving_frontier": "A label-invariant order-first causal growth law with feedback and an endogenously generated dimensional memory scale, plus a causal response/noise action. Stochastic sign alone and nonlocality alone are insufficient.",
+  "swing": "SWING-DU-CMF-01",
+  "terminal_outcome": "CAUSAL_ESCAPE_TRACKER_FAIL",
+  "typed_boundary": {
+    "N0_or_window": "boundary/kernel datum; a clock unless independently generated",
+    "N_J": "literal unweighted causal-past event/four-volume count on a supplied metric",
+    "N_box": "retarded bi-wave memory coordinate, not a count",
+    "S_N_over_N": "signed stochastic action-density/martingale, not positive deterministic vacuum energy",
+    "order_first_N": "causet past-cardinality before geometry; program-native candidate, not built by metric-seeded FLRW"
+  },
+  "vacuum_radiation_completion": {
+    "assumptions": "p_Lambda=-rho_Lambda; exact p=1/2 radiation scaling; radiation separately conserved; exchange assigned to matter",
+    "forced_omega_m": -0.04,
+    "forced_omega_r": 1.03,
+    "identity": "Omega_r=1+3 Omega_Lambda; Omega_m=-4 Omega_Lambda",
+    "test_positive_omega_Lambda": 0.01
+  },
+  "verdict_reason": "Causal memory genuinely exits the local superluminal-characteristic class, so COV-02 was class-relative. But every built scale-free positive branch tracks the dominant era or fails to accelerate, while the order-first martingale is far too noisy early, rarely preserves a positive sign, and has no stationary raw-past de Sitter limit. A fitted offset/window works only by importing a present-age clock."
+}

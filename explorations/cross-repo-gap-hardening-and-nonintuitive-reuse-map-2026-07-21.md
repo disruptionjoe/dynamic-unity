@@ -242,28 +242,28 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | ID | Priority | Object / credibility gap | Current grade and status | Exact next discriminator | DU home | Reuse |
 |---|---|---|---|---|---|---|
 | `HC-DU-001` | P0 | conserved accelerating Lambda-N background | `DU-H2`, `DONE_SCOPED` | independently rederive and attack assumptions | `1.4/4.4` | new audit |
-| `HC-DU-002` | P0 | covariant/local definition of cumulative `N` | `DU-H2`, `PARTIAL_SCOPED` | local matter-congruence scalar built; separately recompute causal-past/nonlocal count and typed maps | `1.4/1.5` | COV-02; TaF causal order; CLTP |
-| `HC-DU-003` | P0 | covariant interaction/action | `DU-H2`, `PARTIAL_COMPLETE_Q_NO_ACTION` | complete `Q^mu` built for local lift; derive a stress-consistent action or change the model explicitly | `1.4/1.5` | COV-02; P2C source-action obligations |
-| `HC-DU-004` | P0 | perturbative stability and growth | `DU-H2`, `SCOPED_FAIL_LOCAL_LIFT` | any reopener must change the superluminal principal cone without a fitted rest frame/history | `1.4` | COV-02 foreground probe |
-| `HC-DU-005` | P0 | observational background and early universe | `DU-H1`, `DEFERRED_FOR_LOCAL_LIFT` | run likelihood only after a different completion clears the causal principal gate | `1.4/4.1` | COV-01 `H(z)` + COV-02 growth |
-| `HC-DU-006` | P0 | coefficient sourcing / naturalness | `DU-H1`, `OPEN_OTHER_BRANCHES__CLOSED_THIS_CLOSURE` | do not source `beta` for the killed local lift; a new completion must first clear its own principal/viability gates | `1.3/1.4` | COV-02; GU ratio-only scale warning; R6b |
-| `HC-DU-007` | P0 | typed map among all objects called `N` | `DU-H0`, `OPEN` | one commuting/noncommuting diagram with units, maps, loss and counterexamples | `1.5/A.1` | P2C indexed profiles; CLTP |
+| `HC-DU-002` | P0 | covariant/local definition of cumulative `N` | `DU-H2`, `DONE_SCOPED_METRIC_SEEDED__ORDER_FIRST_OPEN` | literal causal-past count and bi-wave proxy now exact; build label-invariant order-first cardinality and reconstruct geometry without importing FLRW | `1.4/1.5/2.2` | COV-02; CMF-01; TaF T526 |
+| `HC-DU-003` | P0 | covariant interaction/action | `DU-H2`, `PARTIAL_COMPLETE_Q__CTP_ACTION_OPEN` | construct a retarded response plus positive common-past noise kernel in a stress-consistent CTP/action completion | `1.4/1.5` | COV-02; CMF-01; P2C source-action obligations |
+| `HC-DU-004` | P0 | perturbative stability and growth | `DU-H2`, `SCOPED_FAIL_LOCAL_AND_SCALE_FREE_MEMORY` | CMF-01 escapes the local principal cone but fails background; finite-k growth waits on a generated-scale/action branch | `1.4` | COV-02 + CMF-01 probes |
+| `HC-DU-005` | P0 | observational background and early universe | `DU-H2`, `SCOPED_FAIL_SCALE_FREE_MEMORY__LIKELIHOOD_DEFERRED` | do not run a likelihood on the raw count; derive overlap `P_Lambda(k,z)` only after a background/action escape | `1.4/4.1` | CMF-01 exact tracker/history; Zuntz comparator |
+| `HC-DU-006` | P0 | coefficient sourcing / naturalness | `DU-H2`, `OPEN_GENERATED_SCALE_ONLY` | raw late calibration makes early density order one; source a dimensional memory scale before `H(z)`, not another scale-free coefficient | `1.3/1.4/2.4` | CMF-01; GU ratio-only warning; RR comparator |
+| `HC-DU-007` | P0 | typed map among all objects called `N` | `DU-H2`, `PARTIAL_EXECUTABLE_TYPE_BOUNDARY` | CMF-01 separates literal count, bi-wave memory, martingale, offset and order-first cardinality; finish the repository-wide commuting/noncommuting diagram | `1.5/A.1` | CMF-01; P2C indexed profiles; CLTP |
 | `HC-DU-008` | P0 | evidence-dependency and common-source audit | `DU-H0`, `OPEN` | DAG every support edge; collapse common ancestors before counting consilience | `4.4/A.1` | TaF/P2C provenance rules |
 | `HC-DU-009` | P0 | clean-checkout reproducibility | `DU-H2`, `OPEN` | second implementation from equations only; compare frozen JSON | `4.4/A.2` | CL blinding discipline |
 | `HC-DU-010` | P0 | minimum theory passport and low-energy recovery | `DU-H0`, `OPEN` | state space, action, symmetries, constraints, observables, quantization, GR/SM limits | `1.5` | P2C eight-gate/source-action rubrics |
-| `HC-DU-011` | P1 | causal-set classical growth law | `DU-H1`, `OPEN` | label-invariant CSG dynamics with normalization and Bell-causality checks | `1.5` | TI completion classes |
+| `HC-DU-011` | P0 | causal-set classical growth law | `DU-H1`, `NEXT_FRONTIER_COUPLED` | build the order-first causal scale generator: label-invariant growth, past-cardinality, geometry recovery and a return arrow | `1.5/2.2/2.4` | CMF-01; TaF T526; TI RUN-0177 |
 | `HC-DU-012` | P1 | quantum-measure/decoherence completion | `DU-H0`, `OPEN` | explicit decoherence functional and grade-2 additivity tests | `1.5` | TI record/Born no-go |
 | `HC-DU-013` | P1 | AQFT/locality embedding | `DU-H0`, `OPEN` | net isotony, locality, covariance and state-positive checks on one nontrivial region family | `1.5` | TaF finite restriction systems |
 | `HC-DU-014` | P1 | source-internal mint / self-authoring loop | `DU-H1`, `ACTIVE_OTHER` | do not duplicate; next build must feed issued records back into the law | `1.1/1.2/2.4` | DU `946dbc3`; TI D-FORK |
 | `HC-DU-015` | P1 | BV/BRST, anomaly and constraint closure | `DU-H0`, `OPEN` | master-equation/anomaly audit for the actual field content | `1.5` | GU carrier-bit/RS work |
 | `HC-DU-016` | P1 | EFT and radiative stability | `DU-H0`, `OPEN` | operator basis, symmetries, loops and technical-naturalness calculation | `1.5` | none complete |
 | `HC-DU-017` | P1 | GU ablation | `DU-H0`, `OPEN` | rerun each flagship argument with GU removed; record what changes | `2.3` | GU construction-fork map |
-| `HC-DU-018` | P1 | live rival tournament | `DU-H0`, `OPEN` | common recovery/prediction/complexity/evidence scorecard against causal set, unimodular and interacting-DE rivals | `2.3/4.4` | TI/P2C completion firewalls |
+| `HC-DU-018` | P1 | live rival tournament | `DU-H2`, `PARTIAL_CAUSAL_MEMORY_TOURNAMENT` | CMF-01 compares literal, bi-wave, martingale, offset and generated-scale branches; extend the same scorecard to sequestering/RR and fixed-history nulls | `2.3/4.4` | CMF-01; TI/P2C completion firewalls |
 | `HC-DU-019` | P1 | operational finality observable | `DU-H1`, `OPEN` | source-owned Hamiltonian, locality-of-update, effect size and detector contract | `4.1/4.3` | TaF T583-T587 |
 | `HC-DU-020` | P1 | Born weights and single outcome | `DU-H1`, `OPEN` | explicit rival-separated probability rule; record stability alone is barred | `1.5/4.1` | TI RUN-0072/0073 |
 | `HC-DU-021` | P1 | covariant finality/AQFT bridge | `DU-H1`, `OPEN` | build the net embedding; do not infer becoming from causal-order covariance | `1.5/4.3` | DU covariant-finality synthesis |
-| `HC-DU-022` | P1 | genuine dimensional transmutation | `DU-H0`, `OPEN` | beta function and RG-invariant generated scale, not cutoff tracking | `1.3/2.4` | spectral-flow kill at `946dbc3` |
-| `HC-DU-023` | P1 | sign bit `sigma` | `DU-H0`, `OPEN` | source-owned signed readout with failing-direction controls | `1.3/1.5` | GU signed-readout theorem |
+| `HC-DU-022` | P0 | genuine dimensional transmutation | `DU-H0`, `NEXT_FRONTIER_COUPLED` | source the retarded memory scale through a beta function/spectral gap before cosmological calibration; no `m~H0` insertion | `1.3/2.4` | CMF-01; spectral-flow kill at `946dbc3`; RR comparator |
+| `HC-DU-023` | P1 | sign bit `sigma` | `DU-H2`, `PARTIAL_MARTINGALE_SIGN_FAILS_PERSISTENCE` | the centered causal martingale makes a sign but stays positive from z=2 only 2.36%; source persistence without `abs(S)` or seed selection | `1.3/1.5/2.2` | CMF-01; GU signed-readout theorem |
 | `HC-DU-024` | P1 | non-circular open-endedness | `DU-H0`, `OPEN` | novelty measure invariant to renaming/completion and tied to a resource ledger | `2.4` | TI D-FORK; P2C boundary discriminator |
 | `HC-DU-025` | P2 | persona/agent method calibration | `DU-H0`, `OPEN` | blinded comparison against non-persona baselines and leakage controls | `3.x/A.3` | P2C decisive-test incidents |
 | `HC-DU-026` | P2 | prediction/kill register | `DU-H0`, `OPEN` | stable prediction IDs, priors, stop rules, supersession and null results | `4.1/A.1` | TI kill criteria; CL no-third-branch |
@@ -503,36 +503,46 @@ work packages.
 
 | Persona item | Disposition after this pass | Evidence / surviving burden |
 |---|---|---|
-| `P01-A` | `PARTIAL_SCOPED` | local covariant `N` and complete `Q^mu` built; causal-past model and fundamental action remain open |
-| `P01-B` | `SCOPED_FAIL_LOCAL_LIFT` | acceleration survives at background level, but every accelerating attractor has a superluminal scalar characteristic |
-| `P02-A` | `ACTIVE_EXPANDED` | deterministic background plus scale-dependent linear-growth generator now exists; no likelihood fit |
-| `P02-B` | `PARTIAL` | early-DE and finite growth confronted; full SN/BAO/CMB/BBN likelihood deliberately deferred after the structural kill |
-| `P14-A` | `SCOPED_FAIL_LOCAL_LIFT` | autonomous background and gauge-invariant scalar system derived; local lift fails the metric-causal cone |
-| `P14-B` | `PARTIAL_SCOPED` | classical principal mode is gradient-stable, but superluminal at accelerating fixed points; kinetic sign lacks an action |
-| `P19-A` | `SCOPED_FAIL_THIS_CLOSURE` | linear clustering pressures `beta` toward `1e-5`, where the roll is the constant-Lambda limit; no natural selector supplied |
-| `P44-A` | `PARTIAL_SCOPED` | nonlinear plant/state/complete-transfer equations explicit; stress-consistent action and microphysical resource ledger open |
-| `P44-B` | `PARTIAL_SCOPED` | perturbative force, unstable-sign control and scale failure executed; nonlinear delay/saturation remain separate work |
+| `P01-A` | `PARTIAL_SCOPED` | local and literal causal-past `N` plus complete-Q phenomenologies built; order-first growth and a response/noise-complete action remain open |
+| `P01-B` | `SCOPED_FAIL_BUILT_COMPLETIONS` | local acceleration is superluminal; conserved causal memory tracks and does not accelerate; interacting-vacuum envelope is always on early |
+| `P02-A` | `ACTIVE_EXPANDED` | local growth and full retarded-background generators now exist; common-past covariance is exact; no viable background warrants likelihood yet |
+| `P02-B` | `PARTIAL_STRONG_KILL` | raw causal memory has `Omega_X(z=1100)=0.989`, no matter era, `q0=0.526`, and large `H(z)` errors; full likelihood is deliberately not run |
+| `P04-A` | `OPEN_NEXT_FRONTIER` | CMF-01 shows metric-seeded causality is calibration; label-invariant order-first growth with Bell-causality/normalization remains the live build |
+| `P14-A` | `SCOPED_FAIL_BUILT_COMPLETIONS` | the bi-wave exits the local principal class, but every built scale-free causal-memory background tracks or fails to accelerate |
+| `P14-B` | `PARTIAL_SCOPED` | bi-wave characteristics are metric-null, but full finite-k feedback and action positivity remain open; background already fails |
+| `P15-A` | `PARTIAL_EXECUTABLE` | literal causal volume, local counter, bi-wave memory, martingale, offset and order-first cardinality are explicitly separated; full repo diagram open |
+| `P17-B` | `PARTIAL` | one common tournament now compares literal causal set, nonlocal bi-wave, stochastic and generated-scale branches; broader rival set remains open |
+| `P19-A` | `SCOPED_FAIL_SCALE_FREE` | local coupling collapses to Lambda; causal-memory late calibration makes early density order one; only a generated dimensional scale remains live |
+| `P30-A` | `PARTIAL` | CMF-01 now compares against everpresent-Lambda and nonlocal-gravity primary constructions without claiming their grades; full compression scorecard open |
+| `P44-A` | `PARTIAL_SCOPED` | local and retarded state/complete-transfer equations explicit; stress-consistent CTP action and source/resource ledger open |
+| `P44-B` | `PARTIAL_SCOPED` | local failure injection, nonlocal tracker kill, sign survival and offset controls executed; generated-scale nonlinear feedback remains open |
+| `P45-A` | `PARTIAL` | a precise causal martingale law was tested, but its mark variance, growth law and return arrow remain imported rather than action-derived |
 
 ## Orchestrated next sequence
 
 1. **`SWING-DU-COV-02`: COMPLETED — `VIABLE_ONLY_AS_LAMBDA_LIMIT`.** Preserve
-   COV-01 as a scoped background theorem; do not spend on a likelihood or
-   coefficient sourcing for this local closure unless new operator content
-   changes the principal cone without a fitted history.
-2. **Typed-`N` diagram (`HC-DU-007`).** Specify which maps among causal volume,
-   local congruence counter, record count, algebraic count and observer count are
-   constructed, conjectural or absent. COV-02 showed that these are not interchangeable.
-3. **`SWING-DU-COV-03`: causal-past/nonlocal count.** Recompute the background
-   from the retarded light-cone functional and its history-dependent coefficient;
-   do not inherit COV-01's constant `kappa` or local perturbation equations.
-4. **Independent reimplementation (`HC-DU-009`).** Give only the COV-02 equations
-   and preregistered outcomes to a clean-room implementer; compare frozen JSON.
-5. **Theory passport (`HC-DU-010/015/016`).** Require any new completion to expose
-   its action or full nonlocal kernel, state space, characteristic cone, stress
-   tensor, recovery limit and observational interfaces before it replaces this verdict.
-6. **Cross-repo hardening (`HC-DU-019/020/024`).** Reuse the TaF/TI/P2C/CL
-   negative models as fixtures. Do not rerun their exploratory search under new
-   names.
+   the local result; its no-go is explicitly class-relative.
+2. **`SWING-DU-CMF-01`: COMPLETED — `CAUSAL_ESCAPE_TRACKER_FAIL`.** Literal
+   causal volume, a metric-null bi-wave proxy and an order-first martingale were
+   built. Nonlocality escapes the local cone, but scale-free memory is an
+   always-on/nonaccelerating tracker and the raw martingale fails early RMS,
+   sign-persistence and de Sitter-stationarity controls.
+3. **Order-first causal scale generator (`HC-DU-011 + HC-DU-022`).** Build a
+   label-invariant causet growth/action law whose past-cardinality feeds back,
+   reconstructs geometry and endogenously generates the dimensional memory
+   scale. This is the next major swing; a supplied FLRW metric is calibration.
+4. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
+   executable counterexamples; extend them across algebraic, observer, durable-
+   record and novelty counts with units and lossy/nonexistent maps.
+5. **Response/noise action and overlap spectrum (`HC-DU-003/004/005`).** Only
+   after a generated-scale background survives, construct the CTP/noise kernel,
+   finite-k determinant and common-past `P_Lambda(k,z)`; do not select a good seed.
+6. **Independent reimplementation (`HC-DU-009`).** Give the exact CMF-01
+   equations and preregistered outcomes to a clean-room implementer and compare
+   frozen JSON before credibility promotion.
+7. **Cross-repo hardening (`HC-DU-019/020/024`).** Keep TaF/TI/P2C/CL negative
+   models as fixtures and run initial-surface/kernel sweeps in the same declared
+   frame rather than rerunning their searches under new names.
 
 ## Pre-registration for `SWING-DU-COV-02`
 
@@ -587,6 +597,48 @@ Pre-registered outcome: **`VIABLE_ONLY_AS_LAMBDA_LIMIT`**. Scope: the declared
 constant-`kappa` local lift. No universal no-go for every causal-set, nonlocal
 or UV completion is claimed.
 
+## Execution disposition for `SWING-DU-CMF-01`
+
+Joe directed an orchestrated wild frontier heterodox swing after COV-02. It is
+executed in
+`explorations/causal-memory-order-first-martingale-frontier-2026-07-21.md`
+with foreground probe `tests/du_causal_memory_frontier_probe.py` and a frozen
+JSON artifact.
+
+Three independently attacked branches were kept distinct:
+
+- the literal unweighted causal-past count `N_J`;
+- the metric-null bi-wave memory `N_box=8 pi Box_ret^-2 1`;
+- the order-first signed causal martingale `Lambda=lambda S_N/N`.
+
+Root re-derivation establishes:
+
+- `C_J(p)=pi/[(1+3p)(1+p)(3+p)]` exactly for `a=t^p`;
+- `C_box(p)=pi/[3(1+3p)(1+p)]` and
+  `C_J/C_box=3/(p+3)`, so the proxy is not silently an event count;
+- the bi-wave principal polynomial is `(g^ab k_a k_b)^2`, a genuine
+  metric-null escape from COV-02's local `c_N^2=3 Omega` class;
+- a separately conserved `A/sqrt(N_J)` has
+  `w_X=-1+2/(3p)`, hence it tracks radiation and matter rather than accelerating;
+- the full late-calibrated background gives `Omega_X(z=1100)=0.989`,
+  `q0=0.526`, no standard matter era, and `H/H_LCDM(z=2)=1.792`;
+- imposing only `Omega_rms,radiation<0.02` makes a martingale late target of
+  `0.69` a `210 sigma` realization;
+- its probability of remaining positive from `z=2` to `0`, conditional on
+  starting positive, is `0.0236` in the matter-era Brownian benchmark;
+- common-past overlap fixes the 3+1 Minkowski equal-time correlation
+  `rho(s)=1-s+s^3/4-s^4/16`, with half-correlation at `r/T=0.53277`;
+- raw full-past memory grows linearly in de Sitter, so its RMS decays as
+  `T^-1/2` rather than approaching constant `Lambda`;
+- an offset can suppress the early component only by taking `t_c~t_0`, the
+  explicit `REIMPORTS_COSMIC_CLOCK` control.
+
+Pre-registered outcome: **`CAUSAL_ESCAPE_TRACKER_FAIL`**. The local no-go was
+class-relative, but nonlocality and stochastic sign are not sufficient. The
+surviving frontier couples `HC-DU-011` and `HC-DU-022`: an order-first,
+label-invariant growth/action law with feedback and an endogenously generated
+dimensional memory scale. No sibling claim, canon or public posture moves.
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
@@ -598,4 +650,6 @@ or UV completion is claimed.
 - The COV-01 P0 background swing generated a frozen JSON receipt.
 - `SWING-DU-COV-02` subsequently executed with `18/18` checks and returned
   `VIABLE_ONLY_AS_LAMBDA_LIMIT`; the original preregistration above remains intact.
+- `SWING-DU-CMF-01` subsequently executed with `45/45` checks and returned
+  `CAUSAL_ESCAPE_TRACKER_FAIL`; all individual persona suggestions remain intact.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

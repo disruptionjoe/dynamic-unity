@@ -549,3 +549,27 @@ evidence-backed dispositions live in the active cross-repo hardening map; the
 highest-priority surviving housekeeping item is the typed-`N` diagram, followed
 by a separately preregistered causal-past/nonlocal build rather than a
 likelihood fit of the killed local closure.
+
+## Execution disposition addendum — `SWING-DU-CMF-01`
+
+Joe subsequently directed a big heterodox frontier swing. Executed on
+2026-07-21 in
+`causal-memory-order-first-martingale-frontier-2026-07-21.md`; machine receipt:
+`../tests/artifacts/du_causal_memory_frontier_probe_result.json`.
+
+**Pre-registered outcome:** `CAUSAL_ESCAPE_TRACKER_FAIL`. A literal causal-past
+count, retarded bi-wave memory and order-first signed causal martingale were
+built as distinct objects. The nonlocal branches genuinely escape COV-02's
+local superluminal characteristic, but the scale-free count tracks radiation
+and matter instead of accelerating; late calibration makes the early component
+order one; the raw martingale fails early-RMS, sign-persistence and de Sitter
+stationarity controls. A fitted offset succeeds only by importing a clock of
+order the present age.
+
+No individual `P01-A` through `P50-B` text is replaced or erased. Evidence-backed
+dispositions for the directly touched items (`P01`, `P02`, `P04-A`, `P14`,
+`P15-A`, `P17-B`, `P19-A`, `P30-A`, `P44` and `P45-A`) are appended in the active
+hardening map. The next major swing is no longer a generic nonlocal kernel: it is
+the coupled `HC-DU-011 + HC-DU-022` order-first causal scale generator. The
+remaining typed-`N` diagram is still required housekeeping, but it is not allowed
+to displace that frontier build in automated priority.
