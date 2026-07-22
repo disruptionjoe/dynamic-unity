@@ -242,11 +242,11 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | ID | Priority | Object / credibility gap | Current grade and status | Exact next discriminator | DU home | Reuse |
 |---|---|---|---|---|---|---|
 | `HC-DU-001` | P0 | conserved accelerating Lambda-N background | `DU-H2`, `DONE_SCOPED` | independently rederive and attack assumptions | `1.4/4.4` | new audit |
-| `HC-DU-002` | P0 | covariant/local definition of cumulative `N` | `DU-H0`, `OPEN` | compare congruence scalar, causal-set interval and relational-record definitions under foliation changes | `1.4/1.5` | TaF restriction systems; CLTP |
-| `HC-DU-003` | P0 | covariant interaction/action | `DU-H1`, `OPEN` | derive `Q^mu`, momentum transfer and source law from an action; no fitted `Q(a)` | `1.4/1.5` | P2C source-action obligations |
-| `HC-DU-004` | P0 | perturbative stability and growth | `DU-H0`, `OPEN` | derive linear perturbations; kill on ghost, gradient, superhorizon or growth failure | `1.4` | none complete |
-| `HC-DU-005` | P0 | observational background and early universe | `DU-H1`, `OPEN` | likelihood wrapper for SN/BAO/CMB distance priors plus BBN/early-DE envelope | `1.4/4.1` | audit supplies `H(z)` |
-| `HC-DU-006` | P0 | coefficient sourcing / naturalness | `DU-H1`, `OPEN` | show why viable `beta` is selected and stable, rather than fit | `1.3/1.4` | GU ratio-only scale warning; R6b |
+| `HC-DU-002` | P0 | covariant/local definition of cumulative `N` | `DU-H2`, `PARTIAL_SCOPED` | local matter-congruence scalar built; separately recompute causal-past/nonlocal count and typed maps | `1.4/1.5` | COV-02; TaF causal order; CLTP |
+| `HC-DU-003` | P0 | covariant interaction/action | `DU-H2`, `PARTIAL_COMPLETE_Q_NO_ACTION` | complete `Q^mu` built for local lift; derive a stress-consistent action or change the model explicitly | `1.4/1.5` | COV-02; P2C source-action obligations |
+| `HC-DU-004` | P0 | perturbative stability and growth | `DU-H2`, `SCOPED_FAIL_LOCAL_LIFT` | any reopener must change the superluminal principal cone without a fitted rest frame/history | `1.4` | COV-02 foreground probe |
+| `HC-DU-005` | P0 | observational background and early universe | `DU-H1`, `DEFERRED_FOR_LOCAL_LIFT` | run likelihood only after a different completion clears the causal principal gate | `1.4/4.1` | COV-01 `H(z)` + COV-02 growth |
+| `HC-DU-006` | P0 | coefficient sourcing / naturalness | `DU-H1`, `OPEN_OTHER_BRANCHES__CLOSED_THIS_CLOSURE` | do not source `beta` for the killed local lift; a new completion must first clear its own principal/viability gates | `1.3/1.4` | COV-02; GU ratio-only scale warning; R6b |
 | `HC-DU-007` | P0 | typed map among all objects called `N` | `DU-H0`, `OPEN` | one commuting/noncommuting diagram with units, maps, loss and counterexamples | `1.5/A.1` | P2C indexed profiles; CLTP |
 | `HC-DU-008` | P0 | evidence-dependency and common-source audit | `DU-H0`, `OPEN` | DAG every support edge; collapse common ancestors before counting consilience | `4.4/A.1` | TaF/P2C provenance rules |
 | `HC-DU-009` | P0 | clean-checkout reproducibility | `DU-H2`, `OPEN` | second implementation from equations only; compare frozen JSON | `4.4/A.2` | CL blinding discipline |
@@ -503,35 +503,33 @@ work packages.
 
 | Persona item | Disposition after this pass | Evidence / surviving burden |
 |---|---|---|
-| `P01-A` | `PARTIAL` | background stress exchange is forced; full covariant `N`/`Q^mu` open |
-| `P01-B` | `PARTIAL` | acceleration proven at background fixed points; perturbations/viability open |
-| `P02-A` | `ACTIVE` | deterministic `H(z), q, w_total, Omega(z)` generator now exists; no likelihood fit |
-| `P02-B` | `OPEN` | SN/BAO/CMB/growth/BBN confrontation not run |
-| `P14-A` | `PARTIAL` | autonomous background and attractor derived; perturbation/noise extension open |
-| `P14-B` | `PARTIAL` | analytic stability and parameter basin known; empirical robustness open |
-| `P19-A` | `PARTIAL` | dimensionless `beta` and coefficient map explicit; naturalness not supplied |
-| `P44-A` | `PARTIAL` | plant/state/exchange equations explicit; microphysical actuator/resource model open |
-| `P44-B` | `OPEN` | delay, saturation, robustness and failure injection require perturbative model |
+| `P01-A` | `PARTIAL_SCOPED` | local covariant `N` and complete `Q^mu` built; causal-past model and fundamental action remain open |
+| `P01-B` | `SCOPED_FAIL_LOCAL_LIFT` | acceleration survives at background level, but every accelerating attractor has a superluminal scalar characteristic |
+| `P02-A` | `ACTIVE_EXPANDED` | deterministic background plus scale-dependent linear-growth generator now exists; no likelihood fit |
+| `P02-B` | `PARTIAL` | early-DE and finite growth confronted; full SN/BAO/CMB/BBN likelihood deliberately deferred after the structural kill |
+| `P14-A` | `SCOPED_FAIL_LOCAL_LIFT` | autonomous background and gauge-invariant scalar system derived; local lift fails the metric-causal cone |
+| `P14-B` | `PARTIAL_SCOPED` | classical principal mode is gradient-stable, but superluminal at accelerating fixed points; kinetic sign lacks an action |
+| `P19-A` | `SCOPED_FAIL_THIS_CLOSURE` | linear clustering pressures `beta` toward `1e-5`, where the roll is the constant-Lambda limit; no natural selector supplied |
+| `P44-A` | `PARTIAL_SCOPED` | nonlinear plant/state/complete-transfer equations explicit; stress-consistent action and microphysical resource ledger open |
+| `P44-B` | `PARTIAL_SCOPED` | perturbative force, unstable-sign control and scale failure executed; nonlinear delay/saturation remain separate work |
 
 ## Orchestrated next sequence
 
-1. **`SWING-DU-COV-02`: covariant-count and perturbation kill.** Supply one
-   covariant definition of `N`, derive `Q^mu` or an action, and compute scalar
-   perturbations. Kill on preferred-foliation dependence, nonlocal acausality,
-   ghost/gradient instability, negative matter density, or unacceptable early
-   dark energy/growth. This is the highest-impact next swing not covered by the
-   spectral-flow agent.
-2. **Typed-`N` diagram (`HC-DU-007`).** Do not wait for COV-02 to finish before
-   specifying which maps are hypotheses and which are absent. This prevents a
-   successful cosmology from laundering record/algebra/observer counts.
-3. **Independent reimplementation (`HC-DU-009`).** Give only the equations and
-   preregistered outcomes to a clean-room implementer; compare frozen JSON.
-4. **Likelihood and rival wrapper (`HC-DU-005/018`).** Compare the repaired
-   family against constant Lambda and at least one standard interacting-vacuum
-   model using the same observables and parameter penalties.
-5. **Theory passport (`HC-DU-010/015/016`).** If COV-02 survives, build the
-   action/EFT/recovery object. If it fails, bank the scoped background theorem
-   and stop treating this closure as a physical dark-energy model.
+1. **`SWING-DU-COV-02`: COMPLETED — `VIABLE_ONLY_AS_LAMBDA_LIMIT`.** Preserve
+   COV-01 as a scoped background theorem; do not spend on a likelihood or
+   coefficient sourcing for this local closure unless new operator content
+   changes the principal cone without a fitted history.
+2. **Typed-`N` diagram (`HC-DU-007`).** Specify which maps among causal volume,
+   local congruence counter, record count, algebraic count and observer count are
+   constructed, conjectural or absent. COV-02 showed that these are not interchangeable.
+3. **`SWING-DU-COV-03`: causal-past/nonlocal count.** Recompute the background
+   from the retarded light-cone functional and its history-dependent coefficient;
+   do not inherit COV-01's constant `kappa` or local perturbation equations.
+4. **Independent reimplementation (`HC-DU-009`).** Give only the COV-02 equations
+   and preregistered outcomes to a clean-room implementer; compare frozen JSON.
+5. **Theory passport (`HC-DU-010/015/016`).** Require any new completion to expose
+   its action or full nonlocal kernel, state space, characteristic cone, stress
+   tensor, recovery limit and observational interfaces before it replaces this verdict.
 6. **Cross-repo hardening (`HC-DU-019/020/024`).** Reuse the TaF/TI/P2C/CL
    negative models as fixtures. Do not rerun their exploratory search under new
    names.
@@ -564,6 +562,31 @@ scalar without a transport law, or that suppresses perturbations by selecting
 an arbitrary rest-frame prescription after seeing the result, is
 `BACKGROUND_ONLY` or `REIMPORTS_TARGET_HISTORY`, not a physical completion.
 
+## Execution disposition for `SWING-DU-COV-02`
+
+Executed in
+`explorations/lambda-N-covariant-perturbation-kill-2026-07-21.md` with foreground
+probe `tests/du_lambda_N_covariant_perturbation_kill.py` and frozen JSON artifact.
+
+- A local covariant lift exists:
+  `u.nabla N=kappa(Theta/3)^-3`, `V=A/sqrt(N)`,
+  `Q_vac,mu=-nabla_mu V`. It reproduces COV-01 and fixes momentum transfer.
+- Its gauge-invariant scalar principal speed is
+  `c_N^2=beta Omega_V^3/[2(1-Omega_V)]`.
+- At every accelerating COV-01 fixed point, `c_N^2=3 Omega_V*>1` exactly.
+- The geodesic zero-sound prescription would force both `delta N_com=0` and,
+  through the declared transport, `deltaTheta_com=0` for `beta>0`; it cannot
+  preserve ordinary growing structure.
+- A finite growth probe plus constant-Lambda and unstable-sign controls passes
+  `18/18`; its weak unit-force/gravity discriminator at `k=0.1 h/Mpc` gives
+  `beta~1.03e-5`, where `|Delta Lambda/Lambda|<1e-6` since `z=2`.
+- A causal-past volume is covariant and retarded but has a history-dependent
+  `kappa_eff`; it is a separate nonlocal model, not this background's lift.
+
+Pre-registered outcome: **`VIABLE_ONLY_AS_LAMBDA_LIMIT`**. Scope: the declared
+constant-`kappa` local lift. No universal no-go for every causal-set, nonlocal
+or UV completion is claimed.
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
@@ -572,5 +595,7 @@ an arbitrary rest-frame prescription after seeing the result, is
 - Thirty hardening items now have stable IDs, priorities, owners, grades and
   exact next discriminators.
 - Eighty-eight non-intuitive/class-relative findings are preserved above.
-- The P0 cosmology swing is executable and generated a frozen JSON receipt.
+- The COV-01 P0 background swing generated a frozen JSON receipt.
+- `SWING-DU-COV-02` subsequently executed with `18/18` checks and returned
+  `VIABLE_ONLY_AS_LAMBDA_LIMIT`; the original preregistration above remains intact.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

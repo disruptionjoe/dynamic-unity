@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 5
+manifest_revision: 6
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -68,12 +68,16 @@ lanes:
       (rtest-wave-synthesis-2026-07-21.md); type-III (modular/KMS) source-selection and the neural-
       scaling spectral-dimension lead are the adjacent routes to the same sourced scale.
   priority_guard: >-
-    SWING-DU-COV-01 has now constructed a Bianchi-conserved accelerating FLRW BACKGROUND: total
-    conservation forces Q=-dot(lambda), and stable acceleration exists for beta<36. This is not yet
-    a physical dark-energy completion. Before more coefficient sourcing counts as physical progress,
-    Channel 1.4 must pass SWING-DU-COV-02: define N covariantly, supply an action or full Q^mu, and
-    survive perturbation, growth, early-universe and observational attacks without choosing a target
-    history. The background-only result and exact next gate are in the active hardening program.
+    SWING-DU-COV-02 is now executed. The strongest local lift, u.nabla N=kappa(Theta/3)^-3 with
+    T_V=-V(N)g and complete Q_vac=-nabla V, is genuinely covariant and reproduces COV-01, but its
+    scalar characteristic obeys c_N^2=beta Omega_V^3/[2(1-Omega_V)]=3 Omega_V* at every fixed point.
+    Every accelerating attractor is therefore superluminal in the declared continuum model; the
+    geodesic zero-sound escape contradicts the local count transport for a growing mode, and linear
+    clustering pressures beta toward ~1e-5 where the roll is the constant-Lambda limit. Outcome:
+    VIABLE_ONLY_AS_LAMBDA_LIMIT. COV-01 remains a scoped background theorem, but further coefficient
+    sourcing does not count as physical progress through this closure. Reopen Channel 1.4 only with
+    a separately recomputed causal-past/nonlocal model or new action/operator content that changes
+    the principal cone without inserting a free history.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -113,12 +117,17 @@ lanes:
       Determine whether Λ=c/√N and the proposed record-accretion law admit a Bianchi-compatible
       stress/interaction completion, accelerated expansion, stable background/perturbative behavior,
       and an observationally viable H(z), q(z), w_eff(z), Ω_Λ(z) and growth history without importing
-      an arbitrary function or target. SWING-DU-COV-01 closes only the conserved accelerating
-      background leg. Next swing: SWING-DU-COV-02, the covariant-count and perturbation kill in the
-      active hardening program.
+      an arbitrary function or target. SWING-DU-COV-01 closes the conserved accelerating background
+      leg. SWING-DU-COV-02 constructs and kills the strongest local covariant lift: it has a complete
+      transfer four-vector but a superluminal accelerating-attractor scalar cone and scale-dependent
+      growth, leaving only beta->0. A causal-past count is a distinct retarded nonlocal model whose
+      background must be recomputed rather than inherited.
     grade: >-
-      PARTIAL / background conserved and accelerating at executable-model grade; covariant N,
-      action/Q^mu, perturbations, growth, early-universe history and data remain OPEN
+      SCOPED VERDICT / VIABLE_ONLY_AS_LAMBDA_LIMIT for the constant-kappa local lift. Background
+      conservation and acceleration remain executable; local covariant N and complete Q^mu were
+      constructed at phenomenological grade; gauge-invariant scalar principal structure and finite
+      growth were executed; no fundamental action/ghost clearance or likelihood. Causal-past and
+      other nonlocal/UV completions remain separate OPEN models, not rescues already earned.
   - id: '1.5'
     title: Theory kernel, typed objects and low-energy recovery
     scope: >-
@@ -291,12 +300,13 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 5
+  revision: 6
   status: founding
   created: '2026-07-21'
   approved_by: >-
     Joe direct chat via coordinator, 2026-07-21 (rev3 mode-lane redesign; rev4 lossless panel
-    routing, channel additions and covariant-cosmology priority guard)
+    routing, channel additions and covariant-cosmology priority guard; rev5 COV-01 execution;
+    rev6 Joe-directed COV-02 execution via "Do it")
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -314,3 +324,10 @@ provenance:
     relative finding annex. No Lane added or removed. The Lane-1 anchor and coefficient grade are
     unchanged. Channel 1.4 advances from fully open to background-partial, with full covariance,
     perturbations and observational viability explicitly guarded by SWING-DU-COV-02.
+  rev6_note: >-
+    2026-07-21 (Joe direct chat: "Do it"): executed SWING-DU-COV-02. The strongest local
+    matter-congruence count supplies a covariant complete-Q lift but fails the metric-causal
+    perturbation gate at every accelerating fixed point and is pressured by linear growth into
+    beta->0. Recorded VIABLE_ONLY_AS_LAMBDA_LIMIT without changing the Lane-1 anchor's mathematical
+    half-power grade, canon, or public posture. Reopen physical cosmology only through a separately
+    recomputed causal-past/nonlocal completion or genuinely new action/operator content.

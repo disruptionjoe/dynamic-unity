@@ -525,6 +525,27 @@ perturbations, growth and observational fitting remain unbuilt.
 | `P44-A` | `PARTIAL` | plant/state/exchange equations explicit; microphysical actuator/resource ledger open |
 | `P44-B` | `OPEN` | delay, saturation and failure injection need the perturbative model |
 
-No other persona item is closed by this result. The next non-overlapping P0
-swing is `SWING-DU-COV-02`, the covariant-count and perturbation kill specified
-in the hardening map.
+No other persona item was closed by COV-01. At that disposition point, the next
+non-overlapping P0 swing was `SWING-DU-COV-02`, the covariant-count and
+perturbation kill specified in the hardening map.
+
+## Execution disposition addendum — `SWING-DU-COV-02`
+
+Executed on 2026-07-21 in
+`lambda-N-covariant-perturbation-kill-2026-07-21.md`; machine receipt:
+`../tests/artifacts/du_lambda_N_covariant_perturbation_kill_result.json`.
+
+**Pre-registered outcome:** `VIABLE_ONLY_AS_LAMBDA_LIMIT`. A local covariant
+matter-congruence count and complete `Q^mu` exist at phenomenological grade,
+but the scalar characteristic satisfies `c_N^2=3 Omega_V*>1` at every
+accelerating fixed point. The geodesic zero-sound escape is inconsistent with
+the local count transport for growing structure. A deliberately weak
+linear-scale force/gravity discriminator pushes `beta` toward `1e-5`, where the
+rolling `Lambda` is numerically constant. A causal-past count remains a
+different retarded nonlocal model whose background has not been built.
+
+The individual persona suggestions above remain unchanged. Their current
+evidence-backed dispositions live in the active cross-repo hardening map; the
+highest-priority surviving housekeeping item is the typed-`N` diagram, followed
+by a separately preregistered causal-past/nonlocal build rather than a
+likelihood fit of the killed local closure.

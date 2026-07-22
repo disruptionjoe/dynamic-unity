@@ -1,0 +1,378 @@
+{
+  "audit_id": "DU-LAMBDA-N-COV-02",
+  "date": "2026-07-21",
+  "status": "executed_scoped",
+  "scope": "covariant-count candidate audit plus the strongest local matter-congruence complete-Q lift; gauge-invariant scalar principal symbol and finite linear-growth probe; no Boltzmann code, likelihood, radiation/baryon split, or fundamental action",
+  "candidate_matrix": [
+    {
+      "candidate": "homogeneous or slice-integrated four-volume",
+      "covariant": false,
+      "local": false,
+      "reproduces_COV01": "only after an arbitrary slicing/cell/horizon prescription",
+      "disposition": "BACKGROUND_ONLY"
+    },
+    {
+      "candidate": "causal-past four-volume N(x)=Vol(J^-(x) cap J^+(Sigma0))",
+      "covariant": true,
+      "local": false,
+      "causal": true,
+      "reproduces_COV01": false,
+      "reason": "the exact coefficient in dN/dt=kappa_eff H^-3 depends on expansion history; perturbations are retarded memory integrals",
+      "disposition": "SEPARATE_NONLOCAL_MODEL__NOT_THIS_BACKGROUND_LIFT"
+    },
+    {
+      "candidate": "matter-congruence scalar counter",
+      "definition": "u^a nabla_a N=kappa(Theta/3)^-3",
+      "covariant": true,
+      "local": true,
+      "reproduces_COV01": true,
+      "complete_transfer": "Q_vac,a=-nabla_a V; matter receives +nabla^a V",
+      "action_status": "complete-Q phenomenology; minimal multiplier action changes the assumed stress split",
+      "disposition": "ADVANCES_TO_PERTURBATION_KILL"
+    },
+    {
+      "candidate": "geodesic zero-sound interaction Q^a parallel u^a",
+      "covariant": true,
+      "local": true,
+      "reproduces_COV01": "background only",
+      "reason": "for V_N!=0 it forces delta N_com=0; the local count transport then forces deltaTheta=0 for beta>0",
+      "disposition": "REIMPORTS_TARGET_HISTORY_OR_BETA_ZERO"
+    }
+  ],
+  "local_covariant_completion": {
+    "vacuum": "T_V^{ab}=-V(N)g^{ab}, V=A*N^(-1/2)",
+    "count_transport": "u^a*nabla_a N=S(Theta)=kappa*(Theta/3)^(-3)",
+    "matter_energy": "dot(rho_m)+Theta*rho_m=-dot(V)",
+    "matter_momentum": "rho_m*a^a=D^a V",
+    "transfer": "Q_vac,a=-nabla_a V",
+    "comoving_gauge_invariants": {
+      "delta_N_c": "delta N + dot(N)*theta_m",
+      "delta_V_c": "V_N*delta_N_c",
+      "lapse": "phi_c=delta_V_c/rho_m",
+      "transport": "delta(dot N)_c-dot(N)*phi_c=S_Theta*deltaTheta_c",
+      "energy": "delta(dot rho)_c-dot(rho)*phi_c+Theta*delta rho_c+rho*deltaTheta_c=-delta(dot V)_c+dot(V)*phi_c",
+      "raychaudhuri": "delta(dot Theta)_c-dot(Theta)*phi_c+(2/3)Theta*deltaTheta_c+4piG(delta rho_c-2delta V_c)-D^2 phi_c=0"
+    },
+    "vector_tensor_sectors": "the transfer force is a scalar gradient and vacuum has no anisotropic stress; no new linear transverse/vector or tensor principal mode is supplied"
+  },
+  "principal_symbol": {
+    "equation": "delta(ddot N)_c+c_N^2*(k^2/a^2)*delta N_c=lower-derivative terms",
+    "sound_speed_sq": "c_N^2=S_Theta*V_N/rho_m=beta*Omega_V^3/[2(1-Omega_V)]",
+    "fixed_point_identity": "c_N^2=3*Omega_V*",
+    "accelerating_fixed_point_consequence": "Omega_V*>1/3 => c_N^2>1",
+    "kinetic_sign_status": "not established without an action; classical principal mode is oscillatory rather than gradient-unstable",
+    "unstable_control": "flipping the sign of V_N makes c_N^2<0 and the same principal mode exponentially unstable",
+    "rows": [
+      {
+        "beta": 1e-06,
+        "omega_star": 0.999999833333,
+        "cs2_today": 5.09034e-07,
+        "cs2_fixed_point": 2.999999498782,
+        "three_omega_star": 2.9999995,
+        "fixed_point_superluminal": true
+      },
+      {
+        "beta": 1e-05,
+        "omega_star": 0.999998333339,
+        "cs2_today": 5.090343e-06,
+        "cs2_fixed_point": 2.99999499984,
+        "three_omega_star": 2.999995000017,
+        "fixed_point_superluminal": true
+      },
+      {
+        "beta": 0.0001,
+        "omega_star": 0.999983333889,
+        "cs2_today": 5.0903426e-05,
+        "cs2_fixed_point": 2.999950001665,
+        "three_omega_star": 2.999950001667,
+        "fixed_point_superluminal": true
+      },
+      {
+        "beta": 0.001,
+        "omega_star": 0.999833388866,
+        "cs2_today": 0.000509034265,
+        "cs2_fixed_point": 2.999500166598,
+        "three_omega_star": 2.999500166597,
+        "fixed_point_superluminal": true
+      },
+      {
+        "beta": 0.01,
+        "omega_star": 0.998338865848,
+        "cs2_today": 0.005090342649,
+        "cs2_fixed_point": 2.995016597545,
+        "three_omega_star": 2.995016597545,
+        "fixed_point_superluminal": true
+      },
+      {
+        "beta": 0.25,
+        "omega_star": 0.961481396816,
+        "cs2_today": 0.127258566216,
+        "cs2_fixed_point": 2.884444190447,
+        "three_omega_star": 2.884444190447,
+        "fixed_point_superluminal": true
+      },
+      {
+        "beta": 1.0,
+        "omega_star": 0.872983346207,
+        "cs2_today": 0.509034264864,
+        "cs2_fixed_point": 2.618950038622,
+        "three_omega_star": 2.618950038622,
+        "fixed_point_superluminal": true
+      }
+    ]
+  },
+  "causal_past_volume_control": {
+    "formula": "Vol(J^-(T))=C(p)T^4 for a=t^p; kappa_eff=(dN/dt)/H^-3=4C(p)p^3",
+    "radiation_p_1_over_2": 0.119679720137,
+    "matter_p_2_over_3": 0.203092858414,
+    "matter_to_radiation_ratio": 1.69696969697
+  },
+  "growth": {
+    "initial_redshift": 100.0,
+    "initial_mode": "matter-era growing mode delta_m=1, deltaTheta/H=-1, deltaN/N=0",
+    "k_conversion": "k/H0=(c/100 km/s/Mpc)*(k/[h/Mpc])",
+    "positive_control_standard_growth": 79.586570648549,
+    "positive_control_target_growth": {
+      "beta": 0.0,
+      "k_h_Mpc": 0.1,
+      "delta_m_z0": 79.586570648549,
+      "delta_theta_over_H_z0": -41.972848532638,
+      "delta_N_over_N_z0": 0.0,
+      "max_abs_delta_N_over_N": 0.0
+    },
+    "positive_control_relative_error": 0.0,
+    "resolution_convergence_relative_error": 0.0,
+    "rows": [
+      {
+        "beta": 1e-06,
+        "k_h_Mpc": 0.01,
+        "delta_m_z0": 79.586415928259,
+        "delta_theta_over_H_z0": -41.971865233405,
+        "delta_N_over_N_z0": 6.979146e-06,
+        "max_abs_delta_N_over_N": 6.979146e-06,
+        "growth_ratio_to_lambda": 0.99999805595,
+        "present_jeans_ratio": 0.00096732674
+      },
+      {
+        "beta": 1e-06,
+        "k_h_Mpc": 0.1,
+        "delta_m_z0": 79.571203368959,
+        "delta_theta_over_H_z0": -41.874876546119,
+        "delta_N_over_N_z0": 6.973793e-06,
+        "max_abs_delta_N_over_N": 6.973793e-06,
+        "growth_ratio_to_lambda": 0.999806911148,
+        "present_jeans_ratio": 0.096732674004
+      },
+      {
+        "beta": 1e-05,
+        "k_h_Mpc": 0.01,
+        "delta_m_z0": 79.585023468793,
+        "delta_theta_over_H_z0": -41.963015906542,
+        "delta_N_over_N_z0": 6.9786534e-05,
+        "max_abs_delta_N_over_N": 6.9786534e-05,
+        "growth_ratio_to_lambda": 0.999980559789,
+        "present_jeans_ratio": 0.0096732674
+      },
+      {
+        "beta": 1e-05,
+        "k_h_Mpc": 0.1,
+        "delta_m_z0": 79.433205006955,
+        "delta_theta_over_H_z0": -40.996854324671,
+        "delta_N_over_N_z0": 6.9252522e-05,
+        "max_abs_delta_N_over_N": 6.9252522e-05,
+        "growth_ratio_to_lambda": 0.99807297085,
+        "present_jeans_ratio": 0.967326740037
+      },
+      {
+        "beta": 0.0001,
+        "k_h_Mpc": 0.01,
+        "delta_m_z0": 79.571101164769,
+        "delta_theta_over_H_z0": -41.874558889706,
+        "delta_N_over_N_z0": 0.000697373322,
+        "max_abs_delta_N_over_N": 0.000697373322,
+        "growth_ratio_to_lambda": 0.999805626959,
+        "present_jeans_ratio": 0.096732674004
+      },
+      {
+        "beta": 0.0001,
+        "k_h_Mpc": 0.1,
+        "delta_m_z0": 78.083270183884,
+        "delta_theta_over_H_z0": -32.579059667501,
+        "delta_N_over_N_z0": 0.000645191577,
+        "max_abs_delta_N_over_N": 0.000645191577,
+        "growth_ratio_to_lambda": 0.981111129021,
+        "present_jeans_ratio": 9.673267400374
+      },
+      {
+        "beta": 0.001,
+        "k_h_Mpc": 0.01,
+        "delta_m_z0": 79.432107068765,
+        "delta_theta_over_H_z0": -40.993608530831,
+        "delta_N_over_N_z0": 0.006924645937,
+        "max_abs_delta_N_over_N": 0.006924645937,
+        "growth_ratio_to_lambda": 0.998059175329,
+        "present_jeans_ratio": 0.967326740037
+      },
+      {
+        "beta": 0.001,
+        "k_h_Mpc": 0.1,
+        "delta_m_z0": 67.254490043496,
+        "delta_theta_over_H_z0": 21.182556900556,
+        "delta_N_over_N_z0": 0.002784686914,
+        "max_abs_delta_N_over_N": 0.003233611316,
+        "growth_ratio_to_lambda": 0.845048222275,
+        "present_jeans_ratio": 96.732674003736
+      },
+      {
+        "beta": 0.01,
+        "k_h_Mpc": 0.01,
+        "delta_m_z0": 78.064939367684,
+        "delta_theta_over_H_z0": -32.54074625388,
+        "delta_N_over_N_z0": 0.064451592292,
+        "max_abs_delta_N_over_N": 0.064451592292,
+        "growth_ratio_to_lambda": 0.980880803527,
+        "present_jeans_ratio": 9.673267400374
+      },
+      {
+        "beta": 0.01,
+        "k_h_Mpc": 0.1,
+        "delta_m_z0": 51.460468049444,
+        "delta_theta_over_H_z0": -17.471278720819,
+        "delta_N_over_N_z0": 0.004772393934,
+        "max_abs_delta_N_over_N": 0.008650200094,
+        "growth_ratio_to_lambda": 0.64659737981,
+        "present_jeans_ratio": 967.326740037359
+      }
+    ],
+    "internal_jeans_caps": {
+      "k_0p01_h_Mpc": 0.00103377686,
+      "k_0p1_h_Mpc": 1.0337769e-05
+    },
+    "note": "unit force/gravity is a fail-fast internal discriminator, not a likelihood-derived empirical bound"
+  },
+  "lambda_limit": {
+    "beta_cap_from_k_0p1_internal_jeans_gate": 1.0337769e-05,
+    "fractional_lambda_change_since_z2_at_cap": -8.03959e-07,
+    "omega_V_z1100_at_cap": 1.627e-09,
+    "natural_beta_9_first_rho_m_zero_redshift": 0.179393118711,
+    "interpretation": "the count-driven rolling becomes observationally and dynamically idle before linear clustering is protected"
+  },
+  "controls": {
+    "gauge_invariance": {
+      "original_delta_N_com": -0.0884,
+      "transformed_delta_N_com": -0.0884,
+      "absolute_residual": 0.0,
+      "passes": true
+    },
+    "global_cell_rescaling": {
+      "cell_factor": 16.0,
+      "lambda_factor": 0.25
+    },
+    "geodesic_transport_residual": -0.943
+  },
+  "checks": [
+    {
+      "id": "global_slice_volume_has_arbitrary_cell",
+      "passed": true,
+      "detail": "rescaling an arbitrary comoving cell by 16 rescales Lambda by 1/4"
+    },
+    {
+      "id": "causal_past_volume_formula_positive_control",
+      "passed": true,
+      "detail": "max analytic/numeric coefficient residual=3.483e-11"
+    },
+    {
+      "id": "causal_past_count_coefficient_is_history_dependent",
+      "passed": true,
+      "detail": "kappa_eff(matter)/kappa_eff(radiation)=1.696970"
+    },
+    {
+      "id": "local_scalar_transport_reproduces_background",
+      "passed": true,
+      "detail": "u.nabla N=kappa(Theta/3)^-3 reduces exactly to Ndot=kappa H^-3"
+    },
+    {
+      "id": "full_transfer_four_vector_fixed",
+      "passed": true,
+      "detail": "T_V=-Vg implies Q_vac,a=-nabla_a V and fixes both energy and momentum transfer"
+    },
+    {
+      "id": "comoving_count_perturbation_is_gauge_invariant",
+      "passed": true,
+      "detail": "time-shift residual=5.551e-17"
+    },
+    {
+      "id": "minimal_action_has_nonzero_multiplier_stress",
+      "passed": true,
+      "detail": "V_N!=0 forces a nonzero constraint multiplier; its stress cannot be silently omitted"
+    },
+    {
+      "id": "geodesic_zero_sound_escape_incompatible",
+      "passed": true,
+      "detail": "delta N_com=phi=0 leaves nonzero S_Theta*deltaTheta for a growing mode"
+    },
+    {
+      "id": "fixed_point_characteristic_identity",
+      "passed": true,
+      "detail": "max |c_N^2-3Omega*|=1.218e-09"
+    },
+    {
+      "id": "all_accelerating_fixed_points_superluminal",
+      "passed": true,
+      "detail": "acceleration requires Omega*>1/3, hence c_N^2=3Omega*>1"
+    },
+    {
+      "id": "principal_symbol_unstable_interaction_control",
+      "passed": true,
+      "detail": "flipping V_N changes oscillatory characteristics into a gradient instability"
+    },
+    {
+      "id": "linear_scale_jeans_gate_forces_small_beta",
+      "passed": true,
+      "detail": "unit force/gravity ratio at k=0.1 h/Mpc occurs at beta=1.034e-05"
+    },
+    {
+      "id": "constant_lambda_growth_positive_control",
+      "passed": true,
+      "detail": "relative growth mismatch=0.000e+00"
+    },
+    {
+      "id": "growth_resolution_convergence",
+      "passed": true,
+      "detail": "30k/60k relative residual=2.109e-15"
+    },
+    {
+      "id": "growth_probe_has_scale_dependent_teeth",
+      "passed": true,
+      "detail": "beta=1e-4 produces >1% scale-dependent growth movement at k=0.1 h/Mpc"
+    },
+    {
+      "id": "lambda_limit_keeps_positive_matter_era",
+      "passed": true,
+      "detail": "Omega_V(z=1100)=1.627e-09"
+    },
+    {
+      "id": "natural_beta_matter_positivity_control",
+      "passed": true,
+      "detail": "beta=9 reaches rho_m=0 at z=0.179"
+    },
+    {
+      "id": "growth_allowed_branch_is_lambda_limit",
+      "passed": true,
+      "detail": "at the internal k=0.1 growth cap, |Delta Lambda/Lambda| since z=2 is 8.040e-07"
+    }
+  ],
+  "check_summary": {
+    "passed": 18,
+    "failed": 0
+  },
+  "verdict": "VIABLE_ONLY_AS_LAMBDA_LIMIT",
+  "interpretation": [
+    "COV-01 is not merely non-covariant: a natural local covariant lift with a complete transfer four-vector exists at phenomenological interacting-vacuum grade.",
+    "That lift fixes a nonzero comoving vacuum perturbation and a scale-dependent scalar force; no rest-frame sound speed or momentum transfer remains free to tune.",
+    "Every accelerating fixed point has a superluminal scalar characteristic in the declared continuum equations, so the local lift fails the causal perturbation gate for any beta>0 that reaches its attractor.",
+    "On currently linear clustering scales the same force requires beta of order 1e-5 or smaller even under a deliberately weak unit-pressure/gravity discriminator.",
+    "At that beta the change in Lambda since z=2 is below 1e-5: the surviving branch is physically the constant-Lambda limit and the N transport is explanatorily idle.",
+    "The causal-past count remains a distinct retarded nonlocal model worth separate construction, but it does not inherit the COV-01 constant-kappa background and cannot be counted as a rescue of this closure."
+  ]
+}
