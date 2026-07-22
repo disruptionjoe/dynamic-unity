@@ -2,7 +2,7 @@
 
 Plan created at: 2026-07-21T23:33:05-05:00
 
-Status: validated_pending_versioning
+Status: completed
 
 Run type: `progress`
 
@@ -225,7 +225,7 @@ an observer gradient, an inserted present-age scale, or a post-selected realizat
 
 ## Receipt
 
-Receipt created at: pending
+Receipt created at: 2026-07-22T00:03:05-05:00
 
 Terminal outcome: `CAUSAL_ESCAPE_TRACKER_FAIL`
 
@@ -233,13 +233,13 @@ Pre-run target status: `COV-02 left causal-past and other nonlocal/UV completion
 
 Post-run target status: `The local cone obstruction was genuinely escaped, but the scale-free causal-memory background and raw martingale branches were killed. HC-DU-011 and HC-DU-022 are elevated together as the P0 surviving frontier.`
 
-External actions performed: `None yet; GitHub result/receipt versioning pending.`
+External actions performed: `The result commit df35f2373212ba9bdee2f552d71e9e6d55756101 and the receipt closeout commit containing this record were pushed to origin/main under Joe's direct authorization. No non-GitHub external action was performed.`
 
 Artifacts changed: `LANES.yaml; the 50-persona preservation register; the cross-repo hardening/reuse map; the full causal-memory frontier exploration; this Run Plan; one executable probe; one frozen JSON artifact.`
 
-Checks performed: `45/45 probe checks PASS; byte-identical deterministic rerun artifact SHA-256 55DD5242F55B1EB5DA80DFB7BE1111CBC96BC7A510716601A46434360EA811B4; COV-02 regression 18/18 PASS; COV-01 regression 18/18 PASS; 20k/40k history convergence 9.496e-11; YAML and JSON parse PASS; git diff --check PASS except expected line-ending notices.`
+Checks performed: `Probe syntax PASS; 45/45 frontier checks PASS; byte-identical deterministic rerun artifact SHA-256 55DD5242F55B1EB5DA80DFB7BE1111CBC96BC7A510716601A46434360EA811B4; COV-02 regression 18/18 PASS; COV-01 regression 18/18 PASS; existing entropy-amplitude regression 11/11 PASS; 20k/40k history convergence 9.496e-11; YAML and JSON parse PASS; explicit seven-path staged review; git diff --check PASS except expected line-ending notices; result-commit finish guard clean/even at df35f2373212ba9bdee2f552d71e9e6d55756101.`
 
-Lane revalidation: `Admission manifest revision/hash 6/799605dda2d230910588eca95f117b6328ce5ebb8a441963552b9818bb1a65e8; post-result manifest revision/hash 7/EA1820FC9BAC65493027F65B89CE64518743C2DFC321508126ECE58B46F61D37; ownership, permission intersection, writer collision, directed flow, and emergency-revocation checks remain clear before versioning.`
+Lane revalidation: `Admission manifest revision/hash 6/799605dda2d230910588eca95f117b6328ce5ebb8a441963552b9818bb1a65e8; post-result manifest revision/hash 7/EA1820FC9BAC65493027F65B89CE64518743C2DFC321508126ECE58B46F61D37; ownership, permission intersection, writer collision, directed flow, and emergency-revocation checks remained clear through the result push.`
 
 Follow-ups: `Build the coupled HC-DU-011 + HC-DU-022 order-first generated-scale frontier; complete the typed N/object/action diagram; seek independent reimplementation before raising the scientific grade.`
 
