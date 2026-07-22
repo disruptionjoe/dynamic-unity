@@ -82,10 +82,10 @@ Load root `LANES.yaml` after governance, before selecting work. **Lanes are orga
 MODE**, not a verification pipeline: Lane 1 targeted hypothesis pursuit (the North-Star
 high-exploit), Lane 2 non-derivation generation & testing (the heterodox engine — derivation is
 not the standard), Lane 3 a persona parallel-progress swarm (each seated persona works a channel,
-reads the others between rounds, and reorients — continue or pivot), Lane 4 prediction &
-papers — the Drafting-Factory seam (identify candidates from the other lanes, seed the factory,
-harden proactively, and answer the factory's hardening requests), Lane A stewardship, Discovery
-lane-less. **There is
+reads the others between rounds, and reorients — continue or pivot), Lane 4 prediction,
+hardening & Drafting-Factory seeding (identify candidates from the other lanes, seed the factory,
+harden research + papers, and answer the factory's hardening requests — the factory produces the
+papers and Joe posts; DU does **not** track publishing), Lane A stewardship, Discovery lane-less. **There is
 deliberately no standing verification-gate lane** — honesty is a per-lane practice (grade what you
 actually have; don't fool yourself), and the known challenges/adversaries
 (`lab/process/known-challenges-and-adversaries.md`) are **terrain to beat, not gates** (most are
