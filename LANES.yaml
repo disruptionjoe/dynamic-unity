@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 1
+manifest_revision: 2
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -11,85 +11,118 @@ owner:
   authoritative_state_refs:
   - README.md
   - LANES.yaml
+lane_design_note: >-
+  Lanes are organized by JOB / MODE of research, not by a verification pipeline. There is
+  deliberately NO standing verification-gate lane: honesty (grade what you actually have; don't
+  fool yourself) is a per-lane practice, and the known challenges/adversaries are TERRAIN to beat,
+  not gates — most are class-relative no-go's this program has a history of getting around (see
+  lab/process/known-challenges-and-adversaries.md). The lean is toward the frontier and ambition.
 lanes:
 - id: '1'
   label: Lane 1
   ordinal: 1
   kind: progress
-  title: Dynamics beyond the static GU picture
+  title: Targeted hypothesis pursuit
   north_star: true
   purpose: >-
-    Given that the bit (sigma) and the trit (tau) can be supplied in a way that makes the
-    STATIC GU picture coherent, determine what DYNAMICS are needed to make a clearer, more
-    complete picture beyond it. GU-anchored by design: takes the static picture as the working
-    substrate and asks what dynamics extend it. Default-skeptical; central claims OPEN.
+    Go directly after specific, named flagship hypotheses and drive each toward a verdict — the
+    high-exploit / North-Star work. The directed lane: pick the biggest bets and push them hard.
   purpose_type: north_star
   lead_bet: >-
-    Broad in admission, focused in priority — the B5 source action to a natively-derived
-    dark-energy amplitude, the assessment's one bankable joint.
+    The tachyon-transducer and, through it, a natively-derived dark-energy amplitude via the B5
+    source action. Broad in admission, focused in priority.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
-    role: flagship dynamic reframe
     scope: >-
-      Source action to tachyonic record-count roll (N = e^{4p}) to record-accretion to
-      DE sign+magnitude+arrow as one object; the roll<->accretion computation; the
-      volume->Lambda link; the compactifying mirror-sector vacuum (W224 gap); the tachyon's
-      centrality re-derived past the W157 coincidence.
-    grade: unbuilt / B5-gated; roll<->accretion is a conjecture; centrality is coincidence-grade (W157)
+      Source action -> tachyonic record-count roll (N=e^{4p}) -> record-accretion -> DE
+      sign+magnitude+arrow as one object; the roll<->accretion computation; the volume->Lambda
+      link (test sigma.Tr-ln-G from the Bianconi habitat); the tachyon centrality past W157.
+    grade: unbuilt / B5-gated / conjecture — the flagship
   - id: '1.2'
-    title: The dynamic tension-reframe sweep
-    role: the program's systematic engine
-    scope: >-
-      Take the GU tension ledger (the ~20 inherited tensions plus the resolved cluster) and
-      systematically test which tensions reframe or resolve when the system is made DYNAMIC —
-      the generalization of the transducer (which reframes the dark-energy tension) to every
-      tension. The sigma-council, tau-council, and tachyon-as-DE-rolling are its first entries;
-      the sweep asks, tension by tension, whether the dynamics reach where the static discrete
-      data provably could not (measurement, hierarchy, confinement, the magnitudes...).
-  - id: '1.3'
     title: Shared B5 source action (with P2C)
-    role: the blocked spine both channels ride on
     scope: >-
-      The B5 source-action construction consumed from P2C when delivered, re-checked for fit
-      here rather than assumed; the good-stable grading it must supply.
-  - id: open
-    title: (open)
-    role: admission slot
+      The source-action construction (P2C 9-item obligations spec as an acceptance rubric,
+      re-checked here); the return arrow (the named unbuilt piece); the O-b `sorry` discharge.
+  - id: '1.3'
+    title: The native DE amplitude
     scope: >-
-      Additional unification-candidate channels admitted from Discovery as they earn a
-      program-native object plus a kill test.
+      Does Lambda~1/sqrt(N) fall out natively? phi = 1/(3 Omega_Lambda)^2 from the (9,5)/gimmel
+      DeWitt-fiber measure + a native count, beating the Sorkin-import and the de-Sitter-relabel.
 - id: '2'
   label: Lane 2
   ordinal: 2
   kind: progress
-  title: Prediction extraction
+  title: Non-derivation generation & testing
   north_star: false
-  purpose: Turn candidate cores into exposed, falsifiable predictions.
+  purpose: >-
+    Generate and test candidate unifications, reframings, and structures by ALL legitimate
+    non-derivation means — abduction, synthesis, reframing, analogy-as-structure, making a static
+    picture dynamic. Derivation is NOT assumed to be the standard. The divergent, heterodox engine
+    that feeds Lane 1 with new bets and cheap discriminating tests.
   purpose_type: independent_progress
   channels:
   - id: '2.1'
-    title: 'DE amplitude via 1/sqrt(N)'
-    scope: The native-derivation test of phi = 1/(3*Omega_Lambda)^2 — the distinctness bank.
-  - id: '2.2'
-    title: Recovered predictions
+    title: The dynamic tension-reframe sweep
     scope: >-
-      The TeV mirror state (ghost-vs-physical fork + reopen conditions) and the DE/Planck
-      ratio, carried as live candidates with blockers.
-  - id: '2.3'
-    title: Cross-domain co-variance
-    scope: The parity leg as a candidate second observable — proposal-grade, pursued not counted.
+      Run the GU tension ledger through "which tensions reframe or resolve when the system is made
+      dynamic?" — the systematic engine.
+  - id: '2.2'
+    title: Candidate-unification generation
+    scope: >-
+      Abduce / synthesize / reframe new candidate unifying structures (including non-GU frames);
+      give each a cheap discriminating test; promote survivors to Lane 1.
+  - id: open
+    title: (open)
+    scope: New program-native candidates admitted as they earn an object + a cheap test.
 - id: '3'
   label: Lane 3
   ordinal: 3
   kind: progress
-  title: Result hardening / publication readiness
+  title: Persona parallel progress
   north_star: false
   purpose: >-
-    Adversarial verification, machine probes with real-falsifier positive controls, grade
-    labels, rollback conditions, VERIFICATION-style honesty maps. Terminal state = a Joe-review
-    draft; Joe publishes.
+    A standing cross-pollinating persona WORK swarm: each persona seated from the DU
+    Dynamic-Physics board (persona-register.md) holds a channel and works to progress the project
+    as far as it can from its own lens. This is parallel work, not deliberation.
+  purpose_type: independent_progress
+  operating_rule: >-
+    Each round: (1) every seated persona advances the project from its lens and records what it
+    accomplished; (2) before the next round, each persona reads the others' progress; (3) each
+    reorients — continue the same thread, or pivot to something more promising given what the
+    others found. Personas are lenses; their outputs are re-verified, never banked on persona
+    authority. Distinct from the "personas always inline" rule, which governs council DELIBERATION;
+    this lane is parallel work.
+  channels:
+  - id: '3.x'
+    title: One channel per seated persona
+    scope: >-
+      Seats drawn (by reference, not forked — ISSUE-0030) from the DU Dynamic-Physics board:
+      Mathematical Physicist, Differential Geometer, Dynamical Systems, Symbolic Dynamics, Spin
+      Geometry, Index Theory, Gauge Theory, GU Specialist, Constructor/Assembly/Open-endedness,
+      Metrology-Invariance, Order-Domain, Model-theorist, Type-theorist, plus the new tachyonic /
+      mirror-sector / B5-source-action seats.
+- id: '4'
+  label: Lane 4
+  ordinal: 4
+  kind: progress
+  title: Prediction, confrontation & publication-readiness
+  north_star: false
+  purpose: >-
+    Turn survived cores into exposed, falsifiable predictions; confront them with data; and
+    prepare publication-ready write-ups for Joe. Preparation, not a gate. Joe publishes.
   purpose_type: supporting_progress
+  channels:
+  - id: '4.1'
+    title: Predictions
+    scope: >-
+      The DE-sign no-crossing; the recovered TeV mirror + DE/Planck-ratio; the parity co-variance
+      leg — carried with their blockers.
+  - id: '4.2'
+    title: Publication-readiness
+    scope: >-
+      Honest-grade write-ups, reproducible probes, honesty maps; the TaF bridge units-guard
+      (rate^2-to-rate^2) applied as a sanity check. Terminal state = a Joe-review draft.
 - id: A
   label: Lane A
   letter: A
@@ -97,23 +130,33 @@ lanes:
   title: Stewardship
   north_star: false
   purpose: >-
-    Governance, the self-checking duty, the anti-crank/method discipline, the parsimony
-    ledger plus its rigged control, cross-repo ingest/share hygiene, lane hygiene.
+    Governance; the sovereign self-verification duty; the persona convention (inline for
+    deliberation; the register is a pointer per ISSUE-0030); custody of the known-challenges /
+    adversaries register (terrain to beat, NOT gates); cross-repo ingest/share hygiene; lane
+    hygiene.
   purpose_type: integrated_stewardship
 discovery:
   kind: lane_less
   title: Discovery
   purpose: >-
-    Divergent, coherence-first ideation across the whole moonshot (W155-style sweeps);
-    promoted into a numbered lane only when a candidate binds to a program-native object with
-    a concrete kill/confirm test.
+    Truly-wild, coherence-first ideation feeding Lane 2; promoted into a lane only when a
+    candidate binds to a program-native object with a cheap discriminating test.
 special_rules:
+- id: no-standing-verification-gate
+  note: >-
+    Deliberately NO standing verification-gate lane. Honesty is a per-lane practice; the known
+    challenges are terrain, not blockers; the lean is toward the frontier. Class-relative no-go's
+    are challenges to beat, not walls — this program's history is getting around them.
+- id: persona-swarm-vs-inline-council
+  note: >-
+    Lane 3 (per-persona-channel WORK swarm) is distinct from the standing "personas always inline"
+    rule, which governs council DELIBERATION. Deliberation stays one-worker; Lane 3 is parallel work.
 - id: future-non-gu-lane
   note: >-
-    The broad Purpose leaves room for a FUTURE lane that pursues unification without assuming
-    GU at all. Lane 1 is GU-anchored by design and is not the program's only possible frame.
+    The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
+    all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 1
+  revision: 2
   status: founding
   created: '2026-07-21'
-  approved_by: Joe direct chat via coordinator, 2026-07-21 (approved_charter rev. 5)
+  approved_by: Joe direct chat via coordinator, 2026-07-21 (mode-lane redesign)

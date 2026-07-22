@@ -78,8 +78,16 @@ never a directive.
 
 ## How agents work the lanes
 
-Load root `LANES.yaml` after governance, before selecting work. Numbered lanes = Progress,
-lettered = Stewardship, Discovery = lane-less. Durable artifacts live **in the repo** at
-honest grade; a work-card is a spec, not the product. Absolute paths, explicit-path staging,
-no `git add -A`. Commit/push is normal versioning for Joe's repos once a coherent batch is
-done; publishing outside the repo workflow is Joe-gated.
+Load root `LANES.yaml` after governance, before selecting work. **Lanes are organized by JOB /
+MODE**, not a verification pipeline: Lane 1 targeted hypothesis pursuit (the North-Star
+high-exploit), Lane 2 non-derivation generation & testing (the heterodox engine — derivation is
+not the standard), Lane 3 a persona parallel-progress swarm (each seated persona works a channel,
+reads the others between rounds, and reorients — continue or pivot), Lane 4 prediction /
+confrontation / publication-readiness, Lane A stewardship, Discovery lane-less. **There is
+deliberately no standing verification-gate lane** — honesty is a per-lane practice (grade what you
+actually have; don't fool yourself), and the known challenges/adversaries
+(`lab/process/known-challenges-and-adversaries.md`) are **terrain to beat, not gates** (most are
+class-relative no-go's this program has a history of getting around). Lean toward the frontier and
+ambition. Durable artifacts live **in the repo** at honest grade; a work-card is a spec, not the
+product. Absolute paths, explicit-path staging, no `git add -A`. Commit/push is normal versioning
+for Joe's repos once a coherent batch is done; publishing outside the repo workflow is Joe-gated.
