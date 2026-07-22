@@ -96,6 +96,42 @@ factory receives well-formed seeds, never speculative ones.
 
 ---
 
+## Conditional predictions — labeled-assumption, NOT source-gated (added 2026-07-22)
+**Correction of an over-conservative posture.** PRED-DU-001/002 above were filed as SEAMs "doubly-gated
+on the unbuilt source" — correct for the SEED gate, but WRONG as a bar on the *prediction itself*. A
+**conditional prediction** ("IF the source has [labeled minimal assumption], THEN [falsifiable
+consequence]") is standard physics (all of EFT/BSM) and needs no source built. It is a first-class
+product, graded *conditional on the labeled posit*, and it **does work either way: if it fails, it
+falsifies the assumption and constrains the source.** These are NOT source-gated; only *seeding* them to
+the factory follows the normal SEED gate. Strength ≈ (minimality/motivation of the assumption) ×
+(falsifiable content the framework adds beyond it). Lead with the assumption; keep every posit labeled.
+
+### CPRED-01 — TeV mirror sector → collider + dark-matter signature (least-gated; strongest to make now)
+- **Assumption (labeled):** the source produces the recovered Z/2 mirror sector at ~TeV with minimal structure.
+- **Content/target:** the LHC signature (masses, couplings, σ) AND whether mirror baryons are a viable
+  dark-matter candidate (relic abundance). **The real target is a PINNED RELATION** (a mass ratio / the
+  scale tied to σ,τ) — the difference between a prediction and "there might be a particle."
+- **Falsifier:** LHC non-observation at the pinned scale; DM direct-detection / relic mismatch.
+- **Execution:** parallel-flow P08 — frame as conditional-with-a-pinned-relation, not a free-parameter catalog.
+
+### CPRED-02 — exactly 3 generations, forced by the Z/3 trit (structural)
+- **Assumption:** the generation structure is τ = Z/3 (established in-session).
+- **Content:** the count is forced to **3** — forbids 2 and 4 (a menu-restriction, not just "explains 3").
+- **Falsifier:** a 4th generation; or the Z/3 forcing failing on audit.
+
+### CPRED-03 — exactly one external Z/2 bit (the σ-externality theorem's structural prediction)
+- **Assumption:** genuine becoming requires first-person underivability (the CONDITIONAL-THEOREM's condition).
+- **Content:** the theory imports **exactly one** external orienting bit (σ) — not two, not zero.
+  Partly Lean-proved (`no_invariant_valuation`).
+- **Falsifier:** a construction needing a second independent external sign, or none.
+
+### CPRED-04 — no phantom crossing, w > −1 (cosmology; gated on COV-03)
+- **Assumption:** dark energy IS a healthy single canonical scalar (the tachyon roll).
+- **Content:** w stays > −1, no crossing of the phantom divide (single-field theorem); sharp, DESI-testable,
+  theorem-backed (σ = fixed external sign → no dynamical sign flip).
+- **Gate:** COV-02 showed the *local* roll is superluminal-or-trivial → rides COV-03 (the causal-past-N roll
+  being a *healthy* single field). Gated on that health, not on the full source.
+
 ## Boundary
 Lane 4.1 working state. Registration ≠ seeding ≠ publishing. The factory owns paper production and
 Joe owns posting; this register only holds and hardens candidates up to the SEED-READY gate.
