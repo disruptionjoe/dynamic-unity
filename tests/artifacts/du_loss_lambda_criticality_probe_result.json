@@ -1,0 +1,246 @@
+{
+  "probe": "du_loss_lambda_criticality_probe",
+  "lane": "2.2 / 1.3",
+  "question": "(A) Is DU's record-accretion LITERALLY a learning dynamics -- a gradient flow on a NAMED loss with a 1/sqrt(N) fluctuation floor, with the measurable analogies matching deep-learning values? (B) Is Lambda = deviation-from-criticality (a relevant coupling / crossover scale, set as an issuance initial condition) a coherent, non-circular dynamical-systems dark-energy mechanism with Lambda ~ 1/sqrt(N_c)?",
+  "A1_gradient_vs_conservative": {
+    "curl_gradient_field": 0.0,
+    "curl_rotational_field": 2.0,
+    "gradient_loss_ratio_final_over_initial": 4.96922979172295e-36,
+    "hamiltonian_loss_rel_std": 0.5403408051599963,
+    "named_loss": "L_N(theta) = (1/2N) sum_i (theta - r_i)^2  =  mu reversal-cost free energy = linearised finality H^1-obstruction = empirical risk; record-accretion = its gradient flow d theta/dt = -(theta - rbar)"
+  },
+  "A2_sqrtN_floor": {
+    "Ns": [
+      16,
+      64,
+      256,
+      1024,
+      4096,
+      16384,
+      65536
+    ],
+    "gradient_rms_error": [
+      0.2583815101945992,
+      0.12933200175878865,
+      0.06177689031090041,
+      0.03270513854669924,
+      0.016143847032858653,
+      0.007960663392802776,
+      0.003897287628275798
+    ],
+    "gradient_slope": -0.5023721846243606,
+    "hamiltonian_Ns": [
+      16,
+      64,
+      256,
+      1024,
+      4096
+    ],
+    "hamiltonian_rms_error": [
+      0.7426817659469171,
+      0.7185699417281287,
+      0.710974553597008,
+      0.7087602015990762,
+      0.7083201592778914
+    ],
+    "hamiltonian_slope": -0.007825805122052611,
+    "loss_value_floor": [
+      0.06168858952875103,
+      0.015393504923986716,
+      0.0036680508860725872,
+      0.0011028408370570778,
+      0.00024321085496305564,
+      6.814747770407683e-05,
+      1.5148232154452073e-05
+    ],
+    "reading": "DU's record-accretion, as the gradient flow on the finality-consistency loss, has estimator error sigma/sqrt(N) = Lambda ~ 1/sqrt(N) (the Sorkin everpresent residual as a learning-dynamics loss floor). The conservative control's error stays O(1) and N-independent (it orbits, never reaching the consensus): the 1/sqrt(N) floor is bought by GRADIENT-ness / dissipation, discriminated, not assumed."
+  },
+  "A3iii_fisher": {
+    "I1_per_record": 1.0,
+    "I_N_additive": 4096.0,
+    "cramer_rao_std": 0.015625,
+    "measured_std": 0.015752744929308532,
+    "reading": "Fisher information adds over N records (I_N = N*I_1, ultralocal/additive) so the estimator std is the Cramer-Rao 1/sqrt(N*I_1) -- the DeWitt/Fisher measure and the ML loss-Hessian are the SAME object at the floor."
+  },
+  "A3_measurable_analogies": {
+    "loss_floor_exponent": {
+      "ML_variance_limited_amp": 0.5,
+      "ML_variance_limited_loss": 1.0,
+      "DU_lambda_amp": 0.5,
+      "DU_lambda_loss": 1.0,
+      "match": true
+    },
+    "spectral_dimension_exponent": {
+      "ML_sharma_kaplan_4_over_d": 0.5,
+      "ML_fitted_alpha": 0.38275023495126526,
+      "ML_data_manifold_dim": 8.0,
+      "ML_kernel_spectral_decay_s": 1.5,
+      "DU_dewitt_causal_set_spectral_dim_IR": 4.0,
+      "DU_4_over_ds": 1.0,
+      "DU_spectral_dim_UV": 2.0,
+      "informative_divergence": "the DE floor 1/2 is the variance-limited (d-independent CLT) exponent, not the resolution 4/d_s; the two are DIFFERENT regimes of the SAME learning curve, reconciled by Part B as an off-critical crossover."
+    },
+    "fisher_curvature": {
+      "ML_fisher_N_over_sigma2": 4096.0,
+      "DU_dewitt_fisher_additive": 4096.0,
+      "shared_cramer_rao_std": 0.015625
+    }
+  },
+  "B1_criticality_positive_control": {
+    "tau_at_delta0": 1.4862599466656083,
+    "mean_progeny_small_cap": 293.6393,
+    "mean_progeny_big_cap": 1451.375775,
+    "reading": "At exact criticality (Lambda=0) the avalanche law is the mean-field SOC power law tau=3/2 with no characteristic scale; the mean progeny diverges with system size, so there is no finite crossover N_c and NO dark energy. Dark energy REQUIRES an off-critical initial condition."
+  },
+  "B2_crossover_law": {
+    "deltas": [
+      0.2,
+      0.14,
+      0.1,
+      0.07,
+      0.05,
+      0.035,
+      0.025
+    ],
+    "mean_progeny": [
+      4.979075,
+      7.130808333333333,
+      10.113225,
+      14.361558333333333,
+      19.711658333333332,
+      28.673866666666665,
+      39.26826666666667
+    ],
+    "N_c": [
+      16.988655858099477,
+      31.86730466508589,
+      61.65348096180991,
+      119.75204350502818,
+      214.38057807583414,
+      427.54620351167614,
+      773.9032259296735
+    ],
+    "slope_meanT_vs_delta": -0.9940636264234349,
+    "slope_Nc_vs_delta": -1.8441980985898359,
+    "slope_lambda_vs_invsqrtNc": 1.0842971568974933,
+    "reading": "The mean-field branching-process cutoff N_c ~ delta^{-2} makes Lambda=delta ~ 1/sqrt(N_c) a DERIVED crossover law, not a fit: N_c is FIXED by the distance-from-criticality delta. Lambda is a control parameter / initial condition, not a fundamental constant."
+  },
+  "B3_relevant_coupling": {
+    "Nc_large_delta": 16.988655858099477,
+    "Nc_small_delta": 773.9032259296735,
+    "diverges_as_delta_to_0": true,
+    "off_critical_scale_finite": true,
+    "reading": "delta opens a finite correlation scale N_c off criticality that diverges as a clean power N_c~delta^{-2} when delta->0: the defining signature of a RELEVANT RG coupling / a scale-symmetry-breaking measure. Lambda = a genuine near-critical deviation, not a bookkeeping label."
+  },
+  "B4_two_regime_and_circularity": {
+    "Ms": [
+      64,
+      256,
+      1024,
+      4096,
+      16384
+    ],
+    "rel_fluctuation_above_crossover": [
+      0.27482427171959367,
+      0.13622664968956827,
+      0.06683574735155484,
+      0.03534325662188023,
+      0.017559317092407812
+    ],
+    "slope_above_crossover": -0.4941451820569,
+    "soc_ccdf_tail_index_alpha": 0.49309455507359756,
+    "off_critical_p999": 250.00100000000384,
+    "critical_p999": 400184.00200000004,
+    "off_critical_scale_finite": true,
+    "Nc_is_derived_not_tuned": true,
+    "reading": "Above the crossover, independent counting self-averages at 1/2 (variance-limited = Part A's DE floor). The SOC/critical count is heavy-tailed (alpha=tau-1~1/2<1, infinite mean, NON-self-averaging) -- a genuinely different regime; off-criticality has a finite characteristic scale ~O(N_c). The crossover N_c is FIXED by delta via the derived delta^{-2} law -- so the mechanism is NON-CIRCULAR (N_c is not a free fit). What remains an initial condition is the VALUE of delta, matching 'exponent native, value open'."
+  },
+  "checks": [
+    {
+      "name": "A1: DU-accretion field is curl-free (a genuine gradient flow on L)",
+      "pass": true
+    },
+    {
+      "name": "A1: conservative control has nonzero curl (NOT a gradient flow) -- discriminated",
+      "pass": true
+    },
+    {
+      "name": "A1: gradient flow RELAXES the loss to ~0 (Lyapunov descent)",
+      "pass": true
+    },
+    {
+      "name": "A1: Hamiltonian control does NOT relax (loss oscillates, energy conserved)",
+      "pass": true
+    },
+    {
+      "name": "A2 POSITIVE CONTROL: gradient flow on quadratic loss gives the 1/sqrt(N) floor (slope ~ -0.5)",
+      "pass": true
+    },
+    {
+      "name": "A2 DISCRIMINATOR: conservative (non-gradient) flow error does NOT shrink as 1/sqrt(N) (slope >> -0.5, stays O(1))",
+      "pass": true
+    },
+    {
+      "name": "A3(iii): measured estimator std matches the Cramer-Rao 1/sqrt(N*I_1) bound",
+      "pass": true
+    },
+    {
+      "name": "A3(i): loss-floor exponent matches (ML variance-limited 1/2 == DU Lambda 1/2)",
+      "pass": true
+    },
+    {
+      "name": "A3(ii): the 4/d spectral-dimension machinery reproduces alpha~4/d in ML (fit near 4/d)",
+      "pass": true
+    },
+    {
+      "name": "B1 POSITIVE CONTROL: delta=0 gives the SOC power law tau~3/2 (in [1.35,1.65])",
+      "pass": true
+    },
+    {
+      "name": "B1 POSITIVE CONTROL: delta=0 has NO finite crossover (mean progeny diverges with cutoff)",
+      "pass": true
+    },
+    {
+      "name": "B2: mean progeny <T> ~ delta^{-1} (slope ~ -1)",
+      "pass": true
+    },
+    {
+      "name": "B2: crossover scale N_c ~ delta^{-2} (slope ~ -2) -- the mean-field cutoff, DERIVED",
+      "pass": true
+    },
+    {
+      "name": "B2: Lambda=delta ~ 1/sqrt(N_c) is DERIVED (delta vs 1/sqrt(N_c) slope ~ +1)",
+      "pass": true
+    },
+    {
+      "name": "B3: off-critical delta opens a FINITE characteristic scale (scale symmetry broken)",
+      "pass": true
+    },
+    {
+      "name": "B3: the scale DIVERGES as delta->0 (N_c grows) -- delta is a relevant coupling",
+      "pass": true
+    },
+    {
+      "name": "B4: above the crossover the count is VARIANCE-LIMITED 1/2 (slope ~ -0.5) -- Part A's floor",
+      "pass": true
+    },
+    {
+      "name": "B4: the SOC (critical) count is heavy-tailed alpha~1/2 <1 (infinite mean, non-self-averaging) -- a DIFFERENT regime from the variance-limited 1/2",
+      "pass": true
+    },
+    {
+      "name": "B4: off-criticality has a FINITE characteristic scale ~O(N_c) (scale broken), unlike scale-free criticality",
+      "pass": true
+    },
+    {
+      "name": "B4 ADVERSARY-C: N_c is a DERIVED function of delta (slope -2), not a tuned free knob",
+      "pass": true
+    }
+  ],
+  "n_pass": 20,
+  "n_total": 20,
+  "grade": {
+    "part_A": "LITERAL-AT-THE-FLOOR / PARTIAL -- record-accretion is a gradient flow on the named mu/finality-consistency loss with a 1/sqrt(N) Cramer-Rao floor (discriminated from a conservative flow); loss-floor exponent and Fisher curvature match ML variance-limited values; the spectral-dimension exponent is the informative variance-vs-resolution divergence. LITERAL at the DE floor.",
+    "part_B": "COHERENT -- Lambda = deviation-from-criticality is a relevant RG coupling; N_c ~ delta^{-2} makes Lambda ~ 1/sqrt(N_c) a derived, non-circular crossover law (Lambda=0 => SOC 3/2, no DE); the value of delta remains an initial condition (exponent native, value open)."
+  }
+}

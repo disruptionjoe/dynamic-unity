@@ -1,0 +1,168 @@
+{
+  "A1_gradient": {
+    "gradient_pathgap": 0.0,
+    "rotational_pathgap": 2.0000000000000013,
+    "scalar_antideriv_residual": 0.0003702516261427924
+  },
+  "A2_named_losses": {
+    "min_dmu_dN": 1.3950955005258128,
+    "Lambda_at_Nmax": 0.01
+  },
+  "A3_clt": {
+    "iid_slope": -0.5015464645717858,
+    "common_mode_slope": -0.01592269098496731,
+    "coef_a": 0.5,
+    "coef_b": 2.0
+  },
+  "A4_analogies": {
+    "alpha_d4": 1.0,
+    "alpha_d8": 0.5,
+    "alpha_d2": 2.0
+  },
+  "B1_criticality_dial": {
+    "relevant_ir_sweep": [
+      0.1,
+      1.0,
+      10.0,
+      100.0
+    ],
+    "soc_sigma_c_drive0p5": 0.9438743126816934,
+    "soc_sigma_c_n64": 0.9892280131939755,
+    "pid_deviation_sweep": [
+      0.2,
+      0.5,
+      0.6799999999999999,
+      0.8999999999999999
+    ]
+  },
+  "B2_relabel": {
+    "relevant_ir_planck": 5.212392692662864e+243,
+    "irrelevant_ir_planck": 1.385100979420276e-122,
+    "cutoff_tracking_ratio": 9.999999999999998e-05
+  },
+  "B3_exponent_gap": {
+    "gap": 1.0,
+    "Lambda_lp2_obs": 2.845135921827189e-122,
+    "gap_over_Lambda": 3.51477056800079e+121
+  },
+  "headline": {
+    "checks_passed": 24,
+    "checks_total": 24,
+    "partA_verdict": "ABSORBED",
+    "partB_verdict": "ABSORBED"
+  },
+  "summary": {
+    "A_learning_dynamics_identity": {
+      "verdict": "ABSORBED",
+      "post_hoc_loss": "gradient structure is VACUOUS for a scalar count N (L=-int f reproduces any accretion); named candidates fail to derive descent (mu increases along accretion = wrong sign; loss:=Lambda is circular and minimizes to 0; entropy-production is stationary-not-minimized and inherits the R6a tau=3/2 mismatch).",
+      "floor_generic": "1/sqrt(N) is the additive-CLT floor (i.i.d. coins give -1/2); non-additive breaks it; the coefficient is a free knob (R6b).",
+      "numbers_coincidental": "alpha~4/d, Fisher, heat-kernel are shared FORM; a matched number needs equal spectral dimensions (unshown) -- 1/2 needs d=8.",
+      "what_would_survive": "an INDEPENDENTLY named loss (own minimum/floor) whose gradient flow reproduces the accretion with NO fitted free function (symmetric Jacobian / curl=0 in >=2D), AND a matched COEFFICIENT (not just exponent), AND the spectral-dim->exponent map on the SAME object with matching d. None is in hand; the coefficient is a free knob."
+    },
+    "B_lambda_as_criticality": {
+      "verdict": "ABSORBED",
+      "circular_crossover": "distance-from-criticality is a FREE dial: sweeping the initial deviation / N_c sweeps the IR Lambda across decades (R6b kappa-sweep relocated to an initial condition). SOC pins to eps->0 (Lambda->0), not to a nonzero 0.68; holding 0.68 needs a PID target (imported).",
+      "relevant_relabel": "Lambda IS the most relevant operator; relevant = UV-sensitive = the cc problem. The framing INHERITS the 10^122 fine-tuning; SOC drives the relevant coupling to 0, SUBTRACTING rather than adding.",
+      "exponent_gap_not_Lambda": "'3/2-1/2=Lambda' equates a dimensionless '1' to a dimensionful ~1.4e-122 (false by ~122 orders). Rigorous content = the exponent MISMATCH tau=3/2 vs 1/2 (R6a wall), a problem not a derivation.",
+      "what_would_survive": "a mechanism that SELECTS a specific NONZERO distance-from-criticality with no free knob (SOC gives eps=0 -> Lambda=0; nothing selects the 0.68 worth), a derivation that ADDS over 'Lambda is a relevant operator' (it currently subtracts), and a dimensionally-valid exponent->Lambda map."
+    }
+  },
+  "checks": [
+    {
+      "name": "A1.1  POS CONTROL: genuine gradient field is path-INDEPENDENT (a real loss exists)",
+      "ok": true
+    },
+    {
+      "name": "A1.2  NEG CONTROL (teeth): rotational field is path-DEPENDENT (no loss exists)",
+      "ok": true
+    },
+    {
+      "name": "A1.3  scalar-N: an ARBITRARY accretion law is reproduced by L=-int f (post-hoc)",
+      "ok": true
+    },
+    {
+      "name": "A2.1  reversal-cost mu(N) is MONOTONE INCREASING along accretion (d mu/dN > 0)",
+      "ok": true
+    },
+    {
+      "name": "A2.2  => gradient DESCENT on mu drives dN/dt = -d mu/dN < 0 (HALTS accretion): wrong sign",
+      "ok": true
+    },
+    {
+      "name": "A2.3  loss:=Lambda=c/sqrt(N) is CIRCULAR and its minimum is Lambda->0 (empty universe)",
+      "ok": true
+    },
+    {
+      "name": "A3.1  POS CONTROL: i.i.d. count relative-fluctuation slope = -1/2 (generic CLT)",
+      "ok": true
+    },
+    {
+      "name": "A3.2  TEETH: NON-additive (common-mode) count breaks the 1/2 (slope -> 0)",
+      "ok": true
+    },
+    {
+      "name": "A3.3  same -1/2 exponent, DIFFERENT coefficient (a free knob; R6b: value imported)",
+      "ok": true
+    },
+    {
+      "name": "A4.1  alpha=4/d gives DIFFERENT exponents for different d (form shared, number not)",
+      "ok": true
+    },
+    {
+      "name": "A4.2  matching 1/2 REQUIRES d=8 exactly (an extra coincidence, not a derivation)",
+      "ok": true
+    },
+    {
+      "name": "A4.3  Fisher metric appears in ANY statistical model (generic) -> not a value-match",
+      "ok": true
+    },
+    {
+      "name": "B1.1  sweeping the initial deviation g0 sweeps the IR value across decades = FREE KNOB",
+      "ok": true
+    },
+    {
+      "name": "B1.2  POS CONTROL: SOC PINS the critical point sigma_c=drive^(1/n)->1 (sourced, no target)",
+      "ok": true
+    },
+    {
+      "name": "B1.3  but SOC pins to eps->0 (Lambda->0), NOT a specific nonzero deviation",
+      "ok": true
+    },
+    {
+      "name": "B1.4  holding a NONZERO deviation needs a PID target; sweeping it sweeps Lambda (import)",
+      "ok": true
+    },
+    {
+      "name": "B2.1  POS CONTROL: relevant (dim-4) coupling IR value is UV-DOMINATED (~1e122): the cc problem",
+      "ok": true
+    },
+    {
+      "name": "B2.2  contrast: an IRRELEVANT coupling is UV-suppressed (tiny) -> not the cc problem",
+      "ok": true
+    },
+    {
+      "name": "B2.3  relevant value TRACKS the cutoff (lowering cutoff x0.1 -> x1e-4): UV-sensitive = relevant",
+      "ok": true
+    },
+    {
+      "name": "B2.4  SOC drives the relevant coupling -> 0 (criticality) => Lambda -> 0: the framing SUBTRACTS",
+      "ok": true
+    },
+    {
+      "name": "B3.1  the exponent gap 3/2 - 1/2 = 1 (a dimensionless pure number)",
+      "ok": true
+    },
+    {
+      "name": "B3.2  Lambda l_p^2 ~ 1.4e-122 is dimensionful/tiny: '1 = Lambda' is false by ~122 orders",
+      "ok": true
+    },
+    {
+      "name": "B3.3  rigorous content is the exponent MISMATCH: native SOC tau=3/2 != DE's 1/2 (R6a wall)",
+      "ok": true
+    },
+    {
+      "name": "B3.4  POS CONTROL: a VALID exponent statement (additive CLT = exactly 1/2) is consistent",
+      "ok": true
+    }
+  ]
+}

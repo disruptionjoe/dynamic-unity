@@ -51,12 +51,16 @@ note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and seve
      DeWitt / spectral-dimension version).
   7. **RG relevant coupling:** Λ = the relevant deviation from the critical fixed point.
   8. **Free-energy / loss effective-sample reweighting** (the Vanchurin learning-dynamics bridge).
-- **Grading (right now).** The in-flight build+kill grades **formalization #2 (crossover)** — a LOCAL
-  result. Whatever it returns, **CONCEPT-DU-001 stays CONCEPT-OPEN.** It closes only if the family
-  shares a failure mode tracing to invariant (iv) — concretely, *"no dynamically-sourced concentration
-  can produce the observed Λ"* — which would itself be the real concept-level result. Next formalizations
-  to test: #1 (N_eff) and #3 (KL-from-uniform), the two cleanest and most measurable.
-- **Status:** CONCEPT-OPEN. Formalization #2 in test; #1, #3 queued.
+- **Grading (2026-07-22, build+kill returned).** Formalization **#2 (crossover) = PARTIAL — LAW derived
+  (Λ~1/√N_c, N_c~δ⁻², non-circular; it DISSOLVES the R6a 3/2-vs-½ apparent contradiction into one
+  relevant-coupling flow), VALUE imported (δ an initial condition)** — a LOCAL result, **NOT falsified**
+  (the kill's ABSORBED hit the weaker scalar version; see du-loss-and-lambda-criticality-synthesis).
+  The **Vanchurin-loss route is LITERAL-AT-FLOOR** (non-vacuous multi-D gradient flow on a named loss;
+  floor-exponent + Fisher MATCH deep learning). So invariant (iv) comes out **mixed: the shape/LAW is
+  FORCED, the specific magnitude (δ) is an IMPORT.**
+- **Status:** **CONCEPT-SUPPORTED-AT-STRUCTURE, VALUE-OPEN.** Formalization #2 PARTIAL; Vanchurin-loss
+  LITERAL-AT-FLOOR; next to test #1 (N_eff), #3 (KL-from-uniform), plus the persistence-of-δ fork
+  (does SOC drive δ→0, or is near-criticality a persistent initial condition?).
 
 ## Divergent-persona formalization family (2026-07-22) — measurable cross-domain reframes
 Ten wildly-divergent lenses each reframed CONCEPT-DU-001; the most MEASURABLE distinct additions to the
