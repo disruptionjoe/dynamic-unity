@@ -1,0 +1,234 @@
+{
+  "JOB_A_kill_the_strongest_form": {
+    "attack1_fixed_operator_relabel": {
+      "absorbed": true,
+      "growing_causet_compression_tower": {
+        "D_small_is_compression_of_D_grown": true,
+        "bipartite_index_grown_|nA-nB|": 2,
+        "bipartite_index_small_|nA-nB|": 1,
+        "growth_rule": "append sites to the FUTURE; existing couplings preserved (CSG past-immutability)",
+        "hence_fixed_D_inf_factors_every_D_N": true,
+        "mode_growth_is_additive_same_type": true,
+        "verdict": "ABSORBED. The growing causal set is a COMPRESSION TOWER of a single fixed limit operator D_inf (existing block preserved by CSG past-immutability => D_N = P_N D_inf P_N). A fixed A_inf factors every A_N = the literal fixed-H condition. Dimension growth is ADDITIVE, SAME-TYPE (adding sites) -- E057's 'merely increasing dimension does not count.' The zero-mode count is the combinatorial INDEX |n_A - n_B|, computable in advance from site counts. Not source-forced type growth.",
+        "zero_mode_count_equals_index": true,
+        "zero_modes_grown": 2,
+        "zero_modes_small": 1
+      },
+      "positive_control": {
+        "compression_tower_preserves_records": true,
+        "discriminator_separates_absorbed_from_issuing": true,
+        "issuing_family_preserves_records_as_compression": false,
+        "note": "POSITIVE CONTROL fires: a family that REWRITES existing records each step is NOT a compression of any fixed D_inf (issuing-shape), whereas the causal-set compression tower IS (fixed-H). So the ABSORBED verdict on the spectral-flow source is informative, not rigged -- the test can and does flag genuine issuance."
+      },
+      "spectral_flow_relabel_demo": {
+        "crossings": [
+          {
+            "min_abs_eig_of_Dp": 4.229675962773294e-16,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 0.9999999999999996,
+            "p_at_crossing": -4.062554111100675
+          },
+          {
+            "min_abs_eig_of_Dp": 6.516836709230081e-16,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 1.0,
+            "p_at_crossing": -2.797910482014258
+          },
+          {
+            "min_abs_eig_of_Dp": 9.142457136972643e-16,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 0.9999999999999998,
+            "p_at_crossing": -1.9683296417014233
+          },
+          {
+            "min_abs_eig_of_Dp": 9.404238880637271e-17,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 1.0,
+            "p_at_crossing": -0.8007426602420485
+          },
+          {
+            "min_abs_eig_of_Dp": 3.4264222615119584e-16,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 1.0000000000000004,
+            "p_at_crossing": -0.0022168226084344515
+          },
+          {
+            "min_abs_eig_of_Dp": 4.34793431881545e-16,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 1.0,
+            "p_at_crossing": 0.2917593843448788
+          },
+          {
+            "min_abs_eig_of_Dp": 7.033593611721974e-16,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 0.9999999999999999,
+            "p_at_crossing": 1.3335804019972173
+          },
+          {
+            "min_abs_eig_of_Dp": 2.6680492096100556e-16,
+            "null_vec_is_preexisting_mode": true,
+            "null_vec_overlap_with_a_fixed_D0_eigenvector": 1.0000000000000002,
+            "p_at_crossing": 1.9916105129399126
+          }
+        ],
+        "every_minted_zero_mode_is_a_preexisting_eigenvector": true,
+        "model": "D(p) = D0 - p*I on a FIXED Hilbert space (dim 8)",
+        "n_zero_crossings": 8,
+        "net_flow_equals_count_of_fixed_D0_eigenvalues_in_window": 6,
+        "net_flow_is_a_fixed_spectral_counting_function_computable_in_advance": true,
+        "net_spectral_flow_over_window": 6,
+        "verdict": "RELABEL / DISCLOSURE. Each 'minted' zero-mode is a PRE-EXISTING eigenvector of the FIXED D0 (overlap ~ 1); spectral flow only relabels which fixed mode currently sits at zero. Net flow over a window = count of D0-eigenvalues in it = a fixed spectral counting function computable in advance (APS: net flow = index = fixed invariant). No new DOF is created -- the crossing is a VALUE-change (an eigenvalue passing through 0) on a FIXED operator. CompletionClass: fixed_source (x) observer_information_access. W1 (non-isomorphic algebra growth) is NOT delivered."
+      }
+    },
+    "attack2_smuggled_scale": {
+      "absorbed": true,
+      "causet_gap_tracks_cutoff": {
+        "densities_rho": [
+          64,
+          128,
+          256,
+          512
+        ],
+        "dimension_d": 1,
+        "expected_exponent_1_over_d": 1.0,
+        "expected_ratio_2_to_the_1_over_d": 2.0,
+        "fitted_exponent_alpha_in_scale~rho^alpha": 1.0262367870157798,
+        "gap_scale_tracks_the_cutoff": true,
+        "scale_ratio_per_density_doubling": [
+          2.0937768900878075,
+          2.0083037445520864,
+          2.0186324597565863
+        ],
+        "uv_spectral_scale_at_each_density": [
+          129.95469149503208,
+          272.09612981078874,
+          546.4516763771376,
+          1103.0850916232912
+        ],
+        "verdict": "SMUGGLED SCALE. The causal-set Dirac spectral scale tracks the sprinkling density as rho^{1/d} (fitted alpha ~ 1 for d=1; ratio ~ 2 per density doubling): it MOVES with the discretization -- the opposite of the RG-invariant positive control. The 'transmuted' scale is the UV cutoff / lattice spacing in disguise; any geometric gap is a ratio of L (box) and l=rho^{-1/d} (spacing), both IMPORTED scales. No running dimensionless coupling / beta-function is exhibited, so there is no transmutation."
+      },
+      "positive_control_RG_invariant_scale": {
+        "Lambda_is_cutoff_invariant": true,
+        "note": "GENUINE transmutation: Lambda does NOT move with the cutoff mu (RG-invariant). This is the metrology signature of a self-generated scale.",
+        "relative_spread": 3.017899073375402e-16,
+        "renormalization_scales_mu": [
+          1.0,
+          2.0,
+          4.0,
+          8.0
+        ],
+        "transmuted_scale_Lambda_at_each_mu": [
+          0.36787944117144233,
+          0.3678794411714423,
+          0.3678794411714423,
+          0.3678794411714424
+        ]
+      }
+    },
+    "attack3_hidden_oracle": {
+      "absorbed": true,
+      "disjunction": {
+        "exhaustive": true,
+        "horn_A_posited_fixed_growth_law": {
+          "absorber": "fixed_source (x) stochastic_seed (CompletionClass; D-FORK route-1). Fixed-law + fixed stochastic seed growth is absorbed.",
+          "consequence": "The entire sequence of causal sets -- and hence the whole family D(p) and its entire spectral flow -- is a computable function of the fixed law + the random tape. The flow is predetermined.",
+          "kills_source_forcing": true,
+          "premise": "The causal-set growth law (Rideout-Sorkin CSG) is POSITED / fixed."
+        },
+        "horn_B_unbuilt_action_as_oracle": {
+          "absorber": "completed_history (+ hidden_state).",
+          "consequence": "The unbuilt action is a hidden completed oracle precontaining the future spectrum -- a direct violation of OnlineIssuance^LC gate 4 (no internally formed future-schema oracle precontains all future admissible witnesses).",
+          "kills_source_forcing": true,
+          "premise": "The growth law/action is UNBUILT but invoked to GUARANTEE the modes are minted in the right way as p rolls."
+        },
+        "verdict": "Both horns kill source-forcing. The growth law is either specified (Horn A -> fixed_source (x) stochastic_seed) or not (Horn B -> completed_history). There is no third option; 'source-internal' is a promissory note on an unbuilt object either way."
+      }
+    },
+    "job_a_verdict": "ABSORBED",
+    "primary_absorber": "fixed-operator / compression-of-fixed-D_inf (APS net flow = index = fixed topological invariant); the SAME fixed-H absorber that ate the wave-2 mirror condensate (Bogoliubov on fixed CAR <-> spectral flow = compressions of fixed D_inf)."
+  },
+  "JOB_B_becoming_type_signature_frame_relativized": {
+    "adapter_p_W1_W4_gate_walk_THIRD_PERSON": {
+      "W1_non_isomorphic_algebra_growth": {
+        "pass": false,
+        "why": "D_N is a compression of a fixed D_inf over the completed sprinkling (A1); the observable algebra is the fixed quasi-local field algebra. No growth."
+      },
+      "W2_source_generated_new_admissibility_predicate": {
+        "pass": false,
+        "why": "'admissible causal-set extension' is fixed by the posited CSG law -- a pre-existing predicate the process satisfies, not one the source authors (relabel)."
+      },
+      "W4_physical_perturbation_non_factorization": {
+        "pass": false,
+        "why": "D(p) IS a fixed operator-valued function (a fixed Hamiltonian family H(p)); this is the RUN-0103 physical-lift absorption (all real physical attempts -> fixed-Hamiltonian; w4_real_physical_protocol_found: false)."
+      },
+      "adapter_p_accepts_witness": false,
+      "frame": "THIRD-PERSON gate. Adapter_P / CompletionClass are third-person null classes: they show an EXTERNAL observer reproduces the trace. They do NOT touch the first-person indexical of Job B (a self-encoding system's own next actualization), which is a different frame (TaF T19/T92).",
+      "no_hidden_completed_oracle": {
+        "pass": false,
+        "why": "the fixed growth law + fixed D-construction is a completed extension diagram / fixed latent graph precontaining all future spectra (OnlineIssuance^LC gate 4)."
+      },
+      "verdict": "Adapter_P REJECTS (third-person) -- same shape as RUN-0103's Assembly physical lift (formal/local at best, physical lift absorbed to fixed-Hamiltonian)."
+    },
+    "first_person_becoming_discriminator": {
+      "asbuilt_outcome": "iii_still_fixed_law_no_self_encoding",
+      "asbuilt_spectral_flow_source": {
+        "outcome": "iii_still_fixed_law_no_self_encoding",
+        "witness": {
+          "first_person_frame_exists": false,
+          "first_person_underivable": false,
+          "self_encoding_present_L1": false,
+          "why": "No self-encoding: the Dirac operator is a PASSIVE readout and the growth law is BLIND to the spectrum, so the system contains no internal observer/describer. There is no first-person frame at all, so no Lawvere diagonal can even fire."
+        }
+      },
+      "control_disclosure_both_frames": {
+        "outcome": "i_DISCLOSURE_both_frames",
+        "witness": {
+          "external_indexical_flips_actualization_L2": false,
+          "first_person_frame_exists": true,
+          "first_person_underivable": false,
+          "run_A_actualized_mode": 2,
+          "run_B_actualized_mode": 2,
+          "self_encoding_present_L1": true,
+          "shape": "FLP bivalence / neural-sampler draw / ZK-absent-witness: same INSIDE, different MINT.",
+          "two_runs_identical_stage_n_internal_records": [
+            1,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "discriminator_separates_all_three_outcomes": true,
+      "honest_caveat": "The becoming-first-person positive control shows the DISCRIMINATOR FIRES (separates outcome ii from i and iii). It does NOT establish that a self-encoding spectral flow would physically issue; the first-person obstruction is a genuine Lawvere/FLP fact (TaF T19/T92; the CompletionClass absorbers are THIRD-PERSON nulls and do not touch a first-person indexical), imported here at the source's own steelman-synthesis grade.",
+      "positive_control_becoming_first_person": {
+        "outcome": "ii_BECOMING_first_person",
+        "witness": {
+          "external_indexical_flips_actualization_L2": true,
+          "first_person_frame_exists": true,
+          "first_person_underivable": true,
+          "run_A_actualized_mode": 2,
+          "run_B_actualized_mode": 3,
+          "self_encoding_present_L1": true,
+          "shape": "FLP bivalence / neural-sampler draw / ZK-absent-witness: same INSIDE, different MINT.",
+          "two_runs_identical_stage_n_internal_records": [
+            1,
+            0,
+            1,
+            1
+          ]
+        }
+      },
+      "third_person_arena_is_computable_disclosure_as_expected": true,
+      "why_asbuilt_is_outcome_iii": "The spectral-flow mint AS BRIEFED has NO self-encoding: D is a passive readout, the CSG growth law is blind to the spectrum, there is no internal observer for whom the next actualization is an indexical. So it is not merely 'third-person computable' (that is true of every toy) -- there is no first-person frame at all, hence no diagonal can fire. Fixed-law in both frames, for the SHARP reason that there is no inside."
+    },
+    "job_b_outcome": "iii_still_fixed_law_no_self_encoding",
+    "job_b_verdict": "OUTCOME (iii) STILL-FIXED-LAW / NO-SELF-ENCODING. The third-person ARENA (the spectrum) is computable = disclosure, as expected. But the first-person becoming-witness cannot even be evaluated: the spectral flow AS BRIEFED has no self-encoding (passive Dirac readout; growth law blind to the spectrum), so there is no internal observer and no Lawvere diagonal can fire. Not merely disclosure -- there is no inside at all."
+  },
+  "claim_status_change": "none",
+  "fixture_id": "du_spectral_flow_source_kill_probe",
+  "kind": "finite_window_signature_not_a_decision_procedure",
+  "positive_controls_fire_verdict_is_informative_not_rigged": true,
+  "question": "Does the Dirac spectral-flow SOURCE (mint new zero-modes as p rolls on a growing causal set; gap dimensionally-transmutes a scale) SURVIVE the fixed-operator / cutoff / oracle attacks, and is the flow BECOMING or DISCLOSURE?",
+  "verdict": "JOB A: ABSORBED -- the spectral-flow mint does NOT survive as built (third-person). The 'new zero-mode' is a PRE-EXISTING eigenvector relabeled by the crossing (net flow = APS index = fixed invariant, computable in advance); the growing lattice is a compression tower of a fixed D_inf (additive same-type site growth); the 'transmuted' scale tracks the sprinkling density rho^{1/d} = the UV cutoff in disguise; 'source-internal' is either a fixed CSG law (fixed_source (x) stochastic_seed) or an unbuilt-action oracle (completed_history). Primary absorber: fixed-operator/compression-of-fixed-D_inf, the SAME fixed-H absorber that ate the mirror condensate. JOB B (frame-relativized): OUTCOME (iii) STILL-FIXED-LAW / NO-SELF-ENCODING -- the third-person arena is disclosure as expected, and the first-person becoming-witness cannot fire because the object as briefed has NO self-encoding (passive readout, growth blind to spectrum) = no inside. The concrete fix is NOT a third-person Godel sentence but CLOSING THE L1 LOOP (record the spectrum back into the causal set), which would give outcome (ii) BECOMING-FIRST-PERSON -- compatible with Job A ABSORBED, the two Lawvere legs in dependency.",
+  "what_self_encoding_a_genuine_first_person_mint_would_require": "REFRAMED (from third-person Godelian incomputability to first-person INDEXICAL underivability). Do NOT demand the third-person spectrum be non-computable -- that is impossible for a built toy and is the WRONG frame. Instead CLOSE THE LAWVERE-L1 LOOP: make the causal set the observer's OWN record structure and record the Dirac spectrum (which modes actualize) BACK into the causal set as new elements, so the readout FEEDS the growth (the self-authoring ledger the vision council named; the observer sits INSIDE the admissibility space it defines). THEN, by Lawvere-L2, the actualized mint becomes first-person underivable -- an indexical (like FLP arrival-order, the neural sampler's draw, or a ZK witness absent from the transcript) -- EVEN WHILE third-person the spectrum stays a computable arena. That is outcome (ii) BECOMING-FIRST-PERSON, and it is COMPATIBLE with Job A's third-person ABSORBED (they are the two Lawvere legs in dependency: 'the inside-ness of the observer forces the outside-ness of the minted datum'). NOTE: this reframes the wave-2 'need third-person mode-issuance (grow ker(Gamma))' demand as itself possibly a FRAME ERROR -- a third-person demand no built object can meet; the first-person diagonal is the achievable becoming-witness. Held at the source's steelman-synthesis grade, re-verified not adopted; not banked."
+}

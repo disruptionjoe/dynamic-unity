@@ -1,0 +1,309 @@
+{
+  "checks_passed": 34,
+  "checks_total": 34,
+  "grade_note": "PARTIAL leaning NULL: zero-modes ARE minted as a raw count (b_1 grows), so it is not a flat NULL -- BUT (i) the spectral-FLOW-on-a-fixed-space part is a net-zero reshuffle (PC-FIXED: Bogoliubov relabel, R2), the NULL horn for 'flow'; (ii) the genuine growth is ADDITIVE (H_1 free abelian; one summand iso-type; W1 fails, the additive wall); (iii) the gap is the IMPORTED cutoff, cutoff-DEPENDENT (transmutation fails); (iv) 1/sqrt(N) exponent native but coefficient NOT sourced; and the growth law (Rideout-Sorkin CSG) is a FIXED stochastic law (fixed-law absorber, R4). Every requirement that would make it a genuine MINT fails; the trunk gets NO foothold from this construction.",
+  "part0_calibration": {
+    "path_3": {
+      "betti_comb": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "ker_D": 1
+    },
+    "single_edge": {
+      "betti_comb": [
+        1,
+        0
+      ],
+      "expected": [
+        1,
+        0
+      ],
+      "ker_D": 1
+    },
+    "theta_graph": {
+      "betti_comb": [
+        1,
+        2
+      ],
+      "expected": [
+        1,
+        2
+      ],
+      "ker_D": 3
+    },
+    "triangle_cycle": {
+      "betti_comb": [
+        1,
+        1
+      ],
+      "expected": [
+        1,
+        1
+      ],
+      "ker_D": 2
+    },
+    "two_disjoint_edges": {
+      "betti_comb": [
+        2,
+        0
+      ],
+      "expected": [
+        2,
+        0
+      ],
+      "ker_D": 2
+    }
+  },
+  "part1_pc_fixed": {
+    "E": 45,
+    "V": 28,
+    "betti_fixed": [
+      1,
+      18
+    ],
+    "ker_fixed": 19,
+    "ker_points_over_loop": 2,
+    "loop_grid_size": 121,
+    "net_spectral_flow_closed_loop": 0,
+    "reading": "pure spectral flow on a FIXED space reshuffles the same modes across zero; net mint over a closed loop = 0; FLAT. (R2 fixed-H / Bogoliubov absorber.)"
+  },
+  "part2_growing_mint": {
+    "N_grid": [
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20,
+      22,
+      24,
+      26,
+      28,
+      30,
+      32,
+      34,
+      36,
+      38,
+      40,
+      42,
+      44,
+      46
+    ],
+    "b1_series": [
+      1,
+      1,
+      1,
+      1,
+      2,
+      5,
+      9,
+      13,
+      15,
+      17,
+      18,
+      21,
+      24,
+      25,
+      28,
+      31,
+      33,
+      35,
+      39,
+      40,
+      42
+    ],
+    "gap_series": [
+      0.910995890975347,
+      0.585861566204658,
+      0.45431489894429106,
+      0.38594741932623516,
+      0.49888990629334484,
+      0.5315119653504918,
+      0.5671987828815038,
+      0.563905840145399,
+      0.556465777889027,
+      0.5464619220778579,
+      0.5329437760244289,
+      0.521134533863539,
+      0.5174042375953043,
+      0.5129745599511156,
+      0.5070704704618614,
+      0.5016078349842327,
+      0.49392496019093435,
+      0.48349807277757056,
+      0.4793784024733061,
+      0.46862888398187874,
+      0.46400269502860114
+    ],
+    "ker_dim_series": [
+      3,
+      2,
+      2,
+      2,
+      3,
+      6,
+      10,
+      14,
+      16,
+      18,
+      19,
+      22,
+      25,
+      26,
+      29,
+      32,
+      34,
+      36,
+      40,
+      41,
+      43
+    ],
+    "minted_zero_modes": 41,
+    "p_grid": [
+      0.44793986730701374,
+      0.5198603854199589,
+      0.5756462732485115,
+      0.6212266624470001,
+      0.6597643324038146,
+      0.6931471805599453,
+      0.7225929394740411,
+      0.7489330683884977,
+      0.772760613339579,
+      0.7945134575869864,
+      0.8145241345053705,
+      0.833051127543801,
+      0.8502993454155389,
+      0.8664339756999316,
+      0.8815901311540404,
+      0.8958797346140275,
+      0.9093965399315964,
+      0.9222198635284841,
+      0.9344174045708421,
+      0.9460474084795653,
+      0.9571603491222738
+    ],
+    "q": 0.3,
+    "raw_mint_positive": true,
+    "reading": "the Dirac kernel DOES grow -- zero-modes are minted as p rolls. But WHY: the SPACE (cochain dim) grows and carries more topology (new b_1 cycles). This is access-expansion (E057 fixed-H caveat: 'adding an environment does not count'), NOT spectral flow on a fixed space (which PART 1 shows nets to zero)."
+  },
+  "part3_nonadditivity": {
+    "PC_S2": {
+      "H1_torsion": [],
+      "betti": [
+        1,
+        0,
+        1
+      ],
+      "euler": 2,
+      "f_vector": [
+        4,
+        6,
+        4
+      ]
+    },
+    "PC_cup_torus_rank": 2,
+    "PC_torsion_RP2": {
+      "H1_torsion": [
+        2
+      ],
+      "betti": [
+        1,
+        0,
+        0
+      ],
+      "euler": 1,
+      "f_vector": [
+        6,
+        15,
+        10
+      ]
+    },
+    "causet_H1_torsion_free": true,
+    "reading": "H_1(graph) is FREE (structure theorem): minting adds Z-summands -> ADDITIVE, one iso-type forever (more instances, not new types) = the additive wall of rtest-r2-relational-algebra-growth. Non-additive homological structure (torsion Z/2, nonzero cup product) needs >=2-cells, which the causal-set link graph does not have. Discriminator has teeth (RP^2 torsion, T^2 cup detected).",
+    "theta_type_causet": 1,
+    "torus_betti": [
+      1,
+      2,
+      1
+    ]
+  },
+  "part4_transmutation": {
+    "PC_rg_lambda_vs_mu": [
+      0.9999999999999998,
+      0.9999999999999996,
+      1.0000000000000002,
+      0.9999999999999991
+    ],
+    "gap_is_imported_cutoff": true,
+    "gap_over_w": [
+      0.46400269502860114,
+      0.46400269502860114,
+      0.46400269502860114,
+      0.46400269502860114,
+      0.46400269502860036
+    ],
+    "gaps_vs_w": [
+      0.23200134751430057,
+      0.46400269502860114,
+      0.9280053900572023,
+      1.8560107801144046,
+      3.3872196737087825
+    ],
+    "reading": "the Dirac spectral gap is set by the imported microscopic scale (link weight = 1/lattice-spacing): gap proportional to w, cutoff-DEPENDENT. No dimensionless coupling runs to fix it. It is the imported cutoff, not a \u039bQCD-style transmuted scale. The RG control shows a real transmuted scale IS cutoff-invariant -> the gap genuinely fails the transmutation the trunk needs.",
+    "rg_scale_cutoff_invariant": true,
+    "weights": [
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      7.3
+    ]
+  },
+  "part5_anchor": {
+    "N_grid": [
+      12,
+      18,
+      26,
+      36,
+      48
+    ],
+    "coefficient_sourced": false,
+    "count_additive_self_averaging": true,
+    "fano_factor": [
+      0.8796654929577464,
+      0.9294797687861273,
+      0.9479648452070121,
+      1.1563606710158434,
+      1.3815070540411287
+    ],
+    "fano_loglog_slope": 0.31499700982442613,
+    "heavy_tail_control_fano_slope": 1.372237961423414,
+    "loglog_slope": -0.7454263419679945,
+    "reading": "the minted Betti count is ADDITIVE and self-averaging (Fano Var/mean bounded, not diverging as it would for a heavy-tailed non-additive count -- the heavy-tail control confirms the test has teeth). So it carries the ordinary 1/sqrt(N)-type CLT fluctuation, native as everywhere in the program; but the COEFFICIENT rides on the cutoff-dependent gap (PART 4) and this additive count (PART 3) -> NOT sourced by the spectral structure. Exponent native, value imported -- the wave-1 verdict, reproduced.",
+    "rel_fluct": [
+      0.5321579750496392,
+      0.3278022399712792,
+      0.23785248895580205,
+      0.20762363531835362,
+      0.18771496679598826
+    ]
+  },
+  "probe": "du_spectral_flow_source",
+  "rubric_scorecard": {
+    "R2_mode_issuance_not_reshuffle": "FAIL (fixed-space flow nets to 0; growth is space-expansion)",
+    "R4_source_internal_not_fixed_law": "FAIL (Rideout-Sorkin CSG is a fixed stochastic law)",
+    "R6_sourced_coefficient": "FAIL (exponent native, value imported)",
+    "R6a_dimensional_transmutation": "FAIL (gap = imported cutoff, cutoff-dependent)",
+    "W1_non_additive_growth": "FAIL (H_1 free abelian => additive; Theta_type=1)",
+    "raw_zero_mode_mint_positive": "TRUE (b_1 grows) -- but by additive access-expansion"
+  },
+  "seed": 20260721,
+  "verdict": "PARTIAL"
+}
