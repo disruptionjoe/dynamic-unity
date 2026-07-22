@@ -106,23 +106,37 @@ lanes:
   label: Lane 4
   ordinal: 4
   kind: progress
-  title: Prediction, confrontation & publication-readiness
+  title: Prediction & papers — the Drafting-Factory seam
   north_star: false
   purpose: >-
-    Turn survived cores into exposed, falsifiable predictions; confront them with data; and
-    prepare publication-ready write-ups for Joe. Preparation, not a gate. Joe publishes.
+    Own the seam between Dynamic Unity's research and the Drafting Factory. Responsible for:
+    (1) scanning the other lanes (1/2/3) to IDENTIFY paper- and prediction-shaped candidates as
+    they emerge; (2) SEEDING them to the Drafting Factory — preparing each with enough well-formed
+    seed information to send a good seed via the factory mailbox; (3) CONTINUALLY HARDENING
+    candidates whenever this lane independently judges hardening is warranted; and (4) RESPONDING
+    to the Drafting Factory's hardening requests (its factory-to-source proposals) with frozen,
+    well-graded returns. Plus the prediction extraction itself. Preparation, not a gate; Joe publishes.
   purpose_type: supporting_progress
   channels:
   - id: '4.1'
-    title: Predictions
+    title: Prediction extraction
     scope: >-
-      The DE-sign no-crossing; the recovered TeV mirror + DE/Planck-ratio; the parity co-variance
-      leg — carried with their blockers.
+      Extract, freeze, and expose falsifiable predictions: the DE-sign no-crossing; the recovered
+      TeV mirror + DE/Planck-ratio; the parity co-variance leg — carried with their blockers. TaF
+      bridge units-guard (rate^2-to-rate^2) applied as a sanity check.
   - id: '4.2'
-    title: Publication-readiness
+    title: Candidate identification & seeding to the Drafting Factory
     scope: >-
-      Honest-grade write-ups, reproducible probes, honesty maps; the TaF bridge units-guard
-      (rate^2-to-rate^2) applied as a sanity check. Terminal state = a Joe-review draft.
+      Watch Lanes 1/2/3 for paper- and prediction-shaped results; prepare each as a well-formed
+      SEED (working title, source revision/evidence pointers, possible contribution + audience,
+      current grade + open conditions, obvious overlaps) and route it to the factory mailbox. A
+      good seed, not a finished paper.
+  - id: '4.3'
+    title: Hardening (proactive + on factory request)
+    scope: >-
+      Harden a candidate whenever this lane independently sees it should be; AND respond to the
+      Drafting Factory's hardening requests (its factory-to-source proposals) with a frozen,
+      honest-graded return of exactly the requested gap.
 - id: A
   label: Lane A
   letter: A
