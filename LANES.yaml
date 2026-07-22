@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 4
+manifest_revision: 5
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -17,6 +17,12 @@ lane_design_note: >-
   fool yourself) is a per-lane practice, and the known challenges/adversaries are TERRAIN to beat,
   not gates — most are class-relative no-go's this program has a history of getting around (see
   lab/process/known-challenges-and-adversaries.md). The lean is toward the frontier and ambition.
+active_hardening_program_ref: >-
+  explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
+active_hardening_program_note: >-
+  HC-DU-001 through HC-DU-030 are the prioritized, non-destructive credibility backlog. The
+  original P01-A through P50-B persona items remain the lossless source register; hardening IDs,
+  work packages and cross-repo reuse pointers route them but never replace them.
 lanes:
 - id: '1'
   label: Lane 1
@@ -62,12 +68,12 @@ lanes:
       (rtest-wave-synthesis-2026-07-21.md); type-III (modular/KMS) source-selection and the neural-
       scaling spectral-dimension lead are the adjacent routes to the same sourced scale.
   priority_guard: >-
-    Before more coefficient-sourcing work is treated as progress on a physical dark-energy model,
-    Channel 1.4 must test the current Λ↔N closure as a covariantly conserved, accelerating cosmology.
-    R6b's own late-time tracker has p=2/3, while its current Friedmann closure does not supply the
-    Bianchi/continuity exchange required by a time-varying Λ. An order-one Ω_Λ without conservation
-    and acceleration is not yet a dark-energy solution. Source panel and pre-registered swing:
-    explorations/50-persona-blind-spot-register-and-priority-map-2026-07-21.md.
+    SWING-DU-COV-01 has now constructed a Bianchi-conserved accelerating FLRW BACKGROUND: total
+    conservation forces Q=-dot(lambda), and stable acceleration exists for beta<36. This is not yet
+    a physical dark-energy completion. Before more coefficient sourcing counts as physical progress,
+    Channel 1.4 must pass SWING-DU-COV-02: define N covariantly, supply an action or full Q^mu, and
+    survive perturbation, growth, early-universe and observational attacks without choosing a target
+    history. The background-only result and exact next gate are in the active hardening program.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -107,8 +113,12 @@ lanes:
       Determine whether Λ=c/√N and the proposed record-accretion law admit a Bianchi-compatible
       stress/interaction completion, accelerated expansion, stable background/perturbative behavior,
       and an observationally viable H(z), q(z), w_eff(z), Ω_Λ(z) and growth history without importing
-      an arbitrary function or target. First swing: SWING-DU-COV-01 in the fifty-persona register.
-    grade: OPEN / P0 validity check on the current R6b loop
+      an arbitrary function or target. SWING-DU-COV-01 closes only the conserved accelerating
+      background leg. Next swing: SWING-DU-COV-02, the covariant-count and perturbation kill in the
+      active hardening program.
+    grade: >-
+      PARTIAL / background conserved and accelerating at executable-model grade; covariant N,
+      action/Q^mu, perturbations, growth, early-universe history and data remain OPEN
   - id: '1.5'
     title: Theory kernel, typed objects and low-energy recovery
     scope: >-
@@ -281,7 +291,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 4
+  revision: 5
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -298,3 +308,9 @@ provenance:
     the Lane-1 anchor is unchanged. Added the P0 guard that the current Λ↔N loop must first pass a
     covariant-conservation and acceleration audit before further coefficient sourcing counts as a
     physical dark-energy advance.
+  rev5_note: >-
+    2026-07-21 (Joe direct chat): executed SWING-DU-COV-01 at scoped background grade; added the
+    HC-DU-001..030 hardening register, pinned cross-repo reuse map, and lossless non-intuitive/class-
+    relative finding annex. No Lane added or removed. The Lane-1 anchor and coefficient grade are
+    unchanged. Channel 1.4 advances from fully open to background-partial, with full covariance,
+    perturbations and observational viability explicitly guarded by SWING-DU-COV-02.

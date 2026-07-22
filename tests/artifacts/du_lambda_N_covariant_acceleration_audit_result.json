@@ -1,0 +1,487 @@
+{
+  "audit_id": "DU-LAMBDA-N-COV-01",
+  "status": "executed_scoped",
+  "date": "2026-07-21",
+  "scope": "flat-FLRW background only; no full covariant N field, action, perturbations, or likelihood fit",
+  "definitions": {
+    "units": "8*pi*G/3=1",
+    "lambda": "Lambda/3",
+    "friedmann": "H^2=rho_m+lambda",
+    "closure": "lambda=A*N^(-1/2), A=c_S/3",
+    "count_law": "dN/dt=kappa*H^(-3)",
+    "omega": "lambda/H^2",
+    "beta": "kappa/A^2=9*kappa/c_S^2"
+  },
+  "derived_background_system_d_dln_a": {
+    "ln_H": "-3/2*(1-Omega)",
+    "ln_N": "beta*Omega^2",
+    "ln_lambda": "-beta/2*Omega^2",
+    "Omega": "Omega*(3*(1-Omega)-beta/2*Omega^2)",
+    "forced_exchange": "Q=-dot(lambda)=(beta/2)*H*Omega^2*lambda",
+    "q": "(1-3*Omega)/2",
+    "w_total": "-Omega"
+  },
+  "analytic_result": {
+    "positive_fixed_point": "Omega*=6/(3+sqrt(9+6*beta))",
+    "stable_for": "all beta>0",
+    "accelerates_for": "beta<36, equivalently c_S/sqrt(kappa)>1/2",
+    "present_omega_as_fixed_point": {
+      "omega": 0.6847,
+      "beta": 4.035288273866,
+      "c_S_over_sqrt_kappa": 1.493426908018,
+      "power_law_p": 2.114388413151
+    },
+    "fixed_point_scan": [
+      {
+        "beta": 0.25,
+        "c_S_over_sqrt_kappa": 6.0,
+        "omega_star": 0.961481396816,
+        "q_star": -0.942222095224,
+        "w_total_star": -0.961481396816,
+        "power_law_p": 17.307654264544,
+        "stable": true,
+        "stability_eigenvalue": -3.115555809553,
+        "accelerating": true
+      },
+      {
+        "beta": 1.0,
+        "c_S_over_sqrt_kappa": 3.0,
+        "omega_star": 0.872983346207,
+        "q_star": -0.809475019311,
+        "w_total_star": -0.872983346207,
+        "power_law_p": 5.248655564138,
+        "stable": true,
+        "stability_eigenvalue": -3.381049961378,
+        "accelerating": true
+      },
+      {
+        "beta": 4.035288273866,
+        "c_S_over_sqrt_kappa": 1.493426908018,
+        "omega_star": 0.6847,
+        "q_star": -0.52705,
+        "w_total_star": -0.6847,
+        "power_law_p": 2.114388413151,
+        "stable": true,
+        "stability_eigenvalue": -3.9459,
+        "accelerating": true
+      },
+      {
+        "beta": 9.0,
+        "c_S_over_sqrt_kappa": 1.0,
+        "omega_star": 0.548583770355,
+        "q_star": -0.322875655532,
+        "w_total_star": -0.548583770355,
+        "power_law_p": 1.476833624681,
+        "stable": true,
+        "stability_eigenvalue": -4.354248688935,
+        "accelerating": true
+      },
+      {
+        "beta": 36.0,
+        "c_S_over_sqrt_kappa": 0.5,
+        "omega_star": 0.333333333333,
+        "q_star": 0.0,
+        "w_total_star": -0.333333333333,
+        "power_law_p": 1.0,
+        "stable": true,
+        "stability_eigenvalue": -5.0,
+        "accelerating": false
+      },
+      {
+        "beta": 50.0,
+        "c_S_over_sqrt_kappa": 0.424264068712,
+        "omega_star": 0.291567916625,
+        "q_star": 0.062648125063,
+        "w_total_star": -0.291567916625,
+        "power_law_p": 0.94104527775,
+        "stable": true,
+        "stability_eigenvalue": -5.125296250125,
+        "accelerating": false
+      }
+    ]
+  },
+  "background_sanity": {
+    "reference": "flat constant-Lambda background with the same Omega_lambda,0",
+    "internal_envelope": "max |H/H_LCDM-1| <= 5% for 0<=z<=2; diagnostic only, not an observational acceptance criterion",
+    "histories": [
+      {
+        "beta": 0.25,
+        "c_S_over_sqrt_kappa": 6.0,
+        "max_abs_H_fraction_vs_lcdm_z_0_to_2": 0.010134089625,
+        "passes_internal_five_percent_background_envelope": true,
+        "samples": [
+          {
+            "z": 0.5,
+            "omega_lambda": 0.400432469251,
+            "H_over_H0": 1.317788553142,
+            "H_over_H_lcdm": 0.996485542591,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1.0,
+            "omega_lambda": 0.220703615396,
+            "H_over_H0": 1.778102377812,
+            "H_over_H_lcdm": 0.99288857148,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 2.0,
+            "omega_lambda": 0.077508301138,
+            "H_over_H0": 3.002052956371,
+            "H_over_H_lcdm": 0.989865910375,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 10.0,
+            "omega_lambda": 0.001701736303,
+            "H_over_H0": 20.261658239598,
+            "H_over_H_lcdm": 0.988257175639,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1100.0,
+            "omega_lambda": 1.7e-09,
+            "H_over_H0": 20272.02320371716,
+            "H_over_H_lcdm": 0.988221118127,
+            "closure_lambda_sqrtN_over_A": 1.0
+          }
+        ]
+      },
+      {
+        "beta": 0.5,
+        "c_S_over_sqrt_kappa": 4.242640687119,
+        "max_abs_H_fraction_vs_lcdm_z_0_to_2": 0.020911309687,
+        "passes_internal_five_percent_background_envelope": true,
+        "samples": [
+          {
+            "z": 0.5,
+            "omega_lambda": 0.409931209471,
+            "H_over_H0": 1.31295892737,
+            "H_over_H_lcdm": 0.992833475462,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1.0,
+            "omega_lambda": 0.228594478469,
+            "H_over_H0": 1.76467434393,
+            "H_over_H_lcdm": 0.985390386029,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 2.0,
+            "omega_lambda": 0.080921629164,
+            "H_over_H0": 2.969367938118,
+            "H_over_H_lcdm": 0.979088690313,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 10.0,
+            "omega_lambda": 0.001783425998,
+            "H_over_H0": 20.004671230886,
+            "H_over_H_lcdm": 0.975722700306,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1100.0,
+            "omega_lambda": 1.782e-09,
+            "H_over_H0": 20014.085815756574,
+            "H_over_H_lcdm": 0.975647179582,
+            "closure_lambda_sqrtN_over_A": 1.0
+          }
+        ]
+      },
+      {
+        "beta": 1.0,
+        "c_S_over_sqrt_kappa": 3.0,
+        "max_abs_H_fraction_vs_lcdm_z_0_to_2": 0.044745316909,
+        "passes_internal_five_percent_background_envelope": true,
+        "samples": [
+          {
+            "z": 0.5,
+            "omega_lambda": 0.430949527117,
+            "H_over_H0": 1.302695359966,
+            "H_over_H_lcdm": 0.985072369547,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1.0,
+            "omega_lambda": 0.246891015819,
+            "H_over_H0": 1.7354220243,
+            "H_over_H_lcdm": 0.969055953203,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 2.0,
+            "omega_lambda": 0.089075513904,
+            "H_over_H0": 2.897084459021,
+            "H_over_H_lcdm": 0.955254683091,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 10.0,
+            "omega_lambda": 0.001981187274,
+            "H_over_H0": 19.432573423753,
+            "H_over_H_lcdm": 0.947818776729,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1100.0,
+            "omega_lambda": 1.98e-09,
+            "H_over_H0": 19439.79282803836,
+            "H_over_H_lcdm": 0.947651529974,
+            "closure_lambda_sqrtN_over_A": 1.0
+          }
+        ]
+      },
+      {
+        "beta": 2.0,
+        "c_S_over_sqrt_kappa": 2.12132034356,
+        "max_abs_H_fraction_vs_lcdm_z_0_to_2": 0.105324655034,
+        "passes_internal_five_percent_background_envelope": false,
+        "samples": [
+          {
+            "z": 0.5,
+            "omega_lambda": 0.483695906705,
+            "H_over_H0": 1.279226484729,
+            "H_over_H_lcdm": 0.967325672008,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1.0,
+            "omega_lambda": 0.298884353676,
+            "H_over_H0": 1.664122212824,
+            "H_over_H_lcdm": 0.929242290701,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 2.0,
+            "omega_lambda": 0.114324631591,
+            "H_over_H0": 2.713360199798,
+            "H_over_H_lcdm": 0.894675344966,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 10.0,
+            "omega_lambda": 0.002618339555,
+            "H_over_H0": 17.950554025517,
+            "H_over_H_lcdm": 0.875533661294,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1100.0,
+            "omega_lambda": 2.618e-09,
+            "H_over_H0": 17951.489821470965,
+            "H_over_H_lcdm": 0.875099696026,
+            "closure_lambda_sqrtN_over_A": 1.0
+          }
+        ]
+      },
+      {
+        "beta": 3.0,
+        "c_S_over_sqrt_kappa": 1.732050807569,
+        "max_abs_H_fraction_vs_lcdm_z_0_to_2": 0.198829616377,
+        "passes_internal_five_percent_background_envelope": false,
+        "samples": [
+          {
+            "z": 0.5,
+            "omega_lambda": 0.559101684381,
+            "H_over_H0": 1.250361162457,
+            "H_over_H_lcdm": 0.945498288352,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1.0,
+            "omega_lambda": 0.394963209334,
+            "H_over_H0": 1.564460651777,
+            "H_over_H_lcdm": 0.873591487792,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 2.0,
+            "omega_lambda": 0.171953704603,
+            "H_over_H0": 2.429779522159,
+            "H_over_H_lcdm": 0.801170383623,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 10.0,
+            "omega_lambda": 0.00423502241,
+            "H_over_H0": 15.54807780619,
+            "H_over_H_lcdm": 0.758353500866,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1100.0,
+            "omega_lambda": 4.241e-09,
+            "H_over_H0": 15536.281368547474,
+            "H_over_H_lcdm": 0.757363051101,
+            "closure_lambda_sqrtN_over_A": 1.0
+          }
+        ]
+      },
+      {
+        "beta": 4.0,
+        "c_S_over_sqrt_kappa": 1.5,
+        "max_abs_H_fraction_vs_lcdm_z_0_to_2": 0.425750061464,
+        "passes_internal_five_percent_background_envelope": false,
+        "samples": [
+          {
+            "z": 0.5,
+            "omega_lambda": 0.679090292249,
+            "H_over_H0": 1.212931095589,
+            "H_over_H_lcdm": 0.917194414864,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1.0,
+            "omega_lambda": 0.664799724782,
+            "H_over_H0": 1.396624872217,
+            "H_over_H_lcdm": 0.779872346819,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 2.0,
+            "omega_lambda": 0.594352541528,
+            "H_over_H0": 1.74157803356,
+            "H_over_H_lcdm": 0.574249938536,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 10.0,
+            "omega_lambda": 0.049953880314,
+            "H_over_H0": 6.967772023155,
+            "H_over_H_lcdm": 0.339851290485,
+            "closure_lambda_sqrtN_over_A": 1.0
+          },
+          {
+            "z": 1100.0,
+            "omega_lambda": 5.2484e-08,
+            "H_over_H0": 6800.67056825847,
+            "H_over_H_lcdm": 0.331519266994,
+            "closure_lambda_sqrtN_over_A": 1.0
+          }
+        ]
+      }
+    ],
+    "natural_coefficients_beta_9_first_rho_m_zero_redshift": 0.179393118711
+  },
+  "controls": {
+    "constant_lambda_positive": {
+      "max_relative_H_error": 0.0,
+      "passes": true
+    },
+    "separately_conserved_dust_negative": {
+      "beta_1_bianchi_residual_abs_lambda_prime_over_H2_today": 0.160498503711,
+      "reason": "rho_m'+3rho_m=0 with rolling lambda leaves total residual lambda'!=0"
+    },
+    "old_p_equals_two_thirds_branch": {
+      "p": 0.666666666667,
+      "q": 0.5,
+      "reason": "matching separately conserved dust to lambda~t^-2 forces p=2/3, but the same branch violates Bianchi when lambda rolls"
+    }
+  },
+  "checks": [
+    {
+      "id": "analytic_fixed_points",
+      "passed": true,
+      "detail": "max residual=2.220e-16"
+    },
+    {
+      "id": "fixed_points_stable",
+      "passed": true,
+      "detail": "all beta>0 rows have negative linear eigenvalue"
+    },
+    {
+      "id": "acceleration_threshold_below",
+      "passed": true,
+      "detail": "beta=35 accelerates"
+    },
+    {
+      "id": "acceleration_threshold_at",
+      "passed": true,
+      "detail": "beta=36 gives q=0"
+    },
+    {
+      "id": "acceleration_threshold_above",
+      "passed": true,
+      "detail": "beta=37 does not accelerate"
+    },
+    {
+      "id": "natural_coefficients_accelerate",
+      "passed": true,
+      "detail": "c_S=kappa=1 maps to beta=9 and q<0"
+    },
+    {
+      "id": "target_fixed_point_accelerates",
+      "passed": true,
+      "detail": "Omega*=0.6847 gives p>1"
+    },
+    {
+      "id": "constant_lambda_positive_control",
+      "passed": true,
+      "detail": "max H error=1.432e-14"
+    },
+    {
+      "id": "lambda_N_closure_preserved",
+      "passed": true,
+      "detail": "max closure residual=1.659e-13"
+    },
+    {
+      "id": "forced_exchange_is_nonzero",
+      "passed": true,
+      "detail": "rolling lambda requires nonzero matter exchange"
+    },
+    {
+      "id": "separate_dust_negative_control",
+      "passed": true,
+      "detail": "separately conserved dust leaves a Bianchi residual"
+    },
+    {
+      "id": "naive_tracker_nonaccelerating",
+      "passed": true,
+      "detail": "separate-dust scaling branch has p=2/3 and q=1/2"
+    },
+    {
+      "id": "matter_past_exists_beta_one",
+      "passed": true,
+      "detail": "beta=1 reaches a matter-dominated early background"
+    },
+    {
+      "id": "five_percent_envelope_beta_one",
+      "passed": true,
+      "detail": "beta=1 stays within the declared internal H(z) envelope"
+    },
+    {
+      "id": "five_percent_envelope_has_teeth",
+      "passed": true,
+      "detail": "beta=2 fails the same envelope"
+    },
+    {
+      "id": "natural_present_history_problem",
+      "passed": true,
+      "detail": "beta=9 reaches rho_m=0 by z=0.179"
+    },
+    {
+      "id": "present_as_fixed_point_has_no_matter_era",
+      "passed": true,
+      "detail": "calibrating today as the attractor keeps Omega constant"
+    },
+    {
+      "id": "forced_exchange_closes_bianchi",
+      "passed": true,
+      "detail": "Q=-dot(lambda) follows algebraically from total conservation"
+    }
+  ],
+  "check_summary": {
+    "passed": 18,
+    "failed": 0
+  },
+  "verdict": "BACKGROUND_CONSERVED_ACCELERATING_FAMILY__FULL_COVARIANCE_AND_VIABILITY_OPEN",
+  "interpretation": [
+    "The p=2/3 result is not a no-go for every Lambda-N completion; it is the separately-conserved-dust branch, which is Bianchi-inconsistent for rolling lambda.",
+    "Total conservation uniquely fixes a background exchange Q=-dot(lambda), and the resulting one-parameter family has stable accelerating fixed points for beta<36.",
+    "This does not source Omega_lambda,0: choosing today as the fixed point fixes one coefficient ratio and erases the matter era.",
+    "A matter-dominated past and an H(z) history close to constant-Lambda drive beta downward, toward weak exchange and the LambdaCDM limit; perturbations and data must decide how severe that pressure is.",
+    "A full win still requires a covariant/local definition of N and its source law, an interaction four-vector or action, stable perturbations, growth, and empirical fitting."
+  ]
+}

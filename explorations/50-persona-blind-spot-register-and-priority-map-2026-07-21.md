@@ -498,3 +498,33 @@ independent of whether `Ω_Λ` is order one.
 - **Collision:** prior agent's `7094c63`/`8398407` work preserved and explicitly excluded from the
   recommended swing.
 - **External action:** GitHub versioning only; no non-GitHub action.
+
+## Execution disposition addendum — `SWING-DU-COV-01`
+
+The first-ranked work package was executed on 2026-07-21. Full derivation,
+controls and the cross-repo hardening program are preserved in
+`cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md`; the
+machine receipt is
+`../tests/artifacts/du_lambda_N_covariant_acceleration_audit_result.json`.
+
+**Scoped outcome:** `BACKGROUND_CONSERVED_ACCELERATING_FAMILY`; full
+`COVARIANT-ACCELERATING` remains open. Total conservation forces the background
+exchange `Q=-dot(lambda)` and removes the separately-conserved-dust `p=2/3`
+branch as a universal no-go. A covariant/local `N`, action or `Q^mu`, stable
+perturbations, growth and observational fitting remain unbuilt.
+
+| Item | Disposition | What moved / what remains |
+|---|---|---|
+| `P01-A` | `PARTIAL` | background stress exchange forced; covariant field/source completion open |
+| `P01-B` | `PARTIAL` | stable accelerating background family found; perturbations and viability open |
+| `P02-A` | `ACTIVE` | executable `H(z), q, w_total, Omega(z)` output exists |
+| `P02-B` | `OPEN` | no SN/BAO/CMB/growth/BBN likelihood run |
+| `P14-A` | `PARTIAL` | autonomous background system and attractor derived |
+| `P14-B` | `PARTIAL` | analytic stability/basin mapped; empirical robustness open |
+| `P19-A` | `PARTIAL` | `beta=9 kappa/c_S^2` makes the dimensionless coefficient explicit; no naturalness result |
+| `P44-A` | `PARTIAL` | plant/state/exchange equations explicit; microphysical actuator/resource ledger open |
+| `P44-B` | `OPEN` | delay, saturation and failure injection need the perturbative model |
+
+No other persona item is closed by this result. The next non-overlapping P0
+swing is `SWING-DU-COV-02`, the covariant-count and perturbation kill specified
+in the hardening map.
