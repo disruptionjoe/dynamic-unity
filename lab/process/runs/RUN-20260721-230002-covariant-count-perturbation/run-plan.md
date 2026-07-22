@@ -145,9 +145,10 @@ Post-run target status: `VIABLE_ONLY_AS_LAMBDA_LIMIT` for the strongest local
 constant-`kappa` lift; Lane manifest revision `6`. The COV-01 background theorem
 remains valid, while a separate causal-past/nonlocal branch remains open.
 
-External actions performed: GitHub commit `551f811ef61be5c2e6bef735cb6bc6792d8636c0`
-was pushed to `origin/main` under Joe's direct authorization. No other external
-action was performed.
+External actions performed: repository-versioning commits for the result and its
+receipt were pushed to `origin/main` under Joe's direct authorization. The result
+commit is `551f811ef61be5c2e6bef735cb6bc6792d8636c0`; the first receipt closeout is
+`1890ef0`. No non-GitHub external action was performed.
 
 Artifacts changed:
 
@@ -164,7 +165,11 @@ artifact SHA-256
 `00018356c368733514fd6a57d297a40e9f8895bd8760477223dde27c5e4d2845`;
 COV-01 regression `18/18 PASS`; YAML and JSON parse; 30k/60k growth convergence
 residual `2.109e-15`; explicit staged-path review; `git diff --check`; and session
-finish guard clean/even at the result commit.
+finish guard clean/even at the result commit. After the receipt push, a second
+global finish check found only another agent's newly untracked
+`du_record_immutability_external_involution_probe` source and result artifact;
+this run did not inspect, modify, stage, or remove them. Tracked state remained
+clean and `main` remained even with `origin/main`.
 
 Lane revalidation: admission manifest revision `5`, SHA-256
 `cf592365e5b1e2973b36b4e72cbd5c57f59f3c05941bd69e93491b98f31e7a77`;
