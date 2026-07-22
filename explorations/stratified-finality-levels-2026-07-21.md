@@ -100,6 +100,43 @@ Undo-hardness (μ) increases with depth:
 Conflating them is the standard error. **Becoming sits at the top of BOTH axes at once** (hardest-to-undo
 record AND rule-authoring), which is why it is the single located bottleneck.
 
+## The VSM reading — and why the bottleneck is a missing System 4 (Joe, 2026-07-21)
+Read the tower through Stafford Beer's **Viable System Model** (analogy-as-structure, but load-bearing):
+
+| VSM system | Function (Beer) | Finality-tower / physics mapping |
+|---|---|---|
+| **S1 Operations** | the primary activities, locally autonomous | the **observers / individual immediate tips** (L0 = covariant J⁺ finality) |
+| **S2 Coordination** | anti-oscillation; damp conflict between S1s (no authority) | **gossip/redundancy propagation** — quantum-Darwinism spreading of consistent copies so observers agree without negotiating (the regional/metastable layer) |
+| **S3 Control** | regulate all of S1 in the *here-and-now*, with authority; allocate, audit | the **BFT / H¹ global section** — the network settling the accepted shared state now (S3\* audit = record-validation against the rules) |
+| **S4 Intelligence** | *outside & future*: model the environment, propose adaptation | the **generative half of the source — mode-issuance *generation*** (explore/propose new admissibility predicates; the BIP/dev-and-research analog) |
+| **S5 Policy/Identity** | ratify identity; balance S3↔S4 | the **social consensus that ratifies** which candidates become law + rate (the source-forcing selection; the σ-like commitment) |
+
+**Refinement of "authoring new rules = S5":** it *splits*. **S4 generates** the candidate rule (models
+the future, explores possibility); **S5 ratifies** which become identity/law/rate. A hard-fork is
+S4-propose + S5-adopt.
+
+**The load-bearing claim — the bottleneck is a missing/weak System 4.** Beer's central structure is the
+**S3–S4 homeostat** (present-stability vs. future-adaptation, arbitrated by S5). Mapped here it *is the
+disclosure↔becoming fork*: **S3 = maintain the fixed present (disclosure); S4 = generate genuine new
+possibility (becoming); S5 = arbitrate.** Beer's viability theorem — *a system without a functioning S4
+cannot adapt and is not viable* — is our result exactly: **without genuine mode-issuance, the system is
+disclosure/FTS, not becoming; the bottleneck every swing hit is a weak-or-absent System 4.** Beer's
+clinical observation transfers too: organizations chronically over-invest S3 (control-the-now) and
+under-invest S4 (adapt-to-the-future) and fail — precisely our diagnosis of physics (excellent at S3 =
+regulate the present with fixed laws = disclosure; the hard, missing thing is S4 = generate new
+structure = becoming).
+
+**Two more:** (a) **Recursion** — every S1 is itself a viable system with its own S1–S5, i.e. the
+*fractal finality tower* (each observer its own tower), native to the causal set. (b) **Build-target
+restatement** — "build the B5 source that self-generates its particulars" = **"build the System 4"**:
+the dimensional-transmutation self-generated scale is an S4 move; the type-III / source-forcing selection
+is the S5 ratification.
+
+**Honest grade:** analogy-as-structure, but load-bearing — it yields a real claim (becoming = a functioning
+S4; the bottleneck = a missing S4) and a build-target restatement, not just relabeled layers. Whether
+Beer's *viability theorems* transfer as actual theorems about the source action is the open question —
+to test, not assume.
+
 ## Honest caveats
 - Likely a **continuous μ-gradient**, not truly discrete levels; "levels" are effective regimes.
 - **Does NOT escape the block-universe absorber or the D-FORK by itself:** layered *disclosure* is
