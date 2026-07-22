@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 3
+manifest_revision: 4
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -61,6 +61,13 @@ lanes:
       of the same B5 source-action / source-internal-MINT bottleneck all five R-tests converge on
       (rtest-wave-synthesis-2026-07-21.md); type-III (modular/KMS) source-selection and the neural-
       scaling spectral-dimension lead are the adjacent routes to the same sourced scale.
+  priority_guard: >-
+    Before more coefficient-sourcing work is treated as progress on a physical dark-energy model,
+    Channel 1.4 must test the current Λ↔N closure as a covariantly conserved, accelerating cosmology.
+    R6b's own late-time tracker has p=2/3, while its current Friedmann closure does not supply the
+    Bianchi/continuity exchange required by a time-varying Λ. An order-one Ω_Λ without conservation
+    and acceleration is not yet a dark-energy solution. Source panel and pre-registered swing:
+    explorations/50-persona-blind-spot-register-and-priority-map-2026-07-21.md.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -94,6 +101,22 @@ lanes:
       Exponent native/consilient (BANKED); O(1) coefficient imported/tuned (OPEN, R6b). This channel
       is the lane's North-Star anchor as of 2026-07-21 — see lead_bet.anchor for the honest standing
       and the live sourcing target.
+  - id: '1.4'
+    title: Covariant cosmology and observational confrontation
+    scope: >-
+      Determine whether Λ=c/√N and the proposed record-accretion law admit a Bianchi-compatible
+      stress/interaction completion, accelerated expansion, stable background/perturbative behavior,
+      and an observationally viable H(z), q(z), w_eff(z), Ω_Λ(z) and growth history without importing
+      an arbitrary function or target. First swing: SWING-DU-COV-01 in the fifty-persona register.
+    grade: OPEN / P0 validity check on the current R6b loop
+  - id: '1.5'
+    title: Theory kernel, typed objects and low-energy recovery
+    scope: >-
+      Build the minimum complete theory passport (state space, action, symmetries, observables,
+      quantization, constraints, limits and predictions); construct explicit typed maps among the
+      several N objects; test CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery
+      of GR plus the Standard Model. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
+    grade: OPEN / foundational construction and audit
 - id: '2'
   label: Lane 2
   ordinal: 2
@@ -117,6 +140,18 @@ lanes:
     scope: >-
       Abduce / synthesize / reframe new candidate unifying structures (including non-GU frames);
       give each a cheap discriminating test; promote survivors to Lane 1.
+  - id: '2.3'
+    title: GU ablation and rival-frame tournament
+    scope: >-
+      Remove GU from each candidate argument to measure its unique contribution, then compare DU
+      against live causal-set, unimodular, sequestering and other unification frames with one common
+      recovery, prediction, complexity and evidence-independence scorecard. Work package WP-07.
+  - id: '2.4'
+    title: Open-endedness, emergence and network alternatives
+    scope: >-
+      Rework the source-internal-MINT search with non-circular novelty measures, RG/emergence,
+      evolutionary open-endedness, network topology and physically explicit selection dynamics;
+      distinguish operational novelty from literal fundamental algebra growth. Work package WP-08.
   - id: open
     title: (open)
     scope: New program-native candidates admitted as they earn an object + a cheap test.
@@ -138,6 +173,11 @@ lanes:
     others found. Personas are lenses; their outputs are re-verified, never banked on persona
     authority. Distinct from the "personas always inline" rule, which governs council DELIBERATION;
     this lane is parallel work.
+  panel_backlog_ref: explorations/50-persona-blind-spot-register-and-priority-map-2026-07-21.md
+  preservation_rule: >-
+    The fifty-persona register's P01-A through P50-B records are the lossless source backlog for this
+    panel. Work packages and syntheses may route or combine them but never erase an individual item;
+    each item receives its own evidence-backed disposition before it is considered closed.
   channels:
   - id: '3.x'
     title: One channel per seated persona
@@ -183,6 +223,12 @@ lanes:
       Harden the research and the papers whenever this lane independently sees it should be, AND
       respond to the factory's hardening requests with a frozen, honest-graded return of exactly
       the requested gap. Hand the hardened seed/return to the factory; do not track its publication.
+  - id: '4.4'
+    title: Independent verification, evidence dependency and reproducibility
+    scope: >-
+      Run clean-room or blinded replications; maintain fixed/withheld challenge sets; distinguish
+      common-source support from independent consilience; require uncertainty, convergence and
+      portable result provenance before a claim is hardened or seeded. Work package WP-06.
 - id: A
   label: Lane A
   letter: A
@@ -195,6 +241,25 @@ lanes:
     adversaries register (terrain to beat, NOT gates); cross-repo ingest/share hygiene; lane
     hygiene.
   purpose_type: integrated_stewardship
+  channels:
+  - id: A.1
+    title: Claim, banking and type integrity
+    scope: >-
+      Maintain stable claim IDs, grades, promotion authority, supersession/failure state and the
+      typed-object map; reconcile stale Lane-3 banking references without silently changing
+      constitutional or charter language. Work packages WP-02 and WP-06.
+  - id: A.2
+    title: Provenance, reproducibility and durable reuse
+    scope: >-
+      Maintain source/version/commit provenance, runnable environments and artifact metadata,
+      bibliography, legibility, release/deprecation history and licensing/attribution hygiene.
+      Work packages WP-06 and WP-10.
+  - id: A.3
+    title: Portfolio and panel custody
+    scope: >-
+      Preserve the lossless persona backlog; calibrate forecasts and stop-losses; evaluate agent
+      research methods against baselines; manage GU/non-GU/null search allocation without converting
+      persona authority into evidence. Work package WP-09.
 discovery:
   kind: lane_less
   title: Discovery
@@ -216,11 +281,20 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 3
+  revision: 4
   status: founding
   created: '2026-07-21'
-  approved_by: Joe direct chat via coordinator, 2026-07-21 (mode-lane redesign)
+  approved_by: >-
+    Joe direct chat via coordinator, 2026-07-21 (rev3 mode-lane redesign; rev4 lossless panel
+    routing, channel additions and covariant-cosmology priority guard)
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
     repo Purpose is unchanged. No lane added/removed; within-shape content update.
+  rev4_note: >-
+    2026-07-21 (Joe direct chat): preserved the fifty-persona / 100-suggestion blind-spot panel as a
+    lossless register, ranked ten non-destructive work packages, and routed them through new Channels
+    1.4, 1.5, 2.3, 2.4, 4.4 and A.1-A.3 plus a Lane-3 preservation pointer. No Lane added or removed;
+    the Lane-1 anchor is unchanged. Added the P0 guard that the current Λ↔N loop must first pass a
+    covariant-conservation and acceleration audit before further coefficient sourcing counts as a
+    physical dark-energy advance.
