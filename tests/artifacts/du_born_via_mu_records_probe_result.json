@@ -1,0 +1,229 @@
+{
+  "born_leg_verdict": "FAIL",
+  "circular_surprisal_cost_hits_born_exactly": true,
+  "claim_status_change": "none",
+  "diagnosis": {
+    "the_missing_noncircular_hook": "Born would follow non-circularly IF the dynamics set the physical record redundancy R_i ~ |alpha_i|^2 (the sensitivity control shows linear-normalize then recovers |alpha|^2). Standard decoherence does NOT do this: redundancy is set by the system-environment coupling and time, identical for both branches. No built DU object makes R_i ~ |alpha_i|^2 without invoking the Born trace.",
+    "where_born_re_enters_on_the_routes_that_hit_it": "(1) Surprisal cost mu_i = -ln|alpha_i|^2 reproduces Born under Boltzmann EXACTLY -- because |alpha_i|^2 is written into the cost. (2) Envariance/multiplicity reproduces Born iff the fine-record multiplicity m_i ~ |alpha_i|^2 -- because the Born measure IS the multiplicity input. Both are Born-importing, not Born-deriving.",
+    "why_noncircular_misses": "The two-source mu (Landauer R*ln2 + computational-irreducibility R) is a function of the record redundancy R_i ONLY, and physical decoherence copies the occurred outcome symmetrically (R_0 = R_1). So mu_0 = mu_1 for every |alpha|^2, every non-circular weight rule gives 1/2, and the error is exactly |p0 - 0.5| -- maximal at the extremes. mu is the right TYPE (a measure) but SYMMETRIC in the outcome label; |alpha|^2 lives in rho's diagonal (a Born-trace quantity), not in the record string."
+  },
+  "envariance_reproduces_born_only_with_born_valued_multiplicity": true,
+  "fixture_id": "du_born_via_mu_records_probe",
+  "honest_scope": "A finite two-outcome SIGNATURE, not a theorem over all decoherence models or all mu constructions. It shows the SPECIFIC two-source mu named in the DRIVING-HYPOTHESIS is outcome-symmetric on the canonical redundancy record and therefore non-circularly Born-blind, and it localizes where the reproducing routes import Born. A genuinely different, still-non-circular mu is not excluded -- it is exactly the unbuilt object the PASS branch would require.",
+  "kind": "finite_two_outcome_signature_not_a_proof_about_all_decoherence",
+  "noncircular_two_source_mu_reproduces_born": false,
+  "question": "Does the mu-weight of decoherent record-histories reproduce |psi|^2 on a two-outcome toy WITHOUT re-importing the Born measure? (Bet #1, Class-A Born leg; the pre-registered cheap kill.)",
+  "scan": {
+    "max_abs_error_vs_born": {
+      "circular_surprisal_boltzmann": 0.0,
+      "control_amplitude_in_record_linear": 0.025,
+      "envariance_circular_born_multiplicity": 0.0,
+      "envariance_noncirc_equal_multiplicity": 0.45,
+      "noncirc_boltzmann": 0.45,
+      "noncirc_inverse": 0.45,
+      "noncirc_linear": 0.45
+    },
+    "rows": [
+      {
+        "born_p0": 0.05,
+        "circular_surprisal_w0": 0.05,
+        "control_record_carries_amplitude_w0": 0.0625,
+        "envariance_born_mult_w0": 0.05,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.1,
+        "circular_surprisal_w0": 0.1,
+        "control_record_carries_amplitude_w0": 0.125,
+        "envariance_born_mult_w0": 0.1,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.2,
+        "circular_surprisal_w0": 0.2,
+        "control_record_carries_amplitude_w0": 0.1875,
+        "envariance_born_mult_w0": 0.2,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.3,
+        "circular_surprisal_w0": 0.3,
+        "control_record_carries_amplitude_w0": 0.3125,
+        "envariance_born_mult_w0": 0.3,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.4,
+        "circular_surprisal_w0": 0.4,
+        "control_record_carries_amplitude_w0": 0.375,
+        "envariance_born_mult_w0": 0.4,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.5,
+        "circular_surprisal_w0": 0.5,
+        "control_record_carries_amplitude_w0": 0.5,
+        "envariance_born_mult_w0": 0.5,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.6,
+        "circular_surprisal_w0": 0.6,
+        "control_record_carries_amplitude_w0": 0.625,
+        "envariance_born_mult_w0": 0.6,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.7,
+        "circular_surprisal_w0": 0.7,
+        "control_record_carries_amplitude_w0": 0.6875,
+        "envariance_born_mult_w0": 0.7,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.8,
+        "circular_surprisal_w0": 0.8,
+        "control_record_carries_amplitude_w0": 0.8125,
+        "envariance_born_mult_w0": 0.8,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.9,
+        "circular_surprisal_w0": 0.9,
+        "control_record_carries_amplitude_w0": 0.875,
+        "envariance_born_mult_w0": 0.9,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      },
+      {
+        "born_p0": 0.95,
+        "circular_surprisal_w0": 0.95,
+        "control_record_carries_amplitude_w0": 0.9375,
+        "envariance_born_mult_w0": 0.95,
+        "envariance_equal_mult_w0": 0.5,
+        "mu0_mu1_physical": [
+          13.5452,
+          13.5452
+        ],
+        "noncirc_boltzmann_w0": 0.5,
+        "noncirc_inverse_w0": 0.5,
+        "noncirc_linear_w0": 0.5,
+        "record_redundancy_R0_R1_physical": [
+          8,
+          8
+        ]
+      }
+    ]
+  },
+  "sensitivity_control_can_reproduce_born_when_amplitude_enters_record": true,
+  "verdict": "FAIL (honest): the non-circular two-source mu does NOT reproduce |psi|^2 -- it is symmetric in the outcome and yields uniform 1/2, missing Born by |p-0.5|. The only mu that lands on |psi|^2 does so by importing |alpha|^2 into the cost (surprisal) or into the multiplicity (envariance). mu is confirmed to be the RIGHT TYPE (a measure -- exactly what sigma/tau lacked), but as a Born DERIVATION it currently smuggles Born in. This kills the strong 'mu grounds Born non-circularly' claim at toy grade; it leaves intact the weaker, honest claim that DU supplies a measure-typed object where the static data supplied none. Class-relative, not a wall: the named flip is a built DU mechanism forcing R_i ~ |alpha_i|^2 (or an equivalent record-native measure) WITHOUT the Born trace -- unbuilt, and it must beat the circularity that sank every route here."
+}

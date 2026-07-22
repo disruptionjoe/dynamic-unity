@@ -1,0 +1,202 @@
+{
+  "built_object": {
+    "E_cond": -0.19243025677761746,
+    "bdg_good_spectrum": "+/- sqrt(xi^2 + Delta^2) REAL, gapped by Delta, eta_+ = I",
+    "bdg_pathological_spectrum": "+/- sqrt(xi^2 - Delta^2) COMPLEX for |xi|<Delta, eta = tau3",
+    "gap_star": 0.6203712707365122,
+    "generators_broken": 4096,
+    "isotropy_jump": "Sp(32,32;H) [dim 8256, F empty] -> Sp(32)xSp(32) [dim 4160, F nonempty]",
+    "validity_Delta_Rs": 1.2407425414730244,
+    "validity_threshold_9_over_2": 4.5
+  },
+  "checks_passed": 38,
+  "checks_total": 38,
+  "claim_status_change": "none",
+  "condensate_across_roll": {
+    "ceiling": 1,
+    "count_bounded": true,
+    "count_series": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "fixed_A_infty_absorbs": true,
+    "genesis_events": 1,
+    "per_step_growth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "productive": false,
+    "regime": "FTS_disclosure"
+  },
+  "controls": {
+    "PC_NULL_singlet": {
+      "ceiling": 0,
+      "count_bounded": true,
+      "count_series": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "fixed_A_infty_absorbs": true,
+      "genesis_events": 0,
+      "per_step_growth": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "productive": false,
+      "regime": "FTS_disclosure"
+    },
+    "PC_PRODUCTIVE": {
+      "ceiling": 11,
+      "count_bounded": false,
+      "count_series": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "fixed_A_infty_absorbs": false,
+      "genesis_events": 1,
+      "per_step_growth": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "productive": true,
+      "regime": "GODELIAN_issuance"
+    },
+    "PC_SSB_ordinary_higgsing": {
+      "ceiling": 1,
+      "count_bounded": true,
+      "count_series": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "fixed_A_infty_absorbs": true,
+      "genesis_events": 0,
+      "per_step_growth": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "productive": false,
+      "regime": "FTS_disclosure"
+    }
+  },
+  "escape_that_is_real": "symmetric phase F EMPTY -> condensation is a genuine admissibility GENESIS (not value-selection in a fixed admissible algebra), and the outcome is not action-computable -- beats a vanilla fixed-action SSB.",
+  "lane": "1.1",
+  "probe_id": "mirror_condensate_algebra_growth",
+  "question": "Does the compactifying mirror-sector condensate deliver source-forced record-ALGEBRA growth (E057 W1/W2) across the roll, or is it access-expansion of a fixed algebra / a fixed-action phase transition (absorbed)?",
+  "three_intended_functions": {
+    "flip_dfork": "PARTIAL: one-shot genesis, not productive becoming",
+    "ground_measurement_basis": "PARTIAL: unique J grounds a basis, conditional on the external operative-C bit",
+    "nonadditive_DE_count": "PARTIAL: pairing supplies non-additive STRUCTURE (coherent E_cond); Delta* fit-gated, does not predict native 3*Omega_L"
+  },
+  "verdict": "PARTIAL",
+  "win_bars": {
+    "productivity": {
+      "passed": false,
+      "reason": "F: empty->nonempty is a monotone one-way (compact-image-absorbing) jump; genesis fires at most once; count caps at 1 -> bounded -> FTS."
+    },
+    "source_forced": {
+      "passed": false,
+      "reason": "good/pathological selector is one Godel-independent Krein sign (W211): external/imported not B5-generated; one bit -> |Theta_eff|<=2 finite."
+    }
+  },
+  "would_be_cascade_after_compactification": {
+    "ceiling": 1,
+    "count_bounded": true,
+    "count_series": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "fixed_A_infty_absorbs": true,
+    "genesis_events": 0,
+    "per_step_growth": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "productive": false,
+    "regime": "FTS_disclosure"
+  }
+}

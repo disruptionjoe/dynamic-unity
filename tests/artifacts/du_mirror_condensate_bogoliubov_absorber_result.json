@@ -1,0 +1,217 @@
+{
+  "NEGATIVE_CONTROL_repulsive_no_condensate": true,
+  "PC_bogoliubov_is_metric_preserving_automorphism": true,
+  "PC_good_branch_spectrum_real": true,
+  "PC_pathological_branch_spectrum_complex": true,
+  "POSITIVE_CONTROL_mode_issuing_fires_growth": true,
+  "attack1_fixed_H_absorbs_W1": true,
+  "attack2_W2_source_generated_new_predicate": false,
+  "attack2b_genesis_analysis": {
+    "admissibility_class_counts": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "ceiling": 1,
+    "count_bounded": true,
+    "fixed_two_phase_Ainfty_absorbs": true,
+    "genesis_events": 1,
+    "per_step_growth": [
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "productive": false,
+    "regime": "FTS_disclosure"
+  },
+  "attack2b_genesis_beats_vanilla_ssb": true,
+  "attack2b_genesis_direction_source_forced": false,
+  "attack2b_genesis_still_absorbed_one_shot_bounded": true,
+  "attack3_source_forcing": {
+    "horn_a_posited_fixed_action": {
+      "absorber": "fixed_source (+ initial_condition)",
+      "if": "the swing POSITS a specific B5 source action (a fixed functional).",
+      "then": "the gap Delta = W/sinh(1/(gN0)) and the EL flow are a COMPUTABLE map of fixed data; the condensate is a fixed-law consequence."
+    },
+    "horn_b_unbuilt_action_as_oracle": {
+      "absorber": "completed_history (+ hidden_state)",
+      "if": "the B5 source action is genuinely UNBUILT but invoked to GUARANTEE the grading-defining sectors condense in the right direction.",
+      "then": "the unbuilt action is a hidden completed oracle precontaining the future sectors -- OnlineIssuance^LC gate 4 ('no internally formed future-schema oracle precontains all future admissible witnesses') is violated."
+    },
+    "verdict": "both horns kill source-forcing; the disjunction is exhaustive"
+  },
+  "attack4_adapter_p_accepts_witness": false,
+  "attack4_adapter_p_gates": {
+    "W1_nonisomorphic_algebra_growth": false,
+    "W2_source_generated_new_predicate": false,
+    "W3_construction_space_growth": false,
+    "W4_physical_perturbation_nonfactorization": false,
+    "fixed_source_absorber_defeated": false,
+    "no_hidden_completed_oracle": false,
+    "source_generated_new_class": false
+  },
+  "claim_status_change": "none",
+  "completion_class_primitives_firing": {
+    "completed_history": "IF the unbuilt source action is invoked as the guarantor, it is a completed-history oracle precontaining the future sectors.",
+    "fixed_source": "the CAR algebra over the 96 fixed null pairs (+ any posited action) contains every phase; the state space contains normal AND condensed vacua.",
+    "name_provenance": "'condensate-induced grading' is the OLD kinematic W219 grading under a new name; provenance-label surplus.",
+    "observer_information_access": "the condensed vacuum is a changed STATE / changed VALUES on the fixed algebra (unitary inequivalence is representation-change, not algebra-growth).",
+    "relabel_gauge": "the good-stable grading is the pre-existing Cartan involution P; the difference is a representation/gauge choice of VEV direction."
+  },
+  "composed_absorption": "ABSORBED",
+  "condensate_algebra_test": {
+    "W1_nonisomorphic_algebra_growth": false,
+    "every_stage_map_is_automorphism": true,
+    "fixed_Ainfty_factors_all_An": true,
+    "generator_count_invariant": true,
+    "generator_counts": [
+      192,
+      192,
+      192,
+      192,
+      192,
+      192,
+      192,
+      192,
+      192,
+      192,
+      192,
+      192,
+      192
+    ],
+    "per_step_generator_growth": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "productive_generator_growth": false,
+    "regime": "FTS_disclosure"
+  },
+  "conditional_escape": {
+    "exact_needed_datum": "a demonstration that the B5 flow produces, at stage n+1, a physical null-pair / admissibility class provably NOT present in and NOT access-revealed from the stage-n CAR algebra over ker(Gamma) -- i.e. productive mode-ISSUANCE, not mode-reshuffling.",
+    "the_only_survival": "a B5 source action whose flow ISSUES new physical mode content (grows ker(Gamma): new null pairs / new admissibility classes) as p rolls, productively (non-c.e.-enumerable) and NOT access-revealed from the stage-n CAR algebra, emitting a recordable trace, with NO completed-oracle action precontaining the future modes.",
+    "the_structural_headwind": "ker(Gamma) is a FIXED 96 null pairs of the FIXED Clifford algebra Cl(9,5)=M(64,H) (W173). A source action on this fixed field content cannot grow the mode space without changing the fixed representation theory the GU substrate pins. So the escape does not merely require BUILDING the action; it requires an action that does what the fixed substrate structurally resists.",
+    "why_it_is_harder_than_SSB": "SSB / Bogoliubov RESHUFFLES a FIXED mode set (an automorphism of a fixed CAR algebra) -- it is the fixed-H trap itself, not an escape from it. Survival needs the source to GROW the generator set, a strictly stronger claim."
+  },
+  "convergence_cross_check": {
+    "agreement": "The CONSTRUCTIVE swing (building the witness) and this ADVERSARIAL swing (killing it) INDEPENDENTLY converge on ABSORBED / FTS_disclosure. Even the swing that TRIED to build the witness, graded honestly, finds fixed_A_infty absorbs and the growth is not productive. The becoming is not rescued -- confirmed from both directions.",
+    "constructive_swing_condensate_across_roll_regime": "FTS_disclosure",
+    "constructive_swing_fixed_A_infty_absorbs": true,
+    "constructive_swing_own_verdict": "PARTIAL (both win-bars FAILED)",
+    "constructive_swing_productive": false,
+    "constructive_swing_win_bar_productivity_passed": false,
+    "constructive_swing_win_bar_source_forced_passed": false
+  },
+  "fixed_substrate": {
+    "Sp_compact_dim": 4160,
+    "Sp_full_dim": 8256,
+    "cartan_grading_P_dim": [
+      32,
+      32
+    ],
+    "clifford": "Cl(9,5) = M(64, H)",
+    "fixed_CAR_generators": 192,
+    "mirror_null_pairs_in_ker_Gamma": 96,
+    "noncompact_block_broken_by_adjoint_VEV": 4096
+  },
+  "fixture_id": "du_mirror_condensate_bogoliubov_absorber",
+  "grading_is_fixed_cartan_relabel": true,
+  "grading_predicate_defined_at_prefix0": true,
+  "kind": "finite_window_algebra_signature_not_a_decision_procedure",
+  "positive_control_detail": {
+    "W1_nonisomorphic_algebra_growth": true,
+    "every_stage_map_is_automorphism": false,
+    "fixed_Ainfty_factors_all_An": false,
+    "generator_count_invariant": false,
+    "generator_counts": [
+      192,
+      194,
+      196,
+      198,
+      200,
+      202,
+      204,
+      206,
+      208,
+      210,
+      212,
+      214,
+      216
+    ],
+    "per_step_generator_growth": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      2
+    ],
+    "productive_generator_growth": true,
+    "regime": "W1_ALGEBRA_GROWTH"
+  },
+  "question": "Does the mirror-sector condensate deliver W1 record-ALGEBRA growth (rescuing DU's becoming), or does its sector-condensation factor through a FIXED CAR algebra as a Bogoliubov automorphism (absorbed = disclosure)?",
+  "role": "Adversary-C (attack the STRONGEST form; a real absorption is an honest finding)",
+  "roll_couplings_gN0": [
+    0.3,
+    0.32999999999999996,
+    0.36,
+    0.39,
+    0.42,
+    0.44999999999999996,
+    0.48,
+    0.51,
+    0.54,
+    0.5700000000000001,
+    0.6,
+    0.6299999999999999
+  ],
+  "roll_gaps_all_nonzero": true,
+  "roll_gaps_delta": [
+    0.16073753007655506,
+    0.21786276748923614,
+    0.2808802185933631,
+    0.3485127924293092,
+    0.4196690226366984,
+    0.4934510098195947,
+    0.5691389687475058,
+    0.6461664973198326,
+    0.7240941299178075,
+    0.8025848015904942,
+    0.881382651619278,
+    0.9602954541263102
+  ],
+  "verdict": "ABSORBED. The mirror-condensate's sector-condensation is a (Krein-)Bogoliubov AUTOMORPHISM of the FIXED CAR algebra over the 96 null pairs of ker(Gamma): the generator set is invariant, so a fixed A_infty factors every A_n -- the literal fixed-H condition (E057). Unitary inequivalence of the condensed vs normal vacuum is representation/state change (observer_information_access), NOT W1 algebra growth. The good-stable grading is the pre-existing Cartan involution P (relabel_gauge / name_provenance), not a source-generated predicate (W2 fails). The 'source-forcing' is either a fixed action (fixed_source) or the unbuilt action as a completed oracle (completed_history). Adapter_P rejects (W1,W2,W3,W4 all fail; no-hidden-oracle fails) -- the SAME shape as RUN-0103's Assembly physical lift. The becoming is NOT rescued as built; the condensate confirms disclosure rather than overturning it. CONDITIONAL escape exists but is strictly stronger than SSB (it needs the source to GROW ker(Gamma), which the fixed Cl(9,5)=M(64,H) structurally resists) -- named, not live.",
+  "witness_survives_all_absorbers": false
+}

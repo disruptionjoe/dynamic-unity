@@ -1,0 +1,43 @@
+{
+  "adversary_controls": {
+    "block_universe_absorber": "The STRUCTURAL collapse (low-N end = low-entropy end = geometric origin, all at N_min) is a fact about the block's structure and survives B-theory. The 'N_min = origin of genuine BECOMING' gloss does NOT survive -- DU's own D-FORK file found the roll FTS/disclosure as built.",
+    "observer_gradient_falsifier_tripped": false,
+    "observer_gradient_note": "Not tripped: the origin claim is a spatially homogeneous TEMPORAL boundary; it predicts no observer-centred spatial cosmological gradient.",
+    "record_change_neq_finality": "The monotone N-growth is DIRECTION; genuine irreversibility (the actual arrow) needs the reversal-cost measure mu (unbuilt). Counting N alone gives monotone growth, not finality."
+  },
+  "claim_status_change": "none",
+  "du_as_built": {
+    "n_min_forces_selection_as_built": false,
+    "reading": "DU's roll is FTS/fixed-H/disclosure AS BUILT (fixed B5 action -> monotone 4-volume; one atom-type; grading vacuum unbuilt/W224). That is the FIXED column: N_min does NOT force the selection as built -- it re-describes the direction's origin. The selection-forcing lives in the GROWING column and is gated on the SAME source-forced-algebra-growth witness as the D-FORK win.",
+    "regime_from_d_fork_resolution": "fixed"
+  },
+  "fixture_id": "du_low_entropy_origin_bottom_of_roll_probe",
+  "forced_direction_leg": {
+    "N_monotone_in_p": true,
+    "S_ext_monotone_in_N": true,
+    "argmin_N_is_origin": true,
+    "argmin_S_ext_is_origin": true,
+    "holds": true,
+    "reading": "FORCED but this is the ABSOLUTE-entropy / DIRECTION leg: an accretion count bottoms out at its infimum and extensive S~N is monotone, so N_min <=> roll-origin <=> S_ext-min. Clean, but trivial -- a small system has little entropy; this is NOT the Past-Hypothesis (sub-maximality) content."
+  },
+  "honest_scope": "A finite SIGNATURE isolating the ONE variable that decides the selection (S_max(N_min), i.e. phase-space growth), not a computation of cosmological entropy. It shows the selection-forcing is exactly co-extensive with the Godelian/growing regime and therefore, for DU-as-built (FTS), reduces to re-description of the direction. A genuinely growing-phase-space construction is not excluded -- it is the unbuilt object the 'selection forced' branch would require, the same one the D-FORK win needs.",
+  "kind": "finite_selection_fork_signature_not_a_cosmological_entropy_theorem",
+  "question": "Does N_min FORCE the low-entropy SELECTION (sub-maximality / the Penrose fine-tuning that sigma could not reach), or only re-describe the arrow's DIRECTION? (Bet #2; the pre-registered cheap kill.)",
+  "selection_fork": {
+    "discriminator_has_teeth": true,
+    "fixed_FTS_disclosure_column": {
+      "meaning": "Past Hypothesis STANDS; N_min only re-describes where the direction's origin sits. Selection NOT forced.",
+      "origin_is_improbable_fine_tuned_corner": true,
+      "origin_selection_cost_nats": "6.931e+05",
+      "origin_submaximality_R": 1.4426950408889634e-06
+    },
+    "growing_GODELIAN_issuance_column": {
+      "meaning": "Past Hypothesis DISSOLVED (no room for fine-tuning in a phase space that does not exist yet); the gap OPENS as d.o.f. accrete. Selection reached -- more than direction.",
+      "origin_selection_cost_nats": "3.863e-01",
+      "origin_selection_dissolved": true,
+      "origin_submaximality_R": 0.7213475204444817
+    },
+    "positive_control_growing_can_return_selection_reached": true
+  },
+  "verdict": "PARTIAL. FORCED: N_min <=> roll-origin <=> S_ext-min (direction/absolute leg; trivial). NOT FORCED AS BUILT: the low-entropy SELECTION (sub-maximality, the Penrose content sigma could not reach) is decided by the phase-space-growth fork and nothing else; DU-as-built sits in the FIXED/FTS column, where N_min only re-describes the direction's origin. The selection is REACHED (Past Hypothesis dissolved) only in the GROWING/Godelian column -- gated on the same unbuilt witness as the D-FORK win. Three rows co-locate at N_min as ONE LOCUS (real structural economy, common root = finality/irrevocable accretion); the deep selection-forcing does not close as built. Beats the observer-gradient adversary; survives the block-universe absorber on the STRUCTURAL claim only; not beaten by (does not beat) the D-FORK as built."
+}
