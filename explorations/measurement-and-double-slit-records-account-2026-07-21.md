@@ -58,6 +58,28 @@ on the mode-issuance unlock (see `flip-witness-algebra-requirements-2026-07-21.m
 **PRED-DU-001** with the H1–H7 hardening checklist; it becomes a live REGISTERED prediction the
 moment the unlock lands, and is not seeded to the factory before SEED-READY.
 
+## 5. Placement in the finality tower — the double-slit is the SHALLOW (L0) probe
+The double-slit is the experimental window into the **immediate/individual (L0) layer** of the
+finality tower (`stratified-finality-levels-2026-07-21.md`, "the reactivity tower") = the **covariant
+J⁺ finality**. This is *why* it is the right experiment to reach for:
+- **"The particle knows it's being detected"** = the individual carrying its **gossip-about-gossip
+  branch-metadata** and having *immediate local surety* of its own DAG — local J⁺ finality reading the
+  causal structure it already carries, with no global "now" and no signal. Delayed-choice gives
+  consistent results with no retrocausality because the metadata carries the whole branch structure;
+  reading it later merely reconstructs the already-consistent local DAG.
+- **Eraser / delayed-choice reversibility** = L0 is genuinely reversible (low μ, metastable) —
+  interference is recoverable precisely because the record has not yet accreted redundancy / crossed
+  into the deeper irreversible layers.
+- **"Becoming definite"** = the **L0→L1 crossing** (redundancy proliferates, the record settles) =
+  PRED-DU-001's **recoverability knee**.
+
+So the double-slit + eraser + knee are *one* structure: the shallow reversible layer and its crossing.
+**The double-slit probes L0 and the L0→L1 transition — NOT the deep becoming** (the cosmological /
+rule-authoring layer, which is lab-unreachable). Honest grade unchanged: as-analyzed this is disclosure
+(relocation grade; predicts identically to QM, §2); the knee becomes a *deviation* only if the deep
+finality threshold is genuine — so even the double-slit's one testable content (PRED-DU-001) is gated
+on the same source/bottleneck as everything else.
+
 ## Adversaries
 Observer-gradient falsifier — beaten (homogeneous). Block-universe — the §2 explanatory reframe is
 *absorbed* by it (that is why §2 is an interpretation, not a prediction); only the §4 deviation could
