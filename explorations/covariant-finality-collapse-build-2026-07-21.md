@@ -4,8 +4,8 @@ status: active_research
 doc_type: exploration
 created: 2026-07-21
 lane: "1 (targeted hypothesis pursuit) / measurement × relativity — the CONSTRUCTIVE build; a sibling runs the adversarial kill + the deviation question in parallel"
-verdict: "PARTIAL, split by horn. The COVARIANCE horn — the genuinely open 'preferred simultaneity' part of the problem — DISSOLVES RIGOROUSLY: finality typed on the causal future J⁺ is boost-invariant to machine precision (computed, not asserted), the EPR 'which collapsed first?' question is MALFORMED (the wings are incomparable in the causal order in every frame), and NO foliation is smuggled (J⁺ is the invariant light-cone, not a simultaneity surface) — an explanatory upgrade over Shimony's peaceful coexistence. The SORKIN-ADMISSIBILITY horn is SUPPLIED at the correct TYPE and is CONSILIENT with Fewster–Verch: a foliation-typed (Lüders-on-a-slice) update fabricates spacelike co-collapse links and signals superluminally (~1 bit in the toy) — Sorkin's impossible measurement — while a causal-order-typed (finality) update forbids them and leaks exactly 0 bits. But this is CHARACTERIZATION/CONSILIENCE grade, not a DERIVATION of the covariant-measurement scheme inside the net of local algebras (that AQFT-net embedding is UNBUILT). Single-outcome and Born are inherited OPEN from Bet #1. Does it smuggle a foliation? NO. Is it a rigorous theorem inside AQFT? NOT YET."
-grade: "reconstruction/structural + one foreground probe (4 modules, all PASS, exit 0). Covariance horn: DISSOLVES-RIGOROUSLY for frame-independence-of-the-update (the specific open sub-problem), relocation grade as an interpretation overall. Sorkin horn: strong PARTIAL (correct type, consilient with Fewster–Verch, not a net-level derivation). All cross-repo material re-verified per CONNECTIONS.md; no grade imported. Not banked (no Lane-3 clearance). claim_status_change: none."
+verdict: "PARTIAL, split by horn. The COVARIANCE horn — the genuinely open 'preferred simultaneity' part of the problem — DISSOLVES AT RELOCATION GRADE ON A FINITE CAUSAL-ORDER TOY (not a net-level theorem): finality typed on the causal future J⁺ is boost-invariant to machine precision (computed, not asserted), the EPR 'which collapsed first?' question is MALFORMED (the wings are incomparable in the causal order in every frame), and NO foliation is smuggled (J⁺ is the invariant light-cone, not a simultaneity surface) — an explanatory upgrade over Shimony's peaceful coexistence. The SORKIN-ADMISSIBILITY horn is SUPPLIED at the correct TYPE and is CONSILIENT with Fewster–Verch: a foliation-typed (Lüders-on-a-slice) update fabricates spacelike co-collapse links and signals superluminally (~1 bit in the toy) — Sorkin's impossible measurement — while a causal-order-typed (finality) update forbids them and leaks exactly 0 bits. But this is CHARACTERIZATION/CONSILIENCE grade, not a DERIVATION of the covariant-measurement scheme inside the net of local algebras (that AQFT-net embedding is UNBUILT). Single-outcome and Born are inherited OPEN from Bet #1. Does it smuggle a foliation? NO. Is it a rigorous theorem inside AQFT? NOT YET."
+grade: "reconstruction/structural + one foreground probe (4 modules, all PASS, exit 0). Covariance horn: DISSOLVES (relocation grade; finite boost-invariance computation, AQFT-net derivation unbuilt) for frame-independence-of-the-update (the specific open sub-problem), relocation grade as an interpretation overall. Sorkin horn: strong PARTIAL (correct type, consilient with Fewster–Verch, not a net-level derivation). All cross-repo material re-verified per CONNECTIONS.md; no grade imported. Not banked (no Lane-3 clearance). claim_status_change: none."
 probe: "tests/du_covariant_finality_collapse_probe.py (+ tests/artifacts/du_covariant_finality_collapse_probe_result.json) — 4 modules, foreground, exit 0, ALL PASS. Positive control included (foliation ordering flips; causal order invariant)."
 directed_by: "Joe direct chat via coordinator, 2026-07-21 (pre-registered Lane-1 constructive swing, measurement × relativity: build+test the finality-on-causal-order account of covariant collapse against the AQFT covariant-measurement terrain — Fewster–Verch, Sorkin's impossible measurements — with a Bell-pair-on-a-causal-set probe carrying a discriminating positive control; grade honestly; DO NOT commit/push)."
 inputs:
@@ -177,8 +177,8 @@ Module-d result below.)
 **algebraic-QFT / operator-algebra lens (Haag–Kastler).** In the net `O ↦ A(O)`, "finality typed on
 J⁺" should read: the finalization channel associated to a region `O` acts as the identity on
 `A(O')` for the **causal complement** `O'` (Einstein locality / microcausality: `[A(O), A(O')]=0`),
-and its selective form alters only conditional expectations reachable in `J⁺(O)`. **That is verbatim
-the FV causal-factorization property.** So *at the level of type*, the finality principle and the FV
+and its selective form alters only conditional expectations reachable in `J⁺(O)`. **That matches, at
+the level of type, the FV causal-factorization property (a type-match, not a verbatim derivation).** So *at the level of type*, the finality principle and the FV
 admissibility condition are the **same statement**. What I do **not** yet have is the finality closure
 `cl` **constructed on the net** with FV causal factorization **proven** from it — that is a genuine
 theorem, and it is **unbuilt**. So I can certify **type-match and consilience**, not a net-level
@@ -270,7 +270,7 @@ admissible (non-signaling) update *is* the causal-order-typed one; the impossibl
 **Honest scope of (d).** This is a **faithful schematic** of the Sorkin mechanism at qubit level. The
 modeling choice — *"ideal measurement of the extended-region observable ≡ a `b1~b2` co-collapse
 link"* — is **motivated by the mechanism** (a slice-instantaneous Lüders update treats the region's
-spacelike ends as co-fixed), **not derived from the CCR net**. What it demonstrates rigorously is the
+spacelike ends as co-fixed), **not derived from the CCR net**. What it demonstrates, at qubit-schematic grade (not a net-level derivation), is the
 **structure**: a foliation-typed update fabricates spacelike links and signals; a causal-order-typed
 update forbids them and does not — which is precisely the content of the FV/Sorkin admissibility
 theorem. It is **not** a re-proof of FV inside the net.
@@ -281,7 +281,7 @@ theorem. It is **not** a re-proof of FV inside the net.
 
 **Does finality-on-causal-order give a covariant collapse? Split by horn.**
 
-### Horn 1 — Covariance / no preferred simultaneity: **DISSOLVES RIGOROUSLY** (for the open sub-problem)
+### Horn 1 — Covariance / no preferred simultaneity: **DISSOLVES (at relocation grade, finite toy)** (for the open sub-problem; AQFT-net derivation unbuilt)
 
 The genuinely open part of "the one real problem" was the **preferred-simultaneity / non-covariant
 'when.'** On that part the account **dissolves the problem, and now with a computation, not a slogan**:
@@ -305,7 +305,7 @@ covariance is no longer *conceptual*; it is *shown*.
 
 Finality-on-causal-order **supplies the correct-TYPE restriction** and **forbids exactly the impossible
 (slice-typed) measurements** (Module d: 1 bit → 0 bits), and this **matches the Fewster–Verch
-admissibility class** verbatim at the level of causal factorization (the AQFT lens confirmed the
+admissibility class** at the level of type/causal factorization (a type-match, not a verbatim derivation; the AQFT lens confirmed the
 type-identity). **But**: (i) the demonstration is a **qubit schematic**, not the CCR net; (ii) the
 finality **closure has not been constructed on the Haag–Kastler net with FV causal factorization
 *proven* from it** — that theorem is **UNBUILT**; (iii) the account **characterizes** the admissible
@@ -326,7 +326,7 @@ causal factorization from "final ≡ fixed on `J⁺`" — is the missing rigorou
 
 ### Grade
 
-**PARTIAL.** Covariance horn **DISSOLVES-RIGOROUSLY** for the frame-independence-of-the-update
+**PARTIAL.** Covariance horn **DISSOLVES (relocation grade; finite boost-invariance computation, AQFT-net derivation unbuilt)** for the frame-independence-of-the-update
 sub-problem (computed, positive-control-discriminated, no foliation smuggled — an explanatory upgrade
 over peaceful coexistence, relocation grade as an interpretation). Sorkin horn **strong PARTIAL**
 (supplies the admissible restriction at the correct type, consilient with Fewster–Verch, not a
@@ -363,7 +363,7 @@ exit 0, all 4 modules PASS**, positive control included. All cross-repo material
 formalism + T21/T16/T2, TI H¹-section + no-foliation bridge + μ, the Fewster–Verch / Sorkin terrain)
 is **consumed as hypotheses re-verified here, not adopted on any sibling's or the literature's
 say-so** (CONNECTIONS.md sovereign self-check). **Nothing is banked**; the per-horn grades are the
-product (Horn 1 DISSOLVES-RIGOROUSLY for the covariance sub-problem, Horn 2 strong PARTIAL, single-
+product (Horn 1 DISSOLVES at relocation grade (finite toy) for the covariance sub-problem, Horn 2 strong PARTIAL, single-
 outcome/Born inherited OPEN). Personas ran **inline** (DU board), lenses not evidence. No edit to
 LANES.yaml, README, AGENTS.md, CONNECTIONS.md, or any GU/TaF/TI/P2C file. `claim_status_change: none`;
 `canon_verdict_change: none`; `public_posture_change: none`. **No commit, no push** (per the directing
