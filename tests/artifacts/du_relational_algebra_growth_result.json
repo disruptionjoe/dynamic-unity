@@ -1,0 +1,192 @@
+{
+  "R1_algebra_obstruction": {
+    "SLOCC_types_are_disclosure": "coalition/SLOCC classes = STATE classes on the FIXED algebra -> R1 disclosure, not algebra growth",
+    "finite_N_type": "type-I factor M_(d^N)(C); sole invariant = dimension (INSTANCES)",
+    "fixed_A_inf": "UHF/CAR (x)_{k>=1} M_d contains every A_N (unital *-hom x|->x(x)I): the fixed-H/fixed-CAR absorber re-instantiated relationally",
+    "uhf_embedding_check": {
+      "adjoint_preserved": true,
+      "product_preserved": true,
+      "unit_preserved": true
+    }
+  },
+  "R5_transduction": {
+    "growth_moves_invariant_dgt0": true,
+    "note": "d>0 holds only in the M3 branch (the unprovided ingredient); M1/M2 default accretion is closer to a d=0 relabel (more instances of a fixed pairwise motif)",
+    "relabel_signature_invariant_d0": true
+  },
+  "araki_woods_escape": {
+    "reading": "the ONLY genuine observable-algebra TYPE change (leaving type I) is the N->inf non-type-I (III_lambda) completion; its type is STATE-SELECTED -> re-imports source-forcing (R4); it is a representation/state change on the fixed algebra, not an enlarged observable algebra",
+    "table": {
+      "0.0": {
+        "eigs": [
+          1.0,
+          0.0
+        ],
+        "powers_lambda": 0.0,
+        "type": "I_inf (pure product)"
+      },
+      "0.3": {
+        "eigs": [
+          0.7692307692307692,
+          0.23076923076923075
+        ],
+        "powers_lambda": 0.3,
+        "type": "III_0.3 (Powers)"
+      },
+      "0.6": {
+        "eigs": [
+          0.625,
+          0.37499999999999994
+        ],
+        "powers_lambda": 0.5999999999999999,
+        "type": "III_0.6 (Powers)"
+      },
+      "1.0": {
+        "eigs": [
+          0.5,
+          0.5
+        ],
+        "powers_lambda": 1.0,
+        "type": "II_1 (tracial)"
+      }
+    }
+  },
+  "candidate_models": {
+    "M1_default_pairwise": {
+      "regime": "INSTANCES-ONLY (additive wall)",
+      "theta_eff": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "M2_bounded_coalition": {
+      "regime": "PARTIAL (types grow then cap)",
+      "theta_eff": [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    "M3_growing_coalition": {
+      "k_max_start_end": [
+        2,
+        10
+      ],
+      "regime": "TYPES-GROW (non-capping) -- but see R1 obstruction",
+      "theta_eff": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "fork_is_discriminator_gated": true
+  },
+  "checks_passed": 19,
+  "checks_total": 19,
+  "claim_status_change": "none",
+  "controls": {
+    "PC_GAUSSIAN": [
+      {
+        "dim": 3,
+        "max_kappa3": 0.0,
+        "max_kappa4": 0.0,
+        "max_offdiag_correlation": 0.4119661905825273
+      },
+      {
+        "dim": 5,
+        "max_kappa3": 0.0,
+        "max_kappa4": 0.0,
+        "max_offdiag_correlation": 0.5400167005570546
+      },
+      {
+        "dim": 8,
+        "max_kappa3": 0.0,
+        "max_kappa4": 0.0,
+        "max_offdiag_correlation": 0.6432583295631494
+      }
+    ],
+    "PC_PAIRWISE_theta_eff": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "PC_PRODUCTIVE_theta_eff": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "all_calibrated": true
+  },
+  "discriminator": "irreducible connected-correlation order (joint cumulant / Ursell function); Theta_eff(N) = number of distinct realized irreducible-correlation orders",
+  "grade": "model grade; core relocation FAILS the additive wall as-modeled; claim_status_change: none",
+  "lane": "2.2 -> 1",
+  "lemmas": {
+    "GHZ_k_is_pure_k_body_type": {
+      "2": {
+        "kappa_full": 0.9999999999999998,
+        "max_proper_subset_cumulant": 0.0
+      },
+      "3": {
+        "kappa_full": 0.9999999999999998,
+        "max_proper_subset_cumulant": 0.0
+      },
+      "4": {
+        "kappa_full": 0.9999999999999998,
+        "max_proper_subset_cumulant": 0.0
+      }
+    },
+    "disjoint_coalitions_no_cross_cumulant": {
+      "max_cross_cumulant": 4.440892098500626e-16
+    }
+  },
+  "mechanism_summary": [
+    "default 'correlate a new subsystem' = pairwise bond -> pairwise-closed graph -> Theta_eff constant == PC-PAIRWISE/PC-GAUSSIAN: additive wall wins as-modeled",
+    "TYPES-GROW requires unprovided authorship of irreducible growing-order coalitions",
+    "even then observable algebra stays type-I; fixed UHF/CAR A_inf factors every A_N (fixed-CAR absorber, relational re-instantiation); SLOCC types = states = R1 disclosure",
+    "only genuine algebra-type route (Araki-Woods III) is state-selected -> re-imports R4"
+  ],
+  "personas": {
+    "adversary_C": "the strongest form of the candidate IS the additive wall: quantum-Darwinism redundancy (its best physical instantiation) is many identical PAIRWISE system-fragment records = more instances of one pairwise type, not new types",
+    "applied_category_theory": "the coalition sheaf's sections (states) proliferate, but the structure sheaf (observable algebra) is the fixed UHF colimit -- growth is in sections, i.e. disclosure",
+    "constructor_assembly": "growth of the object is real only in the M3 SLOCC sense; as an ALGEBRA it does not grow (type-I at all finite N) -- assembly index of a pairwise-generated record does not increase in TYPE",
+    "metabolic_scaling_absorber": "record REDUNDANCY (what makes something an objective record, R5) is pairwise-classical (many identical system-fragment correlations = INSTANCES); irreducible higher-order (GHZ) coalitions are fragile/non-redundant -> a record/irreducibility DILEMMA: record-like => additive wall; irreducible => not record-durable",
+    "model_theorist": "M1/M2 default is more INSTANCES of a fixed type (relabel-like, d~0); the genuinely-new type (M3) is not supplied by 'correlation' alone"
+  },
+  "probe_id": "du_relational_algebra_growth",
+  "question": "As the participant set grows, does the observable/relational algebra grow in genuinely NEW relational TYPES (W1 non-isomorphic; R2/R3) or only MORE INSTANCES of the pairwise-correlation type (the additive wall / disclosure)?",
+  "verdict": "INSTANCES-ONLY (as-modeled) / conditional TYPES-GROW located but not delivered"
+}

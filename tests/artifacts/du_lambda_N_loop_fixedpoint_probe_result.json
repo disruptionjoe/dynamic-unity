@@ -1,0 +1,238 @@
+{
+  "closed_form": {
+    "slope_sqrt_2_3": 0.816496580927726,
+    "knee_lambda_eff": 1.224744871391589,
+    "lambda_eff_needed_for_0p6847": 0.838582813441821,
+    "OmegaL_at_natural_cS_kappa_1": 0.816496580927726
+  },
+  "horn_I_instantaneous": {
+    "OmegaL_forced_cS1_kN1": 0.33333333333333337,
+    "H_scale_spread": 5.551115123125783e-17,
+    "c_eff_needed_for_target": 2.0541,
+    "one_over_sqrtN4": 1.385100979420276e-122,
+    "pi_over_SdS": 1.3851009794202758e-122
+  },
+  "horn_II_integrated": {
+    "OmegaL_natural_cS_kappa_1": 0.816496580927724,
+    "IC_spread": 8.548717289613705e-15,
+    "scan": [
+      {
+        "lambda_eff": 0.4,
+        "OmegaL_integrated": 0.32659863237108766,
+        "OmegaL_closedform": 0.32659863237109044
+      },
+      {
+        "lambda_eff": 0.6,
+        "OmegaL_integrated": 0.48989794855663604,
+        "OmegaL_closedform": 0.4898979485566356
+      },
+      {
+        "lambda_eff": 0.8,
+        "OmegaL_integrated": 0.6531972647421799,
+        "OmegaL_closedform": 0.6531972647421809
+      },
+      {
+        "lambda_eff": 0.838582813441821,
+        "OmegaL_integrated": 0.6846999999999984,
+        "OmegaL_closedform": 0.6847
+      },
+      {
+        "lambda_eff": 1.0,
+        "OmegaL_integrated": 0.816496580927724,
+        "OmegaL_closedform": 0.816496580927726
+      },
+      {
+        "lambda_eff": 1.15,
+        "OmegaL_integrated": 0.9389710680668831,
+        "OmegaL_closedform": 0.9389710680668849
+      }
+    ]
+  },
+  "basin_sensitivity": {
+    "slope_dOmega_dlambda_at_target": 0.8164965809277502,
+    "fractional_sensitivity": 1.0000000000000295,
+    "lambda_eff_half_window_5pct": 0.04192914067209105,
+    "A_m3": 0.8164965809277258
+  },
+  "modelling_choice": {
+    "instantaneous": 0.33333333333333337,
+    "accumulated": 0.816496580927724
+  },
+  "positive_controls": {
+    "supplied_coeff_hits_target": 0.6847,
+    "kappa_sweep_OmegaL": [
+      1.0,
+      0.816496580927724,
+      0.5773502691896304,
+      0.4082482904638674
+    ],
+    "kappa_sweep_range": 0.5917517095361327
+  },
+  "sanity_guards": {
+    "units_ratio_rate2_over_rate2": 1.0,
+    "gradLambda_global": 0.0,
+    "gradLambda_local_density": 0.2409759694428657
+  },
+  "headline": {
+    "checks_passed": 35,
+    "checks_total": 35,
+    "verdict": "TUNED-OR-ABSENT (leaning PARTIAL)"
+  },
+  "summary": {
+    "robust_fixed_point_at_0p6847_without_tuning": false,
+    "stable_fixed_point_exists": true,
+    "fixed_point_law_accumulated": "Omega_L* = min( sqrt(2/3) * c_S/sqrt(kappa), 1 )",
+    "fixed_point_law_instantaneous": "Omega_L = c_eff/3  (Lambda magnitude degenerate)",
+    "OmegaL_at_natural_coefficients": {
+      "instantaneous_cS1_kN1": 0.3333333333333333,
+      "accumulated_cS1_kappa1": 0.816496580927726
+    },
+    "lambda_eff_to_hit_0p6847": 0.838582813441821,
+    "sensitivity_dlnOmega_dln_lambda": 1.0000000000000295,
+    "magnitude_10e-122_sourced": false,
+    "note_magnitude": "1/sqrt(N_4)=pi/S_dS: the 10^-122 magnitude is the horizon scale (de Sitter relabel), not sourced by the loop."
+  },
+  "scipy_used": true,
+  "checks": [
+    {
+      "name": "0.1  scaling-attractor slope sqrt(2/3)",
+      "ok": true
+    },
+    {
+      "name": "0.2  knee lambda_eff = sqrt(3/2) (Omega_L=1 above)",
+      "ok": true
+    },
+    {
+      "name": "0.3  lambda_eff needed for Omega_L=0.6847 (accum. count)",
+      "ok": true
+    },
+    {
+      "name": "0.4  Omega_L* at natural c_S=kappa=1 (lambda_eff=1)",
+      "ok": true
+    },
+    {
+      "name": "0.5  natural point Omega_L=0.816 != 0.6847; hitting 0.6847 needs lambda_eff tuned to 0.839",
+      "ok": true
+    },
+    {
+      "name": "1.1  Omega_L independent of the Hubble scale (Lambda magnitude cancels => degenerate)",
+      "ok": true
+    },
+    {
+      "name": "1.2  forced Omega_L = c_eff/3 (c_S=k_N=1 => 1/3)",
+      "ok": true
+    },
+    {
+      "name": "1.3  c_eff needed to land Omega_L=0.6847 = 3 Omega_L = 2.054 (the imported factor)",
+      "ok": true
+    },
+    {
+      "name": "1.4  omega_instantaneous(c_S=2.054, k_N=1) = 0.6847 (only by importing c_eff)",
+      "ok": true
+    },
+    {
+      "name": "1.5  1/sqrt(N_4) == pi/S_dS (de Sitter relabel; magnitude is horizon's, not sourced)",
+      "ok": true
+    },
+    {
+      "name": "2.1  integrated attractor Omega_L (c_S=kappa=1) = sqrt(2/3)=0.8165",
+      "ok": true
+    },
+    {
+      "name": "2.2  attractor Omega_L independent of initial ln N (IC basin is global)",
+      "ok": true
+    },
+    {
+      "name": "2.3  lambda_eff=0.400: integrated Omega_L=0.3266 matches closed form 0.3266",
+      "ok": true
+    },
+    {
+      "name": "2.3  lambda_eff=0.600: integrated Omega_L=0.4899 matches closed form 0.4899",
+      "ok": true
+    },
+    {
+      "name": "2.3  lambda_eff=0.800: integrated Omega_L=0.6532 matches closed form 0.6532",
+      "ok": true
+    },
+    {
+      "name": "2.3  lambda_eff=0.839: integrated Omega_L=0.6847 matches closed form 0.6847",
+      "ok": true
+    },
+    {
+      "name": "2.3  lambda_eff=1.000: integrated Omega_L=0.8165 matches closed form 0.8165",
+      "ok": true
+    },
+    {
+      "name": "2.3  lambda_eff=1.150: integrated Omega_L=0.9390 matches closed form 0.9390",
+      "ok": true
+    },
+    {
+      "name": "2.4  lambda_eff=0.839 (tuned) lands attractor on 0.6847",
+      "ok": true
+    },
+    {
+      "name": "3.1  d Omega_L / d lambda_eff at the 0.6847 point = sqrt(2/3) (order unity, NO plateau)",
+      "ok": true
+    },
+    {
+      "name": "3.2  fractional sensitivity (dlnOmega/dln lambda_eff) ~ 1 (tuned, not basined)",
+      "ok": true
+    },
+    {
+      "name": "3.3  lambda_eff window for Omega_L in [0.65,0.72] is narrow (+-0.042), not a basin",
+      "ok": true
+    },
+    {
+      "name": "3.4a m=3 (3-volume accretion) prefactor A(3) = sqrt(2/3)",
+      "ok": true
+    },
+    {
+      "name": "3.4b m=2: Omega_L = 1.1547 * c_S/sqrt(kappa) -- still ONE tuned coefficient",
+      "ok": true
+    },
+    {
+      "name": "3.4b m=4: Omega_L = 0.7454 * c_S/sqrt(kappa) -- still ONE tuned coefficient",
+      "ok": true
+    },
+    {
+      "name": "3.4b m=5: Omega_L = 0.8165 * c_S/sqrt(kappa) -- still ONE tuned coefficient",
+      "ok": true
+    },
+    {
+      "name": "4.1  instantaneous-count Omega_L (0.333) != accumulated-count Omega_L (0.816) for c_S=1",
+      "ok": true
+    },
+    {
+      "name": "4.2  instantaneous-count value = 1/3",
+      "ok": true
+    },
+    {
+      "name": "4.3  accumulated-count value  = sqrt(2/3)",
+      "ok": true
+    },
+    {
+      "name": "5.1  supplied lambda_eff=0.839 -> attractor 0.6847 (machinery CAN confirm a hit)",
+      "ok": true
+    },
+    {
+      "name": "5.2  sweeping kappa moves Omega_L across a wide range => coefficient is a FREE KNOB (import)",
+      "ok": true
+    },
+    {
+      "name": "5.3  closure coefficient c_S is dimensionless (units cannot fix it; must be sourced/imported)",
+      "ok": true
+    },
+    {
+      "name": "6.1  TaF units guard: Lambda l_p^2 / [3 Omega_L (H l_p/c)^2] = 1 (rate^2 = rate^2)",
+      "ok": true
+    },
+    {
+      "name": "6.2  global-N model: grad Lambda = 0 (homogeneous; passes observer-gradient falsifier)",
+      "ok": true
+    },
+    {
+      "name": "6.3  positive control: a LOCAL-density N WOULD induce grad Lambda != 0 (falsified variant)",
+      "ok": true
+    }
+  ]
+}

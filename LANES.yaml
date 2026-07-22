@@ -46,14 +46,21 @@ lanes:
       measurement, its causal order is spacetime.
     honest_standing: >-
       BANKED: the ½ EXPONENT is native and consilient (two wave-1 routes — DeWitt-fiber + Bianconi-
-      entropy — plus Sorkin's causal-set fluctuation). OPEN: the O(1) COEFFICIENT is NOT yet sourced
-      (R6b, 2026-07-21: the Λ↔N loop pins Ω_Λ only via one tuned knob — generic O(1) ~0.7-0.8, but
-      0.68 needs tuning; the fine-tuning is gone, only the O(1) remains); the SIGN stays the external
-      σ bit. Do NOT state "Λ~1/√N is derived" flatly — the exponent is, the value is not.
+      entropy — plus Sorkin's causal-set fluctuation). OPEN: the O(1) COEFFICIENT is NOT yet sourced.
+      The R1-R7 test wave (2026-07-21) sharpened why: R6b — the Λ↔N loop pins Ω_Λ only via one tuned
+      knob (generic O(1) ~0.7-0.8; the 120-order fine-tuning is GONE, but 0.68 needs tuning); R6a — a
+      set-point-free SOC controller SOURCES the exponent + critical point (the "must import a set-point"
+      wall falls) but is SCALE-FREE, so it cannot output a magnitude, and non-additivity (what a sourced
+      count needs) is in TENSION with a self-averaging 1/√N (non-additive gives a heavy-tailed 3/2; 1/√N
+      returns only under additive counting = the wave-1 import). The SIGN stays the external σ bit. Do
+      NOT state "Λ~1/√N is derived" flatly — the exponent is, the value is not.
     live_target: >-
-      Source the O(1) coefficient. Open routes: R6a (a set-point-free SOC controller that pins the
-      coefficient natively); source-forcing / type-III (modular/KMS) selection (R2/R3 relocation);
-      the neural-scaling spectral-dimension toolkit lead (neural-scaling-laws-lead-2026-07-21.md).
+      Source the O(1) coefficient via a SECOND, self-sourced scale-fixing ingredient. Concrete
+      candidate: dimensional-transmutation-style scale-generation tied to the D-spectral gap (QCD
+      precedent — a scale-free theory self-generates ΛQCD with no imported scale). This is downstream
+      of the same B5 source-action / source-internal-MINT bottleneck all five R-tests converge on
+      (rtest-wave-synthesis-2026-07-21.md); type-III (modular/KMS) source-selection and the neural-
+      scaling spectral-dimension lead are the adjacent routes to the same sourced scale.
   channels:
   - id: '1.1'
     title: The tachyon-transducer

@@ -64,6 +64,42 @@ selection candidate: "finally final" only while the collective keeps choosing it
 critical state, not a set-point. If genuine becoming lives anywhere, it is here (a living consensus,
 not a frozen block).
 
+## The reactivity tower — finality graded by admissibility-constraint depth (Joe, 2026-07-21)
+The stratification sharpens into a **reactivity-graded tower of admissibility constraints**: the laws
+*are* the constraints on admissible actions, and finality "sits in" the constrained history space.
+Undo-hardness (μ) increases with depth:
+- **Individual / immediate tip** — instantly reactive, **leaderless**: achieves local surety by
+  carrying the gossip-about-gossip metadata (the branch structure of its own past) and reconstructing
+  its DAG *without consensus*. **This IS the covariant J⁺ finality** (each event final relative to its
+  own light-cone, no global "now") — exactly why the covariant-finality result came out foliation-free.
+- **Regional / metastable** — lighter than BFT, faster, a "leader-node regional-capacity" layer
+  (physics analog looser: redundancy proliferating before global settlement).
+- **Network BFT** — the 2/3 Byzantine agreement = the **H¹ global section** (shared reality / no fork).
+- **Global rules / social consensus on the RATE** — deepest, hardest to undo; where the **rules
+  themselves and the issuance rate** are set.
+
+**Two mappings snap into place:**
+1. **Covariant J⁺ finality is the SHALLOW layer — which explains the covariant result's ceiling.** The
+   covariant-finality build earned only *block-structural objectivity, not becoming* precisely because
+   J⁺ finality is the metastable tip: real, covariant, leaderless — but easy-to-undo. Becoming was
+   never there; it lives deeper. The tower explains *why* the result stopped where it did.
+2. **The deepest layer authors the RULES and the RATE — that is W2 + R6, the located bottleneck.** The
+   shallow layers operate *within* fixed admissibility (mode-reshuffling: covariant, real, disclosure).
+   The deep layer — "social consensus on the rate," which can **hard-fork** — is where the collective
+   *authors a new admissibility predicate* (a rule that did not exist) = **W2 verbatim**, the productive
+   source-internal admissibility-genesis the wave-2 condensate failed to deliver; and "consensus on the
+   *rate*" sets the issuance rate = **R6's controller / the sourced scale**. The deep layer authors BOTH
+   the rules (W2 / mode-issuance) and the rate (R6 / scale) — the two things every R-test stalled on, in
+   one place. It inherits R4's open question (the hard-fork is agent-authored; de-teleologizing to a
+   physics selection dynamics is R4 — which found the blocker is the *fixed part-set*, not teleology).
+
+**The type distinction the tower forces — two kinds of "undo":**
+- **Record-reversal** — undoing a *transaction* within fixed rules; the μ-gradient (shallow→deep).
+- **Rule-authoring** — the *hard-fork*, changing the law; this is W2 / mode-issuance / becoming, a
+  *different axis*, not record-reversal.
+Conflating them is the standard error. **Becoming sits at the top of BOTH axes at once** (hardest-to-undo
+record AND rule-authoring), which is why it is the single located bottleneck.
+
 ## Honest caveats
 - Likely a **continuous μ-gradient**, not truly discrete levels; "levels" are effective regimes.
 - **Does NOT escape the block-universe absorber or the D-FORK by itself:** layered *disclosure* is

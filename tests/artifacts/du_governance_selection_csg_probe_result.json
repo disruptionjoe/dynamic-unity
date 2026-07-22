@@ -1,0 +1,572 @@
+{
+  "probe": "du_governance_selection_csg_probe",
+  "question": "Can a governance/incentive selection bias on Rideout-Sorkin CSG transition probabilities measurably shift the grown causal set toward manifoldlikeness at accessible N, or does KR entropy dominate any reasonable bias?",
+  "seam_note": "KR (uniform-poset, asymptotic), RS-CSG percolation (the host measure), and T223 (TaF uniform ordinal ensemble) are THREE DISTINCT unbiased measures; the KR theorem is IMPORTED as literature and calibrated against a hand-built KR ensemble, not proven at small N.",
+  "parameters": {
+    "N_sweep": [
+      12,
+      20,
+      32,
+      48
+    ],
+    "seeds": 24,
+    "base_p": 0.3,
+    "gamma": 1.5,
+    "bounded_c": 2.0
+  },
+  "module0_MM_validation": {
+    "sprinkle_d2": {
+      "input_d": 2,
+      "measured_ordering_fraction": 0.49505826050769874,
+      "recovered_d_MM": 2.015301937023029,
+      "closed_form_f": 0.5
+    },
+    "sprinkle_d3": {
+      "input_d": 3,
+      "measured_ordering_fraction": 0.2312942155638785,
+      "recovered_d_MM": 2.9934288222287027,
+      "closed_form_f": 0.22857142857142845
+    },
+    "sprinkle_d4": {
+      "input_d": 4,
+      "measured_ordering_fraction": 0.10106117353308365,
+      "recovered_d_MM": 4.029147816137727,
+      "closed_form_f": 0.09999999999999984
+    }
+  },
+  "module1_manifold_control": {
+    "sweep": {
+      "rows": [
+        {
+          "n": 12,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.4829545454545454,
+          "d_MM_mean": 2.0851200402403633,
+          "d_MM_std": 0.35469436203298355,
+          "height_mean": 4.875,
+          "height_std": 1.165922381636102,
+          "max_layer_fraction_mean": 0.3333333333333333
+        },
+        {
+          "n": 20,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.4929824561403509,
+          "d_MM_mean": 2.0400813619873928,
+          "d_MM_std": 0.2575402599159338,
+          "height_mean": 6.375,
+          "height_std": 0.9921567416492215,
+          "max_layer_fraction_mean": 0.27708333333333335
+        },
+        {
+          "n": 32,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.48252688172043007,
+          "d_MM_mean": 2.055785749724844,
+          "d_MM_std": 0.16074763760879118,
+          "height_mean": 8.833333333333334,
+          "height_std": 1.2801909579781012,
+          "max_layer_fraction_mean": 0.21223958333333334
+        },
+        {
+          "n": 48,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.5142582742316785,
+          "d_MM_mean": 1.9688156499528073,
+          "d_MM_std": 0.14155885797053844,
+          "height_mean": 11.041666666666666,
+          "height_std": 1.3378828631668602,
+          "max_layer_fraction_mean": 0.15885416666666666
+        }
+      ],
+      "d_chain_from_height_scaling": 1.666561348126947,
+      "d_MM_at_largest_N": 1.9688156499528073,
+      "max_layer_fraction_at_largest_N": 0.15885416666666666
+    },
+    "band": {
+      "d_MM": 1.9688156499528073,
+      "d_chain": 1.666561348126947,
+      "max_layer_fraction": 0.15885416666666666,
+      "in_MM_band": true,
+      "in_chain_band": true,
+      "width_collapses": true,
+      "manifoldlike": true
+    }
+  },
+  "module2_KR_control": {
+    "sweep": {
+      "rows": [
+        {
+          "n": 12,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.38699494949494956,
+          "d_MM_mean": 2.368774503009315,
+          "d_MM_std": 0.32613569050891644,
+          "height_mean": 3.0,
+          "height_std": 0.0,
+          "max_layer_fraction_mean": 0.4583333333333333
+        },
+        {
+          "n": 20,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.37675438596491234,
+          "d_MM_mean": 2.3742463851029036,
+          "d_MM_std": 0.10454842155101494,
+          "height_mean": 3.0,
+          "height_std": 0.0,
+          "max_layer_fraction_mean": 0.4895833333333333
+        },
+        {
+          "n": 32,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.3844926075268817,
+          "d_MM_mean": 2.345422944588123,
+          "d_MM_std": 0.0579109978784919,
+          "height_mean": 3.0,
+          "height_std": 0.0,
+          "max_layer_fraction_mean": 0.4947916666666667
+        },
+        {
+          "n": 48,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.38083628841607564,
+          "d_MM_mean": 2.3569266199251953,
+          "d_MM_std": 0.03091745982911662,
+          "height_mean": 3.0,
+          "height_std": 0.0,
+          "max_layer_fraction_mean": 0.5
+        }
+      ],
+      "d_chain_from_height_scaling": Infinity,
+      "d_MM_at_largest_N": 2.3569266199251953,
+      "max_layer_fraction_at_largest_N": 0.5
+    },
+    "band": {
+      "d_MM": 2.3569266199251953,
+      "d_chain": Infinity,
+      "max_layer_fraction": 0.5,
+      "in_MM_band": true,
+      "in_chain_band": false,
+      "width_collapses": false,
+      "manifoldlike": false
+    }
+  },
+  "module2_unbiased_CSG_control": {
+    "sweep": {
+      "rows": [
+        {
+          "n": 12,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.5189393939393939,
+          "d_MM_mean": 1.9962442623729892,
+          "d_MM_std": 0.3882299158260007,
+          "height_mean": 5.375,
+          "height_std": 1.1110243021644486,
+          "max_layer_fraction_mean": 0.3159722222222222
+        },
+        {
+          "n": 20,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.6160087719298245,
+          "d_MM_mean": 1.7295638207866935,
+          "d_MM_std": 0.20954315684651237,
+          "height_mean": 8.5,
+          "height_std": 1.2909944487358056,
+          "max_layer_fraction_mean": 0.2104166666666667
+        },
+        {
+          "n": 32,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.7477318548387096,
+          "d_MM_mean": 1.4456637882933876,
+          "d_MM_std": 0.09605792296741798,
+          "height_mean": 12.875,
+          "height_std": 1.6661457519276837,
+          "max_layer_fraction_mean": 0.14322916666666666
+        },
+        {
+          "n": 48,
+          "seeds": 24,
+          "ordering_fraction_mean": 0.8191858747044917,
+          "d_MM_mean": 1.3101043523217886,
+          "d_MM_std": 0.053172776828268584,
+          "height_mean": 19.916666666666668,
+          "height_std": 2.3614378858841256,
+          "max_layer_fraction_mean": 0.1015625
+        }
+      ],
+      "d_chain_from_height_scaling": 1.0676827932460766,
+      "d_MM_at_largest_N": 1.3101043523217886,
+      "max_layer_fraction_at_largest_N": 0.1015625
+    },
+    "band": {
+      "d_MM": 1.3101043523217886,
+      "d_chain": 1.0676827932460766,
+      "max_layer_fraction": 0.1015625,
+      "in_MM_band": false,
+      "in_chain_band": false,
+      "width_collapses": true,
+      "manifoldlike": false
+    }
+  },
+  "module3_governed": {
+    "recency": {
+      "sweep": {
+        "rows": [
+          {
+            "n": 12,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.2032828282828283,
+            "d_MM_mean": 3.2875658242954464,
+            "d_MM_std": 0.6244988885728188,
+            "height_mean": 4.833333333333333,
+            "height_std": 1.3437096247164249,
+            "max_layer_fraction_mean": 0.6111111111111112
+          },
+          {
+            "n": 20,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.1401315789473684,
+            "d_MM_mean": 3.6918524055188953,
+            "d_MM_std": 0.48620973054487227,
+            "height_mean": 7.0,
+            "height_std": 1.3844373104863459,
+            "max_layer_fraction_mean": 0.6479166666666666
+          },
+          {
+            "n": 32,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.14045698924731184,
+            "d_MM_mean": 3.67685270727461,
+            "d_MM_std": 0.45918233147918075,
+            "height_mean": 10.708333333333334,
+            "height_std": 1.90348729675007,
+            "max_layer_fraction_mean": 0.62109375
+          },
+          {
+            "n": 48,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.16426566193853429,
+            "d_MM_mean": 3.462345325844597,
+            "d_MM_std": 0.3886086582855084,
+            "height_mean": 17.25,
+            "height_std": 3.191786333700926,
+            "max_layer_fraction_mean": 0.5868055555555556
+          }
+        ],
+        "d_chain_from_height_scaling": 1.0972033171342268,
+        "d_MM_at_largest_N": 3.462345325844597,
+        "max_layer_fraction_at_largest_N": 0.5868055555555556
+      },
+      "band": {
+        "d_MM": 3.462345325844597,
+        "d_chain": 1.0972033171342268,
+        "max_layer_fraction": 0.5868055555555556,
+        "in_MM_band": false,
+        "in_chain_band": false,
+        "width_collapses": false,
+        "manifoldlike": false
+      }
+    },
+    "bounded_valence": {
+      "sweep": {
+        "rows": [
+          {
+            "n": 12,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.5845959595959596,
+            "d_MM_mean": 1.8153756722649212,
+            "d_MM_std": 0.2987919593126358,
+            "height_mean": 6.583333333333333,
+            "height_std": 1.076903998610007,
+            "max_layer_fraction_mean": 0.28125
+          },
+          {
+            "n": 20,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.4478070175438596,
+            "d_MM_mean": 2.188392543169531,
+            "d_MM_std": 0.3563779837356159,
+            "height_mean": 8.25,
+            "height_std": 1.7618645426554977,
+            "max_layer_fraction_mean": 0.22291666666666665
+          },
+          {
+            "n": 32,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.3634912634408602,
+            "d_MM_mean": 2.4455089845169584,
+            "d_MM_std": 0.28482425682586276,
+            "height_mean": 9.833333333333334,
+            "height_std": 1.674979270186815,
+            "max_layer_fraction_mean": 0.19010416666666666
+          },
+          {
+            "n": 48,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.2945478723404255,
+            "d_MM_mean": 2.692142896460126,
+            "d_MM_std": 0.15171710140961678,
+            "height_mean": 10.916666666666666,
+            "height_std": 1.3202482931462383,
+            "max_layer_fraction_mean": 0.1675347222222222
+          }
+        ],
+        "d_chain_from_height_scaling": 2.719267374775091,
+        "d_MM_at_largest_N": 2.692142896460126,
+        "max_layer_fraction_at_largest_N": 0.1675347222222222
+      },
+      "band": {
+        "d_MM": 2.692142896460126,
+        "d_chain": 2.719267374775091,
+        "max_layer_fraction": 0.1675347222222222,
+        "in_MM_band": false,
+        "in_chain_band": false,
+        "width_collapses": true,
+        "manifoldlike": false
+      }
+    },
+    "both": {
+      "sweep": {
+        "rows": [
+          {
+            "n": 12,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.2651515151515152,
+            "d_MM_mean": 2.9158855563961645,
+            "d_MM_std": 0.5227751344333791,
+            "height_mean": 5.958333333333333,
+            "height_std": 1.3686723088047368,
+            "max_layer_fraction_mean": 0.5347222222222222
+          },
+          {
+            "n": 20,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.1532894736842105,
+            "d_MM_mean": 3.6891641493611416,
+            "d_MM_std": 0.7002529349899254,
+            "height_mean": 7.208333333333333,
+            "height_std": 2.0202963204001096,
+            "max_layer_fraction_mean": 0.6354166666666666
+          },
+          {
+            "n": 32,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.07014448924731183,
+            "d_MM_mean": 4.534234488262658,
+            "d_MM_std": 0.5570560137995518,
+            "height_mean": 7.916666666666667,
+            "height_std": 1.6811867501526678,
+            "max_layer_fraction_mean": 0.74609375
+          },
+          {
+            "n": 48,
+            "seeds": 24,
+            "ordering_fraction_mean": 0.044326241134751775,
+            "d_MM_mean": 5.054425814919945,
+            "d_MM_std": 0.48747445627462327,
+            "height_mean": 9.208333333333334,
+            "height_std": 1.7554478694117415,
+            "max_layer_fraction_mean": 0.7925347222222223
+          }
+        ],
+        "d_chain_from_height_scaling": 3.307037330435508,
+        "d_MM_at_largest_N": 5.054425814919945,
+        "max_layer_fraction_at_largest_N": 0.7925347222222223
+      },
+      "band": {
+        "d_MM": 5.054425814919945,
+        "d_chain": 3.307037330435508,
+        "max_layer_fraction": 0.7925347222222223,
+        "in_MM_band": false,
+        "in_chain_band": false,
+        "width_collapses": false,
+        "manifoldlike": false
+      }
+    },
+    "gamma_sweep_at_N32": [
+      {
+        "gamma": 0.0,
+        "d_MM": 1.4456637882933876,
+        "height": 12.875,
+        "max_layer_fraction": 0.14322916666666666
+      },
+      {
+        "gamma": 0.5,
+        "d_MM": 2.4728881431168275,
+        "height": 12.125,
+        "max_layer_fraction": 0.2981770833333333
+      },
+      {
+        "gamma": 1.0,
+        "d_MM": 3.290839653700249,
+        "height": 11.125,
+        "max_layer_fraction": 0.5364583333333334
+      },
+      {
+        "gamma": 1.5,
+        "d_MM": 3.67685270727461,
+        "height": 10.708333333333334,
+        "max_layer_fraction": 0.62109375
+      },
+      {
+        "gamma": 2.0,
+        "d_MM": 3.7565662533514086,
+        "height": 10.791666666666666,
+        "max_layer_fraction": 0.6510416666666666
+      },
+      {
+        "gamma": 3.0,
+        "d_MM": 4.09872362548299,
+        "height": 9.916666666666666,
+        "max_layer_fraction": 0.7057291666666666
+      }
+    ],
+    "c_sweep_at_N32": [
+      {
+        "c": 1.0,
+        "d_MM": 3.612624236823257,
+        "height": 6.25,
+        "max_layer_fraction": 0.34765625
+      },
+      {
+        "c": 2.0,
+        "d_MM": 2.4455089845169584,
+        "height": 9.833333333333334,
+        "max_layer_fraction": 0.19010416666666666
+      },
+      {
+        "c": 3.0,
+        "d_MM": 1.8942287745441242,
+        "height": 12.291666666666666,
+        "max_layer_fraction": 0.17057291666666666
+      },
+      {
+        "c": 4.0,
+        "d_MM": 1.6141892704555738,
+        "height": 13.875,
+        "max_layer_fraction": 0.15494791666666666
+      },
+      {
+        "c": 6.0,
+        "d_MM": 1.3119387258594388,
+        "height": 18.083333333333332,
+        "max_layer_fraction": 0.12760416666666666
+      },
+      {
+        "c": 8.0,
+        "d_MM": 1.1902373557164465,
+        "height": 20.75,
+        "max_layer_fraction": 0.11588541666666667
+      }
+    ],
+    "tuned_crossing_N_stability": {
+      "recency": {
+        "label": "tuned_recency",
+        "tuned_strength": 0.5,
+        "d_MM_by_N": [
+          {
+            "n": 12,
+            "d_MM": 2.5984073753445114,
+            "max_layer_fraction": 0.4305555555555556
+          },
+          {
+            "n": 20,
+            "d_MM": 2.752862730128696,
+            "max_layer_fraction": 0.4083333333333334
+          },
+          {
+            "n": 32,
+            "d_MM": 2.4728881431168275,
+            "max_layer_fraction": 0.2981770833333333
+          },
+          {
+            "n": 48,
+            "d_MM": 2.3871385808480663,
+            "max_layer_fraction": 0.3229166666666667
+          }
+        ],
+        "max_abs_dev_from_2_over_window": 0.7528627301286961,
+        "monotone_in_N": false,
+        "span_over_window": 0.2112687944964451,
+        "crosses_2_under_N": false,
+        "plateau_at_2_across_window": false,
+        "tuned_crossing_not_plateau": false
+      },
+      "bounded_valence": {
+        "label": "tuned_bounded_valence",
+        "tuned_strength": 3.0,
+        "d_MM_by_N": [
+          {
+            "n": 12,
+            "d_MM": 1.3920923503378784,
+            "max_layer_fraction": 0.24305555555555555
+          },
+          {
+            "n": 20,
+            "d_MM": 1.6924714316555383,
+            "max_layer_fraction": 0.18541666666666667
+          },
+          {
+            "n": 32,
+            "d_MM": 1.8942287745441242,
+            "max_layer_fraction": 0.17057291666666666
+          },
+          {
+            "n": 48,
+            "d_MM": 2.057719405660531,
+            "max_layer_fraction": 0.14756944444444445
+          }
+        ],
+        "max_abs_dev_from_2_over_window": 0.6079076496621216,
+        "monotone_in_N": true,
+        "span_over_window": 0.6656270553226526,
+        "crosses_2_under_N": true,
+        "plateau_at_2_across_window": false,
+        "tuned_crossing_not_plateau": true
+      }
+    }
+  },
+  "decisive_comparison": {
+    "unbiased_d_MM_at_largest_N": 1.3101043523217886,
+    "unbiased_d_MM_gap_from_2": 0.6898956476782114,
+    "governance_is_a_measurable_dimensional_lever": true,
+    "lever_d_MM_range_across_strength_sweeps": {
+      "recency_d_MM_min_max": [
+        1.4456637882933876,
+        4.09872362548299
+      ],
+      "bounded_d_MM_min_max": [
+        1.1902373557164465,
+        3.612624236823257
+      ]
+    },
+    "recency_sweep_crosses_d2": true,
+    "bounded_sweep_crosses_d2": true,
+    "a_fixed_strength_plateaus_at_2_across_window": false,
+    "manifold_value_is_a_tuned_crossing_not_a_basin": true,
+    "manifold_control_flatness_reference": 0.08512004024036335,
+    "any_governed_condition_manifoldlike": false
+  },
+  "positive_controls": {
+    "MM_validation_recovers_input_dimension": true,
+    "CTRL_MANIFOLD_estimator_registers_manifoldlikeness": true,
+    "CTRL_KR_estimator_flags_KR_nonmanifold": true,
+    "CTRL_UNBIASED_CSG_not_robustly_manifold": true
+  },
+  "positive_controls_all_pass": true,
+  "physics_verdict": "PARTIAL / meta-wall-NOT-refuted: governance/incentive selection is a measurable dimensional lever that CROSSES manifoldlikeness under tuning (d_MM tunable from chain-like ~1.2 through 2 to KR-flat ~4), but the manifold value is a TUNED CROSSING -- a monotone function of strength AND N passing through 2, not a fixed-point basin. Holding d~2 as N grows needs the strength to run with N (fine-tuning), the KR-entropy signature reasserting as-modeled; not a clean escape",
+  "honest_scope": {
+    "N_max": 48,
+    "shown": [
+      "estimator calibrated (MM validation + manifold/KR discrimination)",
+      "whether a governance bias produces a measurable finite-N shift",
+      "whether a FIXED governance strength holds across the accessible N window"
+    ],
+    "NOT_shown": [
+      "the asymptotic Kleitman-Rothschild theorem (imported, not demonstrated)",
+      "whether any finite-N foothold survives N->inf (super-exponential non-manifold poset count can swamp a finite-N large-deviation shift)",
+      "any continuum / metric / Lorentzian / spacetime / manifoldlikeness THEOREM"
+    ],
+    "no_silent_extrapolation": true
+  }
+}

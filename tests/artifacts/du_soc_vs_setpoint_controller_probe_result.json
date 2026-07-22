@@ -1,0 +1,136 @@
+{
+  "probe": "du_soc_vs_setpoint_controller_probe",
+  "question": "Can the R6 record-issuance magnitude be SOURCED by a set-point-free SOC controller, or is it always re-imported by a PID/difficulty set-point? Is the native exponent ~1/2?",
+  "part1_soc_selforganization": {
+    "sigma_from_below": 0.9997679999999988,
+    "sigma_from_above": 1.0015546666666642,
+    "std_below": 0.014720067874239568,
+    "std_above": 0.0146646126238441,
+    "drive_invariance": [
+      {
+        "n": 6,
+        "sigma_c_drive0.5": 0.8937477777777785,
+        "predicted_drive^(1/n)": 0.8908987181403393
+      },
+      {
+        "n": 10,
+        "sigma_c_drive0.5": 0.9358333333333343,
+        "predicted_drive^(1/n)": 0.9330329915368074
+      },
+      {
+        "n": 16,
+        "sigma_c_drive0.5": 0.9563811111111109,
+        "predicted_drive^(1/n)": 0.9576032806985737
+      }
+    ],
+    "target_value_in_update_rule": false,
+    "reading": "Flux-balance feedback sigma += eta*(drive - <dissipated>) contains no target sigma; the fixed point sigma^n=drive gives sigma_c=drive^{1/n} -> 1. For drive=1, sigma_c=1 exactly for all n; sigma_c=1 is the branching map's absorbing-state transition, DERIVED not inserted. The drive sets only a vanishing finite-size correction, never the critical value."
+  },
+  "part2_pid_positive_control": {
+    "targets": [
+      5.0,
+      12.0,
+      30.0,
+      80.0
+    ],
+    "regulated": [
+      5.0258357916096745,
+      12.046865119171803,
+      30.05389449452985,
+      80.03160408237054
+    ],
+    "max_relative_miss": 0.005167158321934906,
+    "target_value_in_update_rule": true,
+    "reading": "PID/difficulty regulated value equals the imported set-point for every target (<0.5% miss); the magnitude is imported by construction. This is the wall's positive control -- the contrast SOURCED must beat."
+  },
+  "part3_native_powerlaw": {
+    "tau_critical": 1.4803564136055778,
+    "tau_subcritical": 4.429045188241043,
+    "mean_size_subcritical": 5.033375,
+    "reading": "At the self-organized sigma_c=1 the avalanche-size PDF is a universal mean-field power law tau~3/2 (Otter-Dwass critical branching); fixed sigma=0.8 has a finite characteristic size ~1/(1-sigma)=5 and no scaling window. The power law is native to the self-organization, not inserted. tau>1 always, so the DE's 1/2 can never be an SOC avalanche-size exponent."
+  },
+  "part4_sqrtN_fork": {
+    "additive_slope": -0.49879812490809017,
+    "N0s": [
+      16,
+      64,
+      256,
+      1024,
+      4096,
+      16384
+    ],
+    "rel_additive": [
+      0.4958939097139177,
+      0.2523486179939378,
+      0.12377908525372919,
+      0.06345902664775364,
+      0.031205069691064576,
+      0.01570146762377198
+    ],
+    "soc_tail_index_hill_top10": 0.5294422394209167,
+    "soc_tail_index_hill_top20": 0.577508603096939,
+    "soc_ccdf_slope": -0.49140068009627624,
+    "reading": "ADDITIVE (independent) counting self-averages at N^{-1/2} -- the CLT / standard-error exponent, native but additive (the wave-1 route; NO sourced coefficient). The genuinely NON-ADDITIVE SOC avalanche cascade is heavy-tailed with tail index alpha=tau-1~1/2 (infinite mean, extreme-dominated). So a 1/2 DOES appear in the SOC route -- but as a heavy-tail index of the OPPOSITE character to a small self-averaging DE fluctuation. The 1/sqrt(N) the DE wants requires additivity; the non-additive count R6 asks for does not deliver a self-averaging -1/2."
+  },
+  "part5_coefficient_not_sourced": {
+    "tau_original": 1.4803564136055778,
+    "tau_after_unit_rescale": 1.4803564136055782,
+    "exponent_invariant": true,
+    "additive_coeff_by_window": [
+      1.4091655843109294,
+      1.9924439378412757,
+      2.7652805630764425
+    ],
+    "coeff_scheme_dependent": true,
+    "reading": "The SOC exponent is invariant under rescaling the microscopic issuance unit (scale-free -> no characteristic magnitude), so it structurally cannot output a coefficient. Even the additive 1/sqrt(N) prefactor sqrt(t*v) rides on the observation window t (a scheme choice), not criticality. The wall RELOCATES: not 'you must import a set-point' (SOC refutes that) but 'a scale-free mechanism cannot hand you a scale'."
+  },
+  "checks": [
+    {
+      "name": "SOC: set-point-free flux-balance self-organizes to sigma_c~1 from below",
+      "pass": true
+    },
+    {
+      "name": "SOC: self-organizes to sigma_c~1 from above (a genuine two-sided attractor)",
+      "pass": true
+    },
+    {
+      "name": "SOC: sigma_c = drive^(1/n) quantitatively (critical point sourced, NOT the imported drive)",
+      "pass": true
+    },
+    {
+      "name": "POSITIVE CONTROL: PID regulated value == imported set-point (magnitude imported by construction)",
+      "pass": true
+    },
+    {
+      "name": "POSITIVE CONTROL: PID tracks ANY target r* -- the value is put in, not sourced",
+      "pass": true
+    },
+    {
+      "name": "native: SOC critical point yields a power-law avalanche size dist (tau in [1.4,1.6])",
+      "pass": true
+    },
+    {
+      "name": "control: off-critical (fixed sigma=0.8) has a small characteristic scale, no power law (the power-law test can fail)",
+      "pass": true
+    },
+    {
+      "name": "fork: ADDITIVE count self-averages at N^{-1/2} (the CLT 1/sqrt(N) is native-but-additive)",
+      "pass": true
+    },
+    {
+      "name": "fork: NON-ADDITIVE SOC cascade is heavy-tailed alpha~1/2 <1 (a 1/2, but extreme-dominated, not a self-averaging standard error)",
+      "pass": true
+    },
+    {
+      "name": "coefficient: SOC exponent invariant under microscopic-unit rescale (scale-free)",
+      "pass": true
+    },
+    {
+      "name": "coefficient: the additive 1/sqrt(N) prefactor is scheme-dependent (window-set, not sourced)",
+      "pass": true
+    }
+  ],
+  "n_pass": 11,
+  "n_total": 11,
+  "grade": "PARTIAL -- set-point-free SOC genuinely SOURCES a critical point (sigma_c=1, drive-invariant) + a native power law (tau~3/2), so the 'inescapably a PID / re-imported' wall FALLS; but the native exponent is tau~3/2 not 1/2, the 1/sqrt(N) reappears only under additive counting (no sourced coefficient), and scale-freeness structurally forbids a sourced magnitude. The wall relocates from 'must import a set-point' to 'a scale-free mechanism cannot hand you a scale'."
+}
