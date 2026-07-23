@@ -113,6 +113,7 @@ rule: `CONNECTIONS.md`.
 - **Agent-facing governance and method:** `AGENTS.md`
 - **Lanes and channels (machine-readable):** `LANES.yaml`
 - **Sibling connections and the self-verification rule:** `CONNECTIONS.md`
+- **Reproducible numerical environment:** `requirements-compute.txt` and `tests/README.md`
 - **Attribution / lineage:** below.
 
 ## Attribution / Lineage

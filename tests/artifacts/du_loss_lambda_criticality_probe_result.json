@@ -5,8 +5,8 @@
   "A1_gradient_vs_conservative": {
     "curl_gradient_field": 0.0,
     "curl_rotational_field": 2.0,
-    "gradient_loss_ratio_final_over_initial": 4.96922979172295e-36,
-    "hamiltonian_loss_rel_std": 0.5403408051599963,
+    "gradient_loss_ratio_final_over_initial": 4.9692297917229585e-36,
+    "hamiltonian_loss_rel_std": 0.5403408051599965,
     "named_loss": "L_N(theta) = (1/2N) sum_i (theta - r_i)^2  =  mu reversal-cost free energy = linearised finality H^1-obstruction = empirical risk; record-accretion = its gradient flow d theta/dt = -(theta - rbar)"
   },
   "A2_sqrtN_floor": {
@@ -28,7 +28,7 @@
       0.007960663392802776,
       0.003897287628275798
     ],
-    "gradient_slope": -0.5023721846243606,
+    "gradient_slope": -0.5023721846243608,
     "hamiltonian_Ns": [
       16,
       64,
@@ -43,7 +43,7 @@
       0.7087602015990762,
       0.7083201592778914
     ],
-    "hamiltonian_slope": -0.007825805122052611,
+    "hamiltonian_slope": -0.007825805122052606,
     "loss_value_floor": [
       0.06168858952875103,
       0.015393504923986716,
@@ -72,7 +72,7 @@
     },
     "spectral_dimension_exponent": {
       "ML_sharma_kaplan_4_over_d": 0.5,
-      "ML_fitted_alpha": 0.38275023495126526,
+      "ML_fitted_alpha": 0.38275023495126514,
       "ML_data_manifold_dim": 8.0,
       "ML_kernel_spectral_decay_s": 1.5,
       "DU_dewitt_causal_set_spectral_dim_IR": 4.0,
@@ -87,9 +87,9 @@
     }
   },
   "B1_criticality_positive_control": {
-    "tau_at_delta0": 1.4862599466656083,
-    "mean_progeny_small_cap": 293.6393,
-    "mean_progeny_big_cap": 1451.375775,
+    "tau_at_delta0": 1.4863844505631552,
+    "mean_progeny_small_cap": 293.8653,
+    "mean_progeny_big_cap": 1450.804525,
     "reading": "At exact criticality (Lambda=0) the avalanche law is the mean-field SOC power law tau=3/2 with no characteristic scale; the mean progeny diverges with system size, so there is no finite crossover N_c and NO dark energy. Dark energy REQUIRES an off-critical initial condition."
   },
   "B2_crossover_law": {
@@ -103,31 +103,31 @@
       0.025
     ],
     "mean_progeny": [
-      4.979075,
-      7.130808333333333,
-      10.113225,
-      14.361558333333333,
-      19.711658333333332,
-      28.673866666666665,
-      39.26826666666667
+      4.979375,
+      7.128183333333333,
+      10.12075,
+      14.356541666666667,
+      19.715141666666668,
+      28.654583333333335,
+      39.28055833333333
     ],
     "N_c": [
-      16.988655858099477,
-      31.86730466508589,
-      61.65348096180991,
-      119.75204350502818,
-      214.38057807583414,
-      427.54620351167614,
-      773.9032259296735
+      16.985901845111083,
+      31.85224613096839,
+      61.68982700557436,
+      119.73192766363765,
+      214.49661702490093,
+      427.2975946256416,
+      773.9731790557119
     ],
-    "slope_meanT_vs_delta": -0.9940636264234349,
-    "slope_Nc_vs_delta": -1.8441980985898359,
-    "slope_lambda_vs_invsqrtNc": 1.0842971568974933,
+    "slope_meanT_vs_delta": -0.9940164995381706,
+    "slope_Nc_vs_delta": -1.8442452649189236,
+    "slope_lambda_vs_invsqrtNc": 1.0842699012241641,
     "reading": "The mean-field branching-process cutoff N_c ~ delta^{-2} makes Lambda=delta ~ 1/sqrt(N_c) a DERIVED crossover law, not a fit: N_c is FIXED by the distance-from-criticality delta. Lambda is a control parameter / initial condition, not a fundamental constant."
   },
   "B3_relevant_coupling": {
-    "Nc_large_delta": 16.988655858099477,
-    "Nc_small_delta": 773.9032259296735,
+    "Nc_large_delta": 16.985901845111083,
+    "Nc_small_delta": 773.9731790557119,
     "diverges_as_delta_to_0": true,
     "off_critical_scale_finite": true,
     "reading": "delta opens a finite correlation scale N_c off criticality that diverges as a clean power N_c~delta^{-2} when delta->0: the defining signature of a RELEVANT RG coupling / a scale-symmetry-breaking measure. Lambda = a genuine near-critical deviation, not a bookkeeping label."
@@ -141,16 +141,16 @@
       16384
     ],
     "rel_fluctuation_above_crossover": [
-      0.27482427171959367,
-      0.13622664968956827,
-      0.06683574735155484,
-      0.03534325662188023,
-      0.017559317092407812
+      0.2724661714336384,
+      0.14421286946079806,
+      0.07028311016795266,
+      0.03378634674842652,
+      0.01742222117417019
     ],
-    "slope_above_crossover": -0.4941451820569,
-    "soc_ccdf_tail_index_alpha": 0.49309455507359756,
-    "off_critical_p999": 250.00100000000384,
-    "critical_p999": 400184.00200000004,
+    "slope_above_crossover": -0.5013920472789549,
+    "soc_ccdf_tail_index_alpha": 0.4931535987081856,
+    "off_critical_p999": 250.0,
+    "critical_p999": 400174.0,
     "off_critical_scale_finite": true,
     "Nc_is_derived_not_tuned": true,
     "reading": "Above the crossover, independent counting self-averages at 1/2 (variance-limited = Part A's DE floor). The SOC/critical count is heavy-tailed (alpha=tau-1~1/2<1, infinite mean, NON-self-averaging) -- a genuinely different regime; off-criticality has a finite characteristic scale ~O(N_c). The crossover N_c is FIXED by delta via the derived delta^{-2} law -- so the mechanism is NON-CIRCULAR (N_c is not a free fit). What remains an initial condition is the VALUE of delta, matching 'exponent native, value open'."
