@@ -369,3 +369,38 @@ classicality, supply view-change liveness or common knowledge, prove an LOCC
 no-go, establish a thermodynamic phase transition, or derive a novel
 quantum/BFT law. The component mathematics is known; the
 formation-to-finality physical resource law remains open.
+
+## HC-DU-036A repository-wide council factorization/witness probes
+
+Three independently selected council swings execute complementary finite
+specializations of the interventional record-sufficiency discriminator:
+
+- `du_council_orthodox_factorization_witness_probe.py` exhaustively checks
+  finite deterministic behavioral equivalence, the tight `n-2`
+  action-input witness bound under a free-initial-readout convention, stable
+  congruences, record-process upgrades, tight chains, and the no-size-free
+  horizon family.
+- `du_council_heterodox_delayed_remainder_probe.py` constructs equal-endpoint
+  delayed-response rivals that agree through every frozen finite horizon,
+  verifies synchronized product search, and proves the exact behavioral-state
+  cost of hiding the response in that fixture.
+- `du_council_wild_frontier_interventional_closure_probe.py` exhaustively
+  checks the greatest intervention-stable refinement, its `n-b_0` witness
+  bound, the smallest delayed fixture, tight chains, a finite linear
+  reachable-rank control, clone invariance, and a decision-relevant witness.
+
+The artifacts report `7/7`, `51/51`, and `9/9` named checks, or `67/67` in
+total. Repeated runs are byte-identical. Passing establishes known finite
+automata and linear-equivalence specializations plus exact controls for
+`HC-DU-036A`. It does not physically form a record, justify a complete
+intervention basis, establish noisy or quantum sufficiency, or license an
+irreducible-physics verdict. A separating word proves candidate-record
+insufficiency; physical-remainder language additionally requires a nonempty,
+target-independent, physically admissible and resource-bounded record
+refinement class.
+
+The associated commercial `HC-DU-034A` memo supplies an analytic signed
+all-port coherent-history identity and exact incoherent-history null. It has
+no dedicated probe because its result is a direct two-history trace
+calculation; actual proper-time operations, robust instrument nulls, and
+calibrated implementation remain open.

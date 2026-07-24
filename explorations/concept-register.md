@@ -632,18 +632,34 @@ resolution-stable intervention role. No claim is banked or seeded. See
   access to one classical label but no redundancy, fault tolerance, or public
   finality. These are known mathematical specializations and exact controls,
   not a novel cross-platform law.
+- **Earned intervention and history-assay controls.** `HC-DU-036A` proves the
+  exact finite deterministic intervention-closure baseline. The greatest
+  intervention-stable refinement of a supplied record/readout relation either
+  equals the record kernel or returns a separating word within a tight
+  state-complexity bound; no size-free finite certification horizon exists.
+  A finite linear realization has a reachable-rank-minus-one witness bound.
+  These are known automata and linear-equivalence specializations. A witness
+  establishes candidate-record insufficiency, not an irreducible physical
+  remainder: an ontology-relevant verdict must also defeat a nonempty,
+  target-independent, physically admissible and resource-bounded refinement
+  class. `HC-DU-034A` separately supplies the exact signed all-port
+  coherent-history identity and arbitrary-weight incoherent-history null as
+  an assay control; physical proper-time realization remains open.
 - **Immediate tests.**
-  1. `HC-DU-035B`: begin from a physically selected record instrument and
+  1. `HC-DU-034B/036B`: use one unchanged record, intervention,
+     response-difference, behavioral-rank, refinement and capability contract
+     on a physical coherent-history fixture and an adversarial DAG/database
+     fixture. Return factorization, interface incompleteness, a
+     formation-relative physical remainder, or incomplete adjudication.
+  2. `HC-DU-035B`: begin from a physically selected record instrument and
      derive or refute a formation-to-finality resource bound for converting a
      synergy-only or private distinction into a fork-safe, independently
      accessible, approximately broadcastable, bounded-risk actionable fact.
      Stop if the result only intersects known statistical, secret-sharing,
      quorum, and quantum-access conditions.
-  2. Parent `HC-DU-033`: justify physical record formation, cadence,
+  3. Parent `HC-DU-033`: justify physical record formation, cadence,
      interface, equivariant/noncommutative algebra, and structured-process
      congruence rather than enumerating more bare finite partitions.
-  3. `HC-DU-034/036`: construct equal-endpoint multi-time rivals and prove
-     factorization or find the smallest separating intervention.
 - **Central failure modes.** Primitive circularity, sufficiency tautology,
   per-fixture interface refitting, weak adversary manufacture, endpoint or
   redundancy substitution, hidden resource export, covariance overclaim,
@@ -652,12 +668,15 @@ resolution-stable intervention role. No claim is banked or seeded. See
 - **Status:** **CENTRAL CONCEPT OPEN / THREE ONTOLOGY OUTCOMES LIVE /
   HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT / HC-DU-035A
   LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
-  REJECTED / PHYSICAL RECORD FORMATION AND INTERFACE SELECTION,
-  BROADCASTABLE PUBLIC FINALITY, RESOURCE-COUPLED CAPABILITY,
-  INTERVENTIONAL SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY OPEN.** The
-  exact controls are baselines, not a scientific answer to record
-  fundamentality. `CONCEPT-DU-002` and `CONCEPT-DU-003` remain major inputs;
-  their grades do not change.
+  REJECTED / HC-DU-034A SIGNED HISTORY-ASSAY CONTROL EXACT / HC-DU-036A
+  FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT / NO SIZE-FREE
+  FINITE SUFFICIENCY HORIZON / PHYSICAL RECORD FORMATION AND INTERFACE
+  SELECTION, ADMISSIBLE PHYSICAL REFINEMENT, BROADCASTABLE PUBLIC FINALITY,
+  RESOURCE-COUPLED CAPABILITY, PHYSICAL OR QUANTUM INTERVENTIONAL
+  SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY OPEN.** The exact controls are
+  baselines, not a scientific answer to record fundamentality.
+  `CONCEPT-DU-002` and `CONCEPT-DU-003` remain major inputs; their grades do
+  not change.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

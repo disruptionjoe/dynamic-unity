@@ -49,6 +49,18 @@ current results establish the starting boundary, not the answer:
   scoped resource, complementarity, backreaction, evidence-conservation, aliasing, and
   boundary-relocation results. Covariance admits recorders but does not select a recorder law,
   interface, pointer basis, archive, observer, or classical irreversible process.
+- `HC-DU-036A` now supplies the exact finite deterministic
+  factorization-or-witness baseline: a supplied record either carries every
+  admitted future response or a bounded intervention exposes what it erased.
+  The bound is tight, depends on behavioral complexity, and has no
+  size-independent version. A witness establishes candidate-record
+  insufficiency, not an irreducible physical remainder until every
+  independently admissible physical refinement has also failed.
+- `HC-DU-034A` supplies an exact signed all-port coherent-history assay
+  control. It separates the frozen incoherent-history mixture from a joint
+  cross-history correlation while using both symmetric recombination ports.
+  Actual proper-time implementation, a robust instrument null, and physical
+  certification remain open.
 - Classical sequential growth has an exact projective predictive quotient and a conditional
   post-renormalization mechanism. It has not thereby produced a physical observer, selected
   record interface, held-out spacetime geometry, dimensional scale, or fundamental ontology.

@@ -1,0 +1,868 @@
+{
+  "cases": [
+    {
+      "certified_words_checked_through_h": 3,
+      "common_endpoint_after_separator": 0,
+      "horizon": 1,
+      "minimal_behavioral_state_lower_bound": 2,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 2,
+      "state_count_each": 2
+    },
+    {
+      "certified_words_checked_through_h": 7,
+      "common_endpoint_after_separator": 0,
+      "horizon": 2,
+      "minimal_behavioral_state_lower_bound": 3,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 3,
+      "state_count_each": 3
+    },
+    {
+      "certified_words_checked_through_h": 15,
+      "common_endpoint_after_separator": 0,
+      "horizon": 3,
+      "minimal_behavioral_state_lower_bound": 4,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "advance",
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 4,
+      "state_count_each": 4
+    },
+    {
+      "certified_words_checked_through_h": 31,
+      "common_endpoint_after_separator": 0,
+      "horizon": 4,
+      "minimal_behavioral_state_lower_bound": 5,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 5,
+      "state_count_each": 5
+    },
+    {
+      "certified_words_checked_through_h": 63,
+      "common_endpoint_after_separator": 0,
+      "horizon": 5,
+      "minimal_behavioral_state_lower_bound": 6,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 6,
+      "state_count_each": 6
+    },
+    {
+      "certified_words_checked_through_h": 127,
+      "common_endpoint_after_separator": 0,
+      "horizon": 6,
+      "minimal_behavioral_state_lower_bound": 7,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 7,
+      "state_count_each": 7
+    },
+    {
+      "certified_words_checked_through_h": 255,
+      "common_endpoint_after_separator": 0,
+      "horizon": 7,
+      "minimal_behavioral_state_lower_bound": 8,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 8,
+      "state_count_each": 8
+    },
+    {
+      "certified_words_checked_through_h": 511,
+      "common_endpoint_after_separator": 0,
+      "horizon": 8,
+      "minimal_behavioral_state_lower_bound": 9,
+      "pairwise_distinct_residual_behaviors": true,
+      "shortest_separator": [
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "advance",
+        "read"
+      ],
+      "shortest_separator_length": 9,
+      "state_count_each": 9
+    }
+  ],
+  "checks": [
+    {
+      "detail": {
+        "horizon": 1,
+        "word_count": 3
+      },
+      "name": "h=1: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=1: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=1: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=1: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 4,
+        "witness_length": 2
+      },
+      "name": "h=1: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 2,
+        "state_count": 2,
+        "state_pairs_checked": 1
+      },
+      "name": "h=1: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "horizon": 2,
+        "word_count": 7
+      },
+      "name": "h=2: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=2: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=2: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=2: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 9,
+        "witness_length": 3
+      },
+      "name": "h=2: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 3,
+        "state_count": 3,
+        "state_pairs_checked": 3
+      },
+      "name": "h=2: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "horizon": 3,
+        "word_count": 15
+      },
+      "name": "h=3: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=3: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=3: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=3: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 16,
+        "witness_length": 4
+      },
+      "name": "h=3: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 4,
+        "state_count": 4,
+        "state_pairs_checked": 6
+      },
+      "name": "h=3: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "horizon": 4,
+        "word_count": 31
+      },
+      "name": "h=4: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=4: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=4: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=4: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 25,
+        "witness_length": 5
+      },
+      "name": "h=4: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 5,
+        "state_count": 5,
+        "state_pairs_checked": 10
+      },
+      "name": "h=4: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "horizon": 5,
+        "word_count": 63
+      },
+      "name": "h=5: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=5: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=5: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=5: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 36,
+        "witness_length": 6
+      },
+      "name": "h=5: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 6,
+        "state_count": 6,
+        "state_pairs_checked": 15
+      },
+      "name": "h=5: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "horizon": 6,
+        "word_count": 127
+      },
+      "name": "h=6: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=6: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=6: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=6: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 49,
+        "witness_length": 7
+      },
+      "name": "h=6: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 7,
+        "state_count": 7,
+        "state_pairs_checked": 21
+      },
+      "name": "h=6: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "horizon": 7,
+        "word_count": 255
+      },
+      "name": "h=7: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=7: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=7: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=7: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 64,
+        "witness_length": 8
+      },
+      "name": "h=7: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 8,
+        "state_count": 8,
+        "state_pairs_checked": 28
+      },
+      "name": "h=7: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "horizon": 8,
+        "word_count": 511
+      },
+      "name": "h=8: every certified intervention history through h agrees",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "rival_outputs": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "witness": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=8: delayed witness separates at h+1",
+      "passed": true
+    },
+    {
+      "detail": {
+        "control_endpoint": 0,
+        "rival_endpoint": 0
+      },
+      "name": "h=8: separating histories return to one endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expected": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ],
+        "found": [
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "advance",
+          "read"
+        ]
+      },
+      "name": "h=8: product search finds the minimal witness",
+      "passed": true
+    },
+    {
+      "detail": {
+        "product_bound": 81,
+        "witness_length": 9
+      },
+      "name": "h=8: witness respects the finite product-state bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minimal_behavioral_state_lower_bound": 9,
+        "state_count": 9,
+        "state_pairs_checked": 36
+      },
+      "name": "h=8: all delay states have distinct future behavior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "shortest_separator": null
+      },
+      "name": "state relabeling null is interventionally equivalent",
+      "passed": true
+    },
+    {
+      "detail": {
+        "quotient": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "name": "positive supplied record quotient is an intervention congruence",
+      "passed": true
+    },
+    {
+      "detail": {
+        "action": "read",
+        "merged_states": [
+          0,
+          2
+        ],
+        "outputs": [
+          0,
+          1
+        ]
+      },
+      "name": "hostile output perturbation breaks the intervention congruence",
+      "passed": true
+    }
+  ],
+  "claim_scope": "finite deterministic Mealy processes with exact authenticated outputs and a frozen intervention alphabet",
+  "content_sha256_before_hash_field": "469eb9f2d6282dc209bd814e4be322845cec0ae40d89adc8509843f576c29d15",
+  "contract": {
+    "certificate": "exact transcript equality or a separating word",
+    "finalizer": "append-only exact transcript; no adversary",
+    "interventions": [
+      "advance",
+      "read"
+    ],
+    "observer_access": "complete output transcript",
+    "primitive_precedence": "word order of declared interventions",
+    "process": "deterministic finite controlled transition system",
+    "provenance": "source machine and intervention word retained",
+    "record_instrument": "exact output symbol after each intervention",
+    "representation_group": "state relabelings preserving transitions and outputs",
+    "resources": "finite state count, intervention length, exact reset, unpriced physical implementation",
+    "rival_class": "pairs of finite deterministic Mealy processes"
+  },
+  "null_control": {
+    "fixture": "state-relabelled isomorphic process",
+    "shortest_separator": null
+  },
+  "probe": "du_council_heterodox_delayed_remainder_probe",
+  "scientific_disposition": "A fixed finite record horizon cannot establish unrestricted interventional sufficiency.  A declared finite state/resource bound makes the deterministic comparison decidable.  This is known automata territory and a CCR baseline, not a novel physical law.",
+  "summary": {
+    "all_passed": true,
+    "passed": 51,
+    "total": 51
+  },
+  "theorems_tested": {
+    "delay_memory_lower_bound": "the h-delay remainder has h+1 pairwise distinct residual behaviors and therefore requires at least h+1 deterministic behavioral states",
+    "delayed_remainder": "for every tested h, all words of length <=h agree but advance^h;read separates and resets both processes",
+    "finite_factorization_or_witness": "product-state BFS either finds a shortest separating word of length at most |S0||S1| or exhausts the reachable product",
+    "quotient_congruence": "a supplied record quotient supports a deterministic quotient process exactly when outputs and successor classes are constant on each quotient fiber for every intervention"
+  },
+  "warrant": "exact finite deterministic construction and specialization"
+}

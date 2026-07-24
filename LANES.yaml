@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 20
+manifest_revision: 21
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -28,8 +28,11 @@ active_hardening_program_note: >-
   migration routes them but does not replace, regrade or close them. HC-DU-033A now closes the
   finite classical selection/access quotient only. HC-DU-035A now closes the static layered
   reconstruction/finality/capability threshold controls and rejects one universal objectivity
-  threshold. Physical record formation, interface selection, broadcastable public finality and
-  the formation-to-finality resource law remain open.
+  threshold. HC-DU-034A now supplies an exact signed all-port coherent-history assay
+  specialization, and HC-DU-036A supplies the exact finite deterministic
+  factorization-or-candidate-witness baseline plus finite-linear extension. Physical record
+  formation, admissible interface refinement, instrument-level history certification,
+  broadcastable public finality and the formation-to-finality resource law remain open.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -560,20 +563,26 @@ certified_causal_reality_restructure:
     PROGRAM RECHARTERED / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED / EXACT FINITE
     RECORD-AND-ARCHIVE RESULTS RETAINED / HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT
     EXACT / HC-DU-035A LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
-    REJECTED / PHYSICAL RECORD FORMATION, INTERFACE SELECTION, BROADCASTABLE PUBLIC FINALITY,
-    FORMATION-TO-FINALITY RESOURCE LAW, INTERVENTIONAL SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY
-    OPEN / COMPONENT MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL
-    RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
+    REJECTED / HC-DU-034A SIGNED ALL-PORT COHERENT-HISTORY ASSAY EXACT AT IDEAL SPECIALIZATION
+    GRADE / HC-DU-036A FINITE FACTORIZATION-OR-CANDIDATE-WITNESS AND LINEAR-RANK BASELINES EXACT /
+    NO SIZE-FREE WITNESS HORIZON / PHYSICAL RECORD FORMATION, ADMISSIBLE INTERFACE REFINEMENT,
+    INSTRUMENT-LEVEL HISTORY CERTIFICATION, BROADCASTABLE PUBLIC FINALITY,
+    FORMATION-TO-FINALITY RESOURCE LAW, GEOMETRY AND PHYSICAL RECOVERY OPEN / COMPONENT
+    MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL RESOURCE-COUPLED
+    CONJUNCTION SEARCH-INCOMPLETE
   first_dependency: >-
-    HC-DU-033 remainder: independently select or classify the physical record-forming interface,
-    cadence and equivariant/noncommutative structured channel. The finite classical consequence
-    of any supplied selection/access relations is already exact in HC-DU-033A.
+    Independently select or classify the physical record-forming interface, cadence and
+    equivariant/noncommutative structured channel, then freeze a nonempty physically realizable
+    and resource-bounded refinement class. HC-DU-033A already fixes the finite classical
+    consequence of supplied selection/access relations; HC-DU-036A shows why a failed candidate
+    interface alone cannot establish a physical remainder.
   first_executable_flagship: >-
-    HC-DU-035A Layered Threshold Objectivity is completed at exact finite-control grade. The
-    successor is HC-DU-035B Formation-to-Finality Cost: derive or refute a coupled resource bound
-    for converting a physically formed synergy-only or private distinction into a fork-safe,
-    independently accessible, approximately broadcastable and bounded-risk actionable public
-    fact.
+    Couple HC-DU-034B and HC-DU-036B on one physical coherent-history instrument. Freeze the
+    actual history operations, signed all-port statistic, instrument-level classical null,
+    resource ledger and admissible record-refinement class; then determine whether the measured
+    distinction factors through an independently formed record, exposes an incomplete interface,
+    or survives every admissible refinement as a class-relative physical remainder. Only after
+    that formed distinction exists should HC-DU-035B price its conversion into public finality.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -665,11 +674,71 @@ layered_threshold_objectivity_swing:
     QSS/QEC, quantum Byzantine, metastability and objectivity components are known. The static
     quantum/BFT access correspondence also collides. No claim is banked or seeded.
   next_move: >-
-    Execute HC-DU-035B Formation-to-Finality Cost only if the build begins from a physically
-    selected record instrument and targets a coupled lower bound or necessary-and-sufficient
-    condition on disturbance, support, memory, redundancy, authentication, latency, entropy or
-    coherent optionality required for a fork-safe, independently accessible, broadcastable and
-    bounded-risk actionable public fact.
+    Use the HC-DU-034B/036B physical history assay to produce and classify one formed
+    action-relevant distinction first. Execute HC-DU-035B Formation-to-Finality Cost only after
+    that result supplies the record instrument, admissible refinements and concrete private or
+    synergy-only distinction whose conversion into public finality can be priced.
+repository_wide_council_advancement_wave:
+  status: completed_scoped_result
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: give each Science Council persona one sub-agent, let each inspect the
+    repository and new framing as a whole, advance its independently chosen best attempt, derive
+    successor results, and synthesize the wave in plain English.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-181047-science-council-repository-wide-advancement/run-plan.md
+  synthesis_ref: >-
+    explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md
+  persona_refs:
+  - explorations/science-council-orthodox-repository-wide-advancement-wave-2026-07-24.md
+  - explorations/science-council-heterodox-repository-wide-advancement-wave-2026-07-24.md
+  - explorations/science-council-commercial-repository-wide-advancement-wave-2026-07-24.md
+  - explorations/science-council-wild-frontier-repository-wide-advancement-wave-2026-07-24.md
+  - explorations/science-council-philosopher-repository-wide-advancement-wave-2026-07-24.md
+  probe_refs:
+  - tests/du_council_orthodox_factorization_witness_probe.py
+  - tests/du_council_heterodox_delayed_remainder_probe.py
+  - tests/du_council_wild_frontier_interventional_closure_probe.py
+  artifact_refs:
+  - tests/artifacts/du_council_orthodox_factorization_witness_result.json
+  - tests/artifacts/du_council_heterodox_delayed_remainder_result.json
+  - tests/artifacts/du_council_wild_frontier_interventional_closure_result.json
+  artifact_sha256:
+    orthodox: 3cba2c8aa8ada903f7ab46877f00d4d37f7098231d2e52f87718321d2ee068dc
+    heterodox: b8d4cc594499290bd053b6f95087c039de67d674166e162be7279ecd87e533a4
+    wild_frontier: 1ff433740c8fa4a08fbc2a353b00ad7080768f5836275d0d08033b6a9eac735e
+  exact_result: >-
+    For a frozen finite controlled process, intervention-stable refinement computes the minimal
+    behavioral quotient. A supplied record is sufficient exactly when its kernel is already that
+    quotient; otherwise a separating intervention exists with tight deterministic depth at most
+    n-b0, or at most reachable distinction rank minus one in a finite linear realization. No
+    witness horizon independent of process complexity exists. The three deterministic probes pass
+    67/67 checks with byte-identical artifacts.
+  ontology_correction: >-
+    A separator proves candidate-record insufficiency, not an irreducible non-record ontology.
+    Physical remainder requires a nonempty, independently selected, physically realizable and
+    resource-bounded refinement class for which no member is sufficient. A uniform witness against
+    an infinite refinement class additionally needs compactness, a finite basis, minimax structure
+    or another explicit closure theorem.
+  assay_result: >-
+    In the frozen two-history coherent specialization, the signed all-port statistic Y=sx isolates
+    the cross-history term and has expectation zero for every arbitrary-weight incoherent mixture
+    of the same histories. In the symmetric two-port control it uses every preparation and halves
+    expected preparations relative to one-port postselection. This is an exact protocol
+    specialization and shot-planning advance, not yet a physical law or instrument-level
+    nonclassicality certificate.
+  novelty_disposition: >-
+    Moore/Nerode distinguishability, behavioral quotients, weighted-automata equivalence,
+    process-tensor/quantum-comb terrain and coherent-history separation are known. The useful
+    advance is the coupled program contract, exact control suite and ontology-license correction.
+    No claim is banked or seeded.
+  next_move: >-
+    Execute one coupled HC-DU-034B/036B assay on an explicitly specified coherent proper-time
+    proposal or the existing Clock-QCA fixture: freeze the operations, classical replacement set,
+    signed all-port observable, intervention/tester basis, resource ledger and admissible
+    refinements; compute the minimal behavioral complexity and cheapest witness; then carry the
+    unchanged typed contract to an authenticated distributed-history fixture. Route HC-DU-035B
+    after a concrete formed distinction exists.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1059,26 +1128,31 @@ lanes:
     theorem, converse, no-go or discriminator rather than an ontology by vocabulary.
   purpose_type: north_star
   lead_bet: >-
-    The decisive target is HC-DU-036, an Interventional Record-Sufficiency Dichotomy: within a
-    declared class, a physical process either factors through an independently fixed
-    certified-history quotient or a bounded-complexity intervention separates candidate
-    realizations. HC-DU-033A now supplies the exact finite classical quotient baseline, while
-    physical record formation and interface/structured-channel selection remain the first
-    dependency. HC-DU-035A now supplies the exact static layered-threshold controls and rejects
-    one universal objectivity threshold. HC-DU-035B must either derive a physically coupled
-    formation-to-finality resource law or stop the static threshold route.
+    HC-DU-036A now closes the finite deterministic
+    factorization-or-candidate-record-witness baseline and finite-linear extension, including a
+    tight complexity-relative horizon and a proof that no size-free horizon exists. The decisive
+    target is now the coupled HC-DU-034B/036B physical assay: test whether an independently formed
+    certified-history quotient carries a coherent multi-history response, can be repaired by an
+    admissible physical refinement, or leaves a class-relative remainder. HC-DU-035B follows only
+    after that assay supplies a formed distinction whose conversion into public finality can be
+    priced.
   anchor:
-    name: Certified Causal Sufficiency — factorization or finite physical-remainder witness
+    name: Certified Causal Sufficiency — factorization, candidate witness and refinement challenge
     elevated: '2026-07-24 (Joe direct chat; nineteen-lens triple-diamond convergence)'
     honest_standing: >-
-      OPEN. Exact finite recorders, pointers and archives exist and expose covariance
+      PARTIAL. Exact finite recorders, pointers and archives expose covariance
       nonselection, necessary backreaction, complementarity, evidence conservation, resource
       costs, aliasing and graded boundary relocation. HC-DU-033A additionally fixes the finite
       classical selection/access quotient and hardening-order control. HC-DU-035A fixes the
       locked-quorum, honest-lock margin, statistical-hardening, correlation, metastability and
-      quantum access controls while rejecting a universal scalar threshold. No record-forming
-      law, physical interface, observer, broadcastable public finality, formation-to-finality
-      resource law, geometry, physical ontology or low-energy theory has been selected.
+      quantum access controls while rejecting a universal scalar threshold. HC-DU-034A fixes an
+      ideal signed all-port coherent-history assay, and HC-DU-036A fixes the finite behavioral
+      closure, tight deterministic witness and finite-linear rank controls. A witness diagnoses a
+      failed candidate interface; it is not a physical remainder until every member of a frozen
+      admissible refinement class fails. No record-forming law, physical interface, observer,
+      instrument-level history certificate, broadcastable public finality,
+      formation-to-finality resource law, geometry, physical ontology or low-energy theory has
+      been selected.
     success: >-
       A nontrivial necessary-and-sufficient theorem, tight bound, converse/no-go or finite
       separating witness in a declared model class, followed by the same typed statement on
@@ -1086,9 +1160,10 @@ lanes:
   dependency_guard: >-
     Do not reconstruct time, geometry, classicality, capability, QFT, GR, GU or cosmology from a
     record object until the primitive, interface, access, intervention, adversary, resource and
-    certification contracts are independently fixed. A negative selection theorem may move
-    directly to a physics-first remainder; this is a scientific dependency, not a verification
-    pipeline.
+    certification contracts are independently fixed. Failure of one candidate record moves first
+    to an admissible-refinement challenge; only failure of a nonempty independently fixed physical
+    refinement class licenses a class-relative physics-first remainder. This is a scientific
+    dependency, not a verification pipeline.
   channels:
   - id: '1.1'
     title: Primitive process, typed objects and record selection
@@ -1112,20 +1187,26 @@ lanes:
   - id: '1.3'
     title: Multi-time certification and public finality
     scope: >-
-      Execute HC-DU-034 and HC-DU-035B. HC-DU-035A is complete: reconstruction, finality,
-      action-relevant capability, public irreversible capability, dissemination and objectivity
-      are differently typed; locked-quorum, honest-lock, hardening, correlation, metastability,
-      GHZ-access and Bell direct-channel controls are exact. The single-threshold hypothesis and
-      static quantum/BFT novelty route are closed. Next begin from physically formed records and
-      derive or refute a coupled cost for a stable approximately commutative or broadcastable
-      public actionable algebra. Redundancy, dissemination, confidence, common deterministic
-      readability and decoherence are not finality by themselves.
+      HC-DU-034A is complete at exact ideal-assay grade: signed all-port pooling isolates the
+      declared two-history coherence term, vanishes for arbitrary-weight incoherent mixtures of
+      the same frozen histories, and removes symmetric one-port postselection waste. Execute
+      HC-DU-034B jointly with HC-DU-036B by freezing a real instrument-level classical replacement
+      set, operations, errors, tester basis and resource ledger. HC-DU-035A separately closes the
+      static layered-threshold controls and rejects one scalar objectivity threshold. Execute
+      HC-DU-035B only after the coupled assay provides a physically formed distinction whose
+      conversion into stable approximately commutative or broadcastable public capability can be
+      priced. Redundancy, dissemination, confidence, common deterministic readability and
+      decoherence are not finality by themselves.
   - id: '1.4'
     title: Interventional sufficiency and ontology discriminator
     scope: >-
-      Execute HC-DU-036. Prove factorization through the certified-history quotient, construct a
-      bounded separating intervention, or return a typed comparison-contract failure. Never
-      define record equivalence by agreement under every target physical experiment.
+      HC-DU-036A is complete at exact finite-control grade: behavioral closure decides
+      factorization, a failed candidate has a tight complexity-relative separating witness, a
+      finite linear realization has a reachable-rank bound, and no size-free horizon exists.
+      Execute HC-DU-036B on the HC-DU-034B physical assay. Freeze a nonempty target-independent
+      admissible refinement class and distinguish interface incompleteness from class-relative
+      physical remainder. Never define a selected record by agreement under every target physical
+      experiment or call a target-derived behavioral quotient a formed physical record.
   - id: '1.5'
     title: Meta-record time and geometry
     scope: >-
@@ -1364,9 +1445,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 20.
+    routing is the root lanes key at manifest revision 21.
 provenance:
-  revision: 20
+  revision: 21
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1410,7 +1491,11 @@ provenance:
     remains open; rev20 (Joe direct chat, 2026-07-24) executes HC-DU-035A through ten threshold,
     stochastic, cryptographic, distributed and quantum lenses, rejects one universal objectivity
     threshold, closes the static controls at known-mathematics grade, corrects GHZ to access-only,
-    and routes the next build to a physical formation-to-finality resource law
+    and routes the next build to a physical formation-to-finality resource law; rev21 (Joe direct
+    chat, 2026-07-24) runs five independent repository-wide Science Council swings, establishes
+    the exact finite factorization-or-candidate-witness and coherent-history assay baselines,
+    corrects candidate-record failure to an admissible-refinement challenge, and routes the next
+    build to a coupled physical HC-DU-034B/036B assay before formation-to-finality pricing
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1587,3 +1672,17 @@ provenance:
     is banked or seeded. HC-DU-035B now targets a physically formed, resource-coupled
     formation-to-finality theorem; public classicality and physical interface selection remain
     open.
+  rev21_note: >-
+    2026-07-24 (Joe direct chat: one sub-agent per Science Council persona, each free to inspect
+    and choose from the repository as a whole): four personas selected HC-DU-036 and one selected
+    HC-DU-034. Three exact deterministic probes pass 67/67 checks. HC-DU-036A establishes the
+    finite behavioral closure, tight n-b0 candidate-record witness, reachable-linear-rank bound
+    and absence of a size-free witness horizon. The philosophy correction prevents ontology
+    leakage: candidate-record failure is interface insufficiency until a nonempty,
+    target-independent, physically realizable and resource-bounded refinement class also fails.
+    HC-DU-034A establishes an exact signed all-port coherent-history statistic with a zero mean
+    for arbitrary-weight incoherent mixtures of the same frozen histories and a factor-of-two
+    preparation saving in its symmetric control. The component mathematics and history
+    separation are known or specialized; no claim is banked or seeded. The next build couples a
+    physical HC-DU-034B assay to the HC-DU-036B refinement challenge, then routes any formed
+    distinction to HC-DU-035B for finality-cost analysis.

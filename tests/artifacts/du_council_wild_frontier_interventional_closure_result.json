@@ -1,0 +1,760 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "failures": 0,
+        "machines": 67332,
+        "same_record_pairs": 199232,
+        "separated_pairs": 149584
+      },
+      "name": "exhaustive_one_action_closure_matches_word_search",
+      "passed": true
+    },
+    {
+      "detail": {
+        "failures": 0
+      },
+      "name": "exhaustive_one_action_witness_bound",
+      "passed": true
+    },
+    {
+      "detail": {
+        "failures": 0,
+        "machines": 5898,
+        "pairs": 17560
+      },
+      "name": "exhaustive_two_action_closure_matches_word_search",
+      "passed": true
+    },
+    {
+      "detail": {
+        "three_state_fixture": {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 1,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 2,
+          "readout": [
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0
+          ],
+          "shortest_witness_length": 1,
+          "size": 3,
+          "stable_class_count": 3,
+          "strict_refinement_depth": 1,
+          "transition": [
+            1,
+            2,
+            2
+          ]
+        },
+        "two_state_delayed_witness_exists": false
+      },
+      "name": "three_states_are_minimal_for_delayed_unary_witness",
+      "passed": true
+    },
+    {
+      "detail": [
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 1,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 2,
+          "readout": [
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0
+          ],
+          "shortest_witness_length": 1,
+          "size": 3,
+          "stable_class_count": 3,
+          "strict_refinement_depth": 1,
+          "transition": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 2,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 3,
+          "readout": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0
+          ],
+          "shortest_witness_length": 2,
+          "size": 4,
+          "stable_class_count": 4,
+          "strict_refinement_depth": 2,
+          "transition": [
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 3,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 4,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 3,
+          "size": 5,
+          "stable_class_count": 5,
+          "strict_refinement_depth": 3,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 4,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 5,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 4,
+          "size": 6,
+          "stable_class_count": 6,
+          "strict_refinement_depth": 4,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 5,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 6,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 5,
+          "size": 7,
+          "stable_class_count": 7,
+          "strict_refinement_depth": 5,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 6,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 7,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 6,
+          "size": 8,
+          "stable_class_count": 8,
+          "strict_refinement_depth": 6,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            7
+          ]
+        }
+      ],
+      "name": "partition_refinement_bound_is_tight",
+      "passed": true
+    },
+    {
+      "detail": [
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 1,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 2,
+          "readout": [
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0
+          ],
+          "shortest_witness_length": 1,
+          "size": 3,
+          "stable_class_count": 3,
+          "strict_refinement_depth": 1,
+          "transition": [
+            1,
+            2,
+            2
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 2,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 3,
+          "readout": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0
+          ],
+          "shortest_witness_length": 2,
+          "size": 4,
+          "stable_class_count": 4,
+          "strict_refinement_depth": 2,
+          "transition": [
+            1,
+            2,
+            3,
+            3
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 3,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 4,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 3,
+          "size": 5,
+          "stable_class_count": 5,
+          "strict_refinement_depth": 3,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            4
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 4,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 5,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 4,
+          "size": 6,
+          "stable_class_count": 6,
+          "strict_refinement_depth": 4,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            5
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 5,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 6,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 5,
+          "size": 7,
+          "stable_class_count": 7,
+          "strict_refinement_depth": 5,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            6
+          ]
+        },
+        {
+          "initial_class_count": 2,
+          "linear_shortest_witness_length": 6,
+          "linear_witness_value": "-1",
+          "reachable_difference_rank": 7,
+          "readout": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "shortest_witness": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "shortest_witness_length": 6,
+          "size": 8,
+          "stable_class_count": 8,
+          "strict_refinement_depth": 6,
+          "transition": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            7
+          ]
+        }
+      ],
+      "name": "reachable_rank_bound_is_tight",
+      "passed": true
+    },
+    {
+      "detail": {
+        "record_partition": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "refinement_depth": 0,
+        "stable_partition": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "name": "factorizing_record_control",
+      "passed": true
+    },
+    {
+      "detail": {
+        "base_raw_states": 5,
+        "base_sufficient_classes": 5,
+        "duplicate_raw_states": 10,
+        "duplicate_sufficient_classes": 5
+      },
+      "name": "behavioral_clone_invariance",
+      "passed": true
+    },
+    {
+      "detail": {
+        "hypotheses": [
+          "initial_state_0",
+          "initial_state_1"
+        ],
+        "intervention_word": [
+          0
+        ],
+        "interventional_error": "0",
+        "prior": [
+          "1/2",
+          "1/2"
+        ],
+        "readout_after_word": [
+          0,
+          1
+        ],
+        "record_and_current_readout": [
+          0,
+          0
+        ],
+        "record_only_error": "1/2"
+      },
+      "name": "delayed_witness_enlarges_declared_action_capability",
+      "passed": true
+    }
+  ],
+  "clone_control": {
+    "base_states": 5,
+    "duplicated_states": 10,
+    "sufficient_classes_after": 5,
+    "sufficient_classes_before": 5
+  },
+  "factorizing_control": {
+    "readout": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "record": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "stable_partition": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "transitions": [
+      [
+        1,
+        0,
+        3,
+        2
+      ],
+      [
+        2,
+        3,
+        0,
+        1
+      ]
+    ]
+  },
+  "finite_enumeration": {
+    "one_action_machines": 67332,
+    "one_action_same_record_pairs": 199232,
+    "one_action_separated_pairs": 149584,
+    "two_action_machines": 5898,
+    "two_action_pairs": 17560
+  },
+  "metadata": {
+    "claim_grade": "exact finite specialization; physical completeness and novelty open",
+    "probe": "du_council_wild_frontier_interventional_closure_probe.py",
+    "scope": "finite deterministic record closure plus exact linear reachable-rank control"
+  },
+  "minimal_delayed_witness": {
+    "initial_class_count": 2,
+    "linear_shortest_witness_length": 1,
+    "linear_witness_value": "-1",
+    "reachable_difference_rank": 2,
+    "readout": [
+      0,
+      0,
+      1
+    ],
+    "shortest_witness": [
+      0
+    ],
+    "shortest_witness_length": 1,
+    "size": 3,
+    "stable_class_count": 3,
+    "strict_refinement_depth": 1,
+    "transition": [
+      1,
+      2,
+      2
+    ]
+  },
+  "result": {
+    "all_passed": true,
+    "checks_passed": 9,
+    "checks_total": 9,
+    "exact_conclusion": "A supplied finite record quotient is interventionally sufficient iff it equals its stable readout-and-intervention congruence. Otherwise a finite word separates a same-record pair. In a d-dimensional linear realization, any separable pair has a word of length at most reachable distinction rank minus one."
+  },
+  "tight_family": [
+    {
+      "initial_class_count": 2,
+      "linear_shortest_witness_length": 1,
+      "linear_witness_value": "-1",
+      "reachable_difference_rank": 2,
+      "readout": [
+        0,
+        0,
+        1
+      ],
+      "shortest_witness": [
+        0
+      ],
+      "shortest_witness_length": 1,
+      "size": 3,
+      "stable_class_count": 3,
+      "strict_refinement_depth": 1,
+      "transition": [
+        1,
+        2,
+        2
+      ]
+    },
+    {
+      "initial_class_count": 2,
+      "linear_shortest_witness_length": 2,
+      "linear_witness_value": "-1",
+      "reachable_difference_rank": 3,
+      "readout": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "shortest_witness": [
+        0,
+        0
+      ],
+      "shortest_witness_length": 2,
+      "size": 4,
+      "stable_class_count": 4,
+      "strict_refinement_depth": 2,
+      "transition": [
+        1,
+        2,
+        3,
+        3
+      ]
+    },
+    {
+      "initial_class_count": 2,
+      "linear_shortest_witness_length": 3,
+      "linear_witness_value": "-1",
+      "reachable_difference_rank": 4,
+      "readout": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "shortest_witness": [
+        0,
+        0,
+        0
+      ],
+      "shortest_witness_length": 3,
+      "size": 5,
+      "stable_class_count": 5,
+      "strict_refinement_depth": 3,
+      "transition": [
+        1,
+        2,
+        3,
+        4,
+        4
+      ]
+    },
+    {
+      "initial_class_count": 2,
+      "linear_shortest_witness_length": 4,
+      "linear_witness_value": "-1",
+      "reachable_difference_rank": 5,
+      "readout": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "shortest_witness": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "shortest_witness_length": 4,
+      "size": 6,
+      "stable_class_count": 6,
+      "strict_refinement_depth": 4,
+      "transition": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        5
+      ]
+    },
+    {
+      "initial_class_count": 2,
+      "linear_shortest_witness_length": 5,
+      "linear_witness_value": "-1",
+      "reachable_difference_rank": 6,
+      "readout": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "shortest_witness": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shortest_witness_length": 5,
+      "size": 7,
+      "stable_class_count": 7,
+      "strict_refinement_depth": 5,
+      "transition": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        6
+      ]
+    },
+    {
+      "initial_class_count": 2,
+      "linear_shortest_witness_length": 6,
+      "linear_witness_value": "-1",
+      "reachable_difference_rank": 7,
+      "readout": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "shortest_witness": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "shortest_witness_length": 6,
+      "size": 8,
+      "stable_class_count": 8,
+      "strict_refinement_depth": 6,
+      "transition": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        7
+      ]
+    }
+  ]
+}

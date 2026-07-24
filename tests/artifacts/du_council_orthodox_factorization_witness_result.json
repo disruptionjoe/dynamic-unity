@@ -1,0 +1,66 @@
+{
+  "candidate_id": "HC-DU-036A",
+  "checks": [
+    {
+      "id": "single_action_exhaustive_pair_equivalence",
+      "machines": 4328,
+      "pass": true,
+      "state_pairs": 25240
+    },
+    {
+      "id": "two_action_exhaustive_pair_equivalence",
+      "machines": 5896,
+      "pass": true,
+      "state_pairs": 17560
+    },
+    {
+      "id": "shortest_witness_bound_n_minus_2",
+      "pass": true,
+      "state_pairs": 42800
+    },
+    {
+      "candidate_congruences": 62552,
+      "id": "behavioral_partition_is_greatest_stable_refinement",
+      "pass": true
+    },
+    {
+      "id": "record_markov_upgrade_iff_local_congruence",
+      "pass": true,
+      "record_contracts": 62552
+    },
+    {
+      "id": "tight_chain_attains_n_minus_2",
+      "pass": true,
+      "shortest_lengths_by_state_count": {
+        "2": 0,
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 4,
+        "7": 5,
+        "8": 6,
+        "9": 7
+      }
+    },
+    {
+      "declared_horizon_to_first_difference": {
+        "0": 1,
+        "1": 2,
+        "2": 3,
+        "3": 4,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 9
+      },
+      "id": "no_size_free_finite_horizon",
+      "pass": true
+    }
+  ],
+  "checks_passed": 7,
+  "checks_total": 7,
+  "claim_grade": "exact finite deterministic specialization / known automata mathematics / physical and stochastic lift open",
+  "schema": "dynamic-unity/council-orthodox-factorization-witness/v1",
+  "verdict": "FINITE DETERMINISTIC TRACE FACTORIZATION OR TIGHT BOUNDED INTERVENTION WITNESS; NO SIZE-FREE CERTIFICATION HORIZON"
+}

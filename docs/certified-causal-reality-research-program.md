@@ -81,13 +81,33 @@ The recharter preserves, rather than promotes, the strongest exact results:
   common shocks defeat count-only concentration; and GHZ phase supplies
   three-of-three classical-label access without redundancy, fault tolerance,
   or public finality.
+- In a frozen finite deterministic controlled process, the greatest
+  intervention-stable refinement of a supplied record/readout relation is
+  exact. A supplied record either carries every admitted future response or a
+  separating intervention exists within a tight state-complexity bound. No
+  size-free finite certification horizon exists, and a finite linear
+  realization has a reachable-rank-minus-one witness bound.
+- A separating intervention proves candidate-record insufficiency, not by
+  itself an irreducible physical remainder: the target-defined behavioral
+  refinement always absorbs the witness abstractly. An ontology-relevant
+  remainder requires a nonempty, target-independent, physically admissible
+  and resource-bounded refinement class in which no sufficient record forms.
+- For two frozen coherent histories, the signed all-port statistic
+  \(Y=sx\) isolates the declared cross-history coherence and vanishes for
+  every arbitrary-weight incoherent mixture of those same histories. The
+  identity supplies an exact assay control and a symmetric two-port
+  preparation advantage; physical proper-time implementation and a robust
+  instrument null remain open.
 
 These results complete the finite classical quotient bookkeeping and the
-first static layered-threshold controls. They keep **record formation and
-physical interface selection** as the first scientific dependency and a
-formation-to-finality resource law as the next `HC-DU-035` target. They do not
-establish an observer, proper time, public classicality, continuum covariance,
-gravity, cosmology, or record-first ontology.
+first static layered-threshold and deterministic interventional-closure
+controls. They keep **record formation and physical interface selection** as
+the first scientific dependency. The immediate physical swing is a coupled
+`HC-DU-034B/036B` history-and-refinement assay; it should supply the formed
+record and omitted distinction whose formation-to-finality cost
+`HC-DU-035B` can then price. These controls do not establish an observer,
+proper time, public classicality, continuum covariance, gravity, cosmology,
+or record-first ontology.
 
 ## Central conjecture and decisive discriminator
 
@@ -267,12 +287,19 @@ direct **SPECIALIZATION**. Even the static quantum/BFT access correspondence
 is occupied terrain. The formation-to-finality physical resource conjunction
 remains **SEARCH-INCOMPLETE** and is not a novelty claim.
 
-The rest of `HC-DU-033`, `HC-DU-034`, `HC-DU-035B`, and
-`HC-DU-036..040` retain only an initial collision-class inventory.
-Process tensors/combs, resource robustness, system identification, and
-causal-set reconstruction remain mandatory neighboring classes. No proposed
-law or theorem receives novelty language until Lane 4.1 completes its
-claim-specific comparison.
+The `HC-DU-036A` finite closure, Moore/Nerode witness bounds, delayed-response
+family, quotient-congruence criterion, and finite linear-rank extension are
+**KNOWN** or direct **SPECIALIZATIONS** of automata, realization, and linear
+equivalence terrain. `HC-DU-034A` is an exact specialization of coherent
+history recombination: its ideal signed-port null and estimator are useful
+assay engineering, not a new physical law.
+
+The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`,
+`HC-DU-036B`, and `HC-DU-037..040` retain only an initial collision-class
+inventory. Process tensors/combs, resource robustness, system
+identification, and causal-set reconstruction remain mandatory neighboring
+classes. No proposed law or theorem receives novelty language until Lane 4.1
+completes its claim-specific comparison.
 
 ## Primary theorem and conjecture spine
 
@@ -324,6 +351,26 @@ models, classical random-history mixtures, coherent histories, and
 process-level causal provenance. “Multi-time” denotes a labeled temporal
 antecedent in physical benchmark systems; the substrate-neutral statement uses
 multi-event intervention slots and primitive operational precedence.
+
+**Executed scoped sub-result — `HC-DU-034A`.** For a frozen two-history
+coherent process, measuring the history label in its recombination basis and
+signing a binary target result by the retained port gives
+
+\[
+\mathbb E[sx]
+=
+\operatorname{Re}\!\left[
+v\,\operatorname{Tr}(W V_0\rho V_1^\dagger)
+\right].
+\]
+
+Every arbitrary-weight incoherent mixture of those same frozen histories has
+zero expectation. In the symmetric two-port fixture, retaining and signing
+both ports uses every preparation and halves the expected preparation count
+relative to one-port postselection. This is an exact assay specialization,
+not proper-time certification. The actual trapped-ion operations, accessible
+observable, SPAM/drift/leakage null cone, calibrated margin, provenance, and
+resource budget remain open.
 
 ### `HC-DU-035` — Quorum Objectivity and Public-Finality Classicality
 
@@ -384,6 +431,44 @@ Possible mathematical realizations include faithful functors, sufficient
 statistics, degradability, bisimulation, and controllable/observable minimal
 realizations. The theorem must not build sufficiency into its equivalence
 relation.
+
+**Executed scoped sub-result — `HC-DU-036A`.** For a finite deterministic
+controlled process with independently supplied record \(R\), target readout
+\(Y\), and intervention maps \(T_a\), define
+
+\[
+E_0=\ker R\cap\ker Y,\qquad
+E_{k+1}=E_k\cap\bigcap_aT_a^{-1}(E_k).
+\]
+
+The stable relation \(E_*\) is the greatest intervention congruence inside
+\(E_0\). The supplied record is sufficient exactly when
+\(E_*=\ker R\); otherwise a separating word exists with tight length at most
+\(n-b_0\), where \(b_0\) is the number of \(E_0\) classes. No
+size-independent finite horizon certifies an unbounded rival class. In a
+finite linear realization, any detectable difference has a witness of length
+at most reachable distinction rank minus one.
+
+These are known automata/linear-equivalence specializations. More
+importantly, a witness establishes only that the **candidate record** is
+insufficient. The target-defined behavioral refinement always absorbs it
+abstractly, so an irreducible physical-remainder verdict additionally
+requires a frozen nonempty class of independently formed, equivariant,
+accessible and resource-bounded record refinements in which no sufficient
+member exists. A single uniform witness against an infinite refinement class
+requires additional finite-basis, compactness, minimax or closure assumptions.
+
+**Open successor — `HC-DU-036B`.** Use the same typed record kernel,
+intervention word, response-difference series, behavioral rank, operational
+gap, refinement class and capability consequence on:
+
+1. a physical coherent-history or Clock-QCA archive fixture; and
+2. an adversarial DAG/database history.
+
+Return factorization, interface incompleteness, a formation-relative physical
+remainder, or an incomplete comparison contract. Stop if the two platforms
+require semantic refitting or the result is only ordinary automata
+equivalence in two vocabularies.
 
 ### `HC-DU-037` — Finality–Capability–Optionality Correspondence
 
@@ -471,10 +556,13 @@ Only after the preceding dependencies:
 1b. HC-DU-033 physical formation, interface and structured-channel selection [OPEN]
         |
 2. HC-DU-034 multi-time certification
+   HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
    HC-DU-035A layered threshold controls [COMPLETED]
    HC-DU-035B formation-to-finality resource law [OPEN]
         |
-3. HC-DU-036 factorization-or-finite-witness dichotomy
+3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
+        |
+3b. HC-DU-036B physical admissible-refinement and cross-platform lift [OPEN]
         |
 4. HC-DU-037 capability, optionality, and resource results
    HC-DU-032 observer-individuation overlay
@@ -651,9 +739,33 @@ because it is covariant.
 
 ### Phase 3 — `HC-DU-034/036` history and sufficiency
 
-Build one equal-endpoint multi-time fixture and search mechanically for the
-minimal separating intervention. State witness complexity and the exact
-factorization assumptions.
+**Completed finite and analytic controls:**
+
+1. derived the greatest finite deterministic intervention-stable refinement
+   and tight witness bound;
+2. constructed the delayed equal-endpoint counterfamily and no-size-free
+   certification result;
+3. extended the bounded-witness statement to finite linear reachable rank;
+4. proved that a target-defined behavioral refinement always absorbs a
+   candidate-record witness abstractly;
+5. added the admissible physical-refinement challenge required before
+   ontology language; and
+6. derived the signed all-port coherent-history statistic, its exact
+   arbitrary-weight incoherent null, and the symmetric two-port preparation
+   control.
+
+**Remaining physical build:**
+
+1. substitute explicitly specified proposal-level coherent proper-time
+   operations or the existing Clock-QCA history operations;
+2. freeze an experimentally accessible tester basis and robust instrument
+   null;
+3. define a nonempty target-independent physical record-refinement class;
+4. compute the shortest or least-cost witness, operational gap, minimal
+   behavioral rank, and refinement cost;
+5. transfer the same definitions to an adversarial DAG/database fixture; and
+6. return factorization, interface incompleteness, a class-relative physical
+   remainder, or incomplete adjudication.
 
 ### Phase 4 — transfer before manifesto
 
@@ -712,12 +824,16 @@ NO ONTOLOGY SELECTED
 EXACT FINITE RECORD/ARCHIVE RESULTS RETAINED
 HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT
 HC-DU-035A LAYERED THRESHOLD SEPARATION AND CONTROLS EXACT
+HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
+HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
+NO SIZE-FREE FINITE SUFFICIENCY HORIZON
+SEPARATING WITNESS MEANS CANDIDATE-RECORD INSUFFICIENCY, NOT AUTOMATIC ONTOLOGY
 PHYSICAL RECORD FORMATION AND INTERFACE SELECTION OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
-INTERVENTIONAL SUFFICIENCY OPEN
+PHYSICAL / NOISY / QUANTUM / ADVERSARIAL INTERVENTIONAL SUFFICIENCY OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN
-HC-DU-033A/035A COMPONENT MATHEMATICS KNOWN
+HC-DU-033A/035A/036A COMPONENT MATHEMATICS KNOWN
 STATIC QUANTUM/BFT CONJUNCTION COLLIDES
 PHYSICAL RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
 ```
