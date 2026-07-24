@@ -337,3 +337,35 @@ supplied constraints. It does not form a record, select the physical
 symmetry/interface/cadence/observer, establish a structured process quotient,
 make marginal-kernel pooling valid for destructive or quantum channels, prove
 common knowledge or Byzantine finality, or derive quantum classicality.
+
+## HC-DU-035A layered threshold objectivity
+
+`du_layered_threshold_objectivity_probe.py` executes the finite
+reconstruction/finality/capability separation and ten-lens threshold controls.
+
+Using only the Python standard library and exact `Fraction` arithmetic, it
+checks:
+
+- all `240` `(N,f,q)` parameter cases through `N=8` and every quorum pair
+  against the exact locked-quorum condition `2q>N+f`;
+- the converse split view, safety versus withholding availability, and the
+  stochastic honest-lock surplus `h=max(0,2q-N-f)`;
+- all 16 binary local hardenings of a two-fragment reliability fixture, whose
+  exact raw and sign-hardened Bayes errors are `7/40` and `1/4`;
+- IID majority concentration versus an equal-marginal common-shock error
+  floor;
+- separate reconstruction and action-risk crossings, four named layer
+  countermodels, and every truth vector for full reconstruction, finality,
+  and action-relevant capability;
+- exact metastable rollback, topology, replay/Sybil provenance, and
+  inconsistent threshold-secret-sharing controls;
+- every GHZ proper-subset reduction plus local-`X` parity recovery; and
+- every Bell single-qubit marginal and joint Bell-projector outcome.
+
+The artifact reports `23/23` named checks. Passing establishes the exact
+finite controls and rejects a universal scalar objectivity threshold. It does
+not form or physically select a record, prove public broadcastable
+classicality, supply view-change liveness or common knowledge, prove an LOCC
+no-go, establish a thermodynamic phase transition, or derive a novel
+quantum/BFT law. The component mathematics is known; the
+formation-to-finality physical resource law remains open.

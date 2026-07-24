@@ -74,12 +74,20 @@ The recharter preserves, rather than promotes, the strongest exact results:
   equivalence join. This classifies the consequences of supplied constraints;
   it does not form a record or select the physical interface, cadence,
   observer, coalition channel, or finality rule.
+- Under a frozen finite adversarial contract, locked equal-size quorums
+  exclude incompatible certificates exactly when \(2q>N+f\). Reconstruction,
+  finality, action capability, dissemination, and public objectivity remain
+  distinct. Local hardening can strictly lose action-relevant reliability;
+  common shocks defeat count-only concentration; and GHZ phase supplies
+  three-of-three classical-label access without redundancy, fault tolerance,
+  or public finality.
 
-These results complete the finite classical quotient bookkeeping and keep
-**record formation and physical interface selection** as the first scientific
-dependency. They do not establish an observer, proper time, public
-classicality, continuum covariance, gravity, cosmology, or record-first
-ontology.
+These results complete the finite classical quotient bookkeeping and the
+first static layered-threshold controls. They keep **record formation and
+physical interface selection** as the first scientific dependency and a
+formation-to-finality resource law as the next `HC-DU-035` target. They do not
+establish an observer, proper time, public classicality, continuum covariance,
+gravity, cosmology, or record-first ontology.
 
 ## Central conjecture and decisive discriminator
 
@@ -250,13 +258,21 @@ nondistributivity results are **KNOWN** or direct **SPECIALIZATIONS**. The
 possible formation/provenance/adversarial/quantum conjunction remains
 **SEARCH-INCOMPLETE** and is not a novelty claim.
 
-The rest of `HC-DU-033` and every `HC-DU-034..040` target retain only an
-initial collision-class inventory. Process tensors/combs, Blackwell and
-data-processing order, no-broadcasting, spectrum-broadcast objectivity,
-common knowledge and quorum intersection, resource robustness, system
-identification, and causal-set reconstruction remain mandatory neighboring
-classes. No proposed law or theorem receives novelty language until Lane 4.1
-completes its claim-specific comparison.
+`HC-DU-035A` also has a source-pinned collision audit. Quorum intersection,
+probabilistic quorums, Blackwell/data-processing order, decentralized
+detection, concentration, metastability, threshold access, quantum secret
+sharing, QEC, quantum Byzantine agreement, no-broadcasting, and
+spectrum-broadcast objectivity make every current component **KNOWN** or a
+direct **SPECIALIZATION**. Even the static quantum/BFT access correspondence
+is occupied terrain. The formation-to-finality physical resource conjunction
+remains **SEARCH-INCOMPLETE** and is not a novelty claim.
+
+The rest of `HC-DU-033`, `HC-DU-034`, `HC-DU-035B`, and
+`HC-DU-036..040` retain only an initial collision-class inventory.
+Process tensors/combs, resource robustness, system identification, and
+causal-set reconstruction remain mandatory neighboring classes. No proposed
+law or theorem receives novelty language until Lane 4.1 completes its
+claim-specific comparison.
 
 ## Primary theorem and conjecture spine
 
@@ -324,6 +340,36 @@ finality, and action—not the metaphor that particles run consensus.
 This is the first executable flagship after the typed kernel because it is
 finite, counterexample-friendly, physically and computationally realizable,
 and does not assume record-first ontology.
+
+**Executed scoped sub-result — `HC-DU-035A`.** The scalar objectivity-threshold
+hypothesis is rejected. Under frozen finite contracts:
+
+- locked equal-size quorums are safe exactly when \(2q>N+f\), with an exact
+  converse split view;
+- \(h=\max(0,2q-N-f)\) is the honest double-sign margin before incompatible
+  certificates become constructible;
+- deterministic local hardening cannot improve optimal decision risk and is
+  strictly lossy when it erases action-relevant reliability;
+- IID and equal-marginal common-shock evidence have different accumulation
+  laws;
+- reconstruction, finality, action capability, and public irreversible
+  capability are non-equivalent; and
+- GHZ phase is only a three-of-three classical-label access control, while a
+  direct Bell channel supplies a joint-versus-marginal control without
+  establishing public objectivity.
+
+The theorem package is in
+`explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md`.
+Its components and the static quantum/BFT conjunction are known terrain.
+
+**Open successor — `HC-DU-035B`.** Starting from a physically selected record
+instrument, derive or refute a tight formation-to-finality resource bound for
+turning a synergy-only or private distinction into a fork-safe,
+independently accessible, approximately broadcastable, bounded-risk actionable
+fact. The bound must charge disturbance, support, memory, redundancy,
+authentication, latency, entropy, or coherent optionality and must not reduce
+to an unconnected intersection of Blackwell, access-structure, and quorum
+conditions.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -425,7 +471,8 @@ Only after the preceding dependencies:
 1b. HC-DU-033 physical formation, interface and structured-channel selection [OPEN]
         |
 2. HC-DU-034 multi-time certification
-   HC-DU-035 quorum objectivity and public finality
+   HC-DU-035A layered threshold controls [COMPLETED]
+   HC-DU-035B formation-to-finality resource law [OPEN]
         |
 3. HC-DU-036 factorization-or-finite-witness dichotomy
         |
@@ -575,20 +622,32 @@ because it is covariant.
 
 ### Phase 2 — `HC-DU-035` Quorum Objectivity flagship
 
-Use `HC-DU-033A` as the classical deterministic control while the physical
-formation/interface remainder stays explicit:
+**Completed `HC-DU-035A` controls:**
 
-1. define direct coalition channels, fragments, provenance, authentication,
-   authorized access sets, incompatible certificates, faults, locking, and
-   action semantics;
-2. derive the finite quorum/intersection bound and converse split view;
-3. compare local scalar hardening before gossip with
-   provenance-preserving coalition composition before finalization;
-4. build classical, correlated/nonorthogonal-quantum, loss, corruption, and
-   preferred-basis controls;
-5. test when the stable public algebra becomes approximately commutative; and
-6. identify precisely what is standard quorum logic, no-broadcasting, or
-   spectrum broadcast and isolate the new conjunction.
+1. derived the finite locked-quorum bound, honest-lock surplus, and converse
+   split view;
+2. proved the decision-risk hardening inequality and built a strict
+   reliability-erasure fixture;
+3. separated IID accumulation from a common-shock error floor;
+4. separated full reconstruction, finality, action capability, public
+   capability, topology, provenance, and metastable confidence;
+5. corrected GHZ to three-of-three classical-phase access and added the Bell
+   direct-channel control; and
+6. completed the claim-specific collision audit, which removes the static
+   quantum/BFT threshold conjunction from the novelty zone.
+
+**Remaining `HC-DU-035B` physical build:**
+
+1. begin with a dynamically formed and independently selected record
+   instrument rather than a supplied post-cut channel;
+2. compare synergy-only access against a redundant independently accessible
+   public-record positive control;
+3. transfer the same typed incompatibility, finalizer, and action contract to
+   an adversarial distributed fixture;
+4. derive a coupled resource lower bound or necessary-and-sufficient
+   condition; and
+5. stop if the result is only a juxtaposition of known statistical,
+   access-structure, and quorum theorems.
 
 ### Phase 3 — `HC-DU-034/036` history and sufficiency
 
@@ -652,9 +711,13 @@ CENTRAL CONJECTURE OPEN
 NO ONTOLOGY SELECTED
 EXACT FINITE RECORD/ARCHIVE RESULTS RETAINED
 HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT
+HC-DU-035A LAYERED THRESHOLD SEPARATION AND CONTROLS EXACT
+ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
 PHYSICAL RECORD FORMATION AND INTERFACE SELECTION OPEN
-PUBLIC FINALITY OPEN
+PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
 INTERVENTIONAL SUFFICIENCY OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN
-HC-DU-033A MATHEMATICS KNOWN / CROSS-DOMAIN CONJUNCTION SEARCH-INCOMPLETE
+HC-DU-033A/035A COMPONENT MATHEMATICS KNOWN
+STATIC QUANTUM/BFT CONJUNCTION COLLIDES
+PHYSICAL RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
 ```

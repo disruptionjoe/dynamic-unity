@@ -621,11 +621,24 @@ resolution-stable intervention role. No claim is banked or seeded. See
   it. These are exact Set/partition specializations of known mathematics.
   They classify supplied constraints; they do not select a physical record
   interface or establish public finality.
+- **Earned layered-threshold controls.** `HC-DU-035A` rejects one universal
+  objectivity threshold. Locked equal-size quorum safety is exact at
+  `2q>N+f`; the honest-lock failure margin is
+  `h=max(0,2q-N-f)`; deterministic local hardening can strictly lose
+  action-relevant reliability; equal one-fragment accuracy does not control
+  accumulation under common shocks; and reconstruction, finality,
+  action-relevant capability, public irreversible capability, dissemination,
+  and objectivity remain distinct. GHZ phase supplies exact three-of-three
+  access to one classical label but no redundancy, fault tolerance, or public
+  finality. These are known mathematical specializations and exact controls,
+  not a novel cross-platform law.
 - **Immediate tests.**
-  1. `HC-DU-035A`: define direct coalition channels and provenance, derive
-     the classical quorum bound and converse split view, and compare local
-     scalar hardening with provenance-preserving joint hardening on
-     distributed and correlated/nonorthogonal quantum controls.
+  1. `HC-DU-035B`: begin from a physically selected record instrument and
+     derive or refute a formation-to-finality resource bound for converting a
+     synergy-only or private distinction into a fork-safe, independently
+     accessible, approximately broadcastable, bounded-risk actionable fact.
+     Stop if the result only intersects known statistical, secret-sharing,
+     quorum, and quantum-access conditions.
   2. Parent `HC-DU-033`: justify physical record formation, cadence,
      interface, equivariant/noncommutative algebra, and structured-process
      congruence rather than enumerating more bare finite partitions.
@@ -637,10 +650,12 @@ resolution-stable intervention role. No claim is banked or seeded. See
   causal-order prior-art relabeling, and metaphysical or toy-to-universe
   inflation.
 - **Status:** **CENTRAL CONCEPT OPEN / THREE ONTOLOGY OUTCOMES LIVE /
-  HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT / PHYSICAL RECORD
-  FORMATION AND INTERFACE SELECTION, CERTIFICATION, PUBLIC FINALITY,
+  HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT / HC-DU-035A
+  LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
+  REJECTED / PHYSICAL RECORD FORMATION AND INTERFACE SELECTION,
+  BROADCASTABLE PUBLIC FINALITY, RESOURCE-COUPLED CAPABILITY,
   INTERVENTIONAL SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY OPEN.** The
-  exact quotient is a baseline, not a scientific answer to record
+  exact controls are baselines, not a scientific answer to record
   fundamentality. `CONCEPT-DU-002` and `CONCEPT-DU-003` remain major inputs;
   their grades do not change.
 

@@ -1019,6 +1019,53 @@ DIRECT ADVERSARIAL/QUANTUM COALITION CHANNELS AND PUBLIC FINALITY OPEN
 NO CLAIM BANKED OR SEEDED
 ```
 
+## Layered threshold objectivity
+
+`HC-DU-035A` executes the next finite flagship and rejects a single scalar
+objectivity threshold.
+
+Under frozen finite contracts:
+
+- authenticated honest-locking excludes incompatible equal-size certificates
+  exactly when `2q>N+f`;
+- `h=max(0,2q-N-f)` is the exact number of additional honest double-sign
+  failures needed before a worst-case scheduler can construct a conflict;
+- deterministic local hardening cannot improve optimal decision risk, and a
+  two-fragment strong/weak reliability fixture has exact raw versus hardened
+  errors `7/40 < 1/4`;
+- IID evidence with accuracy `p` concentrates, while an equal-marginal
+  common-shock channel retains error floor `rho(1-p)`;
+- reconstruction, finality, action-relevant capability, public irreversible
+  capability, topology, provenance, and metastable confidence are distinct;
+  and
+- GHZ phase is exact three-of-three access to one classical label but has no
+  redundancy, error correction, or public finality. Local `X` measurements
+  plus authenticated parity pooling suffice. A Bell-basis fixture separately
+  verifies direct joint-channel access beyond single marginals.
+
+The `23/23` exact probe checks close the static threshold-control package.
+Prior-art audit grades quorum, Blackwell, decentralized-detection,
+concentration, secret-sharing, QSS/QEC, quantum Byzantine, metastability, and
+objectivity ingredients as known or direct specializations. Even a static
+quantum/BFT access correspondence is occupied terrain.
+
+The next hardening target is `HC-DU-035B`: a physically formed
+formation-to-finality resource bound. It must quantify the added disturbance,
+support, memory, redundancy, authentication, latency, entropy, or coherent
+optionality required to turn a synergy-only or private distinction into a
+fork-safe, independently accessible, bounded-risk actionable public fact.
+Stop if it only juxtaposes known access, inference, and quorum conditions.
+
+Disposition:
+
+```text
+HC-DU-035A LAYERED THRESHOLD CONTROLS EXACT
+ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
+COMPONENT MATHEMATICS AND STATIC CROSS-DOMAIN ACCESS TERRAIN KNOWN
+FORMATION-TO-FINALITY RESOURCE LAW OPEN / SEARCH-INCOMPLETE
+NO CLAIM BANKED OR SEEDED
+```
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was

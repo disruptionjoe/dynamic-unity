@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 19
+manifest_revision: 20
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -26,8 +26,10 @@ active_hardening_program_note: >-
   certification, sufficiency, reconstruction, transfer and recovery spine. HC-DU-001 through
   HC-DU-032 and P01-A through P50-B remain a lossless historical and live antecedent backlog;
   migration routes them but does not replace, regrade or close them. HC-DU-033A now closes the
-  finite classical selection/access quotient only; physical record formation, interface
-  selection, structured channels and public finality remain open.
+  finite classical selection/access quotient only. HC-DU-035A now closes the static layered
+  reconstruction/finality/capability threshold controls and rejects one universal objectivity
+  threshold. Physical record formation, interface selection, broadcastable public finality and
+  the formation-to-finality resource law remain open.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -557,18 +559,21 @@ certified_causal_reality_restructure:
   current_grade: >-
     PROGRAM RECHARTERED / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED / EXACT FINITE
     RECORD-AND-ARCHIVE RESULTS RETAINED / HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT
-    EXACT / PHYSICAL RECORD FORMATION, INTERFACE SELECTION, PUBLIC FINALITY, INTERVENTIONAL
-    SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY OPEN / HC-DU-033A MATHEMATICS KNOWN /
-    CROSS-DOMAIN CONJUNCTION SEARCH-INCOMPLETE
+    EXACT / HC-DU-035A LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
+    REJECTED / PHYSICAL RECORD FORMATION, INTERFACE SELECTION, BROADCASTABLE PUBLIC FINALITY,
+    FORMATION-TO-FINALITY RESOURCE LAW, INTERVENTIONAL SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY
+    OPEN / COMPONENT MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL
+    RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
   first_dependency: >-
     HC-DU-033 remainder: independently select or classify the physical record-forming interface,
     cadence and equivariant/noncommutative structured channel. The finite classical consequence
     of any supplied selection/access relations is already exact in HC-DU-033A.
   first_executable_flagship: >-
-    HC-DU-035A Layered Quorum Objectivity: use HC-DU-033A as the classical deterministic control,
-    derive a finite certificate bound plus converse split-view attack, and compare local-first
-    hardening with provenance-preserving coalition composition across adversarial distributed
-    and correlated/nonorthogonal quantum record fixtures.
+    HC-DU-035A Layered Threshold Objectivity is completed at exact finite-control grade. The
+    successor is HC-DU-035B Formation-to-Finality Cost: derive or refute a coupled resource bound
+    for converting a physically formed synergy-only or private distinction into a fork-safe,
+    independently accessible, approximately broadcastable and bounded-risk actionable public
+    fact.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -625,6 +630,46 @@ record_selection_quotient_swing:
     controls, compare local-first with joint-first hardening, and require one typed certificate
     statement to survive an adversarial distributed fixture and a correlated/nonorthogonal
     quantum fixture without semantic refitting.
+layered_threshold_objectivity_swing:
+  status: completed_scoped_result
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: choose the ten threshold, stochastic and cryptographic lenses, run the
+    assessment, and orchestrate the swing.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-174434-hc-du-035a-layered-threshold/run-plan.md
+  theorem_ref: >-
+    explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md
+  novelty_audit_ref: >-
+    explorations/hc-du-035a-layered-threshold-novelty-audit-2026-07-24.md
+  hostile_audit_ref: >-
+    explorations/hc-du-035a-layered-threshold-adversarial-audit-2026-07-24.md
+  probe_ref: tests/du_layered_threshold_objectivity_probe.py
+  artifact_ref: tests/artifacts/du_layered_threshold_objectivity_result.json
+  artifact_sha256: a14e1167ae86957460760c8de7deba8d326a6302012cd1815bb66e727d56d2a1
+  exact_result: >-
+    One scalar objectivity threshold is rejected. Reconstruction, finality, action-relevant
+    capability, public irreversible capability, dissemination and objectivity are differently
+    typed. Locked equal-size quorum safety is exact at 2q>N+f, with a converse split view and
+    honest-lock surplus h=max(0,2q-N-f). Deterministic hardening cannot improve Bayes risk and is
+    strictly lossy in a two-fragment reliability fixture. Equal-marginal common shocks defeat
+    count-only concentration. The probe passes 23/23 exact checks.
+  quantum_correction: >-
+    GHZ phase gives exact three-of-three access to one classical label, but local X measurements
+    and authenticated parity pooling suffice; it is not general quantum secret sharing, QEC,
+    redundant objectivity, collective-measurement advantage or finality. A four-Bell-state
+    fixture separately verifies direct joint-channel access beyond single marginals without
+    claiming an LOCC no-go.
+  novelty_disposition: >-
+    Quorum, probabilistic reliability, Blackwell, decentralized-detection, secret-sharing,
+    QSS/QEC, quantum Byzantine, metastability and objectivity components are known. The static
+    quantum/BFT access correspondence also collides. No claim is banked or seeded.
+  next_move: >-
+    Execute HC-DU-035B Formation-to-Finality Cost only if the build begins from a physically
+    selected record instrument and targets a coupled lower bound or necessary-and-sufficient
+    condition on disturbance, support, memory, redundancy, authentication, latency, entropy or
+    coherent optionality required for a fork-safe, independently accessible, broadcastable and
+    bounded-risk actionable public fact.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1019,8 +1064,9 @@ lanes:
     certified-history quotient or a bounded-complexity intervention separates candidate
     realizations. HC-DU-033A now supplies the exact finite classical quotient baseline, while
     physical record formation and interface/structured-channel selection remain the first
-    dependency. HC-DU-035A Layered Quorum Objectivity is the first finite executable flagship and
-    must keep that remainder explicit.
+    dependency. HC-DU-035A now supplies the exact static layered-threshold controls and rejects
+    one universal objectivity threshold. HC-DU-035B must either derive a physically coupled
+    formation-to-finality resource law or stop the static threshold route.
   anchor:
     name: Certified Causal Sufficiency — factorization or finite physical-remainder witness
     elevated: '2026-07-24 (Joe direct chat; nineteen-lens triple-diamond convergence)'
@@ -1028,9 +1074,11 @@ lanes:
       OPEN. Exact finite recorders, pointers and archives exist and expose covariance
       nonselection, necessary backreaction, complementarity, evidence conservation, resource
       costs, aliasing and graded boundary relocation. HC-DU-033A additionally fixes the finite
-      classical selection/access quotient and hardening-order control. No record-forming law,
-      physical interface, observer, public finality, geometry, physical ontology or low-energy
-      theory has been selected.
+      classical selection/access quotient and hardening-order control. HC-DU-035A fixes the
+      locked-quorum, honest-lock margin, statistical-hardening, correlation, metastability and
+      quantum access controls while rejecting a universal scalar threshold. No record-forming
+      law, physical interface, observer, broadcastable public finality, formation-to-finality
+      resource law, geometry, physical ontology or low-energy theory has been selected.
     success: >-
       A nontrivial necessary-and-sufficient theorem, tight bound, converse/no-go or finite
       separating witness in a declared model class, followed by the same typed statement on
@@ -1064,14 +1112,14 @@ lanes:
   - id: '1.3'
     title: Multi-time certification and public finality
     scope: >-
-      Execute HC-DU-034 and HC-DU-035. Distinguish equal endpoints, mean histories, classical
-      random-history mixtures, coherent histories and causal provenance. Derive fault- and
-      access-relative certificate bounds, converse split views and conditions for a stable
-      approximately commutative or broadcastable public actionable algebra. Compare local scalar
-      hardening before gossip with provenance-preserving coalition composition before
-      finalization: HC-DU-033A proves those orders can differ. Redundancy, dissemination,
-      confidence, common deterministic readability and decoherence are not finality by
-      themselves.
+      Execute HC-DU-034 and HC-DU-035B. HC-DU-035A is complete: reconstruction, finality,
+      action-relevant capability, public irreversible capability, dissemination and objectivity
+      are differently typed; locked-quorum, honest-lock, hardening, correlation, metastability,
+      GHZ-access and Bell direct-channel controls are exact. The single-threshold hypothesis and
+      static quantum/BFT novelty route are closed. Next begin from physically formed records and
+      derive or refute a coupled cost for a stable approximately commutative or broadcastable
+      public actionable algebra. Redundancy, dissemination, confidence, common deterministic
+      readability and decoherence are not finality by themselves.
   - id: '1.4'
     title: Interventional sufficiency and ontology discriminator
     scope: >-
@@ -1208,7 +1256,9 @@ lanes:
       bounded-risk capability, covariance defect and geometry error. Preserve first
       counterexamples and reject any core definition that must be refit per fixture. Include the
       HC-DU-033A deterministic quotient, fixed-codomain, destructive-pooling, correlated-marginal,
-      split-view and local-first-versus-joint-first hardening controls.
+      split-view and local-first-versus-joint-first hardening controls, plus HC-DU-035A's
+      honest-lock margin, IID/common-shock, metastable rollback, inconsistent-share, GHZ
+      access-only and Bell direct-channel controls.
 
 - id: '4'
   label: Lane 4
@@ -1229,9 +1279,11 @@ lanes:
       counterexamples. Compare explicitly with process tensors/combs, Blackwell and data
       processing orders, no-broadcasting and spectrum broadcast, common knowledge and quorum
       intersection, system identification and causal-order reconstruction. Treat HC-DU-033A's
-      coequalizer, information-lattice and nondistributivity results as known mathematics; search
-      novelty only on the exact formation/provenance/adversarial/quantum conjunction or a new
-      commutation criterion, bound, converse or transfer theorem.
+      coequalizer, information-lattice and nondistributivity results and HC-DU-035A's quorum,
+      Blackwell, statistical, access, metastability and quantum controls as known mathematics.
+      The static quantum/BFT access conjunction also collides. Search novelty only on a physically
+      formed resource-coupled finality/action theorem, a new commutation criterion, a tight bound,
+      a converse or an unchanged transfer theorem.
   - id: '4.2'
     title: Experimental predictions and protocols
     scope: >-
@@ -1312,9 +1364,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 19.
+    routing is the root lanes key at manifest revision 20.
 provenance:
-  revision: 19
+  revision: 20
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1355,7 +1407,10 @@ provenance:
     chat, 2026-07-24) executes HC-DU-033A, closes the finite classical selection/access quotient
     at known-mathematics grade, exposes the local-first versus joint-first hardening-order control,
     and routes the next build to layered Quorum Objectivity while physical interface selection
-    remains open
+    remains open; rev20 (Joe direct chat, 2026-07-24) executes HC-DU-035A through ten threshold,
+    stochastic, cryptographic, distributed and quantum lenses, rejects one universal objectivity
+    threshold, closes the static controls at known-mathematics grade, corrects GHZ to access-only,
+    and routes the next build to a physical formation-to-finality resource law
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1518,3 +1573,17 @@ provenance:
     or seeded. Physical record formation, interface selection, direct adversarial/quantum
     coalition channels and public finality remain open; HC-DU-035A Layered Quorum Objectivity is
     the next executable flagship.
+  rev20_note: >-
+    2026-07-24 (Joe direct chat: "Yes, choose the ten lenses, and let's run it by them" followed by
+    "Orchestrate the swing"): executed HC-DU-035A as a grouped formal, stochastic and
+    quantum/novelty wave. The exact probe passes 23/23 checks. Locked equal-size quorum safety is
+    exact at 2q>N+f, h=max(0,2q-N-f) is the additional honest double-sign margin, deterministic
+    hardening can strictly lose action-relevant reliability, and equal-marginal common shocks
+    defeat count-only concentration. Reconstruction, finality, action capability, public
+    capability, dissemination and objectivity are not one scalar threshold. GHZ phase is
+    corrected to three-of-three access for one classical label; local X outcomes plus parity
+    suffice, so it supplies neither a collective-measurement advantage nor public objectivity.
+    Static quantum/BFT access and every component theorem collide with mature prior art. No claim
+    is banked or seeded. HC-DU-035B now targets a physically formed, resource-coupled
+    formation-to-finality theorem; public classicality and physical interface selection remain
+    open.

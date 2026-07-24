@@ -1,0 +1,1007 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "parameter_cases": 240,
+        "safe_cases": 70,
+        "unsafe_cases": 170
+      },
+      "name": "quorum_intersection_iff_2q_gt_N_plus_f",
+      "passed": true
+    },
+    {
+      "detail": {
+        "byzantine_intersection": [
+          0
+        ],
+        "left_certificate": [
+          0,
+          1
+        ],
+        "right_certificate": [
+          0,
+          2
+        ]
+      },
+      "name": "smallest_named_split_view_N3_f1_q2",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "named_safe_quorum_N4_f1_q3",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "safety_and_erasure_availability_are_distinct",
+      "passed": true
+    },
+    {
+      "detail": {
+        "N": 10,
+        "common_mode_failure_conflict_possibility": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "deterministically_safe_when_honest_locks_hold": true,
+        "f": 2,
+        "honest_lock_failures_tolerated": 1,
+        "honest_validators": 8,
+        "independent_failure_conflict_possibility": {
+          "decimal": 0.0026900777395207,
+          "exact": "26900777395207/10000000000000000"
+        },
+        "interpretation": "under a worst-case scheduler, incompatible certificates are combinatorially possible exactly when enough honest locks double-sign",
+        "per_honest_validator_failure_marginal": {
+          "decimal": 0.01,
+          "exact": "1/100"
+        },
+        "q": 7,
+        "required_honest_double_signers_for_conflict": 2
+      },
+      "name": "honest_intersection_surplus_sets_lock_failure_margin",
+      "passed": true
+    },
+    {
+      "detail": {
+        "maps_checked": 16,
+        "violations": 0
+      },
+      "name": "deterministic_binary_hardening_never_beats_raw_channel",
+      "passed": true
+    },
+    {
+      "detail": {
+        "binary_data_processing_violations": 0,
+        "binary_local_maps_checked": 16,
+        "local_sign_hardened_bayes_error": {
+          "decimal": 0.25,
+          "exact": "1/4"
+        },
+        "raw_joint_bayes_error": {
+          "decimal": 0.175,
+          "exact": "7/40"
+        },
+        "reliability_types": {
+          "S_accuracy": "9/10",
+          "W_accuracy": "3/5",
+          "type_probability_each": "1/2"
+        },
+        "single_fragment_plus_channel": {
+          "S:+1": "9/20",
+          "S:-1": "1/20",
+          "W:+1": "3/10",
+          "W:-1": "1/5"
+        },
+        "strict_error_penalty": {
+          "decimal": 0.075,
+          "exact": "3/40"
+        }
+      },
+      "name": "local_sign_hardening_is_strictly_worse",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "iid_majority_error_decreases_on_declared_grid",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "hoeffding_bounds_each_iid_error",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "same_marginal_accuracy_common_shock_has_error_floor",
+      "passed": true
+    },
+    {
+      "detail": {
+        "capability_risk": {
+          "error": "2321945/134217728",
+          "first_odd_N": 15,
+          "maximum_error": "1/50"
+        },
+        "reconstruction": {
+          "error": "289/4096",
+          "first_odd_N": 7,
+          "maximum_error": "1/10"
+        }
+      },
+      "name": "reconstruction_and_capability_risk_thresholds_separate",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "reconstruction_does_not_imply_finality",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "finality_does_not_imply_reconstruction",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "reconstruction_plus_finality_does_not_imply_capability",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "all_three_layers_are_jointly_realizable",
+      "passed": true
+    },
+    {
+      "detail": {
+        "public_capability_rule": "finality AND action_relevant_capability",
+        "truth_vectors": [
+          [
+            false,
+            false,
+            false
+          ],
+          [
+            false,
+            false,
+            true
+          ],
+          [
+            false,
+            true,
+            false
+          ],
+          [
+            false,
+            true,
+            true
+          ],
+          [
+            true,
+            false,
+            false
+          ],
+          [
+            true,
+            false,
+            true
+          ],
+          [
+            true,
+            true,
+            false
+          ],
+          [
+            true,
+            true,
+            true
+          ]
+        ]
+      },
+      "name": "full_reconstruction_finality_action_capability_truth_cube",
+      "passed": true
+    },
+    {
+      "detail": {
+        "confidence_crossing_state": 2,
+        "hard_final_state": 3,
+        "hard_finality_rollback_under_frozen_absorbing_model": "0/1",
+        "recurrences_hold": true,
+        "rollback_before_hard_finality_from_crossing": {
+          "decimal": 0.14285714285714285,
+          "exact": "1/7"
+        },
+        "states": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "up_probability": {
+          "decimal": 0.6666666666666666,
+          "exact": "2/3"
+        }
+      },
+      "name": "metastable_confidence_crossing_can_roll_back",
+      "passed": true
+    },
+    {
+      "detail": {
+        "N": 7,
+        "complete_graph_can_disseminate_quorum": true,
+        "complete_graph_component_sizes": [
+          7
+        ],
+        "f": 2,
+        "q": 5,
+        "quorum_safety": true,
+        "split_graph_can_disseminate_quorum": false,
+        "split_graph_component_sizes": [
+          4,
+          3
+        ]
+      },
+      "name": "quorum_safety_does_not_supply_dissemination_availability",
+      "passed": true
+    },
+    {
+      "detail": {
+        "authenticated_count_passes": false,
+        "claimed_fragment_count": 3,
+        "interpretation": "replay or Sybil aliases do not create quorum support",
+        "naive_count_passes": true,
+        "required_quorum": 3,
+        "unique_authenticated_provenance_count": 2
+      },
+      "name": "authenticated_provenance_defeats_replay_counting",
+      "passed": true
+    },
+    {
+      "detail": {
+        "claimed_access_structure": "2-of-3",
+        "coalition_12_secret": 0,
+        "coalition_23_secret": 3,
+        "field": "F_5",
+        "inconsistent_authorized_reconstructions": true,
+        "interpretation": "threshold reconstruction without dealer consistency or verifiability is not finality",
+        "shares": [
+          [
+            1,
+            0
+          ],
+          [
+            2,
+            0
+          ],
+          [
+            3,
+            1
+          ]
+        ]
+      },
+      "name": "threshold_reconstruction_does_not_supply_consistency",
+      "passed": true
+    },
+    {
+      "detail": {
+        "all_proper_subsets_indistinguishable": true,
+        "full_plus_measurement_on_minus": "0/1",
+        "full_plus_measurement_on_plus": "1/1",
+        "full_states_orthogonal": true,
+        "interpretation": "exact 3-of-3 access to one classical phase bit; authenticated pooling of local X outcomes suffices, so this is neither a general quantum-secret code nor a genuinely collective-quantum hardening advantage or public-finality result",
+        "local_X_measurements": {
+          "distributions": {
+            "minus": {
+              "+1,+1,+1": "0/1",
+              "+1,+1,-1": "1/4",
+              "+1,-1,+1": "1/4",
+              "+1,-1,-1": "0/1",
+              "-1,+1,+1": "1/4",
+              "-1,+1,-1": "0/1",
+              "-1,-1,+1": "0/1",
+              "-1,-1,-1": "1/4"
+            },
+            "plus": {
+              "+1,+1,+1": "1/4",
+              "+1,+1,-1": "0/1",
+              "+1,-1,+1": "0/1",
+              "+1,-1,-1": "1/4",
+              "-1,+1,+1": "0/1",
+              "-1,+1,-1": "1/4",
+              "-1,-1,+1": "1/4",
+              "-1,-1,-1": "0/1"
+            }
+          },
+          "pooled_parity_recovers_phase": true,
+          "requires_entangled_collective_measurement": false
+        },
+        "proper_subset_controls": [
+          {
+            "coalition": [
+              0
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              1
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              2
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              0,
+              1
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              0,
+              2
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              1,
+              2
+            ],
+            "reduced_states_equal": true
+          }
+        ]
+      },
+      "name": "GHZ_phase_is_exact_3_of_3_classical_bit_access",
+      "passed": true
+    },
+    {
+      "detail": {
+        "interpretation": "direct joint quantum channel control; LOCC impossibility and public finality are not proved by this finite check",
+        "joint_Bell_measurement_probabilities": {
+          "parity_0_phase_+1": {
+            "parity_0_phase_+1": "1/1",
+            "parity_0_phase_-1": "0/1",
+            "parity_1_phase_+1": "0/1",
+            "parity_1_phase_-1": "0/1"
+          },
+          "parity_0_phase_-1": {
+            "parity_0_phase_+1": "0/1",
+            "parity_0_phase_-1": "1/1",
+            "parity_1_phase_+1": "0/1",
+            "parity_1_phase_-1": "0/1"
+          },
+          "parity_1_phase_+1": {
+            "parity_0_phase_+1": "0/1",
+            "parity_0_phase_-1": "0/1",
+            "parity_1_phase_+1": "1/1",
+            "parity_1_phase_-1": "0/1"
+          },
+          "parity_1_phase_-1": {
+            "parity_0_phase_+1": "0/1",
+            "parity_0_phase_-1": "0/1",
+            "parity_1_phase_+1": "0/1",
+            "parity_1_phase_-1": "1/1"
+          }
+        },
+        "joint_channel_perfectly_distinguishes_all_four": true,
+        "single_qubit_marginals_all_equal": true
+      },
+      "name": "Bell_basis_direct_joint_channel_beats_single_marginals",
+      "passed": true
+    },
+    {
+      "detail": {
+        "grade": "FINITE_CROSSOVER_OR_ACCESS_THRESHOLD_ONLY",
+        "order_parameter": null,
+        "thermodynamic_or_scaling_limit": null
+      },
+      "name": "finite_threshold_is_not_labeled_critical_phase_transition",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "Record formation and the physical interface are supplied.",
+    "The IID bound does not apply to correlated or adversarial fragments.",
+    "Locked-quorum safety does not prove truth, liveness, dissemination, or common knowledge.",
+    "The action contract is finite and supplied; it is not a universal theory of capability.",
+    "The GHZ control is a 3-of-3 classical phase-bit access structure and local X measurements plus pooling suffice.",
+    "The Bell control verifies a direct joint channel; this probe does not prove an LOCC no-go, public finality, or classical emergence.",
+    "No finite crossover here establishes a critical exponent, universality class, or thermodynamic phase transition.",
+    "No ontology, spacetime, gravity, Standard Model, or cosmological consequence is established."
+  ],
+  "metadata": {
+    "claim_grade": "EXACT FINITE CLASSICAL SPECIALIZATIONS PLUS QUANTUM ACCESS CONTROL",
+    "hardening_id": "HC-DU-035A",
+    "novelty_status": "KNOWN COMPONENT THEOREMS / CROSS-PLATFORM CONJUNCTION SEARCH-INCOMPLETE",
+    "run_id": "RUN-20260724-174434-hc-du-035a-layered-threshold",
+    "scope": "frozen finite evidence, quorum, action, topology, metastability, and quantum access fixtures"
+  },
+  "results": {
+    "full_truth_cube": [
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "1/2",
+        "actuator_enabled": false,
+        "evidence": "none",
+        "full_history_error": "3/4",
+        "public_irreversible_capability": false,
+        "quorum": {
+          "N": 3,
+          "f": 1,
+          "q": 2
+        },
+        "truth_vector": [
+          false,
+          false,
+          false
+        ]
+      },
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "0/1",
+        "actuator_enabled": true,
+        "evidence": "coarse_G",
+        "full_history_error": "1/2",
+        "public_irreversible_capability": false,
+        "quorum": {
+          "N": 3,
+          "f": 1,
+          "q": 2
+        },
+        "truth_vector": [
+          false,
+          false,
+          true
+        ]
+      },
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "1/2",
+        "actuator_enabled": false,
+        "evidence": "none",
+        "full_history_error": "3/4",
+        "public_irreversible_capability": false,
+        "quorum": {
+          "N": 4,
+          "f": 1,
+          "q": 3
+        },
+        "truth_vector": [
+          false,
+          true,
+          false
+        ]
+      },
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "0/1",
+        "actuator_enabled": true,
+        "evidence": "coarse_G",
+        "full_history_error": "1/2",
+        "public_irreversible_capability": true,
+        "quorum": {
+          "N": 4,
+          "f": 1,
+          "q": 3
+        },
+        "truth_vector": [
+          false,
+          true,
+          true
+        ]
+      },
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "0/1",
+        "actuator_enabled": false,
+        "evidence": "full_GJ",
+        "full_history_error": "0/1",
+        "public_irreversible_capability": false,
+        "quorum": {
+          "N": 3,
+          "f": 1,
+          "q": 2
+        },
+        "truth_vector": [
+          true,
+          false,
+          false
+        ]
+      },
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "0/1",
+        "actuator_enabled": true,
+        "evidence": "full_GJ",
+        "full_history_error": "0/1",
+        "public_irreversible_capability": false,
+        "quorum": {
+          "N": 3,
+          "f": 1,
+          "q": 2
+        },
+        "truth_vector": [
+          true,
+          false,
+          true
+        ]
+      },
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "0/1",
+        "actuator_enabled": false,
+        "evidence": "full_GJ",
+        "full_history_error": "0/1",
+        "public_irreversible_capability": false,
+        "quorum": {
+          "N": 4,
+          "f": 1,
+          "q": 3
+        },
+        "truth_vector": [
+          true,
+          true,
+          false
+        ]
+      },
+      {
+        "action_benefit": "1/1",
+        "action_cost": "1/4",
+        "action_relevant_G_error": "0/1",
+        "actuator_enabled": true,
+        "evidence": "full_GJ",
+        "full_history_error": "0/1",
+        "public_irreversible_capability": true,
+        "quorum": {
+          "N": 4,
+          "f": 1,
+          "q": 3
+        },
+        "truth_vector": [
+          true,
+          true,
+          true
+        ]
+      }
+    ],
+    "hardening": {
+      "binary_data_processing_violations": 0,
+      "binary_local_maps_checked": 16,
+      "local_sign_hardened_bayes_error": {
+        "decimal": 0.25,
+        "exact": "1/4"
+      },
+      "raw_joint_bayes_error": {
+        "decimal": 0.175,
+        "exact": "7/40"
+      },
+      "reliability_types": {
+        "S_accuracy": "9/10",
+        "W_accuracy": "3/5",
+        "type_probability_each": "1/2"
+      },
+      "single_fragment_plus_channel": {
+        "S:+1": "9/20",
+        "S:-1": "1/20",
+        "W:+1": "3/10",
+        "W:-1": "1/5"
+      },
+      "strict_error_penalty": {
+        "decimal": 0.075,
+        "exact": "3/40"
+      }
+    },
+    "layer_countermodels": [
+      {
+        "abstain_loss": "3/10",
+        "capability": false,
+        "commit_expected_loss": "3/20",
+        "finality": false,
+        "name": "reconstruction_without_finality",
+        "quorum": {
+          "N": 3,
+          "f": 1,
+          "q": 2
+        },
+        "reconstruction": true,
+        "reconstruction_error": "1/10",
+        "verification_cost": "1/20"
+      },
+      {
+        "abstain_loss": "3/10",
+        "capability": false,
+        "commit_expected_loss": "11/20",
+        "finality": true,
+        "name": "finality_without_reconstruction",
+        "quorum": {
+          "N": 4,
+          "f": 1,
+          "q": 3
+        },
+        "reconstruction": false,
+        "reconstruction_error": "1/2",
+        "verification_cost": "1/20"
+      },
+      {
+        "abstain_loss": "3/10",
+        "capability": false,
+        "commit_expected_loss": "7/20",
+        "finality": true,
+        "name": "reconstruction_and_finality_without_capability",
+        "quorum": {
+          "N": 4,
+          "f": 1,
+          "q": 3
+        },
+        "reconstruction": true,
+        "reconstruction_error": "1/10",
+        "verification_cost": "1/4"
+      },
+      {
+        "abstain_loss": "3/10",
+        "capability": true,
+        "commit_expected_loss": "3/20",
+        "finality": true,
+        "name": "all_three_layers",
+        "quorum": {
+          "N": 4,
+          "f": 1,
+          "q": 3
+        },
+        "reconstruction": true,
+        "reconstruction_error": "1/10",
+        "verification_cost": "1/20"
+      }
+    ],
+    "metastability": {
+      "confidence_crossing_state": 2,
+      "hard_final_state": 3,
+      "hard_finality_rollback_under_frozen_absorbing_model": "0/1",
+      "recurrences_hold": true,
+      "rollback_before_hard_finality_from_crossing": {
+        "decimal": 0.14285714285714285,
+        "exact": "1/7"
+      },
+      "states": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "up_probability": {
+        "decimal": 0.6666666666666666,
+        "exact": "2/3"
+      }
+    },
+    "provenance": {
+      "authenticated_count_passes": false,
+      "claimed_fragment_count": 3,
+      "interpretation": "replay or Sybil aliases do not create quorum support",
+      "naive_count_passes": true,
+      "required_quorum": 3,
+      "unique_authenticated_provenance_count": 2
+    },
+    "quantum_access": {
+      "Bell_basis_joint_channel": {
+        "interpretation": "direct joint quantum channel control; LOCC impossibility and public finality are not proved by this finite check",
+        "joint_Bell_measurement_probabilities": {
+          "parity_0_phase_+1": {
+            "parity_0_phase_+1": "1/1",
+            "parity_0_phase_-1": "0/1",
+            "parity_1_phase_+1": "0/1",
+            "parity_1_phase_-1": "0/1"
+          },
+          "parity_0_phase_-1": {
+            "parity_0_phase_+1": "0/1",
+            "parity_0_phase_-1": "1/1",
+            "parity_1_phase_+1": "0/1",
+            "parity_1_phase_-1": "0/1"
+          },
+          "parity_1_phase_+1": {
+            "parity_0_phase_+1": "0/1",
+            "parity_0_phase_-1": "0/1",
+            "parity_1_phase_+1": "1/1",
+            "parity_1_phase_-1": "0/1"
+          },
+          "parity_1_phase_-1": {
+            "parity_0_phase_+1": "0/1",
+            "parity_0_phase_-1": "0/1",
+            "parity_1_phase_+1": "0/1",
+            "parity_1_phase_-1": "1/1"
+          }
+        },
+        "joint_channel_perfectly_distinguishes_all_four": true,
+        "single_qubit_marginals_all_equal": true
+      },
+      "GHZ_phase": {
+        "all_proper_subsets_indistinguishable": true,
+        "full_plus_measurement_on_minus": "0/1",
+        "full_plus_measurement_on_plus": "1/1",
+        "full_states_orthogonal": true,
+        "interpretation": "exact 3-of-3 access to one classical phase bit; authenticated pooling of local X outcomes suffices, so this is neither a general quantum-secret code nor a genuinely collective-quantum hardening advantage or public-finality result",
+        "local_X_measurements": {
+          "distributions": {
+            "minus": {
+              "+1,+1,+1": "0/1",
+              "+1,+1,-1": "1/4",
+              "+1,-1,+1": "1/4",
+              "+1,-1,-1": "0/1",
+              "-1,+1,+1": "1/4",
+              "-1,+1,-1": "0/1",
+              "-1,-1,+1": "0/1",
+              "-1,-1,-1": "1/4"
+            },
+            "plus": {
+              "+1,+1,+1": "1/4",
+              "+1,+1,-1": "0/1",
+              "+1,-1,+1": "0/1",
+              "+1,-1,-1": "1/4",
+              "-1,+1,+1": "0/1",
+              "-1,+1,-1": "1/4",
+              "-1,-1,+1": "1/4",
+              "-1,-1,-1": "0/1"
+            }
+          },
+          "pooled_parity_recovers_phase": true,
+          "requires_entangled_collective_measurement": false
+        },
+        "proper_subset_controls": [
+          {
+            "coalition": [
+              0
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              1
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              2
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              0,
+              1
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              0,
+              2
+            ],
+            "reduced_states_equal": true
+          },
+          {
+            "coalition": [
+              1,
+              2
+            ],
+            "reduced_states_equal": true
+          }
+        ]
+      }
+    },
+    "quorum": {
+      "condition": "2q > N + f",
+      "enumeration": {
+        "parameter_cases": 240,
+        "safe_cases": 70,
+        "unsafe_cases": 170
+      },
+      "minimum_safe_quorum": "floor((N+f)/2)+1",
+      "safe_control_N4_f1_q3": {
+        "available_under_one_silent_fault": true,
+        "safe": true
+      },
+      "unsafe_control_N3_f1_q2": {
+        "byzantine_intersection": [
+          0
+        ],
+        "left_certificate": [
+          0,
+          1
+        ],
+        "right_certificate": [
+          0,
+          2
+        ]
+      }
+    },
+    "stochastic_dependence": {
+      "common_shock_error_floor": {
+        "decimal": 0.05,
+        "exact": "1/20"
+      },
+      "common_shock_weight": {
+        "decimal": 0.2,
+        "exact": "1/5"
+      },
+      "rows": [
+        {
+          "common_shock_error": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          },
+          "hoeffding_upper_bound": 0.8824969025845955,
+          "iid_error": {
+            "decimal": 0.25,
+            "exact": "1/4"
+          },
+          "sample_count": 1
+        },
+        {
+          "common_shock_error": {
+            "decimal": 0.175,
+            "exact": "7/40"
+          },
+          "hoeffding_upper_bound": 0.6872892787909722,
+          "iid_error": {
+            "decimal": 0.15625,
+            "exact": "5/32"
+          },
+          "sample_count": 3
+        },
+        {
+          "common_shock_error": {
+            "decimal": 0.1328125,
+            "exact": "17/128"
+          },
+          "hoeffding_upper_bound": 0.5352614285189903,
+          "iid_error": {
+            "decimal": 0.103515625,
+            "exact": "53/512"
+          },
+          "sample_count": 5
+        },
+        {
+          "common_shock_error": {
+            "decimal": 0.089141845703125,
+            "exact": "2921/32768"
+          },
+          "hoeffding_upper_bound": 0.32465246735834974,
+          "iid_error": {
+            "decimal": 0.04892730712890625,
+            "exact": "6413/131072"
+          },
+          "sample_count": 9
+        },
+        {
+          "common_shock_error": {
+            "decimal": 0.05990782352164388,
+            "exact": "643255357/10737418240"
+          },
+          "hoeffding_upper_bound": 0.11943296826671962,
+          "iid_error": {
+            "decimal": 0.012384779402054846,
+            "exact": "106384445/8589934592"
+          },
+          "sample_count": 17
+        },
+        {
+          "common_shock_error": {
+            "decimal": 0.050760767996493726,
+            "exact": "468185448108133049/9223372036854775808"
+          },
+          "hoeffding_upper_bound": 0.016163494588165874,
+          "iid_error": {
+            "decimal": 0.0009509599956171567,
+            "exact": "35084231326971293/36893488147419103232"
+          },
+          "sample_count": 33
+        }
+      ],
+      "single_fragment_accuracy": {
+        "decimal": 0.75,
+        "exact": "3/4"
+      }
+    },
+    "stochastic_locks": {
+      "N": 10,
+      "common_mode_failure_conflict_possibility": {
+        "decimal": 0.01,
+        "exact": "1/100"
+      },
+      "deterministically_safe_when_honest_locks_hold": true,
+      "f": 2,
+      "honest_lock_failures_tolerated": 1,
+      "honest_validators": 8,
+      "independent_failure_conflict_possibility": {
+        "decimal": 0.0026900777395207,
+        "exact": "26900777395207/10000000000000000"
+      },
+      "interpretation": "under a worst-case scheduler, incompatible certificates are combinatorially possible exactly when enough honest locks double-sign",
+      "per_honest_validator_failure_marginal": {
+        "decimal": 0.01,
+        "exact": "1/100"
+      },
+      "q": 7,
+      "required_honest_double_signers_for_conflict": 2
+    },
+    "threshold_secret_sharing": {
+      "claimed_access_structure": "2-of-3",
+      "coalition_12_secret": 0,
+      "coalition_23_secret": 3,
+      "field": "F_5",
+      "inconsistent_authorized_reconstructions": true,
+      "interpretation": "threshold reconstruction without dealer consistency or verifiability is not finality",
+      "shares": [
+        [
+          1,
+          0
+        ],
+        [
+          2,
+          0
+        ],
+        [
+          3,
+          1
+        ]
+      ]
+    },
+    "topology": {
+      "N": 7,
+      "complete_graph_can_disseminate_quorum": true,
+      "complete_graph_component_sizes": [
+        7
+      ],
+      "f": 2,
+      "q": 5,
+      "quorum_safety": true,
+      "split_graph_can_disseminate_quorum": false,
+      "split_graph_component_sizes": [
+        4,
+        3
+      ]
+    },
+    "typed_thresholds": {
+      "finality_threshold_example": {
+        "N": 10,
+        "available_with_f_silent": true,
+        "f": 3,
+        "minimum_q": 7
+      },
+      "iid_capability_risk_threshold": {
+        "accuracy": "3/4",
+        "error": "2321945/134217728",
+        "first_odd_sample_count": 15,
+        "maximum_error": "1/50"
+      },
+      "iid_reconstruction_threshold": {
+        "accuracy": "3/4",
+        "error": "289/4096",
+        "first_odd_sample_count": 7,
+        "maximum_error": "1/10"
+      },
+      "warning": "sample counts and validator quorums are typed resource coordinates, not one universal scalar"
+    }
+  },
+  "summary": {
+    "checks_passed": 23,
+    "checks_total": 23,
+    "phase_transition_result": "NOT_ESTABLISHED_BY_FINITE_THRESHOLDS",
+    "public_finality_result": "CLASSICAL_LOCKED_QUORUM_CONTROL_EXACT",
+    "quantum_result": "GHZ_CLASSICAL_PHASE_ACCESS_AND_BELL_JOINT_CHANNEL_CONTROLS",
+    "result": "LAYERED_THRESHOLDS_SEPARATE"
+  }
+}
