@@ -1,0 +1,3845 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Supplies S(G,G_ind) and its Euclidean matrix gradient.",
+        "statement": "The imported Bianconi action on a real SPD block is the live static object under test.",
+        "status": "IMPORTED"
+      },
+      {
+        "id": "A2",
+        "role": "Turns the action into two candidate flows and makes completion dependence part of the result.",
+        "statement": "Euclidean and affine-invariant SPD gradient metrics are two legitimate but unselected dissipative completions.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A3",
+        "role": "Limits the invariant claim to the group under which the matrix-log action is covariant.",
+        "statement": "The declared coordinate group is simultaneous orthogonal similarity of G and G_ind.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Prevents a hand-selected distribution at the stationary 0/0 limit.",
+        "statement": "A dissipation-share distribution exists only where its total dissipation D is strictly positive.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A5",
+        "role": "Keeps proxy comparison separate from physical selection.",
+        "statement": "Participation, Shannon/KL, and Gini/Lorenz are inherited comparison readings, not functionals selected by the action.",
+        "status": "PROJECT_NATIVE"
+      },
+      {
+        "id": "A6",
+        "role": "Prevents comparing two unselected mobilities as one unique clock.",
+        "statement": "Integrator time is the physical time only conditionally on choosing that completion.",
+        "status": "CONDITIONAL_POSIT"
+      }
+    ],
+    "candidate_id": "SWING-DU-PHY-02-TA",
+    "comparators": [
+      "Euclidean versus affine-invariant gradient completion",
+      "noncommuting versus commuting initial geometry at fixed spectrum",
+      "baseline versus perturbed initial eigenspectrum",
+      "coarse, medium, and fine numerical timesteps"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "BIANCONI-DISSIPATION-SHARE-SPECTRA",
+      "invariant": "Lambda reads a dynamically sourced deviation of effective influence from uniform, is baseline at uniform, and grows monotonically with concentration."
+    },
+    "equations": [
+      "S(G)=sigma log det G + Tr[G(log G-log G_ind)]-Tr G",
+      "A_E=grad_G S=sigma G^{-1}+log G-log G_ind",
+      "D_E=Tr(A_E^2)=-dS/dt for dot G=-A_E",
+      "A_AI=G^(1/2) A_E G^(1/2)",
+      "D_AI=Tr(A_AI^2)=-dS/dt for the affine-invariant gradient flow",
+      "p_i^X=eig_i(A_X)^2/D_X on D_X>0",
+      "p_i(c A_X)=p_i(A_X) while D_X(c A_X)=c^2 D_X(A_X)"
+    ],
+    "falsifiers": [
+      "A squared modal contribution is negative or the shares fail to normalize.",
+      "The modal squares fail to reconstruct the associated action descent rate.",
+      "Simultaneous orthogonal similarity changes D or the sorted raw shares.",
+      "Both legitimate completions produce the same raw trajectory and readings.",
+      "A nonzero absolute dissipation survives at the stationary metric."
+    ],
+    "free_choices": [
+      {
+        "choice": "Reuse sigma=0.2 and the exact 3x3 predecessor fixture seeded by 20260723.",
+        "id": "C1",
+        "sensitivity_test": "Compare commuting geometry at fixed spectrum and a changed eigenspectrum without fitting either to a concentration target.",
+        "why_not_forced": "The Bianconi action does not select this finite fixture."
+      },
+      {
+        "choice": "Use Euclidean and affine-invariant gradient completions.",
+        "id": "C2",
+        "sensitivity_test": "Compute separate raw shares, action descent, trajectories, and all three concentration readings.",
+        "why_not_forced": "The action fixes stationary points, not a mobility metric."
+      },
+      {
+        "choice": "Use fixed steps 0.02, 0.01, and 0.005 for numerical refinement.",
+        "id": "C3",
+        "sensitivity_test": "Require medium-to-fine endpoint convergence and preserve every raw endpoint distribution.",
+        "why_not_forced": "A numerical timestep is not physical input."
+      },
+      {
+        "choice": "Treat D<=1e-24 as numerical zero while retaining the analytical domain D>0.",
+        "id": "C4",
+        "sensitivity_test": "Report D and squared contributions; never normalize the exact stationary specimen.",
+        "why_not_forced": "Float64 cannot resolve an exact symbolic zero."
+      },
+      {
+        "choice": "Use six seeded orthogonal scope controls: one reflection and five proper rotations.",
+        "id": "C5",
+        "sensitivity_test": "Generate them independently and compare action, D, and raw weights to tight float64 tolerances.",
+        "why_not_forced": "Any orthogonal matrices would test the same covariance."
+      }
+    ],
+    "null_models": [
+      "Isotropic G and G_ind with equal modal dissipation gives uniform shares.",
+      "Simultaneous orthogonal rotation changes coordinates but not modal shares.",
+      "Nonorthogonal congruence is a scope control: this displayed action does not supply that broader invariance."
+    ],
+    "observables": [
+      "raw sorted modal-share vector and total dissipation at labeled time/step",
+      "action descent and first-variation reconstruction of -dS/dt",
+      "participation, Shannon/KL, and Gini/Lorenz readings of each raw profile",
+      "terminal dissipation ratio and exact-stationary defined/undefined state",
+      "degree-zero share and degree-two total-dissipation scale control",
+      "orthogonal-similarity errors and nonorthogonal-congruence scope control"
+    ],
+    "question": "Do the already-tested Bianconi dissipative completions supply a nonnegative normalized O(3)-invariant influence distribution, and is its concentration completion-robust and persistent at stationarity?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "all defined modal shares are nonnegative and normalized across baseline, perturbation, coordinate, null, and trajectory cases",
+          "pass": true
+        },
+        {
+          "name": "squared modal contributions reconstruct each completion's total dissipation",
+          "pass": true
+        },
+        {
+          "name": "Euclidean modal total equals the action's initial descent rate",
+          "pass": true
+        },
+        {
+          "name": "affine-invariant modal total equals the action's initial descent rate",
+          "pass": true
+        },
+        {
+          "name": "six independent simultaneous O(3) changes, including a reflection, preserve action, dissipation, and raw modal shares",
+          "pass": true
+        },
+        {
+          "name": "scope control exposes rather than assumes arbitrary-congruence invariance",
+          "pass": true
+        },
+        {
+          "name": "associated fixed-step and Armijo trajectories descend the action",
+          "pass": true
+        },
+        {
+          "name": "modal shares respond to commuting versus noncommuting initial geometry",
+          "pass": true
+        },
+        {
+          "name": "modal shares respond to a legitimate initial eigenspectrum change",
+          "pass": true
+        },
+        {
+          "name": "timestep refinement stabilizes the one-time-unit raw modal profiles",
+          "pass": true
+        },
+        {
+          "name": "Euclidean and affine completions disagree on the raw distribution and on all three concentration readings at the shared initial state",
+          "pass": true
+        },
+        {
+          "name": "normalized shares are degree zero while total dissipation carries the quadratic operator scale",
+          "pass": true
+        },
+        {
+          "name": "isotropic equal-modal null is uniform for both completions",
+          "pass": true
+        },
+        {
+          "name": "total dissipation vanishes approaching the shared stationary metric",
+          "pass": true
+        },
+        {
+          "name": "exact stationary shares are left undefined rather than filled by hand",
+          "pass": true
+        },
+        {
+          "name": "no rho, Lambda, target distribution, or concentration amplitude is fitted",
+          "pass": true
+        }
+      ],
+      "claim": "Both completions construct live nonnegative normalized O(3)-invariant dissipation-share objects on D>0, but they disagree strongly on the raw profile and all three concentration readings.  Their total dissipation vanishes and the exact stationary shares are undefined; the degree-zero shares at fixed modal dimension contain no absolute scale.",
+      "grade": "OBJECT-FOUND / SELECTOR-OPEN / TRANSIENT-ONLY \u2014 relative modal concentration exists during relaxation, but no completion, functional, persistent absolute scale, growth law, rho, or Lambda is selected.",
+      "remaining_uncertainty": "The coordinate claim is only O(3); only one action, two mobilities, and finite 3x3 specimens are tested.  A direction-dependent normalized limit can remain along a trajectory even as D vanishes, but it is not an influence distribution at the exact stationary point and, because p is degree zero at fixed modal dimension, it has no physical magnitude."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Stop if weights are chosen to reproduce a favored proxy ordering.",
+      "Do not call the distribution persistent when D vanishes and the stationary normalization is undefined.",
+      "Do not average Euclidean and affine results or call either completion physically selected without an independent criterion.",
+      "Do not promote O(3) similarity invariance to arbitrary congruence or nonlinear reparameterization invariance.",
+      "Any failure is local to this Bianconi formalization; it does not close CONCEPT-DU-001."
+    ],
+    "track": "Bianconi dissipation spectrum",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 6,
+    "candidate_id": "SWING-DU-PHY-02-TA",
+    "checks_passed": 16,
+    "checks_total": 16,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 5,
+    "free_choice_count": 5,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 3,
+    "observable_count": 6,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "baseline_fixture": {
+      "action": -3.402669191443132,
+      "commutator_frobenius_norm": 2.0983649466628322,
+      "g_eigenvalues": [
+        0.5200000000000001,
+        1.6500000000000001,
+        2.649999999999999
+      ],
+      "g_ind_eigenvalues": [
+        0.8999999999999999,
+        1.4000000000000008,
+        2.4
+      ]
+    },
+    "baseline_profiles": {
+      "affine_invariant": {
+        "analytical_domain": "D > 0",
+        "completion": "affine_invariant",
+        "defined": true,
+        "label": "baseline:shared-initial-state",
+        "metrics": {
+          "baseline": 0.5773502691896258,
+          "concentration_gini_lorenz": 0.8564362395170155,
+          "concentration_participation": 0.7710879509662503,
+          "concentration_shannon_kl": 0.5785047380618749,
+          "entropy": 0.39238225388978565,
+          "gini": 0.5709574930113437,
+          "gini_normalized": 0.8564362395170155,
+          "kl_from_uniform": 0.7062300347783241,
+          "lambda_gini_lorenz": 0.9393228152777415,
+          "lambda_participation": 0.9032503840966345,
+          "lambda_shannon_kl": 0.8218551410040033,
+          "n": 3,
+          "n_eff_participation": 1.2256986003335986,
+          "n_eff_shannon": 1.4805035314856865
+        },
+        "modal_eigenvalues": [
+          -0.4728786632008233,
+          0.42119381453324245,
+          1.9047339651236577
+        ],
+        "numerical_zero_threshold": 1e-24,
+        "raw_normalized_weights": [
+          0.9004677389491641,
+          0.055500761618686695,
+          0.04403149943214906
+        ],
+        "reconstruction_absolute_error": 8.881784197001252e-16,
+        "reconstruction_relative_error": 2.2044473074123163e-16,
+        "squared_modal_contributions": [
+          0.22361423011059767,
+          0.17740422940106343,
+          3.6280114778956913
+        ],
+        "step": 0,
+        "time": 0.0,
+        "total_dissipation": 4.029029937407353,
+        "undefined_reason": null
+      },
+      "euclidean": {
+        "analytical_domain": "D > 0",
+        "completion": "euclidean",
+        "defined": true,
+        "label": "baseline:shared-initial-state",
+        "metrics": {
+          "baseline": 0.5773502691896258,
+          "concentration_gini_lorenz": 0.4602890974453092,
+          "concentration_participation": 0.23854054482461493,
+          "concentration_shannon_kl": 0.18637300612935814,
+          "entropy": 0.8428208125609831,
+          "gini": 0.3068593982968728,
+          "gini_normalized": 0.4602890974453092,
+          "kl_from_uniform": 0.2557914761071267,
+          "lambda_gini_lorenz": 0.7718913323198359,
+          "lambda_participation": 0.6781693662471093,
+          "lambda_shannon_kl": 0.6561207700605193,
+          "n": 3,
+          "n_eff_participation": 2.1743210155088506,
+          "n_eff_shannon": 2.3229102381632725
+        },
+        "modal_eigenvalues": [
+          -0.7945121338820067,
+          0.24974017547921593,
+          0.840899164530174
+        ],
+        "numerical_zero_threshold": 1e-24,
+        "raw_normalized_weights": [
+          0.5048159560602675,
+          0.4506571853247732,
+          0.04452685861495875
+        ],
+        "reconstruction_absolute_error": 6.661338147750939e-16,
+        "reconstruction_relative_error": 4.75561525717055e-16,
+        "squared_modal_contributions": [
+          0.6312495308857398,
+          0.06237015524838956,
+          0.7071114049075446
+        ],
+        "step": 0,
+        "time": 0.0,
+        "total_dissipation": 1.4007310910416746,
+        "undefined_reason": null
+      }
+    },
+    "completion_comparison": {
+      "affine_minus_euclidean_metric_differences": {
+        "lambda_gini_lorenz": 0.16743148295790566,
+        "lambda_participation": 0.22508101784952517,
+        "lambda_shannon_kl": 0.16573437094348398
+      },
+      "raw_ordering_result": "The affine profile is more concentrated than the Euclidean profile under all three inherited readings at the shared initial state.",
+      "selection_result": "Quantitative agreement fails; no independent criterion in the action selects either completion or any one concentration functional.",
+      "shared_state_weight_max_abs_difference": 0.3956517828888966
+    },
+    "coordinate_tests": {
+      "declared_invariance_group": "Simultaneous orthogonal similarity: (G,G_ind) -> (QGQ^T,QG_indQ^T), Q in O(3).",
+      "nonorthogonal_congruence_scope_control": {
+        "action_after": -6.386747926071754,
+        "action_before": -3.402669191443132,
+        "condition_number": 2.252870504713516,
+        "determinant": 1.638,
+        "interpretation": "The displayed formula is not invariant under this naive nonorthogonal congruence.  Track A therefore claims O(3) similarity invariance only; it does not relabel this scope failure as general coordinate invariance.",
+        "matrix": [
+          [
+            1.7,
+            0.3,
+            0.0
+          ],
+          [
+            0.0,
+            0.8,
+            0.2
+          ],
+          [
+            0.1,
+            0.0,
+            1.2
+          ]
+        ],
+        "maximum_weight_changes": {
+          "affine_invariant": 0.2371805858700408,
+          "euclidean": 0.08357100952128421
+        },
+        "profiles_after": {
+          "affine_invariant": {
+            "analytical_domain": "D > 0",
+            "completion": "affine_invariant",
+            "defined": true,
+            "label": "coordinate:nonorthogonal-congruence",
+            "metrics": {
+              "baseline": 0.5773502691896258,
+              "concentration_gini_lorenz": 0.6825968177902451,
+              "concentration_participation": 0.41837413681199903,
+              "concentration_shannon_kl": 0.32918330347884467,
+              "entropy": 0.6668112762706229,
+              "gini": 0.4550645451934967,
+              "gini_normalized": 0.6825968177902451,
+              "kl_from_uniform": 0.4318010123974869,
+              "lambda_gini_lorenz": 0.8658496304806909,
+              "lambda_participation": 0.7541759854912399,
+              "lambda_shannon_kl": 0.7164795037922292,
+              "n": 3,
+              "n_eff_participation": 1.7581446403668428,
+              "n_eff_shannon": 1.9480157224693928
+            },
+            "modal_eigenvalues": [
+              -1.686115803738195,
+              0.34650956518469045,
+              2.598179026475141
+            ],
+            "numerical_zero_threshold": 1e-24,
+            "raw_normalized_weights": [
+              0.6949577351507589,
+              0.2926813474887275,
+              0.012360917360513762
+            ],
+            "reconstruction_absolute_error": 1.7763568394002505e-15,
+            "reconstruction_relative_error": 1.8287336669212721e-16,
+            "squared_modal_contributions": [
+              2.842986503615699,
+              0.12006887876448324,
+              6.750534253615313
+            ],
+            "step": 0,
+            "time": 0.0,
+            "total_dissipation": 9.713589635995493,
+            "undefined_reason": null
+          },
+          "euclidean": {
+            "analytical_domain": "D > 0",
+            "completion": "euclidean",
+            "defined": true,
+            "label": "coordinate:nonorthogonal-congruence",
+            "metrics": {
+              "baseline": 0.5773502691896258,
+              "concentration_gini_lorenz": 0.5107488694821144,
+              "concentration_participation": 0.24821165145538968,
+              "concentration_shannon_kl": 0.17445110117641122,
+              "entropy": 0.8582394302906649,
+              "gini": 0.3404992463214096,
+              "gini_normalized": 0.5107488694821144,
+              "kl_from_uniform": 0.24037285837744493,
+              "lambda_gini_lorenz": 0.7932181413879444,
+              "lambda_participation": 0.6822568568612447,
+              "lambda_shannon_kl": 0.6510819801414094,
+              "n": 3,
+              "n_eff_participation": 2.1483457731563607,
+              "n_eff_shannon": 2.3590038448549677
+            },
+            "modal_eigenvalues": [
+              -0.9831326555798547,
+              0.32131904213876017,
+              0.7877023789915683
+            ],
+            "numerical_zero_threshold": 1e-24,
+            "raw_normalized_weights": [
+              0.5718313468393126,
+              0.367086175803489,
+              0.061082477357198475
+            ],
+            "reconstruction_absolute_error": 0.0,
+            "reconstruction_relative_error": 0.0,
+            "squared_modal_contributions": [
+              0.9665498184674973,
+              0.10324592684097034,
+              0.6204750378689762
+            ],
+            "step": 0,
+            "time": 0.0,
+            "total_dissipation": 1.6902707831774437,
+            "undefined_reason": null
+          }
+        },
+        "profiles_before": {
+          "affine_invariant": {
+            "analytical_domain": "D > 0",
+            "completion": "affine_invariant",
+            "defined": true,
+            "label": "coordinate:original",
+            "metrics": {
+              "baseline": 0.5773502691896258,
+              "concentration_gini_lorenz": 0.8564362395170155,
+              "concentration_participation": 0.7710879509662503,
+              "concentration_shannon_kl": 0.5785047380618749,
+              "entropy": 0.39238225388978565,
+              "gini": 0.5709574930113437,
+              "gini_normalized": 0.8564362395170155,
+              "kl_from_uniform": 0.7062300347783241,
+              "lambda_gini_lorenz": 0.9393228152777415,
+              "lambda_participation": 0.9032503840966345,
+              "lambda_shannon_kl": 0.8218551410040033,
+              "n": 3,
+              "n_eff_participation": 1.2256986003335986,
+              "n_eff_shannon": 1.4805035314856865
+            },
+            "modal_eigenvalues": [
+              -0.4728786632008233,
+              0.42119381453324245,
+              1.9047339651236577
+            ],
+            "numerical_zero_threshold": 1e-24,
+            "raw_normalized_weights": [
+              0.9004677389491641,
+              0.055500761618686695,
+              0.04403149943214906
+            ],
+            "reconstruction_absolute_error": 8.881784197001252e-16,
+            "reconstruction_relative_error": 2.2044473074123163e-16,
+            "squared_modal_contributions": [
+              0.22361423011059767,
+              0.17740422940106343,
+              3.6280114778956913
+            ],
+            "step": 0,
+            "time": 0.0,
+            "total_dissipation": 4.029029937407353,
+            "undefined_reason": null
+          },
+          "euclidean": {
+            "analytical_domain": "D > 0",
+            "completion": "euclidean",
+            "defined": true,
+            "label": "coordinate:original",
+            "metrics": {
+              "baseline": 0.5773502691896258,
+              "concentration_gini_lorenz": 0.4602890974453092,
+              "concentration_participation": 0.23854054482461493,
+              "concentration_shannon_kl": 0.18637300612935814,
+              "entropy": 0.8428208125609831,
+              "gini": 0.3068593982968728,
+              "gini_normalized": 0.4602890974453092,
+              "kl_from_uniform": 0.2557914761071267,
+              "lambda_gini_lorenz": 0.7718913323198359,
+              "lambda_participation": 0.6781693662471093,
+              "lambda_shannon_kl": 0.6561207700605193,
+              "n": 3,
+              "n_eff_participation": 2.1743210155088506,
+              "n_eff_shannon": 2.3229102381632725
+            },
+            "modal_eigenvalues": [
+              -0.7945121338820067,
+              0.24974017547921593,
+              0.840899164530174
+            ],
+            "numerical_zero_threshold": 1e-24,
+            "raw_normalized_weights": [
+              0.5048159560602675,
+              0.4506571853247732,
+              0.04452685861495875
+            ],
+            "reconstruction_absolute_error": 6.661338147750939e-16,
+            "reconstruction_relative_error": 4.75561525717055e-16,
+            "squared_modal_contributions": [
+              0.6312495308857398,
+              0.06237015524838956,
+              0.7071114049075446
+            ],
+            "step": 0,
+            "time": 0.0,
+            "total_dissipation": 1.4007310910416746,
+            "undefined_reason": null
+          }
+        }
+      },
+      "not_claimed": "Arbitrary nonorthogonal congruence or nonlinear reparameterization invariance.",
+      "original_profiles": {
+        "affine_invariant": {
+          "analytical_domain": "D > 0",
+          "completion": "affine_invariant",
+          "defined": true,
+          "label": "coordinate:original",
+          "metrics": {
+            "baseline": 0.5773502691896258,
+            "concentration_gini_lorenz": 0.8564362395170155,
+            "concentration_participation": 0.7710879509662503,
+            "concentration_shannon_kl": 0.5785047380618749,
+            "entropy": 0.39238225388978565,
+            "gini": 0.5709574930113437,
+            "gini_normalized": 0.8564362395170155,
+            "kl_from_uniform": 0.7062300347783241,
+            "lambda_gini_lorenz": 0.9393228152777415,
+            "lambda_participation": 0.9032503840966345,
+            "lambda_shannon_kl": 0.8218551410040033,
+            "n": 3,
+            "n_eff_participation": 1.2256986003335986,
+            "n_eff_shannon": 1.4805035314856865
+          },
+          "modal_eigenvalues": [
+            -0.4728786632008233,
+            0.42119381453324245,
+            1.9047339651236577
+          ],
+          "numerical_zero_threshold": 1e-24,
+          "raw_normalized_weights": [
+            0.9004677389491641,
+            0.055500761618686695,
+            0.04403149943214906
+          ],
+          "reconstruction_absolute_error": 8.881784197001252e-16,
+          "reconstruction_relative_error": 2.2044473074123163e-16,
+          "squared_modal_contributions": [
+            0.22361423011059767,
+            0.17740422940106343,
+            3.6280114778956913
+          ],
+          "step": 0,
+          "time": 0.0,
+          "total_dissipation": 4.029029937407353,
+          "undefined_reason": null
+        },
+        "euclidean": {
+          "analytical_domain": "D > 0",
+          "completion": "euclidean",
+          "defined": true,
+          "label": "coordinate:original",
+          "metrics": {
+            "baseline": 0.5773502691896258,
+            "concentration_gini_lorenz": 0.4602890974453092,
+            "concentration_participation": 0.23854054482461493,
+            "concentration_shannon_kl": 0.18637300612935814,
+            "entropy": 0.8428208125609831,
+            "gini": 0.3068593982968728,
+            "gini_normalized": 0.4602890974453092,
+            "kl_from_uniform": 0.2557914761071267,
+            "lambda_gini_lorenz": 0.7718913323198359,
+            "lambda_participation": 0.6781693662471093,
+            "lambda_shannon_kl": 0.6561207700605193,
+            "n": 3,
+            "n_eff_participation": 2.1743210155088506,
+            "n_eff_shannon": 2.3229102381632725
+          },
+          "modal_eigenvalues": [
+            -0.7945121338820067,
+            0.24974017547921593,
+            0.840899164530174
+          ],
+          "numerical_zero_threshold": 1e-24,
+          "raw_normalized_weights": [
+            0.5048159560602675,
+            0.4506571853247732,
+            0.04452685861495875
+          ],
+          "reconstruction_absolute_error": 6.661338147750939e-16,
+          "reconstruction_relative_error": 4.75561525717055e-16,
+          "squared_modal_contributions": [
+            0.6312495308857398,
+            0.06237015524838956,
+            0.7071114049075446
+          ],
+          "step": 0,
+          "time": 0.0,
+          "total_dissipation": 1.4007310910416746,
+          "undefined_reason": null
+        }
+      },
+      "orthogonal_similarity": {
+        "determinant_coverage": "One independently generated reflection (det=-1) and five independently generated proper rotations (det=+1).",
+        "independent_rotations": [
+          {
+            "action": -3.4026691914431324,
+            "determinant": -0.9999999999999998,
+            "orthogonality_error": 2.4903830764878435e-16,
+            "profiles": {
+              "affine_invariant": {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "coordinate:orthogonal-1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170152,
+                  "concentration_participation": 0.7710879509662503,
+                  "concentration_shannon_kl": 0.5785047380618745,
+                  "entropy": 0.39238225388978587,
+                  "gini": 0.5709574930113435,
+                  "gini_normalized": 0.8564362395170152,
+                  "kl_from_uniform": 0.7062300347783239,
+                  "lambda_gini_lorenz": 0.9393228152777414,
+                  "lambda_participation": 0.9032503840966345,
+                  "lambda_shannon_kl": 0.8218551410040031,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003335986,
+                  "n_eff_shannon": 1.480503531485687
+                },
+                "modal_eigenvalues": [
+                  -0.47287866320082234,
+                  0.4211938145332435,
+                  1.9047339651236568
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491638,
+                  0.0555007616186865,
+                  0.04403149943214931
+                ],
+                "reconstruction_absolute_error": 1.7763568394002505e-15,
+                "reconstruction_relative_error": 4.4088946148246355e-16,
+                "squared_modal_contributions": [
+                  0.22361423011059675,
+                  0.17740422940106432,
+                  3.628011477895688
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.02902993740735,
+                "undefined_reason": null
+              },
+              "euclidean": {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "coordinate:orthogonal-1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4602890974453092,
+                  "concentration_participation": 0.23854054482461493,
+                  "concentration_shannon_kl": 0.18637300612935814,
+                  "entropy": 0.8428208125609833,
+                  "gini": 0.3068593982968728,
+                  "gini_normalized": 0.4602890974453092,
+                  "kl_from_uniform": 0.2557914761071265,
+                  "lambda_gini_lorenz": 0.7718913323198359,
+                  "lambda_participation": 0.6781693662471093,
+                  "lambda_shannon_kl": 0.6561207700605193,
+                  "n": 3,
+                  "n_eff_participation": 2.174321015508851,
+                  "n_eff_shannon": 2.322910238163273
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820065,
+                  0.24974017547921645,
+                  0.840899164530174
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602679,
+                  0.4506571853247733,
+                  0.04452685861495897
+                ],
+                "reconstruction_absolute_error": 2.220446049250313e-16,
+                "reconstruction_relative_error": 1.585205085723518e-16,
+                "squared_modal_contributions": [
+                  0.6312495308857394,
+                  0.062370155248389826,
+                  0.7071114049075446
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.4007310910416737,
+                "undefined_reason": null
+              }
+            },
+            "rotation_index": 1
+          },
+          {
+            "action": -3.402669191443131,
+            "determinant": 0.9999999999999996,
+            "orthogonality_error": 6.62059388511155e-16,
+            "profiles": {
+              "affine_invariant": {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "coordinate:orthogonal-2",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170152,
+                  "concentration_participation": 0.7710879509662503,
+                  "concentration_shannon_kl": 0.5785047380618749,
+                  "entropy": 0.39238225388978565,
+                  "gini": 0.5709574930113435,
+                  "gini_normalized": 0.8564362395170152,
+                  "kl_from_uniform": 0.7062300347783241,
+                  "lambda_gini_lorenz": 0.9393228152777414,
+                  "lambda_participation": 0.9032503840966345,
+                  "lambda_shannon_kl": 0.8218551410040033,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003335986,
+                  "n_eff_shannon": 1.4805035314856865
+                },
+                "modal_eigenvalues": [
+                  -0.47287866320082234,
+                  0.42119381453324245,
+                  1.9047339651236554
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491644,
+                  0.05550076161868661,
+                  0.04403149943214918
+                ],
+                "reconstruction_absolute_error": 8.881784197001252e-16,
+                "reconstruction_relative_error": 2.204447307412322e-16,
+                "squared_modal_contributions": [
+                  0.22361423011059675,
+                  0.17740422940106343,
+                  3.628011477895683
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.029029937407342,
+                "undefined_reason": null
+              },
+              "euclidean": {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "coordinate:orthogonal-2",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.46028909744530955,
+                  "concentration_participation": 0.23854054482461517,
+                  "concentration_shannon_kl": 0.18637300612935814,
+                  "entropy": 0.8428208125609831,
+                  "gini": 0.30685939829687303,
+                  "gini_normalized": 0.46028909744530955,
+                  "kl_from_uniform": 0.2557914761071267,
+                  "lambda_gini_lorenz": 0.771891332319836,
+                  "lambda_participation": 0.6781693662471094,
+                  "lambda_shannon_kl": 0.6561207700605193,
+                  "n": 3,
+                  "n_eff_participation": 2.1743210155088497,
+                  "n_eff_shannon": 2.3229102381632725
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820058,
+                  0.24974017547921604,
+                  0.8408991645301739
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602681,
+                  0.4506571853247728,
+                  0.04452685861495885
+                ],
+                "reconstruction_absolute_error": 4.440892098500626e-16,
+                "reconstruction_relative_error": 3.170410171447038e-16,
+                "squared_modal_contributions": [
+                  0.6312495308857383,
+                  0.06237015524838962,
+                  0.7071114049075444
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.4007310910416728,
+                "undefined_reason": null
+              }
+            },
+            "rotation_index": 2
+          },
+          {
+            "action": -3.402669191443133,
+            "determinant": 1.0000000000000002,
+            "orthogonality_error": 5.478627332805691e-16,
+            "profiles": {
+              "affine_invariant": {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "coordinate:orthogonal-3",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170142,
+                  "concentration_participation": 0.7710879509662489,
+                  "concentration_shannon_kl": 0.578504738061873,
+                  "entropy": 0.3923822538897875,
+                  "gini": 0.5709574930113428,
+                  "gini_normalized": 0.8564362395170142,
+                  "kl_from_uniform": 0.7062300347783224,
+                  "lambda_gini_lorenz": 0.9393228152777411,
+                  "lambda_participation": 0.9032503840966339,
+                  "lambda_shannon_kl": 0.8218551410040025,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003336,
+                  "n_eff_shannon": 1.4805035314856894
+                },
+                "modal_eigenvalues": [
+                  -0.47287866320082345,
+                  0.42119381453324406,
+                  1.9047339651236546
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491637,
+                  0.05550076161868689,
+                  0.044031499432149526
+                ],
+                "reconstruction_absolute_error": 8.881784197001252e-16,
+                "reconstruction_relative_error": 2.2044473074123224e-16,
+                "squared_modal_contributions": [
+                  0.2236142301105978,
+                  0.1774042294010648,
+                  3.6280114778956793
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.0290299374073415,
+                "undefined_reason": null
+              },
+              "euclidean": {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "coordinate:orthogonal-3",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4602890974453082,
+                  "concentration_participation": 0.23854054482461465,
+                  "concentration_shannon_kl": 0.18637300612935762,
+                  "entropy": 0.8428208125609836,
+                  "gini": 0.30685939829687214,
+                  "gini_normalized": 0.4602890974453082,
+                  "kl_from_uniform": 0.25579147610712616,
+                  "lambda_gini_lorenz": 0.7718913323198354,
+                  "lambda_participation": 0.6781693662471092,
+                  "lambda_shannon_kl": 0.656120770060519,
+                  "n": 3,
+                  "n_eff_participation": 2.174321015508852,
+                  "n_eff_shannon": 2.322910238163274
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820076,
+                  0.2497401754792167,
+                  0.8408991645301737
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.504815956060267,
+                  0.45065718532477406,
+                  0.04452685861495902
+                ],
+                "reconstruction_absolute_error": 0.0,
+                "reconstruction_relative_error": 0.0,
+                "squared_modal_contributions": [
+                  0.6312495308857411,
+                  0.06237015524838995,
+                  0.7071114049075441
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.400731091041675,
+                "undefined_reason": null
+              }
+            },
+            "rotation_index": 3
+          },
+          {
+            "action": -3.4026691914431337,
+            "determinant": 0.9999999999999999,
+            "orthogonality_error": 3.3783515244708643e-16,
+            "profiles": {
+              "affine_invariant": {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "coordinate:orthogonal-4",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170142,
+                  "concentration_participation": 0.7710879509662489,
+                  "concentration_shannon_kl": 0.578504738061873,
+                  "entropy": 0.39238225388978737,
+                  "gini": 0.5709574930113428,
+                  "gini_normalized": 0.8564362395170142,
+                  "kl_from_uniform": 0.7062300347783224,
+                  "lambda_gini_lorenz": 0.9393228152777411,
+                  "lambda_participation": 0.9032503840966339,
+                  "lambda_shannon_kl": 0.8218551410040025,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003336,
+                  "n_eff_shannon": 1.4805035314856891
+                },
+                "modal_eigenvalues": [
+                  -0.4728786632008239,
+                  0.42119381453324395,
+                  1.904733965123656
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491639,
+                  0.05550076161868693,
+                  0.04403149943214946
+                ],
+                "reconstruction_absolute_error": 8.881784197001252e-16,
+                "reconstruction_relative_error": 2.20444730741232e-16,
+                "squared_modal_contributions": [
+                  0.22361423011059822,
+                  0.1774042294010647,
+                  3.6280114778956842
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.029029937407346,
+                "undefined_reason": null
+              },
+              "euclidean": {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "coordinate:orthogonal-4",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4602890974453082,
+                  "concentration_participation": 0.23854054482461465,
+                  "concentration_shannon_kl": 0.1863730061293579,
+                  "entropy": 0.8428208125609835,
+                  "gini": 0.30685939829687214,
+                  "gini_normalized": 0.4602890974453082,
+                  "kl_from_uniform": 0.25579147610712627,
+                  "lambda_gini_lorenz": 0.7718913323198354,
+                  "lambda_participation": 0.6781693662471092,
+                  "lambda_shannon_kl": 0.6561207700605192,
+                  "n": 3,
+                  "n_eff_participation": 2.174321015508852,
+                  "n_eff_shannon": 2.3229102381632734
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820079,
+                  0.24974017547921673,
+                  0.840899164530174
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602671,
+                  0.45065718532477417,
+                  0.044526858614958996
+                ],
+                "reconstruction_absolute_error": 4.440892098500626e-16,
+                "reconstruction_relative_error": 3.1704101714470305e-16,
+                "squared_modal_contributions": [
+                  0.6312495308857416,
+                  0.062370155248389965,
+                  0.7071114049075446
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.400731091041676,
+                "undefined_reason": null
+              }
+            },
+            "rotation_index": 4
+          },
+          {
+            "action": -3.402669191443133,
+            "determinant": 1.0,
+            "orthogonality_error": 2.7183691633031916e-16,
+            "profiles": {
+              "affine_invariant": {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "coordinate:orthogonal-5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170142,
+                  "concentration_participation": 0.7710879509662495,
+                  "concentration_shannon_kl": 0.5785047380618737,
+                  "entropy": 0.3923822538897868,
+                  "gini": 0.5709574930113428,
+                  "gini_normalized": 0.8564362395170142,
+                  "kl_from_uniform": 0.706230034778323,
+                  "lambda_gini_lorenz": 0.9393228152777411,
+                  "lambda_participation": 0.9032503840966342,
+                  "lambda_shannon_kl": 0.8218551410040028,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003335997,
+                  "n_eff_shannon": 1.4805035314856883
+                },
+                "modal_eigenvalues": [
+                  -0.47287866320082383,
+                  0.4211938145332432,
+                  1.9047339651236563
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.900467738949164,
+                  0.055500761618686896,
+                  0.04403149943214928
+                ],
+                "reconstruction_absolute_error": 8.881784197001252e-16,
+                "reconstruction_relative_error": 2.2044473074123192e-16,
+                "squared_modal_contributions": [
+                  0.2236142301105982,
+                  0.1774042294010641,
+                  3.628011477895686
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.029029937407348,
+                "undefined_reason": null
+              },
+              "euclidean": {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "coordinate:orthogonal-5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.46028909744530755,
+                  "concentration_participation": 0.23854054482461465,
+                  "concentration_shannon_kl": 0.18637300612935814,
+                  "entropy": 0.8428208125609832,
+                  "gini": 0.3068593982968717,
+                  "gini_normalized": 0.46028909744530755,
+                  "kl_from_uniform": 0.2557914761071266,
+                  "lambda_gini_lorenz": 0.7718913323198351,
+                  "lambda_participation": 0.6781693662471092,
+                  "lambda_shannon_kl": 0.6561207700605193,
+                  "n": 3,
+                  "n_eff_participation": 2.174321015508852,
+                  "n_eff_shannon": 2.322910238163273
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820087,
+                  0.24974017547921615,
+                  0.8408991645301733
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602663,
+                  0.45065718532477506,
+                  0.04452685861495879
+                ],
+                "reconstruction_absolute_error": 0.0,
+                "reconstruction_relative_error": 0.0,
+                "squared_modal_contributions": [
+                  0.6312495308857429,
+                  0.06237015524838967,
+                  0.7071114049075435
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.400731091041676,
+                "undefined_reason": null
+              }
+            },
+            "rotation_index": 5
+          },
+          {
+            "action": -3.4026691914431297,
+            "determinant": 1.0000000000000002,
+            "orthogonality_error": 5.852859891878595e-16,
+            "profiles": {
+              "affine_invariant": {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "coordinate:orthogonal-6",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170152,
+                  "concentration_participation": 0.7710879509662508,
+                  "concentration_shannon_kl": 0.5785047380618749,
+                  "entropy": 0.39238225388978537,
+                  "gini": 0.5709574930113435,
+                  "gini_normalized": 0.8564362395170152,
+                  "kl_from_uniform": 0.7062300347783244,
+                  "lambda_gini_lorenz": 0.9393228152777414,
+                  "lambda_participation": 0.9032503840966347,
+                  "lambda_shannon_kl": 0.8218551410040033,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003335983,
+                  "n_eff_shannon": 1.4805035314856863
+                },
+                "modal_eigenvalues": [
+                  -0.47287866320082333,
+                  0.42119381453324367,
+                  1.9047339651236612
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491634,
+                  0.05550076161868646,
+                  0.044031499432149124
+                ],
+                "reconstruction_absolute_error": 3.552713678800501e-15,
+                "reconstruction_relative_error": 8.817789229649226e-16,
+                "squared_modal_contributions": [
+                  0.22361423011059772,
+                  0.17740422940106446,
+                  3.6280114778957047
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.029029937407371,
+                "undefined_reason": null
+              },
+              "euclidean": {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "coordinate:orthogonal-6",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4602890974453092,
+                  "concentration_participation": 0.23854054482461493,
+                  "concentration_shannon_kl": 0.18637300612935814,
+                  "entropy": 0.8428208125609833,
+                  "gini": 0.3068593982968728,
+                  "gini_normalized": 0.4602890974453092,
+                  "kl_from_uniform": 0.2557914761071265,
+                  "lambda_gini_lorenz": 0.7718913323198359,
+                  "lambda_participation": 0.6781693662471093,
+                  "lambda_shannon_kl": 0.6561207700605193,
+                  "n": 3,
+                  "n_eff_participation": 2.174321015508851,
+                  "n_eff_shannon": 2.322910238163273
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820073,
+                  0.24974017547921645,
+                  0.8408991645301747
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602676,
+                  0.4506571853247732,
+                  0.04452685861495888
+                ],
+                "reconstruction_absolute_error": 2.220446049250313e-16,
+                "reconstruction_relative_error": 1.5852050857235145e-16,
+                "squared_modal_contributions": [
+                  0.6312495308857407,
+                  0.062370155248389826,
+                  0.7071114049075458
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.4007310910416766,
+                "undefined_reason": null
+              }
+            },
+            "rotation_index": 6
+          }
+        ],
+        "maximum_action_absolute_error": 2.220446049250313e-15,
+        "maximum_dissipation_relative_error": {
+          "affine_invariant": 4.408894614824633e-15,
+          "euclidean": 1.4266845771511652e-15
+        },
+        "maximum_weight_absolute_error": {
+          "affine_invariant": 6.661338147750939e-16,
+          "euclidean": 1.8318679906315083e-15
+        },
+        "seed": 20260724
+      }
+    },
+    "degree_zero_scale_control": {
+      "maximum_quadratic_dissipation_error": 6.087187529178305e-16,
+      "maximum_raw_weight_error": 3.3306690738754696e-16,
+      "physical_implication": "A persistent normalized shape cannot establish a nonzero physical scale or an N-growth law without an independently meaningful D and units.",
+      "profiles": {
+        "affine_invariant": {
+          "modal_dimension": 3,
+          "original_raw_normalized_weights": [
+            0.9004677389491641,
+            0.055500761618686695,
+            0.04403149943214906
+          ],
+          "original_total_dissipation": 4.029029937407353,
+          "scaled_cases": [
+            {
+              "operator_scale": 0.1,
+              "raw_normalized_weights": [
+                0.9004677389491643,
+                0.0555007616186867,
+                0.04403149943214907
+              ],
+              "total_dissipation": 0.04029029937407353
+            },
+            {
+              "operator_scale": 3.0,
+              "raw_normalized_weights": [
+                0.9004677389491642,
+                0.055500761618686695,
+                0.04403149943214906
+              ],
+              "total_dissipation": 36.261269436666176
+            },
+            {
+              "operator_scale": 10.0,
+              "raw_normalized_weights": [
+                0.9004677389491642,
+                0.055500761618686695,
+                0.04403149943214906
+              ],
+              "total_dissipation": 402.90299374073527
+            }
+          ]
+        },
+        "euclidean": {
+          "modal_dimension": 3,
+          "original_raw_normalized_weights": [
+            0.5048159560602675,
+            0.4506571853247732,
+            0.04452685861495875
+          ],
+          "original_total_dissipation": 1.4007310910416746,
+          "scaled_cases": [
+            {
+              "operator_scale": 0.1,
+              "raw_normalized_weights": [
+                0.5048159560602679,
+                0.45065718532477345,
+                0.044526858614958774
+              ],
+              "total_dissipation": 0.01400731091041674
+            },
+            {
+              "operator_scale": 3.0,
+              "raw_normalized_weights": [
+                0.5048159560602679,
+                0.4506571853247734,
+                0.044526858614958774
+              ],
+              "total_dissipation": 12.606579819375066
+            },
+            {
+              "operator_scale": 10.0,
+              "raw_normalized_weights": [
+                0.5048159560602679,
+                0.4506571853247735,
+                0.04452685861495878
+              ],
+              "total_dissipation": 140.07310910416737
+            }
+          ]
+        }
+      },
+      "statement": "At fixed modal dimension n=3, p is degree zero in A and has no absolute units; only D retains the squared operator scale."
+    },
+    "disposition": {
+      "concept_scope": "Supports a live formalization during relaxation but neither banks nor falsifies CONCEPT-DU-001.",
+      "persistence": "The normalized shape becomes nearly point-like along both finite-D trajectories, but this degree-zero fixed-n residue supplies no absolute scale; D vanishes and p is undefined at exact stationarity.",
+      "physical_object": "Completion-conditional modal shares of instantaneous action dissipation.",
+      "selector": "Open: Euclidean and affine-invariant completions disagree, and the action privileges none of participation, Shannon/KL, or Gini/Lorenz.",
+      "track_a": "OBJECT-FOUND / SELECTOR-OPEN / TRANSIENT-ONLY"
+    },
+    "first_variation": {
+      "affine_invariant": {
+        "modal_total_dissipation": 4.029029937407353,
+        "observed_negative_action_derivative": 4.029029172514242,
+        "relative_error": 1.898454770777014e-07,
+        "step": 1e-07
+      },
+      "euclidean": {
+        "modal_total_dissipation": 1.4007310910416746,
+        "observed_negative_action_derivative": 1.40073106003058,
+        "relative_error": 2.2139220568084958e-08,
+        "step": 1e-07
+      }
+    },
+    "isotropic_equal_modal_null": {
+      "expected_raw_weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "fixture": {
+        "action": -2.261980402073028,
+        "commutator_frobenius_norm": 0.0,
+        "g_eigenvalues": [
+          1.6,
+          1.6,
+          1.6
+        ],
+        "g_ind_eigenvalues": [
+          1.0,
+          1.0,
+          1.0
+        ]
+      },
+      "profiles": {
+        "affine_invariant": {
+          "analytical_domain": "D > 0",
+          "completion": "affine_invariant",
+          "defined": true,
+          "label": "isotropic-equal-modal-null",
+          "metrics": {
+            "baseline": 0.5773502691896258,
+            "concentration_gini_lorenz": 0.0,
+            "concentration_participation": 0.0,
+            "concentration_shannon_kl": 0.0,
+            "entropy": 1.0986122886681096,
+            "gini": 0.0,
+            "gini_normalized": 0.0,
+            "kl_from_uniform": 2.220446049250313e-16,
+            "lambda_gini_lorenz": 0.5773502691896258,
+            "lambda_participation": 0.5773502691896258,
+            "lambda_shannon_kl": 0.5773502691896258,
+            "n": 3,
+            "n_eff_participation": 2.9999999999999996,
+            "n_eff_shannon": 2.9999999999999996
+          },
+          "modal_eigenvalues": [
+            0.9520058067931771,
+            0.9520058067931771,
+            0.9520058067931771
+          ],
+          "numerical_zero_threshold": 1e-24,
+          "raw_normalized_weights": [
+            0.33333333333333337,
+            0.33333333333333337,
+            0.33333333333333337
+          ],
+          "reconstruction_absolute_error": 0.0,
+          "reconstruction_relative_error": 0.0,
+          "squared_modal_contributions": [
+            0.9063150561679282,
+            0.9063150561679282,
+            0.9063150561679282
+          ],
+          "step": 0,
+          "time": 0.0,
+          "total_dissipation": 2.7189451685037844,
+          "undefined_reason": null
+        },
+        "euclidean": {
+          "analytical_domain": "D > 0",
+          "completion": "euclidean",
+          "defined": true,
+          "label": "isotropic-equal-modal-null",
+          "metrics": {
+            "baseline": 0.5773502691896258,
+            "concentration_gini_lorenz": 0.0,
+            "concentration_participation": 0.0,
+            "concentration_shannon_kl": 0.0,
+            "entropy": 1.0986122886681096,
+            "gini": 0.0,
+            "gini_normalized": 0.0,
+            "kl_from_uniform": 2.220446049250313e-16,
+            "lambda_gini_lorenz": 0.5773502691896258,
+            "lambda_participation": 0.5773502691896258,
+            "lambda_shannon_kl": 0.5773502691896258,
+            "n": 3,
+            "n_eff_participation": 2.9999999999999996,
+            "n_eff_shannon": 2.9999999999999996
+          },
+          "modal_eigenvalues": [
+            0.5950036292457357,
+            0.5950036292457357,
+            0.5950036292457357
+          ],
+          "numerical_zero_threshold": 1e-24,
+          "raw_normalized_weights": [
+            0.33333333333333337,
+            0.33333333333333337,
+            0.33333333333333337
+          ],
+          "reconstruction_absolute_error": 0.0,
+          "reconstruction_relative_error": 0.0,
+          "squared_modal_contributions": [
+            0.3540293188155969,
+            0.3540293188155969,
+            0.3540293188155969
+          ],
+          "step": 0,
+          "time": 0.0,
+          "total_dissipation": 1.0620879564467907,
+          "undefined_reason": null
+        }
+      }
+    },
+    "parameters": {
+      "analytical_distribution_domain": "D > 0",
+      "fitted_parameters": [],
+      "flow_residual_tolerance": 6e-08,
+      "forbidden_insertions": [
+        "rho",
+        "Lambda",
+        "target distribution",
+        "target concentration"
+      ],
+      "matrix_dimension": 3,
+      "numerical_zero_dissipation": 1e-24,
+      "sigma": 0.2
+    },
+    "provenance": {
+      "contract": "explorations/physical-influence-selector-wave-contract-2026-07-24.md",
+      "expected_numpy_version": "2.5.1",
+      "numpy_version": "2.5.1",
+      "orthogonal_invariance_seed": 20260724,
+      "predecessor_fixture_seed": 20260723,
+      "predecessor_probe": "tests/du_bianconi_completion_robustness_probe.py"
+    },
+    "sensitivity": {
+      "geometry_and_spectrum": {
+        "baseline_noncommuting": {
+          "fixture": {
+            "action": -3.402669191443132,
+            "commutator_frobenius_norm": 2.0983649466628322,
+            "g_eigenvalues": [
+              0.5200000000000001,
+              1.6500000000000001,
+              2.649999999999999
+            ],
+            "g_ind_eigenvalues": [
+              0.8999999999999999,
+              1.4000000000000008,
+              2.4
+            ]
+          },
+          "flows": {
+            "affine_invariant": {
+              "action_final": -4.126761659354691,
+              "action_initial": -3.402669191443132,
+              "completion": "affine_invariant",
+              "final_time": 0.5,
+              "maximum_action_increase": 0.0,
+              "minimum_state_eigenvalue": 0.5200000000000001,
+              "samples": [
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "affine_invariant",
+                  "defined": true,
+                  "label": "sensitivity:baseline_noncommuting:affine_invariant:t=0",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.8564362395170155,
+                    "concentration_participation": 0.7710879509662503,
+                    "concentration_shannon_kl": 0.5785047380618749,
+                    "entropy": 0.39238225388978565,
+                    "gini": 0.5709574930113437,
+                    "gini_normalized": 0.8564362395170155,
+                    "kl_from_uniform": 0.7062300347783241,
+                    "lambda_gini_lorenz": 0.9393228152777415,
+                    "lambda_participation": 0.9032503840966345,
+                    "lambda_shannon_kl": 0.8218551410040033,
+                    "n": 3,
+                    "n_eff_participation": 1.2256986003335986,
+                    "n_eff_shannon": 1.4805035314856865
+                  },
+                  "modal_eigenvalues": [
+                    -0.4728786632008233,
+                    0.42119381453324245,
+                    1.9047339651236577
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.9004677389491641,
+                    0.055500761618686695,
+                    0.04403149943214906
+                  ],
+                  "reconstruction_absolute_error": 8.881784197001252e-16,
+                  "reconstruction_relative_error": 2.2044473074123163e-16,
+                  "squared_modal_contributions": [
+                    0.22361423011059767,
+                    0.17740422940106343,
+                    3.6280114778956913
+                  ],
+                  "step": 0,
+                  "time": 0.0,
+                  "total_dissipation": 4.029029937407353,
+                  "undefined_reason": null
+                },
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "affine_invariant",
+                  "defined": true,
+                  "label": "sensitivity:baseline_noncommuting:affine_invariant:t=0.5",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.44845418193515174,
+                    "concentration_participation": 0.2183354941696131,
+                    "concentration_shannon_kl": 0.16141713433850946,
+                    "entropy": 0.8752334188211541,
+                    "gini": 0.2989694546234345,
+                    "gini_normalized": 0.44845418193515174,
+                    "kl_from_uniform": 0.22337886984695565,
+                    "lambda_gini_lorenz": 0.7668893084653043,
+                    "lambda_participation": 0.6696297070267628,
+                    "lambda_shannon_kl": 0.6455731775659789,
+                    "n": 3,
+                    "n_eff_participation": 2.230132032049881,
+                    "n_eff_shannon": 2.399435301965972
+                  },
+                  "modal_eigenvalues": [
+                    -0.4995550744577439,
+                    0.18611470680564554,
+                    0.5421042702922738
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.5083753409390949,
+                    0.43170350005696156,
+                    0.05992115900394322
+                  ],
+                  "reconstruction_absolute_error": 1.1102230246251565e-16,
+                  "reconstruction_relative_error": 1.1102230246251565e-16,
+                  "squared_modal_contributions": [
+                    0.24955527241648204,
+                    0.034638684089351404,
+                    0.2938770398691187
+                  ],
+                  "step": 50,
+                  "time": 0.5,
+                  "total_dissipation": 0.5780709963749523,
+                  "undefined_reason": null
+                }
+              ],
+              "step_size": 0.01,
+              "total_steps": 50
+            },
+            "euclidean": {
+              "action_final": -3.918708851759404,
+              "action_initial": -3.402669191443132,
+              "completion": "euclidean",
+              "final_time": 0.5,
+              "maximum_action_increase": 0.0,
+              "minimum_state_eigenvalue": 0.5200000000000001,
+              "samples": [
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "euclidean",
+                  "defined": true,
+                  "label": "sensitivity:baseline_noncommuting:euclidean:t=0",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.4602890974453092,
+                    "concentration_participation": 0.23854054482461493,
+                    "concentration_shannon_kl": 0.18637300612935814,
+                    "entropy": 0.8428208125609831,
+                    "gini": 0.3068593982968728,
+                    "gini_normalized": 0.4602890974453092,
+                    "kl_from_uniform": 0.2557914761071267,
+                    "lambda_gini_lorenz": 0.7718913323198359,
+                    "lambda_participation": 0.6781693662471093,
+                    "lambda_shannon_kl": 0.6561207700605193,
+                    "n": 3,
+                    "n_eff_participation": 2.1743210155088506,
+                    "n_eff_shannon": 2.3229102381632725
+                  },
+                  "modal_eigenvalues": [
+                    -0.7945121338820067,
+                    0.24974017547921593,
+                    0.840899164530174
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.5048159560602675,
+                    0.4506571853247732,
+                    0.04452685861495875
+                  ],
+                  "reconstruction_absolute_error": 6.661338147750939e-16,
+                  "reconstruction_relative_error": 4.75561525717055e-16,
+                  "squared_modal_contributions": [
+                    0.6312495308857398,
+                    0.06237015524838956,
+                    0.7071114049075446
+                  ],
+                  "step": 0,
+                  "time": 0.0,
+                  "total_dissipation": 1.4007310910416746,
+                  "undefined_reason": null
+                },
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "euclidean",
+                  "defined": true,
+                  "label": "sensitivity:baseline_noncommuting:euclidean:t=0.5",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.5659046088691699,
+                    "concentration_participation": 0.29603539464516243,
+                    "concentration_shannon_kl": 0.2090988836616096,
+                    "entropy": 0.8137546413763538,
+                    "gini": 0.3772697392461133,
+                    "gini_normalized": 0.5659046088691699,
+                    "kl_from_uniform": 0.284857647291756,
+                    "lambda_gini_lorenz": 0.8165296997925306,
+                    "lambda_participation": 0.7024695490467466,
+                    "lambda_shannon_kl": 0.6657258560819549,
+                    "n": 3,
+                    "n_eff_participation": 2.026492468418474,
+                    "n_eff_shannon": 2.2563639396150106
+                  },
+                  "modal_eigenvalues": [
+                    -0.49962361992502863,
+                    0.19170243379809418,
+                    0.6767472124912067
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.6152756183850948,
+                    0.33535337209898,
+                    0.04937100951592503
+                  ],
+                  "reconstruction_absolute_error": 1.1102230246251565e-16,
+                  "reconstruction_relative_error": 1.1102230246251565e-16,
+                  "squared_modal_contributions": [
+                    0.24962376158698946,
+                    0.03674982312411268,
+                    0.45798678961461853
+                  ],
+                  "step": 50,
+                  "time": 0.5,
+                  "total_dissipation": 0.7443603743257208,
+                  "undefined_reason": null
+                }
+              ],
+              "step_size": 0.01,
+              "total_steps": 50
+            }
+          }
+        },
+        "commuting_same_eigenspectrum": {
+          "fixture": {
+            "action": -4.407281676170785,
+            "commutator_frobenius_norm": 3.3306690738754696e-16,
+            "g_eigenvalues": [
+              0.5200000000000002,
+              1.650000000000001,
+              2.649999999999999
+            ],
+            "g_ind_eigenvalues": [
+              0.8999999999999999,
+              1.4000000000000008,
+              2.4
+            ]
+          },
+          "flows": {
+            "affine_invariant": {
+              "action_final": -4.500713102312193,
+              "action_initial": -4.407281676170785,
+              "completion": "affine_invariant",
+              "final_time": 0.5,
+              "maximum_action_increase": 0.0,
+              "minimum_state_eigenvalue": 0.5200000000000002,
+              "samples": [
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "affine_invariant",
+                  "defined": true,
+                  "label": "sensitivity:commuting_same_eigenspectrum:affine_invariant:t=0",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.48436353021350786,
+                    "concentration_participation": 0.2803004013345604,
+                    "concentration_shannon_kl": 0.24773232431361605,
+                    "entropy": 0.7652921008852481,
+                    "gini": 0.3229090201423386,
+                    "gini_normalized": 0.48436353021350786,
+                    "kl_from_uniform": 0.33332018778286165,
+                    "lambda_gini_lorenz": 0.7820663848487275,
+                    "lambda_participation": 0.6958191583597176,
+                    "lambda_shannon_kl": 0.682054269373804,
+                    "n": 3,
+                    "n_eff_participation": 2.0654145661804226,
+                    "n_eff_shannon": 2.149622189502623
+                  },
+                  "modal_eigenvalues": [
+                    -0.08525429490939551,
+                    0.4625908920072139,
+                    0.47110003463060535
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.5007633391445735,
+                    0.4828368519243609,
+                    0.0163998089310657
+                  ],
+                  "reconstruction_absolute_error": 5.551115123125783e-17,
+                  "reconstruction_relative_error": 5.551115123125783e-17,
+                  "squared_modal_contributions": [
+                    0.007268294800498181,
+                    0.21399033336802986,
+                    0.22193524262895756
+                  ],
+                  "step": 0,
+                  "time": 0.0,
+                  "total_dissipation": 0.44319387079748557,
+                  "undefined_reason": null
+                },
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "affine_invariant",
+                  "defined": true,
+                  "label": "sensitivity:commuting_same_eigenspectrum:affine_invariant:t=0.5",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.5708495900787665,
+                    "concentration_participation": 0.3153873705187972,
+                    "concentration_shannon_kl": 0.19142880455973343,
+                    "entropy": 0.8363178640226683,
+                    "gini": 0.3805663933858443,
+                    "gini_normalized": 0.5708495900787665,
+                    "kl_from_uniform": 0.2622944246454415,
+                    "lambda_gini_lorenz": 0.8186196947696289,
+                    "lambda_participation": 0.7106486564403872,
+                    "lambda_shannon_kl": 0.6582576019061489,
+                    "n": 3,
+                    "n_eff_participation": 1.9801136673497843,
+                    "n_eff_shannon": 2.3078534821405543
+                  },
+                  "modal_eigenvalues": [
+                    -0.07520308563509524,
+                    0.129909264449098,
+                    0.2077257909439531
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.6569540101765765,
+                    0.2569415697256143,
+                    0.08610442009780975
+                  ],
+                  "reconstruction_absolute_error": 4.163336342344337e-17,
+                  "reconstruction_relative_error": 4.163336342344337e-17,
+                  "squared_modal_contributions": [
+                    0.005655504089039469,
+                    0.01687641698970568,
+                    0.04315000422329091
+                  ],
+                  "step": 50,
+                  "time": 0.5,
+                  "total_dissipation": 0.06568192530203602,
+                  "undefined_reason": null
+                }
+              ],
+              "step_size": 0.01,
+              "total_steps": 50
+            },
+            "euclidean": {
+              "action_final": -4.459597091232234,
+              "action_initial": -4.407281676170785,
+              "completion": "euclidean",
+              "final_time": 0.5,
+              "maximum_action_increase": 0.0,
+              "minimum_state_eigenvalue": 0.5200000000000002,
+              "samples": [
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "euclidean",
+                  "defined": true,
+                  "label": "sensitivity:commuting_same_eigenspectrum:euclidean:t=0",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.3934529345297675,
+                    "concentration_participation": 0.18583779465734027,
+                    "concentration_shannon_kl": 0.09556126886698672,
+                    "entropy": 0.9633777896093116,
+                    "gini": 0.2623019563531783,
+                    "gini_normalized": 0.3934529345297675,
+                    "kl_from_uniform": 0.13523449905879814,
+                    "lambda_gini_lorenz": 0.7436430460551838,
+                    "lambda_participation": 0.6558945630759443,
+                    "lambda_shannon_kl": 0.6177392137521556,
+                    "n": 3,
+                    "n_eff_participation": 2.324512779671908,
+                    "n_eff_shannon": 2.620533150449833
+                  },
+                  "modal_eigenvalues": [
+                    -0.16395056713345282,
+                    0.17456260075743912,
+                    0.28551517250339714
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.5870126154162865,
+                    0.21942770369719466,
+                    0.19355968088651918
+                  ],
+                  "reconstruction_absolute_error": 2.7755575615628914e-17,
+                  "reconstruction_relative_error": 2.7755575615628914e-17,
+                  "squared_modal_contributions": [
+                    0.02687978846338082,
+                    0.030472101583201086,
+                    0.08151891372964462
+                  ],
+                  "step": 0,
+                  "time": 0.0,
+                  "total_dissipation": 0.1388708037762265,
+                  "undefined_reason": null
+                },
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "euclidean",
+                  "defined": true,
+                  "label": "sensitivity:commuting_same_eigenspectrum:euclidean:t=0.5",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.5014483850636411,
+                    "concentration_participation": 0.24483715218405638,
+                    "concentration_shannon_kl": 0.1429169676160021,
+                    "entropy": 0.8996050267736887,
+                    "gini": 0.3342989233757607,
+                    "gini_normalized": 0.5014483850636411,
+                    "kl_from_uniform": 0.19900726189442108,
+                    "lambda_gini_lorenz": 0.7892872941520706,
+                    "lambda_participation": 0.6808306256525959,
+                    "lambda_shannon_kl": 0.6377540870807641,
+                    "n": 3,
+                    "n_eff_participation": 2.157356082056967,
+                    "n_eff_shannon": 2.458631825609211
+                  },
+                  "modal_eigenvalues": [
+                    -0.09180696749323349,
+                    0.1462018638032197,
+                    0.21652409815747814
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.611357605387948,
+                    0.27873317428774497,
+                    0.10990922032430714
+                  ],
+                  "reconstruction_absolute_error": 1.3877787807814457e-17,
+                  "reconstruction_relative_error": 1.3877787807814457e-17,
+                  "squared_modal_contributions": [
+                    0.00842851928030363,
+                    0.021374984979535203,
+                    0.04688268508290923
+                  ],
+                  "step": 50,
+                  "time": 0.5,
+                  "total_dissipation": 0.07668618934274805,
+                  "undefined_reason": null
+                }
+              ],
+              "step_size": 0.01,
+              "total_steps": 50
+            }
+          }
+        },
+        "perturbed_eigenspectrum_noncommuting": {
+          "fixture": {
+            "action": -3.266022916079595,
+            "commutator_frobenius_norm": 2.458300661184597,
+            "g_eigenvalues": [
+              0.6799999999999993,
+              1.2500000000000002,
+              3.0999999999999988
+            ],
+            "g_ind_eigenvalues": [
+              0.8999999999999999,
+              1.4000000000000008,
+              2.4
+            ]
+          },
+          "flows": {
+            "affine_invariant": {
+              "action_final": -4.240003129818595,
+              "action_initial": -3.266022916079595,
+              "completion": "affine_invariant",
+              "final_time": 0.5,
+              "maximum_action_increase": 0.0,
+              "minimum_state_eigenvalue": 0.6799999999999993,
+              "samples": [
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "affine_invariant",
+                  "defined": true,
+                  "label": "sensitivity:perturbed_eigenspectrum_noncommuting:affine_invariant:t=0",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.9664917803719033,
+                    "concentration_participation": 0.923129014417783,
+                    "concentration_shannon_kl": 0.8316580691804227,
+                    "entropy": 0.14761532749082779,
+                    "gini": 0.6443278535812689,
+                    "gini_normalized": 0.9664917803719033,
+                    "kl_from_uniform": 0.9509969611772819,
+                    "lambda_gini_lorenz": 0.98583775999425,
+                    "lambda_participation": 0.9675104986365478,
+                    "lambda_shannon_kl": 0.928850328255007,
+                    "n": 3,
+                    "n_eff_participation": 1.0682886821656248,
+                    "n_eff_shannon": 1.159066949404979
+                  },
+                  "modal_eigenvalues": [
+                    -0.47497219611757224,
+                    0.05707820665733087,
+                    2.5880944369819776
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.9669620964777109,
+                    0.032567587416479214,
+                    0.00047031610580881877
+                  ],
+                  "reconstruction_absolute_error": 7.993605777301127e-15,
+                  "reconstruction_relative_error": 1.153963144402717e-15,
+                  "squared_modal_contributions": [
+                    0.2255985870847495,
+                    0.00325792167521697,
+                    6.69823281473706
+                  ],
+                  "step": 0,
+                  "time": 0.0,
+                  "total_dissipation": 6.927089323497034,
+                  "undefined_reason": null
+                },
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "affine_invariant",
+                  "defined": true,
+                  "label": "sensitivity:perturbed_eigenspectrum_noncommuting:affine_invariant:t=0.5",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.6261213456179349,
+                    "concentration_participation": 0.3587664710982417,
+                    "concentration_shannon_kl": 0.32565014273644677,
+                    "entropy": 0.6709840341912369,
+                    "gini": 0.4174142304119566,
+                    "gini_normalized": 0.6261213456179349,
+                    "kl_from_uniform": 0.4276282544768729,
+                    "lambda_gini_lorenz": 0.8419802873696752,
+                    "lambda_participation": 0.7289828216230856,
+                    "lambda_shannon_kl": 0.714986214355545,
+                    "n": 3,
+                    "n_eff_participation": 1.8817651070804788,
+                    "n_eff_shannon": 1.9561613034544216
+                  },
+                  "modal_eigenvalues": [
+                    -0.4589341319145182,
+                    0.031129873415321356,
+                    0.5974391662457665
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.6278258830590191,
+                    0.37046957949989645,
+                    0.0017045374410843382
+                  ],
+                  "reconstruction_absolute_error": 0.0,
+                  "reconstruction_relative_error": 0.0,
+                  "squared_modal_contributions": [
+                    0.2106205374361324,
+                    0.0009690690188539314,
+                    0.35693355736443666
+                  ],
+                  "step": 50,
+                  "time": 0.5,
+                  "total_dissipation": 0.568523163819423,
+                  "undefined_reason": null
+                }
+              ],
+              "step_size": 0.01,
+              "total_steps": 50
+            },
+            "euclidean": {
+              "action_final": -3.7802998214062145,
+              "action_initial": -3.266022916079595,
+              "completion": "euclidean",
+              "final_time": 0.5,
+              "maximum_action_increase": 0.0,
+              "minimum_state_eigenvalue": 0.6799999999999993,
+              "samples": [
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "euclidean",
+                  "defined": true,
+                  "label": "sensitivity:perturbed_eigenspectrum_noncommuting:euclidean:t=0",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.7012762973796273,
+                    "concentration_participation": 0.4379984510059043,
+                    "concentration_shannon_kl": 0.3709367131677636,
+                    "entropy": 0.6181476499288715,
+                    "gini": 0.4675175315864182,
+                    "gini_normalized": 0.7012762973796273,
+                    "kl_from_uniform": 0.4804646387392383,
+                    "lambda_gini_lorenz": 0.8737445075008212,
+                    "lambda_participation": 0.7624701966026322,
+                    "lambda_shannon_kl": 0.7341265711576661,
+                    "n": 3,
+                    "n_eff_participation": 1.7201022132614485,
+                    "n_eff_shannon": 1.855487843565238
+                  },
+                  "modal_eigenvalues": [
+                    -0.6200822238366113,
+                    0.04491416570766283,
+                    0.9561045578960683
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.7028272713228275,
+                    0.29562175473397295,
+                    0.0015509739431999196
+                  ],
+                  "reconstruction_absolute_error": 4.440892098500626e-16,
+                  "reconstruction_relative_error": 3.414350085495767e-16,
+                  "squared_modal_contributions": [
+                    0.38450196431815725,
+                    0.0020172822812153956,
+                    0.9141359256296362
+                  ],
+                  "step": 0,
+                  "time": 0.0,
+                  "total_dissipation": 1.3006551722290083,
+                  "undefined_reason": null
+                },
+                {
+                  "analytical_domain": "D > 0",
+                  "completion": "euclidean",
+                  "defined": true,
+                  "label": "sensitivity:perturbed_eigenspectrum_noncommuting:euclidean:t=0.5",
+                  "metrics": {
+                    "baseline": 0.5773502691896258,
+                    "concentration_gini_lorenz": 0.7846462677945925,
+                    "concentration_participation": 0.5604132864248609,
+                    "concentration_shannon_kl": 0.4519365251680446,
+                    "entropy": 0.5269908963014481,
+                    "gini": 0.5230975118630616,
+                    "gini_normalized": 0.7846462677945925,
+                    "kl_from_uniform": 0.5716213923666617,
+                    "lambda_gini_lorenz": 0.9089808030543751,
+                    "lambda_participation": 0.8142087938396504,
+                    "lambda_shannon_kl": 0.7683611198952758,
+                    "n": 3,
+                    "n_eff_participation": 1.5084413282567462,
+                    "n_eff_shannon": 1.6938277290813843
+                  },
+                  "modal_eigenvalues": [
+                    -0.41210094690438015,
+                    0.03148733505842565,
+                    0.791824145922545
+                  ],
+                  "numerical_zero_threshold": 1e-24,
+                  "raw_normalized_weights": [
+                    0.785888994227391,
+                    0.21286827933981173,
+                    0.0012427264327978466
+                  ],
+                  "reconstruction_absolute_error": 4.440892098500626e-16,
+                  "reconstruction_relative_error": 4.440892098500626e-16,
+                  "squared_modal_contributions": [
+                    0.16982719043948674,
+                    0.0009914522690815612,
+                    0.6269854780659678
+                  ],
+                  "step": 50,
+                  "time": 0.5,
+                  "total_dissipation": 0.7978041207745357,
+                  "undefined_reason": null
+                }
+              ],
+              "step_size": 0.01,
+              "total_steps": 50
+            }
+          }
+        }
+      },
+      "geometry_weight_changes": {
+        "affine_invariant": {
+          "baseline_vs_perturbed_eigenspectrum": 0.06649435752854682,
+          "noncommuting_vs_commuting_same_spectrum": 0.4273360903056742
+        },
+        "euclidean": {
+          "baseline_vs_perturbed_eigenspectrum": 0.19801131526256,
+          "noncommuting_vs_commuting_same_spectrum": 0.23122948162757856
+        }
+      },
+      "timestep_endpoint_deltas": {
+        "affine_invariant": {
+          "coarse_vs_fine_action_abs": 0.0013846447213632374,
+          "coarse_vs_fine_weight_max_abs": 0.00645439454396779,
+          "medium_vs_fine_action_abs": 0.0004611706505590618,
+          "medium_vs_fine_weight_max_abs": 0.002142018111665367
+        },
+        "euclidean": {
+          "coarse_vs_fine_action_abs": 0.0018047386512050068,
+          "coarse_vs_fine_weight_max_abs": 0.0010059828938835391,
+          "medium_vs_fine_action_abs": 0.0006003044682802994,
+          "medium_vs_fine_weight_max_abs": 0.00033335479800100654
+        }
+      },
+      "timestep_refinement": {
+        "affine_invariant": {
+          "dt=0.005": {
+            "action_final": -4.329757456867326,
+            "action_initial": -3.402669191443132,
+            "completion": "affine_invariant",
+            "final_time": 1.0,
+            "maximum_action_increase": 0.0,
+            "minimum_state_eigenvalue": 0.5200000000000001,
+            "samples": [
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.005:t=0",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170155,
+                  "concentration_participation": 0.7710879509662503,
+                  "concentration_shannon_kl": 0.5785047380618749,
+                  "entropy": 0.39238225388978565,
+                  "gini": 0.5709574930113437,
+                  "gini_normalized": 0.8564362395170155,
+                  "kl_from_uniform": 0.7062300347783241,
+                  "lambda_gini_lorenz": 0.9393228152777415,
+                  "lambda_participation": 0.9032503840966345,
+                  "lambda_shannon_kl": 0.8218551410040033,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003335986,
+                  "n_eff_shannon": 1.4805035314856865
+                },
+                "modal_eigenvalues": [
+                  -0.4728786632008233,
+                  0.42119381453324245,
+                  1.9047339651236577
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491641,
+                  0.055500761618686695,
+                  0.04403149943214906
+                ],
+                "reconstruction_absolute_error": 8.881784197001252e-16,
+                "reconstruction_relative_error": 2.2044473074123163e-16,
+                "squared_modal_contributions": [
+                  0.22361423011059767,
+                  0.17740422940106343,
+                  3.6280114778956913
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.029029937407353,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.005:t=0.5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4510594653262424,
+                  "concentration_participation": 0.21903839209511355,
+                  "concentration_shannon_kl": 0.16171748370678635,
+                  "entropy": 0.8748401865587498,
+                  "gini": 0.30070631021749494,
+                  "gini_normalized": 0.4510594653262424,
+                  "kl_from_uniform": 0.22377210210935994,
+                  "lambda_gini_lorenz": 0.7679904307892335,
+                  "lambda_participation": 0.6699267866457628,
+                  "lambda_shannon_kl": 0.6457001201456302,
+                  "n": 3,
+                  "n_eff_participation": 2.2281545626052606,
+                  "n_eff_shannon": 2.398491952083648
+                },
+                "modal_eigenvalues": [
+                  -0.4993998109257466,
+                  0.18667328061644953,
+                  0.5450170291968115
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5110069526600751,
+                  0.42904556000609206,
+                  0.05994748733383276
+                ],
+                "reconstruction_absolute_error": 0.0,
+                "reconstruction_relative_error": 0.0,
+                "squared_modal_contributions": [
+                  0.24940017115267143,
+                  0.03484691369610771,
+                  0.2970435621145181
+                ],
+                "step": 100,
+                "time": 0.5,
+                "total_dissipation": 0.5812906469632972,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.005:t=1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.6606766098518692,
+                  "concentration_participation": 0.3998221593572143,
+                  "concentration_shannon_kl": 0.2839337026919887,
+                  "entropy": 0.720921997729618,
+                  "gini": 0.44045107323457944,
+                  "gini_normalized": 0.6606766098518692,
+                  "kl_from_uniform": 0.3776902909384918,
+                  "lambda_gini_lorenz": 0.856585060496229,
+                  "lambda_participation": 0.746334997213975,
+                  "lambda_shannon_kl": 0.6973547722003877,
+                  "n": 3,
+                  "n_eff_participation": 1.7952807982913226,
+                  "n_eff_shannon": 2.056328266884283
+                },
+                "modal_eigenvalues": [
+                  -0.44878958836865845,
+                  0.09801926487987837,
+                  0.2815938768029914
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6937709276483643,
+                  0.27313475455514014,
+                  0.0330943177964955
+                ],
+                "reconstruction_absolute_error": 0.0,
+                "reconstruction_relative_error": 0.0,
+                "squared_modal_contributions": [
+                  0.20141209462810988,
+                  0.009607776287591758,
+                  0.07929511145293831
+                ],
+                "step": 200,
+                "time": 1.0,
+                "total_dissipation": 0.29031498236863995,
+                "undefined_reason": null
+              }
+            ],
+            "step_size": 0.005,
+            "total_steps": 200
+          },
+          "dt=0.01": {
+            "action_final": -4.330218627517885,
+            "action_initial": -3.402669191443132,
+            "completion": "affine_invariant",
+            "final_time": 1.0,
+            "maximum_action_increase": 0.0,
+            "minimum_state_eigenvalue": 0.5200000000000001,
+            "samples": [
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.01:t=0",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170155,
+                  "concentration_participation": 0.7710879509662503,
+                  "concentration_shannon_kl": 0.5785047380618749,
+                  "entropy": 0.39238225388978565,
+                  "gini": 0.5709574930113437,
+                  "gini_normalized": 0.8564362395170155,
+                  "kl_from_uniform": 0.7062300347783241,
+                  "lambda_gini_lorenz": 0.9393228152777415,
+                  "lambda_participation": 0.9032503840966345,
+                  "lambda_shannon_kl": 0.8218551410040033,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003335986,
+                  "n_eff_shannon": 1.4805035314856865
+                },
+                "modal_eigenvalues": [
+                  -0.4728786632008233,
+                  0.42119381453324245,
+                  1.9047339651236577
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491641,
+                  0.055500761618686695,
+                  0.04403149943214906
+                ],
+                "reconstruction_absolute_error": 8.881784197001252e-16,
+                "reconstruction_relative_error": 2.2044473074123163e-16,
+                "squared_modal_contributions": [
+                  0.22361423011059767,
+                  0.17740422940106343,
+                  3.6280114778956913
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.029029937407353,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.01:t=0.5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.44845418193515174,
+                  "concentration_participation": 0.2183354941696131,
+                  "concentration_shannon_kl": 0.16141713433850946,
+                  "entropy": 0.8752334188211541,
+                  "gini": 0.2989694546234345,
+                  "gini_normalized": 0.44845418193515174,
+                  "kl_from_uniform": 0.22337886984695565,
+                  "lambda_gini_lorenz": 0.7668893084653043,
+                  "lambda_participation": 0.6696297070267628,
+                  "lambda_shannon_kl": 0.6455731775659789,
+                  "n": 3,
+                  "n_eff_participation": 2.230132032049881,
+                  "n_eff_shannon": 2.399435301965972
+                },
+                "modal_eigenvalues": [
+                  -0.4995550744577439,
+                  0.18611470680564554,
+                  0.5421042702922738
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5083753409390949,
+                  0.43170350005696156,
+                  0.05992115900394322
+                ],
+                "reconstruction_absolute_error": 1.1102230246251565e-16,
+                "reconstruction_relative_error": 1.1102230246251565e-16,
+                "squared_modal_contributions": [
+                  0.24955527241648204,
+                  0.034638684089351404,
+                  0.2938770398691187
+                ],
+                "step": 50,
+                "time": 0.5,
+                "total_dissipation": 0.5780709963749523,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.01:t=1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.662996912434016,
+                  "concentration_participation": 0.40282508749638024,
+                  "concentration_shannon_kl": 0.2859015337325462,
+                  "entropy": 0.7185381101607335,
+                  "gini": 0.44199794162267736,
+                  "gini_normalized": 0.662996912434016,
+                  "kl_from_uniform": 0.38007417850737624,
+                  "lambda_gini_lorenz": 0.8575657357579719,
+                  "lambda_participation": 0.7476041839836364,
+                  "lambda_shannon_kl": 0.6981864754599596,
+                  "n": 3,
+                  "n_eff_participation": 1.7891903761849264,
+                  "n_eff_shannon": 2.0514320498255363
+                },
+                "modal_eigenvalues": [
+                  -0.4487539404851505,
+                  0.09759657207293716,
+                  0.28012537789949243
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6959129457600297,
+                  0.27117102091395684,
+                  0.03291603332601374
+                ],
+                "reconstruction_absolute_error": 5.551115123125783e-17,
+                "reconstruction_relative_error": 5.551115123125783e-17,
+                "squared_modal_contributions": [
+                  0.20138009910094998,
+                  0.009525090880388018,
+                  0.07847022734333345
+                ],
+                "step": 100,
+                "time": 1.0,
+                "total_dissipation": 0.28937541732467137,
+                "undefined_reason": null
+              }
+            ],
+            "step_size": 0.01,
+            "total_steps": 100
+          },
+          "dt=0.02": {
+            "action_final": -4.331142101588689,
+            "action_initial": -3.402669191443132,
+            "completion": "affine_invariant",
+            "final_time": 1.0,
+            "maximum_action_increase": 0.0,
+            "minimum_state_eigenvalue": 0.5200000000000001,
+            "samples": [
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.02:t=0",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.8564362395170155,
+                  "concentration_participation": 0.7710879509662503,
+                  "concentration_shannon_kl": 0.5785047380618749,
+                  "entropy": 0.39238225388978565,
+                  "gini": 0.5709574930113437,
+                  "gini_normalized": 0.8564362395170155,
+                  "kl_from_uniform": 0.7062300347783241,
+                  "lambda_gini_lorenz": 0.9393228152777415,
+                  "lambda_participation": 0.9032503840966345,
+                  "lambda_shannon_kl": 0.8218551410040033,
+                  "n": 3,
+                  "n_eff_participation": 1.2256986003335986,
+                  "n_eff_shannon": 1.4805035314856865
+                },
+                "modal_eigenvalues": [
+                  -0.4728786632008233,
+                  0.42119381453324245,
+                  1.9047339651236577
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.9004677389491641,
+                  0.055500761618686695,
+                  0.04403149943214906
+                ],
+                "reconstruction_absolute_error": 8.881784197001252e-16,
+                "reconstruction_relative_error": 2.2044473074123163e-16,
+                "squared_modal_contributions": [
+                  0.22361423011059767,
+                  0.17740422940106343,
+                  3.6280114778956913
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 4.029029937407353,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.02:t=0.5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4431369809471014,
+                  "concentration_participation": 0.21705719858118885,
+                  "concentration_shannon_kl": 0.16088011747876474,
+                  "entropy": 0.875936700640825,
+                  "gini": 0.2954246539647343,
+                  "gini_normalized": 0.4431369809471014,
+                  "kl_from_uniform": 0.22267558802728482,
+                  "lambda_gini_lorenz": 0.7646419948990402,
+                  "lambda_participation": 0.6690894357404192,
+                  "lambda_shannon_kl": 0.6453462075347671,
+                  "n": 3,
+                  "n_eff_participation": 2.2337350264763223,
+                  "n_eff_shannon": 2.401123374717182
+                },
+                "modal_eigenvalues": [
+                  -0.4998734185774722,
+                  0.18498451938435628,
+                  0.5362122663118744
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5030010406646819,
+                  0.4371348996177375,
+                  0.05986405971758038
+                ],
+                "reconstruction_absolute_error": 1.1102230246251565e-16,
+                "reconstruction_relative_error": 1.1102230246251565e-16,
+                "squared_modal_contributions": [
+                  0.24987343460032874,
+                  0.03421927241186128,
+                  0.28752359454331644
+                ],
+                "step": 25,
+                "time": 0.5,
+                "total_dissipation": 0.5716163015555066,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "affine_invariant",
+                "defined": true,
+                "label": "timestep:affine_invariant:dt=0.02:t=1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.667669170450588,
+                  "concentration_participation": 0.4089370586301556,
+                  "concentration_shannon_kl": 0.28992678689414075,
+                  "entropy": 0.7136706346667121,
+                  "gini": 0.44511278030039203,
+                  "gini_normalized": 0.667669170450588,
+                  "kl_from_uniform": 0.3849416540013977,
+                  "lambda_gini_lorenz": 0.8595404643509528,
+                  "lambda_participation": 0.7501874069380473,
+                  "lambda_shannon_kl": 0.6998877476251512,
+                  "n": 3,
+                  "n_eff_participation": 1.7768896629630964,
+                  "n_eff_shannon": 2.0414710168040795
+                },
+                "modal_eigenvalues": [
+                  -0.448682266595982,
+                  0.09674678260372208,
+                  0.2771745053611154
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.7002253221923321,
+                  0.26721852606592356,
+                  0.032556151741744414
+                ],
+                "reconstruction_absolute_error": 0.0,
+                "reconstruction_relative_error": 0.0,
+                "squared_modal_contributions": [
+                  0.20131577635770784,
+                  0.00935993994417186,
+                  0.07682570642217898
+                ],
+                "step": 50,
+                "time": 1.0,
+                "total_dissipation": 0.28750142272405865,
+                "undefined_reason": null
+              }
+            ],
+            "step_size": 0.02,
+            "total_steps": 50
+          }
+        },
+        "euclidean": {
+          "dt=0.005": {
+            "action_final": -4.200319063727702,
+            "action_initial": -3.402669191443132,
+            "completion": "euclidean",
+            "final_time": 1.0,
+            "maximum_action_increase": 0.0,
+            "minimum_state_eigenvalue": 0.5200000000000001,
+            "samples": [
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.005:t=0",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4602890974453092,
+                  "concentration_participation": 0.23854054482461493,
+                  "concentration_shannon_kl": 0.18637300612935814,
+                  "entropy": 0.8428208125609831,
+                  "gini": 0.3068593982968728,
+                  "gini_normalized": 0.4602890974453092,
+                  "kl_from_uniform": 0.2557914761071267,
+                  "lambda_gini_lorenz": 0.7718913323198359,
+                  "lambda_participation": 0.6781693662471093,
+                  "lambda_shannon_kl": 0.6561207700605193,
+                  "n": 3,
+                  "n_eff_participation": 2.1743210155088506,
+                  "n_eff_shannon": 2.3229102381632725
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820067,
+                  0.24974017547921593,
+                  0.840899164530174
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602675,
+                  0.4506571853247732,
+                  0.04452685861495875
+                ],
+                "reconstruction_absolute_error": 6.661338147750939e-16,
+                "reconstruction_relative_error": 4.75561525717055e-16,
+                "squared_modal_contributions": [
+                  0.6312495308857398,
+                  0.06237015524838956,
+                  0.7071114049075446
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.4007310910416746,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.005:t=0.5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.5656127258953432,
+                  "concentration_participation": 0.2957607945806642,
+                  "concentration_shannon_kl": 0.20897399730871022,
+                  "entropy": 0.8139132209945691,
+                  "gini": 0.37707515059689545,
+                  "gini_normalized": 0.5656127258953432,
+                  "kl_from_uniform": 0.2846990676735407,
+                  "lambda_gini_lorenz": 0.8164063355322146,
+                  "lambda_participation": 0.7023534894034059,
+                  "lambda_shannon_kl": 0.6656730728985201,
+                  "n": 3,
+                  "n_eff_participation": 2.0271622548688994,
+                  "n_eff_shannon": 2.25672178131956
+                },
+                "modal_eigenvalues": [
+                  -0.5001099469199878,
+                  0.1917703774970163,
+                  0.6769147676161811
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6149697321486002,
+                  0.335673261598143,
+                  0.04935700625325707
+                ],
+                "reconstruction_absolute_error": 1.1102230246251565e-16,
+                "reconstruction_relative_error": 1.1102230246251565e-16,
+                "squared_modal_contributions": [
+                  0.250109959008313,
+                  0.03677587768534814,
+                  0.45821360261686844
+                ],
+                "step": 100,
+                "time": 0.5,
+                "total_dissipation": 0.7450994393105295,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.005:t=1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.6137825239119057,
+                  "concentration_participation": 0.3485621808451962,
+                  "concentration_shannon_kl": 0.23571791466937098,
+                  "entropy": 0.7802377847841857,
+                  "gini": 0.4091883492746038,
+                  "gini_normalized": 0.6137825239119057,
+                  "kl_from_uniform": 0.3183745038839241,
+                  "lambda_gini_lorenz": 0.8367652876971048,
+                  "lambda_participation": 0.724669981094525,
+                  "lambda_shannon_kl": 0.6769763823718182,
+                  "n": 3,
+                  "n_eff_participation": 1.904230238240402,
+                  "n_eff_shannon": 2.1819910480869185
+                },
+                "modal_eigenvalues": [
+                  -0.34375101561880445,
+                  0.1444832503834179,
+                  0.5244193112846272
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6641994252725948,
+                  0.28538367336671633,
+                  0.050416901360689076
+                ],
+                "reconstruction_absolute_error": 5.551115123125783e-17,
+                "reconstruction_relative_error": 5.551115123125783e-17,
+                "squared_modal_contributions": [
+                  0.11816476073895954,
+                  0.020875409641357427,
+                  0.27501561404824265
+                ],
+                "step": 200,
+                "time": 1.0,
+                "total_dissipation": 0.41405578442855956,
+                "undefined_reason": null
+              }
+            ],
+            "step_size": 0.005,
+            "total_steps": 200
+          },
+          "dt=0.01": {
+            "action_final": -4.200919368195982,
+            "action_initial": -3.402669191443132,
+            "completion": "euclidean",
+            "final_time": 1.0,
+            "maximum_action_increase": 0.0,
+            "minimum_state_eigenvalue": 0.5200000000000001,
+            "samples": [
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.01:t=0",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4602890974453092,
+                  "concentration_participation": 0.23854054482461493,
+                  "concentration_shannon_kl": 0.18637300612935814,
+                  "entropy": 0.8428208125609831,
+                  "gini": 0.3068593982968728,
+                  "gini_normalized": 0.4602890974453092,
+                  "kl_from_uniform": 0.2557914761071267,
+                  "lambda_gini_lorenz": 0.7718913323198359,
+                  "lambda_participation": 0.6781693662471093,
+                  "lambda_shannon_kl": 0.6561207700605193,
+                  "n": 3,
+                  "n_eff_participation": 2.1743210155088506,
+                  "n_eff_shannon": 2.3229102381632725
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820067,
+                  0.24974017547921593,
+                  0.840899164530174
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602675,
+                  0.4506571853247732,
+                  0.04452685861495875
+                ],
+                "reconstruction_absolute_error": 6.661338147750939e-16,
+                "reconstruction_relative_error": 4.75561525717055e-16,
+                "squared_modal_contributions": [
+                  0.6312495308857398,
+                  0.06237015524838956,
+                  0.7071114049075446
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.4007310910416746,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.01:t=0.5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.5659046088691699,
+                  "concentration_participation": 0.29603539464516243,
+                  "concentration_shannon_kl": 0.2090988836616096,
+                  "entropy": 0.8137546413763538,
+                  "gini": 0.3772697392461133,
+                  "gini_normalized": 0.5659046088691699,
+                  "kl_from_uniform": 0.284857647291756,
+                  "lambda_gini_lorenz": 0.8165296997925306,
+                  "lambda_participation": 0.7024695490467466,
+                  "lambda_shannon_kl": 0.6657258560819549,
+                  "n": 3,
+                  "n_eff_participation": 2.026492468418474,
+                  "n_eff_shannon": 2.2563639396150106
+                },
+                "modal_eigenvalues": [
+                  -0.49962361992502863,
+                  0.19170243379809418,
+                  0.6767472124912067
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6152756183850948,
+                  0.33535337209898,
+                  0.04937100951592503
+                ],
+                "reconstruction_absolute_error": 1.1102230246251565e-16,
+                "reconstruction_relative_error": 1.1102230246251565e-16,
+                "squared_modal_contributions": [
+                  0.24962376158698946,
+                  0.03674982312411268,
+                  0.45798678961461853
+                ],
+                "step": 50,
+                "time": 0.5,
+                "total_dissipation": 0.7443603743257208,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.01:t=1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.6140974886246157,
+                  "concentration_participation": 0.34895636244047756,
+                  "concentration_shannon_kl": 0.23592468769419447,
+                  "entropy": 0.7799796164782303,
+                  "gini": 0.4093983257497438,
+                  "gini_normalized": 0.6140974886246157,
+                  "kl_from_uniform": 0.31863267218987945,
+                  "lambda_gini_lorenz": 0.8368984074481465,
+                  "lambda_participation": 0.724836581839661,
+                  "lambda_shannon_kl": 0.6770637749350987,
+                  "n": 3,
+                  "n_eff_participation": 1.903354979663017,
+                  "n_eff_shannon": 2.181427799863972
+                },
+                "modal_eigenvalues": [
+                  -0.3432439532920507,
+                  0.14436762263522512,
+                  0.5240796901108191
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6645235850279501,
+                  0.2850503185687153,
+                  0.050426096403334605
+                ],
+                "reconstruction_absolute_error": 0.0,
+                "reconstruction_relative_error": 0.0,
+                "squared_modal_contributions": [
+                  0.11781641147155548,
+                  0.020842010465346766,
+                  0.2746595215866522
+                ],
+                "step": 100,
+                "time": 1.0,
+                "total_dissipation": 0.41331794352355444,
+                "undefined_reason": null
+              }
+            ],
+            "step_size": 0.01,
+            "total_steps": 100
+          },
+          "dt=0.02": {
+            "action_final": -4.202123802378907,
+            "action_initial": -3.402669191443132,
+            "completion": "euclidean",
+            "final_time": 1.0,
+            "maximum_action_increase": 0.0,
+            "minimum_state_eigenvalue": 0.5200000000000001,
+            "samples": [
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.02:t=0",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.4602890974453092,
+                  "concentration_participation": 0.23854054482461493,
+                  "concentration_shannon_kl": 0.18637300612935814,
+                  "entropy": 0.8428208125609831,
+                  "gini": 0.3068593982968728,
+                  "gini_normalized": 0.4602890974453092,
+                  "kl_from_uniform": 0.2557914761071267,
+                  "lambda_gini_lorenz": 0.7718913323198359,
+                  "lambda_participation": 0.6781693662471093,
+                  "lambda_shannon_kl": 0.6561207700605193,
+                  "n": 3,
+                  "n_eff_participation": 2.1743210155088506,
+                  "n_eff_shannon": 2.3229102381632725
+                },
+                "modal_eigenvalues": [
+                  -0.7945121338820067,
+                  0.24974017547921593,
+                  0.840899164530174
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.5048159560602675,
+                  0.4506571853247732,
+                  0.04452685861495875
+                ],
+                "reconstruction_absolute_error": 6.661338147750939e-16,
+                "reconstruction_relative_error": 4.75561525717055e-16,
+                "squared_modal_contributions": [
+                  0.6312495308857398,
+                  0.06237015524838956,
+                  0.7071114049075446
+                ],
+                "step": 0,
+                "time": 0.0,
+                "total_dissipation": 1.4007310910416746,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.02:t=0.5",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.5664947369851516,
+                  "concentration_participation": 0.2965924581320156,
+                  "concentration_shannon_kl": 0.20935248700160436,
+                  "entropy": 0.8134326567196921,
+                  "gini": 0.3776631579901011,
+                  "gini_normalized": 0.5664947369851516,
+                  "kl_from_uniform": 0.28517963194841767,
+                  "lambda_gini_lorenz": 0.8167791172818939,
+                  "lambda_participation": 0.7027049917795094,
+                  "lambda_shannon_kl": 0.6658330414653363,
+                  "n": 3,
+                  "n_eff_participation": 2.0251347350886513,
+                  "n_eff_shannon": 2.2556375419973294
+                },
+                "modal_eigenvalues": [
+                  -0.49864312774146946,
+                  0.19156596555415262,
+                  0.6764111292753272
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6158940890567096,
+                  0.3347065588717327,
+                  0.04939935207155797
+                ],
+                "reconstruction_absolute_error": 2.220446049250313e-16,
+                "reconstruction_relative_error": 2.220446049250313e-16,
+                "squared_modal_contributions": [
+                  0.24864496884379544,
+                  0.036697519158694784,
+                  0.4575320158075234
+                ],
+                "step": 25,
+                "time": 0.5,
+                "total_dissipation": 0.7428745038100134,
+                "undefined_reason": null
+              },
+              {
+                "analytical_domain": "D > 0",
+                "completion": "euclidean",
+                "defined": true,
+                "label": "timestep:euclidean:dt=0.02:t=1",
+                "metrics": {
+                  "baseline": 0.5773502691896258,
+                  "concentration_gini_lorenz": 0.6147330650004476,
+                  "concentration_participation": 0.3497536519717606,
+                  "concentration_shannon_kl": 0.2363433839561142,
+                  "entropy": 0.7794569515624282,
+                  "gini": 0.4098220433336317,
+                  "gini_normalized": 0.6147330650004476,
+                  "kl_from_uniform": 0.31915533710568156,
+                  "lambda_gini_lorenz": 0.8371670336323012,
+                  "lambda_participation": 0.7251735560454358,
+                  "lambda_shannon_kl": 0.6772407367974904,
+                  "n": 3,
+                  "n_eff_participation": 1.9015864857393157,
+                  "n_eff_shannon": 2.180287941994435
+                },
+                "modal_eigenvalues": [
+                  -0.3422242329184048,
+                  0.14413532591375416,
+                  0.5233977287241683
+                ],
+                "numerical_zero_threshold": 1e-24,
+                "raw_normalized_weights": [
+                  0.6651776872638072,
+                  0.2843776904728328,
+                  0.05044462226335985
+                ],
+                "reconstruction_absolute_error": 5.551115123125783e-17,
+                "reconstruction_relative_error": 5.551115123125783e-17,
+                "squared_modal_contributions": [
+                  0.1171174255965906,
+                  0.020774992176264134,
+                  0.2739451824336181
+                ],
+                "step": 50,
+                "time": 1.0,
+                "total_dissipation": 0.41183760020647286,
+                "undefined_reason": null
+              }
+            ],
+            "step_size": 0.02,
+            "total_steps": 50
+          }
+        }
+      }
+    },
+    "stationary_behavior": {
+      "approach_trajectories": {
+        "affine_invariant": {
+          "action_final": -4.530210180187277,
+          "action_initial": -3.402669191443132,
+          "completion": "affine_invariant",
+          "euclidean_gradient_residual": 5.831658599658538e-08,
+          "initial_dissipation": 4.029029937407353,
+          "integrator_time": 26.5,
+          "maximum_action_increase": 0.0,
+          "minimum_accepted_step": 0.25,
+          "samples": [
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "defined": true,
+              "label": "baseline:initial",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.8564362395170155,
+                "concentration_participation": 0.7710879509662503,
+                "concentration_shannon_kl": 0.5785047380618749,
+                "entropy": 0.39238225388978565,
+                "gini": 0.5709574930113437,
+                "gini_normalized": 0.8564362395170155,
+                "kl_from_uniform": 0.7062300347783241,
+                "lambda_gini_lorenz": 0.9393228152777415,
+                "lambda_participation": 0.9032503840966345,
+                "lambda_shannon_kl": 0.8218551410040033,
+                "n": 3,
+                "n_eff_participation": 1.2256986003335986,
+                "n_eff_shannon": 1.4805035314856865
+              },
+              "modal_eigenvalues": [
+                -0.4728786632008233,
+                0.42119381453324245,
+                1.9047339651236577
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9004677389491641,
+                0.055500761618686695,
+                0.04403149943214906
+              ],
+              "reconstruction_absolute_error": 8.881784197001252e-16,
+              "reconstruction_relative_error": 2.2044473074123163e-16,
+              "squared_modal_contributions": [
+                0.22361423011059767,
+                0.17740422940106343,
+                3.6280114778956913
+              ],
+              "step": 0,
+              "time": 0.0,
+              "total_dissipation": 4.029029937407353,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "crossed_ratio_target": 0.01,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-02",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.7989706431591617,
+                "concentration_participation": 0.595201926772003,
+                "concentration_shannon_kl": 0.452274311539638,
+                "entropy": 0.5266193208697445,
+                "gini": 0.5326470954394411,
+                "gini_normalized": 0.7989706431591617,
+                "kl_from_uniform": 0.5719929677983653,
+                "lambda_gini_lorenz": 0.915034996446237,
+                "lambda_participation": 0.8289122033176289,
+                "lambda_shannon_kl": 0.7685038852143011,
+                "n": 3,
+                "n_eff_participation": 1.4554018853956379,
+                "n_eff_shannon": 1.6931984612291964
+              },
+              "modal_eigenvalues": [
+                -0.16181010240320579,
+                0.01778494220652343,
+                0.07665245565264031
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.8087408334473303,
+                0.18148897626450064,
+                0.009770190288168775
+              ],
+              "reconstruction_absolute_error": 1.3877787807814457e-17,
+              "reconstruction_relative_error": 1.3877787807814457e-17,
+              "squared_modal_contributions": [
+                0.026182509239735943,
+                0.0003163041692893784,
+                0.005875598957579989
+              ],
+              "step": 9,
+              "time": 2.25,
+              "total_dissipation": 0.03237441236660532,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "crossed_ratio_target": 0.0001,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-04",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.5723274893461663,
+                "concentration_participation": 0.32340092285288374,
+                "concentration_shannon_kl": 0.3096557903334363,
+                "entropy": 0.6899834737143061,
+                "gini": 0.38155165956411086,
+                "gini_normalized": 0.5723274893461663,
+                "kl_from_uniform": 0.40862881495380365,
+                "lambda_gini_lorenz": 0.8192443284971603,
+                "lambda_participation": 0.7140355821772237,
+                "lambda_shannon_kl": 0.7082262056179264,
+                "n": 3,
+                "n_eff_participation": 1.9613734464096797,
+                "n_eff_shannon": 1.993682584802846
+              },
+              "modal_eigenvalues": [
+                -0.014904800758344102,
+                0.0006529869346166682,
+                0.012838722510393906
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.57342810480465,
+                0.4254712797368661,
+                0.0011006154584837539
+              ],
+              "reconstruction_absolute_error": 5.421010862427522e-20,
+              "reconstruction_relative_error": 5.421010862427522e-20,
+              "squared_modal_contributions": [
+                0.00022215308564593492,
+                4.2639193678007285e-07,
+                0.0001648327956988952
+              ],
+              "step": 18,
+              "time": 4.5,
+              "total_dissipation": 0.00038741227328161024,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "crossed_ratio_target": 1e-06,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-06",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.6492440888663445,
+                "concentration_participation": 0.3799467039033216,
+                "concentration_shannon_kl": 0.3452703434428839,
+                "entropy": 0.6479213440612172,
+                "gini": 0.43282939257756303,
+                "gini_normalized": 0.6492440888663445,
+                "kl_from_uniform": 0.45069094460689263,
+                "lambda_gini_lorenz": 0.8517531085792129,
+                "lambda_participation": 0.7379346413166537,
+                "lambda_shannon_kl": 0.7232786869025661,
+                "n": 3,
+                "n_eff_participation": 1.836386974492543,
+                "n_eff_shannon": 1.9115632141722516
+              },
+              "modal_eigenvalues": [
+                -0.0009932907490458253,
+                -1.2840051737985036e-06,
+                0.0013513841322731002
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.6492446749833378,
+                0.3507547388996687,
+                5.861169935604655e-07
+              ],
+              "reconstruction_absolute_error": 0.0,
+              "reconstruction_relative_error": 0.0,
+              "squared_modal_contributions": [
+                9.866265121400167e-07,
+                1.6486692863413254e-12,
+                1.82623907295952e-06
+              ],
+              "step": 30,
+              "time": 7.5,
+              "total_dissipation": 2.812867233768823e-06,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "crossed_ratio_target": 1e-08,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-08",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.8462939837403596,
+                "concentration_participation": 0.6690852915965951,
+                "concentration_shannon_kl": 0.5431458750805142,
+                "entropy": 0.42908448004896493,
+                "gini": 0.5641959891602397,
+                "gini_normalized": 0.8462939837403596,
+                "kl_from_uniform": 0.6695278086191448,
+                "lambda_gini_lorenz": 0.935036193603928,
+                "lambda_participation": 0.8601389875721075,
+                "lambda_shannon_kl": 0.8069107270831702,
+                "n": 3,
+                "n_eff_participation": 1.3516452831638297,
+                "n_eff_shannon": 1.5358507776658135
+              },
+              "modal_eigenvalues": [
+                -7.776073208639583e-05,
+                -3.395798618793189e-08,
+                0.00018246334168630987
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.846294013052927,
+                0.15370595763450362,
+                2.9312568466580317e-08
+              ],
+              "reconstruction_absolute_error": 3.970466940254533e-23,
+              "reconstruction_relative_error": 3.970466940254533e-23,
+              "squared_modal_contributions": [
+                6.04673145461223e-09,
+                1.153144825939773e-15,
+                3.329287105933506e-08
+              ],
+              "step": 42,
+              "time": 10.5,
+              "total_dissipation": 3.9339603667092156e-08,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "crossed_ratio_target": 1e-10,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-10",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9811555256975897,
+                "concentration_participation": 0.9558416289505565,
+                "concentration_shannon_kl": 0.8919258042285503,
+                "entropy": 0.0935072910396696,
+                "gini": 0.6541036837983931,
+                "gini_normalized": 0.9811555256975897,
+                "kl_from_uniform": 1.00510499762844,
+                "lambda_gini_lorenz": 0.9920353880088233,
+                "lambda_participation": 0.9813364763629281,
+                "lambda_shannon_kl": 0.9543224702496491,
+                "n": 3,
+                "n_eff_participation": 1.0383986532111942,
+                "n_eff_shannon": 1.0980186090093509
+              },
+              "modal_eigenvalues": [
+                -2.722164383496836e-06,
+                -6.733912233324795e-11,
+                1.9642251227086886e-05
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9811555257091221,
+                0.018844474279346598,
+                1.1531617660910979e-11
+              ],
+              "reconstruction_absolute_error": 1.0339757656912846e-25,
+              "reconstruction_relative_error": 1.0339757656912846e-25,
+              "squared_modal_contributions": [
+                7.41017893077871e-12,
+                4.5345573966121334e-21,
+                3.858180332679963e-10
+              ],
+              "step": 57,
+              "time": 14.25,
+              "total_dissipation": 3.9322821220330944e-10,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "crossed_ratio_target": 1e-12,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-12",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9996159294471272,
+                "concentration_participation": 0.9990914538885275,
+                "concentration_shannon_kl": 0.9959757524745529,
+                "entropy": 0.0034045904320823077,
+                "gini": 0.6664106196314181,
+                "gini_normalized": 0.9996159294471272,
+                "kl_from_uniform": 1.0952076982360275,
+                "lambda_gini_lorenz": 0.9998376726842162,
+                "lambda_participation": 0.9996160032305573,
+                "lambda_shannon_kl": 0.9982991528666555,
+                "n": 3,
+                "n_eff_participation": 1.0007684361260376,
+                "n_eff_shannon": 1.0034103926329245
+              },
+              "modal_eigenvalues": [
+                -3.638773555555497e-08,
+                -2.5349843018856297e-14,
+                1.8563766994614381e-06
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9996159294471263,
+                0.000384070552872648,
+                1.8640239985472302e-16
+              ],
+              "reconstruction_absolute_error": 2.8272774843121063e-27,
+              "reconstruction_relative_error": 2.8272774843121063e-27,
+              "squared_modal_contributions": [
+                1.3240672988609992e-15,
+                6.426145410806574e-28,
+                3.4461344503033428e-12
+              ],
+              "step": 75,
+              "time": 18.75,
+              "total_dissipation": 3.4474585176022074e-12,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "affine_invariant",
+              "defined": true,
+              "label": "baseline:terminal-before-exact-stationarity",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9999997876772727,
+                "concentration_participation": 0.9999994976390905,
+                "concentration_shannon_kl": 0.9999958893951804,
+                "entropy": 3.474695059201499e-06,
+                "gini": 0.6666665251181818,
+                "gini_normalized": 0.9999997876772727,
+                "kl_from_uniform": 1.0986088139730505,
+                "lambda_gini_lorenz": 0.9999999102618564,
+                "lambda_participation": 0.9999997876772968,
+                "lambda_shannon_kl": 0.9999982626539795,
+                "n": 3,
+                "n_eff_participation": 1.0000004246455418,
+                "n_eff_shannon": 1.000003474701096
+              },
+              "modal_eigenvalues": [
+                -1.792053210155803e-11,
+                -1.6163143231351094e-15,
+                3.889131391361786e-08
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.999999787677275,
+                2.1232272422285905e-07,
+                1.727214675438483e-15
+              ],
+              "reconstruction_absolute_error": 1.5777218104420236e-30,
+              "reconstruction_relative_error": 1.5777218104420236e-30,
+              "squared_modal_contributions": [
+                3.211454708029718e-22,
+                2.612471991171707e-30,
+                1.5125342979275661e-15
+              ],
+              "step": 106,
+              "time": 26.5,
+              "total_dissipation": 1.512534619073038e-15,
+              "undefined_reason": null
+            }
+          ],
+          "steps": 106,
+          "terminal_dissipation": 1.512534619073038e-15,
+          "terminal_dissipation_ratio": 3.754091288898045e-16
+        },
+        "euclidean": {
+          "action_final": -4.530210180187276,
+          "action_initial": -3.402669191443132,
+          "completion": "euclidean",
+          "euclidean_gradient_residual": 5.395060048998812e-08,
+          "initial_dissipation": 1.4007310910416746,
+          "integrator_time": 32.75,
+          "maximum_action_increase": 0.0,
+          "minimum_accepted_step": 0.25,
+          "samples": [
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "defined": true,
+              "label": "baseline:initial",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.4602890974453092,
+                "concentration_participation": 0.23854054482461493,
+                "concentration_shannon_kl": 0.18637300612935814,
+                "entropy": 0.8428208125609831,
+                "gini": 0.3068593982968728,
+                "gini_normalized": 0.4602890974453092,
+                "kl_from_uniform": 0.2557914761071267,
+                "lambda_gini_lorenz": 0.7718913323198359,
+                "lambda_participation": 0.6781693662471093,
+                "lambda_shannon_kl": 0.6561207700605193,
+                "n": 3,
+                "n_eff_participation": 2.1743210155088506,
+                "n_eff_shannon": 2.3229102381632725
+              },
+              "modal_eigenvalues": [
+                -0.7945121338820067,
+                0.24974017547921593,
+                0.840899164530174
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.5048159560602675,
+                0.4506571853247732,
+                0.04452685861495875
+              ],
+              "reconstruction_absolute_error": 6.661338147750939e-16,
+              "reconstruction_relative_error": 4.75561525717055e-16,
+              "squared_modal_contributions": [
+                0.6312495308857398,
+                0.06237015524838956,
+                0.7071114049075446
+              ],
+              "step": 0,
+              "time": 0.0,
+              "total_dissipation": 1.4007310910416746,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "crossed_ratio_target": 0.01,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-02",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.5004980201787502,
+                "concentration_participation": 0.24895459984213647,
+                "concentration_shannon_kl": 0.1872773360946237,
+                "entropy": 0.8416560771956569,
+                "gini": 0.3336653467858335,
+                "gini_normalized": 0.5004980201787502,
+                "kl_from_uniform": 0.25695621147245284,
+                "lambda_gini_lorenz": 0.7888856226892998,
+                "lambda_participation": 0.6825708637969092,
+                "lambda_shannon_kl": 0.6565029848769025,
+                "n": 3,
+                "n_eff_participation": 2.14636959649907,
+                "n_eff_shannon": 2.320206237486703
+              },
+              "modal_eigenvalues": [
+                -0.06575489392725369,
+                0.022724302117417463,
+                0.07670442622590082
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.5486526123671037,
+                0.40319279544454245,
+                0.048154592188353704
+              ],
+              "reconstruction_absolute_error": 1.734723475976807e-18,
+              "reconstruction_relative_error": 1.734723475976807e-18,
+              "squared_modal_contributions": [
+                0.004323706075384384,
+                0.0005163939067236638,
+                0.005883569002644661
+              ],
+              "step": 14,
+              "time": 3.5,
+              "total_dissipation": 0.01072366898475271,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "crossed_ratio_target": 0.0001,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-04",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.7038056106231132,
+                "concentration_participation": 0.4488297812117319,
+                "concentration_shannon_kl": 0.3389851733178718,
+                "entropy": 0.6552803764423695,
+                "gini": 0.4692037404154088,
+                "gini_normalized": 0.7038056106231132,
+                "kl_from_uniform": 0.4433319122257403,
+                "lambda_gini_lorenz": 0.8748135210623156,
+                "lambda_participation": 0.7670480553984435,
+                "lambda_shannon_kl": 0.7206222614411324,
+                "n": 3,
+                "n_eff_participation": 1.6996318210063202,
+                "n_eff_shannon": 1.9256823576621518
+              },
+              "modal_eigenvalues": [
+                -0.009621105969636414,
+                0.0014540044982591454,
+                0.00581704341553158
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.7202556979056653,
+                0.26329421481178195,
+                0.016450087282552494
+              ],
+              "reconstruction_absolute_error": 2.710505431213761e-20,
+              "reconstruction_relative_error": 2.710505431213761e-20,
+              "squared_modal_contributions": [
+                9.256568007897345e-05,
+                2.114129080957829e-06,
+                3.3837994098179305e-05
+              ],
+              "step": 27,
+              "time": 6.75,
+              "total_dissipation": 0.0001285178032581106,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "crossed_ratio_target": 1e-06,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-06",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9310766262119723,
+                "concentration_participation": 0.8451951422150457,
+                "concentration_shannon_kl": 0.7182159828127083,
+                "entropy": 0.25361311366292566,
+                "gini": 0.6207177508079815,
+                "gini_normalized": 0.9310766262119723,
+                "kl_from_uniform": 0.8449991750051842,
+                "lambda_gini_lorenz": 0.9708695546219472,
+                "lambda_participation": 0.9345717685290508,
+                "lambda_shannon_kl": 0.8809040609891253,
+                "n": 3,
+                "n_eff_participation": 1.1449187941631163,
+                "n_eff_shannon": 1.288673137780437
+              },
+              "modal_eigenvalues": [
+                -0.0010711926709964345,
+                3.698376180472611e-05,
+                0.00028653784993639385
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9321878215388743,
+                0.06670098313422446,
+                0.001111195326901726
+              ],
+              "reconstruction_absolute_error": 6.352747104407253e-22,
+              "reconstruction_relative_error": 6.352747104407253e-22,
+              "squared_modal_contributions": [
+                1.1474537383964757e-06,
+                1.3677986372287178e-09,
+                8.210393944617136e-08
+              ],
+              "step": 43,
+              "time": 10.75,
+              "total_dissipation": 1.2309254764798753e-06,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "crossed_ratio_target": 1e-08,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-08",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9943259909490051,
+                "concentration_participation": 0.9866390788303547,
+                "concentration_shannon_kl": 0.9589247071166589,
+                "entropy": 0.03502584276867502,
+                "gini": 0.6628839939660034,
+                "gini_normalized": 0.9943259909490051,
+                "kl_from_uniform": 1.0635864458994349,
+                "lambda_gini_lorenz": 0.9976018816019814,
+                "lambda_participation": 0.9943530102642708,
+                "lambda_shannon_kl": 0.9826395385198986,
+                "n": 3,
+                "n_eff_participation": 1.0113903703657192,
+                "n_eff_shannon": 1.0356464724260146
+              },
+              "modal_eigenvalues": [
+                -0.0001098165030193131,
+                3.64513022810684e-07,
+                8.279529927606176e-06
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9943369462535327,
+                0.005652098441939209,
+                1.0955304527875996e-05
+              ],
+              "reconstruction_absolute_error": 1.6543612251060553e-24,
+              "reconstruction_relative_error": 1.6543612251060553e-24,
+              "squared_modal_contributions": [
+                1.2059664335390802e-08,
+                1.3286974379858222e-13,
+                6.855061582212633e-11
+              ],
+              "step": 62,
+              "time": 15.5,
+              "total_dissipation": 1.212834782095673e-08,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "crossed_ratio_target": 1e-10,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-10",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9996781900319,
+                "concentration_participation": 0.9992388130095479,
+                "concentration_shannon_kl": 0.9965603031139075,
+                "entropy": 0.0029096894731047546,
+                "gini": 0.6664521266879333,
+                "gini_normalized": 0.9996781900319,
+                "kl_from_uniform": 1.0957025991950051,
+                "lambda_gini_lorenz": 0.9998639871036104,
+                "lambda_participation": 0.999678284523389,
+                "lambda_shannon_kl": 0.9985462130370237,
+                "n": 3,
+                "n_eff_participation": 1.0006437415890104,
+                "n_eff_shannon": 1.0029139267282219
+              },
+              "modal_eigenvalues": [
+                -1.1701251536173331e-05,
+                2.4189418556091466e-09,
+                2.0991539070904884e-07
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9996782327533963,
+                0.00032172452510626523,
+                4.272149714562749e-08
+              ],
+              "reconstruction_absolute_error": 5.169878828456423e-26,
+              "reconstruction_relative_error": 5.169878828456423e-26,
+              "squared_modal_contributions": [
+                1.3691928751279874e-10,
+                5.851279700817821e-18,
+                4.406447125653263e-14
+              ],
+              "step": 82,
+              "time": 20.5,
+              "total_dissipation": 1.3696335783533501e-10,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "crossed_ratio_target": 1e-12,
+              "defined": true,
+              "label": "baseline:D/D0<=1e-12",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9999837529294432,
+                "concentration_participation": 0.9999615595706454,
+                "concentration_shannon_kl": 0.9997688348787384,
+                "entropy": 0.0001954132988262749,
+                "gini": 0.6666558352862955,
+                "gini_normalized": 0.9999837529294432,
+                "kl_from_uniform": 1.0984168753692836,
+                "lambda_gini_lorenz": 0.9999931331800027,
+                "lambda_participation": 0.999983753162881,
+                "lambda_shannon_kl": 0.999902298123726,
+                "n": 3,
+                "n_eff_participation": 1.0000324944661343,
+                "n_eff_shannon": 1.0001954323932487
+              },
+              "modal_eigenvalues": [
+                -1.1605526209351936e-06,
+                1.1689769469965754e-11,
+                4.6779242609900685e-09
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9999837530308983,
+                1.6246867646089825e-05,
+                1.0145539916889241e-10
+              ],
+              "reconstruction_absolute_error": 2.0194839173657902e-28,
+              "reconstruction_relative_error": 2.0194839173657902e-28,
+              "squared_modal_contributions": [
+                1.3468823859595473e-12,
+                1.3665071026094342e-22,
+                2.1882975391559478e-17
+              ],
+              "step": 103,
+              "time": 25.75,
+              "total_dissipation": 1.34690426907159e-12,
+              "undefined_reason": null
+            },
+            {
+              "analytical_domain": "D > 0",
+              "completion": "euclidean",
+              "defined": true,
+              "label": "baseline:terminal-before-exact-stationarity",
+              "metrics": {
+                "baseline": 0.5773502691896258,
+                "concentration_gini_lorenz": 0.9999996765664012,
+                "concentration_participation": 0.9999992347480806,
+                "concentration_shannon_kl": 0.9999938993139382,
+                "entropy": 5.156913291695077e-06,
+                "gini": 0.6666664510442675,
+                "gini_normalized": 0.9999996765664012,
+                "kl_from_uniform": 1.098607131754818,
+                "lambda_gini_lorenz": 0.9999998633008765,
+                "lambda_participation": 0.9999996765664823,
+                "lambda_shannon_kl": 0.9999974215466783,
+                "n": 3,
+                "n_eff_participation": 1.0000006468673495,
+                "n_eff_shannon": 1.0000051569265886
+              },
+              "modal_eigenvalues": [
+                -5.395059176526975e-08,
+                9.176474386995652e-15,
+                3.068236349879456e-11
+              ],
+              "numerical_zero_threshold": 1e-24,
+              "raw_normalized_weights": [
+                0.9999996765664295,
+                3.234335411888904e-07,
+                2.89307137133259e-14
+              ],
+              "reconstruction_absolute_error": 1.1832913578315177e-30,
+              "reconstruction_relative_error": 1.1832913578315177e-30,
+              "squared_modal_contributions": [
+                2.910666351822792e-15,
+                8.420768217518724e-29,
+                9.414074298721608e-22
+              ],
+              "step": 131,
+              "time": 32.75,
+              "total_dissipation": 2.910667293230307e-15,
+              "undefined_reason": null
+            }
+          ],
+          "steps": 131,
+          "terminal_dissipation": 2.910667293230307e-15,
+          "terminal_dissipation_ratio": 2.077962937958167e-15
+        }
+      },
+      "classification": {
+        "absolute_influence": "Transient: D tends to zero for both completions.",
+        "degree_and_dimension": "p is degree zero and n=3 is fixed, so normalized persistence has neither absolute magnitude nor growth scaling.",
+        "exact_stationarity": "Undefined: p_i is 0/0 and is not filled by hand.",
+        "normalized_relative_concentration": "Defined along each finite-D relaxation and can retain a completion/path-dependent nonuniform directional residue; the terminal samples approach a point-mass shape.",
+        "persistent_nonzero_scale": false,
+        "wave_disposition": "TRANSIENT-ONLY"
+      },
+      "exact_stationary_profiles": {
+        "affine_invariant": {
+          "analytical_domain": "D > 0",
+          "completion": "affine_invariant",
+          "defined": false,
+          "label": "exact-stationary-metric",
+          "metrics": null,
+          "modal_eigenvalues": [
+            -7.542838031202309e-16,
+            1.6235182538844241e-16,
+            1.5313068433176224e-15
+          ],
+          "numerical_zero_threshold": 1e-24,
+          "raw_normalized_weights": null,
+          "reconstruction_absolute_error": 2.802596928649634e-45,
+          "reconstruction_relative_error": 2.802596928649634e-45,
+          "squared_modal_contributions": [
+            5.689440556495194e-31,
+            2.63581152069593e-32,
+            2.3449006483913815e-30
+          ],
+          "step": 107,
+          "time": 26.5,
+          "total_dissipation": 2.940202819247863e-30,
+          "undefined_reason": "Total dissipation is numerically zero; normalizing would manufacture a preferred 0/0 distribution."
+        },
+        "euclidean": {
+          "analytical_domain": "D > 0",
+          "completion": "euclidean",
+          "defined": false,
+          "label": "exact-stationary-metric",
+          "metrics": null,
+          "modal_eigenvalues": [
+            -3.7659607383496763e-16,
+            2.263042047941602e-16,
+            1.2743926814737788e-15
+          ],
+          "numerical_zero_threshold": 1e-24,
+          "raw_normalized_weights": null,
+          "reconstruction_absolute_error": 1.0509738482436128e-45,
+          "reconstruction_relative_error": 1.0509738482436128e-45,
+          "squared_modal_contributions": [
+            1.418246028279124e-31,
+            5.121359310751719e-32,
+            1.6240767065939284e-30
+          ],
+          "step": 132,
+          "time": 32.75,
+          "total_dissipation": 1.817114902529357e-30,
+          "undefined_reason": "Total dissipation is numerically zero; normalizing would manufacture a preferred 0/0 distribution."
+        }
+      },
+      "stationary_metric_eigenvalues": [
+        0.6667662827768984,
+        1.1820847687287466,
+        2.190585707056665
+      ]
+    },
+    "validation_summary": {
+      "all_nonnegative": true,
+      "all_normalized": true,
+      "defined_profile_count": 68,
+      "maximum_reconstruction_relative_error": 1.153963144402717e-15,
+      "no_fitted_parameters": true
+    }
+  }
+}

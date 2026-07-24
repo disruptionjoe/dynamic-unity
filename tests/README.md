@@ -47,3 +47,19 @@ influence-redistribution abduction, and conditional finality-knee probes from
 `du_science_council_three_track_comparison.py` collects their receipts into one
 machine-readable comparison surface. It intentionally emits no scalar score,
 vote, automatic winner, or scientific endorsement.
+
+`SWING-DU-PHY-02` adds two live-object users of the same governed method:
+`du_bianconi_physical_influence_probe.py` constructs Euclidean and affine-SPD
+action-dissipation share profiles, while
+`du_record_fisher_influence_probe.py` constructs a `GL(d)`-invariant observed
+score-energy profile. The latter decomposes empirical residual energy, not the
+Fisher-information matrix; expected information contribution remains uniform
+for iid identical records.
+
+`du_physical_influence_selector_comparison.py` keeps those constructions as
+separate receipts and tests their replication/accretion asymptotics without
+inventing a score or winner. Its `NOT_EVALUABLE` disposition for the prior
+incomparable-profile pair means the required physical embedding, matched
+carrier, and independent response law are absent. The reported check counts
+establish deterministic execution only; they do not select a concentration
+functional, identify a unit-bearing physical scale, or promote a claim.

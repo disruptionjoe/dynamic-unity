@@ -1,0 +1,1073 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Binds the comparison to the executed Track A/B objects.",
+        "statement": "The two upstream artifacts are immutable inputs whose candidate contracts and receipts must validate.",
+        "status": "PROJECT_NATIVE"
+      },
+      {
+        "id": "A2",
+        "role": "Prevents averaging completion disagreement.",
+        "statement": "Euclidean and affine Bianconi mobilities remain separate unselected physical-time completions.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Exposes shape asymptotics without inventing physical growth.",
+        "statement": "Identical block replication is a diagnostic only, not a native Bianconi cell-growth law.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Makes all large-N constants and their data-model scope explicit.",
+        "statement": "The record asymptotic uses iid Gaussian records at true theta with q_i distributed chi-square_4.",
+        "status": "IMPORTED"
+      },
+      {
+        "id": "A5",
+        "role": "Separates relative shape from physical scale.",
+        "statement": "A normalized profile is degree zero and cannot supply units or common magnitude without a separate raw map.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A6",
+        "role": "Forces the ordering answer to remain NOT_EVALUABLE.",
+        "statement": "No embedding and independent physical response exist for the old incomparable profile pair.",
+        "status": "PROJECT_NATIVE"
+      }
+    ],
+    "candidate_id": "SWING-DU-PHY-02-TC",
+    "comparators": [
+      "Euclidean versus affine Bianconi completion at shared state",
+      "normalized Bianconi terminal shape versus vanishing raw D",
+      "participation versus Shannon versus native Gini under growth",
+      "record normalized shape versus dimensionless raw score energy",
+      "declared coordinate groups versus transformations outside scope"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "PHYSICAL-INFLUENCE-SELECTOR-PRODUCT",
+      "invariant": "A live DU mechanism generates a normalized influence distribution whose nonuniformity may alter the uniform baseline without choosing a target."
+    },
+    "equations": [
+      "p_i=a_i/sum_j a_j on sum_j a_j>0",
+      "Bianconi: D_X=sum_i a_i^X=-dS/dt",
+      "K-block replication: p_kj=q_j/K and D_K=K D_1",
+      "lambda_2=sqrt(sum_i p_i^2)",
+      "lambda_H=exp[-H(p)/2]",
+      "record: ell_i=q_i/N and sum_i ell_i=2L_N",
+      "chi-square_d: sqrt(N)lambda_2 -> sqrt((d+2)/d)",
+      "chi-square_d: sqrt(N)lambda_H -> exp((psi(d/2+1)-log(d/2))/2)",
+      "chi-square_4 native Gini -> Gamma(5/2)/(sqrt(pi)Gamma(3))=3/8"
+    ],
+    "falsifiers": [
+      "an upstream candidate contract or stored receipt fails recomputation",
+      "modal contributions fail to reconstruct stored raw D or native shape",
+      "block replication misses its exact analytic exponent tuple",
+      "joint declared coordinate transformations change the relevant profile",
+      "a zero normalizer is filled with a preferred distribution",
+      "iid score amplitudes or constants miss chi-square_4 theory",
+      "an individual iid record retains nonzero share as N grows",
+      "a functional is called selected without an independent response law"
+    ],
+    "free_choices": [
+      {
+        "choice": "Replicate each initial Bianconi block over K=1,2,...,1024 powers of two.",
+        "id": "C1",
+        "sensitivity_test": "Require the exact analytic slope tuple (+1,-1/2,-1/2,0,-1).",
+        "why_not_forced": "The fixed-block action has no native K growth."
+      },
+      {
+        "choice": "Use 192 iid chi-square_4 trials for N=64 through 8192.",
+        "id": "C2",
+        "sensitivity_test": "Compare slopes and tail constants with exact Gamma-law predictions.",
+        "why_not_forced": "The grid and Monte Carlo resolution are computational choices."
+      },
+      {
+        "choice": "Use deterministic random seed 2026072403.",
+        "id": "C3",
+        "sensitivity_test": "Analytic constants, broad tolerances, and monotone max-share decay prevent a seed-specific verdict.",
+        "why_not_forced": "Any fixed seed samples the same declared null model."
+      },
+      {
+        "choice": "Report native Gini rather than the prior endpoint-mapped Gini Lambda.",
+        "id": "C4",
+        "sensitivity_test": "Track native Gini beside max share and both effective-count amplitudes.",
+        "why_not_forced": "Gini has no canonical amplitude map; endpoint matching inserts one."
+      }
+    ],
+    "null_models": [
+      "exact Bianconi stationarity: D=0 and normalized profile undefined",
+      "zero record scores: sum ell_i=0 and normalized profile undefined",
+      "identical block replication: Gini shape persists while every modal share vanishes",
+      "iid chi-square_4 records: effective-count amplitudes vanish while Gini tends 3/8"
+    ],
+    "observables": [
+      "three distinct candidate receipts and their exact invariance groups",
+      "initial/terminal Bianconi shape with raw dissipation",
+      "Bianconi block-replication exponents and native Gini limit",
+      "record residual-energy decomposition and GL(4) errors",
+      "record participation/Shannon slopes and analytic prefactors",
+      "record native Gini, maximum share, and raw score-energy limits",
+      "zero-normalizer behavior for all three candidates",
+      "non-scalar selector and scale-relation product"
+    ],
+    "question": "Do the Bianconi Euclidean, Bianconi affine, or record-score influence objects independently select a concentration functional or sustain a non-fitted nonzero physical scale?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "runtime uses pinned NumPy 2.5.1",
+          "pass": true
+        },
+        {
+          "name": "stored Track A candidate contract and receipt validate exactly",
+          "pass": true
+        },
+        {
+          "name": "stored Track B candidate contract and receipt validate exactly",
+          "pass": true
+        },
+        {
+          "name": "Euclidean initial and terminal modal contributions independently reconstruct raw D and native shape",
+          "pass": true
+        },
+        {
+          "name": "affine initial and terminal modal contributions independently reconstruct raw D and native shape",
+          "pass": true
+        },
+        {
+          "name": "Euclidean normalized terminal residue approaches a point shape while raw D vanishes and exact D=0 stays undefined",
+          "pass": true
+        },
+        {
+          "name": "affine normalized terminal residue approaches a point shape while raw D vanishes and exact D=0 stays undefined",
+          "pass": true
+        },
+        {
+          "name": "Euclidean block replication independently gives D~K, participation/Shannon~K^-1/2, native Gini~K^0, and max share~K^-1",
+          "pass": true
+        },
+        {
+          "name": "affine block replication independently gives D~K, participation/Shannon~K^-1/2, native Gini~K^0, and max share~K^-1",
+          "pass": true
+        },
+        {
+          "name": "both Bianconi receipts are invariant under O(3) similarity while nonorthogonal congruence is outside scope",
+          "pass": true
+        },
+        {
+          "name": "record score energy independently satisfies ell=q/N and sum ell=2L_N",
+          "pass": true
+        },
+        {
+          "name": "record score energy is invariant under the declared joint GL(4) reparameterization",
+          "pass": true
+        },
+        {
+          "name": "record zero-score normalizer remains undefined",
+          "pass": true
+        },
+        {
+          "name": "iid record participation amplitude recomputes slope -1/2 and the chi-square_4 prefactor",
+          "pass": true
+        },
+        {
+          "name": "iid record Shannon amplitude recomputes slope -1/2 and its chi-square_4 prefactor",
+          "pass": true
+        },
+        {
+          "name": "iid record native Gini recomputes a nonzero 3/8 shape limit rather than a physical amplitude",
+          "pass": true
+        },
+        {
+          "name": "largest iid record share vanishes with growth",
+          "pass": true
+        },
+        {
+          "name": "dimensionless raw score energy tends to d but remains scale-unassessed without a unit-bearing map",
+          "pass": true
+        },
+        {
+          "name": "Euclidean, affine, and record-score objects remain three separate comparison receipts",
+          "pass": true
+        },
+        {
+          "name": "old incomparable-pair ordering is NOT_EVALUABLE without embedding, matched controls, and an independent response",
+          "pass": true
+        },
+        {
+          "name": "no independent law selects participation, Shannon/KL, or Gini/Lorenz",
+          "pass": true
+        },
+        {
+          "name": "scale product preserves residue-at-zero, finite-sample, persistent-shape, and unassessed distinctions",
+          "pass": true
+        },
+        {
+          "name": "product comparison has no scalar score, vote, winner, bank, seed, or claim promotion",
+          "pass": true
+        },
+        {
+          "name": "no shared failure is attributed to the concept invariant",
+          "pass": true
+        }
+      ],
+      "claim": "All three receipts contain live normalized objects on their nonzero domains, but Bianconi relative shape survives only as raw dissipation vanishes, and iid record participation/Shannon amplitudes vanish while Gini retains shape inequality. No independent functional selector or non-fitted unit-bearing physical scale is identified.",
+      "grade": "OBJECT-FOUND / SELECTOR-OPEN / NO-NONZERO-PHYSICAL-SCALE-IDENTIFIED",
+      "remaining_uncertainty": "Bianconi has no native growth law or selected completion; record-score behavior is data-model and metric conditional; no held-out response functional, cosmological observable, units map, rho, or Lambda is supplied."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not average the Euclidean and affine completions.",
+      "Do not use a check count, vote, or scalar score as scientific evidence.",
+      "Do not replace NOT_EVALUABLE ordering with the old proxy rankings.",
+      "Do not call native Gini persistence a nonzero physical amplitude.",
+      "Do not bank, seed, promote, or externally publish this comparison.",
+      "Any failure localizes to a formalization unless traced to the concept invariant."
+    ],
+    "track": "Physical influence selector and persistence comparison",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 6,
+    "candidate_id": "SWING-DU-PHY-02-TC",
+    "checks_passed": 24,
+    "checks_total": 24,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 8,
+    "free_choice_count": 4,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 4,
+    "observable_count": 8,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "numpy_version": "2.5.1",
+    "pinned_numpy_version": "2.5.1",
+    "probe": "du_physical_influence_selector_comparison",
+    "product_record": {
+      "bank_review": false,
+      "candidate_order": [
+        "bianconi_euclidean",
+        "bianconi_affine",
+        "record_score_fisher"
+      ],
+      "candidate_receipts": {
+        "bianconi_affine": {
+          "block_replication": {
+            "construction": "K identical block-diagonal copies; each modal weight is q_j/K and raw D_K=K D_1. This is a diagnostic, not a native growth law.",
+            "expected_signature": {
+              "lambda_participation": -0.5,
+              "lambda_shannon": -0.5,
+              "max_share": -1.0,
+              "native_gini": 0.0,
+              "raw_total_dissipation": 1.0
+            },
+            "native_gini_spread": 0.0,
+            "rows": [
+              {
+                "block_count": 1,
+                "dimension": 3,
+                "entropy": 0.39238225388978554,
+                "lambda_participation": 0.9032503840966346,
+                "lambda_shannon": 0.8218551410040033,
+                "max_share": 0.9004677389491643,
+                "modal_count": 3,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 4.029029937407352
+              },
+              {
+                "block_count": 2,
+                "dimension": 6,
+                "entropy": 1.0855294344497308,
+                "lambda_participation": 0.638694471704084,
+                "lambda_shannon": 0.5811393433569569,
+                "max_share": 0.45023386947458216,
+                "modal_count": 6,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 8.058059874814704
+              },
+              {
+                "block_count": 4,
+                "dimension": 12,
+                "entropy": 1.7786766150096762,
+                "lambda_participation": 0.45162519204831736,
+                "lambda_shannon": 0.4109275705020016,
+                "max_share": 0.22511693473729108,
+                "modal_count": 12,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 16.11611974962941
+              },
+              {
+                "block_count": 8,
+                "dimension": 24,
+                "entropy": 2.4718237955696214,
+                "lambda_participation": 0.319347235852042,
+                "lambda_shannon": 0.29056967167847847,
+                "max_share": 0.11255846736864554,
+                "modal_count": 24,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 32.23223949925882
+              },
+              {
+                "block_count": 16,
+                "dimension": 48,
+                "entropy": 3.164970976129567,
+                "lambda_participation": 0.22581259602415865,
+                "lambda_shannon": 0.2054637852510008,
+                "max_share": 0.05627923368432277,
+                "modal_count": 48,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 64.46447899851763
+              },
+              {
+                "block_count": 32,
+                "dimension": 96,
+                "entropy": 3.858118156689513,
+                "lambda_participation": 0.15967361792602103,
+                "lambda_shannon": 0.14528483583923915,
+                "max_share": 0.028139616842161385,
+                "modal_count": 96,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 128.92895799703527
+              },
+              {
+                "block_count": 64,
+                "dimension": 192,
+                "entropy": 4.551265337249458,
+                "lambda_participation": 0.11290629801207934,
+                "lambda_shannon": 0.10273189262550039,
+                "max_share": 0.014069808421080693,
+                "modal_count": 192,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 257.85791599407054
+              },
+              {
+                "block_count": 128,
+                "dimension": 384,
+                "entropy": 5.244412517809403,
+                "lambda_participation": 0.07983680896301051,
+                "lambda_shannon": 0.0726424179196196,
+                "max_share": 0.007034904210540346,
+                "modal_count": 384,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 515.7158319881411
+              },
+              {
+                "block_count": 256,
+                "dimension": 768,
+                "entropy": 5.93755969836935,
+                "lambda_participation": 0.05645314900603967,
+                "lambda_shannon": 0.05136594631275015,
+                "max_share": 0.003517452105270173,
+                "modal_count": 768,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 1031.4316639762822
+              },
+              {
+                "block_count": 512,
+                "dimension": 1536,
+                "entropy": 6.630706878929294,
+                "lambda_participation": 0.03991840448150526,
+                "lambda_shannon": 0.036321208959809795,
+                "max_share": 0.0017587260526350866,
+                "modal_count": 1536,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 2062.8633279525643
+              },
+              {
+                "block_count": 1024,
+                "dimension": 3072,
+                "entropy": 7.323854059489239,
+                "lambda_participation": 0.028226574503019835,
+                "lambda_shannon": 0.025682973156375095,
+                "max_share": 0.0008793630263175433,
+                "modal_count": 3072,
+                "native_gini": 0.5709574930113437,
+                "raw_total_dissipation": 4125.726655905129
+              }
+            ],
+            "scale_reading": {
+              "gini": "PERSISTENT_SHAPE_ONLY",
+              "native_growth_law": "SCALE_UNASSESSED",
+              "participation": "FINITE_SAMPLE_AMPLITUDE",
+              "shannon": "FINITE_SAMPLE_AMPLITUDE"
+            },
+            "slopes": {
+              "lambda_participation": -0.5,
+              "lambda_shannon": -0.5000000000000001,
+              "max_share": -1.0,
+              "native_gini": -2.4489259809691876e-17,
+              "raw_total_dissipation": 1.0
+            }
+          },
+          "comparison_id": "SWING-DU-PHY-02-TC-AAI",
+          "completion": "affine_invariant",
+          "decomposition_identity": "D_AI=sum_i eig_i(G^(1/2)(grad S)G^(1/2))^2=-dS/dt",
+          "exact_zero_domain": {
+            "classification": "UNDEFINED",
+            "numerical_zero_threshold": 1e-24,
+            "raw_total_dissipation_recomputed": 2.9402028192478603e-30,
+            "recomputed_weights": null,
+            "stored_defined": false,
+            "stored_weights": null
+          },
+          "growth_scale_relation": "SCALE_UNASSESSED",
+          "initial": {
+            "dissipation_absolute_error": 8.881784197001252e-16,
+            "label": "baseline:initial",
+            "raw_total_dissipation_recomputed": 4.029029937407352,
+            "raw_total_dissipation_stored": 4.029029937407353,
+            "raw_weights_recomputed": [
+              0.9004677389491643,
+              0.0555007616186867,
+              0.04403149943214907
+            ],
+            "raw_weights_stored": [
+              0.9004677389491641,
+              0.055500761618686695,
+              0.04403149943214906
+            ],
+            "shape_max_absolute_error": 1.1102230246251565e-16,
+            "shape_recomputed": {
+              "dimension": 3,
+              "entropy": 0.39238225388978554,
+              "lambda_participation": 0.9032503840966346,
+              "lambda_shannon": 0.8218551410040033,
+              "max_share": 0.9004677389491643,
+              "native_gini": 0.5709574930113437
+            },
+            "shape_stored_native": {
+              "entropy": 0.39238225388978565,
+              "lambda_participation": 0.9032503840966345,
+              "lambda_shannon": 0.8218551410040033,
+              "max_share": 0.9004677389491641,
+              "native_gini": 0.5709574930113437
+            },
+            "step": 0,
+            "time": 0.0,
+            "weight_max_absolute_error": 2.220446049250313e-16
+          },
+          "invariance_group": "simultaneous orthogonal similarity O(3); arbitrary congruence and nonlinear coordinates not claimed",
+          "invariance_scope_recomputed": {
+            "maximum_orthogonal_profile_error": 2.220446049250313e-16,
+            "nonorthogonal_congruence_profile_change": 0.08357297458495294,
+            "not_claimed": [
+              "arbitrary GL(3) congruence",
+              "nonlinear reparameterization",
+              "canonical labels through eigenvalue degeneracy"
+            ],
+            "orthogonal_trials": 6,
+            "valid_group": "O(3) simultaneous orthogonal similarity"
+          },
+          "persistence_relation": "NORMALIZED_RESIDUE_AT_ZERO_ACTIVITY",
+          "selector": "NONE",
+          "source_candidate_id": "SWING-DU-PHY-02-TA",
+          "terminal": {
+            "dissipation_absolute_error": 1.5777218104420236e-30,
+            "label": "baseline:terminal-before-exact-stationarity",
+            "raw_total_dissipation_recomputed": 1.5125346190730396e-15,
+            "raw_total_dissipation_stored": 1.512534619073038e-15,
+            "raw_weights_recomputed": [
+              0.999999787677274,
+              2.123227242228588e-07,
+              1.7272146754384811e-15
+            ],
+            "raw_weights_stored": [
+              0.999999787677275,
+              2.1232272422285905e-07,
+              1.727214675438483e-15
+            ],
+            "shape_max_absolute_error": 2.220446049250313e-16,
+            "shape_recomputed": {
+              "dimension": 3,
+              "entropy": 3.4746950593125204e-06,
+              "lambda_participation": 0.9999997876772966,
+              "lambda_shannon": 0.9999982626539795,
+              "max_share": 0.999999787677274,
+              "native_gini": 0.6666665251181818
+            },
+            "shape_stored_native": {
+              "entropy": 3.474695059201499e-06,
+              "lambda_participation": 0.9999997876772968,
+              "lambda_shannon": 0.9999982626539795,
+              "max_share": 0.999999787677275,
+              "native_gini": 0.6666665251181818
+            },
+            "step": 106,
+            "time": 26.5,
+            "weight_max_absolute_error": 9.992007221626409e-16
+          },
+          "terminal_max_share": 0.999999787677274,
+          "terminal_over_initial_raw_dissipation": 3.75409128889805e-16
+        },
+        "bianconi_euclidean": {
+          "block_replication": {
+            "construction": "K identical block-diagonal copies; each modal weight is q_j/K and raw D_K=K D_1. This is a diagnostic, not a native growth law.",
+            "expected_signature": {
+              "lambda_participation": -0.5,
+              "lambda_shannon": -0.5,
+              "max_share": -1.0,
+              "native_gini": 0.0,
+              "raw_total_dissipation": 1.0
+            },
+            "native_gini_spread": 2.220446049250313e-16,
+            "rows": [
+              {
+                "block_count": 1,
+                "dimension": 3,
+                "entropy": 0.842820812560983,
+                "lambda_participation": 0.6781693662471093,
+                "lambda_shannon": 0.6561207700605193,
+                "max_share": 0.5048159560602679,
+                "modal_count": 3,
+                "native_gini": 0.3068593982968728,
+                "raw_total_dissipation": 1.400731091041674
+              },
+              {
+                "block_count": 2,
+                "dimension": 6,
+                "entropy": 1.5359679931209282,
+                "lambda_participation": 0.4795381576663144,
+                "lambda_shannon": 0.4639474457871327,
+                "max_share": 0.25240797803013393,
+                "modal_count": 6,
+                "native_gini": 0.3068593982968726,
+                "raw_total_dissipation": 2.801462182083348
+              },
+              {
+                "block_count": 4,
+                "dimension": 12,
+                "entropy": 2.229115173680874,
+                "lambda_participation": 0.33908468312355466,
+                "lambda_shannon": 0.3280603850302596,
+                "max_share": 0.12620398901506696,
+                "modal_count": 12,
+                "native_gini": 0.3068593982968728,
+                "raw_total_dissipation": 5.602924364166696
+              },
+              {
+                "block_count": 8,
+                "dimension": 24,
+                "entropy": 2.922262354240819,
+                "lambda_participation": 0.23976907883315718,
+                "lambda_shannon": 0.23197372289356635,
+                "max_share": 0.06310199450753348,
+                "modal_count": 24,
+                "native_gini": 0.3068593982968726,
+                "raw_total_dissipation": 11.205848728333391
+              },
+              {
+                "block_count": 16,
+                "dimension": 48,
+                "entropy": 3.615409534800764,
+                "lambda_participation": 0.16954234156177733,
+                "lambda_shannon": 0.16403019251512982,
+                "max_share": 0.03155099725376674,
+                "modal_count": 48,
+                "native_gini": 0.3068593982968728,
+                "raw_total_dissipation": 22.411697456666783
+              },
+              {
+                "block_count": 32,
+                "dimension": 96,
+                "entropy": 4.30855671536071,
+                "lambda_participation": 0.11988453941657859,
+                "lambda_shannon": 0.11598686144678316,
+                "max_share": 0.01577549862688337,
+                "modal_count": 96,
+                "native_gini": 0.3068593982968726,
+                "raw_total_dissipation": 44.823394913333566
+              },
+              {
+                "block_count": 64,
+                "dimension": 192,
+                "entropy": 5.001703895920656,
+                "lambda_participation": 0.08477117078088867,
+                "lambda_shannon": 0.08201509625756487,
+                "max_share": 0.007887749313441685,
+                "modal_count": 192,
+                "native_gini": 0.3068593982968728,
+                "raw_total_dissipation": 89.64678982666713
+              },
+              {
+                "block_count": 128,
+                "dimension": 384,
+                "entropy": 5.694851076480601,
+                "lambda_participation": 0.059942269708289295,
+                "lambda_shannon": 0.057993430723391554,
+                "max_share": 0.003943874656720843,
+                "modal_count": 384,
+                "native_gini": 0.3068593982968726,
+                "raw_total_dissipation": 179.29357965333426
+              },
+              {
+                "block_count": 256,
+                "dimension": 768,
+                "entropy": 6.387998257040547,
+                "lambda_participation": 0.04238558539044433,
+                "lambda_shannon": 0.041007548128782434,
+                "max_share": 0.0019719373283604213,
+                "modal_count": 768,
+                "native_gini": 0.3068593982968728,
+                "raw_total_dissipation": 358.5871593066685
+              },
+              {
+                "block_count": 512,
+                "dimension": 1536,
+                "entropy": 7.081145437600491,
+                "lambda_participation": 0.029971134854144647,
+                "lambda_shannon": 0.028996715361695787,
+                "max_share": 0.0009859686641802107,
+                "modal_count": 1536,
+                "native_gini": 0.3068593982968726,
+                "raw_total_dissipation": 717.174318613337
+              },
+              {
+                "block_count": 1024,
+                "dimension": 3072,
+                "entropy": 7.7742926181604375,
+                "lambda_participation": 0.021192792695222167,
+                "lambda_shannon": 0.020503774064391213,
+                "max_share": 0.0004929843320901053,
+                "modal_count": 3072,
+                "native_gini": 0.3068593982968728,
+                "raw_total_dissipation": 1434.348637226674
+              }
+            ],
+            "scale_reading": {
+              "gini": "PERSISTENT_SHAPE_ONLY",
+              "native_growth_law": "SCALE_UNASSESSED",
+              "participation": "FINITE_SAMPLE_AMPLITUDE",
+              "shannon": "FINITE_SAMPLE_AMPLITUDE"
+            },
+            "slopes": {
+              "lambda_participation": -0.5,
+              "lambda_shannon": -0.5000000000000001,
+              "max_share": -1.0,
+              "native_gini": 0.0,
+              "raw_total_dissipation": 0.9999999999999999
+            }
+          },
+          "comparison_id": "SWING-DU-PHY-02-TC-AE",
+          "completion": "euclidean",
+          "decomposition_identity": "D_E=sum_i eig_i(grad S)^2=-dS/dt",
+          "exact_zero_domain": {
+            "classification": "UNDEFINED",
+            "numerical_zero_threshold": 1e-24,
+            "raw_total_dissipation_recomputed": 1.817114902529358e-30,
+            "recomputed_weights": null,
+            "stored_defined": false,
+            "stored_weights": null
+          },
+          "growth_scale_relation": "SCALE_UNASSESSED",
+          "initial": {
+            "dissipation_absolute_error": 6.661338147750939e-16,
+            "label": "baseline:initial",
+            "raw_total_dissipation_recomputed": 1.400731091041674,
+            "raw_total_dissipation_stored": 1.4007310910416746,
+            "raw_weights_recomputed": [
+              0.5048159560602679,
+              0.45065718532477345,
+              0.044526858614958774
+            ],
+            "raw_weights_stored": [
+              0.5048159560602675,
+              0.4506571853247732,
+              0.04452685861495875
+            ],
+            "shape_max_absolute_error": 1.1102230246251565e-16,
+            "shape_recomputed": {
+              "dimension": 3,
+              "entropy": 0.842820812560983,
+              "lambda_participation": 0.6781693662471093,
+              "lambda_shannon": 0.6561207700605193,
+              "max_share": 0.5048159560602679,
+              "native_gini": 0.3068593982968728
+            },
+            "shape_stored_native": {
+              "entropy": 0.8428208125609831,
+              "lambda_participation": 0.6781693662471093,
+              "lambda_shannon": 0.6561207700605193,
+              "max_share": 0.5048159560602675,
+              "native_gini": 0.3068593982968728
+            },
+            "step": 0,
+            "time": 0.0,
+            "weight_max_absolute_error": 3.3306690738754696e-16
+          },
+          "invariance_group": "simultaneous orthogonal similarity O(3); arbitrary congruence and nonlinear coordinates not claimed",
+          "invariance_scope_recomputed": {
+            "maximum_orthogonal_profile_error": 5.551115123125783e-16,
+            "nonorthogonal_congruence_profile_change": 0.42671639230552405,
+            "not_claimed": [
+              "arbitrary GL(3) congruence",
+              "nonlinear reparameterization",
+              "canonical labels through eigenvalue degeneracy"
+            ],
+            "orthogonal_trials": 6,
+            "valid_group": "O(3) simultaneous orthogonal similarity"
+          },
+          "persistence_relation": "NORMALIZED_RESIDUE_AT_ZERO_ACTIVITY",
+          "selector": "NONE",
+          "source_candidate_id": "SWING-DU-PHY-02-TA",
+          "terminal": {
+            "dissipation_absolute_error": 1.1832913578315177e-30,
+            "label": "baseline:terminal-before-exact-stationarity",
+            "raw_total_dissipation_recomputed": 2.910667293230306e-15,
+            "raw_total_dissipation_stored": 2.910667293230307e-15,
+            "raw_weights_recomputed": [
+              0.99999967656643,
+              3.234335411888906e-07,
+              2.8930713713325915e-14
+            ],
+            "raw_weights_stored": [
+              0.9999996765664295,
+              3.234335411888904e-07,
+              2.89307137133259e-14
+            ],
+            "shape_max_absolute_error": 2.220446049250313e-16,
+            "shape_recomputed": {
+              "dimension": 3,
+              "entropy": 5.156913291584055e-06,
+              "lambda_participation": 0.9999996765664823,
+              "lambda_shannon": 0.9999974215466785,
+              "max_share": 0.99999967656643,
+              "native_gini": 0.6666664510442677
+            },
+            "shape_stored_native": {
+              "entropy": 5.156913291695077e-06,
+              "lambda_participation": 0.9999996765664823,
+              "lambda_shannon": 0.9999974215466783,
+              "max_share": 0.9999996765664295,
+              "native_gini": 0.6666664510442675
+            },
+            "step": 131,
+            "time": 32.75,
+            "weight_max_absolute_error": 4.440892098500626e-16
+          },
+          "terminal_max_share": 0.99999967656643,
+          "terminal_over_initial_raw_dissipation": 2.0779629379581675e-15
+        },
+        "record_score_fisher": {
+          "absolute_scale_relation": "SCALE_UNASSESSED",
+          "comparison_id": "SWING-DU-PHY-02-TC-BF",
+          "decomposition_identity": "sum_i ell_i=2L_N for common Sigma",
+          "invariance_scope_recomputed": {
+            "common_covariance_identity": "sum_i ell_i=2L_N",
+            "ell_equals_q_over_n_error": 5.551115123125783e-17,
+            "gl_leverage_max_error": 1.3877787807814457e-16,
+            "gl_weight_max_error": 4.163336342344337e-17,
+            "not_claimed": [
+              "nonlinear finite-coordinate transformations",
+              "correlated-record additivity",
+              "iid I_N=N Sigma^-1 for heteroskedastic records"
+            ],
+            "residual_energy_identity_error": 0.0,
+            "valid_group": "GL(4) joint linear reparameterization of records, theta, and common covariance; record permutations are equivariant",
+            "zero_domain": {
+              "classification": "UNDEFINED",
+              "normalizer": 0.0,
+              "weights": null
+            }
+          },
+          "large_N_recomputed": {
+            "data_model": "iid Gaussian at true theta; q_i~chi-square_4, ell_i=q_i/N, p_i=q_i/sum q",
+            "dimension": 4,
+            "measured_tail_constants": {
+              "gini_limit": 0.3743893415464882,
+              "participation_prefactor": 1.2241727142382428,
+              "raw_score_energy_limit": 3.999197935187086,
+              "shannon_prefactor": 1.1213219096564753
+            },
+            "native_relations": {
+              "gini": "PERSISTENT_SHAPE_ONLY",
+              "max_individual_share": "VANISHES",
+              "participation": "FINITE_SAMPLE_AMPLITUDE",
+              "raw_score_energy": "SCALE_UNASSESSED",
+              "shannon": "FINITE_SAMPLE_AMPLITUDE"
+            },
+            "relative_constant_errors": {
+              "gini_limit": 0.0016284225426982009,
+              "participation_prefactor": 0.0004671643594604568,
+              "raw_score_energy_limit": 0.00020051620322847352,
+              "shannon_prefactor": 0.00031026332034579196
+            },
+            "rows": [
+              {
+                "mean_lambda_participation": 0.15280893694863917,
+                "mean_lambda_shannon": 0.14015397568218668,
+                "mean_max_share": 0.0536933865187015,
+                "mean_native_gini": 0.37125448239551256,
+                "mean_raw_score_energy": 4.031447306022276,
+                "record_count": 64
+              },
+              {
+                "mean_lambda_participation": 0.1081029262683727,
+                "mean_lambda_shannon": 0.09910509761199542,
+                "mean_max_share": 0.02967365904336433,
+                "mean_native_gini": 0.37269768550700677,
+                "mean_raw_score_energy": 4.01869441436842,
+                "record_count": 128
+              },
+              {
+                "mean_lambda_participation": 0.07641855960348364,
+                "mean_lambda_shannon": 0.07007448221288054,
+                "mean_max_share": 0.016222016037392987,
+                "mean_native_gini": 0.3732699272901943,
+                "mean_raw_score_energy": 4.004776936054195,
+                "record_count": 256
+              },
+              {
+                "mean_lambda_participation": 0.05407478162994761,
+                "mean_lambda_shannon": 0.04953419260657799,
+                "mean_max_share": 0.00901115916519021,
+                "mean_native_gini": 0.37321560738549014,
+                "mean_raw_score_energy": 4.0075244419149945,
+                "record_count": 512
+              },
+              {
+                "mean_lambda_participation": 0.03819178946983657,
+                "mean_lambda_shannon": 0.03500973518136014,
+                "mean_max_share": 0.004788982711674834,
+                "mean_native_gini": 0.3728505834620883,
+                "mean_raw_score_energy": 4.000381850322358,
+                "record_count": 1024
+              },
+              {
+                "mean_lambda_participation": 0.027067662920290208,
+                "mean_lambda_shannon": 0.024787906865360792,
+                "mean_max_share": 0.0025879507438383905,
+                "mean_native_gini": 0.3750821925739945,
+                "mean_raw_score_energy": 3.9983135332768556,
+                "record_count": 2048
+              },
+              {
+                "mean_lambda_participation": 0.01914312320440935,
+                "mean_lambda_shannon": 0.0175267006301652,
+                "mean_max_share": 0.0014178466002370523,
+                "mean_native_gini": 0.37492807775013537,
+                "mean_raw_score_energy": 4.000737343649148,
+                "record_count": 4096
+              },
+              {
+                "mean_lambda_participation": 0.01352840137287998,
+                "mean_lambda_shannon": 0.01239088251095718,
+                "mean_max_share": 0.0007423648091806675,
+                "mean_native_gini": 0.3746965123997346,
+                "mean_raw_score_energy": 3.997359013499983,
+                "record_count": 8192
+              }
+            ],
+            "scale_note": "The dimensionless raw score-energy tends to d, but no unit-bearing or cosmological map is supplied. Native Gini is inequality only; the endpoint-mapped Gini Lambda is excluded.",
+            "seed_stream": "main seed after invariance diagnostics",
+            "slopes": {
+              "lambda_participation": -0.49958271892187633,
+              "lambda_shannon": -0.4999176625836625,
+              "max_share": -0.8812923799928093,
+              "native_gini": 0.0018546373403398957,
+              "raw_score_energy": -0.0015193363162553679
+            },
+            "theory": {
+              "gini_limit": 0.375,
+              "max_share_asymptotic": "O(log N / N), hence zero",
+              "participation_prefactor": 1.224744871391589,
+              "raw_score_energy_limit": 4.0,
+              "shannon_prefactor": 1.1216699226910214
+            },
+            "trials_per_record_count": 192
+          },
+          "persistence_relation": {
+            "gini": "PERSISTENT_SHAPE_ONLY",
+            "max_individual_share": "VANISHES",
+            "participation": "FINITE_SAMPLE_AMPLITUDE",
+            "shannon": "FINITE_SAMPLE_AMPLITUDE"
+          },
+          "selector": "NONE",
+          "source_candidate_id": "DU-PHY-02-TB-RECORD-FISHER"
+        }
+      },
+      "claim_promotion": false,
+      "disagreement_attribution": {
+        "bianconi_euclidean_vs_affine": "COMPLETION",
+        "bianconi_vs_record": [
+          "INDEX_SET",
+          "DATA_MODEL",
+          "METRIC",
+          "EVOLUTION_VARIABLE",
+          "GROWTH_MAP_ABSENT_FOR_BIANCONI"
+        ],
+        "concept_invariant_failure": false,
+        "participation_shannon_vs_gini": "FUNCTIONAL_ROLE"
+      },
+      "old_incomparable_pair": {
+        "contract_answer": "NOT_IDENTIFIED",
+        "embedding_into_each_physical_state_space": null,
+        "independent_response_functional": null,
+        "left_counts": [
+          37,
+          1,
+          1,
+          1
+        ],
+        "matched_raw_carrier_and_controls": null,
+        "ordering_status": "NOT_EVALUABLE",
+        "reason": "The physical candidates output profiles. No map embeds both old profiles into all three candidate state spaces at matched raw carrier, and no held-out physical response orders those states.",
+        "right_counts": [
+          36,
+          4,
+          0,
+          0
+        ]
+      },
+      "prediction_seed": false,
+      "record_type": "NON_SCALAR_PRODUCT_RECORD",
+      "scalar_score": null,
+      "scale_relations": {
+        "bianconi_affine_relaxation": "NORMALIZED_RESIDUE_AT_ZERO_ACTIVITY",
+        "bianconi_euclidean_relaxation": "NORMALIZED_RESIDUE_AT_ZERO_ACTIVITY",
+        "bianconi_growth": "SCALE_UNASSESSED",
+        "record_absolute": "SCALE_UNASSESSED",
+        "record_gini": "PERSISTENT_SHAPE_ONLY",
+        "record_participation": "FINITE_SAMPLE_AMPLITUDE",
+        "record_shannon": "FINITE_SAMPLE_AMPLITUDE"
+      },
+      "scientific_endorsement_from_check_count": false,
+      "selector_evidence": {
+        "gini_lorenz": null,
+        "independent_conservation_additivity_or_prediction_law": null,
+        "participation": null,
+        "shannon_kl": null
+      },
+      "selector_relation": "SELECTOR_OPEN",
+      "verdict": "OBJECT-FOUND / SELECTOR-OPEN",
+      "verdict_scope": "Three live normalized objects survive their declared algebra and coordinate groups. No independent functional selector or unit-bearing nonzero physical scale survives the comparison.",
+      "vote": null,
+      "winner": null
+    },
+    "scientific_reading": "Object construction succeeds at conditional grade. The selector and physical-scale questions remain open; normalized persistence is not absolute persistence.",
+    "seed": 2026072403,
+    "source_validation": {
+      "track_a": {
+        "artifact_sha256": "9c2df4fc74bac7685a2c7b71da8a8f3f8e2f3b49b3020417653dce495c5abec5",
+        "candidate_id": "SWING-DU-PHY-02-TA",
+        "contract_complete": true,
+        "contract_errors": [],
+        "path": "tests/artifacts/du_bianconi_physical_influence_probe_result.json",
+        "recomputed_receipt": {
+          "admission": "CONDITIONAL_CANDIDATE",
+          "assumption_count": 6,
+          "candidate_id": "SWING-DU-PHY-02-TA",
+          "checks_passed": 16,
+          "checks_total": 16,
+          "contract_errors": [],
+          "contract_status": "COMPLETE",
+          "falsifier_count": 5,
+          "free_choice_count": 5,
+          "instrument": "du-conditional-candidate-v1",
+          "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+          "null_model_count": 3,
+          "observable_count": 6,
+          "scientific_endorsement": false,
+          "warrants": [
+            "DERIVED",
+            "CONDITIONALLY_ENTAILED",
+            "CONSTRUCTIVELY_REALIZED"
+          ]
+        },
+        "scientific_endorsement": false,
+        "stored_receipt": {
+          "admission": "CONDITIONAL_CANDIDATE",
+          "assumption_count": 6,
+          "candidate_id": "SWING-DU-PHY-02-TA",
+          "checks_passed": 16,
+          "checks_total": 16,
+          "contract_errors": [],
+          "contract_status": "COMPLETE",
+          "falsifier_count": 5,
+          "free_choice_count": 5,
+          "instrument": "du-conditional-candidate-v1",
+          "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+          "null_model_count": 3,
+          "observable_count": 6,
+          "scientific_endorsement": false,
+          "warrants": [
+            "DERIVED",
+            "CONDITIONALLY_ENTAILED",
+            "CONSTRUCTIVELY_REALIZED"
+          ]
+        },
+        "stored_receipt_matches_recomputed": true
+      },
+      "track_b": {
+        "artifact_sha256": "cd33b66d54e53706f79e6c1cbf4d96179e245251fb4a855527217ca72622e3cf",
+        "candidate_id": "DU-PHY-02-TB-RECORD-FISHER",
+        "contract_complete": true,
+        "contract_errors": [],
+        "path": "tests/artifacts/du_record_fisher_influence_probe_result.json",
+        "recomputed_receipt": {
+          "admission": "CONDITIONAL_CANDIDATE",
+          "assumption_count": 7,
+          "candidate_id": "DU-PHY-02-TB-RECORD-FISHER",
+          "checks_passed": 30,
+          "checks_total": 30,
+          "contract_errors": [],
+          "contract_status": "COMPLETE",
+          "falsifier_count": 7,
+          "free_choice_count": 5,
+          "instrument": "du-conditional-candidate-v1",
+          "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+          "null_model_count": 5,
+          "observable_count": 7,
+          "scientific_endorsement": false,
+          "warrants": [
+            "DERIVED",
+            "CONDITIONALLY_ENTAILED",
+            "CONSTRUCTIVELY_REALIZED",
+            "STRUCTURAL_ANALOGY"
+          ]
+        },
+        "scientific_endorsement": false,
+        "stored_receipt": {
+          "admission": "CONDITIONAL_CANDIDATE",
+          "assumption_count": 7,
+          "candidate_id": "DU-PHY-02-TB-RECORD-FISHER",
+          "checks_passed": 30,
+          "checks_total": 30,
+          "contract_errors": [],
+          "contract_status": "COMPLETE",
+          "falsifier_count": 7,
+          "free_choice_count": 5,
+          "instrument": "du-conditional-candidate-v1",
+          "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+          "null_model_count": 5,
+          "observable_count": 7,
+          "scientific_endorsement": false,
+          "warrants": [
+            "DERIVED",
+            "CONDITIONALLY_ENTAILED",
+            "CONSTRUCTIVELY_REALIZED",
+            "STRUCTURAL_ANALOGY"
+          ]
+        },
+        "stored_receipt_matches_recomputed": true
+      }
+    }
+  }
+}

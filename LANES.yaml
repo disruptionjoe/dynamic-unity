@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 9
+manifest_revision: 10
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -59,6 +59,7 @@ strategic_reprioritization:
     K-null spectral halves to no J-self-adjoint realization, externality, sigma=w1, or exactly one
     external bit. The reprioritization remains historical provenance but no longer directs work.
 science_council_reprioritization:
+  status: completed_predecessor__next_move_executed_by_SWING_DU_PHY_02
   date: '2026-07-23'
   authority: >-
     Joe direct chat: orchestrate a swing across entropy-geometry robustness,
@@ -107,6 +108,52 @@ science_council_reprioritization:
     then test whether the physics selects a functional and sustains concentration without fitting
     rho or Lambda. Do not add proxies, retune the Bianconi coefficient/mean, or refit a finality
     knee before those tracks' stop conditions are lifted.
+  successor_swing: "SWING-DU-PHY-02"
+physical_influence_reprioritization:
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: orchestrate the next wave of actions after SWING-DU-SCI-01. Execute the
+    physical-influence next move as bounded constructions, apply an independent hard-kill audit,
+    integrate the result, and avoid circling the branch without a buildable breakthrough.
+  active_swing: "SWING-DU-PHY-02"
+  active_swing_status: "COMPLETED_RESEARCH_SWING"
+  contract_ref: >-
+    explorations/physical-influence-selector-wave-contract-2026-07-24.md
+  pre_result_audit_ref: >-
+    explorations/physical-influence-selector-adversarial-audit-2026-07-24.md
+  result_ref: >-
+    explorations/physical-influence-selector-wave-synthesis-2026-07-24.md
+  pre_result_correction: >-
+    Record leverage decomposes observed residual energy (sum ell_i=2L_N), not the
+    Fisher-information matrix. Pointwise GL(d) invariance does not make a Euclidean trajectory
+    covariant, so the specimen uses a labeled Fisher-natural mobility. The old incomparable-pair
+    question is NOT_EVALUABLE without a physical embedding, matched raw carrier, and independent
+    response law.
+  swing_result: >-
+    Euclidean and affine Bianconi completions each construct an exact O(3)-invariant
+    dissipation-share profile, but disagree at the same state; raw D vanishes and the exact
+    stationary profile is undefined. Record score energy constructs a GL(d)-invariant live
+    profile, but expected iid Fisher contribution is uniform; participation and Shannon amplitudes
+    fall as N^-1/2, every individual share vanishes, and only relative Gini shape persists.
+    Independent block replication yields the same (-1/2,-1/2,0) functional split. No functional
+    selector, unit-bearing observable map, nonzero physical scale, rho, Lambda value, banked claim,
+    or prediction seed is identified.
+  disposition: >-
+    OBJECTS-FOUND / SELECTOR-OPEN / NO-NONZERO-PHYSICAL-SCALE-IDENTIFIED.
+    CONCEPT-DU-001 is supported by live objects at formalization grade; selector, scale, and value
+    remain open. The bounded physicalization reopener is consumed.
+  influence_reopener: >-
+    Reopen only when one construction supplies all three: an independently motivated response law,
+    a matched embedding of a held-out incomparable profile pair, and a unit-bearing map from the
+    response to the proposed physical observable. Stop proxy, coefficient, rho, and normalized-
+    profile proliferation.
+  next_move: >-
+    Restore the already-prioritized coupled HC-DU-011 + HC-DU-022 order-first causal scale
+    generator as the next major build: a label-invariant causet growth/action law whose
+    past-cardinality feeds back, reconstructs geometry, and endogenously generates a dimensional
+    memory scale before cosmological calibration. Finality remains stopped without a
+    finality-specific observable; Bianconi amplitude/mean remains stopped without native screening
+    or a selected mobility.
 lanes:
 - id: '1'
   label: Lane 1
@@ -150,11 +197,13 @@ lanes:
       GU's current operator bridge does not prove its physical externality or sigma=w1. Do NOT state
       "Λ~1/√N is derived" flatly.
     live_target: >-
-      Identify the physical influence/correlation object that selects the half-power class and ask
-      whether its dynamics also supplies a nonzero persistent concentration or screens the extensive
-      mean. First bounded move: compare basis-invariant entropy-dissipation weights from the Bianconi
-      flow with record/Fisher-leverage weights from the named learning/finality loss. No further
-      coefficient fitting, proxy proliferation, or generic source search counts as progress.
+      SWING-DU-PHY-02 consumed the bounded physical-influence move: live Bianconi and record
+      score-energy objects exist, but no functional selector or nonzero physical scale was found.
+      Reopen that branch only through an independent held-out response plus a unit-bearing observable
+      map. The next major North-Star construction is the coupled HC-DU-011 + HC-DU-022 order-first
+      causal scale generator: label-invariant growth with feedback and an endogenously generated
+      dimensional memory scale. No further coefficient fitting, proxy proliferation, normalized-
+      profile work, or generic source search counts as progress.
   priority_guard: >-
     SWING-DU-COV-02 kills the strongest local constant-kappa lift except at the constant-Lambda
     limit: every accelerating fixed point has c_N^2=3 Omega_V*>1. SWING-DU-CMF-01 then executes the
@@ -176,11 +225,12 @@ lanes:
       sign+magnitude+arrow as one object; the roll<->accretion computation; the volume->Lambda
       link (test sigma.Tr-ln-G from the Bianconi habitat); the tachyon centrality past W157.
     grade: >-
-      REBASED 2026-07-23: the prior source-is-observer / exactly-one-external-bit theorem priority
-      depended on GU's superseded operator-domain inference and is not current. Source/observer
-      constructions remain admissible conditional exploration, but the active work is the
-      three-track completion/abduction/conditional-prediction swing in
-      science_council_reprioritization.
+      REBASED 2026-07-24: the prior source-is-observer / exactly-one-external-bit theorem priority
+      depended on GU's superseded operator-domain inference and is not current. The subsequent
+      completion/abduction and physical-influence swings are complete; neither selected a source,
+      mobility, functional, or physical scale. Source/observer constructions remain admissible
+      conditional exploration, but the active major build is the HC-DU-011 + HC-DU-022 order-first
+      causal scale generator named in Lane 1.5.
     flip_witness_target: >-
       (wave-2, 2026-07-21) The D-FORK flip-witness is now PRICED to a hard spec: a source action
       whose flow ISSUES new mode content — grows ker(Γ) — non-absorbingly (not one-shot) and
@@ -206,7 +256,9 @@ lanes:
       HALF-POWER BANKED ONLY AT ADDITIVE/SUMMABLE-CORRELATION CLASS GRADE; physical correlation
       selection, observable identification, extensive-mean screening, and O(1) coefficient remain
       OPEN. The Bianconi robustness pass reduces the independence of the existing CLT-based
-      consilience. See lead_bet.anchor and SWING-DU-SCI-01.
+      consilience. SWING-DU-PHY-02 then constructs live influence objects but finds no independent
+      functional selector or unit-bearing nonzero scale; relative Gini persistence does not promote
+      the amplitude. See lead_bet.anchor and the physical-influence synthesis.
   - id: '1.4'
     title: Covariant cosmology and observational confrontation
     scope: >-
@@ -257,10 +309,12 @@ lanes:
     scope: >-
       Abduce / synthesize / reframe new candidate unifying structures (including non-GU frames);
       give each a cheap discriminating test; promote survivors to Lane 1. SWING-DU-SCI-01 supports
-      CONCEPT-DU-001 across participation, Shannon/KL, and Gini/Lorenz but finds no proxy winner;
-      a target-free reinforcement/mixing flow conditionally sustains concentration. Active move:
-      physicalize the influence weights and selector. Stop adding proxies. The order-first causal
-      scale generator remains a separate frontier candidate, not a generic fitted nonlocal kernel.
+      CONCEPT-DU-001 across multiple proxies; SWING-DU-PHY-02 constructs Bianconi dissipation and
+      record score-energy profiles but finds no selector or nonzero physical scale. That bounded
+      reopener is consumed: stop adding proxies, coefficients, rho variants, or normalized-profile
+      builds. The active frontier candidate is the coupled HC-DU-011 + HC-DU-022 order-first causal
+      scale generator, not a generic fitted nonlocal kernel. Influence reopens only through an
+      independent held-out response and a unit-bearing observable map.
   - id: '2.3'
     title: GU ablation and rival-frame tournament
     scope: >-
@@ -415,7 +469,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 9
+  revision: 10
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -426,7 +480,9 @@ provenance:
     reprioritization — becoming-core = theorem not build, DE-value = resolve-if-a-problem, elevate
     Lane-4 hardening, factory-hardening-request PREEMPTS North-Star; rev9 (Joe direct chat,
     2026-07-23) supersedes the stale theorem priority after the GU bridge correction and opens
-    SWING-DU-SCI-01 under the conditional/abductive contract; anchor question + P/P/P unchanged
+    SWING-DU-SCI-01 under the conditional/abductive contract; rev10 (Joe direct chat, 2026-07-24)
+    executes SWING-DU-PHY-02, consumes the bounded physical-influence reopener, and restores
+    HC-DU-011 + HC-DU-022 as the next major build; anchor question + P/P/P unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -469,3 +525,11 @@ provenance:
     mean screening, supported the influence concept without selecting a proxy or value, and held
     the finality knee at identifiability-limited conditional-model grade. No lane or
     Purpose/Passion/Practice changed; no new claim was banked.
+  rev10_note: >-
+    2026-07-24 (Joe direct chat: "Orchestrate a next wave of actions"): executed
+    SWING-DU-PHY-02 across Euclidean and affine Bianconi dissipation shares, record
+    score-energy influence, and an independent selector/persistence comparison. Live objects were
+    constructed, but no functional selector, unit-bearing observable map, or nonzero physical
+    scale was identified. Consumed the bounded influence reopener, stopped proxy proliferation,
+    and restored the coupled HC-DU-011 + HC-DU-022 order-first causal scale generator as the next
+    major build. No lane or Purpose/Passion/Practice changed; no claim was banked or seeded.
