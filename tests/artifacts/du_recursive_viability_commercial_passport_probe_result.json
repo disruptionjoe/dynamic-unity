@@ -1,0 +1,1763 @@
+{
+  "candidate_results": {
+    "flat_global_codebook": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 4,
+            "rate": 0.3333333333333333,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 8,
+            "rate": 0.6666666666666666,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 4,
+            "rate": 0.3333333333333333,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": true,
+        "leaf_memberships": 9,
+        "partition": null,
+        "recursive_levels": 1,
+        "upper_interface_width": 9
+      }
+    },
+    "m0_passive": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": false,
+        "leaf_memberships": 0,
+        "partition": null,
+        "recursive_levels": 0,
+        "upper_interface_width": 0
+      }
+    },
+    "m1_planted_local": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": true,
+        "leaf_memberships": 9,
+        "partition": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            6,
+            7,
+            8
+          ]
+        ],
+        "recursive_levels": 1,
+        "upper_interface_width": 0
+      }
+    },
+    "m2_arbitrary_columns": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 27,
+            "rate": 0.25,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 27,
+            "rate": 0.25,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 27,
+            "rate": 0.25,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 45,
+            "rate": 0.4166666666666667,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 27,
+            "rate": 0.75,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 6,
+            "rate": 0.5,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 9,
+            "rate": 0.75,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 9,
+            "rate": 0.75,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 1,
+            "rate": 0.25,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 1,
+            "rate": 0.25,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 1,
+            "rate": 0.25,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 1,
+            "rate": 0.25,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": true,
+        "leaf_memberships": 9,
+        "partition": [
+          [
+            0,
+            3,
+            6
+          ],
+          [
+            1,
+            4,
+            7
+          ],
+          [
+            2,
+            5,
+            8
+          ]
+        ],
+        "recursive_levels": 2,
+        "upper_interface_width": 6
+      }
+    },
+    "m2_arbitrary_shuffle": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 9,
+            "rate": 0.75,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 27,
+            "rate": 0.25,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 27,
+            "rate": 0.25,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 49,
+            "rate": 0.4537037037037037,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 65,
+            "rate": 0.6018518518518519,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 17,
+            "rate": 0.4722222222222222,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 23,
+            "rate": 0.6388888888888888,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 1,
+            "rate": 0.08333333333333333,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 2,
+            "rate": 0.16666666666666666,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 1,
+            "rate": 0.08333333333333333,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 3,
+            "rate": 0.25,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 1,
+            "rate": 0.25,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 1,
+            "rate": 0.25,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 3,
+            "rate": 0.75,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 3,
+            "rate": 0.75,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 9,
+            "rate": 0.25,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 19,
+            "rate": 0.5277777777777778,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 23,
+            "rate": 0.6388888888888888,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": true,
+        "leaf_memberships": 9,
+        "partition": [
+          [
+            0,
+            1,
+            3
+          ],
+          [
+            2,
+            4,
+            6
+          ],
+          [
+            5,
+            7,
+            8
+          ]
+        ],
+        "recursive_levels": 2,
+        "upper_interface_width": 6
+      }
+    },
+    "m2_overlap_cover": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": true,
+        "leaf_memberships": 18,
+        "partition": {
+          "extra_overlap_groups": [
+            [
+              0,
+              3,
+              6
+            ],
+            [
+              1,
+              4,
+              7
+            ],
+            [
+              2,
+              5,
+              8
+            ]
+          ],
+          "regulating_groups": [
+            [
+              0,
+              1,
+              2
+            ],
+            [
+              3,
+              4,
+              5
+            ],
+            [
+              6,
+              7,
+              8
+            ]
+          ]
+        },
+        "recursive_levels": 2,
+        "upper_interface_width": 12
+      }
+    },
+    "m2_planted_recursive": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": true,
+        "leaf_memberships": 9,
+        "partition": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            6,
+            7,
+            8
+          ]
+        ],
+        "recursive_levels": 2,
+        "upper_interface_width": 6
+      }
+    },
+    "ordinary_rg_no_control": {
+      "families": {
+        "hard_null_valid_alias": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 12,
+            "rate": 1.0,
+            "total": 12
+          }
+        },
+        "heldout_two_cross_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 108
+          },
+          "logical_payload_recovery": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          },
+          "root_even_parity": {
+            "count": 108,
+            "rate": 1.0,
+            "total": 108
+          }
+        },
+        "heldout_two_same_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          }
+        },
+        "out_of_family_whole_group": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "logical_payload_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          },
+          "root_even_parity": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 12
+          }
+        },
+        "passive_stability": {
+          "exact_original_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 4
+          },
+          "internal_codeword_certificate": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "logical_payload_recovery": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          },
+          "root_even_parity": {
+            "count": 4,
+            "rate": 1.0,
+            "total": 4
+          }
+        },
+        "train_single_leaf": {
+          "exact_original_recovery": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "false_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "internal_codeword_certificate": {
+            "count": 0,
+            "rate": 0.0,
+            "total": 36
+          },
+          "logical_payload_recovery": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          },
+          "root_even_parity": {
+            "count": 36,
+            "rate": 1.0,
+            "total": 36
+          }
+        }
+      },
+      "model": {
+        "has_downward_action": false,
+        "leaf_memberships": 9,
+        "partition": [
+          [
+            0,
+            1,
+            2
+          ],
+          [
+            3,
+            4,
+            5
+          ],
+          [
+            6,
+            7,
+            8
+          ]
+        ],
+        "recursive_levels": 1,
+        "upper_interface_width": 3
+      }
+    }
+  },
+  "canonical_payload_sha256": "58164aa270fbc38a88d4a2d281f8788b4621b2a2fae03ce1253d329d4892fb17",
+  "case_counts": {
+    "hard_null_valid_alias": 12,
+    "heldout_two_cross_group": 108,
+    "heldout_two_same_group": 36,
+    "out_of_family_whole_group": 12,
+    "passive_stability": 4,
+    "train_single_leaf": 36
+  },
+  "checks": {
+    "code_minimum_distance_is_six": true,
+    "family_cardinalities_exact": true,
+    "flat_also_false_certifies_valid_alias": true,
+    "flat_matches_m2_on_supported_interventions": true,
+    "four_even_parity_logical_words": true,
+    "m1_fails_same_group_holdout": true,
+    "m1_passes_cross_group_holdout": true,
+    "m1_passes_training": true,
+    "m2_cannot_recover_unlocated_whole_group_fault": true,
+    "m2_passes_all_supported_interventions": true,
+    "ordinary_coarse_graining_is_not_downward_control": true,
+    "overlap_matches_m2_but_costs_more": true,
+    "passive_stability_is_not_active_regulation": true,
+    "planted_partition_is_unique_training_winner": true,
+    "relabeling_invariant_when_support_is_relabelled": true,
+    "resolution_changes_the_apparent_result": true,
+    "valid_alias_is_undetectable_to_m2": true
+  },
+  "checks_passed": 17,
+  "checks_total": 17,
+  "commercial_decision": {
+    "classification": "OVERLAY_PASSPORT",
+    "gate_scope": "Gate only claims of recursive autonomous viability, not the HC-DU-031A record-clock or HC-DU-011A causal-post routes.",
+    "integration": "Attach the passport to surviving record-clock and causal-post fixtures; stop if no intervention-supported boundary, down map, or held-out advantage appears.",
+    "separate_program": false
+  },
+  "comparisons": {
+    "flat_supported_exact_rate": 1.0,
+    "m1_supported_exact_rate": 0.8,
+    "m2_supported_exact_rate": 1.0,
+    "m2_vs_flat": "Behavioral tie. m=2 uses a six-summary declared upper interface; flat uses unrestricted access to all nine leaves. No winner exists until that access pattern is physically supported or commercially priced.",
+    "m2_vs_overlap": "m=2 strictly dominates the behaviorally identical overlap cover on declared memberships and upper-interface width.",
+    "overlap_supported_exact_rate": 1.0
+  },
+  "contested_proposition": "Held-out viability and bounded interface cost uniquely identify the number and shape of recursive viable-system levels.",
+  "fixture": {
+    "clock_denominator": "one declared disturbance-and-repair opportunity; it is not identified with physical time",
+    "codewords": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "downward_map": "local repetition repair; when one alarmed row violates upper parity, infer its logical bit from the other two",
+    "logical_words": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "micro_sites": 9,
+    "planted_partition": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        4,
+        5
+      ],
+      [
+        6,
+        7,
+        8
+      ]
+    ],
+    "record_semantics": "emit an internal certificate only when the output is one of the four declared codewords",
+    "rule": "Each three-site row repeats one logical bit; the three logical bits obey even parity.",
+    "upward_map": "row majority plus local disagreement alarm"
+  },
+  "nulls": {
+    "arbitrary_partition": {
+      "result": "The planted partition is the unique training winner among the three fixed partitions; labels alone do not select it.",
+      "verdict": "PASSED"
+    },
+    "clock_and_record": {
+      "result": "A durable record is counted only after codeword verification; valid aliases are still falsely certified because the original history is absent.",
+      "verdict": "PASSED_AS_A_WARNING"
+    },
+    "depth_overfit_and_overlap": {
+      "result": "The overlap cover exactly duplicates m=2 recovery while doubling leaf memberships and upper summaries.",
+      "verdict": "PASSED"
+    },
+    "heldout_disturbance": {
+      "result": "m=2 repairs the held-out same-group double flips that kill m=1, but a flat global codebook matches it exactly.",
+      "verdict": "PASSED_WITH_NONUNIQUENESS"
+    },
+    "ordinary_rg": {
+      "result": "Row-majority compression preserves the training logical payload but restores zero perturbed microstates without a down map.",
+      "verdict": "PASSED"
+    },
+    "passive_stability": {
+      "result": "No-disturbance survival is perfect for m=0, while one-leaf exact restoration is zero.",
+      "verdict": "PASSED"
+    },
+    "relabeling_and_fibre": {
+      "result": "All m=2 family metrics are invariant when leaves and the intervention-supported partition are relabelled together.",
+      "verdict": "PASSED"
+    },
+    "resolution": {
+      "result": "At logical-payload resolution m=0 survives every training single flip; at exact-codeword resolution it survives none.",
+      "verdict": "PASSED"
+    },
+    "teleology": {
+      "result": "The codebook, viable region, perturbations, and repair objective are engineered assay inputs; no purpose, agency, or physical finality is inferred.",
+      "verdict": "PASSED_BY_EXPLICIT_TYPING"
+    }
+  },
+  "partition_discovery": {
+    "ranking": [
+      "planted_rows",
+      "arbitrary_columns",
+      "arbitrary_shuffle"
+    ],
+    "scores": {
+      "arbitrary_columns": {
+        "baseline_integrity_rate": 0.25,
+        "fixed_leaf_memberships": 9,
+        "training_recovery_rate": 0.25
+      },
+      "arbitrary_shuffle": {
+        "baseline_integrity_rate": 0.25,
+        "fixed_leaf_memberships": 9,
+        "training_recovery_rate": 0.25
+      },
+      "planted_rows": {
+        "baseline_integrity_rate": 1.0,
+        "fixed_leaf_memberships": 9,
+        "training_recovery_rate": 1.0
+      }
+    },
+    "winners": [
+      "planted_rows"
+    ]
+  },
+  "passport_disposition": {
+    "adaptation_channel": null,
+    "boundary": "engineered nine-site code and declared environment",
+    "coordination": "upper even-parity comparison",
+    "depth": "m=2 is useful but not uniquely selected against a flat global regulator; extra overlap is rejected",
+    "essential_variables": "full two-bit logical payload, exact codeword membership, and the upper even-parity relation",
+    "identity": "declared codeword family; not an inferred observer",
+    "invariance": "exact under joint leaf/support relabeling",
+    "operations": "three local repetition regulators",
+    "recursive_closure": "conditional for the supported disturbance family; fails unlocated whole-group and valid-alias interventions",
+    "resource_or_regulator": "six typed local summaries for m=2, or unrestricted nine-leaf access for the flat rival",
+    "status": "CONSTRUCTIVELY_REALIZED / CONDITIONALLY_ENTAILED",
+    "viable_region": "the four codewords"
+  },
+  "probe": "du_recursive_viability_commercial_passport_probe",
+  "relabeling_check": {
+    "all_family_metrics_match": true,
+    "families": {
+      "hard_null_valid_alias": {
+        "exact_original_recovery_rate": 0.0,
+        "matches": true
+      },
+      "heldout_two_cross_group": {
+        "exact_original_recovery_rate": 1.0,
+        "matches": true
+      },
+      "heldout_two_same_group": {
+        "exact_original_recovery_rate": 1.0,
+        "matches": true
+      },
+      "out_of_family_whole_group": {
+        "exact_original_recovery_rate": 0.0,
+        "matches": true
+      },
+      "passive_stability": {
+        "exact_original_recovery_rate": 1.0,
+        "matches": true
+      },
+      "train_single_leaf": {
+        "exact_original_recovery_rate": 1.0,
+        "matches": true
+      }
+    },
+    "permutation": [
+      8,
+      7,
+      6,
+      5,
+      4,
+      3,
+      2,
+      1,
+      0
+    ]
+  },
+  "verdict": "NESTED REGULATION CAN EARN HELD-OUT VALUE, BUT VIABILITY ALONE DOES NOT IDENTIFY RECURSION: A FLAT GLOBAL REGULATOR TIES, AN OVERLAP RIVAL OVERFITS, AND OUT-OF-FAMILY VALID ALIASES DEFEAT EVERY FIXED DECODER. RVS IS AN OVERLAY PASSPORT, NOT A SEPARATE PROGRAM.",
+  "version": 1
+}

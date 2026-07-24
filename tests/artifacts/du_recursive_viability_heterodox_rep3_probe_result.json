@@ -1,0 +1,309 @@
+{
+  "candidate": {
+    "beer_function_disposition": {
+      "S1_operations": "children, as structural analogy",
+      "S2_coordination_and_S3_regulation": "merged into syndrome/majority correction",
+      "S4_environment_facing_adaptation": "absent",
+      "S5_identity": "externally fixed codeword constraint",
+      "exact_five_function_VSM": false
+    },
+    "leaf_count": 9,
+    "name": "Rep3 squared nested record regulator",
+    "passport": {
+      "adaptation": "absent; fixed disturbance family and fixed code",
+      "blanket": "private syndrome plus upward decoded bit plus downward repair command",
+      "clock": "event-driven local check then root check; the episode cadence is imported and an opportunity is not a record",
+      "coordination": "syndrome comparison suppressing disagreement",
+      "downward_map": "a discrepant-child or discrepant-group rewrite command",
+      "environment": "the other groups and declared bit-flip channel",
+      "held_out_prediction": "unseen members and an unseen whole group activate the same discovered repair supports",
+      "identity": "externally declared two-codeword viable set",
+      "macrostate": "three copied group-majority records and one root-majority record",
+      "microstate": "nine binary leaf memories",
+      "operations": "three child record carriers",
+      "regulator": "targeted majority rewrite",
+      "upward_map": "three child states or records to one majority bit"
+    },
+    "perturbation_family": [
+      "no disturbance",
+      "any one-leaf flip",
+      "any one planted whole-group flip",
+      "declared cross-group single flips",
+      "one held-out whole-group plus single-leaf composition"
+    ],
+    "planted_partition": [
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        1,
+        5,
+        8
+      ],
+      [
+        2,
+        3,
+        6
+      ]
+    ],
+    "system_boundary": "the causal support of a three-child syndrome/repair channel; not adjacency or a familiar physical name",
+    "viable_region": "at a stabilization boundary all nine leaves equal the inherited root identity bit"
+  },
+  "checks": [
+    {
+      "name": "all 280 unlabeled partitions into three triples are enumerated",
+      "pass": true
+    },
+    {
+      "name": "m=0 passive microdynamics fails every nontrivial disturbance",
+      "pass": true
+    },
+    {
+      "name": "m=1 repairs local held-out errors but fails at least one whole-group disturbance",
+      "pass": true
+    },
+    {
+      "name": "m=2 survives the complete held-out disturbance family",
+      "pass": true
+    },
+    {
+      "name": "m=2 predicts every held-out cross-level repair record",
+      "pass": true
+    },
+    {
+      "name": "m=3 supplies no survival or trace-prediction gain over m=2",
+      "pass": true
+    },
+    {
+      "name": "the silent m=3 wrapper has greater description cost and is rejected",
+      "pass": true
+    },
+    {
+      "name": "endpoint-only viability leaves 220 arbitrary partitions perfectly adequate",
+      "pass": true
+    },
+    {
+      "name": "training intervention provenance selects exactly one partition",
+      "pass": true
+    },
+    {
+      "name": "held-out record provenance preserves the same unique partition",
+      "pass": true
+    },
+    {
+      "name": "a flat all-to-all controller ties recursive endpoint survival",
+      "pass": true
+    },
+    {
+      "name": "the flat rival violates the declared fan-in-three local interaction class",
+      "pass": true
+    },
+    {
+      "name": "active controller ablation destroys nontrivial viability",
+      "pass": true
+    },
+    {
+      "name": "passive replay has no controller-ablation effect and earns no regulation credit",
+      "pass": true
+    },
+    {
+      "name": "the constructed nested Markov-blanket factorization has zero finite violations",
+      "pass": true
+    },
+    {
+      "name": "the two-level macro record commutes on all 512 microstates",
+      "pass": true
+    },
+    {
+      "name": "local and root disturbance/action alphabets each have fixture variety four",
+      "pass": true
+    },
+    {
+      "name": "disjoint local correction schedules produce one physical trace",
+      "pass": true
+    },
+    {
+      "name": "coherent relabeling recovers exactly the transported partition",
+      "pass": true
+    },
+    {
+      "name": "causal-provenance quotient removes the duplicate-fibre fake level",
+      "pass": true
+    },
+    {
+      "name": "ordinary majority coarse graining can retain the macro bit while failing viability",
+      "pass": true
+    },
+    {
+      "name": "the selected regulator contains no adaptive environment model or rule-authoring channel",
+      "pass": true
+    },
+    {
+      "name": "the hierarchy generates no dimensional unit beyond the imported episode cadence",
+      "pass": true
+    }
+  ],
+  "checks_passed": 23,
+  "checks_total": 23,
+  "contested_proposition": "Physical finality strata are recursive VSM levels, and the absence of System 4 is a transferable theorem of nonviability.",
+  "forbidden_overclaims": [
+    "reality is organized as Rep3 codes",
+    "every Markov blanket is a viable system",
+    "effective information selects this hierarchy",
+    "Beer S1-S5 are physical scale levels",
+    "finality depth is recursion depth",
+    "a missing System 4 proves physical nonviability",
+    "the selected tree is unique when nonlocal or overlapping controllers are free",
+    "a stabilization boundary is a causal-set post",
+    "two levels generate dimensional units",
+    "recursive regulation establishes purpose, agency, consciousness, or self-authorship"
+  ],
+  "level_discovery": {
+    "depth_results": {
+      "0": {
+        "description_cost": 0,
+        "holdout_survival": 0.0,
+        "holdout_trace_accuracy": 0.0,
+        "train_survival": 0.0,
+        "train_trace_accuracy": 0.0
+      },
+      "1": {
+        "description_cost": 6,
+        "holdout_survival": 0.7777777777777778,
+        "holdout_trace_accuracy": 0.0,
+        "train_survival": 0.6666666666666666,
+        "train_trace_accuracy": 0.0
+      },
+      "2": {
+        "description_cost": 10,
+        "holdout_survival": 1.0,
+        "holdout_trace_accuracy": 1.0,
+        "train_survival": 1.0,
+        "train_trace_accuracy": 1.0
+      },
+      "3": {
+        "description_cost": 11,
+        "holdout_survival": 1.0,
+        "holdout_trace_accuracy": 1.0,
+        "train_survival": 1.0,
+        "train_trace_accuracy": 1.0
+      }
+    },
+    "endpoint_only_depth_two_winner_count": 220,
+    "held_out_record_aware_depth_two_winner_count": 1,
+    "holdout_episode_count": 9,
+    "partition_count": 280,
+    "selected_depth": 2,
+    "selected_partition": [
+      [
+        0,
+        4,
+        7
+      ],
+      [
+        1,
+        5,
+        8
+      ],
+      [
+        2,
+        3,
+        6
+      ]
+    ],
+    "selection_rule": "within fan-in three, require perfect held-out survival, exact train and held-out repair provenance, blanket factorization, and relabeling stability; among qualifiers choose minimum description cost",
+    "train_episode_count": 6,
+    "train_record_aware_depth_two_winner_count": 1,
+    "warrant": "constructive and intervention-relative; no universal or ontological hierarchy follows"
+  },
+  "precursor_audit": {
+    "beer_functions": "S1-S5 are functions within a viable-system model; they are not a sequence of physical scale or finality levels",
+    "beer_recursion": "a complete viable-system pattern repeats across organizational recursions, while Beer also allows arbitrary boundaries, nonunique embedding, and multiple recursive chains",
+    "finality_strata": "record settlement or reversal-depth strata can crosscut a system hierarchy and do not identify recursion depth",
+    "formal_theorem": "Ashby-style requisite-variety bounds transfer after variables and transformation tables are typed. The phrase Beer viability theorem does not by itself supply a physics theorem that a missing S4 entails nonviability.",
+    "self_authoring_ledger": "recursive regulation adds a conditional physical construction and decomposes the vision, but it narrows the self-authoring claim: viability and multilevel records do not mint a new code, objective, law, unit, or possibility.",
+    "system_4_result": "the fixture is operationally viable for its declared finite disturbance family with no adaptive System-4 channel; this defeats a universal transferable no-S4-implies-nonviability statement, not the practical importance of adaptation under novel environments"
+  },
+  "probe": "du_recursive_viability_heterodox_rep3_probe",
+  "quantitative_controls": {
+    "active_controller_ablation": {
+      "controller_off_survival": 0.0,
+      "controller_on_survival": 1.0
+    },
+    "causal_abstraction_violations_over_512_states": 0,
+    "causal_emergence_claim": "none; exact interventional sufficiency is shown, not a positive macro-minus-micro effective-information gain",
+    "expected_relabeling_winner": [
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        1,
+        2,
+        8
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    "flat_nonrecursive_rival": {
+      "fan_in": 9,
+      "fan_out": 9,
+      "reading": "if all-to-all sensing and writing are free, recursion is not selected by viability alone",
+      "survival": 1.0
+    },
+    "local_action_variety": 4,
+    "local_disturbance_variety": 4,
+    "nested_blanket_violations": 0,
+    "ordinary_rg_null": {
+      "micro_viability": false,
+      "reading": "coarse-graining without corrective intervention is not recursive viability",
+      "root_macro_bit": 0
+    },
+    "passive_replay_ablation": {
+      "nominal_controller_off_survival": 1.0,
+      "nominal_controller_on_survival": 1.0,
+      "reading": "stable output without an intervention effect is passive persistence or external replay, not regulation"
+    },
+    "relabeling_winner": [
+      [
+        0,
+        3,
+        6
+      ],
+      [
+        1,
+        2,
+        8
+      ],
+      [
+        4,
+        5,
+        7
+      ]
+    ],
+    "resolution_fibre": {
+      "causal_provenance_classes": 9,
+      "naive_apparent_depth": 3,
+      "quotient_selected_depth": 2,
+      "raw_storage_copies": 18
+    },
+    "root_action_variety": 4,
+    "root_disturbance_variety": 4,
+    "root_macro_effective_information_bits": 1.0,
+    "scheduler_trace_count": 1
+  },
+  "question": "Can intervention-stable recursive viable levels be discovered without anthropomorphic VSM labels, and which nulls make the same machinery hallucinate recursion?",
+  "verdict": "TWO-LEVEL RECURSIVE RECORD REGULATOR CONDITIONALLY DISCOVERED / ENDPOINT-ONLY HIERARCHY NONIDENTIFYING / PASSIVE-REPLAY AND DUPLICATE-FIBRE HALLUCINATIONS EXPOSED / S1-S5 FUNCTIONS, RECURSION LEVELS, AND FINALITY STRATA SEPARATED / NO-S4-IMPLIES-NONVIABILITY NOT A TRANSFERRED PHYSICS THEOREM",
+  "warrants": [
+    "DERIVED",
+    "CONDITIONALLY_ENTAILED",
+    "CONSTRUCTIVELY_REALIZED",
+    "STRUCTURAL_ANALOGY"
+  ]
+}

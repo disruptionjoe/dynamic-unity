@@ -327,6 +327,83 @@ broader branch if exact circuit covariance has no representation-independent
 durable-record functional. No claim is banked or seeded. See
 `science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md`.
 
+## CONCEPT-DU-003 — recursive operational viability and physical system individuation
+
+- **Concept (articulation-invariant).** Some physical regimes may organize
+  into multiple operationally viable systems whose components are themselves
+  viable systems. The scientifically relevant organization may be nested,
+  overlapping, heterarchical, scale-free, or absent. Its boundaries and
+  cross-level relations are discovered from causal interventions and
+  persistence under disturbance, not assigned from familiar scale names.
+- **Concept INVARIANT.**
+  1. Every candidate system declares a boundary, internal and environmental
+     state, essential variables, viable region, perturbation family, and
+     horizon.
+  2. A privileged macrolevel must improve held-out regulation or prediction
+     through a typed upward summary and a downward intervention; passive
+     persistence or compression alone does not qualify.
+  3. Candidate levels survive controller ablation, relabeling, and a declared
+     resolution/refinement quotient.
+  4. Flat, arbitrary-partition, overlap, passive-replay, ordinary-RG,
+     duplicate-record, valid-alias, and gratuitous-relay rivals remain visible.
+  5. No unique tree or scalar depth is presumed. The recoverable object may be
+     an intervention-relative cover or poset with several chain lengths.
+- **Formalization FAMILY.**
+  1. nested controlled-invariant or viability-kernel hierarchies;
+  2. concatenated error-correcting or majority-regulation systems;
+  3. overlapping controller-support hypergraphs and minimal-cut covers;
+  4. Markov-blanket hierarchies with separately demonstrated active control;
+  5. causal-post eras with a non-replayable downward viability effect;
+  6. Clock-QCA or causal-record observers with disturbance-stable identity;
+  7. ordinary RG or causal-emergence levels augmented by a tested downward
+     regulator; and
+  8. null families with no preferred level, a flat regulator, multiple
+     incompatible chains, or continuum/scale-free organization.
+
+### 2026-07-24 recursive viable-systems wave
+
+Five exact finite probes construct the concept's methodological core without
+identifying it in Dynamic Unity physics.
+
+- Planted `m=0`, `m=1`, and `m=2` fixtures can be recovered when every level
+  earns a complexity-paid held-out controlled-invariance advantage.
+- A two-level nine-record regulator achieves perfect held-out survival and
+  repair prediction, but endpoint survival alone leaves `220/280` partitions
+  tied. Repair provenance uniquely selects the planted partition.
+- A three-level 27-record regulator produces distinct verified record streams
+  `27/9/3`, closure latencies `3/5/7`, and dimensionless adjacent support
+  ratios `3/3`; an out-of-family disturbance defeats the fixed regulator.
+- A flat global regulator can tie recursive endpoint performance when
+  unrestricted access is free, and a valid alternative codeword defeats
+  fixed decoders that lack historical provenance.
+- Any finite factorization can be made deeper by inserting an unanchored
+  serial identity/relay. Raw scalar depth is therefore not identified from
+  external traces. Held-out internal lesions can instead recover a
+  relabeling- and resolution-quotiented overlapping minimal-cut cover.
+
+The wave also corrects a precursor conflation:
+
+```text
+Beer S1-S5 functions within one system
+    != recursive viable-system levels
+    != finality, causal-depth, clock, or physical-scale strata.
+```
+
+A fixed regulator is viable for its declared finite disturbance family
+without an S4-like adaptation channel. S4 remains a live hypothesis for
+out-of-family adaptation; self-authorship is stronger still. Recursive levels
+generate only dimensionless counts and ratios unless a microscopic unit and
+physical map are separately supplied.
+
+**Status:** **CONCEPT-CONDITIONALLY-CONSTRUCTED-IN-EXACT-CONTROLS /
+RAW-SCALAR-DEPTH-NONIDENTIFIED / INTERVENTION-COVER-DISCOVERABLE /
+PHYSICAL-BOUNDARIES-AND-DYNAMICS-OPEN.** Treat the recursive-viability passport
+as an overlay on `HC-DU-031A` and `HC-DU-011A`, not as a third standalone
+simulation program. Stop if a candidate observer or post-era boundary has no
+controller-ablation effect, downward consequence, held-out advantage, or
+resolution-stable intervention role. No claim is banked or seeded. See
+`science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md`.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.

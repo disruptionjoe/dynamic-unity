@@ -152,3 +152,33 @@ construction-specific `1+1` Clock-QW/QCA covariance is retained as a
 literature positive control whose durable observer-record semantics have not
 yet been reproduced. No probe derives a physical observer, dimensional `c`,
 higher-dimensional Lorentz invariance, gravity, DU dynamics, or `Lambda`.
+
+## Recursive viable-systems council probes
+
+The fourth five-persona wave tests whether an unknown number of
+viable-system-like levels can be discovered rather than named:
+
+- `du_recursive_viability_orthodox_depth_tournament.py` recovers planted
+  depths `m=0,1,2` only when each level earns held-out controlled invariance
+  and pays an explicit complexity cost.
+- `du_recursive_viability_heterodox_rep3_probe.py` constructs a scrambled
+  two-level repetition regulator. Endpoint survival leaves `220/280`
+  partitions perfect, while causal repair provenance uniquely recovers the
+  planted partition on training and held-out interventions.
+- `du_recursive_viability_commercial_passport_probe.py` shows a held-out
+  advantage for `m=2` over `m=1`, while a flat global regulator ties `m=2`,
+  an overlapping cover overfits, and valid-state aliases fool every fixed
+  decoder.
+- `du_recursive_viability_wild_frontier_majority_closure_probe.py` constructs
+  three repeated active-closure levels, level-specific durable records, and
+  dimensionless response ratios while retaining arbitrary-tree, ordinary-RG,
+  redundant-depth, resolution, and family-shift controls.
+- `du_recursive_viability_philosopher_identifiability_probe.py` shows that
+  identity/relay refinement makes raw scalar depth nonidentifiable, then uses
+  held-out lesions to recover a relabeling-invariant overlapping role cover.
+
+The artifacts report `17/17`, `23/23`, `17/17`, `24/24`, and `18/18`
+deterministic checks, or `99/99` in total. They construct and delimit exact toy
+regulators. They do not establish that a causal post, Clock QCA, observer,
+physical scale, or the universe realizes recursive viable-system
+organization, and they do not derive units, gravity, cosmology, or `Lambda`.

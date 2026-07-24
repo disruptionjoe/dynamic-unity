@@ -1,0 +1,1906 @@
+{
+  "banked": false,
+  "checks": {
+    "all_active_external_traces_identical": true,
+    "arbitrary_m2_passes_held_out": true,
+    "cut_hypergraph_relabeling_invariant": true,
+    "durable_records_independent_of_model_updates": true,
+    "genuine_m2_passes_held_out": true,
+    "held_out_overlap_synergy_found": true,
+    "identity_refinement_has_no_external_gain": true,
+    "m0_passes_held_out": true,
+    "m1_passes_held_out": true,
+    "nested_local_lesions_differ": true,
+    "nested_root_is_active": true,
+    "no_units_or_teleology_smuggled": true,
+    "ordinary_rg_hides_micro_failure": true,
+    "overlap_passes_held_out": true,
+    "passive_null_fails_disturbances": true,
+    "refined_m3_passes_held_out": true,
+    "relay_duplicates_root_role": true,
+    "resolution_quotient_stable": true
+  },
+  "checks_passed": 18,
+  "checks_total": 18,
+  "contested_proposition_disposition": {
+    "proposition": "A finite interventionally complete viability record that admits an m>1 recursive VSM representation identifies one physically real scalar recursion depth and warrants reading Beer S1-S5/finality strata as that hierarchy.",
+    "replacement": "External viability identifies no unique depth. A physically anchored internal intervention family can instead identify a minimal role hypergraph/cover up to explicit quotient. Beer functions, recursive levels, and physical strata remain separate axes.",
+    "verdict": "OVERTURNED_AS_STATED"
+  },
+  "definitions": {
+    "depth": "Advertised factorization depth, treated as identifiable only relative to a fixed intervention algebra and quotient.",
+    "record": "One durable external recovery outcome; internal module opportunities are recorded separately.",
+    "recursion": "A regulator depends on an upstream coordinator and controls an operational sub-boundary; raw serial refinements are quotiented unless independently intervention-distinct.",
+    "system": "A declared plant boundary, essential-variable vector, environmental disturbance family, regulator modules, and recovery criterion.",
+    "viability": "Return all three essential variables to zero after a declared disturbance under the admitted controller state."
+  },
+  "external_equivalence": {
+    "all_active_external_traces_identical": true,
+    "all_active_models_pass_all_held_out_disturbances": true,
+    "architectures": {
+      "arbitrary_m2": {
+        "claimed_scalar_depth": 2,
+        "class": "m=2 arbitrary alternative partition",
+        "note": "The same root/local form uses a crossed partition selected by the analyst rather than the external behaviour.",
+        "requires": {
+          "A": [
+            "R"
+          ],
+          "B": [
+            "R"
+          ],
+          "R": []
+        },
+        "supports": {
+          "A": [
+            0,
+            2
+          ],
+          "B": [
+            1
+          ],
+          "R": []
+        },
+        "tree": true
+      },
+      "macro_m1": {
+        "claimed_scalar_depth": 1,
+        "class": "m=1 whole-system regulator",
+        "note": "One regulator restores the complete essential-variable vector.",
+        "requires": {
+          "M": []
+        },
+        "supports": {
+          "M": [
+            0,
+            1,
+            2
+          ]
+        },
+        "tree": true
+      },
+      "micro_m0": {
+        "claimed_scalar_depth": 0,
+        "class": "m=0 ordinary local repair",
+        "note": "Each disturbed coordinate is repaired by the micro-law; no macrolevel is privileged.",
+        "requires": {
+          "d0": [],
+          "d1": [],
+          "d2": []
+        },
+        "supports": {
+          "d0": [
+            0
+          ],
+          "d1": [
+            1
+          ],
+          "d2": [
+            2
+          ]
+        },
+        "tree": false
+      },
+      "nested_m2": {
+        "claimed_scalar_depth": 2,
+        "class": "m=2 nested regulator",
+        "note": "The root R enables two local operational regulators. Root and local lesions have different exact effects.",
+        "requires": {
+          "A": [
+            "R"
+          ],
+          "B": [
+            "R"
+          ],
+          "R": []
+        },
+        "supports": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            2
+          ],
+          "R": []
+        },
+        "tree": true
+      },
+      "overlap_cover": {
+        "claimed_scalar_depth": null,
+        "class": "overlapping non-tree cover",
+        "note": "Variable 1 is redundantly protected by two overlapping regulators; no unique nested-tree depth represents the cover.",
+        "requires": {
+          "A": [],
+          "B": []
+        },
+        "supports": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            1,
+            2
+          ]
+        },
+        "tree": false
+      },
+      "refined_m3": {
+        "claimed_scalar_depth": 3,
+        "class": "m=3 serial refinement",
+        "note": "Q is a required serial relay. Inserting it raises raw depth without changing the external repair map.",
+        "requires": {
+          "A": [
+            "Q"
+          ],
+          "B": [
+            "Q"
+          ],
+          "Q": [
+            "R"
+          ],
+          "R": []
+        },
+        "supports": {
+          "A": [
+            0,
+            1
+          ],
+          "B": [
+            2
+          ],
+          "Q": [],
+          "R": []
+        },
+        "tree": true
+      }
+    },
+    "complexity_reading": "All predictive losses are equal. Under this declared node-plus-edge code, the serial refinement is penalized. A different primitive language could change the simplicity order; this score removes gratuitous refinement but does not make a hierarchy ontic.",
+    "declared_unit_cost_comparison": {
+      "arbitrary_m2": {
+        "declared_unit_cost": 5,
+        "dependency_edge_count": 2,
+        "held_out_errors": 0,
+        "module_count": 3
+      },
+      "macro_m1": {
+        "declared_unit_cost": 1,
+        "dependency_edge_count": 0,
+        "held_out_errors": 0,
+        "module_count": 1
+      },
+      "micro_m0": {
+        "declared_unit_cost": 3,
+        "dependency_edge_count": 0,
+        "held_out_errors": 0,
+        "module_count": 3
+      },
+      "nested_m2": {
+        "declared_unit_cost": 5,
+        "dependency_edge_count": 2,
+        "held_out_errors": 0,
+        "module_count": 3
+      },
+      "overlap_cover": {
+        "declared_unit_cost": 2,
+        "dependency_edge_count": 0,
+        "held_out_errors": 0,
+        "module_count": 2
+      },
+      "refined_m3": {
+        "declared_unit_cost": 7,
+        "dependency_edge_count": 3,
+        "held_out_errors": 0,
+        "module_count": 4
+      }
+    },
+    "edge_subdivision_theorem": "For any finite deterministic interface map F, inserting a latent identity or required relay on an internal edge gives a deeper factorization with the same external map. Therefore raw scalar depth is not identifiable from experiments whose intervention algebra does not independently anchor that relay.",
+    "external_traces": {
+      "arbitrary_m2": [
+        {
+          "disturbance": 0,
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 1,
+          "durable_record": {
+            "disturbance": 1,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 2,
+          "durable_record": {
+            "disturbance": 2,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 3,
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 4,
+          "durable_record": {
+            "disturbance": 4,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 5,
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 6,
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 7,
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        }
+      ],
+      "macro_m1": [
+        {
+          "disturbance": 0,
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 1,
+          "durable_record": {
+            "disturbance": 1,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 2,
+          "durable_record": {
+            "disturbance": 2,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 3,
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 4,
+          "durable_record": {
+            "disturbance": 4,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 5,
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 6,
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 7,
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        }
+      ],
+      "micro_m0": [
+        {
+          "disturbance": 0,
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 1,
+          "durable_record": {
+            "disturbance": 1,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 2,
+          "durable_record": {
+            "disturbance": 2,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 3,
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 4,
+          "durable_record": {
+            "disturbance": 4,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 5,
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 6,
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 7,
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        }
+      ],
+      "nested_m2": [
+        {
+          "disturbance": 0,
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 1,
+          "durable_record": {
+            "disturbance": 1,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 2,
+          "durable_record": {
+            "disturbance": 2,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 3,
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 4,
+          "durable_record": {
+            "disturbance": 4,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 5,
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 6,
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 7,
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        }
+      ],
+      "overlap_cover": [
+        {
+          "disturbance": 0,
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 1,
+          "durable_record": {
+            "disturbance": 1,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 2,
+          "durable_record": {
+            "disturbance": 2,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 3,
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 4,
+          "durable_record": {
+            "disturbance": 4,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 5,
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 6,
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 7,
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        }
+      ],
+      "refined_m3": [
+        {
+          "disturbance": 0,
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 1,
+          "durable_record": {
+            "disturbance": 1,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 2,
+          "durable_record": {
+            "disturbance": 2,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 3,
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 4,
+          "durable_record": {
+            "disturbance": 4,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 5,
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 6,
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        },
+        {
+          "disturbance": 7,
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "viable": true
+        }
+      ]
+    },
+    "held_out_compound_disturbances": [
+      3,
+      5,
+      6,
+      7
+    ],
+    "held_out_results": {
+      "arbitrary_m2": {
+        "3": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            0
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        },
+        "5": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        },
+        "6": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        },
+        "7": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        }
+      },
+      "macro_m1": {
+        "3": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            0
+          ],
+          "operational_modules": [
+            "M"
+          ],
+          "viable": true
+        },
+        "5": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            1
+          ],
+          "operational_modules": [
+            "M"
+          ],
+          "viable": true
+        },
+        "6": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "M"
+          ],
+          "viable": true
+        },
+        "7": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "M"
+          ],
+          "viable": true
+        }
+      },
+      "micro_m0": {
+        "3": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            0
+          ],
+          "operational_modules": [
+            "d0",
+            "d1",
+            "d2"
+          ],
+          "viable": true
+        },
+        "5": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            1
+          ],
+          "operational_modules": [
+            "d0",
+            "d1",
+            "d2"
+          ],
+          "viable": true
+        },
+        "6": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "d0",
+            "d1",
+            "d2"
+          ],
+          "viable": true
+        },
+        "7": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "d0",
+            "d1",
+            "d2"
+          ],
+          "viable": true
+        }
+      },
+      "nested_m2": {
+        "3": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            0
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        },
+        "5": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        },
+        "6": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        },
+        "7": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "R"
+          ],
+          "viable": true
+        }
+      },
+      "overlap_cover": {
+        "3": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            0
+          ],
+          "operational_modules": [
+            "A",
+            "B"
+          ],
+          "viable": true
+        },
+        "5": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B"
+          ],
+          "viable": true
+        },
+        "6": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B"
+          ],
+          "viable": true
+        },
+        "7": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B"
+          ],
+          "viable": true
+        }
+      },
+      "refined_m3": {
+        "3": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 3,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            0
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "Q",
+            "R"
+          ],
+          "viable": true
+        },
+        "5": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 5,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "Q",
+            "R"
+          ],
+          "viable": true
+        },
+        "6": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 6,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "Q",
+            "R"
+          ],
+          "viable": true
+        },
+        "7": {
+          "disabled_modules": [],
+          "durable_record": {
+            "disturbance": 7,
+            "outcome": "essential_variables_restored"
+          },
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            1
+          ],
+          "operational_modules": [
+            "A",
+            "B",
+            "Q",
+            "R"
+          ],
+          "viable": true
+        }
+      }
+    },
+    "training_disturbances": [
+      1,
+      2,
+      4
+    ]
+  },
+  "metadata": {
+    "assumptions": [
+      "Three binary essential variables with viable region {(0,0,0)}.",
+      "Environmental disturbances are all bit-flip masks.",
+      "A regulator resets declared coordinates when it and every required upstream module are active.",
+      "A durable record is one externally retained successful recovery, not every internal update.",
+      "Controller-disable interventions and coordinate-resolved failures are physically available only in the positive reopener fixture."
+    ],
+    "probe": "du_recursive_viability_philosopher_identifiability_probe",
+    "scope": "Exact finite repair/control and intervention-role identifiability; no physical ontology is assumed.",
+    "warrants": [
+      "DERIVED finite edge-subdivision nonidentification",
+      "CONSTRUCTIVELY_REALIZED m=0/m=1/m>1/arbitrary/overlap rivals",
+      "CONSTRUCTIVELY_REALIZED held-out overlap intervention",
+      "CONDITIONALLY ENTAILED intervention-role hypergraph",
+      "STRUCTURAL ANALOGY to recursive viable systems; not a Beer identity"
+    ]
+  },
+  "nested_internal_control": {
+    "inserted_relay_duplicates_root_failure_signature": true,
+    "local_A_and_B_have_distinct_failure_supports": true,
+    "nested_m2_single_lesions": {
+      "A": {
+        "disabled_modules": [
+          "A"
+        ],
+        "durable_record": null,
+        "final_state": [
+          1,
+          1,
+          0
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [
+          "B",
+          "R"
+        ],
+        "viable": false
+      },
+      "B": {
+        "disabled_modules": [
+          "B"
+        ],
+        "durable_record": null,
+        "final_state": [
+          0,
+          0,
+          1
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [
+          "A",
+          "R"
+        ],
+        "viable": false
+      },
+      "R": {
+        "disabled_modules": [
+          "R"
+        ],
+        "durable_record": null,
+        "final_state": [
+          1,
+          1,
+          1
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [],
+        "viable": false
+      }
+    },
+    "reading": "The m=2 fixture is not passive naming: root and local lesions change outcomes. Yet a serial relay duplicates the root lesion signature and raises advertised depth, so raw level count still requires a quotient or an independently measurable relay property.",
+    "refined_m3_single_lesions": {
+      "A": {
+        "disabled_modules": [
+          "A"
+        ],
+        "durable_record": null,
+        "final_state": [
+          1,
+          1,
+          0
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [
+          "B",
+          "Q",
+          "R"
+        ],
+        "viable": false
+      },
+      "B": {
+        "disabled_modules": [
+          "B"
+        ],
+        "durable_record": null,
+        "final_state": [
+          0,
+          0,
+          1
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [
+          "A",
+          "Q",
+          "R"
+        ],
+        "viable": false
+      },
+      "Q": {
+        "disabled_modules": [
+          "Q"
+        ],
+        "durable_record": null,
+        "final_state": [
+          1,
+          1,
+          1
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [
+          "R"
+        ],
+        "viable": false
+      },
+      "R": {
+        "disabled_modules": [
+          "R"
+        ],
+        "durable_record": null,
+        "final_state": [
+          1,
+          1,
+          1
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [],
+        "viable": false
+      }
+    },
+    "root_is_operationally_required": true
+  },
+  "nulls_and_semantics": {
+    "clock_record_control": {
+      "all_durable_record_counts_equal": true,
+      "internal_update_counts_differ": true,
+      "reading": "The same seven durable recoveries are represented with different numbers of internal update opportunities. A level-clock cannot be inferred by counting model nodes.",
+      "rows": {
+        "arbitrary_m2": {
+          "durable_external_recovery_records": 7,
+          "internal_module_update_opportunities": 21
+        },
+        "macro_m1": {
+          "durable_external_recovery_records": 7,
+          "internal_module_update_opportunities": 7
+        },
+        "micro_m0": {
+          "durable_external_recovery_records": 7,
+          "internal_module_update_opportunities": 21
+        },
+        "nested_m2": {
+          "durable_external_recovery_records": 7,
+          "internal_module_update_opportunities": 21
+        },
+        "overlap_cover": {
+          "durable_external_recovery_records": 7,
+          "internal_module_update_opportunities": 14
+        },
+        "refined_m3": {
+          "durable_external_recovery_records": 7,
+          "internal_module_update_opportunities": 28
+        }
+      }
+    },
+    "ordinary_rg_majority_null": {
+      "all_single_failures_hidden_by_majority_coarse_graining": true,
+      "reading": "A stable coarse majority can hide violations of essential variables. Coarse-grained persistence is not active viability and supplies no downward regulator.",
+      "rows": [
+        {
+          "coarse_macrostate_appears_unchanged": true,
+          "disturbance": 1,
+          "essential_all_zero_viability": false,
+          "micro_state": [
+            1,
+            0,
+            0
+          ],
+          "ordinary_majority_macrostate": 0
+        },
+        {
+          "coarse_macrostate_appears_unchanged": true,
+          "disturbance": 2,
+          "essential_all_zero_viability": false,
+          "micro_state": [
+            0,
+            1,
+            0
+          ],
+          "ordinary_majority_macrostate": 0
+        },
+        {
+          "coarse_macrostate_appears_unchanged": true,
+          "disturbance": 4,
+          "essential_all_zero_viability": false,
+          "micro_state": [
+            0,
+            0,
+            1
+          ],
+          "ordinary_majority_macrostate": 0
+        }
+      ]
+    },
+    "passive_stability": {
+      "all_nonempty_disturbances_fail": true,
+      "rows": {
+        "0": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            0,
+            0
+          ],
+          "operational_modules": [],
+          "viable": true
+        },
+        "1": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            1,
+            0,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            0
+          ],
+          "operational_modules": [],
+          "viable": false
+        },
+        "2": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            0,
+            1,
+            0
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            0
+          ],
+          "operational_modules": [],
+          "viable": false
+        },
+        "3": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            1,
+            1,
+            0
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            0
+          ],
+          "operational_modules": [],
+          "viable": false
+        },
+        "4": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            0,
+            0,
+            1
+          ],
+          "initial_after_disturbance": [
+            0,
+            0,
+            1
+          ],
+          "operational_modules": [],
+          "viable": false
+        },
+        "5": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            1,
+            0,
+            1
+          ],
+          "initial_after_disturbance": [
+            1,
+            0,
+            1
+          ],
+          "operational_modules": [],
+          "viable": false
+        },
+        "6": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            0,
+            1,
+            1
+          ],
+          "initial_after_disturbance": [
+            0,
+            1,
+            1
+          ],
+          "operational_modules": [],
+          "viable": false
+        },
+        "7": {
+          "disabled_modules": [],
+          "durable_record": null,
+          "final_state": [
+            1,
+            1,
+            1
+          ],
+          "initial_after_disturbance": [
+            1,
+            1,
+            1
+          ],
+          "operational_modules": [],
+          "viable": false
+        }
+      },
+      "undisturbed_state_persists": true
+    },
+    "unit_and_teleology_control": {
+      "dimensional_unit_present": false,
+      "generated_quantities": [
+        "finite counts",
+        "dimensionless viability fractions",
+        "dimensionless intervention-role multiplicities"
+      ],
+      "purpose_or_agency_inferred": false,
+      "reading": "Control success establishes containment under a declared disturbance family only. It creates neither units nor purpose."
+    }
+  },
+  "overlap_intervention_positive_reopener": {
+    "additive_single_lesion_prediction_for_double": [
+      0,
+      2
+    ],
+    "canonical_cut_signature": "0,1|0|1",
+    "developmental_single_lesions": {
+      "disable_A": {
+        "disabled_modules": [
+          "A"
+        ],
+        "durable_record": null,
+        "final_state": [
+          1,
+          0,
+          0
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [
+          "B"
+        ],
+        "viable": false
+      },
+      "disable_B": {
+        "disabled_modules": [
+          "B"
+        ],
+        "durable_record": null,
+        "final_state": [
+          0,
+          0,
+          1
+        ],
+        "initial_after_disturbance": [
+          1,
+          1,
+          1
+        ],
+        "operational_modules": [
+          "A"
+        ],
+        "viable": false
+      }
+    },
+    "held_out_double_lesion": {
+      "disabled_modules": [
+        "A",
+        "B"
+      ],
+      "durable_record": null,
+      "final_state": [
+        1,
+        1,
+        1
+      ],
+      "initial_after_disturbance": [
+        1,
+        1,
+        1
+      ],
+      "operational_modules": [],
+      "viable": false
+    },
+    "held_out_synergy_coordinate": [
+      1
+    ],
+    "interpretation": "Coordinate 0 fails when A alone is disabled; coordinate 2 fails when B alone is disabled; coordinate 1 fails only when both are disabled. The held-out double lesion exposes redundant overlapping protection that an additive/disjoint reading of single lesions misses.",
+    "minimal_cut_hypergraph": {
+      "0": [
+        [
+          "A"
+        ]
+      ],
+      "1": [
+        [
+          "A",
+          "B"
+        ]
+      ],
+      "2": [
+        [
+          "B"
+        ]
+      ]
+    },
+    "observed_double_lesion_failure": [
+      0,
+      1,
+      2
+    ],
+    "relabelled_canonical_cut_signature": "0,1|0|1",
+    "resolution_control": {
+      "operation": "Duplicate coordinate 1 into a perfectly tied analysis coordinate with the same minimal cut {A,B}.",
+      "quotient_signature_after": "0|0,1|1",
+      "quotient_signature_before": "0|0,1|1",
+      "raw_role_count_after": 4,
+      "raw_role_count_before": 3,
+      "reading": "Raw apparent multiplicity follows resolution; the quotient by observationally duplicate intervention roles does not."
+    }
+  },
+  "seeded": false,
+  "theorem": {
+    "counterexample_scope": "The result defeats inference from finite extensional success to one ontic scalar depth. It does not defeat physically anchored multilevel control or an interventionally identified cover.",
+    "name": "finite recursive-refinement nonidentification",
+    "statement": "If a finite experiment observes only the external transition, viability, and durable-record map of a controller, then any factorization can be refined by serial identity/relay nodes without changing those observations. Consequently raw scalar recursion depth is not identified. Internal interventions may identify a minimal causal cover/poset up to relabeling, duplicate-role contraction, and untested refinements."
+  },
+  "verdict": "RAW SCALAR DEPTH NOT IDENTIFIED / ACTIVE MULTILEVEL CONTROL CONSTRUCTIVELY REALIZED / HELD-OUT LESIONS DISCOVER AN OVERLAPPING ROLE COVER / BEER-FUNCTION-LEVEL-FINALITY CONFLATION OVERTURNED"
+}

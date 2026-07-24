@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 13
+manifest_revision: 14
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -20,7 +20,7 @@ lane_design_note: >-
 active_hardening_program_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 active_hardening_program_note: >-
-  HC-DU-001 through HC-DU-031 are the prioritized, non-destructive credibility backlog. The
+  HC-DU-001 through HC-DU-032 are the prioritized, non-destructive credibility backlog. The
   original P01-A through P50-B persona items remain the lossless source register; hardening IDs,
   work packages and cross-repo reuse pointers route them but never replace them.
 strategic_reprioritization:
@@ -315,6 +315,53 @@ science_council_primitive_record_clock_wave:
   divergent_custody: >-
     Forty-seven primitive-record-rate persona items are preserved as UNRANKED / UNCOMMITTED /
     NOT_A_CLAIM in their dedicated index, in addition to both earlier council generations.
+science_council_recursive_viable_systems_wave:
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: run the same complete five-persona process from all three prior waves while
+    admitting an unknown number of recursive viable-system-like organizations across scale.
+  contract_ref: >-
+    explorations/science-council-recursive-viable-systems-wave-contract-2026-07-24.md
+  synthesis_ref: >-
+    explorations/science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md
+  journey_ref: >-
+    explorations/science-council-four-wave-research-journey-2026-07-24.md
+  divergent_index_ref: >-
+    explorations/science-council-five-persona-recursive-viable-systems-divergent-wishlist-index-2026-07-24.md
+  persona_refs:
+    orthodox: explorations/science-council-orthodox-recursive-viable-systems-wave-2026-07-24.md
+    heterodox: explorations/science-council-heterodox-recursive-viable-systems-wave-2026-07-24.md
+    commercial: explorations/science-council-commercial-recursive-viable-systems-wave-2026-07-24.md
+    wild_frontier: explorations/science-council-wild-frontier-recursive-viable-systems-wave-2026-07-24.md
+    philosopher: explorations/science-council-philosopher-recursive-viable-systems-wave-2026-07-24.md
+  integrated_result: >-
+    Active multilevel regulation is conditionally constructible: extra levels can earn held-out
+    repair and record-prediction advantages through explicit upward summaries and downward acts.
+    Endpoint viability, passive persistence, ordinary coarse-graining, arbitrary partitions,
+    duplicate fibres and redundant wrappers do not identify it. A flat global regulator ties the
+    recursive regulator when global access is free.
+  identifiability_correction: >-
+    Raw scalar depth is not generally identified: an identity or relay can refine a finite
+    hierarchy without changing its external trace, and admitted resolution can change the selected
+    depth. Held-out controller lesions can instead recover a minimal, possibly overlapping,
+    relabeling-invariant intervention-role cover or poset.
+  conceptual_correction: >-
+    Beer S1-S5 functions inside one system, levels at which viable organization repeats, and
+    physical finality/causal/scale strata are separate axes. Fixed-family viability can exist
+    without an S4-like environment model; S4 remains a candidate for out-of-family adaptation or
+    controller generation.
+  integrated_disposition: >-
+    RECURSIVE CONTROL CONDITIONALLY CONSTRUCTED / RAW SCALAR DEPTH NONIDENTIFIED / MINIMAL
+    INTERVENTION-ROLE COVER DISCOVERABLE / PHYSICAL BOUNDARIES, LOCALITY COSTS, ADAPTATION, UNITS
+    AND COSMOLOGY OPEN. No claim banked or seeded.
+  program_relationship: >-
+    HC-DU-032 is a bounded recursive-viability passport overlay on HC-DU-031A and HC-DU-011A, not
+    a third broad program. Apply it only to native record-clock or causal-post candidates and stop
+    if there is no controller-ablation effect, held-out advantage, inferred boundary or advantage
+    over flat/overlap/RG/replay/relay/alias/resolution rivals.
+  divergent_custody: >-
+    Sixty-one recursive-viability persona items are preserved as UNRANKED / UNCOMMITTED /
+    NOT_A_CLAIM in their dedicated index, in addition to all three earlier council generations.
 lanes:
 - id: '1'
   label: Lane 1
@@ -372,9 +419,12 @@ lanes:
       parallel, HC-DU-011A remains the lean post passport plus unconditioned
       generativity/recurrence census across fixed tail families. A post-law survivor must jointly
       produce posts, nontrivial running and held-out acceptable geometry before physical records,
-      response, units or cosmology. Direct count-running remains killed. No unconstrained clock
-      gate, coefficient fitting, proxy proliferation, broad enumeration, selected post epoch, or
-      cosmology before the relevant dependency test counts as progress.
+      response, units or cosmology. HC-DU-032 now overlays both builds: infer a minimal
+      intervention-role cover and require held-out multilevel control against flat, overlap,
+      replay, RG, relay, alias and resolution rivals; do not open a third broad program. Direct
+      count-running remains killed. No unconstrained clock gate, coefficient fitting, proxy
+      proliferation, broad enumeration, selected post epoch, or cosmology before the relevant
+      dependency test counts as progress.
   priority_guard: >-
     SWING-DU-COV-02 kills the strongest local constant-kappa lift except at the constant-Lambda
     limit: every accelerating fixed point has c_N^2=3 Omega_V*>1. SWING-DU-CMF-01 then executes the
@@ -393,6 +443,10 @@ lanes:
     exact Clock-QW/QCA semantic assay. Its G-full latency-only control is already killed; it
     advances only if one fixed globally stepped construction yields a representation-independent
     durable-record functional and hides or exposes its scheduler under declared interventions.
+    HC-DU-032 adds a bounded system-individuation passport to both live builds. It does not
+    promote hierarchy, recursion depth, or Beer functions to physical ontology; it advances only
+    if controller lesions and held-out disturbances expose native upward/downward roles and
+    locality costs that a flat global rival cannot match for free.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -466,7 +520,8 @@ lanes:
       Build the minimum complete theory passport (state space, action, symmetries, observables,
       quantization, constraints, limits and predictions); construct explicit typed maps among the
       several N objects; execute the staged HC-DU-011 + HC-DU-022 order-first causal-scale program;
-      and execute the bounded HC-DU-031 primitive-record-clock passport; test
+      execute the bounded HC-DU-031 primitive-record-clock passport; and apply the HC-DU-032
+      recursive-viability/system-individuation overlay to both live candidates; test
       CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the Standard
       Model. HC-DU-031A first reproduces the exact 1+1 Clock-QW/QCA and tests whether its covariance
       reaches durable observer records under reflection, reunion, boosts and scheduler-tag
@@ -476,8 +531,8 @@ lanes:
       held-out geometry. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
     grade: >-
       ACTIVE PROGRAM / EXACT POST ANTECEDENT REPRODUCED / POST GENERATIVITY PLUS HELD-OUT GEOMETRY
-      NEXT / RECORD-CLOCK SEMANTIC ARENA NEXT IN PARALLEL / G-FULL DELAY-ONLY AND NAIVE
-      COUNT-RUNNING KILLED
+      NEXT / RECORD-CLOCK SEMANTIC ARENA NEXT IN PARALLEL / RECURSIVE-VIABILITY PASSPORT OVERLAY /
+      RAW SCALAR DEPTH NONIDENTIFIED / G-FULL DELAY-ONLY AND NAIVE COUNT-RUNNING KILLED
 - id: '2'
   label: Lane 2
   ordinal: 2
@@ -513,9 +568,11 @@ lanes:
       geometry. CONCEPT-DU-002 adds a bounded parallel frontier, HC-DU-031A: compare universal
       local record cadence with one globally stepped Clock-QW/QCA under one record, reunion, boost,
       scheduler-quotient and units passport. G-full latency-only and unrestricted fitted gating do
-      not count as progress. Direct p(N)/g(N) schedules and generic fitted nonlocal kernels are
-      stopped; influence objects may serve only as downstream telemetry until an independent
-      held-out response exists.
+      not count as progress. CONCEPT-DU-003 adds HC-DU-032 as a bounded system-individuation
+      overlay: discover an intervention cover rather than naming recursion depth, and require
+      native locality/resource costs against flat and overlapping rivals. Direct p(N)/g(N)
+      schedules and generic fitted nonlocal kernels are stopped; influence objects may serve only
+      as downstream telemetry until an independent held-out response exists.
   - id: '2.3'
     title: GU ablation and rival-frame tournament
     scope: >-
@@ -673,7 +730,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 13
+  revision: 14
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -695,7 +752,11 @@ provenance:
     2026-07-24) compares universal local record cadence with one fundamental global update clock,
     kills G-full latency-only differential aging, preserves conditional local and gated/global
     constructions, and opens HC-DU-031A as an exact Clock-QW/QCA observer-record semantic assay in
-    parallel with the post program; anchor question + P/P/P unchanged
+    parallel with the post program; rev14 (Joe direct chat, 2026-07-24) admits recursive
+    viable-system-like organization, conditionally constructs active multilevel regulation,
+    proves raw scalar depth nonidentified under redundant refinement, replaces the scalar ladder
+    with a minimal intervention-role cover, and adds HC-DU-032 as a passport overlay; anchor
+    question + P/P/P unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -779,3 +840,16 @@ provenance:
     globally stepped antecedent. Added CONCEPT-DU-002 and HC-DU-031A for its observer-record,
     reunion and scheduler-tag semantic test, in parallel with HC-DU-011A. No lane, Purpose/
     Passion/Practice, claim bank, prediction seed, sibling verdict or public posture changed.
+  rev14_note: >-
+    2026-07-24 (Joe direct chat): launched one independent agent per Science Council persona from
+    the complete three-wave record while admitting an unknown number of recursive viable-system-
+    like organizations. Exact finite probes conditionally construct active multilevel regulation
+    and level-specific records, but endpoint survival, arbitrary partitions, passive replay,
+    ordinary RG, flat global access, duplicate fibres, redundant wrappers and resolution changes
+    prevent a raw hierarchy reading. An identity/relay refinement theorem makes scalar depth
+    nonidentified, while held-out lesions recover a minimal overlapping intervention-role cover.
+    Corrected the Beer S1-S5 / recursion-level / physical-finality conflation and narrowed S4 to
+    out-of-family adaptation or controller generation. Added CONCEPT-DU-003 and HC-DU-032 as a
+    bounded passport overlay on HC-DU-031A and HC-DU-011A, preserved sixty-one divergent paths,
+    and changed no Lane, Purpose/Passion/Practice, claim bank, prediction seed, sibling verdict or
+    public posture.

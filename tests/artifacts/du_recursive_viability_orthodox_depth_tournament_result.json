@@ -1,0 +1,5251 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Supplies a conventional control-theory comparator.",
+        "statement": "Viability is exact finite controlled invariance of K={0} for a declared three-step disturbance family.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Defines the finite planted systems.",
+        "statement": "Four excess-load variables remain after a passive plant has absorbed its declared disturbance envelope.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Defines one active viability level.",
+        "statement": "At m=1, each candidate pair has fixed control budget two.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Defines typed upward and downward adjacent-level maps.",
+        "statement": "At m=2, an upper regulator may transfer one budget unit between local units while preserving one unit for each.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A5",
+        "role": "Makes hierarchy-depth selection explicit and penalized.",
+        "statement": "Failure costs twenty units and model complexity is (0,3,7,11) for depths zero through three.",
+        "status": "CONDITIONAL_POSIT"
+      }
+    ],
+    "candidate_id": "DU-ORTHODOX-RECURSIVE-VIABILITY-DEPTH-TOURNAMENT",
+    "comparators": [
+      "m=0 passive microdynamics",
+      "m=1 one active local-control level",
+      "m=2 local controls plus upper resource regulator",
+      "m=3 redundant extra level",
+      "arbitrary pair partitions",
+      "training lookup-table",
+      "RG-only upward coarse-graining",
+      "record-every-tick bookkeeping model"
+    ],
+    "concept": {
+      "concept_id": "DU-RECURSIVE-VIABLE-SYSTEM-LIKE-ORGANIZATION",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "ORTHODOX-FOUR-VARIABLE-NESTED-BUDGET-CONTROL",
+      "invariant": "Each earned level must have a boundary, essential variables, held-out viability advantage, upward sufficient statistic, downward constraint/control map, and complexity-paid depth."
+    },
+    "equations": [
+      "x(t+1)=e(t)-u(t); viable iff x(t+1)=0",
+      "m=1: b=(2,2)",
+      "m=2: b in {(2,2),(3,1),(1,3)} from upward group demands",
+      "score=20*training_failures+lambda*complexity(m)",
+      "complexity(0,1,2,3)=(0,3,7,11)"
+    ],
+    "falsifiers": [
+      "a planted fixture selects the wrong depth",
+      "a selected model fails a held-out disturbance",
+      "a wrong partition matches the planted active hierarchy",
+      "a redundant level wins only by adding parameters",
+      "relabeling or representation refinement changes selected depth",
+      "upward coarse-graining without control supplies the same m=2 advantage"
+    ],
+    "free_choices": [
+      {
+        "choice": "Use four micro-variables and enumerate all pair partitions.",
+        "id": "C1",
+        "sensitivity_test": "Test every component relabeling and a twofold resolution refinement.",
+        "why_not_forced": "This is the smallest nontrivial exact partition tournament."
+      },
+      {
+        "choice": "Use a one-unit upper-level budget transfer.",
+        "id": "C2",
+        "sensitivity_test": "Remove the downward map, retain the upward sums, and require the RG-only null to lose viability.",
+        "why_not_forced": "It plants a minimal genuine downward control advantage."
+      },
+      {
+        "choice": "Use penalty multipliers one, three, and five.",
+        "id": "C3",
+        "sensitivity_test": "Require the planted depth to remain selected across all three.",
+        "why_not_forced": "No unique MDL coding convention is claimed."
+      }
+    ],
+    "null_models": [
+      "arbitrary-partition null",
+      "passive-stability null",
+      "hierarchy-depth overfit null",
+      "resolution-refinement null",
+      "relabeling and hidden-tag fibre null",
+      "held-out-disturbance null",
+      "ordinary-RG no-downward-control null",
+      "clock-opportunity versus durable-record null",
+      "teleology null: only controlled invariance is scored"
+    ],
+    "observables": [
+      "training and held-out controlled-invariance failures",
+      "selected recursion depth and partition",
+      "upward aggregate loads and downward budget allocations",
+      "global update opportunities, local records, and macro transfer records",
+      "relabeling and resolution stability"
+    ],
+    "question": "Can recursively nested viable-system-like levels be discovered as intervention-stable control structure beyond passive persistence and ordinary coarse-graining, and does that support the prior finality-to-VSM inference?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "planted m=0 passive fixture selects no active viability level",
+          "pass": true
+        },
+        {
+          "name": "planted m=1 fixture selects the intervention-stable local partition",
+          "pass": true
+        },
+        {
+          "name": "planted m=2 fixture selects the genuine upward/downward control hierarchy",
+          "pass": true
+        },
+        {
+          "name": "every selected depth survives every held-out disturbance",
+          "pass": true
+        },
+        {
+          "name": "wrong hand-selected partitions fail the planted active fixtures",
+          "pass": true
+        },
+        {
+          "name": "passive persistence earns m=0 rather than a fictitious controller",
+          "pass": true
+        },
+        {
+          "name": "a redundant third level never beats its behaviorally identical m=2 parent",
+          "pass": true
+        },
+        {
+          "name": "selected depths are stable across the declared complexity-penalty range",
+          "pass": true
+        },
+        {
+          "name": "a training lookup-table loses on complexity and fails unseen disturbances",
+          "pass": true
+        },
+        {
+          "name": "all twenty-four component relabelings preserve selected depth and score",
+          "pass": true
+        },
+        {
+          "name": "sixteen hidden tag fibres leave physical viability and record counts unchanged",
+          "pass": true
+        },
+        {
+          "name": "splitting each channel into two half-load subchannels preserves depth scores",
+          "pass": true
+        },
+        {
+          "name": "upward coarse-graining without a downward control map is no better than m=0",
+          "pass": true
+        },
+        {
+          "name": "recording every update opportunity does not create viability",
+          "pass": true
+        },
+        {
+          "name": "macro durable records differ from global opportunities",
+          "pass": true
+        },
+        {
+          "name": "m=2 viability is lost when its downward allocation is removed",
+          "pass": true
+        },
+        {
+          "name": "the result uses exact finite arithmetic and no fitted viability threshold",
+          "pass": true
+        }
+      ],
+      "claim": "A finite controlled-invariance tournament can recover planted depths zero, one, and two while rejecting passive, arbitrary-partition, redundant-depth, memorization, RG-only, and clock-copy nulls. This conditionally realizes objective depth discovery, but does not make Beer functions into physical levels or establish the prior System-4/self-authoring claim.",
+      "grade": "EXACT FINITE CONDITIONAL CONSTRUCTION / DEPTH DISCOVERY REALIZED / FINALITY-VSM INFERENCE NOT ESTABLISHED",
+      "remaining_uncertainty": "No DU dynamics, physical boundary, adaptive System 4, observer, post, clock, scale, or cosmological map has been discovered."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not infer literal Beer S1-S5 structure from a viability hierarchy.",
+      "Do not equate Beer functions, recursion depth, and physical scale strata.",
+      "Do not call passive persistence or RG blocking active regulation.",
+      "Do not promote the planted finite result to a universal physical hierarchy.",
+      "Do not infer purpose, agency, consciousness, or self-authorship.",
+      "Do not connect the construction to Lambda, posts, or clocks without typed maps."
+    ],
+    "track": "Science Council recursive viable-systems wave / conventional controlled-invariance and depth-selection benchmark",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 5,
+    "candidate_id": "DU-ORTHODOX-RECURSIVE-VIABILITY-DEPTH-TOURNAMENT",
+    "checks_passed": 17,
+    "checks_total": 17,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 6,
+    "free_choice_count": 3,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 9,
+    "observable_count": 5,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "checks": [
+      {
+        "name": "planted m=0 passive fixture selects no active viability level",
+        "pass": true
+      },
+      {
+        "name": "planted m=1 fixture selects the intervention-stable local partition",
+        "pass": true
+      },
+      {
+        "name": "planted m=2 fixture selects the genuine upward/downward control hierarchy",
+        "pass": true
+      },
+      {
+        "name": "every selected depth survives every held-out disturbance",
+        "pass": true
+      },
+      {
+        "name": "wrong hand-selected partitions fail the planted active fixtures",
+        "pass": true
+      },
+      {
+        "name": "passive persistence earns m=0 rather than a fictitious controller",
+        "pass": true
+      },
+      {
+        "name": "a redundant third level never beats its behaviorally identical m=2 parent",
+        "pass": true
+      },
+      {
+        "name": "selected depths are stable across the declared complexity-penalty range",
+        "pass": true
+      },
+      {
+        "name": "a training lookup-table loses on complexity and fails unseen disturbances",
+        "pass": true
+      },
+      {
+        "name": "all twenty-four component relabelings preserve selected depth and score",
+        "pass": true
+      },
+      {
+        "name": "sixteen hidden tag fibres leave physical viability and record counts unchanged",
+        "pass": true
+      },
+      {
+        "name": "splitting each channel into two half-load subchannels preserves depth scores",
+        "pass": true
+      },
+      {
+        "name": "upward coarse-graining without a downward control map is no better than m=0",
+        "pass": true
+      },
+      {
+        "name": "recording every update opportunity does not create viability",
+        "pass": true
+      },
+      {
+        "name": "macro durable records differ from global opportunities",
+        "pass": true
+      },
+      {
+        "name": "m=2 viability is lost when its downward allocation is removed",
+        "pass": true
+      },
+      {
+        "name": "the result uses exact finite arithmetic and no fitted viability threshold",
+        "pass": true
+      }
+    ],
+    "checks_passed": 17,
+    "checks_total": 17,
+    "contested_proposition": "The prior finality/VSM mapping already warrants treating Beer functions as recursive physical levels and the absence of System 4 as a theorem-level necessary condition for physical viability, thereby connecting posts, records, and self-authoring without separately discovering an intervention-stable hierarchy.",
+    "definitions": {
+      "boundary": "candidate partition defining two local controlled units",
+      "depth_m": "number of active viability-control levels above passive microdynamics",
+      "downward_map": "upper regulator's budget allocation",
+      "durable_macro_record": "a stored upper-level budget-transfer event",
+      "global_opportunity": "one disturbance/update step",
+      "upward_map": "pairwise excess-load sums",
+      "viability": "all excess load is cleared at every declared disturbance step"
+    },
+    "fixtures": {
+      "PLANTED_M0_PASSIVE": {
+        "all_candidates": [
+          {
+            "complexity": 0,
+            "depth": 0,
+            "held_out": {
+              "depth": 0,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "NONE",
+              "rows": [
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": null,
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": null,
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": null,
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "NONE",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 0,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "NONE",
+              "rows": [
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": null,
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": null,
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": null,
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 0
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 3
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 7
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 11
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 3
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 7
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 11
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 3
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 7
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "0",
+                    "0",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "0",
+                    "0"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 11
+          }
+        ],
+        "held_out": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "planted_depth": 0,
+        "selected": {
+          "complexity": 0,
+          "depth": 0,
+          "held_out": {
+            "depth": 0,
+            "failures": 0,
+            "local_durable_records": 0,
+            "macro_transfer_records": 0,
+            "opportunities": 3,
+            "partition": "NONE",
+            "rows": [
+              {
+                "downward_group_budgets": null,
+                "excess_load": [
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "tick": 0,
+                "upward_group_demands": null,
+                "viable": true
+              },
+              {
+                "downward_group_budgets": null,
+                "excess_load": [
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "tick": 1,
+                "upward_group_demands": null,
+                "viable": true
+              },
+              {
+                "downward_group_budgets": null,
+                "excess_load": [
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "tick": 2,
+                "upward_group_demands": null,
+                "viable": true
+              }
+            ],
+            "survivals": 3,
+            "trajectory_viable": true
+          },
+          "partition": "NONE",
+          "penalty_multiplier": 1,
+          "training": {
+            "depth": 0,
+            "failures": 0,
+            "local_durable_records": 0,
+            "macro_transfer_records": 0,
+            "opportunities": 3,
+            "partition": "NONE",
+            "rows": [
+              {
+                "downward_group_budgets": null,
+                "excess_load": [
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "tick": 0,
+                "upward_group_demands": null,
+                "viable": true
+              },
+              {
+                "downward_group_budgets": null,
+                "excess_load": [
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "tick": 1,
+                "upward_group_demands": null,
+                "viable": true
+              },
+              {
+                "downward_group_budgets": null,
+                "excess_load": [
+                  "0",
+                  "0",
+                  "0",
+                  "0"
+                ],
+                "tick": 2,
+                "upward_group_demands": null,
+                "viable": true
+              }
+            ],
+            "survivals": 3,
+            "trajectory_viable": true
+          },
+          "training_score": 0
+        },
+        "training": [
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "true_partition": "0,1|2,3"
+      },
+      "PLANTED_M1_LOCAL": {
+        "all_candidates": [
+          {
+            "complexity": 0,
+            "depth": 0,
+            "held_out": {
+              "depth": 0,
+              "failures": 3,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "NONE",
+              "rows": [
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": null,
+                  "viable": false
+                }
+              ],
+              "survivals": 0,
+              "trajectory_viable": false
+            },
+            "partition": "NONE",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 0,
+              "failures": 3,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "NONE",
+              "rows": [
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": null,
+                  "viable": false
+                }
+              ],
+              "survivals": 0,
+              "trajectory_viable": false
+            },
+            "training_score": 60
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 3
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 7
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 11
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 1,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 3,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                }
+              ],
+              "survivals": 0,
+              "trajectory_viable": false
+            },
+            "training_score": 63
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 3,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 7
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 3,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 11
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 2,
+              "local_durable_records": 5,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                }
+              ],
+              "survivals": 1,
+              "trajectory_viable": false
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 3,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": false
+                }
+              ],
+              "survivals": 0,
+              "trajectory_viable": false
+            },
+            "training_score": 63
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 3,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 7
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "0",
+                    "2"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 3,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "2",
+                    "0",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "2",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "2",
+                    "0"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 11
+          }
+        ],
+        "held_out": [
+          [
+            "1",
+            "1",
+            "0",
+            "2"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "1"
+          ],
+          [
+            "2",
+            "0",
+            "0",
+            "2"
+          ]
+        ],
+        "planted_depth": 1,
+        "selected": {
+          "complexity": 3,
+          "depth": 1,
+          "held_out": {
+            "depth": 1,
+            "failures": 0,
+            "local_durable_records": 6,
+            "macro_transfer_records": 0,
+            "opportunities": 3,
+            "partition": "0,1|2,3",
+            "rows": [
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "1",
+                  "1",
+                  "0",
+                  "2"
+                ],
+                "tick": 0,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "1",
+                  "1",
+                  "1",
+                  "1"
+                ],
+                "tick": 1,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "2",
+                  "0",
+                  "0",
+                  "2"
+                ],
+                "tick": 2,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              }
+            ],
+            "survivals": 3,
+            "trajectory_viable": true
+          },
+          "partition": "0,1|2,3",
+          "penalty_multiplier": 1,
+          "training": {
+            "depth": 1,
+            "failures": 0,
+            "local_durable_records": 6,
+            "macro_transfer_records": 0,
+            "opportunities": 3,
+            "partition": "0,1|2,3",
+            "rows": [
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "2",
+                  "0",
+                  "1",
+                  "1"
+                ],
+                "tick": 0,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "0",
+                  "2",
+                  "1",
+                  "1"
+                ],
+                "tick": 1,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "1",
+                  "1",
+                  "2",
+                  "0"
+                ],
+                "tick": 2,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              }
+            ],
+            "survivals": 3,
+            "trajectory_viable": true
+          },
+          "training_score": 3
+        },
+        "training": [
+          [
+            "2",
+            "0",
+            "1",
+            "1"
+          ],
+          [
+            "0",
+            "2",
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "2",
+            "0"
+          ]
+        ],
+        "true_partition": "0,1|2,3"
+      },
+      "PLANTED_M2_RECURSIVE": {
+        "all_candidates": [
+          {
+            "complexity": 0,
+            "depth": 0,
+            "held_out": {
+              "depth": 0,
+              "failures": 3,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "NONE",
+              "rows": [
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": null,
+                  "viable": false
+                }
+              ],
+              "survivals": 0,
+              "trajectory_viable": false
+            },
+            "partition": "NONE",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 0,
+              "failures": 3,
+              "local_durable_records": 0,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "NONE",
+              "rows": [
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": null,
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": null,
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": null,
+                  "viable": false
+                }
+              ],
+              "survivals": 0,
+              "trajectory_viable": false
+            },
+            "training_score": 60
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 2,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 1,
+              "trajectory_viable": false
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 2,
+              "local_durable_records": 6,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 1,
+              "trajectory_viable": false
+            },
+            "training_score": 43
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 2,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 2,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 7
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 2,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "partition": "0,1|2,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 0,
+              "local_durable_records": 6,
+              "macro_transfer_records": 2,
+              "opportunities": 3,
+              "partition": "0,1|2,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 3,
+              "trajectory_viable": true
+            },
+            "training_score": 11
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 2,
+              "local_durable_records": 5,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "4"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 1,
+              "trajectory_viable": false
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 2,
+              "local_durable_records": 5,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 1,
+              "trajectory_viable": false
+            },
+            "training_score": 43
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "4"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "training_score": 27
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "0",
+                    "4"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "partition": "0,2|1,3",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,2|1,3",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "training_score": 31
+          },
+          {
+            "complexity": 3,
+            "depth": 1,
+            "held_out": {
+              "depth": 1,
+              "failures": 2,
+              "local_durable_records": 5,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "4"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 1,
+              "trajectory_viable": false
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 1,
+              "failures": 2,
+              "local_durable_records": 5,
+              "macro_transfer_records": 0,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 1,
+              "trajectory_viable": false
+            },
+            "training_score": 43
+          },
+          {
+            "complexity": 7,
+            "depth": 2,
+            "held_out": {
+              "depth": 2,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "4"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 2,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "training_score": 27
+          },
+          {
+            "complexity": 11,
+            "depth": 3,
+            "held_out": {
+              "depth": 3,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "0",
+                    "4"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "1",
+                    "3"
+                  ],
+                  "excess_load": [
+                    "0",
+                    "3",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "1",
+                    "3"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "partition": "0,3|1,2",
+            "penalty_multiplier": 1,
+            "training": {
+              "depth": 3,
+              "failures": 1,
+              "local_durable_records": 5,
+              "macro_transfer_records": 1,
+              "opportunities": 3,
+              "partition": "0,3|1,2",
+              "rows": [
+                {
+                  "downward_group_budgets": [
+                    "3",
+                    "1"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "1",
+                    "0"
+                  ],
+                  "tick": 0,
+                  "upward_group_demands": [
+                    "3",
+                    "1"
+                  ],
+                  "viable": true
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "3",
+                    "0",
+                    "0",
+                    "1"
+                  ],
+                  "tick": 1,
+                  "upward_group_demands": [
+                    "4",
+                    "0"
+                  ],
+                  "viable": false
+                },
+                {
+                  "downward_group_budgets": [
+                    "2",
+                    "2"
+                  ],
+                  "excess_load": [
+                    "1",
+                    "1",
+                    "1",
+                    "1"
+                  ],
+                  "tick": 2,
+                  "upward_group_demands": [
+                    "2",
+                    "2"
+                  ],
+                  "viable": true
+                }
+              ],
+              "survivals": 2,
+              "trajectory_viable": false
+            },
+            "training_score": 31
+          }
+        ],
+        "held_out": [
+          [
+            "0",
+            "3",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "3",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        ],
+        "planted_depth": 2,
+        "selected": {
+          "complexity": 7,
+          "depth": 2,
+          "held_out": {
+            "depth": 2,
+            "failures": 0,
+            "local_durable_records": 6,
+            "macro_transfer_records": 2,
+            "opportunities": 3,
+            "partition": "0,1|2,3",
+            "rows": [
+              {
+                "downward_group_budgets": [
+                  "3",
+                  "1"
+                ],
+                "excess_load": [
+                  "0",
+                  "3",
+                  "1",
+                  "0"
+                ],
+                "tick": 0,
+                "upward_group_demands": [
+                  "3",
+                  "1"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "3",
+                  "1"
+                ],
+                "excess_load": [
+                  "0",
+                  "3",
+                  "0",
+                  "1"
+                ],
+                "tick": 1,
+                "upward_group_demands": [
+                  "3",
+                  "1"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "1",
+                  "1",
+                  "1",
+                  "1"
+                ],
+                "tick": 2,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              }
+            ],
+            "survivals": 3,
+            "trajectory_viable": true
+          },
+          "partition": "0,1|2,3",
+          "penalty_multiplier": 1,
+          "training": {
+            "depth": 2,
+            "failures": 0,
+            "local_durable_records": 6,
+            "macro_transfer_records": 2,
+            "opportunities": 3,
+            "partition": "0,1|2,3",
+            "rows": [
+              {
+                "downward_group_budgets": [
+                  "3",
+                  "1"
+                ],
+                "excess_load": [
+                  "3",
+                  "0",
+                  "1",
+                  "0"
+                ],
+                "tick": 0,
+                "upward_group_demands": [
+                  "3",
+                  "1"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "3",
+                  "1"
+                ],
+                "excess_load": [
+                  "3",
+                  "0",
+                  "0",
+                  "1"
+                ],
+                "tick": 1,
+                "upward_group_demands": [
+                  "3",
+                  "1"
+                ],
+                "viable": true
+              },
+              {
+                "downward_group_budgets": [
+                  "2",
+                  "2"
+                ],
+                "excess_load": [
+                  "1",
+                  "1",
+                  "1",
+                  "1"
+                ],
+                "tick": 2,
+                "upward_group_demands": [
+                  "2",
+                  "2"
+                ],
+                "viable": true
+              }
+            ],
+            "survivals": 3,
+            "trajectory_viable": true
+          },
+          "training_score": 7
+        },
+        "training": [
+          [
+            "3",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "3",
+            "0",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        ],
+        "true_partition": "0,1|2,3"
+      }
+    },
+    "hard_nulls": {
+      "arbitrary_partition": {
+        "PLANTED_M1_LOCAL": {
+          "0,1|2,3": 0,
+          "0,2|1,3": 3,
+          "0,3|1,2": 3
+        },
+        "PLANTED_M2_RECURSIVE": {
+          "0,1|2,3": 0,
+          "0,2|1,3": 1,
+          "0,3|1,2": 1
+        }
+      },
+      "clock_copy": {
+        "bookkeeping_records": 3,
+        "controller": "none",
+        "depth": 0,
+        "failures": 3,
+        "local_durable_records": 0,
+        "macro_transfer_records": 0,
+        "opportunities": 3,
+        "partition": "NONE",
+        "rows": [
+          {
+            "downward_group_budgets": null,
+            "excess_load": [
+              "3",
+              "0",
+              "1",
+              "0"
+            ],
+            "tick": 0,
+            "upward_group_demands": null,
+            "viable": false
+          },
+          {
+            "downward_group_budgets": null,
+            "excess_load": [
+              "3",
+              "0",
+              "0",
+              "1"
+            ],
+            "tick": 1,
+            "upward_group_demands": null,
+            "viable": false
+          },
+          {
+            "downward_group_budgets": null,
+            "excess_load": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "tick": 2,
+            "upward_group_demands": null,
+            "viable": false
+          }
+        ],
+        "survivals": 0,
+        "trajectory_viable": false
+      },
+      "hidden_fibre_signatures": [
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        },
+        {
+          "failures": 0,
+          "macro_transfer_records": 2
+        }
+      ],
+      "memorizer": {
+        "PLANTED_M1_LOCAL": {
+          "held_out": {
+            "complexity": 9,
+            "failures": 3
+          },
+          "selected_score": 3,
+          "training": {
+            "complexity": 9,
+            "failures": 0
+          },
+          "training_score": 9
+        },
+        "PLANTED_M2_RECURSIVE": {
+          "held_out": {
+            "complexity": 9,
+            "failures": 2
+          },
+          "selected_score": 7,
+          "training": {
+            "complexity": 9,
+            "failures": 0
+          },
+          "training_score": 9
+        }
+      },
+      "ordinary_rg_only": {
+        "depth": 0,
+        "failures": 3,
+        "local_durable_records": 0,
+        "macro_transfer_records": 0,
+        "opportunities": 3,
+        "partition": "NONE",
+        "rows": [
+          {
+            "downward_group_budgets": null,
+            "excess_load": [
+              "3",
+              "0",
+              "1",
+              "0"
+            ],
+            "tick": 0,
+            "upward_group_demands": null,
+            "viable": false
+          },
+          {
+            "downward_group_budgets": null,
+            "excess_load": [
+              "3",
+              "0",
+              "0",
+              "1"
+            ],
+            "tick": 1,
+            "upward_group_demands": null,
+            "viable": false
+          },
+          {
+            "downward_group_budgets": null,
+            "excess_load": [
+              "1",
+              "1",
+              "1",
+              "1"
+            ],
+            "tick": 2,
+            "upward_group_demands": null,
+            "viable": false
+          }
+        ],
+        "survivals": 0,
+        "trajectory_viable": false
+      },
+      "passive_stability": {
+        "passive_capacity_per_channel": "1",
+        "post_passive_excess_is_zero": true,
+        "raw_held_out": [
+          [
+            "1",
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "1",
+            "0",
+            "0"
+          ]
+        ],
+        "raw_training": [
+          [
+            "1",
+            "1",
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0",
+            "1"
+          ]
+        ]
+      },
+      "relabeling": [
+        {
+          "fixture": "PLANTED_M0_PASSIVE",
+          "permutations_tested": 24,
+          "stable": true
+        },
+        {
+          "fixture": "PLANTED_M1_LOCAL",
+          "permutations_tested": 24,
+          "stable": true
+        },
+        {
+          "fixture": "PLANTED_M2_RECURSIVE",
+          "permutations_tested": 24,
+          "stable": true
+        }
+      ],
+      "resolution": [
+        {
+          "coarse_scores": {
+            "0": 0,
+            "1": 3,
+            "2": 7,
+            "3": 11
+          },
+          "coarse_selected_depth": 0,
+          "fixture": "PLANTED_M0_PASSIVE",
+          "refined_scores": {
+            "0": 0,
+            "1": 3,
+            "2": 7,
+            "3": 11
+          },
+          "refined_selected_depth": 0,
+          "score_preserved": true
+        },
+        {
+          "coarse_scores": {
+            "0": 60,
+            "1": 3,
+            "2": 7,
+            "3": 11
+          },
+          "coarse_selected_depth": 1,
+          "fixture": "PLANTED_M1_LOCAL",
+          "refined_scores": {
+            "0": 60,
+            "1": 3,
+            "2": 7,
+            "3": 11
+          },
+          "refined_selected_depth": 1,
+          "score_preserved": true
+        },
+        {
+          "coarse_scores": {
+            "0": 60,
+            "1": 43,
+            "2": 7,
+            "3": 11
+          },
+          "coarse_selected_depth": 2,
+          "fixture": "PLANTED_M2_RECURSIVE",
+          "refined_scores": {
+            "0": 60,
+            "1": 43,
+            "2": 7,
+            "3": 11
+          },
+          "refined_selected_depth": 2,
+          "score_preserved": true
+        }
+      ],
+      "teleology": "No purpose or agency variable enters the transition rule or score."
+    },
+    "model_selection": {
+      "complexity_by_depth": {
+        "0": 0,
+        "1": 3,
+        "2": 7,
+        "3": 11
+      },
+      "failure_weight": 20,
+      "penalty_sensitivity": {
+        "PLANTED_M0_PASSIVE": {
+          "1": 0,
+          "3": 0,
+          "5": 0
+        },
+        "PLANTED_M1_LOCAL": {
+          "1": 1,
+          "3": 1,
+          "5": 1
+        },
+        "PLANTED_M2_RECURSIVE": {
+          "1": 2,
+          "3": 2,
+          "5": 2
+        }
+      }
+    },
+    "probe": "du_recursive_viability_orthodox_depth_tournament",
+    "scope": {
+      "earned": [
+        "an exact finite method for earning zero, one, or two viability levels",
+        "a held-out intervention advantage for a typed upper/downward map",
+        "explicit depth, partition, relabeling, fibre, and resolution controls",
+        "an orthodox distinction between viability control and ordinary RG"
+      ],
+      "not_earned": [
+        "a literal Beer five-function physical system",
+        "a transferable Beer viability theorem",
+        "an adaptive or self-authoring System 4",
+        "a DU system boundary, post, observer, record clock, or physical scale",
+        "a universal hierarchy of nature, teleology, agency, or Lambda"
+      ]
+    },
+    "verdict": "PLANTED DEPTHS 0/1/2 RECOVERED / RECURSIVE CONTROL ADVANTAGE CONDITIONALLY REALIZED / PASSIVE-RG-CLOCK-OVERFIT NULLS REJECTED / FINALITY-S1-S5-RECURSION CONFLATION OVERTURNED"
+  }
+}

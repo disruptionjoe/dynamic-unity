@@ -215,6 +215,51 @@ returns "still-fixed-law / no self-encoding," this names exactly the self-encodi
 source; to build and test (does gossip-about-gossip-grown D mint AND carry the first-person diagonal?),
 not banked.
 
+## 2026-07-24 recursive-viability correction to the ceiling
+
+The recursive viable-systems wave changes the role of VSM in this vision.
+
+It conditionally constructs multilevel operational regulation, but it also
+shows that a system can be recursively organized, record-bearing, and viable
+for a fixed disturbance family while merely preserving an inherited code.
+That is not yet adaptation, mode issuance, or self-authorship.
+
+The earlier identification
+
+```text
+missing System 4
+    = nonviable
+    = no becoming
+    = the missing physical source
+```
+
+is therefore too compressed. The corrected decomposition is:
+
+```text
+fixed-family regulation
+    -> operational viability
+
+distribution-shift response
+    -> adaptation / the narrow S4-like assay
+
+generation of a new controller, rule, or admissibility class
+    -> stronger self-authoring burden
+
+first-person underivability or genuine becoming
+    -> still stronger and still open.
+```
+
+The self-authoring-ledger ceiling remains a legitimate ambitious hypothesis.
+VSM no longer supplies a shortcut to it. A physical construction must first
+discover its system boundary and cross-level control from interventions, then
+show adaptation under a frozen environment shift, and finally distinguish
+controller selection inside a precompiled family from creation of a new
+admissibility class. S1-S5 functions, recursion levels, finality depth, and
+physical scale are separate coordinates throughout.
+
+See
+`science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md`.
+
 ## Boundary
 Inline persona-council steelman; explicitly the ambitious ceiling, every claim graded, the anti-crank
 brake seated; no claim banked, `claim_status_change: none`.

@@ -31,6 +31,16 @@ verification:
   - tests/artifacts/du_record_rate_wild_frontier_clock_quotient_probe_result.json
   - tests/du_record_rate_philosopher_clock_ontology_probe.py
   - tests/artifacts/du_record_rate_philosopher_clock_ontology_probe_result.json
+  - tests/du_recursive_viability_orthodox_depth_tournament.py
+  - tests/artifacts/du_recursive_viability_orthodox_depth_tournament_result.json
+  - tests/du_recursive_viability_heterodox_rep3_probe.py
+  - tests/artifacts/du_recursive_viability_heterodox_rep3_probe_result.json
+  - tests/du_recursive_viability_commercial_passport_probe.py
+  - tests/artifacts/du_recursive_viability_commercial_passport_probe_result.json
+  - tests/du_recursive_viability_wild_frontier_majority_closure_probe.py
+  - tests/artifacts/du_recursive_viability_wild_frontier_majority_closure_result.json
+  - tests/du_recursive_viability_philosopher_identifiability_probe.py
+  - tests/artifacts/du_recursive_viability_philosopher_identifiability_result.json
 ---
 
 # Cross-repo gap hardening and non-intuitive reuse map
@@ -292,6 +302,7 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-029` | P2 | rotating counterfamily search | `DU-H0`, `OPEN` | held-out failure families, not more same-family examples | `4.4` | TI 12-class completion tournament |
 | `HC-DU-030` | P2 | durable failure/retirement map | `DU-H0`, `OPEN` | one ledger of dead, scoped-dead, class-exited and reopened branches | `A.1/A.3` | GU no-go map; CLTP `N/X/L/I` |
 | `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `G_FULL_DELAY_ONLY_KILLED__L_AND_G_GATED_CONDITIONAL__CLOCK_QCA_SEMANTICS_OPEN` | freeze a record/opportunity/copy passport, reproduce the exact `1+1` Clock-QW/QCA covariance, and test whether one frame-consistent durable-record functional survives carried-reflection, reunion, boost, and scheduler-tag controls against Branch L, `G-full`, and one fixed `G-gated` law | `1.5/2.2/2.4` | dual primitive-record-clock council; Knuth-Bahrenyi; Arrighi-Facchini-Forets; causal-set order+number |
+| `HC-DU-032` | P1 | recursive operational viability and physical system individuation | `DU-H1`, `CONDITIONAL_CONTROL_CONSTRUCTED__SCALAR_DEPTH_NONIDENTIFIED__PHYSICAL_BOUNDARIES_OPEN` | attach the recursive-viability passport to `HC-DU-031A` and `HC-DU-011A`; require essential variables, controller on/off effects, upward/downward maps, held-out advantage, boundary discovery, locality costs and flat/overlap/RG/replay/relay/alias rivals; infer a minimal intervention cover rather than a raw depth | `1.5/2.2/2.4` | fourth five-persona council; Beer VSM; Ashby requisite variety; causal emergence and hierarchical-blanket comparators |
 
 ## Existing models to reuse instead of rebuilding
 
@@ -563,23 +574,29 @@ work packages.
    factorial and neighboring tail families without selecting histories.
    Generic unlabeled-causet enumeration is demand-driven infrastructure, not
    the research product.
-5. **Joint post-running-geometry assay (`HC-DU-011 + HC-DU-022`).** The
+5. **Recursive-viability overlay (`HC-DU-032`).** On the actual candidates in
+   steps 3 and 4, infer boundaries from intervention response and repair
+   provenance; require upward and downward maps plus held-out advantage; and
+   compare zero, one, multiple, flat, overlapping, redundant-refinement,
+   passive-replay, ordinary-RG, record-alias and resolution rivals. Do not
+   launch a separate broad RVS simulation.
+6. **Joint post-running-geometry assay (`HC-DU-011 + HC-DU-022`).** The
    factorial family conditionally realizes `t_eff~sqrt(t/P)`, but positive
    tail counterfamilies give different exponents and the percolation fixed
    line gives no running. Test the intersection of post production,
    nontrivial running and held-out geometry. Only a survivor may attempt
    physical coupling records, cross-history intervention, response, or a
    hierarchy relative to one declared microscopic unit.
-6. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
+7. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
    executable counterexamples; extend them across algebraic, observer, durable-
    record and novelty counts with units and lossy/nonexistent maps.
-7. **Response/noise action and overlap spectrum (`HC-DU-003/004/005`).** Only
+8. **Response/noise action and overlap spectrum (`HC-DU-003/004/005`).** Only
    after a generated-scale background survives, construct the CTP/noise kernel,
    finite-k determinant and common-past `P_Lambda(k,z)`; do not select a good seed.
-8. **Independent reimplementation (`HC-DU-009`).** Give the exact CMF-01
+9. **Independent reimplementation (`HC-DU-009`).** Give the exact CMF-01
    equations and preregistered outcomes to a clean-room implementer and compare
    frozen JSON before credibility promotion.
-9. **Cross-repo hardening (`HC-DU-019/020/024`).** Keep TaF/TI/P2C/CL negative
+10. **Cross-repo hardening (`HC-DU-019/020/024`).** Keep TaF/TI/P2C/CL negative
    models as fixtures and run initial-surface/kernel sweeps in the same declared
    frame rather than rerunning their searches under new names.
 
@@ -757,12 +774,48 @@ replacing, the causal-post generativity/geometry program. No dimensional `c`,
 gravity, DU identity, generated scale, or `Lambda` follows. See
 `science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md`.
 
+## Recursive viable-systems correction to the frontier
+
+The fourth five-persona wave admitted an unknown number of recursively
+repeated viable-system-like organizations without assuming a particle-to-
+universe ladder. Exact finite controls conditionally construct active
+multilevel regulation: deeper controllers can earn held-out repair and
+record-prediction advantages through explicit upward summaries and downward
+actions.
+
+The literal scalar-depth interpretation does not survive. Endpoint viability
+can leave arbitrary partitions tied; a flat global regulator can tie the
+recursive one when global access is free; duplicate fibres and silent wrappers
+manufacture levels; and identity relays can refine any finite hierarchy
+without changing its external trace. Resolution can also change the selected
+depth. Raw `m` is therefore not a generally identifiable physical observable.
+
+Held-out controller lesions provide a positive replacement. They can recover a
+minimal, relabeling-invariant and possibly overlapping intervention-role cover.
+The relevant object may be a tree, poset, hypergraph or continuum. Beer S1–S5
+functions inside one system, recursive organizational relations, and physical
+finality/scale strata are kept as separate axes.
+
+Fixed-family operational viability was also constructed without an S4-like
+environment model. S4 is retained as a candidate requirement for
+out-of-family adaptation or controller generation, not as a transferred
+physics theorem that its absence implies nonviability.
+
+This creates `HC-DU-032` as a bounded passport overlay on `HC-DU-031A` and
+`HC-DU-011A`, not a third broad program. It asks whether native record-clock or
+causal-post objects support interventionally necessary multiscale control
+against flat, overlap, RG, replay, relay, alias, resolution and family-shift
+rivals. The toy constructions generate only dimensionless ratios; units,
+physical boundaries, observers, geometry, gravity, cosmology and `Lambda`
+remain open. See
+`science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md`.
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
   preserved.
 - All 100 persona suggestions remain in their original stable-ID register.
-- Thirty-one hardening items now have stable IDs, priorities, owners, grades and
+- Thirty-two hardening items now have stable IDs, priorities, owners, grades and
   exact next discriminators.
 - Eighty-eight non-intuitive/class-relative findings are preserved above.
 - The COV-01 P0 background swing generated a frozen JSON receipt.
@@ -777,4 +830,9 @@ gravity, DU identity, generated scale, or `Lambda` follows. See
   aging, conditionally constructed local order-plus-density and gated-global
   alternatives, exposed finite L/G compilation underdetermination, and opened
   one exact Clock-QCA observer-record semantic test.
+- The recursive viable-systems wave conditionally constructed active
+  multilevel regulation, proved raw scalar depth nonidentified under redundant
+  refinement, recovered a minimal intervention-role cover, corrected the
+  Beer-function/recursion/finality conflation, and preserved sixty-one new
+  divergent paths.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

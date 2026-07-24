@@ -1,0 +1,642 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Supplies the finite candidate dynamics and true intervention supports.",
+        "statement": "The physical fixture is a planted three-level ternary laminar controller circuit over 27 binary leaves.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A2",
+        "role": "Supplies recursive operational closure without adaptation.",
+        "statement": "At every admitted level, majority summary followed by downward broadcast is the physical controller.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Defines identity, essential variables, and the perturbation family.",
+        "statement": "The viable region is exact return to the initial all-zero codeword under one support-local perturbation.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Separates update opportunity, action, and durable record.",
+        "statement": "A durable record is appended only after a controller changes a child and verifies recovery.",
+        "status": "PROJECT_NATIVE"
+      },
+      {
+        "id": "A5",
+        "role": "Makes closure-latency ratios computable without inventing units.",
+        "statement": "One causal edge propagation is the primitive dimensionless opportunity interval; no dimensional time or length is supplied.",
+        "status": "IMPORTED"
+      }
+    ],
+    "candidate_id": "DU-RECURSIVE-VIABILITY-WILD-MAJORITY-CLOSURE",
+    "comparators": [
+      "m=0 no privileged viable level",
+      "m=1 local ternary closure",
+      "m=2 nested closure",
+      "m=3 planted full recursion",
+      "m=4 redundant overfit shell",
+      "interleaved arbitrary ternary partition",
+      "overlapping non-tree coalition",
+      "ordinary majority coarse-graining without downward repair"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-RECURSIVE-VIABILITY",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "WF-RVS-TERNARY-MAJORITY-CLOSURE",
+      "invariant": "Each admitted level has an intervention-supported boundary, active viability advantage, typed upward record map, typed downward repair map, and explicit record/clock denominator."
+    },
+    "equations": [
+      "q_ell(x_1,x_2,x_3)=majority(x_1,x_2,x_3)",
+      "r_ell(q): broadcast q to every dissenting child",
+      "V=1 iff the post-control microstate equals the initial codeword",
+      "J_m=held_out_failures(m)+lambda*controller_channels(m)",
+      "tau_close(ell)=2 ell+1 primitive opportunities",
+      "|support_(ell+1)|/|support_ell|=3"
+    ],
+    "falsifiers": [
+      "planted m=3 fails any held-out disturbance in the declared family",
+      "m=4 earns new survival rather than only added complexity",
+      "an arbitrary partition matches the observed physical intervention supports",
+      "relabeling or hidden scheduler tags change the selected depth",
+      "fine and coarse repair fail to commute on the declared suite",
+      "a two-child regime shift is repaired despite the absence of adaptation"
+    ],
+    "free_choices": [
+      {
+        "choice": "Ternary branching, 27 leaves, and three planted levels.",
+        "id": "F1",
+        "sensitivity_test": "Compare m=0..4 and record that m4 is nonidentified without a complexity penalty.",
+        "why_not_forced": "No DU result selects branching three or this finite depth."
+      },
+      {
+        "choice": "Exact all-zero recovery is the viability objective.",
+        "id": "F2",
+        "sensitivity_test": "The ordinary-RG and two-child regime-shift controls expose those alternative readings.",
+        "why_not_forced": "A root-only or coherence-only objective would count damaged or identity-flipped states as viable."
+      },
+      {
+        "choice": "MDL cost is failures plus 0.1 per controller channel.",
+        "id": "F3",
+        "sensitivity_test": "Report minimizers at penalties 0, .01, .1, 1, and 2.",
+        "why_not_forced": "The tradeoff is a declared model-selection preference."
+      },
+      {
+        "choice": "Controller response supports are admitted physical interventions.",
+        "id": "F4",
+        "sensitivity_test": "Compare the planted support family with an interleaved tree and an overlapping coalition.",
+        "why_not_forced": "Without interventions, many arbitrary ternary trees are equally recursively viable on matched environments."
+      },
+      {
+        "choice": "Closure latency is 2d+1 primitive opportunities at depth d.",
+        "id": "F5",
+        "sensitivity_test": "Keep latency ratios separate from event-driven durable-record counts and from dimensional physical time.",
+        "why_not_forced": "It follows only from the planted propagation/verification circuit."
+      }
+    ],
+    "null_models": [
+      "arbitrary-partition null",
+      "passive-stability null",
+      "depth-overfit and zero-penalty null",
+      "resolution/coarse-cutoff null",
+      "relabeling and hidden scheduler-fibre null",
+      "held-out-disturbance null",
+      "ordinary-RG null",
+      "opportunity-versus-durable-record null",
+      "teleology/adaptation null"
+    ],
+    "observables": [
+      "exact microstate recovery under training and held-out disturbances",
+      "intervention-support inclusion depth",
+      "controller-channel durable-record counts",
+      "closure-opportunity latency ratios",
+      "physical support precision and recall",
+      "fine/coarse commuting-map result",
+      "out-of-family regime-shift survival"
+    ],
+    "question": "Can recursively repeated operational closure select physical response levels, durable records, clocks, or scale ratios beyond ordinary coarse-graining, and does that make a missing Beer System 4 a transferable physical theorem?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "observed controller supports form a laminar family",
+          "pass": true
+        },
+        {
+          "name": "intervention-support inclusion discovers three levels",
+          "pass": true
+        },
+        {
+          "name": "m0 through m4 have the exact planted survival ladder",
+          "pass": true
+        },
+        {
+          "name": "declared held-out disturbance split is survived only at planted depth",
+          "pass": true
+        },
+        {
+          "name": "declared MDL objective selects m=3",
+          "pass": true
+        },
+        {
+          "name": "redundant fourth level adds no viability",
+          "pass": true
+        },
+        {
+          "name": "zero complexity penalty leaves m3 and m4 nonidentified",
+          "pass": true
+        },
+        {
+          "name": "relabeling preserves inferred depth and survival tournament",
+          "pass": true
+        },
+        {
+          "name": "arbitrary ternary tree is internally viable on its matched disturbance family",
+          "pass": true
+        },
+        {
+          "name": "arbitrary tree lacks the observed physical downward-map supports",
+          "pass": true
+        },
+        {
+          "name": "overlapping coalition rival is non-laminar rather than a unique tree",
+          "pass": true
+        },
+        {
+          "name": "passive stability survives quiet but repairs no admitted disturbance",
+          "pass": true
+        },
+        {
+          "name": "ordinary RG hides every disturbance at root while repairing none",
+          "pass": true
+        },
+        {
+          "name": "out-of-family two-child disturbance defeats fixed majority closure",
+          "pass": true
+        },
+        {
+          "name": "response records select one intervention channel per planted scale",
+          "pass": true
+        },
+        {
+          "name": "global opportunities are not durable level records",
+          "pass": true
+        },
+        {
+          "name": "quiet opportunities append no durable record",
+          "pass": true
+        },
+        {
+          "name": "closure latency ratios follow the exposed causal circuit",
+          "pass": true
+        },
+        {
+          "name": "coarse resolution reduces relative discovered depth from three to two",
+          "pass": true
+        },
+        {
+          "name": "fine repair and coarse repair commute on every declared disturbance",
+          "pass": true
+        },
+        {
+          "name": "unobserved scheduler tags do not alter the physical tournament",
+          "pass": true
+        },
+        {
+          "name": "level cardinalities give only dimensionless ratios",
+          "pass": true
+        },
+        {
+          "name": "full Beer System 4 is absent from the finite regulator",
+          "pass": true
+        },
+        {
+          "name": "no claim-level promotion is encoded",
+          "pass": true
+        }
+      ],
+      "claim": "A planted recursive controller can conditionally select three intervention-supported response/record levels and dimensionless closure ratios, while recursion alone does not select the partition, depth penalty, physical units, adaptation, or cosmology.",
+      "grade": "EXACT FINITE CONDITIONAL CONSTRUCTION / SCOPED SYSTEM-4 NECESSITY COUNTERMODEL / PHYSICAL ONTOLOGY OPEN",
+      "remaining_uncertainty": "No DU dynamics selects the controller tree, disturbance family, identity region, branching, record law, edge unit, or objective; the fixed regulator fails an out-of-family disturbance and supplies no adaptation or self-authoring mechanism."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Stop physical recursion if boundaries exist only in analyst-selected partitions.",
+      "Stop clock language if quiet opportunities are counted as durable records.",
+      "Stop scale language at dimensionless ratios without a microscopic unit.",
+      "Stop full-VSM or System-4 language because no adaptation channel is constructed.",
+      "Stop cosmological extrapolation because no geometry, Lorentz, gravity, or Lambda map exists."
+    ],
+    "track": "wild-frontier recursive viable-systems wave",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 5,
+    "candidate_id": "DU-RECURSIVE-VIABILITY-WILD-MAJORITY-CLOSURE",
+    "checks_passed": 24,
+    "checks_total": 24,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 6,
+    "free_choice_count": 5,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 9,
+    "observable_count": 7,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "results": {
+    "arbitrary_partition_null": {
+      "interleaved_tree_internal_survival": {
+        "episodes": 39,
+        "successes": 39
+      },
+      "interpretation": "Recursive viability on a matched environment does not select a unique partition. Observed intervention supports do the additional work.",
+      "match_to_observed_physical_channels": {
+        "candidate_supports": 13,
+        "exact_matches": 1,
+        "observed_physical_supports": 13,
+        "precision": "1/13",
+        "recall": "1/13"
+      }
+    },
+    "checks": [
+      {
+        "name": "observed controller supports form a laminar family",
+        "pass": true
+      },
+      {
+        "name": "intervention-support inclusion discovers three levels",
+        "pass": true
+      },
+      {
+        "name": "m0 through m4 have the exact planted survival ladder",
+        "pass": true
+      },
+      {
+        "name": "declared held-out disturbance split is survived only at planted depth",
+        "pass": true
+      },
+      {
+        "name": "declared MDL objective selects m=3",
+        "pass": true
+      },
+      {
+        "name": "redundant fourth level adds no viability",
+        "pass": true
+      },
+      {
+        "name": "zero complexity penalty leaves m3 and m4 nonidentified",
+        "pass": true
+      },
+      {
+        "name": "relabeling preserves inferred depth and survival tournament",
+        "pass": true
+      },
+      {
+        "name": "arbitrary ternary tree is internally viable on its matched disturbance family",
+        "pass": true
+      },
+      {
+        "name": "arbitrary tree lacks the observed physical downward-map supports",
+        "pass": true
+      },
+      {
+        "name": "overlapping coalition rival is non-laminar rather than a unique tree",
+        "pass": true
+      },
+      {
+        "name": "passive stability survives quiet but repairs no admitted disturbance",
+        "pass": true
+      },
+      {
+        "name": "ordinary RG hides every disturbance at root while repairing none",
+        "pass": true
+      },
+      {
+        "name": "out-of-family two-child disturbance defeats fixed majority closure",
+        "pass": true
+      },
+      {
+        "name": "response records select one intervention channel per planted scale",
+        "pass": true
+      },
+      {
+        "name": "global opportunities are not durable level records",
+        "pass": true
+      },
+      {
+        "name": "quiet opportunities append no durable record",
+        "pass": true
+      },
+      {
+        "name": "closure latency ratios follow the exposed causal circuit",
+        "pass": true
+      },
+      {
+        "name": "coarse resolution reduces relative discovered depth from three to two",
+        "pass": true
+      },
+      {
+        "name": "fine repair and coarse repair commute on every declared disturbance",
+        "pass": true
+      },
+      {
+        "name": "unobserved scheduler tags do not alter the physical tournament",
+        "pass": true
+      },
+      {
+        "name": "level cardinalities give only dimensionless ratios",
+        "pass": true
+      },
+      {
+        "name": "full Beer System 4 is absent from the finite regulator",
+        "pass": true
+      },
+      {
+        "name": "no claim-level promotion is encoded",
+        "pass": true
+      }
+    ],
+    "checks_passed": 24,
+    "checks_total": 24,
+    "disturbance_split": {
+      "class_counts": {
+        "macro": 3,
+        "meso": 9,
+        "micro": 27
+      },
+      "full_count": 39,
+      "held_out_count": 18,
+      "training_count": 21
+    },
+    "full_depth_result": {
+      "admitted_depth": 3,
+      "class_by_level_record_counts": {
+        "macro": {
+          "1": 0,
+          "2": 0,
+          "3": 3
+        },
+        "meso": {
+          "1": 0,
+          "2": 9,
+          "3": 0
+        },
+        "micro": {
+          "1": 27,
+          "2": 0,
+          "3": 0
+        }
+      },
+      "episodes": 39,
+      "failures": 0,
+      "level_record_counts": {
+        "1": 27,
+        "2": 9,
+        "3": 3
+      },
+      "successes": 39,
+      "survival_fraction": "1"
+    },
+    "held_out_adaptation_null": {
+      "disturbance": "flip two of three depth-2 children",
+      "exact_identity_recovered": false,
+      "final_ones": 27,
+      "interpretation": "The fixed regulator is viable for the declared family but has no environment model or adaptation channel.",
+      "record_depths": [
+        3
+      ]
+    },
+    "inserted_objects": {
+      "branching_and_depth": "3 and 3",
+      "identity": "all-zero codeword",
+      "objective": "training failures + 0.1 per controller channel",
+      "partition": "planted ternary laminar intervention supports",
+      "perturbation_family": "one flipped physical support at depth 0, 1, or 2",
+      "primitive_unit": "one dimensionless causal-edge opportunity",
+      "record_rule": "verified intervention only"
+    },
+    "model_tournament": [
+      {
+        "controller_channels": 0,
+        "declared_objective": "21",
+        "depth": 0,
+        "full_failures": 39,
+        "full_successes": 0,
+        "held_out_failures": 18,
+        "held_out_successes": 0,
+        "training_failures": 21,
+        "training_successes": 0
+      },
+      {
+        "controller_channels": 9,
+        "declared_objective": "79/10",
+        "depth": 1,
+        "full_failures": 12,
+        "full_successes": 27,
+        "held_out_failures": 5,
+        "held_out_successes": 13,
+        "training_failures": 7,
+        "training_successes": 14
+      },
+      {
+        "controller_channels": 12,
+        "declared_objective": "16/5",
+        "depth": 2,
+        "full_failures": 3,
+        "full_successes": 36,
+        "held_out_failures": 1,
+        "held_out_successes": 17,
+        "training_failures": 2,
+        "training_successes": 19
+      },
+      {
+        "controller_channels": 13,
+        "declared_objective": "13/10",
+        "depth": 3,
+        "full_failures": 0,
+        "full_successes": 39,
+        "held_out_failures": 0,
+        "held_out_successes": 18,
+        "training_failures": 0,
+        "training_successes": 21
+      },
+      {
+        "controller_channels": 14,
+        "declared_objective": "7/5",
+        "depth": 4,
+        "full_failures": 0,
+        "full_successes": 39,
+        "held_out_failures": 0,
+        "held_out_successes": 18,
+        "training_failures": 0,
+        "training_successes": 21
+      }
+    ],
+    "overlap_rival": {
+      "interpretation": "The extra overlapping coalition is a live heterarchy rival but has no unique tree depth under the present passport.",
+      "laminar": false
+    },
+    "passive_and_rg_nulls": {
+      "interpretation": "Coarse root stability can hide unrepaired micro damage; downward intervention is the distinguishing physical object.",
+      "ordinary_rg_exact_micro_recoveries": 0,
+      "ordinary_rg_root_summary_successes": 39,
+      "passive_recoveries_under_disturbance": 0,
+      "quiet_passive_survival": true
+    },
+    "penalty_sensitivity": {
+      "0": {
+        "minimizing_depths": [
+          3,
+          4
+        ],
+        "scores": {
+          "0": "21",
+          "1": "7",
+          "2": "2",
+          "3": "0",
+          "4": "0"
+        }
+      },
+      "1": {
+        "minimizing_depths": [
+          3
+        ],
+        "scores": {
+          "0": "21",
+          "1": "16",
+          "2": "14",
+          "3": "13",
+          "4": "14"
+        }
+      },
+      "1/10": {
+        "minimizing_depths": [
+          3
+        ],
+        "scores": {
+          "0": "21",
+          "1": "79/10",
+          "2": "16/5",
+          "3": "13/10",
+          "4": "7/5"
+        }
+      },
+      "1/100": {
+        "minimizing_depths": [
+          3
+        ],
+        "scores": {
+          "0": "21",
+          "1": "709/100",
+          "2": "53/25",
+          "3": "13/100",
+          "4": "7/50"
+        }
+      },
+      "2": {
+        "minimizing_depths": [
+          0
+        ],
+        "scores": {
+          "0": "21",
+          "1": "25",
+          "2": "26",
+          "3": "26",
+          "4": "28"
+        }
+      }
+    },
+    "planted_fixture": {
+      "beer_function_status": {
+        "coordination": "bottom-up summary and top-down broadcast phases",
+        "environment_adaptation_System_4": "ABSENT",
+        "exact_five_function_VSM": false,
+        "identity_selection_System_5": "reduced to the inserted initial codeword/majority convention",
+        "operations": "children execute binary state operations",
+        "present_regulation": "majority repair"
+      },
+      "branching": 3,
+      "controller_counts": {
+        "1": 9,
+        "2": 3,
+        "3": 1
+      },
+      "identity_codeword": 0,
+      "leaf_count": 27,
+      "physical_depth": 3,
+      "support_sizes": {
+        "1": 3,
+        "2": 9,
+        "3": 27
+      }
+    },
+    "prior-vision_audit": {
+      "beer_viability_theorem_transfer": false,
+      "new_physical_construction": "Yes, but only a finite recursive error-correcting regulator with typed upward/downward maps and durable record channels.",
+      "vision_decomposition": "S1-S5 functions, recursive system depth, and finality/scale strata are independent axes; the fixture repeats a lean closure passport without repeating Beer's exact five-function organization.",
+      "vision_narrowing": "Operational viability under a fixed disturbance family does not require System 4. The fixture fails a changed disturbance regime, so adaptation and self-authoring remain open rather than solved."
+    },
+    "probe": "du_recursive_viability_wild_frontier_majority_closure_probe.py",
+    "records_clocks_and_scales": {
+      "adjacent_support_cardinality_ratios": [
+        "3",
+        "3"
+      ],
+      "clock_interpretation": "These are event-driven verified-closure records and causal latencies, not a universal proper-time clock.",
+      "closure_latency_ratios": {
+        "depth2/depth1": "5/3",
+        "depth3/depth2": "7/5"
+      },
+      "closure_opportunity_latencies": {
+        "1": 3,
+        "2": 5,
+        "3": 7
+      },
+      "dimensional_unit_generated": false,
+      "durable_record_counts_per_level": {
+        "1": 27,
+        "2": 9,
+        "3": 3
+      },
+      "global_opportunities_per_level": {
+        "1": 39,
+        "2": 39,
+        "3": 39
+      },
+      "quiet_durable_records": 0,
+      "record_admission_fractions": {
+        "1": "9/13",
+        "2": "3/13",
+        "3": "1/13"
+      }
+    },
+    "resolution_and_covariance": {
+      "coarse_inferred_depth": 2,
+      "commuting_disturbances": 39,
+      "commuting_total": 39,
+      "fine_inferred_depth": 3,
+      "hidden_scheduler_tags_ignored": true,
+      "relabeling_preserves_tournament": true,
+      "resolution_interpretation": "Depth is relative to admitted resolution; adjacent maps commute rather than asserting one absolute universal m."
+    },
+    "scientific_disposition": "RECURSIVE OPERATIONAL CLOSURE CONSTRUCTED / THREE PHYSICAL RESPONSE-SUPPORT LEVELS CONDITIONALLY DISCOVERED / CLOCKS ARE EVENT-DRIVEN RECORD CHANNELS / SCALE RATIOS DIMENSIONLESS / SYSTEM-4 NECESSITY NARROWED / ADAPTATION AND COSMOLOGY OPEN",
+    "selected_depth_under_declared_objective": 3
+  }
+}

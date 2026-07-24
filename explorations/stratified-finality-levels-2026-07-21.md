@@ -137,6 +137,61 @@ S4; the bottleneck = a missing S4) and a build-target restatement, not just rela
 Beer's *viability theorems* transfer as actual theorems about the source action is the open question —
 to test, not assume.
 
+## 2026-07-24 recursive-viability correction
+
+The five-persona recursive viable-systems wave tested the load-bearing VSM
+reading directly. It preserves the analogy and overturns its strongest
+physical inference.
+
+Three axes must now remain separate:
+
+```text
+S1-S5 functions within one viable-system model
+    != recursion levels at which a complete organization repeats
+    != finality, reversal-cost, causal-depth, clock, or physical-scale strata.
+```
+
+Exact finite controls show that more than one active regulation level can
+earn a held-out viability advantage through typed upward summaries and
+downward repair. They also show that:
+
+- endpoint persistence alone leaves many arbitrary hierarchies tied;
+- a flat controller can tie a recursive controller when global access is
+  free;
+- redundant relays can increase the advertised depth without changing any
+  external observation;
+- ordinary coarse-graining and passive replay can imitate organization
+  without active regulation; and
+- internal intervention and record-provenance patterns can identify a
+  minimal overlapping role cover even when no unique scalar depth or tree is
+  identified.
+
+The phrase **"Beer viability theorem"** is therefore retired as physical
+warrant for `no S4 -> nonviable`. A fixed regulator can preserve its declared
+viable region over a fixed perturbation family without an adaptive S4-like
+channel. The scientifically live S4 hypothesis is narrower and stronger:
+
+> **Does an environment-facing model or controller-generation channel improve
+> held-out viability after the disturbance family changes?**
+
+That is an adaptation test. Genuine self-authorship additionally requires a
+non-circular witness that the system changes or extends its inherited rule or
+admissibility class; neither fixed-family viability nor adaptation alone
+establishes it.
+
+Beer's own formulation also treats recursive embedment as nonunique, allows a
+system to participate in multiple recursive chains, and calls system
+boundaries arbitrary. Accordingly, "each observer has its own tower" and one
+hidden integer number of levels from smallest to largest are now hypotheses,
+not consequences of VSM. The admissible physical object is an
+intervention-supported nested or overlapping cover, quotiented by redundant
+roles and tested for resolution stability.
+
+This correction is constructive, not a concept kill. Recursive viability is
+retained as a discovery passport to apply to the live causal-post and
+record-clock programs. See
+`science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md`.
+
 ## Honest caveats
 - Likely a **continuous μ-gradient**, not truly discrete levels; "levels" are effective regimes.
 - **Does NOT escape the block-universe absorber or the D-FORK by itself:** layered *disclosure* is
