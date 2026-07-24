@@ -1,0 +1,331 @@
+{
+  "assumptions": {
+    "branch_G_full": [
+      "each observer adds exactly one record per K"
+    ],
+    "branch_G_gated": [
+      "K opens an opportunity; records occur only at admitted path events",
+      "the admission/clock law is extra structure"
+    ],
+    "branch_G_hidden": [
+      "different natural labelings are physically equivalent",
+      "no clock tag, parity, phase, or layer count is observable"
+    ],
+    "branch_L_candidate": [
+      "causal order plus event-number density supplies a manifoldlike 1+1 interval volume",
+      "elapsed record count is 2 sqrt(R L)",
+      "no global K is observable or required"
+    ],
+    "common": [
+      "observer records form causal chains",
+      "record equivalence is fixed across compared histories"
+    ]
+  },
+  "check_summary": {
+    "passed": 14,
+    "total": 14
+  },
+  "checks": [
+    {
+      "name": "finite event graph has three natural labelings",
+      "pass": true
+    },
+    {
+      "name": "order-only observer records survive scheduler relabeling",
+      "pass": true
+    },
+    {
+      "name": "physical global-clock tags expose the scheduler",
+      "pass": true
+    },
+    {
+      "name": "G-full gives equal reunited observer counts",
+      "pass": true
+    },
+    {
+      "name": "G-gated path records can differ at reunion",
+      "pass": true
+    },
+    {
+      "name": "null-volume clock gives rest count 100",
+      "pass": true
+    },
+    {
+      "name": "two-leg moving clock gives count 80",
+      "pass": true
+    },
+    {
+      "name": "moving/rest record ratio matches sqrt(1-v^2)",
+      "pass": true
+    },
+    {
+      "name": "pure null reslicing preserves causal product",
+      "pass": true
+    },
+    {
+      "name": "same reslicing changes readable global layer count",
+      "pass": true
+    },
+    {
+      "name": "nontrivial pure boost does not preserve fixed integer lattice",
+      "pass": true
+    },
+    {
+      "name": "positive integral pure Lorentz rescalings are trivial",
+      "pass": true
+    },
+    {
+      "name": "raw message offset is exactly propagation delay",
+      "pass": true
+    },
+    {
+      "name": "radar construction returns c=1 in its own units",
+      "pass": true
+    }
+  ],
+  "delay_only_control": {
+    "dimensionless_signal_slope": "1",
+    "independently_counted_edge_distance": 7,
+    "interpretation": "the separated-clock offset vanishes after exact latency subtraction; c=1 from radar units is definitional, while one edge per tick is a separately posited circuit law",
+    "latency_corrected_offset": 0,
+    "radar_distance": "7",
+    "radar_time": "17",
+    "raw_receive_minus_send": 7,
+    "receive_reflect_tick_B": 17,
+    "return_tick_A": 24,
+    "send_tick_A": 10
+  },
+  "finite_clock_quotient": {
+    "cover_edges": [
+      [
+        "E0",
+        "a"
+      ],
+      [
+        "a",
+        "c"
+      ],
+      [
+        "c",
+        "E1"
+      ],
+      [
+        "E0",
+        "b"
+      ],
+      [
+        "b",
+        "E1"
+      ]
+    ],
+    "distinct_clock_tag_signature_count": 3,
+    "distinct_order_only_signature_count": 1,
+    "labelings": [
+      {
+        "G_full_record_counts": {
+          "A": 4,
+          "B": 4
+        },
+        "clock_tag_signature": {
+          "history_A_global_tick_gaps": [
+            1,
+            2,
+            1
+          ],
+          "history_B_global_tick_gaps": [
+            2,
+            2
+          ],
+          "middle_event_tick_parities": {
+            "a": 1,
+            "b": 0,
+            "c": 1
+          }
+        },
+        "global_tick_assignment": {
+          "E0": 0,
+          "E1": 4,
+          "a": 1,
+          "b": 2,
+          "c": 3
+        },
+        "order_only_history_record_counts": {
+          "A": 3,
+          "B": 2
+        }
+      },
+      {
+        "G_full_record_counts": {
+          "A": 4,
+          "B": 4
+        },
+        "clock_tag_signature": {
+          "history_A_global_tick_gaps": [
+            1,
+            1,
+            2
+          ],
+          "history_B_global_tick_gaps": [
+            3,
+            1
+          ],
+          "middle_event_tick_parities": {
+            "a": 1,
+            "b": 1,
+            "c": 0
+          }
+        },
+        "global_tick_assignment": {
+          "E0": 0,
+          "E1": 4,
+          "a": 1,
+          "b": 3,
+          "c": 2
+        },
+        "order_only_history_record_counts": {
+          "A": 3,
+          "B": 2
+        }
+      },
+      {
+        "G_full_record_counts": {
+          "A": 4,
+          "B": 4
+        },
+        "clock_tag_signature": {
+          "history_A_global_tick_gaps": [
+            2,
+            1,
+            1
+          ],
+          "history_B_global_tick_gaps": [
+            1,
+            3
+          ],
+          "middle_event_tick_parities": {
+            "a": 0,
+            "b": 1,
+            "c": 1
+          }
+        },
+        "global_tick_assignment": {
+          "E0": 0,
+          "E1": 4,
+          "a": 2,
+          "b": 1,
+          "c": 3
+        },
+        "order_only_history_record_counts": {
+          "A": 3,
+          "B": 2
+        }
+      }
+    ],
+    "natural_labeling_count": 3,
+    "nodes": [
+      "E0",
+      "a",
+      "b",
+      "c",
+      "E1"
+    ],
+    "observer_histories": {
+      "A": [
+        "E0",
+        "a",
+        "c",
+        "E1"
+      ],
+      "B": [
+        "E0",
+        "b",
+        "E1"
+      ]
+    }
+  },
+  "preferred_frame_control": {
+    "integer_lattice_counterexample": {
+      "fixed_integer_lattice_preserved": false,
+      "image_under_lambda_2": [
+        "0",
+        "1/2"
+      ],
+      "integer_null_point": [
+        0,
+        1
+      ]
+    },
+    "interpretation": "the causal product survives while readable K changes; a fixed integral lattice also fails closure under the nontrivial pure reslicing",
+    "nontrivial_integral_alpha_beta_with_product_one": [],
+    "pure_null_reslicing": {
+      "causal_product_after": "2500",
+      "causal_product_before": 2500,
+      "global_layer_count_after": "125",
+      "global_layer_count_before": 100,
+      "left_null_after": "25",
+      "left_null_before": 50,
+      "right_null_after": "100",
+      "right_null_before": 50,
+      "scale": "2"
+    }
+  },
+  "probe": "du_record_rate_wild_frontier_clock_quotient_probe",
+  "reunion_fixture": {
+    "G_full_counts": {
+      "moving": 100,
+      "rest": 100
+    },
+    "G_gated_null_volume_counts": {
+      "moving": 80,
+      "rest": 100
+    },
+    "endpoint_signal_delay": 0,
+    "expected_special_relativistic_ratio": "4/5",
+    "moving_segments": [
+      {
+        "candidate_elapsed_record_count": 40,
+        "causal_rectangle_count": 400,
+        "delta_t_global_ticks": 50,
+        "delta_x_edges": 30,
+        "left_null_count": 10,
+        "right_null_count": 40
+      },
+      {
+        "candidate_elapsed_record_count": 40,
+        "causal_rectangle_count": 400,
+        "delta_t_global_ticks": 50,
+        "delta_x_edges": -30,
+        "left_null_count": 40,
+        "right_null_count": 10
+      }
+    ],
+    "observed_elapsed_ratio": "4/5",
+    "rest_segment": {
+      "candidate_elapsed_record_count": 100,
+      "causal_rectangle_count": 2500,
+      "delta_t_global_ticks": 100,
+      "delta_x_edges": 0,
+      "left_null_count": 50,
+      "right_null_count": 50
+    },
+    "shared_global_tick_duration": 100,
+    "velocity": "3/5"
+  },
+  "scientific_disposition": "G_FULL_REUNION_KILLED_FOR_UNEQUAL_ELAPSED_TIME__G_GATED_CONDITIONAL_CONSTRUCTION__G_HIDDEN_REQUIRES_EXPLICIT_CLOCK_QUOTIENT",
+  "scope": {
+    "dimension": "1+1 for the null-coordinate construction",
+    "not_established": [
+      "derivation of the causal cone",
+      "selection of the square-root record law",
+      "continuum dynamics or gravity",
+      "dimensional invariant speed",
+      "physical record ontology"
+    ],
+    "warrant": [
+      "exact finite countermodel",
+      "conditional constructive realization",
+      "preferred-frame and delay-only nulls"
+    ]
+  },
+  "status": "PASS"
+}

@@ -117,3 +117,38 @@ excluded. Post-effective ratios must use the projective physical sequence
 The five artifacts report `13/13`, `8/8`, `8/8`, `7/7`, and `10/10`
 deterministic checks. These execution counts do not establish post recurrence,
 family selection, held-out geometry, physical units, or a `Lambda` identity.
+
+## Dual primitive-record-clock council probes
+
+The next five-persona wave compares two admitted conditional premises: a
+universal local record cadence without global synchronization and one actual
+fundamental global update clock. The latter is split into one record per tick
+(`G-full`), gated physical record admission (`G-gated`), and an explicitly
+quotiented or operationally hidden scheduler (`G-hidden`).
+
+- `du_record_rate_orthodox_clock_tournament.py` gives the local and global
+  models the same A-only echo, then separates them with the remote observer's
+  record, a common boost, reunion, and moving-light-clock tests.
+- `du_record_rate_heterodox_dual_clock_probe.py` shows that causal order plus
+  common spacetime-event density conditionally recovers exact `1+1` Lorentz
+  algebra, while `G-full` fails reunion and a fitted `G-gated` completion
+  requires both clock and material response.
+- `du_record_rate_commercial_delay_reunion_probe.py` turns propagation
+  correction, synchronization reslicing, independent distance calibration,
+  reunion, and closed-loop anisotropy into a compact route decision.
+- `du_record_rate_wild_frontier_clock_quotient_probe.py` constructs a finite
+  scheduler quotient and a conditional null-volume clock, showing that
+  scheduler tags rather than causal order expose a hidden preferred layering.
+- `du_record_rate_philosopher_clock_ontology_probe.py` proves the finite
+  compilation underdetermination: every causal-record DAG admits some global
+  topological schedule plus gates, while a scheduler-sensitive future kernel
+  distinguishes merely hidden order from a true gauge quotient.
+
+The artifacts report `19/19`, `17/17`, `11/11`, `14/14`, and `11/11`
+deterministic checks. Their shared local conclusion is that distance-dependent
+message delay does not produce unequal accumulated records at reunion under
+`G-full`. They do not reject every global-clock construction: exact
+construction-specific `1+1` Clock-QW/QCA covariance is retained as a
+literature positive control whose durable observer-record semantics have not
+yet been reproduced. No probe derives a physical observer, dimensional `c`,
+higher-dimensional Lorentz invariance, gravity, DU dynamics, or `Lambda`.

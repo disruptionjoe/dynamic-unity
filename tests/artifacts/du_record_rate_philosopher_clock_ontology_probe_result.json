@@ -1,0 +1,555 @@
+{
+  "causal_scheduler_fixture": {
+    "all_projections_equal": true,
+    "causal_edges": [
+      [
+        "E0",
+        "A1"
+      ],
+      [
+        "E0",
+        "B1"
+      ],
+      [
+        "A1",
+        "E1"
+      ],
+      [
+        "B1",
+        "E1"
+      ]
+    ],
+    "causal_nodes": [
+      "E0",
+      "A1",
+      "B1",
+      "E1"
+    ],
+    "compiled_global_schedules": [
+      [
+        {
+          "K": 0,
+          "event": "E0",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "K": 1,
+          "event": "A1",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "A"
+          ]
+        },
+        {
+          "K": 2,
+          "event": "B1",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "B"
+          ]
+        },
+        {
+          "K": 3,
+          "event": "E1",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "A",
+            "B"
+          ]
+        }
+      ],
+      [
+        {
+          "K": 0,
+          "event": "E0",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "A",
+            "B"
+          ]
+        },
+        {
+          "K": 1,
+          "event": "B1",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "B"
+          ]
+        },
+        {
+          "K": 2,
+          "event": "A1",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "A"
+          ]
+        },
+        {
+          "K": 3,
+          "event": "E1",
+          "opportunity_offered_to": [
+            "A",
+            "B"
+          ],
+          "record_admitted_for": [
+            "A",
+            "B"
+          ]
+        }
+      ]
+    ],
+    "general_finite_compiler": "Every finite DAG has a topological ordering. Assign its events successive K values, offer every observer an opportunity at each K, and admit exactly the records attached to that event. Thus an unrestricted G-gated model reproduces every finite L trace.",
+    "linear_extension_count": 2,
+    "linear_extensions": [
+      [
+        "E0",
+        "A1",
+        "B1",
+        "E1"
+      ],
+      [
+        "E0",
+        "B1",
+        "A1",
+        "E1"
+      ]
+    ],
+    "local_record_projections": [
+      {
+        "A": [
+          "E0",
+          "A1",
+          "E1"
+        ],
+        "B": [
+          "E0",
+          "B1",
+          "E1"
+        ]
+      },
+      {
+        "A": [
+          "E0",
+          "A1",
+          "E1"
+        ],
+        "B": [
+          "E0",
+          "B1",
+          "E1"
+        ]
+      }
+    ],
+    "scheduler_intervention": {
+      "insensitive_difference": 0.0,
+      "intervention": "Exchange the K-order of spacelike A1 and B1 while preserving the causal partial order and local record projections.",
+      "reading": "A scheduler is gauge only when all physical observables and transition probabilities factor through the causal-order quotient. One unchanged transcript establishes only nonidentification. A scheduler-sensitive future kernel makes the hidden order physical and interventionally testable.",
+      "scheduler_insensitive_next_outcome_probabilities": [
+        0.5,
+        0.5
+      ],
+      "scheduler_sensitive_next_outcome_probabilities": [
+        0.75,
+        0.25
+      ],
+      "sensitive_difference": 0.5
+    }
+  },
+  "checks": [
+    {
+      "name": "the diamond causal order has two global linear extensions",
+      "pass": true
+    },
+    {
+      "name": "both global extensions preserve identical local record projections",
+      "pass": true
+    },
+    {
+      "name": "a scheduler-insensitive transition law factors through the causal quotient",
+      "pass": true
+    },
+    {
+      "name": "a scheduler-sensitive transition law exposes the hidden order",
+      "pass": true
+    },
+    {
+      "name": "the echo leaves a synchronization and one-way-latency family",
+      "pass": true
+    },
+    {
+      "name": "exact echo-delay subtraction leaves no elapsed-clock residual",
+      "pass": true
+    },
+    {
+      "name": "radar c=1 admits multiple dimensional calibrations",
+      "pass": true
+    },
+    {
+      "name": "G-full fails the unequal reunion-count target",
+      "pass": true
+    },
+    {
+      "name": "G-gated can compile the reunion target only with an extra gate",
+      "pass": true
+    },
+    {
+      "name": "endpoint reunion counts underidentify the gated cadence history",
+      "pass": true
+    },
+    {
+      "name": "reunion delay subtraction leaves the unequal count intact",
+      "pass": true
+    }
+  ],
+  "checks_passed": 11,
+  "checks_total": 11,
+  "contested_proposition": "Finite local records, causal/message edges, echo data, and reunion counts can identify whether fundamental succession is Branch L local or a single Branch G global clock.",
+  "definitions_used": {
+    "branch_G_cadence_denominator": "One primitive global update interval delta_K, declared as a microscopic coordinate-time unit.",
+    "branch_L_cadence_denominator": "One predecessor-indexed local update opportunity. This dimensionless rule imports neither global nor proper time and supplies no physical duration by itself.",
+    "causal_precedence": "The invariant DAG relation, distinct from any total scheduler order.",
+    "global_clock_status_options": [
+      "observable",
+      "hidden but physical",
+      "gauge after an invariance quotient",
+      "operationally nonidentified by the present data"
+    ],
+    "local_order": "Predecessor order on one observer's records.",
+    "logical_clock_order": "A counter or topological extension consistent with causal precedence; it is not metric time.",
+    "message": "A directed payload-preserving edge from a send record to a receipt/reflection record; it does not by itself define distance.",
+    "observer": "A causally persistent subsystem represented here only by a local transition chain, stable record labels, and message ports; physical realization is assumed, not derived.",
+    "record": "A typed stable memory transition in the model. No-retraction bookkeeping represents irreversibility but does not derive thermodynamic irreversibility.",
+    "record_equivalence": "Equivalence under a shared operational discriminator and retention protocol; cross-observer equivalence is assumed."
+  },
+  "echo_fixture": {
+    "continuous_family": "-7 < epsilon < 7 preserves positive one-way latencies; d_forward=7+epsilon, d_return=7-epsilon, and B_offset=-epsilon",
+    "defined_from_A_records": {
+      "radar_distance_in_record_count_time_units": 7.0,
+      "radar_signal_slope_by_definition": 1.0,
+      "radar_time": 17.0,
+      "round_trip_latency": 14
+    },
+    "delay_only_null": {
+      "delay_subtracted_residual": 0.0,
+      "modeled_forward_plus_return_delay": 14,
+      "raw_round_trip": 14,
+      "reading": "The echo measures round-trip latency. After exact travel-time subtraction, it supplies no differential elapsed-record effect."
+    },
+    "dimensional_calibration_family": [
+      {
+        "calibrated_distance": 3.5,
+        "candidate_dimensional_signal_speed": 0.5,
+        "independent_length_per_count_time": 0.5
+      },
+      {
+        "calibrated_distance": 7.0,
+        "candidate_dimensional_signal_speed": 1.0,
+        "independent_length_per_count_time": 1.0
+      },
+      {
+        "calibrated_distance": 21.0,
+        "candidate_dimensional_signal_speed": 3.0,
+        "independent_length_per_count_time": 3.0
+      }
+    ],
+    "local_records_invariant_across_family": true,
+    "reading": "The records define radar coordinates under a synchronization convention. They do not separately identify one-way latency, B's offset, independent spatial distance, or a dimensional invariant speed.",
+    "records": {
+      "A_return_n_r": 24,
+      "A_send_n_s": 10,
+      "B_reflect_m_b": 17
+    },
+    "round_trip_invariant_across_family": true,
+    "synchronization_family": [
+      {
+        "B_offset_relative_to_A_coordinate": 6.0,
+        "epsilon": -6,
+        "forward_latency": 1.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 11.0,
+        "return_latency": 13.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": 5.0,
+        "epsilon": -5,
+        "forward_latency": 2.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 12.0,
+        "return_latency": 12.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": 4.0,
+        "epsilon": -4,
+        "forward_latency": 3.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 13.0,
+        "return_latency": 11.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": 3.0,
+        "epsilon": -3,
+        "forward_latency": 4.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 14.0,
+        "return_latency": 10.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": 2.0,
+        "epsilon": -2,
+        "forward_latency": 5.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 15.0,
+        "return_latency": 9.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": 1.0,
+        "epsilon": -1,
+        "forward_latency": 6.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 16.0,
+        "return_latency": 8.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": 0.0,
+        "epsilon": 0,
+        "forward_latency": 7.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 17.0,
+        "return_latency": 7.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": -1.0,
+        "epsilon": 1,
+        "forward_latency": 8.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 18.0,
+        "return_latency": 6.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": -2.0,
+        "epsilon": 2,
+        "forward_latency": 9.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 19.0,
+        "return_latency": 5.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": -3.0,
+        "epsilon": 3,
+        "forward_latency": 10.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 20.0,
+        "return_latency": 4.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": -4.0,
+        "epsilon": 4,
+        "forward_latency": 11.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 21.0,
+        "return_latency": 3.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": -5.0,
+        "epsilon": 5,
+        "forward_latency": 12.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 22.0,
+        "return_latency": 2.0
+      },
+      {
+        "B_offset_relative_to_A_coordinate": -6.0,
+        "epsilon": 6,
+        "forward_latency": 13.0,
+        "observed_local_records": [
+          10,
+          17,
+          24
+        ],
+        "reconstructed_A_return": 24.0,
+        "reflection_A_coordinate_time": 23.0,
+        "return_latency": 1.0
+      }
+    ],
+    "synchronization_family_size_sampled": 13
+  },
+  "not_derived": [
+    "observer or detector ontology",
+    "thermodynamic irreversibility",
+    "proper time or coordinate time from record count",
+    "spatial distance from latency",
+    "Lorentz transformations or an invariant dimensional speed",
+    "the Lorentz gating factor",
+    "a gauge quotient for hidden global order",
+    "a dynamical law selecting Branch L or Branch G"
+  ],
+  "probe": "du_record_rate_philosopher_clock_ontology_probe",
+  "reunion_fixture": {
+    "branch_G_full": {
+      "global_ticks": 20,
+      "matches_target": false,
+      "predicted_records": {
+        "A": 20,
+        "B": 20
+      }
+    },
+    "branch_G_gated": {
+      "A_gate": "admit every K",
+      "B_gate_example": "admit every K except K in {5,10,15,20}",
+      "endpoint_equivalent_B_gate_pattern_count": 4845,
+      "gate_mean": 0.8,
+      "illustrative_Lorentz_factor_was_input_not_derived": 0.8,
+      "matches_target": true,
+      "nonuniform_cadence_control": [
+        {
+          "B_records_at_K10": 8,
+          "B_records_at_reunion_K20": 16,
+          "name": "periodic",
+          "skipped_K": [
+            5,
+            10,
+            15,
+            20
+          ]
+        },
+        {
+          "B_records_at_K10": 6,
+          "B_records_at_reunion_K20": 16,
+          "name": "early",
+          "skipped_K": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "B_records_at_K10": 10,
+          "B_records_at_reunion_K20": 16,
+          "name": "late",
+          "skipped_K": [
+            17,
+            18,
+            19,
+            20
+          ]
+        }
+      ],
+      "predicted_records": {
+        "A": 20,
+        "B": 16
+      }
+    },
+    "branch_L": {
+      "local_chain_lengths": {
+        "A": 20,
+        "B": 16
+      },
+      "status": "compatible but unexplained until local dynamics selects both chain densities and connects them to a metric"
+    },
+    "declared_target": {
+      "A_records": 20,
+      "B_records": 16,
+      "B_to_A_ratio": 0.8,
+      "illustrative_beta": 0.6,
+      "sqrt_one_minus_beta_squared": 0.8
+    },
+    "delay_only_null": {
+      "difference_after_latency_subtraction": 4,
+      "endpoint_latency": 0,
+      "observed_record_difference": 4,
+      "reading": "Distance-dependent message delay cannot produce an elapsed record-count difference at shared reunion endpoints."
+    },
+    "shared_endpoints": [
+      "E0",
+      "E1"
+    ],
+    "signal_delay_at_shared_endpoints": 0
+  },
+  "verdict": "CONTESTED PROPOSITION NARROWED/OVERTURNED BY MODEL CLASS. Unequal reunion counts exactly reject G-full and reject a delay-only explanation. They do not identify L against unrestricted G-gated or G-hidden: every finite causal record DAG admits a global topological scheduler and a gate compilation. A hidden K is gauge only if the complete dynamics and all observables are invariant under rescheduling; otherwise it is merely nonidentified and a scheduler-sensitive intervention can expose it. G-gated becomes explanatory only when an independently constrained gate law predicts multiple held-out observables."
+}

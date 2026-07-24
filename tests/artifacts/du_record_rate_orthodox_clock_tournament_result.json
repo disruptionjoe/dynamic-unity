@@ -1,0 +1,536 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Defines a conventional special-relativistic target.",
+        "statement": "The bounded comparator is a 1+1 inertial echo and reunion fixture with instantaneous reflection/turnaround.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Allows operational k, rapidity, beta, and gamma reconstruction without a global synchronization.",
+        "statement": "L-SR uses equally calibrated local physical records plus a reciprocal limiting-signal exchange law.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Tests the strongest literal delay-only branch.",
+        "statement": "G-full has a global update K, Euclidean preferred slices, signal slope +/-1 on those slices, and exactly one physical observer record per K tick.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Constructs the minimum Lorentz-ether-style rescue on the declared finite fixtures.",
+        "statement": "G-gated admits records at 1/gamma per K and contracts a moving rod by 1/gamma.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A5",
+        "role": "Prevents a radar convention from becoming metrology.",
+        "statement": "The record interval and limiting slope are dimensionless units; no dimensional value of c is inferred.",
+        "status": "IMPORTED"
+      }
+    ],
+    "candidate_id": "DU-ORTHODOX-DUAL-RECORD-CLOCK-TOURNAMENT",
+    "comparators": [
+      "L-SR reciprocal local-clock benchmark",
+      "G-full exact one-record-per-global-tick delay model",
+      "G-gated Lorentz-ether-style rescue"
+    ],
+    "concept": {
+      "concept_id": "DU-DUAL-PRIMITIVE-RECORD-CLOCK",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "ORTHODOX-L-SR-VS-G-FULL-WITH-G-GATED-RESCUE",
+      "invariant": "A successful record-clock architecture must separate propagation delay from path-dependent elapsed records and must either hide or expose its preferred foliation."
+    },
+    "equations": [
+      "k^2=(1+beta)/(1-beta)",
+      "beta=(k^2-1)/(k^2+1)",
+      "gamma=(k+k^-1)/2",
+      "L-SR: m_B=k n_s and n_r=k m_B",
+      "G-full: m_B=n_s/(1-beta), n_r=n_s(1+beta)/(1-beta)",
+      "G-gated: m_B=n_s/[gamma(1-beta)]=k n_s",
+      "t_radar=(n_s+n_r)/2; rho_radar=(n_r-n_s)/2",
+      "G-full reunion: Delta n_A=Delta n_B=Delta K",
+      "L-SR/G-gated reunion: Delta n_B=Delta K/gamma",
+      "G-full moving-lab c_2way=1-beta^2",
+      "G-gated: L_preferred=L_rest/gamma and dn/dK=1/gamma"
+    ],
+    "falsifiers": [
+      "G-full yields unequal reunion counts without gating",
+      "G-full record ratios are reciprocal for nonzero beta",
+      "G-full split record factors depend only on relative rapidity",
+      "G-full moving laboratories measure the same two-way signal speed",
+      "G-gated repairs the targets without motion-dependent record admission"
+    ],
+    "free_choices": [
+      {
+        "choice": "Use beta in {5/13,3/5,8/17}, whose gamma and k are rational.",
+        "id": "C1",
+        "sensitivity_test": "Require every branch identity across all three velocities.",
+        "why_not_forced": "They are exact finite audit fixtures."
+      },
+      {
+        "choice": "Use Einstein radar time as the displayed midpoint.",
+        "id": "C2",
+        "sensitivity_test": "Sweep epsilon in {1/4,1/2,3/4}; physical counts and round-trip speed must remain unchanged.",
+        "why_not_forced": "One-way synchronization is conventional."
+      },
+      {
+        "choice": "Use the textbook Lorentz-ether gating and contraction laws.",
+        "id": "C3",
+        "sensitivity_test": "Keep the G-full comparator visible and record which additional laws repair which failed observables.",
+        "why_not_forced": "A fundamental record model would have to derive them."
+      }
+    ],
+    "null_models": [
+      "exact signal-travel-time subtraction",
+      "epsilon resynchronization",
+      "common Lorentz boost at fixed relative rapidity",
+      "zero-delay reunion",
+      "moving-laboratory round trip"
+    ],
+    "observables": [
+      "A send and return counts",
+      "B reflection count returned in the message",
+      "outbound and inbound record ratios",
+      "radar time and radar distance",
+      "reunion record counts",
+      "two-way moving-laboratory signal speed",
+      "common-boost dependence of the split reflector record"
+    ],
+    "question": "Can G-full\u2014one physical record per global tick with all apparent differences attributed to message delay\u2014recover the operational Lorentz kinematics available to a reciprocal local-clock model, or is an additional G-gating dynamics required?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "rational boost fixtures satisfy gamma, k, and beta identities",
+          "pass": true
+        },
+        {
+          "name": "L-SR and G-full give the same A-only send-return echoes",
+          "pass": true
+        },
+        {
+          "name": "L-SR local counts give reciprocal Doppler factors",
+          "pass": true
+        },
+        {
+          "name": "G-full global-count records give nonreciprocal factors",
+          "pass": true
+        },
+        {
+          "name": "G-gated clock admission repairs reciprocal echo factors",
+          "pass": true
+        },
+        {
+          "name": "A radar coordinates recover beta in the common fixture",
+          "pass": true
+        },
+        {
+          "name": "exact travel-time correction erases the G-full remote clock difference",
+          "pass": true
+        },
+        {
+          "name": "L-SR reciprocal record factors reconstruct gamma",
+          "pass": true
+        },
+        {
+          "name": "epsilon resynchronization changes one-way speeds but not round-trip speed",
+          "pass": true
+        },
+        {
+          "name": "multiplicative local exchange factors give Einstein boost composition",
+          "pass": true
+        },
+        {
+          "name": "G-full A-only echo is invariant under a common Lorentz boost",
+          "pass": true
+        },
+        {
+          "name": "G-full split reflector record leaks the preferred frame",
+          "pass": true
+        },
+        {
+          "name": "G-gated split factors hide the frame on the boost fixture",
+          "pass": true
+        },
+        {
+          "name": "G-full reunited observers have equal record counts",
+          "pass": true
+        },
+        {
+          "name": "L-SR reunion retains differential elapsed local records with zero endpoint delay",
+          "pass": true
+        },
+        {
+          "name": "G-full moving-laboratory two-way signal speed depends on absolute velocity",
+          "pass": true
+        },
+        {
+          "name": "G-gated Lorentz-ether clock and rod laws repair the two-way signal fixture",
+          "pass": true
+        },
+        {
+          "name": "G-gated repairs reunion aging only by skipping physical records",
+          "pass": true
+        },
+        {
+          "name": "radar c=1 follows identically from the radar-distance definition",
+          "pass": true
+        }
+      ],
+      "claim": "A-only echoes underdetermine L-SR versus G-full, but the reflector's record split, boost covariance, reunion count, and moving-laboratory round trip separate them. G-full delay-only fails those Lorentz targets. A G-gated Lorentz-ether completion can repair them only with additional motion-dependent clock and rod dynamics.",
+      "grade": "EXACT FINITE DISCRIMINATOR / G-FULL DELAY-ONLY OVERTURNED / L-SR KINEMATICS CONDITIONAL / G-GATED RESCUE CONSTRUCTED",
+      "remaining_uncertainty": "Neither local cadence nor a global update clock selects its signal law, derives the Lorentz factor, supplies a metric or dimensional c, extends to gravity, or identifies a DU record."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not reject every global-clock theory from the G-full failure.",
+      "Do not call a Lorentz-ether gating law a consequence of latency.",
+      "Do not say Branch L derives proper time from local cadence alone.",
+      "Do not call radar c=1 an independent prediction.",
+      "Do not infer gravity, dimensional c, a DU observer ontology, or Lambda."
+    ],
+    "track": "Science Council dual primitive-record-clock wave / conventional echo, boost, delay, reunion, and preferred-frame benchmark",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 5,
+    "candidate_id": "DU-ORTHODOX-DUAL-RECORD-CLOCK-TOURNAMENT",
+    "checks_passed": 19,
+    "checks_total": 19,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 5,
+    "free_choice_count": 3,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 5,
+    "observable_count": 7,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "boost_and_preferred_frame": {
+      "G_full_composition": {
+        "galilean_velocity_sum": "64/65",
+        "preferred_signal_limit": "1"
+      },
+      "L_SR_composition": {
+        "beta_from_composed_k": "4/5",
+        "einstein_velocity_addition": "4/5",
+        "k1": "2",
+        "k2": "3/2",
+        "k_composed": "3"
+      },
+      "common_Lorentz_boost_null": {
+        "G_full": {
+          "A_only_product_invariant": true,
+          "base_outward_inward_product": [
+            "5/2",
+            "8/5",
+            "4"
+          ],
+          "shifted_outward_inward_product": [
+            "14/5",
+            "10/7",
+            "4"
+          ],
+          "split_reflector_record_leaks_preferred_frame": true
+        },
+        "G_gated": {
+          "base_outward_inward_product": [
+            "2",
+            "2",
+            "4"
+          ],
+          "shifted_outward_inward_product": [
+            "2",
+            "2",
+            "4"
+          ],
+          "split_factors_hidden_on_fixture": true
+        },
+        "base_Einstein_relative_beta": "3/5",
+        "base_velocities_u_v": [
+          "0",
+          "3/5"
+        ],
+        "shifted_Einstein_relative_beta": "3/5",
+        "shifted_velocities_u_v": [
+          "1/5",
+          "5/7"
+        ]
+      }
+    },
+    "checks": [
+      {
+        "name": "rational boost fixtures satisfy gamma, k, and beta identities",
+        "pass": true
+      },
+      {
+        "name": "L-SR and G-full give the same A-only send-return echoes",
+        "pass": true
+      },
+      {
+        "name": "L-SR local counts give reciprocal Doppler factors",
+        "pass": true
+      },
+      {
+        "name": "G-full global-count records give nonreciprocal factors",
+        "pass": true
+      },
+      {
+        "name": "G-gated clock admission repairs reciprocal echo factors",
+        "pass": true
+      },
+      {
+        "name": "A radar coordinates recover beta in the common fixture",
+        "pass": true
+      },
+      {
+        "name": "exact travel-time correction erases the G-full remote clock difference",
+        "pass": true
+      },
+      {
+        "name": "L-SR reciprocal record factors reconstruct gamma",
+        "pass": true
+      },
+      {
+        "name": "epsilon resynchronization changes one-way speeds but not round-trip speed",
+        "pass": true
+      },
+      {
+        "name": "multiplicative local exchange factors give Einstein boost composition",
+        "pass": true
+      },
+      {
+        "name": "G-full A-only echo is invariant under a common Lorentz boost",
+        "pass": true
+      },
+      {
+        "name": "G-full split reflector record leaks the preferred frame",
+        "pass": true
+      },
+      {
+        "name": "G-gated split factors hide the frame on the boost fixture",
+        "pass": true
+      },
+      {
+        "name": "G-full reunited observers have equal record counts",
+        "pass": true
+      },
+      {
+        "name": "L-SR reunion retains differential elapsed local records with zero endpoint delay",
+        "pass": true
+      },
+      {
+        "name": "G-full moving-laboratory two-way signal speed depends on absolute velocity",
+        "pass": true
+      },
+      {
+        "name": "G-gated Lorentz-ether clock and rod laws repair the two-way signal fixture",
+        "pass": true
+      },
+      {
+        "name": "G-gated repairs reunion aging only by skipping physical records",
+        "pass": true
+      },
+      {
+        "name": "radar c=1 follows identically from the radar-distance definition",
+        "pass": true
+      }
+    ],
+    "checks_passed": 19,
+    "checks_total": 19,
+    "contested_proposition": "G-full, with every apparent difference caused only by message latency, can reproduce reciprocal Lorentz exchange, boost invariance, and unequal reunion elapsed times without an additional motion-dependent record mechanism.",
+    "definitions": {
+      "global_update_count": "Branch-G substrate index K shared across preferred slices",
+      "local_record_count": "irreversible physical counter carried by one observer",
+      "message": "limiting-signal send/reflection/receipt edge carrying the reflector's local count",
+      "proper_time_target": "path-dependent elapsed physical-clock record count in L-SR; not derived from cadence alone",
+      "radar_distance": "(n_r-n_s)/2 in declared record-tick units",
+      "radar_time": "(n_s+n_r)/2 under Einstein synchronization"
+    },
+    "echo_fixtures": [
+      {
+        "G_full": {
+          "delay_corrected_A_time_minus_B_count": "0",
+          "inward_factor": "18/13",
+          "outward_factor": "13/8",
+          "reflect_B": "195/2"
+        },
+        "G_gated": {
+          "inward_factor": "3/2",
+          "outward_factor": "3/2",
+          "record_admission_per_global_tick": "12/13",
+          "reflect_B": "90"
+        },
+        "L_SR": {
+          "delay_corrected_A_time_over_B_count": "13/12",
+          "inward_factor": "3/2",
+          "outward_factor": "3/2",
+          "reflect_B": "90"
+        },
+        "beta": "5/13",
+        "gamma": "13/12",
+        "k": "3/2",
+        "radar_beta": "5/13",
+        "radar_c": "1",
+        "radar_distance_A": "75/2",
+        "radar_time_A": "195/2",
+        "return_A": "135",
+        "send_A": "60"
+      },
+      {
+        "G_full": {
+          "delay_corrected_A_time_minus_B_count": "0",
+          "inward_factor": "8/5",
+          "outward_factor": "5/2",
+          "reflect_B": "150"
+        },
+        "G_gated": {
+          "inward_factor": "2",
+          "outward_factor": "2",
+          "record_admission_per_global_tick": "4/5",
+          "reflect_B": "120"
+        },
+        "L_SR": {
+          "delay_corrected_A_time_over_B_count": "5/4",
+          "inward_factor": "2",
+          "outward_factor": "2",
+          "reflect_B": "120"
+        },
+        "beta": "3/5",
+        "gamma": "5/4",
+        "k": "2",
+        "radar_beta": "3/5",
+        "radar_c": "1",
+        "radar_distance_A": "90",
+        "radar_time_A": "150",
+        "return_A": "240",
+        "send_A": "60"
+      },
+      {
+        "G_full": {
+          "delay_corrected_A_time_minus_B_count": "0",
+          "inward_factor": "25/17",
+          "outward_factor": "17/9",
+          "reflect_B": "340/3"
+        },
+        "G_gated": {
+          "inward_factor": "5/3",
+          "outward_factor": "5/3",
+          "record_admission_per_global_tick": "15/17",
+          "reflect_B": "100"
+        },
+        "L_SR": {
+          "delay_corrected_A_time_over_B_count": "17/15",
+          "inward_factor": "5/3",
+          "outward_factor": "5/3",
+          "reflect_B": "100"
+        },
+        "beta": "8/17",
+        "gamma": "17/15",
+        "k": "5/3",
+        "radar_beta": "8/17",
+        "radar_c": "1",
+        "radar_distance_A": "160/3",
+        "radar_time_A": "340/3",
+        "return_A": "500/3",
+        "send_A": "60"
+      }
+    ],
+    "probe": "du_record_rate_orthodox_clock_tournament",
+    "reunion_and_light_clock": {
+      "global_duration": "100",
+      "moving_light_clock": {
+        "G_full": {
+          "global_roundtrip_ticks": "75/2",
+          "measured_two_way_speed": "16/25"
+        },
+        "G_gated": {
+          "global_roundtrip_ticks": "30",
+          "measured_two_way_speed": "1",
+          "physical_clock_records": "24",
+          "preferred_frame_rod_length": "48/5"
+        },
+        "rest_rod_length": "12"
+      },
+      "reunion": {
+        "G_full": {
+          "A_records": "100",
+          "B_records": "100",
+          "difference": "0"
+        },
+        "G_gated": {
+          "B_physical_records": "80",
+          "global_updates_seen_by_B": "100",
+          "record_admission_per_global_tick": "4/5"
+        },
+        "L_SR": {
+          "A_records": "100",
+          "B_records": "80",
+          "difference": "20"
+        }
+      }
+    },
+    "scope": {
+      "earned": [
+        "an exact observer-message discriminator beyond A-only radar",
+        "an exact delay-only and zero-delay reunion control",
+        "an exact preferred-frame leakage fixture for G-full's split records",
+        "a constructive finite G-gated rescue"
+      ],
+      "not_earned": [
+        "a derivation of the reciprocal signal law or Lorentz factor",
+        "a global no-go on hidden-clock or emergent-Lorentz theories",
+        "a dimensional invariant speed",
+        "gravity, a DU observer ontology, Lambda, or cosmology"
+      ]
+    },
+    "synchronization_null": {
+      "rows": [
+        {
+          "epsilon": "1/4",
+          "inward_one_way_speed": "2/3",
+          "outward_one_way_speed": "2",
+          "reflection_coordinate_time": "105",
+          "round_trip_speed": "1"
+        },
+        {
+          "epsilon": "1/2",
+          "inward_one_way_speed": "1",
+          "outward_one_way_speed": "1",
+          "reflection_coordinate_time": "150",
+          "round_trip_speed": "1"
+        },
+        {
+          "epsilon": "3/4",
+          "inward_one_way_speed": "2",
+          "outward_one_way_speed": "2/3",
+          "reflection_coordinate_time": "195",
+          "round_trip_speed": "1"
+        }
+      ],
+      "unchanged_observer_counts": {
+        "G_full_reflect_B": "150",
+        "G_gated_reflect_B": "120",
+        "L_SR_reflect_B": "120",
+        "return_A": "240"
+      }
+    },
+    "verdict": "G-FULL DELAY-ONLY OVERTURNED AT THE CONVENTIONAL LORENTZ BENCHMARK / L-SR CONDITIONALLY RECONSTRUCTS KINEMATICS / G-GATED LORENTZ-ETHER RESCUE REMAINS LIVE BUT ADDS DYNAMICS"
+  }
+}

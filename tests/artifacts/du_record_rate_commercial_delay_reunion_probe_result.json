@@ -1,0 +1,341 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Defines the strongest local-cadence completion used in the reunion comparison without claiming proper time was derived.",
+        "statement": "Branch L supplies local append-only record sequences without a shared synchronization; for the SR benchmark only, N_i=proper_time_i/delta_tau is a conditional map.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A2",
+        "role": "Makes the user's global-clock premise predictively sharp rather than rejecting it by definition.",
+        "statement": "Branch G-full supplies one actual global update count K and every observer appends exactly one equivalent record per K tick.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Constructs delay-only offsets and exposes the preferred frame of the simplest G-full propagation completion.",
+        "statement": "Messages traverse the finite fixture with declared one-way latencies; the preferred-frame null uses one spatial unit per global tick.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Prevents radar distance from defining and then appearing to predict the same signal speed.",
+        "statement": "A dimensional speed is evaluated only when spatial distance and record-tick duration are independently calibrated.",
+        "status": "STANDARD"
+      }
+    ],
+    "candidate_id": "DU-COMMERCIAL-DUAL-RECORD-CLOCK-DECISION",
+    "comparators": [
+      "Branch L with an explicitly conditional SR proper-time map",
+      "Branch G-full with exact one-record-per-global-tick addition",
+      "Branch G-gated with a Lorentz-factor admission law",
+      "construction-specific Clock QW/QCA exact discrete Lorentz covariance in 1+1 as a literature positive control",
+      "pure preferred-frame delay-only propagation",
+      "synchronization-resliced and distance-speed-rescaled message logs"
+    ],
+    "concept": {
+      "concept_id": "PRIMITIVE-RECORD-CLOCK-DUAL",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "FORMALIZATION-COM-RR-DUAL-01",
+      "invariant": "A physical record-clock proposal must make a propagation-corrected reunion or closed-loop prediction that is not created by synchronization convention."
+    },
+    "equations": [
+      "radar_time=(n_send+n_receive)/2",
+      "radar_distance=(n_receive-n_send)/2",
+      "(D,c)->(aD,ac) leaves message latency D/c unchanged",
+      "G-full reunion: Delta N_A=Delta N_B=Delta K",
+      "L+SR reunion: Delta N_B=Delta N_A sqrt(1-beta^2)",
+      "G-gated rescue: dN/dK=sqrt(1-beta^2)",
+      "G-full preferred-frame parallel round trip=L/(1-beta)+L/(1+beta)",
+      "G-full preferred-frame transverse round trip=2L/sqrt(1-beta^2)"
+    ],
+    "falsifiers": [
+      "G-full yields unequal equivalent record counts at reunion without a gate",
+      "propagation correction changes stored reunited record counts",
+      "radar c ceases to equal one when radar distance is defined from the same round trip",
+      "message counts independently determine D and c despite the exact common-rescaling family",
+      "pure preferred-frame propagation has no closed-loop orientation dependence",
+      "G-gated recovers the SR fixture without a velocity/path/field-dependent admission or length law"
+    ],
+    "free_choices": [
+      {
+        "choice": "Use exact counts (20,28,36), including asymmetric one-way latencies 5 and 11.",
+        "id": "C1",
+        "sensitivity_test": "Use three synchronization reslicings while preserving the same round-trip latency.",
+        "why_not_forced": "They are minimal arithmetic fixtures."
+      },
+      {
+        "choice": "Use a reunion benchmark with beta=3/5 and 100 global ticks.",
+        "id": "C2",
+        "sensitivity_test": "Require the exact symbolic distinction G-full: deltaN=0 versus L+SR: deltaN=T(1-sqrt(1-beta^2)).",
+        "why_not_forced": "The rational values make gamma=5/4 exact; the formulas hold for every nonzero subluminal beta."
+      },
+      {
+        "choice": "Use an eight-unit two-arm closed-loop fixture in the preferred-frame control.",
+        "id": "C3",
+        "sensitivity_test": "Compare pure delay-only G-full with the explicit Lorentz-gated and length-responsive completion.",
+        "why_not_forced": "It is the smallest exact orientation comparison with the same beta=3/5."
+      }
+    ],
+    "null_models": [
+      "asymmetric message latency whose apparent offset vanishes after exact propagation correction",
+      "Einstein and non-Einstein synchronization reslicings of one round trip",
+      "co-located departure and reunion endpoints with zero propagation delay",
+      "a rotated closed-loop apparatus in the global-clock preferred frame"
+    ],
+    "observables": [
+      "raw and propagation-corrected separated-clock offset",
+      "reunited local record-count difference",
+      "round-trip count under synchronization reslicing",
+      "closed-loop orientation anisotropy",
+      "two-way speed after independent distance and tick calibration"
+    ],
+    "question": "What is the minimum operational product that distinguishes a universal local cadence from one global record clock, removes signal delay as an explanation of elapsed-time differences, and separates radar-defined c from independently recovered c?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "radar time and radar distance are constructed exactly from local send and receive counts",
+          "pass": true
+        },
+        {
+          "name": "radar c equals one by definition on the declared record-tick units",
+          "pass": true
+        },
+        {
+          "name": "synchronization reslicing changes one-way speeds while preserving the two-way result",
+          "pass": true
+        },
+        {
+          "name": "message records alone identify distance over speed rather than dimensional distance and speed separately",
+          "pass": true
+        },
+        {
+          "name": "an independent distance and tick calibration produces a nondefinitional dimensional two-way speed",
+          "pass": true
+        },
+        {
+          "name": "exact propagation correction removes the separated-clock delay-only offset",
+          "pass": true
+        },
+        {
+          "name": "G-full predicts equal record accumulation between shared reunion endpoints",
+          "pass": true
+        },
+        {
+          "name": "the declared SR-compatible Branch-L completion predicts a path-dependent reunion difference",
+          "pass": true
+        },
+        {
+          "name": "G-gated reproduces the reunion difference only by adding the Lorentz admission factor",
+          "pass": true
+        },
+        {
+          "name": "pure preferred-frame G-full propagation predicts a closed-loop orientation signal",
+          "pass": true
+        },
+        {
+          "name": "the Lorentz-gated global completion hides this signal only after adding matching clock and length laws",
+          "pass": true
+        }
+      ],
+      "claim": "Separated message offsets do not discriminate the branches when propagation removes them. A reunion count is the minimum clean discriminator: G-full predicts equality, while an SR-compatible local-cadence completion predicts a path-dependent difference. G-gated can reproduce that difference only by adding the Lorentz admission law, and the simplest global-frame propagation model has a closed-loop orientation signal unless matching length and clock dynamics are added. This is a narrow failure of G-full latency-only, not of all global discrete evolution: the exact 1+1 Clock-QCA construction remains a positive control for a G-gated or gauge-hidden completion.",
+      "grade": "EXACT CONDITIONAL DECISION ASSAY / G-FULL DELAY-ONLY INSUFFICIENT FOR REUNION TIME DILATION / G-GATED OR CLOCK-QCA-LIKE GLOBAL COMPLETIONS OPEN WITH SCOPED LORENTZ AND PREFERRED-FRAME BURDENS",
+      "remaining_uncertainty": "No microscopic observer/record law, Lorentz-factor derivation, independent physical distance map, gravity response, or empirical record-to-clock identity is supplied. The Clock-QCA antecedent has not been locally reproduced or extended from its construction-specific 1+1 covariance to the present reunion-record semantics."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Stop using separated remote timestamp offsets as evidence once exact propagation correction removes them.",
+      "Stop claiming physical c from radar c=1 until an independent distance or metric map exists.",
+      "Stop G-full as a model of relativistic elapsed time if equivalent reunited records differ.",
+      "Keep G-gated open only with an independently generated admission law and a preferred-frame audit.",
+      "Do not generalize the G-full delay-only failure to every global discrete clock: first compare against the exact 1+1 Clock-QCA positive control and preserve its limited scope.",
+      "If fundamental records cannot be read or compared at reunion, mark the L/G physical comparison NOT_EVALUABLE rather than expanding ontology.",
+      "Do not claim Branch L derives SR merely because one conditional proper-time map is compatible with it."
+    ],
+    "track": "Science Council commercial primitive-record-rate wave / Branch L versus Branch G",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "ABDUCTIVELY_PREFERRED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 4,
+    "candidate_id": "DU-COMMERCIAL-DUAL-RECORD-CLOCK-DECISION",
+    "checks_passed": 11,
+    "checks_total": 11,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 6,
+    "free_choice_count": 3,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 4,
+    "observable_count": 5,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "ABDUCTIVELY_PREFERRED"
+    ]
+  },
+  "results": {
+    "checks_passed": 11,
+    "checks_total": 11,
+    "commercial_decision": {
+      "Branch_L_price": "Derive rather than assume the map from local record count to proper time and the Lorentzian message cone.",
+      "G_full_disposition": "Useful exact delay null; insufficient as a relativistic elapsed-time model.",
+      "G_gated_price": "First reproduce and reinterpret the Clock-QCA positive control instead of fitting 1/gamma by hand. Then derive the record admission and matching spatial response from the substrate and show whether the global foliation is observable across boosts and fields.",
+      "c_price": "Supply independent spatial calibration or metric reconstruction plus a tick-duration unit.",
+      "minimum_product": "A co-located departure/reunion record-count comparison, preceded by a propagation-corrected echo and followed only if necessary by a closed-loop preferred-frame test."
+    },
+    "positive_global_clock_control": {
+      "commercial_reading": "This is a positive control for G-gated or gauge-hidden global discrete updating, not evidence for G-full latency-only record addition.",
+      "covariance_scope": "A solution is mapped to a solution of the same discrete dynamics through construction-specific encodings that replace lattice points by lightlike rectangular patches. Rational velocities require a global rescaling.",
+      "local_replication_status": "LITERATURE_CONTROL_NOT_RECOMPUTED",
+      "not_established": [
+        "a primitive append-only record ontology",
+        "one equivalent observer record per global update",
+        "a reunion record-count admission law",
+        "generic model-independent Lorentz covariance",
+        "3+1 dimensional isotropy, interactions, gravity, or a dimensional c"
+      ],
+      "positive_result": "The Clock QW and Clock QCA are proved exactly discrete Lorentz covariant in 1+1 dimensions; the Clock QCA uses a fixed three-dimensional wire state space.",
+      "source": "P. Arrighi, S. Facchini, and M. Forets, Discrete Lorentz covariance for Quantum Walks and Quantum Cellular Automata (2014), arXiv:1404.4499",
+      "url": "https://arxiv.org/abs/1404.4499"
+    },
+    "preferred_frame": {
+      "G_full_delay_only_no_contraction": {
+        "parallel_outbound_records": "20/1",
+        "parallel_return_records": "5/1",
+        "parallel_round_trip_records": "25/1",
+        "parallel_to_transverse_ratio": "5/4",
+        "preferred_frame_signal": "The two-way closed-loop count depends on orientation and absolute apparatus speed.",
+        "stationary_round_trip_records": "16/1",
+        "transverse_round_trip_records": "20/1"
+      },
+      "G_gated_Lorentz_completion": {
+        "parallel_global_ticks": "20/1",
+        "parallel_length_in_preferred_frame": "32/5",
+        "parallel_local_records": "16/1",
+        "reading": "Length response sqrt(1-beta^2) plus the same record-admission gate cancels the preferred-frame signal on this fixture. Those are additional dynamical laws, not propagation delay.",
+        "transverse_global_ticks": "20/1",
+        "transverse_local_records": "16/1"
+      },
+      "parameters": {
+        "apparatus_speed_beta": "3/5",
+        "preferred_frame_signal_speed": "1/1",
+        "rest_arm_length": "8/1"
+      }
+    },
+    "propagation_correction": {
+      "corrected_remote_minus_local": "0/1",
+      "forward_latency": "5/1",
+      "global_send_count": "20/1",
+      "local_count_on_receipt": "36/1",
+      "propagation_corrected_remote_count": "36/1",
+      "raw_remote_minus_local": "-11/1",
+      "reading": "The raw separated-clock offset equals the return latency and vanishes when that latency is exactly propagated forward.",
+      "remote_reply_count_carried_by_message": "25/1",
+      "return_latency": "11/1"
+    },
+    "radar_and_synchronization": {
+      "constructed_radar_distance_in_record_ticks": "8/1",
+      "constructed_radar_time": "28/1",
+      "distance_speed_scale_gauge": [
+        {
+          "distance": "8/1",
+          "one_way_latency": "8/1",
+          "round_trip_latency": "16/1",
+          "speed": "1/1"
+        },
+        {
+          "distance": "24/1",
+          "one_way_latency": "8/1",
+          "round_trip_latency": "16/1",
+          "speed": "3/1"
+        },
+        {
+          "distance": "40/1",
+          "one_way_latency": "8/1",
+          "round_trip_latency": "16/1",
+          "speed": "5/1"
+        }
+      ],
+      "independent_calibration": {
+        "independent_spatial_distance": "24/1",
+        "reading": "The dimensional speed is recovered only after an independent distance and tick-duration calibration. Radar c=1 alone is an operational convention.",
+        "record_tick_duration": "1/1",
+        "recovered_two_way_speed": "3/1"
+      },
+      "radar_speed_by_definition": "1/1",
+      "records": {
+        "A_receive_count": "36/1",
+        "A_send_count": "20/1",
+        "B_reflection_count": "28/1"
+      },
+      "synchronization_reslicings": [
+        {
+          "epsilon": "-3/1",
+          "forward_latency": "5/1",
+          "forward_one_way_speed": "8/5",
+          "return_latency": "11/1",
+          "return_one_way_speed": "8/11",
+          "round_trip_latency": "16/1",
+          "two_way_speed": "1/1"
+        },
+        {
+          "epsilon": "0/1",
+          "forward_latency": "8/1",
+          "forward_one_way_speed": "1/1",
+          "return_latency": "8/1",
+          "return_one_way_speed": "1/1",
+          "round_trip_latency": "16/1",
+          "two_way_speed": "1/1"
+        },
+        {
+          "epsilon": "3/1",
+          "forward_latency": "11/1",
+          "forward_one_way_speed": "8/11",
+          "return_latency": "5/1",
+          "return_one_way_speed": "8/5",
+          "round_trip_latency": "16/1",
+          "two_way_speed": "1/1"
+        }
+      ]
+    },
+    "reunion": {
+      "G_full": {
+        "A_minus_B": "0/1",
+        "A_records": "100/1",
+        "B_records": "100/1",
+        "prediction": "equal reunited counts"
+      },
+      "G_gated_minimum_completion": {
+        "A_minus_B": "20/1",
+        "A_records": "100/1",
+        "B_records": "80/1",
+        "extra_law": "admit records at dN/dK=sqrt(1-beta^2) for the moving observer in the preferred-clock description",
+        "required_gate_for_B": "4/5"
+      },
+      "L_with_SR_proper_time_map": {
+        "A_minus_B": "20/1",
+        "A_records": "100/1",
+        "B_records": "80/1",
+        "prediction": "path-dependent reunited counts under the conditional N_i=proper_time_i/delta_tau map"
+      },
+      "beta": "3/5",
+      "delay_only_null": "No send/receive latency exists at E0 or E1. Resynchronization and propagation correction cannot alter either stored count.",
+      "fixture": "A and B share departure E0 and reunion E1. A is at rest in the benchmark frame; B has two equal inertial legs at |beta|=3/5 with an idealized turnaround.",
+      "gamma": "5/4",
+      "global_ticks_between_shared_endpoints": "100/1",
+      "inverse_gamma": "4/5"
+    }
+  }
+}

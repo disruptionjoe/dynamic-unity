@@ -236,6 +236,97 @@ deviation dynamically FORCED or dialed — now testable across many measurable p
 The 2026-07-23 tournament has reached the proxy-proliferation stop: do not add more measures until
 a physical selector exists.
 
+## CONCEPT-DU-002 — temporal and metric structure from physical record accrual
+
+- **Concept (articulation-invariant).** Fundamental temporal succession is
+  grounded in the production of causally novel, durable physical records.
+  Cross-observer time, distance, and elapsed-time comparisons are constructed
+  from the causal relations among those records and messages. A common
+  substrate update may exist, but its tick becomes an observer's elapsed time
+  only through an explicit physical record-admission and comparison law.
+- **Concept INVARIANT.**
+  1. An observer is an operationally persistent record-bearing process, not a
+     worldline with proper time already attached.
+  2. Local record order and causal message edges are primitive or explicitly
+     mapped physical objects.
+  3. Any cross-observer temporal or metric quantity exposes its record,
+     coordination, density, calibration, and synchronization dependencies.
+  4. Propagation delay, coordinate assignment, and path-dependent accumulated
+     records remain distinct.
+  5. A global scheduler is typed as observable, hidden physical, gauge, or
+     nonidentifying; those dispositions are not interchangeable.
+- **Formalization FAMILY.**
+  1. universal local record cadence with no global synchronization;
+  2. asynchronous causal/message graphs and logical clocks;
+  3. coordinated observer-chain valuations and projections;
+  4. causal order plus spacetime-event number/density;
+  5. `G-full`, one equivalent physical record per observer per global tick;
+  6. `G-gated`, one global opportunity plus path/motion/field-dependent
+     physical record admission;
+  7. `G-hidden`, a scheduler quotiented from every physical observable;
+  8. exactly encoded globally stepped circuit/QCA constructions; and
+  9. longest-chain, null-volume, throughput, or thermodynamic record
+     functionals, each with an explicit observer and calibration map.
+
+### 2026-07-24 dual primitive-record-clock wave
+
+The first five-persona tournament compared the local and global premise
+branches on common echo, resynchronization, preferred-frame, and reunion
+fixtures.
+
+The exact local formalization kill is:
+
+```text
+G-full:
+  one equivalent physical record per observer per global K
+  + distance-dependent message delay
+
+cannot produce unequal accumulated records at a shared reunion.
+```
+
+An A-only echo can nevertheless be identical under a reciprocal local-clock
+model and `G-full`; the remote observer's carried record or a reunion is needed
+to distinguish them. Radar distance constructed from the same round trip makes
+`c=1` definitional in those units.
+
+Two constructive routes remain:
+
+- Branch L: in `1+1`, positive null-axis maps preserve causal order; adding a
+  common spacetime-event density fixes the conformal factor and conditionally
+  recovers Lorentz boost and interval algebra.
+- Branch G: treating each global tick as an opportunity rather than a record
+  permits path-dependent clock gating. A matching clock-and-material response
+  reproduces the finite Lorentz targets but is not selected by cadence or
+  delay alone.
+
+[Arrighi, Facchini, and Forets](https://arxiv.org/abs/1404.4499) establish
+exact discrete Lorentz covariance for their particular `1+1` Clock QW/QCA, so
+the globally stepped construction class is nonempty. That antecedent has not
+yet been mapped to durable observer records, reunion counts, higher
+dimensions, gravity, or DU dynamics. [Knuth and
+Bahrenyi](https://arxiv.org/abs/1005.4172) provide a complementary
+coordinated-chain Branch-L antecedent whose valuation and coordination
+assumptions remain explicit.
+
+The central open distinctions are:
+
+```text
+observer-chain record count       != bulk spacetime-event number
+global update opportunity         != durable physical record
+failure to identify a scheduler   != proof that it is gauge
+dimensionless invariant slope     != dimensional physical c.
+```
+
+**Status:** **CONCEPT-SUPPORTED-BY-CONDITIONAL-CONSTRUCTIONS /
+G-FULL-DELAY-ONLY-FORMALIZATION-FALSIFIED /
+DYNAMICAL-SELECTION-AND-PHYSICAL-IDENTITY-OPEN.** The immediate bounded
+reopener is a record-clock passport plus exact Clock-QCA reproduction and
+observer-record/reunion extraction. Run the same passport against the local
+order-plus-density branch, `G-full`, and a fixed `G-gated` control. Stop the
+broader branch if exact circuit covariance has no representation-independent
+durable-record functional. No claim is banked or seeded. See
+`science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md`.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.

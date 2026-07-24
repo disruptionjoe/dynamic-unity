@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 12
+manifest_revision: 13
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -20,7 +20,7 @@ lane_design_note: >-
 active_hardening_program_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 active_hardening_program_note: >-
-  HC-DU-001 through HC-DU-030 are the prioritized, non-destructive credibility backlog. The
+  HC-DU-001 through HC-DU-031 are the prioritized, non-destructive credibility backlog. The
   original P01-A through P50-B persona items remain the lossless source register; hardening IDs,
   work packages and cross-repo reuse pointers route them but never replace them.
 strategic_reprioritization:
@@ -263,6 +263,58 @@ science_council_successor_wave:
   divergent_custody: >-
     Forty-six successor items are preserved as UNRANKED / UNCOMMITTED / NOT_A_CLAIM in addition
     to the fifty-six first-wave items.
+science_council_primitive_record_clock_wave:
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: run the same complete five-persona process while treating both possible
+    primitive-time assumptions fairly — universal local record cadence without synchronization
+    and one actual fundamental global record-update clock.
+  contract_ref: >-
+    explorations/science-council-primitive-record-rate-wave-contract-2026-07-24.md
+  synthesis_ref: >-
+    explorations/science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md
+  divergent_index_ref: >-
+    explorations/science-council-five-persona-primitive-record-rate-divergent-wishlist-index-2026-07-24.md
+  persona_refs:
+    orthodox: explorations/science-council-orthodox-primitive-record-rate-wave-2026-07-24.md
+    heterodox: explorations/science-council-heterodox-primitive-record-rate-wave-2026-07-24.md
+    commercial: explorations/science-council-commercial-primitive-record-rate-wave-2026-07-24.md
+    wild_frontier: explorations/science-council-wild-frontier-primitive-record-rate-wave-2026-07-24.md
+    philosopher: explorations/science-council-philosopher-primitive-record-rate-wave-2026-07-24.md
+  premise_split: >-
+    Branch L has one common local record rule without global synchronization. Branch G admits one
+    actual fundamental update clock but separates G-full (one equivalent physical record per
+    observer per tick), G-gated (each tick is only an opportunity), and G-hidden/gauge scheduler
+    formulations. A global clock is not rejected merely because it is posited.
+  integrated_result: >-
+    One observer's send-return echo can be exactly identical in Branch L and G-full. A carried
+    remote record, shared reunion or moving closed-loop assay separates them. G-full plus message
+    delay cannot produce unequal stored records at reunion. Local causal order plus common
+    spacetime-event density conditionally realizes exact 1+1 Lorentz algebra; fitted G-gating plus
+    matching material response also realizes the finite target but does not select its law.
+    Every finite local causal-record DAG can be compiled into some global gated schedule, so L
+    versus unrestricted G-gated is underidentified.
+  positive_antecedent: >-
+    Arrighi, Facchini and Forets prove exact discrete Lorentz covariance for their particular 1+1
+    Clock QW/QCA. This keeps a globally stepped construction class live, but observer, durable
+    record, carried-reflection, reunion, higher-dimensional, gravity and unit maps remain open.
+  integrated_disposition: >-
+    G-FULL DELAY-ONLY OVERTURNED / L ORDER-PLUS-DENSITY KINEMATICS CONDITIONAL / G-GATED AND
+    EXACTLY ENCODED GLOBAL-CLOCK CLASSES OPEN / FINITE L-VERSUS-UNRESTRICTED-G-GATED
+    UNDERIDENTIFIED / RECORD SEMANTICS, DYNAMICAL SELECTION, UNITS AND DU IDENTITY OPEN.
+    No claim banked or seeded.
+  immediate_build: >-
+    HC-DU-031A: freeze a physical record/opportunity/copy passport, reproduce the exact 1+1 Clock
+    QW/QCA covariance, and test whether a frame-consistent durable-record functional survives
+    carried-reflection, reunion, boost and scheduler-tag controls against Branch L, G-full and one
+    fixed G-gated law. Stop if circuit covariance has no representation-independent observer-record
+    semantics or the gate is unconstrained compilation.
+  program_relationship: >-
+    HC-DU-031A is the cheapest immediate semantic kill and a bounded parallel route. It does not
+    replace HC-DU-011A or the post-producing, running, held-out-geometry program.
+  divergent_custody: >-
+    Forty-seven primitive-record-rate persona items are preserved as UNRANKED / UNCOMMITTED /
+    NOT_A_CLAIM in their dedicated index, in addition to both earlier council generations.
 lanes:
 - id: '1'
   label: Lane 1
@@ -314,12 +366,15 @@ lanes:
       SWING-DU-PHY-02 consumed the bounded physical-influence move: live Bianconi and record
       score-energy objects exist, but no functional selector or nonzero physical scale was found.
       The successor council recovers an exact CSG post-conditioned hierarchy while preserving the
-      no-selector/no-physical-scale verdict. The immediate HC-DU-011A object is a lean post passport
-      plus an unconditioned generativity/recurrence census across fixed tail families. A survivor
-      must jointly produce posts, nontrivial running and held-out acceptable geometry before
-      physical records, response, units or cosmology. Direct count-running remains killed. No
-      coefficient fitting, proxy proliferation, broad enumeration, selected post epoch, or
-      cosmology before this intersection test counts as progress.
+      no-selector/no-physical-scale verdict. The dual primitive-record-clock wave now adds one
+      cheaper bounded semantic target, HC-DU-031A: reproduce the exact 1+1 Clock-QW/QCA and test
+      whether its covariance reaches durable observer records at reflection and reunion. In
+      parallel, HC-DU-011A remains the lean post passport plus unconditioned
+      generativity/recurrence census across fixed tail families. A post-law survivor must jointly
+      produce posts, nontrivial running and held-out acceptable geometry before physical records,
+      response, units or cosmology. Direct count-running remains killed. No unconstrained clock
+      gate, coefficient fitting, proxy proliferation, broad enumeration, selected post epoch, or
+      cosmology before the relevant dependency test counts as progress.
   priority_guard: >-
     SWING-DU-COV-02 kills the strongest local constant-kappa lift except at the constant-Lambda
     limit: every accelerating fixed point has c_N^2=3 Omega_V*>1. SWING-DU-CMF-01 then executes the
@@ -334,7 +389,10 @@ lanes:
     post-conditioned map as the positive control while preserving full path covariance; then test
     unconditioned post recurrence, tail-class running and held-out geometry. Only a survivor may
     seek physical records, a hierarchy relative to a declared microscopic unit, causal
-    response/noise and the common-past spectrum.
+    response/noise and the common-past spectrum. Separately, HC-DU-031A may proceed as the bounded
+    exact Clock-QW/QCA semantic assay. Its G-full latency-only control is already killed; it
+    advances only if one fixed globally stepped construction yields a representation-independent
+    durable-record functional and hides or exposes its scheduler under declared interventions.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -348,7 +406,9 @@ lanes:
       completion/abduction and physical-influence swings are complete; neither selected a source,
       mobility, functional, or physical scale. Source/observer constructions remain admissible
       conditional exploration, but the active major program is HC-DU-011 + HC-DU-022 and its
-      immediate build is the HC-DU-011A covariance passport named in Lane 1.5.
+      immediate causal-scale build is the HC-DU-011A passport named in Lane 1.5. The separate
+      HC-DU-031A record-clock semantic arena is a bounded parallel foundational test, not a
+      source-action or cosmology result.
     flip_witness_target: >-
       (wave-2, 2026-07-21) The D-FORK flip-witness is now PRICED to a hard spec: a source action
       whose flow ISSUES new mode content — grows ker(Γ) — non-absorbingly (not one-shot) and
@@ -406,15 +466,18 @@ lanes:
       Build the minimum complete theory passport (state space, action, symmetries, observables,
       quantization, constraints, limits and predictions); construct explicit typed maps among the
       several N objects; execute the staged HC-DU-011 + HC-DU-022 order-first causal-scale program;
-      test CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the
-      Standard Model. Immediate object HC-DU-011A is a lean literature-aware post passport:
-      physical projective sector, exact conditional map, natural-labeling covariance, global-post
-      versus finite-landmark status, and killed direct-count control. It then measures
-      unconditioned post recurrence across fixed tail families before held-out geometry or
-      physical-record work. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
+      and execute the bounded HC-DU-031 primitive-record-clock passport; test
+      CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the Standard
+      Model. HC-DU-031A first reproduces the exact 1+1 Clock-QW/QCA and tests whether its covariance
+      reaches durable observer records under reflection, reunion, boosts and scheduler-tag
+      controls. In parallel, HC-DU-011A is the lean literature-aware post passport: physical
+      projective sector, exact conditional map, natural-labeling covariance, global-post versus
+      finite-landmark status, killed direct-count control, and unconditioned post recurrence before
+      held-out geometry. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
     grade: >-
       ACTIVE PROGRAM / EXACT POST ANTECEDENT REPRODUCED / POST GENERATIVITY PLUS HELD-OUT GEOMETRY
-      NEXT / NAIVE COUNT-RUNNING KILLED
+      NEXT / RECORD-CLOCK SEMANTIC ARENA NEXT IN PARALLEL / G-FULL DELAY-ONLY AND NAIVE
+      COUNT-RUNNING KILLED
 - id: '2'
   label: Lane 2
   ordinal: 2
@@ -447,9 +510,12 @@ lanes:
       factorial-tail half-power, while overturning a universal post half-power and deferring the
       raw-retention dimension selector. The active frontier is the coupled HC-DU-011 + HC-DU-022
       program: lean post passport, unconditioned recurrence/tail-family census, then held-out
-      geometry. Direct p(N)/g(N) schedules and generic fitted nonlocal kernels are stopped;
-      influence objects may serve only as downstream telemetry until an independent held-out
-      response exists.
+      geometry. CONCEPT-DU-002 adds a bounded parallel frontier, HC-DU-031A: compare universal
+      local record cadence with one globally stepped Clock-QW/QCA under one record, reunion, boost,
+      scheduler-quotient and units passport. G-full latency-only and unrestricted fitted gating do
+      not count as progress. Direct p(N)/g(N) schedules and generic fitted nonlocal kernels are
+      stopped; influence objects may serve only as downstream telemetry until an independent
+      held-out response exists.
   - id: '2.3'
     title: GU ablation and rival-frame tournament
     scope: >-
@@ -607,7 +673,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 12
+  revision: 13
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -625,8 +691,11 @@ provenance:
     kills naive count-running, and narrows the next program to HC-DU-011A first; rev12 (Joe direct
     chat, 2026-07-24) runs the successor wave from all prior outputs, vote receipts and divergent
     items, recovers exact post RG, narrows its half-power to the factorial tail class, and moves
-    the next discriminator to post generativity plus held-out geometry; anchor question + P/P/P
-    unchanged
+    the next discriminator to post generativity plus held-out geometry; rev13 (Joe direct chat,
+    2026-07-24) compares universal local record cadence with one fundamental global update clock,
+    kills G-full latency-only differential aging, preserves conditional local and gated/global
+    constructions, and opens HC-DU-031A as an exact Clock-QW/QCA observer-record semantic assay in
+    parallel with the post program; anchor question + P/P/P unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -699,3 +768,14 @@ provenance:
     hidden-fibre null. HC-DU-011A becomes a lean post passport plus recurrence census, followed by
     held-out geometry. Forty-six new divergent paths are preserved. No lane, Purpose/Passion/
     Practice, claim bank, prediction seed, sibling verdict or public posture changed.
+  rev13_note: >-
+    2026-07-24 (Joe direct chat): launched one independent agent per Science Council persona after
+    explicitly admitting both primitive-time branches. Exact echo, reunion, boost, scheduler-
+    quotient and identifiability probes show that G-full plus distance-dependent latency cannot
+    produce unequal reunited records; local order plus spacetime-event density and gated global
+    clocks each realize conditional 1+1 kinematics without selecting their added laws. Every
+    finite local record DAG compiles into some unrestricted gated global schedule, so finite fit
+    does not identify L versus G. The exact Arrighi-Facchini-Forets Clock QW/QCA is the positive
+    globally stepped antecedent. Added CONCEPT-DU-002 and HC-DU-031A for its observer-record,
+    reunion and scheduler-tag semantic test, in parallel with HC-DU-011A. No lane, Purpose/
+    Passion/Practice, claim bank, prediction seed, sibling verdict or public posture changed.

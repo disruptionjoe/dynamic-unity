@@ -21,6 +21,16 @@ verification:
   - tests/artifacts/du_successor_wild_frontier_post_tail_probe_result.json
   - tests/du_successor_philosopher_post_rg_identifiability_probe.py
   - tests/artifacts/du_successor_philosopher_post_rg_identifiability_probe_result.json
+  - tests/du_record_rate_orthodox_clock_tournament.py
+  - tests/artifacts/du_record_rate_orthodox_clock_tournament_result.json
+  - tests/du_record_rate_heterodox_dual_clock_probe.py
+  - tests/artifacts/du_record_rate_heterodox_dual_clock_probe_result.json
+  - tests/du_record_rate_commercial_delay_reunion_probe.py
+  - tests/artifacts/du_record_rate_commercial_delay_reunion_probe_result.json
+  - tests/du_record_rate_wild_frontier_clock_quotient_probe.py
+  - tests/artifacts/du_record_rate_wild_frontier_clock_quotient_probe_result.json
+  - tests/du_record_rate_philosopher_clock_ontology_probe.py
+  - tests/artifacts/du_record_rate_philosopher_clock_ontology_probe_result.json
 ---
 
 # Cross-repo gap hardening and non-intuitive reuse map
@@ -281,6 +291,7 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-028` | P2 | hostile external review | `DU-H0`, `OPEN` | frozen packet to an independent cosmologist/mathematical physicist | `4.4` | TaF external-grade ceiling |
 | `HC-DU-029` | P2 | rotating counterfamily search | `DU-H0`, `OPEN` | held-out failure families, not more same-family examples | `4.4` | TI 12-class completion tournament |
 | `HC-DU-030` | P2 | durable failure/retirement map | `DU-H0`, `OPEN` | one ledger of dead, scoped-dead, class-exited and reopened branches | `A.1/A.3` | GU no-go map; CLTP `N/X/L/I` |
+| `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `G_FULL_DELAY_ONLY_KILLED__L_AND_G_GATED_CONDITIONAL__CLOCK_QCA_SEMANTICS_OPEN` | freeze a record/opportunity/copy passport, reproduce the exact `1+1` Clock-QW/QCA covariance, and test whether one frame-consistent durable-record functional survives carried-reflection, reunion, boost, and scheduler-tag controls against Branch L, `G-full`, and one fixed `G-gated` law | `1.5/2.2/2.4` | dual primitive-record-clock council; Knuth-Bahrenyi; Arrighi-Facchini-Forets; causal-set order+number |
 
 ## Existing models to reuse instead of rebuilding
 
@@ -537,7 +548,14 @@ work packages.
    built. Nonlocality escapes the local cone, but scale-free memory is an
    always-on/nonaccelerating tracker and the raw martingale fails early RMS,
    sign-persistence and de Sitter-stationarity controls.
-3. **Lean post passport plus generativity census (`HC-DU-011A`).** Reproduce
+3. **Record-clock semantic arena (`HC-DU-031A`).** Freeze the distinction
+   among global opportunity, durable physical record, gated miss, and copied
+   message. Reproduce the exact `1+1` Clock-QW/QCA covariance and extract a
+   carried-reflection/reunion record functional. Run it against Branch L,
+   `G-full`, one fixed `G-gated` law, scheduler-tag leakage, and held-out
+   boosts. Stop if the covariant circuit has no frame-consistent durable-record
+   semantics or if the gate is unconstrained compilation.
+4. **Lean post passport plus generativity census (`HC-DU-011A`).** Reproduce
    the known exact CSG post map in the physical projective sector
    `(T_1,T_2,...)`, retain the killed direct-count law as a covariance control,
    and distinguish eventual global-post conditioning from a filtration-safe
@@ -545,23 +563,23 @@ work packages.
    factorial and neighboring tail families without selecting histories.
    Generic unlabeled-causet enumeration is demand-driven infrastructure, not
    the research product.
-4. **Joint post-running-geometry assay (`HC-DU-011 + HC-DU-022`).** The
+5. **Joint post-running-geometry assay (`HC-DU-011 + HC-DU-022`).** The
    factorial family conditionally realizes `t_eff~sqrt(t/P)`, but positive
    tail counterfamilies give different exponents and the percolation fixed
    line gives no running. Test the intersection of post production,
    nontrivial running and held-out geometry. Only a survivor may attempt
    physical coupling records, cross-history intervention, response, or a
    hierarchy relative to one declared microscopic unit.
-5. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
+6. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
    executable counterexamples; extend them across algebraic, observer, durable-
    record and novelty counts with units and lossy/nonexistent maps.
-6. **Response/noise action and overlap spectrum (`HC-DU-003/004/005`).** Only
+7. **Response/noise action and overlap spectrum (`HC-DU-003/004/005`).** Only
    after a generated-scale background survives, construct the CTP/noise kernel,
    finite-k determinant and common-past `P_Lambda(k,z)`; do not select a good seed.
-7. **Independent reimplementation (`HC-DU-009`).** Give the exact CMF-01
+8. **Independent reimplementation (`HC-DU-009`).** Give the exact CMF-01
    equations and preregistered outcomes to a clean-room implementer and compare
    frozen JSON before credibility promotion.
-8. **Cross-repo hardening (`HC-DU-019/020/024`).** Keep TaF/TI/P2C/CL negative
+9. **Cross-repo hardening (`HC-DU-019/020/024`).** Keep TaF/TI/P2C/CL negative
    models as fixtures and run initial-surface/kernel sweeps in the same declared
    frame rather than rerunning their searches under new names.
 
@@ -694,12 +712,57 @@ line with no running. Physical records, response, units and cosmology remain
 downstream. See
 `science-council-five-persona-successor-wave-synthesis-2026-07-24.md`.
 
+## Dual primitive-record-clock correction to the frontier
+
+The next five-persona wave compared two conditional premises rather than
+forbidding either: universal local record cadence without synchronization, and
+one actual fundamental global update clock. The latter was split into
+`G-full`, `G-gated`, and hidden/gauge variants.
+
+The exact local kill is narrow:
+
+```text
+one equivalent physical record per observer per global K
+  + distance-dependent message latency
+  cannot produce unequal stored records at a shared reunion.
+```
+
+An A-only echo can be exactly identical in Branch L and `G-full`. A carried
+remote record, reunion, or moving closed-loop assay supplies the missing
+discriminator. Branch L also has a positive conditional `1+1` construction:
+causal order plus common spacetime-event density fixes the null-coordinate
+conformal factor and yields Lorentz boost/interval algebra. It does not yet
+identify local observer records with bulk event number.
+
+The global-clock class remains live in a more demanding form. A global tick
+may be an update opportunity while local path dynamics selects durable
+records. Fitted `1/gamma` admission plus matching matter response reproduces
+the finite target but does not derive the gate. More importantly, the exact
+`1+1` Clock QW/QCA of Arrighi, Facchini, and Forets is a known
+construction-specific positive antecedent. Its circuit covariance has not yet
+been shown to provide a representation-independent durable observer-record
+functional at reflection and reunion.
+
+Every finite causal-record DAG can also be compiled into some global
+topological schedule plus arbitrary gates. Finite fit therefore cannot identify
+Branch L against unrestricted `G-gated` or `G-hidden`; one fixed law and
+held-out observations are mandatory. An unseen scheduler is gauge only when
+the complete dynamics and observable algebra factor through the causal-order
+quotient.
+
+This creates `HC-DU-031`. Its bounded `031A` build is a record-clock passport
+plus exact Clock-QCA reproduction and observer-record extraction. It is now the
+cheapest immediate semantic kill and runs in parallel with, rather than
+replacing, the causal-post generativity/geometry program. No dimensional `c`,
+gravity, DU identity, generated scale, or `Lambda` follows. See
+`science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md`.
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
   preserved.
 - All 100 persona suggestions remain in their original stable-ID register.
-- Thirty hardening items now have stable IDs, priorities, owners, grades and
+- Thirty-one hardening items now have stable IDs, priorities, owners, grades and
   exact next discriminators.
 - Eighty-eight non-intuitive/class-relative findings are preserved above.
 - The COV-01 P0 background swing generated a frozen JSON receipt.
@@ -710,4 +773,8 @@ downstream. See
 - The successor five-persona wave reproduced the exact CSG post antecedent,
   narrowed the square root to the factorial tail class, and preserved forty-six
   new divergent paths without ranking or promotion.
+- The dual primitive-record-clock wave killed `G-full` delay-only differential
+  aging, conditionally constructed local order-plus-density and gated-global
+  alternatives, exposed finite L/G compilation underdetermination, and opened
+  one exact Clock-QCA observer-record semantic test.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

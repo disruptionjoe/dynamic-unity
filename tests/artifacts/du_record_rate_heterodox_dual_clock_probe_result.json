@@ -1,0 +1,186 @@
+{
+  "branch_G": {
+    "G_full": {
+      "delay_only_result": "propagation changes separated assignments but not reunited record totals; the modeled stationary offset is zero",
+      "record_rule": "exactly one record per observer per K",
+      "reunion": {
+        "A_records": 100,
+        "B_records": 100,
+        "target_B_proper_ticks": 80
+      },
+      "two_way_preferred_frame_null": {
+        "moving_global_and_local_ticks": "25",
+        "rest_global_and_local_ticks": "16"
+      }
+    },
+    "G_gated": {
+      "completion_sensitivity": {
+        "power_1_gate": 0.4,
+        "power_2_gate": 0.8,
+        "power_4_gate": 0.9658945611065672
+      },
+      "extra_clock_gate": "r(v)=sqrt(1-(v/c0)^2)",
+      "extra_material_response": "all comoving bound lengths contract by the same r(v)",
+      "gate_at_beta_3_over_5": "4/5",
+      "possible_native_story": "quadratic isotropic update budget r^2+(v/c0)^2=1; the budget is an added posit",
+      "reading": "the global foliation is hidden on these two finite fixtures only after adding a Lorentz-shaped gate and a universal material response; full operational hiding remains unestablished",
+      "reunion": {
+        "A_records": 100,
+        "B_records": 80
+      },
+      "two_way_controls": {
+        "contraction_only_global_ticks": "20",
+        "gate_and_contraction_local_ticks": "16",
+        "gate_only_local_ticks": "20",
+        "rest_local_ticks": "16"
+      }
+    },
+    "asynchronous_appearance": {
+      "message_dag_linear_extensions": 16,
+      "reading": "if K labels are not stored, local records plus messages do not identify the selected scheduler layering"
+    },
+    "global_tick": "K, one substrate update interval",
+    "positive_antecedent_scope": {
+      "Clock_QCA": "Arrighi, Facchini, and Forets construct a special 1+1 Clock QCA with exact discrete covariance under their circuit-encoding Lorentz transformations. This keeps a global-clock completion live but does not establish that its internal counters or keep-going signals equal an observer's irreversible physical record count",
+      "next_test": "extract an operational observer and reunion-record functional from the exact Clock-QCA construction, then test covariance of accumulated records rather than only of the circuit dynamics"
+    },
+    "signal_speed": "5 substrate cells per global tick"
+  },
+  "branch_L_order_density": {
+    "architecture": "asynchronous causal/message order plus a common spacetime-event density and a separate observer-chain calibration",
+    "boost_fixture": {
+      "a": "2",
+      "b": "1/2",
+      "beta": "3/5",
+      "gamma": "5/4",
+      "interval_after": "15",
+      "interval_before": "15"
+    },
+    "cadence_denominator": "one admitted local record transition; no global-time denominator",
+    "density_condition": "a*b=1",
+    "order_only_family": "u'=a*u, v'=b*v for arbitrary a,b>0",
+    "order_only_null": {
+      "a": "2",
+      "b": "1",
+      "interval_after": "30",
+      "interval_before": "15"
+    },
+    "regular_lattice_control": {
+      "boosted_points_remaining_integral": 15,
+      "reading": "the tested ordinary integer null-coordinate lattice is not boost invariant; determinant one protects homogeneous volume measure, not this fixed grid. This does not exclude qualified 1+1 Lorentzian lattices or specially constructed exactly covariant Clock-QCA circuit encodings",
+      "total_points": 25
+    },
+    "reunion_fixture": {
+      "stationary_records": 100,
+      "status": "conditional on event-density/manifoldlike echo geometry and observer-chain record calibration",
+      "traveler_records": 80
+    }
+  },
+  "checks": [
+    {
+      "name": "common echo defines radar time and distance but not an independent dimensional speed",
+      "pass": true
+    },
+    {
+      "name": "positive null-axis rescaling preserves the full finite causal order",
+      "pass": true
+    },
+    {
+      "name": "order-preserving maps retain a free conformal factor",
+      "pass": true
+    },
+    {
+      "name": "common spacetime-event density removes that factor for the boost fixture",
+      "pass": true
+    },
+    {
+      "name": "the order-plus-density map yields the beta=3/5 Lorentz coefficients",
+      "pass": true
+    },
+    {
+      "name": "the tested ordinary integer null-coordinate lattice leaks under the same boost",
+      "pass": true
+    },
+    {
+      "name": "forgetting scheduler layers leaves multiple asynchronous linear extensions",
+      "pass": true
+    },
+    {
+      "name": "G-full produces equal reunited record counts",
+      "pass": true
+    },
+    {
+      "name": "G-full therefore misses the target twin elapsed-time difference",
+      "pass": true
+    },
+    {
+      "name": "modeled propagation delay subtracts to zero stationary clock offset",
+      "pass": true
+    },
+    {
+      "name": "G-full two-way light time exposes absolute apparatus motion",
+      "pass": true
+    },
+    {
+      "name": "quadratic G-gating reproduces the finite twin record difference",
+      "pass": true
+    },
+    {
+      "name": "clock gating alone does not hide the preferred frame in two-way light time",
+      "pass": true
+    },
+    {
+      "name": "material contraction alone does not hide the preferred frame in recorded time",
+      "pass": true
+    },
+    {
+      "name": "G-gating plus universal material contraction hides the frame on the finite round-trip fixture",
+      "pass": true
+    },
+    {
+      "name": "Branch-L order-density interval reproduces the target reunion count conditionally",
+      "pass": true
+    },
+    {
+      "name": "the quadratic update budget is a selected completion, not forced by cadence alone",
+      "pass": true
+    }
+  ],
+  "checks_passed": 17,
+  "checks_total": 17,
+  "common_echo": {
+    "radar_distance_in_record_ticks": "7",
+    "radar_time": "17",
+    "reading": "The transcript defines radar coordinates and c=1 in those units.  It does not independently determine dimensional c, a simultaneity convention, or which clock architecture made it.",
+    "reflection_local_count": "17",
+    "return_local_count": "24",
+    "send_local_count": "10"
+  },
+  "forbidden_overclaims": [
+    "the common echo transcript predicts dimensional c",
+    "local observer-record density is automatically spacetime volume density",
+    "G-full message delay is relativistic differential aging",
+    "the quadratic gate or material contraction is selected by the global clock",
+    "two finite cancellations prove the global foliation is gauge",
+    "the tested ordinary integer lattice rules out qualified 1+1 Lorentzian lattices",
+    "the G-full counterexample rules out special exactly covariant Clock-QCA constructions",
+    "either branch derives gravity, cosmology, or Lambda"
+  ],
+  "probe": "du_record_rate_heterodox_dual_clock_probe",
+  "question": "Does universal record cadence plus causal message delay suffice for Lorentzian kinematics and reunion aging, and are Branch L and Branch G-full equally complete without added structure?",
+  "typed_result": {
+    "conditional_construction": "Branch L order+spacetime density and Branch G-gated clock+material response each realize the finite target",
+    "dimensional_calibration": "OPEN beyond declared cell/tick units",
+    "dynamical_selection": "OPEN in both branches",
+    "kinematic_recovery": "exact 1+1 boost/interval algebra for L; twin and two-way fixtures for the declared G-gated completion",
+    "operational_definition": "radar time/distance and c=1 in record-tick units",
+    "physical_prediction": "NONE"
+  },
+  "verdict": "CADENCE-PLUS-DELAY-ALONE-OVERTURNED / L-ORDER-PLUS-SPACETIME-DENSITY-CONDITIONALLY-RECOVERS-1P1-KINEMATICS / G-FULL-FAILS-REUNION-AND-PREFERRED-FRAME-NULLS / G-GATED-FINITE-RECOVERY-REQUIRES-EXPOSED-CLOCK-AND-MATERIAL-DYNAMICS",
+  "warrants": [
+    "DERIVED",
+    "CONDITIONALLY_ENTAILED",
+    "CONSTRUCTIVELY_REALIZED",
+    "STRUCTURAL_ANALOGY"
+  ]
+}
