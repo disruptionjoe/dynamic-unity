@@ -1,0 +1,857 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Defines the exact binomial conditioning map.",
+        "statement": "The order-first comparator is a classical sequential growth model admitting a post or break.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Supplies the known basin trajectory used for the asymptotic transitive-percolation comparison.",
+        "statement": "The bare couplings are t_n=t^n/n!.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Makes t_eff=sqrt(t/N) applicable.",
+        "statement": "A post/break has N historical elements in its past and the tested precursors lie in the stated asymptotic regime.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Tests whether a raw/physical Fisher fraction is selected by the physical order law alone.",
+        "statement": "Raw-link histories may be refined by parameter-dependent latent fibres invisible to physical down-set outcomes.",
+        "status": "CONDITIONAL_POSIT"
+      }
+    ],
+    "candidate_id": "DU-SUCCESSOR-ORTHODOX-POST-RG-IDENTIFIABILITY",
+    "comparators": [
+      "exact post map versus direct birth-cardinality feedback",
+      "factorial post couplings versus transitive-percolation asymptote",
+      "safe precursor window versus off-regime control",
+      "fixed physical down-set law across alternative hidden fibres"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "CSG-POST-RENORMALIZATION-ANTECEDENT-AND-FISHER-FIBRE-NULL",
+      "invariant": "A live DU mechanism must generate effective influence and scales through admissible dynamics rather than target fitting."
+    },
+    "equations": [
+      "(M^N t)_n=sum_{k=0}^N binom(N,k)t_{n+k}, n>=1",
+      "M^a M^b=M^(a+b)",
+      "M^N(t^n)=(1+t)^N t^n",
+      "t_n=t^n/n! => t_eff~sqrt(t/N) in the stated regime",
+      "F_raw=F_downset+E[F_raw|downset]",
+      "F_raw(k)=(n+k)p(1-p)",
+      "F_downset(k)=F_downset(0)"
+    ],
+    "falsifiers": [
+      "the exact post maps fail the binomial semigroup identity",
+      "transitive-percolation couplings fail projective fixed-point closure",
+      "factorial post couplings do not approach sqrt(t/N)",
+      "the approximation remains accurate when its regime is deliberately violated",
+      "latent-fibre refinement changes a physical down-set probability",
+      "the raw-retention ratio is invariant across observationally equivalent fibres"
+    ],
+    "free_choices": [
+      {
+        "choice": "Use finite N in {100,400,1600,6400} and t in {1/4,1,4}.",
+        "id": "C1",
+        "sensitivity_test": "Require monotonic convergence for every t and report an off-regime control.",
+        "why_not_forced": "These are numerical audit fixtures."
+      },
+      {
+        "choice": "Test precursors through varpi=4 in the safe window.",
+        "id": "C2",
+        "sensitivity_test": "Report m^2/(Nt) and varpi/N rather than hiding the regime.",
+        "why_not_forced": "The asymptotic theorem is broader than this grid."
+      },
+      {
+        "choice": "Use independent Bernoulli(p) latent variables as the hidden-fibre refinement.",
+        "id": "C3",
+        "sensitivity_test": "Verify by enumeration that the physical law and physical Fisher are unchanged for k=1..4, then extend analytically.",
+        "why_not_forced": "Many unobserved refinements are possible."
+      }
+    ],
+    "null_models": [
+      "transitive percolation as an exact projective fixed-point family",
+      "global coupling rescaling as a projective redundancy",
+      "parameter-dependent latent variables forgotten by the physical map"
+    ],
+    "observables": [
+      "projectively normalized post couplings",
+      "normalized CSG precursor weights lambda(varpi,m)",
+      "inferred t_eff and historical hierarchy",
+      "physical down-set probabilities",
+      "physical and raw Fisher information",
+      "raw-retention ratio under hidden-fibre refinement"
+    ],
+    "question": "Does the first wave understate an exact covariant mechanism for history-to-coupling transduction, and does it overstate the order-level identifiability of the raw/physical Fisher ratio?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "the elementary post map is M(t)_n=t_n+t_(n+1)",
+          "pass": true
+        },
+        {
+          "name": "post maps compose as the exact binomial semigroup M^a M^b=M^(a+b)",
+          "pass": true
+        },
+        {
+          "name": "transitive-percolation couplings are an exact projective fixed-point family",
+          "pass": true
+        },
+        {
+          "name": "global coupling normalization is projectively irrelevant",
+          "pass": true
+        },
+        {
+          "name": "factorial post couplings approach sqrt(t/N) for every tested bare t",
+          "pass": true
+        },
+        {
+          "name": "the largest-N safe window is quantitatively close to transitive percolation",
+          "pass": true
+        },
+        {
+          "name": "the inferred historical hierarchy has the asymptotic square-root slope",
+          "pass": true
+        },
+        {
+          "name": "the off-regime control visibly rejects asymptotic equivalence",
+          "pass": true
+        },
+        {
+          "name": "enumerated hidden-fibre refinements leave every physical probability unchanged",
+          "pass": true
+        },
+        {
+          "name": "enumerated hidden-fibre refinements leave physical down-set Fisher unchanged",
+          "pass": true
+        },
+        {
+          "name": "the retained Fisher ratio is coordinate invariant for a fixed raw model",
+          "pass": true
+        },
+        {
+          "name": "the same physical order law admits arbitrarily smaller raw-retention ratios",
+          "pass": true
+        },
+        {
+          "name": "no geometry, unit, Lambda, H0, cosmological age, or fitted hierarchy enters",
+          "pass": true
+        }
+      ],
+      "claim": "An exact covariant CSG conditioning map supplies a real history-to-coupling antecedent and a conditional factorial family supplies an asymptotic count hierarchy, while the raw/physical Fisher retention fraction is not identified by the physical order-transition law.",
+      "grade": "STANDARD-MECHANISM-REPRODUCED / CONDITIONAL-HIERARCHY / OBSERVABLE-RATIO-NOT-IDENTIFIED",
+      "remaining_uncertainty": "No DU law selects CSG, the factorial bare family, posts, their sizes, geometry, response/noise completion, units, or a cosmological observable. Physical down-set Fisher remains well-defined, but its role in DU is unselected."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not describe the post map as derived from Dynamic Unity.",
+      "Do not infer repeated posts, a selected bare family, or a selected N.",
+      "Do not call 1/t_eff a spatial volume without an independently valid estimator.",
+      "Do not infer manifoldlike dimension from maximum-interval fits.",
+      "Do not treat F_downset/F_raw as order-identifiable without fixing the raw fibre.",
+      "Do not infer units, Lambda, H0, cosmological age, a banked claim, or a prediction."
+    ],
+    "track": "Science Council successor wave / exact CSG antecedent and information-bottleneck null",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 4,
+    "candidate_id": "DU-SUCCESSOR-ORTHODOX-POST-RG-IDENTIFIABILITY",
+    "checks_passed": 13,
+    "checks_total": 13,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 6,
+    "free_choice_count": 3,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 3,
+    "observable_count": 6,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "results": {
+    "checks": [
+      {
+        "name": "the elementary post map is M(t)_n=t_n+t_(n+1)",
+        "pass": true
+      },
+      {
+        "name": "post maps compose as the exact binomial semigroup M^a M^b=M^(a+b)",
+        "pass": true
+      },
+      {
+        "name": "transitive-percolation couplings are an exact projective fixed-point family",
+        "pass": true
+      },
+      {
+        "name": "global coupling normalization is projectively irrelevant",
+        "pass": true
+      },
+      {
+        "name": "factorial post couplings approach sqrt(t/N) for every tested bare t",
+        "pass": true
+      },
+      {
+        "name": "the largest-N safe window is quantitatively close to transitive percolation",
+        "pass": true
+      },
+      {
+        "name": "the inferred historical hierarchy has the asymptotic square-root slope",
+        "pass": true
+      },
+      {
+        "name": "the off-regime control visibly rejects asymptotic equivalence",
+        "pass": true
+      },
+      {
+        "name": "enumerated hidden-fibre refinements leave every physical probability unchanged",
+        "pass": true
+      },
+      {
+        "name": "enumerated hidden-fibre refinements leave physical down-set Fisher unchanged",
+        "pass": true
+      },
+      {
+        "name": "the retained Fisher ratio is coordinate invariant for a fixed raw model",
+        "pass": true
+      },
+      {
+        "name": "the same physical order law admits arbitrarily smaller raw-retention ratios",
+        "pass": true
+      },
+      {
+        "name": "no geometry, unit, Lambda, H0, cosmological age, or fitted hierarchy enters",
+        "pass": true
+      }
+    ],
+    "checks_passed": 13,
+    "checks_total": 13,
+    "contested_finding": "The first-wave long-term post-renormalization path is merely an unbuilt escape from the killed p(N) feedback, while the raw/physical Fisher bottleneck is an order-level observable.",
+    "exact_post_map": {
+      "elementary_map_exact": true,
+      "map": "(M^N t)_n=sum_{k=0}^N binom(N,k)t_{n+k}, n>=1",
+      "normalization": "divide physical couplings by transformed t1",
+      "projective_rescaling_invariant_exact": true,
+      "semigroup_errors": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "semigroup_exact": true,
+      "t0_scope": "t0 is deliberately excluded: after a post/break it is special and does not enter the projective physical couplings tested here.",
+      "transitive_percolation_parameter": "2/5",
+      "transitive_percolation_projective_fixed_point_exact": true
+    },
+    "factorial_asymptotic": {
+      "asymptotic_target": "projective t_n proportional to t_eff^n",
+      "bare_family": "t_n=t^n/n!",
+      "history_hierarchy": {
+        "asymptotic_target_slope": 0.5,
+        "inferred_loglog_slope_vs_N": 0.4919114393217453,
+        "reading": "The scale is conditional on the selected bare family and a post/break with N historical elements; it is not a target inserted into a within-era birth-count update.",
+        "rows": [
+          {
+            "asymptotic_hierarchy_sqrt_N_over_t": 10.0,
+            "inferred_hierarchy": 10.38535984926087,
+            "inferred_t_eff": 0.09628939338786323,
+            "past_size_N": 100
+          },
+          {
+            "asymptotic_hierarchy_sqrt_N_over_t": 20.0,
+            "inferred_hierarchy": 20.317526659180558,
+            "inferred_t_eff": 0.04921858928867928,
+            "past_size_N": 400
+          },
+          {
+            "asymptotic_hierarchy_sqrt_N_over_t": 40.0,
+            "inferred_hierarchy": 40.28368994989003,
+            "inferred_t_eff": 0.024823942425431407,
+            "past_size_N": 1600
+          },
+          {
+            "asymptotic_hierarchy_sqrt_N_over_t": 80.0,
+            "inferred_hierarchy": 80.26682233416008,
+            "inferred_t_eff": 0.012458447599144813,
+            "past_size_N": 6400
+          }
+        ]
+      },
+      "largest_N_maximum_inferred_parameter_relative_error": 0.015790288338402986,
+      "largest_N_maximum_lambda_relative_error": 0.08212281883893047,
+      "largest_N_rows": [
+        {
+          "bare_parameter_t": 0.25,
+          "effective_parameter_sqrt_t_over_N": 0.00625,
+          "history_hierarchy_1_over_t_eff": 160.0,
+          "inferred_parameter_relative_error": 0.015790288338402986,
+          "inferred_parameter_t2_over_t1": 0.006151310697884982,
+          "maximum_coupling_relative_error_n_1_through_4": 0.08212281883893047,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.08212281883893047,
+          "past_size_N": 6400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.01,
+            "maximum_varpi_over_N": 0.000625
+          }
+        },
+        {
+          "bare_parameter_t": 1.0,
+          "effective_parameter_sqrt_t_over_N": 0.0125,
+          "history_hierarchy_1_over_t_eff": 80.0,
+          "inferred_parameter_relative_error": 0.0033241920684150272,
+          "inferred_parameter_t2_over_t1": 0.012458447599144813,
+          "maximum_coupling_relative_error_n_1_through_4": 0.028608283370948832,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.028608283370948832,
+          "past_size_N": 6400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.0025,
+            "maximum_varpi_over_N": 0.000625
+          }
+        },
+        {
+          "bare_parameter_t": 4.0,
+          "effective_parameter_sqrt_t_over_N": 0.025,
+          "history_hierarchy_1_over_t_eff": 40.0,
+          "inferred_parameter_relative_error": 0.007657274240250728,
+          "inferred_parameter_t2_over_t1": 0.02519143185600627,
+          "maximum_coupling_relative_error_n_1_through_4": 0.013349688710282767,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.013349688710282767,
+          "past_size_N": 6400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.000625,
+            "maximum_varpi_over_N": 0.000625
+          }
+        }
+      ],
+      "off_regime_control": {
+        "asymptotic_transitive_percolation_lambda": 4.525925556817612e-08,
+        "bare_parameter_t": 1.0,
+        "exact_normalized_lambda": 1.0002942543554078e-09,
+        "m_squared_over_Nt": 1.0,
+        "maximal_elements_m": 10,
+        "past_size_N": 100,
+        "precursor_size_varpi": 50,
+        "reading": "The transitive-percolation approximation is not promoted outside its stated asymptotic regime.",
+        "relative_error": 0.9778985703189789,
+        "varpi_over_N": 0.5
+      },
+      "rows": [
+        {
+          "bare_parameter_t": 0.25,
+          "effective_parameter_sqrt_t_over_N": 0.05,
+          "history_hierarchy_1_over_t_eff": 20.0,
+          "inferred_parameter_relative_error": 0.13291182972453325,
+          "inferred_parameter_t2_over_t1": 0.04335440851377334,
+          "maximum_coupling_relative_error_n_1_through_4": 0.5238841596697557,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.5238841596697557,
+          "past_size_N": 100,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.64,
+            "maximum_varpi_over_N": 0.04
+          }
+        },
+        {
+          "bare_parameter_t": 0.25,
+          "effective_parameter_sqrt_t_over_N": 0.025,
+          "history_hierarchy_1_over_t_eff": 40.0,
+          "inferred_parameter_relative_error": 0.06486584929164305,
+          "inferred_parameter_t2_over_t1": 0.023378353767708925,
+          "maximum_coupling_relative_error_n_1_through_4": 0.3001488953231855,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.3001488953231855,
+          "past_size_N": 400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.16,
+            "maximum_varpi_over_N": 0.01
+          }
+        },
+        {
+          "bare_parameter_t": 0.25,
+          "effective_parameter_sqrt_t_over_N": 0.0125,
+          "history_hierarchy_1_over_t_eff": 80.0,
+          "inferred_parameter_relative_error": 0.03188829162140014,
+          "inferred_parameter_t2_over_t1": 0.012101396354732499,
+          "maximum_coupling_relative_error_n_1_through_4": 0.1596061506139934,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.1596061506139934,
+          "past_size_N": 1600,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.04,
+            "maximum_varpi_over_N": 0.0025
+          }
+        },
+        {
+          "bare_parameter_t": 0.25,
+          "effective_parameter_sqrt_t_over_N": 0.00625,
+          "history_hierarchy_1_over_t_eff": 160.0,
+          "inferred_parameter_relative_error": 0.015790288338402986,
+          "inferred_parameter_t2_over_t1": 0.006151310697884982,
+          "maximum_coupling_relative_error_n_1_through_4": 0.08212281883893047,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.08212281883893047,
+          "past_size_N": 6400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.01,
+            "maximum_varpi_over_N": 0.000625
+          }
+        },
+        {
+          "bare_parameter_t": 1.0,
+          "effective_parameter_sqrt_t_over_N": 0.1,
+          "history_hierarchy_1_over_t_eff": 10.0,
+          "inferred_parameter_relative_error": 0.03710606612136777,
+          "inferred_parameter_t2_over_t1": 0.09628939338786323,
+          "maximum_coupling_relative_error_n_1_through_4": 0.2428690902048514,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.2428690902048514,
+          "past_size_N": 100,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.16,
+            "maximum_varpi_over_N": 0.04
+          }
+        },
+        {
+          "bare_parameter_t": 1.0,
+          "effective_parameter_sqrt_t_over_N": 0.05,
+          "history_hierarchy_1_over_t_eff": 20.0,
+          "inferred_parameter_relative_error": 0.015628214226414416,
+          "inferred_parameter_t2_over_t1": 0.04921858928867928,
+          "maximum_coupling_relative_error_n_1_through_4": 0.11881047284401111,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.11881047284401111,
+          "past_size_N": 400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.04,
+            "maximum_varpi_over_N": 0.01
+          }
+        },
+        {
+          "bare_parameter_t": 1.0,
+          "effective_parameter_sqrt_t_over_N": 0.025,
+          "history_hierarchy_1_over_t_eff": 40.0,
+          "inferred_parameter_relative_error": 0.0070423029827437755,
+          "inferred_parameter_t2_over_t1": 0.024823942425431407,
+          "maximum_coupling_relative_error_n_1_through_4": 0.05806469247175552,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.05806469247175552,
+          "past_size_N": 1600,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.01,
+            "maximum_varpi_over_N": 0.0025
+          }
+        },
+        {
+          "bare_parameter_t": 1.0,
+          "effective_parameter_sqrt_t_over_N": 0.0125,
+          "history_hierarchy_1_over_t_eff": 80.0,
+          "inferred_parameter_relative_error": 0.0033241920684150272,
+          "inferred_parameter_t2_over_t1": 0.012458447599144813,
+          "maximum_coupling_relative_error_n_1_through_4": 0.028608283370948832,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.028608283370948832,
+          "past_size_N": 6400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.0025,
+            "maximum_varpi_over_N": 0.000625
+          }
+        },
+        {
+          "bare_parameter_t": 4.0,
+          "effective_parameter_sqrt_t_over_N": 0.2,
+          "history_hierarchy_1_over_t_eff": 5.0,
+          "inferred_parameter_relative_error": 0.05153675519032036,
+          "inferred_parameter_t2_over_t1": 0.21030735103806408,
+          "maximum_coupling_relative_error_n_1_through_4": 0.07296473351362345,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.07296473351362345,
+          "past_size_N": 100,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.04,
+            "maximum_varpi_over_N": 0.04
+          }
+        },
+        {
+          "bare_parameter_t": 4.0,
+          "effective_parameter_sqrt_t_over_N": 0.1,
+          "history_hierarchy_1_over_t_eff": 10.0,
+          "inferred_parameter_relative_error": 0.028647385568885825,
+          "inferred_parameter_t2_over_t1": 0.10286473855688859,
+          "maximum_coupling_relative_error_n_1_through_4": 0.044294573070891574,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.044294573070891574,
+          "past_size_N": 400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.01,
+            "maximum_varpi_over_N": 0.01
+          }
+        },
+        {
+          "bare_parameter_t": 4.0,
+          "effective_parameter_sqrt_t_over_N": 0.05,
+          "history_hierarchy_1_over_t_eff": 20.0,
+          "inferred_parameter_relative_error": 0.014993849438424411,
+          "inferred_parameter_t2_over_t1": 0.05074969247192122,
+          "maximum_coupling_relative_error_n_1_through_4": 0.025223987800002595,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.025223987800002595,
+          "past_size_N": 1600,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.0025,
+            "maximum_varpi_over_N": 0.0025
+          }
+        },
+        {
+          "bare_parameter_t": 4.0,
+          "effective_parameter_sqrt_t_over_N": 0.025,
+          "history_hierarchy_1_over_t_eff": 40.0,
+          "inferred_parameter_relative_error": 0.007657274240250728,
+          "inferred_parameter_t2_over_t1": 0.02519143185600627,
+          "maximum_coupling_relative_error_n_1_through_4": 0.013349688710282767,
+          "maximum_lambda_relative_error_varpi_1_through_4": 0.013349688710282767,
+          "past_size_N": 6400,
+          "regime_indicators": {
+            "maximum_m_squared_over_Nt": 0.000625,
+            "maximum_varpi_over_N": 0.000625
+          }
+        }
+      ],
+      "stated_regime": "m^2 << N t and varpi << N",
+      "t_eff": "sqrt(t/N)"
+    },
+    "fisher_fibre_null": {
+      "analytic_rows": [
+        {
+          "latent_fibre_count": 0,
+          "physical_downset_fisher": 0.5793500750999999,
+          "ratio_relative_to_no_latent_fibre": 1.0,
+          "raw_fisher": 0.8555999999999999,
+          "retained_ratio": 0.67712725
+        },
+        {
+          "latent_fibre_count": 1,
+          "physical_downset_fisher": 0.5793500750999999,
+          "ratio_relative_to_no_latent_fibre": 0.8,
+          "raw_fisher": 1.0695,
+          "retained_ratio": 0.5417018
+        },
+        {
+          "latent_fibre_count": 2,
+          "physical_downset_fisher": 0.5793500750999999,
+          "ratio_relative_to_no_latent_fibre": 0.6666666666666666,
+          "raw_fisher": 1.2833999999999999,
+          "retained_ratio": 0.4514181666666666
+        },
+        {
+          "latent_fibre_count": 4,
+          "physical_downset_fisher": 0.5793500750999999,
+          "ratio_relative_to_no_latent_fibre": 0.5,
+          "raw_fisher": 1.7111999999999998,
+          "retained_ratio": 0.338563625
+        },
+        {
+          "latent_fibre_count": 12,
+          "physical_downset_fisher": 0.5793500750999999,
+          "ratio_relative_to_no_latent_fibre": 0.25,
+          "raw_fisher": 3.4223999999999997,
+          "retained_ratio": 0.1692818125
+        },
+        {
+          "latent_fibre_count": 36,
+          "physical_downset_fisher": 0.5793500750999999,
+          "ratio_relative_to_no_latent_fibre": 0.1,
+          "raw_fisher": 8.556,
+          "retained_ratio": 0.067712725
+        },
+        {
+          "latent_fibre_count": 396,
+          "physical_downset_fisher": 0.5793500750999999,
+          "ratio_relative_to_no_latent_fibre": 0.01,
+          "raw_fisher": 85.55999999999999,
+          "retained_ratio": 0.0067712725
+        }
+      ],
+      "coordinate_check": {
+        "absolute_error": 0.0,
+        "new_coordinate": "h=sinh(g)",
+        "reading": "For a fixed raw model the ratio is coordinate invariant. The null is hidden-fibre non-identifiability, not a mere parameter-coordinate artifact.",
+        "retained_ratio_g": 0.67712725,
+        "retained_ratio_h": 0.67712725
+      },
+      "enumerated_rows_k_0_through_4": [
+        {
+          "conditional_fibre_fisher": 0.2762499249,
+          "latent_fibre_count": 0,
+          "outcomes": {
+            "0": {
+              "derivative_g": -0.2810723003999999,
+              "fisher_contribution": 0.34852965249599993,
+              "probability": 0.22667120999999993,
+              "score_g": -1.24
+            },
+            "1": {
+              "derivative_g": -0.024441069599999993,
+              "fisher_contribution": 0.005865856703999997,
+              "probability": 0.10183778999999998,
+              "score_g": -0.23999999999999996
+            },
+            "15": {
+              "derivative_g": 0.21389999999999998,
+              "fisher_contribution": 0.14759099999999997,
+              "probability": 0.31,
+              "score_g": 0.69
+            },
+            "3": {
+              "derivative_g": 0.010331370000000003,
+              "fisher_contribution": 0.0007231959000000006,
+              "probability": 0.14759099999999997,
+              "score_g": 0.07000000000000003
+            },
+            "5": {
+              "derivative_g": 0.010331370000000003,
+              "fisher_contribution": 0.0007231959000000006,
+              "probability": 0.14759099999999997,
+              "score_g": 0.07000000000000003
+            },
+            "7": {
+              "derivative_g": 0.07095062999999999,
+              "fisher_contribution": 0.07591717409999997,
+              "probability": 0.06630899999999999,
+              "score_g": 1.0699999999999998
+            }
+          },
+          "physical_downset_fisher": 0.5793500750999999,
+          "probability_sum": 0.9999999999999999,
+          "raw_fisher": 0.8555999999999999,
+          "retained_ratio": 0.67712725
+        },
+        {
+          "conditional_fibre_fisher": 0.4901499249000001,
+          "latent_fibre_count": 1,
+          "outcomes": {
+            "0": {
+              "derivative_g": -0.2810723003999999,
+              "fisher_contribution": 0.348529652496,
+              "probability": 0.2266712099999999,
+              "score_g": -1.2400000000000002
+            },
+            "1": {
+              "derivative_g": -0.024441069599999997,
+              "fisher_contribution": 0.005865856704000001,
+              "probability": 0.10183778999999998,
+              "score_g": -0.24000000000000002
+            },
+            "15": {
+              "derivative_g": 0.21389999999999992,
+              "fisher_contribution": 0.1475909999999999,
+              "probability": 0.30999999999999994,
+              "score_g": 0.6899999999999998
+            },
+            "3": {
+              "derivative_g": 0.010331369999999994,
+              "fisher_contribution": 0.0007231958999999995,
+              "probability": 0.14759099999999997,
+              "score_g": 0.06999999999999998
+            },
+            "5": {
+              "derivative_g": 0.010331369999999994,
+              "fisher_contribution": 0.0007231958999999995,
+              "probability": 0.14759099999999997,
+              "score_g": 0.06999999999999998
+            },
+            "7": {
+              "derivative_g": 0.07095062999999997,
+              "fisher_contribution": 0.07591717409999993,
+              "probability": 0.06630899999999999,
+              "score_g": 1.0699999999999996
+            }
+          },
+          "physical_downset_fisher": 0.5793500750999998,
+          "probability_sum": 0.9999999999999998,
+          "raw_fisher": 1.0695,
+          "retained_ratio": 0.5417017999999999
+        },
+        {
+          "conditional_fibre_fisher": 0.7040499249,
+          "latent_fibre_count": 2,
+          "outcomes": {
+            "0": {
+              "derivative_g": -0.2810723003999999,
+              "fisher_contribution": 0.34852965249599993,
+              "probability": 0.22667120999999993,
+              "score_g": -1.24
+            },
+            "1": {
+              "derivative_g": -0.024441069599999983,
+              "fisher_contribution": 0.005865856703999993,
+              "probability": 0.10183778999999998,
+              "score_g": -0.23999999999999988
+            },
+            "15": {
+              "derivative_g": 0.21389999999999995,
+              "fisher_contribution": 0.147591,
+              "probability": 0.30999999999999983,
+              "score_g": 0.6900000000000002
+            },
+            "3": {
+              "derivative_g": 0.010331370000000015,
+              "fisher_contribution": 0.0007231959000000023,
+              "probability": 0.14759099999999997,
+              "score_g": 0.07000000000000012
+            },
+            "5": {
+              "derivative_g": 0.010331370000000015,
+              "fisher_contribution": 0.0007231959000000023,
+              "probability": 0.14759099999999997,
+              "score_g": 0.07000000000000012
+            },
+            "7": {
+              "derivative_g": 0.07095062999999999,
+              "fisher_contribution": 0.07591717409999998,
+              "probability": 0.06630899999999998,
+              "score_g": 1.07
+            }
+          },
+          "physical_downset_fisher": 0.5793500750999999,
+          "probability_sum": 0.9999999999999997,
+          "raw_fisher": 1.2833999999999999,
+          "retained_ratio": 0.4514181666666666
+        },
+        {
+          "conditional_fibre_fisher": 0.9179499249000005,
+          "latent_fibre_count": 3,
+          "outcomes": {
+            "0": {
+              "derivative_g": -0.2810723003999998,
+              "fisher_contribution": 0.3485296524959997,
+              "probability": 0.2266712099999999,
+              "score_g": -1.2399999999999998
+            },
+            "1": {
+              "derivative_g": -0.024441069599999973,
+              "fisher_contribution": 0.005865856703999988,
+              "probability": 0.10183778999999998,
+              "score_g": -0.23999999999999977
+            },
+            "15": {
+              "derivative_g": 0.21389999999999984,
+              "fisher_contribution": 0.14759099999999964,
+              "probability": 0.3100000000000003,
+              "score_g": 0.6899999999999988
+            },
+            "3": {
+              "derivative_g": 0.010331370000000017,
+              "fisher_contribution": 0.0007231959000000027,
+              "probability": 0.14759099999999994,
+              "score_g": 0.07000000000000015
+            },
+            "5": {
+              "derivative_g": 0.010331370000000017,
+              "fisher_contribution": 0.0007231959000000027,
+              "probability": 0.14759099999999994,
+              "score_g": 0.07000000000000015
+            },
+            "7": {
+              "derivative_g": 0.07095062999999999,
+              "fisher_contribution": 0.07591717409999997,
+              "probability": 0.06630899999999999,
+              "score_g": 1.0699999999999998
+            }
+          },
+          "physical_downset_fisher": 0.5793500750999994,
+          "probability_sum": 1.0,
+          "raw_fisher": 1.4972999999999999,
+          "retained_ratio": 0.38692985714285677
+        },
+        {
+          "conditional_fibre_fisher": 1.131849924900001,
+          "latent_fibre_count": 4,
+          "outcomes": {
+            "0": {
+              "derivative_g": -0.2810723003999998,
+              "fisher_contribution": 0.34852965249599965,
+              "probability": 0.22667120999999987,
+              "score_g": -1.2399999999999998
+            },
+            "1": {
+              "derivative_g": -0.024441069600000007,
+              "fisher_contribution": 0.005865856704000004,
+              "probability": 0.10183778999999998,
+              "score_g": -0.2400000000000001
+            },
+            "15": {
+              "derivative_g": 0.21389999999999965,
+              "fisher_contribution": 0.1475909999999994,
+              "probability": 0.3100000000000003,
+              "score_g": 0.6899999999999983
+            },
+            "3": {
+              "derivative_g": 0.01033136999999998,
+              "fisher_contribution": 0.0007231958999999975,
+              "probability": 0.14759099999999994,
+              "score_g": 0.0699999999999999
+            },
+            "5": {
+              "derivative_g": 0.01033136999999998,
+              "fisher_contribution": 0.0007231958999999975,
+              "probability": 0.14759099999999994,
+              "score_g": 0.0699999999999999
+            },
+            "7": {
+              "derivative_g": 0.07095062999999997,
+              "fisher_contribution": 0.07591717409999993,
+              "probability": 0.06630899999999999,
+              "score_g": 1.0699999999999996
+            }
+          },
+          "physical_downset_fisher": 0.5793500750999989,
+          "probability_sum": 1.0,
+          "raw_fisher": 1.7111999999999998,
+          "retained_ratio": 0.3385636249999994
+        }
+      ],
+      "fisher_chain_rule": "F_raw=F_downset+E_downset[F_raw_given_downset]",
+      "identifiability_result": "The physical order-transition law identifies F_downset but does not identify F_downset/F_raw without a fixed raw microhistory ontology. The ratio approaches zero as k grows.",
+      "latent_refinement": "Append k independent Bernoulli(p) variables to the hidden fibre and forget all of them in the physical down-set map.",
+      "maximum_enumerated_physical_fisher_change": 9.992007221626409e-16,
+      "maximum_enumerated_physical_probability_change": 2.7755575615628914e-16,
+      "parameter": {
+        "g": "log[p/(1-p)]",
+        "p": 0.31,
+        "raw_single_bernoulli_fisher_g": 0.21389999999999998
+      },
+      "physical_state": "four-event diamond"
+    },
+    "probe": "du_successor_orthodox_post_rg_identifiability_probe",
+    "scope": {
+      "earned": [
+        "exact rational reproduction of the CSG post-map semigroup",
+        "exact projective fixed-point closure of transitive percolation",
+        "finite convergence of the factorial family to sqrt(t/N)",
+        "an explicit off-regime failure control",
+        "an exact hidden-fibre identifiability null for Fisher retention"
+      ],
+      "not_earned": [
+        "a Dynamic Unity derivation of CSG or of the bare coupling family",
+        "generation or recurrence of posts",
+        "selection of the historical count N",
+        "manifoldlike geometry, dimension, or spatial volume",
+        "a unit-bearing response or cosmological observable",
+        "a Lambda value, H0 value, prediction, or banked claim"
+      ]
+    },
+    "verdict": "NARROW/OVERTURN. The DU bridge remains unbuilt, but its CSG antecedent is not: post conditioning gives an exact covariant binomial coupling map, and a selected factorial bare family conditionally produces t_eff~sqrt(t/N). Conversely, the physical down-set Fisher is structural for a fixed physical law, but its fraction of raw Fisher is hidden-fibre dependent and not an order-only observable."
+  }
+}

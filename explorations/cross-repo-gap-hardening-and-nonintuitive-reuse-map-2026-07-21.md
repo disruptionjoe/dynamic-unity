@@ -11,6 +11,16 @@ public_posture_change: none
 verification:
   - tests/du_lambda_N_covariant_acceleration_audit.py
   - tests/artifacts/du_lambda_N_covariant_acceleration_audit_result.json
+  - tests/du_successor_orthodox_post_rg_identifiability_probe.py
+  - tests/artifacts/du_successor_orthodox_post_rg_identifiability_probe_result.json
+  - tests/du_successor_heterodox_post_rg_half_power_probe.py
+  - tests/artifacts/du_successor_heterodox_post_rg_half_power_probe_result.json
+  - tests/du_successor_commercial_post_rg_decision_probe.py
+  - tests/artifacts/du_successor_commercial_post_rg_decision_probe_result.json
+  - tests/du_successor_wild_frontier_post_tail_probe.py
+  - tests/artifacts/du_successor_wild_frontier_post_tail_probe_result.json
+  - tests/du_successor_philosopher_post_rg_identifiability_probe.py
+  - tests/artifacts/du_successor_philosopher_post_rg_identifiability_probe_result.json
 ---
 
 # Cross-repo gap hardening and non-intuitive reuse map
@@ -251,7 +261,7 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-008` | P0 | evidence-dependency and common-source audit | `DU-H0`, `OPEN` | DAG every support edge; collapse common ancestors before counting consilience | `4.4/A.1` | TaF/P2C provenance rules |
 | `HC-DU-009` | P0 | clean-checkout reproducibility | `DU-H2`, `OPEN` | second implementation from equations only; compare frozen JSON | `4.4/A.2` | CL blinding discipline |
 | `HC-DU-010` | P0 | minimum theory passport and low-energy recovery | `DU-H0`, `OPEN` | state space, action, symmetries, constraints, observables, quantization, GR/SM limits | `1.5` | P2C eight-gate/source-action rubrics |
-| `HC-DU-011` | P0 | causal-set classical growth law | `DU-H1`, `NEXT_FRONTIER_PROGRAM__FIRST_BUILD_HC-DU-011A` | freeze the full covariance passport and exact small-unlabeled-causet harness: statewise isomorphism plus equal path weight across natural labelings, normalization, spectator/Bell behavior, past immutability and physical-record versus gauge bookkeeping | `1.5/2.2/2.4` | CMF-01; five-persona council; TaF T526; TI RUN-0177 |
+| `HC-DU-011` | P0 | causal-set classical growth law | `DU-H2`, `POST_CONDITIONAL_ANTECEDENT_REPRODUCED__DU_LAW_OPEN` | freeze a lean literature-aware post passport, then measure unconditioned first/recurrent-post distributions across fixed tail families; distinguish eventual global-post conditioning from a finite observable landmark | `1.5/2.2/2.4` | CMF-01; both five-persona waves; CSG post-RG sources; TaF T526; TI RUN-0177 |
 | `HC-DU-012` | P1 | quantum-measure/decoherence completion | `DU-H0`, `OPEN` | explicit decoherence functional and grade-2 additivity tests | `1.5` | TI record/Born no-go |
 | `HC-DU-013` | P1 | AQFT/locality embedding | `DU-H0`, `OPEN` | net isotony, locality, covariance and state-positive checks on one nontrivial region family | `1.5` | TaF finite restriction systems |
 | `HC-DU-014` | P1 | source-internal mint / self-authoring loop | `DU-H1`, `ACTIVE_OTHER` | do not duplicate; next build must feed issued records back into the law | `1.1/1.2/2.4` | DU `946dbc3`; TI D-FORK |
@@ -262,7 +272,7 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-019` | P1 | operational finality observable | `DU-H1`, `OPEN` | source-owned Hamiltonian, locality-of-update, effect size and detector contract | `4.1/4.3` | TaF T583-T587 |
 | `HC-DU-020` | P1 | Born weights and single outcome | `DU-H1`, `OPEN` | explicit rival-separated probability rule; record stability alone is barred | `1.5/4.1` | TI RUN-0072/0073 |
 | `HC-DU-021` | P1 | covariant finality/AQFT bridge | `DU-H1`, `OPEN` | build the net embedding; do not infer becoming from causal-order covariance | `1.5/4.3` | DU covariant-finality synthesis |
-| `HC-DU-022` | P0 | genuine dimensional transmutation | `DU-H0`, `NEXT_FRONTIER_PROGRAM__STAGE_2_AFTER_011A` | after full path covariance, test only covariant-landmark renormalization and physical coupling-record routes for a regulator-stable hierarchy relative to one declared microscopic unit; no direct `p(N)`, `m~H0`, target epoch or inserted window | `1.3/2.4` | CMF-01; five-persona council; wild-frontier count-running kill; spectral-flow kill at `946dbc3`; RR comparator |
+| `HC-DU-022` | P0 | genuine dimensional transmutation | `DU-H1`, `CONDITIONAL_HISTORY_HIERARCHY_REALIZED__FAMILY_GENERATIVITY_GEOMETRY_IDENTITY_OPEN` | test the joint intersection `post-producing ∩ nontrivially-running ∩ acceptable-geometry`; only a survivor may attempt physical records, response and a hierarchy relative to one declared microscopic unit; no direct `p(N)`, fitted post, `m~H0` or inserted window | `1.3/2.4` | CMF-01; successor council; exact CSG post map; tail-class and replay probes; spectral-flow kill at `946dbc3`; RR comparator |
 | `HC-DU-023` | P1 | sign bit `sigma` | `DU-H2`, `PARTIAL_MARTINGALE_SIGN_FAILS_PERSISTENCE` | the centered causal martingale makes a sign but stays positive from z=2 only 2.36%; source persistence without `abs(S)` or seed selection | `1.3/1.5/2.2` | CMF-01; GU signed-readout theorem |
 | `HC-DU-024` | P1 | non-circular open-endedness | `DU-H0`, `OPEN` | novelty measure invariant to renaming/completion and tied to a resource ledger | `2.4` | TI D-FORK; P2C boundary discriminator |
 | `HC-DU-025` | P2 | persona/agent method calibration | `DU-H0`, `OPEN` | blinded comparison against non-persona baselines and leakage controls | `3.x/A.3` | P2C decisive-test incidents |
@@ -527,18 +537,21 @@ work packages.
    built. Nonlocality escapes the local cone, but scale-free memory is an
    always-on/nonaccelerating tracker and the raw martingale fails early RMS,
    sign-persistence and de Sitter-stationarity controls.
-3. **`HC-DU-011A` full covariance passport and small-causet harness.** This is
-   the first build in the next major program. Distinguish statewise relabeling
-   equivariance from equal path weight across every natural labeling; test
-   normalization, spectator/Bell behavior, past immutability and whether
-   coupling updates are physical records or gauge bookkeeping. Direct
-   cardinality-running transitive percolation is now a killed control.
-4. **Two-route feedback/transmutation assay (`HC-DU-011 + HC-DU-022`).** Only
-   after `HC-DU-011A` passes, test (a) effective coupling renormalization at
-   covariant order landmarks and (b) coupling updates written as physical
-   causal records. Seek a regulator-stable hierarchy relative to one declared
-   microscopic unit; dimensionless order does not create physical units ex
-   nihilo. No third family before these receive distinct dispositions.
+3. **Lean post passport plus generativity census (`HC-DU-011A`).** Reproduce
+   the known exact CSG post map in the physical projective sector
+   `(T_1,T_2,...)`, retain the killed direct-count law as a covariance control,
+   and distinguish eventual global-post conditioning from a filtration-safe
+   landmark. Then measure first/recurrent-post distributions under fixed
+   factorial and neighboring tail families without selecting histories.
+   Generic unlabeled-causet enumeration is demand-driven infrastructure, not
+   the research product.
+4. **Joint post-running-geometry assay (`HC-DU-011 + HC-DU-022`).** The
+   factorial family conditionally realizes `t_eff~sqrt(t/P)`, but positive
+   tail counterfamilies give different exponents and the percolation fixed
+   line gives no running. Test the intersection of post production,
+   nontrivial running and held-out geometry. Only a survivor may attempt
+   physical coupling records, cross-history intervention, response, or a
+   hierarchy relative to one declared microscopic unit.
 5. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
    executable counterexamples; extend them across algebraic, observer, durable-
    record and novelty counts with units and lossy/nonexistent maps.
@@ -647,6 +660,40 @@ surviving frontier couples `HC-DU-011` and `HC-DU-022`: an order-first,
 label-invariant growth/action law with feedback and an endogenously generated
 dimensional memory scale. No sibling claim, canon or public posture moves.
 
+## Successor-council correction to the frontier
+
+The second five-persona wave started from all first-wave outputs, the complete
+fifty-six-item divergent list, and the four prioritization votes. It
+reconstructed a known classical sequential-growth antecedent that changes the
+frontier sequence without promoting a physical claim.
+
+- A post with invariant past size `P` induces the exact projective coupling
+  map `T_n(P)=sum_k binom(P,k)t_(n+k)` for physical `n>=1`.
+- For `t_n=u^n/n!`, the declared regime gives
+  `t_eff=T_2/T_1~sqrt(u/P)`.
+- The half-power is not universal: exact finite transforms for
+  `t_n=u^n/(n!)^alpha` support exponents
+  `-alpha/(alpha+1)`, including `0,-1/3,-1/2,-2/3`.
+- A fixed-law replay can absorb online updates within one post era but cannot
+  erase or identify inherited prehistory; matched cross-history interventions
+  are required.
+- Raw-to-physical Fisher-retention fraction is not order-identified under
+  hidden-fibre refinement.
+
+The new cheapest decisive question is whether one fixed family lies in:
+
+```text
+post-producing
+  intersect nontrivially-running
+  intersect acceptable held-out geometry.
+```
+
+The factorial half-power family has not established post recurrence; the
+transitive-percolation family has recurrent posts but is a projective fixed
+line with no running. Physical records, response, units and cosmology remain
+downstream. See
+`science-council-five-persona-successor-wave-synthesis-2026-07-24.md`.
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
@@ -660,4 +707,7 @@ dimensional memory scale. No sibling claim, canon or public posture moves.
   `VIABLE_ONLY_AS_LAMBDA_LIMIT`; the original preregistration above remains intact.
 - `SWING-DU-CMF-01` subsequently executed with `45/45` checks and returned
   `CAUSAL_ESCAPE_TRACKER_FAIL`; all individual persona suggestions remain intact.
+- The successor five-persona wave reproduced the exact CSG post antecedent,
+  narrowed the square root to the factorial tail class, and preserved forty-six
+  new divergent paths without ranking or promotion.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

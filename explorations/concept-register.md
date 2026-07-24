@@ -160,6 +160,56 @@ does not change the factored concept grade.
 See
 `science-council-five-persona-next-actions-synthesis-2026-07-24.md`.
 
+### 2026-07-24 successor council: causal-post route correction
+
+The second five-persona wave began from every first-wave output, all
+fifty-six divergent items, and the four vote receipts. It does not promote the
+concept grade, but it corrects the active causal-growth route.
+
+Classical sequential growth already has an exact post-conditioned projective
+coupling map:
+
+```text
+T_n(P)=sum_(k=0)^P binom(P,k)t_(n+k),  n>=1.
+```
+
+The physical post sector is `(T_1,T_2,...)`; `T_0` is irrelevant and the
+effective percolation parameter is `T_2/T_1`. For the factorial family
+`t_n=u^n/n!`, the declared large-post regime gives
+`t_eff~sqrt(u/P)`. This is a real covariant historical-memory mechanism and is
+distinct from the additive/CLT half-power.
+
+It is not a universal post result. For
+`t_n=u^n/(n!)^alpha`, a saddle asymptotic plus exact finite transforms support
+
+```text
+T_(n+1)/T_n
+  ~ u^(1/(alpha+1)) P^(-alpha/(alpha+1)).
+```
+
+The tested `alpha=0,1/2,1,2` families give exponents
+`0,-1/3,-1/2,-2/3`. The half-power therefore becomes a tail-family selection
+burden. A fixed post-era replay can absorb online updates within that era, but
+cannot distinguish a fundamental frozen law from one inherited from invariant
+prehistory; matched cross-history interventions can.
+
+The route still lacks:
+
+- a result that the factorial or another half-power family generates
+  recurrent large posts;
+- held-out multi-estimator geometry;
+- active return beyond inherited conditional memory;
+- a justified raw fibre for Fisher-retention claims;
+- a unit-bearing observable map, sign, coefficient, action, or `Lambda`
+  identity.
+
+**Concept disposition unchanged:**
+`CONCEPT-SUPPORTED-BY-LIVE-OBJECTS / SELECTOR-OPEN / SCALE-OPEN /
+VALUE-OPEN`. The next bounded reopener is the joint
+`post-producing ∩ nontrivially-running ∩ acceptable-geometry` test, not more
+standalone influence proxies. See
+`science-council-five-persona-successor-wave-synthesis-2026-07-24.md`.
+
 ## Divergent-persona formalization family (2026-07-22) — measurable cross-domain reframes
 Ten wildly-divergent lenses each reframed CONCEPT-DU-001; the most MEASURABLE distinct additions to the
 family (each a way to make "deviation of the effective influence-distribution from uniform" precise):

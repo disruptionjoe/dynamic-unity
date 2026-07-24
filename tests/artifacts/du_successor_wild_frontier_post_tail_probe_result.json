@@ -1,0 +1,450 @@
+{
+  "alpha_sweep": {
+    "0.0": {
+      "absolute_exponent_error": 0.0,
+      "alpha": 0.0,
+      "fitted_large_P_exponent": 0.0,
+      "predicted_exponent": -0.0,
+      "rows": [
+        {
+          "fixed_n_relative_spread": 0.0,
+          "n1_over_prediction": 1.0,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          },
+          "post_past_size": 256,
+          "predicted_asymptotic_ratio": 1.0
+        },
+        {
+          "fixed_n_relative_spread": 0.0,
+          "n1_over_prediction": 1.0,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          },
+          "post_past_size": 1024,
+          "predicted_asymptotic_ratio": 1.0
+        },
+        {
+          "fixed_n_relative_spread": 0.0,
+          "n1_over_prediction": 1.0,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          },
+          "post_past_size": 4096,
+          "predicted_asymptotic_ratio": 1.0
+        },
+        {
+          "fixed_n_relative_spread": 0.0,
+          "n1_over_prediction": 1.0,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          },
+          "post_past_size": 16384,
+          "predicted_asymptotic_ratio": 1.0
+        },
+        {
+          "fixed_n_relative_spread": 0.0,
+          "n1_over_prediction": 1.0,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 1.0,
+            "2": 1.0,
+            "3": 1.0,
+            "4": 1.0
+          },
+          "post_past_size": 65536,
+          "predicted_asymptotic_ratio": 1.0
+        }
+      ]
+    },
+    "0.5": {
+      "absolute_exponent_error": 0.004557474465275602,
+      "alpha": 0.5,
+      "fitted_large_P_exponent": -0.3378908077986089,
+      "predicted_exponent": -0.3333333333333333,
+      "rows": [
+        {
+          "fixed_n_relative_spread": 0.02802720568751903,
+          "n1_over_prediction": 1.0365047390830746,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.16323926738581987,
+            "2": 0.16170379744259047,
+            "3": 0.1602002507951098,
+            "4": 0.15872779040459478
+          },
+          "post_past_size": 256,
+          "predicted_asymptotic_ratio": 0.15749013123685915
+        },
+        {
+          "fixed_n_relative_spread": 0.010737825215988008,
+          "n1_over_prediction": 1.0272508091467254,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.1019161884421685,
+            "2": 0.10155056406487922,
+            "3": 0.10118773941521705,
+            "4": 0.10082768924477618
+          },
+          "post_past_size": 1024,
+          "predicted_asymptotic_ratio": 0.09921256574801247
+        },
+        {
+          "fixed_n_relative_spread": 0.004139895627927855,
+          "n1_over_prediction": 1.0186566318070402,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.06366603948794003,
+            "2": 0.06357811134006665,
+            "3": 0.06349043634955079,
+            "4": 0.06340301370224644
+          },
+          "post_past_size": 4096,
+          "predicted_asymptotic_ratio": 0.06250000000000001
+        },
+        {
+          "fixed_n_relative_spread": 0.001609804377158943,
+          "n1_over_prediction": 1.0122934532838084,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.03985655720197009,
+            "2": 0.039835163754807376,
+            "3": 0.039813793884386335,
+            "4": 0.039792447562682534
+          },
+          "post_past_size": 16384,
+          "predicted_asymptotic_ratio": 0.039372532809214794
+        },
+        {
+          "fixed_n_relative_spread": 0.0006302513890325786,
+          "n1_over_prediction": 1.0079462609549585,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.025000233671364294,
+            "2": 0.024994980938741702,
+            "3": 0.024989730449601438,
+            "4": 0.024984482203765895
+          },
+          "post_past_size": 65536,
+          "predicted_asymptotic_ratio": 0.024803141437003122
+        }
+      ]
+    },
+    "1.0": {
+      "absolute_exponent_error": 0.0019091743522969273,
+      "alpha": 1.0,
+      "fitted_large_P_exponent": -0.4980908256477031,
+      "predicted_exponent": -0.5,
+      "rows": [
+        {
+          "fixed_n_relative_spread": 0.09974613273359083,
+          "n1_over_prediction": 0.9795231730454252,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.06122019831533908,
+            "2": 0.0592064798657922,
+            "3": 0.057269396750723046,
+            "4": 0.05540740563696911
+          },
+          "post_past_size": 256,
+          "predicted_asymptotic_ratio": 0.0625
+        },
+        {
+          "fixed_n_relative_spread": 0.04854718534016497,
+          "n1_over_prediction": 0.9909532757635681,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.030967289867611502,
+            "2": 0.030469462578487132,
+            "3": 0.029980296944406327,
+            "4": 0.02949974733230122
+          },
+          "post_past_size": 1024,
+          "predicted_asymptotic_ratio": 0.03125
+        },
+        {
+          "fixed_n_relative_spread": 0.023875924695975777,
+          "n1_over_prediction": 0.9957829320211407,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.015559108312830323,
+            "2": 0.015435724646264581,
+            "3": 0.015313360575067046,
+            "4": 0.015192014727519638
+          },
+          "post_past_size": 4096,
+          "predicted_asymptotic_ratio": 0.015625
+        },
+        {
+          "fixed_n_relative_spread": 0.011830808115043261,
+          "n1_over_prediction": 0.9979689134193946,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.007796632136089021,
+            "2": 0.007765943015623273,
+            "3": 0.007735377262095948,
+            "4": 0.007704934833579978
+          },
+          "post_past_size": 16384,
+          "predicted_asymptotic_ratio": 0.0078125
+        },
+        {
+          "fixed_n_relative_spread": 0.005887689602034171,
+          "n1_over_prediction": 0.9990039165955963,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.003902359049201548,
+            "2": 0.003894707755740376,
+            "3": 0.0038870716243727503,
+            "4": 0.0038794506537978045
+          },
+          "post_past_size": 65536,
+          "predicted_asymptotic_ratio": 0.00390625
+        }
+      ]
+    },
+    "2.0": {
+      "absolute_exponent_error": 0.017628051034458747,
+      "alpha": 2.0,
+      "fitted_large_P_exponent": -0.6490386156322079,
+      "predicted_exponent": -0.6666666666666666,
+      "rows": [
+        {
+          "fixed_n_relative_spread": 0.3785802295440084,
+          "n1_over_prediction": 0.8537786303422614,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.021176392124269916,
+            "2": 0.018743819245535864,
+            "3": 0.016503794264343286,
+            "4": 0.014466916710786839
+          },
+          "post_past_size": 256,
+          "predicted_asymptotic_ratio": 0.024803141437003122
+        },
+        {
+          "fixed_n_relative_spread": 0.22347852584728875,
+          "n1_over_prediction": 0.9061819867719474,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.008919670001324487,
+            "2": 0.008295971108064897,
+            "3": 0.007698755106851822,
+            "4": 0.007129395185092468
+          },
+          "post_past_size": 1024,
+          "predicted_asymptotic_ratio": 0.009843133202303699
+        },
+        {
+          "fixed_n_relative_spread": 0.13472160487189694,
+          "n1_over_prediction": 0.939899433759629,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.0036714821631235518,
+            "2": 0.003513210025514445,
+            "3": 0.0033587736575278813,
+            "4": 0.0032083166124549038
+          },
+          "post_past_size": 4096,
+          "predicted_asymptotic_ratio": 0.003906250000000001
+        },
+        {
+          "fixed_n_relative_spread": 0.08252571939007751,
+          "n1_over_prediction": 0.9616489776369015,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.0014907447253173453,
+            "2": 0.0014507894737938287,
+            "3": 0.001411409188575806,
+            "4": 0.001372618203021002
+          },
+          "post_past_size": 16384,
+          "predicted_asymptotic_ratio": 0.0015501963398126953
+        },
+        {
+          "fixed_n_relative_spread": 0.05108431930282266,
+          "n1_over_prediction": 0.9756203347964859,
+          "physical_effective_ratios_n_1_to_4": {
+            "1": 0.0006001975568923714,
+            "2": 0.0005901441828346003,
+            "3": 0.0005801787639603384,
+            "4": 0.0005703027166871044
+          },
+          "post_past_size": 65536,
+          "predicted_asymptotic_ratio": 0.0006151958251439813
+        }
+      ]
+    }
+  },
+  "analytic_saddle": {
+    "dominant_index": "k_*~(P u)^(1/(alpha+1))",
+    "effective_ratio": "T_(n+1)/T_n~u^(1/(alpha+1)) P^(-alpha/(alpha+1))",
+    "factorial_special_case": "alpha=1 gives u_eff~sqrt(u/P)",
+    "term_ratio": "a_(k+1)/a_k=[(P-k)/(k+1)] u/(n+k+1)^alpha"
+  },
+  "checks": [
+    {
+      "name": "transitive-percolation fixed-point family alpha=0 has no post-induced running",
+      "pass": true
+    },
+    {
+      "name": "factorial family alpha=1 approaches the reported post-induced half-power",
+      "pass": true
+    },
+    {
+      "name": "superfactorial family alpha=2 approaches a two-thirds rather than half-power",
+      "pass": true
+    },
+    {
+      "name": "every tested alpha matches its distinct saddle exponent -alpha/(alpha+1)",
+      "pass": true
+    },
+    {
+      "name": "effective ratios become precursor-index independent in the fixed-small-precursor regime",
+      "pass": true
+    },
+    {
+      "name": "bare-amplitude sensitivity matches u^(1/(alpha+1))",
+      "pass": true
+    },
+    {
+      "name": "the half-power is not universal across the tested tail classes",
+      "pass": true
+    }
+  ],
+  "checks_passed": 7,
+  "checks_total": 7,
+  "exact_map": "T_n(P)=sum_{k=0}^P binom(P,k)t_(n+k), projectively",
+  "parameters": {
+    "alphas": [
+      0.0,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "fitted_physical_parameters": [],
+    "fixed_precursor_indices": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "post_past_sizes": [
+      256,
+      1024,
+      4096,
+      16384,
+      65536
+    ],
+    "primary_u": 1.0,
+    "u_sensitivity": [
+      0.25,
+      1.0,
+      4.0
+    ]
+  },
+  "physical_indexing": "After a post T_0 is irrelevant because empty-past births are excluded; the physical projective sequence begins at T_1 and the primary effective percolation ratio is T_2/T_1.",
+  "probe": "du_successor_wild_frontier_post_tail_probe",
+  "question": "Does the exact CSG post-renormalization map generically produce a half-power, or does the exponent encode the tail class of the bare coupling sequence?",
+  "scope": {
+    "earned": [
+      "the exact post map produces no running for alpha=0",
+      "the factorial alpha=1 family approaches a half-power",
+      "different coupling-tail classes produce different exponents"
+    ],
+    "not_earned": [
+      "that the alpha=1 family is selected",
+      "that repeated posts occur for the selected family",
+      "that after-post percolation recovers continuum geometry",
+      "a unit-bearing physical scale or Lambda identity",
+      "universality under the full admissible CSG coupling space"
+    ]
+  },
+  "tested_family": "t_n=u^n/(n!)^alpha",
+  "u_sweep": {
+    "families": {
+      "0.5": {
+        "absolute_u_exponent_error": 0.006489863485348191,
+        "alpha": 0.5,
+        "fitted_u_exponent": 0.6731565301520148,
+        "predicted_u_exponent": 0.6666666666666666,
+        "rows": [
+          {
+            "physical_effective_ratio_n1": 0.009867667669149078,
+            "predicted_asymptotic_ratio": 0.009843133202303699,
+            "ratio_over_prediction": 1.0024925464627095,
+            "u": 0.25
+          },
+          {
+            "physical_effective_ratio_n1": 0.025000233671364294,
+            "predicted_asymptotic_ratio": 0.024803141437003122,
+            "ratio_over_prediction": 1.0079462609549585,
+            "u": 1.0
+          },
+          {
+            "physical_effective_ratio_n1": 0.06379339920564459,
+            "predicted_asymptotic_ratio": 0.06250000000000001,
+            "ratio_over_prediction": 1.0206943872903131,
+            "u": 4.0
+          }
+        ]
+      },
+      "1.0": {
+        "absolute_u_exponent_error": 0.0026454906843067505,
+        "alpha": 1.0,
+        "fitted_u_exponent": 0.5026454906843068,
+        "predicted_u_exponent": 0.5,
+        "rows": [
+          {
+            "physical_effective_ratio_n1": 0.0019435559926632312,
+            "predicted_asymptotic_ratio": 0.001953125,
+            "ratio_over_prediction": 0.9951006682435743,
+            "u": 0.25
+          },
+          {
+            "physical_effective_ratio_n1": 0.003902359049201548,
+            "predicted_asymptotic_ratio": 0.00390625,
+            "ratio_over_prediction": 0.9990039165955963,
+            "u": 1.0
+          },
+          {
+            "physical_effective_ratio_n1": 0.007831456436109316,
+            "predicted_asymptotic_ratio": 0.0078125,
+            "ratio_over_prediction": 1.0024264238219924,
+            "u": 4.0
+          }
+        ]
+      },
+      "2.0": {
+        "absolute_u_exponent_error": 0.008911745406882221,
+        "alpha": 2.0,
+        "fitted_u_exponent": 0.34224507874021554,
+        "predicted_u_exponent": 0.3333333333333333,
+        "rows": [
+          {
+            "physical_effective_ratio_n1": 0.0003724234991282643,
+            "predicted_asymptotic_ratio": 0.00038754908495317383,
+            "ratio_over_prediction": 0.9609711739437158,
+            "u": 0.25
+          },
+          {
+            "physical_effective_ratio_n1": 0.0006001975568923714,
+            "predicted_asymptotic_ratio": 0.0006151958251439813,
+            "ratio_over_prediction": 0.9756203347964859,
+            "u": 1.0
+          },
+          {
+            "physical_effective_ratio_n1": 0.0009619250055492906,
+            "predicted_asymptotic_ratio": 0.0009765625000000002,
+            "ratio_over_prediction": 0.9850112056824734,
+            "u": 4.0
+          }
+        ]
+      }
+    },
+    "post_past_size": 65536
+  },
+  "verdict": "POST_HALF_POWER_REAL_BUT_TAIL_CLASS_CONDITIONAL / FACTORIAL_ALPHA_ONE_REPRODUCED / UNIVERSAL_POST_HALF_POWER_OVERTURNED",
+  "warrant": [
+    "DERIVED for the saddle exponent under the declared family",
+    "CONSTRUCTIVELY_REALIZED by exact finite binomial transforms",
+    "STRUCTURAL_ANALOGY only for any relation to Lambda"
+  ]
+}

@@ -1,0 +1,836 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Supplies the fixed path-covariant growth family.",
+        "statement": "Classical sequential growth and its post-conditioning coupling map are the formal host.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Selects the off-fixed family whose post transform has the tested half-power asymptotic.",
+        "statement": "The bare couplings are t_n=u^n/n!.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Makes the order landmark and its inherited past available; the probe does not derive its occurrence.",
+        "statement": "A post with completed past cardinality r occurs in the factorial-coupling history.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Connects the transformed projective couplings to the originary-percolation comparator.",
+        "statement": "t_eff=t_tilde_2/t_tilde_1 and p_eff=t_eff/(1+t_eff) diagnose the temporary percolation-like era.",
+        "status": "STANDARD"
+      }
+    ],
+    "candidate_id": "DU-SUCCESSOR-HETERODOX-POST-RG-HALF-POWER",
+    "comparators": [
+      "literal M iteration versus the exact binomial transform",
+      "transitive-percolation fixed family",
+      "sqrt(u/r) asymptotic across three bare parameters",
+      "fixed post-era conditional law versus direct stage running"
+    ],
+    "concept": {
+      "concept_id": "HC-DU-011 + HC-DU-022",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "FACTORIAL-CSG-POST-RG-HALF-POWER",
+      "invariant": "A fixed path-covariant law uses physical order history, not gauge birth stage, to generate a regulator-testable hierarchy."
+    },
+    "equations": [
+      "M(t)_n=t_n+t_(n+1)",
+      "M^r(t)_n=sum_(k=0)^r binom(r,k)t_(n+k)",
+      "bare t_n=u^n/n!",
+      "t_eff=t_tilde_2/t_tilde_1 ~ sqrt(u/r)",
+      "p_eff=t_eff/(1+t_eff)",
+      "originary tree-era proxy ~1/p_eff"
+    ],
+    "falsifiers": [
+      "the binomial transform disagrees with literal M iteration",
+      "the factorial family does not approach a common percolation ratio",
+      "the effective coupling exponent differs materially from -1/2",
+      "a fixed post-era law fails the natural-labeling fixture",
+      "the hierarchy requires an inserted target post size or cosmological epoch"
+    ],
+    "free_choices": [
+      {
+        "choice": "Use bare u in {0.25,1,4}.",
+        "id": "C1",
+        "sensitivity_test": "Require the half-power slope and asymptotic ratio for all three non-tiny values.",
+        "why_not_forced": "No present DU law selects the bare family or u."
+      },
+      {
+        "choice": "Use post-past sizes 10^2 through 10^6.",
+        "id": "C2",
+        "sensitivity_test": "Fit the exponent and inspect convergence rather than calibrating one desired scale.",
+        "why_not_forced": "These are computational fixtures, not predictions."
+      },
+      {
+        "choice": "Inspect projective couplings through index four.",
+        "id": "C3",
+        "sensitivity_test": "Require every inspected ratio to approach the same percolation parameter.",
+        "why_not_forced": "The source asymptotic is local in precursor complexity."
+      },
+      {
+        "choice": "Use the smallest originary causet with three inequivalent post-era natural orders.",
+        "id": "C4",
+        "sensitivity_test": "Make the fixed post-era law pass and a stage-running control fail on the identical fixture.",
+        "why_not_forced": "Larger causets provide stronger covariance tests."
+      }
+    ],
+    "null_models": [
+      "transitive percolation is projectively unchanged by the post map",
+      "direct cardinality/stage running fails the natural-labeling fixture",
+      "a fixed post-era law must give equal weights on the same fixture"
+    ],
+    "observables": [
+      "projective post-transformed couplings",
+      "effective percolation t and p",
+      "log-log exponent versus completed post-past size",
+      "percolation-approximation residual through coupling index four",
+      "natural-labeling path probabilities in one originary era"
+    ],
+    "question": "Is causal-post renormalization merely an unbuilt speculative escape from direct count-running, or can a fixed covariant CSG law conditionally turn a completed post past into a half-power post-era coupling without a prescribed birth clock?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "the exact binomial post map equals literal iteration of M",
+          "pass": true
+        },
+        {
+          "name": "transitive percolation is projectively fixed by the post map",
+          "pass": true
+        },
+        {
+          "name": "factorial post flow gives the source-predicted half-power exponent",
+          "pass": true
+        },
+        {
+          "name": "the inverse effective probability grows with the matching half-power",
+          "pass": true
+        },
+        {
+          "name": "low projective couplings approach one common percolation parameter",
+          "pass": true
+        },
+        {
+          "name": "a fixed post-era conditional law passes the originary path-covariance fixture",
+          "pass": true
+        },
+        {
+          "name": "direct stage running fails the identical originary fixture",
+          "pass": true
+        },
+        {
+          "name": "no target post size, geometry, physical unit, Lambda, or cosmological epoch is fitted",
+          "pass": true
+        }
+      ],
+      "claim": "The exact post map conditionally converts factorial bare couplings into a temporary percolation-like law with t_eff~sqrt(u/r), while a fixed post-era law passes the natural-labeling fixture that direct stage running fails.",
+      "grade": "SOURCE-ANCHORED RECONSTRUCTION / CONDITIONALLY REALIZED HISTORY-TO-HIERARCHY / POST-OCCURRENCE-OPEN",
+      "remaining_uncertainty": "Post occurrence and repeated cycles for the factorial family, hierarchy distribution, manifoldlike geometry, native response/work, units, and cosmology remain unbuilt."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not infer that the factorial CSG law generates posts or repeated cycles.",
+      "Do not identify t_eff, p_eff, or their inverse with Lambda or a physical unit.",
+      "Do not call an interval-envelope fit manifold or 3+1 geometry recovery.",
+      "Do not claim a persistent open-system drive from one conditional post shock.",
+      "Do not count source reconstruction as a novel DU physics claim."
+    ],
+    "track": "Successor council / causal-post history-to-hierarchy",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 4,
+    "candidate_id": "DU-SUCCESSOR-HETERODOX-POST-RG-HALF-POWER",
+    "checks_passed": 8,
+    "checks_total": 8,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 5,
+    "free_choice_count": 4,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 3,
+    "observable_count": 5,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "checks": [
+      {
+        "name": "the exact binomial post map equals literal iteration of M",
+        "pass": true
+      },
+      {
+        "name": "transitive percolation is projectively fixed by the post map",
+        "pass": true
+      },
+      {
+        "name": "factorial post flow gives the source-predicted half-power exponent",
+        "pass": true
+      },
+      {
+        "name": "the inverse effective probability grows with the matching half-power",
+        "pass": true
+      },
+      {
+        "name": "low projective couplings approach one common percolation parameter",
+        "pass": true
+      },
+      {
+        "name": "a fixed post-era conditional law passes the originary path-covariance fixture",
+        "pass": true
+      },
+      {
+        "name": "direct stage running fails the identical originary fixture",
+        "pass": true
+      },
+      {
+        "name": "no target post size, geometry, physical unit, Lambda, or cosmological epoch is fitted",
+        "pass": true
+      }
+    ],
+    "checks_passed": 8,
+    "checks_total": 8,
+    "exact_map_control": {
+      "bare_parameter": 1.3,
+      "binomial_projective_couplings": [
+        1.0,
+        0.44596962729526823,
+        0.15931009868762006,
+        0.04682434464025147,
+        0.011591067491407146,
+        0.0024646471504606343
+      ],
+      "iterated_projective_couplings": [
+        1.0,
+        0.4459696272952681,
+        0.15931009868762006,
+        0.04682434464025147,
+        0.011591067491407144,
+        0.0024646471504606343
+      ],
+      "maximum_absolute_error": 1.1102230246251565e-16,
+      "repetitions": 7
+    },
+    "exponent_summary": [
+      {
+        "bare_parameter": 0.25,
+        "effective_t_slope": -0.49751697118301696,
+        "inverse_p_slope": 0.4965559706965223,
+        "largest_past_effective_t_to_prediction_ratio": 0.9987489090953305,
+        "largest_past_maximum_percolation_relative_error": 0.006735821602373404
+      },
+      {
+        "bare_parameter": 1.0,
+        "effective_t_slope": -0.49948324101371777,
+        "inverse_p_slope": 0.49754518773026074,
+        "largest_past_effective_t_to_prediction_ratio": 0.9997487192369284,
+        "largest_past_maximum_percolation_relative_error": 0.002253266259858333
+      },
+      {
+        "bare_parameter": 4.0,
+        "effective_t_slope": -0.5011961168837201,
+        "inverse_p_slope": 0.4973039742006734,
+        "largest_past_effective_t_to_prediction_ratio": 1.000624022068168,
+        "largest_past_maximum_percolation_relative_error": 0.001120516398584126
+      }
+    ],
+    "factorial_post_sweeps": {
+      "0.25": [
+        {
+          "bare_parameter": 0.25,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.8670881702754666,
+            0.6762321751491129,
+            0.47611584033024484
+          ],
+          "effective_p": 0.04155290681670706,
+          "effective_t_from_t2_over_t1": 0.04335440851377333,
+          "effective_t_to_prediction_ratio": 0.8670881702754666,
+          "maximum_percolation_prediction_relative_error": 0.5238841596697552,
+          "past_size": 100,
+          "predicted_t_sqrt_u_over_r": 0.05,
+          "projective_couplings_t1_normalized": [
+            20.688598673619495,
+            1.0,
+            0.04335440851377333,
+            0.0016905804378727826,
+            5.951448004128062e-05
+          ],
+          "series_terms_used": [
+            57,
+            57,
+            57,
+            57,
+            57
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 24.065705063933887
+        },
+        {
+          "bare_parameter": 0.25,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9594698945907921,
+            0.891132744302695,
+            0.8012742930930064
+          ],
+          "effective_p": 0.014943844707086503,
+          "effective_t_from_t2_over_t1": 0.015170551066342857,
+          "effective_t_to_prediction_ratio": 0.9594698945907921,
+          "maximum_percolation_prediction_relative_error": 0.19872570690699365,
+          "past_size": 1000,
+          "predicted_t_sqrt_u_over_r": 0.015811388300841896,
+          "projective_couplings_t1_normalized": [
+            63.803568673901545,
+            1.0,
+            0.015170551066342857,
+            0.0002227831860756737,
+            3.16731474589403e-06
+          ],
+          "series_terms_used": [
+            67,
+            67,
+            67,
+            67,
+            67
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 66.91718360307847
+        },
+        {
+          "bare_parameter": 0.25,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9873934917779492,
+            0.9651516822830156,
+            0.9339365746225952
+          ],
+          "effective_p": 0.0049127135519489275,
+          "effective_t_from_t2_over_t1": 0.004936967458889746,
+          "effective_t_to_prediction_ratio": 0.9873934917779492,
+          "maximum_percolation_prediction_relative_error": 0.06606342537740484,
+          "past_size": 10000,
+          "predicted_t_sqrt_u_over_r": 0.005,
+          "projective_couplings_t1_normalized": [
+            200.51819409526695,
+            1.0,
+            0.004936967458889746,
+            2.412879205707539e-05,
+            1.1674207182782442e-07
+          ],
+          "series_terms_used": [
+            115,
+            114,
+            114,
+            113,
+            113
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 203.55349226565204
+        },
+        {
+          "bare_parameter": 0.25,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9960363055861131,
+            0.9889462298604814,
+            0.9787968795765891
+          ],
+          "effective_p": 0.001572395358018372,
+          "effective_t_from_t2_over_t1": 0.0015748716789358054,
+          "effective_t_to_prediction_ratio": 0.9960363055861131,
+          "maximum_percolation_prediction_relative_error": 0.02120312042341088,
+          "past_size": 100000,
+          "predicted_t_sqrt_u_over_r": 0.0015811388300841897,
+          "projective_couplings_t1_normalized": [
+            632.9612705471893,
+            1.0,
+            0.0015748716789358054,
+            2.4723655746512037e-06,
+            3.869034382659459e-09
+          ],
+          "series_terms_used": [
+            266,
+            265,
+            265,
+            264,
+            264
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 635.9723684635273
+        },
+        {
+          "bare_parameter": 0.25,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9987489090953305,
+            0.996501389313884,
+            0.9932641783976266
+          ],
+          "effective_p": 0.0004991252041710814,
+          "effective_t_from_t2_over_t1": 0.0004993744545476653,
+          "effective_t_to_prediction_ratio": 0.9987489090953305,
+          "maximum_percolation_prediction_relative_error": 0.006735821602373404,
+          "past_size": 1000000,
+          "predicted_t_sqrt_u_over_r": 0.0005,
+          "projective_couplings_t1_normalized": [
+            2000.5018131876345,
+            1.0,
+            0.0004993744545476653,
+            2.49125347328471e-07,
+            1.2415802229970333e-10
+          ],
+          "series_terms_used": [
+            684,
+            683,
+            683,
+            682,
+            682
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 2003.5053161876342
+        }
+      ],
+      "1.0": [
+        {
+          "bare_parameter": 1.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9628939338786346,
+            0.8773889384583886,
+            0.7571309097951522
+          ],
+          "effective_p": 0.08783209430705183,
+          "effective_t_from_t2_over_t1": 0.09628939338786346,
+          "effective_t_to_prediction_ratio": 0.9628939338786346,
+          "maximum_percolation_prediction_relative_error": 0.24286909020484782,
+          "past_size": 100,
+          "predicted_t_sqrt_u_over_r": 0.1,
+          "projective_couplings_t1_normalized": [
+            9.82151812556208,
+            1.0,
+            0.09628939338786346,
+            0.008773889384583887,
+            0.0007571309097951524
+          ],
+          "series_terms_used": [
+            62,
+            62,
+            62,
+            62,
+            62
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 11.385359849260846
+        },
+        {
+          "bare_parameter": 1.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9908306947741813,
+            0.9657698726710511,
+            0.9260458614641222
+          ],
+          "effective_p": 0.03038089855462849,
+          "effective_t_from_t2_over_t1": 0.031332817710935074,
+          "effective_t_to_prediction_ratio": 0.9908306947741813,
+          "maximum_percolation_prediction_relative_error": 0.07395413853587784,
+          "past_size": 1000,
+          "predicted_t_sqrt_u_over_r": 0.03162277660168379,
+          "projective_couplings_t1_normalized": [
+            31.395483346357633,
+            1.0,
+            0.031332817710935074,
+            0.0009657698726710509,
+            2.928414139999375e-05
+          ],
+          "series_terms_used": [
+            84,
+            83,
+            83,
+            83,
+            83
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 32.91541881823806
+        },
+        {
+          "bare_parameter": 1.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9973723828289491,
+            0.9897293573642028,
+            0.977186920913327
+          ],
+          "effective_p": 0.009875231001539572,
+          "effective_t_from_t2_over_t1": 0.009973723828289491,
+          "effective_t_to_prediction_ratio": 0.9973723828289491,
+          "maximum_percolation_prediction_relative_error": 0.02281307908667296,
+          "past_size": 10000,
+          "predicted_t_sqrt_u_over_r": 0.01,
+          "projective_couplings_t1_normalized": [
+            99.75718573055013,
+            1.0,
+            0.009973723828289491,
+            9.897293573642027e-05,
+            9.771869209133272e-07
+          ],
+          "series_terms_used": [
+            187,
+            186,
+            186,
+            185,
+            185
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 101.26345397328909
+        },
+        {
+          "bare_parameter": 1.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9991966336367728,
+            0.9968103584967398,
+            0.992852537280337
+          ],
+          "effective_p": 0.0031497847007970195,
+          "effective_t_from_t2_over_t1": 0.003159737192665015,
+          "effective_t_to_prediction_ratio": 0.9991966336367728,
+          "maximum_percolation_prediction_relative_error": 0.007147462719663045,
+          "past_size": 100000,
+          "predicted_t_sqrt_u_over_r": 0.0031622776601683794,
+          "projective_couplings_t1_normalized": [
+            315.980038740791,
+            1.0,
+            0.003159737192665015,
+            9.9681035849674e-06,
+            3.1396753984831024e-08
+          ],
+          "series_terms_used": [
+            464,
+            463,
+            463,
+            462,
+            462
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 317.4820170238812
+        },
+        {
+          "bare_parameter": 1.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            0.9997487192369284,
+            0.9989972542844289,
+            0.9977467337401417
+          ],
+          "effective_p": 0.000998750219983662,
+          "effective_t_from_t2_over_t1": 0.0009997487192369284,
+          "effective_t_to_prediction_ratio": 0.9997487192369284,
+          "maximum_percolation_prediction_relative_error": 0.002253266259858333,
+          "past_size": 1000000,
+          "predicted_t_sqrt_u_over_r": 0.001,
+          "projective_couplings_t1_normalized": [
+            999.7507187324396,
+            1.0,
+            0.0009997487192369284,
+            9.989972542844289e-07,
+            9.977467337401417e-10
+          ],
+          "series_terms_used": [
+            1255,
+            1255,
+            1254,
+            1254,
+            1253
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 1001.251343920964
+        }
+      ],
+      "4.0": [
+        {
+          "bare_parameter": 4.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            1.0515367551902948,
+            1.0729647335136154,
+            1.062677876794234
+          ],
+          "effective_p": 0.173763590593482,
+          "effective_t_from_t2_over_t1": 0.21030735103805898,
+          "effective_t_to_prediction_ratio": 1.0515367551902948,
+          "maximum_percolation_prediction_relative_error": 0.07296473351361543,
+          "past_size": 100,
+          "predicted_t_sqrt_u_over_r": 0.2,
+          "projective_couplings_t1_normalized": [
+            4.6128374514705435,
+            1.0,
+            0.21030735103805898,
+            0.04291858934054463,
+            0.008501423014353873
+          ],
+          "series_terms_used": [
+            72,
+            72,
+            72,
+            72,
+            72
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 5.754945535969552
+        },
+        {
+          "bare_parameter": 4.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            1.0187459157745788,
+            1.0291281899386193,
+            1.0308942840607977
+          ],
+          "effective_p": 0.06053106307190146,
+          "effective_t_from_t2_over_t1": 0.06443114901683455,
+          "effective_t_to_prediction_ratio": 1.0187459157745788,
+          "maximum_percolation_prediction_relative_error": 0.03089428406079775,
+          "past_size": 1000,
+          "predicted_t_sqrt_u_over_r": 0.06324555320336758,
+          "projective_couplings_t1_normalized": [
+            15.390002828717495,
+            1.0,
+            0.06443114901683455,
+            0.0041165127597544765,
+            0.00026079791715845883
+          ],
+          "series_terms_used": [
+            131,
+            130,
+            130,
+            129,
+            129
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 16.520443376521506
+        },
+        {
+          "bare_parameter": 4.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            1.0061509893769418,
+            1.0097585823186968,
+            1.0107954641031909
+          ],
+          "effective_p": 0.019726071657249596,
+          "effective_t_from_t2_over_t1": 0.02012301978753884,
+          "effective_t_to_prediction_ratio": 1.0061509893769418,
+          "maximum_percolation_prediction_relative_error": 0.010795464103190877,
+          "past_size": 10000,
+          "predicted_t_sqrt_u_over_r": 0.02,
+          "projective_couplings_t1_normalized": [
+            49.56761097876954,
+            1.0,
+            0.02012301978753884,
+            0.00040390343292747875,
+            8.086363712825528e-06
+          ],
+          "series_terms_used": [
+            317,
+            316,
+            316,
+            315,
+            315
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 50.69433069977146
+        },
+        {
+          "bare_parameter": 4.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            1.0019666147589512,
+            1.0031384024910488,
+            1.0035125753397034
+          ],
+          "effective_p": 0.0062970886755268785,
+          "effective_t_from_t2_over_t1": 0.006336993284173537,
+          "effective_t_to_prediction_ratio": 1.0019666147589512,
+          "maximum_percolation_prediction_relative_error": 0.0035125753397033943,
+          "past_size": 100000,
+          "predicted_t_sqrt_u_over_r": 0.006324555320336759,
+          "projective_couplings_t1_normalized": [
+            157.67800060144899,
+            1.0,
+            0.006336993284173537,
+            4.012553609964195e-05,
+            2.538708318955825e-07
+          ],
+          "series_terms_used": [
+            835,
+            835,
+            834,
+            834,
+            833
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 158.80354422932274
+        },
+        {
+          "bare_parameter": 4.0,
+          "coupling_to_percolation_prediction_ratios": [
+            1.0,
+            1.000624022068168,
+            1.000997621021525,
+            1.0011205163985841
+          ],
+          "effective_p": 0.001997251049380115,
+          "effective_t_from_t2_over_t1": 0.002001248044136336,
+          "effective_t_to_prediction_ratio": 1.000624022068168,
+          "maximum_percolation_prediction_relative_error": 0.001120516398584126,
+          "past_size": 1000000,
+          "predicted_t_sqrt_u_over_r": 0.002,
+          "projective_couplings_t1_normalized": [
+            499.5630116591642,
+            1.0,
+            0.002001248044136336,
+            4.0039904840861e-06,
+            8.008964131188674e-09
+          ],
+          "series_terms_used": [
+            2355,
+            2354,
+            2354,
+            2353,
+            2353
+          ],
+          "t0_note": "The displayed transformed t0 is not a physical after-post coupling; only the projective sector (t1,t2,...) enters.",
+          "tree_era_proxy_inverse_p": 500.6881835462643
+        }
+      ]
+    },
+    "originary_path_covariance_comparison": {
+      "direct_stage_running_control": {
+        "absolute_spread": 0.007494145199063218,
+        "classification": "PATH_COVARIANCE_FAIL",
+        "law": "g(stage)=-log(16)+log(existing_count+1), t_k(stage)=exp(g(stage))^k",
+        "maximum_to_minimum_ratio": 1.0526315789473684,
+        "path_probabilities": [
+          0.14988290398126466,
+          0.14988290398126466,
+          0.14238875878220145
+        ]
+      },
+      "final_causet": "one origin/post below a,b,c, with a<c and b incomparable to a,c",
+      "fixed_post_era_law": {
+        "absolute_spread": 2.7755575615628914e-17,
+        "classification": "PATH_COVARIANCE_PASSES_THIS_FIXTURE",
+        "path_probabilities": [
+          0.16583423024014315,
+          0.16583423024014315,
+          0.16583423024014313
+        ]
+      },
+      "natural_orders": [
+        [
+          1,
+          2,
+          3
+        ],
+        [
+          2,
+          1,
+          3
+        ],
+        [
+          1,
+          3,
+          2
+        ]
+      ],
+      "reading": "A physical post fixes one conditional law for the following era. Using its completed-past size is not equivalent to changing the law at each gauge birth stage."
+    },
+    "parameters": {
+      "bare_parameters": [
+        0.25,
+        1.0,
+        4.0
+      ],
+      "completed_post_past_sizes": [
+        100,
+        1000,
+        10000,
+        100000,
+        1000000
+      ],
+      "fitted_physical_parameters": [],
+      "maximum_projective_coupling_index": 4
+    },
+    "percolation_fixed_point_control": {
+      "expected_fixed_couplings": [
+        1.0,
+        0.37,
+        0.1369,
+        0.050653,
+        0.01874161,
+        0.006934395699999999
+      ],
+      "maximum_absolute_error": 8.673617379884035e-19,
+      "percolation_parameter": 0.37,
+      "projective_transformed_couplings": [
+        1.0,
+        0.37,
+        0.1369,
+        0.050653,
+        0.01874161,
+        0.0069343957
+      ],
+      "reading": "A post does not generically create running: the transitive-percolation family is already projectively fixed.",
+      "repetitions": 19
+    },
+    "probe": "du_successor_heterodox_post_rg_half_power_probe",
+    "scientific_reading": {
+      "local_kill": "Posts do not generically generate running: transitive percolation is fixed, and the factorial mechanism remains conditional on posts whose occurrence is unproved here.",
+      "new_opportunity": "A completed causal past can source a half-power effective coupling under a fixed law, distinct from normalization/CLT half-power and from a birth-stage schedule.",
+      "not_earned": "No repeated native cycle, manifoldlike geometry, Bianconi work response, unit-bearing scale, selector, Lambda identity, banked claim, or prediction is established.",
+      "overturned": "Covariant post-to-post effective flow is not merely an unbuilt conjecture; the exact conditional CSG map exists."
+    },
+    "source_anchors": [
+      {
+        "url": "https://arxiv.org/abs/gr-qc/0003043",
+        "used_for": "factorial coupling fixture and t_eff~sqrt(u/r) asymptotic",
+        "work": "Sorkin, Indications of causal set cosmology"
+      },
+      {
+        "url": "https://arxiv.org/abs/gr-qc/0009063",
+        "used_for": "exact M map, fixed-point family, and basin result",
+        "work": "Martin, O'Connor, Rideout, Sorkin, post-induced renormalization transformations"
+      },
+      {
+        "url": "https://arxiv.org/abs/1703.07556",
+        "used_for": "break/partial-post conditioning and effective coupling formula",
+        "work": "Dowker and Zalel, Evolution of Universes"
+      },
+      {
+        "url": "https://arxiv.org/abs/0909.4771",
+        "used_for": "tree-era and de-Sitter-like finite-era comparator, with its explicit non-manifold/continuum caveats",
+        "work": "Ahmed and Rideout, de Sitter indications from originary percolation"
+      }
+    ],
+    "verdict": "POST-RG-ANTECEDENT-RECONSTRUCTED / HISTORY-TO-HALF-POWER-CONDITIONALLY-REALIZED / DIRECT-CLOCK-KILL-EVADED / LAW-TO-POST-CYCLE-OPEN"
+  }
+}

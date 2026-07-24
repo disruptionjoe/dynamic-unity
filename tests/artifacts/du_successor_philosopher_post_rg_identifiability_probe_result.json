@@ -1,0 +1,307 @@
+{
+  "checks": [
+    {
+      "name": "common coupling rescaling is removed by projectivization",
+      "pass": true
+    },
+    {
+      "name": "geometric bare couplings alpha=0 have no post-past running",
+      "pass": true
+    },
+    {
+      "name": "factorial bare couplings alpha=1 approach a half-power",
+      "pass": true
+    },
+    {
+      "name": "squared-factorial bare couplings alpha=2 approach a two-thirds power",
+      "pass": true
+    },
+    {
+      "name": "the post-induced exponent changes across admissible nonnegative coupling families",
+      "pass": true
+    },
+    {
+      "name": "the represented sector exactly matches the full-law frozen countermodel definition",
+      "pass": true
+    },
+    {
+      "name": "changing invariant post prehistory changes the conditional projective law",
+      "pass": true
+    },
+    {
+      "name": "the factorial effective coupling follows the predicted cross-history half-power ratio",
+      "pass": true
+    },
+    {
+      "name": "resetting to the bare law is distinguishable from freezing the conditioned law",
+      "pass": true
+    },
+    {
+      "name": "a one-parameter percolation replay is close but not identical on the finite fixture",
+      "pass": true
+    }
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "contested_proposition": "A fixed-history replay can by itself adjudicate whether causal-post renormalization genuinely generates an active scale.",
+  "family_sweep": {
+    "bare_family": "t_n=t^n/(n!)^alpha",
+    "reading": "Post conditioning supplies a common exact map, but the running exponent is selected by the bare coupling family. Alpha=1 gives the half-power; alpha=0 gives no running; alpha=2 tends -2/3.",
+    "rows": {
+      "0": {
+        "alpha": 0.0,
+        "asymptotic_scaled_ratio": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "effective_ratio_t2_over_t1": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "last_scaled_ratio": 1.0,
+        "measured_loglog_slope_last_five": 0.0,
+        "post_pasts": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048,
+          4096,
+          8192
+        ],
+        "predicted_exponent": -0.0
+      },
+      "1": {
+        "alpha": 1.0,
+        "asymptotic_scaled_ratio": [
+          0.9502074881533774,
+          0.9683643639126738,
+          0.9795231730454252,
+          0.9864996212524959,
+          0.990953275763561,
+          0.9938559002712014,
+          0.9957829320210557,
+          0.9970821497578902
+        ],
+        "effective_ratio_t2_over_t1": [
+          0.11877593601917218,
+          0.08559212604775616,
+          0.06122019831533908,
+          0.043597535739100045,
+          0.03096728986761128,
+          0.021961320206375864,
+          0.015559108312828996,
+          0.01101630546084164
+        ],
+        "last_scaled_ratio": 0.9970821497578902,
+        "measured_loglog_slope_last_five": -0.4962197994664614,
+        "post_pasts": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048,
+          4096,
+          8192
+        ],
+        "predicted_exponent": -0.5
+      },
+      "2": {
+        "alpha": 2.0,
+        "asymptotic_scaled_ratio": [
+          0.770812390885913,
+          0.8171874435341038,
+          0.8537786303422661,
+          0.8828890056990103,
+          0.906181986772002,
+          0.9248777842047611,
+          0.9398994337597425,
+          0.9519658669526766
+        ],
+        "effective_ratio_t2_over_t1": [
+          0.04817577443036958,
+          0.03217473943182486,
+          0.02117639212427003,
+          0.01379514071404704,
+          0.008919670001325024,
+          0.005734968623393186,
+          0.003671482163123995,
+          0.0023425817081154294
+        ],
+        "last_scaled_ratio": 0.9519658669526766,
+        "measured_loglog_slope_last_five": -0.6396605541577504,
+        "post_pasts": [
+          64,
+          128,
+          256,
+          512,
+          1024,
+          2048,
+          4096,
+          8192
+        ],
+        "predicted_exponent": -0.6666666666666666
+      }
+    },
+    "t": 1.0
+  },
+  "forbidden_overclaims": [
+    "the vote establishes the mechanism",
+    "post conditioning changes the fundamental CSG law",
+    "a global post is necessarily available as an online trigger",
+    "historical large-number transduction is parameter-free scale creation",
+    "sqrt(1/p) is Lambda because the exponent matches",
+    "finite originary-percolation de Sitter fits establish continuum recovery"
+  ],
+  "identifiability_countermodel": {
+    "bare_law_replay": {
+      "maximum_absolute_difference_from_conditioned_law": 0.48444089168717125,
+      "projective_law": [
+        1.0,
+        0.5000000000000002,
+        0.16666666666666669,
+        0.04166666666666672,
+        0.008333333333333328,
+        0.0013888888888888885
+      ],
+      "reading": "Resetting to the bare factorial law is a history intervention and changes the future measure; freezing the already conditioned law is not."
+    },
+    "frozen_law_countermodel": {
+      "cross_history_intervention_max_difference": 0.007762476176739311,
+      "full_infinite_law_definition": "Q_F=(tilde_t_n^(p0)/tilde_t_1^(p0))_(n>=1)",
+      "law": "Take Q_F=(tilde_t_n^(p0)/tilde_t_1^(p0))_(n>=1) as the fundamental post-era law, with no edge from prehistory.",
+      "projective_law_at_p0": [
+        1.0,
+        0.015559108312828996,
+        0.00024016611165824828,
+        3.677750265734674e-06,
+        5.587243620117964e-08,
+        8.420917895977217e-10
+      ],
+      "represented_numeric_sector": "n=1..6",
+      "represented_sector_max_difference": 0.0
+    },
+    "historical_model": {
+      "bare_family": "t_n=t^n/n!",
+      "effective_ratios_at_p0": [
+        0.015559108312828996,
+        0.015435724646265457,
+        0.015313360575067481,
+        0.015192014727519423,
+        0.015071685554673246
+      ],
+      "effective_ratios_at_p1": [
+        0.007796632136089685,
+        0.007765943015622611,
+        0.0077353772620944086,
+        0.007704934833580635,
+        0.007674615682635672
+      ],
+      "half_power_prediction_for_ratio": 0.5,
+      "p0": 4096,
+      "p1": 16384,
+      "post_map": "tilde_t_n^(p)=sum_k binom(p,k)t_(n+k), projectivized at n=1",
+      "projective_law_at_p0": [
+        1.0,
+        0.015559108312828996,
+        0.00024016611165824828,
+        3.677750265734674e-06,
+        5.587243620117964e-08,
+        8.420917895977217e-10
+      ],
+      "projective_law_at_p1": [
+        1.0,
+        0.007796632136089685,
+        6.0548200882644487e-05,
+        4.683631763683328e-07,
+        3.6087077523668377e-09,
+        2.7695445110363458e-11
+      ],
+      "q_effective_at_p0": 0.015559108312828996,
+      "q_effective_at_p1": 0.007796632136089685,
+      "q_ratio_p1_over_p0": 0.5010976194349843
+    },
+    "identifiability": {
+      "identified_by_one_fixed_history_replay": [
+        "whether online coupling updates are needed within that era"
+      ],
+      "minimum_discriminator": "prehistory access or matched post ensembles with different invariant past cardinalities, bare family held fixed",
+      "not_identified_by_one_fixed_history_replay": [
+        "whether the frozen law was fundamental or inherited from prehistory",
+        "whether invariant post-past cardinality changes conditional future probabilities",
+        "whether the half-power is a Lambda identity"
+      ]
+    },
+    "one_parameter_percolation_replay": {
+      "maximum_relative_error": 0.08283949461440687,
+      "projective_law": [
+        1.0,
+        0.015559108312828996,
+        0.00024208585149034436,
+        3.7666399843417027e-06,
+        5.860555949180506e-08,
+        9.118502478669384e-10
+      ],
+      "q_frozen_from_first_effective_ratio": 0.015559108312828996,
+      "reading": "A one-parameter percolation replay is only asymptotically close; the complete frozen effective vector is exactly observationally equivalent within the chosen era.",
+      "relative_errors_by_n": [
+        0.0,
+        0.0,
+        0.007993383491288863,
+        0.024169590696575316,
+        0.04891720276496048,
+        0.08283949461440687
+      ]
+    }
+  },
+  "primary_source_equations_recomputed": [
+    "tilde_t_n^(p)=sum_(k=0)^p binom(p,k)t_(n+k)",
+    "M(t)_n=t_n+t_(n+1)",
+    "t_n=t^n/n! gives t_effective~sqrt(t/p) in its declared regime"
+  ],
+  "probe": "du_successor_philosopher_post_rg_identifiability_probe",
+  "projective_gauge": {
+    "common_scale_times_37": [
+      1.0,
+      0.05038759617598057,
+      0.002440369711427811,
+      0.00011363397312989532,
+      5.0888041475985366e-06,
+      2.19246856867882e-07
+    ],
+    "maximum_difference": 1.8041124150158794e-16,
+    "reference": [
+      1.0,
+      0.05038759617598075,
+      0.002440369711427811,
+      0.00011363397312989532,
+      5.0888041475985366e-06,
+      2.192468568678824e-07
+    ]
+  },
+  "typed_result": {
+    "effective_couplings": "PROJECTIVE CONDITIONAL LAW / sufficient summary of excluded prehistory, not a demonstrated new fundamental law",
+    "generated_hierarchy": "CONDITIONALLY REALIZED AS HISTORICAL LARGE-NUMBER TRANSDUCTION; exponent and value remain bare-family/history dependent",
+    "lambda_identity": "NOT IDENTIFIED: exponent coincidence supplies neither units, sign, coefficient, stress response, nor observable equality",
+    "memory": "SUPPORTED: changing matched invariant prehistory changes the conditional future measure",
+    "online_feedback_within_era": "NOT SUPPORTED: the complete conditioned law can be frozen without changing that era's transition measure",
+    "physical_scale": "NOT IDENTIFIED: a microscopic unit, geometry map, and observable identity are absent",
+    "post_past_cardinality": "INVARIANT PROPERTY OF THE ORDER, once a post and its past are specified; not a birth-label coordinate",
+    "post_status": "GLOBAL HISTORY CONDITION involving the future; an online trigger requires a separately observable finite-stem event"
+  },
+  "verdict": "CONTESTED PROPOSITION NARROWED. Fixed-history replay can defeat an online-feedback interpretation within one post era, but it cannot identify whether the frozen effective law was fundamental or inherited from invariant prehistory. Cross-history interventions recover the latter distinction. The half-power is factorial-family-conditional and is not a Lambda identity."
+}

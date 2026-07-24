@@ -83,3 +83,37 @@ The commercial-scientist and philosopher-of-science contested swings are
 analytic dependency, dimensional-analysis, and inferential-separability
 arguments recorded in their persona memos. None of the five results is a vote,
 claim promotion, bank decision, or prediction seed.
+
+## Five-persona successor-wave probes
+
+The successor wave starts from every first-wave output, the complete
+fifty-six-item divergent list, and all four Condorcet receipts. Its five
+bounded probes are:
+
+- `du_successor_orthodox_post_rg_identifiability_probe.py`, which reproduces
+  the exact CSG post semigroup and factorial asymptotic, then constructs a
+  hidden-fibre null showing that raw-to-physical Fisher retention is not
+  identified by the physical order law;
+- `du_successor_heterodox_post_rg_half_power_probe.py`, which tests the
+  corrected physical post sector `(T_1,T_2,...)`, reproduces
+  `T_2/T_1~sqrt(u/P)` for the factorial family, and contrasts it with the
+  killed direct stage-running control;
+- `du_successor_commercial_post_rg_decision_probe.py`, which turns the known
+  post map, hierarchy conditions, and fixed-history replay into a compact
+  route-disposition receipt;
+- `du_successor_wild_frontier_post_tail_probe.py`, which evaluates exact
+  finite binomial transforms for
+  `t_n=u^n/(n!)^alpha` and shows that the post exponent depends on the tail
+  class rather than universally equaling `-1/2`; and
+- `du_successor_philosopher_post_rg_identifiability_probe.py`, which separates
+  projective conditional memory, within-era online feedback, bare-family
+  selection, physical scale, and `Lambda` identity through an exact
+  frozen-law countermodel and cross-history intervention.
+
+After a post, `T_0` is physically irrelevant because empty-past births are
+excluded. Post-effective ratios must use the projective physical sequence
+`(T_1,T_2,...)`; both relevant successor probes use `T_2/T_1`.
+
+The five artifacts report `13/13`, `8/8`, `8/8`, `7/7`, and `10/10`
+deterministic checks. These execution counts do not establish post recurrence,
+family selection, held-out geometry, physical units, or a `Lambda` identity.

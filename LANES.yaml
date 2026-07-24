@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 11
+manifest_revision: 12
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -94,7 +94,10 @@ science_council_reprioritization:
   anchor_status: >-
     Lambda~1/sqrt(N) remains the Lane-1 question. The re-audit establishes a class-conditional
     half-power: iid and summable correlations retain -1/2, long-range/global correlations do not,
-    and the Bianconi mean remains unscreened. Do not flatten that into an unconditional derivation.
+    and the Bianconi mean remains unscreened. The successor wave separately recovers a
+    factorial-tail CSG post half-power; positive tail counterfamilies show that post conditioning
+    does not force it universally. Do not flatten either mechanism into an unconditional physical
+    derivation or count/observable identity.
   swing_result: >-
     Track 1 returns a robust local stationary metric across two non-collinear dissipative
     completions but no selected trajectory, no unconditional half-power, and no mean screening.
@@ -151,11 +154,12 @@ physical_influence_reprioritization:
     before candidate physical identification.
   next_move: >-
     Treat coupled HC-DU-011 + HC-DU-022 as the next major program, not one monolithic build.
-    Immediate build HC-DU-011A is the full covariance passport plus exact small-unlabeled-causet
-    harness. Statewise relabeling is insufficient: equal path weight across natural labelings is
-    required. Direct cardinality-running transitive percolation is a killed control. Only
-    path-covariant survivors may attempt a regulator-stable hierarchy relative to one declared
-    microscopic unit, geometry recovery, response/noise, or cosmology.
+    The successor council recovered the exact CSG post-conditioned map, so HC-DU-011A is now a
+    lean literature-aware post passport plus unconditioned post-generativity census, not blind
+    generic enumeration. Direct cardinality-running transitive percolation remains a killed
+    control. Only a fixed family that jointly produces recurrent posts, nontrivial running and
+    held-out acceptable geometry may attempt physical records, response/noise, a hierarchy
+    relative to one declared microscopic unit, or cosmology.
 five_persona_next_actions:
   date: '2026-07-24'
   authority: >-
@@ -210,6 +214,55 @@ five_persona_next_actions:
     Fifty-six persona-specific items are preserved losslessly as UNRANKED / UNCOMMITTED /
     NOT_A_CLAIM. Future routing may merge or disposition them only while retaining source IDs and
     provenance.
+science_council_successor_wave:
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: run the same five-persona process again, beginning from the learnings across
+    every first-wave output, the voting results, and the complete divergent list.
+  contract_ref: >-
+    explorations/science-council-successor-wave-contract-2026-07-24.md
+  vote_ref: >-
+    explorations/science-council-five-persona-condorcet-prioritization-2026-07-24.md
+  synthesis_ref: >-
+    explorations/science-council-five-persona-successor-wave-synthesis-2026-07-24.md
+  divergent_index_ref: >-
+    explorations/science-council-five-persona-successor-divergent-wishlist-index-2026-07-24.md
+  persona_refs:
+    orthodox: explorations/science-council-orthodox-successor-wave-2026-07-24.md
+    heterodox: explorations/science-council-heterodox-successor-wave-2026-07-24.md
+    commercial: explorations/science-council-commercial-successor-wave-2026-07-24.md
+    wild_frontier: explorations/science-council-wild-frontier-successor-wave-2026-07-24.md
+    philosopher: explorations/science-council-philosopher-successor-wave-2026-07-24.md
+  root_correction: >-
+    The physical post-era projective sector begins at T_1; T_0 is irrelevant because empty-past
+    births are excluded. Root corrected two draft probes to use t_eff=T_2/T_1 and reran all five
+    artifacts. The square-root and tail-class results survive.
+  established_antecedent: >-
+    Classical sequential growth has the exact conditional post map
+    T_n(P)=sum_k binom(P,k)t_(n+k). For the factorial family t_n=u^n/n!, the declared large-post
+    regime conditionally gives t_eff~sqrt(u/P). This is known CSG prior art and locally
+    recomputed, not a DU derivation.
+  principal_narrowing: >-
+    Post conditioning does not universally force a half-power. The family
+    t_n=u^n/(n!)^alpha has saddle/finite-transform exponents -alpha/(alpha+1); tested alpha
+    0,1/2,1,2 give 0,-1/3,-1/2,-2/3. The half-power therefore carries a bare-tail selection
+    burden.
+  inference_correction: >-
+    Fixed-history replay rules out required online updates within one era, but cannot distinguish
+    a fundamental frozen law from a complete effective law inherited from invariant prehistory.
+    Cross-history intervention is required. Raw-to-physical Fisher retention is also not
+    order-identified under hidden-fibre refinement.
+  integrated_disposition: >-
+    EXACT POST-RG ANTECEDENT RECOVERED / FACTORIAL HALF-POWER CONDITIONAL / UNIVERSAL POST
+    HALF-POWER OVERTURNED / POST GENERATIVITY, GEOMETRY, ACTIVE RETURN, UNITS AND LAMBDA IDENTITY
+    OPEN. No claim banked or seeded.
+  immediate_sequence: >-
+    Freeze a lean literature-aware post passport; test the fixed-family intersection of recurrent
+    post production and nontrivial running; run held-out multi-estimator geometry only on
+    survivors; then and only then attempt physical coupling records, response, units or cosmology.
+  divergent_custody: >-
+    Forty-six successor items are preserved as UNRANKED / UNCOMMITTED / NOT_A_CLAIM in addition
+    to the fifty-six first-wave items.
 lanes:
 - id: '1'
   label: Lane 1
@@ -223,9 +276,11 @@ lanes:
   purpose_type: north_star
   lead_bet: >-
     The single MOST IMPORTANT question in this lane is when Λ~1/√N is physically selected from the
-    record count N (channel 1.3). The half-power is native within the additive/summable-correlation
-    class, not universal; its observable identification, extensive-mean subtraction, and O(1)
-    coefficient remain open. Broad in admission, anchored in priority.
+    record count N (channel 1.3). Two mathematically distinct conditional mechanisms now realize a
+    half-power: additive/summable-correlation fluctuations and factorial-family CSG post
+    conditioning. Neither universally selects the exponent or identifies the same physical
+    observable. Count identity, family selection, recurrence, geometry, units, extensive-mean
+    subtraction and the O(1) coefficient remain open. Broad in admission, anchored in priority.
   anchor:
     name: Λ~1/√N — the native scaling of the record count N (the Lane-1 North-Star anchor)
     elevated: '2026-07-21 (Joe direct chat)'
@@ -241,9 +296,12 @@ lanes:
       BANKED AT CLASS-CONDITIONAL GRADE: the ½ EXPONENT is native for additive, finite-variance,
       sufficiently mixing fluctuations. The 2026-07-23 robustness tournament shows it is not forced
       by extensivity alone: long-range correlations give a different exponent and a global mode
-      gives no suppression. The Bianconi, learning, and Sorkin readings therefore share a CLT-class
-      mechanism and are not fully independent consilience. OPEN: the physical correlation class,
-      fluctuation-as-Lambda identification, extensive-mean screening, and O(1) coefficient.
+      gives no suppression. Successor-council correction: Sorkin's factorial CSG post result is not
+      another CLT reading. It is a distinct exact conditional convolution mechanism with
+      t_eff~sqrt(t/P), but the half-power is factorial-tail-specific and post recurrence, family
+      selection, geometry, units and observable identity remain open. The earlier grouping of the
+      Sorkin post mechanism with the CLT class is superseded. OPEN: the physical correlation/tail
+      class, count and Lambda identification, extensive-mean screening, and O(1) coefficient.
       The R1-R7 test wave (2026-07-21) sharpened why: R6b — the Λ↔N loop pins Ω_Λ only via one tuned
       knob (generic O(1) ~0.7-0.8; the 120-order fine-tuning is GONE, but 0.68 needs tuning); R6a — a
       set-point-free SOC controller SOURCES the exponent + critical point (the "must import a set-point"
@@ -255,13 +313,13 @@ lanes:
     live_target: >-
       SWING-DU-PHY-02 consumed the bounded physical-influence move: live Bianconi and record
       score-energy objects exist, but no functional selector or nonzero physical scale was found.
-      The five-persona reappraisal preserves that verdict while staging its missing response,
-      embedding and units legs. The next major North-Star program is coupled HC-DU-011 +
-      HC-DU-022; the immediate build is HC-DU-011A, a full covariance passport and exact
-      small-unlabeled-causet harness. Direct count-running is killed because statewise relabeling
-      does not ensure equal path weight across natural labelings. No coefficient fitting, proxy
-      proliferation, normalized-profile work, monolithic frontier build, or cosmology before this
-      admission test counts as progress.
+      The successor council recovers an exact CSG post-conditioned hierarchy while preserving the
+      no-selector/no-physical-scale verdict. The immediate HC-DU-011A object is a lean post passport
+      plus an unconditioned generativity/recurrence census across fixed tail families. A survivor
+      must jointly produce posts, nontrivial running and held-out acceptable geometry before
+      physical records, response, units or cosmology. Direct count-running remains killed. No
+      coefficient fitting, proxy proliferation, broad enumeration, selected post epoch, or
+      cosmology before this intersection test counts as progress.
   priority_guard: >-
     SWING-DU-COV-02 kills the strongest local constant-kappa lift except at the constant-Lambda
     limit: every accelerating fixed point has c_N^2=3 Omega_V*>1. SWING-DU-CMF-01 then executes the
@@ -272,10 +330,11 @@ lanes:
     early fraction order one; the raw martingale is too noisy early, rarely preserves a positive
     sign, and has no stationary de Sitter limit. Outcome: CAUSAL_ESCAPE_TRACKER_FAIL. A fitted
     offset/window is REIMPORTS_COSMIC_CLOCK. Further coefficient or kernel tuning does not count as
-    physical progress. Reopen through the staged HC-DU-011 + HC-DU-022 program. First require
-    full path covariance, not merely statewise relabeling; then seek a regulator-stable hierarchy
-    relative to a declared microscopic unit, followed by geometry, causal response/noise and the
-    common-past spectrum.
+    physical progress. Reopen through the staged HC-DU-011 + HC-DU-022 program. Use the exact
+    post-conditioned map as the positive control while preserving full path covariance; then test
+    unconditioned post recurrence, tail-class running and held-out geometry. Only a survivor may
+    seek physical records, a hierarchy relative to a declared microscopic unit, causal
+    response/noise and the common-past spectrum.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -318,8 +377,11 @@ lanes:
       consilience. SWING-DU-PHY-02 then constructs live influence objects but finds no independent
       functional selector or unit-bearing nonzero scale; relative Gini persistence does not promote
       the amplitude. The five-persona null further shows the replication signature is a generic
-      normalization result, while open driven Bianconi activity inherits its cadence. See
-      lead_bet.anchor and the five-persona synthesis.
+      normalization result, while open driven Bianconi activity inherits its cadence. Successor
+      correction: exact CSG post conditioning supplies a distinct conditional half-power for the
+      factorial tail family, not a CLT mechanism. Positive tail counterfamilies give other
+      exponents, so family selection, post recurrence, count/observable identity, geometry, units
+      and Lambda remain OPEN. See lead_bet.anchor and both five-persona syntheses.
   - id: '1.4'
     title: Covariant cosmology and observational confrontation
     scope: >-
@@ -345,11 +407,14 @@ lanes:
       quantization, constraints, limits and predictions); construct explicit typed maps among the
       several N objects; execute the staged HC-DU-011 + HC-DU-022 order-first causal-scale program;
       test CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the
-      Standard Model. Immediate object HC-DU-011A freezes state, transitions, full natural-labeling
-      path covariance, normalization, spectator/Bell behavior, past immutability and physical
-      coupling-record status before geometry or scale work. Work packages WP-02/WP-03/WP-04 in the
-      fifty-persona register.
-    grade: ACTIVE PROGRAM / FIRST BUILD HC-DU-011A / NAIVE COUNT-RUNNING KILLED
+      Standard Model. Immediate object HC-DU-011A is a lean literature-aware post passport:
+      physical projective sector, exact conditional map, natural-labeling covariance, global-post
+      versus finite-landmark status, and killed direct-count control. It then measures
+      unconditioned post recurrence across fixed tail families before held-out geometry or
+      physical-record work. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
+    grade: >-
+      ACTIVE PROGRAM / EXACT POST ANTECEDENT REPRODUCED / POST GENERATIVITY PLUS HELD-OUT GEOMETRY
+      NEXT / NAIVE COUNT-RUNNING KILLED
 - id: '2'
   label: Lane 2
   ordinal: 2
@@ -378,10 +443,13 @@ lanes:
       reopener is consumed: stop adding proxies, coefficients, rho variants, or normalized-profile
       builds. The five-persona reappraisal narrows the live-object concept increment, scopes
       Bianconi transience to closed relaxation, and makes response, embedding and units staged
-      research legs. The active frontier is the coupled HC-DU-011 + HC-DU-022 program, beginning
-      with full path covariance on small causets. Direct p(N)/g(N) schedules and generic fitted
-      nonlocal kernels are stopped; influence objects may serve only as downstream telemetry until
-      an independent held-out response exists.
+      research legs. The successor wave recovers the exact CSG post-conditioned map and a
+      factorial-tail half-power, while overturning a universal post half-power and deferring the
+      raw-retention dimension selector. The active frontier is the coupled HC-DU-011 + HC-DU-022
+      program: lean post passport, unconditioned recurrence/tail-family census, then held-out
+      geometry. Direct p(N)/g(N) schedules and generic fitted nonlocal kernels are stopped;
+      influence objects may serve only as downstream telemetry until an independent held-out
+      response exists.
   - id: '2.3'
     title: GU ablation and rival-frame tournament
     scope: >-
@@ -396,8 +464,11 @@ lanes:
       Rework the source-internal-MINT search with non-circular novelty measures, RG/emergence,
       evolutionary open-endedness, network topology and physically explicit selection dynamics;
       distinguish operational novelty from literal fundamental algebra growth. Couple the next
-      order-first causet law to a genuinely generated spectral/nonlocality scale; an inserted
-      `m~H0`, `N0`, reset or window does not qualify. Work package WP-08.
+      order-first causet law to a genuinely generated spectral/nonlocality scale. An externally
+      inserted or fitted `m~H0`, `N0`, reset or window does not qualify. An invariant post-past
+      count generated by a specified fixed growth law is an admissible historical input, but its
+      occurrence distribution, typicality, geometry and unit map must be earned rather than
+      selected retrospectively. Work package WP-08.
   - id: open
     title: (open)
     scope: New program-native candidates admitted as they earn an object + a cheap test.
@@ -536,7 +607,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 11
+  revision: 12
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -551,8 +622,11 @@ provenance:
     executes SWING-DU-PHY-02, consumes the bounded physical-influence reopener, and restores
     HC-DU-011 + HC-DU-022 as the next major build; rev11 (Joe direct chat, 2026-07-24) runs one
     independent agent per Science Council persona, factors the concept grade, stages the reopener,
-    kills naive count-running, and narrows the next program to HC-DU-011A first; anchor question +
-    P/P/P unchanged
+    kills naive count-running, and narrows the next program to HC-DU-011A first; rev12 (Joe direct
+    chat, 2026-07-24) runs the successor wave from all prior outputs, vote receipts and divergent
+    items, recovers exact post RG, narrows its half-power to the factorial tail class, and moves
+    the next discriminator to post generativity plus held-out geometry; anchor question + P/P/P
+    unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -615,3 +689,13 @@ provenance:
     direct count-running transitive percolation because statewise relabeling failed full path
     covariance. HC-DU-011 + HC-DU-022 remains the next program, with HC-DU-011A as its first build.
     No lane or Purpose/Passion/Practice changed; no claim was banked or seeded.
+  rev12_note: >-
+    2026-07-24 (Joe direct chat): launched a second independent five-persona wave from every prior
+    council output, the four Condorcet receipts and the complete fifty-six-item wish list. Recovered
+    the exact classical-sequential-growth post map and factorial conditional half-power; corrected
+    the physical post sector to (T_1,T_2,...) with t_eff=T_2/T_1; overturned a universal post
+    half-power through positive tail counterfamilies; narrowed fixed-history replay to within-era
+    online feedback; and killed raw Fisher-retention as an order-only selector through a
+    hidden-fibre null. HC-DU-011A becomes a lean post passport plus recurrence census, followed by
+    held-out geometry. Forty-six new divergent paths are preserved. No lane, Purpose/Passion/
+    Practice, claim bank, prediction seed, sibling verdict or public posture changed.

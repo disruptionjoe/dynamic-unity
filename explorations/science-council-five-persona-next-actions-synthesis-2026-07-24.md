@@ -366,6 +366,15 @@ No likelihood run is warranted before Stages 1–5 survive.
 | `COUNCIL-H5` | A generated transfer-operator gap can break the scale-free tracker failure | `CONJECTURE / OPEN` | Regulator-stable gap, geometry basin, early/late controls | Finite matrix gap is dimensional transmutation |
 | `COUNCIL-C1` | PHY-02 constructed live influence components but identified no selector or scale | `POSSIBLE SCOPED CLAIM / NOT BANKED` | Independent implementation and claim audit | No selector or scale can exist |
 
+**Successor correction, 2026-07-24.** `COUNCIL-H1` is superseded at its
+coarse grade: the exact conditional CSG post map is a primary-source-derived
+antecedent and has been locally recomputed. Post generation and recurrence for
+the factorial half-power family, held-out geometry, active return, units, and
+physical identity remain open. `COUNCIL-H3` is also narrowed: physical
+down-set Fisher information remains meaningful, but a raw-to-physical
+retention fraction is not order-identified without a justified raw fibre. See
+`science-council-five-persona-successor-wave-synthesis-2026-07-24.md`.
+
 ## Stop ledger
 
 Stop now:
