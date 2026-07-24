@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 8
+manifest_revision: 9
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -24,6 +24,7 @@ active_hardening_program_note: >-
   original P01-A through P50-B persona items remain the lossless source register; hardening IDs,
   work packages and cross-repo reuse pointers route them but never replace them.
 strategic_reprioritization:
+  status: superseded_by_science_council_reprioritization_2026_07_23
   date: '2026-07-22'
   authority: >-
     Coordinator update under Joe's standing authorization (direct chat) to revise research-repo canon
@@ -53,6 +54,59 @@ strategic_reprioritization:
     The parallel fifty-persona flow OWNS the DE-value/cosmology physics (channels 1.4/1.5, COV/CMF swings,
     P-/HC-items). This coordinator thread owns foundations-theorem hardening + conceptual exploration +
     Lane-4 productization. Do not duplicate the parallel flow's queued work.
+  supersession_reason: >-
+    GU's 2026-07-22 operator bridge correction invalidated the load-bearing inference from
+    K-null spectral halves to no J-self-adjoint realization, externality, sigma=w1, or exactly one
+    external bit. The reprioritization remains historical provenance but no longer directs work.
+science_council_reprioritization:
+  date: '2026-07-23'
+  authority: >-
+    Joe direct chat: orchestrate a swing across entropy-geometry robustness,
+    influence-redistribution abduction, and conditional finality phenomenology; implement the
+    Science Council's commercial, philosopher-of-science, and heterodox improvements.
+  premise_rebase: >-
+    Treat GU's current operator-domain state as SOURCE-GAP. Do not use the superseded
+    no-domain/externality/sigma=w1/exactly-one chain as a premise. Fixed sigma or tau may be used
+    only as labeled conditional inputs where a construction needs them.
+  method_rebase: >-
+    Derivation is one non-ordinal warrant, not the exploration value function. Conditional
+    entailment, constructive realization, comparative abduction, and typed structural analogy
+    are first-class when their assumptions, free choices, nulls, falsifiers, and failure scope are
+    explicit. Use lab/process/conditional-and-abductive-research-contract.md and the executable
+    candidate harness.
+  active_swing: "SWING-DU-SCI-01"
+  active_swing_status: "COMPLETED_RESEARCH_SWING"
+  active_swing_ref: >-
+    explorations/science-council-three-track-swing-contract-2026-07-23.md
+  active_swing_result_ref: >-
+    explorations/science-council-three-track-swing-synthesis-2026-07-23.md
+  priorities:
+  - "Complete the Bianconi entropy-geometry dynamics robustness tournament across legitimate
+    completions, non-diagonal geometry, and correlation classes; test rather than assume the CLT
+    conditions and extensive-mean screening."
+  - "Test the CONCEPT-DU-001 formalization family comparatively, preserve the invariant across
+    local failures, and decide whether any dynamics sustains nonzero influence concentration
+    without dialing the target."
+  - "Build PRED-DU-001 as a labeled conditional model with quantitative recoverability,
+    record-fidelity scaling, a smooth-decoherence null, and a stop rule; no microscopic source
+    derivation is required for exploration."
+  anchor_status: >-
+    Lambda~1/sqrt(N) remains the Lane-1 question. The re-audit establishes a class-conditional
+    half-power: iid and summable correlations retain -1/2, long-range/global correlations do not,
+    and the Bianconi mean remains unscreened. Do not flatten that into an unconditional derivation.
+  swing_result: >-
+    Track 1 returns a robust local stationary metric across two non-collinear dissipative
+    completions but no selected trajectory, no unconditional half-power, and no mean screening.
+    Track 2 supports CONCEPT-DU-001 across three diverse proxies and constructs target-free
+    concentration dynamics, but no proxy wins and the physical weights/rho/value remain open.
+    Track 3 derives a quantitative conditional finality surface, but an unconstrained smooth
+    memory law absorbs the finite-grid knee. No claim is banked or seeded.
+  next_move: >-
+    Physicalize CONCEPT-DU-001: extract a basis-invariant influence distribution from a live DU
+    dynamics (first candidates: Bianconi entropy-dissipation spectrum and record/Fisher leverage),
+    then test whether the physics selects a functional and sustains concentration without fitting
+    rho or Lambda. Do not add proxies, retune the Bianconi coefficient/mean, or refit a finality
+    knee before those tracks' stop conditions are lifted.
 lanes:
 - id: '1'
   label: Lane 1
@@ -65,10 +119,10 @@ lanes:
     high-exploit / North-Star work. The directed lane: pick the biggest bets and push them hard.
   purpose_type: north_star
   lead_bet: >-
-    The single MOST IMPORTANT thing in this lane is the NATIVE Λ~1/√N scaling of the record count N
-    (channel 1.3) — the one genuinely-native, cross-route-consilient result. The tachyon-transducer
-    (1.1) and the B5 source action (1.2) are routes toward SOURCING its still-imported O(1)
-    coefficient. Broad in admission, anchored in priority.
+    The single MOST IMPORTANT question in this lane is when Λ~1/√N is physically selected from the
+    record count N (channel 1.3). The half-power is native within the additive/summable-correlation
+    class, not universal; its observable identification, extensive-mean subtraction, and O(1)
+    coefficient remain open. Broad in admission, anchored in priority.
   anchor:
     name: Λ~1/√N — the native scaling of the record count N (the Lane-1 North-Star anchor)
     elevated: '2026-07-21 (Joe direct chat)'
@@ -81,22 +135,26 @@ lanes:
       its fluctuation is dark energy, its growth is becoming (the roll), its finality-structure is
       measurement, its causal order is spacetime.
     honest_standing: >-
-      BANKED: the ½ EXPONENT is native and consilient (two wave-1 routes — DeWitt-fiber + Bianconi-
-      entropy — plus Sorkin's causal-set fluctuation). OPEN: the O(1) COEFFICIENT is NOT yet sourced.
+      BANKED AT CLASS-CONDITIONAL GRADE: the ½ EXPONENT is native for additive, finite-variance,
+      sufficiently mixing fluctuations. The 2026-07-23 robustness tournament shows it is not forced
+      by extensivity alone: long-range correlations give a different exponent and a global mode
+      gives no suppression. The Bianconi, learning, and Sorkin readings therefore share a CLT-class
+      mechanism and are not fully independent consilience. OPEN: the physical correlation class,
+      fluctuation-as-Lambda identification, extensive-mean screening, and O(1) coefficient.
       The R1-R7 test wave (2026-07-21) sharpened why: R6b — the Λ↔N loop pins Ω_Λ only via one tuned
       knob (generic O(1) ~0.7-0.8; the 120-order fine-tuning is GONE, but 0.68 needs tuning); R6a — a
       set-point-free SOC controller SOURCES the exponent + critical point (the "must import a set-point"
       wall falls) but is SCALE-FREE, so it cannot output a magnitude, and non-additivity (what a sourced
-      count needs) is in TENSION with a self-averaging 1/√N (non-additive gives a heavy-tailed 3/2; 1/√N
-      returns only under additive counting = the wave-1 import). The SIGN stays the external σ bit. Do
-      NOT state "Λ~1/√N is derived" flatly — the exponent is, the value is not.
+      count needs) is in TENSION with a self-averaging 1/√N (non-additive gives a heavy-tailed 3/2;
+      1/√N returns only under additive/mixing counting). The sign may be supplied conditionally, but
+      GU's current operator bridge does not prove its physical externality or sigma=w1. Do NOT state
+      "Λ~1/√N is derived" flatly.
     live_target: >-
-      Source the O(1) coefficient via a SECOND, self-sourced scale-fixing ingredient. Concrete
-      candidate: dimensional-transmutation-style scale-generation tied to the D-spectral gap (QCD
-      precedent — a scale-free theory self-generates ΛQCD with no imported scale). This is downstream
-      of the same B5 source-action / source-internal-MINT bottleneck all five R-tests converge on
-      (rtest-wave-synthesis-2026-07-21.md); type-III (modular/KMS) source-selection and the neural-
-      scaling spectral-dimension lead are the adjacent routes to the same sourced scale.
+      Identify the physical influence/correlation object that selects the half-power class and ask
+      whether its dynamics also supplies a nonzero persistent concentration or screens the extensive
+      mean. First bounded move: compare basis-invariant entropy-dissipation weights from the Bianconi
+      flow with record/Fisher-leverage weights from the named learning/finality loss. No further
+      coefficient fitting, proxy proliferation, or generic source search counts as progress.
   priority_guard: >-
     SWING-DU-COV-02 kills the strongest local constant-kappa lift except at the constant-Lambda
     limit: every accelerating fixed point has c_N^2=3 Omega_V*>1. SWING-DU-CMF-01 then executes the
@@ -118,10 +176,11 @@ lanes:
       sign+magnitude+arrow as one object; the roll<->accretion computation; the volume->Lambda
       link (test sigma.Tr-ln-G from the Bianconi habitat); the tachyon centrality past W157.
     grade: >-
-      SUPERSEDED as a BUILD target (2026-07-22 reprioritization): the becoming-core is now a
-      CONDITIONAL-THEOREM (source-is-observer — genuine becoming requires exactly one external bit σ, by
-      Kleene; a fully source-internal mint is a quine). Lane-1 priority is to PROVE + position it, not
-      keep building the source. See strategic_reprioritization.
+      REBASED 2026-07-23: the prior source-is-observer / exactly-one-external-bit theorem priority
+      depended on GU's superseded operator-domain inference and is not current. Source/observer
+      constructions remain admissible conditional exploration, but the active work is the
+      three-track completion/abduction/conditional-prediction swing in
+      science_council_reprioritization.
     flip_witness_target: >-
       (wave-2, 2026-07-21) The D-FORK flip-witness is now PRICED to a hard spec: a source action
       whose flow ISSUES new mode content — grows ker(Γ) — non-absorbingly (not one-shot) and
@@ -144,9 +203,10 @@ lanes:
       Does Lambda~1/sqrt(N) fall out natively? phi = 1/(3 Omega_Lambda)^2 from the (9,5)/gimmel
       DeWitt-fiber measure + a native count, beating the Sorkin-import and the de-Sitter-relabel.
     grade: >-
-      Exponent native/consilient (BANKED); O(1) coefficient imported/tuned (OPEN, R6b). This channel
-      is the lane's North-Star anchor as of 2026-07-21 — see lead_bet.anchor for the honest standing
-      and the live sourcing target.
+      HALF-POWER BANKED ONLY AT ADDITIVE/SUMMABLE-CORRELATION CLASS GRADE; physical correlation
+      selection, observable identification, extensive-mean screening, and O(1) coefficient remain
+      OPEN. The Bianconi robustness pass reduces the independence of the existing CLT-based
+      consilience. See lead_bet.anchor and SWING-DU-SCI-01.
   - id: '1.4'
     title: Covariant cosmology and observational confrontation
     scope: >-
@@ -196,9 +256,11 @@ lanes:
     title: Candidate-unification generation
     scope: >-
       Abduce / synthesize / reframe new candidate unifying structures (including non-GU frames);
-      give each a cheap discriminating test; promote survivors to Lane 1. CMF-01's literal,
-      bi-wave, martingale, offset and generated-scale tournament leaves the order-first causal scale
-      generator as the active frontier candidate, not a generic fitted nonlocal kernel.
+      give each a cheap discriminating test; promote survivors to Lane 1. SWING-DU-SCI-01 supports
+      CONCEPT-DU-001 across participation, Shannon/KL, and Gini/Lorenz but finds no proxy winner;
+      a target-free reinforcement/mixing flow conditionally sustains concentration. Active move:
+      physicalize the influence weights and selector. Stop adding proxies. The order-first causal
+      scale generator remains a separate frontier candidate, not a generic fitted nonlocal kernel.
   - id: '2.3'
     title: GU ablation and rival-frame tournament
     scope: >-
@@ -270,9 +332,12 @@ lanes:
   - id: '4.1'
     title: Prediction extraction
     scope: >-
-      Extract, freeze, and expose falsifiable predictions: the DE-sign no-crossing; the recovered
-      TeV mirror + DE/Planck-ratio; the parity co-variance leg — carried with their blockers. TaF
-      bridge units-guard (rate^2-to-rate^2) applied as a sanity check.
+      Extract, freeze, and expose falsifiable predictions carried with their blockers. PRED-DU-001
+      now has a quantitative conditional independent-record model, but remains
+      IDENTIFIABILITY-LIMITED because an unconstrained smooth memory law absorbs the finite-grid
+      knee; do not seed it without a mechanism-specific discriminator and local update. CPRED-03
+      exactly-one-sigma is retired as written after GU's operator-bridge correction. TaF bridge
+      units-guard (rate^2-to-rate^2) remains a sanity check.
   - id: '4.2'
     title: Candidate identification & seeding to the Drafting Factory
     scope: >-
@@ -350,7 +415,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 8
+  revision: 9
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -359,7 +424,9 @@ provenance:
     rev6 Joe-directed COV-02 execution via "Do it"; rev7 Joe-directed heterodox CMF-01 execution);
     rev8 (coordinator under Joe standing authorization + awareness note, 2026-07-22) strategic
     reprioritization — becoming-core = theorem not build, DE-value = resolve-if-a-problem, elevate
-    Lane-4 hardening, factory-hardening-request PREEMPTS North-Star; anchor + P/P/P unchanged
+    Lane-4 hardening, factory-hardening-request PREEMPTS North-Star; rev9 (Joe direct chat,
+    2026-07-23) supersedes the stale theorem priority after the GU bridge correction and opens
+    SWING-DU-SCI-01 under the conditional/abductive contract; anchor question + P/P/P unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -392,3 +459,13 @@ provenance:
     sign-persistence and de Sitter controls. Elevated the coupled HC-DU-011 + HC-DU-022 order-first
     causal scale generator as the next frontier object without changing the Lane-1 anchor's
     mathematical half-power grade, canon or public posture. No lane was added or removed.
+  rev9_note: >-
+    2026-07-23 (Joe direct chat): applied the Science Council inline after a direct GU/P2C/TaF/TI
+    review. Superseded rev8's source-is-observer / exactly-one-sigma work priority because GU's
+    corrected operator bridge is SOURCE-GAP, not an externality theorem. Executed SWING-DU-SCI-01
+    across Bianconi completion robustness, the CONCEPT-DU-001 formalization family, and
+    conditional finality phenomenology. Added a durable non-ordinal warrant/candidate contract.
+    Narrowed the half-power to additive/summable-correlation class grade, recorded no Bianconi
+    mean screening, supported the influence concept without selecting a proxy or value, and held
+    the finality knee at identifiability-limited conditional-model grade. No lane or
+    Purpose/Passion/Practice changed; no new claim was banked.

@@ -13,7 +13,7 @@ sinks of learnings*, not as walls.
 
 | Sibling | What this repo may draw / contribute | The self-check duty |
 |---|---|---|
-| **GU / Observerse** | consumes the static `(9,5)` substrate, the `σ`/`τ` data, the type wall, the hosts-not-derives + Rung-2 results, the record-count mode `p` — Weinstein's originating conjecture; contributes dynamic findings back | re-verifies anything it builds on; does not silently re-assert GU's grades — checks them here |
+| **GU / Observerse** | may use the static `(9,5)` substrate and fixed `σ`/`τ` as labeled inputs, the type wall, and the record-count mode `p` — Weinstein's originating conjecture; contributes dynamic findings back | re-verifies anything it builds on; GU's corrected operator bridge is `SOURCE-GAP`, so DU must not import the superseded no-domain, externality, `σ=w1`, anomaly, or exactly-one-bit chain |
 | **time-as-finality (TaF)** | may draw the finality-rate / capability-loss readings (`λ_max = 1/t_obs`) and contribute dynamic results | the GU↔TaF identity is a **hypothesis to test here**, not a granted premise; verify, don't assert |
 | **temporal-issuance (TI)** | may draw the issuance / "does anything cross" semantics as a reading of `N`-growth | same — issuance grounding of the DE magnitude is checked, not imported as fact |
 | **P2C (possibility-to-capability)** | consumes the B5 source-action construction (the shared blocked spine) and the signed-graph home; contributes back | takes P2C's construction *when delivered*, and re-checks its fit rather than assuming it |

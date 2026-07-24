@@ -1,0 +1,399 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Defines the static action and stationary equation under test.",
+        "statement": "The imported Bianconi metric action is evaluated on a real non-diagonal SPD block.",
+        "status": "IMPORTED"
+      },
+      {
+        "id": "A2",
+        "role": "Prevents a local-attractor result from being misstated globally.",
+        "statement": "The stable branch g > sigma is the local basin of interest; the action is not claimed globally bounded near the SPD boundary.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Makes completion nonuniqueness executable.",
+        "statement": "Frobenius and affine-invariant SPD metrics are both legitimate but non-unique dissipative completion choices.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A4",
+        "role": "Exposes the dependence of the exponent on correlations.",
+        "statement": "The fluctuation observable is a centered finite-variance sum with the explicitly named stationary covariance kernel.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A5",
+        "role": "Marks the Sorkin-style observable identification, not a specimen result.",
+        "statement": "Lambda_eff is identified with RMS fluctuation per cell after the raw extensive mean is removed.",
+        "status": "IMPORTED"
+      },
+      {
+        "id": "A6",
+        "role": "Limits the result to disclosure dynamics, not cell issuance.",
+        "statement": "The tested substrate has fixed cell count N.",
+        "status": "PROJECT_NATIVE"
+      }
+    ],
+    "candidate_id": "SWING-DU-SCI-01-T1",
+    "comparators": [
+      "Euclidean versus affine-invariant dissipative completion",
+      "iid versus short-range, long-range, and global covariance",
+      "raw extensive mean versus centered fluctuation density"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "ADJACENT-BIANCONI-SPD-ENTROPY-COMPLETIONS",
+      "invariant": "Lambda reads a dynamically sourced deviation of effective influence from uniform, is baseline at uniform, and grows monotonically with concentration."
+    },
+    "equations": [
+      "S(G)=sigma log det G + Tr[G(log G-log G_ind)]-Tr G",
+      "grad_E S=sigma G^{-1}+log G-log G_ind",
+      "dot G_E=-grad_E S",
+      "dot G_AI=-G(grad_E S)G under the affine-invariant SPD metric",
+      "Var(sum_i X_i)=N C(0)+2 sum_{r=1}^{N-1}(N-r)C(r)",
+      "Lambda_eff(N)=sqrt(Var(sum_i X_i))/N"
+    ],
+    "falsifiers": [
+      "A dissipative completion misses the shared stationary equation in its stable basin.",
+      "The two gradient vector fields are collinear on the generic noncommuting fixture.",
+      "Long-range or global covariance retains the iid half-power exponent.",
+      "The raw stationary vacuum term becomes subextensive without an added constraint."
+    ],
+    "free_choices": [
+      {
+        "choice": "sigma=0.2 and one generic 3x3 noncommuting SPD fixture",
+        "id": "C1",
+        "sensitivity_test": "The claims are expressed as structural checks: noncommutation, stable-branch convergence, and covariance exponents, not fitted values.",
+        "why_not_forced": "The specimen does not select this coupling or fixture."
+      },
+      {
+        "choice": "Euclidean and affine-invariant gradient metrics",
+        "id": "C2",
+        "sensitivity_test": "Compare vector-field collinearity, action descent, and endpoint agreement; include an isospectral conservative no-relaxation control.",
+        "why_not_forced": "A variational action fixes extrema, not a mobility metric."
+      },
+      {
+        "choice": "rho=0.65 and long-range exponent alpha=0.5",
+        "id": "C3",
+        "sensitivity_test": "Use asymptotic classes: summable covariance should retain -1/2; power-law alpha should give -alpha/2; global covariance should give 0.",
+        "why_not_forced": "Neither correlation kernel is supplied by the action."
+      },
+      {
+        "choice": "Block replication as the mean-screening discriminator",
+        "id": "C4",
+        "sensitivity_test": "A real screen must make the raw term subextensive; constant density under exact replication is an explicit no-screening result.",
+        "why_not_forced": "No cosmological coupling or renormalization rule is built."
+      }
+    ],
+    "null_models": [
+      "Isospectral orthogonal Lax flow: SPD dynamics without relaxation",
+      "Global common mode: an extensive sum without CLT suppression"
+    ],
+    "observables": [
+      "action monotonicity and stationary-gradient residual",
+      "initial vector-field noncollinearity and endpoint agreement",
+      "tail log-log slope of fluctuation density in four covariance classes",
+      "raw vacuum-term growth and density under block replication"
+    ],
+    "question": "Which stationary, trajectory, fluctuation-scaling, and mean-screening claims survive legitimate completions of the Bianconi SPD entropy action?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "matrix gradient matches a noncommuting finite-difference direction",
+          "pass": true
+        },
+        {
+          "name": "specimen is genuinely non-diagonal and noncommuting",
+          "pass": true
+        },
+        {
+          "name": "Euclidean completion dissipates S and reaches the stable equation",
+          "pass": true
+        },
+        {
+          "name": "affine-invariant completion dissipates S and reaches the stable equation",
+          "pass": true
+        },
+        {
+          "name": "legitimate dissipative completions have non-collinear vector fields",
+          "pass": true
+        },
+        {
+          "name": "dissipative completions agree on the stationary metric",
+          "pass": true
+        },
+        {
+          "name": "conservative isospectral control preserves S and does not relax",
+          "pass": true
+        },
+        {
+          "name": "iid fluctuations give the half-power density",
+          "pass": true
+        },
+        {
+          "name": "summable short-range correlations retain the half-power asymptote",
+          "pass": true
+        },
+        {
+          "name": "non-summable long-range correlations change the exponent",
+          "pass": true
+        },
+        {
+          "name": "one global mode gives an unsuppressed density",
+          "pass": true
+        },
+        {
+          "name": "extensivity alone does not determine the fluctuation exponent",
+          "pass": true
+        },
+        {
+          "name": "NO-SCREENING control: raw vacuum mean stays extensive",
+          "pass": true
+        }
+      ],
+      "claim": "The two tested dissipative completions share the stable stationary metric but not the trajectory; the half-power survives iid and summable mixing correlations, fails for long-range/global correlation, and the raw extensive mean is not screened.",
+      "grade": "PARTIAL \u2014 completion-robust local fixed point and mixing-class half-power; completion not selected, observable imported, mean unscreened.",
+      "remaining_uncertainty": "Only one finite non-diagonal block and two dissipative mobilities are tested; covariance calculations use linearized centered fluctuations; no cell growth, cosmological response, or native subtraction mechanism exists."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Stop claiming completion-robust dynamics if modest legitimate SPD mobilities change the stationary observable rather than only its path.",
+      "Stop saying the half-power is forced by extensivity alone; retain it only for covariance classes with Var(sum)=Theta(N).",
+      "Stop the Bianconi mean-screening route unless a separately specified constraint or dynamics makes the raw mean subextensive without hand subtraction.",
+      "Any failure here is local to the Bianconi completion formalization; CONCEPT-DU-001 remains open absent an invariant-level no-go."
+    ],
+    "track": "Entropy-geometry completion robustness",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 6,
+    "candidate_id": "SWING-DU-SCI-01-T1",
+    "checks_passed": 13,
+    "checks_total": 13,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 4,
+    "free_choice_count": 4,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 2,
+    "observable_count": 4,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "dynamics": {
+      "affine_invariant": {
+        "action_final": -4.530210180187277,
+        "action_initial": -3.402669191443132,
+        "minimum_step": 0.25,
+        "residual": 5.831658599658538e-08,
+        "steps": 106
+      },
+      "conservative_control": {
+        "action_drift": 4.440892098500626e-16,
+        "eigenvalue_drift": 1.6653345369377348e-15,
+        "endpoint_displacement": 1.4155411461174452,
+        "final_residual": 1.0840119319616583,
+        "initial_residual": 1.0840119319616577
+      },
+      "euclidean": {
+        "action_final": -4.530210180187276,
+        "action_initial": -3.402669191443132,
+        "minimum_step": 0.25,
+        "residual": 5.395060048998812e-08,
+        "steps": 131
+      },
+      "initial_direction_cosine": 0.721833374755506,
+      "initial_direction_noncollinearity": 0.6920668891726274,
+      "shared_endpoint_disagreement_frobenius": 1.4140019686577655e-07,
+      "target_errors": {
+        "affine_invariant": 5.555153328807447e-08,
+        "euclidean": 1.3003093264506842e-07
+      }
+    },
+    "fluctuation_scaling": {
+      "alpha_long_range": 0.5,
+      "classes": {
+        "global": {
+          "fluctuation_density": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ],
+          "tail_loglog_slope": 0.0,
+          "variances": [
+            16384.0,
+            65536.0,
+            262144.0,
+            1048576.0,
+            4194304.0,
+            16777216.0,
+            67108864.0,
+            268435456.0
+          ]
+        },
+        "iid": {
+          "fluctuation_density": [
+            0.08838834764831845,
+            0.0625,
+            0.04419417382415922,
+            0.03125,
+            0.02209708691207961,
+            0.015625,
+            0.011048543456039806,
+            0.0078125
+          ],
+          "tail_loglog_slope": -0.4999999999999993,
+          "variances": [
+            128.0,
+            256.0,
+            512.0,
+            1024.0,
+            2048.0,
+            4096.0,
+            8192.0,
+            16384.0
+          ]
+        },
+        "long_range_power_law": {
+          "fluctuation_density": [
+            0.455725202307539,
+            0.3902441949422672,
+            0.33245954230267805,
+            0.28217764295739184,
+            0.23885920944859945,
+            0.20180330169735425,
+            0.17026314334517045,
+            0.1435128227271073
+          ],
+          "tail_loglog_slope": -0.2450126177257766,
+          "variances": [
+            3402.718576938965,
+            9980.512284582755,
+            28974.60521025043,
+            83492.04840184735,
+            239300.65414116043,
+            683244.9506144463,
+            1945454.9618419781,
+            5528677.93836247
+          ]
+        },
+        "short_range_mixing": {
+          "fluctuation_density": [
+            0.19021734178919372,
+            0.13510458380473633,
+            0.09574500918648396,
+            0.06777664802465924,
+            0.04795171701909038,
+            0.0339163105544644,
+            0.023985749844132244,
+            0.01696165179119086
+          ],
+          "tail_loglog_slope": -0.49977191083982436,
+          "variances": [
+            592.8163265306123,
+            1196.2448979591836,
+            2403.1020408163267,
+            4816.816326530612,
+            9644.244897959183,
+            19299.102040816328,
+            38608.81632653062,
+            77228.24489795919
+          ]
+        }
+      },
+      "rho_short_range": 0.65,
+      "sizes": [
+        128,
+        256,
+        512,
+        1024,
+        2048,
+        4096,
+        8192,
+        16384
+      ]
+    },
+    "matrix_validation": {
+      "directional_gradient_relative_error": 1.6190356555423335e-09,
+      "initial_commutator_norm": 2.0983649466628322
+    },
+    "mean_screening": {
+      "cell_counts": [
+        3,
+        6,
+        12,
+        24,
+        48,
+        96,
+        192
+      ],
+      "raw_mean_densities": [
+        0.036408859458343545,
+        0.036408859458343545,
+        0.036408859458343545,
+        0.036408859458343545,
+        0.036408859458343545,
+        0.036408859458343545,
+        0.036408859458343545
+      ],
+      "raw_mean_loglog_slope": 1.0,
+      "raw_means": [
+        0.10922657837503064,
+        0.21845315675006127,
+        0.43690631350012255,
+        0.8738126270002451,
+        1.7476252540004902,
+        3.4952505080009804,
+        6.990501016001961
+      ],
+      "screened": false,
+      "stationary_block_raw_vacuum_mean": 0.10922657837503064
+    },
+    "parameters": {
+      "flow_residual_tolerance": 6e-08,
+      "flow_tolerance_note": "Float64 Armijo action differences reach their precision floor at residual O(1e-8); endpoint agreement is checked independently.",
+      "g0_eigenvalues": [
+        0.5200000000000001,
+        1.6500000000000001,
+        2.649999999999999
+      ],
+      "g_ind_eigenvalues": [
+        0.8999999999999999,
+        1.4000000000000008,
+        2.4
+      ],
+      "matrix_dimension": 3,
+      "sigma": 0.2
+    },
+    "scope": {
+      "concept": "A failure is local to this adjacent formalization and does not close CONCEPT-DU-001.",
+      "fixed_point": "Robust across the two tested dissipative metric choices in one local stable basin.",
+      "half_power": "Conditional on Var(sum)=Theta(N), satisfied by iid and summable mixing covariance.",
+      "mean": "Not screened by the tested action or completions.",
+      "trajectory": "Not robust: the initial vector fields are non-collinear."
+    },
+    "seed": 20260723
+  }
+}

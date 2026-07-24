@@ -4,7 +4,7 @@ status: exploration
 doc_type: exploration
 lane: "1.1"
 created: 2026-07-21
-grade: "PARTIAL -- dynamics genuinely built; volume->Lambda link FORCED in the exponent (-1/2), IMPORTED in the value"
+grade: "PARTIAL, robustness-qualified 2026-07-23 -- dynamics genuinely built; -1/2 conditionally robust for summable finite-variance correlations; mean cancellation and value imported"
 directed_by: "Joe direct chat, 2026-07-21 (DU Lane 1.1 pre-registered swing; second independent route to the DE amplitude)"
 probe: "tests/bianconi_entropy_amplitude_probe.py (foreground; exit 0; 11/11 checks)"
 reads:
@@ -224,12 +224,13 @@ amplitude coefficient, never its sign.
 
 ## 7. Grade and what would move it
 
-**GRADE: PARTIAL.** Dynamics genuinely built (the specimen's missing piece supplied, non-trivially,
-anti-toy); the `sigma*Tr ln G -> Lambda ~ N^{-1/2}` link is **FORCED in the exponent** (native to
-the extensivity of the entropy term; falsifier control has teeth) and **FIT/IMPORTED in the value**
-(the Sorkin fluctuation-identification and the cancelled mean are not forced by the specimen). Not
-DELIVERS (the amplitude value is not natively produced); not DOESN'T (the term genuinely and
-forcedly supplies the hard-to-get `-1/2` scaling — the entropy term is *not* impotent).
+**GRADE: PARTIAL (2026-07-21 wording qualified by the 2026-07-23 robustness pass below).**
+Dynamics is genuinely built. The
+`sigma*Tr ln G -> Lambda ~ N^{-1/2}` link is **CONDITIONALLY FORCED within the iid / summable-local
+finite-variance fluctuation class**, not by extensivity alone, and is **FIT/IMPORTED in the value**
+(the Sorkin fluctuation-identification and the cancelled mean are not forced by the specimen).
+Not DELIVERS; not DOESN'T: the term supplies the hard-to-get `-1/2` scaling in that declared
+correlation class, while long-range/global classes give different exponents.
 
 **Does the accretion survive record-change != finality?** It survives the `d = 0` relabel trap (it
 is a genuine `d > 0` transduction), but it is **record-change without finality** under the
@@ -255,6 +256,21 @@ energy-sign bit. Coincidence of type, not identity.
 4. **Cross-check against the DeWitt-measure route.** If that independent route also yields `-1/2`,
    bank the exponent as consilient; the two routes disagreeing would be an equally informative
    negative.
+
+### 2026-07-23 robustness qualification
+
+`SWING-DU-SCI-01` extends the diagonal construction to a non-diagonal SPD block and compares the
+Euclidean entropy gradient with an affine-invariant SPD gradient. The two flows are non-collinear
+but reach the same tested local stationary metric; a conservative isospectral control does not
+relax. The action therefore supplies a robust local fixed point across those dissipative
+completions, not a unique physical trajectory.
+
+The fluctuation claim is narrowed: `-1/2` survives iid and summable short-range correlations, but
+a `r^-1/2` long-range covariance gives approximately `-1/4` and one global mode gives `0`.
+Extensivity alone is insufficient; the half-power is conditional on
+`Var(sum_i X_i)=Theta(N)`. Exact block replication also leaves the raw mean extensive with slope
+`+1`, so no screening is supplied. See
+`bianconi-completion-robustness-tournament-2026-07-23.md`.
 
 ## 8. Provenance / boundary
 

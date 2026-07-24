@@ -1,0 +1,133 @@
+{
+  "admission_boundary": "The surface is ready for human/scientific synthesis when all contracts are complete. It cannot bank, seed, or promote any candidate.",
+  "aggregation_rule": "No scalar score, vote, or automatic winner. Compare typed warrants, free choices, null absorption, robustness, and stop conditions. Scientific grades remain owned by the underlying probes.",
+  "checks": [
+    {
+      "name": "all three candidate contracts are complete",
+      "pass": true
+    },
+    {
+      "name": "candidate identifiers are unique",
+      "pass": true
+    },
+    {
+      "name": "no comparison receipt claims scientific endorsement",
+      "pass": true
+    },
+    {
+      "name": "every track exposes a null, falsifier, and stop condition",
+      "pass": true
+    },
+    {
+      "name": "no track silently promotes itself to bank review",
+      "pass": true
+    }
+  ],
+  "checks_passed": 5,
+  "checks_total": 5,
+  "instrument": "du-conditional-candidate-v1",
+  "rows": [
+    {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "artifact": "tests/artifacts/du_bianconi_completion_robustness_probe_result.json",
+      "assumption_count": 6,
+      "candidate_id": "SWING-DU-SCI-01-T1",
+      "checks": {
+        "passed": 13,
+        "total": 13
+      },
+      "claim": "The two tested dissipative completions share the stable stationary metric but not the trajectory; the half-power survives iid and summable mixing correlations, fails for long-range/global correlation, and the raw extensive mean is not screened.",
+      "concept_failure_scope": "FORMALIZATION",
+      "falsifier_count": 4,
+      "free_choice_count": 4,
+      "grade": "PARTIAL \u2014 completion-robust local fixed point and mixing-class half-power; completion not selected, observable imported, mean unscreened.",
+      "null_model_count": 2,
+      "observable_count": 4,
+      "remaining_uncertainty": "Only one finite non-diagonal block and two dissipative mobilities are tested; covariance calculations use linearized centered fluctuations; no cell growth, cosmological response, or native subtraction mechanism exists.",
+      "scientific_endorsement": false,
+      "stop_conditions": [
+        "Stop claiming completion-robust dynamics if modest legitimate SPD mobilities change the stationary observable rather than only its path.",
+        "Stop saying the half-power is forced by extensivity alone; retain it only for covariance classes with Var(sum)=Theta(N).",
+        "Stop the Bianconi mean-screening route unless a separately specified constraint or dynamics makes the raw mean subextensive without hand subtraction.",
+        "Any failure here is local to the Bianconi completion formalization; CONCEPT-DU-001 remains open absent an invariant-level no-go."
+      ],
+      "track": "Entropy-geometry completion robustness",
+      "warrants": [
+        "DERIVED",
+        "CONDITIONALLY_ENTAILED",
+        "CONSTRUCTIVELY_REALIZED"
+      ]
+    },
+    {
+      "admission": "CONCEPT_SUPPORTED",
+      "artifact": "tests/artifacts/du_influence_redistribution_abduction_probe_result.json",
+      "assumption_count": 7,
+      "candidate_id": "DU-SCI-01-T2-INFLUENCE-ABDUCTION",
+      "checks": {
+        "passed": 19,
+        "total": 19
+      },
+      "claim": "All three proxies carry the endpoint and majorization invariant, but materially disagree on incomparable profiles, so none is abductively preferred. A target-free nonlinear flow conditionally realizes persistent nonzero concentration below a declared bifurcation; it does not source the physical phase ratio or Lambda value.",
+      "concept_failure_scope": "FORMALIZATION",
+      "falsifier_count": 5,
+      "free_choice_count": 6,
+      "grade": "CONCEPT-SUPPORTED-BY-DIVERSE-FORMALIZATIONS / MECHANISM-CONDITIONAL / NO-ABDUCTIVE-WINNER / VALUE-OPEN",
+      "null_model_count": 3,
+      "observable_count": 7,
+      "remaining_uncertainty": "No DU-native object yet fixes the influence weights, chooses q=2 versus q=1 versus Lorenz order, or derives rho. The simplex mechanism is a constructive existence specimen, not a physical dark-energy model; its nonlinear basin/hysteresis structure is only diagnosed, not exhaustively mapped.",
+      "scientific_endorsement": false,
+      "stop_conditions": [
+        "Do not add more concentration proxies merely to break the observed incomparable-case tie; require a physical observable or native dynamics that selects a functional.",
+        "Stop this mechanism if persistence requires a C_target term or retuning rho separately for every specimen.",
+        "Do not promote a Lambda magnitude until DU identifies p_i and sources the dimensionless rho or an equivalent scale.",
+        "A future failed proxy remains local unless the invariant itself is contradicted or a diverse family shares a traced invariant-level failure."
+      ],
+      "track": "SWING-DU-SCI-01 Track 2 / Lane 2.2",
+      "warrants": [
+        "DERIVED",
+        "CONDITIONALLY_ENTAILED",
+        "CONSTRUCTIVELY_REALIZED",
+        "STRUCTURAL_ANALOGY"
+      ]
+    },
+    {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "artifact": "tests/artifacts/du_conditional_finality_knee_probe_result.json",
+      "assumption_count": 5,
+      "candidate_id": "DU.SCI01.TRACK3.FINALITY-KNEE",
+      "checks": {
+        "passed": 8,
+        "total": 8
+      },
+      "claim": "The labeled information-threshold and persistence posits entail a quantitative Rc(F), a common continuous-knee visibility, and a post-erasure history surface. These distinguish the specimen from unitary erasure, fixed-rate smooth dephasing, and a count-only threshold, but a freely steep smooth irreversible null absorbs any finite-grid knee. No finality mechanism or novel physical prediction is derived.",
+      "concept_failure_scope": null,
+      "falsifier_count": 5,
+      "free_choice_count": 4,
+      "grade": "CONDITIONAL_MODEL_ONLY / IDENTIFIABILITY_LIMITED; mathematical consequences verified, threshold law/scale and irreversibility inserted, no abductive preference or claim banking.",
+      "null_model_count": 3,
+      "observable_count": 5,
+      "remaining_uncertainty": "Microscopic trigger, choice of information statistic for correlated/mixed records, threshold scale, residual coherence, AQFT-local implementation, experimental inverse fidelity, and an independent upper bound on smooth-null steepness remain open.",
+      "scientific_endorsement": false,
+      "stop_conditions": [
+        "Stop calling the feature finality if it is only a fitted knee with no independently constrained smooth-null slope.",
+        "Stop this independent-record formalization if modest record correlations destroy its Rc(F) relation; that closes the formalization, not every finality concept.",
+        "Stop promotion if each failed fidelity scan requires a new Mc, q, or trigger statistic.",
+        "Do not bank or seed a physical prediction until a mechanism selects the threshold law/scale and the locality-of-update proviso is discharged."
+      ],
+      "track": "SWING-DU-SCI-01 Track 3: conditional finality phenomenology",
+      "warrants": [
+        "DERIVED",
+        "CONDITIONALLY_ENTAILED",
+        "CONSTRUCTIVELY_REALIZED"
+      ]
+    }
+  ],
+  "scientific_endorsement": false,
+  "swing": "SWING-DU-SCI-01",
+  "warrant_coverage": {
+    "CONDITIONALLY_ENTAILED": 3,
+    "CONSTRUCTIVELY_REALIZED": 3,
+    "DERIVED": 3,
+    "STRUCTURAL_ANALOGY": 1
+  }
+}

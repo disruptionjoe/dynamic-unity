@@ -62,6 +62,27 @@ note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and seve
   LITERAL-AT-FLOOR; next to test #1 (N_eff), #3 (KL-from-uniform), plus the persistence-of-δ fork
   (does SOC drive δ→0, or is near-criticality a persistent initial condition?).
 
+### 2026-07-23 plurality + persistence tournament
+
+`SWING-DU-SCI-01` tested participation-ratio `N_eff`, Shannon/KL effective count, and
+Gini/Lorenz on one shared surface. All three recover the uniform baseline and point-mass endpoint
+and have zero violations on 144,402 majorization-comparable rational-grid pairs. They reverse
+rankings on 13,266 of 54,994 incomparable pairs (24.123%). The invariant therefore survives, but
+no proxy is `ABDUCTIVELY_PREFERRED`: the unresolved physical question is whether influence should
+be peak-sensitive, information/code-length-sensitive, or Lorenz-transfer-sensitive.
+
+A target-free replicator-plus-mixing flow also conditionally realizes persistent nonzero
+concentration below its local `rho = n mu/s = 1` instability, with seed-size, winner-identity,
+dimension, timestep, no-reinforcement, and strong-mixing controls. This supports the existence of
+a higher-order mechanism class without sourcing the physical influence weights, the law, `rho`,
+or the value of Lambda.
+
+**Updated status:** **CONCEPT-SUPPORTED-BY-DIVERSE-FORMALIZATIONS /
+MECHANISM-CONDITIONAL / NO-ABDUCTIVE-WINNER / VALUE-OPEN.** Stop adding proxies. Reopen only when
+a DU-native observable or dynamics supplies the influence distribution and selects a functional,
+or derives the reinforcement/mixing ratio without fitting Lambda. See
+`influence-redistribution-abductive-tournament-2026-07-23.md`.
+
 ## Divergent-persona formalization family (2026-07-22) — measurable cross-domain reframes
 Ten wildly-divergent lenses each reframed CONCEPT-DU-001; the most MEASURABLE distinct additions to the
 family (each a way to make "deviation of the effective influence-distribution from uniform" precise):
@@ -85,6 +106,8 @@ family (each a way to make "deviation of the effective influence-distribution fr
 **Gini/Lorenz, Buchert Q_D, N_e, softmax-T, KL** — all summarize "deviation of the influence-curve from
 uniform" and all are computable. They JOIN the family; the crux (invariant iv) is unchanged — is the
 deviation dynamically FORCED or dialed — now testable across many measurable proxies at once.
+The 2026-07-23 tournament has reached the proxy-proliferation stop: do not add more measures until
+a physical selector exists.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

@@ -33,7 +33,7 @@ factory receives well-formed seeds, never speculative ones.
 ## Entries
 
 ### PRED-DU-001 — "un-recoverable beyond unitary cost" (a sharp finality knee in V(R))
-- **State: SEAM** (conditional candidate — antecedent unbuilt).
+- **State: SEAM for seeding / active conditional-model specimen.**
 - **The claim (conditional).** *If* DU's finality is a genuine sharp irreversible-accretion
   threshold (the §3 productive mode-issuance unlock), *then* in a controlled-redundancy which-path
   experiment the interference visibility `V(R)` shows a **knee at a critical redundancy `R_c`** and
@@ -46,12 +46,13 @@ factory receives well-formed seeds, never speculative ones.
   two-state-vector / retrocausal-consistent, operationally visible in weak measurement.
 - **Blocker(s).** (i) It is a **deviation from unitary QM** — a large claim. (ii) **DU-as-built
   does not predict it**: μ is Born-blind (Bet #1) and the mirror-condensate count is one-shot
-  (wave-2 build/kill). (iii) Therefore doubly-gated: it is not even a *live* prediction until the
-  productive mode-issuance unlock exists.
+  (wave-2 build/kill). (iii) Therefore it is not seed-ready or an unconditional DU prediction.
+  This does **not** bar a labeled conditional construction; source derivation is not an
+  exploration gate.
 - **Hardening checklist (what must be discharged before it moves).**
   - *SEAM → REGISTERED (antecedent gate):* **H1.** The §3 mode-issuance unlock is built enough that
     the finality threshold is a real consequence, not a hoped-for one; only then can a falsifiable
-    statement be frozen.
+    unconditional DU statement be frozen. Conditional-model work may proceed before H1.
   - *REGISTERED → SEED-READY (internal hardening):* **H2.** Quantitative form — define `R_c` and the
     functional shape of `V(R)`/recoverability; predict the knee's *location and sharpness*, not just
     its existence. **H3.** A concrete falsifiable gap vs. standard decoherence's smooth crossover
@@ -67,6 +68,23 @@ factory receives well-formed seeds, never speculative ones.
   yet there).
 - **Disposition.** Held as a SEAM. It is the flagship's first *empirical* target; it becomes a
   live REGISTERED prediction the moment H1 lands, and is not seeded to the factory before H2–H7.
+
+#### 2026-07-23 conditional-model result
+
+`SWING-DU-SCI-01` supplied an executable independent-record specimen with branch fidelity `F`,
+information exposure `M=-R ln F`, an imported threshold `M_c`, and an imported persistent
+post-crossing flag. Conditional on those posits it derives
+`R_c(F)=ceil(M_c/[-ln F])`, a common continuous-knee visibility `exp(-M_c/2)`, integer overshoot
+bounds, and a forward/reversal recovery surface. Exact finite-unitary construction confirms
+`V=F^(R/2)` and full recovery under the standard global inverse.
+
+This partially discharges H2 and supplies a multi-fidelity/count-only discriminator for H3.
+It also finds an identifiability ceiling: an unconstrained steep smooth memory law fits the finite
+grid within `0.001375`, so a knee alone is not novel and does not identify finality. State remains
+**SEAM / CONDITIONAL_MODEL_ONLY / IDENTIFIABILITY_LIMITED**. Reopen physical promotion only with
+a mechanism selecting the trigger/scale, an AQFT-local update, and either an independently
+justified smooth-slope bound or another mechanism-specific observable. See
+`conditional-finality-knee-model-2026-07-23.md`.
 
 ### PRED-DU-002 — the finality-threshold deviation is Lorentz-covariant-by-construction
 - **State: SEAM** (conditional — shares PRED-DU-001's antecedent, plus its own proviso). This is the
@@ -119,11 +137,17 @@ the factory follows the normal SEED gate. Strength ≈ (minimality/motivation of
 - **Content:** the count is forced to **3** — forbids 2 and 4 (a menu-restriction, not just "explains 3").
 - **Falsifier:** a 4th generation; or the Z/3 forcing failing on audit.
 
-### CPRED-03 — exactly one external Z/2 bit (the σ-externality theorem's structural prediction)
-- **Assumption:** genuine becoming requires first-person underivability (the CONDITIONAL-THEOREM's condition).
-- **Content:** the theory imports **exactly one** external orienting bit (σ) — not two, not zero.
-  Partly Lean-proved (`no_invariant_valuation`).
-- **Falsifier:** a construction needing a second independent external sign, or none.
+### CPRED-03 — RETIRED AS WRITTEN: exactly one external Z/2 bit
+- **State: RETIRED / STALE-PREMISE (2026-07-23).**
+- **Why:** GU's corrected operator bridge establishes only failure of one
+  `K`-definite polarization. It does not establish nonexistence or cardinality of
+  `J`-self-adjoint domains, physical externality, `σ=w1`, or a nonzero anomaly
+  class. `no_invariant_valuation` remains a generic codomain theorem but does not
+  by itself prove that no physical internal observable supplies `σ`.
+- **Disposition:** do not use "exactly one external bit" as a current DU
+  prediction or source theorem. A future explicitly constructed physical-domain
+  bridge could reopen a differently warranted candidate; until then this entry
+  remains as supersession history, not an active conditional prediction.
 
 ### CPRED-04 — no phantom crossing, w > −1 (cosmology; gated on COV-03)
 - **Assumption:** dark energy IS a healthy single canonical scalar (the tachyon roll).

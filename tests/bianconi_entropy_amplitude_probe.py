@@ -19,13 +19,14 @@ Langevin flow whose fixed point IS Eq. 56, a real before/after, not H:=D and not
 kinematic juxtaposition -- and (b) tests whether the `sigma*Tr ln G` term NATIVELY
 delivers the volume->Lambda link, i.e. whether Lambda ~ 1/sqrt(N) is FORCED or FIT.
 
-WHAT IS FORCED vs IMPORTED (stated before the run; the honest spine):
-  * FORCED: `Tr ln G = sum_i ln g_i` is a sum of N independent local terms
-    (extensive). Its fluctuation is O(sqrt(N)) by the CLT; the fluctuation-per-
-    -volume ratio is therefore O(1/sqrt(N)). The exponent -1/2 is the CLT exponent
-    for N independent local contributions -- NOT tunable. Break the independence
-    (one global metric mode) and the exponent must flip to 0. That falsifier is a
-    control here.
+WHAT IS CONDITIONALLY FORCED vs IMPORTED (stated before the run; the honest spine):
+  * CONDITIONALLY FORCED: when `Tr ln G = sum_i ln g_i` is a sum of N independent
+    (or sufficiently mixing), finite-variance local terms, its fluctuation is
+    O(sqrt(N)) by the CLT; the fluctuation-per-volume ratio is therefore
+    O(1/sqrt(N)). The exponent -1/2 is not tunable inside that correlation class.
+    Extensivity alone is insufficient: break short-range mixing (one global metric
+    mode here; long-range classes in the 2026-07-23 robustness probe) and the
+    exponent changes.
   * IMPORTED: identifying the DE amplitude Lambda with that fluctuation-per-volume
     (the extensive MEAN renormalized away) is the Sorkin / everpresent-Lambda
     reading. The specimen does not force that identification; DU imports it. So the
@@ -283,7 +284,11 @@ def main() -> None:
         print(f"  {n:5d}   {l:.6e}")
     print(f"  log-log slope = {slope:.4f}   (target -0.5 = the Sorkin/everpresent scaling)")
     forced = abs(slope + 0.5) < 0.01
-    check("amplitude: extensive sigma*Tr ln G forces Lambda_eff ~ N^{-1/2} (CLT exponent)", forced)
+    check(
+        "amplitude: independent local finite-variance terms entail "
+        "Lambda_eff ~ N^{-1/2} (CLT-class exponent)",
+        forced,
+    )
 
     # direct stochastic dynamics realizes the analytic variance (a real flow, not just algebra)
     n_mc = 64
@@ -336,16 +341,17 @@ def main() -> None:
     print("VERDICT (probe-level, honest):")
     print("  * dynamics BUILT: entropic flow is a genuine dynamical transition whose fixed")
     print("    point is the specimen's own Eq.56 -- not H:=D, not kinematic juxtaposition.")
-    print("  * scaling FORCED: the exponent -1/2 in Lambda~N^{-1/2} is native to the extensive")
-    print("    sigma*Tr ln G (CLT over N independent local log-volume terms); the falsifier")
-    print("    control flips it to 0, so the test has teeth.")
+    print("  * scaling CLASS-CONDITIONAL: the exponent -1/2 in Lambda~N^{-1/2} follows")
+    print("    for N independent/sufficiently-mixing finite-variance local log-volume terms;")
+    print("    extensivity alone is insufficient, and the correlated control flips it to 0.")
     print("  * amplitude IMPORTED: identifying Lambda with the fluctuation-per-volume (mean")
     print("    renormalized away) is the Sorkin/everpresent reading, not forced by the specimen;")
     print("    the VALUE is not delivered, only the SCALING.")
     print("  * record-change != finality: accretion is a real transduction (d>0) but finality")
     print("    needs the stochastic entropy production, an added ingredient. Substrate is fixed-N")
     print("    (finite-type / disclosure regime) unless cell-accretion is added.")
-    print("  => GRADE: PARTIAL (dynamics real; amplitude link forced in EXPONENT, fit in VALUE).")
+    print("  => GRADE: PARTIAL (dynamics real; exponent conditional on the CLT class;")
+    print("     observable/mean subtraction and value imported).")
 
     if npass != len(checks):
         raise SystemExit(f"unexpected: {[n for n, ok in checks if not ok]}")

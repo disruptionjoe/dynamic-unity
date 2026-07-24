@@ -28,3 +28,22 @@ Many probes are intentionally compute-heavy Monte Carlo or finite-enumeration
 jobs. Run them sequentially in the foreground unless a probe explicitly says
 otherwise; do not launch a parallel sweep merely to validate environment
 readiness.
+
+## Conditional and abductive candidate artifacts
+
+`conditional_candidate_harness.py` implements the comparison contract in
+`lab/process/conditional-and-abductive-research-contract.md`. A governed
+conditional or abductive probe supplies labeled assumptions, free choices,
+observables, nulls, falsifiers, stop conditions, non-ordinal warrant types, and
+formalization-versus-concept failure scope. The helper validates that shape and
+writes a deterministic JSON artifact with a compact comparison receipt.
+
+`COMPLETE` in that receipt means only that the research object is legible and
+comparable. It is not a scientific pass, claim promotion, or banking decision.
+The first three users are the Bianconi completion-robustness,
+influence-redistribution abduction, and conditional finality-knee probes from
+`SWING-DU-SCI-01`.
+
+`du_science_council_three_track_comparison.py` collects their receipts into one
+machine-readable comparison surface. It intentionally emits no scalar score,
+vote, automatic winner, or scientific endorsement.

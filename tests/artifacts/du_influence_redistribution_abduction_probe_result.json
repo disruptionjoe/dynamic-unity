@@ -1,0 +1,3657 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Defines the shared mathematical comparison object.",
+        "statement": "Effective influences are nonnegative normalized weights on a finite simplex.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Carries CONCEPT-DU-001 invariant clauses (i)-(ii).",
+        "statement": "Uniform influence is the one-record-one-vote baseline, with Lambda baseline 1/sqrt(n).",
+        "status": "PROJECT_NATIVE"
+      },
+      {
+        "id": "A3",
+        "role": "Tests invariant clause (iii) without picking a proxy.",
+        "statement": "Majorization is the criterion for an unambiguous increase in influence concentration.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A4",
+        "role": "Admits structural comparison; it is not a physical identity or coefficient derivation.",
+        "statement": "Each proxy's concentration value can be read as a Lambda amplitude after the stated endpoint map.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A5",
+        "role": "Supplies the nonlinear mechanistic term.",
+        "statement": "Positive frequency-dependent reinforcement is a candidate higher-order influence-redistribution mechanism.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A6",
+        "role": "Provides a declared null-restoring process.",
+        "statement": "Uniform mixing competes with reinforcement and is represented by mu(1/n-p_i).",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A7",
+        "role": "Prevents the toy persistence mechanism from being reported as a sourced Lambda value.",
+        "statement": "The physical identity of p_i and the dimensionless ratio rho=n*mu/s are not supplied by current DU dynamics.",
+        "status": "IMPORTED"
+      }
+    ],
+    "candidate_id": "DU-SCI-01-T2-INFLUENCE-ABDUCTION",
+    "comparators": [
+      "Participation-ratio versus Shannon/KL versus Gini/Lorenz.",
+      "Majorization as the proxy-independent partial order.",
+      "Below-threshold reinforcement versus above-threshold mixing.",
+      "The same concentrated state with reinforcement removed."
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "PARTICIPATION-Q2__SHANNON-KL-Q1__GINI-LORENZ__REPLICATOR-MIXING-PERSISTENCE",
+      "invariant": "Lambda reads deviation of effective influence from uniform, returns the 1/sqrt(n) baseline at uniform, grows under concentration, and the concentration is produced by higher-order dynamics rather than a tuned target."
+    },
+    "equations": [
+      "N_eff,2 = 1/sum_i p_i^2; Lambda_2 = 1/sqrt(N_eff,2).",
+      "H(p)=-sum_i p_i log p_i; D_KL(p||u)=log n-H; N_eff,1=exp(H); Lambda_1=1/sqrt(N_eff,1).",
+      "G_norm=Gini/((n-1)/n); Lambda_G=1/sqrt(n)+(1-1/sqrt(n))*G_norm.",
+      "dp_i/dt=s p_i(p_i-sum_j p_j^2)+mu(1/n-p_i); rho=n mu/s.",
+      "At uniform p_i=1/n, zero-sum perturbations obey d epsilon_i/dt=(s/n-mu)epsilon_i."
+    ],
+    "falsifiers": [
+      "A proxy that misses the uniform baseline or reverses a majorization-ordered pair is locally unfaithful.",
+      "Failure of target-free dynamics to maintain nonzero concentration below its analytic instability falsifies this mechanism, not the concept family.",
+      "Dependence of the final amplitude on the seed perturbation would reveal target insertion through initial data.",
+      "If the no-reinforcement or rho>1 null also retains concentration, the claimed discriminator fails.",
+      "A direct no-go on monotone mechanistically generated deviation from uniform would reach the concept invariant."
+    ],
+    "free_choices": [
+      {
+        "choice": "Use Hill-order q=2 participation, q=1 Shannon/KL, and Gini/Lorenz as the three representative proxies.",
+        "id": "F1",
+        "sensitivity_test": "Test all three on the same endpoint, ordered, and incomparable specimens.",
+        "why_not_forced": "The concept invariant does not select a unique concentration functional."
+      },
+      {
+        "choice": "Affinely map normalized Gini from the 1/sqrt(n) baseline to one at a point mass.",
+        "id": "F2",
+        "sensitivity_test": "Use only Gini rankings in the abductive verdict; every strictly increasing remap preserves them.",
+        "why_not_forced": "Gini fixes an order, not a canonical Lambda amplitude."
+      },
+      {
+        "choice": "Use n=8 for the main path and n=4,8,16 for sensitivity.",
+        "id": "F3",
+        "sensitivity_test": "Repeat both sides of the rho=1 phase boundary at all three dimensions.",
+        "why_not_forced": "No physical degree count is identified here."
+      },
+      {
+        "choice": "Use self-reinforcing fitness f_i=p_i opposed by uniform mixing.",
+        "id": "F4",
+        "sensitivity_test": "Remove reinforcement and cross the analytic stability threshold as two controls.",
+        "why_not_forced": "This is one minimal higher-order mechanism, not a derivation from the DU source."
+      },
+      {
+        "choice": "Use rho=0.64 for the primary concentrated path.",
+        "id": "F5",
+        "sensitivity_test": "Sweep rho=0.32,0.64,0.80,1.28,1.60; report amplitude variation rather than fitting a target.",
+        "why_not_forced": "The mechanism does not determine a physical rho."
+      },
+      {
+        "choice": "Seed symmetry breaking with one-coordinate finite perturbations and integrate by RK4.",
+        "id": "F6",
+        "sensitivity_test": "Sweep perturbation size over four decades, winner identity, and halve the RK4 step.",
+        "why_not_forced": "Exact uniformity remains exactly uniform; branch identity requires a fluctuation and numerical resolution is chosen."
+      }
+    ],
+    "null_models": [
+      "Uniform mixing with s=0: every nonuniform state must return to the uniform baseline.",
+      "High-mixing rho>1: infinitesimal and sufficiently small near-uniform perturbations must decay under the same model family; a stronger-mixing control must also erase the tested concentrated state.",
+      "Proxy consensus restricted to majorization-comparable profiles: agreement there cannot select a proxy globally."
+    ],
+    "observables": [
+      "Uniform and point-mass endpoint values for all three proxies.",
+      "Majorization monotonicity on a declared chain.",
+      "Majorization violations on an exhaustive rational grid.",
+      "Proxy-ranking reversals on incomparable distributions.",
+      "Early transverse perturbation growth or decay rate.",
+      "Long-time nonzero concentration and fixed-point residual.",
+      "Sensitivity to rho, n, perturbation amplitude, winner, and timestep."
+    ],
+    "question": "Do participation-ratio, Shannon/KL, and Gini/Lorenz formalizations preserve CONCEPT-DU-001's invariant, do any win comparative abduction, and can a target-free higher-order mechanism sustain nonzero influence concentration?",
+    "result": {
+      "admission": "CONCEPT_SUPPORTED",
+      "checks": [
+        {
+          "name": "All three proxies recover the 1/sqrt(n) uniform baseline",
+          "pass": true
+        },
+        {
+          "name": "All three proxies reach one at a point mass",
+          "pass": true
+        },
+        {
+          "name": "The declared one-peak chain is majorization ordered",
+          "pass": true
+        },
+        {
+          "name": "Every proxy increases strictly on the majorization chain",
+          "pass": true
+        },
+        {
+          "name": "The exhaustive rational grid has zero majorization violations",
+          "pass": true
+        },
+        {
+          "name": "Incomparable profiles exhibit material proxy-ranking disagreement",
+          "pass": true
+        },
+        {
+          "name": "The named exemplar is majorization-incomparable",
+          "pass": true
+        },
+        {
+          "name": "The exemplar reverses participation versus Shannon/KL and Gini/Lorenz",
+          "pass": true
+        },
+        {
+          "name": "Below-threshold perturbations grow at the analytic transverse rate",
+          "pass": true
+        },
+        {
+          "name": "Above-threshold perturbations decay at the analytic transverse rate",
+          "pass": true
+        },
+        {
+          "name": "All proxies grow monotonically on the primary mechanistic path",
+          "pass": true
+        },
+        {
+          "name": "The nonzero concentrated fixed point persists without a target term",
+          "pass": true
+        },
+        {
+          "name": "Final concentration is insensitive to perturbation amplitude",
+          "pass": true
+        },
+        {
+          "name": "Winner identity changes without changing concentration amplitude",
+          "pass": true
+        },
+        {
+          "name": "Removing reinforcement returns the concentrated state to uniform",
+          "pass": true
+        },
+        {
+          "name": "Near-uniform phase and dimension sensitivity follow the local rho=1 threshold",
+          "pass": true
+        },
+        {
+          "name": "Strong mixing erases even a concentrated initial state",
+          "pass": true
+        },
+        {
+          "name": "The mechanistic result is stable under halving the RK4 step",
+          "pass": true
+        },
+        {
+          "name": "No abductive winner is assigned without an independent physical criterion",
+          "pass": true
+        }
+      ],
+      "claim": "All three proxies carry the endpoint and majorization invariant, but materially disagree on incomparable profiles, so none is abductively preferred. A target-free nonlinear flow conditionally realizes persistent nonzero concentration below a declared bifurcation; it does not source the physical phase ratio or Lambda value.",
+      "grade": "CONCEPT-SUPPORTED-BY-DIVERSE-FORMALIZATIONS / MECHANISM-CONDITIONAL / NO-ABDUCTIVE-WINNER / VALUE-OPEN",
+      "remaining_uncertainty": "No DU-native object yet fixes the influence weights, chooses q=2 versus q=1 versus Lorenz order, or derives rho. The simplex mechanism is a constructive existence specimen, not a physical dark-energy model; its nonlinear basin/hysteresis structure is only diagnosed, not exhaustively mapped."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not add more concentration proxies merely to break the observed incomparable-case tie; require a physical observable or native dynamics that selects a functional.",
+      "Stop this mechanism if persistence requires a C_target term or retuning rho separately for every specimen.",
+      "Do not promote a Lambda magnitude until DU identifies p_i and sources the dimensionless rho or an equivalent scale.",
+      "A future failed proxy remains local unless the invariant itself is contradicted or a diverse family shares a traced invariant-level failure."
+    ],
+    "track": "SWING-DU-SCI-01 Track 2 / Lane 2.2",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONCEPT_SUPPORTED",
+    "assumption_count": 7,
+    "candidate_id": "DU-SCI-01-T2-INFLUENCE-ABDUCTION",
+    "checks_passed": 19,
+    "checks_total": 19,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 5,
+    "free_choice_count": 6,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 3,
+    "observable_count": 7,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "results": {
+    "comparative_abduction": {
+      "aggregation": "No scalar score and no vote.",
+      "candidate_reads": {
+        "gini_lorenz": {
+          "compression": "Makes one-record-one-vote deviation geometrically visible as Lorenz area.",
+          "independence": "Its Lambda amplitude map is imported; only order is independently meaningful here.",
+          "novelty": "Supplies a pairwise-transfer-sensitive ordering distinct from both Hill counts.",
+          "robustness": "Schur-convex and endpoint-correct under every strictly monotone amplitude remap."
+        },
+        "participation_ratio": {
+          "compression": "Directly preserves the register's N_eff and 1/sqrt(N_eff) language with one algebraic moment.",
+          "independence": "Its apparent 1/sqrt(N) fit reuses the same quadratic/second-moment structure as variance and CLT routes.",
+          "novelty": "Distinctly peak-sensitive on incomparable profiles.",
+          "robustness": "Schur-convex and endpoint-correct; not uniquely selected beyond the majorization order."
+        },
+        "shannon_kl": {
+          "compression": "Unifies effective count and distance from uniform through D_KL=log(n)-H.",
+          "independence": "Needs a physical information or likelihood object to be more than a standard entropy re-expression.",
+          "novelty": "Weights tails differently from participation and reverses some incomparable rankings.",
+          "robustness": "Schur-convex and endpoint-correct; no native DU selection criterion yet."
+        }
+      },
+      "progressivity": "The swing reduces ambiguity by identifying the exact domain of proxy agreement (majorization) and the exact domain where new physics is required (incomparable profiles). It adds a falsifiable target-free persistence mechanism while charging rho as an unsourced choice.",
+      "winner": null,
+      "winner_reason": "The invariant fixes majorization-monotone behavior but not rankings outside the majorization order. No independent DU observable currently selects sensitivity to peaks (q=2), information/code length (q=1), or Lorenz transfers."
+    },
+    "epistemic_accounting": {
+      "abductively_preferred_warrant_claimed": false,
+      "assumption_count": 7,
+      "concept_failure_scope_if_a_proxy_later_fails": "FORMALIZATION",
+      "free_choice_count": 6,
+      "physical_lambda_value_sourced": false,
+      "target_concentration_parameter_present": false,
+      "warrant_types": [
+        "DERIVED",
+        "CONDITIONALLY_ENTAILED",
+        "CONSTRUCTIVELY_REALIZED",
+        "STRUCTURAL_ANALOGY"
+      ]
+    },
+    "formalization_definitions": {
+      "gini_lorenz": {
+        "lambda_map": "endpoint-matched affine map; only ordinal results used",
+        "native_object": "Lorenz-area / Gini concentration"
+      },
+      "participation_ratio": {
+        "effective_count": "1/sum_i p_i^2",
+        "hill_order": 2,
+        "lambda_map": "1/sqrt(N_eff,2)"
+      },
+      "shannon_kl": {
+        "distance": "D_KL(p||uniform)=log(n)-H(p)",
+        "effective_count": "exp(H(p))",
+        "hill_order": 1,
+        "lambda_map": "1/sqrt(N_eff,1)"
+      }
+    },
+    "majorization_and_ranking_results": {
+      "endpoints": {
+        "lambda_gini_lorenz": {
+          "point_mass": 1.0,
+          "point_mass_pass": true,
+          "point_mass_target": 1.0,
+          "uniform": 0.35355339059327373,
+          "uniform_pass": true,
+          "uniform_target": 0.35355339059327373
+        },
+        "lambda_participation": {
+          "point_mass": 1.0,
+          "point_mass_pass": true,
+          "point_mass_target": 1.0,
+          "uniform": 0.35355339059327373,
+          "uniform_pass": true,
+          "uniform_target": 0.35355339059327373
+        },
+        "lambda_shannon_kl": {
+          "point_mass": 1.0,
+          "point_mass_pass": true,
+          "point_mass_target": 1.0,
+          "uniform": 0.3535533905932738,
+          "uniform_pass": true,
+          "uniform_target": 0.35355339059327373
+        }
+      },
+      "exhaustive_grid": {
+        "comparable_pairs": 144402,
+        "dimension": 4,
+        "incomparable_pairs": 54994,
+        "integer_total": 40,
+        "majorization_violations": {
+          "lambda_gini_lorenz": 0,
+          "lambda_participation": 0,
+          "lambda_shannon_kl": 0
+        },
+        "pairwise_disagreements": {
+          "participation_vs_gini_lorenz": 5344,
+          "participation_vs_shannon_kl": 11926,
+          "shannon_kl_vs_gini_lorenz": 7172
+        },
+        "permutation_quotiented_profiles": 632,
+        "ranking_disagreement_fraction_of_incomparable": 0.24122631559806523,
+        "ranking_disagreement_pairs": 13266
+      },
+      "incomparable_exemplar": {
+        "left": [
+          0.925,
+          0.025,
+          0.025,
+          0.025
+        ],
+        "left_counts": [
+          37,
+          1,
+          1,
+          1
+        ],
+        "left_cumulative": [
+          0.925,
+          0.9500000000000001,
+          0.9750000000000001
+        ],
+        "left_majorizes_right": false,
+        "left_metrics": {
+          "lambda_gini_lorenz": 0.95,
+          "lambda_participation": 0.9260129588726067,
+          "lambda_shannon_kl": 0.8399690841049793
+        },
+        "orders_left_minus_right": {
+          "lambda_gini_lorenz": -1,
+          "lambda_participation": 1,
+          "lambda_shannon_kl": -1
+        },
+        "reading": "The first cumulative sum favors the left profile and the second favors the right, so majorization is silent. Participation ranks left more concentrated; Shannon/KL and Gini/Lorenz rank right more concentrated. No invariant-level contradiction follows.",
+        "right": [
+          0.9,
+          0.1,
+          0.0,
+          0.0
+        ],
+        "right_counts": [
+          36,
+          4,
+          0,
+          0
+        ],
+        "right_cumulative": [
+          0.9,
+          1.0,
+          1.0
+        ],
+        "right_majorizes_left": false,
+        "right_metrics": {
+          "lambda_gini_lorenz": 0.9666666666666668,
+          "lambda_participation": 0.9055385138137417,
+          "lambda_shannon_kl": 0.8499808265979931
+        }
+      },
+      "majorization_chain": {
+        "chain_is_majorization_ordered": true,
+        "dimension": 8,
+        "metrics": [
+          {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 0.0,
+            "concentration_participation": 0.0,
+            "concentration_shannon_kl": 8.587120795977716e-17,
+            "entropy": 2.0794415416798357,
+            "gini": 0.0,
+            "gini_normalized": 0.0,
+            "kl_from_uniform": 0.0,
+            "lambda_gini_lorenz": 0.35355339059327373,
+            "lambda_participation": 0.35355339059327373,
+            "lambda_shannon_kl": 0.3535533905932738,
+            "n": 8,
+            "n_eff_participation": 8.0,
+            "n_eff_shannon": 7.999999999999998
+          },
+          {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 0.08571428571428592,
+            "concentration_participation": 0.013887297336050061,
+            "concentration_shannon_kl": 0.0061353027978159865,
+            "entropy": 2.057130542782439,
+            "gini": 0.07500000000000018,
+            "gini_normalized": 0.08571428571428592,
+            "kl_from_uniform": 0.02231099889739685,
+            "lambda_gini_lorenz": 0.4089630999709933,
+            "lambda_participation": 0.36253078686998635,
+            "lambda_shannon_kl": 0.3575195362846055,
+            "n": 8,
+            "n_eff_participation": 7.608695652173912,
+            "n_eff_shannon": 7.823488405757338
+          },
+          {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 0.25714285714285723,
+            "concentration_participation": 0.11457186933748127,
+            "concentration_shannon_kl": 0.04767406122947479,
+            "entropy": 1.9122882359205864,
+            "gini": 0.2250000000000001,
+            "gini_normalized": 0.25714285714285723,
+            "kl_from_uniform": 0.16715330575924936,
+            "lambda_gini_lorenz": 0.519782518726432,
+            "lambda_participation": 0.42761798705987897,
+            "lambda_shannon_kl": 0.38437212583171637,
+            "n": 8,
+            "n_eff_participation": 5.46875,
+            "n_eff_shannon": 6.768559152054053
+          },
+          {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 0.48571428571428577,
+            "concentration_participation": 0.3436400467994385,
+            "concentration_shannon_kl": 0.16085295382520107,
+            "entropy": 1.5637983807884794,
+            "gini": 0.42500000000000004,
+            "gini_normalized": 0.48571428571428577,
+            "kl_from_uniform": 0.5156431608913563,
+            "lambda_gini_lorenz": 0.6675417437336837,
+            "lambda_participation": 0.5756983337031395,
+            "lambda_shannon_kl": 0.45753623720663167,
+            "n": 8,
+            "n_eff_participation": 3.0172413793103448,
+            "n_eff_shannon": 4.776931433252479
+          },
+          {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 0.7714285714285715,
+            "concentration_participation": 0.6961287983922142,
+            "concentration_shannon_kl": 0.44459053737893767,
+            "entropy": 0.8895844533492504,
+            "gini": 0.675,
+            "gini_normalized": 0.7714285714285715,
+            "kl_from_uniform": 1.1898570883305855,
+            "lambda_gini_lorenz": 0.8522407749927483,
+            "lambda_participation": 0.8035634920242991,
+            "lambda_shannon_kl": 0.6409574360562024,
+            "n": 8,
+            "n_eff_participation": 1.5486725663716812,
+            "n_eff_shannon": 2.43411795153792
+          },
+          {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 1.0,
+            "concentration_participation": 1.0,
+            "concentration_shannon_kl": 1.0,
+            "entropy": -0.0,
+            "gini": 0.875,
+            "gini_normalized": 1.0,
+            "kl_from_uniform": 2.0794415416798357,
+            "lambda_gini_lorenz": 1.0,
+            "lambda_participation": 1.0,
+            "lambda_shannon_kl": 1.0,
+            "n": 8,
+            "n_eff_participation": 1.0,
+            "n_eff_shannon": 1.0
+          }
+        ],
+        "peaks": [
+          0.125,
+          0.2,
+          0.35,
+          0.55,
+          0.8,
+          1.0
+        ],
+        "profiles": [
+          [
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125,
+            0.125
+          ],
+          [
+            0.2,
+            0.1142857142857143,
+            0.1142857142857143,
+            0.1142857142857143,
+            0.1142857142857143,
+            0.1142857142857143,
+            0.1142857142857143,
+            0.1142857142857143
+          ],
+          [
+            0.35,
+            0.09285714285714286,
+            0.09285714285714286,
+            0.09285714285714286,
+            0.09285714285714286,
+            0.09285714285714286,
+            0.09285714285714286,
+            0.09285714285714286
+          ],
+          [
+            0.55,
+            0.06428571428571428,
+            0.06428571428571428,
+            0.06428571428571428,
+            0.06428571428571428,
+            0.06428571428571428,
+            0.06428571428571428,
+            0.06428571428571428
+          ],
+          [
+            0.8,
+            0.028571428571428564,
+            0.028571428571428564,
+            0.028571428571428564,
+            0.028571428571428564,
+            0.028571428571428564,
+            0.028571428571428564,
+            0.028571428571428564
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "strictly_monotone": {
+          "lambda_gini_lorenz": true,
+          "lambda_participation": true,
+          "lambda_shannon_kl": true
+        }
+      }
+    },
+    "mechanistic_persistence_results": {
+      "analytic_uniform_stability": {
+        "bifurcation": "rho = 1",
+        "transverse_rate": "s/n - mu = (s/n)(1-rho)"
+      },
+      "equation": "dp_i/dt = s p_i(p_i - sum_j p_j^2) + mu(1/n - p_i)",
+      "initial_perturbation_sensitivity": {
+        "metric_spread": {
+          "lambda_gini_lorenz": 0.0,
+          "lambda_participation": 0.0,
+          "lambda_shannon_kl": 0.0
+        },
+        "reading": "The perturbation selects a branch but its amplitude does not set the final concentration across four decades.",
+        "runs": {
+          "1e-02": {
+            "final_metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "final_weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          "1e-04": {
+            "final_metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "final_weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          "1e-06": {
+            "final_metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "final_weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          }
+        }
+      },
+      "integration_resolution": {
+        "dt_primary": 0.05,
+        "dt_refined": 0.025,
+        "max_metric_difference": 3.3306690738754696e-16
+      },
+      "linear_stability_specimens": {
+        "above_threshold": {
+          "measured_transverse_rate": -0.03499999114403462,
+          "mixing": 0.16,
+          "n": 8,
+          "predicted_transverse_rate": -0.035,
+          "relative_error": 2.530275824181543e-07,
+          "rho": 1.28
+        },
+        "below_threshold": {
+          "measured_transverse_rate": 0.04500002153646934,
+          "mixing": 0.08,
+          "n": 8,
+          "predicted_transverse_rate": 0.045,
+          "relative_error": 4.785882076443729e-07,
+          "rho": 0.64
+        }
+      },
+      "no_reinforcement_null": {
+        "final_metrics": {
+          "baseline": 0.35355339059327373,
+          "concentration_gini_lorenz": 1.167320208748736e-14,
+          "concentration_participation": 0.0,
+          "concentration_shannon_kl": 0.0,
+          "entropy": 2.079441541679836,
+          "gini": 1.021405182655144e-14,
+          "gini_normalized": 1.167320208748736e-14,
+          "kl_from_uniform": -4.440892098500626e-16,
+          "lambda_gini_lorenz": 0.3535533905932813,
+          "lambda_participation": 0.35355339059327373,
+          "lambda_shannon_kl": 0.35355339059327373,
+          "n": 8,
+          "n_eff_participation": 8.0,
+          "n_eff_shannon": 8.000000000000002
+        },
+        "final_weights": [
+          0.12500000000001027,
+          0.12499999999999853,
+          0.12499999999999853,
+          0.12499999999999853,
+          0.12499999999999853,
+          0.12499999999999853,
+          0.12499999999999853,
+          0.12499999999999853
+        ],
+        "initial_weights": [
+          0.9242640687119283,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806
+        ],
+        "returns_to_uniform": true
+      },
+      "phase_and_dimension_sensitivity": {
+        "classification_matches_rho_threshold": true,
+        "local_threshold_only": true,
+        "nonlinear_basin_diagnostic": {
+          "concentrated_basin_persists": true,
+          "final_metrics": {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 0.8076142617549037,
+            "concentration_participation": 0.7433550441024734,
+            "concentration_shannon_kl": 0.5000093164870688,
+            "entropy": 0.7808100120437781,
+            "gini": 0.7066624790355407,
+            "gini_normalized": 0.8076142617549037,
+            "kl_from_uniform": 1.2986315296360575,
+            "lambda_gini_lorenz": 0.8756328918132475,
+            "lambda_participation": 0.8340927384387051,
+            "lambda_shannon_kl": 0.6767827179081141,
+            "n": 8,
+            "n_eff_participation": 1.4373790791129826,
+            "n_eff_shannon": 2.183240000152949
+          },
+          "reading": "At rho=1.28 the uniform state is locally stable, but a distant concentrated initial state remains in a concentrated basin. Therefore rho=1 is not claimed as a global uniqueness boundary.",
+          "rho": 1.28,
+          "start": "primary concentrated fixed point"
+        },
+        "reading": "From the same near-uniform perturbation, concentration emerges for rho<1 across n=4,8,16 while rho>1 returns locally to uniform. Its numerical amplitude varies with rho and n, so no physical value is selected by this construction.",
+        "runs": {
+          "16": {
+            "0.32": {
+              "field_residual": 7.979727989493313e-17,
+              "final_max_weight": 0.9808846015417836,
+              "final_metrics": {
+                "baseline": 0.25,
+                "concentration_gini_lorenz": 0.9796102416445691,
+                "concentration_participation": 0.9745293583648422,
+                "concentration_shannon_kl": 0.9059227541769365,
+                "entropy": 0.1463416045834059,
+                "gini": 0.9183846015417836,
+                "gini_normalized": 0.9796102416445691,
+                "kl_from_uniform": 2.626247117656375,
+                "lambda_gini_lorenz": 0.9847076812334268,
+                "lambda_participation": 0.9808970187736317,
+                "lambda_shannon_kl": 0.9294420656327024,
+                "n": 16,
+                "n_eff_participation": 1.0393293001235546,
+                "n_eff_shannon": 1.1575915590989705
+              },
+              "mixing": 0.02,
+              "rho": 0.32
+            },
+            "0.64": {
+              "field_residual": 6.245004513516506e-17,
+              "final_max_weight": 0.9609772228646443,
+              "final_metrics": {
+                "baseline": 0.25,
+                "concentration_gini_lorenz": 0.9583757043889539,
+                "concentration_participation": 0.9480400558014718,
+                "concentration_shannon_kl": 0.8313290888072203,
+                "entropy": 0.27050158765494253,
+                "gini": 0.8984772228646443,
+                "gini_normalized": 0.9583757043889539,
+                "kl_from_uniform": 2.502087134584839,
+                "lambda_gini_lorenz": 0.9687817782917154,
+                "lambda_participation": 0.9610300418511039,
+                "lambda_shannon_kl": 0.8734968166054152,
+                "n": 16,
+                "n_eff_participation": 1.0827447138386488,
+                "n_eff_shannon": 1.310621677544797
+              },
+              "mixing": 0.04,
+              "rho": 0.64
+            },
+            "0.80": {
+              "field_residual": 8.326672684688674e-17,
+              "final_max_weight": 0.9506939094329986,
+              "final_metrics": {
+                "baseline": 0.25,
+                "concentration_gini_lorenz": 0.9474068367285317,
+                "concentration_participation": 0.9343721930322008,
+                "concentration_shannon_kl": 0.7971970619761252,
+                "entropy": 0.3299903469402303,
+                "gini": 0.8881939094329985,
+                "gini_normalized": 0.9474068367285317,
+                "kl_from_uniform": 2.442598375299551,
+                "lambda_gini_lorenz": 0.9605551275463987,
+                "lambda_participation": 0.9507791447741506,
+                "lambda_shannon_kl": 0.8478977964820938,
+                "n": 16,
+                "n_eff_participation": 1.1062179622800223,
+                "n_eff_shannon": 1.3909547014301045
+              },
+              "mixing": 0.05,
+              "rho": 0.8
+            },
+            "1.28": {
+              "field_residual": 1.3537088117072779e-15,
+              "final_max_weight": 0.06250000000007734,
+              "final_metrics": {
+                "baseline": 0.25,
+                "concentration_gini_lorenz": 8.242295734817162e-14,
+                "concentration_participation": 0.0,
+                "concentration_shannon_kl": 7.401486830834377e-17,
+                "entropy": 2.772588722239781,
+                "gini": 7.72715225139109e-14,
+                "gini_normalized": 8.242295734817162e-14,
+                "kl_from_uniform": 0.0,
+                "lambda_gini_lorenz": 0.25000000000006184,
+                "lambda_participation": 0.25,
+                "lambda_shannon_kl": 0.25000000000000006,
+                "n": 16,
+                "n_eff_participation": 16.0,
+                "n_eff_shannon": 15.999999999999998
+              },
+              "mixing": 0.08,
+              "rho": 1.28
+            },
+            "1.60": {
+              "field_residual": 1.3851766955673433e-16,
+              "final_max_weight": 0.0625000000000037,
+              "final_metrics": {
+                "baseline": 0.25,
+                "concentration_gini_lorenz": 3.789561257387201e-15,
+                "concentration_participation": 0.0,
+                "concentration_shannon_kl": 7.401486830834377e-17,
+                "entropy": 2.772588722239781,
+                "gini": 3.552713678800501e-15,
+                "gini_normalized": 3.789561257387201e-15,
+                "kl_from_uniform": 0.0,
+                "lambda_gini_lorenz": 0.25000000000000283,
+                "lambda_participation": 0.25,
+                "lambda_shannon_kl": 0.25000000000000006,
+                "n": 16,
+                "n_eff_participation": 16.000000000000004,
+                "n_eff_shannon": 15.999999999999998
+              },
+              "mixing": 0.1,
+              "rho": 1.6
+            }
+          },
+          "4": {
+            "0.32": {
+              "field_residual": 1.6653345369377348e-16,
+              "final_max_weight": 0.9358898943540672,
+              "final_metrics": {
+                "baseline": 0.5,
+                "concentration_gini_lorenz": 0.9145198591387563,
+                "concentration_participation": 0.873243101756286,
+                "concentration_shannon_kl": 0.714062229927475,
+                "entropy": 0.30856210840253456,
+                "gini": 0.6858898943540672,
+                "gini_normalized": 0.9145198591387563,
+                "kl_from_uniform": 1.077732252717356,
+                "lambda_gini_lorenz": 0.9572599295693782,
+                "lambda_participation": 0.936621550878143,
+                "lambda_shannon_kl": 0.8570311149637375,
+                "n": 4,
+                "n_eff_participation": 1.1399130021712853,
+                "n_eff_shannon": 1.3614660654041792
+              },
+              "mixing": 0.08,
+              "rho": 0.32
+            },
+            "0.64": {
+              "field_residual": 3.0531133177191805e-16,
+              "final_max_weight": 0.8605551275463985,
+              "final_metrics": {
+                "baseline": 0.5,
+                "concentration_gini_lorenz": 0.814073503395198,
+                "concentration_participation": 0.7286257567184384,
+                "concentration_shannon_kl": 0.5137227470401282,
+                "entropy": 0.5571503368873979,
+                "gini": 0.6105551275463985,
+                "gini_normalized": 0.814073503395198,
+                "kl_from_uniform": 0.8291440242324927,
+                "lambda_gini_lorenz": 0.907036751697599,
+                "lambda_participation": 0.8643128783592192,
+                "lambda_shannon_kl": 0.7568613735200641,
+                "n": 4,
+                "n_eff_participation": 1.3386222267211845,
+                "n_eff_shannon": 1.7456907749404598
+              },
+              "mixing": 0.16,
+              "rho": 0.64
+            },
+            "0.80": {
+              "field_residual": 2.7755575615628914e-16,
+              "final_max_weight": 0.8162277660168374,
+              "final_metrics": {
+                "baseline": 0.5,
+                "concentration_gini_lorenz": 0.7549703546891168,
+                "concentration_participation": 0.6461897549730504,
+                "concentration_shannon_kl": 0.42428108266064424,
+                "entropy": 0.6789599950800557,
+                "gini": 0.5662277660168376,
+                "gini_normalized": 0.7549703546891168,
+                "kl_from_uniform": 0.7073343660398349,
+                "lambda_gini_lorenz": 0.8774851773445584,
+                "lambda_participation": 0.8230948774865252,
+                "lambda_shannon_kl": 0.7121405413303221,
+                "n": 4,
+                "n_eff_participation": 1.4760470537813943,
+                "n_eff_shannon": 1.9718259567907703
+              },
+              "mixing": 0.2,
+              "rho": 0.8
+            },
+            "1.28": {
+              "field_residual": 5.487277299209204e-16,
+              "final_max_weight": 0.25000000000000794,
+              "final_metrics": {
+                "baseline": 0.5,
+                "concentration_gini_lorenz": 1.0658141036401503e-14,
+                "concentration_participation": 0.0,
+                "concentration_shannon_kl": 2.220446049250313e-16,
+                "entropy": 1.3862943611198904,
+                "gini": 7.993605777301127e-15,
+                "gini_normalized": 1.0658141036401503e-14,
+                "kl_from_uniform": 2.220446049250313e-16,
+                "lambda_gini_lorenz": 0.5000000000000053,
+                "lambda_participation": 0.5,
+                "lambda_shannon_kl": 0.5000000000000001,
+                "n": 4,
+                "n_eff_participation": 4.000000000000001,
+                "n_eff_shannon": 3.999999999999999
+              },
+              "mixing": 0.32,
+              "rho": 1.28
+            },
+            "1.60": {
+              "field_residual": 5.495603971894392e-16,
+              "final_max_weight": 0.25000000000000366,
+              "final_metrics": {
+                "baseline": 0.5,
+                "concentration_gini_lorenz": 4.736951571734001e-15,
+                "concentration_participation": 0.0,
+                "concentration_shannon_kl": 0.0,
+                "entropy": 1.3862943611198906,
+                "gini": 3.552713678800501e-15,
+                "gini_normalized": 4.736951571734001e-15,
+                "kl_from_uniform": 0.0,
+                "lambda_gini_lorenz": 0.5000000000000023,
+                "lambda_participation": 0.5,
+                "lambda_shannon_kl": 0.5,
+                "n": 4,
+                "n_eff_participation": 4.0,
+                "n_eff_shannon": 4.0
+              },
+              "mixing": 0.4,
+              "rho": 1.6
+            }
+          },
+          "8": {
+            "0.32": {
+              "field_residual": 1.5959455978986625e-16,
+              "final_max_weight": 0.9636809247747851,
+              "final_metrics": {
+                "baseline": 0.35355339059327373,
+                "concentration_gini_lorenz": 0.9584924854568972,
+                "concentration_participation": 0.9439685983951049,
+                "concentration_shannon_kl": 0.834203249141759,
+                "entropy": 0.22673776650209354,
+                "gini": 0.8386809247747851,
+                "gini_normalized": 0.9584924854568972,
+                "kl_from_uniform": 1.8527037751777422,
+                "lambda_gini_lorenz": 0.9731676079587108,
+                "lambda_participation": 0.963778690412209,
+                "lambda_shannon_kl": 0.8928212525570384,
+                "n": 8,
+                "n_eff_participation": 1.076577653066218,
+                "n_eff_shannon": 1.2545008526560317
+              },
+              "mixing": 0.04,
+              "rho": 0.32
+            },
+            "0.64": {
+              "field_residual": 1.5265566588595902e-16,
+              "final_max_weight": 0.9242640687119283,
+              "final_metrics": {
+                "baseline": 0.35355339059327373,
+                "concentration_gini_lorenz": 0.9134446499564896,
+                "concentration_participation": 0.8835282686782978,
+                "concentration_shannon_kl": 0.709747964165112,
+                "entropy": 0.4156047732114394,
+                "gini": 0.7992640687119283,
+                "gini_normalized": 0.9134446499564896,
+                "kl_from_uniform": 1.6638367684683963,
+                "lambda_gini_lorenz": 0.9440465874383603,
+                "lambda_participation": 0.9247072441953544,
+                "lambda_shannon_kl": 0.812367555561137,
+                "n": 8,
+                "n_eff_participation": 1.1694764483896827,
+                "n_eff_shannon": 1.5152868685450755
+              },
+              "mixing": 0.08,
+              "rho": 0.64
+            },
+            "0.80": {
+              "field_residual": 8.326672684688674e-17,
+              "final_max_weight": 0.9031128874149273,
+              "final_metrics": {
+                "baseline": 0.35355339059327373,
+                "concentration_gini_lorenz": 0.8892718713313457,
+                "concentration_participation": 0.8512715897876187,
+                "concentration_shannon_kl": 0.6537802533440655,
+                "entropy": 0.5067225381244239,
+                "gini": 0.7781128874149275,
+                "gini_normalized": 0.8892718713313457,
+                "kl_from_uniform": 1.5727190035554117,
+                "lambda_gini_lorenz": 0.9284201766561967,
+                "lambda_participation": 0.9038550234957534,
+                "lambda_shannon_kl": 0.7761874186646154,
+                "n": 8,
+                "n_eff_participation": 1.2240592715422713,
+                "n_eff_shannon": 1.6598422008555607
+              },
+              "mixing": 0.1,
+              "rho": 0.8
+            },
+            "1.28": {
+              "field_residual": 2.7783331191238226e-16,
+              "final_max_weight": 0.12500000000000794,
+              "final_metrics": {
+                "baseline": 0.35355339059327373,
+                "concentration_gini_lorenz": 9.135549459772717e-15,
+                "concentration_participation": 0.0,
+                "concentration_shannon_kl": 8.587120795977716e-17,
+                "entropy": 2.0794415416798357,
+                "gini": 7.993605777301127e-15,
+                "gini_normalized": 9.135549459772717e-15,
+                "kl_from_uniform": 0.0,
+                "lambda_gini_lorenz": 0.3535533905932796,
+                "lambda_participation": 0.35355339059327373,
+                "lambda_shannon_kl": 0.3535533905932738,
+                "n": 8,
+                "n_eff_participation": 8.0,
+                "n_eff_shannon": 7.999999999999998
+              },
+              "mixing": 0.16,
+              "rho": 1.28
+            },
+            "1.60": {
+              "field_residual": 2.7686186676588484e-16,
+              "final_max_weight": 0.1250000000000037,
+              "final_metrics": {
+                "baseline": 0.35355339059327373,
+                "concentration_gini_lorenz": 4.314009467114894e-15,
+                "concentration_participation": 0.0,
+                "concentration_shannon_kl": 8.587120795977716e-17,
+                "entropy": 2.0794415416798357,
+                "gini": 3.774758283725532e-15,
+                "gini_normalized": 4.314009467114894e-15,
+                "kl_from_uniform": 0.0,
+                "lambda_gini_lorenz": 0.3535533905932765,
+                "lambda_participation": 0.35355339059327373,
+                "lambda_shannon_kl": 0.3535533905932738,
+                "n": 8,
+                "n_eff_participation": 8.0,
+                "n_eff_shannon": 7.999999999999998
+              },
+              "mixing": 0.2,
+              "rho": 1.6
+            }
+          }
+        },
+        "strong_mixing_control": {
+          "final_metrics": {
+            "baseline": 0.35355339059327373,
+            "concentration_gini_lorenz": 1.2688263138573218e-15,
+            "concentration_participation": 0.0,
+            "concentration_shannon_kl": 8.587120795977716e-17,
+            "entropy": 2.0794415416798357,
+            "gini": 1.1102230246251565e-15,
+            "gini_normalized": 1.2688263138573218e-15,
+            "kl_from_uniform": 0.0,
+            "lambda_gini_lorenz": 0.35355339059327456,
+            "lambda_participation": 0.35355339059327373,
+            "lambda_shannon_kl": 0.3535533905932738,
+            "n": 8,
+            "n_eff_participation": 8.000000000000002,
+            "n_eff_shannon": 7.999999999999998
+          },
+          "returns_to_uniform": true,
+          "rho": 3.0,
+          "start": "primary concentrated fixed point"
+        }
+      },
+      "phase_ratio": "rho = n mu / s",
+      "primary_run": {
+        "field_residual": 1.5265566588595902e-16,
+        "final_metrics": {
+          "baseline": 0.35355339059327373,
+          "concentration_gini_lorenz": 0.9134446499564896,
+          "concentration_participation": 0.8835282686782978,
+          "concentration_shannon_kl": 0.709747964165112,
+          "entropy": 0.4156047732114394,
+          "gini": 0.7992640687119283,
+          "gini_normalized": 0.9134446499564896,
+          "kl_from_uniform": 1.6638367684683963,
+          "lambda_gini_lorenz": 0.9440465874383603,
+          "lambda_participation": 0.9247072441953544,
+          "lambda_shannon_kl": 0.812367555561137,
+          "n": 8,
+          "n_eff_participation": 1.1694764483896827,
+          "n_eff_shannon": 1.5152868685450755
+        },
+        "final_weights": [
+          0.9242640687119283,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806,
+          0.010819418755438806
+        ],
+        "hold_metric_drift": 0.0,
+        "hold_time": 200.0,
+        "initial_metrics": {
+          "baseline": 0.35355339059327373,
+          "concentration_gini_lorenz": 0.00011428571428570169,
+          "concentration_participation": 2.500197246818118e-08,
+          "concentration_shannon_kl": 1.2498130458263076e-08,
+          "entropy": 2.079441495975995,
+          "gini": 9.999999999998899e-05,
+          "gini_normalized": 0.00011428571428570169,
+          "kl_from_uniform": 4.570384071200806e-08,
+          "lambda_gini_lorenz": 0.35362727020577733,
+          "lambda_participation": 0.35355340675571406,
+          "lambda_shannon_kl": 0.3535533986726478,
+          "n": 8,
+          "n_eff_participation": 7.999999268571496,
+          "n_eff_shannon": 7.999999634369281
+        },
+        "initial_weights": [
+          0.1251,
+          0.12498571428571428,
+          0.12498571428571428,
+          0.12498571428571428,
+          0.12498571428571428,
+          0.12498571428571428,
+          0.12498571428571428,
+          0.12498571428571428
+        ],
+        "mixing_mu": 0.08,
+        "n": 8,
+        "reinforcement_s": 1.0,
+        "rho": 0.64,
+        "sampled_trajectory": [
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.00011428571428570169,
+              "concentration_participation": 2.500197246818118e-08,
+              "concentration_shannon_kl": 1.2498130458263076e-08,
+              "entropy": 2.079441495975995,
+              "gini": 9.999999999998899e-05,
+              "gini_normalized": 0.00011428571428570169,
+              "kl_from_uniform": 4.570384071200806e-08,
+              "lambda_gini_lorenz": 0.35362727020577733,
+              "lambda_participation": 0.35355340675571406,
+              "lambda_shannon_kl": 0.3535533986726478,
+              "n": 8,
+              "n_eff_participation": 7.999999268571496,
+              "n_eff_shannon": 7.999999634369281
+            },
+            "time": 0.0,
+            "weights": [
+              0.1251,
+              0.12498571428571428,
+              0.12498571428571428,
+              0.12498571428571428,
+              0.12498571428571428,
+              0.12498571428571428,
+              0.12498571428571428,
+              0.12498571428571428
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.00017942987780118967,
+              "concentration_participation": 6.162825745322183e-08,
+              "concentration_shannon_kl": 3.0803080322316796e-08,
+              "entropy": 2.079441429037464,
+              "gini": 0.00015700114307604096,
+              "gini_normalized": 0.00017942987780118967,
+              "kl_from_uniform": 1.1264237187447179e-07,
+              "lambda_gini_lorenz": 0.3536693824294046,
+              "lambda_participation": 0.3535534304326518,
+              "lambda_shannon_kl": 0.35355341050582056,
+              "n": 8,
+              "n_eff_participation": 7.999998197075866,
+              "n_eff_shannon": 7.999999098861075
+            },
+            "time": 10.0,
+            "weights": [
+              0.1251570011430759,
+              0.12497757126527488,
+              0.12497757126527488,
+              0.12497757126527488,
+              0.12497757126527488,
+              0.12497757126527488,
+              0.12497757126527488,
+              0.12497757126527488
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.00028188100192951183,
+              "concentration_participation": 1.5209745315434096e-07,
+              "concentration_shannon_kl": 7.600591226627183e-08,
+              "entropy": 2.079441263737312,
+              "gini": 0.00024664587668832283,
+              "gini_normalized": 0.00028188100192951183,
+              "kl_from_uniform": 2.779425236631994e-07,
+              "lambda_gini_lorenz": 0.35373561161122724,
+              "lambda_participation": 0.3535534889161566,
+              "lambda_shannon_kl": 0.353553439727038,
+              "n": 8,
+              "n_eff_participation": 7.999995550416115,
+              "n_eff_shannon": 7.999997776460118
+            },
+            "time": 20.0,
+            "weights": [
+              0.12524664587668818,
+              0.12496476487475884,
+              0.12496476487475884,
+              0.12496476487475884,
+              0.12496476487475884,
+              0.12496476487475884,
+              0.12496476487475884,
+              0.12496476487475884
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.0004432603883753724,
+              "concentration_participation": 3.7610411482984917e-07,
+              "concentration_shannon_kl": 1.87885706508668e-07,
+              "entropy": 2.07944085460931,
+              "gini": 0.00038785283982845087,
+              "gini_normalized": 0.0004432603883753724,
+              "kl_from_uniform": 6.870705258066323e-07,
+              "lambda_gini_lorenz": 0.3538399347684233,
+              "lambda_participation": 0.35355363372450355,
+              "lambda_shannon_kl": 0.35355351205135166,
+              "n": 8,
+              "n_eff_participation": 7.999988997147906,
+              "n_eff_shannon": 7.99999450343768
+            },
+            "time": 30.0,
+            "weights": [
+              0.1253878528398284,
+              0.12494459245145309,
+              0.12494459245145309,
+              0.12494459245145309,
+              0.12494459245145309,
+              0.12494459245145309,
+              0.12494459245145309,
+              0.12494459245145309
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.0006980996924382968,
+              "concentration_participation": 9.328781302180162e-07,
+              "concentration_shannon_kl": 4.657900430913886e-07,
+              "entropy": 2.079439838354263,
+              "gini": 0.0006108372308835097,
+              "gini_normalized": 0.0006980996924382968,
+              "kl_from_uniform": 1.7033255725884544e-06,
+              "lambda_gini_lorenz": 0.3540046747724783,
+              "lambda_participation": 0.353553993649178,
+              "lambda_shannon_kl": 0.3535536917016678,
+              "n": 8,
+              "n_eff_participation": 7.999972708874989,
+              "n_eff_shannon": 7.999986373407023
+            },
+            "time": 40.0,
+            "weights": [
+              0.1256108372308835,
+              0.12491273753844521,
+              0.12491273753844521,
+              0.12491273753844521,
+              0.12491273753844521,
+              0.12491273753844521,
+              0.12491273753844521,
+              0.12491273753844521
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.001102118151454842,
+              "concentration_participation": 2.325122163736016e-06,
+              "concentration_shannon_kl": 1.160012292131166e-06,
+              "entropy": 2.079437299688455,
+              "gini": 0.0009643533825229866,
+              "gini_normalized": 0.001102118151454842,
+              "kl_from_uniform": 4.241991380826704e-06,
+              "lambda_gini_lorenz": 0.35426585113544734,
+              "lambda_participation": 0.35355489366061293,
+              "lambda_shannon_kl": 0.35355414047928685,
+              "n": 8,
+              "n_eff_participation": 7.9999319793708485,
+              "n_eff_shannon": 7.99996606414093
+            },
+            "time": 50.0,
+            "weights": [
+              0.125964353382523,
+              0.12486223523106815,
+              0.12486223523106815,
+              0.12486223523106815,
+              0.12486223523106815,
+              0.12486223523106815,
+              0.12486223523106815,
+              0.12486223523106815
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.0017466687338961253,
+              "concentration_participation": 5.8399504565357854e-06,
+              "concentration_shannon_kl": 2.909861426407889e-06,
+              "entropy": 2.0794309007690206,
+              "gini": 0.0015283351421591096,
+              "gini_normalized": 0.0017466687338961253,
+              "kl_from_uniform": 1.0640910815151727e-05,
+              "lambda_gini_lorenz": 0.35468251867405765,
+              "lambda_participation": 0.35355716580944546,
+              "lambda_shannon_kl": 0.3535552716633267,
+              "n": 8,
+              "n_eff_participation": 7.999829155955245,
+              "n_eff_shannon": 7.999914873166392
+            },
+            "time": 60.0,
+            "weights": [
+              0.12652833514215908,
+              0.12478166640826299,
+              0.12478166640826299,
+              0.12478166640826299,
+              0.12478166640826299,
+              0.12478166640826299,
+              0.12478166640826299,
+              0.12478166640826299
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.0027852804840838375,
+              "concentration_participation": 1.4849860206499425e-05,
+              "concentration_shannon_kl": 7.384127225228761e-06,
+              "entropy": 2.079414539185098,
+              "gini": 0.002437120423573358,
+              "gini_normalized": 0.0027852804840838375,
+              "kl_from_uniform": 2.7002494737526916e-05,
+              "lambda_gini_lorenz": 0.3553539257184565,
+              "lambda_participation": 0.3535629902350544,
+              "lambda_shannon_kl": 0.3535581640372819,
+              "n": 8,
+              "n_eff_participation": 7.999565587497557,
+              "n_eff_shannon": 7.999783982958611
+            },
+            "time": 70.0,
+            "weights": [
+              0.1274371204235732,
+              0.12465183993948956,
+              0.12465183993948956,
+              0.12465183993948956,
+              0.12465183993948956,
+              0.12465183993948956,
+              0.12465183993948956,
+              0.12465183993948956
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.004486038195152935,
+              "concentration_participation": 3.8521308300358935e-05,
+              "concentration_shannon_kl": 1.909157839717127e-05,
+              "entropy": 2.0793717277787542,
+              "gini": 0.003925283420758818,
+              "gini_normalized": 0.004486038195152935,
+              "kl_from_uniform": 6.981390108151686e-05,
+              "lambda_gini_lorenz": 0.3564533747741994,
+              "lambda_participation": 0.3535782925624144,
+              "lambda_shannon_kl": 0.3535657322793968,
+              "n": 8,
+              "n_eff_participation": 7.998873184569936,
+              "n_eff_shannon": 7.999441508286816
+            },
+            "time": 80.0,
+            "weights": [
+              0.12892528342075885,
+              0.12443924522560589,
+              0.12443924522560589,
+              0.12443924522560589,
+              0.12443924522560589,
+              0.12443924522560589,
+              0.12443924522560589,
+              0.12443924522560589
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.007345479693793321,
+              "concentration_participation": 0.00010327369416009109,
+              "concentration_shannon_kl": 5.090480012237604e-05,
+              "entropy": 2.079255398907741,
+              "gini": 0.006427294732069155,
+              "gini_normalized": 0.007345479693793321,
+              "kl_from_uniform": 0.00018614277209483276,
+              "lambda_gini_lorenz": 0.3583018510357924,
+              "lambda_participation": 0.35362015152270443,
+              "lambda_shannon_kl": 0.35358629782871537,
+              "n": 8,
+              "n_eff_participation": 7.9969796007539635,
+              "n_eff_shannon": 7.998510996411167
+            },
+            "time": 90.0,
+            "weights": [
+              0.13142729473206902,
+              0.12408181503827587,
+              0.12408181503827587,
+              0.12408181503827587,
+              0.12408181503827587,
+              0.12408181503827587,
+              0.12408181503827587,
+              0.12408181503827587
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.01237087457801118,
+              "concentration_participation": 0.0002928700299633527,
+              "concentration_shannon_kl": 0.00014302167382215363,
+              "entropy": 2.0789186006369427,
+              "gini": 0.010824515255759781,
+              "gini_normalized": 0.01237087457801118,
+              "kl_from_uniform": 0.000522941042893077,
+              "lambda_gini_lorenz": 0.3615505005196249,
+              "lambda_participation": 0.3537427154311404,
+              "lambda_shannon_kl": 0.35364584646938774,
+              "n": 8,
+              "n_eff_participation": 7.9914390130083275,
+              "n_eff_shannon": 7.99581756533554
+            },
+            "time": 100.0,
+            "weights": [
+              0.1358245152557598,
+              0.1234536406777486,
+              0.1234536406777486,
+              0.1234536406777486,
+              0.1234536406777486,
+              0.1234536406777486,
+              0.1234536406777486,
+              0.1234536406777486
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.021918956107422765,
+              "concentration_participation": 0.0009188940518492895,
+              "concentration_shannon_kl": 0.00044130423096022073,
+              "entropy": 2.0778284071532203,
+              "gini": 0.01917908659399492,
+              "gini_normalized": 0.021918956107422765,
+              "kl_from_uniform": 0.0016131345266154895,
+              "lambda_gini_lorenz": 0.36772282545065205,
+              "lambda_participation": 0.3541474065374957,
+              "lambda_shannon_kl": 0.3538386702170948,
+              "n": 8,
+              "n_eff_participation": 7.973185503752583,
+              "n_eff_shannon": 7.987105327004397
+            },
+            "time": 110.0,
+            "weights": [
+              0.14417908659399503,
+              0.12226013048657214,
+              0.12226013048657214,
+              0.12226013048657214,
+              0.12226013048657214,
+              0.12226013048657214,
+              0.12226013048657214,
+              0.12226013048657214
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.04296653489917673,
+              "concentration_participation": 0.0035225301546804623,
+              "concentration_shannon_kl": 0.0016374131892518144,
+              "entropy": 2.073462705831826,
+              "gini": 0.037595718036779635,
+              "gini_normalized": 0.04296653489917673,
+              "kl_from_uniform": 0.005978835848009734,
+              "lambda_gini_lorenz": 0.3813289613968023,
+              "lambda_participation": 0.35583051826829987,
+              "lambda_shannon_kl": 0.3546118907976634,
+              "n": 8,
+              "n_eff_participation": 7.897936063363328,
+              "n_eff_shannon": 7.952312014590639
+            },
+            "time": 120.0,
+            "weights": [
+              0.16259571803677966,
+              0.1196291831376029,
+              0.1196291831376029,
+              0.1196291831376029,
+              0.1196291831376029,
+              0.1196291831376029,
+              0.1196291831376029,
+              0.1196291831376029
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.10755847611596968,
+              "concentration_participation": 0.021714147674419395,
+              "concentration_shannon_kl": 0.009411310379901578,
+              "entropy": 2.045318509254084,
+              "gini": 0.09411366660147347,
+              "gini_normalized": 0.10755847611596968,
+              "kl_from_uniform": 0.03412303242575154,
+              "lambda_gini_lorenz": 0.4230842027913967,
+              "lambda_participation": 0.3675904277335591,
+              "lambda_shannon_kl": 0.35963730027843543,
+              "n": 8,
+              "n_eff_participation": 7.400679774980373,
+              "n_eff_shannon": 7.731620738526514
+            },
+            "time": 130.0,
+            "weights": [
+              0.2191136666014735,
+              0.11155519048550379,
+              0.11155519048550379,
+              0.11155519048550379,
+              0.11155519048550379,
+              0.11155519048550379,
+              0.11155519048550379,
+              0.11155519048550379
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.5601351483656413,
+              "concentration_participation": 0.43086684589772645,
+              "concentration_shannon_kl": 0.21538594025463995,
+              "entropy": 1.4153487771141906,
+              "gini": 0.4901182548199361,
+              "gini_normalized": 0.5601351483656413,
+              "kl_from_uniform": 0.6640927645656451,
+              "lambda_gini_lorenz": 0.7156508580637762,
+              "lambda_participation": 0.6320858022296294,
+              "lambda_shannon_kl": 0.49278890138476544,
+              "n": 8,
+              "n_eff_participation": 2.5029255358758,
+              "n_eff_shannon": 4.117922452648554
+            },
+            "time": 140.0,
+            "weights": [
+              0.6151182548199361,
+              0.05498310645429485,
+              0.05498310645429485,
+              0.05498310645429485,
+              0.05498310645429485,
+              0.05498310645429485,
+              0.05498310645429485,
+              0.05498310645429485
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9130006245016072,
+              "concentration_participation": 0.8829345977281912,
+              "concentration_shannon_kl": 0.7086633411318457,
+              "entropy": 0.4173317098225416,
+              "gini": 0.7988755464389063,
+              "gini_normalized": 0.9130006245016072,
+              "kl_from_uniform": 1.6621098318572942,
+              "lambda_gini_lorenz": 0.9437595486885614,
+              "lambda_participation": 0.9243234676225547,
+              "lambda_shannon_kl": 0.8116664046787976,
+              "n": 8,
+              "n_eff_participation": 1.170447776832571,
+              "n_eff_shannon": 1.517905933743572
+            },
+            "time": 150.0,
+            "weights": [
+              0.9238755464389062,
+              0.010874921937299118,
+              0.010874921937299118,
+              0.010874921937299118,
+              0.010874921937299118,
+              0.010874921937299118,
+              0.010874921937299118,
+              0.010874921937299118
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134444586749542,
+              "concentration_participation": 0.8835280129219569,
+              "concentration_shannon_kl": 0.7097474964278858,
+              "entropy": 0.41560551762127723,
+              "gini": 0.7992639013405849,
+              "gini_normalized": 0.9134444586749542,
+              "kl_from_uniform": 1.6638360240585586,
+              "lambda_gini_lorenz": 0.9440464637850603,
+              "lambda_participation": 0.924707078862535,
+              "lambda_shannon_kl": 0.812367253193993,
+              "n": 8,
+              "n_eff_participation": 1.1694768665823412,
+              "n_eff_shannon": 1.5152879965399475
+            },
+            "time": 160.0,
+            "weights": [
+              0.9242639013405848,
+              0.010819442665630754,
+              0.010819442665630754,
+              0.010819442665630754,
+              0.010819442665630754,
+              0.010819442665630754,
+              0.010819442665630754,
+              0.010819442665630754
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446498741653,
+              "concentration_participation": 0.8835282685682249,
+              "concentration_shannon_kl": 0.7097479639638059,
+              "entropy": 0.41560477353182035,
+              "gini": 0.7992640686398946,
+              "gini_normalized": 0.9134446498741653,
+              "kl_from_uniform": 1.6638367681480153,
+              "lambda_gini_lorenz": 0.9440465873851421,
+              "lambda_participation": 0.9247072441241981,
+              "lambda_shannon_kl": 0.8123675554310034,
+              "n": 8,
+              "n_eff_participation": 1.1694764485696654,
+              "n_eff_shannon": 1.5152868690305445
+            },
+            "time": 170.0,
+            "weights": [
+              0.9242640686398946,
+              0.010819418765729333,
+              0.010819418765729333,
+              0.010819418765729333,
+              0.010819418765729333,
+              0.010819418765729333,
+              0.010819418765729333,
+              0.010819418765729333
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564542,
+              "concentration_participation": 0.883528268678251,
+              "concentration_shannon_kl": 0.7097479641650256,
+              "entropy": 0.4156047732115766,
+              "gini": 0.7992640687118975,
+              "gini_normalized": 0.9134446499564542,
+              "kl_from_uniform": 1.6638367684682591,
+              "lambda_gini_lorenz": 0.9440465874383375,
+              "lambda_participation": 0.9247072441953241,
+              "lambda_shannon_kl": 0.8123675555610812,
+              "n": 8,
+              "n_eff_participation": 1.1694764483897597,
+              "n_eff_shannon": 1.5152868685452834
+            },
+            "time": 180.0,
+            "weights": [
+              0.9242640687118975,
+              0.010819418755443214,
+              0.010819418755443214,
+              0.010819418755443214,
+              0.010819418755443214,
+              0.010819418755443214,
+              0.010819418755443214,
+              0.010819418755443214
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 190.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 200.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 210.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 220.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 230.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 240.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 250.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 260.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 270.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 280.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 290.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 300.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 310.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 320.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 330.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 340.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 350.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 360.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 370.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 380.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 390.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 400.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 410.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 420.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 430.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 440.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 450.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 460.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 470.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 480.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 490.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 500.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 510.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 520.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 530.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 540.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 550.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 560.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 570.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 580.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 590.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 600.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 610.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 620.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 630.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 640.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 650.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 660.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 670.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 680.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 690.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 700.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 710.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 720.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 730.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 740.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 750.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 760.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 770.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 780.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 790.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          },
+          {
+            "metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "time": 800.0,
+            "weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ]
+          }
+        ],
+        "trajectory_monotonic": {
+          "lambda_gini_lorenz": true,
+          "lambda_participation": true,
+          "lambda_shannon_kl": true
+        }
+      },
+      "target_concentration_term_present": false,
+      "winner_identity_sensitivity": {
+        "metric_spread": {
+          "lambda_gini_lorenz": 0.0,
+          "lambda_participation": 0.0,
+          "lambda_shannon_kl": 0.0
+        },
+        "reading": "Changing which coordinate receives the fluctuation changes identity, not the permutation-invariant concentration.",
+        "runs": {
+          "0": {
+            "final_metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "sorted_final_weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ],
+            "winning_index": 0
+          },
+          "3": {
+            "final_metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "sorted_final_weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ],
+            "winning_index": 3
+          },
+          "7": {
+            "final_metrics": {
+              "baseline": 0.35355339059327373,
+              "concentration_gini_lorenz": 0.9134446499564896,
+              "concentration_participation": 0.8835282686782978,
+              "concentration_shannon_kl": 0.709747964165112,
+              "entropy": 0.4156047732114394,
+              "gini": 0.7992640687119283,
+              "gini_normalized": 0.9134446499564896,
+              "kl_from_uniform": 1.6638367684683963,
+              "lambda_gini_lorenz": 0.9440465874383603,
+              "lambda_participation": 0.9247072441953544,
+              "lambda_shannon_kl": 0.812367555561137,
+              "n": 8,
+              "n_eff_participation": 1.1694764483896827,
+              "n_eff_shannon": 1.5152868685450755
+            },
+            "sorted_final_weights": [
+              0.9242640687119283,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806,
+              0.010819418755438806
+            ],
+            "winning_index": 7
+          }
+        }
+      }
+    },
+    "stop_rule_evaluation": {
+      "mechanism_reason": "The candidate beats the mixing controls and sustains concentration without a target term, but remains at conditional toy-mechanism grade.",
+      "mechanism_stop_triggered": false,
+      "proxy_proliferation_stop_triggered": true,
+      "reason": "Three faithful proxies already disagree outside the invariant's partial order. Adding proxies without an independent physical selector would be story-shopping.",
+      "reopen_condition": "A DU-native influence object or observable selects a functional, or a source dynamics derives rho/equivalent scale without fitting Lambda."
+    }
+  }
+}

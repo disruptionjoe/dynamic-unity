@@ -55,6 +55,14 @@ unexamined conservative lean rather than a real safeguard, it is revised or drop
 imports **no methodology as settled truth**, any more than it imports a physics claim as
 settled truth.
 
+For conditional construction and comparative abduction, use
+`lab/process/conditional-and-abductive-research-contract.md` and its executable
+`tests/conditional_candidate_harness.py`. Its warrant types are **non-ordinal**:
+derived, conditionally entailed, constructively realized, abductively preferred, and structural
+analogy answer different questions. Contract completeness means a candidate is legible and
+comparable, not true or banked. A failed formalization closes only that formalization unless the
+predeclared concept invariant itself fails.
+
 ## Governance gates (non-negotiable)
 
 - **Joe always publishes.** Agents never post, deploy, email, or route externally. Terminal
