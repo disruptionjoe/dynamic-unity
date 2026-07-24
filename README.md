@@ -1,65 +1,92 @@
 ---
-title: "Dynamic Unity — a unification-discovery research program"
-status: founding
+title: "Dynamic Unity — Certified Causal Reality"
+status: active_research
 doc_type: overview
 created: 2026-07-21
+revised: 2026-07-24
 ---
 
 # Dynamic Unity
 
-**Dynamic Unity is a research program** — a unification effort at the human-knowledge
-frontier. Its purpose is to **discover unifying theories and laws of reality**, and its
-**central organizing hypothesis** is that a theory **extending Geometric Unity — or a
-shape-class like it — combined with dynamics** tells a better, more complete story than the
-static geometry alone.
+**Dynamic Unity is a verdict-open unification research program centered on Certified Causal
+Reality.** It discovers and tests the minimal dynamics by which event distinctions become
+certified, accessible records, and determines whether those records are sufficient to
+reconstruct observer-relative time, causal geometry, classical facts, and bounded-risk
+capabilities—or whether a finite intervention exposes an irreducible physical remainder.
 
-Dynamic Unity is *this program*, not any single conjecture inside it. The tachyon-transducer,
-for one, is a *branch* in Lane 1, not the program. The posture is **truth-seeking and
-verdict-agnostic**: the product is *true structure at honest grade plus a reliable method*,
-never a defense of a favored theory or originator. The scope is deliberately **broad** — any
-candidate unifying law or structure is in-bounds — but every claim is driven to a verdict and
-only what survives is kept.
+> **Can everything that becomes physically real and actionable for an observer be
+> reconstructed from causal histories the observer can certify? If not, what irreducible
+> physical remainder is required?**
+
+The program admits three honest outcomes:
+
+1. **Record-first reconstruction:** independently selected record dynamics reconstructs the
+   effective physics and capability available to observers.
+2. **Operational duality:** minimal physical and certified-record descriptions translate into
+   one another without empirical remainder, establishing equivalence but not priority.
+3. **Physics-first remainder:** two models share the candidate certified-record structure yet
+   differ under a finite admitted intervention, identifying indispensable physical structure
+   beyond those records.
+
+Underidentification is an incomplete result, not a fourth ontology. “Information is
+fundamental” is therefore a candidate verdict, not a premise. The object under test is an
+independently specified, resource-accounted causal-history and certification process—not an
+arbitrary encoding defined after seeing the target physics.
+Here “causal” initially means only a declared operational
+intervention/composition or influence relation; it does not silently supply the
+clock, metric, light cones, foliation, or spacetime causal order later targeted
+for reconstruction.
 
 ## Honest current standing (central claims are OPEN)
 
-The program **begins with its central claims OPEN**, and stating that openly beside any claim
-of progress is the correct posture, not a deficiency:
+The central sufficiency conjecture and all three ontology outcomes are **OPEN**. The strongest
+current results establish the starting boundary, not the answer:
 
-- The **tachyon-transducer core is unbuilt / B5-gated** — a frontier conjecture, not a solved
-  result.
-- The **dark-energy amplitude is currently a pure import**, not yet natively derived.
-- The **roll↔accretion identification is a conjecture**, and the tachyon's centrality is
-  **coincidence-grade** (W157).
+- A common update opportunity, record-forming event, retained capacity, accessible memory,
+  inherited predictive state, observer-owned record, public finality, and capability are
+  distinct typed objects.
+- `HC-DU-031A/B/C` constructs exact finite covariant record and archive fixtures and proves
+  scoped resource, complementarity, backreaction, evidence-conservation, aliasing, and
+  boundary-relocation results. Covariance admits recorders but does not select a recorder law,
+  interface, pointer basis, archive, observer, or classical irreversible process.
+- Classical sequential growth has an exact projective predictive quotient and a conditional
+  post-renormalization mechanism. It has not thereby produced a physical observer, selected
+  record interface, held-out spacetime geometry, dimensional scale, or fundamental ontology.
+- Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
+  `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
+  benchmarks, or downstream applications. None governs the new charter and none is promoted
+  by this restructuring.
 
-Two things are held fixed and must not be exceeded: (a) the honest grade of the physics above,
-and (b) the **anti-crank discipline, held at least as strict as GU's**. Nothing in this repo
-is banked until it survives adversarial verification and carries its grade label (Lane 3).
+No result is banked merely because it fits the new vocabulary. Every claim retains its
+historical grade and must survive adversarial verification, literature collision, and its
+declared controls.
 
 ## Purpose / Passion / Practice (the triad identity card)
 
 ### PURPOSE — why this repository exists (the meaningful outcome)
 
-To discover the **dynamical law that completes what a static geometry cannot** — the unifying
-structure that extends Geometric Unity (or a GU-like shape class) with genuine dynamics and
-tells a truer, more complete story of physics. It matters because the static picture is now
-provably *exhausted* at the discrete level — its bit and trit reach only signs and counts —
-while the deepest questions still open (the arrow of time, the becoming of records, the scale
-of the dark energy) are all **continuous and dynamical**. This repository exists to find
-whether *one dynamical law* reaches them — and to settle it honestly, either way.
+To determine whether a minimal, covariant, resource-accounted dynamics of event histories,
+record formation, provenance, certification, and access can reconstruct the effective
+physical reality available to observers. The meaningful outcome is a sharp verdict: a
+record-first reconstruction, an operational duality, or a finite witness locating the
+irreducible physical remainder. A theorem, no-go, or experiment that decides part of that
+question is progress; redescribing known physics as “records” without a risky consequence is
+not.
 
 ### PASSION — the agent capability this repository is a testbed for
 
 **Disciplined frontier research.** The capability under test is whether a fleet of agents can
-*generate genuinely novel structure* — theorems, predictions, methods, no-gos — at the edge of
-human knowledge **while adversarially self-falsifying**, so that what they bank is *survived*,
-not merely plausible. Physics unification is the ideal proving ground precisely because it is
-maximally hard, maximally crank-prone, and — decisively — **checkable**: here, inflation gets
-caught. A capability proven under this much adversarial pressure transfers to any high-stakes,
-low-ground-truth problem Joe faces.
+*generate genuinely novel structure*—theorems, predictions, methods, no-gos—at the edge of
+human knowledge while using conditional construction, abduction, adversarial testing, and
+honest grading without collapsing into either orthodoxy or wishful synthesis. Physics
+unification is the ideal proving ground because it is maximally hard, maximally
+category-error-prone, and checkable enough to expose inflation. The scientific results never
+serve as evidence merely because agents agreed on them.
 
 ### PRACTICE — the specific return to Joe's future practice
 
-The return is the **method and the proof**, not the physics. What this repository forges — the
+The return is the **method and the proof as well as any honestly earned physics**. What this
+repository forges—the
 multi-agent orchestration patterns, the adversarial-verification-and-honest-grading discipline,
 and demonstrated proof that agent fleets can push a real research frontier *without inflating* —
 sharpens how Joe runs agent-driven work generally, gives **Disruption Joe Consulting** a
@@ -69,35 +96,42 @@ freely; findings transfer only with their grade labels attached, never as doctri
 
 ## Objectives (program-level)
 
-1. **Discover and drive to verdict genuine unifying laws/structures of reality** — force,
-   falsify, or precisely place each candidate. Dynamic Unity is the lead candidate; the lane
-   stays open to others.
-2. **Bank SURVIVED outputs** — new predictions, theorems, methods, no-gos — each *led by its
-   grade* and counted only after it survives adversarial verification; a clean kill or a
-   genuine no-go counts as fully as a positive. An unsurvived output is activity, not product.
-3. **Demonstrate the agent apparatus at a genuine frontier** — that disciplined, adversarial,
-   self-checking multi-agent research can pursue a moonshot and yield real intellectual
-   product. The repo is itself the proof-point.
-4. **Harvest and route the transferable learnings to Joe's capability and endeavors** (DJC,
-   Church of AI, Joe himself) — methods, orchestration patterns, findings — as drafts for Joe.
-5. **Hold the discipline as the moonshot scales** — self-verify every ingested learning; keep
-   the type wall, the B5 block, and every honest grade intact; never let unification or a
-   borrowed result masquerade as banked evidence.
+1. **Adjudicate Certified Causal Sufficiency.** Define records without borrowing the structures
+   they are meant to explain, dynamically select or delimit their interface, and determine
+   whether full certified histories are sufficient, dual, or incomplete.
+2. **Build a publishable theorem spine.** Seek necessary-and-sufficient certification,
+   public-finality, interventional-sufficiency, reconstruction, capability, and resource
+   results with converses and finite countermodels.
+3. **Cross the physical bridge.** Test the same typed objects on adversarial distributed
+   histories, quantum multi-time histories, exact Clock-QCA/archive fixtures, causal growth,
+   and realizable metrology without domain-specific refitting.
+4. **Recover known physics or expose the remainder.** Attempt observer, time, geometry,
+   classicality, capability, and low-energy recovery; require a held-out discriminator,
+   uniqueness/compression gain, or novel prediction before making an ontological claim.
+5. **Bank survived intellectual product and transfer the method.** A clean kill, scoped no-go,
+   theorem, conditional construction, or prediction counts at its honest grade. Agent-process
+   learnings route to Joe's practice; persona consensus never substitutes for evidence.
 
-*(The specific physics targets — bank the transducer, derive Λ~1/√N natively, carry the
-recovered predictions — are lane/channel work under Objective 1, not repo objectives. They
-live in `LANES.yaml`.)*
+## Research program map
+
+- **Authoritative scientific agenda:** `docs/certified-causal-reality-research-program.md`
+- **Lanes and live work:** `LANES.yaml`
+- **Triple-diamond design receipt:**
+  `explorations/science-council-certified-causal-reality-triple-diamond-2026-07-24.md`
+- **Historical concepts and exact grades:** `explorations/concept-register.md`
+- **Conditional and abductive contract:**
+  `lab/process/conditional-and-abductive-research-contract.md`
+
+The new agenda routes prior work; it does not rewrite dated explorations, probes, artifacts, or
+claim grades as though the recharter existed earlier.
 
 ## Connections (summary)
 
-This repo **connects to everything and is bounded by nothing** except its own
-self-verification duty. Unlike possibility-to-capability, it is **not boundary-restricted** —
-it may work on any topic and **ingests from and shares to** the sibling repos freely (GU /
-Observerse, time-as-finality, temporal-issuance, P2C, and Joe's endeavors JoeOps / DJC /
-Church of AI). The one rule that makes the open boundary safe: *ingest freely, verify
-everything.* The repo verifies with its **own full adversarial apparatus** and is **never
-dependent on another repo to clear its work**. Full table and the sovereign self-verification
-rule: `CONNECTIONS.md`.
+This repo has an open research boundary and a strict self-verification duty. It may ingest from
+and contribute to GU / Observerse, Time as Finality, Temporal Issuance, Possibility to
+Capability, Continuity Ledger, AI Epistemology, and Joe's endeavors, but no sibling verdict is
+load-bearing until rechecked here at a declared grade. The full role map is in
+`CONNECTIONS.md`.
 
 ## Governance
 
@@ -112,18 +146,19 @@ rule: `CONNECTIONS.md`.
 
 - **Agent-facing governance and method:** `AGENTS.md`
 - **Lanes and channels (machine-readable):** `LANES.yaml`
+- **Certified Causal Reality agenda:** `docs/certified-causal-reality-research-program.md`
 - **Sibling connections and the self-verification rule:** `CONNECTIONS.md`
 - **Reproducible numerical environment:** `requirements-compute.txt` and `tests/README.md`
 - **Attribution / lineage:** below.
 
 ## Attribution / Lineage
 
-Dynamic Unity's central hypothesis takes **Geometric Unity (GU)** as its **originating
-substrate** — the static geometric picture this program extends with dynamics. Geometric Unity
-is **Eric Weinstein's conjecture**, and the credit for that originating framework is his. This
-program consumes GU's static `(9,5)` substrate, its `σ` (one Z/2) and `τ` (one Z/3) data, its
-type wall, and its hosts-not-derives results as a working substrate, and asks what dynamics
-extend it — but it is a distinct program with its own identity and its own verdicts, not a
-restatement or endorsement of GU. GU's grades are re-verified here, never re-asserted on
-GU's say-so (see `CONNECTIONS.md`). The nod to GU and to Eric Weinstein is honest and
-deliberate; it is lineage credit, not a thesis this repo exists to defend.
+Dynamic Unity originated as an attempt to extend **Geometric Unity (GU)** with dynamics.
+Geometric Unity is **Eric Weinstein's conjecture**, and credit for that originating framework
+is his. The rechartered program preserves GU's static `(9,5)` geometry, its typed discrete
+data, and its open source gaps as high-value conditional inputs, rival structure, and recovery
+benchmarks. It no longer assumes GU—or any physical substrate—as the foundation from which
+records must descend. A successful Certified Causal Reality theory must recover GU's useful
+structure, show why a rival does better, or identify the finite physical remainder that makes
+such geometry indispensable. This is lineage credit and a hard comparison target, not a thesis
+the repository exists to defend.

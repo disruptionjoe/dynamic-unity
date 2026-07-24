@@ -1,16 +1,19 @@
 ---
-title: "Known challenges & class-relative adversaries — terrain to beat, not gates"
-status: founding
+title: "Known challenges and adversaries — Certified Causal Reality terrain"
+status: active_research
 doc_type: reference
 created: 2026-07-21
-stance: "These are challenges the flagship work should ADDRESS and take seriously — NOT hard gates that block exploration or banking. Most are CLASS-RELATIVE no-go's, and this program has repeatedly gotten around class-relative no-go's. They sharpen the work and mark the hill; the North Star leads."
+revised: 2026-07-24
+stance: "These are adversarial terrain and cheap failure modes, not an administrative verification lane. A class-relative no-go closes its declared class, not automatically the concept."
 ---
 
-# Known challenges & class-relative adversaries
+# Known challenges and adversaries
 
-The sibling-repo harvest surfaced sharp objections to Dynamic Unity's flagship claim (the
-tachyon-transducer: record-accretion → becoming → dark energy). They are worth knowing and
-worth beating. They are **not gates.**
+The active program is Certified Causal Reality. Its adversaries are the
+specific ways a record, certification, reconstruction, or capability claim can
+become circular, tautological, underidentified, or merely analogous. They are
+terrain each candidate must type and address at its honest grade, not a
+standing administrative verification lane.
 
 **How to hold them (read first).** Nearly all of these are **class-relative no-go's** — a wall
 inside one framing, not a global one. This program's history *is* getting around class-relative
@@ -19,7 +22,95 @@ exploration, let them sharpen the construction, and at the banking gate note hon
 result has and hasn't cleared — but do **not** let them block exploration, and do **not** treat
 them as automatic kills. Ambition and the frontier lead; these are the terrain.
 
-## The adversaries (each with the frame it lives in, and the way through)
+## Current Certified Causal Reality adversaries
+
+1. **Primitive circularity.** *Objection:* a “record” quietly assumes the
+   clock, geometry, observer, basis, memory, archive, irreversibility, finality,
+   or capability it is meant to derive. *Way through:* type every antecedent
+   and derived object; begin from a smaller event/process/intervention contract
+   or label the imported structure.
+
+2. **Sufficiency tautology.** *Objection:* “complete record” is defined as
+   equivalence under every physical experiment and then announced sufficient
+   for every experiment. *Way through:* freeze a nontrivial compressed record
+   quotient independently, then prove factorization or find a finite separating
+   intervention.
+
+3. **Interface underselection.** *Objection:* covariance, durability, or
+   predicate-specific copyability admits many record laws and bases. *Way
+   through:* derive a selection theorem, prove an interface-necessity no-go, or
+   declare and charge the additional physical interface.
+
+4. **Endpoint/history substitution.** *Objection:* equal terminal states, mean
+   shifts, dephasing, visibility loss, or a final database snapshot do not
+   certify causal provenance. *Way through:* use multi-time process,
+   recombination, counterfactual, same-endpoint/different-history, and held-out
+   intervention controls.
+
+5. **Redundancy/finality substitution.** *Objection:* copying, gossip,
+   decoherence, confidence, or metastability does not prevent incompatible
+   public facts. *Way through:* declare provenance, access structure,
+   incompatibility, adversary/fault model, certificate rule, and converse
+   split-view attack.
+
+6. **Weak-rival manufacture.** *Objection:* certification is won by excluding
+   only a convenient rival class. *Way through:* state the completion class in
+   the theorem, include the strongest known classical, hidden-state, gated,
+   replay, corruption, and refit rivals, and grade the conclusion
+   class-relatively.
+
+7. **Free resource export.** *Objection:* finality or fresh records look free
+   because support, blank archives, entropy, coherence loss, trusted parties,
+   global coordination, or displaced information leaves the boundary. *Way
+   through:* carry the complete resource ledger and run boundary-relocation
+   interventions.
+
+8. **Covariance-as-selection.** *Objection:* a broad covariant family is
+   mistaken for the physical law; an unobserved scheduler is called gauge.
+   *Way through:* test uniqueness and naturality under a justified group. A
+   scheduler is gauge only if the full process, records, interventions, and
+   capabilities factor through its quotient.
+
+9. **Capability by stipulation.** *Objection:* certification merely renames an
+   action as allowed. *Way through:* define the action family independently and
+   demonstrate a strict risk/reversal improvement after readout, latency,
+   verification, and resource costs.
+
+10. **Geometry import.** *Objection:* order, density, dimensional scale,
+    manifold, metric, foliation, or preferred history is inserted and then
+    “reconstructed.” *Way through:* state each antecedent, require
+    uniqueness-up-to-gauge, held-out geometry, scale calibration, and
+    nonisomorphic countermodels.
+
+11. **Known-theorem relabeling.** *Objection:* the claimed law reduces to
+    Blackwell ordering, data processing, process tensors, no-broadcasting,
+    spectrum broadcast, common knowledge, quorum intersection, system
+    identification, or causal-order reconstruction. *Way through:* isolate a
+    new conjunction, converse, quantitative bound, transfer theorem, or
+    physical discriminator in a prior-art collision table.
+
+12. **Cross-platform refit.** *Objection:* quantum, distributed, database, and
+    causal-set fixtures use different definitions hidden behind common words.
+    *Way through:* freeze the typed map before results and require at least one
+    statement to transfer without refitting.
+
+13. **Metaphysical inflation.** *Objection:* operational sufficiency or duality
+    is reported as proof that records are fundamental. *Way through:* reserve
+    ontological priority for an additional uniqueness, generative economy, or
+    novel physical consequence.
+
+14. **Toy-to-universe inflation.** *Objection:* an exact finite recorder,
+    archive, quorum, or causal-growth theorem becomes a claim about proper
+    time, classical reality, gravity, cosmology, or the universe. *Way through:*
+    keep the theorem class explicit and require the full recovery dependency
+    chain.
+
+## Legacy GU/transducer adversaries
+
+The original sibling-repo harvest targeted the tachyon-transducer
+(`record-accretion -> becoming -> dark energy`). Those seven challenges remain
+discoverable and live when that downstream branch is reopened; they no longer
+define the program-wide North Star.
 
 1. **Block-universe absorber** (TaF). *Objection:* apparent passage shouldn't be promoted to
    objective becoming. *Frame:* B-theory. *Way through:* show the accretion is genuine issuance
@@ -49,14 +140,19 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
    *definitionally* the source action re-labeled (d=0), accretion is trivial. Ensure N is a real
    transduction (d>0). Respect it.
 
-7. **Krein sign-selection no-go** (P2C). *Objection:* no conserving dynamics *derives* the DE
-   sign — it costs one external Z/2. *Frame:* conserving dynamics. *Not a wall for DU:* DU already
-   accepts the sign is external (σ). Just don't waste effort deriving the sign from dynamics — the
-   amplitude/becoming is the target, the sign is a supplied bit.
+7. **Krein sign-selection no-go** (P2C; historical statement corrected).
+   *Historical objection:* no conserving dynamics derives the DE sign, so one
+   external `Z/2` was treated as supplied. *Current status:* GU's corrected
+   operator bridge does **not** establish physical externality or
+   `sigma=w1`. `sigma` may be used only as a labeled conditional input until a
+   separate physical selection or remainder result exists. The old “DU accepts
+   the sign is external” premise is superseded.
 
-## Net
-Take these as the honest opposition the flagship has to *out-argue* — a source of sharpness, not
-a set of locks. At a banking gate, list which a result cleared and which it didn't, in plain
-grade. That is honesty. Hard-gating on class-relative no-go's would be the conservatism the
-charter's Method section explicitly rejects. Related: `explorations/sibling-repo-harvest-…`;
-memory `feedback_no_go_may_be_class_relative`, `feedback_north_star_is_high_exploit_not_explore`.
+## Legacy net
+
+Take the seven historical items as honest opposition for their downstream
+branch, not as a set of locks on the full Certified Causal Reality program. At
+a banking gate, list which adversaries a result cleared and which it did not,
+at plain class-relative grade. Hard-gating a concept on one formal class would
+be as misleading as ignoring the class-local no-go. Related:
+`explorations/sibling-repo-harvest-…`.

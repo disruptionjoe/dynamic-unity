@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 17
+manifest_revision: 18
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -13,16 +13,21 @@ owner:
   - LANES.yaml
 lane_design_note: >-
   Lanes are organized by JOB / MODE of research, not by a verification pipeline. There is
-  deliberately NO standing verification-gate lane: honesty (grade what you actually have; don't
-  fool yourself) is a per-lane practice, and the known challenges/adversaries are TERRAIN to beat,
-  not gates — most are class-relative no-go's this program has a history of getting around (see
-  lab/process/known-challenges-and-adversaries.md). The lean is toward the frontier and ambition.
+  deliberately NO standing verification-gate lane. Lane 1 owns the Certified Causal Reality
+  theorem spine; Lane 2 owns conditional construction and rival generation; Lane 3 owns
+  cross-platform realizations and causal-history assays; Lane 4 owns prediction, theorem
+  hardening, novelty collision and Drafting-Factory seeding; Lane A owns stewardship. Honesty is
+  a per-lane practice and the known challenges/adversaries are terrain to beat, not automatic
+  gates.
 active_hardening_program_ref: >-
-  explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
+  docs/certified-causal-reality-research-program.md
 active_hardening_program_note: >-
-  HC-DU-001 through HC-DU-032 are the prioritized, non-destructive credibility backlog. The
-  original P01-A through P50-B persona items remain the lossless source register; hardening IDs,
-  work packages and cross-repo reuse pointers route them but never replace them.
+  HC-DU-033 through HC-DU-040 define the prospective Certified Causal Reality theorem,
+  certification, sufficiency, reconstruction, transfer and recovery spine. HC-DU-001 through
+  HC-DU-032 and P01-A through P50-B remain a lossless historical and live antecedent backlog;
+  migration routes them but does not replace, regrade or close them.
+legacy_hardening_register_ref: >-
+  explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
   status: superseded_by_science_council_reprioritization_2026_07_23
   date: '2026-07-22'
@@ -525,7 +530,53 @@ covariant_archive_boundary_swing:
     package is the Clock-QCA-specific nonselection plus exact archive-operation taxonomy and
     graded boundary theorem; a literature novelty search and sharper comparison theorem remain
     prerequisites for submission.
-lanes:
+certified_causal_reality_restructure:
+  status: implemented_program_recharter
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: use the Science Council in a triple-diamond process to develop and fully
+    implement the Dynamic Unity restructuring plan.
+  agenda_ref: docs/certified-causal-reality-research-program.md
+  council_receipt_ref: >-
+    explorations/science-council-certified-causal-reality-triple-diamond-2026-07-24.md
+  central_question: >-
+    Can everything that becomes physically real and actionable for an observer be reconstructed
+    from the causal histories it can certify? If not, what irreducible physical remainder is
+    required?
+  organizing_conjecture: >-
+    For declared model, observer/access, intervention, adversary and resource classes, an
+    independently selected certified-history quotient is sufficient for observer-accessible
+    predictions and bounded-risk capabilities, and its meta-record relations reconstruct
+    effective causal geometry up to gauge.
+  outcomes:
+  - record_first_reconstruction
+  - operational_duality
+  - physics_first_remainder
+  current_grade: >-
+    PROGRAM RECHARTERED / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED / EXACT FINITE
+    RECORD-AND-ARCHIVE RESULTS RETAINED / RECORD SELECTION, PUBLIC FINALITY, INTERVENTIONAL
+    SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY OPEN / CLAIM-SPECIFIC NOVELTY
+    SEARCH-INCOMPLETE
+  first_dependency: >-
+    HC-DU-033: characterize when dynamics, symmetry and access select a nontrivial equivariant
+    record algebra, or prove which independently supplied interface structure is necessary.
+  first_executable_flagship: >-
+    HC-DU-035 Quorum Objectivity and Public-Finality Classicality, after the typed kernel is
+    frozen: a finite certificate bound plus converse split-view attack across adversarial
+    distributed and nonorthogonal quantum record fixtures.
+  migration_rule: >-
+    Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
+    P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
+    below as legacy_lanes_revision_17. New routing is additive and supplies no automatic claim
+    promotion.
+  downstream_not_governing:
+  - Geometric Unity and GU-like geometry
+  - tachyon-transducer and B5 source action
+  - Lambda~1/sqrt(N) and covariant cosmology
+  - causal-post and CSG growth
+  - Clock-QCA recorder/archive fixtures
+  - recursive viability and observer-system overlays
+legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
   ordinal: 1
@@ -900,12 +951,279 @@ lanes:
       Preserve the lossless persona backlog; calibrate forecasts and stop-losses; evaluate agent
       research methods against baselines; manage GU/non-GU/null search allocation without converting
       persona authority into evidence. Work package WP-09.
+lanes:
+- id: '1'
+  label: Lane 1
+  ordinal: 1
+  kind: progress
+  title: Certified Causal Reality theorem spine
+  north_star: true
+  purpose: >-
+    Prove or refute whether independently selected and certified causal histories are sufficient
+    to reconstruct observer-accessible reality. Keep record-first reconstruction, operational
+    duality and a finite physics-first remainder coequal, and turn every result into a scoped
+    theorem, converse, no-go or discriminator rather than an ontology by vocabulary.
+  purpose_type: north_star
+  lead_bet: >-
+    The decisive target is HC-DU-036, an Interventional Record-Sufficiency Dichotomy: within a
+    declared class, a physical process either factors through an independently fixed
+    certified-history quotient or a bounded-complexity intervention separates candidate
+    realizations. HC-DU-033 record/interface selection is its first dependency. After that kernel
+    is frozen, HC-DU-035 Quorum Objectivity is the first finite executable flagship.
+  anchor:
+    name: Certified Causal Sufficiency — factorization or finite physical-remainder witness
+    elevated: '2026-07-24 (Joe direct chat; nineteen-lens triple-diamond convergence)'
+    honest_standing: >-
+      OPEN. Exact finite recorders, pointers and archives exist and expose covariance
+      nonselection, necessary backreaction, complementarity, evidence conservation, resource
+      costs, aliasing and graded boundary relocation. No record law, interface, observer, public
+      finality, geometry, physical ontology or low-energy theory has been selected.
+    success: >-
+      A nontrivial necessary-and-sufficient theorem, tight bound, converse/no-go or finite
+      separating witness in a declared model class, followed by the same typed statement on
+      unlike physical and distributed fixtures without refitting.
+  dependency_guard: >-
+    Do not reconstruct time, geometry, classicality, capability, QFT, GR, GU or cosmology from a
+    record object until the primitive, interface, access, intervention, adversary, resource and
+    certification contracts are independently fixed. A negative selection theorem may move
+    directly to a physics-first remainder; this is a scientific dependency, not a verification
+    pipeline.
+  channels:
+  - id: '1.1'
+    title: Primitive process, typed objects and record selection
+    scope: >-
+      Execute HC-DU-033. Freeze Upsilon, I, R, Gamma_R, C, chi, F, A_F, O, Q_O, Cap, G_O, the
+      resource ledger and remainder witness. Type primitive operational precedence/composition
+      separately from any supplied or reconstructed clock, metric, light cone, foliation or
+      spacetime causal order. Enumerate the smallest equivariant record instruments under
+      independently justified symmetry, locality and access constraints. Return a Record
+      Selection Theorem, an Interface-Necessity No-Go, or a classified minimal
+      additional-structure family. Do not build another merely admissible covariant recorder.
+  - id: '1.2'
+    title: Fresh-record dynamics and generativity
+    scope: >-
+      Determine what produces new persistent distinctions while charging recurrence, support,
+      archive export, coherence, entropy and coarse-graining. Carry the exact finite-reuse
+      trichotomy, HC-DU-014/024, the live portions of HC-DU-031 and causal-growth candidates.
+      Fixed finite aliasing is not open-ended record production.
+  - id: '1.3'
+    title: Multi-time certification and public finality
+    scope: >-
+      Execute HC-DU-034 and HC-DU-035. Distinguish equal endpoints, mean histories, classical
+      random-history mixtures, coherent histories and causal provenance. Derive fault- and
+      access-relative certificate bounds, converse split views and conditions for a stable
+      approximately commutative or broadcastable public actionable algebra. Redundancy,
+      dissemination, confidence and decoherence are not finality by themselves.
+  - id: '1.4'
+    title: Interventional sufficiency and ontology discriminator
+    scope: >-
+      Execute HC-DU-036. Prove factorization through the certified-history quotient, construct a
+      bounded separating intervention, or return a typed comparison-contract failure. Never
+      define record equivalence by agreement under every target physical experiment.
+  - id: '1.5'
+    title: Meta-record time and geometry
+    scope: >-
+      Execute HC-DU-038 on independently fixed provenance/acquisition structure. Reconstruct
+      effective spacetime causal order beyond primitive operational precedence, plus density,
+      scale, dimension, proper-time comparison, reference-frame relations and reachable
+      capability regions with uniqueness-up-to-gauge and nonisomorphic controls. Do not claim
+      to derive primitive precedence from itself. Order alone is known terrain and does not
+      satisfy this channel.
+  - id: '1.6'
+    title: Observer individuation, capability and resource laws
+    scope: >-
+      Execute HC-DU-037 and reuse HC-DU-032 only as an intervention-relative observer/system
+      overlay. A certificate produces strict capability only if it separates action-relevant
+      histories after risk, readout and verification cost. Test whether stronger public finality
+      must consume support, redundancy, work/entropy or coherent/reversible optionality.
+  - id: '1.7'
+    title: Cross-platform invariance, physical recovery and applications
+    scope: >-
+      Execute HC-DU-039/040 after their dependencies. Require a shared typed statement across
+      Clock-QCA, coherent proper-time, adversarial distributed, quantum-network and causal-set
+      fixtures. Then test quantum/classical limits, AQFT/QFT locality, relativistic covariance,
+      GR-like geometry, GU recovery/ablation, Standard Model compatibility and cosmology.
+      Reopen Lambda~1/sqrt(N) only after a physically selected count, observable, family, scale,
+      sign, coefficient and unit map exist.
+
+- id: '2'
+  label: Lane 2
+  ordinal: 2
+  kind: progress
+  title: Conditional construction and rival-theory engine
+  north_star: false
+  purpose: >-
+    Generate record-first, physics-first, dual and hybrid candidates by derivation, conditional
+    construction, abduction, synthesis and structural analogy. Force every candidate onto the
+    common typed kernel, strongest rival class, finite discriminator and stop/reopen contract.
+    This is the divergent and heterodox engine; derivation is not the only warrant.
+  purpose_type: independent_progress
+  channels:
+  - id: '2.1'
+    title: Record-first candidate dynamics
+    scope: >-
+      Construct dynamics that independently selects records, interface, access and certification
+      and attempts to generate observer-relative physics. GU/tachyon/source, causal growth,
+      record-clock and archive candidates may enter only with current grades and explicit
+      resource boundaries.
+  - id: '2.2'
+    title: Physics-first and operational-duality nulls
+    scope: >-
+      Give standard physical completions, hidden-state realizations, unrestricted gated clocks,
+      smooth-memory models, ordinary databases and known quantum channels their strongest fair
+      versions. Search for operational dualities and finite remainder witnesses rather than
+      treating an unconstrained fit as identification.
+  - id: '2.3'
+    title: Conditional and abductive bridge construction
+    scope: >-
+      Use the non-ordinal candidate contract for cross-domain conjectures. Map quantum,
+      consensus, database, control and causal-structure objects with explicit type, composition,
+      free-choice and failure-scope tests. Analogy is not physical identity.
+  - id: '2.4'
+    title: Open-endedness, fresh records and multiscale organization
+    scope: >-
+      Test source-internal novelty, causal-post memory, open-system mechanisms, recursive
+      viability, heterarchical observer covers and generated scale. Reject arbitrary drives,
+      fitted windows, gratuitous hierarchy depth and free global access.
+  - id: '2.5'
+    title: GU ablation and rival unification tournament
+    scope: >-
+      Remove GU from each candidate to measure its unique contribution, then compare GU,
+      record-first, causal-set, process, information-theoretic and conventional physical frames
+      on one recovery, prediction, complexity, resource and evidence-independence contract.
+  - id: 2.open
+    title: Open candidate
+    scope: >-
+      Admit a new candidate only when it binds to the typed program kernel, a declared rival or
+      adversary class, a finite cheap discriminator and an explicit local-versus-concept failure
+      scope.
+
+- id: '3'
+  label: Lane 3
+  ordinal: 3
+  kind: progress
+  title: Cross-platform realization and causal-history assay
+  north_star: false
+  purpose: >-
+    Instantiate one common theory contract in heterogeneous exact, computational and empirical
+    benchmark systems. Determine whether the proposed unity transfers without platform-specific
+    redefinition. This is a realization and assay lane, not a persona swarm and not a standing
+    verification gate.
+  purpose_type: independent_progress
+  channels:
+  - id: '3.1'
+    title: Clock-QCA recorder and archive fixture
+    scope: >-
+      Preserve HC-DU-031A/B/C as the exact baseline with recorder-off,
+      arbitrary-active-unitary, alias, carrier-loss, transfer, independent-fresh-cell,
+      boundary-relocation, reunion and later-recoupling controls. Reopen only under the declared
+      independently motivated interface or physical-system conditions.
+  - id: '3.2'
+    title: Coherent proper-time and atomic-clock fixture
+    scope: >-
+      Hold average shifts fixed and compare mean-time, classical random-history,
+      dephasing-only, coherent-history and recombination channels. Track clock, motion, readout,
+      provenance, accessible record, calibration, uncertainty and systematics separately.
+  - id: '3.3'
+    title: DAG, gossip, metastable, database and BFT-finality fixture
+    scope: >-
+      Compare dissemination without finality, speculative/rollback state, metastable confidence
+      and hard certificates under equivocation, replay, corruption, loss and split views. Include
+      equal-endpoint/different-provenance and pre/post-certificate action controls.
+  - id: '3.4'
+    title: Quantum-network, broadcast and QEC-access fixture
+    scope: >-
+      Test nonorthogonal records, spectrum-broadcast-like objectivity, authorized access sets,
+      correctable loss, corrupted fragments, noncommuting readout and trusted-decoder controls.
+      Do not insert the classical algebra to derive it.
+  - id: '3.5'
+    title: Causal-set, event-structure and hypergraph fixture
+    scope: >-
+      Preserve the CSG projective predictive state, finite-prefix rivals, natural-labeling/path
+      covariance, post recurrence, tail-family controls and held-out geometry. Admit typed
+      hyperedges or higher processes when pairwise DAGs erase multi-party interventions.
+  - id: '3.6'
+    title: Shared assay, held-out transfer and minimal counterexamples
+    scope: >-
+      Run the common output vector: history robustness, certificate soundness, disagreement,
+      rollback risk, provenance/access, disturbance/coherence/optionality, resource ledger,
+      bounded-risk capability, covariance defect and geometry error. Preserve first
+      counterexamples and reject any core definition that must be refit per fixture.
+
+- id: '4'
+  label: Lane 4
+  ordinal: 4
+  kind: progress
+  title: Prediction, theorem hardening and Drafting-Factory seeding
+  north_star: false
+  purpose: >-
+    Convert surviving research into externally checkable predictions, theorem/no-go packages,
+    prior-art-separated contributions and well-formed Drafting-Factory seeds. The factory
+    produces papers; Joe alone publishes. This lane does not track publication.
+  purpose_type: supporting_progress
+  channels:
+  - id: '4.1'
+    title: Theorem, no-go and novelty-collision extraction
+    scope: >-
+      Freeze theorem statements, converse attacks, model classes, proof dependencies and
+      counterexamples. Compare explicitly with process tensors/combs, Blackwell and data
+      processing orders, no-broadcasting and spectrum broadcast, common knowledge and quorum
+      intersection, system identification and causal-order reconstruction.
+  - id: '4.2'
+    title: Experimental predictions and protocols
+    scope: >-
+      Extract preregisterable quantitative discriminators with rival models, calibration,
+      units, uncertainty, systematic-error contracts and realizable readout. No frequency shift,
+      dephasing or finite-fit anomaly is promoted without the corresponding channel witness.
+  - id: '4.3'
+    title: Candidate identification, seeding and hardening returns
+    scope: >-
+      Prepare well-formed Drafting-Factory seeds and answer its hardening requests with frozen
+      source pointers, contribution, audience, grade, blockers, overlaps and reproducibility.
+      An inbound factory hardening request preempts ordinary Lane-1 activity until returned.
+  - id: '4.4'
+    title: Independent replication, evidence dependency and reproducibility
+    scope: >-
+      Maintain fixed and held-out challenge sets, clean-room or blinded replications, common-
+      source dependence, convergence, uncertainty and portable provenance. Passing an executable
+      fixture establishes its declared finite result, not physical truth.
+
+- id: A
+  label: Lane A
+  letter: A
+  kind: stewardship
+  title: Stewardship
+  north_star: false
+  purpose: >-
+    Maintain claim, type, dependency, ontology, history, provenance, portfolio and lane
+    integrity. Preserve every prior result and divergent item while routing the active Certified
+    Causal Reality program. Persona agreement remains advisory and never becomes evidence.
+  purpose_type: integrated_stewardship
+  channels:
+  - id: A.1
+    title: Claim, type, dependency and ontology integrity
+    scope: >-
+      Maintain stable IDs, grades, promotion authority, supersession, primitive-versus-derived
+      maps, ontology outcomes and stop/reopen conditions. Audit non-circularity and prevent
+      antecedent work from becoming retroactive support for the recharter.
+  - id: A.2
+    title: Literature, provenance, artifacts and reproducibility
+    scope: >-
+      Maintain source/version/commit provenance, environments, artifact metadata, bibliographic
+      collision maps, release/deprecation history, licensing and attribution. Preserve dated
+      probes and artifacts verbatim unless a separately graded correction is required.
+  - id: A.3
+    title: Portfolio, migration, persona and wish-list custody
+    scope: >-
+      Preserve HC-DU-001..032, P01-A..P50-B, council outputs and divergent wish lists losslessly;
+      record additive migration dispositions, calibrated forecasts and stop-losses. Personas are
+      lenses across every lane, not evidence or a standing work lane.
 discovery:
   kind: lane_less
   title: Discovery
   purpose: >-
-    Truly-wild, coherence-first ideation feeding Lane 2; promoted into a lane only when a
-    candidate binds to a program-native object with a cheap discriminating test.
+    Truly wild, coherence-first ideation feeding Lane 2. Promote it into a lane only when a
+    candidate binds to the typed program kernel, a rival class and a cheap discriminating test.
 special_rules:
 - id: no-standing-verification-gate
   note: >-
@@ -914,15 +1232,27 @@ special_rules:
     are challenges to beat, not walls — this program's history is getting around them.
 - id: persona-swarm-vs-inline-council
   note: >-
-    Lane 3 (per-persona-channel WORK swarm) is distinct from the standing "personas always inline"
-    rule, which governs council DELIBERATION. Deliberation stays one-worker; Lane 3 is parallel work.
-- id: future-non-gu-lane
+    The former persona-work Lane 3 is historical. Personas now operate as explicit lenses across
+    every lane and remain advisory rather than evidentiary. Deliberation is inline by default;
+    parallel council agents are used only when Joe explicitly authorizes them.
+- id: three-outcome-verdict-openness
   note: >-
-    The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
-    all; Lane 2 already admits non-GU candidate frames.
+    Record-first reconstruction, operational duality and physics-first remainder remain coequal.
+    Underidentification is incomplete research. Operational equivalence does not establish
+    metaphysical priority.
+- id: non-circular-record-contract
+  note: >-
+    A primitive record cannot assume the clock, geometry, observer, basis, memory, archive,
+    irreversibility, finality or capability it is meant to reconstruct. Record equivalence must
+    be independently fixed rather than defined by all target physical experiments.
+- id: historical-lane-custody
+  note: >-
+    legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
+    documents that mention its North Star or Lane meanings remain historical evidence; current
+    routing is the root lanes key at manifest revision 18.
 provenance:
-  revision: 17
-  status: founding
+  revision: 18
+  status: active_research
   created: '2026-07-21'
   approved_by: >-
     Joe direct chat via coordinator, 2026-07-21 (rev3 mode-lane redesign; rev4 lossless panel
@@ -954,8 +1284,11 @@ provenance:
     the finite counter, proves inert-q covariance nonselective and passive informative recording
     backreacting, and opens HC-DU-031C; rev17 (Joe direct chat, 2026-07-24) executes HC-DU-031C,
     proves exact complementarity and archive-evidence conservation, grades boundary relocation,
-    charges finite recurrence/support, and returns the primary build to HC-DU-011A; anchor
-    question + P/P/P unchanged
+    charges finite recurrence/support, and returns the primary build to HC-DU-011A; rev18 (Joe
+    direct chat, 2026-07-24) uses the nineteen-lens Science Council and triple-diamond convergence
+    to recharter the full program around verdict-open Certified Causal Reality, preserve the
+    revision-17 topology as a legacy snapshot, and install the HC-DU-033..040 theorem,
+    certification, sufficiency, reconstruction, transfer and recovery spine
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1093,3 +1426,15 @@ provenance:
     abstract archive waves, and returned the primary build to HC-DU-011A. No lane,
     Purpose/Passion/Practice, claim bank, prediction seed, sibling verdict or public posture
     changed.
+  rev18_note: >-
+    2026-07-24 (Joe direct chat): used the nineteen established science and engineering lenses
+    in a triple-diamond purpose, architecture and assurance process, then fully rechartered the
+    repository around verdict-open Certified Causal Reality. The central question now asks
+    whether independently selected certified causal histories reconstruct observer-accessible
+    reality or expose a finite physical remainder. Record-first reconstruction, operational
+    duality and physics-first remainder are coequal. The active Lane tree is replaced by a
+    theorem spine, conditional/rival engine, cross-platform assay lane, hardening lane and
+    stewardship lane; the complete revision-17 tree remains as legacy_lanes_revision_17. GU,
+    Lambda~1/sqrt(N), causal growth, Clock-QCA records and recursive viability move downstream
+    without deletion or grade change. HC-DU-033..040 are new prospective work packages; no
+    scientific claim, prediction or ontology is banked by the recharter.

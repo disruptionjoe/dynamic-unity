@@ -1,3 +1,9 @@
 # explorations/
 
-The research lab — divergent and coherence-first ideation, council assessments, and exploration/proposal-tier writeups. Promoted into a numbered lane only when a candidate binds to a program-native object with a concrete kill/confirm test. Nothing here is banked until it clears Lane 3 grading.
+The research lab—divergent and coherence-first ideation, council assessments,
+dated technical receipts, and exploration/proposal-tier writeups. The
+governing agenda lives in
+`../docs/certified-causal-reality-research-program.md`. A candidate enters an
+active lane only when it binds to the typed program kernel, a declared rival
+class, and a concrete discriminator. Nothing here is banked by location or by
+persona agreement; grading and verification are per-lane responsibilities.

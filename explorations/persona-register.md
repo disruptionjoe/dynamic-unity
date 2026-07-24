@@ -1,9 +1,10 @@
 ---
-title: "Dynamic Unity persona register — a pointer into the central roster, not a fork"
-status: founding
+title: "Dynamic Unity persona register — central pointers and Certified Causal Reality lens board"
+status: active_research
 doc_type: reference
 created: 2026-07-21
-note: "Per system ISSUE-0030 (persona rosters should be central, not per-repo), this file is a POINTER + a declared DU board — it copies no roster. When the central persona-group system lands, this becomes a thin reference. Standing rule: run persona panels INLINE in one worker, never one-agent-per-persona; personas are lenses, not evidence."
+revised: 2026-07-24
+note: "This file points to central rosters and declares DU lens boards without treating personas as evidence. Council deliberation is inline by default; parallel council agents are used only when Joe explicitly authorizes them."
 ---
 
 # Dynamic Unity persona register
@@ -17,7 +18,43 @@ that do not yet exist anywhere.
 - **RCCM research registry** — `CapacityOS/rccm-library/research/personas/PERSONA-REGISTRY.md`: the 5 reusable research lenses + the **Science Advisory Council** group. Universal; available to any repo.
 - **The numbered expert panel** — `time-as-finality/personas/EXPERT-PANEL.md` (~62 experts), with `INDEX.md` (review lenses) and `workflows/registries/persona-clusters.md` (7 scoring clusters). The rich domain roster. *(Currently repo-local in TaF; ISSUE-0030 proposes centralizing it — until then, reference it there.)*
 
-## DU board A — Dynamic-Physics Panel (Lane 1, by reference into the expert panel)
+## Current DU board — Certified Causal Reality (all lanes)
+
+The 2026-07-24 recharter uses these nineteen complementary lenses across
+purpose, theory, construction, assay, hardening, and migration:
+
+1. distributed systems;
+2. MMO networking;
+3. neural networks and resource-bounded decoding;
+4. Avalanche/metastable consensus plus holography;
+5. Hashgraph and gossip-about-gossip;
+6. DAG, hypergraph, and higher-process structure;
+7. systems security and adversarial databases;
+8. distributed databases and provenance/serializability;
+9. quantum information and clocks;
+10. causal inference and philosophy of science;
+11. quantum causal models and process tensors;
+12. open systems and nonequilibrium thermodynamics;
+13. atomic clocks and metrology;
+14. formal methods and model checking;
+15. information geometry and channel discrimination;
+16. control theory and system identification;
+17. relativistic quantum information and quantum reference frames;
+18. quantum error correction and quantum networks; and
+19. causal sets and event structures.
+
+This is a lens board, not a claim-authority roster. Each use preserves
+persona-specific divergence before synthesis and records the shared evidence,
+rival classes, disagreements, and cheap falsifiers. The current council design
+receipt is
+`science-council-certified-causal-reality-triple-diamond-2026-07-24.md`.
+
+## Legacy DU board A — Dynamic-Physics Panel
+
+This board remains useful for the GU, tachyon, source, cosmology, and
+low-energy-recovery branches now routed downstream. Its old Lane-1 role is
+historical.
+
 The dynamics-and-formalism lenses especially useful for the transducer / finality / DE work:
 - **Mathematical Physicist**, **Differential Geometer** (*geometric flows* — making a static geometry dynamic), **Fiber Bundle Specialist**, **Gauge Theory Researcher** — the (9,5) substrate + the loop-only Z/2.
 - **Spin Geometry Expert** (*Dirac operators* — the Bianconi discrete D), **Index Theory Expert**, **Algebraic Topologist** (*cobordism-class arrow*).
@@ -28,7 +65,12 @@ The dynamics-and-formalism lenses especially useful for the transducer / finalit
 - **Applied Category Theory** (sheaf/functor/H¹), **Information Geometry** (Λ~1/√N is Fisher-flavored), **Metabolic Scaling Theorist** (the "is μ genuinely non-additive or absorbed by counting?" absorber — direct on the DE-amplitude channel).
 - **Formal-structure lenses** (from continuity-ledger's structural-terrain set, highest-value new formal seats): **Metrology / Invariance theorist** (gauge-invariance of a claimed result — is Λ~1/√N a real invariant or a coordinate artifact?), **Order / Lattice / Domain theorist** (finality as fixed-point/closure), **Model theorist** (internal-generativity vs external-satisfaction = hosts-not-derives), **Type theorist** (imports-as-effects; keep every posit labeled).
 
-## DU board B — Anti-crank council (MANDATORY at every banking/shipping gate)
+## DU board B — adversarial and anti-inflation council
+
+This board remains active at banking/shipping and now also checks
+non-circularity, prior-art collision, analogy-versus-identity, resource export,
+and toy-to-universe inflation.
+
 Fires inline before any transducer / DE-amplitude / co-variance result is *counted or shipped*:
 - **Scientific Skeptic**, **Mathematical Minimalist**, **Research-Program Architect**, **North-Star Visionary** (protects ambition *without contaminating earned math*), **Experimentalist** (executable falsification / witness construction).
 - The finality/issuance adversaries the transducer must *beat*: **Block Universe Defender** (don't promote apparent passage to objective becoming), **Relativity Hardliner** (no hidden universal tick/foliation), **Hostile Steward** (catch the repo protecting a favored theory), **Philosopher of Time** (keep "records = time" from equivocating).
@@ -48,7 +90,8 @@ Use these inline now; propose them upstream to the central registry per ISSUE-00
 
 ## Governance
 Personas are **lenses, not evidence** (they propose; computation/formal argument disposes). Run
-inline over one shared context; preserve divergence before synthesis. This register references
-the central roster and declares DU's boards; it forks nothing. Consistent with ISSUE-0030 and
-DU's sovereign self-verification (a persona's suggestion is re-verified here, never banked on the
-persona's authority).
+inline over one shared context by default; use parallel council agents only when Joe explicitly
+asks for them. Preserve divergence before synthesis. The former persona-work Lane 3 is now a
+historical lane; current Lane 3 is the cross-platform assay. This register references the central
+roster and declares DU's boards; it does not make a persona's suggestion load-bearing. Every
+suggestion is re-verified here against proof, computation, experiment, controls, and literature.

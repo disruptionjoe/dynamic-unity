@@ -1,8 +1,9 @@
 ---
 title: "Fifty-persona blind-spot register — 100 lossless suggestions, priority map, and lane routing"
-status: active_research
+status: active_lossless_portfolio__routing_superseded
 doc_type: exploration_register
 created: 2026-07-21
+revised: 2026-07-24
 lane: "Discovery -> Lanes 1/2/3/4/A"
 directed_by: "Joe direct chat, 2026-07-21 — preserve all 100 suggestions, prioritize without flattening, route them into the repository, and identify the highest-impact non-overlapping swing"
 claim: none
@@ -10,6 +11,20 @@ claim_status_change: none
 ---
 
 # Fifty-persona blind-spot register
+
+## 2026-07-24 recharter notice
+
+All `P01-A` through `P50-B` suggestions and their original wording, stars,
+tiers, work packages, evidence, and dispositions remain a lossless active
+portfolio under current Lane A.3. Their 2026-07-21 lane routing, automated
+selection rule, and P0 preemption rule below are preserved as historical
+provenance but no longer direct automation or current priority.
+
+Active selection follows
+`../docs/certified-causal-reality-research-program.md` and `../LANES.yaml`
+revision 18. No old P0 item automatically preempts `HC-DU-033`, and no
+suggestion is closed or demoted by the recharter. A future swing records an
+additive current-lane disposition while retaining the source item.
 
 ## Run plan
 

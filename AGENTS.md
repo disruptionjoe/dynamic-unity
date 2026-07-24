@@ -7,18 +7,24 @@ routing context), then load `LANES.yaml`.
 ## Posture
 
 This repository **is the Dynamic Unity research program** — a unification effort at the
-**human-knowledge frontier**. Its **purpose** is to **discover unifying theories and laws of
-reality**; its **central organizing hypothesis** is that a theory **extending Geometric Unity
-— or a shape-class like it — combined with dynamics** tells a better, more complete story than
-the static geometry alone (a strong, explicit nod to GU as the originating substrate). Dynamic
-Unity is *this program*, not any single conjecture inside it (the tachyon-transducer, for one,
-is a *branch*, not the program). The posture is **truth-seeking and verdict-agnostic**: the
-product is *true structure at honest grade plus a reliable method*, never a defense of a
-favored theory or originator. The scope is deliberately **broad** — any candidate unifying law
-or structure is in-bounds — but every claim is driven to a verdict and only what survives is
-kept. The program **begins with its central claims OPEN** (the source action is unbuilt, the
-DE amplitude is imported, the transducer is a conjecture); stating that openly beside any
-claim of progress is the correct posture, not a deficiency.
+**human-knowledge frontier**. Its organizing program is **Certified Causal Reality**:
+determine whether, and under what minimal covariant and non-circular conditions, causal record
+formation and certification are sufficient to reconstruct the effective time, causal
+geometry, public facts, and bounded-risk capabilities available to an observer. If they are
+not, isolate a finite operational witness of the irreducible physical structure required.
+
+The governing question is: **Can everything that becomes physically real and actionable for
+an observer be reconstructed from the causal histories it can certify? If not, what
+irreducible physical remainder is required?**
+
+Keep three coequal outcomes live: **record-first reconstruction**, **operational duality**, and
+**physics-first remainder**. Underidentification is not a fourth verdict. Record-first ontology
+is never charter doctrine, and operational equivalence alone does not establish metaphysical
+priority. Geometric Unity is the originating inspiration, conditional input, rival, and
+recovery target—not the assumed substrate. The tachyon-transducer, B5 source action,
+`Lambda~1/sqrt(N)`, causal-post work, Clock-QCA records, and recursive viability retain their
+grades as benchmarks or downstream branches. The product is *true structure at honest grade
+plus a reliable method*, never a defense of a favored theory, ontology, or originator.
 
 ## Sovereignty + self-checking (this repo's defining rule — NOT P2C's boundary)
 
@@ -43,9 +49,9 @@ and so is any genuine route to understanding). Ideas — including the ones Joe 
 
 The discipline is **honesty, not conservatism.** It bites at the **banking / shipping gate**,
 not at the exploration gate: explore by any means; when a result is *counted* or *published*,
-grade it honestly and let it face verification (Lane 3). Honesty is separating what is shown
-from what is asserted, keeping posits labeled, and not fooling yourself about what you actually
-have — it is **not** a bias against new or unconventional ideas.
+grade it honestly and let it face verification in the lane that owns it. Honesty is separating
+what is shown from what is asserted, keeping posits labeled, and not fooling yourself about
+what you actually have — it is **not** a bias against new or unconventional ideas.
 
 And the **methods themselves are hypotheses, not gospel.** Hostile-verification,
 forced-vs-inserted, the rigged-ledger control, pre-registration — these are *tools the repo
@@ -62,6 +68,49 @@ derived, conditionally entailed, constructively realized, abductively preferred,
 analogy answer different questions. Contract completeness means a candidate is legible and
 comparable, not true or banked. A failed formalization closes only that formalization unless the
 predeclared concept invariant itself fails.
+
+## Certified Causal Reality contract
+
+Load `docs/certified-causal-reality-research-program.md` before selecting central scientific
+work. Preserve this ladder:
+
+```text
+distinction or event
+    != history-conditioned trace
+    != retained record
+    != independently accessible record
+    != rival-excluding certificate
+    != public final record
+    != action-enabling fact.
+```
+
+Every central candidate declares its complete multi-event/intervention
+process, primitive operational precedence or composition, every supplied
+temporal/geometric antecedent, record instrument, provenance/meta-record
+structure, observer/access class, rival or adversary class, certification and
+finalization rule, representation group, resource boundary, predictions,
+capabilities, and finite falsifier. Primitive operational precedence is not a
+clock, metric, light cone, foliation, or spacetime causal order. Apply these
+stops:
+
+- **No primitive circularity.** Do not define a record using the clock, geometry, observer,
+  basis, memory, archive, irreversibility, finality, or capability it is meant to reconstruct.
+- **No sufficiency tautology.** Record equivalence must be fixed independently; never define it
+  as agreement under every target physical experiment and then announce sufficiency.
+- **No interface refit.** A basis, decoder, observer boundary, scheduler quotient, archive, or
+  certification rule is frozen or dynamically selected, never fit per model, frame, or result.
+- **History is not endpoint.** Terminal-state agreement, dephasing, frequency shift, copying, or
+  confidence does not certify causal provenance. Use multi-time or interventional evidence.
+- **Finality is typed.** Public finality requires an incompatibility condition, fault/rival
+  model, provenance, access semantics, and error bound; redundancy alone is insufficient.
+- **Resources cross boundaries.** Charge support, memory, latency, energy, entropy, coherence,
+  trusted parties, blank archives, and displaced information.
+- **Covariance admits; it does not select.** A hidden scheduler is gauge only when complete
+  dynamics, records, interventions, and capabilities factor through its quotient.
+- **No ontology inflation.** A finite fixture, structural analogy, or operational duality does
+  not establish universal or metaphysical fundamentality.
+- **No downstream promotion.** Geometry, QFT/GR/GU recovery, cosmology, or
+  `Lambda~1/sqrt(N)` waits on the dependencies and unit-bearing maps declared in the agenda.
 
 ## Governance gates (non-negotiable)
 
@@ -99,17 +148,28 @@ never a directive.
 ## How agents work the lanes
 
 Load root `LANES.yaml` after governance, before selecting work. **Lanes are organized by JOB /
-MODE**, not a verification pipeline: Lane 1 targeted hypothesis pursuit (the North-Star
-high-exploit), Lane 2 non-derivation generation & testing (the heterodox engine — derivation is
-not the standard), Lane 3 a persona parallel-progress swarm (each seated persona works a channel,
-reads the others between rounds, and reorients — continue or pivot), Lane 4 prediction,
-hardening & Drafting-Factory seeding (identify candidates from the other lanes, seed the factory,
-harden research + papers, and answer the factory's hardening requests — the factory produces the
-papers and Joe posts; DU does **not** track publishing), Lane A stewardship, Discovery lane-less. **There is
-deliberately no standing verification-gate lane** — honesty is a per-lane practice (grade what you
-actually have; don't fool yourself), and the known challenges/adversaries
-(`lab/process/known-challenges-and-adversaries.md`) are **terrain to beat, not gates** (most are
-class-relative no-go's this program has a history of getting around). Lean toward the frontier and
-ambition. Durable artifacts live **in the repo** at honest grade; a work-card is a spec, not the
-product. Absolute paths, explicit-path staging, no `git add -A`. Commit/push is normal versioning
-for Joe's repos once a coherent batch is done; publishing outside the repo workflow is Joe-gated.
+MODE**, not a verification pipeline:
+
+- **Lane 1:** the Certified Causal Reality theorem spine—record selection, fresh-record
+  dynamics, history certification, public finality, interventional sufficiency, reconstruction,
+  capability/resource laws, and dependency-gated physical recovery.
+- **Lane 2:** conditional construction and rival-theory generation—record-first, physics-first,
+  dual, abductive, open-ended, GU, and non-GU candidates forced onto shared discriminators.
+- **Lane 3:** cross-platform realization and causal-history assays—Clock-QCA, proper-time,
+  consensus/database, quantum-network, causal-set, and process fixtures using the common typed
+  contract. It is not a verification gate.
+- **Lane 4:** theorem/no-go and prediction extraction, prior-art collision, hardening, and
+  Drafting-Factory seeding. The factory produces papers and Joe publishes.
+- **Lane A:** claim/type/dependency integrity, provenance/reproducibility, and custody of the
+  portfolio, stops, persona lenses, and divergent wish lists.
+- **Discovery:** lane-less; it feeds Lane 2 only after binding to a typed object and cheap
+  discriminator.
+
+There is deliberately no standing verification-gate lane. Honesty is a per-lane practice, and
+the known challenges/adversaries are terrain to beat, not automatic blockers. Persona panels
+are lenses rather than evidence; council deliberation is inline by default unless Joe
+explicitly authorizes parallel council agents. Preserve divergent output before convergence.
+Durable artifacts live **in the repo** at honest grade; a work-card is a spec, not the product.
+Use absolute paths and explicit-path staging; never `git add -A`. Commit/push is normal
+versioning for Joe's repos once a coherent batch is done; publishing outside the repo workflow
+is Joe-gated.

@@ -4,6 +4,34 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## Certified Causal Reality assay contract
+
+The governing research agenda is
+`../docs/certified-causal-reality-research-program.md`. A central assay must
+freeze, before seeing its result:
+
+- the complete multi-event/intervention process, primitive operational
+  precedence or composition, and every supplied temporal/geometric antecedent;
+- the record instrument, provenance/meta-record structure, access map, and
+  representation group;
+- the observer, boundary, rival/adversary class, certificate, finalizer, and
+  incompatibility condition;
+- the resource ledger, bounded-risk action set, nulls, held-out tests, and
+  finite falsifier;
+- the warrant type and local-versus-global failure scope.
+
+Required controls distinguish endpoint equality, mean-history models,
+classical random-history mixtures, coherent histories, copying or
+dissemination without finality, adversarial split views, hidden schedulers,
+arbitrary interfaces, and free-resource completions as relevant. A probe may
+not define record equivalence by agreement under every physical experiment it
+later claims to predict.
+
+All pre-recharter probes and deterministic artifacts remain regression
+evidence for their exact scoped findings. They are antecedents and benchmark
+fixtures, not evidence that Certified Causal Reality, record-first ontology,
+public finality, geometry reconstruction, or physical recovery is true.
+
 ## Compute setup
 
 The current numerical probes require NumPy and otherwise use the Python

@@ -574,6 +574,63 @@ controller-ablation effect, downward consequence, held-out advantage, or
 resolution-stable intervention role. No claim is banked or seeded. See
 `science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md`.
 
+## CONCEPT-DU-004 — certified causal sufficiency and physical remainder
+
+- **Concept (articulation-invariant).** An observer's effective physical
+  reality may be reconstructible from an independently specified,
+  interventionally complete, adversary-robust and resource-accounted quotient
+  of causal history. If it is not, a finite admitted intervention should expose
+  the additional physical structure required.
+- **Concept INVARIANT.**
+  1. Record generation, provenance, access and certification are defined
+     independently of the target physical predictions.
+  2. Complete multi-time and counterfactual histories are not replaced by
+     terminal states.
+     Any supplied time ordering is a labeled benchmark antecedent; the primitive
+     core otherwise carries only operational precedence/composition and does
+     not assume the spacetime causal order targeted for reconstruction.
+  3. Observer, intervention, adversary, representation group, boundary,
+     decoder and resource ledger are explicit.
+  4. The comparison admits three coequal outcomes: record-first
+     reconstruction, operational duality, and physics-first remainder.
+  5. Sufficiency is decided by factorization or a finite separating
+     intervention, not by metaphysical preference or universal encoding.
+  6. Time, geometry, classicality, finality and capability remain separately
+     typed until a theorem connects them.
+- **Formalization FAMILY.**
+  1. process-tensor or quantum-comb factorization through a certified-history
+     supermap;
+  2. finite-state bisimulation, sufficient-statistic or minimal-realization
+     dichotomy with a bounded separating input;
+  3. adversarial quorum certification over a provenance hypergraph;
+  4. quantum-network access structures and approximately commutative public
+     record algebras;
+  5. meta-record causal/metric reconstruction with uniqueness-up-to-gauge;
+  6. finality-capability-optionality resource inequalities;
+  7. cross-platform invariance across quantum, distributed and causal-growth
+     fixtures; and
+  8. explicit physical-remainder countermodels sharing the candidate record
+     quotient.
+- **Immediate tests.**
+  1. `HC-DU-033`: enumerate the smallest nontrivial equivariant record
+     instruments and determine the minimal structure selecting a nonconstant
+     record algebra.
+  2. `HC-DU-035`: derive a finite Quorum Objectivity bound and converse
+     split-view construction, then test a nonorthogonal quantum record model.
+  3. `HC-DU-034/036`: construct equal-endpoint multi-time rivals and prove
+     factorization or find the smallest separating intervention.
+- **Central failure modes.** Primitive circularity, sufficiency tautology,
+  per-fixture interface refitting, weak adversary manufacture, endpoint or
+  redundancy substitution, hidden resource export, covariance overclaim,
+  causal-order prior-art relabeling, and metaphysical or toy-to-universe
+  inflation.
+- **Status:** **CENTRAL CONCEPT OPEN / THREE ONTOLOGY OUTCOMES LIVE / EXACT
+  FINITE RECORD-AND-ARCHIVE ANTECEDENTS RETAINED / RECORD SELECTION,
+  CERTIFICATION, PUBLIC FINALITY, INTERVENTIONAL SUFFICIENCY, GEOMETRY AND
+  PHYSICAL RECOVERY OPEN.** The 2026-07-24 recharter promotes the *question and
+  dependency structure*, not a scientific answer. `CONCEPT-DU-002` and
+  `CONCEPT-DU-003` become major inputs; their grades do not change.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.

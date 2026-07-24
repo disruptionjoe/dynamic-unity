@@ -1,8 +1,9 @@
 ---
 artifact_type: exploration
 exploration_id: DU-XREPO-HARDEN-01
-status: active_prioritized_register
+status: legacy_antecedent_register
 created: 2026-07-21
+revised: 2026-07-24
 lane: "1.4 + 1.5 + 2.3 + 2.4 + 4.4 + A"
 directed_by: "Joe direct chat, 2026-07-21"
 claim_status_change: none
@@ -54,6 +55,20 @@ verification:
 ---
 
 # Cross-repo gap hardening and non-intuitive reuse map
+
+## 2026-07-24 recharter notice
+
+This register remains the lossless source for `HC-DU-001..032`, its original
+grades, tests, and non-intuitive reuse notes. Its 2026-07-21 lane topology and
+priority claims are **historical routing**, prospectively superseded by
+`../docs/certified-causal-reality-research-program.md` and `../LANES.yaml`
+revision 18. In particular, the statement below that the then-current topology
+needed no new Lane no longer directs active work.
+
+Current Lane A.3 preserves and remaps these items; no row is deleted, regraded,
+closed, or automatically selected by this notice. The register does not
+preempt `HC-DU-033` record selection or the Certified Causal Reality dependency
+order unless Joe explicitly directs that priority.
 
 ## Result first
 

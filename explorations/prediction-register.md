@@ -1,17 +1,28 @@
 ---
-title: "Dynamic Unity prediction register — Lane 4.1 pre-seed holding state, with an explicit seed gate"
+title: "Dynamic Unity prediction register — Lane 4.2 pre-seed holding state"
 status: active_research
 doc_type: register
 created: 2026-07-21
-note: "Operationalizes Lane 4.1 ('extract, freeze, and expose falsifiable predictions, carried with their blockers') as the UPSTREAM holding state before Lane 4.2 seeds anything to the Drafting Factory. Nothing crosses the seed gate until it is SEED-READY. A candidate prediction is registered here so it is not lost — being registered is NOT being seeded."
+revised: 2026-07-24
+note: "Operationalizes current Lane 4.2 experimental prediction work as the upstream holding state before Lane 4.3 seeds anything to the Drafting Factory. Nothing crosses the seed gate until it is SEED-READY. Registration is not seeding."
 ---
 
 # Dynamic Unity prediction register
 
 The pre-seed home for prediction candidates. A claim lives here from the moment it is
-prediction-shaped until it is either seeded to the Drafting Factory (Lane 4.2) or retired.
+prediction-shaped until it is either seeded to the Drafting Factory (current Lane 4.3) or retired.
 **Registration is not seeding.** The register exists precisely so a promising-but-unhardened
 prediction can be *held and worked* without being pushed to the factory half-formed.
+
+**2026-07-24 recharter disposition.** Every existing entry remains at its
+stated grade as an antecedent or downstream branch. No GU, finality,
+record-clock, causal-growth, or cosmology prediction becomes evidence for
+Certified Causal Reality merely because it can be described in the new
+vocabulary. A new central prediction must use the typed agenda contract,
+declare rival process and adversary classes, and distinguish multi-time
+history or interventional capability rather than terminal-state fit alone.
+Current routing is Lane 4.2 for protocol extraction and Lane 4.3 for seeding;
+older Lane 4.1/4.2 references below are historical provenance.
 
 ## Lifecycle states
 
@@ -19,8 +30,8 @@ prediction can be *held and worked* without being pushed to the factory half-for
 |---|---|---|
 | **SEAM** (conditional candidate) | Prediction-shaped, but its **antecedent/mechanism is unbuilt** — it is a prediction only *if* some upstream unlock lands. Cannot yet be frozen as a falsifiable statement. Registered so it is not lost; carried with its antecedent-blocker + a hardening checklist. | **No** |
 | **REGISTERED** (frozen-with-blocker) | The antecedent exists enough to freeze a genuinely falsifiable statement. Frozen and carried with its blocker(s). Internal hardening still open. | **No** |
-| **SEED-READY** | The hardening checklist is discharged: quantitative statement, a concrete falsifiable gap vs. the standard account, units/no-signaling guards passed, a runnable platform, and a pre-registered cheap kill. A well-formed seed is prepared. | **Yes — this is the 4.1→4.2 gate** |
-| **SEEDED** | Routed to the Drafting Factory mailbox (Lane 4.2). Leaves the active set; recorded here. | — |
+| **SEED-READY** | The hardening checklist is discharged: quantitative statement, a concrete falsifiable gap vs. the standard account, units/no-signaling guards passed, a runnable platform, and a pre-registered cheap kill. A well-formed seed is prepared. | **Yes — current 4.2→4.3 gate** |
+| **SEEDED** | Routed to the Drafting Factory mailbox (current Lane 4.3). Leaves the active set; recorded here. | — |
 | **RETIRED** | Falsified, absorbed, or withdrawn. Recorded with the reason. | — |
 
 ### The seed gate (non-negotiable)
@@ -152,10 +163,12 @@ the factory follows the normal SEED gate. Strength ≈ (minimality/motivation of
 ### CPRED-04 — no phantom crossing, w > −1 (cosmology; gated on COV-03)
 - **Assumption:** dark energy IS a healthy single canonical scalar (the tachyon roll).
 - **Content:** w stays > −1, no crossing of the phantom divide (single-field theorem); sharp, DESI-testable,
-  theorem-backed (σ = fixed external sign → no dynamical sign flip).
+  theorem-backed conditional on a fixed sign input. GU's corrected bridge does not establish
+  physical externality or `sigma=w1`; this entry cannot use that superseded inference.
 - **Gate:** COV-02 showed the *local* roll is superluminal-or-trivial → rides COV-03 (the causal-past-N roll
   being a *healthy* single field). Gated on that health, not on the full source.
 
 ## Boundary
-Lane 4.1 working state. Registration ≠ seeding ≠ publishing. The factory owns paper production and
-Joe owns posting; this register only holds and hardens candidates up to the SEED-READY gate.
+Current Lane 4.2 working state; Lane 4.3 is the seed gate. Registration ≠
+seeding ≠ publishing. The factory owns paper production and Joe owns posting;
+this register only holds and hardens candidates up to the SEED-READY gate.
