@@ -239,3 +239,39 @@ does not turn the non-isometric algebraic quotient into physical forgetting,
 simulate spatial reunion, construct an irreversible archive, select a
 physical law, or establish an observer, proper time, continuum covariance,
 gravity, cosmology, or Dynamic Unity.
+
+## Covariant archive and boundary probe
+
+`du_covariant_archive_boundary_probe.py` executes `HC-DU-031C`. It replaces
+the orthogonal one-event counter with a tunable qubit pointer, checks complete
+unitarity and exact source-sense Clock-QCA covariance, and verifies the
+two-history relation
+
+```text
+V = |cos(theta)|,
+D = |sin(theta)|,
+V^2 + D^2 = 1.
+```
+
+The probe then distinguishes coherent retention, pointer-basis CNOT export,
+SWAP transfer, repeated fanout, and independent fresh record formation. It
+checks carrier loss, finite recurrence, fresh-support scaling, a
+refinement-sensitive rival, arbitrary-active-unitary nonselection, restricted
+observational equivalence, and an archive intervention followed by a fixed
+reunion recoupling.
+
+The artifact reports `31/31` deterministic checks. In the pinned environment,
+two successive runs produce the same SHA-256:
+
+```text
+f280617b9309af21dbceae13283dd317240ff7fe48fbe4647368ddebe79dd018
+```
+
+The terminal outcomes are
+`COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY` and
+`INTERFACE_ONLY_ARCHIVE`. Passing establishes the exact finite construction,
+evidence-conservation/resource controls, and the graded
+boundary-relocation witness. It does not select the pointer basis, archive
+coupling, blank support, reunion, or record law; construct classical
+irreversibility; or establish an observer, proper time, continuum covariance,
+gravity, cosmology, or Dynamic Unity.

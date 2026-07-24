@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 16
+manifest_revision: 17
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -450,18 +450,81 @@ covariant_recorder_naturalization_swing:
     PROPER TIME, HIGHER DIMENSIONS, GRAVITY, COSMOLOGY AND DU IDENTITY OPEN. No claim banked or
     seeded.
   next_move: >-
-    HC-DU-031C: couple the counter to one explicit finite archive/environment, close the same
-    covariance square, and measure record distinguishability against source interference
-    visibility, carrier loss, archive export, reunion access, aliasing and resource scaling.
-    Require additional DU structure to select the record law; covariance admission alone cannot.
+    COMPLETED by HC-DU-031C. The explicit finite archive, complementarity, carrier-loss, export,
+    reunion, aliasing, and resource-scaling assay is recorded in the successor section below.
   mode_stop: >-
     Do not return to broad clock assumptions, council divergence, raw microstep counters, or
-    frame-refitted decoders. Reopen this branch only through the explicit backreaction/archive
-    build. HC-DU-011A remains independently live.
+    frame-refitted decoders. The explicit backreaction/archive reopener has now been consumed by
+    HC-DU-031C; its new stop and reopener are recorded below. HC-DU-011A remains independently live.
   publication_status: >-
     TECHNICAL-NOTE-SPINE / SEARCH-INCOMPLETE / NOT SUBMISSION-READY. The passive-recorder theorem
     is known quantum-information structure; possible novelty lies in the inert-ancilla closure,
     exact Clock-QCA counter lift, and their combined dependency result.
+covariant_archive_boundary_swing:
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: orchestrate the next meaningful swing after reviewing the concentrated
+    theorem spine and its applicability to Dynamic Unity.
+  contract_ref: >-
+    explorations/covariant-archive-boundary-swing-contract-2026-07-24.md
+  result_ref: >-
+    explorations/covariant-archive-boundary-swing-2026-07-24.md
+  adversarial_audit_ref: >-
+    explorations/covariant-archive-boundary-adversarial-audit-2026-07-24.md
+  probe_ref: tests/du_covariant_archive_boundary_probe.py
+  artifact_ref: tests/artifacts/du_covariant_archive_boundary_result.json
+  source_scope: >-
+    The host remains the exact 1+1 Arrighi-Facchini-Forets Clock QCA and its canonical
+    source-sense circuit covariance. The archive, pointer basis, export gate, blank cells, and
+    reunion recoupling are declared additions, not structures selected by the source law.
+  integrated_result: >-
+    A tunable particle-carried qubit pointer is a complete local unitary and exactly closes the
+    source covariance square. For the two-history witness its overlap gamma=cos(theta) gives
+    exact visibility V=|gamma| and optimal record distinguishability
+    D=sqrt(1-|gamma|^2), so V^2+D^2=1. The result is calibrated known complementarity, not a
+    novelty claim, and covariance still admits arbitrary active-sector unitaries rather than
+    selecting the pointer law.
+  archive_evidence_result: >-
+    A history-independent unitary on pointer plus blank archive preserves the joint conditional
+    overlap and trace distance: it can transfer or repartition evidence but cannot manufacture
+    it. Pointer-basis CNOT retains the joint distinguishability but leaves only sin(theta)^2 in
+    the archive after pointer loss; SWAP transfers the full sin(theta) while retaining no pointer
+    copy. Repeated CNOT fanout creates redundant basis evidence without improving that marginal;
+    independent fresh record interactions give V_m=|gamma|^m and
+    D_m=sqrt(1-|gamma|^(2m)).
+  resource_result: >-
+    One-cell reuse recurs and aliases; exact nonaliasing elapsed-record semantics cannot remain in
+    fixed finite support. It must weaken the semantics, acquire fresh support/environmental
+    capacity, or add an explicitly modeled nonunitary/coarse-graining mechanism. This is a
+    completion-class-relative trichotomy, not a universal theorem of physical openness.
+  boundary_result: >-
+    Boundary relocation by state augmentation can preserve a declared history-diagonal
+    observational algebra. Full coherent source-channel equality forces a common uninformative
+    archive state. Interventional equivalence can fail only after archive access and a later
+    admitted recoupling let an archive intervention alter source outcomes. The correct result is
+    Boundary Relocation and Informative-Record Obstruction, not unqualified invariance.
+  integrated_disposition: >-
+    COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY / INTERFACE_ONLY_ARCHIVE / FINITE
+    RECURRENCE AND GROWING-SUPPORT COST EXPLICIT / BOUNDARY RELOCATION GRADED / CLASSICAL
+    IRREVERSIBILITY, INTERFACE SELECTION, OBSERVER, PROPER TIME, CONTINUUM OR HIGHER-DIMENSIONAL
+    SYMMETRY, GRAVITY, COSMOLOGY AND DU IDENTITY OPEN. No claim banked or seeded.
+  next_move: >-
+    Return primary build attention to HC-DU-011A, the independent causal-post generativity and
+    held-out geometry frontier. Do not run another abstract archive or complementarity wave.
+    Reopen HC-DU-031 only with an independently motivated local autonomous archive-emission law
+    that selects or constrains the interface and charges recurrence/support, or apply HC-DU-032
+    only as a bounded interface-relative intervention overlay without promoting the archive to a
+    physical observer.
+  mode_stop: >-
+    The record branch has reached INTERFACE_ONLY_ARCHIVE. More unitary export gates, fanout
+    variants, fitted reunions, or boundary relabelings do not count as progress. A reopener must
+    naturalize some interface structure, produce a new operational discriminator, or bring an
+    independent physical dynamics to the archive.
+  publication_status: >-
+    TECHNICAL-NOTE-SPINE / SEARCH-INCOMPLETE / NOT SUBMISSION-READY. The most defensible local
+    package is the Clock-QCA-specific nonselection plus exact archive-operation taxonomy and
+    graded boundary theorem; a literature novelty search and sharper comparison theorem remain
+    prerequisites for submission.
 lanes:
 - id: '1'
   label: Lane 1
@@ -519,15 +582,17 @@ lanes:
       also proves that inert-q covariance admits arbitrary active-sector unitaries and does not
       select a record law. Physical discard of distinguishable cross-count labels suppresses source
       interference; a recorder that preserves the complete source unitary channel is necessarily
-      uninformative. HC-DU-031C is the bounded archive/backreaction build. In parallel, HC-DU-011A
-      remains the lean post
+      uninformative. HC-DU-031C now completes the bounded archive/backreaction build: the pointer
+      is covariant and exact complementarity holds, but export, blank capacity, and reunion remain
+      interface-only added structure, with finite reuse recurring or aliasing. In parallel,
+      HC-DU-011A remains the lean post
       passport plus unconditioned
       generativity/recurrence census across fixed tail families. A post-law survivor must jointly
       produce posts, nontrivial running and held-out acceptable geometry before physical records,
       response, units or cosmology; carry [M^P t], not raw post depth, as its exact standard-CSG
       predictive state, and never certify the unrestricted law from a finite prefix. HC-DU-032
-      overlays only an HC-DU-031C record-forming/archive survivor or an HC-DU-011A causal-growth
-      survivor: infer a minimal
+      overlays the HC-DU-031C survivor only as a bounded interface-relative control, or an
+      HC-DU-011A causal-growth survivor: infer a minimal
       intervention-role cover and require held-out multilevel control against flat, overlap,
       replay, RG, relay, alias and resolution rivals; do not open a third broad program. Direct
       count-running remains killed. No unconstrained clock gate, coefficient fitting, proxy
@@ -550,11 +615,12 @@ lanes:
     response/noise and the common-past spectrum. Separately, HC-DU-031B has completed the bounded
     Clock-QCA recorder-extension assay: the finite counter is exactly source-natural, while the
     covariance closure is nonselective and an informative cross-history record necessarily
-      backreacts on coherence. HC-DU-031C advances only through one fixed source-sense-covariant
-    archive/environment with explicit record-distinguishability versus interference-visibility,
-    scheduler, alias, carrier-loss, export, growing-support and reunion controls.
-    HC-DU-032 adds a bounded system-individuation passport only after HC-DU-031C produces a
-    record-forming/archive survivor or HC-DU-011A produces a causal-growth survivor. It does not
+    backreacts on coherence. HC-DU-031C has now completed one fixed source-sense-covariant
+    archive/environment assay: exact complementarity, evidence-conserving export, carrier loss,
+    reunion interventions, finite aliasing, and fresh-support scaling all pass, but the interface
+    remains unselected added structure. HC-DU-032 may test that archive only as a bounded
+    interface-relative system-individuation control, or apply after HC-DU-011A produces a
+    causal-growth survivor. It does not
     promote hierarchy, recursion depth, or Beer functions to physical ontology; it advances only
     if controller lesions and held-out disturbances expose native upward/downward roles and
     locality costs that a flat global rival cannot match for free.
@@ -572,8 +638,8 @@ lanes:
       mobility, functional, or physical scale. Source/observer constructions remain admissible
       conditional exploration, but the active major program is HC-DU-011 + HC-DU-022 and its
       immediate causal-scale build is the HC-DU-011A passport named in Lane 1.5. The separate
-      completed HC-DU-031B recorder is a bounded parallel foundational construction, not a
-      source-action or cosmology result; HC-DU-031C owns its archive/backreaction successor.
+      completed HC-DU-031B/031C recorder-and-archive sequence is a bounded parallel foundational
+      construction, not a source-action or cosmology result; it ends at INTERFACE_ONLY_ARCHIVE.
     flip_witness_target: >-
       (wave-2, 2026-07-21) The D-FORK flip-witness is now PRICED to a hard spec: a source action
       whose flow ISSUES new mode content — grows ker(Γ) — non-absorbingly (not one-shot) and
@@ -638,18 +704,20 @@ lanes:
       Model. HC-DU-031A's source audit shows that exact Clock-QW/QCA covariance does not entail
       accumulated memory. HC-DU-031B constructs the smallest exact coherent recorder and finds the
       inert-q covariance closure nonselective plus passive informative recording obstructed.
-      HC-DU-031C now tests one explicit archive/environment and its backreaction under encoding,
-      recorder-off, interference, alias, carrier-loss, reunion, boost and scheduler controls. In
-      parallel, HC-DU-011A is the lean literature-aware
+      HC-DU-031C completes the explicit archive/environment assay: exact complementarity,
+      carrier-loss/export, recurrence, fresh-support scaling, reunion interventions, and the
+      boundary-relocation obstruction are now finite exact results, while the interface remains
+      unselected added structure. In parallel, HC-DU-011A is the lean literature-aware
       post passport: physical
       projective sector, exact conditional map, natural-labeling covariance, global-post versus
       finite-landmark status, killed direct-count control, and unconditioned post recurrence before
       held-out geometry. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
     grade: >-
       ACTIVE PROGRAM / EXACT PROJECTIVE POST PREDICTIVE STATE / POST GENERATIVITY PLUS HELD-OUT
-      GEOMETRY NEXT / FINITE COVARIANT COHERENT COUNTER CONSTRUCTED / INERT-Q COVARIANCE
-      NONSELECTIVE / PASSIVE INFORMATIVE RECORD OBSTRUCTED / ARCHIVE-BACKREACTION NEXT IN PARALLEL /
-      RECURSIVE-VIABILITY PASSPORT OVERLAY / RAW SCALAR DEPTH NONIDENTIFIED / G-FULL DELAY-ONLY,
+      GEOMETRY NEXT / FINITE COVARIANT COHERENT POINTER AND ARCHIVE CONSTRUCTED / INERT-Q
+      COVARIANCE NONSELECTIVE / EXACT COMPLEMENTARITY AND EVIDENCE CONSERVATION / INTERFACE-ONLY
+      ARCHIVE / FINITE REUSE ALIASES / RECURSIVE-VIABILITY PASSPORT OVERLAY /
+      RAW SCALAR DEPTH NONIDENTIFIED / G-FULL DELAY-ONLY,
       UNRESTRICTED FINITE-PREFIX CERTIFICATION AND NAIVE COUNT-RUNNING KILLED
 - id: '2'
   label: Lane 2
@@ -686,8 +754,10 @@ lanes:
       geometry. CONCEPT-DU-002 adds a bounded parallel frontier. HC-DU-031B now supplies an exact
       finite coherent counter and shows both that inert-q covariance is nonselective and that
       informative cross-history recording necessarily backreacts on source coherence.
-      HC-DU-031C owns the explicit archive/environment, visibility-distinguishability, resource,
-      reunion, boost and scheduler assay. G-full latency-only, unrestricted fitted gating, raw
+      HC-DU-031C now completes the explicit archive/environment assay with exact
+      visibility-distinguishability, evidence-conserving export, carrier-loss, recurrence,
+      resource, and reunion controls; the result is an interface-only archive, not a selected
+      observer law. G-full latency-only, unrestricted fitted gating, raw
       microstep counts and per-frame decoders do not count as progress. CONCEPT-DU-003 adds
       HC-DU-032 as a bounded system-individuation
       overlay: discover an intervention cover rather than naming recursion depth, and require
@@ -851,7 +921,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 16
+  revision: 17
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -882,7 +952,10 @@ provenance:
     CSG projective predictive state plus finite-prefix nonidentification; rev16 (Joe direct chat,
     2026-07-24) replaces fan-out with one concentrated recorder-naturalization swing, constructs
     the finite counter, proves inert-q covariance nonselective and passive informative recording
-    backreacting, and opens HC-DU-031C; anchor question + P/P/P unchanged
+    backreacting, and opens HC-DU-031C; rev17 (Joe direct chat, 2026-07-24) executes HC-DU-031C,
+    proves exact complementarity and archive-evidence conservation, grades boundary relocation,
+    charges finite recurrence/support, and returns the primary build to HC-DU-011A; anchor
+    question + P/P/P unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1005,3 +1078,18 @@ provenance:
     complete source unitary channel forces a fixed uninformative recorder state. Opened HC-DU-031C
     for an explicit source-sense-covariant archive/backreaction assay. No lane, Purpose/Passion/Practice,
     claim bank, prediction seed, sibling verdict or public posture changed.
+  rev17_note: >-
+    2026-07-24 (Joe direct chat: "Go ahead and orchestrate the next meaningful swing"): executed
+    HC-DU-031C as one concentrated finite archive and boundary-relocation build. A tunable
+    particle-carried pointer remains exactly source-sense covariant and realizes
+    V=|cos(theta)|, D=|sin(theta)|, and V^2+D^2=1. History-independent unitary archive processing
+    preserves joint evidence; CNOT redundantly exports only a basis predicate, SWAP transfers the
+    full nonorthogonal record without retaining a copy, and independent fresh records improve
+    distinguishability only by charging growing support. Finite one-cell reuse recurs or aliases.
+    Boundary relocation preserves a declared diagonal observational algebra but not the complete
+    coherent source channel for informative records, and intervention changes capability only
+    with admitted archive access plus later recoupling. Recorded
+    COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY / INTERFACE_ONLY_ARCHIVE, consumed further
+    abstract archive waves, and returned the primary build to HC-DU-011A. No lane,
+    Purpose/Passion/Practice, claim bank, prediction seed, sibling verdict or public posture
+    changed.

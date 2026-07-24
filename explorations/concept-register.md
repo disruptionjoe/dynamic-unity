@@ -424,18 +424,77 @@ backreact on cross-record coherences, be restricted to a fixed-count sector,
 or cease to be informative. For two record states the surviving source
 off-diagonal is multiplied by their overlap.
 
-**Current status:** **FINITE COVARIANT COHERENT COUNTER CONSTRUCTED /
+**Predecessor status:** **FINITE COVARIANT COHERENT COUNTER CONSTRUCTED /
 INERT-ANCILLA COVARIANCE NONSELECTIVE / PASSIVE INFORMATIVE RECORDER
-OBSTRUCTED / RECORD-FORMING BACKREACTION, ARCHIVE, AND CLASSICALIZATION
-OPEN.** The next bounded reopener is `HC-DU-031C`: couple the counter to one
-explicit finite archive/environment, close the same covariance square, and
-measure record distinguishability against source interference visibility,
-carrier loss, reunion access, and resource scaling. Additional DU structure
-must select the record law; covariance admission alone cannot. No observer,
-proper time, dimensional `c`, higher-dimensional or continuum symmetry,
-gravity, cosmology, `Lambda`, or DU identity is inferred. See
+OBSTRUCTED.** Its bounded archive reopener, `HC-DU-031C`, has now been
+executed below. Additional DU structure still must select the record law;
+covariance admission alone cannot. See
 `covariant-recorder-naturalization-swing-2026-07-24.md` and its adversarial
 audit.
+
+### 2026-07-24 covariant archive and boundary-relocation swing
+
+`HC-DU-031C` softened the orthogonal one-event counter into a tunable coherent
+pointer. At a source-effective event its two conditional states have overlap
+
+```text
+gamma = cos(theta).
+```
+
+The complete local gate remains unitary and exactly source-sense covariant.
+For the frozen two-history reunion, source visibility and optimal record
+distinguishability obey
+
+```text
+V = |gamma|
+D = sqrt(1-|gamma|^2)
+V^2 + D^2 = 1.
+```
+
+That equality is known complementarity, not a novelty claim. Its role here is
+to price four operations that are otherwise easy to conflate. Retaining a
+pointer preserves the coherent record. SWAP transfers the full nonorthogonal
+record but leaves no retained copy. Pointer-basis CNOT redundantly exports a
+basis predicate, yet after pointer loss the archive alone has
+`D=sin(theta)^2`, not `sin(theta)`. Repeated CNOT fanout does not improve that
+marginal. Only independent fresh history-record interactions improve it to
+
+```text
+V_m = |gamma|^m
+D_m = sqrt(1-|gamma|^(2m)),
+```
+
+at the explicit cost of `m` fresh cells and archive dimension `2^m`.
+History-independent unitary archive processing therefore conserves joint
+evidence: it can transfer or repartition distinguishability but cannot create
+more.
+
+Boundary relocation also splits into grades. Enlarging the state can turn an
+external archive into an internal variable while preserving a declared
+history-diagonal observable algebra. An informative archive cannot preserve
+the complete coherent source channel. A capability difference appears only
+when archive access and a later recoupling are admitted, so an intervention on
+the archive can change a subsequent source outcome. Relabeling the boundary
+alone is bookkeeping.
+
+Finite pointer reuse recurs or aliases. Exact nonaliasing elapsed-record
+semantics must weaken, acquire fresh support/environmental capacity, or add a
+modeled coarse-graining, dissipative, or measurement mechanism. This is a
+completion-class-relative trichotomy, not a universal theorem of physical
+openness.
+
+**Current status:** **COVARIANT FINITE POINTER AND ARCHIVE CONSTRUCTED / EXACT
+COMPLEMENTARITY / UNITARY ARCHIVE-EVIDENCE CONSERVATION / INTERFACE-ONLY
+ARCHIVE / FINITE REUSE ALIASES / BOUNDARY RELOCATION GRADED / CLASSICAL
+IRREVERSIBILITY AND INTERFACE SELECTION OPEN.** Do not continue with more
+abstract export gates, fanout variants, or fitted reunions. Reopen this branch
+only with an independently motivated local archive-emission law that selects
+or constrains the interface and charges its support, or use `HC-DU-032` only
+as a bounded interface-relative intervention overlay. The primary build
+returns to `HC-DU-011A`. No observer, proper time, dimensional `c`,
+higher-dimensional or continuum symmetry, gravity, cosmology, `Lambda`, or DU
+identity is inferred. See
+`covariant-archive-boundary-swing-2026-07-24.md` and its adversarial audit.
 
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
@@ -508,8 +567,8 @@ physical map are separately supplied.
 **Status:** **CONCEPT-CONDITIONALLY-CONSTRUCTED-IN-EXACT-CONTROLS /
 RAW-SCALAR-DEPTH-NONIDENTIFIED / INTERVENTION-COVER-DISCOVERABLE /
 PHYSICAL-BOUNDARIES-AND-DYNAMICS-OPEN.** Treat the recursive-viability passport
-as an overlay on an `HC-DU-031C` record-forming/archive survivor or an
-`HC-DU-011A` causal-growth survivor, not as a third standalone
+as a bounded interface-relative overlay on the `HC-DU-031C` archive survivor
+or on an `HC-DU-011A` causal-growth survivor, not as a third standalone
 simulation program. Stop if a candidate observer or post-era boundary has no
 controller-ablation effect, downward consequence, held-out advantage, or
 resolution-stable intervention role. No claim is banked or seeded. See

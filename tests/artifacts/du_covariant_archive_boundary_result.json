@@ -1,0 +1,827 @@
+{
+  "all_placement_naturality_rows": [
+    {
+      "cases": 1600,
+      "coin": "dirac_theta_0p37",
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "theta": 1.0471975511965976
+    },
+    {
+      "cases": 1600,
+      "coin": "general_su2",
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "theta": 1.0471975511965976
+    }
+  ],
+  "arbitrary_active_unitary_control": {
+    "W": "9x9 Fourier unitary",
+    "W_unitarity_error": 9.453036888924597e-16,
+    "active_dimension": 3,
+    "cases": 320,
+    "first_failure": null,
+    "lift_unitarity_error": 9.453036888924597e-16,
+    "maximum_error": 0.0,
+    "pass": true,
+    "patch": [
+      5,
+      4
+    ]
+  },
+  "archive_export_and_loss": {
+    "carrier_loss_before_export_archive_distinguishability": 0.0,
+    "cnot_redundant_basis_export": {
+      "archive_only_distinguishability_after_pointer_loss": 0.7499999999999999,
+      "expected_archive_tax_D_squared": 0.7499999999999999,
+      "perfect_loss_surviving_bit": false,
+      "pointer_only_distinguishability_after_archive_loss": 0.7499999999999999
+    },
+    "cnot_unitarity_error": 0.0,
+    "conditional_joint_record_distinguishability": 0.8660254037844386,
+    "conditional_joint_record_overlap": 0.5000000000000001,
+    "history_independent_unitary_evidence_conservation": {
+      "archive_marginal_distinguishability": 0.8660254037844386,
+      "both_marginals_bounded_by_joint": true,
+      "control": "dense 4x4 Fourier unitary on pointer plus blank archive",
+      "input_overlap": 0.5000000000000001,
+      "joint_distinguishability": 0.8660254037844385,
+      "output_overlap": 0.5000000000000002,
+      "pointer_marginal_distinguishability": 1.4409059796375075e-16,
+      "unitarity_error": 1.1704836984704332e-16
+    },
+    "interface_status": "DECLARED: source covariance does not select location, basis, CNOT, SWAP, or fresh blank cell",
+    "no_cloning_guard": {
+      "cnot_output": "(|00>+|11>)/sqrt(2)",
+      "input": "(|0>+|1>)/sqrt(2) tensor |0>",
+      "is_two_coherent_clones": false,
+      "nonorthogonal_duplication_inner_product_defect": 0.25,
+      "target_fidelity_to_input_plus": 0.49999999999999983,
+      "target_purity": 0.4999999999999998
+    },
+    "repeated_basis_fanout": [
+      {
+        "archive_cells": 1,
+        "archive_dimension": 2,
+        "archive_only_distinguishability_after_pointer_loss": 0.7499999999999999,
+        "joint_distinguishability": 0.8660254037844386,
+        "joint_overlap": 0.5000000000000001
+      },
+      {
+        "archive_cells": 2,
+        "archive_dimension": 4,
+        "archive_only_distinguishability_after_pointer_loss": 0.7499999999999999,
+        "joint_distinguishability": 0.8660254037844386,
+        "joint_overlap": 0.5000000000000001
+      },
+      {
+        "archive_cells": 3,
+        "archive_dimension": 8,
+        "archive_only_distinguishability_after_pointer_loss": 0.7499999999999999,
+        "joint_distinguishability": 0.8660254037844386,
+        "joint_overlap": 0.5000000000000001
+      },
+      {
+        "archive_cells": 4,
+        "archive_dimension": 16,
+        "archive_only_distinguishability_after_pointer_loss": 0.7499999999999999,
+        "joint_distinguishability": 0.8660254037844386,
+        "joint_overlap": 0.5000000000000001
+      }
+    ],
+    "spatial_transport_simulated": false,
+    "swap_full_transfer": {
+      "archive_distinguishability_after_pointer_loss": 0.8660254037844386,
+      "pointer_distinguishability_after_transfer": 0.0,
+      "retains_pointer_copy": false
+    },
+    "swap_unitarity_error": 0.0,
+    "theta": 1.0471975511965976
+  },
+  "banked": false,
+  "boundary_relocation_off_control": {
+    "equivalence_grade": {
+      "diagonal_observational": "PRESERVED",
+      "full_coherent_channel": "PRESERVED_ONLY_FOR_UNINFORMATIVE_COMMON_RECORD",
+      "interventional": "FAILS_WHEN_ARCHIVE_OPERATION_AND_LATER_RECOUPLING_ARE_ALLOWED"
+    },
+    "full_coherent_channel_equivalence": {
+      "coherent_X_expectation_change": 0.0,
+      "criterion": "Exact original unitary source channel requires one common archive state, equivalently the required Gram entries are 1.",
+      "pass": true,
+      "plus_state_trace_distance_from_original": 0.0,
+      "relevant_archive_overlap": 1.0
+    },
+    "gram_matrix_reduction_error": 0.0,
+    "history_diagonal_observational_equivalence": {
+      "archive_interventions_allowed": false,
+      "maximum_expectation_defect": 0.0,
+      "pass": true
+    },
+    "interventional_equivalence": {
+      "archive_Z_later_h0_probability": 0.9999999999999996,
+      "control_later_h0_probability": 0.9999999999999996,
+      "fixed_later_interface": "inverse CNOT export, inverse record rotation, fixed Hadamard history recombiner",
+      "later_probability_change": 0.0,
+      "local_archive_Z_changes_immediate_source_marginal_by": 0.0,
+      "pass": true,
+      "scope": "No-signalling preserves the immediate source marginal; failure appears when the intervened archive is later re-coupled at the declared interface."
+    },
+    "state_augmentation": "External archive can be represented inside an enlarged host state; augmentation alone is bookkeeping, not full invariance.",
+    "theta": 0.0
+  },
+  "boundary_relocation_primary": {
+    "equivalence_grade": {
+      "diagonal_observational": "PRESERVED",
+      "full_coherent_channel": "PRESERVED_ONLY_FOR_UNINFORMATIVE_COMMON_RECORD",
+      "interventional": "FAILS_WHEN_ARCHIVE_OPERATION_AND_LATER_RECOUPLING_ARE_ALLOWED"
+    },
+    "full_coherent_channel_equivalence": {
+      "coherent_X_expectation_change": 0.24999999999999994,
+      "criterion": "Exact original unitary source channel requires one common archive state, equivalently the required Gram entries are 1.",
+      "pass": false,
+      "plus_state_trace_distance_from_original": 0.2499999999999999,
+      "relevant_archive_overlap": 0.5000000000000001
+    },
+    "gram_matrix_reduction_error": 0.0,
+    "history_diagonal_observational_equivalence": {
+      "archive_interventions_allowed": false,
+      "maximum_expectation_defect": 0.0,
+      "pass": true
+    },
+    "interventional_equivalence": {
+      "archive_Z_later_h0_probability": 0.24999999999999994,
+      "control_later_h0_probability": 0.9999999999999996,
+      "fixed_later_interface": "inverse CNOT export, inverse record rotation, fixed Hadamard history recombiner",
+      "later_probability_change": 0.7499999999999996,
+      "local_archive_Z_changes_immediate_source_marginal_by": 0.0,
+      "pass": false,
+      "scope": "No-signalling preserves the immediate source marginal; failure appears when the intervened archive is later re-coupled at the declared interface."
+    },
+    "state_augmentation": "External archive can be represented inside an enlarged host state; augmentation alone is bookkeeping, not full invariance.",
+    "theta": 1.0471975511965976
+  },
+  "canonical_naturality_rows": [
+    {
+      "cases": 48,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "theta_name": "off"
+    },
+    {
+      "cases": 48,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "theta_name": "weak_pi_over_6"
+    },
+    {
+      "cases": 48,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "theta_name": "primary_pi_over_3"
+    },
+    {
+      "cases": 48,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "theta_name": "maximal_pi_over_2"
+    }
+  ],
+  "checks": [
+    {
+      "detail": "two complex coins across all pointer settings",
+      "name": "all source coins and Clock-QCA matrices are unitary",
+      "pass": true
+    },
+    {
+      "detail": "8 complete 16x16 matrices",
+      "name": "pointer-event gates are complete full-basis unitaries",
+      "pass": true
+    },
+    {
+      "detail": "pointer rotation occurs only in the active source sector",
+      "name": "pointer-event gates are exact q-transparent lifts",
+      "pass": true
+    },
+    {
+      "detail": "192 full-basis cases",
+      "name": "canonical rectangular patches reproduce the direct gate",
+      "pass": true
+    },
+    {
+      "detail": "3200 cases",
+      "name": "all bounded active-symbol placements close the same local square",
+      "pass": true
+    },
+    {
+      "detail": "480 full-basis/placement cases",
+      "name": "held-out 6x5 all-placement patch is natural",
+      "pass": true
+    },
+    {
+      "detail": "|1_0,q> versus |1_0,0>",
+      "name": "Clock-QCA one-gate witness realizes the frozen two-history map",
+      "pass": true
+    },
+    {
+      "detail": "off, weak, primary, and maximal records",
+      "name": "source history populations remain one half",
+      "pass": true
+    },
+    {
+      "detail": "source coherence is multiplied by record overlap",
+      "name": "Gram-matrix reduction is matrix-exact",
+      "pass": true
+    },
+    {
+      "detail": "fixed phases 0 and pi with one Hadamard recombiner",
+      "name": "matrix and fixed-fringe visibilities equal record overlap",
+      "pass": true
+    },
+    {
+      "detail": "equal-prior Helstrom convention",
+      "name": "trace-distance distinguishability matches the pure-state formula",
+      "pass": true
+    },
+    {
+      "detail": "V^2 + D^2 = 1 at every frozen setting",
+      "name": "exact pure-record complementarity holds",
+      "pass": true
+    },
+    {
+      "detail": "theta=0 and theta=pi/2",
+      "name": "recorder-off and maximal-record endpoints are recovered",
+      "pass": true
+    },
+    {
+      "detail": "interface operations are added structure, not covariance-selected",
+      "name": "declared CNOT and SWAP interfaces are complete unitaries",
+      "pass": true
+    },
+    {
+      "detail": "the joint A-E overlap remains gamma",
+      "name": "CNOT export preserves full joint record distinguishability",
+      "pass": true
+    },
+    {
+      "detail": "D_E=sin^2(theta), not sin(theta), after pointer loss",
+      "name": "CNOT archive-only access pays the squared-distinguishability tax",
+      "pass": true
+    },
+    {
+      "detail": "partial coherent records degrade when one share is lost",
+      "name": "only the maximal CNOT record is a perfect loss-surviving bit",
+      "pass": true
+    },
+    {
+      "detail": "transfer and redundant export are distinct contracts",
+      "name": "SWAP transfers full nonorthogonal record without retaining a copy",
+      "pass": true
+    },
+    {
+      "detail": "unitarity preserves overlap; partial trace cannot increase D",
+      "name": "history-independent archive unitary conserves joint evidence",
+      "pass": true
+    },
+    {
+      "detail": "basis predicate sharing is not arbitrary-state duplication",
+      "name": "pointer-basis CNOT entangles a coherent input rather than cloning",
+      "pass": true
+    },
+    {
+      "detail": "there is no free external record before the interface",
+      "name": "carrier loss before export leaves no record in a blank archive",
+      "pass": true
+    },
+    {
+      "detail": "GHZ-like basis redundancy is not m independent weak records",
+      "name": "repeated CNOT fanout does not equal independent fresh recording",
+      "pass": true
+    },
+    {
+      "detail": "each extra cell is charged and doubles archive Hilbert dimension",
+      "name": "fresh independent cells obey gamma^m visibility scaling",
+      "pass": true
+    },
+    {
+      "detail": "finite unitary reuse is not monotone irreversible accumulation",
+      "name": "one finite reused pointer exhibits recurrence and alias",
+      "pass": true
+    },
+    {
+      "detail": "archive is not intervened on in this scoped contract",
+      "name": "history-diagonal observational algebra is preserved",
+      "pass": true
+    },
+    {
+      "detail": "full equality returns only at the uninformative endpoint",
+      "name": "informative records break the full coherent source channel",
+      "pass": true
+    },
+    {
+      "detail": "no-signalling guard",
+      "name": "archive intervention leaves immediate source marginal unchanged",
+      "pass": true
+    },
+    {
+      "detail": "failure appears after declared recoupling, not by signalling",
+      "name": "archive intervention changes a later fixed reunion outcome",
+      "pass": true
+    },
+    {
+      "detail": "negative control is a valid local law",
+      "name": "raw q-microstep recorder remains unitary",
+      "pass": true
+    },
+    {
+      "detail": "encoding-added q crossings change the pointer",
+      "name": "raw q-microstep recorder fails source refinement",
+      "pass": true
+    },
+    {
+      "detail": "covariance admits but does not select the pointer law",
+      "name": "arbitrary active unitary also inherits source covariance",
+      "pass": true
+    }
+  ],
+  "checks_passed": 31,
+  "checks_total": 31,
+  "claim_grade": "EXACT FINITE MATHEMATICAL CONSTRUCTION AND SCOPED OBSTRUCTION / PHYSICAL INTERFACE AND LAW SELECTION OPEN",
+  "clock_qca_history_witness": {
+    "factorization_error": 0.0,
+    "histories": [
+      "|1_0,q> (no source-effective event)",
+      "|1_0,0> (one source-effective event)"
+    ],
+    "history_output_overlap": 0.0,
+    "history_populations": [
+      0.4999999999999999,
+      0.5000000000000001
+    ],
+    "normalized_coherence_visibility": 0.5000000000000001,
+    "realized_inside_one_clock_qca_scattering": true,
+    "trace_distance_from_unrecorded_source": 0.24999999999999986
+  },
+  "construction": {
+    "archive_interface": "separately declared CNOT basis export or SWAP transfer",
+    "event_rule": "source-effective particle/zero applies R_theta",
+    "primary_theta": "pi/3",
+    "q_rule": "transparent transport with no pointer update",
+    "reunion": "fixed two-history subspace recombiner at a declared interface",
+    "wire_alphabet": "|q>, |0>, |1,A=0>, |1,A=1>"
+  },
+  "fresh_cell_and_reuse_scaling": {
+    "finite_basis_alias_control": {
+      "scope": "same ray up to global phase",
+      "two_quarter_turn_updates_same_basis_readout_as_blank": true
+    },
+    "fresh_cells_are_separate_interactions_not_cnot_fanout": true,
+    "fresh_independent_cells": [
+      {
+        "analytic_distinguishability": 0.8660254037844386,
+        "analytic_visibility": 0.5000000000000001,
+        "archive_dimension": 2,
+        "cells": 1,
+        "distinguishability": 0.8660254037844386,
+        "overlap": 0.5000000000000001,
+        "visibility": 0.5000000000000001
+      },
+      {
+        "analytic_distinguishability": 0.9682458365518543,
+        "analytic_visibility": 0.2500000000000001,
+        "archive_dimension": 4,
+        "cells": 2,
+        "distinguishability": 0.9682458365518543,
+        "overlap": 0.2500000000000001,
+        "visibility": 0.2500000000000001
+      },
+      {
+        "analytic_distinguishability": 0.9921567416492215,
+        "analytic_visibility": 0.12500000000000008,
+        "archive_dimension": 8,
+        "cells": 3,
+        "distinguishability": 0.9921567416492214,
+        "overlap": 0.12500000000000008,
+        "visibility": 0.12500000000000008
+      },
+      {
+        "analytic_distinguishability": 0.998044963916957,
+        "analytic_visibility": 0.06250000000000006,
+        "archive_dimension": 16,
+        "cells": 4,
+        "distinguishability": 0.9980449639169571,
+        "overlap": 0.06250000000000006,
+        "visibility": 0.06250000000000006
+      },
+      {
+        "analytic_distinguishability": 0.9995115994824673,
+        "analytic_visibility": 0.031250000000000035,
+        "archive_dimension": 32,
+        "cells": 5,
+        "distinguishability": 0.9995115994824676,
+        "overlap": 0.031250000000000035,
+        "visibility": 0.031250000000000035
+      },
+      {
+        "analytic_distinguishability": 0.9998779222360098,
+        "analytic_visibility": 0.01562500000000002,
+        "archive_dimension": 64,
+        "cells": 6,
+        "distinguishability": 0.9998779222360119,
+        "overlap": 0.01562500000000002,
+        "visibility": 0.01562500000000002
+      }
+    ],
+    "one_cell_reuse": [
+      {
+        "events": 0,
+        "state": [
+          1.0,
+          0.0
+        ],
+        "visibility_to_blank_ray": 1.0
+      },
+      {
+        "events": 1,
+        "state": [
+          0.5000000000000001,
+          0.8660254037844386
+        ],
+        "visibility_to_blank_ray": 0.5000000000000001
+      },
+      {
+        "events": 2,
+        "state": [
+          -0.4999999999999998,
+          0.8660254037844388
+        ],
+        "visibility_to_blank_ray": 0.4999999999999998
+      },
+      {
+        "events": 3,
+        "state": [
+          -1.0,
+          3.885780586188048e-16
+        ],
+        "visibility_to_blank_ray": 1.0
+      },
+      {
+        "events": 4,
+        "state": [
+          -0.5000000000000004,
+          -0.8660254037844384
+        ],
+        "visibility_to_blank_ray": 0.5000000000000004
+      },
+      {
+        "events": 5,
+        "state": [
+          0.4999999999999994,
+          -0.866025403784439
+        ],
+        "visibility_to_blank_ray": 0.4999999999999994
+      },
+      {
+        "events": 6,
+        "state": [
+          1.0,
+          -8.881784197001252e-16
+        ],
+        "visibility_to_blank_ray": 1.0
+      }
+    ],
+    "projective_recurrence_at_three_events": true,
+    "theta": 1.0471975511965976
+  },
+  "hardening_id": "HC-DU-031C",
+  "held_out_naturality": {
+    "cases": 480,
+    "first_failure": null,
+    "maximum_error": 0.0,
+    "pass": true,
+    "patch": [
+      6,
+      5
+    ]
+  },
+  "local_unitarity_rows": [
+    {
+      "coin": "dirac_theta_0p37",
+      "coin_unitarity_error": 0.0,
+      "matrix_digest": "dfc1af6a0744b48a7a41ebf0a4dfa973f2bea01537a8dbede712527c20fdf059",
+      "pointer_matrix_unitarity_error": 0.0,
+      "q_transparent_reconstruction_error": 0.0,
+      "source_unitarity_error": 0.0,
+      "theta": 0.0,
+      "theta_name": "off"
+    },
+    {
+      "coin": "general_su2",
+      "coin_unitarity_error": 2.220446049250313e-16,
+      "matrix_digest": "c29ca6ead4b2b84df4f811a9d76154cd86424e50e532392804cb0a259442c33a",
+      "pointer_matrix_unitarity_error": 2.220446049250313e-16,
+      "q_transparent_reconstruction_error": 0.0,
+      "source_unitarity_error": 2.220446049250313e-16,
+      "theta": 0.0,
+      "theta_name": "off"
+    },
+    {
+      "coin": "dirac_theta_0p37",
+      "coin_unitarity_error": 0.0,
+      "matrix_digest": "eb70938d64839de8df3f83bbfba520a79eddb6cbc329f16cb3950e833dd26cc6",
+      "pointer_matrix_unitarity_error": 2.220446049250313e-16,
+      "q_transparent_reconstruction_error": 0.0,
+      "source_unitarity_error": 0.0,
+      "theta": 0.5235987755982988,
+      "theta_name": "weak_pi_over_6"
+    },
+    {
+      "coin": "general_su2",
+      "coin_unitarity_error": 2.220446049250313e-16,
+      "matrix_digest": "5f8edbf9a80875932fbd5bb948ccbfedf763b6ef4002315fc37bb7def60cf7de",
+      "pointer_matrix_unitarity_error": 5.410058615606646e-17,
+      "q_transparent_reconstruction_error": 0.0,
+      "source_unitarity_error": 2.220446049250313e-16,
+      "theta": 0.5235987755982988,
+      "theta_name": "weak_pi_over_6"
+    },
+    {
+      "coin": "dirac_theta_0p37",
+      "coin_unitarity_error": 0.0,
+      "matrix_digest": "a14fb4ec73c77eb27def292484593881330433749e8f62aab36a93d43fa3ae2b",
+      "pointer_matrix_unitarity_error": 2.220446049250313e-16,
+      "q_transparent_reconstruction_error": 0.0,
+      "source_unitarity_error": 0.0,
+      "theta": 1.0471975511965976,
+      "theta_name": "primary_pi_over_3"
+    },
+    {
+      "coin": "general_su2",
+      "coin_unitarity_error": 2.220446049250313e-16,
+      "matrix_digest": "eade572447114a3eb83f503789a87f84dc8294403de6ff14a9cc47be3a3f932e",
+      "pointer_matrix_unitarity_error": 3.2004103664435533e-17,
+      "q_transparent_reconstruction_error": 0.0,
+      "source_unitarity_error": 2.220446049250313e-16,
+      "theta": 1.0471975511965976,
+      "theta_name": "primary_pi_over_3"
+    },
+    {
+      "coin": "dirac_theta_0p37",
+      "coin_unitarity_error": 0.0,
+      "matrix_digest": "1108a73fcc4e0d7eda542d84eb83bc610a36457b0e6f52ac1708693f4ba6cb91",
+      "pointer_matrix_unitarity_error": 2.1940053242025864e-33,
+      "q_transparent_reconstruction_error": 5.708858497769892e-17,
+      "source_unitarity_error": 0.0,
+      "theta": 1.5707963267948966,
+      "theta_name": "maximal_pi_over_2"
+    },
+    {
+      "coin": "general_su2",
+      "coin_unitarity_error": 2.220446049250313e-16,
+      "matrix_digest": "37e2777cd5735f047d255a5813eb1c39801cdb86fa5886723b33ad65893e3d65",
+      "pointer_matrix_unitarity_error": 2.220446049250313e-16,
+      "q_transparent_reconstruction_error": 5.0188966074096963e-17,
+      "source_unitarity_error": 2.220446049250313e-16,
+      "theta": 1.5707963267948966,
+      "theta_name": "maximal_pi_over_2"
+    }
+  ],
+  "maximal_archive_control": {
+    "carrier_loss_before_export_archive_distinguishability": 0.0,
+    "cnot_redundant_basis_export": {
+      "archive_only_distinguishability_after_pointer_loss": 1.0,
+      "expected_archive_tax_D_squared": 1.0,
+      "perfect_loss_surviving_bit": true,
+      "pointer_only_distinguishability_after_archive_loss": 1.0
+    },
+    "cnot_unitarity_error": 0.0,
+    "conditional_joint_record_distinguishability": 1.0,
+    "conditional_joint_record_overlap": 6.123233995736766e-17,
+    "history_independent_unitary_evidence_conservation": {
+      "archive_marginal_distinguishability": 1.0,
+      "both_marginals_bounded_by_joint": true,
+      "control": "dense 4x4 Fourier unitary on pointer plus blank archive",
+      "input_overlap": 6.123233995736766e-17,
+      "joint_distinguishability": 1.0,
+      "output_overlap": 8.264918249852337e-17,
+      "pointer_marginal_distinguishability": 1.344584907606736e-16,
+      "unitarity_error": 1.1704836984704332e-16
+    },
+    "interface_status": "DECLARED: source covariance does not select location, basis, CNOT, SWAP, or fresh blank cell",
+    "no_cloning_guard": {
+      "cnot_output": "(|00>+|11>)/sqrt(2)",
+      "input": "(|0>+|1>)/sqrt(2) tensor |0>",
+      "is_two_coherent_clones": false,
+      "nonorthogonal_duplication_inner_product_defect": 6.123233995736766e-17,
+      "target_fidelity_to_input_plus": 0.49999999999999983,
+      "target_purity": 0.4999999999999998
+    },
+    "repeated_basis_fanout": [
+      {
+        "archive_cells": 1,
+        "archive_dimension": 2,
+        "archive_only_distinguishability_after_pointer_loss": 1.0,
+        "joint_distinguishability": 1.0,
+        "joint_overlap": 6.123233995736766e-17
+      },
+      {
+        "archive_cells": 2,
+        "archive_dimension": 4,
+        "archive_only_distinguishability_after_pointer_loss": 1.0,
+        "joint_distinguishability": 1.0,
+        "joint_overlap": 6.123233995736766e-17
+      },
+      {
+        "archive_cells": 3,
+        "archive_dimension": 8,
+        "archive_only_distinguishability_after_pointer_loss": 1.0,
+        "joint_distinguishability": 1.0,
+        "joint_overlap": 6.123233995736766e-17
+      },
+      {
+        "archive_cells": 4,
+        "archive_dimension": 16,
+        "archive_only_distinguishability_after_pointer_loss": 1.0,
+        "joint_distinguishability": 1.0,
+        "joint_overlap": 6.123233995736766e-17
+      }
+    ],
+    "spatial_transport_simulated": false,
+    "swap_full_transfer": {
+      "archive_distinguishability_after_pointer_loss": 1.0,
+      "pointer_distinguishability_after_transfer": 0.0,
+      "retains_pointer_copy": false
+    },
+    "swap_unitarity_error": 0.0,
+    "theta": 1.5707963267948966
+  },
+  "novelty": "SEARCH-INCOMPLETE",
+  "prediction_seeded": false,
+  "probe": "du_covariant_archive_boundary_probe",
+  "raw_microstep_rival": {
+    "failure_is_refinement_sensitive": true,
+    "naturality": {
+      "cases": 16,
+      "first_failure": {
+        "alpha": 3,
+        "beta": 4,
+        "error": 1.5,
+        "left_placement": 0,
+        "left_symbol": 0,
+        "right_placement": 0,
+        "right_symbol": 2
+      },
+      "maximum_error": 1.7320508075688772,
+      "pass": false
+    },
+    "patch": [
+      3,
+      4
+    ],
+    "unitarity_error": 1.4874168143337463e-17
+  },
+  "record_tradeoff_rows": [
+    {
+      "analytic_distinguishability": 0.0,
+      "analytic_visibility": 1.0,
+      "complementarity_sum": 0.9999999999999996,
+      "fixed_fringe": {
+        "phase_0_probability": 0.9999999999999997,
+        "phase_pi_probability": 4.955674083536133e-33,
+        "visibility": 1.0
+      },
+      "gamma_imag": 0.0,
+      "gamma_real": 1.0,
+      "gram_reduction_error": 0.0,
+      "helstrom_equal_prior_success": 0.5,
+      "isometry_error": 0.0,
+      "matrix_visibility": 0.9999999999999998,
+      "record_trace_distance_D": 0.0,
+      "record_unitary_error": 0.0,
+      "setting": "off",
+      "source_coherence_magnitude": 0.4999999999999999,
+      "source_populations": [
+        0.4999999999999999,
+        0.4999999999999999
+      ],
+      "theta": 0.0
+    },
+    {
+      "analytic_distinguishability": 0.49999999999999994,
+      "analytic_visibility": 0.8660254037844387,
+      "complementarity_sum": 0.9999999999999996,
+      "fixed_fringe": {
+        "phase_0_probability": 0.933012701892219,
+        "phase_pi_probability": 0.06698729810778065,
+        "visibility": 0.8660254037844387
+      },
+      "gamma_imag": 0.0,
+      "gamma_real": 0.8660254037844387,
+      "gram_reduction_error": 0.0,
+      "helstrom_equal_prior_success": 0.75,
+      "isometry_error": 0.0,
+      "matrix_visibility": 0.8660254037844385,
+      "record_trace_distance_D": 0.49999999999999994,
+      "record_unitary_error": 7.437084071668725e-18,
+      "setting": "weak_pi_over_6",
+      "source_coherence_magnitude": 0.43301270189221924,
+      "source_populations": [
+        0.4999999999999999,
+        0.4999999999999999
+      ],
+      "theta": 0.5235987755982988
+    },
+    {
+      "analytic_distinguishability": 0.8660254037844386,
+      "analytic_visibility": 0.5000000000000001,
+      "complementarity_sum": 0.9999999999999999,
+      "fixed_fringe": {
+        "phase_0_probability": 0.7499999999999998,
+        "phase_pi_probability": 0.2499999999999999,
+        "visibility": 0.5000000000000001
+      },
+      "gamma_imag": 0.0,
+      "gamma_real": 0.5000000000000001,
+      "gram_reduction_error": 5.551115123125783e-17,
+      "helstrom_equal_prior_success": 0.9330127018922193,
+      "isometry_error": 0.0,
+      "matrix_visibility": 0.5,
+      "record_trace_distance_D": 0.8660254037844386,
+      "record_unitary_error": 1.4874168143337463e-17,
+      "setting": "primary_pi_over_3",
+      "source_coherence_magnitude": 0.25,
+      "source_populations": [
+        0.4999999999999999,
+        0.49999999999999994
+      ],
+      "theta": 1.0471975511965976
+    },
+    {
+      "analytic_distinguishability": 1.0,
+      "analytic_visibility": 6.123233995736766e-17,
+      "complementarity_sum": 1.0,
+      "fixed_fringe": {
+        "phase_0_probability": 0.49999999999999983,
+        "phase_pi_probability": 0.4999999999999998,
+        "visibility": 5.551115123125785e-17
+      },
+      "gamma_imag": 0.0,
+      "gamma_real": 6.123233995736766e-17,
+      "gram_reduction_error": 0.0,
+      "helstrom_equal_prior_success": 1.0,
+      "isometry_error": 0.0,
+      "matrix_visibility": 6.123233995736765e-17,
+      "record_trace_distance_D": 1.0,
+      "record_unitary_error": 0.0,
+      "setting": "maximal_pi_over_2",
+      "source_coherence_magnitude": 3.0616169978683824e-17,
+      "source_populations": [
+        0.4999999999999999,
+        0.4999999999999999
+      ],
+      "theta": 1.5707963267948966
+    }
+  ],
+  "scope_not_earned": [
+    "classical irreversible or thermodynamic record",
+    "covariance-selected archive interface, basis, or coupling",
+    "arbitrary-state cloning",
+    "realistic spatial reunion",
+    "monotone unbounded memory from finite unitary reuse",
+    "observerhood, proper time, continuum covariance, gravity, cosmology",
+    "Dynamic Unity identity or a publication novelty claim"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/1404.4499",
+    "citation": "Arrighi, Facchini, and Forets, Discrete Lorentz covariance for Quantum Walks and Quantum Cellular Automata",
+    "exact_tex_sha256": "121ccb1e66c5e408c4a659c66a9873e8d0544655e0a28ccd920e3f407ed1fdfb",
+    "pdf_sha256": "578c156f25fb9b2698bca5f6f27d43e7e1c09ee884a64f78e9f1e2515b0cebc4",
+    "scope": "Clock QCA definition and rectangular-patch covariance"
+  },
+  "terminal_outcomes": [
+    "COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY",
+    "INTERFACE_ONLY_ARCHIVE"
+  ],
+  "theorem_results": {
+    "T1_covariant_finite_pointer": "PROVED_AND_BOUNDED_FULL_BASIS_CHECKED; COVARIANCE ADMITS BUT DOES NOT SELECT LAW",
+    "T2_gram_matrix_reduction": "PROVED_AND_MATRIX_CHECKED",
+    "T3_pure_record_complementarity": "V_EQUALS_ABS_GAMMA; D_EQUALS_SQRT_1_MINUS_GAMMA_SQUARED; V_SQUARED_PLUS_D_SQUARED_EQUALS_ONE",
+    "T4_boundary_relocation": "DIAGONAL_OBSERVATIONAL_EQUIVALENCE_ONLY; INFORMATIVE_RECORD_OBSTRUCTS_FULL_COHERENT_CHANNEL; INTERVENABLE_RECORD_OBSTRUCTS_INTERVENTIONAL_EQUIVALENCE",
+    "T5_finite_resource_and_recurrence": "FRESH_CELLS_SCALE_AS_GAMMA_POWER_M_WITH_DIMENSION_2_POWER_M; FINITE_REUSE_RECURS",
+    "export_distinction": "CNOT_REDUNDANCY_GIVES_ARCHIVE_ONLY_D_EQUALS_D_FULL_SQUARED; SWAP_TRANSFERS_FULL_D_WITHOUT_A_RETAINED_COPY; FANOUT_IS_NOT_INDEPENDENT_RECORDING",
+    "unitary_archive_evidence_conservation": "HISTORY_INDEPENDENT_UNITARY_PRESERVES_CONDITIONAL_OVERLAP AND_JOINT_TRACE_DISTANCE; MARGINAL_TRACE_DISTANCE_CANNOT_GROW"
+  },
+  "underlying_case_counts": {
+    "all_placement_training_cases": 3200,
+    "arbitrary_active_unitary_cases": 320,
+    "canonical_full_basis_cases": 192,
+    "complete_pointer_unitaries": 8,
+    "held_out_all_placement_cases": 480
+  }
+}

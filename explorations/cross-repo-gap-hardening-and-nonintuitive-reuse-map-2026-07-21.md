@@ -311,8 +311,8 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-028` | P2 | hostile external review | `DU-H0`, `OPEN` | frozen packet to an independent cosmologist/mathematical physicist | `4.4` | TaF external-grade ceiling |
 | `HC-DU-029` | P2 | rotating counterfamily search | `DU-H0`, `OPEN` | held-out failure families, not more same-family examples | `4.4` | TI 12-class completion tournament |
 | `HC-DU-030` | P2 | durable failure/retirement map | `DU-H0`, `OPEN` | one ledger of dead, scoped-dead, class-exited and reopened branches | `A.1/A.3` | GU no-go map; CLTP `N/X/L/I` |
-| `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `FINITE_COVARIANT_COHERENT_COUNTER_CONSTRUCTED__COVARIANCE_NONSELECTIVE__PASSIVE_INFORMATIVE_RECORD_OBSTRUCTED` | `031A` source audit and `031B` construction are complete. The finite counter is a full-basis unitary and exactly natural under the canonical source encoding, but inert-`q` covariance admits every active-sector unitary and therefore selects no record law. `031C` couples one explicit finite archive/environment and tests record distinguishability against source interference visibility, carrier loss, reunion access, aliasing, resource scaling, and the same covariance square | `1.5/2.2/2.4` | dual-clock and premise-free councils; covariant-recorder naturalization swing; Knuth-Bahrenyi; Arrighi-Facchini-Forets; channel information-disturbance |
-| `HC-DU-032` | P1 | recursive operational viability and physical system individuation | `DU-H1`, `CONDITIONAL_CONTROL_CONSTRUCTED__SCALAR_DEPTH_NONIDENTIFIED__PHYSICAL_BOUNDARIES_OPEN` | apply only to an `HC-DU-031C` record-forming/archive survivor or an `HC-DU-011A` causal-growth survivor; require essential variables, controller on/off effects, upward/downward maps, held-out advantage, boundary discovery, locality costs and flat/overlap/RG/replay/relay/alias rivals; infer a minimal interface-relative intervention cover rather than a raw depth | `1.5/2.2/2.4` | fourth and premise-free councils; Beer VSM; Ashby requisite variety; causal emergence and hierarchical-blanket comparators |
+| `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY__INTERFACE_ONLY_ARCHIVE__FINITE_REUSE_ALIASES__BOUNDARY_RELOCATION_GRADED` | `031A` source audit, `031B` coherent counter, and `031C` finite archive are complete. The pointer is a full-basis unitary and exactly natural under the canonical source encoding, but inert-`q` covariance selects no record law. Unitary archive processing conserves joint evidence; fresh independent records charge growing support; finite reuse aliases. Reopen only with an independently motivated autonomous archive-emission/interface law and explicit support cost, not another abstract export or reunion variant | `1.5/2.2/2.4` | dual-clock and premise-free councils; covariant-recorder and archive-boundary swings; Knuth-Bahrenyi; Arrighi-Facchini-Forets; complementarity, no-broadcasting, and channel information-disturbance |
+| `HC-DU-032` | P1 | recursive operational viability and physical system individuation | `DU-H1`, `CONDITIONAL_CONTROL_CONSTRUCTED__SCALAR_DEPTH_NONIDENTIFIED__PHYSICAL_BOUNDARIES_OPEN` | apply to the `HC-DU-031C` survivor only as a bounded interface-relative control, or to an `HC-DU-011A` causal-growth survivor; require essential variables, controller on/off effects, upward/downward maps, held-out advantage, boundary discovery, locality costs and flat/overlap/RG/replay/relay/alias rivals; infer a minimal interface-relative intervention cover rather than a raw depth | `1.5/2.2/2.4` | fourth and premise-free councils; Beer VSM; Ashby requisite variety; causal emergence and hierarchical-blanket comparators |
 
 ## Existing models to reuse instead of rebuilding
 
@@ -569,19 +569,17 @@ work packages.
    built. Nonlocality escapes the local cone, but scale-free memory is an
    always-on/nonaccelerating tracker and the raw martingale fails early RMS,
    sign-persistence and de Sitter-stationarity controls.
-3. **Record formation with backreaction (`HC-DU-031C`).** `031A` establishes
-   that the source controls do not entail accumulated memory. `031B`
-   constructs a finite coherent interaction counter and proves its exact
-   source-sense covariance, then shows that the inert-`q` covariance square
-   admits arbitrary active-sector unitaries and therefore does not select the
-   record law. An informative counter cannot preserve the complete coherent
-   source channel: cross-count record distinguishability suppresses the
-   matching interference. Couple one explicit finite archive/environment,
-   preserve the same covariance square, and measure that tradeoff under
-   recorder-off, alias, carrier-loss, copy/export, scheduler-tag and reunion
-   controls. Stop if the archive is only an external trace, its decoder is
-   refitted per frame, or its resource/export cost is hidden.
-4. **Lean post passport plus generativity census (`HC-DU-011A`).** Reproduce
+3. **Record formation with backreaction (`HC-DU-031C`): COMPLETED —
+   `COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY /
+   INTERFACE_ONLY_ARCHIVE`.** The finite pointer closes the covariance square;
+   exact complementarity prices record information against source coherence;
+   unitary export conserves joint evidence; carrier-loss, SWAP/CNOT, fanout,
+   reunion-intervention, recurrence, and fresh-support controls are explicit.
+   Boundary relocation preserves only the declared observational algebra, not
+   the complete coherent or interventional theory. Stop further abstract
+   archive variants unless an independent law naturalizes the interface.
+4. **Lean post passport plus generativity census (`HC-DU-011A`): NEXT PRIMARY
+   BUILD.** Reproduce
    the known exact CSG post map in the physical projective sector and carry
    `[T_1,T_2,...]=[M^P t]`, not raw post depth, as its minimal predictive
    state. Retain the killed direct-count law as a covariance control, then
@@ -895,12 +893,65 @@ uninformative recorder state. Informative record formation therefore requires
 backreaction/decoherence, a restricted fixed-count sector, or loss of
 readability.
 
-`HC-DU-031C` is the resulting reopener: an explicit source-sense-covariant
-archive/environment with measured record-distinguishability versus
-interference-visibility, export, carrier-loss, reunion, alias, and resource
-controls. The finite counter is a coherent interaction label, not yet a
-classical irreversible record, observer, proper time, higher-dimensional
-symmetry, gravity, or DU law.
+`HC-DU-031C` was the resulting reopener: an explicit
+source-sense-covariant archive/environment with measured
+record-distinguishability versus interference-visibility, export,
+carrier-loss, reunion, alias, and resource controls. Its executed result is
+recorded below. The predecessor finite counter is a coherent interaction
+label, not a classical irreversible record, observer, proper time,
+higher-dimensional symmetry, gravity, or DU law.
+
+## Covariant archive and boundary-relocation result
+
+`HC-DU-031C` executed that reopener. A tunable particle-carried qubit pointer
+is a complete local unitary and remains exactly source-sense covariant. In the
+two-history Clock-QCA witness its conditional overlap is
+`gamma=cos(theta)`, so one fixed reunion gives
+
+```text
+V = |gamma|,
+D = sqrt(1-|gamma|^2),
+V^2 + D^2 = 1.
+```
+
+This is an exact calibration using known complementarity, not a new duality
+claim. It lets the build distinguish retention, transfer, redundant
+basis-predicate export, and independent fresh record formation. A
+history-independent unitary on the pointer and a blank archive preserves
+joint overlap and trace distance. SWAP transfers the full nonorthogonal record
+but leaves no retained pointer copy. CNOT keeps joint distinguishability but
+leaves only `sin(theta)^2` in the archive after pointer loss; repeated CNOT
+fanout does not improve that archive marginal. Independent fresh interactions
+instead give
+
+```text
+V_m = |gamma|^m,
+D_m = sqrt(1-|gamma|^(2m)),
+archive dimension = 2^m.
+```
+
+The resulting resource statement is exact but restricted. A fixed finite
+unitary recorder must recur or alias, weaken exact nonaliasing record
+semantics, or acquire fresh support/environmental capacity. It is not a
+universal theorem that physical reality is globally open.
+
+Boundary relocation is likewise graded. Enlarging the internal state can
+preserve a declared history-diagonal observational algebra. An informative
+archive cannot preserve the complete coherent source channel, and an
+interventional difference appears only when the archive can be acted on and
+later recoupled to the source. The surviving result is therefore **Boundary
+Relocation and Informative-Record Obstruction**, not unqualified boundary
+invariance.
+
+The terminal disposition is
+`COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY /
+INTERFACE_ONLY_ARCHIVE`. The archive boundary, basis, coupling, blank support,
+and reunion remain added structure not selected by covariance. No classical
+irreversibility, physical observer, proper time, higher-dimensional symmetry,
+gravity, cosmology, or DU identity is established. The primary build returns
+to `HC-DU-011A`; this branch reopens only with an independently motivated
+autonomous archive-emission/interface law or a bounded interface-relative
+`HC-DU-032` intervention assay.
 
 ## Run receipt
 
@@ -935,4 +986,9 @@ symmetry, gravity, or DU law.
 - The covariant-recorder swing completed that build, found an
   arbitrary-active-unitary covariance closure, and proved that a physically
   informative record cannot remain passive on all coherent source histories.
+- The covariant-archive swing then passed `31/31` deterministic checks,
+  separated retention, transfer, redundant export, and fresh record formation,
+  charged finite recurrence/support, and returned
+  `COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY /
+  INTERFACE_ONLY_ARCHIVE`.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.
