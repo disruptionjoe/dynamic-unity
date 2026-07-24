@@ -1,0 +1,794 @@
+{
+  "arbitrary_active_block_control": {
+    "K_dimension": 3,
+    "W": "9x9 discrete Fourier unitary",
+    "W_unitarity_error": 9.453036888924597e-16,
+    "cases": 320,
+    "first_failure": null,
+    "lift_unitarity_error": 9.453036888924597e-16,
+    "maximum_error": 0.0,
+    "pass": true,
+    "patch": [
+      5,
+      4
+    ]
+  },
+  "candidate": {
+    "alphabet": "|q>, |0>, |1_0>,...,|1_(R-1)>",
+    "counter_update": "k -> k+1 mod R only on 1_k/0",
+    "encoding": "E_n(x)=x tensor q^(n-1)",
+    "fixed_decoder": "read particle species k in every admitted frame",
+    "q_rule": "transparent swap with no counter update"
+  },
+  "checks": [
+    {
+      "detail": "three nontrivial real/complex coins",
+      "name": "all declared 2x2 coins are unitary",
+      "pass": true
+    },
+    {
+      "detail": "complete 9x9 matrices, not selected fixtures",
+      "name": "source Clock-QCA matrices are full-basis unitary",
+      "pass": true
+    },
+    {
+      "detail": "9 complete matrices across R=2,3,5",
+      "name": "frozen recorder matrices are full-basis unitary",
+      "pass": true
+    },
+    {
+      "detail": "K tensor K restriction includes 0/0, particle/particle, and coin sectors",
+      "name": "every recorder active block is unitary",
+      "pass": true
+    },
+    {
+      "detail": "establishes membership in the scoped closure class",
+      "name": "frozen recorder is exactly a q-transparent lift",
+      "pass": true
+    },
+    {
+      "detail": "270 extended input basis states",
+      "name": "formal source forgetting intertwines on the complete local basis",
+      "pass": true
+    },
+    {
+      "detail": "orthogonal |1_0>,|1_1> both map to |1>",
+      "name": "formal forgetting is not a physical isometry",
+      "pass": true
+    },
+    {
+      "detail": "all nine source basis inputs; only the extended gate stores k",
+      "name": "recorder-off source gate and blank-counter lift agree locally",
+      "pass": true
+    },
+    {
+      "detail": "12300 full encoded-basis/placement cases",
+      "name": "canonical and placed recorder patches are exactly natural",
+      "pass": true
+    },
+    {
+      "detail": "1080 all-placement full-basis cases",
+      "name": "held-out 6x5 recorder patch is exactly natural",
+      "pass": true
+    },
+    {
+      "detail": "5 terms",
+      "name": "patch naturality is linear on a mixed complex superposition",
+      "pass": true
+    },
+    {
+      "detail": "no counter-basis measurement or decoder is inserted",
+      "name": "counter-label superpositions satisfy the same naturality square",
+      "pass": true
+    },
+    {
+      "detail": "9x9 Fourier W on K tensor K, not the cyclic counter block",
+      "name": "an arbitrary dense active block has a unitary q-transparent lift",
+      "pass": true
+    },
+    {
+      "detail": "320 full-basis/placement cases",
+      "name": "arbitrary dense active block passes held-out patch naturality",
+      "pass": true
+    },
+    {
+      "detail": "48 E_mn composition cases",
+      "name": "canonical q-insertion encodings compose",
+      "pass": true
+    },
+    {
+      "detail": "local all-placement robustness is scoped below semigroup compatibility",
+      "name": "arbitrary placement is not automatically an encoding family",
+      "pass": true
+    },
+    {
+      "detail": "all pre-alias horizons on a nontrivial complex coin",
+      "name": "effective interactions advance the good counter exactly once",
+      "pass": true
+    },
+    {
+      "detail": "four patches through held-out 6x5",
+      "name": "q-insertion refinement does not advance the good counter",
+      "pass": true
+    },
+    {
+      "detail": "failure is naturality, not a malformed local map",
+      "name": "q-increment rival remains locally unitary",
+      "pass": true
+    },
+    {
+      "detail": "encoding-added q crossings change the record",
+      "name": "q-increment rival fails refinement naturality",
+      "pass": true
+    },
+    {
+      "detail": "beta-dependent offsets are rejected as refits",
+      "name": "q-increment rival needs a frame-dependent decoder",
+      "pass": true
+    },
+    {
+      "detail": "n and n+R have the same readout",
+      "name": "finite cyclic counter exhibits its first exact alias",
+      "pass": true
+    },
+    {
+      "detail": "T+1 count states versus 2^T binary histories",
+      "name": "exact count and independent-history resource bounds are distinct",
+      "pass": true
+    },
+    {
+      "detail": "actual |1_0,q> versus |1_0,0> Clock-QCA input",
+      "name": "one-gate cross-count record kills source interference",
+      "pass": true
+    },
+    {
+      "detail": "orthogonal record states carry complete which-history information",
+      "name": "cross-count witness has fidelity and trace distance one half",
+      "pass": true
+    },
+    {
+      "detail": "both coherent branches increment to the same counter state",
+      "name": "fixed-count sector preserves the physical source channel",
+      "pass": true
+    },
+    {
+      "detail": "the failure is coherence, not classical path probability",
+      "name": "cross-count dephasing preserves source-basis populations",
+      "pass": true
+    },
+    {
+      "detail": "actual 25x25 controlled-add unitary uses a second five-state register",
+      "name": "orthogonal counter labels can be copied with charged storage",
+      "pass": true
+    },
+    {
+      "detail": "controlled copy sends |+>|0> to a Bell-like state",
+      "name": "coherent counter state is entangled rather than cloned",
+      "pass": true
+    },
+    {
+      "detail": "logical redundancy improves basis-label loss tolerance but not capacity",
+      "name": "controlled copying does not repair cyclic aliasing",
+      "pass": true
+    },
+    {
+      "detail": "the counter is carried by the particle, not left in a free archive",
+      "name": "loss of the uncopied carrier removes the readout",
+      "pass": true
+    }
+  ],
+  "checks_passed": 31,
+  "checks_total": 31,
+  "claim_grade": "EXACT FINITE MATHEMATICAL CONSTRUCTION AND OBSTRUCTION / PHYSICAL IDENTIFICATION OPEN / NO CLAIM BANKED",
+  "closure_rows": [
+    {
+      "coin": "dirac_theta_0p37",
+      "counter_size": 2,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "hadamard",
+      "counter_size": 2,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "general_su2",
+      "counter_size": 2,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "dirac_theta_0p37",
+      "counter_size": 3,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "hadamard",
+      "counter_size": 3,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "general_su2",
+      "counter_size": 3,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "dirac_theta_0p37",
+      "counter_size": 5,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "hadamard",
+      "counter_size": 5,
+      "lift_reconstruction_error": 0.0
+    },
+    {
+      "coin": "general_su2",
+      "counter_size": 5,
+      "lift_reconstruction_error": 0.0
+    }
+  ],
+  "coin_rows": [
+    {
+      "digest": "57d3a3911487c0ebdcf587b322fdb30dec3c0e8680865982d20ac6048aa9abd3",
+      "name": "dirac_theta_0p37",
+      "unitarity_error": 0.0
+    },
+    {
+      "digest": "ef5e3c34223291c49de599a0ccb6a0dd354d348567e8a7f41d6e82c5d8645252",
+      "name": "hadamard",
+      "unitarity_error": 2.220446049250313e-16
+    },
+    {
+      "digest": "bc22eb0391b1e45cf275a8eb593ee4661a0cfb34aec19646c5844b0d2420efd2",
+      "name": "general_su2",
+      "unitarity_error": 2.220446049250313e-16
+    }
+  ],
+  "copy_and_loss_control": {
+    "basis_readout_survives_tracing_original_carrier": true,
+    "carrier_loss_with_copy_readout": "available from extra R-state register",
+    "carrier_loss_without_copy_readout": null,
+    "classical_orthogonal_label_copy_success": true,
+    "coherent_input": "(|0>+|1>)/sqrt(2)",
+    "controlled_add_digest": "1b2bf79121c8ffb48cd4f83d13b2dc9ef87dc6f595f2222ac2ad38fca72ddb5a",
+    "controlled_add_unitarity_error": 0.0,
+    "copied_alias_pair": {
+      "copy_a": [
+        1,
+        1
+      ],
+      "copy_b": [
+        1,
+        1
+      ],
+      "events_a": 1,
+      "events_b": 6,
+      "still_aliases": true
+    },
+    "copy_cost_dimension": 5,
+    "copy_output": "(|00>+|11>)/sqrt(2)",
+    "is_two_coherent_clones": false,
+    "reunion_status": "OPEN: this receipt tests logical copying and carrier loss only",
+    "spatial_transport_or_reunion_simulated": false,
+    "target_fidelity_to_coherent_plus": 0.49999999999999983,
+    "target_reduced_purity": 0.4999999999999998
+  },
+  "encoding_composition": {
+    "arbitrary_placement_local_square_can_pass": true,
+    "arbitrary_selector_composition_counterexample": {
+      "composed_E2_then_E2": [
+        0,
+        0,
+        0,
+        2
+      ],
+      "direct_E4": [
+        0,
+        2,
+        0,
+        0
+      ],
+      "rule": "place the active symbol at index 1 for every n>=2",
+      "same": false
+    },
+    "canonical_cases": 48,
+    "canonical_composition_pass": true,
+    "canonical_rule": "(tensor_n E_m) E_n = E_(mn) for E_n(x)=x q^(n-1)",
+    "scope": "All-placement tests are robustness tests of the local square; only a placement rule with its own composition law is a full Lorentz-transform encoding family."
+  },
+  "event_count": {
+    "alias_pair": {
+      "events_a": 1,
+      "events_b": 6,
+      "readout": 1
+    },
+    "pre_alias_exact": true,
+    "rows": [
+      {
+        "counter_readout": 0,
+        "events": 0,
+        "norm": 1.0,
+        "support_size": 1
+      },
+      {
+        "counter_readout": 1,
+        "events": 1,
+        "norm": 1.0,
+        "support_size": 2
+      },
+      {
+        "counter_readout": 2,
+        "events": 2,
+        "norm": 1.0000000000000002,
+        "support_size": 2
+      },
+      {
+        "counter_readout": 3,
+        "events": 3,
+        "norm": 1.0000000000000002,
+        "support_size": 2
+      },
+      {
+        "counter_readout": 4,
+        "events": 4,
+        "norm": 1.0000000000000002,
+        "support_size": 2
+      },
+      {
+        "counter_readout": 0,
+        "events": 5,
+        "norm": 1.0000000000000002,
+        "support_size": 2
+      },
+      {
+        "counter_readout": 1,
+        "events": 6,
+        "norm": 1.0000000000000004,
+        "support_size": 2
+      },
+      {
+        "counter_readout": 2,
+        "events": 7,
+        "norm": 1.0000000000000004,
+        "support_size": 2
+      }
+    ]
+  },
+  "formal_forgetting_rows": [
+    {
+      "basis_cases": 16,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 2,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 16,
+      "coin": "hadamard",
+      "counter_size": 2,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 16,
+      "coin": "general_su2",
+      "counter_size": 2,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 25,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 3,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 25,
+      "coin": "hadamard",
+      "counter_size": 3,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 25,
+      "coin": "general_su2",
+      "counter_size": 3,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 49,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 5,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 49,
+      "coin": "hadamard",
+      "counter_size": 5,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    },
+    {
+      "basis_cases": 49,
+      "coin": "general_su2",
+      "counter_size": 5,
+      "map_is_isometric": false,
+      "maximum_error": 0.0,
+      "nonisometry_witness": {
+        "forgotten_inner_product": 1,
+        "input_inner_product_1_0_vs_1_1": 0
+      },
+      "pass": true
+    }
+  ],
+  "hardening_id": "HC-DU-031B",
+  "held_out_naturality": {
+    "cases": 1080,
+    "coin": "general_su2",
+    "counter_size": 4,
+    "first_failure": null,
+    "maximum_error": 0.0,
+    "pass": true,
+    "patch": [
+      6,
+      5
+    ],
+    "placements": "all"
+  },
+  "linearity": {
+    "counter_superposition": {
+      "maximum_error": 0.0,
+      "pass": true,
+      "term_count": 2
+    },
+    "general_superposition": {
+      "maximum_error": 0.0,
+      "pass": true,
+      "term_count": 5
+    }
+  },
+  "local_unitarity_rows": [
+    {
+      "active_block_unitarity_error": 0.0,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 2,
+      "dimension": 4,
+      "full_matrix_dimension": 16,
+      "matrix_digest": "bde31324b8abefc7f9f08699e2ff4ba2109ad92faa5fdaf405a4a2758e7c1b89",
+      "unitarity_error": 0.0
+    },
+    {
+      "active_block_unitarity_error": 2.220446049250313e-16,
+      "coin": "hadamard",
+      "counter_size": 2,
+      "dimension": 4,
+      "full_matrix_dimension": 16,
+      "matrix_digest": "3614a7fa0f1d566094c8222306a3d9d397d71d5e24eee446e51a846f62802eeb",
+      "unitarity_error": 2.220446049250313e-16
+    },
+    {
+      "active_block_unitarity_error": 2.220446049250313e-16,
+      "coin": "general_su2",
+      "counter_size": 2,
+      "dimension": 4,
+      "full_matrix_dimension": 16,
+      "matrix_digest": "52bb60becd3867ce64b7ac4c6d401cb885526e3d9fe150d395241f50ac61f5f4",
+      "unitarity_error": 2.220446049250313e-16
+    },
+    {
+      "active_block_unitarity_error": 0.0,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 3,
+      "dimension": 5,
+      "full_matrix_dimension": 25,
+      "matrix_digest": "90a1942fd88e4ab1b4e2b6cf8b7e94e968a502e7977cf66f96aaf14caffa263f",
+      "unitarity_error": 0.0
+    },
+    {
+      "active_block_unitarity_error": 2.220446049250313e-16,
+      "coin": "hadamard",
+      "counter_size": 3,
+      "dimension": 5,
+      "full_matrix_dimension": 25,
+      "matrix_digest": "9bbafd678142207864ec5510ff45acdafc90836cf987797faddff80eea7927b4",
+      "unitarity_error": 2.220446049250313e-16
+    },
+    {
+      "active_block_unitarity_error": 2.220446049250313e-16,
+      "coin": "general_su2",
+      "counter_size": 3,
+      "dimension": 5,
+      "full_matrix_dimension": 25,
+      "matrix_digest": "808fd55909c369e0dbd23168d5d901d91a86c0c887566424befe9d5dd9f2ffac",
+      "unitarity_error": 2.220446049250313e-16
+    },
+    {
+      "active_block_unitarity_error": 0.0,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 5,
+      "dimension": 7,
+      "full_matrix_dimension": 49,
+      "matrix_digest": "5b3277456a30db7c656d24c75772688e71cb81243080156dacdf8db4a203f104",
+      "unitarity_error": 0.0
+    },
+    {
+      "active_block_unitarity_error": 2.220446049250313e-16,
+      "coin": "hadamard",
+      "counter_size": 5,
+      "dimension": 7,
+      "full_matrix_dimension": 49,
+      "matrix_digest": "9530b2067f2d8c4c1752d5af4608457e70c177fd4042daf41b9eba05d3914d97",
+      "unitarity_error": 2.220446049250313e-16
+    },
+    {
+      "active_block_unitarity_error": 2.220446049250313e-16,
+      "coin": "general_su2",
+      "counter_size": 5,
+      "dimension": 7,
+      "full_matrix_dimension": 49,
+      "matrix_digest": "3cba7aa7fa66152ed463834c56013cd38a6f920fd0ba68fd5d3999fdc7a0e38f",
+      "unitarity_error": 2.220446049250313e-16
+    }
+  ],
+  "naturality_training_rows": [
+    {
+      "cases": 1600,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 2,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "patches": "all alpha,beta in 1..4",
+      "placements": "all"
+    },
+    {
+      "cases": 1600,
+      "coin": "hadamard",
+      "counter_size": 2,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "patches": "all alpha,beta in 1..4",
+      "placements": "all"
+    },
+    {
+      "cases": 1600,
+      "coin": "general_su2",
+      "counter_size": 2,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "patches": "all alpha,beta in 1..4",
+      "placements": "all"
+    },
+    {
+      "cases": 2500,
+      "coin": "dirac_theta_0p37",
+      "counter_size": 3,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "patches": "all alpha,beta in 1..4",
+      "placements": "all"
+    },
+    {
+      "cases": 2500,
+      "coin": "hadamard",
+      "counter_size": 3,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "patches": "all alpha,beta in 1..4",
+      "placements": "all"
+    },
+    {
+      "cases": 2500,
+      "coin": "general_su2",
+      "counter_size": 3,
+      "first_failure": null,
+      "maximum_error": 0.0,
+      "pass": true,
+      "patches": "all alpha,beta in 1..4",
+      "placements": "all"
+    }
+  ],
+  "passive_recorder_obstruction": {
+    "cross_count_histories": [
+      "|1_0,q> (zero effective interactions)",
+      "|1_0,0> (one effective interaction)"
+    ],
+    "fidelity_with_ideal_pure_source_output": 0.49999999999999983,
+    "fixed_count_sector_trace_distance": 0.0,
+    "ideal_off_diagonal_magnitude": 0.4999999999999999,
+    "normalized_interference_visibility_after_trace": 0.0,
+    "normalized_interference_visibility_ideal": 0.9999999999999998,
+    "realized_inside_one_extended_clock_qca_scattering": true,
+    "record_states_orthogonal": true,
+    "retained_off_diagonal_magnitude": 0.0,
+    "source_basis_populations_preserved": true,
+    "theorem_scope": "If Tr_R[V rho V*]=U rho U* for every rho, purity of the unitary channel forces V|psi>=U|psi> tensor |r0>; an informative record therefore cannot be passive on all coherent source histories.",
+    "trace_distance_from_ideal_source_output": 0.4999999999999999
+  },
+  "probe": "du_covariant_recorder_naturality_probe",
+  "q_increment_rival": {
+    "direct_beta_1_counter_support": [
+      1
+    ],
+    "frame_readouts": {
+      "1": 1,
+      "2": 2,
+      "4": 4
+    },
+    "matrix_unitarity_error": 0.0,
+    "one_fixed_offset_exists": false,
+    "per_frame_decoder_offsets_to_report_one": {
+      "1": 0,
+      "2": 10,
+      "4": 8
+    },
+    "refined_beta_4_counter_support": [
+      4
+    ],
+    "refinement_naturality_defect": 1.0
+  },
+  "q_refinement_readouts": [
+    {
+      "alpha": 1,
+      "beta": 1,
+      "counter_support": [
+        1
+      ]
+    },
+    {
+      "alpha": 2,
+      "beta": 3,
+      "counter_support": [
+        1
+      ]
+    },
+    {
+      "alpha": 4,
+      "beta": 2,
+      "counter_support": [
+        1
+      ]
+    },
+    {
+      "alpha": 6,
+      "beta": 5,
+      "counter_support": [
+        1
+      ]
+    }
+  ],
+  "recorder_off_control": {
+    "complete_source_basis_cases": 9,
+    "maximum_forgotten_amplitude_error": 0.0,
+    "maximum_path_probability_error": 0.0,
+    "pass": true,
+    "recorder_off_object": "source 9x9 U_C",
+    "recorder_on_object": "extended U_(C,R), initialized at k=0",
+    "stored_readout_off": null,
+    "stored_readout_on_after_one_1_0_event": 1
+  },
+  "resource_bounds": [
+    {
+      "exact_count_minimum_dimension": 2,
+      "horizon_T": 1,
+      "independent_binary_history_minimum_dimension": 2
+    },
+    {
+      "exact_count_minimum_dimension": 3,
+      "horizon_T": 2,
+      "independent_binary_history_minimum_dimension": 4
+    },
+    {
+      "exact_count_minimum_dimension": 6,
+      "horizon_T": 5,
+      "independent_binary_history_minimum_dimension": 32
+    },
+    {
+      "exact_count_minimum_dimension": 9,
+      "horizon_T": 8,
+      "independent_binary_history_minimum_dimension": 256
+    },
+    {
+      "exact_count_minimum_dimension": 14,
+      "horizon_T": 13,
+      "independent_binary_history_minimum_dimension": 8192
+    }
+  ],
+  "scope_not_earned": [
+    "classical irreversible record",
+    "observer ownership or free archive",
+    "proper time or a dimensional time unit",
+    "continuum or higher-dimensional covariance",
+    "gravity, cosmology, Lambda, or a Dynamic Unity law",
+    "publication novelty beyond SEARCH-INCOMPLETE related-work audit"
+  ],
+  "source": {
+    "arxiv": "https://arxiv.org/abs/1404.4499",
+    "boundary_convention": "input alpha then beta; output beta then alpha, matching the planar rectangular-patch proof",
+    "citation": "Arrighi, Facchini, and Forets, Discrete Lorentz covariance for Quantum Walks and Quantum Cellular Automata",
+    "exact_tex_sha256": "121ccb1e66c5e408c4a659c66a9873e8d0544655e0a28ccd920e3f407ed1fdfb",
+    "pdf_sha256": "578c156f25fb9b2698bca5f6f27d43e7e1c09ee884a64f78e9f1e2515b0cebc4",
+    "tex_scope": "Clock QCA definition/covariance, lines 930-981"
+  },
+  "source_rows": [
+    {
+      "coin": "dirac_theta_0p37",
+      "digest": "549fa1198253be19d3c27a080bf154e9917f52252f42c2fce83903c93c31feec",
+      "unitarity_error": 0.0
+    },
+    {
+      "coin": "hadamard",
+      "digest": "22e52bbf44c14c92de08e9db3f1e97aa493c9a5dde35095b5cb920bf92c2b169",
+      "unitarity_error": 2.220446049250313e-16
+    },
+    {
+      "coin": "general_su2",
+      "digest": "aec39594c839b38fc9e51ae7eddb554c3d73efb756f81b9d6abd99083a3a4935",
+      "unitarity_error": 2.220446049250313e-16
+    }
+  ],
+  "theorem_results": {
+    "T1_local_unitarity": "PROVED_AND_EXHAUSTIVELY_CHECKED",
+    "T2_source_conservativity": "ALGEBRAICALLY_EXACT_ON_COMPLETE_LOCAL_BASIS; PHYSICALLY_EXACT_ON_FIXED_COUNT_SECTORS; FALSE_AS_ALL_HISTORY_REDUCED_CHANNEL_EQUALITY",
+    "T3_exact_recorder_naturality": "PROVED_FOR_CANONICAL_Q_INSERTION_FAMILY; ALL_PLACEMENTS_PASS_LOCAL_SQUARE",
+    "T4_event_count_correctness": "PROVED_ON_SINGLE_PARTICLE_VALID_SECTOR_BEFORE_ALIAS",
+    "T5_finite_resource_obstruction": "PROVED",
+    "T6_passive_recorder_obstruction": "PROVED_WITH_ONE_GATE_CLOCK_QCA_INTERFERENCE_WITNESS",
+    "closure_lifting_lemma": "For H=Cq direct-sum K, every unitary W on K tensor K inherits the q-insertion rectangular covariance square under the q-transparent lift."
+  },
+  "underlying_case_counts": {
+    "arbitrary_active_block_cases": 320,
+    "formal_forgetting_basis_cases": 270,
+    "full_local_unitarity_matrices": 9,
+    "held_out_recorder_cases": 1080,
+    "training_naturality_basis_placement_cases": 12300
+  },
+  "verdict": "COVARIANT_COUNTER_WITH_NECESSARY_BACKREACTION"
+}

@@ -311,8 +311,8 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-028` | P2 | hostile external review | `DU-H0`, `OPEN` | frozen packet to an independent cosmologist/mathematical physicist | `4.4` | TaF external-grade ceiling |
 | `HC-DU-029` | P2 | rotating counterfamily search | `DU-H0`, `OPEN` | held-out failure families, not more same-family examples | `4.4` | TI 12-class completion tournament |
 | `HC-DU-030` | P2 | durable failure/retirement map | `DU-H0`, `OPEN` | one ledger of dead, scoped-dead, class-exited and reopened branches | `A.1/A.3` | GU no-go map; CLTP `N/X/L/I` |
-| `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `SOURCE_CLOCK_QCA_MEMORY_NOT_ENTAILED__FINITE_RESOURCE_BOUNDS_EXACT__RECORDER_EXTENSION_OPEN` | `031A` source audit is complete: countdown/keep-going controls and raw microstep counts are not accumulated memory. `031B` appends the smallest exact recorder, declares its physical interface/group and archive boundary, and tests one fixed covariance/equivariance square under held-out encoding, boost, recorder-off, alias, archive, scheduler, and reunion controls | `1.5/2.2/2.4` | dual-clock and premise-free councils; Knuth-Bahrenyi; Arrighi-Facchini-Forets; operational record-capacity and automorphism theorems |
-| `HC-DU-032` | P1 | recursive operational viability and physical system individuation | `DU-H1`, `CONDITIONAL_CONTROL_CONSTRUCTED__SCALAR_DEPTH_NONIDENTIFIED__PHYSICAL_BOUNDARIES_OPEN` | after an `HC-DU-031B` recorder or `HC-DU-011A` causal-growth survivor exists, require essential variables, controller on/off effects, upward/downward maps, held-out advantage, boundary discovery, locality costs and flat/overlap/RG/replay/relay/alias rivals; infer a minimal interface-relative intervention cover rather than a raw depth | `1.5/2.2/2.4` | fourth and premise-free councils; Beer VSM; Ashby requisite variety; causal emergence and hierarchical-blanket comparators |
+| `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `FINITE_COVARIANT_COHERENT_COUNTER_CONSTRUCTED__COVARIANCE_NONSELECTIVE__PASSIVE_INFORMATIVE_RECORD_OBSTRUCTED` | `031A` source audit and `031B` construction are complete. The finite counter is a full-basis unitary and exactly natural under the canonical source encoding, but inert-`q` covariance admits every active-sector unitary and therefore selects no record law. `031C` couples one explicit finite archive/environment and tests record distinguishability against source interference visibility, carrier loss, reunion access, aliasing, resource scaling, and the same covariance square | `1.5/2.2/2.4` | dual-clock and premise-free councils; covariant-recorder naturalization swing; Knuth-Bahrenyi; Arrighi-Facchini-Forets; channel information-disturbance |
+| `HC-DU-032` | P1 | recursive operational viability and physical system individuation | `DU-H1`, `CONDITIONAL_CONTROL_CONSTRUCTED__SCALAR_DEPTH_NONIDENTIFIED__PHYSICAL_BOUNDARIES_OPEN` | apply only to an `HC-DU-031C` record-forming/archive survivor or an `HC-DU-011A` causal-growth survivor; require essential variables, controller on/off effects, upward/downward maps, held-out advantage, boundary discovery, locality costs and flat/overlap/RG/replay/relay/alias rivals; infer a minimal interface-relative intervention cover rather than a raw depth | `1.5/2.2/2.4` | fourth and premise-free councils; Beer VSM; Ashby requisite variety; causal emergence and hierarchical-blanket comparators |
 
 ## Existing models to reuse instead of rebuilding
 
@@ -569,14 +569,18 @@ work packages.
    built. Nonlocality escapes the local cone, but scale-free memory is an
    always-on/nonaccelerating tracker and the raw martingale fails early RMS,
    sign-persistence and de Sitter-stationarity controls.
-3. **Explicit record extension (`HC-DU-031B`).** `031A` establishes that the
-   published Clock-QW countdown and QCA keep-going controls do not entail
-   accumulated observer memory. Append the smallest exact finite recorder,
-   freeze its readout/intervention interface and archive boundary, and require
-   one fixed covariance/equivariance square under held-out encoding, boost,
-   recorder-off, alias, copied-relay, exported-wake, scheduler-tag, and reunion
-   controls. Stop if it counts only raw microsteps, refits a decoder per frame,
-   or treats growing support as free.
+3. **Record formation with backreaction (`HC-DU-031C`).** `031A` establishes
+   that the source controls do not entail accumulated memory. `031B`
+   constructs a finite coherent interaction counter and proves its exact
+   source-sense covariance, then shows that the inert-`q` covariance square
+   admits arbitrary active-sector unitaries and therefore does not select the
+   record law. An informative counter cannot preserve the complete coherent
+   source channel: cross-count record distinguishability suppresses the
+   matching interference. Couple one explicit finite archive/environment,
+   preserve the same covariance square, and measure that tradeoff under
+   recorder-off, alias, carrier-loss, copy/export, scheduler-tag and reunion
+   controls. Stop if the archive is only an external trace, its decoder is
+   refitted per frame, or its resource/export cost is hidden.
 4. **Lean post passport plus generativity census (`HC-DU-011A`).** Reproduce
    the known exact CSG post map in the physical projective sector and carry
    `[T_1,T_2,...]=[M^P t]`, not raw post depth, as its minimal predictive
@@ -868,6 +872,36 @@ held-out geometry as the North-Star dependencies. `HC-DU-032` remains an
 overlay only after either native object survives. No bridge among Clock QCA,
 causal posts and recursive viability is inferred.
 
+## Covariant recorder naturalization result
+
+`HC-DU-031B` executed the open build. Replacing the source particle with
+finite counter species produces a full-basis unitary that increments only at
+the source-effective particle/`0` coin, transports the counter unchanged
+through encoding-added `q`, and satisfies the canonical Clock-QCA covariance
+square for every finite counter size and every unitary source coin.
+
+The construction reveals a more general closure theorem. For a wire space
+`C|q> direct_sum K`, transparent `q` transport makes the same covariance
+square hold for an arbitrary unitary on `K tensor K`: the rectangular patch
+contains exactly one active-active crossing. Covariance therefore admits the
+counter but cannot select its dynamics.
+
+The formal quotient identifying all particle-counter labels recovers the
+source amplitudes. Physical discard is different. If two coherent histories
+leave distinguishable counter states, their source interference is multiplied
+by the counter-state overlap. More generally, an isometry whose reduced source
+is exactly the same unitary channel for every input must leave one fixed,
+uninformative recorder state. Informative record formation therefore requires
+backreaction/decoherence, a restricted fixed-count sector, or loss of
+readability.
+
+`HC-DU-031C` is the resulting reopener: an explicit source-sense-covariant
+archive/environment with measured record-distinguishability versus
+interference-visibility, export, carrier-loss, reunion, alias, and resource
+controls. The finite counter is a coherent interaction label, not yet a
+classical irreversible record, observer, proper time, higher-dimensional
+symmetry, gravity, or DU law.
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
@@ -898,4 +932,7 @@ causal posts and recursive viability is inferred.
   interface-identifiability bounds, identified `[M^P t]` as the exact
   standard-CSG predictive state, killed unrestricted finite-prefix
   certification, and opened one explicit recorder-extension build.
+- The covariant-recorder swing completed that build, found an
+  arbitrary-active-unitary covariance closure, and proved that a physically
+  informative record cannot remain passive on all coherent source histories.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

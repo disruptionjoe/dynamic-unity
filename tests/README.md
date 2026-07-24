@@ -216,3 +216,26 @@ establish a physical observer, unbounded memory, proper time, a dimensional
 unit, post recurrence, geometry, gravity, cosmology, `Lambda`, or DU identity.
 Passing checks establishes reproducibility of the declared arguments, not
 physical truth.
+
+## Covariant recorder naturalization probe
+
+`du_covariant_recorder_naturality_probe.py` executes the concentrated
+`HC-DU-031B` swing against the exact `1+1` Clock QCA. It constructs complete
+finite counter-extended scattering matrices, tests canonical and
+all-placement rectangular patches, and includes held-out patch, arbitrary
+active-unitary, algebraic-forgetting, recorder-off, alias, interference,
+copying, no-cloning, and carrier-loss controls.
+
+The artifact reports `31/31` deterministic checks. In the pinned environment,
+two successive runs produce the same SHA-256:
+
+```text
+42f74179477a8c9f6c1722c5da4e9d9bf54b1f23aa87325b8c766b5bfa41362d
+```
+
+The pass establishes an exact finite coherent counter, an inert-`q`
+covariance-closure result, and the declared one-gate backreaction witness. It
+does not turn the non-isometric algebraic quotient into physical forgetting,
+simulate spatial reunion, construct an irreversible archive, select a
+physical law, or establish an observer, proper time, continuum covariance,
+gravity, cosmology, or Dynamic Unity.

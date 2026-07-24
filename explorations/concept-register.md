@@ -377,6 +377,66 @@ free. No observer, proper time, dimensional `c`, gravity, cosmology, `Lambda`,
 or DU identity is inferred. See
 `science-council-five-persona-premise-free-foundational-wave-synthesis-2026-07-24.md`.
 
+### 2026-07-24 covariant-recorder naturalization swing
+
+`HC-DU-031B` constructed the finite recorder and also exposed why the
+construction is not yet a physical selection result.
+
+Write the wire space as
+
+```text
+H = C|q> direct_sum K.
+```
+
+If `q` passes transparently through every active state and an arbitrary
+unitary `W` acts on `K tensor K`, then the source encoding
+`E_n|x>=|x>|q>^(n-1)` makes the rectangular patch contain exactly one
+active-active crossing. Consequently the exact Clock-QCA covariance square
+holds for every such `W`, not only for the source coin. This inert-ancilla
+closure theorem makes the construction class large: source-sense covariance
+admits recorder laws but does not select one.
+
+The explicit survivor replaces `|1>` by
+`|1_0>,...,|1_(R-1)>`, transports the label unchanged through `q`, and
+increments it modulo `R` at each source-effective `1/0` scattering. It is a
+full-basis unitary for every unitary source coin, satisfies the canonical
+encoding family without frame-specific refits, and counts effective
+interactions rather than encoding-added microscopic gates. It aliases after
+`R` interactions and remains a coherent internal label rather than a
+classical irreversible archive.
+
+Two meanings of “forget the counter” separate:
+
+```text
+algebraic quotient:
+    identify every |1_k> with |1>
+    -> exactly recovers source paths and amplitudes
+
+physical discard/readout:
+    trace or measure distinguishable counter states
+    -> suppresses coherence between histories with different counts.
+```
+
+The latter is unavoidable. If an isometry leaves the reduced source equal to
+the same unitary channel for every input, purity and linearity force the
+recorder output to be one fixed state. An informative recorder must therefore
+backreact on cross-record coherences, be restricted to a fixed-count sector,
+or cease to be informative. For two record states the surviving source
+off-diagonal is multiplied by their overlap.
+
+**Current status:** **FINITE COVARIANT COHERENT COUNTER CONSTRUCTED /
+INERT-ANCILLA COVARIANCE NONSELECTIVE / PASSIVE INFORMATIVE RECORDER
+OBSTRUCTED / RECORD-FORMING BACKREACTION, ARCHIVE, AND CLASSICALIZATION
+OPEN.** The next bounded reopener is `HC-DU-031C`: couple the counter to one
+explicit finite archive/environment, close the same covariance square, and
+measure record distinguishability against source interference visibility,
+carrier loss, reunion access, and resource scaling. Additional DU structure
+must select the record law; covariance admission alone cannot. No observer,
+proper time, dimensional `c`, higher-dimensional or continuum symmetry,
+gravity, cosmology, `Lambda`, or DU identity is inferred. See
+`covariant-recorder-naturalization-swing-2026-07-24.md` and its adversarial
+audit.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize
@@ -448,8 +508,8 @@ physical map are separately supplied.
 **Status:** **CONCEPT-CONDITIONALLY-CONSTRUCTED-IN-EXACT-CONTROLS /
 RAW-SCALAR-DEPTH-NONIDENTIFIED / INTERVENTION-COVER-DISCOVERABLE /
 PHYSICAL-BOUNDARIES-AND-DYNAMICS-OPEN.** Treat the recursive-viability passport
-as an overlay on an `HC-DU-031B` recorder survivor and an `HC-DU-011A`
-causal-growth survivor, not as a third standalone
+as an overlay on an `HC-DU-031C` record-forming/archive survivor or an
+`HC-DU-011A` causal-growth survivor, not as a third standalone
 simulation program. Stop if a candidate observer or post-era boundary has no
 controller-ablation effect, downward consequence, held-out advantage, or
 resolution-stable intervention role. No claim is banked or seeded. See
