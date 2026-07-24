@@ -1,0 +1,857 @@
+{
+  "access_fixtures": {
+    "common_core_plus_complements": {
+      "observer_a": [
+        0,
+        0,
+        1,
+        2
+      ],
+      "observer_b": [
+        0,
+        1,
+        1,
+        2
+      ],
+      "pooled_coalition_meet": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "robust_common_class_count": 2,
+      "robust_common_join": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    "complementary_bits": {
+      "authorized_singletons_join": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "observer_a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observer_b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "pooled_class_count": 4,
+      "pooled_coalition_meet": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "robust_public_class_count": 1
+    },
+    "redundant_copies": {
+      "authorized_singletons_join": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "class_count": 2,
+      "observer_a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observer_b": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "pooled_coalition_meet": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "state_encoding": [
+      "00",
+      "01",
+      "10",
+      "11"
+    ],
+    "two_of_three_access": {
+      "authorized_coalitions": [
+        [
+          "A",
+          "B"
+        ],
+        [
+          "A",
+          "C"
+        ],
+        [
+          "B",
+          "C"
+        ]
+      ],
+      "class_count": 4,
+      "coalition_meets": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ],
+      "observer_a": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observer_b": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "observer_c": [
+        0,
+        1,
+        1,
+        0
+      ],
+      "robust_public_join": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  "banked": false,
+  "boundary_countermodels": {
+    "accessibility_gap": {
+      "combined_selected_accessible_quotient": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "observer_relation": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "selected_quotient": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "byzantine_split_view": {
+      "certificate_one": [
+        "byzantine",
+        "honest_b"
+      ],
+      "certificate_zero": [
+        "byzantine",
+        "honest_a"
+      ],
+      "conflicting_certificates_possible": true,
+      "fault_count": 1,
+      "honest_intersection": [],
+      "node_count": 3,
+      "quorum_size": 2
+    },
+    "correlated_quantum_access": {
+      "consequence": "For correlated or quantum fragments, specify the coalition channel directly rather than intersecting marginal kernels.",
+      "histories": [
+        "Phi_plus",
+        "Phi_minus"
+      ],
+      "joint_states_orthogonal": true,
+      "single_fragment_marginal_signature": [
+        [
+          1,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ],
+      "single_fragment_marginals_equal": true
+    },
+    "destructive_pooling": {
+      "abstract_kernel_intersection": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "first_then_second_kernel": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "second_then_first_kernel": [
+        0,
+        1,
+        0,
+        1
+      ],
+      "tuple_readout_physically_available": false
+    },
+    "held_out_five_state_case": {
+      "generator": [
+        1,
+        2,
+        0,
+        4,
+        3
+      ],
+      "quotient": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "process_congruence_failure": {
+      "automorphism": [
+        1,
+        0,
+        2
+      ],
+      "automorphism_holds": true,
+      "ill_defined_quotient_cells": {
+        "(0, 0)": [
+          0,
+          1
+        ]
+      },
+      "orbit_partition": [
+        0,
+        0,
+        1
+      ]
+    },
+    "readout_cadence": {
+      "one_step_preservation_quotient": [
+        0,
+        0
+      ],
+      "physical_flip": [
+        1,
+        0
+      ],
+      "two_step_preservation_map": [
+        0,
+        1
+      ],
+      "two_step_preservation_quotient": [
+        0,
+        1
+      ]
+    }
+  },
+  "check_summary": {
+    "all_passed": true,
+    "passed": 25,
+    "total": 25
+  },
+  "checks": [
+    {
+      "detail": {
+        "graph_cases": 1099,
+        "graph_partition_comparisons": 54253
+      },
+      "name": "all equality-constraint graphs through five states generate the least containing equivalence",
+      "passed": true
+    },
+    {
+      "detail": {
+        "negative": 2525,
+        "partition_pair_cases": 2959,
+        "positive": 434
+      },
+      "name": "every admissible finite record factors uniquely through its generated quotient",
+      "passed": true
+    },
+    {
+      "detail": {
+        "canonical_retraction_join_cases": 2959,
+        "map_record_partition_cases": 166484,
+        "self_maps": 3413
+      },
+      "name": "all self-maps through five states obey the generated-equivalence invariance criterion",
+      "passed": true
+    },
+    {
+      "detail": {
+        "lattice_comparisons": 144117,
+        "partition_pair_cases": 2959,
+        "product_kernel_cases": 2959
+      },
+      "name": "pooled observations use partition meet and robust common facts use partition join",
+      "passed": true
+    },
+    {
+      "detail": {
+        "fact_comparisons": 144117
+      },
+      "name": "selection and robust-access constraints combine by equivalence join",
+      "passed": true
+    },
+    {
+      "detail": {
+        "ordered_partition_triples": 144117
+      },
+      "name": "partition meet and join are associative through five states",
+      "passed": true
+    },
+    {
+      "detail": {
+        "invariant_binary_masks": [
+          0,
+          15
+        ],
+        "quotient": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "name": "full transitive symmetry leaves only a constant universal scalar quotient",
+      "passed": true
+    },
+    {
+      "detail": {
+        "quotient": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "stabilizer_order": 4
+      },
+      "name": "declared first-bit interface produces exactly its two-block quotient",
+      "passed": true
+    },
+    {
+      "detail": {
+        "quotient": [
+          0,
+          1,
+          1,
+          1
+        ]
+      },
+      "name": "asymmetric fixed-point plus three-cycle dynamics selects two durable classes",
+      "passed": true
+    },
+    {
+      "detail": {
+        "partial_merge": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "total_collapse": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "name": "permitted post-write evolution can merge or collapse record distinctions",
+      "passed": true
+    },
+    {
+      "detail": {
+        "copyable_binary_predicates": 16,
+        "full_symmetry_invariant_binary_predicates": 2
+      },
+      "name": "predicate-specific classical copyability does not select among predicates",
+      "passed": true
+    },
+    {
+      "detail": {
+        "equivariant_channel_classes": 4,
+        "invariant_scalar_classes": 1
+      },
+      "name": "an equivariant identity channel retains all states while invariant scalars are constant",
+      "passed": true
+    },
+    {
+      "detail": {
+        "pooled": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "robust_across_singletons": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "name": "complementary bits separate pooled evidence from singleton-robust public fact",
+      "passed": true
+    },
+    {
+      "detail": {
+        "pooled": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "robust": [
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "name": "redundant copies make pooled and robust quotients coincide",
+      "passed": true
+    },
+    {
+      "detail": {
+        "pooled": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "robust": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "name": "two complementary views can retain a nontrivial common deterministic core",
+      "passed": true
+    },
+    {
+      "detail": {
+        "authorized_pair_relations": [
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ],
+          [
+            0,
+            1,
+            2,
+            3
+          ]
+        ],
+        "robust_public": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "name": "two-of-three complementary access gives every authorized pair the full fact",
+      "passed": true
+    },
+    {
+      "detail": {
+        "harden_after_raw_pool": [
+          0,
+          0,
+          1
+        ],
+        "pool_after_local_hardening": [
+          0,
+          0,
+          0
+        ]
+      },
+      "name": "pooling raw fragments and local scalar hardening do not commute",
+      "passed": true
+    },
+    {
+      "detail": {
+        "one_step": [
+          0,
+          0
+        ],
+        "two_step": [
+          0,
+          1
+        ]
+      },
+      "name": "record quotient depends on the declared preservation cadence",
+      "passed": true
+    },
+    {
+      "detail": {
+        "accessible_selected": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "selected": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      "name": "the selected quotient can retain facts unavailable to the observer",
+      "passed": true
+    },
+    {
+      "detail": {
+        "ill_defined_quotient_cells": {
+          "(0, 0)": [
+            0,
+            1
+          ]
+        },
+        "orbit_partition": [
+          0,
+          0,
+          1
+        ]
+      },
+      "name": "a Set orbit quotient need not preserve binary process composition",
+      "passed": true
+    },
+    {
+      "detail": {
+        "abstract_pool": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "first_then_second": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "second_then_first": [
+          0,
+          1,
+          0,
+          1
+        ]
+      },
+      "name": "kernel intersection can overstate pooling when readouts disturb one specimen",
+      "passed": true
+    },
+    {
+      "detail": {
+        "both_single_fragment_marginals": [
+          [
+            1,
+            0
+          ],
+          [
+            0,
+            1
+          ]
+        ],
+        "joint_inner_product": 0
+      },
+      "name": "local quantum marginals need not determine collective distinguishability",
+      "passed": true
+    },
+    {
+      "detail": {
+        "certificate_one": [
+          "byzantine",
+          "honest_b"
+        ],
+        "certificate_zero": [
+          "byzantine",
+          "honest_a"
+        ],
+        "honest_intersection": []
+      },
+      "name": "common deterministic readability does not imply Byzantine quorum finality",
+      "passed": true
+    },
+    {
+      "detail": {
+        "quotient": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      },
+      "name": "held-out five-state generator produces the declared two-class quotient",
+      "passed": true
+    },
+    {
+      "detail": {
+        "distinct_nonconstant_binary_partitions": 3,
+        "finest_binary_candidates": [],
+        "universal_class_count": 3
+      },
+      "name": "a fixed two-label codomain need not contain a finest record for a three-class quotient",
+      "passed": true
+    }
+  ],
+  "exhaustive_access_lattice_enumeration": {
+    "combined_record_access_fact_comparisons": 144117,
+    "lattice_comparisons": 144117,
+    "ordered_partition_triples": 144117,
+    "partition_pair_cases": 2959,
+    "product_kernel_cases": 2959
+  },
+  "exhaustive_quotient_enumeration": {
+    "bell_numbers": {
+      "1": 1,
+      "2": 2,
+      "3": 5,
+      "4": 15,
+      "5": 52
+    },
+    "canonical_retraction_join_cases": 2959,
+    "factorization_negative_cases": 2525,
+    "factorization_positive_cases": 434,
+    "graph_cases": 1099,
+    "graph_partition_comparisons": 54253,
+    "map_record_partition_cases": 166484,
+    "quotient_record_pair_cases": 2959,
+    "self_map_cases": 3413
+  },
+  "fixed_codomain_counterexample": {
+    "correction": "The universal object is X/E. A finest record inside a fixed codomain Y is guaranteed only when Y can label every quotient class; uniqueness is then only up to relabeling.",
+    "fixed_binary_codomain": {
+      "distinct_nonconstant_record_partitions": 3,
+      "finest_record_exists": false
+    },
+    "state_count": 3,
+    "three_label_codomain": {
+      "factors_all_binary_records": true,
+      "injective_quotient_available": true
+    },
+    "universal_class_count": 3,
+    "universal_quotient": [
+      0,
+      1,
+      2
+    ]
+  },
+  "hardening_id": "HC-DU-033",
+  "hardening_order_fixture": {
+    "harden_after_raw_pool": [
+      0,
+      0,
+      1
+    ],
+    "interpretation": "Complementary raw fragments can jointly support an invariant fact that is destroyed when each fragment is forced through a fixed-label invariant scalar before pooling.",
+    "locally_hardened_relations": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ],
+    "observer_one_relation": [
+      0,
+      1,
+      0
+    ],
+    "observer_two_relation": [
+      0,
+      1,
+      1
+    ],
+    "pool_after_local_hardening": [
+      0,
+      0,
+      0
+    ],
+    "raw_pool_relation": [
+      0,
+      1,
+      2
+    ],
+    "scope": "standard nondistributivity of the three-state partition lattice; not a consensus, quantum, or physical finality theorem",
+    "selection_relation": [
+      0,
+      0,
+      1
+    ],
+    "state_count": 3,
+    "strict_nondistributive_inclusion": true
+  },
+  "method": "exact exhaustive finite partition/equivalence enumeration using only the Python standard library",
+  "run_id": "RUN-20260724-162458-hc-du-033-record-selection",
+  "schema_version": "1.0",
+  "scope": {
+    "access_type": "deterministic zero-error observer/coalition indistinguishability equivalences",
+    "not_established": [
+      "physical selection of symmetry, dynamics, readout cut, interface, access family, or observer",
+      "equivalence for noisy, probabilistic, nonorthogonal, or adversarial access",
+      "common knowledge or Byzantine public finality",
+      "irreversible classicality or a physical record ontology",
+      "continuum, relativistic, gravitational, cosmological, or Dynamic Unity identification"
+    ],
+    "record_type": "set-valued universal quotient and its fixed-label scalar postprocessings",
+    "state_sizes": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  },
+  "seeded": false,
+  "selection_fixtures": {
+    "asymmetric_dynamics": {
+      "class_count": 2,
+      "map": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "selection_quotient": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "copyability_null": {
+      "all_predicate_specific_copy_maps_bijective": true,
+      "binary_predicate_count": 16,
+      "full_symmetry_invariant_binary_masks": [
+        0,
+        15
+      ]
+    },
+    "declared_first_bit_interface": {
+      "class_count": 2,
+      "interface_partition": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "selection_quotient": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "stabilizer_order": 4
+    },
+    "durability_maps": {
+      "partial_merge_map": [
+        0,
+        0,
+        2,
+        2
+      ],
+      "partial_merge_quotient": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "total_collapse_map": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "total_collapse_quotient": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "equivariant_non_scalar_control": {
+      "channel": "identity X -> X with transported codomain action",
+      "equivariance_holds_for_all_permutations": true,
+      "invariant_scalar_class_count": 1,
+      "retained_class_count": 4
+    },
+    "full_symmetry": {
+      "class_count": 1,
+      "group_order": 24,
+      "selection_quotient": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    "state_count": 4
+  },
+  "terminal_disposition": "FINITE_RECORD_ACCESS_QUOTIENT_EXACT / SCALAR_CODOMAIN_CAVEAT_EXPOSED / PHYSICAL_INTERFACE_AND_PUBLIC_FINALITY_OPEN",
+  "theorems": {
+    "access_meet_join": {
+      "grade": "EXACT FINITE PARTITION-LATTICE / COMMON-PART SPECIALIZATION",
+      "statement": "Pooling a coalition intersects observer kernels; the finest fixed-label fact recoverable by every authorized coalition is the quotient by the join of coalition meets."
+    },
+    "record_access_factorization": {
+      "grade": "EXACT FINITE SYNTHESIS / CLAIM-SPECIFIC NOVELTY SEARCH-INCOMPLETE",
+      "statement": "The finest fact satisfying both selection constraints and every authorized coalition's recoverability constraints is the quotient by the join of the selection and robust-access equivalences."
+    },
+    "selection_coequalizer": {
+      "grade": "EXACT FINITE SET THEOREM / STANDARD COEQUALIZER SPECIALIZATION",
+      "nontrivial_iff": "the generated equality graph has more than one connected component",
+      "statement": "The quotient by the least equivalence generated by x~g(x) and x~k(x) is universal among maps invariant under every declared g and durable under every declared k."
+    }
+  }
+}

@@ -968,6 +968,57 @@ to `HC-DU-011A`; this branch reopens only with an independently motivated
 autonomous archive-emission/interface law or a bounded interface-relative
 `HC-DU-032` intervention assay.
 
+## Certified Causal Reality finite record/access quotient
+
+The post-recharter `HC-DU-033A` swing closes the finite classical consequence
+of supplied selection and deterministic access constraints.
+
+For finite \(X\), let \(E_{\mathrm{sel}}\) be the least equivalence generated
+by declared symmetry maps and permitted post-write maps. Then
+\(X/E_{\mathrm{sel}}\) is the universal Set-valued invariant/durable quotient:
+every admissible map factors uniquely through it. A fixed small scalar
+codomain need not contain a unique finest representative; three unconstrained
+states and two labels already give three incomparable nonconstant binary
+records.
+
+For a physically available nondisturbing classical coalition tuple, pooled
+access intersects observer kernels. A fixed-label fact recoverable from every
+authorized coalition factors through the quotient by the join of coalition
+kernels. Selection and access combine by joining their relations. Call the
+result a **coalition-common deterministic factor**, not a public fact:
+common knowledge, authentication, locking, fault bounds, provenance,
+incompatibility and action semantics are absent.
+
+The strongest architecture control is the strict partition-lattice inequality
+
+```text
+selection join (fragment-1 meet fragment-2)
+    refines
+(selection join fragment-1) meet (selection join fragment-2).
+```
+
+On three states, pooling complementary raw fragments before hardening retains
+two classes while hardening each fixed-label scalar first leaves only a
+constant. This is standard nondistributivity, not a new physical law. It
+requires the next `HC-DU-035A` build to compare provenance-preserving
+coalition composition with local-first scalar hardening.
+
+The exact probe passes `25/25` checks, including exhaustive partitions through
+five states and cadence, structured-composition, destructive-read,
+correlated-quantum-marginal and Byzantine split-view countermodels. The
+artifact SHA-256 is
+`173c4f64e80178609791ecb540cd47859df70ceafae6eaef6b01373a04ba77c5`.
+
+Disposition:
+
+```text
+HC-DU-033A FINITE RECORD/ACCESS QUOTIENT EXACT
+KNOWN MATHEMATICS / DU-SPECIFIC SPECIALIZATION
+PHYSICAL RECORD FORMATION AND INTERFACE SELECTION OPEN
+DIRECT ADVERSARIAL/QUANTUM COALITION CHANNELS AND PUBLIC FINALITY OPEN
+NO CLAIM BANKED OR SEEDED
+```
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
@@ -1006,4 +1057,8 @@ autonomous archive-emission/interface law or a bounded interface-relative
   charged finite recurrence/support, and returned
   `COVARIANT_FINITE_ARCHIVE_WITH_EXACT_COMPLEMENTARITY /
   INTERFACE_ONLY_ARCHIVE`.
+- The `HC-DU-033A` swing then passed `25/25` exact finite checks, closed the
+  supplied classical selection/access quotient, corrected the scalar-codomain
+  and public-fact overclaims, and exposed the local-first versus joint-first
+  hardening-order control while leaving physical selection and finality open.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

@@ -303,3 +303,37 @@ boundary-relocation witness. It does not select the pointer basis, archive
 coupling, blank support, reunion, or record law; construct classical
 irreversibility; or establish an observer, proper time, continuum covariance,
 gravity, cosmology, or Dynamic Unity.
+
+## HC-DU-033A finite record-selection and access quotient
+
+`du_record_selection_quotient_probe.py` executes the finite classical
+selection/access baseline for Certified Causal Reality.
+
+It exhaustively checks:
+
+- all partitions through five states (`1, 2, 5, 15, 52`);
+- equality-constraint generation and both directions of unique quotient
+  factorization;
+- every self-map through five states against the generated-equivalence
+  criterion;
+- partition meet/join universal properties and associativity;
+- selection/access constraint composition;
+- full-symmetry, declared-interface, copyability, equivariant-channel,
+  durability and coalition-access fixtures;
+- the strict local-hardening-versus-joint-hardening ordering control; and
+- cadence, inaccessible-selection, noncongruent Set quotient, destructive
+  pooling, Bell-marginal, Byzantine split-view, held-out, and fixed-codomain
+  countermodels.
+
+The artifact reports `25/25` named checks. In the pinned environment, two
+successive runs produce the same SHA-256:
+
+```text
+173c4f64e80178609791ecb540cd47859df70ceafae6eaef6b01373a04ba77c5
+```
+
+Passing establishes the exact finite Set/partition specializations under
+supplied constraints. It does not form a record, select the physical
+symmetry/interface/cadence/observer, establish a structured process quotient,
+make marginal-kernel pooling valid for destructive or quantum channels, prove
+common knowledge or Byzantine finality, or derive quantum classicality.

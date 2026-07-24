@@ -611,12 +611,24 @@ resolution-stable intervention role. No claim is banked or seeded. See
      fixtures; and
   8. explicit physical-remainder countermodels sharing the candidate record
      quotient.
+- **Earned finite baseline.** `HC-DU-033A` proves that, after a finite
+  classical readout cut, symmetry/post-write maps, and deterministic
+  coalition channels have been independently supplied, the canonical
+  surviving record/access fact is the quotient by the join of the
+  corresponding equivalence constraints. It also gives a strict three-state
+  control in which pooling complementary raw fragments before hardening
+  retains a nontrivial invariant fact while locally hardening first destroys
+  it. These are exact Set/partition specializations of known mathematics.
+  They classify supplied constraints; they do not select a physical record
+  interface or establish public finality.
 - **Immediate tests.**
-  1. `HC-DU-033`: enumerate the smallest nontrivial equivariant record
-     instruments and determine the minimal structure selecting a nonconstant
-     record algebra.
-  2. `HC-DU-035`: derive a finite Quorum Objectivity bound and converse
-     split-view construction, then test a nonorthogonal quantum record model.
+  1. `HC-DU-035A`: define direct coalition channels and provenance, derive
+     the classical quorum bound and converse split view, and compare local
+     scalar hardening with provenance-preserving joint hardening on
+     distributed and correlated/nonorthogonal quantum controls.
+  2. Parent `HC-DU-033`: justify physical record formation, cadence,
+     interface, equivariant/noncommutative algebra, and structured-process
+     congruence rather than enumerating more bare finite partitions.
   3. `HC-DU-034/036`: construct equal-endpoint multi-time rivals and prove
      factorization or find the smallest separating intervention.
 - **Central failure modes.** Primitive circularity, sufficiency tautology,
@@ -624,12 +636,13 @@ resolution-stable intervention role. No claim is banked or seeded. See
   redundancy substitution, hidden resource export, covariance overclaim,
   causal-order prior-art relabeling, and metaphysical or toy-to-universe
   inflation.
-- **Status:** **CENTRAL CONCEPT OPEN / THREE ONTOLOGY OUTCOMES LIVE / EXACT
-  FINITE RECORD-AND-ARCHIVE ANTECEDENTS RETAINED / RECORD SELECTION,
-  CERTIFICATION, PUBLIC FINALITY, INTERVENTIONAL SUFFICIENCY, GEOMETRY AND
-  PHYSICAL RECOVERY OPEN.** The 2026-07-24 recharter promotes the *question and
-  dependency structure*, not a scientific answer. `CONCEPT-DU-002` and
-  `CONCEPT-DU-003` become major inputs; their grades do not change.
+- **Status:** **CENTRAL CONCEPT OPEN / THREE ONTOLOGY OUTCOMES LIVE /
+  HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT / PHYSICAL RECORD
+  FORMATION AND INTERFACE SELECTION, CERTIFICATION, PUBLIC FINALITY,
+  INTERVENTIONAL SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY OPEN.** The
+  exact quotient is a baseline, not a scientific answer to record
+  fundamentality. `CONCEPT-DU-002` and `CONCEPT-DU-003` remain major inputs;
+  their grades do not change.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
