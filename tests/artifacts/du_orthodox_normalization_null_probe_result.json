@@ -1,0 +1,348 @@
+{
+  "checks": [
+    {
+      "name": "quadratic modal squares exactly reconstruct action dissipation",
+      "pass": true
+    },
+    {
+      "name": "simultaneous O(3) similarity preserves the quadratic modal receipt",
+      "pass": true
+    },
+    {
+      "name": "a unique slow quadratic mode gives a point residue while raw dissipation vanishes",
+      "pass": true
+    },
+    {
+      "name": "the exact zero-dissipation quadratic endpoint remains undefined",
+      "pass": true
+    },
+    {
+      "name": "a degenerate slow subspace leaves an initial-condition-dependent residue",
+      "pass": true
+    },
+    {
+      "name": "identical replication gives the generic normalization signature",
+      "pass": true
+    }
+  ],
+  "contested_finding": "The live-object receipts materially support CONCEPT-DU-001, rather than only constructing concept-compatible formalization components.",
+  "degenerate_slow_subspace": {
+    "initial_condition_a": {
+      "action": 3.166041387273544e-14,
+      "dissipation_identity_error": 0.0,
+      "exact_negative_action_derivative": 6.332082774547088e-14,
+      "gradient_eigenvalues": [
+        1.1253517471925912e-07,
+        2.2507034943851823e-07,
+        6.415243562194552e-28
+      ],
+      "metrics": {
+        "entropy": 0.5004024235381879,
+        "lambda_participation": 0.8246211251235323,
+        "lambda_shannon": 0.7786440949523468,
+        "max_share": 0.8,
+        "native_gini": 0.5333333333333337
+      },
+      "normalized_profile": [
+        0.8,
+        0.2,
+        6.499496520751396e-42
+      ],
+      "rates": [
+        1.0,
+        1.0,
+        4.0
+      ],
+      "squared_modal_contributions": [
+        1.2664165549094176e-14,
+        5.06566621963767e-14,
+        4.1155349962278644e-55
+      ],
+      "state_eigenvalues": [
+        1.1253517471925912e-07,
+        2.2507034943851823e-07,
+        1.603810890548638e-28
+      ],
+      "time": 16.0,
+      "total_dissipation": 6.332082774547088e-14
+    },
+    "initial_condition_b": {
+      "action": 6.332082774547087e-14,
+      "dissipation_identity_error": 0.0,
+      "exact_negative_action_derivative": 1.2664165549094173e-13,
+      "gradient_eigenvalues": [
+        1.1253517471925912e-07,
+        3.3760552415777734e-07,
+        6.415243562194552e-28
+      ],
+      "metrics": {
+        "entropy": 0.3250829733914483,
+        "lambda_participation": 0.9055385138137416,
+        "lambda_shannon": 0.8499808265979931,
+        "max_share": 0.8999999999999999,
+        "native_gini": 0.6000000000000001
+      },
+      "normalized_profile": [
+        0.9000000000000001,
+        0.10000000000000002,
+        3.2497482603756985e-42
+      ],
+      "rates": [
+        1.0,
+        1.0,
+        4.0
+      ],
+      "squared_modal_contributions": [
+        1.2664165549094176e-14,
+        1.1397748994184757e-13,
+        4.1155349962278644e-55
+      ],
+      "state_eigenvalues": [
+        1.1253517471925912e-07,
+        3.3760552415777734e-07,
+        1.603810890548638e-28
+      ],
+      "time": 16.0,
+      "total_dissipation": 1.2664165549094173e-13
+    },
+    "interpretation": "Without a simple slow rate, the residue is not universal; it retains initial-condition information inside the slow subspace.",
+    "profile_max_difference": 0.10000000000000009
+  },
+  "exact_stationary": {
+    "action": 0.0,
+    "dissipation_identity_error": 0.0,
+    "exact_negative_action_derivative": 0.0,
+    "gradient_eigenvalues": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": null,
+    "normalized_profile": null,
+    "rates": [
+      1.0,
+      2.0,
+      4.0
+    ],
+    "squared_modal_contributions": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "state_eigenvalues": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "time": 0.0,
+    "total_dissipation": 0.0
+  },
+  "null_model": {
+    "action": "S(X;A)=1/2 Tr(X A X A)",
+    "declared_absences": [
+      "higher-order influence-redistribution mechanism",
+      "record-growth law",
+      "functional selector",
+      "unit-bearing map to a physical observable",
+      "cosmological Lambda identification"
+    ],
+    "flow": "dot X=-A X A",
+    "gradient": "E=A X A"
+  },
+  "numpy_version": "2.5.1",
+  "orthogonal_invariance": {
+    "determinant": -0.9999999999999998,
+    "dissipation_error": 5.551115123125783e-17,
+    "modal_contribution_max_error": 6.938893903907228e-17,
+    "orthogonality_error": 2.4903830764878435e-16
+  },
+  "probe": "du_orthodox_normalization_null_probe",
+  "replication": {
+    "base_dissipation": 7.0,
+    "base_profile": [
+      0.5,
+      0.3,
+      0.2
+    ],
+    "native_gini_spread": 4.440892098500626e-16,
+    "rows": [
+      {
+        "block_count": 1,
+        "entropy": 1.0296530140645737,
+        "lambda_participation": 0.6164414002968976,
+        "lambda_shannon": 0.5976042657624554,
+        "max_share": 0.5,
+        "native_gini": 0.19999999999999996,
+        "raw_total_dissipation": 7.0
+      },
+      {
+        "block_count": 2,
+        "entropy": 1.7228001946245186,
+        "lambda_participation": 0.43588989435406733,
+        "lambda_shannon": 0.42257002878664,
+        "max_share": 0.25,
+        "native_gini": 0.19999999999999973,
+        "raw_total_dissipation": 14.0
+      },
+      {
+        "block_count": 4,
+        "entropy": 2.415947375184464,
+        "lambda_participation": 0.3082207001484488,
+        "lambda_shannon": 0.29880213288122776,
+        "max_share": 0.125,
+        "native_gini": 0.19999999999999996,
+        "raw_total_dissipation": 28.0
+      },
+      {
+        "block_count": 8,
+        "entropy": 3.1090945557444094,
+        "lambda_participation": 0.21794494717703367,
+        "lambda_shannon": 0.21128501439331998,
+        "max_share": 0.0625,
+        "native_gini": 0.19999999999999973,
+        "raw_total_dissipation": 56.0
+      },
+      {
+        "block_count": 16,
+        "entropy": 3.802241736304355,
+        "lambda_participation": 0.1541103500742244,
+        "lambda_shannon": 0.14940106644061385,
+        "max_share": 0.03125,
+        "native_gini": 0.19999999999999996,
+        "raw_total_dissipation": 112.0
+      },
+      {
+        "block_count": 32,
+        "entropy": 4.4953889168643,
+        "lambda_participation": 0.10897247358851683,
+        "lambda_shannon": 0.10564250719665999,
+        "max_share": 0.015625,
+        "native_gini": 0.19999999999999973,
+        "raw_total_dissipation": 224.0
+      },
+      {
+        "block_count": 64,
+        "entropy": 5.188536097424246,
+        "lambda_participation": 0.0770551750371122,
+        "lambda_shannon": 0.07470053322030692,
+        "max_share": 0.0078125,
+        "native_gini": 0.19999999999999996,
+        "raw_total_dissipation": 448.0
+      },
+      {
+        "block_count": 128,
+        "entropy": 5.881683277984189,
+        "lambda_participation": 0.05448623679425841,
+        "lambda_shannon": 0.05282125359833004,
+        "max_share": 0.00390625,
+        "native_gini": 0.19999999999999973,
+        "raw_total_dissipation": 896.0
+      },
+      {
+        "block_count": 256,
+        "entropy": 6.574830458544136,
+        "lambda_participation": 0.03852758751855608,
+        "lambda_shannon": 0.037350266610153456,
+        "max_share": 0.001953125,
+        "native_gini": 0.20000000000000018,
+        "raw_total_dissipation": 1792.0
+      }
+    ],
+    "slopes": {
+      "lambda_participation": -0.5,
+      "lambda_shannon": -0.5,
+      "max_share": -0.9999999999999998,
+      "native_gini": 4.485694333939507e-17,
+      "raw_total_dissipation": 0.9999999999999998
+    }
+  },
+  "result": {
+    "passed": 6,
+    "scientific_reading": "The replication exponents are a normalization theorem, and a point-like terminal residue occurs in an ordinary quadratic relaxation. These facts uphold the no-scale conclusion and preserve diagnostic uses, but are not discriminating evidence for the full CONCEPT-DU-001 invariant.",
+    "total": 6,
+    "verdict": "NULL_REPRODUCES_SIGNATURE / CONCEPT_GRADE_NARROWED / DIAGNOSTIC_USE_PRESERVED"
+  },
+  "seed": 20260724,
+  "unique_slow_mode": {
+    "initial": {
+      "action": 3.5,
+      "dissipation_identity_error": 0.0,
+      "exact_negative_action_derivative": 21.0,
+      "gradient_eigenvalues": [
+        1.0,
+        2.0,
+        4.0
+      ],
+      "metrics": {
+        "entropy": 0.6680178186607535,
+        "lambda_participation": 0.7867957924694431,
+        "lambda_shannon": 0.7160474026959138,
+        "max_share": 0.7619047619047619,
+        "native_gini": 0.47619047619047605
+      },
+      "normalized_profile": [
+        0.7619047619047619,
+        0.19047619047619047,
+        0.047619047619047616
+      ],
+      "rates": [
+        1.0,
+        2.0,
+        4.0
+      ],
+      "squared_modal_contributions": [
+        1.0,
+        4.0,
+        16.0
+      ],
+      "state_eigenvalues": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "time": 0.0,
+      "total_dissipation": 21.0
+    },
+    "interpretation": "The point residue is a generic spectral-relaxation effect. It can diagnose a slow mode, but does not by itself evidence the Dynamic Unity influence concept.",
+    "terminal": {
+      "action": 6.332082774547248e-15,
+      "dissipation_identity_error": 0.0,
+      "exact_negative_action_derivative": 1.2664165549094818e-14,
+      "gradient_eigenvalues": [
+        1.1253517471925912e-07,
+        2.532833109818835e-14,
+        6.415243562194552e-28
+      ],
+      "metrics": {
+        "entropy": 1.6014143150508921e-12,
+        "lambda_participation": 0.9999999999999494,
+        "lambda_shannon": 0.9999999999991993,
+        "max_share": 0.9999999999999494,
+        "native_gini": 0.666666666666633
+      },
+      "normalized_profile": [
+        0.9999999999999493,
+        5.065666219637413e-14,
+        3.2497482603755333e-41
+      ],
+      "rates": [
+        1.0,
+        2.0,
+        4.0
+      ],
+      "squared_modal_contributions": [
+        1.2664165549094176e-14,
+        6.415243562194551e-28,
+        4.1155349962278644e-55
+      ],
+      "state_eigenvalues": [
+        1.1253517471925912e-07,
+        1.2664165549094176e-14,
+        1.603810890548638e-28
+      ],
+      "time": 16.0,
+      "total_dissipation": 1.2664165549094818e-14
+    },
+    "terminal_over_initial_dissipation": 6.030555023378485e-16
+  }
+}

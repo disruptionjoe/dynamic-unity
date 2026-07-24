@@ -63,3 +63,23 @@ incomparable-profile pair means the required physical embedding, matched
 carrier, and independent response law are absent. The reported check counts
 establish deterministic execution only; they do not select a concentration
 functional, identify a unit-bearing physical scale, or promote a claim.
+
+## Five-persona council contested-finding probes
+
+The five-persona next-actions council adds three bounded executable swings:
+
+- `du_orthodox_normalization_null_probe.py` shows that an ordinary quadratic
+  relaxation reproduces the point-like zero-activity residue and exact
+  replication exponents without a higher-order influence mechanism.
+- `du_heterodox_driven_bianconi_probe.py` shows that open anisotropic driving
+  can sustain work-balanced Bianconi dissipation while making the imported
+  drive cadence and unselected mobility explicit.
+- `du_wild_frontier_fisher_csg_scale_bridge_probe.py` constructs a finite
+  transition-Fisher/count-scale skeleton and then kills direct
+  cardinality-running feedback because statewise relabeling invariance does not
+  ensure equal path weight across natural labelings.
+
+The commercial-scientist and philosopher-of-science contested swings are
+analytic dependency, dimensional-analysis, and inferential-separability
+arguments recorded in their persona memos. None of the five results is a vote,
+claim promotion, bank decision, or prediction seed.

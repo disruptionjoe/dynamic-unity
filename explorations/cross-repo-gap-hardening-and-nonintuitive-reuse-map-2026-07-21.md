@@ -251,7 +251,7 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-008` | P0 | evidence-dependency and common-source audit | `DU-H0`, `OPEN` | DAG every support edge; collapse common ancestors before counting consilience | `4.4/A.1` | TaF/P2C provenance rules |
 | `HC-DU-009` | P0 | clean-checkout reproducibility | `DU-H2`, `OPEN` | second implementation from equations only; compare frozen JSON | `4.4/A.2` | CL blinding discipline |
 | `HC-DU-010` | P0 | minimum theory passport and low-energy recovery | `DU-H0`, `OPEN` | state space, action, symmetries, constraints, observables, quantization, GR/SM limits | `1.5` | P2C eight-gate/source-action rubrics |
-| `HC-DU-011` | P0 | causal-set classical growth law | `DU-H1`, `NEXT_FRONTIER_COUPLED` | build the order-first causal scale generator: label-invariant growth, past-cardinality, geometry recovery and a return arrow | `1.5/2.2/2.4` | CMF-01; TaF T526; TI RUN-0177 |
+| `HC-DU-011` | P0 | causal-set classical growth law | `DU-H1`, `NEXT_FRONTIER_PROGRAM__FIRST_BUILD_HC-DU-011A` | freeze the full covariance passport and exact small-unlabeled-causet harness: statewise isomorphism plus equal path weight across natural labelings, normalization, spectator/Bell behavior, past immutability and physical-record versus gauge bookkeeping | `1.5/2.2/2.4` | CMF-01; five-persona council; TaF T526; TI RUN-0177 |
 | `HC-DU-012` | P1 | quantum-measure/decoherence completion | `DU-H0`, `OPEN` | explicit decoherence functional and grade-2 additivity tests | `1.5` | TI record/Born no-go |
 | `HC-DU-013` | P1 | AQFT/locality embedding | `DU-H0`, `OPEN` | net isotony, locality, covariance and state-positive checks on one nontrivial region family | `1.5` | TaF finite restriction systems |
 | `HC-DU-014` | P1 | source-internal mint / self-authoring loop | `DU-H1`, `ACTIVE_OTHER` | do not duplicate; next build must feed issued records back into the law | `1.1/1.2/2.4` | DU `946dbc3`; TI D-FORK |
@@ -262,7 +262,7 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-019` | P1 | operational finality observable | `DU-H1`, `OPEN` | source-owned Hamiltonian, locality-of-update, effect size and detector contract | `4.1/4.3` | TaF T583-T587 |
 | `HC-DU-020` | P1 | Born weights and single outcome | `DU-H1`, `OPEN` | explicit rival-separated probability rule; record stability alone is barred | `1.5/4.1` | TI RUN-0072/0073 |
 | `HC-DU-021` | P1 | covariant finality/AQFT bridge | `DU-H1`, `OPEN` | build the net embedding; do not infer becoming from causal-order covariance | `1.5/4.3` | DU covariant-finality synthesis |
-| `HC-DU-022` | P0 | genuine dimensional transmutation | `DU-H0`, `NEXT_FRONTIER_COUPLED` | source the retarded memory scale through a beta function/spectral gap before cosmological calibration; no `m~H0` insertion | `1.3/2.4` | CMF-01; spectral-flow kill at `946dbc3`; RR comparator |
+| `HC-DU-022` | P0 | genuine dimensional transmutation | `DU-H0`, `NEXT_FRONTIER_PROGRAM__STAGE_2_AFTER_011A` | after full path covariance, test only covariant-landmark renormalization and physical coupling-record routes for a regulator-stable hierarchy relative to one declared microscopic unit; no direct `p(N)`, `m~H0`, target epoch or inserted window | `1.3/2.4` | CMF-01; five-persona council; wild-frontier count-running kill; spectral-flow kill at `946dbc3`; RR comparator |
 | `HC-DU-023` | P1 | sign bit `sigma` | `DU-H2`, `PARTIAL_MARTINGALE_SIGN_FAILS_PERSISTENCE` | the centered causal martingale makes a sign but stays positive from z=2 only 2.36%; source persistence without `abs(S)` or seed selection | `1.3/1.5/2.2` | CMF-01; GU signed-readout theorem |
 | `HC-DU-024` | P1 | non-circular open-endedness | `DU-H0`, `OPEN` | novelty measure invariant to renaming/completion and tied to a resource ledger | `2.4` | TI D-FORK; P2C boundary discriminator |
 | `HC-DU-025` | P2 | persona/agent method calibration | `DU-H0`, `OPEN` | blinded comparison against non-persona baselines and leakage controls | `3.x/A.3` | P2C decisive-test incidents |
@@ -527,20 +527,28 @@ work packages.
    built. Nonlocality escapes the local cone, but scale-free memory is an
    always-on/nonaccelerating tracker and the raw martingale fails early RMS,
    sign-persistence and de Sitter-stationarity controls.
-3. **Order-first causal scale generator (`HC-DU-011 + HC-DU-022`).** Build a
-   label-invariant causet growth/action law whose past-cardinality feeds back,
-   reconstructs geometry and endogenously generates the dimensional memory
-   scale. This is the next major swing; a supplied FLRW metric is calibration.
-4. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
+3. **`HC-DU-011A` full covariance passport and small-causet harness.** This is
+   the first build in the next major program. Distinguish statewise relabeling
+   equivariance from equal path weight across every natural labeling; test
+   normalization, spectator/Bell behavior, past immutability and whether
+   coupling updates are physical records or gauge bookkeeping. Direct
+   cardinality-running transitive percolation is now a killed control.
+4. **Two-route feedback/transmutation assay (`HC-DU-011 + HC-DU-022`).** Only
+   after `HC-DU-011A` passes, test (a) effective coupling renormalization at
+   covariant order landmarks and (b) coupling updates written as physical
+   causal records. Seek a regulator-stable hierarchy relative to one declared
+   microscopic unit; dimensionless order does not create physical units ex
+   nihilo. No third family before these receive distinct dispositions.
+5. **Complete the typed-`N` diagram (`HC-DU-007`).** CMF-01 supplies the
    executable counterexamples; extend them across algebraic, observer, durable-
    record and novelty counts with units and lossy/nonexistent maps.
-5. **Response/noise action and overlap spectrum (`HC-DU-003/004/005`).** Only
+6. **Response/noise action and overlap spectrum (`HC-DU-003/004/005`).** Only
    after a generated-scale background survives, construct the CTP/noise kernel,
    finite-k determinant and common-past `P_Lambda(k,z)`; do not select a good seed.
-6. **Independent reimplementation (`HC-DU-009`).** Give the exact CMF-01
+7. **Independent reimplementation (`HC-DU-009`).** Give the exact CMF-01
    equations and preregistered outcomes to a clean-room implementer and compare
    frozen JSON before credibility promotion.
-7. **Cross-repo hardening (`HC-DU-019/020/024`).** Keep TaF/TI/P2C/CL negative
+8. **Cross-repo hardening (`HC-DU-019/020/024`).** Keep TaF/TI/P2C/CL negative
    models as fixtures and run initial-surface/kernel sweeps in the same declared
    frame rather than rerunning their searches under new names.
 

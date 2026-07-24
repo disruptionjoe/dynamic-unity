@@ -1,0 +1,835 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Supplies a transitive-percolation growth family and physical down-set outcomes.",
+        "statement": "Bernoulli direct-link proposals followed by transitive closure form the order-first microhistory.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Its Hessian selects the Fisher mobility.",
+        "statement": "Local relative entropy is the path cost on the transition statistical manifold.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Chooses the sign that favours relation creation and yields the tested marginal natural flow.",
+        "statement": "The source potential is minus expected direct-link count.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Makes the analytic beta law generate a count hierarchy and is the choice attacked by the path-covariance kill.",
+        "statement": "Log causal cardinality is the candidate flow parameter.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A5",
+        "role": "Keeps the unit map explicit without claiming that either input has been derived here.",
+        "statement": "A microscopic atom length and recovered dimension would map a count hierarchy to a dimensional length.",
+        "status": "PROJECT_NATIVE"
+      }
+    ],
+    "candidate_id": "DU-WILD-FISHER-CSG-SCALE-BRIDGE",
+    "comparators": [
+      "antichain versus diamond versus chain causal closure",
+      "raw-link Fisher versus physical down-set Fisher",
+      "constant-p versus cardinality-running transitive percolation",
+      "statewise relabeling equivariance versus full path covariance"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "FISHER-CSG-COUNT-RUNNING-SCALE-BRIDGE",
+      "invariant": "A live DU mechanism generates nonuniform effective influence through its own higher-order dynamics rather than fitting a target."
+    },
+    "equations": [
+      "g=log[p/(1-p)]",
+      "F_raw=n p(1-p)",
+      "S(g;C)=-E[m]=-n p",
+      "dg/dlogN=-F_raw^-1 dS/dg=1",
+      "N_*=N exp[-g(N)]",
+      "ell_*=ell_atom N_*^(1/d_recovered)",
+      "I_y=q_y (d log q_y/dg)^2",
+      "F_downset=sum_y I_y <= F_raw"
+    ],
+    "falsifiers": [
+      "physical transition probabilities or normalized Fisher contributions fail to normalize",
+      "event relabeling changes a fixed-state transition probability",
+      "causal closure increases Fisher information",
+      "N exp(-g) is not invariant under the analytic flow",
+      "different natural labelings receive unequal path probability",
+      "the claimed hierarchy requires inserting N_* into the update"
+    ],
+    "free_choices": [
+      {
+        "choice": "Use one Bernoulli probability for every potential direct link.",
+        "id": "C1",
+        "sensitivity_test": "Compare antichain, diamond, and chain causal closures and retain the data-processing loss.",
+        "why_not_forced": "More general classical sequential growth laws have multiple couplings and precursor dependence."
+      },
+      {
+        "choice": "Use S=-E[m] and unit natural-flow normalization.",
+        "id": "C2",
+        "sensitivity_test": "Expose the choices and check coordinate covariance under h=sinh(g); do not interpret the hierarchy value as predicted.",
+        "why_not_forced": "The sign, local source functional, and time normalization are not selected by the causal order alone."
+      },
+      {
+        "choice": "Use illustrative initial couplings generating N*=4,16,64.",
+        "id": "C3",
+        "sensitivity_test": "Require N exp(-g) to stay invariant for all three values and report their different length ratios.",
+        "why_not_forced": "No physical law in this probe selects the initial coupling."
+      },
+      {
+        "choice": "Use the smallest three-event causet with inequivalent natural birth paths as the covariance kill.",
+        "id": "C4",
+        "sensitivity_test": "Require constant-p transitive percolation to pass the identical fixture while count-running p fails.",
+        "why_not_forced": "Many larger causets can test the same path-independence burden."
+      }
+    ],
+    "null_models": [
+      "an antichain closure preserves every raw direct-link history",
+      "constant-p transitive percolation assigns equal path weight on the three-event fixture",
+      "a coordinate change h=sinh(g) changes components but not the natural-gradient path"
+    ],
+    "observables": [
+      "physical down-set transition probabilities",
+      "raw-link and down-set Fisher information",
+      "normalized expected Fisher contribution by physical outcome",
+      "statewise relabeling errors",
+      "natural-gradient beta in g and h=sinh(g)",
+      "N exp(-g) along the count flow",
+      "path probability across natural labelings"
+    ],
+    "question": "Can a minimal order-first causal growth law select Fisher mobility, transmute a dimensionless coupling into a count scale, and generate a downstream influence object without violating discrete general covariance?",
+    "result": {
+      "admission": "FORMALIZATION_FALSIFIED",
+      "checks": [
+        {
+          "name": "physical down-set transition probabilities normalize",
+          "pass": true
+        },
+        {
+          "name": "expected down-set Fisher contributions are nonnegative and normalize",
+          "pass": true
+        },
+        {
+          "name": "fixed-state transition law is exactly relabeling equivariant",
+          "pass": true
+        },
+        {
+          "name": "causal closure cannot increase Fisher information",
+          "pass": true
+        },
+        {
+          "name": "antichain closure retains the complete raw-link Fisher information",
+          "pass": true
+        },
+        {
+          "name": "nontrivial causal closure loses some raw-link Fisher information",
+          "pass": true
+        },
+        {
+          "name": "KL/Fisher natural descent of the inserted source potential gives beta_g=1",
+          "pass": true
+        },
+        {
+          "name": "the natural-gradient flow is covariant under h=sinh(g)",
+          "pass": true
+        },
+        {
+          "name": "N exp(-g) is invariant along the analytic count flow",
+          "pass": true
+        },
+        {
+          "name": "constant-p transitive percolation passes the three-event path-independence null",
+          "pass": true
+        },
+        {
+          "name": "cardinality-running p fails the same path-independence null",
+          "pass": true
+        },
+        {
+          "name": "no Lambda, H0, cosmological age, target geometry, or target concentration enters the probe",
+          "pass": true
+        }
+      ],
+      "claim": "The fixed-state transition family constructs Fisher mobility, an invariant count-scale skeleton, and a genuine expected-Fisher influence profile, but direct cardinality running makes completed-causet path probabilities depend on natural labeling.",
+      "grade": "CONSTRUCTIVE-SKELETON-FOUND / NAIVE-COUNT-RUNNING-KILLED",
+      "remaining_uncertainty": "A covariant fixed-coupling renormalization or physical coupling-record extension may evade the kill; geometry recovery, a stable gap, units, response/noise completion, and cosmology remain open."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Stop the exact feedback law if one natural-labeling counterexample exists.",
+      "Do not call the transmuted count a physical length without ell_atom and recovered dimension.",
+      "Do not treat expected transition Fisher contribution as Track B observed residual energy.",
+      "Do not infer a Lambda identity, value, banked claim, or prediction from the construction.",
+      "Local failure remains formalization-scoped rather than a concept kill."
+    ],
+    "track": "Science Council wild-frontier next actions / HC-DU-011 + HC-DU-022",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "FORMALIZATION_FALSIFIED",
+    "assumption_count": 5,
+    "candidate_id": "DU-WILD-FISHER-CSG-SCALE-BRIDGE",
+    "checks_passed": 12,
+    "checks_total": 12,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 6,
+    "free_choice_count": 4,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 3,
+    "observable_count": 7,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED",
+      "STRUCTURAL_ANALOGY"
+    ]
+  },
+  "results": {
+    "cheap_kill": "Enumerate natural labelings of the three-event causet a<c with b isolated. Any candidate feedback must assign them equal total path probability. The count-running fixture fails.",
+    "checks": [
+      {
+        "name": "physical down-set transition probabilities normalize",
+        "pass": true
+      },
+      {
+        "name": "expected down-set Fisher contributions are nonnegative and normalize",
+        "pass": true
+      },
+      {
+        "name": "fixed-state transition law is exactly relabeling equivariant",
+        "pass": true
+      },
+      {
+        "name": "causal closure cannot increase Fisher information",
+        "pass": true
+      },
+      {
+        "name": "antichain closure retains the complete raw-link Fisher information",
+        "pass": true
+      },
+      {
+        "name": "nontrivial causal closure loses some raw-link Fisher information",
+        "pass": true
+      },
+      {
+        "name": "KL/Fisher natural descent of the inserted source potential gives beta_g=1",
+        "pass": true
+      },
+      {
+        "name": "the natural-gradient flow is covariant under h=sinh(g)",
+        "pass": true
+      },
+      {
+        "name": "N exp(-g) is invariant along the analytic count flow",
+        "pass": true
+      },
+      {
+        "name": "constant-p transitive percolation passes the three-event path-independence null",
+        "pass": true
+      },
+      {
+        "name": "cardinality-running p fails the same path-independence null",
+        "pass": true
+      },
+      {
+        "name": "no Lambda, H0, cosmological age, target geometry, or target concentration enters the probe",
+        "pass": true
+      }
+    ],
+    "checks_passed": 12,
+    "checks_total": 12,
+    "construction": {
+      "count_flow": "dg/dlogN=1",
+      "downstream_influence": "normalized expected Fisher contributions of physical down-set outcomes",
+      "generated_scale": "N_*=N exp(-g), ell_*=ell_atom N_*^(1/d)",
+      "micro_law": "Independent Bernoulli direct-link proposals followed by causal transitive closure.",
+      "mobility": "Fisher metric from local KL on the transition family",
+      "physical_outcomes": "down-sets used as the past of a new maximal event",
+      "source_potential": "-expected direct-link count"
+    },
+    "contested_finding": "The HC-DU-011 + HC-DU-022 bridge is wholly unbuilt: no coherent order-first law can yet select a mobility, generate a count scale, and make influence a downstream response object.",
+    "count_scale": {
+      "fixtures": [
+        {
+          "crossover_p_equals_one_half_at_N": 4.0,
+          "ell_star_over_ell_atom_if_d_equals_4": 1.4142135623730951,
+          "g_reference": -1.3862943611198906,
+          "generated_count_scale": 4.0,
+          "rows": [
+            {
+              "N_exp_minus_g": 4.0,
+              "count_coordinate": 1.0,
+              "g": -1.3862943611198906,
+              "p": 0.2
+            },
+            {
+              "N_exp_minus_g": 4.0,
+              "count_coordinate": 2.0,
+              "g": -0.6931471805599453,
+              "p": 0.3333333333333333
+            },
+            {
+              "N_exp_minus_g": 4.0,
+              "count_coordinate": 4.0,
+              "g": 0.0,
+              "p": 0.5
+            },
+            {
+              "N_exp_minus_g": 4.000000000000001,
+              "count_coordinate": 8.0,
+              "g": 0.6931471805599452,
+              "p": 0.6666666666666666
+            },
+            {
+              "N_exp_minus_g": 4.0,
+              "count_coordinate": 16.0,
+              "g": 1.3862943611198906,
+              "p": 0.8
+            },
+            {
+              "N_exp_minus_g": 3.999999999999999,
+              "count_coordinate": 32.0,
+              "g": 2.079441541679836,
+              "p": 0.8888888888888888
+            },
+            {
+              "N_exp_minus_g": 4.000000000000002,
+              "count_coordinate": 64.0,
+              "g": 2.7725887222397807,
+              "p": 0.9411764705882353
+            },
+            {
+              "N_exp_minus_g": 4.000000000000002,
+              "count_coordinate": 128.0,
+              "g": 3.465735902799726,
+              "p": 0.9696969696969697
+            }
+          ]
+        },
+        {
+          "crossover_p_equals_one_half_at_N": 16.0,
+          "ell_star_over_ell_atom_if_d_equals_4": 2.0,
+          "g_reference": -2.772588722239781,
+          "generated_count_scale": 16.0,
+          "rows": [
+            {
+              "N_exp_minus_g": 15.999999999999998,
+              "count_coordinate": 1.0,
+              "g": -2.772588722239781,
+              "p": 0.058823529411764705
+            },
+            {
+              "N_exp_minus_g": 15.999999999999996,
+              "count_coordinate": 2.0,
+              "g": -2.0794415416798357,
+              "p": 0.11111111111111113
+            },
+            {
+              "N_exp_minus_g": 16.0,
+              "count_coordinate": 4.0,
+              "g": -1.3862943611198906,
+              "p": 0.2
+            },
+            {
+              "N_exp_minus_g": 16.0,
+              "count_coordinate": 8.0,
+              "g": -0.6931471805599454,
+              "p": 0.3333333333333333
+            },
+            {
+              "N_exp_minus_g": 16.0,
+              "count_coordinate": 16.0,
+              "g": 0.0,
+              "p": 0.5
+            },
+            {
+              "N_exp_minus_g": 15.999999999999998,
+              "count_coordinate": 32.0,
+              "g": 0.6931471805599454,
+              "p": 0.6666666666666666
+            },
+            {
+              "N_exp_minus_g": 16.000000000000004,
+              "count_coordinate": 64.0,
+              "g": 1.3862943611198904,
+              "p": 0.8
+            },
+            {
+              "N_exp_minus_g": 16.000000000000004,
+              "count_coordinate": 128.0,
+              "g": 2.0794415416798357,
+              "p": 0.8888888888888888
+            }
+          ]
+        },
+        {
+          "crossover_p_equals_one_half_at_N": 64.0,
+          "ell_star_over_ell_atom_if_d_equals_4": 2.8284271247461903,
+          "g_reference": -4.1588830833596715,
+          "generated_count_scale": 64.0,
+          "rows": [
+            {
+              "N_exp_minus_g": 63.99999999999998,
+              "count_coordinate": 1.0,
+              "g": -4.1588830833596715,
+              "p": 0.01538461538461539
+            },
+            {
+              "N_exp_minus_g": 63.99999999999997,
+              "count_coordinate": 2.0,
+              "g": -3.465735902799726,
+              "p": 0.030303030303030318
+            },
+            {
+              "N_exp_minus_g": 63.999999999999964,
+              "count_coordinate": 4.0,
+              "g": -2.7725887222397807,
+              "p": 0.05882352941176473
+            },
+            {
+              "N_exp_minus_g": 63.999999999999986,
+              "count_coordinate": 8.0,
+              "g": -2.0794415416798357,
+              "p": 0.11111111111111113
+            },
+            {
+              "N_exp_minus_g": 63.999999999999986,
+              "count_coordinate": 16.0,
+              "g": -1.3862943611198904,
+              "p": 0.20000000000000004
+            },
+            {
+              "N_exp_minus_g": 63.99999999999998,
+              "count_coordinate": 32.0,
+              "g": -0.693147180559945,
+              "p": 0.3333333333333334
+            },
+            {
+              "N_exp_minus_g": 64.0,
+              "count_coordinate": 64.0,
+              "g": 0.0,
+              "p": 0.5
+            },
+            {
+              "N_exp_minus_g": 63.99999999999999,
+              "count_coordinate": 128.0,
+              "g": 0.6931471805599454,
+              "p": 0.6666666666666666
+            }
+          ]
+        }
+      ],
+      "flow": "dg/dlogN=1",
+      "interpretation": "A count hierarchy can be transmuted from a dimensionless initial coupling without inserting N_* into the update. Its value remains an initial-condition output, and a dimensional length still imports ell_atom and requires recovered d.",
+      "maximum_invariant_relative_error": 5.551115123125783e-16,
+      "rg_invariant": "N_*=N exp(-g(N))",
+      "unit_map": "ell_*=ell_atom N_*^(1/d_recovered)"
+    },
+    "discrete_general_covariance_kill": {
+      "constant_p": {
+        "absolute_spread": 0.0,
+        "classification": "DISCRETE_GENERAL_COVARIANCE_PASSES_THIS_NULL",
+        "p": 0.27,
+        "path_probabilities": [
+          0.14388299999999998,
+          0.14388299999999998,
+          0.14388299999999998
+        ]
+      },
+      "count_running_p": {
+        "absolute_spread": 0.039396737457679284,
+        "classification": "DISCRETE_GENERAL_COVARIANCE_FAIL",
+        "g_reference": -2.772588722239781,
+        "law": "g(N)=g_reference+log(N), p(N)=logistic(g(N))",
+        "maximum_to_minimum_ratio": 1.5,
+        "path_probabilities": [
+          0.11819021237303785,
+          0.11819021237303785,
+          0.07879347491535857
+        ]
+      },
+      "final_causet": "three events with a<c and b isolated",
+      "natural_orders": [
+        [
+          0,
+          1,
+          2
+        ],
+        [
+          1,
+          0,
+          2
+        ],
+        [
+          0,
+          2,
+          1
+        ]
+      ],
+      "reading": "Statewise relabeling invariance is weaker than path independence. The cardinality-running coupling makes birth labels observable."
+    },
+    "fisher_natural_flow": {
+      "inserted_choices": [
+        "the Bernoulli direct-link microhistory",
+        "KL as the local path cost",
+        "the sign S=-E[m], favouring relation creation",
+        "log cardinality as the flow parameter",
+        "unit coefficient in that flow parameter"
+      ],
+      "maximum_beta_error_from_one": 0.0,
+      "maximum_reparameterization_error": 4.440892098500626e-16,
+      "mobility_principle": "The local KL Hessian supplies Fisher mobility on the Bernoulli transition family.",
+      "rows": [
+        {
+          "chain_rule_beta_h": 3.7621956910836314,
+          "dS_dg": -0.419974341614026,
+          "fisher_g": 0.419974341614026,
+          "g": -2.0,
+          "h": -3.6268604078470186,
+          "natural_beta_g": 1.0,
+          "natural_beta_h": 3.762195691083632,
+          "p": 0.11920292202211755
+        },
+        {
+          "chain_rule_beta_h": 1.1854652182422676,
+          "dS_dg": -0.9151369618266292,
+          "fisher_g": 0.9151369618266292,
+          "g": -0.6,
+          "h": -0.6366535821482412,
+          "natural_beta_g": 1.0,
+          "natural_beta_h": 1.1854652182422676,
+          "p": 0.3543436937742045
+        },
+        {
+          "chain_rule_beta_h": 1.0,
+          "dS_dg": -1.0,
+          "fisher_g": 1.0,
+          "g": 0.0,
+          "h": 0.0,
+          "natural_beta_g": 1.0,
+          "natural_beta_h": 1.0,
+          "p": 0.5
+        },
+        {
+          "chain_rule_beta_h": 1.3374349463048447,
+          "dS_dg": -0.8556387860811776,
+          "fisher_g": 0.8556387860811776,
+          "g": 0.8,
+          "h": 0.888105982187623,
+          "natural_beta_g": 1.0,
+          "natural_beta_h": 1.3374349463048445,
+          "p": 0.6899744811276125
+        },
+        {
+          "chain_rule_beta_h": 3.7621956910836314,
+          "dS_dg": -0.41997434161402647,
+          "fisher_g": 0.41997434161402647,
+          "g": 2.0,
+          "h": 3.6268604078470186,
+          "natural_beta_g": 1.0,
+          "natural_beta_h": 3.7621956910836314,
+          "p": 0.8807970779778823
+        }
+      ],
+      "source_potential": "S(g;C)=-E[number of direct links]=-n p(g)"
+    },
+    "inserted_choices": [
+      "the Bernoulli direct-link microhistory",
+      "KL as the local path cost",
+      "the sign S=-E[m], favouring relation creation",
+      "log cardinality as the flow parameter",
+      "unit coefficient in that flow parameter",
+      "the initial dimensionless coupling g_reference",
+      "the microscopic unit ell_atom",
+      "the dimension used in the units map",
+      "treating raw direct-link proposals as physical microhistory"
+    ],
+    "outcome_fisher": {
+      "antichain": {
+        "data_processing_ratio": 0.9999999999999999,
+        "downset_outcome_fisher": 0.8555999999999998,
+        "event_count": 4,
+        "normalized_expected_fisher_contributions": {
+          "0": 0.40735115999999993,
+          "1": 0.0068558399999999985,
+          "10": 0.030887160000000004,
+          "11": 0.07441984,
+          "12": 0.030887160000000004,
+          "13": 0.07441984,
+          "14": 0.07441984,
+          "15": 0.08222315999999999,
+          "2": 0.0068558399999999985,
+          "3": 0.030887160000000004,
+          "4": 0.0068558399999999985,
+          "5": 0.030887160000000004,
+          "6": 0.030887160000000004,
+          "7": 0.07441984,
+          "8": 0.0068558399999999985,
+          "9": 0.030887160000000004
+        },
+        "outcome_count": 16,
+        "outcomes": {
+          "0": {
+            "fisher_contribution": 0.3485296524959999,
+            "probability": 0.22667120999999993,
+            "probability_derivative_g": -0.2810723003999999,
+            "score_g": -1.24
+          },
+          "1": {
+            "fisher_contribution": 0.005865856703999997,
+            "probability": 0.10183778999999998,
+            "probability_derivative_g": -0.024441069599999993,
+            "score_g": -0.23999999999999996
+          },
+          "10": {
+            "fisher_contribution": 0.026427054095999998,
+            "probability": 0.045753209999999996,
+            "probability_derivative_g": 0.034772439599999996,
+            "score_g": 0.76
+          },
+          "11": {
+            "fisher_contribution": 0.06367361510399999,
+            "probability": 0.020555789999999997,
+            "probability_derivative_g": 0.0361781904,
+            "score_g": 1.76
+          },
+          "12": {
+            "fisher_contribution": 0.026427054095999998,
+            "probability": 0.045753209999999996,
+            "probability_derivative_g": 0.034772439599999996,
+            "score_g": 0.76
+          },
+          "13": {
+            "fisher_contribution": 0.06367361510399999,
+            "probability": 0.020555789999999997,
+            "probability_derivative_g": 0.0361781904,
+            "score_g": 1.76
+          },
+          "14": {
+            "fisher_contribution": 0.06367361510399999,
+            "probability": 0.020555789999999997,
+            "probability_derivative_g": 0.0361781904,
+            "score_g": 1.76
+          },
+          "15": {
+            "fisher_contribution": 0.07035013569599997,
+            "probability": 0.009235209999999999,
+            "probability_derivative_g": 0.025489179599999995,
+            "score_g": 2.76
+          },
+          "2": {
+            "fisher_contribution": 0.005865856703999997,
+            "probability": 0.10183778999999998,
+            "probability_derivative_g": -0.024441069599999993,
+            "score_g": -0.23999999999999996
+          },
+          "3": {
+            "fisher_contribution": 0.026427054095999998,
+            "probability": 0.045753209999999996,
+            "probability_derivative_g": 0.034772439599999996,
+            "score_g": 0.76
+          },
+          "4": {
+            "fisher_contribution": 0.005865856703999997,
+            "probability": 0.10183778999999998,
+            "probability_derivative_g": -0.024441069599999993,
+            "score_g": -0.23999999999999996
+          },
+          "5": {
+            "fisher_contribution": 0.026427054095999998,
+            "probability": 0.045753209999999996,
+            "probability_derivative_g": 0.034772439599999996,
+            "score_g": 0.76
+          },
+          "6": {
+            "fisher_contribution": 0.026427054095999998,
+            "probability": 0.045753209999999996,
+            "probability_derivative_g": 0.034772439599999996,
+            "score_g": 0.76
+          },
+          "7": {
+            "fisher_contribution": 0.06367361510399999,
+            "probability": 0.020555789999999997,
+            "probability_derivative_g": 0.0361781904,
+            "score_g": 1.76
+          },
+          "8": {
+            "fisher_contribution": 0.005865856703999997,
+            "probability": 0.10183778999999998,
+            "probability_derivative_g": -0.024441069599999993,
+            "score_g": -0.23999999999999996
+          },
+          "9": {
+            "fisher_contribution": 0.026427054095999998,
+            "probability": 0.045753209999999996,
+            "probability_derivative_g": 0.034772439599999996,
+            "score_g": 0.76
+          }
+        },
+        "p": 0.31,
+        "raw_link_fisher": 0.8555999999999999,
+        "total_probability": 0.9999999999999998
+      },
+      "chain": {
+        "data_processing_ratio": 0.6236522499999998,
+        "downset_outcome_fisher": 0.5335968650999998,
+        "event_count": 4,
+        "normalized_expected_fisher_contributions": {
+          "0": 0.653170352548235,
+          "1": 0.010993049411751499,
+          "15": 0.2765964525903659,
+          "3": 0.0013553226176927942,
+          "7": 0.057884822831954855
+        },
+        "outcome_count": 5,
+        "outcomes": {
+          "0": {
+            "fisher_contribution": 0.3485296524959999,
+            "probability": 0.22667120999999993,
+            "probability_derivative_g": -0.2810723003999999,
+            "score_g": -1.24
+          },
+          "1": {
+            "fisher_contribution": 0.005865856703999997,
+            "probability": 0.10183778999999998,
+            "probability_derivative_g": -0.024441069599999993,
+            "score_g": -0.23999999999999996
+          },
+          "15": {
+            "fisher_contribution": 0.14759099999999997,
+            "probability": 0.31,
+            "probability_derivative_g": 0.21389999999999998,
+            "score_g": 0.69
+          },
+          "3": {
+            "fisher_contribution": 0.0007231959000000006,
+            "probability": 0.14759099999999997,
+            "probability_derivative_g": 0.010331370000000003,
+            "score_g": 0.07000000000000003
+          },
+          "7": {
+            "fisher_contribution": 0.030887160000000004,
+            "probability": 0.21389999999999995,
+            "probability_derivative_g": 0.081282,
+            "score_g": 0.38000000000000006
+          }
+        },
+        "p": 0.31,
+        "raw_link_fisher": 0.8555999999999999,
+        "total_probability": 0.9999999999999998
+      },
+      "diamond": {
+        "data_processing_ratio": 0.6771272499999998,
+        "downset_outcome_fisher": 0.5793500750999998,
+        "event_count": 4,
+        "normalized_expected_fisher_contributions": {
+          "0": 0.6015873087370209,
+          "1": 0.010124891591646916,
+          "15": 0.25475270711672,
+          "3": 0.001248288264871929,
+          "5": 0.001248288264871929,
+          "7": 0.1310385160248683
+        },
+        "outcome_count": 6,
+        "outcomes": {
+          "0": {
+            "fisher_contribution": 0.3485296524959999,
+            "probability": 0.22667120999999993,
+            "probability_derivative_g": -0.2810723003999999,
+            "score_g": -1.24
+          },
+          "1": {
+            "fisher_contribution": 0.005865856703999997,
+            "probability": 0.10183778999999998,
+            "probability_derivative_g": -0.024441069599999993,
+            "score_g": -0.23999999999999996
+          },
+          "15": {
+            "fisher_contribution": 0.14759099999999997,
+            "probability": 0.31,
+            "probability_derivative_g": 0.21389999999999998,
+            "score_g": 0.69
+          },
+          "3": {
+            "fisher_contribution": 0.0007231959000000006,
+            "probability": 0.14759099999999997,
+            "probability_derivative_g": 0.010331370000000003,
+            "score_g": 0.07000000000000003
+          },
+          "5": {
+            "fisher_contribution": 0.0007231959000000006,
+            "probability": 0.14759099999999997,
+            "probability_derivative_g": 0.010331370000000003,
+            "score_g": 0.07000000000000003
+          },
+          "7": {
+            "fisher_contribution": 0.07591717409999997,
+            "probability": 0.06630899999999999,
+            "probability_derivative_g": 0.07095062999999999,
+            "score_g": 1.0699999999999998
+          }
+        },
+        "p": 0.31,
+        "raw_link_fisher": 0.8555999999999999,
+        "total_probability": 0.9999999999999999
+      },
+      "reading": "Causal closure is a data-processing map: order structure changes both total observable Fisher response and its influence allocation without fitting a target profile.",
+      "relabeling": {
+        "maximum_fisher_contribution_error": 0.0,
+        "maximum_probability_error": 0.0,
+        "permutations": [
+          [
+            2,
+            0,
+            3,
+            1
+          ],
+          [
+            1,
+            3,
+            0,
+            2
+          ],
+          [
+            3,
+            2,
+            1,
+            0
+          ]
+        ],
+        "reading": "Each fixed-state transition law and its Fisher contributions are exactly equivariant under event relabeling."
+      }
+    },
+    "probe": "du_wild_frontier_fisher_csg_scale_bridge_probe",
+    "scope": {
+      "earned": [
+        "an algebraically coherent statewise order/Fisher/scale skeleton",
+        "a true expected-Fisher transition influence decomposition",
+        "an exact obstruction to naive birth-count running"
+      ],
+      "not_earned": [
+        "full classical-sequential-growth covariance for the feedback law",
+        "a selected initial coupling or hierarchy",
+        "manifoldlike geometry or recovered dimension",
+        "a unit-bearing physical memory response",
+        "a Bianconi mobility selection",
+        "a cosmological observable, Lambda value, banked claim, or seed"
+      ]
+    },
+    "verdict": "CONSTRUCTIVE-SKELETON-FOUND / NAIVE-COUNT-RUNNING-KILLED. KL/Fisher supplies a coordinate-covariant mobility, a dimensionless initial coupling transmutates into an invariant count scale, and the transition law supplies a genuine expected-Fisher influence profile. But letting the coupling run with birth cardinality makes path probabilities depend on natural labeling, so this exact feedback law is not an admissible covariant causal growth law. No physical memory scale, geometry recovery, Lambda identity, claim, or prediction is earned."
+  }
+}

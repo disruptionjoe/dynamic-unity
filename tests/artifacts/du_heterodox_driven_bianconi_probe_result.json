@@ -1,0 +1,2488 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Supplies the action, gradient, and dissipation objects.",
+        "statement": "The imported Bianconi SPD action remains the local constitutive object under test.",
+        "status": "IMPORTED"
+      },
+      {
+        "id": "A2",
+        "role": "Tests the closed-equilibrium scope without fitting concentration.",
+        "statement": "A rotating anisotropic inducing metric is a minimal conditional open-system drive.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A3",
+        "role": "Prevents the input cadence from masquerading as a physical scale.",
+        "statement": "The evolution parameter is dimensionless event count; no map to cosmological time is supplied.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Preserves the completion disagreement from SWING-DU-PHY-02.",
+        "statement": "Euclidean and affine-SPD mobilities remain separate, unselected completions.",
+        "status": "PROJECT_NATIVE"
+      }
+    ],
+    "candidate_id": "DU-COUNCIL-HETERODOX-DRIVEN-BIANCONI",
+    "comparators": [
+      "closed fixed-target equilibrium",
+      "rotating isotropic target",
+      "Euclidean versus affine-SPD completion",
+      "three numerical step sizes",
+      "simultaneous O(3) frame change"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "OPEN-DRIVEN-BIANCONI-DISSIPATION",
+      "invariant": "A live mechanism dynamically sources nonuniform influence without choosing a target concentration."
+    },
+    "equations": [
+      "G_ind(n)=Q(n)G_ind(0)Q(n)^T; Q(n)=exp(n Omega)",
+      "d(log G_ind)/dn=[Omega,log G_ind]",
+      "dS/dn=-D_X+P_drive",
+      "P_drive=-Tr[G d(log G_ind)/dn]",
+      "closed fixed-target equilibrium: D_X=0",
+      "slow-drive linear response: E=O(omega), hence D_X=O(omega^2)"
+    ],
+    "falsifiers": [
+      "driven tail dissipation decays cycle over cycle toward zero",
+      "tail work fails to balance tail dissipation after refinement",
+      "the open result is not stable under timestep refinement",
+      "an O(3) frame change alters the physical receipt",
+      "tail dissipation is independent of the imported drive cadence"
+    ],
+    "free_choices": [
+      {
+        "choice": "Rotate the reused anisotropic spectrum [0.9,1.4,2.4] around axis (1,1,1)/sqrt(3).",
+        "id": "C1",
+        "sensitivity_test": "Use an isotropic target null and an O(3) frame change.",
+        "why_not_forced": "The Bianconi action does not select this drive."
+      },
+      {
+        "choice": "Use drive rates 0.05, 0.1, 0.2, 0.4, and 0.8 per event.",
+        "id": "C2",
+        "sensitivity_test": "Fit the tail dissipation slope against the input cadence.",
+        "why_not_forced": "The cadence is imported and dimensionless."
+      },
+      {
+        "choice": "Integrate six periods with fixed-step geometric updates and analyze the last two.",
+        "id": "C3",
+        "sensitivity_test": "Repeat the primary rate at three step sizes.",
+        "why_not_forced": "This is a numerical resolution choice."
+      }
+    ],
+    "null_models": [
+      "zero drive at the fixed-target equilibrium has zero dissipation",
+      "rotating an isotropic target is no physical drive and has zero dissipation",
+      "an O(3) frame change preserves the driven receipt"
+    ],
+    "observables": [
+      "tail mean, minimum, and maximum raw dissipation",
+      "tail mean injected work and work-dissipation balance",
+      "cycle-to-cycle state, action, dissipation, and profile errors",
+      "drive-rate versus tail-dissipation scaling",
+      "completion-specific mean and range of normalized modal shares"
+    ],
+    "question": "Is vanishing Bianconi dissipation generic, or local to closed fixed-target relaxation; and does a minimal open drive generate rather than import a persistent physical scale?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "name": "closed fixed-target equilibrium has zero dissipation",
+          "pass": true
+        },
+        {
+          "name": "rotating an isotropic target supplies no drive or dissipation",
+          "pass": true
+        },
+        {
+          "name": "anisotropic open drive sustains nonzero tail dissipation in both completions",
+          "pass": true
+        },
+        {
+          "name": "driven tail converges to a periodic state rather than decaying cycle over cycle",
+          "pass": true
+        },
+        {
+          "name": "tail injected work balances raw dissipation after transients",
+          "pass": true
+        },
+        {
+          "name": "small-drive dissipation inherits approximately quadratic cadence scaling",
+          "pass": true
+        },
+        {
+          "name": "timestep refinement stabilizes primary tail dissipation",
+          "pass": true
+        },
+        {
+          "name": "simultaneous O(3) frame change preserves driven dissipation and modal shape",
+          "pass": true
+        },
+        {
+          "name": "the two unselected mobilities retain quantitatively different driven receipts",
+          "pass": true
+        },
+        {
+          "name": "no target concentration, rho, Lambda, cosmological clock, or dimensional rate is fitted",
+          "pass": true
+        }
+      ],
+      "claim": "A rotating anisotropic inducing metric sustains periodic nonzero Bianconi dissipation in both tested completions, whereas the closed and isotropic nulls remain at zero. The persistent activity is powered by the imported drive and therefore does not generate a physical scale.",
+      "grade": "CONDITIONAL OPEN-SYSTEM COUNTEREXAMPLE / PERSISTENT-ACTIVITY / SCALE-IMPORTED / SELECTOR-OPEN",
+      "remaining_uncertainty": "No DU-native law selects the driver, its cadence, either mobility, a response functional, units, or a cosmological map."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not call the imported drive cadence a generated physical clock.",
+      "Do not infer a concentration-functional selector from sustained D.",
+      "Do not map event count or action dissipation to Lambda without units.",
+      "Do not treat this open-system counterexample as selection of a mobility.",
+      "Do not fit a target concentration, rho, Lambda, or cosmological rate."
+    ],
+    "track": "Open driven Bianconi counterexample",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 4,
+    "candidate_id": "DU-COUNCIL-HETERODOX-DRIVEN-BIANCONI",
+    "checks_passed": 10,
+    "checks_total": 10,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 5,
+    "free_choice_count": 3,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 3,
+    "observable_count": 5,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "analytic_balance": {
+      "drive_work": "P_drive=-Tr[G d(log G_ind)/dn]",
+      "identity": "dS/dn=-D_X+P_drive",
+      "slow_drive": "Linear lag is O(omega), so D is O(omega^2); the activity scale inherits the imported cadence."
+    },
+    "closed_stationary_null": {
+      "affine_invariant": {
+        "completion": "affine_invariant",
+        "dissipation": 1.3699595010400056e-33,
+        "equilibrium_eigenvalues": [
+          0.6667662827768982,
+          1.1820847687287448,
+          2.190585707056665
+        ],
+        "target_eigenvalues": [
+          0.9,
+          1.4,
+          2.4
+        ],
+        "weights": null
+      },
+      "euclidean": {
+        "completion": "euclidean",
+        "dissipation": 3.0814879110195774e-33,
+        "equilibrium_eigenvalues": [
+          0.6667662827768982,
+          1.1820847687287448,
+          2.190585707056665
+        ],
+        "target_eigenvalues": [
+          0.9,
+          1.4,
+          2.4
+        ],
+        "weights": null
+      }
+    },
+    "drive_rate_sweeps": {
+      "affine_invariant": {
+        "0.05": {
+          "action_periodicity_absolute_error": 8.881784197001252e-16,
+          "actual_step": 0.019997407088413705,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 7.079008598030625e-13,
+          "cycle_to_cycle_weight_max_error": 4.5008441418303846e-13,
+          "cycles": 6,
+          "drive_rate_per_event": 0.05,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6137509542890197,
+              0.3491943845408926,
+              0.03705466117008762
+            ],
+            [
+              0.6137509542890718,
+              0.3491943845408249,
+              0.0370546611701033
+            ],
+            [
+              0.6137509542890989,
+              0.3491943845408422,
+              0.0370546611700589
+            ],
+            [
+              0.613750954288949,
+              0.34919438454092877,
+              0.03705466117012234
+            ],
+            [
+              0.613750954289045,
+              0.3491943845408717,
+              0.037054661170083145
+            ],
+            [
+              0.6137509542889841,
+              0.3491943845409281,
+              0.03705466117008786
+            ],
+            [
+              0.6137509542889645,
+              0.34919438454094653,
+              0.037054661170088814
+            ],
+            [
+              0.6137509542889563,
+              0.3491943845409291,
+              0.03705466117011443
+            ],
+            [
+              0.6137509542889605,
+              0.3491943845409544,
+              0.037054661170084935
+            ],
+            [
+              0.613750954288947,
+              0.3491943845409476,
+              0.03705466117010528
+            ],
+            [
+              0.6137509542891373,
+              0.3491943845407877,
+              0.03705466117007493
+            ],
+            [
+              0.6137509542889147,
+              0.34919438454098994,
+              0.03705466117009521
+            ],
+            [
+              0.6137509542889652,
+              0.34919438454090906,
+              0.03705466117012579
+            ],
+            [
+              0.6137509542891073,
+              0.34919438454081825,
+              0.03705466117007456
+            ],
+            [
+              0.6137509542891544,
+              0.34919438454077806,
+              0.03705466117006762
+            ],
+            [
+              0.6137509542890396,
+              0.3491943845408797,
+              0.03705466117008067
+            ],
+            [
+              0.6137509542889323,
+              0.3491943845409459,
+              0.03705466117012172
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 3.184111532186727e-07,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 3.059432922578009e-15,
+          "steps_per_cycle": 6284,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.003915927034448858,
+          "tail_mean_dissipation": 0.003915927034446788,
+          "tail_mean_injected_work": 0.003915925787571945,
+          "tail_mean_weights": [
+            0.6137509542890262,
+            0.3491943845409088,
+            0.03705466117009327
+          ],
+          "tail_min_dissipation": 0.003915927034444645,
+          "tail_weight_maxima": [
+            0.6137509542893355,
+            0.3491943845411974,
+            0.03705466117019606
+          ],
+          "tail_weight_minima": [
+            0.6137509542886467,
+            0.34919438454062696,
+            0.03705466117001906
+          ]
+        },
+        "0.1": {
+          "action_periodicity_absolute_error": 8.881784197001252e-16,
+          "actual_step": 0.019997407088413705,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 3.5328930485411995e-13,
+          "cycle_to_cycle_weight_max_error": 2.3225865675158275e-13,
+          "cycles": 6,
+          "drive_rate_per_event": 0.1,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6117897506229706,
+              0.3527867275477859,
+              0.03542352182924361
+            ],
+            [
+              0.6117897506230403,
+              0.35278672754770796,
+              0.03542352182925169
+            ],
+            [
+              0.6117897506229601,
+              0.3527867275477919,
+              0.035423521829247906
+            ],
+            [
+              0.6117897506229597,
+              0.35278672754778684,
+              0.03542352182925359
+            ],
+            [
+              0.6117897506229956,
+              0.3527867275477423,
+              0.03542352182926209
+            ],
+            [
+              0.6117897506229494,
+              0.3527867275478068,
+              0.035423521829243895
+            ],
+            [
+              0.611789750623053,
+              0.3527867275477141,
+              0.035423521829232835
+            ],
+            [
+              0.6117897506230426,
+              0.35278672754773044,
+              0.03542352182922687
+            ],
+            [
+              0.6117897506230774,
+              0.3527867275476964,
+              0.0354235218292263
+            ],
+            [
+              0.6117897506229948,
+              0.35278672754776724,
+              0.03542352182923806
+            ],
+            [
+              0.6117897506230022,
+              0.35278672754774804,
+              0.03542352182924973
+            ],
+            [
+              0.6117897506229636,
+              0.3527867275477987,
+              0.035423521829237865
+            ],
+            [
+              0.6117897506229864,
+              0.3527867275477719,
+              0.03542352182924177
+            ],
+            [
+              0.6117897506230572,
+              0.3527867275477099,
+              0.0354235218292329
+            ],
+            [
+              0.6117897506229791,
+              0.3527867275477719,
+              0.035423521829248864
+            ],
+            [
+              0.6117897506230193,
+              0.35278672754773877,
+              0.035423521829241945
+            ],
+            [
+              0.6117897506229871,
+              0.35278672754776264,
+              0.035423521829250196
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 1.279590858204934e-06,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 9.401714911272081e-15,
+          "steps_per_cycle": 3142,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.015545714091774628,
+          "tail_mean_dissipation": 0.015545714091770711,
+          "tail_mean_injected_work": 0.015545694199617075,
+          "tail_mean_weights": [
+            0.6117897506230083,
+            0.3527867275477547,
+            0.035423521829242036
+          ],
+          "tail_min_dissipation": 0.01554571409176761,
+          "tail_weight_maxima": [
+            0.6117897506231786,
+            0.3527867275478898,
+            0.0354235218292828
+          ],
+          "tail_weight_minima": [
+            0.6117897506228305,
+            0.3527867275476181,
+            0.03542352182919961
+          ]
+        },
+        "0.2": {
+          "action_periodicity_absolute_error": 3.552713678800501e-15,
+          "actual_step": 0.019997407088413705,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 1.721642014006185e-13,
+          "cycle_to_cycle_weight_max_error": 1.0125233984581428e-13,
+          "cycles": 6,
+          "drive_rate_per_event": 0.2,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6113779439811642,
+              0.3535332915299898,
+              0.03508876448884591
+            ],
+            [
+              0.6113779439811449,
+              0.35353329153001517,
+              0.03508876448883996
+            ],
+            [
+              0.6113779439811887,
+              0.35353329152997226,
+              0.03508876448883899
+            ],
+            [
+              0.6113779439811607,
+              0.3535332915299891,
+              0.03508876448885008
+            ],
+            [
+              0.6113779439811736,
+              0.3535332915299791,
+              0.03508876448884743
+            ],
+            [
+              0.6113779439811239,
+              0.35353329153002155,
+              0.0350887644888545
+            ],
+            [
+              0.6113779439811439,
+              0.3535332915300067,
+              0.035088764488849504
+            ],
+            [
+              0.6113779439811335,
+              0.3535332915300137,
+              0.03508876448885269
+            ],
+            [
+              0.6113779439811715,
+              0.35353329152998525,
+              0.03508876448884323
+            ],
+            [
+              0.6113779439811259,
+              0.353533291530024,
+              0.03508876448885015
+            ],
+            [
+              0.6113779439811066,
+              0.35353329153003965,
+              0.035088764488853744
+            ],
+            [
+              0.6113779439811233,
+              0.35353329153002216,
+              0.03508876448885448
+            ],
+            [
+              0.6113779439811377,
+              0.35353329153001223,
+              0.03508876448885007
+            ],
+            [
+              0.611377943981095,
+              0.3535332915300456,
+              0.03508876448885949
+            ],
+            [
+              0.6113779439811641,
+              0.3535332915299901,
+              0.035088764488845896
+            ],
+            [
+              0.6113779439810952,
+              0.35353329153004176,
+              0.0350887644888631
+            ],
+            [
+              0.6113779439811305,
+              0.3535332915300213,
+              0.035088764488848165
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 5.056415310878333e-06,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 5.218332119605425e-15,
+          "steps_per_cycle": 1571,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.05799735512081698,
+          "tail_mean_dissipation": 0.05799735512081102,
+          "tail_mean_injected_work": 0.0579970618620966,
+          "tail_mean_weights": [
+            0.611377943981133,
+            0.3535332915300092,
+            0.035088764488850746
+          ],
+          "tail_min_dissipation": 0.0579973551208051,
+          "tail_weight_maxima": [
+            0.6113779439812089,
+            0.3535332915300725,
+            0.03508876448886732
+          ],
+          "tail_weight_minima": [
+            0.6113779439810616,
+            0.3535332915299467,
+            0.035088764488833905
+          ]
+        },
+        "0.4": {
+          "action_periodicity_absolute_error": 8.881784197001252e-16,
+          "actual_step": 0.019984686091538126,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 7.722819628487501e-14,
+          "cycle_to_cycle_weight_max_error": 5.88418203051333e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6202677828989516,
+              0.3367837711125713,
+              0.042948445988477184
+            ],
+            [
+              0.6202677828989479,
+              0.3367837711125739,
+              0.042948445988478266
+            ],
+            [
+              0.6202677828989318,
+              0.33678377111259006,
+              0.042948445988478176
+            ],
+            [
+              0.6202677828989337,
+              0.33678377111258445,
+              0.04294844598848186
+            ],
+            [
+              0.6202677828989177,
+              0.3367837711126003,
+              0.042948445988482076
+            ],
+            [
+              0.6202677828989326,
+              0.3367837711125855,
+              0.042948445988481965
+            ],
+            [
+              0.6202677828989421,
+              0.33678377111257857,
+              0.04294844598847936
+            ],
+            [
+              0.6202677828989368,
+              0.33678377111258306,
+              0.04294844598848009
+            ],
+            [
+              0.6202677828989329,
+              0.336783771112588,
+              0.04294844598847901
+            ],
+            [
+              0.6202677828989251,
+              0.33678377111259156,
+              0.042948445988483304
+            ],
+            [
+              0.620267782898932,
+              0.3367837711125914,
+              0.04294844598847662
+            ],
+            [
+              0.6202677828989257,
+              0.3367837711125948,
+              0.04294844598847961
+            ],
+            [
+              0.6202677828988957,
+              0.3367837711126201,
+              0.04294844598848417
+            ],
+            [
+              0.6202677828989352,
+              0.3367837711125839,
+              0.04294844598848101
+            ],
+            [
+              0.6202677828989628,
+              0.33678377111256697,
+              0.04294844598847014
+            ],
+            [
+              0.620267782898932,
+              0.3367837711125863,
+              0.04294844598848167
+            ],
+            [
+              0.6202677828989566,
+              0.3367837711125653,
+              0.042948445988478155
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 1.8740840868063503e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 3.0885098999678143e-15,
+          "steps_per_cycle": 786,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.1768232829434152,
+          "tail_mean_dissipation": 0.17682328294340696,
+          "tail_mean_injected_work": 0.17681996912639955,
+          "tail_mean_weights": [
+            0.6202677828989331,
+            0.33678377111258495,
+            0.04294844598847992
+          ],
+          "tail_min_dissipation": 0.1768232829433981,
+          "tail_weight_maxima": [
+            0.6202677828989666,
+            0.3367837711126293,
+            0.04294844598848674
+          ],
+          "tail_weight_minima": [
+            0.6202677828988857,
+            0.33678377111256025,
+            0.04294844598846859
+          ]
+        },
+        "0.8": {
+          "action_periodicity_absolute_error": 7.105427357601002e-15,
+          "actual_step": 0.019984686091538126,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 4.4137166111326835e-14,
+          "cycle_to_cycle_weight_max_error": 3.9190872769268026e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.8,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6453441795380227,
+              0.27891657702658995,
+              0.07573924343538735
+            ],
+            [
+              0.6453441795380187,
+              0.2789165770265944,
+              0.07573924343538685
+            ],
+            [
+              0.6453441795380189,
+              0.27891657702660155,
+              0.07573924343537948
+            ],
+            [
+              0.6453441795380243,
+              0.27891657702659484,
+              0.07573924343538099
+            ],
+            [
+              0.6453441795380315,
+              0.27891657702658434,
+              0.07573924343538414
+            ],
+            [
+              0.6453441795380126,
+              0.27891657702659967,
+              0.07573924343538779
+            ],
+            [
+              0.6453441795380146,
+              0.2789165770265989,
+              0.0757392434353865
+            ],
+            [
+              0.6453441795380114,
+              0.27891657702659495,
+              0.07573924343539366
+            ],
+            [
+              0.6453441795380119,
+              0.2789165770265951,
+              0.07573924343539283
+            ],
+            [
+              0.6453441795380088,
+              0.2789165770266011,
+              0.07573924343538996
+            ],
+            [
+              0.64534417953802,
+              0.27891657702659095,
+              0.07573924343538893
+            ],
+            [
+              0.6453441795380284,
+              0.2789165770265858,
+              0.07573924343538584
+            ],
+            [
+              0.6453441795380197,
+              0.2789165770265931,
+              0.0757392434353871
+            ],
+            [
+              0.6453441795380258,
+              0.2789165770265869,
+              0.07573924343538736
+            ],
+            [
+              0.6453441795380088,
+              0.27891657702659933,
+              0.07573924343539185
+            ],
+            [
+              0.6453441795380231,
+              0.2789165770265912,
+              0.07573924343538561
+            ],
+            [
+              0.6453441795380224,
+              0.2789165770265878,
+              0.07573924343538994
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 6.219768086028601e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 1.0374762813171778e-14,
+          "steps_per_cycle": 393,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.369762716999675,
+          "tail_mean_dissipation": 0.3697627169996662,
+          "tail_mean_injected_work": 0.3697397186162002,
+          "tail_mean_weights": [
+            0.6453441795380205,
+            0.2789165770265935,
+            0.0757392434353871
+          ],
+          "tail_min_dissipation": 0.36976271699965635,
+          "tail_weight_maxima": [
+            0.6453441795380359,
+            0.2789165770266065,
+            0.07573924343539537
+          ],
+          "tail_weight_minima": [
+            0.6453441795379983,
+            0.2789165770265784,
+            0.0757392434353776
+          ]
+        }
+      },
+      "euclidean": {
+        "0.05": {
+          "action_periodicity_absolute_error": 8.881784197001252e-16,
+          "actual_step": 0.019997407088413705,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 2.4521609943945585e-13,
+          "cycle_to_cycle_weight_max_error": 5.3290705182007514e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.05,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6090455150054034,
+              0.3577129598703688,
+              0.033241525124227816
+            ],
+            [
+              0.6090455150054109,
+              0.35771295987036017,
+              0.033241525124228906
+            ],
+            [
+              0.6090455150053958,
+              0.3577129598703768,
+              0.03324152512422741
+            ],
+            [
+              0.6090455150054003,
+              0.35771295987037205,
+              0.03324152512422769
+            ],
+            [
+              0.6090455150054072,
+              0.3577129598703652,
+              0.033241525124227636
+            ],
+            [
+              0.6090455150054063,
+              0.3577129598703633,
+              0.03324152512423056
+            ],
+            [
+              0.6090455150053986,
+              0.35771295987037427,
+              0.033241525124227234
+            ],
+            [
+              0.6090455150054047,
+              0.3577129598703686,
+              0.03324152512422671
+            ],
+            [
+              0.6090455150054019,
+              0.35771295987036905,
+              0.033241525124229114
+            ],
+            [
+              0.6090455150053903,
+              0.3577129598703816,
+              0.03324152512422812
+            ],
+            [
+              0.609045515005411,
+              0.3577129598703611,
+              0.033241525124227796
+            ],
+            [
+              0.6090455150053893,
+              0.3577129598703813,
+              0.03324152512422946
+            ],
+            [
+              0.609045515005407,
+              0.3577129598703665,
+              0.033241525124226456
+            ],
+            [
+              0.6090455150053987,
+              0.35771295987037116,
+              0.03324152512423002
+            ],
+            [
+              0.6090455150054029,
+              0.35771295987036916,
+              0.033241525124227844
+            ],
+            [
+              0.6090455150054025,
+              0.357712959870371,
+              0.03324152512422661
+            ],
+            [
+              0.6090455150053964,
+              0.3577129598703743,
+              0.033241525124229176
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 2.4588476217294575e-07,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 3.955420051070931e-16,
+          "steps_per_cycle": 6284,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.00577967385955914,
+          "tail_mean_dissipation": 0.005779673859558218,
+          "tail_mean_injected_work": 0.0057796724384244855,
+          "tail_mean_weights": [
+            0.6090455150054542,
+            0.35771295987039653,
+            0.033241525124226026
+          ],
+          "tail_min_dissipation": 0.005779673859557211,
+          "tail_weight_maxima": [
+            0.6090455150054346,
+            0.35771295987040397,
+            0.03324152512423538
+          ],
+          "tail_weight_minima": [
+            0.6090455150053651,
+            0.35771295987033924,
+            0.03324152512422027
+          ]
+        },
+        "0.1": {
+          "action_periodicity_absolute_error": 1.7763568394002505e-15,
+          "actual_step": 0.019997407088413705,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 1.146249434291675e-13,
+          "cycle_to_cycle_weight_max_error": 2.842170943040401e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.1,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6150262429748551,
+              0.346824695740254,
+              0.038149061284890956
+            ],
+            [
+              0.6150262429748495,
+              0.34682469574025887,
+              0.03814906128489168
+            ],
+            [
+              0.6150262429748504,
+              0.3468246957402573,
+              0.038149061284892156
+            ],
+            [
+              0.615026242974848,
+              0.34682469574025915,
+              0.03814906128489283
+            ],
+            [
+              0.615026242974854,
+              0.34682469574025293,
+              0.03814906128489308
+            ],
+            [
+              0.615026242974848,
+              0.3468246957402608,
+              0.03814906128489123
+            ],
+            [
+              0.615026242974855,
+              0.3468246957402547,
+              0.03814906128489045
+            ],
+            [
+              0.6150262429748509,
+              0.34682469574025754,
+              0.03814906128489165
+            ],
+            [
+              0.6150262429748611,
+              0.34682469574024793,
+              0.03814906128489109
+            ],
+            [
+              0.6150262429748485,
+              0.34682469574025826,
+              0.03814906128489335
+            ],
+            [
+              0.6150262429748502,
+              0.3468246957402567,
+              0.038149061284893114
+            ],
+            [
+              0.6150262429748551,
+              0.3468246957402539,
+              0.03814906128489094
+            ],
+            [
+              0.6150262429748438,
+              0.3468246957402643,
+              0.03814906128489207
+            ],
+            [
+              0.6150262429748453,
+              0.3468246957402612,
+              0.03814906128489349
+            ],
+            [
+              0.6150262429748494,
+              0.3468246957402587,
+              0.03814906128489186
+            ],
+            [
+              0.6150262429748529,
+              0.34682469574025615,
+              0.038149061284891
+            ],
+            [
+              0.6150262429748411,
+              0.3468246957402646,
+              0.038149061284894335
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 9.607078198188075e-07,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 3.1112103564050494e-16,
+          "steps_per_cycle": 3142,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.0214598831226937,
+          "tail_mean_dissipation": 0.021459883122691963,
+          "tail_mean_injected_work": 0.021459862506014435,
+          "tail_mean_weights": [
+            0.6150262429748619,
+            0.3468246957402443,
+            0.03814906128489423
+          ],
+          "tail_min_dissipation": 0.021459883122690024,
+          "tail_weight_maxima": [
+            0.6150262429748679,
+            0.3468246957402737,
+            0.038149061284897125
+          ],
+          "tail_weight_minima": [
+            0.6150262429748327,
+            0.3468246957402418,
+            0.03814906128488842
+          ]
+        },
+        "0.2": {
+          "action_periodicity_absolute_error": 1.7763568394002505e-15,
+          "actual_step": 0.019997407088413705,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 5.957211676369628e-14,
+          "cycle_to_cycle_weight_max_error": 1.1657341758564144e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.2,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6306559006546429,
+              0.31518182537715456,
+              0.05416227396820259
+            ],
+            [
+              0.6306559006546423,
+              0.31518182537715567,
+              0.054162273968202154
+            ],
+            [
+              0.6306559006546417,
+              0.31518182537715594,
+              0.054162273968202425
+            ],
+            [
+              0.6306559006546436,
+              0.3151818253771544,
+              0.054162273968202106
+            ],
+            [
+              0.6306559006546418,
+              0.3151818253771556,
+              0.05416227396820246
+            ],
+            [
+              0.6306559006546417,
+              0.31518182537715533,
+              0.05416227396820291
+            ],
+            [
+              0.6306559006546414,
+              0.31518182537715567,
+              0.05416227396820294
+            ],
+            [
+              0.6306559006546403,
+              0.3151818253771561,
+              0.054162273968203674
+            ],
+            [
+              0.6306559006546438,
+              0.3151818253771534,
+              0.05416227396820278
+            ],
+            [
+              0.6306559006546436,
+              0.3151818253771543,
+              0.054162273968202154
+            ],
+            [
+              0.6306559006546405,
+              0.315181825377156,
+              0.054162273968203466
+            ],
+            [
+              0.6306559006546413,
+              0.3151818253771565,
+              0.054162273968202376
+            ],
+            [
+              0.6306559006546378,
+              0.3151818253771592,
+              0.054162273968202834
+            ],
+            [
+              0.6306559006546388,
+              0.3151818253771562,
+              0.05416227396820505
+            ],
+            [
+              0.6306559006546433,
+              0.3151818253771549,
+              0.054162273968201724
+            ],
+            [
+              0.6306559006546425,
+              0.31518182537715433,
+              0.05416227396820311
+            ],
+            [
+              0.6306559006546444,
+              0.31518182537715345,
+              0.05416227396820221
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 3.6163347755780954e-06,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 2.1096325503050792e-16,
+          "steps_per_cycle": 1571,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.06918845934702234,
+          "tail_mean_dissipation": 0.06918845934701941,
+          "tail_mean_injected_work": 0.0691882091383878,
+          "tail_mean_weights": [
+            0.6306559006546602,
+            0.31518182537716427,
+            0.05416227396820266
+          ],
+          "tail_min_dissipation": 0.0691884593470163,
+          "tail_weight_maxima": [
+            0.6306559006546517,
+            0.3151818253771666,
+            0.05416227396820537
+          ],
+          "tail_weight_minima": [
+            0.6306559006546306,
+            0.3151818253771475,
+            0.05416227396820009
+          ]
+        },
+        "0.4": {
+          "action_periodicity_absolute_error": 8.881784197001252e-16,
+          "actual_step": 0.019984686091538126,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 3.185444388936136e-14,
+          "cycle_to_cycle_weight_max_error": 7.105427357601002e-15,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6565346724199366,
+              0.24236554666198928,
+              0.10109978091807414
+            ],
+            [
+              0.6565346724199362,
+              0.24236554666198865,
+              0.10109978091807492
+            ],
+            [
+              0.6565346724199365,
+              0.24236554666198779,
+              0.10109978091807573
+            ],
+            [
+              0.656534672419935,
+              0.2423655466619893,
+              0.10109978091807557
+            ],
+            [
+              0.6565346724199372,
+              0.24236554666198795,
+              0.10109978091807488
+            ],
+            [
+              0.6565346724199371,
+              0.2423655466619885,
+              0.10109978091807441
+            ],
+            [
+              0.6565346724199375,
+              0.24236554666198842,
+              0.10109978091807423
+            ],
+            [
+              0.6565346724199359,
+              0.2423655466619889,
+              0.10109978091807521
+            ],
+            [
+              0.6565346724199338,
+              0.24236554666199073,
+              0.10109978091807556
+            ],
+            [
+              0.6565346724199332,
+              0.24236554666199198,
+              0.10109978091807484
+            ],
+            [
+              0.656534672419937,
+              0.24236554666198865,
+              0.10109978091807423
+            ],
+            [
+              0.6565346724199339,
+              0.24236554666199103,
+              0.10109978091807516
+            ],
+            [
+              0.6565346724199359,
+              0.24236554666198884,
+              0.10109978091807523
+            ],
+            [
+              0.6565346724199365,
+              0.24236554666198865,
+              0.10109978091807487
+            ],
+            [
+              0.6565346724199357,
+              0.2423655466619894,
+              0.10109978091807484
+            ],
+            [
+              0.6565346724199355,
+              0.24236554666198964,
+              0.1010997809180749
+            ],
+            [
+              0.6565346724199359,
+              0.24236554666198976,
+              0.10109978091807433
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 1.2817949601253753e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 2.156184688639373e-16,
+          "steps_per_cycle": 786,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.17165103918530988,
+          "tail_mean_dissipation": 0.17165103918530594,
+          "tail_mean_injected_work": 0.17164883897093666,
+          "tail_mean_weights": [
+            0.6565346724199291,
+            0.24236554666199164,
+            0.10109978091807582
+          ],
+          "tail_min_dissipation": 0.17165103918530228,
+          "tail_weight_maxima": [
+            0.6565346724199417,
+            0.24236554666199334,
+            0.10109978091807806
+          ],
+          "tail_weight_minima": [
+            0.6565346724199305,
+            0.24236554666198462,
+            0.10109978091807303
+          ]
+        },
+        "0.8": {
+          "action_periodicity_absolute_error": 8.419931418757187e-13,
+          "actual_step": 0.019984686091538126,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 8.824520833475638e-10,
+          "cycle_to_cycle_weight_max_error": 1.0244227688360752e-10,
+          "cycles": 6,
+          "drive_rate_per_event": 0.8,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6573565619231302,
+              0.23907158128039427,
+              0.10357185679647557
+            ],
+            [
+              0.6573565619233817,
+              0.23907158128030895,
+              0.10357185679630938
+            ],
+            [
+              0.6573565619234674,
+              0.23907158128030892,
+              0.10357185679622373
+            ],
+            [
+              0.6573565619234917,
+              0.239071581280256,
+              0.10357185679625247
+            ],
+            [
+              0.6573565619235071,
+              0.2390715812801576,
+              0.10357185679633522
+            ],
+            [
+              0.6573565619235271,
+              0.2390715812800737,
+              0.10357185679639927
+            ],
+            [
+              0.6573565619235419,
+              0.23907158128004266,
+              0.1035718567964154
+            ],
+            [
+              0.6573565619235464,
+              0.23907158128006825,
+              0.10357185679638527
+            ],
+            [
+              0.6573565619235424,
+              0.2390715812801214,
+              0.10357185679633614
+            ],
+            [
+              0.6573565619235407,
+              0.23907158128016584,
+              0.10357185679629327
+            ],
+            [
+              0.6573565619235384,
+              0.23907158128019496,
+              0.10357185679626653
+            ],
+            [
+              0.657356561923539,
+              0.23907158128020123,
+              0.10357185679625988
+            ],
+            [
+              0.6573565619235477,
+              0.23907158128019104,
+              0.10357185679626112
+            ],
+            [
+              0.657356561923553,
+              0.23907158128017844,
+              0.10357185679626855
+            ],
+            [
+              0.657356561923561,
+              0.239071581280166,
+              0.10357185679627298
+            ],
+            [
+              0.6573565619235671,
+              0.23907158128015973,
+              0.10357185679627323
+            ],
+            [
+              0.6573565619235683,
+              0.23907158128015787,
+              0.10357185679627383
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 4.590540775004122e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 7.178558435585916e-13,
+          "steps_per_cycle": 393,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.31681962533029795,
+          "tail_mean_dissipation": 0.31681962533010566,
+          "tail_mean_injected_work": 0.31680508159602166,
+          "tail_mean_weights": [
+            0.6573565619235137,
+            0.23907158128017827,
+            0.10357185679630683
+          ],
+          "tail_min_dissipation": 0.31681962532899316,
+          "tail_weight_maxima": [
+            0.6573565619235697,
+            0.23907158128039427,
+            0.10357185679647557
+          ],
+          "tail_weight_minima": [
+            0.6573565619231302,
+            0.23907158128004252,
+            0.103571856796222
+          ]
+        }
+      }
+    },
+    "numpy_version": "2.5.1",
+    "orthogonal_frame_runs": {
+      "affine_invariant": {
+        "action_periodicity_absolute_error": 8.881784197001252e-16,
+        "actual_step": 0.019984686091538126,
+        "completion": "affine_invariant",
+        "cycle_to_cycle_dissipation_relative_error": 7.722819628487501e-14,
+        "cycle_to_cycle_weight_max_error": 5.88418203051333e-14,
+        "cycles": 6,
+        "drive_rate_per_event": 0.4,
+        "event_parameter": "dimensionless event count n",
+        "final_cycle_weight_samples": [
+          [
+            0.6202677828989516,
+            0.3367837711125713,
+            0.042948445988477184
+          ],
+          [
+            0.6202677828989479,
+            0.3367837711125739,
+            0.042948445988478266
+          ],
+          [
+            0.6202677828989318,
+            0.33678377111259006,
+            0.042948445988478176
+          ],
+          [
+            0.6202677828989337,
+            0.33678377111258445,
+            0.04294844598848186
+          ],
+          [
+            0.6202677828989177,
+            0.3367837711126003,
+            0.042948445988482076
+          ],
+          [
+            0.6202677828989326,
+            0.3367837711125855,
+            0.042948445988481965
+          ],
+          [
+            0.6202677828989421,
+            0.33678377111257857,
+            0.04294844598847936
+          ],
+          [
+            0.6202677828989368,
+            0.33678377111258306,
+            0.04294844598848009
+          ],
+          [
+            0.6202677828989329,
+            0.336783771112588,
+            0.04294844598847901
+          ],
+          [
+            0.6202677828989251,
+            0.33678377111259156,
+            0.042948445988483304
+          ],
+          [
+            0.620267782898932,
+            0.3367837711125914,
+            0.04294844598847662
+          ],
+          [
+            0.6202677828989257,
+            0.3367837711125948,
+            0.04294844598847961
+          ],
+          [
+            0.6202677828988957,
+            0.3367837711126201,
+            0.04294844598848417
+          ],
+          [
+            0.6202677828989352,
+            0.3367837711125839,
+            0.04294844598848101
+          ],
+          [
+            0.6202677828989628,
+            0.33678377111256697,
+            0.04294844598847014
+          ],
+          [
+            0.620267782898932,
+            0.3367837711125863,
+            0.04294844598848167
+          ],
+          [
+            0.6202677828989566,
+            0.3367837711125653,
+            0.042948445988478155
+          ]
+        ],
+        "mean_work_to_dissipation_relative_error": 1.8740840868063503e-05,
+        "minimum_state_eigenvalue": 0.6667662827768982,
+        "requested_step": 0.02,
+        "state_periodicity_relative_error": 3.0885098999678143e-15,
+        "steps_per_cycle": 786,
+        "tail_cycles": 2,
+        "tail_max_dissipation": 0.1768232829434152,
+        "tail_mean_dissipation": 0.17682328294340696,
+        "tail_mean_injected_work": 0.17681996912639955,
+        "tail_mean_weights": [
+          0.6202677828989331,
+          0.33678377111258495,
+          0.04294844598847992
+        ],
+        "tail_min_dissipation": 0.1768232829433981,
+        "tail_weight_maxima": [
+          0.6202677828989666,
+          0.3367837711126293,
+          0.04294844598848674
+        ],
+        "tail_weight_minima": [
+          0.6202677828988857,
+          0.33678377111256025,
+          0.04294844598846859
+        ]
+      },
+      "euclidean": {
+        "action_periodicity_absolute_error": 8.881784197001252e-16,
+        "actual_step": 0.019984686091538126,
+        "completion": "euclidean",
+        "cycle_to_cycle_dissipation_relative_error": 3.185444388936136e-14,
+        "cycle_to_cycle_weight_max_error": 7.105427357601002e-15,
+        "cycles": 6,
+        "drive_rate_per_event": 0.4,
+        "event_parameter": "dimensionless event count n",
+        "final_cycle_weight_samples": [
+          [
+            0.6565346724199366,
+            0.24236554666198928,
+            0.10109978091807414
+          ],
+          [
+            0.6565346724199362,
+            0.24236554666198865,
+            0.10109978091807492
+          ],
+          [
+            0.6565346724199365,
+            0.24236554666198779,
+            0.10109978091807573
+          ],
+          [
+            0.656534672419935,
+            0.2423655466619893,
+            0.10109978091807557
+          ],
+          [
+            0.6565346724199372,
+            0.24236554666198795,
+            0.10109978091807488
+          ],
+          [
+            0.6565346724199371,
+            0.2423655466619885,
+            0.10109978091807441
+          ],
+          [
+            0.6565346724199375,
+            0.24236554666198842,
+            0.10109978091807423
+          ],
+          [
+            0.6565346724199359,
+            0.2423655466619889,
+            0.10109978091807521
+          ],
+          [
+            0.6565346724199338,
+            0.24236554666199073,
+            0.10109978091807556
+          ],
+          [
+            0.6565346724199332,
+            0.24236554666199198,
+            0.10109978091807484
+          ],
+          [
+            0.656534672419937,
+            0.24236554666198865,
+            0.10109978091807423
+          ],
+          [
+            0.6565346724199339,
+            0.24236554666199103,
+            0.10109978091807516
+          ],
+          [
+            0.6565346724199359,
+            0.24236554666198884,
+            0.10109978091807523
+          ],
+          [
+            0.6565346724199365,
+            0.24236554666198865,
+            0.10109978091807487
+          ],
+          [
+            0.6565346724199357,
+            0.2423655466619894,
+            0.10109978091807484
+          ],
+          [
+            0.6565346724199355,
+            0.24236554666198964,
+            0.1010997809180749
+          ],
+          [
+            0.6565346724199359,
+            0.24236554666198976,
+            0.10109978091807433
+          ]
+        ],
+        "mean_work_to_dissipation_relative_error": 1.2817949601253753e-05,
+        "minimum_state_eigenvalue": 0.6667662827768982,
+        "requested_step": 0.02,
+        "state_periodicity_relative_error": 2.156184688639373e-16,
+        "steps_per_cycle": 786,
+        "tail_cycles": 2,
+        "tail_max_dissipation": 0.17165103918530988,
+        "tail_mean_dissipation": 0.17165103918530594,
+        "tail_mean_injected_work": 0.17164883897093666,
+        "tail_mean_weights": [
+          0.6565346724199291,
+          0.24236554666199164,
+          0.10109978091807582
+        ],
+        "tail_min_dissipation": 0.17165103918530228,
+        "tail_weight_maxima": [
+          0.6565346724199417,
+          0.24236554666199334,
+          0.10109978091807806
+        ],
+        "tail_weight_minima": [
+          0.6565346724199305,
+          0.24236554666198462,
+          0.10109978091807303
+        ]
+      }
+    },
+    "parameters": {
+      "base_requested_step": 0.02,
+      "drive_cycles": 6,
+      "drive_rates_per_event": [
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.8
+      ],
+      "fitted_parameters": [],
+      "forbidden_insertions": [
+        "target concentration",
+        "rho",
+        "Lambda",
+        "cosmological time",
+        "dimensional drive rate"
+      ],
+      "rotation_axis": [
+        0.5773502691896258,
+        0.5773502691896258,
+        0.5773502691896258
+      ],
+      "sigma": 0.2,
+      "tail_cycles": 2,
+      "target_eigenvalues": [
+        0.9,
+        1.4,
+        2.4
+      ]
+    },
+    "probe": "du_heterodox_driven_bianconi_probe",
+    "rotating_isotropic_null": {
+      "affine_invariant": {
+        "any_weights_defined": false,
+        "completion": "affine_invariant",
+        "drive_rate_per_event": 0.4,
+        "maximum_dissipation": 5.2832660608068674e-30,
+        "maximum_log_derivative_norm": 3.015379175430088e-17,
+        "maximum_target_change": 2.5841783958828423e-15,
+        "phase_samples": 33
+      },
+      "euclidean": {
+        "any_weights_defined": false,
+        "completion": "euclidean",
+        "drive_rate_per_event": 0.4,
+        "maximum_dissipation": 3.7809874779727306e-30,
+        "maximum_log_derivative_norm": 3.015379175430088e-17,
+        "maximum_target_change": 2.5841783958828423e-15,
+        "phase_samples": 33
+      }
+    },
+    "scientific_reading": {
+      "branch_result": "Do not reopen standalone influence-to-Lambda inference. Reuse the object inside a native order-first growth law whose drive and units are generated independently.",
+      "contested_finding": "NARROWED",
+      "formalization_local": "D->0 is established for fixed-target closed relaxation, not for open Bianconi dynamics.",
+      "positive_result": "A target-free-in-concentration rotating anisotropic drive sustains nonzero periodic dissipation through injected work.",
+      "scale_result": "The magnitude follows the imported dimensionless cadence; no unit-bearing or endogenous physical scale is generated."
+    },
+    "small_drive_loglog_slopes": {
+      "affine_invariant": 1.9442806606698833,
+      "euclidean": 1.790735712765854
+    },
+    "timestep_refinement": {
+      "affine_invariant": {
+        "0.01": {
+          "action_periodicity_absolute_error": 7.105427357601002e-15,
+          "actual_step": 0.009998703544206853,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 1.1547015803059013e-13,
+          "cycle_to_cycle_weight_max_error": 8.826273045769994e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6204822508230936,
+              0.33636193636297557,
+              0.04315581281393088
+            ],
+            [
+              0.6204822508231085,
+              0.33636193636297274,
+              0.04315581281391878
+            ],
+            [
+              0.6204822508231239,
+              0.336361936362958,
+              0.04315581281391814
+            ],
+            [
+              0.6204822508231528,
+              0.3363619363629369,
+              0.043155812813910406
+            ],
+            [
+              0.6204822508231459,
+              0.3363619363629419,
+              0.043155812813912175
+            ],
+            [
+              0.620482250823143,
+              0.33636193636294637,
+              0.0431558128139107
+            ],
+            [
+              0.6204822508231379,
+              0.33636193636295325,
+              0.043155812813908824
+            ],
+            [
+              0.6204822508231483,
+              0.3363619363629394,
+              0.043155812813912266
+            ],
+            [
+              0.6204822508231156,
+              0.3363619363629676,
+              0.043155812813916866
+            ],
+            [
+              0.6204822508231156,
+              0.3363619363629684,
+              0.04315581281391598
+            ],
+            [
+              0.6204822508231276,
+              0.3363619363629597,
+              0.043155812813912876
+            ],
+            [
+              0.6204822508231375,
+              0.3363619363629493,
+              0.043155812813913376
+            ],
+            [
+              0.6204822508231034,
+              0.3363619363629776,
+              0.04315581281391897
+            ],
+            [
+              0.620482250823108,
+              0.336361936362971,
+              0.04315581281392091
+            ],
+            [
+              0.6204822508231235,
+              0.3363619363629588,
+              0.04315581281391771
+            ],
+            [
+              0.6204822508230938,
+              0.3363619363629803,
+              0.04315581281392578
+            ],
+            [
+              0.6204822508230967,
+              0.33636193636298056,
+              0.043155812813922736
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 4.685064048600608e-06,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.01,
+          "state_periodicity_relative_error": 8.176655888719777e-15,
+          "steps_per_cycle": 1571,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.17619129715633994,
+          "tail_mean_dissipation": 0.17619129715632917,
+          "tail_mean_injected_work": 0.17619047168881719,
+          "tail_mean_weights": [
+            0.6204822508231165,
+            0.33636193636296097,
+            0.043155812813916845
+          ],
+          "tail_min_dissipation": 0.17619129715631812,
+          "tail_weight_maxima": [
+            0.6204822508231765,
+            0.33636193636300044,
+            0.04315581281393407
+          ],
+          "tail_weight_minima": [
+            0.6204822508230674,
+            0.3363619363629125,
+            0.04315581281390753
+          ]
+        },
+        "0.02": {
+          "action_periodicity_absolute_error": 8.881784197001252e-16,
+          "actual_step": 0.019984686091538126,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 7.722819628487501e-14,
+          "cycle_to_cycle_weight_max_error": 5.88418203051333e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6202677828989516,
+              0.3367837711125713,
+              0.042948445988477184
+            ],
+            [
+              0.6202677828989479,
+              0.3367837711125739,
+              0.042948445988478266
+            ],
+            [
+              0.6202677828989318,
+              0.33678377111259006,
+              0.042948445988478176
+            ],
+            [
+              0.6202677828989337,
+              0.33678377111258445,
+              0.04294844598848186
+            ],
+            [
+              0.6202677828989177,
+              0.3367837711126003,
+              0.042948445988482076
+            ],
+            [
+              0.6202677828989326,
+              0.3367837711125855,
+              0.042948445988481965
+            ],
+            [
+              0.6202677828989421,
+              0.33678377111257857,
+              0.04294844598847936
+            ],
+            [
+              0.6202677828989368,
+              0.33678377111258306,
+              0.04294844598848009
+            ],
+            [
+              0.6202677828989329,
+              0.336783771112588,
+              0.04294844598847901
+            ],
+            [
+              0.6202677828989251,
+              0.33678377111259156,
+              0.042948445988483304
+            ],
+            [
+              0.620267782898932,
+              0.3367837711125914,
+              0.04294844598847662
+            ],
+            [
+              0.6202677828989257,
+              0.3367837711125948,
+              0.04294844598847961
+            ],
+            [
+              0.6202677828988957,
+              0.3367837711126201,
+              0.04294844598848417
+            ],
+            [
+              0.6202677828989352,
+              0.3367837711125839,
+              0.04294844598848101
+            ],
+            [
+              0.6202677828989628,
+              0.33678377111256697,
+              0.04294844598847014
+            ],
+            [
+              0.620267782898932,
+              0.3367837711125863,
+              0.04294844598848167
+            ],
+            [
+              0.6202677828989566,
+              0.3367837711125653,
+              0.042948445988478155
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 1.8740840868063503e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 3.0885098999678143e-15,
+          "steps_per_cycle": 786,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.1768232829434152,
+          "tail_mean_dissipation": 0.17682328294340696,
+          "tail_mean_injected_work": 0.17681996912639955,
+          "tail_mean_weights": [
+            0.6202677828989331,
+            0.33678377111258495,
+            0.04294844598847992
+          ],
+          "tail_min_dissipation": 0.1768232829433981,
+          "tail_weight_maxima": [
+            0.6202677828989666,
+            0.3367837711126293,
+            0.04294844598848674
+          ],
+          "tail_weight_minima": [
+            0.6202677828988857,
+            0.33678377111256025,
+            0.04294844598846859
+          ]
+        },
+        "0.04": {
+          "action_periodicity_absolute_error": 0.0,
+          "actual_step": 0.03996937218307625,
+          "completion": "affine_invariant",
+          "cycle_to_cycle_dissipation_relative_error": 7.994618554289156e-14,
+          "cycle_to_cycle_weight_max_error": 4.063416270128073e-14,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6198355838416124,
+              0.3376311107304852,
+              0.042533305427902436
+            ],
+            [
+              0.619835583841593,
+              0.3376311107305008,
+              0.04253330542790614
+            ],
+            [
+              0.6198355838415829,
+              0.3376311107305076,
+              0.04253330542790965
+            ],
+            [
+              0.6198355838416005,
+              0.33763111073049434,
+              0.0425333054279051
+            ],
+            [
+              0.6198355838416088,
+              0.3376311107304899,
+              0.042533305427901395
+            ],
+            [
+              0.6198355838416203,
+              0.33763111073048124,
+              0.04253330542789844
+            ],
+            [
+              0.6198355838416332,
+              0.33763111073046964,
+              0.042533305427897274
+            ],
+            [
+              0.6198355838416174,
+              0.33763111073048163,
+              0.04253330542790094
+            ],
+            [
+              0.6198355838416174,
+              0.33763111073047863,
+              0.042533305427903956
+            ],
+            [
+              0.6198355838416248,
+              0.3376311107304741,
+              0.042533305427901145
+            ],
+            [
+              0.6198355838416202,
+              0.33763111073047647,
+              0.042533305427903435
+            ],
+            [
+              0.61983558384161,
+              0.33763111073048513,
+              0.042533305427904934
+            ],
+            [
+              0.6198355838416134,
+              0.33763111073048413,
+              0.04253330542790252
+            ],
+            [
+              0.6198355838415991,
+              0.33763111073049556,
+              0.042533305427905364
+            ],
+            [
+              0.6198355838416177,
+              0.33763111073048124,
+              0.04253330542790097
+            ],
+            [
+              0.6198355838416026,
+              0.3376311107304937,
+              0.04253330542790377
+            ],
+            [
+              0.6198355838416113,
+              0.3376311107304866,
+              0.042533305427902096
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 7.516038098639882e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.04,
+          "state_periodicity_relative_error": 2.373922482299126e-15,
+          "steps_per_cycle": 393,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.1781024347081518,
+          "tail_mean_dissipation": 0.17810243470813927,
+          "tail_mean_injected_work": 0.178089048461292,
+          "tail_mean_weights": [
+            0.6198355838416141,
+            0.3376311107304848,
+            0.04253330542790223
+          ],
+          "tail_min_dissipation": 0.1781024347081323,
+          "tail_weight_maxima": [
+            0.6198355838416445,
+            0.3376311107305152,
+            0.04253330542790986
+          ],
+          "tail_weight_minima": [
+            0.6198355838415752,
+            0.3376311107304603,
+            0.04253330542789521
+          ]
+        }
+      },
+      "euclidean": {
+        "0.01": {
+          "action_periodicity_absolute_error": 1.7763568394002505e-15,
+          "actual_step": 0.009998703544206853,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 3.324117612331362e-14,
+          "cycle_to_cycle_weight_max_error": 7.327471962526033e-15,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6566053136463361,
+              0.24208735235225418,
+              0.10130733400140983
+            ],
+            [
+              0.6566053136463353,
+              0.2420873523522556,
+              0.10130733400140915
+            ],
+            [
+              0.6566053136463337,
+              0.24208735235225587,
+              0.10130733400141048
+            ],
+            [
+              0.6566053136463347,
+              0.2420873523522553,
+              0.10130733400141015
+            ],
+            [
+              0.6566053136463317,
+              0.24208735235225773,
+              0.10130733400141059
+            ],
+            [
+              0.656605313646336,
+              0.24208735235225398,
+              0.10130733400141004
+            ],
+            [
+              0.656605313646335,
+              0.24208735235225443,
+              0.10130733400141054
+            ],
+            [
+              0.6566053136463369,
+              0.24208735235225243,
+              0.10130733400141059
+            ],
+            [
+              0.6566053136463363,
+              0.2420873523522539,
+              0.1013073340014099
+            ],
+            [
+              0.6566053136463333,
+              0.24208735235225629,
+              0.10130733400141036
+            ],
+            [
+              0.6566053136463326,
+              0.2420873523522563,
+              0.10130733400141112
+            ],
+            [
+              0.6566053136463342,
+              0.2420873523522553,
+              0.10130733400141056
+            ],
+            [
+              0.6566053136463347,
+              0.24208735235225437,
+              0.10130733400141097
+            ],
+            [
+              0.6566053136463318,
+              0.24208735235225615,
+              0.10130733400141212
+            ],
+            [
+              0.6566053136463367,
+              0.2420873523522537,
+              0.10130733400140969
+            ],
+            [
+              0.6566053136463341,
+              0.24208735235225523,
+              0.10130733400141065
+            ],
+            [
+              0.6566053136463355,
+              0.24208735235225434,
+              0.10130733400141025
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 3.2073100170998144e-06,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.01,
+          "state_periodicity_relative_error": 3.7268927585405994e-16,
+          "steps_per_cycle": 1571,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.17117002659883226,
+          "tail_mean_dissipation": 0.17117002659882827,
+          "tail_mean_injected_work": 0.17116947760348733,
+          "tail_mean_weights": [
+            0.6566053136463181,
+            0.24208735235225703,
+            0.1013073340014073
+          ],
+          "tail_min_dissipation": 0.17117002659882452,
+          "tail_weight_maxima": [
+            0.6566053136463409,
+            0.24208735235225923,
+            0.10130733400141255
+          ],
+          "tail_weight_minima": [
+            0.6566053136463293,
+            0.2420873523522494,
+            0.10130733400140807
+          ]
+        },
+        "0.02": {
+          "action_periodicity_absolute_error": 8.881784197001252e-16,
+          "actual_step": 0.019984686091538126,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 3.185444388936136e-14,
+          "cycle_to_cycle_weight_max_error": 7.105427357601002e-15,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6565346724199366,
+              0.24236554666198928,
+              0.10109978091807414
+            ],
+            [
+              0.6565346724199362,
+              0.24236554666198865,
+              0.10109978091807492
+            ],
+            [
+              0.6565346724199365,
+              0.24236554666198779,
+              0.10109978091807573
+            ],
+            [
+              0.656534672419935,
+              0.2423655466619893,
+              0.10109978091807557
+            ],
+            [
+              0.6565346724199372,
+              0.24236554666198795,
+              0.10109978091807488
+            ],
+            [
+              0.6565346724199371,
+              0.2423655466619885,
+              0.10109978091807441
+            ],
+            [
+              0.6565346724199375,
+              0.24236554666198842,
+              0.10109978091807423
+            ],
+            [
+              0.6565346724199359,
+              0.2423655466619889,
+              0.10109978091807521
+            ],
+            [
+              0.6565346724199338,
+              0.24236554666199073,
+              0.10109978091807556
+            ],
+            [
+              0.6565346724199332,
+              0.24236554666199198,
+              0.10109978091807484
+            ],
+            [
+              0.656534672419937,
+              0.24236554666198865,
+              0.10109978091807423
+            ],
+            [
+              0.6565346724199339,
+              0.24236554666199103,
+              0.10109978091807516
+            ],
+            [
+              0.6565346724199359,
+              0.24236554666198884,
+              0.10109978091807523
+            ],
+            [
+              0.6565346724199365,
+              0.24236554666198865,
+              0.10109978091807487
+            ],
+            [
+              0.6565346724199357,
+              0.2423655466619894,
+              0.10109978091807484
+            ],
+            [
+              0.6565346724199355,
+              0.24236554666198964,
+              0.1010997809180749
+            ],
+            [
+              0.6565346724199359,
+              0.24236554666198976,
+              0.10109978091807433
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 1.2817949601253753e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.02,
+          "state_periodicity_relative_error": 2.156184688639373e-16,
+          "steps_per_cycle": 786,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.17165103918530988,
+          "tail_mean_dissipation": 0.17165103918530594,
+          "tail_mean_injected_work": 0.17164883897093666,
+          "tail_mean_weights": [
+            0.6565346724199291,
+            0.24236554666199164,
+            0.10109978091807582
+          ],
+          "tail_min_dissipation": 0.17165103918530228,
+          "tail_weight_maxima": [
+            0.6565346724199417,
+            0.24236554666199334,
+            0.10109978091807806
+          ],
+          "tail_weight_minima": [
+            0.6565346724199305,
+            0.24236554666198462,
+            0.10109978091807303
+          ]
+        },
+        "0.04": {
+          "action_periodicity_absolute_error": 1.7763568394002505e-15,
+          "actual_step": 0.03996937218307625,
+          "completion": "euclidean",
+          "cycle_to_cycle_dissipation_relative_error": 3.199696880101243e-14,
+          "cycle_to_cycle_weight_max_error": 6.328271240363392e-15,
+          "cycles": 6,
+          "drive_rate_per_event": 0.4,
+          "event_parameter": "dimensionless event count n",
+          "final_cycle_weight_samples": [
+            [
+              0.6563914430930843,
+              0.24292689526538483,
+              0.10068166164153092
+            ],
+            [
+              0.6563914430930833,
+              0.24292689526538513,
+              0.10068166164153168
+            ],
+            [
+              0.6563914430930836,
+              0.24292689526538522,
+              0.10068166164153115
+            ],
+            [
+              0.6563914430930844,
+              0.24292689526538488,
+              0.10068166164153065
+            ],
+            [
+              0.6563914430930835,
+              0.24292689526538505,
+              0.10068166164153142
+            ],
+            [
+              0.6563914430930838,
+              0.24292689526538436,
+              0.1006816616415317
+            ],
+            [
+              0.6563914430930838,
+              0.2429268952653848,
+              0.10068166164153122
+            ],
+            [
+              0.6563914430930825,
+              0.24292689526538644,
+              0.10068166164153107
+            ],
+            [
+              0.6563914430930806,
+              0.2429268952653874,
+              0.100681661641532
+            ],
+            [
+              0.6563914430930834,
+              0.24292689526538527,
+              0.10068166164153132
+            ],
+            [
+              0.6563914430930826,
+              0.24292689526538563,
+              0.10068166164153172
+            ],
+            [
+              0.6563914430930813,
+              0.2429268952653869,
+              0.1006816616415318
+            ],
+            [
+              0.6563914430930838,
+              0.24292689526538463,
+              0.10068166164153156
+            ],
+            [
+              0.6563914430930823,
+              0.24292689526538597,
+              0.10068166164153174
+            ],
+            [
+              0.6563914430930836,
+              0.24292689526538533,
+              0.1006816616415311
+            ],
+            [
+              0.656391443093084,
+              0.2429268952653854,
+              0.1006816616415307
+            ],
+            [
+              0.6563914430930818,
+              0.2429268952653867,
+              0.10068166164153153
+            ]
+          ],
+          "mean_work_to_dissipation_relative_error": 5.1312592810520784e-05,
+          "minimum_state_eigenvalue": 0.6667662827768982,
+          "requested_step": 0.04,
+          "state_periodicity_relative_error": 3.33218514788624e-16,
+          "steps_per_cycle": 393,
+          "tail_cycles": 2,
+          "tail_max_dissipation": 0.17262133741042093,
+          "tail_mean_dissipation": 0.17262133741041705,
+          "tail_mean_injected_work": 0.1726124797620201,
+          "tail_mean_weights": [
+            0.6563914430930785,
+            0.24292689526538458,
+            0.10068166164153095
+          ],
+          "tail_min_dissipation": 0.17262133741041347,
+          "tail_weight_maxima": [
+            0.6563914430930875,
+            0.2429268952653893,
+            0.10068166164153339
+          ],
+          "tail_weight_minima": [
+            0.6563914430930782,
+            0.24292689526538178,
+            0.10068166164152938
+          ]
+        }
+      }
+    }
+  }
+}

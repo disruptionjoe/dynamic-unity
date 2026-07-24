@@ -112,6 +112,54 @@ Stop proxy, coefficient, `rho`, and normalized-profile proliferation. Reopen onl
 incomparable pair, and (c) a unit-bearing observable map. This is a branch stop, not a concept kill.
 See `physical-influence-selector-wave-synthesis-2026-07-24.md`.
 
+### 2026-07-24 five-persona council reappraisal
+
+The independent council pass preserves the constructive receipts but narrows
+their incremental concept-level interpretation.
+
+An ordinary quadratic relaxation with no higher-order redistribution
+mechanism reproduces both the point-like normalized terminal residue and the
+exact replication signature
+`(D,lambda_2,lambda_H,G,max p)~(K,K^-1/2,K^-1/2,K^0,K^-1)`. Those features are
+generic normalization/slow-mode effects, not discriminators of the full
+concept invariant. PHY-02 therefore constructed live, concept-compatible
+formalization components; earlier diverse-formalization structural support
+remains, but the wave did not independently establish `Lambda=f(deviation)`,
+physical monotonicity, or system-owned higher-order sourcing.
+
+A conditional open Bianconi construction also narrows the Track A scope:
+fixed-target closed relaxation has `D->0`, while a rotating anisotropic
+environment sustains work-balanced `D>0`. The cadence and anisotropy are
+imported, so this does not satisfy the concept invariant's system-owned
+mechanism clause or generate a physical scale.
+
+Current factored grade:
+
+```text
+LIVE_INFLUENCE_OBJECT_EXISTENCE = CONSTRUCTIVELY_REALIZED
+DU_MECHANISM_LINK               = CONDITIONAL / COMPLETION-DEPENDENT
+CONCEPT_RELEVANCE               = STRUCTURAL_SUPPORT
+FUNCTIONAL_SELECTOR             = OPEN
+PHYSICAL_OBSERVABLE_IDENTITY    = OPEN
+DIMENSIONAL_SCALE               = UNASSESSED
+LAMBDA_VALUE                    = OPEN
+```
+
+The prior three-part reopener is now staged. An independent response `R`, a
+matched physical embedding `E`, and a unit-bearing map `U` may be built and
+killed separately. `R∧E` is required for a physical selector result;
+`R∧E∧U` is required before candidate physical identification. This permits the
+active causal-growth program to use the influence objects as diagnostics
+without reopening standalone proxy work.
+
+The wild-frontier bridge supplies a true expected transition-Fisher profile
+inside a finite causal-growth experiment, but its direct cardinality-running
+coupling fails full path covariance. That formalization is killed locally and
+does not change the factored concept grade.
+
+See
+`science-council-five-persona-next-actions-synthesis-2026-07-24.md`.
+
 ## Divergent-persona formalization family (2026-07-22) — measurable cross-domain reframes
 Ten wildly-divergent lenses each reframed CONCEPT-DU-001; the most MEASURABLE distinct additions to the
 family (each a way to make "deviation of the effective influence-distribution from uniform" precise):

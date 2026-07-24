@@ -11,10 +11,29 @@ track_a: explorations/bianconi-dissipation-influence-spectrum-2026-07-24.md
 track_b: explorations/record-fisher-influence-leverage-2026-07-24.md
 comparison_probe: tests/du_physical_influence_selector_comparison.py
 comparison_artifact: tests/artifacts/du_physical_influence_selector_comparison_result.json
+successor_council: explorations/science-council-five-persona-next-actions-synthesis-2026-07-24.md
 verdict: "OBJECTS FOUND / SELECTOR OPEN / NO NONZERO PHYSICAL SCALE IDENTIFIED — no claim banked or seeded"
 ---
 
 # SWING-DU-PHY-02 synthesis
+
+## Subsequent scope refinement
+
+The five-persona Science Council reappraisal preserves this wave's central
+no-selector/no-scale disposition but narrows four surrounding readings:
+
+- the live objects are factored concept-compatible components rather than a
+  complete concept-level promotion earned by this wave;
+- `TRANSIENT-ONLY` applies to the tested fixed-target closed Bianconi
+  relaxation, while imported open driving can sustain activity;
+- response, embedding, and units may be built sequentially, although all are
+  required before physical identification; and
+- `HC-DU-011 + HC-DU-022` is a staged program whose first build is full
+  natural-labeling path covariance on small causets.
+
+The historical result below remains unchanged within its frozen experiment
+scope. Current research state lives in
+`science-council-five-persona-next-actions-synthesis-2026-07-24.md`.
 
 ## Executive result
 

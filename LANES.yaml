@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 10
+manifest_revision: 11
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -140,20 +140,76 @@ physical_influence_reprioritization:
     or prediction seed is identified.
   disposition: >-
     OBJECTS-FOUND / SELECTOR-OPEN / NO-NONZERO-PHYSICAL-SCALE-IDENTIFIED.
-    CONCEPT-DU-001 is supported by live objects at formalization grade; selector, scale, and value
-    remain open. The bounded physicalization reopener is consumed.
+    CONCEPT-DU-001 has live concept-compatible formalization components; the complete concept
+    grade is factored by the five-persona reappraisal. Selector, physical identity, scale, and
+    value remain open. Standalone proxy physicalization is consumed.
   influence_reopener: >-
-    Reopen only when one construction supplies all three: an independently motivated response law,
-    a matched embedding of a held-out incomparable profile pair, and a unit-bearing map from the
-    response to the proposed physical observable. Stop proxy, coefficient, rho, and normalized-
-    profile proliferation.
+    Keep standalone proxy, coefficient, rho, endpoint-map and normalized-profile work stopped.
+    Inside the active causal-growth program, an independently motivated response R, a matched
+    held-out physical embedding E, and a unit-bearing map U may be built and killed sequentially.
+    R-and-E is required for a physical selector result; R-and-E-and-U is the conjunction required
+    before candidate physical identification.
   next_move: >-
-    Restore the already-prioritized coupled HC-DU-011 + HC-DU-022 order-first causal scale
-    generator as the next major build: a label-invariant causet growth/action law whose
-    past-cardinality feeds back, reconstructs geometry, and endogenously generates a dimensional
-    memory scale before cosmological calibration. Finality remains stopped without a
-    finality-specific observable; Bianconi amplitude/mean remains stopped without native screening
-    or a selected mobility.
+    Treat coupled HC-DU-011 + HC-DU-022 as the next major program, not one monolithic build.
+    Immediate build HC-DU-011A is the full covariance passport plus exact small-unlabeled-causet
+    harness. Statewise relabeling is insufficient: equal path weight across natural labelings is
+    required. Direct cardinality-running transitive percolation is a killed control. Only
+    path-covariant survivors may attempt a regulator-stable hierarchy relative to one declared
+    microscopic unit, geometry recovery, response/noise, or cosmology.
+five_persona_next_actions:
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: launch one independent sub-agent for each Science Council persona, have each
+    produce a sequenced roadmap, hypothesis/claim/conjecture ledger, contested-finding swing, stop
+    ledger, missed-outcome review, and final unconstrained non-padded divergent wish list.
+  contract_ref: >-
+    explorations/science-council-five-persona-next-actions-contract-2026-07-24.md
+  synthesis_ref: >-
+    explorations/science-council-five-persona-next-actions-synthesis-2026-07-24.md
+  divergent_index_ref: >-
+    explorations/science-council-five-persona-divergent-wishlist-index-2026-07-24.md
+  persona_refs:
+    orthodox: explorations/science-council-orthodox-next-actions-2026-07-24.md
+    heterodox: explorations/science-council-heterodox-next-actions-2026-07-24.md
+    commercial: explorations/science-council-commercial-next-actions-2026-07-24.md
+    wild_frontier: explorations/science-council-wild-frontier-next-actions-2026-07-24.md
+    philosopher: explorations/science-council-philosopher-next-actions-2026-07-24.md
+  non_vote: >-
+    Persona agreement is not evidence. Root accepts only independently checkable derivations,
+    constructions, controls, and scoped inferential corrections; material disagreements remain
+    visible in the persona memos.
+  orthodox_result: >-
+    A conventional quadratic null reproduces the terminal point residue and exact replication
+    signature without the concept invariant. Preserve the profiles as diagnostics; narrow the
+    PHY-02 increment to live concept-compatible components.
+  heterodox_result: >-
+    Fixed-target closed relaxation is transient, but an imported rotating anisotropic environment
+    sustains periodic work-balanced Bianconi dissipation. This constructs persistent activity, not
+    a generated scale, self-organization, selector, or Lambda identity.
+  commercial_result: >-
+    HC-DU-011 + HC-DU-022 is the correct next program but not a build-ready monolith.
+    Dimensional order can generate a hierarchy only relative to one declared microscopic unit.
+    Stage-gate the program, beginning with HC-DU-011A.
+  philosopher_result: >-
+    Response R, embedding E, and units U are separable research stages. R-and-E-and-U is a
+    promotion conjunction for physical identification, not an indivisible research-admission
+    gate. Factor existence, relevance, selection, identity, scale, and value grades.
+  wild_frontier_result: >-
+    A Fisher/causal-growth/count-scale skeleton is constructible, including true expected
+    transition-Fisher contributions, but direct g(N) running fails discrete general covariance:
+    three natural labelings of one causet receive path probabilities 0.118190, 0.118190 and
+    0.078793. Statewise invariance is not full path covariance.
+  integrated_disposition: >-
+    PHY-02 CENTRAL VERDICT UPHELD / FOUR SCOPES NARROWED / NAIVE COUNT-RUNNING KILLED /
+    NEXT PROGRAM STAGE-GATED. No claim banked or seeded.
+  immediate_build: >-
+    HC-DU-011A: freeze the full covariance and object passport, enumerate small unlabeled causets,
+    require equal path weight across natural labelings, and preserve the first counterexample.
+    Geometry, generated-scale, response/noise and cosmology remain downstream.
+  divergent_custody: >-
+    Fifty-six persona-specific items are preserved losslessly as UNRANKED / UNCOMMITTED /
+    NOT_A_CLAIM. Future routing may merge or disposition them only while retaining source IDs and
+    provenance.
 lanes:
 - id: '1'
   label: Lane 1
@@ -199,11 +255,13 @@ lanes:
     live_target: >-
       SWING-DU-PHY-02 consumed the bounded physical-influence move: live Bianconi and record
       score-energy objects exist, but no functional selector or nonzero physical scale was found.
-      Reopen that branch only through an independent held-out response plus a unit-bearing observable
-      map. The next major North-Star construction is the coupled HC-DU-011 + HC-DU-022 order-first
-      causal scale generator: label-invariant growth with feedback and an endogenously generated
-      dimensional memory scale. No further coefficient fitting, proxy proliferation, normalized-
-      profile work, or generic source search counts as progress.
+      The five-persona reappraisal preserves that verdict while staging its missing response,
+      embedding and units legs. The next major North-Star program is coupled HC-DU-011 +
+      HC-DU-022; the immediate build is HC-DU-011A, a full covariance passport and exact
+      small-unlabeled-causet harness. Direct count-running is killed because statewise relabeling
+      does not ensure equal path weight across natural labelings. No coefficient fitting, proxy
+      proliferation, normalized-profile work, monolithic frontier build, or cosmology before this
+      admission test counts as progress.
   priority_guard: >-
     SWING-DU-COV-02 kills the strongest local constant-kappa lift except at the constant-Lambda
     limit: every accelerating fixed point has c_N^2=3 Omega_V*>1. SWING-DU-CMF-01 then executes the
@@ -214,9 +272,10 @@ lanes:
     early fraction order one; the raw martingale is too noisy early, rarely preserves a positive
     sign, and has no stationary de Sitter limit. Outcome: CAUSAL_ESCAPE_TRACKER_FAIL. A fitted
     offset/window is REIMPORTS_COSMIC_CLOCK. Further coefficient or kernel tuning does not count as
-    physical progress. Reopen through the coupled HC-DU-011 + HC-DU-022 object: label-invariant
-    order-first growth with feedback and an endogenously generated dimensional memory scale,
-    followed by a causal response/noise action and common-past spectrum.
+    physical progress. Reopen through the staged HC-DU-011 + HC-DU-022 program. First require
+    full path covariance, not merely statewise relabeling; then seek a regulator-stable hierarchy
+    relative to a declared microscopic unit, followed by geometry, causal response/noise and the
+    common-past spectrum.
   channels:
   - id: '1.1'
     title: The tachyon-transducer
@@ -229,8 +288,8 @@ lanes:
       depended on GU's superseded operator-domain inference and is not current. The subsequent
       completion/abduction and physical-influence swings are complete; neither selected a source,
       mobility, functional, or physical scale. Source/observer constructions remain admissible
-      conditional exploration, but the active major build is the HC-DU-011 + HC-DU-022 order-first
-      causal scale generator named in Lane 1.5.
+      conditional exploration, but the active major program is HC-DU-011 + HC-DU-022 and its
+      immediate build is the HC-DU-011A covariance passport named in Lane 1.5.
     flip_witness_target: >-
       (wave-2, 2026-07-21) The D-FORK flip-witness is now PRICED to a hard spec: a source action
       whose flow ISSUES new mode content — grows ker(Γ) — non-absorbingly (not one-shot) and
@@ -258,7 +317,9 @@ lanes:
       OPEN. The Bianconi robustness pass reduces the independence of the existing CLT-based
       consilience. SWING-DU-PHY-02 then constructs live influence objects but finds no independent
       functional selector or unit-bearing nonzero scale; relative Gini persistence does not promote
-      the amplitude. See lead_bet.anchor and the physical-influence synthesis.
+      the amplitude. The five-persona null further shows the replication signature is a generic
+      normalization result, while open driven Bianconi activity inherits its cadence. See
+      lead_bet.anchor and the five-persona synthesis.
   - id: '1.4'
     title: Covariant cosmology and observational confrontation
     scope: >-
@@ -282,10 +343,13 @@ lanes:
     scope: >-
       Build the minimum complete theory passport (state space, action, symmetries, observables,
       quantization, constraints, limits and predictions); construct explicit typed maps among the
-      several N objects; build the HC-DU-011 + HC-DU-022 order-first causal scale generator; test
-      CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the Standard
-      Model. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
-    grade: OPEN / foundational construction and audit
+      several N objects; execute the staged HC-DU-011 + HC-DU-022 order-first causal-scale program;
+      test CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the
+      Standard Model. Immediate object HC-DU-011A freezes state, transitions, full natural-labeling
+      path covariance, normalization, spectator/Bell behavior, past immutability and physical
+      coupling-record status before geometry or scale work. Work packages WP-02/WP-03/WP-04 in the
+      fifty-persona register.
+    grade: ACTIVE PROGRAM / FIRST BUILD HC-DU-011A / NAIVE COUNT-RUNNING KILLED
 - id: '2'
   label: Lane 2
   ordinal: 2
@@ -312,9 +376,12 @@ lanes:
       CONCEPT-DU-001 across multiple proxies; SWING-DU-PHY-02 constructs Bianconi dissipation and
       record score-energy profiles but finds no selector or nonzero physical scale. That bounded
       reopener is consumed: stop adding proxies, coefficients, rho variants, or normalized-profile
-      builds. The active frontier candidate is the coupled HC-DU-011 + HC-DU-022 order-first causal
-      scale generator, not a generic fitted nonlocal kernel. Influence reopens only through an
-      independent held-out response and a unit-bearing observable map.
+      builds. The five-persona reappraisal narrows the live-object concept increment, scopes
+      Bianconi transience to closed relaxation, and makes response, embedding and units staged
+      research legs. The active frontier is the coupled HC-DU-011 + HC-DU-022 program, beginning
+      with full path covariance on small causets. Direct p(N)/g(N) schedules and generic fitted
+      nonlocal kernels are stopped; influence objects may serve only as downstream telemetry until
+      an independent held-out response exists.
   - id: '2.3'
     title: GU ablation and rival-frame tournament
     scope: >-
@@ -469,7 +536,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 10
+  revision: 11
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -482,7 +549,10 @@ provenance:
     2026-07-23) supersedes the stale theorem priority after the GU bridge correction and opens
     SWING-DU-SCI-01 under the conditional/abductive contract; rev10 (Joe direct chat, 2026-07-24)
     executes SWING-DU-PHY-02, consumes the bounded physical-influence reopener, and restores
-    HC-DU-011 + HC-DU-022 as the next major build; anchor question + P/P/P unchanged
+    HC-DU-011 + HC-DU-022 as the next major build; rev11 (Joe direct chat, 2026-07-24) runs one
+    independent agent per Science Council persona, factors the concept grade, stages the reopener,
+    kills naive count-running, and narrows the next program to HC-DU-011A first; anchor question +
+    P/P/P unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -533,3 +603,15 @@ provenance:
     scale was identified. Consumed the bounded influence reopener, stopped proxy proliferation,
     and restored the coupled HC-DU-011 + HC-DU-022 order-first causal scale generator as the next
     major build. No lane or Purpose/Passion/Practice changed; no claim was banked or seeded.
+  rev11_note: >-
+    2026-07-24 (Joe direct chat): launched one independent sub-agent for each orthodox,
+    heterodox, commercial, wild-frontier and philosopher-of-science council persona. Each
+    re-audited the receipts, attacked a contested finding, produced a sequenced roadmap,
+    hypothesis/stop ledgers and a lossless divergent wish list. The central PHY-02 no-selector/no-
+    scale verdict survives. Narrowed the concept increment to factored live components; scoped
+    Bianconi transience to fixed-target closed relaxation; made response, embedding and units a
+    staged program with a conjunction at the physical-identification gate; corrected dimensional
+    transmutation to a generated hierarchy relative to a declared microscopic unit; and killed
+    direct count-running transitive percolation because statewise relabeling failed full path
+    covariance. HC-DU-011 + HC-DU-022 remains the next program, with HC-DU-011A as its first build.
+    No lane or Purpose/Passion/Practice changed; no claim was banked or seeded.
