@@ -1,0 +1,530 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Defines what the published internal clock stores.",
+        "statement": "Use the source Clock-QW semantics: a finite counter decrements during idle propagation and resets when the effective coin acts.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Defines the representation/refinement comparison.",
+        "statement": "Use the source Lorentz encoding p'=alpha p, q'=beta q and point-to-alpha-by-beta-patch replacement.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A3",
+        "role": "Supplies the finite-dimensional memory lower bound.",
+        "statement": "An exact readable count 0,...,T requires mutually distinguishable record states.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A4",
+        "role": "Keeps constructibility separate from entailment.",
+        "statement": "A recorder extension may be appended conditionally, but is not treated as part of the cited source model.",
+        "status": "CONDITIONAL_POSIT"
+      }
+    ],
+    "candidate_id": "DU-FOUNDATIONAL-ORTHODOX-CLOCK-QCA-RECORD-ENTAILMENT",
+    "comparators": [
+      "published Clock QW reset countdown",
+      "published Clock QCA keep-going signal semantics",
+      "external historian counting effective interactions",
+      "appended exact monotone count register",
+      "appended finite cyclic counter",
+      "appended independent durable binary records"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-002",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "ORTHODOX-CLOCK-QCA-SOURCE-RECORD-ENTAILMENT",
+      "invariant": "A physical record clock requires a representation-independent durable state readout with declared provenance and resources."
+    },
+    "equations": [
+      "p'=alpha p; q'=beta q",
+      "one lattice point -> alpha-by-beta lightlike patch",
+      "exact count records 0,...,T => dim(H_record)>=T+1",
+      "arbitrary T-bit record strings => dim(H_record)>=2^T",
+      "cyclic_d(n)=n mod d=cyclic_d(n+d)"
+    ],
+    "falsifiers": [
+      "The source equations specify a representation-independent accumulated observer-memory readout.",
+      "The reset counter endpoint distinguishes every number of completed interactions.",
+      "Raw microscopic update count is invariant under the source Lorentz encoding.",
+      "A fixed finite d-state cyclic counter distinguishes n from n+d."
+    ],
+    "free_choices": [
+      {
+        "choice": "Use base p=2,q=3 and five exact interaction events.",
+        "id": "C1",
+        "sensitivity_test": "Sweep five training encodings and held-out alpha=4,beta=3.",
+        "why_not_forced": "They are finite audit fixtures."
+      },
+      {
+        "choice": "Use horizons T in {1,2,5,8,13}.",
+        "id": "C2",
+        "sensitivity_test": "Require the formula at every horizon.",
+        "why_not_forced": "The dimension bounds hold for every T."
+      },
+      {
+        "choice": "Use a five-state cyclic counter as the alias rival.",
+        "id": "C3",
+        "sensitivity_test": "Check all five residue classes.",
+        "why_not_forced": "Any finite d aliases n and n+d."
+      }
+    ],
+    "null_models": [
+      "nontrivial source encoding/refinement",
+      "held-out alpha=4,beta=3 encoding",
+      "different histories with the same reset endpoint",
+      "finite cyclic-memory alias",
+      "recorder-off ablation"
+    ],
+    "observables": [
+      "microscopic lightlike patch count",
+      "effective interaction count on the complete circuit trace",
+      "final reset-countdown state",
+      "appended exact count-register state",
+      "appended independent-bit memory dimension"
+    ],
+    "question": "Does the published exact Clock-QW/QCA covariance construction itself entail an accumulated, perfectly readable observer record?",
+    "result": {
+      "admission": "CONDITIONAL_CANDIDATE",
+      "checks": [
+        {
+          "detail": "p'=alpha p and q'=beta q on training and held-out boosts",
+          "name": "source parameter transform is applied exactly",
+          "pass": true
+        },
+        {
+          "detail": "p+q changes when p and q are rescaled",
+          "name": "QW internal dimension is observer-encoding dependent",
+          "pass": true
+        },
+        {
+          "detail": "one source point becomes an alpha-by-beta patch",
+          "name": "microscopic patch count changes under nontrivial transforms",
+          "pass": true
+        },
+        {
+          "detail": "the complete-history macro count is held fixed by construction",
+          "name": "effective interaction trace count survives the declared quotient",
+          "pass": true
+        },
+        {
+          "detail": "alpha=4,beta=3 was not used in the training set",
+          "name": "held-out refinement preserves only the macro trace count",
+          "pass": true
+        },
+        {
+          "detail": "one and two completed cycles have the same final countdown state",
+          "name": "countdown resets rather than accumulating completed interactions",
+          "pass": true
+        },
+        {
+          "detail": "phase states repeat across four effective interactions",
+          "name": "countdown trace exposes repeated transient states",
+          "pass": true
+        },
+        {
+          "detail": "different interaction histories end in the same reset state",
+          "name": "final countdown hides provenance",
+          "pass": true
+        },
+        {
+          "detail": "perfectly distinguishing 0,...,T requires at least T+1 states",
+          "name": "exact monotone T-count register has T+1 states",
+          "pass": true
+        },
+        {
+          "detail": "storing arbitrary T-bit strings is stronger than storing a count",
+          "name": "independent binary history has 2^T possible records",
+          "pass": true
+        },
+        {
+          "detail": "n and n+d have identical readout in a d-state cycle",
+          "name": "finite cyclic counter aliases elapsed counts",
+          "pass": true
+        },
+        {
+          "detail": "the historian distinguishes traces whose reset state does not",
+          "name": "external trace count and endpoint state are distinct",
+          "pass": true
+        },
+        {
+          "detail": "removing an appended count register changes no source patch count",
+          "name": "recorder ablation leaves source clock trace intact",
+          "pass": true
+        },
+        {
+          "detail": "the stored value exists only in the appended register model",
+          "name": "recorder ablation removes stored count",
+          "pass": true
+        },
+        {
+          "detail": "all outputs are dimensionless counts or Hilbert-space dimensions",
+          "name": "no physical unit is generated",
+          "pass": true
+        }
+      ],
+      "claim": "The published exact covariance construction supplies transient countdown/keep-going structure and an invariant effective-interaction trace quotient, but its stated maps do not entail an accumulated stored observer record. Exact finite-horizon recorders are constructible only as additional memory: at least T+1 distinguishable states for a count, or 2^T for arbitrary independent binary records.",
+      "grade": "SOURCE-SCOPED ENTAILMENT GAP / EXACT MEMORY LOWER BOUNDS / RECORDER EXTENSION OPEN",
+      "remaining_uncertainty": "Whether a resource-accounted recorder extension can preserve the source covariance relation, survive reunion and carried-record tests, and define a persistent observer."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Stop saying observer records are already extracted from the published Clock-QCA.",
+      "Do not infer that no covariant recorder extension can exist.",
+      "Do not equate an external history functional with stored observer memory.",
+      "Do not infer physical time, units, gravity, Dynamic Unity, or Lambda from these dimensionless checks."
+    ],
+    "title": "Clock-QW/QCA source record-entailment audit",
+    "track": "Science Council premise-free foundational wave / orthodox Clock-QW/QCA observer-record entailment assay",
+    "warrants": [
+      "DERIVED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONDITIONAL_CANDIDATE",
+    "assumption_count": 4,
+    "candidate_id": "DU-FOUNDATIONAL-ORTHODOX-CLOCK-QCA-RECORD-ENTAILMENT",
+    "checks_passed": 15,
+    "checks_total": 15,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 4,
+    "free_choice_count": 3,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 5,
+    "observable_count": 5,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "checks": [
+      {
+        "detail": "p'=alpha p and q'=beta q on training and held-out boosts",
+        "name": "source parameter transform is applied exactly",
+        "pass": true
+      },
+      {
+        "detail": "p+q changes when p and q are rescaled",
+        "name": "QW internal dimension is observer-encoding dependent",
+        "pass": true
+      },
+      {
+        "detail": "one source point becomes an alpha-by-beta patch",
+        "name": "microscopic patch count changes under nontrivial transforms",
+        "pass": true
+      },
+      {
+        "detail": "the complete-history macro count is held fixed by construction",
+        "name": "effective interaction trace count survives the declared quotient",
+        "pass": true
+      },
+      {
+        "detail": "alpha=4,beta=3 was not used in the training set",
+        "name": "held-out refinement preserves only the macro trace count",
+        "pass": true
+      },
+      {
+        "detail": "one and two completed cycles have the same final countdown state",
+        "name": "countdown resets rather than accumulating completed interactions",
+        "pass": true
+      },
+      {
+        "detail": "phase states repeat across four effective interactions",
+        "name": "countdown trace exposes repeated transient states",
+        "pass": true
+      },
+      {
+        "detail": "different interaction histories end in the same reset state",
+        "name": "final countdown hides provenance",
+        "pass": true
+      },
+      {
+        "detail": "perfectly distinguishing 0,...,T requires at least T+1 states",
+        "name": "exact monotone T-count register has T+1 states",
+        "pass": true
+      },
+      {
+        "detail": "storing arbitrary T-bit strings is stronger than storing a count",
+        "name": "independent binary history has 2^T possible records",
+        "pass": true
+      },
+      {
+        "detail": "n and n+d have identical readout in a d-state cycle",
+        "name": "finite cyclic counter aliases elapsed counts",
+        "pass": true
+      },
+      {
+        "detail": "the historian distinguishes traces whose reset state does not",
+        "name": "external trace count and endpoint state are distinct",
+        "pass": true
+      },
+      {
+        "detail": "removing an appended count register changes no source patch count",
+        "name": "recorder ablation leaves source clock trace intact",
+        "pass": true
+      },
+      {
+        "detail": "the stored value exists only in the appended register model",
+        "name": "recorder ablation removes stored count",
+        "pass": true
+      },
+      {
+        "detail": "all outputs are dimensionless counts or Hilbert-space dimensions",
+        "name": "no physical unit is generated",
+        "pass": true
+      }
+    ],
+    "checks_passed": 15,
+    "checks_total": 15,
+    "countdown": {
+      "base_p": 2,
+      "four_interaction_trace": [
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "one_cycle_final": 1,
+      "two_cycle_final": 1
+    },
+    "cyclic_aliases": [
+      {
+        "elapsed_a": 0,
+        "elapsed_b": 5,
+        "readout": 0,
+        "same_readout": true
+      },
+      {
+        "elapsed_a": 1,
+        "elapsed_b": 6,
+        "readout": 1,
+        "same_readout": true
+      },
+      {
+        "elapsed_a": 2,
+        "elapsed_b": 7,
+        "readout": 2,
+        "same_readout": true
+      },
+      {
+        "elapsed_a": 3,
+        "elapsed_b": 8,
+        "readout": 3,
+        "same_readout": true
+      },
+      {
+        "elapsed_a": 4,
+        "elapsed_b": 9,
+        "readout": 4,
+        "same_readout": true
+      }
+    ],
+    "memory_lower_bounds": [
+      {
+        "constructed_count_register_dimension": 2,
+        "exact_monotone_count_min_dimension": 2,
+        "horizon_T": 1,
+        "independent_T_bit_record_min_dimension": 2
+      },
+      {
+        "constructed_count_register_dimension": 3,
+        "exact_monotone_count_min_dimension": 3,
+        "horizon_T": 2,
+        "independent_T_bit_record_min_dimension": 4
+      },
+      {
+        "constructed_count_register_dimension": 6,
+        "exact_monotone_count_min_dimension": 6,
+        "horizon_T": 5,
+        "independent_T_bit_record_min_dimension": 32
+      },
+      {
+        "constructed_count_register_dimension": 9,
+        "exact_monotone_count_min_dimension": 9,
+        "horizon_T": 8,
+        "independent_T_bit_record_min_dimension": 256
+      },
+      {
+        "constructed_count_register_dimension": 14,
+        "exact_monotone_count_min_dimension": 14,
+        "horizon_T": 13,
+        "independent_T_bit_record_min_dimension": 8192
+      }
+    ],
+    "patch_rows": [
+      {
+        "alpha": 1,
+        "base_effective_coin_dimension": 5,
+        "base_parameters": {
+          "p": 2,
+          "q": 3
+        },
+        "beta": 1,
+        "effective_interactions_in_complete_trace": 5,
+        "left_boundary_encoding_slots": 5,
+        "lightlike_patch_points": 5,
+        "right_boundary_encoding_slots": 5,
+        "transformed_effective_coin_dimension": 5,
+        "transformed_parameters": {
+          "p_prime": 2,
+          "q_prime": 3
+        }
+      },
+      {
+        "alpha": 2,
+        "base_effective_coin_dimension": 5,
+        "base_parameters": {
+          "p": 2,
+          "q": 3
+        },
+        "beta": 1,
+        "effective_interactions_in_complete_trace": 5,
+        "left_boundary_encoding_slots": 5,
+        "lightlike_patch_points": 10,
+        "right_boundary_encoding_slots": 10,
+        "transformed_effective_coin_dimension": 7,
+        "transformed_parameters": {
+          "p_prime": 4,
+          "q_prime": 3
+        }
+      },
+      {
+        "alpha": 1,
+        "base_effective_coin_dimension": 5,
+        "base_parameters": {
+          "p": 2,
+          "q": 3
+        },
+        "beta": 3,
+        "effective_interactions_in_complete_trace": 5,
+        "left_boundary_encoding_slots": 15,
+        "lightlike_patch_points": 15,
+        "right_boundary_encoding_slots": 5,
+        "transformed_effective_coin_dimension": 11,
+        "transformed_parameters": {
+          "p_prime": 2,
+          "q_prime": 9
+        }
+      },
+      {
+        "alpha": 2,
+        "base_effective_coin_dimension": 5,
+        "base_parameters": {
+          "p": 2,
+          "q": 3
+        },
+        "beta": 3,
+        "effective_interactions_in_complete_trace": 5,
+        "left_boundary_encoding_slots": 15,
+        "lightlike_patch_points": 30,
+        "right_boundary_encoding_slots": 10,
+        "transformed_effective_coin_dimension": 13,
+        "transformed_parameters": {
+          "p_prime": 4,
+          "q_prime": 9
+        }
+      },
+      {
+        "alpha": 3,
+        "base_effective_coin_dimension": 5,
+        "base_parameters": {
+          "p": 2,
+          "q": 3
+        },
+        "beta": 2,
+        "effective_interactions_in_complete_trace": 5,
+        "left_boundary_encoding_slots": 10,
+        "lightlike_patch_points": 30,
+        "right_boundary_encoding_slots": 15,
+        "transformed_effective_coin_dimension": 12,
+        "transformed_parameters": {
+          "p_prime": 6,
+          "q_prime": 6
+        }
+      },
+      {
+        "alpha": 4,
+        "base_effective_coin_dimension": 5,
+        "base_parameters": {
+          "p": 2,
+          "q": 3
+        },
+        "beta": 3,
+        "effective_interactions_in_complete_trace": 5,
+        "left_boundary_encoding_slots": 15,
+        "lightlike_patch_points": 60,
+        "right_boundary_encoding_slots": 20,
+        "transformed_effective_coin_dimension": 17,
+        "transformed_parameters": {
+          "p_prime": 8,
+          "q_prime": 9
+        }
+      }
+    ],
+    "primary_source": {
+      "citation": "Arrighi, Facchini, Forets, Discrete Lorentz covariance for Quantum Walks and Quantum Cellular Automata (2014)",
+      "source_scoped_facts": [
+        "Clock QW countdown decrements and resets at effective coin",
+        "Clock QW p,q rescale under the discrete Lorentz transform",
+        "Clock QW effective internal dimension changes by observer",
+        "Clock QCA replaces the countdown with keep-going signals",
+        "Clock QCA has a fixed three-dimensional wire state",
+        "one point is represented by an alpha-by-beta lightlike patch"
+      ],
+      "url": "https://arxiv.org/abs/1404.4499"
+    },
+    "probe": "du_foundational_orthodox_clock_qca_record_entailment_probe",
+    "recorder_ablation": {
+      "recorder_off": {
+        "recorder_enabled": false,
+        "source": {
+          "effective_interactions_in_complete_trace": 5,
+          "left_boundary_encoding_slots": 15,
+          "lightlike_patch_points": 30,
+          "right_boundary_encoding_slots": 10
+        },
+        "stored_count": null
+      },
+      "recorder_on": {
+        "recorder_enabled": true,
+        "source": {
+          "effective_interactions_in_complete_trace": 5,
+          "left_boundary_encoding_slots": 15,
+          "lightlike_patch_points": 30,
+          "right_boundary_encoding_slots": 10
+        },
+        "stored_count": 5
+      }
+    },
+    "scope": {
+      "earned": [
+        "source-scoped separation of update, clock phase, trace, and record",
+        "exact finite-horizon memory lower bounds",
+        "held-out representation/refinement control",
+        "a recorder-off ablation and endpoint-provenance counterexample"
+      ],
+      "not_earned": [
+        "a no-go on covariant recorder extensions",
+        "a physical observer or irreversible record",
+        "a dimensional time unit",
+        "higher-dimensional Lorentz covariance, gravity, DU, or Lambda"
+      ]
+    },
+    "verdict": "SOURCE CLOCK SEMANTICS ARE NOT AN ACCUMULATED OBSERVER RECORD / TRACE QUOTIENT EXISTS / EXPLICIT RECORDER EXTENSION REQUIRED"
+  }
+}

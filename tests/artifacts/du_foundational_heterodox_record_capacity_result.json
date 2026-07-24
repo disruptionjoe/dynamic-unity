@@ -1,0 +1,913 @@
+{
+  "boundary_and_archive_control": {
+    "archive_ablation_lost_bits": 5,
+    "expanded_carrier_cells": 7,
+    "internal_state_bound": 2,
+    "interpretation": "Export is a live escape from finite internal saturation, but only by expanding the physical record boundary and paying for the archive.",
+    "length": 6,
+    "observer_internal_stock_bits": 1,
+    "observer_plus_archive_stock_bits": 6
+  },
+  "causal_influence_control": {
+    "causal_input_influence_count": 6,
+    "cumulative_update_writes": 6,
+    "history": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1
+    ],
+    "interpretation": "Every input is counterfactually relevant to final parity, while only one independent distinction is retained.",
+    "maximum_distinguishable_stock_bits": 1,
+    "state_change_count": 4
+  },
+  "checks": [
+    {
+      "name": "full append-only memory retains six independent bits",
+      "pass": true
+    },
+    {
+      "name": "triplicate copies do not inflate provenance stock",
+      "pass": true
+    },
+    {
+      "name": "identity relays do not inflate record stock",
+      "pass": true
+    },
+    {
+      "name": "two-bit packing changes resolution but not quotient",
+      "pass": true
+    },
+    {
+      "name": "last-bit overwrite saturates and loses old classes",
+      "pass": true
+    },
+    {
+      "name": "parity retains one bit despite six causal inputs",
+      "pass": true
+    },
+    {
+      "name": "rolling memory saturates at its four-state bound",
+      "pass": true
+    },
+    {
+      "name": "all fixed-state fixtures obey class-count bound",
+      "pass": true
+    },
+    {
+      "name": "parity-only fit fails full-recall holdout",
+      "pass": true
+    },
+    {
+      "name": "one redundant carrier fault is repaired but two are not",
+      "pass": true
+    },
+    {
+      "name": "redundancy changes viability without changing stock",
+      "pass": true
+    },
+    {
+      "name": "archive boundary ablation collapses growing stock",
+      "pass": true
+    },
+    {
+      "name": "hidden scheduler fibre is not history provenance",
+      "pass": true
+    },
+    {
+      "name": "Shannon entropy differs from maximum distinguishable stock",
+      "pass": true
+    },
+    {
+      "name": "cumulative writes differ from retained stock",
+      "pass": true
+    },
+    {
+      "name": "record stock does not create a dimensional time unit",
+      "pass": true
+    }
+  ],
+  "checks_passed": 16,
+  "checks_total": 16,
+  "claim_controls": {
+    "banked": false,
+    "forbidden_overclaims": [
+      "Every write is a new durable record.",
+      "Maximum distinguishable stock is Shannon entropy.",
+      "Copy redundancy creates independent records.",
+      "The quotient is observer-independent without a physical experiment algebra.",
+      "A dimensionless record bit is a unit of proper time.",
+      "Finite-state saturation forbids time, events, or exported records.",
+      "Logical erasure alone establishes a thermodynamic work value."
+    ],
+    "seeded": false
+  },
+  "fixed_state_theorem_fixtures": {
+    "internal_last_bit_only": {
+      "declared_state_bound": 2,
+      "maximum_reachable_classes_over_lengths_0_to_6": 2,
+      "maximum_stock_bits_over_lengths_0_to_6": 1
+    },
+    "last_bit_overwrite": {
+      "declared_state_bound": 2,
+      "maximum_reachable_classes_over_lengths_0_to_6": 2,
+      "maximum_stock_bits_over_lengths_0_to_6": 1
+    },
+    "parity_accumulator": {
+      "declared_state_bound": 2,
+      "maximum_reachable_classes_over_lengths_0_to_6": 2,
+      "maximum_stock_bits_over_lengths_0_to_6": 1
+    },
+    "rolling_two_bit": {
+      "declared_state_bound": 4,
+      "maximum_reachable_classes_over_lengths_0_to_6": 4,
+      "maximum_stock_bits_over_lengths_0_to_6": 2
+    }
+  },
+  "frozen_target": {
+    "chosen_target": "Construct and attack an intervention-quotiented durable record functional for finite observers.",
+    "dependency_changed": "HC-DU-031A gains a record-passport object and an exact finite-capacity stop before Clock-QCA record counts are identified with elapsed time.",
+    "smallest_deliverable": "One behavioral quotient, one saturation theorem, and exact copy/relay/overwrite/held-out/archive controls.",
+    "stop_rule": "Do not use the quotient as a clock unless the physical experiment algebra is fixed, prior distinctions persist, and growing state or exported archive is resource-accounted."
+  },
+  "hidden_fibre_control": {
+    "history_count": 64,
+    "history_provenance_classes_when_tag_is_read": 64,
+    "history_response_classes_when_tag_is_ignored": 64,
+    "independent_scheduler_classes_when_tag_is_read": 2,
+    "interpretation": "A scheduler tag can be a real additional physical degree of freedom without becoming a record of the input history. If it changes future responses it is not gauge; provenance axes remain typed separately.",
+    "joint_experiment_classes_when_tag_is_read": 128,
+    "raw_history_times_scheduler_tag_microstates": 128
+  },
+  "information_controls": {
+    "full_memory_bernoulli_one_quarter_entropy_bits": 4.867668746754797,
+    "full_memory_capacity_bits": 6,
+    "full_memory_uniform_shannon_entropy_bits": 6.0,
+    "interpretation": "Maximum distinguishable stock is distribution-free; Shannon entropy weights the actually supplied history distribution.",
+    "parity_bernoulli_one_quarter_entropy_bits": 0.9998238825988728,
+    "parity_bernoulli_one_quarter_odd_probability": 0.4921875,
+    "parity_capacity_bits": 1
+  },
+  "model_series": {
+    "full_append_only": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 1,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 3,
+        "experiment_equivalence_classes": 8,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 3,
+        "reachable_encoder_states": 8,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 4,
+        "declared_carrier_cells": 4,
+        "experiment_equivalence_classes": 16,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 4,
+        "reachable_encoder_states": 16,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 5,
+        "declared_carrier_cells": 5,
+        "experiment_equivalence_classes": 32,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 5,
+        "reachable_encoder_states": 32,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 6,
+        "experiment_equivalence_classes": 64,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 6,
+        "reachable_encoder_states": 64
+      }
+    ],
+    "identity_relay_append_only": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 9,
+        "declared_carrier_cells": 3,
+        "experiment_equivalence_classes": 8,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 3,
+        "reachable_encoder_states": 8,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 12,
+        "declared_carrier_cells": 4,
+        "experiment_equivalence_classes": 16,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 4,
+        "reachable_encoder_states": 16,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 15,
+        "declared_carrier_cells": 5,
+        "experiment_equivalence_classes": 32,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 5,
+        "reachable_encoder_states": 32,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 18,
+        "declared_carrier_cells": 6,
+        "experiment_equivalence_classes": 64,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 6,
+        "reachable_encoder_states": 64
+      }
+    ],
+    "internal_last_bit_only": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 1,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 4,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 5,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2
+      }
+    ],
+    "last_bit_overwrite": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 1,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 4,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 5,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2
+      }
+    ],
+    "observer_plus_external_archive": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 4,
+        "declared_carrier_cells": 3,
+        "experiment_equivalence_classes": 4,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 4,
+        "experiment_equivalence_classes": 8,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 3,
+        "reachable_encoder_states": 8,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 8,
+        "declared_carrier_cells": 5,
+        "experiment_equivalence_classes": 16,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 4,
+        "reachable_encoder_states": 16,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 10,
+        "declared_carrier_cells": 6,
+        "experiment_equivalence_classes": 32,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 5,
+        "reachable_encoder_states": 32,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 12,
+        "declared_carrier_cells": 7,
+        "experiment_equivalence_classes": 64,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 6,
+        "reachable_encoder_states": 64
+      }
+    ],
+    "packed_pair_resolution": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 1,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 1,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 3,
+        "experiment_equivalence_classes": 8,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 3,
+        "reachable_encoder_states": 8,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 4,
+        "experiment_equivalence_classes": 16,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 4,
+        "reachable_encoder_states": 16,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 5,
+        "experiment_equivalence_classes": 32,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 5,
+        "reachable_encoder_states": 32,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 6,
+        "experiment_equivalence_classes": 64,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 6,
+        "reachable_encoder_states": 64
+      }
+    ],
+    "parity_accumulator": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 1,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 4,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 5,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2
+      }
+    ],
+    "rolling_two_bit": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 1,
+        "declared_carrier_cells": 1,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 2,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 4,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 5,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": false
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 2,
+        "experiment_equivalence_classes": 4,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4
+      }
+    ],
+    "triplicate_append_only": [
+      {
+        "cumulative_write_operations": 0,
+        "declared_carrier_cells": 0,
+        "experiment_equivalence_classes": 1,
+        "history_count": 1,
+        "length": 0,
+        "maximum_distinguishable_stock_bits": 0,
+        "reachable_encoder_states": 1,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 3,
+        "declared_carrier_cells": 3,
+        "experiment_equivalence_classes": 2,
+        "history_count": 2,
+        "length": 1,
+        "maximum_distinguishable_stock_bits": 1,
+        "reachable_encoder_states": 2,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 6,
+        "declared_carrier_cells": 6,
+        "experiment_equivalence_classes": 4,
+        "history_count": 4,
+        "length": 2,
+        "maximum_distinguishable_stock_bits": 2,
+        "reachable_encoder_states": 4,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 9,
+        "declared_carrier_cells": 9,
+        "experiment_equivalence_classes": 8,
+        "history_count": 8,
+        "length": 3,
+        "maximum_distinguishable_stock_bits": 3,
+        "reachable_encoder_states": 8,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 12,
+        "declared_carrier_cells": 12,
+        "experiment_equivalence_classes": 16,
+        "history_count": 16,
+        "length": 4,
+        "maximum_distinguishable_stock_bits": 4,
+        "reachable_encoder_states": 16,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 15,
+        "declared_carrier_cells": 15,
+        "experiment_equivalence_classes": 32,
+        "history_count": 32,
+        "length": 5,
+        "maximum_distinguishable_stock_bits": 5,
+        "reachable_encoder_states": 32,
+        "retains_all_prior_classes_after_any_next_input": true
+      },
+      {
+        "cumulative_write_operations": 18,
+        "declared_carrier_cells": 18,
+        "experiment_equivalence_classes": 64,
+        "history_count": 64,
+        "length": 6,
+        "maximum_distinguishable_stock_bits": 6,
+        "reachable_encoder_states": 64
+      }
+    ]
+  },
+  "object": {
+    "durability": "Distinct time-t classes may not merge after any pair of allowed next binary inputs.",
+    "failure_scope": "There is no absolute readout-independent record stock and no proper-time or thermodynamic identity.",
+    "free_choices": "experiment algebra, system boundary, input alphabet, retention requirement, and physical unit map",
+    "history_sample_space": "H_t = {0,1}^t",
+    "inferential_map": "E_t maps a history to a recorder state; U_t is a declared experiment family; h ~ h' iff every u in U_t yields the same response.",
+    "observable": "C_t = log2 |H_t / ~_U| dimensionless bits",
+    "representation_quotient": "Relabelings, deterministic copies, identity relays, and packing changes receive no extra provenance credit when their response signatures agree.",
+    "success": "The quotient survives representation controls, detects overwrite and final-fit failure, obeys the finite-state bound, and exposes archive growth."
+  },
+  "probe": "du_foundational_heterodox_record_capacity_probe",
+  "readout_and_held_out_control": {
+    "full_memory_full_recall_classes": 64,
+    "full_memory_parity_only_classes": 2,
+    "interpretation": "Parity-only development data make full memory and a parity accumulator observationally equivalent. Held-out bit queries separate them. No absolute record stock exists without a declared physical experiment algebra.",
+    "parity_machine_full_recall_classes": 2,
+    "parity_machine_parity_only_classes": 2
+  },
+  "redundancy_and_viability_control": {
+    "full_memory_carrier_cells": 6,
+    "full_memory_stock_bits": 6,
+    "history": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "interpretation": "Redundancy raises fault tolerance and physical resource use without multiplying independent provenance classes.",
+    "no_corruption_decodes": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "one_carrier_corruption_decodes": [
+      0,
+      1,
+      1,
+      0,
+      1,
+      0
+    ],
+    "triplicate_carrier_cells": 18,
+    "triplicate_stock_bits": 6,
+    "two_carrier_corruption_decodes": [
+      1,
+      0,
+      0,
+      1,
+      0,
+      1
+    ]
+  },
+  "rival_ledger": [
+    {
+      "result": "Parity and relay fixtures separate writes from stock.",
+      "rival": "raw update or cumulative write count"
+    },
+    {
+      "result": "Distribution-weighted entropy differs from maximum class capacity.",
+      "rival": "Shannon entropy"
+    },
+    {
+      "result": "All six inputs affect parity while only one bit persists.",
+      "rival": "causal influence count"
+    },
+    {
+      "result": "Parity matches the development readout and fails held-out recall.",
+      "rival": "flat final-state fit"
+    },
+    {
+      "result": "They add resources or degrees of freedom without adding history provenance classes.",
+      "rival": "copies, relays, packing, and scheduler fibre"
+    },
+    {
+      "result": "It restores growth only after boundary and storage expansion are admitted.",
+      "rival": "free external archive"
+    },
+    {
+      "result": "Live but separate; overwrite/erasure cost is not inferred from logical stock.",
+      "rival": "thermodynamic record definition"
+    },
+    {
+      "result": "Unaffected; this swing changes the record-clock dependency only.",
+      "rival": "causal-post program"
+    }
+  ],
+  "scientific_endorsement": false,
+  "status": "INTERVENTION-RELATIVE RECORD QUOTIENT CONSTRUCTED / FIXED-STATE DURABLE-RECORD SATURATION THEOREM / UNBOUNDED CLOCK REQUIRES GROWTH, EXPORT, OR WEAKER SEMANTICS",
+  "theorem": {
+    "caveats": [
+      "The experiment algebra and boundary are declared, not derived.",
+      "log2 of the class count is an operational capacity; a general quotient need not factor into jointly independent binary records.",
+      "The result bounds persistent independent history distinctions, not event number.",
+      "A growing internal state space or included external archive evades the fixed-M premise.",
+      "Logical overwrite is typed separately from heat/work; no Landauer cost is calculated.",
+      "Quantum, continuous-state, noisy, and approximate records need separate generalizations."
+    ],
+    "name": "finite-state durable-record saturation",
+    "proof": [
+      "Each response signature is a function of one state in S, so there are at most M signatures.",
+      "Durability prevents old classes from merging.",
+      "One new independent binary distinction splits every retained class, doubling the class count.",
+      "Iteration from one initial class gives at least 2^t classes; combine with the upper bound."
+    ],
+    "statement": "If all admitted responses factor through S with |S|=M, then |H_t/~_U|<=M. If each binary opportunity adds one durable independent distinction, |H_t/~_U|>=2^t, hence M>=2^t."
+  },
+  "unit_control": {
+    "calibration_A_time_per_bit": 1,
+    "calibration_B_time_per_bit": 7,
+    "dimensionless_stock_bits": 6,
+    "duration_under_A": 6,
+    "duration_under_B": 42,
+    "interpretation": "The quotient generates a dimensionless stock. A duration appears only after an external time-per-record calibration is declared."
+  }
+}

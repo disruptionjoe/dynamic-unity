@@ -1,0 +1,369 @@
+{
+  "all_checks_passed": true,
+  "banked": false,
+  "cheap_kills": {
+    "dimensional_unit_import": {
+      "pass": true,
+      "result": "Only dimensionless finite counts and maps appear."
+    },
+    "final_state_hides_provenance": {
+      "pass": false,
+      "result": "All identity-dynamics candidates have perfect endpoint persistence. The endpoint does not identify which predicate was written, copied, or read."
+    },
+    "held_out_cases": {
+      "pass": true,
+      "result": "The three-bit case repeats the theorem; two-cycle and asymmetric nonidentity controls delimit its scope."
+    },
+    "mechanism_disable": {
+      "pass": false,
+      "result": "With temporal writing disabled by identity dynamics, all fourteen nonconstant two-bit predicates still pass the durability test."
+    },
+    "object_exists_independently_of_readout": {
+      "pass": false,
+      "result": "Bare identity dynamics selects only constants. A nontrivial record requires an interface, asymmetry, or covariantly transported channel."
+    },
+    "relabeling_or_quotient": {
+      "pass": true,
+      "result": "The theorem is stated on the automorphism quotient; coordinate and parity are explicitly conjugate."
+    },
+    "selected_partition_or_resolution": {
+      "pass": false,
+      "result": "Choosing the first-bit partition selects a record only after that readout partition is declared as physical."
+    },
+    "simpler_rival": {
+      "pass": false,
+      "result": "Mechanism-disabled identity dynamics makes all predicates persistent, so persistence alone is an overgenerating null."
+    }
+  },
+  "check_count": 15,
+  "checks": [
+    {
+      "name": "identity dynamics makes every 2-bit predicate durable",
+      "passed": true
+    },
+    {
+      "name": "every 2-bit predicate has a predicate-specific classical copy map",
+      "passed": true
+    },
+    {
+      "name": "full 2-bit identity automorphism invariance leaves no nontrivial predicate",
+      "passed": true
+    },
+    {
+      "name": "held-out 3-bit identity case leaves no nontrivial invariant predicate",
+      "passed": true
+    },
+    {
+      "name": "coordinate and parity predicates are conjugate",
+      "passed": true
+    },
+    {
+      "name": "predicate transport preserves identity dynamics",
+      "passed": true
+    },
+    {
+      "name": "coordinate and parity are both durable and classically copyable",
+      "passed": true
+    },
+    {
+      "name": "a declared 2-bit interface selects its readout algebra",
+      "passed": true
+    },
+    {
+      "name": "the 2-bit interface rejects parity as invariant",
+      "passed": true
+    },
+    {
+      "name": "held-out 3-bit interface result is the same",
+      "passed": true
+    },
+    {
+      "name": "nonidentity two-cycle holdout has durable nontrivial predicates",
+      "passed": true
+    },
+    {
+      "name": "nonidentity two-cycle holdout still has no canonical nontrivial predicate",
+      "passed": true
+    },
+    {
+      "name": "asymmetric dynamics admits a nontrivial invariant orbit partition",
+      "passed": true
+    },
+    {
+      "name": "the mechanism-disabled persistence null overgenerates records",
+      "passed": true
+    },
+    {
+      "name": "no dimensional unit is introduced",
+      "passed": true
+    }
+  ],
+  "covariant_predicate_transport": {
+    "both_predicates_copyable": true,
+    "both_predicates_durable": true,
+    "conjugated_dynamics": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "coordinate_predicate": {
+      "definition": "first bit equals 1",
+      "mask": 12,
+      "support": [
+        2,
+        3
+      ]
+    },
+    "coordinate_transports_to_parity": true,
+    "identity_dynamics_preserved": true,
+    "parity_predicate": {
+      "definition": "bit parity equals 1",
+      "mask": 6,
+      "support": [
+        1,
+        2
+      ]
+    },
+    "phi_is_bijection": true,
+    "reading": "Coordinate and parity records are in the same representation orbit. Transporting the predicate with the state representation is an exact covariance relation, but bare identity dynamics does not canonically choose either orbit representative.",
+    "representation_change_phi": [
+      0,
+      3,
+      1,
+      2
+    ],
+    "state_encoding": [
+      "00",
+      "01",
+      "10",
+      "11"
+    ],
+    "transported_coordinate_mask": 6
+  },
+  "identity_dynamics": {
+    "development_two_bit": {
+      "automorphism_group": "full symmetric group",
+      "automorphism_group_order": 24,
+      "binary_predicate_count": 16,
+      "bit_count": 2,
+      "classically_copyable_predicate_count": 16,
+      "copy_channels_are_predicate_specific": true,
+      "durable_nontrivial_predicate_count": 14,
+      "durable_predicate_count": 16,
+      "dynamics": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "exact_generator_set": "all pair transpositions",
+      "full_group_invariant_nontrivial_predicate_count": 0,
+      "full_group_invariant_predicate_count": 2,
+      "full_group_invariant_predicate_masks": [
+        0,
+        15
+      ],
+      "generator_count": 6,
+      "state_count": 4
+    },
+    "held_out_three_bit": {
+      "automorphism_group": "full symmetric group",
+      "automorphism_group_order": 40320,
+      "binary_predicate_count": 256,
+      "bit_count": 3,
+      "classically_copyable_predicate_count": 256,
+      "copy_channels_are_predicate_specific": true,
+      "durable_nontrivial_predicate_count": 254,
+      "durable_predicate_count": 256,
+      "dynamics": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "exact_generator_set": "all pair transpositions",
+      "full_group_invariant_nontrivial_predicate_count": 0,
+      "full_group_invariant_predicate_count": 2,
+      "full_group_invariant_predicate_masks": [
+        0,
+        255
+      ],
+      "generator_count": 28,
+      "state_count": 8
+    }
+  },
+  "interface_relative_positive_control": {
+    "held_out_three_bit": {
+      "admissible_group": "state permutations preserving each labelled readout block",
+      "admissible_group_order": 576,
+      "bit_count": 3,
+      "coordinate_readout_is_invariant": true,
+      "declared_accessible_readout": "first bit",
+      "invariant_predicate_count": 4,
+      "invariant_predicate_masks": [
+        0,
+        15,
+        240,
+        255
+      ],
+      "invariants_equal_readout_algebra": true,
+      "parity_readout_is_invariant": false,
+      "reading": "The declared readout is extra physical structure. It reduces the automorphism group, leaving exactly the Boolean algebra generated by that readout. The result is interface-relative, not a coordinate record extracted from bare dynamics.",
+      "readout_support": [
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    "two_bit": {
+      "admissible_group": "state permutations preserving each labelled readout block",
+      "admissible_group_order": 4,
+      "bit_count": 2,
+      "coordinate_readout_is_invariant": true,
+      "declared_accessible_readout": "first bit",
+      "invariant_predicate_count": 4,
+      "invariant_predicate_masks": [
+        0,
+        3,
+        12,
+        15
+      ],
+      "invariants_equal_readout_algebra": true,
+      "parity_readout_is_invariant": false,
+      "reading": "The declared readout is extra physical structure. It reduces the automorphism group, leaving exactly the Boolean algebra generated by that readout. The result is interface-relative, not a coordinate record extracted from bare dynamics.",
+      "readout_support": [
+        2,
+        3
+      ]
+    }
+  },
+  "metadata": {
+    "assumptions": [
+      "Finite state spaces and deterministic transition maps.",
+      "A scalar binary record candidate is a predicate on states.",
+      "Bare-theory representation independence means invariance under every automorphism of the declared bare dynamics.",
+      "Classical copyability means existence of the predicate-specific reversible map C_r(x,b)=(x,b xor r(x)).",
+      "A physical interface, if used, is independently declared rather than inferred from the same persistence result."
+    ],
+    "free_choices": [
+      "Finite state-space size.",
+      "Choice of bare dynamics.",
+      "Choice of admissible automorphism group.",
+      "Choice of accessible readout/intervention algebra.",
+      "Choice of scalar predicate rather than a general channel."
+    ],
+    "probe": "du_foundational_philosopher_record_identifiability_probe",
+    "scope": "Exact finite classical identifiability under state-space automorphisms; not a universal quantum or thermodynamic record theorem.",
+    "warrants": [
+      "DERIVED automorphism-triviality theorem for identity dynamics.",
+      "CONSTRUCTIVELY_REALIZED coordinate/parity conjugacy.",
+      "CONSTRUCTIVELY_REALIZED classical copy channels.",
+      "CONDITIONALLY ENTAILED interface-relative record algebra.",
+      "EXACT FINITE HELD-OUT controls on three bits and nonidentity dynamics."
+    ]
+  },
+  "nonidentity_controls": {
+    "asymmetric_orbit_positive_control": {
+      "automorphism_group_order": 3,
+      "automorphism_invariant_predicate_count": 4,
+      "automorphism_invariant_predicate_masks": [
+        0,
+        1,
+        14,
+        15
+      ],
+      "durable_nontrivial_predicate_count": 2,
+      "durable_predicate_count": 4,
+      "dynamics": [
+        0,
+        2,
+        3,
+        1
+      ],
+      "expected_nontrivial_orbit_predicates": [
+        1,
+        14
+      ],
+      "name": "fixed point plus three-cycle positive control",
+      "nontrivial_automorphism_invariant_predicate_count": 2,
+      "nontrivial_automorphism_invariant_predicate_masks": [
+        1,
+        14
+      ],
+      "nontrivial_orbit_partition_recovered": true,
+      "reading": "The no-go is not universal across all dynamics. Asymmetric bare dynamics can have nontrivial automorphism orbits and hence nonconstant invariant predicates. Whether such an orbit is a physical memory still requires record semantics.",
+      "state_count": 4
+    },
+    "two_indistinguishable_cycles": {
+      "automorphism_group_order": 8,
+      "automorphism_invariant_predicate_count": 2,
+      "automorphism_invariant_predicate_masks": [
+        0,
+        15
+      ],
+      "durable_nontrivial_predicate_count": 2,
+      "durable_predicate_count": 4,
+      "dynamics": [
+        1,
+        0,
+        3,
+        2
+      ],
+      "name": "two indistinguishable bit-flip cycles holdout",
+      "nontrivial_automorphism_invariant_predicate_count": 0,
+      "nontrivial_automorphism_invariant_predicate_masks": [],
+      "reading": "Nontrivial time-invariant predicates can exist while remaining unidentified: the bare dynamics admits an automorphism exchanging the two cycles.",
+      "state_count": 4
+    }
+  },
+  "passed_count": 15,
+  "rivals": [
+    {
+      "disposition": "Wins for bare identity dynamics if a nontrivial scalar record is demanded without extra structure.",
+      "name": "status quo / no record object"
+    },
+    {
+      "disposition": "Matches every candidate and does not select one.",
+      "name": "persistence or endpoint replay"
+    },
+    {
+      "disposition": "Every predicate is copyable by its own channel; the channel moves rather than solves the selection burden.",
+      "name": "classical copyability"
+    },
+    {
+      "disposition": "Can transport a chosen channel covariantly but does not by itself pick a durable observer record.",
+      "name": "exact circuit covariance"
+    },
+    {
+      "disposition": "Positive conditional rival: reduces the automorphism group and yields a nontrivial invariant record algebra.",
+      "name": "interface/locality/access algebra"
+    },
+    {
+      "disposition": "Positive scope control: dynamical automorphism orbits can support nontrivial invariant predicates.",
+      "name": "asymmetric bare dynamics"
+    },
+    {
+      "disposition": "A separate physical restriction on copyable quantum state families; the present theorem is classical and addresses selection even when copying is unrestricted.",
+      "name": "quantum no-broadcasting"
+    }
+  ],
+  "seeded": false,
+  "theorem": {
+    "name": "bare-dynamics record-extractor triviality",
+    "proof_outline": [
+      "Identity dynamics commutes with every state permutation, so its automorphism group is the full symmetric group.",
+      "The full symmetric group acts transitively on X. If r is invariant, r(x)=r(y) for every pair x,y, hence r is constant.",
+      "Identity dynamics leaves every predicate unchanged in time, hence every predicate is durable.",
+      "C_r is its own inverse and copies r into a blank classical bit, hence every predicate is classically copyable."
+    ],
+    "scope_correction": "This does not forbid nonconstant predicates under a smaller physically fixed automorphism group, nor equivariant record channels whose codomain and predicate transform with the representation. It forbids treating unrestricted literal coordinate invariance as a nontrivial record selector.",
+    "statement": "Let X be a finite state space with |X|>1 and identity dynamics. Every binary predicate r:X->{0,1} is durable and has a predicate-specific reversible classical copy channel. But Aut(X,id)=Sym(X), and any scalar predicate invariant under every automorphism is constant. Therefore bare dynamics plus durability and classical copyability cannot canonically select a nontrivial record predicate."
+  },
+  "verdict": "FULL-AUTOMORPHISM SCALAR RECORD EXTRACTION IS TRIVIAL ON IDENTITY DYNAMICS / DURABILITY AND CLASSICAL COPYABILITY UNDERSELECT / PHYSICAL RECORDS REQUIRE A DECLARED INTERFACE-RELATIVE OR EQUIVARIANT CHANNEL"
+}

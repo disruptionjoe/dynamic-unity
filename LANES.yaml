@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 14
+manifest_revision: 15
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -362,6 +362,54 @@ science_council_recursive_viable_systems_wave:
   divergent_custody: >-
     Sixty-one recursive-viability persona items are preserved as UNRANKED / UNCOMMITTED /
     NOT_A_CLAIM in their dedicated index, in addition to all three earlier council generations.
+science_council_premise_free_foundational_wave:
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: run the same complete independent five-persona process from the full
+    four-wave state without supplying a new common premise; each persona chooses and executes the
+    most valuable foundational advance it can make.
+  contract_ref: >-
+    explorations/science-council-premise-free-foundational-wave-contract-2026-07-24.md
+  synthesis_ref: >-
+    explorations/science-council-five-persona-premise-free-foundational-wave-synthesis-2026-07-24.md
+  divergent_index_ref: >-
+    explorations/science-council-five-persona-premise-free-foundational-divergent-wishlist-index-2026-07-24.md
+  persona_refs:
+    orthodox: explorations/science-council-orthodox-premise-free-foundational-wave-2026-07-24.md
+    heterodox: explorations/science-council-heterodox-premise-free-foundational-wave-2026-07-24.md
+    commercial: explorations/science-council-commercial-premise-free-foundational-wave-2026-07-24.md
+    wild_frontier: explorations/science-council-wild-frontier-premise-free-foundational-wave-2026-07-24.md
+    philosopher: explorations/science-council-philosopher-premise-free-foundational-wave-2026-07-24.md
+  integrated_result: >-
+    The source Clock QW/QCA supplies exact circuit covariance but does not entail accumulated
+    observer memory. Exact finite-state bounds separate event flux, retained capacity and stored
+    history; durability plus predicate-specific copyability does not select a physical record
+    until a physical interface/group action or equivariant channel is declared. In standard CSG,
+    the exact minimal predictive-law state is the projective sequence [M^P t], while arbitrary
+    positive couplings defeat every finite-prefix certification horizon.
+  integrated_disposition: >-
+    RECORD OBJECT FACTORED / SOURCE CLOCK-QCA MEMORY NOT ENTAILED / FINITE RECORD-RESOURCE AND
+    INTERFACE-IDENTIFIABILITY BOUNDS EXACT / EXPLICIT RECORDER EXTENSION BUILDABLE / CSG
+    PREDICTIVE QUOTIENT EXACT / PHYSICAL IDENTITY, ACCESS, RECURRENCE, GEOMETRY, UNITS AND DU
+    BRIDGES OPEN. No claim banked or seeded.
+  immediate_build: >-
+    HC-DU-031B: append the smallest exact finite recorder to one source-exact Clock-QCA fixture,
+    freeze its readout/intervention interface, admissible group action and archive boundary, and
+    require one fixed covariance/equivariance square under held-out encoding, boost,
+    recorder-off, alias, copy/archive, scheduler and reunion controls. Do not refit the decoder per
+    frame or treat growing support as free.
+  parallel_north_star: >-
+    HC-DU-011A remains independently live. Carry [M^P t], not raw post depth, as the standard-CSG
+    predictive state; test unconditioned post recurrence, nontrivial running and held-out geometry
+    in declared fixed families. Never infer the unrestricted complete law from a finite
+    transition prefix. Apply HC-DU-032 only after a native survivor exists.
+  mode_stop: >-
+    Do not run another general assumption/council wave now. The dependency state supports direct
+    construction. Reopen council-wide divergence only after the recorder or causal-growth build
+    changes the evidence state.
+  divergent_custody: >-
+    Thirty-seven premise-free persona items are preserved as UNRANKED / UNCOMMITTED /
+    NOT_A_CLAIM in their dedicated index, in addition to all 210 items from the first four waves.
 lanes:
 - id: '1'
   label: Lane 1
@@ -413,13 +461,17 @@ lanes:
       SWING-DU-PHY-02 consumed the bounded physical-influence move: live Bianconi and record
       score-energy objects exist, but no functional selector or nonzero physical scale was found.
       The successor council recovers an exact CSG post-conditioned hierarchy while preserving the
-      no-selector/no-physical-scale verdict. The dual primitive-record-clock wave now adds one
-      cheaper bounded semantic target, HC-DU-031A: reproduce the exact 1+1 Clock-QW/QCA and test
-      whether its covariance reaches durable observer records at reflection and reunion. In
-      parallel, HC-DU-011A remains the lean post passport plus unconditioned
+      no-selector/no-physical-scale verdict. The primitive-clock and premise-free waves now close
+      the source-mining reading of HC-DU-031A: exact Clock-QW/QCA covariance does not itself entail
+      accumulated observer memory. HC-DU-031B is the bounded constructive target: append the
+      smallest exact recorder and test one fixed interface-relative covariance/equivariance square
+      with charged archive and reunion resources. In parallel, HC-DU-011A remains the lean post
+      passport plus unconditioned
       generativity/recurrence census across fixed tail families. A post-law survivor must jointly
       produce posts, nontrivial running and held-out acceptable geometry before physical records,
-      response, units or cosmology. HC-DU-032 now overlays both builds: infer a minimal
+      response, units or cosmology; carry [M^P t], not raw post depth, as its exact standard-CSG
+      predictive state, and never certify the unrestricted law from a finite prefix. HC-DU-032
+      overlays both builds only after a native survivor exists: infer a minimal
       intervention-role cover and require held-out multilevel control against flat, overlap,
       replay, RG, relay, alias and resolution rivals; do not open a third broad program. Direct
       count-running remains killed. No unconstrained clock gate, coefficient fitting, proxy
@@ -439,10 +491,12 @@ lanes:
     post-conditioned map as the positive control while preserving full path covariance; then test
     unconditioned post recurrence, tail-class running and held-out geometry. Only a survivor may
     seek physical records, a hierarchy relative to a declared microscopic unit, causal
-    response/noise and the common-past spectrum. Separately, HC-DU-031A may proceed as the bounded
-    exact Clock-QW/QCA semantic assay. Its G-full latency-only control is already killed; it
-    advances only if one fixed globally stepped construction yields a representation-independent
-    durable-record functional and hides or exposes its scheduler under declared interventions.
+    response/noise and the common-past spectrum. Separately, HC-DU-031B may proceed as the bounded
+    explicit Clock-QW/QCA recorder-extension assay. Its G-full latency-only control is already
+    killed and the published source maps do not entail accumulated memory; it advances only if one
+    fixed appended recorder yields an interface-relative invariant or equivariant durable-record
+    channel and hides or exposes its scheduler under declared interventions while charging growing
+    support and reunion access.
     HC-DU-032 adds a bounded system-individuation passport to both live builds. It does not
     promote hierarchy, recursion depth, or Beer functions to physical ontology; it advances only
     if controller lesions and held-out disturbances expose native upward/downward roles and
@@ -461,7 +515,7 @@ lanes:
       mobility, functional, or physical scale. Source/observer constructions remain admissible
       conditional exploration, but the active major program is HC-DU-011 + HC-DU-022 and its
       immediate causal-scale build is the HC-DU-011A passport named in Lane 1.5. The separate
-      HC-DU-031A record-clock semantic arena is a bounded parallel foundational test, not a
+      HC-DU-031B explicit recorder-extension arena is a bounded parallel foundational test, not a
       source-action or cosmology result.
     flip_witness_target: >-
       (wave-2, 2026-07-21) The D-FORK flip-witness is now PRICED to a hard spec: a source action
@@ -520,19 +574,22 @@ lanes:
       Build the minimum complete theory passport (state space, action, symmetries, observables,
       quantization, constraints, limits and predictions); construct explicit typed maps among the
       several N objects; execute the staged HC-DU-011 + HC-DU-022 order-first causal-scale program;
-      execute the bounded HC-DU-031 primitive-record-clock passport; and apply the HC-DU-032
+      execute the bounded HC-DU-031 explicit recorder-extension passport; and apply the HC-DU-032
       recursive-viability/system-individuation overlay to both live candidates; test
       CSG/AQFT/index/BV-BRST consistency, radiative stability, and recovery of GR plus the Standard
-      Model. HC-DU-031A first reproduces the exact 1+1 Clock-QW/QCA and tests whether its covariance
-      reaches durable observer records under reflection, reunion, boosts and scheduler-tag
-      controls. In parallel, HC-DU-011A is the lean literature-aware post passport: physical
+      Model. HC-DU-031A's source audit shows that exact Clock-QW/QCA covariance does not entail
+      accumulated memory. HC-DU-031B appends the smallest exact recorder and tests one fixed
+      interface-relative covariance/equivariance square under encoding, recorder-off, archive,
+      reunion, boost and scheduler controls. In parallel, HC-DU-011A is the lean literature-aware
+      post passport: physical
       projective sector, exact conditional map, natural-labeling covariance, global-post versus
       finite-landmark status, killed direct-count control, and unconditioned post recurrence before
       held-out geometry. Work packages WP-02/WP-03/WP-04 in the fifty-persona register.
     grade: >-
-      ACTIVE PROGRAM / EXACT POST ANTECEDENT REPRODUCED / POST GENERATIVITY PLUS HELD-OUT GEOMETRY
-      NEXT / RECORD-CLOCK SEMANTIC ARENA NEXT IN PARALLEL / RECURSIVE-VIABILITY PASSPORT OVERLAY /
-      RAW SCALAR DEPTH NONIDENTIFIED / G-FULL DELAY-ONLY AND NAIVE COUNT-RUNNING KILLED
+      ACTIVE PROGRAM / EXACT PROJECTIVE POST PREDICTIVE STATE / POST GENERATIVITY PLUS HELD-OUT
+      GEOMETRY NEXT / SOURCE CLOCK-QCA MEMORY NOT ENTAILED / EXPLICIT RECORDER EXTENSION NEXT IN
+      PARALLEL / RECURSIVE-VIABILITY PASSPORT OVERLAY / RAW SCALAR DEPTH NONIDENTIFIED / G-FULL
+      DELAY-ONLY, UNRESTRICTED FINITE-PREFIX CERTIFICATION AND NAIVE COUNT-RUNNING KILLED
 - id: '2'
   label: Lane 2
   ordinal: 2
@@ -565,10 +622,11 @@ lanes:
       factorial-tail half-power, while overturning a universal post half-power and deferring the
       raw-retention dimension selector. The active frontier is the coupled HC-DU-011 + HC-DU-022
       program: lean post passport, unconditioned recurrence/tail-family census, then held-out
-      geometry. CONCEPT-DU-002 adds a bounded parallel frontier, HC-DU-031A: compare universal
-      local record cadence with one globally stepped Clock-QW/QCA under one record, reunion, boost,
-      scheduler-quotient and units passport. G-full latency-only and unrestricted fitted gating do
-      not count as progress. CONCEPT-DU-003 adds HC-DU-032 as a bounded system-individuation
+      geometry. CONCEPT-DU-002 adds a bounded parallel frontier, HC-DU-031B: append an explicit
+      finite recorder to the globally stepped Clock-QW/QCA and test its interface-relative
+      naturality, resource boundary, reunion, boost and scheduler behavior. G-full latency-only,
+      unrestricted fitted gating, raw microstep counts and per-frame decoders do not count as
+      progress. CONCEPT-DU-003 adds HC-DU-032 as a bounded system-individuation
       overlay: discover an intervention cover rather than naming recursion depth, and require
       native locality/resource costs against flat and overlapping rivals. Direct p(N)/g(N)
       schedules and generic fitted nonlocal kernels are stopped; influence objects may serve only
@@ -730,7 +788,7 @@ special_rules:
     The broad Purpose leaves room for a FUTURE lane pursuing unification without assuming GU at
     all; Lane 2 already admits non-GU candidate frames.
 provenance:
-  revision: 14
+  revision: 15
   status: founding
   created: '2026-07-21'
   approved_by: >-
@@ -755,8 +813,11 @@ provenance:
     parallel with the post program; rev14 (Joe direct chat, 2026-07-24) admits recursive
     viable-system-like organization, conditionally constructs active multilevel regulation,
     proves raw scalar depth nonidentified under redundant refinement, replaces the scalar ladder
-    with a minimal intervention-role cover, and adds HC-DU-032 as a passport overlay; anchor
-    question + P/P/P unchanged
+    with a minimal intervention-role cover, and adds HC-DU-032 as a passport overlay; rev15 (Joe
+    direct chat, 2026-07-24) runs a premise-free foundational wave, closes source mining for
+    Clock-QCA memory, opens the explicit HC-DU-031B recorder extension, and identifies the exact
+    CSG projective predictive state plus finite-prefix nonidentification; anchor question + P/P/P
+    unchanged
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -853,3 +914,17 @@ provenance:
     bounded passport overlay on HC-DU-031A and HC-DU-011A, preserved sixty-one divergent paths,
     and changed no Lane, Purpose/Passion/Practice, claim bank, prediction seed, sibling verdict or
     public posture.
+  rev15_note: >-
+    2026-07-24 (Joe direct chat): launched one independent sub-agent per Science Council persona
+    from the complete four-wave state without a new common premise. Exact Clock-QW/QCA covariance
+    does not entail accumulated observer memory. Exact finite probes factor event flux, retained
+    capacity, stored memory, predictive state and interface ownership; prove finite
+    record-resource bounds; and show that durability plus predicate-specific copyability
+    underselects a record until a physical interface/group action or equivariant channel is
+    declared. The standard-CSG complete transition algebra is exactly the projective state
+    [M^P t], while unrestricted positive couplings defeat every finite-prefix certification
+    horizon. Closed HC-DU-031A's source-mining interpretation, opened HC-DU-031B as an explicit
+    recorder-extension covariance square, and hardened HC-DU-011A around the projective
+    predictive quotient. Another broad council wave is stopped pending a direct build. No lane,
+    Purpose/Passion/Practice, claim bank, prediction seed, sibling verdict or public posture
+    changed.

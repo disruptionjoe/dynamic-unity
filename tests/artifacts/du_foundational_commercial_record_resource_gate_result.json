@@ -1,0 +1,434 @@
+{
+  "bounded_counter_holdout": {
+    "basis_state_capacity": 243,
+    "cells": 5,
+    "first_alias": {
+      "earlier_time": 0,
+      "later_time": 243,
+      "value": 0
+    },
+    "passes": false,
+    "resource_import": "The finite horizon is purchased by the declared number of accessible ternary cells.",
+    "tested_transition_horizon": 1000,
+    "transition_horizon_without_alias": 242
+  },
+  "bounded_counter_training": {
+    "basis_state_capacity": 243,
+    "cells": 5,
+    "first_alias": null,
+    "passes": true,
+    "resource_import": "The finite horizon is purchased by the declared number of accessible ternary cells.",
+    "tested_transition_horizon": 100,
+    "transition_horizon_without_alias": 242
+  },
+  "checks": [
+    {
+      "name": "all finite reversible tournaments attain at most q distinct orbit states",
+      "pass": true
+    },
+    {
+      "name": "a fixed qutrit phase aliases times zero and three",
+      "pass": true
+    },
+    {
+      "name": "five ternary cells pass the selected T=100 horizon",
+      "pass": true
+    },
+    {
+      "name": "the same five ternary cells fail the held-out T=1000 horizon",
+      "pass": true
+    },
+    {
+      "name": "the bounded-counter alias occurs exactly at its capacity",
+      "pass": true
+    },
+    {
+      "name": "minimum qutrit count support for T=100 is five cells",
+      "pass": true
+    },
+    {
+      "name": "minimum qutrit count support for T=1000 is seven cells",
+      "pass": true
+    },
+    {
+      "name": "growing marker count survives lattice translation",
+      "pass": true
+    },
+    {
+      "name": "growing marker count survives vacuum-inserting stretch",
+      "pass": true
+    },
+    {
+      "name": "raw archive span fails the stretch quotient",
+      "pass": true
+    },
+    {
+      "name": "raw scheduler tags fail rescheduling invariance",
+      "pass": true
+    },
+    {
+      "name": "causal event ordinals survive rescheduling",
+      "pass": true
+    },
+    {
+      "name": "fixed replay matches the selected all-active training history",
+      "pass": true
+    },
+    {
+      "name": "fixed replay fails the held-out skipped-event history",
+      "pass": true
+    },
+    {
+      "name": "disabling the recorder removes cumulative records",
+      "pass": true
+    },
+    {
+      "name": "count-only and event-append-only resource prices remain distinct",
+      "pass": true
+    }
+  ],
+  "commercial_stage_gate": {
+    "decision": "FUND_ONE_SOURCE-EXACT_EXTRACTION_STAGE_ONLY",
+    "maximum_authorized_follow_on_work_units_before_redecision": 9,
+    "opportunity_cost": "Every funded work unit delays the independent causal-post recurrence/geometry route; no observer ontology, 3+1 extension, gravity, or cosmology work is funded by this gate.",
+    "retained_asset": "Clock QCA remains the strongest exact globally stepped covariance antecedent.",
+    "shortcut_retired": "A three-state wire, changing phase, circuit cell, or global tick is not by itself an observer record.",
+    "stage_1_budget_work_units": 2,
+    "stage_1_deliverable": "source-exact Clock-QCA gate/encoding reproduction plus an inventory of candidate record support along one inertial and one non-inertial history",
+    "stage_1_stop": "No candidate record has growing or externally charged accessible support, or every candidate depends on raw scheduler/address labels.",
+    "stage_2_budget_work_units_if_stage_1_passes": 4,
+    "stage_2_deliverable": "reunion-readable record functional tested under encoding, translation, rescheduling, mechanism-off, and held-out paths",
+    "stage_2_stop": "The functional aliases held-out histories, changes under the declared quotient, or counts inserted vacuum/support as time.",
+    "stage_3_budget_work_units_if_stage_2_passes": 3,
+    "stage_3_deliverable": "recursive-viability lesions and locality/resource comparison against a flat controller"
+  },
+  "exact_theorem": {
+    "append_only_correction": "The logarithmic bound prices current count distinguishability. A dedicated unary event archive uses T fresh cells and keeps the event-by-event prefix; these are not the same requirement.",
+    "cell_bound": "For k cells of local dimension d: d^k >= T+1, so k >= ceil(log_d(T+1)).",
+    "classical": "A deterministic reversible orbit in q finite states has at most q distinct current-state readouts before recurrence. Therefore values 0..T require at least T+1 accessible states.",
+    "does_not_imply": "It does not rule out an unbounded QCA. It rules out treating one fixed bounded finite-state subsystem as an indefinitely growing record without charging external or growing support.",
+    "quantum": "T+1 perfectly distinguishable reunion records require T+1 mutually orthogonal record supports, hence accessible Hilbert dimension at least T+1."
+  },
+  "fixed_qutrit_phase": {
+    "first_alias": {
+      "earlier_time": 0,
+      "later_time": 3,
+      "value": 0
+    },
+    "interpretation": "A changing three-state phase is a clock phase, not an unbounded cumulative record.",
+    "local_dimension": 3,
+    "readouts": [
+      0,
+      1,
+      2,
+      0,
+      1,
+      2,
+      0,
+      1,
+      2
+    ]
+  },
+  "growing_spatial_archive": {
+    "count_survives_translation": true,
+    "count_survives_vacuum_inserting_stretch": true,
+    "interpretation": "An unbounded lattice can host an unbounded record, but the accessible support grows and raw support span is not invariant.",
+    "rows": [
+      {
+        "accessible_cells": 0,
+        "marker_count": 0,
+        "raw_span": 0,
+        "stretched_raw_span": 0,
+        "stretched_with_vacua_marker_count": 0,
+        "time": 0,
+        "translated_marker_count": 0
+      },
+      {
+        "accessible_cells": 1,
+        "marker_count": 1,
+        "raw_span": 1,
+        "stretched_raw_span": 1,
+        "stretched_with_vacua_marker_count": 1,
+        "time": 1,
+        "translated_marker_count": 1
+      },
+      {
+        "accessible_cells": 2,
+        "marker_count": 2,
+        "raw_span": 2,
+        "stretched_raw_span": 4,
+        "stretched_with_vacua_marker_count": 2,
+        "time": 2,
+        "translated_marker_count": 2
+      },
+      {
+        "accessible_cells": 3,
+        "marker_count": 3,
+        "raw_span": 3,
+        "stretched_raw_span": 7,
+        "stretched_with_vacua_marker_count": 3,
+        "time": 3,
+        "translated_marker_count": 3
+      },
+      {
+        "accessible_cells": 4,
+        "marker_count": 4,
+        "raw_span": 4,
+        "stretched_raw_span": 10,
+        "stretched_with_vacua_marker_count": 4,
+        "time": 4,
+        "translated_marker_count": 4
+      },
+      {
+        "accessible_cells": 5,
+        "marker_count": 5,
+        "raw_span": 5,
+        "stretched_raw_span": 13,
+        "stretched_with_vacua_marker_count": 5,
+        "time": 5,
+        "translated_marker_count": 5
+      },
+      {
+        "accessible_cells": 6,
+        "marker_count": 6,
+        "raw_span": 6,
+        "stretched_raw_span": 16,
+        "stretched_with_vacua_marker_count": 6,
+        "time": 6,
+        "translated_marker_count": 6
+      },
+      {
+        "accessible_cells": 7,
+        "marker_count": 7,
+        "raw_span": 7,
+        "stretched_raw_span": 19,
+        "stretched_with_vacua_marker_count": 7,
+        "time": 7,
+        "translated_marker_count": 7
+      },
+      {
+        "accessible_cells": 8,
+        "marker_count": 8,
+        "raw_span": 8,
+        "stretched_raw_span": 22,
+        "stretched_with_vacua_marker_count": 8,
+        "time": 8,
+        "translated_marker_count": 8
+      },
+      {
+        "accessible_cells": 9,
+        "marker_count": 9,
+        "raw_span": 9,
+        "stretched_raw_span": 25,
+        "stretched_with_vacua_marker_count": 9,
+        "time": 9,
+        "translated_marker_count": 9
+      },
+      {
+        "accessible_cells": 10,
+        "marker_count": 10,
+        "raw_span": 10,
+        "stretched_raw_span": 28,
+        "stretched_with_vacua_marker_count": 10,
+        "time": 10,
+        "translated_marker_count": 10
+      },
+      {
+        "accessible_cells": 11,
+        "marker_count": 11,
+        "raw_span": 11,
+        "stretched_raw_span": 31,
+        "stretched_with_vacua_marker_count": 11,
+        "time": 11,
+        "translated_marker_count": 11
+      },
+      {
+        "accessible_cells": 12,
+        "marker_count": 12,
+        "raw_span": 12,
+        "stretched_raw_span": 34,
+        "stretched_with_vacua_marker_count": 12,
+        "time": 12,
+        "translated_marker_count": 12
+      }
+    ],
+    "span_is_not_representation_invariant": true
+  },
+  "primary_antecedent_scope": {
+    "source": "P. Arrighi, S. Facchini, M. Forets, Discrete Lorentz covariance for Quantum Walks and Quantum Cellular Automata, New J. Phys. 16 (2014) 093007, arXiv:1404.4499.",
+    "source_does_not_supply_for_this_program": "a persistent observer boundary, append-only record functional, reunion comparison, record-resource price, or physical unit map",
+    "source_establishes": "an exactly discrete-Lorentz-covariant 1+1 Clock QCA with fixed three-dimensional wire state under a specified isometric encoding"
+  },
+  "probe": "du_foundational_commercial_record_resource_gate",
+  "replay_provenance": {
+    "active_held_out_record": [
+      1,
+      2,
+      2,
+      3,
+      3,
+      4
+    ],
+    "active_training_record": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "fixed_replay_record": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "held_out_events": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      1
+    ],
+    "interpretation": "A prewritten cadence matches the selected all-active history but fails a held-out skipped-event intervention.",
+    "mechanism_off_record": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "replay_matches_held_out": false,
+    "replay_matches_training": true,
+    "training_events": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "resource_table": [
+    {
+      "dedicated_cells_in_unary_event_archive": 2,
+      "minimum_qutrit_cells_for_count_only": 1,
+      "perfectly_distinguishable_values_required": 3,
+      "transition_horizon_T": 2
+    },
+    {
+      "dedicated_cells_in_unary_event_archive": 10,
+      "minimum_qutrit_cells_for_count_only": 3,
+      "perfectly_distinguishable_values_required": 11,
+      "transition_horizon_T": 10
+    },
+    {
+      "dedicated_cells_in_unary_event_archive": 100,
+      "minimum_qutrit_cells_for_count_only": 5,
+      "perfectly_distinguishable_values_required": 101,
+      "transition_horizon_T": 100
+    },
+    {
+      "dedicated_cells_in_unary_event_archive": 1000,
+      "minimum_qutrit_cells_for_count_only": 7,
+      "perfectly_distinguishable_values_required": 1001,
+      "transition_horizon_T": 1000
+    },
+    {
+      "dedicated_cells_in_unary_event_archive": 1000000,
+      "minimum_qutrit_cells_for_count_only": 13,
+      "perfectly_distinguishable_values_required": 1000001,
+      "transition_horizon_T": 1000000
+    }
+  ],
+  "reversible_tournament": [
+    {
+      "maximum_distinct_readable_values_on_one_orbit": 2,
+      "maximum_strict_increment_transitions_before_alias": 1,
+      "permutations_checked": 2,
+      "states": 2
+    },
+    {
+      "maximum_distinct_readable_values_on_one_orbit": 3,
+      "maximum_strict_increment_transitions_before_alias": 2,
+      "permutations_checked": 6,
+      "states": 3
+    },
+    {
+      "maximum_distinct_readable_values_on_one_orbit": 4,
+      "maximum_strict_increment_transitions_before_alias": 3,
+      "permutations_checked": 24,
+      "states": 4
+    },
+    {
+      "maximum_distinct_readable_values_on_one_orbit": 5,
+      "maximum_strict_increment_transitions_before_alias": 4,
+      "permutations_checked": 120,
+      "states": 5
+    },
+    {
+      "maximum_distinct_readable_values_on_one_orbit": 6,
+      "maximum_strict_increment_transitions_before_alias": 5,
+      "permutations_checked": 720,
+      "states": 6
+    },
+    {
+      "maximum_distinct_readable_values_on_one_orbit": 7,
+      "maximum_strict_increment_transitions_before_alias": 6,
+      "permutations_checked": 5040,
+      "states": 7
+    }
+  ],
+  "scheduler_quotient": {
+    "causal_event_count_survives": true,
+    "event_ordinals_a": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "event_ordinals_b": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "interpretation": "A raw scheduler tag is not a record on the rescheduling quotient; event order/count can be.",
+    "schedule_a_tags": [
+      0,
+      2,
+      5,
+      9,
+      14
+    ],
+    "schedule_b_tags": [
+      10,
+      20,
+      30,
+      40,
+      50
+    ],
+    "scheduler_tag_record_survives": false
+  },
+  "scope": {
+    "not_tested": [
+      "the Clock-QCA scattering unitary",
+      "the Clock-QCA discrete covariance proof",
+      "whether a native Clock-QCA history supplies a record archive",
+      "proper-time or physical-unit identification",
+      "3+1 dimensions, interaction, gravity, or cosmology"
+    ],
+    "tested": "resource lower bound and semantic rivals for perfectly distinguishable cumulative records"
+  },
+  "summary": {
+    "passed": 16,
+    "total": 16,
+    "verdict": "FIXED-BOUNDED-STATE RECORD SHORTCUT RETIRED / GROWING OR EXTERNALLY CHARGED SUPPORT REQUIRED / CLOCK-QCA COVARIANCE ANTECEDENT RETAINED / ONE EXTRACTION STAGE FUNDED"
+  }
+}

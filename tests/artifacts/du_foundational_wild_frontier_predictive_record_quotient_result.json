@@ -1,0 +1,803 @@
+{
+  "candidate_contract": {
+    "assumptions": [
+      {
+        "id": "A1",
+        "role": "Defines the model-relative predictive experiment algebra; no new growth dynamics is introduced.",
+        "statement": "Classical sequential growth with the standard post transform and originary nonempty-precursor transition law is the fixed formal host.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A2",
+        "role": "Makes all allowed transition probabilities finite and defines the projective law-state.",
+        "statement": "Physical post-era couplings satisfy T_1>0 and are compared modulo one positive overall scale.",
+        "status": "STANDARD"
+      },
+      {
+        "id": "A3",
+        "role": "Supplies the history index; occurrence, recurrence, and acceptable geometry are not derived.",
+        "statement": "A covariantly identifiable post with completed-past cardinality P is conditioned upon.",
+        "status": "CONDITIONAL_POSIT"
+      },
+      {
+        "id": "A4",
+        "role": "Defines exact predictive equivalence without assuming that a finite physical subsystem can read infinite data.",
+        "statement": "The complete experiment algebra includes transition probabilities at every future parent size and allowed nonempty precursor summary.",
+        "status": "CONDITIONAL_POSIT"
+      }
+    ],
+    "candidate_id": "DU-FOUNDATIONAL-WILD-PREDICTIVE-RECORD-QUOTIENT",
+    "comparators": [
+      "positive overall coupling rescaling",
+      "transitive-percolation geometric fixed line",
+      "factorial off-fixed family",
+      "frozen effective-law replay at one history",
+      "same-P labeled or microshape-distinct post pasts",
+      "strictly positive prefix-defect counterfamily"
+    ],
+    "concept": {
+      "concept_id": "CONCEPT-DU-001",
+      "failure_scope": "FORMALIZATION",
+      "formalization_id": "CSG-POST-PREDICTIVE-RECORD-QUOTIENT",
+      "invariant": "A candidate history-to-law object must be defined on the physical quotient, distinguish retained predictive content from replay, and survive an out-of-family finite-readout kill."
+    },
+    "equations": [
+      "T_n(P)=M^P(t)_n=sum_(k=0)^P binom(P,k)t_(n+k), n>=1",
+      "lambda(varpi,m)=sum_(k=m)^varpi binom(varpi-m,k-m)T_k",
+      "Pr(n;varpi,m)=lambda(varpi,m)/sum_(k=1)^n binom(n,k)T_k",
+      "s_n=Pr(n;1,1)=T_1/sum_(k=1)^n binom(n,k)T_k",
+      "T_n/T_1=1/s_n-n-sum_(k=2)^(n-1)binom(n,k)T_k/T_1",
+      "history equivalence H~H' iff [M^P t]=[M^(P')t]"
+    ],
+    "falsifiers": [
+      "one positive projective rescaling changes a transition probability",
+      "singleton-origin probabilities fail to recover the normalized law",
+      "the geometric fixed family preserves distinguishable post-depth classes",
+      "the prefix-defect pair differs at or before its declared horizon",
+      "the prefix-defect pair remains equal at the first later singleton test"
+    ],
+    "free_choices": [
+      {
+        "choice": "Use one positive rational vector through index eight for the reconstruction and projective-scale controls.",
+        "id": "C1",
+        "sensitivity_test": "Recover every exposed ratio recursively and require scale invariance of the full finite transition algebra.",
+        "why_not_forced": "The vector is an exact arithmetic fixture, not a selected physical law."
+      },
+      {
+        "choice": "Inspect the geometric fixed line at P=0,1,2,5 and the factorial family at P=0..12.",
+        "id": "C2",
+        "sensitivity_test": "Require exact collapse on the fixed line and exact pairwise separation of t2/t1 on every factorial depth.",
+        "why_not_forced": "These are mechanism-disable and off-fixed controls, not a census of all CSG coupling families."
+      },
+      {
+        "choice": "Use a=1/2, defect factor d=3, and P=1 for the prefix-defect counterfamily.",
+        "id": "C3",
+        "sensitivity_test": "Repeat the exact construction for every horizon r=1..10 and prove the arbitrary-r identity symbolically.",
+        "why_not_forced": "Any positive a and positive d unequal to one give the same algebraic counterexample."
+      }
+    ],
+    "null_models": [
+      "raw post depth P as the retained record",
+      "the full labeled or shaped pre-post history as the retained record",
+      "a copied fixed effective coupling law",
+      "a finite coupling or transition prefix as a certificate of the full law"
+    ],
+    "observables": [
+      "complete projective post-era coupling law-state",
+      "complete nonempty-precursor transition experiment algebra",
+      "singleton-origin transition probabilities by parent size",
+      "finite-horizon projective and transition restrictions",
+      "first post-horizon singleton-origin divergence"
+    ],
+    "question": "Within one fixed standard CSG coupling family and the complete future-transition experiment algebra, what invariant law-state does a post history retain, and can any finite readout certify that full state?",
+    "result": {
+      "admission": "CONCEPT_OPEN",
+      "checks": [
+        {
+          "name": "projective rescaling leaves the complete finite transition algebra exactly unchanged",
+          "pass": true
+        },
+        {
+          "name": "singleton-origin probabilities recursively recover every exposed projective coupling exactly",
+          "pass": true
+        },
+        {
+          "name": "the geometric transitive-percolation family collapses all tested post depths to one projective law",
+          "pass": true
+        },
+        {
+          "name": "the geometric fixed-line transition algebras are exactly equal",
+          "pass": true
+        },
+        {
+          "name": "factorial post depths 0..12 have pairwise distinct exact t2/t1 ratios",
+          "pass": true
+        },
+        {
+          "name": "factorial t2/t1 decreases strictly on every tested adjacent depth",
+          "pass": true
+        },
+        {
+          "name": "the prefix-defect bare family is strictly positive and standard nonnegative-CSG admissible",
+          "pass": true
+        },
+        {
+          "name": "the focal prefix-defect pair has equal projective components through the declared horizon",
+          "pass": true
+        },
+        {
+          "name": "every focal transition summary at parent sizes n<=r agrees exactly",
+          "pass": true
+        },
+        {
+          "name": "the focal projective laws first differ at exposed component r+1",
+          "pass": true
+        },
+        {
+          "name": "the always-available singleton-origin transition detects the focal difference at parent size r+1",
+          "pass": true
+        },
+        {
+          "name": "all exact prefix-defect horizons r=1..10 are fooled through r and diverge at r+1",
+          "pass": true
+        },
+        {
+          "name": "a frozen effective-law replay exactly matches one conditioned fixture's transition algebra",
+          "pass": true
+        },
+        {
+          "name": "a neighboring factorial post depth has a different transition law",
+          "pass": true
+        },
+        {
+          "name": "same-depth post-past microshape does not enter the standard post transform",
+          "pass": true
+        },
+        {
+          "name": "no accessibility, causal-efficacy, observer-memory, source-reconstruction, recurrence, geometry, unit, or DU claim is inferred",
+          "pass": true
+        }
+      ],
+      "claim": "Within the fixed standard CSG post-era experiment algebra, [M^P t] is the exact minimal sufficient predictive law-state modulo scale. A strictly positive counterfamily proves that no finite transition horizon certifies equality of the complete law-state.",
+      "grade": "EXACT MODEL-RELATIVE QUOTIENT / FINITE-ACCESS NO-GO / OBSERVERHOOD-AND-CONTROL-NONIDENTIFIED",
+      "remaining_uncertainty": "Physical access to the law-state, active causal efficacy, observer records, source reconstruction, post production and recurrence, geometry, units, and cross-cycle system individuation remain open."
+    },
+    "schema_version": "du-conditional-candidate-v1",
+    "stop_conditions": [
+      "Do not call predictive sufficiency physical accessibility.",
+      "Do not call inherited law-state an observer memory or active controller.",
+      "Do not infer a unique bare law, post depth, or source history from the quotient.",
+      "Do not promote a finite-horizon match to complete predictive equivalence.",
+      "Do not bank a Dynamic Unity claim or infer post occurrence, recurrence, geometry, or units."
+    ],
+    "track": "Fifth Science Council / premise-free foundational wave / wild-frontier",
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "comparison_receipt": {
+    "admission": "CONCEPT_OPEN",
+    "assumption_count": 4,
+    "candidate_id": "DU-FOUNDATIONAL-WILD-PREDICTIVE-RECORD-QUOTIENT",
+    "checks_passed": 16,
+    "checks_total": 16,
+    "contract_errors": [],
+    "contract_status": "COMPLETE",
+    "falsifier_count": 5,
+    "free_choice_count": 3,
+    "instrument": "du-conditional-candidate-v1",
+    "note": "Contract completeness means legible and comparable, not physically true. Warrant types are non-ordinal; computation or formal argument disposes.",
+    "null_model_count": 4,
+    "observable_count": 5,
+    "scientific_endorsement": false,
+    "warrants": [
+      "DERIVED",
+      "CONDITIONALLY_ENTAILED",
+      "CONSTRUCTIVELY_REALIZED"
+    ]
+  },
+  "results": {
+    "checks": [
+      {
+        "name": "projective rescaling leaves the complete finite transition algebra exactly unchanged",
+        "pass": true
+      },
+      {
+        "name": "singleton-origin probabilities recursively recover every exposed projective coupling exactly",
+        "pass": true
+      },
+      {
+        "name": "the geometric transitive-percolation family collapses all tested post depths to one projective law",
+        "pass": true
+      },
+      {
+        "name": "the geometric fixed-line transition algebras are exactly equal",
+        "pass": true
+      },
+      {
+        "name": "factorial post depths 0..12 have pairwise distinct exact t2/t1 ratios",
+        "pass": true
+      },
+      {
+        "name": "factorial t2/t1 decreases strictly on every tested adjacent depth",
+        "pass": true
+      },
+      {
+        "name": "the prefix-defect bare family is strictly positive and standard nonnegative-CSG admissible",
+        "pass": true
+      },
+      {
+        "name": "the focal prefix-defect pair has equal projective components through the declared horizon",
+        "pass": true
+      },
+      {
+        "name": "every focal transition summary at parent sizes n<=r agrees exactly",
+        "pass": true
+      },
+      {
+        "name": "the focal projective laws first differ at exposed component r+1",
+        "pass": true
+      },
+      {
+        "name": "the always-available singleton-origin transition detects the focal difference at parent size r+1",
+        "pass": true
+      },
+      {
+        "name": "all exact prefix-defect horizons r=1..10 are fooled through r and diverge at r+1",
+        "pass": true
+      },
+      {
+        "name": "a frozen effective-law replay exactly matches one conditioned fixture's transition algebra",
+        "pass": true
+      },
+      {
+        "name": "a neighboring factorial post depth has a different transition law",
+        "pass": true
+      },
+      {
+        "name": "same-depth post-past microshape does not enter the standard post transform",
+        "pass": true
+      },
+      {
+        "name": "no accessibility, causal-efficacy, observer-memory, source-reconstruction, recurrence, geometry, unit, or DU claim is inferred",
+        "pass": true
+      }
+    ],
+    "checks_passed": 16,
+    "checks_total": 16,
+    "factorial_off_fixed_witness": {
+      "bare_family": "t_n=1/n!",
+      "post_depths": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "reading": "Unlike the fixed line, this off-fixed family gives distinct predictive classes on depths 0..12. This finite exact witness does not prove post occurrence, recurrence, or a universal history-depth decoder.",
+      "rows": [
+        {
+          "post_depth": 0,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "1/2",
+            "1/6",
+            "1/24",
+            "1/120"
+          ],
+          "projective_t2_over_t1": "1/2",
+          "singleton_probability_at_parent_size_2": "2/5"
+        },
+        {
+          "post_depth": 1,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "4/9",
+            "5/36",
+            "1/30",
+            "7/1080"
+          ],
+          "projective_t2_over_t1": "4/9",
+          "singleton_probability_at_parent_size_2": "9/22"
+        },
+        {
+          "post_depth": 2,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "21/52",
+            "31/260",
+            "43/1560",
+            "19/3640"
+          ],
+          "projective_t2_over_t1": "21/52",
+          "singleton_probability_at_parent_size_2": "52/125"
+        },
+        {
+          "post_depth": 3,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "136/365",
+            "229/2190",
+            "179/7665",
+            "529/122640"
+          ],
+          "projective_t2_over_t1": "136/365",
+          "singleton_probability_at_parent_size_2": "365/866"
+        },
+        {
+          "post_depth": 4,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "1045/3006",
+            "1961/21042",
+            "377/18704",
+            "787/216432"
+          ],
+          "projective_t2_over_t1": "1045/3006",
+          "singleton_probability_at_parent_size_2": "3006/7057"
+        },
+        {
+          "post_depth": 5,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "9276/28357",
+            "19081/226856",
+            "18023/1020852",
+            "21197/6805680"
+          ],
+          "projective_t2_over_t1": "9276/28357",
+          "singleton_probability_at_parent_size_2": "28357/65990"
+        },
+        {
+          "post_depth": 6,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "93289/301064",
+            "207775/2709576",
+            "424051/27095760",
+            "805597/298053360"
+          ],
+          "projective_t2_over_t1": "93289/301064",
+          "singleton_probability_at_parent_size_2": "301064/695417"
+        },
+        {
+          "post_depth": 7,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "1047376/3549177",
+            "2501801/35491770",
+            "911693/65068245",
+            "11109337/4684913640"
+          ],
+          "projective_t2_over_t1": "1047376/3549177",
+          "singleton_probability_at_parent_size_2": "3549177/8145730"
+        },
+        {
+          "post_depth": 8,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "12975561/45965530",
+            "32989969/505620830",
+            "5903941/466726920",
+            "55208643/26292283160"
+          ],
+          "projective_t2_over_t1": "12975561/45965530",
+          "singleton_probability_at_parent_size_2": "45965530/104906621"
+        },
+        {
+          "post_depth": 9,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "175721140/648352001",
+            "472630861/7780224012",
+            "581695979/50571456078",
+            "241275029/128727342744"
+          ],
+          "projective_t2_over_t1": "175721140/648352001",
+          "singleton_probability_at_parent_size_2": "648352001/1472425142"
+        },
+        {
+          "post_depth": 10,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "2581284541/9888877692",
+            "7307593151/128555409996",
+            "6313837577/599925246648",
+            "45481765921/26996636099160"
+          ],
+          "projective_t2_over_t1": "2581284541/9888877692",
+          "singleton_probability_at_parent_size_2": "9888877692/22359039925"
+        },
+        {
+          "post_depth": 11,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "40864292184/162112109029",
+            "121247816845/2269569526406",
+            "164802228443/17021771448045",
+            "39519232477/25937937444640"
+          ],
+          "projective_t2_over_t1": "40864292184/162112109029",
+          "singleton_probability_at_parent_size_2": "162112109029/365088510242"
+        },
+        {
+          "post_depth": 12,
+          "projective_law_through_index_5": [
+            "0",
+            "1",
+            "693347907421/2841669616982",
+            "2148321709561/42625044254730",
+            "6103575192193/682000708075680",
+            "16062421776397/11594012037286560"
+          ],
+          "projective_t2_over_t1": "693347907421/2841669616982",
+          "singleton_probability_at_parent_size_2": "2841669616982/6376687141385"
+        }
+      ],
+      "t2_over_t1_pairwise_distinct_exactly": true,
+      "t2_over_t1_strictly_decreases_on_tested_depths": true
+    },
+    "finite_readout_counterfamily": {
+      "all_swept_horizons_are_fooled_then_diverge": true,
+      "construction": "For arbitrary finite horizon r and post depth P, use t_n=a^n through n=r+P+1, set t_(r+P+2)=d*a^(r+P+2) with a=1/2 and d=3, and keep every other entry on the positive geometric baseline.",
+      "exact_identity": "For n<=r, M^P(t)_n=(1+a)^P a^n and M^(P+1)(t)_n=(1+a)^(P+1) a^n, so the projective laws and every stage-n transition agree. The defect first enters M^(P+1)(t)_(r+1).",
+      "focal_fixture": {
+        "all_bare_couplings_strictly_positive": true,
+        "all_transition_summaries_at_parent_sizes_n_le_r_equal": true,
+        "compared_post_depths": [
+          1,
+          2
+        ],
+        "component_r_plus_1_differs": true,
+        "defect_factor": "3",
+        "defect_index": 8,
+        "equal_transition_summary_count": 35,
+        "first_later_available_discriminator": {
+          "absolute_probability_difference": "64/3981355",
+          "after_P_plus_1_probability": "288/5987",
+          "after_P_probability": "32/665",
+          "description": "singleton-origin precursor",
+          "parent_size": 6,
+          "precursor_maxima": 1,
+          "precursor_size": 1,
+          "probabilities_differ": true
+        },
+        "geometric_prefix_last_index": 7,
+        "horizon_r": 5,
+        "post_depth_P": 1,
+        "projective_components_1_through_r_equal": true,
+        "projective_law_after_P": [
+          "0",
+          "1",
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32"
+        ],
+        "projective_law_after_P_plus_1": [
+          "0",
+          "1",
+          "1/2",
+          "1/4",
+          "1/8",
+          "1/16",
+          "11/288"
+        ],
+        "standard_nonnegative_csg_admissibility": true
+      },
+      "horizon_sweep_1_through_10": [
+        {
+          "defect_index": 4,
+          "equal_transition_summary_count": 1,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 1
+        },
+        {
+          "defect_index": 5,
+          "equal_transition_summary_count": 4,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 2
+        },
+        {
+          "defect_index": 6,
+          "equal_transition_summary_count": 10,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 3
+        },
+        {
+          "defect_index": 7,
+          "equal_transition_summary_count": 20,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 4
+        },
+        {
+          "defect_index": 8,
+          "equal_transition_summary_count": 35,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 5
+        },
+        {
+          "defect_index": 9,
+          "equal_transition_summary_count": 56,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 6
+        },
+        {
+          "defect_index": 10,
+          "equal_transition_summary_count": 84,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 7
+        },
+        {
+          "defect_index": 11,
+          "equal_transition_summary_count": 120,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 8
+        },
+        {
+          "defect_index": 12,
+          "equal_transition_summary_count": 165,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 9
+        },
+        {
+          "defect_index": 13,
+          "equal_transition_summary_count": 220,
+          "first_later_singleton_differs": true,
+          "horizon_algebra_equal": true,
+          "horizon_r": 10
+        }
+      ],
+      "reading": "A finite transition readout defines a legitimate finite-horizon quotient, but cannot certify equality of the complete predictive law. This kills universal finite certification, not the exact complete-algebra quotient."
+    },
+    "geometric_mechanism_disable": {
+      "all_projective_laws_exactly_equal": true,
+      "all_transition_algebras_exactly_equal": true,
+      "bare_family": "t_n=(2/5)^n",
+      "post_depths": [
+        0,
+        1,
+        2,
+        5
+      ],
+      "reading": "On the transitive-percolation fixed line, post depth is not a predictive record: every tested depth maps to the same complete projective law.",
+      "rows": [
+        {
+          "post_depth": 0,
+          "projective_law": [
+            "0",
+            "1",
+            "2/5",
+            "4/25",
+            "8/125",
+            "16/625",
+            "32/3125",
+            "64/15625",
+            "128/78125"
+          ],
+          "singleton_origin_probabilities": [
+            "0",
+            "1",
+            "5/12",
+            "25/109",
+            "125/888",
+            "625/6841",
+            "3125/51012",
+            "15625/372709",
+            "78125/2687088"
+          ]
+        },
+        {
+          "post_depth": 1,
+          "projective_law": [
+            "0",
+            "1",
+            "2/5",
+            "4/25",
+            "8/125",
+            "16/625",
+            "32/3125",
+            "64/15625",
+            "128/78125"
+          ],
+          "singleton_origin_probabilities": [
+            "0",
+            "1",
+            "5/12",
+            "25/109",
+            "125/888",
+            "625/6841",
+            "3125/51012",
+            "15625/372709",
+            "78125/2687088"
+          ]
+        },
+        {
+          "post_depth": 2,
+          "projective_law": [
+            "0",
+            "1",
+            "2/5",
+            "4/25",
+            "8/125",
+            "16/625",
+            "32/3125",
+            "64/15625",
+            "128/78125"
+          ],
+          "singleton_origin_probabilities": [
+            "0",
+            "1",
+            "5/12",
+            "25/109",
+            "125/888",
+            "625/6841",
+            "3125/51012",
+            "15625/372709",
+            "78125/2687088"
+          ]
+        },
+        {
+          "post_depth": 5,
+          "projective_law": [
+            "0",
+            "1",
+            "2/5",
+            "4/25",
+            "8/125",
+            "16/625",
+            "32/3125",
+            "64/15625",
+            "128/78125"
+          ],
+          "singleton_origin_probabilities": [
+            "0",
+            "1",
+            "5/12",
+            "25/109",
+            "125/888",
+            "625/6841",
+            "3125/51012",
+            "15625/372709",
+            "78125/2687088"
+          ]
+        }
+      ]
+    },
+    "minimal_sufficiency": {
+      "arbitrary_positive_couplings": [
+        "0",
+        "3/7",
+        "5/11",
+        "2/13",
+        "17/19",
+        "7/23",
+        "29/31",
+        "11/37",
+        "41/43"
+      ],
+      "maximum_parent_size": 8,
+      "normalized_couplings": [
+        "0",
+        "1",
+        "35/33",
+        "14/39",
+        "119/57",
+        "49/69",
+        "203/93",
+        "77/111",
+        "287/129"
+      ],
+      "projective_recovery_exact": true,
+      "projective_scale_control": "17/5",
+      "reading": "Within the complete standard originary CSG transition algebra, the projective physical coupling vector is sufficient and is recoverable from the singleton-origin subalgebra. This is a model-law result, not a physical-access result.",
+      "recursively_recovered_projective_couplings": [
+        "0",
+        "1",
+        "35/33",
+        "14/39",
+        "119/57",
+        "49/69",
+        "203/93",
+        "77/111",
+        "287/129"
+      ],
+      "scaled_transition_algebra_exactly_equal": true,
+      "singleton_origin_probabilities": [
+        "0",
+        "1",
+        "33/101",
+        "429/2806",
+        "8151/113195",
+        "62491/1896261",
+        "1937221/129499413",
+        "71677177/10450053054",
+        "9246355833/2890416713521"
+      ],
+      "transition_summary_count": 120
+    },
+    "probe": "du_foundational_wild_frontier_predictive_record_quotient_probe",
+    "replay_and_source_controls": {
+      "causal_efficacy_nonidentification": "At one quotient state a frozen replay matches exactly. No post-era diagnostic, intervention, or return arrow is present.",
+      "different_depth_transition_law_differs": true,
+      "different_factorial_depth": 6,
+      "factorial_history_depth": 5,
+      "frozen_effective_law_replay_exactly_equal": true,
+      "same_depth_different_post_past_microshape": {
+        "histories": [
+          "shape-A",
+          "shape-B"
+        ],
+        "post_depth": 5,
+        "post_map_outputs_exactly_equal_by_formula": true,
+        "reading": "For a post, the standard transformed coupling formula depends on completed-past cardinality P, not on the labeled presentation or microshape of that past."
+      },
+      "source_nonidentification": "The quotient predicts the post era but does not invert to a unique bare law or post history. The geometric fixed-line control already supplies multiple P values with one law-state."
+    },
+    "scientific_reading": {
+      "constructively_realized": "Geometric collapse, factorial separation on P=0..12, exact replay, and the positive prefix-defect family.",
+      "derived": "Projective post-era couplings and the complete standard future transition algebra determine each other.",
+      "nonidentified": "Physical access, causal efficacy, observer memory, source history, post recurrence, geometry, and system individuation.",
+      "overturned": "Raw post depth and full prehistory are not generally the minimal retained predictive content, and no finite law prefix universally certifies the complete content.",
+      "portfolio_only": "The quotient is a diagnostic support object for later record/viability work, not a banked Dynamic Unity claim."
+    },
+    "scope": {
+      "equivalence_domain": "complete future nonempty-precursor transition experiment algebra",
+      "fitted_parameters": [],
+      "host": "standard classical sequential growth after a conditioned post",
+      "quotient": "positive overall scale, relabeling/path presentation, and post-past detail erased by the standard post transform",
+      "selected_physical_history": false,
+      "units": "all quantities are dimensionless exact ratios"
+    },
+    "source_anchors": [
+      {
+        "url": "https://arxiv.org/abs/gr-qc/9904062",
+        "used_for": "standard CSG transition weights, discrete general covariance, causality, and projective couplings",
+        "work": "Rideout and Sorkin, A classical sequential growth dynamics for causal sets"
+      },
+      {
+        "url": "https://arxiv.org/abs/gr-qc/0009063",
+        "used_for": "exact post map M, its binomial iterates, and the transitive-percolation fixed family",
+        "work": "Martin, O'Connor, Rideout, and Sorkin, On the renormalization transformations induced by cycles of expansion and contraction in causal set cosmology"
+      },
+      {
+        "url": "https://arxiv.org/abs/gr-qc/0003043",
+        "used_for": "factorial-family post-transform antecedent and its conditional cosmological interpretation",
+        "work": "Sorkin, Indications of causal set cosmology"
+      }
+    ],
+    "verdict": "EXACT-MINIMAL-PREDICTIVE-LAW-STATE / FINITE-READOUT-CERTIFICATION-KILLED / ACCESS-EFFICACY-OBSERVER-SOURCE-OPEN"
+  }
+}

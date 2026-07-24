@@ -41,6 +41,16 @@ verification:
   - tests/artifacts/du_recursive_viability_wild_frontier_majority_closure_result.json
   - tests/du_recursive_viability_philosopher_identifiability_probe.py
   - tests/artifacts/du_recursive_viability_philosopher_identifiability_result.json
+  - tests/du_foundational_orthodox_clock_qca_record_entailment_probe.py
+  - tests/artifacts/du_foundational_orthodox_clock_qca_record_entailment_result.json
+  - tests/du_foundational_heterodox_record_capacity_probe.py
+  - tests/artifacts/du_foundational_heterodox_record_capacity_result.json
+  - tests/du_foundational_commercial_record_resource_gate.py
+  - tests/artifacts/du_foundational_commercial_record_resource_gate_result.json
+  - tests/du_foundational_wild_frontier_predictive_record_quotient_probe.py
+  - tests/artifacts/du_foundational_wild_frontier_predictive_record_quotient_result.json
+  - tests/du_foundational_philosopher_record_identifiability_probe.py
+  - tests/artifacts/du_foundational_philosopher_record_identifiability_result.json
 ---
 
 # Cross-repo gap hardening and non-intuitive reuse map
@@ -281,7 +291,7 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-008` | P0 | evidence-dependency and common-source audit | `DU-H0`, `OPEN` | DAG every support edge; collapse common ancestors before counting consilience | `4.4/A.1` | TaF/P2C provenance rules |
 | `HC-DU-009` | P0 | clean-checkout reproducibility | `DU-H2`, `OPEN` | second implementation from equations only; compare frozen JSON | `4.4/A.2` | CL blinding discipline |
 | `HC-DU-010` | P0 | minimum theory passport and low-energy recovery | `DU-H0`, `OPEN` | state space, action, symmetries, constraints, observables, quantization, GR/SM limits | `1.5` | P2C eight-gate/source-action rubrics |
-| `HC-DU-011` | P0 | causal-set classical growth law | `DU-H2`, `POST_CONDITIONAL_ANTECEDENT_REPRODUCED__DU_LAW_OPEN` | freeze a lean literature-aware post passport, then measure unconditioned first/recurrent-post distributions across fixed tail families; distinguish eventual global-post conditioning from a finite observable landmark | `1.5/2.2/2.4` | CMF-01; both five-persona waves; CSG post-RG sources; TaF T526; TI RUN-0177 |
+| `HC-DU-011` | P0 | causal-set classical growth law | `DU-H2`, `EXACT_PROJECTIVE_PREDICTIVE_STATE__FINITE_PREFIX_NONIDENTIFICATION__RECURRENCE_GEOMETRY_OPEN` | carry `[M^P t]`, not raw post depth, as the exact standard-CSG predictive state; measure unconditioned first/recurrent-post distributions and running across fixed tail families, then held-out geometry; never infer the unrestricted complete law from a finite transition prefix | `1.5/2.2/2.4` | CMF-01; successor and premise-free councils; CSG post-RG sources; TaF T526; TI RUN-0177 |
 | `HC-DU-012` | P1 | quantum-measure/decoherence completion | `DU-H0`, `OPEN` | explicit decoherence functional and grade-2 additivity tests | `1.5` | TI record/Born no-go |
 | `HC-DU-013` | P1 | AQFT/locality embedding | `DU-H0`, `OPEN` | net isotony, locality, covariance and state-positive checks on one nontrivial region family | `1.5` | TaF finite restriction systems |
 | `HC-DU-014` | P1 | source-internal mint / self-authoring loop | `DU-H1`, `ACTIVE_OTHER` | do not duplicate; next build must feed issued records back into the law | `1.1/1.2/2.4` | DU `946dbc3`; TI D-FORK |
@@ -301,8 +311,8 @@ burden is closed; `REUSE` points to an existing model that DU must re-verify;
 | `HC-DU-028` | P2 | hostile external review | `DU-H0`, `OPEN` | frozen packet to an independent cosmologist/mathematical physicist | `4.4` | TaF external-grade ceiling |
 | `HC-DU-029` | P2 | rotating counterfamily search | `DU-H0`, `OPEN` | held-out failure families, not more same-family examples | `4.4` | TI 12-class completion tournament |
 | `HC-DU-030` | P2 | durable failure/retirement map | `DU-H0`, `OPEN` | one ledger of dead, scoped-dead, class-exited and reopened branches | `A.1/A.3` | GU no-go map; CLTP `N/X/L/I` |
-| `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `G_FULL_DELAY_ONLY_KILLED__L_AND_G_GATED_CONDITIONAL__CLOCK_QCA_SEMANTICS_OPEN` | freeze a record/opportunity/copy passport, reproduce the exact `1+1` Clock-QW/QCA covariance, and test whether one frame-consistent durable-record functional survives carried-reflection, reunion, boost, and scheduler-tag controls against Branch L, `G-full`, and one fixed `G-gated` law | `1.5/2.2/2.4` | dual primitive-record-clock council; Knuth-Bahrenyi; Arrighi-Facchini-Forets; causal-set order+number |
-| `HC-DU-032` | P1 | recursive operational viability and physical system individuation | `DU-H1`, `CONDITIONAL_CONTROL_CONSTRUCTED__SCALAR_DEPTH_NONIDENTIFIED__PHYSICAL_BOUNDARIES_OPEN` | attach the recursive-viability passport to `HC-DU-031A` and `HC-DU-011A`; require essential variables, controller on/off effects, upward/downward maps, held-out advantage, boundary discovery, locality costs and flat/overlap/RG/replay/relay/alias rivals; infer a minimal intervention cover rather than a raw depth | `1.5/2.2/2.4` | fourth five-persona council; Beer VSM; Ashby requisite variety; causal emergence and hierarchical-blanket comparators |
+| `HC-DU-031` | P0 | primitive record clock and operational spacetime reconstruction | `DU-H2`, `SOURCE_CLOCK_QCA_MEMORY_NOT_ENTAILED__FINITE_RESOURCE_BOUNDS_EXACT__RECORDER_EXTENSION_OPEN` | `031A` source audit is complete: countdown/keep-going controls and raw microstep counts are not accumulated memory. `031B` appends the smallest exact recorder, declares its physical interface/group and archive boundary, and tests one fixed covariance/equivariance square under held-out encoding, boost, recorder-off, alias, archive, scheduler, and reunion controls | `1.5/2.2/2.4` | dual-clock and premise-free councils; Knuth-Bahrenyi; Arrighi-Facchini-Forets; operational record-capacity and automorphism theorems |
+| `HC-DU-032` | P1 | recursive operational viability and physical system individuation | `DU-H1`, `CONDITIONAL_CONTROL_CONSTRUCTED__SCALAR_DEPTH_NONIDENTIFIED__PHYSICAL_BOUNDARIES_OPEN` | after an `HC-DU-031B` recorder or `HC-DU-011A` causal-growth survivor exists, require essential variables, controller on/off effects, upward/downward maps, held-out advantage, boundary discovery, locality costs and flat/overlap/RG/replay/relay/alias rivals; infer a minimal interface-relative intervention cover rather than a raw depth | `1.5/2.2/2.4` | fourth and premise-free councils; Beer VSM; Ashby requisite variety; causal emergence and hierarchical-blanket comparators |
 
 ## Existing models to reuse instead of rebuilding
 
@@ -559,21 +569,23 @@ work packages.
    built. Nonlocality escapes the local cone, but scale-free memory is an
    always-on/nonaccelerating tracker and the raw martingale fails early RMS,
    sign-persistence and de Sitter-stationarity controls.
-3. **Record-clock semantic arena (`HC-DU-031A`).** Freeze the distinction
-   among global opportunity, durable physical record, gated miss, and copied
-   message. Reproduce the exact `1+1` Clock-QW/QCA covariance and extract a
-   carried-reflection/reunion record functional. Run it against Branch L,
-   `G-full`, one fixed `G-gated` law, scheduler-tag leakage, and held-out
-   boosts. Stop if the covariant circuit has no frame-consistent durable-record
-   semantics or if the gate is unconstrained compilation.
+3. **Explicit record extension (`HC-DU-031B`).** `031A` establishes that the
+   published Clock-QW countdown and QCA keep-going controls do not entail
+   accumulated observer memory. Append the smallest exact finite recorder,
+   freeze its readout/intervention interface and archive boundary, and require
+   one fixed covariance/equivariance square under held-out encoding, boost,
+   recorder-off, alias, copied-relay, exported-wake, scheduler-tag, and reunion
+   controls. Stop if it counts only raw microsteps, refits a decoder per frame,
+   or treats growing support as free.
 4. **Lean post passport plus generativity census (`HC-DU-011A`).** Reproduce
-   the known exact CSG post map in the physical projective sector
-   `(T_1,T_2,...)`, retain the killed direct-count law as a covariance control,
-   and distinguish eventual global-post conditioning from a filtration-safe
-   landmark. Then measure first/recurrent-post distributions under fixed
-   factorial and neighboring tail families without selecting histories.
-   Generic unlabeled-causet enumeration is demand-driven infrastructure, not
-   the research product.
+   the known exact CSG post map in the physical projective sector and carry
+   `[T_1,T_2,...]=[M^P t]`, not raw post depth, as its minimal predictive
+   state. Retain the killed direct-count law as a covariance control, then
+   measure first/recurrent-post distributions under fixed factorial and
+   neighboring tail families without selecting histories. No finite
+   transition prefix identifies the unrestricted complete law. Generic
+   unlabeled-causet enumeration remains demand-driven infrastructure, not the
+   research product.
 5. **Recursive-viability overlay (`HC-DU-032`).** On the actual candidates in
    steps 3 and 4, infer boundaries from intervention response and repair
    provenance; require upward and downward maps plus held-out advantage; and
@@ -810,6 +822,52 @@ physical boundaries, observers, geometry, gravity, cosmology and `Lambda`
 remain open. See
 `science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md`.
 
+## Premise-free foundational correction to the frontier
+
+The fifth five-persona wave supplied no new common assumption. Three personas
+independently selected the Clock-QCA record gap, one selected post-CSG
+predictive identity, and one selected the deeper representation problem.
+Agreement itself carries no warrant; their source audit, exact bounds,
+automorphism theorem, and CSG counterfamily do.
+
+The Clock-QW/QCA source provides exact circuit covariance but not accumulated
+observer memory. Its countdown resets after effective interactions and its QCA
+keep-going signals are propagation/control variables. Raw micro-update and
+patch counts change under the source encoding. A representation-stable macro
+interaction trace can be defined, but storing it requires an explicit recorder
+extension.
+
+For a declared experiment algebra, retained capacity is the log-cardinality of
+the history-response quotient. A fixed classical `M`-state observer stores at
+most `log2 M` exact bits; elapsed readings `0..T` need at least `T+1`
+distinguishable states; exact independent binary history needs `2^T`.
+Growing QCA support or an exported archive is a valid escape only when its
+boundary, propagation, access and reunion costs are explicit.
+
+Durability and copyability do not by themselves identify a record. Bare
+identity dynamics makes every predicate durable and predicate-specifically
+copyable, while its full automorphism group leaves only constants invariant.
+A declared physical interface reduces the group and identifies its readout
+algebra, or the record channel may transform equivariantly. Replace the vague
+requirement of invariance under every representation with a declared physical
+group action and a commuting naturality/equivariance test.
+
+The causal-post program gains a separate exact object. In standard CSG the
+complete future transition algebra is equivalent to the projective
+post-transformed sequence `[M^P t]`. Raw post depth is not that object, and for
+every finite horizon there are strictly positive couplings whose transition
+algebras agree through that horizon and diverge immediately after it. Finite
+family tests remain useful, but they cannot certify the unrestricted complete
+law.
+
+This closes the source-mining interpretation of `HC-DU-031A` and opens
+`HC-DU-031B`: an explicit minimal recorder covariance square with one fixed
+interface and charged resource boundary. It also hardens `HC-DU-011A` around
+the projective predictive quotient while leaving post recurrence, running and
+held-out geometry as the North-Star dependencies. `HC-DU-032` remains an
+overlay only after either native object survives. No bridge among Clock QCA,
+causal posts and recursive viability is inferred.
+
 ## Run receipt
 
 - Cross-repo work was read-only and pinned; GU's pre-existing dirty state was
@@ -835,4 +893,9 @@ remain open. See
   refinement, recovered a minimal intervention-role cover, corrected the
   Beer-function/recursion/finality conflation, and preserved sixty-one new
   divergent paths.
+- The premise-free foundational wave showed that the source Clock QCA does not
+  entail accumulated observer memory, proved exact finite record-resource and
+  interface-identifiability bounds, identified `[M^P t]` as the exact
+  standard-CSG predictive state, killed unrestricted finite-prefix
+  certification, and opened one explicit recorder-extension build.
 - No physics claim, sibling-repo verdict, canon status or public posture moved.

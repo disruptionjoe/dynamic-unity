@@ -182,3 +182,37 @@ deterministic checks, or `99/99` in total. They construct and delimit exact toy
 regulators. They do not establish that a causal post, Clock QCA, observer,
 physical scale, or the universe realizes recursive viable-system
 organization, and they do not derive units, gravity, cosmology, or `Lambda`.
+
+## Premise-free foundational council probes
+
+The fifth five-persona wave supplied no new common physical premise. Each
+persona selected and executed the foundational move it judged most valuable
+from the complete four-wave state:
+
+- `du_foundational_orthodox_clock_qca_record_entailment_probe.py` audits the
+  Clock-QW/QCA source semantics, distinguishes reset countdown/control signals
+  from accumulated memory, and separates a representation-stable macro
+  interaction trace from raw patch/update counts.
+- `du_foundational_heterodox_record_capacity_probe.py` constructs an
+  intervention-relative history quotient and proves exact retained-capacity
+  saturation for a fixed finite classical state space, with copy, parity,
+  archive, and scheduler controls.
+- `du_foundational_commercial_record_resource_gate.py` turns exact elapsed
+  counts, full event histories, cyclic aliasing, growing QCA support,
+  rescheduling, and replay into a compact record-resource gate.
+- `du_foundational_wild_frontier_predictive_record_quotient_probe.py` proves
+  that the complete standard-CSG transition algebra is equivalent to the
+  projective post-transformed coupling sequence, then constructs strictly
+  positive couplings that fool every declared finite transition horizon.
+- `du_foundational_philosopher_record_identifiability_probe.py` shows that
+  durability and predicate-specific classical copyability do not canonically
+  select a record under the full automorphism group, while a declared physical
+  interface reduces the group and identifies its readout algebra.
+
+The artifacts report `15/15`, `16/16`, `16/16`, `16/16`, and `15/15`
+deterministic checks, or `78/78` in total. They support an explicit finite
+recorder-extension build and an exact CSG predictive-law quotient. They do not
+establish a physical observer, unbounded memory, proper time, a dimensional
+unit, post recurrence, geometry, gravity, cosmology, `Lambda`, or DU identity.
+Passing checks establishes reproducibility of the declared arguments, not
+physical truth.

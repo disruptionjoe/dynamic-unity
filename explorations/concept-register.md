@@ -327,6 +327,56 @@ broader branch if exact circuit covariance has no representation-independent
 durable-record functional. No claim is banked or seeded. See
 `science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md`.
 
+### 2026-07-24 premise-free foundational correction
+
+The fifth council wave audited the positive Clock-QW/QCA antecedent rather
+than supplying another clock premise. The published internal countdown resets
+after an effective interaction, and the QCA replaces it with crossing
+keep-going signals. Those are propagation/control variables, not an
+accumulated observer memory. Raw microscopic patch and update counts also
+change under the declared encoding. A macro interaction-history quotient can
+survive, but a stored record requires an explicit recorder extension.
+
+The wave factors the record object:
+
+```text
+global update opportunity
+    != record-forming event or flux
+    != retained operational capacity
+    != stored accessible observer memory
+    != inherited predictive law-state
+    != interventionally owned observer record.
+```
+
+For a declared experiment algebra `U`, retained capacity is
+`C_t=log2|H_t/~_U|`. A fixed classical `M`-state observer retains at most
+`log2 M` exact bits. Perfect readings `0..T` require at least `T+1`
+distinguishable states, while exact recall of `T` independent binary events
+requires `2^T` histories. An unbounded QCA can evade fixed local saturation
+through growing support, but the archive boundary, propagation, access, and
+reunion readout must then be charged.
+
+Durability and copyability still do not identify which predicate is a
+physical record. Under identity dynamics and the full state automorphism
+group, every predicate is durable and predicate-specifically copyable, but
+only constants are invariant. A declared physical interface reduces the
+group and selects a readout algebra; an alternative is an explicitly
+equivariant record channel. “Representation-independent” therefore means
+natural under a justified physical group action, not literally fixed under
+every bijection.
+
+**Revised status:** **SOURCE CLOCK-QCA MEMORY NOT ENTAILED /
+FINITE RECORD-RESOURCE BOUNDS EXACT / INTERFACE-RELATIVE RECORD CONTRACT
+REQUIRED / EXPLICIT RECORDER EXTENSION OPEN.** `HC-DU-031A` has supplied the
+source semantic audit. `HC-DU-031B` is the bounded constructive reopener: append
+the smallest exact finite recorder, freeze one interface and resource boundary,
+and test its covariance/equivariance square under held-out encoding, boost,
+recorder-off, alias, archive, and reunion controls. Stop if it counts only raw
+microsteps, needs a decoder refitted per frame, or treats growing support as
+free. No observer, proper time, dimensional `c`, gravity, cosmology, `Lambda`,
+or DU identity is inferred. See
+`science-council-five-persona-premise-free-foundational-wave-synthesis-2026-07-24.md`.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize
@@ -398,7 +448,8 @@ physical map are separately supplied.
 **Status:** **CONCEPT-CONDITIONALLY-CONSTRUCTED-IN-EXACT-CONTROLS /
 RAW-SCALAR-DEPTH-NONIDENTIFIED / INTERVENTION-COVER-DISCOVERABLE /
 PHYSICAL-BOUNDARIES-AND-DYNAMICS-OPEN.** Treat the recursive-viability passport
-as an overlay on `HC-DU-031A` and `HC-DU-011A`, not as a third standalone
+as an overlay on an `HC-DU-031B` recorder survivor and an `HC-DU-011A`
+causal-growth survivor, not as a third standalone
 simulation program. Stop if a candidate observer or post-era boundary has no
 controller-ablation effect, downward consequence, held-out advantage, or
 resolution-stable intervention role. No claim is banked or seeded. See
