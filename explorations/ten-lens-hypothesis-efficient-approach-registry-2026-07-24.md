@@ -73,6 +73,10 @@ reusable kits while retaining the hypothesis-specific contrast below.
 
 `K0` accompanies every hypothesis. The other kits are tools, not priority
 stages. A lead chooses the smallest composition that answers its hypothesis.
+The cross-repo hardening contract
+`../lab/process/cross-repo-hardening-control-contract.md` accompanies `K0` as
+a scoped adversary overlay: apply only the relevant `XH-01..06` controls,
+retain their source grades, and mark the rest `not-applicable`.
 
 ## 3. Standard lead packet
 
@@ -84,6 +88,7 @@ frozen typed claim and counterfactual estimand
 smallest informative object
 selected method kits
 strongest absorber/null and one positive control
+applicable XH-01..06 controls and frozen completion/refinement/resource frame
 first decisive calculation or intervention
 artifact emitted even if the focal effect is absent
 condition for increasing model or experimental scale
@@ -227,6 +232,12 @@ Several methods can be computed once and reused without forcing the
 hypotheses into one project:
 
 - The `K0` contract digest should use one schema across all 36 IDs.
+- `XH-01..06` should be attached by scope rather than copied wholesale:
+  fixed-oracle and completion controls for generativity/sufficiency,
+  departed-support and exact matched-frame controls for capability,
+  same-SBS-data only for quantum public facts, and benign-refinement naturality
+  for geometry/topology. The constructor inventory is a baseline, never a
+  declaration that all physical completions have been enumerated.
 - `HG-B`, `DC-A`, `DC-B`, `DB-A`, `QI-B`, and `FM-A` can share loop,
   equalizer, and fixed-algebra primitives while retaining different theorem
   statements.

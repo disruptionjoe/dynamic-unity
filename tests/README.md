@@ -480,3 +480,28 @@ kits, and exactly one attachment for each of the 36 source hypotheses.
 Passing establishes completeness and referential integrity only. The registry
 does not select, eliminate, defer, grade, validate, or rerank a hypothesis and
 does not authorize a swing.
+
+## Cross-repo hardening controls probe
+
+`du_cross_repo_hardening_controls_probe.py` locally rechecks the six finite
+control shapes in
+`../lab/process/cross-repo-hardening-control-contract.md`:
+
+- an immutable stage-zero oracle carrying a realized path and finite
+  counterfactual response tree;
+- locally record-isomorphic states separated only by a declared
+  boundary-crossing environmental read;
+- raw fragment-count inflation absorbed by audited independent support;
+- reachability preserved while hop count changes under benign relay
+  subdivision;
+- changed-instrument versus matched-frame capability comparisons; and
+- a proper inclusion from the starter completion constructors into DU's
+  extended, explicitly nonexhaustive adversary inventory.
+
+The deterministic artifact is
+`artifacts/du_cross_repo_hardening_controls_result.json` and reports `14/14`
+named checks. Passing establishes finite control-shape execution only. It does
+not import sibling claims, establish physical realizability, define novelty as
+noncomputability, select an observer boundary, prove a universal SBS absorber,
+identify physical topology, exhaust completion classes, or promote a claim,
+hypothesis, prediction, ontology, or seed.

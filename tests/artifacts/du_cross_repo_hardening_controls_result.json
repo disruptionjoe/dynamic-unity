@@ -1,0 +1,78 @@
+{
+  "bindings": {
+    "XH-01": [
+      "HC-DU-014",
+      "HC-DU-024",
+      "HC-DU-036B",
+      "Lane-1.2"
+    ],
+    "XH-02": [
+      "H-CCR-05",
+      "H-CCR-06",
+      "HC-DU-036B",
+      "HC-DU-037",
+      "B1",
+      "B6"
+    ],
+    "XH-03": [
+      "H-CCR-04",
+      "HC-DU-035B",
+      "HC-DU-037",
+      "B4"
+    ],
+    "XH-04": [
+      "H-CCR-08",
+      "H-CCR-13",
+      "HC-DU-038"
+    ],
+    "XH-05": [
+      "H-CCR-06",
+      "H-CCR-07",
+      "HC-DU-037"
+    ],
+    "XH-06": [
+      "HC-DU-036B",
+      "B6"
+    ]
+  },
+  "checks": {
+    "XH01_fixed_source_contains_counterfactual_response": true,
+    "XH01_fixed_source_replays_realized_path": true,
+    "XH01_source_remains_stage_fixed": true,
+    "XH02_declared_boundary_crossing_separates_capability": true,
+    "XH02_local_record_and_interventions_are_isomorphic": true,
+    "XH03_audited_support_and_verdict_are_absorbed": true,
+    "XH03_raw_fragment_count_changes_under_support_split": true,
+    "XH04_hop_count_is_not_benign_refinement_invariant": true,
+    "XH04_projected_reachability_is_refinement_natural": true,
+    "XH05_changed_instrument_blocks_normalized_capability_verdict": true,
+    "XH05_matched_frame_detects_strict_task_enlargement": true,
+    "XH06_baseline_is_nonempty_proper_subset": true,
+    "XH06_du_specific_adversaries_are_retained": true,
+    "all_six_controls_have_existing_program_bindings": true
+  },
+  "checks_passed": 14,
+  "checks_total": 14,
+  "claim_grade": "FINITE CONTROL-SHAPE RECHECK / NO PHYSICAL REALIZABILITY, CLAIM, HYPOTHESIS, PREDICTION, ONTOLOGY, OR SEED PROMOTION",
+  "corrected_discriminator": "For an independently frozen, nonempty class of causally available, future-independent, physically realizable, and resource-bounded completions: do record-isomorphic processes support the same admitted predictions and capabilities; if not, what finite intervention identifies the minimal omitted structure?",
+  "date": "2026-07-24",
+  "nonclaims": [
+    "stage-fixedness establishes physical novelty",
+    "computational non-reducibility defines physical novelty",
+    "the observer boundary is physically selected",
+    "SBS absorbs every public-finality theory",
+    "reachability is the only physical topology invariant",
+    "raw performance is capability",
+    "the listed completion constructors are exhaustive"
+  ],
+  "probe": "du_cross_repo_hardening_controls_probe",
+  "source_grades": {
+    "XH-01": "sibling mathematical countermodel; physical realizability unclaimed",
+    "XH-02": "sibling finite quantum fixture; adopted boundary; hostile review queued",
+    "XH-03": "sibling finite-family factorization; no universal SBS theorem",
+    "XH-04": "sibling finite refinement gates for one declared morphism class",
+    "XH-05": "sibling argument plus deterministic classification; no new measurement",
+    "XH-06": "sibling exploratory coarse finite theorem; inventory nonexhaustive"
+  },
+  "status": "PASS"
+}

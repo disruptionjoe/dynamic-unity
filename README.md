@@ -142,6 +142,8 @@ freely; findings transfer only with their grade labels attached, never as doctri
 - **Live concept families and exact grades:** `explorations/concept-register.md`
 - **Conditional and abductive contract:**
   `lab/process/conditional-and-abductive-research-contract.md`
+- **Cross-repo completion, boundary, refinement, and capability controls:**
+  `lab/process/cross-repo-hardening-control-contract.md`
 
 The new agenda routes prior work; it does not rewrite dated explorations, probes, artifacts, or
 claim grades as though the recharter existed earlier.

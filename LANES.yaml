@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 22
+manifest_revision: 23
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -36,7 +36,10 @@ active_hardening_program_note: >-
   revision-22 finite reconciliation-loop baseline additionally identifies path-independent facts
   with a holonomy orbit/fixed algebra, proves task-relative project-or-lift provenance and
   connectivity-frustration controls, and classifies the coherent route-phase specimen as
-  interface incompleteness rather than new physical curvature.
+  interface incompleteness rather than new physical curvature. Revision 23 adds six scoped
+  cross-repo hardening controls for fixed pre-correlated sources, departed environmental support,
+  same-SBS-data quantum absorption, benign-refinement naturality, matched capability frames and a
+  nonexhaustive completion-constructor battery; it promotes no claim or hypothesis.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -799,6 +802,80 @@ open_frontier_council_advancement_wave:
     distributed-history twin without semantic refitting. Use the Pauli route-phase standard
     first; move to the proper-time instrument only if a positive calibrated margin survives.
     Route formation-to-finality pricing only after a physically formed distinction exists.
+cross_repo_hardening_and_paper_candidate_assessment:
+  status: completed_method_integration_and_candidate_assessment
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: incorporate the useful cross-repo corrections, then assess the three
+    one-swing programs across the whole Dynamic Unity repository that are most likely to reach a
+    defensible publishable paper.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-202950-cross-repo-hardening-and-paper-candidates/run-plan.md
+  control_contract_ref: lab/process/cross-repo-hardening-control-contract.md
+  integration_ref: explorations/cross-repo-hardening-integration-2026-07-24.md
+  paper_candidate_ref: explorations/repository-wide-paper-swing-candidates-2026-07-24.md
+  probe_ref: tests/du_cross_repo_hardening_controls_probe.py
+  artifact_ref: tests/artifacts/du_cross_repo_hardening_controls_result.json
+  artifact_sha256: b3c0ad7c3278642de48d5cc394482b0ed672d892ea1ea65bf9e8dfb7863f2da5
+  corrected_discriminator: >-
+    For an independently frozen, nonempty class of causally available, future-independent,
+    physically realizable and resource-bounded completions of the source, environment,
+    controller, decoder, access boundary and record interface: do record-isomorphic processes
+    support the same admitted predictions and capabilities; if not, what finite intervention
+    identifies the minimal omitted structure?
+  controls:
+  - id: XH-01
+    name: fixed pre-correlated completion
+    scope: source novelty, issuance, generativity and disclosure rivals
+  - id: XH-02
+    name: departed environmental support
+    scope: boundary-indexed record sufficiency and capability
+  - id: XH-03
+    name: same-SBS-data quantum absorber
+    scope: quantum public facts and objectivity only
+  - id: XH-04
+    name: benign-refinement naturality
+    scope: topology, informational distance, time and geometry
+  - id: XH-05
+    name: matched task/resource/control capability
+    scope: capability, precision, access and finality comparisons
+  - id: XH-06
+    name: nonexhaustive completion-constructor baseline
+    scope: every physical refinement challenge
+  local_recheck: >-
+    The standard-library probe passes 14/14 deterministic finite checks with byte-identical
+    output. It rechecks the control shapes only and retains every sibling result's original
+    grade. No physical realizability, claim, hypothesis, prediction, ontology or seed is promoted.
+  correction: >-
+    Stage-fixedness does not defeat a source that already contains the realized path and declared
+    counterfactual response tree. Computational non-reducibility may be a class-relative
+    diagnostic but is neither empirically certifiable from a finite trace nor the definition of
+    physical novelty.
+  bindings: >-
+    Apply XH-01/XH-02/XH-06 to HC-DU-036B; XH-03 to the quantum arms of HC-DU-035B/037; XH-04 to
+    HC-DU-038; and XH-05 to HC-DU-037. The suite also joins benchmark B7 and the standard method
+    lead packet. No new H-CCR item is needed.
+  paper_candidates:
+  - rank: 1
+    title: Covariant records are not free
+    target: >-
+      Generalize the exact Clock-QCA recorder/archive construction and passive informative-record
+      obstruction into a tight approximate record-disturbance-support tradeoff.
+  - rank: 2
+    title: Interventional record sufficiency under admissible completion
+    target: >-
+      Build a proof-carrying factorization/refinement/remainder compiler and carry one unchanged
+      theorem across authenticated distributed and routed quantum fixtures.
+  - rank: 3
+    title: Higher-order finality as loop-syndrome correction
+    target: >-
+      Extend the reversible holonomy baseline to noisy noninvertible maps, safe action algebras
+      and minimum authenticated provenance across BFT/DAG and QEC/routed-quantum fixtures.
+  recommendation: >-
+    Candidate 1 is the closest-to-paper choice because its exact formal spine, computational
+    controls and narrative already exist. Candidate 2 has the greatest flagship upside, and
+    Candidate 3 is the most distinctive cross-domain option. This assessment authorizes none of
+    them for execution or seeding.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1247,7 +1324,11 @@ lanes:
       Determine what produces new persistent distinctions while charging recurrence, support,
       archive export, coherence, entropy and coarse-graining. Carry the exact finite-reuse
       trichotomy, HC-DU-014/024, the live portions of HC-DU-031 and causal-growth candidates.
-      Fixed finite aliasing is not open-ended record production.
+      Fixed finite aliasing is not open-ended record production. Give the disclosure rival one
+      stage-zero source containing both the realized path and the declared finite
+      counterfactual-response tree; stage-fixedness alone is not future-independence.
+      Computational non-reducibility may diagnose one frozen class but does not define physical
+      novelty.
   - id: '1.3'
     title: Multi-time certification and public finality
     scope: >-
@@ -1261,8 +1342,10 @@ lanes:
       static layered-threshold controls and rejects one scalar objectivity threshold. Execute
       HC-DU-035B only after the coupled assay provides a physically formed distinction whose
       conversion into stable approximately commutative or broadcastable public capability can be
-      priced. Redundancy, dissemination, confidence, common deterministic readability and
-      decoherence are not finality by themselves.
+      priced. In the quantum arm, hold the declared SBS/strong-Quantum-Darwinism operational data
+      fixed before claiming an extra public-fact distinction. Redundancy, dissemination,
+      confidence, common deterministic readability and decoherence are not finality by
+      themselves.
   - id: '1.4'
     title: Interventional sufficiency and ontology discriminator
     scope: >-
@@ -1273,25 +1356,34 @@ lanes:
       algebra, proves task-relative project-or-lift provenance, and supplies connectivity-
       frustration and cycle-lift controls. Execute the noninvertible/noisy equalizer extension on
       the HC-DU-034B physical assay. Freeze a nonempty target-independent admissible refinement
-      class and distinguish known phase/process structure, interface incompleteness and
-      class-relative physical remainder. Never define a selected record by agreement under every
-      target physical experiment or call a target-derived quotient a formed physical record.
+      class covering source, environment, controller/scheduler, decoder, access boundary, record
+      instrument, routed implementation and resources as relevant. Begin with XH-01, XH-02 and
+      the explicitly nonexhaustive XH-06 constructor battery; distinguish known phase/process
+      structure, interface incompleteness and class-relative physical remainder. Never define a
+      selected record by agreement under every target physical experiment or call a
+      target-derived quotient a formed physical record.
   - id: '1.5'
     title: Meta-record time and geometry
     scope: >-
       Execute HC-DU-038 on independently fixed provenance/acquisition structure. Reconstruct
       effective spacetime causal order beyond primitive operational precedence, plus density,
       scale, dimension, proper-time comparison, reference-frame relations and reachable
-      capability regions with uniqueness-up-to-gauge and nonisomorphic controls. Do not claim
-      to derive primitive precedence from itself. Order alone is known terrain and does not
-      satisfy this channel.
+      capability regions with uniqueness-up-to-gauge and nonisomorphic controls. Declare the
+      representation-only morphism class and require naturality under relabeling, benign
+      relay/edge subdivision, cover refinement where applicable, and morphism composition. A
+      carrier with latency, energy, storage, noise, authentication or control is not a benign
+      refinement. Do not claim to derive primitive precedence from itself. Order alone is known
+      terrain and does not satisfy this channel.
   - id: '1.6'
     title: Observer individuation, capability and resource laws
     scope: >-
       Execute HC-DU-037 and reuse HC-DU-032 only as an intervention-relative observer/system
       overlay. A certificate produces strict capability only if it separates action-relevant
-      histories after risk, readout and verification cost. Test whether stronger public finality
-      must consume support, redundancy, work/entropy or coherent/reversible optionality.
+      histories after risk, readout and verification cost. Freeze task/loss, system count,
+      execution time, controls, prior information, readout/decoder access, rollback and
+      verification risk, error budget and complete resources before comparing capability. Test
+      whether stronger public finality must consume support, redundancy, work/entropy or
+      coherent/reversible optionality.
   - id: '1.7'
     title: Cross-platform invariance, physical recovery and applications
     scope: >-
@@ -1391,7 +1483,10 @@ lanes:
     scope: >-
       Test nonorthogonal records, spectrum-broadcast-like objectivity, authorized access sets,
       correctable loss, corrupted fragments, noncommuting readout and trusted-decoder controls.
-      Do not insert the classical algebra to derive it.
+      Add the XH-03 same-SBS-data absorber: freeze pointer verdict, full declared
+      system-fragment data, distinguishability/support, independence, accessible fragments and
+      audited provenance support before testing an additional distinction. Do not insert the
+      classical algebra to derive it.
   - id: '3.5'
     title: Causal-set, event-structure and hypergraph fixture
     scope: >-
@@ -1408,7 +1503,9 @@ lanes:
       HC-DU-033A deterministic quotient, fixed-codomain, destructive-pooling, correlated-marginal,
       split-view and local-first-versus-joint-first hardening controls, plus HC-DU-035A's
       honest-lock margin, IID/common-shock, metastable rollback, inconsistent-share, GHZ
-      access-only and Bell direct-channel controls.
+      access-only and Bell direct-channel controls. Run applicable XH-01..06 controls as benchmark
+      B7, preserve source grades, and mark unrelated controls not-applicable rather than forcing
+      one universal absorber.
 
 - id: '4'
   label: Lane 4
@@ -1514,9 +1611,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 22.
+    routing is the root lanes key at manifest revision 23.
 provenance:
-  revision: 22
+  revision: 23
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1568,7 +1665,10 @@ provenance:
     (Joe direct chat, 2026-07-24) runs five unconstrained open-frontier council swings, executes
     the finite holonomy/public-fact/project-or-lift baseline, adds H-CCR-13/14, classifies the
     coherent route witness as interface incompleteness, and narrows the next build to a robust
-    noninvertible history-certificate compiler
+    noninvertible history-certificate compiler; rev23 (Joe direct chat, 2026-07-24) incorporates
+    six scoped cross-repo hardening controls at their retained grades, locally rechecks 14/14
+    finite control shapes, adds no hypothesis, and records a repo-wide top-three paper-swing
+    assessment led by the Clock-QCA record construction-obstruction package
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1774,3 +1874,16 @@ provenance:
     gate; no claim, prediction or ontology is banked or seeded. The next swing is a
     noninvertible/noisy history-certificate compiler carried unchanged across a physical quantum
     and authenticated distributed fixture.
+  rev23_note: >-
+    2026-07-24 (Joe direct chat: incorporate the useful cross-repo corrections and assess the
+    strongest one-swing paper candidates across the whole repository): installed XH-01..06 as
+    scoped method controls, not new scientific hypotheses. The controls cover a fixed
+    future-correlated disclosure oracle, departed environmental support, a quantum-only
+    same-SBS-data absorber, declared benign-refinement naturality, exact matched capability
+    frames, and a nonexhaustive completion-constructor battery. A standard-library probe passes
+    14/14 byte-identical finite checks. Stage-fixedness no longer stands in for
+    future-independence, while computational non-reducibility is explicitly rejected as a
+    definition of physical novelty. The repo-wide paper assessment ranks the Clock-QCA
+    covariant-recorder construction/obstruction first for closeness, interventional record
+    sufficiency second for flagship upside, and higher-order loop-syndrome finality third for
+    cross-domain distinctiveness. No candidate is executed, seeded or promoted.

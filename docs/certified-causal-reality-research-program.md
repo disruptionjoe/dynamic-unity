@@ -119,6 +119,43 @@ record and omitted distinction whose formation-to-finality cost
 proper time, public classicality, continuum covariance, gravity, cosmology,
 or record-first ontology.
 
+## Cross-repo hardening suite
+
+The active method contract
+`../lab/process/cross-repo-hardening-control-contract.md` adds six
+scope-indexed controls without adding a new core hypothesis:
+
+1. a stage-zero, future-correlated oracle carrying both the realized path and
+   the declared finite counterfactual response tree;
+2. departed environmental support that is invisible to the frozen local
+   record/intervention class but accessible through a separately declared
+   boundary-crossing action;
+3. a same-SBS/strong-Quantum-Darwinism-data absorber for quantum public-fact
+   claims;
+4. naturality under a declared class of benign relabelings, subdivisions, and
+   cover refinements;
+5. exact matched task, resource, control, prior-information, readout, decoder,
+   and error-budget comparisons for capability; and
+6. a reusable completion-constructor inventory that remains an explicitly
+   nonexhaustive first adversary battery.
+
+These controls were imported from Temporal Issuance, Time as Finality, and
+Possibility to Capability only at their source grades and were locally
+rechecked as finite control shapes. They do not establish physical
+realizability, record-first ontology, a universal objectivity absorber, or an
+exhaustive completion class. In particular, stage-fixedness does not establish
+future-independence, and computational non-reducibility is not the definition
+of physical novelty.
+
+The corrected discriminator is:
+
+> For an independently frozen, nonempty class of causally available,
+> future-independent, physically realizable, and resource-bounded completions
+> of the source, environment, controller, decoder, access boundary, and record
+> interface: do record-isomorphic processes support the same admitted
+> predictions and capabilities? If not, what finite intervention identifies
+> the minimal omitted structure?
+
 ## Central conjecture and decisive discriminator
 
 ### Certified Causal Sufficiency Conjecture
@@ -180,7 +217,7 @@ compared:
 | `I` | Admissible intervention family with locality, access, and resource restrictions. |
 | `R` | Record instrument or channel producing history-conditioned fragments. |
 | `Gamma_R` | Meta-record hypergraph: creation, acquisition, provenance, accessibility, records of records, and declared operational influence/reachability edges—not an imported spacetime ordering. |
-| `C` | Rival, completion, or adversary class against which certification is claimed. |
+| `C` | Independently frozen nonempty rival, completion, or adversary class against which certification is claimed. As relevant it declares source, environment, controller, scheduler, decoder, access boundary, record instrument, routed implementation, fixed future-correlated oracle, resource bounds, and any closure/compactness assumptions. Members must be causally available, future-independent, physically realizable within the stated model, and target-independent rather than fitted to the desired verdict. |
 | `chi` | Certificate assembled from record fragments with soundness and access semantics. |
 | `F` | Finalization operation, ideally exactly or approximately idempotent: `F^2 ~= F`. |
 | `A_F` | Stable actionable record algebra fixed by finalization. |
@@ -245,6 +282,9 @@ complete conditional contract is a legible candidate, not a true theory.
   capability it is meant to derive.
 - **Sufficiency tautology:** the quotient is defined by agreement under all
   target physical experiments.
+- **Weak disclosure rival:** a source being fixed at stage zero is treated as
+  sufficient evidence of novelty even though it can contain the realized path
+  and the declared counterfactual response tree.
 - **Arbitrary interface:** basis, decoder, boundary, scheduler quotient,
   archive, adversary, or finalizer is refit per model, frame, or result.
 - **Endpoint substitution:** terminal-state agreement, a mean shift,
@@ -480,6 +520,15 @@ remainder, or an incomplete comparison contract. Stop if the two platforms
 require semantic refitting or the result is only ordinary automata
 equivalence in two vocabularies.
 
+The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
+future-correlated oracle or response tree, departed environmental support, and
+the nonexhaustive seed/boundary/resource/access/hidden-state/history/
+provenance/gauge/family inventory extended by routed implementations,
+adaptive controllers or schedulers, alternative record instruments, and
+decoder/observer-boundary changes. Every admitted completion preserves the
+frozen frame and carries its resources. A target-derived behavioral quotient
+remains a diagnostic refinement rather than a physically formed record.
+
 The physical arm should first compile a robust instrument certificate. For a
 frozen convex classical-instrument set \(C\), alternative set \(A\), and
 bounded complete-outcome score \(w\), maximize
@@ -549,6 +598,14 @@ Part A is a cost-aware strictness theorem: a stronger certificate strictly
 enlarges the bounded-risk action set exactly when it distinguishes histories
 that require different optimal actions after verification cost.
 
+Every strictness comparison uses `XH-05`: freeze the task threshold and loss,
+system count, execution/interrogation time, controls, prior information,
+readout and decoder access, failure/rollback/verification risk, and the full
+error and resource budgets. A precision gain, entanglement, wider apparent
+range, frequency shift, extra decoder, or expanded boundary is not itself a
+matched capability increase. If the instrument changes, report a construction
+fork before asking which task set strictly enlarges.
+
 Part B is the higher-ceiling law: stronger public finality consumes added
 support, redundancy, work/entropy, or coherent/reversible optionality unless
 the displaced information remains in an explicitly charged archive.
@@ -574,6 +631,15 @@ State uniqueness up to gauge and construct nonisomorphic countermodels where
 assumptions are insufficient. The target is not to “derive” primitive
 operational precedence from itself. Causal order alone is known terrain and is
 not the target contribution.
+
+Before interpreting any path length, relay count, component size, phase,
+dimension, or curvature physically, declare the representation-only refinement
+morphisms and test functoriality under their composition. At minimum include
+observer relabeling and benign relay/edge subdivision, adding cover refinement
+when the model uses covers. A relay with latency, energy, storage, noise,
+authentication, or control consequences is a new physical carrier rather than
+a benign subdivision. `XH-04` therefore constrains the reconstruction; it does
+not assert that reachability is the only physical topology invariant.
 
 ### `HC-DU-039` — Cross-Platform Invariance
 
@@ -698,6 +764,14 @@ geometry. Do not promote an order relation to a record or a manifold.
 Construct the smallest process-tensor or finite-state fixture in which
 certified-history equivalence either proves degradability/factorization or
 allows an automatically found separating intervention.
+
+### B7 — Cross-repo hardening controls
+
+Run `XH-01..06` as applicable: fixed pre-correlated disclosure, departed
+environmental support, the quantum same-SBS-data absorber, declared benign
+refinement, exact matched capability frames, and the nonexhaustive completion
+constructor battery. Preserve every source result's own grade and report
+`not-applicable` rather than forcing a control onto an unrelated fixture.
 
 ### Common output vector
 
