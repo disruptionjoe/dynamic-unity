@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 37
+manifest_revision: 38
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -40,13 +40,16 @@ active_hardening_program_note: >-
   proves that the two receipts are independent, and adds a matched Pauli control where identical
   scalar fixed algebra and finite-time Z signal coexist with no, partial or exact environment
   records. A constructive family fills the full environment-formation interval at every fixed
-  0<s<1. The minimal physical condition that creates a nontrivial bound remains open.
+  0<s<1. Revision 38 supplies one exact source-action bound inside a frozen binary QND family;
+  an independently motivated laboratory condition that survives a broader perturbation class
+  remains open.
   HC-DU-035A now closes the static layered
   reconstruction/finality/capability threshold controls and rejects one universal objectivity
   threshold. HC-DU-034A now supplies an exact signed all-port coherent-history assay
   specialization, and HC-DU-036A supplies the exact finite deterministic
-  factorization-or-candidate-witness baseline plus finite-linear extension. Robust approximate
-  and instrument-derived physical record formation, admissible interface refinement,
+  factorization-or-candidate-witness baseline plus finite-linear extension. Laboratory-robust
+  approximate and independently derived physical record formation, admissible interface
+  refinement,
   instrument-level history certification,
   broadcastable public finality and the formation-to-finality resource law remain open. The
   revision-22 finite reconciliation-loop baseline additionally identifies path-independent facts
@@ -127,6 +130,17 @@ active_hardening_program_note: >-
   physical selection of one instrument orbit under frozen source, coupling, perturbation,
   action, decoder and resource contracts. No theorem ID, physical law, prediction, ontology,
   claim or paper state changes.
+  Revision 38 executes that selector at exact finite-family grade. Pointer distinction,
+  residual visibility, source-axis misalignment and source-action disturbance obey
+  delta_Z=(1-sqrt(1-D^2))*abs(sin(theta)); every informative exactly nondisturbing member of the
+  frozen binary QND family is source-aligned up to outcome relabeling. A full block action
+  algebra selects the Lüders continuation inside the declared unitary-twist class, while source
+  energy alone fails under degeneracy. Archive noise, coherent routing and environment-dilation
+  controls show that the maximal selected object is an effective instrument orbit, not a unique
+  microscopic apparatus. The next target is a laboratory-motivated additive total-conservation
+  and apparatus-asymmetry contract, perturbation-ball robustness, complete instrument
+  tomography, and a frozen archive/decoder. Component mathematics is known; no theorem ID,
+  physical law, prediction, ontology, claim or paper state changes.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -676,8 +690,11 @@ certified_causal_reality_restructure:
     REJECTION / COMPLETE MERMIN-PERES INSTRUMENT OBSTRUCTION ABSORBED BY STANDARD
     CONTEXTUALITY AND CONTEXT LIFT / MULTI-TIME-AUTHENTICATED-QUANTUM TRANSFER 33/33 /
     CERTIFIED OVERLAP IDENTITY EXACT / TYPED RECURSIVE IDENTITY-ACTION BOUNDS, FULL-COVER
-    MARGINAL RECEIPT AND INERT-SUBDIVISION NATURALITY CONTROL 22/22 / ROBUST PHYSICAL
-    IDENTITY, FORMED-SHARP INSTRUMENT DESCENT AND SPARSE EXACT SCALING OPEN / TWO-HISTORY
+    MARGINAL RECEIPT AND INERT-SUBDIVISION NATURALITY CONTROL 22/22 / ROBUST BINARY-QND
+    SOURCE-ACTION ALIGNMENT BOUND AND EFFECTIVE INSTRUMENT-ORBIT SELECTOR 31/31 / FULL BLOCK
+    ACTION SELECTS LUDERS CONTINUATION INSIDE THE UNITARY-TWIST CLASS / UNIQUE MICROSCOPIC
+    DILATION NOT SELECTED / LABORATORY TOTAL-CONSERVATION, APPARATUS-ASYMMETRY,
+    PERTURBATION-BALL SELECTION AND SPARSE EXACT SCALING OPEN / TWO-HISTORY
     COUPLING SELECTS QND HISTORY ALGEBRA BUT NOT CERTIFICATE INSTRUMENT / PROCESS-CLASS
     CERTIFICATION WITHOUT RUN-HISTORY DISCLOSURE 24/24 / PROBABILITY-LEVEL FINALITY IS KNOWN
     LO-CE, PR-SQUARED EXCLUDED AT 5/4 BUT QUANTUM NOT SELECTED 25/25 / TIGHT BINARY
@@ -691,35 +708,36 @@ certified_causal_reality_restructure:
     ERROR-OR-DELIVERY SYNDROME PLUS ROUTE PROVENANCE RESTORES EXACT FACTORIZATION / RESTRICTED
     BOUNDARY REMAINDERS ABSORBED BY CHARGED EXPANSION / NO IRREDUCIBLE REMAINDER / EXACT FRESH
     RECORD SUPPORT GROWTH RETAINED BUT EXTENSIONAL TREE COST ABSORBED BY COMPRESSED FIXED LAW /
-    EXACT CENTER SELECTION BRITTLE TO NONCOMMUTING PERTURBATIONS / ROBUST APPROXIMATE AND
-    INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION / IMPLEMENTATION-COMPLETE PROPER-TIME HISTORY
-    CERTIFICATION /
+    EXACT CENTER SELECTION BRITTLE TO NONCOMMUTING PERTURBATIONS / FINITE SOURCE-ACTION
+    INSTRUMENT-ORBIT SELECTION EXACT BUT LABORATORY PHYSICAL SELECTION OPEN /
+    IMPLEMENTATION-COMPLETE PROPER-TIME HISTORY CERTIFICATION /
     BROADCASTABLE PUBLIC FINALITY, FORMATION-TO-FINALITY RESOURCE LAW, GEOMETRY AND PHYSICAL
     RECOVERY OPEN / COMPONENT MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL
     RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
   first_dependency: >-
-    Derive or refute robust physical selection of one source-pointer-archive instrument orbit
-    under an independently frozen source process, admissible coupling and perturbation classes,
-    full within-sector action algebra, end-to-end decoder, resource ledger and matched conjugate
-    and continuation foils. Revision 37 shows why this is upstream of descent: source-relative
-    nondisturbance plus exact repeatability earns an aligned PVM only inside a supplied binary QND
-    family; contextwise sharp dilation is universal, while one full-cover common commuting
-    dilation restates global joint measurability. Common-system sharp-PVM pairwise-to-global
-    descent is already standard spectral theory. HC-DU-035C continues to require typed identity,
-    a full-cover compatibility receipt, upper-action factorization and inert-refinement
-    naturality after the physical interface is selected. H-CCR-15 still requires every claimed
-    extension to beat the complete enlarged process and memory boundary.
+    Lift the completed finite source-action instrument-orbit selector to one independently
+    motivated laboratory process with additive total conservation, a calibrated apparatus
+    asymmetry budget, a declared perturbation ball, complete selective-instrument tomography and
+    a frozen archive/decoder. Revision 38 proves exact source-axis alignment for every
+    informative nondisturbing member of the supplied binary QND family and selects the Lüders
+    continuation only after a full block action algebra is declared. It also proves why unique
+    microscopic dilation is not an operational target. The live dependency is therefore whether
+    those premises arise from independently justified physics and remain robust outside the
+    fitted family. HC-DU-035C continues to require typed identity, a full-cover compatibility
+    receipt, upper-action factorization and inert-refinement naturality after the physical
+    interface is selected. H-CCR-15 still requires every claimed extension to beat the complete
+    enlarged process and memory boundary.
   first_executable_flagship: >-
-    Freeze one implementation-complete source Hamiltonian or process, a locality-, symmetry-,
-    energy- and controllability-bounded pointer/archive coupling family, one perturbation and
-    noise class, a full action algebra, an end-to-end decoder and error budget, and matched
-    conjugate-basis and within-sector-twist foils. Coherently switch the competing context
-    implementations while retaining every route, environment and provenance port. Test whether
-    one instrument orbit alone remains source-nondisturbing, repeatable, action-preserving and
-    decodable across the frozen perturbation class. A positive result reopens formed
-    full-cover descent; a negative result localizes the physics-first remainder. Only after a
-    formed distinction survives every admitted refinement should HC-DU-035B price conversion
-    into public finality. Do not add more supplied PVMs, hand-selected histories,
+    Choose one laboratory-motivated source and apparatus family for which the additive conserved
+    generator, apparatus asymmetry resource, admissible controls, noise ball and archive channel
+    can all be calibrated independently. Hold record quality and resources fixed; vary
+    source-axis alignment and a within-sector continuation; reconstruct the complete quantum
+    instrument and archive by self-consistent instrument tomography; and test the revision-38
+    disturbance surface plus the predicted degeneracy reopening on held-out perturbations. A
+    standard-quantum fit earns a physical interface contract but no new physics. Only a residual
+    outside the complete instrument, environment and resource model reopens dynamics. Defer
+    formed full-cover descent and HC-DU-035B finality pricing until that selected interface
+    survives. Do not add more supplied PVMs, fitted one-parameter dephasing families,
     probability-only quantum principles, Boolean covers, triangle grids, hierarchy labels,
     contextuality restatements or blockchain analogies.
   migration_rule: >-
@@ -1565,6 +1583,53 @@ formed_sharp_descent_swing:
     finite-control/general-open grade. Adds no theorem ID, hypothesis ID, concept ID, physical
     law, prediction, ontology, paper priority, Factory state, draft, submission, publication or
     external action.
+robust_physical_instrument_selection:
+  status: completed_scoped_selector_and_no_go
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: Yeah, let's go after it.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-120514-robust-physical-instrument-selection/run-plan.md
+  result_ref: >-
+    explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md
+  probe_ref: tests/du_robust_physical_instrument_selection_probe.py
+  artifact_ref: tests/artifacts/du_robust_physical_instrument_selection_result.json
+  artifact_sha256: ce0a8b7f4c07c295433140d421b0a41ac22570020655cca905d96b4e561da407
+  exact_selector_result: >-
+    The 31/31 complete finite probe proves
+    delta_Z=(1-sqrt(1-D^2))*abs(sin(theta)) in the frozen binary QND
+    source-pointer-archive family. Every informative exactly source-action-nondisturbing member
+    is source-aligned up to outcome relabeling, and the same identity gives the exact approximate
+    misalignment bound. A parallel coupling-commutator identity holds for the frozen
+    source-plus-degenerate-pointer generator. The matched conjugate foil has the same record
+    quality, archive, decoder and resource ledger but pays the predicted disturbance.
+  exact_continuation_result: >-
+    Equal sharp effects, archive values, repeatability and central nondisturbance admit a
+    within-sector continuation twist. A full block action algebra selects the effective Lüders
+    continuation inside the unitary-twist class; source energy alone fails at exact degeneracy
+    and reveals the twist with disturbance twice the independently supplied internal splitting.
+  exact_access_and_route_result: >-
+    Archive flips reduce accessible distinction by abs(1-2*q), charged three-copy majority
+    decoding improves but does not make nonzero noise exact, and coherent target-versus-twist
+    routing reduces route-X visibility from one to one-half exactly as predicted by the complete
+    standard-quantum model. Distinct retained-environment dilations induce the same reduced
+    instrument.
+  integrated_learning: >-
+    The maximal selected object is an effective source-aligned Lüders instrument orbit relative
+    to independently declared source, action, coupling, access and resource classes. The finite
+    result does not derive those classes or select a unique microscopic apparatus. Its component
+    mathematics is occupied WAY-adjacent, QND, Lüders, commutant, instrument and dilation terrain.
+  next_move: >-
+    Lift the selector to one laboratory-motivated additive total-conservation model with a
+    calibrated apparatus-asymmetry budget, declared perturbation ball, complete self-consistent
+    instrument tomography and a frozen archive/decoder. Hold record quality and resources fixed,
+    test the disturbance surface and degeneracy reopening on held-out perturbations, and reopen
+    regional descent only after that physical interface survives.
+  ledger_disposition: >-
+    Extends HC-DU-033, HC-DU-035C, H-CCR-16 and CONCEPT-DU-011 at exact
+    finite-control/general-open grade. Adds no theorem ID, hypothesis ID, concept ID, physical
+    law, prediction, ontology, paper priority, Factory state, draft, submission, publication or
+    external action.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -2034,12 +2099,14 @@ lanes:
       fixedness and finite-time Z stability constant while formation spans none through exact;
       its constructive extension fills the full rectangle at every 0<s<1. The revision-36
       two-history control further shows that a physical coupling can select a QND history
-      algebra while leaving the selective certificate instrument undetermined.
-      Continue the parent HC-DU-033 by freezing Upsilon, I, R, Gamma_R, C, chi, F, A_F, O, Q_O,
-      Cap, G_O, the resource ledger and remainder witness; then derive a formed-sharp
-      pointer/readout/archive instrument from minimal independently justified nondemolition,
-      full-channel, locality, energy, resource, repeatability, access or dephasing-robust
-      conditions.
+      algebra while leaving the selective certificate instrument undetermined. Revision 38
+      installs the exact finite source-action selector: every informative exactly
+      nondisturbing member of the frozen binary QND family aligns with the source axis up to
+      outcome relabeling, a full block action algebra selects the Lüders continuation inside the
+      unitary-twist class, and the maximal object remains an effective instrument orbit.
+      Continue the parent HC-DU-033 by lifting that receipt to an independently motivated
+      additive total-conservation law, calibrated apparatus-asymmetry budget, declared
+      perturbation ball, complete selective-instrument tomography and frozen archive/decoder.
       Return a physical Record Selection Theorem, an Interface-Necessity No-Go, or a classified
       minimal additional-structure family. Do not enumerate more bare partitions, exact fitted
       dephasing fixtures or merely admissible covariant recorders.
@@ -2102,11 +2169,13 @@ lanes:
       counterexample. Revision 37 adds the formed-sharp selection boundary: the scoped binary QND
       family earns an aligned PVM only relative to a frozen source algebra and supplied coupling;
       common sharp-PVM descent is standard, and contextwise versus common dilation exposes the
-      missing physical selector. Next derive or refute robust selection of one instrument orbit
-      under frozen coupling, perturbation, action, decoder and resource contracts, and scale exact
-      compilation; preserve identified, underidentified, equivalent and incomplete selection
-      receipts plus descent, lift, safe rejection and incomplete composition outcomes. Never
-      define a selected
+      missing physical selector. Revision 38 closes the next finite step with an exact
+      information--source-disturbance alignment bound, matched conjugate and continuation foils,
+      end-to-end archive access, coherent routing, and a microscopic-dilation no-go. Next lift
+      the selected effective orbit to a laboratory total-conservation, apparatus-asymmetry,
+      perturbation-ball and complete-instrument-tomography contract, and scale exact compilation;
+      preserve identified, underidentified, equivalent and incomplete selection receipts plus
+      descent, lift, safe rejection and incomplete composition outcomes. Never define a selected
       record by agreement under every target physical experiment or call a target-derived
       quotient a formed physical record.
   - id: '1.5'
@@ -2383,9 +2452,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 37.
+    routing is the root lanes key at manifest revision 38.
 provenance:
-  revision: 37
+  revision: 38
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -2468,7 +2537,11 @@ provenance:
     instrument descent without promoting a claim; rev37 (Joe direct chat, 2026-07-25) executes
     the formed-sharp descent swing, installs the physical-selection boundary, absorbs common
     sharp-PVM descent into standard theory, and routes the next build upstream to robust physical
-    instrument selection without promoting a claim.
+    instrument selection without promoting a claim; rev38 (Joe direct chat, 2026-07-25) executes
+    the exact finite source-action instrument-orbit selector, classifies continuation,
+    archive-access, coherent-route and microscopic-dilation boundaries, and routes the next build
+    to a laboratory total-conservation and complete-instrument-tomography lift without promoting
+    a claim.
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -2864,3 +2937,17 @@ provenance:
     measurability. The next target is a robust physical instrument-selection theorem or no-go.
     No theorem ID, hypothesis, concept ID, physical law, prediction, ontology, paper priority,
     Factory state, draft, submission, publication or external action changed.
+  rev38_note: >-
+    2026-07-25 (Joe direct chat: "Yeah, let's go after it"): executed the robust physical
+    instrument-selection flagship in one frozen finite source-pointer-archive family. The 31/31
+    probe proves the exact information--source-disturbance and coupling-symmetry alignment
+    identities, rejects a matched conjugate foil, and supplies the approximate misalignment
+    bound. A matched continuation twist proves that effects, archive, repeatability and central
+    nondisturbance do not fix the selective map; a full block action algebra selects the Lüders
+    continuation inside that class, while degeneracy reopens energy-only selection. Archive
+    noise, charged decoding, coherent routing and retained-environment controls classify the
+    maximal object as an effective instrument orbit rather than a unique microscopic dilation.
+    The next target is a laboratory additive total-conservation, apparatus-asymmetry,
+    perturbation-ball and complete-instrument-tomography lift. No theorem ID, hypothesis,
+    concept ID, physical law, prediction, ontology, paper priority, Factory state, draft,
+    submission, publication or external action changed.

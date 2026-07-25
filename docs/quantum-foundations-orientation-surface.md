@@ -426,7 +426,7 @@ contributions. These are candidates, not promoted claims:
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
-| Record formation and interface selection | Explain why one stable, accessible record algebra forms rather than merely classifying supplied channels | `HC-DU-033` |
+| Record formation and interface selection | Lift the exact finite source-action instrument-orbit selector to independently motivated total conservation, apparatus asymmetry, perturbation robustness, complete instrument tomography, and an end-to-end archive | `HC-DU-033` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
 | Public-finality composition | Derive when regional records form a safe public action algebra under faults and access limits | `HC-DU-035/035C` |
 | Record sufficiency or physical remainder | Prove factorization through a certified quotient or locate the minimal irreducible physical structure | `HC-DU-036` |

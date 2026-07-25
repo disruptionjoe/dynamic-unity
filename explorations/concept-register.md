@@ -1339,6 +1339,34 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   coupling, perturbation and resource classes. Specker's conditional
   exclusion of almost quantum is occupied terrain and does not select full
   quantum theory.
+- **2026-07-25 robust physical instrument-orbit selector.** The `31/31`
+  complete source--pointer--archive control upgrades the named-basis rejection
+  to an exact continuous-family result. For pointer distinction \(D\),
+  residual visibility \(v=\sqrt{1-D^2}\), and axis angle \(\theta\),
+
+  \[
+  \|\Phi_\theta^*(Z)-Z\|_\infty
+  =(1-\sqrt{1-D^2})|\sin\theta|.
+  \]
+
+  Every informative exactly source-nondisturbing member is therefore aligned
+  with \(Z\) up to outcome relabeling, and approximate nondisturbance yields
+  an exact misalignment bound. The matched conjugate foil uses the same
+  pointer, archive, decoder, and resources. A parallel coupling-commutator
+  identity holds for the frozen source-plus-degenerate-pointer generator.
+
+  The result selects only an effective instrument orbit relative to supplied
+  source, action, and candidate classes. Equal effects, repeatability,
+  archive values, and central nondisturbance still admit a within-sector
+  twist. A full block action algebra selects the Lüders continuation inside
+  that unitary-twist class; source energy alone fails under degeneracy.
+  Archive noise reduces observer access, coherent routing detects the
+  continuation difference exactly within standard quantum theory, and
+  inaccessible environment isometries leave the reduced instrument
+  unchanged. The next physical target is a laboratory total-conservation and
+  apparatus-asymmetry contract, perturbation-ball robustness, complete
+  instrument tomography, and a frozen archive/decoder. See
+  `robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
@@ -1365,12 +1393,15 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   IDENTITY/ACTION BOUNDS, FULL-COVER MARGINAL RECEIPT AND
   INERT-SUBDIVISION NATURALITY CONTROL INSTALLED / PROBABILITY-LEVEL LO/CE
   GATE DOES NOT SELECT QUANTUM / FORMED-SHARP PHYSICAL-SELECTION GAP
-  INSTALLED / COMMON SHARP-PVM DESCENT ABSORBED / ROBUST PHYSICAL INSTRUMENT
-  SELECTION AND SPARSE SCALING OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.**
-  The next coupled attack is a robust instrument-selection theorem or no-go
-  under a frozen source process, admissible coupling and perturbation classes,
-  action algebra, decoder, resources, and matched conjugate and continuation
-  foils, followed only then by full-cover descent and sparse exact
+  INSTALLED / COMMON SHARP-PVM DESCENT ABSORBED / EXACT BINARY-QND
+  SOURCE-ACTION INSTRUMENT-ORBIT SELECTOR INSTALLED / CONTINUATION,
+  ARCHIVE-ACCESS AND MICROSCOPIC-DILATION BOUNDARIES CLASSIFIED /
+  LABORATORY TOTAL-CONSERVATION, APPARATUS-ASYMMETRY, PERTURBATION-BALL
+  SELECTION AND SPARSE SCALING OPEN / NO ONTOLOGY OR NEW PHYSICS
+  INFERRED.** The next coupled attack is a laboratory-motivated
+  total-conservation and complete-instrument-tomography lift with a calibrated
+  apparatus-asymmetry budget, declared perturbation ball, and frozen
+  archive/decoder, followed only then by full-cover descent and sparse exact
   compilation. See
   `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md` and
   `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`
@@ -1379,7 +1410,8 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   `operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md`,
   `certified-regional-composition-support-2026-07-25.md`, and
   `record-formation-to-certified-composition-wave-synthesis-2026-07-25.md`,
-  and `formed-sharp-descent-swing-synthesis-2026-07-25.md`.
+  `formed-sharp-descent-swing-synthesis-2026-07-25.md`, and
+  `robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

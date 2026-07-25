@@ -847,6 +847,39 @@ action algebra, decoder, resources, and matched conjugate/continuation foils.
 See
 `../explorations/formed-sharp-descent-swing-synthesis-2026-07-25.md`.
 
+**Executed robust physical instrument-orbit selector.** The complete
+source--pointer--archive probe now passes `31/31`. In the frozen binary QND
+family, pointer distinguishability \(D\), residual visibility \(v\), axis
+misalignment \(\theta\), and source-action disturbance obey
+
+\[
+v=\sqrt{1-D^2},\qquad
+\|\Phi_\theta^*(Z)-Z\|_\infty
+=
+(1-\sqrt{1-D^2})|\sin\theta|.
+\]
+
+For every informative record \(D>0\), exact source-action nondisturbance
+therefore selects the \(Z\) axis up to outcome relabeling; approximate
+nondisturbance gives the corresponding exact misalignment bound. The complete
+coupling also obeys a parallel commutator bound against the frozen
+source-plus-degenerate-pointer generator. A matched conjugate-axis foil has
+the same record quality and resources but pays the predicted disturbance.
+
+That positive result selects only an effective instrument orbit relative to
+the declared source, coupling, and action classes. A within-sector
+continuation twist retains the same effects, archive, repeatability, and
+central nondisturbance. A full block action algebra rejects it, while source
+energy alone cannot do so in a degenerate sector. Archive noise separately
+reduces observer-accessible distinction, and coherent target-versus-twist
+routing produces exactly the ordinary standard-quantum visibility loss.
+Distinct retained-environment dilations still realize the same reduced
+instrument. The next physical reopener is therefore a laboratory-motivated
+total-conservation and apparatus-asymmetry contract, perturbation-ball bound,
+complete instrument tomography, and frozen archive/decoder—not another
+abstract basis selector. See
+`../explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -1393,15 +1426,15 @@ because it is covariant.
    bounds, join-tree gluing, cyclic obstruction, recursive vector contract,
    certificate-nondisclosure control, and inert-subdivision naturality
    counterexample;
-4. retain the completed formed-sharp selection boundary: source-relative
-   nondisturbance plus exact repeatability earns the aligned PVM only inside
-   the frozen binary QND family, while coupling, context-independent identity,
-   selective continuation, and end-to-end archive sharpness remain open;
-5. derive or refute robust physical selection of one instrument orbit from a
-   predeclared source process, admissible coupling and perturbation classes,
-   action algebra, decoder, resources, and matched conjugate/continuation
-   foils; use coherent context switching with every route and environment port
-   retained;
+4. retain the completed robust physical instrument-orbit selector:
+   \(\delta_Z=(1-\sqrt{1-D^2})|\sin\theta|\) selects the source-aligned axis
+   for \(D>0\) inside the frozen binary QND family; a full block action algebra
+   selects the Lüders continuation inside the unitary-twist class, while
+   archive noise and inaccessible dilation freedom remain separate;
+5. replace the abstract source action with a laboratory-motivated additive
+   total-conservation and apparatus-asymmetry budget, enlarge the candidate
+   family to a declared perturbation ball, and tomograph the complete
+   selective instrument and archive channel;
 6. treat common sharp-PVM pairwise-to-global descent, Naimark dilation,
    Specker, join-tree gluing, cyclic obstruction, and almost-quantum exclusion
    as absorbers rather than theorem targets;
@@ -1444,9 +1477,10 @@ because it is covariant.
 
 **Remaining physical build:**
 
-1. derive or classify a formed-sharp selective instrument from an
-   independently fixed dynamics, pointer/archive interaction, and
-   resource/stability criterion;
+1. lift the completed finite source-action instrument-orbit selector to an
+   independently motivated laboratory dynamics with total conservation,
+   calibrated apparatus asymmetry, a perturbation ball, complete instrument
+   tomography, and a frozen archive/decoder;
 2. substitute proposal-level coherent proper-time operations or a
    dynamically selected Clock-QCA history instrument;
 3. freeze experimentally accessible outcomes and an
@@ -1491,11 +1525,13 @@ queue.
    family fills the entire formation interval at fixed stability. The
    two-history proper-time control now selects a QND history algebra while
    proving that the same process does not select its certificate-forming
-   readout. That certificate can distinguish a coherent process class without
-   disclosing a run-level history. The next paper-grade advance must derive a
-   formed-sharp selective instrument from independently justified physical
-   constraints or execute an implementation-complete proper-time instrument,
-   rather than add another hand-built fixture.
+   readout. The finite robust-selector successor proves an exact
+   information--source-disturbance and alignment bound, rejects a matched
+   conjugate foil, and classifies continuation and dilation freedom. Its
+   component mathematics is known and its source/action/candidate family is
+   still supplied. The next paper-grade advance must lift that orbit selector
+   to independently justified laboratory dynamics with complete instrument
+   tomography or execute an implementation-complete proper-time instrument.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
    The next concentrated paper-closing route after two novelty gates narrowed:
    a claim-specific collision review, uniform asymptotic theorem, and tight
@@ -1581,11 +1617,15 @@ HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
 TWO-HISTORY INTERACTION SELECTS A QND HISTORY ALGEBRA BUT NOT THE CERTIFICATE INSTRUMENT
 PROCESS-CLASS CERTIFICATION WITHOUT RUN-LEVEL HISTORY DISCLOSURE EXACT IN THE FROZEN FIXTURE
 PROBABILITY-LEVEL FINALITY COLLAPSES TO LO/CE; PR^2 EXCLUDED BUT QUANTUM NOT SELECTED
+ROBUST BINARY-QND SOURCE-ACTION ALIGNMENT BOUND EXACT; 31/31
+FULL BLOCK ACTION SELECTS LUDERS CONTINUATION INSIDE UNITARY-TWIST CLASS
+EFFECTIVE INSTRUMENT ORBIT SELECTED; UNIQUE MICROSCOPIC DILATION NOT SELECTED
+ARCHIVE ACCESS AND COHERENT ROUTE CONTROLS EXACTLY ABSORBED BY STANDARD QUANTUM THEORY
 HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
 NO SIZE-FREE FINITE SUFFICIENCY HORIZON
 SEPARATING WITNESS MEANS CANDIDATE-RECORD INSUFFICIENCY, NOT AUTOMATIC ONTOLOGY
-ROBUST APPROXIMATE AND INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION OPEN
+LABORATORY TOTAL-CONSERVATION, APPARATUS-ASYMMETRY AND PERTURBATION-BALL SELECTION OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
 PHYSICAL / ROBUST / LARGE-SCALE INTERVENTIONAL SUFFICIENCY OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN

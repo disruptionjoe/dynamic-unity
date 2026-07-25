@@ -1,0 +1,1062 @@
+{
+  "archive_access": {
+    "analytic_relation": "D_access=abs(1-2*q)*D_pointer; three-copy majority uses q3=3*q^2-2*q^3",
+    "rows": [
+      {
+        "archive_flip": 0.0,
+        "epsilon": 0.0,
+        "observer_accessible_distinguishability": 1.0,
+        "pointer_distinguishability": 1.0,
+        "three_copy_accessible_distinguishability": 1.0,
+        "three_copy_majority_error": 0.0
+      },
+      {
+        "archive_flip": 0.05,
+        "epsilon": 0.0,
+        "observer_accessible_distinguishability": 0.9,
+        "pointer_distinguishability": 1.0,
+        "three_copy_accessible_distinguishability": 0.9855,
+        "three_copy_majority_error": 0.00725
+      },
+      {
+        "archive_flip": 0.2,
+        "epsilon": 0.0,
+        "observer_accessible_distinguishability": 0.6,
+        "pointer_distinguishability": 1.0,
+        "three_copy_accessible_distinguishability": 0.792,
+        "three_copy_majority_error": 0.104
+      },
+      {
+        "archive_flip": 0.49,
+        "epsilon": 0.0,
+        "observer_accessible_distinguishability": 0.02,
+        "pointer_distinguishability": 1.0,
+        "three_copy_accessible_distinguishability": 0.029996,
+        "three_copy_majority_error": 0.485002
+      },
+      {
+        "archive_flip": 0.0,
+        "epsilon": 0.02,
+        "observer_accessible_distinguishability": 0.96,
+        "pointer_distinguishability": 0.96,
+        "three_copy_accessible_distinguishability": 0.96,
+        "three_copy_majority_error": 0.0
+      },
+      {
+        "archive_flip": 0.05,
+        "epsilon": 0.02,
+        "observer_accessible_distinguishability": 0.864,
+        "pointer_distinguishability": 0.96,
+        "three_copy_accessible_distinguishability": 0.94608,
+        "three_copy_majority_error": 0.00725
+      },
+      {
+        "archive_flip": 0.2,
+        "epsilon": 0.02,
+        "observer_accessible_distinguishability": 0.576,
+        "pointer_distinguishability": 0.96,
+        "three_copy_accessible_distinguishability": 0.76032,
+        "three_copy_majority_error": 0.104
+      },
+      {
+        "archive_flip": 0.49,
+        "epsilon": 0.02,
+        "observer_accessible_distinguishability": 0.0192,
+        "pointer_distinguishability": 0.96,
+        "three_copy_accessible_distinguishability": 0.02879616,
+        "three_copy_majority_error": 0.485002
+      },
+      {
+        "archive_flip": 0.0,
+        "epsilon": 0.1,
+        "observer_accessible_distinguishability": 0.8,
+        "pointer_distinguishability": 0.8,
+        "three_copy_accessible_distinguishability": 0.8,
+        "three_copy_majority_error": 0.0
+      },
+      {
+        "archive_flip": 0.05,
+        "epsilon": 0.1,
+        "observer_accessible_distinguishability": 0.72,
+        "pointer_distinguishability": 0.8,
+        "three_copy_accessible_distinguishability": 0.7884,
+        "three_copy_majority_error": 0.00725
+      },
+      {
+        "archive_flip": 0.2,
+        "epsilon": 0.1,
+        "observer_accessible_distinguishability": 0.48,
+        "pointer_distinguishability": 0.8,
+        "three_copy_accessible_distinguishability": 0.6336,
+        "three_copy_majority_error": 0.104
+      },
+      {
+        "archive_flip": 0.49,
+        "epsilon": 0.1,
+        "observer_accessible_distinguishability": 0.016,
+        "pointer_distinguishability": 0.8,
+        "three_copy_accessible_distinguishability": 0.0239968,
+        "three_copy_majority_error": 0.485002
+      },
+      {
+        "archive_flip": 0.0,
+        "epsilon": 0.25,
+        "observer_accessible_distinguishability": 0.5,
+        "pointer_distinguishability": 0.5,
+        "three_copy_accessible_distinguishability": 0.5,
+        "three_copy_majority_error": 0.0
+      },
+      {
+        "archive_flip": 0.05,
+        "epsilon": 0.25,
+        "observer_accessible_distinguishability": 0.45,
+        "pointer_distinguishability": 0.5,
+        "three_copy_accessible_distinguishability": 0.49275,
+        "three_copy_majority_error": 0.00725
+      },
+      {
+        "archive_flip": 0.2,
+        "epsilon": 0.25,
+        "observer_accessible_distinguishability": 0.3,
+        "pointer_distinguishability": 0.5,
+        "three_copy_accessible_distinguishability": 0.396,
+        "three_copy_majority_error": 0.104
+      },
+      {
+        "archive_flip": 0.49,
+        "epsilon": 0.25,
+        "observer_accessible_distinguishability": 0.01,
+        "pointer_distinguishability": 0.5,
+        "three_copy_accessible_distinguishability": 0.014998,
+        "three_copy_majority_error": 0.485002
+      },
+      {
+        "archive_flip": 0.0,
+        "epsilon": 0.45,
+        "observer_accessible_distinguishability": 0.1,
+        "pointer_distinguishability": 0.1,
+        "three_copy_accessible_distinguishability": 0.1,
+        "three_copy_majority_error": 0.0
+      },
+      {
+        "archive_flip": 0.05,
+        "epsilon": 0.45,
+        "observer_accessible_distinguishability": 0.09,
+        "pointer_distinguishability": 0.1,
+        "three_copy_accessible_distinguishability": 0.09855,
+        "three_copy_majority_error": 0.00725
+      },
+      {
+        "archive_flip": 0.2,
+        "epsilon": 0.45,
+        "observer_accessible_distinguishability": 0.06,
+        "pointer_distinguishability": 0.1,
+        "three_copy_accessible_distinguishability": 0.0792,
+        "three_copy_majority_error": 0.104
+      },
+      {
+        "archive_flip": 0.49,
+        "epsilon": 0.45,
+        "observer_accessible_distinguishability": 0.002,
+        "pointer_distinguishability": 0.1,
+        "three_copy_accessible_distinguishability": 0.0029996,
+        "three_copy_majority_error": 0.485002
+      },
+      {
+        "archive_flip": 0.0,
+        "epsilon": 0.5,
+        "observer_accessible_distinguishability": 0.0,
+        "pointer_distinguishability": 0.0,
+        "three_copy_accessible_distinguishability": 0.0,
+        "three_copy_majority_error": 0.0
+      },
+      {
+        "archive_flip": 0.05,
+        "epsilon": 0.5,
+        "observer_accessible_distinguishability": 0.0,
+        "pointer_distinguishability": 0.0,
+        "three_copy_accessible_distinguishability": 0.0,
+        "three_copy_majority_error": 0.00725
+      },
+      {
+        "archive_flip": 0.2,
+        "epsilon": 0.5,
+        "observer_accessible_distinguishability": 0.0,
+        "pointer_distinguishability": 0.0,
+        "three_copy_accessible_distinguishability": 0.0,
+        "three_copy_majority_error": 0.104
+      },
+      {
+        "archive_flip": 0.49,
+        "epsilon": 0.5,
+        "observer_accessible_distinguishability": 0.0,
+        "pointer_distinguishability": 0.0,
+        "three_copy_accessible_distinguishability": 0.0,
+        "three_copy_majority_error": 0.485002
+      }
+    ],
+    "verdict": "the source-selected pointer distinction and the final observer-accessible distinction are different receipts. Finite redundancy improves access only by paying for additional archive support and remains inexact at q>0."
+  },
+  "assertions": [
+    {
+      "name": "all_system_pointer_couplings_are_unitary",
+      "passed": true
+    },
+    {
+      "name": "all_blank_pointer_archive_maps_are_isometries",
+      "passed": true
+    },
+    {
+      "name": "explicit_archive_circuit_recovers_analytic_instrument",
+      "passed": true
+    },
+    {
+      "name": "all_instruments_are_trace_preserving",
+      "passed": true
+    },
+    {
+      "name": "binary_visibility_equals_sqrt_one_minus_d_squared",
+      "passed": true
+    },
+    {
+      "name": "source_disturbance_identity_holds_on_full_grid",
+      "passed": true
+    },
+    {
+      "name": "source_plus_degenerate_pointer_symmetry_identity_holds",
+      "passed": true
+    },
+    {
+      "name": "nonzero_record_strength_yields_exact_alignment_bound",
+      "passed": true
+    },
+    {
+      "name": "exact_source_nondisturbance_selects_z_axis_or_relabeling",
+      "passed": true
+    },
+    {
+      "name": "zero_information_null_does_not_select_an_axis",
+      "passed": true
+    },
+    {
+      "name": "matched_target_and_conjugate_have_same_record_quality",
+      "passed": true
+    },
+    {
+      "name": "aligned_target_is_source_nondisturbing",
+      "passed": true
+    },
+    {
+      "name": "informative_conjugate_foil_pays_exact_source_disturbance",
+      "passed": true
+    },
+    {
+      "name": "archive_access_formula_holds",
+      "passed": true
+    },
+    {
+      "name": "archive_noise_never_improves_single_copy_access",
+      "passed": true
+    },
+    {
+      "name": "charged_three_copy_majority_improves_nontrivial_access",
+      "passed": true
+    },
+    {
+      "name": "majority_decoder_is_not_free_or_exact_under_nonzero_noise",
+      "passed": true
+    },
+    {
+      "name": "continuation_target_and_twist_are_trace_preserving",
+      "passed": true
+    },
+    {
+      "name": "continuation_target_and_twist_have_same_sharp_effects",
+      "passed": true
+    },
+    {
+      "name": "continuation_target_and_twist_are_repeatable",
+      "passed": true
+    },
+    {
+      "name": "central_sector_action_cannot_distinguish_continuations",
+      "passed": true
+    },
+    {
+      "name": "same_effects_allow_orthogonal_selective_continuations",
+      "passed": true
+    },
+    {
+      "name": "full_action_algebra_accepts_luders_continuation",
+      "passed": true
+    },
+    {
+      "name": "full_action_algebra_rejects_twisted_continuation",
+      "passed": true
+    },
+    {
+      "name": "degenerate_source_energy_cannot_see_internal_twist",
+      "passed": true
+    },
+    {
+      "name": "nonzero_internal_splitting_reveals_exact_twist_cost",
+      "passed": true
+    },
+    {
+      "name": "coherent_route_assay_is_a_valid_isometry",
+      "passed": true
+    },
+    {
+      "name": "identical_routes_recombine_with_unit_visibility",
+      "passed": true
+    },
+    {
+      "name": "continuation_twist_reduces_route_visibility_as_predicted",
+      "passed": true
+    },
+    {
+      "name": "same_effective_instrument_admits_distinct_dilations",
+      "passed": true
+    },
+    {
+      "name": "resource_contract_is_matched_before_verdict",
+      "passed": true
+    }
+  ],
+  "coherent_route_control": {
+    "classification": "the route-coherence loss is exactly reproduced by the complete standard-quantum controlled implementation. It detects selective-map identity beyond outcome effects; it is not evidence of perspectival curvature or new dynamics.",
+    "controlled_isometry_error": 0.0,
+    "identical_route_x_visibility": 1.0,
+    "target_twist_route_x_visibility": 0.5
+  },
+  "continuation_selector": {
+    "energy_rows": [
+      {
+        "internal_splitting": 0.0,
+        "luders_source_energy_disturbance": 0.0,
+        "predicted_twist_disturbance": 0.0,
+        "twisted_source_energy_disturbance": 0.0
+      },
+      {
+        "internal_splitting": 0.1,
+        "luders_source_energy_disturbance": 0.0,
+        "predicted_twist_disturbance": 0.2,
+        "twisted_source_energy_disturbance": 0.2
+      },
+      {
+        "internal_splitting": 0.3,
+        "luders_source_energy_disturbance": 0.0,
+        "predicted_twist_disturbance": 0.6,
+        "twisted_source_energy_disturbance": 0.6
+      }
+    ],
+    "full_action_disturbance": {
+      "luders": 0.0,
+      "twisted": 2.0
+    },
+    "repeatability_error": {
+      "luders": 0.0,
+      "twisted": 0.0
+    },
+    "route_x_visibility": {
+      "identical_implementations": 1.0,
+      "luders_vs_twist": 0.5
+    },
+    "same_effect_error": 0.0,
+    "sector_action_disturbance": {
+      "luders": 0.0,
+      "twisted": 0.0
+    },
+    "selective_output_trace_distance": 1.0,
+    "verdict": "sharp effects, repeatability, the archive outcome and central source nondisturbance do not fix the selective continuation. A full within-sector action algebra rejects the twist; source energy alone does so only when an independent internal splitting breaks the degeneracy."
+  },
+  "frozen_contract": {
+    "archive_flip_grid": [
+      0.0,
+      0.05,
+      0.2,
+      0.49
+    ],
+    "candidate_axis": "n(theta)=(sin(theta),0,cos(theta))",
+    "matched_foils": [
+      "conjugate X-axis instrument",
+      "within-sector continuation twist",
+      "zero internal-splitting degeneracy",
+      "noisy observer archive",
+      "coherently routed target-versus-twist implementation"
+    ],
+    "pointer_crossover_grid": [
+      0.0,
+      0.02,
+      0.1,
+      0.25,
+      0.45,
+      0.5
+    ],
+    "resource_contract": {
+      "charged_optional_decoder": {
+        "fresh_archive_bits": 3,
+        "independent_archive_flip_assumption": true,
+        "majority_operations": 1
+      },
+      "continuation_target_and_twist": {
+        "archive_bits": 1,
+        "outcomes": 2,
+        "selective_kraus_operators": 2,
+        "system_qubits": 2
+      },
+      "not_priced_as_zero": [
+        "source-Hamiltonian justification",
+        "coupling synthesis",
+        "macroscopic amplification",
+        "archive reset and lifetime",
+        "tomographic calibration",
+        "public or Byzantine finality"
+      ],
+      "target_and_conjugate": {
+        "decoder": "single archive bit",
+        "fresh_archive_bits": 1,
+        "fresh_pointer_qubits": 1,
+        "pointer_archive_copies": 1,
+        "system_pointer_unitaries": 1,
+        "system_qubits": 1
+      }
+    },
+    "source_action": "Z",
+    "theta_grid_over_pi": [
+      -0.083333333333,
+      0.0,
+      0.041666666667,
+      0.083333333333,
+      0.166666666667,
+      0.25,
+      0.5,
+      1.0
+    ],
+    "tolerance": 1e-10
+  },
+  "grade": "EXACT FINITE FAMILY SELECTOR AND NO-GO / COMPONENT MATHEMATICS KNOWN / EFFECTIVE INSTRUMENT ORBIT SELECTED ONLY RELATIVE TO FROZEN SOURCE, ACTION AND COUPLING CLASSES / NO NEW PHYSICS OR THEOREM-ID PROMOTION",
+  "landscape_boundary": {
+    "du_value": "one unchanged typed contract joins source selection, selective continuation identity, end-to-end archive access, matched resources, coherent routing, and the effective-instrument quotient",
+    "novelty_grade": "useful program synthesis and exact finite receipt; no new component theorem or physical law claimed",
+    "occupied_components": [
+      "Wigner-Araki-Yanase conservation constraints",
+      "quantum nondemolition measurement",
+      "binary information-disturbance complementarity",
+      "L\u00fcders and repeatable instrument theory",
+      "commutant/Schur-lemma continuation selection",
+      "Stinespring and Naimark dilation freedom",
+      "ordinary coherent control of quantum instruments"
+    ]
+  },
+  "maximal_selected_object": {
+    "dilation_control": {
+      "effective_channel_error_after_environment_trace": 0.0,
+      "isometry_error": 0.0,
+      "retained_environment_trace_distance": 1.0
+    },
+    "no_go": "physical source and action constraints can select an effective instrument only relative to independently declared candidate and action classes. They cannot select one microscopic dilation: environment isometries and unobserved implementation degrees remain.",
+    "not_selected": [
+      "the source Hamiltonian or action algebra",
+      "the admissible coupling family",
+      "a unique microscopic apparatus Hamiltonian",
+      "a unique Stinespring dilation or retained environment state",
+      "the archive boundary or decoder",
+      "quantum theory from a broader GPT landscape"
+    ],
+    "selected": "source-aligned effective L\u00fcders instrument orbit, within the declared QND and full-action-preserving candidate classes, up to outcome relabeling and operationally inert outcome phases"
+  },
+  "run_id": "RUN-20260725-120514-robust-physical-instrument-selection",
+  "schema": "dynamic-unity/robust-physical-instrument-selection/v1",
+  "source_action_selector": {
+    "analytic_relations": {
+      "approximate_alignment": "abs(sin(theta)) <= delta_Z/(1-sqrt(1-D^2)) for D>0",
+      "coupling_symmetry_defect": "kappa=norm([U,Z tensor I])=sqrt(2*(1-sqrt(1-D^2)))*abs(sin(theta))",
+      "pointer_distinguishability": "D=1-2*epsilon",
+      "residual_visibility": "v=2*sqrt(epsilon*(1-epsilon))=sqrt(1-D^2)",
+      "source_action_disturbance": "delta_Z=(1-sqrt(1-D^2))*abs(sin(theta))"
+    },
+    "exact_selected_axes_over_pi": [
+      0.0,
+      1.0
+    ],
+    "matched_target_conjugate_rows": [
+      {
+        "conjugate_source_disturbance": 1.0,
+        "epsilon": 0.0,
+        "predicted_conjugate_gap": 1.0,
+        "record_distinguishability_both": 1.0,
+        "same_resource_contract": true,
+        "target_source_disturbance": 0.0
+      },
+      {
+        "conjugate_source_disturbance": 0.72,
+        "epsilon": 0.02,
+        "predicted_conjugate_gap": 0.72,
+        "record_distinguishability_both": 0.96,
+        "same_resource_contract": true,
+        "target_source_disturbance": 0.0
+      },
+      {
+        "conjugate_source_disturbance": 0.4,
+        "epsilon": 0.1,
+        "predicted_conjugate_gap": 0.4,
+        "record_distinguishability_both": 0.8,
+        "same_resource_contract": true,
+        "target_source_disturbance": 0.0
+      },
+      {
+        "conjugate_source_disturbance": 0.133974596216,
+        "epsilon": 0.25,
+        "predicted_conjugate_gap": 0.133974596216,
+        "record_distinguishability_both": 0.5,
+        "same_resource_contract": true,
+        "target_source_disturbance": 0.0
+      },
+      {
+        "conjugate_source_disturbance": 0.005012562893,
+        "epsilon": 0.45,
+        "predicted_conjugate_gap": 0.005012562893,
+        "record_distinguishability_both": 0.1,
+        "same_resource_contract": true,
+        "target_source_disturbance": 0.0
+      }
+    ],
+    "rows": [
+      {
+        "coupling_symmetry_defect": 0.366025403784,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 0.366025403784,
+        "predicted_source_action_disturbance": 0.258819045103,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 0.258819045103,
+        "theta_over_pi": -0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.310582854123,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 0.310582854123,
+        "predicted_source_action_disturbance": 0.186349712474,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.186349712474,
+        "theta_over_pi": -0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.231494791488,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.231494791488,
+        "predicted_source_action_disturbance": 0.103527618041,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.103527618041,
+        "theta_over_pi": -0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.133974596216,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.133974596216,
+        "predicted_source_action_disturbance": 0.034675177061,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.034675177061,
+        "theta_over_pi": -0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.025914399272,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.025914399272,
+        "predicted_source_action_disturbance": 0.001297346742,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.001297346742,
+        "theta_over_pi": -0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": -0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.0
+      },
+      {
+        "coupling_symmetry_defect": 0.184591911283,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 0.13052619222,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 0.184591911283,
+        "predicted_source_action_disturbance": 0.13052619222,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 0.13052619222,
+        "theta_over_pi": 0.041666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.156631430664,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 0.13052619222,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 0.156631430664,
+        "predicted_source_action_disturbance": 0.093978858398,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.093978858398,
+        "theta_over_pi": 0.041666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.116746175459,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 0.13052619222,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.116746175459,
+        "predicted_source_action_disturbance": 0.052210476888,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.052210476888,
+        "theta_over_pi": 0.041666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.067565328863,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 0.13052619222,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.067565328863,
+        "predicted_source_action_disturbance": 0.017487193898,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.017487193898,
+        "theta_over_pi": 0.041666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.013069006801,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 0.13052619222,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.013069006801,
+        "predicted_source_action_disturbance": 0.000654270748,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.000654270748,
+        "theta_over_pi": 0.041666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.041666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.366025403784,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 0.366025403784,
+        "predicted_source_action_disturbance": 0.258819045103,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 0.258819045103,
+        "theta_over_pi": 0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.310582854123,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 0.310582854123,
+        "predicted_source_action_disturbance": 0.186349712474,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.186349712474,
+        "theta_over_pi": 0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.231494791488,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.231494791488,
+        "predicted_source_action_disturbance": 0.103527618041,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.103527618041,
+        "theta_over_pi": 0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.133974596216,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.133974596216,
+        "predicted_source_action_disturbance": 0.034675177061,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.034675177061,
+        "theta_over_pi": 0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.025914399272,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 0.258819045103,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.025914399272,
+        "predicted_source_action_disturbance": 0.001297346742,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.001297346742,
+        "theta_over_pi": 0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.083333333333
+      },
+      {
+        "coupling_symmetry_defect": 0.707106781187,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 0.5,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 0.707106781187,
+        "predicted_source_action_disturbance": 0.5,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 0.5,
+        "theta_over_pi": 0.166666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.6,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 0.5,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 0.6,
+        "predicted_source_action_disturbance": 0.36,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.36,
+        "theta_over_pi": 0.166666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.4472135955,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 0.5,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.4472135955,
+        "predicted_source_action_disturbance": 0.2,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.2,
+        "theta_over_pi": 0.166666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.258819045103,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 0.5,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.258819045103,
+        "predicted_source_action_disturbance": 0.066987298108,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.066987298108,
+        "theta_over_pi": 0.166666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.05006277506,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 0.5,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.05006277506,
+        "predicted_source_action_disturbance": 0.002506281447,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.002506281447,
+        "theta_over_pi": 0.166666666667
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.166666666667
+      },
+      {
+        "coupling_symmetry_defect": 1.0,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 0.707106781187,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 1.0,
+        "predicted_source_action_disturbance": 0.707106781187,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 0.707106781187,
+        "theta_over_pi": 0.25
+      },
+      {
+        "coupling_symmetry_defect": 0.848528137424,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 0.707106781187,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 0.848528137424,
+        "predicted_source_action_disturbance": 0.509116882454,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.509116882454,
+        "theta_over_pi": 0.25
+      },
+      {
+        "coupling_symmetry_defect": 0.632455532034,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 0.707106781187,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.632455532034,
+        "predicted_source_action_disturbance": 0.282842712475,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.282842712475,
+        "theta_over_pi": 0.25
+      },
+      {
+        "coupling_symmetry_defect": 0.366025403784,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 0.707106781187,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.366025403784,
+        "predicted_source_action_disturbance": 0.094734345491,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.094734345491,
+        "theta_over_pi": 0.25
+      },
+      {
+        "coupling_symmetry_defect": 0.07079945546,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 0.707106781187,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.07079945546,
+        "predicted_source_action_disturbance": 0.003544417213,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.003544417213,
+        "theta_over_pi": 0.25
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.25
+      },
+      {
+        "coupling_symmetry_defect": 1.414213562373,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 1.0,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 1.414213562373,
+        "predicted_source_action_disturbance": 1.0,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 1.0,
+        "theta_over_pi": 0.5
+      },
+      {
+        "coupling_symmetry_defect": 1.2,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 1.0,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 1.2,
+        "predicted_source_action_disturbance": 0.72,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.72,
+        "theta_over_pi": 0.5
+      },
+      {
+        "coupling_symmetry_defect": 0.894427191,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 1.0,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.894427191,
+        "predicted_source_action_disturbance": 0.4,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.4,
+        "theta_over_pi": 0.5
+      },
+      {
+        "coupling_symmetry_defect": 0.517638090205,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 1.0,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.517638090205,
+        "predicted_source_action_disturbance": 0.133974596216,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.133974596216,
+        "theta_over_pi": 0.5
+      },
+      {
+        "coupling_symmetry_defect": 0.10012555012,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 1.0,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.10012555012,
+        "predicted_source_action_disturbance": 0.005012562893,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.005012562893,
+        "theta_over_pi": 0.5
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 0.5
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.0,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 1.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 1.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.02,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.96,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.28,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 1.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.1,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.8,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.6,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 1.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.25,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.5,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.866025403784,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 1.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.45,
+        "inferred_abs_sin_theta": 0.0,
+        "pointer_distinguishability": 0.1,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 0.994987437107,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 1.0
+      },
+      {
+        "coupling_symmetry_defect": 0.0,
+        "epsilon": 0.5,
+        "inferred_abs_sin_theta": null,
+        "pointer_distinguishability": 0.0,
+        "predicted_coupling_symmetry_defect": 0.0,
+        "predicted_source_action_disturbance": 0.0,
+        "residual_visibility": 1.0,
+        "source_action_disturbance": 0.0,
+        "theta_over_pi": 1.0
+      }
+    ],
+    "verdict": "within the frozen binary QND family, any informative exactly source-action-nondisturbing record measures the source Z axis up to outcome relabeling. Approximate nondisturbance gives the displayed quantitative misalignment bound. The complete coupling obeys the parallel symmetry-defect identity for a degenerate pointer generator. At D=0 the selector becomes vacuous."
+  },
+  "summary": {
+    "all_passed": true,
+    "passed": 31,
+    "total": 31
+  }
+}

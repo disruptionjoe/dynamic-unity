@@ -836,6 +836,38 @@ full-cover common commuting dilation restates joint measurability. Specker's
 almost-quantum exclusion remains known conditional terrain; no Dynamic Unity
 quantum selector is derived.
 
+## Robust physical instrument-orbit selection
+
+`du_robust_physical_instrument_selection_probe.py` freezes one complete
+source--pointer--archive family and checks:
+
+- the exact binary relation
+  \(\delta_Z=(1-\sqrt{1-D^2})|\sin\theta|\) between record distinction,
+  axis misalignment, and source-action disturbance;
+- the parallel coupling-symmetry defect against a frozen
+  source-plus-degenerate-pointer generator;
+- exact source-axis selection up to outcome relabeling for every \(D>0\), and
+  the corresponding approximate-alignment bound;
+- a matched conjugate-axis foil with the same record quality and resources;
+- observer-access degradation through archive noise and separately charged
+  three-copy majority decoding;
+- a continuation twist with the same sharp effects, archive,
+  repeatability, and central nondisturbance;
+- rejection of that twist by a full block action algebra, together with the
+  degeneracy control showing why source energy alone can fail;
+- coherent target-versus-twist routing with every difference reproduced by
+  the complete standard-quantum model; and
+- two distinguishable retained-environment dilations inducing exactly the
+  same reduced effective instrument.
+
+Its artifact is
+`artifacts/du_robust_physical_instrument_selection_result.json` and reports
+`31/31` checks. Passing selects a source-aligned effective Lüders instrument
+orbit only relative to the declared source, action, and candidate classes.
+It does not derive a laboratory Hamiltonian, apparatus-asymmetry budget,
+perturbation class, unique microscopic dilation, public finality, quantum
+theory, or new physics.
+
 ## Entangled layered-finality absorption boundary
 
 `du_entangled_finality_absorption_probe.py` fixes the standard-quantum null
