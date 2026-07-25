@@ -60,6 +60,36 @@ See
 `../explorations/concentrated-paper-closing-program-synthesis-2026-07-24.md`.
 Every Factory seed remains unselected.
 
+## Conservation-selector evidence update
+
+The 2026-07-25 conservation-to-certified-record gate changed source-side
+scientific readiness without changing Factory custody:
+
+- an exact \(U(1)\)-conserving source--reference--pointer--archive model now
+  supplies complete selective-map tomography, a closed perturbation-ball
+  bound, and a resource-accounted capability slice;
+- conservation plus every symmetry-invariant scalar apparatus-asymmetry
+  quantity selects only a measurement orbit; an oriented reference token
+  programs the record axis;
+- WAY theory, quantum reference frames, asymmetry resource theory,
+  no-programming, interferometry, and instrument characterization absorb the
+  component physics; and
+- further fitted finite-QND or finite-reference selector work is stopped.
+
+The result is a merge module and route correction:
+
+- add the Interface-Necessity No-Go and minimum physical-interface passport to
+  `DU-PAPER-007`;
+- use the aligned/twirled/misaligned resource accounting as a hostile control
+  for `DU-PAPER-010`; and
+- do not create a standalone measurement-theory seed.
+
+The next foundational paper swing is an implementation-complete physical
+interventional-sufficiency arm with the reference, processor, route,
+environment, controller, detector, archive, invalid trials, provenance,
+selective instrument, uncertainty, and finite-shot null all explicit. See
+`../explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md`.
+
 ## The seed-readiness correction
 
 Dynamic Unity had been conflating two different gates:

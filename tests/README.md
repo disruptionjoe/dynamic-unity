@@ -9,9 +9,10 @@ deterministic governance/cold-start contract rather than a scientific assay.
 It checks that the five authoritative entrypoints agree on the ratified
 Purpose, Vision, Mission, North Star, and operating principle; that the active
 dependency lanes and cross-lane work channels are complete and distinct; that
-the current physical-selector bottleneck and three-outcome posture are
-visible; and that entrypoint links resolve. Passing establishes orientation
-integrity only, never physics, ontology, novelty, or paper readiness.
+the current implementation-complete physical interventional-sufficiency
+bottleneck and three-outcome posture are visible; and that entrypoint links
+resolve. Passing establishes orientation integrity only, never physics,
+ontology, novelty, or paper readiness.
 
 ## Certified Causal Reality assay contract
 
@@ -876,6 +877,43 @@ orbit only relative to the declared source, action, and candidate classes.
 It does not derive a laboratory Hamiltonian, apparatus-asymmetry budget,
 perturbation class, unique microscopic dilation, public finality, quantum
 theory, or new physics.
+
+## Conservation-to-certified-record interface-necessity gate
+
+`du_conservation_certified_record_probe.py` lifts the finite QND selector into
+an explicit \(U(1)\)-conserving source--reference--pointer--archive
+architecture and checks:
+
+- a four-outcome joint PVM whose every projector commutes with the additive
+  source-plus-reference charge;
+- a charge-intertwining formation isometry that writes the result to
+  orthogonal pointer and durable archive labels;
+- the exact induced equatorial source POVM and all four selective source
+  Choi maps;
+- informationally complete reconstruction of those selective maps from four
+  source preparations;
+- the exact accessible-distinguishability and forced-guess-capability
+  surfaces under reference visibility, phase mismatch, beam-splitter
+  imbalance, and archive sign-flip noise;
+- a positive closed-form perturbation-ball floor and a fixed-seed `1000`-case
+  off-grid stress test;
+- an orientation foil in which two references have identical charge moments,
+  purity, phase QFI, trace-asymmetry magnitude, dimensions, processor, and
+  resource ledger but program orthogonal source record axes;
+- twirled, misaligned, and archive-noise controls; and
+- explicit consumption of the oriented reference resource.
+
+Its artifact is
+`artifacts/du_conservation_certified_record_result.json` and reports `21/21`
+checks. Passing establishes a finite Interface-Necessity No-Go: conservation
+and a symmetry-invariant asymmetry budget select at most a measurement orbit;
+the oriented reference state supplies the axis. The capability gain is
+standard reference-resource accounting. WAY theory, asymmetry resource
+theory, no-programming, constrained state discrimination, interferometry, and
+instrument tomography absorb the component physics. The result closes
+further fitted finite-selector work; it does not establish a new theorem,
+physical law, ontology, prediction, paper seed, public finality, or unique
+apparatus.
 
 ## Entangled layered-finality absorption boundary
 

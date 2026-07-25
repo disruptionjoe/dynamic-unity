@@ -423,10 +423,20 @@ announcing that information is fundamental.
 The current opportunities cluster into a small number of possible
 contributions. These are candidates, not promoted claims:
 
+The 2026-07-25 conservation gate narrows the second family. In an explicit
+\(U(1)\)-conserving formed instrument, additive conservation plus every
+symmetry-invariant scalar asymmetry quantity selects only a measurement
+orbit. The oriented apparatus reference programs the axis; complete
+instrument tomography identifies it; reference consumption and archive noise
+account for the downstream capability. WAY theory, asymmetry resource theory,
+no-programming, interferometry, and instrument characterization absorb the
+physics. The live relation is therefore implementation-complete physical
+interventional sufficiency, not another finite selector fit.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
-| Record formation and interface selection | Lift the exact finite source-action instrument-orbit selector to independently motivated total conservation, apparatus asymmetry, perturbation robustness, complete instrument tomography, and an end-to-end archive | `HC-DU-033` |
+| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go; near-term work should calibrate one complete physical instrument and test its causal-record sufficiency | `HC-DU-033/036B` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
 | Public-finality composition | Derive when regional records form a safe public action algebra under faults and access limits | `HC-DU-035/035C` |
 | Record sufficiency or physical remainder | Prove factorization through a certified quotient or locate the minimal irreducible physical structure | `HC-DU-036` |

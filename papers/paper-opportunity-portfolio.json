@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-07-24",
+  "as_of_date": "2026-07-25",
   "claim_grade": "PORTFOLIO AUDIT / FACTORY-SEED READINESS IS NOT SCIENTIFIC OR MANUSCRIPT READINESS",
   "completeness_boundary": "Candidate families exposed by the active theorem spine and publishable ladder, exact-result packages, prediction register, concept register, prior repo-wide paper assessment, existing Dynamic Unity Factory entries, and stopped or transferred branches.",
   "coverage_map": {
@@ -133,6 +133,14 @@
     ],
     "synthesis_ref": "explorations/concentrated-paper-closing-program-synthesis-2026-07-24.md"
   },
+  "conservation_selector_gate_2026_07_25": {
+    "factory_effect": "None. No new seed, priority change, hardening request, or production activation.",
+    "paper_disposition": "Merge the Interface-Necessity No-Go and physical interface passport into DU-PAPER-007; use the resource-accounted capability slice as a hostile control for DU-PAPER-010; do not create a standalone measurement-theory paper.",
+    "result": "An exact U(1)-conserving source-reference-pointer-archive model shows that conservation plus any symmetry-invariant apparatus-asymmetry budget selects only a measurement orbit. Reference orientation programs the axis, full selective-map tomography identifies it, and the task advantage is paid for by consumed reference coherence and archive fidelity. Primary WAY, asymmetry, no-programming, interferometry, and instrument-tomography literature absorbs the physics.",
+    "result_ref": "explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md",
+    "status": "completed_absorbed_interface_necessity_no_go",
+    "stop": "Do not run another fitted finite-QND or finite-reference selector. The next foundational paper swing is an implementation-complete physical interventional-sufficiency arm."
+  },
   "factory_proposal_batch_if_separately_authorized": {
     "merge_review_proposals": [],
     "standalone_proposals": []
@@ -145,7 +153,7 @@
     "two_to_three_source_swings": "Two or three distinct source-owned theorem, transfer, empirical, or novelty jobs remain.",
     "unknown_until_clarified": "A bounded clarification must first determine what the paper would actually claim."
   },
-  "portfolio_version": "1.1",
+  "portfolio_version": "1.2",
   "seed_status_definitions": {
     "already_factory_post_ready": "The Factory already records the paper package as post-ready.",
     "already_factory_seeded": "The Factory already holds the cheap seed; do not duplicate it.",
@@ -366,14 +374,16 @@
     {
       "audience": "Formal methods, quantum processes, system identification, and foundations",
       "contribution": "A proof-carrying factorization, minimal-refinement, finite-remainder, or incomplete-contract trichotomy for certified causal histories.",
-      "current_grade": "Exact finite closure/witness baselines plus a viable exact-rational proof-carrying compiler; the same typed kernel ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance. Physical formation and transfer remain open.",
+      "current_grade": "Exact finite closure/witness baselines plus a viable exact-rational proof-carrying compiler; the same typed kernel ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance. A U(1)-conserving selector gate now classifies the complete minimum interface premises and closes scalar conservation/asymmetry selection as an absorbed route. Implementation-complete physical sufficiency and transfer remain open.",
       "evidence_refs": [
         "explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md",
         "explorations/cross-repo-hardening-integration-2026-07-24.md",
         "explorations/noninvertible-history-certificate-compiler-pilot-2026-07-24.md",
+        "explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md",
         "tests/du_council_orthodox_factorization_witness_probe.py",
         "tests/du_council_wild_frontier_interventional_closure_probe.py",
-        "tests/du_noninvertible_history_certificate_compiler_probe.py"
+        "tests/du_noninvertible_history_certificate_compiler_probe.py",
+        "tests/du_conservation_certified_record_probe.py"
       ],
       "factory_snapshot": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
       "factory_state": "existing_seed_unselected",
@@ -382,7 +392,7 @@
       "id": "DU-PAPER-007",
       "manuscript_distance": "two_to_three_source_swings",
       "manuscript_load_bearing_gaps": [
-        "Replace the quantum-like table with a complete routed physical process instrument, strongest implementation-complete null, calibration, and finite-shot gate.",
+        "Replace the quantum-like table with one independently calibrated complete physical process instrument, explicitly retaining its oriented reference, processor, route, environment, controller, detector, archive, invalid-trial, and provenance fields; add the strongest implementation-complete null and finite-shot gate.",
         "Replace the distributed table with a replayable authenticated DAG/BFT process under an explicit adversary and resource-vector order.",
         "Freeze the expanded physical refinement class before observing which candidate wins.",
         "Complete claim-specific novelty review against automata, Blackwell, process tensors, and system identification."
@@ -395,7 +405,7 @@
         "DU-PAPER-008",
         "DU-PAPER-012"
       ],
-      "recommended_action": "Preserve as the highest-upside DU flagship. Physicalize one compiler arm at a time; do not add more toy refinements or report a remainder unless the frozen physical class is exhausted. Factory custody remains unselected.",
+      "recommended_action": "Preserve as the highest-upside DU flagship. Physicalize one compiler arm at a time using an explicitly calibrated complete instrument; do not spend another swing deriving its axis from scalar conservation/asymmetry, add more toy refinements, or report a remainder unless the frozen physical class is exhausted. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
@@ -478,11 +488,13 @@
     {
       "audience": "Information thermodynamics, distributed systems, quantum information, and decision theory",
       "contribution": "A matched-resource necessary-and-sufficient law for when stronger finality creates strict bounded-risk capability and what support, work, trust, or coherent optionality it consumes.",
-      "current_grade": "Prospective HC-DU-035B/037 theorem family; exact capability typing and resource controls exist, but no physically formed distinction is yet available to price.",
+      "current_grade": "Prospective HC-DU-035B/037 theorem family. Exact capability typing and resource controls now include a formed U(1)-conserving instrument slice: aligned reference raises forced-guess success from 1/2 to 3/4, but consumed reference coherence, orientation, and archive fidelity fully account for the gain. No finality-specific residual or cross-platform law exists.",
       "evidence_refs": [
         "docs/certified-causal-reality-research-program.md",
         "lab/process/cross-repo-hardening-control-contract.md",
-        "explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md"
+        "explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md",
+        "explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md",
+        "tests/du_conservation_certified_record_probe.py"
       ],
       "factory_snapshot": "No Factory seed found.",
       "factory_state": "unselected",
@@ -491,7 +503,7 @@
       "id": "DU-PAPER-010",
       "manuscript_distance": "two_to_three_source_swings",
       "manuscript_load_bearing_gaps": [
-        "Freeze one action task and complete matched resource frame.",
+        "Choose a formed distinction whose task advantage is not already absorbed by oriented-reference, archive, controller, communication, verification, or ordinary measurement resources.",
         "Obtain a formed private or synergy-only distinction from DU-PAPER-007 or DU-PAPER-009.",
         "Prove a lower bound and matching construction across unlike fixtures.",
         "Beat ordinary Landauer, communication, and verification accounting."
@@ -504,7 +516,7 @@
         "DU-PAPER-009",
         "DU-PAPER-021"
       ],
-      "recommended_action": "Run one bounded claim-freezing swing before proposing a Factory seed.",
+      "recommended_action": "Keep the conservation capability slice as a hostile normalization control. Run one bounded claim-freezing swing only after DU-PAPER-007 or DU-PAPER-009 supplies a formed distinction with a candidate finality-specific residual.",
       "seed_status": "one_bounded_clarification",
       "seed_swings_estimate": "1",
       "seed_work_remaining": [
@@ -554,9 +566,10 @@
     {
       "audience": "Foundations of physics, quantum information, distributed systems, and philosophy of science",
       "contribution": "The umbrella Certified Causal Reality theory: determine when certified causal histories reconstruct observer-accessible reality and when a finite physical remainder is indispensable.",
-      "current_grade": "Program charter and open central conjecture; several exact finite antecedents, but physical record formation, cross-platform sufficiency, finality law, and geometry remain open.",
+      "current_grade": "Program charter and open central conjecture with several exact finite antecedents. The U(1)-conserving selector gate now classifies one minimal physical interface family and closes conservation plus scalar asymmetry as a unique-axis route, but implementation-complete physical sufficiency, cross-platform transfer, finality law, and geometry remain open.",
       "evidence_refs": [
         "docs/certified-causal-reality-research-program.md",
+        "explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md",
         "README.md"
       ],
       "factory_snapshot": "No Factory seed found.",
@@ -568,7 +581,7 @@
       "manuscript_load_bearing_gaps": [
         "Complete at least the interventional-sufficiency and public-finality theorem families.",
         "Carry one typed statement across quantum and distributed fixtures without refitting.",
-        "Select or classify physical record formation and interface.",
+        "Extend the scoped conservation/orientation interface classification or establish sufficiency/remainder for one implementation-complete physical instrument.",
         "Complete a broad novelty and ontology-license audit."
       ],
       "manuscript_swings_estimate": "4+",

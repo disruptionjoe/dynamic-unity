@@ -118,29 +118,50 @@ What *has* been earned is a strong finite control stack:
   effective source-aligned Lüders instrument orbit while leaving the
   microscopic apparatus and independently justified physical premises open
   ([result](explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md);
-  [probe](tests/du_robust_physical_instrument_selection_probe.py)).
+  [probe](tests/du_robust_physical_instrument_selection_probe.py)); and
+- one explicit \(U(1)\)-conserving source--reference--pointer--archive model
+  proving that conservation and a symmetry-invariant asymmetry budget select
+  only a measurement orbit: the oriented apparatus reference supplies the
+  record axis, complete tomography identifies the implemented instrument, and
+  its capability delta is paid for by consumed reference coherence and
+  archive quality
+  ([result](explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md);
+  [probe](tests/du_conservation_certified_record_probe.py)).
 
 ### The live bottleneck
 
-The highest-value immediate build is to lift that finite effective selector
-into one laboratory-motivated model with:
+The conservation lift returned an Interface-Necessity No-Go and a
+minimal-structure classification. Additive conservation constrains feasible
+measurements; apparatus asymmetry prices their accuracy; an oriented reference
+programs the axis. Another finite selector fit is no longer the highest-value
+move.
 
-1. an independently justified additive total-conservation law;
-2. a calibrated apparatus-asymmetry resource;
-3. a declared perturbation ball, including its noise model;
-4. complete selective-instrument and archive tomography;
-5. a frozen decoder, intervention set, and matched resource ledger; and
-6. held-out aligned, conjugate, degeneracy, and continuation controls.
+The highest-value immediate build is now the implementation-complete physical
+arm of **Interventional Record Sufficiency**:
 
-The acceptable outcomes are a scoped physical Record Selection Theorem, an
-Interface-Necessity No-Go, or a classification of the minimal extra
-structure. A standard-quantum explanation is a valuable result. It is not new
-physics.
+1. choose one independently calibrated physical process instrument and state
+   its source, reference, coupling, pointer, archive, decoder, and action
+   premises without claiming they were derived;
+2. retain complete route, environment, controller, detector, invalid-trial,
+   and provenance fields;
+3. reconstruct the complete selective instrument with uncertainty rather than
+   a POVM or terminal distribution alone;
+4. freeze the candidate record and admissible physical-refinement class before
+   seeing the verdict;
+5. run factorization or return a finite separating intervention;
+6. give the witness a finite-shot calibration and the strongest
+   implementation-complete null; and
+7. report factorization, minimal refinement, candidate remainder, or
+   incomplete contract without ontological inflation.
+
+This is the nearest route to strengthening `DU-PAPER-007`. A physical process
+may enter as an explicitly calibrated premise; the research question is
+whether its certified causal record is interventionally sufficient, not
+whether scalar conservation resources secretly choose its interface.
 
 Regional finality, capability pricing, and time/geometry reconstruction remain
-important, but their physical claims should consume a record interface that
-has survived this selection step. Their mathematical and representation work
-may proceed earlier at the matching grade.
+important, but physical claims should consume an implementation-complete
+instrument and preserve its full provenance and resource passport.
 
 ## Dependency lanes
 
@@ -226,7 +247,7 @@ none is automatically superior. The artifact must label which one it uses.
 | Proposed work | Lane | Typical channel |
 |---|---|---|
 | Map QFT, records, observers, and spacetime without claiming derivation | 2 | `CH-SYN`, `CH-COLLIDE` |
-| Derive a record instrument from conservation and apparatus resources | 3 | `CH-FORMAL`, `CH-MODEL`, `CH-EMPIRICAL` |
+| Characterize or physically calibrate a complete record instrument and its necessary premises | 3 | `CH-FORMAL`, `CH-MODEL`, `CH-EMPIRICAL`, `CH-COLLIDE` |
 | Test whether a certificate changes an observer's action set at matched cost | 4 | `CH-FORMAL`, `CH-MODEL` |
 | Prove when regional record networks safely compose | 5 | `CH-FORMAL`, `CH-MODEL` |
 | Reconstruct proper time or geometry with refinement invariance | 6 | `CH-FORMAL`, `CH-MODEL` |

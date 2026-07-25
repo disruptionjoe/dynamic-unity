@@ -189,9 +189,10 @@ routing authority.
 - **Lane 2:** forward representation and coherence—build the full typed
   physical picture, preserve assumptions and grades, and expose seams.
 - **Lane 3:** physical record formation and selection—derive or delimit
-  record instruments, interfaces, archives, and robustness. Its present lead
-  build is the laboratory total-conservation/apparatus-asymmetry lift of the
-  finite effective instrument selector.
+  record instruments, interfaces, archives, and robustness. The completed
+  conservation/asymmetry gate selects only an instrument orbit; its present
+  lead build is a reusable physical-interface passport for one independently
+  calibrated implementation-complete process instrument.
 - **Lane 4:** observer access, certification, and capability—freeze physical
   observers, boundaries, interventions, tasks, risks, and matched resources.
 - **Lane 5:** regional finality and recursive composition—establish when
@@ -233,7 +234,8 @@ Before acting, a new agent must be able to state:
 
 1. the ratified Purpose and North Star;
 2. the honest current evidence boundary;
-3. the live physical instrument-selection bottleneck;
+3. the live implementation-complete physical interventional-sufficiency
+   bottleneck;
 4. the owning dependency lane and selected work channel(s);
 5. the maximum evidentiary grade the swing can earn; and
 6. the strongest absorber, finite falsifier, stop condition, and durable

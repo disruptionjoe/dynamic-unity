@@ -573,10 +573,21 @@ information-preserving algebras, hybrid classical/quantum operator codes,
 complementary-channel structure, decoherence, character orthogonality, and
 no-broadcasting make the finite abelian theorem components **KNOWN** or direct
 **SPECIALIZATIONS**. Its useful new program result is the explicit separation
-  between a selected fixed center and coherently accessible
-  complementary-environment evidence. General channels, approximate
-  robustness, locality, physical
-instrument selection, and public objectivity remain search-incomplete.
+between a selected fixed center and coherently accessible
+complementary-environment evidence. General channels, approximate robustness,
+locality, physical instrument selection, and public objectivity remain
+search-incomplete.
+
+The \(U(1)\)-conserving instrument lift now closes one proposed physical
+selection route. Ozawa's quantitative WAY result, asymmetry-resource and
+no-programming accounts, explicit finite quantum references, interferometric
+measurement models, and complete instrument tomography absorb its components.
+The exact DU control proves that additive conservation plus any
+symmetry-invariant apparatus-asymmetry budget selects at most a measurement
+orbit. An oriented reference token programs the axis, and complete tomography
+identifies rather than causally selects the implemented instrument. This is a
+useful `HC-DU-033` Interface-Necessity No-Go and minimal-structure
+classification, not a new measurement theorem or paper.
 
 The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`, the physical
 formation/transfer portion of `HC-DU-036B`, and `HC-DU-037..040` retain only
@@ -650,6 +661,32 @@ history disclosure are distinct. The probe passes `24/24`. These are known
 commutant, quantum-instrument, and eraser components, not an
 implementation-complete proper-time instrument or a new physical law. See
 `../explorations/record-formation-certified-composition-primary-2026-07-25.md`.
+
+**Executed additive-conservation selector gate — `HC-DU-033/037`.** One
+source qubit and one bounded phase-reference qubit are measured by a
+four-outcome joint PVM commuting exactly with their additive \(U(1)\) charge.
+A charge-intertwining isometry writes the outcome to an explicit pointer and
+archive. The complete selective source instrument is informationally
+tomographed, and its accessible distinction obeys
+
+\[
+D_{\rm access}
+=\frac12(1-2q)v
+|\sin(2\beta)\cos(\phi-\alpha)|.
+\]
+
+A declared perturbation ball has a positive exact floor and passes `1000`
+off-grid controls. However, phase-rotated apparatus references with identical
+charge distributions, charge variance, purity, asymmetry magnitude, phase
+QFI, dimensions, processor, archive, and decoder implement different
+equatorial record axes. Conservation constrains the processor class,
+asymmetry magnitude prices accuracy, and reference orientation programs the
+instrument. The aligned capability gain is exactly charged to consumed
+reference coherence and archive fidelity. The probe passes `21/21`.
+WAY/asymmetry/no-programming/interferometry/instrument-tomography terrain
+absorbs the physics. Further fitted finite-reference selection is stopped.
+See
+`../explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md`.
 
 The `HC-DU-033A` wave also proved a useful ordering control:
 
@@ -1230,8 +1267,9 @@ Only after the preceding dependencies:
         |
 1c. HC-DU-033/034B effective two-history algebra selection and
     certificate-interface nonselection [COMPLETED SCOPED CONTROL]
-    HC-DU-033 physical conditions that shrink the Pauli stability--formation rectangle
-    and form a durable selective instrument [OPEN]
+    HC-DU-033 robust binary-QND instrument-orbit selection [COMPLETED SCOPED]
+    HC-DU-033 U(1) conservation/asymmetry selector gate [COMPLETED NO-GO]
+    scalar asymmetry budget selects a unique record orientation [CLOSED]
         |
 2. HC-DU-034 multi-time certification
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
@@ -1258,8 +1296,8 @@ Only after the preceding dependencies:
 3b. HC-DU-036B finite history-certificate compiler [COMPLETED PILOT]
     HC-DU-036B stochastic matrix/protocol transfer [COMPLETED SCOPED PILOT]
     HC-DU-034B certificate-without-run-history-disclosure control [COMPLETED SCOPED]
-    HC-DU-033/034B robust physical interface selection, proper-time implementation
-    and implementation-complete calibrated null [OPEN]
+    implementation-complete physical interventional-sufficiency arm with full
+    selective instrument, provenance and calibrated finite-shot null [OPEN]
         |
 4. HC-DU-037 capability, optionality, and resource results
    HC-DU-032 observer-individuation overlay
@@ -1465,25 +1503,34 @@ constitute a standing scientific work lane.
    coalition-common facts; and
 5. exposed the exact noncommutation of local hardening and later pooling.
 
-**Remaining physical kernel:**
+**Executed physical-selector boundary and remaining kernel:**
 
-1. define record formation and provenance before the readout cut;
-2. justify the physical symmetry, cadence, interface, observer, and coalition
-   channels independently of the desired observable;
-3. lift from Set partitions to equivariant/noncommutative algebras and
-   structured-process congruences;
-4. treat noisy, disturbing, correlated, and adversarial access directly; and
-5. return a physical selection theorem, an interface-necessity no-go, or a
-   classified minimal additional-structure family.
+1. the robust binary-QND control selected an effective instrument orbit only
+   relative to supplied source, action, coupling, archive, decoder, and
+   resource classes;
+2. the \(U(1)\)-conserving lift proved that conservation and a
+   symmetry-invariant apparatus-asymmetry budget still select only an orbit;
+3. the minimal physical contract now requires an oriented reference or
+   symmetry-breaking preparation, fixed processor, pointer/archive, decoder
+   and selective-map access;
+4. the universal question of what dynamics selects those premises remains
+   open, but further fitted finite-QND or finite-reference models are stopped;
+   and
+5. near-term paper work should accept one independently calibrated complete
+   physical instrument as an explicit premise and test interventional record
+   sufficiency under noisy, disturbing, correlated, and adversarial access.
 
 The effective proper-time control now proves that a physical controlled
 interaction can select its nondemolition history algebra while leaving the
-selective certificate instrument undetermined. The live problem is therefore
-not bare algebra selection. It is deriving the pointer/readout/archive
-structure that forms a durable proposition-typed certificate.
+selective certificate instrument undetermined. The conservation gate further
+proves that a physical restriction and scalar resource amount still do not
+select its orientation. The live paper-closing problem is therefore not bare
+algebra or axis selection. It is deciding whether the complete causal record
+of an independently calibrated physical process instrument is
+interventionally sufficient.
 
-Do not enumerate more bare partitions or build another recorder merely
-because it is covariant.
+Do not enumerate more bare partitions, fitted QND instruments, or finite
+reference states merely because they obey the conservation law.
 
 ### Phase 2 — `HC-DU-035` Quorum Objectivity flagship
 
@@ -1722,11 +1769,17 @@ ROBUST BINARY-QND SOURCE-ACTION ALIGNMENT BOUND EXACT; 31/31
 FULL BLOCK ACTION SELECTS LUDERS CONTINUATION INSIDE UNITARY-TWIST CLASS
 EFFECTIVE INSTRUMENT ORBIT SELECTED; UNIQUE MICROSCOPIC DILATION NOT SELECTED
 ARCHIVE ACCESS AND COHERENT ROUTE CONTROLS EXACTLY ABSORBED BY STANDARD QUANTUM THEORY
+U1 ADDITIVE-CONSERVATION SOURCE--REFERENCE--POINTER--ARCHIVE MODEL EXACT; 21/21
+COMPLETE SELECTIVE CHOI TOMOGRAPHY AND PERTURBATION-BALL FLOOR EXACT
+CONSERVATION PLUS SYMMETRY-INVARIANT ASYMMETRY BUDGET SELECTS ONLY AN ORBIT
+ORIENTED REFERENCE PROGRAMS THE RECORD AXIS AND IS CONSUMED
+CAPABILITY DELTA ABSORBED BY REFERENCE-RESOURCE AND ARCHIVE ACCOUNTING
+FURTHER FITTED FINITE SELECTOR WORK STOPPED
 HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
 NO SIZE-FREE FINITE SUFFICIENCY HORIZON
 SEPARATING WITNESS MEANS CANDIDATE-RECORD INSUFFICIENCY, NOT AUTOMATIC ONTOLOGY
-LABORATORY TOTAL-CONSERVATION, APPARATUS-ASYMMETRY AND PERTURBATION-BALL SELECTION OPEN
+IMPLEMENTATION-COMPLETE PHYSICAL INTERVENTIONAL SUFFICIENCY AND FINITE-SHOT NULL OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
 PHYSICAL / ROBUST / LARGE-SCALE INTERVENTIONAL SUFFICIENCY OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN

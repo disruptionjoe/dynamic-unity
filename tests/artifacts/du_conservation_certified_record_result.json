@@ -1,0 +1,180 @@
+{
+  "claim_grade": "EXACT FINITE U1-CONSERVING MODEL / STANDARD WAY-ASYMMETRY SPECIALIZATION / NO NEW PHYSICS, THEOREM ID, OR PREDICTION",
+  "exact_relations": {
+    "accessible_total_variation": "0.5*(1-2*q)*v*abs(sin(2*beta)*cos(phi-alpha))",
+    "forced_guess_success": "0.5+0.25*(1-2*q)*v*abs(sin(2*beta)*cos(phi-alpha))",
+    "perturbation_floor": 0.30736975904
+  },
+  "receipt": {
+    "all_passed": true,
+    "checks": [
+      {
+        "detail": "sum_error=0.000e+00; orthogonality_error=1.233e-32",
+        "name": "joint_pvm_is_complete_and_orthogonal",
+        "passed": true
+      },
+      {
+        "detail": "max_commutator_error=0.000e+00",
+        "name": "every_joint_record_projector_conserves_additive_charge",
+        "passed": true
+      },
+      {
+        "detail": "isometry_error=0.000e+00",
+        "name": "pointer_archive_formation_is_an_isometry",
+        "passed": true
+      },
+      {
+        "detail": "intertwining_error=0.000e+00",
+        "name": "pointer_archive_formation_intertwines_charge",
+        "passed": true
+      },
+      {
+        "detail": "max_effect_error=5.551e-17",
+        "name": "balanced_induced_povm_matches_exact_formula",
+        "passed": true
+      },
+      {
+        "detail": "effect_sum_error=0.000e+00",
+        "name": "induced_source_povm_is_complete",
+        "passed": true
+      },
+      {
+        "detail": "minimum_choi_eigenvalue=0.000e+00",
+        "name": "every_selective_source_map_is_completely_positive",
+        "passed": true
+      },
+      {
+        "detail": "max_choi_reconstruction_error=7.850e-17",
+        "name": "informationally_complete_instrument_tomography_recovers_all_choi_maps",
+        "passed": true
+      },
+      {
+        "detail": "max_distribution_error=2.220e-16",
+        "name": "archive_distribution_surface_matches_exact_formula",
+        "passed": true
+      },
+      {
+        "detail": "max_total_variation_error=1.665e-16",
+        "name": "accessible_distinguishability_matches_exact_formula",
+        "passed": true
+      },
+      {
+        "detail": "max_guess_success_error=1.110e-16",
+        "name": "forced_guess_capability_matches_exact_formula",
+        "passed": true
+      },
+      {
+        "detail": "floor=0.307369759040; boundary=0.307369759040",
+        "name": "declared_perturbation_ball_has_exact_positive_floor",
+        "passed": true
+      },
+      {
+        "detail": "1000_case_max_error=2.776e-16",
+        "name": "off_grid_perturbation_stress_matches_surface",
+        "passed": true
+      },
+      {
+        "detail": "minimum_floor_margin=1.158e-02",
+        "name": "off_grid_perturbation_stress_respects_floor",
+        "passed": true
+      },
+      {
+        "detail": "metrics={'charge_mean': 0.5, 'charge_variance': 0.25, 'purity': 1.0, 'u1_phase_qfi': 1.0, 'trace_asymmetry_to_twirl': 0.5}",
+        "name": "phase_rotated_references_have_identical_scalar_resource_budget",
+        "passed": true
+      },
+      {
+        "detail": "x_axis_error=2.220e-16; y_axis_error=2.220e-16; axis_trace_distance=1.414213562373",
+        "name": "reference_orientation_rotates_effective_record_axis",
+        "passed": true
+      },
+      {
+        "detail": "tv=0.500000000000; forced_success=0.750000000000; coverage=0.500000000000; conditional_success=1.000000000000",
+        "name": "aligned_oriented_reference_enables_strict_capability",
+        "passed": true
+      },
+      {
+        "detail": "tv=0.000e+00; forced_success=0.500000000000",
+        "name": "twirled_reference_removes_equatorial_capability",
+        "passed": true
+      },
+      {
+        "detail": "tv=2.776e-17; scalar_metrics={'charge_mean': 0.5, 'charge_variance': 0.25, 'purity': 1.0, 'u1_phase_qfi': 1.0, 'trace_asymmetry_to_twirl': 0.5}",
+        "name": "equal_asymmetry_with_quarter_turn_orientation_removes_target_capability",
+        "passed": true
+      },
+      {
+        "detail": "pointer_tv=0.500000000000; archive_tv=0.330000000000; factor=0.660000000000",
+        "name": "archive_noise_prices_observer_access_separately",
+        "passed": true
+      },
+      {
+        "detail": "post_reference_twirl_error=0.000e+00; consumed_trace_asymmetry=0.500000000000",
+        "name": "oriented_reference_token_is_consumed_by_record_formation",
+        "passed": true
+      }
+    ],
+    "passed": 21,
+    "total": 21
+  },
+  "resource_and_capability": {
+    "aligned_conclusive_coverage": 0.5,
+    "aligned_conditional_success": 1.0,
+    "aligned_forced_guess_success": 0.75,
+    "aligned_reference_metrics": {
+      "charge_mean": 0.5,
+      "charge_variance": 0.25,
+      "purity": 1.0,
+      "trace_asymmetry_to_twirl": 0.5,
+      "u1_phase_qfi": 1.0
+    },
+    "consumed_trace_asymmetry": 0.5,
+    "interpretation": "The strict capability delta is paid for by an oriented reference token and archive fidelity. It is not a free consequence of conservation, record finality, or observer access.",
+    "quarter_turn_forced_guess_success": 0.5,
+    "quarter_turn_reference_metrics": {
+      "charge_mean": 0.5,
+      "charge_variance": 0.25,
+      "purity": 1.0,
+      "trace_asymmetry_to_twirl": 0.5,
+      "u1_phase_qfi": 1.0
+    },
+    "twirled_forced_guess_success": 0.5
+  },
+  "run_id": "RUN-20260725-140945-conservation-certified-record",
+  "scientific_verdict": {
+    "absorber": "Wigner-Araki-Yanase constraints, quantum reference frames, asymmetry resource theory, no-programming, state discrimination, and standard instrument tomography.",
+    "branch_disposition": "Close further finite selector fitting. Conservation constrains the feasible class; oriented apparatus state programs the axis; tomography identifies but does not causally select the instrument.",
+    "minimal_extra_structure": [
+      "an oriented reference token or equivalent symmetry-breaking preparation",
+      "a fixed symmetric processor/coupling architecture",
+      "a pointer and durable archive boundary",
+      "a decoder and action task",
+      "complete selective-map access when continuation matters"
+    ],
+    "no_go": "Additive conservation and any symmetry-invariant scalar asymmetry budget select only a measurement orbit: phase-rotated apparatus states have identical budgets but implement different source record axes.",
+    "positive": "An oriented bounded reference plus one fixed symmetric processor forms a robust, completely tomographable equatorial record instrument."
+  },
+  "status": "PASS_INTERFACE_NECESSITY_NO_GO_AND_STANDARD_CAPABILITY_SLICE",
+  "stress_test": {
+    "cases": 1000,
+    "max_surface_error": 2.7755575615628914e-16,
+    "minimum_floor_margin": 0.011582873145031036,
+    "seed": 240725
+  },
+  "tomography": {
+    "max_choi_reconstruction_error": 7.850462293418876e-17,
+    "minimum_choi_eigenvalue": 0.0,
+    "preparations": [
+      "|0>",
+      "|1>",
+      "|+>",
+      "|+i>"
+    ],
+    "selective_outcomes": [
+      "0",
+      "+",
+      "-",
+      "2"
+    ]
+  }
+}

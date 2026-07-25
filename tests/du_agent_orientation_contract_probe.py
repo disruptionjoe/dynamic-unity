@@ -293,11 +293,11 @@ def run() -> dict[str, object]:
     )
 
     bottleneck_terms = (
-        "total-conservation",
-        "apparatus-asymmetry",
-        "perturbation ball",
-        "instrument",
-        "tomography",
+        "implementation-complete",
+        "physical process",
+        "interventional",
+        "selective instrument",
+        "finite-shot",
     )
     for surface in ("start", "lanes", "program"):
         missing_terms = [
@@ -306,7 +306,10 @@ def run() -> dict[str, object]:
         check(
             f"{surface}_bottleneck",
             not missing_terms,
-            f"{surface} carries the physical-selector bottleneck; missing={missing_terms}",
+            (
+                f"{surface} carries the implementation-complete physical "
+                f"interventional-sufficiency bottleneck; missing={missing_terms}"
+            ),
         )
 
     check(

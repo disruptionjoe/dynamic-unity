@@ -3,7 +3,7 @@ title: "Known challenges and adversaries — Certified Causal Reality terrain"
 status: active_research
 doc_type: reference
 created: 2026-07-21
-revised: 2026-07-24
+revised: 2026-07-25
 stance: "These are adversarial terrain and cheap failure modes, not an administrative verification lane. A class-relative no-go closes its declared class, not automatically the concept."
 ---
 
@@ -39,7 +39,14 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
 3. **Interface underselection.** *Objection:* covariance, durability, or
    predicate-specific copyability admits many record laws and bases. *Way
    through:* derive a selection theorem, prove an interface-necessity no-go, or
-   declare and charge the additional physical interface.
+   declare and charge the additional physical interface. The exact
+   conservation gate adds a specific trap: an additive conservation law plus
+   any symmetry-invariant scalar asymmetry budget selects at most an orbit.
+   Symmetry-related apparatus states can have identical resource values while
+   programming different record axes. Track the oriented reference token or
+   equivalent symmetry-breaking preparation separately from the amount of
+   asymmetry, and do not confuse complete instrument tomography with a causal
+   explanation of why that orientation was selected.
 
 4. **Endpoint/history substitution.** *Objection:* equal terminal states, mean
    shifts, dephasing, visibility loss, or a final database snapshot do not

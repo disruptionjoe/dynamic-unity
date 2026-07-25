@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 39
+manifest_revision: 40
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -162,8 +162,8 @@ lanes:
   - '7'
   current_objective: >-
     Maintain the independently selected record quotient, complete intervention/resource boundary
-    and factorization-or-witness contract while the physical selector is lifted beyond its
-    frozen finite QND family.
+    and factorization-or-witness contract while one implementation-complete calibrated physical
+    instrument replaces the exhausted finite-selector route.
   success_signal: >-
     A nontrivial bidirectional reconstruction, necessary-and-sufficient theorem, operational
     duality or finite class-relative physical remainder with independently fixed equivalence and
@@ -222,27 +222,28 @@ lanes:
   depends_on:
   - '2'
   current_objective: >-
-    Lift the revision-38 effective instrument-orbit selector to a laboratory-motivated additive
-    total-conservation model with calibrated apparatus asymmetry, a declared perturbation ball,
-    complete selective-instrument and archive tomography, frozen decoder and matched held-out
-    controls.
+    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go and build a
+    reusable physical-interface passport for one independently calibrated process instrument,
+    with oriented reference, processor, pointer, archive, decoder, selective maps, uncertainty
+    and provenance explicit.
   success_signal: >-
-    A scoped physical Record Selection Theorem, an Interface-Necessity No-Go or a classified
-    minimal additional-structure family that survives the declared perturbation and tomography
-    contract.
+    An implementation-complete instrument whose physical premises and unidentifiable freedoms
+    are explicit enough for interventional sufficiency testing, or a sharper necessity/no-go
+    showing which premise cannot be removed.
   default_channel_ids:
   - CH-FORMAL
   - CH-MODEL
   - CH-EMPIRICAL
   - CH-COLLIDE
   canonical_refs:
+  - explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md
+  - tests/du_conservation_certified_record_probe.py
   - explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md
-  - tests/du_robust_physical_instrument_selection_probe.py
   - docs/certified-causal-reality-research-program.md
   do_not: >-
-    Do not enumerate more supplied PVMs or fitted dephasing families, equate a stable algebra
-    with a formed accessible record, or claim unique microscopic dilation from an effective
-    instrument.
+    Do not run another fitted finite-QND or finite-reference selector, infer orientation from a
+    symmetry-invariant resource amount, equate tomography with causal selection, or claim a
+    unique microscopic dilation from an effective instrument.
 - id: '4'
   label: Lane 4
   ordinal: 4
@@ -259,9 +260,10 @@ lanes:
     Contract and countermodel work may proceed before Lane 3 closes; physical capability or
     finality claims must consume an independently formed record interface.
   current_objective: >-
-    Freeze the observer/access/task/loss/readout/decoder/risk/resource comparison contract and
-    prepare the first formed-record capability assay without treating precision, possession,
-    readout or redundancy as capability.
+    Preserve the exact oriented-reference capability slice as an ordinary-resource absorber,
+    freeze the observer/access/task/loss/readout/decoder/risk/resource comparison contract, and
+    wait for a formed distinction with a candidate finality-specific residual before promoting a
+    stronger capability law.
   success_signal: >-
     A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
     counterexample showing exactly which access or resource was missing.
@@ -368,9 +370,10 @@ lanes:
     Negative, boundary and representation papers may mature before every positive dependency.
     Each package declares exactly which upstream results it consumes.
   current_objective: >-
-    Keep the complete paper-opportunity portfolio moving while concentrating new physical
-    prediction work on results that survive interface completion, matched resources and the
-    strongest ordinary-physics absorber.
+    Keep the complete paper-opportunity portfolio moving while concentrating the foundational
+    swing on DU-PAPER-007: an implementation-complete physical process instrument, frozen
+    physical-refinement class, full provenance, finite separating intervention and calibrated
+    finite-shot null.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -434,8 +437,10 @@ active_hardening_program_note: >-
   scalar fixed algebra and finite-time Z signal coexist with no, partial or exact environment
   records. A constructive family fills the full environment-formation interval at every fixed
   0<s<1. Revision 38 supplies one exact source-action bound inside a frozen binary QND family;
-  an independently motivated laboratory condition that survives a broader perturbation class
-  remains open.
+  revision 40 lifts it to an exact U(1)-conserving formed instrument and closes conservation plus
+  symmetry-invariant scalar asymmetry as a unique-axis selector. An oriented reference,
+  processor, pointer/archive, decoder/action and selective access are the classified minimum
+  premises in that family.
   HC-DU-035A now closes the static layered
   reconstruction/finality/capability threshold controls and rejects one universal objectivity
   threshold. HC-DU-034A now supplies an exact signed all-port coherent-history assay
@@ -534,6 +539,18 @@ active_hardening_program_note: >-
   and apparatus-asymmetry contract, perturbation-ball robustness, complete instrument
   tomography, and a frozen archive/decoder. Component mathematics is known; no theorem ID,
   physical law, prediction, ontology, claim or paper state changes.
+  Revision 39 ratifies the repository Purpose, Vision, Mission, North Star, dependency lanes and
+  cross-lane work channels and installs a deterministic cold-start orientation contract.
+  Revision 40 executes the conservation-to-certified-record gate. A four-outcome joint PVM
+  commutes with additive U(1) charge, a charge-intertwining isometry writes a pointer and
+  archive, all selective Choi maps are tomographically recovered, and the exact perturbation
+  surface passes 21/21 checks plus 1000 off-grid cases. Phase-rotated references with identical
+  charge and asymmetry budgets program different equatorial record axes. The aligned task gain
+  is exactly charged to consumed reference coherence and archive fidelity. WAY, asymmetry,
+  no-programming, interferometry and instrument-tomography literature absorb the result.
+  Further fitted finite-selector work stops; the next foundational paper swing is an
+  implementation-complete physical interventional-sufficiency arm for DU-PAPER-007. No theorem
+  ID, law, prediction, ontology, new seed, Factory priority or production state changes.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -2023,6 +2040,47 @@ robust_physical_instrument_selection:
     finite-control/general-open grade. Adds no theorem ID, hypothesis ID, concept ID, physical
     law, prediction, ontology, paper priority, Factory state, draft, submission, publication or
     external action.
+conservation_certified_record_gate:
+  status: completed_absorbed_interface_necessity_no_go
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: All right, go ahead and run that.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-140945-conservation-certified-record/run-plan.md
+  result_ref: >-
+    explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md
+  probe_ref: tests/du_conservation_certified_record_probe.py
+  artifact_ref: tests/artifacts/du_conservation_certified_record_result.json
+  artifact_sha256: bd9c736317ec0bc53c393a980ba6ffed6ed919150a866480b52757933266b237
+  exact_physical_result: >-
+    The 21/21 finite probe constructs a four-outcome joint PVM commuting exactly with additive
+    U(1) source-plus-reference charge and a charge-intertwining isometry that writes orthogonal
+    pointer and archive labels. All four selective source Choi maps are completely positive and
+    informationally reconstructed with maximum error 7.850e-17. Accessible distinction is
+    0.5*(1-2*q)*v*abs(sin(2*beta)*cos(phi-alpha)); the declared perturbation ball has exact floor
+    0.307369759040 and 1000 off-grid cases respect it.
+  selector_no_go: >-
+    Phase-rotated reference states have identical charge mean and variance, purity, phase QFI,
+    trace-asymmetry magnitude, dimension, symmetric processor, pointer, archive, decoder and
+    resource counts while programming different equatorial record axes. Additive conservation
+    plus a symmetry-invariant asymmetry budget therefore selects at most a measurement orbit.
+    An oriented reference token or equivalent symmetry-breaking preparation is necessary in this
+    class.
+  capability_result: >-
+    On the frozen equatorial sign task, an aligned pure reference gives forced-guess success 3/4,
+    conclusive coverage 1/2 and conditional success one. A twirled or quarter-turn reference gives
+    forced-guess success 1/2. The measurement consumes the reference's trace-asymmetry and archive
+    flips separately multiply visible distinction by 1-2*q. This is standard reference-resource
+    accounting, not a finality-capability law.
+  collision_and_stop: >-
+    WAY, asymmetry resource theory, quantum reference frames, no-programming, constrained state
+    discrimination, interferometry and instrument tomography absorb the physics. Stop further
+    fitted finite-QND or finite-reference selector work. The next foundational paper swing is an
+    implementation-complete physical interventional-sufficiency arm for DU-PAPER-007.
+  ledger_disposition: >-
+    Extends HC-DU-033, HC-DU-037 and CONCEPT-DU-004 at exact finite-control and
+    Interface-Necessity-No-Go grade. Adds no theorem ID, hypothesis ID, concept ID, physical law,
+    prediction, ontology, standalone paper, Factory priority or production state.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -3359,3 +3417,18 @@ provenance:
     entrypoint consistency and local pointers. No scientific claim, theorem, hypothesis,
     concept, prediction, ontology, paper priority, Factory state, draft, submission, publication
     or external action changed.
+  rev40_note: >-
+    2026-07-25 (Joe direct chat: "All right, go ahead and run that"): executed the
+    conservation-to-certified-record flagship gate. A four-outcome joint PVM and explicit
+    pointer/archive formation isometry conserve additive U(1) charge; all selective source Choi
+    maps are informationally reconstructed; the exact distinction/capability surface and a
+    positive perturbation-ball floor pass 21/21 checks and 1000 off-grid cases. Phase-rotated
+    references with identical symmetry-invariant resource budgets program different equatorial
+    record axes. Conservation therefore constrains a feasible orbit, asymmetry magnitude prices
+    accuracy and oriented reference state supplies the axis. The aligned task gain is fully
+    charged to consumed reference coherence and archive fidelity. Primary WAY, asymmetry,
+    no-programming, interferometry and instrument-tomography literature absorb the physics.
+    Further fitted finite-selector work stops; the next foundational paper target is an
+    implementation-complete physical interventional-sufficiency arm for DU-PAPER-007. No theorem
+    ID, hypothesis, concept ID, law, prediction, ontology, standalone paper, Factory priority,
+    production state, submission, publication or external action changed.

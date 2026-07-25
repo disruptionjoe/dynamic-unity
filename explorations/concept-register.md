@@ -656,14 +656,30 @@ resolution-stable intervention role. No claim is banked or seeded. See
   proposition, and history disclosure are distinct. The component
   mathematics is known and the laboratory-level proper-time instrument
   remains open.
+- **Earned conservation/orientation boundary.** In an explicit
+  \(U(1)\)-conserving source--reference--pointer--archive instrument, additive
+  conservation, complete selective-map access, and a calibrated
+  symmetry-invariant asymmetry budget still select only a measurement orbit.
+  Phase-rotated reference states have the same charge statistics, purity,
+  asymmetry magnitude, phase QFI, processor, archive, and decoder while
+  programming different equatorial record axes. An oriented reference token,
+  fixed processor, pointer/archive, decoder/action, and selective access are
+  the classified minimum premises in this family. The aligned task advantage
+  is exactly accounted for by consumed reference coherence and archive
+  fidelity. WAY theory, quantum reference frames, no-programming, constrained
+  state discrimination, interferometry, and instrument tomography absorb the
+  physics. This is an Interface-Necessity No-Go, not evidence that records or
+  observers create physical reality.
 - **Immediate tests.**
-  1. `HC-DU-033/034B/035C/036B`: derive a physically formed sharp selective
-     instrument from independently frozen pointer/archive dynamics,
-     repeatability, nondisturbance, provenance, continuation, access, and
-     resources. Then prove or obstruct pairwise-to-global action-sufficient
-     descent against join-tree, cyclic, ordinary projective-quantum, and
-     almost-quantum/Specker controls.
-  2. `HC-DU-035B`: begin from a physically selected record instrument and
+  1. `HC-DU-034B/036B`: take one independently calibrated physical process
+     instrument as an explicit premise, retain its reference, route,
+     environment, controller, detector, invalid-trial and provenance fields,
+     reconstruct the complete selective maps with uncertainty, and decide
+     factorization, minimal refinement, candidate remainder or incomplete
+     contract under a frozen admissible physical-refinement class. Do not run
+     another fitted finite-QND or finite-reference selector.
+  2. `HC-DU-035B`: begin from an implementation-complete formed record
+     instrument with every supplied premise charged, and
      derive or refute a formation-to-finality resource bound for converting a
      synergy-only or private distinction into a fork-safe, independently
      accessible, approximately broadcastable, bounded-risk actionable fact.
@@ -682,8 +698,10 @@ resolution-stable intervention role. No claim is banked or seeded. See
   LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
   REJECTED / HC-DU-034A SIGNED HISTORY-ASSAY CONTROL EXACT / TWO-HISTORY QND
   ALGEBRA SELECTION AND CERTIFICATE-INTERFACE NONSELECTION EXACT AT EFFECTIVE
-  CONTROL GRADE / CERTIFICATE WITHOUT RUN-HISTORY DISCLOSURE EXACT IN THE
-  FROZEN FIXTURE / HC-DU-036A
+  CONTROL GRADE / U1 CONSERVATION PLUS SYMMETRY-INVARIANT ASYMMETRY BUDGET
+  SELECTS ONLY AN INSTRUMENT ORBIT / ORIENTED REFERENCE NECESSITY AND
+  RESOURCE-ACCOUNTED CAPABILITY EXACT IN THE FROZEN FAMILY / CERTIFICATE
+  WITHOUT RUN-HISTORY DISCLOSURE EXACT IN THE FROZEN FIXTURE / HC-DU-036A
   FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT / NO SIZE-FREE
   FINITE SUFFICIENCY HORIZON / PHYSICAL RECORD FORMATION AND INTERFACE
   SELECTION, ADMISSIBLE PHYSICAL REFINEMENT, BROADCASTABLE PUBLIC FINALITY,
