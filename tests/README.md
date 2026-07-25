@@ -528,6 +528,40 @@ implementation refinement predicts it. Noisy/noninvertible reconciliation,
 adversarial protocols, approximate fixed algebras, and an actual coherent
 proper-time realization remain open.
 
+## Regional finality descent and recursive composition
+
+`du_regional_finality_descent_probe.py` installs the exact finite
+`HC-DU-035C` baseline and audits ten counterfactual successor approaches.
+Using only the Python standard library and exact `Fraction` arithmetic for
+the quantum fixture, it checks:
+
+- the binary cycle-syndrome descent theorem on all `647` connected simple
+  graphs through four vertices and every edge parity;
+- quorum safety on all `204` `(N,f,q)` cases through `N=8`, the independent
+  safety/liveness split at `N=4,f=1`, and raw-count versus independent-origin
+  support;
+- a two-of-three threshold-access abstraction that separates public
+  verification from witness disclosure without claiming a cryptographic
+  construction;
+- the exact action-factorization criterion for promoting a region to one
+  higher-layer node and the minimum boundary lift in a four-state fixture;
+- invariance of flat and frustrated descent under causally inert edge
+  subdivision despite changed hop count;
+- forward-only capability activation at fixed past accessible record;
+- a GHZ phase twin whose proper-subset records agree while a global logical
+  parity restores a phase-sensitive upper action;
+- all four typed outcomes on the distributed twin and the complete
+  five-factor counterfactual surface; and
+- ten approach cards, each with lenses, kits, an estimand, smallest object,
+  absorber, first move, negative output, cheap kill, and scale gate.
+
+The deterministic artifact is
+`artifacts/du_regional_finality_descent_result.json` and reports `24/24`
+checks. Passing establishes a reusable conjunction of known finite controls,
+not endogenous physical regions or validators, a cryptographic security
+proof, noisy/noninvertible descent, public objectivity, geometry, ontology,
+or a departure from quantum theory.
+
 ## Entangled layered-finality absorption boundary
 
 `du_entangled_finality_absorption_probe.py` fixes the standard-quantum null

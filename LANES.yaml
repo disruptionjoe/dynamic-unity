@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 29
+manifest_revision: 30
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -65,7 +65,12 @@ active_hardening_program_note: >-
   threshold, hysteresis and route labels selecting linear CPTP dynamics are ordinary enlarged
   quantum processes. The deterministic Bell/record/causal-break probe passes 18/18; a genuine extension
   must now survive an implementation-complete reset of every admitted quantum and classical
-  memory while preserving no-signalling.
+  memory while preserving no-signalling. Revision 30 installs the recursive regional-finality
+  descent kernel: regions become higher-layer nodes only through independently formed,
+  action-sufficient boundary certificates. The exact finite probe passes 24/24 and separates
+  descent, provenance/logical lift, safe rejection and incomplete contracts. Endogenous
+  region/validator selection and noisy noninvertible descent are now the live composition
+  dependencies; no physical regional ontology is inferred.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -605,7 +610,9 @@ certified_causal_reality_restructure:
     REJECTED / HC-DU-034A SIGNED ALL-PORT COHERENT-HISTORY ASSAY EXACT AT IDEAL SPECIALIZATION
     GRADE / HC-DU-036A FINITE FACTORIZATION-OR-CANDIDATE-WITNESS AND LINEAR-RANK BASELINES EXACT /
     NO SIZE-FREE WITNESS HORIZON / FINITE HOLONOMY PUBLIC-FACT, RECONCILIATION-FRUSTRATION,
-    PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / TIGHT BINARY
+    PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / HC-DU-035C REGIONAL DESCENT,
+    QUORUM, NODE-PROMOTION, REFINEMENT AND LOGICAL-ACCESS CONTROLS 24/24 / ENDOGENOUS
+    REGIONALIZATION AND NOISY NONINVERTIBLE DESCENT OPEN / TIGHT BINARY
     RECORD-DISTURBANCE, INDEPENDENT-FRAGMENT AND ARCHIVE-SUPPORT CONTROLS EXACT BUT GENERAL
     NOVELTY ABSORBED / H-CCR-15 FINITE FINALITY-LABEL ABSORPTION CONTROL EXACT / BELL,
     RECORD-FANOUT, ROUTE, CAUSAL-BREAK AND NO-SIGNALLING FIXTURES 18/18 / POST-CAUSAL-BREAK
@@ -632,7 +639,9 @@ certified_causal_reality_restructure:
     HC-DU-036A shows why a failed candidate interface alone cannot establish a physical remainder.
     In parallel, H-CCR-15 requires any layered-finality extension to beat the enlarged
     history/memory/route process under a complete causal break; a system-only reset is
-    insufficient.
+    insufficient. The recursive regional branch must meanwhile select regions, overlaps,
+    validators and access structures independently of the target, then extend HC-DU-035C from
+    exact affine maps to noisy noninvertible descent without changing its four-outcome contract.
   first_executable_flagship: >-
     Do not add another hand-selected compiler, exact dephasing fixture or unconstrained
     stability/formation sweep: the Pauli rectangle is already full. Add one independently
@@ -643,7 +652,10 @@ certified_causal_reality_restructure:
     implementation-complete convex nulls and matched resources. Carry the stochastic
     compiler and the H-CCR-15 causal-break/memory completion unchanged as adjudicators. Only
     after a formed distinction survives every
-    admitted refinement should HC-DU-035B price its conversion into public finality.
+    admitted refinement should HC-DU-035B price its conversion into public finality. In the
+    regional branch, concentrate on competing-cover reconstruction with held-out interventions
+    plus a stochastic descent-defect theorem; do not add more exact diagrams, hierarchy labels,
+    or blockchain analogies.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -1181,6 +1193,45 @@ entangled_finality_absorption_boundary_swing:
     prediction-shaped conditional seam. Existing concepts receive sharper controls; no claim,
     ontology, paper priority, Factory state, draft, submission, publication or external action
     is promoted.
+regional_finality_descent_kernel_swing:
+  status: completed_exact_control_and_approach_preparation
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: use counterfactual and specialist lenses to prepare every regional-finality
+    approach, integrate the approaches into the repository, and execute enough low-hanging work
+    to give the program direction and momentum.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-060628-regional-finality-descent-kernel/run-plan.md
+  synthesis_ref: >-
+    explorations/regional-finality-descent-kernel-and-approach-registry-2026-07-25.md
+  probe_ref: tests/du_regional_finality_descent_probe.py
+  artifact_ref: tests/artifacts/du_regional_finality_descent_result.json
+  artifact_sha256: cfc3dd0a985e05ad1e456a9e637fd983c8872524ed3a97b732a245dfa394f5b8
+  exact_result: >-
+    The standard-library probe passes 24/24. Binary affine regional constraints descend exactly
+    when every cycle syndrome vanishes across all 647 connected labeled graphs through four
+    vertices. Quorum safety is exhaustively checked across 204 parameter cases and remains
+    distinct from liveness and independent provenance. A region can be promoted to one
+    higher-layer node exactly when every frozen upper response factors through its independently
+    formed boundary certificate. Flat and frustrated results survive benign edge subdivision.
+  paired_fixture_result: >-
+    The distributed and GHZ logical-access twins preserve one boundary-sufficiency question
+    without identifying consensus with entanglement. The shared contract returns DESCENDS,
+    REQUIRES_PROVENANCE_OR_LOGICAL_LIFT, REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION, or
+    INCOMPLETE_CONTRACT. A stronger rejecting hardening layer can make composition safe by
+    refusing a frustrated merge; safe rejection is not successful descent.
+  approach_disposition: >-
+    Ten successor cards attach category/descent, counterfactual-statistical,
+    formal-counterexample, adversarial-distributed, threshold-cryptographic, quantum-process/QEC,
+    control, higher-order-network, metrology/resource, commercial, heterodox and philosophy
+    lenses to a smallest object, estimand, absorber, first move, negative output, cheap kill and
+    scale gate. The immediate coupled concentration is endogenous competing-cover/validator
+    selection plus noisy noninvertible descent.
+  ledger_disposition: >-
+    Adds CONCEPT-DU-011, HC-DU-035C and H-CCR-16 at exact finite-control/general-open grade. It
+    adds no prediction because the executed controls do not yet select a physical architecture
+    or measurable residual. No claim, ontology, law, paper priority, Factory state, draft,
+    submission, publication or external action is promoted.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1602,7 +1653,11 @@ lanes:
       closure, tight deterministic witness and finite-linear rank controls. The finite
       holonomy/public-fact baseline additionally fixes record descent, reconciliation-frustration,
       task-relative provenance capacity, cycle-lift rank and passive-refinement flatness. Its
-      coherent route phase is absorbed by implementation provenance. The stochastic
+      coherent route phase is absorbed by implementation provenance. HC-DU-035C adds the exact
+      finite recursive regional baseline: action-sufficient node promotion, flat/frustrated
+      affine descent, quorum safety/liveness/provenance, refinement invariance, forward
+      capability feedback and a GHZ logical-access control under one four-outcome contract. The
+      stochastic
       matrix/protocol transfer further shows that noisy public records can fail while formed
       error/delivery syndromes restore exact sufficiency; its restricted-boundary remainders are
       therefore interface-relative. A witness diagnoses a failed candidate interface; it is not
@@ -1691,7 +1746,10 @@ lanes:
       refinement class covering source, environment, controller/scheduler, decoder, access
       boundary, record instrument, routed implementation and resources. Begin with XH-01, XH-02
       and the explicitly nonexhaustive XH-06 battery; distinguish known phase/process structure,
-      interface incompleteness and class-relative physical remainder. Never define a selected
+      interface incompleteness and class-relative physical remainder. For HC-DU-035C, generate
+      rival overlapping covers with equal current records and held-out interventions, then
+      replace exact translations by noisy noninvertible maps while preserving descent, lift,
+      safe rejection and incomplete-contract outcomes. Never define a selected
       record by agreement under every target physical experiment or call a target-derived
       quotient a formed physical record.
   - id: '1.5'
@@ -1763,8 +1821,11 @@ lanes:
     title: Open-endedness, fresh records and multiscale organization
     scope: >-
       Test source-internal novelty, causal-post memory, open-system mechanisms, recursive
-      viability, heterarchical observer covers and generated scale. Reject arbitrary drives,
-      fitted windows, gratuitous hierarchy depth and free global access.
+      viability, heterarchical observer covers and generated scale. Use CONCEPT-DU-011 to
+      generate rival overlapping covers, split/merge rules and validator structures at equal
+      current records; demand held-out intervention consequences before treating a region as
+      physically selected. Reject arbitrary drives, fitted windows, gratuitous hierarchy depth,
+      raw-node scale and free global access.
   - id: '2.5'
     title: GU ablation and rival unification tournament
     scope: >-
@@ -1809,7 +1870,9 @@ lanes:
     scope: >-
       Compare dissemination without finality, speculative/rollback state, metastable confidence
       and hard certificates under equivocation, replay, corruption, loss and split views. Include
-      equal-endpoint/different-provenance and pre/post-certificate action controls.
+      equal-endpoint/different-provenance and pre/post-certificate action controls. Reuse
+      HC-DU-035C's four-outcome contract; count safe rejection separately from successful
+      descent, and audit independent origins rather than raw signatures.
   - id: '3.4'
     title: Quantum-network, broadcast and QEC-access fixture
     scope: >-
@@ -1818,7 +1881,9 @@ lanes:
       Add the XH-03 same-SBS-data absorber: freeze pointer verdict, full declared
       system-fragment data, distinguishability/support, independence, accessible fragments and
       audited provenance support before testing an additional distinction. Do not insert the
-      classical algebra to derive it.
+      classical algebra to derive it. Use GHZ only as the current logical-access/boundary-
+      sufficiency control; do not identify qubits with validators or entanglement with
+      consensus.
   - id: '3.5'
     title: Causal-set, event-structure and hypergraph fixture
     scope: >-
@@ -1835,7 +1900,9 @@ lanes:
       HC-DU-033A deterministic quotient, fixed-codomain, destructive-pooling, correlated-marginal,
       split-view and local-first-versus-joint-first hardening controls, plus HC-DU-035A's
       honest-lock margin, IID/common-shock, metastable rollback, inconsistent-share, GHZ
-      access-only and Bell direct-channel controls. Run applicable XH-01..06 controls as benchmark
+      access-only and Bell direct-channel controls. Add HC-DU-035C's descent/lift/reject/incomplete
+      outcomes, independent-support audit, node-promotion factorization, and benign-refinement
+      control. Run applicable XH-01..06 controls as benchmark
       B7, preserve source grades, and mark unrelated controls not-applicable rather than forcing
       one universal absorber.
 
@@ -2315,3 +2382,16 @@ provenance:
     reconciliation curvature, actualization cost, capability backreaction and record-sourced
     geometry. No physical residual, new law, claim, ontology, paper priority, Factory state,
     draft, submission, publication or external action is established.
+  rev30_note: >-
+    2026-07-25 (Joe direct chat: prepare the regional-finality approaches with counterfactual and
+    specialist lenses, integrate them into the repository and complete the low-hanging work):
+    installed HC-DU-035C, H-CCR-16 and CONCEPT-DU-011 for changing covers of causal record
+    networks whose regions may become higher-layer nodes through independently formed,
+    action-sufficient boundary certificates. The exact finite probe passes 24/24 across 647
+    affine graph instances, 204 quorum instances, node-promotion, threshold-access,
+    Sybil-provenance, refinement, forward-feedback, distributed and GHZ logical-access controls.
+    Ten successor cards now carry counterfactual estimands, smallest objects, absorbers, first
+    moves, negative outputs, cheap kills and scale gates. Endogenous region/validator selection
+    and noisy noninvertible descent are next. No new physics, ontology, prediction, law, claim,
+    paper priority, Factory state, draft, submission, publication or external action is
+    established.

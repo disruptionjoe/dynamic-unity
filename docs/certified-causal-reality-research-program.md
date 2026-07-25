@@ -150,11 +150,19 @@ The recharter preserves, rather than promotes, the strongest exact results:
   However, a two-state fixed law plus the growing output tape reproduces the
   full finite counterfactual response tree. Support growth therefore does not
   distinguish a nonfixed source law from compressed fixed-law generation.
+- The regional-finality kernel replaces the false global/local dichotomy with
+  changing covers whose nodes can themselves be certified causal networks.
+  Its exact finite controls separate descent, provenance/logical lift, safe
+  rejection, and incomplete contracts; prove the action-sufficient
+  node-promotion criterion; and retain safety, liveness, disclosure, and
+  capability as distinct types. This supplies a composition architecture,
+  not a selected physical regionalization or a new law.
 
 These results complete the finite classical quotient bookkeeping, the first
 static layered-threshold and deterministic interventional-closure controls,
 the first stochastic matrix/protocol transfer, and one exact finite
-record-interface class. They keep **robust physical record formation and
+record-interface class, plus the first recursive regional-composition
+baseline. They keep **robust physical record formation and
 interface selection** as the first scientific dependency. The compiler is no
 longer the immediate bottleneck, and the exact abelian result shows why
 another hand-selected dephasing fixture would not close the gap. The next
@@ -165,7 +173,9 @@ rectangle, derive the relevant channel from a physical instrument, or
 instantiate the signed all-port assay in a proposal-level proper-time process
 with complete operations, accessible outcomes, calibrated convex nulls, and
 matched resources. Only a surviving formed distinction should route to
-`HC-DU-035B` for formation-to-finality pricing. These controls do not
+`HC-DU-035B` for formation-to-finality pricing. In parallel, regional
+composition should now attack endogenous cover/validator selection and noisy
+noninvertible descent rather than add more exact diagrams. These controls do not
 establish an observer, proper time, public classicality, continuum covariance,
 gravity, cosmology, or record-first ontology.
 
@@ -559,6 +569,43 @@ authentication, latency, entropy, or coherent optionality and must not reduce
 to an unconnected intersection of Blackwell, access-structure, and quorum
 conditions.
 
+### `HC-DU-035C` — Regional Finality Descent and Recursive Composition
+
+Treat the relevant architecture as a changing cover of causal record
+networks, not as a choice between one global record and isolated local
+records. A region may become one node at a higher layer only when its
+independently formed boundary certificate preserves every declared
+higher-layer action. Certification, witness disclosure, fork safety,
+liveness, rollback, physical irreversibility, and action enablement remain
+separate fields.
+
+**Executed exact finite baseline.** Under frozen finite contracts:
+
+- connected binary regional constraints admit a global section exactly when
+  every cycle syndrome vanishes; exhaustive enumeration covers all `647`
+  connected simple graphs through four vertices and all binary edge labels;
+- equal-size quorums exclude incompatible certificates exactly when
+  \(2q>N+f\), while safety, withholding liveness, raw count, and independent
+  provenance remain distinct;
+- a region can be promoted to one node exactly when every frozen upper
+  response factors through its exported boundary summary;
+- benign edge subdivision preserves cycle syndrome and exact solution count
+  while changing hop count;
+- the GHZ phase pair supplies a known logical-access control in which every
+  proper-subset record agrees but a global parity-sensitive action requires a
+  logical lift; and
+- every finite fixture returns one of four typed outcomes:
+  `DESCENDS`, `REQUIRES_PROVENANCE_OR_LOGICAL_LIFT`,
+  `REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION`, or
+  `INCOMPLETE_CONTRACT`.
+
+These are known graph-cohomology, quorum-intersection, access-structure,
+behavioral-congruence, and stabilizer components. The general noisy,
+noninvertible, authenticated, recursively promoted, cross-platform theorem
+is open. The exact kernel also takes the regions, validators, access
+structures, and feedback couplings as supplied; their physical selection is
+the principal missing dependency.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -808,6 +855,7 @@ Only after the preceding dependencies:
 | `H-CCR-13` | For independently formed reconciliation maps, path-independent public facts and safe actions are carried by a holonomy-invariant/equalizer object; preserving a noninvariant task distinction requires accessible provenance or residual route structure. | A fork-safe path-independent action uses a noninvariant distinction after complete process matching, with neither provenance nor retained route structure. |
 | `H-CCR-14` | Added authenticated connectivity can expose loop frustration and reduce path-independent public capacity; a harder finality layer restores capability only by rejecting, repairing, recording, or quotienting the loop syndrome. | The effect disappears in every noisy, adversarial, and physical realization once the full protocol and resource ledger are frozen. |
 | `H-CCR-15` | Every finite layered-finality effect either factors through an enlarged standard quantum process carrying its history, route, environment and control registers, or leaves a finite post-causal-break witness after all admitted quantum and classical memories are re-prepared while entanglement and no-signalling are preserved. | A retained register, incomplete process boundary or signalling nonlinear rule absorbs every proposed residual. |
+| `H-CCR-16` | Relative to a declared cover, upper task, access class, adversary, and resource ledger, regional certified causal networks compose into an action-safe higher-level object exactly when their overlap data are compatible, their certificates have independent adversarial support, their boundary summaries are action-sufficient, and every loop either descends or carries an explicit provenance/logical lift; otherwise a finite typed obstruction identifies what is missing. | The conditions are defined to force composition, change meaning between quantum and distributed fixtures, fail under benign refinement, or require an unbounded or target-defined obstruction in the declared class. |
 
 ## Dependency order
 
@@ -824,6 +872,8 @@ Only after the preceding dependencies:
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
    HC-DU-035A layered threshold controls [COMPLETED]
    HC-DU-035B formation-to-finality resource law [OPEN]
+   HC-DU-035C finite regional descent/composition [COMPLETED CONTROL]
+                noisy noninvertible descent and endogenous regionalization [OPEN]
         |
 3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
         |
@@ -861,6 +911,17 @@ implementation-complete causal break resets every admitted quantum and
 classical memory. See
 `explorations/entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`
 and `tests/du_entangled_finality_absorption_probe.py`.
+
+**`H-CCR-16` control grade (2026-07-25).** The exact finite regional kernel
+passes `24/24` checks and unifies flat/frustrated descent, quorum
+safety/liveness/provenance, action-sufficient node promotion, benign
+refinement, forward capability feedback, and a GHZ logical-access twin under
+one four-outcome contract. This is a reusable conjunction of known component
+mathematics, not a general theorem or physical architecture. The immediate
+successors are endogenous region/validator selection and noisy noninvertible
+descent. See
+`explorations/regional-finality-descent-kernel-and-approach-registry-2026-07-25.md`
+and `tests/du_regional_finality_descent_probe.py`.
 
 ## Common benchmark suite
 
@@ -1029,6 +1090,22 @@ because it is covariant.
 5. stop if the result is only a juxtaposition of known statistical,
    access-structure, and quorum theorems.
 
+**Completed `HC-DU-035C` regional-composition controls and next build:**
+
+1. retain the exact cycle-syndrome, quorum, independent-support,
+   action-factorization, refinement, and logical-access fixtures as the
+   minimum regression baseline;
+2. generate competing overlapping regional covers with identical present
+   records and use held-out interventions to identify the minimum physical
+   split/merge or validator selector;
+3. replace exact affine translations with noisy and noninvertible kernels,
+   authenticated adversarial schedules, and approximate logical access;
+4. preserve the same four return types across distributed and quantum
+   fixtures without changing the meaning of record, public, finality, or
+   capability; and
+5. stop before geometry or beyond-standard physics if the result is absorbed
+   by known descent, process-tensor, controller, QEC, or protocol structure.
+
 ### Phase 3 — `HC-DU-034/036` history and sufficiency
 
 **Completed finite and analytic controls:**
@@ -1165,6 +1242,8 @@ QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS
 MATCHED FINITE-TIME STABILITY DOES NOT DETERMINE ENVIRONMENT FORMATION
 FULL QUBIT PAULI STABILITY--FORMATION RECTANGLE CONSTRUCTED
 HC-DU-035A LAYERED THRESHOLD SEPARATION AND CONTROLS EXACT
+HC-DU-035C FINITE REGIONAL DESCENT, QUORUM, NODE-PROMOTION, REFINEMENT AND LOGICAL-ACCESS CONTROLS EXACT
+REGIONAL KERNEL PROBE 24/24; COMPONENT MATHEMATICS KNOWN
 HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
 HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
@@ -1173,6 +1252,7 @@ SEPARATING WITNESS MEANS CANDIDATE-RECORD INSUFFICIENCY, NOT AUTOMATIC ONTOLOGY
 ROBUST APPROXIMATE AND INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
 PHYSICAL / NOISY / QUANTUM / ADVERSARIAL INTERVENTIONAL SUFFICIENCY OPEN
+ENDOGENOUS REGIONALIZATION AND NOISY NONINVERTIBLE DESCENT OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN
 HC-DU-033A/033B/035A/036A COMPONENT MATHEMATICS KNOWN
 STATIC QUANTUM/BFT CONJUNCTION COLLIDES

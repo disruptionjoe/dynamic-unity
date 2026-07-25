@@ -1,0 +1,526 @@
+{
+  "affine_descent": {
+    "disposition": "AFFINE_DESCENT_IFF_CYCLE_SYNDROMES_VANISH / NONINVARIANT_ACTION_REQUIRES_PROJECT_OR_LIFT",
+    "each_proper_edge_family_is_satisfiable": true,
+    "exhaustive_connected_graph_cases_through_four_vertices": 647,
+    "exhaustive_flatness_solution_count_failures": [],
+    "flat_triangle_solution_count": 2,
+    "frustrated_cycle_syndrome": 1,
+    "frustrated_triangle_solution_count": 0,
+    "minimum_provenance_alphabet_for_identity_action": 2,
+    "nontrivial_holonomy_orbit": [
+      0,
+      1
+    ],
+    "path_independent_binary_fact_count": 2,
+    "path_independent_capacity_bits": 0,
+    "repair_restores_solution_count": 2,
+    "tree_solution_count": 2
+  },
+  "approach_registry": {
+    "RF-01": {
+      "cheap_kill": "the schema merely renames existing process/algebra fields and adds no compositional invariant",
+      "counterfactual_estimand": "which predictions change when one typed field is removed while the physical process is held fixed",
+      "first_move": "freeze the schema and construct deletion countermodels for every field",
+      "kits": [
+        "K0",
+        "K1",
+        "K2"
+      ],
+      "lenses": [
+        "CAT",
+        "PHIL",
+        "ORT",
+        "COM"
+      ],
+      "negative_output": "a smaller sufficient schema or a proof that one proposed field is redundant",
+      "question": "What is the minimal typed regional-finality object?",
+      "repo_route": "CONCEPT-DU-011 / HC-DU-035C",
+      "scale_gate": "every field has an independent counterexample or universal-property role",
+      "smallest_object": "two regions, one overlap, one boundary certificate",
+      "strongest_absorber": "ordinary causal site, algebraic net, sheaf, or process network"
+    },
+    "RF-02": {
+      "cheap_kill": "region identity changes under inert relay insertion or label permutation",
+      "counterfactual_estimand": "effect of a candidate boundary under clone, relabeling, overlap, and benign-refinement interventions",
+      "first_move": "generate rival covers with identical terminal records and seek a held-out intervention",
+      "kits": [
+        "K0",
+        "K1",
+        "K3",
+        "K9"
+      ],
+      "lenses": [
+        "CFS",
+        "FCE",
+        "ORT",
+        "HET",
+        "NW"
+      ],
+      "negative_output": "nonidentification theorem and minimum extra selector",
+      "question": "What selects a region and its validator/support class?",
+      "repo_route": "HC-DU-033 / HC-DU-032 / CONCEPT-DU-003/011",
+      "scale_gate": "one selection rule predicts held-out merges/splits without refitting",
+      "smallest_object": "four internal events with two competing overlapping region covers",
+      "strongest_absorber": "modeler-selected boundary or correlated fragment count"
+    },
+    "RF-03": {
+      "cheap_kill": "pairwise agreement is assumed to imply global gluing or finality is defined by the theorem",
+      "counterfactual_estimand": "effect of one overlap, quorum, provenance, or loop relation at fixed local records and action task",
+      "first_move": "prove the finite descent-or-typed-obstruction theorem and minimize each failure witness",
+      "kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4"
+      ],
+      "lenses": [
+        "CAT",
+        "FCE",
+        "AD",
+        "PHIL"
+      ],
+      "negative_output": "smallest obstruction and exact missing relation/provenance alphabet",
+      "question": "When do regional final facts descend to a higher-level fact?",
+      "repo_route": "H-CCR-16 / HC-DU-035C / H-CCR-13/14",
+      "scale_gate": "extend only after noisy/noninvertible maps preserve the same statement",
+      "smallest_object": "three-region affine loop with one incompatible action",
+      "strongest_absorber": "sheaf descent, quorum intersection, graph cohomology, or behavioral congruence"
+    },
+    "RF-04": {
+      "cheap_kill": "the summary is defined using all target responses and makes sufficiency tautological",
+      "counterfactual_estimand": "upper-layer response difference between internal states sharing one boundary summary",
+      "first_move": "compute the coarsest action-sufficient boundary partition and a separating action",
+      "kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K9"
+      ],
+      "lenses": [
+        "CAT",
+        "CT",
+        "FCE",
+        "COM"
+      ],
+      "negative_output": "minimum lifted boundary alphabet and witness pair",
+      "question": "When may a whole region become one node at the next layer?",
+      "repo_route": "HC-DU-036 / H-CCR-05 / CONCEPT-DU-011",
+      "scale_gate": "the same summary composes across two recursive promotions and held-out actions",
+      "smallest_object": "four internal states, two boundary labels, and two upper actions",
+      "strongest_absorber": "finite sufficient statistic, bisimulation, or automata congruence"
+    },
+    "RF-05": {
+      "cheap_kill": "raw signatures are counted as independent support or computational secrecy as physical inaccessibility",
+      "counterfactual_estimand": "safe-action change under quorum, origin independence, threshold opening, and withholding interventions",
+      "first_move": "separate proof, public verification, witness disclosure, reconstruction, and action",
+      "kits": [
+        "K0",
+        "K1",
+        "K3",
+        "K4",
+        "K8"
+      ],
+      "lenses": [
+        "AD",
+        "ZK",
+        "CFS",
+        "EMA"
+      ],
+      "negative_output": "split-view or withholding trace and the missing trust/setup assumption",
+      "question": "How do adversarial finality, threshold access, and disclosure interact?",
+      "repo_route": "HC-DU-035 / CONCEPT-DU-009",
+      "scale_gate": "a concrete protocol freezes identity, key setup, corruption, timing, and resource assumptions",
+      "smallest_object": "N=4,f=1 quorums plus an abstract 2-of-3 access structure",
+      "strongest_absorber": "standard BFT safety/liveness and cryptographic access structures"
+    },
+    "RF-06": {
+      "cheap_kill": "record, public, validator, or capability changes meaning across platforms",
+      "counterfactual_estimand": "capability restored by an independently formed provenance or logical-access lift at fixed task",
+      "first_move": "run matched insufficiency/lift cases without equating votes and entanglement",
+      "kits": [
+        "K0",
+        "K3",
+        "K4",
+        "K5",
+        "K6"
+      ],
+      "lenses": [
+        "QI",
+        "QE",
+        "AD",
+        "PHIL",
+        "EMA"
+      ],
+      "negative_output": "semantic-refit receipt identifying the first field whose meaning diverges",
+      "question": "Does one unchanged contract survive distributed and quantum record twins?",
+      "repo_route": "HC-DU-036B/039 / H-CCR-12",
+      "scale_gate": "a noisy quantum instrument and replayable adversarial protocol preserve the typed mapping",
+      "smallest_object": "affine/BFT loop and GHZ phase pair with one shared return schema",
+      "strongest_absorber": "known stabilizer access plus known distributed certification"
+    },
+    "RF-07": {
+      "cheap_kill": "the rule rewrites a past record or changes the task/decoder after certification",
+      "counterfactual_estimand": "future safe-action-set difference caused by a certificate at fixed task, loss, controls, and resource budget",
+      "first_move": "prove forward-only action monotonicity and build rollback/safety counterexamples",
+      "kits": [
+        "K0",
+        "K2",
+        "K3",
+        "K8"
+      ],
+      "lenses": [
+        "CT",
+        "CFS",
+        "PHIL",
+        "TR"
+      ],
+      "negative_output": "feedback circularity or complete ordinary-controller factorization",
+      "question": "How may higher finality feed back into lower-layer capability?",
+      "repo_route": "HC-DU-037 / H-CCR-06 / CONCEPT-DU-011",
+      "scale_gate": "feedback composes without contradiction across two layers and includes liveness",
+      "smallest_object": "one irreversible action enabled after one safe regional certificate",
+      "strongest_absorber": "ordinary controller state, changed tester, or unmatched capability frame"
+    },
+    "RF-08": {
+      "cheap_kill": "the claimed geometry changes under a causally inert relay",
+      "counterfactual_estimand": "change in a candidate invariant under inert subdivision, coarse-graining, overlap rewiring, and layer promotion",
+      "first_move": "kill hop/depth/node-count measures and retain only natural loop, access, and capability invariants",
+      "kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K7",
+        "K9"
+      ],
+      "lenses": [
+        "CAT",
+        "CG",
+        "NW",
+        "WILD"
+      ],
+      "negative_output": "representation-dependence theorem or nonunique reconstruction family",
+      "question": "Which network-of-networks structure survives refinement and scale change?",
+      "repo_route": "HC-DU-038/039 / CONCEPT-DU-006/007/011",
+      "scale_gate": "one invariant predicts held-out refinements and has a controlled continuum family",
+      "smallest_object": "one flat and one frustrated two-layer simplicial loop",
+      "strongest_absorber": "causal sites, higher-order multiplex topology, Hodge/cohomology, and renormalization"
+    },
+    "RF-09": {
+      "cheap_kill": "completion-class cardinality or proof bytes are treated as physical cost",
+      "counterfactual_estimand": "work, heat, support, coherence, latency, or optionality difference at equal certified distinctions and capability",
+      "first_move": "derive lower and constructive upper bounds before calorimetry",
+      "kits": [
+        "K0",
+        "K3",
+        "K8"
+      ],
+      "lenses": [
+        "TR",
+        "CFS",
+        "COM",
+        "EMA"
+      ],
+      "negative_output": "ordinary-accounting protocol that absorbs the proposed residual",
+      "question": "What resource cost belongs to regional finality rather than its implementation?",
+      "repo_route": "HC-DU-035B/037 / CONCEPT-DU-008",
+      "scale_gate": "encoding-invariant bound predicts a second platform without refitting",
+      "smallest_object": "two reversible protocols with identical final certificate and action set",
+      "strongest_absorber": "Landauer, communication, authentication, QEC, and displaced archive costs"
+    },
+    "RF-10": {
+      "cheap_kill": "the effect changes a remote marginal, depends on ensemble decomposition, or vanishes under memory completion",
+      "counterfactual_estimand": "post-causal-break joint-statistic difference between histories after every admitted memory is re-prepared",
+      "first_move": "derive the complete null and leakage bound before positing an extra finality state",
+      "kits": [
+        "K0",
+        "K3",
+        "K5",
+        "K6",
+        "K9"
+      ],
+      "lenses": [
+        "QI",
+        "CFS",
+        "EMA",
+        "ORT",
+        "HET"
+      ],
+      "negative_output": "absorbing memory register or tightened upper bound on any residual",
+      "question": "Does regional finality leave a physical residual beyond the complete process?",
+      "repo_route": "H-CCR-15 / PRED-DU-003 / HC-DU-034B",
+      "scale_gate": "repeatable residual survives nested completion, covariance, no-signalling, and preregistered metrology",
+      "smallest_object": "Bell pair, randomized history, complete reset, and one joint tester",
+      "strongest_absorber": "implementation-complete process tensor with route, environment, controller, and detector memory"
+    }
+  },
+  "benign_refinement": {
+    "descent_solution_count_preserved_under_subdivision": true,
+    "flat_original_flat": true,
+    "flat_original_solution_count": 2,
+    "flat_refined_flat": true,
+    "flat_refined_solution_count": 2,
+    "frustrated_original_flat": false,
+    "frustrated_original_solution_count": 0,
+    "frustrated_refined_flat": false,
+    "frustrated_refined_solution_count": 0,
+    "original_edge_count": 3,
+    "original_hop_count_on_subdivided_route": 1,
+    "raw_hop_count_is_not_invariant": true,
+    "refined_edge_count": 4,
+    "refined_hop_count_on_subdivided_route": 2,
+    "syndrome_preserved_under_subdivision": true
+  },
+  "boundary_factorization": {
+    "coarse_boundary_labels": 2,
+    "coarse_summary_counterfactual_witness": {
+      "different_syndrome_action": true,
+      "same_summary": true,
+      "states": [
+        "00",
+        "01"
+      ]
+    },
+    "coarse_summary_factors_all_upper_actions": false,
+    "coarse_summary_factors_local_action": true,
+    "disposition": "COARSE REGION IS A SAFE HIGHER_NODE IFF UPPER ACTIONS FACTOR THROUGH ITS BOUNDARY CERTIFICATE",
+    "internal_state_count": 4,
+    "lifted_boundary_labels": 4,
+    "lifted_summary_factors_all_upper_actions": true,
+    "minimum_boundary_labels_for_frozen_upper_actions": 4,
+    "recursive_promotion_rule": "replace an internal region by one higher-layer node iff every frozen upper response is constant on each boundary-summary fibre"
+  },
+  "capability_feedback": {
+    "feedback_direction": "certificate at t=1 constrains actions at t>=1",
+    "future_capability_strictly_increases": true,
+    "past_accessible_record_is_unchanged": true,
+    "prior_record_after": [
+      "event-e0",
+      "value-1"
+    ],
+    "prior_record_before": [
+      "event-e0",
+      "value-1"
+    ],
+    "retroactive_rewrite": false,
+    "safe_actions_after": [
+      "commit",
+      "observe",
+      "wait"
+    ],
+    "safe_actions_before": [
+      "observe",
+      "wait"
+    ]
+  },
+  "check_count": 24,
+  "checks": {
+    "affine_flatness_theorem_exhaustive_through_four_vertices": true,
+    "benign_subdivision_preserves_syndrome": true,
+    "certification_and_disclosure_separated": true,
+    "coarse_boundary_fails_action_sufficiency": true,
+    "distributed_return_vocabulary_exercised": true,
+    "factorial_counterfactual_surface_complete": true,
+    "feedback_changes_future_capability_not_past_record": true,
+    "frustrated_loop_has_no_global_section": true,
+    "ghz_logical_parity_identifies_phase": true,
+    "ghz_proper_subsets_do_not_identify_phase": true,
+    "lifted_boundary_restores_action_sufficiency": true,
+    "matched_counterfactuals_change_one_field": true,
+    "minimum_boundary_alphabet_exact": true,
+    "negative_results_are_first_class_outputs": true,
+    "project_or_lift_bound_nontrivial": true,
+    "proper_local_constraints_can_hide_global_obstruction": true,
+    "quantum_boundary_requires_logical_lift": true,
+    "quorum_intersection_formula_exhaustive_through_n8": true,
+    "raw_count_and_independent_support_separated": true,
+    "repair_restores_descent": true,
+    "safety_and_liveness_separated": true,
+    "ten_successors_have_complete_approach_cards": true,
+    "threshold_access_monotone": true,
+    "tree_and_flat_triangle_descend": true
+  },
+  "claim_grade": "EXACT FINITE COMPOSITION CONTROLS / COMPLETE METHOD ATTACHMENTS / KNOWN COMPONENT MATHEMATICS / NO NEW-PHYSICS OR ONTOLOGY CLAIM",
+  "counterfactual_design": {
+    "all_contrasts_change_only_declared_fields": true,
+    "estimands": {
+      "boundary": "effect of exporting the action-relevant syndrome at fixed internal process",
+      "hardening": "effect of rejecting a frustrated composition; rejection and descent remain distinct",
+      "provenance": "effect of independent origin support versus equal raw identity count",
+      "quorum": "effect of q=2 versus q=3 at fixed N=4,f=1 and saved schedule",
+      "topology": "effect of one loop-syndrome intervention at fixed quorum, provenance, boundary summary, task, and resources"
+    },
+    "full_factorial_case_count": 32,
+    "full_factorial_result_counts": {
+      "DESCENDS": 2,
+      "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION": 20,
+      "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT": 10
+    },
+    "one_change_matched_contrasts": {
+      "add_rejecting_hardening_to_frustrated_loop": {
+        "changed_fields": [
+          "hardening"
+        ],
+        "control": "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT",
+        "interpretation": "hardening prevents unsafe composition by rejecting it; rejection is not successful descent",
+        "treatment": "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION"
+      },
+      "coarsen_boundary": {
+        "changed_fields": [
+          "boundary"
+        ],
+        "control": "DESCENDS",
+        "treatment": "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT"
+      },
+      "introduce_loop_frustration": {
+        "changed_fields": [
+          "flat"
+        ],
+        "control": "DESCENDS",
+        "treatment": "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT"
+      },
+      "lower_quorum": {
+        "changed_fields": [
+          "quorum"
+        ],
+        "control": "DESCENDS",
+        "treatment": "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION"
+      },
+      "replace_independent_support_with_raw_count": {
+        "changed_fields": [
+          "provenance"
+        ],
+        "control": "DESCENDS",
+        "treatment": "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION"
+      }
+    },
+    "reference_contract": {
+      "boundary": "lifted",
+      "flat": true,
+      "hardening": "none",
+      "provenance": "independent",
+      "quorum": 3
+    },
+    "reference_result": {
+      "reason": "flat overlaps, safe quorum, independent support, and action-sufficient boundary certificate",
+      "result": "DESCENDS"
+    }
+  },
+  "distributed_twin": {
+    "coarse_boundary_case": {
+      "reason": "coarse boundary summary omits action-relevant syndrome",
+      "result": "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT"
+    },
+    "complete_flat_case": {
+      "reason": "flat overlaps, safe quorum, independent support, and action-sufficient boundary certificate",
+      "result": "DESCENDS"
+    },
+    "frustrated_rejected_case": {
+      "reason": "nonzero loop syndrome rejected by higher layer",
+      "result": "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION"
+    },
+    "missing_adversary_case": {
+      "reason": "no adversary class for certificate safety",
+      "result": "INCOMPLETE_CONTRACT"
+    }
+  },
+  "does_not_establish": [
+    "a novel component theorem",
+    "a general noisy or noninvertible descent theorem",
+    "a cryptographic protocol or security proof",
+    "a physical region, validator, boundary, or scale-selection law",
+    "that entanglement is consensus",
+    "public quantum objectivity or common knowledge",
+    "a finality-to-capability physical law",
+    "emergent spacetime geometry or holography",
+    "a post-causal-break physical residual",
+    "record-first ontology"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "probe": "du_regional_finality_descent_probe",
+  "quantum_record_twin": {
+    "all_proper_subset_reduced_states_equal": true,
+    "entanglement_interpretation": "nonfactorizable joint constraint; not hidden local votes",
+    "fixture": "three-qubit GHZ phase pair",
+    "global_logical_action_distinguishes_phase": true,
+    "global_x_parity": {
+      "minus": -1,
+      "plus": 1
+    },
+    "logical_parity_lift_factors_global_action": true,
+    "proper_subset_equalities": {
+      "(0, 1)": true,
+      "(0, 2)": true,
+      "(0,)": true,
+      "(1, 2)": true,
+      "(1,)": true,
+      "(2,)": true
+    },
+    "proper_subset_summary_factors_global_action": false,
+    "result": "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT",
+    "scope_warning": "known stabilizer/logical-access control; no public objectivity, consensus identity, collapse, or new quantum effect"
+  },
+  "quorum_and_provenance": {
+    "disposition": "QUORUM_SAFETY_REQUIRES_INTERSECTION_OUTSIDE_ADVERSARY / LIVENESS_AND_PROVENANCE_REQUIRE_SEPARATE RECEIPTS",
+    "exhaustive_cases_through_n_8": 204,
+    "independent_origin_count": 1,
+    "n4_f1_examples": {
+      "2": {
+        "live_under_one_withholding": true,
+        "safe": false
+      },
+      "3": {
+        "live_under_one_withholding": true,
+        "safe": true
+      },
+      "4": {
+        "live_under_one_withholding": false,
+        "safe": true
+      }
+    },
+    "quorum_intersection_formula_failures": [],
+    "raw_count_can_overstate_independent_support": true,
+    "raw_identity_count": 3,
+    "raw_sybil_certificate": [
+      "sybil-1",
+      "sybil-2",
+      "sybil-3"
+    ],
+    "safety_and_liveness_are_distinct": true
+  },
+  "regional_finality_kernel": {
+    "composition_question": "when local certified networks descend to an action-safe higher node, and which typed obstruction prevents descent",
+    "fields": [
+      "internal event/process DAG",
+      "record object and provenance",
+      "access/decoder structure",
+      "validator support and adversary class",
+      "typed finality rule",
+      "boundary certificate/summary",
+      "admitted higher-layer actions",
+      "forward-only feedback rule"
+    ],
+    "six_relations_kept_distinct": [
+      "causal influence",
+      "entanglement constraint",
+      "record formation",
+      "access/disclosure",
+      "validation/finality",
+      "control/capability feedback"
+    ]
+  },
+  "run_id": "RUN-20260725-060628-regional-finality-descent-kernel",
+  "schema_version": "1.0",
+  "threshold_access": {
+    "access_structure": "abstract 2-of-3 monotone reconstruction",
+    "authorized_coalition_count": 4,
+    "certification_and_disclosure_separate": true,
+    "monotone": true,
+    "private_witness_reconstructible_by_every_observer": false,
+    "public_certificate_available": true,
+    "scope_warning": "combinatorial access structure only; no cryptographic security, key setup, commitment scheme, or physical access law is proved",
+    "unauthorized_singletons": true
+  },
+  "verdict": "REGIONAL_FINALITY_DESCENT_KERNEL_INSTALLED / FINITE_DESCENT_AND_OBSTRUCTION_CONTROLS_PASS / TEN_SUCCESSORS_HAVE_COUNTERFACTUAL_APPROACHES"
+}

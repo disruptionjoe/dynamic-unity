@@ -1147,6 +1147,77 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   PERSONHOOD NOT INFERRED.** No claim is banked or seeded. See
   `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
 
+## CONCEPT-DU-011 — recursive regional finality
+
+- **Concept (articulation-invariant).** The physically relevant organization
+  may be a changing cover of causal record networks whose regions can become
+  nodes in higher-level networks when they export independently formed,
+  action-sufficient boundary certificates. “Global” is then relative to a
+  declared regional composition and task, not one universal completed record;
+  “local” need not mean one observer or one spacetime point.
+- **Concept INVARIANT.**
+  1. Regions may overlap, split, merge, and recur at several scales; they are
+     not assumed to form one fixed tree.
+  2. A region earns promotion to a higher-layer node only when every declared
+     upper response factors through its boundary certificate.
+  3. Record formation, access/disclosure, validator support,
+     certification/finality, causal influence, entanglement constraint, and
+     future capability feedback remain separately typed.
+  4. Finality is a vector including reconstructibility, verification,
+     disclosure, fork safety, liveness, rollback, action enablement, and
+     physical irreversibility—not one scalar.
+  5. Validator or fragment multiplicity is not independent support without a
+     provenance/adversary model.
+  6. Higher-layer feedback may constrain later actions but cannot silently
+     rewrite an already accessible lower-layer past.
+  7. Candidate invariants survive harmless relabeling and causally inert
+     subdivision; raw node, relay, hop, or hierarchy counts do not.
+- **Formalization FAMILY.**
+  1. causal sites, sheaves/stacks, descent and obstruction theory;
+  2. nets of algebras and quantum causal histories;
+  3. higher categories, hypergraphs, simplicial and multiplex temporal
+     networks;
+  4. provenance DAGs, gossip/metastable protocols, BFT hardening and
+     common-knowledge structures;
+  5. threshold access structures, authenticated commitments and
+     zero-knowledge disclosure;
+  6. quantum error-correcting logical algebras and distributed decoders;
+  7. process tensors, behavioral congruence, control quotients and sufficient
+     statistics; and
+  8. recursive viable-system covers with independently selected
+     split/merge/validator rules.
+- **Executed finite controls.**
+  `HC-DU-035C` supplies exact flat/frustrated binary descent, quorum
+  safety/liveness and Sybil-provenance separation, the action-sufficient
+  node-promotion criterion, benign-refinement controls, forward-only
+  capability feedback, and a GHZ logical-access twin. The shared return
+  contract distinguishes descent, provenance/logical lift, safe rejection,
+  and incomplete specification. The deterministic probe passes `24/24`.
+- **Controls and global kill conditions.**
+  - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
+    process tensor adds no concept-specific result.
+  - A target-defined boundary summary makes node promotion tautological.
+  - Raw signatures, copies, or fragments cannot stand in for independent
+    validators.
+  - Computational secrecy cannot silently become physical inaccessibility;
+    consensus cannot silently become truth, entanglement, or collapse.
+  - A candidate geometry or scale that changes under an inert relay is a
+    representation artifact.
+  - If no independent dynamics selects regions, overlaps, validators, access,
+    or feedback, the structure remains an exogenous analysis architecture.
+- **Nearest terrain.** Every executed component is known terrain:
+  graph/sheaf descent, quorum intersection, monotone access structures,
+  behavioral congruence, QEC logical access, higher-order networks, and
+  process theories. Potential distinctiveness lies only in an unchanged
+  noisy, noninvertible, adversarial, recursive and physically instantiated
+  theorem with a capability/resource consequence.
+- **Status:** **CONCEPT-OPEN / EXACT FINITE KERNEL INSTALLED / PHYSICAL
+  REGIONALIZATION AND VALIDATOR SELECTION OPEN / NOISY NONINVERTIBLE DESCENT
+  OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.** The next coupled attacks are
+  competing-cover reconstruction with held-out interventions and a
+  quantitative descent defect for stochastic maps. See
+  `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md`.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.
