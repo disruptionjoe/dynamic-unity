@@ -67,7 +67,10 @@ production capacity. The authoritative upstream portfolio is
   does not predict it**: μ is Born-blind (Bet #1) and the mirror-condensate count is one-shot
   (wave-2 build/kill). (iii) Therefore it is not prediction-hardened or an
   unconditional DU prediction. Its paper-opportunity fields are separately
-  preserved as `DU-PAPER-024`; no Factory proposal has been sent.
+  preserved as `DU-PAPER-024`; the Factory now holds
+  `DU-SEED-CONDITIONAL-FINALITY-DEVIATION` in merge review beside the existing
+  covariant-finality paper. No production activation or hardening request
+  exists.
   This does **not** bar a labeled conditional construction; source derivation is not an
   exploration gate.
 - **Hardening checklist (what must be discharged before it moves).**
@@ -87,8 +90,10 @@ production capacity. The authoritative upstream portfolio is
   discussion (records/finality account of correlation-determinism);
   `bet1-measurement-via-records-finality-2026-07-21.md` (μ Born-blind — why the mechanism is not
   yet there).
-- **Disposition.** Held as a SEAM. It is the flagship's first *empirical* target; it becomes a
-  live REGISTERED prediction the moment H1 lands, and is not seeded to the factory before H2–H7.
+- **Disposition.** Held as a SEAM. It is the flagship's first *empirical*
+  target; it becomes a live REGISTERED prediction the moment H1 lands. Cheap
+  Factory merge-review custody does not discharge H2–H7 and cannot be treated
+  as prediction hardening or production activation.
 
 #### 2026-07-23 conditional-model result
 
@@ -132,7 +137,8 @@ justified smooth-slope bound or another mechanism-specific observable. See
   adversarial-kill pair it synthesizes.
 - **Disposition.** Held as a SEAM beside PRED-DU-001 — a *covariance upgrade* of the same observable,
   its prize being that a covariant objective-collapse candidate evades the standard Lorentz tension.
-  Not seeded before its own H1' (the AQFT-net embedding) plus the shared gate.
+  Its shared conditional Factory merge-review seed does not clear its own H1'
+  (the AQFT-net embedding) or the shared scientific gate.
 
 ---
 

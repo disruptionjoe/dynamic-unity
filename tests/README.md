@@ -64,12 +64,12 @@ paper inventory in `../papers/paper-opportunity-portfolio.json`. It checks 27
 deduplicated candidate families for stable IDs, required cheap-seed fields,
 existing evidence pointers, declared readiness classes, overlap integrity,
 concept and result-surface coverage, Factory-entry deduplication, and the exact
-unsent proposal batch.
+nine-item confirmed Factory intake mapping.
 
-The generated artifact passes `16/16` deterministic checks. This establishes
-portfolio integrity only. It does not establish scientific truth, novelty,
-manuscript quality, Factory priority, submission, or publication, and it does
-not send any proposal to the Drafting Factory.
+The generated artifact passes `20/20` deterministic checks. This establishes
+portfolio and custody-record integrity only. It does not establish scientific
+truth, novelty, manuscript quality, Factory priority, production activation,
+submission, or publication.
 
 ## Conditional and abductive candidate artifacts
 

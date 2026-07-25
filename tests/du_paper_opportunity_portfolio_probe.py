@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 """Validate Dynamic Unity's upstream paper-opportunity portfolio.
 
-This probe checks inventory integrity and Factory-seed field completeness.  It
-does not evaluate scientific truth, novelty, manuscript quality, Factory
-priority, or publication readiness.
+This probe checks inventory integrity, Factory-seed field completeness, and
+the confirmed source-to-Factory intake mapping.  It does not evaluate
+scientific truth, novelty, manuscript quality, Factory priority, production
+activation, or publication readiness.
 """
 
 from __future__ import annotations
@@ -68,6 +69,7 @@ def build_result() -> dict[str, Any]:
     coverage_ids = all_coverage_ids(portfolio["coverage_map"])
     concept_keys = set(portfolio["coverage_map"]["concept_register"])
     expected_concepts = {f"CONCEPT-DU-{index:03d}" for index in range(1, 11)}
+    candidate_by_id = {candidate["id"]: candidate for candidate in candidates}
     proposal_batch = portfolio["factory_proposal_batch_if_separately_authorized"]
     proposed_ids = set(proposal_batch["standalone_proposals"]) | set(
         proposal_batch["merge_review_proposals"]
@@ -76,6 +78,22 @@ def build_result() -> dict[str, Any]:
         candidate["id"]
         for candidate in candidates
         if candidate["seed_status"] == "proposal_complete_not_sent"
+    }
+    factory_intake = portfolio["factory_intake_2026_07_24"]
+    intake_seed_map = {
+        **factory_intake["standalone_seed_map"],
+        **factory_intake["merge_review_seed_map"],
+    }
+    expected_intake_seed_map = {
+        "DU-PAPER-003": "DU-SEED-COVARIANT-RECORD-COST",
+        "DU-PAPER-004": "DU-SEED-BOUNDARY-RELOCATION",
+        "DU-PAPER-007": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY",
+        "DU-PAPER-009": "DU-SEED-HIGHER-ORDER-PUBLIC-FINALITY",
+        "DU-PAPER-013": "DU-SEED-CSG-POST-TAIL-CLASSES",
+        "DU-PAPER-015": "DU-SEED-GLOBAL-CLOCK-GAUGE-WITNESS",
+        "DU-PAPER-016": "DU-SEED-NO-PRIVILEGED-DEPTH",
+        "DU-PAPER-017": "DU-SEED-FINITE-RECORD-OPENNESS",
+        "DU-PAPER-024": "DU-SEED-CONDITIONAL-FINALITY-DEVIATION",
     }
 
     missing_fields = {
@@ -123,6 +141,35 @@ def build_result() -> dict[str, Any]:
             or candidate["hardening_request"] != "none"
         )
     }
+    factory_intake_state_failures = {
+        candidate_id: {
+            "factory_snapshot": candidate_by_id[candidate_id]["factory_snapshot"],
+            "factory_state": candidate_by_id[candidate_id]["factory_state"],
+            "seed_status": candidate_by_id[candidate_id]["seed_status"],
+        }
+        for candidate_id, seed_id in intake_seed_map.items()
+        if (
+            seed_id not in candidate_by_id[candidate_id]["factory_snapshot"]
+            or (
+                candidate_id in factory_intake["standalone_seed_map"]
+                and (
+                    candidate_by_id[candidate_id]["factory_state"]
+                    != "existing_seed_unselected"
+                    or candidate_by_id[candidate_id]["seed_status"]
+                    != "factory_seeded_unselected"
+                )
+            )
+            or (
+                candidate_id in factory_intake["merge_review_seed_map"]
+                and (
+                    candidate_by_id[candidate_id]["factory_state"]
+                    != "existing_seed_merge_review"
+                    or candidate_by_id[candidate_id]["seed_status"]
+                    != "factory_seeded_merge_review"
+                )
+            )
+        )
+    }
 
     checks = {
         "portfolio_has_27_candidates": len(candidates) == 27,
@@ -161,9 +208,25 @@ def build_result() -> dict[str, Any]:
             "DU-PAPER-001": "already_factory_post_ready",
             "DU-PAPER-002": "already_factory_seeded",
         },
+        "confirmed_factory_intake_maps_nine_unique_seeds": (
+            intake_seed_map == expected_intake_seed_map
+            and len(set(intake_seed_map.values())) == 9
+        ),
+        "confirmed_factory_intake_matches_candidate_states": (
+            not factory_intake_state_failures
+        ),
+        "factory_custody_coverage_is_complete": set(
+            portfolio["coverage_map"]["factory_dynamic_unity_custody"]
+        )
+        == {
+            "DU-PAPER-001",
+            "DU-PAPER-002",
+            *expected_intake_seed_map,
+        },
         "proposal_batch_matches_all_complete_unsent_proposals": (
             proposed_ids == proposal_complete_ids
         ),
+        "no_complete_unsent_proposals_remain": not proposal_complete_ids,
         "proposal_complete_records_need_no_more_seed_fields": (
             not proposal_field_failures
         ),
@@ -198,9 +261,9 @@ def build_result() -> dict[str, Any]:
         "date": "2026-07-24",
         "status": "PASS" if all(checks.values()) else "FAIL",
         "claim_grade": (
-            "PORTFOLIO INTEGRITY AND CHEAP-SEED FIELD AUDIT / "
+            "PORTFOLIO INTEGRITY AND CONFIRMED FACTORY-CUSTODY AUDIT / "
             "NO SCIENTIFIC, NOVELTY, MANUSCRIPT, FACTORY-PRIORITY, "
-            "SUBMISSION, OR PUBLICATION VERDICT"
+            "PRODUCTION-ACTIVATION, SUBMISSION, OR PUBLICATION VERDICT"
         ),
         "checks_passed": sum(checks.values()),
         "checks_total": len(checks),
@@ -208,20 +271,22 @@ def build_result() -> dict[str, Any]:
         "candidate_count": len(candidates),
         "seed_status_counts": dict(sorted(seed_counts.items())),
         "manuscript_distance_counts": dict(sorted(manuscript_counts.items())),
+        "factory_intake": factory_intake,
         "proposal_batch": proposal_batch,
         "near_manuscript_ids": near_manuscript_ids,
         "diagnostics": {
             "missing_fields": missing_fields,
             "missing_evidence": missing_evidence,
             "invalid_overlap_ids": invalid_overlap_ids,
+            "factory_intake_state_failures": factory_intake_state_failures,
             "proposal_field_failures": proposal_field_failures,
         },
         "nonclaims": [
             "the inventory is exhaustive over future ideas",
             "a complete seed is scientifically supported",
-            "a seed should be activated by the Drafting Factory",
+            "Factory custody is production activation",
+            "the initial Factory review order is immutable",
             "a manuscript-distance estimate is a schedule commitment",
-            "a proposal has been sent",
             "a paper has been drafted, submitted, or published",
         ],
     }

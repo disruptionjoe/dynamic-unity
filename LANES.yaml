@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 24
+manifest_revision: 25
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -42,6 +42,8 @@ active_hardening_program_note: >-
   nonexhaustive completion-constructor battery; it promotes no claim or hypothesis. Revision 24
   adds the deduplicated 27-family paper-opportunity portfolio, separates cheap Factory seed
   readiness from scientific and manuscript hardening, and changes no claim grade or Factory state.
+  Revision 25 confirms Factory custody for seven standalone seeds and two merge reviews while
+  leaving every item unselected and every hardening request empty.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -917,6 +919,33 @@ paper_opportunity_portfolio_audit:
   factory_action: >-
     None. No mailbox proposal, intake write, hardening request, production activation, draft,
     submission, or publication occurred.
+paper_opportunity_factory_intake:
+  status: completed_factory_custody__no_production_activation
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: make sure the audited paper opportunities are in the Drafting Factory system
+    so its prioritization can move them forward.
+  source_run_ref: >-
+    lab/process/runs/RUN-20260724-210404-factory-intake-reconciliation/run-plan.md
+  portfolio_ref: papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
+  factory_revision: ca7b748e58e9210fbace1ad897df88f849ae9ff5
+  intake_result: >-
+    Seven proposal-complete standalone opportunities now have canonical unselected Factory seeds,
+    and Boundary Relocation plus the conditional Finality Deviation now have canonical Factory
+    merge-review seeds. The prior covariant-finality and structure/particular records remain
+    deduplicated in existing custody.
+  coverage_result: >-
+    All 27 portfolio families are accounted for through direct Factory custody, a named admitted
+    merge destination, one bounded clarification, a research-result dependency, or another source
+    owner. The Factory did not ingest agenda-only or duplicate module rows.
+  factory_priority_signal: >-
+    The Factory's initial reversible review order starts with Covariant Records Are Not Free,
+    followed by causal-set post tail classes, global-clock gauge-or-witness, no privileged depth,
+    finite-record openness, interventional record sufficiency and higher-order public finality.
+    Factory cycles may reprioritize this field against all other seeds.
+  nonpromotion: >-
+    No production home, hardening request, research-priority amendment, claim promotion, draft,
+    submission, publication or external action occurred.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1656,9 +1685,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 24.
+    routing is the root lanes key at manifest revision 25.
 provenance:
-  revision: 24
+  revision: 25
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1716,7 +1745,9 @@ provenance:
     assessment led by the Clock-QCA record construction-obstruction package; rev24 (Joe direct
     chat, 2026-07-24) audits and deduplicates the full 27-family paper portfolio, records
     seed-versus-manuscript distance for every family, and separates cheap Factory opportunity
-    custody from scientific hardening without sending or promoting anything
+    custody from scientific hardening without sending or promoting anything; rev25 (Joe direct
+    chat, 2026-07-24) places the nine proposal-complete opportunities into confirmed Factory
+    custody and reconciles the source portfolio without production activation or claim movement
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1946,3 +1977,13 @@ provenance:
     should transfer. The portfolio also estimates manuscript distance independently. No Factory
     intake, production state, hardening request, claim grade, prediction, submission, or
     publication changed.
+  rev25_note: >-
+    2026-07-24 (Joe direct chat: make sure the audited opportunities are in the Drafting Factory
+    so its prioritization can move them forward): the Factory accepted seven standalone
+    unselected seeds and two merge-review seeds at
+    `ca7b748e58e9210fbace1ad897df88f849ae9ff5`. Dynamic Unity reconciled all nine source records,
+    retained the other eighteen families at their merge, clarification, research-dependency or
+    other-owner dispositions, and upgraded the deterministic portfolio audit to 20/20 checks.
+    Covariant Records Are Not Free is first in the Factory's new reversible DU review order. No
+    production home, hardening request, scientific grade, draft, submission, publication or
+    external action changed.

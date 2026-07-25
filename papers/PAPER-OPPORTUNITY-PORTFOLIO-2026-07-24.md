@@ -1,11 +1,13 @@
 ---
 title: "Dynamic Unity paper-opportunity portfolio and preliminary readiness audit"
-status: completed_portfolio_audit
+status: completed_portfolio_audit_and_factory_intake
 doc_type: upstream_paper_opportunity_inventory
 created: 2026-07-24
 run_id: RUN-20260724-204614-paper-opportunity-portfolio-audit
 source_revision: 63a50a212d789797b6e21c0f3cf109ae7d34ecbe
-claim_grade: "PORTFOLIO AND FACTORY-SEED READINESS / NO SCIENTIFIC OR PUBLICATION PROMOTION"
+reconciled_source_revision: 0504f948891a97b87fdfca561575d3490d92d97d
+factory_intake_revision: ca7b748e58e9210fbace1ad897df88f849ae9ff5
+claim_grade: "PORTFOLIO, FACTORY-SEED READINESS, AND CONFIRMED INTAKE / NO SCIENTIFIC, PRODUCTION, OR PUBLICATION PROMOTION"
 ---
 
 # Dynamic Unity paper-opportunity portfolio
@@ -16,17 +18,18 @@ The repository currently exposes **27 deduplicated paper families**:
 
 | Upstream disposition | Count | Meaning |
 |---|---:|---|
-| already Factory post-ready | 1 | Existing Factory package; do not duplicate |
-| already Factory-seeded | 1 | Existing cheap seed; source hardening waits on Factory selection |
-| proposal complete, not sent | 9 | All cheap seed fields are present here; no mailbox or Factory write occurred |
+| Factory post-ready | 1 | Existing Factory package; do not duplicate |
+| Factory-seeded, unselected | 8 | One pre-existing seed plus seven newly admitted standalone seeds |
+| Factory merge review | 2 | Newly admitted for deduplication against named existing or new seeds |
 | one bounded clarification before seed | 4 | One source-owned choice is needed to make the opportunity credible and sortable |
 | merge rather than standalone | 6 | Real result or concept module, but no distinct paper at current novelty grade |
 | research result required | 4 | Still an agenda or dependency rather than a credible paper opportunity |
 | transfer to another source owner | 2 | Paper-shaped, but Dynamic Unity does not own the research truth |
 
-This is an upstream source-owner inventory. It is **not** a parallel Factory
-queue, production plan, drafting authorization, scientific ranking, submission
-decision, or publication ledger.
+This is the upstream source-owner inventory plus a receipt for confirmed
+Factory custody. It is **not** a parallel Factory queue, production plan,
+drafting authorization, scientific ranking, submission decision, or
+publication ledger.
 
 The machine-readable portfolio is
 `papers/paper-opportunity-portfolio.json`. Its deterministic audit is
@@ -83,9 +86,9 @@ The estimates are workload classes, not calendar promises:
 
 Neither should be reseeded.
 
-## B. Complete cheap-seed proposals not sent
+## B. Confirmed Drafting Factory intake
 
-### Standalone proposals
+### Standalone seeds
 
 | ID | Working paper | Current source grade | Estimated manuscript work | Load-bearing next work |
 |---|---|---|---:|---|
@@ -97,18 +100,20 @@ Neither should be reseeded.
 | `DU-PAPER-016` | **Systems Without a Privileged Depth** | Exact finite active-control constructions and depth-refinement countertheorem | `1–2` | General role-cover theorem, prior-art review, and one non-toy specimen |
 | `DU-PAPER-017` | **Finite Records Cannot Certify Open-Endedness** | Exact aliasing, finite-prefix, fixed-completion, and fixed-oracle controls | `1–2` | Freeze completion/novelty class and prove a parameterized escape-or-incomplete-contract theorem |
 
-These seven meet the Factory's cheap preservation threshold. Their presence
-here does not mean the Factory should activate all seven.
+These seven are now canonical unselected Factory seeds at
+`drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5`. Factory
+prioritization may reorder them against every other research seed. Custody
+does not activate any of them.
 
-### Merge-review proposals
+### Merge-review seeds
 
-| ID | Working paper | Why the proposal is complete | Merge question |
+| ID | Working paper | Why the seed is complete | Merge question |
 |---|---|---|---|
 | `DU-PAPER-004` | **Boundary Relocation, Record Access, and Capability** | Exact finite relocation and reunion controls; contribution and theorem target are clear | Standalone restricted invariance theorem, or a theorem section inside `DU-PAPER-003`? |
 | `DU-PAPER-024` | **A Covariant Finality Deviation Beyond Smooth Decoherence** | Conditional opportunity, current absorber, platform need, and claim ceiling are explicit | Separate long-horizon experimental seed, or remain linked to existing `DU-PAPER-001`? |
 
-If a later instruction authorizes Factory intake, these two should enter as
-merge reviews rather than presumptively distinct production candidates.
+Both entered the Factory as merge reviews rather than presumptively distinct
+production candidates. Neither has a production home.
 
 ## C. One bounded clarification before cheap seed
 
@@ -236,28 +241,29 @@ This is a routing scan, not a claim-specific novelty verdict.
 Every proposal selected for actual Factory production still needs a
 claim-specific bibliography and novelty review.
 
-## If Factory intake is authorized later
+## Confirmed Factory intake
 
-The prepared batch is:
+The accepted source-to-seed mapping is:
 
 ```text
-standalone proposals:
-    DU-PAPER-003
-    DU-PAPER-007
-    DU-PAPER-009
-    DU-PAPER-013
-    DU-PAPER-015
-    DU-PAPER-016
-    DU-PAPER-017
+standalone:
+    DU-PAPER-003 -> DU-SEED-COVARIANT-RECORD-COST
+    DU-PAPER-007 -> DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY
+    DU-PAPER-009 -> DU-SEED-HIGHER-ORDER-PUBLIC-FINALITY
+    DU-PAPER-013 -> DU-SEED-CSG-POST-TAIL-CLASSES
+    DU-PAPER-015 -> DU-SEED-GLOBAL-CLOCK-GAUGE-WITNESS
+    DU-PAPER-016 -> DU-SEED-NO-PRIVILEGED-DEPTH
+    DU-PAPER-017 -> DU-SEED-FINITE-RECORD-OPENNESS
 
-merge-review proposals:
-    DU-PAPER-004 -> DU-PAPER-003
-    DU-PAPER-024 -> DU-PAPER-001
+merge review:
+    DU-PAPER-004 -> DU-SEED-BOUNDARY-RELOCATION
+    DU-PAPER-024 -> DU-SEED-CONDITIONAL-FINALITY-DEVIATION
 ```
 
-The Factory would remain free to deduplicate, defer, merge, or decline every
-proposal. Dynamic Unity would continue to own claim grades and source
-hardening. No such intake has occurred in this run.
+The Factory remains free to reprioritize, deduplicate, defer, merge, or decline
+every seed. Dynamic Unity continues to own claim grades and source hardening.
+All nine remain unselected or in merge review, with no hardening request or
+production activation.
 
 ## Maintenance rule
 

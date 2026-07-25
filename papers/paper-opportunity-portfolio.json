@@ -42,9 +42,18 @@
         "DU-PAPER-023"
       ]
     },
-    "existing_factory_dynamic_unity_entries": [
+    "factory_dynamic_unity_custody": [
       "DU-PAPER-001",
-      "DU-PAPER-002"
+      "DU-PAPER-002",
+      "DU-PAPER-003",
+      "DU-PAPER-004",
+      "DU-PAPER-007",
+      "DU-PAPER-009",
+      "DU-PAPER-013",
+      "DU-PAPER-015",
+      "DU-PAPER-016",
+      "DU-PAPER-017",
+      "DU-PAPER-024"
     ],
     "exact_result_packages": [
       "DU-PAPER-001",
@@ -96,20 +105,26 @@
     "seed_is": "A cheap publication-opportunity pointer with an owning source, possible contribution, evidence, grade, open conditions, audience, and overlap.",
     "seed_is_not": "A novelty verdict, claim promotion, drafting authorization, production activation, manuscript-readiness judgment, submission, or publication."
   },
+  "factory_intake_2026_07_24": {
+    "factory_revision": "ca7b748e58e9210fbace1ad897df88f849ae9ff5",
+    "merge_review_seed_map": {
+      "DU-PAPER-004": "DU-SEED-BOUNDARY-RELOCATION",
+      "DU-PAPER-024": "DU-SEED-CONDITIONAL-FINALITY-DEVIATION"
+    },
+    "standalone_seed_map": {
+      "DU-PAPER-003": "DU-SEED-COVARIANT-RECORD-COST",
+      "DU-PAPER-007": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY",
+      "DU-PAPER-009": "DU-SEED-HIGHER-ORDER-PUBLIC-FINALITY",
+      "DU-PAPER-013": "DU-SEED-CSG-POST-TAIL-CLASSES",
+      "DU-PAPER-015": "DU-SEED-GLOBAL-CLOCK-GAUGE-WITNESS",
+      "DU-PAPER-016": "DU-SEED-NO-PRIVILEGED-DEPTH",
+      "DU-PAPER-017": "DU-SEED-FINITE-RECORD-OPENNESS"
+    },
+    "status": "confirmed_factory_custody__no_production_activation"
+  },
   "factory_proposal_batch_if_separately_authorized": {
-    "merge_review_proposals": [
-      "DU-PAPER-004",
-      "DU-PAPER-024"
-    ],
-    "standalone_proposals": [
-      "DU-PAPER-003",
-      "DU-PAPER-007",
-      "DU-PAPER-009",
-      "DU-PAPER-013",
-      "DU-PAPER-015",
-      "DU-PAPER-016",
-      "DU-PAPER-017"
-    ]
+    "merge_review_proposals": [],
+    "standalone_proposals": []
   },
   "manuscript_distance_definitions": {
     "dependency_program": "Several load-bearing scientific dependencies must land before a defensible manuscript exists.",
@@ -119,17 +134,19 @@
     "two_to_three_source_swings": "Two or three distinct source-owned theorem, transfer, empirical, or novelty jobs remain.",
     "unknown_until_clarified": "A bounded clarification must first determine what the paper would actually claim."
   },
-  "portfolio_version": "1.0",
+  "portfolio_version": "1.1",
   "seed_status_definitions": {
     "already_factory_post_ready": "The Factory already records the paper package as post-ready.",
     "already_factory_seeded": "The Factory already holds the cheap seed; do not duplicate it.",
+    "factory_seeded_merge_review": "The Factory holds a cheap merge-review seed; no separate production candidate or hardening request exists.",
+    "factory_seeded_unselected": "The Factory holds the cheap seed and owns subsequent prioritization; no production activation or hardening request exists.",
     "merge_candidate_not_standalone": "The material is real but should merge into a named candidate unless a later novelty result separates it.",
     "one_bounded_clarification": "One source-owned clarification is needed before the opportunity is credible and sortable enough to propose.",
     "proposal_complete_not_sent": "All cheap seed fields are present in this portfolio; no Factory write has occurred.",
     "research_result_required": "The current object is a research program or dependency, not yet a credible paper opportunity.",
     "transfer_to_other_owner": "The idea is paper-shaped but its research truth belongs to another source owner or existing Factory candidate."
   },
-  "source_revision": "63a50a212d789797b6e21c0f3cf109ae7d34ecbe",
+  "source_revision": "0504f948891a97b87fdfca561575d3490d92d97d",
   "candidates": [
     {
       "audience": "Quantum foundations and philosophy of physics",
@@ -203,8 +220,8 @@
         "tests/du_covariant_recorder_naturality_probe.py",
         "tests/du_covariant_archive_boundary_probe.py"
       ],
-      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-COVARIANT-RECORD-COST admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_unselected",
       "family": "clock_qca_records",
       "hardening_request": "none",
       "id": "DU-PAPER-003",
@@ -220,8 +237,8 @@
       "overlap_ids": [
         "DU-PAPER-004"
       ],
-      "recommended_action": "Prepare a cheap Factory seed proposal now; rank first for source hardening if paper proximity is the objective.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory now owns prioritization and has placed this first in the new DU seed-readiness review order; source hardening waits for selection or a scoped request.",
+      "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -236,8 +253,8 @@
         "explorations/covariant-archive-boundary-adversarial-audit-2026-07-24.md",
         "tests/du_covariant_archive_boundary_probe.py"
       ],
-      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-BOUNDARY-RELOCATION admitted for merge review at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_merge_review",
       "family": "boundary_and_capability",
       "hardening_request": "none",
       "id": "DU-PAPER-004",
@@ -254,8 +271,8 @@
         "DU-PAPER-003",
         "DU-PAPER-010"
       ],
-      "recommended_action": "Prepare a seed now but flag likely merge with DU-PAPER-003 for Factory deduplication.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Wait for Factory merge review against DU-SEED-COVARIANT-RECORD-COST; do not open a parallel standalone paper.",
+      "seed_status": "factory_seeded_merge_review",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -342,8 +359,8 @@
         "tests/du_council_orthodox_factorization_witness_probe.py",
         "tests/du_council_wild_frontier_interventional_closure_probe.py"
       ],
-      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_unselected",
       "family": "certified_causal_reality",
       "hardening_request": "none",
       "id": "DU-PAPER-007",
@@ -362,8 +379,8 @@
         "DU-PAPER-008",
         "DU-PAPER-012"
       ],
-      "recommended_action": "Prepare a cheap Factory seed now; rank first for flagship upside, second for shortest paper path.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory now owns prioritization; preserve this as the highest-upside DU flagship while its larger source-hardening load remains explicit.",
+      "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -413,8 +430,8 @@
         "tests/du_holonomy_finality_provenance_probe.py",
         "explorations/technical-lens-hypothesis-panel-quadratic-vote-2026-07-24.md"
       ],
-      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-HIGHER-ORDER-PUBLIC-FINALITY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_unselected",
       "family": "public_finality",
       "hardening_request": "none",
       "id": "DU-PAPER-009",
@@ -433,8 +450,8 @@
         "DU-PAPER-010",
         "DU-PAPER-022"
       ],
-      "recommended_action": "Prepare a cheap Factory seed now; rank third in the current repo-wide paper slate.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory now owns prioritization; preserve this as the distinctive cross-domain route without activating before noisy/noninvertible transfer work is selected.",
+      "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -563,8 +580,8 @@
         "tests/du_successor_heterodox_post_rg_half_power_probe.py",
         "tests/du_successor_wild_frontier_post_tail_probe.py"
       ],
-      "factory_snapshot": "No Factory seed found.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-CSG-POST-TAIL-CLASSES admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_unselected",
       "family": "causal_set_growth",
       "hardening_request": "none",
       "id": "DU-PAPER-013",
@@ -582,8 +599,8 @@
         "DU-PAPER-014",
         "DU-PAPER-018"
       ],
-      "recommended_action": "Prepare a cheap Factory seed now, explicitly at mathematical causal-set grade.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory now owns prioritization; claim-specific collision and uniform-asymptotic review precede any activation.",
+      "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -635,8 +652,8 @@
         "tests/du_record_rate_orthodox_clock_tournament.py",
         "tests/du_record_rate_philosopher_clock_ontology_probe.py"
       ],
-      "factory_snapshot": "No Factory seed found.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-GLOBAL-CLOCK-GAUGE-WITNESS admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_unselected",
       "family": "record_time",
       "hardening_request": "none",
       "id": "DU-PAPER-015",
@@ -654,8 +671,8 @@
         "DU-PAPER-003",
         "DU-PAPER-011"
       ],
-      "recommended_action": "Prepare a cheap Factory seed now for a scoped gauge-or-witness/no-go paper.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory now owns prioritization; consolidate the finite controls into one theorem only if selected.",
+      "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -670,8 +687,8 @@
         "tests/du_recursive_viability_philosopher_identifiability_probe.py",
         "tests/du_recursive_viability_commercial_passport_probe.py"
       ],
-      "factory_snapshot": "No Factory seed found.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-NO-PRIVILEGED-DEPTH admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_unselected",
       "family": "observer_and_system_individuation",
       "hardening_request": "none",
       "id": "DU-PAPER-016",
@@ -689,8 +706,8 @@
         "DU-PAPER-023",
         "DU-PAPER-026"
       ],
-      "recommended_action": "Prepare a cheap Factory seed now, likely for a systems/control rather than fundamental-physics lane.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory now owns prioritization and may route this toward a systems/control audience if selected.",
+      "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -705,8 +722,8 @@
         "explorations/science-council-five-persona-premise-free-foundational-wave-synthesis-2026-07-24.md",
         "lab/process/cross-repo-hardening-control-contract.md"
       ],
-      "factory_snapshot": "No distinct Factory seed found; strong overlap with DU-PAPER-002.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-FINITE-RECORD-OPENNESS admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5 with overlap to DU-SEED-STRUCTURE-PARTICULAR-WALL preserved.",
+      "factory_state": "existing_seed_unselected",
       "family": "generativity_and_openness",
       "hardening_request": "none",
       "id": "DU-PAPER-017",
@@ -724,8 +741,8 @@
         "DU-PAPER-002",
         "DU-PAPER-007"
       ],
-      "recommended_action": "Prepare a cheap seed now but request Factory merge review against DU-PAPER-002.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory now owns prioritization; preserve the overlap with the structure/particular seed while keeping this parameterized theorem route independently sortable.",
+      "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
@@ -959,8 +976,8 @@
         "explorations/conditional-finality-knee-model-2026-07-23.md",
         "explorations/covariant-finality-collapse-synthesis-2026-07-21.md"
       ],
-      "factory_snapshot": "No distinct Factory seed found; existing covariant-finality paper is post-ready.",
-      "factory_state": "unselected",
+      "factory_snapshot": "DU-SEED-CONDITIONAL-FINALITY-DEVIATION admitted for merge review beside DU-SEED-COVARIANT-FINALITY at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
+      "factory_state": "existing_seed_merge_review",
       "family": "experimental_prediction",
       "hardening_request": "none",
       "id": "DU-PAPER-024",
@@ -978,8 +995,8 @@
         "DU-PAPER-001",
         "DU-PAPER-008"
       ],
-      "recommended_action": "The cheap opportunity record is complete, but send only as an explicitly conditional long-horizon seed if Factory backlog preservation is desired.",
-      "seed_status": "proposal_complete_not_sent",
+      "recommended_action": "Factory holds the conditional long-horizon opportunity for merge review; no independent activation until a nonabsorbed mechanism-level discriminator exists.",
+      "seed_status": "factory_seeded_merge_review",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
