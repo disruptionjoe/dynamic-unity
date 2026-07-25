@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 28
+manifest_revision: 29
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -60,7 +60,12 @@ active_hardening_program_note: >-
   sectors, proves branch-basis dephasing erases the sector code before Walsh decoding,
   exposes exact selection as brittle to arbitrarily small noncommuting perturbations, and proves
   by matched Pauli controls that one finite-time stability score does not determine formation.
-  Its constructive Pauli family fills the full stability--formation rectangle.
+  Its constructive Pauli family fills the full stability--formation rectangle. Revision 29
+  installs the entangled layered-finality absorption boundary: finite retained history,
+  threshold, hysteresis and route labels selecting linear CPTP dynamics are ordinary enlarged
+  quantum processes. The deterministic Bell/record/causal-break probe passes 18/18; a genuine extension
+  must now survive an implementation-complete reset of every admitted quantum and classical
+  memory while preserving no-signalling.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -602,7 +607,10 @@ certified_causal_reality_restructure:
     NO SIZE-FREE WITNESS HORIZON / FINITE HOLONOMY PUBLIC-FACT, RECONCILIATION-FRUSTRATION,
     PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / TIGHT BINARY
     RECORD-DISTURBANCE, INDEPENDENT-FRAGMENT AND ARCHIVE-SUPPORT CONTROLS EXACT BUT GENERAL
-    NOVELTY ABSORBED / FINITE EXACT-RATIONAL HISTORY-CERTIFICATE COMPILER VIABLE ACROSS TWO
+    NOVELTY ABSORBED / H-CCR-15 FINITE FINALITY-LABEL ABSORPTION CONTROL EXACT / BELL,
+    RECORD-FANOUT, ROUTE, CAUSAL-BREAK AND NO-SIGNALLING FIXTURES 18/18 / POST-CAUSAL-BREAK
+    FINALITY-MEMORY RESIDUAL OPEN AS A CONDITIONAL EXTENSION / FINITE EXACT-RATIONAL
+    HISTORY-CERTIFICATE COMPILER VIABLE ACROSS TWO
     TYPED FIXTURES / STOCHASTIC EXTENSION EXECUTED ON A MATRIX-DERIVED QND QUANTUM RECORDER AND
     REPLAYABLE AUTHENTICATED OPERATION DAG / NOISY PUBLIC RECORDS INSUFFICIENT / FORMED
     ERROR-OR-DELIVERY SYNDROME PLUS ROUTE PROVENANCE RESTORES EXACT FACTORIZATION / RESTRICTED
@@ -622,6 +630,9 @@ certified_causal_reality_restructure:
     fixes the finite classical consequence of supplied selection/access relations; HC-DU-033B
     proves that fixed-center selection and coherent environment access require separate receipts;
     HC-DU-036A shows why a failed candidate interface alone cannot establish a physical remainder.
+    In parallel, H-CCR-15 requires any layered-finality extension to beat the enlarged
+    history/memory/route process under a complete causal break; a system-only reset is
+    insufficient.
   first_executable_flagship: >-
     Do not add another hand-selected compiler, exact dephasing fixture or unconstrained
     stability/formation sweep: the Pauli rectangle is already full. Add one independently
@@ -630,7 +641,8 @@ certified_causal_reality_restructure:
     channel from a physical instrument or instantiate the signed all-port assay in a
     proposal-level proper-time process with complete operations, accessible outcomes,
     implementation-complete convex nulls and matched resources. Carry the stochastic
-    compiler unchanged as the adjudicator. Only after a formed distinction survives every
+    compiler and the H-CCR-15 causal-break/memory completion unchanged as adjudicators. Only
+    after a formed distinction survives every
     admitted refinement should HC-DU-035B price its conversion into public finality.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
@@ -1131,6 +1143,44 @@ central_record_interface_selection_swing:
   ledger_disposition: >-
     HC-DU-033B is recorded as a completed scoped known-mathematics specialization. No core
     hypothesis, claim, prediction, ontology, paper seed or Factory state is promoted.
+entangled_finality_absorption_boundary_swing:
+  status: completed_exact_control_and_conditional_candidate_preparation
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: assess how to add the layered-finality/entanglement inquiry to the
+    repository, take a big swing at associated low-hanging fruit, and prepare every candidate
+    with its best approach.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-053806-entangled-finality-absorption-boundary/run-plan.md
+  synthesis_ref: >-
+    explorations/entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md
+  probe_ref: tests/du_entangled_finality_absorption_probe.py
+  artifact_ref: tests/artifacts/du_entangled_finality_absorption_result.json
+  artifact_sha256: d54bfc51d9352be66ff78355a20af7e70748d472da77ba3716fd131d1c6a107a
+  exact_result: >-
+    A finite retained classical history/finality label selecting a family of linear CPTP maps is
+    an ordinary classical-quantum controlled process on an enlarged state. The Bell, local
+    no-signalling, pointer fanout/no-broadcasting, exact uncomputation, finite threshold,
+    hysteresis, route phase, causal-break memory and nonlinear-signalling controls pass 18/18
+    with byte-identical output.
+  boundary_result: >-
+    A system-only causal break can leave an apparent history residual when an environment,
+    controller, route or memory register is omitted. Resetting the omitted memory removes the
+    finite specimen. A genuinely beyond-standard finality-memory claim must survive an
+    implementation-complete reset of every admitted quantum and classical memory, while naive
+    ensemble-dependent nonlinear escapes fail the entanglement/no-signalling gate.
+  candidate_disposition: >-
+    Six nonredundant candidate families are routed to existing repo surfaces. Finality-memory
+    residual, graph-threshold actualization and reconciliation curvature are the primary
+    conditional extensions. Actualization cost remains theorem/resource-ledger work. Capability
+    backreaction and record-sourced geometry remain gated until an explicit coupling or conserved
+    source law exists. Every family now has a smallest object, standard absorber, first decisive
+    assay, cheap kill and scale condition.
+  ledger_disposition: >-
+    Adds H-CCR-15 as an open factorization-or-residual hypothesis and PRED-DU-003 as a
+    prediction-shaped conditional seam. Existing concepts receive sharper controls; no claim,
+    ontology, paper priority, Factory state, draft, submission, publication or external action
+    is promoted.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -2251,3 +2301,17 @@ provenance:
     dependency. The component mathematics is known, so no claim, hypothesis, prediction,
     ontology, paper seed, Factory state, draft, submission, publication or external action
     changed.
+  rev29_note: >-
+    2026-07-25 (Joe direct chat: integrate the layered-finality/entanglement questions, take a
+    big low-hanging swing and prepare each candidate with its best approach): consolidated the
+    29-lens inquiry into six existing concept families and installed one shared absorption-first
+    contract. The standard-library probe passes 18/18 with byte-identical output. Bell
+    correlations and local no-signalling coexist with record fanout and exact uncomputation;
+    finite threshold, hysteresis and route labels embed in ordinary enlarged quantum processes.
+    A one-bit omitted memory creates an apparent post-causal-break residual and resetting it
+    removes the effect, while a naive ensemble-dependent nonlinear escape signals. Added
+    H-CCR-15 and conditional seam PRED-DU-003; prepared smallest objects, absorbers, decisive
+    contrasts, cheap kills and scale gates for finality memory, graph thresholds,
+    reconciliation curvature, actualization cost, capability backreaction and record-sourced
+    geometry. No physical residual, new law, claim, ontology, paper priority, Factory state,
+    draft, submission, publication or external action is established.

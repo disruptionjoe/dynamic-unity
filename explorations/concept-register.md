@@ -761,6 +761,25 @@ The strong shared-fact version remains open only for independently formed
 physical refinements. See
 `science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md`.
 
+### 2026-07-25 entangled finality-label absorption boundary
+
+For a finite classical history/finality register \(H\), any family of linear
+CPTP maps \(\{\Phi_h\}\) is one ordinary controlled classical-quantum process
+on the enlarged state \(H\otimes S\). Finite thresholds, hysteresis, route
+labels and provenance dependence therefore do not establish an additional
+actuality state. A system-only causal break can exhibit an apparent history
+residual when an environment or memory register is omitted; resetting that
+register removes the finite specimen. A naive ensemble-dependent nonlinear
+escape makes equivalent decompositions of one density operator
+distinguishable and fails no-signalling.
+
+This sharpens rather than closes the concept. Its first beyond-standard
+target is now a residual after an implementation-complete causal break
+re-prepares every admitted quantum and classical memory while preserving the
+declared entangled joint statistics and remote marginals. See `H-CCR-15`,
+`PRED-DU-003`, and
+`entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Fully real record perspectives may be
@@ -840,6 +859,17 @@ requires the signal to survive a frozen hierarchy of endpoint, channel,
 implementation, instrument, process-tensor, provenance, and resource
 refinements. See
 `science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md`.
+
+### 2026-07-25 routed-memory control
+
+The entangled absorption probe independently reproduces the essential route
+control in the smallest Bell fixture: a route bit can flip a joint
+correlation while leaving local marginals unchanged, but the controlled
+unitary and inverse predict and remove the entire difference. Consequently a
+route- or merger-order effect does not become perspectival curvature merely
+because it is invisible in endpoint marginals. The live curvature candidate
+must survive routed process tomography, vertex-gauge changes, benign
+subdivision, known dynamical/geometric phases, and complete memory reset.
 
 ## CONCEPT-DU-007 — informational distance and reality bandwidth
 
@@ -965,6 +995,17 @@ the **project-or-lift** conjecture—public finality either removes a
 noninvariant distinction or lifts sufficient provenance—but stop using
 completion-count reduction alone as a thermodynamic quantity.
 
+### 2026-07-25 residual-cost routing
+
+The entangled layered-finality registry keeps reconciliation cost active only
+after the finite control registers are explicit. Threshold crossing,
+history-label update and route reconciliation are ordinary physical
+operations whose erasure, blank archives, communication, authentication,
+coherence and latency must first be priced. The cheapest useful next result
+is a resource-constrained lower bound between protocols with the same
+certified distinctions and final capability; calorimetry is premature until
+that bound survives reversible implementation.
+
 ## CONCEPT-DU-009 — protected public-fact phases
 
 - **Concept (articulation-invariant).** A private distinction can become a
@@ -1042,6 +1083,18 @@ resolvers—rejecting, repairing, recording, or quotienting inconsistent
 cycles—rather than merely adding redundant votes. The next test must extend
 the statement to noisy, noninvertible, adversarial protocols and a coherent
 quantum route without changing its meaning.
+
+### 2026-07-25 finite-label versus scaling-phase boundary
+
+A threshold flag and a hysteresis bit over any fixed finite record graph embed
+as ordinary classical preprocessing and retained memory in a
+classical-quantum process. Therefore neither a sharp finite rule nor a
+metastable label alone establishes a public-fact phase or a quantum
+deviation. The live candidate requires a declared growing family, a
+subdivision-invariant order parameter, held-out finite-size scaling, matched
+local channels and resources, and a residual beyond ordinary decoherence,
+QEC, percolation, consensus and thermodynamic criticality. This routes back
+to `PRED-DU-001/002`; it does not create a duplicate prediction.
 
 ## CONCEPT-DU-010 — observer identity as record colimit
 

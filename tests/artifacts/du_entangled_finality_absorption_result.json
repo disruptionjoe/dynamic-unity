@@ -1,0 +1,265 @@
+{
+  "candidate_registry": {
+    "actualization_cost": {
+      "best_method": "resource-constrained protocol optimization with reversible constructions before calorimetry",
+      "cheap_kill": "reversible implementation and complete ordinary resource accounting eliminate the residual",
+      "first_decisive_assay": "matched reversible reconciliation protocols with a complete resource ledger and calorimetric upper bound",
+      "promotion_condition": "strict residual lower bound depends on certified distinctions after equal capability and all ordinary resources are matched",
+      "repo_route": "H-CCR-07 / HC-DU-035B / CONCEPT-DU-008",
+      "scale_condition": "an encoding-invariant lower bound predicts a cross-platform ratio without refitting",
+      "standard_absorber": "Landauer erasure, measurement work, blank archives, authentication, communication, coherence, and latency"
+    },
+    "capability_backreaction": {
+      "best_method": "derive a causal/Hamiltonian no-coupling theorem and an explicit capability-sourced interaction before apparatus",
+      "cheap_kill": "any coupling, leakage, controller-state change, or observer-boundary refit explains the effect",
+      "first_decisive_assay": "randomized physically present but isolated recovery hardware with identical system channels and leakage bounds",
+      "promotion_condition": "unused capability changes outcomes despite an experimentally null interaction channel",
+      "repo_route": "H-CCR-05/06 / CONCEPT-DU-005",
+      "scale_condition": "a nonzero law is explicit, no-signalling-safe, and not a disguised apparatus interaction",
+      "standard_absorber": "stray controller coupling, changed boundary, changed tester, or ordinary closed-loop feedback"
+    },
+    "finality_memory_residual": {
+      "best_method": "randomized pre-break history, replacement causal break, nested memory-boundary expansion, and all-port tomography",
+      "cheap_kill": "the residual vanishes after one omitted memory or route register is reset, or the complete process predicts it",
+      "first_decisive_assay": "causal break plus system-and-memory re-preparation followed by the same Bell-correlation tester",
+      "promotion_condition": "residual survives expanding memory completion and a frozen implementation-complete quantum-process null",
+      "repo_route": "H-CCR-15 / PRED-DU-003 / CONCEPT-DU-005",
+      "scale_condition": "survives nested memory completion, leakage bounds, no-signalling, and a frozen effect-size estimator",
+      "standard_absorber": "retained environment, controller, route, or classical history register represented in a process tensor"
+    },
+    "graph_threshold_actualization": {
+      "best_method": "process-equivalent graph pairs where possible, plus matched up/down sweeps, exact uncomputation, and held-out finite-size scaling against graph-dependent quantum rivals",
+      "cheap_kill": "retained labels, ordinary graph-dependent dynamics, decoherence, known criticality, or node-count convention explains the curves",
+      "first_decisive_assay": "an invariant graph term predicts a residual beyond the calibrated routed quantum process, ideally between process-equivalent implementations",
+      "promotion_condition": "finite-size scaling or hysteresis remains after the complete channel, history register, and resource model predicts zero",
+      "repo_route": "PRED-DU-001/002 / CONCEPT-DU-009",
+      "scale_condition": "one order parameter and scaling relation predicts held-out sizes without platform-specific redefinition",
+      "standard_absorber": "classical threshold logic, finite memory, ordinary decoherence, QEC, or a thermodynamic critical family"
+    },
+    "reconciliation_curvature": {
+      "best_method": "quantum-comb or groupoid formulation, routed process tomography, vertex-gauge quotient, orientation reversal, and benign subdivision",
+      "cheap_kill": "the route register, ordinary gate sequence, clock mismatch, or known geometric phase predicts the loop result",
+      "first_decisive_assay": "three-recorder closed loop with routed process tomography, vertex-gauge changes, and benign subdivision controls",
+      "promotion_condition": "gauge- and refinement-invariant residue survives the implementation-complete routed process",
+      "repo_route": "H-CCR-13 / CONCEPT-DU-006",
+      "scale_condition": "the residue composes under loop concatenation and remains gauge- and refinement-invariant",
+      "standard_absorber": "route register, noncommuting operation order, process memory, reference-frame transformation, or geometric phase"
+    },
+    "record_sourced_geometry": {
+      "best_method": "derive a local covariantly conserved, refinement-invariant source tensor with units before designing an apparatus",
+      "cheap_kill": "the source is nonconserved, observer/basis dependent, subdivision sensitive, or ordinary stress-energy",
+      "first_decisive_assay": "derive a covariantly conserved source before any apparatus proposal; then match stress-energy in a mesoscopic control",
+      "promotion_condition": "conserved nonzero signal remains after standard gravitational and open-system sources are matched",
+      "repo_route": "HC-DU-038/040 / CONCEPT-DU-008",
+      "scale_condition": "the theory closes and gives a coefficient range not already excluded before a matched-stress-energy experiment",
+      "standard_absorber": "stress-energy, entropy redistribution, control fields, ordinary decoherence, and representation-dependent record count"
+    }
+  },
+  "causal_break_memory_control": {
+    "apparent_post_break_xx_residual": {
+      "0": 1.0,
+      "1": -1.0
+    },
+    "complete_memory_reset_removes_residual": true,
+    "declared_ab_state_after_break": "same Bell state for both histories",
+    "future_xx_after_complete_memory_reset": {
+      "0": 1.0,
+      "1": 1.0
+    },
+    "genuine_extension_requirement": "repeatable residual after re-preparing the system and every admitted quantum/classical memory and after an implementation-complete multi-time process null",
+    "omitted_memory_produces_residual": true,
+    "omitted_memory_states": {
+      "0": "|0>",
+      "1": "|1>"
+    },
+    "remote_b_marginals_equal": true,
+    "standard_quantum_diagnosis": "APPARENT_HISTORY_EFFECT_ABSORBED_BY_RETAINED_MEMORY_REGISTER"
+  },
+  "check_count": 18,
+  "checks": {
+    "all_candidate_families_have_best_approach": true,
+    "bell_joint_correlations_reproduced": true,
+    "bell_local_states_maximally_mixed": true,
+    "complete_memory_reset_removes_residual": true,
+    "exact_record_uncomputation_restores_state": true,
+    "finite_hysteresis_embeds_as_memory": true,
+    "finite_threshold_embeds_as_classical_control": true,
+    "history_controlled_channel_is_cptp": true,
+    "local_record_operation_changes_joint_coherence": true,
+    "local_record_operation_does_not_signal": true,
+    "local_record_operation_is_trace_preserving": true,
+    "naive_nonlinear_escape_exposes_signalling": true,
+    "nonorthogonal_broadcasting_rejected": true,
+    "omitted_memory_creates_apparent_causal_break_residual": true,
+    "omitted_memory_residual_does_not_signal": true,
+    "orthogonal_pointer_records_fan_out": true,
+    "route_phase_embeds_with_route_register": true,
+    "route_uncomputation_removes_route_effect": true
+  },
+  "claim_grade": "ANALYTIC FINITE STANDARD-QUANTUM ABSORPTION CONTROL / DETERMINISTIC NUMERICAL FIXTURE / CONDITIONAL EXTENSION REGISTRY / NO NEW-PHYSICS CLAIM",
+  "does_not_establish": [
+    "a physically real finality-memory variable",
+    "a graph-triggered objective collapse law",
+    "perspectival or reconciliation curvature",
+    "a public-fact phase transition",
+    "actualization heat or optionality cost",
+    "capability backreaction",
+    "record-sourced gravity or causal geometry",
+    "exhaustion of every standard quantum completion",
+    "a novel theorem component",
+    "record-first ontology"
+  ],
+  "entanglement_baseline": {
+    "both_marginals_maximally_mixed": true,
+    "chsh_value": 2.8284271247461894,
+    "joint_xx_after_local_dephasing": 0.0,
+    "local_dephasing_kraus_complete": true,
+    "marginal_a": [
+      [
+        0.4999999999999999,
+        0.0
+      ],
+      [
+        0.0,
+        0.4999999999999999
+      ]
+    ],
+    "marginal_b": [
+      [
+        0.4999999999999999,
+        0.0
+      ],
+      [
+        0.0,
+        0.4999999999999999
+      ]
+    ],
+    "remote_marginal_unchanged_by_local_dephasing": true,
+    "state": [
+      [
+        0.4999999999999999,
+        0.0,
+        0.0,
+        0.4999999999999999
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.4999999999999999,
+        0.0,
+        0.0,
+        0.4999999999999999
+      ]
+    ],
+    "xx_expectation": 1.0,
+    "zz_expectation": 1.0
+  },
+  "failure_count": 0,
+  "failures": [],
+  "finite_absorption_boundary": {
+    "consequences": [
+      "finite threshold, hysteresis, provenance, and route-label effects are not by themselves beyond quantum theory",
+      "a residual after a system-only reset first witnesses an incomplete memory boundary, not a new law",
+      "a genuinely beyond-standard claim must survive an implementation-complete causal break or explicitly change the linear quantum dynamics",
+      "naive preparation-context nonlinear dynamics can violate no-signalling and therefore fails the entanglement gate"
+    ],
+    "novelty_grade": "KNOWN CONTROLLED-CHANNEL/STINESPRING/PROCESS-MEMORY TERRAIN; USEFUL DU PROGRAM BOUNDARY",
+    "statement": "A finite classical history/finality label and a label-conditioned family of linear CPTP maps form an ordinary classical-quantum controlled process on an enlarged state."
+  },
+  "no_broadcasting_control": {
+    "nonorthogonal_input_overlap": 0.7071067811865475,
+    "perfect_broadcast_by_one_fixed_unitary_impossible": true,
+    "required_output_overlap_for_two_perfect_copies": 0.4999999999999999,
+    "scope": "orthogonal pointer labels may be copied; an arbitrary noncommuting quantum state may not",
+    "unitary_inner_product_gap": 0.20710678118654757
+  },
+  "nonlinear_no_signalling_control": {
+    "disposition": "NAIVE_ENSEMBLE_DEPENDENT_NONLINEAR_ESCAPE_FAILS_NO_SIGNALLING",
+    "remote_preparation_choice_becomes_detectable": true,
+    "scope_warning": "this finite counterexample does not rule out every carefully constructed stochastic or global nonlinear theory",
+    "x_ensemble_output_z_expectation": 1.0,
+    "z_and_x_ensembles_same_density": true,
+    "z_ensemble_output_z_expectation": 0.0
+  },
+  "probe": "du_entangled_finality_absorption_probe",
+  "record_fanout_and_uncompute": {
+    "all_finite_record_counts_reset_exactly": true,
+    "joint_xx_while_records_retained": 0.0,
+    "orthogonal_pointer_label_redundantly_copied": true,
+    "per_record_count_reset_distance": {
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+    },
+    "record_count": 3,
+    "uncompute_state_distance": 0.0
+  },
+  "route_phase_absorption": {
+    "absorption_result": "ROUTE_PHASE_IS_STANDARD_WHEN_THE_ROUTE_REGISTER_IS_RETAINED",
+    "controlled_route_unitary": true,
+    "route_conditioned_xx": {
+      "0": 1.0,
+      "1": -1.0
+    },
+    "route_register_predicts_difference": true,
+    "route_uncompute_distances": {
+      "0": 0.0,
+      "1": 0.0
+    },
+    "route_uncompute_removes_difference": true
+  },
+  "run_id": "RUN-20260725-053806-entangled-finality-absorption-boundary",
+  "schema_version": "1.0",
+  "threshold_hysteresis_absorption": {
+    "absorption_result": "FINITE_THRESHOLD_AND_HYSTERESIS_EMBED_AS_A_STANDARD_CQ_PROCESS",
+    "finite_hysteresis_is_one_retained_memory_bit": true,
+    "finite_threshold_is_classical_preprocessing": true,
+    "history_one_dephases_x": 0.0,
+    "history_zero_preserves_x": 1.0,
+    "hysteresis_input": [
+      0,
+      3,
+      1,
+      0,
+      4,
+      0
+    ],
+    "hysteresis_memory": [
+      0,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "kraus_complete": true,
+    "record_counts": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "threshold": 3,
+    "threshold_flags": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1
+    ]
+  },
+  "verdict": "FINITE_FINALITY_LABELS_ABSORBED / CAUSAL_BREAK_RESIDUAL_IS_THE_SHARP_FRONTIER / ENTANGLEMENT_GATE_INSTALLED"
+}

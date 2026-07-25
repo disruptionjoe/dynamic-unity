@@ -807,6 +807,7 @@ Only after the preceding dependencies:
 | `H-CCR-12` | At least one normalized certification/finality quantity retains the same operational meaning across quantum and distributed fixtures. | Every mapping requires a platform-specific redefinition. |
 | `H-CCR-13` | For independently formed reconciliation maps, path-independent public facts and safe actions are carried by a holonomy-invariant/equalizer object; preserving a noninvariant task distinction requires accessible provenance or residual route structure. | A fork-safe path-independent action uses a noninvariant distinction after complete process matching, with neither provenance nor retained route structure. |
 | `H-CCR-14` | Added authenticated connectivity can expose loop frustration and reduce path-independent public capacity; a harder finality layer restores capability only by rejecting, repairing, recording, or quotienting the loop syndrome. | The effect disappears in every noisy, adversarial, and physical realization once the full protocol and resource ledger are frozen. |
+| `H-CCR-15` | Every finite layered-finality effect either factors through an enlarged standard quantum process carrying its history, route, environment and control registers, or leaves a finite post-causal-break witness after all admitted quantum and classical memories are re-prepared while entanglement and no-signalling are preserved. | A retained register, incomplete process boundary or signalling nonlinear rule absorbs every proposed residual. |
 
 ## Dependency order
 
@@ -828,6 +829,9 @@ Only after the preceding dependencies:
         |
 3a'. finite holonomy/public-fact/project-or-lift baseline [COMPLETED]
         |
+3a''. entangled finite finality-label absorption boundary [COMPLETED CONTROL]
+      post-causal-break finality-memory residual [OPEN CONDITIONAL EXTENSION]
+        |
 3b. HC-DU-036B finite history-certificate compiler [COMPLETED PILOT]
     HC-DU-036B stochastic matrix/protocol transfer [COMPLETED SCOPED PILOT]
     HC-DU-033/034B robust physical interface selection, proper-time implementation
@@ -846,6 +850,17 @@ Only after the preceding dependencies:
 This dependency map is scientific, not an administrative pipeline. A negative
 result can bypass later positive reconstruction and directly identify a
 physical remainder.
+
+**`H-CCR-15` control grade (2026-07-25).** The finite classical-quantum
+absorption direction is exact: a retained finite history label selecting
+linear CPTP maps is an ordinary controlled quantum process. The executable
+Bell, record-fanout, route, causal-break and no-signalling fixtures pass
+`18/18`. This establishes a control boundary, not the converse and not a new
+physical law. The live target is a repeatable residual after an
+implementation-complete causal break resets every admitted quantum and
+classical memory. See
+`explorations/entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`
+and `tests/du_entangled_finality_absorption_probe.py`.
 
 ## Common benchmark suite
 

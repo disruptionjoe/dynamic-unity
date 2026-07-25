@@ -3,7 +3,7 @@ title: "Dynamic Unity prediction register — Lane 4.2 pre-seed holding state"
 status: active_research
 doc_type: register
 created: 2026-07-21
-revised: 2026-07-24
+revised: 2026-07-25
 note: "Tracks scientific prediction hardening independently from cheap Drafting Factory paper-opportunity intake. Registration, Factory seeding, scientific hardening, drafting, and publication are distinct."
 ---
 
@@ -139,6 +139,55 @@ justified smooth-slope bound or another mechanism-specific observable. See
   its prize being that a covariant objective-collapse candidate evades the standard Lorentz tension.
   Its shared conditional Factory merge-review seed does not clear its own H1'
   (the AQFT-net embedding) or the shared scientific gate.
+
+### PRED-DU-003 — post-causal-break finality-memory residual
+
+- **State: SEAM / CONDITIONAL EXTENSION / ABSORPTION-FIRST.**
+- **Assumption (explicit).** In addition to the implementation-complete
+  standard quantum process, there is a physical finality state \(F\) that can
+  retain certified-history dependence across a declared causal-break
+  instrument.
+- **The claim (conditional).** There exist two pre-break histories
+  \(h_0,h_1\), a physically complete replacement operation that prepares the
+  same system state and every admitted quantum/classical memory state after
+  either history, and a later joint observable \(O\) such that
+  \[
+  \Delta_F =
+  |\mathbb E[O\mid h_0,\operatorname{do}(B)]
+   -\mathbb E[O\mid h_1,\operatorname{do}(B)]| > \epsilon_{\rm null},
+  \]
+  while the declared spacelike local marginals remain equal. The extension
+  therefore changes a joint entanglement statistic without enabling
+  signalling.
+- **Standard absorber.** A retained environment, controller, clock, detector,
+  reference-frame, route, provenance or classical history register in the
+  multi-time process. The exact finite probe constructs this apparent
+  residual with one omitted bit and removes it when that bit is reset.
+- **Best approach.** Use the smallest Bell-pair/process-tensor fixture.
+  Randomize pre-break history, perform a replacement causal break, expand the
+  reset boundary adversarially, execute all-port tomography and one frozen
+  joint-correlation test, and report a leakage-calibrated confidence interval
+  for \(\Delta_F\). Do not fit an extra finality variable until the completed
+  quantum-process null predicts zero or a tight bound.
+- **Cheap kill.** Retire the tested form if the residual vanishes under one
+  omitted-memory reset, is predicted by the routed implementation, depends
+  on preparation ensemble rather than density/process state, changes a
+  remote marginal, or shrinks with the leakage bound.
+- **Hardening checklist.**
+  1. specify a physically realizable causal-break instrument and its reset
+     boundary;
+  2. freeze the standard process, memory, route and detector rival class;
+  3. derive a dimensioned effect-size law and null bound;
+  4. prove no-signalling and covariance/locality for the proposed extension;
+  5. preregister history randomization, joint statistic, marginal checks and
+     stop rule; and
+  6. reproduce the residual under at least one larger admitted-memory model.
+- **Source pointers.**
+  `entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`;
+  `tests/du_entangled_finality_absorption_probe.py`; `H-CCR-15`.
+- **Disposition.** Registered only as a prediction-shaped conditional seam.
+  No physical residual, new law, ontology choice, paper seed or Factory state
+  is established.
 
 ---
 
