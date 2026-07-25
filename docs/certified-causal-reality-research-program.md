@@ -817,6 +817,36 @@ reopener is a physically derived formed-sharp instrument class plus a
 pairwise-to-global instrument descent theorem or obstruction. See
 `../explorations/quantum-strength-selection-frontier-gate-2026-07-25.md`.
 
+**Executed formed-sharp selection boundary.** The implementation-complete
+binary QND control now passes `34/34`. Relative to an independently frozen
+source algebra and supplied candidate coupling, exact repeatability earns the
+aligned sharp PVM in the tested family. The same formation, access,
+provenance, nondisturbance and resource language does not generate the
+coupling or basis, and a sharp PVM still does not select a unique selective
+continuation inside degenerate sectors. Archive noise separately makes the
+final observer-accessible POVM unsharp.
+
+The `36/36` descent control closes the abstract shortcut. For PVMs on one
+common quantum system, pairwise joint measurability already entails one global
+joint PVM by standard spectral theory. Cyclic locally sharp-looking archives
+with no global extension therefore diagnose missing common occurrence
+identity; they do not furnish a sharp-quantum counterexample. Unsharp
+\(\eta=2/3\) Pauli \(X/Y/Z\) measurements supply the standard pairwise-but-not-
+triple control, while equal sharp effects remain insufficient for selective-
+map identity or held-out continuation identity.
+
+The `16/16` hostile gate makes the remaining selection gap exact:
+contextwise sharp dilation is universal by Naimark, whereas one full-cover
+common commuting dilation is equivalent to global joint measurability.
+Specker's principle conditionally excludes almost quantum by known work, but
+the current physical model does not derive that principle
+theory-independently and does not select full quantum theory. The next target
+is therefore a robust physical instrument-selection theorem or no-go under a
+frozen source process, admissible coupling and perturbation classes,
+action algebra, decoder, resources, and matched conjugate/continuation foils.
+See
+`../explorations/formed-sharp-descent-swing-synthesis-2026-07-25.md`.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -1363,16 +1393,22 @@ because it is covariant.
    bounds, join-tree gluing, cyclic obstruction, recursive vector contract,
    certificate-nondisclosure control, and inert-subdivision naturality
    counterexample;
-4. derive a robust physically formed sharp-instrument class from independently
-   frozen provenance, operational equivalence, nondisturbance, repeatability,
-   causal-break, access, resource, and disturbance evidence;
-5. prove or obstruct global action-sufficient descent for pairwise compatible
-   instruments, with the probability-level LO/CE and standard PVM/Specker
-   results as absorbers;
-6. scale exact compilation with acyclic/junction-tree decomposition or
+4. retain the completed formed-sharp selection boundary: source-relative
+   nondisturbance plus exact repeatability earns the aligned PVM only inside
+   the frozen binary QND family, while coupling, context-independent identity,
+   selective continuation, and end-to-end archive sharpness remain open;
+5. derive or refute robust physical selection of one instrument orbit from a
+   predeclared source process, admissible coupling and perturbation classes,
+   action algebra, decoder, resources, and matched conjugate/continuation
+   foils; use coherent context switching with every route and environment port
+   retained;
+6. treat common sharp-PVM pairwise-to-global descent, Naimark dilation,
+   Specker, join-tree gluing, cyclic obstruction, and almost-quantum exclusion
+   as absorbers rather than theorem targets;
+7. scale exact compilation with acyclic/junction-tree decomposition or
    certificate-preserving column generation, using the current exhaustive
    compiler as the oracle;
-7. stop before geometry or beyond-standard physics if region selection is
+8. stop before geometry or beyond-standard physics if region selection is
    target-defined or every obstruction is absorbed by known marginal,
    process-tensor, controller, QEC, or protocol structure.
 

@@ -1,0 +1,212 @@
+{
+  "check_count": 36,
+  "checks": {
+    "AB_coarse_certificate_is_not_sufficient_for_parity": true,
+    "QND_selective_map_is_repeatable": true,
+    "common_archive_global_products_are_singletons": true,
+    "common_archive_global_pvm_is_normalized": true,
+    "common_archive_global_pvm_is_orthogonal": true,
+    "common_archive_regional_effects_are_sharp": true,
+    "common_archive_regional_effects_pairwise_commute": true,
+    "common_archive_selective_filters_are_repeatable": true,
+    "context_instruments_are_master_coarse_grainings": true,
+    "cycle_cannot_be_common_sharp_archive": true,
+    "cycle_contexts_are_individually_valid": true,
+    "cycle_has_exact_overlap_agreement": true,
+    "cycle_has_no_global_extension": true,
+    "cycle_has_nonzero_z2_obstruction": true,
+    "cycle_obstruction_survives_benign_cover_refinement": true,
+    "cycle_obstruction_survives_inert_subdivision": true,
+    "cycle_obstruction_survives_relabeling": true,
+    "effect_identical_flip_map_is_not_repeatable": true,
+    "effect_identity_does_not_force_map_identity": true,
+    "global_archive_is_sufficient_for_parity_action": true,
+    "held_out_continuation_separates_instruments": true,
+    "join_tree_gluing_is_normalized": true,
+    "join_tree_gluing_reproduces_contexts": true,
+    "join_tree_separator_marginals_match": true,
+    "orthogonal_sharp_pair_is_not_jointly_measurable": true,
+    "positive_cover_refinement_is_natural": true,
+    "positive_inert_subdivision_is_natural": true,
+    "positive_relabeling_is_natural": true,
+    "quieter_eta_control_has_global_joint": true,
+    "specker_effects_are_valid": true,
+    "specker_eta_two_thirds_fails_triple_dual_bound": true,
+    "specker_foil_is_explicitly_unsharp": true,
+    "specker_pair_marginals_are_exact": true,
+    "specker_pairs_have_positive_joint_POVMs": true,
+    "specker_triple_joint_does_not_exist": true,
+    "unequal_total_channels_block_common_output_joint_instrument": true
+  },
+  "claim_grade": "EXACT FINITE COMMON-COMMUTATIVE CONSTRUCTION + SHARP-PVM ABSORBER + TYPED-INSTRUMENT AND CYCLIC/SPECKER OBSTRUCTIONS / PHYSICAL FORMATION OPEN / COMPONENT MATHEMATICS KNOWN",
+  "common_commutative_descent": {
+    "context_maps_are_exact_master_coarse_grainings": true,
+    "fixture": "three binary records are deterministic quotients of one formed eight-outcome commutative archive",
+    "global_product_projectors_equal_archive_singletons": true,
+    "global_pvm_is_normalized": true,
+    "global_pvm_is_orthogonal": true,
+    "join_tree": {
+      "contexts": [
+        "AB",
+        "BC"
+      ],
+      "glued_distribution": {
+        "(0, 0, 0)": "1/8",
+        "(0, 0, 1)": "1/8",
+        "(0, 1, 0)": "1/8",
+        "(0, 1, 1)": "1/8",
+        "(1, 0, 0)": "1/8",
+        "(1, 0, 1)": "1/8",
+        "(1, 1, 0)": "1/8",
+        "(1, 1, 1)": "1/8"
+      },
+      "glued_is_normalized": true,
+      "glued_reproduces_contexts": true,
+      "separator_marginals_match": true
+    },
+    "known_absorber": "For finite sharp PVMs on one common Hilbert space, pairwise joint measurability implies pairwise commutation, and products of the commuting projections form the global joint PVM.",
+    "naturality": {
+      "benign_cover_refinement_AC_is_reproduced": true,
+      "deterministic_relay_is_bijective_and_action_inert": true,
+      "outcome_and_region_relabeling_preserves_normalization": true
+    },
+    "physical_formation_status": "independently supplied precondition; not derived by this branch",
+    "regional_projectors_are_idempotent": true,
+    "regional_projectors_pairwise_commute": true,
+    "regional_selective_filters_are_repeatable": true,
+    "state": {
+      "(0, 0, 0)": "1/8",
+      "(0, 0, 1)": "1/8",
+      "(0, 1, 0)": "1/8",
+      "(0, 1, 1)": "1/8",
+      "(1, 0, 0)": "1/8",
+      "(1, 0, 1)": "1/8",
+      "(1, 1, 0)": "1/8",
+      "(1, 1, 1)": "1/8"
+    },
+    "upper_action": {
+      "AB_only_error": "1/2",
+      "action": "A xor B xor C",
+      "full_archive_error": "0",
+      "interpretation": "global compatibility does not itself make every exported coarse certificate sufficient for every upper action"
+    }
+  },
+  "cyclic_full_cover_obstruction": {
+    "all_singleton_overlap_marginals_match": true,
+    "common_sharp_archive_realization_exists": false,
+    "contexts": {
+      "AB": {
+        "(0, 0)": "1/2",
+        "(0, 1)": "0",
+        "(1, 0)": "0",
+        "(1, 1)": "1/2"
+      },
+      "BC": {
+        "(0, 0)": "1/2",
+        "(0, 1)": "0",
+        "(1, 0)": "0",
+        "(1, 1)": "1/2"
+      },
+      "CA": {
+        "(0, 0)": "0",
+        "(0, 1)": "1/2",
+        "(1, 0)": "1/2",
+        "(1, 1)": "0"
+      }
+    },
+    "diagnosis": "This is not a counterexample to common-system sharp quantum descent. It proves that contextwise sharp relations and overlap agreement do not establish one common occurrence/archive identity; a common sharp-PVM realization would already have a global joint observable.",
+    "each_context_is_normalized": true,
+    "global_assignment_count": 0,
+    "global_extension_exists": false,
+    "naturality": {
+      "adding_redundant_singleton_marginals_cannot_repair": true,
+      "inert_relay_subdivision_preserves_obstruction": true,
+      "outcome_relabeling_preserves_obstruction": true
+    },
+    "z2_obstruction": 1
+  },
+  "does_not_establish": [
+    "physical selection of a sharp record instrument",
+    "a new joint-measurability or contextuality theorem",
+    "exclusion of almost-quantum correlations by a new principle",
+    "public finality, emergent geometry, or record-first ontology"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "novelty_grade": {
+    "dynamic_unity_increment": "an unchanged typed descent contract joining independently formed provenance, selective-map and continuation identity, full-cover compatibility, upper-action sufficiency, and benign-refinement naturality",
+    "known": [
+      "pairwise-to-global joint measurability for sharp PVMs",
+      "Vorobev/join-tree marginal extension",
+      "cyclic contextuality and sheaf/database obstruction",
+      "Specker pairwise-but-not-global unsharp POVMs",
+      "selective instrument versus effect identity",
+      "sufficient-statistic action factorization"
+    ],
+    "paper_status": "NO NEW THEOREM CLAIM FROM BRANCH B ALONE; novelty depends on branch A physically deriving a non-supplied instrument class or a stricter bound"
+  },
+  "probe": "du_formed_sharp_descent_probe",
+  "run_id": "RUN-20260725-110735-formed-sharp-descent",
+  "schema_version": "dynamic-unity/formed-sharp-descent/v0.1",
+  "strongest_honest_result": {
+    "conditional_descent": "Once physical formation and common selective-map identity are independently earned, global action-sufficient descent requires a full-cover extension plus separate action factorization; join trees provide an automatic probability extension, cycles do not.",
+    "general_effects_or_instruments": "Pairwise compatibility is insufficient. The exact unsharp qubit and typed selective-map controls show two distinct failures.",
+    "sharp_common_system": "Pairwise compatibility already gives global compatibility for finite sharp PVMs on one common system; this is known."
+  },
+  "typed_instrument_identity": {
+    "common_output_joint_instrument_impossible": true,
+    "flip_outcome_zero_is_not_repeatable": true,
+    "flip_total_channel": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "held_out_continuation_distinguishes": true,
+    "qnd_outcome_zero_is_repeatable": true,
+    "qnd_total_channel": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "reason": "Any one-output joint instrument has one total channel, so exact selective-map marginals cannot equal instruments with unequal total channels.",
+    "same_sharp_effects": true,
+    "selective_maps_differ": true,
+    "total_channels_are_identity_and_flip": true
+  },
+  "unsharp_qubit_specker_obstruction": {
+    "all_three_pairs_have_explicit_positive_joint_POVMs": true,
+    "diagnosis": "Pairwise-to-global fails for general unsharp effects. This is standard Specker/joint-measurability terrain, not a failure of the common-system sharp-PVM theorem.",
+    "effects_are_positive_and_normalized": true,
+    "eta": "2/3",
+    "observables": "three unbiased binary qubit POVMs along orthogonal Pauli axes",
+    "orthogonal_sharp_eta_one_pair_candidate_is_not_positive": true,
+    "pairwise_joint_marginals_are_exact": true,
+    "pairwise_positivity_exact_check": {
+      "condition": "2 eta^2 <= 1",
+      "left": "8/9",
+      "right": "1"
+    },
+    "quieter_eta_one_half_has_explicit_triple_joint": true,
+    "triple_joint_dual_certificate": {
+      "derivation": "For any joint POVM G_s, sum_s s_i G_s = eta sigma_i. Then 3 eta = (1/2) sum_s Tr[(s dot sigma)G_s] <= sqrt(3), since lambda_max(s dot sigma)=sqrt(3).",
+      "left": "2",
+      "left_squared": "4",
+      "necessary_condition": "3 eta <= sqrt(3)",
+      "right_squared": 3,
+      "violated": true
+    },
+    "triple_joint_exists": false,
+    "unsharpness_is_essential_to_this_foil": true
+  },
+  "verdict": "COMMON-SHARP DESCENT ABSORBED BY STANDARD SPECTRAL THEORY / CYCLIC FIXTURE DIAGNOSES FAILED COMMON ARCHIVE IDENTITY / GENERAL UNSHARP AND SELECTIVE-INSTRUMENT PAIRWISE-TO-GLOBAL FAILURES EXACT / DU-SPECIFIC VALUE REMAINS THE TYPED PHYSICAL FORMATION-TO-ACTION CONJUNCTION"
+}

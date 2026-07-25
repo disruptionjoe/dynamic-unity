@@ -1,0 +1,833 @@
+{
+  "checks": [
+    {
+      "name": "target global projective model is normalized",
+      "pass": true
+    },
+    {
+      "name": "target pair marginals are normalized",
+      "pass": true
+    },
+    {
+      "name": "target pair marginals descend from one global model",
+      "pass": true
+    },
+    {
+      "name": "target binary projector supports partition the sample space",
+      "pass": true
+    },
+    {
+      "name": "target coordinate projectors commute as set intersections",
+      "pass": true
+    },
+    {
+      "name": "Specker context distributions are normalized",
+      "pass": true
+    },
+    {
+      "name": "Specker repeated one-site marginals agree across contexts",
+      "pass": true
+    },
+    {
+      "name": "Specker one-site marginals are uniform",
+      "pass": true
+    },
+    {
+      "name": "Specker context-local archives are exactly repeatable",
+      "pass": true
+    },
+    {
+      "name": "Specker anti-correlation cover has no global assignment",
+      "pass": true
+    },
+    {
+      "name": "context splitting yields a normalized completion",
+      "pass": true
+    },
+    {
+      "name": "context-split completion reproduces every local archive",
+      "pass": true
+    },
+    {
+      "name": "eta=2/3 noisy Pauli effects are individually positive",
+      "pass": true
+    },
+    {
+      "name": "eta=2/3 noisy orthogonal Pauli pairs meet exact pair criterion",
+      "pass": true
+    },
+    {
+      "name": "eta=2/3 noisy orthogonal Pauli triple fails exact triple criterion",
+      "pass": true
+    },
+    {
+      "name": "pairwise compatibility is strictly separated from triple compatibility",
+      "pass": true
+    }
+  ],
+  "does_not_establish": [
+    "a new joint-measurability or contextuality theorem",
+    "that pointer/archive formation selects system-level sharpness",
+    "a theory-independent derivation of Specker's principle",
+    "exclusion of every post-quantum theory",
+    "unique reconstruction of ordinary quantum theory",
+    "new physics or record-first ontology"
+  ],
+  "finite_controls": {
+    "context_split_absorber": {
+      "completion": [
+        {
+          "outcome": [
+            0,
+            1,
+            0,
+            1,
+            0,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            0,
+            1,
+            1,
+            0,
+            0,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        }
+      ],
+      "coordinate_order": [
+        "A_AB",
+        "B_AB",
+        "B_BC",
+        "C_BC",
+        "C_CA",
+        "A_CA"
+      ],
+      "global_support_size": 8,
+      "meaning": "Formation and repeatable archival in each context do not select identity of repeated occurrences.",
+      "reproduces_local_contexts": true
+    },
+    "noisy_pauli_specker_triangle": {
+      "criterion_scope": "known necessary-and-sufficient criterion for three equally noisy, unbiased, orthogonal binary qubit POVMs",
+      "eta": {
+        "denominator": 3,
+        "numerator": 2
+      },
+      "eta_squared": {
+        "denominator": 9,
+        "numerator": 4
+      },
+      "pair_joint_coefficients": {
+        "XY": {
+          "+1,+1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": 1
+            }
+          },
+          "+1,-1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": -1
+            }
+          },
+          "-1,+1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": -1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": 1
+            }
+          },
+          "-1,-1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": -1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": -1
+            }
+          }
+        },
+        "YZ": {
+          "+1,+1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": 1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": 1
+            }
+          },
+          "+1,-1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": 1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": -1
+            }
+          },
+          "-1,+1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": -1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": 1
+            }
+          },
+          "-1,-1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 6,
+              "numerator": -1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": -1
+            }
+          }
+        },
+        "ZX": {
+          "+1,+1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": 1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": 1
+            }
+          },
+          "+1,-1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": -1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": 1
+            }
+          },
+          "-1,+1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": 1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": -1
+            }
+          },
+          "-1,-1": {
+            "I": {
+              "denominator": 4,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 6,
+              "numerator": -1
+            },
+            "Z": {
+              "denominator": 6,
+              "numerator": -1
+            }
+          }
+        }
+      },
+      "pair_marginal_coefficients": {
+        "XY": {
+          "X=+1": {
+            "I": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 3,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 1,
+              "numerator": 0
+            }
+          },
+          "Y=+1": {
+            "I": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "Y": {
+              "denominator": 3,
+              "numerator": 1
+            }
+          }
+        },
+        "YZ": {
+          "Y=+1": {
+            "I": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 3,
+              "numerator": 1
+            },
+            "Z": {
+              "denominator": 1,
+              "numerator": 0
+            }
+          },
+          "Z=+1": {
+            "I": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "Y": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "Z": {
+              "denominator": 3,
+              "numerator": 1
+            }
+          }
+        },
+        "ZX": {
+          "X=+1": {
+            "I": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 3,
+              "numerator": 1
+            },
+            "Z": {
+              "denominator": 1,
+              "numerator": 0
+            }
+          },
+          "Z=+1": {
+            "I": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "X": {
+              "denominator": 1,
+              "numerator": 0
+            },
+            "Z": {
+              "denominator": 3,
+              "numerator": 1
+            }
+          }
+        }
+      },
+      "pairwise_jointly_measurable": true,
+      "three_eta_squared": {
+        "denominator": 3,
+        "numerator": 4
+      },
+      "triplewise_jointly_measurable": false,
+      "two_eta_squared": {
+        "denominator": 9,
+        "numerator": 8
+      }
+    },
+    "ordinary_commuting_projective_target": {
+      "global_distribution": [
+        {
+          "outcome": [
+            0,
+            0,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            0,
+            0,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            0,
+            1,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            0,
+            1,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            0,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            0,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            1,
+            0
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        },
+        {
+          "outcome": [
+            1,
+            1,
+            1
+          ],
+          "probability": {
+            "denominator": 8,
+            "numerator": 1
+          }
+        }
+      ],
+      "pair_distributions": {
+        "AB": [
+          {
+            "outcome": [
+              0,
+              0
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              0,
+              1
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              0
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              1
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          }
+        ],
+        "BC": [
+          {
+            "outcome": [
+              0,
+              0
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              0,
+              1
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              0
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              1
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          }
+        ],
+        "CA": [
+          {
+            "outcome": [
+              0,
+              0
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              0,
+              1
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              0
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              1
+            ],
+            "probability": {
+              "denominator": 4,
+              "numerator": 1
+            }
+          }
+        ]
+      },
+      "sample_space_size": 8
+    },
+    "specker_anticorrelation_cover": {
+      "consistent_global_assignments": [],
+      "context_local_archive_repeatable": true,
+      "pair_distributions": {
+        "AB": [
+          {
+            "outcome": [
+              0,
+              1
+            ],
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              0
+            ],
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            }
+          }
+        ],
+        "BC": [
+          {
+            "outcome": [
+              0,
+              1
+            ],
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              0
+            ],
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            }
+          }
+        ],
+        "CA": [
+          {
+            "outcome": [
+              0,
+              1
+            ],
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            }
+          },
+          {
+            "outcome": [
+              1,
+              0
+            ],
+            "probability": {
+              "denominator": 2,
+              "numerator": 1
+            }
+          }
+        ]
+      },
+      "same_occurrence_global_extension_exists": false
+    }
+  },
+  "landscape_gate": {
+    "absorber": "contextwise sharp dilation is universal by Naimark; a common commuting full-cover dilation is equivalent to global joint measurability. Without independent dynamical selection, the former is too weak and the latter restates descent.",
+    "almost_quantum_disposition": "conditionally excluded if an independently derived, theory-independent formation theorem entails Specker's principle; not excluded by the finite standard-quantum formation model",
+    "candidate_selection_premise": "one predeclared, provenance-preserving, refinement-natural physical dilation whose sharp pointer/archive instruments cover every context without interface refit",
+    "held_out_discriminator": "coherently switch among the three pairwise physical implementations, keep all pointer/environment/provenance ports, and test whether repeated overlap outcomes implement one context-independent selective map and dilation under a single frozen isometry before testing the three-way continuation",
+    "permissive_foils": [
+      "pairwise-compatible but non-global unsharp quantum Specker triangle",
+      "almost-quantum correlations, which survive probability-level LO/CE"
+    ],
+    "quantum_selection_disposition": "not established; Specker excludes one named outer class but does not uniquely recover all quantum states, transformations or correlations",
+    "restrictive_foil": "one noncontextual preassigned global value model for every repeated measurement occurrence",
+    "target_class": "ordinary quantum theory with physically formed projective/Lueders record instruments"
+  },
+  "literature_facts_not_executable_checks": [
+    {
+      "fact": "For sharp quantum observables, pairwise joint measurability implies global joint measurability.",
+      "source": "https://arxiv.org/abs/0811.0783"
+    },
+    {
+      "fact": "Almost-quantum correlations satisfy LO/CE but no theory yielding them can satisfy Specker's principle.",
+      "sources": [
+        "https://arxiv.org/abs/1403.4621",
+        "https://arxiv.org/abs/1712.01225"
+      ]
+    },
+    {
+      "fact": "Repeatability plus minimal disturbance defines sharpness in the cited GPT account; in quantum theory its sharp instruments are Lueders instruments.",
+      "source": "https://arxiv.org/abs/1404.3348"
+    },
+    {
+      "fact": "Three equally noisy orthogonal unbiased qubit observables are triplewise jointly measurable iff 3 eta^2 <= 1.",
+      "source": "https://arxiv.org/abs/1312.6470"
+    },
+    {
+      "fact": "Joint measurability is characterized by commuting Naimark dilations in a common Hilbert space.",
+      "source": "https://arxiv.org/abs/1404.1477"
+    }
+  ],
+  "schema": "dynamic-unity/formed-sharp-quantum-selection-hostile-gate/v0.1",
+  "status": "PASS",
+  "summary": {
+    "passed": 16,
+    "total": 16,
+    "verdict": "CONTEXTWISE_FORMATION_TOO_WEAK__FULL_COVER_COMMON_DILATION_IS_JOINT_MEASURABILITY__NO_QUANTUM_SELECTION_DERIVED"
+  }
+}

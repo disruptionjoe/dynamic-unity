@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 36
+manifest_revision: 37
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -116,7 +116,17 @@ active_hardening_program_note: >-
   naive scalar defect. Probability-level finality collapses to known LO/CE: independent
   composition excludes PR squared by a five-event sum of 5/4 but does not select quantum because
   almost-quantum survives. The live concentrated target is physically formed sharp-instrument
-  descent; no physical law, prediction, ontology, claim or paper state changes.
+  descent; no physical law, prediction, ontology, claim or paper state changes. Revision 37
+  executes that target and returns a selection boundary rather than a new descent theorem. In an
+  explicit binary QND system-pointer-archive circuit, source-relative nondisturbance plus exact
+  repeatability earns the aligned sharp PVM only after the source algebra and candidate coupling
+  are frozen. The coupling, self-relative conjugate basis, degenerate-sector continuation and
+  noisy end-to-end archive remain unselected. Common-system sharp-PVM pairwise-to-global descent
+  is standard spectral theory; contextwise sharp dilation is universal while a full-cover common
+  commuting dilation is equivalent to global joint measurability. The next target is robust
+  physical selection of one instrument orbit under frozen source, coupling, perturbation,
+  action, decoder and resource contracts. No theorem ID, physical law, prediction, ontology,
+  claim or paper state changes.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -688,26 +698,28 @@ certified_causal_reality_restructure:
     RECOVERY OPEN / COMPONENT MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL
     RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
   first_dependency: >-
-    Derive the physical pointer/readout/archive structure that turns a source-selected stable
-    history algebra into a formed sharp certificate instrument. The revision-36 control proves
-    that the two-history coupling selects the QND history algebra but leaves a continuum of
-    selective instruments open; certificate formation therefore cannot be inferred from
-    stability. Freeze repeatability, nondisturbance, provenance, continuation, access, resources
-    and the calibrated implementation class, then prove or obstruct pairwise-to-global
-    action-sufficient descent. HC-DU-035C now supplies the exact typed-identity, full-cover
-    marginal, upper-action and inert-refinement controls. Probability-level LO/CE is closed as a
-    quantum selector because it excludes PR squared but admits almost-quantum. H-CCR-15 still
-    requires every claimed extension to beat the complete enlarged process and memory boundary.
+    Derive or refute robust physical selection of one source-pointer-archive instrument orbit
+    under an independently frozen source process, admissible coupling and perturbation classes,
+    full within-sector action algebra, end-to-end decoder, resource ledger and matched conjugate
+    and continuation foils. Revision 37 shows why this is upstream of descent: source-relative
+    nondisturbance plus exact repeatability earns an aligned PVM only inside a supplied binary QND
+    family; contextwise sharp dilation is universal, while one full-cover common commuting
+    dilation restates global joint measurability. Common-system sharp-PVM pairwise-to-global
+    descent is already standard spectral theory. HC-DU-035C continues to require typed identity,
+    a full-cover compatibility receipt, upper-action factorization and inert-refinement
+    naturality after the physical interface is selected. H-CCR-15 still requires every claimed
+    extension to beat the complete enlarged process and memory boundary.
   first_executable_flagship: >-
-    Freeze the smallest implementation-complete sequential quantum instrument whose physical
-    pointer/archive dynamics can earn sharpness, repeatability, nondisturbance, provenance,
-    continuation and access. Run the existing coherent-history certificate, stochastic
-    factorization, H-CCR-15 causal-break, typed recursive-vector, join-tree, cyclic, ordinary
-    projective-quantum and almost-quantum/Specker controls without semantic refitting. Return a
-    formed-sharp descent theorem, an interface-necessity no-go, a finite obstruction, or an
-    incomplete physical contract. Carry the same vector contract to an authenticated distributed
-    twin. Only after a formed distinction survives every admitted refinement should HC-DU-035B
-    price its conversion into public finality. Do not add more hand-selected histories,
+    Freeze one implementation-complete source Hamiltonian or process, a locality-, symmetry-,
+    energy- and controllability-bounded pointer/archive coupling family, one perturbation and
+    noise class, a full action algebra, an end-to-end decoder and error budget, and matched
+    conjugate-basis and within-sector-twist foils. Coherently switch the competing context
+    implementations while retaining every route, environment and provenance port. Test whether
+    one instrument orbit alone remains source-nondisturbing, repeatable, action-preserving and
+    decodable across the frozen perturbation class. A positive result reopens formed
+    full-cover descent; a negative result localizes the physics-first remainder. Only after a
+    formed distinction survives every admitted refinement should HC-DU-035B price conversion
+    into public finality. Do not add more supplied PVMs, hand-selected histories,
     probability-only quantum principles, Boolean covers, triangle grids, hierarchy labels,
     contextuality restatements or blockchain analogies.
   migration_rule: >-
@@ -1491,6 +1503,68 @@ record_formation_certified_composition_wave:
     CONCEPT-DU-004 and CONCEPT-DU-011 at exact finite-control/general-open grade. Adds no theorem
     ID, hypothesis ID, concept ID, physical law, prediction, ontology, paper priority, Factory
     state, draft, submission, publication or external action.
+formed_sharp_descent_swing:
+  status: completed_scoped_wave
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: save the operational-duality and generative-issuance stories to the Thinking
+    Wiki, then orchestrate the next physically formed sharp-instrument and regional-descent swing.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-110735-formed-sharp-descent/run-plan.md
+  synthesis_ref: >-
+    explorations/formed-sharp-descent-swing-synthesis-2026-07-25.md
+  physical_ref: >-
+    explorations/physically-formed-sharp-instrument-derivation-2026-07-25.md
+  descent_ref: >-
+    explorations/formed-sharp-regional-descent-theorem-and-obstruction-2026-07-25.md
+  hostile_ref: >-
+    explorations/formed-sharp-descent-quantum-selection-hostile-gate-2026-07-25.md
+  probe_refs:
+  - tests/du_formed_sharp_instrument_probe.py
+  - tests/du_formed_sharp_descent_probe.py
+  - tests/du_formed_sharp_quantum_selection_probe.py
+  artifact_refs:
+  - tests/artifacts/du_formed_sharp_instrument_result.json
+  - tests/artifacts/du_formed_sharp_descent_result.json
+  - tests/artifacts/du_formed_sharp_quantum_selection_result.json
+  artifact_sha256:
+    physical_instrument: d33897889e3911a94a15e3cb23754ee82673b64a8c80575d953ff9711a9cdf88
+    regional_descent: 5e3fb7f8f775a7dd1ae339cb0f74fbaf9b972fa50261d07d38225ade02df7e4c
+    hostile_gate: a2b3aea51dc90623f976604dd1f051b26d6a60462c73b771517aad950d5b9739
+  exact_physical_result: >-
+    The 34/34 implementation-complete binary QND control shows that source-relative
+    nondisturbance plus exact repeatability earns the aligned PVM only relative to an
+    independently frozen source algebra and supplied candidate coupling. Self-relative
+    conjugate bases all pass, equal sharp records admit distinct selective continuations inside
+    degenerate sectors, and archive noise makes the observer-accessible POVM unsharp.
+  exact_descent_result: >-
+    The 36/36 control closes common-system sharp-PVM pairwise-to-global descent as standard
+    spectral theory. Cyclic locally sharp-looking archives diagnose missing common occurrence
+    identity; unsharp Pauli X/Y/Z effects at eta=2/3 are pairwise jointly measurable but fail the
+    triple bound. Equal effects, global compatibility and upper-action sufficiency remain
+    distinct receipts.
+  exact_hostile_result: >-
+    The 16/16 gate establishes the dilation fork: contextwise sharp dilations are universal by
+    Naimark, while a full-cover common commuting dilation is equivalent to global joint
+    measurability. Specker's conditional exclusion of almost quantum is occupied terrain and no
+    full quantum selector is derived.
+  integrated_learning: >-
+    The proposed abstract Formed-Sharp Descent Theorem does not survive as a novel target. The
+    live opportunity is upstream: derive or refute robust physical selection of one
+    context-independent source-pointer-archive instrument and decoder under frozen source,
+    coupling, perturbation, action and resource contracts. Operational duality and generative
+    issuance both require that noncircular interface-selection receipt before they can be
+    promoted.
+  next_move: >-
+    Run a robust physical instrument-selection theorem or no-go with one predeclared source
+    Hamiltonian or process, constrained coupling family, perturbation/noise class, full action
+    algebra, decoder/error budget, matched resources, conjugate and continuation foils, and a
+    coherent context-switching assay retaining every route and environment port.
+  ledger_disposition: >-
+    Extends HC-DU-033, HC-DU-035C, H-CCR-16 and CONCEPT-DU-011 at exact
+    finite-control/general-open grade. Adds no theorem ID, hypothesis ID, concept ID, physical
+    law, prediction, ontology, paper priority, Factory state, draft, submission, publication or
+    external action.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -2025,10 +2099,14 @@ lanes:
       provenance lift/safe rejection and complete contextual quantum controls. Revision 36 adds
       the maximal typed-identity kernel, tight identity/action path bounds, join-tree gluing,
       cyclic obstruction, recursive vector contract and inert-subdivision naturality
-      counterexample. Next derive a physically formed sharp-instrument class, prove or obstruct
-      pairwise-to-global action-sufficient descent, and scale exact compilation; preserve
-      identified, underidentified, equivalent and incomplete selection receipts plus descent,
-      lift, safe rejection and incomplete composition outcomes. Never define a selected
+      counterexample. Revision 37 adds the formed-sharp selection boundary: the scoped binary QND
+      family earns an aligned PVM only relative to a frozen source algebra and supplied coupling;
+      common sharp-PVM descent is standard, and contextwise versus common dilation exposes the
+      missing physical selector. Next derive or refute robust selection of one instrument orbit
+      under frozen coupling, perturbation, action, decoder and resource contracts, and scale exact
+      compilation; preserve identified, underidentified, equivalent and incomplete selection
+      receipts plus descent, lift, safe rejection and incomplete composition outcomes. Never
+      define a selected
       record by agreement under every target physical experiment or call a target-derived
       quotient a formed physical record.
   - id: '1.5'
@@ -2305,9 +2383,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 36.
+    routing is the root lanes key at manifest revision 37.
 provenance:
-  revision: 36
+  revision: 37
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -2387,7 +2465,10 @@ provenance:
     record-formation-to-certified-composition wave, separates history-algebra selection from
     selective record formation, installs the typed recursive composition vector, closes
     probability-only LO/CE as a quantum selector, and routes the next build to formed-sharp
-    instrument descent without promoting a claim.
+    instrument descent without promoting a claim; rev37 (Joe direct chat, 2026-07-25) executes
+    the formed-sharp descent swing, installs the physical-selection boundary, absorbs common
+    sharp-PVM descent into standard theory, and routes the next build upstream to robust physical
+    instrument selection without promoting a claim.
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -2771,3 +2852,15 @@ provenance:
     physically derived formed-sharp instrument class plus pairwise-to-global action-sufficient
     descent. No theorem ID, hypothesis, concept ID, physical law, prediction, ontology, paper
     priority, Factory state, draft, submission, publication or external action changed.
+  rev37_note: >-
+    2026-07-25 (Joe direct chat: save the two larger stories and orchestrate the next swing):
+    captured operational duality and generative issuance separately in the Thinking Wiki, then
+    executed physical formation, regional descent and hostile quantum-selection branches. The
+    34/34 circuit control earns an aligned PVM only relative to a frozen source algebra and
+    supplied coupling, while conjugate basis, selective continuation and noisy end-to-end access
+    remain unselected. The 36/36 branch absorbs common sharp-PVM pairwise-to-global descent into
+    standard spectral theory and retains the unsharp Specker and typed-action controls. The 16/16
+    gate shows contextwise dilation is too weak and full-cover common dilation restates joint
+    measurability. The next target is a robust physical instrument-selection theorem or no-go.
+    No theorem ID, hypothesis, concept ID, physical law, prediction, ontology, paper priority,
+    Factory state, draft, submission, publication or external action changed.

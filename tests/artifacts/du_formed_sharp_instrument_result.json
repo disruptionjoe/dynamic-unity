@@ -1,0 +1,424 @@
+{
+  "access_boundary": {
+    "noisy_access_effect_projection_defect": 0.09,
+    "noisy_archive_sector_disclosure": 0.8,
+    "sharp_pointer_archive_flip": 0.1,
+    "three_copy_majority_effect_projection_defect": 0.027216,
+    "three_copy_majority_error": 0.028,
+    "verdict": "sharpness at the pointer is not sharpness of the final observer-accessible record unless transduction is exact or an error-qualified decoding contract is supplied"
+  },
+  "assertions": [
+    {
+      "name": "all_pointer_and_system_pointer_maps_are_unitary",
+      "passed": true
+    },
+    {
+      "name": "blank_pointer_archive_process_is_an_isometry",
+      "passed": true
+    },
+    {
+      "name": "explicit_archive_circuit_recovers_pointer_instrument",
+      "passed": true
+    },
+    {
+      "name": "every_pointer_instrument_is_trace_preserving",
+      "passed": true
+    },
+    {
+      "name": "analytic_binary_qnd_effect_formula_holds",
+      "passed": true
+    },
+    {
+      "name": "central_sector_algebra_is_nondisturbed_even_when_unsharp",
+      "passed": true
+    },
+    {
+      "name": "two_pass_mismatch_is_two_epsilon_one_minus_epsilon",
+      "passed": true
+    },
+    {
+      "name": "archive_sector_disclosure_is_one_minus_two_epsilon",
+      "passed": true
+    },
+    {
+      "name": "disclosure_and_residual_coherence_obey_exact_complementarity",
+      "passed": true
+    },
+    {
+      "name": "zero_crossover_members_are_sharp_repeatable_and_disclosing",
+      "passed": true
+    },
+    {
+      "name": "positive_crossover_members_are_unsharp_and_nonrepeatable",
+      "passed": true
+    },
+    {
+      "name": "physical_archive_outcomes_exist_for_unsharp_members",
+      "passed": true
+    },
+    {
+      "name": "setting_outcome_provenance_is_injective",
+      "passed": true
+    },
+    {
+      "name": "outcome_without_setting_provenance_is_ambiguous",
+      "passed": true
+    },
+    {
+      "name": "z_and_x_sharp_instruments_have_distinct_effects",
+      "passed": true
+    },
+    {
+      "name": "x_basis_circuit_is_unitary_conjugate_of_z_basis_circuit",
+      "passed": true
+    },
+    {
+      "name": "frozen_source_algebra_admits_aligned_sharp_instrument",
+      "passed": true
+    },
+    {
+      "name": "frozen_source_algebra_rejects_misaligned_sharp_instrument",
+      "passed": true
+    },
+    {
+      "name": "unitary_conjugate_bases_have_identical_resource_budget",
+      "passed": true
+    },
+    {
+      "name": "noisy_archive_reduces_accessible_sector_disclosure",
+      "passed": true
+    },
+    {
+      "name": "noisy_archive_makes_accessible_effects_unsharp",
+      "passed": true
+    },
+    {
+      "name": "finite_majority_redundancy_improves_but_not_exactly",
+      "passed": true
+    },
+    {
+      "name": "multiplicity_control_instruments_are_trace_preserving",
+      "passed": true
+    },
+    {
+      "name": "multiplicity_control_has_one_sharp_pvm",
+      "passed": true
+    },
+    {
+      "name": "multiplicity_control_is_exactly_repeatable",
+      "passed": true
+    },
+    {
+      "name": "multiplicity_control_preserves_central_sector_algebra",
+      "passed": true
+    },
+    {
+      "name": "same_sharp_record_allows_different_selective_continuations",
+      "passed": true
+    },
+    {
+      "name": "full_sector_nondisturbance_rejects_twisted_continuation",
+      "passed": true
+    },
+    {
+      "name": "coherent_certificate_separates_frozen_process_classes",
+      "passed": true
+    },
+    {
+      "name": "coherent_certificate_does_not_disclose_run_history",
+      "passed": true
+    },
+    {
+      "name": "which_history_kernel_discloses_run_history",
+      "passed": true
+    },
+    {
+      "name": "formed_sharp_archive_realizes_which_history_kernel",
+      "passed": true
+    },
+    {
+      "name": "formed_which_history_archive_kills_complementary_coherence",
+      "passed": true
+    },
+    {
+      "name": "certificate_and_disclosure_records_remain_distinct",
+      "passed": true
+    }
+  ],
+  "certificate_vs_disclosure": {
+    "certificate_record_given_history": [
+      [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
+    ],
+    "classical_history_null_joint_record": [
+      [
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25
+      ]
+    ],
+    "coherent_certificate_joint_record": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "formed_sharp_history_archive_kernel": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "history_disclosure_total_variation": 0.0,
+    "post_disclosure_x_visibility": 0.0,
+    "process_class_total_variation": 0.5,
+    "verdict": "the formed sharp sector archive is a disclosure record and kills complementary coherence; the coherent signed record is a process-class certificate with identical run-history rows. Neither record substitutes for the other"
+  },
+  "claims_not_made": [
+    "new repeatability-sharpness theorem",
+    "unique pointer-basis derivation",
+    "unique selective-instrument derivation",
+    "macroscopic or thermodynamic irreversibility",
+    "public, adversarial, or Byzantine finality",
+    "laboratory proper-time implementation",
+    "quantum selection from a GPT landscape",
+    "record-first ontology or beyond-standard quantum physics"
+  ],
+  "fixture": {
+    "admitted_basis_angles_over_pi": [
+      0.0,
+      0.125,
+      0.25
+    ],
+    "archive_flip_control": 0.1,
+    "event_order": [
+      "prepare system and blank pointer/archive",
+      "apply frozen system-pointer unitary",
+      "copy pointer to archive by CNOT",
+      "apply declared archive noise channel",
+      "dephase/read archive in frozen basis",
+      "retain setting and sequence provenance",
+      "repeat with fresh support when testing repeatability"
+    ],
+    "implementation_scope": "complete finite circuit and access model; not a laboratory Hamiltonian, thermodynamic archive, or public-finality model",
+    "pointer_crossover_values": [
+      0.0,
+      0.05,
+      0.2,
+      0.5
+    ],
+    "resource_contract": {
+      "archive_dephasings_or_readouts_per_attempt": 1,
+      "charged_optional_majority_archive_bits": 3,
+      "classical_provenance_bits_per_attempt": 1,
+      "excluded_not_zero_cost": [
+        "macroscopic amplification",
+        "thermodynamic reset work",
+        "long-horizon memory failure",
+        "laboratory control synthesis",
+        "public or Byzantine finality"
+      ],
+      "fresh_apparatus_sets_for_two_pass_repeatability": 2,
+      "fresh_archive_outcome_qubits_per_attempt": 1,
+      "fresh_pointer_qubits_per_attempt": 1,
+      "persistent_system_qubits": 1,
+      "pointer_archive_cnots_per_attempt": 1,
+      "system_pointer_unitaries_per_attempt": 1
+    },
+    "systems": [
+      "one system qubit",
+      "one fresh pointer qubit per attempt",
+      "one fresh archive outcome qubit per attempt",
+      "one classical setting/provenance bit for the two-basis control"
+    ]
+  },
+  "grade": "EXACT FINITE CIRCUIT CLASSIFICATION / REPEATABILITY-SHARPNESS AND INSTRUMENT MATHEMATICS KNOWN / NEW DU PHYSICAL-SELECTION DEPENDENCY NO-GO / NO NOVEL-QUANTUM PROMOTION",
+  "physical_selection_no_go": {
+    "basis_gap_between_z_and_x_effects": 0.5,
+    "conjugation_error": 0.0,
+    "frozen_source_algebra_nondisturbance_errors": {
+      "aligned_z": 0.0,
+      "misaligned_x": 0.5
+    },
+    "instrument_verdict": "with degenerate sectors the same sharp PVM and archive record admit distinct repeatable central-nondisturbing selective continuations; full within-sector nondisturbance or another continuation principle is extra",
+    "multiplicity_control": {
+      "central_nondisturbance_errors": {
+        "luders": 0.0,
+        "twisted": 0.0
+      },
+      "full_sector_observable_errors": {
+        "luders": 0.0,
+        "twisted": 2.0
+      },
+      "repeatability_errors": {
+        "luders": 0.0,
+        "twisted": 0.0
+      },
+      "same_effect_error": 0.0,
+      "selective_continuation_trace_distance": 1.0,
+      "trace_preservation_errors": {
+        "luders": 0.0,
+        "twisted": 0.0
+      }
+    },
+    "verdict": "the complete frozen coupling derives its own outcome instrument. Self-relative formation, repeatability and nondisturbance admit every unitary-conjugate basis. A separately frozen source algebra rejects the misaligned basis and, with exact repeatability, earns the aligned outcome PVM in this nondegenerate family; it still does not generate the pointer/archive coupling or select a unique degenerate-sector continuation"
+  },
+  "reopener": {
+    "held_out_test": "freeze a physical Hamiltonian and admissible perturbation class before examining outcomes; show that one instrument orbit remains repeatable, action-nondisturbing, and end-to-end decodable while a named conjugate or twisted foil fails at matched resources",
+    "independently_required_inputs": [
+      "a source-selected algebra or physical coupling family",
+      "a non-refit selection principle among conjugate couplings",
+      "full within-sector action nondisturbance or another typed continuation rule",
+      "an error-qualified end-to-end archive decoder",
+      "a held-out perturbation, locality, energy, or resource discriminator"
+    ]
+  },
+  "run_id": "RUN-20260725-110735-formed-sharp-descent",
+  "schema": "dynamic-unity/formed-sharp-instrument/v1",
+  "scoped_formed_sharp_equivalence": {
+    "analytic_relations": {
+      "complementarity": "D^2+V^2=1",
+      "effect_projection_defect": "epsilon*(1-epsilon)",
+      "residual_coherence_visibility": "2*sqrt(epsilon*(1-epsilon))",
+      "sector_disclosure_trace_distance": "1-2*epsilon",
+      "two_pass_record_mismatch": "2*epsilon*(1-epsilon)"
+    },
+    "equivalent_at_epsilon_zero": [
+      "projection-valued outcome effects",
+      "zero immediate two-pass outcome mismatch",
+      "perfect archive discrimination of the two supplied sectors"
+    ],
+    "family": "binary QND pointer instruments with crossover epsilon in [0,1/2] and noiseless pointer-to-archive transduction",
+    "rows": [
+      {
+        "effect_projection_defect": 0.0,
+        "epsilon": 0.0,
+        "residual_coherence_visibility": 0.0,
+        "sector_disclosure_trace_distance": 1.0,
+        "theta_over_pi": 0.0,
+        "two_pass_record_mismatch": 0.0
+      },
+      {
+        "effect_projection_defect": 0.0475,
+        "epsilon": 0.05,
+        "residual_coherence_visibility": 0.435889894354,
+        "sector_disclosure_trace_distance": 0.9,
+        "theta_over_pi": 0.0,
+        "two_pass_record_mismatch": 0.095
+      },
+      {
+        "effect_projection_defect": 0.16,
+        "epsilon": 0.2,
+        "residual_coherence_visibility": 0.8,
+        "sector_disclosure_trace_distance": 0.6,
+        "theta_over_pi": 0.0,
+        "two_pass_record_mismatch": 0.32
+      },
+      {
+        "effect_projection_defect": 0.25,
+        "epsilon": 0.5,
+        "residual_coherence_visibility": 1.0,
+        "sector_disclosure_trace_distance": 0.0,
+        "theta_over_pi": 0.0,
+        "two_pass_record_mismatch": 0.5
+      },
+      {
+        "effect_projection_defect": 0.0,
+        "epsilon": 0.0,
+        "residual_coherence_visibility": 0.0,
+        "sector_disclosure_trace_distance": 1.0,
+        "theta_over_pi": 0.125,
+        "two_pass_record_mismatch": 0.0
+      },
+      {
+        "effect_projection_defect": 0.0475,
+        "epsilon": 0.05,
+        "residual_coherence_visibility": 0.435889894354,
+        "sector_disclosure_trace_distance": 0.9,
+        "theta_over_pi": 0.125,
+        "two_pass_record_mismatch": 0.095
+      },
+      {
+        "effect_projection_defect": 0.16,
+        "epsilon": 0.2,
+        "residual_coherence_visibility": 0.8,
+        "sector_disclosure_trace_distance": 0.6,
+        "theta_over_pi": 0.125,
+        "two_pass_record_mismatch": 0.32
+      },
+      {
+        "effect_projection_defect": 0.25,
+        "epsilon": 0.5,
+        "residual_coherence_visibility": 1.0,
+        "sector_disclosure_trace_distance": 0.0,
+        "theta_over_pi": 0.125,
+        "two_pass_record_mismatch": 0.5
+      },
+      {
+        "effect_projection_defect": 0.0,
+        "epsilon": 0.0,
+        "residual_coherence_visibility": 0.0,
+        "sector_disclosure_trace_distance": 1.0,
+        "theta_over_pi": 0.25,
+        "two_pass_record_mismatch": 0.0
+      },
+      {
+        "effect_projection_defect": 0.0475,
+        "epsilon": 0.05,
+        "residual_coherence_visibility": 0.435889894354,
+        "sector_disclosure_trace_distance": 0.9,
+        "theta_over_pi": 0.25,
+        "two_pass_record_mismatch": 0.095
+      },
+      {
+        "effect_projection_defect": 0.16,
+        "epsilon": 0.2,
+        "residual_coherence_visibility": 0.8,
+        "sector_disclosure_trace_distance": 0.6,
+        "theta_over_pi": 0.25,
+        "two_pass_record_mismatch": 0.32
+      },
+      {
+        "effect_projection_defect": 0.25,
+        "epsilon": 0.5,
+        "residual_coherence_visibility": 1.0,
+        "sector_disclosure_trace_distance": 0.0,
+        "theta_over_pi": 0.25,
+        "two_pass_record_mismatch": 0.5
+      }
+    ],
+    "status": "exact scoped theorem; broad repeatability-sharpness characterization is occupied prior art"
+  },
+  "strongest_standard_absorber": {
+    "decoherence": "standard information-disturbance and pointer-record mathematics absorbs the disclosure/coherence relation",
+    "du_residue": "which independently specified source dynamics, access algebra, continuation contract, and resource/noise boundary select the physically realized instrument",
+    "instrument": "Davies-Lewis/Ozawa quantum-instrument and indirect-measurement theory: a POVM does not uniquely fix its selective state-update instrument or physical dilation",
+    "sharpness": "Buscemi, Kobayashi, and Minagawa, Quantum 8, 1235 (2024), arXiv:2303.07737: maximal sharp finite POVMs coincide with POVMs admitting repeatable measurements"
+  },
+  "summary": {
+    "all_passed": true,
+    "passed": 34,
+    "total": 34
+  }
+}

@@ -780,6 +780,62 @@ checks. Passing closes probability-only finality/exclusivity as a Dynamic
 Unity quantum selector. The exact reopener is physically formed sharp
 instrument composition.
 
+## Formed-sharp physical selection and descent
+
+Three deterministic probes execute the formed-sharp selection-boundary swing.
+
+`du_formed_sharp_instrument_probe.py` builds an explicit finite
+system–pointer–archive circuit and checks:
+
+- the complete pointer and archive implementation rather than only a POVM;
+- the exact binary-QND equivalence among sharp effects, immediate
+  repeatability, and perfect disclosure of the supplied sectors;
+- rejection of a named misaligned basis only after the source algebra is
+  frozen independently;
+- nonselection among self-relative conjugate bases;
+- different selective continuations sharing one sharp PVM, repeatability,
+  central nondisturbance, and archive;
+- loss of observer-accessible sharpness through a noisy archive and partial
+  recovery through charged majority decoding; and
+- preservation of the distinction between process-class certification and
+  run-history disclosure.
+
+Its artifact is `artifacts/du_formed_sharp_instrument_result.json` and reports
+`34/34` checks. Passing establishes a scoped physical-selection dependency,
+not a new repeatability/sharpness theorem, a generated pointer coupling,
+public finality, or new physics.
+
+`du_formed_sharp_descent_probe.py` checks:
+
+- the standard common-system sharp-PVM pairwise-to-global construction;
+- exact join-tree gluing and a cyclic no-global-extension obstruction;
+- relabeling, inert-subdivision, and redundant-marginal controls;
+- explicit pairwise joint measurements for noisy Pauli \(X/Y/Z\) effects at
+  \(\eta=2/3\) and the exact failure of the triple bound;
+- equal sharp effects with different selective maps and continuations; and
+- a globally valid archive whose exported coarse certificate is not
+  sufficient for the declared upper action.
+
+Its artifact is `artifacts/du_formed_sharp_descent_result.json` and reports
+`36/36` checks. Passing closes abstract common sharp-PVM descent as occupied
+spectral/joint-measurability terrain. It does not derive the common physical
+archive.
+
+`du_formed_sharp_quantum_selection_probe.py` checks:
+
+- a commuting projective target with one global joint archive;
+- a context-split Specker archive showing that local record formation does
+  not establish cross-context identity;
+- the same noisy Pauli pairwise-but-not-triple control; and
+- the finite landscape classification supporting the dilation-fork gate.
+
+Its artifact is
+`artifacts/du_formed_sharp_quantum_selection_result.json` and reports `16/16`
+checks. Passing shows that contextwise sharp dilation is too weak and a
+full-cover common commuting dilation restates joint measurability. Specker's
+almost-quantum exclusion remains known conditional terrain; no Dynamic Unity
+quantum selector is derived.
+
 ## Entangled layered-finality absorption boundary
 
 `du_entangled_finality_absorption_probe.py` fixes the standard-quantum null

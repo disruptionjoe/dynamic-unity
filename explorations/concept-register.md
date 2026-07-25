@@ -1316,6 +1316,29 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   passes, `PR^2` violates a five-event sum by `5/4`, and almost-quantum still
   passes. The exact reopener is a physically derived formed-sharp instrument
   class followed by pairwise-to-global instrument descent or obstruction.
+- **2026-07-25 formed-sharp selection boundary.** The `34/34`
+  implementation-complete binary QND control shows that an independently
+  frozen source algebra plus source-relative nondisturbance rejects a named
+  misaligned basis, and exact repeatability then earns the aligned PVM inside
+  the tested family. This does not generate the coupling, choose among
+  self-relative conjugate bases, select a unique within-sector continuation,
+  or preserve exact sharpness through a noisy archive.
+
+  The `36/36` descent control closes common sharp-PVM pairwise-to-global work
+  as standard spectral theory. A cyclic locally sharp-looking archive with no
+  global extension diagnoses missing common occurrence identity, while the
+  unsharp \(\eta=2/3\) Pauli triangle supplies a standard pairwise-but-not-
+  triple joint-measurability control. Global compatibility and upper-action
+  sufficiency remain different receipts.
+
+  The `16/16` hostile gate sharpens the central no-shortcut result:
+  contextwise sharp dilation is universal, whereas full-cover common
+  commuting dilation is equivalent to global joint measurability. The live
+  opportunity is therefore upstream: robust physical selection of one
+  cross-context instrument, archive identity and decoder under frozen source,
+  coupling, perturbation and resource classes. Specker's conditional
+  exclusion of almost quantum is occupied terrain and does not select full
+  quantum theory.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
@@ -1341,11 +1364,13 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   EXACT FINITE TYPED OVERLAP-IDENTITY PILOT INSTALLED / TYPED RECURSIVE
   IDENTITY/ACTION BOUNDS, FULL-COVER MARGINAL RECEIPT AND
   INERT-SUBDIVISION NATURALITY CONTROL INSTALLED / PROBABILITY-LEVEL LO/CE
-  GATE DOES NOT SELECT QUANTUM / ROBUST PHYSICAL IDENTITY, FORMED-SHARP
-  INSTRUMENT DESCENT AND SPARSE SCALING OPEN / NO ONTOLOGY OR NEW PHYSICS
-  INFERRED.** The next coupled attack is a physically formed sharp-instrument
-  assay on an implementation-complete sequential instrument, followed by a
-  pairwise-to-global descent theorem or obstruction and sparse exact
+  GATE DOES NOT SELECT QUANTUM / FORMED-SHARP PHYSICAL-SELECTION GAP
+  INSTALLED / COMMON SHARP-PVM DESCENT ABSORBED / ROBUST PHYSICAL INSTRUMENT
+  SELECTION AND SPARSE SCALING OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.**
+  The next coupled attack is a robust instrument-selection theorem or no-go
+  under a frozen source process, admissible coupling and perturbation classes,
+  action algebra, decoder, resources, and matched conjugate and continuation
+  foils, followed only then by full-cover descent and sparse exact
   compilation. See
   `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md` and
   `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`
@@ -1353,7 +1378,8 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   and
   `operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md`,
   `certified-regional-composition-support-2026-07-25.md`, and
-  `record-formation-to-certified-composition-wave-synthesis-2026-07-25.md`.
+  `record-formation-to-certified-composition-wave-synthesis-2026-07-25.md`,
+  and `formed-sharp-descent-swing-synthesis-2026-07-25.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
