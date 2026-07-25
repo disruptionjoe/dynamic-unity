@@ -1,0 +1,221 @@
+{
+  "absorber": {
+    "dephased_joint_record": [
+      [
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25
+      ]
+    ],
+    "dephased_signed_expectation": 0.0,
+    "required_extra_structure": [
+      "selected motion readout instrument",
+      "physical pointer/archive coupling",
+      "declared access algebra",
+      "durability/finality rule",
+      "implementation-complete uncertainty and resource contract"
+    ],
+    "standard_quantum_absorption": true
+  },
+  "assertions": [
+    {
+      "name": "branch_zero_is_unitary",
+      "passed": true
+    },
+    {
+      "name": "branch_one_is_unitary",
+      "passed": true
+    },
+    {
+      "name": "joint_proper_time_control_is_unitary",
+      "passed": true
+    },
+    {
+      "name": "motion_identity_is_nondemolition",
+      "passed": true
+    },
+    {
+      "name": "history_Z_is_nondemolition",
+      "passed": true
+    },
+    {
+      "name": "complementary_X_is_not_nondemolition",
+      "passed": true
+    },
+    {
+      "name": "complementary_Y_is_not_nondemolition",
+      "passed": true
+    },
+    {
+      "name": "selected_motion_commutant_is_two_dimensional",
+      "passed": true
+    },
+    {
+      "name": "every_rotated_instrument_is_trace_preserving_in_sum",
+      "passed": true
+    },
+    {
+      "name": "nonselective_clock_channel_is_interface_invariant",
+      "passed": true
+    },
+    {
+      "name": "which_history_and_erasure_selective_maps_differ",
+      "passed": true
+    },
+    {
+      "name": "coherent_record_distribution_is_normalized",
+      "passed": true
+    },
+    {
+      "name": "coherent_record_has_perfect_signed_correlation",
+      "passed": true
+    },
+    {
+      "name": "all_classical_history_weights_give_uniform_record",
+      "passed": true
+    },
+    {
+      "name": "classical_mixture_signed_null_is_exact",
+      "passed": true
+    },
+    {
+      "name": "coherent_port_marginal_does_not_disclose_history",
+      "passed": true
+    },
+    {
+      "name": "coherent_clock_marginal_does_not_disclose_history",
+      "passed": true
+    },
+    {
+      "name": "null_marginals_match_coherent_marginals",
+      "passed": true
+    },
+    {
+      "name": "joint_record_separates_process_classes",
+      "passed": true
+    },
+    {
+      "name": "certificate_record_rows_are_history_identical",
+      "passed": true
+    },
+    {
+      "name": "certificate_record_cannot_factor_run_history",
+      "passed": true
+    },
+    {
+      "name": "which_history_archive_can_factor_run_history",
+      "passed": true
+    },
+    {
+      "name": "which_history_dephasing_kills_certificate",
+      "passed": true
+    },
+    {
+      "name": "single_clock_endpoint_is_underidentified",
+      "passed": true
+    }
+  ],
+  "candidate_ids": [
+    "HC-DU-033",
+    "HC-DU-034B",
+    "HC-DU-036B"
+  ],
+  "certificate_without_history_disclosure": {
+    "certified_proposition": "the frozen selective operation is outside arbitrary-weight classical mixtures of the same two specified histories",
+    "classical_mixture_joint_record": [
+      [
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25
+      ]
+    ],
+    "classical_signed_expectation": 0.0,
+    "coherent_clock_marginal": [
+      0.5,
+      0.5
+    ],
+    "coherent_joint_record": [
+      [
+        0.5,
+        0.0
+      ],
+      [
+        0.0,
+        0.5
+      ]
+    ],
+    "coherent_port_marginal": [
+      0.5,
+      0.5
+    ],
+    "coherent_signed_expectation": 1.0,
+    "history_factorization": "OBSTRUCTED_IDENTICAL_RECORD_ROWS",
+    "joint_total_variation": 0.5,
+    "not_certified": "which history occurred in a run, arbitrary classical protocol exclusion, or nonstandard quantum physics",
+    "record_given_classical_history": [
+      [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      [
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ]
+    ]
+  },
+  "claims_not_made": [
+    "laboratory proper-time certification",
+    "dynamically selected erasure basis",
+    "durable or public finality",
+    "irreducible physical remainder",
+    "record-first ontology",
+    "beyond-standard quantum prediction"
+  ],
+  "fixture": {
+    "clock_input": "|+x>",
+    "clock_readout": "X",
+    "erasure_interface_angle": "pi/4",
+    "motion_input": "(|history_0>+|history_1>)/sqrt(2)",
+    "proper_time_platform_status": "two-branch effective specialization; no trapped-ion SPAM/drift/leakage or durable-archive dynamics",
+    "relative_history_phase": "pi/2",
+    "which_history_interface_angle": "0"
+  },
+  "grade": "EXACT FINITE EFFECTIVE-INSTRUMENT RESULT / COMPONENT MATHEMATICS KNOWN / NOT IMPLEMENTATION-COMPLETE PROPER TIME",
+  "interface_selection": {
+    "interaction_selected_nondemolition_basis": [
+      "I",
+      "Z"
+    ],
+    "motion_commutator_norms": {
+      "I": 0.0,
+      "X": 1.414213562373,
+      "Y": 1.414213562373,
+      "Z": 0.0
+    },
+    "nonselective_choi_errors_over_interface_rotations": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "verdict": "the interaction selects the two-sector nondemolition history algebra, but not a unique selective readout/archive instrument",
+    "which_history_erasure_selective_difference": 0.707106781187
+  },
+  "run_id": "RUN-20260725-100452-record-formation-certified-composition",
+  "schema": "dynamic-unity/record-formation-composition/v1",
+  "summary": {
+    "all_passed": true,
+    "passed": 24,
+    "total": 24
+  }
+}

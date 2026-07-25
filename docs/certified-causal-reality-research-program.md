@@ -546,6 +546,23 @@ constructive family fills the entire unit formation interval at every fixed
 conditions, physical channel derivation, locality, cadence, observer access,
 and public finality remain open.
 
+**Executed effective proper-time interface control — `HC-DU-033/034B/036B`.**
+For a frozen two-history controlled clock operation with distinct branch
+operations, the complete interaction selects the diagonal nondemolition
+history algebra. It does not select a unique selective readout: a continuum of
+rotated motion instruments gives the same nonselective clock channel while
+producing different conditioned operations. In the symmetric coherent-erasure
+fixture, the joint port/clock record separates the coherent process from every
+arbitrary-weight mixture of the same two frozen histories by total-variation
+gap \(1/2\), yet its null record rows are identical for the two latent
+histories. A which-history archive discloses the history but destroys the
+coherence certificate. Thus source-selected history algebra,
+certificate-forming instrument, formed archive, certified proposition, and
+history disclosure are distinct. The probe passes `24/24`. These are known
+commutant, quantum-instrument, and eraser components, not an
+implementation-complete proper-time instrument or a new physical law. See
+`../explorations/record-formation-certified-composition-primary-2026-07-25.md`.
+
 The `HC-DU-033A` wave also proved a useful ordering control:
 
 ```text
@@ -762,8 +779,43 @@ instrument-derived local regions
 ```
 
 Sparse exact compilation, a transferable non-tautological overlap-identity
-assay, robust finite-shot physical tests, and recursive vector-defect
-composition remain open.
+assay, and robust finite-shot physical tests remain open.
+
+**Executed typed recursive-composition control.** Starting from independently
+formed interfaces:
+
+- the unique greatest warranted overlap identity is the supplied evidence
+  relation intersected with the kernels of the predeclared identity types;
+- typed identity and upper-action total-variation errors have tight
+  subadditive path bounds and contract under common postprocessing;
+- matching separator marginals glue exactly on join-tree covers, while a
+  sharp equality/equality/inequality cycle has exact pairwise overlap
+  agreement and no global extension;
+- identity, full-cover marginal compatibility, and upper-action sufficiency
+  are logically independent coordinates and cannot be replaced by one scalar;
+- inert subdivision preserves the extension verdict and
+  \(\mathbb Z_2\) obstruction while changing the naive per-edge
+  \(L_\infty\) defect from \(1/3\) to \(1/4\); and
+- a recursively sufficient certificate can preserve a declared parity-class
+  action without identifying the underlying history.
+
+The probe passes `22/22`. These are known finite kernel, total-variation,
+join-tree, marginal-obstruction, parity, and sufficient-statistic components.
+They install a refinement-natural typed control, not physical regional
+formation, a cryptographic non-disclosure theorem, or a new composition law.
+See
+`../explorations/certified-regional-composition-support-2026-07-25.md`.
+
+**Executed quantum-strength frontier gate.** Probability-level certified
+incompatibility preserved under independent regional products is exactly
+Local Orthogonality/Consistent Exclusivity on Bell events. One PR box passes;
+two independent PR boxes violate an exact five-event inequality with sum
+\(5/4\). Ordinary quantum behaviors pass, but almost-quantum behaviors also
+pass, so the rule excludes PR under composition without selecting quantum
+theory. Probability-only “finality Tsirelson” work is closed. The exact
+reopener is a physically derived formed-sharp instrument class plus a
+pairwise-to-global instrument descent theorem or obstruction. See
+`../explorations/quantum-strength-selection-frontier-gate-2026-07-25.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -1025,7 +1077,10 @@ Only after the preceding dependencies:
         |
 1b. HC-DU-033B finite abelian central-record interface [COMPLETED SCOPED]
         |
-1c. HC-DU-033 physical conditions that shrink the Pauli stability--formation rectangle [OPEN]
+1c. HC-DU-033/034B effective two-history algebra selection and
+    certificate-interface nonselection [COMPLETED SCOPED CONTROL]
+    HC-DU-033 physical conditions that shrink the Pauli stability--formation rectangle
+    and form a durable selective instrument [OPEN]
         |
 2. HC-DU-034 multi-time certification
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
@@ -1037,7 +1092,10 @@ Only after the preceding dependencies:
                 multi-time QND regional grammar and general marginal compiler [COMPLETED CONTROL]
                 authenticated and quantum instrument transfer [COMPLETED CONTROL]
                 exact typed overlap identity [COMPLETED FINITE CONTROL]
-                robust physical identity and sparse recursive descent [OPEN]
+                typed recursive identity/action bounds, full-cover marginal receipt,
+                and relay-refinement counterexample [COMPLETED FINITE CONTROL]
+                robust physical identity, formed-sharp instrument descent,
+                and sparse recursive compilation [OPEN]
         |
 3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
         |
@@ -1048,6 +1106,7 @@ Only after the preceding dependencies:
         |
 3b. HC-DU-036B finite history-certificate compiler [COMPLETED PILOT]
     HC-DU-036B stochastic matrix/protocol transfer [COMPLETED SCOPED PILOT]
+    HC-DU-034B certificate-without-run-history-disclosure control [COMPLETED SCOPED]
     HC-DU-033/034B robust physical interface selection, proper-time implementation
     and implementation-complete calibrated null [OPEN]
         |
@@ -1253,6 +1312,12 @@ constitute a standing scientific work lane.
 5. return a physical selection theorem, an interface-necessity no-go, or a
    classified minimal additional-structure family.
 
+The effective proper-time control now proves that a physical controlled
+interaction can select its nondemolition history algebra while leaving the
+selective certificate instrument undetermined. The live problem is therefore
+not bare algebra selection. It is deriving the pointer/readout/archive
+structure that forms a durable proposition-typed certificate.
+
 Do not enumerate more bare partitions or build another recorder merely
 because it is covariant.
 
@@ -1294,16 +1359,20 @@ because it is covariant.
 2. retain the completed QND multi-time regional grammar, general rational
    primal-or-Farkas compiler, authenticated provenance lift/safe rejection,
    and complete contextual quantum-instrument absorption controls;
-3. derive a non-tautological overlap-identity receipt from independently
+3. retain the maximal typed-identity kernel, tight identity/action path
+   bounds, join-tree gluing, cyclic obstruction, recursive vector contract,
+   certificate-nondisclosure control, and inert-subdivision naturality
+   counterexample;
+4. derive a robust physically formed sharp-instrument class from independently
    frozen provenance, operational equivalence, nondisturbance, repeatability,
-   causal-break and disturbance evidence;
-4. scale exact compilation with acyclic/junction-tree decomposition or
+   causal-break, access, resource, and disturbance evidence;
+5. prove or obstruct global action-sufficient descent for pairwise compatible
+   instruments, with the probability-level LO/CE and standard PVM/Specker
+   results as absorbers;
+6. scale exact compilation with acyclic/junction-tree decomposition or
    certificate-preserving column generation, using the current exhaustive
    compiler as the oracle;
-5. test vector-valued composition of overlap-identity uncertainty,
-   compatibility obstruction, and boundary-action defect across two
-   recursively promoted regions; and
-6. stop before geometry or beyond-standard physics if region selection is
+7. stop before geometry or beyond-standard physics if region selection is
    target-defined or every obstruction is absorbed by known marginal,
    process-tensor, controller, QEC, or protocol structure.
 
@@ -1327,12 +1396,21 @@ because it is covariant.
    record kernels;
 8. ran one matrix-derived QND quantum recorder and one replayable authenticated
    operation DAG through the unchanged contract; and
-9. localized both apparent remainders to withheld error/delivery provenance.
+9. localized both apparent remainders to withheld error/delivery provenance;
+10. proved that the frozen two-history interaction selects a QND history
+    algebra but not a unique selective certificate instrument;
+11. constructed a process-class certificate with total-variation gap
+    \(1/2\) and no run-level history information, while a which-history
+    archive destroys that certificate; and
+12. closed probability-level exclusivity as a quantum selector: independent
+    composition excludes `PR^2` by `5/4`, but known LO/CE still admits the
+    almost-quantum class.
 
 **Remaining physical build:**
 
-1. derive or classify a record-forming interface from an independently fixed
-   dynamics and resource/stability criterion;
+1. derive or classify a formed-sharp selective instrument from an
+   independently fixed dynamics, pointer/archive interaction, and
+   resource/stability criterion;
 2. substitute proposal-level coherent proper-time operations or a
    dynamically selected Clock-QCA history instrument;
 3. freeze experimentally accessible outcomes and an
@@ -1341,7 +1419,9 @@ because it is covariant.
    constructor battery;
 5. generalize or tightly bound the exact finite stochastic factorization when
    approximation and uncertainty are admitted; and
-6. return factorization, interface incompleteness, a class-relative physical
+6. test pairwise-to-global instrument descent against join-tree, cyclic,
+   almost-quantum/Specker, and ordinary projective-quantum controls; and
+7. return factorization, interface incompleteness, a class-relative physical
    remainder, or incomplete adjudication before pricing finality.
 
 ### Phase 4 — transfer before manifesto
@@ -1372,18 +1452,24 @@ queue.
    stability from environment formation, but its mathematics is occupied and
    its exact center is perturbatively brittle. A matched Pauli counterexample
    also separates finite-time stability from formation, and a constructive
-   family fills the entire formation interval at fixed stability. The next
-   paper-grade advance must derive a nontrivial bound from independently
-   justified physical constraints or
-   execute an implementation-complete proper-time instrument, rather than add
-   another hand-built fixture.
+   family fills the entire formation interval at fixed stability. The
+   two-history proper-time control now selects a QND history algebra while
+   proving that the same process does not select its certificate-forming
+   readout. That certificate can distinguish a coherent process class without
+   disclosing a run-level history. The next paper-grade advance must derive a
+   formed-sharp selective instrument from independently justified physical
+   constraints or execute an implementation-complete proper-time instrument,
+   rather than add another hand-built fixture.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
    The next concentrated paper-closing route after two novelty gates narrowed:
    a claim-specific collision review, uniform asymptotic theorem, and tight
    counterfamilies.
 3. **Higher-Order Public Finality**
    The distinctive cross-domain route: noisy/noninvertible loop syndromes,
-   safe action algebras, higher certificates, and minimum provenance.
+   safe action algebras, higher certificates, and minimum provenance. The
+   exact recursive vector control and inert-subdivision counterexample now
+   exist; the live theorem target is formed-sharp pairwise-to-global
+   instrument descent, not a scalar finality metric.
 4. **Covariance Does Not Select Records in the Clock QCA**
    A conditional narrow route only. The general record-cost package is
    absorbed; reopen only for a non-tautological Clock-QCA extension
@@ -1452,8 +1538,13 @@ MULTI-TIME COMMUTING QND REGIONAL GRAMMAR AND HELD-OUT CAUSAL-BREAK CONTROL EXAC
 AUTHENTICATED COARSE OBSTRUCTION ABSORBED BY ROUTE PROVENANCE AND SAFE EQUIVOCATION REJECTION
 COMPLETE MERMIN--PERES INSTRUMENT OBSTRUCTION ABSORBED BY STANDARD CONTEXTUALITY AND CONTEXT LIFT
 MULTI-TIME / AUTHENTICATED / QUANTUM TRANSFER PROBE 33/33
-CERTIFIED OVERLAP IDENTITY, SPARSE EXACT SCALING AND RECURSIVE VECTOR-DEFECT COMPOSITION OPEN
+CERTIFIED OVERLAP IDENTITY EXACT; ROBUST PHYSICAL IDENTITY AND SPARSE EXACT SCALING OPEN
+TYPED RECURSIVE IDENTITY/ACTION BOUNDS AND FULL-COVER MARGINAL RECEIPT EXACT
+NAIVE SCALAR COMPATIBILITY DEFECT FAILS INERT-SUBDIVISION NATURALITY
 HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
+TWO-HISTORY INTERACTION SELECTS A QND HISTORY ALGEBRA BUT NOT THE CERTIFICATE INSTRUMENT
+PROCESS-CLASS CERTIFICATION WITHOUT RUN-LEVEL HISTORY DISCLOSURE EXACT IN THE FROZEN FIXTURE
+PROBABILITY-LEVEL FINALITY COLLAPSES TO LO/CE; PR^2 EXCLUDED BUT QUANTUM NOT SELECTED
 HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
 NO SIZE-FREE FINITE SUFFICIENCY HORIZON
@@ -1462,7 +1553,8 @@ ROBUST APPROXIMATE AND INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
 PHYSICAL / ROBUST / LARGE-SCALE INTERVENTIONAL SUFFICIENCY OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN
-HC-DU-033A/033B/035A/036A COMPONENT MATHEMATICS KNOWN
+FORMED-SHARP PAIRWISE-TO-GLOBAL INSTRUMENT DESCENT OPEN
+HC-DU-033A/033B/035A/036A AND REVISION-36 CONTROL COMPONENT MATHEMATICS KNOWN
 STATIC QUANTUM/BFT CONJUNCTION COLLIDES
 PHYSICAL RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
 ```

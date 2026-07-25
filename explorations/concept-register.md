@@ -645,12 +645,24 @@ resolution-stable intervention role. No claim is banked or seeded. See
   class. `HC-DU-034A` separately supplies the exact signed all-port
   coherent-history identity and arbitrary-weight incoherent-history null as
   an assay control; physical proper-time realization remains open.
+- **Earned formation/certification separation control.** In the frozen
+  two-history effective proper-time fixture, the controlled interaction
+  selects the diagonal QND history algebra but not one selective record
+  instrument. A coherent-erasure archive certifies separation from every
+  arbitrary-weight mixture of the same two histories with total-variation
+  gap `1/2` while carrying no run-level history information. A which-history
+  archive discloses the history but destroys the certificate. Thus stable
+  history interface, certificate interface, formed archive, certified
+  proposition, and history disclosure are distinct. The component
+  mathematics is known and the laboratory-level proper-time instrument
+  remains open.
 - **Immediate tests.**
-  1. `HC-DU-034B/036B`: use one unchanged record, intervention,
-     response-difference, behavioral-rank, refinement and capability contract
-     on a physical coherent-history fixture and an adversarial DAG/database
-     fixture. Return factorization, interface incompleteness, a
-     formation-relative physical remainder, or incomplete adjudication.
+  1. `HC-DU-033/034B/035C/036B`: derive a physically formed sharp selective
+     instrument from independently frozen pointer/archive dynamics,
+     repeatability, nondisturbance, provenance, continuation, access, and
+     resources. Then prove or obstruct pairwise-to-global action-sufficient
+     descent against join-tree, cyclic, ordinary projective-quantum, and
+     almost-quantum/Specker controls.
   2. `HC-DU-035B`: begin from a physically selected record instrument and
      derive or refute a formation-to-finality resource bound for converting a
      synergy-only or private distinction into a fork-safe, independently
@@ -668,7 +680,10 @@ resolution-stable intervention role. No claim is banked or seeded. See
 - **Status:** **CENTRAL CONCEPT OPEN / THREE ONTOLOGY OUTCOMES LIVE /
   HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT / HC-DU-035A
   LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
-  REJECTED / HC-DU-034A SIGNED HISTORY-ASSAY CONTROL EXACT / HC-DU-036A
+  REJECTED / HC-DU-034A SIGNED HISTORY-ASSAY CONTROL EXACT / TWO-HISTORY QND
+  ALGEBRA SELECTION AND CERTIFICATE-INTERFACE NONSELECTION EXACT AT EFFECTIVE
+  CONTROL GRADE / CERTIFICATE WITHOUT RUN-HISTORY DISCLOSURE EXACT IN THE
+  FROZEN FIXTURE / HC-DU-036A
   FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT / NO SIZE-FREE
   FINITE SUFFICIENCY HORIZON / PHYSICAL RECORD FORMATION AND INTERFACE
   SELECTION, ADMISSIBLE PHYSICAL REFINEMENT, BROADCASTABLE PUBLIC FINALITY,
@@ -1278,6 +1293,29 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   occurrence splitting the restrictive, target and permissive comparison
   classes for the current regional branch. The known Bell/GPT mathematics is
   calibration, not concept-specific novelty.
+- **2026-07-25 typed recursive-composition and quantum-strength gate.**
+  Starting from independently formed interfaces, the `22/22` finite control
+  proves that the unique greatest warranted overlap identity is the supplied
+  evidence relation intersected with the kernels of every identity type the
+  upper task actually needs. Identity and action discrepancies have tight
+  total-variation path bounds, but marginal compatibility requires a
+  full-cover receipt: matching overlaps glue on join trees while the sharp
+  equality/equality/inequality cycle has no global extension.
+
+  The recursive defect therefore remains a vector over typed identity,
+  full-cover marginal compatibility or obstruction, and upper-action
+  sufficiency. Inert relay subdivision preserves the true `Z2` obstruction
+  while changing a naive per-edge distance from `1/3` to `1/4`, so no
+  unweighted scalar defect is refinement-natural. A certificate chain can
+  preserve a declared parity action while remaining noninjective on
+  histories; this is functional non-disclosure, not zero-knowledge security.
+
+  The companion `25/25` frontier gate closes probability-only finality as a
+  quantum selector. Independent composition turns the natural event-level
+  rule into known Local Orthogonality/Consistent Exclusivity: one PR box
+  passes, `PR^2` violates a five-event sum by `5/4`, and almost-quantum still
+  passes. The exact reopener is a physically derived formed-sharp instrument
+  class followed by pairwise-to-global instrument descent or obstruction.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
@@ -1300,16 +1338,22 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   REGIONALIZATION AND VALIDATOR SELECTION OPEN / MULTI-TIME QND REGIONAL
   CONTROL AND GENERAL FINITE MARGINAL COMPILER INSTALLED / AUTHENTICATED AND
   QUANTUM TRANSFERS ABSORBED BY PROVENANCE AND STANDARD CONTEXTUALITY /
-  EXACT FINITE TYPED OVERLAP-IDENTITY PILOT INSTALLED / ROBUST PHYSICAL
-  IDENTITY, SPARSE SCALING AND RECURSIVE DEFECT COMPOSITION OPEN / NO ONTOLOGY
-  OR NEW PHYSICS INFERRED.** The next coupled attack is a robust calibrated
-  typed-identity assay on an implementation-complete sequential instrument,
-  followed by sparse exact compilation and recursive defect composition. See
+  EXACT FINITE TYPED OVERLAP-IDENTITY PILOT INSTALLED / TYPED RECURSIVE
+  IDENTITY/ACTION BOUNDS, FULL-COVER MARGINAL RECEIPT AND
+  INERT-SUBDIVISION NATURALITY CONTROL INSTALLED / PROBABILITY-LEVEL LO/CE
+  GATE DOES NOT SELECT QUANTUM / ROBUST PHYSICAL IDENTITY, FORMED-SHARP
+  INSTRUMENT DESCENT AND SPARSE SCALING OPEN / NO ONTOLOGY OR NEW PHYSICS
+  INFERRED.** The next coupled attack is a physically formed sharp-instrument
+  assay on an implementation-complete sequential instrument, followed by a
+  pairwise-to-global descent theorem or obstruction and sparse exact
+  compilation. See
   `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md` and
   `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`
   and `multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md`
   and
-  `operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md`.
+  `operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md`,
+  `certified-regional-composition-support-2026-07-25.md`, and
+  `record-formation-to-certified-composition-wave-synthesis-2026-07-25.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

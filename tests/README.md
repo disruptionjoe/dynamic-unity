@@ -720,6 +720,66 @@ select physical overlaps, close calibration or compatibility loopholes,
 establish cryptographic/BFT security, modify quantum theory, or prove a
 recursive composition law.
 
+## Record formation to certified composition
+
+Three deterministic probes execute the coordinated
+record-formation-to-certified-composition wave.
+
+`du_record_formation_composition_probe.py` checks:
+
+- the exact nondemolition history algebra selected by a frozen two-history
+  controlled clock operation;
+- nonselection of a unique selective readout by the same interaction and
+  nonselective clock channel;
+- a signed coherent-erasure certificate with total-variation gap `1/2` from
+  every arbitrary-weight mixture of the same two histories;
+- identical certificate-record rows for the two latent histories, proving
+  that the record does not disclose run-level history; and
+- destruction of that certificate by a which-history archive that does
+  disclose the history.
+
+Its artifact is
+`artifacts/du_record_formation_composition_result.json` and reports `24/24`
+checks. This is an exact effective-instrument result using known quantum
+instrument and eraser mathematics. It does not supply an
+implementation-complete proper-time experiment or physically select the
+certificate readout and archive.
+
+`du_recursive_record_composition_probe.py` checks:
+
+- the maximal typed overlap identity obtained by intersecting independently
+  formed evidence with the required signature kernels;
+- tight total-variation path bounds for identity and boundary-action defects;
+- exact join-tree gluing and a sharp cyclic pairwise-agreement/no-global-
+  extension counterexample;
+- preservation of the true `Z2` obstruction under inert relay subdivision
+  while a naive scalar compatibility distance changes from `1/3` to `1/4`;
+- logical independence of identity, global-marginal, and upper-action defect
+  coordinates; and
+- recursive action sufficiency without history disclosure.
+
+Its artifact is
+`artifacts/du_recursive_record_composition_result.json` and reports `22/22`
+checks. Passing installs a known-mathematics finite composition contract, not
+physical regional formation, general quantum joint measurability,
+zero-knowledge security, public finality, or a new law.
+
+`du_quantum_strength_selection_probe.py` checks the probability-level
+frontier gate:
+
+- one PR box is no-signalling and passes single-copy Local Orthogonality;
+- two independent PR boxes violate an exact five-event LO inequality by
+  `5/4`;
+- ordinary quantum behavior is admitted; and
+- probability-level LO/Consistent Exclusivity does not select quantum theory
+  because the almost-quantum set also satisfies it.
+
+Its artifact is
+`artifacts/du_quantum_strength_selection_result.json` and reports `25/25`
+checks. Passing closes probability-only finality/exclusivity as a Dynamic
+Unity quantum selector. The exact reopener is physically formed sharp
+instrument composition.
+
 ## Entangled layered-finality absorption boundary
 
 `du_entangled_finality_absorption_probe.py` fixes the standard-quantum null

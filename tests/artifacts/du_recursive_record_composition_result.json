@@ -1,0 +1,567 @@
+{
+  "action_composition": {
+    "actual_binary_response_probabilities": {
+      "s0": "0",
+      "s1": "1"
+    },
+    "bound_is_tight": true,
+    "composite_defect": "1/2",
+    "direct_optimal_composite_defect": "1/2",
+    "first_approximation": {
+      "u": "1/4",
+      "v": "3/4"
+    },
+    "first_stage_defect": "1/4",
+    "first_summary": {
+      "s0": "u",
+      "s1": "v"
+    },
+    "recursive_upper_bound": "1/2",
+    "second_approximation": {
+      "z": "1/2"
+    },
+    "second_stage_defect": "1/4",
+    "second_summary": {
+      "u": "z",
+      "v": "z"
+    },
+    "theorem": "If an actual response is alpha-close to a first summary simulator and that simulator is beta-close to a second summary simulator in worst-case total variation, the composite is at most alpha+beta close. The bound is tight.",
+    "zero_defect_relay_changes_nothing": true
+  },
+  "benign_refinement": {
+    "counterexample": "For a deterministic odd n-cycle, the raw per-edge L-infinity distance to the even-parity polytope is exactly 1/n. An inert subdivision changes 1/3 to 1/4 while preserving the Z2 obstruction. Therefore that scalar is not refinement-natural.",
+    "declared_benign_morphism": "replace edge C--A by C--R--A with R a deterministic, zero-cost, zero-latency, inaccessible identity relay and no new intervention",
+    "extension_verdict_preserved": true,
+    "flat_original": {
+      "constructive_linf_edge_edit": "0",
+      "distance_bound_is_tight": true,
+      "edge_count": 3,
+      "exact_linf_distance_to_even_parity_polytope": "0",
+      "global_assignment_count": 2,
+      "global_extension_exists": true,
+      "lower_bound": "the violated odd-set functional changes by at most n*epsilon under an L-infinity edge edit",
+      "nearest_even_vertex_mixture": [
+        "0",
+        "0",
+        "0"
+      ],
+      "parities": [
+        0,
+        0,
+        0
+      ],
+      "repair_vertices_are_even": true,
+      "upper_bound": "the uniform mixture of the n even vectors obtained by flipping one edge is exactly 1/n away",
+      "z2_cycle_syndrome": 0
+    },
+    "flat_subdivided": {
+      "constructive_linf_edge_edit": "0",
+      "distance_bound_is_tight": true,
+      "edge_count": 4,
+      "exact_linf_distance_to_even_parity_polytope": "0",
+      "global_assignment_count": 2,
+      "global_extension_exists": true,
+      "lower_bound": "the violated odd-set functional changes by at most n*epsilon under an L-infinity edge edit",
+      "nearest_even_vertex_mixture": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "parities": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "repair_vertices_are_even": true,
+      "upper_bound": "the uniform mixture of the n even vectors obtained by flipping one edge is exactly 1/n away",
+      "z2_cycle_syndrome": 0
+    },
+    "frustrated_original": {
+      "constructive_linf_edge_edit": "1/3",
+      "distance_bound_is_tight": true,
+      "edge_count": 3,
+      "exact_linf_distance_to_even_parity_polytope": "1/3",
+      "global_assignment_count": 0,
+      "global_extension_exists": false,
+      "lower_bound": "the violated odd-set functional changes by at most n*epsilon under an L-infinity edge edit",
+      "nearest_even_vertex_mixture": [
+        "1/3",
+        "1/3",
+        "2/3"
+      ],
+      "parities": [
+        0,
+        0,
+        1
+      ],
+      "repair_vertices_are_even": true,
+      "upper_bound": "the uniform mixture of the n even vectors obtained by flipping one edge is exactly 1/n away",
+      "z2_cycle_syndrome": 1
+    },
+    "frustrated_subdivided": {
+      "constructive_linf_edge_edit": "1/4",
+      "distance_bound_is_tight": true,
+      "edge_count": 4,
+      "exact_linf_distance_to_even_parity_polytope": "1/4",
+      "global_assignment_count": 0,
+      "global_extension_exists": false,
+      "lower_bound": "the violated odd-set functional changes by at most n*epsilon under an L-infinity edge edit",
+      "nearest_even_vertex_mixture": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "3/4"
+      ],
+      "parities": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "repair_vertices_are_even": true,
+      "upper_bound": "the uniform mixture of the n even vectors obtained by flipping one edge is exactly 1/n away",
+      "z2_cycle_syndrome": 1
+    },
+    "naive_distance_after": "1/4",
+    "naive_distance_before": "1/3",
+    "naive_scalar_distance_changes": true,
+    "naturality_rule": "Carry the extension/dual or cohomological obstruction through the declared refinement morphism. Compute any scalar cost only after collapsing benign relays or assigning physical weights.",
+    "solution_count_preserved": true,
+    "z2_obstruction_class_preserved": true
+  },
+  "certificate_without_history_disclosure": {
+    "certificate_content": "a publicly checkable history-class statement: parity class",
+    "disclosed_history": false,
+    "first_certificate": "(parity class, first-bit tag)",
+    "first_certificate_fiber_sizes": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "first_certificate_is_history_injective": false,
+    "hidden_history_action_defect_after_outer_certificate": "1/2",
+    "history_count": 8,
+    "outer_certificate": "parity class only",
+    "outer_certificate_fiber_sizes": [
+      4,
+      4
+    ],
+    "outer_certificate_is_history_injective": false,
+    "parity_action_defect_after_recursive_outer_certificate": "0",
+    "parity_action_defect_at_first_certificate": "0",
+    "recursive_composition_succeeds_for_declared_action": true,
+    "same_certificate_is_not_universally_action_sufficient": true,
+    "scope": "Exact functional non-disclosure only. No commitment hiding, zero-knowledge simulator, soundness reduction, cryptographic setup, adversarial security, or physical secrecy is proved.",
+    "theorem": "For maps H->C1->C2 and an upper response Y, if Y factors through C1 and the induced response on C1 factors through C2, then Y factors through the composite certificate. Neither map need be injective on histories."
+  },
+  "check_count": 22,
+  "checks": {
+    "action_composition_bound_is_tight": true,
+    "all_15_partitions_on_four_occurrences_enumerated": true,
+    "all_identity_marginal_action_patterns_realized": true,
+    "benign_subdivision_preserves_extension_verdict": true,
+    "benign_subdivision_preserves_obstruction_class": true,
+    "benign_subdivision_preserves_solution_count": true,
+    "certificate_action_sufficiency_is_task_relative": true,
+    "certificate_chain_does_not_disclose_history": true,
+    "certificate_chain_preserves_declared_action": true,
+    "cycle_distance_constructive_bound_is_exact": true,
+    "cycle_has_exact_pairwise_overlap_agreement": true,
+    "cycle_pairwise_records_do_not_glue_globally": true,
+    "effect_identity_is_strictly_weaker_than_instrument_identity": true,
+    "gpt_bridge_does_not_claim_almost_quantum_exclusion": true,
+    "identity_common_postprocessing_contracts": true,
+    "identity_triangle_bound_is_tight": true,
+    "identity_zero_relay_preserves_path_bound": true,
+    "join_tree_overlap_marginals_glue_exactly": true,
+    "naive_compatibility_scalar_fails_naturality": true,
+    "odd_triangle_linf_defect_is_one_third": true,
+    "recursive_vector_keeps_global_marginal_receipt_separate": true,
+    "typed_identity_intersection_is_unique_maximum": true
+  },
+  "claim_grade": "EXACT FINITE TYPED-IDENTITY / JOIN-TREE / CYCLIC-COUNTEREXAMPLE / REFINEMENT-NATURALITY / ACTION-BOUND CONTROLS / COMPONENT MATHEMATICS KNOWN / PHYSICAL REGIONAL COMPOSITION OPEN",
+  "defect_coordinate_independence": {
+    "all_eight_zero_nonzero_patterns_realized": true,
+    "boundary": "Logical independence in a product fixture is not evidence that the coordinates vary independently in a physical system.",
+    "interpretation": "Inside the finite product class, no coordinate implies either of the others. A scalar norm can flag nonzero total defect but cannot identify the required repair.",
+    "product_fixture_rows": [
+      {
+        "action_case": "action factors exactly",
+        "defect_vector": {
+          "action_tv": "0",
+          "identity_tv": "0",
+          "marginal_obstruction_class": 0
+        },
+        "identity_case": "typed seam exact",
+        "marginal_case": "flat compatible cover"
+      },
+      {
+        "action_case": "aliased binary action",
+        "defect_vector": {
+          "action_tv": "1/2",
+          "identity_tv": "0",
+          "marginal_obstruction_class": 0
+        },
+        "identity_case": "typed seam exact",
+        "marginal_case": "flat compatible cover"
+      },
+      {
+        "action_case": "action factors exactly",
+        "defect_vector": {
+          "action_tv": "0",
+          "identity_tv": "0",
+          "marginal_obstruction_class": 1
+        },
+        "identity_case": "typed seam exact",
+        "marginal_case": "odd cycle obstruction"
+      },
+      {
+        "action_case": "aliased binary action",
+        "defect_vector": {
+          "action_tv": "1/2",
+          "identity_tv": "0",
+          "marginal_obstruction_class": 1
+        },
+        "identity_case": "typed seam exact",
+        "marginal_case": "odd cycle obstruction"
+      },
+      {
+        "action_case": "action factors exactly",
+        "defect_vector": {
+          "action_tv": "0",
+          "identity_tv": "1",
+          "marginal_obstruction_class": 0
+        },
+        "identity_case": "typed seam mismatch",
+        "marginal_case": "flat compatible cover"
+      },
+      {
+        "action_case": "aliased binary action",
+        "defect_vector": {
+          "action_tv": "1/2",
+          "identity_tv": "1",
+          "marginal_obstruction_class": 0
+        },
+        "identity_case": "typed seam mismatch",
+        "marginal_case": "flat compatible cover"
+      },
+      {
+        "action_case": "action factors exactly",
+        "defect_vector": {
+          "action_tv": "0",
+          "identity_tv": "1",
+          "marginal_obstruction_class": 1
+        },
+        "identity_case": "typed seam mismatch",
+        "marginal_case": "odd cycle obstruction"
+      },
+      {
+        "action_case": "aliased binary action",
+        "defect_vector": {
+          "action_tv": "1/2",
+          "identity_tv": "1",
+          "marginal_obstruction_class": 1
+        },
+        "identity_case": "typed seam mismatch",
+        "marginal_case": "odd cycle obstruction"
+      }
+    ]
+  },
+  "does_not_establish": [
+    "physical selection or formation of regions and interfaces",
+    "a general robust stochastic descent theorem",
+    "a new sheaf, database, consensus, or QEC theorem",
+    "zero-knowledge cryptographic security",
+    "pairwise-to-global composition for general quantum instruments",
+    "exclusion of almost-quantum or PR correlations",
+    "beyond-standard quantum dynamics",
+    "public finality, emergent geometry, or record-first ontology"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "formed_interface_precondition": "All region, record, certificate, provenance, and boundary interfaces are independently fixed inputs. No result here selects or forms them.",
+  "gpt_and_instrument_bridge": {
+    "claim": "EXPLICIT BRIDGE/ABSORBER CHECK ONLY",
+    "formed_interface_result": "Formed interfaces and typed overlap identity license which occurrences may be glued. They do not make pairwise records globally composable.",
+    "open_stronger_principle": "A genuinely stronger instrument-level pairwise-to-global law would need independently justified sharpness, repeatability, common-system identity, nondisturbance, and composition conditions, then show a consequence not already absorbed by joint measurability, Specker contextuality, process tensors, QEC, or Local Orthogonality.",
+    "probability_level_result": "This branch supplies no principle stronger than probability-level exclusivity or Local Orthogonality and makes no claim to exclude almost-quantum correlations.",
+    "specker_absorber": "For general POVMs/instruments, pairwise compatibility need not imply joint compatibility. For finite sharp projective records represented by pairwise commuting PVMs on one Hilbert space, standard spectral theory already supplies the joint observable."
+  },
+  "identity_composition": {
+    "bound_is_tight": true,
+    "common_bsc_error": "1/4",
+    "common_postprocessing_contracts_identity_defect": true,
+    "edge_defects": [
+      "1/4",
+      "1/4"
+    ],
+    "endpoint_defect": "1/2",
+    "expected_contraction": "1/4",
+    "postprocessed_endpoint_defect": "1/4",
+    "postprocessed_signatures": [
+      "1/4",
+      "3/8",
+      "1/2"
+    ],
+    "subdivided_path_bound": "1/2",
+    "subdivision_preserves_bound": true,
+    "theorem": "For a fixed typed record test and total variation, chained identity discrepancy is at most the sum of seam discrepancies. The bound is tight and common stochastic postprocessing cannot increase it.",
+    "triangle_upper_bound": "1/2",
+    "typed_bernoulli_signatures": [
+      "0",
+      "1/4",
+      "1/2"
+    ],
+    "zero_defect_relay_subdivision_path": [
+      "0",
+      "1/4",
+      "1/4",
+      "1/2"
+    ]
+  },
+  "marginal_compatibility": {
+    "composition_rule": "Join-tree covers may use local overlap receipts. Cyclic or higher-order covers require a full-cover primal/dual or equivalent obstruction receipt after the identity map is frozen.",
+    "cycle_counterexample": {
+      "all_one_variable_overlap_marginals_equal": true,
+      "contexts": {
+        "AB": {
+          "(0, 0)": "1/2",
+          "(0, 1)": "0",
+          "(1, 0)": "0",
+          "(1, 1)": "1/2"
+        },
+        "BC": {
+          "(0, 0)": "1/2",
+          "(0, 1)": "0",
+          "(1, 0)": "0",
+          "(1, 1)": "1/2"
+        },
+        "CA": {
+          "(0, 0)": "0",
+          "(0, 1)": "1/2",
+          "(1, 0)": "1/2",
+          "(1, 1)": "0"
+        }
+      },
+      "counterexample": "exact pairwise overlap agreement plus individually valid sharp pair records does not imply a global extension on a cyclic cover",
+      "every_context_normalized": true,
+      "every_pair_record_is_sharp_relation": true,
+      "full_cover_global_extension_exists": false,
+      "global_obstruction": {
+        "constructive_linf_edge_edit": "1/3",
+        "distance_bound_is_tight": true,
+        "edge_count": 3,
+        "exact_linf_distance_to_even_parity_polytope": "1/3",
+        "global_assignment_count": 0,
+        "global_extension_exists": false,
+        "lower_bound": "the violated odd-set functional changes by at most n*epsilon under an L-infinity edge edit",
+        "nearest_even_vertex_mixture": [
+          "1/3",
+          "1/3",
+          "2/3"
+        ],
+        "parities": [
+          0,
+          0,
+          1
+        ],
+        "repair_vertices_are_even": true,
+        "upper_bound": "the uniform mixture of the n even vectors obtained by flipping one edge is exactly 1/n away",
+        "z2_cycle_syndrome": 1
+      }
+    },
+    "join_tree_positive_control": {
+      "constructed_joint": {
+        "(0, 0, 0)": "1/12",
+        "(0, 0, 1)": "1/6",
+        "(0, 1, 0)": "1/5",
+        "(0, 1, 1)": "1/20",
+        "(1, 0, 0)": "1/24",
+        "(1, 0, 1)": "1/12",
+        "(1, 1, 0)": "3/10",
+        "(1, 1, 1)": "3/40"
+      },
+      "contexts": [
+        "AB",
+        "BC"
+      ],
+      "joint_normalized_and_reproduces_both_marginals": true,
+      "overlap": "B",
+      "overlap_marginals_match": true,
+      "theorem": "Finite normalized context distributions on a join tree with matching separator marginals glue by conditional multiplication, with zero-mass separators handled by zero."
+    }
+  },
+  "novelty_grade": {
+    "dynamic_unity_increment": "one mixed typed recursive contract that requires formed identity, full-cover marginal, and action receipts separately; an exact relay-subdivision counterexample to a naive scalar compatibility defect; and explicit certificate-content versus history-disclosure typing",
+    "known": [
+      "equivalence-kernel intersections",
+      "total-variation triangle and data processing",
+      "join-tree/Vorobev/sheaf gluing",
+      "parity-polytope and cohomological cycle obstruction",
+      "approximate sufficient-statistic bounds",
+      "certificate/disclosure separation in zero-knowledge, access-structure, provenance, and QEC terrain",
+      "pairwise-versus-joint compatibility/Specker terrain"
+    ],
+    "search_status": "PROGRAM-LEVEL SYNTHESIS / CLAIM-SPECIFIC NOVELTY SEARCH NOT PERFORMED / NO PAPER OR PHYSICAL-LAW CLAIM"
+  },
+  "probe": "du_recursive_record_composition_probe",
+  "recursive_vector_contract": {
+    "exact_descent_condition": "The vector must be zero at the identity type needed by the upper task, carry a full-cover global extension, and have zero action defect, in addition to separately declared adversarial safety, liveness, provenance, and resource gates.",
+    "mixed_composition_law": "Identity and action coordinates have subadditive path bounds. The marginal coordinate must be recomputed on the full glued cover after typed identities are frozen; it is not the sum of local compatibility verdicts.",
+    "no_scalar_corollary": "There is no representation-independent scalar composition law from local identity/action errors and pairwise compatibility alone: cyclic compatibility is a global receipt, and a naive compatibility distance changes under inert subdivision.",
+    "recursive_vector": {
+      "action_composite_defect": "1/2",
+      "action_path_upper_bound": "1/2",
+      "identity_endpoint_defect": "1/2",
+      "identity_path_upper_bound": "1/2",
+      "marginal_global_extension_exists": false,
+      "marginal_obstruction_class": 1
+    },
+    "vector_type": [
+      "typed identity total-variation bound",
+      "full-cover marginal primal/dual or obstruction class",
+      "upper-action total-variation bound"
+    ]
+  },
+  "run_id": "RUN-20260725-100452-record-formation-certified-composition",
+  "schema_version": "dynamic-unity/recursive-record-composition/v0.1",
+  "typed_overlap_identity": {
+    "boundary": "The construction filters an independently supplied evidence relation. It does not physically select E or a regional cover.",
+    "independently_formed_evidence_partition": [
+      [
+        "qnd_A",
+        "qnd_B",
+        "post_record_flip"
+      ],
+      [
+        "other_origin"
+      ]
+    ],
+    "items": [
+      "qnd_A",
+      "qnd_B",
+      "post_record_flip",
+      "other_origin"
+    ],
+    "maximality_failures": [],
+    "set_partition_count": 15,
+    "theorem": "For an independently formed equivalence E and predeclared typed signatures sigma_t, E intersected with every kernel ker(sigma_t) is the unique greatest equivalence contained in E whose identifications are sound at those types.",
+    "typed_relations": {
+      "action": {
+        "admissible_equivalence_relation_count": 2,
+        "identified_ordered_pair_count": 6,
+        "is_unique_maximum_by_relation_inclusion": true,
+        "maximal_warranted_blocks": [
+          [
+            "other_origin"
+          ],
+          [
+            "post_record_flip"
+          ],
+          [
+            "qnd_A",
+            "qnd_B"
+          ]
+        ],
+        "required_types": [
+          "effect",
+          "selective_instrument",
+          "multitime_history",
+          "upper_action"
+        ]
+      },
+      "effect_only": {
+        "admissible_equivalence_relation_count": 5,
+        "identified_ordered_pair_count": 10,
+        "is_unique_maximum_by_relation_inclusion": true,
+        "maximal_warranted_blocks": [
+          [
+            "other_origin"
+          ],
+          [
+            "post_record_flip",
+            "qnd_A",
+            "qnd_B"
+          ]
+        ],
+        "required_types": [
+          "effect"
+        ]
+      },
+      "history": {
+        "admissible_equivalence_relation_count": 2,
+        "identified_ordered_pair_count": 6,
+        "is_unique_maximum_by_relation_inclusion": true,
+        "maximal_warranted_blocks": [
+          [
+            "other_origin"
+          ],
+          [
+            "post_record_flip"
+          ],
+          [
+            "qnd_A",
+            "qnd_B"
+          ]
+        ],
+        "required_types": [
+          "effect",
+          "selective_instrument",
+          "multitime_history"
+        ]
+      },
+      "instrument": {
+        "admissible_equivalence_relation_count": 2,
+        "identified_ordered_pair_count": 6,
+        "is_unique_maximum_by_relation_inclusion": true,
+        "maximal_warranted_blocks": [
+          [
+            "other_origin"
+          ],
+          [
+            "post_record_flip"
+          ],
+          [
+            "qnd_A",
+            "qnd_B"
+          ]
+        ],
+        "required_types": [
+          "effect",
+          "selective_instrument"
+        ]
+      }
+    },
+    "typed_signatures": {
+      "effect": {
+        "other_origin": "X_effect",
+        "post_record_flip": "Z_effect",
+        "qnd_A": "Z_effect",
+        "qnd_B": "Z_effect"
+      },
+      "multitime_history": {
+        "other_origin": "repeat_X",
+        "post_record_flip": "reverse_Z",
+        "qnd_A": "repeat_Z",
+        "qnd_B": "repeat_Z"
+      },
+      "selective_instrument": {
+        "other_origin": "X_measurement",
+        "post_record_flip": "Z_then_X",
+        "qnd_A": "QND_Z",
+        "qnd_B": "QND_Z"
+      },
+      "upper_action": {
+        "other_origin": "next_X",
+        "post_record_flip": "next_Z_reversed",
+        "qnd_A": "next_Z_same",
+        "qnd_B": "next_Z_same"
+      }
+    },
+    "weakest_claim_interpretation": "Use the least committal identity type needed by the next composition. Effect identity does not promote itself to instrument, history, provenance, or action identity."
+  },
+  "verdict": "TYPED_RECURSIVE_COMPOSITION_CONTRACT_INSTALLED / IDENTITY_AND_ACTION_BOUNDS_TIGHT / GLOBAL_MARGINAL_RECEIPT_NONLOCAL_TO_COMPOSITION / NAIVE_SCALAR_REFINEMENT_NATURALITY_REFUTED / CERTIFICATE_CONTENT_SEPARATED_FROM_HISTORY_DISCLOSURE"
+}

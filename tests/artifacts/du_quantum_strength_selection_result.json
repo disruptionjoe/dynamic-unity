@@ -1,0 +1,440 @@
+{
+  "all_checks_passed": true,
+  "candidate_principle": {
+    "clauses": [
+      "certified events with different outputs for the same local input are incompatible",
+      "every pairwise incompatible event family has total probability at most one",
+      "independently formed regions compose by product probabilities and inherited event identities"
+    ],
+    "name": "Certified Exclusivity under Independent Regional Composition",
+    "not_a_new_principle": true,
+    "prior_art_identity": "Local Orthogonality on Bell events; Bell-scenario face of Consistent Exclusivity"
+  },
+  "checks": [
+    {
+      "detail": "exact",
+      "name": "local_behavior_valid",
+      "passed": true
+    },
+    {
+      "detail": "exact",
+      "name": "local_behavior_nonsignalling",
+      "passed": true
+    },
+    {
+      "detail": "2",
+      "name": "local_chsh_is_2",
+      "passed": true
+    },
+    {
+      "detail": "exact",
+      "name": "pr_behavior_valid",
+      "passed": true
+    },
+    {
+      "detail": "exact",
+      "name": "pr_behavior_nonsignalling",
+      "passed": true
+    },
+    {
+      "detail": "4",
+      "name": "pr_chsh_is_4",
+      "passed": true
+    },
+    {
+      "detail": 8,
+      "name": "one_pr_possible_event_count_is_8",
+      "passed": true
+    },
+    {
+      "detail": [
+        "(00|00)",
+        "(11|00)"
+      ],
+      "name": "one_pr_maximum_lo_clique_size_is_2",
+      "passed": true
+    },
+    {
+      "detail": "1",
+      "name": "one_pr_maximum_lo_weight_is_1",
+      "passed": true
+    },
+    {
+      "detail": 64,
+      "name": "two_pr_possible_event_count_is_64",
+      "passed": true
+    },
+    {
+      "detail": [
+        "(0000|0000)",
+        "(1110|0011)",
+        "(0011|0110)",
+        "(1101|1011)",
+        "(0111|1101)"
+      ],
+      "name": "published_five_event_witness_is_supported",
+      "passed": true
+    },
+    {
+      "detail": [
+        "(0000|0000)",
+        "(1110|0011)",
+        "(0011|0110)",
+        "(1101|1011)",
+        "(0111|1101)"
+      ],
+      "name": "published_witness_is_pairwise_locally_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "name": "each_supported_two_pr_witness_event_has_probability_1_over_4",
+      "passed": true
+    },
+    {
+      "detail": "5/4",
+      "name": "two_pr_witness_sum_is_5_over_4",
+      "passed": true
+    },
+    {
+      "detail": "1/4",
+      "name": "two_pr_witness_violates_lo_by_1_over_4",
+      "passed": true
+    },
+    {
+      "detail": [
+        "(0000|0000)",
+        "(0011|0100)",
+        "(0111|1101)",
+        "(1100|1010)",
+        "(1110|0011)"
+      ],
+      "name": "two_pr_exhaustive_maximum_lo_clique_size_is_5",
+      "passed": true
+    },
+    {
+      "detail": "exact Q(sqrt(2)) arithmetic",
+      "name": "tsirelson_behavior_valid",
+      "passed": true
+    },
+    {
+      "detail": "exact Q(sqrt(2)) arithmetic",
+      "name": "tsirelson_behavior_nonsignalling",
+      "passed": true
+    },
+    {
+      "detail": "2*sqrt(2)",
+      "name": "tsirelson_chsh_is_2_sqrt_2",
+      "passed": true
+    },
+    {
+      "detail": "15/32+5/16*sqrt(2)",
+      "name": "tsirelson_five_event_sum_below_1",
+      "passed": true
+    },
+    {
+      "detail": "17/32-5/16*sqrt(2)",
+      "name": "tsirelson_five_event_slack_positive_exactly",
+      "passed": true
+    },
+    {
+      "detail": "exact",
+      "name": "signalling_control_valid",
+      "passed": true
+    },
+    {
+      "detail": "Bob's marginal depends on Alice's input",
+      "name": "signalling_control_rejected_by_causal_contract",
+      "passed": true
+    },
+    {
+      "detail": "16/16 deterministic branches",
+      "name": "pr_random_access_code_recovers_every_requested_bit",
+      "passed": true
+    },
+    {
+      "detail": {
+        "information_sum_bits": 2,
+        "message_bits": 1
+      },
+      "name": "pr_random_access_code_information_sum_2_exceeds_message_1",
+      "passed": true
+    }
+  ],
+  "checks_passed": 25,
+  "checks_total": 25,
+  "claim_grade": "EXACT FINITE LO/PR SPECIALIZATION + LANDSCAPE NO-GO / KNOWN COMPONENT MATHEMATICS / QUANTUM SELECTION OPEN",
+  "class_ledger": [
+    {
+      "class": "local",
+      "gate_disposition": "admitted",
+      "relation": "strict subset of ordinary quantum"
+    },
+    {
+      "class": "ordinary_quantum",
+      "gate_disposition": "admitted",
+      "relation": "satisfies LO/CE; CHSH bounded by 2*sqrt(2)"
+    },
+    {
+      "class": "almost_quantum",
+      "gate_disposition": "not excluded by this probability-level principle",
+      "relation": "strictly larger than ordinary quantum; satisfies LO and CE, macroscopic locality, and other named principles"
+    },
+    {
+      "class": "no_signalling",
+      "gate_disposition": "partially cut by composition; PR^2 is excluded",
+      "relation": "strictly larger than ordinary quantum; one-copy PR lies here"
+    },
+    {
+      "class": "signalling",
+      "gate_disposition": "stopped before strength selection",
+      "relation": "outside the declared no-signalling landscape"
+    }
+  ],
+  "does_not_establish": [
+    "a new exclusivity principle",
+    "the Tsirelson bound from Dynamic Unity premises",
+    "membership in the ordinary quantum set",
+    "exclusion of all post-quantum or almost-quantum correlations",
+    "a physical record-selection law",
+    "record-first ontology"
+  ],
+  "exact_receipt": {
+    "information_causality_pr_control": {
+      "all_16_branches_recover_requested_bit": true,
+      "information_sum_bits": 2,
+      "message_bits": 1,
+      "rows": [
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 0,
+          "alice_message": 0,
+          "alice_pr_output": 0,
+          "bob_guess": 0,
+          "bob_pr_output": 0,
+          "requested_bit": 0,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 0,
+          "alice_message": 1,
+          "alice_pr_output": 1,
+          "bob_guess": 0,
+          "bob_pr_output": 1,
+          "requested_bit": 0,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 0,
+          "alice_message": 0,
+          "alice_pr_output": 0,
+          "bob_guess": 0,
+          "bob_pr_output": 0,
+          "requested_bit": 1,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 0,
+          "alice_message": 1,
+          "alice_pr_output": 1,
+          "bob_guess": 0,
+          "bob_pr_output": 1,
+          "requested_bit": 1,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 1,
+          "alice_message": 0,
+          "alice_pr_output": 0,
+          "bob_guess": 0,
+          "bob_pr_output": 0,
+          "requested_bit": 0,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 1,
+          "alice_message": 1,
+          "alice_pr_output": 1,
+          "bob_guess": 0,
+          "bob_pr_output": 1,
+          "requested_bit": 0,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 1,
+          "alice_message": 0,
+          "alice_pr_output": 0,
+          "bob_guess": 1,
+          "bob_pr_output": 1,
+          "requested_bit": 1,
+          "target": 1
+        },
+        {
+          "alice_bit_0": 0,
+          "alice_bit_1": 1,
+          "alice_message": 1,
+          "alice_pr_output": 1,
+          "bob_guess": 1,
+          "bob_pr_output": 0,
+          "requested_bit": 1,
+          "target": 1
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 0,
+          "alice_message": 1,
+          "alice_pr_output": 0,
+          "bob_guess": 1,
+          "bob_pr_output": 0,
+          "requested_bit": 0,
+          "target": 1
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 0,
+          "alice_message": 0,
+          "alice_pr_output": 1,
+          "bob_guess": 1,
+          "bob_pr_output": 1,
+          "requested_bit": 0,
+          "target": 1
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 0,
+          "alice_message": 1,
+          "alice_pr_output": 0,
+          "bob_guess": 0,
+          "bob_pr_output": 1,
+          "requested_bit": 1,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 0,
+          "alice_message": 0,
+          "alice_pr_output": 1,
+          "bob_guess": 0,
+          "bob_pr_output": 0,
+          "requested_bit": 1,
+          "target": 0
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 1,
+          "alice_message": 1,
+          "alice_pr_output": 0,
+          "bob_guess": 1,
+          "bob_pr_output": 0,
+          "requested_bit": 0,
+          "target": 1
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 1,
+          "alice_message": 0,
+          "alice_pr_output": 1,
+          "bob_guess": 1,
+          "bob_pr_output": 1,
+          "requested_bit": 0,
+          "target": 1
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 1,
+          "alice_message": 1,
+          "alice_pr_output": 0,
+          "bob_guess": 1,
+          "bob_pr_output": 0,
+          "requested_bit": 1,
+          "target": 1
+        },
+        {
+          "alice_bit_0": 1,
+          "alice_bit_1": 1,
+          "alice_message": 0,
+          "alice_pr_output": 1,
+          "bob_guess": 1,
+          "bob_pr_output": 1,
+          "requested_bit": 1,
+          "target": 1
+        }
+      ],
+      "violates_information_causality_by_bits": 1
+    },
+    "one_pr": {
+      "disposition": "PASSES_SINGLE_COPY_LO; in bipartite scenarios LO is equivalent to no-signalling",
+      "maximum_lo_clique": [
+        "(00|00)",
+        "(11|00)"
+      ],
+      "maximum_lo_sum": "1",
+      "possible_events": 8
+    },
+    "ordinary_quantum": {
+      "chsh_boundary": "2*sqrt(2)",
+      "disposition": "ADMITTED_BY_LO",
+      "five_event_witness_slack": "17/32-5/16*sqrt(2)",
+      "five_event_witness_sum": "15/32+5/16*sqrt(2)",
+      "general_receipt": "locally orthogonal quantum events have orthogonal product projectors, so every LO sum is at most one"
+    },
+    "signalling_control": {
+      "disposition": "OUTSIDE_FROZEN_CAUSAL_LANDSCAPE",
+      "no_signalling": false,
+      "valid_conditional_table": true
+    },
+    "two_independent_pr": {
+      "disposition": "EXCLUDED_UNDER_DECLARED_TWO_COPY_COMPOSITION",
+      "excess_over_one": "1/4",
+      "maximum_lo_clique": [
+        "(0000|0000)",
+        "(0011|0100)",
+        "(0111|1101)",
+        "(1100|1010)",
+        "(1110|0011)"
+      ],
+      "possible_events": 64,
+      "published_witness": [
+        "(0000|0000)",
+        "(1110|0011)",
+        "(0011|0110)",
+        "(1101|1011)",
+        "(0111|1101)"
+      ],
+      "witness_probabilities": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "witness_sum": "5/4"
+    }
+  },
+  "exact_reopener": {
+    "name": "formed-sharp instrument composition",
+    "novelty_condition": "Specker's principle and sharp-measurement axiom families are occupied terrain. A DU delta would have to derive their applicability from record formation, provenance, access, and continuation dynamics or produce a stricter new consequence.",
+    "requirements": [
+      "derive a noncircular physical sharpness criterion for formed record instruments",
+      "certify pairwise compatibility at complete selective-instrument and continuation level, not event marginals",
+      "prove or refute a pairwise-to-global joint-instrument composition law under independent regional formation",
+      "admit ordinary projective quantum instruments and exclude a declared almost-quantum/Specker witness without inserting Hilbert-space quantum structure"
+    ]
+  },
+  "hard_disposition": "PR_EXCLUSION_FEASIBLE_UNDER_INDEPENDENT_COMPOSITION / CANDIDATE_COLLAPSES_TO_KNOWN_LO_CE / ORDINARY_QUANTUM_NOT_SELECTED",
+  "precise_missing_structure": "Probability-level certificate exclusivity supplies only a binary incompatibility hypergraph. It does not derive the sharp complete instruments, joint-measurability structure, or graded positive operator composition that distinguishes ordinary quantum from almost-quantum correlations.",
+  "run_id": "RUN-20260725-100452-record-formation-certified-composition",
+  "schema_version": "dynamic-unity/quantum-strength-selection-frontier-gate/v0.1"
+}
