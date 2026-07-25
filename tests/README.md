@@ -404,3 +404,33 @@ all-port coherent-history identity and exact incoherent-history null. It has
 no dedicated probe because its result is a direct two-history trace
 calculation; actual proper-time operations, robust instrument nulls, and
 calibrated implementation remain open.
+
+## Finite holonomy, public-finality, and provenance probe
+
+`du_holonomy_finality_provenance_probe.py` executes the exact finite baseline
+selected independently by the open-frontier Science Council wave.
+
+Using the Python standard library, exact rational arithmetic, and exhaustive
+finite enumeration where applicable, it checks:
+
+- record descent through holonomy orbits for all subgroups of `S3` and every
+  three-state fact partition;
+- nonincrease, including strict losses, of orbit-public capacity when a
+  same-fibre reconciliation generator is added;
+- the exact action-relative minimum provenance alphabet;
+- the `gcd(m,k)` orbit law for translation-loop triangles through `m=12`;
+- cycle-lift rank `|E|-|V|+1` on tree and cyclic graph fixtures;
+- the qubit fixed algebra of `Ad_X`;
+- coherent route quadratures for phase-different implementations of identical
+  ordinary channels, with dephased and routed-refinement controls; and
+- the additive approximate-loop error budget.
+
+The artifact reports `9/9` named checks. Passing establishes exact finite
+group-action, graph-cohomology, fixed-algebra, and information-support
+specializations. It does not establish physical perspectival curvature,
+public objectivity, common knowledge, a thermodynamic reconciliation cost,
+spacetime geometry, or record-first ontology. The coherent route result is
+currently classified as interface incompleteness because the routed
+implementation refinement predicts it. Noisy/noninvertible reconciliation,
+adversarial protocols, approximate fixed algebras, and an actual coherent
+proper-time realization remain open.

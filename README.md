@@ -61,6 +61,15 @@ current results establish the starting boundary, not the answer:
   cross-history correlation while using both symmetric recombination ports.
   Actual proper-time implementation, a robust instrument null, and physical
   certification remain open.
+- The first finite reconciliation-loop baseline is exact: public
+  path-independent facts are the holonomy-invariant quotient/algebra;
+  noninvariant action distinctions must be projected away or lifted with
+  enough provenance; and adding a comparison edge can expose a cycle
+  constraint that reduces public capacity. Coherent routing can reveal
+  implementation phases omitted by identical ordinary channels, but that
+  specimen is absorbed by a routed-interface refinement. This is a precise
+  control for the physical `HC-DU-034B/036B` assay, not evidence of new
+  physical curvature or a public-reality law.
 - Classical sequential growth has an exact projective predictive quotient and a conditional
   post-renormalization mechanism. It has not thereby produced a physical observer, selected
   record interface, held-out spacetime geometry, dimensional scale, or fundamental ontology.

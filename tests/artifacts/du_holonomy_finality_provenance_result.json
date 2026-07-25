@@ -1,0 +1,193 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "facts_per_group": 27,
+        "subgroups": 6,
+        "theorem_cases": 162
+      },
+      "name": "finite record descent iff holonomy-orbit factorization",
+      "passed": true
+    },
+    {
+      "detail": {
+        "edge_generator_cases": 36,
+        "strict_capacity_losses": 17
+      },
+      "name": "same-fiber edge addition cannot increase public orbit capacity",
+      "passed": true
+    },
+    {
+      "detail": {
+        "nontrivial_provenance_cases": 102,
+        "provenance_cases": 162
+      },
+      "name": "minimal action-relative provenance alphabet constructed",
+      "passed": true
+    },
+    {
+      "detail": {
+        "specimens": [
+          {
+            "modulus": 2,
+            "orbit_size": 2,
+            "provenance_bits_for_full_state": 1,
+            "public_states": 1,
+            "shift": 1
+          },
+          {
+            "modulus": 4,
+            "orbit_size": 2,
+            "provenance_bits_for_full_state": 1,
+            "public_states": 2,
+            "shift": 2
+          },
+          {
+            "modulus": 6,
+            "orbit_size": 3,
+            "provenance_bits_for_full_state": 2,
+            "public_states": 2,
+            "shift": 2
+          },
+          {
+            "modulus": 8,
+            "orbit_size": 8,
+            "provenance_bits_for_full_state": 3,
+            "public_states": 1,
+            "shift": 3
+          }
+        ],
+        "translation_cases": 77
+      },
+      "name": "translation triangles obey gcd orbit and side-information laws",
+      "passed": true
+    },
+    {
+      "detail": {
+        "square_plus_diagonal": {
+          "cycle_lift_rank": 2,
+          "edges": 5,
+          "incidence_rank": 3,
+          "vertices": 4
+        },
+        "tree": {
+          "cycle_lift_rank": 0,
+          "edges": 2,
+          "incidence_rank": 2,
+          "vertices": 3
+        },
+        "triangle": {
+          "cycle_lift_rank": 1,
+          "edges": 3,
+          "incidence_rank": 2,
+          "vertices": 3
+        }
+      },
+      "name": "cycle-lift rank equals graph first Betti number",
+      "passed": true
+    },
+    {
+      "detail": {
+        "excluded_pauli_basis": [
+          "Y",
+          "Z"
+        ],
+        "fixed_algebra_dimension": 2,
+        "fixed_pauli_basis": [
+          "I",
+          "X"
+        ],
+        "holonomy": "Ad_X"
+      },
+      "name": "qubit X holonomy fixes exactly span{I,X}",
+      "passed": true
+    },
+    {
+      "detail": {
+        "candidate_endpoint_record_sufficient": false,
+        "ontology_disposition": "INTERFACE_INCOMPLETENESS",
+        "responses": [
+          {
+            "coherent_X": 1.0,
+            "coherent_Y": 0.0,
+            "dephased_X": 0.0,
+            "dephased_Y": 0.0,
+            "ordinary_direct_channel": "identity",
+            "ordinary_indirect_channel": "identity",
+            "phase": "0",
+            "routed_refinement_predicts": true
+          },
+          {
+            "coherent_X": 0.0,
+            "coherent_Y": 1.0,
+            "dephased_X": 0.0,
+            "dephased_Y": 0.0,
+            "ordinary_direct_channel": "identity",
+            "ordinary_indirect_channel": "identity",
+            "phase": "pi/2",
+            "routed_refinement_predicts": true
+          },
+          {
+            "coherent_X": -1.0,
+            "coherent_Y": 0.0,
+            "dephased_X": 0.0,
+            "dephased_Y": 0.0,
+            "ordinary_direct_channel": "identity",
+            "ordinary_indirect_channel": "identity",
+            "phase": "pi",
+            "routed_refinement_predicts": true
+          },
+          {
+            "coherent_X": 0.0,
+            "coherent_Y": -1.0,
+            "dephased_X": 0.0,
+            "dephased_Y": 0.0,
+            "ordinary_direct_channel": "identity",
+            "ordinary_indirect_channel": "identity",
+            "phase": "3pi/2",
+            "routed_refinement_predicts": true
+          }
+        ],
+        "routed_phase_refinement_sufficient": true
+      },
+      "name": "equal ordinary channels separate under coherent route control",
+      "passed": true
+    },
+    {
+      "detail": {
+        "response_count": 4
+      },
+      "name": "dephased route null removes both coherent quadratures",
+      "passed": true
+    },
+    {
+      "detail": {
+        "compatible_residue": "1/25",
+        "edge_errors": [
+          "1/100",
+          "1/50",
+          "3/200"
+        ],
+        "loop_budget": "9/200",
+        "rejecting_residue": "3/50"
+      },
+      "name": "approximate loop residue has an additive edge-error budget",
+      "passed": true
+    }
+  ],
+  "checks_passed": 9,
+  "checks_total": 9,
+  "claim_grade": "EXACT FINITE GROUP/GRAPH/CHANNEL SPECIALIZATIONS / PHYSICAL PERSPECTIVAL CURVATURE OPEN",
+  "not_established": [
+    "new physical curvature",
+    "irreducible physical remainder",
+    "thermodynamic reconciliation cost",
+    "public objectivity or common knowledge",
+    "noninvertible or noisy reconciliation theorem",
+    "spacetime geometry",
+    "record-first ontology"
+  ],
+  "probe": "du_holonomy_finality_provenance_probe",
+  "run_id": "RUN-20260724-191339-science-council-open-frontier-advancement",
+  "verdict": "FINITE_RECORD_DESCENT_EXACT / PROJECT_OR_LIFT_EXACT / EDGE_ADDITION_CAN_REDUCE_PUBLIC_CAPACITY / COHERENT_ROUTE_WITNESS_ABSORBED_BY_ROUTED_REFINEMENT"
+}

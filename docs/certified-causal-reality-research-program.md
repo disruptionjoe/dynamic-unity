@@ -98,6 +98,16 @@ The recharter preserves, rather than promotes, the strongest exact results:
   identity supplies an exact assay control and a symmetric two-port
   preparation advantage; physical proper-time implementation and a robust
   instrument null remain open.
+- On a finite reversible record graph, path-independent public facts are
+  exactly the holonomy-orbit quotient, or the fixed algebra in the
+  algebraic form. A noninvariant action distinction must be projected away or
+  supplemented by enough route/provenance information to distinguish its
+  response sectors. Adding a same-fibre reconciliation edge can reduce this
+  public capacity by adding a cycle constraint. Coherent control can also
+  distinguish unitary phase lifts that induce identical ordinary channels,
+  but routed implementation data absorbs that witness. These are exact
+  finite group/graph/channel specializations and interface controls, not new
+  physical curvature, public objectivity, or a thermodynamic law.
 
 These results complete the finite classical quotient bookkeeping and the
 first static layered-threshold and deterministic interventional-closure
@@ -470,6 +480,69 @@ remainder, or an incomplete comparison contract. Stop if the two platforms
 require semantic refitting or the result is only ordinary automata
 equivalence in two vocabularies.
 
+The physical arm should first compile a robust instrument certificate. For a
+frozen convex classical-instrument set \(C\), alternative set \(A\), and
+bounded complete-outcome score \(w\), maximize
+
+\[
+g^*=\max_{\|w\|_\infty\leq1}
+\left[\inf_{q\in A}w\cdot q-\sup_{p\in C}w\cdot p\right].
+\]
+
+A positive calibrated margin supplies the optimal bounded witness and a shot
+gate; a nonpositive margin stops the proposed outcome space. Null vertices
+must include arbitrary classical history weights and admitted preparation,
+measurement, leakage, detector, phase and drift errors. Every port, invalid
+trial, setting and provenance flag remains part of the record. The physical
+Proper-Time Robust Separability Hypothesis is simply that the specified
+proper-time instrument has \(g^*>0\) after those uncertainties. It remains an
+`HC-DU-034B` seam, not a prediction-register entry, until the platform,
+instrument and calibrated null are frozen.
+
+### Executed reconciliation-loop baseline
+
+The open-frontier council wave supplies a first exact component for the
+`HC-DU-034B/036B` refinement challenge.
+
+Let a connected finite graph carry reversible comparison maps among finite
+record fibres. Closed paths generate a holonomy group \(H\) on a reference
+fibre \(X\). Then:
+
+1. **Finite Record-Descent Theorem.** A path-independent family of facts is
+   exactly a function on \(X/H\). In an observable algebra, the maximal
+   path-independent public algebra is \(\mathcal A^H\).
+2. **Reconciliation-Frustration Monotonicity.** Adding a comparison edge
+   while holding the existing fibres and maps fixed enlarges the generated
+   holonomy group, so \(\log_2|X/H|\) cannot increase and can strictly
+   decrease.
+3. **Project-or-Lift Bound.** For action/readout \(y\), exact preservation
+   through public quotienting needs a provenance alphabet of minimum size
+   \(\max_O|\{y(x):x\in O\}|\), with \(O\) ranging over holonomy orbits.
+4. **Cycle-Lift Classification.** If unitary edge implementations are retained
+   only as ordinary channels, compatible central phase lifts modulo vertex
+   rephasing form
+   \(H^1(G;U(1))\cong U(1)^{|E|-|V|+1}\). Coherent routing can reveal a cycle
+   phase that all ordinary edge channels omit.
+5. **Passive-Refinement Flatness.** Fixed completion-set intersections
+   commute and are idempotent. Passive learning cannot itself generate
+   route/order holonomy; any effect needs disturbance, loss, context change,
+   omitted provenance, or approximate/resource-bounded gluing.
+
+The exact component mathematics is standard group-action, graph-cohomology,
+fixed-algebra, and information-support terrain. The potentially publishable
+object is the unchanged typed conjunction across independently formed
+quantum and adversarial distributed histories. In particular, the coherent
+cycle-phase specimen currently returns **interface incompleteness** because a
+routed implementation refinement predicts it. It does not license physical
+perspectival curvature.
+
+The next extension must cover noninvertible/noisy comparison maps,
+authenticated adversaries, approximate fixed algebras, and a physical
+coherent-history implementation. It must test invariant and noninvariant
+actions while sweeping independently formed provenance capacity. A higher
+consensus layer should be modeled as rejecting, repairing, recording, or
+quotienting a loop syndrome—not assumed to add public reality monotonically.
+
 ### `HC-DU-037` — Finality–Capability–Optionality Correspondence
 
 Part A is a cost-aware strictness theorem: a stronger certificate strictly
@@ -545,6 +618,8 @@ Only after the preceding dependencies:
 | `H-CCR-10` | Exact nonaliasing record growth requires growing support/export, weakened semantics, or modeled coarse-graining/nonunitarity. | Fixed finite support yields indefinitely fresh exact records without hidden resources. |
 | `H-CCR-11` | A global update clock is either quotient/gauge for the complete intervention algebra or produces a finite Lorentz-sensitive witness. | Scheduler status remains underidentified because the admitted intervention class is incomplete. |
 | `H-CCR-12` | At least one normalized certification/finality quantity retains the same operational meaning across quantum and distributed fixtures. | Every mapping requires a platform-specific redefinition. |
+| `H-CCR-13` | For independently formed reconciliation maps, path-independent public facts and safe actions are carried by a holonomy-invariant/equalizer object; preserving a noninvariant task distinction requires accessible provenance or residual route structure. | A fork-safe path-independent action uses a noninvariant distinction after complete process matching, with neither provenance nor retained route structure. |
+| `H-CCR-14` | Added authenticated connectivity can expose loop frustration and reduce path-independent public capacity; a harder finality layer restores capability only by rejecting, repairing, recording, or quotienting the loop syndrome. | The effect disappears in every noisy, adversarial, and physical realization once the full protocol and resource ledger are frozen. |
 
 ## Dependency order
 
@@ -561,6 +636,8 @@ Only after the preceding dependencies:
    HC-DU-035B formation-to-finality resource law [OPEN]
         |
 3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
+        |
+3a'. finite holonomy/public-fact/project-or-lift baseline [COMPLETED]
         |
 3b. HC-DU-036B physical admissible-refinement and cross-platform lift [OPEN]
         |

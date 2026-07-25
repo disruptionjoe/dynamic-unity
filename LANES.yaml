@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 21
+manifest_revision: 22
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -32,7 +32,11 @@ active_hardening_program_note: >-
   specialization, and HC-DU-036A supplies the exact finite deterministic
   factorization-or-candidate-witness baseline plus finite-linear extension. Physical record
   formation, admissible interface refinement, instrument-level history certification,
-  broadcastable public finality and the formation-to-finality resource law remain open.
+  broadcastable public finality and the formation-to-finality resource law remain open. The
+  revision-22 finite reconciliation-loop baseline additionally identifies path-independent facts
+  with a holonomy orbit/fixed algebra, proves task-relative project-or-lift provenance and
+  connectivity-frustration controls, and classifies the coherent route-phase specimen as
+  interface incompleteness rather than new physical curvature.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -565,7 +569,9 @@ certified_causal_reality_restructure:
     EXACT / HC-DU-035A LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
     REJECTED / HC-DU-034A SIGNED ALL-PORT COHERENT-HISTORY ASSAY EXACT AT IDEAL SPECIALIZATION
     GRADE / HC-DU-036A FINITE FACTORIZATION-OR-CANDIDATE-WITNESS AND LINEAR-RANK BASELINES EXACT /
-    NO SIZE-FREE WITNESS HORIZON / PHYSICAL RECORD FORMATION, ADMISSIBLE INTERFACE REFINEMENT,
+    NO SIZE-FREE WITNESS HORIZON / FINITE HOLONOMY PUBLIC-FACT, RECONCILIATION-FRUSTRATION,
+    PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / PHYSICAL RECORD FORMATION,
+    ADMISSIBLE INTERFACE REFINEMENT,
     INSTRUMENT-LEVEL HISTORY CERTIFICATION, BROADCASTABLE PUBLIC FINALITY,
     FORMATION-TO-FINALITY RESOURCE LAW, GEOMETRY AND PHYSICAL RECOVERY OPEN / COMPONENT
     MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL RESOURCE-COUPLED
@@ -577,12 +583,13 @@ certified_causal_reality_restructure:
     consequence of supplied selection/access relations; HC-DU-036A shows why a failed candidate
     interface alone cannot establish a physical remainder.
   first_executable_flagship: >-
-    Couple HC-DU-034B and HC-DU-036B on one physical coherent-history instrument. Freeze the
-    actual history operations, signed all-port statistic, instrument-level classical null,
-    resource ledger and admissible record-refinement class; then determine whether the measured
-    distinction factors through an independently formed record, exposes an incomplete interface,
-    or survives every admissible refinement as a class-relative physical remainder. Only after
-    that formed distinction exists should HC-DU-035B price its conversion into public finality.
+    Build a noninvertible history-certificate compiler as the next component of the coupled
+    HC-DU-034B/036B assay. Freeze the complete outcome record, convex classical-instrument null,
+    coherent alternative, reconciliation maps, resource ledger and admissible refinements;
+    compute the robust margin, shot gate, path equalizer and task-relative provenance. Reproduce
+    the route-phase control, then carry the unchanged schema to a proper-time instrument and an
+    authenticated distributed-history twin. Only after a physical distinction survives a
+    positive calibrated margin should HC-DU-035B price its conversion into public finality.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -739,6 +746,59 @@ repository_wide_council_advancement_wave:
     refinements; compute the minimal behavioral complexity and cheapest witness; then carry the
     unchanged typed contract to an authenticated distributed-history fixture. Route HC-DU-035B
     after a concrete formed distinction exists.
+open_frontier_council_advancement_wave:
+  status: completed_scoped_result
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: run another repository-wide Science Council wave with one independent
+    sub-agent per persona, let each pursue its own most important or interesting advance, and
+    preserve useful laws, theorems, hypotheses and explorations at honest grade.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-191339-science-council-open-frontier-advancement/run-plan.md
+  synthesis_ref: >-
+    explorations/science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md
+  persona_refs:
+  - explorations/science-council-orthodox-open-frontier-advancement-wave-2026-07-24.md
+  - explorations/science-council-heterodox-open-frontier-advancement-wave-2026-07-24.md
+  - explorations/science-council-commercial-open-frontier-advancement-wave-2026-07-24.md
+  - explorations/science-council-wild-frontier-open-frontier-advancement-wave-2026-07-24.md
+  - explorations/science-council-philosopher-open-frontier-advancement-wave-2026-07-24.md
+  probe_ref: tests/du_holonomy_finality_provenance_probe.py
+  artifact_ref: tests/artifacts/du_holonomy_finality_provenance_result.json
+  artifact_sha256: d45d96650a7998809a39b00ea632fb499432a061411df53602c8c7db27c2d345
+  exact_result: >-
+    For a connected finite reversible record graph, path-independent facts factor exactly
+    through the holonomy orbit quotient and the algebraic public part is the fixed algebra.
+    Adding a same-fibre reconciliation edge can only coarsen that quotient and can strictly
+    reduce public capacity. Preserving a task distinction inside an orbit needs an exact minimum
+    provenance alphabet. Unitary central phase lifts modulo vertex rephasing have dimension
+    |E|-|V|+1 and can be exposed by coherent routing even when ordinary channels agree. The probe
+    passes 9/9 exact checks.
+  ontology_correction: >-
+    Passive fixed-completion refinement is flat, commutative and idempotent; learning alone
+    cannot create holonomy. A coherent route or merger-order witness first establishes endpoint
+    or channel-interface incompleteness. The current phase specimen is absorbed by routed
+    implementation provenance and therefore establishes neither new physical curvature nor an
+    irreducible remainder.
+  hypothesis_custody: >-
+    H-CCR-13 preserves the holonomy-invariant/equalizer public-fact and project-or-lift physical
+    mapping. H-CCR-14 preserves the cross-platform reconciliation-frustration hypothesis that
+    added connectivity can expose a cycle syndrome and that a stronger finality layer must
+    reject, repair, record or quotient it. Proper-Time Robust Separability remains the open
+    HC-DU-034B instrument hypothesis, not a prediction entry.
+  novelty_disposition: >-
+    Group actions, fixed algebras, graph cohomology, information-support bounds, convex
+    separation and coherent channel-implementation dependence are known. The unchanged
+    formed-record to reconciliation to public-fact to provenance to capability to refinement
+    conjunction across quantum and adversarial distributed histories is search-incomplete. No
+    claim is banked or seeded.
+  next_move: >-
+    Build a noninvertible history-certificate compiler. Compute a complete-outcome robust
+    convex-null margin, shot and calibration cost, path equalizer, task-relative provenance and
+    admissible-refinement verdict for a coherent quantum fixture and an authenticated
+    distributed-history twin without semantic refitting. Use the Pauli route-phase standard
+    first; move to the proper-time instrument only if a positive calibrated margin survives.
+    Route formation-to-finality pricing only after a physically formed distinction exists.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1130,12 +1190,13 @@ lanes:
   lead_bet: >-
     HC-DU-036A now closes the finite deterministic
     factorization-or-candidate-record-witness baseline and finite-linear extension, including a
-    tight complexity-relative horizon and a proof that no size-free horizon exists. The decisive
-    target is now the coupled HC-DU-034B/036B physical assay: test whether an independently formed
-    certified-history quotient carries a coherent multi-history response, can be repaired by an
-    admissible physical refinement, or leaves a class-relative remainder. HC-DU-035B follows only
-    after that assay supplies a formed distinction whose conversion into public finality can be
-    priced.
+    tight complexity-relative horizon and a proof that no size-free horizon exists. The finite
+    reconciliation-loop baseline now identifies public facts with the holonomy invariant,
+    establishes project-or-lift provenance, and shows that added connectivity can reduce public
+    capacity. The decisive target is a noninvertible history-certificate compiler within the
+    coupled HC-DU-034B/036B physical assay: require a positive calibrated instrument margin, then
+    decide whether formed provenance absorbs the response or a class-relative remainder survives.
+    HC-DU-035B follows only after that assay supplies a formed distinction worth pricing.
   anchor:
     name: Certified Causal Sufficiency — factorization, candidate witness and refinement challenge
     elevated: '2026-07-24 (Joe direct chat; nineteen-lens triple-diamond convergence)'
@@ -1147,8 +1208,11 @@ lanes:
       locked-quorum, honest-lock margin, statistical-hardening, correlation, metastability and
       quantum access controls while rejecting a universal scalar threshold. HC-DU-034A fixes an
       ideal signed all-port coherent-history assay, and HC-DU-036A fixes the finite behavioral
-      closure, tight deterministic witness and finite-linear rank controls. A witness diagnoses a
-      failed candidate interface; it is not a physical remainder until every member of a frozen
+      closure, tight deterministic witness and finite-linear rank controls. The finite
+      holonomy/public-fact baseline additionally fixes record descent, reconciliation-frustration,
+      task-relative provenance capacity, cycle-lift rank and passive-refinement flatness. Its
+      coherent route phase is absorbed by implementation provenance. A witness diagnoses a failed
+      candidate interface; it is not a physical remainder until every member of a frozen
       admissible refinement class fails. No record-forming law, physical interface, observer,
       instrument-level history certificate, broadcastable public finality,
       formation-to-finality resource law, geometry, physical ontology or low-energy theory has
@@ -1190,8 +1254,10 @@ lanes:
       HC-DU-034A is complete at exact ideal-assay grade: signed all-port pooling isolates the
       declared two-history coherence term, vanishes for arbitrary-weight incoherent mixtures of
       the same frozen histories, and removes symmetric one-port postselection waste. Execute
-      HC-DU-034B jointly with HC-DU-036B by freezing a real instrument-level classical replacement
-      set, operations, errors, tester basis and resource ledger. HC-DU-035A separately closes the
+      HC-DU-034B jointly with HC-DU-036B by freezing a complete finite outcome record and convex
+      instrument-level classical replacement set, then compute its robust separation margin,
+      optimal bounded score, calibration/shot gate, operations, errors, tester basis and resource
+      ledger. HC-DU-035A separately closes the
       static layered-threshold controls and rejects one scalar objectivity threshold. Execute
       HC-DU-035B only after the coupled assay provides a physically formed distinction whose
       conversion into stable approximately commutative or broadcastable public capability can be
@@ -1202,11 +1268,14 @@ lanes:
     scope: >-
       HC-DU-036A is complete at exact finite-control grade: behavioral closure decides
       factorization, a failed candidate has a tight complexity-relative separating witness, a
-      finite linear realization has a reachable-rank bound, and no size-free horizon exists.
-      Execute HC-DU-036B on the HC-DU-034B physical assay. Freeze a nonempty target-independent
-      admissible refinement class and distinguish interface incompleteness from class-relative
-      physical remainder. Never define a selected record by agreement under every target physical
-      experiment or call a target-derived behavioral quotient a formed physical record.
+      finite linear realization has a reachable-rank bound, and no size-free horizon exists. The
+      reversible finite loop baseline identifies public facts with the holonomy orbit/fixed
+      algebra, proves task-relative project-or-lift provenance, and supplies connectivity-
+      frustration and cycle-lift controls. Execute the noninvertible/noisy equalizer extension on
+      the HC-DU-034B physical assay. Freeze a nonempty target-independent admissible refinement
+      class and distinguish known phase/process structure, interface incompleteness and
+      class-relative physical remainder. Never define a selected record by agreement under every
+      target physical experiment or call a target-derived quotient a formed physical record.
   - id: '1.5'
     title: Meta-record time and geometry
     scope: >-
@@ -1445,9 +1514,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 21.
+    routing is the root lanes key at manifest revision 22.
 provenance:
-  revision: 21
+  revision: 22
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1495,7 +1564,11 @@ provenance:
     chat, 2026-07-24) runs five independent repository-wide Science Council swings, establishes
     the exact finite factorization-or-candidate-witness and coherent-history assay baselines,
     corrects candidate-record failure to an admissible-refinement challenge, and routes the next
-    build to a coupled physical HC-DU-034B/036B assay before formation-to-finality pricing
+    build to a coupled physical HC-DU-034B/036B assay before formation-to-finality pricing; rev22
+    (Joe direct chat, 2026-07-24) runs five unconstrained open-frontier council swings, executes
+    the finite holonomy/public-fact/project-or-lift baseline, adds H-CCR-13/14, classifies the
+    coherent route witness as interface incompleteness, and narrows the next build to a robust
+    noninvertible history-certificate compiler
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1686,3 +1759,18 @@ provenance:
     separation are known or specialized; no claim is banked or seeded. The next build couples a
     physical HC-DU-034B assay to the HC-DU-036B refinement challenge, then routes any formed
     distinction to HC-DU-035B for finality-cost analysis.
+  rev22_note: >-
+    2026-07-24 (Joe direct chat: another orchestrated Science Council swing, one unconstrained
+    sub-agent per member, followed by full theorem/hypothesis/exploration housekeeping): four
+    personas independently selected reconciliation holonomy, public facts and provenance; the
+    commercial scientist selected the coupled physical assay and converted it into a calibrated
+    certificate decision. The exact standard-library probe passes 9/9 checks. On a finite
+    reversible record graph, path-independent facts are the holonomy orbit quotient/fixed
+    algebra, a same-fibre edge can reduce public capacity, and exact preservation of a
+    noninvariant task requires a minimum provenance alphabet. Compatible unitary phase lifts
+    modulo vertex gauge have one degree per graph cycle and are coherently observable, but routed
+    implementation provenance absorbs the witness. Passive completion refinement is flat, so
+    learning alone cannot generate curvature. Added H-CCR-13/14 and a robust convex-null instrument
+    gate; no claim, prediction or ontology is banked or seeded. The next swing is a
+    noninvertible/noisy history-certificate compiler carried unchanged across a physical quantum
+    and authenticated distributed fixture.

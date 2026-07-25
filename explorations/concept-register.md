@@ -744,6 +744,23 @@ resolution-stable intervention role. No claim is banked or seeded. See
   is banked or seeded. See
   `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
 
+### 2026-07-24 open-frontier correction: passive refinement is flat
+
+For a frozen completion space, passive certified updates
+\(J_c(X)=X\cap C_c\) commute and are idempotent. Actuality—constancy on the
+remaining class—is monotone under every nonempty refinement. Purely learning
+fixed facts therefore cannot create an order-dependent past or reconciliation
+holonomy. A nonzero route effect requires active disturbance, loss,
+context-dependent translation, noncommuting instruments, a changed model
+class, omitted provenance, or an approximate/resource-bounded comparison.
+Pairwise satisfiability with an empty global intersection is a gluing
+obstruction, not by itself dynamical curvature.
+
+This is an exact known-mathematics program correction, not a physical law.
+The strong shared-fact version remains open only for independently formed
+physical refinements. See
+`science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Fully real record perspectives may be
@@ -797,6 +814,32 @@ resolution-stable intervention role. No claim is banked or seeded. See
   ORDINARY ORDER, PHASE AND GAUGE NULLS LIVE / PERSPECTIVAL HOLONOMY
   UNOBSERVED.** No claim is banked or seeded. See
   `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
+### 2026-07-24 exact finite baseline: holonomy, descent, and cycle lifts
+
+On a connected finite record graph with reversible comparison maps, closed
+loops generate a holonomy group \(H\) on one reference fibre. The maximal
+path-independent public fact is exactly the orbit quotient \(X/H\): every
+compatible fact factors uniquely through it. Equivalently, for an algebra of
+observables the public part is the fixed algebra
+\(\mathcal A^H\). Nonzero holonomy therefore need not destroy public reality;
+it restricts it to loop invariants.
+
+For unitary edge implementations observed only through ordinary channels
+\(\operatorname{Ad}_{U_e}\), compatible central phase lifts modulo vertex
+rephasing form
+\(H^1(G;U(1))\cong U(1)^{|E|-|V|+1}\). Coherent route control can expose
+those cycle phases while every ordinary edge channel remains unchanged.
+That result diagnoses an incomplete endpoint/channel interface: the routed
+implementation is a sufficient refinement, so it does **not** establish an
+irreducible physical remainder or new perspectival curvature.
+
+**Updated status:** **EXACT FINITE GROUP/GRAPH/ALGEBRA BASELINE /
+PHYSICAL RECONCILIATION MAP AND NOVEL CURVATURE OPEN.** A physical promotion
+requires the signal to survive a frozen hierarchy of endpoint, channel,
+implementation, instrument, process-tensor, provenance, and resource
+refinements. See
+`science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md`.
 
 ## CONCEPT-DU-007 — informational distance and reality bandwidth
 
@@ -904,6 +947,24 @@ resolution-stable intervention role. No claim is banked or seeded. See
   seeded. See
   `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
 
+### 2026-07-24 provenance-capacity correction
+
+If one coarse endpoint fibre contains \(q\) behaviorally distinct route
+sectors, exact preservation of all sectors needs at least \(q\) accessible
+labels, or \(\lceil\log_2 q\rceil\) classical bits. More generally, for a
+task \(y\), the exact minimum side-information alphabet is
+
+\[
+\max_{O\in X/H}|\{y(x):x\in O\}|.
+\]
+
+This is an information-support bound. It does not imply heat, work, entropy,
+gravity, or a residual “actualization cost.” Those require a physically
+selected encoding and a complete implementation/resource ledger. Preserve
+the **project-or-lift** conjecture—public finality either removes a
+noninvariant distinction or lifts sufficient provenance—but stop using
+completion-count reduction alone as a thermodynamic quantity.
+
 ## CONCEPT-DU-009 — protected public-fact phases
 
 - **Concept (articulation-invariant).** A private distinction can become a
@@ -953,6 +1014,34 @@ resolution-stable intervention role. No claim is banked or seeded. See
   PLATFORM-SPECIFIC PROTECTED PHASES ADMISSIBLE / CROSS-PLATFORM LAW OPEN.**
   No claim is banked or seeded. See
   `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
+### 2026-07-24 reconciliation-frustration result
+
+In the finite reversible-fibre model, a same-fibre reconciliation edge adds
+holonomy constraints. The old holonomy group is a subgroup of the new one,
+so orbit classes can merge but cannot split:
+
+\[
+C_{\mathrm{pub}}(G+e)
+=\log_2|X/H_{G+e}|
+\leq
+\log_2|X/H_G|
+=C_{\mathrm{pub}}(G).
+\]
+
+Thus greater connectivity can expose a frustrated loop and **reduce**
+path-independent public capacity even while access increases. For a
+translation loop on \(\mathbb Z_m\) by \(k\), the public-state count is
+\(\gcd(m,k)\), giving a sharp family of counterexamples to “more connections
+always make more shared reality.”
+
+This exact group-action corollary is not a thermodynamic phase transition,
+common-knowledge theorem, or new physical law. Its useful hypothesis is that
+additional consensus/finality layers sometimes act as loop-syndrome
+resolvers—rejecting, repairing, recording, or quotienting inconsistent
+cycles—rather than merely adding redundant votes. The next test must extend
+the statement to noisy, noninvertible, adversarial protocols and a coherent
+quantum route without changing its meaning.
 
 ## CONCEPT-DU-010 — observer identity as record colimit
 
