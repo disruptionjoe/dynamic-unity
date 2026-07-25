@@ -160,6 +160,19 @@ The recharter preserves, rather than promotes, the strongest exact results:
   stochastic obstruction plus approximate boundary defect. This supplies a
   composition architecture, not a selected physical regionalization or a new
   law.
+- The regional branch now also has a general exact-rational finite marginal
+  compiler and complete instrument transfers. Exact commuting QND parity
+  instruments derive overlapping `AB` and `BC` regions before the target and
+  a held-out post-record causal break separates an endpoint-equivalent rival.
+  In an authenticated fixture, a coarse gluing obstruction is repaired by
+  formed route provenance and exposes equivocation requiring safe rejection.
+  In six complete two-qubit Mermin--Peres instruments, the compiler recovers
+  the standard noncontextual global-section obstruction while the
+  context-indexed instruments retain an exact global product process. A dual
+  obstruction therefore refutes the supplied overlap identity, not
+  automatically the physical process. Certified overlap identity is now a
+  prerequisite separate from marginal compatibility and boundary-action
+  sufficiency.
 
 These results complete the finite classical quotient bookkeeping, the first
 static layered-threshold and deterministic interventional-closure controls,
@@ -177,10 +190,11 @@ instantiate the signed all-port assay in a proposal-level proper-time process
 with complete operations, accessible outcomes, calibrated convex nulls, and
 matched resources. Only a surviving formed distinction should route to
 `HC-DU-035B` for formation-to-finality pricing. In parallel, regional
-composition should now lift the finite selector to independently formed
-multi-time physical instruments and the binary-cycle obstruction to a general
-exact marginal-descent compiler, rather than add more Boolean covers or cycle
-examples. These controls do not
+composition should now certify which record occurrences are genuinely the
+same overlap variable before descent, scale the exact marginal compiler
+through sparse decomposition, and test vector-valued recursive defect
+composition. The completed QND, authenticated, and contextual transfers
+should remain the regression baseline. These controls do not
 establish an observer, proper time, public classicality, continuum covariance,
 gravity, cosmology, or record-first ontology.
 
@@ -652,9 +666,57 @@ global-extension obstruction:
   at visibility \(v\), removed by a logical lift.
 
 Facet slack is an obstruction witness, not yet an operational or physical
-distance. The general finite marginal compiler, multi-time physical region
-selection, authenticated protocol derivation, quantum-instrument transfer,
-and recursive defect composition remain open.
+distance.
+
+**Executed multi-time/general-marginal successor.** The regional grammar and
+descent adjudicator now move beyond endpoint Boolean and cycle-specific
+controls:
+
+- complete commuting QND parity instruments derive overlapping `AB` and `BC`
+  parent regions from their full controlled outcome kernels;
+- the regions are target-independent, label-covariant, and invariant under a
+  declared deterministic-relay provenance quotient;
+- a held-out causal break after record formation separates the regional
+  history from an endpoint-equivalent rival on four of eight inputs;
+- a general exact-rational Phase-I compiler accepts arbitrary finite context
+  hypergraphs and returns either a substituted sparse joint distribution or
+  an integer-normalized Farkas certificate satisfying
+  \(A^\mathsf{T}y\geq0\) and \(b^\mathsf{T}y<0\);
+- compatible and frustrated glued-cycle controls exercise both compiler
+  branches;
+- coarse authenticated-origin marginals are obstructed, but formed
+  route/epoch provenance restores a global process and identifies
+  equivocation, so the protocol returns safe rejection rather than descent;
+  and
+- six complete two-qubit Mermin--Peres instruments produce the exact
+  inclusion-minimal noncontextual global-section obstruction, while
+  context-indexed outcomes possess an exact normalized `4096`-support product
+  extension.
+
+The integrated probe passes `33/33`. The general solver also agrees with the
+closed signed-sector oracle on all `343` denominator-six triangle marginals.
+These are exact finite known-mathematics
+controls, not a scalable compiler, cryptographic/BFT proof, unique physical
+regionalization, or quantum deviation.
+
+The result adds a required **certified-overlap precondition**. A compiler
+decides compatibility only after being told that occurrences in different
+contexts denote the same variable. Maximal context splitting always restores
+a product extension, so a dual obstruction refutes that supplied gluing map,
+not necessarily the physical process. Regional descent must therefore keep
+separate:
+
+```text
+instrument-derived local regions
+    != independently certified overlap identity
+    != global marginal compatibility
+    != boundary action sufficiency
+    != adversarially safe public finality.
+```
+
+Sparse exact compilation, a transferable non-tautological overlap-identity
+assay, robust finite-shot physical tests, and recursive vector-defect
+composition remain open.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -925,7 +987,9 @@ Only after the preceding dependencies:
    HC-DU-035C finite regional descent/composition [COMPLETED CONTROL]
                 finite Boolean regional identification [COMPLETED CONTROL]
                 binary-cycle noisy descent and boundary defect [COMPLETED CONTROL]
-                multi-time physical selection and general marginal descent [OPEN]
+                multi-time QND regional grammar and general marginal compiler [COMPLETED CONTROL]
+                authenticated and quantum instrument transfer [COMPLETED CONTROL]
+                certified overlap identity and sparse recursive descent [OPEN]
         |
 3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
         |
@@ -964,7 +1028,7 @@ classical memory. See
 `explorations/entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`
 and `tests/du_entangled_finality_absorption_probe.py`.
 
-**`H-CCR-16` control grade (2026-07-25).** Three exact finite layers now run:
+**`H-CCR-16` control grade (2026-07-25).** Four exact finite layers now run:
 
 1. the `24/24` regional kernel unifies flat/frustrated descent, quorum
    safety/liveness/provenance, action-sufficient node promotion, refinement,
@@ -975,15 +1039,25 @@ and `tests/du_entangled_finality_absorption_probe.py`.
    identity from origin independence; and
 3. the `20/20` noisy control supplies the binary-cycle odd-facet obstruction,
    the one-third frustrated-triangle threshold, local noninvertible-noise
-   preservation, and a distinct approximate boundary-action defect.
+   preservation, and a distinct approximate boundary-action defect; and
+4. the `33/33` multi-time transfer derives two overlapping regions from
+   complete QND instruments, installs the general rational primal-or-Farkas
+   compiler, and carries it unchanged across authenticated and complete
+   quantum instruments. The authenticated obstruction is absorbed by formed
+   route provenance and safe equivocation rejection; the quantum obstruction
+   is absorbed by standard contextuality plus the implemented context
+   register.
 
 These are reusable conjunctions of known component mathematics, not a general
-theorem or physical architecture. The immediate successors are a
-multi-time/instrument-derived regional grammar and a general exact marginal
-compiler with authenticated and quantum transfer. See
+theorem or physical architecture. The immediate successor is an independently
+warranted overlap-identity assay: a dual certificate refutes a supplied
+cross-context identity but does not itself refute the physical process.
+Sparse exact compilation and recursive vector-defect composition follow. See
 `explorations/regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`,
 `tests/du_endogenous_regionalization_probe.py`, and
-`tests/du_noisy_noninvertible_descent_probe.py`.
+`tests/du_noisy_noninvertible_descent_probe.py`, plus
+`explorations/multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md`
+and `tests/du_multitime_marginal_transfer_probe.py`.
 
 ## Common benchmark suite
 
@@ -1158,15 +1232,19 @@ because it is covariant.
    action-factorization, refinement, logical-access, version-space,
    minimum-separator, odd-facet, and half-range fixtures as the minimum
    regression baseline;
-2. replace the Boolean endpoint grammar with independently fixed multi-time
-   physical instruments, preserving overlapping regions, label covariance,
-   relay quotienting, and held-out causal-break actions;
-3. build a general rational marginal-descent compiler that returns a
-   primal extension or dual obstruction for glued cycles and nonacyclic
-   hypergraphs;
-4. derive one authenticated protocol and one quantum-instrument specimen
-   through the same selection/compatibility/action-defect schema; and
-5. stop before geometry or beyond-standard physics if region selection is
+2. retain the completed QND multi-time regional grammar, general rational
+   primal-or-Farkas compiler, authenticated provenance lift/safe rejection,
+   and complete contextual quantum-instrument absorption controls;
+3. derive a non-tautological overlap-identity receipt from independently
+   frozen provenance, operational equivalence, nondisturbance, repeatability,
+   causal-break and disturbance evidence;
+4. scale exact compilation with acyclic/junction-tree decomposition or
+   certificate-preserving column generation, using the current exhaustive
+   compiler as the oracle;
+5. test vector-valued composition of overlap-identity uncertainty,
+   compatibility obstruction, and boundary-action defect across two
+   recursively promoted regions; and
+6. stop before geometry or beyond-standard physics if region selection is
    target-defined or every obstruction is absorbed by known marginal,
    process-tensor, controller, QEC, or protocol structure.
 
@@ -1310,6 +1388,12 @@ HC-DU-035C FINITE REGIONAL DESCENT, QUORUM, NODE-PROMOTION, REFINEMENT AND LOGIC
 REGIONAL KERNEL PROBE 24/24; COMPONENT MATHEMATICS KNOWN
 FINITE REGIONAL VERSION-SPACE, MINIMUM-SEPARATOR, RELAY AND VALIDATOR-ORIGIN CONTROLS 21/21
 BINARY-CYCLE NOISY DESCENT, ONE-THIRD FRUSTRATION AND BOUNDARY HALF-RANGE CONTROLS 20/20
+GENERAL EXACT-RATIONAL FINITE MARGINAL PRIMAL-OR-FARKAS COMPILER INSTALLED
+MULTI-TIME COMMUTING QND REGIONAL GRAMMAR AND HELD-OUT CAUSAL-BREAK CONTROL EXACT
+AUTHENTICATED COARSE OBSTRUCTION ABSORBED BY ROUTE PROVENANCE AND SAFE EQUIVOCATION REJECTION
+COMPLETE MERMIN--PERES INSTRUMENT OBSTRUCTION ABSORBED BY STANDARD CONTEXTUALITY AND CONTEXT LIFT
+MULTI-TIME / AUTHENTICATED / QUANTUM TRANSFER PROBE 33/33
+CERTIFIED OVERLAP IDENTITY, SPARSE EXACT SCALING AND RECURSIVE VECTOR-DEFECT COMPOSITION OPEN
 HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
 HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
@@ -1317,8 +1401,7 @@ NO SIZE-FREE FINITE SUFFICIENCY HORIZON
 SEPARATING WITNESS MEANS CANDIDATE-RECORD INSUFFICIENCY, NOT AUTOMATIC ONTOLOGY
 ROBUST APPROXIMATE AND INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
-PHYSICAL / NOISY / QUANTUM / ADVERSARIAL INTERVENTIONAL SUFFICIENCY OPEN
-MULTI-TIME PHYSICAL REGIONALIZATION AND GENERAL MARGINAL DESCENT OPEN
+PHYSICAL / ROBUST / LARGE-SCALE INTERVENTIONAL SUFFICIENCY OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN
 HC-DU-033A/033B/035A/036A COMPONENT MATHEMATICS KNOWN
 STATIC QUANTUM/BFT CONJUNCTION COLLIDES

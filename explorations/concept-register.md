@@ -1220,6 +1220,39 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   binary boundary-action defect is independently half the response range on
   each summary fiber. These are exact scoped controls, not a physical region
   selector, universal threshold, contextuality claim, or new law.
+- **2026-07-25 multi-time instrument and general marginal transfer.**
+  The regional concept now requires **certified overlap identity before
+  marginal descent**:
+  1. derive local regions from independently frozen complete instruments;
+  2. independently certify which record occurrences in different regions are
+     the same operational event or value;
+  3. apply the exact global-extension test only under those certified
+     identifications; and
+  4. retain boundary-action sufficiency and adversarial safety as later,
+     separate receipts.
+
+  The `33/33` transfer probe derives overlapping `AB` and `BC` regions from
+  exact commuting QND parity instruments, preserves label covariance and
+  deterministic-relay quotienting, and separates an endpoint-equivalent rival
+  with a held-out post-record causal break. Its general
+  exact-rational Phase-I compiler returns a substituted primal joint
+  distribution or an integer-normalized Farkas obstruction on arbitrary
+  finite context hypergraphs.
+
+  In the authenticated fixture, forcing route-local signed values into one
+  canonical origin value is obstructed; formed route/epoch provenance
+  restores a joint process and exposes equivocation, so the correct result is
+  safe rejection rather than successful descent. In the complete two-qubit
+  Mermin--Peres instruments, forcing one pre-existing value across
+  incompatible contexts returns the standard contextuality obstruction,
+  while context-indexed instruments possess an exact `4096`-support product
+  extension. Thus a dual obstruction refutes a supplied overlap
+  identification, not automatically the physical process.
+
+  Maximal occurrence splitting always absorbs a finite marginal obstruction
+  by taking the product of context marginals. This elementary absorber makes
+  the overlap-identity receipt scientifically load-bearing; it is not a new
+  ontology or law.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
@@ -1239,14 +1272,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   noisy, noninvertible, adversarial, recursive and physically instantiated
   theorem with a capability/resource consequence.
 - **Status:** **CONCEPT-OPEN / EXACT FINITE KERNEL INSTALLED / PHYSICAL
-  REGIONALIZATION AND VALIDATOR SELECTION OPEN / FINITE BOOLEAN
-  IDENTIFICATION AND BINARY-CYCLE DESCENT CONTROLS INSTALLED / GENERAL
-  MARGINAL DESCENT OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.** The next
-  coupled attack is an independently fixed multi-time regional grammar plus a
-  general rational marginal-extension/dual-obstruction compiler, followed by
-  authenticated and quantum transfer. See
+  REGIONALIZATION AND VALIDATOR SELECTION OPEN / MULTI-TIME QND REGIONAL
+  CONTROL AND GENERAL FINITE MARGINAL COMPILER INSTALLED / AUTHENTICATED AND
+  QUANTUM TRANSFERS ABSORBED BY PROVENANCE AND STANDARD CONTEXTUALITY /
+  CERTIFIED OVERLAP IDENTITY, SPARSE SCALING AND RECURSIVE DEFECT COMPOSITION
+  OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.** The next coupled attack is an
+  independently warranted overlap-identity assay followed by sparse exact
+  compilation and recursive defect composition. See
   `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md` and
-  `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`.
+  `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`
+  and
+  `multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

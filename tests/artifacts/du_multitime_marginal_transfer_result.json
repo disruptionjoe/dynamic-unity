@@ -1,0 +1,1648 @@
+{
+  "authenticated_protocol_transfer": {
+    "all_messages_authentic": true,
+    "authenticated_message_count": 12,
+    "coarse_boundary_action_defect": "1/2",
+    "coarse_obstruction_minimality": {
+      "every_proper_context_subfamily_is_compatible": true,
+      "logic": "every proper subfamily is contained in at least one compatible one-context deletion",
+      "omission_verdicts": {
+        "AB": "GLOBAL_EXTENSION",
+        "BC": "GLOBAL_EXTENSION",
+        "CA": "GLOBAL_EXTENSION"
+      }
+    },
+    "coarse_origin_problem": {
+      "constraint_count": 12,
+      "context_count": 3,
+      "dual_support_size": 12,
+      "global_state_count": 8,
+      "problem_id": "authenticated-coarse-origin-gluing",
+      "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+      "simplex_iterations": 6,
+      "solver": "exact_fraction_phase_one_simplex_bland",
+      "sparse_integer_dual": [
+        {
+          "coefficient": -1,
+          "context_id": "AB",
+          "row_id": "AB|A=0,B=0"
+        },
+        {
+          "coefficient": 2,
+          "context_id": "AB",
+          "row_id": "AB|A=0,B=1"
+        },
+        {
+          "coefficient": 2,
+          "context_id": "AB",
+          "row_id": "AB|A=1,B=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "AB",
+          "row_id": "AB|A=1,B=1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "BC",
+          "row_id": "BC|B=0,C=0"
+        },
+        {
+          "coefficient": 2,
+          "context_id": "BC",
+          "row_id": "BC|B=0,C=1"
+        },
+        {
+          "coefficient": 2,
+          "context_id": "BC",
+          "row_id": "BC|B=1,C=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "BC",
+          "row_id": "BC|B=1,C=1"
+        },
+        {
+          "coefficient": 2,
+          "context_id": "CA",
+          "row_id": "CA|C=0,A=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CA",
+          "row_id": "CA|C=0,A=1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CA",
+          "row_id": "CA|C=1,A=0"
+        },
+        {
+          "coefficient": 2,
+          "context_id": "CA",
+          "row_id": "CA|C=1,A=1"
+        }
+      ],
+      "variable_count": 3,
+      "verdict": "DUAL_OBSTRUCTION",
+      "verification": {
+        "all_global_state_coefficients_nonnegative": true,
+        "minimum_global_state_coefficient": "0",
+        "strictly_negative_observed_value": true,
+        "weighted_observed_value": "-3"
+      }
+    },
+    "cross_epoch_replay_rejected": true,
+    "enumerated_hidden_transcripts": 2,
+    "equivocating_origins_by_transcript": [
+      [
+        "A"
+      ],
+      [
+        "A"
+      ]
+    ],
+    "instrument_grammar_digest": "82c65e63295d564abd342dd2bbead45af9260e89ccb2f86d436c8768602138ca",
+    "instrument_regions": {
+      "receipt_AB": [
+        "A",
+        "B"
+      ],
+      "receipt_BC": [
+        "B",
+        "C"
+      ],
+      "receipt_CA": [
+        "A",
+        "C"
+      ]
+    },
+    "interpretation": "authentication binds each routed message but does not make route-specific values one canonical origin value",
+    "protocol_disposition": "SAFE_REJECTION_EQUIVOCATION_PROVENANCE_FORMED",
+    "provenance_boundary_action_defect": "0",
+    "route_provenance_lift": {
+      "constraint_count": 12,
+      "context_count": 3,
+      "global_state_count": 64,
+      "problem_id": "authenticated-route-provenance-lift",
+      "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+      "simplex_iterations": 45,
+      "solver": "exact_fraction_phase_one_simplex_bland",
+      "support": [
+        {
+          "probability": "1/2",
+          "state": [
+            "0",
+            "0",
+            "1",
+            "1",
+            "1",
+            "0"
+          ]
+        },
+        {
+          "probability": "1/2",
+          "state": [
+            "1",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        }
+      ],
+      "support_size": 2,
+      "variable_count": 6,
+      "verdict": "GLOBAL_EXTENSION",
+      "verification": {
+        "all_equalities_exact": true,
+        "maximum_absolute_residual": "0",
+        "nonnegative": true,
+        "normalization": "1"
+      }
+    }
+  },
+  "check_count": 33,
+  "checks": {
+    "all_quantum_context_instruments_are_complete_and_tp": true,
+    "all_quantum_contexts_commute_and_have_correct_product": true,
+    "all_quantum_marginals_are_derived_normalized_parity_tables": true,
+    "all_quantum_observables_are_exact_hermitian_involutions": true,
+    "authenticated_fixture_contains_one_equivocating_origin": true,
+    "authenticated_fixture_messages_verify": true,
+    "authenticated_fixture_rejects_cross_epoch_replay": true,
+    "authenticated_obstruction_is_context_minimal": true,
+    "coarse_authenticated_origin_gluing_is_obstructed": true,
+    "compiler_dual_verifies_exactly": true,
+    "compiler_preserves_incomplete_contract": true,
+    "compiler_primal_verifies_exactly": true,
+    "compiler_recovers_minimal_frustrated_triangle": true,
+    "compiler_returns_dual_on_frustrated_glued_cycles": true,
+    "compiler_returns_primal_on_compatible_glued_cycles": true,
+    "endpoint_models_match_without_multitime_break": true,
+    "general_compiler_matches_all_343_triangle_oracle_cases": true,
+    "held_out_causal_break_separates_endpoint_rival": true,
+    "instrument_grammar_is_target_independent": true,
+    "instrument_region_extraction_is_label_covariant": true,
+    "instrument_region_extraction_quotients_relay": true,
+    "instrument_regions_are_overlapping_AB_BC": true,
+    "multitime_regions_come_from_complete_qnd_instruments": true,
+    "protocol_instruments_recover_pair_regions": true,
+    "protocol_provenance_removes_action_defect": true,
+    "protocol_uses_safe_rejection_not_false_descent": true,
+    "qnd_instrument_born_kernels_match_and_commute": true,
+    "quantum_context_family_is_obstruction_minimal": true,
+    "quantum_context_indexed_process_has_exact_global_extension": true,
+    "quantum_context_register_removes_action_alias": true,
+    "quantum_noncontextual_gluing_has_exact_dual_obstruction": true,
+    "quantum_result_is_classified_as_standard_contextuality": true,
+    "route_provenance_restores_global_extension": true
+  },
+  "claim_grade": "EXACT FINITE RATIONAL COMPILER + COMPLETE FINITE INSTRUMENT TRANSFERS / COMPONENT MATHEMATICS KNOWN / PHYSICAL THEORY OPEN",
+  "compiler_controls": {
+    "compatible_glued_cycles": {
+      "constraint_count": 20,
+      "context_count": 5,
+      "global_state_count": 16,
+      "problem_id": "two-glued-triangles-compatible",
+      "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+      "simplex_iterations": 8,
+      "solver": "exact_fraction_phase_one_simplex_bland",
+      "support": [
+        {
+          "probability": "1/2",
+          "state": [
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "probability": "1/2",
+          "state": [
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        }
+      ],
+      "support_size": 2,
+      "variable_count": 4,
+      "verdict": "GLOBAL_EXTENSION",
+      "verification": {
+        "all_equalities_exact": true,
+        "maximum_absolute_residual": "0",
+        "nonnegative": true,
+        "normalization": "1"
+      }
+    },
+    "frustrated_glued_cycles": {
+      "constraint_count": 20,
+      "context_count": 5,
+      "dual_support_size": 20,
+      "global_state_count": 16,
+      "problem_id": "two-glued-triangles-second-frustrated",
+      "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+      "simplex_iterations": 8,
+      "solver": "exact_fraction_phase_one_simplex_bland",
+      "sparse_integer_dual": [
+        {
+          "coefficient": -1,
+          "context_id": "AB",
+          "row_id": "AB|A=0,B=0"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "AB",
+          "row_id": "AB|A=0,B=1"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "AB",
+          "row_id": "AB|A=1,B=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "AB",
+          "row_id": "AB|A=1,B=1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "BC",
+          "row_id": "BC|B=0,C=0"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "BC",
+          "row_id": "BC|B=0,C=1"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "BC",
+          "row_id": "BC|B=1,C=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "BC",
+          "row_id": "BC|B=1,C=1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CA",
+          "row_id": "CA|C=0,A=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CA",
+          "row_id": "CA|C=0,A=1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CA",
+          "row_id": "CA|C=1,A=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CA",
+          "row_id": "CA|C=1,A=1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CD",
+          "row_id": "CD|C=0,D=0"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "CD",
+          "row_id": "CD|C=0,D=1"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "CD",
+          "row_id": "CD|C=1,D=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "CD",
+          "row_id": "CD|C=1,D=1"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "DA",
+          "row_id": "DA|D=0,A=0"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "DA",
+          "row_id": "DA|D=0,A=1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "DA",
+          "row_id": "DA|D=1,A=0"
+        },
+        {
+          "coefficient": 4,
+          "context_id": "DA",
+          "row_id": "DA|D=1,A=1"
+        }
+      ],
+      "variable_count": 4,
+      "verdict": "DUAL_OBSTRUCTION",
+      "verification": {
+        "all_global_state_coefficients_nonnegative": true,
+        "minimum_global_state_coefficient": "0",
+        "strictly_negative_observed_value": true,
+        "weighted_observed_value": "-5"
+      }
+    },
+    "incomplete_control": {
+      "errors": [
+        "contract_not_frozen"
+      ],
+      "problem_id": "incomplete-table-control",
+      "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+      "verdict": "INCOMPLETE_CONTRACT"
+    },
+    "minimal_frustrated_triangle": {
+      "minimality": {
+        "every_proper_context_subfamily_is_compatible": true,
+        "logic": "every proper subfamily is contained in at least one compatible one-context deletion",
+        "omission_verdicts": {
+          "CA": "GLOBAL_EXTENSION",
+          "CD": "GLOBAL_EXTENSION",
+          "DA": "GLOBAL_EXTENSION"
+        }
+      },
+      "result": {
+        "constraint_count": 12,
+        "context_count": 3,
+        "dual_support_size": 12,
+        "global_state_count": 16,
+        "problem_id": "frustrated-triangle-subfamily",
+        "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+        "simplex_iterations": 6,
+        "solver": "exact_fraction_phase_one_simplex_bland",
+        "sparse_integer_dual": [
+          {
+            "coefficient": -1,
+            "context_id": "CA",
+            "row_id": "CA|C=0,A=0"
+          },
+          {
+            "coefficient": 2,
+            "context_id": "CA",
+            "row_id": "CA|C=0,A=1"
+          },
+          {
+            "coefficient": 2,
+            "context_id": "CA",
+            "row_id": "CA|C=1,A=0"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "CA",
+            "row_id": "CA|C=1,A=1"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "CD",
+            "row_id": "CD|C=0,D=0"
+          },
+          {
+            "coefficient": 2,
+            "context_id": "CD",
+            "row_id": "CD|C=0,D=1"
+          },
+          {
+            "coefficient": 2,
+            "context_id": "CD",
+            "row_id": "CD|C=1,D=0"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "CD",
+            "row_id": "CD|C=1,D=1"
+          },
+          {
+            "coefficient": 2,
+            "context_id": "DA",
+            "row_id": "DA|D=0,A=0"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "DA",
+            "row_id": "DA|D=0,A=1"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "DA",
+            "row_id": "DA|D=1,A=0"
+          },
+          {
+            "coefficient": 2,
+            "context_id": "DA",
+            "row_id": "DA|D=1,A=1"
+          }
+        ],
+        "variable_count": 4,
+        "verdict": "DUAL_OBSTRUCTION",
+        "verification": {
+          "all_global_state_coefficients_nonnegative": true,
+          "minimum_global_state_coefficient": "0",
+          "strictly_negative_observed_value": true,
+          "weighted_observed_value": "-3"
+        }
+      }
+    },
+    "triangle_grid_oracle_crosscheck": {
+      "case_count": 343,
+      "denominator": 6,
+      "dual_count": 224,
+      "failure_count": 0,
+      "failures": [],
+      "oracle": "unique signed even-parity-sector weights",
+      "primal_count": 119
+    }
+  },
+  "does_not_establish": [
+    "a physical regional ontology",
+    "public finality",
+    "protocol or BFT security",
+    "joint quantum measurability",
+    "beyond-standard quantum dynamics",
+    "a new physical law or prediction"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "multitime_instrument_regionalization": {
+    "alternate_downstream_target_difference_count": 2,
+    "excluded_from_selection": [
+      "downstream response target",
+      "endpoint rival verdict",
+      "platform label"
+    ],
+    "held_out_break_separator_count": 4,
+    "history_rows": [
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 0,
+        "initial": [
+          0,
+          0,
+          0
+        ],
+        "regional_after_primitive_reset": 0,
+        "regional_ordinary": 0,
+        "stage_one_records": [
+          0,
+          0
+        ]
+      },
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 1,
+        "initial": [
+          0,
+          0,
+          1
+        ],
+        "regional_after_primitive_reset": 1,
+        "regional_ordinary": 1,
+        "stage_one_records": [
+          0,
+          1
+        ]
+      },
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 0,
+        "initial": [
+          0,
+          1,
+          0
+        ],
+        "regional_after_primitive_reset": 0,
+        "regional_ordinary": 0,
+        "stage_one_records": [
+          1,
+          1
+        ]
+      },
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 1,
+        "initial": [
+          0,
+          1,
+          1
+        ],
+        "regional_after_primitive_reset": 1,
+        "regional_ordinary": 1,
+        "stage_one_records": [
+          1,
+          0
+        ]
+      },
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 1,
+        "initial": [
+          1,
+          0,
+          0
+        ],
+        "regional_after_primitive_reset": 1,
+        "regional_ordinary": 1,
+        "stage_one_records": [
+          1,
+          0
+        ]
+      },
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 0,
+        "initial": [
+          1,
+          0,
+          1
+        ],
+        "regional_after_primitive_reset": 0,
+        "regional_ordinary": 0,
+        "stage_one_records": [
+          1,
+          1
+        ]
+      },
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 1,
+        "initial": [
+          1,
+          1,
+          0
+        ],
+        "regional_after_primitive_reset": 1,
+        "regional_ordinary": 1,
+        "stage_one_records": [
+          0,
+          1
+        ]
+      },
+      {
+        "endpoint_after_primitive_reset": 0,
+        "endpoint_ordinary": 0,
+        "initial": [
+          1,
+          1,
+          1
+        ],
+        "regional_after_primitive_reset": 0,
+        "regional_ordinary": 0,
+        "stage_one_records": [
+          0,
+          0
+        ]
+      }
+    ],
+    "kernel_digest": "3d1690ed9dac80e148d279befd95f04963acfa109eed67d296e3bf42a6a1ea7d",
+    "label_covariant": true,
+    "ordinary_endpoint_equivalence": true,
+    "qnd_born_kernels_match_stochastic_kernels": true,
+    "qnd_pair_instruments_commute": true,
+    "qnd_quantum_instrument_receipts": {
+      "record_AB": {
+        "basis_probabilities": {
+          "000": {
+            "0": "1",
+            "1": "0"
+          },
+          "001": {
+            "0": "1",
+            "1": "0"
+          },
+          "010": {
+            "0": "0",
+            "1": "1"
+          },
+          "011": {
+            "0": "0",
+            "1": "1"
+          },
+          "100": {
+            "0": "0",
+            "1": "1"
+          },
+          "101": {
+            "0": "0",
+            "1": "1"
+          },
+          "110": {
+            "0": "1",
+            "1": "0"
+          },
+          "111": {
+            "0": "1",
+            "1": "0"
+          }
+        },
+        "nonselective_trace_preserving": true,
+        "observable_hermitian": true,
+        "observable_involution": true,
+        "projectors_hermitian_idempotent": true,
+        "qnd_on_basis_states": true
+      },
+      "record_BC": {
+        "basis_probabilities": {
+          "000": {
+            "0": "1",
+            "1": "0"
+          },
+          "001": {
+            "0": "0",
+            "1": "1"
+          },
+          "010": {
+            "0": "0",
+            "1": "1"
+          },
+          "011": {
+            "0": "1",
+            "1": "0"
+          },
+          "100": {
+            "0": "1",
+            "1": "0"
+          },
+          "101": {
+            "0": "0",
+            "1": "1"
+          },
+          "110": {
+            "0": "0",
+            "1": "1"
+          },
+          "111": {
+            "0": "1",
+            "1": "0"
+          }
+        },
+        "nonselective_trace_preserving": true,
+        "observable_hermitian": true,
+        "observable_involution": true,
+        "projectors_hermitian_idempotent": true,
+        "qnd_on_basis_states": true
+      }
+    },
+    "regions": {
+      "record_AB": [
+        "A",
+        "B"
+      ],
+      "record_BC": [
+        "B",
+        "C"
+      ]
+    },
+    "relay_quotient_matches": true,
+    "relay_quotient_regions": {
+      "record_AB": [
+        "A",
+        "B"
+      ],
+      "record_BC": [
+        "B",
+        "C"
+      ]
+    },
+    "relay_raw_regions": {
+      "record_AB": [
+        "A",
+        "B_relay"
+      ],
+      "record_BC": [
+        "B_relay",
+        "C"
+      ]
+    },
+    "renamed_regions": {
+      "record_AB": [
+        "C_prime",
+        "A_prime"
+      ],
+      "record_BC": [
+        "A_prime",
+        "B_prime"
+      ]
+    },
+    "selection_dependency": [
+      "complete instrument kernels",
+      "declared accessible record outcomes",
+      "control family",
+      "relay quotient"
+    ],
+    "target_change_leaves_digest_unchanged": true
+  },
+  "quantum_instrument_transfer": {
+    "compiled_noncontextual_gluing": {
+      "constraint_count": 48,
+      "context_count": 6,
+      "dual_support_size": 48,
+      "global_state_count": 512,
+      "problem_id": "two-qubit-mermin-peres-context-marginals",
+      "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+      "simplex_iterations": 54,
+      "solver": "exact_fraction_phase_one_simplex_bland",
+      "sparse_integer_dual": [
+        {
+          "coefficient": 5,
+          "context_id": "R1",
+          "row_id": "R1|XI=-1,IX=-1,XX=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R1",
+          "row_id": "R1|XI=-1,IX=-1,XX=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R1",
+          "row_id": "R1|XI=-1,IX=+1,XX=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R1",
+          "row_id": "R1|XI=-1,IX=+1,XX=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R1",
+          "row_id": "R1|XI=+1,IX=-1,XX=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R1",
+          "row_id": "R1|XI=+1,IX=-1,XX=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R1",
+          "row_id": "R1|XI=+1,IX=+1,XX=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R1",
+          "row_id": "R1|XI=+1,IX=+1,XX=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R2",
+          "row_id": "R2|IY=-1,YI=-1,YY=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R2",
+          "row_id": "R2|IY=-1,YI=-1,YY=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R2",
+          "row_id": "R2|IY=-1,YI=+1,YY=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R2",
+          "row_id": "R2|IY=-1,YI=+1,YY=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R2",
+          "row_id": "R2|IY=+1,YI=-1,YY=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R2",
+          "row_id": "R2|IY=+1,YI=-1,YY=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R2",
+          "row_id": "R2|IY=+1,YI=+1,YY=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R2",
+          "row_id": "R2|IY=+1,YI=+1,YY=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R3",
+          "row_id": "R3|XY=-1,YX=-1,ZZ=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R3",
+          "row_id": "R3|XY=-1,YX=-1,ZZ=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R3",
+          "row_id": "R3|XY=-1,YX=+1,ZZ=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R3",
+          "row_id": "R3|XY=-1,YX=+1,ZZ=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R3",
+          "row_id": "R3|XY=+1,YX=-1,ZZ=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R3",
+          "row_id": "R3|XY=+1,YX=-1,ZZ=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "R3",
+          "row_id": "R3|XY=+1,YX=+1,ZZ=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "R3",
+          "row_id": "R3|XY=+1,YX=+1,ZZ=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C1",
+          "row_id": "C1|XI=-1,IY=-1,XY=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C1",
+          "row_id": "C1|XI=-1,IY=-1,XY=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C1",
+          "row_id": "C1|XI=-1,IY=+1,XY=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C1",
+          "row_id": "C1|XI=-1,IY=+1,XY=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C1",
+          "row_id": "C1|XI=+1,IY=-1,XY=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C1",
+          "row_id": "C1|XI=+1,IY=-1,XY=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C1",
+          "row_id": "C1|XI=+1,IY=+1,XY=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C1",
+          "row_id": "C1|XI=+1,IY=+1,XY=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C2",
+          "row_id": "C2|IX=-1,YI=-1,YX=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C2",
+          "row_id": "C2|IX=-1,YI=-1,YX=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C2",
+          "row_id": "C2|IX=-1,YI=+1,YX=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C2",
+          "row_id": "C2|IX=-1,YI=+1,YX=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C2",
+          "row_id": "C2|IX=+1,YI=-1,YX=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C2",
+          "row_id": "C2|IX=+1,YI=-1,YX=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C2",
+          "row_id": "C2|IX=+1,YI=+1,YX=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C2",
+          "row_id": "C2|IX=+1,YI=+1,YX=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C3",
+          "row_id": "C3|XX=-1,YY=-1,ZZ=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C3",
+          "row_id": "C3|XX=-1,YY=-1,ZZ=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C3",
+          "row_id": "C3|XX=-1,YY=+1,ZZ=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C3",
+          "row_id": "C3|XX=-1,YY=+1,ZZ=+1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C3",
+          "row_id": "C3|XX=+1,YY=-1,ZZ=-1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C3",
+          "row_id": "C3|XX=+1,YY=-1,ZZ=+1"
+        },
+        {
+          "coefficient": -1,
+          "context_id": "C3",
+          "row_id": "C3|XX=+1,YY=+1,ZZ=-1"
+        },
+        {
+          "coefficient": 5,
+          "context_id": "C3",
+          "row_id": "C3|XX=+1,YY=+1,ZZ=+1"
+        }
+      ],
+      "variable_count": 9,
+      "verdict": "DUAL_OBSTRUCTION",
+      "verification": {
+        "all_global_state_coefficients_nonnegative": true,
+        "minimum_global_state_coefficient": "0",
+        "strictly_negative_observed_value": true,
+        "weighted_observed_value": "-6"
+      }
+    },
+    "context_erased_action_defect": "1/2",
+    "context_indexed_product_extension": {
+      "all_context_marginals_exact": true,
+      "meaning": "a global distribution exists after each observable outcome is indexed by its actually implemented context",
+      "normalization": "1",
+      "support_size": 4096
+    },
+    "context_lifted_action_defect": "0",
+    "context_obstruction_minimality": {
+      "every_proper_context_subfamily_is_compatible": true,
+      "logic": "every proper subfamily is contained in at least one compatible one-context deletion",
+      "omission_verdicts": {
+        "C1": "GLOBAL_EXTENSION",
+        "C2": "GLOBAL_EXTENSION",
+        "C3": "GLOBAL_EXTENSION",
+        "R1": "GLOBAL_EXTENSION",
+        "R2": "GLOBAL_EXTENSION",
+        "R3": "GLOBAL_EXTENSION"
+      }
+    },
+    "derived_marginal_problem": {
+      "contexts": [
+        {
+          "context_id": "R1",
+          "probabilities": [
+            [
+              [
+                "-1",
+                "-1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "-1",
+                "-1",
+                "+1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "+1"
+              ],
+              "1/4"
+            ]
+          ],
+          "variables": [
+            "XI",
+            "IX",
+            "XX"
+          ]
+        },
+        {
+          "context_id": "R2",
+          "probabilities": [
+            [
+              [
+                "-1",
+                "-1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "-1",
+                "-1",
+                "+1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "+1"
+              ],
+              "1/4"
+            ]
+          ],
+          "variables": [
+            "IY",
+            "YI",
+            "YY"
+          ]
+        },
+        {
+          "context_id": "R3",
+          "probabilities": [
+            [
+              [
+                "-1",
+                "-1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "-1",
+                "-1",
+                "+1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "+1"
+              ],
+              "1/4"
+            ]
+          ],
+          "variables": [
+            "XY",
+            "YX",
+            "ZZ"
+          ]
+        },
+        {
+          "context_id": "C1",
+          "probabilities": [
+            [
+              [
+                "-1",
+                "-1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "-1",
+                "-1",
+                "+1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "+1"
+              ],
+              "1/4"
+            ]
+          ],
+          "variables": [
+            "XI",
+            "IY",
+            "XY"
+          ]
+        },
+        {
+          "context_id": "C2",
+          "probabilities": [
+            [
+              [
+                "-1",
+                "-1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "-1",
+                "-1",
+                "+1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "+1"
+              ],
+              "1/4"
+            ]
+          ],
+          "variables": [
+            "IX",
+            "YI",
+            "YX"
+          ]
+        },
+        {
+          "context_id": "C3",
+          "probabilities": [
+            [
+              [
+                "-1",
+                "-1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "-1",
+                "-1",
+                "+1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "-1",
+                "+1",
+                "+1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "-1"
+              ],
+              "0"
+            ],
+            [
+              [
+                "+1",
+                "-1",
+                "+1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "-1"
+              ],
+              "1/4"
+            ],
+            [
+              [
+                "+1",
+                "+1",
+                "+1"
+              ],
+              "0"
+            ]
+          ],
+          "variables": [
+            "XX",
+            "YY",
+            "ZZ"
+          ]
+        }
+      ],
+      "variables": [
+        "XI",
+        "IX",
+        "XX",
+        "IY",
+        "YI",
+        "YY",
+        "XY",
+        "YX",
+        "ZZ"
+      ]
+    },
+    "does_not_establish": [
+      "joint measurability",
+      "observer-independent preassigned values",
+      "beyond-standard quantum dynamics",
+      "regional physical ontology"
+    ],
+    "instrument_receipts": [
+      {
+        "all_projectors_hermitian_idempotent": true,
+        "context_id": "R1",
+        "nonselective_trace_preserving": true,
+        "nonzero_outcomes": 4,
+        "observable_product_sign": 1,
+        "pairwise_commuting": true,
+        "parity_support_correct": true,
+        "probability_sum": "1",
+        "product_sign_correct": true,
+        "projectors_complete": true,
+        "selective_maps_have_kraus_projector_form": true,
+        "variables": [
+          "XI",
+          "IX",
+          "XX"
+        ]
+      },
+      {
+        "all_projectors_hermitian_idempotent": true,
+        "context_id": "R2",
+        "nonselective_trace_preserving": true,
+        "nonzero_outcomes": 4,
+        "observable_product_sign": 1,
+        "pairwise_commuting": true,
+        "parity_support_correct": true,
+        "probability_sum": "1",
+        "product_sign_correct": true,
+        "projectors_complete": true,
+        "selective_maps_have_kraus_projector_form": true,
+        "variables": [
+          "IY",
+          "YI",
+          "YY"
+        ]
+      },
+      {
+        "all_projectors_hermitian_idempotent": true,
+        "context_id": "R3",
+        "nonselective_trace_preserving": true,
+        "nonzero_outcomes": 4,
+        "observable_product_sign": 1,
+        "pairwise_commuting": true,
+        "parity_support_correct": true,
+        "probability_sum": "1",
+        "product_sign_correct": true,
+        "projectors_complete": true,
+        "selective_maps_have_kraus_projector_form": true,
+        "variables": [
+          "XY",
+          "YX",
+          "ZZ"
+        ]
+      },
+      {
+        "all_projectors_hermitian_idempotent": true,
+        "context_id": "C1",
+        "nonselective_trace_preserving": true,
+        "nonzero_outcomes": 4,
+        "observable_product_sign": 1,
+        "pairwise_commuting": true,
+        "parity_support_correct": true,
+        "probability_sum": "1",
+        "product_sign_correct": true,
+        "projectors_complete": true,
+        "selective_maps_have_kraus_projector_form": true,
+        "variables": [
+          "XI",
+          "IY",
+          "XY"
+        ]
+      },
+      {
+        "all_projectors_hermitian_idempotent": true,
+        "context_id": "C2",
+        "nonselective_trace_preserving": true,
+        "nonzero_outcomes": 4,
+        "observable_product_sign": 1,
+        "pairwise_commuting": true,
+        "parity_support_correct": true,
+        "probability_sum": "1",
+        "product_sign_correct": true,
+        "projectors_complete": true,
+        "selective_maps_have_kraus_projector_form": true,
+        "variables": [
+          "IX",
+          "YI",
+          "YX"
+        ]
+      },
+      {
+        "all_projectors_hermitian_idempotent": true,
+        "context_id": "C3",
+        "nonselective_trace_preserving": true,
+        "nonzero_outcomes": 4,
+        "observable_product_sign": -1,
+        "pairwise_commuting": true,
+        "parity_support_correct": true,
+        "probability_sum": "1",
+        "product_sign_correct": true,
+        "projectors_complete": true,
+        "selective_maps_have_kraus_projector_form": true,
+        "variables": [
+          "XX",
+          "YY",
+          "ZZ"
+        ]
+      }
+    ],
+    "observable_checks": {
+      "IX": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "IY": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "XI": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "XX": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "XY": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "YI": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "YX": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "YY": {
+        "hermitian": true,
+        "squares_to_identity": true
+      },
+      "ZZ": {
+        "hermitian": true,
+        "squares_to_identity": true
+      }
+    },
+    "physical_process_disposition": "STANDARD_CONTEXT_INDEXED_QUANTUM_INSTRUMENTS_EXIST_NONCONTEXTUAL_GLOBAL_VALUE_GLUING_FAILS"
+  },
+  "run_id": "RUN-20260725-071641-multitime-marginal-transfer",
+  "schema_version": "dynamic-unity/multitime-marginal-transfer/v0.1",
+  "verdict": "GENERAL_FINITE_MARGINAL_COMPILER_INSTALLED / MULTITIME_INSTRUMENT_REGIONS_DERIVED / AUTHENTICATED_OBSTRUCTION_ABSORBED_BY_ROUTE_PROVENANCE_AND_SAFE_REJECTION / QUANTUM_OBSTRUCTION_ABSORBED_BY_STANDARD_CONTEXTUALITY"
+}

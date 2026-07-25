@@ -622,6 +622,46 @@ receipts, not yet operational or physical distances. Passing does not
 establish a general stochastic descent theorem, contextuality, a finality
 field, protocol security, quantum modification, geometry, or ontology.
 
+## Multi-time regional grammar and general marginal transfer
+
+`du_exact_marginal_extension_compiler.py` is the reusable exact-rational
+finite marginal engine. For arbitrary finite alphabets and context
+hypergraphs, it constructs `Aq=b, q>=0` and runs a Phase-I simplex with Bland
+tie-breaking. It returns:
+
+- `GLOBAL_EXTENSION` with a sparse exact joint distribution;
+- `DUAL_OBSTRUCTION` with an integer-normalized Farkas certificate satisfying
+  `A^T y >= 0` and `b^T y < 0`; or
+- `INCOMPLETE_CONTRACT`.
+
+Every certificate is independently substituted before return.
+
+`du_multitime_marginal_transfer_probe.py` applies the unchanged compiler and
+instrument-parent extractor to:
+
+- exact commuting three-qubit QND parity instruments, which derive
+  overlapping `AB` and `BC` regions and separate an endpoint-equivalent rival
+  under a held-out post-record causal break;
+- replayable route- and epoch-authenticated regional transcripts, where
+  coarse canonical-origin gluing is obstructed but route provenance restores
+  a two-state joint process and exposes equivocation requiring safe rejection;
+- compatible and frustrated glued-cycle controls;
+- all `343` denominator-six binary-triangle points against the prior closed
+  signed-sector oracle, with `119` primal and `224` dual results and zero
+  disagreements; and
+- six complete two-qubit Mermin--Peres instruments, where the compiler
+  recovers the exact inclusion-minimal noncontextual gluing obstruction while
+  context-indexed instruments admit an exact `4096`-support product
+  extension.
+
+The deterministic artifact is
+`artifacts/du_multitime_marginal_transfer_result.json` and reports `33/33`
+checks. Passing installs a finite compiler and exact known-mathematics
+controls. It does not establish scalable inference, a unique physical
+regional grammar, cross-context record identity, cryptographic/BFT security,
+joint quantum measurability, beyond-standard dynamics, public finality,
+geometry, ontology, or a new law.
+
 ## Entangled layered-finality absorption boundary
 
 `du_entangled_finality_absorption_probe.py` fixes the standard-quantum null
