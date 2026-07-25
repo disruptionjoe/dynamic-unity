@@ -457,3 +457,26 @@ and that the arithmetic is reproducible. Persona hypotheses and votes are
 exploratory curiosity/priority signals, not scientific evidence, novelty,
 core-hypothesis promotion, a prediction or claim seed, or authorization for
 the suggested next swing.
+
+## Ten-lens efficient-approach registry audit
+
+`du_hypothesis_efficient_approach_registry_probe.py` validates the method
+companion to the 36-hypothesis panel. Five divergent problem-solving
+lenses—category theory, counterfactual statistics, formal counterexample
+engineering, experimental metrology architecture, and research
+portfolio/operations—join the five standing Science Council lenses.
+
+The registry attaches to every hypothesis:
+
+- a smallest informative object;
+- a recommended proof, search, statistical, or experimental attack;
+- one first decisive contrast;
+- reusable method kits and outputs;
+- a condition for increasing scale; and
+- the brute-force or semantic-refit trap to avoid.
+
+The artifact reports `10/10` checks, exactly ten lenses, ten shared method
+kits, and exactly one attachment for each of the 36 source hypotheses.
+Passing establishes completeness and referential integrity only. The registry
+does not select, eliminate, defer, grade, validate, or rerank a hypothesis and
+does not authorize a swing.

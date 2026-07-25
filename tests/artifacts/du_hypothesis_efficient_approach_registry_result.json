@@ -1,0 +1,987 @@
+{
+  "attachments": [
+    {
+      "avoid": "Undirected parameter grids or equating confidence with irreversible action.",
+      "first_decisive_contrast": "Equal marginal evidence with different independent-provenance rank.",
+      "hypothesis_id": "MC-A",
+      "lead_lenses": [
+        "CFS",
+        "EMA",
+        "RPO",
+        "HET"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K4",
+        "K7",
+        "K8"
+      ],
+      "recommended_attack": "Derive a finite Markov or quasi-potential model, then run matched upward and downward sweeps with marginal accuracy and common-shock strength fixed.",
+      "reusable_output": "Analytic approximation, saved protocol trace, and hysteresis/scaling surface.",
+      "scale_up_when": "The frozen small model identifies the signature and its target operating region.",
+      "smallest_informative_object": "The smallest validator system with two correlated provenance sectors and one incompatible safe action.",
+      "source_owner": "MC",
+      "source_title": "Provenance-Weighted Hysteretic Finality"
+    },
+    {
+      "avoid": "Assuming sample independence or counting replicas as independent evidence.",
+      "first_decisive_contrast": "More rounds without new provenance versus one genuinely independent provenance input.",
+      "hypothesis_id": "MC-B",
+      "lead_lenses": [
+        "FCE",
+        "ORT",
+        "HET",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4",
+        "K8"
+      ],
+      "recommended_attack": "Solve the protocol as an indistinguishability game using exact enumeration, coupling, or linear programming and pair the bound with an achiever.",
+      "reusable_output": "Scoped risk lower bound, assumptions, matching protocol, and minimal defeating counterexample.",
+      "scale_up_when": "The bound is tight on the declared finite class and its assumptions are machine-checkable.",
+      "smallest_informative_object": "One latent common shock, repeated subsampling, and one authenticated independent evidence source.",
+      "source_owner": "MC",
+      "source_title": "Correlated-Evidence Finality Ceiling"
+    },
+    {
+      "avoid": "Leaking the distinction through hyperedge labels or brute-forcing labeled graphs.",
+      "first_decisive_contrast": "Pairwise equivalence versus one frozen ternary intervention.",
+      "hypothesis_id": "HG-A",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "WILD",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2"
+      ],
+      "recommended_attack": "Canonically enumerate orbit representatives and synthesize two processes identical on every pairwise record and intervention but separated by one hyperedge action.",
+      "reusable_output": "Minimal process pair, pairwise-equivalence certificate, and separating intervention.",
+      "scale_up_when": "Exhaustion confirms that no smaller typed process supports the distinction.",
+      "smallest_informative_object": "A genuine three-party typed process with one ternary intervention.",
+      "source_owner": "HG",
+      "source_title": "Higher-Order Record Insufficiency"
+    },
+    {
+      "avoid": "Calling every extra quorum, vote, or message a loop-filling operation.",
+      "first_decisive_contrast": "An additional evidence edge versus a relation that actually fills the loop.",
+      "hypothesis_id": "HG-B",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "COM",
+        "WILD"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2"
+      ],
+      "recommended_attack": "Present a finite path category or 2-complex, compute loop generators and the normal closure induced by the higher certificate, and derive the invariant algebra.",
+      "reusable_output": "Normal-form theorem, executable reducer, proof certificate, and tight counterexample.",
+      "scale_up_when": "The one-loop result is representation-stable and independently verified.",
+      "smallest_informative_object": "One unresolved reconciliation loop and one candidate 2-cell relation.",
+      "source_owner": "HG",
+      "source_title": "Cycle-Filling Public-Finality Theorem"
+    },
+    {
+      "avoid": "Sweeping rule tables before quotienting symmetries or hiding the selector in readout.",
+      "first_decisive_contrast": "A symmetry-preserving selector versus one explicitly declared asymmetric resource.",
+      "hypothesis_id": "CA-A",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "ORT",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2"
+      ],
+      "recommended_attack": "Prove the equivariance obstruction first and use symmetry-reduced CA or QCA search only to locate the smallest tight specimen.",
+      "reusable_output": "Scoped no-go, exact automorphism assumptions, saturating model, and minimal escape resource.",
+      "scale_up_when": "The symmetry theorem and the smallest construction meet at the same boundary.",
+      "smallest_informative_object": "A homogeneous reversible orbit with symmetric candidate record sites.",
+      "source_owner": "CA",
+      "source_title": "Homogeneous Reversible Record-Selection No-Go"
+    },
+    {
+      "avoid": "Enumerating the global state space when locality already bounds the witness.",
+      "first_decisive_contrast": "Identical radius-r cones with adversarially varied exterior states.",
+      "hypothesis_id": "CA-B",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "COM",
+        "ORT"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2"
+      ],
+      "recommended_attack": "Propagate the behavioral partition symbolically through causal cones using local rule composition, transfer matrices, or tensor-network light cones.",
+      "reusable_output": "Local witness radius, complexity bound, and tight example.",
+      "scale_up_when": "The local bound is verified against exhaustive global behavior on small systems.",
+      "smallest_informative_object": "The smallest local CA or QCA depth at which one admitted intervention separates two histories.",
+      "source_owner": "CA",
+      "source_title": "Local Causal-Cone Witness Bound"
+    },
+    {
+      "avoid": "Defining finality as a threshold and thereby making the theorem tautological.",
+      "first_decisive_contrast": "Equal raw evidence and provenance with versus without loop resolution.",
+      "hypothesis_id": "DC-A",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "COM",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4"
+      ],
+      "recommended_attack": "Define actions before certificates, compute the lower-layer loop syndrome, and compare an evidence-only layer with one imposing the exact missing relation.",
+      "reusable_output": "Necessary/sufficient conditions, paired protocol traces, and a model-checking certificate.",
+      "scale_up_when": "The result survives a frozen nontrivial adversary and a second representation.",
+      "smallest_informative_object": "The smallest split-view loop supporting one pair of incompatible safe actions.",
+      "source_owner": "DC",
+      "source_title": "Loop-Resolution Finality Criterion"
+    },
+    {
+      "avoid": "Assuming reversible views, global state, or common knowledge.",
+      "first_decisive_contrast": "Predicted invariant facts versus actually safe actions under every frozen view map.",
+      "hypothesis_id": "DC-B",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "ORT",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4"
+      ],
+      "recommended_attack": "Compute the equalizer or invariant action algebra directly and model-check whether exactly those facts remain safe across admissible view changes.",
+      "reusable_output": "Equalizer algorithm, proof conditions, and the smallest boundary counterexample.",
+      "scale_up_when": "The correspondence is exact on a declared protocol class and fails legibly outside it.",
+      "smallest_informative_object": "Two noninvertible certified-view maps with a nontrivial common safe subobject.",
+      "source_owner": "DC",
+      "source_title": "Certified-View Equalizer Theorem"
+    },
+    {
+      "avoid": "Counting signature bytes while ignoring key setup, trust roots, and verification work.",
+      "first_decisive_contrast": "One fewer provenance distinction versus the first sufficient authenticated distinction.",
+      "hypothesis_id": "AD-A",
+      "lead_lenses": [
+        "FCE",
+        "CFS",
+        "COM",
+        "ORT"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4",
+        "K8"
+      ],
+      "recommended_attack": "Use an indistinguishability or communication-complexity game, synthesize the shortest attack schedule, and minimize authenticated provenance needed to prevent it.",
+      "reusable_output": "Lower bound, minimal attack trace, and matching protocol when available.",
+      "scale_up_when": "The attack and achiever share the same frozen trust and resource contract.",
+      "smallest_informative_object": "One equivocator and the fewest honest recipients able to acquire incompatible certified views.",
+      "source_owner": "AD",
+      "source_title": "Equivocation-Provenance Lower Bound"
+    },
+    {
+      "avoid": "Monte Carlo adversary search that can miss the decisive rare schedule.",
+      "first_decisive_contrast": "A sufficient frozen refinement versus the shortest adaptive split-view strategy.",
+      "hypothesis_id": "AD-B",
+      "lead_lenses": [
+        "FCE",
+        "CAT",
+        "HET",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4"
+      ],
+      "recommended_attack": "Encode the problem as a two-player game and compute the symbolic fixpoint with antichains or abstract interpretation.",
+      "reusable_output": "Independently replayable refinement certificate or adversarial trace.",
+      "scale_up_when": "Both return branches are complete on the tiny class and scale compositionally.",
+      "smallest_informative_object": "The smallest finite state space with an adaptive scheduler and one possible refinement.",
+      "source_owner": "AD",
+      "source_title": "Adaptive Refinement Dichotomy"
+    },
+    {
+      "avoid": "Re-proving zero knowledge or inferring that an undisclosed witness was never instantiated.",
+      "first_decisive_contrast": "A verified action with versus without disclosure of the witness biography.",
+      "hypothesis_id": "ZK-A",
+      "lead_lenses": [
+        "ORT",
+        "COM",
+        "PHIL",
+        "RPO"
+      ],
+      "method_kits": [
+        "K0",
+        "K2",
+        "K4",
+        "K8"
+      ],
+      "recommended_attack": "Instantiate the known construction as an executable positive control and map witness, verification, disclosure, reconstruction, and action to separate fields.",
+      "reusable_output": "Reusable control fixture and exact DU implication crosswalk.",
+      "scale_up_when": "The mapping preserves the cryptographic assumptions and the DU action semantics.",
+      "smallest_informative_object": "A minimal standard commitment and zero-knowledge relation enabling one certified action.",
+      "source_owner": "ZK",
+      "source_title": "Certification Without Shared Biography"
+    },
+    {
+      "avoid": "Equating proof size with total certification or provenance cost.",
+      "first_decisive_contrast": "Shrinking proof bytes while holding total certification task and security fixed.",
+      "hypothesis_id": "ZK-B",
+      "lead_lenses": [
+        "ORT",
+        "FCE",
+        "COM",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K2",
+        "K4",
+        "K8"
+      ],
+      "recommended_attack": "Track proof, reference string, verifier state, trusted parties, assumptions, and provenance through a resource-preserving reduction.",
+      "reusable_output": "Complete resource ledger and either a residual lower bound or an absorbing construction.",
+      "scale_up_when": "Every moved resource has an operational measure and a matched protocol.",
+      "smallest_informative_object": "A matched proof system pair differing in succinctness but not in certified task.",
+      "source_owner": "ZK",
+      "source_title": "Succinct Proof Does Not Erase Provenance Debt"
+    },
+    {
+      "avoid": "Stopping at analogy or comparing endpoints without operation order.",
+      "first_decisive_contrast": "Identical terminal values with acyclic versus cyclic operation provenance.",
+      "hypothesis_id": "DB-A",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "ORT",
+        "HET"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4"
+      ],
+      "recommended_attack": "Map serialization graphs to the frozen reconciliation category and test each direction of the proposed correspondence separately.",
+      "reusable_output": "Two directional theorems, exhaustive tiny-history table, and first failed direction.",
+      "scale_up_when": "The mapping predicts a held-out history without changing transaction semantics.",
+      "smallest_informative_object": "The smallest transaction histories containing one serialization cycle and matched acyclic controls.",
+      "source_owner": "DB",
+      "source_title": "Serializability-Holonomy Correspondence"
+    },
+    {
+      "avoid": "Confounding informational topology with ordinary congestion.",
+      "first_decisive_contrast": "The same saved schedules before and after one added gossip path.",
+      "hypothesis_id": "DB-B",
+      "lead_lenses": [
+        "CFS",
+        "EMA",
+        "RPO",
+        "HET"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K4"
+      ],
+      "recommended_attack": "Run a controlled edge-addition experiment while holding load, routing budget, failures, data semantics, and safe action fixed.",
+      "reusable_output": "Causal effect estimate, complete logs, and replay bundle.",
+      "scale_up_when": "The effect replicates across new saved schedules and has a mechanism-specific mediator.",
+      "smallest_informative_object": "One replayable network schedule in which exactly one gossip path can be added.",
+      "source_owner": "DB",
+      "source_title": "Gossip Reconciliation Anti-Monotonicity"
+    },
+    {
+      "avoid": "Declaring new curvature after omitting an ordinary control port, memory, or phase.",
+      "first_decisive_contrast": "The focal routed process versus complete coherent, dephased, and route-erased nulls.",
+      "hypothesis_id": "QI-A",
+      "lead_lenses": [
+        "EMA",
+        "ORT",
+        "CFS",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K5"
+      ],
+      "recommended_attack": "Reconstruct an implementation-complete process tensor including routes, controls, memories, and readout, then fit the strongest standard-quantum absorber.",
+      "reusable_output": "Process reconstruction, uncertainty-aware null residual, and omitted-port audit.",
+      "scale_up_when": "A residual remains after held-out controls under the frozen complete implementation.",
+      "smallest_informative_object": "A routed coherent process with identical reduced endpoints and explicit route-erased and dephased controls.",
+      "source_owner": "QI",
+      "source_title": "Implementation-Complete Flatness Null"
+    },
+    {
+      "avoid": "Studying state convergence while leaving access and public actions undefined.",
+      "first_decisive_contrast": "Exact fixed algebra versus the approximate action algebra at finite noise and time.",
+      "hypothesis_id": "QI-B",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "ORT",
+        "WILD"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K5"
+      ],
+      "recommended_attack": "Compute the fixed algebra and spectral contraction exactly, then derive perturbation or diamond-norm bounds for approximate convergence.",
+      "reusable_output": "Convergence theorem, rate/error bound, and tight channel examples.",
+      "scale_up_when": "The small exact result extends under a stated perturbation class.",
+      "smallest_informative_object": "The smallest noncommuting noisy channel semigroup with a nontrivial invariant action algebra.",
+      "source_owner": "QI",
+      "source_title": "Noisy Public Fixed-Algebra Convergence"
+    },
+    {
+      "avoid": "Equating redundancy, fidelity, or one chosen decoder with public facthood.",
+      "first_decisive_contrast": "Crossing one access or erasure threshold while the logical fact and task stay fixed.",
+      "hypothesis_id": "QE-A",
+      "lead_lenses": [
+        "CAT",
+        "ORT",
+        "COM",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K2",
+        "K5",
+        "K8"
+      ],
+      "recommended_attack": "Use operator-algebra quantum error correction with frozen access, adversary, decoder family, and safe actions.",
+      "reusable_output": "Algebraic correspondence, decoder-independent portion, and boundary counterexample.",
+      "scale_up_when": "The same action semantics works in a second code family or the distributed twin.",
+      "smallest_informative_object": "The first stabilizer or subsystem code with a nontrivial correctable logical algebra under varying access.",
+      "source_owner": "QE",
+      "source_title": "Public Fact as Correctable Logical Algebra"
+    },
+    {
+      "avoid": "Renaming provenance labels as syndromes and calling that a duality.",
+      "first_decisive_contrast": "Distinct unsafe provenance loops sharing one syndrome or one provenance distinction requiring none.",
+      "hypothesis_id": "QE-B",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "HET",
+        "WILD"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K5",
+        "K8"
+      ],
+      "recommended_attack": "Construct the map between provenance sectors and error cosets, then test faithfulness, fullness, and dimension bounds.",
+      "reusable_output": "Explicit map, tight dimension bound, and first obstruction.",
+      "scale_up_when": "The map predicts a new code or network instance without relabeling.",
+      "smallest_informative_object": "A small code with multiple provenance sectors and a nontrivial syndrome space.",
+      "source_owner": "QE",
+      "source_title": "Syndrome-Provenance Duality"
+    },
+    {
+      "avoid": "Substituting raw mutual information for action-relative reconciliation.",
+      "first_decisive_contrast": "Equal raw channel statistics but different action-confusability structure.",
+      "hypothesis_id": "IT-A",
+      "lead_lenses": [
+        "CFS",
+        "CAT",
+        "ORT",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K2",
+        "K3",
+        "K8"
+      ],
+      "recommended_attack": "Seek a graph-entropy, rate-distortion, or zero-error coding theorem with matching achievability and converse.",
+      "reusable_output": "Operational rate, optimal code, converse certificate, and task-sensitivity analysis.",
+      "scale_up_when": "The exact small solution yields a constructive code for a larger frozen class.",
+      "smallest_informative_object": "The smallest nontrivial action-confusability graph with two tasks on one raw channel.",
+      "source_owner": "IT",
+      "source_title": "Action-Relative Reconciliation Rate"
+    },
+    {
+      "avoid": "Testing named distance formulas one at a time or refitting the task.",
+      "first_decisive_contrast": "One frozen scalar metric class versus an operational ordering reversal.",
+      "hypothesis_id": "IT-B",
+      "lead_lenses": [
+        "FCE",
+        "CFS",
+        "HET",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K3"
+      ],
+      "recommended_attack": "State axioms for a scalar metric class and synthesize two tasks or channels with equal scalar value but opposite capability order.",
+      "reusable_output": "A minimal counterexample that excludes the whole declared metric class.",
+      "scale_up_when": "The counterexample is invariant to allowed reparameterizations and task labels.",
+      "smallest_informative_object": "The smallest alphabets and intervention sets supporting an ordering reversal.",
+      "source_owner": "IT",
+      "source_title": "No Universal Informational Distance"
+    },
+    {
+      "avoid": "Treating observability as capability while ignoring controllability, risk, and cost.",
+      "first_decisive_contrast": "Joint-observability rank versus safe-action equivalence with control and cost explicit.",
+      "hypothesis_id": "CT-A",
+      "lead_lenses": [
+        "CAT",
+        "CFS",
+        "ORT",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K3"
+      ],
+      "recommended_attack": "Quotient histories by action response and compare that quotient with observability rank or the Gramian under a frozen control set.",
+      "reusable_output": "Each implication, rank test, and counterexamples for missing control assumptions.",
+      "scale_up_when": "The correspondence predicts a held-out control intervention.",
+      "smallest_informative_object": "A finite system where individual observability fails and joint observability succeeds.",
+      "source_owner": "CT",
+      "source_title": "Joint Observability-Action Finality Equivalence"
+    },
+    {
+      "avoid": "Enumerating all interventions or silently granting unphysical testers.",
+      "first_decisive_contrast": "Minimal extracted basis versus exhaustive interventions on the same tiny class.",
+      "hypothesis_id": "CT-B",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "ORT",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2"
+      ],
+      "recommended_attack": "Use span, convex separation, and basis extraction to replace universal intervention enumeration with a finite witness basis.",
+      "reusable_output": "Compactness theorem, basis algorithm, and counterexample under restricted testers.",
+      "scale_up_when": "The basis generalizes under a stated dimension or convexity bound.",
+      "smallest_informative_object": "A finite-dimensional tester space with a small process class and an exhaustible intervention set.",
+      "source_owner": "CT",
+      "source_title": "Finite Intervention-Basis Compactness"
+    },
+    {
+      "avoid": "Large parameter grids or mistaking slow relaxation for hysteresis.",
+      "first_decisive_contrast": "Connectivity and hardening changes with evidence accuracy and load held fixed.",
+      "hypothesis_id": "SP-A",
+      "lead_lenses": [
+        "CFS",
+        "EMA",
+        "HET",
+        "WILD"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K4",
+        "K7"
+      ],
+      "recommended_attack": "Analyze fixed points and bifurcations first, then use targeted numerical continuation and matched upward/downward sweeps.",
+      "reusable_output": "Bifurcation diagram, finite-size behavior, saved trajectories, and rival fit.",
+      "scale_up_when": "The reduced mechanism predicts the operating region for larger systems.",
+      "smallest_informative_object": "A reduced stochastic model with separately controlled access, conflict propagation, and safe action.",
+      "source_owner": "SP",
+      "source_title": "Reentrant Public-Fact Transition"
+    },
+    {
+      "avoid": "Exponent fishing, visual collapse alone, or inferring universality from one architecture.",
+      "first_decisive_contrast": "Out-of-sample size predictions rather than in-sample visual collapse.",
+      "hypothesis_id": "SP-B",
+      "lead_lenses": [
+        "CFS",
+        "EMA",
+        "ORT",
+        "HET"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K7"
+      ],
+      "recommended_attack": "Preregister rival scaling forms, reserve held-out sizes, and allocate new sizes at maximum predictive disagreement.",
+      "reusable_output": "Predictive comparison, collapse uncertainty, and next-size acquisition rule.",
+      "scale_up_when": "A rival is separated on held-out sizes with finite-size corrections explicit.",
+      "smallest_informative_object": "The smallest family of system sizes at which smooth, critical, crossover, and first-order rivals diverge.",
+      "source_owner": "SP",
+      "source_title": "Objectivity Phase Scaling Discriminator"
+    },
+    {
+      "avoid": "Building a monolithic general prover before the three return contracts work end to end.",
+      "first_decisive_contrast": "Exhaustive tiny-instance truth versus compiler output and independent certificate verification.",
+      "hypothesis_id": "FM-A",
+      "lead_lenses": [
+        "FCE",
+        "CAT",
+        "COM",
+        "RPO"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2"
+      ],
+      "recommended_attack": "Reduce factorization, sufficient refinement, and class-relative remainder to exact equivalence or reachability games and emit a certificate in every branch.",
+      "reusable_output": "Composable compiler core, canonical cache, three proof-object types, and regression corpus.",
+      "scale_up_when": "The complete vertical slice is correct before language or state-space expansion.",
+      "smallest_informative_object": "A tiny complete input language with at least one example in every return branch.",
+      "source_owner": "FM",
+      "source_title": "Decidable Refinement-Trichotomy Compiler"
+    },
+    {
+      "avoid": "Treating compiler success, test coverage, or a serialized trace as ontological proof.",
+      "first_decisive_contrast": "A valid certificate versus mutations that omit one assumption or inference.",
+      "hypothesis_id": "FM-B",
+      "lead_lenses": [
+        "FCE",
+        "PHIL",
+        "ORT",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K2"
+      ],
+      "recommended_attack": "Define a conclusion-sensitive proof grammar and build a small independent verifier separated from the search implementation.",
+      "reusable_output": "Verifier, certificate grammar, mutation tests, and conclusion-grade receipt.",
+      "scale_up_when": "Every inference and assumption has a rejection control.",
+      "smallest_informative_object": "One valid and several minimally corrupted certificates for every compiler conclusion type.",
+      "source_owner": "FM",
+      "source_title": "Machine-Checkable Ontology License"
+    },
+    {
+      "avoid": "Looking for a frequency shift or dephasing that a classical mixture can reproduce.",
+      "first_decisive_contrast": "Coherent history recombination versus the strongest classical random-history channel with identical average shift.",
+      "hypothesis_id": "EM-A",
+      "lead_lenses": [
+        "EMA",
+        "CFS",
+        "ORT",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K5",
+        "K6"
+      ],
+      "recommended_attack": "Calculate the coherent prediction and full classical channel set, optimize the separating control, and build the calibration budget around the predicted margin.",
+      "reusable_output": "Assay passport, convex-null distance, error budget, sample rule, and full outcome record.",
+      "scale_up_when": "The simulated separation exceeds systematic and model-completion uncertainty under held-out calibration.",
+      "smallest_informative_object": "The smallest coherent proper-time process with a classical-history convex hull and a recombination observable.",
+      "source_owner": "EM",
+      "source_title": "Proper-Time Robust Separability"
+    },
+    {
+      "avoid": "Changing the decoder, observer boundary, or provenance definition at each setting.",
+      "first_decisive_contrast": "One added provenance distinction at fixed conventional channel resources.",
+      "hypothesis_id": "EM-B",
+      "lead_lenses": [
+        "EMA",
+        "CFS",
+        "COM",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K5",
+        "K6",
+        "K8"
+      ],
+      "recommended_attack": "Sweep provenance capacity while holding noise, decoder, energy, access, and task fixed; estimate the threshold before translating to a clock.",
+      "reusable_output": "Operational provenance measure, response surface, threshold uncertainty, and platform error requirement.",
+      "scale_up_when": "The twin predicts a robust effect large enough for a frozen clock assay.",
+      "smallest_informative_object": "A routed quantum twin with one authenticated provenance distinction and matched ordinary channel capacity.",
+      "source_owner": "EM",
+      "source_title": "Clock Provenance-Capacity Threshold"
+    },
+    {
+      "avoid": "Comparing unmatched capabilities or omitting memory, coherence, trust, and support.",
+      "first_decisive_contrast": "Equal task performance under a complete resource ledger with versus without the focal finality structure.",
+      "hypothesis_id": "TR-A",
+      "lead_lenses": [
+        "CAT",
+        "CFS",
+        "ORT",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K2",
+        "K3",
+        "K8"
+      ],
+      "recommended_attack": "Define action optionality and resource monotones, derive a convex or information-theoretic lower bound, and seek an achieving construction.",
+      "reusable_output": "Lower and upper bounds, achieving specimen, complete ledger, and remaining gap.",
+      "scale_up_when": "The operational measure and ledger transfer unchanged across a second fixture.",
+      "smallest_informative_object": "A matched protocol pair with identical action task but different finality or optionality.",
+      "source_owner": "TR",
+      "source_title": "Finality-Optionality Resource Inequality"
+    },
+    {
+      "avoid": "Defining the residual to be zero or weakening the comparison protocol.",
+      "first_decisive_contrast": "Focal protocol versus a fully resource-matched ordinary implementation.",
+      "hypothesis_id": "TR-B",
+      "lead_lenses": [
+        "ORT",
+        "EMA",
+        "PHIL",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K8"
+      ],
+      "recommended_attack": "Construct the strongest reversible or ordinary-accounting implementation and explicitly absorb every apparent actualization cost into known resources.",
+      "reusable_output": "Residual upper bound and the protocol that attains it.",
+      "scale_up_when": "Every ledger term is operationally matched and the residual is calibration-limited.",
+      "smallest_informative_object": "The same matched protocols and complete ledger used by TR-A.",
+      "source_owner": "TR",
+      "source_title": "No Residual Actualization Cost"
+    },
+    {
+      "avoid": "Defining equivalence using every possible experiment and then claiming sufficiency.",
+      "first_decisive_contrast": "The frozen quotient prediction versus one controlled expansion of admissible actions.",
+      "hypothesis_id": "CP-A",
+      "lead_lenses": [
+        "CAT",
+        "CFS",
+        "PHIL",
+        "HET"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K3"
+      ],
+      "recommended_attack": "Construct the behavioral quotient under declared interventions, prove composition and refinement properties, and reserve a held-out intervention.",
+      "reusable_output": "Quotient object, functoriality conditions, held-out result, and exact refinement semantics.",
+      "scale_up_when": "The quotient composes across two agents or process stages without semantic refit.",
+      "smallest_informative_object": "Two histories merged by one finite action set and split by one controlled action-set expansion.",
+      "source_owner": "CP",
+      "source_title": "Intervention-Indexed Actuality"
+    },
+    {
+      "avoid": "Turning finite underdetermination into universal anti-realism.",
+      "first_decisive_contrast": "Identical finite evidence and actions versus divergent ontological interpretation.",
+      "hypothesis_id": "CP-B",
+      "lead_lenses": [
+        "PHIL",
+        "CAT",
+        "FCE",
+        "ORT"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K9"
+      ],
+      "recommended_attack": "Construct the explicit operational translation and prove the equivalence while stating the additional intervention that would separate the models if available.",
+      "reusable_output": "Scoped underdetermination theorem, model pair, translation, and ontology-license grammar.",
+      "scale_up_when": "The equivalence is exact on the declared surface and its scope is machine-readable.",
+      "smallest_informative_object": "Two ontologically different models exactly equivalent on one frozen finite evidence surface.",
+      "source_owner": "CP",
+      "source_title": "No-Finite-Metaphysics Theorem"
+    },
+    {
+      "avoid": "Importing dimension, metric, manifold, or causal geometry through the input record.",
+      "first_decisive_contrast": "Reconstruction-fit observables versus geometric observables reserved as held-out predictions.",
+      "hypothesis_id": "CG-A",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "WILD",
+        "PHIL"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K9"
+      ],
+      "recommended_attack": "Generate countermodels first, then add locality, dimension, scale, and regularity assumptions one at a time until uniqueness up to declared gauge is earned.",
+      "reusable_output": "Minimal assumption set, reconstruction algorithm, gauge class, and irreducible countermodel.",
+      "scale_up_when": "A held-out geometric prediction succeeds without changing the record definition.",
+      "smallest_informative_object": "The smallest pair of nonisomorphic candidate geometries sharing the same certified meta-records.",
+      "source_owner": "CG",
+      "source_title": "Certified Meta-Record Geometry Reconstruction"
+    },
+    {
+      "avoid": "Calling every route-dependent phase curvature or fitting a continuum story per cover.",
+      "first_decisive_contrast": "Known curved, flat, and topology-only specimens under the same route and control implementation.",
+      "hypothesis_id": "CG-B",
+      "lead_lenses": [
+        "CAT",
+        "EMA",
+        "ORT",
+        "WILD"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K5",
+        "K9"
+      ],
+      "recommended_attack": "Define a discrete connection and gauge-invariant loop observable, subtract complete ordinary phases, and test naturality under controlled refinement.",
+      "reusable_output": "Refinement law, invariance audit, collision table, and continuum candidate map.",
+      "scale_up_when": "The observable converges consistently across independent covers and survives the implementation-complete null.",
+      "smallest_informative_object": "A synthetic discrete complex with known curvature plus flat topologically nontrivial controls.",
+      "source_owner": "CG",
+      "source_title": "Coarse-Grained Holonomy-Curvature Bridge"
+    },
+    {
+      "avoid": "Using static or unauthenticated channel capacity as reality bandwidth.",
+      "first_decisive_contrast": "Static connectivity versus time-respecting authenticated capacity for one action commodity.",
+      "hypothesis_id": "NW-A",
+      "lead_lenses": [
+        "CAT",
+        "FCE",
+        "ORT",
+        "COM"
+      ],
+      "method_kits": [
+        "K0",
+        "K1",
+        "K2",
+        "K4",
+        "K8"
+      ],
+      "recommended_attack": "Build a time-expanded authenticated flow graph and seek matching max-flow/min-cut converse and achievability under the frozen adversary.",
+      "reusable_output": "Cut certificate, achieving code or protocol, and adversarial trace.",
+      "scale_up_when": "The theorem predicts a larger replayable network without changing authentication semantics.",
+      "smallest_informative_object": "The smallest temporal network for which static and time-respecting authenticated cuts differ.",
+      "source_owner": "NW",
+      "source_title": "Temporal Min-Cut Reality Bandwidth"
+    },
+    {
+      "avoid": "Post hoc regression on convenient graph summaries or allowing topology to change the task.",
+      "first_decisive_contrast": "Held-out edge additions or removals with all non-topological fields frozen.",
+      "hypothesis_id": "NW-B",
+      "lead_lenses": [
+        "CFS",
+        "EMA",
+        "RPO",
+        "HET"
+      ],
+      "method_kits": [
+        "K0",
+        "K3",
+        "K4",
+        "K5"
+      ],
+      "recommended_attack": "Use factorial topology changes while separately holding access, provenance, noise, and resources fixed; fit a preregistered sparse causal response.",
+      "reusable_output": "Causal topology contributions, interaction terms, predictions, and failed invariance cases.",
+      "scale_up_when": "The same decomposition predicts held-out interventions on both twins.",
+      "smallest_informative_object": "One common task instantiated on matched distributed and routed-quantum twins with controlled edge interventions.",
+      "source_owner": "NW",
+      "source_title": "Topology-Capability Response Law"
+    }
+  ],
+  "authorization_effect": "NONE",
+  "checks": [
+    {
+      "id": "source_panel_complete",
+      "passed": true
+    },
+    {
+      "id": "exactly_ten_distinct_lenses",
+      "passed": true
+    },
+    {
+      "id": "requested_lenses_present",
+      "passed": true
+    },
+    {
+      "id": "one_attachment_per_source_hypothesis",
+      "passed": true
+    },
+    {
+      "id": "all_attachment_fields_complete",
+      "passed": true
+    },
+    {
+      "id": "method_and_lens_references_valid",
+      "passed": true
+    },
+    {
+      "id": "divergent_lens_support_per_attachment",
+      "passed": true
+    },
+    {
+      "id": "every_shared_method_kit_exercised",
+      "passed": true
+    },
+    {
+      "id": "no_priority_or_grade_override",
+      "passed": true
+    },
+    {
+      "id": "source_titles_resolve",
+      "passed": true
+    }
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "hypothesis_grade_effect": "NONE",
+  "hypothesis_priority_effect": "NONE",
+  "lenses": [
+    {
+      "id": "CAT",
+      "instruction": "Find the typed object, universal property, invariant, composition law, and naturality obligation.",
+      "name": "Category theorist"
+    },
+    {
+      "id": "CFS",
+      "instruction": "Freeze the estimand and rivals, then choose matched interventions by expected discrimination when defined.",
+      "name": "Counterfactual statistician"
+    },
+    {
+      "id": "FCE",
+      "instruction": "Quotient symmetries and synthesize the smallest witness with an independently checkable certificate.",
+      "name": "Formal counterexample engineer"
+    },
+    {
+      "id": "EMA",
+      "instruction": "Calculate identifiability and the effect-to-error margin before spending apparatus time.",
+      "name": "Experimental metrology architect"
+    },
+    {
+      "id": "RPO",
+      "instruction": "Reuse fixtures, cache intermediate objects, and require a transferable artifact from every run.",
+      "name": "Research-portfolio and operations scientist"
+    },
+    {
+      "id": "ORT",
+      "instruction": "Executable prior art and the strongest standard absorber precede novelty claims.",
+      "name": "Orthodox professor"
+    },
+    {
+      "id": "HET",
+      "instruction": "Vary hidden assumptions one at a time and preserve counterfamilies and dual formulations.",
+      "name": "Heterodox professor"
+    },
+    {
+      "id": "COM",
+      "instruction": "Build the thinnest complete vertical slice that produces a decision-enabling reusable output.",
+      "name": "Commercial scientist"
+    },
+    {
+      "id": "WILD",
+      "instruction": "Preserve the profound conjunction in a tiny falsifiable model with an invariance audit.",
+      "name": "Wild-frontier scientist"
+    },
+    {
+      "id": "PHIL",
+      "instruction": "Separate operational, mathematical, physical, and ontological conclusions and forbid semantic refit.",
+      "name": "Philosopher of science"
+    }
+  ],
+  "method_kits": {
+    "K0": {
+      "name": "Semantic and estimand lock",
+      "output": "contract digest and claim-to-observable map"
+    },
+    "K1": {
+      "name": "Symmetry-reduced finite search",
+      "output": "smallest countermodel or finite exhaustive certificate"
+    },
+    "K2": {
+      "name": "Proof-carrying algebra/compiler",
+      "output": "algorithm, exact conditions, proof object, and tight example"
+    },
+    "K3": {
+      "name": "Counterfactual sequential design",
+      "output": "matched contrast, uncertainty update, and next-intervention rule"
+    },
+    "K4": {
+      "name": "Authenticated distributed twin",
+      "output": "replayable protocol trace, attack witness, and capability delta"
+    },
+    "K5": {
+      "name": "Routed quantum twin",
+      "output": "complete process reconstruction, null residual, and action algebra"
+    },
+    "K6": {
+      "name": "Metrology preflight and sequential assay",
+      "output": "assay passport, error budget, and calibrated outcome record"
+    },
+    "K7": {
+      "name": "Scaling and universality toolkit",
+      "output": "phase/scaling discriminator and finite-size controls"
+    },
+    "K8": {
+      "name": "Resource and provenance accounting",
+      "output": "complete ledger, bound, and resource-achieving specimen"
+    },
+    "K9": {
+      "name": "Reconstruction and uniqueness ladder",
+      "output": "assumption-minimal reconstruction or explicit remainder"
+    }
+  },
+  "not_established": [
+    "truth or novelty of any hypothesis",
+    "comparative worth or execution priority",
+    "scientific validity of a recommended method",
+    "authorization for a physical experiment or external action"
+  ],
+  "probe": "du_hypothesis_efficient_approach_registry_probe",
+  "purpose": "Improve how a lead attacks any chosen hypothesis without selecting, eliminating, deferring, grading, or reranking hypotheses.",
+  "run_id": "RUN-20260724-200626-ten-lens-learning-rate-panel",
+  "scientific_evidence": false,
+  "source": "tests/artifacts/du_technical_lens_hypothesis_quadratic_vote_result.json",
+  "source_sha256": "9b68d5f34e7bb01c01f97317607cc2502c2acd253c2e0055c37267e31d853e38",
+  "status": "COMPLETE_METHOD_ATTACHMENT_REGISTRY",
+  "totals": {
+    "attachments": 36,
+    "lenses": 10,
+    "method_kits": 10,
+    "source_hypotheses": 36
+  }
+}

@@ -11,6 +11,11 @@ seeded: false
 
 # Eighteen technical lenses — hypothesis panel and quadratic vote
 
+Method companion:
+`ten-lens-hypothesis-efficient-approach-registry-2026-07-24.md` attaches one
+smart, reusable attack to every hypothesis ID without changing any hypothesis,
+grade, vote, rank, or priority.
+
 ## Executive result
 
 Eighteen technical lenses inspected the complete current Dynamic Unity
