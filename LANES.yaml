@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 27
+manifest_revision: 28
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -26,12 +26,19 @@ active_hardening_program_note: >-
   certification, sufficiency, reconstruction, transfer and recovery spine. HC-DU-001 through
   HC-DU-032 and P01-A through P50-B remain a lossless historical and live antecedent backlog;
   migration routes them but does not replace, regrade or close them. HC-DU-033A now closes the
-  finite classical selection/access quotient only. HC-DU-035A now closes the static layered
+  finite classical selection/access quotient only. HC-DU-033B classifies the fixed center and
+  coherent complementary-environment access certificate for finite abelian random-unitary channels,
+  proves that the two receipts are independent, and adds a matched Pauli control where identical
+  scalar fixed algebra and finite-time Z signal coexist with no, partial or exact environment
+  records. A constructive family fills the full environment-formation interval at every fixed
+  0<s<1. The minimal physical condition that creates a nontrivial bound remains open.
+  HC-DU-035A now closes the static layered
   reconstruction/finality/capability threshold controls and rejects one universal objectivity
   threshold. HC-DU-034A now supplies an exact signed all-port coherent-history assay
   specialization, and HC-DU-036A supplies the exact finite deterministic
-  factorization-or-candidate-witness baseline plus finite-linear extension. Physical record
-  formation, admissible interface refinement, instrument-level history certification,
+  factorization-or-candidate-witness baseline plus finite-linear extension. Robust approximate
+  and instrument-derived physical record formation, admissible interface refinement,
+  instrument-level history certification,
   broadcastable public finality and the formation-to-finality resource law remain open. The
   revision-22 finite reconciliation-loop baseline additionally identifies path-independent facts
   with a holonomy orbit/fixed algebra, proves task-relative project-or-lift provenance and
@@ -48,6 +55,12 @@ active_hardening_program_note: >-
   compiler to stochastic records, executes the first matrix-derived quantum/authenticated-DAG
   transfer, localizes both apparent remainders to withheld provenance, and strengthens the
   generativity control from an extensional response tree to a compressed fixed-law rival.
+  Revision 28 classifies one exact finite central-record interface, separates fixed-center
+  stability from coherent environment evidence, preserves quantum multiplicity inside readable
+  sectors, proves branch-basis dephasing erases the sector code before Walsh decoding,
+  exposes exact selection as brittle to arbitrarily small noncommuting perturbations, and proves
+  by matched Pauli controls that one finite-time stability score does not determine formation.
+  Its constructive Pauli family fills the full stability--formation rectangle.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -577,7 +590,13 @@ certified_causal_reality_restructure:
   current_grade: >-
     PROGRAM RECHARTERED / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED / EXACT FINITE
     RECORD-AND-ARCHIVE RESULTS RETAINED / HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT
-    EXACT / HC-DU-035A LAYERED THRESHOLD CONTROLS EXACT / ONE UNIVERSAL OBJECTIVITY THRESHOLD
+    EXACT / HC-DU-033B FINITE ABELIAN CENTRAL-RECORD INTERFACE EXACT AS A KNOWN SPECIALIZATION /
+    FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT / BRANCH-BASIS
+    DEPHASING ERASES THE SECTOR CODE BEFORE DECODING / QUANTUM MULTIPLICITY PRESERVED INSIDE
+    COHERENTLY READABLE CENTRAL SECTORS / MATCHED FINITE-TIME STABILITY DOES NOT DETERMINE
+    ENVIRONMENT FORMATION / FULL QUBIT PAULI STABILITY-FORMATION RECTANGLE CONSTRUCTED /
+    HC-DU-035A LAYERED THRESHOLD CONTROLS EXACT /
+    ONE UNIVERSAL OBJECTIVITY THRESHOLD
     REJECTED / HC-DU-034A SIGNED ALL-PORT COHERENT-HISTORY ASSAY EXACT AT IDEAL SPECIALIZATION
     GRADE / HC-DU-036A FINITE FACTORIZATION-OR-CANDIDATE-WITNESS AND LINEAR-RANK BASELINES EXACT /
     NO SIZE-FREE WITNESS HORIZON / FINITE HOLONOMY PUBLIC-FACT, RECONCILIATION-FRUSTRATION,
@@ -589,24 +608,30 @@ certified_causal_reality_restructure:
     ERROR-OR-DELIVERY SYNDROME PLUS ROUTE PROVENANCE RESTORES EXACT FACTORIZATION / RESTRICTED
     BOUNDARY REMAINDERS ABSORBED BY CHARGED EXPANSION / NO IRREDUCIBLE REMAINDER / EXACT FRESH
     RECORD SUPPORT GROWTH RETAINED BUT EXTENSIONAL TREE COST ABSORBED BY COMPRESSED FIXED LAW /
-    PHYSICAL RECORD SELECTION, IMPLEMENTATION-COMPLETE PROPER-TIME HISTORY CERTIFICATION,
+    EXACT CENTER SELECTION BRITTLE TO NONCOMMUTING PERTURBATIONS / ROBUST APPROXIMATE AND
+    INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION / IMPLEMENTATION-COMPLETE PROPER-TIME HISTORY
+    CERTIFICATION /
     BROADCASTABLE PUBLIC FINALITY, FORMATION-TO-FINALITY RESOURCE LAW, GEOMETRY AND PHYSICAL
     RECOVERY OPEN / COMPONENT MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL
     RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
   first_dependency: >-
-    Independently select or classify the physical record-forming interface, cadence and
-    equivariant/noncommutative structured channel, then freeze a nonempty physically realizable
-    and resource-bounded refinement class. HC-DU-033A already fixes the finite classical
-    consequence of supplied selection/access relations; HC-DU-036A shows why a failed candidate
-    interface alone cannot establish a physical remainder.
+    Identify the minimal independently justified nondemolition, full-channel, locality, energy,
+    resource or physically selected dephasing-robust decoder/access condition that shrinks the
+    completed qubit Pauli stability--formation rectangle, or derive the relevant channel and
+    complementary access from a physical instrument. HC-DU-033A
+    fixes the finite classical consequence of supplied selection/access relations; HC-DU-033B
+    proves that fixed-center selection and coherent environment access require separate receipts;
+    HC-DU-036A shows why a failed candidate interface alone cannot establish a physical remainder.
   first_executable_flagship: >-
-    Do not add another hand-selected compiler fixture. Attack the remaining exogenous interface
-    choice directly: either derive/classify a record-forming channel from independently fixed
-    physical dynamics plus resource/stability conditions, or instantiate the signed all-port
-    assay in a proposal-level proper-time process with complete operations, accessible outcomes,
-    implementation-complete convex nulls and matched resources. Carry the stochastic compiler
-    unchanged as the adjudicator. Only after a formed distinction survives every admitted
-    refinement should HC-DU-035B price its conversion into public finality.
+    Do not add another hand-selected compiler, exact dephasing fixture or unconstrained
+    stability/formation sweep: the Pauli rectangle is already full. Add one independently
+    motivated nondemolition, full-channel, locality, energy, resource or dephasing-robust
+    decoder/access condition and derive the resulting tight bound; alternatively derive that
+    channel from a physical instrument or instantiate the signed all-port assay in a
+    proposal-level proper-time process with complete operations, accessible outcomes,
+    implementation-complete convex nulls and matched resources. Carry the stochastic
+    compiler unchanged as the adjudicator. Only after a formed distinction survives every
+    admitted refinement should HC-DU-035B price its conversion into public finality.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -1056,6 +1081,56 @@ physical_history_certificate_transfer_swing:
   ledger_disposition: >-
     No new claim, hypothesis, concept, prediction, ontology or Factory state. H-CCR-02/05/10/12/13
     and XH-01/02/06 receive scoped executable evidence or stronger controls only.
+central_record_interface_selection_swing:
+  status: completed_scoped_exact_classification_and_pauli_rectangle
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: do another heavy swing after the stochastic physical/protocol transfer.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-225324-central-record-interface-selection/run-plan.md
+  theorem_and_collision_ref: >-
+    explorations/central-record-interface-selection-theorem-and-no-go-2026-07-24.md
+  probe_ref: tests/du_central_record_interface_selection_probe.py
+  artifact_ref: tests/artifacts/du_central_record_interface_selection_result.json
+  artifact_sha256: 05b06bb1b9df5bb2a5241d5277b3a78e58ef9512dcdf042fa21bd38f1685dce4
+  exact_result: >-
+    For finite abelian random-unitary channels, the positive-support commutant is the fixed
+    algebra and its center is the canonical classical sector algebra. The complementary branch
+    environment supplies a separate coherent-access certificate. A uniform full-group twirl
+    carries an exactly Walsh-decodable character-sector code while remaining insensitive to
+    quantum multiplicity state within each sector. Branch-basis dephasing erases the code.
+  separation_result: >-
+    Fixed-center selection is not record formation. Identity, deterministic-unitary and biased
+    controls respectively return no nontrivial center, a nontrivial fixed center with no
+    environment record, and the same center with partial evidence. A degenerate parity fixture
+    carries an exactly decodable parity code under coherent environment access while retaining
+    M2 quantum state in each sector.
+  hostile_result: >-
+    Internal block rotations preserve central projectors while moving rank-one internal
+    projectors; rational coordinate conjugation and environment-branch gauge preserve the
+    classification. Adding any positive X branch to the exact qubit Z twirl collapses its exact
+    fixed algebra to scalars. Three noncommuting Pauli channels then hold the scalar fixed algebra,
+    one-use Z signal 3/4 and four-use signal 81/256 fixed while environment-record distance
+    squared spans 0, 3/4 and 1. More generally, the constructive weights
+    (ar,br,b(1-r),a(1-r)) with a=(1+s)/2 and b=(1-s)/2 give lambda_Z=s and
+    D_E^2=4r(1-r), filling the full unit formation interval at every fixed 0<s<1 while the exact
+    fixed algebra remains scalar.
+  checks: >-
+    The exact-rational probe passes 33/33 checks with byte-identical output.
+  novelty_disposition: >-
+    Fixed-point/information-preserving algebras, hybrid classical-quantum operator codes,
+    complementary channels, decoherence, character orthogonality and no-broadcasting absorb the
+    theorem components. This is a DU dependency advance and exact finite classification, not a
+    new physical law or standalone paper claim.
+  next_move: >-
+    Identify the minimal independently justified nondemolition, full-channel disturbance,
+    locality, energy, resource or dephasing-robust decoder/access condition that shrinks the full
+    Pauli rectangle and derive its tight bound; or derive the channel from an independently
+    motivated physical instrument. Do not add another exact fitted dephasing fixture or
+    unconstrained Pauli sweep.
+  ledger_disposition: >-
+    HC-DU-033B is recorded as a completed scoped known-mathematics specialization. No core
+    hypothesis, claim, prediction, ontology, paper seed or Factory state is promoted.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1453,10 +1528,16 @@ lanes:
     capacity. The stochastic history-certificate compiler now runs unchanged on a matrix-derived
     QND recorder and a replayable authenticated DAG. Both apparent remainders were ordinary
     withheld error/delivery provenance and vanished under charged boundary expansion. The
-    decisive target is now the selection gap itself: derive or classify the record-forming
-    interface from fixed dynamics/resources, or execute an implementation-complete proper-time
-    instrument whose distinction survives the admitted refinements. HC-DU-035B follows only
-    after that assay supplies a formed distinction worth pricing.
+    finite abelian central-record classification now proves that a selected fixed center and
+    coherently accessible environment evidence are independent receipts, and that quantum
+    multiplicity can survive inside a readable central sector. Branch-basis dephasing erases the
+    code before Walsh decoding. Its exact center is brittle to
+    noncommuting perturbations; matched Pauli controls further show that fixed-algebra type and
+    finite-time Z stability do not determine environment formation. The constructive Pauli
+    family fills that entire rectangle. The decisive target is therefore the minimal physical
+    condition that shrinks it, a channel derived from an independently motivated instrument, or an
+    implementation-complete proper-time assay.
+    HC-DU-035B follows only after that work supplies a formed distinction worth pricing.
   anchor:
     name: Certified Causal Sufficiency — factorization, candidate witness and refinement challenge
     elevated: '2026-07-24 (Joe direct chat; nineteen-lens triple-diamond convergence)'
@@ -1476,7 +1557,7 @@ lanes:
       error/delivery syndromes restore exact sufficiency; its restricted-boundary remainders are
       therefore interface-relative. A witness diagnoses a failed candidate interface; it is not
       a physical remainder until every member of a frozen admissible refinement class fails. No
-      selected record-forming law, proper-time implementation, observer,
+      robust or instrument-derived record-forming law, proper-time implementation, observer,
       implementation-complete history certificate, broadcastable public finality,
       formation-to-finality resource law, geometry, physical ontology or low-energy theory has
       been selected.
@@ -1497,13 +1578,21 @@ lanes:
     scope: >-
       HC-DU-033A is complete: for supplied finite classical symmetry, post-write and deterministic
       access relations, the canonical surviving Set quotient and combined access quotient are
-      exact. Continue the parent HC-DU-033 by freezing Upsilon, I, R, Gamma_R, C, chi, F, A_F, O,
-      Q_O, Cap, G_O, the resource ledger and remainder witness; then independently justify record
-      formation, cadence, interface and direct coalition channels. Lift to equivariant or
-      noncommutative record algebras and structured-process congruences. Return a physical Record
-      Selection Theorem, an Interface-Necessity No-Go, or a classified minimal
-      additional-structure family. Do not enumerate more bare partitions or build another merely
-      admissible covariant recorder.
+      exact. HC-DU-033B is complete at finite abelian specialization grade: the fixed center is
+      the canonical classical sector algebra, the complementary environment supplies an
+      independent coherent-access receipt, and a uniform full-group twirl carries an exactly
+      Walsh-decodable central label while preserving quantum multiplicity; branch-basis
+      dephasing erases it. A matched Pauli trio also holds scalar exact
+      fixedness and finite-time Z stability constant while formation spans none through exact;
+      its constructive extension fills the full rectangle at every 0<s<1.
+      Continue the parent HC-DU-033 by freezing Upsilon, I, R, Gamma_R, C, chi, F, A_F, O, Q_O,
+      Cap, G_O, the resource ledger and remainder witness; then add the minimal independently
+      justified nondemolition, full-channel, locality, energy, resource or dephasing-robust
+      decoder/access condition that shrinks the rectangle, or derive the channel from a physical
+      instrument.
+      Return a physical Record Selection Theorem, an Interface-Necessity No-Go, or a classified
+      minimal additional-structure family. Do not enumerate more bare partitions, exact fitted
+      dephasing fixtures or merely admissible covariant recorders.
   - id: '1.2'
     title: Fresh-record dynamics and generativity
     scope: >-
@@ -1808,9 +1897,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 27.
+    routing is the root lanes key at manifest revision 28.
 provenance:
-  revision: 27
+  revision: 28
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1876,7 +1965,11 @@ provenance:
     direct chat, 2026-07-24) executes the next actual-work swing, extends the compiler to
     stochastic records, carries it across a matrix-derived quantum recorder and authenticated
     operation DAG, localizes both remainders to withheld provenance, and strengthens XH-01 with
-    a compressed fixed-law adversary
+    a compressed fixed-law adversary; rev28 (Joe direct chat, 2026-07-24) executes a heavy
+    physical-interface swing, classifies the finite abelian fixed center and complementary
+    environment access certificate, proves coherent decoding versus branch-dephasing erasure,
+    constructs the full qubit Pauli stability--formation rectangle, and routes the result to the
+    physical conditions that can shrink it
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -2142,3 +2235,19 @@ provenance:
     bottleneck; physical interface selection or an implementation-complete proper-time
     instrument is next. No claim, hypothesis, concept, prediction, ontology, Factory state,
     draft, submission, publication or external action changed.
+  rev28_note: >-
+    2026-07-24 (Joe direct chat: do another heavy swing): classified finite abelian
+    random-unitary record interfaces with exact rational controls. The probe passes 33/33:
+    positive-support fixed algebras equal their commutants, uniform full-group environments carry
+    exact character-sector codes under coherent access. Deterministic and biased controls
+    separate fixed-center selection from record formation, and degeneracy preserves quantum
+    multiplicity inside a coherently readable central sector. Walsh decoding recovers the sector
+    label while
+    branch-basis dephasing erases it. Coordinate and environment gauge controls pass; any positive
+    noncommuting X branch kills the exact qubit Z center. A matched Pauli trio then holds scalar
+    fixedness and finite-time Z stability constant while environment formation ranges from none
+    to exact. Its constructive extension fills the full environment-record interval at every
+    fixed 0<s<1, making the minimal physical condition that shrinks the rectangle the next
+    dependency. The component mathematics is known, so no claim, hypothesis, prediction,
+    ontology, paper seed, Factory state, draft, submission, publication or external action
+    changed.

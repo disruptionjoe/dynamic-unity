@@ -128,6 +128,23 @@ The recharter preserves, rather than promotes, the strongest exact results:
   sufficiency. Withholding that syndrome created a boundary-relative
   candidate remainder; a charged boundary expansion absorbed it. No
   irreducible physical remainder was found.
+- A finite abelian random-unitary classification now separates two receipts
+  that prior record language could conflate. The fixed algebra selects a
+  canonical classical center, while the complementary environment must
+  separately carry distinguishable sector evidence under a declared access
+  algebra. With full coherent branch access, a uniform full-group twirl does
+  both by character orthogonality; branch-basis dephasing erases the code
+  before decoding. A deterministic unitary can
+  have the same fixed center and form no record; multiplicity sectors retain
+  quantum state with no selected internal basis. An arbitrarily small
+  noncommuting branch destroys the exact center. A matched three-channel
+  Pauli control holds the scalar fixed algebra and finite-time \(Z\) signal
+  constant while complementary-environment record quality spans none,
+  partial, and exact. A constructive family strengthens this to the full
+  rectangle: for every \(0<s<1\), every environment distinguishability
+  \(0\leq D_E\leq1\) is attainable at fixed \(Z\)-stability \(s\) and scalar
+  exact fixed algebra. The open successor is to find an independently
+  justified physical condition that shrinks this rectangle.
 - Exact fresh binary-prefix records through depth \(T\) require \(2^T\)
   distinguishable global record states in the finite append-only model.
   However, a two-state fixed law plus the growing output tape reproduces the
@@ -136,19 +153,21 @@ The recharter preserves, rather than promotes, the strongest exact results:
 
 These results complete the finite classical quotient bookkeeping, the first
 static layered-threshold and deterministic interventional-closure controls,
-and the first stochastic matrix/protocol transfer. They keep **record
-formation and physical interface selection** as the first scientific
-dependency. The compiler is no longer the immediate bottleneck: another
-hand-selected record fixture would mostly repeat the boundary-relative
-syndrome result. The next physical swing must either derive or classify a
-record-forming interface from independently fixed dynamics and
-resource/stability conditions, or instantiate the signed all-port assay in a
-proposal-level proper-time process with complete operations, accessible
-outcomes, calibrated convex nulls, and matched resources. Only a surviving
-formed distinction should route to `HC-DU-035B` for
-formation-to-finality pricing. These controls do not establish an observer,
-proper time, public classicality, continuum covariance, gravity, cosmology, or
-record-first ontology.
+the first stochastic matrix/protocol transfer, and one exact finite
+record-interface class. They keep **robust physical record formation and
+interface selection** as the first scientific dependency. The compiler is no
+longer the immediate bottleneck, and the exact abelian result shows why
+another hand-selected dephasing fixture would not close the gap. The next
+physical swing must either identify a minimal nondemolition, full-channel,
+locality, energy, resource, or physically selected dephasing-robust
+decoder/access condition that shrinks the full Pauli stability--formation
+rectangle, derive the relevant channel from a physical instrument, or
+instantiate the signed all-port assay in a proposal-level proper-time process
+with complete operations, accessible outcomes, calibrated convex nulls, and
+matched resources. Only a surviving formed distinction should route to
+`HC-DU-035B` for formation-to-finality pricing. These controls do not
+establish an observer, proper time, public classicality, continuum covariance,
+gravity, cosmology, or record-first ontology.
 
 ## Cross-repo hardening suite
 
@@ -385,6 +404,16 @@ results are fidelity-product and Holevo-Fano controls. The current general
 classification or a nonseparable covariance-locality-support theorem remains
 search-incomplete.
 
+`HC-DU-033B` now has a source-pinned collision audit. Fixed-point and
+information-preserving algebras, hybrid classical/quantum operator codes,
+complementary-channel structure, decoherence, character orthogonality, and
+no-broadcasting make the finite abelian theorem components **KNOWN** or direct
+**SPECIALIZATIONS**. Its useful new program result is the explicit separation
+  between a selected fixed center and coherently accessible
+  complementary-environment evidence. General channels, approximate
+  robustness, locality, physical
+instrument selection, and public objectivity remain search-incomplete.
+
 The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`, the physical
 formation/transfer portion of `HC-DU-036B`, and `HC-DU-037..040` retain only
 an initial collision-class inventory. Process tensors/combs, resource
@@ -420,7 +449,28 @@ interface and cadence selection, equivariant/noncommutative algebras,
 structured-process congruences, noisy/disturbing access, provenance, and
 physical realization remain open.
 
-The same wave proved a useful ordering control:
+**Executed scoped sub-result — `HC-DU-033B`.** For a finite abelian
+random-unitary channel with a frozen branch environment, the fixed algebra is
+the commutant of the positive-weight support and its center is the canonical
+classical sector algebra. The complementary environment supplies an
+independent formation certificate. Under a uniform full-group twirl it
+supports exact Walsh decoding of character sectors while remaining
+insensitive to quantum multiplicity state inside each sector. Branch-basis
+dephasing erases the sector distinction. Deterministic-unitary, biased-weight,
+degeneracy, coordinate-naturality, environment-gauge, access-algebra, and
+noncommuting perturbation controls are in
+`explorations/central-record-interface-selection-theorem-and-no-go-2026-07-24.md`.
+The broad mathematics is known. The result closes one exact interface class
+and proves that fixed-center selection is not by itself record formation.
+Exact selection is discontinuously fragile to noncommuting perturbations;
+a matched Pauli control further proves that fixed-algebra type plus one
+finite-time stability score does not determine environment formation. Its
+constructive family fills the entire unit formation interval at every fixed
+\(0<s<1\). Nontrivial bounds under independently justified physical
+conditions, physical channel derivation, locality, cadence, observer access,
+and public finality remain open.
+
+The `HC-DU-033A` wave also proved a useful ordering control:
 
 ```text
 pool raw/equivariant fragments, then harden
@@ -765,7 +815,9 @@ Only after the preceding dependencies:
         |
 1a. HC-DU-033A finite classical selection/access quotient [COMPLETED]
         |
-1b. HC-DU-033 physical formation, interface and structured-channel selection [OPEN]
+1b. HC-DU-033B finite abelian central-record interface [COMPLETED SCOPED]
+        |
+1c. HC-DU-033 physical conditions that shrink the Pauli stability--formation rectangle [OPEN]
         |
 2. HC-DU-034 multi-time certification
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
@@ -778,7 +830,7 @@ Only after the preceding dependencies:
         |
 3b. HC-DU-036B finite history-certificate compiler [COMPLETED PILOT]
     HC-DU-036B stochastic matrix/protocol transfer [COMPLETED SCOPED PILOT]
-    HC-DU-033/034B physical interface selection, proper-time implementation
+    HC-DU-033/034B robust physical interface selection, proper-time implementation
     and implementation-complete calibrated null [OPEN]
         |
 4. HC-DU-037 capability, optionality, and resource results
@@ -1023,9 +1075,15 @@ queue.
    remainder certificates, followed by physical quantum/distributed transfer.
    The finite stochastic compiler and first matrix/protocol transfer exist;
    every current witness was absorbed by formed syndrome and route
-   provenance. The next paper-grade advance must select the physical
-   interface or execute an implementation-complete proper-time instrument,
-   rather than add another hand-built fixture.
+   provenance. One exact abelian interface class now separates central
+   stability from environment formation, but its mathematics is occupied and
+   its exact center is perturbatively brittle. A matched Pauli counterexample
+   also separates finite-time stability from formation, and a constructive
+   family fills the entire formation interval at fixed stability. The next
+   paper-grade advance must derive a nontrivial bound from independently
+   justified physical constraints or
+   execute an implementation-complete proper-time instrument, rather than add
+   another hand-built fixture.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
    The next concentrated paper-closing route after two novelty gates narrowed:
    a claim-specific collision review, uniform asymptotic theorem, and tight
@@ -1085,17 +1143,23 @@ CENTRAL CONJECTURE OPEN
 NO ONTOLOGY SELECTED
 EXACT FINITE RECORD/ARCHIVE RESULTS RETAINED
 HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT
+HC-DU-033B FINITE ABELIAN CENTRAL-RECORD INTERFACE EXACT AS A KNOWN SPECIALIZATION
+FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
+BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
+QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS
+MATCHED FINITE-TIME STABILITY DOES NOT DETERMINE ENVIRONMENT FORMATION
+FULL QUBIT PAULI STABILITY--FORMATION RECTANGLE CONSTRUCTED
 HC-DU-035A LAYERED THRESHOLD SEPARATION AND CONTROLS EXACT
 HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
 HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
 NO SIZE-FREE FINITE SUFFICIENCY HORIZON
 SEPARATING WITNESS MEANS CANDIDATE-RECORD INSUFFICIENCY, NOT AUTOMATIC ONTOLOGY
-PHYSICAL RECORD FORMATION AND INTERFACE SELECTION OPEN
+ROBUST APPROXIMATE AND INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
 PHYSICAL / NOISY / QUANTUM / ADVERSARIAL INTERVENTIONAL SUFFICIENCY OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN
-HC-DU-033A/035A/036A COMPONENT MATHEMATICS KNOWN
+HC-DU-033A/033B/035A/036A COMPONENT MATHEMATICS KNOWN
 STATIC QUANTUM/BFT CONJUNCTION COLLIDES
 PHYSICAL RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
 ```

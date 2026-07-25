@@ -1,0 +1,1415 @@
+{
+  "approximate_pauli_separation": {
+    "environment_distance_squared_range": [
+      "0",
+      "3/4",
+      "1"
+    ],
+    "interpretation": "fixed-algebra and finite-time Z-stability receipts do not determine complementary-environment formation",
+    "matched_contract": "same scalar exact fixed algebra, one-use Z signal, four-use Z signal, and system Z-readout error",
+    "matched_horizon_z_trace_distance": "81/256",
+    "matched_one_step_z_trace_distance": "3/4",
+    "models": {
+      "exact_environment_record": {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "7/16",
+            "1/16",
+            "1/16",
+            "7/16"
+          ],
+          [
+            "7/16",
+            "1/16",
+            "1/16",
+            "7/16"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "EXACT_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "1",
+        "fixed_algebra_dimension": 1,
+        "horizon": 4,
+        "horizon_system_helstrom_error": "175/512",
+        "horizon_z_trace_distance": "81/256",
+        "model_id": "exact_environment_record",
+        "one_step_system_helstrom_error": "1/8",
+        "one_step_z_trace_distance": "3/4",
+        "pauli_eigenvalues_x_y_z": [
+          "0",
+          "0",
+          "3/4"
+        ],
+        "weights_i_x_y_z": [
+          "7/16",
+          "1/16",
+          "1/16",
+          "7/16"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      "no_environment_record": {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "0",
+            "1/8",
+            "0",
+            "7/8"
+          ],
+          [
+            "0",
+            "1/8",
+            "0",
+            "7/8"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "NO_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "0",
+        "fixed_algebra_dimension": 1,
+        "horizon": 4,
+        "horizon_system_helstrom_error": "175/512",
+        "horizon_z_trace_distance": "81/256",
+        "model_id": "no_environment_record",
+        "one_step_system_helstrom_error": "1/8",
+        "one_step_z_trace_distance": "3/4",
+        "pauli_eigenvalues_x_y_z": [
+          "-3/4",
+          "-1",
+          "3/4"
+        ],
+        "weights_i_x_y_z": [
+          "0",
+          "1/8",
+          "0",
+          "7/8"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      "partial_environment_record": {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "3/8",
+            "1/8",
+            "0",
+            "1/2"
+          ],
+          [
+            "3/8",
+            "1/8",
+            "0",
+            "1/2"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "PARTIAL_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "3/4",
+        "fixed_algebra_dimension": 1,
+        "horizon": 4,
+        "horizon_system_helstrom_error": "175/512",
+        "horizon_z_trace_distance": "81/256",
+        "model_id": "partial_environment_record",
+        "one_step_system_helstrom_error": "1/8",
+        "one_step_z_trace_distance": "3/4",
+        "pauli_eigenvalues_x_y_z": [
+          "0",
+          "-1/4",
+          "3/4"
+        ],
+        "weights_i_x_y_z": [
+          "3/8",
+          "1/8",
+          "0",
+          "1/2"
+        ],
+        "z_is_exactly_fixed": false
+      }
+    }
+  },
+  "check_count": 33,
+  "checks": {
+    "approximate_pauli_environment_records_separate": true,
+    "approximate_pauli_fixed_algebra_matched": true,
+    "approximate_pauli_horizon_signal_matched": true,
+    "approximate_pauli_z_signal_matched": true,
+    "approximate_stability_does_not_imply_formation": true,
+    "biased_z2_same_center_partial_record": true,
+    "block_rotation_commutes_with_dynamics": true,
+    "block_rotation_moves_internal_basis": true,
+    "block_rotation_preserves_center": true,
+    "branch_dephasing_erases_abelian_sector_label": true,
+    "character_orthogonality_exact": true,
+    "coherent_access_not_branch_population_access": true,
+    "collective_parity_records_center_only": true,
+    "conjugated_projector_is_fixed": true,
+    "coordinate_rotation_is_exact": true,
+    "deterministic_unitary_forms_no_environment_record": true,
+    "environment_branch_gauge_preserves_gram": true,
+    "fixed_dimension_is_coordinate_natural": true,
+    "formation_does_not_imply_exact_fixedness": true,
+    "formula_matches_commutant_all_models": true,
+    "formula_matches_fixed_space_all_models": true,
+    "four_fragments_cross_ninety_nine_percent": true,
+    "fragment_complementarity_exact": true,
+    "identity_has_no_nontrivial_center": true,
+    "noncommuting_perturbation_destroys_exact_center": true,
+    "pauli_branch_dephasing_erases_environment_evidence": true,
+    "pauli_rectangle_axes_independent_on_grid": true,
+    "pauli_rectangle_fixed_algebra_scalar": true,
+    "pauli_rectangle_formation_coordinate_exact": true,
+    "pauli_rectangle_stability_coordinate_exact": true,
+    "uniform_z2_selects_exact_bit": true,
+    "walsh_decoder_recovers_sector_label": true,
+    "z2_squared_records_four_sectors": true
+  },
+  "claim_grade": "EXACT FINITE RANDOM-UNITARY SPECIALIZATION AND MATCHED PAULI CONTROL / NO NOVEL-PHYSICS PROMOTION",
+  "coherent_environment_access": {
+    "branch_population_kernel_after_dephasing": [
+      [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ]
+    ],
+    "coherent_environment_trace_distance_squared": [
+      [
+        "0",
+        "1",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "0",
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "1",
+        "1",
+        "0"
+      ]
+    ],
+    "declared_coherent_decoder": "normalized Walsh character transform",
+    "decoded_label_kernel": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "dephased_environment_trace_distance_squared": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "group": "Z2^2",
+    "interpretation": "the exact sector code is readable with coherent environment access; branch-basis dephasing erases it before decoding"
+  },
+  "coordinate_naturality": {
+    "conjugated_fixed_dimension": 2,
+    "conjugated_projector": [
+      [
+        "9/25",
+        "-12/25"
+      ],
+      [
+        "-12/25",
+        "16/25"
+      ]
+    ],
+    "conjugated_projector_fixed_error": "0",
+    "original_fixed_dimension": 2,
+    "rotation_orthogonality_error": "0"
+  },
+  "degeneracy_nonselection": {
+    "block_rotation_commutator_error": "0",
+    "central_projector_rotation_error": "0",
+    "internal_projector_after": [
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "internal_projector_before": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "internal_rank_one_moves": true
+  },
+  "does_not_establish": [
+    "a derived physical channel",
+    "a selected system/environment cut",
+    "natural or dephasing-robust coherent environment access",
+    "an observer or public finality",
+    "proper time or geometry",
+    "robust approximate selection",
+    "record-first ontology",
+    "a new theorem component or physical law"
+  ],
+  "environment_gauge": {
+    "branch_permutation": [
+      3,
+      2,
+      1,
+      0
+    ],
+    "gram_matrix_invariant": true,
+    "original_gram_matrix": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "permuted_gram_matrix": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "failure_count": 0,
+  "failures": [],
+  "models": {
+    "biased_z2": {
+      "center_dimension": 2,
+      "character_labels": [
+        0,
+        1
+      ],
+      "commutant_dimension_exact": 2,
+      "environment_overlap_matrix": [
+        [
+          "1",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "environment_trace_distance_squared": [
+        [
+          "0",
+          "3/4"
+        ],
+        [
+          "3/4",
+          "0"
+        ]
+      ],
+      "fixed_algebra_dimension_formula": 2,
+      "fixed_space_dimension_exact": 2,
+      "formation_grade": "PARTIAL_CENTER_RECORD",
+      "fully_classical": true,
+      "group": "Z2^1",
+      "model_id": "biased_z2",
+      "positive_support": [
+        0,
+        1
+      ],
+      "sector_blocks": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "sector_multiplicities": [
+        1,
+        1
+      ],
+      "support_signatures": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "weights": [
+        "3/4",
+        "1/4"
+      ]
+    },
+    "collective_parity": {
+      "center_dimension": 2,
+      "character_labels": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "commutant_dimension_exact": 8,
+      "environment_overlap_matrix": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "environment_trace_distance_squared": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "fixed_algebra_dimension_formula": 8,
+      "fixed_space_dimension_exact": 8,
+      "formation_grade": "EXACT_CENTER_RECORD",
+      "fully_classical": false,
+      "group": "Z2^1",
+      "model_id": "collective_parity",
+      "positive_support": [
+        0,
+        1
+      ],
+      "sector_blocks": [
+        [
+          0,
+          1
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "sector_multiplicities": [
+        2,
+        2
+      ],
+      "support_signatures": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "weights": [
+        "1/2",
+        "1/2"
+      ]
+    },
+    "deterministic_z": {
+      "center_dimension": 2,
+      "character_labels": [
+        0,
+        1
+      ],
+      "commutant_dimension_exact": 2,
+      "environment_overlap_matrix": [
+        [
+          "1",
+          "-1"
+        ],
+        [
+          "-1",
+          "1"
+        ]
+      ],
+      "environment_trace_distance_squared": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "fixed_algebra_dimension_formula": 2,
+      "fixed_space_dimension_exact": 2,
+      "formation_grade": "NO_ENVIRONMENT_RECORD",
+      "fully_classical": true,
+      "group": "Z2^1",
+      "model_id": "deterministic_z",
+      "positive_support": [
+        1
+      ],
+      "sector_blocks": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "sector_multiplicities": [
+        1,
+        1
+      ],
+      "support_signatures": [
+        [
+          1
+        ],
+        [
+          -1
+        ]
+      ],
+      "weights": [
+        "0",
+        "1"
+      ]
+    },
+    "identity": {
+      "center_dimension": 1,
+      "character_labels": [
+        0,
+        1
+      ],
+      "commutant_dimension_exact": 4,
+      "environment_overlap_matrix": [
+        [
+          "1"
+        ]
+      ],
+      "environment_trace_distance_squared": [
+        [
+          "0"
+        ]
+      ],
+      "fixed_algebra_dimension_formula": 4,
+      "fixed_space_dimension_exact": 4,
+      "formation_grade": "NO_NONTRIVIAL_CLASSICAL_CENTER",
+      "fully_classical": false,
+      "group": "Z2^1",
+      "model_id": "identity",
+      "positive_support": [
+        0
+      ],
+      "sector_blocks": [
+        [
+          0,
+          1
+        ]
+      ],
+      "sector_multiplicities": [
+        2
+      ],
+      "support_signatures": [
+        [
+          1
+        ],
+        [
+          1
+        ]
+      ],
+      "weights": [
+        "1",
+        "0"
+      ]
+    },
+    "uniform_z2": {
+      "center_dimension": 2,
+      "character_labels": [
+        0,
+        1
+      ],
+      "commutant_dimension_exact": 2,
+      "environment_overlap_matrix": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "environment_trace_distance_squared": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "fixed_algebra_dimension_formula": 2,
+      "fixed_space_dimension_exact": 2,
+      "formation_grade": "EXACT_CENTER_RECORD",
+      "fully_classical": true,
+      "group": "Z2^1",
+      "model_id": "uniform_z2",
+      "positive_support": [
+        0,
+        1
+      ],
+      "sector_blocks": [
+        [
+          0
+        ],
+        [
+          1
+        ]
+      ],
+      "sector_multiplicities": [
+        1,
+        1
+      ],
+      "support_signatures": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          -1
+        ]
+      ],
+      "weights": [
+        "1/2",
+        "1/2"
+      ]
+    },
+    "uniform_z2_squared": {
+      "center_dimension": 4,
+      "character_labels": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "commutant_dimension_exact": 4,
+      "environment_overlap_matrix": [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "environment_trace_distance_squared": [
+        [
+          "0",
+          "1",
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "1",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1",
+          "1",
+          "0"
+        ]
+      ],
+      "fixed_algebra_dimension_formula": 4,
+      "fixed_space_dimension_exact": 4,
+      "formation_grade": "EXACT_CENTER_RECORD",
+      "fully_classical": true,
+      "group": "Z2^2",
+      "model_id": "uniform_z2_squared",
+      "positive_support": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "sector_blocks": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ]
+      ],
+      "sector_multiplicities": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "support_signatures": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          -1,
+          1,
+          -1
+        ],
+        [
+          1,
+          1,
+          -1,
+          -1
+        ],
+        [
+          1,
+          -1,
+          -1,
+          1
+        ]
+      ],
+      "weights": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ]
+    }
+  },
+  "noncommuting_perturbation": {
+    "epsilon": "1/1000",
+    "exact_center_destroyed": true,
+    "perturbed_commutant_dimension": 1,
+    "perturbed_fixed_dimension": 1,
+    "unperturbed_commutant_dimension": 2,
+    "unperturbed_fixed_dimension": 2
+  },
+  "pauli_stability_formation_rectangle": {
+    "analytic_result": "lambda_Z=s and D_E^2=4r(1-r), so for every 0<s<1 the attainable D_E interval is [0,1]",
+    "constructive_family": "a=(1+s)/2, b=(1-s)/2; (wI,wX,wY,wZ)=(ar,br,b(1-r),a(1-r))",
+    "rows": [
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "0",
+            "0",
+            "3/8",
+            "5/8"
+          ],
+          [
+            "0",
+            "0",
+            "3/8",
+            "5/8"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "NO_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "0",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "63/128",
+        "horizon_z_trace_distance": "1/64",
+        "model_id": "rectangle_s_1_4_r_0_1",
+        "one_step_system_helstrom_error": "3/8",
+        "one_step_z_trace_distance": "1/4",
+        "pauli_eigenvalues_x_y_z": [
+          "-1",
+          "-1/4",
+          "1/4"
+        ],
+        "split_parameter": "0",
+        "target_environment_distance_squared": "0",
+        "target_stability": "1/4",
+        "weights_i_x_y_z": [
+          "0",
+          "0",
+          "3/8",
+          "5/8"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "1/16",
+            "3/80",
+            "27/80",
+            "9/16"
+          ],
+          [
+            "1/16",
+            "3/80",
+            "27/80",
+            "9/16"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "PARTIAL_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "9/25",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "63/128",
+        "horizon_z_trace_distance": "1/64",
+        "model_id": "rectangle_s_1_4_r_1_10",
+        "one_step_system_helstrom_error": "3/8",
+        "one_step_z_trace_distance": "1/4",
+        "pauli_eigenvalues_x_y_z": [
+          "-4/5",
+          "-1/5",
+          "1/4"
+        ],
+        "split_parameter": "1/10",
+        "target_environment_distance_squared": "9/25",
+        "target_stability": "1/4",
+        "weights_i_x_y_z": [
+          "1/16",
+          "3/80",
+          "27/80",
+          "9/16"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "5/32",
+            "3/32",
+            "9/32",
+            "15/32"
+          ],
+          [
+            "5/32",
+            "3/32",
+            "9/32",
+            "15/32"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "PARTIAL_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "3/4",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "63/128",
+        "horizon_z_trace_distance": "1/64",
+        "model_id": "rectangle_s_1_4_r_1_4",
+        "one_step_system_helstrom_error": "3/8",
+        "one_step_z_trace_distance": "1/4",
+        "pauli_eigenvalues_x_y_z": [
+          "-1/2",
+          "-1/8",
+          "1/4"
+        ],
+        "split_parameter": "1/4",
+        "target_environment_distance_squared": "3/4",
+        "target_stability": "1/4",
+        "weights_i_x_y_z": [
+          "5/32",
+          "3/32",
+          "9/32",
+          "15/32"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "5/16",
+            "3/16",
+            "3/16",
+            "5/16"
+          ],
+          [
+            "5/16",
+            "3/16",
+            "3/16",
+            "5/16"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "EXACT_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "1",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "63/128",
+        "horizon_z_trace_distance": "1/64",
+        "model_id": "rectangle_s_1_4_r_1_2",
+        "one_step_system_helstrom_error": "3/8",
+        "one_step_z_trace_distance": "1/4",
+        "pauli_eigenvalues_x_y_z": [
+          "0",
+          "0",
+          "1/4"
+        ],
+        "split_parameter": "1/2",
+        "target_environment_distance_squared": "1",
+        "target_stability": "1/4",
+        "weights_i_x_y_z": [
+          "5/16",
+          "3/16",
+          "3/16",
+          "5/16"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "0",
+            "0",
+            "1/4",
+            "3/4"
+          ],
+          [
+            "0",
+            "0",
+            "1/4",
+            "3/4"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "NO_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "0",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "7/16",
+        "horizon_z_trace_distance": "1/8",
+        "model_id": "rectangle_s_1_2_r_0_1",
+        "one_step_system_helstrom_error": "1/4",
+        "one_step_z_trace_distance": "1/2",
+        "pauli_eigenvalues_x_y_z": [
+          "-1",
+          "-1/2",
+          "1/2"
+        ],
+        "split_parameter": "0",
+        "target_environment_distance_squared": "0",
+        "target_stability": "1/2",
+        "weights_i_x_y_z": [
+          "0",
+          "0",
+          "1/4",
+          "3/4"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "3/40",
+            "1/40",
+            "9/40",
+            "27/40"
+          ],
+          [
+            "3/40",
+            "1/40",
+            "9/40",
+            "27/40"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "PARTIAL_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "9/25",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "7/16",
+        "horizon_z_trace_distance": "1/8",
+        "model_id": "rectangle_s_1_2_r_1_10",
+        "one_step_system_helstrom_error": "1/4",
+        "one_step_z_trace_distance": "1/2",
+        "pauli_eigenvalues_x_y_z": [
+          "-4/5",
+          "-2/5",
+          "1/2"
+        ],
+        "split_parameter": "1/10",
+        "target_environment_distance_squared": "9/25",
+        "target_stability": "1/2",
+        "weights_i_x_y_z": [
+          "3/40",
+          "1/40",
+          "9/40",
+          "27/40"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "3/16",
+            "1/16",
+            "3/16",
+            "9/16"
+          ],
+          [
+            "3/16",
+            "1/16",
+            "3/16",
+            "9/16"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "PARTIAL_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "3/4",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "7/16",
+        "horizon_z_trace_distance": "1/8",
+        "model_id": "rectangle_s_1_2_r_1_4",
+        "one_step_system_helstrom_error": "1/4",
+        "one_step_z_trace_distance": "1/2",
+        "pauli_eigenvalues_x_y_z": [
+          "-1/2",
+          "-1/4",
+          "1/2"
+        ],
+        "split_parameter": "1/4",
+        "target_environment_distance_squared": "3/4",
+        "target_stability": "1/2",
+        "weights_i_x_y_z": [
+          "3/16",
+          "1/16",
+          "3/16",
+          "9/16"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "3/8",
+            "1/8",
+            "1/8",
+            "3/8"
+          ],
+          [
+            "3/8",
+            "1/8",
+            "1/8",
+            "3/8"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "EXACT_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "1",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "7/16",
+        "horizon_z_trace_distance": "1/8",
+        "model_id": "rectangle_s_1_2_r_1_2",
+        "one_step_system_helstrom_error": "1/4",
+        "one_step_z_trace_distance": "1/2",
+        "pauli_eigenvalues_x_y_z": [
+          "0",
+          "0",
+          "1/2"
+        ],
+        "split_parameter": "1/2",
+        "target_environment_distance_squared": "1",
+        "target_stability": "1/2",
+        "weights_i_x_y_z": [
+          "3/8",
+          "1/8",
+          "1/8",
+          "3/8"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "0",
+            "0",
+            "1/8",
+            "7/8"
+          ],
+          [
+            "0",
+            "0",
+            "1/8",
+            "7/8"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "NO_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "0",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "37/128",
+        "horizon_z_trace_distance": "27/64",
+        "model_id": "rectangle_s_3_4_r_0_1",
+        "one_step_system_helstrom_error": "1/8",
+        "one_step_z_trace_distance": "3/4",
+        "pauli_eigenvalues_x_y_z": [
+          "-1",
+          "-3/4",
+          "3/4"
+        ],
+        "split_parameter": "0",
+        "target_environment_distance_squared": "0",
+        "target_stability": "3/4",
+        "weights_i_x_y_z": [
+          "0",
+          "0",
+          "1/8",
+          "7/8"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "7/80",
+            "1/80",
+            "9/80",
+            "63/80"
+          ],
+          [
+            "7/80",
+            "1/80",
+            "9/80",
+            "63/80"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "PARTIAL_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "9/25",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "37/128",
+        "horizon_z_trace_distance": "27/64",
+        "model_id": "rectangle_s_3_4_r_1_10",
+        "one_step_system_helstrom_error": "1/8",
+        "one_step_z_trace_distance": "3/4",
+        "pauli_eigenvalues_x_y_z": [
+          "-4/5",
+          "-3/5",
+          "3/4"
+        ],
+        "split_parameter": "1/10",
+        "target_environment_distance_squared": "9/25",
+        "target_stability": "3/4",
+        "weights_i_x_y_z": [
+          "7/80",
+          "1/80",
+          "9/80",
+          "63/80"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "7/32",
+            "1/32",
+            "3/32",
+            "21/32"
+          ],
+          [
+            "7/32",
+            "1/32",
+            "3/32",
+            "21/32"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "PARTIAL_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "3/4",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "37/128",
+        "horizon_z_trace_distance": "27/64",
+        "model_id": "rectangle_s_3_4_r_1_4",
+        "one_step_system_helstrom_error": "1/8",
+        "one_step_z_trace_distance": "3/4",
+        "pauli_eigenvalues_x_y_z": [
+          "-1/2",
+          "-3/8",
+          "3/4"
+        ],
+        "split_parameter": "1/4",
+        "target_environment_distance_squared": "3/4",
+        "target_stability": "3/4",
+        "weights_i_x_y_z": [
+          "7/32",
+          "1/32",
+          "3/32",
+          "21/32"
+        ],
+        "z_is_exactly_fixed": false
+      },
+      {
+        "branch_dephased_environment_trace_distance_squared": "0",
+        "branch_population_kernel_z_inputs": [
+          [
+            "7/16",
+            "1/16",
+            "1/16",
+            "7/16"
+          ],
+          [
+            "7/16",
+            "1/16",
+            "1/16",
+            "7/16"
+          ]
+        ],
+        "environment_distance_formula": "D_E=2*(sqrt(wI*wZ)+sqrt(wX*wY))",
+        "environment_formation_grade": "EXACT_Z_INPUT_RECORD",
+        "environment_z_trace_distance_squared": "1",
+        "fixed_algebra_dimension": 1,
+        "horizon": 3,
+        "horizon_system_helstrom_error": "37/128",
+        "horizon_z_trace_distance": "27/64",
+        "model_id": "rectangle_s_3_4_r_1_2",
+        "one_step_system_helstrom_error": "1/8",
+        "one_step_z_trace_distance": "3/4",
+        "pauli_eigenvalues_x_y_z": [
+          "0",
+          "0",
+          "3/4"
+        ],
+        "split_parameter": "1/2",
+        "target_environment_distance_squared": "1",
+        "target_stability": "3/4",
+        "weights_i_x_y_z": [
+          "7/16",
+          "1/16",
+          "1/16",
+          "7/16"
+        ],
+        "z_is_exactly_fixed": false
+      }
+    ],
+    "split_values": [
+      "0",
+      "1/10",
+      "1/4",
+      "1/2"
+    ],
+    "stability_values": [
+      "1/4",
+      "1/2",
+      "3/4"
+    ]
+  },
+  "probe": "du_central_record_interface_selection_probe",
+  "repeated_fragments": {
+    "achieved_trace_distance_squared": "255/256",
+    "complementarity_identity_error": "0",
+    "minimum_independent_fragments": 4,
+    "previous_trace_distance_squared": "63/64",
+    "single_fragment_overlap": "1/2",
+    "target_trace_distance_squared": "99/100"
+  },
+  "schema_version": "1.0",
+  "theorem_scope": "finite Z2^k central-record theorem plus matched qubit Pauli finite-time controls with explicit branch environments",
+  "uniform_character_orthogonality": {
+    "character_pairs_checked": 84,
+    "maximum_orthogonality_error": "0",
+    "ranks_checked": [
+      1,
+      2,
+      3
+    ]
+  },
+  "verdict": "CENTRAL_RECORD_INTERFACE_AND_PAULI_RECTANGLE_PASS"
+}

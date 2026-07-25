@@ -116,6 +116,29 @@ not establish proper time, laboratory feasibility, physical interface
 selection, cryptographic or BFT security, exhaustive admissibility, an
 irreducible physical remainder, or a new law.
 
+`du_central_record_interface_selection_probe.py` attacks the exogenous record
+interface directly in one exact finite class. For \(\mathbb Z_2^k\)
+random-unitary channels it computes the fixed algebra, its canonical classical
+center, and the complementary environment's sector Gram matrix using exact
+rational arithmetic. Uniform full-group twirls carry orthogonal
+character-sector codes under coherent branch access; an exact Walsh decoder
+reads them, while branch-basis dephasing erases them. Deterministic and biased
+controls prove that the same fixed center can carry no or only partial
+environmental evidence; a degenerate parity fixture exposes only the center
+while preserving quantum multiplicity state. Coordinate, environment-gauge,
+internal-block-rotation, access-algebra, and noncommuting-noise controls pass.
+A matched Pauli-channel extension then holds the scalar exact
+fixed algebra and finite-time \(Z\)-signal constant while environment-record
+quality spans none, partial, and exact. A constructive grid checks the stronger
+rectangle result: at fixed \(0<s<1\), environment distinguishability can span
+the full unit interval while the system signal remains \(s^n\).
+
+It passes `33/33` checks. The result is a known-mathematics finite
+specialization and a DU dependency advance. It does not derive a physical
+channel or system/environment cut, establish a general robust approximate
+theorem, observer access, public finality, proper time, geometry, ontology, or
+a new physical law.
+
 `du_fresh_record_generativity_resource_probe.py` runs the bounded generativity
 hedge. It verifies finite aliasing and the \(2^T\) support requirement for
 exact binary-prefix records, then compares a preloaded realized-path tape, a
