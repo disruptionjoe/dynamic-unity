@@ -678,6 +678,333 @@ resolution-stable intervention role. No claim is banked or seeded. See
   `CONCEPT-DU-002` and `CONCEPT-DU-003` remain major inputs; their grades do
   not change.
 
+## CONCEPT-DU-005 — record-relative actuality and completion-class refinement
+
+- **Concept (articulation-invariant).** Relative to a declared record-bearing
+  agent \(A\), an inaccessible region may be physically represented by the
+  class \(\Omega_A\) of process histories compatible with \(A\)'s certified
+  records, rather than by one assumed completed biography. A proposition is
+  actual for \(A\) when it is invariant across \(\Omega_A\). A physical
+  interaction may refine that class and form a new shared fact; it need not be
+  interpreted as merely revealing which globally completed biography was
+  always selected.
+- **Concept INVARIANT.**
+  1. No agent is privileged. Every record network receives the same object,
+     access, intervention, adversary and resource typing.
+  2. \(\Omega_A\) is a nonempty class generated from independently fixed
+     records and a declared process/rival class; it is not fitted from the
+     proposition whose actuality is being tested. An empty class means the
+     comparison contract is inconsistent, not that every proposition is
+     actual.
+  3. Actuality means invariance across the admissible class, not confidence,
+     redundancy, ignorance or terminal-state equality.
+  4. Refinement is implemented by a physical instrument or channel with
+     retained provenance and charged resources.
+  5. Binding, certification and disclosure may separate: a region can
+     constrain later admissible openings without one detailed value being
+     accessible to \(A\).
+  6. The concept earns physical content only through an interference,
+     reversibility, response, capability or resource difference. A
+     reinterpretation of an unchanged conditional state is not a new law.
+- **Formalization FAMILY.**
+  1. finite completion sets and record-partition refinements;
+  2. process-tensor or quantum-comb equivalence classes conditioned on
+     certified instruments;
+  3. sheaf sections and global-section obstructions over record covers;
+  4. algebraic actuality subalgebras relative to a record network;
+  5. predictive causal states, observability quotients and minimal sufficient
+     process statistics;
+  6. quantum-error-correction syndrome classes and logical observables;
+  7. binding physical commitments and zero-knowledge certification layers;
+  8. relational event individuation within a certified causal past; and
+  9. local-actuality models whose class refinements can be compared under
+     nested-observer interventions.
+- **Controls and global kill conditions.**
+  - If the completion class is defined by every target response, the concept
+    collapses into the sufficiency tautology already forbidden by
+    `CONCEPT-DU-004`.
+  - If every proposed refinement is exactly ordinary Bayesian conditioning or
+    standard process-state update and supplies no additional invariant,
+    physical prediction or resource relation, that formalization is a known
+    reinterpretation.
+  - The strong “new shared fact” version fails if every admissible merger is
+    operationally equivalent to revealing one pre-existing global history,
+    independently of merger order and topology.
+  - Two systems with the same complete admitted process state, record history
+    and controls but different response statistics would require an explicit
+    additional state variable; rhetoric about actuality cannot supply it.
+- **Nearest terrain.** Relational quantum mechanics and cross-perspective
+  links, quantum reference frames, sheaf contextuality, predictive-state
+  representations, process tensors, quantum commitments and record
+  sufficiency are known components. The open DU question is whether a
+  target-independent physical refinement law yields a discriminator beyond
+  those representations.
+- **Status:** **CONCEPT-OPEN / COMPLETION-CLASS REPRESENTATIONS KNOWN /
+  PHYSICAL SHARED-FACT REFINEMENT LAW OPEN / NO ONTOLOGY SELECTED.** No claim
+  is banked or seeded. See
+  `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
+## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
+
+- **Concept (articulation-invariant).** Fully real record perspectives may be
+  joined by physical reconciliation maps. Pairwise consistent maps need not
+  form one globally flat comparison structure: composing
+  \(A\rightarrow B\rightarrow C\rightarrow A\) may leave a measurable,
+  gauge-invariant loop residue or irreducible reconciliation cost.
+  “Creating a joint past” means forming a new compatible joint record section
+  under such a map; it does not by itself mean retroactively changing an
+  already accessible event.
+- **Concept INVARIANT.**
+  1. Each perspective, record object and reconciliation map is physically
+     typed; no hidden external observer supplies the preferred comparison.
+  2. Local reduced processes, pairwise record overlaps and declared endpoint
+     facts can be held fixed while path or merger order changes.
+  3. A nontrivial result survives ordinary dynamical phase, Berry/Pancharatnam
+     or non-Abelian geometric phase, reference-frame gauge, communication
+     order, memory, control error and decoherence nulls.
+  4. The loop residue changes an admitted joint outcome, capability or minimum
+     resource cost. Coordinate disagreement alone is not curvature.
+  5. A common global section or serialization is the flat special case, not an
+     assumed universal biography.
+- **Formalization FAMILY.**
+  1. loops of quantum-reference-frame transformations;
+  2. noncommuting record-instrument mergers with matched endpoint channels;
+  3. sheaf or Čech cocycles and cohomological gluing obstructions;
+  4. categories, groupoids or pseudofunctors of record perspectives;
+  5. authenticated DAG/database histories with pairwise consistency but
+     global non-serializability;
+  6. quantum-CRDT controls separating commutative classical joins from
+     coherent order dependence;
+  7. three-agent Wigner-friend or coherent-history reconciliation networks;
+     and
+  8. resource-valued holonomy when outcomes are flat but reconciliation cost
+     is path-dependent.
+- **Controls and global kill conditions.**
+  - A phase generated by the known physical gates, ordinary geometric
+    holonomy or different elapsed dynamics is not perspectival curvature.
+  - An order effect that disappears when the complete process tensor and
+    memory are matched kills that formalization.
+  - If every physically admissible loop is gauge-equivalent to the identity
+    and has no capability or cost residue, the invariant is falsified in that
+    process class.
+  - A sheaf obstruction without a physical record cover, reconciliation map
+    or operational consequence is mathematics-by-analogy only.
+- **Nearest terrain.** Quantum reference frames, geometric and holonomic
+  phases, contextuality/global-section obstruction, noncommuting quantum
+  instruments, distributed serializability and process tensors are mature
+  controls. A distinct record-perspective holonomy has not been established.
+- **Status:** **CONCEPT-OPEN / HIGH-NOVELTY PHYSICAL CONJUNCTION /
+  ORDINARY ORDER, PHASE AND GAUGE NULLS LIVE / PERSPECTIVAL HOLONOMY
+  UNOBSERVED.** No claim is banked or seeded. See
+  `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
+## CONCEPT-DU-007 — informational distance and reality bandwidth
+
+- **Concept (articulation-invariant).** In addition to spatial separation,
+  two record perspectives can have an operational informational distance
+  determined by the rate, fidelity and granularity with which mutually
+  discriminable facts can be certified between them. A distant high-capacity
+  pair may be informationally nearer than adjacent isolated systems without
+  violating relativistic propagation.
+- **Concept INVARIANT.**
+  1. Distance is defined by an explicit certification or action task over a
+     frozen channel, tester, adversary and resource class.
+  2. The quantity may be directed, time-dependent and fact-dependent; metric
+     axioms are earned rather than assumed.
+  3. Spatial causal structure constrains the available channels. The concept
+     permits no superluminal signalling and does not identify information
+     distance with spacetime distance.
+  4. Energy, noise, latency, memory, authentication, coherence and classical
+     side channels are controlled rather than hidden inside “closeness.”
+  5. A useful law predicts a common capacity, fidelity or cost relation across
+     spatially and architecturally different networks without refitting the
+     task.
+- **Formalization FAMILY.**
+  1. classical, private, entanglement-assisted and quantum channel capacities;
+  2. one-shot channel distinguishability and hypothesis-testing rates;
+  3. rate-distortion frontiers for certified event resolution;
+  4. shared-causal-diamond influence or communication capacity;
+  5. modular-spectrum or relative-state distinguishability candidates;
+  6. joint observability Gramians and controlled-invariant access;
+  7. causal transportability and identifiability distance;
+  8. predictive-state crypticity and reconciliation communication complexity;
+     and
+  9. authenticated DAG/database fact-establishment bandwidth.
+- **Controls and global kill conditions.**
+  - A chosen channel divergence is not automatically a physical geometry.
+  - If no task-stable quotient survives changes of coding, units, protocol or
+    representation, scalar informational distance is nonidentified.
+  - Violating data processing or no-signalling without an explicitly changed
+    resource class kills the formalization.
+  - If ordinary channel capacity and full resource accounting explain every
+    proposed collapse relation, the physical-law novelty fails even though
+    the operational metric remains useful.
+- **Nearest terrain.** Channel capacity, rate distortion, operational
+  distinguishability, observability, modular theory, causal transportability
+  and computational mechanics already supply candidate mathematics. Dynamic
+  Unity has not selected one universal measure.
+- **Status:** **CONCEPT-OPEN / STANDARD INFORMATIONAL METRICS KNOWN /
+  TASK-STABLE CROSS-PERSPECTIVE LAW AND PHYSICAL GEOMETRY OPEN.** No claim is
+  banked or seeded. See
+  `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
+## CONCEPT-DU-008 — reconciliation cost and record-formation backreaction
+
+- **Concept (articulation-invariant).** Turning unresolved distinctions into
+  a mutually certified, action-enabling fact may have a minimum physical cost
+  governed by the distinctions resolved and the required formation,
+  adversary and finality contract—not only by spatial distance or raw message
+  length. Informative record formation already backreacts on some coherent
+  alternatives; the open question is whether reconciliation has a residual
+  lower bound after complete ordinary thermodynamic, communication,
+  measurement and memory accounting.
+- **Concept INVARIANT.**
+  1. The unresolved distinction is operationally measured by a frozen
+     completion class, behavioral rank, hypothesis-testing divergence or
+     equivalent response object.
+  2. Compared protocols match message content, endpoint memory, reliability,
+     admitted controls and final capability wherever the hypothesis requires.
+  3. Work, heat, entropy, memory support, latency, authentication, coherence,
+     blank archives and displaced information are all charged.
+  4. The cost belongs to a physical formation/reconciliation protocol, never
+     to the semantic act of declaring a proposition actual.
+  5. A novel law must isolate a residual dependence on certified distinctions
+     beyond existing measurement, Landauer, error-correction, communication,
+     cryptographic and consensus bounds.
+- **Formalization FAMILY.**
+  1. coherent pointer formation and archive export;
+  2. coherent-history reconciliation with both ports retained;
+  3. thermodynamic measurement and erasure protocols;
+  4. distributed-database state reconciliation and authenticated finality;
+  5. zero-knowledge public certification versus witness disclosure;
+  6. history compression and predictive-state refinement;
+  7. coherence- or optionality-consuming public fact formation;
+  8. resource-weighted completion-class contraction; and
+  9. controlled record-backreaction, causal-noise and gravitational candidates
+     only after standard physical sources are matched.
+- **Controls and global kill conditions.**
+  - `HC-DU-031B/C` already establishes coherence backreaction for informative
+    record formation in its fixture; relabeling that known tradeoff as
+    “actualization heat” earns nothing.
+  - If reversible protocols plus complete Landauer, communication, memory and
+    authentication accounting eliminate the proposed residual, that cost law
+    is falsified.
+  - Completion-class cardinality is representation-dependent unless the
+    physical refinement and equivalence class are independently selected.
+  - Record gravity or causal noise does not enter the active family without a
+    covariant conserved source and a signal distinct from ordinary
+    stress-energy, control and decoherence.
+- **Nearest terrain.** Measurement thermodynamics, resource theories,
+  reversible computation, channel distinguishability, communication
+  complexity, cryptography, consensus and the repository's exact recorder
+  backreaction are mandatory controls.
+- **Status:** **CONCEPT-PARTIALLY SUPPORTED BY EXACT RECORD-COHERENCE
+  BACKREACTION / RESIDUAL RECONCILIATION COST OPEN / GRAVITATIONAL AND
+  CAUSAL-NOISE FORMS BELOW ACTIVE FORMALIZATION GRADE.** No claim is banked or
+  seeded. See
+  `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
+## CONCEPT-DU-009 — protected public-fact phases
+
+- **Concept (articulation-invariant).** A private distinction can become a
+  durable public fact when it is encoded into a record structure that admits
+  sufficiently independent, compatible and adversary-robust access. In
+  suitable growing families, that change may exhibit a threshold, percolation
+  front, protected logical phase or hysteretic transition. There is no
+  presumed universal scalar objectivity threshold.
+- **Concept INVARIANT.**
+  1. Private access, common deterministic readability, reconstruction,
+     dissemination, finality, bounded-risk capability and public objectivity
+     remain separately typed.
+  2. A public fact specifies its accessible algebra, provenance, adversary,
+     decoder, error bound and irreversible action semantics.
+  3. A phase or threshold claim declares the scaling family, order parameter,
+     finite-size behavior and universality or nonuniversality class.
+  4. The protected fact remains recoverable under the declared corruption,
+     erasure, partition or local-access failures.
+  5. Different facts and architectures may possess different transitions;
+     smooth finite reliability is a live null.
+- **Formalization FAMILY.**
+  1. Quantum-Darwinist redundancy with independently accessible fragments;
+  2. quantum and classical error-correcting logical record algebras;
+  3. Byzantine quorum intersection, locking and common-knowledge protocols;
+  4. percolation of authenticated environmental or network fragments;
+  5. metastable and hysteretic consensus domains;
+  6. approximately commutative broadcastable quantum record algebras;
+  7. logical facts verified in zero knowledge without disclosing histories;
+  8. provenance-bearing CRDT or DAG facts with convergence and fork controls;
+     and
+  9. cross-platform order parameters shared by quantum and distributed
+     realization families.
+- **Controls and global kill conditions.**
+  - `HC-DU-035A` has already rejected one universal threshold and separated
+    access, reconstruction, finality and capability.
+  - Redundancy, decoherence, majority agreement or one decoding threshold
+    alone does not establish public objectivity.
+  - If finite-size scaling shows only a smooth architecture-specific
+    reliability curve, the proposed phase formalization fails.
+  - A cross-platform law fails if its “same” order parameter changes meaning
+    between a quantum code, environmental record and Byzantine protocol.
+- **Nearest terrain.** Quantum Darwinism, quantum error correction, threshold
+  theorems, percolation, metastable consensus, Byzantine finality, common
+  knowledge and broadcastability are mature components. The physical
+  formation-to-public-fact conjunction remains open.
+- **Status:** **CONCEPT-OPEN / UNIVERSAL SCALAR THRESHOLD REJECTED /
+  PLATFORM-SPECIFIC PROTECTED PHASES ADMISSIBLE / CROSS-PLATFORM LAW OPEN.**
+  No claim is banked or seeded. See
+  `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
+## CONCEPT-DU-010 — observer identity as record colimit
+
+- **Concept (articulation-invariant).** A persistent observer or person may be
+  physically individuated by the successful gluing of compatible,
+  causally connected first-person record sections rather than by one hidden
+  substrate label carried through every split and merge. Identity can
+  therefore branch, overlap or remain genuinely underdetermined when the
+  record-and-control structure does.
+- **Concept INVARIANT.**
+  1. Candidate identity is built from physical record, access, control and
+     continuity maps; narrative resemblance alone is insufficient.
+  2. The construction is invariant under harmless relabeling and insertion of
+     causally inert relay stages.
+  3. Split, merge, amnesia, duplicate, repair and adversarial-splice cases have
+     explicit identity predictions or acknowledged nonuniqueness.
+  4. A candidate observer earns a boundary through intervention, persistence
+     and capability consequences, reusing the controls of
+     `CONCEPT-DU-003`.
+  5. No conclusion about consciousness, moral status or legal personhood
+     follows from record gluing alone.
+- **Formalization FAMILY.**
+  1. categorical colimits or descent objects of compatible record sections;
+  2. provenance DAGs with branch-and-merge identity;
+  3. error-corrected logical observers under loss and repair;
+  4. biological or artificial split-brain and merge protocols;
+  5. recursive viable-system observers with overlapping intervention covers;
+  6. memory-reconciliation processes with conflicting retained traces;
+  7. evolved sensor/action quotients that preserve survival-relevant identity;
+     and
+  8. null models with a unique substrate trajectory, arbitrary record
+     duplication or no interventionally stable observer boundary.
+- **Controls and global kill conditions.**
+  - A colimit that merely restates a supplied identity label is circular.
+  - If a unique perspective-independent physical identity assignment predicts
+    every split/merge intervention while the record-colimit assignment adds
+    no capability, continuity or ambiguity prediction, the concept's stronger
+    invariant fails in that class.
+  - Record similarity without causal provenance permits counterfeit merges
+    and is not identity.
+  - Neural integration, autobiographical reconstruction or evolved Umwelt
+    evidence can instantiate the concept but cannot by itself establish
+    conscious unity or observer fundamentality.
+- **Nearest terrain.** Process identity, persistence theory, category-theory
+  gluing, computational mechanics, distributed provenance, error correction,
+  neuroscience and the repository's recursive operational-viability concept
+  are neighboring terrain. The physical observer-identity law is open.
+- **Status:** **CONCEPT-OPEN / OVERLAPS CONCEPT-DU-003 SYSTEM
+  INDIVIDUATION / SPLIT-MERGE DISCRIMINATORS OPEN / CONSCIOUSNESS AND
+  PERSONHOOD NOT INFERRED.** No claim is banked or seeded. See
+  `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.

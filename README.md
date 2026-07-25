@@ -130,7 +130,7 @@ freely; findings transfer only with their grade labels attached, never as doctri
 - **Lanes and live work:** `LANES.yaml`
 - **Triple-diamond design receipt:**
   `explorations/science-council-certified-causal-reality-triple-diamond-2026-07-24.md`
-- **Historical concepts and exact grades:** `explorations/concept-register.md`
+- **Live concept families and exact grades:** `explorations/concept-register.md`
 - **Conditional and abductive contract:**
   `lab/process/conditional-and-abductive-research-contract.md`
 
