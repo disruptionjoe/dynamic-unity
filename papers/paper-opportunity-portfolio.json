@@ -122,6 +122,17 @@
     },
     "status": "confirmed_factory_custody__no_production_activation"
   },
+  "concentrated_closing_swing_2026_07_24": {
+    "compiler_result": "Finite exact-rational kernel viable; both first cross-platform witnesses are absorbed by formed history evidence plus route provenance, with no focal class-relative remainder.",
+    "factory_effect": "None. All existing seeds remain unselected and no hardening request or production state changed.",
+    "next_foundational_priority": "DU-PAPER-007",
+    "next_paper_closing_priority": "DU-PAPER-013",
+    "parked_preproof_gates": [
+      "DU-PAPER-003",
+      "DU-PAPER-015"
+    ],
+    "synthesis_ref": "explorations/concentrated-paper-closing-program-synthesis-2026-07-24.md"
+  },
   "factory_proposal_batch_if_separately_authorized": {
     "merge_review_proposals": [],
     "standalone_proposals": []
@@ -213,12 +224,15 @@
     {
       "audience": "Quantum information, quantum cellular automata, and foundations",
       "contribution": "A covariant finite quantum recorder/archive construction paired with a nonselection theorem and a quantitative record-disturbance-support obstruction.",
-      "current_grade": "Exact finite construction, covariance, obstruction, complementarity, archive, boundary, and executable controls; approximate tradeoff and novelty search open.",
+      "current_grade": "Exact finite recorder/archive controls plus a tight binary record-disturbance theorem, independent-fragment consequence, and archive-support bound; general novelty absorbed and Clock-QCA-specific classification open.",
       "evidence_refs": [
         "explorations/covariant-recorder-naturalization-swing-2026-07-24.md",
         "explorations/covariant-archive-boundary-swing-2026-07-24.md",
+        "explorations/covariant-record-cost-closing-swing-2026-07-24.md",
+        "explorations/covariant-record-cost-collision-audit-2026-07-24.md",
         "tests/du_covariant_recorder_naturality_probe.py",
-        "tests/du_covariant_archive_boundary_probe.py"
+        "tests/du_covariant_archive_boundary_probe.py",
+        "tests/du_covariant_record_cost_closing_probe.py"
       ],
       "factory_snapshot": "DU-SEED-COVARIANT-RECORD-COST admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
       "factory_state": "existing_seed_unselected",
@@ -227,17 +241,17 @@
       "id": "DU-PAPER-003",
       "manuscript_distance": "one_source_hardening_swing",
       "manuscript_load_bearing_gaps": [
-        "Broad primary-literature collision review.",
-        "A tight approximate/noisy record-disturbance-support or archive-cost theorem.",
-        "Independent proof and tightness audit."
+        "Pass a non-tautological Clock-QCA recorder-extension classification pre-proof, or stop the standalone route.",
+        "Alternatively state a genuinely nonseparable covariance-locality-support optimization stronger than the occupied component bounds.",
+        "Complete a claim-specific novelty review only after one of those pre-proofs survives."
       ],
-      "manuscript_swings_estimate": "1",
+      "manuscript_swings_estimate": "1 pre-proof gate",
       "negative_result_value": "A collision map that identifies the exact absorbing theorem prevents a weak submission.",
-      "novelty_boundary": "The paper must add a sharp approximate tradeoff or construction-obstruction conjunction, not repackage no-information-without-disturbance.",
+      "novelty_boundary": "The tight binary curve, independent-fragment consequence, and Holevo-Fano support bound are occupied controls; only a Clock-QCA classification or nonseparable physical bound can support a standalone paper.",
       "overlap_ids": [
         "DU-PAPER-004"
       ],
-      "recommended_action": "Factory now owns prioritization and has placed this first in the new DU seed-readiness review order; source hardening waits for selection or a scoped request.",
+      "recommended_action": "Park behind the two explicit pre-proof gates. Preserve the exact suite as a benchmark or merge module; do not keep polishing the general record-cost package. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
@@ -352,12 +366,14 @@
     {
       "audience": "Formal methods, quantum processes, system identification, and foundations",
       "contribution": "A proof-carrying factorization, minimal-refinement, finite-remainder, or incomplete-contract trichotomy for certified causal histories.",
-      "current_grade": "Exact finite deterministic and finite-linear closure/witness baselines; no size-free horizon; physical completion class and cross-platform lift open.",
+      "current_grade": "Exact finite closure/witness baselines plus a viable exact-rational proof-carrying compiler; the same typed kernel ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance. Physical formation and transfer remain open.",
       "evidence_refs": [
         "explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md",
         "explorations/cross-repo-hardening-integration-2026-07-24.md",
+        "explorations/noninvertible-history-certificate-compiler-pilot-2026-07-24.md",
         "tests/du_council_orthodox_factorization_witness_probe.py",
-        "tests/du_council_wild_frontier_interventional_closure_probe.py"
+        "tests/du_council_wild_frontier_interventional_closure_probe.py",
+        "tests/du_noninvertible_history_certificate_compiler_probe.py"
       ],
       "factory_snapshot": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
       "factory_state": "existing_seed_unselected",
@@ -366,9 +382,9 @@
       "id": "DU-PAPER-007",
       "manuscript_distance": "two_to_three_source_swings",
       "manuscript_load_bearing_gaps": [
-        "Freeze a finite or finitely generated target-independent completion class.",
-        "Build and independently verify the proof-carrying compiler.",
-        "Carry one statement unchanged through authenticated distributed and routed quantum fixtures.",
+        "Replace the quantum-like table with a complete routed physical process instrument, strongest implementation-complete null, calibration, and finite-shot gate.",
+        "Replace the distributed table with a replayable authenticated DAG/BFT process under an explicit adversary and resource-vector order.",
+        "Freeze the expanded physical refinement class before observing which candidate wins.",
         "Complete claim-specific novelty review against automata, Blackwell, process tensors, and system identification."
       ],
       "manuscript_swings_estimate": "2-3",
@@ -379,7 +395,7 @@
         "DU-PAPER-008",
         "DU-PAPER-012"
       ],
-      "recommended_action": "Factory now owns prioritization; preserve this as the highest-upside DU flagship while its larger source-hardening load remains explicit.",
+      "recommended_action": "Preserve as the highest-upside DU flagship. Physicalize one compiler arm at a time; do not add more toy refinements or report a remainder unless the frozen physical class is exhausted. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
@@ -424,10 +440,12 @@
     {
       "audience": "Distributed systems, QEC, category theory, databases, and quantum information",
       "contribution": "A cross-domain theorem relating loop obstructions, noninvertible reconciliation, safe action algebras, higher certificates, and minimum authenticated provenance.",
-      "current_grade": "Exact reversible finite holonomy, fixed-algebra, frustration, project-or-lift, and cycle-lift baseline; noisy/noninvertible and cross-platform theorem open.",
+      "current_grade": "Exact reversible holonomy/fixed-algebra baseline plus a finite noninvertible path-equalizer and provenance compiler pilot; both first cross-platform witnesses were absorbed by formed provenance. No noisy physical theorem or public-finality law exists.",
       "evidence_refs": [
         "explorations/science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md",
+        "explorations/noninvertible-history-certificate-compiler-pilot-2026-07-24.md",
         "tests/du_holonomy_finality_provenance_probe.py",
+        "tests/du_noninvertible_history_certificate_compiler_probe.py",
         "explorations/technical-lens-hypothesis-panel-quadratic-vote-2026-07-24.md"
       ],
       "factory_snapshot": "DU-SEED-HIGHER-ORDER-PUBLIC-FINALITY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
@@ -439,7 +457,7 @@
       "manuscript_load_bearing_gaps": [
         "Extend to finite noninvertible/noisy maps and approximate safe algebras.",
         "Prove what higher certificate relations actually fill a loop syndrome.",
-        "Instantiate one unchanged theorem in BFT/DAG and QEC/routed-quantum fixtures.",
+        "Instantiate one unchanged physical theorem in BFT/DAG and QEC/routed-quantum processes rather than supplied response tables.",
         "Separate the result from mature group action, cohomology, QEC, and consensus mathematics."
       ],
       "manuscript_swings_estimate": "2-3",
@@ -450,7 +468,7 @@
         "DU-PAPER-010",
         "DU-PAPER-022"
       ],
-      "recommended_action": "Factory now owns prioritization; preserve this as the distinctive cross-domain route without activating before noisy/noninvertible transfer work is selected.",
+      "recommended_action": "Preserve as the distinctive cross-domain route, but do not activate from endpoint holonomy alone. Reuse the compiler after a noisy/noninvertible physical process and independently formed provenance exist. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
@@ -599,7 +617,7 @@
         "DU-PAPER-014",
         "DU-PAPER-018"
       ],
-      "recommended_action": "Factory now owns prioritization; claim-specific collision and uniform-asymptotic review precede any activation.",
+      "recommended_action": "This is now the next concentrated paper-closing source swing: run the claim-specific collision review and prove or kill the uniform asymptotic with tight counterfamilies. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
@@ -646,9 +664,10 @@
     {
       "audience": "Foundations of relativity, discrete physics, and distributed systems",
       "contribution": "A finite gauge-or-witness theorem for hidden global update schedules, paired with a reunion no-go for one-record-per-tick clocks and an exact covariant QCA positive control.",
-      "current_grade": "Five exact finite clock/scheduler probes; G-full delay-only overturned; unrestricted gated scheduling underidentified; fixed-law physical selection open.",
+      "current_grade": "Five exact finite clock/scheduler probes plus a frozen gauge-or-local-leakage theorem target; the broad quotient theorem is occupied, while a Clock-QCA instrument-level scheduler/boost classification remains search-incomplete.",
       "evidence_refs": [
         "explorations/science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md",
+        "explorations/global-clock-gauge-witness-pivot-gate-2026-07-24.md",
         "tests/du_record_rate_orthodox_clock_tournament.py",
         "tests/du_record_rate_philosopher_clock_ontology_probe.py"
       ],
@@ -659,19 +678,18 @@
       "id": "DU-PAPER-015",
       "manuscript_distance": "one_source_hardening_swing",
       "manuscript_load_bearing_gaps": [
-        "Unify the five finite results into one theorem with an explicit intervention algebra.",
-        "Complete a literature review spanning logical clocks, causal order, Lorentzian causal sets, and discrete covariant models.",
-        "State the maximal scheduler quotient and the smallest physical leakage witness.",
-        "Decide technical theorem note versus broader foundations framing."
+        "Freeze one independently selected Clock-QCA record instrument, scheduler quotient, encoded boost/reslicing family, and generator-complete intervention/resource algebra.",
+        "Prove a nontrivial instrument-level congruence or a complete and tight Lorentz-sensitive leakage basis.",
+        "Stop if the pre-proof reduces to quotient constancy, trace equivalence, bisimulation, hiding, or fitted clock tags."
       ],
-      "manuscript_swings_estimate": "1-2",
+      "manuscript_swings_estimate": "1 pre-proof gate",
       "negative_result_value": "The finite compilation underdetermination and G-full reunion no-go are useful even if no global-clock model is selected.",
       "novelty_boundary": "Finite fit cannot identify local versus unrestricted gated global time; distance-dependent latency does not cause differential aging.",
       "overlap_ids": [
         "DU-PAPER-003",
         "DU-PAPER-011"
       ],
-      "recommended_action": "Factory now owns prioritization; consolidate the finite controls into one theorem only if selected.",
+      "recommended_action": "Park behind the Clock-QCA instrument pre-proof. If it reduces to standard contextual equivalence or lacks independently fixed record semantics, pivot to DU-PAPER-013. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],

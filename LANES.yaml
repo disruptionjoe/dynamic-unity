@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 25
+manifest_revision: 26
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -577,8 +577,11 @@ certified_causal_reality_restructure:
     REJECTED / HC-DU-034A SIGNED ALL-PORT COHERENT-HISTORY ASSAY EXACT AT IDEAL SPECIALIZATION
     GRADE / HC-DU-036A FINITE FACTORIZATION-OR-CANDIDATE-WITNESS AND LINEAR-RANK BASELINES EXACT /
     NO SIZE-FREE WITNESS HORIZON / FINITE HOLONOMY PUBLIC-FACT, RECONCILIATION-FRUSTRATION,
-    PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / PHYSICAL RECORD FORMATION,
-    ADMISSIBLE INTERFACE REFINEMENT,
+    PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / TIGHT BINARY
+    RECORD-DISTURBANCE, INDEPENDENT-FRAGMENT AND ARCHIVE-SUPPORT CONTROLS EXACT BUT GENERAL
+    NOVELTY ABSORBED / FINITE EXACT-RATIONAL HISTORY-CERTIFICATE COMPILER VIABLE ACROSS TWO
+    TYPED FIXTURES / BOTH FIRST WITNESSES ABSORBED BY FORMED PROVENANCE / PHYSICAL RECORD
+    FORMATION, ADMISSIBLE INTERFACE REFINEMENT,
     INSTRUMENT-LEVEL HISTORY CERTIFICATION, BROADCASTABLE PUBLIC FINALITY,
     FORMATION-TO-FINALITY RESOURCE LAW, GEOMETRY AND PHYSICAL RECOVERY OPEN / COMPONENT
     MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL RESOURCE-COUPLED
@@ -590,13 +593,13 @@ certified_causal_reality_restructure:
     consequence of supplied selection/access relations; HC-DU-036A shows why a failed candidate
     interface alone cannot establish a physical remainder.
   first_executable_flagship: >-
-    Build a noninvertible history-certificate compiler as the next component of the coupled
-    HC-DU-034B/036B assay. Freeze the complete outcome record, convex classical-instrument null,
-    coherent alternative, reconciliation maps, resource ledger and admissible refinements;
-    compute the robust margin, shot gate, path equalizer and task-relative provenance. Reproduce
-    the route-phase control, then carry the unchanged schema to a proper-time instrument and an
-    authenticated distributed-history twin. Only after a physical distinction survives a
-    positive calibrated margin should HC-DU-035B price its conversion into public finality.
+    Physicalize the completed finite history-certificate compiler one arm at a time. Replace the
+    quantum-like response table with a complete routed process instrument, strongest
+    implementation-complete null, calibrated margin, finite-shot gate and refinement grammar
+    frozen before selection. Then replace the distributed table with a replayable authenticated
+    DAG/BFT process under an explicit adversary and resource-vector order. Only after a formed
+    distinction survives every admitted refinement should HC-DU-035B price its conversion into
+    public finality.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -800,12 +803,12 @@ open_frontier_council_advancement_wave:
     conjunction across quantum and adversarial distributed histories is search-incomplete. No
     claim is banked or seeded.
   next_move: >-
-    Build a noninvertible history-certificate compiler. Compute a complete-outcome robust
-    convex-null margin, shot and calibration cost, path equalizer, task-relative provenance and
-    admissible-refinement verdict for a coherent quantum fixture and an authenticated
-    distributed-history twin without semantic refitting. Use the Pauli route-phase standard
-    first; move to the proper-time instrument only if a positive calibrated margin survives.
-    Route formation-to-finality pricing only after a physically formed distinction exists.
+    Fulfilled at finite-kernel grade by the revision-26 history-certificate compiler. Its two
+    first fixtures were absorbed by formed evidence plus route provenance. The live successor is
+    to replace the quantum-like table with a complete routed process instrument, calibrated null
+    and finite-shot gate, then replace the distributed table with a replayable authenticated
+    DAG/BFT process. Route formation-to-finality pricing only after a physically formed
+    distinction survives the frozen physical refinement class.
 cross_repo_hardening_and_paper_candidate_assessment:
   status: completed_method_integration_and_candidate_assessment
   date: '2026-07-24'
@@ -906,11 +909,12 @@ paper_opportunity_portfolio_audit:
     request merge review. One existing item plus six more families are within one source-hardening
     swing of a defensible packet.
   scientific_sequence: >-
-    Covariant Records Are Not Free remains the shortest high-value source-hardening route;
-    Interventional Record Sufficiency remains the flagship route; Higher-Order Public Finality
-    remains the most distinctive cross-domain route. The audit additionally exposes causal-set
-    tail classes, the global-clock gauge-or-witness theorem, intervention-role covers, and finite
-    records versus open-endedness as serious lower-cost alternatives.
+    The original audit ranked Covariant Records Are Not Free as the shortest high-value
+    source-hardening route, Interventional Record Sufficiency as the flagship route and
+    Higher-Order Public Finality as the most distinctive cross-domain route. Revision 26 records
+    that the later concentrated swing narrowed the first route and moved the next paper-closing
+    allocation to causal-set tail classes while preserving Interventional Record Sufficiency as
+    the flagship.
   governance_correction: >-
     A Factory seed is cheap opportunity custody: owner, contribution, evidence, audience, current
     grade and open conditions, overlap, and default unselected state. It is not a novelty verdict,
@@ -946,6 +950,60 @@ paper_opportunity_factory_intake:
   nonpromotion: >-
     No production home, hardening request, research-priority amendment, claim promotion, draft,
     submission, publication or external action occurred.
+concentrated_paper_closing_program:
+  status: completed_scoped_program__two_routes_narrowed__compiler_viable
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: use the recommended gated concentration rather than a broad fan-out, with a
+    primary covariant-record paper attack, bounded flagship compiler hedge and explicit reserve
+    pivot gates.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-213302-concentrated-paper-closing-program/run-plan.md
+  synthesis_ref: >-
+    explorations/concentrated-paper-closing-program-synthesis-2026-07-24.md
+  primary_theorem_ref: explorations/covariant-record-cost-closing-swing-2026-07-24.md
+  primary_collision_ref: explorations/covariant-record-cost-collision-audit-2026-07-24.md
+  primary_probe_ref: tests/du_covariant_record_cost_closing_probe.py
+  primary_artifact_ref: tests/artifacts/du_covariant_record_cost_closing_result.json
+  primary_artifact_sha256: dcc3238ea991d8c1d9543b779567a47fd4d31647f5c1755f6cfbfd6334a64547
+  primary_result: >-
+    In the frozen binary controlled nondemolition recorder class, accessible record
+    distinguishability and induced dephasing obey the tight relation
+    D_R^2<=4*delta*(1-delta); conditionally independent fragments give a product-fidelity
+    consequence and finite archive decoding obeys a Holevo-Fano support bound. The probe passes
+    12/12 twice with byte-identical output. The general theorem package is absorbed by known
+    complementarity, information-disturbance and support results. DU-PAPER-003 is NARROW and
+    reopens only for a non-tautological Clock-QCA extension classification or a nonseparable
+    covariance-locality-support theorem.
+  compiler_ref: explorations/noninvertible-history-certificate-compiler-pilot-2026-07-24.md
+  compiler_probe_ref: tests/du_noninvertible_history_certificate_compiler_probe.py
+  compiler_artifact_ref: >-
+    tests/artifacts/du_noninvertible_history_certificate_compiler_result.json
+  compiler_artifact_sha256: 964448dcfd8b9ee1ae132c5260b5931311c1ea6bb06c4d71da827bb1eda1daa1
+  compiler_result: >-
+    One exact-rational target-independent grammar and proof-carrying kernel ran unchanged on
+    noisy quantum-like and authenticated distributed-history fixtures. Both returned
+    MINIMAL_REFINEMENT: formed history evidence plus certified route/layer provenance absorbed
+    the base witness. The probe passes 11/11 twice with byte-identical output. No focal
+    class-relative physical remainder, approximate theorem, resource law or physical transfer is
+    established.
+  clock_gate_ref: explorations/global-clock-gauge-witness-pivot-gate-2026-07-24.md
+  clock_gate_result: >-
+    DU-PAPER-015 is NARROW / PRE-PROOF. Its general gauge-iff-factorization theorem is occupied
+    by trace, refinement, bisimulation and causal-label-invariance mathematics, and the finite
+    witness bound is already HC-DU-036A. Reopen only for an independently fixed Clock-QCA record
+    instrument, commuting scheduler/boost quotient and tight minimal Lorentz-sensitive leakage
+    theorem.
+  revised_source_allocation: >-
+    Move the next concentrated paper-closing swing to DU-PAPER-013. Preserve DU-PAPER-007 as the
+    foundational priority by physicalizing one compiler arm at a time; DU-PAPER-009 remains the
+    distinctive cross-domain route. DU-PAPER-016 and DU-PAPER-017 are lower-cost reserves.
+    DU-PAPER-003 and DU-PAPER-015 are parked behind their explicit pre-proof gates.
+  ledger_disposition: >-
+    No new claim, hypothesis, concept or prediction entry. The exact controls specialize known
+    mathematics, the compiler implements HC-DU-036B and tests H-CCR-13/14 without finding a
+    remainder, and the clock gate sharpens H-CCR-11. Existing Drafting Factory seeds remain
+    unselected; no source priority change was written into Factory state.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1685,9 +1743,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 25.
+    routing is the root lanes key at manifest revision 26.
 provenance:
-  revision: 25
+  revision: 26
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1987,3 +2045,16 @@ provenance:
     Covariant Records Are Not Free is first in the Factory's new reversible DU review order. No
     production home, hardening request, scientific grade, draft, submission, publication or
     external action changed.
+  rev26_note: >-
+    2026-07-24 (Joe direct chat: execute the recommended gated concentration): proved a tight
+    binary record-disturbance control plus independent-fragment and archive-support
+    consequences, then completed a hostile collision audit that absorbs the general
+    DU-PAPER-003 package and parks it behind two Clock-QCA-specific pre-proofs. Built a finite
+    exact-rational history-certificate compiler whose unchanged schema runs across quantum-like
+    and authenticated distributed fixtures; both first witnesses are repaired by formed
+    history evidence plus route provenance, so no class-relative physical remainder is found.
+    The global-clock reserve also narrows because its broad quotient theorem is standard; only a
+    Clock-QCA instrument-level scheduler/boost/leakage theorem can reopen it. The next
+    concentrated paper-closing source allocation moves to DU-PAPER-013, while physicalizing the
+    compiler remains the DU-PAPER-007 flagship. No claim, hypothesis, concept, prediction,
+    ontology, Factory state, draft, submission, publication or external action changed.

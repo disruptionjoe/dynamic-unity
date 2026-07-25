@@ -1,0 +1,542 @@
+{
+  "checks": [
+    {
+      "detail": "96 samples; max(D-bound)=-5.081e-02",
+      "name": "mixed/noisy record samples obey the exact curve inequality",
+      "passed": true
+    },
+    {
+      "detail": "minimum F_env-|gamma|=2.348e-02",
+      "name": "controlled-purification overlap is bounded by root fidelity",
+      "passed": true
+    },
+    {
+      "detail": "minimum F_out-F_env=0.000e+00",
+      "name": "depolarizing archive noise increases root fidelity",
+      "passed": true
+    },
+    {
+      "detail": "maximum trace-distance error=1.110e-16",
+      "name": "plus-state witness attains the half-diamond lower bound",
+      "passed": true
+    },
+    {
+      "detail": "maximum matrix error=2.220e-16",
+      "name": "phase equalization produces dephasing by absolute coherence",
+      "passed": true
+    },
+    {
+      "detail": "33 angles; maximum equality error=4.302e-16",
+      "name": "pure two-state recorders saturate the curve",
+      "passed": true
+    },
+    {
+      "detail": "three heterogeneous/uniform families; error=0.000e+00",
+      "name": "conditionally independent pure fragments saturate the product bound",
+      "passed": true
+    },
+    {
+      "detail": "four disturbance/quality settings",
+      "name": "the next uniform independent fragment violates each frozen budget",
+      "passed": true
+    },
+    {
+      "detail": "three correlated fragments at theta=pi/3; the base record-disturbance bound still holds",
+      "name": "correlated fanout defeats the product inference when independence is dropped",
+      "passed": true
+    },
+    {
+      "detail": "257 elapsed labels require 9 qubits; 2^32 histories require 32",
+      "name": "perfect decoding recovers exact archive-dimension endpoints",
+      "passed": true
+    },
+    {
+      "detail": "N=2,7,257",
+      "name": "the Holevo-Fano lower bound vanishes at uniform random guessing",
+      "passed": true
+    },
+    {
+      "detail": "delta=0 and D=1 is possible when the record predates the interaction",
+      "name": "a pre-correlated oracle demonstrates the blank-environment assumption is necessary",
+      "passed": true
+    }
+  ],
+  "correlation_counterexample": {
+    "each_local_trace_distance": 0.7499999999999999,
+    "fragment_count": 3,
+    "global_archive_trace_distance": 0.7499999999999999,
+    "half_diamond_delta": 0.24999999999999994,
+    "invalid_bound_exceeds_actual_delta": true,
+    "invalid_product_bound_if_correlations_ignored": 0.3553104751761551,
+    "visibility": 0.5000000000000001
+  },
+  "independent_product_rows": [
+    {
+      "equality_error": 0.0,
+      "fragment_count": 4,
+      "fragment_distinguishabilities": [
+        0.2,
+        0.45,
+        0.7,
+        0.85
+      ],
+      "fragment_overlaps": [
+        0.9797958971132712,
+        0.8930285549745876,
+        0.714142842854285,
+        0.526782687642637
+      ],
+      "half_diamond_delta": 0.33541602447382673,
+      "independent_fragment_lower_bound": 0.33541602447382673,
+      "minimum_declared_tensor_dimension": 16,
+      "visibility": 0.32916795105234653
+    },
+    {
+      "equality_error": 0.0,
+      "fragment_count": 3,
+      "fragment_distinguishabilities": [
+        0.35,
+        0.35,
+        0.35
+      ],
+      "fragment_overlaps": [
+        0.9367496997597597,
+        0.9367496997597597,
+        0.9367496997597597
+      ],
+      "half_diamond_delta": 0.0890010692304054,
+      "independent_fragment_lower_bound": 0.0890010692304054,
+      "minimum_declared_tensor_dimension": 8,
+      "visibility": 0.8219978615391892
+    },
+    {
+      "equality_error": 0.0,
+      "fragment_count": 6,
+      "fragment_distinguishabilities": [
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fragment_overlaps": [
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "half_diamond_delta": 0.3689279999999999,
+      "independent_fragment_lower_bound": 0.3689279999999999,
+      "minimum_declared_tensor_dimension": 64,
+      "visibility": 0.2621440000000001
+    }
+  ],
+  "limitations": [
+    "binary controlled nondemolition history sector",
+    "one source-independent blank environment",
+    "product bound requires conditional factorization",
+    "support bound uses a fixed decoder and declared prior",
+    "no energy, entropy, latency, or irreversible-work law",
+    "no autonomous interface or recorder-law selection",
+    "finite mathematics and executable evidence only"
+  ],
+  "mixed_noisy_summary": {
+    "maximum_curve_violation": -0.050809286763577766,
+    "maximum_phase_equalization_error": 2.220446049250313e-16,
+    "maximum_plus_delta_error": 1.1102230246251565e-16,
+    "minimum_fidelity_monotonicity_slack": 0.0,
+    "minimum_gamma_fidelity_slack": 0.02348037833334582,
+    "samples": 96
+  },
+  "norm_conventions": {
+    "channel_distance": "delta_diamond(Phi,Psi)=1/2 ||Phi-Psi||_diamond",
+    "fidelity": "root fidelity F(rho,sigma)=||sqrt(rho)sqrt(sigma)||_1",
+    "state_distance": "D(rho,sigma)=1/2 ||rho-sigma||_1"
+  },
+  "passed": true,
+  "pre_correlated_oracle_counterexample": {
+    "reason_excluded": "the environment is initially correlated with the history, rather than one source-independent blank state",
+    "record_trace_distance": 1.0,
+    "source_half_diamond_delta": 0.0,
+    "would_violate_blank_environment_curve": true
+  },
+  "probe": "du_covariant_record_cost_closing_probe",
+  "random_guess_support_rows": [
+    {
+      "alphabet_size_per_cell": 2,
+      "archive_bits_lower_bound": 0.0,
+      "archive_dimension_lower_bound": 1.0,
+      "average_decode_error": 0.5,
+      "cell_count_lower_bound": 0,
+      "history_count": 2
+    },
+    {
+      "alphabet_size_per_cell": 2,
+      "archive_bits_lower_bound": 4.440892098500626e-16,
+      "archive_dimension_lower_bound": 1.0000000000000002,
+      "average_decode_error": 0.8571428571428572,
+      "cell_count_lower_bound": 0,
+      "history_count": 7
+    },
+    {
+      "alphabet_size_per_cell": 2,
+      "archive_bits_lower_bound": 8.881784197001252e-16,
+      "archive_dimension_lower_bound": 1.0000000000000007,
+      "average_decode_error": 0.9961089494163424,
+      "cell_count_lower_bound": 0,
+      "history_count": 257
+    }
+  ],
+  "seed": 20260724,
+  "support_rows": [
+    {
+      "alphabet_size_per_cell": 2,
+      "archive_bits_lower_bound": 8.005624549193879,
+      "archive_dimension_lower_bound": 257.0000000000001,
+      "average_decode_error": 0.0,
+      "cell_count_lower_bound": 9,
+      "history_count": 257
+    },
+    {
+      "alphabet_size_per_cell": 2,
+      "archive_bits_lower_bound": 7.8448314132979675,
+      "archive_dimension_lower_bound": 229.89502141455637,
+      "average_decode_error": 0.01,
+      "cell_count_lower_bound": 8,
+      "history_count": 257
+    },
+    {
+      "alphabet_size_per_cell": 2,
+      "archive_bits_lower_bound": 32.0,
+      "archive_dimension_lower_bound": 4294967296.0,
+      "average_decode_error": 0.0,
+      "cell_count_lower_bound": 32,
+      "history_count": 4294967296
+    },
+    {
+      "alphabet_size_per_cell": 2,
+      "archive_bits_lower_bound": 31.59920686410745,
+      "archive_dimension_lower_bound": 3253187577.775995,
+      "average_decode_error": 0.01,
+      "cell_count_lower_bound": 32,
+      "history_count": 4294967296
+    },
+    {
+      "alphabet_size_per_cell": 3,
+      "archive_bits_lower_bound": 5.7373566410243,
+      "archive_dimension_lower_bound": 53.34779145415178,
+      "average_decode_error": 0.05,
+      "cell_count_lower_bound": 4,
+      "history_count": 81
+    }
+  ],
+  "theorem_receipt": {
+    "binary_curve": "D_record^2 <= 4 delta (1-delta), delta=(1-|gamma|)/2",
+    "independent_fragment_bound": "delta >= (1-product_k sqrt(1-D_k^2))/2",
+    "support_bound": "log2 K >= log2 N-h2(p)-p log2(N-1)",
+    "uniform_fragment_bound": "m <= 2 ln(1-2 delta_bar)/ln(1-d^2)"
+  },
+  "tight_pure_rows": [
+    {
+      "angle": 0.0,
+      "curve_bound": 0.0,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.0,
+      "record_trace_distance": 0.0,
+      "visibility": 1.0
+    },
+    {
+      "angle": 0.04908738521234052,
+      "curve_bound": 0.049067674327417765,
+      "equality_error": 2.498001805406602e-16,
+      "half_diamond_delta": 0.0006022718974137975,
+      "record_trace_distance": 0.049067674327418015,
+      "visibility": 0.9987954562051724
+    },
+    {
+      "angle": 0.09817477042468103,
+      "curve_bound": 0.09801714032956017,
+      "equality_error": 4.3021142204224816e-16,
+      "half_diamond_delta": 0.0024076366639015356,
+      "record_trace_distance": 0.0980171403295606,
+      "visibility": 0.9951847266721969
+    },
+    {
+      "angle": 0.14726215563702155,
+      "curve_bound": 0.14673047445536147,
+      "equality_error": 2.7755575615628914e-16,
+      "half_diamond_delta": 0.005411745017609493,
+      "record_trace_distance": 0.14673047445536175,
+      "visibility": 0.989176509964781
+    },
+    {
+      "angle": 0.19634954084936207,
+      "curve_bound": 0.19509032201612836,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.009607359798384785,
+      "record_trace_distance": 0.19509032201612825,
+      "visibility": 0.9807852804032304
+    },
+    {
+      "angle": 0.2454369260617026,
+      "curve_bound": 0.24298017990326398,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.014984373402728013,
+      "record_trace_distance": 0.24298017990326387,
+      "visibility": 0.970031253194544
+    },
+    {
+      "angle": 0.2945243112740431,
+      "curve_bound": 0.2902846772544625,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.021529832133895588,
+      "record_trace_distance": 0.2902846772544624,
+      "visibility": 0.9569403357322088
+    },
+    {
+      "angle": 0.3436116964863836,
+      "curve_bound": 0.33688985339221994,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.029227967408489597,
+      "record_trace_distance": 0.33688985339222005,
+      "visibility": 0.9415440651830208
+    },
+    {
+      "angle": 0.39269908169872414,
+      "curve_bound": 0.38268343236508984,
+      "equality_error": 5.551115123125783e-17,
+      "half_diamond_delta": 0.03806023374435663,
+      "record_trace_distance": 0.3826834323650898,
+      "visibility": 0.9238795325112867
+    },
+    {
+      "angle": 0.44178646691106466,
+      "curve_bound": 0.4275550934302821,
+      "equality_error": 5.551115123125783e-17,
+      "half_diamond_delta": 0.04800535343827833,
+      "record_trace_distance": 0.42755509343028214,
+      "visibility": 0.9039892931234433
+    },
+    {
+      "angle": 0.4908738521234052,
+      "curve_bound": 0.4713967368259976,
+      "equality_error": 5.551115123125783e-17,
+      "half_diamond_delta": 0.059039367825822475,
+      "record_trace_distance": 0.47139673682599764,
+      "visibility": 0.881921264348355
+    },
+    {
+      "angle": 0.5399612373357456,
+      "curve_bound": 0.5141027441932217,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.07113569499986394,
+      "record_trace_distance": 0.5141027441932216,
+      "visibility": 0.8577286100002721
+    },
+    {
+      "angle": 0.5890486225480862,
+      "curve_bound": 0.5555702330196023,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.08426519384872738,
+      "record_trace_distance": 0.5555702330196022,
+      "visibility": 0.8314696123025452
+    },
+    {
+      "angle": 0.6381360077604268,
+      "curve_bound": 0.5956993044924332,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.09839623425967753,
+      "record_trace_distance": 0.5956993044924334,
+      "visibility": 0.8032075314806449
+    },
+    {
+      "angle": 0.6872233929727672,
+      "curve_bound": 0.6343932841636455,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.1134947733186315,
+      "record_trace_distance": 0.6343932841636455,
+      "visibility": 0.773010453362737
+    },
+    {
+      "angle": 0.7363107781851077,
+      "curve_bound": 0.6715589548470182,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.1295244373225204,
+      "record_trace_distance": 0.6715589548470183,
+      "visibility": 0.7409511253549592
+    },
+    {
+      "angle": 0.7853981633974483,
+      "curve_bound": 0.7071067811865475,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.1464466094067262,
+      "record_trace_distance": 0.7071067811865475,
+      "visibility": 0.7071067811865476
+    },
+    {
+      "angle": 0.8344855486097889,
+      "curve_bound": 0.7409511253549592,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.16422052257649083,
+      "record_trace_distance": 0.7409511253549591,
+      "visibility": 0.6715589548470183
+    },
+    {
+      "angle": 0.8835729338221293,
+      "curve_bound": 0.7730104533627369,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.18280335791817726,
+      "record_trace_distance": 0.773010453362737,
+      "visibility": 0.6343932841636455
+    },
+    {
+      "angle": 0.9326603190344698,
+      "curve_bound": 0.8032075314806448,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.20215034775378327,
+      "record_trace_distance": 0.8032075314806448,
+      "visibility": 0.5956993044924335
+    },
+    {
+      "angle": 0.9817477042468103,
+      "curve_bound": 0.8314696123025452,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.22221488349019886,
+      "record_trace_distance": 0.8314696123025452,
+      "visibility": 0.5555702330196023
+    },
+    {
+      "angle": 1.030835089459151,
+      "curve_bound": 0.8577286100002721,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.24294862790338917,
+      "record_trace_distance": 0.8577286100002722,
+      "visibility": 0.5141027441932217
+    },
+    {
+      "angle": 1.0799224746714913,
+      "curve_bound": 0.8819212643483549,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.2643016315870011,
+      "record_trace_distance": 0.881921264348355,
+      "visibility": 0.4713967368259978
+    },
+    {
+      "angle": 1.1290098598838318,
+      "curve_bound": 0.9039892931234432,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.2862224532848589,
+      "record_trace_distance": 0.9039892931234433,
+      "visibility": 0.4275550934302822
+    },
+    {
+      "angle": 1.1780972450961724,
+      "curve_bound": 0.9238795325112867,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.3086582838174551,
+      "record_trace_distance": 0.9238795325112867,
+      "visibility": 0.38268343236508984
+    },
+    {
+      "angle": 1.227184630308513,
+      "curve_bound": 0.9415440651830208,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.33155507330389,
+      "record_trace_distance": 0.9415440651830208,
+      "visibility": 0.33688985339222005
+    },
+    {
+      "angle": 1.2762720155208536,
+      "curve_bound": 0.9569403357322089,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.35485766137276886,
+      "record_trace_distance": 0.9569403357322088,
+      "visibility": 0.29028467725446233
+    },
+    {
+      "angle": 1.325359400733194,
+      "curve_bound": 0.970031253194544,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.378509910048368,
+      "record_trace_distance": 0.970031253194544,
+      "visibility": 0.24298017990326398
+    },
+    {
+      "angle": 1.3744467859455345,
+      "curve_bound": 0.9807852804032305,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.40245483899193585,
+      "record_trace_distance": 0.9807852804032304,
+      "visibility": 0.19509032201612833
+    },
+    {
+      "angle": 1.423534171157875,
+      "curve_bound": 0.989176509964781,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.42663476277231915,
+      "record_trace_distance": 0.989176509964781,
+      "visibility": 0.14673047445536175
+    },
+    {
+      "angle": 1.4726215563702154,
+      "curve_bound": 0.9951847266721969,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.4509914298352196,
+      "record_trace_distance": 0.9951847266721968,
+      "visibility": 0.09801714032956077
+    },
+    {
+      "angle": 1.521708941582556,
+      "curve_bound": 0.9987954562051724,
+      "equality_error": 0.0,
+      "half_diamond_delta": 0.47546616283629095,
+      "record_trace_distance": 0.9987954562051724,
+      "visibility": 0.049067674327418126
+    },
+    {
+      "angle": 1.5707963267948966,
+      "curve_bound": 0.9999999999999999,
+      "equality_error": 1.1102230246251565e-16,
+      "half_diamond_delta": 0.49999999999999994,
+      "record_trace_distance": 1.0,
+      "visibility": 6.123233995736766e-17
+    }
+  ],
+  "uniform_budget_rows": [
+    {
+      "disturbance_ceiling": 0.05,
+      "maximum_fragment_count_integer": 5,
+      "maximum_fragment_count_real": 5.161948449409948,
+      "minimum_fragment_trace_distance": 0.2,
+      "next_fragment_minimum_disturbance": 0.05763200000000007,
+      "next_fragment_violates_ceiling": true
+    },
+    {
+      "disturbance_ceiling": 0.1,
+      "maximum_fragment_count_integer": 4,
+      "maximum_fragment_count_real": 4.732095083298688,
+      "minimum_fragment_trace_distance": 0.3,
+      "next_fragment_minimum_disturbance": 0.1050214736533136,
+      "next_fragment_violates_ceiling": true
+    },
+    {
+      "disturbance_ceiling": 0.2,
+      "maximum_fragment_count_integer": 3,
+      "maximum_fragment_count_real": 3.5513205213829337,
+      "minimum_fragment_trace_distance": 0.5,
+      "next_fragment_minimum_disturbance": 0.21875,
+      "next_fragment_violates_ceiling": true
+    },
+    {
+      "disturbance_ceiling": 0.35,
+      "maximum_fragment_count_integer": 3,
+      "maximum_fragment_count_real": 3.5760972550833423,
+      "minimum_fragment_trace_distance": 0.7,
+      "next_fragment_minimum_disturbance": 0.36995,
+      "next_fragment_violates_ceiling": true
+    }
+  ]
+}

@@ -1,0 +1,1693 @@
+{
+  "branch_controls": {
+    "candidate_remainder": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 0,
+          "factors": true,
+          "first_conflict": null,
+          "noninjective_paths": [
+            "only_path"
+          ],
+          "public_key_count": 1,
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1,
+          "unrefined_task_relative_bound": {
+            "conflict_edges": [],
+            "minimum_task_relative_provenance_alphabet": 1,
+            "one_minimal_path_coloring": {
+              "only_path": 0
+            },
+            "path_only_provenance_can_suffice": true,
+            "within_path_conflicts": []
+          }
+        },
+        "refinement_ids": [],
+        "response_factorization": {
+          "equality_rule": "exact_rational_stochastic_signature",
+          "factors": false,
+          "failure_count": 1,
+          "maximum_total_variation_gap": "1",
+          "optimal_complete_outcome_witness": {
+            "complete_outcomes": [
+              "zero",
+              "one"
+            ],
+            "intervention": "test",
+            "left_distribution": [
+              "1",
+              "0"
+            ],
+            "left_history": "left",
+            "optimal_signed_score": [
+              1,
+              -1
+            ],
+            "right_distribution": [
+              "0",
+              "1"
+            ],
+            "right_history": "right",
+            "signed_score_gap": "2",
+            "total_variation_gap": "1"
+          },
+          "record_class_count": 1,
+          "same_record_pairs_checked": 1
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "only_path"
+            ],
+            "public_key_count": 1,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [],
+              "minimum_task_relative_provenance_alphabet": 1,
+              "one_minimal_path_coloring": {
+                "only_path": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "uninformative_formed_copy"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": false,
+            "failure_count": 1,
+            "maximum_total_variation_gap": "1",
+            "optimal_complete_outcome_witness": {
+              "complete_outcomes": [
+                "zero",
+                "one"
+              ],
+              "intervention": "test",
+              "left_distribution": [
+                "1",
+                "0"
+              ],
+              "left_history": "left",
+              "optimal_signed_score": [
+                1,
+                -1
+              ],
+              "right_distribution": [
+                "0",
+                "1"
+              ],
+              "right_history": "right",
+              "signed_score_gap": "2",
+              "total_variation_gap": "1"
+            },
+            "record_class_count": 1,
+            "same_record_pairs_checked": 1
+          },
+          "sufficient": false,
+          "total_cost": 1
+        }
+      ],
+      "certificate": {
+        "candidate_count": 1,
+        "finite_class_exhausted": true,
+        "interpretation": "candidate remainder relative only to this frozen finite class; not an irreducible physical remainder",
+        "per_candidate_failure_fingerprints": [
+          [
+            "response",
+            "left",
+            "right",
+            "test"
+          ]
+        ],
+        "uniform_witness_across_class": true,
+        "uniform_witness_fingerprint": [
+          "response",
+          "left",
+          "right",
+          "test"
+        ]
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded candidate grammar",
+      "contract_id": "BRANCH-CANDIDATE-REMAINDER",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "uninformative_formed_copy"
+        ],
+        "candidate_count": 1,
+        "candidate_subset_ids": [
+          [
+            "uninformative_formed_copy"
+          ]
+        ],
+        "excluded_from_selection": [
+          "response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [],
+        "selection_dependency": [
+          "refinement metadata",
+          "formed/future-independent/access/frame declarations",
+          "resource budget",
+          "base record",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "4b1c258fff8f57a1449fc1724d8b8e4e5f417127ac5285bacabf8baf670cd274",
+      "platform_label": "synthetic_branch_control",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/noninvertible-history-certificate/v0.1",
+      "verdict": "CANDIDATE_REMAINDER"
+    },
+    "factorization": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 0,
+          "factors": true,
+          "first_conflict": null,
+          "noninjective_paths": [
+            "only_path"
+          ],
+          "public_key_count": 1,
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1,
+          "unrefined_task_relative_bound": {
+            "conflict_edges": [],
+            "minimum_task_relative_provenance_alphabet": 1,
+            "one_minimal_path_coloring": {
+              "only_path": 0
+            },
+            "path_only_provenance_can_suffice": true,
+            "within_path_conflicts": []
+          }
+        },
+        "refinement_ids": [],
+        "response_factorization": {
+          "equality_rule": "exact_rational_stochastic_signature",
+          "factors": true,
+          "failure_count": 0,
+          "maximum_total_variation_gap": "0",
+          "optimal_complete_outcome_witness": null,
+          "record_class_count": 1,
+          "same_record_pairs_checked": 1
+        },
+        "sufficient": true,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "only_path"
+            ],
+            "public_key_count": 1,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [],
+              "minimum_task_relative_provenance_alphabet": 1,
+              "one_minimal_path_coloring": {
+                "only_path": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "formed_branch_record"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 1,
+            "same_record_pairs_checked": 1
+          },
+          "sufficient": true,
+          "total_cost": 1
+        }
+      ],
+      "certificate": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 0,
+          "factors": true,
+          "first_conflict": null,
+          "noninjective_paths": [
+            "only_path"
+          ],
+          "public_key_count": 1,
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1,
+          "unrefined_task_relative_bound": {
+            "conflict_edges": [],
+            "minimum_task_relative_provenance_alphabet": 1,
+            "one_minimal_path_coloring": {
+              "only_path": 0
+            },
+            "path_only_provenance_can_suffice": true,
+            "within_path_conflicts": []
+          }
+        },
+        "record": "base",
+        "response_factorization": {
+          "equality_rule": "exact_rational_stochastic_signature",
+          "factors": true,
+          "failure_count": 0,
+          "maximum_total_variation_gap": "0",
+          "optimal_complete_outcome_witness": null,
+          "record_class_count": 1,
+          "same_record_pairs_checked": 1
+        }
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded candidate grammar",
+      "contract_id": "BRANCH-FACTORIZATION",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "formed_branch_record"
+        ],
+        "candidate_count": 1,
+        "candidate_subset_ids": [
+          [
+            "formed_branch_record"
+          ]
+        ],
+        "excluded_from_selection": [
+          "response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [],
+        "selection_dependency": [
+          "refinement metadata",
+          "formed/future-independent/access/frame declarations",
+          "resource budget",
+          "base record",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "c7f7b8b7481be4d5bc61d0131b3939b0102f66194cac05366647699ee250416f",
+      "platform_label": "synthetic_branch_control",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/noninvertible-history-certificate/v0.1",
+      "verdict": "FACTORIZATION"
+    },
+    "incomplete_contract": {
+      "contract_id": "BRANCH-INCOMPLETE",
+      "errors": [
+        "empty_nonbase_admissible_refinement_class"
+      ],
+      "frozen_class": {
+        "admitted_primitive_ids": [],
+        "digest": "f4105b9bbc222b25eccb692dbb8220c1c00b7227a6f1c7d19468ddfb451990db",
+        "excluded_from_selection": [
+          "response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [],
+        "selection_dependency": [
+          "refinement metadata",
+          "formed/future-independent/access/frame declarations",
+          "resource budget",
+          "base record",
+          "constructor audit"
+        ]
+      },
+      "platform_label": "synthetic_branch_control",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/noninvertible-history-certificate/v0.1",
+      "verdict": "INCOMPLETE_CONTRACT"
+    },
+    "minimal_refinement": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 0,
+          "factors": true,
+          "first_conflict": null,
+          "noninjective_paths": [
+            "only_path"
+          ],
+          "public_key_count": 1,
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1,
+          "unrefined_task_relative_bound": {
+            "conflict_edges": [],
+            "minimum_task_relative_provenance_alphabet": 1,
+            "one_minimal_path_coloring": {
+              "only_path": 0
+            },
+            "path_only_provenance_can_suffice": true,
+            "within_path_conflicts": []
+          }
+        },
+        "refinement_ids": [],
+        "response_factorization": {
+          "equality_rule": "exact_rational_stochastic_signature",
+          "factors": false,
+          "failure_count": 1,
+          "maximum_total_variation_gap": "1",
+          "optimal_complete_outcome_witness": {
+            "complete_outcomes": [
+              "zero",
+              "one"
+            ],
+            "intervention": "test",
+            "left_distribution": [
+              "1",
+              "0"
+            ],
+            "left_history": "left",
+            "optimal_signed_score": [
+              1,
+              -1
+            ],
+            "right_distribution": [
+              "0",
+              "1"
+            ],
+            "right_history": "right",
+            "signed_score_gap": "2",
+            "total_variation_gap": "1"
+          },
+          "record_class_count": 1,
+          "same_record_pairs_checked": 1
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "only_path"
+            ],
+            "public_key_count": 1,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [],
+              "minimum_task_relative_provenance_alphabet": 1,
+              "one_minimal_path_coloring": {
+                "only_path": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "formed_branch_record"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 0
+          },
+          "sufficient": true,
+          "total_cost": 1
+        }
+      ],
+      "certificate": {
+        "interpretation": "formed candidate provenance absorbs the base witness; no class-relative remainder",
+        "optimizer": "minimum(total_cost, primitive_count, lexicographic_refinement_ids)",
+        "selected": {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "only_path"
+            ],
+            "public_key_count": 1,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [],
+              "minimum_task_relative_provenance_alphabet": 1,
+              "one_minimal_path_coloring": {
+                "only_path": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "formed_branch_record"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 0
+          },
+          "sufficient": true,
+          "total_cost": 1
+        },
+        "strictly_prior_candidates_all_fail": true,
+        "strictly_prior_candidates_checked": 0
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded candidate grammar",
+      "contract_id": "BRANCH-MINIMAL-REFINEMENT",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "formed_branch_record"
+        ],
+        "candidate_count": 1,
+        "candidate_subset_ids": [
+          [
+            "formed_branch_record"
+          ]
+        ],
+        "excluded_from_selection": [
+          "response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [],
+        "selection_dependency": [
+          "refinement metadata",
+          "formed/future-independent/access/frame declarations",
+          "resource budget",
+          "base record",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "2022d353c40eba302f0fe564b09946cef2887cb4378808d44c91e5e80b0584cc",
+      "platform_label": "synthetic_branch_control",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/noninvertible-history-certificate/v0.1",
+      "verdict": "MINIMAL_REFINEMENT"
+    }
+  },
+  "candidate_ids": [
+    "HC-DU-034B",
+    "HC-DU-036B",
+    "H-CCR-13",
+    "H-CCR-14"
+  ],
+  "checks": [
+    {
+      "id": "compiler_exercises_all_four_verdicts",
+      "pass": true
+    },
+    {
+      "digest": "baeecc8ed766e4d970a627fb292fc6deca712133447bed5b1daed86c0ef77675",
+      "id": "candidate_grammar_is_target_independent_in_implementation",
+      "pass": true
+    },
+    {
+      "id": "platform_label_is_not_a_decision_input",
+      "pass": true
+    },
+    {
+      "id": "quantum_like_fixture_uses_noninvertible_paths",
+      "pass": true
+    },
+    {
+      "id": "distributed_fixture_uses_noninvertible_paths",
+      "pass": true
+    },
+    {
+      "id": "quantum_like_witness_absorbed_by_formed_provenance",
+      "pass": true
+    },
+    {
+      "id": "authenticated_distributed_witness_absorbed_by_provenance",
+      "pass": true
+    },
+    {
+      "id": "fixed_oracle_and_target_decoder_are_excluded",
+      "pass": true
+    },
+    {
+      "id": "complete_outcome_scores_expose_positive_base_gaps",
+      "pass": true
+    },
+    {
+      "id": "both_fixtures_need_two_path_provenance_values",
+      "pass": true
+    },
+    {
+      "id": "nonzero_tolerance_is_rejected_without_closure_rule",
+      "pass": true
+    }
+  ],
+  "checks_passed": 11,
+  "checks_total": 11,
+  "claim_grade": "EXACT FINITE RATIONAL SOFTWARE/FORMAL PILOT / TARGET-INDEPENDENT GRAMMAR AND TARGET-DEPENDENT SELECTION SEPARATED / PHYSICAL TRANSFER AND NOVELTY OPEN",
+  "fixture_results": {
+    "authenticated_distributed": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 4,
+          "factors": false,
+          "first_conflict": {
+            "certified_path_tags": [],
+            "left_action": "abort",
+            "left_history": "equivocating_history_b",
+            "left_path": "leaderless_gossip_layer",
+            "public_view": "red",
+            "right_action": "commit",
+            "right_history": "serializable_history_a",
+            "right_path": "bft_hardening_layer"
+          },
+          "noninjective_paths": [
+            "leaderless_gossip_layer",
+            "bft_hardening_layer"
+          ],
+          "public_key_count": 2,
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1,
+          "unrefined_task_relative_bound": {
+            "conflict_edges": [
+              [
+                "leaderless_gossip_layer",
+                "bft_hardening_layer"
+              ]
+            ],
+            "minimum_task_relative_provenance_alphabet": 2,
+            "one_minimal_path_coloring": {
+              "bft_hardening_layer": 1,
+              "leaderless_gossip_layer": 0
+            },
+            "path_only_provenance_can_suffice": true,
+            "within_path_conflicts": []
+          }
+        },
+        "refinement_ids": [],
+        "response_factorization": {
+          "equality_rule": "exact_rational_stochastic_signature",
+          "factors": false,
+          "failure_count": 4,
+          "maximum_total_variation_gap": "3/4",
+          "optimal_complete_outcome_witness": {
+            "complete_outcomes": [
+              "accept_signal",
+              "reject_signal"
+            ],
+            "intervention": "audit_challenge",
+            "left_distribution": [
+              "19/20",
+              "1/20"
+            ],
+            "left_history": "serializable_history_a",
+            "optimal_signed_score": [
+              1,
+              -1
+            ],
+            "right_distribution": [
+              "1/5",
+              "4/5"
+            ],
+            "right_history": "equivocating_history_a",
+            "signed_score_gap": "3/2",
+            "total_variation_gap": "3/4"
+          },
+          "record_class_count": 1,
+          "same_record_pairs_checked": 6
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_layer",
+              "bft_hardening_layer"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "authenticated_layer_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "leaderless_gossip_layer",
+                  "bft_hardening_layer"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "bft_hardening_layer": 1,
+                "leaderless_gossip_layer": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "authenticated_layer_id"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": false,
+            "failure_count": 4,
+            "maximum_total_variation_gap": "3/4",
+            "optimal_complete_outcome_witness": {
+              "complete_outcomes": [
+                "accept_signal",
+                "reject_signal"
+              ],
+              "intervention": "audit_challenge",
+              "left_distribution": [
+                "19/20",
+                "1/20"
+              ],
+              "left_history": "serializable_history_a",
+              "optimal_signed_score": [
+                1,
+                -1
+              ],
+              "right_distribution": [
+                "1/5",
+                "4/5"
+              ],
+              "right_history": "equivocating_history_a",
+              "signed_score_gap": "3/2",
+              "total_variation_gap": "3/4"
+            },
+            "record_class_count": 1,
+            "same_record_pairs_checked": 6
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "certified_path_tags": [],
+              "left_action": "abort",
+              "left_history": "equivocating_history_b",
+              "left_path": "leaderless_gossip_layer",
+              "public_view": "red",
+              "right_action": "commit",
+              "right_history": "serializable_history_a",
+              "right_path": "bft_hardening_layer"
+            },
+            "noninjective_paths": [
+              "leaderless_gossip_layer",
+              "bft_hardening_layer"
+            ],
+            "public_key_count": 2,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "leaderless_gossip_layer",
+                  "bft_hardening_layer"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "bft_hardening_layer": 1,
+                "leaderless_gossip_layer": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "authenticated_operation_dag"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "certified_path_tags": [],
+              "left_action": "abort",
+              "left_history": "equivocating_history_b",
+              "left_path": "leaderless_gossip_layer",
+              "public_view": "red",
+              "right_action": "commit",
+              "right_history": "serializable_history_a",
+              "right_path": "bft_hardening_layer"
+            },
+            "noninjective_paths": [
+              "leaderless_gossip_layer",
+              "bft_hardening_layer"
+            ],
+            "public_key_count": 2,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "leaderless_gossip_layer",
+                  "bft_hardening_layer"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "bft_hardening_layer": 1,
+                "leaderless_gossip_layer": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "replicated_endpoint_copy"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": false,
+            "failure_count": 4,
+            "maximum_total_variation_gap": "3/4",
+            "optimal_complete_outcome_witness": {
+              "complete_outcomes": [
+                "accept_signal",
+                "reject_signal"
+              ],
+              "intervention": "audit_challenge",
+              "left_distribution": [
+                "19/20",
+                "1/20"
+              ],
+              "left_history": "serializable_history_a",
+              "optimal_signed_score": [
+                1,
+                -1
+              ],
+              "right_distribution": [
+                "1/5",
+                "4/5"
+              ],
+              "right_history": "equivocating_history_a",
+              "signed_score_gap": "3/2",
+              "total_variation_gap": "3/4"
+            },
+            "record_class_count": 1,
+            "same_record_pairs_checked": 6
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_layer",
+              "bft_hardening_layer"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "authenticated_layer_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "leaderless_gossip_layer",
+                  "bft_hardening_layer"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "bft_hardening_layer": 1,
+                "leaderless_gossip_layer": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "authenticated_layer_id",
+            "authenticated_operation_dag"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": true,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_layer",
+              "bft_hardening_layer"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "authenticated_layer_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "leaderless_gossip_layer",
+                  "bft_hardening_layer"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "bft_hardening_layer": 1,
+                "leaderless_gossip_layer": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "authenticated_layer_id",
+            "replicated_endpoint_copy"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": false,
+            "failure_count": 4,
+            "maximum_total_variation_gap": "3/4",
+            "optimal_complete_outcome_witness": {
+              "complete_outcomes": [
+                "accept_signal",
+                "reject_signal"
+              ],
+              "intervention": "audit_challenge",
+              "left_distribution": [
+                "19/20",
+                "1/20"
+              ],
+              "left_history": "serializable_history_a",
+              "optimal_signed_score": [
+                1,
+                -1
+              ],
+              "right_distribution": [
+                "1/5",
+                "4/5"
+              ],
+              "right_history": "equivocating_history_a",
+              "signed_score_gap": "3/2",
+              "total_variation_gap": "3/4"
+            },
+            "record_class_count": 1,
+            "same_record_pairs_checked": 6
+          },
+          "sufficient": false,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "certified_path_tags": [],
+              "left_action": "abort",
+              "left_history": "equivocating_history_b",
+              "left_path": "leaderless_gossip_layer",
+              "public_view": "red",
+              "right_action": "commit",
+              "right_history": "serializable_history_a",
+              "right_path": "bft_hardening_layer"
+            },
+            "noninjective_paths": [
+              "leaderless_gossip_layer",
+              "bft_hardening_layer"
+            ],
+            "public_key_count": 2,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "leaderless_gossip_layer",
+                  "bft_hardening_layer"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "bft_hardening_layer": 1,
+                "leaderless_gossip_layer": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "authenticated_operation_dag",
+            "replicated_endpoint_copy"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": false,
+          "total_cost": 2
+        }
+      ],
+      "certificate": {
+        "interpretation": "formed candidate provenance absorbs the base witness; no class-relative remainder",
+        "optimizer": "minimum(total_cost, primitive_count, lexicographic_refinement_ids)",
+        "selected": {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_layer",
+              "bft_hardening_layer"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "authenticated_layer_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "leaderless_gossip_layer",
+                  "bft_hardening_layer"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "bft_hardening_layer": 1,
+                "leaderless_gossip_layer": 0
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "authenticated_layer_id",
+            "authenticated_operation_dag"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": true,
+          "total_cost": 2
+        },
+        "strictly_prior_candidates_all_fail": true,
+        "strictly_prior_candidates_checked": 3
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded candidate grammar",
+      "contract_id": "DF-AUTHENTICATED-HISTORY-01",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "authenticated_layer_id",
+          "authenticated_operation_dag",
+          "replicated_endpoint_copy"
+        ],
+        "candidate_count": 6,
+        "candidate_subset_ids": [
+          [
+            "authenticated_layer_id"
+          ],
+          [
+            "authenticated_operation_dag"
+          ],
+          [
+            "replicated_endpoint_copy"
+          ],
+          [
+            "authenticated_layer_id",
+            "authenticated_operation_dag"
+          ],
+          [
+            "authenticated_layer_id",
+            "replicated_endpoint_copy"
+          ],
+          [
+            "authenticated_operation_dag",
+            "replicated_endpoint_copy"
+          ]
+        ],
+        "excluded_from_selection": [
+          "response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [
+          {
+            "reasons": [
+              "target_derived_candidate"
+            ],
+            "refinement_id": "adaptive_target_decoder"
+          }
+        ],
+        "selection_dependency": [
+          "refinement metadata",
+          "formed/future-independent/access/frame declarations",
+          "resource budget",
+          "base record",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "af3bcf79a33690d5f0f57d17a2460fc92cb8199bb7ac7588c0f52173457eaabf",
+      "platform_label": "authenticated_distributed_history",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/noninvertible-history-certificate/v0.1",
+      "verdict": "MINIMAL_REFINEMENT"
+    },
+    "noisy_quantum_like": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 4,
+          "factors": false,
+          "first_conflict": {
+            "certified_path_tags": [],
+            "left_action": "phase_correct",
+            "left_history": "minus_history_b",
+            "left_path": "direct_route",
+            "public_view": "dark",
+            "right_action": "preserve",
+            "right_history": "plus_history_a",
+            "right_path": "relay_route"
+          },
+          "noninjective_paths": [
+            "direct_route",
+            "relay_route"
+          ],
+          "public_key_count": 2,
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1,
+          "unrefined_task_relative_bound": {
+            "conflict_edges": [
+              [
+                "direct_route",
+                "relay_route"
+              ]
+            ],
+            "minimum_task_relative_provenance_alphabet": 2,
+            "one_minimal_path_coloring": {
+              "direct_route": 0,
+              "relay_route": 1
+            },
+            "path_only_provenance_can_suffice": true,
+            "within_path_conflicts": []
+          }
+        },
+        "refinement_ids": [],
+        "response_factorization": {
+          "equality_rule": "exact_rational_stochastic_signature",
+          "factors": false,
+          "failure_count": 4,
+          "maximum_total_variation_gap": "4/5",
+          "optimal_complete_outcome_witness": {
+            "complete_outcomes": [
+              "port_0",
+              "port_1"
+            ],
+            "intervention": "coherent_recombination_X",
+            "left_distribution": [
+              "9/10",
+              "1/10"
+            ],
+            "left_history": "plus_history_a",
+            "optimal_signed_score": [
+              1,
+              -1
+            ],
+            "right_distribution": [
+              "1/10",
+              "9/10"
+            ],
+            "right_history": "minus_history_a",
+            "signed_score_gap": "8/5",
+            "total_variation_gap": "4/5"
+          },
+          "record_class_count": 1,
+          "same_record_pairs_checked": 6
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_route",
+              "relay_route"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "certified_route_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "direct_route",
+                  "relay_route"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "direct_route": 0,
+                "relay_route": 1
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "certified_route_id"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": false,
+            "failure_count": 4,
+            "maximum_total_variation_gap": "4/5",
+            "optimal_complete_outcome_witness": {
+              "complete_outcomes": [
+                "port_0",
+                "port_1"
+              ],
+              "intervention": "coherent_recombination_X",
+              "left_distribution": [
+                "9/10",
+                "1/10"
+              ],
+              "left_history": "plus_history_a",
+              "optimal_signed_score": [
+                1,
+                -1
+              ],
+              "right_distribution": [
+                "1/10",
+                "9/10"
+              ],
+              "right_history": "minus_history_a",
+              "signed_score_gap": "8/5",
+              "total_variation_gap": "4/5"
+            },
+            "record_class_count": 1,
+            "same_record_pairs_checked": 6
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "certified_path_tags": [],
+              "left_action": "phase_correct",
+              "left_history": "minus_history_b",
+              "left_path": "direct_route",
+              "public_view": "dark",
+              "right_action": "preserve",
+              "right_history": "plus_history_a",
+              "right_path": "relay_route"
+            },
+            "noninjective_paths": [
+              "direct_route",
+              "relay_route"
+            ],
+            "public_key_count": 2,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "direct_route",
+                  "relay_route"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "direct_route": 0,
+                "relay_route": 1
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "duplicate_endpoint_copy"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": false,
+            "failure_count": 4,
+            "maximum_total_variation_gap": "4/5",
+            "optimal_complete_outcome_witness": {
+              "complete_outcomes": [
+                "port_0",
+                "port_1"
+              ],
+              "intervention": "coherent_recombination_X",
+              "left_distribution": [
+                "9/10",
+                "1/10"
+              ],
+              "left_history": "plus_history_a",
+              "optimal_signed_score": [
+                1,
+                -1
+              ],
+              "right_distribution": [
+                "1/10",
+                "9/10"
+              ],
+              "right_history": "minus_history_a",
+              "signed_score_gap": "8/5",
+              "total_variation_gap": "4/5"
+            },
+            "record_class_count": 1,
+            "same_record_pairs_checked": 6
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "certified_path_tags": [],
+              "left_action": "phase_correct",
+              "left_history": "minus_history_b",
+              "left_path": "direct_route",
+              "public_view": "dark",
+              "right_action": "preserve",
+              "right_history": "plus_history_a",
+              "right_path": "relay_route"
+            },
+            "noninjective_paths": [
+              "direct_route",
+              "relay_route"
+            ],
+            "public_key_count": 2,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "direct_route",
+                  "relay_route"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "direct_route": 0,
+                "relay_route": 1
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "formed_recombination_port"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_route",
+              "relay_route"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "certified_route_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "direct_route",
+                  "relay_route"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "direct_route": 0,
+                "relay_route": 1
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "certified_route_id",
+            "duplicate_endpoint_copy"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": false,
+            "failure_count": 4,
+            "maximum_total_variation_gap": "4/5",
+            "optimal_complete_outcome_witness": {
+              "complete_outcomes": [
+                "port_0",
+                "port_1"
+              ],
+              "intervention": "coherent_recombination_X",
+              "left_distribution": [
+                "9/10",
+                "1/10"
+              ],
+              "left_history": "plus_history_a",
+              "optimal_signed_score": [
+                1,
+                -1
+              ],
+              "right_distribution": [
+                "1/10",
+                "9/10"
+              ],
+              "right_history": "minus_history_a",
+              "signed_score_gap": "8/5",
+              "total_variation_gap": "4/5"
+            },
+            "record_class_count": 1,
+            "same_record_pairs_checked": 6
+          },
+          "sufficient": false,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_route",
+              "relay_route"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "certified_route_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "direct_route",
+                  "relay_route"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "direct_route": 0,
+                "relay_route": 1
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "certified_route_id",
+            "formed_recombination_port"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": true,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "certified_path_tags": [],
+              "left_action": "phase_correct",
+              "left_history": "minus_history_b",
+              "left_path": "direct_route",
+              "public_view": "dark",
+              "right_action": "preserve",
+              "right_history": "plus_history_a",
+              "right_path": "relay_route"
+            },
+            "noninjective_paths": [
+              "direct_route",
+              "relay_route"
+            ],
+            "public_key_count": 2,
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "direct_route",
+                  "relay_route"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "direct_route": 0,
+                "relay_route": 1
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "duplicate_endpoint_copy",
+            "formed_recombination_port"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": false,
+          "total_cost": 2
+        }
+      ],
+      "certificate": {
+        "interpretation": "formed candidate provenance absorbs the base witness; no class-relative remainder",
+        "optimizer": "minimum(total_cost, primitive_count, lexicographic_refinement_ids)",
+        "selected": {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_route",
+              "relay_route"
+            ],
+            "public_key_count": 4,
+            "selected_certified_path_provenance": [
+              "certified_route_id"
+            ],
+            "selected_path_provenance_alphabet": 2,
+            "unrefined_task_relative_bound": {
+              "conflict_edges": [
+                [
+                  "direct_route",
+                  "relay_route"
+                ]
+              ],
+              "minimum_task_relative_provenance_alphabet": 2,
+              "one_minimal_path_coloring": {
+                "direct_route": 0,
+                "relay_route": 1
+              },
+              "path_only_provenance_can_suffice": true,
+              "within_path_conflicts": []
+            }
+          },
+          "refinement_ids": [
+            "certified_route_id",
+            "formed_recombination_port"
+          ],
+          "response_factorization": {
+            "equality_rule": "exact_rational_stochastic_signature",
+            "factors": true,
+            "failure_count": 0,
+            "maximum_total_variation_gap": "0",
+            "optimal_complete_outcome_witness": null,
+            "record_class_count": 2,
+            "same_record_pairs_checked": 2
+          },
+          "sufficient": true,
+          "total_cost": 2
+        },
+        "strictly_prior_candidates_all_fail": true,
+        "strictly_prior_candidates_checked": 4
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded candidate grammar",
+      "contract_id": "QF-ROUTE-EXACT-RATIONAL-01",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "certified_route_id",
+          "duplicate_endpoint_copy",
+          "formed_recombination_port"
+        ],
+        "candidate_count": 6,
+        "candidate_subset_ids": [
+          [
+            "certified_route_id"
+          ],
+          [
+            "duplicate_endpoint_copy"
+          ],
+          [
+            "formed_recombination_port"
+          ],
+          [
+            "certified_route_id",
+            "duplicate_endpoint_copy"
+          ],
+          [
+            "certified_route_id",
+            "formed_recombination_port"
+          ],
+          [
+            "duplicate_endpoint_copy",
+            "formed_recombination_port"
+          ]
+        ],
+        "excluded_from_selection": [
+          "response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [
+          {
+            "reasons": [
+              "not_future_independent"
+            ],
+            "refinement_id": "stage_zero_future_oracle"
+          }
+        ],
+        "selection_dependency": [
+          "refinement metadata",
+          "formed/future-independent/access/frame declarations",
+          "resource budget",
+          "base record",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "baeecc8ed766e4d970a627fb292fc6deca712133447bed5b1daed86c0ef77675",
+      "platform_label": "noisy_quantum_like_coherent_route",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/noninvertible-history-certificate/v0.1",
+      "verdict": "MINIMAL_REFINEMENT"
+    }
+  },
+  "not_established": [
+    "physical record selection",
+    "complete physically legitimate refinement class",
+    "irreducible physical remainder",
+    "quantum/distributed physical identity",
+    "approximate/noisy quotient theorem",
+    "robust calibration or finite-shot guarantee",
+    "public objectivity or finality law",
+    "novel publishable theorem",
+    "record-first ontology"
+  ],
+  "schema": "dynamic-unity/noninvertible-history-certificate-compiler-probe/v0.1",
+  "verdict": "FINITE COMPILER KERNEL VIABLE / BOTH CROSS-PLATFORM WITNESSES ABSORBED BY FORMED PROVENANCE / NO CLASS-RELATIVE REMAINDER IN EITHER FOCAL FIXTURE"
+}

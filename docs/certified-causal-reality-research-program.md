@@ -108,16 +108,34 @@ The recharter preserves, rather than promotes, the strongest exact results:
   but routed implementation data absorbs that witness. These are exact
   finite group/graph/channel specializations and interface controls, not new
   physical curvature, public objectivity, or a thermodynamic law.
+- In the binary controlled nondemolition recorder class with a blank
+  source-independent environment and arbitrary fixed archive noise, accessible
+  record distinguishability and induced source dephasing obey the tight bound
+  \(D_R^2\leq4\delta(1-\delta)\). Conditionally independent fragments give a
+  product-fidelity consequence, and finite archive decoding obeys the
+  Holevo-Fano support bound. These are exact controls, but the general package
+  is absorbed by established complementarity, information-disturbance, and
+  information-support results. Clock-QCA-specific classification or a
+  genuinely nonseparable covariance-locality-support bound remains open.
+- A finite exact-rational history-certificate compiler now separates a
+  target-independent refinement grammar from target-dependent sufficiency
+  selection and returns factorization, minimum supplied refinement,
+  candidate-class remainder, or incomplete contract. The same kernel ran on a
+  noisy quantum-like fixture and an authenticated distributed-history fixture.
+  Both returned minimum refinement: formed history evidence plus certified
+  route provenance absorbed the witness. No physical remainder was found.
 
 These results complete the finite classical quotient bookkeeping and the
 first static layered-threshold and deterministic interventional-closure
 controls. They keep **record formation and physical interface selection** as
-the first scientific dependency. The immediate physical swing is a coupled
-`HC-DU-034B/036B` history-and-refinement assay; it should supply the formed
-record and omitted distinction whose formation-to-finality cost
-`HC-DU-035B` can then price. These controls do not establish an observer,
-proper time, public classicality, continuum covariance, gravity, cosmology,
-or record-first ontology.
+the first scientific dependency. The compiler kernel for the coupled
+`HC-DU-034B/036B` history-and-refinement assay now exists. The immediate
+physical swing is to replace one supplied table with a complete routed process
+instrument, strongest implementation-complete null, calibrated margin, and
+frozen physically admissible refinement class. Only a surviving formed
+distinction should route to `HC-DU-035B` for formation-to-finality pricing.
+These controls do not establish an observer, proper time, public classicality,
+continuum covariance, gravity, cosmology, or record-first ontology.
 
 ## Cross-repo hardening suite
 
@@ -344,12 +362,20 @@ equivalence terrain. `HC-DU-034A` is an exact specialization of coherent
 history recombination: its ideal signed-port null and estimator are useful
 assay engineering, not a new physical law.
 
-The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`,
-`HC-DU-036B`, and `HC-DU-037..040` retain only an initial collision-class
-inventory. Process tensors/combs, resource robustness, system
-identification, and causal-set reconstruction remain mandatory neighboring
-classes. No proposed law or theorem receives novelty language until Lane 4.1
-completes its claim-specific comparison.
+The covariant-record closing swing now has a source-pinned hostile collision
+audit. Its binary tradeoff is an Englert-style complementarity specialization
+with the exact dephasing-channel diamond distance; its fragment and support
+results are fidelity-product and Holevo-Fano controls. The current general
+`DU-PAPER-003` package is **ABSORBED**. Only a Clock-QCA recorder-extension
+classification or a nonseparable covariance-locality-support theorem remains
+search-incomplete.
+
+The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`, the physical
+formation/transfer portion of `HC-DU-036B`, and `HC-DU-037..040` retain only
+an initial collision-class inventory. Process tensors/combs, resource
+robustness, system identification, and causal-set reconstruction remain
+mandatory neighboring classes. No proposed law or theorem receives novelty
+language until Lane 4.1 completes its claim-specific comparison.
 
 ## Primary theorem and conjecture spine
 
@@ -519,6 +545,19 @@ Return factorization, interface incompleteness, a formation-relative physical
 remainder, or an incomplete comparison contract. Stop if the two platforms
 require semantic refitting or the result is only ordinary automata
 equivalence in two vocabularies.
+
+**Executed finite compiler pilot — `HC-DU-036B`.** A nonempty finite
+target-independent grammar and exact-rational proof-carrying kernel now return
+`FACTORIZATION`, `MINIMAL_REFINEMENT`, `CANDIDATE_REMAINDER`, or
+`INCOMPLETE_CONTRACT`. One quantum-like coherent-route table and one
+authenticated distributed-history table ran through the unchanged schema.
+Both returned `MINIMAL_REFINEMENT`: independently supplied formed history
+evidence repaired response factorization and certified route/layer provenance
+repaired noninvertible path decoding. This demonstrates a viable kernel and a
+cross-platform typed analogy; it does not establish physical formation,
+exhaustive admissibility, a remainder, an approximate theorem, or a quantum/BFT
+identity. See
+`../explorations/noninvertible-history-certificate-compiler-pilot-2026-07-24.md`.
 
 The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
 future-correlated oracle or response tree, departed environmental support, and
@@ -705,7 +744,9 @@ Only after the preceding dependencies:
         |
 3a'. finite holonomy/public-fact/project-or-lift baseline [COMPLETED]
         |
-3b. HC-DU-036B physical admissible-refinement and cross-platform lift [OPEN]
+3b. HC-DU-036B finite history-certificate compiler [COMPLETED PILOT]
+    HC-DU-036B physical formation, admissible refinement and calibrated
+    cross-platform lift [OPEN]
         |
 4. HC-DU-037 capability, optionality, and resource results
    HC-DU-032 observer-individuation overlay
@@ -933,26 +974,32 @@ broader than this ladder. Factory seed readiness is cheap opportunity custody;
 the ladder below expresses present scientific paper routes, not a production
 queue.
 
-1. **Covariant Records Are Not Free**
-   The closest current paper route: sharpen the exact Clock-QCA
-   construction/nonselection/archive package into an approximate
-   record-disturbance-support tradeoff.
-2. **Interventional Record Sufficiency**
+1. **Interventional Record Sufficiency**
    The flagship route: finite conditions, proof-carrying refinement or
-   remainder certificates, and unchanged quantum/distributed transfer.
+   remainder certificates, followed by physical quantum/distributed transfer.
+   The finite compiler exists; both first fixtures were absorbed by formed
+   provenance.
+2. **Tail Universality Classes in Causal-Set Post Renormalization**
+   The next concentrated paper-closing route after two novelty gates narrowed:
+   a claim-specific collision review, uniform asymptotic theorem, and tight
+   counterfamilies.
 3. **Higher-Order Public Finality**
    The distinctive cross-domain route: noisy/noninvertible loop syndromes,
    safe action algebras, higher certificates, and minimum provenance.
-4. **Finality, Capability, and Coherent Optionality**
+4. **Covariance Does Not Select Records in the Clock QCA**
+   A conditional narrow route only. The general record-cost package is
+   absorbed; reopen only for a non-tautological Clock-QCA extension
+   classification or nonseparable covariance-locality-support theorem.
+5. **Finality, Capability, and Coherent Optionality**
    Cost-aware capability correspondence and a quantitative matched-resource
    tradeoff after a physically formed distinction exists.
-5. **Meta-Record Geometry**
+6. **Meta-Record Geometry**
    Reconstruction and nonuniqueness theorems from acquisition and provenance,
    after the benign-refinement category is frozen.
-6. **Certified Causal Reality**
+7. **Certified Causal Reality**
    Umbrella theory only after at least two theorem families and cross-platform
    transfer survive.
-7. **GU and cosmology application**
+8. **GU and cosmology application**
    Only if the same substrate reconstructs physics and selects the relevant
    count, scale, observable, sign, coefficient, and units.
 

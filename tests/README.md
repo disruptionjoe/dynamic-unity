@@ -71,6 +71,34 @@ portfolio and custody-record integrity only. It does not establish scientific
 truth, novelty, manuscript quality, Factory priority, production activation,
 submission, or publication.
 
+## Concentrated paper-closing probes
+
+`du_covariant_record_cost_closing_probe.py` checks the scoped binary
+controlled-recorder package used in the `DU-PAPER-003` closing gate:
+
+- the tight relation \(D_R^2\leq4\delta(1-\delta)\) between accessible record
+  distinguishability and dephasing-channel distance;
+- the conditionally independent fragment consequence; and
+- the Holevo-Fano finite archive-support bound.
+
+It passes `12/12` checks with byte-identical output across repeated runs. The
+collision audit classifies the general package as absorbed; this probe is an
+exact benchmark, not a novelty or publication verdict.
+
+`du_noninvertible_history_certificate_compiler_probe.py` implements the finite
+exact-rational `HC-DU-036B` pilot. It freezes a target-independent candidate
+grammar before target-dependent selection and returns factorization, minimum
+supplied refinement, candidate-class remainder, or incomplete contract. The
+same typed kernel runs on a noisy quantum-like route fixture and an
+authenticated distributed-history fixture. Both return minimum refinement:
+formed history evidence plus certified route/layer provenance repairs the
+base witness.
+
+It passes `11/11` checks with byte-identical output across repeated runs. The
+result establishes a viable finite compiler kernel only. It does not establish
+physical record formation, an exhaustive completion class, a quantum/BFT
+identity, an approximate theorem, a resource law, or a physical remainder.
+
 ## Conditional and abductive candidate artifacts
 
 `conditional_candidate_harness.py` implements the comparison contract in

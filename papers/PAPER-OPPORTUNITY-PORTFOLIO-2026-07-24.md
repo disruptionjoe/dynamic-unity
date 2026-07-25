@@ -1,12 +1,13 @@
 ---
 title: "Dynamic Unity paper-opportunity portfolio and preliminary readiness audit"
-status: completed_portfolio_audit_and_factory_intake
+status: completed_portfolio_audit_factory_intake_and_source_evidence_update
 doc_type: upstream_paper_opportunity_inventory
 created: 2026-07-24
 run_id: RUN-20260724-204614-paper-opportunity-portfolio-audit
 source_revision: 63a50a212d789797b6e21c0f3cf109ae7d34ecbe
 reconciled_source_revision: 0504f948891a97b87fdfca561575d3490d92d97d
 factory_intake_revision: ca7b748e58e9210fbace1ad897df88f849ae9ff5
+source_evidence_update_run: RUN-20260724-213302-concentrated-paper-closing-program
 claim_grade: "PORTFOLIO, FACTORY-SEED READINESS, AND CONFIRMED INTAKE / NO SCIENTIFIC, PRODUCTION, OR PUBLICATION PROMOTION"
 ---
 
@@ -34,6 +35,30 @@ publication ledger.
 The machine-readable portfolio is
 `papers/paper-opportunity-portfolio.json`. Its deterministic audit is
 `tests/du_paper_opportunity_portfolio_probe.py`.
+
+## Concentrated-closing evidence update
+
+The later gated closing swing changed source-side scientific readiness without
+changing Factory custody:
+
+- `DU-PAPER-003` gained a tight exact binary record-disturbance theorem,
+  independent-fragment consequence, and archive-support control, but the
+  general package was absorbed by established complementarity,
+  information-disturbance, and support results. It is parked behind two
+  Clock-QCA-specific pre-proofs.
+- `DU-PAPER-007/009` gained a viable finite history-certificate compiler. The
+  unchanged typed kernel ran on quantum-like and authenticated distributed
+  fixtures; both apparent remainders were repaired by formed history evidence
+  plus route provenance.
+- `DU-PAPER-015` also narrowed. Its broad scheduler-quotient theorem is
+  standard; only a Clock-QCA instrument-level scheduler/boost/leakage theorem
+  can reopen it.
+- `DU-PAPER-013` is now the next concentrated paper-closing source swing.
+  `DU-PAPER-007` remains the foundational flagship.
+
+See
+`../explorations/concentrated-paper-closing-program-synthesis-2026-07-24.md`.
+Every Factory seed remains unselected.
 
 ## The seed-readiness correction
 
@@ -92,11 +117,11 @@ Neither should be reseeded.
 
 | ID | Working paper | Current source grade | Estimated manuscript work | Load-bearing next work |
 |---|---|---|---:|---|
-| `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact Clock-QCA recorder, obstruction, complementarity, archive, and boundary controls | `1` swing | Primary-literature collision plus a tight approximate record-disturbance-support/archive-cost theorem |
-| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite and finite-linear factorization/witness baseline | `2–3` | Freeze completion class, build proof-carrying compiler, and transfer unchanged across quantum and distributed fixtures |
-| `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible holonomy/fixed-algebra/project-or-lift baseline | `2–3` | Noninvertible/noisy theorem, higher-certificate relation, and BFT/QEC transfer |
+| `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact tight record-disturbance/support controls; general novelty absorbed | `1` pre-proof | Clock-QCA extension classification or nonseparable covariance-locality-support theorem; otherwise merge/stop |
+| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure plus viable proof-carrying compiler; both first fixtures absorbed by provenance | `2–3` | Replace supplied tables with complete physical routed-quantum and authenticated DAG/BFT processes |
+| `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible baseline plus finite noninvertible path/provenance compiler pilot | `2–3` | Noisy physical theorem, higher-certificate relation, and unchanged BFT/QEC transfer |
 | `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Known exact post map plus locally derived multi-tail exponent family | `1` | Full causal-set collision review and a uniform asymptotic theorem with tight counterfamilies |
-| `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Five exact finite scheduler/clock controls and reunion no-go | `1–2` | One unified gauge-or-witness theorem and logical-clock/relativity/discrete-model collision review |
+| `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Exact finite controls; general quotient theorem occupied | `1` pre-proof | Clock-QCA record instrument, scheduler/boost congruence, and tight minimal Lorentz-sensitive leakage theorem |
 | `DU-PAPER-016` | **Systems Without a Privileged Depth** | Exact finite active-control constructions and depth-refinement countertheorem | `1–2` | General role-cover theorem, prior-art review, and one non-toy specimen |
 | `DU-PAPER-017` | **Finite Records Cannot Certify Open-Endedness** | Exact aliasing, finite-prefix, fixed-completion, and fixed-oracle controls | `1–2` | Freeze completion/novelty class and prove a parameterized escape-or-incomplete-contract theorem |
 
@@ -166,12 +191,13 @@ No transfer has been sent by this audit.
 
 ### Closest source packets
 
-One item is already Factory post-ready. Six more paper families are plausibly
-one concentrated source-hardening swing from a defensible packet:
+One item is already Factory post-ready. Six more paper families remain within
+one concentrated source-hardening or decisive pre-proof swing:
 
-1. `DU-PAPER-003` — covariant records;
-2. `DU-PAPER-013` — causal-set post tail classes;
-3. `DU-PAPER-015` — global clock gauge-or-witness;
+1. `DU-PAPER-013` — causal-set post tail classes;
+2. `DU-PAPER-003` — covariant records, now a stop/go pre-proof rather than a
+   default paper build;
+3. `DU-PAPER-015` — global clock gauge-or-witness, also a stop/go pre-proof;
 4. `DU-PAPER-016` — systems without privileged depth;
 5. `DU-PAPER-017` — finite records and open-endedness; and
 6. `DU-PAPER-004` — boundary relocation, likely merged with `003`.
@@ -181,23 +207,26 @@ source material to a paper-shaped package.
 
 ### Highest-upside source sequence
 
-If Dynamic Unity funds only one paper-hardening swing:
+After the concentrated closing swing, the source sequence separates immediate
+paper closure from foundational importance:
 
-1. **`DU-PAPER-003`** remains the shortest credible paper path.
+1. **`DU-PAPER-013`** is the next concentrated paper-closing allocation.
 2. **`DU-PAPER-007`** remains the flagship route most central to the program.
 3. **`DU-PAPER-009`** remains the most distinctive cross-domain theorem route.
 
-The portfolio adds `013`, `015`, `016`, and `017` as serious lower-cost
-alternatives that the previous top-three exercise did not fully expose.
+`DU-PAPER-003` and `015` remain preserved in Factory custody but are parked
+behind explicit pre-proofs. `016` and `017` remain serious lower-cost
+reserves.
 
 ### Why the new alternatives matter
 
 - The CSG tail-class result already has a compact theorem shape, but it is
   collision-sensitive because causal-set post renormalization is established
   terrain.
-- The global-clock result has multiple exact countermodels and a clean
-  gauge-or-witness question, but needs one unified theorem rather than five
-  probe narratives.
+- The global-clock result has multiple exact countermodels, but the broad
+  gauge-or-witness theorem collides with trace, refinement, bisimulation, and
+  label-invariance mathematics. Only the Clock-QCA physical specialization
+  remains open.
 - The role-cover result may be more publishable as control/system
   individuation than as fundamental physics.
 - The open-endedness result could consolidate a repeated lesson across DU,
@@ -208,9 +237,11 @@ alternatives that the previous top-three exercise did not fully expose.
 
 This is a routing scan, not a claim-specific novelty verdict.
 
-- QCA has a mature structure and simulation literature, so
-  `DU-PAPER-003` must live on the new record tradeoff rather than the use of a
-  QCA host:
+- QCA has a mature structure and simulation literature. The subsequent
+  claim-specific audit also absorbed the general record tradeoff, so
+  `DU-PAPER-003` must now live on a Clock-QCA-specific extension
+  classification or a genuinely nonseparable physical bound rather than on
+  either the host or the binary curve:
   [Arrighi's QCA overview](https://arxiv.org/abs/1904.12956) and
   [the exact Clock-QCA source](https://arxiv.org/abs/1404.4499).
 - Process tensors and complete operational histories are established, so
