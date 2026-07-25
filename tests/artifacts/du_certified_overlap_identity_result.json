@@ -1,0 +1,291 @@
+{
+  "authenticated_protocol_control": {
+    "authenticated_equivocation_control": {
+      "both_route_messages_authentic": true,
+      "canonical_value_identity_certified": false,
+      "disposition": "AUTHENTICATED_OCCURRENCES / CANONICAL_VALUE_IDENTITY_REFUTED_BY_EQUIVOCATION",
+      "same_epoch": true,
+      "same_formed_origin_epoch_value_commitment": false,
+      "same_origin_label": true,
+      "same_route": false
+    },
+    "consistent_cross_route_control": {
+      "both_route_messages_authentic": true,
+      "canonical_value_identity_certified": true,
+      "disposition": "CANONICAL_VALUE_IDENTITY_CERTIFIED_IN_FIXTURE_BY_FORMED_ORIGIN_EPOCH_VALUE_COMMITMENT",
+      "same_epoch": true,
+      "same_formed_origin_epoch_value_commitment": true,
+      "same_origin_label": true,
+      "same_route": false
+    },
+    "cross_epoch_nonidentity_control": {
+      "both_route_messages_authentic": true,
+      "canonical_value_identity_certified": false,
+      "disposition": "PROVENANCE_IDENTITY_INCOMPLETE_OR_REJECTED",
+      "same_epoch": false,
+      "same_formed_origin_epoch_value_commitment": false,
+      "same_origin_label": true,
+      "same_route": false
+    },
+    "lesson": "authentication certifies each occurrence and its route; it does not force two same-origin occurrences to carry one value"
+  },
+  "check_count": 16,
+  "checks": {
+    "all_quantum_candidate_instruments_are_trace_preserving": true,
+    "authenticated_equivocation_preserves_occurrence_authenticity": true,
+    "authenticated_equivocation_refutes_canonical_value_identity": true,
+    "consistent_origin_epoch_value_commitment_certifies_fixture_identity": true,
+    "consistent_protocol_occurrences_are_authentic": true,
+    "cross_epoch_occurrences_are_not_one_certified_value": true,
+    "identical_quantum_instruments_have_equal_continuations": true,
+    "identical_quantum_instruments_have_equal_effects": true,
+    "identical_quantum_instruments_have_equal_selective_maps": true,
+    "phase_changed_kraus_implementation_has_equal_continuations": true,
+    "phase_changed_kraus_implementation_has_equal_effects": true,
+    "phase_changed_kraus_implementation_quotients_to_same_cp_maps": true,
+    "post_record_flip_has_identical_outcome_effects": true,
+    "post_record_flip_is_not_same_selective_instrument": true,
+    "post_record_flip_is_separated_by_next_measurement": true,
+    "post_record_flip_matches_tomographic_outcome_probabilities": true
+  },
+  "claim_grade": "EXACT FINITE TYPED IDENTITY ASSAY / KNOWN QUANTUM-INSTRUMENT AND AUTHENTICATED-RECORD MATHEMATICS / PHYSICAL SELECTION OPEN",
+  "does_not_establish": [
+    "a physical law selecting overlap identities",
+    "device-independent instrument equivalence",
+    "laboratory robustness",
+    "cryptographic security",
+    "BFT finality",
+    "beyond-standard quantum dynamics",
+    "record-first ontology"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "quantum_instrument_control": {
+    "frozen_identity_receipt": "compare effects and selective maps before marginal descent; hold out a sequential continuation and quotient implementations that induce the same complete CP maps",
+    "identical_context_control": {
+      "both_nonselective_maps_trace_preserving": true,
+      "continuation_rows": [
+        {
+          "initial": 0,
+          "left_next_z_weights": [
+            "1",
+            "0"
+          ],
+          "record_outcome": 0,
+          "record_probability": "1",
+          "right_next_z_weights": [
+            "1",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 0,
+          "left_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "record_outcome": 1,
+          "record_probability": "0",
+          "right_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 1,
+          "left_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "record_outcome": 0,
+          "record_probability": "0",
+          "right_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 1,
+          "left_next_z_weights": [
+            "0",
+            "1"
+          ],
+          "record_outcome": 1,
+          "record_probability": "1",
+          "right_next_z_weights": [
+            "0",
+            "1"
+          ],
+          "same_continuation": true
+        }
+      ],
+      "disposition": "SELECTIVE_INSTRUMENT_IDENTITY_CERTIFIED_RELATIVE_TO_DECLARED_LINEAR_MAP_CLASS",
+      "effects_equal_exactly": true,
+      "held_out_next_z_continuation_equal": true,
+      "held_out_separator_count": 0,
+      "identity_type": "complete selective instrument",
+      "left_instrument": "context_A_qnd_Z",
+      "right_instrument": "context_B_qnd_Z",
+      "same_record_label": true,
+      "selective_maps_equal_on_matrix_basis": true,
+      "tomographically_complete_probe_probabilities_equal": true
+    },
+    "implementation_phase_quotient_control": {
+      "both_nonselective_maps_trace_preserving": true,
+      "continuation_rows": [
+        {
+          "initial": 0,
+          "left_next_z_weights": [
+            "1",
+            "0"
+          ],
+          "record_outcome": 0,
+          "record_probability": "1",
+          "right_next_z_weights": [
+            "1",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 0,
+          "left_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "record_outcome": 1,
+          "record_probability": "0",
+          "right_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 1,
+          "left_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "record_outcome": 0,
+          "record_probability": "0",
+          "right_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 1,
+          "left_next_z_weights": [
+            "0",
+            "1"
+          ],
+          "record_outcome": 1,
+          "record_probability": "1",
+          "right_next_z_weights": [
+            "0",
+            "1"
+          ],
+          "same_continuation": true
+        }
+      ],
+      "disposition": "SELECTIVE_INSTRUMENT_IDENTITY_CERTIFIED_RELATIVE_TO_DECLARED_LINEAR_MAP_CLASS",
+      "effects_equal_exactly": true,
+      "held_out_next_z_continuation_equal": true,
+      "held_out_separator_count": 0,
+      "identity_type": "complete selective instrument",
+      "left_instrument": "context_A_qnd_Z",
+      "right_instrument": "context_B_outcome_phase_Z",
+      "same_record_label": true,
+      "selective_maps_equal_on_matrix_basis": true,
+      "tomographically_complete_probe_probabilities_equal": true
+    },
+    "lesson": "equality of POVM effects licenses equality of outcome statistics but not equality of selective instruments, retained histories or future capabilities",
+    "matched_effect_disturbance_rival": {
+      "both_nonselective_maps_trace_preserving": true,
+      "continuation_rows": [
+        {
+          "initial": 0,
+          "left_next_z_weights": [
+            "1",
+            "0"
+          ],
+          "record_outcome": 0,
+          "record_probability": "1",
+          "right_next_z_weights": [
+            "0",
+            "1"
+          ],
+          "same_continuation": false
+        },
+        {
+          "initial": 0,
+          "left_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "record_outcome": 1,
+          "record_probability": "0",
+          "right_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 1,
+          "left_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "record_outcome": 0,
+          "record_probability": "0",
+          "right_next_z_weights": [
+            "0",
+            "0"
+          ],
+          "same_continuation": true
+        },
+        {
+          "initial": 1,
+          "left_next_z_weights": [
+            "0",
+            "1"
+          ],
+          "record_outcome": 1,
+          "record_probability": "1",
+          "right_next_z_weights": [
+            "1",
+            "0"
+          ],
+          "same_continuation": false
+        }
+      ],
+      "disposition": "OUTCOME_EFFECT_IDENTITY_ONLY / MULTITIME_INSTRUMENT_IDENTITY_REFUTED",
+      "effects_equal_exactly": true,
+      "held_out_next_z_continuation_equal": false,
+      "held_out_separator_count": 2,
+      "identity_type": "outcome effect only",
+      "left_instrument": "context_A_qnd_Z",
+      "right_instrument": "context_B_post_record_X",
+      "same_record_label": true,
+      "selective_maps_equal_on_matrix_basis": false,
+      "tomographically_complete_probe_probabilities_equal": true
+    }
+  },
+  "run_id": "RUN-20260725-075017-operational-theory-landscape",
+  "schema_version": "dynamic-unity/certified-overlap-identity/v0.1",
+  "typed_identity_ladder": [
+    "same label",
+    "same outcome effect",
+    "same selective instrument",
+    "same multi-time continuation",
+    "same provenance/value",
+    "same declared upper action"
+  ],
+  "verdict": "OUTCOME_EFFECT_IDENTITY_SEPARATED_FROM_INSTRUMENT_HISTORY_IDENTITY / IMPLEMENTATION_GAUGE_QUOTIENTED / AUTHENTICATION_SEPARATED_FROM_CROSS_ROUTE_VALUE_IDENTITY"
+}

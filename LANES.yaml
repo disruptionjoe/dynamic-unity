@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 32
+manifest_revision: 33
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -81,6 +81,15 @@ active_hardening_program_note: >-
   cross-context remainders are absorbed—one by route provenance plus safe equivocation rejection,
   the other by standard contextuality plus the implemented context register. Certified overlap
   identity, sparse exact scaling and recursive vector-defect composition are now open.
+  Revision 33 installs a reusable operational-theory landscape contract and exact
+  local/quantum/no-signalling calibration, then executes the first typed overlap-identity
+  pilot. The landscape probe passes 28/28 across local, rational and algebraic quantum,
+  post-quantum, PR, signalling, invalid and withheld-realization controls. The identity probe
+  passes 16/16 and separates equal outcome effects from equal selective instruments and
+  multi-time continuations while quotienting an implementation-phase rival; authenticated
+  occurrence validity is separately distinguished from cross-route value identity. Robust
+  physical identity selection, sparse scaling and recursive vector-defect composition remain
+  open.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -1344,6 +1353,58 @@ multitime_marginal_transfer_swing:
     Extends HC-DU-035C, H-CCR-16 and CONCEPT-DU-011 at exact finite-control/general-open grade.
     Adds no new concept ID, claim, prediction, ontology, law, paper priority, Factory state,
     draft, submission, publication or external action.
+operational_theory_landscape_swing:
+  status: completed_exact_finite_landscape_and_typed_identity_control
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: orchestrate the strongest swing applying the GPT landscape, two-sided
+    foils, force-versus-permit distinction and constructive causal-inference framing across
+    Dynamic Unity.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-075017-operational-theory-landscape/run-plan.md
+  contract_ref: lab/process/operational-theory-landscape-contract.md
+  synthesis_ref: >-
+    explorations/operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md
+  landscape_probe_ref: tests/du_operational_theory_landscape_probe.py
+  landscape_artifact_ref: >-
+    tests/artifacts/du_operational_theory_landscape_result.json
+  landscape_artifact_sha256: >-
+    96c9c417eaa9a07c34df0292c017bd682d0e63069b179f335a4ccc8ba40bd33f
+  overlap_probe_ref: tests/du_certified_overlap_identity_probe.py
+  overlap_artifact_ref: tests/artifacts/du_certified_overlap_identity_result.json
+  overlap_artifact_sha256: >-
+    b6c76cef34c28e1640db5747bc05326204de0dc972fc0a2fd42bcd5221a28652
+  landscape_result: >-
+    The exact classifier passes 28/28. It separates normalized conditional validity,
+    no-signalling, local global-counterfactual extension, explicit quantum realization,
+    quantum exclusion and unresolved quantum status. Controls include local CHSH=2, an exact
+    rational Bell-state realization at 14/5, the algebraic Tsirelson boundary 2*sqrt(2), an
+    isotropic post-quantum value 3, the PR value 4, signalling and invalid tables, a
+    withheld-realization twin and a mismatched-receipt rejection.
+  typed_identity_result: >-
+    The exact pilot passes 16/16. A post-record X flip has the same Z outcome effects and
+    tomographically complete single-time probabilities as a QND Z instrument but fails a
+    held-out next-Z continuation. An outcome-phase implementation induces the same complete
+    selective CP maps and is quotiented. In the authenticated twin, occurrence
+    authentication, formed origin/epoch/value consistency, equivocation and cross-epoch
+    nonidentity are distinct receipts.
+  integrated_learning: >-
+    Theory-class expressiveness and cross-context identity resolution are independent
+    coordinates. Overlap identity is typed across label, effect, selective instrument,
+    multi-time continuation, provenance/value and upper action. Moving to a formed
+    context/provenance process is not the same as weakening the contract by maximally splitting
+    occurrences.
+  next_actions: >-
+    Build a robust calibrated typed-identity assay on an implementation-complete sequential
+    contextuality or proper-time instrument; then compose identity uncertainty separately from
+    marginal incompatibility and boundary-action defect. Keep sparse exact compilation as the
+    scaling companion. Treat a regional-finality quantum bound only as a conjectural analogy
+    until one cross-platform operational quantity and resource ledger are fixed.
+  ledger_disposition: >-
+    Extends HC-DU-035C, H-CCR-16 and CONCEPT-DU-011 at exact finite-control/general-open grade.
+    Adds one research-process contract but no new core hypothesis ID, claim, physical prediction,
+    ontology, law, paper priority, Factory state, draft, submission, publication or external
+    action.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -2550,3 +2611,17 @@ provenance:
     retain an exact 4096-support extension. Certified overlap identity is now required before
     marginal descent. No new physics, ontology, prediction, law, claim, paper priority, Factory
     state, draft, submission, publication or external action is established.
+  rev33_note: >-
+    2026-07-25 (Joe direct chat: orchestrate the strongest application of the GPT landscape,
+    two-sided foils, force-versus-permit distinction and constructive causal-inference framing):
+    installed a reusable operational-theory landscape contract, a 28/28 exact CHSH calibration
+    and a 16/16 typed overlap-identity pilot. The calibration separates local extension,
+    explicit quantum realization, quantum exclusion, no-signalling permissibility, signalling,
+    invalidity and unresolved membership. The identity pilot separates equal outcome effects
+    from equal selective instruments and multi-time continuations, quotients an inert
+    implementation phase, and separates authenticated occurrences from one cross-route value.
+    H-CCR-16 now treats identity as a vector over effect, instrument, history,
+    provenance/value and upper action. Robust physical selection and recursive vector-defect
+    composition remain open. No new Bell/GPT result, generalized causal theory, physical law,
+    prediction, ontology, paper priority, Factory state, draft, submission, publication or
+    external action is established.

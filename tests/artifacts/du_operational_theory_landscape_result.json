@@ -1,0 +1,1476 @@
+{
+  "check_count": 28,
+  "checks": {
+    "authenticated_coarse_identity_is_excluded": true,
+    "authenticated_provenance_process_is_realized": true,
+    "authenticated_result_preserves_safe_rejection": true,
+    "authenticated_transfer_card_is_complete": true,
+    "chsh_landscape_card_is_complete": true,
+    "invalid_control_is_not_classified": true,
+    "isotropic_half_is_exact_local_boundary": true,
+    "local_deterministic_has_exact_global_extension": true,
+    "mismatched_quantum_receipt_is_rejected": true,
+    "pr_box_has_exact_local_dual": true,
+    "pr_box_is_excluded_from_ordinary_quantum_chsh": true,
+    "pr_box_reaches_algebraic_four": true,
+    "quantum_context_indexed_extension_is_exact": true,
+    "quantum_noncontextual_identity_is_excluded": true,
+    "quantum_transfer_card_is_complete": true,
+    "rational_quantum_chsh_is_fourteen_fifths": true,
+    "rational_quantum_has_exact_local_dual": true,
+    "rational_quantum_is_explicitly_realized": true,
+    "rational_quantum_realization_verifies": true,
+    "signalling_control_is_rejected_before_landscape_nesting": true,
+    "three_quarter_is_no_signalling_postquantum": true,
+    "transfer_retains_overlap_identity_as_open_problem": true,
+    "tsirelson_behavior_is_explicit_quantum_nonlocal": true,
+    "tsirelson_behavior_saturates_exact_bound": true,
+    "tsirelson_operator_square_is_eight_on_state_support": true,
+    "tsirelson_realization_verifies": true,
+    "withheld_realization_does_not_become_quantum_proof": true,
+    "withheld_realization_preserves_behavior_digest": true
+  },
+  "chsh_calibration": {
+    "fixtures": {
+      "deterministic_local": {
+        "behavior_digest": "8ad8d12d0be8805617540a33976441af17a2ebee0513accceb27e5e32fb5c261",
+        "behavior_id": "deterministic_local",
+        "chsh_value": "2",
+        "correlators": {
+          "E00": "1",
+          "E01": "1",
+          "E10": "1",
+          "E11": "1"
+        },
+        "force_permit_disposition": "CONSTRUCTIVELY_REALIZED",
+        "landscape_position": "LOCAL_SUBSET",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "2",
+          "proves_nonlocal_under_frozen_identity_contract": false,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "LOCAL_GLOBAL_COUNTERFACTUAL_EXTENSION",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [],
+          "no_signalling": true
+        },
+        "quantum_realization_receipt": null,
+        "quantum_receipt_accepted": false,
+        "quantum_receipt_supplied": false,
+        "quantum_status": "QUANTUM_REALIZABLE_BY_LOCAL_CLASSICAL_EMBEDDING",
+        "rational_exact_marginal_receipt": {
+          "constraint_count": 16,
+          "context_count": 4,
+          "global_state_count": 16,
+          "problem_id": "chsh-local-extension:deterministic_local",
+          "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+          "simplex_iterations": 4,
+          "solver": "exact_fraction_phase_one_simplex_bland",
+          "support": [
+            {
+              "probability": "1",
+              "state": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          ],
+          "support_size": 1,
+          "variable_count": 4,
+          "verdict": "GLOBAL_EXTENSION",
+          "verification": {
+            "all_equalities_exact": true,
+            "maximum_absolute_residual": "0",
+            "nonnegative": true,
+            "normalization": "1"
+          }
+        },
+        "tsirelson_receipt": {
+          "assumptions": [
+            "binary plus-or-minus-one observables",
+            "ordinary Hilbert-space state and Born probabilities",
+            "commuting or tensor-separated Alice/Bob observables",
+            "frozen setting identities and measurement independence"
+          ],
+          "bound": "2*sqrt(2)",
+          "exceeds_bound": false,
+          "observed_value": "2",
+          "saturates_bound": false
+        },
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      },
+      "invalid_control": {
+        "behavior_digest": "9efeb94464e06b985d24212f67ea15fa4da1efe0091858f3af068b15f3dd9ed0",
+        "behavior_id": "invalid_control",
+        "landscape_position": "OUTSIDE_VALID_CONDITIONAL_BEHAVIORS",
+        "local_status": "NOT_APPLICABLE",
+        "no_signalling": null,
+        "quantum_status": "NOT_APPLICABLE",
+        "validity": {
+          "context_sums": {
+            "00": "2",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [
+            "context_not_normalized"
+          ],
+          "valid": false
+        }
+      },
+      "isotropic_local_boundary": {
+        "behavior_digest": "0998e9bfa7aef9122f9fd2f045c0f6906c8a887c880bd7452422e095ad68ef88",
+        "behavior_id": "isotropic_local_boundary",
+        "chsh_value": "2",
+        "correlators": {
+          "E00": "1/2",
+          "E01": "1/2",
+          "E10": "1/2",
+          "E11": "-1/2"
+        },
+        "force_permit_disposition": "CONSTRUCTIVELY_REALIZED",
+        "landscape_position": "LOCAL_SUBSET",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "2",
+          "proves_nonlocal_under_frozen_identity_contract": false,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "LOCAL_GLOBAL_COUNTERFACTUAL_EXTENSION",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [],
+          "no_signalling": true
+        },
+        "quantum_realization_receipt": null,
+        "quantum_receipt_accepted": false,
+        "quantum_receipt_supplied": false,
+        "quantum_status": "QUANTUM_REALIZABLE_BY_LOCAL_CLASSICAL_EMBEDDING",
+        "rational_exact_marginal_receipt": {
+          "constraint_count": 16,
+          "context_count": 4,
+          "global_state_count": 16,
+          "problem_id": "chsh-local-extension:isotropic_local_boundary",
+          "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+          "simplex_iterations": 12,
+          "solver": "exact_fraction_phase_one_simplex_bland",
+          "support": [
+            {
+              "probability": "1/8",
+              "state": [
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "probability": "1/8",
+              "state": [
+                "0",
+                "0",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "probability": "1/8",
+              "state": [
+                "0",
+                "1",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "probability": "1/8",
+              "state": [
+                "0",
+                "1",
+                "1",
+                "0"
+              ]
+            },
+            {
+              "probability": "1/8",
+              "state": [
+                "1",
+                "0",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "probability": "1/8",
+              "state": [
+                "1",
+                "0",
+                "1",
+                "1"
+              ]
+            },
+            {
+              "probability": "1/8",
+              "state": [
+                "1",
+                "1",
+                "1",
+                "0"
+              ]
+            },
+            {
+              "probability": "1/8",
+              "state": [
+                "1",
+                "1",
+                "1",
+                "1"
+              ]
+            }
+          ],
+          "support_size": 8,
+          "variable_count": 4,
+          "verdict": "GLOBAL_EXTENSION",
+          "verification": {
+            "all_equalities_exact": true,
+            "maximum_absolute_residual": "0",
+            "nonnegative": true,
+            "normalization": "1"
+          }
+        },
+        "tsirelson_receipt": {
+          "assumptions": [
+            "binary plus-or-minus-one observables",
+            "ordinary Hilbert-space state and Born probabilities",
+            "commuting or tensor-separated Alice/Bob observables",
+            "frozen setting identities and measurement independence"
+          ],
+          "bound": "2*sqrt(2)",
+          "exceeds_bound": false,
+          "observed_value": "2",
+          "saturates_bound": false
+        },
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      },
+      "isotropic_postquantum": {
+        "behavior_digest": "ef34c7ff2a92a65be6f2785267c2e1d1c56fb7d370a7b0292b8ee87ba95767ba",
+        "behavior_id": "isotropic_postquantum",
+        "chsh_value": "3",
+        "correlators": {
+          "E00": "3/4",
+          "E01": "3/4",
+          "E10": "3/4",
+          "E11": "-3/4"
+        },
+        "force_permit_disposition": "EXCLUDED_FROM_QUANTUM_UNDER_DECLARED_ASSUMPTIONS",
+        "landscape_position": "NO_SIGNALLING_POST_QUANTUM",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "3",
+          "proves_nonlocal_under_frozen_identity_contract": true,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "PROVEN_NONLOCAL_EXACT_FARKAS_OBSTRUCTION",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [],
+          "no_signalling": true
+        },
+        "quantum_realization_receipt": null,
+        "quantum_receipt_accepted": false,
+        "quantum_receipt_supplied": false,
+        "quantum_status": "PROVEN_POST_QUANTUM_IN_FROZEN_CHSH_SCENARIO",
+        "rational_exact_marginal_receipt": {
+          "constraint_count": 16,
+          "context_count": 4,
+          "dual_support_size": 16,
+          "global_state_count": 16,
+          "problem_id": "chsh-local-extension:isotropic_postquantum",
+          "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+          "simplex_iterations": 8,
+          "solver": "exact_fraction_phase_one_simplex_bland",
+          "sparse_integer_dual": [
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=1"
+            }
+          ],
+          "variable_count": 4,
+          "verdict": "DUAL_OBSTRUCTION",
+          "verification": {
+            "all_global_state_coefficients_nonnegative": true,
+            "minimum_global_state_coefficient": "0",
+            "strictly_negative_observed_value": true,
+            "weighted_observed_value": "-2"
+          }
+        },
+        "tsirelson_receipt": {
+          "assumptions": [
+            "binary plus-or-minus-one observables",
+            "ordinary Hilbert-space state and Born probabilities",
+            "commuting or tensor-separated Alice/Bob observables",
+            "frozen setting identities and measurement independence"
+          ],
+          "bound": "2*sqrt(2)",
+          "exceeds_bound": true,
+          "observed_value": "3",
+          "saturates_bound": false
+        },
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      },
+      "pr_box": {
+        "behavior_digest": "d99ff60023e48db382e0d7a92f9b21822c6b99ebfaf4df494a71a3ddf936a2aa",
+        "behavior_id": "pr_box",
+        "chsh_value": "4",
+        "correlators": {
+          "E00": "1",
+          "E01": "1",
+          "E10": "1",
+          "E11": "-1"
+        },
+        "force_permit_disposition": "EXCLUDED_FROM_QUANTUM_UNDER_DECLARED_ASSUMPTIONS",
+        "landscape_position": "NO_SIGNALLING_POST_QUANTUM",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "4",
+          "proves_nonlocal_under_frozen_identity_contract": true,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "PROVEN_NONLOCAL_EXACT_FARKAS_OBSTRUCTION",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [],
+          "no_signalling": true
+        },
+        "quantum_realization_receipt": null,
+        "quantum_receipt_accepted": false,
+        "quantum_receipt_supplied": false,
+        "quantum_status": "PROVEN_POST_QUANTUM_IN_FROZEN_CHSH_SCENARIO",
+        "rational_exact_marginal_receipt": {
+          "constraint_count": 16,
+          "context_count": 4,
+          "dual_support_size": 16,
+          "global_state_count": 16,
+          "problem_id": "chsh-local-extension:pr_box",
+          "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+          "simplex_iterations": 8,
+          "solver": "exact_fraction_phase_one_simplex_bland",
+          "sparse_integer_dual": [
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=1"
+            }
+          ],
+          "variable_count": 4,
+          "verdict": "DUAL_OBSTRUCTION",
+          "verification": {
+            "all_global_state_coefficients_nonnegative": true,
+            "minimum_global_state_coefficient": "0",
+            "strictly_negative_observed_value": true,
+            "weighted_observed_value": "-4"
+          }
+        },
+        "tsirelson_receipt": {
+          "assumptions": [
+            "binary plus-or-minus-one observables",
+            "ordinary Hilbert-space state and Born probabilities",
+            "commuting or tensor-separated Alice/Bob observables",
+            "frozen setting identities and measurement independence"
+          ],
+          "bound": "2*sqrt(2)",
+          "exceeds_bound": true,
+          "observed_value": "4",
+          "saturates_bound": false
+        },
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      },
+      "rational_quantum_nonlocal": {
+        "behavior_digest": "473550ccf73990025e561c8ab4537c5b1c9b922b4ae72231b646cd4131fdce86",
+        "behavior_id": "rational_quantum_nonlocal",
+        "chsh_value": "14/5",
+        "correlators": {
+          "E00": "3/5",
+          "E01": "3/5",
+          "E10": "4/5",
+          "E11": "-4/5"
+        },
+        "force_permit_disposition": "CONSTRUCTIVELY_REALIZED",
+        "landscape_position": "QUANTUM_NONLOCAL",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "14/5",
+          "proves_nonlocal_under_frozen_identity_contract": true,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "PROVEN_NONLOCAL_EXACT_FARKAS_OBSTRUCTION",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [],
+          "no_signalling": true
+        },
+        "quantum_realization_receipt": {
+          "all_contexts_normalized": true,
+          "all_probabilities_nonnegative": true,
+          "all_projectors_hermitian_idempotent": true,
+          "behavior_digest": "473550ccf73990025e561c8ab4537c5b1c9b922b4ae72231b646cd4131fdce86",
+          "chsh_expectation_matches_behavior": true,
+          "chsh_operator_expectation": "14/5",
+          "chsh_operator_square_is_eight_on_state_support": false,
+          "observable_checks": {
+            "A0": {
+              "hermitian": true,
+              "involution": true
+            },
+            "A1": {
+              "hermitian": true,
+              "involution": true
+            },
+            "B0": {
+              "hermitian": true,
+              "involution": true
+            },
+            "B1": {
+              "hermitian": true,
+              "involution": true
+            }
+          },
+          "realization_id": "bell-rational-pauli-plane-3-4-5",
+          "receipt_type": "EXPLICIT_STATE_AND_MEASUREMENT_REALIZATION",
+          "state": "two-qubit Bell state |Phi+><Phi+|",
+          "state_checks": {
+            "hermitian": true,
+            "pure_projector": true,
+            "trace_one": true
+          },
+          "state_is_chsh_operator_eigenstate": true,
+          "tsirelson_square_required": false,
+          "verified": true
+        },
+        "quantum_receipt_accepted": true,
+        "quantum_receipt_supplied": true,
+        "quantum_status": "EXPLICIT_QUANTUM_REALIZATION",
+        "rational_exact_marginal_receipt": {
+          "constraint_count": 16,
+          "context_count": 4,
+          "dual_support_size": 16,
+          "global_state_count": 16,
+          "problem_id": "chsh-local-extension:rational_quantum_nonlocal",
+          "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+          "simplex_iterations": 8,
+          "solver": "exact_fraction_phase_one_simplex_bland",
+          "sparse_integer_dual": [
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=1"
+            }
+          ],
+          "variable_count": 4,
+          "verdict": "DUAL_OBSTRUCTION",
+          "verification": {
+            "all_global_state_coefficients_nonnegative": true,
+            "minimum_global_state_coefficient": "0",
+            "strictly_negative_observed_value": true,
+            "weighted_observed_value": "-8/5"
+          }
+        },
+        "tsirelson_receipt": {
+          "assumptions": [
+            "binary plus-or-minus-one observables",
+            "ordinary Hilbert-space state and Born probabilities",
+            "commuting or tensor-separated Alice/Bob observables",
+            "frozen setting identities and measurement independence"
+          ],
+          "bound": "2*sqrt(2)",
+          "exceeds_bound": false,
+          "observed_value": "14/5",
+          "saturates_bound": false
+        },
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      },
+      "same_behavior_realization_withheld": {
+        "behavior_digest": "473550ccf73990025e561c8ab4537c5b1c9b922b4ae72231b646cd4131fdce86",
+        "behavior_id": "same_behavior_realization_withheld",
+        "chsh_value": "14/5",
+        "correlators": {
+          "E00": "3/5",
+          "E01": "3/5",
+          "E10": "4/5",
+          "E11": "-4/5"
+        },
+        "force_permit_disposition": "PERMITTED_BY_TESTED_BOUNDS_NOT_PROVED_QUANTUM",
+        "landscape_position": "NO_SIGNALLING_NONLOCAL_QUANTUM_STATUS_UNRESOLVED",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "14/5",
+          "proves_nonlocal_under_frozen_identity_contract": true,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "PROVEN_NONLOCAL_EXACT_FARKAS_OBSTRUCTION",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [],
+          "no_signalling": true
+        },
+        "quantum_realization_receipt": null,
+        "quantum_receipt_accepted": false,
+        "quantum_receipt_supplied": false,
+        "quantum_status": "QUANTUM_STATUS_UNRESOLVED",
+        "rational_exact_marginal_receipt": {
+          "constraint_count": 16,
+          "context_count": 4,
+          "dual_support_size": 16,
+          "global_state_count": 16,
+          "problem_id": "chsh-local-extension:same_behavior_realization_withheld",
+          "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+          "simplex_iterations": 8,
+          "solver": "exact_fraction_phase_one_simplex_bland",
+          "sparse_integer_dual": [
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y0",
+              "row_id": "x0y0|A0=1,B0=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=0,B1=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x0y1",
+              "row_id": "x0y1|A0=1,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=0,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y0",
+              "row_id": "x1y0|A1=1,B0=1"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=0"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=0,B1=1"
+            },
+            {
+              "coefficient": -1,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=0"
+            },
+            {
+              "coefficient": 3,
+              "context_id": "x1y1",
+              "row_id": "x1y1|A1=1,B1=1"
+            }
+          ],
+          "variable_count": 4,
+          "verdict": "DUAL_OBSTRUCTION",
+          "verification": {
+            "all_global_state_coefficients_nonnegative": true,
+            "minimum_global_state_coefficient": "0",
+            "strictly_negative_observed_value": true,
+            "weighted_observed_value": "-8/5"
+          }
+        },
+        "tsirelson_receipt": {
+          "assumptions": [
+            "binary plus-or-minus-one observables",
+            "ordinary Hilbert-space state and Born probabilities",
+            "commuting or tensor-separated Alice/Bob observables",
+            "frozen setting identities and measurement independence"
+          ],
+          "bound": "2*sqrt(2)",
+          "exceeds_bound": false,
+          "observed_value": "14/5",
+          "saturates_bound": false
+        },
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      },
+      "signalling_control": {
+        "behavior_digest": "6f17262b8be0efaf9a0cea3fe4425c64ab6f107097ceaac5dea4c3d63f30cc65",
+        "behavior_id": "signalling_control",
+        "chsh_value": "2",
+        "correlators": {
+          "E00": "1",
+          "E01": "1",
+          "E10": "-1",
+          "E11": "-1"
+        },
+        "landscape_position": "VALID_SIGNALING_CONDITIONAL_BEHAVIOR",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "2",
+          "proves_nonlocal_under_frozen_identity_contract": false,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "REJECTED_BEFORE_LOCAL_CLASSIFICATION",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [
+            {
+              "b": 0,
+              "difference": "1",
+              "y": 0
+            },
+            {
+              "b": 1,
+              "difference": "-1",
+              "y": 0
+            },
+            {
+              "b": 0,
+              "difference": "1",
+              "y": 1
+            },
+            {
+              "b": 1,
+              "difference": "-1",
+              "y": 1
+            }
+          ],
+          "no_signalling": false
+        },
+        "quantum_status": "REJECTED_BY_DECLARED_SPACELIKE_NO_SIGNALLING_CONTRACT",
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      },
+      "tsirelson_quantum_boundary": {
+        "behavior_digest": "1652bf8d141a2f39c94c07d3abdc5c2241fc15bf67da592e5c1cb8750d428c8e",
+        "behavior_id": "tsirelson_quantum_boundary",
+        "chsh_value": "2*sqrt(2)",
+        "correlators": {
+          "E00": "1/2*sqrt(2)",
+          "E01": "1/2*sqrt(2)",
+          "E10": "1/2*sqrt(2)",
+          "E11": "-1/2*sqrt(2)"
+        },
+        "force_permit_disposition": "CONSTRUCTIVELY_REALIZED",
+        "landscape_position": "QUANTUM_NONLOCAL",
+        "local_bound_receipt": {
+          "deterministic_vertex_count": 16,
+          "deterministic_vertex_maximum": 2,
+          "deterministic_vertex_minimum": -2,
+          "local_bound": "2",
+          "observed_value": "2*sqrt(2)",
+          "proves_nonlocal_under_frozen_identity_contract": true,
+          "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+        },
+        "local_status": "PROVEN_NONLOCAL_DIRECT_CHSH_WITNESS",
+        "no_signalling": {
+          "alice_setting_independence_violations": [],
+          "bob_setting_independence_violations": [],
+          "no_signalling": true
+        },
+        "quantum_realization_receipt": {
+          "all_contexts_normalized": true,
+          "all_probabilities_nonnegative": true,
+          "all_projectors_hermitian_idempotent": true,
+          "behavior_digest": "1652bf8d141a2f39c94c07d3abdc5c2241fc15bf67da592e5c1cb8750d428c8e",
+          "chsh_expectation_matches_behavior": true,
+          "chsh_operator_expectation": "2*sqrt(2)",
+          "chsh_operator_square_is_eight_on_state_support": true,
+          "observable_checks": {
+            "A0": {
+              "hermitian": true,
+              "involution": true
+            },
+            "A1": {
+              "hermitian": true,
+              "involution": true
+            },
+            "B0": {
+              "hermitian": true,
+              "involution": true
+            },
+            "B1": {
+              "hermitian": true,
+              "involution": true
+            }
+          },
+          "realization_id": "bell-tsirelson-saturating",
+          "receipt_type": "EXPLICIT_STATE_AND_MEASUREMENT_REALIZATION",
+          "state": "two-qubit Bell state |Phi+><Phi+|",
+          "state_checks": {
+            "hermitian": true,
+            "pure_projector": true,
+            "trace_one": true
+          },
+          "state_is_chsh_operator_eigenstate": true,
+          "tsirelson_square_required": true,
+          "verified": true
+        },
+        "quantum_receipt_accepted": true,
+        "quantum_receipt_supplied": true,
+        "quantum_status": "EXPLICIT_QUANTUM_REALIZATION",
+        "rational_exact_marginal_receipt": null,
+        "tsirelson_receipt": {
+          "assumptions": [
+            "binary plus-or-minus-one observables",
+            "ordinary Hilbert-space state and Born probabilities",
+            "commuting or tensor-separated Alice/Bob observables",
+            "frozen setting identities and measurement independence"
+          ],
+          "bound": "2*sqrt(2)",
+          "exceeds_bound": false,
+          "observed_value": "2*sqrt(2)",
+          "saturates_bound": true
+        },
+        "validity": {
+          "context_sums": {
+            "00": "1",
+            "01": "1",
+            "10": "1",
+            "11": "1"
+          },
+          "errors": [],
+          "valid": true
+        }
+      }
+    },
+    "forged_receipt_control": {
+      "behavior_digest": "d99ff60023e48db382e0d7a92f9b21822c6b99ebfaf4df494a71a3ddf936a2aa",
+      "behavior_id": "pr_box_with_mismatched_quantum_receipt",
+      "chsh_value": "4",
+      "correlators": {
+        "E00": "1",
+        "E01": "1",
+        "E10": "1",
+        "E11": "-1"
+      },
+      "force_permit_disposition": "EXCLUDED_FROM_QUANTUM_UNDER_DECLARED_ASSUMPTIONS",
+      "landscape_position": "NO_SIGNALLING_POST_QUANTUM",
+      "local_bound_receipt": {
+        "deterministic_vertex_count": 16,
+        "deterministic_vertex_maximum": 2,
+        "deterministic_vertex_minimum": -2,
+        "local_bound": "2",
+        "observed_value": "4",
+        "proves_nonlocal_under_frozen_identity_contract": true,
+        "receipt_type": "DIRECT_CHSH_BELL_FUNCTIONAL"
+      },
+      "local_status": "PROVEN_NONLOCAL_EXACT_FARKAS_OBSTRUCTION",
+      "no_signalling": {
+        "alice_setting_independence_violations": [],
+        "bob_setting_independence_violations": [],
+        "no_signalling": true
+      },
+      "quantum_realization_receipt": {
+        "all_contexts_normalized": true,
+        "all_probabilities_nonnegative": true,
+        "all_projectors_hermitian_idempotent": true,
+        "behavior_digest": "473550ccf73990025e561c8ab4537c5b1c9b922b4ae72231b646cd4131fdce86",
+        "chsh_expectation_matches_behavior": true,
+        "chsh_operator_expectation": "14/5",
+        "chsh_operator_square_is_eight_on_state_support": false,
+        "observable_checks": {
+          "A0": {
+            "hermitian": true,
+            "involution": true
+          },
+          "A1": {
+            "hermitian": true,
+            "involution": true
+          },
+          "B0": {
+            "hermitian": true,
+            "involution": true
+          },
+          "B1": {
+            "hermitian": true,
+            "involution": true
+          }
+        },
+        "realization_id": "bell-rational-pauli-plane-3-4-5",
+        "receipt_type": "EXPLICIT_STATE_AND_MEASUREMENT_REALIZATION",
+        "state": "two-qubit Bell state |Phi+><Phi+|",
+        "state_checks": {
+          "hermitian": true,
+          "pure_projector": true,
+          "trace_one": true
+        },
+        "state_is_chsh_operator_eigenstate": true,
+        "tsirelson_square_required": false,
+        "verified": true
+      },
+      "quantum_receipt_accepted": false,
+      "quantum_receipt_supplied": true,
+      "quantum_status": "PROVEN_POST_QUANTUM_IN_FROZEN_CHSH_SCENARIO",
+      "rational_exact_marginal_receipt": {
+        "constraint_count": 16,
+        "context_count": 4,
+        "dual_support_size": 16,
+        "global_state_count": 16,
+        "problem_id": "chsh-local-extension:pr_box_with_mismatched_quantum_receipt",
+        "schema": "dynamic-unity/exact-marginal-extension/v0.1",
+        "simplex_iterations": 8,
+        "solver": "exact_fraction_phase_one_simplex_bland",
+        "sparse_integer_dual": [
+          {
+            "coefficient": -1,
+            "context_id": "x0y0",
+            "row_id": "x0y0|A0=0,B0=0"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x0y0",
+            "row_id": "x0y0|A0=0,B0=1"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x0y0",
+            "row_id": "x0y0|A0=1,B0=0"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "x0y0",
+            "row_id": "x0y0|A0=1,B0=1"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "x0y1",
+            "row_id": "x0y1|A0=0,B1=0"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x0y1",
+            "row_id": "x0y1|A0=0,B1=1"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x0y1",
+            "row_id": "x0y1|A0=1,B1=0"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "x0y1",
+            "row_id": "x0y1|A0=1,B1=1"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "x1y0",
+            "row_id": "x1y0|A1=0,B0=0"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x1y0",
+            "row_id": "x1y0|A1=0,B0=1"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x1y0",
+            "row_id": "x1y0|A1=1,B0=0"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "x1y0",
+            "row_id": "x1y0|A1=1,B0=1"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x1y1",
+            "row_id": "x1y1|A1=0,B1=0"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "x1y1",
+            "row_id": "x1y1|A1=0,B1=1"
+          },
+          {
+            "coefficient": -1,
+            "context_id": "x1y1",
+            "row_id": "x1y1|A1=1,B1=0"
+          },
+          {
+            "coefficient": 3,
+            "context_id": "x1y1",
+            "row_id": "x1y1|A1=1,B1=1"
+          }
+        ],
+        "variable_count": 4,
+        "verdict": "DUAL_OBSTRUCTION",
+        "verification": {
+          "all_global_state_coefficients_nonnegative": true,
+          "minimum_global_state_coefficient": "0",
+          "strictly_negative_observed_value": true,
+          "weighted_observed_value": "-4"
+        }
+      },
+      "tsirelson_receipt": {
+        "assumptions": [
+          "binary plus-or-minus-one observables",
+          "ordinary Hilbert-space state and Born probabilities",
+          "commuting or tensor-separated Alice/Bob observables",
+          "frozen setting identities and measurement independence"
+        ],
+        "bound": "2*sqrt(2)",
+        "exceeds_bound": true,
+        "observed_value": "4",
+        "saturates_bound": false
+      },
+      "validity": {
+        "context_sums": {
+          "00": "1",
+          "01": "1",
+          "10": "1",
+          "11": "1"
+        },
+        "errors": [],
+        "valid": true
+      }
+    },
+    "identity_sensitive_statement": "Bell nonexistence excludes the declared global A0,A1,B0,B1 identity/common-cause model; it does not exclude the explicit quantum process or select an ontology",
+    "landscape_card": {
+      "card_id": "TL-CHSH-01",
+      "contract_complete": true,
+      "disposition": "KNOWN_MATHEMATICS_CALIBRATION_NOT_DYNAMIC_UNITY_NOVELTY",
+      "does_not_establish": [
+        "one true ontology",
+        "superluminal influence",
+        "record substrate fundamentality",
+        "a Dynamic Unity physical law"
+      ],
+      "exclusion_receipt": "exact marginal Farkas/Bell witness and exact Tsirelson comparison",
+      "frozen_assumptions": [
+        "binary settings and outputs",
+        "setting identities fixed before outcomes",
+        "measurement independence",
+        "Alice/Bob tensor or commuting separation"
+      ],
+      "held_out_discriminator": "CHSH functional with local 2, quantum 2*sqrt(2), and no-signalling 4 controls",
+      "membership_receipt": "exact local primal or explicit state-and-measurement Born table",
+      "missing_fields": [],
+      "operational_object": "complete binary p(a,b|x,y) behavior",
+      "permissive_foil": "all normalized no-signalling behaviors",
+      "restrictive_foil": "local global-counterfactual extension on A0,A1,B0,B1",
+      "selection_principle": "ordinary Hilbert-space composition, operator algebra, and Born rule",
+      "target_class": "ordinary quantum behavior with explicit realization"
+    },
+    "rational_quantum_realization": {
+      "all_contexts_normalized": true,
+      "all_probabilities_nonnegative": true,
+      "all_projectors_hermitian_idempotent": true,
+      "behavior_digest": "473550ccf73990025e561c8ab4537c5b1c9b922b4ae72231b646cd4131fdce86",
+      "chsh_expectation_matches_behavior": true,
+      "chsh_operator_expectation": "14/5",
+      "chsh_operator_square_is_eight_on_state_support": false,
+      "observable_checks": {
+        "A0": {
+          "hermitian": true,
+          "involution": true
+        },
+        "A1": {
+          "hermitian": true,
+          "involution": true
+        },
+        "B0": {
+          "hermitian": true,
+          "involution": true
+        },
+        "B1": {
+          "hermitian": true,
+          "involution": true
+        }
+      },
+      "realization_id": "bell-rational-pauli-plane-3-4-5",
+      "receipt_type": "EXPLICIT_STATE_AND_MEASUREMENT_REALIZATION",
+      "state": "two-qubit Bell state |Phi+><Phi+|",
+      "state_checks": {
+        "hermitian": true,
+        "pure_projector": true,
+        "trace_one": true
+      },
+      "state_is_chsh_operator_eigenstate": true,
+      "tsirelson_square_required": false,
+      "verified": true
+    },
+    "tsirelson_quantum_realization": {
+      "all_contexts_normalized": true,
+      "all_probabilities_nonnegative": true,
+      "all_projectors_hermitian_idempotent": true,
+      "behavior_digest": "1652bf8d141a2f39c94c07d3abdc5c2241fc15bf67da592e5c1cb8750d428c8e",
+      "chsh_expectation_matches_behavior": true,
+      "chsh_operator_expectation": "2*sqrt(2)",
+      "chsh_operator_square_is_eight_on_state_support": true,
+      "observable_checks": {
+        "A0": {
+          "hermitian": true,
+          "involution": true
+        },
+        "A1": {
+          "hermitian": true,
+          "involution": true
+        },
+        "B0": {
+          "hermitian": true,
+          "involution": true
+        },
+        "B1": {
+          "hermitian": true,
+          "involution": true
+        }
+      },
+      "realization_id": "bell-tsirelson-saturating",
+      "receipt_type": "EXPLICIT_STATE_AND_MEASUREMENT_REALIZATION",
+      "state": "two-qubit Bell state |Phi+><Phi+|",
+      "state_checks": {
+        "hermitian": true,
+        "pure_projector": true,
+        "trace_one": true
+      },
+      "state_is_chsh_operator_eigenstate": true,
+      "tsirelson_square_required": true,
+      "verified": true
+    }
+  },
+  "claim_grade": "EXACT FINITE OPERATIONAL CALIBRATION / KNOWN BELL-GPT MATHEMATICS / DYNAMIC-UNITY SELECTION PRINCIPLE OPEN",
+  "cross_platform_transfer": {
+    "authenticated_route_landscape": {
+      "card_id": "TL-DU-AUTH-01",
+      "contract_complete": true,
+      "disposition": "COARSE_IDENTITY_EXCLUDED / PROVENANCE_PROCESS_REALIZED / SAFE_REJECTION_REQUIRED",
+      "does_not_establish": [
+        "cryptographic security",
+        "BFT safety or liveness",
+        "physical public finality",
+        "one universal provenance ontology"
+      ],
+      "exclusion_receipt": "exact Farkas obstruction excludes canonical-origin gluing under the frozen identity map",
+      "frozen_assumptions": [
+        "origin, route, epoch, parentage and fixture authenticator fixed",
+        "same-origin cross-route identity proposed before compilation",
+        "equivocation adversary admitted"
+      ],
+      "held_out_discriminator": "cross-epoch replay, same-epoch equivocation and upper action defect",
+      "membership_receipt": {
+        "coarse_verdict": "DUAL_OBSTRUCTION",
+        "disposition": "SAFE_REJECTION_EQUIVOCATION_PROVENANCE_FORMED",
+        "provenance_lift_verdict": "GLOBAL_EXTENSION"
+      },
+      "missing_fields": [],
+      "operational_object": "complete authenticated route/epoch transcript marginals and declared upper actions",
+      "permissive_foil": "independent occurrence value for every route transcript",
+      "restrictive_foil": "one canonical origin value across every authenticated route",
+      "selection_principle": "formed origin/route/epoch provenance plus declared equivocation and failure-domain rules",
+      "target_class": "route/epoch-provenance process with explicit equivocation handling"
+    },
+    "quantum_context_landscape": {
+      "card_id": "TL-DU-MP-01",
+      "contract_complete": true,
+      "disposition": "NONCONTEXTUAL_IDENTITY_EXCLUDED / STANDARD_QUANTUM_PROCESS_REALIZED / PHYSICAL_OVERLAP_SELECTION_OPEN",
+      "does_not_establish": [
+        "failure of the quantum process",
+        "observer-relative collapse",
+        "beyond-standard quantum dynamics",
+        "record-first ontology"
+      ],
+      "exclusion_receipt": "inclusion-minimal exact dual obstruction excludes the supplied noncontextual gluing",
+      "frozen_assumptions": [
+        "nine repeated observable labels",
+        "six implemented compatible contexts",
+        "context-independent value identity proposed before compilation",
+        "complete instrument context retained in the physical process"
+      ],
+      "held_out_discriminator": "context permutation, sequential repeatability, causal break and context-dependent disturbance rival",
+      "membership_receipt": {
+        "context_indexed_extension": {
+          "all_context_marginals_exact": true,
+          "meaning": "a global distribution exists after each observable outcome is indexed by its actually implemented context",
+          "normalization": "1",
+          "support_size": 4096
+        },
+        "noncontextual_gluing": "DUAL_OBSTRUCTION",
+        "physical_disposition": "STANDARD_CONTEXT_INDEXED_QUANTUM_INSTRUMENTS_EXIST_NONCONTEXTUAL_GLOBAL_VALUE_GLUING_FAILS"
+      },
+      "missing_fields": [],
+      "operational_object": "six complete commuting Mermin--Peres context instruments and their exact outcome marginals",
+      "permissive_foil": "maximal occurrence splitting with one unrelated variable per context",
+      "restrictive_foil": "one noncontextual preassigned value for each repeated observable",
+      "selection_principle": "independently certified operational equivalence, compatibility, nondisturbance, repeatability and disturbance accounting",
+      "target_class": "explicit context-indexed ordinary quantum instruments"
+    },
+    "shared_open_selection_problem": "warrant cross-context identity strongly enough to prevent arbitrary occurrence splitting without inserting a classical global biography",
+    "unchanged_receipt_order": [
+      "operational object",
+      "frozen assumptions",
+      "restrictive exclusion",
+      "formed realization",
+      "permissive foil",
+      "selection principle",
+      "held-out discriminator"
+    ]
+  },
+  "does_not_establish": [
+    "new Bell, Tsirelson, GPT or contextuality mathematics",
+    "general quantum-set membership compilation",
+    "a generalized quantum causal theory",
+    "a regional-finality quantum bound",
+    "a physical overlap-identity selector",
+    "information or records as fundamental",
+    "a new physical law, prediction or ontology"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "run_id": "RUN-20260725-075017-operational-theory-landscape",
+  "schema_version": "dynamic-unity/operational-theory-landscape/v0.1",
+  "theory_nesting_for_frozen_chsh_interface": "LOCAL_SUBSET_OF_QUANTUM_SUBSET_OF_NO_SIGNALLING_SUBSET_OF_VALID_CONDITIONAL",
+  "verdict": "THEORY_LANDSCAPE_RECEIPTS_SEPARATED / EXACT_CHSH_CALIBRATION PASSES / EXISTING_PROTOCOL_AND_QUANTUM_FIXTURES_TRANSFER / CERTIFIED_OVERLAP_IDENTITY_REMAINS_THE_OPEN_SELECTION_PRINCIPLE"
+}

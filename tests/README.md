@@ -662,6 +662,64 @@ regional grammar, cross-context record identity, cryptographic/BFT security,
 joint quantum measurability, beyond-standard dynamics, public finality,
 geometry, ontology, or a new law.
 
+## Operational theory landscape
+
+`du_operational_theory_landscape_probe.py` separates conditional validity,
+no-signalling, local extendibility, explicit quantum realization, quantum
+exclusion and unresolved quantum status on one frozen binary CHSH interface.
+
+Using exact `Fraction` and `Q(sqrt(2))` arithmetic, it checks:
+
+- deterministic-local and isotropic local-boundary behaviors with explicit
+  global counterfactual extensions;
+- an exact rational Bell-state realization with `CHSH=14/5` and an exact
+  Farkas obstruction to a local joint distribution;
+- an exact algebraic Tsirelson-saturating realization whose state-supported
+  squared CHSH operator has eigenvalue `8`;
+- isotropic `CHSH=3` and PR-box `CHSH=4` no-signalling post-quantum controls;
+- signalling and invalid-table rejection;
+- a withheld-realization twin that preserves the behavior but correctly
+  returns unresolved quantum evidence status;
+- rejection of a mismatched purported quantum receipt; and
+- unchanged landscape cards for the authenticated-route and Mermin--Peres
+  controls.
+
+The deterministic artifact is
+`artifacts/du_operational_theory_landscape_result.json` and reports `28/28`
+checks. Passing establishes a typed classifier using known Bell, Tsirelson,
+GPT, marginal-polytope and quantum-instrument mathematics. It does not
+compile the general quantum set, establish a generalized causal theory,
+derive a finality bound, select an ontology, or add a new physical result.
+
+## Certified overlap identity
+
+`du_certified_overlap_identity_probe.py` executes the first typed precondition
+to marginal descent. It distinguishes a repeated label, equality of outcome
+effects, equality of selective instruments, multi-time continuation identity,
+and authenticated provenance/value identity.
+
+Using exact Gaussian-rational matrices and bounded fixture authentication, it
+checks:
+
+- identical QND Z instruments;
+- an outcome-dependent Z-phase implementation that induces the same complete
+  selective CP maps and must be quotiented;
+- a post-record X-flip rival with exactly the same POVM effects and
+  tomographically complete outcome probabilities but a different next-Z
+  continuation;
+- consistent cross-route origin/epoch/value commitments;
+- two individually authentic same-origin messages that equivocate across
+  routes; and
+- cross-epoch nonidentity.
+
+The deterministic artifact is
+`artifacts/du_certified_overlap_identity_result.json` and reports `16/16`
+checks. Passing establishes an exact finite typed identity assay using known
+instrument-tomography and authenticated-record mathematics. It does not
+select physical overlaps, close calibration or compatibility loopholes,
+establish cryptographic/BFT security, modify quantum theory, or prove a
+recursive composition law.
+
 ## Entangled layered-finality absorption boundary
 
 `du_entangled_finality_absorption_probe.py` fixes the standard-quantum null

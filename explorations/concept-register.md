@@ -1253,6 +1253,31 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   by taking the product of context marginals. This elementary absorber makes
   the overlap-identity receipt scientifically load-bearing; it is not a new
   ontology or law.
+- **2026-07-25 typed operational landscape and overlap-identity pilot.**
+  Overlap identity is now explicitly vector-valued:
+  1. same label;
+  2. same outcome effect;
+  3. same selective instrument;
+  4. same multi-time continuation;
+  5. same formed provenance/value; and
+  6. same declared upper action.
+
+  The `16/16` exact pilot shows why this typing matters. A
+  context-dependent post-record X flip has the same Z POVM effects and the
+  same complete single-time outcome probabilities as the QND Z instrument,
+  but a held-out next-Z continuation separates them. An
+  implementation-different outcome phase induces the same complete selective
+  CP maps and must be quotiented. In the authenticated twin, two messages can
+  both authenticate while a formed origin/epoch/value commitment proves
+  either consistency or equivocation.
+
+  The companion `28/28` CHSH landscape calibration separates local
+  realization, explicit quantum realization, quantum exclusion,
+  no-signalling permissibility and unresolved quantum evidence. This makes
+  rigid global biography, typed context-indexed process and maximal
+  occurrence splitting the restrictive, target and permissive comparison
+  classes for the current regional branch. The known Bell/GPT mathematics is
+  calibration, not concept-specific novelty.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
@@ -1275,14 +1300,16 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   REGIONALIZATION AND VALIDATOR SELECTION OPEN / MULTI-TIME QND REGIONAL
   CONTROL AND GENERAL FINITE MARGINAL COMPILER INSTALLED / AUTHENTICATED AND
   QUANTUM TRANSFERS ABSORBED BY PROVENANCE AND STANDARD CONTEXTUALITY /
-  CERTIFIED OVERLAP IDENTITY, SPARSE SCALING AND RECURSIVE DEFECT COMPOSITION
-  OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.** The next coupled attack is an
-  independently warranted overlap-identity assay followed by sparse exact
-  compilation and recursive defect composition. See
+  EXACT FINITE TYPED OVERLAP-IDENTITY PILOT INSTALLED / ROBUST PHYSICAL
+  IDENTITY, SPARSE SCALING AND RECURSIVE DEFECT COMPOSITION OPEN / NO ONTOLOGY
+  OR NEW PHYSICS INFERRED.** The next coupled attack is a robust calibrated
+  typed-identity assay on an implementation-complete sequential instrument,
+  followed by sparse exact compilation and recursive defect composition. See
   `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md` and
   `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`
+  and `multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md`
   and
-  `multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md`.
+  `operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

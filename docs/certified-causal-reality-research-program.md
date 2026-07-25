@@ -173,6 +173,21 @@ The recharter preserves, rather than promotes, the strongest exact results:
   automatically the physical process. Certified overlap identity is now a
   prerequisite separate from marginal compatibility and boundary-action
   sufficiency.
+- The operational-theory landscape calibration now prevents local
+  nonexistence, explicit quantum realization, quantum exclusion,
+  no-signalling permissibility, and unresolved membership from being
+  collapsed. Exact CHSH controls span local `2`, a rational explicit quantum
+  point `14/5`, the algebraic quantum boundary `2 sqrt(2)`, a no-signalling
+  post-quantum point `3`, and the PR value `4`, plus signalling, invalid, and
+  withheld-realization controls. A separate exact overlap pilot shows that
+  two instruments can have identical outcome effects and all single-time
+  probabilities while differing under a held-out continuation. Conversely,
+  an implementation-different Kraus phase can induce the same complete
+  selective maps and must be quotiented. Authenticated occurrences likewise
+  do not become one cross-route value without a formed consistent
+  origin/epoch/value commitment. Overlap identity is therefore a typed vector
+  across effect, instrument, history, provenance/value, and upper action—not
+  one scalar predicate.
 
 These results complete the finite classical quotient bookkeeping, the first
 static layered-threshold and deterministic interventional-closure controls,
@@ -193,7 +208,9 @@ matched resources. Only a surviving formed distinction should route to
 composition should now certify which record occurrences are genuinely the
 same overlap variable before descent, scale the exact marginal compiler
 through sparse decomposition, and test vector-valued recursive defect
-composition. The completed QND, authenticated, and contextual transfers
+composition. Its exact finite typed identity pilot is complete; robust
+physical calibration and an implementation-complete sequential transfer
+remain open. The completed QND, authenticated, and contextual transfers
 should remain the regression baseline. These controls do not
 establish an observer, proper time, public classicality, continuum covariance,
 gravity, cosmology, or record-first ontology.
@@ -236,6 +253,36 @@ The corrected discriminator is:
 > interface: do record-isomorphic processes support the same admitted
 > predictions and capabilities? If not, what finite intervention identifies
 > the minimal omitted structure?
+
+## Operational theory-landscape discipline
+
+The active method contract is
+`../lab/process/operational-theory-landscape-contract.md`. For one frozen
+operational interface it requires separate receipts for:
+
+1. conditional validity;
+2. causal/no-signalling admissibility;
+3. restrictive-class realization or exclusion;
+4. target-class positive realization or exclusion;
+5. permissive-class realization;
+6. the independently motivated selection principle; and
+7. a held-out discriminator between adjacent classes.
+
+Each central application must name both a restrictive foil and a permissive
+foil. Escaping the restrictive foil is insufficient if the same behavior is
+trivial under the permissive foil. Satisfying a necessary target-class bound
+is `PERMITTED_NOT_PROVED`, never positive membership. Cross-context identity
+and the common operational interface are frozen before the landscape is
+compiled.
+
+For `H-CCR-16`, the restrictive foil is one completed
+context-independent biography, the current target is a context-indexed
+quantum or provenance-bearing process with typed certified overlaps, and the
+permissive foil is maximal occurrence splitting. For `H-CCR-15`, the
+corresponding sequence is an incomplete retained-memory model, an
+implementation-complete ordinary quantum process, and an unrestricted
+signalling/nonlinear completion. This discipline changes claim typing, not
+the three coequal program outcomes and not the ontology.
 
 ## Central conjecture and decisive discriminator
 
@@ -989,7 +1036,8 @@ Only after the preceding dependencies:
                 binary-cycle noisy descent and boundary defect [COMPLETED CONTROL]
                 multi-time QND regional grammar and general marginal compiler [COMPLETED CONTROL]
                 authenticated and quantum instrument transfer [COMPLETED CONTROL]
-                certified overlap identity and sparse recursive descent [OPEN]
+                exact typed overlap identity [COMPLETED FINITE CONTROL]
+                robust physical identity and sparse recursive descent [OPEN]
         |
 3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
         |
@@ -1028,7 +1076,7 @@ classical memory. See
 `explorations/entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`
 and `tests/du_entangled_finality_absorption_probe.py`.
 
-**`H-CCR-16` control grade (2026-07-25).** Four exact finite layers now run:
+**`H-CCR-16` control grade (2026-07-25).** Five exact finite layers now run:
 
 1. the `24/24` regional kernel unifies flat/frustrated descent, quorum
    safety/liveness/provenance, action-sufficient node promotion, refinement,
@@ -1046,18 +1094,29 @@ and `tests/du_entangled_finality_absorption_probe.py`.
    quantum instruments. The authenticated obstruction is absorbed by formed
    route provenance and safe equivocation rejection; the quantum obstruction
    is absorbed by standard contextuality plus the implemented context
-   register.
+   register; and
+5. the `16/16` typed identity pilot separates repeated labels, equal outcome
+   effects, equal selective instruments, equal multi-time continuations and
+   formed provenance/value identity. A post-record flip matches every
+   single-time Z effect but fails the held-out next-Z continuation, while an
+   implementation-phase rival induces the same complete CP maps and is
+   correctly quotiented. Individually authentic cross-route messages can
+   still equivocate.
 
 These are reusable conjunctions of known component mathematics, not a general
-theorem or physical architecture. The immediate successor is an independently
-warranted overlap-identity assay: a dual certificate refutes a supplied
-cross-context identity but does not itself refute the physical process.
-Sparse exact compilation and recursive vector-defect composition follow. See
+theorem or physical architecture. The immediate successor is a robust
+physical typed-identity assay with predeclared equivalence margins, complete
+instruments, drift/leakage/memory controls and held-out continuations. A dual
+certificate still refutes only a supplied cross-context identity, not the
+physical process. Sparse exact compilation and recursive vector-defect
+composition follow. See
 `explorations/regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`,
 `tests/du_endogenous_regionalization_probe.py`, and
 `tests/du_noisy_noninvertible_descent_probe.py`, plus
 `explorations/multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md`
-and `tests/du_multitime_marginal_transfer_probe.py`.
+and `tests/du_multitime_marginal_transfer_probe.py`, and
+`explorations/operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md`
+with `tests/du_certified_overlap_identity_probe.py`.
 
 ## Common benchmark suite
 
