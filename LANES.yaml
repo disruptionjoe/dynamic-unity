@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 26
+manifest_revision: 27
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -43,7 +43,11 @@ active_hardening_program_note: >-
   adds the deduplicated 27-family paper-opportunity portfolio, separates cheap Factory seed
   readiness from scientific and manuscript hardening, and changes no claim grade or Factory state.
   Revision 25 confirms Factory custody for seven standalone seeds and two merge reviews while
-  leaving every item unselected and every hardening request empty.
+  leaving every item unselected and every hardening request empty. Revision 26 closes two
+  concentrated paper routes and builds the first exact finite compiler. Revision 27 extends that
+  compiler to stochastic records, executes the first matrix-derived quantum/authenticated-DAG
+  transfer, localizes both apparent remainders to withheld provenance, and strengthens the
+  generativity control from an extensional response tree to a compressed fixed-law rival.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -580,12 +584,15 @@ certified_causal_reality_restructure:
     PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / TIGHT BINARY
     RECORD-DISTURBANCE, INDEPENDENT-FRAGMENT AND ARCHIVE-SUPPORT CONTROLS EXACT BUT GENERAL
     NOVELTY ABSORBED / FINITE EXACT-RATIONAL HISTORY-CERTIFICATE COMPILER VIABLE ACROSS TWO
-    TYPED FIXTURES / BOTH FIRST WITNESSES ABSORBED BY FORMED PROVENANCE / PHYSICAL RECORD
-    FORMATION, ADMISSIBLE INTERFACE REFINEMENT,
-    INSTRUMENT-LEVEL HISTORY CERTIFICATION, BROADCASTABLE PUBLIC FINALITY,
-    FORMATION-TO-FINALITY RESOURCE LAW, GEOMETRY AND PHYSICAL RECOVERY OPEN / COMPONENT
-    MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL RESOURCE-COUPLED
-    CONJUNCTION SEARCH-INCOMPLETE
+    TYPED FIXTURES / STOCHASTIC EXTENSION EXECUTED ON A MATRIX-DERIVED QND QUANTUM RECORDER AND
+    REPLAYABLE AUTHENTICATED OPERATION DAG / NOISY PUBLIC RECORDS INSUFFICIENT / FORMED
+    ERROR-OR-DELIVERY SYNDROME PLUS ROUTE PROVENANCE RESTORES EXACT FACTORIZATION / RESTRICTED
+    BOUNDARY REMAINDERS ABSORBED BY CHARGED EXPANSION / NO IRREDUCIBLE REMAINDER / EXACT FRESH
+    RECORD SUPPORT GROWTH RETAINED BUT EXTENSIONAL TREE COST ABSORBED BY COMPRESSED FIXED LAW /
+    PHYSICAL RECORD SELECTION, IMPLEMENTATION-COMPLETE PROPER-TIME HISTORY CERTIFICATION,
+    BROADCASTABLE PUBLIC FINALITY, FORMATION-TO-FINALITY RESOURCE LAW, GEOMETRY AND PHYSICAL
+    RECOVERY OPEN / COMPONENT MATHEMATICS AND STATIC QUANTUM/BFT ACCESS TERRAIN KNOWN / PHYSICAL
+    RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
   first_dependency: >-
     Independently select or classify the physical record-forming interface, cadence and
     equivariant/noncommutative structured channel, then freeze a nonempty physically realizable
@@ -593,13 +600,13 @@ certified_causal_reality_restructure:
     consequence of supplied selection/access relations; HC-DU-036A shows why a failed candidate
     interface alone cannot establish a physical remainder.
   first_executable_flagship: >-
-    Physicalize the completed finite history-certificate compiler one arm at a time. Replace the
-    quantum-like response table with a complete routed process instrument, strongest
-    implementation-complete null, calibrated margin, finite-shot gate and refinement grammar
-    frozen before selection. Then replace the distributed table with a replayable authenticated
-    DAG/BFT process under an explicit adversary and resource-vector order. Only after a formed
-    distinction survives every admitted refinement should HC-DU-035B price its conversion into
-    public finality.
+    Do not add another hand-selected compiler fixture. Attack the remaining exogenous interface
+    choice directly: either derive/classify a record-forming channel from independently fixed
+    physical dynamics plus resource/stability conditions, or instantiate the signed all-port
+    assay in a proposal-level proper-time process with complete operations, accessible outcomes,
+    implementation-complete convex nulls and matched resources. Carry the stochastic compiler
+    unchanged as the adjudicator. Only after a formed distinction survives every admitted
+    refinement should HC-DU-035B price its conversion into public finality.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -1004,6 +1011,51 @@ concentrated_paper_closing_program:
     mathematics, the compiler implements HC-DU-036B and tests H-CCR-13/14 without finding a
     remainder, and the clock gate sharpens H-CCR-11. Existing Drafting Factory seeds remain
     unselected; no source priority change was written into Factory state.
+physical_history_certificate_transfer_swing:
+  status: completed_scoped_matrix_protocol_transfer
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: execute the recommended actual-work orchestration after reviewing the
+    repository's next most impactful work.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-220842-physical-history-certificate-transfer/run-plan.md
+  synthesis_ref: >-
+    explorations/physical-history-certificate-transfer-and-generativity-hedge-2026-07-24.md
+  physical_probe_ref: tests/du_physical_history_certificate_transfer_probe.py
+  physical_artifact_ref: >-
+    tests/artifacts/du_physical_history_certificate_transfer_result.json
+  physical_artifact_sha256: a707d729c44933190f54af870e2233e4b61177172875f05c17f1db419482cbba
+  generativity_probe_ref: tests/du_fresh_record_generativity_resource_probe.py
+  generativity_artifact_ref: >-
+    tests/artifacts/du_fresh_record_generativity_resource_result.json
+  generativity_artifact_sha256: 109031ca6a4332aca51f17a2299190df1a45c7758fd67abd21c58f4ad38cfde9
+  stochastic_transfer_result: >-
+    The compiler now decides exact finite stochastic record sufficiency as P_a=R K_a and carries
+    the same path equalizer, candidate exclusions and verdicts across a matrix-derived QND
+    quantum recorder and a replayable authenticated operation DAG. Both probes derive a
+    deliberately matched noisy 1/5 public record channel; that numeric rate is a transfer control,
+    not a selected invariant. The base record and a noisy copy are insufficient; a formed
+    error/delivery syndrome plus route/layer provenance is the minimum sufficient refinement.
+  boundary_result: >-
+    Withholding the syndrome produces CANDIDATE_REMAINDER in both fixtures. Admitting it through
+    a charged boundary expansion produces MINIMAL_REFINEMENT. The present remainder is therefore
+    interface-relative and does not support an irreducible-physics or record-first conclusion.
+  generativity_result: >-
+    Exact binary-prefix records retain the 2^T support requirement, but a two-state fixed law
+    plus append-only output matches the full finite counterfactual response tree. Beating an
+    extensional tree is not evidence of source issuance when a compressed fixed-law completion
+    remains admissible.
+  checks: >-
+    The physical/protocol probe passes 16/16 and the generativity hedge passes 10/10. Repeated
+    artifacts are byte-identical.
+  next_move: >-
+    Do not add another hand-built compiler fixture. Attack physical interface selection or build
+    an implementation-complete proposal-level proper-time instrument. Keep HC-DU-035B gated
+    because every currently formed distinction is absorbed by ordinary syndrome and route
+    provenance.
+  ledger_disposition: >-
+    No new claim, hypothesis, concept, prediction, ontology or Factory state. H-CCR-02/05/10/12/13
+    and XH-01/02/06 receive scoped executable evidence or stronger controls only.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1398,10 +1450,13 @@ lanes:
     tight complexity-relative horizon and a proof that no size-free horizon exists. The finite
     reconciliation-loop baseline now identifies public facts with the holonomy invariant,
     establishes project-or-lift provenance, and shows that added connectivity can reduce public
-    capacity. The decisive target is a noninvertible history-certificate compiler within the
-    coupled HC-DU-034B/036B physical assay: require a positive calibrated instrument margin, then
-    decide whether formed provenance absorbs the response or a class-relative remainder survives.
-    HC-DU-035B follows only after that assay supplies a formed distinction worth pricing.
+    capacity. The stochastic history-certificate compiler now runs unchanged on a matrix-derived
+    QND recorder and a replayable authenticated DAG. Both apparent remainders were ordinary
+    withheld error/delivery provenance and vanished under charged boundary expansion. The
+    decisive target is now the selection gap itself: derive or classify the record-forming
+    interface from fixed dynamics/resources, or execute an implementation-complete proper-time
+    instrument whose distinction survives the admitted refinements. HC-DU-035B follows only
+    after that assay supplies a formed distinction worth pricing.
   anchor:
     name: Certified Causal Sufficiency — factorization, candidate witness and refinement challenge
     elevated: '2026-07-24 (Joe direct chat; nineteen-lens triple-diamond convergence)'
@@ -1416,10 +1471,13 @@ lanes:
       closure, tight deterministic witness and finite-linear rank controls. The finite
       holonomy/public-fact baseline additionally fixes record descent, reconciliation-frustration,
       task-relative provenance capacity, cycle-lift rank and passive-refinement flatness. Its
-      coherent route phase is absorbed by implementation provenance. A witness diagnoses a failed
-      candidate interface; it is not a physical remainder until every member of a frozen
-      admissible refinement class fails. No record-forming law, physical interface, observer,
-      instrument-level history certificate, broadcastable public finality,
+      coherent route phase is absorbed by implementation provenance. The stochastic
+      matrix/protocol transfer further shows that noisy public records can fail while formed
+      error/delivery syndromes restore exact sufficiency; its restricted-boundary remainders are
+      therefore interface-relative. A witness diagnoses a failed candidate interface; it is not
+      a physical remainder until every member of a frozen admissible refinement class fails. No
+      selected record-forming law, proper-time implementation, observer,
+      implementation-complete history certificate, broadcastable public finality,
       formation-to-finality resource law, geometry, physical ontology or low-energy theory has
       been selected.
     success: >-
@@ -1454,19 +1512,23 @@ lanes:
       trichotomy, HC-DU-014/024, the live portions of HC-DU-031 and causal-growth candidates.
       Fixed finite aliasing is not open-ended record production. Give the disclosure rival one
       stage-zero source containing both the realized path and the declared finite
-      counterfactual-response tree; stage-fixedness alone is not future-independence.
-      Computational non-reducibility may diagnose one frozen class but does not define physical
-      novelty.
+      counterfactual-response tree, then test a compressed fixed-law transducer. The executed
+      parity control shows that a two-state fixed law plus charged append-only support can match
+      the full finite tree. Stage-fixedness alone is not future-independence, extensional tree
+      size is not a compressed resource bound, and computational non-reducibility may diagnose
+      one frozen class but does not define physical novelty.
   - id: '1.3'
     title: Multi-time certification and public finality
     scope: >-
       HC-DU-034A is complete at exact ideal-assay grade: signed all-port pooling isolates the
       declared two-history coherence term, vanishes for arbitrary-weight incoherent mixtures of
-      the same frozen histories, and removes symmetric one-port postselection waste. Execute
-      HC-DU-034B jointly with HC-DU-036B by freezing a complete finite outcome record and convex
-      instrument-level classical replacement set, then compute its robust separation margin,
-      optimal bounded score, calibration/shot gate, operations, errors, tester basis and resource
-      ledger. HC-DU-035A separately closes the
+      the same frozen histories, and removes symmetric one-port postselection waste. The first
+      HC-DU-034B/036B matrix control now constructs a QND stabilizer recorder, explicit detector
+      error environment, complete finite outcome record and positive ideal signed all-port
+      margin. It is not a proper-time implementation or an implementation-complete convex null.
+      Execute that stronger physical assay with complete operations, accessible outcomes,
+      errors, tester basis, calibration/shot gate and matched resource ledger. HC-DU-035A
+      separately closes the
       static layered-threshold controls and rejects one scalar objectivity threshold. Execute
       HC-DU-035B only after the coupled assay provides a physically formed distinction whose
       conversion into stable approximately commutative or broadcastable public capability can be
@@ -1482,14 +1544,17 @@ lanes:
       finite linear realization has a reachable-rank bound, and no size-free horizon exists. The
       reversible finite loop baseline identifies public facts with the holonomy orbit/fixed
       algebra, proves task-relative project-or-lift provenance, and supplies connectivity-
-      frustration and cycle-lift controls. Execute the noninvertible/noisy equalizer extension on
-      the HC-DU-034B physical assay. Freeze a nonempty target-independent admissible refinement
-      class covering source, environment, controller/scheduler, decoder, access boundary, record
-      instrument, routed implementation and resources as relevant. Begin with XH-01, XH-02 and
-      the explicitly nonexhaustive XH-06 constructor battery; distinguish known phase/process
-      structure, interface incompleteness and class-relative physical remainder. Never define a
-      selected record by agreement under every target physical experiment or call a
-      target-derived quotient a formed physical record.
+      frustration and cycle-lift controls. The stochastic noninvertible extension now executes
+      exact factorization and path equalization on a matrix-derived quantum recorder and
+      authenticated DAG. Both witnesses are absorbed by formed syndrome plus route provenance,
+      and the restricted-boundary remainder is interface-relative. Preserve the unchanged
+      compiler while attacking physical record selection and a broader independently justified
+      refinement class covering source, environment, controller/scheduler, decoder, access
+      boundary, record instrument, routed implementation and resources. Begin with XH-01, XH-02
+      and the explicitly nonexhaustive XH-06 battery; distinguish known phase/process structure,
+      interface incompleteness and class-relative physical remainder. Never define a selected
+      record by agreement under every target physical experiment or call a target-derived
+      quotient a formed physical record.
   - id: '1.5'
     title: Meta-record time and geometry
     scope: >-
@@ -1743,9 +1808,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 26.
+    routing is the root lanes key at manifest revision 27.
 provenance:
-  revision: 26
+  revision: 27
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1805,7 +1870,13 @@ provenance:
     seed-versus-manuscript distance for every family, and separates cheap Factory opportunity
     custody from scientific hardening without sending or promoting anything; rev25 (Joe direct
     chat, 2026-07-24) places the nine proposal-complete opportunities into confirmed Factory
-    custody and reconciles the source portfolio without production activation or claim movement
+    custody and reconciles the source portfolio without production activation or claim movement;
+    rev26 (Joe direct chat, 2026-07-24) executes the gated paper-closing swing, narrows two
+    general theorem routes, and builds the exact finite history-certificate compiler; rev27 (Joe
+    direct chat, 2026-07-24) executes the next actual-work swing, extends the compiler to
+    stochastic records, carries it across a matrix-derived quantum recorder and authenticated
+    operation DAG, localizes both remainders to withheld provenance, and strengthens XH-01 with
+    a compressed fixed-law adversary
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -2058,3 +2129,16 @@ provenance:
     concentrated paper-closing source allocation moves to DU-PAPER-013, while physicalizing the
     compiler remains the DU-PAPER-007 flagship. No claim, hypothesis, concept, prediction,
     ontology, Factory state, draft, submission, publication or external action changed.
+  rev27_note: >-
+    2026-07-24 (Joe direct chat: execute the recommended actual-work orchestration): extended the
+    history-certificate compiler from deterministic labels to exact stochastic record kernels
+    and ran one unchanged factorization/provenance contract on a matrix-derived QND quantum
+    recorder and a replayable authenticated operation DAG. The probe passes 16/16: noisy public
+    records and noisy copies fail, formed error/delivery syndromes plus route provenance restore
+    exact sufficiency, and restricted-boundary candidate remainders disappear under charged
+    expansion. A separate 10/10 hedge retains exact finite support growth but shows that a
+    two-state fixed law plus append-only output matches the full finite counterfactual tree, so
+    extensional tree cost does not witness issuance. The compiler is no longer the immediate
+    bottleneck; physical interface selection or an implementation-complete proper-time
+    instrument is next. No claim, hypothesis, concept, prediction, ontology, Factory state,
+    draft, submission, publication or external action changed.

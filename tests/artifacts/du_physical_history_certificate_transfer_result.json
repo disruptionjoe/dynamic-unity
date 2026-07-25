@@ -1,0 +1,3133 @@
+{
+  "candidate_ids": [
+    "HC-DU-033",
+    "HC-DU-034B",
+    "HC-DU-036B",
+    "HC-DU-039",
+    "H-CCR-02",
+    "H-CCR-05",
+    "H-CCR-12",
+    "H-CCR-13"
+  ],
+  "checks": [
+    {
+      "id": "quantum_process_uses_unitary_preparation_record_and_error_gates",
+      "pass": true
+    },
+    {
+      "id": "qnd_recording_preserves_each_stabilizer_history",
+      "pass": true
+    },
+    {
+      "id": "quantum_record_kernels_are_matrix_derived_and_exact",
+      "pass": true
+    },
+    {
+      "id": "reduced_target_readout_is_history_blind",
+      "pass": true
+    },
+    {
+      "id": "signed_all_port_instrument_excludes_dephased_null",
+      "pass": true
+    },
+    {
+      "id": "distributed_hash_and_replay_controls_execute",
+      "pass": true
+    },
+    {
+      "id": "distributed_dag_detects_only_equivocating_histories",
+      "pass": true
+    },
+    {
+      "id": "distributed_record_kernels_are_schedule_derived_and_exact",
+      "pass": true
+    },
+    {
+      "id": "noisy_base_records_fail_exact_later_response_factorization",
+      "pass": true
+    },
+    {
+      "id": "expanded_formed_records_admit_exact_stochastic_decoders",
+      "pass": true
+    },
+    {
+      "id": "finite_independent_noisy_copy_does_not_repair_exact_factorization",
+      "pass": true
+    },
+    {
+      "id": "departed_or_withheld_provenance_makes_remainder_boundary_relative",
+      "pass": true
+    },
+    {
+      "id": "candidate_grammar_excludes_targets_in_both_platforms",
+      "pass": true
+    },
+    {
+      "id": "platform_metadata_is_not_a_decision_input",
+      "pass": true
+    },
+    {
+      "distributed_role_signature": {
+        "base_record_outcome_count": 2,
+        "decision": "exact stochastic factorization plus path equalizer",
+        "formed_complete_record_refinements": 2,
+        "formed_path_provenance_refinements": 1,
+        "history_count": 4,
+        "intervention_count": 2,
+        "path_count": 2,
+        "response_outcome_count": 2
+      },
+      "id": "unchanged_stochastic_factorization_contract_transfers",
+      "pass": true,
+      "quantum_role_signature": {
+        "base_record_outcome_count": 2,
+        "decision": "exact stochastic factorization plus path equalizer",
+        "formed_complete_record_refinements": 2,
+        "formed_path_provenance_refinements": 1,
+        "history_count": 4,
+        "intervention_count": 2,
+        "path_count": 2,
+        "response_outcome_count": 2
+      }
+    },
+    {
+      "id": "exact_lp_checker_accepts_identity_and_rejects_overlap_obstruction",
+      "pass": true
+    }
+  ],
+  "checks_passed": 16,
+  "checks_total": 16,
+  "claim_grade": "EXACT FINITE MATRIX/PROTOCOL CONSTRUCTION + EXACT-RATIONAL STOCHASTIC FACTORIZATION PILOT / PHYSICAL GENERALIZATION, LABORATORY REALIZATION, CRYPTOGRAPHIC SECURITY AND NOVELTY OPEN",
+  "compiler_results": {
+    "distributed_expanded_boundary": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 4,
+          "factors": false,
+          "first_conflict": {
+            "left_action": "abort",
+            "left_history": "equivocation_variant_b",
+            "left_path": "leaderless_gossip_view",
+            "path_tags": [],
+            "public_view": "red",
+            "right_action": "commit",
+            "right_history": "serializable_variant_a",
+            "right_path": "hardening_layer_view"
+          },
+          "noninjective_paths": [
+            "leaderless_gossip_view",
+            "hardening_layer_view"
+          ],
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1
+        },
+        "refinement_ids": [],
+        "resource_vector": {},
+        "response_factorization": {
+          "criterion": "exists stochastic K_a with P_a = R K_a",
+          "factors": false,
+          "intervention_results": [
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              "factors": true,
+              "intervention": "materialized_endpoint_read",
+              "reason": "exact_basic_feasible_decoder_found"
+            },
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": null,
+              "factors": false,
+              "intervention": "authenticated_replay_audit",
+              "reason": "no_nonnegative_stochastic_decoder"
+            }
+          ],
+          "overlap_obstruction": {
+            "intervention": "authenticated_replay_audit",
+            "left_history": "serializable_variant_a",
+            "left_response": [
+              "1",
+              "0"
+            ],
+            "right_history": "equivocation_variant_a",
+            "right_response": [
+              "0",
+              "1"
+            ],
+            "shared_record_support_indices": [
+              0,
+              1
+            ]
+          },
+          "record_kernel": [
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ]
+          ],
+          "record_outcomes": [
+            "audit_serializable",
+            "audit_equivocation"
+          ]
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [
+              "authenticated_layer_register"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "authenticated_layer_register"
+          ],
+          "resource_vector": {
+            "authenticated_layer_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": null,
+                "factors": false,
+                "intervention": "authenticated_replay_audit",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "authenticated_replay_audit",
+              "left_history": "serializable_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "equivocation_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1
+              ]
+            },
+            "record_kernel": [
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_serializable",
+              "audit_equivocation"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "left_action": "abort",
+              "left_history": "equivocation_variant_b",
+              "left_path": "leaderless_gossip_view",
+              "path_tags": [],
+              "public_view": "red",
+              "right_action": "commit",
+              "right_history": "serializable_variant_a",
+              "right_path": "hardening_layer_view"
+            },
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1
+          },
+          "refinement_ids": [
+            "replicated_materialized_audit_bit"
+          ],
+          "resource_vector": {
+            "replicated_endpoint_copies": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "authenticated_replay_audit",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "authenticated_replay_audit",
+              "left_history": "serializable_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "equivocation_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_00",
+              "audit_01",
+              "audit_10",
+              "audit_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "left_action": "abort",
+              "left_history": "equivocation_variant_b",
+              "left_path": "leaderless_gossip_view",
+              "path_tags": [],
+              "public_view": "red",
+              "right_action": "commit",
+              "right_history": "serializable_variant_a",
+              "right_path": "hardening_layer_view"
+            },
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1
+          },
+          "refinement_ids": [
+            "authenticated_dag_delivery_receipt"
+          ],
+          "resource_vector": {
+            "authenticated_dag_records": 1,
+            "authenticated_delivery_receipts": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": true,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 3,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "authenticated_replay_audit",
+                "reason": "exact_basic_feasible_decoder_found"
+              }
+            ],
+            "overlap_obstruction": null,
+            "record_kernel": [
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_0_receipt_0",
+              "audit_0_receipt_1",
+              "audit_1_receipt_0",
+              "audit_1_receipt_1"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [
+              "authenticated_layer_register"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "authenticated_layer_register",
+            "replicated_materialized_audit_bit"
+          ],
+          "resource_vector": {
+            "authenticated_layer_bits": 1,
+            "replicated_endpoint_copies": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "authenticated_replay_audit",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "authenticated_replay_audit",
+              "left_history": "serializable_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "equivocation_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_00",
+              "audit_01",
+              "audit_10",
+              "audit_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [
+              "authenticated_layer_register"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "authenticated_dag_delivery_receipt",
+            "authenticated_layer_register"
+          ],
+          "resource_vector": {
+            "authenticated_dag_records": 1,
+            "authenticated_delivery_receipts": 1,
+            "authenticated_layer_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": true,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 3,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "authenticated_replay_audit",
+                "reason": "exact_basic_feasible_decoder_found"
+              }
+            ],
+            "overlap_obstruction": null,
+            "record_kernel": [
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_0_receipt_0",
+              "audit_0_receipt_1",
+              "audit_1_receipt_0",
+              "audit_1_receipt_1"
+            ]
+          },
+          "sufficient": true,
+          "total_cost": 3
+        }
+      ],
+      "certificate": {
+        "interpretation": "formed physical/protocol provenance absorbs the base witness; no class-relative remainder",
+        "optimizer": "minimum(total_cost, primitive_count, lexicographic_refinement_ids)",
+        "selected": {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [
+              "authenticated_layer_register"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "authenticated_dag_delivery_receipt",
+            "authenticated_layer_register"
+          ],
+          "resource_vector": {
+            "authenticated_dag_records": 1,
+            "authenticated_delivery_receipts": 1,
+            "authenticated_layer_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": true,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 3,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "authenticated_replay_audit",
+                "reason": "exact_basic_feasible_decoder_found"
+              }
+            ],
+            "overlap_obstruction": null,
+            "record_kernel": [
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_0_receipt_0",
+              "audit_0_receipt_1",
+              "audit_1_receipt_0",
+              "audit_1_receipt_1"
+            ]
+          },
+          "sufficient": true,
+          "total_cost": 3
+        }
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded physical stochastic-record grammar",
+      "contract_id": "DPHYS-AUTH-DAG-01",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "authenticated_dag_delivery_receipt",
+          "authenticated_layer_register",
+          "replicated_materialized_audit_bit"
+        ],
+        "candidate_subset_ids": [
+          [
+            "authenticated_layer_register"
+          ],
+          [
+            "replicated_materialized_audit_bit"
+          ],
+          [
+            "authenticated_dag_delivery_receipt"
+          ],
+          [
+            "authenticated_layer_register",
+            "replicated_materialized_audit_bit"
+          ],
+          [
+            "authenticated_dag_delivery_receipt",
+            "authenticated_layer_register"
+          ]
+        ],
+        "excluded_from_selection": [
+          "later response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [
+          {
+            "reasons": [
+              "target_derived_candidate"
+            ],
+            "refinement_id": "adaptive_abort_decoder"
+          }
+        ],
+        "incompatible_complete_record_combinations": [
+          [
+            "authenticated_dag_delivery_receipt",
+            "replicated_materialized_audit_bit"
+          ]
+        ],
+        "selection_dependency": [
+          "physically supplied base record kernel",
+          "formed/future-independent/access/frame declarations",
+          "candidate record kernels and provenance tags",
+          "resource budget",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "cd8ac931b2bd2759d945da86760a0472cff09281da69f45e6ed6b2177e52b584",
+      "platform_label": "replayable_authenticated_operation_dag",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/physical-stochastic-history-certificate/v0.1",
+      "verdict": "MINIMAL_REFINEMENT"
+    },
+    "distributed_restricted_boundary": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 4,
+          "factors": false,
+          "first_conflict": {
+            "left_action": "abort",
+            "left_history": "equivocation_variant_b",
+            "left_path": "leaderless_gossip_view",
+            "path_tags": [],
+            "public_view": "red",
+            "right_action": "commit",
+            "right_history": "serializable_variant_a",
+            "right_path": "hardening_layer_view"
+          },
+          "noninjective_paths": [
+            "leaderless_gossip_view",
+            "hardening_layer_view"
+          ],
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1
+        },
+        "refinement_ids": [],
+        "resource_vector": {},
+        "response_factorization": {
+          "criterion": "exists stochastic K_a with P_a = R K_a",
+          "factors": false,
+          "intervention_results": [
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": [
+                [
+                  "1",
+                  "0"
+                ],
+                [
+                  "1",
+                  "0"
+                ]
+              ],
+              "factors": true,
+              "intervention": "materialized_endpoint_read",
+              "reason": "exact_basic_feasible_decoder_found"
+            },
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": null,
+              "factors": false,
+              "intervention": "authenticated_replay_audit",
+              "reason": "no_nonnegative_stochastic_decoder"
+            }
+          ],
+          "overlap_obstruction": {
+            "intervention": "authenticated_replay_audit",
+            "left_history": "serializable_variant_a",
+            "left_response": [
+              "1",
+              "0"
+            ],
+            "right_history": "equivocation_variant_a",
+            "right_response": [
+              "0",
+              "1"
+            ],
+            "shared_record_support_indices": [
+              0,
+              1
+            ]
+          },
+          "record_kernel": [
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ]
+          ],
+          "record_outcomes": [
+            "audit_serializable",
+            "audit_equivocation"
+          ]
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [
+              "authenticated_layer_register"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "authenticated_layer_register"
+          ],
+          "resource_vector": {
+            "authenticated_layer_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": null,
+                "factors": false,
+                "intervention": "authenticated_replay_audit",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "authenticated_replay_audit",
+              "left_history": "serializable_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "equivocation_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1
+              ]
+            },
+            "record_kernel": [
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_serializable",
+              "audit_equivocation"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "left_action": "abort",
+              "left_history": "equivocation_variant_b",
+              "left_path": "leaderless_gossip_view",
+              "path_tags": [],
+              "public_view": "red",
+              "right_action": "commit",
+              "right_history": "serializable_variant_a",
+              "right_path": "hardening_layer_view"
+            },
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1
+          },
+          "refinement_ids": [
+            "replicated_materialized_audit_bit"
+          ],
+          "resource_vector": {
+            "replicated_endpoint_copies": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "authenticated_replay_audit",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "authenticated_replay_audit",
+              "left_history": "serializable_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "equivocation_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_00",
+              "audit_01",
+              "audit_10",
+              "audit_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "leaderless_gossip_view",
+              "hardening_layer_view"
+            ],
+            "selected_certified_path_provenance": [
+              "authenticated_layer_register"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "authenticated_layer_register",
+            "replicated_materialized_audit_bit"
+          ],
+          "resource_vector": {
+            "authenticated_layer_bits": 1,
+            "replicated_endpoint_copies": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "materialized_endpoint_read",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "authenticated_replay_audit",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "authenticated_replay_audit",
+              "left_history": "serializable_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "equivocation_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "audit_00",
+              "audit_01",
+              "audit_10",
+              "audit_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 2
+        }
+      ],
+      "certificate": {
+        "candidate_count": 3,
+        "finite_class_exhausted": true,
+        "interpretation": "candidate remainder relative only to the frozen access boundary and finite grammar; not an irreducible remainder"
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded physical stochastic-record grammar",
+      "contract_id": "DPHYS-AUTH-DAG-01-RESTRICTED-BOUNDARY",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "authenticated_layer_register",
+          "replicated_materialized_audit_bit"
+        ],
+        "candidate_subset_ids": [
+          [
+            "authenticated_layer_register"
+          ],
+          [
+            "replicated_materialized_audit_bit"
+          ],
+          [
+            "authenticated_layer_register",
+            "replicated_materialized_audit_bit"
+          ]
+        ],
+        "excluded_from_selection": [
+          "later response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [
+          {
+            "reasons": [
+              "outside_frozen_access_class"
+            ],
+            "refinement_id": "authenticated_dag_delivery_receipt"
+          },
+          {
+            "reasons": [
+              "target_derived_candidate"
+            ],
+            "refinement_id": "adaptive_abort_decoder"
+          }
+        ],
+        "incompatible_complete_record_combinations": [],
+        "selection_dependency": [
+          "physically supplied base record kernel",
+          "formed/future-independent/access/frame declarations",
+          "candidate record kernels and provenance tags",
+          "resource budget",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "4cbd198aa03a2d5fee80bc02673451a9aa30c7bef7205b9b40794c26563e5c63",
+      "platform_label": "replayable_authenticated_operation_dag",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/physical-stochastic-history-certificate/v0.1",
+      "verdict": "CANDIDATE_REMAINDER"
+    },
+    "quantum_expanded_boundary": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 4,
+          "factors": false,
+          "first_conflict": {
+            "left_action": "phase_correct",
+            "left_history": "phase_minus_variant_b",
+            "left_path": "direct_detector_route",
+            "path_tags": [],
+            "public_view": "dark",
+            "right_action": "preserve",
+            "right_history": "phase_plus_variant_a",
+            "right_path": "relayed_detector_route"
+          },
+          "noninjective_paths": [
+            "direct_detector_route",
+            "relayed_detector_route"
+          ],
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1
+        },
+        "refinement_ids": [],
+        "resource_vector": {},
+        "response_factorization": {
+          "criterion": "exists stochastic K_a with P_a = R K_a",
+          "factors": false,
+          "intervention_results": [
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": [
+                [
+                  "1/2",
+                  "1/2"
+                ],
+                [
+                  "1/2",
+                  "1/2"
+                ]
+              ],
+              "factors": true,
+              "intervention": "reduced_target_Z",
+              "reason": "exact_basic_feasible_decoder_found"
+            },
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": null,
+              "factors": false,
+              "intervention": "later_stabilizer_recheck",
+              "reason": "no_nonnegative_stochastic_decoder"
+            }
+          ],
+          "overlap_obstruction": {
+            "intervention": "later_stabilizer_recheck",
+            "left_history": "phase_plus_variant_a",
+            "left_response": [
+              "1",
+              "0"
+            ],
+            "right_history": "phase_minus_variant_a",
+            "right_response": [
+              "0",
+              "1"
+            ],
+            "shared_record_support_indices": [
+              0,
+              1
+            ]
+          },
+          "record_kernel": [
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ]
+          ],
+          "record_outcomes": [
+            "pointer_0",
+            "pointer_1"
+          ]
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [
+              "certified_detector_route"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "certified_detector_route"
+          ],
+          "resource_vector": {
+            "authenticated_route_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": [
+                  [
+                    "1/2",
+                    "1/2"
+                  ],
+                  [
+                    "1/2",
+                    "1/2"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": null,
+                "factors": false,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "later_stabilizer_recheck",
+              "left_history": "phase_plus_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "phase_minus_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1
+              ]
+            },
+            "record_kernel": [
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_0",
+              "pointer_1"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "left_action": "phase_correct",
+              "left_history": "phase_minus_variant_b",
+              "left_path": "direct_detector_route",
+              "path_tags": [],
+              "public_view": "dark",
+              "right_action": "preserve",
+              "right_history": "phase_plus_variant_a",
+              "right_path": "relayed_detector_route"
+            },
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1
+          },
+          "refinement_ids": [
+            "replicated_noisy_pointer"
+          ],
+          "resource_vector": {
+            "additional_pointer_copies": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 7,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "9/34",
+                    "25/34"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "9/34",
+                    "25/34"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "later_stabilizer_recheck",
+              "left_history": "phase_plus_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "phase_minus_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_00",
+              "pointer_01",
+              "pointer_10",
+              "pointer_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "left_action": "phase_correct",
+              "left_history": "phase_minus_variant_b",
+              "left_path": "direct_detector_route",
+              "path_tags": [],
+              "public_view": "dark",
+              "right_action": "preserve",
+              "right_history": "phase_plus_variant_a",
+              "right_path": "relayed_detector_route"
+            },
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1
+          },
+          "refinement_ids": [
+            "expanded_pointer_error_syndrome"
+          ],
+          "resource_vector": {
+            "accessible_error_syndrome_bits": 1,
+            "accessible_pointer_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": true,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 5,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "3/8",
+                    "5/8"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "3/8",
+                    "5/8"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 3,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "exact_basic_feasible_decoder_found"
+              }
+            ],
+            "overlap_obstruction": null,
+            "record_kernel": [
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_0_error_0",
+              "pointer_0_error_1",
+              "pointer_1_error_0",
+              "pointer_1_error_1"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [
+              "certified_detector_route"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "certified_detector_route",
+            "replicated_noisy_pointer"
+          ],
+          "resource_vector": {
+            "additional_pointer_copies": 1,
+            "authenticated_route_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 7,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "9/34",
+                    "25/34"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "9/34",
+                    "25/34"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "later_stabilizer_recheck",
+              "left_history": "phase_plus_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "phase_minus_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_00",
+              "pointer_01",
+              "pointer_10",
+              "pointer_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 2
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [
+              "certified_detector_route"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "certified_detector_route",
+            "expanded_pointer_error_syndrome"
+          ],
+          "resource_vector": {
+            "accessible_error_syndrome_bits": 1,
+            "accessible_pointer_bits": 1,
+            "authenticated_route_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": true,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 5,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "3/8",
+                    "5/8"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "3/8",
+                    "5/8"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 3,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "exact_basic_feasible_decoder_found"
+              }
+            ],
+            "overlap_obstruction": null,
+            "record_kernel": [
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_0_error_0",
+              "pointer_0_error_1",
+              "pointer_1_error_0",
+              "pointer_1_error_1"
+            ]
+          },
+          "sufficient": true,
+          "total_cost": 3
+        }
+      ],
+      "certificate": {
+        "interpretation": "formed physical/protocol provenance absorbs the base witness; no class-relative remainder",
+        "optimizer": "minimum(total_cost, primitive_count, lexicographic_refinement_ids)",
+        "selected": {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [
+              "certified_detector_route"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "certified_detector_route",
+            "expanded_pointer_error_syndrome"
+          ],
+          "resource_vector": {
+            "accessible_error_syndrome_bits": 1,
+            "accessible_pointer_bits": 1,
+            "authenticated_route_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": true,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 5,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "3/8",
+                    "5/8"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "3/8",
+                    "5/8"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 3,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "0",
+                    "1"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "exact_basic_feasible_decoder_found"
+              }
+            ],
+            "overlap_obstruction": null,
+            "record_kernel": [
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "0",
+                "0",
+                "1/5"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ],
+              [
+                "0",
+                "1/5",
+                "4/5",
+                "0"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_0_error_0",
+              "pointer_0_error_1",
+              "pointer_1_error_0",
+              "pointer_1_error_1"
+            ]
+          },
+          "sufficient": true,
+          "total_cost": 3
+        }
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded physical stochastic-record grammar",
+      "contract_id": "QPHYS-QND-HISTORY-01",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "certified_detector_route",
+          "expanded_pointer_error_syndrome",
+          "replicated_noisy_pointer"
+        ],
+        "candidate_subset_ids": [
+          [
+            "certified_detector_route"
+          ],
+          [
+            "replicated_noisy_pointer"
+          ],
+          [
+            "expanded_pointer_error_syndrome"
+          ],
+          [
+            "certified_detector_route",
+            "replicated_noisy_pointer"
+          ],
+          [
+            "certified_detector_route",
+            "expanded_pointer_error_syndrome"
+          ]
+        ],
+        "excluded_from_selection": [
+          "later response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [
+          {
+            "reasons": [
+              "not_future_independent"
+            ],
+            "refinement_id": "stage_zero_phase_oracle"
+          }
+        ],
+        "incompatible_complete_record_combinations": [
+          [
+            "expanded_pointer_error_syndrome",
+            "replicated_noisy_pointer"
+          ]
+        ],
+        "selection_dependency": [
+          "physically supplied base record kernel",
+          "formed/future-independent/access/frame declarations",
+          "candidate record kernels and provenance tags",
+          "resource budget",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "00a8d16afb90ceeb4f77a28e6a79b71725fb557e25362d197c8aa9faecad8991",
+      "platform_label": "matrix_derived_quantum_history",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/physical-stochastic-history-certificate/v0.1",
+      "verdict": "MINIMAL_REFINEMENT"
+    },
+    "quantum_restricted_boundary": {
+      "base_evaluation": {
+        "path_equalizer": {
+          "comparison_maps_noninvertible": true,
+          "conflict_count": 4,
+          "factors": false,
+          "first_conflict": {
+            "left_action": "phase_correct",
+            "left_history": "phase_minus_variant_b",
+            "left_path": "direct_detector_route",
+            "path_tags": [],
+            "public_view": "dark",
+            "right_action": "preserve",
+            "right_history": "phase_plus_variant_a",
+            "right_path": "relayed_detector_route"
+          },
+          "noninjective_paths": [
+            "direct_detector_route",
+            "relayed_detector_route"
+          ],
+          "selected_certified_path_provenance": [],
+          "selected_path_provenance_alphabet": 1
+        },
+        "refinement_ids": [],
+        "resource_vector": {},
+        "response_factorization": {
+          "criterion": "exists stochastic K_a with P_a = R K_a",
+          "factors": false,
+          "intervention_results": [
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": [
+                [
+                  "1/2",
+                  "1/2"
+                ],
+                [
+                  "1/2",
+                  "1/2"
+                ]
+              ],
+              "factors": true,
+              "intervention": "reduced_target_Z",
+              "reason": "exact_basic_feasible_decoder_found"
+            },
+            {
+              "augmented_rank": 4,
+              "basic_bases_checked": 1,
+              "coefficient_rank": 4,
+              "decoder": null,
+              "factors": false,
+              "intervention": "later_stabilizer_recheck",
+              "reason": "no_nonnegative_stochastic_decoder"
+            }
+          ],
+          "overlap_obstruction": {
+            "intervention": "later_stabilizer_recheck",
+            "left_history": "phase_plus_variant_a",
+            "left_response": [
+              "1",
+              "0"
+            ],
+            "right_history": "phase_minus_variant_a",
+            "right_response": [
+              "0",
+              "1"
+            ],
+            "shared_record_support_indices": [
+              0,
+              1
+            ]
+          },
+          "record_kernel": [
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "4/5",
+              "1/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ],
+            [
+              "1/5",
+              "4/5"
+            ]
+          ],
+          "record_outcomes": [
+            "pointer_0",
+            "pointer_1"
+          ]
+        },
+        "sufficient": false,
+        "total_cost": 0
+      },
+      "candidate_evaluations": [
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [
+              "certified_detector_route"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "certified_detector_route"
+          ],
+          "resource_vector": {
+            "authenticated_route_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": [
+                  [
+                    "1/2",
+                    "1/2"
+                  ],
+                  [
+                    "1/2",
+                    "1/2"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 4,
+                "basic_bases_checked": 1,
+                "coefficient_rank": 4,
+                "decoder": null,
+                "factors": false,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "later_stabilizer_recheck",
+              "left_history": "phase_plus_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "phase_minus_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1
+              ]
+            },
+            "record_kernel": [
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "4/5",
+                "1/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ],
+              [
+                "1/5",
+                "4/5"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_0",
+              "pointer_1"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 4,
+            "factors": false,
+            "first_conflict": {
+              "left_action": "phase_correct",
+              "left_history": "phase_minus_variant_b",
+              "left_path": "direct_detector_route",
+              "path_tags": [],
+              "public_view": "dark",
+              "right_action": "preserve",
+              "right_history": "phase_plus_variant_a",
+              "right_path": "relayed_detector_route"
+            },
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [],
+            "selected_path_provenance_alphabet": 1
+          },
+          "refinement_ids": [
+            "replicated_noisy_pointer"
+          ],
+          "resource_vector": {
+            "additional_pointer_copies": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 7,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "9/34",
+                    "25/34"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "9/34",
+                    "25/34"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "later_stabilizer_recheck",
+              "left_history": "phase_plus_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "phase_minus_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_00",
+              "pointer_01",
+              "pointer_10",
+              "pointer_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 1
+        },
+        {
+          "path_equalizer": {
+            "comparison_maps_noninvertible": true,
+            "conflict_count": 0,
+            "factors": true,
+            "first_conflict": null,
+            "noninjective_paths": [
+              "direct_detector_route",
+              "relayed_detector_route"
+            ],
+            "selected_certified_path_provenance": [
+              "certified_detector_route"
+            ],
+            "selected_path_provenance_alphabet": 2
+          },
+          "refinement_ids": [
+            "certified_detector_route",
+            "replicated_noisy_pointer"
+          ],
+          "resource_vector": {
+            "additional_pointer_copies": 1,
+            "authenticated_route_bits": 1
+          },
+          "response_factorization": {
+            "criterion": "exists stochastic K_a with P_a = R K_a",
+            "factors": false,
+            "intervention_results": [
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 7,
+                "coefficient_rank": 6,
+                "decoder": [
+                  [
+                    "9/34",
+                    "25/34"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "1",
+                    "0"
+                  ],
+                  [
+                    "9/34",
+                    "25/34"
+                  ]
+                ],
+                "factors": true,
+                "intervention": "reduced_target_Z",
+                "reason": "exact_basic_feasible_decoder_found"
+              },
+              {
+                "augmented_rank": 6,
+                "basic_bases_checked": 20,
+                "coefficient_rank": 6,
+                "decoder": null,
+                "factors": false,
+                "intervention": "later_stabilizer_recheck",
+                "reason": "no_nonnegative_stochastic_decoder"
+              }
+            ],
+            "overlap_obstruction": {
+              "intervention": "later_stabilizer_recheck",
+              "left_history": "phase_plus_variant_a",
+              "left_response": [
+                "1",
+                "0"
+              ],
+              "right_history": "phase_minus_variant_a",
+              "right_response": [
+                "0",
+                "1"
+              ],
+              "shared_record_support_indices": [
+                0,
+                1,
+                2,
+                3
+              ]
+            },
+            "record_kernel": [
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "16/25",
+                "4/25",
+                "4/25",
+                "1/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ],
+              [
+                "1/25",
+                "4/25",
+                "4/25",
+                "16/25"
+              ]
+            ],
+            "record_outcomes": [
+              "pointer_00",
+              "pointer_01",
+              "pointer_10",
+              "pointer_11"
+            ]
+          },
+          "sufficient": false,
+          "total_cost": 2
+        }
+      ],
+      "certificate": {
+        "candidate_count": 3,
+        "finite_class_exhausted": true,
+        "interpretation": "candidate remainder relative only to the frozen access boundary and finite grammar; not an irreducible remainder"
+      },
+      "class_scope": "finite frozen formed/future-independent/access- and resource-bounded physical stochastic-record grammar",
+      "contract_id": "QPHYS-QND-HISTORY-01-RESTRICTED-BOUNDARY",
+      "frozen_class": {
+        "admitted_primitive_ids": [
+          "certified_detector_route",
+          "replicated_noisy_pointer"
+        ],
+        "candidate_subset_ids": [
+          [
+            "certified_detector_route"
+          ],
+          [
+            "replicated_noisy_pointer"
+          ],
+          [
+            "certified_detector_route",
+            "replicated_noisy_pointer"
+          ]
+        ],
+        "excluded_from_selection": [
+          "later response distributions",
+          "target actions",
+          "platform label"
+        ],
+        "excluded_primitives": [
+          {
+            "reasons": [
+              "outside_frozen_access_class"
+            ],
+            "refinement_id": "expanded_pointer_error_syndrome"
+          },
+          {
+            "reasons": [
+              "not_future_independent"
+            ],
+            "refinement_id": "stage_zero_phase_oracle"
+          }
+        ],
+        "incompatible_complete_record_combinations": [],
+        "selection_dependency": [
+          "physically supplied base record kernel",
+          "formed/future-independent/access/frame declarations",
+          "candidate record kernels and provenance tags",
+          "resource budget",
+          "constructor audit"
+        ]
+      },
+      "frozen_class_digest": "f52bf31cbf8c7dbf5ee807c8f38e4367332f279df17508ad0139fbd6315e4f15",
+      "platform_label": "matrix_derived_quantum_history",
+      "platform_label_used_by_decision": false,
+      "schema": "dynamic-unity/physical-stochastic-history-certificate/v0.1",
+      "verdict": "CANDIDATE_REMAINDER"
+    }
+  },
+  "distributed_process_receipt": {
+    "base_record_kernel": [
+      [
+        "4/5",
+        "1/5"
+      ],
+      [
+        "4/5",
+        "1/5"
+      ],
+      [
+        "1/5",
+        "4/5"
+      ],
+      [
+        "1/5",
+        "4/5"
+      ]
+    ],
+    "base_record_outcomes": [
+      "audit_serializable",
+      "audit_equivocation"
+    ],
+    "dag_receipts": {
+      "equivocation_a": {
+        "audit": {
+          "authentication_valid": true,
+          "classification": "equivocation",
+          "equivocation_detected": true,
+          "hash_valid": true,
+          "parents_valid": true,
+          "replay_idempotent": true
+        },
+        "dag_digest": "a956ab682d9f96f7b638313fabce81577655c966360dc96c1644d1ae818b2060",
+        "materialized_endpoint": "balance_0",
+        "node_count": 3
+      },
+      "equivocation_b": {
+        "audit": {
+          "authentication_valid": true,
+          "classification": "equivocation",
+          "equivocation_detected": true,
+          "hash_valid": true,
+          "parents_valid": true,
+          "replay_idempotent": true
+        },
+        "dag_digest": "2084e2e2bab627c986862bb48483d1ec2a72f9c64d379a7702e69bb03bdfcde7",
+        "materialized_endpoint": "balance_0",
+        "node_count": 3
+      },
+      "serializable_a": {
+        "audit": {
+          "authentication_valid": true,
+          "classification": "serializable",
+          "equivocation_detected": false,
+          "hash_valid": true,
+          "parents_valid": true,
+          "replay_idempotent": true
+        },
+        "dag_digest": "f7ccc7baa8a9cb645ee42d7618ac7ce8ecaee1a56e0dc69d51a9bd5f5e54aa4f",
+        "materialized_endpoint": "balance_0",
+        "node_count": 3
+      },
+      "serializable_b": {
+        "audit": {
+          "authentication_valid": true,
+          "classification": "serializable",
+          "equivocation_detected": false,
+          "hash_valid": true,
+          "parents_valid": true,
+          "replay_idempotent": true
+        },
+        "dag_digest": "ed27f7e5d6b4098eeae980412c444f9ed989ea40a13836ad29553cb6cf395a68",
+        "materialized_endpoint": "balance_0",
+        "node_count": 3
+      }
+    },
+    "expanded_record_kernel": [
+      [
+        "4/5",
+        "0",
+        "0",
+        "1/5"
+      ],
+      [
+        "4/5",
+        "0",
+        "0",
+        "1/5"
+      ],
+      [
+        "0",
+        "1/5",
+        "4/5",
+        "0"
+      ],
+      [
+        "0",
+        "1/5",
+        "4/5",
+        "0"
+      ]
+    ],
+    "expanded_record_outcomes": [
+      "audit_0_receipt_0",
+      "audit_0_receipt_1",
+      "audit_1_receipt_0",
+      "audit_1_receipt_1"
+    ],
+    "negative_controls": {
+      "mac_tamper_audit": {
+        "authentication_valid": false,
+        "classification": "serializable",
+        "equivocation_detected": false,
+        "hash_valid": true,
+        "parents_valid": true,
+        "replay_idempotent": true
+      },
+      "payload_tamper_audit": {
+        "authentication_valid": true,
+        "classification": "serializable",
+        "equivocation_detected": false,
+        "hash_valid": false,
+        "parents_valid": true,
+        "replay_idempotent": true
+      }
+    },
+    "process": "authenticated operation DAG -> enumerated delivery/adversary schedule -> materialized audit bit -> replay audit",
+    "schedule_receipts": {
+      "complete_delivery_0": "6f20dd139a72cbe680210a582aac217df4ebb16f4f3d0bba793f0f290c3112d4",
+      "complete_delivery_1": "55b03461d41683c264786652206128f00079ff8b7c4a67cdc2a3f00e5905a8c0",
+      "complete_delivery_2": "dbe641f815463cf0fa406519961c29eba612e3738c96f40ae6b6715a985b6dc3",
+      "complete_delivery_3": "f7f9317cd6f54392aa15bc1c2d65f2798fe579a21d86ec86b0d75a2be2aee3cc",
+      "isolated_split_view": "0cc2ac7dac8c92b6ca7d0bb16e26dfeceb39e8506cf929c81a5039c0e9957862"
+    },
+    "schedules": [
+      [
+        "complete_delivery_0",
+        0
+      ],
+      [
+        "complete_delivery_1",
+        0
+      ],
+      [
+        "complete_delivery_2",
+        0
+      ],
+      [
+        "complete_delivery_3",
+        0
+      ],
+      [
+        "isolated_split_view",
+        1
+      ]
+    ],
+    "security_boundary": "content hashes, parent checks and deterministic fixture MACs are executable controls, not deployed key management, a forgery reduction, or an asynchronous BFT proof"
+  },
+  "not_established": [
+    "universal physical record selection",
+    "proper-time history certification",
+    "laboratory feasibility beyond the ideal finite model",
+    "cryptographic authentication security",
+    "asynchronous BFT safety or liveness",
+    "a naturally selected normalized cross-platform invariant",
+    "exhaustive physical refinement class",
+    "irreducible physical remainder",
+    "record-first ontology",
+    "new physical law",
+    "claim-specific novelty"
+  ],
+  "quantum_process_receipt": {
+    "base_record_kernel": [
+      [
+        "4/5",
+        "1/5"
+      ],
+      [
+        "1/5",
+        "4/5"
+      ]
+    ],
+    "base_record_outcomes": [
+      "pointer_0",
+      "pointer_1"
+    ],
+    "boundary_interpretation": {
+      "base": "accessible noisy pointer; error environment departed",
+      "expanded": "pointer plus accessible error syndrome after charged boundary expansion"
+    },
+    "expanded_record_kernel": [
+      [
+        "4/5",
+        "0",
+        "0",
+        "1/5"
+      ],
+      [
+        "0",
+        "1/5",
+        "4/5",
+        "0"
+      ]
+    ],
+    "expanded_record_outcomes": [
+      "pointer_0_error_0",
+      "pointer_0_error_1",
+      "pointer_1_error_0",
+      "pointer_1_error_1"
+    ],
+    "histories": {
+      "phase_minus": {
+        "all_port_distribution_order_pp_pm_mp_mm": [
+          0.0,
+          0.49999999999999967,
+          0.49999999999999967,
+          0.0
+        ],
+        "base_pointer_distribution": [
+          0.19999999999999993,
+          0.7999999999999997
+        ],
+        "expanded_pointer_environment_distribution": [
+          0.0,
+          0.19999999999999993,
+          0.7999999999999997,
+          0.0
+        ],
+        "nondemolition_trace_distance_numeric": 5.551115123125783e-17,
+        "signed_all_port_mean": -0.9999999999999993,
+        "stabilizer_eigenvalue": -1,
+        "state_norm": 0.9999999999999997
+      },
+      "phase_plus": {
+        "all_port_distribution_order_pp_pm_mp_mm": [
+          0.49999999999999967,
+          0.0,
+          0.0,
+          0.49999999999999967
+        ],
+        "base_pointer_distribution": [
+          0.7999999999999997,
+          0.19999999999999993
+        ],
+        "expanded_pointer_environment_distribution": [
+          0.7999999999999997,
+          0.0,
+          0.0,
+          0.19999999999999993
+        ],
+        "nondemolition_trace_distance_numeric": 5.551115123125783e-17,
+        "signed_all_port_mean": 0.9999999999999993,
+        "stabilizer_eigenvalue": 1,
+        "state_norm": 0.9999999999999997
+      }
+    },
+    "instrument_certificate": {
+      "alternative_signed_mean": "4/5",
+      "calibrated_gap": "7/10",
+      "calibration_absolute_bias_bound": "1/10",
+      "classical_dephased_null": [
+        "1/4",
+        "1/4",
+        "1/4",
+        "1/4"
+      ],
+      "classical_null_signed_mean": "0",
+      "complete_outcomes": [
+        "plus_plus",
+        "plus_minus",
+        "minus_plus",
+        "minus_minus"
+      ],
+      "hoeffding_alpha": "1/20",
+      "hoeffding_beta": "1/20",
+      "ideal_bounded_score_margin": "4/5",
+      "ideal_complete_outcome_total_variation": "2/5",
+      "noisy_coherent_alternative": [
+        "9/20",
+        "1/20",
+        "1/20",
+        "9/20"
+      ],
+      "signed_score": [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      "sufficient_preparations": 49
+    },
+    "process": "Bell-history preparation -> QND XxX pointer recorder -> source-independent detector-error environment",
+    "qubit_order": [
+      "history",
+      "target",
+      "pointer",
+      "error_environment"
+    ],
+    "unitarity_errors": {
+      "cnot": 0.0,
+      "error_gate": 0.0,
+      "qnd_recorder": 0.0
+    }
+  },
+  "schema": "dynamic-unity/physical-history-certificate-transfer-probe/v0.1",
+  "scientific_advance": [
+    "The compiler now accepts stochastic formed records through exact finite Blackwell-style factorization rather than deterministic history labels.",
+    "A matrix-derived QND quantum record and an enumerated authenticated DAG process use the same decision contract; the matched 1/5 noise rate is a designed transfer control.",
+    "The inaccessible error/delivery syndrome gives an exact boundary-relative capability witness; expanding the boundary absorbs it with charged provenance."
+  ],
+  "verdict": "PHYSICAL/PROTOCOL STOCHASTIC-RECORD TRANSFER VIABLE / NOISY BASE RECORDS INSUFFICIENT / FORMED ERROR OR DELIVERY PROVENANCE RESTORES FACTORIZATION / RESTRICTED-BOUNDARY REMAINDERS ARE INTERFACE-RELATIVE / NO IRREDUCIBLE PHYSICAL REMAINDER"
+}

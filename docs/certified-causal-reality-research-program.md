@@ -117,25 +117,38 @@ The recharter preserves, rather than promotes, the strongest exact results:
   is absorbed by established complementarity, information-disturbance, and
   information-support results. Clock-QCA-specific classification or a
   genuinely nonseparable covariance-locality-support bound remains open.
-- A finite exact-rational history-certificate compiler now separates a
+- A finite exact-rational history-certificate compiler separates a
   target-independent refinement grammar from target-dependent sufficiency
   selection and returns factorization, minimum supplied refinement,
-  candidate-class remainder, or incomplete contract. The same kernel ran on a
-  noisy quantum-like fixture and an authenticated distributed-history fixture.
-  Both returned minimum refinement: formed history evidence plus certified
-  route provenance absorbed the witness. No physical remainder was found.
+  candidate-class remainder, or incomplete contract. Its stochastic-record
+  extension now ran on a matrix-derived QND quantum recorder and a replayable
+  authenticated operation DAG under one unchanged factorization and
+  path-provenance contract. In both, the noisy public bit was insufficient,
+  while a formed error/delivery syndrome plus route provenance restored exact
+  sufficiency. Withholding that syndrome created a boundary-relative
+  candidate remainder; a charged boundary expansion absorbed it. No
+  irreducible physical remainder was found.
+- Exact fresh binary-prefix records through depth \(T\) require \(2^T\)
+  distinguishable global record states in the finite append-only model.
+  However, a two-state fixed law plus the growing output tape reproduces the
+  full finite counterfactual response tree. Support growth therefore does not
+  distinguish a nonfixed source law from compressed fixed-law generation.
 
-These results complete the finite classical quotient bookkeeping and the
-first static layered-threshold and deterministic interventional-closure
-controls. They keep **record formation and physical interface selection** as
-the first scientific dependency. The compiler kernel for the coupled
-`HC-DU-034B/036B` history-and-refinement assay now exists. The immediate
-physical swing is to replace one supplied table with a complete routed process
-instrument, strongest implementation-complete null, calibrated margin, and
-frozen physically admissible refinement class. Only a surviving formed
-distinction should route to `HC-DU-035B` for formation-to-finality pricing.
-These controls do not establish an observer, proper time, public classicality,
-continuum covariance, gravity, cosmology, or record-first ontology.
+These results complete the finite classical quotient bookkeeping, the first
+static layered-threshold and deterministic interventional-closure controls,
+and the first stochastic matrix/protocol transfer. They keep **record
+formation and physical interface selection** as the first scientific
+dependency. The compiler is no longer the immediate bottleneck: another
+hand-selected record fixture would mostly repeat the boundary-relative
+syndrome result. The next physical swing must either derive or classify a
+record-forming interface from independently fixed dynamics and
+resource/stability conditions, or instantiate the signed all-port assay in a
+proposal-level proper-time process with complete operations, accessible
+outcomes, calibrated convex nulls, and matched resources. Only a surviving
+formed distinction should route to `HC-DU-035B` for
+formation-to-finality pricing. These controls do not establish an observer,
+proper time, public classicality, continuum covariance, gravity, cosmology, or
+record-first ontology.
 
 ## Cross-repo hardening suite
 
@@ -144,7 +157,8 @@ The active method contract
 scope-indexed controls without adding a new core hypothesis:
 
 1. a stage-zero, future-correlated oracle carrying both the realized path and
-   the declared finite counterfactual response tree;
+   the declared finite counterfactual response tree, followed by a compressed
+   fixed-law transducer rival when the response family permits it;
 2. departed environmental support that is invisible to the frozen local
    record/intervention class but accessible through a separately declared
    boundary-crossing action;
@@ -162,8 +176,9 @@ Possibility to Capability only at their source grades and were locally
 rechecked as finite control shapes. They do not establish physical
 realizability, record-first ontology, a universal objectivity absorber, or an
 exhaustive completion class. In particular, stage-fixedness does not establish
-future-independence, and computational non-reducibility is not the definition
-of physical novelty.
+future-independence, extensional response-tree size is not a
+compressed-description lower bound, and computational non-reducibility is not
+the definition of physical novelty.
 
 The corrected discriminator is:
 
@@ -534,7 +549,7 @@ accessible and resource-bounded record refinements in which no sufficient
 member exists. A single uniform witness against an infinite refinement class
 requires additional finite-basis, compactness, minimax or closure assumptions.
 
-**Open successor — `HC-DU-036B`.** Use the same typed record kernel,
+**Physical successor — `HC-DU-036B`.** Use the same typed record kernel,
 intervention word, response-difference series, behavioral rank, operational
 gap, refinement class and capability consequence on:
 
@@ -559,11 +574,28 @@ exhaustive admissibility, a remainder, an approximate theorem, or a quantum/BFT
 identity. See
 `../explorations/noninvertible-history-certificate-compiler-pilot-2026-07-24.md`.
 
+**Executed stochastic matrix/protocol transfer — `HC-DU-034B/036B`.** The
+compiler now accepts finite stochastic record kernels and decides exact
+factorization \(P_a=RK_a\) by rational feasibility. A matrix-derived QND
+stabilizer recorder with an explicit error environment and a replayable
+authenticated operation DAG with enumerated delivery schedules ran through
+the same contract. On both platforms the noisy public bit failed, a second
+noisy copy still failed, and a formed error/delivery syndrome plus certified
+route/layer provenance supplied the minimum sufficient refinement. Excluding
+the syndrome produced a boundary-relative `CANDIDATE_REMAINDER`; a charged
+boundary expansion absorbed it. The quantum fixture also has a finite signed
+all-port dephased-null control with positive ideal calibrated margin. This is
+a physical/protocol construction grade, not proper-time implementation,
+laboratory feasibility, cryptographic/BFT security, exhaustive admissibility,
+or an irreducible remainder. See
+`../explorations/physical-history-certificate-transfer-and-generativity-hedge-2026-07-24.md`.
+
 The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
-future-correlated oracle or response tree, departed environmental support, and
-the nonexhaustive seed/boundary/resource/access/hidden-state/history/
-provenance/gauge/family inventory extended by routed implementations,
-adaptive controllers or schedulers, alternative record instruments, and
+future-correlated oracle or response tree followed where possible by a
+compressed fixed-law transducer, departed environmental support, and the
+nonexhaustive seed/boundary/resource/access/hidden-state/history/provenance/
+gauge/family inventory extended by routed implementations, adaptive
+controllers or schedulers, alternative record instruments, and
 decoder/observer-boundary changes. Every admitted completion preserves the
 frozen frame and carries its resources. A target-derived behavioral quotient
 remains a diagnostic refinement rather than a physically formed record.
@@ -745,8 +777,9 @@ Only after the preceding dependencies:
 3a'. finite holonomy/public-fact/project-or-lift baseline [COMPLETED]
         |
 3b. HC-DU-036B finite history-certificate compiler [COMPLETED PILOT]
-    HC-DU-036B physical formation, admissible refinement and calibrated
-    cross-platform lift [OPEN]
+    HC-DU-036B stochastic matrix/protocol transfer [COMPLETED SCOPED PILOT]
+    HC-DU-033/034B physical interface selection, proper-time implementation
+    and implementation-complete calibrated null [OPEN]
         |
 4. HC-DU-037 capability, optionality, and resource results
    HC-DU-032 observer-individuation overlay
@@ -944,26 +977,37 @@ because it is covariant.
    ontology language; and
 6. derived the signed all-port coherent-history statistic, its exact
    arbitrary-weight incoherent null, and the symmetric two-port preparation
-   control.
+   control;
+7. extended the compiler from deterministic labels to exact stochastic
+   record kernels;
+8. ran one matrix-derived QND quantum recorder and one replayable authenticated
+   operation DAG through the unchanged contract; and
+9. localized both apparent remainders to withheld error/delivery provenance.
 
 **Remaining physical build:**
 
-1. substitute explicitly specified proposal-level coherent proper-time
-   operations or the existing Clock-QCA history operations;
-2. freeze an experimentally accessible tester basis and robust instrument
-   null;
-3. define a nonempty target-independent physical record-refinement class;
-4. compute the shortest or least-cost witness, operational gap, minimal
-   behavioral rank, and refinement cost;
-5. transfer the same definitions to an adversarial DAG/database fixture; and
+1. derive or classify a record-forming interface from an independently fixed
+   dynamics and resource/stability criterion;
+2. substitute proposal-level coherent proper-time operations or a
+   dynamically selected Clock-QCA history instrument;
+3. freeze experimentally accessible outcomes and an
+   implementation-complete calibrated convex null;
+4. justify a nonempty physical refinement class beyond the first finite
+   constructor battery;
+5. generalize or tightly bound the exact finite stochastic factorization when
+   approximation and uncertainty are admitted; and
 6. return factorization, interface incompleteness, a class-relative physical
-   remainder, or incomplete adjudication.
+   remainder, or incomplete adjudication before pricing finality.
 
 ### Phase 4 — transfer before manifesto
 
-Require the same typed certificate and sufficiency statement on one physical
-quantum fixture and one adversarial distributed fixture. Only then advance
-capability/resource or geometry reconstruction.
+The same typed certificate now runs on one finite matrix-derived quantum
+fixture and one adversarial distributed fixture. That scoped transfer is
+complete. Actual proper-time or independently selected physical
+implementation, broader adversaries, and approximate uncertainty remain open.
+Advance capability/resource analysis only for a formed distinction that
+survives those controls; geometry remains downstream of physical interface
+selection.
 
 ## Publishable output ladder
 
@@ -977,8 +1021,11 @@ queue.
 1. **Interventional Record Sufficiency**
    The flagship route: finite conditions, proof-carrying refinement or
    remainder certificates, followed by physical quantum/distributed transfer.
-   The finite compiler exists; both first fixtures were absorbed by formed
-   provenance.
+   The finite stochastic compiler and first matrix/protocol transfer exist;
+   every current witness was absorbed by formed syndrome and route
+   provenance. The next paper-grade advance must select the physical
+   interface or execute an implementation-complete proper-time instrument,
+   rather than add another hand-built fixture.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
    The next concentrated paper-closing route after two novelty gates narrowed:
    a claim-specific collision review, uniform asymptotic theorem, and tight

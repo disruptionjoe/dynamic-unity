@@ -1,0 +1,169 @@
+{
+  "checks": [
+    {
+      "id": "fixed_finite_recorder_aliases_within_support_plus_one_steps",
+      "pass": true
+    },
+    {
+      "id": "fresh_binary_prefixes_require_exponential_record_support",
+      "pass": true
+    },
+    {
+      "id": "minimum_exact_record_bits_grow_one_per_binary_event",
+      "pass": true
+    },
+    {
+      "id": "stage_zero_realized_path_tape_is_immutable_and_replays",
+      "pass": true
+    },
+    {
+      "id": "one_path_tape_fails_a_distinct_held_out_intervention_path",
+      "pass": true
+    },
+    {
+      "id": "extensional_tree_contains_every_declared_counterfactual",
+      "pass": true
+    },
+    {
+      "id": "compact_fixed_law_matches_the_full_extensional_tree",
+      "pass": true
+    },
+    {
+      "id": "extensional_tree_size_is_not_a_compressed_law_lower_bound",
+      "pass": true
+    },
+    {
+      "id": "fixed_controller_and_growing_record_support_are_separable",
+      "pass": true
+    },
+    {
+      "id": "fixed_law_handles_a_path_not_preloaded_on_the_realized_tape",
+      "pass": true
+    }
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "date": "2026-07-24",
+  "finite_support_receipt": {
+    "first_alias": [
+      0,
+      8
+    ],
+    "minimum_record_bits": {
+      "0": 0,
+      "1": 1,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8
+    },
+    "modular_records": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      0
+    ],
+    "prefix_counts": {
+      "0": 1,
+      "1": 2,
+      "2": 4,
+      "3": 8,
+      "4": 16,
+      "5": 32,
+      "6": 64,
+      "7": 128,
+      "8": 256
+    }
+  },
+  "fixed_completion_receipt": {
+    "compressed_law_matches_every_declared_counterfactual": true,
+    "depth_h_exact_record_states": 256,
+    "expected_tree_nodes": 510,
+    "extensional_response_tree_nodes": 510,
+    "fixed_law_controller_states": 2,
+    "fixed_law_transition_entries": 4,
+    "preloaded_tape": {
+      "interventions": [
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "responses": [
+        1,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    "preloaded_tape_covers_held_out": false,
+    "preloaded_tape_sha256": "e0ebb466382050d626c30fba0d8ab32f834e8c09727c4a0743e1ed62058879e0"
+  },
+  "nonclaims": [
+    "physical openness",
+    "source issuance",
+    "absolute computational irreducibility",
+    "universal minimal-description lower bound",
+    "fixed-law physical realizability for every candidate process",
+    "record-first ontology",
+    "new physical law"
+  ],
+  "parameters": {
+    "alphabet": [
+      0,
+      1
+    ],
+    "finite_support_size": 8,
+    "held_out_path": [
+      1,
+      1,
+      1,
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "horizon": 8,
+    "realized_path": [
+      1,
+      0,
+      1,
+      1,
+      0,
+      1,
+      0,
+      0
+    ]
+  },
+  "probe": "du_fresh_record_generativity_resource_probe",
+  "program_effect": {
+    "H-CCR-10": "supported only at the exact finite counting/control grade",
+    "XH-01": "strengthened: compare against compressed fixed-law transducers, not only explicit future-correlated tables",
+    "new_hypothesis": false,
+    "next_decisive_question": "Which independently justified causal-access or resource constraint excludes a compressed fixed-law completion without defining novelty as computational non-reducibility?"
+  },
+  "result": {
+    "disclosure_statement": "Fresh exact record growth does not by itself exclude a stage-fixed compressed law: a two-state controller plus an append-only tape matches the full finite counterfactual response tree in this fixture.",
+    "resource_statement": "Exact nonaliasing binary-prefix records through depth T require at least 2^T distinguishable global record states, equivalently T record bits, unless semantics are weakened or information is exported/coarse-grained.",
+    "separation": "Record-support growth and source-law fixedness are orthogonal accounts. The former is witnessed here; the latter cannot be inferred from the same transcript.",
+    "verdict": "FINITE SUPPORT-GROWTH REQUIREMENT RETAINED / PRELOADED-PATH RIVAL TOO WEAK / EXTENSIONAL RESPONSE-TREE COST ABSORBED BY COMPRESSED FIXED LAW / NO GENERATIVITY OR ISSUANCE WITNESS"
+  },
+  "status": "PASS"
+}

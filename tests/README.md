@@ -99,6 +99,34 @@ result establishes a viable finite compiler kernel only. It does not establish
 physical record formation, an exhaustive completion class, a quantum/BFT
 identity, an approximate theorem, a resource law, or a physical remainder.
 
+`du_physical_history_certificate_transfer_probe.py` extends that kernel to
+stochastic record channels. It derives one QND stabilizer record from explicit
+quantum matrices and one authenticated operation-DAG record from executable
+DAG construction, content hashes, parent checks, fixture MAC tags, and
+enumerated delivery schedules. The same exact rational criterion
+\(P_a=RK_a\), path equalizer, candidate exclusions, and verdict language run
+on both.
+
+It passes `16/16` checks. In both fixtures the noisy public bit is
+insufficient, another noisy copy remains insufficient, and a formed
+error/delivery syndrome plus certified route/layer provenance is the minimum
+sufficient refinement. Withholding the syndrome returns a boundary-relative
+candidate remainder; a charged boundary expansion absorbs it. Passing does
+not establish proper time, laboratory feasibility, physical interface
+selection, cryptographic or BFT security, exhaustive admissibility, an
+irreducible physical remainder, or a new law.
+
+`du_fresh_record_generativity_resource_probe.py` runs the bounded generativity
+hedge. It verifies finite aliasing and the \(2^T\) support requirement for
+exact binary-prefix records, then compares a preloaded realized-path tape, a
+510-entry finite counterfactual tree, and a two-state fixed parity law. The
+fixed law plus append-only output reproduces every declared counterfactual.
+
+It passes `10/10` checks. The finite support-growth statement survives, while
+the inference from fresh records or extensional tree size to a nonfixed source
+does not. Passing does not establish physical openness, issuance,
+computational irreducibility, or a universal resource lower bound.
+
 ## Conditional and abductive candidate artifacts
 
 `conditional_candidate_harness.py` implements the comparison contract in
