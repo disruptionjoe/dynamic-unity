@@ -1,8 +1,10 @@
 # docs/
 
 Durable program documentation. The governing scientific agenda is
-`certified-causal-reality-research-program.md`; active routing is
-`../LANES.yaml`. Dated research receipts belong in `../explorations/` and
+`certified-causal-reality-research-program.md`; the concise incoming-agent
+orientation is `../START-HERE.md`; active dependency lanes and cross-lane work
+channels are the root `lanes` and `work_channels` in `../LANES.yaml`. Dated
+research receipts belong in `../explorations/` and
 governed run state belongs in `../lab/process/`.
 
 `quantum-foundations-orientation-surface.md` is the non-authoritative

@@ -3,10 +3,15 @@ title: "Dynamic Unity — Connections (open, sovereign, self-checking)"
 status: active_research
 doc_type: connections
 created: 2026-07-21
-revised: 2026-07-24
+revised: 2026-07-25
 ---
 
 # Connections — open, sovereign, self-checking
+
+The ratified program identity, evidence grades, dependency lanes, and work
+channels are summarized in [`START-HERE.md`](START-HERE.md). Cross-repo
+connections can supply candidate structure and controls, but they never
+change that routing or promote a scientific grade on their own.
 
 This repo **connects to everything and is bounded by nothing** except its own
 self-verification duty. It draws on and contributes to the sibling repos as *sources and

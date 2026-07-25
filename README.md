@@ -3,16 +3,48 @@ title: "Dynamic Unity — Certified Causal Reality"
 status: active_research
 doc_type: overview
 created: 2026-07-21
-revised: 2026-07-24
+revised: 2026-07-25
 ---
 
 # Dynamic Unity
 
-**Dynamic Unity is a verdict-open unification research program centered on Certified Causal
-Reality.** It discovers and tests the minimal dynamics by which event distinctions become
-certified, accessible records, and determines whether those records are sufficient to
-reconstruct observer-relative time, causal geometry, classical facts, and bounded-risk
-capabilities—or whether a finite intervention exposes an irreducible physical remainder.
+**Dynamic Unity is a verdict-open program for making physical reality
+intelligible as one coherent, evidence-accountable whole.** Its concise
+incoming-agent orientation is [`START-HERE.md`](START-HERE.md).
+
+## Ratified program charter
+
+**Purpose**
+
+> Make physical reality intelligible as one coherent, evidence-accountable
+> whole.
+
+**Vision**
+
+> Build a living, ontology-neutral architecture in which quantum dynamics,
+> records, observers, capabilities, spacetime, fields, particles,
+> thermodynamics, and cosmology are related at their honestly earned
+> evidentiary grades—and use the unresolved seams to locate, classify,
+> dissolve, or decisively test the tensions in present physics.
+
+**Mission**
+
+> Construct, formalize, stress-test, and prepare for publication faithful
+> representations, reconstruction theorems, countermodels, no-go results, and
+> empirical discriminators that connect—or sharply separate—those layers.
+
+**North Star**
+
+> Determine whether independently selected, observer-indexed certified causal
+> records reconstruct all observer-accessible time, geometry, fields, and
+> capability—and identify a finite physical remainder wherever they do not.
+
+**Operating principle**
+
+> Whole-picture purpose. Seam-by-seam mission. Theorem-grade North Star.
+
+Certified Causal Reality is the North-Star adjudication program, not a
+presupposed record ontology:
 
 > **Can everything that becomes physically real and actionable for an observer be
 > reconstructed from causal histories the observer can certify? If not, what irreducible
@@ -36,6 +68,15 @@ Here “causal” initially means only a declared operational
 intervention/composition or influence relation; it does not silently supply the
 clock, metric, light cones, foliation, or spacetime causal order later targeted
 for reconstruction.
+
+The program works in both directions. The **forward representation** asks how
+accepted physical dynamics forms records, observer access, regional finality,
+and effective classical or geometric descriptions. The **inverse test** asks
+whether the complete independently specified certified-record network
+reconstructs observer-accessible physics up to declared equivalence, or
+admits a finite separating intervention. A coherent representation is useful
+at its own grade; only reconstruction, necessity, compression, or a surviving
+discriminator supports a stronger foundational claim.
 
 ## Honest current standing (central claims are OPEN)
 
@@ -82,17 +123,7 @@ No result is banked merely because it fits the new vocabulary. Every claim retai
 historical grade and must survive adversarial verification, literature collision, and its
 declared controls.
 
-## Purpose / Passion / Practice (the triad identity card)
-
-### PURPOSE — why this repository exists (the meaningful outcome)
-
-To determine whether a minimal, covariant, resource-accounted dynamics of event histories,
-record formation, provenance, certification, and access can reconstruct the effective
-physical reality available to observers. The meaningful outcome is a sharp verdict: a
-record-first reconstruction, an operational duality, or a finite witness locating the
-irreducible physical remainder. A theorem, no-go, or experiment that decides part of that
-question is progress; redescribing known physics as “records” without a risky consequence is
-not.
+## Passion / Practice
 
 ### PASSION — the agent capability this repository is a testbed for
 
@@ -117,26 +148,31 @@ freely; findings transfer only with their grade labels attached, never as doctri
 
 ## Objectives (program-level)
 
-1. **Adjudicate Certified Causal Sufficiency.** Define records without borrowing the structures
+1. **Build the coherent physical picture.** Relate the best available
+   descriptions of quantum dynamics, records, observers, capability,
+   regional finality, spacetime, fields, thermodynamics, and cosmology without
+   flattening their assumptions or evidentiary grades.
+2. **Adjudicate Certified Causal Sufficiency.** Define records without borrowing the structures
    they are meant to explain, dynamically select or delimit their interface, and determine
    whether full certified histories are sufficient, dual, or incomplete.
-2. **Build a publishable theorem spine.** Seek necessary-and-sufficient certification,
+3. **Build a publishable theorem spine.** Seek necessary-and-sufficient certification,
    public-finality, interventional-sufficiency, reconstruction, capability, and resource
    results with converses and finite countermodels.
-3. **Cross the physical bridge.** Test the same typed objects on adversarial distributed
+4. **Cross the physical bridge.** Test the same typed objects on adversarial distributed
    histories, quantum multi-time histories, exact Clock-QCA/archive fixtures, causal growth,
    and realizable metrology without domain-specific refitting.
-4. **Recover known physics or expose the remainder.** Attempt observer, time, geometry,
+5. **Recover known physics or expose the remainder.** Attempt observer, time, geometry,
    classicality, capability, and low-energy recovery; require a held-out discriminator,
    uniqueness/compression gain, or novel prediction before making an ontological claim.
-5. **Bank survived intellectual product and transfer the method.** A clean kill, scoped no-go,
+6. **Bank survived intellectual product and transfer the method.** A clean kill, scoped no-go,
    theorem, conditional construction, or prediction counts at its honest grade. Agent-process
    learnings route to Joe's practice; persona consensus never substitutes for evidence.
 
 ## Research program map
 
+- **Incoming-agent orientation:** `START-HERE.md`
 - **Authoritative scientific agenda:** `docs/certified-causal-reality-research-program.md`
-- **Lanes and live work:** `LANES.yaml`
+- **Dependency lanes, work channels, and live work:** `LANES.yaml`
 - **Quantum-foundations tensions and candidate Dynamic Unity deltas:**
   `docs/quantum-foundations-orientation-surface.md`
 - **Triple-diamond design receipt:**
@@ -172,7 +208,8 @@ load-bearing until rechecked here at a declared grade. The full role map is in
 ## Start Here
 
 - **Agent-facing governance and method:** `AGENTS.md`
-- **Lanes and channels (machine-readable):** `LANES.yaml`
+- **Ten-minute scientific orientation:** `START-HERE.md`
+- **Dependency lanes and work channels (machine-readable):** `LANES.yaml`
 - **Certified Causal Reality agenda:** `docs/certified-causal-reality-research-program.md`
 - **Quantum-foundations tension and delta orientation:**
   `docs/quantum-foundations-orientation-surface.md`

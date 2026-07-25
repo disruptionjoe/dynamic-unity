@@ -3,6 +3,7 @@ title: "Certified Causal Reality — governing research program"
 status: active_research
 doc_type: research_program
 created: 2026-07-24
+revised: 2026-07-25
 authority: "Joe direct chat; nineteen-lens Science Council triple-diamond convergence"
 claim_grade: "PROGRAM CHARTER / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED"
 novelty_status: "COLLISION CLASSES IDENTIFIED / CLAIM-SPECIFIC SEARCH-INCOMPLETE"
@@ -10,7 +11,41 @@ novelty_status: "COLLISION CLASSES IDENTIFIED / CLAIM-SPECIFIC SEARCH-INCOMPLETE
 
 # Certified Causal Reality
 
-## Charter
+## Ratified Dynamic Unity charter
+
+**Purpose**
+
+> Make physical reality intelligible as one coherent, evidence-accountable
+> whole.
+
+**Vision**
+
+> Build a living, ontology-neutral architecture in which quantum dynamics,
+> records, observers, capabilities, spacetime, fields, particles,
+> thermodynamics, and cosmology are related at their honestly earned
+> evidentiary grades—and use the unresolved seams to locate, classify,
+> dissolve, or decisively test the tensions in present physics.
+
+**Mission**
+
+> Construct, formalize, stress-test, and prepare for publication faithful
+> representations, reconstruction theorems, countermodels, no-go results, and
+> empirical discriminators that connect—or sharply separate—those layers.
+
+**North Star**
+
+> Determine whether independently selected, observer-indexed certified causal
+> records reconstruct all observer-accessible time, geometry, fields, and
+> capability—and identify a finite physical remainder wherever they do not.
+
+**Operating principle**
+
+> Whole-picture purpose. Seam-by-seam mission. Theorem-grade North Star.
+
+The concise cold-start interpretation and current routing are in
+`../START-HERE.md`.
+
+## North-Star adjudication charter
 
 Dynamic Unity determines whether, and under what minimal covariant and
 non-circular conditions, an interventionally complete process of causal record
@@ -41,6 +76,59 @@ outcomes:
 Underidentification is work still open, not a fourth verdict. A negative
 record-first result is a successful program result if it sharply locates the
 remainder.
+
+## Whole-picture and inverse-test architecture
+
+The program has two coupled but differently graded directions.
+
+### Forward representation
+
+Start from the best available physical theories and track, without changing
+their empirical content:
+
+```text
+physical dynamics
+    -> event distinctions and interactions
+    -> formed records, provenance, and certificates
+    -> observer-relative access and action capability
+    -> regional composition and public finality
+    -> effective classicality, time, geometry, fields, and particles
+    -> thermodynamic and cosmological organization.
+```
+
+The forward direction is scientifically useful even when it yields only a
+clear compatibility architecture, a typed translation, or a newly exposed
+tension. It must preserve each input theory's assumptions, scale, gauge,
+causal structure, and claim grade. It may not infer record fundamentality
+from the existence of a record representation.
+
+### Inverse adjudication
+
+Freeze an independently formed, observer-indexed certified causal network
+and ask whether it reconstructs every admitted observer-accessible
+prediction, field relation, temporal/geometric structure, and bounded-risk
+capability up to a declared equivalence. If it does not, construct the finite
+intervention and physical structure that remain outside the quotient.
+
+This inverse is the North-Star route to record-first reconstruction,
+operational duality, or a physics-first remainder. It prevents the coherent
+picture from becoming a vocabulary-only unification.
+
+### Evidentiary ladder
+
+| Grade | Requirement |
+|---|---|
+| `0 — vocabulary` | Suggestive analogy or terminology only. |
+| `1 — compatibility` | No identified conflict in the frozen scope. |
+| `2 — representation` | Faithful mapping of known physical structure into the typed architecture. |
+| `3 — reconstruction` | Recovery of target observables or capabilities up to declared equivalence. |
+| `4 — selection / necessity` | Independent dynamics selects the record structure, or a theorem identifies necessary structure. |
+| `5 — remainder / prediction` | A finite discriminator survives the complete admitted physical completion class. |
+
+Compatibility does not establish equivalence; representation does not
+establish derivation; operational equivalence does not establish ontology.
+The highest grade available to a result is the strongest requirement it has
+actually met.
 
 ## Current evidence boundary
 
@@ -495,7 +583,7 @@ formation/transfer portion of `HC-DU-036B`, and `HC-DU-037..040` retain only
 an initial collision-class inventory. Process tensors/combs, resource
 robustness, system identification, and causal-set reconstruction remain
 mandatory neighboring classes. No proposed law or theorem receives novelty
-language until Lane 4.1 completes its claim-specific comparison.
+language until its Lane-7 `CH-COLLIDE` claim-specific comparison is complete.
 
 ## Primary theorem and conjecture spine
 
@@ -1309,14 +1397,25 @@ Do not force a single score. Each fixture returns:
 
 ## Lane architecture
 
-The machine-readable authority is `../LANES.yaml`. The scientific jobs are:
+The machine-readable authority is the active root `lanes` and
+`work_channels` topology near the top of `../LANES.yaml`.
 
-- **Lane 1 — Certified Causal Reality theorem spine**
-- **Lane 2 — Conditional construction and rival-theory engine**
-- **Lane 3 — Cross-platform realization and causal-history assay**
-- **Lane 4 — Prediction, theorem hardening, and publication seeding**
+Lanes encode scientific responsibility and dependency:
+
+- **Lane 1 — North-Star adjudication**
+- **Lane 2 — Forward representation and coherence**
+- **Lane 3 — Physical record formation and selection**
+- **Lane 4 — Observer access, certification, and capability**
+- **Lane 5 — Regional finality and recursive composition**
+- **Lane 6 — Time, geometry, fields, and physical reconstruction**
+- **Lane 7 — Remainders, predictions, and publishable results**
 - **Lane A — Stewardship**
-- **Discovery — lane-less feed into Lane 2**
+
+Channels encode methods that may operate across every lane:
+synthesis/compatibility, formal proof, executable models and
+counterexamples, literature/novelty collision, experimental discrimination,
+paper production, and speculative frontier. A work item names both its lane
+and channel. A useful method or persona does not become a lane.
 
 Persona lenses operate across the lanes. They are not evidence and no longer
 constitute a standing scientific work lane.
@@ -1326,9 +1425,9 @@ constitute a standing scientific work lane.
 | Inherited object | New disposition |
 |---|---|
 | GU-first README and Lane-1 hypothesis | Prospectively superseded by this verdict-open charter. GU lineage and grades remain. |
-| Tachyon-transducer | Conditional record-first/source candidate in Lane 2 and possible downstream recovery in Lane 1.7. |
+| Tachyon-transducer | Conditional record-first/source candidate in Lane 2 and possible downstream recovery or discrimination in Lanes 6–7. |
 | B5 source action | GU-specific candidate and recovery work; not a shared assumed spine. |
-| `Lambda~1/sqrt(N)` | Dependency-gated Lane 1.7 application. Exact class-conditional findings remain unchanged; North-Star status ends. |
+| `Lambda~1/sqrt(N)` | Dependency-gated Lane-7 application after Lane-6 reconstruction. Exact class-conditional findings remain unchanged; North-Star status ends. |
 | Covariant cosmology probes | Preserved as downstream regression evidence and falsified/scoped completion classes. |
 | `HC-DU-031A/B/C` | Completed benchmark B1 informing record selection, certification, resources, and observer individuation. The branch remains stopped absent its declared reopener. |
 | `HC-DU-011/022` | Live causal-growth benchmark B5; no longer automatically primary because another branch stopped. |
@@ -1340,15 +1439,17 @@ constitute a standing scientific work lane.
 | `CONCEPT-DU-001` | Preserved as a stopped conditional family and downstream diagnostic; no proxy proliferation. |
 | `CONCEPT-DU-002` | Promoted into the core record, time, and geometry questions without promoting its ontology. |
 | `CONCEPT-DU-003` | Preserved as a bounded observer-individuation mechanism. |
-| Former persona Lane 3 | Replaced by cross-platform assays. Persona and wish-list provenance moves to Lane A.3. |
+| Former persona and mode lanes | Preserved in legacy lane snapshots. Personas are advisory lenses and channels are methods; work now routes by scientific dependency, with persona and wish-list provenance in Lane A. |
 | Every dated memo, probe, artifact, and claim grade | Preserved verbatim as historical evidence and routed additively. Nothing is deleted or retroactively regraded. |
 
 ## First execution sequence
 
-### Phase 0 — completed by this restructure
+### Phase 0 — completed by the program restructures
 
-- freeze the purpose and three ontology outcomes;
-- freeze the typed kernel, stops, lanes, migration, and benchmark contract;
+- freeze the Purpose, Vision, Mission, North Star, operating principle, and
+  three ontology outcomes;
+- freeze the typed kernel, stops, dependency lanes, work channels, migration,
+  and benchmark contract;
 - preserve every historical result and grade.
 
 ### Phase 1 — `HC-DU-033` record selection

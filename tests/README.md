@@ -4,6 +4,15 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+`du_agent_orientation_contract_probe.py` is the exception in kind: it is a
+deterministic governance/cold-start contract rather than a scientific assay.
+It checks that the five authoritative entrypoints agree on the ratified
+Purpose, Vision, Mission, North Star, and operating principle; that the active
+dependency lanes and cross-lane work channels are complete and distinct; that
+the current physical-selector bottleneck and three-outcome posture are
+visible; and that entrypoint links resolve. Passing establishes orientation
+integrity only, never physics, ontology, novelty, or paper readiness.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

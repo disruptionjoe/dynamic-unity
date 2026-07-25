@@ -2,16 +2,38 @@
 
 This repository **is the Dynamic Unity research program**. It owns its claims, grading
 discipline, lanes, channels, tests, papers, and explorations. Read this file first (after any
-routing context), then load `LANES.yaml`.
+routing context), then read `START-HERE.md`. Use the concise active topology near the top of
+`LANES.yaml`; do not load its historical receipts by default.
 
 ## Posture
 
 This repository **is the Dynamic Unity research program** — a unification effort at the
-**human-knowledge frontier**. Its organizing program is **Certified Causal Reality**:
+**human-knowledge frontier**.
+
+- **Purpose:** make physical reality intelligible as one coherent,
+  evidence-accountable whole.
+- **Vision:** build a living, ontology-neutral architecture in which quantum
+  dynamics, records, observers, capabilities, spacetime, fields, particles,
+  thermodynamics, and cosmology are related at their honestly earned
+  evidentiary grades—and use the unresolved seams to locate, classify,
+  dissolve, or decisively test the tensions in present physics.
+- **Mission:** construct, formalize, stress-test, and prepare for publication
+  faithful representations, reconstruction theorems, countermodels, no-go
+  results, and empirical discriminators that connect—or sharply
+  separate—those layers.
+- **North Star:** determine whether independently selected, observer-indexed
+  certified causal records reconstruct all observer-accessible time,
+  geometry, fields, and capability—and identify a finite physical remainder
+  wherever they do not.
+- **Operating principle:** whole-picture purpose. Seam-by-seam mission.
+  Theorem-grade North Star.
+
+Its North-Star adjudication program is **Certified Causal Reality**:
 determine whether, and under what minimal covariant and non-circular conditions, causal record
 formation and certification are sufficient to reconstruct the effective time, causal
-geometry, public facts, and bounded-risk capabilities available to an observer. If they are
-not, isolate a finite operational witness of the irreducible physical structure required.
+geometry, public facts, fields, and bounded-risk capabilities available to an observer. If
+they are not, isolate a finite operational witness of the irreducible physical structure
+required.
 
 The governing question is: **Can everything that becomes physically real and actionable for
 an observer be reconstructed from the causal histories it can certify? If not, what
@@ -71,7 +93,8 @@ predeclared concept invariant itself fails.
 
 ## Certified Causal Reality contract
 
-Load `docs/certified-causal-reality-research-program.md` before selecting central scientific
+Load `START-HERE.md`, then
+`docs/certified-causal-reality-research-program.md` before selecting central scientific
 work. Before choosing or reprioritizing central quantum, record, finality,
 perspective, classicality, QFT, or quantum-gravity work, also load
 `docs/quantum-foundations-orientation-surface.md`. It is a non-authoritative
@@ -153,23 +176,47 @@ never a directive.
 
 ## How agents work the lanes
 
-Load root `LANES.yaml` after governance, before selecting work. **Lanes are organized by JOB /
-MODE**, not a verification pipeline:
+Load only the top-level `program_charter`, `work_channels`, and active
+`lanes` near the top of root `LANES.yaml` before selecting work. Historical
+`legacy_lanes_*` snapshots and dated revision receipts are context, not active
+routing authority.
 
-- **Lane 1:** the Certified Causal Reality theorem spine—record selection, fresh-record
-  dynamics, history certification, public finality, interventional sufficiency, reconstruction,
-  capability/resource laws, and dependency-gated physical recovery.
-- **Lane 2:** conditional construction and rival-theory generation—record-first, physics-first,
-  dual, abductive, open-ended, GU, and non-GU candidates forced onto shared discriminators.
-- **Lane 3:** cross-platform realization and causal-history assays—Clock-QCA, proper-time,
-  consensus/database, quantum-network, causal-set, and process fixtures using the common typed
-  contract. It is not a verification gate.
-- **Lane 4:** theorem/no-go and prediction extraction, prior-art collision, hardening, and
-  Drafting-Factory seeding. The factory produces papers and Joe publishes.
-- **Lane A:** claim/type/dependency integrity, provenance/reproducibility, and custody of the
-  portfolio, stops, persona lenses, and divergent wish lists.
-- **Discovery:** lane-less; it feeds Lane 2 only after binding to a typed object and cheap
-  discriminator.
+**Lanes encode scientific responsibility and dependency:**
+
+- **Lane 1:** North-Star adjudication—integrate the
+  reconstruction/duality/remainder verdict and keep its decisive contract
+  exact.
+- **Lane 2:** forward representation and coherence—build the full typed
+  physical picture, preserve assumptions and grades, and expose seams.
+- **Lane 3:** physical record formation and selection—derive or delimit
+  record instruments, interfaces, archives, and robustness. Its present lead
+  build is the laboratory total-conservation/apparatus-asymmetry lift of the
+  finite effective instrument selector.
+- **Lane 4:** observer access, certification, and capability—freeze physical
+  observers, boundaries, interventions, tasks, risks, and matched resources.
+- **Lane 5:** regional finality and recursive composition—establish when
+  local certified networks compose into safe higher-level facts and actions.
+- **Lane 6:** time, geometry, fields, and physical reconstruction—recover
+  effective physical structure with uniqueness, gauge, and refinement
+  controls.
+- **Lane 7:** remainders, predictions, and publishable results—extract finite
+  discriminators, theorems/no-gos, experimental protocols, novelty
+  collisions, and Drafting-Factory packages. Joe publishes.
+- **Lane A:** claim/type/dependency integrity, provenance/reproducibility,
+  and custody of the portfolio, stops, persona lenses, and divergent wish
+  lists.
+
+**Channels encode ways of working across lanes:** synthesis/compatibility,
+formal proof, executable models/counterexamples, literature/novelty
+collision, experimental discrimination, paper production, and speculative
+frontier. Always name both a lane and at least one channel. Do not create a
+new lane merely because a new method or persona is useful.
+
+The forward coherent picture may advance at compatibility or representation
+grade before later dependencies close. Reconstruction, necessity, ontology,
+and new-physics language must wait for the grade actually earned. Scientific
+dependencies guide claims; they are not an administrative verification
+pipeline.
 
 There is deliberately no standing verification-gate lane. Honesty is a per-lane practice, and
 the known challenges/adversaries are terrain to beat, not automatic blockers. Persona panels
@@ -179,3 +226,20 @@ Durable artifacts live **in the repo** at honest grade; a work-card is a spec, n
 Use absolute paths and explicit-path staging; never `git add -A`. Commit/push is normal
 versioning for Joe's repos once a coherent batch is done; publishing outside the repo workflow
 is Joe-gated.
+
+## Cold-start work contract
+
+Before acting, a new agent must be able to state:
+
+1. the ratified Purpose and North Star;
+2. the honest current evidence boundary;
+3. the live physical instrument-selection bottleneck;
+4. the owning dependency lane and selected work channel(s);
+5. the maximum evidentiary grade the swing can earn; and
+6. the strongest absorber, finite falsifier, stop condition, and durable
+   output.
+
+Use the checklist, routing examples, artifact homes, and vocabulary traps in
+`START-HERE.md`. If two current entrypoints answer any of these differently,
+repair the orientation surface before choosing scientific work. Never resolve
+the conflict by silently privileging a dated receipt.

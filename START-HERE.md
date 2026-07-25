@@ -1,0 +1,278 @@
+---
+title: "Dynamic Unity — Start Here"
+status: active_research
+doc_type: orientation
+created: 2026-07-25
+authority: "Joe direct chat; ratified program identity and operating architecture"
+---
+
+# Start Here
+
+This is the shortest authoritative route into Dynamic Unity. It tells a new
+research agent why the program exists, what is actually known, what is live,
+and where work belongs. It is an orientation surface, not a scientific claim
+ledger.
+
+## Ratified program charter
+
+**Purpose**
+
+> Make physical reality intelligible as one coherent, evidence-accountable
+> whole.
+
+**Vision**
+
+> Build a living, ontology-neutral architecture in which quantum dynamics,
+> records, observers, capabilities, spacetime, fields, particles,
+> thermodynamics, and cosmology are related at their honestly earned
+> evidentiary grades—and use the unresolved seams to locate, classify,
+> dissolve, or decisively test the tensions in present physics.
+
+**Mission**
+
+> Construct, formalize, stress-test, and prepare for publication faithful
+> representations, reconstruction theorems, countermodels, no-go results, and
+> empirical discriminators that connect—or sharply separate—those layers.
+
+**North Star**
+
+> Determine whether independently selected, observer-indexed certified causal
+> records reconstruct all observer-accessible time, geometry, fields, and
+> capability—and identify a finite physical remainder wherever they do not.
+
+**Operating principle**
+
+> Whole-picture purpose. Seam-by-seam mission. Theorem-grade North Star.
+
+The charter does **not** say that records are fundamental. It makes that
+possibility testable while keeping three outcomes coequal:
+
+1. **Record-first reconstruction:** independently formed records reconstruct
+   the observer-accessible physical structure.
+2. **Operational duality:** physical and record descriptions translate
+   without observable remainder, but neither is thereby ontologically prior.
+3. **Physics-first remainder:** a finite admitted intervention distinguishes
+   physically different processes that the certified-record description
+   identifies.
+
+Underidentification means the work is incomplete. It is not a fourth
+ontological verdict.
+
+## The scientific architecture
+
+Dynamic Unity studies the same seam in both directions:
+
+```text
+FORWARD / REPRESENTATION
+accepted physical process
+    -> distinctions and interactions
+    -> physically formed records and certificates
+    -> observer access and action capability
+    -> layered regional finality
+    -> effective classical, temporal, geometric, and field descriptions
+
+INVERSE / NORTH-STAR TEST
+complete certified causal record network
+    -> reconstruct observer-accessible physics up to a declared equivalence
+       OR
+    -> produce a finite intervention that exposes the missing physical remainder
+```
+
+The forward direction can earn a coherent, faithful representation of known
+physics without claiming that records create reality. The inverse direction
+is what could establish reconstruction, operational duality, or a physical
+remainder.
+
+Use this grade ladder so the full picture never gets mistaken for a new
+theory merely because it is coherent:
+
+| Grade | What has been earned |
+|---|---|
+| `0 — vocabulary` | A suggestive analogy or terminology. |
+| `1 — compatibility` | No identified conflict within a declared scope. |
+| `2 — representation` | A faithful map of known physical structure into the typed record architecture. |
+| `3 — reconstruction` | The record object recovers target observables or capabilities up to a declared equivalence. |
+| `4 — selection / necessity` | Independent dynamics selects the record structure, or a theorem shows what is required. |
+| `5 — remainder / prediction` | A finite discriminator survives the complete admitted physical completion class. |
+
+Compatibility is not equivalence. Operational equivalence is not ontology.
+Representation is not derivation. A finite fixture is not a universal law.
+
+## Honest current standing
+
+The North Star is open. No record-first ontology, new physical law, observer,
+proper time, emergent geometry, public-classicality law, or cosmological
+result has been established.
+
+What *has* been earned is a strong finite control stack:
+
+- exact record/access quotients, history factorization-or-witness results,
+  multi-time controls, regional-composition controls, and unchanged quantum
+  and distributed fixtures;
+- explicit demonstrations that a stable algebra, a formed environmental
+  record, observer access, public finality, and capability are different
+  objects;
+- repeated absorption of apparent remainders by omitted environment,
+  provenance, route, controller, decoder, or resource structure; and
+- one frozen binary QND family in which source-action constraints select an
+  effective source-aligned Lüders instrument orbit while leaving the
+  microscopic apparatus and independently justified physical premises open
+  ([result](explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md);
+  [probe](tests/du_robust_physical_instrument_selection_probe.py)).
+
+### The live bottleneck
+
+The highest-value immediate build is to lift that finite effective selector
+into one laboratory-motivated model with:
+
+1. an independently justified additive total-conservation law;
+2. a calibrated apparatus-asymmetry resource;
+3. a declared perturbation ball, including its noise model;
+4. complete selective-instrument and archive tomography;
+5. a frozen decoder, intervention set, and matched resource ledger; and
+6. held-out aligned, conjugate, degeneracy, and continuation controls.
+
+The acceptable outcomes are a scoped physical Record Selection Theorem, an
+Interface-Necessity No-Go, or a classification of the minimal extra
+structure. A standard-quantum explanation is a valuable result. It is not new
+physics.
+
+Regional finality, capability pricing, and time/geometry reconstruction remain
+important, but their physical claims should consume a record interface that
+has survived this selection step. Their mathematical and representation work
+may proceed earlier at the matching grade.
+
+## Dependency lanes
+
+Lanes express **scientific responsibility and dependency**, not methods and
+not a bureaucratic stage gate. The active machine-readable definitions are
+the root `lanes` entries near the top of `LANES.yaml`.
+
+| Lane | Scientific responsibility | Immediate orientation |
+|---|---|---|
+| **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
+| **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | This contains the current laboratory-selector bottleneck. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Access and capability are not the same as possession of a latent record. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, and loop obstructions. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Representation can start now; derivation claims wait on dependencies. |
+| **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | A paper can report a sharp negative or boundary result; Joe publishes. |
+| **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
+
+## Work channels
+
+Channels are **ways of working**. Any scientific lane may use several
+channels; they are not lanes and do not create a second priority system.
+
+| Channel | Use it for |
+|---|---|
+| `CH-SYN` — Synthesis and compatibility atlas | Relating theories, layers, assumptions, tensions, and candidate deltas at explicit grade. |
+| `CH-FORMAL` — Formal proof and reconstruction | Definitions, theorems, converses, bounds, category/geometry, and proof obligations. |
+| `CH-MODEL` — Executable models and counterexamples | Minimal fixtures, exact compilers, simulations, hostile controls, and reproducible artifacts. |
+| `CH-COLLIDE` — Literature and novelty collision | Checking known results, strongest absorbers, assumptions, and genuine novelty. |
+| `CH-EMPIRICAL` — Experimental discriminators | Complete instruments, metrology, calibration, uncertainty, systematics, and finite tests. |
+| `CH-PAPER` — Paper production | Contribution framing, proof packaging, portfolio/Factory handoff, and responses to hardening requests. |
+| `CH-FRONTIER` — Speculative frontier | Bold ontology or dynamics with a typed passport, strongest foil, finite falsifier, and explicit grade. |
+
+## First ten minutes
+
+1. Read [`AGENTS.md`](AGENTS.md) for governance and scientific stops.
+2. Read this file completely.
+3. Read only the top-level `program_charter`, `work_channels`, and active
+   `lanes` in [`LANES.yaml`](LANES.yaml). Historical receipts and
+   `legacy_lanes_*` are not current routing authority.
+4. For central work, read
+   [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md).
+5. For quantum/foundations prioritization, also read
+   [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
+6. Follow only the hypotheses, concepts, tests, papers, or historical
+   receipts relevant to the chosen lane. Do not load the whole archive by
+   default.
+
+At that point an agent should be able to answer, in one sentence each:
+
+- Why does Dynamic Unity exist?
+- What result would adjudicate its North Star?
+- What has actually been earned?
+- What is the current bottleneck?
+- Which lane owns the scientific question?
+- Which channel is the best method for the next action?
+
+If any answer is unclear, stop selecting work and repair the orientation
+surface rather than guessing.
+
+## Selecting and scoping work
+
+Before a swing, write down:
+
+1. the exact North-Star seam or forward-picture relation being advanced;
+2. lane owner and work channel(s);
+3. current grade and maximum grade this swing can earn;
+4. complete object types, observer/access boundary, interventions, rivals,
+   resources, and representation equivalence;
+5. strongest ordinary-physics, hidden-register, boundary-expansion, and
+   target-refit absorbers that apply;
+6. smallest positive case, cheapest kill, held-out discriminator, and
+   stop/reopen condition; and
+7. durable output: theorem, counterexample, executable artifact, tension map,
+   experimental protocol, or paper package.
+
+A work item may use deduction, conditional construction, abduction,
+synthesis, or structural analogy. These warrants answer different questions;
+none is automatically superior. The artifact must label which one it uses.
+
+### Fast routing examples
+
+| Proposed work | Lane | Typical channel |
+|---|---|---|
+| Map QFT, records, observers, and spacetime without claiming derivation | 2 | `CH-SYN`, `CH-COLLIDE` |
+| Derive a record instrument from conservation and apparatus resources | 3 | `CH-FORMAL`, `CH-MODEL`, `CH-EMPIRICAL` |
+| Test whether a certificate changes an observer's action set at matched cost | 4 | `CH-FORMAL`, `CH-MODEL` |
+| Prove when regional record networks safely compose | 5 | `CH-FORMAL`, `CH-MODEL` |
+| Reconstruct proper time or geometry with refinement invariance | 6 | `CH-FORMAL`, `CH-MODEL` |
+| Extract a finite physical residual or submission-ready theorem | 7 | `CH-EMPIRICAL`, `CH-COLLIDE`, `CH-PAPER` |
+| Explore a bold new substrate or dynamics | owning scientific lane | `CH-FRONTIER` plus a falsification channel |
+
+## Where durable work goes
+
+| Artifact | Canonical home |
+|---|---|
+| Program identity and human orientation | [`README.md`](README.md), [`START-HERE.md`](START-HERE.md) |
+| Machine-readable priority and routing | active root keys in [`LANES.yaml`](LANES.yaml) |
+| Governing scientific detail | [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md) |
+| Quantum-foundations tensions and possible DU deltas | [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md) |
+| Stable concept and prediction state | [`explorations/concept-register.md`](explorations/concept-register.md), [`explorations/prediction-register.md`](explorations/prediction-register.md); theorem and claim grades remain in the governing agenda and their dated receipts |
+| Dated scientific receipts | `explorations/` |
+| Predeclared run and completion receipt | `lab/process/runs/<RUN-ID>/run-plan.md` |
+| Reproducible checks and outputs | `tests/`, `tests/artifacts/` |
+| Complete paper opportunity inventory | [`papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md`](papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md) |
+
+Do not edit dated receipts to make them sound as if the current charter or
+lane map existed earlier. Route them additively.
+
+## Vocabulary and failure traps
+
+- A **record** is a physically formed, history-conditioned state or channel
+  with declared persistence and provenance—not arbitrary information chosen
+  after seeing the target.
+- A **certificate** excludes a declared rival class with stated access and
+  error semantics. It need not disclose a unique run-level history.
+- **Finality** is typed by incompatibility, adversary, rollback, access, and
+  error. Redundancy or confidence alone is not finality.
+- An **observer** is a physical intervention/access role, not automatically a
+  conscious person and not a privileged reality owner.
+- **Regional** means a certified network or cover that may become a node at
+  another scale. It is not merely spatial proximity or a blockchain analogy.
+- **Dimension** must be typed: Hilbert, state-space, latent, network,
+  representation, or spacetime dimension are not interchangeable.
+- **Informational distance** is useful only after its channel, task,
+  resources, and relation to physical distance are declared.
+- **Absorption** is informative: it identifies which familiar structure
+  already explains a component. It stops an overclaim, not inquiry into a
+  larger conjunction.
+- **Compatibility with known science** is worth building at representation
+  grade. It becomes a foundational theory only through reconstruction,
+  necessity, compression, or a surviving discriminator.
+
+When in doubt, preserve the idea, lower the grade, strengthen the comparison,
+and make the next decision finite.

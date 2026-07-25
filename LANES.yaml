@@ -1,5 +1,5 @@
-lane_contract_version: '1.0'
-manifest_revision: 38
+lane_contract_version: '1.1'
+manifest_revision: 39
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -10,15 +10,408 @@ owner:
   - CONNECTIONS.md
   authoritative_state_refs:
   - README.md
+  - START-HERE.md
   - LANES.yaml
 lane_design_note: >-
-  Lanes are organized by JOB / MODE of research, not by a verification pipeline. There is
-  deliberately NO standing verification-gate lane. Lane 1 owns the Certified Causal Reality
-  theorem spine; Lane 2 owns conditional construction and rival generation; Lane 3 owns
-  cross-platform realizations and causal-history assays; Lane 4 owns prediction, theorem
-  hardening, novelty collision and Drafting-Factory seeding; Lane A owns stewardship. Honesty is
-  a per-lane practice and the known challenges/adversaries are terrain to beat, not automatic
-  gates.
+  Lanes encode scientific responsibility and dependency; work_channels encode methods that
+  operate across lanes. Lane 1 owns North-Star adjudication; Lane 2 the forward coherent
+  representation; Lane 3 physical record formation and selection; Lane 4 observer access,
+  certification and capability; Lane 5 regional finality and recursive composition; Lane 6 time,
+  geometry, fields and physical reconstruction; Lane 7 remainders, predictions and publishable
+  packages; Lane A stewardship. Dependencies grade claims but do not create a standing
+  verification pipeline. Honesty is a per-lane practice and known challenges are terrain to
+  beat, not automatic gates.
+orientation_ref: START-HERE.md
+orientation_rule: >-
+  A cold-start agent reads AGENTS.md and START-HERE.md, then only this top-level
+  program_charter, work_channels and active lanes topology before following relevant scientific
+  pointers. legacy_lanes_* and dated revision receipts are historical context, not current
+  routing authority.
+program_charter:
+  status: ratified
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat after inline Science Council roses, buds, thorns and unanimous ratification;
+    implemented by direct instruction in one governance-and-orientation swing.
+  purpose: >-
+    Make physical reality intelligible as one coherent, evidence-accountable whole.
+  vision: >-
+    Build a living, ontology-neutral architecture in which quantum dynamics, records, observers,
+    capabilities, spacetime, fields, particles, thermodynamics, and cosmology are related at
+    their honestly earned evidentiary grades—and use the unresolved seams to locate, classify,
+    dissolve, or decisively test the tensions in present physics.
+  mission: >-
+    Construct, formalize, stress-test, and prepare for publication faithful representations,
+    reconstruction theorems, countermodels, no-go results, and empirical discriminators that
+    connect—or sharply separate—those layers.
+  north_star: >-
+    Determine whether independently selected, observer-indexed certified causal records
+    reconstruct all observer-accessible time, geometry, fields, and capability—and identify a
+    finite physical remainder wherever they do not.
+  operating_principle: >-
+    Whole-picture purpose. Seam-by-seam mission. Theorem-grade North Star.
+  outcomes:
+  - record_first_reconstruction
+  - operational_duality
+  - physics_first_remainder
+  ontology_posture: >-
+    No outcome is presumed. Underidentification is incomplete work, not a fourth ontology.
+    Compatibility is not equivalence; representation is not derivation; operational equivalence
+    is not ontological priority.
+  forward_architecture: >-
+    Accepted physical dynamics -> distinctions and interactions -> physically formed records and
+    certificates -> observer access and action capability -> layered regional finality ->
+    effective classical, temporal, geometric and field descriptions.
+  inverse_test: >-
+    From an independently specified observer-indexed certified causal network, either reconstruct
+    all admitted observer-accessible physical predictions and capabilities up to a declared
+    equivalence, or produce a finite intervention exposing the missing physical remainder.
+evidence_grade_scale:
+- id: 0
+  label: vocabulary
+  earns: Suggestive analogy or terminology only.
+- id: 1
+  label: compatibility
+  earns: No identified conflict within a frozen declared scope.
+- id: 2
+  label: representation
+  earns: A faithful map of known physical structure into the typed architecture.
+- id: 3
+  label: reconstruction
+  earns: Recovery of target observables or capabilities up to a declared equivalence.
+- id: 4
+  label: selection_or_necessity
+  earns: Independent dynamics selects the record structure or a theorem identifies necessary structure.
+- id: 5
+  label: remainder_or_prediction
+  earns: A finite discriminator survives the complete admitted physical completion class.
+work_channels:
+- id: CH-SYN
+  title: Synthesis and compatibility atlas
+  purpose: >-
+    Relate theories, layers, assumptions, tensions and candidate Dynamic Unity deltas without
+    flattening their scopes or grades.
+  required_receipt: >-
+    Typed mapping, compatibility grade, unresolved seam, strongest non-delta and next decision.
+- id: CH-FORMAL
+  title: Formal proof and reconstruction
+  purpose: >-
+    Build definitions, theorems, converses, quantitative bounds, categorical or geometric
+    structure and explicit proof obligations.
+  required_receipt: >-
+    Frozen model class, assumptions, statement, proof or gap, counterexample class and grade.
+- id: CH-MODEL
+  title: Executable models and counterexamples
+  purpose: >-
+    Construct minimal fixtures, exact compilers, simulations, hostile controls and reproducible
+    artifacts.
+  required_receipt: >-
+    Predeclared target and foils, deterministic or uncertainty-aware artifact, falsifier and
+    local-versus-concept failure scope.
+- id: CH-COLLIDE
+  title: Literature and novelty collision
+  purpose: >-
+    Compare candidate results with known theorems, strongest standard accounts, absorbers and
+    exact assumption boundaries.
+  required_receipt: >-
+    Source-pinned collision class, what is known, what is merely compatible and the residual
+    search-incomplete contribution.
+- id: CH-EMPIRICAL
+  title: Experimental discriminators
+  purpose: >-
+    Specify complete instruments, calibration, metrology, uncertainty, systematic errors,
+    matched resources and finite physical tests.
+  required_receipt: >-
+    Target and null channels, observables, units, uncertainty model, systematics, feasibility,
+    predicted delta and kill criterion.
+- id: CH-PAPER
+  title: Paper production
+  purpose: >-
+    Package survived contributions, proofs, controls, novelty position and reproducibility for
+    the Drafting Factory and Joe's publication decision.
+  required_receipt: >-
+    Stable source pointers, exact contribution, grade, audience, overlaps, blockers and
+    reproducibility path. Joe alone publishes.
+- id: CH-FRONTIER
+  title: Speculative frontier
+  purpose: >-
+    Explore bold ontology, dynamics or cross-domain conjectures without demanding prior
+    derivation and without confusing imagination with banking.
+  required_receipt: >-
+    Typed passport, warrant type, strongest foil, finite falsifier, stop/reopen condition and
+    explicit maximum grade.
+lanes:
+- id: '1'
+  label: Lane 1
+  ordinal: 1
+  kind: progress
+  title: North-Star adjudication
+  north_star: true
+  purpose_type: north_star
+  purpose: >-
+    Keep the Certified Causal Reality reconstruction-or-remainder question exact, integrate the
+    forward and inverse programs and determine which of the three coequal outcomes the evidence
+    supports in each declared class.
+  depends_on: []
+  consumes_from:
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  current_objective: >-
+    Maintain the independently selected record quotient, complete intervention/resource boundary
+    and factorization-or-witness contract while the physical selector is lifted beyond its
+    frozen finite QND family.
+  success_signal: >-
+    A nontrivial bidirectional reconstruction, necessary-and-sufficient theorem, operational
+    duality or finite class-relative physical remainder with independently fixed equivalence and
+    completion class.
+  default_channel_ids:
+  - CH-FORMAL
+  - CH-MODEL
+  - CH-COLLIDE
+  canonical_refs:
+  - START-HERE.md
+  - docs/certified-causal-reality-research-program.md
+  do_not: >-
+    Do not define records by all target experiments, infer ontology from vocabulary or finite
+    fixtures, or treat underidentification as a verdict.
+- id: '2'
+  label: Lane 2
+  ordinal: 2
+  kind: progress
+  title: Forward representation and coherence
+  north_star: false
+  purpose_type: dependency
+  purpose: >-
+    Build a faithful typed architecture relating quantum dynamics, records, observers,
+    capabilities, spacetime, fields, particles, thermodynamics and cosmology, preserving each
+    theory's assumptions and evidence grade while exposing exact seams and candidate deltas.
+  depends_on: []
+  current_objective: >-
+    Make the full physical picture explicit from accepted dynamics through record formation,
+    observer access, regional finality and effective physics; distinguish compatibility,
+    representation, reconstruction, selection and prediction at every arrow.
+  success_signal: >-
+    A coherent, source-pinned architecture with typed translations, assumption passports,
+    strongest absorbers, unresolved tensions and precise questions for Lanes 3 through 7.
+  default_channel_ids:
+  - CH-SYN
+  - CH-COLLIDE
+  - CH-FRONTIER
+  canonical_refs:
+  - START-HERE.md
+  - docs/quantum-foundations-orientation-surface.md
+  - docs/certified-causal-reality-research-program.md
+  do_not: >-
+    Do not claim derivation, necessity or new physics merely because known theories fit one
+    coherent record vocabulary.
+- id: '3'
+  label: Lane 3
+  ordinal: 3
+  kind: progress
+  title: Physical record formation and selection
+  north_star: false
+  purpose_type: dependency
+  purpose: >-
+    Determine which physical dynamics forms and selects record instruments, interfaces,
+    pointers, archives and decoders, and which freedoms remain operationally or microscopically
+    unidentifiable.
+  depends_on:
+  - '2'
+  current_objective: >-
+    Lift the revision-38 effective instrument-orbit selector to a laboratory-motivated additive
+    total-conservation model with calibrated apparatus asymmetry, a declared perturbation ball,
+    complete selective-instrument and archive tomography, frozen decoder and matched held-out
+    controls.
+  success_signal: >-
+    A scoped physical Record Selection Theorem, an Interface-Necessity No-Go or a classified
+    minimal additional-structure family that survives the declared perturbation and tomography
+    contract.
+  default_channel_ids:
+  - CH-FORMAL
+  - CH-MODEL
+  - CH-EMPIRICAL
+  - CH-COLLIDE
+  canonical_refs:
+  - explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md
+  - tests/du_robust_physical_instrument_selection_probe.py
+  - docs/certified-causal-reality-research-program.md
+  do_not: >-
+    Do not enumerate more supplied PVMs or fitted dephasing families, equate a stable algebra
+    with a formed accessible record, or claim unique microscopic dilation from an effective
+    instrument.
+- id: '4'
+  label: Lane 4
+  ordinal: 4
+  kind: progress
+  title: Observer access, certification and capability
+  north_star: false
+  purpose_type: dependency
+  purpose: >-
+    Define observer roles, access boundaries, provenance, certificates, interventions, safe
+    action sets and capability changes under matched risk and complete resources.
+  depends_on:
+  - '3'
+  dependency_note: >-
+    Contract and countermodel work may proceed before Lane 3 closes; physical capability or
+    finality claims must consume an independently formed record interface.
+  current_objective: >-
+    Freeze the observer/access/task/loss/readout/decoder/risk/resource comparison contract and
+    prepare the first formed-record capability assay without treating precision, possession,
+    readout or redundancy as capability.
+  success_signal: >-
+    A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
+    counterexample showing exactly which access or resource was missing.
+  default_channel_ids:
+  - CH-FORMAL
+  - CH-MODEL
+  - CH-EMPIRICAL
+  canonical_refs:
+  - docs/certified-causal-reality-research-program.md
+  - lab/process/cross-repo-hardening-control-contract.md
+  do_not: >-
+    Do not use an observer as an unexplained primitive in a reconstruction claim or compare
+    capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
+    budgets.
+- id: '5'
+  label: Lane 5
+  ordinal: 5
+  kind: progress
+  title: Regional finality and recursive composition
+  north_star: false
+  purpose_type: dependency
+  purpose: >-
+    Determine when local certified causal networks, overlapping regions and heterogeneous
+    finality types compose into safe higher-level facts, actions and new regional nodes.
+  depends_on:
+  - '3'
+  - '4'
+  dependency_note: >-
+    Finite mathematical controls may advance independently; a physical regional ontology or
+    public-finality law requires physically formed interfaces and declared observers/access.
+  current_objective: >-
+    Preserve the exact typed identity, overlap, marginal, provenance, loop and upper-action
+    controls; next test formed-instrument descent, robust calibration and sparse recursive
+    composition without scalarizing the defect.
+  success_signal: >-
+    A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
+    provenance/logical lift that transfers unchanged across physical and adversarial distributed
+    fixtures.
+  default_channel_ids:
+  - CH-FORMAL
+  - CH-MODEL
+  - CH-COLLIDE
+  canonical_refs:
+  - docs/certified-causal-reality-research-program.md
+  - tests/du_regional_finality_descent_probe.py
+  - tests/du_record_formation_composition_probe.py
+  do_not: >-
+    Do not identify qubits with validators, entanglement with consensus, graph subdivision with
+    physical distance, or redundancy/confidence with public finality.
+- id: '6'
+  label: Lane 6
+  ordinal: 6
+  kind: progress
+  title: Time, geometry, fields and physical reconstruction
+  north_star: false
+  purpose_type: dependency
+  purpose: >-
+    Recover effective time, causal and metric geometry, reference-frame relations, fields,
+    particles and low-energy physical structure from the typed architecture with uniqueness,
+    gauge and refinement controls.
+  depends_on:
+  - '3'
+  - '4'
+  - '5'
+  dependency_note: >-
+    Lane-2 representation work may map these relations now. Reconstruction or derivation claims
+    require the physical formation, observer/access and regional-composition dependencies.
+  current_objective: >-
+    Freeze the representation category and benign-refinement class for meta-record order,
+    density, scale, dimension and proper-time comparison, and construct nonisomorphic controls
+    before attempting uniqueness.
+  success_signal: >-
+    A reconstruction or nonuniqueness theorem with declared gauge, dimensional map, held-out
+    observables and invariance under relabeling and genuinely benign refinement.
+  default_channel_ids:
+  - CH-SYN
+  - CH-FORMAL
+  - CH-MODEL
+  - CH-COLLIDE
+  canonical_refs:
+  - docs/certified-causal-reality-research-program.md
+  - docs/quantum-foundations-orientation-surface.md
+  do_not: >-
+    Do not derive primitive operational precedence from itself, confuse Hilbert/network/state
+    dimension with spacetime dimension, or infer a metric from representation-dependent graph
+    length.
+- id: '7'
+  label: Lane 7
+  ordinal: 7
+  kind: progress
+  title: Remainders, predictions and publishable results
+  north_star: false
+  purpose_type: output_and_discriminator
+  purpose: >-
+    Convert surviving work into finite physical discriminators, theorem and no-go packages,
+    source-pinned novelty claims, experimental protocols and well-formed Drafting-Factory
+    packages.
+  depends_on:
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  dependency_note: >-
+    Negative, boundary and representation papers may mature before every positive dependency.
+    Each package declares exactly which upstream results it consumes.
+  current_objective: >-
+    Keep the complete paper-opportunity portfolio moving while concentrating new physical
+    prediction work on results that survive interface completion, matched resources and the
+    strongest ordinary-physics absorber.
+  success_signal: >-
+    A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
+    coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
+  default_channel_ids:
+  - CH-COLLIDE
+  - CH-EMPIRICAL
+  - CH-PAPER
+  canonical_refs:
+  - papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
+  - docs/certified-causal-reality-research-program.md
+  do_not: >-
+    Do not let paper readiness promote scientific grade, call a necessary target-class bound
+    positive membership or perform publication actions. Joe alone publishes.
+- id: A
+  label: Lane A
+  letter: A
+  kind: stewardship
+  title: Stewardship
+  north_star: false
+  purpose_type: integrated_stewardship
+  purpose: >-
+    Preserve claim, type, dependency, ontology, history, provenance, reproducibility, paper
+    custody and orientation integrity while keeping divergent ideas discoverable.
+  depends_on: []
+  current_objective: >-
+    Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
+    entrypoints consistent without rewriting dated receipts or promoting their grades.
+  success_signal: >-
+    An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
+    channel, grade and canonical output without conversational context or a full archive read.
+  default_channel_ids:
+  - CH-SYN
+  - CH-COLLIDE
+  - CH-PAPER
+  canonical_refs:
+  - AGENTS.md
+  - START-HERE.md
+  - LANES.yaml
+  do_not: >-
+    Do not treat governance, persona agreement, a vote, a wish list or a reproducibility pass as
+    scientific evidence.
 active_hardening_program_ref: >-
   docs/certified-causal-reality-research-program.md
 research_orientation_ref: >-
@@ -2005,7 +2398,7 @@ legacy_lanes_revision_17:
       Preserve the lossless persona backlog; calibrate forecasts and stop-losses; evaluate agent
       research methods against baselines; manage GU/non-GU/null search allocation without converting
       persona authority into evidence. Work package WP-09.
-lanes:
+legacy_lanes_revision_38:
 - id: '1'
   label: Lane 1
   ordinal: 1
@@ -2425,8 +2818,10 @@ discovery:
   kind: lane_less
   title: Discovery
   purpose: >-
-    Truly wild, coherence-first ideation feeding Lane 2. Promote it into a lane only when a
-    candidate binds to the typed program kernel, a rival class and a cheap discriminating test.
+    Truly wild, coherence-first ideation. Once a candidate binds to the typed program kernel, a
+    rival class and a cheap discriminator, route it to the scientific lane that owns its question
+    through CH-FRONTIER plus the relevant falsification channel. Do not create a new lane merely
+    because a method, persona or conjecture is useful.
 special_rules:
 - id: no-standing-verification-gate
   note: >-
@@ -2435,9 +2830,9 @@ special_rules:
     are challenges to beat, not walls — this program's history is getting around them.
 - id: persona-swarm-vs-inline-council
   note: >-
-    The former persona-work Lane 3 is historical. Personas now operate as explicit lenses across
-    every lane and remain advisory rather than evidentiary. Deliberation is inline by default;
-    parallel council agents are used only when Joe explicitly authorizes them.
+    The revision-17 persona-work Lane 3 is historical. Personas now operate as explicit lenses
+    across every lane and remain advisory rather than evidentiary. Deliberation is inline by
+    default; parallel council agents are used only when Joe explicitly authorizes them.
 - id: three-outcome-verdict-openness
   note: >-
     Record-first reconstruction, operational duality and physics-first remainder remain coequal.
@@ -2450,11 +2845,11 @@ special_rules:
     be independently fixed rather than defined by all target physical experiments.
 - id: historical-lane-custody
   note: >-
-    legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
-    documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 38.
+    legacy_lanes_revision_17 and legacy_lanes_revision_38 are routing snapshots and are not active
+    authority. Dated documents that mention their North Star or Lane meanings remain historical
+    evidence; current routing is the root lanes key near the top of manifest revision 39.
 provenance:
-  revision: 38
+  revision: 39
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -2951,3 +3346,16 @@ provenance:
     perturbation-ball and complete-instrument-tomography lift. No theorem ID, hypothesis,
     concept ID, physical law, prediction, ontology, paper priority, Factory state, draft,
     submission, publication or external action changed.
+  rev39_note: >-
+    2026-07-25 (Joe direct chat: ratify the Purpose, Vision, Mission and North Star, align lanes
+    and channels, implement in one big swing, and rigorously assure incoming-agent orientation):
+    installed one exact program charter across README, START-HERE, AGENTS, the governing agenda
+    and this machine-readable topology. Active lanes now encode scientific dependencies from
+    forward representation through physical formation, observer capability, regional finality,
+    reconstruction and finite outputs; seven work channels encode methods across those lanes.
+    The revision-38 mode topology remains preserved verbatim as legacy_lanes_revision_38. A
+    deterministic cold-start contract checks purpose, North Star, three-outcome openness,
+    evidence grades, current laboratory-selector bottleneck, active lane/channel routing,
+    entrypoint consistency and local pointers. No scientific claim, theorem, hypothesis,
+    concept, prediction, ontology, paper priority, Factory state, draft, submission, publication
+    or external action changed.
