@@ -109,6 +109,32 @@ result establishes a viable finite compiler kernel only. It does not establish
 physical record formation, an exhaustive completion class, a quantum/BFT
 identity, an approximate theorem, a resource law, or a physical remainder.
 
+`du_physical_interventional_sufficiency_probe.py` executes the first
+published-platform evidence gate for `DU-PAPER-007`. It freezes the six-field
+record, boundary, intervention, refinement, target, and strongest-null
+contract; audits the Stricker et al. trapped-ion instrument and its linked
+Zenodo record; proves that equal plotted means can have different shot
+uncertainties and that equal marginals can hide different temporal memory; and
+emits the minimum four-table reopening packet.
+
+It passes `22/22` checks with byte-identical output and returns
+`INCOMPLETE_CONTRACT`. The public record is figure-source data rather than the
+trial-, calibration-, invalid-trial-, provenance-, and multitime-resolved
+evidence needed for finite-shot factorization. Passing does not establish
+record sufficiency, a remainder, a failed experiment, or new physics.
+
+`du_csg_post_tail_uniformity_probe.py` supplies deterministic finite controls
+for the `DU-PAPER-013` proof-or-kill. It checks the exact post semigroup,
+transitive-percolation fixed point, regularly varying power-ratio families,
+bounded-precursor uniformity, a logarithmic correction, the finite-support
+\(P^{-1}\) endpoint, and the published sparse nonconvergent boundary.
+
+It passes `8/8` checks. The analytic source receipt proves the scoped uniform
+theorem; this probe tests its seams and provides figure-ready series. Passing
+does not establish theorem novelty, a selected CSG law, post recurrence,
+manifoldlike geometry, a physical scale, \(\Lambda\), or quantum causal-set
+dynamics.
+
 `du_physical_history_certificate_transfer_probe.py` extends that kernel to
 stochastic record channels. It derives one QND stabilizer record from explicit
 quantum matrices and one authenticated operation-DAG record from executable

@@ -136,8 +136,16 @@ measurements; apparatus asymmetry prices their accuracy; an oriented reference
 programs the axis. Another finite selector fit is no longer the highest-value
 move.
 
-The highest-value immediate build is now the implementation-complete physical
-arm of **Interventional Record Sufficiency**:
+The first implementation-complete physical arm of **Interventional Record
+Sufficiency** has now been executed against a published trapped-ion quantum
+instrument. It returned `INCOMPLETE_CONTRACT`, not a negative scientific
+result: the linked public record contains figure-source data, not the
+calibration-linked trial, invalid-trial, controller, provenance, uncertainty,
+ordered-repeat, and causal-break evidence needed for a finite-shot verdict
+([receipt](explorations/implementation-complete-physical-interventional-sufficiency-arm-2026-07-25.md);
+[probe](tests/du_physical_interventional_sufficiency_probe.py)).
+
+The reusable physical gate is:
 
 1. choose one independently calibrated physical process instrument and state
    its source, reference, coupling, pointer, archive, decoder, and action
@@ -154,10 +162,28 @@ arm of **Interventional Record Sufficiency**:
 7. report factorization, minimal refinement, candidate remainder, or
    incomplete contract without ontological inflation.
 
-This is the nearest route to strengthening `DU-PAPER-007`. A physical process
-may enter as an explicitly calibrated premise; the research question is
-whether its certified causal record is interventionally sufficient, not
-whether scalar conservation resources secretly choose its interface.
+Do not infer the missing records from plotted means. The next physical pass
+must screen the public evidence packet before examining a sufficiency result.
+If the Stricker trial/calibration packet is not publicly available, use a
+different published instrument only if its record passes the four-table
+ingestion gate. Contacting source authors is an external action and remains
+separately Joe-authorized.
+
+In parallel, `DU-PAPER-013` is now the closest new-paper route. Its
+proof-or-kill produced a bounded-precursor uniform theorem for regularly
+varying CSG coupling ratios and showed that the familiar half-power is one
+tail class rather than a universal post law
+([receipt](explorations/csg-post-tail-universality-proof-kill-2026-07-25.md);
+[probe](tests/du_csg_post_tail_uniformity_probe.py)). Its next gate is
+independent mathematical proof review and a general
+binomial-transform/regular-variation novelty collision. Do not call the
+result novel or manuscript-ready before those gates close.
+
+`DU-PAPER-007` remains the higher-ceiling flagship. `DU-PAPER-013` is the
+nearer paper. A physical process may enter the flagship as an explicitly
+calibrated premise; the research question is whether its certified causal
+record is interventionally sufficient, not whether scalar conservation
+resources secretly choose its interface.
 
 Regional finality, capability pricing, and time/geometry reconstruction remain
 important, but physical claims should consume an implementation-complete
@@ -173,11 +199,11 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | This contains the current laboratory-selector bottleneck. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Screen complete physical evidence before any sufficiency verdict; figure-source summaries are insufficient. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Access and capability are not the same as possession of a latent record. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, and loop obstructions. |
 | **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Representation can start now; derivation claims wait on dependencies. |
-| **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | A paper can report a sharp negative or boundary result; Joe publishes. |
+| **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
 ## Work channels
@@ -297,3 +323,13 @@ lane map existed earlier. Route them additively.
 
 When in doubt, preserve the idea, lower the grade, strengthen the comparison,
 and make the next decision finite.
+
+## CapacityOS operating-locator compatibility
+
+The root Lane manifest also exposes the shared CapacityOS 1.0 operating
+locator. It points back to this repository's existing orientation, work
+Channels, and state; it does not replace Dynamic Unity's seven scientific
+Lanes, contract 1.1 extensions, evidence grades, or portfolio controls.
+
+Dynamic Unity remains manual and outside the registered fleet. The locator
+creates no automation, cadence, routing, or System authority.

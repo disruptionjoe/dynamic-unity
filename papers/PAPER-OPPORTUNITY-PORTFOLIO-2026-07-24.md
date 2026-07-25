@@ -8,6 +8,7 @@ source_revision: 63a50a212d789797b6e21c0f3cf109ae7d34ecbe
 reconciled_source_revision: 0504f948891a97b87fdfca561575d3490d92d97d
 factory_intake_revision: ca7b748e58e9210fbace1ad897df88f849ae9ff5
 source_evidence_update_run: RUN-20260724-213302-concentrated-paper-closing-program
+three_paper_advance_run: RUN-20260725-150819-three-paper-advance
 claim_grade: "PORTFOLIO, FACTORY-SEED READINESS, AND CONFIRMED INTAKE / NO SCIENTIFIC, PRODUCTION, OR PUBLICATION PROMOTION"
 ---
 
@@ -90,6 +91,38 @@ environment, controller, detector, archive, invalid trials, provenance,
 selective instrument, uncertainty, and finite-shot null all explicit. See
 `../explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md`.
 
+## Three-paper advance
+
+The 2026-07-25 coordinated swing advanced the two unfinished source packets
+without flattening their different outcomes:
+
+- **`DU-PAPER-013` survived its proof-or-kill.** For eventually decreasing,
+  regularly varying adjacent CSG coupling ratios, a bounded-precursor uniform
+  theorem now gives the post-tail scale and exponent
+  \(-\alpha/(\alpha+1)\). The half-power is the \(\alpha=1\) class, not a
+  universal effect of posts. Constant-ratio, logarithmic, finite-support, and
+  published sparse boundaries are explicit, and the deterministic controls
+  pass. The exact post map, fixed points, broad convergence, sparse
+  nonconvergence, and factorial half-power are occupied; the regular-ratio
+  theorem appears unabsorbed in the causal-set search but still needs
+  independent proof review and a broader mathematical collision.
+- **`DU-PAPER-007` reached `INCOMPLETE_CONTRACT` on a real physical
+  platform.** Stricker et al.'s trapped-ion work is a published
+  quantum-instrument characterization, but its linked public dataset is
+  figure-source data. It does not expose the calibration-linked trial,
+  invalid-trial, controller, provenance, joint-uncertainty, ordered-repeat,
+  and causal-break records required for finite-shot interventional
+  sufficiency. The swing therefore freezes a reusable four-table ingestion
+  packet rather than reconstructing missing evidence.
+
+See
+`../explorations/csg-post-tail-universality-proof-kill-2026-07-25.md` and
+`../explorations/implementation-complete-physical-interventional-sufficiency-arm-2026-07-25.md`.
+The first result moves `DU-PAPER-013` to proof-review and general-collision
+hardening. The second makes the flagship's physical-data gate executable but
+does not earn factorization, a remainder, or new physics. Factory custody
+remains unchanged and unselected.
+
 ## The seed-readiness correction
 
 Dynamic Unity had been conflating two different gates:
@@ -148,9 +181,9 @@ Neither should be reseeded.
 | ID | Working paper | Current source grade | Estimated manuscript work | Load-bearing next work |
 |---|---|---|---:|---|
 | `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact tight record-disturbance/support controls; general novelty absorbed | `1` pre-proof | Clock-QCA extension classification or nonseparable covariance-locality-support theorem; otherwise merge/stop |
-| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure plus viable proof-carrying compiler; both first fixtures absorbed by provenance | `2–3` | Replace supplied tables with complete physical routed-quantum and authenticated DAG/BFT processes |
+| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure and viable compiler; first real-platform arm returns `INCOMPLETE_CONTRACT` because the public record is figure-source rather than trial/calibration resolved | `2–3` | Obtain a published quantum-instrument packet that passes the frozen four-table ingestion gate; then add the authenticated DAG/BFT arm |
 | `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible baseline plus finite noninvertible path/provenance compiler pilot | `2–3` | Noisy physical theorem, higher-certificate relation, and unchanged BFT/QEC transfer |
-| `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Known exact post map plus locally derived multi-tail exponent family | `1` | Full causal-set collision review and a uniform asymptotic theorem with tight counterfamilies |
+| `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Bounded-precursor uniform regular-ratio theorem, tight boundaries, deterministic controls, and provisionally unabsorbed causal-set delta | `1` | Independent proof review plus general binomial-transform/regular-variation and paper-grade bibliographic collision |
 | `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Exact finite controls; general quotient theorem occupied | `1` pre-proof | Clock-QCA record instrument, scheduler/boost congruence, and tight minimal Lorentz-sensitive leakage theorem |
 | `DU-PAPER-016` | **Systems Without a Privileged Depth** | Exact finite active-control constructions and depth-refinement countertheorem | `1–2` | General role-cover theorem, prior-art review, and one non-toy specimen |
 | `DU-PAPER-017` | **Finite Records Cannot Certify Open-Endedness** | Exact aliasing, finite-prefix, fixed-completion, and fixed-oracle controls | `1–2` | Freeze completion/novelty class and prove a parameterized escape-or-incomplete-contract theorem |
@@ -240,8 +273,11 @@ source material to a paper-shaped package.
 After the concentrated closing swing, the source sequence separates immediate
 paper closure from foundational importance:
 
-1. **`DU-PAPER-013`** is the next concentrated paper-closing allocation.
-2. **`DU-PAPER-007`** remains the flagship route most central to the program.
+1. **`DU-PAPER-013`** is the closest new-paper route, now at independent
+   proof-review and general-collision hardening.
+2. **`DU-PAPER-007`** remains the flagship route most central to the program;
+   its first published-platform pass produced a reusable evidence gate rather
+   than a physical verdict.
 3. **`DU-PAPER-009`** remains the most distinctive cross-domain theorem route.
 
 `DU-PAPER-003` and `015` remain preserved in Factory custody but are parked
@@ -278,6 +314,12 @@ This is a routing scan, not a claim-specific novelty verdict.
   `DU-PAPER-007` must contribute the physical-refinement trichotomy and
   cross-platform proof object:
   [operational quantum process framework](https://arxiv.org/abs/1512.00589).
+- Stricker et al. supply a genuine quantum-instrument platform, but their
+  linked public record is explicitly figure-source data rather than the
+  trial- and calibration-resolved packet required by DU's finite-shot
+  sufficiency contract:
+  [PRX Quantum article](https://doi.org/10.1103/PRXQuantum.3.030318) and
+  [Zenodo source data](https://doi.org/10.5281/zenodo.6901982).
 - Cohomological obstruction, database contextuality, and correctable operator
   algebras are mature neighboring fields for `DU-PAPER-009`:
   [contextuality, cohomology, and databases](https://arxiv.org/abs/1502.03097)

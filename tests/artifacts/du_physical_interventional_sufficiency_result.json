@@ -1,0 +1,304 @@
+{
+  "article": {
+    "authors_short": "Stricker et al.",
+    "doi": "10.1103/PRXQuantum.3.030318",
+    "journal": "PRX Quantum 3, 030318 (2022)",
+    "physical_premise": "A 40Ca+ trapped-ion loss-detection unit was characterized as a quantum instrument with classical loss/no-loss outputs and outcome-conditioned postmeasurement dynamics.",
+    "title": "Characterizing Quantum Instruments: From Nondemolition Measurements to Quantum Error Correction",
+    "url": "https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.3.030318"
+  },
+  "dataset": {
+    "declared_scope": "Source data underlying the graphical representations used in the figures.",
+    "doi": "10.5281/zenodo.6901982",
+    "file_count": 22,
+    "files": [
+      "Fig3.csv",
+      "Fig4a.csv",
+      "Fig4b.csv",
+      "Fig5a_ploss_002.csv",
+      "Fig5a_ploss_061.csv",
+      "Fig5b_ploss_002.csv",
+      "Fig5b_ploss_061.csv",
+      "Fig5c.csv",
+      "Fig6.csv",
+      "Fig7a_loss_000.csv",
+      "Fig7a_loss_050.csv",
+      "Fig7a_loss_085.csv",
+      "Fig7a_no-loss_000.csv",
+      "Fig7a_no-loss_050.csv",
+      "Fig7a_no-loss_085.csv",
+      "Fig7b_false-negatives.csv",
+      "Fig7b_false-positives.csv",
+      "Fig9.csv",
+      "Fig10a.csv",
+      "Fig10b.csv",
+      "Fig10c.csv",
+      "Fig10d.csv"
+    ],
+    "license": "CC-BY-4.0",
+    "published": "2022-07-25",
+    "url": "https://zenodo.org/records/6901982",
+    "version": "v1"
+  },
+  "exact_missing_source_package": "A calibration-block-linked, trial-resolved instrument-tomography table containing preparation, instrument outcome, output tomography setting/result, invalid/discard reason, trial order or timestamp, and the controller/decoder version; plus the joint calibration uncertainty or bootstrap draws and an explicit mapping to every selective map.",
+  "executed": [
+    "source and provenance scope audit",
+    "six-field comparison-contract freeze",
+    "implementation-complete field audit",
+    "same-mean/different-shot-uncertainty counterexample",
+    "same-marginal/different-memory counterexample",
+    "reproducible minimum ingestion schema"
+  ],
+  "field_audit": {
+    "calibration_linkage_and_uncertainty": {
+      "required_columns": [
+        "calibration_block_id",
+        "preparation_calibration",
+        "readout_confusion_matrix",
+        "calibration_covariance_or_resamples"
+      ],
+      "status": "not_exposed_by_public_record"
+    },
+    "complete_selective_map_machine_representation": {
+      "required_columns": [
+        "outcome_label",
+        "choi_or_transfer_matrix_entry",
+        "normalization_convention",
+        "fit_or_projection_method",
+        "joint_uncertainty"
+      ],
+      "status": "not_established_by_dataset_description"
+    },
+    "controller_route_environment_and_resource_passport": {
+      "required_columns": [
+        "pulse_program_version",
+        "controller_branch",
+        "ion_and_ancilla_roles",
+        "route_or_gate_sequence",
+        "environment_or_drift_block",
+        "detector_decoder_version"
+      ],
+      "status": "not_exposed_by_public_record"
+    },
+    "invalid_abort_and_discarded_trial_rows": {
+      "required_columns": [
+        "validity_flag",
+        "rejection_reason",
+        "herald_or_loss_flag",
+        "denominator_membership"
+      ],
+      "status": "not_exposed_by_public_record"
+    },
+    "multitime_memory_control": {
+      "required_columns": [
+        "repeat_index",
+        "prior_outcome",
+        "reset_or_causal_break_status",
+        "held_out_continuation_outcome"
+      ],
+      "status": "not_exposed_by_public_record"
+    },
+    "public_figure_source_files_and_checksums": {
+      "evidence": "22 named CSV figure-source files with record-level checksums.",
+      "status": "available_in_zenodo_record"
+    },
+    "published_platform_and_instrument_target": {
+      "evidence": "A 40Ca+ trapped-ion loss-detection unit was characterized as a quantum instrument with classical loss/no-loss outputs and outcome-conditioned postmeasurement dynamics.",
+      "status": "available_in_article"
+    },
+    "raw_trial_resolved_tomography_counts": {
+      "required_columns": [
+        "trial_id",
+        "timestamp_or_order",
+        "preparation_setting",
+        "instrument_outcome",
+        "output_tomography_setting",
+        "output_tomography_outcome"
+      ],
+      "status": "not_exposed_by_public_record"
+    }
+  },
+  "frozen_contract": {
+    "candidate_certified_record": "The archived classical loss/no-loss instrument outcome, its declared preparation and intervention labels, and the published outcome-conditioned process estimate. No hidden run metadata is silently included.",
+    "intervention_family": [
+      "tomographically complete declared input preparations",
+      "one invocation of the fixed loss-detection instrument",
+      "outcome-conditioned single-qubit rotations",
+      "tomographically complete output measurements",
+      "repeat-instrument continuation for a declared memory test"
+    ],
+    "observer_access_boundary": "An external experimenter may prepare the data ion, invoke the fixed loss-detection unit, read its reported classical outcome, and apply tomographically complete conditional single-qubit continuations to the retained output. Trap environment, controller internals, raw fluorescence stream, discarded trials, and calibration registers remain outside unless explicitly supplied.",
+    "physical_refinement_class": [
+      "formed detector and invalid-trial record",
+      "preparation and readout calibration block",
+      "controller/pulse-program version",
+      "route and environment telemetry available in the implementation",
+      "trial order, timestamp, and drift block",
+      "retained ancilla/leakage/loss syndrome available to the apparatus"
+    ],
+    "strongest_implementation_complete_null": "Every CPTNI selective instrument, including admitted SPAM, leakage, detector confusion, drift, temporal memory, invalid-trial selection, and controller/environment correlations, that is compatible with the frozen raw trial record and independently calibrated uncertainty model.",
+    "target": "All outcome probabilities and outcome-conditioned future response probabilities for the admitted intervention family, with a finite-shot confidence statement."
+  },
+  "minimum_reopening_packet": {
+    "calibration_table": [
+      "calibration_block_id",
+      "preparation_model",
+      "readout_confusion_matrix",
+      "joint_uncertainty_or_bootstrap_draws",
+      "controller_program_version",
+      "decoder_version"
+    ],
+    "multitime_extension": [
+      "repeat_index",
+      "reset_or_causal_break_status",
+      "held_out_conditional_continuation"
+    ],
+    "process_schema": [
+      "selective_map_convention",
+      "outcome_normalization",
+      "physicality_constraint_or_projection",
+      "mapping_from_trial_rows_to_selective_maps"
+    ],
+    "trial_table": [
+      "trial_id",
+      "timestamp_or_order",
+      "preparation_setting",
+      "instrument_outcome",
+      "output_tomography_setting",
+      "output_tomography_outcome",
+      "validity_flag",
+      "rejection_reason",
+      "calibration_block_id"
+    ]
+  },
+  "next_decision": "Request or locate the reopening packet from the source owners. If unavailable, choose another public instrument only if its record exposes all fields before examining a sufficiency result.",
+  "not_executed": [
+    "selective-map reconstruction from raw counts",
+    "uncertainty-aware factorization",
+    "minimum physical refinement search",
+    "finite separating intervention",
+    "finite-shot calibrated witness"
+  ],
+  "plain_english": "The selected paper is a genuine laboratory quantum-instrument experiment, but its open record is figure-source data rather than the trial- and calibration-resolved package needed to ask Dynamic Unity's finite-shot interventional-sufficiency question. The missing data cannot be reconstructed from plotted values.",
+  "receipt": {
+    "all_passed": true,
+    "checks": [
+      {
+        "detail": "A 40Ca+ trapped-ion loss-detection unit was characterized as a quantum instrument with classical loss/no-loss outputs and outcome-conditioned postmeasurement dynamics.",
+        "name": "article_is_a_published_physical_quantum_instrument",
+        "passed": true
+      },
+      {
+        "detail": "doi=10.5281/zenodo.6901982; license=CC-BY-4.0",
+        "name": "dataset_is_article_linked_and_open",
+        "passed": true
+      },
+      {
+        "detail": "Source data underlying the graphical representations used in the figures.",
+        "name": "dataset_scope_is_frozen_as_figure_source_data",
+        "passed": true
+      },
+      {
+        "detail": "files=22",
+        "name": "dataset_manifest_has_22_unique_csv_files",
+        "passed": true
+      },
+      {
+        "detail": "keys=['candidate_certified_record', 'intervention_family', 'observer_access_boundary', 'physical_refinement_class', 'strongest_implementation_complete_null', 'target']",
+        "name": "six_field_contract_is_complete",
+        "passed": true
+      },
+      {
+        "detail": "The archived classical loss/no-loss instrument outcome, its declared preparation and intervention labels, and the published outcome-conditioned process estimate. No hidden run metadata is silently included.",
+        "name": "contract_candidate_certified_record_is_nonempty",
+        "passed": true
+      },
+      {
+        "detail": "['tomographically complete declared input preparations', 'one invocation of the fixed loss-detection instrument', 'outcome-conditioned single-qubit rotations', 'tomographically complete output measurements', 'repeat-instrument continuation for a declared memory test']",
+        "name": "contract_intervention_family_is_nonempty",
+        "passed": true
+      },
+      {
+        "detail": "An external experimenter may prepare the data ion, invoke the fixed loss-detection unit, read its reported classical outcome, and apply tomographically complete conditional single-qubit continuations to the retained output. Trap environment, controller internals, raw fluorescence stream, discarded trials, and calibration registers remain outside unless explicitly supplied.",
+        "name": "contract_observer_access_boundary_is_nonempty",
+        "passed": true
+      },
+      {
+        "detail": "['formed detector and invalid-trial record', 'preparation and readout calibration block', 'controller/pulse-program version', 'route and environment telemetry available in the implementation', 'trial order, timestamp, and drift block', 'retained ancilla/leakage/loss syndrome available to the apparatus']",
+        "name": "contract_physical_refinement_class_is_nonempty",
+        "passed": true
+      },
+      {
+        "detail": "Every CPTNI selective instrument, including admitted SPAM, leakage, detector confusion, drift, temporal memory, invalid-trial selection, and controller/environment correlations, that is compatible with the frozen raw trial record and independently calibrated uncertainty model.",
+        "name": "contract_strongest_implementation_complete_null_is_nonempty",
+        "passed": true
+      },
+      {
+        "detail": "All outcome probabilities and outcome-conditioned future response probabilities for the admitted intervention family, with a finite-shot confidence statement.",
+        "name": "contract_target_is_nonempty",
+        "passed": true
+      },
+      {
+        "detail": "available=['public_figure_source_files_and_checksums', 'published_platform_and_instrument_target']",
+        "name": "published_platform_premise_is_retained",
+        "passed": true
+      },
+      {
+        "detail": "available=['public_figure_source_files_and_checksums', 'published_platform_and_instrument_target']",
+        "name": "figure_source_provenance_is_retained",
+        "passed": true
+      },
+      {
+        "detail": "missing=['calibration_linkage_and_uncertainty', 'complete_selective_map_machine_representation', 'controller_route_environment_and_resource_passport', 'invalid_abort_and_discarded_trial_rows', 'multitime_memory_control', 'raw_trial_resolved_tomography_counts']",
+        "name": "implementation_complete_fields_are_explicitly_missing",
+        "passed": true
+      },
+      {
+        "detail": "small=3/4; large=300/400",
+        "name": "aggregate_probability_has_distinct_count_realizations",
+        "passed": true
+      },
+      {
+        "detail": "se_small=0.216506350946; se_large=0.021650635095",
+        "name": "aggregate_probability_does_not_fix_shot_uncertainty",
+        "passed": true
+      },
+      {
+        "detail": "both sequences have 50/100 positive outcomes",
+        "name": "marginal_counts_match_for_distinct_trial_orders",
+        "passed": true
+      },
+      {
+        "detail": "transitions=99,1; lag=-1.000000,0.979798",
+        "name": "trial_order_changes_memory_diagnostic",
+        "passed": true
+      },
+      {
+        "detail": "No trial-resolved likelihood and joint calibration uncertainty.",
+        "name": "factorization_is_not_run_without_likelihood",
+        "passed": true
+      },
+      {
+        "detail": "No ordered repeat/causal-break/held-out continuation record.",
+        "name": "multitime_sufficiency_is_not_run_without_memory_control",
+        "passed": true
+      },
+      {
+        "detail": "The probe constructs only information-loss counterexamples.",
+        "name": "no_synthetic_reconstruction_is_promoted_to_lab_evidence",
+        "passed": true
+      },
+      {
+        "detail": "tables=['calibration_table', 'multitime_extension', 'process_schema', 'trial_table']",
+        "name": "reopening_packet_contains_trial_calibration_process_and_multitime_tables",
+        "passed": true
+      }
+    ],
+    "passed": 22,
+    "total": 22
+  },
+  "run_id": "RUN-20260725-150819-three-paper-advance",
+  "scientific_grade": "PUBLISHED PHYSICAL PLATFORM AND FIGURE-SOURCE DATA / IMPLEMENTATION-COMPLETE CONTRACT NOT AVAILABLE / NO FACTORIZATION, REMAINDER, OR NEW-PHYSICS VERDICT",
+  "status": "PASS_INCOMPLETE_CONTRACT_GATE",
+  "verdict": "INCOMPLETE_CONTRACT"
+}

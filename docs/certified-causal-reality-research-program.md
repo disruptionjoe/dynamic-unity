@@ -1677,13 +1677,25 @@ queue.
    information--source-disturbance and alignment bound, rejects a matched
    conjugate foil, and classifies continuation and dilation freedom. Its
    component mathematics is known and its source/action/candidate family is
-   still supplied. The next paper-grade advance must lift that orbit selector
-   to independently justified laboratory dynamics with complete instrument
-   tomography or execute an implementation-complete proper-time instrument.
+   still supplied. The first published-platform pass now freezes the full
+   physical comparison contract against Stricker et al.'s trapped-ion
+   instrument and returns `INCOMPLETE_CONTRACT`: the linked public record is
+   figure-source data rather than a calibration-linked trial, invalid-trial,
+   provenance, joint-uncertainty, ordered-repeat and causal-break packet. The
+   four-table reopening schema is executable, but no factorization, remainder
+   or new-physics verdict is earned. The next paper-grade advance must obtain
+   a public physical record that passes that ingestion gate before examining
+   the sufficiency result.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
-   The next concentrated paper-closing route after two novelty gates narrowed:
-   a claim-specific collision review, uniform asymptotic theorem, and tight
-   counterfamilies.
+   The closest new-paper route. The proof-or-kill now supplies a
+   bounded-precursor uniform theorem for eventually decreasing regularly
+   varying adjacent coupling ratios, the exponent family
+   \(-\alpha/(\alpha+1)\), and tight constant-ratio, logarithmic,
+   finite-support and sparse boundaries. The exact post map, fixed points,
+   broad convergence and factorial half-power are occupied; the residual
+   appears unabsorbed in the causal-set scan. Independent proof review and a
+   general binomial-transform/regular-variation collision are required before
+   novelty or manuscript readiness can be claimed.
 3. **Higher-Order Public Finality**
    The distinctive cross-domain route: noisy/noninvertible loop syndromes,
    safe action algebras, higher certificates, and minimum provenance. The

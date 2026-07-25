@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 40
+manifest_revision: 42
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -370,10 +370,10 @@ lanes:
     Negative, boundary and representation papers may mature before every positive dependency.
     Each package declares exactly which upstream results it consumes.
   current_objective: >-
-    Keep the complete paper-opportunity portfolio moving while concentrating the foundational
-    swing on DU-PAPER-007: an implementation-complete physical process instrument, frozen
-    physical-refinement class, full provenance, finite separating intervention and calibrated
-    finite-shot null.
+    Keep the complete paper-opportunity portfolio moving through a two-horizon allocation:
+    independently proof-review and collision-harden the surviving DU-PAPER-013 CSG tail theorem
+    as the closest new paper, while screening implementation-complete public evidence packets
+    for the higher-ceiling DU-PAPER-007 physical sufficiency flagship.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1554,6 +1554,48 @@ concentrated_paper_closing_program:
     mathematics, the compiler implements HC-DU-036B and tests H-CCR-13/14 without finding a
     remainder, and the clock gate sharpens H-CCR-11. Existing Drafting Factory seeds remain
     unselected; no source priority change was written into Factory state.
+three_paper_advance:
+  status: completed_csg_core_survives__physical_contract_incomplete
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: accept the recommended three-paper orchestration, advance the post-ready
+    bounded paper, proof-or-kill DU-PAPER-013, and execute one implementation-complete physical
+    arm of DU-PAPER-007.
+  run_plan_ref: lab/process/runs/RUN-20260725-150819-three-paper-advance/run-plan.md
+  csg_receipt_ref: explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
+  csg_probe_ref: tests/du_csg_post_tail_uniformity_probe.py
+  csg_artifact_ref: tests/artifacts/du_csg_post_tail_uniformity_result.json
+  csg_artifact_sha256: d4f8ce7bd597aa61238849a9fe567713bf4d7385d92904303912141e303eda82
+  csg_result: >-
+    DU-PAPER-013 survives narrowly. For eventually decreasing positive adjacent coupling ratios
+    regularly varying with index -alpha<0, the post transform obeys one bounded-precursor
+    uniform scale b_P/P with P*r_(b_P)~b_P. Power-ratio tails induce exponent
+    -alpha/(alpha+1); the factorial half-power is the alpha=1 class. Constant-ratio,
+    logarithmic, finite-support and sparse boundaries are explicit, and 8/8 deterministic
+    checks pass. The post map, fixed points, broad convergence, sparse nonconvergence and
+    factorial half-power are occupied. Causal-set novelty is provisionally unabsorbed, pending
+    independent proof review and general binomial-transform/regular-variation collision.
+  physical_receipt_ref: >-
+    explorations/implementation-complete-physical-interventional-sufficiency-arm-2026-07-25.md
+  physical_probe_ref: tests/du_physical_interventional_sufficiency_probe.py
+  physical_artifact_ref: >-
+    tests/artifacts/du_physical_interventional_sufficiency_result.json
+  physical_artifact_sha256: 9e13a71c84f8713ac3ba4a5dc343bc9206bdecc02d7e81773720df8336f28531
+  physical_result: >-
+    DU-PAPER-007 reaches INCOMPLETE_CONTRACT on a real published trapped-ion quantum instrument.
+    Its linked Zenodo record is explicitly figure-source data and does not expose the
+    calibration-linked trial, invalid-trial, controller, provenance, joint-uncertainty,
+    ordered-repeat and causal-break record required for finite-shot interventional sufficiency.
+    The 22/22 gate preserves the physical premise, proves two exact aggregation losses and emits
+    a four-table reopening packet. It earns no factorization, remainder or new-physics verdict.
+  paper_allocation: >-
+    DU-PAPER-013 is the closest new-paper route and moves to independent proof and general
+    novelty hardening. DU-PAPER-007 remains the higher-ceiling flagship and moves to
+    pre-verdict public-evidence screening. Existing Factory seeds remain unselected.
+  nonpromotion: >-
+    No theorem novelty, physical law, record-first ontology, causal-set cosmology, paper
+    readiness, Factory production activation, submission, publication or external action is
+    inferred from this run.
 physical_history_certificate_transfer_swing:
   status: completed_scoped_matrix_protocol_transfer
   date: '2026-07-24'
@@ -3432,3 +3474,28 @@ provenance:
     implementation-complete physical interventional-sufficiency arm for DU-PAPER-007. No theorem
     ID, hypothesis, concept ID, law, prediction, ontology, standalone paper, Factory priority,
     production state, submission, publication or external action changed.
+  rev41_note: >-
+    2026-07-25 (CapacityOS operating-locator compatibility): exposed the shared operating
+    architecture locator as an additive compatibility extension pointing back to Dynamic
+    Unity's existing START-HERE, README and LANES state. The repository remains manual and
+    outside the registered fleet. No scientific lane, channel, evidence grade, automation,
+    routing, cadence, System authority or research priority changed.
+  rev42_note: >-
+    2026-07-25 (Joe direct chat: orchestrate all three recommended paper moves): packaged the
+    already post-ready covariant-finality note in Drafting Factory without changing its science;
+    proof-or-killed DU-PAPER-013 and retained a bounded-precursor regular-ratio CSG theorem with
+    provisional causal-set novelty; and ran DU-PAPER-007 against a published trapped-ion
+    instrument, returning INCOMPLETE_CONTRACT because its open record is figure-source rather
+    than trial/calibration resolved. Lane 7 now uses a two-horizon allocation: independent proof
+    and general-collision hardening for the nearer CSG paper, and pre-verdict public-evidence
+    screening for the higher-ceiling physical sufficiency flagship. No theorem novelty, new
+    physics, ontology, production activation, submission, publication or external action is
+    promoted.
+extensions:
+  operating_architecture:
+    contract_version: "1.0"
+    operating_contract_refs: ["START-HERE.md"]
+    work_state_refs: ["README.md", "START-HERE.md", "LANES.yaml"]
+    channel_contract_refs: []
+    lane_a_portfolio_refs: ["LANES.yaml"]
+    return_contract_refs: ["START-HERE.md"]
