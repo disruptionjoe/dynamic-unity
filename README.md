@@ -137,6 +137,8 @@ freely; findings transfer only with their grade labels attached, never as doctri
 
 - **Authoritative scientific agenda:** `docs/certified-causal-reality-research-program.md`
 - **Lanes and live work:** `LANES.yaml`
+- **Quantum-foundations distinctions and cheap-test router:**
+  `docs/quantum-foundations-orientation-surface.md`
 - **Triple-diamond design receipt:**
   `explorations/science-council-certified-causal-reality-triple-diamond-2026-07-24.md`
 - **Live concept families and exact grades:** `explorations/concept-register.md`
@@ -172,6 +174,8 @@ load-bearing until rechecked here at a declared grade. The full role map is in
 - **Agent-facing governance and method:** `AGENTS.md`
 - **Lanes and channels (machine-readable):** `LANES.yaml`
 - **Certified Causal Reality agenda:** `docs/certified-causal-reality-research-program.md`
+- **Quantum-foundations orientation and cheap-test router:**
+  `docs/quantum-foundations-orientation-surface.md`
 - **Paper opportunities, overlaps, and work remaining:**
   `papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md`
 - **Sibling connections and the self-verification rule:** `CONNECTIONS.md`

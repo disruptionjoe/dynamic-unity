@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 33
+manifest_revision: 34
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -21,6 +21,14 @@ lane_design_note: >-
   gates.
 active_hardening_program_ref: >-
   docs/certified-causal-reality-research-program.md
+research_orientation_ref: >-
+  docs/quantum-foundations-orientation-surface.md
+research_orientation_note: >-
+  Non-authoritative routing surface for quantum-foundations object types,
+  Spekkens-style psi-ontology distinctions, conditional no-go boundaries,
+  discrepancy families and the cheapest current Dynamic Unity tests. It is
+  consulted before central quantum/foundations reprioritization but does not
+  replace LANES, the agenda, registers, claim grades or paper custody.
 active_hardening_program_note: >-
   HC-DU-033 through HC-DU-040 define the prospective Certified Causal Reality theorem,
   certification, sufficiency, reconstruction, transfer and recovery spine. HC-DU-001 through
@@ -89,7 +97,12 @@ active_hardening_program_note: >-
   multi-time continuations while quotienting an implementation-phase rival; authenticated
   occurrence validity is separately distinguished from cross-route value identity. Robust
   physical identity selection, sparse scaling and recursive vector-defect composition remain
-  open.
+  open. Revision 34 installs a non-flattening quantum-foundations orientation surface. It
+  separates operational frameworks, ontological models, interpretations, causal models,
+  emergence mechanisms, dynamical modifications and conditional no-go theorems; preserves
+  psi-ontic, psi-epistemic, psi-complete, psi-supplemented, contextuality and locality as
+  distinct questions; and routes twelve discrepancy families to the cheapest current DU
+  probes or a named missing test. The surface has no claim, priority, lane or paper authority.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -2204,9 +2217,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 32.
+    routing is the root lanes key at manifest revision 34.
 provenance:
-  revision: 32
+  revision: 34
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -2276,7 +2289,11 @@ provenance:
     physical-interface swing, classifies the finite abelian fixed center and complementary
     environment access certificate, proves coherent decoding versus branch-dephasing erasure,
     constructs the full qubit Pauli stability--formation rectangle, and routes the result to the
-    physical conditions that can shrink it
+    physical conditions that can shrink it; rev29--33 (Joe direct chat, 2026-07-25) install the
+    standard-quantum absorption boundary, recursive regional descent, endogenous/noisy
+    composition, exact multitime marginal transfer, the operational-theory landscape and typed
+    overlap identity; rev34 (Joe direct chat, 2026-07-25) installs the non-authoritative
+    quantum-foundations orientation and cheap-test router without changing scientific priority.
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -2625,3 +2642,15 @@ provenance:
     composition remain open. No new Bell/GPT result, generalized causal theory, physical law,
     prediction, ontology, paper priority, Factory state, draft, submission, publication or
     external action is established.
+  rev34_note: >-
+    2026-07-25 (Joe direct chat: preserve Robert Spekkens' psi-epistemic, psi-ontic and adjacent
+    discrepancy tools without flattening them, identify cheap tests, and make the orientation
+    available to agents making prioritization decisions): installed a non-authoritative
+    quantum-foundations orientation surface. It separates ten scientific object types, gives
+    ontological-model claims a formal lambda/mu/xi passport, keeps psi ontology, completeness,
+    generalized contextuality and Bell locality independent, and states PBR only under its
+    ontic-state and independent-preparation assumptions. Twelve discrepancy families now route
+    to current exact probes or six explicitly missing small tests, with escalation conditions
+    and canonical output destinations. No hypothesis, claim, prediction, ontology, lane
+    priority, paper custody, Factory state, draft, submission, publication or external action
+    changed.
