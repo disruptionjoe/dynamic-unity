@@ -1,0 +1,1096 @@
+{
+  "as_of_date": "2026-07-24",
+  "claim_grade": "PORTFOLIO AUDIT / FACTORY-SEED READINESS IS NOT SCIENTIFIC OR MANUSCRIPT READINESS",
+  "completeness_boundary": "Candidate families exposed by the active theorem spine and publishable ladder, exact-result packages, prediction register, concept register, prior repo-wide paper assessment, existing Dynamic Unity Factory entries, and stopped or transferred branches.",
+  "coverage_map": {
+    "concept_register": {
+      "CONCEPT-DU-001": [
+        "DU-PAPER-002",
+        "DU-PAPER-013",
+        "DU-PAPER-014",
+        "DU-PAPER-018"
+      ],
+      "CONCEPT-DU-002": [
+        "DU-PAPER-011",
+        "DU-PAPER-015"
+      ],
+      "CONCEPT-DU-003": [
+        "DU-PAPER-016",
+        "DU-PAPER-023"
+      ],
+      "CONCEPT-DU-004": [
+        "DU-PAPER-007",
+        "DU-PAPER-012",
+        "DU-PAPER-019"
+      ],
+      "CONCEPT-DU-005": [
+        "DU-PAPER-019"
+      ],
+      "CONCEPT-DU-006": [
+        "DU-PAPER-009"
+      ],
+      "CONCEPT-DU-007": [
+        "DU-PAPER-020"
+      ],
+      "CONCEPT-DU-008": [
+        "DU-PAPER-021"
+      ],
+      "CONCEPT-DU-009": [
+        "DU-PAPER-022"
+      ],
+      "CONCEPT-DU-010": [
+        "DU-PAPER-023"
+      ]
+    },
+    "existing_factory_dynamic_unity_entries": [
+      "DU-PAPER-001",
+      "DU-PAPER-002"
+    ],
+    "exact_result_packages": [
+      "DU-PAPER-001",
+      "DU-PAPER-003",
+      "DU-PAPER-004",
+      "DU-PAPER-005",
+      "DU-PAPER-006",
+      "DU-PAPER-007",
+      "DU-PAPER-008",
+      "DU-PAPER-009",
+      "DU-PAPER-013",
+      "DU-PAPER-015",
+      "DU-PAPER-016",
+      "DU-PAPER-017",
+      "DU-PAPER-018"
+    ],
+    "prediction_register": [
+      "DU-PAPER-024",
+      "DU-PAPER-025"
+    ],
+    "prior_repo_wide_top_three": [
+      "DU-PAPER-003",
+      "DU-PAPER-007",
+      "DU-PAPER-009"
+    ],
+    "publishable_output_ladder": [
+      "DU-PAPER-006",
+      "DU-PAPER-007",
+      "DU-PAPER-009",
+      "DU-PAPER-010",
+      "DU-PAPER-011",
+      "DU-PAPER-012",
+      "DU-PAPER-027"
+    ],
+    "stopped_merged_or_transferred_branches": [
+      "DU-PAPER-005",
+      "DU-PAPER-006",
+      "DU-PAPER-008",
+      "DU-PAPER-018",
+      "DU-PAPER-022",
+      "DU-PAPER-023",
+      "DU-PAPER-025",
+      "DU-PAPER-026"
+    ]
+  },
+  "factory_contract": {
+    "hardening_request_default": "none",
+    "production_state_default": "unselected",
+    "seed_is": "A cheap publication-opportunity pointer with an owning source, possible contribution, evidence, grade, open conditions, audience, and overlap.",
+    "seed_is_not": "A novelty verdict, claim promotion, drafting authorization, production activation, manuscript-readiness judgment, submission, or publication."
+  },
+  "factory_proposal_batch_if_separately_authorized": {
+    "merge_review_proposals": [
+      "DU-PAPER-004",
+      "DU-PAPER-024"
+    ],
+    "standalone_proposals": [
+      "DU-PAPER-003",
+      "DU-PAPER-007",
+      "DU-PAPER-009",
+      "DU-PAPER-013",
+      "DU-PAPER-015",
+      "DU-PAPER-016",
+      "DU-PAPER-017"
+    ]
+  },
+  "manuscript_distance_definitions": {
+    "dependency_program": "Several load-bearing scientific dependencies must land before a defensible manuscript exists.",
+    "factory_post_ready": "The Drafting Factory already records a completed internal paper package.",
+    "not_standalone": "The result is better merged into a named candidate or transferred to another owner.",
+    "one_source_hardening_swing": "One concentrated theorem, novelty, or scope-hardening swing could produce a defensible source packet.",
+    "two_to_three_source_swings": "Two or three distinct source-owned theorem, transfer, empirical, or novelty jobs remain.",
+    "unknown_until_clarified": "A bounded clarification must first determine what the paper would actually claim."
+  },
+  "portfolio_version": "1.0",
+  "seed_status_definitions": {
+    "already_factory_post_ready": "The Factory already records the paper package as post-ready.",
+    "already_factory_seeded": "The Factory already holds the cheap seed; do not duplicate it.",
+    "merge_candidate_not_standalone": "The material is real but should merge into a named candidate unless a later novelty result separates it.",
+    "one_bounded_clarification": "One source-owned clarification is needed before the opportunity is credible and sortable enough to propose.",
+    "proposal_complete_not_sent": "All cheap seed fields are present in this portfolio; no Factory write has occurred.",
+    "research_result_required": "The current object is a research program or dependency, not yet a credible paper opportunity.",
+    "transfer_to_other_owner": "The idea is paper-shaped but its research truth belongs to another source owner or existing Factory candidate."
+  },
+  "source_revision": "63a50a212d789797b6e21c0f3cf109ae7d34ecbe",
+  "candidates": [
+    {
+      "audience": "Quantum foundations and philosophy of physics",
+      "contribution": "A relocation-grade causal-order account of finality that removes the preferred-foliation question without claiming new collapse dynamics.",
+      "current_grade": "Factory post-ready at relocation grade; block-compatible and empirically equivalent to ordinary quantum mechanics.",
+      "evidence_refs": [
+        "explorations/covariant-finality-collapse-synthesis-2026-07-21.md",
+        "explorations/covariant-finality-collapse-adversarial-kill-2026-07-21.md"
+      ],
+      "factory_snapshot": "DU-SEED-COVARIANT-FINALITY; Factory records post-ready package.",
+      "factory_state": "post_ready_external_factory",
+      "family": "existing_factory",
+      "hardening_request": "none",
+      "id": "DU-PAPER-001",
+      "manuscript_distance": "factory_post_ready",
+      "manuscript_load_bearing_gaps": [],
+      "manuscript_swings_estimate": "0",
+      "negative_result_value": "The explicit block-compatible ceiling is part of the paper rather than a failure.",
+      "novelty_boundary": "No AQFT-net embedding, Born rule, single-outcome theorem, objective becoming, or new prediction.",
+      "overlap_ids": [
+        "DU-PAPER-024"
+      ],
+      "recommended_action": "Do not duplicate or reopen. Preserve the Factory package and source-grade boundary.",
+      "seed_status": "already_factory_post_ready",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Collapse Without a Preferred Now: Finality on Causal Order"
+    },
+    {
+      "audience": "Foundations of physics, mathematical physics, and scientific methodology",
+      "contribution": "A unified no-go/research-program account of why fixed sets and fixed operators supply structure but do not select a particular scale, value, type, or source-internal novelty.",
+      "current_grade": "High-conviction existing Factory seed; exact and constructive antecedents are heterogeneous and theorem-versus-synthesis posture remains open.",
+      "evidence_refs": [
+        "explorations/rtest-wave-synthesis-2026-07-21.md",
+        "explorations/wave2-flagship-convergence-synthesis-2026-07-21.md",
+        "explorations/spectral-flow-source-adversarial-kill-2026-07-21.md"
+      ],
+      "factory_snapshot": "DU-SEED-STRUCTURE-PARTICULAR-WALL; high-conviction seed, unselected.",
+      "factory_state": "existing_seed_unselected",
+      "family": "existing_factory",
+      "hardening_request": "none",
+      "id": "DU-PAPER-002",
+      "manuscript_distance": "two_to_three_source_swings",
+      "manuscript_load_bearing_gaps": [
+        "Choose a theorem, no-go family, or explicitly synthetic paper form.",
+        "Complete a claim-specific prior-art collision review.",
+        "Separate the imported Sorkin scaling and every superseded GU bridge."
+      ],
+      "manuscript_swings_estimate": "2-3",
+      "negative_result_value": "A scoped fixed-completion or operational-undecidability theorem would be a successful paper.",
+      "novelty_boundary": "Never present Lambda~1/sqrt(N) magnitude, sigma=w1, or computational irreducibility as a DU derivation.",
+      "overlap_ids": [
+        "DU-PAPER-017",
+        "DU-PAPER-018"
+      ],
+      "recommended_action": "Do not duplicate. If the Factory activates it, return a narrowed theorem-versus-synthesis packet.",
+      "seed_status": "already_factory_seeded",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Scale-Free Laws Source Structure, Not Particulars"
+    },
+    {
+      "audience": "Quantum information, quantum cellular automata, and foundations",
+      "contribution": "A covariant finite quantum recorder/archive construction paired with a nonselection theorem and a quantitative record-disturbance-support obstruction.",
+      "current_grade": "Exact finite construction, covariance, obstruction, complementarity, archive, boundary, and executable controls; approximate tradeoff and novelty search open.",
+      "evidence_refs": [
+        "explorations/covariant-recorder-naturalization-swing-2026-07-24.md",
+        "explorations/covariant-archive-boundary-swing-2026-07-24.md",
+        "tests/du_covariant_recorder_naturality_probe.py",
+        "tests/du_covariant_archive_boundary_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
+      "factory_state": "unselected",
+      "family": "clock_qca_records",
+      "hardening_request": "none",
+      "id": "DU-PAPER-003",
+      "manuscript_distance": "one_source_hardening_swing",
+      "manuscript_load_bearing_gaps": [
+        "Broad primary-literature collision review.",
+        "A tight approximate/noisy record-disturbance-support or archive-cost theorem.",
+        "Independent proof and tightness audit."
+      ],
+      "manuscript_swings_estimate": "1",
+      "negative_result_value": "A collision map that identifies the exact absorbing theorem prevents a weak submission.",
+      "novelty_boundary": "The paper must add a sharp approximate tradeoff or construction-obstruction conjunction, not repackage no-information-without-disturbance.",
+      "overlap_ids": [
+        "DU-PAPER-004"
+      ],
+      "recommended_action": "Prepare a cheap Factory seed proposal now; rank first for source hardening if paper proximity is the objective.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Covariant Records Are Not Free"
+    },
+    {
+      "audience": "Quantum information, foundations, and philosophy of physical representation",
+      "contribution": "A restricted boundary-relocation invariance theorem characterizing which observations survive moving a recorder into an enlarged state and when later access changes capability.",
+      "current_grade": "Exact finite diagonal-algebra relocation and reunion controls inside the Clock-QCA archive fixture; general invariant class open.",
+      "evidence_refs": [
+        "explorations/covariant-archive-boundary-swing-2026-07-24.md",
+        "explorations/covariant-archive-boundary-adversarial-audit-2026-07-24.md",
+        "tests/du_covariant_archive_boundary_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
+      "factory_state": "unselected",
+      "family": "boundary_and_capability",
+      "hardening_request": "none",
+      "id": "DU-PAPER-004",
+      "manuscript_distance": "one_source_hardening_swing",
+      "manuscript_load_bearing_gaps": [
+        "State the maximal preserved observational algebra or channel class.",
+        "Prove the capability corollary under declared later interventions.",
+        "Decide standalone theorem versus section of DU-PAPER-003."
+      ],
+      "manuscript_swings_estimate": "1",
+      "negative_result_value": "A counterexample showing no stronger boundary invariant exists in the class is publishable theorem-boundary material.",
+      "novelty_boundary": "Boundary relocation is representation-relative; it does not prove that the environment is unreal or that records are fundamental.",
+      "overlap_ids": [
+        "DU-PAPER-003",
+        "DU-PAPER-010"
+      ],
+      "recommended_action": "Prepare a seed now but flag likely merge with DU-PAPER-003 for Factory deduplication.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Boundary Relocation, Record Access, and Capability"
+    },
+    {
+      "audience": "Category theory, information theory, and formal foundations",
+      "contribution": "An exact finite universal surviving quotient and coalition-access calculus for supplied symmetry, post-write maps, and deterministic access relations.",
+      "current_grade": "Exact 25/25 finite Set-level result with novelty audit classifying the mathematics as standard.",
+      "evidence_refs": [
+        "explorations/hc-du-033-record-selection-quotient-theorem-2026-07-24.md",
+        "explorations/hc-du-033-record-selection-novelty-audit-2026-07-24.md",
+        "tests/du_record_selection_quotient_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "known_component",
+      "hardening_request": "none",
+      "id": "DU-PAPER-005",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "A novel structured, noncommutative, quantum, or adversarial extension.",
+        "A physical record-formation result rather than supplied-interface bookkeeping."
+      ],
+      "manuscript_swings_estimate": "n/a unless extended",
+      "negative_result_value": "The destructive local-first versus joint-first hardening counterexample is a valuable section and control.",
+      "novelty_boundary": "Do not market standard quotient and information-lattice facts as a new record-selection theorem.",
+      "overlap_ids": [
+        "DU-PAPER-007",
+        "DU-PAPER-012"
+      ],
+      "recommended_action": "Retain as a merge module for DU-PAPER-007 or DU-PAPER-012; do not propose a standalone seed now.",
+      "seed_status": "merge_candidate_not_standalone",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Name a genuinely novel extension before reconsidering standalone intake."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Finite Record Selection and Coalition Access Quotients"
+    },
+    {
+      "audience": "Distributed systems, quantum information, and foundations of objectivity",
+      "contribution": "A typed separation theorem showing that reconstruction, finality, capability, dissemination, and objectivity do not share one universal threshold.",
+      "current_grade": "Exact 23/23 quorum, common-shock, Blackwell, metastability, and quantum-access controls; component mathematics and static cross-domain conjunction are occupied.",
+      "evidence_refs": [
+        "explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md",
+        "explorations/hc-du-035a-layered-threshold-novelty-audit-2026-07-24.md",
+        "tests/du_layered_threshold_objectivity_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "known_component",
+      "hardening_request": "none",
+      "id": "DU-PAPER-006",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "One unchanged nontrivial theorem across quantum and adversarial distributed fixtures.",
+        "A physically formed distinction or new necessary-and-sufficient condition."
+      ],
+      "manuscript_swings_estimate": "n/a unless extended",
+      "negative_result_value": "The rejection of a universal scalar objectivity threshold is a strong framing and control section.",
+      "novelty_boundary": "Known quorum, Blackwell, SBS/QD, secret-sharing, and threshold results must not be presented as new.",
+      "overlap_ids": [
+        "DU-PAPER-009",
+        "DU-PAPER-010",
+        "DU-PAPER-022"
+      ],
+      "recommended_action": "Merge into higher-order finality or formation-to-finality; do not seed standalone at current novelty grade.",
+      "seed_status": "merge_candidate_not_standalone",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Obtain a cross-platform theorem that uses the typed separation essentially."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Why Objectivity Has No Single Threshold"
+    },
+    {
+      "audience": "Formal methods, quantum processes, system identification, and foundations",
+      "contribution": "A proof-carrying factorization, minimal-refinement, finite-remainder, or incomplete-contract trichotomy for certified causal histories.",
+      "current_grade": "Exact finite deterministic and finite-linear closure/witness baselines; no size-free horizon; physical completion class and cross-platform lift open.",
+      "evidence_refs": [
+        "explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md",
+        "explorations/cross-repo-hardening-integration-2026-07-24.md",
+        "tests/du_council_orthodox_factorization_witness_probe.py",
+        "tests/du_council_wild_frontier_interventional_closure_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
+      "factory_state": "unselected",
+      "family": "certified_causal_reality",
+      "hardening_request": "none",
+      "id": "DU-PAPER-007",
+      "manuscript_distance": "two_to_three_source_swings",
+      "manuscript_load_bearing_gaps": [
+        "Freeze a finite or finitely generated target-independent completion class.",
+        "Build and independently verify the proof-carrying compiler.",
+        "Carry one statement unchanged through authenticated distributed and routed quantum fixtures.",
+        "Complete claim-specific novelty review against automata, Blackwell, process tensors, and system identification."
+      ],
+      "manuscript_swings_estimate": "2-3",
+      "negative_result_value": "A no-uniform-certification theorem, finite-basis lower bound, or incomplete-contract theorem remains paper-shaped.",
+      "novelty_boundary": "A candidate-record witness is not an irreducible ontology result; the completion class must do real work.",
+      "overlap_ids": [
+        "DU-PAPER-005",
+        "DU-PAPER-008",
+        "DU-PAPER-012"
+      ],
+      "recommended_action": "Prepare a cheap Factory seed now; rank first for flagship upside, second for shortest paper path.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Interventional Record Sufficiency"
+    },
+    {
+      "audience": "Quantum metrology, quantum clocks, and quantum foundations",
+      "contribution": "A signed all-port channel witness that separates coherent implemented histories from classical mixtures while keeping every outcome and provenance field.",
+      "current_grade": "Exact two-history analytic control; recent proper-time channel-certification literature strongly overlaps; platform-specific robust novelty absent.",
+      "evidence_refs": [
+        "explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md",
+        "docs/certified-causal-reality-research-program.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "proper_time_and_history",
+      "hardening_request": "none",
+      "id": "DU-PAPER-008",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "Name a platform-level observable or resource advantage not absorbed by current proper-time certification proposals.",
+        "Freeze a calibrated convex instrument null and error budget.",
+        "Demonstrate distinct novelty rather than another coherent-history witness."
+      ],
+      "manuscript_swings_estimate": "n/a until distinct prediction",
+      "negative_result_value": "A precise collision showing which finite signals can always be simulated by classical history mixtures is valuable inside DU-PAPER-007.",
+      "novelty_boundary": "Dephasing, frequency shifts, and a two-port coherence statistic alone do not establish a new proper-time paper.",
+      "overlap_ids": [
+        "DU-PAPER-007",
+        "DU-PAPER-024"
+      ],
+      "recommended_action": "Merge the assay into DU-PAPER-007 unless a genuinely distinct clock-platform prediction appears.",
+      "seed_status": "merge_candidate_not_standalone",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Identify a non-colliding platform contribution."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Certifying Coherent Causal Histories"
+    },
+    {
+      "audience": "Distributed systems, QEC, category theory, databases, and quantum information",
+      "contribution": "A cross-domain theorem relating loop obstructions, noninvertible reconciliation, safe action algebras, higher certificates, and minimum authenticated provenance.",
+      "current_grade": "Exact reversible finite holonomy, fixed-algebra, frustration, project-or-lift, and cycle-lift baseline; noisy/noninvertible and cross-platform theorem open.",
+      "evidence_refs": [
+        "explorations/science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md",
+        "tests/du_holonomy_finality_provenance_probe.py",
+        "explorations/technical-lens-hypothesis-panel-quadratic-vote-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found in the current read-only snapshot.",
+      "factory_state": "unselected",
+      "family": "public_finality",
+      "hardening_request": "none",
+      "id": "DU-PAPER-009",
+      "manuscript_distance": "two_to_three_source_swings",
+      "manuscript_load_bearing_gaps": [
+        "Extend to finite noninvertible/noisy maps and approximate safe algebras.",
+        "Prove what higher certificate relations actually fill a loop syndrome.",
+        "Instantiate one unchanged theorem in BFT/DAG and QEC/routed-quantum fixtures.",
+        "Separate the result from mature group action, cohomology, QEC, and consensus mathematics."
+      ],
+      "manuscript_swings_estimate": "2-3",
+      "negative_result_value": "A precise non-equivalence theorem locating where consensus, serializability, and QEC diverge is publishable.",
+      "novelty_boundary": "The current coherent route phase is absorbed by implementation provenance and is not physical perspectival curvature.",
+      "overlap_ids": [
+        "DU-PAPER-006",
+        "DU-PAPER-010",
+        "DU-PAPER-022"
+      ],
+      "recommended_action": "Prepare a cheap Factory seed now; rank third in the current repo-wide paper slate.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Higher-Order Public Finality"
+    },
+    {
+      "audience": "Information thermodynamics, distributed systems, quantum information, and decision theory",
+      "contribution": "A matched-resource necessary-and-sufficient law for when stronger finality creates strict bounded-risk capability and what support, work, trust, or coherent optionality it consumes.",
+      "current_grade": "Prospective HC-DU-035B/037 theorem family; exact capability typing and resource controls exist, but no physically formed distinction is yet available to price.",
+      "evidence_refs": [
+        "docs/certified-causal-reality-research-program.md",
+        "lab/process/cross-repo-hardening-control-contract.md",
+        "explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "capability_and_resources",
+      "hardening_request": "none",
+      "id": "DU-PAPER-010",
+      "manuscript_distance": "two_to_three_source_swings",
+      "manuscript_load_bearing_gaps": [
+        "Freeze one action task and complete matched resource frame.",
+        "Obtain a formed private or synergy-only distinction from DU-PAPER-007 or DU-PAPER-009.",
+        "Prove a lower bound and matching construction across unlike fixtures.",
+        "Beat ordinary Landauer, communication, and verification accounting."
+      ],
+      "manuscript_swings_estimate": "2-3",
+      "negative_result_value": "An absorber theorem showing all proposed actualization cost is ordinary accounting would sharply close the stronger law.",
+      "novelty_boundary": "Do not call precision, entanglement, redundancy, extra access, or a changed decoder a matched capability gain.",
+      "overlap_ids": [
+        "DU-PAPER-004",
+        "DU-PAPER-009",
+        "DU-PAPER-021"
+      ],
+      "recommended_action": "Run one bounded claim-freezing swing before proposing a Factory seed.",
+      "seed_status": "one_bounded_clarification",
+      "seed_swings_estimate": "1",
+      "seed_work_remaining": [
+        "Choose the first formed distinction and state the exact matched-frame theorem target."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Finality, Capability, and Coherent Optionality"
+    },
+    {
+      "audience": "Causal inference, mathematical physics, causal sets, and geometry",
+      "contribution": "A reconstruction and nonuniqueness theorem for effective temporal and geometric structure from record acquisition, provenance, and operational reachability.",
+      "current_grade": "Prospective HC-DU-038 program with exact refinement warnings and finite clock/topology controls; no reconstruction uniqueness theorem or held-out geometry.",
+      "evidence_refs": [
+        "docs/certified-causal-reality-research-program.md",
+        "explorations/concept-register.md",
+        "explorations/cross-repo-hardening-integration-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "geometry",
+      "hardening_request": "none",
+      "id": "DU-PAPER-011",
+      "manuscript_distance": "dependency_program",
+      "manuscript_load_bearing_gaps": [
+        "Freeze a noncircular meta-record object and benign refinement category.",
+        "Construct nonisomorphic geometries with identical records.",
+        "Add minimal assumptions until uniqueness up to gauge is proved.",
+        "Predict held-out geometric observables not used in reconstruction."
+      ],
+      "manuscript_swings_estimate": "3+",
+      "negative_result_value": "A minimal nonuniqueness theorem identifying exactly what provenance cannot reconstruct is paper-shaped.",
+      "novelty_boundary": "Causal order alone, relay count, path length, or imported density is not a new geometry reconstruction.",
+      "overlap_ids": [
+        "DU-PAPER-015",
+        "DU-PAPER-019",
+        "DU-PAPER-020"
+      ],
+      "recommended_action": "Keep in research until one theorem or countermodel exists; do not send a raw agenda seed.",
+      "seed_status": "research_result_required",
+      "seed_swings_estimate": "2+",
+      "seed_work_remaining": [
+        "Produce the first assumption-minimal reconstruction or nonuniqueness theorem."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Meta-Record Geometry"
+    },
+    {
+      "audience": "Foundations of physics, quantum information, distributed systems, and philosophy of science",
+      "contribution": "The umbrella Certified Causal Reality theory: determine when certified causal histories reconstruct observer-accessible reality and when a finite physical remainder is indispensable.",
+      "current_grade": "Program charter and open central conjecture; several exact finite antecedents, but physical record formation, cross-platform sufficiency, finality law, and geometry remain open.",
+      "evidence_refs": [
+        "docs/certified-causal-reality-research-program.md",
+        "README.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "certified_causal_reality",
+      "hardening_request": "none",
+      "id": "DU-PAPER-012",
+      "manuscript_distance": "dependency_program",
+      "manuscript_load_bearing_gaps": [
+        "Complete at least the interventional-sufficiency and public-finality theorem families.",
+        "Carry one typed statement across quantum and distributed fixtures without refitting.",
+        "Select or classify physical record formation and interface.",
+        "Complete a broad novelty and ontology-license audit."
+      ],
+      "manuscript_swings_estimate": "4+",
+      "negative_result_value": "A decisive physics-first remainder theorem can support the umbrella even if record-first reconstruction fails.",
+      "novelty_boundary": "The charter is not itself a theory result, manifesto, or evidence for record-first ontology.",
+      "overlap_ids": [
+        "DU-PAPER-007",
+        "DU-PAPER-009",
+        "DU-PAPER-010",
+        "DU-PAPER-011"
+      ],
+      "recommended_action": "Do not seed the umbrella until at least two theorem families and cross-platform transfer survive.",
+      "seed_status": "research_result_required",
+      "seed_swings_estimate": "3+",
+      "seed_work_remaining": [
+        "Land the minimum theorem spine named in the publishable output ladder."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Certified Causal Reality"
+    },
+    {
+      "audience": "Causal-set theory, stochastic processes, and mathematical physics",
+      "contribution": "A precise tail-class theorem for post-conditioned CSG couplings, including the alpha/(alpha+1) exponent family and the correction that the physical post sector begins at T1.",
+      "current_grade": "Exact known post map locally reproduced; factorial half-power conditionally entailed; multi-tail asymptotic and finite controls obtained; novelty collision incomplete.",
+      "evidence_refs": [
+        "explorations/science-council-five-persona-successor-wave-synthesis-2026-07-24.md",
+        "tests/du_successor_heterodox_post_rg_half_power_probe.py",
+        "tests/du_successor_wild_frontier_post_tail_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "causal_set_growth",
+      "hardening_request": "none",
+      "id": "DU-PAPER-013",
+      "manuscript_distance": "one_source_hardening_swing",
+      "manuscript_load_bearing_gaps": [
+        "Exhaust the causal-set post-renormalization literature around tail classes.",
+        "Prove the asymptotic uniformly under explicit sequence conditions.",
+        "Separate the new theorem from the known post semigroup and transitive-percolation basin.",
+        "Add tight counterfamilies and numerical figures."
+      ],
+      "manuscript_swings_estimate": "1",
+      "negative_result_value": "A proof that the apparent half-power is not universal and exactly classifies its tail dependence is independently valuable.",
+      "novelty_boundary": "The post map and transitive-percolation attraction are known; Lambda, curvature, recurrence, and physical scale are not derived.",
+      "overlap_ids": [
+        "DU-PAPER-014",
+        "DU-PAPER-018"
+      ],
+      "recommended_action": "Prepare a cheap Factory seed now, explicitly at mathematical causal-set grade.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Tail Universality Classes in Causal-Set Post Renormalization"
+    },
+    {
+      "audience": "Causal-set quantum gravity and cosmology",
+      "contribution": "A selected CSG family that jointly generates recurrent posts, nontrivial inherited running, and held-out manifoldlike geometry.",
+      "current_grade": "Open causal-growth program; exact post antecedent exists, but recurrence, selection, held-out geometry, units, and physical response are absent.",
+      "evidence_refs": [
+        "explorations/science-council-five-persona-successor-wave-synthesis-2026-07-24.md",
+        "explorations/causal-memory-order-first-martingale-frontier-2026-07-21.md",
+        "explorations/concept-register.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "causal_set_growth",
+      "hardening_request": "none",
+      "id": "DU-PAPER-014",
+      "manuscript_distance": "dependency_program",
+      "manuscript_load_bearing_gaps": [
+        "Establish post recurrence or generativity in a fixed law family.",
+        "Pass preregistered held-out geometry across multiple estimators.",
+        "Separate inherited memory from online feedback by cross-history intervention.",
+        "Supply units and a physical response before cosmology."
+      ],
+      "manuscript_swings_estimate": "3+",
+      "negative_result_value": "A no-family-survives result under the joint post/running/geometry contract would close a major route.",
+      "novelty_boundary": "A favorable seed, fitted window, imported metric, or selected post history cannot be the result.",
+      "overlap_ids": [
+        "DU-PAPER-013",
+        "DU-PAPER-027"
+      ],
+      "recommended_action": "Keep as research until one fixed family passes the joint gate.",
+      "seed_status": "research_result_required",
+      "seed_swings_estimate": "2+",
+      "seed_work_remaining": [
+        "Produce a fixed-law survivor or a class-level no-go under the joint gate."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Post-Generating Causal Growth and Emergent Geometry"
+    },
+    {
+      "audience": "Foundations of relativity, discrete physics, and distributed systems",
+      "contribution": "A finite gauge-or-witness theorem for hidden global update schedules, paired with a reunion no-go for one-record-per-tick clocks and an exact covariant QCA positive control.",
+      "current_grade": "Five exact finite clock/scheduler probes; G-full delay-only overturned; unrestricted gated scheduling underidentified; fixed-law physical selection open.",
+      "evidence_refs": [
+        "explorations/science-council-five-persona-primitive-record-rate-wave-synthesis-2026-07-24.md",
+        "tests/du_record_rate_orthodox_clock_tournament.py",
+        "tests/du_record_rate_philosopher_clock_ontology_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "record_time",
+      "hardening_request": "none",
+      "id": "DU-PAPER-015",
+      "manuscript_distance": "one_source_hardening_swing",
+      "manuscript_load_bearing_gaps": [
+        "Unify the five finite results into one theorem with an explicit intervention algebra.",
+        "Complete a literature review spanning logical clocks, causal order, Lorentzian causal sets, and discrete covariant models.",
+        "State the maximal scheduler quotient and the smallest physical leakage witness.",
+        "Decide technical theorem note versus broader foundations framing."
+      ],
+      "manuscript_swings_estimate": "1-2",
+      "negative_result_value": "The finite compilation underdetermination and G-full reunion no-go are useful even if no global-clock model is selected.",
+      "novelty_boundary": "Finite fit cannot identify local versus unrestricted gated global time; distance-dependent latency does not cause differential aging.",
+      "overlap_ids": [
+        "DU-PAPER-003",
+        "DU-PAPER-011"
+      ],
+      "recommended_action": "Prepare a cheap Factory seed now for a scoped gauge-or-witness/no-go paper.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Is a Global Update Clock Physical or Gauge?"
+    },
+    {
+      "audience": "Control theory, complex systems, system identification, and philosophy of biology",
+      "contribution": "An intervention-relative system-individuation theorem replacing nonidentifiable hierarchy depth with a minimal role cover or poset modulo redundant refinement.",
+      "current_grade": "Five exact finite constructive/counterexample probes totaling 99/99; physical embedding, general theorem class, and novelty review open.",
+      "evidence_refs": [
+        "explorations/science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md",
+        "tests/du_recursive_viability_philosopher_identifiability_probe.py",
+        "tests/du_recursive_viability_commercial_passport_probe.py"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "observer_and_system_individuation",
+      "hardening_request": "none",
+      "id": "DU-PAPER-016",
+      "manuscript_distance": "one_source_hardening_swing",
+      "manuscript_load_bearing_gaps": [
+        "State a general role-cover identifiability theorem and refinement equivalence.",
+        "Locate prior art in system identification, causal representation, viable systems, and intervention design.",
+        "Demonstrate one non-toy biological, networked, or agent-system specimen.",
+        "Separate system individuation from consciousness or ontology."
+      ],
+      "manuscript_swings_estimate": "1-2",
+      "negative_result_value": "The identity-relay theorem proving raw scalar depth nonidentifiable is independently useful.",
+      "novelty_boundary": "Survival, nesting, Beer S1-S5, or arbitrary hierarchy labels do not identify physical levels.",
+      "overlap_ids": [
+        "DU-PAPER-023",
+        "DU-PAPER-026"
+      ],
+      "recommended_action": "Prepare a cheap Factory seed now, likely for a systems/control rather than fundamental-physics lane.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Systems Without a Privileged Depth"
+    },
+    {
+      "audience": "Foundations of computation, open-ended evolution, and philosophy of physics",
+      "contribution": "A completion-relative theorem showing why finite growth, self-reference, unpredictability, or stage-fixed sources do not by themselves certify genuine open-endedness or physical novelty.",
+      "current_grade": "Multiple exact finite aliasing, fixed-completion, finite-prefix, and oracle controls exist; unified theorem and novelty review remain open.",
+      "evidence_refs": [
+        "explorations/spectral-flow-source-adversarial-kill-2026-07-21.md",
+        "explorations/science-council-five-persona-premise-free-foundational-wave-synthesis-2026-07-24.md",
+        "lab/process/cross-repo-hardening-control-contract.md"
+      ],
+      "factory_snapshot": "No distinct Factory seed found; strong overlap with DU-PAPER-002.",
+      "factory_state": "unselected",
+      "family": "generativity_and_openness",
+      "hardening_request": "none",
+      "id": "DU-PAPER-017",
+      "manuscript_distance": "one_source_hardening_swing",
+      "manuscript_load_bearing_gaps": [
+        "Freeze the admissible completion class and operational novelty predicate.",
+        "Prove a parameterized fixed-completion/productive-escape/incomplete-contract theorem.",
+        "Separate mathematical openness from physical realizability.",
+        "Resolve merge boundary with DU-PAPER-002 and Temporal Issuance."
+      ],
+      "manuscript_swings_estimate": "1-2",
+      "negative_result_value": "An operational undecidability/no-certification theorem is valuable without establishing physical openness.",
+      "novelty_boundary": "Computational non-reducibility is neither empirically certifiable from finite traces nor the definition of physical novelty.",
+      "overlap_ids": [
+        "DU-PAPER-002",
+        "DU-PAPER-007"
+      ],
+      "recommended_action": "Prepare a cheap seed now but request Factory merge review against DU-PAPER-002.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "Finite Records Cannot Certify Open-Endedness"
+    },
+    {
+      "audience": "Mathematical physics, causal sets, complex systems, and cosmology",
+      "contribution": "A negative and constructive account of influence-distribution observables, showing which normalized concentration results are generic and why no dimensionful Lambda follows without a physical selector and unit-bearing response.",
+      "current_grade": "Live influence objects and exact normalization/replication controls constructed; selector, physical identity, scale, and value remain open; standalone proxy route stopped.",
+      "evidence_refs": [
+        "explorations/physical-influence-selector-wave-synthesis-2026-07-24.md",
+        "explorations/science-council-five-persona-next-actions-synthesis-2026-07-24.md",
+        "explorations/concept-register.md"
+      ],
+      "factory_snapshot": "No distinct Factory seed; covered by DU-PAPER-002's structure/particular wall.",
+      "factory_state": "unselected",
+      "family": "influence_and_lambda",
+      "hardening_request": "none",
+      "id": "DU-PAPER-018",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "An independently motivated response, matched embedding, and unit-bearing observable map.",
+        "A reason the detailed object is not merely one more instance of the structure/particular wall."
+      ],
+      "manuscript_swings_estimate": "n/a until physical selector",
+      "negative_result_value": "The no-selector and no-dimensional-scale findings materially strengthen DU-PAPER-002.",
+      "novelty_boundary": "Do not add proxies, coefficients, rho variants, or identify normalized profile shape with dark energy.",
+      "overlap_ids": [
+        "DU-PAPER-002",
+        "DU-PAPER-013",
+        "DU-PAPER-014"
+      ],
+      "recommended_action": "Merge into the existing structure/particular Factory seed; do not create another seed.",
+      "seed_status": "merge_candidate_not_standalone",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Reopen only if a physical selector creates a distinct theorem."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Why Influence Concentration Does Not Yet Explain Lambda"
+    },
+    {
+      "audience": "Quantum foundations, causal inference, category theory, and philosophy of science",
+      "contribution": "A formal theory in which actuality relative to an agent is an equivalence class of admissible histories refined by certified interaction.",
+      "current_grade": "Concept-ledger family with finite completion-class and interventional antecedents; no selected state variable, composition law, or empirical excess.",
+      "evidence_refs": [
+        "explorations/concept-register.md",
+        "explorations/science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md",
+        "lab/process/cross-repo-hardening-control-contract.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "record_relative_actuality",
+      "hardening_request": "none",
+      "id": "DU-PAPER-019",
+      "manuscript_distance": "two_to_three_source_swings",
+      "manuscript_load_bearing_gaps": [
+        "Choose one formal state object and physically formed refinement map.",
+        "Prove invariance, composition, and non-tautological predictive content.",
+        "Construct an ontology-dual null and one finite distinguishing intervention.",
+        "Complete relational-QM, QRF, sheaf, and causal-state collision review."
+      ],
+      "manuscript_swings_estimate": "2-3",
+      "negative_result_value": "An exact underdetermination theorem between record-relative and physics-first models would still be publishable.",
+      "novelty_boundary": "A completion rank computed from target outcomes is a diagnostic, not automatically an ontic state variable.",
+      "overlap_ids": [
+        "DU-PAPER-007",
+        "DU-PAPER-011",
+        "DU-PAPER-012"
+      ],
+      "recommended_action": "Run one formal-core selection swing before Factory intake.",
+      "seed_status": "one_bounded_clarification",
+      "seed_swings_estimate": "1",
+      "seed_work_remaining": [
+        "Select the invariant formal object and state one theorem plus one killing counterexample."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Record-Relative Actuality"
+    },
+    {
+      "audience": "Information theory, network science, distributed systems, and relativity",
+      "contribution": "An operational law or no-go for informational distance defined by authenticated fact-establishment capacity rather than spatial separation.",
+      "current_grade": "Open concept family with rate-distortion, causal-diamond, flow, modular, and identifiability candidates; no selected invariant or theorem.",
+      "evidence_refs": [
+        "explorations/concept-register.md",
+        "explorations/technical-lens-hypothesis-panel-quadratic-vote-2026-07-24.md",
+        "explorations/ten-lens-hypothesis-efficient-approach-registry-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "informational_distance",
+      "hardening_request": "none",
+      "id": "DU-PAPER-020",
+      "manuscript_distance": "two_to_three_source_swings",
+      "manuscript_load_bearing_gaps": [
+        "Freeze the action task, adversary, channel, provenance, and resource frame.",
+        "Select a distance class or prove scalar impossibility by an order-reversal pair.",
+        "Derive achievability and converse on a time-expanded network.",
+        "Show what, if anything, transfers to a physical quantum network."
+      ],
+      "manuscript_swings_estimate": "2-3",
+      "negative_result_value": "A theorem proving that no task-independent scalar informational distance preserves capability order is paper-shaped.",
+      "novelty_boundary": "Ordinary latency, mutual information, graph distance, or unauthenticated channel capacity is not automatically reality bandwidth.",
+      "overlap_ids": [
+        "DU-PAPER-009",
+        "DU-PAPER-011"
+      ],
+      "recommended_action": "Run one metric-class selection or scalar-impossibility swing before Factory intake.",
+      "seed_status": "one_bounded_clarification",
+      "seed_swings_estimate": "1",
+      "seed_work_remaining": [
+        "Name the first exact theorem target and smallest decisive network."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Informational Distance and Reality Bandwidth"
+    },
+    {
+      "audience": "Information thermodynamics, quantum measurement, cryptography, and distributed systems",
+      "contribution": "A lower bound on the irreducible physical cost of turning unresolved distinctions into mutually certified actionable facts.",
+      "current_grade": "Open concept family; known message, memory, verification, Landauer, and metrology costs are strong absorbers; no residual law exists.",
+      "evidence_refs": [
+        "explorations/concept-register.md",
+        "lab/process/cross-repo-hardening-control-contract.md",
+        "explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "actualization_cost",
+      "hardening_request": "none",
+      "id": "DU-PAPER-021",
+      "manuscript_distance": "two_to_three_source_swings",
+      "manuscript_load_bearing_gaps": [
+        "Freeze matched protocols and one operational shared-fact task.",
+        "Build the strongest ordinary accounting null.",
+        "Prove a nonzero residual lower bound or a complete absorption theorem.",
+        "Carry the resource ledger through distributed and quantum constructions."
+      ],
+      "manuscript_swings_estimate": "2-3",
+      "negative_result_value": "A complete absorber theorem reducing actualization cost to ordinary resources would be a useful closure.",
+      "novelty_boundary": "Unresolved-history count, message length, entropy, and capability are not one universal scalar currency.",
+      "overlap_ids": [
+        "DU-PAPER-010"
+      ],
+      "recommended_action": "Run one matched-protocol positive/null clarification before Factory intake.",
+      "seed_status": "one_bounded_clarification",
+      "seed_swings_estimate": "1",
+      "seed_work_remaining": [
+        "Specify the first matched protocol pair and candidate residual."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "The Cost of Making a Fact Public"
+    },
+    {
+      "audience": "Quantum information, QEC, distributed consensus, and complex systems",
+      "contribution": "A phase or code theorem for when private records become a protected public action algebra under redundancy, connectivity, adversaries, and decoding.",
+      "current_grade": "Open concept family plus exact threshold-separation controls; SBS/QD, QEC, secret sharing, consensus, and percolation terrain are mature.",
+      "evidence_refs": [
+        "explorations/concept-register.md",
+        "explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md",
+        "explorations/technical-lens-hypothesis-panel-quadratic-vote-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "public_fact_phase",
+      "hardening_request": "none",
+      "id": "DU-PAPER-022",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "A new necessary-and-sufficient correspondence between protected logical and public action algebras.",
+        "A nontrivial phase or finite-size scaling theorem beyond known QEC/SBS/consensus thresholds."
+      ],
+      "manuscript_swings_estimate": "n/a until theorem",
+      "negative_result_value": "The rejection of one universal objectivity threshold strengthens the higher-order-finality paper.",
+      "novelty_boundary": "Redundancy, code distance, decoder success, common readability, and finality remain distinct.",
+      "overlap_ids": [
+        "DU-PAPER-006",
+        "DU-PAPER-009",
+        "DU-PAPER-010"
+      ],
+      "recommended_action": "Merge into DU-PAPER-009 or DU-PAPER-010 until an independent theorem separates it.",
+      "seed_status": "merge_candidate_not_standalone",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Produce a distinct public-action-algebra theorem."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Shared Reality as a Protected Logical Code"
+    },
+    {
+      "audience": "Philosophy of mind, cognitive science, control theory, and identity theory",
+      "contribution": "A formal account of observer or person continuity as successful gluing of interventionally compatible record sections rather than persistence of a hidden scalar identity.",
+      "current_grade": "Open concept family with finite role-cover and refinement antecedents; no consciousness result, empirical case, or unique identity theorem.",
+      "evidence_refs": [
+        "explorations/concept-register.md",
+        "explorations/science-council-five-persona-recursive-viable-systems-wave-synthesis-2026-07-24.md",
+        "explorations/science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "observer_identity",
+      "hardening_request": "none",
+      "id": "DU-PAPER-023",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "A precise colimit/gluing model tied to the intervention-relative role cover.",
+        "A split/merge case where the model predicts something nontrivial.",
+        "A literature and ethical-scope review separating system identity from consciousness and personhood."
+      ],
+      "manuscript_swings_estimate": "n/a until formal and empirical split",
+      "negative_result_value": "A theorem that no perspective-independent scalar identity survives benign refinement could support DU-PAPER-016.",
+      "novelty_boundary": "Record gluing establishes no consciousness, moral status, legal personhood, or biological identity claim.",
+      "overlap_ids": [
+        "DU-PAPER-016",
+        "DU-PAPER-019"
+      ],
+      "recommended_action": "Merge the formal portion into DU-PAPER-016; retain the philosophical extension as a later separate possibility.",
+      "seed_status": "merge_candidate_not_standalone",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Separate formal system identity from the much stronger personhood interpretation."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Observers as Record Colimits"
+    },
+    {
+      "audience": "Quantum foundations, objective-collapse theory, and experimental quantum information",
+      "contribution": "A conditional experimental paper on a mechanism-specific, Lorentz-compatible recoverability/finality deviation beyond smooth unitary decoherence.",
+      "current_grade": "Conditional model only and identifiability-limited; quantitative knee specimen exists, but an unconstrained smooth-memory law absorbs it and no local physical update is built.",
+      "evidence_refs": [
+        "explorations/prediction-register.md",
+        "explorations/conditional-finality-knee-model-2026-07-23.md",
+        "explorations/covariant-finality-collapse-synthesis-2026-07-21.md"
+      ],
+      "factory_snapshot": "No distinct Factory seed found; existing covariant-finality paper is post-ready.",
+      "factory_state": "unselected",
+      "family": "experimental_prediction",
+      "hardening_request": "none",
+      "id": "DU-PAPER-024",
+      "manuscript_distance": "dependency_program",
+      "manuscript_load_bearing_gaps": [
+        "Select a mechanism-specific observable that a smooth memory law cannot fit.",
+        "Construct a local AQFT-compatible update or explicitly conditional replacement.",
+        "Freeze a realizable platform, systematics, no-signaling guard, and preregistered kill.",
+        "Separate the new experiment from DU-PAPER-001 and current proper-time channel witnesses."
+      ],
+      "manuscript_swings_estimate": "3+",
+      "negative_result_value": "A clean absorber result can become a limits paper on what recoverability curves fail to certify.",
+      "novelty_boundary": "A fitted knee, dephasing, frequency shift, or global Lueders update is not a DU physical prediction.",
+      "overlap_ids": [
+        "DU-PAPER-001",
+        "DU-PAPER-008"
+      ],
+      "recommended_action": "The cheap opportunity record is complete, but send only as an explicitly conditional long-horizon seed if Factory backlog preservation is desired.",
+      "seed_status": "proposal_complete_not_sent",
+      "seed_swings_estimate": "0",
+      "seed_work_remaining": [],
+      "source_owner": "dynamic-unity",
+      "title": "A Covariant Finality Deviation Beyond Smooth Decoherence"
+    },
+    {
+      "audience": "High-energy physics and cosmology",
+      "contribution": "Conditional mirror-sector, generation-count, and no-phantom-crossing phenomenology under explicitly labeled GU or scalar-field assumptions.",
+      "current_grade": "Conditional prediction entries with superseded premises and upstream GU dependencies; CPRED-03 retired.",
+      "evidence_refs": [
+        "explorations/prediction-register.md",
+        "explorations/cross-repo-hardening-integration-2026-07-24.md"
+      ],
+      "factory_snapshot": "No DU-owned Factory seed should be inferred.",
+      "factory_state": "not_du_owned",
+      "family": "ownership_transfer",
+      "hardening_request": "none",
+      "id": "DU-PAPER-025",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "Current GU-owned source theorem and parameter packet.",
+        "Pinned quantitative relation and phenomenology likelihood.",
+        "Removal of superseded sigma=w1 and exactly-one-bit premises."
+      ],
+      "manuscript_swings_estimate": "n/a in Dynamic Unity",
+      "negative_result_value": "A null can constrain the labeled upstream assumption, but DU does not own the physical bridge.",
+      "novelty_boundary": "Do not use retired CPRED-03 or treat a generic scalar-field theorem as DU-native phenomenology.",
+      "overlap_ids": [
+        "DU-PAPER-027"
+      ],
+      "recommended_action": "Transfer any surviving paper opportunity to gu-formalization; keep only recovery-test pointers in DU.",
+      "seed_status": "transfer_to_other_owner",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Upstream owner must freeze the source result."
+      ],
+      "source_owner": "gu-formalization",
+      "title": "Conditional GU and Cosmology Predictions"
+    },
+    {
+      "audience": "AI research methodology, multi-agent systems, and philosophy of science",
+      "contribution": "An empirical/methodological paper on sovereign-agent error decorrelation, council diversity, correction latency, and proof-carrying research workflows.",
+      "current_grade": "Rich DU process record and multiple deterministic audits; causal empirical comparison and ownership belong to AI Epistemology or the existing Factory AI-methodology candidate.",
+      "evidence_refs": [
+        "explorations/science-council-four-wave-research-journey-2026-07-24.md",
+        "explorations/ten-lens-hypothesis-efficient-approach-registry-2026-07-24.md",
+        "explorations/technical-lens-hypothesis-panel-quadratic-vote-2026-07-24.md"
+      ],
+      "factory_snapshot": "Factory already has an AI research methodology production candidate; deduplication required.",
+      "factory_state": "existing_other_owner_candidate",
+      "family": "ownership_transfer",
+      "hardening_request": "none",
+      "id": "DU-PAPER-026",
+      "manuscript_distance": "not_standalone",
+      "manuscript_load_bearing_gaps": [
+        "A preregistered centralized-versus-sovereign agent comparison.",
+        "Independent task set and outcome metrics.",
+        "AI Epistemology ownership and merge decision with the existing Factory paper."
+      ],
+      "manuscript_swings_estimate": "n/a in Dynamic Unity",
+      "negative_result_value": "Failure to decorrelate errors would still be useful methodology evidence.",
+      "novelty_boundary": "Persona agreement, probe count, and repo volume are not empirical evidence of better science.",
+      "overlap_ids": [
+        "DU-PAPER-016"
+      ],
+      "recommended_action": "Transfer as a source packet to AI Epistemology and merge with the existing Factory methodology candidate.",
+      "seed_status": "transfer_to_other_owner",
+      "seed_swings_estimate": "n/a",
+      "seed_work_remaining": [
+        "Other owner must decide the experimental paper contract."
+      ],
+      "source_owner": "ai-epistemology",
+      "title": "Sovereign Research Agents and Error Decorrelation"
+    },
+    {
+      "audience": "Mathematical physics, quantum gravity, particle physics, and cosmology",
+      "contribution": "A downstream application showing that the same certified-causal substrate reconstructs a recognized physical theory and selects a unit-bearing observable, scale, sign, and coefficient.",
+      "current_grade": "Prospective HC-DU-040 application stage; dependencies absent and GU/Standard Model/cosmology recovery unearned.",
+      "evidence_refs": [
+        "docs/certified-causal-reality-research-program.md",
+        "README.md",
+        "explorations/repository-wide-paper-swing-candidates-2026-07-24.md"
+      ],
+      "factory_snapshot": "No Factory seed found.",
+      "factory_state": "unselected",
+      "family": "physical_recovery",
+      "hardening_request": "none",
+      "id": "DU-PAPER-027",
+      "manuscript_distance": "dependency_program",
+      "manuscript_load_bearing_gaps": [
+        "Complete the Certified Causal Reality theorem and cross-platform transfer.",
+        "Recover QFT/AQFT locality or relativistic geometry without importing it.",
+        "Run GU ablation and rival comparison.",
+        "Select a physical count, scale, observable, sign, coefficient, and units before cosmology."
+      ],
+      "manuscript_swings_estimate": "4+",
+      "negative_result_value": "A rigorous recovery obstruction or GU-ablation theorem could become a narrower paper.",
+      "novelty_boundary": "Conditional fits and imported scales are not physical recovery.",
+      "overlap_ids": [
+        "DU-PAPER-012",
+        "DU-PAPER-014",
+        "DU-PAPER-025"
+      ],
+      "recommended_action": "Do not seed a recovery paper until the upstream theorem spine supplies a real substrate.",
+      "seed_status": "research_result_required",
+      "seed_swings_estimate": "3+",
+      "seed_work_remaining": [
+        "Land the upstream certified-causal substrate and one nontrivial recovery result."
+      ],
+      "source_owner": "dynamic-unity",
+      "title": "Physical Recovery from Certified Causal Reality"
+    }
+  ]
+}

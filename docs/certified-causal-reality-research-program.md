@@ -926,22 +926,39 @@ capability/resource or geometry reconstruction.
 
 ## Publishable output ladder
 
-1. **Adversarial Objectivity: Quorum Certification of Causal Histories**
-   Tight theorem, converse attack, approximate quantum record model, and
-   distributed-history fixture.
-2. **Interventional Record Sufficiency: A Factorization-or-Witness Dichotomy**
-   Finite conditions and witness complexity that directly adjudicate the
-   ontology fork.
-3. **Finality, Capability, and Coherent Optionality**
-   Cost-aware capability correspondence and a quantitative resource tradeoff.
-4. **Meta-Record Geometry**
-   Reconstruction and nonuniqueness theorems from acquisition and provenance.
-5. **Certified Causal Reality**
-   Umbrella theory only after at least the first two theorem families and
-   cross-platform transfer survive.
-6. **GU and cosmology application**
+The complete upstream inventory and preliminary Factory-seed/manuscript
+readiness audit is
+`../papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md`. The inventory is
+broader than this ladder. Factory seed readiness is cheap opportunity custody;
+the ladder below expresses present scientific paper routes, not a production
+queue.
+
+1. **Covariant Records Are Not Free**
+   The closest current paper route: sharpen the exact Clock-QCA
+   construction/nonselection/archive package into an approximate
+   record-disturbance-support tradeoff.
+2. **Interventional Record Sufficiency**
+   The flagship route: finite conditions, proof-carrying refinement or
+   remainder certificates, and unchanged quantum/distributed transfer.
+3. **Higher-Order Public Finality**
+   The distinctive cross-domain route: noisy/noninvertible loop syndromes,
+   safe action algebras, higher certificates, and minimum provenance.
+4. **Finality, Capability, and Coherent Optionality**
+   Cost-aware capability correspondence and a quantitative matched-resource
+   tradeoff after a physically formed distinction exists.
+5. **Meta-Record Geometry**
+   Reconstruction and nonuniqueness theorems from acquisition and provenance,
+   after the benign-refinement category is frozen.
+6. **Certified Causal Reality**
+   Umbrella theory only after at least two theorem families and cross-platform
+   transfer survive.
+7. **GU and cosmology application**
    Only if the same substrate reconstructs physics and selects the relevant
-   count, scale, observable, and units.
+   count, scale, observable, sign, coefficient, and units.
+
+The exact finite record-selection and layered-objectivity results remain
+load-bearing modules and controls, but their component mathematics is too
+occupied for standalone seeds at the current grade.
 
 The blockbuster threshold is not a large manifesto. It is a bidirectional
 theorem, tight quantitative bound, or finite remainder witness that uses one

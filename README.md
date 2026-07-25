@@ -140,6 +140,8 @@ freely; findings transfer only with their grade labels attached, never as doctri
 - **Triple-diamond design receipt:**
   `explorations/science-council-certified-causal-reality-triple-diamond-2026-07-24.md`
 - **Live concept families and exact grades:** `explorations/concept-register.md`
+- **Complete paper-opportunity inventory and preliminary readiness audit:**
+  `papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md`
 - **Conditional and abductive contract:**
   `lab/process/conditional-and-abductive-research-contract.md`
 - **Cross-repo completion, boundary, refinement, and capability controls:**
@@ -170,6 +172,8 @@ load-bearing until rechecked here at a declared grade. The full role map is in
 - **Agent-facing governance and method:** `AGENTS.md`
 - **Lanes and channels (machine-readable):** `LANES.yaml`
 - **Certified Causal Reality agenda:** `docs/certified-causal-reality-research-program.md`
+- **Paper opportunities, overlaps, and work remaining:**
+  `papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md`
 - **Sibling connections and the self-verification rule:** `CONNECTIONS.md`
 - **Reproducible numerical environment:** `requirements-compute.txt` and `tests/README.md`
 - **Attribution / lineage:** below.

@@ -1,0 +1,81 @@
+{
+  "candidate_count": 27,
+  "checks": {
+    "all_local_evidence_pointers_exist": true,
+    "all_manuscript_distances_are_declared": true,
+    "all_overlap_ids_are_valid": true,
+    "all_required_candidate_fields_are_present": true,
+    "all_seed_statuses_are_declared": true,
+    "all_ten_concepts_are_covered": true,
+    "every_candidate_is_represented_in_coverage_map": true,
+    "existing_factory_du_entries_are_not_duplicated": true,
+    "ids_are_unique_and_contiguous": true,
+    "merge_candidates_name_valid_overlap": true,
+    "no_factory_hardening_request_is_invented": true,
+    "portfolio_has_27_candidates": true,
+    "prior_top_three_are_preserved": true,
+    "proposal_batch_matches_all_complete_unsent_proposals": true,
+    "proposal_complete_records_need_no_more_seed_fields": true,
+    "transfers_leave_dynamic_unity_ownership": true
+  },
+  "checks_passed": 16,
+  "checks_total": 16,
+  "claim_grade": "PORTFOLIO INTEGRITY AND CHEAP-SEED FIELD AUDIT / NO SCIENTIFIC, NOVELTY, MANUSCRIPT, FACTORY-PRIORITY, SUBMISSION, OR PUBLICATION VERDICT",
+  "date": "2026-07-24",
+  "diagnostics": {
+    "invalid_overlap_ids": {},
+    "missing_evidence": {},
+    "missing_fields": {},
+    "proposal_field_failures": {}
+  },
+  "manuscript_distance_counts": {
+    "dependency_program": 5,
+    "factory_post_ready": 1,
+    "not_standalone": 8,
+    "one_source_hardening_swing": 6,
+    "two_to_three_source_swings": 7
+  },
+  "near_manuscript_ids": [
+    "DU-PAPER-001",
+    "DU-PAPER-003",
+    "DU-PAPER-004",
+    "DU-PAPER-013",
+    "DU-PAPER-015",
+    "DU-PAPER-016",
+    "DU-PAPER-017"
+  ],
+  "nonclaims": [
+    "the inventory is exhaustive over future ideas",
+    "a complete seed is scientifically supported",
+    "a seed should be activated by the Drafting Factory",
+    "a manuscript-distance estimate is a schedule commitment",
+    "a proposal has been sent",
+    "a paper has been drafted, submitted, or published"
+  ],
+  "probe": "du_paper_opportunity_portfolio_probe",
+  "proposal_batch": {
+    "merge_review_proposals": [
+      "DU-PAPER-004",
+      "DU-PAPER-024"
+    ],
+    "standalone_proposals": [
+      "DU-PAPER-003",
+      "DU-PAPER-007",
+      "DU-PAPER-009",
+      "DU-PAPER-013",
+      "DU-PAPER-015",
+      "DU-PAPER-016",
+      "DU-PAPER-017"
+    ]
+  },
+  "seed_status_counts": {
+    "already_factory_post_ready": 1,
+    "already_factory_seeded": 1,
+    "merge_candidate_not_standalone": 6,
+    "one_bounded_clarification": 4,
+    "proposal_complete_not_sent": 9,
+    "research_result_required": 4,
+    "transfer_to_other_owner": 2
+  },
+  "status": "PASS"
+}

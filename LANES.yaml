@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 23
+manifest_revision: 24
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -39,7 +39,9 @@ active_hardening_program_note: >-
   interface incompleteness rather than new physical curvature. Revision 23 adds six scoped
   cross-repo hardening controls for fixed pre-correlated sources, departed environmental support,
   same-SBS-data quantum absorption, benign-refinement naturality, matched capability frames and a
-  nonexhaustive completion-constructor battery; it promotes no claim or hypothesis.
+  nonexhaustive completion-constructor battery; it promotes no claim or hypothesis. Revision 24
+  adds the deduplicated 27-family paper-opportunity portfolio, separates cheap Factory seed
+  readiness from scientific and manuscript hardening, and changes no claim grade or Factory state.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -876,6 +878,45 @@ cross_repo_hardening_and_paper_candidate_assessment:
     controls and narrative already exist. Candidate 2 has the greatest flagship upside, and
     Candidate 3 is the most distinctive cross-domain option. This assessment authorizes none of
     them for execution or seeding.
+paper_opportunity_portfolio_audit:
+  status: completed_upstream_inventory__no_factory_intake
+  date: '2026-07-24'
+  authority: >-
+    Joe direct chat: identify all current Dynamic Unity paper opportunities, run a preliminary
+    readiness pass on each, estimate the work remaining before Drafting-Factory seeding and
+    manuscript defense, and record the result in the source repository.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260724-204614-paper-opportunity-portfolio-audit/run-plan.md
+  human_portfolio_ref: papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
+  machine_portfolio_ref: papers/paper-opportunity-portfolio.json
+  probe_ref: tests/du_paper_opportunity_portfolio_probe.py
+  artifact_ref: tests/artifacts/du_paper_opportunity_portfolio_result.json
+  completeness_boundary: >-
+    Covers candidates exposed by the live theorem spine and output ladder, exact-result packages,
+    prediction and concept registers, the prior repo-wide paper assessment, existing Dynamic
+    Unity Factory entries, and stopped or transferred branches. It is complete over those
+    surfaces, not over every future idea.
+  result: >-
+    Twenty-seven deduplicated families: one already Factory post-ready, one already Factory
+    seeded, nine proposal-complete but unsent, four needing one bounded clarification, six merge
+    candidates, four requiring a research result before seeding, and two belonging to another
+    source owner. Seven of the nine complete unsent opportunities are standalone proposals; two
+    request merge review. One existing item plus six more families are within one source-hardening
+    swing of a defensible packet.
+  scientific_sequence: >-
+    Covariant Records Are Not Free remains the shortest high-value source-hardening route;
+    Interventional Record Sufficiency remains the flagship route; Higher-Order Public Finality
+    remains the most distinctive cross-domain route. The audit additionally exposes causal-set
+    tail classes, the global-clock gauge-or-witness theorem, intervention-role covers, and finite
+    records versus open-endedness as serious lower-cost alternatives.
+  governance_correction: >-
+    A Factory seed is cheap opportunity custody: owner, contribution, evidence, audience, current
+    grade and open conditions, overlap, and default unselected state. It is not a novelty verdict,
+    scientific promotion, manuscript readiness, production activation, submission, or
+    publication. Prediction hardening remains a separate, stronger state.
+  factory_action: >-
+    None. No mailbox proposal, intake write, hardening request, production activation, draft,
+    submission, or publication occurred.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1542,7 +1583,10 @@ lanes:
     scope: >-
       Prepare well-formed Drafting-Factory seeds and answer its hardening requests with frozen
       source pointers, contribution, audience, grade, blockers, overlaps and reproducibility.
-      An inbound factory hardening request preempts ordinary Lane-1 activity until returned.
+      Maintain `papers/paper-opportunity-portfolio.json` as the complete deduplicated upstream
+      inventory. Distinguish cheap seed readiness from scientific prediction hardening and
+      manuscript readiness; do not make `papers/candidates/` a parallel Factory queue. An inbound
+      factory hardening request preempts ordinary Lane-1 activity until returned.
   - id: '4.4'
     title: Independent replication, evidence dependency and reproducibility
     scope: >-
@@ -1578,8 +1622,9 @@ lanes:
     title: Portfolio, migration, persona and wish-list custody
     scope: >-
       Preserve HC-DU-001..032, P01-A..P50-B, council outputs and divergent wish lists losslessly;
-      record additive migration dispositions, calibrated forecasts and stop-losses. Personas are
-      lenses across every lane, not evidence or a standing work lane.
+      preserve the deduplicated paper-opportunity portfolio and record additive migration
+      dispositions, calibrated forecasts and stop-losses. Personas are lenses across every lane,
+      not evidence or a standing work lane.
 discovery:
   kind: lane_less
   title: Discovery
@@ -1611,9 +1656,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 23.
+    routing is the root lanes key at manifest revision 24.
 provenance:
-  revision: 23
+  revision: 24
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -1668,7 +1713,10 @@ provenance:
     noninvertible history-certificate compiler; rev23 (Joe direct chat, 2026-07-24) incorporates
     six scoped cross-repo hardening controls at their retained grades, locally rechecks 14/14
     finite control shapes, adds no hypothesis, and records a repo-wide top-three paper-swing
-    assessment led by the Clock-QCA record construction-obstruction package
+    assessment led by the Clock-QCA record construction-obstruction package; rev24 (Joe direct
+    chat, 2026-07-24) audits and deduplicates the full 27-family paper portfolio, records
+    seed-versus-manuscript distance for every family, and separates cheap Factory opportunity
+    custody from scientific hardening without sending or promoting anything
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -1887,3 +1935,14 @@ provenance:
     covariant-recorder construction/obstruction first for closeness, interventional record
     sufficiency second for flagship upside, and higher-order loop-syndrome finality third for
     cross-domain distinctiveness. No candidate is executed, seeded or promoted.
+  rev24_note: >-
+    2026-07-24 (Joe direct chat: make sure every potential paper is known, preliminarily assess
+    the work remaining before Drafting-Factory seed submission, and retain the result in Dynamic
+    Unity): audited the live research program, exact results, predictions, concepts, prior
+    candidate assessment, Factory snapshot, and stopped or transferred branches into 27 stable
+    paper families. The deterministic portfolio probe passes 16/16 checks. One family is already
+    Factory post-ready, one already seeded, nine have complete but unsent cheap proposal records,
+    four need one clarification, six should merge, four need a scientific result first, and two
+    should transfer. The portfolio also estimates manuscript distance independently. No Factory
+    intake, production state, hardening request, claim grade, prediction, submission, or
+    publication changed.

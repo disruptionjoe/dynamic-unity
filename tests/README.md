@@ -57,6 +57,20 @@ jobs. Run them sequentially in the foreground unless a probe explicitly says
 otherwise; do not launch a parallel sweep merely to validate environment
 readiness.
 
+## Paper-opportunity portfolio audit
+
+`du_paper_opportunity_portfolio_probe.py` validates the complete upstream
+paper inventory in `../papers/paper-opportunity-portfolio.json`. It checks 27
+deduplicated candidate families for stable IDs, required cheap-seed fields,
+existing evidence pointers, declared readiness classes, overlap integrity,
+concept and result-surface coverage, Factory-entry deduplication, and the exact
+unsent proposal batch.
+
+The generated artifact passes `16/16` deterministic checks. This establishes
+portfolio integrity only. It does not establish scientific truth, novelty,
+manuscript quality, Factory priority, submission, or publication, and it does
+not send any proposal to the Drafting Factory.
+
 ## Conditional and abductive candidate artifacts
 
 `conditional_candidate_harness.py` implements the comparison contract in

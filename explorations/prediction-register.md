@@ -4,15 +4,18 @@ status: active_research
 doc_type: register
 created: 2026-07-21
 revised: 2026-07-24
-note: "Operationalizes current Lane 4.2 experimental prediction work as the upstream holding state before Lane 4.3 seeds anything to the Drafting Factory. Nothing crosses the seed gate until it is SEED-READY. Registration is not seeding."
+note: "Tracks scientific prediction hardening independently from cheap Drafting Factory paper-opportunity intake. Registration, Factory seeding, scientific hardening, drafting, and publication are distinct."
 ---
 
 # Dynamic Unity prediction register
 
-The pre-seed home for prediction candidates. A claim lives here from the moment it is
-prediction-shaped until it is either seeded to the Drafting Factory (current Lane 4.3) or retired.
-**Registration is not seeding.** The register exists precisely so a promising-but-unhardened
-prediction can be *held and worked* without being pushed to the factory half-formed.
+The scientific-hardening home for prediction candidates. A claim lives here
+from the moment it is prediction-shaped until it is hardened, retired, or
+superseded. **Registration is not seeding, and seeding is not scientific
+hardening.** A cheap Drafting Factory seed may preserve a paper-shaped
+conditional opportunity at its honest grade before its prediction is ready
+for a manuscript or experiment. The Factory then decides whether it is worth
+production capacity; it does not promote the claim.
 
 **2026-07-24 recharter disposition.** Every existing entry remains at its
 stated grade as an antecedent or downstream branch. No GU, finality,
@@ -21,23 +24,28 @@ Certified Causal Reality merely because it can be described in the new
 vocabulary. A new central prediction must use the typed agenda contract,
 declare rival process and adversary classes, and distinguish multi-time
 history or interventional capability rather than terminal-state fit alone.
-Current routing is Lane 4.2 for protocol extraction and Lane 4.3 for seeding;
+Current routing is Lane 4.2 for protocol extraction and Lane 4.3 for cheap
+paper-opportunity seeding and later hardening returns;
 older Lane 4.1/4.2 references below are historical provenance.
 
 ## Lifecycle states
 
-| State | Meaning | Seedable? |
+| Scientific state | Meaning | Cheap Factory opportunity seed? |
 |---|---|---|
-| **SEAM** (conditional candidate) | Prediction-shaped, but its **antecedent/mechanism is unbuilt** — it is a prediction only *if* some upstream unlock lands. Cannot yet be frozen as a falsifiable statement. Registered so it is not lost; carried with its antecedent-blocker + a hardening checklist. | **No** |
-| **REGISTERED** (frozen-with-blocker) | The antecedent exists enough to freeze a genuinely falsifiable statement. Frozen and carried with its blocker(s). Internal hardening still open. | **No** |
-| **SEED-READY** | The hardening checklist is discharged: quantitative statement, a concrete falsifiable gap vs. the standard account, units/no-signaling guards passed, a runnable platform, and a pre-registered cheap kill. A well-formed seed is prepared. | **Yes — current 4.2→4.3 gate** |
-| **SEEDED** | Routed to the Drafting Factory mailbox (current Lane 4.3). Leaves the active set; recorded here. | — |
-| **RETIRED** | Falsified, absorbed, or withdrawn. Recorded with the reason. | — |
+| **SEAM** (conditional candidate) | Prediction-shaped, but its antecedent or mechanism is unbuilt. It remains explicitly conditional and carries its blocker and hardening checklist. | **Case by case.** Only when a credible paper contribution, evidence pointers, audience, grade, open conditions, and overlaps are already explicit. |
+| **REGISTERED** (frozen-with-blocker) | The antecedent exists enough to freeze a genuinely falsifiable statement, with internal hardening still open. | **Yes, if paper-shaped.** The seed preserves the opportunity and its blocker; it does not promote the prediction. |
+| **PREDICTION-HARDENED** (legacy label: `SEED-READY`) | Quantitative statement, standard-account gap, units/no-signaling guards, runnable platform, and preregistered cheap kill are complete. | **Yes.** This is stronger than Factory seed readiness and may support a manuscript hardening packet. |
+| **FACTORY-SEEDED** | A cheap opportunity proposal was routed to the Drafting Factory. The scientific state remains separately recorded. | — |
+| **RETIRED** | Falsified, absorbed, superseded, or withdrawn. | No new seed unless a distinct paper-shaped negative result exists. |
 
-### The seed gate (non-negotiable)
-Nothing is seeded to the Drafting Factory until it is **SEED-READY**. A SEAM or REGISTERED entry
-is repo-internal working state only. This is the honesty discipline at the shipping boundary: the
-factory receives well-formed seeds, never speculative ones.
+### Scientific hardening gate and Factory distinction
+
+No prediction is called **PREDICTION-HARDENED** until the quantitative,
+platform, control, unit, and cheap-kill checklist is discharged. But a
+paper-opportunity seed may be cheaper: it can honestly preserve a conditional,
+blocked, or negative-result paper before the Factory decides whether to spend
+production capacity. The authoritative upstream portfolio is
+`../papers/paper-opportunity-portfolio.json`.
 
 ---
 
@@ -57,14 +65,16 @@ factory receives well-formed seeds, never speculative ones.
   two-state-vector / retrocausal-consistent, operationally visible in weak measurement.
 - **Blocker(s).** (i) It is a **deviation from unitary QM** — a large claim. (ii) **DU-as-built
   does not predict it**: μ is Born-blind (Bet #1) and the mirror-condensate count is one-shot
-  (wave-2 build/kill). (iii) Therefore it is not seed-ready or an unconditional DU prediction.
+  (wave-2 build/kill). (iii) Therefore it is not prediction-hardened or an
+  unconditional DU prediction. Its paper-opportunity fields are separately
+  preserved as `DU-PAPER-024`; no Factory proposal has been sent.
   This does **not** bar a labeled conditional construction; source derivation is not an
   exploration gate.
 - **Hardening checklist (what must be discharged before it moves).**
   - *SEAM → REGISTERED (antecedent gate):* **H1.** The §3 mode-issuance unlock is built enough that
     the finality threshold is a real consequence, not a hoped-for one; only then can a falsifiable
     unconditional DU statement be frozen. Conditional-model work may proceed before H1.
-  - *REGISTERED → SEED-READY (internal hardening):* **H2.** Quantitative form — define `R_c` and the
+  - *REGISTERED → PREDICTION-HARDENED:* **H2.** Quantitative form — define `R_c` and the
     functional shape of `V(R)`/recoverability; predict the knee's *location and sharpness*, not just
     its existence. **H3.** A concrete falsifiable gap vs. standard decoherence's smooth crossover
     (what is measured, at what precision, what refutes). **H4.** Units/no-signaling guards — TaF
@@ -115,7 +125,8 @@ justified smooth-slope bound or another mechanism-specific observable. See
 - **Hardening checklist.** *SEAM → REGISTERED:* shares PRED-DU-001 **H1**, PLUS **H1'.** the
   **AQFT-net (Haag–Kastler) embedding** — construct the finality closure on the net of local algebras
   and *prove* Fewster–Verch causal factorization *from* "final ≡ fixed on J⁺" (currently matched, not
-  derived), AND establish the update is *local*, not global Lüders. *REGISTERED → SEED-READY:* inherits
+  derived), AND establish the update is *local*, not global Lüders.
+  *REGISTERED → PREDICTION-HARDENED:* inherits
   PRED-DU-001 H2–H7.
 - **Source pointers.** `covariant-finality-collapse-synthesis-2026-07-21.md` (§3, §5); the build +
   adversarial-kill pair it synthesizes.
@@ -169,6 +180,8 @@ the factory follows the normal SEED gate. Strength ≈ (minimality/motivation of
   being a *healthy* single field). Gated on that health, not on the full source.
 
 ## Boundary
-Current Lane 4.2 working state; Lane 4.3 is the seed gate. Registration ≠
-seeding ≠ publishing. The factory owns paper production and Joe owns posting;
-this register only holds and hardens candidates up to the SEED-READY gate.
+Current Lane 4.2 scientific-hardening state. Lane 4.3 may preserve a cheap
+paper opportunity before this register reaches `PREDICTION-HARDENED`, provided
+the conditional grade and blockers remain explicit. Registration ≠ Factory
+seeding ≠ scientific hardening ≠ drafting ≠ publishing. The Factory owns paper
+production and Joe owns posting.
