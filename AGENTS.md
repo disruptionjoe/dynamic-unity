@@ -75,7 +75,8 @@ Load `docs/certified-causal-reality-research-program.md` before selecting centra
 work. Before choosing or reprioritizing central quantum, record, finality,
 perspective, classicality, QFT, or quantum-gravity work, also load
 `docs/quantum-foundations-orientation-surface.md`. It is a non-authoritative
-router to theory distinctions and cheap tests; it does not replace
+map of established reach, live tensions, and candidate Dynamic Unity deltas;
+it does not replace
 `LANES.yaml`, the agenda, concept or prediction registers, claim grades, or
 paper custody. Preserve this ladder:
 

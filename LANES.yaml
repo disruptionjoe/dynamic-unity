@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 34
+manifest_revision: 35
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -24,11 +24,12 @@ active_hardening_program_ref: >-
 research_orientation_ref: >-
   docs/quantum-foundations-orientation-surface.md
 research_orientation_note: >-
-  Non-authoritative routing surface for quantum-foundations object types,
-  Spekkens-style psi-ontology distinctions, conditional no-go boundaries,
-  discrepancy families and the cheapest current Dynamic Unity tests. It is
-  consulted before central quantum/foundations reprioritization but does not
-  replace LANES, the agenda, registers, claim grades or paper custody.
+  Non-authoritative map of what major quantum-foundations frameworks already
+  explain, the tensions or missing relations they leave, and the candidate
+  Dynamic Unity deltas that could fill those openings. Methods and tests are
+  downstream choices. The surface is consulted before central
+  quantum/foundations reprioritization but does not replace LANES, the agenda,
+  registers, claim grades or paper custody.
 active_hardening_program_note: >-
   HC-DU-033 through HC-DU-040 define the prospective Certified Causal Reality theorem,
   certification, sufficiency, reconstruction, transfer and recovery spine. HC-DU-001 through
@@ -103,6 +104,10 @@ active_hardening_program_note: >-
   psi-ontic, psi-epistemic, psi-complete, psi-supplemented, contextuality and locality as
   distinct questions; and routes twelve discrepancy families to the cheapest current DU
   probes or a named missing test. The surface has no claim, priority, lane or paper authority.
+  Revision 35 corrects that first orientation's emphasis: the surface now organizes around
+  established reach, exact tension, candidate Dynamic Unity delta and known restatement
+  boundary. Tests and methods remain linked only as downstream resources future leads select
+  after the scientific opening is clear. No scientific grade or priority changes.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -2217,9 +2222,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 34.
+    routing is the root lanes key at manifest revision 35.
 provenance:
-  revision: 34
+  revision: 35
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -2293,7 +2298,9 @@ provenance:
     standard-quantum absorption boundary, recursive regional descent, endogenous/noisy
     composition, exact multitime marginal transfer, the operational-theory landscape and typed
     overlap identity; rev34 (Joe direct chat, 2026-07-25) installs the non-authoritative
-    quantum-foundations orientation and cheap-test router without changing scientific priority.
+    quantum-foundations orientation; rev35 (Joe direct chat, 2026-07-25) corrects it from a
+    test-first router to an established-reach, live-tension and candidate-DU-delta map without
+    changing scientific priority.
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -2654,3 +2661,13 @@ provenance:
     and canonical output destinations. No hypothesis, claim, prediction, ontology, lane
     priority, paper custody, Factory state, draft, submission, publication or external action
     changed.
+  rev35_note: >-
+    2026-07-25 (Joe direct chat: the orientation is less about attaching tests and more about
+    identifying the tension and the potential delta Dynamic Unity could fill): replaced the
+    test-first structure with a tension-and-delta orientation. The surface now distinguishes ten
+    tension kinds, maps representative theory families by established reach, live boundary and
+    candidate DU opening, states twelve cross-cutting tensions with explicit non-deltas, and
+    synthesizes nine candidate contribution families against the current theorem spine. Existing
+    methods and probes remain compact downstream pointers rather than the organizing structure.
+    No hypothesis, claim, prediction, ontology, lane priority, paper custody, Factory state,
+    draft, submission, publication or external action changed.

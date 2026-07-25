@@ -6,8 +6,9 @@ Durable program documentation. The governing scientific agenda is
 governed run state belongs in `../lab/process/`.
 
 `quantum-foundations-orientation-surface.md` is the non-authoritative
-orientation and cheap-test router used before quantum/foundations
-reprioritization. It preserves distinctions among operational frameworks,
-ontological models, interpretations, causal models, emergence mechanisms,
-no-go theorems, and physical extensions, then points results back to their
-canonical ledgers.
+tension-and-delta map used before quantum/foundations reprioritization. It
+preserves distinctions among operational frameworks, ontological models,
+interpretations, causal models, emergence mechanisms, no-go theorems, and
+physical extensions; identifies the opening each leaves and the contribution
+Dynamic Unity might supply; then points resulting work back to its canonical
+ledger.

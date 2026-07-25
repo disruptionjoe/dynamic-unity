@@ -1,284 +1,172 @@
 ---
-title: "Quantum-foundations orientation surface"
+title: "Quantum-foundations tension and delta orientation"
 status: active_orientation
 doc_type: research_orientation
 created: 2026-07-25
-claim_grade: "KNOWN FOUNDATIONS TOOLS + DYNAMIC UNITY ROUTING / NO CLAIM OR PRIORITY AUTHORITY"
-run_id: RUN-20260725-083026-quantum-orientation-surface
+revised: 2026-07-25
+run_id: RUN-20260725-084418-tension-delta-orientation
+supersedes_orientation_run: RUN-20260725-083026-quantum-orientation-surface
+claim_grade: "KNOWN FOUNDATIONS TERRAIN + CANDIDATE DYNAMIC UNITY DELTAS / NO CLAIM OR PRIORITY AUTHORITY"
 ---
 
-# Quantum-foundations orientation surface
+# Quantum-foundations tension and delta orientation
 
 ## Purpose
 
 Use this surface before prioritizing central quantum, record, finality,
-perspective, classicality, QFT, or quantum-gravity work in Dynamic Unity. It
-answers three quick questions:
+perspective, classicality, QFT, or quantum-gravity work in Dynamic Unity. Its
+job is to expose:
 
-1. **What kind of object is this?**
-2. **Which known distinction or no-go theorem actually bears on it?**
-3. **What is the cheapest test that could change the research decision?**
+1. what an established framework already explains;
+2. the precise tension, boundary, or missing relation it leaves;
+3. the potential Dynamic Unity delta that could fill that opening; and
+4. what would merely rename known structure rather than advance it.
 
-This is a router, not another claim ledger, theory ranking, interpretation
-scorecard, or compressed history of quantum foundations. It points into:
+This is not a test registry. Future research leads can choose the appropriate
+mathematics, construction, simulation, or experiment after the tension and
+candidate contribution are clear. It is also not a theory ranking, claim
+ledger, or assertion that every listed opening is real or fillable.
 
-- the [Certified Causal Reality agenda](certified-causal-reality-research-program.md);
-- live [lane state](../LANES.yaml);
-- the [concept register](../explorations/concept-register.md);
-- the [prediction register](../explorations/prediction-register.md);
-- the [paper-opportunity portfolio](../papers/paper-opportunity-portfolio.json);
-- the [operational-theory landscape contract](../lab/process/operational-theory-landscape-contract.md);
-- the [conditional and abductive contract](../lab/process/conditional-and-abductive-research-contract.md);
-- [known challenges and adversaries](../lab/process/known-challenges-and-adversaries.md);
-- the [ten-lens efficient-approach registry](../explorations/ten-lens-hypothesis-efficient-approach-registry-2026-07-24.md);
-- the [cross-repo hardening controls](../lab/process/cross-repo-hardening-control-contract.md); and
-- the executable [test index](../tests/README.md).
+The governing question remains:
 
-Those surfaces retain authority for their own jobs. Nothing is promoted,
-deprioritized, or closed merely because it appears here.
+> **Can certified causal histories reconstruct everything that becomes
+> physically real and actionable for an observer, or does a finite physical
+> remainder survive?**
 
-## The ninety-second use
+## The orientation card
 
-Before choosing work:
-
-1. Fill the **object passport** below.
-2. Find the closest **discrepancy family**.
-3. Run the first applicable **cheap test**, beginning with the smallest object
-   and strongest standard absorber.
-4. Escalate only if the declared escalation signal survives.
-5. Put the result in its existing home; do not bank it on this page.
+For any candidate direction, fill this before selecting work:
 
 ```yaml
-target_statement:
+candidate:
 object_type:
-operational_interface:
-ontic_state_if_any:
-cross_context_identity:
-causal_assumptions:
-record_and_access_boundary:
-resource_and_adversary_boundary:
-warrant:
-landscape_disposition:
-conclusion_reach:
-restrictive_foil:
-permissive_foil:
-cheapest_discriminator:
+established_reach:
+tension_kind:
+exact_tension:
+known_absorbers_or_adjacent_accounts:
+potential_dynamic_unity_delta:
+what_would_only_be_a_restatement:
+central_program_connection:
+canonical_follow_on_surface:
 ```
 
-The four status fields are a tuple, not a scalar:
+The key question is not “Which test can we attach?” It is:
 
-```text
-object type
-    x warrant
-    x landscape disposition
-    x conclusion reach.
-```
+> **What relation, selection principle, composition law, reconstruction, or
+> physical consequence is absent from the best current account, and could
+> Dynamic Unity supply it?**
 
-Use the non-ordinal warrants in the
-[conditional and abductive contract](../lab/process/conditional-and-abductive-research-contract.md):
-`DERIVED`, `CONDITIONALLY_ENTAILED`, `CONSTRUCTIVELY_REALIZED`,
-`ABDUCTIVELY_PREFERRED`, and `STRUCTURAL_ANALOGY`.
+## Kinds of tension
 
-Use the force/permit dispositions in the
-[operational-theory landscape contract](../lab/process/operational-theory-landscape-contract.md):
-`CONSTRUCTIVELY_REALIZED`, `DERIVED_MEMBERSHIP`,
-`EXCLUDED_UNDER_DECLARED_ASSUMPTIONS`, `PERMITTED_NOT_PROVED`,
-`UNDERIDENTIFIED`, and `OUTSIDE_FROZEN_LANDSCAPE`.
+Do not collapse every open question into “quantum theory is incomplete.”
 
-State conclusion reach separately:
-`OPERATIONAL`, `MATHEMATICAL`, `MODEL_PHYSICAL`,
-`CROSS_PLATFORM_PHYSICAL`, or `ONTOLOGICAL`. A result does not move to the
-right automatically.
-
-## Do not flatten these objects
-
-| Object type | What it does | What it is not |
+| Tension kind | Meaning | Kind of contribution it invites |
 |---|---|---|
-| Operational framework | Describes possible preparations, transformations, measurements, and outcome statistics; GPTs are the broad example. | An ontology or an explanation of why one theory is selected. |
-| Ontological model | Represents operational procedures using distributions and response functions over declared ontic states. | Every interpretation of quantum theory. |
-| Interpretation | Says how to understand a formalism, often without changing its predictions. | Automatically a rival operational theory. |
-| Causal model | States which causal structures and conditional-independence or factorization rules explain correlations. | Merely a no-signalling table. |
-| Emergence mechanism | Explains how effective classical records, pointer observables, or public information arise. | A solution to every measurement or ontology question. |
-| Dynamical modification | Changes the physical evolution or outcome law, as collapse models attempt to do. | An interpretation with no measurable delta. |
-| No-go theorem | Excludes a declared conjunction of assumptions. | Unconditional nonexistence or a selected replacement theory. |
-| Relativistic framework | Supplies local algebras, fields, covariance, and composition in spacetime. | By itself a complete theory of measurement or quantum gravity. |
-| Reconstruction program | Tries to derive one structure from another under stated axioms. | Evidence that the reconstructed structure is fundamental. |
-| Experimental protocol | Makes one contrast measurable with controls and an error model. | A metaphysical verdict without a uniqueness bridge. |
+| Internal inconsistency | A declared set of assumptions or rules cannot hold together. | A no-go, corrected axiom set, or different dynamics |
+| Assumption boundary | A theorem is decisive only inside a named assumption class. | A principled escape, assumption derivation, or stronger scoped theorem |
+| Operational underdetermination | Several theories or interpretations reproduce the same admitted observations. | A new discriminator, uniqueness principle, or honest duality theorem |
+| Selection problem | A framework admits many bases, interfaces, decompositions, laws, or ontologies but does not select one. | A noncircular selector or a proof that selection requires extra structure |
+| Identity or gluing gap | Local or contextual descriptions exist, but it is unclear which occurrences or facts are the same across contexts. | A typed identity law, descent condition, obstruction, or reconciliation rule |
+| Composition gap | Valid local descriptions lack a principled rule for becoming higher-level systems or composing across scales. | A recursive composition theorem or boundary certificate law |
+| Emergence gap | The effective classical, public, temporal, or geometric object is described but its formation is not fully derived. | A formation law with converse, resources, and limits |
+| Integration boundary | Two successful frameworks do not yet fit together without importing incompatible primitives. | A bridge theorem, translation, or sharply located remainder |
+| Reconstruction nonuniqueness | The proposed evidence reconstructs many inequivalent underlying structures. | Assumption-minimal uniqueness, gauge classification, or an irreducible ambiguity theorem |
+| Ontological underdetermination | Operational sufficiency does not decide what is fundamental. | A generative or explanatory advantage, risky consequence, or proof that priority is undecidable |
 
-## Representative theory-family entry points
+A tension can occupy more than one row. Its type should be stated rather than
+converted into one severity score.
 
-This index is deliberately plural. Several rows contain families rather than
-one mathematically fixed theory, and a proposal may occupy more than one row.
-Use the named entry point to unpack it; do not rank the rows as if they were
-competing on one axis.
+## Do not flatten the scientific objects
 
-| Family or label | First object type | First clarification | Cheapest DU-facing contrast |
-|---|---|---|---|
-| Textbook or “Copenhagen” cluster | Operational practice plus a heterogeneous interpretation family | Specify the state-update rule, system/apparatus cut, and whether collapse is physical, effective, or epistemic; the label alone is too broad. | Defer the measurement, include the apparatus and memory, and ask whether any complete-process prediction changes. |
-| Everett or unitary-only families | Interpretation of unitary quantum theory | Specify branch identity, probability/measure rule, observer records, and whether any extra dynamics is proposed. | Run the full-unitary record/uncomputation absorber; escalate only for a distinct operational or explanatory theorem. |
-| de Broglie--Bohm or pilot-wave families | Usually a `psi`-supplemented ontological model | Specify the configuration ontology, guidance law, equilibrium assumptions, and relativistic/QFT completion being claimed. | Compare the complete admitted statistics and capabilities at matched equilibrium; a difference requires an explicit nonequilibrium or modified-dynamics consequence. |
-| Objective-collapse families | Dynamical modification | Specify the stochastic law, collapse operators, rate/scale, energy accounting, covariance, and no-signalling regime. | Derive the smallest master-equation residual and collide it with interferometric, heating, radiation, and clock bounds before adding record language. |
-| `psi`-epistemic ontological models | Ontological-model family | Supply `lambda`, `mu`, `xi`, support overlap, composition, and contextuality assumptions. | Use the finite feasibility card and independently switch PBR preparation independence and generalized noncontextuality constraints. |
-| QBist, personalist, and closely agent-centered families | Interpretation or normative operational framework | Ask whether an observer-independent `lambda` is posited at all; do not force the view into the Harrigan--Spekkens support taxonomy. | Freeze a multi-agent protocol and ask whether it predicts anything beyond standard quantum coherence and probability-consistency requirements. |
-| Relational quantum mechanics | Relational interpretation | Specify which facts are relative, what physically stores them, and how cross-perspective comparison works. | Three-agent coherent reconciliation with full route, memory, frame, and provenance controls. |
-| Quantum reference frames | Transformation and constrained-system framework | Specify the perspective-neutral structure, gauge fixing, and the observable claimed to survive frame change. | Verify the full process under frame transformations before treating a route-dependent effect as curvature. |
-| Consistent/decoherent histories | Histories framework | Specify the history family, decoherence functional, consistency condition, and cross-family identity rule. | Same endpoint, different history, held-out intervention; do not glue incompatible families by label. |
-| Decoherence, Quantum Darwinism, and SBS | Emergence and objectivity mechanisms | Separate suppression of interference, pointer selection, redundant accessibility, independent support, public incompatibility, and action. | Give the strongest SBS null identical fragments and access, then add adversary and action semantics. |
-| GPT and box-world landscapes | Operational meta-framework | Freeze systems, compositions, effects, transformations, causality, and the target theory class. | Two-sided local/quantum/no-signalling foil test with positive membership and exclusion receipts kept separate. |
-| Quantum causal models and process-matrix families | Causal framework | State whether causal order, common-cause structure, factorization, or process composition is being generalized. | Construct the smallest quantum common cause or indefinite-order fixture and ask what independent DU constraint remains. |
-| Process tensors and quantum combs | Multi-time operational framework | Declare all intervention slots, memories, controls, and accessible outputs. | Reconstruct the implementation-complete process before treating an endpoint residual as new physics. |
-| QFT and algebraic QFT | Relativistic quantum framework | Specify local algebras/fields, state, coupling region, instrument, causal factorization, and renormalized observable. | Translate the candidate into a local system--probe measurement before claiming covariant finality. |
-| Causal-set programs | Quantum-gravity reconstruction/dynamics family | Separate order, growth labels, dynamics, covariant events, continuum recovery, and metric scale. | Relabeling and benign-subdivision audit plus nonisomorphic same-record countermodels. |
-| Holography and tensor-network reconstruction | Duality/reconstruction family | Specify code subspace, boundary algebra, bulk reconstruction region, state dependence, and error regime. | Hold boundary operational data fixed and search for inequivalent bulk/reconstruction maps before inferring unique geometry. |
-| Semiclassical gravity | Hybrid approximation regime | Specify the quantum matter state, classical metric equation, backreaction prescription, and validity domain. | Compare equal stress-energy but different proposed record structure; demand a quantitative gravitational residual and conservation check. |
-| Full quantum-gravity programs | Several non-equivalent theory and reconstruction families | Name the actual program and its primitives; “quantum gravity” is not one comparator. | Test one precise recovery map or no-go boundary at a time; no universal cheap test spans all programs. |
+| Object type | What it contributes | Typical tension |
+|---|---|---|
+| Operational framework | Defines possible preparations, transformations, measurements, and statistics. | Why this operational theory rather than a weaker or more permissive one? |
+| Ontological model | Represents operational procedures through declared physical states and response rules. | Which ontological assumptions are required, and are they local, contextual, or compositional? |
+| Interpretation | Explains how to understand a shared formalism. | Is the disagreement empirically underdetermined, or does it imply a distinct structure? |
+| Causal model | Explains correlations through causes, interventions, and factorization rules. | What replaces classical common-cause factorization without making causation empty? |
+| Emergence mechanism | Produces effective pointer observables, records, or objectivity. | When does effective stability become public, final, or action-enabling? |
+| Dynamical modification | Changes physical evolution or outcome laws. | What quantitative delta survives standard theory and existing bounds? |
+| No-go theorem | Excludes a conjunction of assumptions. | Which assumption should be changed, and what constructive framework replaces it? |
+| Relativistic framework | Supplies local fields or algebras, covariance, and spacetime composition. | How are measurement, state update, and records localized consistently? |
+| Reconstruction program | Derives one structure from another under axioms. | Is the result unique, noncircular, unit-bearing, and predictive? |
 
-## The Spekkens ontological-model tool
+## The Spekkens lenses without overextension
 
-### Formal passport
+### `psi` ontology
 
-For an ontological model, declare preparations `P`, measurements `M`, outcomes
-`k`, an ontic space `Lambda`, preparation distributions `mu(lambda|P)`, and
-measurement response functions `xi(k|M,lambda)` such that
+In an ontological model, preparations `P` induce distributions
+`mu(lambda|P)` over an ontic state `lambda`, and measurement outcomes have
+responses `xi(k|M,lambda)`:
 
 ```text
 p(k|P,M)
-    = integral_Lambda xi(k|M,lambda) mu(lambda|P) d lambda.
+    = integral xi(k|M,lambda) mu(lambda|P) d lambda.
 ```
 
-Harrigan and Spekkens define a model as:
+Harrigan and Spekkens call a model:
 
-- **`psi`-ontic** when distributions representing every pair of distinct pure
-  quantum states have disjoint support; the ontic state fixes the pure
-  quantum state.
-- **`psi`-epistemic** when at least one pair of distinct pure-state
-  distributions overlaps; one ontic state can be compatible with more than
-  one pure quantum state.
+- **`psi`-ontic** when distinct pure quantum states have disjoint ontic
+  support; and
+- **`psi`-epistemic** when at least one distinct pair overlaps.
 
-This is a model-relative support statement, not the informal claim that “the
-wavefunction is knowledge.” See
+Keep `psi`-complete and `psi`-supplemented on a separate completeness axis.
+These are properties of a specified ontological model, not loose synonyms for
+realist, informational, relational, or observer-dependent interpretations.
+Approaches that do not posit the required observer-independent single-system
+`lambda` are outside this classifier rather than forced into one cell. See
 [Harrigan and Spekkens](https://arxiv.org/abs/0706.2661).
 
-Keep a second axis separate:
+**The tension.** Quantum-information language often mixes at least four
+different claims: ignorance about one objective state, relational state,
+agent-indexed belief, and incomplete access to a physical process. The
+Harrigan--Spekkens classifier cleanly handles the first kind but does not by
+itself organize the other three or their composition across observers.
 
-| Class | Relation between `psi` and `lambda` |
-|---|---|
-| `psi`-complete | `psi` itself is the complete ontic state. It is therefore `psi`-ontic. |
-| `psi`-supplemented | `psi` is ontic but additional variables supplement it. |
-| `psi`-epistemic | Distinct pure-state preparations overlap in ontic support. |
-| Outside this passport | The approach does not posit the required observer-independent single-system ontic state `lambda`, or uses a materially different relational/ensemble ontology. Do not force it into a cell. |
+**Potential DU delta.** A certified, record-relative ontology could define
+when an observer-relative state is:
 
-### Four independent questions
+- uncertainty over a shared ontic state;
+- a quotient of histories under that observer's interventions;
+- a relational state between physical systems; or
+- an incomplete view whose omitted structure later changes capability.
 
-Do not infer one answer from another:
+The contribution would be a translation and composition law among those
+types, not the slogan that quantum states are “really records.”
 
-1. **State ontology:** do distinct `psi` preparations overlap over `lambda`?
-2. **Completeness:** is `psi` the whole ontic state or supplemented?
-3. **Contextuality:** do operationally equivalent procedures receive the same
-   ontological representation?
-4. **Causal locality:** does the model obey the declared Bell-local/common-cause
-   factorization?
+### PBR
 
-A model may be `psi`-epistemic yet contextual or nonlocal. A model may be
-`psi`-ontic yet incomplete. A relational or personalist interpretation may
-decline the ontic-state contract rather than occupy either support class.
+Pusey, Barrett, and Rudolph exclude overlapping pure-state distributions when
+independently prepared systems also have independent physical states under
+their ontological-model assumptions
+([source](https://arxiv.org/abs/1111.3328)).
 
-### Conditional no-go tools
+**The tension.** Preparation independence is mathematically powerful and
+physically motivated, but it is also exactly where a relational,
+network-based, globally constrained, or common-source ontology may differ.
+Rejecting it casually makes a model permissive; assuming it silently makes
+the no-go look universal.
 
-- **Generalized contextuality.** Operationally equivalent preparations,
-  measurement events, or transformations are represented identically in a
-  noncontextual ontological model. Spekkens derives separate preparation,
-  unsharp-measurement, and transformation contextuality no-gos
-  ([source](https://arxiv.org/abs/quant-ph/0406166)). The procedure type and
-  operational equivalence must be frozen before the test.
-- **PBR.** Overlapping pure-state distributions conflict with quantum
-  predictions when independently prepared systems also have independent
-  physical states under the PBR ontological-model contract
-  ([source](https://arxiv.org/abs/1111.3328)). This is
-  `EXCLUDED_UNDER_DECLARED_ASSUMPTIONS`; it is not “all epistemic
-  interpretations are disproven.”
-- **Toy-theory foil.** Spekkens' knowledge-balance toy theory constructively
-  reproduces many phenomena often described as uniquely quantum while not
-  reproducing Bell and Kochen--Specker phenomena
-  ([source](https://arxiv.org/abs/quant-ph/0401052)). Matching interference,
-  no-cloning-like behavior, or teleportation-like behavior alone therefore
-  does not locate the quantum residue.
+**Potential DU delta.** Dynamic Unity could characterize which certified
+causal separations warrant ontic preparation independence, when shared
+history or inaccessible provenance defeats it, and what weaker composition
+principle still has empirical content. That would turn a disputed assumption
+into a derived or operationally typed relation.
 
-### Cheapest `psi`-ontology test
+### Generalized contextuality
 
-When a DU proposal makes an ontological claim, do not begin with a new
-experiment. Begin with a finite ontological-model feasibility card:
+Spekkens defines noncontextuality by requiring operationally equivalent
+preparations, measurement events, or transformations to have the same
+ontological representation
+([source](https://arxiv.org/abs/quant-ph/0406166)).
 
-1. enumerate the operational preparations, transformations, and measurement
-   events actually used;
-2. declare `lambda`, `mu`, and `xi`, or return `OUTSIDE_THIS_PASSPORT`;
-3. test pure-state support overlap;
-4. switch preparation independence on and off rather than hiding it;
-5. impose preparation, measurement, and transformation noncontextuality
-   separately; and
-6. return an explicit model, a dual infeasibility certificate, or
-   `UNDERIDENTIFIED`.
+**The tension.** Contextuality shows that one rigid context-independent
+representation fails, but unconstrained context splitting can represent
+anything. The missing middle is a physical account of exactly which
+occurrences must be identified across contexts.
 
-Dynamic Unity does not yet have a dedicated general `psi`-ontology compiler.
-The reusable pattern is the exact primal-or-Farkas marginal compiler in
-[`du_multitime_marginal_transfer_probe.py`](../tests/du_multitime_marginal_transfer_probe.py),
-but a future ontology compiler must not pretend that a Bell-local joint
-distribution is the whole ontological-model problem.
-
-## Discrepancy families and their cheapest tests
-
-### 1. Operational expressiveness
-
-**Question.** Is the proposed behavior classical/local, ordinary quantum,
-post-quantum but no-signalling, signalling, invalid, or simply unresolved?
-
-**Known tool.** GPTs locate theories in a common operational landscape;
-no-signalling alone permits PR-box correlations stronger than quantum theory.
-See [Barrett's GPT framework](https://arxiv.org/abs/quant-ph/0508211) and
-[Popescu--Rohrlich](https://doi.org/10.1007/BF02058098).
-
-**Cheap test.** Freeze the complete conditional table and identities, then run
-the [landscape probe](../tests/du_operational_theory_landscape_probe.py):
-validity, no-signalling, exact local extension or obstruction, explicit
-quantum realization or exclusion, and a permissive no-signalling foil.
-
-**Escalate when.** An independently motivated principle retains the quantum
-target while excluding both the restrictive classical foil and the
-too-permissive foil. Bell violation or Tsirelson compliance alone is not that
-principle.
-
-### 2. Classical common cause versus quantum common cause
-
-**Question.** Does a Bell obstruction require superluminal influence, or can
-the common-cause and inference framework itself be generalized?
-
-**Known tool.** Quantum causal models replace classical conditional
-factorization with a quantum common-cause condition rather than merely adding
-a signalling edge; see
-[Allen et al.](https://arxiv.org/abs/1609.09487).
-
-**Cheap test.** State the classical factorization that fails, construct the
-smallest quantum channel/common-cause realization, and test whether the DU
-proposal adds a restriction not already present in the quantum causal model.
-
-**Escalate when.** DU derives a new operational constraint, composition law,
-or finite separation inside the quantum-causal landscape. Rephrasing the
-quantum common cause as a record network is absorbed.
-
-### 3. Cross-context identity and generalized contextuality
-
-**Question.** Which occurrences in different contexts are physically the
-same?
-
-**Known tool.** Generalized contextuality and marginal-extension methods test
-whether declared operational equivalences admit a common ontological or
-global representation.
-
-**Cheap test.** Use the
-[certified-overlap identity probe](../tests/du_certified_overlap_identity_probe.py)
-before the
-[general marginal compiler](../tests/du_multitime_marginal_transfer_probe.py).
-Keep this ladder:
+**Potential DU delta.** A certified-overlap identity theory could derive the
+weakest cross-context identity warranted by physical history, provenance,
+continuation, and upper-layer action:
 
 ```text
 same label
@@ -289,270 +177,322 @@ same label
     != same upper action.
 ```
 
-**Escalate when.** A physical selector warrants the required identities
-without either importing one global classical biography or splitting every
-occurrence by context. A contextuality obstruction alone does not select that
-middle.
+This is one of the most direct openings for the current program.
 
-### 4. Endpoint state versus temporal process
+### The toy-theory and PR-box squeeze
 
-**Question.** Are two histories physically equivalent because their terminal
-states agree?
+Spekkens' toy theory reproduces many phenomena casually called “quantum”
+without Bell or Kochen--Specker contextuality
+([source](https://arxiv.org/abs/quant-ph/0401052)). PR boxes exceed quantum
+Bell strength without signalling. GPTs therefore squeeze ordinary quantum
+theory between weaker knowledge-restricted and stronger no-signalling
+possibilities; see [Barrett](https://arxiv.org/abs/quant-ph/0508211) and
+[Popescu--Rohrlich](https://doi.org/10.1007/BF02058098).
 
-**Known tool.** Process tensors reconstruct multi-time processes with memory
-from interventions and separate endpoint agreement from temporal
-correlations; see
+**The tension.** Neither “epistemic restriction,” “contextuality,” “Bell
+violation,” nor “no-signalling” uniquely selects quantum theory.
+
+**Potential DU delta.** A causal-record composition or finality principle
+would matter if it independently excludes both the lower and upper foils and
+recovers quantum-strength behavior. Merely reproducing the known nesting is
+not a delta.
+
+## Representative theory families: reach, tension, and DU opening
+
+These are entry points, not mutually exclusive boxes or an exhaustive
+bibliography.
+
+| Family | Established reach | Live tension or boundary | Potential Dynamic Unity opening |
+|---|---|---|---|
+| Textbook or “Copenhagen” cluster | Highly successful operational quantum predictions | The label hides different claims about collapse, the system/apparatus cut, and whether update is physical or epistemic | Type the cut as a physical record/access boundary and determine whether its movement is gauge, dual, or consequential |
+| Everett and unitary-only families | Preserve universal unitary dynamics and model observers within it | Branch identity, probability, preferred structure, and public facts require additional explanatory work | Derive branch/record identity and action capability from certified histories without inserting a preferred classical decomposition |
+| de Broglie--Bohm and pilot-wave families | Supply a clear `psi`-supplemented ontology and deterministic guidance in developed regimes | Quantum equilibrium, nonlocality, relativistic/QFT completion, and empirical equivalence delimit its reach | Compare whether certified record structure is a quotient of the ontology, dual to it, or misses a capability-relevant remainder |
+| Objective-collapse families | Supply explicit physical finalization dynamics and measurable deviations | Collapse scale, covariance, energy cost, and empirical bounds constrain the theory | Derive a non-arbitrary finalization trigger from record formation or show why any such trigger requires extra physics |
+| `psi`-epistemic ontological models | Explain some quantum uncertainty as overlap over physical states | PBR-type composition, contextuality, and high-dimensional no-gos sharply constrain the class | Replace assumed preparation composition with a certified causal composition law that remains restrictive |
+| QBist and agent-centered families | Give a disciplined account of probabilities as agent-relative commitments | The physical source of stable intersubjective agreement and observer constitution is not their primary target | Supply the physical record/capability layer underneath agent-relative probability without pretending QBism itself posits `lambda` |
+| Relational quantum mechanics | Treats facts and quantum states as relational between physical systems | Cross-perspective accessibility, durable agreement, and composition of relative facts remain active issues | Define certified perspective gluing and identify when a joint fact is created, inherited, or impossible |
+| Quantum reference frames | Gives explicit transformations among quantum perspectives and a perspective-neutral structure | It does not alone establish public finality, unique observer boundaries, or ontological priority | Add a record/capability invariant over frame changes and locate any genuine reconciliation remainder |
+| Consistent or decoherent histories | Represents temporal alternatives through consistent history families | Different consistent families need not combine into one biography | Give a typed gluing rule for compatible certified histories and a principled account of irreducible family plurality |
+| Decoherence, Quantum Darwinism, and SBS | Explain suppression of interference, pointer stability, and redundant environmental records | Redundancy/objectivity does not automatically supply adversarial finality, provenance, or action rights | Derive the exact transition from record proliferation to fault-qualified public capability, or prove it is fully absorbed by SBS plus access |
+| Quantum error correction | Explains protected logical information and access-dependent reconstruction | A logical observable is not automatically a public fact, and decoder/adversary choice matters | Establish conditions under which the correctable logical algebra equals the public action algebra |
+| GPT and box-world landscapes | Locate classical, quantum, and post-quantum operational possibilities | An independent selection principle for ordinary quantum theory remains incomplete | Derive a quantum-strength constraint from causal certification or show the record architecture is neutral among GPTs |
+| Quantum causal models | Generalize common-cause explanation and conditional independence to quantum systems | Several quantum causal formalisms exist, and causal discovery/selection remains difficult | Connect certified history and intervention structure to one nontrivial quantum causal factorization or selection theorem |
+| Process tensors and quantum combs | Give complete operational descriptions of multi-time processes with memory | They characterize processes but do not by themselves decide which histories are public, final, or ontologically primary | Add a certified-history quotient and show whether capability factors through it or exposes a remainder |
+| QFT and algebraic QFT | Supply relativistic local fields/algebras, covariance, and highly successful particle physics | Measurement localization, state update, and integration with gravity remain distinct boundaries | Formulate records and finality as local probe-induced instruments whose composition respects causal factorization |
+| Causal-set programs | Treat causal order as fundamental and develop covariant growth/recovery programs | Dynamics, quantum measure, manifold recovery, scale, and observer records remain nontrivial | Distinguish global causal order from regional certified access and derive recursive observer-relative quotients without importing geometry |
+| Holography and tensor-network reconstruction | Relate boundary information, code subspaces, geometry, and bulk reconstruction | Reconstruction is code-subspace-, access-, and sometimes state-dependent; ontology does not follow from duality | Treat boundary certificates and entanglement wedges as capability-relative record quotients and seek a uniqueness or remainder theorem |
+| Semiclassical gravity | Couples quantum matter descriptions to a classical metric in a controlled approximation | Backreaction, state reduction, fluctuations, and regime of validity remain difficult | Determine whether physically formed public records contribute anything beyond stress-energy and known fluctuations |
+| Full quantum-gravity programs | Offer several non-equivalent routes to quantum spacetime | Their primitives, observables, recovery maps, and low-energy limits differ; there is no single “quantum gravity tension” | Use certified causal reality as a comparison language only if one invariant statement transfers without redefining records or geometry |
+
+## Cross-cutting tensions most relevant to Dynamic Unity
+
+### 1. Identity between rigidity and unconstrained splitting
+
+**Established.** Contextual and relational descriptions block one naive global
+biography.
+
+**Tension.** If every occurrence is split by context, consistency becomes
+trivial and no shared reality is explained.
+
+**Potential DU delta.** A physical identity-selection law grounded in
+certified multi-time history, provenance, and action.
+
+**Not a delta.** Another contextuality witness or a context label added after
+the fact.
+
+### 2. Local facts versus joint public facts
+
+**Established.** Quantum systems can carry locally inaccessible joint
+information; environments and codes can distribute accessible records.
+
+**Tension.** Local readability, redundant agreement, logical protection,
+common knowledge, and safe public action are different structures.
+
+**Potential DU delta.** Necessary-and-sufficient conditions for a set of
+regional records to form one incompatibility-resistant public action algebra.
+
+**Not a delta.** Calling consensus confidence, redundancy, or decoherence
+“finality.”
+
+### 3. Static process description versus actual formation
+
+**Established.** A sufficiently enlarged standard quantum process can encode
+finite histories, memories, thresholds, and routes.
+
+**Tension.** That representation does not by itself explain why one record
+interface forms, becomes durable, or acquires action authority.
+
+**Potential DU delta.** A formation/selection law that narrows the full
+stability--formation freedom and produces a capability consequence.
+
+**Not a delta.** Adding a classical finality register that merely controls
+ordinary CPTP dynamics.
+
+### 4. Quantum common cause versus selection of quantum strength
+
+**Established.** Bell-classical common-cause factorization can be replaced by
+quantum common causes without superluminal signalling. Quantum correlations
+remain weaker than all no-signalling correlations; see
+[Allen et al.](https://arxiv.org/abs/1609.09487).
+
+**Tension.** The generalized causal framework permits quantum explanation but
+does not automatically explain why physical correlations occupy precisely
+the quantum region.
+
+**Potential DU delta.** A certified causal-composition or finality axiom that
+selects a quantum bound while retaining the classical limit.
+
+**Not a delta.** Restating Bell nonlocality, no-signalling, or the Tsirelson
+bound.
+
+### 5. Relative facts versus perspective composition
+
+**Established.** Relational quantum mechanics and quantum reference frames
+make observer-relative descriptions coherent; see
+[cross-perspective links](https://arxiv.org/abs/2203.13342) and
+[perspective-neutral quantum frames](https://arxiv.org/abs/1809.00556).
+
+**Tension.** Pairwise consistency need not uniquely determine a global
+composition, durable joint past, or public action surface.
+
+**Potential DU delta.** A perspective-gluing law whose path dependence is
+either classified as ordinary frame/interface structure or survives as a
+genuine compositional invariant.
+
+**Not a delta.** An ordinary geometric, gauge, or routed implementation phase
+renamed “perspectival curvature.”
+
+### 6. Histories versus endpoints
+
+**Established.** Process tensors characterize multi-time memory-bearing
+quantum processes; see
 [Pollock et al.](https://arxiv.org/abs/1512.00589).
 
-**Cheap test.** Hold the terminal state fixed, insert one held-out
-intervention or causal break, and compare complete continuations. Use the
-[physical-history certificate probe](../tests/du_physical_history_certificate_transfer_probe.py)
-and typed identity probe before proposing new dynamics.
+**Tension.** A complete process description still does not identify which
+history distinctions are certified, public, or sufficient for future action.
 
-**Escalate when.** A residual survives an implementation-complete process
-description rather than an omitted route, memory, control port, or
-environmental support.
+**Potential DU delta.** A certified-history quotient with a factorization
+theorem or finite physical remainder.
 
-### 5. Measurement record versus new finality dynamics
+**Not a delta.** Distinguishing histories only because a route or memory port
+was omitted from the process description.
 
-**Question.** Does a layered or regional finality architecture depart from
-standard quantum theory, or merely provide a classical-quantum control and
-access description over a larger Hilbert space?
+### 7. Objectivity versus adversarial finality
 
-**Known tool.** Deferred measurement, Stinespring dilation, quantum
-instruments, open-system memory, and routed processes absorb a broad class of
-finite record/finality labels.
+**Established.** Quantum Darwinism and SBS describe redundant,
+observer-accessible classical information; see
+[Quantum Darwinism](https://arxiv.org/abs/0911.4307) and
+[SBS](https://arxiv.org/abs/1401.1712).
 
-**Cheap test.** Run the
-[entangled-finality absorption probe](../tests/du_entangled_finality_absorption_probe.py).
-Include every quantum and classical memory, uncompute reversible records,
-then perform an implementation-complete causal break and reprepare the
-declared system and memory.
+**Tension.** State-level objectivity does not automatically define
+incompatible actions, fault assumptions, provenance, rollback, or which
+observers possess sufficient access.
 
-**Escalate when.** A preregistered residual survives that reset, preserves
-no-signalling and complete positivity where claimed, and cannot be reproduced
-by a standard process with a larger admitted memory. Otherwise the result is
-a useful architecture inside quantum theory, not a modification of it.
+**Potential DU delta.** A theorem connecting physical record structure to
+fault-qualified public capability, with conditions under which SBS already
+absorbs the result.
 
-### 6. Private record, public objectivity, and action
+**Not a delta.** A new redundancy threshold without a new operational
+consequence.
 
-**Question.** When does a locally available record become a public,
-fault-qualified, action-enabling fact?
+### 8. Regional finality versus one global/local dichotomy
 
-**Known tools.** Decoherence selects stable effective observables; Quantum
-Darwinism studies redundant environmental information; spectrum broadcast
-structure gives a strong state-level form of objective record proliferation.
-See [Quantum Darwinism](https://arxiv.org/abs/0911.4307) and
-[spectrum broadcast structure](https://arxiv.org/abs/1401.1712).
+**Established.** Distributed systems, quantum networks, codes, and causal
+models support layered and regional effective descriptions.
 
-**Cheap test.** Give the strongest SBS/strong-QD description the same
-environment fragments, support independence, and access data as the DU
-candidate. Then add an explicit adversary, incompatible action, provenance
-rule, and split-view attack. Use the
-[layered-threshold objectivity probe](../tests/du_layered_threshold_objectivity_probe.py)
-and
-[regional-finality descent probe](../tests/du_regional_finality_descent_probe.py).
+**Tension.** There is no generally accepted physical law saying when a
+network of record-bearing systems becomes a higher-layer entity with its own
+valid facts and capabilities.
 
-**Escalate when.** A public-finality theorem supplies a converse or
-operational capability not determined by the complete SBS description,
-rather than counting copies or agreement.
+**Potential DU delta.** Recursive regional composition through independently
+formed, action-sufficient boundary certificates, invariant under benign
+refinement.
 
-### 7. Logical code versus public reality
+**Not a delta.** Mapping nodes and edges from a consensus protocol onto
+particles and entanglement without a transferable statement.
 
-**Question.** Are public facts protected logical observables, and does code
-access determine who can act on them?
+### 9. Quantum measurement versus relativistic localization
 
-**Known tool.** Operator-algebra quantum error correction separates the
-logical algebra, correctable regions, decoders, adversary access, and
-thresholds.
+**Established.** Fewster--Verch models measurements through local probe
+couplings and causal factorization in AQFT; naive ideal measurement can
+produce Sorkin-type problems. See
+[Fewster--Verch](https://arxiv.org/abs/1810.06512) and
+[Sorkin](https://arxiv.org/abs/gr-qc/9302018).
 
-**Cheap test.** On the smallest stabilizer or subsystem code, freeze the
-logical fact and vary erasure/adversary access. Compare the correctable
-logical algebra with the DU public action algebra. Reuse method kits `K0`,
-`K2`, `K5`, and `K8` in the
-[efficient-approach registry](../explorations/ten-lens-hypothesis-efficient-approach-registry-2026-07-24.md).
+**Tension.** A record/finality theory must say where and how its physical
+operation lives in QFT, rather than adding a global collapse or abstract
+observer cut.
 
-**Escalate when.** The correspondence has both directions under declared
-conditions, or a tight counterexample isolates the extra ingredient. Calling
-record fragments a code without a decoder/access theorem is analogy.
+**Potential DU delta.** A locally covariant record instrument and composition
+law that connects relativistic measurement to public finality or exposes a
+precise obstruction.
 
-### 8. Relational perspective versus measurable perspectival structure
+**Not a delta.** Declaring a record law covariant without a local physical
+coupling or induced observable.
 
-**Question.** Do observer-relative descriptions merely transform within
-ordinary quantum theory, or does reconciliation order/topology create a new
-observable?
+### 10. Causal order versus observer-accessible reality
 
-**Known tools.** Relational quantum mechanics and cross-perspective links
-address intersubjective records; quantum reference frames give explicit
-perspective transformations; Wigner-friend no-gos expose conditional tensions
-among locality, setting freedom, and absolute observed events. See
-[cross-perspective links](https://arxiv.org/abs/2203.13342),
-[perspective-neutral quantum frames](https://arxiv.org/abs/1809.00556), and
-the [local-friendliness no-go](https://arxiv.org/abs/1907.05607).
+**Established.** Causal-set and histories programs can assign global or
+covariant order structures; relational theories emphasize local perspective.
 
-**Cheap test.** Use three coherent agents. Hold local reduced states,
-pairwise final record overlaps, complete controls, and standard geometric
-phases fixed; vary only reconciliation order or route. Quotient ordinary
-quantum-frame and implementation phases before calling a remainder
-“perspectival curvature.”
+**Tension.** Neither a single global order nor isolated local perspectives
+alone capture changing regional access, recursive certification, and
+different finality conditions across levels.
 
-**Escalate when.** A loop-dependent phase, cost, or joint outcome survives
-complete routed-process tomography and cannot be removed by a frame,
-interface, memory, or provenance refinement.
+**Potential DU delta.** A dynamic relational topology of networks of record
+networks: global causal possibility, regional certified quotients, and
+observer-level access composed without one privileged biography.
 
-### 9. Regional and recursive finality
+**Not a delta.** Another graph hierarchy whose depth or distance changes
+under harmless subdivision.
 
-**Question.** Can local record networks become higher-layer nodes with
-different finality and access rules without postulating one privileged global
-record set?
+### 11. Record reconstruction versus unique geometry
 
-**Known tools.** Distributed consensus, hypergraph descent, authenticated
-provenance, QEC, open quantum systems, and process tensors already support
-layered effective architectures. Their existence does not establish a new
-physical ontology.
+**Established.** Order, correlations, entanglement, spectra, and boundary data
+can encode substantial geometric information in several programs.
 
-**Cheap test.** Begin with the
-[regional descent kernel](../tests/du_regional_finality_descent_probe.py),
-[endogenous selector](../tests/du_endogenous_regionalization_probe.py), and
-[noisy noninvertible descent](../tests/du_noisy_noninvertible_descent_probe.py).
-Then run benign subdivision, relabeling, interface-refinement, and split-view
-controls.
+**Tension.** The same accessible record structure may admit inequivalent
+geometries, scales, observers, or bulk reconstructions.
 
-**Escalate when.** One typed composition law transfers unchanged between an
-authenticated distributed fixture and an implementation-complete quantum
-fixture, predicts a strict capability difference, and survives refinement.
-Architecture alone is valuable but remains `STRUCTURAL_ANALOGY`.
+**Potential DU delta.** An assumption-minimal reconstruction theorem up to a
+declared gauge, or a no-go identifying the irreducible missing physical
+structure.
 
-### 10. Relativistic measurement and QFT
+**Not a delta.** Reading graph distance, entropy, or causal depth as metric
+geometry without uniqueness and a unit-bearing map.
 
-**Question.** Can the proposed record/finality operation be localized and
-composed in relativistic quantum field theory?
+### 12. Operational sufficiency versus information fundamentality
 
-**Known tool.** Naively importing ideal quantum-mechanical state reduction
-into QFT can create Sorkin-type causal problems. The Fewster--Verch framework
-instead models a local probe QFT, bounded coupling region, induced
-observables, instruments, and causal factorization; see
-[Fewster and Verch](https://arxiv.org/abs/1810.06512) and the motivating
-[Sorkin measurement problem](https://arxiv.org/abs/gr-qc/9302018).
+**Established.** Physics-first and information/record-first descriptions can
+often translate into one another or relocate their boundary while preserving
+observations.
 
-**Cheap test.** Before new apparatus work, translate the candidate into a
-local system--probe coupling with an explicit causal hull. Check causal
-factorization for ordered and spacelike-disjoint couplings, record every
-probe resource, and locate the induced observable.
+**Tension.** Operational equivalence does not say which description is
+fundamental.
 
-**Escalate when.** The candidate produces a well-defined local instrument or
-a precise obstruction not absorbed by current relativistic measurement
-frameworks. Microcausality or covariance alone does not certify a measurement
-operation.
+**Potential DU delta.** Record-first structure would need a noncircular
+generative law, uniqueness or compression advantage, and a novel consequence.
+Alternatively, a rigorous duality or undecidability theorem may show why
+priority cannot be operationally settled.
 
-### 11. Causal order, geometry, and quantum gravity
+**Not a delta.** Re-encoding the same physical process as information and
+announcing that information is fundamental.
 
-**Question.** Is geometry reconstructed from record/access relations, or was
-order, dimension, metric scale, boundary factorization, or a preferred
-history inserted?
+## Candidate Dynamic Unity delta families
 
-**Known tools.** Causal sets, tensor-network/holographic reconstruction,
-algebraic QFT, quantum reference frames, and quantum-gravity programs use
-different primitives and recover different targets. They are not one theory
-family.
+The current opportunities cluster into a small number of possible
+contributions. These are candidates, not promoted claims:
 
-**Cheap test.** Generate nonisomorphic models with the same proposed record
-surface before fitting a geometry. Test benign subdivision and relabeling,
-uniqueness only up to a declared gauge, held-out geometric observables, and a
-unit-bearing scale map. Use method kit `K9` and the
-[cross-repo hardening controls](../lab/process/cross-repo-hardening-control-contract.md).
+| Delta family | Missing relation DU could supply | Current program home |
+|---|---|---|
+| Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
+| Record formation and interface selection | Explain why one stable, accessible record algebra forms rather than merely classifying supplied channels | `HC-DU-033` |
+| Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
+| Public-finality composition | Derive when regional records form a safe public action algebra under faults and access limits | `HC-DU-035/035C` |
+| Record sufficiency or physical remainder | Prove factorization through a certified quotient or locate the minimal irreducible physical structure | `HC-DU-036` |
+| Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
+| Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it | `HC-DU-038` |
+| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations | `HC-DU-039` |
+| Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder | `HC-DU-040` |
 
-**Escalate when.** Added assumptions remove the countermodels one by one and
-produce a held-out geometric or field-theoretic prediction. A recovered
-partial order, graph distance, or area-like count is not yet spacetime.
+## Pointers, not prescriptions
 
-### 12. Record sufficiency versus ontological fundamentality
+Once a tension and candidate delta are selected, future leads can find methods
+and evidence here:
 
-**Question.** If every admitted prediction and capability factors through a
-certified record quotient, does that prove records are fundamental?
+- [Certified Causal Reality agenda](certified-causal-reality-research-program.md)
+  — canonical theorem spine, dependencies, hypotheses, and benchmarks.
+- [Lane state](../LANES.yaml) — current work and grades.
+- [Concept register](../explorations/concept-register.md) — concepts,
+  invariants, and families of formalizations.
+- [Prediction register](../explorations/prediction-register.md) — measurable
+  physical consequences and blockers.
+- [Operational-theory landscape contract](../lab/process/operational-theory-landscape-contract.md)
+  — force, permit, foil, and theory-membership distinctions.
+- [Conditional and abductive contract](../lab/process/conditional-and-abductive-research-contract.md)
+  — non-ordinal warrants and comparative rival reasoning.
+- [Known challenges and adversaries](../lab/process/known-challenges-and-adversaries.md)
+  — recurring absorbers and class-relative no-gos.
+- [Efficient-approach registry](../explorations/ten-lens-hypothesis-efficient-approach-registry-2026-07-24.md)
+  — method kits for already named hypotheses.
+- [Executable test index](../tests/README.md) — existing probes and their
+  limits.
+- [Paper-opportunity portfolio](../papers/paper-opportunity-portfolio.json) —
+  paper-shaped custody after a contribution is clear.
 
-**Known tool.** Operational equivalence and boundary relocation can preserve
-all subsystem observations while moving information between “inside” and
-“outside.” Sufficiency does not choose metaphysical priority.
+These tools inform a later approach. They do not define the tension or the
+scientific delta in advance.
 
-**Cheap test.** Run the agenda's factorization-or-witness comparison under
-the strongest independently admissible completion class. Then test whether a
-physics-first and record-first representation translate both ways with no
-resource or intervention remainder.
+## Prioritization use
 
-**Escalate when.** Record-first structure also earns a noncircular generative
-law, uniqueness or compression advantage, and a novel consequence. Otherwise
-the honest result is operational duality.
+When agents compare possible directions, ask:
 
-## Existing Dynamic Unity cheap-test router
+1. Is the tension a real unresolved relation, or only a broad label such as
+   “the measurement problem” or “quantum gravity”?
+2. Is it internal, assumption-relative, underdetermined, compositional,
+   emergent, integrative, reconstructive, or ontological?
+3. Does the proposed DU delta add a relation, selector, theorem, dynamics,
+   recovery, or prediction absent from the strongest nearby framework?
+4. Would the same idea be fully expressible by adding omitted memory,
+   context, provenance, access, or standard quantum process structure?
+5. If DU succeeds, what becomes newly explainable or derivable?
+6. If the opening collapses, does the result still sharpen the boundary
+   between known theory and the remaining program?
 
-| If the live claim depends on... | First local tool | What a pass establishes | What it does not establish |
-|---|---|---|---|
-| Local/quantum/no-signalling placement | [`du_operational_theory_landscape_probe.py`](../tests/du_operational_theory_landscape_probe.py) | Exact classification receipts on the frozen CHSH calibration | General quantum membership, an ontology, or a finality law |
-| Cross-context occurrence identity | [`du_certified_overlap_identity_probe.py`](../tests/du_certified_overlap_identity_probe.py) | Effect, instrument, continuation, and provenance distinctions | A physical identity selector |
-| Global gluing or marginal consistency | [`du_multitime_marginal_transfer_probe.py`](../tests/du_multitime_marginal_transfer_probe.py) | Exact primal extension or dual obstruction on finite rational covers | The identity assumptions or physical realization |
-| Finite record-interface selection | [`du_central_record_interface_selection_probe.py`](../tests/du_central_record_interface_selection_probe.py) | Fixed-center and environment-formation controls | Robust unique physical pointer selection |
-| History rather than endpoint evidence | [`du_physical_history_certificate_transfer_probe.py`](../tests/du_physical_history_certificate_transfer_probe.py) | An exact all-port history assay and transfer controls | A new proper-time or collapse effect |
-| Layered finality as a quantum extension | [`du_entangled_finality_absorption_probe.py`](../tests/du_entangled_finality_absorption_probe.py) | Standard enlarged-process absorption and causal-break controls | That every possible finality dynamics is standard quantum theory |
-| Threshold agreement versus public fact | [`du_layered_threshold_objectivity_probe.py`](../tests/du_layered_threshold_objectivity_probe.py) | Static threshold, split-view, and action distinctions | A universal objectivity threshold |
-| Recursive regional composition | [`du_regional_finality_descent_probe.py`](../tests/du_regional_finality_descent_probe.py) | Exact finite certificate descent and safe rejection | Fundamental regions or physical universality |
-| Endogenous region selection | [`du_endogenous_regionalization_probe.py`](../tests/du_endogenous_regionalization_probe.py) | Finite version-space/minimum-separator selection | Unique scalable physical regions |
-| Noisy, noninvertible reconciliation | [`du_noisy_noninvertible_descent_probe.py`](../tests/du_noisy_noninvertible_descent_probe.py) | A scoped approximate-descent and frustration control | A universal phase transition |
-| Imported source/boundary/resource shortcuts | [`du_cross_repo_hardening_controls_probe.py`](../tests/du_cross_repo_hardening_controls_probe.py) | Six explicit finite adversary/control shapes | Exhaustion of physical completions |
+Only after those questions are answered should a lead select the most
+efficient proof, construction, computation, or experiment.
 
-## Tests that are cheap but not yet dedicated tools
+## Where resulting work belongs
 
-These are tool gaps, not automatically priorities:
-
-| Trigger | Smallest missing test |
+| Result | Canonical destination |
 |---|---|
-| A proposal says `psi` is epistemic, ontic, or incomplete | Finite ontological-model feasibility compiler with explicit `lambda`, overlap, preparation-independence, and procedure-contextuality switches |
-| A proposal claims perspectival curvature | Three-agent, implementation-complete routed-process loop with frame, phase, memory, and provenance quotients |
-| A proposal claims SBS is insufficient for public finality | Matched SBS state plus declared incompatible actions, adversary access, split views, and a strict capability comparison |
-| A proposal claims a relativistic finality operation | Fewster--Verch system--probe translation with causal-factorization and movable-boundary accounting |
-| A proposal claims record-derived geometry | Nonisomorphic reconstruction countermodel generator plus held-out, unit-bearing geometry tests |
-| A proposal claims beyond-standard finality dynamics | Quantitative completely specified residual after full causal break, with no-signalling, complete-positivity, energy, and existing experimental-bound checks |
+| A concept and invariant with multiple possible formalizations | [Concept register](../explorations/concept-register.md) |
+| A central hypothesis, conjecture, theorem dependency, or benchmark | [Certified Causal Reality agenda](certified-causal-reality-research-program.md) and [lane state](../LANES.yaml) |
+| A quantitative physical consequence | [Prediction register](../explorations/prediction-register.md) |
+| A recurring absorber, assumption boundary, or class-relative no-go | [Known challenges and adversaries](../lab/process/known-challenges-and-adversaries.md) |
+| A paper-shaped contribution at its current grade | [Paper-opportunity portfolio](../papers/paper-opportunity-portfolio.json) |
+| A completed inquiry | Governed run receipt plus a dated exploration and evidence artifact where applicable |
 
-Build one only when a live hypothesis triggers it. Do not create a general
-compiler merely because it would be elegant.
-
-## Efficient prioritization rule
-
-A cheap test is decision-useful when at least one possible result changes the
-next action and every possible result leaves a reusable object:
-
-- an explicit construction;
-- a proof or dual certificate;
-- a smallest countermodel;
-- a calibrated standard absorber;
-- a frozen assay passport; or
-- a scoped underidentification result naming the missing intervention.
-
-Prefer a test that:
-
-1. separates at least two live rival classes;
-2. attacks a dependency shared by several hypotheses;
-3. runs on the smallest exact or reconstructible object;
-4. keeps a positive and negative route publishable at an honest grade;
-5. transfers without changing definitions; and
-6. has a declared condition for increasing physical or computational scale.
-
-Do not prefer a test merely because it is cheap. Do not prefer a theory merely
-because it is more permissive, more orthodox, more derived, or more
-metaphysically satisfying.
-
-## Where the output goes
-
-| Output | Canonical destination |
-|---|---|
-| A concept with an invariant and several possible formalizations | [Concept register](../explorations/concept-register.md) |
-| A quantitative, falsifiable physical outcome | [Prediction register](../explorations/prediction-register.md) |
-| A central theorem, conjecture, dependency, benchmark, or hypothesis grade | [Certified Causal Reality agenda](certified-causal-reality-research-program.md) and [lane state](../LANES.yaml) |
-| A class-relative adversary or recurring cheap failure | [Known challenges and adversaries](../lab/process/known-challenges-and-adversaries.md) |
-| A method attachment for an already named hypothesis | [Efficient-approach registry](../explorations/ten-lens-hypothesis-efficient-approach-registry-2026-07-24.md) or a successor with stable IDs |
-| A paper-shaped opportunity at its honest current grade | [Paper-opportunity portfolio](../papers/paper-opportunity-portfolio.json) |
-| A completed run and evidence receipt | A dated exploration, executable probe/artifact where applicable, and governed run plan |
-
-This page changes only when the routing grammar, major theory boundary, or
-available cheap-test inventory changes. Individual findings belong in the
-surfaces above.
+This page changes when the tension map, candidate DU contribution, or major
+framework boundary changes. Individual tests and results remain in their
+existing homes.
