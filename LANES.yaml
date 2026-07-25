@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 30
+manifest_revision: 31
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -70,7 +70,11 @@ active_hardening_program_note: >-
   action-sufficient boundary certificates. The exact finite probe passes 24/24 and separates
   descent, provenance/logical lift, safe rejection and incomplete contracts. Endogenous
   region/validator selection and noisy noninvertible descent are now the live composition
-  dependencies; no physical regional ontology is inferred.
+  dependencies; no physical regional ontology is inferred. Revision 31 executes both through
+  coupled triple diamonds: a 21/21 finite version-space/minimum-separator regional selector and a
+  20/20 binary-cycle noisy-descent/approximate-boundary control. The scoped one-third
+  frustration threshold is exact but not a physical forecast. Multi-time physical selection and
+  a general marginal-extension/dual-obstruction compiler are now the live successors.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -612,7 +616,9 @@ certified_causal_reality_restructure:
     NO SIZE-FREE WITNESS HORIZON / FINITE HOLONOMY PUBLIC-FACT, RECONCILIATION-FRUSTRATION,
     PROJECT-OR-LIFT PROVENANCE AND CYCLE-LIFT CONTROLS EXACT / HC-DU-035C REGIONAL DESCENT,
     QUORUM, NODE-PROMOTION, REFINEMENT AND LOGICAL-ACCESS CONTROLS 24/24 / ENDOGENOUS
-    REGIONALIZATION AND NOISY NONINVERTIBLE DESCENT OPEN / TIGHT BINARY
+    REGIONAL VERSION-SPACE, MINIMUM-SEPARATOR, RELAY AND VALIDATOR-ORIGIN CONTROLS 21/21 /
+    BINARY-CYCLE NOISY DESCENT, ONE-THIRD FRUSTRATION AND BOUNDARY HALF-RANGE CONTROLS 20/20 /
+    MULTI-TIME PHYSICAL REGIONALIZATION AND GENERAL MARGINAL DESCENT OPEN / TIGHT BINARY
     RECORD-DISTURBANCE, INDEPENDENT-FRAGMENT AND ARCHIVE-SUPPORT CONTROLS EXACT BUT GENERAL
     NOVELTY ABSORBED / H-CCR-15 FINITE FINALITY-LABEL ABSORPTION CONTROL EXACT / BELL,
     RECORD-FANOUT, ROUTE, CAUSAL-BREAK AND NO-SIGNALLING FIXTURES 18/18 / POST-CAUSAL-BREAK
@@ -639,9 +645,11 @@ certified_causal_reality_restructure:
     HC-DU-036A shows why a failed candidate interface alone cannot establish a physical remainder.
     In parallel, H-CCR-15 requires any layered-finality extension to beat the enlarged
     history/memory/route process under a complete causal break; a system-only reset is
-    insufficient. The recursive regional branch must meanwhile select regions, overlaps,
-    validators and access structures independently of the target, then extend HC-DU-035C from
-    exact affine maps to noisy noninvertible descent without changing its four-outcome contract.
+    insufficient. The recursive regional branch has now completed finite Boolean
+    version-space/held-out-separator and binary-cycle noisy-descent controls. It must next derive
+    regions, overlaps, validators and access structures from independently fixed multi-time
+    physical instruments, while a general rational marginal compiler returns a primal extension
+    or dual obstruction without changing the four-outcome contract.
   first_executable_flagship: >-
     Do not add another hand-selected compiler, exact dephasing fixture or unconstrained
     stability/formation sweep: the Pauli rectangle is already full. Add one independently
@@ -653,9 +661,10 @@ certified_causal_reality_restructure:
     compiler and the H-CCR-15 causal-break/memory completion unchanged as adjudicators. Only
     after a formed distinction survives every
     admitted refinement should HC-DU-035B price its conversion into public finality. In the
-    regional branch, concentrate on competing-cover reconstruction with held-out interventions
-    plus a stochastic descent-defect theorem; do not add more exact diagrams, hierarchy labels,
-    or blockchain analogies.
+    regional branch, concentrate on one independently fixed multi-time regional specimen plus a
+    general marginal-extension/dual-obstruction compiler, then transfer the unchanged contract
+    to an authenticated protocol or quantum instrument. Do not add more Boolean cover examples,
+    triangle grids, hierarchy labels, or blockchain analogies.
   migration_rule: >-
     Every dated exploration, probe, artifact, claim grade, prediction, HC-DU-001..032 item and
     P01-A..P50-B item remains verbatim and discoverable. The revision-17 Lane tree is preserved
@@ -1232,6 +1241,51 @@ regional_finality_descent_kernel_swing:
     adds no prediction because the executed controls do not yet select a physical architecture
     or measurable residual. No claim, ontology, law, paper priority, Factory state, draft,
     submission, publication or external action is promoted.
+regional_selection_noisy_descent_triple_diamond_swing:
+  status: completed_exact_finite_two_leg_swing
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: triple-diamond the approaches to endogenous regionalization and noisy
+    noninvertible descent, then take the big swing at both.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-064622-regional-selection-noisy-descent/run-plan.md
+  synthesis_ref: >-
+    explorations/regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md
+  endogenous_probe_ref: tests/du_endogenous_regionalization_probe.py
+  endogenous_artifact_ref: tests/artifacts/du_endogenous_regionalization_result.json
+  endogenous_artifact_sha256: 4c4834057b6db8e17c8f71d7529452c6c0152a980db04559f21e88bea712cded
+  noisy_descent_probe_ref: tests/du_noisy_noninvertible_descent_probe.py
+  noisy_descent_artifact_ref: tests/artifacts/du_noisy_noninvertible_descent_result.json
+  noisy_descent_artifact_sha256: 84919b2b6ed0336b3030a262759b475c27b00a0079dc0156005d8610361122a7
+  triple_diamond_result: >-
+    The endogenous leg converges on response-signature version spaces, declared
+    label/refinement quotients and minimum pair-separating interventions rather than passive
+    clustering or an unsupported Occam choice. The noisy leg converges on two separate defects:
+    stochastic global-extension obstruction and approximate boundary-action insufficiency.
+  endogenous_result: >-
+    The exact standard-library probe passes 21/21. It inverts every one of 65,536 four-input
+    Boolean response tables, constructs three regional matching covers with identical
+    passive/singleton records and a two-action worst-case separator, proves the full 64-model
+    quadratic grammar needs all six pair actions, recovers overlapping regions, preserves label
+    covariance, quotients deterministic relays and separates validator identity from independent
+    failure origin.
+  noisy_descent_result: >-
+    The exact-rational probe passes 20/20. Even-parity odd-set facets classify binary-cycle
+    mismatch descent; all 343 denominator-six triangle points agree with the signed extension.
+    The equally noisy equality/equality/inequality loop becomes compatible exactly at
+    epsilon=1/3. Across 972 controls, node-local noninvertible channels preserve an existing
+    joint process. Binary approximate boundary defect is half the response range, and a noisy
+    GHZ logical lift removes its v/2 coarse defect.
+  integrated_result: >-
+    Underidentification, incompatibility and lossy node promotion are now distinct receipts. The
+    next coupled swing is one independently fixed multi-time regional grammar plus a general
+    rational marginal-extension/dual-obstruction compiler, followed by unchanged authenticated
+    or quantum transfer.
+  ledger_disposition: >-
+    Extends HC-DU-035C, H-CCR-16 and CONCEPT-DU-011 at exact finite-control/general-open grade.
+    The one-third threshold is scoped to one toy marginal family and is not a physical
+    prediction. No new concept, claim, ontology, law, paper priority, Factory state, draft,
+    submission, publication or external action is promoted.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -1656,8 +1710,10 @@ lanes:
       coherent route phase is absorbed by implementation provenance. HC-DU-035C adds the exact
       finite recursive regional baseline: action-sufficient node promotion, flat/frustrated
       affine descent, quorum safety/liveness/provenance, refinement invariance, forward
-      capability feedback and a GHZ logical-access control under one four-outcome contract. The
-      stochastic
+      capability feedback and a GHZ logical-access control under one four-outcome contract. Its
+      two executed successors add regional version-space/minimum-separator identification with
+      relay and validator-origin controls, plus binary-cycle stochastic obstruction and a
+      separate approximate boundary-action defect. The stochastic
       matrix/protocol transfer further shows that noisy public records can fail while formed
       error/delivery syndromes restore exact sufficiency; its restricted-boundary remainders are
       therefore interface-relative. A witness diagnoses a failed candidate interface; it is not
@@ -1746,10 +1802,11 @@ lanes:
       refinement class covering source, environment, controller/scheduler, decoder, access
       boundary, record instrument, routed implementation and resources. Begin with XH-01, XH-02
       and the explicitly nonexhaustive XH-06 battery; distinguish known phase/process structure,
-      interface incompleteness and class-relative physical remainder. For HC-DU-035C, generate
-      rival overlapping covers with equal current records and held-out interventions, then
-      replace exact translations by noisy noninvertible maps while preserving descent, lift,
-      safe rejection and incomplete-contract outcomes. Never define a selected
+      interface incompleteness and class-relative physical remainder. For HC-DU-035C, derive one
+      regional grammar from independently fixed multi-time instruments and build a general
+      rational marginal-extension/dual-obstruction compiler; preserve identified,
+      underidentified, equivalent and incomplete selection receipts plus descent, lift, safe
+      rejection and incomplete composition outcomes. Never define a selected
       record by agreement under every target physical experiment or call a target-derived
       quotient a formed physical record.
   - id: '1.5'
@@ -1821,11 +1878,12 @@ lanes:
     title: Open-endedness, fresh records and multiscale organization
     scope: >-
       Test source-internal novelty, causal-post memory, open-system mechanisms, recursive
-      viability, heterarchical observer covers and generated scale. Use CONCEPT-DU-011 to
-      generate rival overlapping covers, split/merge rules and validator structures at equal
-      current records; demand held-out intervention consequences before treating a region as
-      physically selected. Reject arbitrary drives, fitted windows, gratuitous hierarchy depth,
-      raw-node scale and free global access.
+      viability, heterarchical observer covers and generated scale. Use CONCEPT-DU-011's
+      version-space contract: freeze the regional grammar and quotient, demand held-out
+      intervention consequences, and retain observational equivalence rather than choose an
+      unsupported diagram. Lift the completed Boolean controls to multi-time instruments.
+      Reject arbitrary drives, fitted windows, gratuitous hierarchy depth, raw-node scale and
+      free global access.
   - id: '2.5'
     title: GU ablation and rival unification tournament
     scope: >-
@@ -1872,7 +1930,9 @@ lanes:
       and hard certificates under equivocation, replay, corruption, loss and split views. Include
       equal-endpoint/different-provenance and pre/post-certificate action controls. Reuse
       HC-DU-035C's four-outcome contract; count safe rejection separately from successful
-      descent, and audit independent origins rather than raw signatures.
+      descent, audit independent origins rather than raw signatures, and derive local stochastic
+      marginals from executable authenticated schedules before running the general descent
+      compiler.
   - id: '3.4'
     title: Quantum-network, broadcast and QEC-access fixture
     scope: >-
@@ -1883,7 +1943,8 @@ lanes:
       audited provenance support before testing an additional distinction. Do not insert the
       classical algebra to derive it. Use GHZ only as the current logical-access/boundary-
       sufficiency control; do not identify qubits with validators or entanglement with
-      consensus.
+      consensus. Replace the analytic visibility table with a complete noisy instrument only
+      after freezing every implementation and access register.
   - id: '3.5'
     title: Causal-set, event-structure and hypergraph fixture
     scope: >-
@@ -1901,8 +1962,9 @@ lanes:
       split-view and local-first-versus-joint-first hardening controls, plus HC-DU-035A's
       honest-lock margin, IID/common-shock, metastable rollback, inconsistent-share, GHZ
       access-only and Bell direct-channel controls. Add HC-DU-035C's descent/lift/reject/incomplete
-      outcomes, independent-support audit, node-promotion factorization, and benign-refinement
-      control. Run applicable XH-01..06 controls as benchmark
+      outcomes, selection version space, minimum separator, independent-support audit,
+      node-promotion factorization, odd-facet stochastic obstruction, boundary half-range and
+      benign-refinement control. Run applicable XH-01..06 controls as benchmark
       B7, preserve source grades, and mark unrelated controls not-applicable rather than forcing
       one universal absorber.
 
@@ -2014,9 +2076,9 @@ special_rules:
   note: >-
     legacy_lanes_revision_17 is a verbatim routing snapshot and is not active authority. Dated
     documents that mention its North Star or Lane meanings remain historical evidence; current
-    routing is the root lanes key at manifest revision 28.
+    routing is the root lanes key at manifest revision 31.
 provenance:
-  revision: 28
+  revision: 31
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -2394,4 +2456,18 @@ provenance:
     moves, negative outputs, cheap kills and scale gates. Endogenous region/validator selection
     and noisy noninvertible descent are next. No new physics, ontology, prediction, law, claim,
     paper priority, Factory state, draft, submission, publication or external action is
+    established.
+  rev31_note: >-
+    2026-07-25 (Joe direct chat: triple-diamond the approaches to endogenous regionalization and
+    noisy noninvertible descent, then take the big swing at both): completed two independent
+    problem/architecture/assurance diamonds and executed both finite pilots. The 21/21 selection
+    probe distinguishes identified, underidentified-with-minimum-separator,
+    observationally-equivalent and incomplete regional grammars; it exhausts 65,536 Boolean
+    functions, preserves overlapping covers and relay/label quotients, and separates validator
+    signatures from failure origins. The 20/20 noisy probe installs the binary-cycle odd-facet
+    obstruction, exact one-third frustrated-loop threshold, 972 local-noninvertible-channel
+    controls, binary half-range boundary defect and noisy GHZ logical lift. Underidentification,
+    incompatibility and lossy promotion are now separate. Multi-time physical selection and a
+    general rational marginal compiler are next. No new physics, ontology, prediction, law,
+    claim, paper priority, Factory state, draft, submission, publication or external action is
     established.

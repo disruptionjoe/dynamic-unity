@@ -1,0 +1,651 @@
+{
+  "approximate_boundary_factorization": {
+    "coarse": {
+      "maximum_action_factorization_defect": {
+        "denominator": 5,
+        "numerator": 2
+      },
+      "receipts": {
+        "joint": {
+          "high": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 10,
+              "numerator": 7
+            },
+            "minimum_probability": {
+              "denominator": 10,
+              "numerator": 3
+            },
+            "minimum_worst_case_total_variation_error": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "optimal_summary_response": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "states": [
+              "s2",
+              "s3"
+            ]
+          },
+          "low": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 10,
+              "numerator": 9
+            },
+            "minimum_probability": {
+              "denominator": 10,
+              "numerator": 1
+            },
+            "minimum_worst_case_total_variation_error": {
+              "denominator": 5,
+              "numerator": 2
+            },
+            "optimal_summary_response": {
+              "denominator": 2,
+              "numerator": 1
+            },
+            "states": [
+              "s0",
+              "s1"
+            ]
+          }
+        },
+        "local": {
+          "high": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "minimum_probability": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "states": [
+              "s2",
+              "s3"
+            ]
+          },
+          "low": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "minimum_probability": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "states": [
+              "s0",
+              "s1"
+            ]
+          }
+        }
+      },
+      "theorem": "for binary outputs and a deterministic supplied summary, the minimum worst-case TV simulation error on each fiber is half the response-probability range"
+    },
+    "coarse_defect": {
+      "denominator": 5,
+      "numerator": 2
+    },
+    "compatibility_and_boundary_defect_are_distinct": true,
+    "lifted": {
+      "maximum_action_factorization_defect": 0,
+      "receipts": {
+        "joint": {
+          "s0": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 10,
+              "numerator": 1
+            },
+            "minimum_probability": {
+              "denominator": 10,
+              "numerator": 1
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 10,
+              "numerator": 1
+            },
+            "states": [
+              "s0"
+            ]
+          },
+          "s1": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 10,
+              "numerator": 9
+            },
+            "minimum_probability": {
+              "denominator": 10,
+              "numerator": 9
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 10,
+              "numerator": 9
+            },
+            "states": [
+              "s1"
+            ]
+          },
+          "s2": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 10,
+              "numerator": 3
+            },
+            "minimum_probability": {
+              "denominator": 10,
+              "numerator": 3
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 10,
+              "numerator": 3
+            },
+            "states": [
+              "s2"
+            ]
+          },
+          "s3": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 10,
+              "numerator": 7
+            },
+            "minimum_probability": {
+              "denominator": 10,
+              "numerator": 7
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 10,
+              "numerator": 7
+            },
+            "states": [
+              "s3"
+            ]
+          }
+        },
+        "local": {
+          "s0": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "minimum_probability": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "states": [
+              "s0"
+            ]
+          },
+          "s1": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "minimum_probability": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 5,
+              "numerator": 1
+            },
+            "states": [
+              "s1"
+            ]
+          },
+          "s2": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "minimum_probability": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "states": [
+              "s2"
+            ]
+          },
+          "s3": {
+            "lower_bound_witnessed_by_endpoints": true,
+            "maximum_probability": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "minimum_probability": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "minimum_worst_case_total_variation_error": 0,
+            "optimal_summary_response": {
+              "denominator": 5,
+              "numerator": 4
+            },
+            "states": [
+              "s3"
+            ]
+          }
+        }
+      },
+      "theorem": "for binary outputs and a deterministic supplied summary, the minimum worst-case TV simulation error on each fiber is half the response-probability range"
+    },
+    "lifted_defect": 0
+  },
+  "check_count": 20,
+  "checks": {
+    "all_even_parity_vertices_through_n7_descend": true,
+    "all_odd_parity_vertices_through_n7_have_unit_obstruction": true,
+    "coarse_boundary_has_positive_action_defect": true,
+    "compatibility_and_action_failures_have_different_receipts": true,
+    "compatibility_and_boundary_defect_are_separate": true,
+    "correlated_support_is_rejected": true,
+    "facet_slack_not_promoted_to_physical_metric": true,
+    "frustrated_noise_threshold_is_one_third": true,
+    "frustrated_noise_violation_formula_exact": true,
+    "fully_erased_cycle_has_half_mismatch_marginals": true,
+    "fully_erasing_bsc_is_noninvertible_positive_control": true,
+    "ghz_visibility_obeys_half_range_defect": true,
+    "logical_boundary_lift_restores_exact_factorization": true,
+    "missing_contract_is_not_forced_into_scientific_verdict": true,
+    "node_local_bsc_preserves_global_compatibility": true,
+    "safe_rejection_is_not_successful_descent": true,
+    "triangle_grid_facet_and_signed_extension_agree": true,
+    "triangle_has_at_most_one_negative_sector_weight": true,
+    "typed_contract_exercises_all_four_outcomes": true,
+    "unsafe_quorum_is_rejected": true
+  },
+  "claim_grade": "EXACT FINITE PARITY-POLYTOPE AND APPROXIMATE-BOUNDARY CONTROLS / KNOWN COMPONENT MATHEMATICS / GENERAL NOISY REGIONAL DESCENT AND PHYSICAL APPLICATION OPEN",
+  "does_not_establish": [
+    "a general stochastic descent theorem",
+    "an operational metric on arbitrary records",
+    "physical contextuality",
+    "a finality field",
+    "a cryptographic or BFT security proof",
+    "a quantum modification",
+    "a physical region-selection law",
+    "emergent geometry"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "frustrated_noise_family": {
+    "all_formulas_match": true,
+    "family": "two equality edges and one inequality edge, each with error epsilon",
+    "rows": [
+      {
+        "descends": false,
+        "edge_error": 0,
+        "expected_negative_mass": {
+          "denominator": 2,
+          "numerator": 1
+        },
+        "expected_violation": 1,
+        "maximum_violation": 1,
+        "mismatches": [
+          0,
+          0,
+          1
+        ],
+        "signed_negative_mass": {
+          "denominator": 2,
+          "numerator": 1
+        }
+      },
+      {
+        "descends": false,
+        "edge_error": {
+          "denominator": 6,
+          "numerator": 1
+        },
+        "expected_negative_mass": {
+          "denominator": 4,
+          "numerator": 1
+        },
+        "expected_violation": {
+          "denominator": 2,
+          "numerator": 1
+        },
+        "maximum_violation": {
+          "denominator": 2,
+          "numerator": 1
+        },
+        "mismatches": [
+          {
+            "denominator": 6,
+            "numerator": 1
+          },
+          {
+            "denominator": 6,
+            "numerator": 1
+          },
+          {
+            "denominator": 6,
+            "numerator": 5
+          }
+        ],
+        "signed_negative_mass": {
+          "denominator": 4,
+          "numerator": 1
+        }
+      },
+      {
+        "descends": true,
+        "edge_error": {
+          "denominator": 3,
+          "numerator": 1
+        },
+        "expected_negative_mass": 0,
+        "expected_violation": 0,
+        "maximum_violation": 0,
+        "mismatches": [
+          {
+            "denominator": 3,
+            "numerator": 1
+          },
+          {
+            "denominator": 3,
+            "numerator": 1
+          },
+          {
+            "denominator": 3,
+            "numerator": 2
+          }
+        ],
+        "signed_negative_mass": 0
+      },
+      {
+        "descends": true,
+        "edge_error": {
+          "denominator": 2,
+          "numerator": 1
+        },
+        "expected_negative_mass": 0,
+        "expected_violation": 0,
+        "maximum_violation": 0,
+        "mismatches": [
+          {
+            "denominator": 2,
+            "numerator": 1
+          },
+          {
+            "denominator": 2,
+            "numerator": 1
+          },
+          {
+            "denominator": 2,
+            "numerator": 1
+          }
+        ],
+        "signed_negative_mass": 0
+      }
+    ],
+    "sharp_compatibility_threshold": {
+      "denominator": 3,
+      "numerator": 1
+    },
+    "threshold_behavior_correct": true
+  },
+  "local_noninvertible_noise": {
+    "distribution_channel_cases": 972,
+    "error_alphabet": [
+      0,
+      {
+        "denominator": 4,
+        "numerator": 1
+      },
+      {
+        "denominator": 2,
+        "numerator": 1
+      }
+    ],
+    "failures": [],
+    "fully_erased_mismatches": [
+      {
+        "denominator": 2,
+        "numerator": 1
+      },
+      {
+        "denominator": 2,
+        "numerator": 1
+      },
+      {
+        "denominator": 2,
+        "numerator": 1
+      }
+    ],
+    "fully_erasing_channel_is_noninvertible": true,
+    "input_distributions": 36,
+    "interpretation": "node-local stochastic maps preserve compatibility because they act on an existing joint distribution"
+  },
+  "noisy_ghz_logical_access": {
+    "all_visibility_formulas_match": true,
+    "boundary": "this is a noisy logical-access specialization of standard GHZ statistics, not a consensus law or quantum modification",
+    "rows": [
+      {
+        "coarse_defect": 0,
+        "expected_coarse_defect": 0,
+        "logical_lift_defect": 0,
+        "visibility": 0
+      },
+      {
+        "coarse_defect": {
+          "denominator": 8,
+          "numerator": 1
+        },
+        "expected_coarse_defect": {
+          "denominator": 8,
+          "numerator": 1
+        },
+        "logical_lift_defect": 0,
+        "visibility": {
+          "denominator": 4,
+          "numerator": 1
+        }
+      },
+      {
+        "coarse_defect": {
+          "denominator": 4,
+          "numerator": 1
+        },
+        "expected_coarse_defect": {
+          "denominator": 4,
+          "numerator": 1
+        },
+        "logical_lift_defect": 0,
+        "visibility": {
+          "denominator": 2,
+          "numerator": 1
+        }
+      },
+      {
+        "coarse_defect": {
+          "denominator": 2,
+          "numerator": 1
+        },
+        "expected_coarse_defect": {
+          "denominator": 2,
+          "numerator": 1
+        },
+        "logical_lift_defect": 0,
+        "visibility": 1
+      }
+    ]
+  },
+  "parity_polytope_vertex_audit": {
+    "counts": {
+      "3": {
+        "even_vertices": 4,
+        "odd_set_facets": 4,
+        "odd_vertices": 4
+      },
+      "4": {
+        "even_vertices": 8,
+        "odd_set_facets": 8,
+        "odd_vertices": 8
+      },
+      "5": {
+        "even_vertices": 16,
+        "odd_set_facets": 16,
+        "odd_vertices": 16
+      },
+      "6": {
+        "even_vertices": 32,
+        "odd_set_facets": 32,
+        "odd_vertices": 32
+      },
+      "7": {
+        "even_vertices": 64,
+        "odd_set_facets": 64,
+        "odd_vertices": 64
+      }
+    },
+    "cycle_sizes": [
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "even_vertex_failures": [],
+    "facet_statement": "x lies in the convex hull of even parity vectors iff 0<=x<=1 and every odd-set inequality holds",
+    "grade": "KNOWN PARITY-POLYTOPE FACET THEOREM / FINITE VERTEX AUDIT",
+    "odd_vertex_failures": []
+  },
+  "probe": "du_noisy_noninvertible_descent_probe",
+  "run_id": "RUN-20260725-064622-regional-selection-noisy-descent",
+  "schema_version": "1.0",
+  "triangle_signed_extension": {
+    "boundary": "facet violation and signed negative mass are mathematical obstructions, not yet a physical or operational distance",
+    "denominator": 6,
+    "facet_vs_signed_weight_failures": [],
+    "multiple_negative_weight_cases": [],
+    "negative_mass_relation": "on the triangle cube, maximum odd-set violation v gives negative mass v/2 in the unique signed parity-sector extension",
+    "rational_grid_cases": 343,
+    "signed_sector_order": [
+      "000",
+      "011",
+      "101",
+      "110"
+    ]
+  },
+  "typed_descent_contract": {
+    "all_four_outcomes_exercised": true,
+    "cases": {
+      "compatible_coarse_boundary": {
+        "boundary_defect": {
+          "denominator": 5,
+          "numerator": 1
+        },
+        "live": true,
+        "reason": "compatible process but action-insufficient boundary",
+        "result": "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT",
+        "safe": true
+      },
+      "complete_compatible": {
+        "live": true,
+        "reason": "compatible, safe, independently supported, and action-sufficient",
+        "result": "DESCENDS",
+        "safe": true
+      },
+      "correlated_support": {
+        "live": true,
+        "reason": "unsafe quorum or correlated support",
+        "result": "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION",
+        "safe": true
+      },
+      "frustrated_requires_lift": {
+        "live": true,
+        "obstruction": {
+          "all_facet_slacks": {
+            "1": 1,
+            "2": 1,
+            "4": -1,
+            "7": 1
+          },
+          "descends": false,
+          "maximum_odd_set_violation": 1,
+          "witness_odd_edge_indices": [
+            2
+          ]
+        },
+        "reason": "positive cycle obstruction requires provenance or repair",
+        "result": "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT",
+        "safe": true
+      },
+      "frustrated_safely_rejected": {
+        "live": true,
+        "obstruction": {
+          "all_facet_slacks": {
+            "1": 1,
+            "2": 1,
+            "4": -1,
+            "7": 1
+          },
+          "descends": false,
+          "maximum_odd_set_violation": 1,
+          "witness_odd_edge_indices": [
+            2
+          ]
+        },
+        "reason": "hardening refuses incompatible stochastic records",
+        "result": "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION",
+        "safe": true
+      },
+      "missing_contract": {
+        "reason": "missing contract field",
+        "result": "INCOMPLETE_CONTRACT"
+      },
+      "unsafe_quorum": {
+        "live": true,
+        "reason": "unsafe quorum or correlated support",
+        "result": "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION",
+        "safe": false
+      }
+    },
+    "compatibility_and_action_sufficiency_fail_separately": true,
+    "return_vocabulary": [
+      "DESCENDS",
+      "INCOMPLETE_CONTRACT",
+      "REJECTS_FRUSTRATED_OR_UNSAFE_COMPOSITION",
+      "REQUIRES_PROVENANCE_OR_LOGICAL_LIFT"
+    ],
+    "safe_rejection_is_not_descent": true
+  },
+  "verdict": "NOISY_CYCLE_DESCENT_OBSTRUCTION_INSTALLED / ONE_THIRD_FRUSTRATION_THRESHOLD_EXACT / COMPATIBILITY_AND_ACTION_DEFECTS_SEPARATED"
+}

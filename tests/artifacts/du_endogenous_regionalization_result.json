@@ -1,0 +1,355 @@
+{
+  "anf_reconstruction": {
+    "boundary": "ANF uniqueness does not select the Boolean grammar or make its interaction monomials fundamental regions",
+    "failures": [],
+    "input_count": 4,
+    "interpretation": "complete interventions uniquely determine the Boolean ANF inside this frozen response grammar",
+    "truth_table_count": 65536
+  },
+  "check_count": 21,
+  "checks": {
+    "active_design_can_finish_one_branch_before_worst_case": true,
+    "all_65536_four_input_truth_tables_invert_under_anf": true,
+    "deterministic_relay_quotient_restores_invariance": true,
+    "failure_domain_intervention_separates_origin_models": true,
+    "full_quadratic_grammar_has_64_candidates": true,
+    "full_quadratic_identification_requires_all_six_pair_actions": true,
+    "interaction_reconstruction_is_label_covariant": true,
+    "matching_cover_minimum_worst_case_separator_is_two": true,
+    "negative_nonidentification_output_is_preserved": "fail(alpha)",
+    "passive_and_singleton_records_do_not_select_matching_cover": true,
+    "present_validator_records_do_not_select_origins": true,
+    "raw_relay_topology_is_not_selected": true,
+    "raw_signatures_and_independent_support_are_distinct": true,
+    "regional_interactions_can_overlap": true,
+    "relay_extensions_agree_on_admissible_process": true,
+    "selection_contract_exercises_all_four_outcomes": true,
+    "selection_contract_exercises_identified": true,
+    "selection_contract_exercises_incomplete": true,
+    "selection_contract_exercises_observational_equivalence": true,
+    "selection_contract_exercises_underidentified": true,
+    "signature_and_pair_hitting_formulations_agree": true
+  },
+  "claim_grade": "EXACT FINITE IDENTIFICATION/NONIDENTIFICATION CONTROLS / KNOWN BOOLEAN-MOBIUS AND EXPERIMENT-DESIGN COMPONENTS / PHYSICAL REGION SELECTION OPEN",
+  "complete_quadratic_grammar": {
+    "candidate_count": 64,
+    "every_proper_pair_action_subset_is_nonidentifying": true,
+    "interpretation": "each pair intervention isolates one independent quadratic coefficient; complete identification costs all six",
+    "minimum_separator": [
+      "AB",
+      "AC",
+      "BC",
+      "AD",
+      "BD",
+      "CD"
+    ],
+    "minimum_separator_size": 6,
+    "pair_coefficient_count": 6
+  },
+  "does_not_establish": [
+    "physical regional ontology",
+    "a universal region grammar",
+    "that ANF monomials are physical regions",
+    "that minimum description length selects nature",
+    "validator independence without failure-domain interventions",
+    "noisy or continuous regional identification",
+    "causal geometry",
+    "a new physical law"
+  ],
+  "failure_count": 0,
+  "failures": [],
+  "matching_cover_version_space": {
+    "active_action_ranking": [
+      {
+        "action": "AB",
+        "buckets": {
+          "0": [
+            "AC|BD",
+            "AD|BC"
+          ],
+          "1": [
+            "AB|CD"
+          ]
+        },
+        "expected_remaining_under_uniform_prior": {
+          "denominator": 3,
+          "numerator": 5
+        },
+        "worst_case_remaining": 2
+      },
+      {
+        "action": "AC",
+        "buckets": {
+          "0": [
+            "AB|CD",
+            "AD|BC"
+          ],
+          "1": [
+            "AC|BD"
+          ]
+        },
+        "expected_remaining_under_uniform_prior": {
+          "denominator": 3,
+          "numerator": 5
+        },
+        "worst_case_remaining": 2
+      },
+      {
+        "action": "BC",
+        "buckets": {
+          "0": [
+            "AB|CD",
+            "AC|BD"
+          ],
+          "1": [
+            "AD|BC"
+          ]
+        },
+        "expected_remaining_under_uniform_prior": {
+          "denominator": 3,
+          "numerator": 5
+        },
+        "worst_case_remaining": 2
+      },
+      {
+        "action": "AD",
+        "buckets": {
+          "0": [
+            "AB|CD",
+            "AC|BD"
+          ],
+          "1": [
+            "AD|BC"
+          ]
+        },
+        "expected_remaining_under_uniform_prior": {
+          "denominator": 3,
+          "numerator": 5
+        },
+        "worst_case_remaining": 2
+      },
+      {
+        "action": "BD",
+        "buckets": {
+          "0": [
+            "AB|CD",
+            "AD|BC"
+          ],
+          "1": [
+            "AC|BD"
+          ]
+        },
+        "expected_remaining_under_uniform_prior": {
+          "denominator": 3,
+          "numerator": 5
+        },
+        "worst_case_remaining": 2
+      },
+      {
+        "action": "CD",
+        "buckets": {
+          "0": [
+            "AC|BD",
+            "AD|BC"
+          ],
+          "1": [
+            "AB|CD"
+          ]
+        },
+        "expected_remaining_under_uniform_prior": {
+          "denominator": 3,
+          "numerator": 5
+        },
+        "worst_case_remaining": 2
+      }
+    ],
+    "all_training_signatures_equal": true,
+    "candidate_interaction_covers": {
+      "AB|CD": [
+        "AB",
+        "CD"
+      ],
+      "AC|BD": [
+        "AC",
+        "BD"
+      ],
+      "AD|BC": [
+        "AD",
+        "BC"
+      ]
+    },
+    "first_action": "AB",
+    "first_response": 1,
+    "ground_truth_for_positive_control": "AB|CD",
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "minimum_separating_action_sets": [
+      [
+        "AB",
+        "AC"
+      ],
+      [
+        "AB",
+        "BC"
+      ],
+      [
+        "AB",
+        "AD"
+      ],
+      [
+        "AB",
+        "BD"
+      ],
+      [
+        "AC",
+        "BC"
+      ],
+      [
+        "AC",
+        "AD"
+      ],
+      [
+        "AC",
+        "CD"
+      ],
+      [
+        "BC",
+        "BD"
+      ],
+      [
+        "BC",
+        "CD"
+      ],
+      [
+        "AD",
+        "BD"
+      ],
+      [
+        "AD",
+        "CD"
+      ],
+      [
+        "BD",
+        "CD"
+      ]
+    ],
+    "minimum_worst_case_separator_size": 2,
+    "pair_hitting_sets_match_signature_separators": true,
+    "posterior_after_first_response": [
+      "AB|CD"
+    ],
+    "training_actions": [
+      "1",
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "training_version_space": [
+      "AB|CD",
+      "AC|BD",
+      "AD|BC"
+    ],
+    "worst_case_requires_two_actions_even_if_one_branch_finishes_early": true
+  },
+  "overlap_and_relabeling": {
+    "interaction_hyperedges": [
+      "AB",
+      "BC"
+    ],
+    "is_not_a_partition": true,
+    "overlap": "B",
+    "permutation_old_to_new": [
+      2,
+      0,
+      1
+    ],
+    "relabeling_covariant": true
+  },
+  "probe": "du_endogenous_regionalization_probe",
+  "relay_refinement": {
+    "admissible_constraint": "R=A",
+    "admissible_state_count": 8,
+    "collapsed_core_hyperedges": [
+      "AB",
+      "BC"
+    ],
+    "deterministic_relay_collapse_agrees": true,
+    "direct_raw_hyperedges": [
+      "AB",
+      "BC"
+    ],
+    "extensions_agree_on_every_admissible_state": true,
+    "lesson": "admissible behavior does not select a raw refined diagram; collapse deterministic copy relays before regionalization",
+    "quotient_contract_outcome": "IDENTIFIED_UP_TO_DECLARED_SYMMETRY_OR_REFINEMENT",
+    "raw_contract_outcome": "OBSERVATIONALLY_EQUIVALENT_IN_DECLARED_CLASS",
+    "raw_hypergraphs_differ": true,
+    "relay_raw_hyperedges": [
+      "BC",
+      "BR"
+    ]
+  },
+  "run_id": "RUN-20260725-064622-regional-selection-noisy-descent",
+  "schema_version": "1.0",
+  "selection_contract": {
+    "all_outcomes_exercised": true,
+    "grade": "ELEMENTARY FINITE IDENTIFICATION/HITTING-SET RESULT",
+    "matching_full_separator_case": "IDENTIFIED_UP_TO_DECLARED_SYMMETRY_OR_REFINEMENT",
+    "matching_training_case": "UNDERIDENTIFIED_WITH_MINIMUM_SEPARATOR",
+    "missing_candidate_grammar_case": "INCOMPLETE_CONTRACT",
+    "relay_quotient_case": "IDENTIFIED_UP_TO_DECLARED_SYMMETRY_OR_REFINEMENT",
+    "relay_raw_admissible_case": "OBSERVATIONALLY_EQUIVALENT_IN_DECLARED_CLASS",
+    "return_vocabulary": [
+      "IDENTIFIED_UP_TO_DECLARED_SYMMETRY_OR_REFINEMENT",
+      "UNDERIDENTIFIED_WITH_MINIMUM_SEPARATOR",
+      "OBSERVATIONALLY_EQUIVALENT_IN_DECLARED_CLASS",
+      "INCOMPLETE_CONTRACT"
+    ],
+    "selection_theorem": "inside a frozen finite candidate class, current data identify one presentation up to the declared quotient iff the current response signature is injective on quotient classes; otherwise a minimum pair-separating action set is a hitting set over still-indistinguishable candidate pairs"
+  },
+  "validator_origin_selection": {
+    "failure_domain_intervention": "fail(alpha)",
+    "independent_support_ranks": {
+      "clone_v1_v2": 2,
+      "independent": 3
+    },
+    "intervention_separates_origin_models": true,
+    "lesson": "signature identity and present agreement do not identify independent failure origins",
+    "post_intervention_records": {
+      "clone_v1_v2": [
+        0,
+        0,
+        1
+      ],
+      "independent": [
+        0,
+        1,
+        1
+      ]
+    },
+    "present_record": {
+      "clone_v1_v2": [
+        1,
+        1,
+        1
+      ],
+      "independent": [
+        1,
+        1,
+        1
+      ]
+    },
+    "present_records_identical": true,
+    "raw_signature_count": 3,
+    "validators": [
+      "v1",
+      "v2",
+      "v3"
+    ]
+  },
+  "verdict": "FINITE_REGIONAL_IDENTIFICATION_CONTRACT_INSTALLED / PRESENT_RECORDS_CAN_UNDERIDENTIFY COVERS_AND_ORIGINS / MINIMUM_HELD_OUT_SEPARATORS_COMPUTED"
+}

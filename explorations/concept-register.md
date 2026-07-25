@@ -1193,6 +1193,33 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   capability feedback, and a GHZ logical-access twin. The shared return
   contract distinguishes descent, provenance/logical lift, safe rejection,
   and incomplete specification. The deterministic probe passes `24/24`.
+- **2026-07-25 endogenous-selection and noisy-descent successors.**
+  The concept now carries a two-stage identification contract rather than an
+  assumed regional diagram:
+  1. freeze a candidate regional grammar, intervention class, and
+     label/refinement quotient;
+  2. return the response-equivalent version space, a minimum held-out
+     separator when one exists, observational equivalence when it does not,
+     or incomplete contract;
+  3. for one selected/equivalent regional object, separately test whether its
+     noisy local records possess a global extension; and
+  4. if they do, separately compute whether its boundary summary preserves
+     the declared upper action within tolerance.
+
+  The `21/21` finite selector reconstructs every four-input Boolean response
+  inside the frozen ANF grammar, exhibits three region covers with identical
+  passive/singleton records and a two-action worst-case separator, shows the
+  full quadratic grammar needs all six pair actions, recovers overlapping
+  regions, quotients deterministic relays, and separates validator identities
+  from failure origins.
+
+  The `20/20` noisy probe uses the known even-parity polytope to give a finite
+  binary-cycle obstruction. The equality/equality/inequality triangle with
+  equal edge error descends exactly at \(\epsilon\geq1/3\). Node-local
+  noninvertible channels preserve a pre-existing joint process, while the
+  binary boundary-action defect is independently half the response range on
+  each summary fiber. These are exact scoped controls, not a physical region
+  selector, universal threshold, contextuality claim, or new law.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
@@ -1212,11 +1239,14 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   noisy, noninvertible, adversarial, recursive and physically instantiated
   theorem with a capability/resource consequence.
 - **Status:** **CONCEPT-OPEN / EXACT FINITE KERNEL INSTALLED / PHYSICAL
-  REGIONALIZATION AND VALIDATOR SELECTION OPEN / NOISY NONINVERTIBLE DESCENT
-  OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.** The next coupled attacks are
-  competing-cover reconstruction with held-out interventions and a
-  quantitative descent defect for stochastic maps. See
-  `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md`.
+  REGIONALIZATION AND VALIDATOR SELECTION OPEN / FINITE BOOLEAN
+  IDENTIFICATION AND BINARY-CYCLE DESCENT CONTROLS INSTALLED / GENERAL
+  MARGINAL DESCENT OPEN / NO ONTOLOGY OR NEW PHYSICS INFERRED.** The next
+  coupled attack is an independently fixed multi-time regional grammar plus a
+  general rational marginal-extension/dual-obstruction compiler, followed by
+  authenticated and quantum transfer. See
+  `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md` and
+  `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

@@ -155,8 +155,11 @@ The recharter preserves, rather than promotes, the strongest exact results:
   Its exact finite controls separate descent, provenance/logical lift, safe
   rejection, and incomplete contracts; prove the action-sufficient
   node-promotion criterion; and retain safety, liveness, disclosure, and
-  capability as distinct types. This supplies a composition architecture,
-  not a selected physical regionalization or a new law.
+  capability as distinct types. The first two successors now add a finite
+  version-space/minimum-separator regional selector and an exact binary-cycle
+  stochastic obstruction plus approximate boundary defect. This supplies a
+  composition architecture, not a selected physical regionalization or a new
+  law.
 
 These results complete the finite classical quotient bookkeeping, the first
 static layered-threshold and deterministic interventional-closure controls,
@@ -174,8 +177,10 @@ instantiate the signed all-port assay in a proposal-level proper-time process
 with complete operations, accessible outcomes, calibrated convex nulls, and
 matched resources. Only a surviving formed distinction should route to
 `HC-DU-035B` for formation-to-finality pricing. In parallel, regional
-composition should now attack endogenous cover/validator selection and noisy
-noninvertible descent rather than add more exact diagrams. These controls do not
+composition should now lift the finite selector to independently formed
+multi-time physical instruments and the binary-cycle obstruction to a general
+exact marginal-descent compiler, rather than add more Boolean covers or cycle
+examples. These controls do not
 establish an observer, proper time, public classicality, continuum covariance,
 gravity, cosmology, or record-first ontology.
 
@@ -606,6 +611,51 @@ is open. The exact kernel also takes the regions, validators, access
 structures, and feedback couplings as supplied; their physical selection is
 the principal missing dependency.
 
+**Executed finite selection successor.** Relative to a frozen finite
+candidate grammar and intervention family, regional identification is now
+typed as a response-signature version-space problem:
+
+- the complete Boolean Möbius/ANF transform reconstructs all `65,536`
+  four-input response functions exactly;
+- three rival pair-region covers have identical passive and singleton
+  records but require an exact minimum worst-case suite of two pair
+  interventions;
+- the complete 64-model quadratic grammar requires all six pair
+  interventions, so the toy does not hide full identification cost;
+- overlapping regions and label covariance are explicit;
+- two raw diagrams differing by an inert deterministic relay agree on every
+  admissible response and collapse to one core cover; and
+- independent and cloned validator origins have identical present signatures
+  but separate under a declared failure-domain intervention.
+
+The finite selector returns identified-up-to-quotient, underidentified with a
+minimum separator, observationally equivalent, or incomplete contract. It
+does not select a physical response grammar, authorize destructive fault
+injection, or make minimum description a law.
+
+**Executed noisy-descent successor.** For binary edge-mismatch records on a
+cycle, odd-set inequalities of the known even-parity polytope provide an exact
+global-extension obstruction:
+
+- every even and odd deterministic vertex is audited through cycle size
+  seven, and all `343` points of a denominator-six triangle grid agree with
+  the signed-extension criterion;
+- the equally noisy equality/equality/inequality triangle descends exactly
+  when \(\epsilon\geq1/3\), with facet violation
+  \([1-3\epsilon]_+\);
+- `972` node-local binary-symmetric-channel controls confirm that applying a
+  noninvertible local channel to an existing joint process preserves
+  compatibility;
+- for binary upper responses, the exact approximate node-promotion defect is
+  half the response-probability range on each supplied summary fiber; and
+- the noisy GHZ logical-access control gives coarse-boundary defect \(v/2\)
+  at visibility \(v\), removed by a logical lift.
+
+Facet slack is an obstruction witness, not yet an operational or physical
+distance. The general finite marginal compiler, multi-time physical region
+selection, authenticated protocol derivation, quantum-instrument transfer,
+and recursive defect composition remain open.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -873,7 +923,9 @@ Only after the preceding dependencies:
    HC-DU-035A layered threshold controls [COMPLETED]
    HC-DU-035B formation-to-finality resource law [OPEN]
    HC-DU-035C finite regional descent/composition [COMPLETED CONTROL]
-                noisy noninvertible descent and endogenous regionalization [OPEN]
+                finite Boolean regional identification [COMPLETED CONTROL]
+                binary-cycle noisy descent and boundary defect [COMPLETED CONTROL]
+                multi-time physical selection and general marginal descent [OPEN]
         |
 3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
         |
@@ -912,16 +964,26 @@ classical memory. See
 `explorations/entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`
 and `tests/du_entangled_finality_absorption_probe.py`.
 
-**`H-CCR-16` control grade (2026-07-25).** The exact finite regional kernel
-passes `24/24` checks and unifies flat/frustrated descent, quorum
-safety/liveness/provenance, action-sufficient node promotion, benign
-refinement, forward capability feedback, and a GHZ logical-access twin under
-one four-outcome contract. This is a reusable conjunction of known component
-mathematics, not a general theorem or physical architecture. The immediate
-successors are endogenous region/validator selection and noisy noninvertible
-descent. See
-`explorations/regional-finality-descent-kernel-and-approach-registry-2026-07-25.md`
-and `tests/du_regional_finality_descent_probe.py`.
+**`H-CCR-16` control grade (2026-07-25).** Three exact finite layers now run:
+
+1. the `24/24` regional kernel unifies flat/frustrated descent, quorum
+   safety/liveness/provenance, action-sufficient node promotion, refinement,
+   feedback, and a GHZ logical-access twin;
+2. the `21/21` selection control returns identified, underidentified with a
+   minimum separator, observationally equivalent, or incomplete contract,
+   while quotienting labels and deterministic relays and separating validator
+   identity from origin independence; and
+3. the `20/20` noisy control supplies the binary-cycle odd-facet obstruction,
+   the one-third frustrated-triangle threshold, local noninvertible-noise
+   preservation, and a distinct approximate boundary-action defect.
+
+These are reusable conjunctions of known component mathematics, not a general
+theorem or physical architecture. The immediate successors are a
+multi-time/instrument-derived regional grammar and a general exact marginal
+compiler with authenticated and quantum transfer. See
+`explorations/regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`,
+`tests/du_endogenous_regionalization_probe.py`, and
+`tests/du_noisy_noninvertible_descent_probe.py`.
 
 ## Common benchmark suite
 
@@ -1090,21 +1152,23 @@ because it is covariant.
 5. stop if the result is only a juxtaposition of known statistical,
    access-structure, and quorum theorems.
 
-**Completed `HC-DU-035C` regional-composition controls and next build:**
+**Completed `HC-DU-035C` controls and next build:**
 
 1. retain the exact cycle-syndrome, quorum, independent-support,
-   action-factorization, refinement, and logical-access fixtures as the
-   minimum regression baseline;
-2. generate competing overlapping regional covers with identical present
-   records and use held-out interventions to identify the minimum physical
-   split/merge or validator selector;
-3. replace exact affine translations with noisy and noninvertible kernels,
-   authenticated adversarial schedules, and approximate logical access;
-4. preserve the same four return types across distributed and quantum
-   fixtures without changing the meaning of record, public, finality, or
-   capability; and
-5. stop before geometry or beyond-standard physics if the result is absorbed
-   by known descent, process-tensor, controller, QEC, or protocol structure.
+   action-factorization, refinement, logical-access, version-space,
+   minimum-separator, odd-facet, and half-range fixtures as the minimum
+   regression baseline;
+2. replace the Boolean endpoint grammar with independently fixed multi-time
+   physical instruments, preserving overlapping regions, label covariance,
+   relay quotienting, and held-out causal-break actions;
+3. build a general rational marginal-descent compiler that returns a
+   primal extension or dual obstruction for glued cycles and nonacyclic
+   hypergraphs;
+4. derive one authenticated protocol and one quantum-instrument specimen
+   through the same selection/compatibility/action-defect schema; and
+5. stop before geometry or beyond-standard physics if region selection is
+   target-defined or every obstruction is absorbed by known marginal,
+   process-tensor, controller, QEC, or protocol structure.
 
 ### Phase 3 — `HC-DU-034/036` history and sufficiency
 
@@ -1244,6 +1308,8 @@ FULL QUBIT PAULI STABILITY--FORMATION RECTANGLE CONSTRUCTED
 HC-DU-035A LAYERED THRESHOLD SEPARATION AND CONTROLS EXACT
 HC-DU-035C FINITE REGIONAL DESCENT, QUORUM, NODE-PROMOTION, REFINEMENT AND LOGICAL-ACCESS CONTROLS EXACT
 REGIONAL KERNEL PROBE 24/24; COMPONENT MATHEMATICS KNOWN
+FINITE REGIONAL VERSION-SPACE, MINIMUM-SEPARATOR, RELAY AND VALIDATOR-ORIGIN CONTROLS 21/21
+BINARY-CYCLE NOISY DESCENT, ONE-THIRD FRUSTRATION AND BOUNDARY HALF-RANGE CONTROLS 20/20
 HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
 HC-DU-036A FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT
 ONE UNIVERSAL OBJECTIVITY THRESHOLD REJECTED
@@ -1252,7 +1318,7 @@ SEPARATING WITNESS MEANS CANDIDATE-RECORD INSUFFICIENCY, NOT AUTOMATIC ONTOLOGY
 ROBUST APPROXIMATE AND INSTRUMENT-DERIVED PHYSICAL RECORD SELECTION OPEN
 PUBLIC BROADCASTABLE FINALITY AND FORMATION-TO-FINALITY RESOURCE LAW OPEN
 PHYSICAL / NOISY / QUANTUM / ADVERSARIAL INTERVENTIONAL SUFFICIENCY OPEN
-ENDOGENOUS REGIONALIZATION AND NOISY NONINVERTIBLE DESCENT OPEN
+MULTI-TIME PHYSICAL REGIONALIZATION AND GENERAL MARGINAL DESCENT OPEN
 GEOMETRY AND PHYSICAL RECOVERY OPEN
 HC-DU-033A/033B/035A/036A COMPONENT MATHEMATICS KNOWN
 STATIC QUANTUM/BFT CONJUNCTION COLLIDES

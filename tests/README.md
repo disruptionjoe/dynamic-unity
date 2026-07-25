@@ -562,6 +562,66 @@ not endogenous physical regions or validators, a cryptographic security
 proof, noisy/noninvertible descent, public objectivity, geometry, ontology,
 or a departure from quantum theory.
 
+## Endogenous regionalization
+
+`du_endogenous_regionalization_probe.py` executes the first selection
+successor to `HC-DU-035C`. It treats regionalization as finite candidate
+identification relative to frozen interventions and a declared
+label/refinement quotient.
+
+Using only the Python standard library, it checks:
+
+- exact ANF/Möbius reconstruction of all `65,536` four-input Boolean response
+  tables;
+- three rival perfect-matching interaction covers with identical passive and
+  singleton records and a minimum worst-case separator of two pair actions;
+- all 64 quadratic four-input interaction models, for which all six pair
+  actions are necessary and sufficient;
+- overlapping interaction regions and label covariance;
+- two raw deterministic-relay refinements that agree on every admissible
+  state and collapse to one core cover;
+- independent-versus-cloned validator origins with identical present
+  signatures and a separating failure-domain intervention; and
+- identified, underidentified-with-separator, observationally-equivalent, and
+  incomplete return types.
+
+The deterministic artifact is
+`artifacts/du_endogenous_regionalization_result.json` and reports `21/21`
+checks. Passing does not select a physical Boolean grammar, make ANF
+monomials fundamental regions, turn minimum description into a law, authorize
+destructive failure injection, or establish noisy/continuous regional
+identification.
+
+## Noisy noninvertible regional descent
+
+`du_noisy_noninvertible_descent_probe.py` separates stochastic global
+compatibility from approximate boundary-action sufficiency.
+
+Using exact `Fraction` arithmetic, it checks:
+
+- every even and odd parity vertex through cycle size seven against all
+  odd-set facets of the known even-parity polytope;
+- all `343` points of a denominator-six triangle grid against the unique
+  signed parity-sector extension;
+- the exact frustrated equality/equality/inequality family, whose equal-noise
+  compatibility threshold is \(\epsilon=1/3\);
+- `972` joint-distribution/local-binary-symmetric-channel cases, including a
+  fully erasing noninvertible channel, none of which creates a compatibility
+  obstruction;
+- the exact half-range formula for binary approximate boundary
+  factorization;
+- a noisy GHZ logical-access specialization with coarse defect \(v/2\) and
+  zero defect after the logical lift; and
+- all four existing descent outcomes with separate quorum-safety and
+  independent-provenance gates.
+
+The deterministic artifact is
+`artifacts/du_noisy_noninvertible_descent_result.json` and reports `20/20`
+checks. Facet slack and signed negative mass are mathematical obstruction
+receipts, not yet operational or physical distances. Passing does not
+establish a general stochastic descent theorem, contextuality, a finality
+field, protocol security, quantum modification, geometry, or ontology.
+
 ## Entangled layered-finality absorption boundary
 
 `du_entangled_finality_absorption_probe.py` fixes the standard-quantum null
