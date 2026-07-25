@@ -434,3 +434,26 @@ currently classified as interface incompleteness because the routed
 implementation refinement predicts it. Noisy/noninvertible reconciliation,
 adversarial protocols, approximate fixed algebras, and an actual coherent
 proper-time realization remain open.
+
+## Eighteen-lens hypothesis quadratic-vote audit
+
+`du_technical_lens_hypothesis_quadratic_vote_probe.py` audits the
+repository-wide technical hypothesis panel. It validates:
+
+- exactly 18 nonredundant lenses;
+- exactly two uniquely identified, falsifiable, graded hypotheses per lens;
+- one complete 36-hypothesis weight surface per voter;
+- exclusion of both voter-owned hypotheses;
+- explicit zero weights for every unselected non-owned hypothesis;
+- exactly 100 quadratic credits per ballot;
+- reconciliation to 1,800 credits and 436 vote units; and
+- deterministic ranking of all 36 hypotheses.
+
+The artifact reports `8/8` checks. Its top result is `HG-B`,
+Cycle-Filling Public-Finality, tied at 39 vote units with `DC-A`,
+Loop-Resolution Finality, and winning the stable tie-break through broader
+support. Passing establishes only that the recorded ballot obeys its rules
+and that the arithmetic is reproducible. Persona hypotheses and votes are
+exploratory curiosity/priority signals, not scientific evidence, novelty,
+core-hypothesis promotion, a prediction or claim seed, or authorization for
+the suggested next swing.

@@ -1,0 +1,3040 @@
+{
+  "authorization_effect": "NONE",
+  "ballots": [
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "MC-A",
+        "MC-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 64,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 8
+        },
+        {
+          "hypothesis_id": "SP-A",
+          "quadratic_cost": 16,
+          "title": "Reentrant Public-Fact Transition",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 9,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 4,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 4,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 1,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 1,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "EM-B",
+          "quadratic_cost": 1,
+          "title": "Clock Provenance-Capacity Threshold",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 22,
+      "voter": "MC",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 8,
+        "DC-B": 0,
+        "EM-A": 0,
+        "EM-B": 1,
+        "FM-A": 1,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 2,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": null,
+        "MC-B": null,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 1,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 3,
+        "SP-A": 4,
+        "SP-B": 0,
+        "TR-A": 2,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "HG-A",
+        "HG-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 81,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 9
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 9,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "DB-A",
+          "quadratic_cost": 4,
+          "title": "Serializability-Holonomy Correspondence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CG-B",
+          "quadratic_cost": 4,
+          "title": "Coarse-Grained Holonomy-Curvature Bridge",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 1,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "QE-B",
+          "quadratic_cost": 1,
+          "title": "Syndrome-Provenance Duality",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 18,
+      "voter": "HG",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 2,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 2,
+        "DB-B": 0,
+        "DC-A": 9,
+        "DC-B": 0,
+        "EM-A": 0,
+        "EM-B": 0,
+        "FM-A": 1,
+        "FM-B": 0,
+        "HG-A": null,
+        "HG-B": null,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 1,
+        "QI-A": 0,
+        "QI-B": 3,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "CA-A",
+        "CA-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "QI-A",
+          "quadratic_cost": 36,
+          "title": "Implementation-Complete Flatness Null",
+          "vote_units": 6
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 25,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "CT-B",
+          "quadratic_cost": 16,
+          "title": "Finite Intervention-Basis Compactness",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "CG-A",
+          "quadratic_cost": 9,
+          "title": "Certified Meta-Record Geometry Reconstruction",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-A",
+          "quadratic_cost": 4,
+          "title": "Higher-Order Record Insufficiency",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 4,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 4,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CP-B",
+          "quadratic_cost": 1,
+          "title": "No-Finite-Metaphysics Theorem",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "NW-A",
+          "quadratic_cost": 1,
+          "title": "Temporal Min-Cut Reality Bandwidth",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 26,
+      "voter": "CA",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": null,
+        "CA-B": null,
+        "CG-A": 3,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 1,
+        "CT-A": 0,
+        "CT-B": 4,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 0,
+        "EM-A": 2,
+        "EM-B": 0,
+        "FM-A": 5,
+        "FM-B": 0,
+        "HG-A": 2,
+        "HG-B": 0,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 1,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 0,
+        "QI-A": 6,
+        "QI-B": 2,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "DC-A",
+        "DC-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 81,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 9
+        },
+        {
+          "hypothesis_id": "AD-A",
+          "quadratic_cost": 9,
+          "title": "Equivocation-Provenance Lower Bound",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "DB-A",
+          "quadratic_cost": 4,
+          "title": "Serializability-Holonomy Correspondence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 4,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 1,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "SP-A",
+          "quadratic_cost": 1,
+          "title": "Reentrant Public-Fact Transition",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 18,
+      "voter": "DC",
+      "weights": {
+        "AD-A": 3,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 2,
+        "DB-B": 0,
+        "DC-A": null,
+        "DC-B": null,
+        "EM-A": 0,
+        "EM-B": 0,
+        "FM-A": 2,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 9,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 1,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 0,
+        "SP-A": 1,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "AD-A",
+        "AD-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "DC-B",
+          "quadratic_cost": 64,
+          "title": "Certified-View Equalizer Theorem",
+          "vote_units": 8
+        },
+        {
+          "hypothesis_id": "ZK-B",
+          "quadratic_cost": 16,
+          "title": "Succinct Proof Does Not Erase Provenance Debt",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 9,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 4,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 4,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "DB-A",
+          "quadratic_cost": 1,
+          "title": "Serializability-Holonomy Correspondence",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "CP-B",
+          "quadratic_cost": 1,
+          "title": "No-Finite-Metaphysics Theorem",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "CT-B",
+          "quadratic_cost": 1,
+          "title": "Finite Intervention-Basis Compactness",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 22,
+      "voter": "AD",
+      "weights": {
+        "AD-A": null,
+        "AD-B": null,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 1,
+        "CT-A": 0,
+        "CT-B": 1,
+        "DB-A": 1,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 8,
+        "EM-A": 0,
+        "EM-B": 0,
+        "FM-A": 3,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 2,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 2,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 0,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 4
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "ZK-A",
+        "ZK-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "DC-B",
+          "quadratic_cost": 36,
+          "title": "Certified-View Equalizer Theorem",
+          "vote_units": 6
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 25,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "IT-A",
+          "quadratic_cost": 16,
+          "title": "Action-Relative Reconciliation Rate",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 9,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "FM-B",
+          "quadratic_cost": 4,
+          "title": "Machine-Checkable Ontology License",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "AD-A",
+          "quadratic_cost": 4,
+          "title": "Equivocation-Provenance Lower Bound",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 4,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 1,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "CG-A",
+          "quadratic_cost": 1,
+          "title": "Certified Meta-Record Geometry Reconstruction",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 26,
+      "voter": "ZK",
+      "weights": {
+        "AD-A": 2,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 1,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 6,
+        "EM-A": 1,
+        "EM-B": 0,
+        "FM-A": 0,
+        "FM-B": 2,
+        "HG-A": 0,
+        "HG-B": 3,
+        "IT-A": 4,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 5,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 0,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 2,
+        "TR-B": 0,
+        "ZK-A": null,
+        "ZK-B": null
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "DB-A",
+        "DB-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 25,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 16,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 16,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "AD-A",
+          "quadratic_cost": 9,
+          "title": "Equivocation-Provenance Lower Bound",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "IT-A",
+          "quadratic_cost": 9,
+          "title": "Action-Relative Reconciliation Rate",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 4,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "NW-A",
+          "quadratic_cost": 4,
+          "title": "Temporal Min-Cut Reality Bandwidth",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "SP-A",
+          "quadratic_cost": 4,
+          "title": "Reentrant Public-Fact Transition",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CT-A",
+          "quadratic_cost": 4,
+          "title": "Joint Observability-Action Finality Equivalence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 4,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "ZK-A",
+          "quadratic_cost": 1,
+          "title": "Certification Without Shared Biography",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 1,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "HG-A",
+          "quadratic_cost": 1,
+          "title": "Higher-Order Record Insufficiency",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "CP-B",
+          "quadratic_cost": 1,
+          "title": "No-Finite-Metaphysics Theorem",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "CG-A",
+          "quadratic_cost": 1,
+          "title": "Certified Meta-Record Geometry Reconstruction",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 34,
+      "voter": "DB",
+      "weights": {
+        "AD-A": 3,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 1,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 1,
+        "CT-A": 2,
+        "CT-B": 0,
+        "DB-A": null,
+        "DB-B": null,
+        "DC-A": 5,
+        "DC-B": 0,
+        "EM-A": 1,
+        "EM-B": 0,
+        "FM-A": 4,
+        "FM-B": 0,
+        "HG-A": 1,
+        "HG-B": 4,
+        "IT-A": 3,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 2,
+        "NW-B": 0,
+        "QE-A": 2,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 2,
+        "SP-A": 2,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 1,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "QI-A",
+        "QI-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 81,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 9
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 9,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 4,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CP-B",
+          "quadratic_cost": 4,
+          "title": "No-Finite-Metaphysics Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 1,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 1,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 18,
+      "voter": "QI",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 2,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 0,
+        "EM-A": 3,
+        "EM-B": 0,
+        "FM-A": 1,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 2,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 9,
+        "QE-B": 0,
+        "QI-A": null,
+        "QI-B": null,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 1,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "QE-A",
+        "QE-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 36,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 6
+        },
+        {
+          "hypothesis_id": "DC-B",
+          "quadratic_cost": 25,
+          "title": "Certified-View Equalizer Theorem",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "ZK-A",
+          "quadratic_cost": 16,
+          "title": "Certification Without Shared Biography",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 9,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 4,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 4,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "EM-B",
+          "quadratic_cost": 4,
+          "title": "Clock Provenance-Capacity Threshold",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "IT-A",
+          "quadratic_cost": 1,
+          "title": "Action-Relative Reconciliation Rate",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "CP-A",
+          "quadratic_cost": 1,
+          "title": "Intervention-Indexed Actuality",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 26,
+      "voter": "QE",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 1,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 5,
+        "EM-A": 0,
+        "EM-B": 2,
+        "FM-A": 2,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 3,
+        "IT-A": 1,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": null,
+        "QE-B": null,
+        "QI-A": 0,
+        "QI-B": 6,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 2,
+        "TR-B": 0,
+        "ZK-A": 4,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "IT-A",
+        "IT-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "ZK-B",
+          "quadratic_cost": 25,
+          "title": "Succinct Proof Does Not Erase Provenance Debt",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "AD-A",
+          "quadratic_cost": 16,
+          "title": "Equivocation-Provenance Lower Bound",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 16,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "CT-A",
+          "quadratic_cost": 9,
+          "title": "Joint Observability-Action Finality Equivalence",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "DC-B",
+          "quadratic_cost": 9,
+          "title": "Certified-View Equalizer Theorem",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "QE-B",
+          "quadratic_cost": 4,
+          "title": "Syndrome-Provenance Duality",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "NW-A",
+          "quadratic_cost": 4,
+          "title": "Temporal Min-Cut Reality Bandwidth",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 4,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 4,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "ZK-A",
+          "quadratic_cost": 4,
+          "title": "Certification Without Shared Biography",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 1,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "FM-B",
+          "quadratic_cost": 1,
+          "title": "Machine-Checkable Ontology License",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 1,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "SP-A",
+          "quadratic_cost": 1,
+          "title": "Reentrant Public-Fact Transition",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "DB-A",
+          "quadratic_cost": 1,
+          "title": "Serializability-Holonomy Correspondence",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 34,
+      "voter": "IT",
+      "weights": {
+        "AD-A": 4,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 3,
+        "CT-B": 0,
+        "DB-A": 1,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 3,
+        "EM-A": 1,
+        "EM-B": 0,
+        "FM-A": 2,
+        "FM-B": 1,
+        "HG-A": 0,
+        "HG-B": 4,
+        "IT-A": null,
+        "IT-B": null,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 2,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 2,
+        "QI-A": 0,
+        "QI-B": 1,
+        "SP-A": 1,
+        "SP-B": 0,
+        "TR-A": 2,
+        "TR-B": 0,
+        "ZK-A": 2,
+        "ZK-B": 5
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "CT-A",
+        "CT-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 64,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 8
+        },
+        {
+          "hypothesis_id": "CA-B",
+          "quadratic_cost": 16,
+          "title": "Local Causal-Cone Witness Bound",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "QI-A",
+          "quadratic_cost": 9,
+          "title": "Implementation-Complete Flatness Null",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 4,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 4,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "HG-A",
+          "quadratic_cost": 1,
+          "title": "Higher-Order Record Insufficiency",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "CP-A",
+          "quadratic_cost": 1,
+          "title": "Intervention-Indexed Actuality",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "AD-B",
+          "quadratic_cost": 1,
+          "title": "Adaptive Refinement Dichotomy",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 22,
+      "voter": "CT",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 1,
+        "CA-A": 0,
+        "CA-B": 4,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 1,
+        "CP-B": 0,
+        "CT-A": null,
+        "CT-B": null,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 2,
+        "DC-B": 0,
+        "EM-A": 2,
+        "EM-B": 0,
+        "FM-A": 8,
+        "FM-B": 0,
+        "HG-A": 1,
+        "HG-B": 0,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 0,
+        "QI-A": 3,
+        "QI-B": 0,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "SP-A",
+        "SP-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "MC-A",
+          "quadratic_cost": 64,
+          "title": "Provenance-Weighted Hysteretic Finality",
+          "vote_units": 8
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 16,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 9,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 4,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 4,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "NW-A",
+          "quadratic_cost": 1,
+          "title": "Temporal Min-Cut Reality Bandwidth",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "EM-B",
+          "quadratic_cost": 1,
+          "title": "Clock Provenance-Capacity Threshold",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 1,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 22,
+      "voter": "SP",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 3,
+        "DC-B": 0,
+        "EM-A": 0,
+        "EM-B": 1,
+        "FM-A": 1,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 2,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 8,
+        "MC-B": 0,
+        "NW-A": 1,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 4,
+        "SP-A": null,
+        "SP-B": null,
+        "TR-A": 2,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "FM-A",
+        "FM-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "CT-B",
+          "quadratic_cost": 81,
+          "title": "Finite Intervention-Basis Compactness",
+          "vote_units": 9
+        },
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 9,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 4,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CA-B",
+          "quadratic_cost": 4,
+          "title": "Local Causal-Cone Witness Bound",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QI-A",
+          "quadratic_cost": 1,
+          "title": "Implementation-Complete Flatness Null",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "AD-B",
+          "quadratic_cost": 1,
+          "title": "Adaptive Refinement Dichotomy",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 18,
+      "voter": "FM",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 1,
+        "CA-A": 0,
+        "CA-B": 2,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 9,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 3,
+        "DC-B": 0,
+        "EM-A": 0,
+        "EM-B": 0,
+        "FM-A": null,
+        "FM-B": null,
+        "HG-A": 0,
+        "HG-B": 2,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 0,
+        "QI-A": 1,
+        "QI-B": 0,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "EM-A",
+        "EM-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "QI-A",
+          "quadratic_cost": 81,
+          "title": "Implementation-Complete Flatness Null",
+          "vote_units": 9
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 9,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "CT-B",
+          "quadratic_cost": 4,
+          "title": "Finite Intervention-Basis Compactness",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 4,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "ZK-A",
+          "quadratic_cost": 1,
+          "title": "Certification Without Shared Biography",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 1,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 18,
+      "voter": "EM",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 2,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 0,
+        "EM-A": null,
+        "EM-B": null,
+        "FM-A": 3,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 0,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 0,
+        "QI-A": 9,
+        "QI-B": 2,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 1,
+        "TR-B": 0,
+        "ZK-A": 1,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "TR-A",
+        "TR-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 36,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 6
+        },
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 25,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 16,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "ZK-A",
+          "quadratic_cost": 9,
+          "title": "Certification Without Shared Biography",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 4,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 4,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CP-B",
+          "quadratic_cost": 4,
+          "title": "No-Finite-Metaphysics Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "IT-A",
+          "quadratic_cost": 1,
+          "title": "Action-Relative Reconciliation Rate",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "SP-A",
+          "quadratic_cost": 1,
+          "title": "Reentrant Public-Fact Transition",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 26,
+      "voter": "TR",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 0,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 2,
+        "CT-A": 0,
+        "CT-B": 0,
+        "DB-A": 0,
+        "DB-B": 0,
+        "DC-A": 5,
+        "DC-B": 0,
+        "EM-A": 2,
+        "EM-B": 0,
+        "FM-A": 0,
+        "FM-B": 0,
+        "HG-A": 0,
+        "HG-B": 2,
+        "IT-A": 1,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 0,
+        "NW-B": 0,
+        "QE-A": 4,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 6,
+        "SP-A": 1,
+        "SP-B": 0,
+        "TR-A": null,
+        "TR-B": null,
+        "ZK-A": 3,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "CP-A",
+        "CP-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "ZK-A",
+          "quadratic_cost": 25,
+          "title": "Certification Without Shared Biography",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "QI-A",
+          "quadratic_cost": 16,
+          "title": "Implementation-Complete Flatness Null",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "CT-B",
+          "quadratic_cost": 16,
+          "title": "Finite Intervention-Basis Compactness",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "CG-A",
+          "quadratic_cost": 9,
+          "title": "Certified Meta-Record Geometry Reconstruction",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-A",
+          "quadratic_cost": 9,
+          "title": "Higher-Order Record Insufficiency",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "FM-B",
+          "quadratic_cost": 4,
+          "title": "Machine-Checkable Ontology License",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "DC-B",
+          "quadratic_cost": 4,
+          "title": "Certified-View Equalizer Theorem",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "IT-B",
+          "quadratic_cost": 4,
+          "title": "No Universal Informational Distance",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "EM-A",
+          "quadratic_cost": 4,
+          "title": "Proper-Time Robust Separability",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 4,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 1,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "NW-A",
+          "quadratic_cost": 1,
+          "title": "Temporal Min-Cut Reality Bandwidth",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "AD-A",
+          "quadratic_cost": 1,
+          "title": "Equivocation-Provenance Lower Bound",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 1,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "DB-A",
+          "quadratic_cost": 1,
+          "title": "Serializability-Holonomy Correspondence",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 34,
+      "voter": "CP",
+      "weights": {
+        "AD-A": 1,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 3,
+        "CG-B": 0,
+        "CP-A": null,
+        "CP-B": null,
+        "CT-A": 0,
+        "CT-B": 4,
+        "DB-A": 1,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 2,
+        "EM-A": 2,
+        "EM-B": 0,
+        "FM-A": 0,
+        "FM-B": 2,
+        "HG-A": 3,
+        "HG-B": 1,
+        "IT-A": 0,
+        "IT-B": 2,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 1,
+        "NW-B": 0,
+        "QE-A": 2,
+        "QE-B": 0,
+        "QI-A": 4,
+        "QI-B": 0,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 1,
+        "TR-B": 0,
+        "ZK-A": 5,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "CG-A",
+        "CG-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "HG-A",
+          "quadratic_cost": 81,
+          "title": "Higher-Order Record Insufficiency",
+          "vote_units": 9
+        },
+        {
+          "hypothesis_id": "QI-A",
+          "quadratic_cost": 9,
+          "title": "Implementation-Complete Flatness Null",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "NW-A",
+          "quadratic_cost": 4,
+          "title": "Temporal Min-Cut Reality Bandwidth",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CT-B",
+          "quadratic_cost": 4,
+          "title": "Finite Intervention-Basis Compactness",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CP-A",
+          "quadratic_cost": 1,
+          "title": "Intervention-Indexed Actuality",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "DB-A",
+          "quadratic_cost": 1,
+          "title": "Serializability-Holonomy Correspondence",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 18,
+      "voter": "CG",
+      "weights": {
+        "AD-A": 0,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": null,
+        "CG-B": null,
+        "CP-A": 1,
+        "CP-B": 0,
+        "CT-A": 0,
+        "CT-B": 2,
+        "DB-A": 1,
+        "DB-B": 0,
+        "DC-A": 0,
+        "DC-B": 0,
+        "EM-A": 0,
+        "EM-B": 0,
+        "FM-A": 0,
+        "FM-B": 0,
+        "HG-A": 9,
+        "HG-B": 0,
+        "IT-A": 0,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": 2,
+        "NW-B": 0,
+        "QE-A": 0,
+        "QE-B": 0,
+        "QI-A": 3,
+        "QI-B": 0,
+        "SP-A": 0,
+        "SP-B": 0,
+        "TR-A": 0,
+        "TR-B": 0,
+        "ZK-A": 0,
+        "ZK-B": 0
+      }
+    },
+    {
+      "duplicate_positive_ids": false,
+      "owned_hypotheses": [
+        "NW-A",
+        "NW-B"
+      ],
+      "positive_allocations": [
+        {
+          "hypothesis_id": "IT-A",
+          "quadratic_cost": 25,
+          "title": "Action-Relative Reconciliation Rate",
+          "vote_units": 5
+        },
+        {
+          "hypothesis_id": "DC-A",
+          "quadratic_cost": 16,
+          "title": "Loop-Resolution Finality Criterion",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "DB-A",
+          "quadratic_cost": 16,
+          "title": "Serializability-Holonomy Correspondence",
+          "vote_units": 4
+        },
+        {
+          "hypothesis_id": "CG-A",
+          "quadratic_cost": 9,
+          "title": "Certified Meta-Record Geometry Reconstruction",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "HG-B",
+          "quadratic_cost": 9,
+          "title": "Cycle-Filling Public-Finality Theorem",
+          "vote_units": 3
+        },
+        {
+          "hypothesis_id": "AD-A",
+          "quadratic_cost": 4,
+          "title": "Equivocation-Provenance Lower Bound",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "CT-A",
+          "quadratic_cost": 4,
+          "title": "Joint Observability-Action Finality Equivalence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "QI-B",
+          "quadratic_cost": 4,
+          "title": "Noisy Public Fixed-Algebra Convergence",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "EM-B",
+          "quadratic_cost": 4,
+          "title": "Clock Provenance-Capacity Threshold",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "HG-A",
+          "quadratic_cost": 4,
+          "title": "Higher-Order Record Insufficiency",
+          "vote_units": 2
+        },
+        {
+          "hypothesis_id": "FM-A",
+          "quadratic_cost": 1,
+          "title": "Decidable Refinement-Trichotomy Compiler",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "QE-A",
+          "quadratic_cost": 1,
+          "title": "Public Fact as Correctable Logical Algebra",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "ZK-A",
+          "quadratic_cost": 1,
+          "title": "Certification Without Shared Biography",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "SP-A",
+          "quadratic_cost": 1,
+          "title": "Reentrant Public-Fact Transition",
+          "vote_units": 1
+        },
+        {
+          "hypothesis_id": "TR-A",
+          "quadratic_cost": 1,
+          "title": "Finality-Optionality Resource Inequality",
+          "vote_units": 1
+        }
+      ],
+      "quadratic_credits_spent": 100,
+      "vote_units_cast": 34,
+      "voter": "NW",
+      "weights": {
+        "AD-A": 2,
+        "AD-B": 0,
+        "CA-A": 0,
+        "CA-B": 0,
+        "CG-A": 3,
+        "CG-B": 0,
+        "CP-A": 0,
+        "CP-B": 0,
+        "CT-A": 2,
+        "CT-B": 0,
+        "DB-A": 4,
+        "DB-B": 0,
+        "DC-A": 4,
+        "DC-B": 0,
+        "EM-A": 0,
+        "EM-B": 2,
+        "FM-A": 1,
+        "FM-B": 0,
+        "HG-A": 2,
+        "HG-B": 3,
+        "IT-A": 5,
+        "IT-B": 0,
+        "MC-A": 0,
+        "MC-B": 0,
+        "NW-A": null,
+        "NW-B": null,
+        "QE-A": 1,
+        "QE-B": 0,
+        "QI-A": 0,
+        "QI-B": 2,
+        "SP-A": 1,
+        "SP-B": 0,
+        "TR-A": 1,
+        "TR-B": 0,
+        "ZK-A": 1,
+        "ZK-B": 0
+      }
+    }
+  ],
+  "checks": [
+    {
+      "detail": {
+        "lens_count": 18
+      },
+      "name": "eighteen unique lenses present",
+      "passed": true
+    },
+    {
+      "detail": {
+        "hypothesis_count": 36,
+        "ownership_counts": {
+          "AD": 2,
+          "CA": 2,
+          "CG": 2,
+          "CP": 2,
+          "CT": 2,
+          "DB": 2,
+          "DC": 2,
+          "EM": 2,
+          "FM": 2,
+          "HG": 2,
+          "IT": 2,
+          "MC": 2,
+          "NW": 2,
+          "QE": 2,
+          "QI": 2,
+          "SP": 2,
+          "TR": 2,
+          "ZK": 2
+        }
+      },
+      "name": "exactly two unique hypotheses per lens",
+      "passed": true
+    },
+    {
+      "detail": {
+        "required_fields": [
+          "id",
+          "owner",
+          "slot",
+          "title",
+          "statement",
+          "why",
+          "falsifier",
+          "grade"
+        ]
+      },
+      "name": "all hypotheses have scope, value, falsifier, and grade",
+      "passed": true
+    },
+    {
+      "detail": {
+        "owned_exclusions_per_ballot": 2,
+        "weights_per_ballot": 36
+      },
+      "name": "every ballot explicitly weights every non-owned hypothesis",
+      "passed": true
+    },
+    {
+      "detail": {
+        "self_vote_count": 0
+      },
+      "name": "no lens votes on its own hypotheses",
+      "passed": true
+    },
+    {
+      "detail": {
+        "ballot_costs": {
+          "AD": 100,
+          "CA": 100,
+          "CG": 100,
+          "CP": 100,
+          "CT": 100,
+          "DB": 100,
+          "DC": 100,
+          "EM": 100,
+          "FM": 100,
+          "HG": 100,
+          "IT": 100,
+          "MC": 100,
+          "NW": 100,
+          "QE": 100,
+          "QI": 100,
+          "SP": 100,
+          "TR": 100,
+          "ZK": 100
+        }
+      },
+      "name": "every lens spends exactly one hundred quadratic credits",
+      "passed": true
+    },
+    {
+      "detail": {
+        "total_quadratic_credits": 1800,
+        "total_vote_units": 436
+      },
+      "name": "aggregate credit and vote totals reconcile",
+      "passed": true
+    },
+    {
+      "detail": {
+        "ranked_count": 36,
+        "top_two": [
+          "HG-B",
+          "DC-A"
+        ]
+      },
+      "name": "all hypotheses appear exactly once in deterministic rank",
+      "passed": true
+    }
+  ],
+  "checks_passed": 8,
+  "checks_total": 8,
+  "hypotheses": [
+    {
+      "falsifier": "Matched finite-size experiments show no hysteresis, or a smooth history-aware confidence model predicts rollback and action as well without a threshold.",
+      "grade": "CONDITIONAL EMPIRICAL HYPOTHESIS",
+      "id": "MC-A",
+      "owner": "MC",
+      "slot": "primary",
+      "statement": "In metastable sampling consensus, the transition to irreversible action is controlled by effective independent provenance rank and the protocol spectral gap, producing distinct upward and downward finality thresholds after marginal vote accuracy is held fixed.",
+      "title": "Provenance-Weighted Hysteretic Finality",
+      "why": "It turns metastability into a measurable capability transition rather than a confidence metaphor and could distinguish public finality from smooth accumulation."
+    },
+    {
+      "falsifier": "A frozen protocol with no new independent evidence beats the derived correlation floor under the complete adversary and resource contract.",
+      "grade": "MODEL-CLASS THEOREM CANDIDATE / CROSS-PROTOCOL FORM OPEN",
+      "id": "MC-B",
+      "owner": "MC",
+      "slot": "frontier",
+      "statement": "With a nonzero common-shock component, repeated subsampling cannot drive conflict risk below a correlation floor unless genuinely new independent provenance enters; more rounds or replicas alone cannot create public finality.",
+      "title": "Correlated-Evidence Finality Ceiling",
+      "why": "This would generalize the repository's common-shock control into a protocol-level stop law for metastable consensus."
+    },
+    {
+      "falsifier": "Every declared higher-order intervention in the frozen class factors through pairwise records and maps.",
+      "grade": "FINITE COUNTEREXAMPLE / NECESSITY THEOREM CANDIDATE",
+      "id": "HG-A",
+      "owner": "HG",
+      "slot": "primary",
+      "statement": "There are multi-party record processes with identical vertices, edges, pairwise overlaps, and pairwise interventions but different responses to one genuine hyperedge intervention; pairwise graphs are therefore not sufficient record objects for that class.",
+      "title": "Higher-Order Record Insufficiency",
+      "why": "A finite constructive counterexample would justify higher-order records without assuming them and directly sharpen HC-DU-036B."
+    },
+    {
+      "falsifier": "A frozen higher-order certificate kills the stated loop syndromes but the computed quotient/fixed algebra fails to match the safe public facts or actions.",
+      "grade": "EXACT FINITE THEOREM TARGET / PHYSICAL MAPPING OPEN",
+      "id": "HG-B",
+      "owner": "HG",
+      "slot": "frontier",
+      "statement": "An independently certified higher-order constraint acts like filling selected reconciliation loops: it quotients the loop action by the normal closure of the certified syndromes, and the resulting fixed algebra is exactly the enlarged path-independent public fact algebra.",
+      "title": "Cycle-Filling Public-Finality Theorem",
+      "why": "This gives layered consensus a precise mathematical job and connects hypergraphs, holonomy, finality, and capability in one theorem."
+    },
+    {
+      "falsifier": "A completely homogeneous finite reversible rule and symmetric initial condition dynamically selects one unique stable nontrivial record algebra without any listed extra structure.",
+      "grade": "SCOPED NO-GO CANDIDATE",
+      "id": "CA-A",
+      "owner": "CA",
+      "slot": "primary",
+      "statement": "A finite translation-invariant reversible CA or QCA starting from an exactly symmetric blank condition cannot uniquely select a nontrivial local record or pointer algebra without a symmetry-breaking state, boundary, ancilla, superselection sector, or dissipative/coarse-grained ingredient.",
+      "title": "Homogeneous Reversible Record-Selection No-Go",
+      "why": "It would isolate the missing structure in Dynamic Unity's covariant recorder constructions instead of building another admissible recorder."
+    },
+    {
+      "falsifier": "A finite model with the declared rank/dimension is locally distinguishable but first separates beyond every proposed rank-relative cone bound.",
+      "grade": "THEOREM CANDIDATE / QUANTUM EXTENSION OPEN",
+      "id": "CA-B",
+      "owner": "CA",
+      "slot": "frontier",
+      "statement": "For bounded-state, bounded-radius CA/QCA record models, any locally intervention-distinguishable pair has a separating experiment inside a causal cone whose depth is bounded by local behavioral rank or tensor-network realization dimension.",
+      "title": "Local Causal-Cone Witness Bound",
+      "why": "This could turn the finite automata witness theorem into a locality-respecting physical bound."
+    },
+    {
+      "falsifier": "After complete cost and risk accounting, safe capability strictly grows even though the upper layer resolves no action-relevant history distinction, or it resolves one and capability never changes where it should.",
+      "grade": "CONDITIONAL NECESSARY-AND-SUFFICIENT THEOREM TARGET",
+      "id": "DC-A",
+      "owner": "DC",
+      "slot": "primary",
+      "statement": "A stronger consensus layer strictly enlarges the bounded-risk action set if and only if it rejects, repairs, records, or quotients an action-relevant loop syndrome that the lower layer leaves unresolved; otherwise it changes only latency, cost, or confidence.",
+      "title": "Loop-Resolution Finality Criterion",
+      "why": "It directly formalizes the user's layered-finality insight and gives HC-DU-037 a necessary-and-sufficient target."
+    },
+    {
+      "falsifier": "A fact outside the computed equalizer remains fork-safe, or a fact inside it yields incompatible authorized actions under the frozen protocol.",
+      "grade": "EXACT PROTOCOL-CLASS THEOREM TARGET",
+      "id": "DC-B",
+      "owner": "DC",
+      "slot": "frontier",
+      "statement": "Relative to a declared fault and view-change class, the maximal fork-safe public fact is the equalizer of all admissible certified views, not the majority endpoint state.",
+      "title": "Certified-View Equalizer Theorem",
+      "why": "This is a clean noninvertible successor to the finite holonomy orbit theorem and a bridge to real consensus protocols."
+    },
+    {
+      "falsifier": "A zero-error protocol preserves all declared action sectors with fewer accessible authenticated states and no additional trust, secret, or computational assumption.",
+      "grade": "FINITE INFORMATION/SECURITY LOWER-BOUND TARGET",
+      "id": "AD-A",
+      "owner": "AD",
+      "slot": "primary",
+      "statement": "To preserve a task under an adaptive equivocation fault class, an honest public record needs at least as many authenticated provenance states as the maximum number of action-distinct adversarial loop sectors inside one endpoint-record fibre.",
+      "title": "Equivocation-Provenance Lower Bound",
+      "why": "It extends project-or-lift from benign loops to adversarial split views and could yield a tight security lower bound."
+    },
+    {
+      "falsifier": "A finite frozen instance has no sufficient refinement and no bounded adaptive split-view witness, or the proposed bound fails.",
+      "grade": "DECIDABLE FINITE DICHOTOMY TARGET",
+      "id": "AD-B",
+      "owner": "AD",
+      "slot": "frontier",
+      "statement": "For a finite adversary class and finite formed-record refinement family, either some refinement coequalizes every honest view or an adaptive schedule yields a bounded split-view intervention witness.",
+      "title": "Adaptive Refinement Dichotomy",
+      "why": "This is the adversarial analogue of factorization-or-witness and would make the physical-remainder comparison contract executable."
+    },
+    {
+      "falsifier": "Every physically realizable action-enabling certificate in the declared class requires participants to reconstruct the witness history.",
+      "grade": "KNOWN CRYPTOGRAPHIC CONSTRUCTION / PHYSICAL-ONTOLOGY MAPPING OPEN",
+      "id": "ZK-A",
+      "owner": "ZK",
+      "slot": "primary",
+      "statement": "A proposition can become public, robust, and action-enabling through zero-knowledge certification while the detailed witness history remains undisclosed and nonreconstructible to the participants.",
+      "title": "Certification Without Shared Biography",
+      "why": "It cleanly separates existence, binding, certification, disclosure, and shared biography, constraining any record-first ontology."
+    },
+    {
+      "falsifier": "A complete protocol preserves M exact action sectors with total authenticated support below M and no uncharged trust or assumption.",
+      "grade": "RESOURCE-AWARE LOWER-BOUND CONJECTURE",
+      "id": "ZK-B",
+      "owner": "ZK",
+      "slot": "frontier",
+      "statement": "Succinct or zero-knowledge proof systems can compress disclosure and verification work, but cannot preserve M action-distinct route sectors with fewer than M total authenticated support states once the proof, reference string, verifier key, trust, and computational assumptions are charged.",
+      "title": "Succinct Proof Does Not Erase Provenance Debt",
+      "why": "It tests whether cryptography genuinely evades project-or-lift or merely relocates its resources."
+    },
+    {
+      "falsifier": "A scoped history is globally serializable with nontrivial action holonomy, or the invariant subalgebra contains an unsafe transaction fact.",
+      "grade": "EXACT RESTRICTED-CORRESPONDENCE TARGET",
+      "id": "DB-A",
+      "owner": "DB",
+      "slot": "primary",
+      "statement": "For a declared reversible transaction-comparison class, a global serialization exists exactly when loop holonomy acts trivially on the transaction algebra; when full flatness fails, the holonomy-invariant subalgebra is exactly the safely serializable public fact.",
+      "title": "Serializability-Holonomy Correspondence",
+      "why": "It joins database correctness to the new public-fixed-algebra theorem without relying on metaphor."
+    },
+    {
+      "falsifier": "Across matched fixtures, safe throughput is monotone in added edges or every decrease is fully explained by congestion rather than the new conflict syndrome.",
+      "grade": "CONDITIONAL SYSTEMS HYPOTHESIS",
+      "id": "DB-B",
+      "owner": "DB",
+      "slot": "frontier",
+      "statement": "Adding an authenticated gossip or anti-entropy edge can increase information access while reducing safe action throughput because it reveals a previously hidden conflict cycle; a later resolution layer restores only the quotient or provenance it explicitly settles.",
+      "title": "Gossip Reconciliation Anti-Monotonicity",
+      "why": "It gives a directly measurable distributed twin for reconciliation frustration."
+    },
+    {
+      "falsifier": "Two operationally identical complete process descriptions yield a repeatable different closed-loop outcome after all ordinary controls.",
+      "grade": "STANDARD-QUANTUM NULL HYPOTHESIS",
+      "id": "QI-A",
+      "owner": "QI",
+      "slot": "primary",
+      "statement": "Within standard quantum theory, every closed-route record signal is predicted by a complete routed implementation, process tensor, phase reference, memory, and environmental provenance; no extra perspectival-curvature variable remains.",
+      "title": "Implementation-Complete Flatness Null",
+      "why": "This is the decisive null that any new physical curvature proposal must beat."
+    },
+    {
+      "falsifier": "Invariant observables decay or noninvariant observables remain public without provenance beyond the derived gap/error bound.",
+      "grade": "QUANTUM CHANNEL-SEMIGROUP THEOREM TARGET",
+      "id": "QI-B",
+      "owner": "QI",
+      "slot": "frontier",
+      "statement": "Repeated noisy reconciliation converges toward the fixed/equalizer algebra of the generated channel semigroup, with convergence rate controlled by its spectral gap and safe-action error controlled by distance to that algebra.",
+      "title": "Noisy Public Fixed-Algebra Convergence",
+      "why": "It is the most direct noninvertible and approximate extension of the new exact finite theorem."
+    },
+    {
+      "falsifier": "A durable fork-safe public capability lies outside the correctable algebra, or a correctable logical fact fails public action after access and decoder resources are matched.",
+      "grade": "CROSS-PLATFORM CORRESPONDENCE HYPOTHESIS",
+      "id": "QE-A",
+      "owner": "QE",
+      "slot": "primary",
+      "statement": "Relative to an observer-access and adversary class, durable public facts are exactly the correctable logical observable algebra; an objectivity threshold coincides with correctability, not raw redundancy.",
+      "title": "Public Fact as Correctable Logical Algebra",
+      "why": "It could unify public facts, logical codes, adversaries, and bounded-risk action using mature but precise machinery."
+    },
+    {
+      "falsifier": "The code corrects all declared route sectors with a smaller syndrome space than the exact action-relative provenance requirement, or the mapping changes the task semantics.",
+      "grade": "CONSTRUCTIVE DUALITY CONJECTURE",
+      "id": "QE-B",
+      "owner": "QE",
+      "slot": "frontier",
+      "statement": "The minimum provenance register needed to preserve a noninvariant task is isomorphic, in an appropriate code construction, to the syndrome information needed to correct the corresponding reconciliation errors.",
+      "title": "Syndrome-Provenance Duality",
+      "why": "It would turn project-or-lift into a quantum error-correction theorem rather than an analogy."
+    },
+    {
+      "falsifier": "A protocol beats the derived rate under the same side information and fault class, or the optimum varies independently of the declared confusability object.",
+      "grade": "INFORMATION-THEORETIC LAW TARGET",
+      "id": "IT-A",
+      "owner": "IT",
+      "slot": "primary",
+      "statement": "The asymptotic authenticated communication rate required to establish a shared action is the conditional graph-entropy or rate-distortion quantity of the action-confusability relation, not the entropy of the raw history.",
+      "title": "Action-Relative Reconciliation Rate",
+      "why": "It supplies a task-sensitive quantitative law for reality bandwidth and provenance cost."
+    },
+    {
+      "falsifier": "One representation-invariant scalar predicts all declared task rates, errors, and capabilities across a sufficiently rich intervention class.",
+      "grade": "NO-GO CONJECTURE",
+      "id": "IT-B",
+      "owner": "IT",
+      "slot": "frontier",
+      "statement": "No single task-independent scalar informational distance determines reconciliation fidelity, cost, and capability for all admitted interventions; the natural geometry is a task-indexed family, possibly directed or Finsler-like.",
+      "title": "No Universal Informational Distance",
+      "why": "A no-go would prevent Dynamic Unity from forcing unlike access relations into one unearned metric."
+    },
+    {
+      "falsifier": "A safe action distinction exists without joint observability, or full joint observability fails to enable the action after all declared control and cost conditions hold.",
+      "grade": "CONTROL-THEORETIC CORRESPONDENCE TARGET",
+      "id": "CT-A",
+      "owner": "CT",
+      "slot": "primary",
+      "statement": "A shared record becomes action-enabling exactly when combined observability separates every state pair requiring different safe actions within the declared risk, control, and resource bounds.",
+      "title": "Joint Observability-Action Finality Equivalence",
+      "why": "It translates public finality into a necessary-and-sufficient control condition rather than a confidence threshold."
+    },
+    {
+      "falsifier": "A family satisfying the declared compact finite-dimensional conditions requires infinitely many independent testers or evades every proposed uniform certificate.",
+      "grade": "HIGH-PRIORITY COMPACTNESS THEOREM TARGET",
+      "id": "CT-B",
+      "owner": "CT",
+      "slot": "frontier",
+      "statement": "For a bounded finite-dimensional instrument and refinement family, a finite tester basis suffices to decide factorization for every candidate and yields a uniform finite remainder certificate.",
+      "title": "Finite Intervention-Basis Compactness",
+      "why": "This attacks the most important blocker left by HC-DU-036A: a uniform witness across an admissible physical refinement class."
+    },
+    {
+      "falsifier": "Finite-size families show only monotone or smooth reliability after access, conflict, and hardening are separately measured.",
+      "grade": "SPECULATIVE STOCHASTIC-PHASE HYPOTHESIS",
+      "id": "SP-A",
+      "owner": "SP",
+      "slot": "primary",
+      "statement": "As authenticated connectivity rises, access first percolates, loop frustration then reduces invariant public capacity, and higher-order hardening finally restores a protected quotient, producing a reentrant or hysteretic public-fact phase diagram.",
+      "title": "Reentrant Public-Fact Transition",
+      "why": "It combines the new anti-monotonic theorem with a risky scaling prediction rather than assuming a one-way objectivity transition."
+    },
+    {
+      "falsifier": "The proposed scaling exponents drift arbitrarily with architecture, or a smooth finite model absorbs the complete scaling surface.",
+      "grade": "EMPIRICAL DISCRIMINATOR HYPOTHESIS",
+      "id": "SP-B",
+      "owner": "SP",
+      "slot": "frontier",
+      "statement": "A genuine public-fact phase transition exhibits preregistered finite-size collapse, susceptibility, and critical scaling that a smooth architecture-specific reliability curve cannot reproduce.",
+      "title": "Objectivity Phase Scaling Discriminator",
+      "why": "It supplies a clean empirical standard for deciding whether objectivity is a phase or only a threshold convention."
+    },
+    {
+      "falsifier": "The algorithm misclassifies an exhaustive finite instance, lacks the declared witness/refinement certificate, or its complexity bound fails.",
+      "grade": "DECIDABLE FINITE THEOREM/COMPILER TARGET",
+      "id": "FM-A",
+      "owner": "FM",
+      "slot": "primary",
+      "statement": "For finite noninvertible record networks and a finite formed-refinement class, an algorithm can return exactly one of factorization, interface incompleteness with a sufficient refinement, or class-relative remainder with a bounded intervention witness.",
+      "title": "Decidable Refinement-Trichotomy Compiler",
+      "why": "This turns the program's ontology discipline into an executable scientific product and supplies the next swing's core."
+    },
+    {
+      "falsifier": "A correct finite remainder result cannot be represented by any finite proof certificate under the declared semantics, or the certificate accepts a false remainder.",
+      "grade": "FORMAL ASSURANCE THEOREM TARGET",
+      "id": "FM-B",
+      "owner": "FM",
+      "slot": "frontier",
+      "statement": "Every finite class-relative physical-remainder claim can carry a machine-checkable certificate that the witness separates the candidate and every admissible formed refinement; absent such a certificate, only interface insufficiency is licensed.",
+      "title": "Machine-Checkable Ontology License",
+      "why": "It makes ontology inflation technically auditable and reusable across platforms."
+    },
+    {
+      "falsifier": "The physical alternative lies inside the calibrated null set or its robust margin is no larger than systematic uncertainty.",
+      "grade": "OPEN PHYSICAL HYPOTHESIS / HC-DU-034B SEAM",
+      "id": "EM-A",
+      "owner": "EM",
+      "slot": "primary",
+      "statement": "For a specified coherent optical-clock instrument, the complete clock, motion, port, setting, and provenance record has positive distance from the convex set of every admitted classical proper-time history after calibrated preparation, leakage, phase, detector, and drift errors.",
+      "title": "Proper-Time Robust Separability",
+      "why": "This is the nearest physical stop/go test for the record-refinement program."
+    },
+    {
+      "falsifier": "The capability threshold occurs at a different accessible-state count after phase, memory, noise, and coding resources are controlled.",
+      "grade": "EXPERIMENTAL HYPOTHESIS / PLATFORM OPEN",
+      "id": "EM-B",
+      "owner": "EM",
+      "slot": "frontier",
+      "statement": "In a coherent multi-route clock network, path-independent action on a chosen noninvariant readout is restored exactly when accessible authenticated route states reach the task-sector count predicted by the project-or-lift bound, while invariant clock observables remain stable throughout.",
+      "title": "Clock Provenance-Capacity Threshold",
+      "why": "It is a direct measurable prediction of the finite provenance theorem inside a quantum-history platform."
+    },
+    {
+      "falsifier": "A protocol delivers strictly stronger finality with an unchanged complete resource ledger and unchanged reversible/coherent options.",
+      "grade": "HIGH-IMPACT RESOURCE-LAW CONJECTURE",
+      "id": "TR-A",
+      "owner": "TR",
+      "slot": "primary",
+      "statement": "At fixed reliability and action task, stronger public finality must consume additional physical support, work, or authenticated memory, or reduce coherent/reversible optionality; a resource monotone bounds the trade.",
+      "title": "Finality-Optionality Resource Inequality",
+      "why": "It would turn the program's strongest capability intuition into a quantitative cross-platform law."
+    },
+    {
+      "falsifier": "Matched reversible protocols exhibit a reproducible residual cost scaling with independently formed completion-class contraction.",
+      "grade": "ORTHODOX RESOURCE NULL",
+      "id": "TR-B",
+      "owner": "TR",
+      "slot": "frontier",
+      "statement": "After complete Landauer, measurement, communication, authentication, memory, coherence, and displaced-information accounting, no additional physical cost depends only on semantic completion-space reduction.",
+      "title": "No Residual Actualization Cost",
+      "why": "This is the necessary null against which any reconciliation or actualization heat law must compete."
+    },
+    {
+      "falsifier": "Two histories in the same complete intervention-response class yield different admitted predictions or capabilities.",
+      "grade": "OPERATIONAL DEFINITION/THEOREM SCHEMA",
+      "id": "CP-A",
+      "owner": "CP",
+      "slot": "primary",
+      "statement": "The physically meaningful fact relative to an agent is an equivalence class of histories with identical responses to that agent's admitted interventions; expanding the intervention set can split a former fact into newly actionable distinctions.",
+      "title": "Intervention-Indexed Actuality",
+      "why": "It ties actuality to operational content while keeping observer and intervention relativity explicit."
+    },
+    {
+      "falsifier": "An experiment wholly inside the shared complete process selects one ontology while preserving operational identity.",
+      "grade": "EXACT PROGRAM-LEVEL NO-GO",
+      "id": "CP-B",
+      "owner": "CP",
+      "slot": "frontier",
+      "statement": "Two ontologies inducing the same complete operational process cannot be distinguished by an experiment inside that process class; an ontological verdict requires an expanded process, a novel prediction, or explicitly nonempirical criteria such as compression or uniqueness.",
+      "title": "No-Finite-Metaphysics Theorem",
+      "why": "It prevents finite experiments from being asked to choose between descriptions that agree by construction."
+    },
+    {
+      "falsifier": "Nonisomorphic geometries share the complete declared meta-record structure but disagree on a held-out observer-accessible experiment, or scale/dimension must be inserted.",
+      "grade": "FOUNDATIONAL RECONSTRUCTION CONJECTURE",
+      "id": "CG-A",
+      "owner": "CG",
+      "slot": "primary",
+      "statement": "A suitably rich network of who can certify whose records, with provenance, primitive operational influence, and independently justified event density, reconstructs causal order, dimension, and metric scale up to gauge and predicts held-out geometric observables.",
+      "title": "Certified Meta-Record Geometry Reconstruction",
+      "why": "This is the direct route from certified causal reality to spacetime rather than an analogy between graphs and geometry."
+    },
+    {
+      "falsifier": "No covariant discretization-independent limit exists, the map depends arbitrarily on record cover, or known geometric/process phases absorb every proposed signal.",
+      "grade": "WILD FOUNDATIONAL CONJECTURE",
+      "id": "CG-B",
+      "owner": "CG",
+      "slot": "frontier",
+      "statement": "Under a controlled refinement and continuum limit, reconciliation holonomy of physically formed record perspectives converges to a spacetime connection curvature that predicts transport or geometric-phase observables.",
+      "title": "Coarse-Grained Holonomy-Curvature Bridge",
+      "why": "This is the most profound possible bridge from the current exact finite theorem to physical geometry."
+    },
+    {
+      "falsifier": "A protocol exceeds the cut under the same trust and resource class, or achievable certified rate varies independently of the cut after coding assumptions hold.",
+      "grade": "NETWORK INFORMATION-LAW TARGET",
+      "id": "NW-A",
+      "owner": "NW",
+      "slot": "primary",
+      "statement": "The maximum asymptotic rate at which two perspectives can establish mutually certified action facts is bounded, and under declared coding conditions attained, by a time-respecting authenticated min-cut of their temporal record network.",
+      "title": "Temporal Min-Cut Reality Bandwidth",
+      "why": "It supplies an operational, nonspatial reality-bandwidth law with a clear network test."
+    },
+    {
+      "falsifier": "No task-stable decomposition predicts matched edge-addition experiments, or spatial/ordinary channel variables absorb every effect.",
+      "grade": "CROSS-PLATFORM NETWORK CONJECTURE",
+      "id": "NW-B",
+      "owner": "NW",
+      "slot": "frontier",
+      "statement": "For a fixed action task, the marginal capability effect of adding a network edge decomposes into time-respecting access gain minus loop-frustration and provenance cost; spatial distance alone cannot predict the sign.",
+      "title": "Topology-Capability Response Law",
+      "why": "It could unify informational closeness, reconciliation frustration, and capability in a measurable engineering law."
+    }
+  ],
+  "lenses": [
+    {
+      "id": "MC",
+      "name": "Metastable consensus",
+      "specialty": "Avalanche-style subsampling, hysteresis, and correlated evidence"
+    },
+    {
+      "id": "HG",
+      "name": "Hypergraphs and higher-order structure",
+      "specialty": "hyperedges, higher categories, loop filling, and gluing"
+    },
+    {
+      "id": "CA",
+      "name": "Cellular automata and QCA",
+      "specialty": "local reversible dynamics, causal cones, and record formation"
+    },
+    {
+      "id": "DC",
+      "name": "Distributed consensus",
+      "specialty": "BFT certificates, finality layers, and safe action"
+    },
+    {
+      "id": "AD",
+      "name": "Adversarial distributed systems",
+      "specialty": "equivocation, adaptive schedules, split views, and fault models"
+    },
+    {
+      "id": "ZK",
+      "name": "Zero-knowledge cryptography",
+      "specialty": "existence, certification, disclosure, succinctness, and trust"
+    },
+    {
+      "id": "DB",
+      "name": "Distributed databases and data networking",
+      "specialty": "serializability, provenance, gossip, and anti-entropy"
+    },
+    {
+      "id": "QI",
+      "name": "Quantum information and process tensors",
+      "specialty": "multi-time instruments, routed implementations, and fixed algebras"
+    },
+    {
+      "id": "QE",
+      "name": "Quantum error correction and fault tolerance",
+      "specialty": "logical algebras, syndromes, access structures, and thresholds"
+    },
+    {
+      "id": "IT",
+      "name": "Information theory and coding",
+      "specialty": "confusability, authenticated rate, rate distortion, and task metrics"
+    },
+    {
+      "id": "CT",
+      "name": "Control theory and system identification",
+      "specialty": "observability, interventions, minimal realization, and finite bases"
+    },
+    {
+      "id": "SP",
+      "name": "Stochastic processes and phase transitions",
+      "specialty": "percolation, reentrant phases, finite-size scaling, and universality"
+    },
+    {
+      "id": "FM",
+      "name": "Formal methods and model checking",
+      "specialty": "decidability, counterexample generation, and proof certificates"
+    },
+    {
+      "id": "EM",
+      "name": "Experimental metrology and optical clocks",
+      "specialty": "proper-time histories, complete outcome records, and calibration"
+    },
+    {
+      "id": "TR",
+      "name": "Thermodynamics and resource theory",
+      "specialty": "work, support, coherence, reversibility, and optionality"
+    },
+    {
+      "id": "CP",
+      "name": "Causal inference and philosophy of science",
+      "specialty": "interventional equivalence, actuality, and ontology license"
+    },
+    {
+      "id": "CG",
+      "name": "Causal sets and emergent geometry",
+      "specialty": "meta-record reconstruction, continuum limits, and curvature"
+    },
+    {
+      "id": "NW",
+      "name": "Temporal networks and network science",
+      "specialty": "time-respecting cuts, topology, bandwidth, and capability"
+    }
+  ],
+  "not_established": [
+    "truth of any hypothesis",
+    "scientific evidence from persona agreement",
+    "novelty or publishability",
+    "core hypothesis promotion",
+    "prediction or claim banking",
+    "authorization of the next research swing"
+  ],
+  "probe": "du_technical_lens_hypothesis_quadratic_vote_probe",
+  "ranking": [
+    {
+      "hypothesis_id": "HG-B",
+      "owner": "HG",
+      "quadratic_credits_received": 165,
+      "rank": 1,
+      "supporters": [
+        "AD",
+        "CP",
+        "DB",
+        "DC",
+        "FM",
+        "IT",
+        "MC",
+        "NW",
+        "QE",
+        "QI",
+        "SP",
+        "TR",
+        "ZK"
+      ],
+      "supporting_lenses": 13,
+      "title": "Cycle-Filling Public-Finality Theorem",
+      "vote_units": 39
+    },
+    {
+      "hypothesis_id": "DC-A",
+      "owner": "DC",
+      "quadratic_credits_received": 233,
+      "rank": 2,
+      "supporters": [
+        "CT",
+        "DB",
+        "FM",
+        "HG",
+        "MC",
+        "NW",
+        "SP",
+        "TR"
+      ],
+      "supporting_lenses": 8,
+      "title": "Loop-Resolution Finality Criterion",
+      "vote_units": 39
+    },
+    {
+      "hypothesis_id": "FM-A",
+      "owner": "FM",
+      "quadratic_credits_received": 140,
+      "rank": 3,
+      "supporters": [
+        "AD",
+        "CA",
+        "CT",
+        "DB",
+        "DC",
+        "EM",
+        "HG",
+        "IT",
+        "MC",
+        "NW",
+        "QE",
+        "QI",
+        "SP"
+      ],
+      "supporting_lenses": 13,
+      "title": "Decidable Refinement-Trichotomy Compiler",
+      "vote_units": 34
+    },
+    {
+      "hypothesis_id": "QI-B",
+      "owner": "QI",
+      "quadratic_credits_received": 123,
+      "rank": 4,
+      "supporters": [
+        "CA",
+        "DB",
+        "EM",
+        "HG",
+        "IT",
+        "MC",
+        "NW",
+        "QE",
+        "SP",
+        "TR"
+      ],
+      "supporting_lenses": 10,
+      "title": "Noisy Public Fixed-Algebra Convergence",
+      "vote_units": 31
+    },
+    {
+      "hypothesis_id": "QE-A",
+      "owner": "QE",
+      "quadratic_credits_received": 137,
+      "rank": 5,
+      "supporters": [
+        "AD",
+        "CP",
+        "DB",
+        "DC",
+        "MC",
+        "NW",
+        "QI",
+        "TR",
+        "ZK"
+      ],
+      "supporting_lenses": 9,
+      "title": "Public Fact as Correctable Logical Algebra",
+      "vote_units": 27
+    },
+    {
+      "hypothesis_id": "QI-A",
+      "owner": "QI",
+      "quadratic_credits_received": 152,
+      "rank": 6,
+      "supporters": [
+        "CA",
+        "CG",
+        "CP",
+        "CT",
+        "EM",
+        "FM"
+      ],
+      "supporting_lenses": 6,
+      "title": "Implementation-Complete Flatness Null",
+      "vote_units": 26
+    },
+    {
+      "hypothesis_id": "DC-B",
+      "owner": "DC",
+      "quadratic_credits_received": 138,
+      "rank": 7,
+      "supporters": [
+        "AD",
+        "CP",
+        "IT",
+        "QE",
+        "ZK"
+      ],
+      "supporting_lenses": 5,
+      "title": "Certified-View Equalizer Theorem",
+      "vote_units": 24
+    },
+    {
+      "hypothesis_id": "CT-B",
+      "owner": "CT",
+      "quadratic_credits_received": 122,
+      "rank": 8,
+      "supporters": [
+        "AD",
+        "CA",
+        "CG",
+        "CP",
+        "EM",
+        "FM"
+      ],
+      "supporting_lenses": 6,
+      "title": "Finite Intervention-Basis Compactness",
+      "vote_units": 22
+    },
+    {
+      "hypothesis_id": "HG-A",
+      "owner": "HG",
+      "quadratic_credits_received": 100,
+      "rank": 9,
+      "supporters": [
+        "CA",
+        "CG",
+        "CP",
+        "CT",
+        "DB",
+        "NW"
+      ],
+      "supporting_lenses": 6,
+      "title": "Higher-Order Record Insufficiency",
+      "vote_units": 18
+    },
+    {
+      "hypothesis_id": "ZK-A",
+      "owner": "ZK",
+      "quadratic_credits_received": 57,
+      "rank": 10,
+      "supporters": [
+        "CP",
+        "DB",
+        "EM",
+        "IT",
+        "NW",
+        "QE",
+        "TR"
+      ],
+      "supporting_lenses": 7,
+      "title": "Certification Without Shared Biography",
+      "vote_units": 17
+    },
+    {
+      "hypothesis_id": "AD-A",
+      "owner": "AD",
+      "quadratic_credits_received": 43,
+      "rank": 11,
+      "supporters": [
+        "CP",
+        "DB",
+        "DC",
+        "IT",
+        "NW",
+        "ZK"
+      ],
+      "supporting_lenses": 6,
+      "title": "Equivocation-Provenance Lower Bound",
+      "vote_units": 15
+    },
+    {
+      "hypothesis_id": "TR-A",
+      "owner": "TR",
+      "quadratic_credits_received": 24,
+      "rank": 12,
+      "supporters": [
+        "CP",
+        "EM",
+        "IT",
+        "MC",
+        "NW",
+        "QE",
+        "QI",
+        "SP",
+        "ZK"
+      ],
+      "supporting_lenses": 9,
+      "title": "Finality-Optionality Resource Inequality",
+      "vote_units": 14
+    },
+    {
+      "hypothesis_id": "EM-A",
+      "owner": "EM",
+      "quadratic_credits_received": 28,
+      "rank": 13,
+      "supporters": [
+        "CA",
+        "CP",
+        "CT",
+        "DB",
+        "IT",
+        "QI",
+        "TR",
+        "ZK"
+      ],
+      "supporting_lenses": 8,
+      "title": "Proper-Time Robust Separability",
+      "vote_units": 14
+    },
+    {
+      "hypothesis_id": "IT-A",
+      "owner": "IT",
+      "quadratic_credits_received": 52,
+      "rank": 14,
+      "supporters": [
+        "DB",
+        "NW",
+        "QE",
+        "TR",
+        "ZK"
+      ],
+      "supporting_lenses": 5,
+      "title": "Action-Relative Reconciliation Rate",
+      "vote_units": 14
+    },
+    {
+      "hypothesis_id": "DB-A",
+      "owner": "DB",
+      "quadratic_credits_received": 28,
+      "rank": 15,
+      "supporters": [
+        "AD",
+        "CG",
+        "CP",
+        "DC",
+        "HG",
+        "IT",
+        "NW"
+      ],
+      "supporting_lenses": 7,
+      "title": "Serializability-Holonomy Correspondence",
+      "vote_units": 12
+    },
+    {
+      "hypothesis_id": "CG-A",
+      "owner": "CG",
+      "quadratic_credits_received": 29,
+      "rank": 16,
+      "supporters": [
+        "CA",
+        "CP",
+        "DB",
+        "NW",
+        "ZK"
+      ],
+      "supporting_lenses": 5,
+      "title": "Certified Meta-Record Geometry Reconstruction",
+      "vote_units": 11
+    },
+    {
+      "hypothesis_id": "SP-A",
+      "owner": "SP",
+      "quadratic_credits_received": 24,
+      "rank": 17,
+      "supporters": [
+        "DB",
+        "DC",
+        "IT",
+        "MC",
+        "NW",
+        "TR"
+      ],
+      "supporting_lenses": 6,
+      "title": "Reentrant Public-Fact Transition",
+      "vote_units": 10
+    },
+    {
+      "hypothesis_id": "NW-A",
+      "owner": "NW",
+      "quadratic_credits_received": 15,
+      "rank": 18,
+      "supporters": [
+        "CA",
+        "CG",
+        "CP",
+        "DB",
+        "IT",
+        "SP"
+      ],
+      "supporting_lenses": 6,
+      "title": "Temporal Min-Cut Reality Bandwidth",
+      "vote_units": 9
+    },
+    {
+      "hypothesis_id": "ZK-B",
+      "owner": "ZK",
+      "quadratic_credits_received": 41,
+      "rank": 19,
+      "supporters": [
+        "AD",
+        "IT"
+      ],
+      "supporting_lenses": 2,
+      "title": "Succinct Proof Does Not Erase Provenance Debt",
+      "vote_units": 9
+    },
+    {
+      "hypothesis_id": "MC-A",
+      "owner": "MC",
+      "quadratic_credits_received": 64,
+      "rank": 20,
+      "supporters": [
+        "SP"
+      ],
+      "supporting_lenses": 1,
+      "title": "Provenance-Weighted Hysteretic Finality",
+      "vote_units": 8
+    },
+    {
+      "hypothesis_id": "CP-B",
+      "owner": "CP",
+      "quadratic_credits_received": 11,
+      "rank": 21,
+      "supporters": [
+        "AD",
+        "CA",
+        "DB",
+        "QI",
+        "TR"
+      ],
+      "supporting_lenses": 5,
+      "title": "No-Finite-Metaphysics Theorem",
+      "vote_units": 7
+    },
+    {
+      "hypothesis_id": "CT-A",
+      "owner": "CT",
+      "quadratic_credits_received": 17,
+      "rank": 22,
+      "supporters": [
+        "DB",
+        "IT",
+        "NW"
+      ],
+      "supporting_lenses": 3,
+      "title": "Joint Observability-Action Finality Equivalence",
+      "vote_units": 7
+    },
+    {
+      "hypothesis_id": "EM-B",
+      "owner": "EM",
+      "quadratic_credits_received": 10,
+      "rank": 23,
+      "supporters": [
+        "MC",
+        "NW",
+        "QE",
+        "SP"
+      ],
+      "supporting_lenses": 4,
+      "title": "Clock Provenance-Capacity Threshold",
+      "vote_units": 6
+    },
+    {
+      "hypothesis_id": "CA-B",
+      "owner": "CA",
+      "quadratic_credits_received": 20,
+      "rank": 24,
+      "supporters": [
+        "CT",
+        "FM"
+      ],
+      "supporting_lenses": 2,
+      "title": "Local Causal-Cone Witness Bound",
+      "vote_units": 6
+    },
+    {
+      "hypothesis_id": "FM-B",
+      "owner": "FM",
+      "quadratic_credits_received": 9,
+      "rank": 25,
+      "supporters": [
+        "CP",
+        "IT",
+        "ZK"
+      ],
+      "supporting_lenses": 3,
+      "title": "Machine-Checkable Ontology License",
+      "vote_units": 5
+    },
+    {
+      "hypothesis_id": "CP-A",
+      "owner": "CP",
+      "quadratic_credits_received": 3,
+      "rank": 26,
+      "supporters": [
+        "CG",
+        "CT",
+        "QE"
+      ],
+      "supporting_lenses": 3,
+      "title": "Intervention-Indexed Actuality",
+      "vote_units": 3
+    },
+    {
+      "hypothesis_id": "QE-B",
+      "owner": "QE",
+      "quadratic_credits_received": 5,
+      "rank": 27,
+      "supporters": [
+        "HG",
+        "IT"
+      ],
+      "supporting_lenses": 2,
+      "title": "Syndrome-Provenance Duality",
+      "vote_units": 3
+    },
+    {
+      "hypothesis_id": "AD-B",
+      "owner": "AD",
+      "quadratic_credits_received": 2,
+      "rank": 28,
+      "supporters": [
+        "CT",
+        "FM"
+      ],
+      "supporting_lenses": 2,
+      "title": "Adaptive Refinement Dichotomy",
+      "vote_units": 2
+    },
+    {
+      "hypothesis_id": "CG-B",
+      "owner": "CG",
+      "quadratic_credits_received": 4,
+      "rank": 29,
+      "supporters": [
+        "HG"
+      ],
+      "supporting_lenses": 1,
+      "title": "Coarse-Grained Holonomy-Curvature Bridge",
+      "vote_units": 2
+    },
+    {
+      "hypothesis_id": "IT-B",
+      "owner": "IT",
+      "quadratic_credits_received": 4,
+      "rank": 30,
+      "supporters": [
+        "CP"
+      ],
+      "supporting_lenses": 1,
+      "title": "No Universal Informational Distance",
+      "vote_units": 2
+    },
+    {
+      "hypothesis_id": "CA-A",
+      "owner": "CA",
+      "quadratic_credits_received": 0,
+      "rank": 31,
+      "supporters": [],
+      "supporting_lenses": 0,
+      "title": "Homogeneous Reversible Record-Selection No-Go",
+      "vote_units": 0
+    },
+    {
+      "hypothesis_id": "DB-B",
+      "owner": "DB",
+      "quadratic_credits_received": 0,
+      "rank": 32,
+      "supporters": [],
+      "supporting_lenses": 0,
+      "title": "Gossip Reconciliation Anti-Monotonicity",
+      "vote_units": 0
+    },
+    {
+      "hypothesis_id": "MC-B",
+      "owner": "MC",
+      "quadratic_credits_received": 0,
+      "rank": 33,
+      "supporters": [],
+      "supporting_lenses": 0,
+      "title": "Correlated-Evidence Finality Ceiling",
+      "vote_units": 0
+    },
+    {
+      "hypothesis_id": "NW-B",
+      "owner": "NW",
+      "quadratic_credits_received": 0,
+      "rank": 34,
+      "supporters": [],
+      "supporting_lenses": 0,
+      "title": "Topology-Capability Response Law",
+      "vote_units": 0
+    },
+    {
+      "hypothesis_id": "SP-B",
+      "owner": "SP",
+      "quadratic_credits_received": 0,
+      "rank": 35,
+      "supporters": [],
+      "supporting_lenses": 0,
+      "title": "Objectivity Phase Scaling Discriminator",
+      "vote_units": 0
+    },
+    {
+      "hypothesis_id": "TR-B",
+      "owner": "TR",
+      "quadratic_credits_received": 0,
+      "rank": 36,
+      "supporters": [],
+      "supporting_lenses": 0,
+      "title": "No Residual Actualization Cost",
+      "vote_units": 0
+    }
+  ],
+  "rules": {
+    "credits_per_lens": 100,
+    "hypotheses": 36,
+    "hypotheses_per_lens": 2,
+    "lenses": 18,
+    "quadratic_cost": "sum(vote_units^2)",
+    "rank_order": "total vote units descending, supporting lenses descending, hypothesis id ascending",
+    "self_votes": "forbidden on both owned hypotheses",
+    "zero_weights": "explicit for every non-owned unselected hypothesis"
+  },
+  "run_id": "RUN-20260724-195026-technical-lens-hypothesis-vote",
+  "scientific_evidence": false,
+  "status": "EXPLORATORY_PRIORITY_SIGNAL_ONLY",
+  "totals": {
+    "quadratic_credits": 1800,
+    "self_votes": 0,
+    "vote_units": 436
+  }
+}
