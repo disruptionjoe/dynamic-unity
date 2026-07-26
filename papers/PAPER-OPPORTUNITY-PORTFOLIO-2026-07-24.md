@@ -123,6 +123,28 @@ hardening. The second makes the flagship's physical-data gate executable but
 does not earn factorization, a remainder, or new physics. Factory custody
 remains unchanged and unselected.
 
+The follow-on reconstruction/data/CSG triad sharpens both routes:
+
+- `HC-DU-036C` now gives `DU-PAPER-007` an exact finite rational
+  stochastic-decoder deficiency, a resource-Pareto repair surface, and a
+  positive finite completion-class margin. A boundary expansion absorbs the
+  synthetic remainder, so this is formal infrastructure rather than a
+  physical result.
+- A four-candidate public screen finds no packet passing every evidence
+  table. Xiang et al. 2025 is the strongest reopener, but its inspected schema
+  contains Clifford sequences plus aggregate `p0`, not joined shots,
+  calibrations, invalid trials, selective maps, and reset records.
+- `DU-PAPER-013` survives a second internal proof through
+  \(T_{n+1}/T_n=\mathbb E[r_{n+K}]\). The broader collision absorbs the
+  general asymptotic method; only the exact CSG-specific classification
+  remains provisionally unabsorbed.
+
+See
+`../explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md`,
+`../explorations/public-physical-evidence-four-table-screen-2026-07-25.md`,
+and
+`../explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md`.
+
 ## The seed-readiness correction
 
 Dynamic Unity had been conflating two different gates:
@@ -181,9 +203,9 @@ Neither should be reseeded.
 | ID | Working paper | Current source grade | Estimated manuscript work | Load-bearing next work |
 |---|---|---|---:|---|
 | `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact tight record-disturbance/support controls; general novelty absorbed | `1` pre-proof | Clock-QCA extension classification or nonseparable covariance-locality-support theorem; otherwise merge/stop |
-| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure and viable compiler; first real-platform arm returns `INCOMPLETE_CONTRACT` because the public record is figure-source rather than trial/calibration resolved | `2–3` | Obtain a published quantum-instrument packet that passes the frozen four-table ingestion gate; then add the authenticated DAG/BFT arm |
+| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure, compiler, and quantitative `HC-DU-036C` trichotomy; no screened public packet carries the full trial/calibration/provenance/selective-map/multitime join | `2–3` | Audit only for a Xiang sidecar; otherwise design a prospective four-table acquisition, then add the authenticated DAG/BFT arm |
 | `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible baseline plus finite noninvertible path/provenance compiler pilot | `2–3` | Noisy physical theorem, higher-certificate relation, and unchanged BFT/QEC transfer |
-| `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Bounded-precursor uniform regular-ratio theorem, tight boundaries, deterministic controls, and provisionally unabsorbed causal-set delta | `1` | Independent proof review plus general binomial-transform/regular-variation and paper-grade bibliographic collision |
+| `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Bounded-precursor uniform regular-ratio theorem, tight boundaries, deterministic controls, and two internal proof routes; general asymptotic method occupied, exact CSG delta provisional | `1` | Independent expert proof review plus systematic paper-grade causal-set/Tauberian bibliography |
 | `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Exact finite controls; general quotient theorem occupied | `1` pre-proof | Clock-QCA record instrument, scheduler/boost congruence, and tight minimal Lorentz-sensitive leakage theorem |
 | `DU-PAPER-016` | **Systems Without a Privileged Depth** | Exact finite active-control constructions and depth-refinement countertheorem | `1–2` | General role-cover theorem, prior-art review, and one non-toy specimen |
 | `DU-PAPER-017` | **Finite Records Cannot Certify Open-Endedness** | Exact aliasing, finite-prefix, fixed-completion, and fixed-oracle controls | `1–2` | Freeze completion/novelty class and prove a parameterized escape-or-incomplete-contract theorem |
@@ -274,10 +296,12 @@ After the concentrated closing swing, the source sequence separates immediate
 paper closure from foundational importance:
 
 1. **`DU-PAPER-013`** is the closest new-paper route, now at independent
-   proof-review and general-collision hardening.
+   expert proof review and systematic bibliography hardening; any survivor is
+   framed as a CSG-specific corollary using known asymptotic machinery.
 2. **`DU-PAPER-007`** remains the flagship route most central to the program;
-   its first published-platform pass produced a reusable evidence gate rather
-   than a physical verdict.
+   its quantitative formal spine is stronger, but no screened public packet
+   passes the reusable evidence gate. The next move is one sidecar audit or a
+   prospective acquisition design, not another synthetic completion.
 3. **`DU-PAPER-009`** remains the most distinctive cross-domain theorem route.
 
 `DU-PAPER-003` and `015` remain preserved in Factory custody but are parked

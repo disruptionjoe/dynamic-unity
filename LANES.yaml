@@ -371,9 +371,11 @@ lanes:
     Each package declares exactly which upstream results it consumes.
   current_objective: >-
     Keep the complete paper-opportunity portfolio moving through a two-horizon allocation:
-    independently proof-review and collision-harden the surviving DU-PAPER-013 CSG tail theorem
-    as the closest new paper, while screening implementation-complete public evidence packets
-    for the higher-ceiling DU-PAPER-007 physical sufficiency flagship.
+    obtain independent expert proof review and a systematic bibliography for the surviving
+    DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while running one bounded
+    sidecar audit and, if needed, prospective four-table acquisition design for the
+    higher-ceiling DU-PAPER-007 physical sufficiency flagship. Consume HC-DU-036C only after a
+    physical packet passes the gate.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1596,6 +1598,65 @@ three_paper_advance:
     No theorem novelty, physical law, record-first ontology, causal-set cosmology, paper
     readiness, Factory production activation, submission, publication or external action is
     inferred from this run.
+reconstruction_data_csg_triad:
+  status: completed_formal_spine__no_public_packet__csg_method_occupied
+  date: '2026-07-25'
+  authority: >-
+    Joe direct chat: accept and execute the recommended next meaningful research swing.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260725-200918-reconstruction-data-csg-triad/run-plan.md
+  reconstruction_receipt_ref: >-
+    explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md
+  reconstruction_probe_ref: >-
+    tests/du_certified_causal_reconstruction_trichotomy_probe.py
+  reconstruction_artifact_ref: >-
+    tests/artifacts/du_certified_causal_reconstruction_trichotomy_result.json
+  reconstruction_artifact_sha256: >-
+    514dc79a10a2c4bc6d19991c1716b2fca0dac908efafc852fd38390a42555aae
+  reconstruction_result: >-
+    HC-DU-036C proves an exact finite rational binary-outcome trichotomy. A frozen record and
+    finite target-independent completion class return base reconstruction, every
+    componentwise resource-Pareto-minimal exact refinement, or a strictly positive
+    class-relative stochastic-decoder deficiency. Invalid or unfrozen contracts do not
+    adjudicate. A charged boundary expansion absorbs the synthetic remainder, and 11/11 checks
+    pass twice with byte-identical output. Finite LP geometry is known; no physical
+    completeness, ontology or theorem novelty is claimed.
+  evidence_screen_receipt_ref: >-
+    explorations/public-physical-evidence-four-table-screen-2026-07-25.md
+  evidence_screen_probe_ref: tests/du_public_physical_evidence_screen_probe.py
+  evidence_screen_artifact_ref: >-
+    tests/artifacts/du_public_physical_evidence_screen_result.json
+  evidence_screen_artifact_sha256: >-
+    93fc5b766242d93a1f69d854e4b26b5f5e525f53f8048bddb82bd6e5b516da65
+  evidence_screen_result: >-
+    No bounded-screen candidate passes the trial, calibration, process-schema and multitime
+    tables. Xiang et al. 2025 is the strongest public reopener because it supplies
+    randomized-benchmarking sequences, train/test splits, reconstructed OQE/process tensors
+    and code. Its inspected rows reduce to a Clifford sequence plus aggregate p0 and do not
+    expose the joined shot, invalid-trial, calibration, selective-map and reset record. The 9/9
+    screen is evidence routing, not a physical verdict.
+  csg_receipt_ref: >-
+    explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md
+  csg_probe_ref: tests/du_csg_post_tail_second_method_probe.py
+  csg_artifact_ref: tests/artifacts/du_csg_post_tail_second_method_result.json
+  csg_artifact_sha256: >-
+    a04ccec3a50fd9363ac9042a2b50d582f4e4cdf9b361dad4ed0c41ad48e05f3f
+  csg_result: >-
+    DU-PAPER-013 survives a second internal proof route based on the exact identity
+    T_(n+1)/T_n=E[r_(n+K)], with explicit saddle concentration and uniform-integrability
+    control. The 5/5 probe checks both exact identities and finite localization. General
+    regular-variation, discrete-Laplace and large-power coefficient literature occupies the
+    method. Only the exact CSG bounded-precursor classification remains provisionally
+    unabsorbed pending independent expert proof and systematic bibliography review.
+  next_allocation: >-
+    Preserve DU-PAPER-007 as the foundational flagship and DU-PAPER-013 as the nearer paper.
+    Audit only for a Xiang shot/calibration/reset sidecar, otherwise write a prospective
+    acquisition design. Do not run another synthetic completion swing. Seek independent CSG
+    proof and bibliography review before drafting.
+  nonpromotion: >-
+    No irreducible remainder, record-first ontology, new physical law, novel mathematical
+    method, manuscript readiness, Factory production activation, submission, publication,
+    author contact or other external action is inferred.
 physical_history_certificate_transfer_swing:
   status: completed_scoped_matrix_protocol_transfer
   date: '2026-07-24'
@@ -3491,6 +3552,17 @@ provenance:
     screening for the higher-ceiling physical sufficiency flagship. No theorem novelty, new
     physics, ontology, production activation, submission, publication or external action is
     promoted.
+  rev43_note: >-
+    2026-07-25 (Joe direct chat: execute the next research swing): proved the finite
+    exact-rational HC-DU-036C reconstruction/refinement/class-relative-remainder trichotomy with
+    an explicit stochastic-decoder deficiency and resource partial order; screened four public
+    physical packets and found Xiang et al. 2025 the strongest but still aggregate- and
+    provenance-incomplete reopener; and rederived the DU-PAPER-013 theorem through the direct
+    ratio expectation while the broader collision absorbed the general asymptotic method.
+    DU-PAPER-007 now moves only to a bounded sidecar audit or prospective acquisition design,
+    and DU-PAPER-013 moves to independent expert proof and systematic bibliography review. No
+    irreducible remainder, ontology, new physics, novel general method, manuscript readiness,
+    Factory activation, submission, publication, author contact or external action is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

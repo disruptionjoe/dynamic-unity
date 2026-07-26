@@ -1086,6 +1086,21 @@ laboratory feasibility, cryptographic/BFT security, exhaustive admissibility,
 or an irreducible remainder. See
 `../explorations/physical-history-certificate-transfer-and-generativity-hedge-2026-07-24.md`.
 
+**Executed quantitative finite successor — `HC-DU-036C`.** For finite
+exact-rational binary response tables and a finite, frozen,
+target-independent completion class, define each completion's deficiency as
+the minimum worst-history total-variation error over stochastic record
+decoders, maximized over the admitted interventions. Compact rational decoder
+polytopes attain exact rational minima. The valid contract therefore returns
+exactly one of base reconstruction, refined reconstruction with every
+componentwise resource-Pareto-minimal exact repair, or a strictly positive
+class-relative remainder margin. Invalid or unfrozen premises return
+`INCOMPLETE_CONTRACT` without scientific adjudication. Exact vertex
+enumeration realizes the theorem in the binary finite case. A charged
+boundary expansion absorbs the synthetic remainder, so the result neither
+proves physical exhaustiveness nor supports record-first ontology. See
+`../explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md`.
+
 The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
 future-correlated oracle or response tree followed where possible by a
 compressed fixed-law transducer, departed environmental support, and the
@@ -1295,9 +1310,12 @@ Only after the preceding dependencies:
         |
 3b. HC-DU-036B finite history-certificate compiler [COMPLETED PILOT]
     HC-DU-036B stochastic matrix/protocol transfer [COMPLETED SCOPED PILOT]
+    HC-DU-036C quantitative reconstruction/refinement/remainder trichotomy
+    [COMPLETED FINITE EXACT-RATIONAL SPECIALIZATION]
     HC-DU-034B certificate-without-run-history-disclosure control [COMPLETED SCOPED]
     implementation-complete physical interventional-sufficiency arm with full
-    selective instrument, provenance and calibrated finite-shot null [OPEN]
+    selective instrument, provenance and calibrated finite-shot null [OPEN;
+    NO PUBLIC FOUR-TABLE PACKET YET LOCATED]
         |
 4. HC-DU-037 capability, optionality, and resource results
    HC-DU-032 observer-individuation overlay
@@ -1683,9 +1701,16 @@ queue.
    figure-source data rather than a calibration-linked trial, invalid-trial,
    provenance, joint-uncertainty, ordered-repeat and causal-break packet. The
    four-table reopening schema is executable, but no factorization, remainder
-   or new-physics verdict is earned. The next paper-grade advance must obtain
-   a public physical record that passes that ingestion gate before examining
-   the sufficiency result.
+   or new-physics verdict is earned. A bounded public screen found Xiang et
+   al.'s open randomized-benchmarking/OQE packet to be the strongest
+   reopener, with sequences, train/test splits, learned process tensors and
+   code, but its inspected schema retains aggregate `p0` rather than the
+   required shot/calibration/invalid-trial/selective-map/reset joins. The
+   finite `HC-DU-036C` successor now computes exact stochastic-decoder
+   deficiencies and positive completion-class margins, but should be used
+   only after a physical packet passes the ingestion gate. The next
+   paper-grade advance is a bounded sidecar audit followed, if necessary, by
+   a prospective acquisition design.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
    The closest new-paper route. The proof-or-kill now supplies a
    bounded-precursor uniform theorem for eventually decreasing regularly
@@ -1693,9 +1718,11 @@ queue.
    \(-\alpha/(\alpha+1)\), and tight constant-ratio, logarithmic,
    finite-support and sparse boundaries. The exact post map, fixed points,
    broad convergence and factorial half-power are occupied; the residual
-   appears unabsorbed in the causal-set scan. Independent proof review and a
-   general binomial-transform/regular-variation collision are required before
-   novelty or manuscript readiness can be claimed.
+   appears unabsorbed in the causal-set scan. A second internal proof through
+   \(T_{n+1}/T_n=\mathbb E[r_{n+K}]\) survives, while the general collision
+   confirms that regular-variation and discrete-saddle machinery is occupied.
+   Independent expert proof review and a systematic paper-grade bibliography
+   are required before novelty or manuscript readiness can be claimed.
 3. **Higher-Order Public Finality**
    The distinctive cross-domain route: noisy/noninvertible loop syndromes,
    safe action algebras, higher certificates, and minimum provenance. The

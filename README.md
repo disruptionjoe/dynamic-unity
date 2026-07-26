@@ -97,6 +97,14 @@ current results establish the starting boundary, not the answer:
   size-independent version. A witness establishes candidate-record
   insufficiency, not an irreducible physical remainder until every
   independently admissible physical refinement has also failed.
+- `HC-DU-036C` supplies an exact finite rational quantitative successor. For
+  a frozen finite completion class it minimizes worst-history
+  total-variation error over stochastic record decoders and returns base
+  reconstruction, a resource-Pareto-minimal exact refinement, or a positive
+  class-relative margin. An unfrozen contract is non-adjudication, and a
+  charged boundary-expansion control absorbs the synthetic remainder. The
+  mathematics is standard finite linear programming; no physical
+  completeness, ontology, or theorem novelty is inferred.
 - `HC-DU-034A` supplies an exact signed all-port coherent-history assay
   control. It separates the frozen incoherent-history mixture from a joint
   cross-history correlation while using both symmetric recombination ports.
@@ -111,9 +119,14 @@ current results establish the starting boundary, not the answer:
   specimen is absorbed by a routed-interface refinement. This is a precise
   control for the physical `HC-DU-034B/036B` assay, not evidence of new
   physical curvature or a public-reality law.
-- Classical sequential growth has an exact projective predictive quotient and a conditional
-  post-renormalization mechanism. It has not thereby produced a physical observer, selected
-  record interface, held-out spacetime geometry, dimensional scale, or fundamental ontology.
+- Classical sequential growth now also has a bounded-precursor regular-ratio
+  post-tail theorem with exponent map
+  \(-\alpha\mapsto-\alpha/(\alpha+1)\), checked by two internal proof routes.
+  General regular-variation and discrete-saddle methods absorb the proof
+  machinery; the exact CSG corollary remains provisionally unabsorbed pending
+  independent review. It has not thereby produced a physical observer,
+  selected record interface, held-out spacetime geometry, dimensional scale,
+  or fundamental ontology.
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
   benchmarks, or downstream applications. None governs the new charter and none is promoted

@@ -1,0 +1,710 @@
+{
+  "probe": "du_certified_causal_reconstruction_trichotomy_probe",
+  "claim_grade": "exact finite rational binary-outcome theorem specialization; physical completeness and novelty open",
+  "theorem_scope": {
+    "history_set": "finite",
+    "intervention_set": "finite",
+    "outcomes": "complete binary",
+    "record_and_completion_kernels": "finite exact rational stochastic",
+    "completion_class": "finite, frozen, independently formed, future-independent, target-independent, and boundary-preserving as supplied",
+    "deficiency": "minimum worst-history total variation over stochastic record decoders, maximized over interventions",
+    "resource_order": "componentwise partial order"
+  },
+  "checks": {
+    "base_reconstruction_detected": true,
+    "refinement_detected": true,
+    "base_failure_precedes_refinement": true,
+    "finite_class_remainder_detected": true,
+    "remainder_margin_positive": true,
+    "boundary_expansion_absorbs_remainder": true,
+    "incomplete_contract_is_not_scientific_verdict": true,
+    "target_mutation_cannot_change_frozen_class": true,
+    "partial_resource_order_retains_incomparable_minima": true,
+    "dominated_exact_completion_removed": true,
+    "all_lp_certificates_exact": true
+  },
+  "checks_passed": 11,
+  "checks_total": 11,
+  "target_mutation_digest_stable": true,
+  "adjudications": {
+    "base": {
+      "contract_id": "base-reconstruction-control",
+      "observer_boundary_id": "local_endpoint_boundary",
+      "verdict": "BASE_RECONSTRUCTION",
+      "errors": [],
+      "completion_class_digest": "c71a77dffe70d7e04f0383b3a19b9c838536c62b83090dade12988c8674c32cb",
+      "base_completion_id": "base_endpoint",
+      "class_relative_margin": "0",
+      "selected_or_margin_attaining": [
+        "base_endpoint"
+      ],
+      "resource_dimensions": [
+        "additional_record_bits",
+        "boundary_expansions",
+        "latency_units"
+      ],
+      "completion_results": [
+        {
+          "completion_id": "base_endpoint",
+          "resources": [
+            0,
+            0,
+            0
+          ],
+          "deficiency": "0",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "0",
+              "decoder_probability_one_by_record": [
+                "0",
+                "1"
+              ],
+              "predictions": [
+                "0",
+                "1"
+              ],
+              "signed_residuals": [
+                "0",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h0:target_minus_prediction",
+                "h1:prediction_minus_target"
+              ],
+              "systems_checked": 120,
+              "feasible_vertices": 5,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        }
+      ]
+    },
+    "refined": {
+      "contract_id": "formed-refinement-control",
+      "observer_boundary_id": "local_endpoint_boundary",
+      "verdict": "REFINED_RECONSTRUCTION",
+      "errors": [],
+      "completion_class_digest": "c2333c72667739109364387590467f0e9d552379c670a75b9ccf9c99d5263aee",
+      "base_completion_id": "base_endpoint",
+      "class_relative_margin": "0",
+      "selected_or_margin_attaining": [
+        "formed_syndrome"
+      ],
+      "resource_dimensions": [
+        "additional_record_bits",
+        "boundary_expansions",
+        "latency_units"
+      ],
+      "completion_results": [
+        {
+          "completion_id": "base_endpoint",
+          "resources": [
+            0,
+            0,
+            0
+          ],
+          "deficiency": "1/2",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "1/2",
+              "decoder_probability_one_by_record": [
+                "1/2"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2"
+              ],
+              "signed_residuals": [
+                "1/2",
+                "-1/2"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction"
+              ],
+              "systems_checked": 28,
+              "feasible_vertices": 3,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            },
+            {
+              "intervention": "do_1",
+              "deficiency": "1/4",
+              "decoder_probability_one_by_record": [
+                "1/2"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2"
+              ],
+              "signed_residuals": [
+                "1/4",
+                "-1/4"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction"
+              ],
+              "systems_checked": 28,
+              "feasible_vertices": 5,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "duplicated_endpoint",
+          "resources": [
+            1,
+            0,
+            0
+          ],
+          "deficiency": "1/2",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "1/2",
+              "decoder_probability_one_by_record": [
+                "1/2"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2"
+              ],
+              "signed_residuals": [
+                "1/2",
+                "-1/2"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction"
+              ],
+              "systems_checked": 28,
+              "feasible_vertices": 3,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            },
+            {
+              "intervention": "do_1",
+              "deficiency": "1/4",
+              "decoder_probability_one_by_record": [
+                "1/2"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2"
+              ],
+              "signed_residuals": [
+                "1/4",
+                "-1/4"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction"
+              ],
+              "systems_checked": 28,
+              "feasible_vertices": 5,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "formed_syndrome",
+          "resources": [
+            1,
+            0,
+            1
+          ],
+          "deficiency": "0",
+          "binding_interventions": [
+            "do_0",
+            "do_1"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "0",
+              "decoder_probability_one_by_record": [
+                "0",
+                "1"
+              ],
+              "predictions": [
+                "0",
+                "1"
+              ],
+              "signed_residuals": [
+                "0",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h0:target_minus_prediction",
+                "h1:prediction_minus_target"
+              ],
+              "systems_checked": 120,
+              "feasible_vertices": 5,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            },
+            {
+              "intervention": "do_1",
+              "deficiency": "0",
+              "decoder_probability_one_by_record": [
+                "1/4",
+                "3/4"
+              ],
+              "predictions": [
+                "1/4",
+                "3/4"
+              ],
+              "signed_residuals": [
+                "0",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h0:target_minus_prediction",
+                "h1:prediction_minus_target"
+              ],
+              "systems_checked": 120,
+              "feasible_vertices": 11,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        }
+      ]
+    },
+    "remainder": {
+      "contract_id": "finite-class-remainder-control",
+      "observer_boundary_id": "local_endpoint_boundary",
+      "verdict": "CLASS_RELATIVE_REMAINDER",
+      "errors": [],
+      "completion_class_digest": "6abcae45a63a4423e7f486233567807804da5de168a3a8b6e9a790ef66fe253e",
+      "base_completion_id": "base_endpoint",
+      "class_relative_margin": "1/2",
+      "selected_or_margin_attaining": [
+        "base_endpoint",
+        "formed_coarse_region"
+      ],
+      "resource_dimensions": [
+        "additional_record_bits",
+        "boundary_expansions",
+        "latency_units"
+      ],
+      "completion_results": [
+        {
+          "completion_id": "base_endpoint",
+          "resources": [
+            0,
+            0,
+            0
+          ],
+          "deficiency": "1/2",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "1/2",
+              "decoder_probability_one_by_record": [
+                "1/2"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2",
+                "1/2"
+              ],
+              "signed_residuals": [
+                "1/2",
+                "-1/2",
+                "1/2"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction"
+              ],
+              "systems_checked": 45,
+              "feasible_vertices": 3,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "formed_coarse_region",
+          "resources": [
+            1,
+            0,
+            1
+          ],
+          "deficiency": "1/2",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "1/2",
+              "decoder_probability_one_by_record": [
+                "1/2",
+                "0"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2",
+                "0"
+              ],
+              "signed_residuals": [
+                "1/2",
+                "-1/2",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction",
+                "k1:lower"
+              ],
+              "systems_checked": 220,
+              "feasible_vertices": 6,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        }
+      ]
+    },
+    "boundary_absorber": {
+      "contract_id": "boundary-expansion-absorber-control",
+      "observer_boundary_id": "expanded_access_boundary_frame",
+      "verdict": "REFINED_RECONSTRUCTION",
+      "errors": [],
+      "completion_class_digest": "8b9e713dfd38876ae2ea6dd6efb55c0c7c5dbbf9eef852bb0fb5e7d7e55f48c0",
+      "base_completion_id": "base_endpoint",
+      "class_relative_margin": "0",
+      "selected_or_margin_attaining": [
+        "expanded_access_boundary"
+      ],
+      "resource_dimensions": [
+        "additional_record_bits",
+        "boundary_expansions",
+        "latency_units"
+      ],
+      "completion_results": [
+        {
+          "completion_id": "base_endpoint",
+          "resources": [
+            0,
+            0,
+            0
+          ],
+          "deficiency": "1/2",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "1/2",
+              "decoder_probability_one_by_record": [
+                "1/2"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2",
+                "1/2"
+              ],
+              "signed_residuals": [
+                "1/2",
+                "-1/2",
+                "1/2"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction"
+              ],
+              "systems_checked": 45,
+              "feasible_vertices": 3,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "expanded_access_boundary",
+          "resources": [
+            0,
+            1,
+            2
+          ],
+          "deficiency": "0",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "0",
+              "decoder_probability_one_by_record": [
+                "0",
+                "1",
+                "0"
+              ],
+              "predictions": [
+                "0",
+                "1",
+                "0"
+              ],
+              "signed_residuals": [
+                "0",
+                "0",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h0:target_minus_prediction",
+                "h1:prediction_minus_target",
+                "h2:prediction_minus_target"
+              ],
+              "systems_checked": 1001,
+              "feasible_vertices": 9,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "formed_coarse_region",
+          "resources": [
+            1,
+            0,
+            1
+          ],
+          "deficiency": "1/2",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "1/2",
+              "decoder_probability_one_by_record": [
+                "1/2",
+                "0"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2",
+                "0"
+              ],
+              "signed_residuals": [
+                "1/2",
+                "-1/2",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction",
+                "k1:lower"
+              ],
+              "systems_checked": 220,
+              "feasible_vertices": 6,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        }
+      ]
+    },
+    "pareto": {
+      "contract_id": "partial-resource-order-control",
+      "observer_boundary_id": "local_endpoint_boundary",
+      "verdict": "REFINED_RECONSTRUCTION",
+      "errors": [],
+      "completion_class_digest": "66d97875a73a32429ef48919fa2bf8ccebce61f12ce55ccaf5e30aba2de77f8f",
+      "base_completion_id": "base_endpoint",
+      "class_relative_margin": "0",
+      "selected_or_margin_attaining": [
+        "one_bit_one_channel",
+        "two_bits_no_channel"
+      ],
+      "resource_dimensions": [
+        "additional_record_bits",
+        "boundary_expansions",
+        "latency_units"
+      ],
+      "completion_results": [
+        {
+          "completion_id": "base_endpoint",
+          "resources": [
+            0,
+            0,
+            0
+          ],
+          "deficiency": "1/2",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "1/2",
+              "decoder_probability_one_by_record": [
+                "1/2"
+              ],
+              "predictions": [
+                "1/2",
+                "1/2"
+              ],
+              "signed_residuals": [
+                "1/2",
+                "-1/2"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h1:target_minus_prediction"
+              ],
+              "systems_checked": 28,
+              "feasible_vertices": 3,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "dominated_exact_copy",
+          "resources": [
+            2,
+            2,
+            0
+          ],
+          "deficiency": "0",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "0",
+              "decoder_probability_one_by_record": [
+                "0",
+                "1"
+              ],
+              "predictions": [
+                "0",
+                "1"
+              ],
+              "signed_residuals": [
+                "0",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h0:target_minus_prediction",
+                "h1:prediction_minus_target"
+              ],
+              "systems_checked": 120,
+              "feasible_vertices": 5,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "one_bit_one_channel",
+          "resources": [
+            1,
+            1,
+            0
+          ],
+          "deficiency": "0",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "0",
+              "decoder_probability_one_by_record": [
+                "0",
+                "1"
+              ],
+              "predictions": [
+                "0",
+                "1"
+              ],
+              "signed_residuals": [
+                "0",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h0:target_minus_prediction",
+                "h1:prediction_minus_target"
+              ],
+              "systems_checked": 120,
+              "feasible_vertices": 5,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        },
+        {
+          "completion_id": "two_bits_no_channel",
+          "resources": [
+            2,
+            0,
+            0
+          ],
+          "deficiency": "0",
+          "binding_interventions": [
+            "do_0"
+          ],
+          "intervention_results": [
+            {
+              "intervention": "do_0",
+              "deficiency": "0",
+              "decoder_probability_one_by_record": [
+                "0",
+                "1"
+              ],
+              "predictions": [
+                "0",
+                "1"
+              ],
+              "signed_residuals": [
+                "0",
+                "0"
+              ],
+              "active_constraints": [
+                "h0:prediction_minus_target",
+                "h0:target_minus_prediction",
+                "h1:prediction_minus_target"
+              ],
+              "systems_checked": 120,
+              "feasible_vertices": 5,
+              "certificate_basis": "exact exhaustive feasible-vertex enumeration for a bounded rational linear program"
+            }
+          ]
+        }
+      ]
+    },
+    "incomplete": {
+      "contract_id": "unfrozen-contract-control",
+      "observer_boundary_id": "local_endpoint_boundary",
+      "verdict": "INCOMPLETE_CONTRACT",
+      "errors": [
+        "contract_not_frozen"
+      ],
+      "completion_class_digest": "a4a49bdcfcdeb1ae84e70b8b13b32d1af3d99394fd1680ee03bee55701cb3a44"
+    }
+  },
+  "limits": [
+    "Supplied formation and completion-class premises are not derived.",
+    "A positive margin is relative only to the frozen finite class.",
+    "Binary-outcome finite rational specialization only.",
+    "No shot noise, calibration, drift, or laboratory data are used.",
+    "Finite LP geometry is known mathematics; novelty is not claimed.",
+    "Boundary expansion can absorb a class-relative remainder."
+  ]
+}

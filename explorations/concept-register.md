@@ -645,6 +645,15 @@ resolution-stable intervention role. No claim is banked or seeded. See
   class. `HC-DU-034A` separately supplies the exact signed all-port
   coherent-history identity and arbitrary-weight incoherent-history null as
   an assay control; physical proper-time realization remains open.
+- **Earned quantitative finite trichotomy.** `HC-DU-036C` assigns every
+  supplied finite exact-rational record/completion kernel its exact minimum
+  stochastic-decoder deficiency. A valid frozen contract returns base
+  reconstruction, every resource-Pareto-minimal exact refinement, or a
+  positive margin against the finite completion class. Invalid or unfrozen
+  premises return `INCOMPLETE_CONTRACT`. A boundary-expansion control absorbs
+  the synthetic positive margin, so the result is explicitly class-relative
+  and cannot establish a physical remainder or record-first ontology. The
+  finite LP machinery is known.
 - **Earned formation/certification separation control.** In the frozen
   two-history effective proper-time fixture, the controlled interaction
   selects the diagonal QND history algebra but not one selective record
@@ -671,13 +680,18 @@ resolution-stable intervention role. No claim is banked or seeded. See
   physics. This is an Interface-Necessity No-Go, not evidence that records or
   observers create physical reality.
 - **Immediate tests.**
-  1. `HC-DU-034B/036B`: take one independently calibrated physical process
+  1. `HC-DU-034B/036B/036C`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
      environment, controller, detector, invalid-trial and provenance fields,
      reconstruct the complete selective maps with uncertainty, and decide
-     factorization, minimal refinement, candidate remainder or incomplete
-     contract under a frozen admissible physical-refinement class. Do not run
-     another fitted finite-QND or finite-reference selector.
+     robust reconstruction, a resource-Pareto-minimal refinement, a finite
+     lower confidence bound on the class-relative deficiency, or incomplete
+     contract under a frozen admissible physical-refinement class. The public
+     evidence screen found Xiang et al.'s RB/OQE packet to be the strongest
+     reopener but still aggregate- and provenance-incomplete. Audit for a
+     joined shot/calibration/reset sidecar; otherwise specify a prospective
+     acquisition schema. Do not run another fitted finite-QND,
+     finite-reference, or synthetic completion selector.
   2. `HC-DU-035B`: begin from an implementation-complete formed record
      instrument with every supplied premise charged, and
      derive or refute a formation-to-finality resource bound for converting a
@@ -703,7 +717,10 @@ resolution-stable intervention role. No claim is banked or seeded. See
   RESOURCE-ACCOUNTED CAPABILITY EXACT IN THE FROZEN FAMILY / CERTIFICATE
   WITHOUT RUN-HISTORY DISCLOSURE EXACT IN THE FROZEN FIXTURE / HC-DU-036A
   FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT / NO SIZE-FREE
-  FINITE SUFFICIENCY HORIZON / PHYSICAL RECORD FORMATION AND INTERFACE
+  FINITE SUFFICIENCY HORIZON / HC-DU-036C EXACT FINITE RATIONAL
+  RECONSTRUCTION-REFINEMENT-CLASS-RELATIVE-REMAINDER TRICHOTOMY /
+  POSITIVE FINITE COMPLETION-CLASS MARGIN AND BOUNDARY-EXPANSION ABSORBER
+  EXACT / PHYSICAL RECORD FORMATION AND INTERFACE
   SELECTION, ADMISSIBLE PHYSICAL REFINEMENT, BROADCASTABLE PUBLIC FINALITY,
   RESOURCE-COUPLED CAPABILITY, PHYSICAL OR QUANTUM INTERVENTIONAL
   SUFFICIENCY, GEOMETRY AND PHYSICAL RECOVERY OPEN.** The exact controls are

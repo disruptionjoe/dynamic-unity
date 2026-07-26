@@ -109,6 +109,10 @@ What *has* been earned is a strong finite control stack:
 - exact record/access quotients, history factorization-or-witness results,
   multi-time controls, regional-composition controls, and unchanged quantum
   and distributed fixtures;
+- an exact finite rational reconstruction/refinement/remainder trichotomy
+  with stochastic decoders, componentwise resource order, and a positive
+  completion-class-relative margin—but no physically exhaustive completion
+  class;
 - explicit demonstrations that a stable algebra, a formed environmental
   record, observer access, public finality, and capability are different
   objects;
@@ -162,22 +166,46 @@ The reusable physical gate is:
 7. report factorization, minimal refinement, candidate remainder, or
    incomplete contract without ontological inflation.
 
-Do not infer the missing records from plotted means. The next physical pass
-must screen the public evidence packet before examining a sufficiency result.
-If the Stricker trial/calibration packet is not publicly available, use a
-different published instrument only if its record passes the four-table
-ingestion gate. Contacting source authors is an external action and remains
-separately Joe-authorized.
+Do not infer missing records from plotted means or aggregate probabilities. A
+bounded public screen found no packet passing all four tables. The strongest
+reopener is Xiang et al.'s public superconducting OQE/process-tensor packet:
+it supplies randomized-benchmarking sequences, train/test partitions,
+reconstructed tensors, and code, but its inspected rows reduce to a Clifford
+sequence plus aggregate `p0`, without the required shot, calibration,
+invalid-trial, selective-map, and reset joins
+([screen](explorations/public-physical-evidence-four-table-screen-2026-07-25.md);
+[probe](tests/du_public_physical_evidence_screen_probe.py)). Audit only for a
+public sidecar carrying those joins. If absent, stop public reuse and specify
+a prospective acquisition schema. Contacting source authors is an external
+action and remains separately Joe-authorized.
+
+The formal North-Star contract has also advanced from exact equality to the
+finite `HC-DU-036C` Certified Causal Reconstruction trichotomy. It computes
+the exact minimum stochastic-decoder deficiency, reports every
+resource-Pareto-minimal exact repair, or returns a positive margin against the
+frozen finite completion class
+([result](explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md);
+[probe](tests/du_certified_causal_reconstruction_trichotomy_probe.py)).
+A boundary-expansion control absorbs the synthetic remainder. Therefore use
+this kernel on the next complete physical packet; do not interpret its
+class-relative margin as an irreducible physical remainder or spend another
+swing on synthetic completions.
 
 In parallel, `DU-PAPER-013` is now the closest new-paper route. Its
 proof-or-kill produced a bounded-precursor uniform theorem for regularly
 varying CSG coupling ratios and showed that the familiar half-power is one
 tail class rather than a universal post law
 ([receipt](explorations/csg-post-tail-universality-proof-kill-2026-07-25.md);
-[probe](tests/du_csg_post_tail_uniformity_probe.py)). Its next gate is
-independent mathematical proof review and a general
-binomial-transform/regular-variation novelty collision. Do not call the
-result novel or manuscript-ready before those gates close.
+[probe](tests/du_csg_post_tail_uniformity_probe.py)). A second internal proof
+now derives the result from the direct identity
+\(T_{n+1}/T_n=\mathbb E[r_{n+K}]\), and a broader collision confirms that the
+regular-variation and discrete-saddle method is occupied
+([audit](explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md);
+[probe](tests/du_csg_post_tail_second_method_probe.py)). The exact CSG
+bounded-precursor classification remains provisionally unabsorbed. Its next
+gate is independent expert proof review plus a systematic paper-grade
+bibliography. Do not call the result novel or manuscript-ready before those
+gates close.
 
 `DU-PAPER-007` remains the higher-ceiling flagship. `DU-PAPER-013` is the
 nearer paper. A physical process may enter the flagship as an explicitly

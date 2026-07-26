@@ -436,10 +436,10 @@ interventional sufficiency, not another finite selector fit.
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
-| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go; near-term work should calibrate one complete physical instrument and test its causal-record sufficiency | `HC-DU-033/036B` |
+| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go; the bounded public screen found no four-table packet, so near-term work is one Xiang sidecar audit or prospective acquisition design | `HC-DU-033/036B/036C` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
 | Public-finality composition | Derive when regional records form a safe public action algebra under faults and access limits | `HC-DU-035/035C` |
-| Record sufficiency or physical remainder | Prove factorization through a certified quotient or locate the minimal irreducible physical structure | `HC-DU-036` |
+| Record sufficiency or physical remainder | Use the exact finite `HC-DU-036C` stochastic-decoder deficiency on a physically complete frozen class; distinguish reconstruction, resource-Pareto repair, class-relative positive margin, and incomplete contract | `HC-DU-036/036C` |
 | Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
 | Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it | `HC-DU-038` |
 | Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations | `HC-DU-039` |

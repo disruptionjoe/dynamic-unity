@@ -135,6 +135,40 @@ does not establish theorem novelty, a selected CSG law, post recurrence,
 manifoldlike geometry, a physical scale, \(\Lambda\), or quantum causal-set
 dynamics.
 
+`du_csg_post_tail_second_method_probe.py` checks a separate internal proof
+route. Exact rational controls verify both
+\(T_{n+1}/T_n=\mathbb E[r_{n+K}]\) and the earlier shifted-binomial identity;
+finite regular-ratio families then track localization of the post weights at
+the implicit balance scale and convergence of the direct expectation.
+
+It passes `5/5` checks. Passing strengthens the analytic audit only. It is not
+independent peer review, theorem novelty, selection of a CSG law, or physical
+cosmology.
+
+`du_certified_causal_reconstruction_trichotomy_probe.py` implements the
+finite exact-rational binary-outcome specialization of `HC-DU-036C`. For each
+frozen record or completion kernel it exactly enumerates the vertices of the
+stochastic-decoder linear program, computes the minimum worst-history
+total-variation deficiency, and returns base reconstruction, resource-Pareto-
+minimal refined reconstruction, class-relative remainder, or incomplete
+contract.
+
+It passes `11/11` checks twice with byte-identical output. A
+boundary-expansion control absorbs the synthetic positive margin. Passing
+does not establish a physically exhaustive completion class, an irreducible
+remainder, ontology, finite-shot robustness, theorem novelty, or new physics.
+
+`du_public_physical_evidence_screen_probe.py` records the bounded four-table
+public-data screen for `DU-PAPER-007`. It keeps trial rows, calibration joins,
+selective-map schemas, and multitime/reset rows distinct and forbids
+promotion from figures or aggregates.
+
+It passes `9/9` checks and finds no ingestible candidate. Xiang et al.'s
+public RB/OQE repository is the strongest reopener, but the inspected schema
+contains operation sequences plus aggregate `p0`, not the full joined
+evidence contract. Passing is an evidence-routing result, not physical
+sufficiency, a failed experiment, or new physics.
+
 `du_physical_history_certificate_transfer_probe.py` extends that kernel to
 stochastic record channels. It derives one QND stabilizer record from explicit
 quantum matrices and one authenticated operation-DAG record from executable

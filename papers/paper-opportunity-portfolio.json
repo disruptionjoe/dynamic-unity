@@ -150,6 +150,17 @@
     "run_id": "RUN-20260725-150819-three-paper-advance",
     "status": "completed_csg_core_survives__physical_contract_incomplete"
   },
+  "reconstruction_data_csg_triad_2026_07_25": {
+    "csg_result": "DU-PAPER-013 survives a second internal proof through T_(n+1)/T_n=E[r_(n+K)]. The broader collision absorbs the general regular-variation and discrete-saddle method; only the exact CSG bounded-precursor classification remains provisionally unabsorbed pending independent expert proof and systematic bibliography review.",
+    "csg_result_ref": "explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md",
+    "factory_effect": "None. Both existing seeds remain unselected; no hardening request or production state changed.",
+    "formal_result": "HC-DU-036C now gives an exact finite rational stochastic-decoder deficiency and a base-reconstruction, resource-Pareto-minimal refined-reconstruction, or positive finite completion-class-relative remainder trichotomy. A boundary expansion absorbs the synthetic remainder.",
+    "formal_result_ref": "explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md",
+    "physical_result": "No screened public packet passes all four evidence tables. Xiang et al. 2025 is the strongest reopener, but its inspected public schema supplies Clifford sequences plus aggregate p0 rather than joined shots, calibrations, invalid trials, selective maps, and reset records.",
+    "physical_result_ref": "explorations/public-physical-evidence-four-table-screen-2026-07-25.md",
+    "run_id": "RUN-20260725-200918-reconstruction-data-csg-triad",
+    "status": "completed_formal_spine__no_public_packet__csg_method_occupied"
+  },
   "factory_proposal_batch_if_separately_authorized": {
     "merge_review_proposals": [],
     "standalone_proposals": []
@@ -162,7 +173,7 @@
     "two_to_three_source_swings": "Two or three distinct source-owned theorem, transfer, empirical, or novelty jobs remain.",
     "unknown_until_clarified": "A bounded clarification must first determine what the paper would actually claim."
   },
-  "portfolio_version": "1.2",
+  "portfolio_version": "1.3",
   "seed_status_definitions": {
     "already_factory_post_ready": "The Factory already records the paper package as post-ready.",
     "already_factory_seeded": "The Factory already holds the cheap seed; do not duplicate it.",
@@ -383,18 +394,22 @@
     {
       "audience": "Formal methods, quantum processes, system identification, and foundations",
       "contribution": "A proof-carrying factorization, minimal-refinement, finite-remainder, or incomplete-contract trichotomy for certified causal histories.",
-      "current_grade": "Exact finite closure/witness baselines plus a viable exact-rational proof-carrying compiler; the same typed kernel ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance. A U(1)-conserving selector gate classifies the minimum interface premises and closes scalar conservation/asymmetry selection as an absorbed route. The first published physical-platform arm freezes an implementation-complete contract and returns INCOMPLETE_CONTRACT because the public record is figure-source rather than trial-, calibration-, provenance-, and multitime-resolved data. No factorization, remainder, or new-physics verdict is earned.",
+      "current_grade": "Exact finite closure/witness baselines, a viable exact-rational proof-carrying compiler, and HC-DU-036C's exact stochastic-decoder reconstruction/refinement/class-relative-remainder trichotomy. The same typed compiler ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance; a boundary expansion likewise absorbs the quantitative synthetic remainder. A U(1)-conserving selector gate classifies the minimum interface premises and closes scalar conservation/asymmetry selection as an absorbed route. The first published physical-platform arm returns INCOMPLETE_CONTRACT, and a four-candidate public screen finds no packet with joined trial, calibration, provenance, selective-map, and multitime/reset data. No physical factorization, irreducible remainder, or new-physics verdict is earned.",
       "evidence_refs": [
         "explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md",
         "explorations/cross-repo-hardening-integration-2026-07-24.md",
         "explorations/noninvertible-history-certificate-compiler-pilot-2026-07-24.md",
         "explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md",
         "explorations/implementation-complete-physical-interventional-sufficiency-arm-2026-07-25.md",
+        "explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md",
+        "explorations/public-physical-evidence-four-table-screen-2026-07-25.md",
         "tests/du_council_orthodox_factorization_witness_probe.py",
         "tests/du_council_wild_frontier_interventional_closure_probe.py",
         "tests/du_noninvertible_history_certificate_compiler_probe.py",
         "tests/du_conservation_certified_record_probe.py",
-        "tests/du_physical_interventional_sufficiency_probe.py"
+        "tests/du_physical_interventional_sufficiency_probe.py",
+        "tests/du_certified_causal_reconstruction_trichotomy_probe.py",
+        "tests/du_public_physical_evidence_screen_probe.py"
       ],
       "factory_snapshot": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
       "factory_state": "existing_seed_unselected",
@@ -403,7 +418,7 @@
       "id": "DU-PAPER-007",
       "manuscript_distance": "two_to_three_source_swings",
       "manuscript_load_bearing_gaps": [
-        "Locate or obtain a calibration-linked trial table for a published complete physical process instrument. It must retain preparation, instrument outcome, output setting/result, invalid/discard reason, trial order, controller/decoder version, joint calibration uncertainty, and the row-to-selective-map transformation.",
+        "Run one bounded audit for a Xiang et al. sidecar joining shots, calibration epochs, invalid trials, controller versions, selective-map convention, and reset status. If absent, stop public reuse and specify a prospective acquisition schema with those fields.",
         "For a multitime sufficiency claim, add ordered repeats, reset or causal-break status, prior outcomes, and held-out continuations.",
         "Replace the distributed table with a replayable authenticated DAG/BFT process under an explicit adversary and resource-vector order.",
         "Freeze the expanded physical refinement class before observing which candidate wins.",
@@ -417,7 +432,7 @@
         "DU-PAPER-008",
         "DU-PAPER-012"
       ],
-      "recommended_action": "Preserve as the highest-upside DU flagship. Use the executable ingestion gate before selecting the next physical dataset; if the Stricker trial/calibration packet cannot be obtained, choose another published instrument only if its public record passes the gate before a sufficiency verdict is examined. Do not reconstruct missing trials from figure values or report a remainder unless the frozen physical class is exhausted. Factory custody remains unselected.",
+      "recommended_action": "Preserve as the highest-upside DU flagship. Audit only for the narrow Xiang sidecar; if absent, move to prospective four-table acquisition design. Use HC-DU-036C only after a physical packet passes the gate. Do not fit another synthetic completion, reconstruct trials from aggregate p0, or report an irreducible remainder from a finite frozen class. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
@@ -617,13 +632,15 @@
     {
       "audience": "Causal-set theory, stochastic processes, and mathematical physics",
       "contribution": "A precise tail-class theorem for post-conditioned CSG couplings, including the alpha/(alpha+1) exponent family and the correction that the physical post sector begins at T1.",
-      "current_grade": "Derived bounded-precursor uniform theorem for eventually decreasing regularly varying adjacent coupling ratios, with exponent -alpha/(alpha+1), deterministic finite controls, tight boundary classes, and a claim-specific causal-set collision. Causal-set novelty is provisionally unabsorbed; independent proof review and broader mathematical collision remain open.",
+      "current_grade": "Derived bounded-precursor uniform theorem for eventually decreasing regularly varying adjacent coupling ratios, with exponent -alpha/(alpha+1), tight boundary classes, deterministic controls, and two internal proof routes. A broader collision absorbs the general regular-variation, large-power, and discrete-saddle method. The exact CSG-specific classification remains provisionally unabsorbed; independent expert proof review and a systematic bibliography remain open.",
       "evidence_refs": [
         "explorations/science-council-five-persona-successor-wave-synthesis-2026-07-24.md",
         "explorations/csg-post-tail-universality-proof-kill-2026-07-25.md",
+        "explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md",
         "tests/du_successor_heterodox_post_rg_half_power_probe.py",
         "tests/du_successor_wild_frontier_post_tail_probe.py",
-        "tests/du_csg_post_tail_uniformity_probe.py"
+        "tests/du_csg_post_tail_uniformity_probe.py",
+        "tests/du_csg_post_tail_second_method_probe.py"
       ],
       "factory_snapshot": "DU-SEED-CSG-POST-TAIL-CLASSES admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
       "factory_state": "existing_seed_unselected",
@@ -633,8 +650,7 @@
       "manuscript_distance": "one_source_hardening_swing",
       "manuscript_load_bearing_gaps": [
         "Obtain independent mathematical proof review of the uniform concentration and expectation step.",
-        "Search general binomial-transform, regular-variation, saddle-point, and analytic-combinatorics literature for a theorem that subsumes the result.",
-        "Complete a systematic paper-grade causal-set bibliography and novelty statement.",
+        "Complete a systematic paper-grade causal-set and Tauberian/binomial-transform bibliography and novelty statement beyond the bounded collision.",
         "After those gates survive, convert the source receipt and figure-ready controls into a manuscript."
       ],
       "manuscript_swings_estimate": "1",
@@ -644,7 +660,7 @@
         "DU-PAPER-014",
         "DU-PAPER-018"
       ],
-      "recommended_action": "Advance as the closest new DU paper through independent proof review and general-mathematics novelty collision. The theorem core survives, but do not call it novel, manuscript-ready, cosmological, or new physics until those gates close. Factory custody remains unselected.",
+      "recommended_action": "Advance as the closest new DU paper through independent expert proof review and a systematic bibliography. Frame any survivor as a CSG-specific corollary using known asymptotic machinery, not a new mathematical method. Do not call it novel, manuscript-ready, cosmological, or new physics until those gates close. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
