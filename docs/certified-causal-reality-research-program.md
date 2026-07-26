@@ -2110,6 +2110,79 @@ a selected QFT record, new gauge/finality law, ontology, hardware result, or
 paper promotion. See
 `../explorations/physical-arena-selection-tournament-2026-07-26.md`.
 
+#### `HC-DU-040D` — Material gauge-boundary formation orbit
+
+The selected finite mechanism has now been carried through one exact `Z3`
+gauge Hamiltonian with two hard-core matter sites, one internal link, one
+boundary link, a neutral qutrit pointer, and a neutral archive. The two Gauss
+constraints imply
+
+\[
+\Phi_b=X_b^\dagger=\omega^{n_1+n_2}
+\]
+
+on the physical subspace. A boundary-local controlled shift
+
+\[
+W_+
+=
+\sum_{f\in\mathbb Z_3}\Pi_f\otimes S_P^f
+\]
+
+commutes with the Gauss generators and flux projectors and therefore gives an
+exact nondemolition premeasurement. A second controlled shift copies the
+orthogonal pointer label into a blank archive.
+
+The physical constraints do not select one microscopic formation. Exact
+QND behavior, a minimal three-state pointer, and additive record semantics
+force only
+
+\[
+r(f)=af,
+\qquad
+a\in\mathbb Z_3^\times=\{+1,-1\}.
+\]
+
+Thus the law and structural criteria select a controlled-add/subtract
+formation orbit. A material orientation and calibration choose one
+operational instrument. The strict coherent-write criterion calibrates away
+relative sector phases on the ready subspace, but the final selective
+instrument alone cannot see them. Off-ready-subspace behavior, ancillary
+dilations, Hamiltonian-logarithm branches, and intermediate micromotion
+remain free. In particular, degenerate endpoint eigenspaces give
+continuously many local gauge-invariant Hamiltonians with the same exact
+final write and different intermediate-time responses.
+
+The record is exact under the declared boundary-preserving action envelope.
+It leaks under an interior \(n_1\) readout, unlogged charge crossing, or an
+intermediate-time formation-history assay. Norm-bounded write and archive
+errors earn only finite-horizon probability bounds; redundant majority
+hardening additionally requires charged blank cells and an independent-noise
+model. Unitary pointer/archive correlation is not by itself a fundamental
+actual-outcome rule.
+
+The result is:
+
+```text
+FORMATION_ORBIT_ONLY
+    from gauge law plus frozen structural criteria
+
+ORIENTED_INSTRUMENT_ONLY
+    after a supplied material reference and readout convention
+
+NOT UNIQUE_MICROSCOPIC_SELECTOR
+NOT UNCONDITIONAL ACTUALIZATION OR PERMANENT FINALITY
+```
+
+The component mathematics is standard lattice gauge theory, QND
+measurement, group-syndrome transduction, dilation freedom, and perturbation
+theory. The integrated formation-to-capability classification is a useful
+Dynamic Unity positive anchor, not a new gauge/QFT law or paper result.
+Detector fitting stops here. A later AQFT embedding should open only if it
+tests a new locality or selection proposition rather than transporting the
+supplied instrument. See
+`../explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md`.
+
 ## Core hypotheses
 
 | ID | Hypothesis | Cheap failure mode |
@@ -2243,9 +2316,13 @@ supplied, or fitted; target constancy cannot supply interface provenance.
    HC-DU-040B algebraic-QFT record transport and capability-stable finality
    [VON NEUMANN TRANSPORT / FACTOR-INTERNAL RECORD NO-GO / FINITE-HORIZON
    APPROXIMATE BOUNDARY; PHYSICAL QFT RECORD INTERFACE OPEN]
-   HC-DU-040C materialized gauge-boundary record formation
+   HC-DU-040C materialized gauge-boundary arena selection
    [PHYSICAL ARENA SELECTED / EXACT FINITE TOTAL-CHARGE RECONSTRUCTION AND
-   INTERIOR FIRST LEAK / DETECTOR HAMILTONIAN AND ROBUST FORMATION OPEN]
+   INTERIOR FIRST LEAK]
+   HC-DU-040D material gauge-boundary formation orbit
+   [EXACT FINITE GAUGE-INVARIANT QND WRITE / CONTROLLED-ADD-SUBTRACT ORBIT /
+   CONDITIONALLY ORIENTED INSTRUMENT / FINITE-HORIZON ARCHIVE /
+   UNIQUE MICROSCOPIC SELECTOR AND FUNDAMENTAL ACTUALIZATION NOT EARNED]
 ```
 
 This dependency map is scientific, not an administrative pipeline. A negative

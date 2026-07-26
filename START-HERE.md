@@ -104,7 +104,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 171
+Finality, Temporal Issuance, or Possibility to Capability. It records 173
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -235,6 +235,21 @@ What *has* been earned is a strong finite control stack:
   leaving the material boundary, detector Hamiltonian, pointer/archive,
   decoder, perturbation class, and future action envelope unselected
   ([result](explorations/physical-arena-selection-tournament-2026-07-26.md)).
+- one exact finite `HC-DU-040D` material gauge-boundary formation-orbit
+  classification. In a frozen two-site `Z3` gauge Hamiltonian, Gauss law
+  identifies total enclosed charge with the boundary-flux sector. A local
+  neutral qutrit detector implements an exact gauge-invariant QND write and a
+  blank archive stores the orthogonal sector label. Minimal additive record
+  semantics select only the controlled-add/subtract orbit; a material
+  orientation selects one operational instrument, while Hamiltonian
+  logarithms, micromotion, off-ready-subspace action, and dilations leave the
+  microscopic formation history nonunique. Exact finality holds only in the
+  projector-preserving boundary envelope; norm error earns a finite horizon,
+  and interior readout, unlogged charge crossing, and intermediate-time
+  detector assays give the first leaks. This is known lattice-gauge and
+  measurement mathematics plus a DU formation-to-capability classification,
+  not a new law, actualization rule, ontology, or paper
+  ([result](explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md)).
 - one exact finite-dimensional `HC-DU-035D` center-screening finality theorem.
   A formed regional center is screened from its retained noncommutative fibre
   exactly when every complete selective future map pulls the next public
@@ -492,29 +507,31 @@ nondisturbing for every local action. The split property may create a
 type-I interpolation under additional assumptions, but it does not select a
 probe, pointer, archive, decoder, or record axis.
 
-The physical-arena tournament is now complete. The selected next arena is a
-**materialized gauge boundary**: a finite gauge region whose oriented
-boundary flux is written by a local detector into an external pointer and
-archive. The exact four-completion control proves that this architecture can
-simultaneously retain nonzero law-only target diameter, earn
-record-assisted reconstruction of total enclosed charge, and preserve an
-interior same-record/different-action witness.
+The materialized-gauge-boundary mechanism is now complete at exact finite
+grade. Gauss law selects the boundary-flux distinction; the structural
+criteria select a controlled-add/subtract formation orbit; detector
+orientation and readout select one operational instrument; and a frozen
+boundary-preserving future-action envelope makes the archive exact. The
+interior distribution, charge-crossing update, microscopic formation
+history, and actual-outcome rule remain outside that record.
 
-The next high-value dependency is therefore **the material-boundary formation
-mechanism**, not another arena search, abstract center calculation, clock toy,
-or hardware path:
+This is the strongest standard positive physical anchor in the program, but
+it closes rather than extends the detector-fitting branch. The next
+high-value dependency is:
 
-1. freeze one finite lattice or quantum-link gauge Hamiltonian and one neutral
-   material boundary detector;
-2. derive or kill the gauge-invariant, local, nondemolition coupling class
-   without fitting it to the target;
-3. identify the oriented reference and every remaining symmetry orbit;
-4. declare detector perturbations, archive error, future boundary/interior
-   actions, norm, tolerance, and horizon;
-5. prove formation and boundary-action sufficiency or return the minimum
-   first leak; and
-6. only after the finite mechanism survives, test whether it embeds in a
-   Fewster--Verch-style locally covariant probe construction.
+1. use this anchor to freeze the strongest target-independent,
+   physically admissible class of records for one complete process;
+2. include source, instrument, selective history, environment, boundary
+   crossing/current, provenance, archive, and action-envelope receipts;
+3. ask whether a physical law naturally selects that record/interface class
+   or whether multiple equally physical interfaces survive;
+4. test every observer-accessible target without refitting the record; and
+5. return either operational duality at the declared quotient or one minimum
+   finite physical remainder.
+
+Do not fit another microscopic Hamiltonian to the same final flux write.
+Open a Fewster--Verch AQFT embedding only after stating a new locality or
+selection proposition that the finite model cannot already decide.
 
 Infrared/asymptotic QED is parked until a finite-time,
 finite-resolution access/horizon contract exists. The optical-clock
@@ -634,10 +651,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | `HC-DU-040C` selects the materialized gauge-boundary arena; now derive or kill one local gauge-invariant detector coupling and its oriented flux-record orbit. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | In the selected control, boundary-flux actions factor through the record while one interior readout exposes the retained fibre; freeze that action boundary physically. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Test whether the formed boundary record stays screened under the complete declared boundary, interior, crossing, leakage, and archive-error process. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Carry law-only diameter, record-conditioned total-charge reconstruction, and the interior first leak through one physical gauge-boundary Hamiltonian without interface refit. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Bank `HC-DU-040D` as the standard finite positive anchor. Seek endogenous selection of the region/reference/action envelope or a physical remainder; do not fit another detector to the same final write. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Preserve the exact split: boundary-flux actions factor through the archive, interior readout exposes the retained fibre, crossing makes the historical record current-state incomplete, and formation-history access distinguishes endpoint-equivalent detectors. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Use the projector-preserving gauge envelope as the exact positive control and crossing/correlated archive error as hostile controls; never promote a finite-horizon bound to permanent finality. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Treat `HC-DU-040D` as scoped operational duality, then test one complete target-independent record class for a representation-robust observer-accessible remainder without interface refit. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 

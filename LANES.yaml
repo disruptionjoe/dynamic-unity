@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 62
+manifest_revision: 63
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -134,14 +134,25 @@ physical_arena_selection_rule: >-
   smallest next physical arena. Gauss law leaves total enclosed charge variable; a supplied
   external flux pointer/archive reconstructs that total exactly, while two interior charge
   distributions remain in one record fibre and one interior-sensitive action exposes the first
-  capability leak. The next dependency is not another arena comparison: freeze one finite
-  lattice or quantum-link gauge Hamiltonian plus a neutral material boundary detector, then
-  derive or kill the local gauge-invariant nondemolition coupling, oriented reference,
-  perturbation-stable archive and complete future action envelope. Treat an algebraic center or
-  unmaterialized edge mode as a boundary choice, not a selected record. Embed into a locally
-  covariant AQFT probe only after the finite mechanism survives. Infrared QED is parked until a
-  finite-time finite-resolution access/horizon contract exists; the clock source-selective
-  intervention remains a bounded side branch.
+  capability leak. HC-DU-040D has now executed the finite mechanism handoff; consume its
+  formation-orbit classification rather than reopening the arena comparison. Treat an algebraic
+  center or unmaterialized edge mode as a boundary choice, not a selected record. Infrared QED
+  remains parked until a finite-time finite-resolution access/horizon contract exists; the
+  clock source-selective intervention remains a bounded side branch.
+material_gauge_boundary_formation_ref: >-
+  explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+material_gauge_boundary_formation_rule: >-
+  In the frozen finite Z3 gauge Hamiltonian, Gauss law selects the boundary-flux sectors and a
+  local neutral qutrit permits an exact gauge-invariant QND write. Minimal additive record
+  semantics select only the controlled-add/subtract formation orbit. A material
+  orientation/calibration chooses one operational instrument; it does not select the
+  microscopic Hamiltonian, intermediate micromotion, off-ready-subspace action, inaccessible
+  dilation or fundamental outcome event. Finality is exact only for the declared
+  projector-preserving boundary action envelope. Norm error earns a finite horizon; redundant
+  hardening costs blank cells and assumes independent errors; interior readout, unlogged charge
+  crossing and intermediate-time formation-history access are explicit first leaks. Bank this
+  as a standard positive anchor, stop fitting the same endpoint instrument and open AQFT only
+  for a new locality or selection proposition.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -298,13 +309,18 @@ lanes:
     justified effective-action restriction, an enlarged local probe/pointer/archive interface,
     sector/global/boundary structure, or a finite-horizon approximate contract. Freeze the
     future capability envelope because finality is anti-monotone under action growth and
-    one-step leakage can accumulate. Consume HC-DU-040C's arena selection: the materialized
-    gauge-boundary control has nonzero law-only total-charge diameter, exact
-    record-conditioned total-charge reconstruction, and an interior same-record/different-action
-    witness. Advance one finite gauge Hamiltonian plus material detector far enough to derive or
-    kill its local nondemolition coupling, oriented flux-record orbit, perturbation-stable
-    archive and complete action envelope. Do not reopen the arena tournament or count an
-    algebraic boundary center as a formed record. Consume HC-DU-035D's layered
+    one-step leakage can accumulate. Consume HC-DU-040C/D as one completed physical positive
+    anchor: Gauss law selects a boundary-flux sector relation; exact QND, minimality and
+    additive semantics select the controlled-add/subtract formation orbit; material
+    orientation selects one operational instrument; and the microscopic detector history
+    remains nonunique. The archive is exact only in the projector-preserving boundary envelope,
+    norm robustness is horizon-indexed, and interior readout, charge crossing and
+    intermediate-time formation access supply distinct first leaks. Stop fitting detector
+    Hamiltonians to the same final write and do not count an algebraic boundary center as a
+    formed record. Use this anchor to freeze the strongest target-independent physically
+    admissible record class for one complete process, then return either a naturally selected
+    interface, scoped operational duality or one finite physical remainder without refitting.
+    Open AQFT only for a new locality or selection proposition. Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
     noncentral pullback and its exact blockwise leakage margin rather than treating finality as
@@ -350,6 +366,7 @@ lanes:
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
+  - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
@@ -422,13 +439,18 @@ lanes:
     block preserves a capability-relative remainder. This does not select the action algebra
     or formation coupling. HC-DU-040B extends that necessity boundary to arbitrary unital
     von Neumann algebras with finite PVM records. Do not search for a nontrivial exact internal
-    record in the center of a full local factor. HC-DU-040C now selects the materialized
-    gauge-boundary arena. Freeze one finite lattice or quantum-link gauge Hamiltonian plus one
-    neutral material detector and derive or kill the local gauge-invariant nondemolition
-    coupling, oriented boundary-flux record orbit, archive stability and perturbation class.
-    Treat a regional algebra center or unmaterialized edge mode as a boundary convention, not a
-    formed record; treat the Fewster--Verch probe as the later relativistic locality host rather
-    than the first mechanism-discovery arena. HC-DU-039C adds that one formed phase readout may still leave a
+    record in the center of a full local factor. HC-DU-040C/D now complete the material
+    gauge-boundary branch at finite grade. A local gauge-invariant QND write exists, but the
+    frozen structural criteria select only the controlled-add/subtract formation orbit; a
+    material reference selects one operational instrument and no endpoint record selects one
+    microscopic Hamiltonian or outcome event. Exact archive finality is action-envelope
+    relative and norm robustness is finite-horizon. Treat the mechanism as a banked positive
+    anchor. Do not fit another detector to the same write or open Fewster--Verch embedding
+    without a new locality/selection proposition. Seek instead endogenous selection of the
+    region, reference and action envelope, or a target-independent physical remainder that
+    survives every admissible interface refinement. Treat a regional algebra center or
+    unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
+    that one formed phase readout may still leave a
     target-changing source nullspace. HC-DU-039D adds that clock-only visibility remains inside
     the classical random-time set, while a stronger conditioned-channel certificate requires
     history-label provenance, complete controls, postselection and nuisances. Use that assurance
@@ -464,6 +486,7 @@ lanes:
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
+  - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
@@ -475,8 +498,9 @@ lanes:
   do_not: >-
     Do not run another fitted finite-QND or finite-reference selector, infer orientation from a
     symmetry-invariant resource amount, equate tomography with causal selection, or claim a
-    unique microscopic dilation from an effective instrument. Do not infer interface selection
-    from a law that merely closes a target fibre.
+    unique microscopic Hamiltonian, micromotion or dilation from an effective instrument. Do
+    not infer interface selection from a law that merely closes a target fibre or infer an
+    actual outcome from unitary pointer/archive correlation alone.
 - id: '4'
   label: Lane 4
   ordinal: 4
@@ -498,11 +522,13 @@ lanes:
     coexist with maximal uncertainty about a held-out repeat. Consume HC-DU-033D: sufficiency
     is relative to the independently frozen action algebra. A center-limited observer can have
     complete sector-level capability while a coherent within-sector observer exposes a finite
-    same-record remainder. Consume HC-DU-040C's physical control: a boundary observer whose
-    actions depend only on total flux is exactly served by the formed flux record, while one
-    interior charge readout separates two same-record completions. The next mechanism must
-    freeze the material boundary, detector access, archive cost, charge-crossing actions and
-    horizon rather than define the observer by the successful quotient. Consume HC-DU-035D: a public record can be final without fibre
+    same-record remainder. Consume HC-DU-040C/D's physical control: a boundary observer whose
+    actions depend only on total flux is exactly served by the formed archive, while an
+    interior charge readout separates same-record completions, unlogged crossing makes the
+    historical record current-state incomplete, and an intermediate-time detector assay
+    separates endpoint-equivalent microscopic histories. Charge the material boundary,
+    orientation, ready memory, archive, decoder, action envelope and horizon rather than
+    defining the observer by the successful quotient. Consume HC-DU-035D: a public record can be final without fibre
     destruction only relative to a complete selectively center-screening future action class.
     Adding a noncentral recoupling changes the capability contract; omitting an admitted route
     creates false finality. Consume HC-DU-039C: the screened class, one total-phase readout and
@@ -532,6 +558,7 @@ lanes:
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
+  - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
     capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
@@ -573,10 +600,12 @@ lanes:
     finality claim: state the complete capability envelope and horizon, use the exact
     generator-to-word or regional contraction bound, and require reset, contraction, or a
     summable leakage budget for durability. Small one-step error alone is noncompositional, and
-    enlarging the admitted action class can only increase the finality defect. Apply HC-DU-040C
-    to the selected material boundary: total-flux finality is exact only for the
-    boundary-preserving action class and archive horizon; localize the first interior,
-    charge-crossing, detector-leakage or archive-error map that breaks the screen.
+    enlarging the admitted action class can only increase the finality defect. Apply
+    HC-DU-040C/D as the exact material positive/hostile pair: total-flux finality is exact for
+    the projector-preserving boundary envelope; an interior readout exposes the retained fibre;
+    unlogged crossing makes the historical archive current-state incomplete; norm error earns
+    only a finite horizon; and redundant hardening requires charged blank cells plus an
+    independent-noise model. Use these as regression controls, not as a permanent-finality law.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -598,6 +627,7 @@ lanes:
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
+  - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -642,14 +672,17 @@ lanes:
     theta_tau+theta_chi retain exact local null (1,-1). The nuisance-aware sensitivity matrix
     for one preregistered source variation remains a bounded side branch; do not build another
     abstract phase source, reduced-visibility toy, same-channel output assay or hardware adapter.
-    HC-DU-040B supplied the arena gate and HC-DU-040C has now executed it. The selected next
-    arena is a materialized gauge boundary. In the exact finite control, Gauss law leaves
-    total-charge diameter nonzero; the external flux pointer/archive reduces it to zero; and an
-    interior charge target remains open in one record fibre. Carry that exact
-    law-only/record-assisted/first-leak trichotomy through one target-independent finite gauge
-    Hamiltonian and material detector. Derive or kill the local nondemolition coupling,
-    oriented boundary reference, perturbation-stable archive and complete future action class
-    before any continuum or simulation escalation. A CFS-facing extension must
+    HC-DU-040B supplied the arena gate and HC-DU-040C/D have now completed the finite
+    material-gauge branch. The exact Z3 Hamiltonian carries nonzero law-only total-charge
+    diameter through a gauge-invariant QND formation orbit; a material orientation supplies one
+    operational instrument; and the boundary archive closes total charge only in its frozen
+    action envelope. Interior distribution, charge crossing and microscopic formation history
+    are exact separate leaks. Treat this as scoped operational duality and a standard positive
+    anchor, not a selected fundamental record. The next North-Star reconstruction swing should
+    freeze the strongest target-independent physically admissible record class for one complete
+    process and seek either a natural interface selector or one representation-robust
+    observer-accessible remainder without refitting. Do not escalate the gauge instrument to
+    continuum or simulation unless a new locality/selection statement requires it. A CFS-facing extension must
     additionally freeze Hilbert/spin/constraint/sector/regulator, distinguish Einstein closure
     from a regulator-robust CFS residue, and avoid reusing the closed vacuum conformal case.
     Maintain
@@ -692,6 +725,7 @@ lanes:
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
+  - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -739,11 +773,13 @@ lanes:
     factor corollary are known operator-algebra mathematics, while the split property supplies
     no physical record selector. A publishable successor must add a naturally selected local
     probe/archive interface, a quantitative finite-horizon law, or a discriminator not absorbed
-    by AQFT measurement and subsystem-independence theory. Treat HC-DU-040C likewise as an arena
-    decision, not a paper seed. Its Gauss-law quotient, boundary-flux record and interior leak
-    are standard component structure. Reassess publication only if the material detector
-    mechanism yields a representation-robust coupling/formation theorem or residual beyond
-    gauge-boundary measurement and AQFT probe theory.
+    by AQFT measurement and subsystem-independence theory. Treat HC-DU-040C/D likewise as a
+    completed physical control, not a paper seed. The exact gauge-invariant QND write,
+    controlled-add/subtract formation orbit, conditionally oriented instrument,
+    Hamiltonian-history nonuniqueness, finite-horizon archive and first leaks are absorbed by
+    standard gauge-boundary, measurement, dilation and perturbation theory. Reassess
+    publication only if a later result independently selects the region/reference/action
+    envelope or yields a finite remainder beyond those absorbers.
     Use the existing HC-DU-036E pilot only when directly authorized and
     decision-changing; otherwise assume no external hardware and keep the work local. An
     irreducible hardware dependency gets one awareness note and then parks without separate Joe
@@ -769,6 +805,7 @@ lanes:
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
+  - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -4410,6 +4447,27 @@ provenance:
     mathematics is known; no selected QFT record, new gauge/finality law, ontology, new physics,
     paper promotion, hardware, provider action, submission, publication or external contact is
     promoted.
+  rev63_note: >-
+    2026-07-26 (Joe direct chat: Go, execute the selected material-gauge-boundary mechanism
+    swing): executed HC-DU-040D in one exact finite Z3 gauge Hamiltonian with two hard-core
+    matter sites, an internal and boundary link, and neutral qutrit pointer/archive. The Gauss
+    constraints identify total enclosed charge with the boundary-flux sector. A boundary-local
+    controlled shift is exactly gauge invariant and flux-QND, and a second shift archives the
+    orthogonal label. Minimal additive record semantics select only the controlled-add/subtract
+    formation orbit; a material orientation and readout convention select one operational
+    instrument. Degenerate endpoint eigenspaces, Hamiltonian-logarithm branches, micromotion,
+    off-ready-subspace extensions and dilations block a unique microscopic selector, while
+    unitary record correlation alone supplies no fundamental actual-outcome rule. The archive
+    is exact in its projector-preserving boundary envelope. Norm perturbations earn only
+    finite-horizon error bounds; redundant majority hardening costs blank cells and requires
+    independent errors. Interior readout, unlogged charge crossing and an intermediate-time
+    detector assay are exact distinct first leaks. Primary-source collision absorbs the
+    component physics into lattice-gauge, material-boundary, symmetry-reference, QND
+    measurement, dilation and perturbation theory. Bank the result as a standard physical
+    positive anchor, stop detector fitting and open AQFT only for a new locality or selection
+    proposition. No new gauge/finality law, unique detector, actualization rule, ontology,
+    QFT recovery, paper promotion, simulation, hardware, provider action, submission,
+    publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"
