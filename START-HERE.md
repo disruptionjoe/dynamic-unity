@@ -3,6 +3,7 @@ title: "Dynamic Unity — Start Here"
 status: active_research
 doc_type: orientation
 created: 2026-07-25
+revised: 2026-07-26
 authority: "Joe direct chat; ratified program identity and operating architecture"
 ---
 
@@ -264,6 +265,15 @@ therefore come from a source-derived count-sensitive structure and survive a
 held-out flavor or partner test. See
 `explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md`;
 the probe passes `27/27` without identifying the physical GU operator.
+
+The conditional source-action toy program is now split by repository
+ownership. GU owns a graded ladder from finite coefficient enumeration through
+dynamic domain wall, overlap/Ginsparg--Wilson regulator, and program-native
+operator lift. DU owns the companion acceptance assay that keeps global index,
+regional access rank, certified record, and matched-resource capability
+distinct under local and enlarged intervention classes. See
+`explorations/conditional-gu-source-action-toy-du-acceptance-contract-2026-07-26.md`.
+This is construction preparation, not evidence that the GU operator exists.
 
 ## Dependency lanes
 

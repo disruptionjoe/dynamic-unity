@@ -350,7 +350,9 @@ lanes:
     access rank and proves that predictive flavor needs source-derived noncommuting
     triplet-breaking structure. Its inverse stage now localizes exact three outside ordinary
     Standard Model anomaly cancellation, CKM-like CP existence and the accessible endpoint;
-    the physical GU operator remains open.
+    the physical GU operator remains open. Its conditional source-action toy contract now
+    separates global index, unit-index-times-triplet, vectorlike access rank and target-coded
+    three under complete local and enlarged intervention classes.
   success_signal: >-
     A reconstruction or nonuniqueness theorem with declared gauge, dimensional map, held-out
     observables and invariance under relabeling and genuinely benign refinement.
@@ -370,6 +372,7 @@ lanes:
   - tests/du_triplet_boundary_flavor_integrated_probe.py
   - explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md
   - tests/du_inverse_chirality_generation_tournament_probe.py
+  - explorations/conditional-gu-source-action-toy-du-acceptance-contract-2026-07-26.md
   do_not: >-
     Do not derive primitive operational precedence from itself, confuse Hilbert/network/state
     dimension with spacetime dimension, or infer a metric from representation-dependent graph

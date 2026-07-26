@@ -3,7 +3,7 @@ title: "Certified Causal Reality — governing research program"
 status: active_research
 doc_type: research_program
 created: 2026-07-24
-revised: 2026-07-25
+revised: 2026-07-26
 authority: "Joe direct chat; nineteen-lens Science Council triple-diamond convergence"
 claim_grade: "PROGRAM CHARTER / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED"
 novelty_status: "COLLISION CLASSES IDENTIFIED / CLAIM-SPECIFIC SEARCH-INCOMPLETE"
@@ -1418,6 +1418,17 @@ count-sensitive index/topology, a nonfactorizing family consistency condition,
 or a restricted flavor structure with a held-out result. See
 `explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md`
 and `tests/du_inverse_chirality_generation_tournament_probe.py`.
+
+The next conditional construction is governed by
+`explorations/conditional-gu-source-action-toy-du-acceptance-contract-2026-07-26.md`.
+The GU-owned ladder distinguishes an engineered constraint minimum, finite
+spectral selection, a dynamically generated domain wall, regulator-level
+index/anomaly/mirror control, and the eventual program-native operator lift.
+Dynamic Unity accepts none of those as physical recovery until the complete
+process passport fixes global completion, observer interventions, resources,
+records, and benign refinement. Its specific job is to distinguish protected
+global index three from independently factored unit-index-times-triplet,
+vectorlike access rank three, and target-coded three.
 
 ## Core hypotheses
 

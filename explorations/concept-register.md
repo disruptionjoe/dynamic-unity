@@ -3,6 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
+revised: 2026-07-26
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -1605,6 +1606,15 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   projected flavor construction confined to a common commutative cyclic
   algebra. The inverse probe passes `27/27`; exact three therefore remains in
   a source-derived count-sensitive structure plus a held-out relation.
+- **2026-07-26 conditional construction ladder.** The GU-owned source-action
+  program now separates penalty compatibility, finite spectral selection, a
+  dynamically generated domain wall, overlap/Ginsparg--Wilson regulation, and
+  a program-native operator lift. The DU-owned acceptance contract compares
+  protected global index three, unit-index-times-triplet, vectorlike access
+  rank three, and target-coded three under complete local and enlarged
+  intervention classes. This adds an executable grading and identifiability
+  route, not evidence for a source action or generation mechanism. See
+  `conditional-gu-source-action-toy-du-acceptance-contract-2026-07-26.md`.
 - **Status:** **CONCEPT-OPEN / CROSS-REPO REPRESENTATION GRADE / GU TRIPLET
   INSTANCE LOCATED-BUT-NOT-FORCED / EXACT FINITE CONDITIONAL INDEX, INVERSE
   IDENTIFIABILITY, ANOMALY-BLINDNESS, CP-LOWER-BOUND, AND SYMMETRY NO-GOS /
