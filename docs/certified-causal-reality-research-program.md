@@ -1163,6 +1163,26 @@ no exact equality, exhaustive completion class, ontology, new physics or
 statistical novelty is claimed. See
 `../explorations/physical-sufficiency-acquisition-gate-2026-07-26.md`.
 
+**Executed provider-acquisition successor — `HC-DU-036E`.** Let \(S\) be the
+acquisition/selection stratum and \(Y\) the response. For histories compared
+at fixed intervention \(a\) and candidate record \(R(h)\), the complete joint
+kernel \(P(S,Y\mid h,a)\) factors through \((R(h),a)\) if and only if the
+selection kernel \(P(S\mid h,a)\) and every supported stratum kernel
+\(P(Y\mid S=s,h,a)\) do. This is ordinary finite conditional-probability
+algebra, not a novel statistical theorem. It establishes an exact claim
+ceiling: ordered provider-returned shots identify the \(S=1\) stratum, but
+even a known acceptance rate cannot identify an unobserved rejected stratum.
+A strict provider-capture schema and guarded 19-circuit QND-memory suite now
+retain circuit hashes, named shot registers, calibration and held-out arms,
+causal-break witnesses, provider job identity, missingness, reset scope, and
+execution-span shot masks. The 15/15 adversarial controls and a 608-row
+Qiskit/Aer dry run pass at `SYNTHETIC_CONTROL_ONLY`. A normal provider packet
+is capped at `RETURNED_SHOT_CONDITIONAL_ONLY`; a physical-remainder gate
+requires all physical triggers, invalid/rejected attempts, selection reasons,
+and every admitted memory reset to be visible. No hardware job was submitted.
+See
+`../explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md`.
+
 The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
 future-correlated oracle or response tree followed where possible by a
 compressed fixed-law transducer, departed environmental support, and the
@@ -1517,10 +1537,12 @@ vectorlike access rank three, and target-coded three.
     [COMPLETED FINITE EXACT-RATIONAL SPECIALIZATION]
     HC-DU-036D finite-shot epsilon reconstruction/refinement/remainder gate
     [COMPLETED BINARY-RESPONSE SPECIALIZATION; PHYSICAL PACKET OPEN]
+    HC-DU-036E provider-acquisition bridge and selection-visibility ceiling
+    [COMPLETED EXACT CLAIM BOUNDARY; HARDWARE PILOT NOT RUN]
     HC-DU-034B certificate-without-run-history-disclosure control [COMPLETED SCOPED]
     implementation-complete physical interventional-sufficiency arm with full
     selective instrument, provenance and calibrated finite-shot null [OPEN;
-    PUBLIC SIDECAR CLOSED; PROSPECTIVE PACKET READY; REAL ACQUISITION OPEN]
+    PUBLIC SIDECAR CLOSED; PROVIDER BRIDGE READY; REAL ACQUISITION OPEN]
         |
 4. HC-DU-037 capability, optionality, and resource results
    HC-DU-032 observer-individuation overlay
@@ -1926,9 +1948,14 @@ queue.
    already calibrated probabilities and the calibration points are discarded
    from the exported row. The prospective v0.1 packet, strict join/reset
    validator, and `HC-DU-036D` finite-shot epsilon certificate are executable.
-   The next paper-grade advance is one real co-designed or faithfully mapped
-   shot-resolved process packet; another aggregate fit or synthetic
-   completion is stopped.
+   `HC-DU-036E` now adds the provider-facing 19-circuit capture bridge and the
+   exact acquisition-visibility ceiling: returned-shot factorization is
+   conditional on the provider selection boundary unless rejected/invalid
+   physical attempts are also joined. Its 15/15 controls and 608-row Aer dry
+   run pass without a hardware submission. The next empirical advance is one
+   directly authorized provider-conditional pilot; the next paper-grade
+   adjudication still requires one co-designed implementation-complete
+   packet. Another aggregate fit or synthetic completion is stopped.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
    The closest new-paper route. The proof-or-kill now supplies a
    bounded-precursor uniform theorem for eventually decreasing regularly

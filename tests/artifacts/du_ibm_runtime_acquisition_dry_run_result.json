@@ -1,0 +1,26 @@
+{
+  "analysis_code_version": "du-acquisition-bridge/0.1",
+  "capture_id": "du-synthetic-qnd-memory-v0.1",
+  "capture_sha256": "535b8c5ba628c10200658b7770e0ab7dbcbc3bce6d17fcb0b533274824696536",
+  "circuit_count": 19,
+  "claim_ceiling": "SYNTHETIC_CONTROL_ONLY",
+  "driver_sha256": "7aec5321e1aa54603bded82cb4c00de6bcd2e0965cba341af9502816e3c08294",
+  "environment": {
+    "qiskit": "2.5.1",
+    "qiskit-aer": "0.17.2",
+    "qiskit-ibm-runtime": "0.48.0"
+  },
+  "evidence_kind": "synthetic_provider_control",
+  "external_job_submitted": false,
+  "manifest_sha256": "2b3d08bac76ace529abc9308339bbd8b10fc66064fefff9274af3067589681a7",
+  "physical_remainder_eligible": false,
+  "repeat_capture_byte_identical": true,
+  "run_id": "RUN-20260726-070222-hardware-acquisition-bridge",
+  "schema_validation": "PASS_DRAFT_2020_12_WITH_FORMAT_CHECKER",
+  "schema_version": "du-provider-capture/0.1",
+  "scientific_grade": "LOCAL SYNTHETIC PROVIDER-CONTRACT CONTROL / NO HARDWARE OR PHYSICAL VERDICT",
+  "shot_row_count": 608,
+  "shots_per_circuit": 32,
+  "span_count": 1,
+  "structural_status": "PROVIDER_CAPTURE_READY"
+}

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 49
+manifest_revision: 50
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -169,10 +169,13 @@ lanes:
   - '6'
   - '7'
   current_objective: >-
-    Use the completed v0.1 shot-resolved acquisition and HC-DU-036D finite-shot gate to obtain one
-    implementation-complete calibrated physical packet. Preserve the independently selected
-    record quotient, complete intervention/resource boundary and factorization-or-witness
-    contract; stop aggregate reuse and additional synthetic completion fixtures.
+    Use the completed v0.1 shot-resolved gate and HC-DU-036E provider bridge for a two-tier
+    physical advance: one directly authorized returned-shot-conditional hardware pilot to kill
+    or calibrate the instrument, then one co-designed implementation-complete packet exposing
+    every physical attempt and admitted-memory reset for North-Star adjudication. Preserve the
+    independently selected record quotient, intervention/resource boundary and
+    factorization-or-witness contract; stop aggregate reuse and additional synthetic completion
+    fixtures.
   success_signal: >-
     A nontrivial bidirectional reconstruction, necessary-and-sufficient theorem, operational
     duality or finite class-relative physical remainder with independently fixed equivalence and
@@ -185,6 +188,7 @@ lanes:
   - START-HERE.md
   - docs/certified-causal-reality-research-program.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
+  - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   do_not: >-
     Do not define records by all target experiments, infer ontology from vocabulary or finite
     fixtures, or treat underidentification as a verdict.
@@ -232,8 +236,10 @@ lanes:
   depends_on:
   - '2'
   current_objective: >-
-    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go and implement
-    one real process under the v0.1 physical-sufficiency packet: oriented reference, processor,
+    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go. Use the
+    frozen 19-circuit HC-DU-036E bridge for one authorized provider-conditional pilot, while
+    keeping provider-returned rows distinct from the complete physical attempt population.
+    Then co-design the v0.1 physical-sufficiency packet with oriented reference, processor,
     pointer, archive, decoder, selective maps, every attempted shot, calibration/systematic
     uncertainty, route provenance and verified complete-memory reset explicit.
   success_signal: >-
@@ -250,6 +256,8 @@ lanes:
   - tests/du_conservation_certified_record_probe.py
   - explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
+  - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
+  - lab/acquisition/README.md
   - docs/certified-causal-reality-research-program.md
   do_not: >-
     Do not run another fitted finite-QND or finite-reference selector, infer orientation from a
@@ -402,11 +410,12 @@ lanes:
   current_objective: >-
     Keep the complete paper-opportunity portfolio moving through a two-horizon allocation:
     obtain independent expert proof review and a systematic bibliography for the surviving
-    DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while acquiring or faithfully
-    mapping one real shot-resolved packet through the completed v0.1 schema and HC-DU-036D gate
-    for the higher-ceiling DU-PAPER-007 physical sufficiency flagship. The bounded public-sidecar
-    audit is closed; consume HC-DU-036C/036D physically only after the packet passes every join,
-    uncertainty, provenance and complete-reset requirement.
+    DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while using the HC-DU-036E
+    bridge for one authorized returned-shot-conditional hardware pilot and acquiring one
+    co-designed implementation-complete packet for the higher-ceiling DU-PAPER-007 flagship. The
+    bounded public-sidecar audit is closed; consume HC-DU-036C/036D for a physical-remainder
+    adjudication only after complete attempt visibility, every join, uncertainty, provenance and
+    complete-reset requirement passes.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -418,6 +427,7 @@ lanes:
   - papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
   - docs/certified-causal-reality-research-program.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
+  - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -2291,6 +2301,44 @@ physical_sufficiency_acquisition_gate:
     route provenance, held-out continuations and independent reset witnesses over every admitted
     memory frozen before response reveal. Do not reopen aggregate fitting or another synthetic
     completion fixture.
+hardware_acquisition_visibility_bridge:
+  status: completed_hardware_ready_bridge__external_job_not_run
+  date: '2026-07-26'
+  authority: >-
+    Joe direct chat: do the next swing.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260726-070222-hardware-acquisition-bridge/run-plan.md
+  result_ref: >-
+    explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
+  provider_schema_ref: specs/physical-sufficiency-provider-capture-v0.1.schema.json
+  acquisition_driver_ref: lab/acquisition/ibm_runtime_du_acquisition.py
+  probe_ref: tests/du_acquisition_visibility_bridge_probe.py
+  artifact_ref: tests/artifacts/du_acquisition_visibility_bridge_result.json
+  artifact_sha256: 05410d6e42b0d77c2021d66c4b163bd72f2a16f4182c1a0a3e03fdae4eaad10c
+  dry_run_receipt_ref: tests/artifacts/du_ibm_runtime_acquisition_dry_run_result.json
+  dry_run_receipt_sha256: 4301e9680e0dff47a8cf89c65fbdebb5457289bd71761505a530c01910ac4fec
+  exact_result: >-
+    HC-DU-036E records the finite acquisition-visibility factorization equivalence:
+    P(S,Y|h,a) factors through the candidate record and intervention exactly when the selection
+    kernel and every supported selected/rejected response stratum do. A same-acceptance,
+    same-accepted-response counterexample proves that provider-visible accepted rows do not
+    identify the complete attempted process.
+  executable_result: >-
+    The strict provider-capture schema and guarded 19-circuit three-qubit QND-memory suite retain
+    named shot registers, circuit hashes, calibration/training/holdout/causal-break arms,
+    missingness, reset scope, provider identity and execution-span shot masks. The 15/15
+    adversarial controls and a 608-row Qiskit 2.5.1/Aer 0.17.2 dry run pass with byte-identical
+    repeated outputs.
+  evidence_boundary: >-
+    The factorization equivalence is standard conditional-probability algebra. The dry run is
+    synthetic_provider_control. No provider or hardware job was submitted, no credentials were
+    accessed, and no physical factorization, remainder, ontology, new law, paper activation,
+    submission or publication is established.
+  next_move: >-
+    With direct authorization, run one low-shot returned-population hardware pilot under the
+    frozen manifest. Treat it as RETURNED_SHOT_CONDITIONAL_ONLY. For physical-remainder
+    adjudication, co-design a platform packet exposing every physical trigger, invalid/rejected
+    attempt, selection reason and reset over every admitted retained memory.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1

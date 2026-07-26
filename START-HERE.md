@@ -226,9 +226,25 @@ attempts, broken calibration joins, and incomplete causal breaks are refused
 before adjudication
 ([schema](specs/physical-sufficiency-acquisition-packet-v0.1.schema.json);
 [probe](tests/du_physical_sufficiency_acquisition_gate_probe.py)). The
-remaining flagship bottleneck is one real packet acquired or faithfully
-mapped under this contract; the current classification controls are
-synthetic and earn no physical verdict.
+provider-facing bridge is now also executable. `HC-DU-036E` freezes a
+19-circuit, three-qubit QND-memory, calibration, held-out, and causal-break
+suite; preserves joined pointer/environment/reset/output rows and bounded
+provider execution spans; and refuses post-freeze refits, missing shots,
+mutated rows, incomplete attempt visibility, and incomplete reset. Its exact
+Acquisition-Visibility Factorization Lemma states that full
+\(P(S,Y\mid h,a)\) factorization requires both the selection kernel and every
+supported selected/rejected response stratum to factor through the candidate
+record. A standard provider result exposes ordered returned shots, not every
+lower-level physical trigger or retained provider memory, so its ceiling is
+`RETURNED_SHOT_CONDITIONAL_ONLY`
+([result](explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md);
+[driver](lab/acquisition/README.md);
+[probe](tests/du_acquisition_visibility_bridge_probe.py)). The remaining
+flagship bottleneck is therefore two-tiered: one directly authorized
+provider-conditional hardware pilot can kill an unworkable instrument and
+calibrate the design; only a co-designed implementation-complete packet with
+all physical attempts and complete-memory reset can adjudicate a physical
+remainder. The current dry run is synthetic and earns no physical verdict.
 
 In parallel, `DU-PAPER-013` is now the closest new-paper route. Its
 proof-or-kill produced a bounded-precursor uniform theorem for regularly

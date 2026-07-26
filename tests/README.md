@@ -1247,3 +1247,40 @@ binary-response analysis gate only. It does not supply a physical packet,
 complete selective-process tomography, exact equality, an exhaustive
 completion class, a physical remainder, record-first ontology, new physics,
 or statistical novelty.
+
+## Provider acquisition visibility bridge
+
+`du_acquisition_visibility_bridge_probe.py` validates `HC-DU-036E` without
+contacting a provider. It checks:
+
+- the strict provider-capture schema and frozen 19-circuit QND-memory suite;
+- calibration, training, held-out, and causal-break coverage;
+- circuit-manifest, row, attachment, execution-span, attempt, and reset joins;
+- refusal of post-freeze semantic refits, mutated rows, missing shots, and
+  post-acquisition freezes;
+- a pre-provider authorization guard on real hardware submission;
+- four distinct claim ceilings for synthetic control, provider-returned rows,
+  all attempts without complete reset, and implementation-complete mapping;
+- the exact finite acquisition-visibility factorization equivalence; and
+- a counterexample in which acceptance probability and every accepted outcome
+  agree while the unobserved rejected stratum and complete attempted process
+  differ.
+
+Run:
+
+```bash
+python3 tests/du_acquisition_visibility_bridge_probe.py
+```
+
+The deterministic artifact is
+`artifacts/du_acquisition_visibility_bridge_result.json` and reports `15/15`
+checks with byte-identical repeated output. Passing establishes a
+provider-facing acquisition contract and exact claim ceiling only. The
+factorization lemma is standard conditional-probability algebra. No hardware
+job, physical packet, physical factorization, remainder, ontology, new
+physics, or statistical novelty is established.
+
+`artifacts/du_ibm_runtime_acquisition_dry_run_result.json` separately records
+the Qiskit 2.5.1/Aer 0.17.2 dry run: 19 circuits, 32 shots each, 608 joined
+rows, strict schema validation, and byte-identical repeated captures. It is
+also synthetic and has the same no-physical-verdict ceiling.

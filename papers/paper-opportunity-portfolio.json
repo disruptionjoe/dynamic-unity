@@ -394,7 +394,7 @@
     {
       "audience": "Formal methods, quantum processes, system identification, and foundations",
       "contribution": "A proof-carrying factorization, minimal-refinement, finite-remainder, or incomplete-contract trichotomy for certified causal histories.",
-      "current_grade": "Exact finite closure/witness baselines, a viable exact-rational proof-carrying compiler, and HC-DU-036C's exact stochastic-decoder reconstruction/refinement/class-relative-remainder trichotomy. The same typed compiler ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance; a boundary expansion likewise absorbs the quantitative synthetic remainder. A U(1)-conserving selector gate classifies the minimum interface premises and closes scalar conservation/asymmetry selection as an absorbed route. The first published physical-platform arm returns INCOMPLETE_CONTRACT, and a four-candidate public screen finds no packet with joined trial, calibration, provenance, selective-map, and multitime/reset data. No physical factorization, irreducible remainder, or new-physics verdict is earned.",
+      "current_grade": "Exact finite closure/witness baselines, HC-DU-036C's stochastic-decoder trichotomy, HC-DU-036D's versioned finite-shot physical gate, and HC-DU-036E's provider-facing 19-circuit bridge and exact acquisition-visibility ceiling. The same typed compiler ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance; a boundary expansion likewise absorbs the quantitative synthetic remainder. A U(1)-conserving selector gate classifies the minimum interface premises and closes scalar conservation/asymmetry selection as an absorbed route. The first published physical-platform arm returns INCOMPLETE_CONTRACT; the four-candidate public screen and bounded Xiang sidecar audit locate no packet with joined trial, calibration, provenance, selective-map, invalid-attempt, and multitime/reset data. The provider bridge passes 15/15 adversarial controls and a 608-row Aer dry run, but no hardware job ran and no physical factorization, irreducible remainder, or new-physics verdict is earned.",
       "evidence_refs": [
         "explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md",
         "explorations/cross-repo-hardening-integration-2026-07-24.md",
@@ -403,13 +403,17 @@
         "explorations/implementation-complete-physical-interventional-sufficiency-arm-2026-07-25.md",
         "explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md",
         "explorations/public-physical-evidence-four-table-screen-2026-07-25.md",
+        "explorations/physical-sufficiency-acquisition-gate-2026-07-26.md",
+        "explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md",
         "tests/du_council_orthodox_factorization_witness_probe.py",
         "tests/du_council_wild_frontier_interventional_closure_probe.py",
         "tests/du_noninvertible_history_certificate_compiler_probe.py",
         "tests/du_conservation_certified_record_probe.py",
         "tests/du_physical_interventional_sufficiency_probe.py",
         "tests/du_certified_causal_reconstruction_trichotomy_probe.py",
-        "tests/du_public_physical_evidence_screen_probe.py"
+        "tests/du_public_physical_evidence_screen_probe.py",
+        "tests/du_physical_sufficiency_acquisition_gate_probe.py",
+        "tests/du_acquisition_visibility_bridge_probe.py"
       ],
       "factory_snapshot": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
       "factory_state": "existing_seed_unselected",
@@ -418,7 +422,8 @@
       "id": "DU-PAPER-007",
       "manuscript_distance": "two_to_three_source_swings",
       "manuscript_load_bearing_gaps": [
-        "Run one bounded audit for a Xiang et al. sidecar joining shots, calibration epochs, invalid trials, controller versions, selective-map convention, and reset status. If absent, stop public reuse and specify a prospective acquisition schema with those fields.",
+        "Run one directly authorized low-shot provider pilot under the frozen HC-DU-036E manifest and report it only as returned-shot-conditional evidence.",
+        "Acquire one co-designed physical packet that exposes every physical trigger, invalid or rejected attempt, selection reason, route/controller state, and causal break over every admitted retained memory.",
         "For a multitime sufficiency claim, add ordered repeats, reset or causal-break status, prior outcomes, and held-out continuations.",
         "Replace the distributed table with a replayable authenticated DAG/BFT process under an explicit adversary and resource-vector order.",
         "Freeze the expanded physical refinement class before observing which candidate wins.",
@@ -432,7 +437,7 @@
         "DU-PAPER-008",
         "DU-PAPER-012"
       ],
-      "recommended_action": "Preserve as the highest-upside DU flagship. Audit only for the narrow Xiang sidecar; if absent, move to prospective four-table acquisition design. Use HC-DU-036C only after a physical packet passes the gate. Do not fit another synthetic completion, reconstruct trials from aggregate p0, or report an irreducible remainder from a finite frozen class. Factory custody remains unselected.",
+      "recommended_action": "Preserve as the highest-upside DU flagship. The public-sidecar search, prospective packet, finite-shot gate, and provider bridge are complete. Run one directly authorized returned-shot-conditional hardware pilot to kill or calibrate the instrument, then obtain one co-designed all-attempt and complete-reset packet before physical-remainder adjudication. Do not fit another synthetic completion, reconstruct trials from aggregate p0, or report an irreducible remainder from provider-returned rows or a finite frozen class. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],

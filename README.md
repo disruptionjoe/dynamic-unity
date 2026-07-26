@@ -3,7 +3,7 @@ title: "Dynamic Unity — Certified Causal Reality"
 status: active_research
 doc_type: overview
 created: 2026-07-21
-revised: 2026-07-25
+revised: 2026-07-26
 ---
 
 # Dynamic Unity
@@ -114,6 +114,15 @@ current results establish the starting boundary, not the answer:
   classifier branch, but no real packet has passed and no physical
   factorization, remainder, ontology, new physics, or statistical novelty is
   inferred.
+- `HC-DU-036E` closes the provider-facing software bridge and exposes its
+  exact claim ceiling. A frozen 19-circuit QND-memory suite retains joined
+  pointer, environment, reset-witness, output, calibration, holdout, circuit,
+  and bounded execution-span rows. The Acquisition-Visibility Factorization
+  Lemma shows that complete attempted-process factorization requires the
+  selection kernel and every supported selected/rejected response stratum to
+  factor; provider-returned shots alone certify only the returned population.
+  The 15/15 adversarial controls and a 608-row Aer dry run pass, but no
+  hardware job ran and no physical verdict is inferred.
 - `HC-DU-034A` supplies an exact signed all-port coherent-history assay
   control. It separates the frozen incoherent-history mixture from a joint
   cross-history correlation while using both symmetric recombination ports.

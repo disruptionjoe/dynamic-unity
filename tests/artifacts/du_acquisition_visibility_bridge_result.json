@@ -1,0 +1,169 @@
+{
+  "bridge_sha256": "7aec5321e1aa54603bded82cb4c00de6bcd2e0965cba341af9502816e3c08294",
+  "claim_ceiling_controls": {
+    "all_attempts_incomplete_reset": {
+      "claim_ceiling": "ALL_ATTEMPTS_OBSERVED_NO_REMAINDER",
+      "du_packet_mapping_eligible": true,
+      "physical_remainder_eligible": false,
+      "refusal_codes": [
+        "COMPLETE_MEMORY_RESET_NOT_WITNESSED"
+      ],
+      "structural_status": "PROVIDER_CAPTURE_READY"
+    },
+    "complete_mapping_gate": {
+      "claim_ceiling": "IMPLEMENTATION_COMPLETE_MAPPING_ELIGIBLE",
+      "du_packet_mapping_eligible": true,
+      "physical_remainder_eligible": true,
+      "refusal_codes": [],
+      "structural_status": "PROVIDER_CAPTURE_READY"
+    },
+    "provider_returned_only": {
+      "claim_ceiling": "RETURNED_SHOT_CONDITIONAL_ONLY",
+      "du_packet_mapping_eligible": false,
+      "physical_remainder_eligible": false,
+      "refusal_codes": [
+        "PHYSICAL_ATTEMPT_POPULATION_NOT_VISIBLE"
+      ],
+      "structural_status": "PROVIDER_CAPTURE_READY"
+    },
+    "synthetic": {
+      "claim_ceiling": "SYNTHETIC_CONTROL_ONLY",
+      "du_packet_mapping_eligible": false,
+      "physical_remainder_eligible": false,
+      "refusal_codes": [],
+      "structural_status": "PROVIDER_CAPTURE_READY"
+    }
+  },
+  "factorization_lemma": {
+    "finite_audit_denominator": 2,
+    "finite_audit_kernel_pairs": 100,
+    "known_math_status": "Finite conditional-probability decomposition; not claimed as a new statistics theorem.",
+    "statement": "P(S,Y|h,a) factors through (R(h),a) iff P(S|h,a) and, for each supported s, P(Y|S=s,h,a) factor through (R(h),a)."
+  },
+  "hardware_suite": {
+    "circuit_count": 19,
+    "external_job_submitted": false,
+    "roles": [
+      "calibration",
+      "causal_break",
+      "held_out",
+      "training"
+    ],
+    "shots_in_structural_fixture": 38
+  },
+  "north_star_outcome": "HARDWARE_BRIDGE_READY",
+  "plain_english": "A shot-resolved provider result can validate the circuit and returned-shot analysis path, but it cannot by itself certify the complete attempted physical process. Complete-process factorization additionally requires the selection mechanism and every supported selected and rejected response stratum to factor through the same candidate record.",
+  "probe_sha256": "90b7a72e7fbc8f0c4b275fe915668033e5aec24d306093ec96bf0c69de60ca15",
+  "receipt": {
+    "all_passed": true,
+    "checks": [
+      {
+        "check_id": "schema_is_strict_draft_2020_12",
+        "detail": "provider-capture root is strict; malformed external JSON fails closed",
+        "passed": true
+      },
+      {
+        "check_id": "frozen_suite_has_all_roles",
+        "detail": "19 circuits cover calibration, training, held-out, and causal-break arms",
+        "passed": true
+      },
+      {
+        "check_id": "provider_span_masks_join_exactly_once",
+        "detail": "PUB/shot masks cover each returned row exactly once; overlap is refused",
+        "passed": true
+      },
+      {
+        "check_id": "valid_structural_capture",
+        "detail": "codes=[]",
+        "passed": true
+      },
+      {
+        "check_id": "synthetic_never_promotes",
+        "detail": "{'structural_status': 'PROVIDER_CAPTURE_READY', 'claim_ceiling': 'SYNTHETIC_CONTROL_ONLY', 'du_packet_mapping_eligible': False, 'physical_remainder_eligible': False, 'refusal_codes': []}",
+        "passed": true
+      },
+      {
+        "check_id": "returned_shots_are_conditional_only",
+        "detail": "{'structural_status': 'PROVIDER_CAPTURE_READY', 'claim_ceiling': 'RETURNED_SHOT_CONDITIONAL_ONLY', 'du_packet_mapping_eligible': False, 'physical_remainder_eligible': False, 'refusal_codes': ['PHYSICAL_ATTEMPT_POPULATION_NOT_VISIBLE']}",
+        "passed": true
+      },
+      {
+        "check_id": "complete_attempts_without_complete_reset_stop_remainder",
+        "detail": "{'structural_status': 'PROVIDER_CAPTURE_READY', 'claim_ceiling': 'ALL_ATTEMPTS_OBSERVED_NO_REMAINDER', 'du_packet_mapping_eligible': True, 'physical_remainder_eligible': False, 'refusal_codes': ['COMPLETE_MEMORY_RESET_NOT_WITNESSED']}",
+        "passed": true
+      },
+      {
+        "check_id": "only_full_visibility_and_reset_reach_mapping_gate",
+        "detail": "{'structural_status': 'PROVIDER_CAPTURE_READY', 'claim_ceiling': 'IMPLEMENTATION_COMPLETE_MAPPING_ELIGIBLE', 'du_packet_mapping_eligible': True, 'physical_remainder_eligible': True, 'refusal_codes': []}",
+        "passed": true
+      },
+      {
+        "check_id": "manifest_refit_refused",
+        "detail": "codes=['CIRCUIT_SEMANTIC_MANIFEST_REFIT', 'FROZEN_CIRCUIT_MANIFEST_HASH_MISMATCH']",
+        "passed": true
+      },
+      {
+        "check_id": "raw_row_mutation_refused",
+        "detail": "codes=['SHOT_ATTACHMENT_HASH_MISMATCH', 'SHOT_RAW_HASH_MISMATCH']",
+        "passed": true
+      },
+      {
+        "check_id": "missing_shot_refused",
+        "detail": "codes=['CIRCUIT_RETURNED_SHOT_COUNT_MISMATCH', 'KNOWN_DISCARD_ACCOUNTING_MISMATCH', 'MISSINGNESS_COMPLETENESS_FLAG_FALSE', 'MISSINGNESS_RETURN_COUNT_MISMATCH', 'SHOT_ATTACHMENT_HASH_MISMATCH', 'SHOT_INDEX_NOT_CONTIGUOUS']",
+        "passed": true
+      },
+      {
+        "check_id": "post_acquisition_freeze_refused",
+        "detail": "codes=['FREEZE_AFTER_ACQUISITION', 'FREEZE_AFTER_EXECUTION_SPAN']",
+        "passed": true
+      },
+      {
+        "check_id": "hardware_submission_is_guarded",
+        "detail": "empty authorization is refused before provider imports or calls",
+        "passed": true
+      },
+      {
+        "check_id": "finite_visibility_factorization_equivalence",
+        "detail": "all 100 denominator-two kernel pairs satisfy: full joint factorization iff selection and every supported stratum factor",
+        "passed": true
+      },
+      {
+        "check_id": "accepted_rows_plus_acceptance_rate_do_not_identify_full_process",
+        "detail": "same candidate record, acceptance probability, and accepted outcome; different rejected stratum and full attempted process",
+        "passed": true
+      }
+    ],
+    "passed": 15,
+    "total": 15
+  },
+  "remaining_physical_gate": "Run the frozen suite only with direct authorization. Treat a standard provider result as returned-shot-conditional evidence. A physical-remainder claim additionally needs a platform contract that exposes every physical trigger, invalid/rejected attempt, selection reason, and every admitted retained-memory reset.",
+  "run_id": "RUN-20260726-070222-hardware-acquisition-bridge",
+  "schema": "specs/physical-sufficiency-provider-capture-v0.1.schema.json",
+  "schema_sha256": "563cf029b82cdaaa816d81bb2665b89fffcebac470c6dbc231d7ec7d36d20f43",
+  "scientific_grade": "EXACT ACQUISITION-VISIBILITY CLAIM CEILING PLUS HARDWARE-READY PROVIDER CONTRACT / NO HARDWARE RUN, PHYSICAL FACTORIZATION, REMAINDER, RECORD-FUNDAMENTALITY, OR NEW-PHYSICS VERDICT",
+  "selection_counterexample": {
+    "cell_order": [
+      "S0Y0",
+      "S0Y1",
+      "S1Y0",
+      "S1Y1"
+    ],
+    "different_rejected_response": true,
+    "full_process_factors": false,
+    "history_one_joint_counts_over_two": [
+      0,
+      1,
+      1,
+      0
+    ],
+    "history_zero_joint_counts_over_two": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "same_acceptance_probability": true,
+    "same_accepted_response": true
+  },
+  "status": "PASS_HARDWARE_BRIDGE_READY"
+}

@@ -151,6 +151,15 @@ The follow-on reconstruction/data/CSG triad sharpens both routes:
   class-relative remainder, and finite-shot inconclusiveness. The remaining
   flagship source work is one real co-designed or faithfully mapped packet,
   not another data search or synthetic completion.
+- `HC-DU-036E` now makes the first provider-facing hardware pilot executable:
+  a frozen 19-circuit QND-memory/calibration/holdout/causal-break suite retains
+  joined shot registers, circuit hashes, job identity, missingness, reset
+  scope, and execution-span masks. The exact acquisition-visibility lemma
+  prevents a standard provider result from being oversold: returned-shot
+  factorization is conditional on the provider selection boundary. The 15/15
+  adversarial controls and 608-row Aer dry run pass; no hardware job ran.
+  This reduces the next source swing to an authorized provider-conditional
+  pilot followed by a co-designed all-attempt/complete-reset packet.
 - `DU-PAPER-013` survives a second internal proof through
   \(T_{n+1}/T_n=\mathbb E[r_{n+K}]\). The broader collision absorbs the
   general asymptotic method; only the exact CSG-specific classification
@@ -220,7 +229,7 @@ Neither should be reseeded.
 | ID | Working paper | Current source grade | Estimated manuscript work | Load-bearing next work |
 |---|---|---|---:|---|
 | `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact tight record-disturbance/support controls; general novelty absorbed | `1` pre-proof | Clock-QCA extension classification or nonseparable covariance-locality-support theorem; otherwise merge/stop |
-| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure and `HC-DU-036C` trichotomy plus v0.1 shot-resolved physical packet and `HC-DU-036D` finite-shot epsilon gate; bounded Xiang sidecar route closed; no real packet has passed | `2–3` | Acquire or faithfully map one real implementation-complete multi-time process packet; run the frozen physical assay before any distributed transfer |
+| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure, `HC-DU-036C` trichotomy, v0.1 physical packet, `HC-DU-036D` finite-shot gate, and `HC-DU-036E` hardware bridge/attempt-visibility ceiling; Xiang sidecar closed; no real packet has passed | `2–3` | Run one authorized returned-shot-conditional pilot, then acquire one co-designed all-attempt/complete-reset multi-time packet for physical adjudication |
 | `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible baseline plus finite noninvertible path/provenance compiler pilot | `2–3` | Noisy physical theorem, higher-certificate relation, and unchanged BFT/QEC transfer |
 | `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Bounded-precursor uniform regular-ratio theorem, tight boundaries, deterministic controls, and two internal proof routes; general asymptotic method occupied, exact CSG delta provisional | `1` | Independent expert proof review plus systematic paper-grade causal-set/Tauberian bibliography |
 | `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Exact finite controls; general quotient theorem occupied | `1` pre-proof | Clock-QCA record instrument, scheduler/boost congruence, and tight minimal Lorentz-sensitive leakage theorem |

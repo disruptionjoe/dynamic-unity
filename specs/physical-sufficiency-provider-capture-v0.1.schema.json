@@ -1,0 +1,727 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dynamic-unity:physical-sufficiency-provider-capture:v0.1",
+  "title": "Dynamic Unity shot-resolved provider capture v0.1",
+  "description": "Provider-facing capture envelope between a dynamic-circuit execution and the stricter DU physical-sufficiency packet. Passing this schema preserves returned-shot lineage; it does not prove visibility of every physical attempt.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "capture_id",
+    "evidence_kind",
+    "provider",
+    "freeze",
+    "protocol",
+    "circuits",
+    "execution_spans",
+    "shot_rows",
+    "missingness",
+    "reset_scope",
+    "attachments"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "du-provider-capture/0.1"
+    },
+    "capture_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_kind": {
+      "enum": [
+        "hardware_provider_capture",
+        "synthetic_provider_control"
+      ]
+    },
+    "provider": {
+      "$ref": "#/$defs/provider"
+    },
+    "freeze": {
+      "$ref": "#/$defs/freeze"
+    },
+    "protocol": {
+      "$ref": "#/$defs/protocol"
+    },
+    "circuits": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/circuit"
+      }
+    },
+    "execution_spans": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/executionSpan"
+      }
+    },
+    "shot_rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/shotRow"
+      }
+    },
+    "missingness": {
+      "$ref": "#/$defs/missingness"
+    },
+    "reset_scope": {
+      "$ref": "#/$defs/resetScope"
+    },
+    "attachments": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/attachment"
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "nullableTimestamp": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/timestamp"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "attachment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "attachment_id",
+        "path",
+        "media_type",
+        "sha256"
+      ],
+      "properties": {
+        "attachment_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "media_type": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "interface",
+        "client_versions",
+        "backend_id",
+        "job_id",
+        "job_status",
+        "calibration_id",
+        "created_at",
+        "started_at",
+        "ended_at",
+        "capture_created_at",
+        "execution_options",
+        "backend_properties_sha256"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "interface": {
+          "type": "string",
+          "minLength": 1
+        },
+        "client_versions": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "backend_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "job_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "job_status": {
+          "type": "string",
+          "minLength": 1
+        },
+        "calibration_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "created_at": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "started_at": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "ended_at": {
+          "$ref": "#/$defs/nullableTimestamp"
+        },
+        "capture_created_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "execution_options": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "shots_per_circuit",
+            "init_qubits",
+            "measurement_level",
+            "error_mitigation",
+            "seed"
+          ],
+          "properties": {
+            "shots_per_circuit": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "init_qubits": {
+              "type": "boolean"
+            },
+            "measurement_level": {
+              "enum": [
+                "classified",
+                "kerneled",
+                "both"
+              ]
+            },
+            "error_mitigation": {
+              "type": "string",
+              "minLength": 1
+            },
+            "seed": {
+              "type": [
+                "integer",
+                "null"
+              ]
+            }
+          }
+        },
+        "backend_properties_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "freeze": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "frozen_at",
+        "protocol_id",
+        "circuit_manifest_sha256",
+        "analysis_code_version",
+        "attempt_population_claim",
+        "returned_shot_policy",
+        "invalid_attempt_visibility",
+        "holdout_policy"
+      ],
+      "properties": {
+        "frozen_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "protocol_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "circuit_manifest_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "analysis_code_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "attempt_population_claim": {
+          "enum": [
+            "all_physical_triggers_visible",
+            "all_provider_returned_shots_visible",
+            "unknown_provider_filtering",
+            "aggregate_only"
+          ]
+        },
+        "returned_shot_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "invalid_attempt_visibility": {
+          "enum": [
+            "all_invalid_attempts_joined",
+            "detectable_protocol_invalids_only",
+            "not_exposed",
+            "unknown"
+          ]
+        },
+        "holdout_policy": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "protocol": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protocol_id",
+        "system_qubit_count",
+        "qubit_roles",
+        "register_roles",
+        "candidate_record",
+        "completion_records",
+        "intervention_ids",
+        "qnd_pointer_angle_radians",
+        "circuit_order_seed",
+        "shots_per_circuit",
+        "predeclared_expected_branch"
+      ],
+      "properties": {
+        "protocol_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "system_qubit_count": {
+          "const": 3
+        },
+        "qubit_roles": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "system",
+            "environment",
+            "pointer"
+          ],
+          "properties": {
+            "system": {
+              "const": 0
+            },
+            "environment": {
+              "const": 1
+            },
+            "pointer": {
+              "const": 2
+            }
+          }
+        },
+        "register_roles": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "pointer",
+            "environment",
+            "reset_witness",
+            "output"
+          ],
+          "properties": {
+            "pointer": {
+              "const": "candidate_record"
+            },
+            "environment": {
+              "const": "formed_completion"
+            },
+            "reset_witness": {
+              "const": "causal_break_verification"
+            },
+            "output": {
+              "const": "held_out_binary_response"
+            }
+          }
+        },
+        "candidate_record": {
+          "const": "pointer"
+        },
+        "completion_records": {
+          "const": [
+            "environment"
+          ]
+        },
+        "intervention_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "qnd_pointer_angle_radians": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "exclusiveMaximum": 3.141592653589793
+        },
+        "circuit_order_seed": {
+          "type": "integer"
+        },
+        "shots_per_circuit": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "predeclared_expected_branch": {
+          "const": "TOLERANCE_BOUNDED_REFINED_RECONSTRUCTION"
+        }
+      }
+    },
+    "circuit": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "circuit_id",
+        "circuit_index",
+        "role",
+        "history_id",
+        "intervention_id",
+        "analysis_role",
+        "preparation_id",
+        "causal_break",
+        "calibration_target",
+        "calibration_prepared_value",
+        "register_map",
+        "source_qpy_sha256",
+        "transpiled_qpy_sha256",
+        "expected_shots"
+      ],
+      "properties": {
+        "circuit_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "circuit_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "role": {
+          "enum": [
+            "experiment",
+            "readout_calibration",
+            "reset_calibration"
+          ]
+        },
+        "history_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "intervention_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "analysis_role": {
+          "enum": [
+            "training",
+            "held_out",
+            "causal_break",
+            "calibration"
+          ]
+        },
+        "preparation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "causal_break": {
+          "type": "boolean"
+        },
+        "calibration_target": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "calibration_prepared_value": {
+          "oneOf": [
+            {
+              "enum": [
+                0,
+                1
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "register_map": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "required": [
+            "pointer",
+            "environment",
+            "reset_witness",
+            "output"
+          ]
+        },
+        "source_qpy_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "transpiled_qpy_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "expected_shots": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "executionSpan": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "span_id",
+        "start",
+        "stop",
+        "precision",
+        "warrant"
+      ],
+      "properties": {
+        "span_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "start": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "stop": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "precision": {
+          "enum": [
+            "provider_execution_span",
+            "job_window",
+            "synthetic_fixed_window"
+          ]
+        },
+        "warrant": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "registers": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "pointer",
+        "environment",
+        "reset_witness",
+        "output"
+      ],
+      "properties": {
+        "pointer": {
+          "$ref": "#/$defs/bits"
+        },
+        "environment": {
+          "$ref": "#/$defs/bits"
+        },
+        "reset_witness": {
+          "$ref": "#/$defs/bits"
+        },
+        "output": {
+          "$ref": "#/$defs/bits"
+        }
+      }
+    },
+    "bits": {
+      "type": "array",
+      "items": {
+        "enum": [
+          0,
+          1
+        ]
+      }
+    },
+    "shotRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "circuit_id",
+        "circuit_index",
+        "shot_index",
+        "span_id",
+        "registers",
+        "provider_valid",
+        "provider_rejection_reason",
+        "raw_register_sha256"
+      ],
+      "properties": {
+        "circuit_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "circuit_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "shot_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "span_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "registers": {
+          "$ref": "#/$defs/registers"
+        },
+        "provider_valid": {
+          "type": "boolean"
+        },
+        "provider_rejection_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "raw_register_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "missingness": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "circuits_submitted",
+        "shots_requested",
+        "shots_returned",
+        "all_requested_shots_returned",
+        "provider_discard_count_known",
+        "provider_declared_discarded_shots",
+        "invalid_attempt_rows_exposed",
+        "filtering_policy"
+      ],
+      "properties": {
+        "circuits_submitted": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "shots_requested": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "shots_returned": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "all_requested_shots_returned": {
+          "type": "boolean"
+        },
+        "provider_discard_count_known": {
+          "type": "boolean"
+        },
+        "provider_declared_discarded_shots": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "invalid_attempt_rows_exposed": {
+          "type": "boolean"
+        },
+        "filtering_policy": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "memory": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "memory_id",
+        "kind",
+        "inside_declared_boundary",
+        "reset_required_for_remainder"
+      ],
+      "properties": {
+        "memory_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "quantum",
+            "classical",
+            "controller",
+            "decoder",
+            "environment",
+            "archive"
+          ]
+        },
+        "inside_declared_boundary": {
+          "type": "boolean"
+        },
+        "reset_required_for_remainder": {
+          "type": "boolean"
+        }
+      }
+    },
+    "resetScope": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "memories",
+        "causal_break_circuit_ids",
+        "witness_register",
+        "all_reset_required_memories_witnessed",
+        "unobserved_provider_memory_present"
+      ],
+      "properties": {
+        "memories": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/memory"
+          }
+        },
+        "causal_break_circuit_ids": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "witness_register": {
+          "const": "reset_witness"
+        },
+        "all_reset_required_memories_witnessed": {
+          "type": "boolean"
+        },
+        "unobserved_provider_memory_present": {
+          "type": "boolean"
+        }
+      }
+    }
+  }
+}
