@@ -189,6 +189,23 @@ nonempty, still-open lawful target fibre. It does not compute baryogenesis,
 turn functional-domain membership into physical selection, select a record
 interface, establish record ontology, or imply new physics.
 
+## CFS selector representation robustness
+
+`du_cfs_selector_representation_robustness_probe.py` consumes the exact W246
+action margins and classifies selector claims over a declared faithful
+representation class. Its controls include opposite singleton selections,
+the joint sign-reversing class, zero margin, an empty class, conditional
+law-level selection when an independent physical map is supplied, and the
+absence of record credit while the record interface remains unselected.
+
+The deterministic artifact is
+`artifacts/du_cfs_selector_representation_robustness_result.json` and reports
+`10/10` checks. Passing establishes a representation-robust attribution rule:
+an action is not a physical selector when admitted faithful representations
+reverse its ordering. It does not identify the physical CFS local-correlation
+map, select a GU branch, compute baryogenesis, form records, establish record
+ontology, or imply new physics.
+
 ## Compute setup
 
 The current numerical probes require NumPy and otherwise use the Python

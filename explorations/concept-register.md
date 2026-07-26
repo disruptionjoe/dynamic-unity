@@ -890,6 +890,17 @@ resolution-stable intervention role. No claim is banked or seeded. See
   CFS branch measure, record interface, baryogenesis rate, ontology, or new
   physics is established. See
   `finster-baryogenesis-krein-finality-attribution-2026-07-26.md`.
+- **Earned representation-robust selector boundary.** GU W246 completes a
+  finite branch-to-CFS-measure comparison but finds that two faithful,
+  unitary-equivariant self-adjointizations with the same dimension, trace,
+  signature, weights, boundedness ceiling, and causal Lagrangian reverse the
+  branch ordering. DU therefore requires a selector verdict to be invariant
+  across the admitted faithful representation class, or requires physical
+  dynamics to select one map independently. A chosen representation plus an
+  action may earn conditional law-level selection; it earns no record,
+  archive, observer-access, or finality credit until an independently formed
+  record reduces a nonempty, still-open lawful target fibre. See
+  `cfs-self-adjointization-selection-ambiguity-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,

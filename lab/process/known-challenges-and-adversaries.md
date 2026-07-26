@@ -142,6 +142,18 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     self-adjoint PVM domain, but no common branch-to-CFS-universal-measure map
     exists. That earns admissibility only, not selection or record credit.
 
+18. **Faithful-representation/physical-selection substitution.** *Objection:*
+    a physical action ranks two candidates only after an unfixed faithful
+    representation maps them into the action's domain, and the favorable
+    representation is silently treated as physical. *Way through:* freeze a
+    physically justified representation class and require the selector
+    ordering to be invariant across it, or derive one representation from an
+    independent physical local-correlation rule. GU W246 is the exact control:
+    two faithful, unitary-equivariant maps with matched operator domain,
+    trace, signature, weights, boundedness, and causal action reverse the
+    stable/pathological branch ordering. Do not resolve the reversal by
+    choosing the map whose answer is preferred.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

@@ -1,0 +1,95 @@
+{
+  "action_receipts": {
+    "Phi_7/10": {
+      "bad": "1481/2500",
+      "bad_minus_good": "1517/5000",
+      "good": "289/1000"
+    },
+    "Phi_9/10": {
+      "bad": "73/500",
+      "bad_minus_good": "-43/200",
+      "good": "361/1000"
+    }
+  },
+  "baryogenesis_rate_computed": false,
+  "checks": [
+    {
+      "detail": [
+        "289/1000",
+        "1481/2500",
+        "1517/5000"
+      ],
+      "name": "left exact action tuple matches the GU receipt",
+      "passed": true
+    },
+    {
+      "detail": [
+        "361/1000",
+        "73/500",
+        "-43/200"
+      ],
+      "name": "right exact action tuple matches the GU receipt",
+      "passed": true
+    },
+    {
+      "detail": "1517/5000",
+      "name": "Phi_7/10 alone would select the good branch",
+      "passed": true
+    },
+    {
+      "detail": "-43/200",
+      "name": "Phi_9/10 alone would select the bad branch",
+      "passed": true
+    },
+    {
+      "detail": "REPRESENTATION_SENSITIVE_NO_SELECTOR",
+      "name": "the faithful rival class kills representation-independent selection",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "zero margin remains open rather than becoming selection",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "empty rival class is an incomplete contract",
+      "passed": true
+    },
+    {
+      "detail": "CONDITIONAL_LAW_SELECTOR__MAP_RULE_SUPPLIED",
+      "name": "a supplied physical map yields only a conditional law selector",
+      "passed": true
+    },
+    {
+      "detail": "NO_RECORD_CREDIT__INTERFACE_UNSELECTED",
+      "name": "no record or finality credit is created by choosing an encoding",
+      "passed": true
+    },
+    {
+      "detail": [
+        "derive the CFS local-correlation map from physical wave evaluation",
+        "derive an invariant excluding one faithful encoding without branch target",
+        "then compare lawful target diameter before and after a formed record"
+      ],
+      "name": "reopener requires physical map selection before record attribution",
+      "passed": true
+    }
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "conditional_law_disposition": "CONDITIONAL_LAW_SELECTOR__MAP_RULE_SUPPLIED",
+  "external_hardware_required": false,
+  "joint_disposition": "REPRESENTATION_SENSITIVE_NO_SELECTOR",
+  "physical_selector_established": false,
+  "probe_id": "DU-CFS-SELECTOR-REPRESENTATION-ROBUSTNESS-01",
+  "record_credit": "NO_RECORD_CREDIT__INTERFACE_UNSELECTED",
+  "record_ontology_established": false,
+  "reopen_conditions": [
+    "derive the CFS local-correlation map from physical wave evaluation",
+    "derive an invariant excluding one faithful encoding without branch target",
+    "then compare lawful target diameter before and after a formed record"
+  ],
+  "scientific_claim": false,
+  "scope": "exact finite action-ordering attribution over a frozen faithful self-adjointization rival class"
+}
