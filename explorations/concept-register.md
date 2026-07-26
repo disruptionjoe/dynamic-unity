@@ -592,6 +592,47 @@ OPEN.** The next reopener is an independently warranted physical dynamics
 with its source-difference space frozen before the held-out target. See
 `robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`.
 
+### 2026-07-26 graded exterior observer-geometry comparator
+
+The proposed \(4+6+4\) exterior reading is registered as a conditional
+representation and reconstruction assay, not as a 14-dimensional ontology.
+The type audit separates:
+
+\[
+\operatorname{rank}
+(\Lambda^1\oplus\Lambda^2\oplus\Lambda^3)=14
+\]
+
+from a 14-dimensional total space over \(X^4\). The former bundle has total
+dimension 18. A total-14 exterior comparator instead has rank-10 fibre
+\(\Lambda^2T^*X\oplus\Lambda^3T^*X\), which is not naturally
+\(GL(4)\)-equivariantly isomorphic to GU's \(S^2T^*X\) metric fibre.
+
+Possible grade-1 local, grade-2 relational, and grade-3 cut/access meanings
+remain hypotheses to derive from physical instruments. With an admitted
+metric and orientation, the grade-3 sector faces the Hodge absorber
+\(*:\Lambda^3\to\Lambda^1\). Without them, it must operationally select its
+orientation/density and access boundary without importing the geometry being
+reconstructed.
+
+The DU gate is unchanged in form: independently select the grade-typed record
+map \(r_A\), prove the physical fibre is nonempty, and then test
+
+\[
+\ker Dr_A\cap T\mathcal P_{\mathrm{phys}}
+\subseteq\ker Dt_A
+\]
+
+for a held-out time, geometry, field, or capability target. Matching dimension
+or assigning semantics is not evidence. No local model is warranted until a
+concrete source/instrument can change that verdict. See
+`graded-observer-geometry-4-6-4-work-program-2026-07-26.md`.
+
+**Updated status:** **CONDITIONAL REPRESENTATION WORK PROGRAM /
+EXACT TYPE AND HODGE-ABSORBER CONTROLS /
+PHYSICAL GRADE SEMANTICS AND RECONSTRUCTION OPEN.** No concept, lane, claim,
+paper, or priority is promoted.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 53
+manifest_revision: 54
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -237,7 +237,9 @@ lanes:
   current_objective: >-
     Make the full physical picture explicit from accepted dynamics through record formation,
     observer access, regional finality and effective physics; distinguish compatibility,
-    representation, reconstruction, selection and prediction at every arrow.
+    representation, reconstruction, selection and prediction at every arrow. Keep the exterior
+    `4+6+4` construction as a typed comparator: distinguish rank from total dimension and do not
+    assign local, relational or access semantics before a physical instrument supplies them.
   success_signal: >-
     A coherent, source-pinned architecture with typed translations, assumption passports,
     strongest absorbers, unresolved tensions and precise questions for Lanes 3 through 7.
@@ -249,6 +251,7 @@ lanes:
   - START-HERE.md
   - docs/quantum-foundations-orientation-surface.md
   - docs/certified-causal-reality-research-program.md
+  - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   do_not: >-
     Do not claim derivation, necessity or new physics merely because known theories fit one
     coherent record vocabulary.
@@ -414,6 +417,11 @@ lanes:
     freeze a 3+1 arena, Hilbert/spin/constraint/sector/regulator, matter/source, boundary, gauge,
     record and target contract, and distinguish ordinary Einstein closure from a regulator-robust
     CFS-specific residue. This is an arena rule, not a priority change. Maintain
+    the exterior-graded `4+6+4` branch as a separate conditional comparator: the
+    rank-14 graded bundle is not a total-14 spacetime, no natural GL(4) bridge identifies
+    its exterior fibre with GU's symmetric metric fibre, and grade-3 access must survive
+    matched Hodge, provenance, boundary and resource absorbers before it affects a
+    reconstruction verdict. This is also an arena rule, not a priority change. Maintain
     HC-DU-040A as a separate conditional
     physical-recovery branch: its exact finite kernel distinguishes a global chiral index from
     access rank and proves that predictive flavor needs source-derived noncommuting
@@ -442,6 +450,7 @@ lanes:
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
   - explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
+  - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
   - explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md

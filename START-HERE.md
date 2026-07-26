@@ -169,6 +169,18 @@ What *has* been earned is a strong finite control stack:
   ([result](explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md);
   [probe](tests/du_robust_vertical_dynamics_reconstruction_probe.py)).
 
+A conditional exterior-graded \(4+6+4\) work surface is also registered for
+Lanes 2 and 6. It begins with a hard type boundary: a rank-14
+\(\Lambda^1\oplus\Lambda^2\oplus\Lambda^3\) bundle over \(X^4\) has
+18-dimensional total space, while the total-14 exterior comparator has
+rank-10 fibre \(\Lambda^2\oplus\Lambda^3\), distinct from GU's symmetric
+metric fibre. Future work must derive any local/relational/access semantics
+from instruments, run Hodge and provenance absorbers, and change a nonempty
+physical reconstruction fibre before the grading counts as more than a
+representation
+([work program](explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md)).
+It is not a new ontology, claim, or priority.
+
 ### The live bottleneck
 
 The conservation lift returned an Interface-Necessity No-Go and a
