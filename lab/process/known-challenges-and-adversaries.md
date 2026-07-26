@@ -198,6 +198,19 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     control; its mathematics is known and it does not select the physical
     regions, action algebras, archives, or future action class.
 
+22. **Operational-closure/source-reconstruction substitution.** *Objection:*
+    a complete screened public behavior is reconstructed from itself, or one
+    hidden phase becomes readable, and the result is reported as derivation
+    of proper time, geometry, field source, or record ontology. *Way through:*
+    require an independently formed record that strictly compresses the full
+    behavior, transfer to held-out targets, and a source sensitivity map
+    satisfying \(\ker S\subseteq\ker T\). A target-changing null direction is
+    an exact attribution witness. Adding the target itself or a fitted probe
+    repairs by interface expansion rather than proving the old record
+    derived it. `HC-DU-039C` is the exact finite standing control; the
+    component mathematics is known observability and quantum phase-readout
+    terrain.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

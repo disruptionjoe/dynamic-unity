@@ -209,7 +209,11 @@ routing authority.
 
 - **Lane 1:** North-Star adjudication—integrate the
   reconstruction/duality/remainder verdict and keep its decisive contract
-  exact.
+  exact. `HC-DU-039C` now requires nontrivial reconstruction to use an
+  independently formed strict compression, held-out targets,
+  source-independent sensitivities, and no refitting. Complete public
+  behavior reconstructed from itself is operational closure, not source
+  derivation.
 - **Lane 2:** forward representation and coherence—build the full typed
   physical picture, preserve assumptions and grades, and expose seams.
 - **Lane 3:** physical record formation and selection—derive or delimit
@@ -220,15 +224,21 @@ routing authority.
   central joint effects give an autonomous record; noncommutative
   within-sector actions expose a same-record remainder. The physical action
   algebra, boundary, formation coupling, archive, and decoder remain
-  unselected. Carry that typed center-plus-fibre object into Lane 5 rather
-  than building another fitted QND/channel variant. The existing provider
+  unselected. `HC-DU-035D/039C` have now carried that typed object through
+  regional screening and the first effective-physics attribution test.
+  Physical interface selection and an independently calibrated
+  multi-sensitivity arena remain open; do not build another fitted
+  QND/channel or abstract phase variant. The existing provider
   bridge is a conditional calibration rung; complete-process physical
   adjudication remains co-designed-partner gated.
 - **Lane 4:** observer access, certification, and capability—freeze physical
   observers, boundaries, interventions, tasks, risks, and matched resources.
   Treat record sufficiency as relative to the admitted action algebra:
   center-limited capability and full within-sector coherent capability are
-  different contracts.
+  different contracts. Under `HC-DU-039C`, adding one phase readout may
+  enlarge capability only to total-phase discrimination; source
+  discrimination requires independently calibrated additional sensitivity
+  and its resource receipt.
 - **Lane 5:** regional finality and recursive composition—establish when
   local certified networks compose into safe higher-level facts and actions.
   `HC-DU-035D` establishes the exact finite boundary: every complete
@@ -240,10 +250,12 @@ routing authority.
   destruction by definition.
 - **Lane 6:** time, geometry, fields, and physical reconstruction—recover
   effective physical structure with uniqueness, gauge, and refinement
-  controls. Its next campaign input is the `HC-DU-035D` screened public
-  process paired with one explicit first-leak completion; attribute law-only
-  closure before asking whether time, geometry, fields, or capability factor
-  through the same public causal network.
+  controls. `HC-DU-039C` establishes that screened public order does not
+  identify duration, a total phase does not attribute time versus field
+  source, and source reconstruction requires
+  \(\ker S\subseteq\ker T\). The next campaign input is a physically
+  motivated optical-clock/proper-time sensitivity matrix, not another
+  abstract phase toy.
 - **Lane 7:** remainders, predictions, and publishable results—extract finite
   discriminators, theorems/no-gos, experimental protocols, novelty
   collisions, and Drafting-Factory packages. Joe publishes.

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 58
+manifest_revision: 59
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -91,6 +91,17 @@ center_screening_finality_rule: >-
   propagate the final central effect backward to localize the first noncentral pullback and
   return its finite same-public-record witness. Adding a new noncentral recoupling changes the
   future-action contract; omitting an already available route is inadmissible restriction.
+screened_effective_physics_ref: >-
+  explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
+screened_effective_physics_rule: >-
+  A screened public process reconstructs its public order, trace laws and public-action
+  capabilities, but complete public behavior reconstructed from itself is operational closure,
+  not source derivation. Require an independently formed strict compression, held-out target
+  transfer, source-independent calibration and no refitting. For an abelian source sensitivity
+  S and held-out target T, reconstruction holds exactly when ker(S) is contained in ker(T).
+  Treat a target-changing null direction as an attribution witness. One measured total phase
+  does not identify proper-duration versus field/path source; an added independently calibrated
+  sensitivity changes the interface and resource contract.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -246,7 +257,12 @@ lanes:
     selective future map pulls the next public center into the current center. Use the first
     noncentral pullback and its exact blockwise leakage margin rather than treating finality as
     destruction or accepting an aggregate-only channel. Carry the screened public process plus
-    one explicit leak foil into time/geometry/capability reconstruction. Advance the physical
+    one explicit leak foil into time/geometry/capability reconstruction. Consume HC-DU-039C:
+    complete screened public behavior reconstructed from itself is operational closure. A
+    nontrivial result requires independent formation, strict compression, held-out transfer,
+    source-independent calibration and no refitting; source target T factors through sensitivity
+    S exactly when ker(S) is contained in ker(T). One total phase does not attribute proper
+    duration versus field/path source. Advance the physical
     formation/interface-selection dependency: determine which complete
     selective record, archive, provenance field, reset boundary and admissible refinement is
     independently formed or selected rather than supplied, fitted or representation-dependent.
@@ -275,6 +291,7 @@ lanes:
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
+  - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
@@ -342,8 +359,10 @@ lanes:
     nondisturbing sharp record relative to a frozen finite action algebra, that central
     joint effects are exactly the autonomous sector-level cases, and that a noncommutative
     block preserves a capability-relative remainder. This does not select the action algebra
-    or formation coupling. Use that assurance spine to attack physical formation and interface
-    selection directly. Require an
+    or formation coupling. HC-DU-039C adds that one formed phase readout may still leave a
+    target-changing source nullspace. Use that assurance spine to attack physical formation and
+    interface selection directly. Require independently calibrated sensitivities spanning the
+    held-out source target rather than fitting a target-coded probe. Require an
     independently motivated source, reference/asymmetry resource, interaction, pointer, archive,
     provenance, decoder/access rule, reset boundary and representation-robust admissible
     refinement class; report each as selected, orbit-selected, supplied or fitted. Keep the
@@ -371,6 +390,7 @@ lanes:
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
+  - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
@@ -406,7 +426,10 @@ lanes:
     same-record remainder. Consume HC-DU-035D: a public record can be final without fibre
     destruction only relative to a complete selectively center-screening future action class.
     Adding a noncentral recoupling changes the capability contract; omitting an admitted route
-    creates false finality. Freeze the
+    creates false finality. Consume HC-DU-039C: the screened class, one total-phase readout and
+    two independent source sensitivities distinguish respectively one, two and four finite
+    source classes. Charge every added interface, calibration and resource; do not credit the
+    old record for capability bought by the new probe. Freeze the
     observer/access/task/loss/readout/decoder/risk/resource comparison contract, and wait for a
     formed distinction with a candidate finality-specific residual before promoting a stronger
     capability law.
@@ -422,6 +445,7 @@ lanes:
   - lab/process/cross-repo-hardening-control-contract.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
+  - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
@@ -457,7 +481,9 @@ lanes:
     fails, propagate a final public effect backward and return the first noncentral pullback,
     its blockwise spectral-width witness and the responsible route. Do not replace selective
     closure with an aggregate channel. Hand the screened public process and one first-leak foil
-    to Lane 6; preserve the fibre rather than scalarizing identity, compatibility, record-fit or
+    to Lane 6. HC-DU-039C has consumed that handoff: public order reconstructs, but one leaked
+    total phase leaves a time-versus-field source null direction. Preserve the fibre and
+    sensitivity kernel rather than scalarizing identity, compatibility, record-fit or
     target-spread defects.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
@@ -476,6 +502,7 @@ lanes:
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
+  - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -511,6 +538,13 @@ lanes:
     law-only target closure before public-process reconstruction; a target that differs only
     after a noncentral recoupling is a class-relative fibre remainder, not unexplained
     perspectival curvature.
+    HC-DU-039C now proves the next boundary: screened public order does not assign duration, and
+    one total-phase assay does not attribute proper-duration versus field/path source. Apply the
+    kernel-containment/rank test to a physically motivated optical-clock/proper-time observable
+    set. Freeze published mean-frequency, clock-motion, coherence/visibility,
+    coherent-recombination and nuisance sensitivities; return full-rank local reconstruction,
+    the exact remaining null direction and minimum extra observable, or standard-theory
+    absorption. Do not build another abstract binary phase source.
     The next physical arena must retain nonzero law-only target diameter and add an independently
     realized symmetry breaker plus formed record instrument. Prefer an exact linearized
     Einstein--matter kernel/stabilizer calculation before simulation. A CFS-facing extension must
@@ -552,6 +586,7 @@ lanes:
   - explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
+  - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -588,7 +623,11 @@ lanes:
     higher-ceiling DU-PAPER-007 flagship beyond the completed HC-DU-036F/036H formal gate.
     The finite quotient theorem is absorbed; retain the integrated assurance contract and make
     physical formation/interface selection plus an implementation-complete packet the next
-    contribution test. Use the existing HC-DU-036E pilot only when directly authorized and
+    contribution test. Treat HC-DU-039C as a North-Star boundary, not a paper promotion:
+    operational closure is not strict compression, and total phase is not source attribution.
+    The next local discriminator is a source-pinned physical multi-sensitivity rank audit; seed
+    nothing unless it yields a contribution beyond standard metrology/process identifiability.
+    Use the existing HC-DU-036E pilot only when directly authorized and
     decision-changing; otherwise assume no external hardware and keep the work local. An
     irreducible hardware dependency gets one awareness note and then parks without separate Joe
     authorization. Seek a co-designed packet only after the physical-formation design is locally
@@ -609,6 +648,7 @@ lanes:
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
+  - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -1349,7 +1389,11 @@ certified_causal_reality_restructure:
     COMPOSITION AND FIRST-LEAK LOCALIZATION EXACT AS KNOWN MATHEMATICS / QUANTUM FIBRES MAY
     PERSIST BEHIND A FINAL PUBLIC CENTER / AGGREGATE CENTER PRESERVATION DOES NOT IMPLY SELECTIVE
     SCREENING / MAXIMUM BLOCKWISE LEAKAGE MARGIN EQUALS TWICE OPERATOR-NORM DISTANCE TO THE
-    CENTER /
+    CENTER / HC-DU-039C SCREENED OPERATIONAL EQUIVALENCE AND SOURCE-ATTRIBUTION RANK EXACT AS
+    KNOWN MATHEMATICS / COMPLETE PUBLIC BEHAVIOR RECONSTRUCTED FROM ITSELF IS OPERATIONAL
+    CLOSURE / ONE TOTAL PHASE DOES NOT ATTRIBUTE PROPER DURATION VERSUS FIELD SOURCE / STRICT
+    COMPRESSION, HELD-OUT TRANSFER AND SOURCE-INDEPENDENT CALIBRATION REQUIRED FOR NONTRIVIAL
+    RECONSTRUCTION /
     FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT / BRANCH-BASIS
     DEPHASING ERASES THE SECTOR CODE BEFORE DECODING / QUANTUM MULTIPLICITY PRESERVED INSIDE
     COHERENTLY READABLE CENTRAL SECTORS / MATCHED FINITE-TIME STABILITY DOES NOT DETERMINE
@@ -4174,6 +4218,23 @@ provenance:
     hardware, provider action, submission, publication or external contact is promoted. The
     fourth swing receives the screened public process plus one explicit first-leak completion
     for time/geometry/field/capability reconstruction.
+  rev59_note: >-
+    2026-07-26 (Joe direct chat: proceed with the fourth large swing of the five-swing Dynamic
+    Unity campaign): executed HC-DU-039C. A selectively screened public process exactly
+    reconstructs public order, public trace laws and public-action capabilities, but complete
+    behavior reconstructed from itself is operational closure rather than physical source
+    derivation. For an abelian source sensitivity S and target T, reconstruction holds iff
+    ker(S) is contained in ker(T). The minimum Clifford control records only total phase
+    phi=tau+chi: sources (0,1) and (1,0) have the same screened public network and first-leak
+    outcome while proper-duration and field-source targets differ. A second independently
+    calibrated tau-sensitive probe makes the finite sensitivity matrix full rank, shrinking
+    record fibres 4 -> 2 -> 1 and increasing distinguishable source classes only with the added
+    interface. Exact controls pass 27/27, including all 64 finite factorization cases,
+    source-reparameterization invariance and a distributed provenance shadow. Component
+    mathematics is known; no physical clock, metric, field source, interface selector, ontology,
+    new law, new physics, paper promotion, hardware, provider action, submission, publication
+    or external contact is promoted. The fifth swing is a local source-pinned
+    optical-clock/proper-time multi-sensitivity rank audit, not another abstract phase toy.
 extensions:
   operating_architecture:
     contract_version: "1.0"

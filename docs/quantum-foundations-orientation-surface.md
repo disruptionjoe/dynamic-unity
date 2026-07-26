@@ -486,6 +486,13 @@ structure.
 **Not a delta.** Reading graph distance, entropy, or causal depth as metric
 geometry without uniqueness and a unit-bearing map.
 
+**Current exact boundary (`HC-DU-039C`).** A screened public process fixes
+public reachability but not duration. Even after a first noncentral clock
+readout, one total phase need not identify its proper-duration versus
+field/path sources. For source sensitivity \(S\) and target \(T\), attribution
+requires \(\ker S\subseteq\ker T\). A target-changing null direction is the
+minimum same-record/different-source witness.
+
 ### 12. Operational sufficiency versus information fundamentality
 
 **Established.** Physics-first and information/record-first descriptions can
@@ -502,6 +509,13 @@ priority cannot be operationally settled.
 
 **Not a delta.** Re-encoding the same physical process as information and
 announcing that information is fundamental.
+
+**Current exact boundary (`HC-DU-039C`).** Complete screened public behavior
+reconstructed from that same behavior is operational closure, not a
+noncircular record-first derivation. Count a reconstruction as nontrivial
+only when an independently formed record strictly compresses the process,
+transfers to held-out targets, uses source-independent calibration, and
+requires no refitting. Operational duality alone cannot choose ontology.
 
 ## Candidate Dynamic Unity delta families
 
@@ -527,8 +541,8 @@ interventional sufficiency, not another finite selector fit.
 | Public-finality composition | `HC-DU-035D` exactly characterizes selective future center screening, composition, first-leak localization, and the aggregate-route failure while permitting retained quantum fibres. The open delta is physical selection of the regions, action algebras, archives, and future action class, followed by transfer to effective-physics reconstruction | `HC-DU-035/035C/035D` |
 | Record sufficiency or physical remainder | Translate the five-part integrated contract into process-tensor, quantum-instrument, statistical-experiment, and system-identification language before physical escalation. Use the exact finite `HC-DU-036C` stochastic-decoder deficiency and `HC-DU-036D` uncertainty gate only after complete attempt visibility and reset; distinguish reconstruction, resource-Pareto repair, class-relative positive margin, and incomplete contract | `HC-DU-036/036C/036D/036E/036F` |
 | Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
-| Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records | `HC-DU-038/038D` |
-| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations | `HC-DU-039` |
+| Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records. `HC-DU-039C` adds that one measured total phase still needs an independently calibrated full-rank source sensitivity before it can be attributed to duration or field structure | `HC-DU-038/038D/039C` |
+| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers the kernel-containment attribution rule across a Clifford clock control and a distributed latency/provenance shadow, but the physical clock arena remains open | `HC-DU-039/039C` |
 | Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder | `HC-DU-040` |
 
 ## Pointers, not prescriptions

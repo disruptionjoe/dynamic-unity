@@ -1795,6 +1795,56 @@ target-diameter receipts; neither is a physical remainder or ontology. The
 coupled `HC-DU-039B/036G/038C` probe passes `36/36`. See
 `../explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`.
 
+**Executed screened-effective-physics successor — `HC-DU-039C`.** Consume the
+`HC-DU-035D` screened public process. It exactly determines public
+reachability, public trace laws, and capabilities computed inside the frozen
+public action class. This is operational closure. It is not automatically a
+strict compression, held-out reconstruction, or physical source derivation.
+
+For an abelian source map \(S:X\to Y\) and held-out target \(T:X\to W\),
+
+\[
+T=D\circ S
+\quad\Longleftrightarrow\quad
+\ker S\subseteq\ker T.
+\]
+
+The minimum Clifford control uses source
+\(x=(\tau,\chi)\in\mathbb F_2^2\). One first-leak assay records only
+
+\[
+\phi=\tau+\chi.
+\]
+
+The source pair \((0,1)\) and \((1,0)\) therefore has the same screened public
+network and the same total-phase outcome while both proper-duration and
+field-source targets differ. A second independently calibrated
+\(\tau\)-sensitive probe gives a full-rank two-row map and reconstructs both
+finite source coordinates. The repair adds an interface, calibration, and
+resource; it does not show that the first record derived either source.
+
+The exact probe passes `27/27`, including all `64` linear
+record-subset/target factorization cases, the strict fibre ladder
+`4 -> 2 -> 1`, source-reparameterization invariance, capability growth only
+with added sensitivities, and a distributed latency/provenance shadow.
+
+The resulting accessibility trichotomy is:
+
+1. a target factors through the independently formed record;
+2. it varies but no admitted operation responds, so it is not
+   observer-accessible in that frozen class; or
+3. an admitted operation responds, giving a first-leak/incomplete-record
+   witness.
+
+Nontrivial North-Star success now requires independent record formation,
+strict compression of complete behavior, held-out target transfer,
+source-independent calibration, target-changing-nullspace closure, and no
+refitting. The component mathematics is known observability, quantum
+phase-readout, and causal-order terrain. No physical clock, metric, field,
+interface selector, ontology, new law, new physics, or paper promotion is
+earned. See
+`../explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md`.
+
 ### `HC-DU-040` — Physical Recovery and Applications
 
 Only after the preceding dependencies:
@@ -1990,6 +2040,10 @@ supplied, or fitted; target constancy cannot supply interface provenance.
    [COMPLETED SCOPED THREE-SPECIMEN CONTROL]
    HC-DU-039B robust record-image-distance / target-diameter decomposition
    [COMPLETED EXACT METRIC SPECIALIZATION]
+   HC-DU-039C screened operational equivalence, accessibility trichotomy and
+   source-attribution rank
+   [COMPLETED EXACT KNOWN-MATHEMATICS SPECIALIZATION; PHYSICAL
+   MULTI-SENSITIVITY ARENA OPEN]
         |
 7. HC-DU-040 QFT, GR, GU, Standard Model, and cosmology applications
    HC-DU-040A triplet boundary index and flavor identifiability
@@ -2501,6 +2555,11 @@ TYPED RECURSIVE IDENTITY/ACTION BOUNDS AND FULL-COVER MARGINAL RECEIPT EXACT
 NAIVE SCALAR COMPATIBILITY DEFECT FAILS INERT-SUBDIVISION NATURALITY
 HC-DU-039A REALIZABILITY-FIRST RECONSTRUCTION FIBRE TRICHOTOMY EXACT
 HC-DU-039B ROBUST RECORD-IMAGE-DISTANCE / TARGET-DIAMETER DECOMPOSITION EXACT
+HC-DU-039C SCREENED OPERATIONAL EQUIVALENCE AND SOURCE-ATTRIBUTION RANK EXACT
+COMPLETE PUBLIC BEHAVIOR RECONSTRUCTED FROM ITSELF IS OPERATIONAL CLOSURE
+ONE TOTAL PHASE DOES NOT ATTRIBUTE PROPER DURATION VERSUS FIELD SOURCE
+NONTRIVIAL RECONSTRUCTION REQUIRES STRICT COMPRESSION, HELD-OUT TRANSFER AND
+SOURCE-INDEPENDENT CALIBRATION
 EMPTY FIBRE IS INCOMPATIBILITY, NOT RECONSTRUCTION OR PHYSICAL REMAINDER
 SAME-CLASS REFINEMENT CANNOT RESURRECT AN EMPTY COARSE FIBRE
 MINIMUM HOSTILE SIMPLE BINARY PAIR-CONTEXT CASE IS THE THREE-CONTEXT FRUSTRATED CYCLE

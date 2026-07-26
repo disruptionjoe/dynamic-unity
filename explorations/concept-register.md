@@ -563,6 +563,37 @@ calibrated clock-and-light instrument, finite task-resolution quotient, or
 dynamics selecting the admissible geometric modes. See
 `conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md`.
 
+### 2026-07-26 screened effective physics and attribution rank
+
+`HC-DU-039C` adds a source-identification boundary that is independent of the
+conformal finite-record ceiling. A selectively center-screened public process
+reconstructs public reachability and all functionals of its complete public
+trace law. That operational closure does not identify the sources of a
+held-out phase.
+
+For source sensitivity \(S\) and target \(T\), reconstruction holds exactly
+when
+
+\[
+\ker S\subseteq\ker T.
+\]
+
+The minimum Clifford control records only
+\(\phi=\tau+\chi\). The source pair \((0,1)\) and \((1,0)\) therefore has the
+same public chain and total-phase record while duration and field-source
+targets disagree. A second independently calibrated \(\tau\)-sensitive probe
+makes the finite map full rank. The repair adds an interface and resource; it
+does not show the first record derived either source.
+
+**Updated status:** **SCREENED PUBLIC ORDER AND TRACE-LAW TARGETS
+RECONSTRUCTED / ONE TOTAL PHASE DOES NOT ATTRIBUTE PROPER DURATION VERSUS
+FIELD SOURCE / STRICT COMPRESSION, HELD-OUT TRANSFER, INDEPENDENT
+SENSITIVITIES AND NO REFITTING REQUIRED / PHYSICAL MULTI-SENSITIVITY ARENA
+OPEN.** Do not build another abstract phase toy. Reopen with a source-pinned
+optical-clock/proper-time sensitivity matrix or another physical arena whose
+formed records independently span the held-out source targets. See
+`screened-effective-physics-and-source-attribution-rank-2026-07-26.md`.
+
 ### 2026-07-26 dynamics-restricted geometric nullspace
 
 `HC-DU-038C` executes the next restriction gate without fitting another
@@ -906,6 +937,21 @@ resolution-stable intervention role. No claim is banked or seeded. See
   This is exact known mathematics; physical regions and the complete future
   action class remain unselected. See
   `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
+- **Earned screened-effective-physics/source-attribution boundary.**
+  `HC-DU-039C` separates operational completeness from physical source
+  reconstruction. A selectively screened public process determines its
+  public trace laws and public-action capabilities, but a held-out source
+  target \(T\) factors through sensitivity map \(S\) exactly when
+  \(\ker S\subseteq\ker T\). The minimum Clifford control records only
+  \(\phi=\tau+\chi\): sources \((0,1)\) and \((1,0)\) have the same public
+  network and phase record while proper-duration and field-source targets
+  disagree. One independently calibrated additional sensitivity makes the
+  finite map full rank. The durable program rule is that nontrivial
+  reconstruction requires independent formation, strict compression,
+  held-out transfer, source-independent calibration, and no refitting. The
+  mathematics is known and no physical clock, metric, or field source is
+  selected. See
+  `screened-effective-physics-and-source-attribution-rank-2026-07-26.md`.
 - **Earned Dirac-sea/Krein attribution application.** The paired GU W245
   certificate shows that Finster's self-adjoint sea-rate is well typed on
   W216's Hermitian branch and not through the complex-spectrum core of its
@@ -1009,6 +1055,10 @@ resolution-stable intervention role. No claim is banked or seeded. See
   HC-DU-035D SELECTIVE CENTER-SCREENING FINALITY AND FIRST-LEAK LOCALIZATION
   EXACT / QUANTUM FIBRES MAY PERSIST BEHIND A FINAL PUBLIC CENTER /
   AGGREGATE-ONLY CENTER PRESERVATION REJECTED /
+  HC-DU-039C SCREENED OPERATIONAL EQUIVALENCE AND SOURCE-ATTRIBUTION RANK
+  EXACT / TOTAL PHASE DOES NOT IDENTIFY TIME VERSUS FIELD SOURCE /
+  STRICT COMPRESSION AND HELD-OUT TRANSFER REQUIRED FOR NONTRIVIAL
+  RECONSTRUCTION /
   HC-DU-033C STABILIZER INTERFACE-SELECTION OBSTRUCTION EXACT /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION

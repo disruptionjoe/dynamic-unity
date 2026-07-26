@@ -1,0 +1,174 @@
+{
+  "checks": [
+    {
+      "detail": "The screened three-event public chain and its public value are identical.",
+      "name": "all four physical sources share one baseline public causal record",
+      "passed": true
+    },
+    {
+      "detail": "Public order is reconstructible while source duration and field phase vary.",
+      "name": "baseline public reachability is source independent",
+      "passed": true
+    },
+    {
+      "detail": "The X-eigenprojectors of the total-phase fibre control the public bit.",
+      "name": "total-phase readout is exactly unitary",
+      "passed": true
+    },
+    {
+      "detail": "The calibrated clock fibre independently controls the public bit.",
+      "name": "clock-only readout is exactly unitary",
+      "passed": true
+    },
+    {
+      "detail": "Each readout converts one hidden fibre phase into a public outcome.",
+      "name": "both readouts are first noncentral public leaks",
+      "passed": true
+    },
+    {
+      "detail": "The first leak reconstructs total phase exactly.",
+      "name": "total readout returns tau xor chi for source 00",
+      "passed": true
+    },
+    {
+      "detail": "The first leak reconstructs total phase exactly.",
+      "name": "total readout returns tau xor chi for source 01",
+      "passed": true
+    },
+    {
+      "detail": "The first leak reconstructs total phase exactly.",
+      "name": "total readout returns tau xor chi for source 10",
+      "passed": true
+    },
+    {
+      "detail": "The first leak reconstructs total phase exactly.",
+      "name": "total readout returns tau xor chi for source 11",
+      "passed": true
+    },
+    {
+      "detail": "Sources (0,1) and (1,0) have the same total phase and public output after its readout.",
+      "name": "one total-phase record cannot attribute time versus field source",
+      "passed": true
+    },
+    {
+      "detail": "An independently calibrated tau-sensitive interface distinguishes the pair.",
+      "name": "clock-only probe separates the attribution pair",
+      "passed": true
+    },
+    {
+      "detail": "The total phase target is constant on every total-phase record fibre.",
+      "name": "total phase factors through the first leak",
+      "passed": true
+    },
+    {
+      "detail": "Kernel vector (1,1) preserves total phase and changes tau.",
+      "name": "proper-duration target does not factor through total phase",
+      "passed": true
+    },
+    {
+      "detail": "Kernel vector (1,1) preserves total phase and changes chi.",
+      "name": "field-phase target does not factor through total phase",
+      "passed": true
+    },
+    {
+      "detail": "Rows (1,1) and (1,0) form an invertible F_2 sensitivity matrix.",
+      "name": "two independent sensitivities reconstruct both sources",
+      "passed": true
+    },
+    {
+      "detail": "Every nonzero one-row sensitivity has a two-element kernel.",
+      "name": "no one-bit linear probe reconstructs two source bits",
+      "passed": true
+    },
+    {
+      "detail": "Over F_2^2 the three distinct nonzero rows are pairwise independent.",
+      "name": "every independent two-probe pair reconstructs both source bits",
+      "passed": true
+    },
+    {
+      "detail": "All 16 row subsets and four linear targets satisfy the factorization theorem.",
+      "name": "kernel containment equals decoder existence exhaustively",
+      "passed": true
+    },
+    {
+      "detail": "A constant public-order target factors; tau and chi vary on the baseline fibre.",
+      "name": "baseline record reconstructs public order but neither hidden source",
+      "passed": true
+    },
+    {
+      "detail": "Baseline, total-phase, and two-probe records supply a strict refinement ladder.",
+      "name": "strict fibre sizes shrink four to two to one",
+      "passed": true
+    },
+    {
+      "detail": "Appending the tau target itself always closes tau but changes the record interface.",
+      "name": "target-coded record repairs by insertion rather than derivation",
+      "passed": true
+    },
+    {
+      "detail": "A common invertible change of source coordinates preserves every verdict.",
+      "name": "factorization verdict is invariant under source reparameterization",
+      "passed": true
+    },
+    {
+      "detail": "With only public-center actions, the four sources are operationally equivalent.",
+      "name": "screened capability cannot discriminate source decomposition",
+      "passed": true
+    },
+    {
+      "detail": "One extra interface resolves two phase classes, not four sources.",
+      "name": "one leak enlarges capability only to total-phase discrimination",
+      "passed": true
+    },
+    {
+      "detail": "The extra capability is paid for by a second independent sensitivity.",
+      "name": "two calibrated probes resolve every source",
+      "passed": true
+    },
+    {
+      "detail": "One end-to-end timing bit cannot attribute link versus scheduler delay.",
+      "name": "distributed total latency has the same source-attribution ambiguity",
+      "passed": true
+    },
+    {
+      "detail": "An independently formed link-specific receipt supplies the second sensitivity.",
+      "name": "route receipt repairs the distributed attribution pair",
+      "passed": true
+    }
+  ],
+  "claim_ceiling": [
+    "finite screened operational-equivalence and linear source-attribution theorem",
+    "known linear observability, quantum phase-readout, and causal-order mathematics",
+    "binary phase is an exact identifiability control, not a physical ontology",
+    "no physical proper-time clock, spacetime metric, field source, interface selection, new law, new physics, paper promotion, hardware result, or publication"
+  ],
+  "hypothesis_id": "HC-DU-039C",
+  "local_model_learning_gate": {
+    "disposition": "REGRESSION_ONLY_AFTER_DIRECT_PROOF",
+    "generated_learning_claim": false,
+    "hardware_required": false,
+    "purpose": "preserve the minimum exact phase, attribution-rank, capability, and representation controls after proof"
+  },
+  "next_dependency": "seek an independently selected physical multi-sensitivity arena whose formed records strictly compress the process and transfer to held-out clock/geometry/field targets without inserting those targets",
+  "north_star_return": {
+    "nontrivial_success_rule": "require independently formed strict compression, held-out target transfer, and target-independent sensitivity calibration",
+    "operational_duality": "all hidden sources inside the same screened public equivalence class",
+    "physics_first_remainder": "a finite first-leak witness whenever an admitted noncentral assay responds to a hidden source",
+    "record_first": "public order and every frozen screened public trace functional",
+    "underidentification": "one total phase does not attribute proper-duration versus field contribution"
+  },
+  "run_id": "RUN-20260726-174500-screened-effective-physics-attribution",
+  "status": "completed_scoped_result",
+  "summary": {
+    "attribution_witness": "sources (tau,chi)=(0,1) and (1,0) have identical baseline and total-phase records but opposite source targets",
+    "capability": "zero, one and two sensitivities distinguish one, two and four source classes respectively",
+    "geometry_boundary": "public order is fixed while proper-duration and field-source coordinates remain underidentified until independently calibrated sensitivities are added",
+    "minimum_leak": "one exact Clifford readout reconstructs phi=tau xor chi",
+    "operational_boundary": "public trace functionals reconstruct by screened operational equivalence, which is not source derivation",
+    "passed": 27,
+    "rank_repair": "a second independently calibrated tau-sensitive probe makes the F_2 sensitivity matrix full rank",
+    "screened_public_process": "the same public chain and center distribution hold for all four tau/chi sources before a noncentral readout",
+    "total": 27
+  },
+  "verdict": "KNOWN_MATHEMATICS__SCREENED_OPERATIONAL_EQUIVALENCE_AND_ATTRIBUTION_RANK_EXACT"
+}

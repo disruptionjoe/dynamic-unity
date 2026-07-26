@@ -104,7 +104,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 158
+Finality, Temporal Issuance, or Possibility to Capability. It records 162
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -225,6 +225,22 @@ What *has* been earned is a strong finite control stack:
   quantum law
   ([result](explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md);
   [probe](tests/du_center_screening_regional_finality_probe.py)).
+- one exact finite `HC-DU-039C` screened-effective-physics and
+  source-attribution boundary. A screened public process reconstructs its
+  public order, trace laws, and public-action capabilities, but that is
+  operational closure rather than microscopic source derivation. For an
+  abelian source map \(S\) and held-out target \(T\), reconstruction holds
+  exactly when \(\ker S\subseteq\ker T\). The minimum quantum control records
+  only total phase \(\phi=\tau+\chi\): the proper-duration/field-source pair
+  \((0,1)\) versus \((1,0)\) has the same public network and phase record but
+  opposite source targets. A second independently calibrated sensitivity
+  makes the finite source map full rank. Exact controls pass `27/27`. The
+  result is known observability, quantum phase-readout, and causal-order
+  mathematics; it installs strict compression, held-out transfer, and
+  source-independent calibration as requirements for a nontrivial North-Star
+  reconstruction
+  ([result](explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md);
+  [probe](tests/du_screened_effective_physics_attribution_probe.py)).
 - one formal-first `HC-DU-033C/038D` separation result. Any natural
   interface selected at a lawful completion must be fixed by that
   completion's symmetry stabilizer. Minkowski's Lorentz stabilizer has no
@@ -395,18 +411,29 @@ to a frozen future action class: adding a new noncentral recoupling changes
 the contract, while omitting an already available recoupling manufactures a
 false finality verdict.
 
-The next campaign move is to use the screened regional public process as the
-input to time, geometry, field, and capability reconstruction while retaining
-one explicit first-leak completion as the hostile foil. Freeze the same
-certified public causal network in both cases; distinguish targets already
-fixed by the law from those that factor through the public process; and return
-either a common reconstruction theorem or a finite
-same-public-network/different-target witness. In parallel, a genuinely
-physical result must independently derive or justify the regional action
-algebras, boundaries, formation couplings, archives, and admitted future
-action class. Run the frozen cloud pilot only after direct authorization and
-only if it changes an instrument, margin, reset, or shot-budget decision; the
-current dry runs earn no physical verdict.
+`HC-DU-039C` has now executed that effective-physics reconstruction step. The
+screened public process exactly reconstructs public reachability and every
+functional of its complete public trace law. A hidden target that no admitted
+action responds to is not observer-accessible in that class; an admitted
+noncentral response is a first-leak/incomplete-record witness. Crucially, one
+successful phase readout reconstructs only its total phase. It does not
+attribute proper-duration versus field/path contributions when the
+sensitivity map has a target-changing null direction. A second independently
+calibrated sensitivity repairs the exact finite pair, but changes the
+interface and resource contract.
+
+The fifth campaign move should now leave abstract finite source toys and test
+one physically motivated multi-sensitivity arena. Use the optical-clock and
+proper-time literature's distinct mean-frequency, coherence/visibility,
+clock-motion, coherent-recombination, and nuisance channels to build a
+source-pinned sensitivity matrix. Return either a full-rank local
+reconstruction, the exact remaining null direction and minimum additional
+observable, or absorption by standard quantum process/metrology theory.
+Require independent record formation, strict compression, held-out transfer,
+source-independent calibration, and no refitting. This remains a local
+literature/formal swing; run the frozen cloud pilot only after direct
+authorization and only if it changes an instrument, margin, reset, or
+shot-budget decision.
 
 For planning, assume **no external hardware is available**. That changes only
 after the local theorem/absorption, exact-counterexample, existing-data, and

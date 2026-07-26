@@ -1573,3 +1573,45 @@ boundary. It does not select physical regions, action algebras, boundaries,
 formation couplings, archives, observers, the complete future action class,
 ontology, a new law, new physics, paper state, hardware path, or external
 action.
+
+## HC-DU-039C screened effective physics and source attribution
+
+`du_screened_effective_physics_attribution_probe.py` preserves the smallest
+exact Boolean/Clifford controls for the fourth campaign swing:
+
+- four source assignments \(x=(\tau,\chi)\in\mathbb F_2^2\) share one
+  screened three-event public causal chain;
+- public reachability and center statistics are source independent;
+- one noncentral readout reconstructs the total phase
+  \(\phi=\tau+\chi\);
+- \((0,1)\) and \((1,0)\) have the same total-phase record but opposite
+  duration and field-source targets;
+- a second independently calibrated \(\tau\)-sensitive readout makes the
+  source sensitivity matrix full rank;
+- exhaustive enumeration of all `16` sensitivity-row subsets and four
+  linear targets confirms `64/64` instances of
+  target factorization iff kernel containment;
+- no one-bit nonzero linear probe reconstructs two source bits, while every
+  pair of distinct nonzero sensitivities does;
+- record-fibre sizes shrink exactly `4 -> 2 -> 1`;
+- target-coded repair and invertible source reparameterization are
+  classified correctly;
+- distinguishable capability classes grow `1 -> 2 -> 4` only as the
+  independently calibrated interfaces are added; and
+- a distributed latency/provenance shadow preserves the rank statement
+  without identifying network delay with proper time.
+
+Run:
+
+```bash
+python3 tests/du_screened_effective_physics_attribution_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_screened_effective_physics_attribution_result.json` and reports
+`27/27` with
+`KNOWN_MATHEMATICS__SCREENED_OPERATIONAL_EQUIVALENCE_AND_ATTRIBUTION_RANK_EXACT`.
+Passing establishes a finite operational-equivalence and source-attribution
+boundary. It does not supply a physical clock, metric, field source,
+interface selector, strict-compression result in a real arena, ontology, new
+law, new physics, paper state, hardware path, or external action.
