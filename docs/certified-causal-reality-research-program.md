@@ -1229,6 +1229,24 @@ routing controls pass. No novelty, provider absence, hardware feasibility,
 physical factorization, remainder, ontology, or new physics is inferred. See
 `../explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md`.
 
+**Executed complete vertical-slice successor — `HC-DU-036G`.** A binary
+measure-and-prepare family now carries one source event through a selective
+pointer outcome, immutable archive, run-local occurrence identity, route
+provenance, regional value compatibility, declared value finality, observer
+access, and correct value-reading capability into a held-out repeat
+intervention. The four maps
+\(K_r^f=|f(r)\rangle\langle r|\) share the same sharp effects and record
+table while realizing all four deterministic binary repeat continuations.
+The QND and record-then-flip members are at total-variation distance one on
+the repeat despite agreeing through the declared value chain. A
+target-independent implementation-level selective-map receipt projects to
+the ordinary archive record and selects the QND continuation exactly. This
+localizes the missing bridge: value finality and provenance do not determine
+the complete selective continuation. The result is standard quantum
+instrument mathematics and does not establish a unique apparatus, physical
+remainder, or ontology. See
+`../explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`.
+
 **Repository-wide local-model learning gate — `LMLG-01`.** Future
 simulations, toy models, finite solvers, executable fixtures, trained
 surrogates, emulators, and adapters proposed as research paths must produce a
@@ -1445,6 +1463,39 @@ low-dimensional mode family. See
 `../explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md`
 and `../tests/du_conformal_record_geometry_tournament_probe.py`.
 
+**Executed dynamics-restriction successor — `HC-DU-038C`.** For linear
+field operator \(L\), record operator \(R\), target \(T\), and fixed source
+\(J\), target reconstruction on
+\(\{u:Lu=J\}\) holds exactly when
+
+\[
+\ker L\cap\ker R\subseteq\ker T.
+\]
+
+If source differences vary in \(D_J\), \(\ker L\) must be replaced by
+\(\{v:Lv\in D_J\}\). An unrestricted source can therefore absorb the entire
+record nullspace.
+
+The exact degree-four conformal fixture puts this boundary under hostile
+control. Its four training rows have rank four; the remote clock detects the
+one-dimensional nullspace. The prior polynomial hidden mode is smooth,
+analytic, positive at scale `1/100`, and has exact Dirichlet action
+\(143/21875<1/100\). Smoothness, analyticity, and every positive action bound
+therefore fail as exact selectors. The target-independent supplied toy
+action
+
+\[
+S[u]=\frac12\int_{-1}^{1}(u')^2dx
+\]
+
+has source-free equation \(u''=0\). With the frozen clock and volume records,
+it forces \(u=1\) and the remote clock; allowing arbitrary
+\(J\) in \(u''=J\) restores the hidden rival. This is a standard linear
+inverse-problem theorem and a toy dynamics boundary, not Einstein dynamics,
+a selected geometry, or new physics. See
+`../explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`
+and `../tests/du_robust_vertical_dynamics_reconstruction_probe.py`.
+
 ### `HC-DU-039` — Cross-Platform Invariance
 
 Require one typed certification/finality statement to survive without
@@ -1510,6 +1561,47 @@ components. No physical completeness, remainder, ontology, theorem novelty,
 new physics, or five-platform `HC-DU-039` completion is earned. See
 `../explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md`
 and `../tests/du_certified_reconstruction_fiber_probe.py`.
+
+**Executed robust metric successor — `HC-DU-039B`.** For compact admitted
+model class \(M\), continuous record/target maps \(r,t\), observed record
+\(q\), and tolerances \(\epsilon,\tau\), define
+
+\[
+\eta(q)=\inf_{m\in M}d_Q(r(m),q),\qquad
+F_{q,\epsilon}=\{m:d_Q(r(m),q)\le\epsilon\},
+\]
+
+and the target diameter
+
+\[
+\Delta(q,\epsilon)
+=
+\sup_{m,n\in F_{q,\epsilon}}d_Y(t(m),t(n)).
+\]
+
+Compactness makes the extrema attainable. Exactly one branch holds:
+robustly unrealizable when \(\eta>\epsilon\), robust reconstruction when the
+fibre is nonempty and \(\Delta\le\tau\), or robust underdetermination with an
+attaining witness when \(\Delta>\tau\). Exact stochastic controls show that
+\(\eta\) and \(\Delta\) are independent. At zero tolerance the theorem
+reduces to `HC-DU-039A`.
+
+For an \(L\)-Lipschitz same-class refinement
+\(r_1=\pi\circ r_2\), \(q_1=\pi(q_2)\),
+
+\[
+F^{(2)}_{q_2,\epsilon}
+\subseteq
+F^{(1)}_{q_1,L\epsilon}.
+\]
+
+Thus refinement can reduce target spread but cannot populate a robustly
+empty projected fibre. Total-variation stochastic coarse-graining has
+\(L=1\). This is known robust inverse-problem/data-processing mathematics.
+Its program consequence is mandatory separate record-image-distance and
+target-diameter receipts; neither is a physical remainder or ontology. The
+coupled `HC-DU-039B/036G/038C` probe passes `36/36`. See
+`../explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`.
 
 ### `HC-DU-040` — Physical Recovery and Applications
 
@@ -1609,12 +1701,15 @@ vectorlike access rank three, and target-coded three.
 | `H-CCR-16` | Relative to a declared cover, upper task, access class, adversary, and resource ledger, regional certified causal networks compose into an action-safe higher-level object exactly when their overlap data are compatible, their certificates have independent adversarial support, their boundary summaries are action-sufficient, and every loop either descends or carries an explicit provenance/logical lift; otherwise a finite typed obstruction identifies what is missing. | The conditions are defined to force composition, change meaning between quantum and distributed fixtures, fail under benign refinement, or require an unbounded or target-defined obstruction in the declared class. |
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
-`H-CCR-08`, and `H-CCR-16` now use the `HC-DU-039A` ordering. First certify
-that the observed record has a nonempty fibre in the frozen completion and
-identity class. Only then test target constancy or produce a
+`H-CCR-08`, and `H-CCR-16` now use the `HC-DU-039A/039B` ordering. First
+report distance \(\eta\) from the observed record to the frozen admitted
+record image. Only on the resulting certified nonempty tolerance fibre
+report held-out target diameter \(\Delta\), reconstruction, or a
 same-record/different-target witness. Empty fibre, nonempty
-target-disagreeing fibre, same-class refinement, completion enlargement, and
-occurrence-identity retyping are different return types.
+target-disagreeing fibre, same-class refinement, completion/source
+enlargement, and occurrence-identity retyping are different return types.
+Finality is target-indexed: certifying a value does not certify an omitted
+selective continuation.
 
 ## Dependency order
 
@@ -1661,6 +1756,8 @@ occurrence-identity retyping are different return types.
     [COMPLETED BINARY-RESPONSE SPECIALIZATION; PHYSICAL PACKET OPEN]
     HC-DU-036E provider-acquisition bridge and selection-visibility ceiling
     [COMPLETED EXACT CLAIM BOUNDARY; HARDWARE PILOT NOT RUN]
+    HC-DU-036G complete binary observer/action vertical slice
+    [COMPLETED EXACT CONTROL; VALUE FINALITY DOES NOT FIX CONTINUATION]
     HC-DU-034B certificate-without-run-history-disclosure control [COMPLETED SCOPED]
     implementation-complete physical interventional-sufficiency arm with full
     selective instrument, provenance and calibrated finite-shot null [OPEN;
@@ -1674,13 +1771,16 @@ occurrence-identity retyping are different return types.
    potential [COMPLETED KNOWN-MATHEMATICS CONTROL]
    HC-DU-038B two-mode conformal reconstruction, held-out clock prediction
    and smooth finite-record ceiling [COMPLETED SCOPED CONTROL]
-   physical restriction of the record-nullspace by formed instruments,
-   dynamics or task resolution [OPEN]
+   HC-DU-038C source-typed dynamics/nullspace criterion and hostile
+   regularity/action/source tournament [COMPLETED TOY-DYNAMICS CONTROL;
+   PHYSICAL DYNAMICS OPEN]
         |
 6. HC-DU-039 cross-platform invariance
    HC-DU-039A realizability-first fibre theorem across multi-time,
    conformal-geometry and layered-regional-finality specimens
    [COMPLETED SCOPED THREE-SPECIMEN CONTROL]
+   HC-DU-039B robust record-image-distance / target-diameter decomposition
+   [COMPLETED EXACT METRIC SPECIALIZATION]
         |
 7. HC-DU-040 QFT, GR, GU, Standard Model, and cosmology applications
    HC-DU-040A triplet boundary index and flavor identifiability
@@ -2171,10 +2271,14 @@ CERTIFIED OVERLAP IDENTITY EXACT; ROBUST PHYSICAL IDENTITY AND SPARSE EXACT SCAL
 TYPED RECURSIVE IDENTITY/ACTION BOUNDS AND FULL-COVER MARGINAL RECEIPT EXACT
 NAIVE SCALAR COMPATIBILITY DEFECT FAILS INERT-SUBDIVISION NATURALITY
 HC-DU-039A REALIZABILITY-FIRST RECONSTRUCTION FIBRE TRICHOTOMY EXACT
+HC-DU-039B ROBUST RECORD-IMAGE-DISTANCE / TARGET-DIAMETER DECOMPOSITION EXACT
 EMPTY FIBRE IS INCOMPATIBILITY, NOT RECONSTRUCTION OR PHYSICAL REMAINDER
 SAME-CLASS REFINEMENT CANNOT RESURRECT AN EMPTY COARSE FIBRE
 MINIMUM HOSTILE SIMPLE BINARY PAIR-CONTEXT CASE IS THE THREE-CONTEXT FRUSTRATED CYCLE
 MULTI-TIME / CONFORMAL-GEOMETRY / REGIONAL-FINALITY FIBRE PROBE 12/12
+HC-DU-036G COMPLETE VALUE/PROVENANCE/FINALITY/ACCESS CHAIN DOES NOT FIX SELECTIVE CONTINUATION
+HC-DU-038C REGULARITY AND FINITE ACTION FAIL; SOURCE-FROZEN TOY DYNAMICS CLOSES THE CONFORMAL FIBRE
+ROBUST / VERTICAL-SLICE / DYNAMICS-RESTRICTION PROBE 36/36
 HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
 TWO-HISTORY INTERACTION SELECTS A QND HISTORY ALGEBRA BUT NOT THE CERTIFICATE INSTRUMENT
 PROCESS-CLASS CERTIFICATION WITHOUT RUN-LEVEL HISTORY DISCLOSURE EXACT IN THE FROZEN FIXTURE

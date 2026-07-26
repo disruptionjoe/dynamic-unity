@@ -1,0 +1,1045 @@
+{
+  "all_passed": true,
+  "artifact_type": "exact_robust_reconstruction_vertical_slice_and_dynamics_restriction_controls",
+  "candidate_results": {
+    "HC-DU-036G": "complete two-time observer/action vertical-slice boundary",
+    "HC-DU-038C": "dynamics-restricted conformal nullspace theorem",
+    "HC-DU-039B": "robust realizability-sufficiency decomposition"
+  },
+  "checks": [
+    {
+      "detail": "eta=1/4 and Delta=0 are simultaneously realized",
+      "id": "positive_record_misfit_can_be_target_sufficient",
+      "pass": true
+    },
+    {
+      "detail": "eta=1/4 is compatible with Delta=1",
+      "id": "same_record_misfit_can_be_target_insufficient",
+      "pass": true
+    },
+    {
+      "detail": "epsilon=tau=0 gives nonempty target-constant fibre",
+      "id": "exact_limit_recovers_reconstruction_branch",
+      "pass": true
+    },
+    {
+      "detail": "epsilon=tau=0 gives nonempty target-nonconstant fibre",
+      "id": "exact_limit_recovers_underdetermination_branch",
+      "pass": true
+    },
+    {
+      "detail": "positive distance to the model image is adjudicated before target spread",
+      "id": "robustly_empty_fibre_is_not_vacuous_reconstruction",
+      "pass": true
+    },
+    {
+      "detail": "K_r^T K_r is the same sharp effect for both instruments",
+      "id": "qnd_and_flip_have_identical_effects",
+      "pass": true
+    },
+    {
+      "detail": "the pointer/archive stochastic table is identical",
+      "id": "qnd_and_flip_form_the_same_archive_value",
+      "pass": true
+    },
+    {
+      "detail": "the repeat-outcome tables are at total-variation distance one",
+      "id": "qnd_and_flip_differ_only_on_heldout_continuation",
+      "pass": true
+    },
+    {
+      "detail": "prepare_zero selective effects sum to identity",
+      "id": "prepare_zero_instrument_is_trace_preserving",
+      "pass": true
+    },
+    {
+      "detail": "prepare_zero record rows are normalized",
+      "id": "prepare_zero_formed_archive_is_normalized",
+      "pass": true
+    },
+    {
+      "detail": "prepare_zero repeat acts on the system while the archive marginal stays fixed",
+      "id": "prepare_zero_heldout_repeat_preserves_archive",
+      "pass": true
+    },
+    {
+      "detail": "qnd selective effects sum to identity",
+      "id": "qnd_instrument_is_trace_preserving",
+      "pass": true
+    },
+    {
+      "detail": "qnd record rows are normalized",
+      "id": "qnd_formed_archive_is_normalized",
+      "pass": true
+    },
+    {
+      "detail": "qnd repeat acts on the system while the archive marginal stays fixed",
+      "id": "qnd_heldout_repeat_preserves_archive",
+      "pass": true
+    },
+    {
+      "detail": "flip_after_record selective effects sum to identity",
+      "id": "flip_after_record_instrument_is_trace_preserving",
+      "pass": true
+    },
+    {
+      "detail": "flip_after_record record rows are normalized",
+      "id": "flip_after_record_formed_archive_is_normalized",
+      "pass": true
+    },
+    {
+      "detail": "flip_after_record repeat acts on the system while the archive marginal stays fixed",
+      "id": "flip_after_record_heldout_repeat_preserves_archive",
+      "pass": true
+    },
+    {
+      "detail": "prepare_one selective effects sum to identity",
+      "id": "prepare_one_instrument_is_trace_preserving",
+      "pass": true
+    },
+    {
+      "detail": "prepare_one record rows are normalized",
+      "id": "prepare_one_formed_archive_is_normalized",
+      "pass": true
+    },
+    {
+      "detail": "prepare_one repeat acts on the system while the archive marginal stays fixed",
+      "id": "prepare_one_heldout_repeat_preserves_archive",
+      "pass": true
+    },
+    {
+      "detail": "the observer can announce the initial source bit from the archive with unit success",
+      "id": "every_implementation_supports_the_same_base_value_action",
+      "pass": true
+    },
+    {
+      "detail": "four selective continuations share the complete declared value chain",
+      "id": "value_provenance_finality_chain_is_target_insufficient",
+      "pass": true
+    },
+    {
+      "detail": "record noise changes fit but not the held-out continuation diameter",
+      "id": "noisy_chain_remains_insufficient_at_certified_tolerance",
+      "pass": true
+    },
+    {
+      "detail": "epsilon=1/40 is below the exact record-model distance 1/20",
+      "id": "too_tight_noise_contract_is_unrealizable",
+      "pass": true
+    },
+    {
+      "detail": "the implementation-level selective-map receipt selects the QND continuation",
+      "id": "selective_map_receipt_repairs_repeat_target",
+      "pass": true
+    },
+    {
+      "detail": "forgetting the post-state tag cannot increase total variation",
+      "id": "refinement_projection_is_total_variation_contracting",
+      "pass": true
+    },
+    {
+      "detail": "same-class refinement reduces rather than resurrects the fibre",
+      "id": "fine_fibre_is_contained_in_coarse_fibre",
+      "pass": true
+    },
+    {
+      "detail": "total, left, overlap, and anchored-clock records are equal",
+      "id": "hidden_mode_preserves_every_geometry_training_record",
+      "pass": true
+    },
+    {
+      "detail": "u(1) changes from 1 to 26/25",
+      "id": "hidden_mode_changes_remote_clock",
+      "pass": true
+    },
+    {
+      "detail": "|h|<=40 gives 1+h/100>=3/5",
+      "id": "hidden_fixture_is_positive",
+      "pass": true
+    },
+    {
+      "detail": "the held-out clock detects the exact one-dimensional record nullspace",
+      "id": "record_nullspace_is_one_dimensional_in_polynomial_fixture",
+      "pass": true
+    },
+    {
+      "detail": "the hostile mode is polynomial and therefore smooth and analytic",
+      "id": "smoothness_and_analyticity_do_not_select_geometry",
+      "pass": true
+    },
+    {
+      "detail": "the exact hidden rival lies below the frozen 1/100 action bound",
+      "id": "positive_finite_action_does_not_select_geometry",
+      "pass": true
+    },
+    {
+      "detail": "J=h''/100 admits the same record-null rival",
+      "id": "unrestricted_source_relabels_hidden_mode",
+      "pass": true
+    },
+    {
+      "detail": "ker(L) intersect ker(R) is zero in the degree-four fixture",
+      "id": "fixed_source_dynamics_kills_record_nullspace",
+      "pass": true
+    },
+    {
+      "detail": "u''=0 plus the frozen records leaves only u=1",
+      "id": "source_free_euler_lagrange_forces_remote_clock",
+      "pass": true
+    }
+  ],
+  "checks_passed": 36,
+  "claim_grade": "EXACT ROBUST FINITE/METRIC SPECIALIZATION + EXACT BINARY TWO-TIME INSTRUMENT COUNTEREXAMPLE + EXACT TOY DYNAMICS-RESTRICTED POLYNOMIAL CONFORMAL THEOREM / COMPONENT MATHEMATICS KNOWN / NO PHYSICAL COMPLETENESS, SELECTED DYNAMICS, NEW LAW, ONTOLOGY, OR PAPER PROMOTION",
+  "geometry_dynamics": {
+    "arena": {
+      "held_out_target": "right clock squared u(1)",
+      "metric": "g_u=u(x)(-dt^2+dx^2)",
+      "polynomial_completion_degree": 4,
+      "training_record": "total volume, left volume, overlap volume, anchored left clock"
+    },
+    "field_law": {
+      "action": "S[u]=(1/2) integral_{-1}^{1} (u')^2 dx",
+      "inhomogeneous_form": "u''=J",
+      "source_free_euler_lagrange": "u''=0",
+      "status": "supplied target-independent toy local scalar dynamics; not Einstein dynamics or a selected physical law"
+    },
+    "hidden_mode": {
+      "coefficients_low_to_high": [
+        "1",
+        "-2",
+        "-9",
+        "4",
+        "10"
+      ],
+      "dirichlet_action": "143/21875",
+      "finite_action_bound": "1/100",
+      "positive_lower_bound": "3/5",
+      "right_clock_flat": [
+        "1"
+      ],
+      "right_clock_hidden": [
+        "26/25"
+      ],
+      "scale": "1/100",
+      "second_derivative_source": [
+        "-9/50",
+        "6/25",
+        "6/5"
+      ],
+      "target_change": "1/25",
+      "training_record_flat": [
+        "2",
+        "1",
+        "3/2",
+        "1"
+      ],
+      "training_record_hidden": [
+        "2",
+        "1",
+        "3/2",
+        "1"
+      ]
+    },
+    "nullspace_ranks": {
+      "coefficient_dimension": 5,
+      "fixed_source_record_nullity": 0,
+      "record_nullity": 1,
+      "record_plus_fixed_source_dynamics_plus_target_rank": 5,
+      "record_plus_fixed_source_dynamics_rank": 5,
+      "record_plus_target_rank": 5,
+      "record_rank": 4
+    },
+    "theorem": {
+      "energy_boundary": "for every E>0, a sufficiently small nonzero rational multiple of a record-null smooth mode has action below E",
+      "fixed_source_difference_criterion": "T reconstructs from R on L u=J iff ker(L) intersect ker(R) is contained in ker(T)",
+      "varying_source_correction": "replace ker(L) by {v:L v lies in the admitted source-difference space}; arbitrary J restores the full record nullspace"
+    },
+    "tournament": {
+      "finite_action_bound": {
+        "branch": "ROBUST_UNDERDETERMINATION",
+        "epsilon": "0",
+        "eta": "0",
+        "feasible_model_ids": [
+          "flat",
+          "hidden"
+        ],
+        "record_distances": {
+          "flat": "0",
+          "hidden": "0"
+        },
+        "target_diameter": "1/25",
+        "target_witness": [
+          "flat",
+          "hidden"
+        ],
+        "tau": "0"
+      },
+      "smooth_analytic_only": {
+        "branch": "ROBUST_UNDERDETERMINATION",
+        "epsilon": "0",
+        "eta": "0",
+        "feasible_model_ids": [
+          "flat",
+          "hidden"
+        ],
+        "record_distances": {
+          "flat": "0",
+          "hidden": "0"
+        },
+        "target_diameter": "1/25",
+        "target_witness": [
+          "flat",
+          "hidden"
+        ],
+        "tau": "0"
+      },
+      "source_free_euler_lagrange": {
+        "branch": "ROBUST_RECONSTRUCTION",
+        "epsilon": "0",
+        "eta": "0",
+        "feasible_model_ids": [
+          "flat"
+        ],
+        "record_distances": {
+          "flat": "0"
+        },
+        "target_diameter": "0",
+        "target_witness": null,
+        "tau": "0"
+      },
+      "unrestricted_source": {
+        "branch": "ROBUST_UNDERDETERMINATION",
+        "epsilon": "0",
+        "eta": "0",
+        "feasible_model_ids": [
+          "flat",
+          "hidden"
+        ],
+        "record_distances": {
+          "flat": "0",
+          "hidden": "0"
+        },
+        "target_diameter": "1/25",
+        "target_witness": [
+          "flat",
+          "hidden"
+        ],
+        "tau": "0"
+      }
+    }
+  },
+  "limits": [
+    "The robust classifier is an exact finite specialization of standard robust inverse-problem geometry.",
+    "The instrument witness uses standard binary measure-and-prepare quantum instruments.",
+    "The shared vertical chain is complete only for the predeclared value-reading action; it is deliberately incomplete for the held-out repeat until the selective-map receipt is added.",
+    "The conformal arena, polynomial class, records, and local scalar action are supplied.",
+    "The source-free toy field law is not Einstein dynamics and is not shown to be physically selected.",
+    "No physical remainder, record-first ontology, new law, new physics, paper state, or external action is established."
+  ],
+  "quantitative_reconstruction": {
+    "metric": "maximum total variation across declared stochastic rows",
+    "surface": {
+      "exact_insufficient": {
+        "branch": "ROBUST_UNDERDETERMINATION",
+        "epsilon": "0",
+        "eta": "0",
+        "feasible_model_ids": [
+          "exact_i0",
+          "exact_i1"
+        ],
+        "record_distances": {
+          "exact_i0": "0",
+          "exact_i1": "0"
+        },
+        "target_diameter": "1",
+        "target_witness": [
+          "exact_i0",
+          "exact_i1"
+        ],
+        "tau": "0"
+      },
+      "exact_sufficient": {
+        "branch": "ROBUST_RECONSTRUCTION",
+        "epsilon": "0",
+        "eta": "0",
+        "feasible_model_ids": [
+          "exact_s0",
+          "exact_s1"
+        ],
+        "record_distances": {
+          "exact_s0": "0",
+          "exact_s1": "0"
+        },
+        "target_diameter": "0",
+        "target_witness": null,
+        "tau": "0"
+      },
+      "near_insufficient": {
+        "branch": "ROBUST_UNDERDETERMINATION",
+        "epsilon": "1/4",
+        "eta": "1/4",
+        "feasible_model_ids": [
+          "near_i0",
+          "near_i1"
+        ],
+        "record_distances": {
+          "near_i0": "1/4",
+          "near_i1": "1/4"
+        },
+        "target_diameter": "1",
+        "target_witness": [
+          "near_i0",
+          "near_i1"
+        ],
+        "tau": "0"
+      },
+      "near_sufficient": {
+        "branch": "ROBUST_RECONSTRUCTION",
+        "epsilon": "1/4",
+        "eta": "1/4",
+        "feasible_model_ids": [
+          "near_s0",
+          "near_s1"
+        ],
+        "record_distances": {
+          "near_s0": "1/4",
+          "near_s1": "1/4"
+        },
+        "target_diameter": "0",
+        "target_witness": null,
+        "tau": "0"
+      },
+      "robustly_unrealizable": {
+        "branch": "ROBUSTLY_UNREALIZABLE",
+        "epsilon": "1/8",
+        "eta": "1/4",
+        "feasible_model_ids": [],
+        "record_distances": {
+          "near_i0": "1/4",
+          "near_i1": "1/4"
+        },
+        "target_diameter": null,
+        "target_witness": null,
+        "tau": "0"
+      }
+    },
+    "theorem": {
+      "branches": [
+        "eta>epsilon -> ROBUSTLY_UNREALIZABLE",
+        "eta<=epsilon and Delta<=tau -> ROBUST_RECONSTRUCTION",
+        "eta<=epsilon and Delta>tau -> ROBUST_UNDERDETERMINATION"
+      ],
+      "exact_limit": "epsilon=tau=0 recovers the HC-DU-039A realizability-first fibre trichotomy",
+      "feasible_fibre": "F(q,epsilon)={m:d_Q(r(m),q)<=epsilon}",
+      "realizability_defect": "eta(q)=inf_m d_Q(r(m),q)",
+      "sufficiency_defect": "Delta(q,epsilon)=sup_{m,n in F} d_Y(t(m),t(n))"
+    }
+  },
+  "run_id": "RUN-20260726-161113-robust-vertical-dynamics-reconstruction",
+  "synthesis": {
+    "common_contract": "First measure distance from the observed record to the admitted model image; only on the resulting nonempty tolerance fibre measure held-out target diameter.",
+    "geometry_localization": "Regularity and finite action do not remove scalable record-null modes. A field equation removes them only when its source class is frozen tightly enough that the homogeneous solution space plus the record map is uniqueness-generating.",
+    "north_star_change": "Reconstruction obligations are now target-indexed and two-coordinate: realizability eta and sufficiency Delta. Physical dynamics is evidence only through the admissible tangent/source class it removes, not through the presence of a named equation.",
+    "vertical_localization": "A formed, immutable, provenance-typed value can finalize the value-reading task while failing to determine the selective continuation. The missing type is the complete selective instrument, not another copy of the value."
+  },
+  "vertical_slice": {
+    "base_verdict": {
+      "branch": "ROBUST_UNDERDETERMINATION",
+      "epsilon": "0",
+      "eta": "0",
+      "feasible_model_ids": [
+        "prepare_zero",
+        "qnd",
+        "flip_after_record",
+        "prepare_one"
+      ],
+      "record_distances": {
+        "flip_after_record": "0",
+        "prepare_one": "0",
+        "prepare_zero": "0",
+        "qnd": "0"
+      },
+      "target_diameter": "1",
+      "target_witness": [
+        "prepare_zero",
+        "qnd"
+      ],
+      "tau": "0"
+    },
+    "implementations": {
+      "flip_after_record": {
+        "archive_after_repeat_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effect_sum": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effects": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "operators": [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "post_map": [
+          1,
+          0
+        ],
+        "record_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "refined_instrument_table": [
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "repeat_table": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "prepare_one": {
+        "archive_after_repeat_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effect_sum": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effects": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "operators": [
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "1",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "post_map": [
+          1,
+          1
+        ],
+        "record_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "refined_instrument_table": [
+          [
+            "0",
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "repeat_table": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ]
+      },
+      "prepare_zero": {
+        "archive_after_repeat_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effect_sum": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effects": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "operators": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "1"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ]
+        ],
+        "post_map": [
+          0,
+          0
+        ],
+        "record_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "refined_instrument_table": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1",
+            "0"
+          ]
+        ],
+        "repeat_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      "qnd": {
+        "archive_after_repeat_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effect_sum": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "effects": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "operators": [
+          [
+            [
+              "1",
+              "0"
+            ],
+            [
+              "0",
+              "0"
+            ]
+          ],
+          [
+            [
+              "0",
+              "0"
+            ],
+            [
+              "0",
+              "1"
+            ]
+          ]
+        ],
+        "post_map": [
+          0,
+          1
+        ],
+        "record_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "refined_instrument_table": [
+          [
+            "1",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "repeat_table": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    "minimality_scope": "Within the frozen binary measure-and-prepare class, two implementations, two outcomes, one formed event and one held-out repeat are the minimum arities for a same-effect/different-continuation witness.",
+    "noisy_feasible_verdict": {
+      "branch": "ROBUST_UNDERDETERMINATION",
+      "epsilon": "1/20",
+      "eta": "1/20",
+      "feasible_model_ids": [
+        "prepare_zero",
+        "qnd",
+        "flip_after_record",
+        "prepare_one"
+      ],
+      "record_distances": {
+        "flip_after_record": "1/20",
+        "prepare_one": "1/20",
+        "prepare_zero": "1/20",
+        "qnd": "1/20"
+      },
+      "target_diameter": "1",
+      "target_witness": [
+        "prepare_zero",
+        "qnd"
+      ],
+      "tau": "0"
+    },
+    "noisy_unrealizable_verdict": {
+      "branch": "ROBUSTLY_UNREALIZABLE",
+      "epsilon": "1/40",
+      "eta": "1/20",
+      "feasible_model_ids": [],
+      "record_distances": {
+        "flip_after_record": "1/20",
+        "prepare_one": "1/20",
+        "prepare_zero": "1/20",
+        "qnd": "1/20"
+      },
+      "target_diameter": null,
+      "target_witness": null,
+      "tau": "0"
+    },
+    "refined_selective_map_verdict": {
+      "branch": "ROBUST_RECONSTRUCTION",
+      "epsilon": "0",
+      "eta": "0",
+      "feasible_model_ids": [
+        "qnd"
+      ],
+      "record_distances": {
+        "flip_after_record": "1",
+        "prepare_one": "1",
+        "prepare_zero": "1",
+        "qnd": "0"
+      },
+      "target_diameter": "0",
+      "target_witness": null,
+      "tau": "0"
+    },
+    "refinement_projection": {
+      "distance_receipts": {
+        "flip_after_record": {
+          "fine_distance": "1",
+          "projected_distance": "0"
+        },
+        "prepare_one": {
+          "fine_distance": "1",
+          "projected_distance": "0"
+        },
+        "prepare_zero": {
+          "fine_distance": "1",
+          "projected_distance": "0"
+        },
+        "qnd": {
+          "fine_distance": "0",
+          "projected_distance": "0"
+        }
+      },
+      "label_map": "(r0p0,r0p1,r1p0,r1p1) -> (r0,r1)",
+      "projected_rows": {
+        "flip_after_record": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "prepare_one": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "prepare_zero": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "qnd": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ]
+      }
+    },
+    "selected_pair": {
+      "different_repeat_target": true,
+      "left": "qnd",
+      "right": "flip_after_record",
+      "same_effects": true,
+      "same_formed_record": true,
+      "target_distance": "1"
+    },
+    "shared_declared_chain": {
+      "archive_record": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "base_capability": "announce the initial source-basis value r",
+      "declared_value_finality": "archive value remains fixed under the held-out repeat",
+      "formed_pointer_record": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "observer_access": "observer reads archive bit r",
+      "occurrence_identity": "same run-local source event e0",
+      "omitted_type": "complete selective continuation / post-record map",
+      "physical_source": "basis-state bit h in {0,1}",
+      "provenance_route": "source->pointer->immutable_archive",
+      "regional_compatibility": "pointer value equals archive value"
+    }
+  }
+}

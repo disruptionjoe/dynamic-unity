@@ -186,10 +186,12 @@ lanes:
   - '6'
   - '7'
   current_objective: >-
-    Apply the HC-DU-039A realizability-first fibre contract to every reconstruction assay:
-    establish a nonempty admitted fibre before sufficiency, and charge any change of completion
-    or occurrence identity as contract retyping rather than record refinement. Execute the
-    HC-DU-036F FORMAL_FIRST_PARTNER_GATED route. Translate the five-part integrated
+    Apply the HC-DU-039A/039B contract to every reconstruction assay: report record-image
+    distance eta before held-out target diameter Delta on the certified tolerance fibre, and
+    charge any change of completion, source or occurrence identity as contract retyping rather
+    than record refinement. Preserve HC-DU-036G's result that value finality does not determine
+    selective continuation. Execute the HC-DU-036F FORMAL_FIRST_PARTNER_GATED route. Translate
+    the five-part integrated
     interventional-record contract into process-tensor, quantum-instrument,
     statistical-experiment and system-identification language, then prove, merge or stop the
     smallest exact four-way theorem. Preserve the independently selected record quotient,
@@ -215,6 +217,7 @@ lanes:
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
+  - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - lab/process/local-model-learning-gate.md
   do_not: >-
     Do not define records by all target experiments, infer ontology from vocabulary or finite
@@ -263,10 +266,12 @@ lanes:
   depends_on:
   - '2'
   current_objective: >-
-    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go and the
-    HC-DU-036F source/provider route correction. First type the five-part integrated contract
-    against established process-tensor and quantum-instrument language. Keep the frozen
-    19-circuit HC-DU-036E bridge as the only current pilot path and provider-returned rows
+    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go, the
+    HC-DU-036F source/provider route correction and HC-DU-036G's exact vertical-slice boundary:
+    a finalized value/provenance chain does not determine the selective continuation. First type
+    the five-part integrated contract against established process-tensor and quantum-instrument
+    language, retaining a complete selective-map receipt whenever a held-out continuation
+    matters. Keep the frozen 19-circuit HC-DU-036E bridge as the only current pilot path and provider-returned rows
     distinct from the complete physical attempt population. If the formal contribution
     survives, co-design the v0.1 packet with oriented reference, processor, pointer, archive,
     decoder, selective maps, every attempted shot, calibration/systematic uncertainty, route
@@ -288,6 +293,8 @@ lanes:
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
+  - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+  - tests/du_robust_vertical_dynamics_reconstruction_probe.py
   - lab/acquisition/README.md
   - docs/certified-causal-reality-research-program.md
   do_not: >-
@@ -310,10 +317,12 @@ lanes:
     Contract and countermodel work may proceed before Lane 3 closes; physical capability or
     finality claims must consume an independently formed record interface.
   current_objective: >-
-    Preserve the exact oriented-reference capability slice as an ordinary-resource absorber,
-    freeze the observer/access/task/loss/readout/decoder/risk/resource comparison contract, and
-    wait for a formed distinction with a candidate finality-specific residual before promoting a
-    stronger capability law.
+    Preserve the exact oriented-reference capability slice as an ordinary-resource absorber and
+    HC-DU-036G's target-indexed finality boundary: correct archive-value access and action can
+    coexist with maximal uncertainty about a held-out repeat. Freeze the
+    observer/access/task/loss/readout/decoder/risk/resource comparison contract, and wait for a
+    formed distinction with a candidate finality-specific residual before promoting a stronger
+    capability law.
   success_signal: >-
     A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
     counterexample showing exactly which access or resource was missing.
@@ -324,6 +333,7 @@ lanes:
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
   - lab/process/cross-repo-hardening-control-contract.md
+  - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
     capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
@@ -346,11 +356,13 @@ lanes:
     public-finality law requires physically formed interfaces and declared observers/access.
   current_objective: >-
     Preserve the exact typed identity, overlap, marginal, provenance, loop and upper-action
-    controls and the HC-DU-039A realizability-first boundary. An empty regional completion fibre
-    is incompatibility rather than reconstruction or remainder; a provenance/context lift that
-    restores a process is occurrence-identity or completion retyping, not ordinary same-class
-    record refinement. Next test formed-instrument descent, robust calibration and sparse
-    recursive composition without scalarizing the defect.
+    controls and the HC-DU-039A/039B realizability-first boundary. An empty regional completion
+    fibre is incompatibility rather than reconstruction or remainder; a provenance/context lift
+    that restores a process is occurrence-identity or completion retyping, not ordinary
+    same-class record refinement. Preserve HC-DU-036G's warning that finality is
+    proposition-specific: finalizing a value does not finalize an omitted continuation. Next
+    test formed-instrument descent, robust calibration and sparse recursive composition without
+    scalarizing the identity, compatibility, record-fit and target-spread defects.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -365,6 +377,7 @@ lanes:
   - tests/du_record_formation_composition_probe.py
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - tests/du_certified_reconstruction_fiber_probe.py
+  - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -387,14 +400,15 @@ lanes:
     Lane-2 representation work may map these relations now. Reconstruction or derivation claims
     require the physical formation, observer/access and regional-composition dependencies.
   current_objective: >-
-    Preserve HC-DU-038A's order/scalar-time boundary and HC-DU-038B's conditional conformal
-    reconstruction plus smooth hidden-mode counterexample under HC-DU-039A's common fibre
-    contract: verify realizability before target constancy, treat added records as same-class
-    refinements and added physical modes as completion enlargement. Next freeze one independently
-    justified physical restriction on the record-nullspace—field dynamics/source class,
-    energy/regularity, complete active source-to-solution or calibrated clock-and-light
-    observations, task resolution or mode-selection dynamics—and test whether it forces the
-    held-out remote clock up to gauge. Maintain HC-DU-040A as a separate conditional
+    Preserve HC-DU-038A's order/scalar-time boundary, HC-DU-038B's conformal hidden mode and
+    HC-DU-038C's dynamics-restricted nullspace criterion under HC-DU-039A/039B: report
+    record-image distance before target spread, treat records as same-class refinements and
+    physical modes or source freedom as completion enlargement. Smoothness, analyticity and
+    every positive finite-action bound fail as exact selectors; unrestricted source absorbs the
+    hidden mode; source-free u''=0 closes only the supplied toy class. Next replace that toy law
+    with one independently warranted physical dynamics and freeze its source-difference space
+    before the remote clock, or use a complete active clock/light observation surface. Maintain
+    HC-DU-040A as a separate conditional
     physical-recovery branch: its exact finite kernel distinguishes a global chiral index from
     access rank and proves that predictive flavor needs source-derived noncommuting
     triplet-breaking structure. Its inverse stage now localizes exact three outside ordinary
@@ -419,6 +433,8 @@ lanes:
   - tests/du_conformal_record_geometry_tournament_probe.py
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - tests/du_certified_reconstruction_fiber_probe.py
+  - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+  - tests/du_robust_vertical_dynamics_reconstruction_probe.py
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
   - explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md
@@ -3945,6 +3961,20 @@ provenance:
     identity/completion retyping. The 12/12 exact probe and known-mathematics collision earn a
     scoped three-specimen program theorem only; no physical completeness, remainder, ontology,
     novel theorem, new physics, paper state or external action is promoted.
+  rev54_note: >-
+    2026-07-26 (Joe direct chat: orchestrate the three coupled knowledge swings): executed
+    HC-DU-039B/036G/038C. Robust reconstruction now reports record-image distance eta separately
+    from held-out target diameter Delta; exact controls realize both coordinates independently
+    and reduce to HC-DU-039A at zero tolerance. A complete binary source--pointer--archive--
+    provenance--value-finality--access--base-capability chain leaves repeat continuation at
+    total-variation diameter one across four standard selective instruments; an
+    implementation-level selective-map receipt repairs it. In the conformal fixture,
+    smoothness, analyticity and a positive finite Dirichlet-action bound preserve the hidden
+    mode, and unrestricted J in u''=J absorbs it. Source-free u''=0 plus the frozen records closes
+    the supplied polynomial class, establishing the source-typed kernel criterion rather than a
+    physical geometry. The exact probe passes 36/36 twice with byte-identical artifact. Component
+    mathematics is known; no physical completeness, selected dynamics, remainder, ontology, new
+    law, new physics, paper state, hardware or external action is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

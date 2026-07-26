@@ -157,7 +157,17 @@ What *has* been earned is a strong finite control stack:
   refinement can split a nonempty fibre but cannot repair an empty one;
   provenance/context splitting that restores a process is contract retyping
   ([result](explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md);
-  [probe](tests/du_certified_reconstruction_fiber_probe.py)).
+  [probe](tests/du_certified_reconstruction_fiber_probe.py)); and
+- one coupled exact `HC-DU-039B/036G/038C` swing separating stochastic
+  record-model misfit from held-out target spread, carrying that distinction
+  through a complete binary observer/action chain, and testing the conformal
+  hidden mode against regularity, finite action, unrestricted source, and
+  source-free dynamics. Value finality does not determine selective
+  continuation; smoothness and finite action do not close the geometric
+  fibre; a source-frozen uniqueness-generating equation does in the supplied
+  toy class
+  ([result](explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md);
+  [probe](tests/du_robust_vertical_dynamics_reconstruction_probe.py)).
 
 ### The live bottleneck
 
@@ -224,12 +234,14 @@ this kernel on the next complete physical packet; do not interpret its
 class-relative margin as an irreducible physical remainder or spend another
 swing on synthetic completions.
 
-Every reconstruction assay must now carry two receipts in that order:
-realizability of the certified record inside the admitted completion class,
-then target sufficiency on that nonempty fibre. An empty fibre is a typed
+Every reconstruction assay must now carry two quantitative receipts in that
+order: record-model distance \(\eta\), then held-out target diameter
+\(\Delta\) on the certified tolerance fibre. An empty fibre is a typed
 compatibility or identity failure, not a remainder. A repair that changes the
-completion class or occurrence identity must be charged as contract retyping,
-not reported as an ordinary record refinement.
+completion class, source class or occurrence identity must be charged as
+contract retyping, not reported as ordinary record refinement. Finality is
+also target-indexed: a finalized value does not certify the selective
+continuation that produced it.
 
 The prospective physical gate is now executable. The versioned packet schema
 retains every attempted shot, calibration and joint-systematic object,
@@ -379,10 +391,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Screen complete physical evidence before any sufficiency verdict; figure-source summaries are insufficient. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Access and capability are not the same as possession of a latent record. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, and loop obstructions. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038B` reconstructs a declared conformal class but exposes a smooth hidden mode; next physically restrict the record-nullspace. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Preserve complete selective-map identity whenever continuation matters; value archives alone are insufficient. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Capability and finality are target-indexed; correct value access does not imply repeat-response access. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, loop obstructions, and the proposition each certificate finalizes. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038C` shows regularity/action bounds are insufficient and source-free toy dynamics can close the fibre; next test an independently warranted physical dynamics and frozen source class. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 

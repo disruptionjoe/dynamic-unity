@@ -563,6 +563,35 @@ calibrated clock-and-light instrument, finite task-resolution quotient, or
 dynamics selecting the admissible geometric modes. See
 `conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md`.
 
+### 2026-07-26 dynamics-restricted geometric nullspace
+
+`HC-DU-038C` executes the next restriction gate without fitting another
+geometric mode.
+
+On the degree-at-most-four conformal fixture, the four training functionals
+have rank four and the remote-clock functional detects the exact
+one-dimensional record nullspace. The prior hidden polynomial is already
+smooth and analytic. Its scaled rival has exact Dirichlet action
+`143/21875 < 1/100`, and arbitrarily small nonzero multiples survive every
+positive action bound. Regularity and bounded action therefore regularize
+without reconstructing.
+
+For a frozen linear field operator \(L\), record map \(R\), and target \(T\),
+fixed-source reconstruction holds exactly when
+\(\ker L\cap\ker R\subseteq\ker T\). If source differences may vary, the
+admissible tangent space becomes
+\(\{v:Lv\text{ is an admitted source difference}\}\). An unrestricted
+source therefore absorbs the hidden mode. In the supplied target-independent
+toy scalar law, source-free \(u''=0\) plus the anchored clock and total volume
+forces \(u=1\), while unrestricted \(u''=J\) does not.
+
+**Updated status:** **REGULARITY AND POSITIVE ACTION BOUNDS REFUTED AS EXACT
+COMPLETION SELECTORS / SOURCE-TYPED DYNAMICS NULLSPACE CRITERION EXACT /
+SOURCE-FREE TOY CLASS RECONSTRUCTS / PHYSICAL FIELD LAW AND SOURCE CLASS
+OPEN.** The next reopener is an independently warranted physical dynamics
+with its source-difference space frozen before the held-out target. See
+`robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize
@@ -721,6 +750,20 @@ resolution-stable intervention role. No claim is banked or seeded. See
   the synthetic positive margin, so the result is explicitly class-relative
   and cannot establish a physical remainder or record-first ontology. The
   finite LP machinery is known.
+- **Earned robust inverse and vertical-slice boundary.** `HC-DU-039B`
+  separates distance \(\eta\) from an observed stochastic record to the
+  admitted record image from target diameter \(\Delta\) over its certified
+  tolerance fibre. These coordinates are independent; the exact
+  zero-tolerance limit recovers `HC-DU-039A`. `HC-DU-036G` then carries the
+  contract through a binary source, selective pointer event, immutable
+  archive, provenance/occurrence identity, regional value compatibility,
+  declared value finality, observer access and correct value-reading
+  capability. Four standard instruments agree on that entire declared chain
+  but differ on the held-out repeat. A complete selective-map receipt repairs
+  the target. Therefore value finality is intervention-indexed and cannot be
+  promoted to complete continuation. The robust inverse and quantum
+  instrument components are known; no physical remainder or ontology is
+  earned.
 - **Earned finite-shot acquisition and epsilon certificate.** `HC-DU-036D`
   supplies a versioned shot-resolved packet, strict attempt/calibration/
   route/selective-history/reset join validator, and a conservative
@@ -759,13 +802,14 @@ resolution-stable intervention role. No claim is banked or seeded. See
   physics. This is an Interface-Necessity No-Go, not evidence that records or
   observers create physical reality.
 - **Immediate tests.**
-  1. `HC-DU-034B/036B/036C`: take one independently calibrated physical process
+  1. `HC-DU-034B/036B/036C/036G/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
      environment, controller, detector, invalid-trial and provenance fields,
-     reconstruct the complete selective maps with uncertainty, and decide
-     robust reconstruction, a resource-Pareto-minimal refinement, a finite
-     lower confidence bound on the class-relative deficiency, or incomplete
-     contract under a frozen admissible physical-refinement class. The public
+     reconstruct the complete selective maps with uncertainty, report both
+     record-image distance and held-out target diameter, and decide robust
+     reconstruction, a resource-Pareto-minimal refinement, a finite lower
+     confidence bound on the class-relative deficiency, or incomplete contract
+     under a frozen admissible physical-refinement class. The public
      evidence screen found Xiang et al.'s RB/OQE packet to be the strongest
      reopener but still aggregate- and provenance-incomplete. Audit for a
      joined shot/calibration/reset sidecar; otherwise specify a prospective
@@ -798,6 +842,9 @@ resolution-stable intervention role. No claim is banked or seeded. See
   FINITE INTERVENTIONAL CLOSURE AND WITNESS BOUND EXACT / NO SIZE-FREE
   FINITE SUFFICIENCY HORIZON / HC-DU-036C EXACT FINITE RATIONAL
   RECONSTRUCTION-REFINEMENT-CLASS-RELATIVE-REMAINDER TRICHOTOMY /
+  HC-DU-039B ROBUST RECORD-IMAGE-DISTANCE / TARGET-DIAMETER DECOMPOSITION
+  EXACT / HC-DU-036G COMPLETE VALUE-FINALITY CHAIN DOES NOT DETERMINE
+  SELECTIVE CONTINUATION /
   POSITIVE FINITE COMPLETION-CLASS MARGIN AND BOUNDARY-EXPANSION ABSORBER
   EXACT / PHYSICAL RECORD FORMATION AND INTERFACE
   SELECTION, ADMISSIBLE PHYSICAL REFINEMENT, BROADCASTABLE PUBLIC FINALITY,

@@ -140,6 +140,38 @@ minimum regional counterexample using known mathematics. It does not prove
 physical completeness, a physical remainder, record-first ontology,
 cross-platform completion of `HC-DU-039`, theorem novelty, or new physics.
 
+## Robust reconstruction, vertical slice, and dynamics restriction
+
+`du_robust_vertical_dynamics_reconstruction_probe.py` executes the coupled
+`HC-DU-039B/036G/038C` boundary. With exact rational arithmetic it checks:
+
+- independent record-realizability defect \(\eta\) and feasible-fibre target
+  diameter \(\Delta\) across all exact/near and sufficient/insufficient
+  combinations;
+- the robustly empty-fibre branch and the zero-tolerance reduction to
+  `HC-DU-039A`;
+- total-variation contraction and fine-fibre inclusion under stochastic
+  same-class record projection;
+- four complete binary measure-and-prepare selective instruments that share
+  outcome effects and formed archive values but differ on a held-out repeat;
+- one complete value/provenance/finality/access/base-capability chain whose
+  repeat target remains maximally underdetermined;
+- exact repair by an independently formed selective-map receipt;
+- the conformal hidden mode's survival under smoothness, analyticity and a
+  positive finite Dirichlet-action bound;
+- absorption of that mode by an unrestricted source \(J=u''\); and
+- elimination of the record nullspace by the supplied source-free toy
+  equation \(u''=0\), together with the general fixed-source kernel
+  criterion.
+
+The deterministic artifact is
+`artifacts/du_robust_vertical_dynamics_reconstruction_result.json` and reports
+`36/36` checks. Passing establishes an exact coupled program boundary using
+known robust-inverse, quantum-instrument and linear-field-equation
+mathematics. It does not establish a selected physical dynamics, Einstein
+equation, complete physical record, physical remainder, new law, ontology,
+new physics or paper verdict.
+
 ## Compute setup
 
 The current numerical probes require NumPy and otherwise use the Python
