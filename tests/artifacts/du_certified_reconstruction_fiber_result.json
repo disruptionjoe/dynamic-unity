@@ -1,0 +1,518 @@
+{
+  "checks": [
+    {
+      "detail": "the two frozen processes share the complete ordinary endpoint table and differ on four of eight held-out causal-break histories",
+      "id": "multitime_base_is_underdetermined",
+      "pass": true
+    },
+    {
+      "detail": "the independently formed intermediate transcript refines the endpoint record on the same completion class",
+      "id": "formed_multitime_record_repairs_target",
+      "pass": true
+    },
+    {
+      "detail": "one regional volume leaves flat space and the exact one-volume rival in one target-disagreeing fibre",
+      "id": "geometry_one_record_is_underdetermined",
+      "pass": true
+    },
+    {
+      "detail": "the second regional volume is an ordinary refinement and the full two-mode family is injective because its exact determinant is 3/64",
+      "id": "geometry_two_mode_reconstruction_uses_same_classifier",
+      "pass": true
+    },
+    {
+      "detail": "the hostile smooth mode preserves the training fibre and changes the held-out right clock",
+      "id": "geometry_hidden_mode_reopens_fibre",
+      "pass": true
+    },
+    {
+      "detail": "exact search first finds the three-variable, three-context frustrated cycle; none of eight ambient assignments lies in its fibre and every one-context deletion has a completion",
+      "id": "hostile_regional_case_is_minimum",
+      "pass": true
+    },
+    {
+      "detail": "every local pair table is normalized and every singleton overlap is exactly uniform",
+      "id": "hostile_local_records_are_individually_valid",
+      "pass": true
+    },
+    {
+      "detail": "target constancy alone is vacuously true on the empty completion fibre, so existence must be checked first",
+      "id": "realizability_prevents_vacuous_reconstruction",
+      "pass": true
+    },
+    {
+      "detail": "on finite realized records, target factorization and record-kernel inclusion return identical verdicts",
+      "id": "kernel_inclusion_matches_factorization",
+      "pass": true
+    },
+    {
+      "detail": "if r_coarse = projection o r_fine on the same model class, every fine fibre lies inside its coarse fibre",
+      "id": "ordinary_refinement_cannot_resurrect_empty_fibre",
+      "pass": true
+    },
+    {
+      "detail": "restoring a process by splitting context occurrences must change the completion or identity type; it is not an ordinary refinement of the empty coarse fibre",
+      "id": "regional_provenance_repair_is_contract_retyping",
+      "pass": true
+    },
+    {
+      "detail": "an unfrozen cross-context identity returns incomplete rather than reconstruction, remainder, or incompatibility",
+      "id": "unfrozen_identity_is_nonadjudication",
+      "pass": true
+    }
+  ],
+  "claim_grade": "EXACT TYPED FIBRE THEOREM SPECIALIZATION + INCLUSION-MINIMAL REGIONAL COUNTEREXAMPLE / COMPONENT MATHEMATICS KNOWN / NO PHYSICAL SUFFICIENCY, ONTOLOGY, OR NEW PHYSICS",
+  "local_model_learning_receipt": {
+    "admission_disposition": "ADMIT_LOCAL_LEARNING_BUILD",
+    "decision_consequence": "install realizability before reconstruction and type provenance repair as contract retyping",
+    "generated_not_encoded": "simple covers and parity labels were searched in increasing size; every assignment and one-context deletion was enumerated for each candidate through the first obstruction",
+    "local_learning_delta": "the minimum exact DU hostile fixture exposes vacuous constancy and separates record refinement from identity/completion retyping",
+    "maximum_grade": "exact finite and set-theoretic program theorem; no external hardware path",
+    "pre_hardware_checkpoint_result": "REALIZABILITY_FIRST_COMMON_THEOREM_WITH_MINIMUM_HOSTILE_CASE",
+    "research_only_baseline": "standard fibre factorization plus known cyclic marginal obstructions",
+    "stop_or_continuation": "STOP_EXACT_BOUNDARY_EARNED"
+  },
+  "run_id": "RUN-20260726-103543-typed-reconstruction-unification",
+  "schema_version": "dynamic-unity/certified-reconstruction-fiber/v0.1",
+  "specimens": {
+    "conformal_geometry": {
+      "hostile_smooth_completion": {
+        "contract_id": "geometry_hostile_smooth_completion",
+        "fibre_size": 2,
+        "target_values": [
+          "1",
+          "26/25"
+        ],
+        "verdict": "UNDERDETERMINED_TARGET",
+        "witness": {
+          "different_targets": [
+            "1",
+            "26/25"
+          ],
+          "same_record_models": [
+            "flat",
+            "hidden_smooth_mode"
+          ]
+        }
+      },
+      "one_volume": {
+        "contract_id": "geometry_one_regional_volume",
+        "fibre_size": 2,
+        "target_values": [
+          "1",
+          "3/5"
+        ],
+        "verdict": "UNDERDETERMINED_TARGET",
+        "witness": {
+          "different_targets": [
+            "1",
+            "3/5"
+          ],
+          "same_record_models": [
+            "flat",
+            "one_volume_rival"
+          ]
+        }
+      },
+      "refinement": {
+        "is_same_class_refinement": true,
+        "projection_failures": []
+      },
+      "two_mode_determinant": "3/64",
+      "two_volume_factorization": {
+        "decoder_on_record_image": [
+          [
+            [
+              "1",
+              "249/160"
+            ],
+            "3/5"
+          ],
+          [
+            [
+              "1",
+              "3/2"
+            ],
+            "1"
+          ]
+        ],
+        "factorizes": true,
+        "kernel_inclusion": true,
+        "witness": null
+      },
+      "two_volumes": {
+        "contract_id": "geometry_two_regional_volumes",
+        "fibre_size": 1,
+        "models": [
+          "flat"
+        ],
+        "target_values": [
+          "1"
+        ],
+        "verdict": "RECONSTRUCTS_TARGET"
+      }
+    },
+    "multitime": {
+      "base": {
+        "contract_id": "multitime_endpoint_record",
+        "fibre_size": 2,
+        "target_values": [
+          [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "verdict": "UNDERDETERMINED_TARGET",
+        "witness": {
+          "different_targets": [
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ],
+          "same_record_models": [
+            "recorded_qnd_process",
+            "endpoint_rival"
+          ]
+        }
+      },
+      "base_factorization": {
+        "decoder_on_record_image": [
+          [
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ]
+        ],
+        "factorizes": false,
+        "kernel_inclusion": false,
+        "witness": {
+          "models": [
+            "recorded_qnd_process",
+            "endpoint_rival"
+          ],
+          "record": [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          "targets": [
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      "refined": {
+        "contract_id": "multitime_formed_history_record",
+        "fibre_size": 1,
+        "models": [
+          "recorded_qnd_process"
+        ],
+        "target_values": [
+          [
+            0,
+            1,
+            0,
+            1,
+            1,
+            0,
+            1,
+            0
+          ]
+        ],
+        "verdict": "RECONSTRUCTS_TARGET"
+      },
+      "refined_factorization": {
+        "decoder_on_record_image": [
+          [
+            [
+              "FORMED_INTERMEDIATE_RECORDS",
+              [
+                [
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  0
+                ],
+                [
+                  1,
+                  1
+                ],
+                [
+                  0,
+                  1
+                ],
+                [
+                  0,
+                  0
+                ]
+              ],
+              [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ]
+            ],
+            [
+              0,
+              1,
+              0,
+              1,
+              1,
+              0,
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              "NO_INTERMEDIATE_RECORD",
+              [],
+              [
+                0,
+                1,
+                0,
+                1,
+                1,
+                0,
+                1,
+                0
+              ]
+            ],
+            [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          ]
+        ],
+        "factorizes": true,
+        "kernel_inclusion": true,
+        "witness": null
+      },
+      "refinement": {
+        "is_same_class_refinement": true,
+        "projection_failures": []
+      }
+    },
+    "regional_finality": {
+      "classification": {
+        "contract_id": "regional_frustrated_pair_context",
+        "fibre_size": 0,
+        "target_values": [],
+        "verdict": "UNREALIZABLE_RECORD"
+      },
+      "minimum_hostile_case": {
+        "context_count": 3,
+        "contexts": [
+          [
+            "A",
+            "B",
+            0
+          ],
+          [
+            "A",
+            "C",
+            0
+          ],
+          [
+            "B",
+            "C",
+            1
+          ]
+        ],
+        "global_support": [],
+        "inclusion_minimal": true,
+        "local_tables": [
+          [
+            "AB",
+            [
+              "1/2",
+              "0",
+              "0",
+              "1/2"
+            ]
+          ],
+          [
+            "AC",
+            [
+              "1/2",
+              "0",
+              "0",
+              "1/2"
+            ]
+          ],
+          [
+            "BC",
+            [
+              "0",
+              "1/2",
+              "1/2",
+              "0"
+            ]
+          ]
+        ],
+        "proper_deletion_supports": [
+          [
+            [
+              0,
+              1,
+              0
+            ],
+            [
+              1,
+              0,
+              1
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              1
+            ],
+            [
+              1,
+              1,
+              0
+            ]
+          ],
+          [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              1,
+              1
+            ]
+          ]
+        ],
+        "singleton_overlaps": [
+          "1/2",
+          "1/2"
+        ],
+        "vertex_count": 3,
+        "vertices": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "naive_constancy_only_verdict": true,
+      "repair_type": "CONTRACT_RETYPE_NOT_SAME_CLASS_REFINEMENT"
+    }
+  },
+  "summary": {
+    "passed": 12,
+    "total": 12
+  },
+  "theorem_receipt": {
+    "classifier": [
+      "UNREALIZABLE_RECORD",
+      "RECONSTRUCTS_TARGET",
+      "UNDERDETERMINED_TARGET"
+    ],
+    "global_reconstruction_criterion": "target factors through record image iff kernel(record) is contained in kernel(target)",
+    "hostile_correction": "realizability precedes target constancy; occurrence splitting that restores a process is contract retyping",
+    "refinement_boundary": "same-class refinement can split a nonempty fibre but cannot make an empty coarse fibre nonempty"
+  }
+}

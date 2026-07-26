@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 52
+manifest_revision: 53
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -43,6 +43,13 @@ local_model_learning_gate_rule: >-
   research or formal analysis supplies the same insight at equal grade, do that instead. If the
   first meaningful payoff requires hardware, do not build. Hardware may extend but not originate
   the first learning. Stop at the predeclared checkpoint when local learning fails.
+certified_reconstruction_fiber_ref: >-
+  explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
+certified_reconstruction_fiber_rule: >-
+  Every reconstruction assay first proves that the declared record has a nonempty fibre in the
+  frozen completion and occurrence-identity class, then tests target constancy or returns a
+  same-record/different-target witness. Empty fibre, nonempty underdetermination, same-class
+  refinement, completion enlargement and identity/completion retyping are distinct outcomes.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -179,7 +186,10 @@ lanes:
   - '6'
   - '7'
   current_objective: >-
-    Execute the HC-DU-036F FORMAL_FIRST_PARTNER_GATED route. Translate the five-part integrated
+    Apply the HC-DU-039A realizability-first fibre contract to every reconstruction assay:
+    establish a nonempty admitted fibre before sufficiency, and charge any change of completion
+    or occurrence identity as contract retyping rather than record refinement. Execute the
+    HC-DU-036F FORMAL_FIRST_PARTNER_GATED route. Translate the five-part integrated
     interventional-record contract into process-tensor, quantum-instrument,
     statistical-experiment and system-identification language, then prove, merge or stop the
     smallest exact four-way theorem. Preserve the independently selected record quotient,
@@ -204,6 +214,7 @@ lanes:
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
+  - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - lab/process/local-model-learning-gate.md
   do_not: >-
     Do not define records by all target experiments, infer ontology from vocabulary or finite
@@ -335,8 +346,11 @@ lanes:
     public-finality law requires physically formed interfaces and declared observers/access.
   current_objective: >-
     Preserve the exact typed identity, overlap, marginal, provenance, loop and upper-action
-    controls; next test formed-instrument descent, robust calibration and sparse recursive
-    composition without scalarizing the defect.
+    controls and the HC-DU-039A realizability-first boundary. An empty regional completion fibre
+    is incompatibility rather than reconstruction or remainder; a provenance/context lift that
+    restores a process is occurrence-identity or completion retyping, not ordinary same-class
+    record refinement. Next test formed-instrument descent, robust calibration and sparse
+    recursive composition without scalarizing the defect.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -349,6 +363,8 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - tests/du_regional_finality_descent_probe.py
   - tests/du_record_formation_composition_probe.py
+  - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
+  - tests/du_certified_reconstruction_fiber_probe.py
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -372,7 +388,9 @@ lanes:
     require the physical formation, observer/access and regional-composition dependencies.
   current_objective: >-
     Preserve HC-DU-038A's order/scalar-time boundary and HC-DU-038B's conditional conformal
-    reconstruction plus smooth hidden-mode counterexample. Next freeze one independently
+    reconstruction plus smooth hidden-mode counterexample under HC-DU-039A's common fibre
+    contract: verify realizability before target constancy, treat added records as same-class
+    refinements and added physical modes as completion enlargement. Next freeze one independently
     justified physical restriction on the record-nullspace—field dynamics/source class,
     energy/regularity, complete active source-to-solution or calibrated clock-and-light
     observations, task resolution or mode-selection dynamics—and test whether it forces the
@@ -399,6 +417,8 @@ lanes:
   - tests/du_meta_record_geometry_identification_probe.py
   - explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md
   - tests/du_conformal_record_geometry_tournament_probe.py
+  - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
+  - tests/du_certified_reconstruction_fiber_probe.py
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
   - explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md
@@ -3910,6 +3930,21 @@ provenance:
     physical result, exact equality, exhaustive completion, ontology, new physics, statistical
     novelty, paper activation, submission, publication, author contact or external action is
     promoted. The flagship now needs one real packet, not another synthetic fixture.
+  rev53_note: >-
+    2026-07-26 (Joe direct chat: build one typed reconstruction framework, apply it unchanged to
+    multi-time and conformal-geometry specimens, then use layered regional finality as the
+    hostile case): executed HC-DU-039A. The realizability-first fibre theorem returns
+    unrealizable record, nonempty target reconstruction or nonempty target underdetermination.
+    The QND endpoint record is underdetermined and its formed intermediate transcript repairs it;
+    one conformal regional volume is underdetermined, two reconstruct the frozen two-mode class,
+    and the smooth hidden mode reopens the fibre. Exact increasing-size search finds the
+    three-variable frustrated pair-context cycle as the inclusion-minimal hostile case: all local
+    tables and singleton overlaps are valid, every context deletion extends, but the full fibre
+    is empty. This exposes vacuous constancy in the weaker criterion. Same-class refinement
+    cannot resurrect an empty fibre, so provenance/context splitting that restores a process is
+    identity/completion retyping. The 12/12 exact probe and known-mathematics collision earn a
+    scoped three-specimen program theorem only; no physical completeness, remainder, ontology,
+    novel theorem, new physics, paper state or external action is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

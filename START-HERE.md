@@ -148,7 +148,16 @@ What *has* been earned is a strong finite control stack:
   establishes conditional finite-dimensional reconstruction and the
   finite-record ceiling, not a selected spacetime
   ([result](explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md);
-  [probe](tests/du_conformal_record_geometry_tournament_probe.py)).
+  [probe](tests/du_conformal_record_geometry_tournament_probe.py)); and
+- one exact scoped `HC-DU-039A` reconstruction theorem used unchanged on the
+  multi-time, conformal-geometry, and layered-regional-finality specimens.
+  It requires a nonempty completion fibre before target constancy, so the
+  inclusion-minimal frustrated binary triangle returns an unrealizable record
+  rather than vacuous reconstruction. It also proves that same-class record
+  refinement can split a nonempty fibre but cannot repair an empty one;
+  provenance/context splitting that restores a process is contract retyping
+  ([result](explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md);
+  [probe](tests/du_certified_reconstruction_fiber_probe.py)).
 
 ### The live bottleneck
 
@@ -214,6 +223,13 @@ A boundary-expansion control absorbs the synthetic remainder. Therefore use
 this kernel on the next complete physical packet; do not interpret its
 class-relative margin as an irreducible physical remainder or spend another
 swing on synthetic completions.
+
+Every reconstruction assay must now carry two receipts in that order:
+realizability of the certified record inside the admitted completion class,
+then target sufficiency on that nonempty fibre. An empty fibre is a typed
+compatibility or identity failure, not a remainder. A repair that changes the
+completion class or occurrence identity must be charged as contract retyping,
+not reported as an ordinary record refinement.
 
 The prospective physical gate is now executable. The versioned packet schema
 retains every attempted shot, calibration and joint-systematic object,

@@ -627,13 +627,23 @@ an established neighboring class. The exact DU gain is a typed
 record-resolution/completion contract and explicit controls, not a new
 Lorentzian theorem.
 
+`HC-DU-039A` now has a scoped component collision. Fibre factorization,
+kernel inclusion, sufficient-statistic quotients, cyclic marginal
+obstruction, contextuality/global-section failure, and inverse-problem
+nullspaces are established terrain. The exact DU gain is one
+realizability-first typing across the frozen multi-time, conformal-geometry,
+and regional-finality specimens, plus the proved separation between
+same-class refinement and occurrence-identity/completion retyping. It is not
+a novel mathematical theorem or completion of the broader five-platform
+invariance target.
+
 The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`, the physical
 formation/transfer portion of `HC-DU-036B`, `HC-DU-037`, and
-`HC-DU-039..040` retain only an initial collision-class inventory. Process
-tensors/combs, resource robustness, system identification, and causal-set
-reconstruction remain mandatory neighboring classes. No proposed law or
-theorem receives novelty language until its Lane-7 `CH-COLLIDE`
-claim-specific comparison is complete.
+the remainder of `HC-DU-039..040` retain only an initial collision-class
+inventory. Process tensors/combs, resource robustness, system identification,
+and causal-set reconstruction remain mandatory neighboring classes. No
+proposed law or theorem receives novelty language until its Lane-7
+`CH-COLLIDE` claim-specific comparison is complete.
 
 ## Primary theorem and conjecture spine
 
@@ -1449,6 +1459,58 @@ domain-specific refitting across:
 If each platform needs an unrelated definition, the relationship remains
 structural analogy rather than unity.
 
+**Executed scoped sub-result — `HC-DU-039A`.** One typed reconstruction
+contract now survives without semantic refitting across the frozen multi-time
+QND process, conformal-geometry, and layered-regional-finality specimens.
+For completion class \(M\), record map \(r:M\to Q\), target
+\(t:M\to Y\), and record \(q\), first form
+
+\[
+F_q=r^{-1}(q).
+\]
+
+Exactly one scientific branch holds: the fibre is empty; it is nonempty and
+the target is constant; or it is nonempty and contains a
+same-record/different-target witness. On realized records, target
+reconstruction is equivalent to
+\(\ker r\subseteq\ker t\), hence to factorization through
+\(\operatorname{im}r\).
+
+The hostile regional fixture is the inclusion-minimal simple binary
+pair-context cycle
+
+\[
+A=B,\qquad B=C,\qquad C\ne A
+\]
+
+with uniform local records. Every pair table is normalized, singleton
+overlaps agree, and every context deletion has a completion, but the full
+record has none. A constancy-only reconstruction criterion would pass this
+empty fibre vacuously. The corrected theorem returns
+`UNREALIZABLE_RECORD`.
+
+If \(r_2\) refines \(r_1\) on the same completion class through
+\(r_1=\pi\circ r_2\), then
+
+\[
+r_2^{-1}(q_2)\subseteq r_1^{-1}(\pi(q_2)).
+\]
+
+Thus an ordinary record refinement can split a nonempty fibre but cannot make
+an empty fibre nonempty. Provenance/context splitting that restores a global
+process changes the occurrence identity or completion type and must be
+reported as contract retyping.
+
+The multi-time endpoint record returns underdetermination and its formed
+intermediate transcript repairs it. One regional volume underdetermines the
+remote clock, two volumes reconstruct it inside the frozen two-mode class,
+and the hostile smooth mode reopens underdetermination. The exact probe passes
+`12/12`. These are known set-theoretic, marginal, process, and inverse-method
+components. No physical completeness, remainder, ontology, theorem novelty,
+new physics, or five-platform `HC-DU-039` completion is earned. See
+`../explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md`
+and `../tests/du_certified_reconstruction_fiber_probe.py`.
+
 ### `HC-DU-040` — Physical Recovery and Applications
 
 Only after the preceding dependencies:
@@ -1546,6 +1608,14 @@ vectorlike access rank three, and target-coded three.
 | `H-CCR-15` | Every finite layered-finality effect either factors through an enlarged standard quantum process carrying its history, route, environment and control registers, or leaves a finite post-causal-break witness after all admitted quantum and classical memories are re-prepared while entanglement and no-signalling are preserved. | A retained register, incomplete process boundary or signalling nonlinear rule absorbs every proposed residual. |
 | `H-CCR-16` | Relative to a declared cover, upper task, access class, adversary, and resource ledger, regional certified causal networks compose into an action-safe higher-level object exactly when their overlap data are compatible, their certificates have independent adversarial support, their boundary summaries are action-sufficient, and every loop either descends or carries an explicit provenance/logical lift; otherwise a finite typed obstruction identifies what is missing. | The conditions are defined to force composition, change meaning between quantum and distributed fixtures, fail under benign refinement, or require an unbounded or target-defined obstruction in the declared class. |
 
+**Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
+`H-CCR-08`, and `H-CCR-16` now use the `HC-DU-039A` ordering. First certify
+that the observed record has a nonempty fibre in the frozen completion and
+identity class. Only then test target constancy or produce a
+same-record/different-target witness. Empty fibre, nonempty
+target-disagreeing fibre, same-class refinement, completion enlargement, and
+occurrence-identity retyping are different return types.
+
 ## Dependency order
 
 ```text
@@ -1608,6 +1678,9 @@ vectorlike access rank three, and target-coded three.
    dynamics or task resolution [OPEN]
         |
 6. HC-DU-039 cross-platform invariance
+   HC-DU-039A realizability-first fibre theorem across multi-time,
+   conformal-geometry and layered-regional-finality specimens
+   [COMPLETED SCOPED THREE-SPECIMEN CONTROL]
         |
 7. HC-DU-040 QFT, GR, GU, Standard Model, and cosmology applications
    HC-DU-040A triplet boundary index and flavor identifiability
@@ -2097,6 +2170,11 @@ MULTI-TIME / AUTHENTICATED / QUANTUM TRANSFER PROBE 33/33
 CERTIFIED OVERLAP IDENTITY EXACT; ROBUST PHYSICAL IDENTITY AND SPARSE EXACT SCALING OPEN
 TYPED RECURSIVE IDENTITY/ACTION BOUNDS AND FULL-COVER MARGINAL RECEIPT EXACT
 NAIVE SCALAR COMPATIBILITY DEFECT FAILS INERT-SUBDIVISION NATURALITY
+HC-DU-039A REALIZABILITY-FIRST RECONSTRUCTION FIBRE TRICHOTOMY EXACT
+EMPTY FIBRE IS INCOMPATIBILITY, NOT RECONSTRUCTION OR PHYSICAL REMAINDER
+SAME-CLASS REFINEMENT CANNOT RESURRECT AN EMPTY COARSE FIBRE
+MINIMUM HOSTILE SIMPLE BINARY PAIR-CONTEXT CASE IS THE THREE-CONTEXT FRUSTRATED CYCLE
+MULTI-TIME / CONFORMAL-GEOMETRY / REGIONAL-FINALITY FIBRE PROBE 12/12
 HC-DU-034A SIGNED ALL-PORT HISTORY ASSAY EXACT AS AN ANALYTIC CONTROL
 TWO-HISTORY INTERACTION SELECTS A QND HISTORY ALGEBRA BUT NOT THE CERTIFICATE INSTRUMENT
 PROCESS-CLASS CERTIFICATION WITHOUT RUN-LEVEL HISTORY DISCLOSURE EXACT IN THE FROZEN FIXTURE

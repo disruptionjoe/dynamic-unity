@@ -111,6 +111,35 @@ does not establish a selected spacetime, Einstein solution, physical
 record-formation law, quantum-gravity result, new law, ontology or paper
 verdict.
 
+## Certified reconstruction fibre theorem
+
+`du_certified_reconstruction_fiber_probe.py` executes the scoped
+`HC-DU-039A` typed reconstruction theorem across three frozen specimens. It
+checks:
+
+- endpoint-record underdetermination and formed multi-time-record repair for
+  the QND process versus endpoint rival;
+- one-volume underdetermination, exact two-volume reconstruction with
+  determinant `3/64`, and reopening by the smooth hidden conformal mode;
+- the equivalence between target factorization and record-kernel inclusion on
+  realized finite records;
+- an exact increasing-size search for the inclusion-minimal simple binary
+  pair-context obstruction;
+- normalized local pair tables and matching singleton overlaps despite an
+  empty global completion fibre;
+- the vacuous truth bug in a constancy-only reconstruction classifier;
+- the theorem that a same-class refinement can split a nonempty fibre but
+  cannot make an empty coarse fibre nonempty; and
+- the resulting distinction between record refinement and
+  occurrence-identity/completion retyping.
+
+The deterministic artifact is
+`artifacts/du_certified_reconstruction_fiber_result.json` and reports
+`12/12` checks. Passing establishes an exact set-theoretic program theorem and
+minimum regional counterexample using known mathematics. It does not prove
+physical completeness, a physical remainder, record-first ontology,
+cross-platform completion of `HC-DU-039`, theorem novelty, or new physics.
+
 ## Compute setup
 
 The current numerical probes require NumPy and otherwise use the Python
