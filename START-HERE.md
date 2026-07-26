@@ -168,6 +168,19 @@ What *has* been earned is a strong finite control stack:
   toy class
   ([result](explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md);
   [probe](tests/du_robust_vertical_dynamics_reconstruction_probe.py)).
+- one exact finite `HC-DU-036H` autonomous-record quotient spine. Complete
+  acquisition-stratum, response, and next-record probabilities must agree
+  across every same-record history under every admitted action. This is
+  controlled strong lumpability/probabilistic bisimulation, and is stronger
+  than Blackwell sufficiency for one frozen tester family. Exact three-state
+  controls show why endpoint agreement and separate event/next-record
+  marginals fail; reset, empty-fibre, target-coded-repair, and representation
+  controls close the common loopholes. The same schema works on the
+  QND-versus-flip quantum-instrument shadow and a metastable-versus-BFT
+  distributed-process shadow. The result is known mathematics plus an
+  integrated assurance contract, not a new theorem or physical record
+  ([result](explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md);
+  [probe](tests/du_certified_causal_spine_probe.py)).
 - one formal-first `HC-DU-033C/038D` separation result. Any natural
   interface selected at a lawful completion must be fixed by that
   completion's symmetry stabilizer. Minkowski's Lorentz stabilizer has no
@@ -299,27 +312,35 @@ lower-level physical trigger or retained provider memory, so its ceiling is
 `RETURNED_SHOT_CONDITIONAL_ONLY`
 ([result](explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md);
 [driver](lab/acquisition/README.md);
-[probe](tests/du_acquisition_visibility_bridge_probe.py)). The remaining
-flagship bottleneck has now passed a source-pinned novelty and reachability
-gate. Process tensors, quantum-instrument tomography, instrument-specific
-memory, causal breaks, and postselection already occupy the component jobs.
-The five-part DU integration was not located as one result, but remains
-search-incomplete rather than novel. Public documentation for five provider
-interfaces shows no standard route promising every physical attempt and reset
-of every admitted memory, while the existing IBM bridge remains sufficient
-for a returned-shot pilot. The disposition is
-`FORMAL_FIRST_PARTNER_GATED`: first state and collide the integrated theorem
-or evidence-standard contribution in established language, derive exact
-counterexamples and the minimum discriminating experiment locally, and stop
-if that work is absorbed. The current computer can complete those
-scientifically significant gates. Run the frozen cloud pilot only after
-direct authorization and only if it changes an instrument, margin, reset, or
-shot-budget decision; use a co-designed implementation-complete packet for
-physical adjudication. Do not build
-another adapter without a documented observability advantage
+[probe](tests/du_acquisition_visibility_bridge_probe.py)). The flagship then
+passed its source-pinned novelty and reachability gate. Process tensors,
+quantum-instrument tomography, instrument-specific memory, causal breaks, and
+postselection already occupy the component jobs; the five-part DU integration
+was not located as one result, but remains search-incomplete rather than
+novel. Public documentation for five provider interfaces shows no standard
+route promising every physical attempt and reset of every admitted memory,
+while the existing IBM bridge remains sufficient for a returned-shot pilot
 ([gate](explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md);
 [probe](tests/du_interventional_sufficiency_reachability_gate_probe.py)).
-The current dry run is synthetic and earns no physical verdict.
+
+`HC-DU-036H` has now executed the gate's formal-first route. The recursive
+quotient theorem is established controlled lumpability/bisimulation; the
+restricted predictive form is Blackwell sufficiency; and the quantum and
+distributed anchors transfer without semantic refitting. The exact
+counterexamples and minimum one-action discriminators are local and complete.
+The disposition is therefore
+`KNOWN_MATHEMATICS__INTEGRATED_ASSURANCE_ONLY`. Do not spend another swing on
+synthetic quotient variants, a new provider adapter, or theorem novelty.
+
+The live flagship bottleneck is now physical formation and interface
+selection: establish which complete selective record, archive, provenance
+field, reset boundary, and admissible refinement is independently produced or
+selected by the physical process, and which remains supplied, fitted, or
+representation-dependent. Reuse the `HC-DU-036H` spine as the acceptance
+test. Run the frozen cloud pilot only after direct authorization and only if
+it changes an instrument, margin, reset, or shot-budget decision; physical
+adjudication still requires a co-designed implementation-complete packet.
+The current dry runs are synthetic and earn no physical verdict.
 
 For planning, assume **no external hardware is available**. That changes only
 after the local theorem/absorption, exact-counterexample, existing-data, and

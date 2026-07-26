@@ -1264,6 +1264,41 @@ instrument mathematics and does not establish a unique apparatus, physical
 remainder, or ontology. See
 `../explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`.
 
+**Executed formal-spine successor — `HC-DU-036H`.** For a finite controlled
+selective kernel \(K_a(s,y,h'\mid h)\) and an independently frozen
+deterministic record \(r\), the record supports an autonomous controlled
+quotient exactly when
+
+\[
+\sum_{z:r(z)=q'}K_a(s,y,z\mid h)
+\]
+
+depends on \(h\) only through \(r(h)\), for every action, acquisition
+stratum, response, and next-record class. The common row defines the quotient
+kernel, and induction preserves every finite labelled-record trace and
+record-adaptive policy. The converse follows from well-definedness.
+
+This is controlled strong lumpability/probabilistic bisimulation, not a new
+theorem. It is stronger than Blackwell sufficiency for one frozen response
+family; that distinction is now mandatory whenever the record is used as a
+recursively updateable state. Exact controls prove that separate
+stratum/response and next-record marginals are insufficient, returned rows
+can hide rejected-stratum differences, a visible-system reset can retain
+recouplable memory, an empty fibre is unrealizable rather than vacuously
+sufficient, target-coded repair is inadmissible, and representation-sensitive
+selection does not descend.
+
+The same typed kernel was used without semantic refitting on the existing
+QND-versus-flip quantum-instrument shadow and an authenticated
+metastable-versus-BFT distributed-process shadow. A complete selective-map
+receipt and authenticated layer provenance repair their finite quotients
+inside the declared candidate classes. These are exact operational shadows,
+not physical selection, hardware data, or a remainder. The formal-first
+uncertainty is therefore closed as
+`KNOWN_MATHEMATICS__INTEGRATED_ASSURANCE_ONLY`; the next bottleneck is
+physical formation and interface selection. See
+`../explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md`.
+
 **Repository-wide local-model learning gate — `LMLG-01`.** Future
 simulations, toy models, finite solvers, executable fixtures, trained
 surrogates, emulators, and adapters proposed as research paths must produce a
@@ -1819,6 +1854,8 @@ supplied, or fitted; target constancy cannot supply interface provenance.
     [COMPLETED EXACT CLAIM BOUNDARY; HARDWARE PILOT NOT RUN]
     HC-DU-036G complete binary observer/action vertical slice
     [COMPLETED EXACT CONTROL; VALUE FINALITY DOES NOT FIX CONTINUATION]
+    HC-DU-036H selective autonomous-record quotient spine
+    [COMPLETED EXACT KNOWN-MATHEMATICS SPECIALIZATION; PHYSICAL FORMATION OPEN]
     HC-DU-034B certificate-without-run-history-disclosure control [COMPLETED SCOPED]
     implementation-complete physical interventional-sufficiency arm with full
     selective instrument, provenance and calibrated finite-shot null [OPEN;

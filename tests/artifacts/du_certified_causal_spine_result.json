@@ -1,0 +1,304 @@
+{
+  "all_passed": true,
+  "anchors": {
+    "authenticated_distributed_process": {
+      "base_failure_actions": [
+        "late_conflict"
+      ],
+      "evidence_level": "exact finite authenticated layered-consensus shadow",
+      "minimum_discriminator": "late_conflict",
+      "pareto_repairs": [
+        "authenticated_layer_receipt"
+      ],
+      "refined_failure_count": 0
+    },
+    "quantum_instrument": {
+      "base_failure_actions": [
+        "repeat_system"
+      ],
+      "evidence_level": "exact finite classical shadow of standard binary measure-and-prepare instrument behavior",
+      "minimum_discriminator": "repeat_system",
+      "pareto_repairs": [
+        "instrument_receipt"
+      ],
+      "refined_failure_count": 0
+    },
+    "semantic_refit": false
+  },
+  "artifact_type": "exact_finite_certified_causal_autonomous_record_quotient_controls",
+  "assurance_contract": {
+    "empirical_boundary": "finite data supports calibrated epsilon-sufficiency or an insufficiency witness, not exact equality",
+    "freeze_before_target": "observer boundary, completion class, record, representation class, action/tester family, all acquisition strata, resources, reset scope, and admissible refinements",
+    "reset_receipt": "system, environment/ancilla, pointer/detector, controller, decoder, route/scheduler, acquisition buffer, and intended archive",
+    "retain": "joint subnormalized stratum-response-next-record behavior; never normalized returned rows alone",
+    "typed_verdicts": [
+      "BASE_QUOTIENT",
+      "PARETO_REPAIR",
+      "CLASS_RELATIVE_FAILURE",
+      "UNREALIZABLE",
+      "INCONCLUSIVE",
+      "INCOMPLETE_CONTRACT"
+    ]
+  },
+  "campaign_decision": {
+    "hardware": "not required; no external-hardware path should be opened from this finite result",
+    "next_bottleneck": "physical formation and interface selection: determine which record/refinement is independently produced, accessible, stable, provenance-bearing, and representation robust",
+    "swing_1": "succeeds as an absorbed formal and assurance spine; it does not earn a new theorem or physical record ontology"
+  },
+  "candidate_repairs": {
+    "distributed": [
+      {
+        "admissible": true,
+        "candidate_id": "public_endpoint",
+        "exact": false,
+        "resource_vector": [
+          0,
+          0
+        ]
+      },
+      {
+        "admissible": true,
+        "candidate_id": "authenticated_layer_receipt",
+        "exact": true,
+        "resource_vector": [
+          1,
+          1
+        ]
+      },
+      {
+        "admissible": false,
+        "candidate_id": "future_response_label",
+        "exact": true,
+        "resource_vector": [
+          0,
+          1
+        ]
+      }
+    ],
+    "quantum": [
+      {
+        "admissible": true,
+        "candidate_id": "base_archive",
+        "exact": false,
+        "resource_vector": [
+          0,
+          0
+        ]
+      },
+      {
+        "admissible": true,
+        "candidate_id": "instrument_receipt",
+        "exact": true,
+        "resource_vector": [
+          1,
+          1
+        ]
+      },
+      {
+        "admissible": false,
+        "candidate_id": "target_coded",
+        "exact": true,
+        "resource_vector": [
+          0,
+          1
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "check_id": "selective_lumpability_defines_autonomous_quotient",
+      "detail": "the labelled next-record row is independent of hidden representative",
+      "passed": true
+    },
+    {
+      "check_id": "selective_lumpability_preserves_all_tested_traces",
+      "detail": "all action words through depth five have equal trace laws within each record block",
+      "passed": true
+    },
+    {
+      "check_id": "endpoint_factorization_needs_continuation_congruence",
+      "detail": "equal current response does not determine the labelled next record",
+      "passed": true
+    },
+    {
+      "check_id": "three_states_are_minimal_for_deterministic_endpoint_witness",
+      "detail": "exhaustive deterministic search finds no two-state witness and a three-state witness",
+      "passed": true
+    },
+    {
+      "check_id": "weak_stochastic_marginals_miss_selective_correlation",
+      "detail": "event and next-record marginals agree while their joint distribution differs",
+      "passed": true
+    },
+    {
+      "check_id": "returned_only_misses_rejected_stratum",
+      "detail": "same acceptance rate and accepted response coexist with a different rejected response",
+      "passed": true
+    },
+    {
+      "check_id": "system_reset_does_not_reset_hidden_memory",
+      "detail": "a later recoupling distinguishes histories after visible-system reset",
+      "passed": true
+    },
+    {
+      "check_id": "complete_reset_removes_residual",
+      "detail": "resetting visible and retained memory equalizes the held-out continuation",
+      "passed": true
+    },
+    {
+      "check_id": "realizability_precedes_target_constancy",
+      "detail": "an empty fibre is UNREALIZABLE, never a vacuous reconstruction success",
+      "passed": true
+    },
+    {
+      "check_id": "target_coded_repair_is_refused",
+      "detail": "an exact target-derived split is a diagnostic, not an independently formed repair",
+      "passed": true
+    },
+    {
+      "check_id": "selector_must_descend_across_representation_class",
+      "detail": "equivalent admitted representations select opposite candidates",
+      "passed": true
+    },
+    {
+      "check_id": "quantum_anchor_exposes_one_heldout_continuation",
+      "detail": "QND and flip-after-record share the archive but differ under repeat",
+      "passed": true
+    },
+    {
+      "check_id": "quantum_selective_map_refinement_repairs_quotient",
+      "detail": "the independently declared instrument tag makes the finite anchor autonomous",
+      "passed": true
+    },
+    {
+      "check_id": "distributed_anchor_exposes_one_late_conflict",
+      "detail": "metastable and BFT-hardened endpoints differ under an authenticated late conflict",
+      "passed": true
+    },
+    {
+      "check_id": "distributed_layer_provenance_repairs_quotient",
+      "detail": "authenticated layer provenance makes the finite anchor autonomous",
+      "passed": true
+    },
+    {
+      "check_id": "finite_quantum_repair_class_has_pareto_minimum",
+      "detail": "minimality is earned only inside the frozen finite admissible class",
+      "passed": true
+    },
+    {
+      "check_id": "finite_distributed_repair_class_has_pareto_minimum",
+      "detail": "the same finite Pareto rule is reused without platform-specific refitting",
+      "passed": true
+    },
+    {
+      "check_id": "pure_record_relabeling_preserves_failure",
+      "detail": "a bijective record-label change cannot manufacture a quotient",
+      "passed": true
+    },
+    {
+      "check_id": "one_unchanged_schema_serves_both_anchors",
+      "detail": "both anchors use states, actions, selection, response, next state, record, and exact probability",
+      "passed": true
+    }
+  ],
+  "checks_passed": 19,
+  "convergence_outcome": "KNOWN_MATHEMATICS__INTEGRATED_ASSURANCE_ONLY",
+  "hostile_controls": {
+    "empty_fibre": {
+      "classification": "UNREALIZABLE",
+      "fibre": [],
+      "observed_record": "q_missing"
+    },
+    "endpoint_minimum": {
+      "current_response_factors": true,
+      "selective_congruence_fails": true,
+      "three_state_exhaustive_witness_exists": true,
+      "two_state_exhaustive_witness_exists": false
+    },
+    "representation_selector": {
+      "classification": "REPRESENTATION_SENSITIVE_NO_SELECTOR",
+      "descends_to_equivalence_class": false,
+      "selected_by_representation": {
+        "phi0": "good",
+        "phi1": "bad"
+      }
+    },
+    "reset": {
+      "complete_equal": true,
+      "system_only_equal": false
+    },
+    "returned_only": {
+      "full_selective_failures": [
+        {
+          "action": "attempt",
+          "left_row": {
+            "('accepted', 'y0', 'q')": "1/2",
+            "('rejected', 'y0', 'q')": "1/2"
+          },
+          "left_state": "h0",
+          "record": "q",
+          "right_row": {
+            "('accepted', 'y0', 'q')": "1/2",
+            "('rejected', 'y1', 'q')": "1/2"
+          },
+          "right_state": "h1"
+        }
+      ],
+      "h0": {
+        "acceptance_probability": "1/2",
+        "conditional_response": {
+          "y0": "1"
+        }
+      },
+      "h1": {
+        "acceptance_probability": "1/2",
+        "conditional_response": {
+          "y0": "1"
+        }
+      }
+    },
+    "selective_correlation_failure": {
+      "full_selective_failures": [
+        {
+          "action": "attempt",
+          "left_row": {
+            "('s0', 'y0', 'q0')": "1/2",
+            "('s1', 'y0', 'q1')": "1/2"
+          },
+          "left_state": "h0",
+          "record": "q0",
+          "right_row": {
+            "('s0', 'y0', 'q1')": "1/2",
+            "('s1', 'y0', 'q0')": "1/2"
+          },
+          "right_state": "h1"
+        }
+      ],
+      "weak_marginals_factor": true
+    },
+    "target_coded_repair": {
+      "admissible": false,
+      "base_exact": false,
+      "refusal_reason": "target_fitted_completion",
+      "target_refinement_exact": true
+    }
+  },
+  "limits": [
+    "The theorem is established finite quotient mathematics.",
+    "The quantum and distributed anchors are exact operational shadows, not hardware data.",
+    "The probe does not select a physically privileged record or admissible refinement.",
+    "Pareto minimality is only relative to the explicitly finite candidate classes.",
+    "No ontology, physical remainder, new law, new physics, paper promotion, or external action is established."
+  ],
+  "run_id": "RUN-20260726-144910-certified-causal-spine",
+  "theorem": {
+    "absorber": "labelled controlled strong lumpability / probabilistic bisimulation, with Blackwell sufficiency for fixed response families and process tensors/combs for quantum multi-time behavior",
+    "bounded_failure_witness": "A failed condition supplies one current record, two hidden representatives, one action, one stratum-response cell, and one next-record class. General trace-equivalence searches need an independently frozen finite-state/rank bound.",
+    "condition": "For all record-equivalent h,h', admitted actions a, acquisition strata s, responses y, and next-record classes q', the aggregate K_a(s,y,q'|h) equals K_a(s,y,q'|h').",
+    "name": "Finite selective autonomous-record quotient criterion",
+    "necessity": "Any well-defined quotient selective kernel must assign one row to the common current record, so representative rows agree.",
+    "scope_boundary": "This is necessary and sufficient for an autonomous record state. Predictive sufficiency for a fixed tester family is the weaker Blackwell factorization of that bundled experiment and need not imply bisimulation.",
+    "sufficiency": "The common row defines the quotient kernel; induction on action words preserves every finite labelled-record trace, including record-adaptive policies."
+  }
+}

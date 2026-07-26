@@ -901,8 +901,26 @@ resolution-stable intervention role. No claim is banked or seeded. See
   archive, observer-access, or finality credit until an independently formed
   record reduces a nonempty, still-open lawful target fibre. See
   `cfs-self-adjointization-selection-ambiguity-2026-07-26.md`.
+- **Earned selective autonomous-record spine.** `HC-DU-036H` now states the
+  finite recursive quotient at its correct strength. For every pair of
+  same-record histories, action, acquisition stratum, response, and
+  next-record class, the joint subnormalized selective probability must be
+  representative-independent. This is necessary and sufficient for a
+  well-defined controlled record kernel and therefore for every finite
+  labelled-record trace. It is controlled strong lumpability/probabilistic
+  bisimulation, and is stronger than predictive Blackwell sufficiency for one
+  frozen tester family. Exact controls locate the minimum deterministic
+  three-state endpoint failure, a stochastic same-marginals/different-joint
+  failure, rejected-stratum omission, hidden reset memory, empty fibre,
+  target-coded repair, and representation-sensitive selection. The same
+  schema applies without refitting to a QND-versus-flip quantum-instrument
+  shadow and a metastable-versus-BFT authenticated-process shadow. The
+  mathematical core is absorbed; the retained contribution is the integrated
+  assurance contract. Physical formation and selection of the record,
+  refinement, and reset boundary remain open. See
+  `certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md`.
 - **Immediate tests.**
-  1. `HC-DU-034B/036B/036C/036G/039B`: take one independently calibrated physical process
+  1. `HC-DU-034B/036B/036C/036G/036H/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
      environment, controller, detector, invalid-trial and provenance fields,
      reconstruct the complete selective maps with uncertainty, report both
@@ -951,6 +969,9 @@ resolution-stable intervention role. No claim is banked or seeded. See
   HC-DU-039B ROBUST RECORD-IMAGE-DISTANCE / TARGET-DIAMETER DECOMPOSITION
   EXACT / HC-DU-036G COMPLETE VALUE-FINALITY CHAIN DOES NOT DETERMINE
   SELECTIVE CONTINUATION /
+  HC-DU-036H SELECTIVE AUTONOMOUS-RECORD QUOTIENT EXACT AND ABSORBED BY
+  CONTROLLED LUMPABILITY/BISIMULATION / UNCHANGED QUANTUM-DISTRIBUTED
+  TWO-ANCHOR ASSURANCE SPINE INSTALLED /
   HC-DU-033C STABILIZER INTERFACE-SELECTION OBSTRUCTION EXACT /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION

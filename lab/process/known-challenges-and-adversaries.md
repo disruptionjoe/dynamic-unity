@@ -154,6 +154,20 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     stable/pathological branch ordering. Do not resolve the reversal by
     choosing the map whose answer is preferred.
 
+19. **Marginal-sufficiency/autonomous-record substitution.** *Objection:*
+    equal terminal values, equal stratum/response marginals, or even equal
+    unconditioned next-record marginals are reported as a recursively
+    sufficient causal record. *Way through:* when the record is used as a
+    state, require the full joint subnormalized
+    \((\text{stratum},\text{response},\text{next record})\) row to be
+    representative-independent under every admitted action. Keep predictive
+    Blackwell sufficiency for a frozen tester family distinct from an
+    autonomous controlled quotient. Include rejected/invalid/missing strata,
+    verify reset over every retained memory, test record realizability first,
+    and refuse target-coded or representation-sensitive repairs. `HC-DU-036H`
+    is the exact finite standing control; its mathematics is controlled strong
+    lumpability/probabilistic bisimulation, not a new DU law.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

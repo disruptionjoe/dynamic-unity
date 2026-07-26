@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 55
+manifest_revision: 56
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -58,6 +58,17 @@ law_interface_reconstruction_rule: >-
   closure. Separately report whether the observer, instrument, archive, decoder and access
   interface is stabilizer-selected, selected only up to an orbit, supplied or fitted. Lawful
   target closure and interface selection are independent receipts.
+certified_causal_spine_ref: >-
+  explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
+certified_causal_spine_rule: >-
+  When a certified record is used as a recursively updateable state, require complete joint
+  acquisition-stratum, response and next-record probabilities to agree across every
+  same-record history under every admitted action. Keep this autonomous controlled quotient
+  distinct from Blackwell sufficiency for a frozen tester family. Test realizability first,
+  retain rejected/invalid/missing strata, receipt every retained reset memory, and refuse
+  target-coded or representation-sensitive repairs. The mathematics is controlled strong
+  lumpability/probabilistic bisimulation; the open scientific problem is physical formation
+  and selection of the record/interface/refinement.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -200,13 +211,16 @@ lanes:
     than record refinement. Apply HC-DU-038D's attribution baseline first: compare the lawful
     target diameter without records with the record-conditioned diameter, and use HC-DU-033C's
     stabilizer test to report interface provenance independently. Preserve HC-DU-036G's result
-    that value finality does not determine selective continuation. Execute the HC-DU-036F
-    FORMAL_FIRST_PARTNER_GATED route. Translate
-    the five-part integrated
-    interventional-record contract into process-tensor, quantum-instrument,
-    statistical-experiment and system-identification language, then prove, merge or stop the
-    smallest exact four-way theorem. Preserve the independently selected record quotient,
-    intervention/resource boundary and factorization-or-witness contract. Use the completed
+    that value finality does not determine selective continuation. Consume the completed
+    HC-DU-036H spine: an autonomous record state requires the complete selective
+    stratum-response-next-record row to descend, while predictive sufficiency for one frozen
+    tester family is weaker. The theorem is absorbed by controlled lumpability/bisimulation and
+    Blackwell sufficiency, so stop further synthetic quotient variants and novelty pursuit.
+    Advance the physical formation/interface-selection dependency: determine which complete
+    selective record, archive, provenance field, reset boundary and admissible refinement is
+    independently formed or selected rather than supplied, fitted or representation-dependent.
+    Preserve the independently selected record quotient, intervention/resource boundary and
+    factorization-or-witness contract. Use the completed
     HC-DU-036E IBM bridge only after direct authorization and only for a decision-changing
     returned-shot calibration; require a co-designed all-attempt and complete-memory-reset packet
     for physical adjudication. Assume external hardware is unavailable until the local gates prove
@@ -227,6 +241,7 @@ lanes:
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
+  - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
@@ -287,12 +302,16 @@ lanes:
     timelike current is the positive control for that one component, not a complete interface.
     Preserve the HC-DU-036F source/provider route correction and HC-DU-036G's exact
     vertical-slice boundary: a finalized value/provenance chain does not determine the selective
-    continuation. First type
-    the five-part integrated contract against established process-tensor and quantum-instrument
-    language, retaining a complete selective-map receipt whenever a held-out continuation
-    matters. Keep the frozen 19-circuit HC-DU-036E bridge as the only current pilot path and provider-returned rows
-    distinct from the complete physical attempt population. If the formal contribution
-    survives, co-design the v0.1 packet with oriented reference, processor, pointer, archive,
+    continuation. HC-DU-036H has now typed and absorbed the finite recursive quotient: retain
+    the complete joint stratum-response-next-record row whenever the record must update
+    autonomously, and keep that distinct from fixed-tester predictive sufficiency. Use that
+    assurance spine to attack physical formation and interface selection directly. Require an
+    independently motivated source, reference/asymmetry resource, interaction, pointer, archive,
+    provenance, decoder/access rule, reset boundary and representation-robust admissible
+    refinement class; report each as selected, orbit-selected, supplied or fitted. Keep the
+    frozen 19-circuit HC-DU-036E bridge as the only current pilot path and provider-returned rows
+    distinct from the complete physical attempt population. If a physical attempt consumes the
+    formal spine, co-design the v0.1 packet with oriented reference, processor, pointer, archive,
     decoder, selective maps, every attempted shot, calibration/systematic uncertainty, route
     provenance and verified complete-memory reset explicit. Plan under no external-hardware
     availability; an irreducible hardware boundary earns one awareness note, not repeated pursuit.
@@ -312,6 +331,7 @@ lanes:
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
+  - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
@@ -501,12 +521,15 @@ lanes:
     Keep the complete paper-opportunity portfolio moving through a two-horizon allocation:
     obtain independent expert proof review and a systematic bibliography for the surviving
     DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while moving the
-    higher-ceiling DU-PAPER-007 flagship through the HC-DU-036F formal-first integrated-
-    contribution gate. Use the existing HC-DU-036E pilot only when directly authorized and
+    higher-ceiling DU-PAPER-007 flagship beyond the completed HC-DU-036F/036H formal gate.
+    The finite quotient theorem is absorbed; retain the integrated assurance contract and make
+    physical formation/interface selection plus an implementation-complete packet the next
+    contribution test. Use the existing HC-DU-036E pilot only when directly authorized and
     decision-changing; otherwise assume no external hardware and keep the work local. An
     irreducible hardware dependency gets one awareness note and then parks without separate Joe
-    authorization. Seek a co-designed packet only after formal survival. The bounded public-
-    sidecar audit is closed; consume HC-DU-036C/036D for physical adjudication only after complete
+    authorization. Seek a co-designed packet only after the physical-formation design is locally
+    decision-complete. The bounded public-sidecar audit is closed; consume HC-DU-036C/036D for
+    physical adjudication only after complete
     attempt visibility, every join, uncertainty, provenance and complete-reset requirement passes.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
@@ -521,6 +544,7 @@ lanes:
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
+  - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -4030,6 +4054,21 @@ provenance:
     reconstruction are therefore independent receipts. Direct proof made a local model
     unnecessary. Component mathematics is known; no new physical law, ontology, prediction,
     paper, hardware, provider action, submission, publication or external contact is promoted.
+  rev56_note: >-
+    2026-07-26 (Joe direct chat: start the first large swing of the five-swing Dynamic Unity
+    campaign after an inline ten-persona triple-diamond refinement): executed HC-DU-036H as the
+    formal spine and two-anchor freeze. A finite record is an autonomous controlled state
+    exactly when the joint subnormalized acquisition-stratum, response and next-record row is
+    representative-independent under every action. Exact controls locate the minimum
+    three-state deterministic endpoint failure, a stochastic same-marginals/different-joint
+    failure, rejected-stratum omission, hidden reset memory, empty fibre, target-coded repair
+    and representation-sensitive selection. The same schema applies without refitting to
+    QND-versus-flip and authenticated metastable-versus-BFT shadows. Controlled
+    lumpability/probabilistic bisimulation and Blackwell sufficiency absorb the mathematical
+    core, so the result is an integrated assurance spine rather than a novel theorem. The next
+    bottleneck is physical formation and interface selection. No physical record, remainder,
+    ontology, new law, new physics, paper promotion, hardware, provider action, submission,
+    publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

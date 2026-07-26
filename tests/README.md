@@ -1449,3 +1449,47 @@ The deterministic receipt is
 Passing establishes model-work routing only. It does not build a model,
 establish literature novelty, prove a physical result, require hardware, or
 authorize an external action.
+
+## HC-DU-036H selective autonomous-record quotient spine
+
+`du_certified_causal_spine_probe.py` checks the exact finite controlled
+quotient condition
+
+\[
+\sum_{z:r(z)=q'}K_a(s,y,z\mid h_0)
+=
+\sum_{z:r(z)=q'}K_a(s,y,z\mid h_1)
+\]
+
+for every same-record pair, action, acquisition stratum, response, and
+next-record class. Passing establishes a well-defined autonomous quotient
+kernel and, by induction, equality of all finite labelled-record trace laws.
+This is controlled strong lumpability/probabilistic bisimulation, not a new
+theorem. Predictive sufficiency for one frozen tester family remains the
+weaker Blackwell-factorization question.
+
+The probe also checks:
+
+- the inclusion-minimal three-state deterministic endpoint/continuation
+  witness and exhaustive absence of a two-state witness;
+- a three-state stochastic example where event and next-record marginals
+  agree but their joint selective row differs;
+- accepted-only visibility hiding a rejected-stratum difference;
+- system-only versus complete reset of recouplable hidden memory;
+- realizability before target constancy;
+- refusal of target-coded repair and representation-sensitive selection;
+- the unchanged QND-versus-flip quantum-instrument shadow;
+- the unchanged metastable-versus-BFT authenticated-process shadow; and
+- resource-Pareto repair only inside each frozen finite admissible class.
+
+Run:
+
+```bash
+python3 tests/du_certified_causal_spine_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_certified_causal_spine_result.json` and reports `19/19` with
+`KNOWN_MATHEMATICS__INTEGRATED_ASSURANCE_ONLY`. It establishes no physical
+record selection, complete quantum process, physical remainder, ontology, new
+law, new physics, paper promotion, hardware need, or external action.
