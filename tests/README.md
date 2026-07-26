@@ -1284,3 +1284,44 @@ physics, or statistical novelty is established.
 the Qiskit 2.5.1/Aer 0.17.2 dry run: 19 circuits, 32 shots each, 608 joined
 rows, strict schema validation, and byte-identical repeated captures. It is
 also synthetic and has the same no-physical-verdict ceiling.
+
+## Interventional-sufficiency novelty and reachability gate
+
+`du_interventional_sufficiency_reachability_gate_probe.py` freezes
+`HC-DU-036F`'s source collision, provider-observability matrix, and six-rung
+claim ladder. It checks that:
+
+- process tensors, instrument-specific quantum memory, quantum-instrument
+  tomography, and postselection already occupy the component problems;
+- the unlocated five-part DU conjunction remains
+  `UNRESOLVED_NOT_PROMOTED`, not novel;
+- public-interface silence remains `NOT_DOCUMENTED`, never documented
+  physical absence;
+- the existing IBM bridge is the only pilot-ready path in the scoped matrix,
+  while no inspected standard interface documents all-attempt visibility and
+  complete admitted-memory reset;
+- an API-boundary result cannot be promoted to the complete physical
+  substrate; and
+- external hardware is assumed unavailable until the local-exhaustion gate,
+  after which one awareness note routes the branch locally or parks it unless
+  Joe separately authorizes pursuit;
+- provider searching, adapter building, and repeated hardware proposals stay
+  stopped without a new reopener; and
+- finding an exact integrated prior result would switch the route to
+  `ABSORBED_STOP`.
+
+Run:
+
+```bash
+python3 tests/du_interventional_sufficiency_reachability_gate_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_interventional_sufficiency_reachability_gate_result.json`.
+Passing reports `29/29` and `FORMAL_FIRST_PARTNER_GATED`, including the three
+significant locally executable theorem, counterexample, and
+minimum-discriminator routes plus the unavailable-by-default hardware
+posture, one-awareness-note boundary, separate authorization, and
+anti-circling rule. It establishes a research route and claim ceiling only.
+It does not establish novelty, provider absence, hardware feasibility,
+physical factorization, a physical remainder, or new physics.

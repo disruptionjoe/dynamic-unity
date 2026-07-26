@@ -1,0 +1,286 @@
+{
+  "checks": {
+    "claim_ladder_has_six_ordered_rungs": true,
+    "cloud_API_boundary_is_not_promoted_to_physical_substrate": true,
+    "corrupt_absence_promotion_is_detectable": true,
+    "documented_decisive_provider_would_reopen_cloud_route": true,
+    "external_hardware_is_assumed_unavailable_by_default": true,
+    "external_path_cannot_recur_without_a_new_reopener": true,
+    "formal_fallback_is_well_typed": true,
+    "hardware_boundary_emits_one_awareness_note_then_routes_or_parks": true,
+    "hardware_boundary_requires_local_exhaustion_and_exact_discriminator": true,
+    "implementation_complete_rung_is_partner_gated": true,
+    "instrument_specific_memory_component_is_occupied": true,
+    "integrated_conjunction_is_not_promoted_to_novelty": true,
+    "local_computer_retains_three_significant_learning_routes": true,
+    "local_simulation_is_capped_at_kill_or_calibration": true,
+    "mid_circuit_instrument_characterization_is_occupied": true,
+    "multitime_process_component_is_occupied": true,
+    "new_physics_requires_external_evidence": true,
+    "new_physics_rung_is_not_reached": true,
+    "no_scoped_standard_provider_is_physically_decisive": true,
+    "not_documented_is_not_documented_absence": true,
+    "only_existing_IBM_bridge_is_pilot_ready_in_scoped_matrix": true,
+    "physical_remainder_requires_external_evidence": true,
+    "provider_names_are_unique": true,
+    "provider_sources_are_official_https_pages": true,
+    "provider_switch_without_documented_advantage_does_not_trigger_adapter": true,
+    "route_is_formal_first_and_partner_gated": true,
+    "selection_conditioning_component_is_occupied": true,
+    "single_source_match_would_stop_distinctive_claim": true,
+    "source_collision_has_primary_pointers": true
+  },
+  "claim_grade": "SOURCE-PINNED NOVELTY/REACHABILITY ROUTING CONTROL; NO NOVELTY, PROVIDER ABSENCE, HARDWARE, OR PHYSICAL VERDICT",
+  "claim_ladder": [
+    {
+      "current_status": "COMPLETE",
+      "maximum_claim": "contract_and_corruption_controls_only",
+      "rung": "L0_SYNTHETIC_STRUCTURE"
+    },
+    {
+      "current_status": "READY_ONLY_AFTER_DIRECT_AUTHORIZATION",
+      "maximum_claim": "provider_visible_instrument_kill_or_calibration",
+      "rung": "L1_PROVIDER_RETURNED_SHOTS"
+    },
+    {
+      "current_status": "REACHABLE_BUT_NOT_PHYSICAL_SUBSTRATE",
+      "maximum_claim": "record_sufficiency_relative_to_the_declared_API_boundary",
+      "rung": "L2_CLOUD_API_BOUNDARY"
+    },
+    {
+      "current_status": "PARTNER_GATED",
+      "maximum_claim": "one_platform_physical_factorization_or_remainder_candidate",
+      "rung": "L3_IMPLEMENTATION_COMPLETE_PROCESS"
+    },
+    {
+      "current_status": "DEPENDS_ON_L3_AND_FORMAL_CLASS_DEFENSE",
+      "maximum_claim": "completion_class_relative_reconstruction_or_remainder",
+      "rung": "L4_FROZEN_COMPLETION_CLASS"
+    },
+    {
+      "current_status": "NOT_REACHED",
+      "maximum_claim": "standard_quantum_null_failure_across_independent_platforms",
+      "rung": "L5_NEW_PHYSICS"
+    }
+  ],
+  "decision": {
+    "external_dependency_trigger": "only_after_a_distinct_formal_result_survives_and_the_minimum_physical_discriminator_is_defined",
+    "next_actions": [
+      "exhaust_the_local_theorem_or_absorption_gate_before_external_escalation",
+      "derive_the_minimum_discriminating_experiment_and_sample_complexity_locally",
+      "use_the_existing_IBM_pilot_only_if_authorized_and_decision_changing",
+      "seek_an_implementation_complete_partner_packet_only_if_novelty_survives"
+    ],
+    "physically_decisive_standard_providers_under_scoped_docs": [],
+    "pilot_ready_providers_under_scoped_docs": [
+      "IBM Quantum"
+    ],
+    "route": "FORMAL_FIRST_PARTNER_GATED",
+    "stop_actions": [
+      "new_provider_adapter_without_documented_observability_advantage",
+      "synthetic_completion_fixture_without_a_new_formal_question",
+      "physical_remainder_claim_from_provider_returned_rows"
+    ]
+  },
+  "external_hardware_posture": {
+    "anti_circling_rule": "NO_REPEAT_PROVIDER_SEARCH_ADAPTER_BUILD_OR_HARDWARE_PROPOSAL_WITHOUT_A_NEW_REOPENER",
+    "authorization_rule": "JOE_SEPARATELY_AUTHORIZES_ANY_EXTERNAL_PURSUIT",
+    "boundary_action": "record_and_send_one_awareness_note_describing_the_available_external_path_what_it_would_decide_and_the_local_fallback",
+    "default_availability": "ASSUME_UNAVAILABLE",
+    "local_exhaustion_requirements": [
+      "integrated_theorem_or_absorption_gate_completed",
+      "minimum_physical_discriminator_and_standard_null_frozen",
+      "local_counterexample_and_existing_data_routes_exhausted",
+      "external_hardware_shown_to_be_the_irreducible_next_dependency"
+    ],
+    "without_authorization": "TAKE_LOCAL_ALTERNATIVE_OR_PARK_BRANCH"
+  },
+  "integrated_contract": {
+    "novelty_status": "UNRESOLVED_NOT_PROMOTED",
+    "obligations": [
+      "independently_frozen_observer_indexed_record_quotient",
+      "all_acquisition_strata_including_invalid_and_rejected_rows",
+      "target_independent_physically_admissible_resource_accounted_completion_class",
+      "verified_reset_over_every_admitted_retained_memory",
+      "one_factorization_refinement_remainder_incomplete_contract_adjudicator"
+    ],
+    "single_primary_source_status": "NOT_LOCATED_SEARCH_INCOMPLETE"
+  },
+  "local_learning_frontier": [
+    {
+      "execution": "LOCAL",
+      "significant_outcome": "exact_theorem_no_go_or_source_pinned_absorption_and_stop",
+      "work": "integrated_contract_theorem_or_absorption"
+    },
+    {
+      "execution": "LOCAL",
+      "significant_outcome": "tight_observability_bound_or_minimal_indistinguishable_process_pair",
+      "work": "finite_identifiability_and_counterexample_search"
+    },
+    {
+      "execution": "LOCAL",
+      "significant_outcome": "smallest_measurement_reset_and_shot_contract_that_changes_the_claim",
+      "work": "minimum_discriminating_experiment_and_sample_complexity"
+    },
+    {
+      "execution": "LOCAL",
+      "significant_outcome": "implementation_kill_or_calibration_only",
+      "work": "simulation_of_the_frozen_instrument"
+    },
+    {
+      "execution": "EXTERNAL_EVIDENCE_REQUIRED",
+      "significant_outcome": "one_platform_physical_result",
+      "work": "physical_remainder_adjudication"
+    },
+    {
+      "execution": "EXTERNAL_EVIDENCE_REQUIRED",
+      "significant_outcome": "independent_cross_platform_standard_null_failure",
+      "work": "new_physics_adjudication"
+    }
+  ],
+  "provider_matrix": [
+    {
+      "capabilities": {
+        "all_physical_triggers_and_retries": "NOT_DOCUMENTED",
+        "execution_timing": "DOCUMENTED_BOUNDED",
+        "independently_witnessed_complete_reset": "NOT_DOCUMENTED",
+        "invalid_rejected_rows_and_reasons": "NOT_DOCUMENTED",
+        "job_and_circuit_provenance": "DOCUMENTED",
+        "mid_circuit_measurement_and_control": "DOCUMENTED",
+        "retained_memory_inventory": "NOT_DOCUMENTED",
+        "shot_joined_named_results": "DOCUMENTED"
+      },
+      "official_sources": [
+        "https://quantum.cloud.ibm.com/docs/en/guides/execute-dynamic-circuits",
+        "https://quantum.cloud.ibm.com/docs/en/guides/sampler-input-output",
+        "https://quantum.cloud.ibm.com/docs/en/guides/save-jobs"
+      ],
+      "provider": "IBM Quantum"
+    },
+    {
+      "capabilities": {
+        "all_physical_triggers_and_retries": "NOT_DOCUMENTED",
+        "execution_timing": "NOT_DOCUMENTED",
+        "independently_witnessed_complete_reset": "NOT_DOCUMENTED",
+        "invalid_rejected_rows_and_reasons": "NOT_DOCUMENTED",
+        "job_and_circuit_provenance": "INTERFACE_REVIEW_REQUIRED",
+        "mid_circuit_measurement_and_control": "DOCUMENTED",
+        "retained_memory_inventory": "NOT_DOCUMENTED",
+        "shot_joined_named_results": "INTERFACE_REVIEW_REQUIRED"
+      },
+      "official_sources": [
+        "https://docs.quantinuum.com/systems/user_guide/hardware_user_guide/h2.html",
+        "https://docs.quantinuum.com/systems/trainings/h2/getting_started/mcmr.html"
+      ],
+      "provider": "Quantinuum"
+    },
+    {
+      "capabilities": {
+        "all_physical_triggers_and_retries": "NOT_DOCUMENTED",
+        "execution_timing": "NOT_DOCUMENTED",
+        "independently_witnessed_complete_reset": "NOT_DOCUMENTED",
+        "invalid_rejected_rows_and_reasons": "NOT_DOCUMENTED",
+        "job_and_circuit_provenance": "INTERFACE_REVIEW_REQUIRED",
+        "mid_circuit_measurement_and_control": "DOCUMENTED",
+        "retained_memory_inventory": "NOT_DOCUMENTED",
+        "shot_joined_named_results": "DOCUMENTED_BOUNDED"
+      },
+      "official_sources": [
+        "https://docs.rigetti.com/qcs/guides/quil/dynamic-control-flow",
+        "https://docs.rigetti.com/qcs/troubleshooting"
+      ],
+      "provider": "Rigetti QCS"
+    },
+    {
+      "capabilities": {
+        "all_physical_triggers_and_retries": "NOT_DOCUMENTED",
+        "execution_timing": "NOT_DOCUMENTED",
+        "independently_witnessed_complete_reset": "NOT_DOCUMENTED",
+        "invalid_rejected_rows_and_reasons": "NOT_DOCUMENTED",
+        "job_and_circuit_provenance": "DOCUMENTED",
+        "mid_circuit_measurement_and_control": "INTERFACE_REVIEW_REQUIRED",
+        "retained_memory_inventory": "NOT_DOCUMENTED",
+        "shot_joined_named_results": "DOCUMENTED_BOUNDED"
+      },
+      "official_sources": [
+        "https://docs.ionq.com/api-reference/v0.4/jobs/get-job",
+        "https://docs.ionq.com/sdks/cirq/index"
+      ],
+      "provider": "IonQ"
+    },
+    {
+      "capabilities": {
+        "all_physical_triggers_and_retries": "NOT_DOCUMENTED",
+        "execution_timing": "DOCUMENTED_BOUNDED",
+        "independently_witnessed_complete_reset": "NOT_DOCUMENTED",
+        "invalid_rejected_rows_and_reasons": "NOT_DOCUMENTED",
+        "job_and_circuit_provenance": "DOCUMENTED",
+        "mid_circuit_measurement_and_control": "DEVICE_DEPENDENT",
+        "retained_memory_inventory": "NOT_DOCUMENTED",
+        "shot_joined_named_results": "DEVICE_DEPENDENT"
+      },
+      "official_sources": [
+        "https://docs.aws.amazon.com/braket/latest/developerguide/braket-result-types.html",
+        "https://docs.aws.amazon.com/braket/latest/developerguide/braket-submit-tasks-to-braket.html"
+      ],
+      "provider": "Amazon Braket"
+    }
+  ],
+  "run_id": "RUN-20260726-093934-interventional-sufficiency-go-no-go",
+  "source_collision": [
+    {
+      "occupies": [
+        "multi_time_process_representation",
+        "arbitrary_intervention_response"
+      ],
+      "primary_url": "https://doi.org/10.1103/PhysRevA.97.012127",
+      "source_id": "Pollock-et-al-2018-process-tensor"
+    },
+    {
+      "occupies": [
+        "held_out_multi_time_prediction",
+        "causal_break_memory_blocking",
+        "restricted_instrument_warning"
+      ],
+      "primary_url": "https://doi.org/10.1038/s41467-020-20113-3",
+      "source_id": "White-et-al-2020-experimental-process-tensor"
+    },
+    {
+      "occupies": [
+        "non_markovian_process_tomography",
+        "physicality_constrained_reconstruction"
+      ],
+      "primary_url": "https://doi.org/10.1103/PRXQuantum.3.020344",
+      "source_id": "White-et-al-2022-process-tensor-tomography"
+    },
+    {
+      "occupies": [
+        "instrument_specific_memory",
+        "finite_memory_causal_break_structure"
+      ],
+      "primary_url": "https://doi.org/10.1103/PhysRevA.99.042108",
+      "source_id": "Taranto-et-al-2019-quantum-Markov-order"
+    },
+    {
+      "occupies": [
+        "mid_circuit_quantum_instrument_characterization",
+        "classical_and_quantum_measurement_outputs"
+      ],
+      "primary_url": "https://arxiv.org/abs/2103.03008",
+      "source_id": "Rudinger-et-al-2021-QILGST"
+    },
+    {
+      "occupies": [
+        "selection_conditioning_can_change_inference",
+        "postselection_requires_explicit_null_model"
+      ],
+      "primary_url": "https://doi.org/10.1103/PhysRevA.83.032123",
+      "source_id": "Branciard-2011-detection-loophole"
+    }
+  ],
+  "summary": {
+    "all_passed": true,
+    "passed": 29,
+    "total": 29
+  }
+}

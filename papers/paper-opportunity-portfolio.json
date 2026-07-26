@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-07-25",
+  "as_of_date": "2026-07-26",
   "claim_grade": "PORTFOLIO AUDIT / FACTORY-SEED READINESS IS NOT SCIENTIFIC OR MANUSCRIPT READINESS",
   "completeness_boundary": "Candidate families exposed by the active theorem spine and publishable ladder, exact-result packages, prediction register, concept register, prior repo-wide paper assessment, existing Dynamic Unity Factory entries, and stopped or transferred branches.",
   "coverage_map": {
@@ -394,7 +394,7 @@
     {
       "audience": "Formal methods, quantum processes, system identification, and foundations",
       "contribution": "A proof-carrying factorization, minimal-refinement, finite-remainder, or incomplete-contract trichotomy for certified causal histories.",
-      "current_grade": "Exact finite closure/witness baselines, HC-DU-036C's stochastic-decoder trichotomy, HC-DU-036D's versioned finite-shot physical gate, and HC-DU-036E's provider-facing 19-circuit bridge and exact acquisition-visibility ceiling. The same typed compiler ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance; a boundary expansion likewise absorbs the quantitative synthetic remainder. A U(1)-conserving selector gate classifies the minimum interface premises and closes scalar conservation/asymmetry selection as an absorbed route. The first published physical-platform arm returns INCOMPLETE_CONTRACT; the four-candidate public screen and bounded Xiang sidecar audit locate no packet with joined trial, calibration, provenance, selective-map, invalid-attempt, and multitime/reset data. The provider bridge passes 15/15 adversarial controls and a 608-row Aer dry run, but no hardware job ran and no physical factorization, irreducible remainder, or new-physics verdict is earned.",
+      "current_grade": "Exact finite closure/witness baselines, HC-DU-036C's stochastic-decoder trichotomy, HC-DU-036D's versioned finite-shot physical gate, HC-DU-036E's provider-facing 19-circuit bridge and exact acquisition-visibility ceiling, and HC-DU-036F's source-pinned component collision, five-interface observability matrix, local-learning frontier, unavailable-by-default hardware posture, and six-rung claim ladder. The same typed compiler ran on quantum-like and authenticated distributed fixtures, and both witnesses were absorbed by formed provenance; a boundary expansion likewise absorbs the quantitative synthetic remainder. A U(1)-conserving selector gate classifies the minimum interface premises and closes scalar conservation/asymmetry selection as an absorbed route. Process tensors, quantum-instrument tomography, instrument-specific memory, causal breaks, postselection, and finite factorization occupy the component jobs. The five-part integrated DU conjunction was not located as one result but remains search-incomplete rather than novel. Three significant theorem, counterexample, and minimum-discriminator routes remain executable on the current computer. The published-platform arm returns INCOMPLETE_CONTRACT; public screens locate no implementation-complete packet; the provider bridge passes 15/15 controls and a 608-row Aer dry run; and the reachability gate passes 29/29. No hardware job ran and no novelty, provider-absence, physical factorization, irreducible remainder, or new-physics verdict is earned.",
       "evidence_refs": [
         "explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md",
         "explorations/cross-repo-hardening-integration-2026-07-24.md",
@@ -405,6 +405,7 @@
         "explorations/public-physical-evidence-four-table-screen-2026-07-25.md",
         "explorations/physical-sufficiency-acquisition-gate-2026-07-26.md",
         "explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md",
+        "explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md",
         "tests/du_council_orthodox_factorization_witness_probe.py",
         "tests/du_council_wild_frontier_interventional_closure_probe.py",
         "tests/du_noninvertible_history_certificate_compiler_probe.py",
@@ -413,7 +414,8 @@
         "tests/du_certified_causal_reconstruction_trichotomy_probe.py",
         "tests/du_public_physical_evidence_screen_probe.py",
         "tests/du_physical_sufficiency_acquisition_gate_probe.py",
-        "tests/du_acquisition_visibility_bridge_probe.py"
+        "tests/du_acquisition_visibility_bridge_probe.py",
+        "tests/du_interventional_sufficiency_reachability_gate_probe.py"
       ],
       "factory_snapshot": "DU-SEED-INTERVENTIONAL-RECORD-SUFFICIENCY admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
       "factory_state": "existing_seed_unselected",
@@ -422,22 +424,21 @@
       "id": "DU-PAPER-007",
       "manuscript_distance": "two_to_three_source_swings",
       "manuscript_load_bearing_gaps": [
-        "Run one directly authorized low-shot provider pilot under the frozen HC-DU-036E manifest and report it only as returned-shot-conditional evidence.",
-        "Acquire one co-designed physical packet that exposes every physical trigger, invalid or rejected attempt, selection reason, route/controller state, and causal break over every admitted retained memory.",
-        "For a multitime sufficiency claim, add ordered repeats, reset or causal-break status, prior outcomes, and held-out continuations.",
-        "Replace the distributed table with a replayable authenticated DAG/BFT process under an explicit adversary and resource-vector order.",
-        "Freeze the expanded physical refinement class before observing which candidate wins.",
-        "Complete claim-specific novelty review against automata, Blackwell, process tensors, and system identification."
+        "Translate the five-part integrated contract into process-tensor, quantum-instrument, statistical-experiment, and system-identification language and prove, merge, or stop the smallest exact four-way theorem.",
+        "Complete a systematic claim-specific novelty review of the integrated conjunction; the bounded HC-DU-036F search only establishes component occupancy and an unresolved conjunction.",
+        "Run the existing low-shot HC-DU-036E provider pilot only after direct authorization and only if its returned-shot result changes an instrument, margin, reset, or shot-budget decision.",
+        "If the formal contribution survives, acquire one co-designed packet exposing every physical trigger, invalid or rejected attempt, selection reason, route/controller state, and a causal break over every admitted retained memory.",
+        "Freeze the expanded physical refinement class, resource order, ordered repeats, prior outcomes, and held-out continuations before observing which candidate wins."
       ],
       "manuscript_swings_estimate": "2-3",
       "negative_result_value": "A no-uniform-certification theorem, finite-basis lower bound, or incomplete-contract theorem remains paper-shaped.",
-      "novelty_boundary": "A candidate-record witness is not an irreducible ontology result; the completion class must do real work.",
+      "novelty_boundary": "The component methods are occupied, an unlocated integrated conjunction is not novel, and a candidate-record witness is not an irreducible ontology result; the independently frozen completion class and full acquisition boundary must do real work.",
       "overlap_ids": [
         "DU-PAPER-005",
         "DU-PAPER-008",
         "DU-PAPER-012"
       ],
-      "recommended_action": "Preserve as the highest-upside DU flagship. The public-sidecar search, prospective packet, finite-shot gate, and provider bridge are complete. Run one directly authorized returned-shot-conditional hardware pilot to kill or calibrate the instrument, then obtain one co-designed all-attempt and complete-reset packet before physical-remainder adjudication. Do not fit another synthetic completion, reconstruct trials from aggregate p0, or report an irreducible remainder from provider-returned rows or a finite frozen class. Factory custody remains unselected.",
+      "recommended_action": "Preserve as the highest-upside DU flagship at FORMAL_FIRST_PARTNER_GATED. First formalize and collide the five-part integrated theorem/evidence contract; if it is absorbed, merge or stop. Assume external hardware is unavailable. Use the existing IBM bridge only for a separately authorized, decision-changing returned-shot calibration, not as North-Star adjudication. Seek a co-designed all-attempt and complete-reset packet only if the formal contribution survives and local work proves hardware is the irreducible next dependency. At that boundary issue one awareness note; without separate Joe authorization, use the local fallback or park the branch. Do not circle providers, build another adapter without a documented observability advantage, fit another synthetic completion without a new formal question, reconstruct trials from aggregate p0, or report an irreducible remainder from provider-returned rows or a finite frozen class. Factory custody remains unselected.",
       "seed_status": "factory_seeded_unselected",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],

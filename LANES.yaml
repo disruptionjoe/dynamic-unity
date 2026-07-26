@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 50
+manifest_revision: 51
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -169,13 +169,17 @@ lanes:
   - '6'
   - '7'
   current_objective: >-
-    Use the completed v0.1 shot-resolved gate and HC-DU-036E provider bridge for a two-tier
-    physical advance: one directly authorized returned-shot-conditional hardware pilot to kill
-    or calibrate the instrument, then one co-designed implementation-complete packet exposing
-    every physical attempt and admitted-memory reset for North-Star adjudication. Preserve the
-    independently selected record quotient, intervention/resource boundary and
-    factorization-or-witness contract; stop aggregate reuse and additional synthetic completion
-    fixtures.
+    Execute the HC-DU-036F FORMAL_FIRST_PARTNER_GATED route. Translate the five-part integrated
+    interventional-record contract into process-tensor, quantum-instrument,
+    statistical-experiment and system-identification language, then prove, merge or stop the
+    smallest exact four-way theorem. Preserve the independently selected record quotient,
+    intervention/resource boundary and factorization-or-witness contract. Use the completed
+    HC-DU-036E IBM bridge only after direct authorization and only for a decision-changing
+    returned-shot calibration; require a co-designed all-attempt and complete-memory-reset packet
+    for physical adjudication. Assume external hardware is unavailable until the local gates prove
+    it is the irreducible next dependency; then issue one awareness note and, absent separate Joe
+    authorization, route locally or park. Stop aggregate reuse, additional synthetic completion
+    fixtures, provider circling and adapters without a documented observability advantage.
   success_signal: >-
     A nontrivial bidirectional reconstruction, necessary-and-sufficient theorem, operational
     duality or finite class-relative physical remainder with independently fixed equivalence and
@@ -189,6 +193,7 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
+  - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   do_not: >-
     Do not define records by all target experiments, infer ontology from vocabulary or finite
     fixtures, or treat underidentification as a verdict.
@@ -236,12 +241,15 @@ lanes:
   depends_on:
   - '2'
   current_objective: >-
-    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go. Use the
-    frozen 19-circuit HC-DU-036E bridge for one authorized provider-conditional pilot, while
-    keeping provider-returned rows distinct from the complete physical attempt population.
-    Then co-design the v0.1 physical-sufficiency packet with oriented reference, processor,
-    pointer, archive, decoder, selective maps, every attempted shot, calibration/systematic
-    uncertainty, route provenance and verified complete-memory reset explicit.
+    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go and the
+    HC-DU-036F source/provider route correction. First type the five-part integrated contract
+    against established process-tensor and quantum-instrument language. Keep the frozen
+    19-circuit HC-DU-036E bridge as the only current pilot path and provider-returned rows
+    distinct from the complete physical attempt population. If the formal contribution
+    survives, co-design the v0.1 packet with oriented reference, processor, pointer, archive,
+    decoder, selective maps, every attempted shot, calibration/systematic uncertainty, route
+    provenance and verified complete-memory reset explicit. Plan under no external-hardware
+    availability; an irreducible hardware boundary earns one awareness note, not repeated pursuit.
   success_signal: >-
     An implementation-complete instrument whose physical premises and unidentifiable freedoms
     are explicit enough for interventional sufficiency testing, or a sharper necessity/no-go
@@ -257,6 +265,7 @@ lanes:
   - explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
+  - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - lab/acquisition/README.md
   - docs/certified-causal-reality-research-program.md
   do_not: >-
@@ -410,12 +419,14 @@ lanes:
   current_objective: >-
     Keep the complete paper-opportunity portfolio moving through a two-horizon allocation:
     obtain independent expert proof review and a systematic bibliography for the surviving
-    DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while using the HC-DU-036E
-    bridge for one authorized returned-shot-conditional hardware pilot and acquiring one
-    co-designed implementation-complete packet for the higher-ceiling DU-PAPER-007 flagship. The
-    bounded public-sidecar audit is closed; consume HC-DU-036C/036D for a physical-remainder
-    adjudication only after complete attempt visibility, every join, uncertainty, provenance and
-    complete-reset requirement passes.
+    DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while moving the
+    higher-ceiling DU-PAPER-007 flagship through the HC-DU-036F formal-first integrated-
+    contribution gate. Use the existing HC-DU-036E pilot only when directly authorized and
+    decision-changing; otherwise assume no external hardware and keep the work local. An
+    irreducible hardware dependency gets one awareness note and then parks without separate Joe
+    authorization. Seek a co-designed packet only after formal survival. The bounded public-
+    sidecar audit is closed; consume HC-DU-036C/036D for physical adjudication only after complete
+    attempt visibility, every join, uncertainty, provenance and complete-reset requirement passes.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -428,6 +439,7 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
+  - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -2339,6 +2351,58 @@ hardware_acquisition_visibility_bridge:
     frozen manifest. Treat it as RETURNED_SHOT_CONDITIONAL_ONLY. For physical-remainder
     adjudication, co-design a platform packet exposing every physical trigger, invalid/rejected
     attempt, selection reason and reset over every admitted retained memory.
+interventional_sufficiency_novelty_reachability_gate:
+  status: completed_formal_first_partner_gated
+  date: '2026-07-26'
+  authority: >-
+    Joe direct chat: take the next recommended swing after assessing the downstream hardware and
+    provider implications of the HC-DU-036E acquisition route.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260726-093934-interventional-sufficiency-go-no-go/run-plan.md
+  result_ref: >-
+    explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
+  probe_ref: tests/du_interventional_sufficiency_reachability_gate_probe.py
+  artifact_ref: >-
+    tests/artifacts/du_interventional_sufficiency_reachability_gate_result.json
+  artifact_sha256: 8392c3341fd09f9bb6cf1f7de985454b1402ddf6bdc52e5537635615ae12745f
+  source_collision: >-
+    HC-DU-036F treats multi-time process representation, held-out intervention tests, causal
+    breaks, instrument-specific memory, mid-circuit quantum-instrument characterization,
+    selection conditioning and finite factorization as occupied component terrain. No single
+    primary source was located that also combines an independently frozen observer-indexed
+    record quotient, every acquisition stratum, a target-independent physically admissible and
+    resource-accounted completion class, verified reset over every admitted retained memory and
+    one reconstruction/Pareto-repair/class-relative-remainder/incomplete-contract adjudicator.
+    The conjunction remains NOT_LOCATED_SEARCH_INCOMPLETE and is not promoted to novelty.
+  provider_result: >-
+    A scoped official-documentation matrix covers IBM Quantum, Quantinuum, Rigetti QCS, IonQ and
+    Amazon Braket. The existing IBM bridge is the only pilot-ready route under the scoped
+    documentation. No inspected standard interface documents every physical trigger/retry,
+    invalid/rejected row and reason, retained-memory inventory and independently witnessed
+    complete reset. Silence is NOT_DOCUMENTED, not a provider-absence or physical-impossibility
+    claim.
+  claim_ladder: >-
+    Six rungs separate synthetic structure, provider-returned evidence, a declared cloud-API
+    observer boundary, implementation-complete physical evidence, a defended completion-class
+    result and new physics. The first physical rung is partner-gated; new physics is not reached.
+  external_hardware_posture: >-
+    ASSUME_UNAVAILABLE until the local theorem-or-absorption gate is complete, the minimum
+    discriminator and standard null are frozen, local proof/counterexample/existing-data routes
+    are exhausted and hardware is shown to be the irreducible next dependency. Then record and
+    report one awareness note stating the path, decision value, minimum access and local fallback.
+    Without separate Joe authorization, take the fallback or park. Do not repeat provider
+    searches, adapters or hardware proposals without a new reopener.
+  route: >-
+    FORMAL_FIRST_PARTNER_GATED. Exhaust the locally executable theorem-or-absorption,
+    exact-counterexample and minimum-discriminator/sample-complexity gates in established
+    process-tensor, quantum-instrument, statistical-experiment and system-identification language
+    before more adapters. Use the existing pilot only after direct authorization and only for a
+    decision-changing calibration. Seek a co-designed all-attempt/complete-reset packet only if
+    the formal contribution survives.
+  evidence_boundary: >-
+    The 29/29 deterministic controls establish research routing and claim ceilings only. No
+    novelty, provider absence, hardware feasibility, physical factorization, physical remainder,
+    ontology, law, paper activation, submission, publication or external action is established.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1

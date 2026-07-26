@@ -123,6 +123,25 @@ current results establish the starting boundary, not the answer:
   factor; provider-returned shots alone certify only the returned population.
   The 15/15 adversarial controls and a 608-row Aer dry run pass, but no
   hardware job ran and no physical verdict is inferred.
+- `HC-DU-036F` closes the next-route ambiguity. A bounded primary-source
+  collision finds the component jobs occupied by process tensors,
+  instrument-specific quantum memory, quantum-instrument tomography, causal
+  breaks, and postselection controls. The five-part DU integration—an
+  independently frozen observer-indexed record quotient, every acquisition
+  stratum, a target-independent resource-accounted completion class, reset of
+  every admitted memory, and one four-way adjudicator—was not located as one
+  result, but remains search-incomplete rather than novel. A five-interface
+  public-documentation matrix finds the existing IBM bridge pilot-ready and
+  no standard interface documented as implementation-complete. The route is
+  therefore `FORMAL_FIRST_PARTNER_GATED`: exhaust the local theorem-or-
+  absorption, exact counterexample, and minimum-discriminator work before
+  more adapters; use a cloud pilot only as an authorized decision-changing
+  calibration; require a co-designed packet for physical adjudication. The
+  planning default is that external hardware is unavailable. Only a completed
+  local-exhaustion gate may emit one hardware-awareness note; without separate
+  Joe authorization the branch takes a local fallback or parks instead of
+  circling providers. The 29/29 routing controls pass; no provider absence,
+  hardware feasibility, novelty, or physical verdict is inferred.
 - `HC-DU-034A` supplies an exact signed all-port coherent-history assay
   control. It separates the frozen incoherent-history mixture from a joint
   cross-history correlation while using both symmetric recombination ports.

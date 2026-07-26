@@ -1183,6 +1183,42 @@ and every admitted memory reset to be visible. No hardware job was submitted.
 See
 `../explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md`.
 
+**Executed novelty and reachability successor — `HC-DU-036F`.** A bounded
+primary-source collision now treats multi-time process representation,
+held-out intervention tests, causal breaks, instrument-specific quantum
+memory, mid-circuit instrument tomography, selection conditioning, and finite
+factorization as occupied component terrain. No single source was located
+that also combines an independently frozen observer-indexed record quotient,
+every acquisition stratum, a target-independent physically admissible and
+resource-accounted completion class, verified reset over every admitted
+retained memory, and one base-reconstruction/Pareto-repair/class-relative-
+remainder/incomplete-contract adjudicator. That conjunction is
+`NOT_LOCATED_SEARCH_INCOMPLETE`, not a novelty claim.
+
+A scoped official-documentation matrix covers IBM Quantum, Quantinuum,
+Rigetti QCS, IonQ, and Amazon Braket. The existing IBM bridge is the only
+pilot-ready route in the scoped matrix; no inspected standard interface
+documents every lower-level trigger/retry, invalid/rejected row and reason,
+retained-memory inventory, and independently witnessed complete reset.
+Silence is recorded as `NOT_DOCUMENTED`, not physical absence. The six-rung
+claim ladder separates synthetic structure, provider-returned evidence, an
+explicit cloud-API observer boundary, implementation-complete physical
+evidence, a defended completion-class result, and new physics. The resulting
+route is `FORMAL_FIRST_PARTNER_GATED`: formalize and collide the integrated
+contract, search exact finite counterexamples, and derive the minimum
+discriminating experiment and sample complexity locally before building more
+adapters. Those are significant theorem/no-go/absorption results available on
+the current computer. Use the frozen provider pilot only after direct
+authorization and only for a decision-changing instrument calibration;
+require a co-designed implementation-complete packet for physical
+adjudication. External hardware is assumed unavailable until the local gates
+show it is the irreducible next dependency. That boundary produces one
+awareness note; without separate Joe authorization the branch takes a local
+fallback or parks and does not circle providers or adapters. The 29/29
+routing controls pass. No novelty, provider absence, hardware feasibility,
+physical factorization, remainder, ontology, or new physics is inferred. See
+`../explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md`.
+
 The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
 future-correlated oracle or response tree followed where possible by a
 compressed fixed-law transducer, departed environmental support, and the

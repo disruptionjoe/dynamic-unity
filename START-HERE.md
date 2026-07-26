@@ -240,11 +240,34 @@ lower-level physical trigger or retained provider memory, so its ceiling is
 ([result](explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md);
 [driver](lab/acquisition/README.md);
 [probe](tests/du_acquisition_visibility_bridge_probe.py)). The remaining
-flagship bottleneck is therefore two-tiered: one directly authorized
-provider-conditional hardware pilot can kill an unworkable instrument and
-calibrate the design; only a co-designed implementation-complete packet with
-all physical attempts and complete-memory reset can adjudicate a physical
-remainder. The current dry run is synthetic and earns no physical verdict.
+flagship bottleneck has now passed a source-pinned novelty and reachability
+gate. Process tensors, quantum-instrument tomography, instrument-specific
+memory, causal breaks, and postselection already occupy the component jobs.
+The five-part DU integration was not located as one result, but remains
+search-incomplete rather than novel. Public documentation for five provider
+interfaces shows no standard route promising every physical attempt and reset
+of every admitted memory, while the existing IBM bridge remains sufficient
+for a returned-shot pilot. The disposition is
+`FORMAL_FIRST_PARTNER_GATED`: first state and collide the integrated theorem
+or evidence-standard contribution in established language, derive exact
+counterexamples and the minimum discriminating experiment locally, and stop
+if that work is absorbed. The current computer can complete those
+scientifically significant gates. Run the frozen cloud pilot only after
+direct authorization and only if it changes an instrument, margin, reset, or
+shot-budget decision; use a co-designed implementation-complete packet for
+physical adjudication. Do not build
+another adapter without a documented observability advantage
+([gate](explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md);
+[probe](tests/du_interventional_sufficiency_reachability_gate_probe.py)).
+The current dry run is synthetic and earns no physical verdict.
+
+For planning, assume **no external hardware is available**. That changes only
+after the local theorem/absorption, exact-counterexample, existing-data, and
+minimum-discriminator gates show that hardware is the irreducible next
+dependency. At that boundary, write and send Joe one awareness note explaining
+what external path exists and what it would decide. Without separate
+authorization, take a local fallback or park the branch; do not keep circling
+providers, adapters, or the same hardware proposal.
 
 In parallel, `DU-PAPER-013` is now the closest new-paper route. Its
 proof-or-kill produced a bounded-precursor uniform theorem for regularly

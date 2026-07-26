@@ -84,3 +84,41 @@ actually exposes every physical trigger, rejected attempt, selection reason,
 and required retained-memory reset.
 
 No hardware job was submitted while building or validating this bridge.
+
+## Reachability disposition
+
+The source-pinned `HC-DU-036F` collision now classifies the flagship route as
+`FORMAL_FIRST_PARTNER_GATED`
+([gate](../../explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md)).
+Process tensors, quantum-instrument tomography, instrument-specific memory,
+causal breaks, and postselection already occupy the component problems. The
+remaining candidate contribution is their integration with an independently
+frozen record quotient, every acquisition stratum, a target-independent
+resource-accounted completion class, complete admitted-memory reset, and one
+reconstruction/refinement/remainder/incomplete-contract adjudicator. That
+conjunction is search-incomplete and is not promoted to novelty.
+
+Therefore:
+
+- assume external hardware is unavailable until the local theorem,
+  counterexample, existing-data, and minimum-discriminator gates show it is
+  the irreducible next dependency;
+- do not build another provider adapter without a documented observability
+  advantage;
+- use this existing IBM route only after direct authorization and only to
+  kill or calibrate a concrete instrument, margin, reset, or shot-budget
+  decision;
+- report any standard provider result at
+  `RETURNED_SHOT_CONDITIONAL_ONLY` or, if explicitly claimed, relative to the
+  declared cloud-API observer boundary; and
+- require a co-designed laboratory packet before complete-process physical
+  adjudication.
+
+If the local work reaches an irreducible hardware boundary, record and report
+one awareness note describing the available path and what it would decide.
+Without separate Joe authorization, use the local fallback or park the branch.
+Do not keep searching providers or reproposing the same external dependency
+without a new reopener.
+
+No provider, account, laboratory, author, or hardware was contacted in the
+reachability run.

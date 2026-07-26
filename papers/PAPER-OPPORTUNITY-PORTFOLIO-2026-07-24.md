@@ -158,8 +158,22 @@ The follow-on reconstruction/data/CSG triad sharpens both routes:
   prevents a standard provider result from being oversold: returned-shot
   factorization is conditional on the provider selection boundary. The 15/15
   adversarial controls and 608-row Aer dry run pass; no hardware job ran.
-  This reduces the next source swing to an authorized provider-conditional
-  pilot followed by a co-designed all-attempt/complete-reset packet.
+  This makes one authorized provider-conditional pilot available, but does
+  not make it the next mandatory source swing.
+- `HC-DU-036F` collides and routes the flagship before further empirical
+  build. Process tensors, instrument-specific quantum memory,
+  quantum-instrument tomography, causal breaks, postselection, and finite
+  factorization occupy the component jobs. The five-part DU integration was
+  not located as one result but remains search-incomplete, not novel. A
+  five-interface documentation matrix finds the existing IBM bridge
+  pilot-ready and no standard interface documented as all-attempt and
+  complete-reset decisive. The paper is now `FORMAL_FIRST_PARTNER_GATED`:
+  formalize and collide the integrated theorem/evidence contract; use the
+  cloud pilot only for a directly authorized, decision-changing calibration;
+  seek a co-designed packet only if the formal contribution survives.
+  Planning otherwise assumes no external hardware. An irreducible hardware
+  boundary gets one awareness note and then parks without separate Joe
+  authorization rather than circling providers or adapters.
 - `DU-PAPER-013` survives a second internal proof through
   \(T_{n+1}/T_n=\mathbb E[r_{n+K}]\). The broader collision absorbs the
   general asymptotic method; only the exact CSG-specific classification
@@ -229,7 +243,7 @@ Neither should be reseeded.
 | ID | Working paper | Current source grade | Estimated manuscript work | Load-bearing next work |
 |---|---|---|---:|---|
 | `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact tight record-disturbance/support controls; general novelty absorbed | `1` pre-proof | Clock-QCA extension classification or nonseparable covariance-locality-support theorem; otherwise merge/stop |
-| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure, `HC-DU-036C` trichotomy, v0.1 physical packet, `HC-DU-036D` finite-shot gate, and `HC-DU-036E` hardware bridge/attempt-visibility ceiling; Xiang sidecar closed; no real packet has passed | `2–3` | Run one authorized returned-shot-conditional pilot, then acquire one co-designed all-attempt/complete-reset multi-time packet for physical adjudication |
+| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure, `HC-DU-036C` trichotomy, v0.1 physical packet, `HC-DU-036D` finite-shot gate, `HC-DU-036E` hardware bridge, and `HC-DU-036F` component-collision/provider-reachability gate; integrated novelty unresolved; no real packet has passed | `2–3` | First express and collide the five-part integrated contract in process-tensor/instrument/statistical-experiment language; use the existing authorized pilot only if decision-changing; obtain an all-attempt/complete-reset packet only after formal survival |
 | `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible baseline plus finite noninvertible path/provenance compiler pilot | `2–3` | Noisy physical theorem, higher-certificate relation, and unchanged BFT/QEC transfer |
 | `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Bounded-precursor uniform regular-ratio theorem, tight boundaries, deterministic controls, and two internal proof routes; general asymptotic method occupied, exact CSG delta provisional | `1` | Independent expert proof review plus systematic paper-grade causal-set/Tauberian bibliography |
 | `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Exact finite controls; general quotient theorem occupied | `1` pre-proof | Clock-QCA record instrument, scheduler/boost congruence, and tight minimal Lorentz-sensitive leakage theorem |
@@ -325,9 +339,14 @@ paper closure from foundational importance:
    expert proof review and systematic bibliography hardening; any survivor is
    framed as a CSG-specific corollary using known asymptotic machinery.
 2. **`DU-PAPER-007`** remains the flagship route most central to the program;
-   its quantitative formal spine is stronger, but no screened public packet
-   passes the reusable evidence gate. The next move is one sidecar audit or a
-   prospective acquisition design, not another synthetic completion.
+   its quantitative formal spine is stronger, but its components overlap
+   established process-tensor and instrument work and no standard provider
+   interface is documented as implementation-complete. The next move is a
+   formal integrated-contribution theorem/collision, not another adapter or
+   synthetic completion. Hardware is a conditional calibration rung; decisive
+   physical adjudication is partner-gated and unavailable by default. An
+   irreducible external boundary is reported once and then parked without
+   separate authorization.
 3. **`DU-PAPER-009`** remains the most distinctive cross-domain theorem route.
 
 `DU-PAPER-003` and `015` remain preserved in Factory custody but are parked
@@ -360,10 +379,16 @@ This is a routing scan, not a claim-specific novelty verdict.
   either the host or the binary curve:
   [Arrighi's QCA overview](https://arxiv.org/abs/1904.12956) and
   [the exact Clock-QCA source](https://arxiv.org/abs/1404.4499).
-- Process tensors and complete operational histories are established, so
-  `DU-PAPER-007` must contribute the physical-refinement trichotomy and
-  cross-platform proof object:
-  [operational quantum process framework](https://arxiv.org/abs/1512.00589).
+- Process tensors, process-tensor tomography, instrument-specific quantum
+  Markov order, quantum-instrument characterization, and postselection
+  controls are established. `DU-PAPER-007` must therefore contribute the
+  integrated frozen-record/completion/acquisition/reset four-way adjudicator,
+  or become a merge or data-assurance result rather than a new foundations
+  theorem:
+  [operational quantum process framework](https://arxiv.org/abs/1512.00589),
+  [process-tensor tomography](https://doi.org/10.1103/PRXQuantum.3.020344),
+  [instrument-specific Markov order](https://doi.org/10.1103/PhysRevA.99.042108),
+  and [QILGST](https://arxiv.org/abs/2103.03008).
 - Stricker et al. supply a genuine quantum-instrument platform, but their
   linked public record is explicitly figure-source data rather than the
   trial- and calibration-resolved packet required by DU's finite-shot
