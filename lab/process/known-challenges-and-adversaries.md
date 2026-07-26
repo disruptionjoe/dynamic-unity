@@ -112,6 +112,25 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     keep the theorem class explicit and require the full recovery dependency
     chain.
 
+15. **Representation/selection substitution.** *Objection:* a stochastic,
+    Hilbert, Kraus, Stinespring, state-space, or geometric representation of
+    supplied behavior is reported as selection of the physical law, process,
+    observer, instrument, or record. *Way through:* mark every nonunique
+    representational choice, freeze the physical process independently, and
+    preserve a held-out multi-time intervention. Barandes's construction is a
+    sharp control: its published dilation recovers the distinguished
+    initial-time transition family, not an interventionally complete process
+    or a selected record interface.
+
+16. **Law-filter/refinement substitution.** *Objection:* imposing an
+    independently warranted field equation or variational law narrows the
+    completion class, but the resulting uniqueness is credited to a richer
+    record. *Way through:* type
+    \(F_q^{\mathrm{law}}=\{m:r(m)=q,E(m)=0\}\) separately from a
+    same-class record refinement. Adding \(E\), its source class, regulator,
+    matter, boundary, or gauge restrictions after the contract is retyping,
+    not information learned from \(q\).
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

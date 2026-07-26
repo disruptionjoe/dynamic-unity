@@ -407,7 +407,13 @@ lanes:
     every positive finite-action bound fail as exact selectors; unrestricted source absorbs the
     hidden mode; source-free u''=0 closes only the supplied toy class. Next replace that toy law
     with one independently warranted physical dynamics and freeze its source-difference space
-    before the remote clock, or use a complete active clock/light observation surface. Maintain
+    before the remote clock, or use a complete active clock/light observation surface. Treat
+    physical-law filtering as completion narrowing, not record refinement. The Finster causal
+    action is one legitimate candidate filter, but its 2026 trace-free Ricci continuum condition
+    is identically vacuous in the current 1+1 conformal arena. Any CFS-facing attempt must therefore
+    freeze a 3+1 arena, Hilbert/spin/constraint/sector/regulator, matter/source, boundary, gauge,
+    record and target contract, and distinguish ordinary Einstein closure from a regulator-robust
+    CFS-specific residue. This is an arena rule, not a priority change. Maintain
     HC-DU-040A as a separate conditional
     physical-recovery branch: its exact finite kernel distinguishes a global chiral index from
     access rank and proves that predictive flavor needs source-derived noncommuting
@@ -435,6 +441,7 @@ lanes:
   - tests/du_certified_reconstruction_fiber_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
+  - explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
   - explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md

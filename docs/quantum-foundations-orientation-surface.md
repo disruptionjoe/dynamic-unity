@@ -218,11 +218,53 @@ bibliography.
 | GPT and box-world landscapes | Locate classical, quantum, and post-quantum operational possibilities | An independent selection principle for ordinary quantum theory remains incomplete | Derive a quantum-strength constraint from causal certification or show the record architecture is neutral among GPTs |
 | Quantum causal models | Generalize common-cause explanation and conditional independence to quantum systems | Several quantum causal formalisms exist, and causal discovery/selection remains difficult | Connect certified history and intervention structure to one nontrivial quantum causal factorization or selection theorem |
 | Process tensors and quantum combs | Give complete operational descriptions of multi-time processes with memory | They characterize processes but do not by themselves decide which histories are public, final, or ontologically primary | Add a certified-history quotient and show whether capability factors through it or exposes a remainder |
+| Barandes stochastic-quantum correspondence | Embeds a broad finite initial-time stochastic transition family into CPTP and enlarged unitary/unistochastic structure | The published construction chooses phases and a dilation nonuniquely and sets the dilated conditioning-time set to the distinguished initial time; it does not select a physical stochastic law or preserve an interventionally complete multi-time process by itself | Use it as a representation-without-selection absorber, then require the full process, physical instrument, record formation, and held-out intervention before a DU sufficiency claim |
 | QFT and algebraic QFT | Supply relativistic local fields/algebras, covariance, and highly successful particle physics | Measurement localization, state update, and integration with gravity remain distinct boundaries | Formulate records and finality as local probe-induced instruments whose composition respects causal factorization |
+| Causal fermion systems and causal action | Variationally select universal measures from a supplied causal-variational problem and conditionally recover geometric, field, Fock, and collapse structures | Existence, uniqueness, regularization, continuum ansatz, smooth support, observer boundary, instrument, record map, and finality rule remain separately scoped; configuration selection does not automatically select a record interface | Use the causal action as an independently motivated physical-law filter on completion fibres, then test whether observer-accessible targets factor through independently formed certified records |
 | Causal-set programs | Treat causal order as fundamental and develop covariant growth/recovery programs | Dynamics, quantum measure, manifold recovery, scale, and observer records remain nontrivial | Distinguish global causal order from regional certified access and derive recursive observer-relative quotients without importing geometry |
 | Holography and tensor-network reconstruction | Relate boundary information, code subspaces, geometry, and bulk reconstruction | Reconstruction is code-subspace-, access-, and sometimes state-dependent; ontology does not follow from duality | Treat boundary certificates and entanglement wedges as capability-relative record quotients and seek a uniqueness or remainder theorem |
 | Semiclassical gravity | Couples quantum matter descriptions to a classical metric in a controlled approximation | Backreaction, state reduction, fluctuations, and regime of validity remain difficult | Determine whether physically formed public records contribute anything beyond stress-energy and known fluctuations |
 | Full quantum-gravity programs | Offer several non-equivalent routes to quantum spacetime | Their primitives, observables, recovery maps, and low-energy limits differ; there is no single “quantum gravity tension” | Use certified causal reality as a comparison language only if one invariant statement transfers without redefining records or geometry |
+
+### Physical selection, representation, and record reconstruction
+
+The Finster/Barandes collision fixes a reusable three-way distinction:
+
+```text
+variational or dynamical law selects a physical completion class
+    !=
+mathematical representation embeds supplied statistics
+    !=
+certified records reconstruct a held-out observer target
+```
+
+For a frozen completion class \(M\), law \(E(m)=0\), record map \(r\), and
+target \(t\), define
+
+\[
+M_{\mathrm{law}}=\{m\in M:E(m)=0\},
+\qquad
+F_q^{\mathrm{law}}=\{m:r(m)=q,\ E(m)=0\}.
+\]
+
+Narrowing to \(M_{\mathrm{law}}\) is physical completion filtering, not record
+refinement. Adding \(E\) after the original contract is contract retyping.
+Locally, target reconstruction requires
+
+\[
+\ker Dr_m\cap\ker DE_m\subseteq\ker Dt_m
+\]
+
+modulo the declared gauge and with admitted source, boundary, matter, and
+regulator directions included.
+
+The immediate dimensional guard is exact: in two dimensions,
+\(R_{\mu\nu}^{\mathrm{TF}}\equiv0\). Fischer--Finster's 2026 trace-free
+continuum equation therefore cannot restrict DU's current \(1+1\) conformal
+hostile family. Any future test of that restriction must use a frozen
+\(3+1\) arena and distinguish an ordinary Einstein absorber from a
+CFS-specific finite-regularization residue. See the
+[source collision](../explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md).
 
 ## Cross-cutting tensions most relevant to Dynamic Unity
 

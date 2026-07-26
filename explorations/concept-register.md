@@ -801,6 +801,24 @@ resolution-stable intervention role. No claim is banked or seeded. See
   state discrimination, interferometry, and instrument tomography absorb the
   physics. This is an Interface-Necessity No-Go, not evidence that records or
   observers create physical reality.
+- **Earned source-collision boundary: selection, representation, and
+  reconstruction.** The primary-source Finster/Barandes collision adds no
+  positive record-ontology result, but it fixes two reusable guards. A
+  physical law \(E(m)=0\) defines a law-filtered completion fibre
+  \(F_q^{\mathrm{law}}=\{m:r(m)=q,E(m)=0\}\); this is completion narrowing,
+  not record refinement, and adding the law after freezing \(M\) is contract
+  retyping. Local target sufficiency requires
+  \(\ker Dr_m\cap\ker DE_m\subseteq\ker Dt_m\), modulo gauge and including
+  every admitted source, boundary, matter, and regulator direction.
+  Conversely, Barandes's stochastic-to-unitary construction represents the
+  distinguished-initial-time transition family through nonunique
+  phase/Kraus/Stinespring choices; it does not by itself select a physical
+  process or supply complete multi-time intervention statistics. Finally,
+  \(R_{\mu\nu}^{\mathrm{TF}}\equiv0\) in two dimensions, so the 2026
+  Fischer--Finster continuum equation cannot restrict `HC-DU-038B/038C`'s
+  current \(1+1\) conformal hostile family. These are literature-collision
+  boundaries, not new DU theorems. See
+  `causal-action-and-stochastic-quantum-source-collision-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,

@@ -351,6 +351,18 @@ reconstruction must be resolution- and completion-indexed; a finite regular
 measurement surface can legitimately reconstruct an observer-accessible
 quotient rather than an unrestricted microgeometry.
 
+The Finster/Barandes source collision further types that bottleneck.
+Finster's causal action is a legitimate candidate physical-law filter on the
+completion class; Barandes's stochastic-to-unitary theorem is a
+representation-without-selection absorber. Neither supplies DU's record map,
+observer boundary, or finality rule. Fischer--Finster's
+\(R_{\mu\nu}^{\mathrm{TF}}=0\) continuum condition is identically vacuous in
+the current \(1+1\) conformal arena. A future CFS-facing attempt therefore
+requires a frozen \(3+1\) arena and must separate ordinary Einstein closure
+from a regulator-robust CFS-specific residue. This is an arena rule, not a
+priority change. See
+`explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md`.
+
 `HC-DU-040A` is a separate conditional physical-recovery branch. Its exact
 finite proxy proves that a unit-index boundary map tensored with an
 independently located triplet has index three, while also proving that
@@ -394,7 +406,7 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Preserve complete selective-map identity whenever continuation matters; value archives alone are insufficient. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Capability and finality are target-indexed; correct value access does not imply repeat-response access. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, loop obstructions, and the proposition each certificate finalizes. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038C` shows regularity/action bounds are insufficient and source-free toy dynamics can close the fibre; next test an independently warranted physical dynamics and frozen source class. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038C` shows regularity/action bounds are insufficient and source-free toy dynamics can close the fibre; next test an independently warranted physical dynamics and frozen source class. If CFS is chosen, the arena must be \(3+1\), since its current trace-free continuum condition is vacuous in \(1+1\). |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
