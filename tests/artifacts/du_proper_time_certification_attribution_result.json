@@ -1,0 +1,293 @@
+{
+  "checks": [
+    {
+      "detail": "The exact phase 3/5 + 4i/5 has unit modulus.",
+      "name": "chosen pure phase lies on the unit circle",
+      "passed": true
+    },
+    {
+      "detail": "The two-point measure has weights (1+r)/2 and (1-r)/2.",
+      "name": "classical random-time weights form a probability distribution",
+      "passed": true
+    },
+    {
+      "detail": "Opposite phase points with weights 3/4 and 1/4 give |Gamma|=1/2 exactly.",
+      "name": "two classical proper-time phases reproduce an interior coherence factor",
+      "passed": true
+    },
+    {
+      "detail": "A quantum-generated reduced coherence and an explicit classical random-time mixture have the same Gamma.",
+      "name": "clock-only coherence cannot retain the origin label",
+      "passed": true
+    },
+    {
+      "detail": "No floating-point approximation is used.",
+      "name": "rational half angle gives an exact trigonometric point",
+      "passed": true
+    },
+    {
+      "detail": "V_+=U_+ H U_+ and V_-=U_- H U_- preserve norm exactly.",
+      "name": "both specified Ramsey histories are unitary",
+      "passed": true
+    },
+    {
+      "detail": "A nontrivial convex mixture has Choi rank greater than one.",
+      "name": "the specified Ramsey histories are distinct Choi rays",
+      "passed": true
+    },
+    {
+      "detail": "K_+^dagger K_+=p_+ I exactly.",
+      "name": "bright history-erasure port is subnormalized unitary",
+      "passed": true
+    },
+    {
+      "detail": "p_+=(1+cos(theta)^2)/2.",
+      "name": "bright-port success probability matches the source equation",
+      "passed": true
+    },
+    {
+      "detail": "For input |g>, conditioned <Z>_+ is outside the specified classical-mixture prediction.",
+      "name": "bright-port population witness is exact and nonzero",
+      "passed": true
+    },
+    {
+      "detail": "Each V_h maps |g> to equal clock populations.",
+      "name": "both individual classical histories have zero population imbalance",
+      "passed": true
+    },
+    {
+      "detail": "Convex reweighting cannot produce the nonzero bright-port witness.",
+      "name": "every tested convex mixture of specified histories has zero imbalance",
+      "passed": true
+    },
+    {
+      "detail": "The rank-one Choi ray of K_+ cannot equal a nonnegative mixture of nonparallel V_h rays.",
+      "name": "bright conditioned operation is not any specified history ray",
+      "passed": true
+    },
+    {
+      "detail": "The exact sufficient criterion is satisfied relative to H={V_+,V_-}.",
+      "name": "Choi-rank criterion certifies history-relative nonclassicality",
+      "passed": true
+    },
+    {
+      "detail": "K_-^dagger K_-=p_- I exactly.",
+      "name": "dark history-erasure port is subnormalized unitary",
+      "passed": true
+    },
+    {
+      "detail": "The complementary port is proportional to identity and preserves input |g>.",
+      "name": "dark-port probability and conditional contrast are exact",
+      "passed": true
+    },
+    {
+      "detail": "The two conditioned outcomes form a complete ideal history-erasure readout.",
+      "name": "bright and dark probabilities exhaust the erasure measurement",
+      "passed": true
+    },
+    {
+      "detail": "Erasing two labels that induce the same V_h supplies no new history channel.",
+      "name": "identical histories null the history-relative certificate",
+      "passed": true
+    },
+    {
+      "detail": "The terminal Z statistic no longer distinguishes coherent recombination from the specified mixture.",
+      "name": "removing the intermediate Ramsey control nulls this population discriminator",
+      "passed": true
+    },
+    {
+      "detail": "If the erased branch does not select distinct V_h, the operation stays on one history ray.",
+      "name": "an unrelated erasure label is ordinary erasure, not a history certificate",
+      "passed": true
+    },
+    {
+      "detail": "Discarding the history label yields a convex mixture, not coherent cross terms.",
+      "name": "incoherent history averaging remains in the classical free set",
+      "passed": true
+    },
+    {
+      "detail": "If the normalized K_+ channel is admitted as a new classical history, membership is tautological; H must be frozen independently.",
+      "name": "broadening the free history set can absorb the certificate",
+      "passed": true
+    },
+    {
+      "detail": "The phenomenological visibility product does not identify which channel lost coherence.",
+      "name": "history-erasure clock and motion nuisances remain separately receipted",
+      "passed": true
+    },
+    {
+      "detail": "The exact phenomenological witness is attenuated but not erased.",
+      "name": "nonzero calibrated coherence preserves a nonzero witness",
+      "passed": true
+    },
+    {
+      "detail": "A null witness does not by itself prove classical histories.",
+      "name": "complete loss of any required coherence produces a false-negative null",
+      "passed": true
+    },
+    {
+      "detail": "Any differentiable observable F(theta_tau+theta_chi) has a row proportional to (1,1).",
+      "name": "all output-only sensitivities have rank one",
+      "passed": true
+    },
+    {
+      "detail": "The target-changing direction (delta theta_tau, delta theta_chi)=(1,-1) preserves the complete output channel.",
+      "name": "proper-time versus engineered-control exchange is the exact local null",
+      "passed": true
+    },
+    {
+      "detail": "More precision or more output observables cannot distinguish identical channels.",
+      "name": "another output statistic of the same channel does not repair attribution",
+      "passed": true
+    },
+    {
+      "detail": "A row not parallel to (1,1) supplies the minimum local rank repair.",
+      "name": "one independently calibrated source-selective intervention closes the local parameter null",
+      "passed": true
+    },
+    {
+      "detail": "Both operational source coefficients can be locally identified under the frozen nuisance/control model.",
+      "name": "the repaired local sensitivity map has trivial kernel",
+      "passed": true
+    },
+    {
+      "detail": "Relabeling one identical Hamiltonian/channel as proper time cannot create an observable difference.",
+      "name": "operationally identical generators have identical complete output instruments",
+      "passed": true
+    },
+    {
+      "detail": "No POVM on identical output instruments separates their interpretation labels.",
+      "name": "full process tomography cannot infer an unencoded mechanism label",
+      "passed": true
+    },
+    {
+      "detail": "The Choi certificate advances one evidence axis without closing the mechanism-attribution axis.",
+      "name": "nonclassical-history certification can hold while source attribution fails",
+      "passed": true
+    },
+    {
+      "detail": "Rank two identifies coefficients of the frozen operational Hamiltonian; it does not choose between equivalent interpretations of that Hamiltonian.",
+      "name": "source attribution can be repaired without upgrading ontology",
+      "passed": true
+    },
+    {
+      "detail": "Mean signal, reduced channel, joint state, conditioned channel, tomography, and source intervention are not collapsed.",
+      "name": "evidence surface keeps six distinct grades",
+      "passed": true
+    },
+    {
+      "detail": "The optical-clock and conditioned-history implementations remain proposals.",
+      "name": "no evidence tier promotes an observed result",
+      "passed": true
+    }
+  ],
+  "claim_ceiling": [
+    "primary-source-pinned proper-time evidence hierarchy",
+    "history-relative nonclassical channel certificate",
+    "exact residual local mechanism-attribution null and minimum intervention repair",
+    "known quantum channel, convexity, interferometry, and local identifiability mathematics",
+    "no observed proper-time nonclassicality, source ontology, universal classical exclusion, new law, new physics, hardware result, or paper promotion"
+  ],
+  "evidence_surface": [
+    {
+      "absorber": "fixed semiclassical average proper time or ordinary phase/potential",
+      "nonclassical_history": "not certified",
+      "record": "mean frequency or terminal phase",
+      "source_attribution": "not identified"
+    },
+    {
+      "absorber": "classical random proper-time mixture; technical dephasing",
+      "nonclassical_history": "not certified",
+      "record": "single-time reduced clock coherence and visibility",
+      "source_attribution": "not identified"
+    },
+    {
+      "absorber": "requires frozen state preparation, joint measurement, and history-label provenance",
+      "nonclassical_history": "conditional quantum-state certificate",
+      "record": "joint clock-motion entanglement",
+      "source_attribution": "not identified"
+    },
+    {
+      "absorber": "different histories/additional controls outside H remain unexcluded",
+      "nonclassical_history": "certified relative to frozen H",
+      "record": "conditioned coherent-history channel outside CPTH(H)",
+      "source_attribution": "not identified"
+    },
+    {
+      "absorber": "channel equality",
+      "nonclassical_history": "classifiable relative to frozen process set",
+      "record": "complete output process tomography",
+      "source_attribution": "not identified for identical generators"
+    },
+    {
+      "absorber": "equivalent interpretations of the same Hamiltonian remain experimentally indistinguishable",
+      "nonclassical_history": "separately classifiable",
+      "record": "output process plus independently calibrated source intervention",
+      "source_attribution": "local operational coefficients identified at full rank"
+    }
+  ],
+  "exact_control": {
+    "bright_probability": "337/625",
+    "bright_z": "-288/337",
+    "classical_coherence": {
+      "imag": "2/5",
+      "real": "3/10"
+    },
+    "cos_theta": "-7/25",
+    "dark_probability": "288/625",
+    "dark_z": "1",
+    "half_cos": "3/5",
+    "half_sin": "4/5",
+    "intervention_repaired_kernel": [],
+    "intervention_repaired_rank": 2,
+    "noisy_bright_z": "-1152/3223",
+    "output_only_kernel": [
+      [
+        "1",
+        "-1"
+      ]
+    ],
+    "output_only_rank": 1,
+    "sin_theta": "24/25"
+  },
+  "hypothesis_id": "HC-DU-039D",
+  "local_model_learning_gate": {
+    "disposition": "REGRESSION_ONLY_AFTER_DIRECT_PROOF",
+    "generated_learning_claim": false,
+    "hardware_required": false,
+    "purpose": "preserve the exact evidence hierarchy, channel witness, nulls, and intervention-rank boundary after source audit"
+  },
+  "next_dependency": "choose one preregistered source-selective variation of the relativistic clock-motion coupling and prove that its complete nuisance-aware sensitivity row is not parallel to the ordinary-control row; use existing or proposed data only after that local contract closes",
+  "north_star_return": {
+    "nontrivial_success_rule": "report nonclassicality and source attribution separately; close source rank with preregistered intervention sensitivities and no refitting",
+    "operational_duality": "classical random-time and quantum-generated reduced dephasing share one clock-only record",
+    "physics_first_remainder": "coherent cross-history terms separate the conditioned channel from the frozen classical mixture cone",
+    "record_first": "a complete conditioned instrument can certify nonmembership in a specified classical-history set",
+    "underidentification": "the physical generator remains unassigned when proper-time and engineered contributions induce the same channel"
+  },
+  "primary_source_scope": {
+    "loriani_et_al_2019": "apparatus geometry and clock-transition controls determine which proper-time effect is isolated",
+    "sorci_et_al_2026": "published theoretical optical-ion-clock proposal, not an observation",
+    "source_statuses": {
+      "loriani_et_al_2019": "published_theory_and_proposed_geometry",
+      "sorci_et_al_2026": "published_theoretical_proposal",
+      "zeng_2026": "preprint_exact_finite_claims_rederived",
+      "zych_et_al_2011": "published_theoretical_proposal"
+    },
+    "zeng_2026": "June 2026 preprint; finite dephasing and Choi claims independently rederived here",
+    "zych_et_al_2011": "phase-versus-visibility motivation, narrowed by the clock-only dephasing no-go"
+  },
+  "run_id": "RUN-20260726-183500-proper-time-certification-attribution",
+  "status": "completed_scoped_result",
+  "summary": {
+    "history_certificate": "conditioned coherent recombination can leave the convex hull of one independently frozen finite history set",
+    "interpretation_ceiling": "identical Hamiltonians and channels cannot decide between equivalent proper-time and mass-energy descriptions",
+    "mean_signal": "frequency and terminal phase remain compatible with a fixed semiclassical average",
+    "minimum_repair": "an independently calibrated source-selective intervention, not another output observable, supplies the second sensitivity",
+    "passed": 36,
+    "reduced_channel": "every two-level single-time dephasing factor is a classical random-proper-time mixture",
+    "source_null": "all output-only functionals of theta_tau+theta_chi retain the exact local null (1,-1)",
+    "total": 36
+  },
+  "verdict": "KNOWN_MATHEMATICS__PROPER_TIME_HISTORY_CERTIFICATION_AND_SOURCE_ATTRIBUTION_AXES_SEPARATED"
+}

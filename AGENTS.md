@@ -213,7 +213,10 @@ routing authority.
   independently formed strict compression, held-out targets,
   source-independent sensitivities, and no refitting. Complete public
   behavior reconstructed from itself is operational closure, not source
-  derivation.
+  derivation. `HC-DU-039D` further requires history nonclassicality, physical
+  source attribution, and ontology to be reported separately: a conditioned
+  channel may leave a frozen classical-history set while every output-only
+  observable still shares a proper-time/engineered-control null.
 - **Lane 2:** forward representation and coherence—build the full typed
   physical picture, preserve assumptions and grades, and expose seams.
 - **Lane 3:** physical record formation and selection—derive or delimit
@@ -224,11 +227,13 @@ routing authority.
   central joint effects give an autonomous record; noncommutative
   within-sector actions expose a same-record remainder. The physical action
   algebra, boundary, formation coupling, archive, and decoder remain
-  unselected. `HC-DU-035D/039C` have now carried that typed object through
-  regional screening and the first effective-physics attribution test.
-  Physical interface selection and an independently calibrated
-  multi-sensitivity arena remain open; do not build another fitted
-  QND/channel or abstract phase variant. The existing provider
+  unselected. `HC-DU-035D/039C/039D` have now carried that typed object
+  through regional screening, source-attribution rank, and the
+  optical-clock evidence hierarchy. Mean signals and reduced dephasing are
+  insufficient; conditioned coherent recombination is a history-relative
+  channel certificate. Physical interface selection and a source-selective
+  intervention remain open; do not build another fitted QND/channel,
+  reduced-visibility toy, or abstract phase variant. The existing provider
   bridge is a conditional calibration rung; complete-process physical
   adjudication remains co-designed-partner gated.
 - **Lane 4:** observer access, certification, and capability—freeze physical
@@ -238,7 +243,10 @@ routing authority.
   different contracts. Under `HC-DU-039C`, adding one phase readout may
   enlarge capability only to total-phase discrimination; source
   discrimination requires independently calibrated additional sensitivity
-  and its resource receipt.
+  and its resource receipt. Under `HC-DU-039D`, a joint or conditioned
+  history-channel certificate must freeze history-label provenance,
+  controls, postselection, nuisance channels, and the classical history set
+  before the result.
 - **Lane 5:** regional finality and recursive composition—establish when
   local certified networks compose into safe higher-level facts and actions.
   `HC-DU-035D` establishes the exact finite boundary: every complete
@@ -253,9 +261,13 @@ routing authority.
   controls. `HC-DU-039C` establishes that screened public order does not
   identify duration, a total phase does not attribute time versus field
   source, and source reconstruction requires
-  \(\ker S\subseteq\ker T\). The next campaign input is a physically
-  motivated optical-clock/proper-time sensitivity matrix, not another
-  abstract phase toy.
+  \(\ker S\subseteq\ker T\). `HC-DU-039D` executes the physical
+  optical-clock input: nonclassical-history certification and generator
+  attribution are independent axes, and all same-channel outputs retain the
+  local null \((1,-1)\). The next dependency is a preregistered
+  source-selective variation of the published relativistic clock-motion
+  coupling, with nuisance sensitivities and a held-out no-refitting transfer
+  test—not another output observable or clock simulation.
 - **Lane 7:** remainders, predictions, and publishable results—extract finite
   discriminators, theorems/no-gos, experimental protocols, novelty
   collisions, and Drafting-Factory packages. Joe publishes.

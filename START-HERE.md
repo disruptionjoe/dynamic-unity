@@ -241,6 +241,21 @@ What *has* been earned is a strong finite control stack:
   reconstruction
   ([result](explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md);
   [probe](tests/du_screened_effective_physics_attribution_probe.py)).
+- one primary-source-pinned exact `HC-DU-039D` optical-clock evidence
+  boundary. Mean frequency and terminal phase remain semiclassically
+  reproducible, and every two-level single-time dephasing factor has a
+  classical random-proper-time representation. A conditioned coherent
+  recombination channel can leave the convex hull of one independently
+  frozen history set; the exact Ramsey control passes `36/36`. That
+  history-relative certificate does not identify the physical generator:
+  every output-only functional of
+  \(\theta_\tau+\theta_\chi\) retains local null \((1,-1)\), including
+  complete tomography. A preregistered source-selective intervention is the
+  minimum local coefficient repair, while equivalent proper-time and
+  mass-energy interpretations of one Hamiltonian remain operationally
+  indistinguishable
+  ([result](explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md);
+  [probe](tests/du_proper_time_certification_attribution_probe.py)).
 - one formal-first `HC-DU-033C/038D` separation result. Any natural
   interface selected at a lawful completion must be fixed by that
   completion's symmetry stabilizer. Minkowski's Lorentz stabilizer has no
@@ -422,18 +437,32 @@ sensitivity map has a target-changing null direction. A second independently
 calibrated sensitivity repairs the exact finite pair, but changes the
 interface and resource contract.
 
-The fifth campaign move should now leave abstract finite source toys and test
-one physically motivated multi-sensitivity arena. Use the optical-clock and
-proper-time literature's distinct mean-frequency, coherence/visibility,
-clock-motion, coherent-recombination, and nuisance channels to build a
-source-pinned sensitivity matrix. Return either a full-rank local
-reconstruction, the exact remaining null direction and minimum additional
-observable, or absorption by standard quantum process/metrology theory.
-Require independent record formation, strict compression, held-out transfer,
-source-independent calibration, and no refitting. This remains a local
-literature/formal swing; run the frozen cloud pilot only after direct
-authorization and only if it changes an instrument, margin, reset, or
-shot-budget decision.
+`HC-DU-039D` has now executed the fifth campaign move in the optical-clock
+and proper-time arena. Mean frequency or phase is semiclassically
+reproducible, and every two-level single-time dephasing/visibility factor has
+a classical random-proper-time representation. Conditioned coherent
+recombination can nevertheless produce a channel outside the convex hull of
+one independently frozen finite history set. That certificate is
+history-relative, not a unique physical-source assignment.
+
+The resulting evidence surface has two independent axes. A nonclassical
+history-channel certificate can hold while proper-time versus matched
+coherent-control attribution retains the exact local null
+\((1,-1)\). No additional observable or complete tomography of the same
+channel repairs identical-generator attribution. The minimum repair is a
+preregistered source-selective intervention row not parallel to the total
+channel sensitivity, with history provenance, controls, nuisance channels,
+postselection, resources, held-out transfer, and no refitting frozen before
+the result. Even full operational coefficient attribution cannot choose
+between equivalent proper-time and mass-energy interpretations of the same
+Hamiltonian.
+
+The five-swing campaign is complete. The next local dependency is not another
+clock toy or hardware path: derive the complete nuisance-aware sensitivity
+matrix for one published source variation—preferably motional Fock
+separation or trap frequency—and construct the smallest matched-control rival
+that could mimic its held-out slope. Escalate to data or hardware only if
+that local contract leaves an experimentally decidable margin.
 
 For planning, assume **no external hardware is available**. That changes only
 after the local theorem/absorption, exact-counterexample, existing-data, and

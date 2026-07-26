@@ -211,6 +211,22 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     component mathematics is known observability and quantum phase-readout
     terrain.
 
+23. **History-nonclassicality/source-attribution substitution.** *Objection:*
+    a frequency shift, reduced visibility loss, entanglement statement, or
+    conditioned channel outside one classical history set is reported as
+    identification of proper time as the physical generator. *Way through:*
+    first use the exact evidence hierarchy: mean signals are semiclassically
+    reproducible, every two-level reduced dephasing factor is a classical
+    random-time mixture, and only a complete joint or conditioned instrument
+    can certify a stronger history-relative claim. Then audit source rank
+    separately. If every output depends on
+    \(\theta_\tau+\theta_\chi\), the null \((1,-1)\) survives complete
+    tomography. Require a preregistered source-selective intervention,
+    frozen history provenance/controls/nuisances, held-out transfer, and no
+    refitting. Even full operational coefficient rank does not choose
+    between equivalent interpretations of one Hamiltonian. `HC-DU-039D` is
+    the standing physical channel control.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

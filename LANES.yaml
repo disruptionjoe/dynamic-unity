@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 59
+manifest_revision: 60
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -102,6 +102,18 @@ screened_effective_physics_rule: >-
   Treat a target-changing null direction as an attribution witness. One measured total phase
   does not identify proper-duration versus field/path source; an added independently calibrated
   sensitivity changes the interface and resource contract.
+proper_time_certification_ref: >-
+  explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
+proper_time_certification_rule: >-
+  Keep nonclassical-history certification, physical-source attribution and ontology as separate
+  evidence axes. Mean clock signals and every two-level single-time dephasing factor remain
+  classically or semiclassically simulable. A conditioned coherent-recombination channel can
+  leave the convex hull of one independently frozen history set, but this does not identify its
+  generator. If proper-time and coherent-control contributions enter through one total channel
+  parameter, every output-only sensitivity retains the local null (1,-1), including complete
+  tomography. Repair local coefficient attribution only with a preregistered source-selective
+  intervention, frozen history provenance/controls/nuisances, held-out transfer and no
+  refitting. Equivalent interpretations of one Hamiltonian remain operationally indistinguishable.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -262,7 +274,13 @@ lanes:
     nontrivial result requires independent formation, strict compression, held-out transfer,
     source-independent calibration and no refitting; source target T factors through sensitivity
     S exactly when ker(S) is contained in ker(T). One total phase does not attribute proper
-    duration versus field/path source. Advance the physical
+    duration versus field/path source. Consume HC-DU-039D's physical refinement: mean signals
+    and reduced two-level dephasing are classically simulable; a conditioned channel outside a
+    frozen classical-history set advances history nonclassicality but not source attribution.
+    All output-only sensitivities to theta_tau+theta_chi retain local null (1,-1), so require a
+    preregistered source-selective intervention rather than another same-channel observable or
+    tomography. Report operational coefficient attribution separately from equivalent
+    proper-time/mass-energy interpretations. Advance the physical
     formation/interface-selection dependency: determine which complete
     selective record, archive, provenance field, reset boundary and admissible refinement is
     independently formed or selected rather than supplied, fitted or representation-dependent.
@@ -292,6 +310,7 @@ lanes:
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
+  - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
@@ -360,9 +379,12 @@ lanes:
     joint effects are exactly the autonomous sector-level cases, and that a noncommutative
     block preserves a capability-relative remainder. This does not select the action algebra
     or formation coupling. HC-DU-039C adds that one formed phase readout may still leave a
-    target-changing source nullspace. Use that assurance spine to attack physical formation and
-    interface selection directly. Require independently calibrated sensitivities spanning the
-    held-out source target rather than fitting a target-coded probe. Require an
+    target-changing source nullspace. HC-DU-039D adds that clock-only visibility remains inside
+    the classical random-time set, while a stronger conditioned-channel certificate requires
+    history-label provenance, complete controls, postselection and nuisances. Use that assurance
+    spine to attack physical formation and interface selection directly. Require independently
+    calibrated source-selective interventions spanning the held-out source target rather than
+    fitting a target-coded probe or adding another output of the same channel. Require an
     independently motivated source, reference/asymmetry resource, interaction, pointer, archive,
     provenance, decoder/access rule, reset boundary and representation-robust admissible
     refinement class; report each as selected, orbit-selected, supplied or fitted. Keep the
@@ -391,6 +413,7 @@ lanes:
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
+  - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
@@ -429,7 +452,11 @@ lanes:
     creates false finality. Consume HC-DU-039C: the screened class, one total-phase readout and
     two independent source sensitivities distinguish respectively one, two and four finite
     source classes. Charge every added interface, calibration and resource; do not credit the
-    old record for capability bought by the new probe. Freeze the
+    old record for capability bought by the new probe. Consume HC-DU-039D: distinguish mean
+    signal, reduced clock channel, joint clock-motion state and conditioned history channel;
+    only the last two can support a stronger nonclassicality claim under their complete frozen
+    contracts, and neither alone identifies the generator. Receipt postselection probability,
+    history provenance and each clock/motion/erasure/readout nuisance separately. Freeze the
     observer/access/task/loss/readout/decoder/risk/resource comparison contract, and wait for a
     formed distinction with a candidate finality-specific residual before promoting a stronger
     capability law.
@@ -446,6 +473,7 @@ lanes:
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
+  - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
@@ -503,6 +531,7 @@ lanes:
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
+  - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -539,12 +568,16 @@ lanes:
     after a noncentral recoupling is a class-relative fibre remainder, not unexplained
     perspectival curvature.
     HC-DU-039C now proves the next boundary: screened public order does not assign duration, and
-    one total-phase assay does not attribute proper-duration versus field/path source. Apply the
-    kernel-containment/rank test to a physically motivated optical-clock/proper-time observable
-    set. Freeze published mean-frequency, clock-motion, coherence/visibility,
-    coherent-recombination and nuisance sensitivities; return full-rank local reconstruction,
-    the exact remaining null direction and minimum extra observable, or standard-theory
-    absorption. Do not build another abstract binary phase source.
+    one total-phase assay does not attribute proper-duration versus field/path source.
+    HC-DU-039D has now applied that test to the optical-clock/proper-time observable hierarchy.
+    Mean frequency and every two-level reduced dephasing factor are absorbed by semiclassical or
+    classical random-time models. Conditioned coherent recombination can leave one frozen
+    classical-history convex set, but all output-only functionals of
+    theta_tau+theta_chi retain exact local null (1,-1). The next local dependency is the complete
+    nuisance-aware sensitivity matrix for one preregistered source variation, preferably Delta n
+    or trap frequency, plus the smallest matched coherent-control rival and a held-out
+    no-refitting slope. Do not build another abstract phase source, reduced-visibility toy,
+    same-channel output assay or hardware adapter.
     The next physical arena must retain nonzero law-only target diameter and add an independently
     realized symmetry breaker plus formed record instrument. Prefer an exact linearized
     Einstein--matter kernel/stabilizer calculation before simulation. A CFS-facing extension must
@@ -587,6 +620,7 @@ lanes:
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
+  - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -625,8 +659,11 @@ lanes:
     physical formation/interface selection plus an implementation-complete packet the next
     contribution test. Treat HC-DU-039C as a North-Star boundary, not a paper promotion:
     operational closure is not strict compression, and total phase is not source attribution.
-    The next local discriminator is a source-pinned physical multi-sensitivity rank audit; seed
-    nothing unless it yields a contribution beyond standard metrology/process identifiability.
+    HC-DU-039D completes that physical rank audit as a known-mathematics boundary:
+    history-relative channel nonclassicality and generator attribution are independent, reduced
+    dephasing is classically simulable and output-only source rank remains one. Seed nothing
+    from this result unless the next source-selective intervention contract yields a contribution
+    beyond standard metrology, channel certification and structural identifiability.
     Use the existing HC-DU-036E pilot only when directly authorized and
     decision-changing; otherwise assume no external hardware and keep the work local. An
     irreducible hardware dependency gets one awareness note and then parks without separate Joe
@@ -649,6 +686,7 @@ lanes:
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
+  - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -4235,6 +4273,23 @@ provenance:
     new law, new physics, paper promotion, hardware, provider action, submission, publication
     or external contact is promoted. The fifth swing is a local source-pinned
     optical-clock/proper-time multi-sensitivity rank audit, not another abstract phase toy.
+  rev60_note: >-
+    2026-07-26 (Joe direct chat: proceed with the fifth large swing of the five-swing Dynamic
+    Unity campaign): executed HC-DU-039D. The primary-source-pinned optical-clock audit separates
+    nonclassical-history certification from physical-source attribution. Mean frequency and
+    terminal phase remain semiclassically reproducible; every two-level single-time dephasing
+    factor has a classical random-proper-time representation. Conditioned coherent recombination
+    can leave the convex hull of one independently frozen history set by the rank-one Choi
+    criterion. The exact two-history control returns p+=337/625, <Z>+=-288/337, p-=288/625 and
+    <Z>-=1. This certificate is history-relative and does not identify the generator. If
+    proper-time and coherent-control contributions enter through theta_tau+theta_chi, all
+    output-only sensitivities, including complete tomography, retain local null (1,-1). One
+    preregistered source-selective intervention row is the minimum local coefficient repair;
+    equivalent proper-time and mass-energy interpretations of one Hamiltonian remain
+    operationally indistinguishable. Exact controls pass 36/36. The five-swing campaign is
+    complete. No observed proper-time effect, universal classical exclusion, ontology, new law,
+    new physics, paper promotion, hardware, provider action, submission, publication or external
+    contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

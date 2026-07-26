@@ -594,6 +594,51 @@ optical-clock/proper-time sensitivity matrix or another physical arena whose
 formed records independently span the held-out source targets. See
 `screened-effective-physics-and-source-attribution-rank-2026-07-26.md`.
 
+### 2026-07-26 proper-time evidence and attribution axes
+
+`HC-DU-039D` physically instantiates the source-identification boundary in
+the optical-clock/proper-time literature.
+
+The record hierarchy is:
+
+\[
+\text{mean phase}
+\prec
+\text{reduced clock channel}
+\prec
+\text{joint clock-motion state}
+\prec
+\text{conditioned history channel}.
+\]
+
+This is not a single evidence score. Every two-level single-time dephasing
+factor has a classical random-proper-time representation. A conditioned
+coherent-recombination channel can nevertheless leave the convex hull of one
+independently frozen history set by the rank-one Choi criterion.
+
+That nonclassical-history certificate does not identify the physical
+generator. If
+
+\[
+\theta=\theta_\tau+\theta_\chi,
+\]
+
+every output-only sensitivity row is parallel to \((1,1)\), leaving exact
+local null \((1,-1)\). Another output statistic and complete tomography do
+not repair identical-channel attribution. One preregistered
+source-selective intervention row can make the local coefficient map full
+rank, but equivalent interpretations of the same Hamiltonian remain
+operationally indistinguishable.
+
+**Updated status:** **REDUCED TWO-LEVEL DEPHASING CLASSICALLY SIMULABLE /
+CONDITIONED SPECIFIED-HISTORY CHANNEL CERTIFICATE EXACT /
+NONCLASSICALITY AND SOURCE ATTRIBUTION INDEPENDENT /
+OUTPUT-ONLY SOURCE NULL EXACT /
+SOURCE-SELECTIVE INTERVENTION CONTRACT OPEN.** Do not infer proper-time
+source, ontology, or an observed effect from frequency, reduced visibility,
+entanglement language, or one Choi witness. See
+`proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md`.
+
 ### 2026-07-26 dynamics-restricted geometric nullspace
 
 `HC-DU-038C` executes the next restriction gate without fitting another

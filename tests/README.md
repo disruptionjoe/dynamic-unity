@@ -1615,3 +1615,48 @@ Passing establishes a finite operational-equivalence and source-attribution
 boundary. It does not supply a physical clock, metric, field source,
 interface selector, strict-compression result in a real arena, ontology, new
 law, new physics, paper state, hardware path, or external action.
+
+## HC-DU-039D proper-time certification and mechanism attribution
+
+`du_proper_time_certification_attribution_probe.py` independently preserves
+the exact finite mathematics behind the fifth campaign swing:
+
+- one interior two-level coherence factor has an explicit two-point
+  classical random-proper-time representation;
+- the exact two-history Ramsey construction has distinct history unitaries,
+  bright- and dark-port subnormalized unitary channels, and a nonzero
+  conditioned population witness outside every convex mixture of the frozen
+  two-history set;
+- the rational half-angle control gives
+  \(p_+=337/625\), \(\langle Z\rangle_+=-288/337\),
+  \(p_-=288/625\), and \(\langle Z\rangle_-=1\);
+- identical histories, removal of the intermediate control for this
+  population statistic, an unrelated erasure label, incoherent averaging,
+  free-set broadening, and complete coherence loss remain explicit nulls;
+- history-erasure, clock, and motional nuisance factors remain separately
+  receipted;
+- every output-only functional of
+  \(\theta_\tau+\theta_\chi\) has rank-one sensitivity and exact local null
+  \((1,-1)\);
+- another same-channel output and complete output tomography do not repair
+  mechanism attribution;
+- one independently calibrated source-selective intervention row makes the
+  local two-parameter map full rank; and
+- the nonclassical-history verdict and physical-source-attribution verdict
+  can differ.
+
+Run:
+
+```bash
+python3 tests/du_proper_time_certification_attribution_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_proper_time_certification_attribution_result.json` and reports
+`36/36` with
+`KNOWN_MATHEMATICS__PROPER_TIME_HISTORY_CERTIFICATION_AND_SOURCE_ATTRIBUTION_AXES_SEPARATED`.
+Passing is a primary-source-pinned channel and identifiability boundary. It
+does not report an observed proper-time effect, exclude arbitrary classical
+protocols, identify a unique physical generator or interpretation, select an
+observer/interface, establish ontology, new law, new physics, paper state,
+hardware path, or external action.
