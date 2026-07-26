@@ -1,0 +1,825 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:dynamic-unity:physical-sufficiency-acquisition-packet:v0.1",
+  "title": "Dynamic Unity physical sufficiency acquisition packet v0.1",
+  "description": "Canonical embedded-table interchange for an implementation-complete, shot-resolved, multi-time physical process packet. Passing this structural schema is necessary but not sufficient for a scientific verdict.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "packet_id",
+    "evidence_kind",
+    "source",
+    "freeze",
+    "contract",
+    "process_schema",
+    "attempt_count",
+    "trial_rows",
+    "calibration_rows",
+    "multitime_rows",
+    "reset_receipts",
+    "route_rows"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "du-physical-sufficiency-packet/0.1"
+    },
+    "packet_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "evidence_kind": {
+      "enum": [
+        "physical_shot_packet",
+        "synthetic_contract_control"
+      ]
+    },
+    "source": {
+      "$ref": "#/$defs/source"
+    },
+    "freeze": {
+      "$ref": "#/$defs/freeze"
+    },
+    "contract": {
+      "$ref": "#/$defs/contract"
+    },
+    "process_schema": {
+      "$ref": "#/$defs/processSchema"
+    },
+    "attempt_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "trial_rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/trialRow"
+      }
+    },
+    "calibration_rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/calibrationRow"
+      }
+    },
+    "multitime_rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/multitimeRow"
+      }
+    },
+    "reset_receipts": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/resetReceipt"
+      }
+    },
+    "route_rows": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/routeRow"
+      }
+    }
+  },
+  "$defs": {
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "rawAttachment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "path",
+        "sha256",
+        "media_type"
+      ],
+      "properties": {
+        "path": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "media_type": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title",
+        "primary_uri",
+        "repository_commit",
+        "hardware_id",
+        "protocol_id",
+        "acquisition_started_at",
+        "acquisition_ended_at",
+        "packet_created_at",
+        "raw_attachment_manifest"
+      ],
+      "properties": {
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "primary_uri": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repository_commit": {
+          "type": "string",
+          "minLength": 7
+        },
+        "hardware_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "protocol_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "acquisition_started_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "acquisition_ended_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "packet_created_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "raw_attachment_manifest": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/rawAttachment"
+          }
+        }
+      }
+    },
+    "freeze": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "contract_frozen_at",
+        "record_selection_warrant",
+        "completion_selection_warrant",
+        "analysis_code_version",
+        "holdout_policy",
+        "blinded_fields"
+      ],
+      "properties": {
+        "contract_frozen_at": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "record_selection_warrant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "completion_selection_warrant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "analysis_code_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "holdout_policy": {
+          "type": "string",
+          "minLength": 1
+        },
+        "blinded_fields": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        }
+      }
+    },
+    "resourceVector": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0
+      }
+    },
+    "completion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "completion_id",
+        "refinement_field",
+        "formation_warrant",
+        "target_independent",
+        "resources"
+      ],
+      "properties": {
+        "completion_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "refinement_field": {
+          "type": "string",
+          "minLength": 1
+        },
+        "formation_warrant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "target_independent": {
+          "const": true
+        },
+        "resources": {
+          "$ref": "#/$defs/resourceVector"
+        }
+      }
+    },
+    "memoryRegister": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "memory_id",
+        "kind",
+        "boundary_status",
+        "reset_required_for_remainder"
+      ],
+      "properties": {
+        "memory_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "kind": {
+          "enum": [
+            "quantum",
+            "classical",
+            "controller",
+            "decoder",
+            "environment",
+            "archive",
+            "route"
+          ]
+        },
+        "boundary_status": {
+          "enum": [
+            "inside_candidate_record",
+            "inside_admissible_completion",
+            "outside_observer_access_but_physically_retained"
+          ]
+        },
+        "reset_required_for_remainder": {
+          "type": "boolean"
+        }
+      }
+    },
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observer_id",
+        "access_boundary",
+        "outcome_alphabet",
+        "intervention_ids",
+        "candidate_record_field",
+        "target_response",
+        "metric",
+        "equivalence_tolerance",
+        "familywise_alpha",
+        "completion_class",
+        "memory_registers",
+        "minimum_heldout_shots_per_cell"
+      ],
+      "properties": {
+        "observer_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "access_boundary": {
+          "type": "string",
+          "minLength": 1
+        },
+        "outcome_alphabet": {
+          "const": [
+            0,
+            1
+          ]
+        },
+        "intervention_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "candidate_record_field": {
+          "const": "candidate_record_id"
+        },
+        "target_response": {
+          "const": "P(output_result=1 | history_id, intervention_id)"
+        },
+        "metric": {
+          "const": "binary_total_variation"
+        },
+        "equivalence_tolerance": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMaximum": 1
+        },
+        "familywise_alpha": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "exclusiveMaximum": 1
+        },
+        "completion_class": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/completion"
+          }
+        },
+        "memory_registers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/memoryRegister"
+          }
+        },
+        "minimum_heldout_shots_per_cell": {
+          "type": "integer",
+          "minimum": 1
+        }
+      }
+    },
+    "processSchema": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "selective_map_convention",
+        "outcome_normalization",
+        "physicality_projection",
+        "tomography_scope",
+        "row_to_map_rule_id",
+        "row_to_map_rule_sha256",
+        "raw_to_probability_rule"
+      ],
+      "properties": {
+        "selective_map_convention": {
+          "type": "string",
+          "minLength": 1
+        },
+        "outcome_normalization": {
+          "type": "string",
+          "minLength": 1
+        },
+        "physicality_projection": {
+          "type": "string",
+          "minLength": 1
+        },
+        "tomography_scope": {
+          "type": "string",
+          "minLength": 1
+        },
+        "row_to_map_rule_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "row_to_map_rule_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "raw_to_probability_rule": {
+          "const": "count valid binary shot rows; never expand aggregate probabilities"
+        }
+      }
+    },
+    "trialRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "attempt_index",
+        "trial_id",
+        "history_id",
+        "sequence_id",
+        "repeat_index",
+        "trial_order",
+        "timestamp",
+        "preparation_id",
+        "intervention_id",
+        "candidate_record_id",
+        "refinement_labels",
+        "selective_outcome",
+        "output_setting_id",
+        "output_result",
+        "valid",
+        "rejection_reason",
+        "calibration_block_id",
+        "controller_version",
+        "decoder_version",
+        "route_id",
+        "provenance_sha256",
+        "analysis_role",
+        "causal_break_id"
+      ],
+      "properties": {
+        "attempt_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "trial_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "history_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sequence_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "repeat_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "trial_order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "timestamp": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "preparation_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "intervention_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "candidate_record_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "refinement_labels": {
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "selective_outcome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output_setting_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "output_result": {
+          "oneOf": [
+            {
+              "enum": [
+                0,
+                1
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "valid": {
+          "type": "boolean"
+        },
+        "rejection_reason": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "calibration_block_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "controller_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decoder_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "route_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "provenance_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "analysis_role": {
+          "enum": [
+            "training",
+            "held_out",
+            "causal_break"
+          ]
+        },
+        "causal_break_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    },
+    "calibrationCount": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "shots",
+        "errors"
+      ],
+      "properties": {
+        "shots": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "errors": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "calibrationRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "calibration_block_id",
+        "valid_from",
+        "valid_to",
+        "controller_version",
+        "decoder_version",
+        "preparation_model_id",
+        "readout_model_id",
+        "prepared_0_observed_1",
+        "prepared_1_observed_0",
+        "joint_uncertainty_method",
+        "joint_spam_drift_tv_bound",
+        "joint_spam_drift_bound_warrant",
+        "raw_attachment_sha256",
+        "preparation_calibration_sha256",
+        "joint_uncertainty_attachment_sha256"
+      ],
+      "properties": {
+        "calibration_block_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "valid_from": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "valid_to": {
+          "$ref": "#/$defs/timestamp"
+        },
+        "controller_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decoder_version": {
+          "type": "string",
+          "minLength": 1
+        },
+        "preparation_model_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "readout_model_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prepared_0_observed_1": {
+          "$ref": "#/$defs/calibrationCount"
+        },
+        "prepared_1_observed_0": {
+          "$ref": "#/$defs/calibrationCount"
+        },
+        "joint_uncertainty_method": {
+          "const": "simultaneous_hoeffding_bonferroni_from_raw_counts"
+        },
+        "joint_spam_drift_tv_bound": {
+          "type": "number",
+          "minimum": 0,
+          "exclusiveMaximum": 1
+        },
+        "joint_spam_drift_bound_warrant": {
+          "type": "string",
+          "minLength": 1
+        },
+        "raw_attachment_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "preparation_calibration_sha256": {
+          "$ref": "#/$defs/sha256"
+        },
+        "joint_uncertainty_attachment_sha256": {
+          "$ref": "#/$defs/sha256"
+        }
+      }
+    },
+    "multitimeRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "trial_id",
+        "event_index",
+        "event_id",
+        "intervention_id",
+        "instrument_outcome",
+        "prior_record_id",
+        "causal_break_applied",
+        "held_out_continuation",
+        "reset_receipt_ids"
+      ],
+      "properties": {
+        "trial_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "event_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "event_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "intervention_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "instrument_outcome": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prior_record_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "causal_break_applied": {
+          "type": "boolean"
+        },
+        "held_out_continuation": {
+          "type": "boolean"
+        },
+        "reset_receipt_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "resetReceipt": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reset_receipt_id",
+        "trial_id",
+        "reset_protocol_id",
+        "memory_register_ids",
+        "success",
+        "verification_method",
+        "verification_result",
+        "timestamp"
+      ],
+      "properties": {
+        "reset_receipt_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "trial_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reset_protocol_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "memory_register_ids": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "success": {
+          "type": "boolean"
+        },
+        "verification_method": {
+          "type": "string",
+          "minLength": 1
+        },
+        "verification_result": {
+          "type": "string",
+          "minLength": 1
+        },
+        "timestamp": {
+          "$ref": "#/$defs/timestamp"
+        }
+      }
+    },
+    "routeRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "route_id",
+        "source",
+        "reference",
+        "processor",
+        "pointer",
+        "archive",
+        "detector",
+        "environment",
+        "controller",
+        "decoder",
+        "ordered_ports",
+        "resources"
+      ],
+      "properties": {
+        "route_id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reference": {
+          "type": "string",
+          "minLength": 1
+        },
+        "processor": {
+          "type": "string",
+          "minLength": 1
+        },
+        "pointer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "archive": {
+          "type": "string",
+          "minLength": 1
+        },
+        "detector": {
+          "type": "string",
+          "minLength": 1
+        },
+        "environment": {
+          "type": "string",
+          "minLength": 1
+        },
+        "controller": {
+          "type": "string",
+          "minLength": 1
+        },
+        "decoder": {
+          "type": "string",
+          "minLength": 1
+        },
+        "ordered_ports": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "resources": {
+          "$ref": "#/$defs/resourceVector"
+        }
+      }
+    }
+  }
+}

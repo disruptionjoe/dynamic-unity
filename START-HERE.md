@@ -192,10 +192,16 @@ reconstructed tensors, and code, but its inspected rows reduce to a Clifford
 sequence plus aggregate `p0`, without the required shot, calibration,
 invalid-trial, selective-map, and reset joins
 ([screen](explorations/public-physical-evidence-four-table-screen-2026-07-25.md);
-[probe](tests/du_public_physical_evidence_screen_probe.py)). Audit only for a
-public sidecar carrying those joins. If absent, stop public reuse and specify
-a prospective acquisition schema. Contacting source authors is an external
-action and remains separately Joe-authorized.
+[probe](tests/du_public_physical_evidence_screen_probe.py)). The bounded
+sidecar audit is now complete at public commit `47d67598`: all `1128` paths
+and the representative acquisition lineage were inspected. The stored
+`200 x 39` products are already calibrated probabilities, and the calibration
+points used to produce them were discarded from the exported row. No joined
+shot, invalid-attempt, calibration, controller/decoder, selective-history or
+complete-reset sidecar is present
+([audit and gate](explorations/physical-sufficiency-acquisition-gate-2026-07-26.md)).
+Stop this public-reuse route. Contacting source authors remains a separately
+Joe-authorized external action.
 
 The formal North-Star contract has also advanced from exact equality to the
 finite `HC-DU-036C` Certified Causal Reconstruction trichotomy. It computes
@@ -208,6 +214,21 @@ A boundary-expansion control absorbs the synthetic remainder. Therefore use
 this kernel on the next complete physical packet; do not interpret its
 class-relative margin as an irreducible physical remainder or spend another
 swing on synthetic completions.
+
+The prospective physical gate is now executable. The versioned packet schema
+retains every attempted shot, calibration and joint-systematic object,
+selective event, route/provenance field, controller/decoder version, and
+verified reset receipt for every admitted retained memory. `HC-DU-036D`
+adds a conservative simultaneous finite-shot binary-response certificate:
+base reconstruction, Pareto-minimal refinement, class-relative remainder
+candidate, or `INCONCLUSIVE_FINITE_SHOT`. Aggregate probabilities, missing
+attempts, broken calibration joins, and incomplete causal breaks are refused
+before adjudication
+([schema](specs/physical-sufficiency-acquisition-packet-v0.1.schema.json);
+[probe](tests/du_physical_sufficiency_acquisition_gate_probe.py)). The
+remaining flagship bottleneck is one real packet acquired or faithfully
+mapped under this contract; the current classification controls are
+synthetic and earn no physical verdict.
 
 In parallel, `DU-PAPER-013` is now the closest new-paper route. Its
 proof-or-kill produced a bounded-precursor uniform theorem for regularly

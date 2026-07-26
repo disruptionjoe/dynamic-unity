@@ -105,6 +105,15 @@ current results establish the starting boundary, not the answer:
   charged boundary-expansion control absorbs the synthetic remainder. The
   mathematics is standard finite linear programming; no physical
   completeness, ontology, or theorem novelty is inferred.
+- `HC-DU-036D` supplies the prospective physical bridge: a versioned
+  shot-resolved acquisition packet, strict attempt/calibration/route/
+  selective-history/reset joins, and a simultaneous finite-shot
+  \(\varepsilon\)-certificate with an explicit inconclusive branch. The
+  bounded Xiang public-sidecar route is closed because its exported rows are
+  already calibrated aggregate probabilities. Synthetic controls pass every
+  classifier branch, but no real packet has passed and no physical
+  factorization, remainder, ontology, new physics, or statistical novelty is
+  inferred.
 - `HC-DU-034A` supplies an exact signed all-port coherent-history assay
   control. It separates the frozen incoherent-history mixture from a joint
   cross-history correlation while using both symmetric recombination ports.

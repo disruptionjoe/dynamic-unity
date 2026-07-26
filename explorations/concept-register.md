@@ -721,6 +721,18 @@ resolution-stable intervention role. No claim is banked or seeded. See
   the synthetic positive margin, so the result is explicitly class-relative
   and cannot establish a physical remainder or record-first ontology. The
   finite LP machinery is known.
+- **Earned finite-shot acquisition and epsilon certificate.** `HC-DU-036D`
+  supplies a versioned shot-resolved packet, strict attempt/calibration/
+  route/selective-history/reset join validator, and a conservative
+  simultaneous binary-response certificate. Relative to a frozen
+  total-variation tolerance it returns tolerance-bounded base reconstruction,
+  Pareto-minimal refinement, a completion-class-relative remainder candidate,
+  or `INCONCLUSIVE_FINITE_SHOT`. Aggregate probabilities, missing attempts,
+  unjoined calibration and any unreset admitted memory are non-adjudicating.
+  Synthetic controls exercise every branch, but no physical packet has passed;
+  the result does not certify exact equality, a physically exhaustive
+  completion class, record-first ontology, new physics, or statistical
+  novelty.
 - **Earned formation/certification separation control.** In the frozen
   two-history effective proper-time fixture, the controlled interaction
   selects the diagonal QND history algebra but not one selective record

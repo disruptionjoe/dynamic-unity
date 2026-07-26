@@ -141,6 +141,16 @@ The follow-on reconstruction/data/CSG triad sharpens both routes:
   table. Xiang et al. 2025 is the strongest reopener, but its inspected schema
   contains Clifford sequences plus aggregate `p0`, not joined shots,
   calibrations, invalid trials, selective maps, and reset records.
+- The bounded Xiang sidecar audit is now closed at public commit `47d67598`.
+  Its representative export is `200 x 39` already calibrated probabilities,
+  and its preprocessing discards the per-run calibration values from the
+  exported row. The v0.1 prospective acquisition schema and `HC-DU-036D`
+  finite-shot epsilon certificate now refuse aggregate data, missing
+  attempts, broken calibration joins, and incomplete memory resets. Synthetic
+  controls cover base reconstruction, Pareto-minimal refinement,
+  class-relative remainder, and finite-shot inconclusiveness. The remaining
+  flagship source work is one real co-designed or faithfully mapped packet,
+  not another data search or synthetic completion.
 - `DU-PAPER-013` survives a second internal proof through
   \(T_{n+1}/T_n=\mathbb E[r_{n+K}]\). The broader collision absorbs the
   general asymptotic method; only the exact CSG-specific classification
@@ -210,7 +220,7 @@ Neither should be reseeded.
 | ID | Working paper | Current source grade | Estimated manuscript work | Load-bearing next work |
 |---|---|---|---:|---|
 | `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact tight record-disturbance/support controls; general novelty absorbed | `1` pre-proof | Clock-QCA extension classification or nonseparable covariance-locality-support theorem; otherwise merge/stop |
-| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure, compiler, and quantitative `HC-DU-036C` trichotomy; no screened public packet carries the full trial/calibration/provenance/selective-map/multitime join | `2–3` | Audit only for a Xiang sidecar; otherwise design a prospective four-table acquisition, then add the authenticated DAG/BFT arm |
+| `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure and `HC-DU-036C` trichotomy plus v0.1 shot-resolved physical packet and `HC-DU-036D` finite-shot epsilon gate; bounded Xiang sidecar route closed; no real packet has passed | `2–3` | Acquire or faithfully map one real implementation-complete multi-time process packet; run the frozen physical assay before any distributed transfer |
 | `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible baseline plus finite noninvertible path/provenance compiler pilot | `2–3` | Noisy physical theorem, higher-certificate relation, and unchanged BFT/QEC transfer |
 | `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Bounded-precursor uniform regular-ratio theorem, tight boundaries, deterministic controls, and two internal proof routes; general asymptotic method occupied, exact CSG delta provisional | `1` | Independent expert proof review plus systematic paper-grade causal-set/Tauberian bibliography |
 | `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Exact finite controls; general quotient theorem occupied | `1` pre-proof | Clock-QCA record instrument, scheduler/boost congruence, and tight minimal Lorentz-sensitive leakage theorem |

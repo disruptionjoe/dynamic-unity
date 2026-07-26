@@ -1140,6 +1140,29 @@ boundary expansion absorbs the synthetic remainder, so the result neither
 proves physical exhaustiveness nor supports record-first ontology. See
 `../explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md`.
 
+**Executed finite-shot successor — `HC-DU-036D`.** For a valid versioned
+shot-resolved binary-response packet, simultaneous
+Hoeffding--Bonferroni response and calibration intervals, conservative
+readout-confusion inversion, and a frozen joint SPAM/drift allowance produce
+a confidence interval for every same-record response difference. Relative to
+a preregistered total-variation tolerance \(\varepsilon\), a quotient is
+certified sufficient when every difference interval lies inside
+\([-\varepsilon,\varepsilon]\), certified insufficient when one interval is
+disjoint from that band, and otherwise returns
+`INCONCLUSIVE_FINITE_SHOT`. Applying this rule to the base record and then the
+frozen completion class yields tolerance-bounded base reconstruction,
+resource-Pareto-minimal refined reconstruction, a completion-class-relative
+remainder candidate, or honest finite-shot non-adjudication with simultaneous
+coverage at least \(1-\alpha\). The acquisition validator first requires a
+pre-acquisition contract freeze, every attempted shot, joined preparation,
+readout and systematic calibration, complete selective event and route
+provenance, and a verified causal-break receipt covering every admitted
+retained memory. The current implementation is a binary response slice;
+synthetic controls pass every branch, but no physical packet has passed and
+no exact equality, exhaustive completion class, ontology, new physics or
+statistical novelty is claimed. See
+`../explorations/physical-sufficiency-acquisition-gate-2026-07-26.md`.
+
 The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
 future-correlated oracle or response tree followed where possible by a
 compressed fixed-law transducer, departed environmental support, and the
@@ -1492,10 +1515,12 @@ vectorlike access rank three, and target-coded three.
     HC-DU-036B stochastic matrix/protocol transfer [COMPLETED SCOPED PILOT]
     HC-DU-036C quantitative reconstruction/refinement/remainder trichotomy
     [COMPLETED FINITE EXACT-RATIONAL SPECIALIZATION]
+    HC-DU-036D finite-shot epsilon reconstruction/refinement/remainder gate
+    [COMPLETED BINARY-RESPONSE SPECIALIZATION; PHYSICAL PACKET OPEN]
     HC-DU-034B certificate-without-run-history-disclosure control [COMPLETED SCOPED]
     implementation-complete physical interventional-sufficiency arm with full
     selective instrument, provenance and calibrated finite-shot null [OPEN;
-    NO PUBLIC FOUR-TABLE PACKET YET LOCATED]
+    PUBLIC SIDECAR CLOSED; PROSPECTIVE PACKET READY; REAL ACQUISITION OPEN]
         |
 4. HC-DU-037 capability, optionality, and resource results
    HC-DU-032 observer-individuation overlay
@@ -1896,9 +1921,14 @@ queue.
    required shot/calibration/invalid-trial/selective-map/reset joins. The
    finite `HC-DU-036C` successor now computes exact stochastic-decoder
    deficiencies and positive completion-class margins, but should be used
-   only after a physical packet passes the ingestion gate. The next
-   paper-grade advance is a bounded sidecar audit followed, if necessary, by
-   a prospective acquisition design.
+   only after a physical packet passes the ingestion gate. The bounded Xiang
+   sidecar audit is now closed: its representative `200 x 39` arrays are
+   already calibrated probabilities and the calibration points are discarded
+   from the exported row. The prospective v0.1 packet, strict join/reset
+   validator, and `HC-DU-036D` finite-shot epsilon certificate are executable.
+   The next paper-grade advance is one real co-designed or faithfully mapped
+   shot-resolved process packet; another aggregate fit or synthetic
+   completion is stopped.
 2. **Tail Universality Classes in Causal-Set Post Renormalization**
    The closest new-paper route. The proof-or-kill now supplies a
    bounded-precursor uniform theorem for eventually decreasing regularly

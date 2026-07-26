@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 48
+manifest_revision: 49
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -169,9 +169,10 @@ lanes:
   - '6'
   - '7'
   current_objective: >-
-    Maintain the independently selected record quotient, complete intervention/resource boundary
-    and factorization-or-witness contract while one implementation-complete calibrated physical
-    instrument replaces the exhausted finite-selector route.
+    Use the completed v0.1 shot-resolved acquisition and HC-DU-036D finite-shot gate to obtain one
+    implementation-complete calibrated physical packet. Preserve the independently selected
+    record quotient, complete intervention/resource boundary and factorization-or-witness
+    contract; stop aggregate reuse and additional synthetic completion fixtures.
   success_signal: >-
     A nontrivial bidirectional reconstruction, necessary-and-sufficient theorem, operational
     duality or finite class-relative physical remainder with independently fixed equivalence and
@@ -183,6 +184,7 @@ lanes:
   canonical_refs:
   - START-HERE.md
   - docs/certified-causal-reality-research-program.md
+  - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   do_not: >-
     Do not define records by all target experiments, infer ontology from vocabulary or finite
     fixtures, or treat underidentification as a verdict.
@@ -230,10 +232,10 @@ lanes:
   depends_on:
   - '2'
   current_objective: >-
-    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go and build a
-    reusable physical-interface passport for one independently calibrated process instrument,
-    with oriented reference, processor, pointer, archive, decoder, selective maps, uncertainty
-    and provenance explicit.
+    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go and implement
+    one real process under the v0.1 physical-sufficiency packet: oriented reference, processor,
+    pointer, archive, decoder, selective maps, every attempted shot, calibration/systematic
+    uncertainty, route provenance and verified complete-memory reset explicit.
   success_signal: >-
     An implementation-complete instrument whose physical premises and unidentifiable freedoms
     are explicit enough for interventional sufficiency testing, or a sharper necessity/no-go
@@ -247,6 +249,7 @@ lanes:
   - explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md
   - tests/du_conservation_certified_record_probe.py
   - explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md
+  - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - docs/certified-causal-reality-research-program.md
   do_not: >-
     Do not run another fitted finite-QND or finite-reference selector, infer orientation from a
@@ -399,10 +402,11 @@ lanes:
   current_objective: >-
     Keep the complete paper-opportunity portfolio moving through a two-horizon allocation:
     obtain independent expert proof review and a systematic bibliography for the surviving
-    DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while running one bounded
-    sidecar audit and, if needed, prospective four-table acquisition design for the
-    higher-ceiling DU-PAPER-007 physical sufficiency flagship. Consume HC-DU-036C only after a
-    physical packet passes the gate.
+    DU-PAPER-013 CSG-specific tail theorem as the closest new paper, while acquiring or faithfully
+    mapping one real shot-resolved packet through the completed v0.1 schema and HC-DU-036D gate
+    for the higher-ceiling DU-PAPER-007 physical sufficiency flagship. The bounded public-sidecar
+    audit is closed; consume HC-DU-036C/036D physically only after the packet passes every join,
+    uncertainty, provenance and complete-reset requirement.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -413,6 +417,7 @@ lanes:
   canonical_refs:
   - papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
   - docs/certified-causal-reality-research-program.md
+  - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -2246,6 +2251,46 @@ conservation_certified_record_gate:
     Extends HC-DU-033, HC-DU-037 and CONCEPT-DU-004 at exact finite-control and
     Interface-Necessity-No-Go grade. Adds no theorem ID, hypothesis ID, concept ID, physical law,
     prediction, ontology, standalone paper, Factory priority or production state.
+physical_sufficiency_acquisition_gate:
+  status: completed_prospective_gate__real_physical_packet_open
+  date: '2026-07-26'
+  authority: >-
+    Joe direct chat: take the most impactful swing possible toward the North Star.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260726-010042-physical-sufficiency-acquisition-gate/run-plan.md
+  result_ref: >-
+    explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
+  schema_ref: specs/physical-sufficiency-acquisition-packet-v0.1.schema.json
+  probe_ref: tests/du_physical_sufficiency_acquisition_gate_probe.py
+  artifact_ref: tests/artifacts/du_physical_sufficiency_acquisition_gate_result.json
+  artifact_sha256: 1f284b18f03f4f222c64d2566b0e0fe007e46f41e1b57094ce8fb330104cf172
+  public_audit_result: >-
+    The bounded Xiang repository audit closed at public commit 47d67598 over 1128 paths. The
+    representative raw export is 200 arrays of 39 already calibrated probabilities; the
+    preprocessing emits only Clifford sequence plus p0, and the acquisition script consumes and
+    discards its per-run calibration points. No joined shot, invalid-attempt, calibration,
+    controller/decoder, selective-history or complete-reset sidecar was located. This is
+    commit-bounded non-location, not a claim that the laboratory never possessed those records.
+  formal_result: >-
+    HC-DU-036D gives the valid binary-response packet simultaneous Hoeffding-Bonferroni response
+    and calibration intervals, conservative readout inversion, a frozen joint SPAM/drift
+    allowance and an epsilon-sufficiency/separation/inconclusive rule. The 12/12 control suite
+    returns tolerance-bounded base reconstruction, Pareto-minimal refined reconstruction,
+    completion-class-relative remainder candidate and honest finite-shot inconclusiveness while
+    refusing aggregate p0, missing attempts, broken calibration joins and one unreset admitted
+    memory.
+  evidence_boundary: >-
+    Every classification control is synthetic_contract_control and therefore carries
+    scientific_verdict=false. The result is a prospective acquisition grammar and known
+    concentration-inequality specialization, not physical factorization, exact equality,
+    exhaustive completion, record-first ontology, a new physical or statistical law, paper
+    activation, submission, publication or external action.
+  next_move: >-
+    Acquire or faithfully map one real two-outcome multi-time process under the schema, with all
+    attempts, raw outcomes, preparation/readout/joint-systematic calibration, selective events,
+    route provenance, held-out continuations and independent reset witnesses over every admitted
+    memory frozen before response reveal. Do not reopen aggregate fitting or another synthetic
+    completion fixture.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1
@@ -3693,6 +3738,19 @@ provenance:
     noncommutative flavor with a held-out relation. CPRED-02 remains retired; no physical GU
     operator, generation result, prediction, ontology, new physics, paper, Factory state,
     submission, publication or external action is promoted.
+  rev49_note: >-
+    2026-07-26 (Joe direct chat: take the most impactful swing possible toward the North Star):
+    closed the bounded Xiang public-sidecar audit at commit 47d67598 after inspecting 1128 paths
+    and the representative acquisition lineage. The export contains 200x39 already calibrated
+    probabilities and discards its per-run calibration values; no joined shot, invalid-attempt,
+    controller/decoder, selective-history or complete-reset sidecar was located. Installed the
+    v0.1 prospective physical packet and HC-DU-036D finite-shot epsilon certificate. The 12/12
+    probe exercises base reconstruction, Pareto-minimal refinement, class-relative remainder and
+    finite-shot inconclusive branches and refuses aggregate p0, missing attempts, broken
+    calibration joins and incomplete memory resets. All classifiers are synthetic controls; no
+    physical result, exact equality, exhaustive completion, ontology, new physics, statistical
+    novelty, paper activation, submission, publication, author contact or external action is
+    promoted. The flagship now needs one real packet, not another synthetic fixture.
 extensions:
   operating_architecture:
     contract_version: "1.0"

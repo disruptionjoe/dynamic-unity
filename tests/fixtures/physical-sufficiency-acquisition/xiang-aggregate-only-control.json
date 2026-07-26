@@ -1,0 +1,16 @@
+{
+  "candidate": "Xiang et al. 2025 public OQE/RB packet",
+  "source_repository": "https://github.com/guochu/pt_recovery",
+  "source_commit": "47d67598a304bb72c315bf05ddfadcda5f4be290",
+  "data_model": "Clifford sequence plus already calibrated aggregate terminal probability",
+  "declared_repetitions_per_probability": 2048,
+  "items": [
+    {
+      "cl_ops": [
+        7,
+        11
+      ],
+      "p0": 0.9943319881536482
+    }
+  ]
+}

@@ -1,0 +1,832 @@
+{
+  "control_results": {
+    "aggregate_refusal": {
+      "errors": [
+        {
+          "code": "AGGREGATE_PROBABILITY_FORBIDDEN",
+          "detail": "an aggregate p0 cannot be expanded into shot rows"
+        },
+        {
+          "code": "MISSING_ATTEMPT_COUNT",
+          "detail": "missing top-level field attempt_count"
+        },
+        {
+          "code": "MISSING_CALIBRATION_ROWS",
+          "detail": "missing top-level field calibration_rows"
+        },
+        {
+          "code": "MISSING_CONTRACT",
+          "detail": "missing top-level field contract"
+        },
+        {
+          "code": "MISSING_EVIDENCE_KIND",
+          "detail": "missing top-level field evidence_kind"
+        },
+        {
+          "code": "MISSING_FREEZE",
+          "detail": "missing top-level field freeze"
+        },
+        {
+          "code": "MISSING_MULTITIME_ROWS",
+          "detail": "missing top-level field multitime_rows"
+        },
+        {
+          "code": "MISSING_PACKET_ID",
+          "detail": "missing top-level field packet_id"
+        },
+        {
+          "code": "MISSING_PROCESS_SCHEMA",
+          "detail": "missing top-level field process_schema"
+        },
+        {
+          "code": "MISSING_RESET_RECEIPTS",
+          "detail": "missing top-level field reset_receipts"
+        },
+        {
+          "code": "MISSING_ROUTE_ROWS",
+          "detail": "missing top-level field route_rows"
+        },
+        {
+          "code": "MISSING_SCHEMA_VERSION",
+          "detail": "missing top-level field schema_version"
+        },
+        {
+          "code": "MISSING_SOURCE",
+          "detail": "missing top-level field source"
+        },
+        {
+          "code": "MISSING_TRIAL_ROWS",
+          "detail": "missing top-level field trial_rows"
+        }
+      ],
+      "scientific_verdict": false,
+      "verdict": "INCOMPLETE_CONTRACT"
+    },
+    "attempt_ledger_refusal": {
+      "errors": [
+        {
+          "code": "ATTEMPT_LEDGER_INCOMPLETE",
+          "detail": "attempt_count=9610; rows=9609"
+        }
+      ],
+      "scientific_verdict": false,
+      "verdict": "INCOMPLETE_CONTRACT"
+    },
+    "base_reconstruction": {
+      "base": {
+        "equivalence_tolerance": 0.22,
+        "identity_like": false,
+        "inconclusive_pairs": [],
+        "nontrivial_pair_count": 12,
+        "refinement_field": null,
+        "separating_witnesses": [],
+        "status": "CERTIFIED_FACTORS",
+        "worst_equivalence_width": 0.15484749988814228
+      },
+      "completion_results": [
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "environment_record",
+            "separating_witnesses": [],
+            "status": "CERTIFIED_FACTORS",
+            "worst_equivalence_width": 0.15484749988814228
+          },
+          "completion_id": "formed-environment-record",
+          "resources": {
+            "memory_bits": 1,
+            "readout_channels": 1
+          }
+        },
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "route_record",
+            "separating_witnesses": [],
+            "status": "CERTIFIED_FACTORS",
+            "worst_equivalence_width": 0.15484749988814228
+          },
+          "completion_id": "formed-route-record",
+          "resources": {
+            "memory_bits": 2,
+            "readout_channels": 2
+          }
+        }
+      ],
+      "contract_hash": "3fb4405ea504933e02308c844009a3f318ad291bf260ce5a5097b78d2a1629c6",
+      "errors": [],
+      "evidence_kind": "synthetic_contract_control",
+      "interpretation": "synthetic contract/classifier control only",
+      "packet_hash": "f932310072d334ef795f22a91679890f50013d5be6425aae872ec91fa414524b",
+      "pareto_minimal_repairs": [],
+      "scientific_verdict": false,
+      "uncertainty": {
+        "calibration_blocks": 1,
+        "familywise_alpha": 0.05,
+        "method": "simultaneous Hoeffding-Bonferroni with interval readout inversion",
+        "response_block_cells": 8,
+        "response_cells": 8,
+        "simultaneous_terms": 10
+      },
+      "verdict": "TOLERANCE_BOUNDED_BASE_RECONSTRUCTION"
+    },
+    "calibration_join_refusal": {
+      "errors": [
+        {
+          "code": "CALIBRATION_JOIN_MISSING",
+          "detail": "trial=trial-000001; block=absent"
+        }
+      ],
+      "scientific_verdict": false,
+      "verdict": "INCOMPLETE_CONTRACT"
+    },
+    "class_relative_remainder": {
+      "base": {
+        "equivalence_tolerance": 0.22,
+        "identity_like": false,
+        "inconclusive_pairs": [
+          {
+            "difference_interval": [
+              -0.23323268890235388,
+              0.03026827721575806
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1a"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          },
+          {
+            "difference_interval": [
+              -0.2355287697665764,
+              0.032564358079980565
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1a"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          },
+          {
+            "difference_interval": [
+              -0.06260799243896054,
+              0.2655724041255566
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0b",
+              "h1b"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          },
+          {
+            "difference_interval": [
+              -0.06031191157473814,
+              0.26327632326133377
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0b",
+              "h1b"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          }
+        ],
+        "nontrivial_pair_count": 12,
+        "refinement_field": null,
+        "separating_witnesses": [
+          {
+            "difference_interval": [
+              -0.9580724041255565,
+              -0.6622317227842419
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h0b"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          },
+          {
+            "difference_interval": [
+              -0.8574429899280005,
+              -0.561602308586686
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h0b"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          },
+          {
+            "difference_interval": [
+              -0.8542746591056272,
+              -0.5630650561175752
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1b"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          },
+          {
+            "difference_interval": [
+              -0.7536452449080715,
+              -0.4624356419200194
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1b"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          }
+        ],
+        "status": "CERTIFIED_FAILS",
+        "worst_equivalence_width": 0.9580724041255565
+      },
+      "completion_results": [
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "environment_record",
+            "separating_witnesses": [
+              {
+                "difference_interval": [
+                  -0.9580724041255565,
+                  -0.6622317227842419
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h0a",
+                  "h0b"
+                ],
+                "intervention_id": "do_x",
+                "record_label": "E0",
+                "separated_beyond_tolerance": true
+              },
+              {
+                "difference_interval": [
+                  -0.8574429899280005,
+                  -0.561602308586686
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h0a",
+                  "h0b"
+                ],
+                "intervention_id": "do_z",
+                "record_label": "E0",
+                "separated_beyond_tolerance": true
+              },
+              {
+                "difference_interval": [
+                  -0.7551079924389605,
+                  -0.45926731109764607
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h1a",
+                  "h1b"
+                ],
+                "intervention_id": "do_x",
+                "record_label": "E1",
+                "separated_beyond_tolerance": true
+              },
+              {
+                "difference_interval": [
+                  -0.6544785782414048,
+                  -0.3586378969000903
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h1a",
+                  "h1b"
+                ],
+                "intervention_id": "do_z",
+                "record_label": "E1",
+                "separated_beyond_tolerance": true
+              }
+            ],
+            "status": "CERTIFIED_FAILS",
+            "worst_equivalence_width": 0.9580724041255565
+          },
+          "completion_id": "formed-environment-record",
+          "resources": {
+            "memory_bits": 1,
+            "readout_channels": 1
+          }
+        },
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "route_record",
+            "separating_witnesses": [
+              {
+                "difference_interval": [
+                  -0.9580724041255565,
+                  -0.6622317227842419
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h0a",
+                  "h0b"
+                ],
+                "intervention_id": "do_x",
+                "record_label": "E0",
+                "separated_beyond_tolerance": true
+              },
+              {
+                "difference_interval": [
+                  -0.8574429899280005,
+                  -0.561602308586686
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h0a",
+                  "h0b"
+                ],
+                "intervention_id": "do_z",
+                "record_label": "E0",
+                "separated_beyond_tolerance": true
+              },
+              {
+                "difference_interval": [
+                  -0.7551079924389605,
+                  -0.45926731109764607
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h1a",
+                  "h1b"
+                ],
+                "intervention_id": "do_x",
+                "record_label": "E1",
+                "separated_beyond_tolerance": true
+              },
+              {
+                "difference_interval": [
+                  -0.6544785782414048,
+                  -0.3586378969000903
+                ],
+                "equivalent_within_tolerance": false,
+                "history_pair": [
+                  "h1a",
+                  "h1b"
+                ],
+                "intervention_id": "do_z",
+                "record_label": "E1",
+                "separated_beyond_tolerance": true
+              }
+            ],
+            "status": "CERTIFIED_FAILS",
+            "worst_equivalence_width": 0.9580724041255565
+          },
+          "completion_id": "formed-route-record",
+          "resources": {
+            "memory_bits": 2,
+            "readout_channels": 2
+          }
+        }
+      ],
+      "contract_hash": "3fb4405ea504933e02308c844009a3f318ad291bf260ce5a5097b78d2a1629c6",
+      "errors": [],
+      "evidence_kind": "synthetic_contract_control",
+      "interpretation": "synthetic contract/classifier control only",
+      "packet_hash": "6ab88844bb47b8a8fbdfe52c7922850d8cb78023cb8afad4d49fb9ddc8800c0c",
+      "pareto_minimal_repairs": [],
+      "scientific_verdict": false,
+      "uncertainty": {
+        "calibration_blocks": 1,
+        "familywise_alpha": 0.05,
+        "method": "simultaneous Hoeffding-Bonferroni with interval readout inversion",
+        "response_block_cells": 8,
+        "response_cells": 8,
+        "simultaneous_terms": 10
+      },
+      "verdict": "TOLERANCE_BOUNDED_CLASS_RELATIVE_REMAINDER_CANDIDATE"
+    },
+    "finite_shot_inconclusive": {
+      "base": {
+        "equivalence_tolerance": 0.22,
+        "identity_like": false,
+        "inconclusive_pairs": [
+          {
+            "difference_interval": [
+              -0.30995075336163713,
+              -0.014110072020322662
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1a"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          },
+          {
+            "difference_interval": [
+              -0.2894837538638291,
+              0.006356927477485286
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1a"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          },
+          {
+            "difference_interval": [
+              -0.30995075336163713,
+              -0.014110072020322662
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1b"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          },
+          {
+            "difference_interval": [
+              -0.2894837538638291,
+              0.006356927477485286
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1b"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": false
+          }
+        ],
+        "nontrivial_pair_count": 12,
+        "refinement_field": null,
+        "separating_witnesses": [],
+        "status": "INCONCLUSIVE",
+        "worst_equivalence_width": 0.30995075336163713
+      },
+      "completion_results": [
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "environment_record",
+            "separating_witnesses": [],
+            "status": "CERTIFIED_FACTORS",
+            "worst_equivalence_width": 0.1516174200283038
+          },
+          "completion_id": "formed-environment-record",
+          "resources": {
+            "memory_bits": 1,
+            "readout_channels": 1
+          }
+        },
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "route_record",
+            "separating_witnesses": [],
+            "status": "CERTIFIED_FACTORS",
+            "worst_equivalence_width": 0.1516174200283038
+          },
+          "completion_id": "formed-route-record",
+          "resources": {
+            "memory_bits": 2,
+            "readout_channels": 2
+          }
+        }
+      ],
+      "contract_hash": "3fb4405ea504933e02308c844009a3f318ad291bf260ce5a5097b78d2a1629c6",
+      "errors": [],
+      "evidence_kind": "synthetic_contract_control",
+      "interpretation": "synthetic contract/classifier control only",
+      "packet_hash": "b12150c376cc7c3e2e5572896c8feed2375d94f5e0a2a39e8a5280fe29ed004d",
+      "pareto_minimal_repairs": [],
+      "scientific_verdict": false,
+      "uncertainty": {
+        "calibration_blocks": 1,
+        "familywise_alpha": 0.05,
+        "method": "simultaneous Hoeffding-Bonferroni with interval readout inversion",
+        "response_block_cells": 8,
+        "response_cells": 8,
+        "simultaneous_terms": 10
+      },
+      "verdict": "INCONCLUSIVE_FINITE_SHOT"
+    },
+    "refined_reconstruction": {
+      "base": {
+        "equivalence_tolerance": 0.22,
+        "identity_like": false,
+        "inconclusive_pairs": [],
+        "nontrivial_pair_count": 12,
+        "refinement_field": null,
+        "separating_witnesses": [
+          {
+            "difference_interval": [
+              -0.7551079924389605,
+              -0.45926731109764607
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1a"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          },
+          {
+            "difference_interval": [
+              -0.5538491640438488,
+              -0.25800848270253435
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1a"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          },
+          {
+            "difference_interval": [
+              -0.7551079924389605,
+              -0.45926731109764607
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1b"
+            ],
+            "intervention_id": "do_x",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          },
+          {
+            "difference_interval": [
+              -0.5538491640438488,
+              -0.25800848270253435
+            ],
+            "equivalent_within_tolerance": false,
+            "history_pair": [
+              "h0a",
+              "h1b"
+            ],
+            "intervention_id": "do_z",
+            "record_label": "R-shared",
+            "separated_beyond_tolerance": true
+          }
+        ],
+        "status": "CERTIFIED_FAILS",
+        "worst_equivalence_width": 0.7551079924389605
+      },
+      "completion_results": [
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "environment_record",
+            "separating_witnesses": [],
+            "status": "CERTIFIED_FACTORS",
+            "worst_equivalence_width": 0.16177465910562727
+          },
+          "completion_id": "formed-environment-record",
+          "resources": {
+            "memory_bits": 1,
+            "readout_channels": 1
+          }
+        },
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "route_record",
+            "separating_witnesses": [],
+            "status": "CERTIFIED_FACTORS",
+            "worst_equivalence_width": 0.16177465910562727
+          },
+          "completion_id": "formed-route-record",
+          "resources": {
+            "memory_bits": 2,
+            "readout_channels": 2
+          }
+        }
+      ],
+      "contract_hash": "3fb4405ea504933e02308c844009a3f318ad291bf260ce5a5097b78d2a1629c6",
+      "errors": [],
+      "evidence_kind": "synthetic_contract_control",
+      "interpretation": "synthetic contract/classifier control only",
+      "packet_hash": "4d40db8a5b0b74b3116b9ff3fbd728c3741b87d21c539317f066cbb1118c60d6",
+      "pareto_minimal_repairs": [
+        {
+          "classification": {
+            "equivalence_tolerance": 0.22,
+            "identity_like": false,
+            "inconclusive_pairs": [],
+            "nontrivial_pair_count": 4,
+            "refinement_field": "environment_record",
+            "separating_witnesses": [],
+            "status": "CERTIFIED_FACTORS",
+            "worst_equivalence_width": 0.16177465910562727
+          },
+          "completion_id": "formed-environment-record",
+          "resources": {
+            "memory_bits": 1,
+            "readout_channels": 1
+          }
+        }
+      ],
+      "scientific_verdict": false,
+      "uncertainty": {
+        "calibration_blocks": 1,
+        "familywise_alpha": 0.05,
+        "method": "simultaneous Hoeffding-Bonferroni with interval readout inversion",
+        "response_block_cells": 8,
+        "response_cells": 8,
+        "simultaneous_terms": 10
+      },
+      "verdict": "TOLERANCE_BOUNDED_REFINED_RECONSTRUCTION"
+    },
+    "unreset_memory_refusal": {
+      "errors": [
+        {
+          "code": "RESET_SCOPE_INCOMPLETE",
+          "detail": "trial=trial-009601; missing=['controller_memory']"
+        }
+      ],
+      "scientific_verdict": false,
+      "verdict": "INCOMPLETE_CONTRACT"
+    }
+  },
+  "finite_shot_method": {
+    "calibration": "conservative interval inversion of binary readout confusion",
+    "coverage": "simultaneous Hoeffding-Bonferroni",
+    "factorization": "all same-record history-pair difference intervals lie inside the frozen total-variation tolerance",
+    "inconclusive": "confidence region overlaps both factoring and separating possibilities",
+    "response": "binary held-out response cells",
+    "separation": "at least one same-record pair is separated beyond the frozen tolerance"
+  },
+  "north_star_outcome": "PROSPECTIVE_GATE_READY",
+  "plain_english": "The strongest public reopener still lacks the joined shot, calibration, provenance, selective-history, and complete-reset record needed for a physical verdict. Dynamic Unity now has a versioned packet contract and executable finite-shot gate that refuses those omissions and distinguishes base reconstruction, minimal refinement, class-relative remainder, and honest finite-shot inconclusiveness on nonphysical controls.",
+  "probe_sha256": "986c46f547c8d036f51203e0587b85eb105cf1bf1caa476f45febfce8c1511a4",
+  "public_sidecar_audit": {
+    "commit": "47d67598a304bb72c315bf05ddfadcda5f4be290",
+    "filename_sidecar_keyword_hits": 0,
+    "inspected_blobs": {
+      "Q67_flux_sq_rb_script.py": "e0f650f0e01d4cdf3fdaa3170efb709dba4a2304",
+      "README.md": "08acfaae30ca332a60f5b6fdc1b1cb1262482546",
+      "data_process.ipynb": "a65156052d5f9380eab7c279338da5d0fccd4c4a",
+      "rb_data_0.1.npy": "0d6a8c2742a7d6cf5d13bdca68235d5a0d013126",
+      "split_rb_data.jl": "63875ce93997ce23fc7dc334e8754df2d994c5c3",
+      "standard_rb_1q_full_data.json": "8ef973b3197f062326b75c9cc55b20647c8f3615"
+    },
+    "recursive_tree_file_count": 1128,
+    "representative_directory": "experiment_data/RB_data_20230104/len40/idle100/rb_data_0.1",
+    "representative_findings": {
+      "Q67_flux_sq_rb_script.py": "forms complex acquisition averages, uses the last two values as cal0/cal1, rotates to a calibrated axis, discards those two calibration values, and saves p0 arrays",
+      "article_protocol_note": "the article states 1024 measurement outcomes per reported f, while the representative acquisition script configures 2048 repetitions; no row-level run-version join resolves the scope",
+      "data_process.ipynb": "joins schedule-generated Clifford sequences to the 200x39 p0 array and writes only cl_ops plus p0",
+      "rb_data_0.1.npy": {
+        "arrays": 200,
+        "dtype": "float64",
+        "meaning": "one already calibrated p0 value per RB sequence",
+        "shape_each": [
+          39
+        ]
+      },
+      "standard_rb_1q_full_data.json": {
+        "keys": [
+          "cl_ops",
+          "p0"
+        ],
+        "rows": 7800
+      }
+    },
+    "source": "https://github.com/guochu/pt_recovery",
+    "verdict": "NO_JOINED_SHOT_LEVEL_SIDECAR"
+  },
+  "receipt": {
+    "all_passed": true,
+    "checks": [
+      {
+        "detail": "schema=specs/physical-sufficiency-acquisition-packet-v0.1.schema.json; definitions=['calibrationRow', 'completion', 'contract', 'freeze', 'memoryRegister', 'multitimeRow', 'processSchema', 'rawAttachment', 'resetReceipt', 'routeRow', 'source', 'trialRow']",
+        "name": "versioned_schema_is_valid_json_and_has_four_linked_table_defs",
+        "passed": true
+      },
+      {
+        "detail": "required=['schema_version', 'packet_id', 'evidence_kind', 'source', 'freeze', 'contract', 'process_schema', 'attempt_count', 'trial_rows', 'calibration_rows', 'multitime_rows', 'reset_receipts', 'route_rows']",
+        "name": "schema_requires_raw_attempt_calibration_process_route_and_reset_surfaces",
+        "passed": true
+      },
+      {
+        "detail": "codes=['AGGREGATE_PROBABILITY_FORBIDDEN', 'MISSING_ATTEMPT_COUNT', 'MISSING_CALIBRATION_ROWS', 'MISSING_CONTRACT', 'MISSING_EVIDENCE_KIND', 'MISSING_FREEZE', 'MISSING_MULTITIME_ROWS', 'MISSING_PACKET_ID', 'MISSING_PROCESS_SCHEMA', 'MISSING_RESET_RECEIPTS', 'MISSING_ROUTE_ROWS', 'MISSING_SCHEMA_VERSION', 'MISSING_SOURCE', 'MISSING_TRIAL_ROWS']",
+        "name": "xiang_style_aggregate_packet_is_refused",
+        "passed": true
+      },
+      {
+        "detail": "TOLERANCE_BOUNDED_BASE_RECONSTRUCTION",
+        "name": "complete_base_factorization_control_classifies",
+        "passed": true
+      },
+      {
+        "detail": "verdict=TOLERANCE_BOUNDED_REFINED_RECONSTRUCTION; minimal=['formed-environment-record']",
+        "name": "complete_minimal_refinement_control_classifies",
+        "passed": true
+      },
+      {
+        "detail": "TOLERANCE_BOUNDED_CLASS_RELATIVE_REMAINDER_CANDIDATE",
+        "name": "completion_class_relative_remainder_control_classifies",
+        "passed": true
+      },
+      {
+        "detail": "INCONCLUSIVE_FINITE_SHOT",
+        "name": "finite_shot_overlap_returns_inconclusive",
+        "passed": true
+      },
+      {
+        "detail": "codes=['RESET_SCOPE_INCOMPLETE']",
+        "name": "unreset_retained_memory_blocks_remainder",
+        "passed": true
+      },
+      {
+        "detail": "codes=['CALIBRATION_JOIN_MISSING']",
+        "name": "unjoined_calibration_blocks_adjudication",
+        "passed": true
+      },
+      {
+        "detail": "codes=['ATTEMPT_LEDGER_INCOMPLETE']",
+        "name": "missing_attempts_block_selection_bias",
+        "passed": true
+      },
+      {
+        "detail": "evidence_kind=synthetic_contract_control on every statistical branch",
+        "name": "all_statistical_controls_remain_nonphysical",
+        "passed": true
+      },
+      {
+        "detail": "commit=47d67598a304bb72c315bf05ddfadcda5f4be290; files=1128",
+        "name": "public_audit_closes_only_the_bounded_sidecar_route",
+        "passed": true
+      }
+    ],
+    "passed": 12,
+    "total": 12
+  },
+  "remaining_physical_gate": "Acquire one packet under the versioned schema, retain every attempt and raw shot, attach preparation/readout/joint calibration objects, preserve selective multi-time outcomes and route provenance, verify a causal break over every admitted retained memory, and freeze record/completion/tolerance/holdout before revealing response outcomes.",
+  "run_id": "RUN-20260726-010042-physical-sufficiency-acquisition-gate",
+  "schema": "specs/physical-sufficiency-acquisition-packet-v0.1.schema.json",
+  "schema_sha256": "7d2d5250149dd086ee92d6887d1c2bc69efa15b1bddec47b9b6d52620f2d1ee3",
+  "scientific_grade": "PUBLIC SIDECAR AUDIT PLUS PROSPECTIVE ACQUISITION CONTRACT AND FINITE-SHOT CLASSIFIER CONTROLS / NO PHYSICAL FACTORIZATION, REMAINDER, ONTOLOGY, OR NEW-PHYSICS VERDICT",
+  "status": "PASS_PROSPECTIVE_GATE_READY"
+}

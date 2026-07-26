@@ -1200,3 +1200,50 @@ than an exact count, and accessible chirality underidentifies the admitted
 global completion. It does not construct a physical operator, establish that
 every finite completion is a consistent QFT, derive three generations or
 flavor, or promote a claim, prediction, ontology, paper, or new physics.
+
+## Physical sufficiency acquisition gate
+
+`du_physical_sufficiency_acquisition_gate_probe.py` validates the prospective
+physical input to `HC-DU-036C/036D`. It checks:
+
+- the versioned embedded-table schema;
+- strict retention of every attempted shot and invalid attempt;
+- trial-to-calibration, controller, decoder, route and immutable-attachment
+  joins;
+- selective multi-time event coverage;
+- independent reset receipts covering every admitted retained memory;
+- simultaneous Hoeffding--Bonferroni response and readout-calibration
+  intervals;
+- conservative interval inversion with a frozen joint SPAM/drift allowance;
+- tolerance-bounded base reconstruction;
+- componentwise resource-Pareto-minimal refined reconstruction;
+- a completion-class-relative remainder candidate;
+- an honest finite-shot inconclusive branch; and
+- refusal of Xiang-style aggregate `p0`, missing attempts, broken calibration
+  joins and incomplete reset scope.
+
+Run the deterministic controls with:
+
+```bash
+python3 tests/du_physical_sufficiency_acquisition_gate_probe.py
+```
+
+Assess one prospective JSON packet without rewriting the control artifact
+with:
+
+```bash
+python3 tests/du_physical_sufficiency_acquisition_gate_probe.py \
+  --packet path/to/packet.json
+```
+
+An incomplete packet prints its exact refusal codes and exits `2`.
+
+The deterministic artifact is
+`artifacts/du_physical_sufficiency_acquisition_gate_result.json` and reports
+`12/12` checks. The classification fixtures are generated in memory with
+`evidence_kind=synthetic_contract_control` and always carry
+`scientific_verdict=false`. Passing establishes a prospective acquisition and
+binary-response analysis gate only. It does not supply a physical packet,
+complete selective-process tomography, exact equality, an exhaustive
+completion class, a physical remainder, record-first ontology, new physics,
+or statistical novelty.
