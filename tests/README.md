@@ -1325,3 +1325,32 @@ posture, one-awareness-note boundary, separate authorization, and
 anti-circling rule. It establishes a research route and claim ceiling only.
 It does not establish novelty, provider absence, hardware feasibility,
 physical factorization, a physical remainder, or new physics.
+
+## Local model learning gate
+
+`du_local_model_learning_gate_probe.py` validates the repository-wide
+`LMLG-01` admission and checkpoint contract. It checks that:
+
+- exact finite counterexample search and minimum-discriminating-experiment
+  computation are admitted because they produce decision-changing learning
+  locally before hardware;
+- reproduction of a published curve routes to bounded research;
+- a provider adapter whose first informative result requires hardware stops;
+- target-coded, no-decision-value, incomplete, and needlessly oversized
+  builds are refused;
+- a generated insight and a decision-changing null are bankable at their
+  earned grade; and
+- an admitted build stops when its local checkpoint produces no learning or
+  encounters an external dependency early.
+
+Run:
+
+```bash
+python3 tests/du_local_model_learning_gate_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_local_model_learning_gate_result.json` and reports `16/16`.
+Passing establishes model-work routing only. It does not build a model,
+establish literature novelty, prove a physical result, require hardware, or
+authorize an external action.

@@ -1219,6 +1219,22 @@ routing controls pass. No novelty, provider absence, hardware feasibility,
 physical factorization, remainder, ontology, or new physics is inferred. See
 `../explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md`.
 
+**Repository-wide local-model learning gate — `LMLG-01`.** Future
+simulations, toy models, finite solvers, executable fixtures, trained
+surrogates, emulators, and adapters proposed as research paths must produce a
+specific decision-changing learning result on the current computer before
+any external-hardware dependency. The proposal first declares the bounded
+research/formal baseline, the additional locally generated result, a
+generated-not-encoded control, the smallest build, and its checkpoint. If
+research supplies the same result at equal grade, use research. If meaningful
+learning first arrives from hardware, do not build. Hardware may extend a
+model only after the local checkpoint already earns an insight. A failed
+checkpoint returns `STOP_NO_LOCAL_LEARNING`. Minimal regression artifacts may
+preserve independently obtained results without counting as model-derived
+learning or authorizing a modeling program. The 16/16 routing controls pass;
+no focal model or scientific claim is created. See
+`../lab/process/local-model-learning-gate.md`.
+
 The completion battery must begin with `XH-01`, `XH-02`, and `XH-06`: a fixed
 future-correlated oracle or response tree followed where possible by a
 compressed fixed-law transducer, departed environmental support, and the

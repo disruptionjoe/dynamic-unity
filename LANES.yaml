@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 51
+manifest_revision: 52
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -35,6 +35,14 @@ near_term_approach_atlas_rule: >-
   strategy, reusable artifact, scale trigger and stop/reopen rule. The atlas covers all 27 paper
   candidates and named non-paper dependencies but has no priority, activation, claim, evidence
   grade, Factory or publication authority.
+local_model_learning_gate_ref: lab/process/local-model-learning-gate.md
+local_model_learning_gate_rule: >-
+  Before a future simulation, toy model, solver, executable fixture, trained surrogate, emulator
+  or adapter is used as a research path, show that the minimal local build can generate a
+  decision-changing insight before hardware and beyond the bounded research-only baseline. If
+  research or formal analysis supplies the same insight at equal grade, do that instead. If the
+  first meaningful payoff requires hardware, do not build. Hardware may extend but not originate
+  the first learning. Stop at the predeclared checkpoint when local learning fails.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -114,7 +122,9 @@ work_channels:
     Construct minimal fixtures, exact compilers, simulations, hostile controls and reproducible
     artifacts.
   required_receipt: >-
-    Predeclared target and foils, deterministic or uncertainty-aware artifact, falsifier and
+    LMLG-01 admission disposition when construction is a research path, bounded research-only
+    baseline, generated local-learning delta, pre-hardware checkpoint, target and foils,
+    deterministic or uncertainty-aware artifact, falsifier, decision consequence and
     local-versus-concept failure scope.
 - id: CH-COLLIDE
   title: Literature and novelty collision
@@ -194,6 +204,7 @@ lanes:
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
+  - lab/process/local-model-learning-gate.md
   do_not: >-
     Do not define records by all target experiments, infer ontology from vocabulary or finite
     fixtures, or treat underidentification as a verdict.
@@ -2403,6 +2414,42 @@ interventional_sufficiency_novelty_reachability_gate:
     The 29/29 deterministic controls establish research routing and claim ceilings only. No
     novelty, provider absence, hardware feasibility, physical factorization, physical remainder,
     ontology, law, paper activation, submission, publication or external action is established.
+local_model_learning_gate:
+  status: ratified_repository_contract__controls_pass
+  date: '2026-07-26'
+  authority: >-
+    Joe direct chat: local model building is admissible only when meaningful new learning arrives
+    on the current computer before any external-hardware boundary and beyond what bounded research
+    or formal analysis can already provide.
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260726-100135-local-model-learning-gate/run-plan.md
+  contract_ref: lab/process/local-model-learning-gate.md
+  probe_ref: tests/du_local_model_learning_gate_probe.py
+  artifact_ref: tests/artifacts/du_local_model_learning_gate_result.json
+  artifact_sha256: ced62483b3b1cae04f75146c74851fd1d2f96cdfddaabe3a5d2ddc42a701326a
+  admission_rule: >-
+    ADMIT_LOCAL_LEARNING_BUILD only when the complete eight-field contract names a
+    decision-relevant result generated before hardware, not encoded in the fixture, unavailable
+    at equal grade from the bounded research-only baseline and reachable by the smallest build.
+    Hardware may extend but cannot originate the build's first epistemic payoff.
+  refusal_routes: >-
+    DESK_RESEARCH_FIRST when research/formal analysis supplies the same result;
+    EXTERNAL_PAYOFF_ONLY_STOP when meaningful learning first arrives from hardware;
+    NO_DECISION_VALUE_STOP when all local outcomes leave the route unchanged;
+    REDUCE_BEFORE_ADMISSION when a smaller construction reaches the checkpoint; and
+    INCOMPLETE_LEARNING_CONTRACT when any required field is missing.
+  checkpoint_rule: >-
+    Begin only the minimal admitted build. Bank a generated insight or decision-changing null at
+    its earned grade. Return STOP_NO_LOCAL_LEARNING when the checkpoint yields neither. If an
+    external dependency appears before the checkpoint, stop rather than using build momentum to
+    circle hardware.
+  validation: >-
+    The 16/16 deterministic controls admit exact counterexample search and minimum-experiment
+    computation, route published-curve reproduction to research, stop hardware-first adapters,
+    refuse target-coded and no-decision fixtures, demand minimality and enforce the checkpoint.
+  evidence_boundary: >-
+    This is a research-routing contract. It builds no focal model and establishes no scientific
+    result, literature novelty, physical fact, hardware need, paper state or external action.
 legacy_lanes_revision_17:
 - id: '1'
   label: Lane 1

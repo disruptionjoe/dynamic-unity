@@ -142,6 +142,17 @@ current results establish the starting boundary, not the answer:
   Joe authorization the branch takes a local fallback or parks instead of
   circling providers. The 29/29 routing controls pass; no provider absence,
   hardware feasibility, novelty, or physical verdict is inferred.
+- `LMLG-01` now governs future local research-model construction across the
+  repository. A proposed simulation, toy, solver, fixture, trained surrogate,
+  emulator, or adapter is admitted only when the smallest build can generate
+  a decision-changing insight on the current computer before hardware and
+  beyond what bounded research or formal analysis supplies at equal grade.
+  Hardware may extend, but cannot provide, the build's first epistemic payoff.
+  Published-result reproduction routes to research; hardware-first adapters
+  stop; target-coded, no-decision, and needlessly large builds are refused.
+  An admitted build stops at its minimal checkpoint if the promised local
+  learning does not appear. The 16/16 controls pass; this is a routing
+  contract, not a model or scientific result.
 - `HC-DU-034A` supplies an exact signed all-port coherent-history assay
   control. It separates the frozen incoherent-history mixture from a joint
   cross-history correlation while using both symmetric recombination ports.

@@ -269,6 +269,24 @@ what external path exists and what it would decide. Without separate
 authorization, take a local fallback or park the branch; do not keep circling
 providers, adapters, or the same hardware proposal.
 
+Local model building has a separate admission gate. Before a simulation, toy
+model, finite solver, executable fixture, trained surrogate, emulator, or
+adapter becomes a research path, use the
+[Local Model Learning Gate](lab/process/local-model-learning-gate.md):
+
+1. state what bounded research and formal analysis already provide;
+2. name the decision-changing result the smallest build can generate on this
+   computer before hardware;
+3. show that the result is generated rather than encoded in the fixture; and
+4. freeze the local checkpoint and stop condition.
+
+If research supplies the same insight at equal grade, do research instead. If
+the first meaningful learning requires hardware, do not build. Hardware may
+add evidence after a model has already taught us something locally. If the
+predeclared local insight does not appear at the minimal checkpoint, stop the
+build rather than carrying its momentum toward an external dependency
+([probe](tests/du_local_model_learning_gate_probe.py)).
+
 In parallel, `DU-PAPER-013` is now the closest new-paper route. Its
 proof-or-kill produced a bounded-precursor uniform theorem for regularly
 varying CSG coupling ratios and showed that the familiar half-power is one

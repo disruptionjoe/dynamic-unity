@@ -1,0 +1,77 @@
+{
+  "checkpoint_dispositions": {
+    "decision_changing_null": "BANK_DECISION_CHANGING_NULL",
+    "external_dependency_before_checkpoint": "EXTERNAL_PAYOFF_ONLY_STOP",
+    "learning_obtained": "BANK_LOCAL_LEARNING",
+    "no_local_learning": "STOP_NO_LOCAL_LEARNING"
+  },
+  "checks": {
+    "all_eight_contract_fields_are_required": true,
+    "all_scenarios_match_expected_disposition": true,
+    "decision_changing_null_is_bankable": true,
+    "early_hardware_dependency_stops_build": true,
+    "failed_learning_checkpoint_stops_build": true,
+    "finite_counterexample_search_is_admitted": true,
+    "hardware_first_adapter_is_stopped": true,
+    "hardware_may_extend_but_not_originate_learning": true,
+    "minimum_experiment_design_is_admitted": true,
+    "missing_research_baseline_is_incomplete": true,
+    "no_decision_value_is_stopped": true,
+    "oversized_build_is_reduced_first": true,
+    "positive_local_checkpoint_banks_learning": true,
+    "published_result_reproduction_routes_to_research": true,
+    "research_model_gate_does_not_claim_literature_novelty": true,
+    "target_encoded_fixture_is_not_learning": true
+  },
+  "claim_grade": "LOCAL RESEARCH-MODEL ROUTING CONTROL; NO MODEL, NOVELTY, HARDWARE, OR PHYSICAL VERDICT",
+  "contract_id": "LMLG-01",
+  "rule": "A local research build must generate decision-relevant learning before hardware and beyond the bounded research-only baseline.",
+  "run_id": "RUN-20260726-100135-local-model-learning-gate",
+  "scenario_outcomes": [
+    {
+      "actual": "ADMIT_LOCAL_LEARNING_BUILD",
+      "expected": "ADMIT_LOCAL_LEARNING_BUILD",
+      "id": "finite_counterexample_search"
+    },
+    {
+      "actual": "DESK_RESEARCH_FIRST",
+      "expected": "DESK_RESEARCH_FIRST",
+      "id": "published_curve_reproduction"
+    },
+    {
+      "actual": "EXTERNAL_PAYOFF_ONLY_STOP",
+      "expected": "EXTERNAL_PAYOFF_ONLY_STOP",
+      "id": "provider_adapter_first_payoff_external"
+    },
+    {
+      "actual": "ADMIT_LOCAL_LEARNING_BUILD",
+      "expected": "ADMIT_LOCAL_LEARNING_BUILD",
+      "id": "minimum_discriminating_experiment"
+    },
+    {
+      "actual": "DESK_RESEARCH_FIRST",
+      "expected": "DESK_RESEARCH_FIRST",
+      "id": "target_encoded_fixture"
+    },
+    {
+      "actual": "NO_DECISION_VALUE_STOP",
+      "expected": "NO_DECISION_VALUE_STOP",
+      "id": "no_decision_value"
+    },
+    {
+      "actual": "REDUCE_BEFORE_ADMISSION",
+      "expected": "REDUCE_BEFORE_ADMISSION",
+      "id": "oversized_before_minimal"
+    },
+    {
+      "actual": "INCOMPLETE_LEARNING_CONTRACT",
+      "expected": "INCOMPLETE_LEARNING_CONTRACT",
+      "id": "missing_research_baseline"
+    }
+  ],
+  "summary": {
+    "all_passed": true,
+    "passed": 16,
+    "total": 16
+  }
+}
