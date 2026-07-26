@@ -1,0 +1,215 @@
+{
+  "all_passed": true,
+  "artifact_type": "exact_finite_theorem_controls",
+  "checks": [
+    {
+      "detail": "same authenticated reachability under additive-origin and positive-scale changes",
+      "id": "order_survives_affine_clock_change",
+      "pass": true
+    },
+    {
+      "detail": "positive rescaling changes every elapsed value while preserving order",
+      "id": "order_does_not_fix_scale",
+      "pass": true
+    },
+    {
+      "detail": "same order and endpoint duration 4 admit local splits (1,3) and (2,2)",
+      "id": "one_endpoint_clock_does_not_fix_local_allocation",
+      "pass": true
+    },
+    {
+      "detail": "one three-event timelike chain has the same order in Minkowski dimensions 2, 3, and 4",
+      "id": "finite_order_does_not_fix_ambient_dimension",
+      "pass": true
+    },
+    {
+      "detail": "zero-circulation cover weights reconstruct an exact scalar potential",
+      "id": "exact_weighted_diamond_reconstructs",
+      "pass": true
+    },
+    {
+      "detail": "the independent diamond cycle has zero signed weight",
+      "id": "exact_cycle_has_zero_holonomy",
+      "pass": true
+    },
+    {
+      "detail": "an additive constant changes no calibrated edge difference",
+      "id": "potential_unique_up_to_origin",
+      "pass": true
+    },
+    {
+      "detail": "vertex relabeling preserves every potential difference and the cycle rank",
+      "id": "relabeling_is_natural",
+      "pass": true
+    },
+    {
+      "detail": "two weak components admit two independent additive origins and rank n-c",
+      "id": "one_origin_gauge_per_weak_component",
+      "pass": true
+    },
+    {
+      "detail": "a nonzero signed cycle is an independently verified obstruction",
+      "id": "nonzero_cycle_obstructs_potential",
+      "pass": true
+    },
+    {
+      "detail": "connected incidence rank is n-1",
+      "id": "incidence_rank_exact",
+      "pass": true
+    },
+    {
+      "detail": "independent cycle obligations have dimension m-n+c",
+      "id": "cycle_obligation_count_exact",
+      "pass": true
+    },
+    {
+      "detail": "splitting weight 3 into 1+2 preserves exactness",
+      "id": "additive_subdivision_reconstructs",
+      "pass": true
+    },
+    {
+      "detail": "benign relay insertion preserves the original-event reachability relation",
+      "id": "boundary_reachability_is_natural",
+      "pass": true
+    },
+    {
+      "detail": "additive relay insertion preserves every original-event potential difference",
+      "id": "boundary_elapsed_values_are_natural",
+      "pass": true
+    },
+    {
+      "detail": "n and m each rise by one while m-n+c is unchanged",
+      "id": "cycle_rank_survives_subdivision",
+      "pass": true
+    },
+    {
+      "detail": "node, edge, interval-cardinality, and longest-hop counts change under a benign subdivision",
+      "id": "raw_graph_counts_are_not_gauge_invariants",
+      "pass": true
+    },
+    {
+      "detail": "two composed additive subdivisions preserve boundary time and cycle rank",
+      "id": "subdivision_composition_is_natural",
+      "pass": true
+    },
+    {
+      "detail": "a relay that changes total calibrated duration changes the physical contract",
+      "id": "nonadditive_relay_is_not_benign",
+      "pass": true
+    },
+    {
+      "detail": "every rational weighting on a connected tree determines a potential up to origin",
+      "id": "tree_has_no_cycle_obstruction",
+      "pass": true
+    },
+    {
+      "detail": "the same causal order coexists with different clock scales and ambient dimensions",
+      "id": "record_time_is_not_proper_time_or_metric",
+      "pass": true
+    }
+  ],
+  "checks_passed": 21,
+  "claim_grade": "EXACT FINITE GRAPH-COHOMOLOGY AND NONIDENTIFICATION CONTROLS / KNOWN MATHEMATICS / NO PHYSICAL GEOMETRY",
+  "fixtures": {
+    "chain": {
+      "ambient_dimensions_with_same_order": [
+        2,
+        3,
+        4
+      ],
+      "order": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "potential_a": {
+        "0": "0",
+        "1": "1",
+        "2": "4"
+      },
+      "potential_same_endpoint": {
+        "0": "0",
+        "1": "2",
+        "2": "4"
+      },
+      "potential_scaled_and_shifted": {
+        "0": "7",
+        "1": "9",
+        "2": "15"
+      }
+    },
+    "diamond": {
+      "cycle_circulation": "0",
+      "cycle_dimension": 1,
+      "incidence_rank": 3,
+      "mutated_cycle_circulation": "-1",
+      "potential": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "4"
+      },
+      "relabeled_potential": {
+        "10": "0",
+        "20": "-2",
+        "40": "2",
+        "50": "-1"
+      }
+    },
+    "disconnected": {
+      "components": 2,
+      "cycle_dimension": 0,
+      "incidence_rank": 2,
+      "potential": {
+        "0": "0",
+        "1": "5",
+        "2": "0",
+        "3": "7"
+      }
+    },
+    "subdivision": {
+      "base_longest_hops": 2,
+      "boundary_reachability_preserved": true,
+      "cycle_dimension": 1,
+      "nonadditive_cycle_circulation": "1",
+      "potential": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "4",
+        "4": "2"
+      },
+      "subdivided_longest_hops": 3,
+      "twice_subdivided_potential": {
+        "0": "0",
+        "1": "1",
+        "2": "2",
+        "3": "4",
+        "4": "2",
+        "5": "5/2"
+      }
+    }
+  },
+  "limits": [
+    "The scalar potential is not proper time, simultaneity, Lorentzian distance, dimension, curvature, or a spacetime metric.",
+    "Event cardinality is not a volume measure without a calibrated physical sampling or density law.",
+    "A nonzero cycle may be calibration, clock-transport, route, or provenance failure; it is not by itself physical curvature.",
+    "The finite fixtures support the proof and boundary audit; they do not establish theorem novelty or physical realization."
+  ],
+  "returns": {
+    "benign_subdivision": "PRESERVES boundary reachability, boundary potential differences, exactness, and cycle rank when child weights sum to the replaced edge",
+    "gauge": "one additive constant per weak component; a multiplicative scale remains only when calibration supplies ratios rather than absolute units",
+    "order_only": "NONIDENTIFIED: scale, local elapsed-time allocation, ambient dimension, proper time, and metric are not fixed",
+    "weighted_cover": "RECONSTRUCTS_SCALAR_POTENTIAL iff every signed cycle has zero circulation"
+  },
+  "theorem_family": "HC-DU-038A"
+}

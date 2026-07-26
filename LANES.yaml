@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 44
+manifest_revision: 45
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -340,9 +340,11 @@ lanes:
     Lane-2 representation work may map these relations now. Reconstruction or derivation claims
     require the physical formation, observer/access and regional-composition dependencies.
   current_objective: >-
-    Freeze the representation category and benign-refinement class for meta-record order,
-    density, scale, dimension and proper-time comparison, and construct nonisomorphic controls
-    before attempting uniqueness.
+    Preserve HC-DU-038A's exact separation between authenticated order and one scalar record-time
+    potential. Next freeze an independently calibrated sampling/volume law plus path-indexed
+    local-clock and reference/access data, construct nonisometric training-equivalent controls,
+    and adjudicate them on held-out geometric comparisons with explicit gauge, uncertainty and
+    benign-refinement semantics.
   success_signal: >-
     A reconstruction or nonuniqueness theorem with declared gauge, dimensional map, held-out
     observables and invariance under relabeling and genuinely benign refinement.
@@ -354,6 +356,8 @@ lanes:
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
   - docs/quantum-foundations-orientation-surface.md
+  - explorations/meta-record-geometry-identification-ladder-2026-07-25.md
+  - tests/du_meta_record_geometry_identification_probe.py
   do_not: >-
     Do not derive primitive operational precedence from itself, confuse Hilbert/network/state
     dimension with spacetime dimension, or infer a metric from representation-dependent graph
@@ -561,6 +565,14 @@ active_hardening_program_note: >-
   Further fitted finite-selector work stops; the next foundational paper swing is an
   implementation-complete physical interventional-sufficiency arm for DU-PAPER-007. No theorem
   ID, law, prediction, ontology, new seed, Factory priority or production state changes.
+  Revision 45 executes the first HC-DU-038 identification gate as research rather than paper
+  work. Authenticated finite record order underidentifies scale, local duration allocation,
+  ambient dimension, proper time and metric. Exact calibrated cover-edge differences reconstruct
+  one scalar potential iff every signed undirected cycle has zero circulation; its only exact
+  gauge is one additive origin per weak component, and additive relay subdivision preserves the
+  boundary result while changing raw graph counts. This is known graph-cohomology mathematics,
+  not physical geometry. Lane 6 now targets independently calibrated volume/density and
+  path-indexed clock/reference data against nonisometric held-out controls.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -3587,6 +3599,18 @@ provenance:
     No scientific claim, theorem, hypothesis, concept, prediction, ontology, priority, Factory
     state, activation, draft, submission, publication, external review request or other external
     action changed.
+  rev45_note: >-
+    2026-07-25 (Joe direct chat: "Do another swing" followed by "Not papers"): executed the
+    HC-DU-038A meta-record geometry identification ladder. Exact finite controls prove that
+    authenticated record order alone does not generally identify time scale, local elapsed
+    allocation or ambient dimension. Calibrated cover-edge differences recover one scalar
+    record-time potential exactly when every signed undirected loop has zero circulation, with
+    one additive-origin gauge per weak component and m-n+c independent cycle obligations.
+    Additive relay subdivision preserves boundary reachability, potential differences, exactness
+    and cycle rank while changing node, edge, interval and hop counts. The result is standard
+    graph-cohomology mathematics and explicitly not proper time, metric, curvature, ontology,
+    new physics or a paper verdict. Lane 6 now targets calibrated volume/density plus path-indexed
+    clock/reference evidence against nonisometric held-out controls.
 extensions:
   operating_architecture:
     contract_version: "1.0"

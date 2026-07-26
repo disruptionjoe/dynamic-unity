@@ -196,6 +196,16 @@ The recharter preserves, rather than promotes, the strongest exact results:
   but routed implementation data absorbs that witness. These are exact
   finite group/graph/channel specializations and interface controls, not new
   physical curvature, public objectivity, or a thermodynamic law.
+- A finite authenticated meta-record order does not generally identify
+  temporal scale, local elapsed-time allocation, ambient dimension, proper
+  time, or metric geometry. Calibrated cover-edge differences reconstruct one
+  scalar record-time potential exactly when their signed circulation vanishes
+  on every undirected cycle; the potential is unique up to one additive
+  origin per weak component and is natural under additive relay subdivision.
+  This is standard graph-cohomology mathematics and does not reconstruct
+  proper time or a metric. Physical geometry now requires independently
+  calibrated volume/density and path-indexed local-clock/reference data,
+  nonisometric controls, and held-out observables.
 - In the binary controlled nondemolition recorder class with a blank
   source-independent environment and arbitrary fixed archive noise, accessible
   record distinguishability and induced source dephasing obey the tight bound
@@ -1223,6 +1233,31 @@ authentication, or control consequences is a new physical carrier rather than
 a benign subdivision. `XH-04` therefore constrains the reconstruction; it does
 not assert that reachability is the only physical topology invariant.
 
+**Executed scoped sub-result — `HC-DU-038A`.** Freeze a finite authenticated
+meta-record Hasse cover with identity, provenance and reachability but no
+duration, density, dimension, manifold or metric. Then:
+
+1. order/provenance alone generally underidentify temporal scale, local
+   elapsed-time allocation, ambient dimension, proper time and metric;
+2. rational calibrated cover-edge differences reconstruct a scalar
+   record-time potential exactly when every signed undirected cycle has zero
+   circulation;
+3. when it exists, the potential is unique up to one additive origin per weak
+   component, with exactly `|E|-|V|+c` independent cycle obligations; and
+4. additive relay subdivision preserves original-event reachability,
+   potential differences, exactness and cycle rank while changing raw node,
+   edge, interval and hop counts.
+
+The result is an exact specialization of standard finite graph
+cohomology/incidence linear algebra. The reconstructed scalar is not proper
+time, simultaneity, dimension, curvature, Lorentzian distance or a metric.
+Path-dependent local clock durations must not be forced into a global
+potential. The next physical gate adds independently calibrated
+sampling/volume and path-indexed clock/reference data to nonisometric matched
+controls, with held-out geometric observables. See
+`../explorations/meta-record-geometry-identification-ladder-2026-07-25.md` and
+`../tests/du_meta_record_geometry_identification_probe.py`.
+
 ### `HC-DU-039` — Cross-Platform Invariance
 
 Require one typed certification/finality statement to survive without
@@ -1261,7 +1296,7 @@ Only after the preceding dependencies:
 | `H-CCR-05` | Certified-record equivalence entails all admitted predictions/capabilities or admits a bounded separating intervention. | Unbounded witness complexity or incomplete comparison class prevents the dichotomy. |
 | `H-CCR-06` | Finality yields strict capability only when it separates action-relevant histories after risk and cost. | Claimed capability gain disappears after verification and rollback costs. |
 | `H-CCR-07` | Public hardening requires added resources or reduced coherent/reversible optionality. | A countermodel provides stronger finality at equal complete resource ledger and optionality. |
-| `H-CCR-08` | First-order outcomes generally underdetermine causal structure; meta-record provenance is necessary and under specified conditions sufficient. | Identical meta-records support inequivalent held-out causal predictions. |
+| `H-CCR-08` | First-order outcomes and authenticated meta-record reachability generally underdetermine scale, local duration allocation, dimension and metric; an enriched, independently calibrated meta-record may reconstruct selected geometry only up to declared gauge. | Nonisometric models match the enriched meta-record and every admitted held-out observer-accessible geometric comparison. |
 | `H-CCR-09` | An observer/system is identifiable as a minimal intervention-stable role cover even when raw hierarchy depth is not. | Flat, overlapping, relay, or resolution rivals tie every held-out intervention. |
 | `H-CCR-10` | Exact nonaliasing record growth requires growing support/export, weakened semantics, or modeled coarse-graining/nonunitarity. | Fixed finite support yields indefinitely fresh exact records without hidden resources. |
 | `H-CCR-11` | A global update clock is either quotient/gauge for the complete intervention algebra or produces a finite Lorentz-sensitive witness. | Scheduler status remains underidentified because the admitted intervention class is incomplete. |
@@ -1321,6 +1356,10 @@ Only after the preceding dependencies:
    HC-DU-032 observer-individuation overlay
         |
 5. HC-DU-038 meta-record time and geometry
+   HC-DU-038A order-only nonidentification and exact scalar record-time
+   potential [COMPLETED KNOWN-MATHEMATICS CONTROL]
+   calibrated volume plus path-indexed clock/reference reconstruction
+   against nonisometric held-out controls [OPEN]
         |
 6. HC-DU-039 cross-platform invariance
         |

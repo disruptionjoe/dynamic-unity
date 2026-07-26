@@ -496,6 +496,39 @@ higher-dimensional or continuum symmetry, gravity, cosmology, `Lambda`, or DU
 identity is inferred. See
 `covariant-archive-boundary-swing-2026-07-24.md` and its adversarial audit.
 
+### 2026-07-25 meta-record geometry identification ladder
+
+`HC-DU-038A` now fixes the first exact reconstruction boundary for this
+concept.
+
+Authenticated record order and provenance do not generally determine a time
+scale, the division of elapsed time among intermediate events, ambient
+dimension, proper time, or a metric. A three-event chain supplies explicit
+same-order countermodels across different local time allocations and
+Minkowski dimensions.
+
+If rational calibrated **potential differences** are added to the Hasse-cover
+edges, one scalar record-time assignment exists exactly when every signed
+undirected cycle has zero circulation. It is unique up to one additive origin
+per weak component. Additive relay subdivision preserves boundary
+reachability, original-event potential differences, exactness and cycle rank
+while changing raw node, edge, interval and hop counts.
+
+The semantic qualification is decisive: a scalar potential is not relativistic
+proper time. Path-indexed clock durations can legitimately differ between
+routes, so forcing them into a route-independent potential may erase rather
+than reconstruct physical information. Likewise, event count is not volume
+without an independently calibrated sampling/density law.
+
+**Updated status:** **FINITE ORDER-ONLY METRIC RECONSTRUCTION REFUTED IN GENERAL /
+SCALAR RECORD-TIME CONDITIONALLY RECONSTRUCTED /
+PROPER-TIME-AND-METRIC RECONSTRUCTION OPEN.** The next bounded reopener is a
+physically interpreted fixture that separately supplies order/provenance,
+calibrated sampling/volume, path-indexed clock comparisons, and
+reference/access structure. It must compare nonisometric training-equivalent
+models on held-out geometric observables. See
+`meta-record-geometry-identification-ladder-2026-07-25.md`.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize

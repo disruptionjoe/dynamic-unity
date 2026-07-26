@@ -130,7 +130,16 @@ What *has* been earned is a strong finite control stack:
   its capability delta is paid for by consumed reference coherence and
   archive quality
   ([result](explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md);
-  [probe](tests/du_conservation_certified_record_probe.py)).
+  [probe](tests/du_conservation_certified_record_probe.py)); and
+- one exact `HC-DU-038A` identification ladder proving that authenticated
+  meta-record order does not generally fix scale, local duration allocation,
+  ambient dimension, proper time or metric, while calibrated edge differences
+  reconstruct one scalar record-time potential exactly when all signed loop
+  sums vanish. The scalar is not spacetime geometry; the next physical gate
+  requires calibrated volume/density plus path-indexed local-clock/reference
+  evidence against nonisometric held-out controls
+  ([result](explorations/meta-record-geometry-identification-ladder-2026-07-25.md);
+  [probe](tests/du_meta_record_geometry_identification_probe.py)).
 
 ### The live bottleneck
 
@@ -217,6 +226,12 @@ Regional finality, capability pricing, and time/geometry reconstruction remain
 important, but physical claims should consume an implementation-complete
 instrument and preserve its full provenance and resource passport.
 
+Lane 6 now has a sharper independent bottleneck. Do not attempt to read a
+metric from the raw record DAG or from one reconstructed scalar clock. Freeze
+separate order/provenance, calibrated sampling/volume, path-indexed clock, and
+reference/access data; then test nonisometric candidates on held-out interval,
+clock-transport, and geometric comparisons.
+
 ## Dependency lanes
 
 Lanes express **scientific responsibility and dependency**, not methods and
@@ -230,7 +245,7 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Screen complete physical evidence before any sufficiency verdict; figure-source summaries are insufficient. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Access and capability are not the same as possession of a latent record. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, and loop obstructions. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Representation can start now; derivation claims wait on dependencies. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038A` separates order from one scalar record clock; next add calibrated volume and path-indexed clocks to nonisometric held-out controls. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 

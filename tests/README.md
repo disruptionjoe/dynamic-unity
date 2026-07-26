@@ -53,6 +53,35 @@ evidence for their exact scoped findings. They are antecedents and benchmark
 fixtures, not evidence that Certified Causal Reality, record-first ontology,
 public finality, geometry reconstruction, or physical recovery is true.
 
+## Meta-record geometry identification control
+
+`du_meta_record_geometry_identification_probe.py` executes the exact finite
+`HC-DU-038A` identification ladder using rational arithmetic. It checks:
+
+- affine clock changes and different local elapsed allocations with unchanged
+  authenticated order;
+- one three-event timelike chain with the same causal matrix in Minkowski
+  dimensions 2, 3, and 4;
+- scalar-potential recovery exactly when calibrated cover-edge differences
+  have zero signed circulation on every undirected cycle;
+- incidence rank, the `m-n+c` independent cycle-obligation count, and
+  additive-origin gauge;
+- relabeling naturality and independent origins on disconnected components;
+- an exact diamond and a one-edge nonzero-circulation mutation;
+- one and two composed additive relay subdivisions;
+- preservation of original-event reachability, potential differences,
+  exactness, and cycle rank despite changed raw node, edge, interval, and hop
+  counts;
+- a nonadditive relay as a physical-contract change; and
+- an arbitrary weighted-tree null with no cycle obstruction.
+
+The deterministic artifact is
+`artifacts/du_meta_record_geometry_identification_result.json` and reports
+`21/21` checks. Passing establishes exact finite known-mathematics controls
+only. The reconstructed scalar is not proper time, simultaneity, dimension,
+curvature, Lorentzian distance, a metric, physical geometry, record
+fundamentality, or new physics.
+
 ## Compute setup
 
 The current numerical probes require NumPy and otherwise use the Python
