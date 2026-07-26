@@ -1107,6 +1107,72 @@ complete instrument tomography, and frozen archive/decoder—not another
 abstract basis selector. See
 `../explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`.
 
+### `HC-DU-035D` — Center-Screening Regional Finality and First Leak
+
+Let a regional layer carry a finite action algebra
+\(\mathcal A_k\) with public center \(Z_k=Z(\mathcal A_k)\). For each
+selective regional transition \(\mathcal J_\alpha\), use its Heisenberg
+adjoint
+
+\[
+\mathcal J_\alpha^*:\mathcal A_{k+1}\longrightarrow\mathcal A_k.
+\]
+
+The transition is **selectively center-screening** exactly when
+
+\[
+\mathcal J_\alpha^*(Z_{k+1})\subseteq Z_k
+\]
+
+for every retained route \(\alpha\). Equivalently, every complete selective
+next-public-record row factors through the current public center. This is the
+operator-algebra specialization of `HC-DU-036H`, not a new law.
+
+**Executed exact finite result.**
+
+1. Selective center screening is necessary and sufficient for later public
+   records to be independent of all same-center fibre states.
+2. It closes under sequential composition, tensor products, and policies
+   selected only from the public record.
+3. If a final public outcome depends on a hidden fibre, pulling its central
+   effect backward identifies a first transition where the pullback leaves
+   the center. That map supplies a finite local witness rather than a vague
+   global failure.
+4. For a Hermitian pulled-back effect \(E\), the maximum same-center witness
+   gap in block \(q\) is its spectral width
+
+   \[
+   L_q(E)=\lambda_{\max}(z_qEz_q)-\lambda_{\min}(z_qEz_q),
+   \]
+
+   and \(\max_qL_q(E)=2\,\mathrm{dist}_{\|\cdot\|_\infty}(E,Z(\mathcal A))\).
+5. Aggregate center preservation is insufficient: route averaging can hide
+   a noncentral selective instrument.
+
+The exact two-region control separates a public-sector controlled update from
+two hostile recouplings. One reads hidden fibre population into a later
+public bit. The other turns the phase difference between \(|+\rangle\) and
+\(|-\rangle\)—states with identical old public centers and identical fibre
+\(Z\)-populations—into a later public outcome with probability margin one.
+Physical \(Z\)-dephasing is the destruction control; without it, the fibre can
+remain orthogonal yet still be final relative to the screened future class.
+A selective fibre-\(X\) route leaks even though its aggregate channel
+preserves the center. A matched distributed shadow separates certificate-only
+updates from a hidden-local-state hook.
+
+The earned correction is:
+
+> Regional finality need not destroy the quantum fibre. It requires causal
+> screening of that fibre from every admitted selective future public route.
+
+This finality is action-class-relative. Adding a noncentral operation changes
+the contract; omitting an already physically available operation
+manufactures finality. The result is absorbed by finite operator-algebra
+invariance, information-preserving algebras, quantum process memory, and
+controlled lumpability. Regional action algebras, boundaries, formation
+couplings, archives, and the future action class remain unselected. See
+`../explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md`.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -1875,6 +1941,9 @@ supplied, or fitted; target constancy cannot supply interface provenance.
                 and relay-refinement counterexample [COMPLETED FINITE CONTROL]
                 robust physical identity, formed-sharp instrument descent,
                 and sparse recursive compilation [OPEN]
+   HC-DU-035D selective center-screening regional finality, composition and
+                first-leak localization [COMPLETED EXACT KNOWN-MATHEMATICS
+                SPECIALIZATION; PHYSICAL REGIONALIZATION OPEN]
         |
 3a. HC-DU-036A finite interventional closure/witness [COMPLETED]
         |
@@ -2179,7 +2248,7 @@ reference states merely because they obey the conservation law.
 5. stop if the result is only a juxtaposition of known statistical,
    access-structure, and quorum theorems.
 
-**Completed `HC-DU-035C` controls and next build:**
+**Completed `HC-DU-035C/035D` controls and next build:**
 
 1. retain the exact cycle-syndrome, quorum, independent-support,
    action-factorization, refinement, logical-access, version-space,
@@ -2210,6 +2279,17 @@ reference states merely because they obey the conservation law.
 8. stop before geometry or beyond-standard physics if region selection is
    target-defined or every obstruction is absorbed by known marginal,
    process-tensor, controller, QEC, or protocol structure.
+9. retain `HC-DU-035D`'s selective center-screening criterion, closure under
+   sequence/tensor/public adaptation, first-noncentral-pullback localization,
+   exact spectral-width leakage margin, phase-to-public hostile control, and
+   aggregate-versus-selective route counterexample;
+10. use the screened public regional process as Lane 6's input while keeping
+    one minimum first-leak completion as the hostile foil; do not equate
+    finality with fibre destruction or infer perspectival curvature from
+    ordinary noncentral recoupling; and
+11. independently justify the regional action algebras, boundaries,
+    formation couplings, archives, and complete future action class before
+    promoting a physical finality claim.
 
 ### Phase 3 — `HC-DU-034/036` history and sufficiency
 
@@ -2397,6 +2477,10 @@ CENTRAL RECORD AUTONOMY IFF COMPLETE EVENT/NEXT-RECORD EFFECTS ARE CENTRAL
 ALL-ACTION SUFFICIENCY IFF THE ACTION ALGEBRA IS COMMUTATIVE
 NONCOMMUTATIVE BLOCKS RETAIN A FINITE CAPABILITY-RELATIVE REMAINDER
 FACTORS HAVE NO NONTRIVIAL ACTION-INTERNAL NONDISTURBING SHARP RECORD
+HC-DU-035D SELECTIVE CENTER-SCREENING REGIONAL FINALITY AND FIRST-LEAK LOCALIZATION EXACT
+SELECTIVE CENTER SCREENING COMPOSES WHILE RETAINING NONCOMMUTATIVE FIBRES
+AGGREGATE CENTER PRESERVATION DOES NOT IMPLY SELECTIVE FINALITY
+BLOCKWISE LEAKAGE MARGIN EQUALS TWICE OPERATOR-NORM DISTANCE TO THE CENTER
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

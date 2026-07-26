@@ -1,0 +1,177 @@
+{
+  "checks": [
+    {
+      "detail": "The two regional public bits define four orthogonal central sectors.",
+      "name": "regional central projectors form a four-cell PVM",
+      "passed": true
+    },
+    {
+      "detail": "Sector-controlled CNOT is a permutation unitary.",
+      "name": "public-only coupling is exactly unitary",
+      "passed": true
+    },
+    {
+      "detail": "Fibre-population-controlled CNOT is a permutation unitary.",
+      "name": "population-leak coupling is exactly unitary",
+      "passed": true
+    },
+    {
+      "detail": "Orthogonal X-fibre projectors control the public-sector flip.",
+      "name": "phase-leak coupling is exactly unitary",
+      "passed": true
+    },
+    {
+      "detail": "Every pulled-back next public projector remains a current central projector.",
+      "name": "public-only coupling screens the regional center",
+      "passed": true
+    },
+    {
+      "detail": "The exact positive composition closes on the public center.",
+      "name": "parallel and sequential public-only composition remains screened",
+      "passed": true
+    },
+    {
+      "detail": "Both states have public sectors A=0 and B=0.",
+      "name": "population hostile pair has one identical formed regional record",
+      "passed": true
+    },
+    {
+      "detail": "The hidden A-fibre population flips B's public sector with unit margin.",
+      "name": "population fibre leaks into the next public center",
+      "passed": true
+    },
+    {
+      "detail": "A pulled-back public projector is noncentral inside one current sector.",
+      "name": "population coupling fails center screening",
+      "passed": true
+    },
+    {
+      "detail": "The old public center is blind to the fibre phase.",
+      "name": "phase hostile pair has one identical public record",
+      "passed": true
+    },
+    {
+      "detail": "The witness is not a hidden computational-basis population difference.",
+      "name": "phase hostile pair also has identical Z-fibre populations",
+      "passed": true
+    },
+    {
+      "detail": "X-fibre phase is converted into B's public sector with unit margin.",
+      "name": "coherent fibre phase leaks into the next public center",
+      "passed": true
+    },
+    {
+      "detail": "The public pullback contains a noncentral X-fibre projector.",
+      "name": "phase coupling fails center screening",
+      "passed": true
+    },
+    {
+      "detail": "The final effect is central and leaves the center at the first hostile reverse step.",
+      "name": "first noncentral pullback is localized at the phase coupling",
+      "passed": true
+    },
+    {
+      "detail": "The compression has eigenvalues one and zero in the same public block.",
+      "name": "first-leak probability margin is exactly one",
+      "passed": true
+    },
+    {
+      "detail": "The public-only update screens rather than destroys the retained phase.",
+      "name": "center screening preserves an orthogonal quantum fibre",
+      "passed": true
+    },
+    {
+      "detail": "Finality was only relative to the earlier center-preserving future action class.",
+      "name": "a later hostile map reopens the screened fibre",
+      "passed": true
+    },
+    {
+      "detail": "The two X-fibre eigenstates both become the maximally mixed fibre.",
+      "name": "Z dephasing makes the phase hostile pair identical",
+      "passed": true
+    },
+    {
+      "detail": "Destroying coherent optionality removes the public feedback witness.",
+      "name": "dephasing screens the later phase-to-center assay",
+      "passed": true
+    },
+    {
+      "detail": "The two X-fibre route effects sum exactly to identity.",
+      "name": "route Kraus operators form a complete instrument",
+      "passed": true
+    },
+    {
+      "detail": "Discarding the route makes the public center transition look closed.",
+      "name": "aggregate route channel preserves every public central effect",
+      "passed": true
+    },
+    {
+      "detail": "Each retained route carries noncentral X-fibre information.",
+      "name": "complete selective route cells fail center screening",
+      "passed": true
+    },
+    {
+      "detail": "Aggregate center preservation is insufficient for HC-DU-036H.",
+      "name": "retained route separates the same-public-record phase pair",
+      "passed": true
+    },
+    {
+      "detail": "Public input (A=1,B=0) maps to public output (A=1,B=1) independently of fibres.",
+      "name": "public-only coupling implements a deterministic center kernel",
+      "passed": true
+    },
+    {
+      "detail": "Common conjugation preserves safe versus leaking classification.",
+      "name": "center-screening verdict is representation robust",
+      "passed": true
+    },
+    {
+      "detail": "The exact separating probability remains one after relabeling.",
+      "name": "first-leak margin is representation robust",
+      "passed": true
+    },
+    {
+      "detail": "The hidden local state is outside the public certificate.",
+      "name": "distributed shadow begins with one certified regional record",
+      "passed": true
+    },
+    {
+      "detail": "The public update uses only certified input bits.",
+      "name": "safe distributed transition descends through certificates",
+      "passed": true
+    },
+    {
+      "detail": "A local hidden bit feeds back into the later public certificate.",
+      "name": "hidden distributed hook violates certificate finality",
+      "passed": true
+    }
+  ],
+  "claim_ceiling": [
+    "finite-dimensional center-screening and first-leak theorem",
+    "known operator-algebra, stable-commutative-subalgebra, process-memory, and lumpability mathematics",
+    "conditional on supplied regions, centers, selective maps, future action class, and formation receipts",
+    "no physical regionalization, universal finality, quantum-theory selection, record-first ontology, new law, new physics, hardware result, paper promotion, or publication"
+  ],
+  "hypothesis_id": "HC-DU-035D",
+  "local_model_learning_gate": {
+    "disposition": "REGRESSION_ONLY_AFTER_DIRECT_PROOF",
+    "generated_learning_claim": false,
+    "hardware_required": false,
+    "purpose": "preserve exact minimal phase, selective-route, first-leak, and cross-platform controls after the symbolic proof"
+  },
+  "next_dependency": "apply the screened center process to time/geometry reconstruction while retaining one explicit fibre-leak foil, and separately seek physical selection of the regional action algebras and couplings",
+  "run_id": "RUN-20260726-154509-center-screening-regional-finality",
+  "status": "completed_scoped_result",
+  "summary": {
+    "composition": "selectively center-screening maps close under tensor product, sequential composition, and record-adaptive policies",
+    "cross_platform": "the same center/fibre schema applies to an authenticated distributed shadow, while the phase-only witness remains quantum",
+    "descent": "the public regional process closes exactly when every complete selective map pulls the next center into the current center",
+    "first_leak": "any later public dependence on a retained fibre has a first noncentral pullback and a same-center finite witness",
+    "margin": "the hostile coherent phase-to-public conversion has exact probability gap one inside one central block",
+    "passed": 29,
+    "screening": "a noncommutative fibre can persist while screened; finality does not require destruction",
+    "selective_boundary": "aggregate center preservation can hide a noncentral retained route and therefore does not satisfy HC-DU-036H",
+    "total": 29
+  },
+  "verdict": "KNOWN_MATHEMATICS__CENTER_SCREENING_FINALITY_AND_FIRST_LEAK_EXACT"
+}

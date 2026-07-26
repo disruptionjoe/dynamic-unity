@@ -316,6 +316,15 @@ regional records to form one incompatibility-resistant public action algebra.
 **Not a delta.** Calling consensus confidence, redundancy, or decoherence
 “finality.”
 
+**Current exact boundary (`HC-DU-035D`).** Once each region's public record is
+the center of a frozen action algebra, the public process is screened from
+retained quantum fibres exactly when every complete selective future map
+pulls the next public center into the current center. This permits the fibre
+to remain intact. If a future operation converts its population or phase into
+a public outcome, backward effect propagation localizes the first noncentral
+map and supplies a finite witness. Preserving the center only after selective
+routes are averaged is not enough.
+
 ### 3. Static process description versus actual formation
 
 **Established.** A sufficiently enlarged standard quantum process can encode
@@ -363,6 +372,13 @@ genuine compositional invariant.
 
 **Not a delta.** An ordinary geometric, gauge, or routed implementation phase
 renamed “perspectival curvature.”
+
+**Current correction.** If every perspective-comparison map is
+center-screening, hidden fibre holonomy cannot alter a public fact. Observable
+path dependence must then already reside in the public transition kernels.
+Otherwise it localizes to a first noncentral recoupling or to omitted
+route/provenance state. Those standard possibilities must be excluded before
+any residual is called perspectival curvature.
 
 ### 6. Histories versus endpoints
 
@@ -412,6 +428,13 @@ refinement.
 
 **Not a delta.** Mapping nodes and edges from a consensus protocol onto
 particles and entanglement without a transferable statement.
+
+**Current exact boundary (`HC-DU-035D`).** Recursive regional composition is
+safe relative to the frozen future action class when every selective layer
+map preserves centers in the Heisenberg direction. The criterion composes
+under sequence, tensor product, and public-record-adaptive policy. This is a
+known-mathematics assurance theorem, not yet a physical law selecting regions,
+their action algebras, archives, or admissible future couplings.
 
 ### 9. Quantum measurement versus relativistic localization
 
@@ -501,7 +524,7 @@ interventional sufficiency, not another finite selector fit.
 | Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go. `HC-DU-033C` now gives the stabilizer fixed-point obstruction: a symmetric law may select a configuration or covariant interface family without selecting one observer-indexed member | `HC-DU-033/033C/036B/036C/036E/036F` |
 | Acquisition visibility | Distinguish the provider-returned population from the complete attempted physical process; full factorization additionally requires the selection kernel and every supported selected/rejected response stratum to factor through the record. A scoped five-interface matrix finds no standard documented all-attempt/complete-reset route; silence is not absence | `HC-DU-036D/036E/036F` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
-| Public-finality composition | Derive when regional records form a safe public action algebra under faults and access limits | `HC-DU-035/035C` |
+| Public-finality composition | `HC-DU-035D` exactly characterizes selective future center screening, composition, first-leak localization, and the aggregate-route failure while permitting retained quantum fibres. The open delta is physical selection of the regions, action algebras, archives, and future action class, followed by transfer to effective-physics reconstruction | `HC-DU-035/035C/035D` |
 | Record sufficiency or physical remainder | Translate the five-part integrated contract into process-tensor, quantum-instrument, statistical-experiment, and system-identification language before physical escalation. Use the exact finite `HC-DU-036C` stochastic-decoder deficiency and `HC-DU-036D` uncertainty gate only after complete attempt visibility and reset; distinguish reconstruction, resource-Pareto repair, class-relative positive margin, and incomplete contract | `HC-DU-036/036C/036D/036E/036F` |
 | Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
 | Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records | `HC-DU-038/038D` |

@@ -895,6 +895,17 @@ resolution-stable intervention role. No claim is banked or seeded. See
   center as the maximal nondisturbing classical layer and noncommutative
   blocks as an explicit possible physical remainder. See
   `action-center-record-formation-and-capability-boundary-2026-07-26.md`.
+- **Earned center-screening finality boundary.** `HC-DU-035D` proves that
+  formed central records remain autonomous through layered composition
+  exactly when every complete selective future map pulls later public-center
+  effects into the earlier center. The condition composes and does not require
+  destruction of the noncommutative fibre. Any failure has a first
+  noncentral pullback and a finite same-center witness whose optimal
+  blockwise margin is twice distance to the center. Aggregate-only
+  preservation is insufficient because route information can carry the leak.
+  This is exact known mathematics; physical regions and the complete future
+  action class remain unselected. See
+  `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
 - **Earned Dirac-sea/Krein attribution application.** The paired GU W245
   certificate shows that Finster's self-adjoint sea-rate is well typed on
   W216's Hermitian branch and not through the complex-spectrum core of its
@@ -995,6 +1006,9 @@ resolution-stable intervention role. No claim is banked or seeded. See
   COMMUTATIVE / NONCOMMUTATIVE BLOCKS RETAIN A FINITE CAPABILITY-RELATIVE
   REMAINDER / FACTORS HAVE NO NONTRIVIAL ACTION-INTERNAL NONDISTURBING SHARP
   RECORD /
+  HC-DU-035D SELECTIVE CENTER-SCREENING FINALITY AND FIRST-LEAK LOCALIZATION
+  EXACT / QUANTUM FIBRES MAY PERSIST BEHIND A FINAL PUBLIC CENTER /
+  AGGREGATE-ONLY CENTER PRESERVATION REJECTED /
   HC-DU-033C STABILIZER INTERFACE-SELECTION OBSTRUCTION EXACT /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION
@@ -1682,6 +1696,33 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   apparatus-asymmetry contract, perturbation-ball robustness, complete
   instrument tomography, and a frozen archive/decoder. See
   `robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`.
+- **2026-07-26 center-screening regional finality.** `HC-DU-035D`
+  gives the formed center-plus-fibre object an exact recursive boundary. For
+  every complete selective regional transition \(\mathcal J_\alpha\),
+
+  \[
+  \mathcal J_\alpha^*(Z_{k+1})\subseteq Z_k
+  \]
+
+  is necessary and sufficient for the next public record to ignore all
+  current same-center fibre distinctions. The condition closes under
+  sequence, tensor product, and public-record-adaptive policy. If later
+  public output depends on a fibre, pulling the final central effect backward
+  locates a first noncentral transition and a finite witness. Its maximum
+  blockwise margin is the block spectral width, equivalently twice the
+  operator-norm distance from the pulled-back effect to the center.
+
+  The `29/29` exact control shows that a public center can be final while an
+  orthogonal quantum fibre remains intact, and that a later noncentral
+  coupling can turn either fibre population or phase into a public bit.
+  Physical dephasing destroys that option; screened finality need not.
+  Retaining selective routes also matters: an aggregate center-preserving
+  channel can hide route-local noncentral leakage. The matched distributed
+  specimen separates certificate-only updates from hidden-local-state hooks.
+  This is known operator-algebra, process-memory, and lumpability mathematics.
+  It does not select a physical regionalization, action algebra, boundary,
+  archive, or complete future action class. See
+  `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
@@ -1711,13 +1752,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   INSTALLED / COMMON SHARP-PVM DESCENT ABSORBED / EXACT BINARY-QND
   SOURCE-ACTION INSTRUMENT-ORBIT SELECTOR INSTALLED / CONTINUATION,
   ARCHIVE-ACCESS AND MICROSCOPIC-DILATION BOUNDARIES CLASSIFIED /
+  SELECTIVE CENTER-SCREENING FINALITY, COMPOSITION, FIRST-LEAK LOCALIZATION
+  AND EXACT LEAKAGE MARGIN INSTALLED / QUANTUM FIBRE DESTRUCTION NOT
+  REQUIRED / AGGREGATE-ONLY CENTER PRESERVATION REJECTED /
   LABORATORY TOTAL-CONSERVATION, APPARATUS-ASYMMETRY, PERTURBATION-BALL
   SELECTION AND SPARSE SCALING OPEN / NO ONTOLOGY OR NEW PHYSICS
-  INFERRED.** The next coupled attack is a laboratory-motivated
-  total-conservation and complete-instrument-tomography lift with a calibrated
-  apparatus-asymmetry budget, declared perturbation ball, and frozen
-  archive/decoder, followed only then by full-cover descent and sparse exact
-  compilation. See
+  INFERRED.** The campaign successor carries the screened public process and
+  one explicit first-leak completion unchanged into time/geometry/field/
+  capability reconstruction. The parallel physical successor remains a
+  laboratory-motivated total-conservation and complete-instrument-tomography
+  lift with a calibrated apparatus-asymmetry budget, declared perturbation
+  ball, and frozen archive/decoder. See
   `regional-finality-descent-kernel-and-approach-registry-2026-07-25.md` and
   `regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md`
   and `multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md`
@@ -1726,7 +1771,8 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   `certified-regional-composition-support-2026-07-25.md`, and
   `record-formation-to-certified-composition-wave-synthesis-2026-07-25.md`,
   `formed-sharp-descent-swing-synthesis-2026-07-25.md`, and
-  `robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`.
+  `robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`, and
+  `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
 
 ## CONCEPT-DU-012 — staged multiplicity, physical selection, and differentiation
 

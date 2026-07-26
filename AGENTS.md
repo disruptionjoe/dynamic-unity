@@ -231,12 +231,19 @@ routing authority.
   different contracts.
 - **Lane 5:** regional finality and recursive composition—establish when
   local certified networks compose into safe higher-level facts and actions.
-  Its present lead object is a formed central regional record with an explicit
-  noncommutative fibre; test whether merger/hardening closes on the centers or
-  whether the fibres feed back into later public outcomes.
+  `HC-DU-035D` establishes the exact finite boundary: every complete
+  selective future map must pull the next public center into the current
+  center. This condition composes, permits retained quantum fibres, and
+  localizes any failure to a first noncentral pullback with a finite witness.
+  Aggregate center preservation is insufficient if a retained route leaks.
+  Treat finality as relative to the frozen future action class, not as
+  destruction by definition.
 - **Lane 6:** time, geometry, fields, and physical reconstruction—recover
   effective physical structure with uniqueness, gauge, and refinement
-  controls.
+  controls. Its next campaign input is the `HC-DU-035D` screened public
+  process paired with one explicit first-leak completion; attribute law-only
+  closure before asking whether time, geometry, fields, or capability factor
+  through the same public causal network.
 - **Lane 7:** remainders, predictions, and publishable results—extract finite
   discriminators, theorems/no-gos, experimental protocols, novelty
   collisions, and Drafting-Factory packages. Joe publishes.

@@ -184,6 +184,20 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     the exact finite standing control; its component mathematics is known
     operator-algebra terrain.
 
+21. **Public-center/future-screening substitution.** *Objection:* a formed
+    central record, or an aggregate channel that preserves it, is reported as
+    regionally final while a retained selective future route can still
+    convert hidden fibre state into a public outcome. *Way through:* freeze
+    the complete future action class and require
+    \(\mathcal J_\alpha^*(Z_{k+1})\subseteq Z_k\) for every selective route,
+    stratum, and public-record-adaptive branch. If a later public outcome
+    differs, propagate its central effect backward to the first noncentral
+    pullback and return the block spectral-width witness. Do not require
+    physical destruction when causal screening suffices, but do not average
+    away route-local leakage. `HC-DU-035D` is the exact finite standing
+    control; its mathematics is known and it does not select the physical
+    regions, action algebras, archives, or future action class.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

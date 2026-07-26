@@ -104,7 +104,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 151
+Finality, Temporal Issuance, or Possibility to Capability. It records 158
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -208,6 +208,23 @@ What *has* been earned is a strong finite control stack:
   algebra or a new quantum law
   ([result](explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md);
   [probe](tests/du_action_center_capability_boundary_probe.py)).
+- one exact finite-dimensional `HC-DU-035D` center-screening finality theorem.
+  A formed regional center is screened from its retained noncommutative fibre
+  exactly when every complete selective future map pulls the next public
+  center into the current public center. This condition composes
+  sequentially, in parallel, and under public-record-adaptive control. If it
+  fails, backward propagation of a final public effect identifies a first
+  noncentral map and an exact same-public-record/different-later-outcome
+  witness. The maximum blockwise witness margin is twice the operator-norm
+  distance of the pulled-back effect from the center. Exact controls show
+  that finality can retain an orthogonal quantum fibre, that a later
+  phase-to-public coupling reopens it with unit probability margin, and that
+  aggregate center preservation is insufficient when a retained selective
+  route leaks. This is known operator-algebra, process-memory, and
+  lumpability mathematics—not a selected physical regionalization or new
+  quantum law
+  ([result](explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md);
+  [probe](tests/du_center_screening_regional_finality_probe.py)).
 - one formal-first `HC-DU-033C/038D` separation result. Any natural
   interface selected at a lawful completion must be fixed by that
   completion's symmetry stabilizer. Minkowski's Lorentz stabilizer has no
@@ -368,15 +385,27 @@ selection burden remains: the action algebra, system/pointer/archive
 boundary, formation coupling, decoder, provenance, reset, and access class
 are still selected, orbit-selected, supplied, or fitted separately.
 
-The next campaign move is to carry the typed central record plus its
-noncommutative fibre into layered regional composition. Let regional
-hardening act on the central labels, retain the within-sector state as an
-explicit possible remainder, and use hostile coherent actions to test whether
-it can feed back into later central outcomes. Reuse `HC-DU-036H` unchanged as
-the autonomy acceptance test. In parallel, a genuinely physical interface
-result must independently derive or justify the action algebra and formation
-boundary. Run the frozen cloud pilot only after direct authorization and only
-if it changes an instrument, margin, reset, or shot-budget decision; the
+`HC-DU-035D` has now executed that regional-composition move. The right
+boundary is selective future center screening, not destruction of the
+noncommutative fibre and not preservation only after routes are averaged
+together. A screened center produces an autonomous classical public process
+while the fibre can remain intact. Any later public dependence has a first
+noncentral pullback and a finite local witness. Finality is therefore relative
+to a frozen future action class: adding a new noncentral recoupling changes
+the contract, while omitting an already available recoupling manufactures a
+false finality verdict.
+
+The next campaign move is to use the screened regional public process as the
+input to time, geometry, field, and capability reconstruction while retaining
+one explicit first-leak completion as the hostile foil. Freeze the same
+certified public causal network in both cases; distinguish targets already
+fixed by the law from those that factor through the public process; and return
+either a common reconstruction theorem or a finite
+same-public-network/different-target witness. In parallel, a genuinely
+physical result must independently derive or justify the regional action
+algebras, boundaries, formation couplings, archives, and admitted future
+action class. Run the frozen cloud pilot only after direct authorization and
+only if it changes an instrument, margin, reset, or shot-budget decision; the
 current dry runs earn no physical verdict.
 
 For planning, assume **no external hardware is available**. That changes only

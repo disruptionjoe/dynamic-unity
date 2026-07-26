@@ -1531,3 +1531,45 @@ The executable is regression only after the direct proof. It does not select
 the physical action algebra, source/pointer/archive boundary, formation
 coupling, decoder, observer, microscopic dilation, ontology, new law, new
 physics, paper state, hardware path, or external action.
+
+## HC-DU-035D center-screening regional finality and first leak
+
+`du_center_screening_regional_finality_probe.py` preserves exact finite
+controls for layered composition of public centers with explicit retained
+noncommutative fibres:
+
+- a two-region public-sector controlled update pulls every later public
+  center effect into the earlier center;
+- sequential, tensor, and public-record-adaptive screened maps remain
+  screened;
+- a fibre-population-controlled update produces a noncentral pullback and a
+  same-public-record/different-later-outcome witness;
+- a fibre-phase-controlled update distinguishes \(|+\rangle\) from
+  \(|-\rangle\) with probability margin one although they have identical
+  public centers and fibre-\(Z\) populations;
+- physical fibre dephasing screens that phase assay by making the hostile
+  inputs identical;
+- a selective fibre-\(X\) route leaks even though the route-averaged channel
+  preserves the center;
+- backward effect propagation identifies the first noncentral transition;
+- the exact block spectral-width margin equals twice operator-norm distance
+  to the center;
+- a common permutation representation change preserves every verdict; and
+- the distributed shadow separates certificate-only regional updates from a
+  hidden-local-state hook.
+
+Run:
+
+```bash
+python3 tests/du_center_screening_regional_finality_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_center_screening_regional_finality_result.json` and reports
+`29/29` with
+`KNOWN_MATHEMATICS__CENTER_SCREENING_FINALITY_AND_FIRST_LEAK_EXACT`.
+Passing proves a scoped finite center-screening, composition, and first-leak
+boundary. It does not select physical regions, action algebras, boundaries,
+formation couplings, archives, observers, the complete future action class,
+ontology, a new law, new physics, paper state, hardware path, or external
+action.

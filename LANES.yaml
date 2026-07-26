@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 57
+manifest_revision: 58
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -80,6 +80,17 @@ action_center_capability_rule: >-
   exactly iff the action algebra is commutative. Preserve noncommutative within-sector state as
   a typed possible remainder; do not change the action class after seeing the sufficiency
   verdict.
+center_screening_finality_ref: >-
+  explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
+center_screening_finality_rule: >-
+  A formed regional public center is final relative to a frozen future action class exactly
+  when every complete selective future map pulls the next public center into the current
+  center. Require selective, not merely aggregate, center preservation. This condition composes
+  sequentially, in parallel and under public-record-adaptive control while permitting the
+  noncommutative fibre to remain intact. If a later public record depends on that fibre,
+  propagate the final central effect backward to localize the first noncentral pullback and
+  return its finite same-public-record witness. Adding a new noncentral recoupling changes the
+  future-action contract; omitting an already available route is inadmissible restriction.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -230,7 +241,12 @@ lanes:
     Consume HC-DU-033D's exact action-center boundary: a formed central record is complete for
     all admitted actions exactly at the commutative-algebra boundary; otherwise a noncentral
     within-sector effect supplies a finite same-record/different-capability witness. A factor
-    has no nontrivial action-internal nondisturbing sharp record. Advance the physical
+    has no nontrivial action-internal nondisturbing sharp record. Consume HC-DU-035D's layered
+    boundary: public centers remain autonomous through composition exactly when every complete
+    selective future map pulls the next public center into the current center. Use the first
+    noncentral pullback and its exact blockwise leakage margin rather than treating finality as
+    destruction or accepting an aggregate-only channel. Carry the screened public process plus
+    one explicit leak foil into time/geometry/capability reconstruction. Advance the physical
     formation/interface-selection dependency: determine which complete
     selective record, archive, provenance field, reset boundary and admissible refinement is
     independently formed or selected rather than supplied, fitted or representation-dependent.
@@ -258,6 +274,7 @@ lanes:
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
+  - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
@@ -386,7 +403,10 @@ lanes:
     coexist with maximal uncertainty about a held-out repeat. Consume HC-DU-033D: sufficiency
     is relative to the independently frozen action algebra. A center-limited observer can have
     complete sector-level capability while a coherent within-sector observer exposes a finite
-    same-record remainder. Freeze the
+    same-record remainder. Consume HC-DU-035D: a public record can be final without fibre
+    destruction only relative to a complete selectively center-screening future action class.
+    Adding a noncentral recoupling changes the capability contract; omitting an admitted route
+    creates false finality. Freeze the
     observer/access/task/loss/readout/decoder/risk/resource comparison contract, and wait for a
     formed distinction with a candidate finality-specific residual before promoting a stronger
     capability law.
@@ -401,6 +421,7 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - lab/process/cross-repo-hardening-control-contract.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+  - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
@@ -429,11 +450,15 @@ lanes:
     that restores a process is occurrence-identity or completion retyping, not ordinary
     same-class record refinement. Preserve HC-DU-036G's warning that finality is
     proposition-specific: finalizing a value does not finalize an omitted continuation.
-    HC-DU-033D now supplies the next typed specimen: each region has a formed central record and
-    an explicit noncommutative fibre. Test whether regional merger and hardening close on the
-    centers under the unchanged HC-DU-036H joint-row criterion, or whether one coherent
-    within-sector action feeds back into a later central outcome. Preserve the fibre rather than
-    scalarizing identity, compatibility, record-fit or target-spread defects.
+    HC-DU-035D has executed the center-plus-fibre composition step. A regional public record is
+    selectively center-screened exactly when every complete future route pulls the next public
+    center into the current center. The condition closes under sequence, tensor product and
+    public-record-adaptive policy while allowing the noncommutative fibre to persist. When it
+    fails, propagate a final public effect backward and return the first noncentral pullback,
+    its blockwise spectral-width witness and the responsible route. Do not replace selective
+    closure with an aggregate channel. Hand the screened public process and one first-leak foil
+    to Lane 6; preserve the fibre rather than scalarizing identity, compatibility, record-fit or
+    target-spread defects.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -450,6 +475,7 @@ lanes:
   - tests/du_certified_reconstruction_fiber_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
+  - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -479,6 +505,12 @@ lanes:
     ordinary Einstein law while the Lorentz-symmetric solution still selects no observer
     direction. Report record-image distance, lawful target diameter before records, and
     record-conditioned target diameter in that order; report interface provenance separately.
+    Consume HC-DU-035D as the regional input contract: hold the certified public causal process
+    fixed, compare a selectively center-screened completion with the minimum admitted first-leak
+    completion, and test effective time, geometry, field and capability targets on both. Report
+    law-only target closure before public-process reconstruction; a target that differs only
+    after a noncentral recoupling is a class-relative fibre remainder, not unexplained
+    perspectival curvature.
     The next physical arena must retain nonzero law-only target diameter and add an independently
     realized symmetry breaker plus formed record instrument. Prefer an exact linearized
     Einstein--matter kernel/stabilizer calculation before simulation. A CFS-facing extension must
@@ -519,6 +551,7 @@ lanes:
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
   - explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
+  - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -1312,7 +1345,11 @@ certified_causal_reality_restructure:
     MATHEMATICS / CENTRAL RECORD AUTONOMY IFF COMPLETE JOINT EFFECTS ARE CENTRAL /
     ALL-ACTION SUFFICIENCY IFF THE ACTION ALGEBRA IS COMMUTATIVE / NONCOMMUTATIVE BLOCKS RETAIN A
     FINITE CAPABILITY-RELATIVE REMAINDER / FACTORS HAVE NO NONTRIVIAL ACTION-INTERNAL
-    NONDISTURBING SHARP RECORD /
+    NONDISTURBING SHARP RECORD / HC-DU-035D SELECTIVE CENTER-SCREENING REGIONAL FINALITY,
+    COMPOSITION AND FIRST-LEAK LOCALIZATION EXACT AS KNOWN MATHEMATICS / QUANTUM FIBRES MAY
+    PERSIST BEHIND A FINAL PUBLIC CENTER / AGGREGATE CENTER PRESERVATION DOES NOT IMPLY SELECTIVE
+    SCREENING / MAXIMUM BLOCKWISE LEAKAGE MARGIN EQUALS TWICE OPERATOR-NORM DISTANCE TO THE
+    CENTER /
     FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT / BRANCH-BASIS
     DEPHASING ERASES THE SECTOR CODE BEFORE DECODING / QUANTUM MULTIPLICITY PRESERVED INSIDE
     COHERENTLY READABLE CENTRAL SECTORS / MATCHED FINITE-TIME STABILITY DOES NOT DETERMINE
@@ -4120,6 +4157,23 @@ provenance:
     ontology, new law, new physics, paper promotion, hardware, provider action, submission,
     publication or external contact is promoted. The next campaign object is regional
     composition of formed central records with explicitly retained noncommutative fibres.
+  rev58_note: >-
+    2026-07-26 (Joe direct chat: proceed with the third large swing of the five-swing Dynamic
+    Unity campaign): executed HC-DU-035D. A formed public regional center is final relative to a
+    frozen future action class exactly when every complete selective future map pulls the next
+    public center into the current center. The condition composes sequentially, in parallel and
+    under public-record-adaptive control while leaving noncommutative fibres intact. If later
+    public output depends on a fibre, backward propagation of a final central effect localizes
+    the first noncentral pullback and supplies a finite same-public-record witness; its maximum
+    blockwise margin is twice operator-norm distance to the center. Exact two-region controls
+    separate safe public-sector coupling, population and phase leaks, physical dephasing,
+    aggregate-only route hiding, representation covariance and an adversarial distributed
+    shadow, passing 29/29. Component mathematics is known; regional action algebras, boundaries,
+    formation couplings, archives and future action classes remain supplied. No physical
+    regionalization, universal finality, ontology, new law, new physics, paper promotion,
+    hardware, provider action, submission, publication or external contact is promoted. The
+    fourth swing receives the screened public process plus one explicit first-leak completion
+    for time/geometry/field/capability reconstruction.
 extensions:
   operating_architecture:
     contract_version: "1.0"
