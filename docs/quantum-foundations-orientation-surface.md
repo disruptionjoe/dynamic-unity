@@ -226,6 +226,30 @@ bibliography.
 | Semiclassical gravity | Couples quantum matter descriptions to a classical metric in a controlled approximation | Backreaction, state reduction, fluctuations, and regime of validity remain difficult | Determine whether physically formed public records contribute anything beyond stress-energy and known fluctuations |
 | Full quantum-gravity programs | Offer several non-equivalent routes to quantum spacetime | Their primitives, observables, recovery maps, and low-energy limits differ; there is no single “quantum gravity tension” | Use certified causal reality as a comparison language only if one invariant statement transfers without redefining records or geometry |
 
+### QFT tensions are not one problem
+
+`HC-DU-040B` and the subsequent physical-arena tournament sharpen the QFT
+row into six independent boundaries. Preserve them separately before
+prioritizing a QFT-facing proposal:
+
+| Boundary | Established reach or obstruction | Candidate Dynamic Unity opening | What would only restate known structure |
+|---|---|---|---|
+| Local-factor center | A finite internal sharp PVM preserves a full factor algebra only when it is trivial | Externalize a local probe/pointer/archive or independently justify a smaller effective action algebra | Calling the scalar local center a physical record |
+| Gauge subregions | Gauss constraints obstruct naive tensor factorization; regional centers and edge extensions depend on boundary choices ([Casini--Huerta--Rosabal](https://arxiv.org/abs/1312.1183), [Donnelly--Freidel](https://arxiv.org/abs/1601.04744), [Riello](https://arxiv.org/abs/2010.15894)) | Show that a material boundary and local detector physically form one oriented boundary-sector record, then retain its interior capability fibre | Treating an algebraic center or an unmaterialized edge mode as a selected pointer |
+| Infrared and asymptotic structure | Charged excitations carry delocalized soft-photon structure; asymptotic charges and memory constrain scattering ([Mund--Rehren--Schroer](https://arxiv.org/abs/2109.10342), [Hirai--Sugishita](https://arxiv.org/abs/1805.05651)) | Derive a finite-time, finite-resolution access map from asymptotic structure to an observer certificate and a held-out hard-process target | Calling an asymptotic charge a finite local archive |
+| Algebraic reach versus operational cost | Reeh--Schlieder cyclicity gives broad local state-preparation reach, while modular bounds can impose operator or postselection cost ([Blanco-Romero--Almenares Mendoza](https://arxiv.org/abs/2605.18640)) | Define record and capability relative to matched norm, energy, success probability, and horizon | Treating dense reachability as cheap controllable capability |
+| Modular/state-dependent time | A state and algebra induce modular flow; a covariant preferred state is generally unavailable under standard dynamically local assumptions ([Connes--Rovelli](https://arxiv.org/abs/gr-qc/9406019), [Fewster--Verch](https://arxiv.org/abs/1106.4785)) | Type which physical state, access boundary, and calibration turn modular flow into observer time | Saying the abstract algebra alone selects one physical clock |
+| Generalized symmetries and net completeness | Higher-form symmetries act on extended operators; generalized symmetries can diagnose nonmaximal local nets ([Gaiotto et al.](https://arxiv.org/abs/1412.5148), [Casini--Magán](https://arxiv.org/abs/2110.11358)) | Test whether extended charge/sector structure constrains regional record composition or supplies a held-out capability consequence | Renaming a symmetry charge, anomaly, or extended operator as a certificate |
+
+The current arena-selection result chooses the materialized gauge-boundary
+route for the next finite mechanism swing because it alone supplies a
+law-constrained regional target, a possible external record write, and an
+exact interior first leak at low local cost. The AQFT probe remains its
+relativistic locality host; infrared QED remains parked until it has a finite
+access/horizon contract; the optical-clock source-selective intervention
+remains a bounded side branch. See the
+[tournament](../explorations/physical-arena-selection-tournament-2026-07-26.md).
+
 ### Physical selection, representation, and record reconstruction
 
 The Finster/Barandes collision fixes a reusable three-way distinction:
@@ -565,15 +589,15 @@ interventional sufficiency, not another finite selector fit.
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
-| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go. `HC-DU-033C` now gives the stabilizer fixed-point obstruction: a symmetric law may select a configuration or covariant interface family without selecting one observer-indexed member | `HC-DU-033/033C/036B/036C/036E/036F` |
+| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go. `HC-DU-033C` gives the stabilizer fixed-point obstruction. `HC-DU-040C` now selects the materialized gauge-boundary arena and localizes the open arrow to its detector Hamiltonian, oriented flux-record orbit, perturbation-stable archive, and complete future action class | `HC-DU-033/033C/036B/036C/036E/036F/040C` |
 | Acquisition visibility | Distinguish the provider-returned population from the complete attempted physical process; full factorization additionally requires the selection kernel and every supported selected/rejected response stratum to factor through the record. A scoped five-interface matrix finds no standard documented all-attempt/complete-reset route; silence is not absence | `HC-DU-036D/036E/036F` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
 | Public-finality composition | `HC-DU-035D` exactly characterizes selective future center screening, composition, first-leak localization, and the aggregate-route failure while permitting retained quantum fibres. The open delta is physical selection of the regions, action algebras, archives, and future action class, followed by transfer to effective-physics reconstruction | `HC-DU-035/035C/035D` |
 | Record sufficiency or physical remainder | Translate the five-part integrated contract into process-tensor, quantum-instrument, statistical-experiment, and system-identification language before physical escalation. Use the exact finite `HC-DU-036C` stochastic-decoder deficiency and `HC-DU-036D` uncertainty gate only after complete attempt visibility and reset; distinguish reconstruction, resource-Pareto repair, class-relative positive margin, and incomplete contract | `HC-DU-036/036C/036D/036E/036F` |
 | Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
 | Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records. `HC-DU-039C/D` add that one measured total phase, reduced visibility, or even a nonclassical conditioned channel still needs an independently calibrated full-rank source intervention before it can be attributed to duration or field structure | `HC-DU-038/038D/039C/039D` |
-| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers kernel-containment across clock and distributed controls; `HC-DU-039D` physically instantiates the independent nonclassicality/source-attribution axes in optical-clock channel language; `HC-DU-040B` transports the action-center theorem to von Neumann algebras while exposing the factor and finite-horizon boundaries | `HC-DU-039/039C/039D/040B` |
-| Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder. The current gate requires an externalized local record interface, physical symmetry breaker, declared capability envelope/horizon, nonzero law-only target diameter, and held-out transfer rather than a local-factor-center relabeling | `HC-DU-040/040B` |
+| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers kernel-containment across clock and distributed controls; `HC-DU-039D` physically instantiates the independent nonclassicality/source-attribution axes in optical-clock channel language; `HC-DU-040B` transports the action-center theorem to von Neumann algebras; `HC-DU-040C` supplies a gauge-boundary total-sector reconstruction plus interior-leak control, pending a physical formation mechanism | `HC-DU-039/039C/039D/040B/040C` |
+| Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder. The selected finite route is now a material gauge boundary whose flux detector must be dynamically and representation-robustly formed before AQFT embedding. Infrared QED and the clock intervention remain separately gated | `HC-DU-040/040B/040C` |
 
 ## Pointers, not prescriptions
 

@@ -2051,6 +2051,65 @@ promotion. See
 `explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md`
 and `tests/du_algebraic_qft_record_transport_probe.py`.
 
+#### `HC-DU-040C` — Materialized gauge-boundary record formation
+
+The post-`HC-DU-040B` arena tournament compared a local free-field AQFT
+probe, a materialized gauge boundary, an infrared/asymptotic QED record, and
+a trapped-ion proper-time instrument under one unchanged gate. The selected
+next arena is a finite gauge region with a material boundary detector that
+writes oriented boundary flux into an external pointer and archive.
+
+The minimum exact control already closes the attribution bookkeeping. Let
+
+\[
+q_1,q_2\in\{0,1\},
+\qquad
+F=q_1+q_2,
+\]
+
+where \(F\) is the outward boundary flux fixed by the truncated Gauss-law
+constraint. The lawful class contains all four charge assignments, so the
+law-only diameter of total enclosed charge is two. A supplied blank-memory
+formation isometry
+
+\[
+|q_1,q_2\rangle|0\rangle_P|0\rangle_A
+\longmapsto
+|q_1,q_2\rangle|F\rangle_P|F\rangle_A
+\]
+
+reduces the total-charge target diameter to zero. In the \(F=1\) record fibre,
+however, \((q_1,q_2)=(0,1)\) and \((1,0)\) remain distinct. Every
+boundary-flux-dependent action factors through the record, while the single
+interior readout \(q_1\) separates the two completions. Thus the same formed
+record gives exact scoped reconstruction and an exact capability-enlargement
+first leak.
+
+This control does not select its own physics. Gauge theory permits different
+regional algebra and edge-mode constructions. The material region, outward
+normal, detector Hamiltonian, blank memory, archive, decoder, and future
+action class remain premises. The next swing must therefore freeze one
+finite lattice or quantum-link gauge Hamiltonian plus one neutral material
+boundary detector and either:
+
+1. derive a gauge-invariant local nondemolition coupling that selects an
+   oriented flux-record orbit and remains stable on a declared perturbation
+   ball; or
+2. return two equally physical, representation-robust couplings with
+   incompatible records and no frozen held-out criterion selecting between
+   them.
+
+Only after that finite mechanism survives should it be embedded in a
+Fewster--Verch-style locally covariant probe construction. Infrared QED is
+parked until a finite-time, finite-resolution access and horizon contract
+exists. The proper-time source-selective intervention remains a bounded side
+branch.
+
+This is physical-arena selection plus an exact known-mathematics control, not
+a selected QFT record, new gauge/finality law, ontology, hardware result, or
+paper promotion. See
+`../explorations/physical-arena-selection-tournament-2026-07-26.md`.
+
 ## Core hypotheses
 
 | ID | Hypothesis | Cheap failure mode |
@@ -2184,6 +2243,9 @@ supplied, or fitted; target constancy cannot supply interface provenance.
    HC-DU-040B algebraic-QFT record transport and capability-stable finality
    [VON NEUMANN TRANSPORT / FACTOR-INTERNAL RECORD NO-GO / FINITE-HORIZON
    APPROXIMATE BOUNDARY; PHYSICAL QFT RECORD INTERFACE OPEN]
+   HC-DU-040C materialized gauge-boundary record formation
+   [PHYSICAL ARENA SELECTED / EXACT FINITE TOTAL-CHARGE RECONSTRUCTION AND
+   INTERIOR FIRST LEAK / DETECTOR HAMILTONIAN AND ROBUST FORMATION OPEN]
 ```
 
 This dependency map is scientific, not an administrative pipeline. A negative
