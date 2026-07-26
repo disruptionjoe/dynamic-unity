@@ -607,6 +607,16 @@ complementary-environment evidence. General channels, approximate robustness,
 locality, physical instrument selection, and public objectivity remain
 search-incomplete.
 
+`HC-DU-033D` is also absorbed at component-mathematics level. Finite
+C*-algebra decomposition, centers, Lüders nondisturbance, no information
+without disturbance, information-preserving algebras, and operator-algebra
+quantum error correction already supply the mathematical ingredients. Its
+defensible DU contribution is the exact typed composition with
+`HC-DU-036H`: central sharp formation closes an autonomous record only for
+central complete joint effects, and it closes every admitted action exactly
+at the commutative-algebra boundary. Noncommutative blocks provide a finite
+capability-relative remainder but not a new quantum prediction.
+
 The \(U(1)\)-conserving instrument lift now closes one proposed physical
 selection route. Ozawa's quantitative WAY result, asymmetry-resource and
 no-programming accounts, explicit finite quantum references, interferometric
@@ -693,6 +703,32 @@ constructive family fills the entire unit formation interval at every fixed
 \(0<s<1\). Nontrivial bounds under independently justified physical
 conditions, physical channel derivation, locality, cadence, observer access,
 and public finality remain open.
+
+**Executed action-center successor — `HC-DU-033D`.** Let
+\(\mathcal A\subseteq B(\mathcal H)\) be a frozen finite-dimensional physical
+action algebra. A sharp action-internal PVM has a Lüders channel preserving
+every member of \(\mathcal A\) iff all its projectors are central. The minimal
+central projections are therefore the unique finest such record, up to
+relabeling. An explicit blank pointer/archive isometry writes that sector
+label and intertwines the action algebra, but only permits the formation
+coupling; it does not select the action algebra, boundary, archive, or
+decoder.
+
+For an admitted selective action family, define each complete
+event-and-next-central-record effect by
+\(E^a_{s,y,j'}=\mathcal J^*_{a,s,y}(z_{j'})\). The central record is an
+autonomous `HC-DU-036H` state exactly when every such effect is central. It
+determines every admitted \(\mathcal A\)-effect for every state iff
+\(\mathcal A\) is commutative. Otherwise, two states in one central block are
+separated by a noncentral within-sector effect; a factor has only the trivial
+action-internal nondisturbing sharp record. Exact rational controls pass
+`24/24`, including an explicit pointer/archive isometry, factor/commutant
+boundary, unit-margin same-record witness, commutative positive control, and
+common-conjugation invariance. Finite C*-algebra, Lüders nondisturbance,
+fixed-algebra, and operator-algebra QEC mathematics absorb the components.
+The DU gain is the typed formation-to-autonomy-to-capability boundary, not a
+new mathematical theorem or quantum law. See
+`../explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md`.
 
 **Executed effective proper-time interface control — `HC-DU-033/034B/036B`.**
 For a frozen two-history controlled clock operation with distinct branch
@@ -1814,7 +1850,10 @@ supplied, or fitted; target constancy cannot supply interface provenance.
         |
 1b. HC-DU-033B finite abelian central-record interface [COMPLETED SCOPED]
         |
-1c. HC-DU-033/034B effective two-history algebra selection and
+1c. HC-DU-033D action-center formation/autonomy/capability boundary
+    [COMPLETED EXACT; KNOWN OPERATOR-ALGEBRA MATHEMATICS]
+        |
+1d. HC-DU-033/034B effective two-history algebra selection and
     certificate-interface nonselection [COMPLETED SCOPED CONTROL]
     HC-DU-033 robust binary-QND instrument-orbit selection [COMPLETED SCOPED]
     HC-DU-033 U(1) conservation/asymmetry selector gate [COMPLETED NO-GO]
@@ -2353,6 +2392,11 @@ NO ONTOLOGY SELECTED
 EXACT FINITE RECORD/ARCHIVE RESULTS RETAINED
 HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT EXACT
 HC-DU-033B FINITE ABELIAN CENTRAL-RECORD INTERFACE EXACT AS A KNOWN SPECIALIZATION
+HC-DU-033D ACTION-CENTER FORMATION-TO-CAPABILITY BOUNDARY EXACT AS KNOWN MATHEMATICS
+CENTRAL RECORD AUTONOMY IFF COMPLETE EVENT/NEXT-RECORD EFFECTS ARE CENTRAL
+ALL-ACTION SUFFICIENCY IFF THE ACTION ALGEBRA IS COMMUTATIVE
+NONCOMMUTATIVE BLOCKS RETAIN A FINITE CAPABILITY-RELATIVE REMAINDER
+FACTORS HAVE NO NONTRIVIAL ACTION-INTERNAL NONDISTURBING SHARP RECORD
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

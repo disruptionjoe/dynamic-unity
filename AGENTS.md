@@ -214,16 +214,26 @@ routing authority.
   physical picture, preserve assumptions and grades, and expose seams.
 - **Lane 3:** physical record formation and selection—derive or delimit
   record instruments, interfaces, archives, and robustness. The completed
-  conservation/asymmetry gate selects only an instrument orbit; its present
-  lead move is the `HC-DU-036F` formal-first collision of the integrated
-  record/completion/acquisition/reset contract against established
-  process-tensor and quantum-instrument language. The existing provider bridge
-  is a conditional calibration rung; complete-process physical adjudication
-  remains co-designed-partner gated.
+  `HC-DU-036H` spine is controlled lumpability/bisimulation, not new physics.
+  `HC-DU-033D` now proves the exact action-center boundary: minimal central
+  projections are the finest action-internal nondisturbing sharp record;
+  central joint effects give an autonomous record; noncommutative
+  within-sector actions expose a same-record remainder. The physical action
+  algebra, boundary, formation coupling, archive, and decoder remain
+  unselected. Carry that typed center-plus-fibre object into Lane 5 rather
+  than building another fitted QND/channel variant. The existing provider
+  bridge is a conditional calibration rung; complete-process physical
+  adjudication remains co-designed-partner gated.
 - **Lane 4:** observer access, certification, and capability—freeze physical
   observers, boundaries, interventions, tasks, risks, and matched resources.
+  Treat record sufficiency as relative to the admitted action algebra:
+  center-limited capability and full within-sector coherent capability are
+  different contracts.
 - **Lane 5:** regional finality and recursive composition—establish when
   local certified networks compose into safe higher-level facts and actions.
+  Its present lead object is a formed central regional record with an explicit
+  noncommutative fibre; test whether merger/hardening closes on the centers or
+  whether the fibres feed back into later public outcomes.
 - **Lane 6:** time, geometry, fields, and physical reconstruction—recover
   effective physical structure with uniqueness, gauge, and refinement
   controls.

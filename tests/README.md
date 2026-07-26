@@ -1493,3 +1493,41 @@ The deterministic receipt is
 `KNOWN_MATHEMATICS__INTEGRATED_ASSURANCE_ONLY`. It establishes no physical
 record selection, complete quantum process, physical remainder, ontology, new
 law, new physics, paper promotion, hardware need, or external action.
+
+## HC-DU-033D action-center formation and capability boundary
+
+`du_action_center_capability_boundary_probe.py` preserves exact rational
+controls for the direct finite-dimensional operator-algebra proof:
+
+- the minimal central projections of \(M_2\oplus M_2\) form the finest
+  action-internal sharp PVM whose Lüders channel preserves the complete
+  action algebra;
+- a rank-one projector inside one block is internal but noncentral and
+  exactly disturbs a within-block \(X\) action;
+- an explicit blank pointer/archive isometry writes the central sector and
+  intertwines every block action;
+- block-scalar complete event/next-record effects descend to an autonomous
+  central row, while one noncentral effect separates two same-record states
+  with probability margin one;
+- a factor has no nontrivial tested internal central record, while a
+  nontrivial commutant pointer is nondisturbing but noninternal;
+- a commutative diagonal action algebra is completely represented by its
+  minimal central record even though density operators outside that action
+  contract may differ; and
+- a common exact permutation conjugation preserves every verdict and the
+  hostile margin.
+
+Run:
+
+```bash
+python3 tests/du_action_center_capability_boundary_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_action_center_capability_boundary_result.json` and reports
+`24/24` with
+`KNOWN_MATHEMATICS__ACTION_CENTER_FORMATION_TO_CAPABILITY_BOUNDARY_EXACT`.
+The executable is regression only after the direct proof. It does not select
+the physical action algebra, source/pointer/archive boundary, formation
+coupling, decoder, observer, microscopic dilation, ontology, new law, new
+physics, paper state, hardware path, or external action.

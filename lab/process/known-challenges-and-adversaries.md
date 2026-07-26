@@ -168,6 +168,22 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     is the exact finite standing control; its mathematics is controlled strong
     lumpability/probabilistic bisimulation, not a new DU law.
 
+20. **Central-record/full-capability substitution.** *Objection:* a physical
+    channel selects and forms a readable central sector, so that sector label
+    is reported as the complete physical state for the observer. *Way
+    through:* freeze the observer's physical action algebra before the
+    verdict. Relative to that algebra, the minimal central projections are the
+    finest internal sharp record preserving every action, but the record
+    satisfies the `HC-DU-036H` autonomous-row condition only when every
+    complete event/next-record effect is central. It determines all admitted
+    actions iff the algebra is commutative. A noncommutative block gives a
+    same-central-record/different-action witness; a factor has no nontrivial
+    internal nondisturbing sharp record. Do not remove the witness by
+    restricting the action class after seeing it, and do not count a
+    commutant/external pointer as an internal source record. `HC-DU-033D` is
+    the exact finite standing control; its component mathematics is known
+    operator-algebra terrain.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

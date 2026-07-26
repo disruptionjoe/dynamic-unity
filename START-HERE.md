@@ -194,6 +194,20 @@ What *has* been earned is a strong finite control stack:
   integrated assurance contract, not a new theorem or physical record
   ([result](explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md);
   [probe](tests/du_certified_causal_spine_probe.py)).
+- one exact finite-dimensional `HC-DU-033D` action-center boundary. Relative
+  to a frozen physical action algebra, its minimal central projections are
+  the finest action-internal sharp record whose Lüders channel preserves
+  every admitted action. An explicit pointer/archive isometry can form that
+  sector label, but the label is an autonomous `HC-DU-036H` state only when
+  every complete event-and-next-record effect is central. It reconstructs all
+  admitted action statistics exactly iff the action algebra is commutative;
+  otherwise two same-central-record states are separated by one
+  within-sector action. A factor has no nontrivial internal nondisturbing
+  sharp record. This is known operator-algebra mathematics plus a new DU
+  formation-to-capability bridge, not physical selection of the action
+  algebra or a new quantum law
+  ([result](explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md);
+  [probe](tests/du_action_center_capability_boundary_probe.py)).
 - one formal-first `HC-DU-033C/038D` separation result. Any natural
   interface selected at a lawful completion must be fixed by that
   completion's symmetry stabilizer. Minkowski's Lorentz stabilizer has no
@@ -345,15 +359,25 @@ The disposition is therefore
 `KNOWN_MATHEMATICS__INTEGRATED_ASSURANCE_ONLY`. Do not spend another swing on
 synthetic quotient variants, a new provider adapter, or theorem novelty.
 
-The live flagship bottleneck is now physical formation and interface
-selection: establish which complete selective record, archive, provenance
-field, reset boundary, and admissible refinement is independently produced or
-selected by the physical process, and which remains supplied, fitted, or
-representation-dependent. Reuse the `HC-DU-036H` spine as the acceptance
-test. Run the frozen cloud pilot only after direct authorization and only if
-it changes an instrument, margin, reset, or shot-budget decision; physical
-adjudication still requires a co-designed implementation-complete packet.
-The current dry runs are synthetic and earn no physical verdict.
+`HC-DU-033D` now consumes that spine for one exact operator-algebra class. A
+formed central record is complete only for a commutative admitted action
+algebra or a center-restricted action family. Noncommutative within-sector
+effects give a finite same-record/different-capability witness; a factor has
+no nontrivial action-internal nondisturbing sharp record. The physical
+selection burden remains: the action algebra, system/pointer/archive
+boundary, formation coupling, decoder, provenance, reset, and access class
+are still selected, orbit-selected, supplied, or fitted separately.
+
+The next campaign move is to carry the typed central record plus its
+noncommutative fibre into layered regional composition. Let regional
+hardening act on the central labels, retain the within-sector state as an
+explicit possible remainder, and use hostile coherent actions to test whether
+it can feed back into later central outcomes. Reuse `HC-DU-036H` unchanged as
+the autonomy acceptance test. In parallel, a genuinely physical interface
+result must independently derive or justify the action algebra and formation
+boundary. Run the frozen cloud pilot only after direct authorization and only
+if it changes an instrument, margin, reset, or shot-budget decision; the
+current dry runs earn no physical verdict.
 
 For planning, assume **no external hardware is available**. That changes only
 after the local theorem/absorption, exact-counterexample, existing-data, and
@@ -469,9 +493,9 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Preserve complete selective-map identity whenever continuation matters; value archives alone are insufficient. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Capability and finality are target-indexed; correct value access does not imply repeat-response access. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, loop obstructions, and the proposition each certificate finalizes. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | `HC-DU-033D` makes the center the finest internal nondisturbing sharp record relative to a supplied action algebra; deriving that algebra and formation boundary remains open. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Record completeness is action-class-relative: central actions factor through the central record, while coherent within-sector actions can expose a remainder. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Next compose central regional records while retaining typed noncommutative fibres and testing feedback into later central outcomes. |
 | **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038D` shows that the \(3+1\) compact conformal vacuum target closes by law alone while the symmetric law still cannot select an observer direction. Next use a physical Einstein--matter or comparable arena with nonzero law-only target diameter, an independently realized symmetry breaker, and a formed record instrument. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |

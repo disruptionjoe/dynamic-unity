@@ -878,6 +878,23 @@ resolution-stable intervention role. No claim is banked or seeded. See
   Component mathematics is known; no physical ontology or new law is earned.
   See
   `law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md`.
+- **Earned action-center formation-to-capability boundary.** `HC-DU-033D`
+  now connects the finite central-interface result to the autonomous-record
+  spine. Relative to a frozen finite physical action algebra
+  \(\mathcal A\), its minimal central projections are the unique finest
+  action-internal sharp record whose Lüders channel preserves every admitted
+  action. An explicit pointer/archive isometry forms that central label and
+  intertwines \(\mathcal A\), but does not select the algebra, boundary, or
+  coupling. The label is an autonomous `HC-DU-036H` state exactly when every
+  complete event-and-next-record effect is central. It determines all
+  admitted action statistics iff \(\mathcal A\) is commutative; otherwise a
+  noncentral within-sector effect gives a finite same-record/different-action
+  witness, and a factor has no nontrivial action-internal nondisturbing sharp
+  record. The operator-algebra components are known. The durable conceptual
+  gain is that record completeness is capability-class-relative, with the
+  center as the maximal nondisturbing classical layer and noncommutative
+  blocks as an explicit possible physical remainder. See
+  `action-center-record-formation-and-capability-boundary-2026-07-26.md`.
 - **Earned Dirac-sea/Krein attribution application.** The paired GU W245
   certificate shows that Finster's self-adjoint sea-rate is well typed on
   W216's Hermitian branch and not through the complex-spectrum core of its
@@ -972,6 +989,12 @@ resolution-stable intervention role. No claim is banked or seeded. See
   HC-DU-036H SELECTIVE AUTONOMOUS-RECORD QUOTIENT EXACT AND ABSORBED BY
   CONTROLLED LUMPABILITY/BISIMULATION / UNCHANGED QUANTUM-DISTRIBUTED
   TWO-ANCHOR ASSURANCE SPINE INSTALLED /
+  HC-DU-033D ACTION-CENTER FORMATION-TO-CAPABILITY BOUNDARY EXACT AS KNOWN
+  OPERATOR-ALGEBRA MATHEMATICS / CENTRAL RECORD AUTONOMY IFF COMPLETE JOINT
+  EFFECTS ARE CENTRAL / ALL-ACTION SUFFICIENCY IFF THE ACTION ALGEBRA IS
+  COMMUTATIVE / NONCOMMUTATIVE BLOCKS RETAIN A FINITE CAPABILITY-RELATIVE
+  REMAINDER / FACTORS HAVE NO NONTRIVIAL ACTION-INTERNAL NONDISTURBING SHARP
+  RECORD /
   HC-DU-033C STABILIZER INTERFACE-SELECTION OBSTRUCTION EXACT /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION

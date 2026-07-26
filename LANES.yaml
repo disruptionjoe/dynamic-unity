@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 56
+manifest_revision: 57
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -69,6 +69,17 @@ certified_causal_spine_rule: >-
   target-coded or representation-sensitive repairs. The mathematics is controlled strong
   lumpability/probabilistic bisimulation; the open scientific problem is physical formation
   and selection of the record/interface/refinement.
+action_center_capability_ref: >-
+  explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
+action_center_capability_rule: >-
+  Relative to an independently frozen finite physical action algebra, its minimal central
+  projections are the finest action-internal sharp record whose Lueders channel preserves every
+  admitted action. Explicit pointer/archive formation is permitted but not selected by that
+  fact. The central record is an autonomous HC-DU-036H state exactly when every complete joint
+  event-and-next-record effect is central, and it reconstructs all admitted action statistics
+  exactly iff the action algebra is commutative. Preserve noncommutative within-sector state as
+  a typed possible remainder; do not change the action class after seeing the sufficiency
+  verdict.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -216,7 +227,11 @@ lanes:
     stratum-response-next-record row to descend, while predictive sufficiency for one frozen
     tester family is weaker. The theorem is absorbed by controlled lumpability/bisimulation and
     Blackwell sufficiency, so stop further synthetic quotient variants and novelty pursuit.
-    Advance the physical formation/interface-selection dependency: determine which complete
+    Consume HC-DU-033D's exact action-center boundary: a formed central record is complete for
+    all admitted actions exactly at the commutative-algebra boundary; otherwise a noncentral
+    within-sector effect supplies a finite same-record/different-capability witness. A factor
+    has no nontrivial action-internal nondisturbing sharp record. Advance the physical
+    formation/interface-selection dependency: determine which complete
     selective record, archive, provenance field, reset boundary and admissible refinement is
     independently formed or selected rather than supplied, fitted or representation-dependent.
     Preserve the independently selected record quotient, intervention/resource boundary and
@@ -242,6 +257,7 @@ lanes:
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
+  - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
@@ -304,8 +320,13 @@ lanes:
     vertical-slice boundary: a finalized value/provenance chain does not determine the selective
     continuation. HC-DU-036H has now typed and absorbed the finite recursive quotient: retain
     the complete joint stratum-response-next-record row whenever the record must update
-    autonomously, and keep that distinct from fixed-tester predictive sufficiency. Use that
-    assurance spine to attack physical formation and interface selection directly. Require an
+    autonomously, and keep that distinct from fixed-tester predictive sufficiency. HC-DU-033D
+    now proves that the minimal central projections are the finest action-internal
+    nondisturbing sharp record relative to a frozen finite action algebra, that central
+    joint effects are exactly the autonomous sector-level cases, and that a noncommutative
+    block preserves a capability-relative remainder. This does not select the action algebra
+    or formation coupling. Use that assurance spine to attack physical formation and interface
+    selection directly. Require an
     independently motivated source, reference/asymmetry resource, interaction, pointer, archive,
     provenance, decoder/access rule, reset boundary and representation-robust admissible
     refinement class; report each as selected, orbit-selected, supplied or fitted. Keep the
@@ -332,6 +353,8 @@ lanes:
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
+  - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
+  - tests/du_action_center_capability_boundary_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
@@ -360,7 +383,10 @@ lanes:
   current_objective: >-
     Preserve the exact oriented-reference capability slice as an ordinary-resource absorber and
     HC-DU-036G's target-indexed finality boundary: correct archive-value access and action can
-    coexist with maximal uncertainty about a held-out repeat. Freeze the
+    coexist with maximal uncertainty about a held-out repeat. Consume HC-DU-033D: sufficiency
+    is relative to the independently frozen action algebra. A center-limited observer can have
+    complete sector-level capability while a coherent within-sector observer exposes a finite
+    same-record remainder. Freeze the
     observer/access/task/loss/readout/decoder/risk/resource comparison contract, and wait for a
     formed distinction with a candidate finality-specific residual before promoting a stronger
     capability law.
@@ -375,6 +401,7 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - lab/process/cross-repo-hardening-control-contract.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+  - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
     capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
@@ -401,9 +428,12 @@ lanes:
     fibre is incompatibility rather than reconstruction or remainder; a provenance/context lift
     that restores a process is occurrence-identity or completion retyping, not ordinary
     same-class record refinement. Preserve HC-DU-036G's warning that finality is
-    proposition-specific: finalizing a value does not finalize an omitted continuation. Next
-    test formed-instrument descent, robust calibration and sparse recursive composition without
-    scalarizing the identity, compatibility, record-fit and target-spread defects.
+    proposition-specific: finalizing a value does not finalize an omitted continuation.
+    HC-DU-033D now supplies the next typed specimen: each region has a formed central record and
+    an explicit noncommutative fibre. Test whether regional merger and hardening close on the
+    centers under the unchanged HC-DU-036H joint-row criterion, or whether one coherent
+    within-sector action feeds back into a later central outcome. Preserve the fibre rather than
+    scalarizing identity, compatibility, record-fit or target-spread defects.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -419,6 +449,7 @@ lanes:
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - tests/du_certified_reconstruction_fiber_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+  - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -1277,6 +1308,11 @@ certified_causal_reality_restructure:
     PROGRAM RECHARTERED / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED / EXACT FINITE
     RECORD-AND-ARCHIVE RESULTS RETAINED / HC-DU-033A FINITE CLASSICAL RECORD/ACCESS QUOTIENT
     EXACT / HC-DU-033B FINITE ABELIAN CENTRAL-RECORD INTERFACE EXACT AS A KNOWN SPECIALIZATION /
+    HC-DU-033D ACTION-CENTER FORMATION-TO-CAPABILITY BOUNDARY EXACT AS KNOWN OPERATOR-ALGEBRA
+    MATHEMATICS / CENTRAL RECORD AUTONOMY IFF COMPLETE JOINT EFFECTS ARE CENTRAL /
+    ALL-ACTION SUFFICIENCY IFF THE ACTION ALGEBRA IS COMMUTATIVE / NONCOMMUTATIVE BLOCKS RETAIN A
+    FINITE CAPABILITY-RELATIVE REMAINDER / FACTORS HAVE NO NONTRIVIAL ACTION-INTERNAL
+    NONDISTURBING SHARP RECORD /
     FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT / BRANCH-BASIS
     DEPHASING ERASES THE SECTOR CODE BEFORE DECODING / QUANTUM MULTIPLICITY PRESERVED INSIDE
     COHERENTLY READABLE CENTRAL SECTORS / MATCHED FINITE-TIME STABILITY DOES NOT DETERMINE
@@ -4069,6 +4105,21 @@ provenance:
     bottleneck is physical formation and interface selection. No physical record, remainder,
     ontology, new law, new physics, paper promotion, hardware, provider action, submission,
     publication or external contact is promoted.
+  rev57_note: >-
+    2026-07-26 (Joe direct chat: proceed with the second large swing of the five-swing Dynamic
+    Unity campaign): executed HC-DU-033D. Relative to a frozen finite physical action algebra,
+    the minimal central projections are the unique finest action-internal sharp record whose
+    Lueders channel preserves every admitted action. An explicit pointer/archive isometry forms
+    that label and intertwines the action algebra, but the action algebra, boundary and coupling
+    remain supplied. The central record satisfies the HC-DU-036H autonomous-row condition
+    exactly when every complete event-and-next-record effect is central. It reconstructs every
+    admitted action statistic exactly iff the action algebra is commutative; a noncommutative
+    block supplies a same-record/different-action witness, and a factor has no nontrivial
+    internal nondisturbing sharp record. Exact rational controls pass 24/24. Component
+    mathematics is known; no physical action-algebra selection, universal record completeness,
+    ontology, new law, new physics, paper promotion, hardware, provider action, submission,
+    publication or external contact is promoted. The next campaign object is regional
+    composition of formed central records with explicitly retained noncommutative fibres.
 extensions:
   operating_architecture:
     contract_version: "1.0"

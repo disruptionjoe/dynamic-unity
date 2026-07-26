@@ -1,0 +1,152 @@
+{
+  "checks": [
+    {
+      "detail": "P0 and P1 are orthogonal and sum to identity.",
+      "name": "central projectors form a PVM",
+      "passed": true
+    },
+    {
+      "detail": "Both sector projectors commute with every matrix unit of M2 direct-sum M2.",
+      "name": "central PVM lies in the action center",
+      "passed": true
+    },
+    {
+      "detail": "Every action-algebra basis element is block diagonal.",
+      "name": "central L\u00fcders map preserves the full action algebra",
+      "passed": true
+    },
+    {
+      "detail": "Every central projection is a sum of the two minimal central projectors.",
+      "name": "minimal central projectors refine every central projection",
+      "passed": true
+    },
+    {
+      "detail": "P00 is action-internal but does not commute with within-block X.",
+      "name": "noncentral internal projector fails the commutant test",
+      "passed": true
+    },
+    {
+      "detail": "The rank-one within-block readout deletes the off-diagonal action.",
+      "name": "noncentral L\u00fcders record disturbs an admitted action",
+      "passed": true
+    },
+    {
+      "detail": "The chosen within-block X is completely removed.",
+      "name": "disturbance witness is exact",
+      "passed": true
+    },
+    {
+      "detail": "The source is embedded while blank pointer and archive acquire the sector label.",
+      "name": "formation map is an isometry",
+      "passed": true
+    },
+    {
+      "detail": "Central sector copying leaves every admitted block action nondemolished.",
+      "name": "formation map intertwines the complete action algebra",
+      "passed": true
+    },
+    {
+      "detail": "Each basis state is correlated only with its matching double record.",
+      "name": "formation writes matching pointer and archive values",
+      "passed": true
+    },
+    {
+      "detail": "Each complete event/next-record effect is block scalar.",
+      "name": "central joint effects descend to the record center",
+      "passed": true
+    },
+    {
+      "detail": "The HC-DU-036H row depends only on the central sector.",
+      "name": "same-sector states have identical central rows",
+      "passed": true
+    },
+    {
+      "detail": "One event effect varies inside the first central block.",
+      "name": "noncentral joint effect fails descent",
+      "passed": true
+    },
+    {
+      "detail": "Two states with central record q=0 are separated with unit probability margin.",
+      "name": "one admitted action exposes a same-record remainder",
+      "passed": true
+    },
+    {
+      "detail": "The hostile pair has exactly the same formed central record.",
+      "name": "central record itself cannot see the hostile pair",
+      "passed": true
+    },
+    {
+      "detail": "A nontrivial source PVM lies in the factor but not its scalar center.",
+      "name": "factor internal projector is noncentral",
+      "passed": true
+    },
+    {
+      "detail": "The nontrivial internal readout removes source coherence.",
+      "name": "factor internal record disturbs the source action",
+      "passed": true
+    },
+    {
+      "detail": "A separate multiplicity/pointer degree can commute with the factor without belonging to it.",
+      "name": "commutant pointer is nondisturbing but noninternal",
+      "passed": true
+    },
+    {
+      "detail": "The explicit factor control has only the scalar internal center.",
+      "name": "factor identity is the only tested internal central projector",
+      "passed": true
+    },
+    {
+      "detail": "States with the same complete diagonal record agree on every declared diagonal action.",
+      "name": "commutative minimal central record captures all admitted actions",
+      "passed": true
+    },
+    {
+      "detail": "Operational sufficiency for the declared action algebra does not identify full density operators.",
+      "name": "commutative control keeps ontology quotient typed",
+      "passed": true
+    },
+    {
+      "detail": "Common conjugation preserves the action-center theorem.",
+      "name": "central nondisturbance is representation robust",
+      "passed": true
+    },
+    {
+      "detail": "Common conjugation preserves central versus noncentral joint effects.",
+      "name": "autonomy verdict is representation robust",
+      "passed": true
+    },
+    {
+      "detail": "The separating probability margin remains one.",
+      "name": "same-record remainder margin is representation robust",
+      "passed": true
+    }
+  ],
+  "claim_ceiling": [
+    "finite-dimensional action-algebra theorem",
+    "known operator-algebra mathematics",
+    "conditional on a supplied physical action algebra and supplied formation coupling",
+    "no selection of the physical action algebra, observer boundary, pointer, archive, decoder, or microscopic dilation",
+    "no universal record completeness, record-first ontology, new quantum law, new physics, hardware result, paper promotion, or publication"
+  ],
+  "hypothesis_id": "HC-DU-033D",
+  "local_model_learning_gate": {
+    "disposition": "REGRESSION_ONLY_AFTER_DIRECT_PROOF",
+    "generated_learning_claim": false,
+    "hardware_required": false,
+    "purpose": "preserve exact minimal witnesses and representation invariance after the symbolic proof"
+  },
+  "next_dependency": "derive or independently justify the physical action algebra and boundary, then carry the typed central/noncommutative remainder into layered regional composition",
+  "run_id": "RUN-20260726-152732-action-center-capability-boundary",
+  "status": "completed_scoped_result",
+  "summary": {
+    "autonomy": "the complete event/next-record row descends exactly when its Heisenberg effects are block scalar, equivalently central",
+    "central_record": "minimal central projections are the finest action-internal sharp PVM preserving the complete finite action algebra under the Lueders channel",
+    "commutative_boundary": "the central record is sufficient for every admitted action exactly at the commutative action-algebra boundary",
+    "factor_boundary": "a factor has no nontrivial action-internal nondisturbing sharp record; a commuting external pointer is a different interface object",
+    "formation": "an explicit blank pointer/archive isometry writes the central label and intertwines the action algebra; the coupling remains supplied",
+    "passed": 24,
+    "remainder": "a noncommutative block contains same-central-record states separated by one admitted action with probability margin one",
+    "total": 24
+  },
+  "verdict": "KNOWN_MATHEMATICS__ACTION_CENTER_FORMATION_TO_CAPABILITY_BOUNDARY_EXACT"
+}

@@ -3,6 +3,7 @@ title: "Counter-Assumptive Findings Register"
 status: active_orientation
 doc_type: agent_reasoning_control
 created: 2026-07-26
+last_updated: 2026-07-26
 owner: dynamic-unity
 claim_status_change: none
 ---
@@ -42,6 +43,10 @@ This register is an orientation index, not a cross-repository claim ledger.
 | Time as Finality | `ce0174d1378ea2f527c3884ce6e8170c138f320d` |
 | Temporal Issuance | `43a908baada6692cce625a2c257458e9b077f170` |
 | Possibility to Capability | `513764d3f0e9ad61d84cb847e71138c44446540c` |
+
+The table freezes the cross-repository intake audit only. Successor
+Dynamic Unity rows may point to later in-repository results; their cited
+source artifact and its commit history are authoritative for those rows.
 
 ## The recurring trap types
 
@@ -98,6 +103,9 @@ This register is an orientation index, not a cross-repository claim ledger.
 | `NI-DU-36` | A spectral projector is already a record or measurement outcome. | It is not an instrument, pointer, archive, observer access channel, or finality event. Those require additional dynamics. | `TYPE` | attribution audit; same source |
 | `NI-DU-37` | Any self-adjointization of a supplied generator is an innocent representation step before applying the causal action. | Different admissible self-adjointizations can preserve the generator and symmetries yet change the action's selected point. The construction must be independently fixed. | `FORK` | exact finite ambiguity/no-go application; `explorations/cfs-self-adjointization-selection-ambiguity-2026-07-26.md` |
 | `NI-DU-38` | This self-adjointization ambiguity is ordinary gauge dependence. | Common unitary basis change is gauge for the action; changing the map from a non-self-adjoint generator to the CFS operator space changes the physical contract. | `OP` | exact finite distinction; same source |
+| `NI-DU-39` | Once a central sector has formed a readable record, that record is a complete autonomous state. | Formation and autonomy are separate. The complete acquisition-stratum/response/next-record effects must all be central; a noncentral effect exposes hidden within-sector dependence. | `IMPL` | exact finite-dimensional action-center theorem; `explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md` |
+| `NI-DU-40` | The center of the action algebra captures every physical distinction admitted by that algebra. | It does so for every state iff the action algebra is commutative. A noncommutative block contains same-central-record states separated by one admitted action. | `SCOPE` | exact commutative-completeness boundary; same source |
+| `NI-DU-41` | A factor can carry a nontrivial sharp record that is both internal and nondisturbing for the full factor action algebra. | Its center is scalar. A nontrivial sharp record must disturb the factor, live in a commutant/external pointer degree, or follow an independently justified restriction/enlargement of the action boundary. | `TYPE` | exact factor/commutant control; same source |
 
 ## GU Formalization
 
