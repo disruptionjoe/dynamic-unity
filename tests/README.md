@@ -82,6 +82,35 @@ only. The reconstructed scalar is not proper time, simultaneity, dimension,
 curvature, Lorentzian distance, a metric, physical geometry, record
 fundamentality, or new physics.
 
+## Conformal record-geometry reconstruction tournament
+
+`du_conformal_record_geometry_tournament_probe.py` executes `HC-DU-038B`
+with exact rational polynomial integration and linear algebra. In the supplied
+smooth \(1+1\) conformal arena it checks:
+
+- positivity and common causal cones for the declared metric family;
+- blindness of causal order, total volume, one anchored clock and one radar
+  return;
+- an exact one-dimensional fibre after one regional volume;
+- full-rank reconstruction from two overlapping regional volumes;
+- exact parameter inversion and a held-out remote-clock prediction;
+- nonzero scalar curvature separating a curved fixture from flat space;
+- an explicit smooth hidden mode that preserves every training record while
+  changing the remote clock and curvature;
+- row-span versus nullspace predictability under completion-class expansion;
+  and
+- the distinction between benign regional reaggregation and separately
+  retained child-volume access that increases measurement rank.
+
+The deterministic artifact is
+`artifacts/du_conformal_record_geometry_tournament_result.json` and reports
+`19/19` checks. Passing establishes exact reconstruction only in the declared
+two-mode family and one smooth completion countermodel. The dimension,
+coordinate strip, anchors, conformal ansatz and calibration are supplied. It
+does not establish a selected spacetime, Einstein solution, physical
+record-formation law, quantum-gravity result, new law, ontology or paper
+verdict.
+
 ## Compute setup
 
 The current numerical probes require NumPy and otherwise use the Python

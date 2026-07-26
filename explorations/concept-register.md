@@ -529,6 +529,39 @@ reference/access structure. It must compare nonisometric training-equivalent
 models on held-out geometric observables. See
 `meta-record-geometry-identification-ladder-2026-07-25.md`.
 
+### 2026-07-25 conformal reconstruction and finite-record ceiling
+
+`HC-DU-038B` executes that reopener in a supplied smooth \(1+1\) conformal
+arena.
+
+Causal order, total volume, one anchored clock and one radar return leave a
+two-parameter smooth curved family open. One regional volume leaves a
+one-dimensional fibre. Two overlapping regional volumes have full exact rank,
+reconstruct both conformal parameters, and correctly predict a held-out
+remote clock. This is the first grade-3 geometry reconstruction in the
+concept, but only inside the predeclared two-mode family.
+
+An explicit additional smooth mode preserves every training record while
+changing the remote clock and scalar curvature. More generally, finitely many
+linear volume and stationary-clock-squared records cannot identify an
+unrestricted smooth conformal factor whenever a held-out functional lies
+outside their span.
+
+The regional lesson is also exact: splitting a volume record is benign only
+when the child records are reaggregated. Retaining both child volumes raises
+measurement rank and is new access, not gauge.
+
+**Updated status:** **FINITE-DIMENSIONAL CONFORMAL RECONSTRUCTION EXACT /
+HELD-OUT CLOCK PREDICTION EXACT IN CLASS /
+UNRESTRICTED SMOOTH RECONSTRUCTION REFUTED FOR FINITE RECORD SURFACE /
+PHYSICAL COMPLETION SELECTOR OPEN.** The concept must now be
+resolution- and completion-indexed. Do not add more arbitrary modes or
+volumes. Reopen with one independently justified field equation/source class,
+energy or regularity condition, complete active source-to-solution or
+calibrated clock-and-light instrument, finite task-resolution quotient, or
+dynamics selecting the admissible geometric modes. See
+`conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md`.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize

@@ -139,7 +139,15 @@ What *has* been earned is a strong finite control stack:
   requires calibrated volume/density plus path-indexed local-clock/reference
   evidence against nonisometric held-out controls
   ([result](explorations/meta-record-geometry-identification-ladder-2026-07-25.md);
-  [probe](tests/du_meta_record_geometry_identification_probe.py)).
+  [probe](tests/du_meta_record_geometry_identification_probe.py)); and
+- one exact `HC-DU-038B` conformal tournament in which two overlapping
+  regional volumes reconstruct a declared two-mode smooth geometry and
+  predict a held-out remote clock, while an explicit additional smooth mode
+  preserves every training record and changes that clock and curvature. This
+  establishes conditional finite-dimensional reconstruction and the
+  finite-record ceiling, not a selected spacetime
+  ([result](explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md);
+  [probe](tests/du_conformal_record_geometry_tournament_probe.py)).
 
 ### The live bottleneck
 
@@ -226,11 +234,15 @@ Regional finality, capability pricing, and time/geometry reconstruction remain
 important, but physical claims should consume an implementation-complete
 instrument and preserve its full provenance and resource passport.
 
-Lane 6 now has a sharper independent bottleneck. Do not attempt to read a
-metric from the raw record DAG or from one reconstructed scalar clock. Freeze
-separate order/provenance, calibrated sampling/volume, path-indexed clock, and
-reference/access data; then test nonisometric candidates on held-out interval,
-clock-transport, and geometric comparisons.
+Lane 6 now has a sharper independent bottleneck. More arbitrary volume cells
+or fitted conformal modes are no longer useful. Freeze a physical restriction
+on the record-nullspace—a field equation/source class, energy or regularity
+condition, complete active source-to-solution or calibrated clock-and-light
+instrument, finite task-resolution quotient, or mode-selecting
+dynamics—before revealing the held-out remote clock. Exact continuum
+reconstruction must be resolution- and completion-indexed; a finite regular
+measurement surface can legitimately reconstruct an observer-accessible
+quotient rather than an unrestricted microgeometry.
 
 ## Dependency lanes
 
@@ -245,7 +257,7 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Screen complete physical evidence before any sufficiency verdict; figure-source summaries are insufficient. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Access and capability are not the same as possession of a latent record. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, and loop obstructions. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038A` separates order from one scalar record clock; next add calibrated volume and path-indexed clocks to nonisometric held-out controls. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038B` reconstructs a declared conformal class but exposes a smooth hidden mode; next physically restrict the record-nullspace. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 

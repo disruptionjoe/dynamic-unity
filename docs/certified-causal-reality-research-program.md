@@ -114,6 +114,15 @@ This inverse is the North-Star route to record-first reconstruction,
 operational duality, or a physics-first remainder. It prevents the coherent
 picture from becoming a vocabulary-only unification.
 
+Reconstruction is always indexed by a declared target resolution and
+physically admissible completion class. Even complete causal order plus a
+fixed finite set of regular local volume/clock functionals cannot be presumed
+to identify an unrestricted infinite-dimensional continuum microgeometry. It
+may instead reconstruct the complete observer-accessible quotient at that
+resolution. Exact continuum recovery requires a complete limiting observation
+surface or independent physical dynamics/regularity that reduces the
+admissible record-nullspace to gauge and target-null directions.
+
 ### Evidentiary ladder
 
 | Grade | Requirement |
@@ -206,6 +215,15 @@ The recharter preserves, rather than promotes, the strongest exact results:
   proper time or a metric. Physical geometry now requires independently
   calibrated volume/density and path-indexed local-clock/reference data,
   nonisometric controls, and held-out observables.
+- In a supplied smooth \(1+1\) conformal arena, two overlapping regional
+  volumes exactly reconstruct a declared two-mode conformal factor and
+  predict a held-out remote clock. But an explicit additional smooth mode
+  preserves causal order, total volume, the left clock/radar record, and both
+  regional volumes while changing the remote clock and scalar curvature.
+  Thus this finite regular measurement surface can reconstruct an exact
+  finite-dimensional geometry class, but not an unrestricted smooth conformal
+  factor. Reconstruction must be indexed by resolution, completion class,
+  record-nullspace, and held-out observer-accessible targets.
 - In the binary controlled nondemolition recorder class with a blank
   source-independent environment and arbitrary fixed archive noise, accessible
   record distinguishability and induced source dephasing obey the tight bound
@@ -392,7 +410,8 @@ record dynamics and certification rule are selected independently of the
 target physical observables. Then the resulting certified-history quotient is
 sufficient for every observer-accessible prediction and bounded-risk
 capability, and its meta-record accessibility relations reconstruct effective
-causal geometry up to gauge.
+causal geometry at the declared observer resolution up to gauge, relative to
+the physically admissible completion class.
 
 If `Q_O(M)` is the certified history quotient available to observer `O`, the
 target implication is
@@ -599,12 +618,22 @@ identifies rather than causally selects the implemented instrument. This is a
 useful `HC-DU-033` Interface-Necessity No-Go and minimal-structure
 classification, not a new measurement theorem or paper.
 
+`HC-DU-038A/B` now have a scoped source-pinned collision. Their causal-order
+boundary sits inside Hawking--King--McCarthy/Malament conformal
+reconstruction; order-plus-volume sits inside causal-set terrain; the finite
+rank, row-span, and smooth nullspace results are ordinary inverse-method
+mathematics; and rich light-observation/source-to-solution reconstruction is
+an established neighboring class. The exact DU gain is a typed
+record-resolution/completion contract and explicit controls, not a new
+Lorentzian theorem.
+
 The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`, the physical
-formation/transfer portion of `HC-DU-036B`, and `HC-DU-037..040` retain only
-an initial collision-class inventory. Process tensors/combs, resource
-robustness, system identification, and causal-set reconstruction remain
-mandatory neighboring classes. No proposed law or theorem receives novelty
-language until its Lane-7 `CH-COLLIDE` claim-specific comparison is complete.
+formation/transfer portion of `HC-DU-036B`, `HC-DU-037`, and
+`HC-DU-039..040` retain only an initial collision-class inventory. Process
+tensors/combs, resource robustness, system identification, and causal-set
+reconstruction remain mandatory neighboring classes. No proposed law or
+theorem receives novelty language until its Lane-7 `CH-COLLIDE`
+claim-specific comparison is complete.
 
 ## Primary theorem and conjecture spine
 
@@ -1258,6 +1287,59 @@ controls, with held-out geometric observables. See
 `../explorations/meta-record-geometry-identification-ladder-2026-07-25.md` and
 `../tests/du_meta_record_geometry_identification_probe.py`.
 
+**Executed scoped sub-result — `HC-DU-038B`.** On the supplied strip
+\(M=[0,1]\times[-1,1]\), freeze the smooth conformal family
+
+\[
+g_u=u(x)(-dt^2+dx^2),\qquad u>0.
+\]
+
+Causal order, total volume, one anchored observer clock and one radar return
+leave the declared two-parameter family open. One regional volume leaves an
+exact one-dimensional fibre. Two overlapping regional volumes have
+measurement determinant \(3/64\), reconstruct both parameters exactly, and
+predict the held-out remote-clock identity
+
+\[
+\tau_R^2
+=1+4(V_L-1)-\frac{64}{9}(V_Q-\tfrac32).
+\]
+
+The reconstructed nonflat fixture has exact center scalar curvature
+\(-357/250\). This is a genuine grade-3 reconstruction inside the frozen
+two-mode class.
+
+The hostile smooth mode
+
+\[
+h(x)=(x+1)(1-3x-6x^2+10x^3)
+\]
+
+integrates to zero on the total and both training regions and vanishes at the
+left clock, yet changes the right clock and curvature. The positive metric
+\((1+h/100)(-dt^2+dx^2)\) matches every training record of flat space but has
+\(\tau_R^2=26/25\) and nonzero center curvature. Therefore the universal
+smooth reconstruction fails for this finite record surface.
+
+More generally, for a finite-dimensional declared family, exact
+identification is full column rank of the record measurement matrix, and a
+linear held-out observable is predictable exactly when its row annihilates
+the training nullspace. In an unrestricted smooth conformal space, any
+held-out linear functional outside the finite training span admits a
+sufficiently small positive smooth perturbation preserving all training
+records. These are standard finite inverse-problem and linear-functional
+facts, not new Lorentzian geometry.
+
+Regional subdivision is benign only when child volumes are reaggregated.
+Retaining both child records can increase measurement rank and is new access,
+not gauge. The next physical gate must independently restrict the
+record-nullspace through a field equation/source class, energy or regularity
+condition, complete active source-to-solution or calibrated clock-and-light
+instrument, finite task-resolution quotient, or physically selected
+low-dimensional mode family. See
+`../explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md`
+and `../tests/du_conformal_record_geometry_tournament_probe.py`.
+
 ### `HC-DU-039` — Cross-Platform Invariance
 
 Require one typed certification/finality statement to survive without
@@ -1296,7 +1378,7 @@ Only after the preceding dependencies:
 | `H-CCR-05` | Certified-record equivalence entails all admitted predictions/capabilities or admits a bounded separating intervention. | Unbounded witness complexity or incomplete comparison class prevents the dichotomy. |
 | `H-CCR-06` | Finality yields strict capability only when it separates action-relevant histories after risk and cost. | Claimed capability gain disappears after verification and rollback costs. |
 | `H-CCR-07` | Public hardening requires added resources or reduced coherent/reversible optionality. | A countermodel provides stronger finality at equal complete resource ledger and optionality. |
-| `H-CCR-08` | First-order outcomes and authenticated meta-record reachability generally underdetermine scale, local duration allocation, dimension and metric; an enriched, independently calibrated meta-record may reconstruct selected geometry only up to declared gauge. | Nonisometric models match the enriched meta-record and every admitted held-out observer-accessible geometric comparison. |
+| `H-CCR-08` | Relative to an independently fixed resolution and physically admissible completion class, enriched causal, volume, clock and reference records reconstruct the target geometry exactly when their record-nullspace contains only declared gauge or target-null directions. | A physically admissible non-gauge direction lies in the complete record-nullspace and changes a held-out observer-accessible geometric comparison. |
 | `H-CCR-09` | An observer/system is identifiable as a minimal intervention-stable role cover even when raw hierarchy depth is not. | Flat, overlapping, relay, or resolution rivals tie every held-out intervention. |
 | `H-CCR-10` | Exact nonaliasing record growth requires growing support/export, weakened semantics, or modeled coarse-graining/nonunitarity. | Fixed finite support yields indefinitely fresh exact records without hidden resources. |
 | `H-CCR-11` | A global update clock is either quotient/gauge for the complete intervention algebra or produces a finite Lorentz-sensitive witness. | Scheduler status remains underidentified because the admitted intervention class is incomplete. |
@@ -1358,8 +1440,10 @@ Only after the preceding dependencies:
 5. HC-DU-038 meta-record time and geometry
    HC-DU-038A order-only nonidentification and exact scalar record-time
    potential [COMPLETED KNOWN-MATHEMATICS CONTROL]
-   calibrated volume plus path-indexed clock/reference reconstruction
-   against nonisometric held-out controls [OPEN]
+   HC-DU-038B two-mode conformal reconstruction, held-out clock prediction
+   and smooth finite-record ceiling [COMPLETED SCOPED CONTROL]
+   physical restriction of the record-nullspace by formed instruments,
+   dynamics or task resolution [OPEN]
         |
 6. HC-DU-039 cross-platform invariance
         |

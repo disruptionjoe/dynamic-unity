@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 45
+manifest_revision: 46
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -340,11 +340,12 @@ lanes:
     Lane-2 representation work may map these relations now. Reconstruction or derivation claims
     require the physical formation, observer/access and regional-composition dependencies.
   current_objective: >-
-    Preserve HC-DU-038A's exact separation between authenticated order and one scalar record-time
-    potential. Next freeze an independently calibrated sampling/volume law plus path-indexed
-    local-clock and reference/access data, construct nonisometric training-equivalent controls,
-    and adjudicate them on held-out geometric comparisons with explicit gauge, uncertainty and
-    benign-refinement semantics.
+    Preserve HC-DU-038A's order/scalar-time boundary and HC-DU-038B's conditional conformal
+    reconstruction plus smooth hidden-mode counterexample. Next freeze one independently
+    justified physical restriction on the record-nullspace—field dynamics/source class,
+    energy/regularity, complete active source-to-solution or calibrated clock-and-light
+    observations, task resolution or mode-selection dynamics—and test whether it forces the
+    held-out remote clock up to gauge.
   success_signal: >-
     A reconstruction or nonuniqueness theorem with declared gauge, dimensional map, held-out
     observables and invariance under relabeling and genuinely benign refinement.
@@ -358,6 +359,8 @@ lanes:
   - docs/quantum-foundations-orientation-surface.md
   - explorations/meta-record-geometry-identification-ladder-2026-07-25.md
   - tests/du_meta_record_geometry_identification_probe.py
+  - explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md
+  - tests/du_conformal_record_geometry_tournament_probe.py
   do_not: >-
     Do not derive primitive operational precedence from itself, confuse Hilbert/network/state
     dimension with spacetime dimension, or infer a metric from representation-dependent graph
@@ -573,6 +576,14 @@ active_hardening_program_note: >-
   boundary result while changing raw graph counts. This is known graph-cohomology mathematics,
   not physical geometry. Lane 6 now targets independently calibrated volume/density and
   path-indexed clock/reference data against nonisometric held-out controls.
+  Revision 46 executes that target in a supplied smooth 1+1 conformal arena. Two overlapping
+  regional volumes exactly reconstruct a declared two-mode conformal factor and predict a
+  held-out remote clock. An explicit additional smooth mode preserves causal order, total
+  volume, the left clock/radar record and both regional volumes while changing the remote clock
+  and scalar curvature. This finite regular measurement surface therefore reconstructs a
+  declared finite-dimensional geometry or observer-resolution quotient, not an unrestricted
+  smooth microgeometry. The next Lane-6 gate must physically restrict the record-nullspace
+  rather than add fitted modes.
 legacy_hardening_register_ref: >-
   explorations/cross-repo-gap-hardening-and-nonintuitive-reuse-map-2026-07-21.md
 strategic_reprioritization:
@@ -3611,6 +3622,19 @@ provenance:
     graph-cohomology mathematics and explicitly not proper time, metric, curvature, ontology,
     new physics or a paper verdict. Lane 6 now targets calibrated volume/density plus path-indexed
     clock/reference evidence against nonisometric held-out controls.
+  rev46_note: >-
+    2026-07-25 (Joe direct chat: "Another strong research swing"): executed HC-DU-038B in a
+    supplied smooth 1+1 conformal strip. Causal order, total volume, one anchored clock/radar
+    record and one regional volume remain nonidentifying. Two overlapping regional volumes have
+    determinant 3/64, reconstruct the declared two-mode conformal factor exactly and predict a
+    held-out remote clock; a curved control has scalar curvature -357/250. The hostile smooth
+    mode h=(x+1)(1-3x-6x^2+10x^3) preserves every training record of flat space but changes the
+    remote clock squared to 26/25 and yields nonzero curvature. Additive region subdivision is
+    gauge only when child records are reaggregated; separately retained child records add rank
+    and access. This is exact conditional reconstruction plus known inverse-method
+    nonuniqueness, not a selected physical spacetime, new law, ontology, paper verdict or
+    external action. Lane 6 now targets a physically justified restriction of the
+    record-nullspace.
 extensions:
   operating_architecture:
     contract_version: "1.0"

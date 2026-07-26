@@ -1,0 +1,263 @@
+{
+  "all_passed": true,
+  "arena": {
+    "manifold": "[0,1]_t x [-1,1]_x",
+    "metric_family": "g_u = u(x)(-dt^2+dx^2), u>0",
+    "supplied_scaffolding": [
+      "dimension",
+      "coordinate strip",
+      "left/right observer anchors",
+      "conformal ansatz",
+      "volume and clock calibration"
+    ]
+  },
+  "artifact_type": "exact_conformal_reconstruction_and_nonuniqueness_controls",
+  "checks": [
+    {
+      "detail": "both declared modes preserve total volume and the anchored left clock",
+      "id": "two_modes_preserve_base_records",
+      "pass": true
+    },
+    {
+      "detail": "the hostile smooth mode preserves every training functional but changes the right clock",
+      "id": "hidden_mode_annihilates_training_records",
+      "pass": true
+    },
+    {
+      "detail": "|f1|,|f2| <= 4/3 and |a|+|b| <= 1/2 imply u >= 1/3",
+      "id": "declared_family_positive",
+      "pass": true
+    },
+    {
+      "detail": "the conservative |h| <= 40 bound gives 1+h/100 >= 3/5",
+      "id": "hidden_fixture_positive",
+      "pass": true
+    },
+    {
+      "detail": "null, timelike, and spacelike tangent classes agree for every positive conformal fixture",
+      "id": "positive_conformal_rescaling_preserves_cones",
+      "pass": true
+    },
+    {
+      "detail": "causal order, total volume, left clock, and left radar timing do not identify the conformal factor",
+      "id": "base_record_surface_is_blind",
+      "pass": true
+    },
+    {
+      "detail": "one calibrated regional volume leaves a one-parameter exact rival family",
+      "id": "one_regional_volume_leaves_a_fibre",
+      "pass": true
+    },
+    {
+      "detail": "the two overlapping regional-volume rows have exact full column rank",
+      "id": "two_regional_volumes_identify_two_modes",
+      "pass": true
+    },
+    {
+      "detail": "the rational inverse recovers the curved fixture parameters exactly",
+      "id": "exact_parameter_reconstruction",
+      "pass": true
+    },
+    {
+      "detail": "training regional volumes predict held-out right proper time sqrt(5/3)",
+      "id": "declared_family_right_clock_prediction",
+      "pass": true
+    },
+    {
+      "detail": "an anchored scalar-curvature invariant proves the curved fixture is not flat",
+      "id": "curvature_separates_flat_and_curved",
+      "pass": true
+    },
+    {
+      "detail": "the explicit (1/10,-2/5) rival matches the first regional volume but changes later records",
+      "id": "one_volume_rival_is_exact",
+      "pass": true
+    },
+    {
+      "detail": "inside the declared two-mode class the held-out clock row is fixed by training",
+      "id": "two_mode_heldout_is_in_training_row_span",
+      "pass": true
+    },
+    {
+      "detail": "adding the smooth hidden mode creates a training null direction seen by the held-out clock",
+      "id": "expanded_completion_reopens_nonidentification",
+      "pass": true
+    },
+    {
+      "detail": "all training records match flat space while the remote proper time changes",
+      "id": "hidden_completion_defeats_universal_prediction",
+      "pass": true
+    },
+    {
+      "detail": "the hidden-mode rival has exact nonzero scalar curvature at the anchored center",
+      "id": "hidden_completion_is_nonflat",
+      "pass": true
+    },
+    {
+      "detail": "additive child-region volumes compose to the original measurement row",
+      "id": "regional_subdivision_reaggregates_naturally",
+      "pass": true
+    },
+    {
+      "detail": "retaining both child volumes increases rank and is not benign bookkeeping",
+      "id": "separate_child_access_is_physical_information",
+      "pass": true
+    },
+    {
+      "detail": "the held-out prediction identity holds across exact off-origin controls",
+      "id": "right_clock_prediction_formula_is_exact_on_basis",
+      "pass": true
+    }
+  ],
+  "checks_passed": 19,
+  "claim_grade": "EXACT CONDITIONAL TWO-MODE RECONSTRUCTION + SMOOTH COMPLETION COUNTERMODEL / NO PHYSICAL SELECTION OR NEW GEOMETRY",
+  "fixtures": {
+    "flat": {
+      "parameters": [
+        "0",
+        "0",
+        "0"
+      ],
+      "records": {
+        "center_clock_squared": "1",
+        "center_scalar_curvature": "0",
+        "left_clock_squared": "1",
+        "left_radar_time_squared": "1",
+        "left_volume": "1",
+        "overlap_volume": "3/2",
+        "right_clock_squared": "1",
+        "total_volume": "2"
+      }
+    },
+    "hidden_completion": {
+      "parameters": [
+        "0",
+        "0",
+        "1/100"
+      ],
+      "records": {
+        "center_clock_squared": "101/100",
+        "center_scalar_curvature": "182200/1030301",
+        "left_clock_squared": "1",
+        "left_radar_time_squared": "1",
+        "left_volume": "1",
+        "overlap_volume": "3/2",
+        "right_clock_squared": "26/25",
+        "total_volume": "2"
+      },
+      "right_proper_time": "sqrt(26/25)"
+    },
+    "identified_curved": {
+      "parameters": [
+        "1/4",
+        "1/4",
+        "0"
+      ],
+      "records": {
+        "center_clock_squared": "5/6",
+        "center_scalar_curvature": "-357/250",
+        "left_clock_squared": "1",
+        "left_radar_time_squared": "1",
+        "left_volume": "43/48",
+        "overlap_volume": "345/256",
+        "right_clock_squared": "5/3",
+        "total_volume": "2"
+      },
+      "right_proper_time": "sqrt(5/3)"
+    },
+    "one_volume_rival": {
+      "parameters": [
+        "1/10",
+        "-2/5",
+        "0"
+      ],
+      "records": {
+        "center_clock_squared": "11/10",
+        "center_scalar_curvature": "700/1331",
+        "left_clock_squared": "1",
+        "left_radar_time_squared": "1",
+        "left_volume": "1",
+        "overlap_volume": "249/160",
+        "right_clock_squared": "3/5",
+        "total_volume": "2"
+      },
+      "right_proper_time": "sqrt(3/5)"
+    }
+  },
+  "identification": {
+    "determinant": "3/64",
+    "expanded_hidden_mode_fibre_dimension": 1,
+    "one_volume_fibre_dimension": 1,
+    "right_clock_squared_prediction": "1 + 4*(V_left-1) - (64/9)*(V_overlap-3/2)",
+    "training_matrix": [
+      [
+        "-1/3",
+        "-1/12"
+      ],
+      [
+        "-3/8",
+        "-15/64"
+      ]
+    ],
+    "two_volume_fibre_dimension_in_declared_family": 0
+  },
+  "limits": [
+    "The dimension, coordinate strip, anchors, conformal ansatz, and calibrations are supplied rather than reconstructed.",
+    "The exact positive reconstruction holds only inside the declared two-mode family.",
+    "A finite set of volume and stationary-clock records cannot identify an unrestricted smooth conformal factor when a held-out functional lies outside their span.",
+    "The hidden mode is a completion-class countermodel, not an irreducible physical remainder.",
+    "No quantum dynamics, Einstein equation, stress-energy source, physical record-formation law, or experimental realization is supplied."
+  ],
+  "modes": {
+    "f1_coefficients_low_to_high": [
+      "-1/3",
+      "2/3",
+      "1"
+    ],
+    "f2_coefficients_low_to_high": [
+      "-1/3",
+      "-1/3",
+      "1",
+      "1"
+    ],
+    "hidden_coefficients_low_to_high": [
+      "1",
+      "-2",
+      "-9",
+      "4",
+      "10"
+    ],
+    "integrals_and_endpoints": {
+      "f1": {
+        "full": "0",
+        "left": "-1/3",
+        "left_endpoint": "0",
+        "overlap": "-3/8",
+        "right_endpoint": "4/3"
+      },
+      "f2": {
+        "full": "0",
+        "left": "-1/12",
+        "left_endpoint": "0",
+        "overlap": "-15/64",
+        "right_endpoint": "4/3"
+      },
+      "hidden": {
+        "full": "0",
+        "left": "0",
+        "left_endpoint": "0",
+        "overlap": "0",
+        "right_endpoint": "4"
+      }
+    }
+  },
+  "returns": {
+    "base_records": "NONIDENTIFYING",
+    "heldout_remote_clock_declared_family": "EXACT_PREDICTION",
+    "one_regional_volume": "ONE_DIMENSIONAL_FIBRE",
+    "regional_subdivision": "GAUGE_ONLY WHEN CHILD VOLUMES ARE REAGGREGATED; NEW ACCESS WHEN RETAINED SEPARATELY",
+    "smooth_completion_class": "NONIDENTIFIED_BY_FINITE_TRAINING_SET",
+    "two_regional_volumes_declared_family": "EXACT_RECONSTRUCTION"
+  },
+  "theorem_family": "HC-DU-038B"
+}
