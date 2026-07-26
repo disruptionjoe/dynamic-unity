@@ -258,6 +258,17 @@ Locally, target reconstruction requires
 modulo the declared gauge and with admitted source, boundary, matter, and
 regulator directions included.
 
+There is a second attribution check. Define the held-out target diameter on
+the lawful class before records, \(\Delta_E=\operatorname{diam}t(M_{\rm
+law})\), and the diameter \(\Delta_{E,r}(q)\) after conditioning on a nonempty
+lawful record fibre. If \(\Delta_E\) is already below tolerance, the result is
+law-only closure; records cannot be credited for identifying that target. If
+only \(\Delta_{E,r}(q)\) crosses the threshold, the result is
+record-assisted. Independently, a physical interface selector must be natural
+under the declared symmetry. At a completion \(m\), its output must be fixed
+by the stabilizer \(G_m\); an empty fixed-point set blocks unique interface
+selection even when the law completely fixes the target.
+
 The immediate dimensional guard is exact: in two dimensions,
 \(R_{\mu\nu}^{\mathrm{TF}}\equiv0\). Fischer--Finster's 2026 trace-free
 continuum equation therefore cannot restrict DU's current \(1+1\) conformal
@@ -265,6 +276,15 @@ hostile family. Any future test of that restriction must use a frozen
 \(3+1\) arena and distinguish an ordinary Einstein absorber from a
 CFS-specific finite-regularization residue. See the
 [source collision](../explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md).
+
+The first \(3+1\) control is now complete. Compactly supported conformal
+tangent perturbations satisfying the trace-free linearized vacuum equation
+vanish, so every supplied clock target is fixed by the law before records.
+The Lorentz stabilizer of Minkowski nevertheless has no fixed future-unit
+timelike vector, so that symmetric law does not select an observer direction.
+A timelike current supplies a positive control for one frame component, not a
+complete record interface. See the
+[law/interface separation result](../explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md).
 
 ## Cross-cutting tensions most relevant to Dynamic Unity
 
@@ -478,13 +498,13 @@ interventional sufficiency, not another finite selector fit.
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
-| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go; the Xiang sidecar route is closed, the provider-facing bridge is executable, and the integrated contribution now requires a formal-first collision before more adapters | `HC-DU-033/036B/036C/036E/036F` |
+| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, and decoder beyond the completed conservation/asymmetry orbit no-go. `HC-DU-033C` now gives the stabilizer fixed-point obstruction: a symmetric law may select a configuration or covariant interface family without selecting one observer-indexed member | `HC-DU-033/033C/036B/036C/036E/036F` |
 | Acquisition visibility | Distinguish the provider-returned population from the complete attempted physical process; full factorization additionally requires the selection kernel and every supported selected/rejected response stratum to factor through the record. A scoped five-interface matrix finds no standard documented all-attempt/complete-reset route; silence is not absence | `HC-DU-036D/036E/036F` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
 | Public-finality composition | Derive when regional records form a safe public action algebra under faults and access limits | `HC-DU-035/035C` |
 | Record sufficiency or physical remainder | Translate the five-part integrated contract into process-tensor, quantum-instrument, statistical-experiment, and system-identification language before physical escalation. Use the exact finite `HC-DU-036C` stochastic-decoder deficiency and `HC-DU-036D` uncertainty gate only after complete attempt visibility and reset; distinguish reconstruction, resource-Pareto repair, class-relative positive margin, and incomplete contract | `HC-DU-036/036C/036D/036E/036F` |
 | Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
-| Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it | `HC-DU-038` |
+| Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records | `HC-DU-038/038D` |
 | Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations | `HC-DU-039` |
 | Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder | `HC-DU-040` |
 

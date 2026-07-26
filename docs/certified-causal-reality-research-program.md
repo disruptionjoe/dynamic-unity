@@ -737,6 +737,23 @@ absorbs the physics. Further fitted finite-reference selection is stopped.
 See
 `../explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md`.
 
+**Executed symmetry-stabilizer successor — `HC-DU-033C`.** Let \(G\) act on
+lawful completions and candidate interfaces. Any interface selector derived
+naturally from the law must be \(G\)-equivariant. At completion \(m\), its
+output must therefore lie in the fixed-point set of the stabilizer \(G_m\).
+If that set is empty—or contains only the trivial interface—the law cannot
+select a nontrivial point interface there. A complete interface with an
+equivariant projection to an obstructed component is obstructed as well.
+
+In the exact Minkowski control, the Lorentz stabilizer has no fixed
+future-unit timelike vector. A Lorentz-natural vacuum law may supply the
+covariant family of frames, but it cannot select one observer time direction.
+A nonzero future-timelike physical current gives the positive control
+\(u=J/\sqrt{-J^2}\), while still not selecting the pointer, archive, decoder,
+access boundary, or cadence. This is standard equivariance and symmetry
+breaking, used here as an Interface-Necessity No-Go. See
+`../explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md`.
+
 The `HC-DU-033A` wave also proved a useful ordering control:
 
 ```text
@@ -1496,6 +1513,44 @@ a selected geometry, or new physics. See
 `../explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md`
 and `../tests/du_robust_vertical_dynamics_reconstruction_probe.py`.
 
+**Executed law/record attribution successor — `HC-DU-038D`.** Before
+conditioning on records, define the lawful target diameter
+
+\[
+\Delta_E=\operatorname{diam}t(M_E).
+\]
+
+On a nonempty lawful record fibre define
+\(\Delta_{E,r}(q)=\operatorname{diam}t(F_q^{E,r})\). Since the fibre is a
+subset of \(M_E\), the second diameter cannot exceed the first. At any target
+tolerance, the exact outcomes are law-only closure, record-assisted
+reconstruction, or lawful record underdetermination; an empty fibre remains a
+separate unrealizable-record return.
+
+The matched \(3+1\) control uses compactly supported conformal tangent
+perturbations
+
+\[
+h_{\mu\nu}=2\phi\eta_{\mu\nu}.
+\]
+
+The trace-free linearized vacuum equation is
+
+\[
+\delta R_{\mu\nu}^{\mathrm{TF}}
+=-2\partial_\mu\partial_\nu\phi
+ +\frac12\eta_{\mu\nu}\Box\phi=0.
+\]
+
+Taking its divergence makes \(\Box\phi\) constant; compact support makes that
+constant zero, and the remaining Hessian equation forces \(\phi=0\).
+Consequently every supplied held-out clock functional is already fixed on the
+lawful conformal class. This is `LAW_ONLY_CLOSURE`, not record-assisted
+geometry reconstruction. Ordinary linearized Einstein dynamics absorbs the
+physical calculation. Together with `HC-DU-033C`, it proves that target
+closure and interface selection are independent receipts. See
+`../explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md`.
+
 ### `HC-DU-039` — Cross-Platform Invariance
 
 Require one typed certification/finality statement to survive without
@@ -1709,7 +1764,11 @@ same-record/different-target witness. Empty fibre, nonempty
 target-disagreeing fibre, same-class refinement, completion/source
 enlargement, and occurrence-identity retyping are different return types.
 Finality is target-indexed: certifying a value does not certify an omitted
-selective continuation.
+selective continuation. `HC-DU-038D` adds the attribution baseline: report
+the target diameter on the lawful class before record conditioning. If that
+diameter is already below tolerance, return law-only closure. Separately
+report whether the interface is physically selected, orbit-selected,
+supplied, or fitted; target constancy cannot supply interface provenance.
 
 ## Dependency order
 
@@ -1725,6 +1784,8 @@ selective continuation.
     HC-DU-033 robust binary-QND instrument-orbit selection [COMPLETED SCOPED]
     HC-DU-033 U(1) conservation/asymmetry selector gate [COMPLETED NO-GO]
     scalar asymmetry budget selects a unique record orientation [CLOSED]
+    HC-DU-033C stabilizer interface-selection obstruction
+    [COMPLETED EXACT CONTROL; COMPLETE PHYSICAL INTERFACE OPEN]
         |
 2. HC-DU-034 multi-time certification
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
@@ -1774,6 +1835,9 @@ selective continuation.
    HC-DU-038C source-typed dynamics/nullspace criterion and hostile
    regularity/action/source tournament [COMPLETED TOY-DYNAMICS CONTROL;
    PHYSICAL DYNAMICS OPEN]
+   HC-DU-038D law-only versus record-assisted attribution and 3+1 compact
+   conformal vacuum control [COMPLETED EXACT CONTROL; PHYSICAL
+   RECORD-ASSISTED EINSTEIN--MATTER ARENA OPEN]
         |
 6. HC-DU-039 cross-platform invariance
    HC-DU-039A realizability-first fibre theorem across multi-time,

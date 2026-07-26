@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 54
+manifest_revision: 55
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -50,6 +50,14 @@ certified_reconstruction_fiber_rule: >-
   frozen completion and occurrence-identity class, then tests target constancy or returns a
   same-record/different-target witness. Empty fibre, nonempty underdetermination, same-class
   refinement, completion enlargement and identity/completion retyping are distinct outcomes.
+law_interface_reconstruction_ref: >-
+  explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
+law_interface_reconstruction_rule: >-
+  Before crediting records for a held-out target, report the target diameter on the lawful
+  completion class without record conditioning. A target already fixed by the law is law-only
+  closure. Separately report whether the observer, instrument, archive, decoder and access
+  interface is stabilizer-selected, selected only up to an orbit, supplied or fitted. Lawful
+  target closure and interface selection are independent receipts.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -189,8 +197,11 @@ lanes:
     Apply the HC-DU-039A/039B contract to every reconstruction assay: report record-image
     distance eta before held-out target diameter Delta on the certified tolerance fibre, and
     charge any change of completion, source or occurrence identity as contract retyping rather
-    than record refinement. Preserve HC-DU-036G's result that value finality does not determine
-    selective continuation. Execute the HC-DU-036F FORMAL_FIRST_PARTNER_GATED route. Translate
+    than record refinement. Apply HC-DU-038D's attribution baseline first: compare the lawful
+    target diameter without records with the record-conditioned diameter, and use HC-DU-033C's
+    stabilizer test to report interface provenance independently. Preserve HC-DU-036G's result
+    that value finality does not determine selective continuation. Execute the HC-DU-036F
+    FORMAL_FIRST_PARTNER_GATED route. Translate
     the five-part integrated
     interventional-record contract into process-tensor, quantum-instrument,
     statistical-experiment and system-identification language, then prove, merge or stop the
@@ -218,6 +229,7 @@ lanes:
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+  - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - lab/process/local-model-learning-gate.md
   do_not: >-
     Do not define records by all target experiments, infer ontology from vocabulary or finite
@@ -269,9 +281,13 @@ lanes:
   depends_on:
   - '2'
   current_objective: >-
-    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go, the
-    HC-DU-036F source/provider route correction and HC-DU-036G's exact vertical-slice boundary:
-    a finalized value/provenance chain does not determine the selective continuation. First type
+    Preserve the completed U(1) conservation/orientation Interface-Necessity No-Go and
+    HC-DU-033C's stabilizer obstruction: a symmetry-natural interface at completion m must be
+    fixed by its stabilizer, so a Minkowski vacuum law selects no observer time direction. A
+    timelike current is the positive control for that one component, not a complete interface.
+    Preserve the HC-DU-036F source/provider route correction and HC-DU-036G's exact
+    vertical-slice boundary: a finalized value/provenance chain does not determine the selective
+    continuation. First type
     the five-part integrated contract against established process-tensor and quantum-instrument
     language, retaining a complete selective-map receipt whenever a held-out continuation
     matters. Keep the frozen 19-circuit HC-DU-036E bridge as the only current pilot path and provider-returned rows
@@ -297,13 +313,15 @@ lanes:
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+  - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
   - lab/acquisition/README.md
   - docs/certified-causal-reality-research-program.md
   do_not: >-
     Do not run another fitted finite-QND or finite-reference selector, infer orientation from a
     symmetry-invariant resource amount, equate tomography with causal selection, or claim a
-    unique microscopic dilation from an effective instrument.
+    unique microscopic dilation from an effective instrument. Do not infer interface selection
+    from a law that merely closes a target fibre.
 - id: '4'
   label: Lane 4
   ordinal: 4
@@ -404,19 +422,18 @@ lanes:
     require the physical formation, observer/access and regional-composition dependencies.
   current_objective: >-
     Preserve HC-DU-038A's order/scalar-time boundary, HC-DU-038B's conformal hidden mode and
-    HC-DU-038C's dynamics-restricted nullspace criterion under HC-DU-039A/039B: report
-    record-image distance before target spread, treat records as same-class refinements and
-    physical modes or source freedom as completion enlargement. Smoothness, analyticity and
-    every positive finite-action bound fail as exact selectors; unrestricted source absorbs the
-    hidden mode; source-free u''=0 closes only the supplied toy class. Next replace that toy law
-    with one independently warranted physical dynamics and freeze its source-difference space
-    before the remote clock, or use a complete active clock/light observation surface. Treat
-    physical-law filtering as completion narrowing, not record refinement. The Finster causal
-    action is one legitimate candidate filter, but its 2026 trace-free Ricci continuum condition
-    is identically vacuous in the current 1+1 conformal arena. Any CFS-facing attempt must therefore
-    freeze a 3+1 arena, Hilbert/spin/constraint/sector/regulator, matter/source, boundary, gauge,
-    record and target contract, and distinguish ordinary Einstein closure from a regulator-robust
-    CFS-specific residue. This is an arena rule, not a priority change. Maintain
+    HC-DU-038C's dynamics-restricted nullspace criterion under HC-DU-039A/039B. HC-DU-038D now
+    separates law-only from record-assisted closure and supplies the first nonvacuous 3+1
+    control: compactly supported conformal vacuum tangents vanish, so the clock target closes by
+    ordinary Einstein law while the Lorentz-symmetric solution still selects no observer
+    direction. Report record-image distance, lawful target diameter before records, and
+    record-conditioned target diameter in that order; report interface provenance separately.
+    The next physical arena must retain nonzero law-only target diameter and add an independently
+    realized symmetry breaker plus formed record instrument. Prefer an exact linearized
+    Einstein--matter kernel/stabilizer calculation before simulation. A CFS-facing extension must
+    additionally freeze Hilbert/spin/constraint/sector/regulator, distinguish Einstein closure
+    from a regulator-robust CFS residue, and avoid reusing the closed vacuum conformal case.
+    Maintain
     the exterior-graded `4+6+4` branch as a separate conditional comparator: the
     rank-14 graded bundle is not a total-14 spacetime, no natural GL(4) bridge identifies
     its exterior fibre with GU's symmetric metric fibre, and grade-3 access must survive
@@ -450,6 +467,7 @@ lanes:
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
   - explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
+  - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -459,7 +477,7 @@ lanes:
   do_not: >-
     Do not derive primitive operational precedence from itself, confuse Hilbert/network/state
     dimension with spacetime dimension, or infer a metric from representation-dependent graph
-    length.
+    length. Do not credit records for a target already fixed by the lawful completion class.
 - id: '7'
   label: Lane 7
   ordinal: 7
@@ -2976,6 +2994,10 @@ legacy_lanes_revision_38:
       nondisturbing member of the frozen binary QND family aligns with the source axis up to
       outcome relabeling, a full block action algebra selects the Lüders continuation inside the
       unitary-twist class, and the maximal object remains an effective instrument orbit.
+      Revision 55 adds the general stabilizer obstruction: a symmetry-natural interface at
+      completion m must be fixed by its stabilizer. Minkowski therefore supplies a covariant
+      frame family but no selected observer direction; a timelike current repairs that component
+      only.
       Continue the parent HC-DU-033 by lifting that receipt to an independently motivated
       additive total-conservation law, calibrated apparatus-asymmetry budget, declared
       perturbation ball, complete selective-instrument tomography and frozen archive/decoder.
@@ -3060,8 +3082,11 @@ legacy_lanes_revision_38:
       representation-only morphism class and require naturality under relabeling, benign
       relay/edge subdivision, cover refinement where applicable, and morphism composition. A
       carrier with latency, energy, storage, noise, authentication or control is not a benign
-      refinement. Do not claim to derive primitive precedence from itself. Order alone is known
-      terrain and does not satisfy this channel.
+      refinement. Report lawful target diameter before record conditioning; if the law already
+      fixes the target, return law-only closure rather than record reconstruction. Revision 55's
+      compact 3+1 conformal vacuum control is closed on exactly that branch. Do not claim to
+      derive primitive precedence from itself. Order alone is known terrain and does not satisfy
+      this channel.
   - id: '1.6'
     title: Observer individuation, capability and resource laws
     scope: >-
@@ -3991,6 +4016,20 @@ provenance:
     physical geometry. The exact probe passes 36/36 twice with byte-identical artifact. Component
     mathematics is known; no physical completeness, selected dynamics, remainder, ontology, new
     law, new physics, paper state, hardware or external action is promoted.
+  rev55_note: >-
+    2026-07-26 (Joe direct chat: run the more impactful integrated swing joining physical
+    interface selection to lawful geometry reconstruction): executed HC-DU-033C/038D.
+    Equivariance forces any naturally selected interface at completion m into the fixed-point
+    set of its stabilizer; Minkowski's Lorentz stabilizer has no fixed future-unit timelike
+    vector, while a timelike physical current supplies the positive control for that frame
+    component only. The law/record attribution trichotomy now compares lawful target diameter
+    before records with target diameter on a nonempty lawful record fibre. In the exact 3+1
+    compact conformal tangent control, the trace-free linearized vacuum equation forces the
+    perturbation to vanish, so every supplied clock target is fixed by ordinary Einstein law
+    before records. Configuration selection, interface selection, record formation and target
+    reconstruction are therefore independent receipts. Direct proof made a local model
+    unnecessary. Component mathematics is known; no new physical law, ontology, prediction,
+    paper, hardware, provider action, submission, publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

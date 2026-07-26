@@ -168,6 +168,16 @@ What *has* been earned is a strong finite control stack:
   toy class
   ([result](explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md);
   [probe](tests/du_robust_vertical_dynamics_reconstruction_probe.py)).
+- one formal-first `HC-DU-033C/038D` separation result. Any natural
+  interface selected at a lawful completion must be fixed by that
+  completion's symmetry stabilizer. Minkowski's Lorentz stabilizer has no
+  fixed future-unit timelike vector, so a symmetric vacuum law cannot select
+  one observer direction. In the matched \(3+1\) compact conformal tangent
+  control, the trace-free linearized vacuum equation forces the perturbation
+  to vanish; every held-out clock target is therefore fixed by the law before
+  records. A timelike physical current is the positive control for selecting
+  one frame component, not a complete pointer/archive/decoder interface
+  ([result](explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md)).
 
 A conditional exterior-graded \(4+6+4\) work surface is also registered for
 Lanes 2 and 6. It begins with a hard type boundary: a rank-14
@@ -254,6 +264,16 @@ completion class, source class or occurrence identity must be charged as
 contract retyping, not reported as ordinary record refinement. Finality is
 also target-indexed: a finalized value does not certify the selective
 continuation that produced it.
+
+Before crediting records for that target diameter, also report the target
+diameter on the lawful completion class *without conditioning on records*.
+If it is already below tolerance, return `LAW_ONLY_CLOSURE`; the law, source,
+and boundary contract fixed the target. If records cross the tolerance only
+after conditioning, return record-assisted reconstruction relative to the
+frozen class. Separately report whether the observer/instrument/archive/access
+interface was physically selected, selected only up to a symmetry orbit,
+supplied, or fitted. Geometry closure and interface selection are independent
+receipts.
 
 The prospective physical gate is now executable. The versioned packet schema
 retains every attempted shot, calibration and joint-systematic object,
@@ -418,7 +438,7 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Preserve complete selective-map identity whenever continuation matters; value archives alone are insufficient. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Capability and finality are target-indexed; correct value access does not imply repeat-response access. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Preserve typed identity, overlap, provenance, loop obstructions, and the proposition each certificate finalizes. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038C` shows regularity/action bounds are insufficient and source-free toy dynamics can close the fibre; next test an independently warranted physical dynamics and frozen source class. If CFS is chosen, the arena must be \(3+1\), since its current trace-free continuum condition is vacuous in \(1+1\). |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038D` shows that the \(3+1\) compact conformal vacuum target closes by law alone while the symmetric law still cannot select an observer direction. Next use a physical Einstein--matter or comparable arena with nonzero law-only target diameter, an independently realized symmetry breaker, and a formed record instrument. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 

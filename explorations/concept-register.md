@@ -860,6 +860,24 @@ resolution-stable intervention role. No claim is banked or seeded. See
   current \(1+1\) conformal hostile family. These are literature-collision
   boundaries, not new DU theorems. See
   `causal-action-and-stochastic-quantum-source-collision-2026-07-26.md`.
+- **Earned law/interface/reconstruction separation.** `HC-DU-033C/038D`
+  proves two exact attribution controls. First, any symmetry-natural interface
+  selector at lawful completion \(m\) must land in the fixed-point set of its
+  stabilizer \(G_m\). Minkowski's Lorentz stabilizer has no fixed
+  future-unit timelike vector, so a symmetric vacuum law cannot select one
+  observer direction; a timelike physical current is the positive control for
+  that component only. Second, compare the target diameter on the lawful
+  class before records with the diameter on the nonempty lawful record fibre.
+  If the first is already below tolerance, the result is law-only closure; if
+  only the second crosses tolerance, it is record-assisted reconstruction.
+  In the exact \(3+1\) compact conformal tangent control,
+  \(\delta R_{\mu\nu}^{\mathrm{TF}}=0\) forces the perturbation to vanish, so
+  every frozen clock target closes by law while the observer direction
+  remains unselected. Configuration selection, interface selection, record
+  formation, and target reconstruction are therefore independent receipts.
+  Component mathematics is known; no physical ontology or new law is earned.
+  See
+  `law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
@@ -883,7 +901,13 @@ resolution-stable intervention role. No claim is banked or seeded. See
      quorum, and quantum-access conditions.
   3. Parent `HC-DU-033`: justify physical record formation, cadence,
      interface, equivariant/noncommutative algebra, and structured-process
-     congruence rather than enumerating more bare finite partitions.
+     congruence rather than enumerating more bare finite partitions. Apply the
+     stabilizer fixed-point test first, and classify any repair by the
+     physical symmetry breaker it adds.
+  4. `HC-DU-038`: before crediting a record with geometry reconstruction,
+     report the lawful target diameter without records. The next physical
+     arena must retain nonzero law-only target diameter and include an
+     independently realized symmetry breaker plus formed record instrument.
 - **Central failure modes.** Primitive circularity, sufficiency tautology,
   per-fixture interface refitting, weak adversary manufacture, endpoint or
   redundancy substitution, hidden resource export, covariance overclaim,
@@ -904,6 +928,10 @@ resolution-stable intervention role. No claim is banked or seeded. See
   HC-DU-039B ROBUST RECORD-IMAGE-DISTANCE / TARGET-DIAMETER DECOMPOSITION
   EXACT / HC-DU-036G COMPLETE VALUE-FINALITY CHAIN DOES NOT DETERMINE
   SELECTIVE CONTINUATION /
+  HC-DU-033C STABILIZER INTERFACE-SELECTION OBSTRUCTION EXACT /
+  HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
+  3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION
+  REMAINS UNSELECTED /
   POSITIVE FINITE COMPLETION-CLASS MARGIN AND BOUNDARY-EXPANSION ABSORBER
   EXACT / PHYSICAL RECORD FORMATION AND INTERFACE
   SELECTION, ADMISSIBLE PHYSICAL REFINEMENT, BROADCASTABLE PUBLIC FINALITY,
