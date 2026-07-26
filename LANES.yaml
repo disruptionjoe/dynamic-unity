@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 63
+manifest_revision: 64
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -153,6 +153,21 @@ material_gauge_boundary_formation_rule: >-
   crossing and intermediate-time formation-history access are explicit first leaks. Bank this
   as a standard positive anchor, stop fitting the same endpoint instrument and open AQFT only
   for a new locality or selection proposition.
+stabilizer_syndrome_logical_remainder_ref: >-
+  explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
+stabilizer_syndrome_logical_remainder_rule: >-
+  For an [[n,k]] stabilizer code, the complete generator-invariant syndrome reconstructs the
+  Pauli quotient by the normalizer and is exactly sufficient for a frozen correctable
+  error/recovery class. For the unrestricted Pauli class, the same-syndrome remainder modulo
+  stabilizers is N(S)/S, the logical Pauli group of binary symplectic dimension 2k. No
+  code-internal classical refinement can close this quotient while preserving arbitrary
+  reference entanglement and the full logical action algebra. Charge logical measurement,
+  external controller/noise logging, error/task restriction, coherent environment access, or
+  code/decoder changes to the action, boundary, resource, completion, or interface contract.
+  Bank this as a code-relative operational-duality/remainder anchor using known QEC mathematics,
+  not a universal interface selector, ontological remainder, new QEC theorem, or reason to
+  repeat stabilizer variants. A topological-phase successor is admissible only if it tests
+  endogenous physical selection beyond a supplied commuting-projector code.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -317,10 +332,16 @@ lanes:
     norm robustness is horizon-indexed, and interior readout, charge crossing and
     intermediate-time formation access supply distinct first leaks. Stop fitting detector
     Hamiltonians to the same final write and do not count an algebraic boundary center as a
-    formed record. Use this anchor to freeze the strongest target-independent physically
-    admissible record class for one complete process, then return either a naturally selected
-    interface, scoped operational duality or one finite physical remainder without refitting.
-    Open AQFT only for a new locality or selection proposition. Consume HC-DU-035D's layered
+    formed record. HC-DU-040E has now executed that strongest-record handoff in one complete
+    stabilizer-QEC process. The full syndrome exactly reconstructs the correction-relevant
+    Pauli quotient, while N(S)/S remains as a protected logical quotient for the unrestricted
+    Pauli and full encoded action class. A preserving code-internal classical refinement cannot
+    close it; every repair changes the action, boundary, resource, completion or interface
+    contract. Bank this class-relative duality/remainder anchor, do not repeat stabilizer or
+    surface-code variants, and do not infer ontology or a universal selector from a supplied
+    code. The next physical swing must test endogenous selection beyond a supplied
+    commuting-projector architecture or move to a different arena. Open AQFT only for a new
+    locality or selection proposition. Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
     noncentral pullback and its exact blockwise leakage margin rather than treating finality as
@@ -367,6 +388,7 @@ lanes:
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+  - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
@@ -444,11 +466,14 @@ lanes:
     frozen structural criteria select only the controlled-add/subtract formation orbit; a
     material reference selects one operational instrument and no endpoint record selects one
     microscopic Hamiltonian or outcome event. Exact archive finality is action-envelope
-    relative and norm robustness is finite-horizon. Treat the mechanism as a banked positive
-    anchor. Do not fit another detector to the same write or open Fewster--Verch embedding
-    without a new locality/selection proposition. Seek instead endogenous selection of the
-    region, reference and action envelope, or a target-independent physical remainder that
-    survives every admissible interface refinement. Treat a regional algebra center or
+    relative and norm robustness is finite-horizon. HC-DU-040E adds the complementary supplied
+    code control: the complete stabilizer character is a formed check record, exact for the
+    correctable quotient, while the protected logical quotient survives every code-internal
+    classical refinement preserving the full encoded action algebra. Treat both mechanisms as
+    banked anchors. Do not fit another detector to the same write, repeat stabilizer-code
+    variants, or open Fewster--Verch/topological embedding without a new locality or endogenous
+    selection proposition. Seek selection of the region, reference, code/check family and
+    action envelope beyond supplied architecture. Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
     target-changing source nullspace. HC-DU-039D adds that clock-only visibility remains inside
@@ -487,6 +512,7 @@ lanes:
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+  - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
@@ -528,7 +554,12 @@ lanes:
     historical record current-state incomplete, and an intermediate-time detector assay
     separates endpoint-equivalent microscopic histories. Charge the material boundary,
     orientation, ready memory, archive, decoder, action envelope and horizon rather than
-    defining the observer by the successful quotient. Consume HC-DU-035D: a public record can be final without fibre
+    defining the observer by the successful quotient. Consume HC-DU-040E: the same complete
+    syndrome is sufficient for the frozen correctable recovery class and incomplete for the
+    full logical action class. The retained logical quotient carries protected capability.
+    Charge a logical measurement, external source log, restricted task/error class, coherent
+    environment access, or changed code as a contract change rather than crediting the old
+    check record with the added capability. Consume HC-DU-035D: a public record can be final without fibre
     destruction only relative to a complete selectively center-screening future action class.
     Adding a noncentral recoupling changes the capability contract; omitting an admitted route
     creates false finality. Consume HC-DU-039C: the screened class, one total-phase readout and
@@ -559,6 +590,7 @@ lanes:
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+  - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
     capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
@@ -605,7 +637,11 @@ lanes:
     the projector-preserving boundary envelope; an interior readout exposes the retained fibre;
     unlogged crossing makes the historical archive current-state incomplete; norm error earns
     only a finite horizon; and redundant hardening requires charged blank cells plus an
-    independent-noise model. Use these as regression controls, not as a permanent-finality law.
+    independent-noise model. HC-DU-040E supplies the complementary layered control: every local
+    stabilizer check can be final and mutually compatible while a zero-syndrome noncontractible
+    loop retains a nontrivial logical/homological action. Use these as regression controls.
+    Never infer full logical-state finality from local defect finality or promote either finite
+    architecture to a universal finality law.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -628,6 +664,7 @@ lanes:
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+  - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -678,11 +715,17 @@ lanes:
     operational instrument; and the boundary archive closes total charge only in its frozen
     action envelope. Interior distribution, charge crossing and microscopic formation history
     are exact separate leaks. Treat this as scoped operational duality and a standard positive
-    anchor, not a selected fundamental record. The next North-Star reconstruction swing should
-    freeze the strongest target-independent physically admissible record class for one complete
-    process and seek either a natural interface selector or one representation-robust
-    observer-accessible remainder without refitting. Do not escalate the gauge instrument to
-    continuum or simulation unless a new locality/selection statement requires it. A CFS-facing extension must
+    anchor, not a selected fundamental record. HC-DU-040E has now frozen that strongest record
+    class in one complete stabilizer-QEC process. It yields exact operational duality at the
+    correction quotient and the finite capability-bearing logical remainder N(S)/S at the full
+    encoded-action level. Together HC-DU-040D/E instantiate the same exact-sequence form:
+    a formed record reconstructs its image while ker(r)/G retains action-relative structure.
+    Do not identify the physical systems, repeat code variants, or call the logical quotient an
+    irreducible ontology result; the code/check/action structure is supplied. Advance a
+    topological phase only if the next proposition is endogenous selection beyond a supplied
+    commuting-projector code, otherwise return to another physical arena. Do not escalate the
+    gauge instrument to continuum or simulation unless a new locality/selection statement
+    requires it. A CFS-facing extension must
     additionally freeze Hilbert/spin/constraint/sector/regulator, distinguish Einstein closure
     from a regulator-robust CFS residue, and avoid reusing the closed vacuum conformal case.
     Maintain
@@ -726,6 +769,7 @@ lanes:
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+  - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -4468,6 +4512,27 @@ provenance:
     proposition. No new gauge/finality law, unique detector, actualization rule, ontology,
     QFT recovery, paper promotion, simulation, hardware, provider action, submission,
     publication or external contact is promoted.
+  rev64_note: >-
+    2026-07-26 (Joe direct chat: Go, execute the next North-Star swing): executed HC-DU-040E
+    on one complete [[n,k]] stabilizer error-correction process. The generator-invariant
+    syndrome map has kernel N(S) and exactly reconstructs the Pauli quotient by the normalizer.
+    A frozen Pauli error class is syndrome-correctable exactly when every same-syndrome pair
+    differs by a stabilizer. For the unrestricted Pauli class, the complete syndrome fibre
+    retains N(S)/S, the logical Pauli group of binary symplectic dimension 2k. No code-internal
+    classical refinement can distinguish every logical coset while preserving arbitrary
+    reference entanglement and the full encoded action algebra; logical measurement, source
+    logging, error/task restriction, coherent environment access or code/decoder change alters
+    the action, boundary, resource, completion or interface contract. The three-qubit
+    repetition witness separates I from logical XXX with a held-out logical Z at
+    total-variation margin one, and the surface/toric lift identifies the standard homological
+    remainder H1. Together with HC-DU-040D this banks the exact sequence in which a formed
+    record reconstructs its image while ker(r)/G retains action-relative structure. All
+    component mathematics is absorbed by stabilizer QEC, Knill--Laflamme, operator-algebra QEC
+    and homological codes. Do not repeat code variants; advance a topological phase only for
+    endogenous physical selection beyond a supplied commuting-projector architecture. No
+    universal selector, ontological remainder, new QEC theorem, new physical law, paper
+    promotion, simulation, hardware, provider action, submission, publication or external
+    contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

@@ -104,7 +104,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 173
+Finality, Temporal Issuance, or Possibility to Capability. It records 176
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -250,6 +250,20 @@ What *has* been earned is a strong finite control stack:
   measurement mathematics plus a DU formation-to-capability classification,
   not a new law, actualization rule, ontology, or paper
   ([result](explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md)).
+- one exact finite `HC-DU-040E` stabilizer-syndrome classification. For an
+  `[[n,k]]` stabilizer code, the complete generator-invariant syndrome is
+  exactly the Pauli quotient by the normalizer and is sufficient for a frozen
+  correctable error/recovery class. For the unrestricted Pauli class, the
+  same complete record retains the protected logical quotient `N(S)/S`, of
+  binary symplectic dimension `2k`. No code-internal classical refinement can
+  close that quotient while preserving arbitrary reference entanglement and
+  the full logical action algebra. Closing it requires an external source
+  record, logical measurement, error/task restriction, coherent access
+  enlargement, or interface retyping. This is established stabilizer,
+  Knill--Laflamme, operator-QEC, and homological-code mathematics recast as a
+  Dynamic Unity reconstruction/remainder control—not a new QEC theorem,
+  universal record selector, ontological remainder, or paper
+  ([result](explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md)).
 - one exact finite-dimensional `HC-DU-035D` center-screening finality theorem.
   A formed regional center is screened from its retained noncommutative fibre
   exactly when every complete selective future map pulls the next public
@@ -651,10 +665,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Bank `HC-DU-040D` as the standard finite positive anchor. Seek endogenous selection of the region/reference/action envelope or a physical remainder; do not fit another detector to the same final write. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Preserve the exact split: boundary-flux actions factor through the archive, interior readout exposes the retained fibre, crossing makes the historical record current-state incomplete, and formation-history access distinguishes endpoint-equivalent detectors. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Use the projector-preserving gauge envelope as the exact positive control and crossing/correlated archive error as hostile controls; never promote a finite-horizon bound to permanent finality. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Treat `HC-DU-040D` as scoped operational duality, then test one complete target-independent record class for a representation-robust observer-accessible remainder without interface refit. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Bank `HC-DU-040D` as the material positive anchor and `HC-DU-040E` as the code-relative duality/remainder anchor. Seek endogenous selection beyond a supplied detector or code; do not repeat stabilizer variants. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A complete syndrome serves the correctable recovery class while its logical kernel carries protected capability. Charge logical measurement, source logs, coherent environment access, and task/error restriction as contract changes. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Use projector-preserving gauge finality and complete local stabilizer checks as positive controls; preserve the logical/homological remainder and never equate local defect finality with full logical-state finality. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Consume the common exact-sequence lesson from `HC-DU-040D/E`: formed records reconstruct a declared quotient while capability-bearing kernel structure may remain. Seek an independently selected non-engineered instance or move to a different arena. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 

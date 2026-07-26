@@ -2183,6 +2183,73 @@ tests a new locality or selection proposition rather than transporting the
 supplied instrument. See
 `../explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md`.
 
+#### `HC-DU-040E` — Stabilizer-syndrome duality and protected logical remainder
+
+The strongest target-independent record class has now been tested in one
+complete stabilizer error-correction process. For an `[[n,k]]` code, let
+\(S\subset\overline{\mathcal P}_n\) be the stabilizer subspace and let the
+formed record be the complete generator-invariant syndrome
+
+\[
+\sigma(E)(s)=\langle E,s\rangle_{\rm sp}.
+\]
+
+Then
+
+\[
+\ker\sigma=N(S),
+\qquad
+\overline{\mathcal P}_n/N(S)\cong S^*,
+\]
+
+so the syndrome exactly reconstructs the physical Pauli error sector modulo
+the normalizer. A frozen Pauli error class is syndrome-correctable exactly
+when every same-syndrome pair differs by a stabilizer, the Pauli
+specialization of the Knill--Laflamme condition.
+
+For the unrestricted Pauli class, however, the complete same-syndrome
+remainder is
+
+\[
+\ker\sigma/S=N(S)/S,
+\]
+
+the logical Pauli group, of binary symplectic dimension \(2k\). No
+code-internal classical refinement can distinguish every logical coset while
+preserving arbitrary reference entanglement and the full encoded action
+algebra; otherwise it would induce a recovery forbidden by
+Knill--Laflamme. A logical measurement, external controller/noise log,
+restricted error or task class, coherent environment access, or changed code
+can close the finite witness only by changing the action, boundary, resource,
+completion, or interface contract.
+
+The minimum three-qubit repetition-code witness has \(I\) and
+\(X_1X_2X_3\) in the same complete syndrome fibre while a held-out logical
+\(Z\) separates their outputs with total-variation margin one. In a
+surface/toric code, the same statement is the standard homological quotient
+\(H_1=\ker\partial_1/\operatorname{im}\partial_2\): a noncontractible closed
+loop has empty local syndrome and nontrivial logical action.
+
+Together with `HC-DU-040D`, this yields the common exact-sequence control
+
+\[
+0\longrightarrow\ker r/G
+\longrightarrow M/G
+\longrightarrow\operatorname{im}r
+\longrightarrow0.
+\]
+
+The formed record reconstructs its declared quotient; the action-relative
+kernel can be irrelevant gauge, unobserved history, or protected capability.
+This does not identify gauge detectors with quantum codes and does not choose
+ontology. The component mathematics is established stabilizer QEC,
+Knill--Laflamme, operator-algebra QEC, and homological codes. The Dynamic
+Unity gain is the typed coexistence of exact operational duality and a
+capability-bearing record remainder in one complete physical process. It is
+not a new QEC theorem, universal interface selector, irreducible ontological
+remainder, new physical law, or paper promotion. See
+`../explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md`.
+
 ## Core hypotheses
 
 | ID | Hypothesis | Cheap failure mode |
@@ -2323,6 +2390,10 @@ supplied, or fitted; target constancy cannot supply interface provenance.
    [EXACT FINITE GAUGE-INVARIANT QND WRITE / CONTROLLED-ADD-SUBTRACT ORBIT /
    CONDITIONALLY ORIENTED INSTRUMENT / FINITE-HORIZON ARCHIVE /
    UNIQUE MICROSCOPIC SELECTOR AND FUNDAMENTAL ACTUALIZATION NOT EARNED]
+   HC-DU-040E stabilizer-syndrome duality and protected logical remainder
+   [EXACT FINITE CORRECTABLE-CLASS DUALITY / COMPLETE-SYNDROME LOGICAL
+   QUOTIENT / PRESERVING-REFINEMENT NO-GO / KNOWN QEC MATHEMATICS /
+   UNIVERSAL SELECTOR AND ONTOLOGICAL REMAINDER NOT EARNED]
 ```
 
 This dependency map is scientific, not an administrative pipeline. A negative
