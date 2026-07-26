@@ -56,6 +56,16 @@ verification:
 
 # Cross-repo gap hardening and non-intuitive reuse map
 
+## 2026-07-26 register supersession notice
+
+The durable agent entry point for these findings is now the root
+`COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md`. It preserves the stable `NI-*`
+identifiers from this annex, adds Dynamic Unity's own traps and the
+2026-07-22--26 corrections, freezes the five source revisions, and supplies a
+typed maintenance rule. This file remains the historical source for the
+2026-07-21 annex and its surrounding hardening work; it is not deleted or
+rewritten.
+
 ## 2026-07-24 recharter notice
 
 This register remains the lossless source for `HC-DU-001..032`, its original

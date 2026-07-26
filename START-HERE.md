@@ -99,6 +99,19 @@ theory merely because it is coherent:
 Compatibility is not equivalence. Operational equivalence is not ontology.
 Representation is not derivation. A finite fixture is not a universal law.
 
+## Before reusing a learned result
+
+Read the
+[Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
+before importing a result from Dynamic Unity, GU Formalization, Time as
+Finality, Temporal Issuance, or Possibility to Capability. It records 151
+source-pinned cases where the plausible default reverses an implication,
+silently changes construction, broadens a scoped no-go, or confuses
+representation, selection, records, access, capability, and finality.
+
+The register is an agent reasoning-control surface, not a claim ledger. Source
+repositories retain their own authority and grades.
+
 ## Honest current standing
 
 The North Star is open. No record-first ontology, new physical law, observer,
