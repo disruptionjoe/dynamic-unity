@@ -244,6 +244,27 @@ reconstruction must be resolution- and completion-indexed; a finite regular
 measurement surface can legitimately reconstruct an observer-accessible
 quotient rather than an unrestricted microgeometry.
 
+`HC-DU-040A` is a separate conditional physical-recovery branch. Its exact
+finite proxy proves that a unit-index boundary map tensored with an
+independently located triplet has index three, while also proving that
+accessible-three need not be global-index-three and that unbroken triplet or
+single-cyclic symmetry cannot generate predictive flavor. The probe passes
+`21/21`; the physical GU source operator, domain, chirality certificate and
+held-out flavor relation remain open. This does not displace the Lane-6
+record-nullspace bottleneck, and `gu-formalization` retains authority over any
+GU generation verdict. Start with
+`explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md`.
+
+Its inverse stage now freezes three protected accessible chiral families plus
+consistent completion and nonzero flavor CP, then works backward. Exact
+controls show that ordinary Standard Model anomalies are family-count blind,
+CKM-like CP requires at least three but not exactly three, and accessible
+chirality does not determine global index or hidden mirrors. Exact three must
+therefore come from a source-derived count-sensitive structure and survive a
+held-out flavor or partner test. See
+`explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md`;
+the probe passes `27/27` without identifying the physical GU operator.
+
 ## Dependency lanes
 
 Lanes express **scientific responsibility and dependency**, not methods and

@@ -1,0 +1,214 @@
+{
+  "checks": {
+    "benign_stabilization_preserves_triplet_index": true,
+    "broken_control_has_nontrivial_mixing": true,
+    "broken_control_recovers_inserted_spectrum": true,
+    "broken_flavor_operators_do_not_commute": true,
+    "closed_triplet_control_index_is_zero": true,
+    "common_cyclic_control_spectra_are_nondegenerate": true,
+    "common_cyclic_down_operator_is_fourier_diagonal": true,
+    "common_cyclic_flavor_operators_commute": true,
+    "common_cyclic_up_operator_is_fourier_diagonal": true,
+    "full_triplet_commutant_is_scalar": true,
+    "index_multiplies_across_carrier_dimensions": true,
+    "opposite_boundary_has_index_minus_one": true,
+    "restricted_access_three_expands_to_six": true,
+    "scalar_target_coded_control_can_insert_three": true,
+    "scope_contract_blocks_predictive_unified_operator": true,
+    "scope_contract_keeps_physical_source_operator_undefined": true,
+    "terminal_operator_does_not_identify_source_provenance": true,
+    "triplet_tensor_index_is_three": true,
+    "unit_boundary_index_is_one": true,
+    "vectorlike_completion_global_index_is_zero": true,
+    "vectorlike_completion_has_three_modes_each_chirality": true
+  },
+  "flavor_tournament": {
+    "broken_noncommuting_positive_control": {
+      "commutator_frobenius_norm": 7.284662009435714,
+      "consequence": "Noncommuting triplet-breaking operators can realize hierarchy and mixing, but this construction inserts both. It is FLAVOR_FIT_ONLY until a source law restricts them and yields held-out relations.",
+      "down_spectrum_input": [
+        1.5,
+        3.5,
+        7.0
+      ],
+      "down_spectrum_recovered": [
+        1.5000000000000013,
+        3.5000000000000004,
+        7.000000000000002
+      ],
+      "mixing_input": [
+        [
+          0.6,
+          -0.3076923076923077,
+          0.7384615384615385
+        ],
+        [
+          0.8,
+          0.23076923076923078,
+          -0.5538461538461539
+        ],
+        [
+          0.0,
+          0.9230769230769231,
+          0.38461538461538464
+        ]
+      ],
+      "mixing_is_nontrivial": true
+    },
+    "common_cyclic_symmetry_control": {
+      "commutator_frobenius_norm": 0.0,
+      "consequence": "One exact common cyclic action can split eigenvalues, but two normal flavor operators built only from that action commute and cannot generate nontrivial relative mixing.",
+      "down_fourier_off_diagonal_norm": 8.575667335118798e-16,
+      "down_min_spectral_gap": 0.6650635094610962,
+      "shared_eigenbasis_implies_trivial_relative_mixing": true,
+      "up_fourier_off_diagonal_norm": 2.1376834303725895e-15,
+      "up_min_spectral_gap": 0.4641016151377544
+    },
+    "full_triplet_equivariance": {
+      "commutant_dimension": 1,
+      "consequence": "A fully triplet-equivariant effective flavor operator is scalar and cannot split three masses or select a mixing basis.",
+      "constraint_rank": 8,
+      "endomorphism_dimension": 9,
+      "only_scalar_endomorphisms_survive": true
+    }
+  },
+  "index_tournament": {
+    "benign_stabilization": {
+      "codomain_dimension": 12,
+      "cokernel_dimension": 0,
+      "domain_dimension": 15,
+      "index_kernel_minus_cokernel": 3,
+      "kernel_dimension": 3,
+      "rank": 12
+    },
+    "closed_vectorlike_control": {
+      "codomain_dimension": 9,
+      "cokernel_dimension": 0,
+      "domain_dimension": 9,
+      "index_kernel_minus_cokernel": 0,
+      "kernel_dimension": 0,
+      "rank": 9
+    },
+    "dimension_sweep": [
+      {
+        "boundary_index": 1,
+        "carrier_dimension": 1,
+        "equals_carrier_times_boundary_index": true,
+        "tensor_index": 1
+      },
+      {
+        "boundary_index": 1,
+        "carrier_dimension": 2,
+        "equals_carrier_times_boundary_index": true,
+        "tensor_index": 2
+      },
+      {
+        "boundary_index": 1,
+        "carrier_dimension": 3,
+        "equals_carrier_times_boundary_index": true,
+        "tensor_index": 3
+      },
+      {
+        "boundary_index": 1,
+        "carrier_dimension": 4,
+        "equals_carrier_times_boundary_index": true,
+        "tensor_index": 4
+      },
+      {
+        "boundary_index": 1,
+        "carrier_dimension": 5,
+        "equals_carrier_times_boundary_index": true,
+        "tensor_index": 5
+      }
+    ],
+    "opposite_boundary_sector": {
+      "codomain_dimension": 3,
+      "cokernel_dimension": 1,
+      "domain_dimension": 2,
+      "index_kernel_minus_cokernel": -1,
+      "kernel_dimension": 0,
+      "rank": 2
+    },
+    "provenance_nonidentification": {
+      "all_operator_observables_identical": true,
+      "consequence": "Source ownership requires an independently audited construction map; it cannot be inferred from the final operator or index.",
+      "source_derived_label_receipt": {
+        "codomain_dimension": 2,
+        "cokernel_dimension": 0,
+        "domain_dimension": 3,
+        "index_kernel_minus_cokernel": 1,
+        "kernel_dimension": 1,
+        "rank": 2
+      },
+      "target_coded_label_receipt": {
+        "codomain_dimension": 2,
+        "cokernel_dimension": 0,
+        "domain_dimension": 3,
+        "index_kernel_minus_cokernel": 1,
+        "kernel_dimension": 1,
+        "rank": 2
+      }
+    },
+    "target_coded_scalar_index_three_control": {
+      "codomain_dimension": 1,
+      "cokernel_dimension": 0,
+      "domain_dimension": 4,
+      "index_kernel_minus_cokernel": 3,
+      "kernel_dimension": 3,
+      "rank": 1
+    },
+    "triplet_tensor": {
+      "codomain_dimension": 6,
+      "cokernel_dimension": 0,
+      "domain_dimension": 9,
+      "index_kernel_minus_cokernel": 3,
+      "kernel_dimension": 3,
+      "rank": 6
+    },
+    "unit_boundary": {
+      "codomain_dimension": 2,
+      "cokernel_dimension": 0,
+      "domain_dimension": 3,
+      "index_kernel_minus_cokernel": 1,
+      "kernel_dimension": 1,
+      "rank": 2
+    },
+    "vectorlike_completion": {
+      "codomain_dimension": 15,
+      "cokernel_dimension": 3,
+      "domain_dimension": 15,
+      "effective_three_does_not_identify_global_index": true,
+      "expanded_boundary_zero_mode_access_rank": 6,
+      "index_kernel_minus_cokernel": 0,
+      "kernel_dimension": 3,
+      "rank": 12,
+      "restricted_boundary_capability_rank": 3
+    }
+  },
+  "next_operator_contract": {
+    "access_map": "energy/region/task boundary separated from global chiral index",
+    "boundary_operator": "source-derived physical operator and domain",
+    "carrier": "actual GU triplet inside the physical vectorlike carrier",
+    "flavor_structure": "at least two source-derived noncommuting triplet-breaking effective operators or an equivalent predictive structure",
+    "held_out_requirement": "one mass, mixing, CP, running, or partner relation not used to choose the operator",
+    "index_origin": "unit boundary/topological class fixed without target import",
+    "mirror_and_anomaly_completion": "explicit local/global anomaly and inflow receipt"
+  },
+  "question": "What can a unit-index boundary operator actually add to GU's triplet carrier, and what remains missing before three chiral generations and flavor are explained?",
+  "return_contract": {
+    "fully_equivariant_flavor": "FLAVOR_DEGENERATE",
+    "gu_physical_packet": "SOURCE_OPERATOR_UNDEFINED",
+    "noncommuting_broken_flavor_control": "FLAVOR_FIT_ONLY",
+    "predictive_unified_operator": "NOT_EARNED",
+    "restricted_vectorlike_boundary": "EFFECTIVE_ACCESS_THREE",
+    "scalar_index_three_control": "TARGET_CODED_THREE",
+    "unit_index_times_triplet_proxy": "CONDITIONAL_INDEX_THREE"
+  },
+  "run_id": "RUN-20260725-234255-triplet-boundary-flavor-integrated-swing",
+  "scope": "Exact finite boundary-complex and flavor-symmetry proxy; no physical GU source action, Fredholm/APS domain, anomaly certificate, Standard Model recovery, or new physics.",
+  "summary": {
+    "passed": 21,
+    "total": 21,
+    "verdict": "CONDITIONAL_INDEX_BRIDGE_FOUND__EFFECTIVE_THREE_NONIDENTIFIED__FLAVOR_BREAKING_REQUIRED__PHYSICAL_SOURCE_OPERATOR_OPEN"
+  }
+}

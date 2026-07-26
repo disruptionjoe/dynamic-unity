@@ -1579,11 +1579,42 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   selection, provenance systems, and recursive regional composition all
   occupy components. Potential DU value lies in a common typed
   physical-selection assay, not in renaming those mature mechanisms.
+- **2026-07-25 exact finite kernel.** The integrated boundary-complex proxy
+  passes `21/21` checks. A unit-index map tensored with an independently
+  located triplet has index three, but the factor of three is inherited from
+  the carrier rather than selected by the map. A vectorlike
+  `q direct-sum q*` completion has global index zero while a declared access
+  boundary exposes three modes, so effective-three and fundamental-index-three
+  are not identified by the accessible count. Full triplet equivariance has a
+  scalar commutant, and two operators built only from one common cyclic action
+  commute and share an eigenbasis; neither can explain nondegenerate masses
+  and nontrivial relative mixing. Predictive flavor therefore requires
+  independently derived, noncommuting triplet-breaking structure and a
+  held-out consequence. The actual GU source operator and physical domain
+  remain undefined.
+- **2026-07-25 inverse chirality control.** Freezing the strongest conditional
+  low-energy target and working backward yields four additional constraints.
+  Exact one-family Standard Model anomaly sums vanish and replicate
+  homogeneously, so ordinary anomaly cancellation constrains family content
+  but is blind to the family count. Standard unitary mixing has
+  `(N-1)(N-2)/2` irreducible Dirac CP phases, so a nonzero CKM-like CP witness
+  requires at least three generations but does not select exactly three. In
+  the broad finite hidden-mode class, the same accessible `(3 left, 0 right)`
+  endpoint is compatible with every tested global index and arbitrarily many
+  hidden mirror pairs. Finally, nonzero Jarlskog/commutator CP rejects any
+  projected flavor construction confined to a common commutative cyclic
+  algebra. The inverse probe passes `27/27`; exact three therefore remains in
+  a source-derived count-sensitive structure plus a held-out relation.
 - **Status:** **CONCEPT-OPEN / CROSS-REPO REPRESENTATION GRADE / GU TRIPLET
-  INSTANCE LOCATED-BUT-NOT-FORCED / PHYSICAL SELECTOR AND DIFFERENTIATION
-  OPEN / NO GENERATION, ONTOLOGY, NEW-PHYSICS, CLAIM, PREDICTION, PAPER, OR
-  LANE PROMOTION.** See
-  `staged-multiplicity-selection-differentiation-cross-repo-synthesis-2026-07-25.md`.
+  INSTANCE LOCATED-BUT-NOT-FORCED / EXACT FINITE CONDITIONAL INDEX, INVERSE
+  IDENTIFIABILITY, ANOMALY-BLINDNESS, CP-LOWER-BOUND, AND SYMMETRY NO-GOS /
+  PHYSICAL SELECTOR AND DIFFERENTIATION OPEN / NO GENERATION, ONTOLOGY,
+  NEW-PHYSICS, CLAIM, PREDICTION, PAPER, OR LANE PROMOTION.** See
+  `staged-multiplicity-selection-differentiation-cross-repo-synthesis-2026-07-25.md`
+  and
+  `triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md`
+  and
+  `inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

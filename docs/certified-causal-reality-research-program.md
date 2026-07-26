@@ -1367,6 +1367,58 @@ Only after the preceding dependencies:
 - identify a physically selected record count, observable, sign, coefficient,
   and unit map before reopening a `Lambda~1/sqrt(N)` application.
 
+#### `HC-DU-040A` — Triplet boundary index and flavor identifiability
+
+This is a conditional physical-recovery branch, not a replacement for
+`HC-DU-038` or an active generation claim. `gu-formalization` owns the actual
+GU carrier, source action, operator/domain, index, chirality and generation
+verdict. Dynamic Unity owns the typed integration and completion controls.
+
+The exact finite proxy currently establishes:
+
+1. `ind(q tensor I_T) = dim(T) ind(q)`, so an independently derived
+   unit-index boundary map and an independently located triplet conditionally
+   yield index three;
+2. the count is inherited from the triplet and can also be target-coded, so
+   this equation alone does not explain why the physical carrier or operator
+   has the required form;
+3. a vectorlike completion can have global index zero while a declared
+   low-energy/access boundary exposes three modes, so accessible-three does
+   not identify protected-global-three;
+4. full irreducible triplet equivariance leaves only scalar flavor operators;
+   and
+5. operators built only from one common cyclic action commute and share an
+   eigenbasis, so nondegenerate spectra plus nontrivial relative mixing require
+   independently derived, noncommuting triplet-breaking structure.
+
+The deterministic probe passes `21/21`. The physical GU source operator and
+domain remain `UNDEFINED`, and the noncommuting flavor positive control is a
+fit, not an explanation. The next admissible input is a
+`TripletBoundaryFlavorOperatorPacket_V1`: source-derived operator/domain,
+completion and anomaly contract, global-index versus access-rank declaration,
+symmetry-breaking provenance, and one held-out flavor relation. See
+`explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md`
+and `tests/du_triplet_boundary_flavor_integrated_probe.py`.
+
+The inverse retrodiction stage freezes the stronger endpoint—three protected
+accessible chiral Standard Model families, consistent completion and nonzero
+flavor CP—and works backward. Its exact probe passes `27/27` and establishes:
+
+1. per-family Standard Model anomaly cancellation replicates for every family
+   count and therefore cannot select three;
+2. ordinary unitary CKM-like CP requires at least three generations but does
+   not exclude more than three;
+3. in the broad finite hidden-mode completion class, accessible `(3,0)`
+   chirality identifies neither global index nor mirror-pair content; and
+4. nonzero Jarlskog/commutator CP requires a noncommutative projected flavor
+   algebra.
+
+Exact three must therefore enter through an independently derived
+count-sensitive index/topology, a nonfactorizing family consistency condition,
+or a restricted flavor structure with a held-out result. See
+`explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md`
+and `tests/du_inverse_chirality_generation_tournament_probe.py`.
+
 ## Core hypotheses
 
 | ID | Hypothesis | Cheap failure mode |
@@ -1448,6 +1500,8 @@ Only after the preceding dependencies:
 6. HC-DU-039 cross-platform invariance
         |
 7. HC-DU-040 QFT, GR, GU, Standard Model, and cosmology applications
+   HC-DU-040A triplet boundary index and flavor identifiability
+   [EXACT FINITE CONDITIONAL AND INVERSE KERNELS; PHYSICAL OPERATOR OPEN]
 ```
 
 This dependency map is scientific, not an administrative pipeline. A negative

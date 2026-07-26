@@ -209,10 +209,27 @@ the factory follows the normal SEED gate. Strength ≈ (minimality/motivation of
 - **Falsifier:** LHC non-observation at the pinned scale; DM direct-detection / relic mismatch.
 - **Execution:** parallel-flow P08 — frame as conditional-with-a-pinned-relation, not a free-parameter catalog.
 
-### CPRED-02 — exactly 3 generations, forced by the Z/3 trit (structural)
-- **Assumption:** the generation structure is τ = Z/3 (established in-session).
-- **Content:** the count is forced to **3** — forbids 2 and 4 (a menu-restriction, not just "explains 3").
-- **Falsifier:** a 4th generation; or the Z/3 forcing failing on audit.
+### CPRED-02 — RETIRED AS WRITTEN: bare Z/3 forces exactly three generations
+- **State: RETIRED / INVALID INTEGER BRIDGE (2026-07-25).**
+- **Why:** a bare torsion class does not produce the required integer count:
+  `Hom(Z/3,Z)=0`. The currently located GU triplet carrier is vectorlike, and
+  neither a source-owned chiral operator nor its lawful integer pairing has
+  been constructed. The count three may be carried, target-coded, or exposed
+  by an access boundary without being a protected global chiral index.
+- **Surviving replacement:** `HC-DU-040A` records a conditional route in which
+  an independently derived unit-index boundary operator tensored with an
+  independently located triplet has index three. That is an exact finite
+  bridge schema, not a physical GU operator, a derivation of three
+  generations, or a prediction.
+- **Inverse control:** ordinary Standard Model anomaly cancellation permits
+  every repeated complete-family count, while ordinary CKM-like CP violation
+  requires at least three generations but also permits more. Three accessible
+  chiral families do not identify the global index in the admitted hidden-mode
+  completion class. These controls sharpen the missing exact-count burden;
+  they do not reopen this prediction.
+- **Disposition:** do not cite this entry as a current prediction. No
+  replacement `CPRED` is admitted unless the physical operator/domain,
+  chirality and at least one held-out flavor consequence are earned.
 
 ### CPRED-03 — RETIRED AS WRITTEN: exactly one external Z/2 bit
 - **State: RETIRED / STALE-PREMISE (2026-07-23).**

@@ -1,0 +1,563 @@
+{
+  "CP_and_flavor_tournament": {
+    "common_cyclic_algebra_null": {
+      "commutator_determinant_absolute": 0.0,
+      "commutator_norm": 0.0
+    },
+    "consequence": "Under ordinary unitary CKM-like assumptions, an irreducible Dirac CP phase requires at least three generations. Counts above three also admit such phases, so CP supplies a lower bound rather than an exact count. A nonzero Jarlskog/commutator witness also rejects any flavor construction confined to one common commutative cyclic algebra.",
+    "generation_counts_with_at_least_one_dirac_CP_phase": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "standard_unitary_mixing_parameter_sweep": [
+      {
+        "generations": 1,
+        "irreducible_dirac_CP_phases": 0,
+        "mixing_angles": 0
+      },
+      {
+        "generations": 2,
+        "irreducible_dirac_CP_phases": 0,
+        "mixing_angles": 1
+      },
+      {
+        "generations": 3,
+        "irreducible_dirac_CP_phases": 1,
+        "mixing_angles": 3
+      },
+      {
+        "generations": 4,
+        "irreducible_dirac_CP_phases": 3,
+        "mixing_angles": 6
+      },
+      {
+        "generations": 5,
+        "irreducible_dirac_CP_phases": 6,
+        "mixing_angles": 10
+      },
+      {
+        "generations": 6,
+        "irreducible_dirac_CP_phases": 10,
+        "mixing_angles": 15
+      }
+    ],
+    "three_generation_positive_control": {
+      "jarlskog_invariant": 3.013213650331012e-05,
+      "mass_squared_commutator_determinant": {
+        "absolute": 147095642418.65234,
+        "imaginary": 147095642418.65234,
+        "real": 8.291119987019402e-06
+      },
+      "mass_squared_commutator_norm": 82282.41174340446,
+      "unitarity_residual": 2.5216587699712165e-16
+    }
+  },
+  "anomaly_tournament": {
+    "consequence": "Because one complete Standard Model family is anomaly-free and the anomaly functional is additive, repeating it N times leaves these constraints zero for every tested N. They constrain family content but do not select N=3.",
+    "counts_passing_all_tested_anomaly_constraints": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "family_count_sweep": [
+      {
+        "SU2_doublet_count": 4,
+        "SU2_global_anomaly_parity": 0,
+        "all_tested_anomalies_cancel": true,
+        "family_count": 1,
+        "local_anomaly_vector": {
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0",
+          "SU3_squared_U1": "0",
+          "U1_cubed": "0",
+          "gravity_squared_U1": "0"
+        }
+      },
+      {
+        "SU2_doublet_count": 8,
+        "SU2_global_anomaly_parity": 0,
+        "all_tested_anomalies_cancel": true,
+        "family_count": 2,
+        "local_anomaly_vector": {
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0",
+          "SU3_squared_U1": "0",
+          "U1_cubed": "0",
+          "gravity_squared_U1": "0"
+        }
+      },
+      {
+        "SU2_doublet_count": 12,
+        "SU2_global_anomaly_parity": 0,
+        "all_tested_anomalies_cancel": true,
+        "family_count": 3,
+        "local_anomaly_vector": {
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0",
+          "SU3_squared_U1": "0",
+          "U1_cubed": "0",
+          "gravity_squared_U1": "0"
+        }
+      },
+      {
+        "SU2_doublet_count": 16,
+        "SU2_global_anomaly_parity": 0,
+        "all_tested_anomalies_cancel": true,
+        "family_count": 4,
+        "local_anomaly_vector": {
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0",
+          "SU3_squared_U1": "0",
+          "U1_cubed": "0",
+          "gravity_squared_U1": "0"
+        }
+      },
+      {
+        "SU2_doublet_count": 20,
+        "SU2_global_anomaly_parity": 0,
+        "all_tested_anomalies_cancel": true,
+        "family_count": 5,
+        "local_anomaly_vector": {
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0",
+          "SU3_squared_U1": "0",
+          "U1_cubed": "0",
+          "gravity_squared_U1": "0"
+        }
+      },
+      {
+        "SU2_doublet_count": 24,
+        "SU2_global_anomaly_parity": 0,
+        "all_tested_anomalies_cancel": true,
+        "family_count": 6,
+        "local_anomaly_vector": {
+          "SU2_squared_U1": "0",
+          "SU3_cubed": "0",
+          "SU3_squared_U1": "0",
+          "U1_cubed": "0",
+          "gravity_squared_U1": "0"
+        }
+      }
+    ],
+    "normalization_note": "Common Dynkin-index factors are suppressed for mixed anomalies; only exact zero/nonzero status is used.",
+    "one_family_exact_vector": {
+      "SU2_doublet_count": "4",
+      "SU2_global_anomaly_parity": "0",
+      "SU2_squared_U1": "0",
+      "SU3_cubed": "0",
+      "SU3_squared_U1": "0",
+      "U1_cubed": "0",
+      "gravity_squared_U1": "0"
+    }
+  },
+  "candidate_preimage_tournament": [
+    {
+      "accessible_endpoint": [
+        3,
+        0
+      ],
+      "candidate": "DIRECT_GLOBAL_INDEX_THREE",
+      "completion_discriminator": "topological response and anomaly/inflow receipt",
+      "full_conditional_packet_satisfied": false,
+      "global_index": 3,
+      "source_status": "UNDEFINED",
+      "where_three_enters": "physical index pairing, if independently derived"
+    },
+    {
+      "accessible_endpoint": [
+        3,
+        0
+      ],
+      "candidate": "UNIT_INDEX_TIMES_TRIPLET",
+      "completion_discriminator": "operator factorization and triplet provenance",
+      "full_conditional_packet_satisfied": false,
+      "global_index": 3,
+      "source_status": "UNDEFINED",
+      "where_three_enters": "independently located carrier triplet"
+    },
+    {
+      "accessible_endpoint": [
+        3,
+        0
+      ],
+      "candidate": "VECTORLIKE_COMPLETION_ACCESS_THREE",
+      "completion_discriminator": "boundary expansion, partner search, and threshold running",
+      "full_conditional_packet_satisfied": false,
+      "global_index": 0,
+      "source_status": "UNDEFINED",
+      "where_three_enters": "declared energy/region/access map"
+    },
+    {
+      "accessible_endpoint": [
+        3,
+        0
+      ],
+      "candidate": "INDEX_THREE_WITH_HIDDEN_MIRROR_PAIRS",
+      "completion_discriminator": "complete mirror census and mass-generation contract",
+      "full_conditional_packet_satisfied": false,
+      "global_index": 3,
+      "source_status": "UNDEFINED",
+      "where_three_enters": "net imbalance; total mode count remains open"
+    },
+    {
+      "accessible_endpoint": [
+        3,
+        0
+      ],
+      "candidate": "TARGET_CODED_DEFECT_OR_RECTANGULARITY",
+      "completion_discriminator": "independent derivation of the count-setting datum",
+      "full_conditional_packet_satisfied": false,
+      "global_index": 3,
+      "source_status": "TARGET_IMPORTED",
+      "where_three_enters": "flux, defect charge, rank, or rectangularity chosen as three"
+    },
+    {
+      "accessible_endpoint": [
+        3,
+        0
+      ],
+      "candidate": "THREE_COPIES_WITHOUT_COUNT_MECHANISM",
+      "completion_discriminator": "source-owned count-changing counterfactual",
+      "full_conditional_packet_satisfied": false,
+      "global_index": "UNDEFINED",
+      "source_status": "CARRIER_ONLY",
+      "where_three_enters": "matter inventory"
+    }
+  ],
+  "checks": {
+    "CP_phase_existence_does_not_select_exactly_three": true,
+    "CP_phase_existence_sets_minimum_three": true,
+    "all_family_counts_one_through_six_pass_tested_anomalies": true,
+    "all_rival_preimages_match_the_accessible_endpoint": true,
+    "anomalies_do_not_select_three": true,
+    "common_cyclic_flavor_algebra_commutes": true,
+    "common_cyclic_flavor_algebra_has_zero_CP_commutator_determinant": true,
+    "endpoint_does_not_identify_even_global_index_sign": true,
+    "four_generations_also_admit_CP_phases": true,
+    "global_index_three_does_not_identify_hidden_pair_count": true,
+    "no_candidate_has_the_full_source_operator_packet": true,
+    "one_family_SU2_squared_U1_anomaly_cancels": true,
+    "one_family_SU3_cubed_anomaly_cancels": true,
+    "one_family_SU3_squared_U1_anomaly_cancels": true,
+    "one_family_U1_cubed_anomaly_cancels": true,
+    "one_family_gravitational_U1_anomaly_cancels": true,
+    "one_family_has_even_SU2_doublet_count": true,
+    "registry_contains_count_sensitive_successor_channels": true,
+    "rival_preimages_disagree_on_global_index_or_provenance": true,
+    "same_accessible_endpoint_spans_all_tested_global_indices": true,
+    "target_coded_candidate_is_flagged": true,
+    "three_generation_CKM_control_is_unitary": true,
+    "three_generation_Jarlskog_control_is_nonzero": true,
+    "three_generation_mass_commutator_CP_witness_is_nonzero": true,
+    "three_generations_have_one_irreducible_dirac_CP_phase": true,
+    "two_generations_have_no_irreducible_dirac_CP_phase": true,
+    "vectorlike_global_zero_can_expose_access_three": true
+  },
+  "completion_tournament": {
+    "arbitrary_global_index_completion_sweep": [
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": -5,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 8,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 8,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": -4,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 7,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 7,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": -3,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 6,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 6,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": -2,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 5,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 5,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": -1,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 4,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 4,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": 0,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 3,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 3,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": 1,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 2,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 2,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": 2,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 1,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 1,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": 3,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 0,
+        "hidden_left_zero_modes": 0,
+        "hidden_right_zero_modes": 0,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": 4,
+        "global_left_zero_modes": 4,
+        "global_right_zero_modes": 0,
+        "hidden_left_zero_modes": 1,
+        "hidden_right_zero_modes": 0,
+        "same_accessible_endpoint": true
+      },
+      {
+        "accessible_left_zero_modes": 3,
+        "accessible_right_zero_modes": 0,
+        "global_index": 5,
+        "global_left_zero_modes": 5,
+        "global_right_zero_modes": 0,
+        "hidden_left_zero_modes": 2,
+        "hidden_right_zero_modes": 0,
+        "same_accessible_endpoint": true
+      }
+    ],
+    "consequence": "Within the broad finite hidden-mode completion class, the same accessible three-left/zero-right endpoint is compatible with many total mode counts and every tested global index. Even a known global index of three does not determine hidden mirror-pair content.",
+    "declared_accessible_endpoint_left_right": [
+      3,
+      0
+    ],
+    "index_three_hidden_pair_sweep": [
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 3,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 0,
+        "hidden_mirror_pair_count": 0
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 3,
+        "global_left_zero_modes": 4,
+        "global_right_zero_modes": 1,
+        "hidden_mirror_pair_count": 1
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 3,
+        "global_left_zero_modes": 5,
+        "global_right_zero_modes": 2,
+        "hidden_mirror_pair_count": 2
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 3,
+        "global_left_zero_modes": 6,
+        "global_right_zero_modes": 3,
+        "hidden_mirror_pair_count": 3
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 3,
+        "global_left_zero_modes": 7,
+        "global_right_zero_modes": 4,
+        "hidden_mirror_pair_count": 4
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 3,
+        "global_left_zero_modes": 8,
+        "global_right_zero_modes": 5,
+        "hidden_mirror_pair_count": 5
+      }
+    ],
+    "scope_limit": "This is a completion-class nonidentification result. It does not assert that every combinatorial completion is a local, unitary, gauge-consistent physical theory.",
+    "vectorlike_access_three_sweep": [
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 0,
+        "global_left_zero_modes": 3,
+        "global_right_zero_modes": 3,
+        "hidden_zero_modes": 3
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 0,
+        "global_left_zero_modes": 4,
+        "global_right_zero_modes": 4,
+        "hidden_zero_modes": 5
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 0,
+        "global_left_zero_modes": 5,
+        "global_right_zero_modes": 5,
+        "hidden_zero_modes": 7
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 0,
+        "global_left_zero_modes": 6,
+        "global_right_zero_modes": 6,
+        "hidden_zero_modes": 9
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 0,
+        "global_left_zero_modes": 7,
+        "global_right_zero_modes": 7,
+        "hidden_zero_modes": 11
+      },
+      {
+        "accessible_endpoint": [
+          3,
+          0
+        ],
+        "global_index": 0,
+        "global_left_zero_modes": 8,
+        "global_right_zero_modes": 8,
+        "hidden_zero_modes": 13
+      }
+    ]
+  },
+  "count_sensitive_channel_registry": [
+    {
+      "channel": "ordinary_SM_local_anomaly_cancellation",
+      "count_status": "BLIND_AFTER_ONE_FAMILY_CANCELS",
+      "next_requirement": "none; use it to constrain family content"
+    },
+    {
+      "channel": "ordinary_SM_SU2_global_anomaly",
+      "count_status": "BLIND_BECAUSE_EACH_FAMILY_HAS_FOUR_DOUBLETS",
+      "next_requirement": "a nonfactorizing family-sensitive global structure"
+    },
+    {
+      "channel": "CKM_like_CP_existence",
+      "count_status": "LOWER_BOUND_N_AT_LEAST_3",
+      "next_requirement": "an independent exclusion of N greater than 3"
+    },
+    {
+      "channel": "source_derived_index_or_K_theory_pairing",
+      "count_status": "POTENTIALLY_EXACT",
+      "next_requirement": "actual operator/domain and target-independent index origin"
+    },
+    {
+      "channel": "horizontal_or_discrete_family_anomaly",
+      "count_status": "POTENTIALLY_COUNT_SENSITIVE",
+      "next_requirement": "independently derived family symmetry and full anomaly audit"
+    },
+    {
+      "channel": "boundary_or_energy_access_expansion",
+      "count_status": "COMPLETION_SENSITIVE_NOT_EXACT_COUNT_BY_ITSELF",
+      "next_requirement": "matched partner, threshold, and resource observations"
+    },
+    {
+      "channel": "restricted_flavor_algebra_with_held_out_relation",
+      "count_status": "POTENTIALLY_SELECTIVE",
+      "next_requirement": "source-derived noncommuting operators and unused prediction"
+    },
+    {
+      "channel": "topological_deformation_response",
+      "count_status": "PROTECTION_SENSITIVE",
+      "next_requirement": "physical gap/locality and permitted deformation class"
+    }
+  ],
+  "frozen_conditional_target": "Three observed matter generations are the protected chiral low-energy kernel of one source-derived physical operator, with consistent anomaly/mirror completion and restricted source-derived flavor breaking yielding nondegenerate masses, nontrivial mixing, and nonzero rephasing-invariant CP.",
+  "return_contract": {
+    "accessible_chirality": "CHIRAL_ENDPOINT_UNDERIDENTIFIES_GLOBAL_COMPLETION",
+    "common_cyclic_flavor": "NONCOMMUTING_FLAVOR_REQUIRED",
+    "integrated": "CONDITIONAL_TARGET_CONSTRAINS__EXACT_THREE_REMAINS_SOURCE_SENSITIVE__UV_CAUSE_NONIDENTIFIED",
+    "ordinary_CKM_CP": "CP_REQUIRES_AT_LEAST_THREE_NOT_EXACTLY_THREE",
+    "ordinary_SM_anomalies": "ANOMALY_REPLICATION_BLIND_TO_COUNT",
+    "physical_GU_source_operator": "PHYSICAL_SOURCE_OPERATOR_OPEN"
+  },
+  "run_id": "RUN-20260725-235834-inverse-chirality-generation",
+  "scope": "Conditional inverse inference with exact anomaly arithmetic, finite hidden-mode completions, and standard unitary mixing controls; no GU source operator or generation derivation.",
+  "summary": {
+    "passed": 27,
+    "total": 27,
+    "verdict": "CONDITIONAL_TARGET_CONSTRAINS__ANOMALIES_COUNT_BLIND__CP_LOWER_BOUND_NOT_EXACT_COUNT__UV_CAUSE_NONIDENTIFIED__PHYSICAL_SOURCE_OPERATOR_OPEN"
+  }
+}
