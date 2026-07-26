@@ -982,6 +982,21 @@ resolution-stable intervention role. No claim is banked or seeded. See
   This is exact known mathematics; physical regions and the complete future
   action class remain unselected. See
   `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
+- **Earned algebraic-QFT transport and capability-growth boundary.**
+  `HC-DU-040B` removes the finite-dimensional crutch from one part of the
+  program. For any unital von Neumann algebra and finite internal PVM, the
+  Lüders channel preserves every admitted action iff every record projection
+  is central. A factor therefore has only the trivial exact internal
+  nondisturbing finite sharp record. Nontrivial QFT records must use an
+  independently justified effective action restriction, an enlarged local
+  source--probe--pointer--archive interface, sector/global/boundary structure,
+  or an approximate horizon-indexed contract. Split/type-I interpolation is
+  an arena assumption, not an interface selector. Finality defect is
+  anti-monotone under capability enlargement; nonzero local leakage requires
+  a finite horizon plus contraction, reset, or summability. The theorem
+  components are known operator-algebra mathematics; the earned DU result is
+  a sharper arena-selection and claim boundary. See
+  `algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md`.
 - **Earned screened-effective-physics/source-attribution boundary.**
   `HC-DU-039C` separates operational completeness from physical source
   reconstruction. A selectively screened public process determines its
@@ -1066,8 +1081,11 @@ resolution-stable intervention role. No claim is banked or seeded. See
      physical symmetry breaker it adds.
   4. `HC-DU-038`: before crediting a record with geometry reconstruction,
      report the lawful target diameter without records. The next physical
-     arena must retain nonzero law-only target diameter and include an
-     independently realized symmetry breaker plus formed record instrument.
+     arena must retain nonzero law-only target diameter, externalize a local
+     source--probe--pointer--archive rather than rely on a full factor center,
+     include an independently realized symmetry breaker, freeze its future
+     capability envelope and horizon, and carry a held-out transfer or
+     first-leak witness.
 - **Central failure modes.** Primitive circularity, sufficiency tautology,
   per-fixture interface refitting, weak adversary manufacture, endpoint or
   redundancy substitution, hidden resource export, covariance overclaim,
@@ -1097,6 +1115,10 @@ resolution-stable intervention role. No claim is banked or seeded. See
   COMMUTATIVE / NONCOMMUTATIVE BLOCKS RETAIN A FINITE CAPABILITY-RELATIVE
   REMAINDER / FACTORS HAVE NO NONTRIVIAL ACTION-INTERNAL NONDISTURBING SHARP
   RECORD /
+  HC-DU-040B VON NEUMANN TRANSPORT AND LOCAL-FACTOR INTERNAL-RECORD NO-GO
+  EXACT AS KNOWN OPERATOR-ALGEBRA MATHEMATICS / SPLIT STRUCTURE DOES NOT
+  SELECT A RECORD / APPROXIMATE FINALITY REQUIRES A CAPABILITY ENVELOPE AND
+  FINITE HORIZON /
   HC-DU-035D SELECTIVE CENTER-SCREENING FINALITY AND FIRST-LEAK LOCALIZATION
   EXACT / QUANTUM FIBRES MAY PERSIST BEHIND A FINAL PUBLIC CENTER /
   AGGREGATE-ONLY CENTER PRESERVATION REJECTED /
@@ -1818,6 +1840,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   It does not select a physical regionalization, action algebra, boundary,
   archive, or complete future action class. See
   `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
+- **2026-07-26 algebraic-QFT and approximate-horizon correction.**
+  `HC-DU-040B` shows that the exact center-screening idea does transport to
+  unital von Neumann algebras, but it becomes maximally restrictive for
+  factor local algebras: the exact internal sharp record is trivial. Recursive
+  regional finality in QFT must therefore type its external probe/archive or
+  effective public subalgebra explicitly. For approximate maps, the
+  regional contraction defects add over a declared finite chain; coherent
+  repetition can amplify modest one-step leakage to nearly maximal output.
+  Future recursion claims must freeze the capability envelope and horizon,
+  not extrapolate durability from one local error number. See
+  `algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.

@@ -227,6 +227,29 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     between equivalent interpretations of one Hamiltonian. `HC-DU-039D` is
     the standing physical channel control.
 
+24. **Finite-center/QFT-record substitution.** *Objection:* the finite
+    action-center theorem is carried into AQFT by assuming a useful
+    nontrivial local center, or a split/type-I interpolation is treated as
+    selection of a record. *Way through:* use the exact von Neumann theorem:
+    a finite internal PVM preserves the full admitted algebra iff every
+    projection is central. A factor therefore permits only the trivial exact
+    internal nondisturbing sharp record. Type the actual repair—effective
+    action restriction, external local probe/pointer/archive, sector or
+    boundary structure, split inclusion, or approximate horizon—and
+    independently justify every added interface. `HC-DU-040B` is the standing
+    transport control.
+
+25. **Local-error/durable-finality substitution.** *Objection:* a small
+    one-step screening defect is reported as persistent approximate finality,
+    or a record certified for the present action set is assumed final under
+    future capability growth. *Way through:* freeze the action envelope,
+    compositional norm, and time horizon. Exact defects compose; approximate
+    generator or regional defects add unless contraction, reset, or a
+    summable budget is proved. Enlarging the admitted action set cannot lower
+    the supremum defect. The `HC-DU-040B` rational control shows coherent
+    amplification from one-step amplitude `20/101` to above `0.9997` after
+    eight repetitions.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer

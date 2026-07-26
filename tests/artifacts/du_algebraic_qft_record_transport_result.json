@@ -1,0 +1,378 @@
+{
+  "approximate_horizon_control": {
+    "eight_step_leakage": "10825473963759840/10828567056280801",
+    "eight_step_leakage_decimal": 0.9997143580951307,
+    "one_step_cos": "99/101",
+    "one_step_leakage": "20/101",
+    "rows": [
+      {
+        "cos": "99/101",
+        "horizon": 1,
+        "leakage": "20/101",
+        "leakage_decimal": 0.19801980198019803,
+        "sin": "20/101"
+      },
+      {
+        "cos": "9401/10201",
+        "horizon": 2,
+        "leakage": "3960/10201",
+        "leakage_decimal": 0.3881972355651407,
+        "sin": "3960/10201"
+      },
+      {
+        "cos": "851499/1030301",
+        "horizon": 3,
+        "leakage": "580060/1030301",
+        "leakage_decimal": 0.5630005212069095,
+        "sin": "580060/1030301"
+      },
+      {
+        "cos": "72697201/104060401",
+        "horizon": 4,
+        "leakage": "74455920/104060401",
+        "leakage_decimal": 0.7155067565038501,
+        "sin": "74455920/104060401"
+      },
+      {
+        "cos": "5707904499/10510100501",
+        "horizon": 5,
+        "leakage": "8825080100/10510100501",
+        "leakage_decimal": 0.8396760905531135,
+        "sin": "8825080100/10510100501"
+      },
+      {
+        "cos": "388580943401/1061520150601",
+        "horizon": 6,
+        "leakage": "987841019880/1061520150601",
+        "leakage_decimal": 0.9305909259666101,
+        "sin": "987841019880/1061520150601"
+      },
+      {
+        "cos": "18712692999099/107213535210701",
+        "horizon": 7,
+        "leakage": "105567879836140/107213535210701",
+        "leakage_decimal": 0.9846506752032113,
+        "sin": "105567879836140/107213535210701"
+      },
+      {
+        "cos": "-258800989811999/10828567056280801",
+        "horizon": 8,
+        "leakage": "10825473963759840/10828567056280801",
+        "leakage_decimal": 0.9997143580951307,
+        "sin": "10825473963759840/10828567056280801"
+      }
+    ]
+  },
+  "center_transport_control": {
+    "diagonal_center_dimension": 2,
+    "expanded_action_responses": [
+      "1",
+      "0"
+    ],
+    "expanded_factor_proxy_center_dimension": 1,
+    "same_record": [
+      "1/2",
+      "1/2"
+    ]
+  },
+  "checks": [
+    {
+      "evidence": true,
+      "name": "binary_pvm_complete",
+      "passed": true
+    },
+    {
+      "evidence": true,
+      "name": "binary_pvm_orthogonal",
+      "passed": true
+    },
+    {
+      "evidence": true,
+      "name": "binary_pvm_idempotent",
+      "passed": true
+    },
+    {
+      "evidence": true,
+      "name": "luders_fixes_identity",
+      "passed": true
+    },
+    {
+      "evidence": true,
+      "name": "luders_fixes_public_Z",
+      "passed": true
+    },
+    {
+      "evidence": true,
+      "name": "luders_removes_coherent_X",
+      "passed": true
+    },
+    {
+      "evidence": 2,
+      "name": "diagonal_action_algebra_has_two_dimensional_center",
+      "passed": true
+    },
+    {
+      "evidence": 1,
+      "name": "coherent_action_expansion_generates_factor_proxy",
+      "passed": true
+    },
+    {
+      "evidence": [
+        "0",
+        "1",
+        "-1",
+        "0"
+      ],
+      "name": "record_projector_not_central_after_expansion",
+      "passed": true
+    },
+    {
+      "evidence": [
+        "1/2",
+        "1/2"
+      ],
+      "name": "coherent_pair_has_same_public_record",
+      "passed": true
+    },
+    {
+      "evidence": [
+        "1",
+        "0"
+      ],
+      "name": "new_coherent_effect_separates_same_record_pair",
+      "passed": true
+    },
+    {
+      "evidence": true,
+      "name": "binary_luders_commutator_identity",
+      "passed": true
+    },
+    {
+      "evidence": true,
+      "name": "expanded_action_has_unit_exact_disturbance",
+      "passed": true
+    },
+    {
+      "evidence": [
+        "99/101",
+        "20/101"
+      ],
+      "name": "rational_rotation_is_on_unit_circle",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "99/101",
+        "horizon": 1,
+        "leakage": "20/101",
+        "leakage_decimal": 0.19801980198019803,
+        "sin": "20/101"
+      },
+      "name": "rotation_norm_preserved_h1",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "20/101",
+        "bound": "20/101"
+      },
+      "name": "word_length_bound_h1",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "9401/10201",
+        "horizon": 2,
+        "leakage": "3960/10201",
+        "leakage_decimal": 0.3881972355651407,
+        "sin": "3960/10201"
+      },
+      "name": "rotation_norm_preserved_h2",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "3960/10201",
+        "bound": "40/101"
+      },
+      "name": "word_length_bound_h2",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "851499/1030301",
+        "horizon": 3,
+        "leakage": "580060/1030301",
+        "leakage_decimal": 0.5630005212069095,
+        "sin": "580060/1030301"
+      },
+      "name": "rotation_norm_preserved_h3",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "580060/1030301",
+        "bound": "60/101"
+      },
+      "name": "word_length_bound_h3",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "72697201/104060401",
+        "horizon": 4,
+        "leakage": "74455920/104060401",
+        "leakage_decimal": 0.7155067565038501,
+        "sin": "74455920/104060401"
+      },
+      "name": "rotation_norm_preserved_h4",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "74455920/104060401",
+        "bound": "80/101"
+      },
+      "name": "word_length_bound_h4",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "5707904499/10510100501",
+        "horizon": 5,
+        "leakage": "8825080100/10510100501",
+        "leakage_decimal": 0.8396760905531135,
+        "sin": "8825080100/10510100501"
+      },
+      "name": "rotation_norm_preserved_h5",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "8825080100/10510100501",
+        "bound": "100/101"
+      },
+      "name": "word_length_bound_h5",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "388580943401/1061520150601",
+        "horizon": 6,
+        "leakage": "987841019880/1061520150601",
+        "leakage_decimal": 0.9305909259666101,
+        "sin": "987841019880/1061520150601"
+      },
+      "name": "rotation_norm_preserved_h6",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "987841019880/1061520150601",
+        "bound": "120/101"
+      },
+      "name": "word_length_bound_h6",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "18712692999099/107213535210701",
+        "horizon": 7,
+        "leakage": "105567879836140/107213535210701",
+        "leakage_decimal": 0.9846506752032113,
+        "sin": "105567879836140/107213535210701"
+      },
+      "name": "rotation_norm_preserved_h7",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "105567879836140/107213535210701",
+        "bound": "140/101"
+      },
+      "name": "word_length_bound_h7",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "cos": "-258800989811999/10828567056280801",
+        "horizon": 8,
+        "leakage": "10825473963759840/10828567056280801",
+        "leakage_decimal": 0.9997143580951307,
+        "sin": "10825473963759840/10828567056280801"
+      },
+      "name": "rotation_norm_preserved_h8",
+      "passed": true
+    },
+    {
+      "evidence": {
+        "actual": "10825473963759840/10828567056280801",
+        "bound": "160/101"
+      },
+      "name": "word_length_bound_h8",
+      "passed": true
+    },
+    {
+      "evidence": "20/101",
+      "name": "one_step_leakage_exact",
+      "passed": true
+    },
+    {
+      "evidence": "10825473963759840/10828567056280801",
+      "name": "eight_step_leakage_exact",
+      "passed": true
+    },
+    {
+      "evidence": 0.9997143580951307,
+      "name": "eight_step_leakage_near_maximal",
+      "passed": true
+    },
+    {
+      "evidence": "10825473963759840/10828567056280801",
+      "name": "same_record_response_gap_equals_eight_step_leakage",
+      "passed": true
+    },
+    {
+      "evidence": [],
+      "name": "symmetric_interface_family_has_no_fixed_point",
+      "passed": true
+    },
+    {
+      "evidence": [
+        0,
+        1,
+        2
+      ],
+      "name": "symmetric_interface_orbit_is_selected",
+      "passed": true
+    },
+    {
+      "evidence": [
+        0
+      ],
+      "name": "oriented_reference_selects_one_point",
+      "passed": true
+    }
+  ],
+  "checks_passed": "37/37",
+  "claim_ceiling": [
+    "exact finite regression after direct proof",
+    "no QFT simulation",
+    "no physically selected apparatus or record",
+    "no universal approximate-finality law",
+    "no ontology, new physics, hardware result, or paper promotion"
+  ],
+  "claim_id": "HC-DU-040B",
+  "disposition": "KNOWN_OPERATOR_ALGEBRA_TRANSPORT__FACTOR_INTERNAL_RECORD_NO_GO__FINITE_HORIZON_APPROXIMATE_FINALITY_ONLY",
+  "symmetry_control": {
+    "fixed_points_with_oriented_reference": [
+      0
+    ],
+    "fixed_points_without_reference": [],
+    "selected_orbit": [
+      0,
+      1,
+      2
+    ]
+  }
+}

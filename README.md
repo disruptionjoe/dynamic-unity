@@ -175,6 +175,14 @@ current results establish the starting boundary, not the answer:
   independent review. It has not thereby produced a physical observer,
   selected record interface, held-out spacetime geometry, dimensional scale,
   or fundamental ontology.
+- `HC-DU-040B` transports the finite action-center theorem to unital von
+  Neumann algebras. A full factor admits no nontrivial exact internal
+  nondisturbing finite sharp record, so the next QFT-scale arena must use a
+  justified effective action restriction or a local
+  source--probe--pointer--archive interface. Approximate finality additionally
+  requires a frozen capability envelope and finite horizon because leakage
+  can accumulate and action growth can reopen a record. This is a known-
+  mathematics boundary, not a selected QFT record or new physics.
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
   benchmarks, or downstream applications. None governs the new charter and none is promoted

@@ -219,7 +219,7 @@ bibliography.
 | Quantum causal models | Generalize common-cause explanation and conditional independence to quantum systems | Several quantum causal formalisms exist, and causal discovery/selection remains difficult | Connect certified history and intervention structure to one nontrivial quantum causal factorization or selection theorem |
 | Process tensors and quantum combs | Give complete operational descriptions of multi-time processes with memory | They characterize processes but do not by themselves decide which histories are public, final, or ontologically primary | Add a certified-history quotient and show whether capability factors through it or exposes a remainder |
 | Barandes stochastic-quantum correspondence | Embeds a broad finite initial-time stochastic transition family into CPTP and enlarged unitary/unistochastic structure | The published construction chooses phases and a dilation nonuniquely and sets the dilated conditioning-time set to the distinguished initial time; it does not select a physical stochastic law or preserve an interventionally complete multi-time process by itself | Use it as a representation-without-selection absorber, then require the full process, physical instrument, record formation, and held-out intervention before a DU sufficiency claim |
-| QFT and algebraic QFT | Supply relativistic local fields/algebras, covariance, and highly successful particle physics | Measurement localization, state update, and integration with gravity remain distinct boundaries | Formulate records and finality as local probe-induced instruments whose composition respects causal factorization |
+| QFT and algebraic QFT | Supply relativistic local fields/algebras, covariance, and highly successful particle physics; under standard AQFT hypotheses local algebras are commonly factors, often type III | Measurement localization, state update, and integration with gravity remain distinct boundaries; a full local factor has scalar center, so its center cannot by itself be a nontrivial exact internal sharp record | Formulate records through local source--probe--pointer--archive instruments or independently justified effective subalgebras, then test causal composition, capability growth, and finite-horizon leakage without treating split/type-I interpolation as a selector |
 | Causal fermion systems and causal action | Variationally select universal measures from a supplied causal-variational problem and conditionally recover geometric, field, Fock, and collapse structures | Existence, uniqueness, regularization, continuum ansatz, smooth support, observer boundary, instrument, record map, and finality rule remain separately scoped; configuration selection does not automatically select a record interface | Use the causal action as an independently motivated physical-law filter on completion fibres, then test whether observer-accessible targets factor through independently formed certified records |
 | Causal-set programs | Treat causal order as fundamental and develop covariant growth/recovery programs | Dynamics, quantum measure, manifold recovery, scale, and observer records remain nontrivial | Distinguish global causal order from regional certified access and derive recursive observer-relative quotients without importing geometry |
 | Holography and tensor-network reconstruction | Relate boundary information, code subspaces, geometry, and bulk reconstruction | Reconstruction is code-subspace-, access-, and sometimes state-dependent; ontology does not follow from duality | Treat boundary certificates and entanglement wedges as capability-relative record quotients and seek a uniqueness or remainder theorem |
@@ -455,6 +455,19 @@ precise obstruction.
 **Not a delta.** Declaring a record law covariant without a local physical
 coupling or induced observable.
 
+**Current exact boundary (`HC-DU-040B`).** For a finite PVM internal to any
+unital von Neumann algebra, the nonselective Lüders channel preserves the
+whole algebra exactly iff every record projection is central. Thus a local
+factor admits only the trivial exact internal nondisturbing finite sharp
+record. This does not say QFT has no records: it says a nontrivial record must
+come from a justified action restriction, an enlarged local probe/archive
+interface, sector/global/boundary structure, or an approximate
+horizon-indexed contract. The split property can create an interpolating
+type-I arena under assumptions, but it does not select the instrument,
+pointer, archive, decoder, or oriented reference. Approximate leakage can
+accumulate coherently, and finality defect cannot improve merely by enlarging
+the admitted capability set.
+
 ### 10. Causal order versus observer-accessible reality
 
 **Established.** Causal-set and histories programs can assign global or
@@ -559,8 +572,8 @@ interventional sufficiency, not another finite selector fit.
 | Record sufficiency or physical remainder | Translate the five-part integrated contract into process-tensor, quantum-instrument, statistical-experiment, and system-identification language before physical escalation. Use the exact finite `HC-DU-036C` stochastic-decoder deficiency and `HC-DU-036D` uncertainty gate only after complete attempt visibility and reset; distinguish reconstruction, resource-Pareto repair, class-relative positive margin, and incomplete contract | `HC-DU-036/036C/036D/036E/036F` |
 | Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
 | Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records. `HC-DU-039C/D` add that one measured total phase, reduced visibility, or even a nonclassical conditioned channel still needs an independently calibrated full-rank source intervention before it can be attributed to duration or field structure | `HC-DU-038/038D/039C/039D` |
-| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers kernel-containment across clock and distributed controls; `HC-DU-039D` physically instantiates the independent nonclassicality/source-attribution axes in optical-clock channel language | `HC-DU-039/039C/039D` |
-| Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder | `HC-DU-040` |
+| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers kernel-containment across clock and distributed controls; `HC-DU-039D` physically instantiates the independent nonclassicality/source-attribution axes in optical-clock channel language; `HC-DU-040B` transports the action-center theorem to von Neumann algebras while exposing the factor and finite-horizon boundaries | `HC-DU-039/039C/039D/040B` |
+| Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder. The current gate requires an externalized local record interface, physical symmetry breaker, declared capability envelope/horizon, nonzero law-only target diameter, and held-out transfer rather than a local-factor-center relabeling | `HC-DU-040/040B` |
 
 ## Pointers, not prescriptions
 

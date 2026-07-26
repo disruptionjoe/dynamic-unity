@@ -1967,6 +1967,90 @@ records, and benign refinement. Its specific job is to distinguish protected
 global index three from independently factored unit-index-times-triplet,
 vectorlike access rank three, and target-coded three.
 
+#### `HC-DU-040B` — Algebraic-QFT record transport and capability-stable finality
+
+This is the first assumption-breaker after the finite five-swing
+reconstruction campaign. It asks whether the action-center and
+center-screening results survive passage to operator algebras appropriate to
+QFT, approximate screening, expanding capabilities, and symmetry-selected
+interface families.
+
+Let \(\mathcal A\) be a unital von Neumann algebra, let
+\(\{P_q\}_{q=1}^n\subseteq\mathcal A\) be a finite PVM, and define
+
+\[
+\Lambda^*(X)=\sum_q P_qXP_q.
+\]
+
+Then
+
+\[
+\Lambda^*|_{\mathcal A}=\operatorname{id}_{\mathcal A}
+\quad\Longleftrightarrow\quad
+P_q\in Z(\mathcal A)\ \text{for every }q.
+\]
+
+The proof is the same block argument as in the finite action-center result
+and requires neither a trace nor minimal projections. Consequently, if
+\(\mathcal A\) is a factor, every exact internal nondisturbing finite sharp
+record is trivial. A net whose bounded-region algebras are factors therefore
+cannot obtain a nontrivial bounded-region record net solely from the local
+centers.
+
+This is a boundary, not a claim that QFT has no records. A nontrivial QFT
+record may instead require:
+
+1. an independently justified effective restriction of the admitted action
+   algebra;
+2. an enlarged local source--probe--pointer--archive interface;
+3. sector, global, boundary, or asymptotic structure;
+4. a split/type-I interpolation under additional physical assumptions; or
+5. an approximate, scale- and horizon-indexed record.
+
+The split property can supply a subsystem arena; it does not by itself select
+the probe, pointer basis, archive, decoder, access rule, or oriented
+reference.
+
+For a binary record projection \(P\), write
+
+\[
+\Lambda_P^*(X)=PXP+(1-P)X(1-P).
+\]
+
+Then
+
+\[
+\|X-\Lambda_P^*(X)\|=\|[P,X]\|.
+\]
+
+The screening defect is monotone under enlargement of the admitted action
+set. For a word \(X_1\cdots X_k\), its commutator defect is bounded by the sum
+of the generator defects. More generally, contraction pullbacks with
+orthogonal public projections obey a finite-horizon sum bound. Exact zero
+therefore composes indefinitely, but nonzero local error earns only a
+finite-horizon result unless contraction, reset, or summability prevents
+accumulation. The exact rational control with
+\(\cos\theta=99/101\), \(\sin\theta=20/101\) reaches
+
+\[
+\sin(8\theta)
+=\frac{10825473963759840}{10828567056280801}>0.9997,
+\]
+
+showing that a modest one-step leakage can become nearly maximal under
+coherent repetition.
+
+The next admissible arena must externalize a local record mechanism, include
+an independently physical symmetry breaker, declare its future capability
+envelope and horizon, retain nonzero lawful target diameter before record
+conditioning, and support one held-out no-refitting target or first-leak
+witness. The result is known operator-algebra mathematics plus a Dynamic
+Unity arena-selection boundary. It establishes no selected QFT record,
+universal approximate-finality law, ontology, new physics, or paper
+promotion. See
+`explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md`
+and `tests/du_algebraic_qft_record_transport_probe.py`.
+
 ## Core hypotheses
 
 | ID | Hypothesis | Cheap failure mode |
@@ -2097,6 +2181,9 @@ supplied, or fitted; target constancy cannot supply interface provenance.
 7. HC-DU-040 QFT, GR, GU, Standard Model, and cosmology applications
    HC-DU-040A triplet boundary index and flavor identifiability
    [EXACT FINITE CONDITIONAL AND INVERSE KERNELS; PHYSICAL OPERATOR OPEN]
+   HC-DU-040B algebraic-QFT record transport and capability-stable finality
+   [VON NEUMANN TRANSPORT / FACTOR-INTERNAL RECORD NO-GO / FINITE-HORIZON
+   APPROXIMATE BOUNDARY; PHYSICAL QFT RECORD INTERFACE OPEN]
 ```
 
 This dependency map is scientific, not an administrative pipeline. A negative

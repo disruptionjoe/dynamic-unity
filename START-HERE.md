@@ -104,7 +104,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 162
+Finality, Temporal Issuance, or Possibility to Capability. It records 170
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -208,6 +208,21 @@ What *has* been earned is a strong finite control stack:
   algebra or a new quantum law
   ([result](explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md);
   [probe](tests/du_action_center_capability_boundary_probe.py)).
+- one scoped `HC-DU-040B` transport of that boundary to unital von Neumann
+  algebras. A finite internal PVM preserves every admitted action iff all of
+  its projections are central. Consequently, a factor has only the trivial
+  exact internal sharp record, and a net of factor local algebras cannot
+  obtain a nontrivial bounded-region record merely by taking local centers.
+  QFT records must instead use a justified effective action restriction, an
+  enlarged local probe/pointer/archive interface, sector/global/boundary
+  structure, or an explicitly approximate and horizon-indexed contract.
+  Approximate leakage can accumulate coherently, and finality is
+  anti-monotone under capability enlargement, so neither a small one-step
+  defect nor the AQFT split property selects a durable record. This is known
+  operator-algebra mathematics plus a DU arena-selection boundary, not a
+  selected QFT record or new physics
+  ([result](explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md);
+  [probe](tests/du_algebraic_qft_record_transport_probe.py)).
 - one exact finite-dimensional `HC-DU-035D` center-screening finality theorem.
   A formed regional center is screened from its retained noncommutative fibre
   exactly when every complete selective future map pulls the next public
@@ -457,12 +472,30 @@ the result. Even full operational coefficient attribution cannot choose
 between equivalent proper-time and mass-energy interpretations of the same
 Hamiltonian.
 
-The five-swing campaign is complete. The next local dependency is not another
-clock toy or hardware path: derive the complete nuisance-aware sensitivity
-matrix for one published source variation—preferably motional Fock
-separation or trap frequency—and construct the smallest matched-control rival
-that could mimic its held-out slope. Escalate to data or hardware only if
-that local contract leaves an experimentally decidable margin.
+The five-swing campaign is complete, and its first assumption-breaker has now
+transported the action-center result into the algebraic-QFT setting. The
+transport closes one tempting route: a full local factor algebra cannot
+contain a nontrivial exact sharp record that is both internal and
+nondisturbing for every local action. The split property may create a
+type-I interpolation under additional assumptions, but it does not select a
+probe, pointer, archive, decoder, or record axis.
+
+The next high-value dependency is therefore **physical arena selection**, not
+another abstract center calculation, clock toy, or hardware path. Compare
+the smallest candidate arenas that each provide:
+
+1. a local source--probe--pointer--archive mechanism rather than an internal
+   full-factor record;
+2. an independently physical symmetry breaker or reference selecting the
+   interface up to its true stabilizer;
+3. a declared future capability envelope and finite horizon, including
+   contraction, reset, or summable leakage when the claim is approximate;
+4. nonzero lawful target diameter before records; and
+5. one held-out no-refitting target or first-leak witness.
+
+Select the arena with the fewest supplied arrows and the cheapest exact
+proof-or-counterexample. The optical-clock nuisance-aware sensitivity matrix
+remains a bounded side branch, not the default campaign spine.
 
 For planning, assume **no external hardware is available**. That changes only
 after the local theorem/absorption, exact-counterexample, existing-data, and
@@ -578,10 +611,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | `HC-DU-033D` makes the center the finest internal nondisturbing sharp record relative to a supplied action algebra; deriving that algebra and formation boundary remains open. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | `HC-DU-040B` extends the action-center theorem to von Neumann algebras and rules out a nontrivial exact internal sharp record in a full factor; the next arena must justify an effective action restriction or form an external local probe/pointer/archive interface. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Record completeness is action-class-relative: central actions factor through the central record, while coherent within-sector actions can expose a remainder. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Next compose central regional records while retaining typed noncommutative fibres and testing feedback into later central outcomes. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038D` shows that the \(3+1\) compact conformal vacuum target closes by law alone while the symmetric law still cannot select an observer direction. Next use a physical Einstein--matter or comparable arena with nonzero law-only target diameter, an independently realized symmetry breaker, and a formed record instrument. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Exact selective center screening composes, but approximate finality now requires a frozen capability envelope, compositional norm, finite horizon, and contraction/reset/summability control. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Select the smallest physical arena with nonzero law-only target diameter, an externalized local record mechanism, physical symmetry breaker, declared action-growth horizon, and held-out transfer or first-leak witness. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 

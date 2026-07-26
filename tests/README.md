@@ -1660,3 +1660,39 @@ does not report an observed proper-time effect, exclude arbitrary classical
 protocols, identify a unique physical generator or interpretation, select an
 observer/interface, establish ontology, new law, new physics, paper state,
 hardware path, or external action.
+
+## HC-DU-040B algebraic-QFT record transport and capability-stable finality
+
+`du_algebraic_qft_record_transport_probe.py` preserves the exact finite
+controls behind the von Neumann/AQFT transport boundary:
+
+- a diagonal commutative action algebra admits its two-sector internal sharp
+  record, while the full coherent matrix factor does not;
+- the Lüders disturbance equals the commutator norm in the binary exact
+  control;
+- two states with the same public diagonal record are separated by a
+  within-factor coherent action;
+- a record final for a restricted action set ceases to be final after a
+  coherent capability is admitted;
+- the exact rational rotation
+  \(\cos\theta=99/101,\sin\theta=20/101\) has modest one-step leakage but
+  reaches
+  \(\sin(8\theta)=10825473963759840/10828567056280801>0.9997\);
+- a full `S3` symmetry selects an interface orbit but no member, while an
+  oriented physical reference reduces the stabilizer and selects one axis.
+
+Run:
+
+```bash
+python3 tests/du_algebraic_qft_record_transport_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_algebraic_qft_record_transport_result.json` and reports `37/37`
+with
+`KNOWN_OPERATOR_ALGEBRA_TRANSPORT__FACTOR_INTERNAL_RECORD_NO_GO__FINITE_HORIZON_APPROXIMATE_FINALITY_ONLY`.
+Passing preserves exact regression controls for the theorem and its failure
+modes. It does not construct a local QFT record, prove all QFT local algebras
+are factors, select a split inclusion or instrument, establish a universal
+approximate-finality law, report new physics, promote a paper, or authorize
+hardware or any external action.

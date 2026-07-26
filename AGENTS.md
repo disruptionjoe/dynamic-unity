@@ -217,6 +217,10 @@ routing authority.
   source attribution, and ontology to be reported separately: a conditioned
   channel may leave a frozen classical-history set while every output-only
   observable still shares a proper-time/engineered-control null.
+  `HC-DU-040B` adds the QFT-scale boundary: a full local factor has no
+  nontrivial exact internal nondisturbing finite sharp record, and approximate
+  finality is meaningful only relative to a frozen capability envelope and
+  horizon.
 - **Lane 2:** forward representation and coherence—build the full typed
   physical picture, preserve assumptions and grades, and expose seams.
 - **Lane 3:** physical record formation and selection—derive or delimit
@@ -227,7 +231,11 @@ routing authority.
   central joint effects give an autonomous record; noncommutative
   within-sector actions expose a same-record remainder. The physical action
   algebra, boundary, formation coupling, archive, and decoder remain
-  unselected. `HC-DU-035D/039C/039D` have now carried that typed object
+  unselected. `HC-DU-040B` extends the finite PVM theorem to unital von
+  Neumann algebras. Do not search for a record in the scalar center of a full
+  local factor or treat a split/type-I interpolation as a selector; use a
+  locally coupled external probe/pointer/archive or independently justify the
+  effective action restriction. `HC-DU-035D/039C/039D` have now carried that typed object
   through regional screening, source-attribution rank, and the
   optical-clock evidence hierarchy. Mean signals and reduced dephasing are
   insufficient; conditioned coherent recombination is a history-relative
@@ -255,7 +263,10 @@ routing authority.
   localizes any failure to a first noncentral pullback with a finite witness.
   Aggregate center preservation is insufficient if a retained route leaks.
   Treat finality as relative to the frozen future action class, not as
-  destruction by definition.
+  destruction by definition. Under `HC-DU-040B`, enlarging capabilities can
+  only increase the screening defect; approximate leakage needs a declared
+  norm, horizon, and contraction/reset/summability control rather than a
+  one-step estimate.
 - **Lane 6:** time, geometry, fields, and physical reconstruction—recover
   effective physical structure with uniqueness, gauge, and refinement
   controls. `HC-DU-039C` establishes that screened public order does not
@@ -264,10 +275,13 @@ routing authority.
   \(\ker S\subseteq\ker T\). `HC-DU-039D` executes the physical
   optical-clock input: nonclassical-history certification and generator
   attribution are independent axes, and all same-channel outputs retain the
-  local null \((1,-1)\). The next dependency is a preregistered
-  source-selective variation of the published relativistic clock-motion
-  coupling, with nuisance sensitivities and a held-out no-refitting transfer
-  test—not another output observable or clock simulation.
+  local null \((1,-1)\). The next primary dependency is physical arena
+  selection under `HC-DU-040B`: require a local
+  source--probe--pointer--archive mechanism, a physical symmetry breaker, a
+  frozen capability envelope and horizon, nonzero law-only target diameter,
+  and a held-out no-refitting target. The preregistered clock source variation
+  remains a bounded side branch, not another output observable or clock
+  simulation.
 - **Lane 7:** remainders, predictions, and publishable results—extract finite
   discriminators, theorems/no-gos, experimental protocols, novelty
   collisions, and Drafting-Factory packages. Joe publishes.
@@ -302,12 +316,14 @@ Before acting, a new agent must be able to state:
 
 1. the ratified Purpose and North Star;
 2. the honest current evidence boundary;
-3. the live two-horizon bottleneck: independent proof and general-collision
-   hardening for the nearer CSG tail paper, plus pre-verdict
-   formalization and novelty collision of the five-part integrated contract
-   for the higher-ceiling interventional-sufficiency flagship. A standard
-   cloud pilot is optional decision-changing calibration; implementation-
-   complete physical adjudication is partner-gated;
+3. the live research bottleneck: select the smallest physical arena that
+   externalizes a local record interface, supplies an independently physical
+   orientation, declares capability-growth and approximate-error horizons,
+   retains nonzero law-only target diameter, and supports a held-out
+   transfer/first-leak test. For paper work separately retain the nearer CSG
+   tail hardening and higher-ceiling interventional-sufficiency flagship; a
+   cloud pilot is optional calibration and physical adjudication remains
+   partner-gated;
 4. the owning dependency lane and selected work channel(s);
 5. the maximum evidentiary grade the swing can earn; and
 6. the strongest absorber, finite falsifier, stop condition, and durable

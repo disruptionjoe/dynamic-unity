@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 60
+manifest_revision: 61
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -114,6 +114,19 @@ proper_time_certification_rule: >-
   tomography. Repair local coefficient attribution only with a preregistered source-selective
   intervention, frozen history provenance/controls/nuisances, held-out transfer and no
   refitting. Equivalent interpretations of one Hamiltonian remain operationally indistinguishable.
+algebraic_qft_record_transport_ref: >-
+  explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
+algebraic_qft_record_transport_rule: >-
+  The finite-PVM action-center theorem extends unchanged to unital von Neumann algebras: an
+  internal sharp record preserves every admitted action exactly iff all record projections are
+  central. A factor therefore has no nontrivial exact internal nondisturbing finite sharp
+  record. In QFT-scale work, either independently restrict the effective action algebra,
+  externalize a local source-probe-pointer-archive interface, use independently warranted
+  sector/global/boundary structure, or state an approximate horizon-indexed claim. The split
+  property can provide a subsystem arena under assumptions but does not select a record. Freeze
+  the future capability envelope: exact finality is anti-monotone under action growth, while
+  approximate leakage requires a compositional norm, finite horizon, and contraction, reset, or
+  summable error control.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -264,7 +277,13 @@ lanes:
     Consume HC-DU-033D's exact action-center boundary: a formed central record is complete for
     all admitted actions exactly at the commutative-algebra boundary; otherwise a noncentral
     within-sector effect supplies a finite same-record/different-capability witness. A factor
-    has no nontrivial action-internal nondisturbing sharp record. Consume HC-DU-035D's layered
+    has no nontrivial action-internal nondisturbing sharp record. Consume HC-DU-040B's
+    von Neumann/AQFT transport: this factor obstruction survives beyond the finite proxy, so a
+    QFT-scale record cannot be manufactured by relabeling a full local factor center. Require a
+    justified effective-action restriction, an enlarged local probe/pointer/archive interface,
+    sector/global/boundary structure, or a finite-horizon approximate contract. Freeze the
+    future capability envelope because finality is anti-monotone under action growth and
+    one-step leakage can accumulate. Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
     noncentral pullback and its exact blockwise leakage margin rather than treating finality as
@@ -308,6 +327,7 @@ lanes:
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
+  - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
@@ -378,7 +398,12 @@ lanes:
     nondisturbing sharp record relative to a frozen finite action algebra, that central
     joint effects are exactly the autonomous sector-level cases, and that a noncommutative
     block preserves a capability-relative remainder. This does not select the action algebra
-    or formation coupling. HC-DU-039C adds that one formed phase readout may still leave a
+    or formation coupling. HC-DU-040B extends that necessity boundary to arbitrary unital
+    von Neumann algebras with finite PVM records. Do not search for a nontrivial exact internal
+    record in the center of a full local factor. Build the next candidate around a local
+    source-probe-pointer-archive coupling or an independently justified smaller effective
+    action algebra, and treat split/type-I interpolation as an arena assumption rather than a
+    selector. HC-DU-039C adds that one formed phase readout may still leave a
     target-changing source nullspace. HC-DU-039D adds that clock-only visibility remains inside
     the classical random-time set, while a stronger conditioned-channel certificate requires
     history-label provenance, complete controls, postselection and nuisances. Use that assurance
@@ -412,6 +437,7 @@ lanes:
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
+  - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
@@ -512,7 +538,11 @@ lanes:
     to Lane 6. HC-DU-039C has consumed that handoff: public order reconstructs, but one leaked
     total phase leaves a time-versus-field source null direction. Preserve the fibre and
     sensitivity kernel rather than scalarizing identity, compatibility, record-fit or
-    target-spread defects.
+    target-spread defects. Apply HC-DU-040B before any approximate or recursively expanding
+    finality claim: state the complete capability envelope and horizon, use the exact
+    generator-to-word or regional contraction bound, and require reset, contraction, or a
+    summable leakage budget for durability. Small one-step error alone is noncompositional, and
+    enlarging the admitted action class can only increase the finality defect.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -530,6 +560,7 @@ lanes:
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
+  - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   do_not: >-
@@ -573,14 +604,16 @@ lanes:
     Mean frequency and every two-level reduced dephasing factor are absorbed by semiclassical or
     classical random-time models. Conditioned coherent recombination can leave one frozen
     classical-history convex set, but all output-only functionals of
-    theta_tau+theta_chi retain exact local null (1,-1). The next local dependency is the complete
-    nuisance-aware sensitivity matrix for one preregistered source variation, preferably Delta n
-    or trap frequency, plus the smallest matched coherent-control rival and a held-out
-    no-refitting slope. Do not build another abstract phase source, reduced-visibility toy,
-    same-channel output assay or hardware adapter.
-    The next physical arena must retain nonzero law-only target diameter and add an independently
-    realized symmetry breaker plus formed record instrument. Prefer an exact linearized
-    Einstein--matter kernel/stabilizer calculation before simulation. A CFS-facing extension must
+    theta_tau+theta_chi retain exact local null (1,-1). The nuisance-aware sensitivity matrix
+    for one preregistered source variation remains a bounded side branch; do not build another
+    abstract phase source, reduced-visibility toy, same-channel output assay or hardware adapter.
+    HC-DU-040B now supplies the primary arena gate. The next physical arena must retain nonzero
+    law-only target diameter; externalize a local source-probe-pointer-archive mechanism rather
+    than seek a nontrivial exact record inside a full local factor; add an independently realized
+    symmetry breaker; declare the future capability envelope and finite horizon; and carry one
+    held-out no-refitting target or first-leak witness. Compare candidate arenas by how few of
+    those arrows remain supplied, then prefer an exact kernel/stabilizer or local-probe
+    calculation before simulation. A CFS-facing extension must
     additionally freeze Hilbert/spin/constraint/sector/regulator, distinguish Einstein closure
     from a regulator-robust CFS residue, and avoid reusing the closed vacuum conformal case.
     Maintain
@@ -621,6 +654,7 @@ lanes:
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
+  - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -663,7 +697,12 @@ lanes:
     history-relative channel nonclassicality and generator attribution are independent, reduced
     dephasing is classically simulable and output-only source rank remains one. Seed nothing
     from this result unless the next source-selective intervention contract yields a contribution
-    beyond standard metrology, channel certification and structural identifiability.
+    beyond standard metrology, channel certification and structural identifiability. Treat
+    HC-DU-040B as an arena gate, not a paper promotion: its finite-PVM von Neumann theorem and
+    factor corollary are known operator-algebra mathematics, while the split property supplies
+    no physical record selector. A publishable successor must add a naturally selected local
+    probe/archive interface, a quantitative finite-horizon law, or a discriminator not absorbed
+    by AQFT measurement and subsystem-independence theory.
     Use the existing HC-DU-036E pilot only when directly authorized and
     decision-changing; otherwise assume no external hardware and keep the work local. An
     irreducible hardware dependency gets one awareness note and then parks without separate Joe
@@ -687,6 +726,7 @@ lanes:
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
+  - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -4288,6 +4328,24 @@ provenance:
     equivalent proper-time and mass-energy interpretations of one Hamiltonian remain
     operationally indistinguishable. Exact controls pass 36/36. The five-swing campaign is
     complete. No observed proper-time effect, universal classical exclusion, ontology, new law,
+    new physics, paper promotion, hardware, provider action, submission, publication or external
+    contact is promoted.
+  rev61_note: >-
+    2026-07-26 (Joe direct chat: execute the first assumption-breaker after the completed
+    five-swing campaign): executed HC-DU-040B. The finite-PVM action-center theorem extends to
+    every unital von Neumann algebra: the nonselective Lueders channel preserves the full action
+    algebra exactly iff every record projection is central. A factor therefore admits only the
+    trivial exact internal nondisturbing finite sharp record, so a net of factor local algebras
+    cannot obtain nontrivial bounded-region records merely from local centers. Split/type-I
+    interpolation supplies an arena only under added assumptions and selects no probe, pointer,
+    archive or decoder. Finality defect is monotone under capability-set enlargement; exact
+    generator defects obey a word-length sum bound; approximate regional leakage composes only
+    with a declared norm and horizon; and a rational two-level control amplifies one-step
+    amplitude 20/101 to above 0.9997 after eight coherent repetitions. Exact controls pass 37/37.
+    The next campaign object is physical arena selection with an externalized local
+    source-probe-pointer-archive, a physical symmetry breaker, a frozen capability envelope and
+    horizon, nonzero law-only target diameter, and one held-out transfer or first-leak witness.
+    Component mathematics is known; no QFT record, ontology, universal approximate-finality law,
     new physics, paper promotion, hardware, provider action, submission, publication or external
     contact is promoted.
 extensions:
