@@ -1514,6 +1514,77 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   `formed-sharp-descent-swing-synthesis-2026-07-25.md`, and
   `robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md`.
 
+## CONCEPT-DU-012 — staged multiplicity, physical selection, and differentiation
+
+- **Concept (articulation-invariant).** When several observable physical types
+  repeat, their explanation may require three independently earned stages:
+  (1) a mathematical carrier with a non-arbitrary multiplicity, (2) a
+  physical process that selects, protects, certifies, or makes accessible
+  particular sectors, and (3) dynamics that differentiates the surviving
+  sectors' effective parameters. Success at one stage is not success at the
+  other two.
+- **Concept INVARIANT.**
+  1. Carrier multiplicity, physical/chiral survival, observer access, and
+     parameter differentiation remain separately typed.
+  2. The selection rule is source-owned, target-blind, and admits `ZERO`,
+     `NON_TARGET`, or `UNDEFINED` outcomes.
+  3. A selected sector has an intervention, capability, stability, or
+     protected-observable consequence; label or representation multiplicity
+     alone is insufficient.
+  4. Counts and sector identities survive benign relabeling, inert
+     subdivision, and equivalent presentation.
+  5. Environment, controller, decoder, resource, heavy-sector, and
+     after-the-fact completion absorbers are admitted before novelty is
+     assessed.
+  6. Differentiation earns explanatory force only through held-out
+     consequences under a frozen parameter/resource budget.
+- **Formalization FAMILY.**
+  1. representation/bundle multiplicity followed by a source-boundary
+     Fredholm, APS, spectral, or anomaly-inflow selector;
+  2. multiplets followed by independently derived symmetry breaking and RG
+     differentiation;
+  3. candidate modes followed by target-free stochastic/metastable survival;
+  4. physical sectors followed by selected protected logical algebras and
+     decoder access;
+  5. hidden provenance/witness classes followed by formed commitments and
+     capability-distinguishing openings;
+  6. recursive regional sections followed by refinement-invariant
+     certification and transport/holonomy;
+  7. latent dynamical carriers followed by robust rank/eigenmode selection;
+     and
+  8. full field content followed by matched-resource decoupling and
+     low-energy effective differentiation.
+- **GU instance and ownership boundary.** The motivating GU instance is the
+  Triplet--Boundary--Flavor Conjecture: a canonical self-dual triplet is
+  structurally located, while the source-owned chiral selector and flavor
+  derivation are open. All claims about GU's carrier, operator, index,
+  chirality, and generation verdict remain owned by `gu-formalization`.
+  Dynamic Unity may supply a typed physical-selection/access assay; it cannot
+  replace a missing source action or integer index with record language.
+- **Controls and global kill.**
+  - An arbitrary copy count followed by a filter selected to return the target
+    is not a mechanism.
+  - Computational secrecy is not physical inaccessibility; certification is
+    not truth; consensus is not ontic creation.
+  - A general downstream coupling fit does not explain differentiation.
+  - If every faithful formalization is absorbed by a complete ordinary
+    process description and no invariant record/access/capability consequence
+    remains, the specifically DU-shaped selection increment is
+    `CONCEPT-FALSIFIED`.
+  - A failed index, threshold, code, or regional model is only
+    `FORMALIZATION-FALSIFIED` unless its failure traces to the invariant or the
+    family is exhausted.
+- **Nearest terrain.** Family symmetries, anomaly inflow and index theory,
+  topological zero modes, decoupling EFTs, metastability, QEC sector
+  selection, provenance systems, and recursive regional composition all
+  occupy components. Potential DU value lies in a common typed
+  physical-selection assay, not in renaming those mature mechanisms.
+- **Status:** **CONCEPT-OPEN / CROSS-REPO REPRESENTATION GRADE / GU TRIPLET
+  INSTANCE LOCATED-BUT-NOT-FORCED / PHYSICAL SELECTOR AND DIFFERENTIATION
+  OPEN / NO GENERATION, ONTOLOGY, NEW-PHYSICS, CLAIM, PREDICTION, PAPER, OR
+  LANE PROMOTION.** See
+  `staged-multiplicity-selection-differentiation-cross-repo-synthesis-2026-07-25.md`.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.
