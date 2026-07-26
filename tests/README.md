@@ -172,6 +172,23 @@ mathematics. It does not establish a selected physical dynamics, Einstein
 equation, complete physical record, physical remainder, new law, ontology,
 new physics or paper verdict.
 
+## Krein sea-flux law-versus-record attribution
+
+`du_krein_sea_flux_attribution_probe.py` independently rechecks the minimal
+real-spectrum/complex-spectrum GU branch fork and applies the existing
+law/interface/reconstruction distinction to six exact finite cases. It
+checks law-only closure, record-assisted target reduction, an uninformative
+record, an empty lawful fibre, an unselected record interface, and the actual
+GU/Finster incomplete-selector collision.
+
+The deterministic artifact is
+`artifacts/du_krein_sea_flux_attribution_result.json` and reports `13/13`
+checks. Passing establishes only the marginal attribution rule: records earn
+reconstructive credit when a separately selected and formed record reduces a
+nonempty, still-open lawful target fibre. It does not compute baryogenesis,
+turn functional-domain membership into physical selection, select a record
+interface, establish record ontology, or imply new physics.
+
 ## Compute setup
 
 The current numerical probes require NumPy and otherwise use the Python

@@ -1,0 +1,251 @@
+{
+  "actual_disposition": "DOMAIN_ADMISSIBILITY_ONLY__COMMON_CFS_ACTION_NOT_DEFINED__RECORD_INTERFACE_NOT_SELECTED",
+  "baryogenesis_rate_computed": false,
+  "cases": {
+    "actual_collision": {
+      "conditioned_completions": [],
+      "conditioned_diameter": null,
+      "disposition": "INCOMPLETE_LAW_SELECTOR",
+      "law_diameter": 0,
+      "lawful_completions": [
+        "good"
+      ],
+      "marginal_record_reduction": null
+    },
+    "empty_law_fibre": {
+      "conditioned_completions": [],
+      "conditioned_diameter": null,
+      "disposition": "EMPTY_LAW_FIBRE",
+      "law_diameter": null,
+      "lawful_completions": [],
+      "marginal_record_reduction": null
+    },
+    "law_only": {
+      "conditioned_completions": [
+        "good"
+      ],
+      "conditioned_diameter": 0,
+      "disposition": "LAW_ONLY_CLOSURE",
+      "law_diameter": 0,
+      "lawful_completions": [
+        "good"
+      ],
+      "marginal_record_reduction": 0
+    },
+    "missing_record_interface": {
+      "conditioned_completions": [],
+      "conditioned_diameter": null,
+      "disposition": "INCOMPLETE_RECORD_INTERFACE",
+      "law_diameter": 1,
+      "lawful_completions": [
+        "good",
+        "bad"
+      ],
+      "marginal_record_reduction": null
+    },
+    "open_after_record": {
+      "conditioned_completions": [
+        "good",
+        "bad"
+      ],
+      "conditioned_diameter": 1,
+      "disposition": "OPEN_AFTER_RECORD",
+      "law_diameter": 1,
+      "lawful_completions": [
+        "good",
+        "bad"
+      ],
+      "marginal_record_reduction": 0
+    },
+    "record_conditional_reduction": {
+      "conditioned_completions": [
+        "good"
+      ],
+      "conditioned_diameter": 0,
+      "disposition": "RECORD_CONDITIONAL_REDUCTION",
+      "law_diameter": 1,
+      "lawful_completions": [
+        "good",
+        "bad"
+      ],
+      "marginal_record_reduction": 1
+    }
+  },
+  "checks": [
+    {
+      "detail": [
+        {
+          "imag": 0.0,
+          "real": 0.9999999999999996
+        },
+        {
+          "imag": 0.0,
+          "real": -0.9999999999999999
+        }
+      ],
+      "name": "good branch independently has real spectrum",
+      "passed": true
+    },
+    {
+      "detail": [
+        {
+          "imag": 0.9999999999999997,
+          "real": 0.0
+        },
+        {
+          "imag": -1.0,
+          "real": 2.7755575615628914e-17
+        }
+      ],
+      "name": "pathological core independently has nonreal spectrum",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "pathological core is Krein-self-adjoint, not Hilbert-self-adjoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [
+          "good"
+        ],
+        "conditioned_diameter": 0,
+        "disposition": "LAW_ONLY_CLOSURE",
+        "law_diameter": 0,
+        "lawful_completions": [
+          "good"
+        ],
+        "marginal_record_reduction": 0
+      },
+      "name": "law-only closure has zero target diameter before records",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [
+          "good"
+        ],
+        "conditioned_diameter": 0,
+        "disposition": "LAW_ONLY_CLOSURE",
+        "law_diameter": 0,
+        "lawful_completions": [
+          "good"
+        ],
+        "marginal_record_reduction": 0
+      },
+      "name": "constant record receives zero marginal selection credit",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [
+          "good"
+        ],
+        "conditioned_diameter": 0,
+        "disposition": "RECORD_CONDITIONAL_REDUCTION",
+        "law_diameter": 1,
+        "lawful_completions": [
+          "good",
+          "bad"
+        ],
+        "marginal_record_reduction": 1
+      },
+      "name": "record can close a still-open lawful target fibre",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [
+          "good"
+        ],
+        "conditioned_diameter": 0,
+        "disposition": "RECORD_CONDITIONAL_REDUCTION",
+        "law_diameter": 1,
+        "lawful_completions": [
+          "good",
+          "bad"
+        ],
+        "marginal_record_reduction": 1
+      },
+      "name": "record credit is conditional reconstruction, not law selection",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [
+          "good",
+          "bad"
+        ],
+        "conditioned_diameter": 1,
+        "disposition": "OPEN_AFTER_RECORD",
+        "law_diameter": 1,
+        "lawful_completions": [
+          "good",
+          "bad"
+        ],
+        "marginal_record_reduction": 0
+      },
+      "name": "uninformative record leaves the lawful branch target open",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [],
+        "conditioned_diameter": null,
+        "disposition": "EMPTY_LAW_FIBRE",
+        "law_diameter": null,
+        "lawful_completions": [],
+        "marginal_record_reduction": null
+      },
+      "name": "empty law fibre is incompatibility, never reconstruction",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [],
+        "conditioned_diameter": null,
+        "disposition": "INCOMPLETE_RECORD_INTERFACE",
+        "law_diameter": 1,
+        "lawful_completions": [
+          "good",
+          "bad"
+        ],
+        "marginal_record_reduction": null
+      },
+      "name": "an unselected record map earns no record credit",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditioned_completions": [],
+        "conditioned_diameter": null,
+        "disposition": "INCOMPLETE_LAW_SELECTOR",
+        "law_diameter": 0,
+        "lawful_completions": [
+          "good"
+        ],
+        "marginal_record_reduction": null
+      },
+      "name": "current GU/Finster contact is not a law selector",
+      "passed": true
+    },
+    {
+      "detail": "DOMAIN_ADMISSIBILITY_ONLY__COMMON_CFS_ACTION_NOT_DEFINED__RECORD_INTERFACE_NOT_SELECTED",
+      "name": "current collision receives the scoped attribution",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "no scenario treats a spectral projector as a formed certified archive",
+      "passed": true
+    }
+  ],
+  "checks_passed": 13,
+  "checks_total": 13,
+  "external_hardware_required": false,
+  "probe_id": "DU-KREIN-SEA-FLUX-ATTRIBUTION-01",
+  "record_credit_rule": "Records receive marginal reconstructive credit only when a separately selected and formed record reduces a nonempty, still-open lawful target fibre.",
+  "scientific_claim": false,
+  "scope": "finite law-versus-record attribution and independent spectral receipt; no baryogenesis rate or physical selection"
+}

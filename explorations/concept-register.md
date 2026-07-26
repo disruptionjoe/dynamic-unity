@@ -878,6 +878,18 @@ resolution-stable intervention role. No claim is banked or seeded. See
   Component mathematics is known; no physical ontology or new law is earned.
   See
   `law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md`.
+- **Earned Dirac-sea/Krein attribution application.** The paired GU W245
+  certificate shows that Finster's self-adjoint sea-rate is well typed on
+  W216's Hermitian branch and not through the complex-spectrum core of its
+  pathological Krein branch. This is domain admissibility, not source
+  selection. DU's exact `13/13` finite control then separates law-only closure,
+  record-assisted reduction, an uninformative record, empty lawful fibre,
+  unselected interface, and the actual incomplete-selector case. Records
+  receive marginal reconstructive credit only when a separately selected and
+  formed record reduces a nonempty, still-open lawful target fibre. No common
+  CFS branch measure, record interface, baryogenesis rate, ontology, or new
+  physics is established. See
+  `finster-baryogenesis-krein-finality-attribution-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,

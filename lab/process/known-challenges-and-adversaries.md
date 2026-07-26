@@ -131,6 +131,17 @@ them as automatic kills. Ambition and the frontier lead; these are the terrain.
     matter, boundary, or gauge restrictions after the contract is retyping,
     not information learned from \(q\).
 
+17. **Functional-domain/physical-selection substitution.** *Objection:* one
+    candidate branch lies outside the mathematical domain of an imported
+    rate, spectral measure, likelihood, or action, so the remaining branch is
+    reported as dynamically selected. *Way through:* separate a domain
+    predicate \(D\) from the physical selector \(L\). Require both branches to
+    be represented inside one independently frozen physical problem before
+    comparing action values or rates. The GU/Finster sea-rate collision is
+    the standing control: the complex Krein core is outside the positive
+    self-adjoint PVM domain, but no common branch-to-CFS-universal-measure map
+    exists. That earns admissibility only, not selection or record credit.
+
 ## Legacy GU/transducer adversaries
 
 The original sibling-repo harvest targeted the tachyon-transducer
