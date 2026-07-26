@@ -1,0 +1,101 @@
+{
+  "all_passed": true,
+  "approach_family_count": 15,
+  "artifact_type": "method_coverage_and_routing_check",
+  "atlas": "explorations/near-term-research-swing-approach-atlas-2026-07-25.md",
+  "candidate_count": 27,
+  "checks": [
+    {
+      "detail": "15 expected family IDs present: ['AF-01', 'AF-02', 'AF-03', 'AF-04', 'AF-05', 'AF-06', 'AF-07', 'AF-08', 'AF-09', 'AF-10', 'AF-11', 'AF-12', 'AF-13', 'AF-14', 'AF-15']",
+      "id": "family_ids_exact",
+      "pass": true
+    },
+    {
+      "detail": "each family has the expected portfolio membership",
+      "id": "family_mapping_exact",
+      "pass": true
+    },
+    {
+      "detail": "machine portfolio contains exactly DU-PAPER-001 through DU-PAPER-027",
+      "id": "portfolio_is_complete",
+      "pass": true
+    },
+    {
+      "detail": "all 27 candidates occur in exactly one approach family",
+      "id": "candidate_coverage_exact_once",
+      "pass": true
+    },
+    {
+      "detail": "all cards carry gate, five lenses, and ceiling; missing={}",
+      "id": "five_lens_card_contract",
+      "pass": true
+    },
+    {
+      "detail": "every active dependency lane is represented: ['1', '2', '3', '4', '5', '6', '7', 'A']",
+      "id": "active_lane_coverage",
+      "pass": true
+    },
+    {
+      "detail": "every family declares its activation/routing mode",
+      "id": "modes_declared",
+      "pass": true
+    },
+    {
+      "detail": "the 36-hypothesis registry is linked rather than copied",
+      "id": "method_registry_reused",
+      "pass": true
+    },
+    {
+      "detail": "1 local atlas links resolve; missing=[]",
+      "id": "atlas_local_links_resolve",
+      "pass": true
+    },
+    {
+      "detail": "atlas explicitly changes method preparation only",
+      "id": "no_reranking_or_activation",
+      "pass": true
+    },
+    {
+      "detail": "current nearer-paper and flagship distinction remains visible",
+      "id": "two_horizon_state_preserved",
+      "pass": true
+    },
+    {
+      "detail": "record-sufficiency return contract is explicit",
+      "id": "four_scientific_returns",
+      "pass": true
+    },
+    {
+      "detail": "live concepts without a specimen or unit-bearing effect are gated",
+      "id": "nonoperationalization_guard",
+      "pass": true
+    },
+    {
+      "detail": "paper preparation honors the canonical-Markdown preference",
+      "id": "markdown_first_paper_rule",
+      "pass": true
+    },
+    {
+      "detail": "both human and machine orientation surfaces route to the atlas",
+      "id": "cold_start_routing",
+      "pass": true
+    },
+    {
+      "detail": "non-DU candidates retain their source owners",
+      "id": "ownership_boundaries",
+      "pass": true
+    }
+  ],
+  "checks_passed": 16,
+  "claim_grade": "METHOD AND APPROACH PREPARATION / NO SCIENTIFIC CLAIM, PRIORITY, FACTORY, OR EXECUTION PROMOTION",
+  "lane_coverage": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "A"
+  ]
+}

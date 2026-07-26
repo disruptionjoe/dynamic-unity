@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 42
+manifest_revision: 44
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -27,6 +27,14 @@ orientation_rule: >-
   program_charter, work_channels and active lanes topology before following relevant scientific
   pointers. legacy_lanes_* and dated revision receipts are historical context, not current
   routing authority.
+near_term_approach_atlas_ref: >-
+  explorations/near-term-research-swing-approach-atlas-2026-07-25.md
+near_term_approach_atlas_rule: >-
+  After selecting a plausible near-term problem and before designing execution, consult the
+  five-lens approach family for its counterfactual, typed structure, hostile specimen, proof
+  strategy, reusable artifact, scale trigger and stop/reopen rule. The atlas covers all 27 paper
+  candidates and named non-paper dependencies but has no priority, activation, claim, evidence
+  grade, Factory or publication authority.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -3010,7 +3018,7 @@ special_rules:
     authority. Dated documents that mention their North Star or Lane meanings remain historical
     evidence; current routing is the root lanes key near the top of manifest revision 39.
 provenance:
-  revision: 39
+  revision: 44
   status: active_research
   created: '2026-07-21'
   approved_by: >-
@@ -3097,7 +3105,12 @@ provenance:
     the exact finite source-action instrument-orbit selector, classifies continuation,
     archive-access, coherent-route and microscopic-dilation boundaries, and routes the next build
     to a laboratory total-conservation and complete-instrument-tomography lift without promoting
-    a claim.
+    a claim; rev39--43 (Joe direct chat, 2026-07-25) ratify and assure the program charter,
+    execute the conservation/interface gate, expose the shared operating locator, establish the
+    two-horizon paper allocation, and complete the exact reconstruction trichotomy, bounded
+    public evidence screen and second CSG proof/collision; rev44 (Joe direct chat, 2026-07-25)
+    installs the five-lens near-term research-swing approach atlas across all 27 paper candidates
+    and named non-paper dependencies without reranking or activating them.
   rev3_note: >-
     2026-07-21 (Joe direct chat): elevated Λ~1/√N to the explicit Lane-1 North-Star ANCHOR (the most
     important thing in Lane 1) — see lanes[1].anchor and channel 1.3. Scope: Lane-1 priority only; the
@@ -3563,6 +3576,17 @@ provenance:
     and DU-PAPER-013 moves to independent expert proof and systematic bibliography review. No
     irreducible remainder, ontology, new physics, novel general method, manuscript readiness,
     Factory activation, submission, publication, author contact or external action is promoted.
+  rev44_note: >-
+    2026-07-25 (Joe direct chat: orchestrate a five-lens super-preparatory swing for every
+    plausible near-term future problem): installed one approach atlas using counterfactual,
+    categorical, adversarial-metrology, formal-proof and sequential-value-of-information
+    lenses. Fifteen approach families cover all 27 paper candidates exactly once, retain the
+    existing 36-hypothesis method registry by reference, preserve named non-paper dependencies,
+    and attach a decisive first move, strongest absorber, reusable artifact, scale trigger and
+    stop/reopen rule. A deterministic coverage probe checks method and routing integrity only.
+    No scientific claim, theorem, hypothesis, concept, prediction, ontology, priority, Factory
+    state, activation, draft, submission, publication, external review request or other external
+    action changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"

@@ -37,6 +37,13 @@ The machine-readable portfolio is
 `papers/paper-opportunity-portfolio.json`. Its deterministic audit is
 `tests/du_paper_opportunity_portfolio_probe.py`.
 
+The
+[near-term research-swing approach atlas](../explorations/near-term-research-swing-approach-atlas-2026-07-25.md)
+groups these 27 candidates into 15 method families and records the smartest
+first attack, reusable output, scale trigger, and stop/reopen rule for each.
+It does not change this inventory's disposition, priority, ownership, Factory
+state, or activation authority.
+
 ## Concentrated-closing evidence update
 
 The later gated closing swing changed source-side scientific readiness without

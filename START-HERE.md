@@ -260,7 +260,11 @@ channels; they are not lanes and do not create a second priority system.
    [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md).
 5. For quantum/foundations prioritization, also read
    [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
-6. Follow only the hypotheses, concepts, tests, papers, or historical
+6. When choosing or executing a plausible near-term research swing, read the
+   [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
+   It covers all 27 paper families and the named non-paper dependencies
+   without changing their priority, custody, grade, or activation state.
+7. Follow only the hypotheses, concepts, tests, papers, or historical
    receipts relevant to the chosen lane. Do not load the whole archive by
    default.
 
@@ -277,6 +281,14 @@ If any answer is unclear, stop selecting work and repair the orientation
 surface rather than guessing.
 
 ## Selecting and scoping work
+
+Use the
+[near-term research-swing approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md)
+after selecting a candidate and before designing its execution. It gives the
+counterfactual, typed structure, smallest hostile specimen, proof strategy,
+reusable output, scale trigger, and stop/reopen condition. It is an approach
+registry, not an execution queue; `LANES.yaml`, source ownership, and current
+Factory state remain authoritative for whether a swing may run.
 
 Before a swing, write down:
 

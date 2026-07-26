@@ -14,6 +14,17 @@ bottleneck and three-outcome posture are visible; and that entrypoint links
 resolve. Passing establishes orientation integrity only, never physics,
 ontology, novelty, or paper readiness.
 
+`du_near_term_swing_approach_atlas_probe.py` is another method/governance
+check rather than a scientific assay. It verifies that the five-lens
+near-term approach atlas contains 15 complete approach cards; covers all 27
+paper candidates exactly once and every active dependency lane; retains
+ownership, merge, dependency and no-reopen boundaries; reuses the existing
+36-hypothesis method registry; preserves the nearer-paper versus flagship
+distinction; and exposes the atlas through both human and machine orientation.
+Passing establishes coverage and routing integrity only. It does not validate
+an approach scientifically, rank a swing, authorize work, change Factory
+state, harden a manuscript, or establish publication readiness.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
