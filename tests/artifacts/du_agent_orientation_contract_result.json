@@ -2,7 +2,7 @@
   "active_scientific_program": "CCR-BRANCH-INVARIANT-ADJUDICATION",
   "authority": "CURRENT-RESEARCH.yaml",
   "checks_passed": 35,
-  "cold_start_words": 5189,
+  "cold_start_words": 5210,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
   "executable_action": "N5-PF-P5",
   "prepared_publication_candidate": "DU-PAPER-013",

@@ -1,10 +1,11 @@
 current_research_contract_version: '1.1'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 2
+state_revision: 3
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
-  Science Council review of the repository-refinement plan.
+  Science Council review of the repository-refinement plan, followed by Joe
+  direct chat authorizing a branch-safe next-five sequence scaffold.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -199,6 +200,8 @@ programs:
         path: explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
         heading: '## 13. Position 5 — cross-arena branch-invariant synthesis'
       required_inputs:
+        - path: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
+          role: branch-safe downstream sequence and no-preselection guard
         - path: explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
           role: frozen portfolio and premise map
         - path: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
