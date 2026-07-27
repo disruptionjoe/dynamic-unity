@@ -37,6 +37,23 @@ The bridge intentionally distinguishes:
 Only the fourth state can support a physical-remainder adjudication, and it
 still does not guarantee one.
 
+## Pre-data prediction lock
+
+`PRED-DU-004` now freezes the ideal ordinary-quantum prediction for this exact
+suite before hardware execution
+([lock](../../explorations/locked-qnd-memory-hardware-prediction-2026-07-26.md)).
+With equal history/intervention allocation, the pointer-only ideal Bayes error
+is \(1/4\), adding the environment record reduces it to zero, and the declared
+post-break `(reset_witness, environment, output)` response is
+`(000, 0, 0)` for both histories. The pre-break classical pointer archive is
+retained and is not included in that reset-null claim.
+
+The lock fixes the circuit-level distribution and expected direction. A
+future hardware run still requires a separate pre-data backend/calibration,
+shot-power, uncertainty, and numeric-tolerance preregistration. The lock does
+not authorize a provider job and can be cited as an unexecuted protocol
+prediction if no run ever occurs.
+
 ## Commands
 
 The plan command needs only the Python standard library:

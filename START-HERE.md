@@ -454,6 +454,16 @@ while the existing IBM bridge remains sufficient for a returned-shot pilot
 ([gate](explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md);
 [probe](tests/du_interventional_sufficiency_reachability_gate_probe.py)).
 
+`PRED-DU-004` now locks the bridge's exact ordinary-quantum ideal
+distribution before hardware execution: pointer-only Bayes error \(1/4\),
+pointer-plus-environment error zero, and zero pre-break-history dependence in
+the declared post-break reset-witness/environment/output response. The
+classical pointer archive remains retained. This is a citable pre-data
+protocol prediction, not hardware evidence, a complete backend-specific
+statistical preregistration, a `PRED-DU-003` adjudication, or a new-physics
+claim
+([lock](explorations/locked-qnd-memory-hardware-prediction-2026-07-26.md)).
+
 `HC-DU-036H` has now executed the gate's formal-first route. The recursive
 quotient theorem is established controlled lumpability/bisimulation; the
 restricted predictive form is Blackwell sufficiency; and the quantum and

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 64
+manifest_revision: 65
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -825,11 +825,13 @@ lanes:
     publication only if a later result independently selects the region/reference/action
     envelope or yields a finite remainder beyond those absorbers.
     Use the existing HC-DU-036E pilot only when directly authorized and
-    decision-changing; otherwise assume no external hardware and keep the work local. An
-    irreducible hardware dependency gets one awareness note and then parks without separate Joe
-    authorization. Seek a co-designed packet only after the physical-formation design is locally
-    decision-complete. The bounded public-sidecar audit is closed; consume HC-DU-036C/036D for
-    physical adjudication only after complete
+    decision-changing. PRED-DU-004 now fixes its exact ideal distribution and interpretation
+    before data; a future backend-specific statistical threshold contract remains a separate
+    pre-submission dependency. Otherwise assume no external hardware and keep the work local.
+    An irreducible hardware dependency gets one awareness note and then parks without separate
+    Joe authorization. Seek a co-designed packet only after the physical-formation design is
+    locally decision-complete. The bounded public-sidecar audit is closed; consume
+    HC-DU-036C/036D for physical adjudication only after complete
     attempt visibility, every join, uncertainty, provenance and complete-reset requirement passes.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
@@ -843,6 +845,7 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
+  - explorations/locked-qnd-memory-hardware-prediction-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   - explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
@@ -2770,10 +2773,41 @@ hardware_acquisition_visibility_bridge:
     accessed, and no physical factorization, remainder, ontology, new law, paper activation,
     submission or publication is established.
   next_move: >-
-    With direct authorization, run one low-shot returned-population hardware pilot under the
-    frozen manifest. Treat it as RETURNED_SHOT_CONDITIONAL_ONLY. For physical-remainder
-    adjudication, co-design a platform packet exposing every physical trigger, invalid/rejected
-    attempt, selection reason and reset over every admitted retained memory.
+    PRED-DU-004 now locks the exact ideal ordinary-quantum distribution and expected
+    pointer-to-environment repair before hardware execution. Before any directly authorized
+    returned-population pilot, separately freeze the selected backend, shot-power calculation,
+    simultaneous uncertainty rule, calibration/systematics model and numeric acceptance
+    tolerances. Treat any standard result as RETURNED_SHOT_CONDITIONAL_ONLY. For
+    physical-remainder adjudication, co-design a platform packet exposing every physical
+    trigger, invalid/rejected attempt, selection reason and reset over every admitted retained
+    memory.
+qnd_memory_hardware_prediction_lock:
+  status: registered_locked_pre_data__not_executed__standard_qm_control
+  date: '2026-07-26'
+  locked_at_utc: '2026-07-27T00:25:32Z'
+  authority: >-
+    Joe direct chat: lock the prediction now so a later publication can cite the dated pre-data
+    commitment even if the hardware experiment is never executed.
+  prediction_id: PRED-DU-004
+  run_plan_ref: >-
+    lab/process/runs/RUN-20260726-192532-lock-qnd-hardware-prediction/run-plan.md
+  prediction_ref: >-
+    explorations/locked-qnd-memory-hardware-prediction-2026-07-26.md
+  register_ref: explorations/prediction-register.md
+  protocol_id: du-qnd-memory-causal-break/0.1
+  driver_sha256: 7aec5321e1aa54603bded82cb4c00de6bcd2e0965cba341af9502816e3c08294
+  semantic_manifest_sha256: 9f118bf1736d6adbd9e1cd39985fc4b9d273307da98c7f1f4d649eb5bff555d5
+  exact_prediction: >-
+    For the ideal frozen pi/2 pointer circuit with equal history/intervention allocation,
+    pointer-plus-intervention Bayes error is 1/4, adding the formed environment record reduces
+    it to zero, and the declared post-break reset-witness/environment/output response is
+    (000,0,0) for both histories. The measured classical pointer archive remains retained.
+  evidence_boundary: >-
+    This is a registered pre-data standard-quantum analytic prediction, not hardware evidence,
+    a backend-specific statistical preregistration, a complete-process factorization,
+    PRED-DU-003 adjudication, Dynamic Unity novelty, new physics, paper activation, submission
+    or publication. A future hardware run must freeze numeric tolerances and its complete
+    calibration/uncertainty contract before submission and before data are seen.
 interventional_sufficiency_novelty_reachability_gate:
   status: completed_formal_first_partner_gated
   date: '2026-07-26'

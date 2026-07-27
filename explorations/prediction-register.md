@@ -3,7 +3,7 @@ title: "Dynamic Unity prediction register — Lane 4.2 pre-seed holding state"
 status: active_research
 doc_type: register
 created: 2026-07-21
-revised: 2026-07-25
+revised: 2026-07-26
 note: "Tracks scientific prediction hardening independently from cheap Drafting Factory paper-opportunity intake. Registration, Factory seeding, scientific hardening, drafting, and publication are distinct."
 ---
 
@@ -188,6 +188,47 @@ justified smooth-slope bound or another mechanism-specific observable. See
 - **Disposition.** Registered only as a prediction-shaped conditional seam.
   No physical residual, new law, ontology choice, paper seed or Factory state
   is established.
+
+### PRED-DU-004 — returned-shot record repair and causal-break null
+
+- **State: REGISTERED / LOCKED PRE-DATA / NOT EXECUTED / STANDARD-QM
+  CONTROL.**
+- **Lock date.** 2026-07-26 local
+  (`2026-07-27T00:25:32Z`), before any hardware submission or hardware-result
+  inspection.
+- **Frozen protocol.** `du-qnd-memory-causal-break/0.1`, driver SHA-256
+  `7aec5321e1aa54603bded82cb4c00de6bcd2e0965cba341af9502816e3c08294`,
+  pointer angle \(\pi/2\), circuit-order seed `271828`, 19 circuits, and 256
+  planned shots per circuit. The 256-shot semantic-manifest SHA-256 is
+  `9f118bf1736d6adbd9e1cd39985fc4b9d273307da98c7f1f4d649eb5bff555d5`.
+- **The prediction.** In the ideal ordinary-quantum model, for equally
+  allocated histories and interventions, the pointer-plus-intervention Bayes
+  error is \(1/4\); adding the formed environment record reduces it to zero;
+  and the post-break
+  `(reset_witness, environment, output)` distribution is
+  \((000,0,0)\) for either pre-break history. The already measured classical
+  pointer archive remains retained and is not part of that reset-null claim.
+- **Interpretation.** This is the standard-QM calibration branch of a
+  Dynamic Unity-designed assay, not a distinctive Dynamic Unity law or
+  anomaly prediction. A normal provider run can test it only on returned
+  shots and cannot adjudicate the complete attempted process or
+  `PRED-DU-003`.
+- **Hardware hardening blocker.** Backend-specific acceptance tolerances,
+  shot-power calculation, simultaneous uncertainty rule, and
+  calibration/systematics model must be frozen in a separate preregistration
+  before any future submission and before hardware data are seen. They may
+  not be selected after the result.
+- **Falsifier.** An exact derivation or faithful noiseless execution that
+  disagrees with the locked joint distribution refutes this ideal prediction.
+  A device mismatch first triggers the predeclared implementation,
+  calibration, drift, route, selection, and reset audit; it is not by itself
+  evidence of new physics.
+- **Publication posture.** A later paper may cite the first public Git commit
+  containing the lock as a pre-data prediction even if the experiment is
+  never run, provided it explicitly says that no hardware result exists.
+  Registration does not activate, submit, or publish a paper.
+- **Source pointer.**
+  `locked-qnd-memory-hardware-prediction-2026-07-26.md`.
 
 ---
 
