@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 73
+manifest_revision: 74
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -46,14 +46,24 @@ next_five_swing_campaign_rule: >-
 endogenous_compressive_record_campaign_ref: >-
   explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
 endogenous_compressive_record_campaign_rule: >-
-  The prepared ECR-N5 campaign consumes HC-DU-041 and attacks H-CCR-17 through staged
-  concentration: one strict tournament among mechanism chains capable of the full endogenous
-  selection, physical write, strict compression and held-out-transfer conjunction, followed by
-  conditional swings on native interface selection, formation/persistence/compression,
-  held-out multi-target transfer with capability growth, and robustness/North-Star
-  adjudication in one winner. Only ECR-N5-S1 is next executable. ECR-N5-S2 through S5 are
-  conditional dependency contracts, not active parallel runs. The matter-flow-to-metastable-
-  archive chain is the incumbent for scrutiny, not a selected scientific result.
+  The ECR-N5 campaign consumes HC-DU-041 and attacks H-CCR-17 through staged concentration.
+  ECR-N5-S1 is complete as HC-DU-042 and returns NO_READY_ARENA: each compared mechanism
+  selects or supports stable structure while leaving the complete provenance-bearing physical
+  write underselected. The common minimum premise is a write-complete physical antecedent.
+  Matter-flow-coupled metastability is the first host and environment-selected records/SBS its
+  mandatory absorber. Only ECR-N5-S2, the write-selector or tokenization-obstruction test, is
+  next executable. ECR-N5-S3 through S5 are conditional dependency contracts, not active
+  parallel runs.
+endogenous_record_mechanism_tournament_ref: >-
+  explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
+endogenous_record_mechanism_tournament_rule: >-
+  A selected slow manifold, phase orbit, protected sector, pointer algebra, source family or
+  redundant pattern is a potential record structure, not yet a formed record. Relative to a
+  claimed physical antecedent a and write-complete interface xi_W, a write selector exists
+  exactly when ker(a) is contained in ker(xi_W). Preserve blank carrier, physical write,
+  occurrence provenance, persistence and reset as outputs to derive or classify from the
+  physical microdynamics rather than semantic fields copied into the antecedent. HC-DU-042
+  earns a scoped NO_READY_ARENA and minimum-premise obstruction, not a universal no-go.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -461,8 +471,11 @@ lanes:
     H-final record has no H-accessible same-record remainder; capability enlargement refines
     equivalence and requires a new finality verdict. Advance H-CCR-17 by finding or obstructing
     one selected, formed, noninjective physical record with held-out transfer. Do not repeat
-    supplied quotients or injective tomography. Use the prepared ECR-N5 staged-concentration
-    campaign; only ECR-N5-S1, the strict endogenous-mechanism tournament, is next executable.
+    supplied quotients or injective tomography. Consume HC-DU-042: the strict five-mechanism
+    tournament returns NO_READY_ARENA and proves the current shared write-selector gap. A stable
+    quotient does not entail a blank-to-token write with provenance. Use ECR-N5-S2 as the sole
+    next object: test a matter-flow-coupled metastable write-complete antecedent or return its
+    exact tokenization obstruction, with environment-selected records/SBS as absorber.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -518,6 +531,7 @@ lanes:
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+  - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -620,9 +634,10 @@ lanes:
     consumed both receipts without changing the selector or formed-record semantics by arena:
     public operational shadows descend, but plural native apparatuses can remain. HC-DU-041
     finds no current specimen with endogenous selection plus formed strict compression plus
-    held-out transfer. Advance that exact H-CCR-17 conjunction or its obstruction through the
-    prepared ECR-N5 campaign. Only ECR-N5-S1 is next executable; do not begin one of the later
-    mechanism-specific construction cards independently.
+    held-out transfer. HC-DU-042 now returns NO_READY_ARENA across five mechanism chains and
+    identifies the write-complete physical antecedent as their common minimum missing premise.
+    Advance only ECR-N5-S2: the matter-flow metastable write-selector or
+    tokenization-obstruction test. Do not begin later mechanism-specific cards independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -669,6 +684,7 @@ lanes:
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+  - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -771,6 +787,7 @@ lanes:
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+  - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -863,6 +880,7 @@ lanes:
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+  - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   do_not: >-
@@ -932,10 +950,13 @@ lanes:
     selects an induction/realizability family but no particular apparatus record or actual
     outcome before A3/A4. HC-DU-035E now establishes formed descent for the public shadows and
     the exact native-type-erasure non-equivalence. HC-DU-041 has tested held-out public, native
-    and capability targets and exposes the endogenous-compression gap. Do not identify the physical systems, repeat code variants, or call the logical
-    quotient an irreducible ontology result; the code/check/action structure is supplied.
-    Use the prepared ECR-N5 campaign to select one mechanism chain before another reconstruction
-    build; only ECR-N5-S1 is next executable and later cards must consume its receipt.
+    and capability targets and exposes the endogenous-compression gap. HC-DU-042 has now
+    compared the five candidate mechanism chains and returns NO_READY_ARENA: their shared missing
+    object is the selected physical write, not another stable quotient. Do not identify the
+    physical systems, repeat code variants, or call the logical quotient an irreducible ontology
+    result; the code/check/action structure is supplied. Advance only ECR-N5-S2 on the
+    matter-flow metastable write-selector/tokenization boundary; later cards must consume its
+    receipt.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -990,6 +1011,7 @@ lanes:
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+  - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -1058,9 +1080,10 @@ lanes:
     attempt visibility, every join, uncertainty, provenance and complete-reset requirement passes.
     HC-DU-041 has completed the downstream adjudication: scoped supplied-interface
     reconstructions and capability-relative remainders are exact, while endogenous compressive
-    reconstruction and a representation-robust physical remainder remain open. Advance
-    H-CCR-17 only as a new bounded research object. The prepared ECR-N5 scaffold creates no paper
-    seed or priority change; only its mechanism tournament is next executable.
+    reconstruction and a representation-robust physical remainder remain open. HC-DU-042 adds
+    the exact write-selector gap and NO_READY_ARENA disposition without creating a paper seed or
+    priority change. Advance H-CCR-17 only through ECR-N5-S2, the bounded matter-flow metastable
+    write-selector or tokenization-obstruction test.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1087,6 +1110,7 @@ lanes:
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+  - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -1105,8 +1129,9 @@ lanes:
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
     entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
     the completed CCR-N5 campaign as a closed dependency receipt. CCR-N5-S1 through S5 are
-    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5 as the prepared
-    successor: only ECR-N5-S1 is next executable, while S2 through S5 remain conditional.
+    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5-S1 as completed
+    HC-DU-042 with NO_READY_ARENA and the write-selector gap. Only ECR-N5-S2 is next executable;
+    S3 through S5 remain conditional.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1123,6 +1148,7 @@ lanes:
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+  - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -4953,6 +4979,23 @@ provenance:
     No scientific claim, concept, hypothesis, prediction, paper, Factory state, model,
     simulation, hardware, provider action, submission, publication or external contact is
     promoted.
+  rev74_note: >-
+    2026-07-26 (Joe direct chat: Go, execute ECR-N5-S1): completed HC-DU-042 as the strict
+    endogenous-record mechanism tournament. The unchanged seven-obligation passport compares
+    matter-flow/metastability, environment-selected redundant records, topological/logical
+    sectors, causal-action/AQFT source chains, and conservation/phase-boundary recorders. The
+    result is NO_READY_ARENA. Each candidate selects or supports a stable quotient, slow
+    manifold, phase orbit, protected sector, source family or redundant pattern, but none
+    currently derives a complete blank-to-token write with occurrence provenance and
+    retention/reset from the same target-independent physical antecedent. Exactly, a
+    write-complete interface xi_W is antecedent-selected iff ker(a) is contained in ker(xi_W);
+    the binary idle-versus-write twin proves stable structure alone does not entail formed
+    record structure. This is known factorization and primary-source-anchored mechanism
+    classification, not a universal no-go. Matter-flow-coupled metastability is the first host
+    and Quantum Darwinism/SBS its mandatory absorber. Only ECR-N5-S2, the write-selector or
+    tokenization-obstruction test, is next executable. No endogenous record, ontology, new law,
+    new physics, prediction, paper, Factory state, model, simulation, hardware, provider
+    action, submission, publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

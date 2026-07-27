@@ -349,6 +349,20 @@ What *has* been earned is a strong finite control stack:
   record challenge
   ([result](explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md);
   [probe](tests/du_capability_indexed_north_star_probe.py)).
+- one scoped `HC-DU-042` endogenous-record mechanism tournament and
+  write-selector obstruction. The unchanged seven-obligation comparison
+  returns `NO_READY_ARENA`: open-system metastability, environment-selected
+  redundant records, topological/logical sectors, causal-action/AQFT source
+  chains, and material phase boundaries each supply valuable components, but
+  none currently selects a complete blank-to-token write with occurrence
+  provenance and retention/reset from the same target-independent physical
+  antecedent. The exact factorization and two-write counterexample establish
+  that a selected stable quotient is not yet a formed record. Matter-flow
+  plus metastability remains the first host and Quantum Darwinism/SBS its
+  mandatory absorber. `ECR-N5-S2`, the write-selector or
+  tokenization-obstruction test, is now the sole next executable object
+  ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
+  [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
   public order, trace laws, and public-action capabilities, but that is
@@ -716,16 +730,18 @@ source logs. The AQFT arena must still preserve probe, pointer, archive,
 provenance, decoder, and access as separately credited fields rather than
 treating an induced observable as a formed record.
 
-The prepared
+The
 [endogenous-compressive-record campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
-now turns that opening into five branch-safe swings. It uses one bounded
-mechanism tournament, then concentrates on one winner through native
-interface selection, physical write and strict compression, held-out
-multi-target transfer with capability growth, and robustness/North-Star
-adjudication. Only `ECR-N5-S1` is next executable. `ECR-N5-S2` through
-`ECR-N5-S5` are conditional contracts and must consume the strongest honest
-preceding receipt. The matter-flow-to-metastable-archive chain is the
-incumbent for scrutiny, not a selected result.
+turns that opening into five branch-safe swings. `ECR-N5-S1` is complete as
+`HC-DU-042` and returns `NO_READY_ARENA` plus one exact common missing
+premise: a write-complete physical antecedent whose dynamics selects the
+blank-to-token write and provenance, not merely a stable algebra, phase,
+protected sector, or redundant pattern. Matter-flow-coupled metastability is
+the first host and environment-selected records the mandatory absorber.
+`ECR-N5-S2` is now the sole next executable object. It tests the
+write-selector factorization or returns a tokenization obstruction.
+`ECR-N5-S3` through `ECR-N5-S5` remain conditional contracts and must consume
+the strongest honest preceding receipt.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -887,8 +903,12 @@ channels; they are not lanes and do not create a second priority system.
    `CCR-N5-S1` through `CCR-N5-S5` are complete. Do not rerun them; consume
    `HC-DU-041` and `H-CCR-17`.
 7. For current central execution, read the
-   [endogenous-compressive-record campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
-   Only `ECR-N5-S1`, the strict mechanism tournament, is next executable.
+   [endogenous-compressive-record tournament](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md)
+   and its
+   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
+   `ECR-N5-S1` is complete as `HC-DU-042`; only `ECR-N5-S2`, the
+   matter-flow metastable write-selector or tokenization-obstruction test, is
+   next executable.
    Later swing cards are conditional and are not separately active.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).

@@ -235,13 +235,20 @@ current results establish the starting boundary, not the answer:
   bottleneck
   ([adjudication](explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md);
   [completed campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)).
-  The prepared successor uses staged concentration: one strict tournament
-  among mechanism chains capable of the entire `H-CCR-17` conjunction,
-  followed by conditional swings on native interface selection, physical
-  write/strict compression, held-out transfer/capability growth, and
-  representation-robust adjudication. Only its first tournament is next
-  executable
-  ([successor scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
+  `HC-DU-042` has now executed the successor's strict mechanism tournament.
+  It returns `NO_READY_ARENA`: metastability, Quantum Darwinism/SBS,
+  topological protection, causal-action/AQFT source selection, and material
+  phase boundaries can each select or support stable structure, but no
+  current candidate derives the complete blank-to-token write, occurrence
+  provenance, and retention/reset interface from the same target-independent
+  physical antecedent. The exact write-selector factorization shows why a
+  selected slow algebra, phase orbit, protected sector, or redundant pattern
+  is not yet a formed record. Matter-flow-coupled metastability is retained
+  as the first host, with environment-selected records as its mandatory
+  absorber. `ECR-N5-S2`, the write-selector or tokenization-obstruction test,
+  is now the sole next executable object
+  ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
+  [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
   benchmarks, or downstream applications. None governs the new charter and none is promoted

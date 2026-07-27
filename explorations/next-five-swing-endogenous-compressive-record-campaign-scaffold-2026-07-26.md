@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: endogenous compression to held-out physics"
-status: prepared_swing_1_next
+status: swing_1_complete__swing_2_retyped_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: do another scaffolding and approach assessment for the next five big swings"
@@ -36,8 +36,18 @@ mechanism. The remaining four stay in one arena so that selection, formation,
 compression, and reconstruction cannot be borrowed from different examples
 and presented as one result.
 
-Only `ECR-N5-S1` is the next executable object. `ECR-N5-S2` through
-`ECR-N5-S5` are prepared branch contracts, not active runs.
+`ECR-N5-S1` is now complete as `HC-DU-042`. It returned
+`NO_READY_ARENA`: every current candidate selects or supports a stable
+algebra, phase, quotient, source, or redundant pattern while leaving the
+complete provenance-bearing physical write underselected. The common minimum
+missing premise is a write-complete physical antecedent. Matter flow plus
+metastability remains the first host, with decoherence/SBS as its mandatory
+absorber.
+
+`ECR-N5-S2` is now the sole next executable object, retyped as the
+matter-flow metastable write-selector or tokenization-obstruction test.
+`ECR-N5-S3` through `ECR-N5-S5` remain conditional branch contracts, not
+active runs.
 
 The campaign question is:
 
@@ -590,9 +600,13 @@ each missing arrow one at a time.
 
 ## 9. First execution handoff
 
-`ECR-N5-S1` is the sole next executable object.
+`ECR-N5-S1` is complete as
+[`HC-DU-042`](endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md).
+The strict result is `NO_READY_ARENA`, with matter-flow-coupled
+metastability retained as the first host rather than promoted as a positive
+specimen.
 
-Its required output is one dated mechanism-tournament receipt containing:
+Its completed output contains:
 
 1. the unchanged seven-obligation passport;
 2. five candidate mechanism cards;
@@ -606,9 +620,18 @@ Its required output is one dated mechanism-tournament receipt containing:
 9. explicit confirmation that no model, hardware, paper, prediction, or
    claim state changed.
 
-The incumbent is the matter-flow-to-metastable-archive chain, but incumbency
-is a prior for scrutiny, not a result. If it cannot identify a physical write
-without inserting a memory architecture, it should lose.
+The incumbent did not win the full passport. It leads only as the cheapest
+host of the now-exact next question: whether a full material generator can
+select the blank-to-token write and provenance, rather than merely a slow
+phase simplex or monitoring-dependent trajectory.
+
+`ECR-N5-S2` is now the sole next executable object. Its exact inherited
+contract is in `HC-DU-042`, Section 8. It must test
+\(\ker a_W\subseteq\ker\xi_W\) for one minimal matter-coupled metastable
+generator, preserve environment-selected records as the strongest absorber,
+and return a selected point/orbit, plural family, trivial interface, or
+tokenization obstruction. It may not add a hand-selected detector after
+seeing the held-out target.
 
 ## 10. Campaign claim ceiling
 

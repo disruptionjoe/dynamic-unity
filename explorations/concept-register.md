@@ -1016,6 +1016,23 @@ resolution-stable intervention role. No claim is banked or seeded. See
   mathematics. The live concept frontier is `H-CCR-17`, not a record-first
   ontology or representation-robust remainder. See
   `capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md`.
+- **Earned write-selector gap and mechanism-tournament boundary.**
+  `HC-DU-042` applies the unchanged `H-CCR-17` passport to
+  matter-flow/metastability, Quantum Darwinism/SBS, topological/logical
+  sectors, causal-action/AQFT source chains, and conservation/phase-boundary
+  recorders. The strict result is `NO_READY_ARENA`. Each mechanism can select
+  or support a stable quotient, slow manifold, phase orbit, protected sector,
+  source family, or redundant pattern, but none currently derives a complete
+  blank-to-token write with occurrence provenance and retention/reset from
+  the same target-independent physical antecedent. Exactly, a write selector
+  exists iff the write-complete interface is constant on the claimed
+  antecedent fibres. The binary idle-versus-write twin proves that selected
+  stable structure alone does not entail formed record structure. This is
+  known set-factorization and mechanism classification, not a universal
+  no-go or record ontology. The next formalization is one
+  matter-flow-coupled metastable write-selector or tokenization-obstruction
+  test, with environment-selected records as the mandatory absorber. See
+  `endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md`.
 - **Earned algebraic-QFT transport and capability-growth boundary.**
   `HC-DU-040B` removes the finite-dimensional crutch from one part of the
   program. For any unital von Neumann algebra and finite internal PVM, the

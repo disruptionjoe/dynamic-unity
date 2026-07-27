@@ -1288,6 +1288,45 @@ The global North-Star verdict remains `INCOMPLETE_CONTRACT`. The new central
 opening is `H-CCR-17`, the Endogenous Compressive Record Challenge. See
 `../explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md`.
 
+### `HC-DU-042` — Endogenous Record Mechanism Tournament and Write-Selector Gap
+
+`ECR-N5-S1` compares five candidate mechanism chains under the unchanged
+seven-part `H-CCR-17` passport:
+
+1. matter flow to metastable archive;
+2. environment-selected pointer to redundant public record;
+3. Hamiltonian-selected topological or logical sector;
+4. causal-action or local-QFT source to instrument chain; and
+5. conservation-law or phase-boundary recorder.
+
+The strict result is `NO_READY_ARENA`. Each candidate can select or support
+some stable structure, but none currently derives a complete
+provenance-bearing blank-to-token write from the same target-independent
+physical antecedent that supports its stable quotient and held-out target.
+
+For a source/stability antecedent \(a_0\) and write-complete interface
+\(\xi_W\), a write selector exists exactly when
+
+\[
+\ker a_0\subseteq\ker\xi_W.
+\]
+
+The minimum counterexample fixes the same binary source quotient in two
+realizations, leaves the memory blank in one and writes the source value in
+the other. Thus a selected slow manifold, phase orbit, protected sector,
+pointer algebra, or induced-observable family is only a potential record
+structure. It is not yet a formed record.
+
+This is known set-factorization plus primary-source-anchored mechanism
+classification, not a universal physical no-go. A full physical antecedent
+may still select the material carrier, write, provenance, and persistence.
+Matter-flow-coupled metastability is the first host for that test, with
+environment-selected records/SBS as the mandatory absorber.
+
+`ECR-N5-S2` is now the sole next executable object: the matter-flow
+metastable write-selector or tokenization-obstruction test. See
+`../explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md`.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -2715,16 +2754,20 @@ representation-robust remainder.
 
 **`H-CCR-17` priority.** More reconstructions through supplied codes,
 detectors, record-complete lookups, or injective sensor arrays have low
-information value. The next central physical arena must select its interface,
-strictly compress its lawful nongauge class, and transfer to a held-out target
-without refit—or yield the corresponding selection/compression obstruction.
-The prepared
+information value. `HC-DU-042` now shows that none of the five compared
+mechanism chains is ready for the full conjunction. Their common missing
+premise is a write-complete physical antecedent: a full material
+source--carrier--environment dynamics and preparation from which blank,
+write, provenance, persistence, and reset can be derived or honestly
+classified. A selected stable quotient is not yet a formed record.
+The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
-uses one strict mechanism tournament followed by conditional tests of native
-interface selection, actual write/persistence and strict compression,
-held-out multi-target transfer with one capability enlargement, and
-representation/refinement robustness. Only `ECR-N5-S1` is next executable;
-the later four swings are dependency contracts, not active parallel bets.
+now concentrates first on matter-flow-coupled metastability, with
+environment-selected records as the strongest absorber. `ECR-N5-S2` is the
+sole next executable object and must either prove the write-selector
+factorization up to physical gauge/orbit or return the exact tokenization
+obstruction. The later three swings remain dependency contracts, not active
+parallel bets.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3376,6 +3419,11 @@ CAPABILITY ENLARGEMENT REFINES OPERATIONAL EQUIVALENCE AND REOPENS FINALITY
 INJECTIVE REPAIR EARNS TOMOGRAPHY NOT NONTRIVIAL RECORD COMPRESSION
 NO CURRENT ENDOGENOUS STRICT-COMPRESSION RECONSTRUCTION
 GLOBAL VERDICT INCOMPLETE_CONTRACT; H-CCR-17 OPEN
+HC-DU-042 ENDOGENOUS-RECORD MECHANISM TOURNAMENT RETURNS NO_READY_ARENA
+SELECTED STABLE QUOTIENT DOES NOT ENTAIL FORMED PROVENANCE-BEARING WRITE
+WRITE SELECTOR EXISTS IFF WRITE-COMPLETE INTERFACE IS CONSTANT ON ANTECEDENT FIBRES
+MATTER-FLOW METASTABILITY IS FIRST HOST; QD/SBS IS MANDATORY ABSORBER
+ECR-N5-S2 WRITE-SELECTOR OR TOKENIZATION-OBSTRUCTION TEST NEXT
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS
