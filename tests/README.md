@@ -1960,3 +1960,50 @@ first-failure controls. It is not an Avalanche, Byzantine-consensus,
 threshold-signature, DKG, ZK, MPC, or physical implementation; a security
 proof; new physics; a prediction; a paper promotion; or authority for
 hardware or external action.
+
+## HC-DU-050 capability-relative selective views and regional handoff
+
+`du_capability_relative_selective_view_handoff_probe.py` preserves the exact
+finite controls behind the Position-4 theorem and handoff boundary:
+
+- all view-field subsets are exhausted over 512 frozen histories to recover
+  the minimum semantic view for tentative response, conflict-safe execution,
+  signer accountability, equivocation-proof readiness, and physical-source
+  adjudication;
+- explicit and compressed threshold certificates can both close execution,
+  while only the explicit view preserves signer accountability;
+- adding audit and physical-adjudication capabilities strictly refines the
+  action-relevant history equivalence;
+- incompatible incomplete regional views can each close their local action
+  without reconstructing global history;
+- joined complementary views can support an attributable-fork audit that
+  neither supports alone;
+- the same certificate and provenance commitment can have different evidence
+  availability;
+- the same compact group-key record can be current or stale relative to
+  receiver epoch;
+- a self-confirming adaptive interest filter hides a corrective event;
+- positive signed fork evidence is monotone under history extension, while
+  absence of a fork is not;
+- equal dead-reckoning position/velocity can hide a target-changing
+  acceleration, while an authoritative correction supports explicit rollback;
+- isolated shards do not close a nonlocal quota invariant that their joined
+  view does;
+- a complete protocol-only view remains insufficient for the matched null
+  physical target; and
+- every one of eight omitted handoff premises returns its own exact first
+  failure.
+
+Run:
+
+```bash
+python3 tests/du_capability_relative_selective_view_handoff_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_capability_relative_selective_view_handoff_result.json` and
+reports `28/28`. Passing is regression coverage for analytic finite
+factorization, selective-view minima, capability refinement, and first-failure
+controls. It is not an MMO, database, network, cryptographic, consensus, or
+physical implementation; a security proof; new physics; a prediction; a
+paper promotion; or authority for hardware or external action.

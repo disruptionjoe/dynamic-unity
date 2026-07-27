@@ -2374,11 +2374,21 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   The scoped composition needs source adequacy, validity adequacy, sampling
   accounting, conflict safety, liveness, certificate sufficiency,
   epoch/setup integrity, and archive availability.
-- **Next discriminator.** `N5-SCF-P4` derives the minimum selective regional
-  view for tentative response, conflict-safe execution, signer
-  accountability, equivocation audit, and physical-source adjudication, then
-  tests compact-certificate handoff with an available provenance sidecar
-  under partition, churn, rollback, and capability expansion.
+- **2026-07-27 selective-view/handoff boundary.** `HC-DU-050` proves that
+  different incomplete regional views can each be sufficient for a frozen
+  local action without reconstructing one global history. Capability
+  enlargement refines the action-relevant history equivalence. Commitment
+  binding does not imply evidence availability; the same compact certificate
+  can be current or stale relative to receiver epoch; and a
+  preference-driven interest filter can hide the first corrective event.
+  Positive signed fork evidence is monotone under history extension, while
+  absence of a fork is not. Safe regional handoff factors through the export
+  together with declared receiver context and cannot mint a physical target
+  absent from the complete admitted upstream input.
+- **Next discriminator.** `N5-SCF-P5` collides the unchanged completed
+  distributed stack with one physically formed record arena and the closed
+  metastable host, returning either a scoped physical correspondence or the
+  first precise arrow where the translation fails.
 - **Nearest terrain.** Function factorization, Blackwell comparison,
   data processing, concentration under dependence, multivariate synergy,
   secret sharing, zero knowledge, secure computation, threshold
@@ -2390,7 +2400,8 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   SYNERGY-PRESERVING GOSSIP AND DECLARED-DAG-PROVENANCE BOUNDARY INSTALLED /
   SCOPED METASTABLE-TO-BYZANTINE COMPOSITION AND CAPABILITY-INDEXED
   PROVENANCE LIFT INSTALLED / PHYSICAL SOURCE BINDING AND COMMON KNOWLEDGE
-  REMAIN SEPARATE / CAPABILITY-RELATIVE SELECTIVE VIEWS AND REGIONAL HANDOFF
+  REMAIN SEPARATE / CAPABILITY-RELATIVE SELECTIVE-VIEW AND
+  RECEIVER-CONTEXTUAL HANDOFF BOUNDARY INSTALLED / DU PHYSICAL COLLISION
   NEXT / NO CONSENSUS
   NOVELTY, STRONG EMERGENCE, ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER
   PROMOTION.** See
@@ -2398,7 +2409,9 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   and
   `synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md`
   and
-  `metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md`.
+  `metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md`
+  and
+  `capability-relative-selective-views-and-regional-handoff-2026-07-27.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 83
+manifest_revision: 84
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -89,8 +89,8 @@ stochastic_consensus_finality_sequence_rule: >-
   homomorphic/MPC and threshold/DKG cryptographers. It preserves HC-DU-035A/035C and asks what
   amplification, propagation, provenance, metastability, hard finality, cryptographic
   verification, concealed computation and capability-relative filtering can add without
-  creating information absent from the complete joint admitted input. N5-SCF-P1/2/3 are complete as
-  HC-DU-047/048/049. HC-DU-047 proves deterministic and stochastic joint-input no-minting while correcting the
+  creating information absent from the complete joint admitted input. N5-SCF-P1/2/3/4 are complete as
+  HC-DU-047/048/049/050. HC-DU-047 proves deterministic and stochastic joint-input no-minting while correcting the
   individual-input overreach: XOR and threshold-secret-sharing correlations can be jointly
   exact while every local marginal is target-independent. IID evidence amplifies; copied,
   common-shock, clustered, higher-order-dependent, stigmergic and adversarially sampled evidence
@@ -101,9 +101,13 @@ stochastic_consensus_finality_sequence_rule: >-
   metastable confidence, quorum-lock conflict safety, liveness and physical source truth remain
   distinct; hardening can close conflict-safe execution without improving source truth, while
   certificate compression can omit signer, fork, membership or formation provenance required by
-  stronger audits. Only N5-SCF-P4, Capability-Relative Selective Views and Regional Handoff, is
-  executable. Position 5 remains conditional and must collide the unchanged typed stack with one DU
-  physical arena and hand a resume/retype/retire recommendation to deferred N5-RS-P2. No model,
+  stronger audits. HC-DU-050 proves that incompatible incomplete regional views can each close a
+  frozen local action without reconstructing global history; capability enlargement refines the
+  relevant history quotient; commitment is not evidence availability; compact handoff is
+  receiver-contextual and epoch-bound; and self-confirming filters can hide corrective evidence.
+  Only N5-SCF-P5, DU Physical Collision and Portfolio Handoff, is executable. It must collide the
+  unchanged typed stack with one DU physical arena and hand a resume/retype/retire recommendation
+  to deferred N5-RS-P2. No model,
   hardware, paper, prediction or physics claim is promoted.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
@@ -172,7 +176,7 @@ metastable_host_robustness_result_rule: >-
   factor through that antecedent. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION, retain
   MARKOV_OPERATIONAL_CLOSURE as the positive control, and treat A-plus-H repair as
   INJECTIVE_TOMOGRAPHY_ONLY. N5-RS-P2 was the initially queued portfolio pivot, but Joe has
-  interposed N5-SCF. HC-DU-047/048/049 have completed Positions 1 through 3. Advance only N5-SCF-P4 and
+  interposed N5-SCF. HC-DU-047/048/049/050 have completed Positions 1 through 4. Advance only N5-SCF-P5 and
   do not fit another archive to this host.
 joint_input_amplification_result_ref: >-
   explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md
@@ -188,7 +192,8 @@ joint_input_amplification_result_rule: >-
   FHE/MPC and threshold cryptography alter verification, computation, disclosure or authority
   without certifying a physical target absent from the complete joint input. Treat effective
   support as model-relative. HC-DU-048 tests gossip/DAG propagation and provenance across
-  matched synergy and null source worlds; HC-DU-049 tests the hardening boundary. Advance only N5-SCF-P4.
+  matched synergy and null source worlds; HC-DU-049 tests the hardening boundary and HC-DU-050
+  tests selective views and regional handoff. Advance only N5-SCF-P5.
 synergy_gossip_dag_provenance_result_ref: >-
   explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
 synergy_gossip_dag_provenance_result_rule: >-
@@ -200,8 +205,8 @@ synergy_gossip_dag_provenance_result_rule: >-
   branches or literal common knowledge. Endpoint value and total order do not identify route; raw
   path length fails benign-subdivision naturality while reachability among distinguished original
   events survives. An event-bound zero-knowledge proof certifies its declared relation, not an
-  unmodeled physical target. HC-DU-049 now tests metastable and
-  Byzantine/threshold hardening.
+  unmodeled physical target. HC-DU-049 tests metastable and Byzantine/threshold
+  hardening; HC-DU-050 tests selective views and regional handoff.
 metastable_byzantine_provenance_result_ref: >-
   explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md
 metastable_byzantine_provenance_result_rule: >-
@@ -216,8 +221,21 @@ metastable_byzantine_provenance_result_rule: >-
   equivocation, membership epoch, controller independence or source formation.
   Certificate sufficiency is capability-indexed. Scoped composition requires source
   adequacy, validity adequacy, sampling accounting, conflict safety, liveness,
-  certificate sufficiency, epoch/setup integrity and archive availability. Advance
-  only N5-SCF-P4, Capability-Relative Selective Views and Regional Handoff.
+  certificate sufficiency, epoch/setup integrity and archive availability. HC-DU-050
+  consumes this boundary.
+capability_relative_selective_view_handoff_result_ref: >-
+  explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
+capability_relative_selective_view_handoff_result_rule: >-
+  A selective view is sufficient for a frozen action exactly when the action factors through
+  the view. Different incompatible incomplete regional views can each close their assigned
+  local action without reconstructing global history, and joined complementary views can
+  support a stronger audit. Capability enlargement refines the action-relevant history
+  equivalence. Commitment binding does not imply evidence availability; the same compact
+  certificate may be current or stale relative to receiver epoch; positive signed fork
+  evidence is monotone under history extension while absence of a fork is not; and an adaptive
+  self-confirming interest filter can hide corrective evidence. Safe handoff factors through
+  the export plus declared receiver context and cannot mint a target absent from admitted
+  upstream input. Advance only N5-SCF-P5, DU Physical Collision and Portfolio Handoff.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -648,7 +666,9 @@ lanes:
     those shares and a signed DAG can preserve declared ancestry, while physical source binding,
     common knowledge, ordering and action safety remain separate. Consume HC-DU-049: quorum
     hardening changes conflict safety rather than source truth, and certificate sufficiency is
-    capability-indexed. Advance only N5-SCF-P4;
+    capability-indexed. Consume HC-DU-050: incomplete regional views can each close a frozen
+    action, while receiver context, epoch, evidence availability and capability expansion govern
+    safe handoff. Advance only N5-SCF-P5;
     N5-RS-P2 and its later positions remain deferred and conditional.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
@@ -831,8 +851,9 @@ lanes:
     amplification. HC-DU-048 proves synergy-preserving propagation, declared-DAG provenance,
     fork-visibility and knowledge-layer separation while leaving physical source binding open.
     HC-DU-049 proves scoped metastable-to-Byzantine composition with a mandatory
-    capability-indexed provenance lift. Advance only N5-SCF-P4, capability-relative selective
-    views and regional handoff. N5-RS-P2
+    capability-indexed provenance lift. HC-DU-050 proves capability-relative selective-view
+    closure and receiver-contextual regional handoff. Advance only N5-SCF-P5, DU Physical
+    Collision and Portfolio Handoff. N5-RS-P2
     is deferred behind the five-swing N5-SCF sequence. Do not begin another mechanism-specific
     card independently.
     Treat a regional algebra center or
@@ -968,9 +989,10 @@ lanes:
     capability law. Consume HC-DU-049's certificate-provenance factorization boundary: one
     certificate may close conflict-safe execution while leaving signer accountability,
     equivocation audit, membership reconstruction, controller independence or physical-source
-    adjudication open. Advance N5-SCF-P4 by deriving the minimum target-independent selective
-    view for each action class and testing safe regional handoff without silently expanding the
-    observer's record.
+    adjudication open. Consume HC-DU-050's exact capability refinement: selective views close
+    only their frozen actions, and safe handoff is receiver-contextual, epoch-bound and
+    availability-sensitive. Advance only N5-SCF-P5 and test whether that unchanged structure
+    has a genuine physical counterpart.
   success_signal: >-
     A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
     counterexample showing exactly which access or resource was missing.
@@ -980,6 +1002,8 @@ lanes:
   - CH-EMPIRICAL
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
+  - explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
+  - tests/du_capability_relative_selective_view_handoff_probe.py
   - explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md
   - tests/du_metastable_byzantine_provenance_hardening_probe.py
   - lab/process/cross-repo-hardening-control-contract.md
@@ -1065,14 +1089,16 @@ lanes:
     specimen closes endogenous strict-compression reconstruction. Advance H-CCR-17 or its
     obstruction rather than repeating supplied quotient controls. The prepared ECR-N5 sequence
     reaches regional finality only after selection, physical writing and strict compression have
-    been earned in one arena. Consume HC-DU-047/048/049 before any distributed hardening claim:
+    been earned in one arena. Consume HC-DU-047/048/049/050 before any distributed hardening claim:
     individually insufficient records may become target-sufficient only when pooled; gossip
     preserves that synergy without identifying its physical source; a signed parent DAG preserves
     declared ancestry but neither route nor controller independence; and delivery, reconstruction,
     provenance, equivocation evidence, distributed knowledge, individual knowledge, common
     knowledge, ordering and action safety are distinct predicates. A conflict-safe certificate
-    can still omit the provenance required by a stronger action. Advance only N5-SCF-P4,
-    capability-relative selective views and regional handoff; N5-RS-P2 remains deferred.
+    can still omit the provenance required by a stronger action. HC-DU-050 adds that local
+    action closure does not require global-history reconstruction, while capability expansion
+    reopens omitted distinctions. Advance only N5-SCF-P5, DU Physical Collision and Portfolio
+    Handoff; N5-RS-P2 remains deferred.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -1083,6 +1109,8 @@ lanes:
   - CH-COLLIDE
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
+  - explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
+  - tests/du_capability_relative_selective_view_handoff_probe.py
   - explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
   - tests/du_synergy_gossip_dag_provenance_probe.py
   - explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md
@@ -1192,8 +1220,9 @@ lanes:
     does not imply joint insufficiency, while any target absent from the complete joint input
     stays absent downstream. HC-DU-048 adds that gossip can pool complementary source
     information and a signed DAG preserves declared rather than physical provenance. HC-DU-049
-    adds the scoped hardening and capability-indexed certificate-sufficiency boundary. Advance
-    only N5-SCF-P4; N5-RS-P2 is deferred behind the
+    adds the scoped hardening and capability-indexed certificate-sufficiency boundary. HC-DU-050
+    adds selective-view local closure and receiver-contextual handoff. Advance only N5-SCF-P5;
+    N5-RS-P2 is deferred behind the
     stochastic/consensus/complexity/cryptography sequence.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
@@ -1335,7 +1364,9 @@ lanes:
     the joint-input no-minting and synergistic-recovery boundary without paper or prediction
     promotion. HC-DU-048 adds the synergy-preserving gossip, declared-DAG-provenance and
     knowledge-layer boundary without paper or prediction promotion. HC-DU-049 adds the scoped
-    hardening/provenance-lift boundary without paper or prediction promotion. Advance only N5-SCF-P4;
+    hardening/provenance-lift boundary without paper or prediction promotion. HC-DU-050 adds the
+    capability-relative selective-view and regional-handoff boundary without paper or prediction
+    promotion. Advance only N5-SCF-P5;
     the N5-RS-P2 minimum-premise and whole-DU portfolio pivot is deferred until N5-SCF returns
     its cross-arena handoff.
   success_signal: >-
@@ -1389,10 +1420,11 @@ lanes:
     the first completed cycle and every longer horizon; full environment repair is injective
     and resource-expanded. Preserve the host verdict
     SELECTION_OR_FORMATION_OBSTRUCTION and the prepared N5-RS sequence without treating it as a
-    parallel campaign. Preserve completed HC-DU-047/048/049 and their
+    parallel campaign. Preserve completed HC-DU-047/048/049/050 and their
     individual-versus-joint-insufficiency, synergy-preserving propagation, declared-provenance
-    knowledge-layer, hardening and certificate-sufficiency corrections. Preserve the interposed
-    N5-SCF sequence and make only N5-SCF-P4 executable; N5-RS-P2 remains deferred.
+    knowledge-layer, hardening, certificate-sufficiency, selective-view and handoff corrections.
+    Preserve the interposed N5-SCF sequence and make only N5-SCF-P5 executable; N5-RS-P2 remains
+    deferred.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1403,6 +1435,8 @@ lanes:
   canonical_refs:
   - AGENTS.md
   - explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
+  - explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
+  - tests/du_capability_relative_selective_view_handoff_probe.py
   - explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
   - tests/du_synergy_gossip_dag_provenance_probe.py
   - explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md
@@ -5416,6 +5450,27 @@ provenance:
     Capability-Relative Selective Views and Regional Handoff, is executable.
     N5-RS-P2 remains deferred. No paper, prediction, new physics, research model,
     hardware, provider, submission, publication or external-contact state changed.
+  rev84_note: >-
+    2026-07-27 (Joe direct chat: Go go): completed N5-SCF-P4 as HC-DU-050.
+    Exact factorization over 512 histories derives minimum semantic selective
+    views for tentative response, conflict-safe execution, signer accountability,
+    equivocation-proof readiness and physical-source adjudication. Incompatible
+    incomplete regional views can each close a frozen local action without
+    reconstructing global history, while joined complementary views can support
+    a stronger audit. Capability enlargement strictly refines action-relevant
+    history equivalence. The hostile cases separate commitment from evidence
+    availability, current from stale receiver epoch, and independent effect
+    filtering from a self-confirming adaptive eclipse. Positive signed fork
+    evidence is monotone under history extension; absence of a fork is not.
+    Dead reckoning fails under hidden acceleration, authoritative handoff
+    supports explicit rollback, and isolated shards do not close a nonlocal
+    quota invariant.
+    Safe handoff requires eight receiver-contextual premises and cannot mint a
+    target absent from admitted upstream input. The exact certificate passes
+    28/28. Only N5-SCF-P5, DU Physical Collision and Portfolio Handoff, is
+    executable. N5-RS-P2 remains deferred. No paper, prediction, new physics,
+    research model, hardware, provider, submission, publication or
+    external-contact state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"

@@ -1,0 +1,311 @@
+{
+  "capability_equivalence_classes": {
+    "execution": 3,
+    "execution_plus_protocol_audit": 14,
+    "execution_protocol_audit_plus_physical_adjudication": 28
+  },
+  "checks": [
+    {
+      "detail": {
+        "equivocation_proof_ready": [
+          [
+            "fork_committed",
+            "sidecar_available"
+          ]
+        ],
+        "physical_source_truth": [
+          [
+            "source_attestation"
+          ]
+        ],
+        "safe_execution": [
+          [
+            "decision",
+            "certificate_valid",
+            "epoch_current"
+          ]
+        ],
+        "signer_accountability": [
+          [
+            "certificate_valid",
+            "signer_subset"
+          ]
+        ],
+        "tentative_response": [
+          [
+            "tentative_preference"
+          ]
+        ]
+      },
+      "name": "exhaustive_minimum_views_match_the_five_frozen_action_classes",
+      "passed": true
+    },
+    {
+      "detail": "route forensics is a separate action target, not universal payload",
+      "name": "route_is_not_required_for_any_frozen_action",
+      "passed": true
+    },
+    {
+      "detail": "two different payload schemas implement the same execution quotient",
+      "name": "explicit_and_threshold_certificates_both_support_execution",
+      "passed": true
+    },
+    {
+      "detail": "execution sufficiency does not imply audit sufficiency",
+      "name": "threshold_execution_view_does_not_support_signer_accountability",
+      "passed": true
+    },
+    {
+      "detail": "retaining individual signer identities changes the audit capability",
+      "name": "explicit_qc_view_supports_signer_accountability",
+      "passed": true
+    },
+    {
+      "detail": {
+        "execution_classes": 3,
+        "execution_plus_audit_classes": 14
+      },
+      "name": "adding_audit_capabilities_strictly_refines_execution_equivalence",
+      "passed": true
+    },
+    {
+      "detail": {
+        "physical_capability_classes": 28,
+        "protocol_capability_classes": 14
+      },
+      "name": "adding_physical_adjudication_strictly_refines_protocol_audit_equivalence",
+      "passed": true
+    },
+    {
+      "detail": "the region need not replicate signer, fork, route, or source fields",
+      "name": "region_execution_view_is_locally_action_sufficient",
+      "passed": true
+    },
+    {
+      "detail": "the audit region need not replicate decision or route fields",
+      "name": "region_audit_view_is_locally_action_sufficient",
+      "passed": true
+    },
+    {
+      "detail": "local action closure is weaker than global history reconstruction",
+      "name": "neither_local_view_reconstructs_the_global_history",
+      "passed": true
+    },
+    {
+      "detail": "individual insufficiency does not settle joint sufficiency",
+      "name": "individual_regional_views_are_insufficient_for_attributable_fork_audit",
+      "passed": true
+    },
+    {
+      "detail": "complementary views can create a stronger joint capability",
+      "name": "joined_regional_views_support_attributable_fork_audit",
+      "passed": true
+    },
+    {
+      "detail": "binding is not retrieval",
+      "name": "same_certificate_and_commitment_do_not_identify_proof_availability",
+      "passed": true
+    },
+    {
+      "detail": "the receiver still needs an access path and valid openings in a real protocol",
+      "name": "availability_bit_repairs_the_frozen_proof_production_target",
+      "passed": true
+    },
+    {
+      "detail": "the same group-key verification record can be current or stale",
+      "name": "compact_group_record_without_epoch_context_is_not_handoff_sufficient",
+      "passed": true
+    },
+    {
+      "detail": "receiver context is part of the factorization domain",
+      "name": "epoch_bound_record_plus_receiver_context_is_handoff_sufficient",
+      "passed": true
+    },
+    {
+      "detail": "a policy driven by its current preference can create an eclipse",
+      "name": "adaptive_self_confirming_filter_hides_the_corrective_event",
+      "passed": true
+    },
+    {
+      "detail": "this is a frozen finite control, not a universal interest-management rule",
+      "name": "complete_action_relevant_effect_view_repairs_this_hostile_pair",
+      "passed": true
+    },
+    {
+      "detail": "later records cannot erase an already witnessed signed fork",
+      "name": "positive_signed_equivocation_evidence_is_monotone_under_extension",
+      "passed": true
+    },
+    {
+      "detail": "a later conflicting branch can reopen an earlier clean-looking view",
+      "name": "absence_of_equivocation_is_not_monotone_under_extension",
+      "passed": true
+    },
+    {
+      "detail": {
+        "expanded_views": [
+          [
+            0,
+            [
+              [
+                "support",
+                0
+              ]
+            ]
+          ],
+          [
+            0,
+            [
+              [
+                "support",
+                0
+              ],
+              [
+                "correction",
+                1
+              ]
+            ]
+          ]
+        ],
+        "small_view": [
+          0,
+          [
+            [
+              "support",
+              0
+            ]
+          ]
+        ]
+      },
+      "name": "interest_expansion_strictly_refines_the_hostile_pair",
+      "passed": true
+    },
+    {
+      "detail": "equal position and velocity can hide a target-changing acceleration",
+      "name": "dead_reckoning_view_is_not_exact_next_state_finality",
+      "passed": true
+    },
+    {
+      "detail": "a local predictor may remain useful for reversible display before correction",
+      "name": "authoritative_acceleration_handoff_repairs_the_motion_pair",
+      "passed": true
+    },
+    {
+      "detail": "handoff can preserve local responsiveness by making rollback explicit",
+      "name": "tentative_view_closes_reversible_response_not_irreversible_handoff",
+      "passed": true
+    },
+    {
+      "detail": "local closure is action-relative; a cross-shard invariant can still require coordination",
+      "name": "partitioned_shards_do_not_close_a_nonlocal_quota_without_joint_state",
+      "passed": true
+    },
+    {
+      "detail": "no downstream handoff can mint a source relation absent from its admitted input",
+      "name": "complete_protocol_selective_view_does_not_adjudicate_null_physical_target",
+      "passed": true
+    },
+    {
+      "detail": [
+        "sender_action_sufficiency",
+        "certificate_semantics_aligned",
+        "epoch_membership_bound",
+        "commitment_binding",
+        "required_evidence_available",
+        "receiver_decoder_and_access",
+        "capability_contract_frozen",
+        "target_present_in_admitted_input"
+      ],
+      "name": "complete_typed_contract_returns_capability_relative_safe_handoff",
+      "passed": true
+    },
+    {
+      "detail": {
+        "capability_contract_frozen": "FAIL:capability_contract_frozen",
+        "certificate_semantics_aligned": "FAIL:certificate_semantics_aligned",
+        "commitment_binding": "FAIL:commitment_binding",
+        "epoch_membership_bound": "FAIL:epoch_membership_bound",
+        "receiver_decoder_and_access": "FAIL:receiver_decoder_and_access",
+        "required_evidence_available": "FAIL:required_evidence_available",
+        "sender_action_sufficiency": "FAIL:sender_action_sufficiency",
+        "target_present_in_admitted_input": "FAIL:target_present_in_admitted_input"
+      },
+      "name": "each_missing_handoff_premise_returns_its_first_typed_failure",
+      "passed": true
+    }
+  ],
+  "checks_passed": 28,
+  "checks_total": 28,
+  "claim_id": "HC-DU-050",
+  "first_identifiable_layer": {
+    "conflict_safe_execution": [
+      "decision",
+      "certificate_valid",
+      "epoch_current"
+    ],
+    "equivocation_proof_production": [
+      "fork_committed",
+      "sidecar_available"
+    ],
+    "physical_source_adjudication": [
+      "independent_source_attestation"
+    ],
+    "regional_handoff": [
+      "sender_action_sufficiency",
+      "certificate_semantics_aligned",
+      "epoch_membership_bound",
+      "commitment_binding",
+      "required_evidence_available",
+      "receiver_decoder_and_access",
+      "capability_contract_frozen",
+      "target_present_in_admitted_input"
+    ],
+    "signer_accountability": [
+      "certificate_valid",
+      "signer_subset"
+    ],
+    "tentative_response": [
+      "tentative_preference"
+    ]
+  },
+  "history_rows_exhausted": 512,
+  "local_model_gate": {
+    "disposition": "PROOF_CERTIFICATE_OUTSIDE_RESEARCH_MODEL_ADMISSION",
+    "reason": "the finite factorization statements and explicit counterexamples are analytic; the script only exhausts their fibres, view bundles, equivalence refinements, and first-failure controls"
+  },
+  "minimum_views": {
+    "equivocation_proof_ready": [
+      [
+        "fork_committed",
+        "sidecar_available"
+      ]
+    ],
+    "physical_source_truth": [
+      [
+        "source_attestation"
+      ]
+    ],
+    "safe_execution": [
+      [
+        "decision",
+        "certificate_valid",
+        "epoch_current"
+      ]
+    ],
+    "signer_accountability": [
+      [
+        "certificate_valid",
+        "signer_subset"
+      ]
+    ],
+    "tentative_response": [
+      [
+        "tentative_preference"
+      ]
+    ]
+  },
+  "next_work": "N5-SCF-P5",
+  "return": "CAPABILITY_RELATIVE_SELECTIVE_VIEW_AND_REGIONAL_HANDOFF_THEOREM_WITH_AVAILABILITY_EPOCH_AND_MONOTONICITY_BOUNDARIES",
+  "run_id": "N5-SCF-P4",
+  "status": "PASS"
+}

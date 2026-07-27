@@ -316,8 +316,8 @@ Before acting, a new agent must be able to state:
 
 1. the ratified Purpose and North Star;
 2. the honest current evidence boundary;
-3. the live research bottleneck: `N5-SCF-P1/2/3` are complete as
-   `HC-DU-047/048/049`. Individual insufficiency does not imply joint
+3. the live research bottleneck: `N5-SCF-P1/2/3/4` are complete as
+   `HC-DU-047/048/049/050`. Individual insufficiency does not imply joint
    insufficiency; lossless gossip can pool source-formed complementary
    information into individual capability. Signed hash-DAGs preserve
    declared ancestry and expose an encountered fork, but do not identify
@@ -327,8 +327,13 @@ Before acting, a new agent must be able to state:
    verification, accountability and physical source truth are also separate.
    A hard certificate can be sufficient for execution while omitting signer,
    fork, membership or formation provenance needed by stronger audits.
-   Execute only `N5-SCF-P4`, Capability-Relative Selective Views and Regional
-   Handoff. Preserve `N5-RS-P2`, the
+   Capability-relative selective views can close different local actions
+   without reconstructing one global history; safe handoff additionally
+   requires aligned semantics, bound epoch/membership, available promised
+   evidence, receiver access, and a frozen capability contract. Positive fork
+   evidence is monotone under history extension; absence of a fork is not.
+   Execute only `N5-SCF-P5`, DU Physical Collision and Portfolio Handoff.
+   Preserve `N5-RS-P2`, the
    minimum-premise and whole-DU portfolio pivot, as deferred until the
    five-position `N5-SCF` sequence returns its cross-arena handoff. Do not fit
    another archive to the closed metastable host, infer strong emergence

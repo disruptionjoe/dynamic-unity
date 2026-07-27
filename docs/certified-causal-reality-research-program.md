@@ -1513,9 +1513,9 @@ portfolio pivot. Joe subsequently interposed the
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
 to separate stochastic amplification, propagation, DAG knowledge,
 metastability, Byzantine/cryptographic hardening, complexity emergence, and
-capability-relative views before the pivot. `N5-SCF-P1/2/3` are complete as
-`HC-DU-047/048/049`; only `N5-SCF-P4` is executable. `N5-RS-P2` is deferred
-rather than canceled.
+capability-relative views before the pivot. `N5-SCF-P1/2/3/4` are complete
+as `HC-DU-047/048/049/050`; only `N5-SCF-P5` is executable. `N5-RS-P2` is
+deferred rather than canceled.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -1781,8 +1781,97 @@ or cryptographic theorem, physical record-selection theorem, prediction, new
 physics result, or paper promotion. See
 `../explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md`.
 
-The sole next work object is `N5-SCF-P4`,
-Capability-Relative Selective Views and Regional Handoff.
+`N5-SCF-P4` consumes this boundary as `HC-DU-050`.
+
+### `HC-DU-050` — Capability-Relative Selective Views and Regional Handoff
+
+Let \(H\) be an admitted history space, \(V:H\to Q\) an
+action-independent selective view, and \(A_c:H\to Y_c\) the target for a
+frozen capability \(c\). The view is exactly action-sufficient iff:
+
+\[
+\ker V\subseteq\ker A_c,
+\]
+
+equivalently iff \(A_c=d_c\circ V\) for some decoder \(d_c\).
+
+Over 512 finite histories, exhaustive subset search returns the minimum
+semantic views for:
+
+- tentative response: tentative preference;
+- conflict-safe execution: decision, certificate validity, and current-epoch
+  status;
+- signer accountability: certificate validity and signer subset;
+- equivocation-proof readiness: committed fork and available openings; and
+- physical-source adjudication: an independently formed source attestation.
+
+Different incompatible regional views can each close their assigned action
+while neither reconstructs the full history. Joined complementary views can
+support a stronger attributable-fork audit that neither supports alone.
+
+For an action family \(C\), define:
+
+\[
+h\sim_C h'
+\iff
+\forall c\in C,\ A_c(h)=A_c(h').
+\]
+
+Capability enlargement \(C\subseteq C'\) yields:
+
+\[
+\sim_{C'}\subseteq\sim_C.
+\]
+
+Thus an execution-final certificate can become nonfinal for signer,
+equivocation, route, or physical-source audit without invalidating its
+earlier execution use.
+
+Safe handoff to a receiver with context \(K\) is likewise a factorization:
+
+\[
+A_c=d_c\circ(E,K).
+\]
+
+The operational contract keeps eight premises separate: sender action
+sufficiency, aligned certificate semantics, bound epoch/membership,
+commitment binding, required evidence availability, receiver decoder/access,
+frozen capability, and presence of the target in admitted upstream input.
+
+The exact hostile cases show:
+
+1. the same certificate and provenance commitment can support or fail proof
+   production depending on sidecar availability;
+2. the same compact group-key record can be current or stale relative to
+   receiver epoch;
+3. a preference-driven interest filter can hide a corrective event and
+   create a self-confirming eclipse;
+4. dead reckoning can hide a target-changing acceleration, a later
+   authoritative handoff can require rollback, and isolated shards do not
+   close a nonlocal quota invariant;
+5. positive signed-fork evidence is monotone under history extension, while
+   absence of a fork is not; and
+6. no complete protocol-only view reconstructs the matched null physical
+   target.
+
+The return is:
+
+```text
+CAPABILITY_RELATIVE_SELECTIVE_VIEW_AND_REGIONAL_HANDOFF_THEOREM
+WITH AVAILABILITY, EPOCH, AND MONOTONICITY BOUNDARIES
+```
+
+CALM, invariant confluence, partial replication, interest management, causal
+metadata lower bounds, and data-availability proofs absorb the component
+distributed-systems mathematics. The Dynamic Unity increment is the unchanged
+typed interface from physical source formation through capability-relative
+regional action. It is not a new networking, consensus, cryptographic, or
+physical theorem, not a claim that physics is a distributed database, and not
+a paper or prediction promotion. See
+`../explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md`.
+
+The sole next work object is `N5-SCF-P5`, DU Physical Collision and Portfolio
+Handoff.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -3266,6 +3355,14 @@ while erasing provenance required by stronger audits. The next route must
 derive minimum capability-relative regional views and test whether a compact
 certificate plus an available provenance sidecar can hand off safely under
 partition, churn, rollback, and capability expansion.
+`HC-DU-050` executes that selective-view and handoff test. Incompatible
+incomplete regions can each close a frozen local action without reconstructing
+global history. Commitment does not imply evidence availability, compact
+verification can be stale relative to receiver epoch, positive fork evidence
+is monotone while absence is not, and capability enlargement refines the
+history quotient. The next route must collide this unchanged distributed stack
+with a physically formed record arena and return the first successful
+correspondence or exact non-unifying arrow.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
 is complete. Redundant records of consistent histories, quantum trajectories,
@@ -3276,9 +3373,9 @@ The prepared
 initially queued `N5-RS-P2`, the minimum-premise compiler and whole-DU
 portfolio pivot. The interposed
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
-has completed `N5-SCF-P1/2/3` as `HC-DU-047/048/049`. It now advances only
-`N5-SCF-P4`, Capability-Relative Selective Views and Regional Handoff. It
-does not pre-activate later `N5-SCF` positions; `N5-RS-P2` remains deferred.
+has completed `N5-SCF-P1/2/3/4` as `HC-DU-047/048/049/050`. It now advances
+only `N5-SCF-P5`, DU Physical Collision and Portfolio Handoff. `N5-RS-P2`
+remains deferred.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3983,7 +4080,14 @@ CERTIFICATE SUFFICIENCY IS CAPABILITY-INDEXED
 THRESHOLD COMPRESSION MAY OMIT SIGNER FORK MEMBERSHIP AND FORMATION PROVENANCE
 SEMANTIC PROVENANCE LIFT SURVIVES BENIGN RELAY SUBDIVISION
 EIGHT-PREMISE LAYERED FINALITY COMPOSITION CONTRACT EXACT
-N5-SCF-P4 CAPABILITY-RELATIVE SELECTIVE VIEWS AND REGIONAL HANDOFF NEXT
+HC-DU-050 CAPABILITY-RELATIVE SELECTIVE VIEW AND REGIONAL HANDOFF EXACT
+INCOMPATIBLE INCOMPLETE REGIONAL VIEWS CAN EACH CLOSE A FROZEN LOCAL ACTION
+CAPABILITY ENLARGEMENT STRICTLY REFINES ACTION-RELEVANT HISTORY EQUIVALENCE
+COMMITMENT IS NOT EVIDENCE AVAILABILITY
+COMPACT CERTIFICATE HANDOFF IS RECEIVER-CONTEXTUAL AND EPOCH-BOUND
+POSITIVE FORK EVIDENCE IS MONOTONE; ABSENCE OF FORK IS NOT
+ADAPTIVE SELF-CONFIRMING FILTERS CAN HIDE CORRECTIVE EVIDENCE
+N5-SCF-P5 DU PHYSICAL COLLISION AND PORTFOLIO HANDOFF NEXT
 N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT DEFERRED
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING

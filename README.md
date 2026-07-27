@@ -277,7 +277,7 @@ current results establish the starting boundary, not the answer:
   originally queued `N5-RS-P2`, the minimum-premise and whole-portfolio
   pivot. Joe has now interposed the eighteen-lens
   [stochastic/consensus/complexity/cryptography sequence](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-  `N5-SCF-P1/2/3` are complete as `HC-DU-047/048/049`. Individual insufficiency
+  `N5-SCF-P1/2/3/4` are complete as `HC-DU-047/048/049/050`. Individual insufficiency
   does not imply joint insufficiency, because XOR and secret-sharing
   correlations can be jointly exact while every local marginal is
   uninformative. Lossless gossip can pool that synergy. Signed hash-DAGs
@@ -288,9 +288,13 @@ current results establish the starting boundary, not the answer:
   rollback and exclude conflicting certificates, but do not improve source
   truth. A certificate sufficient for execution can omit provenance needed
   for accountability, fork audit, membership reconstruction, or physical
-  adjudication. Only `N5-SCF-P4`, capability-relative selective views and
-  regional handoff, is executable. Position 5 is conditional; `N5-RS-P2` is
-  deferred, not canceled
+  adjudication. `HC-DU-050` proves that incompatible incomplete regional views
+  can each close a frozen local action without reconstructing one global
+  history. Capability enlargement refines the relevant history equivalence;
+  commitment is not evidence availability; and safe handoff is
+  receiver-contextual and epoch-bound. Only `N5-SCF-P5`, the DU physical
+  collision and portfolio handoff, is executable. `N5-RS-P2` is deferred,
+  not canceled
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -299,6 +303,7 @@ current results establish the starting boundary, not the answer:
   [joint-input result](explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md);
   [gossip/DAG result](explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md);
   [hardening/provenance result](explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md);
+  [selective-view/handoff result](explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md);
   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,

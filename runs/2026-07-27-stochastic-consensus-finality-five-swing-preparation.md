@@ -9,7 +9,8 @@ next_work: N5-SCF-P1
 successor_result: HC-DU-047
 second_successor_result: HC-DU-048
 third_successor_result: HC-DU-049
-current_next_work: N5-SCF-P4
+fourth_successor_result: HC-DU-050
+current_next_work: N5-SCF-P5
 deferred_work: N5-RS-P2
 claim_state_change: none
 paper_state_change: none
@@ -85,6 +86,16 @@ omit signer, fork, membership, or formation provenance needed by stronger
 capabilities. The active successor is now `N5-SCF-P4`,
 Capability-Relative Selective Views and Regional Handoff. See
 [`HC-DU-049`](../explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md).
+
+`N5-SCF-P4` then completed as `HC-DU-050`. Differently filtered regions can
+each possess a sufficient view for a frozen local action without
+reconstructing one global history. Capability enlargement refines the
+relevant history equivalence, a commitment does not provide evidence
+availability, a compact certificate can be stale at a receiver's new epoch,
+and a feedback-selected interest view can hide corrective evidence. The
+active successor is now `N5-SCF-P5`, DU Physical Collision and Portfolio
+Handoff. See
+[`HC-DU-050`](../explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md).
 
 Distributed layers then add different typed guarantees:
 

@@ -1,13 +1,13 @@
 ---
 title: "Next five-swing scaffold: stochastic amplification, layered consensus, and capability-relative finality"
-status: positions_1_through_3_complete__position_4_executable
+status: positions_1_through_4_complete__position_5_executable
 doc_type: inline_eighteen_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: interpose a stochastic/distributed-systems preparation before N5-RS-P2"
 sequence_id: N5-SCF
-active_position: N5-SCF-P4
+active_position: N5-SCF-P5
 run_plan: "../runs/2026-07-27-stochastic-consensus-finality-five-swing-preparation.md"
-claim_status_change: "N5-SCF-P1/2/3 complete as HC-DU-047/048/049; N5-SCF-P4 executable"
+claim_status_change: "N5-SCF-P1/2/3/4 complete as HC-DU-047/048/049/050; N5-SCF-P5 executable"
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -26,10 +26,9 @@ P4  model capability-relative views through MMO-style interest management and ne
 P5  apply the typed stack to a DU physical-record arena and extract a theorem or exact non-unification
 ```
 
-Positions 1 through 3 are complete as `HC-DU-047/048/049`. Position 4 is now
-executable under identity `N5-SCF-P4`. Position 5 remains a conditional work
-package and receives a run identity only after Position 4 fixes the smallest
-useful physical handoff and stop condition.
+Positions 1 through 4 are complete as `HC-DU-047/048/049/050`. Position 5 is
+now executable under identity `N5-SCF-P5`. Position 4 fixed the smallest
+receiver-contextual physical handoff and its stop conditions.
 
 This sequence does not assume that consensus creates truth, that quantum
 systems vote, or that the universe implements a distributed database. Its
@@ -63,6 +62,15 @@ worlds. Hardening changes action safety, not source truth. The certificate
 needed for execution may omit the signer, fork, membership, or formation
 provenance needed for a later audit, so finality is capability-indexed and
 requires a typed provenance lift.
+
+`HC-DU-050` then proves that incompatible incomplete regional views can each
+be sufficient for a frozen local action without reconstructing one global
+history. Capability enlargement strictly refines the relevant history
+equivalence. Commitment is not evidence availability; a compact certificate
+can be stale at a new receiver epoch; and a self-confirming adaptive interest
+filter can hide the first corrective event. Safe handoff is therefore a
+factorization through the export together with receiver context, not a
+context-free property of the certificate.
 
 `N5-RS-P2`, the minimum-premise compiler and whole-DU portfolio pivot, is
 deferred rather than canceled. Position 5 must hand it a sharper premise
@@ -667,6 +675,40 @@ provenance-erasing/hardening counterexample.
 
 ## 10. Position 4 — capability-relative selective views and regional handoff
 
+### Completion receipt
+
+Position 4 is complete as
+[`HC-DU-050`](capability-relative-selective-views-and-regional-handoff-2026-07-27.md).
+
+It returns:
+
+```text
+CAPABILITY_RELATIVE_SELECTIVE_VIEW_AND_REGIONAL_HANDOFF_THEOREM
+WITH AVAILABILITY, EPOCH, AND MONOTONICITY BOUNDARIES
+```
+
+Over 512 frozen histories, the exact certificate computes the minimum
+semantic fields for tentative response, conflict-safe execution, signer
+accountability, equivocation-proof production, and physical-source
+adjudication. Different incomplete regional views can each close their
+assigned action without reconstructing the full history. Joined complementary
+views can support a stronger audit.
+
+The first exact handoff failures are:
+
+- commitment without retrievable openings;
+- a valid compact certificate interpreted at a stale receiver epoch;
+- capability expansion without a corresponding view refinement;
+- a self-confirming interest filter that hides corrective evidence; and
+- a physical target absent from the complete admitted upstream input.
+
+Positive signed fork evidence is monotone under history extension; absence of
+a fork is not. The eight-premise receiver-contextual handoff contract and all
+first failures are now explicit.
+
+The 28/28 exact certificate is
+`tests/artifacts/du_capability_relative_selective_view_handoff_result.json`.
+
 ### Identity
 
 ```text
@@ -928,7 +970,8 @@ ancestry, while physical source binding, common knowledge, total order and
 action safety remain separate. `HC-DU-049` shows that metastable and
 Byzantine/threshold hardening can close conflict-safe execution while leaving
 source truth unchanged and, under compression, omitting provenance needed by
-stronger audit capabilities. `N5-SCF-P4` now derives the minimum selective
-regional view for each action and tests safe handoff. Only then may the
-conditional final position contact a physical-record problem in Dynamic
-Unity.
+stronger audit capabilities. `HC-DU-050` shows that differently filtered
+regions can each close a frozen local action without global-history
+reconstruction, while availability, epoch context, adaptive filtering, and
+capability expansion are exact handoff boundaries. `N5-SCF-P5` now applies
+the unchanged typed stack to a physical-record problem in Dynamic Unity.
