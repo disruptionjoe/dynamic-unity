@@ -586,8 +586,8 @@ observer-level access composed without one privileged biography.
 **Not a delta.** Another graph hierarchy whose depth or distance changes
 under harmless subdivision.
 
-**Preferred-foliation conditional branch.** Dynamic Unity now has one
-prepared five-swing series that holds an exactly compensated preferred
+**Preferred-foliation conditional branch.** Dynamic Unity has one five-swing
+series whose first position is complete and that holds an exactly compensated preferred
 foliation without grading or adopting it. This supplies a hidden global
 simultaneity structure and time orientation, but not a physical record,
 observer, archive, access route, common knowledge, or public finality. The
@@ -596,13 +596,37 @@ observer-accessible causal process. Any result that survives that forgetting
 is foliation-inert; any observer-accessible difference would require a
 separate leaking branch and cannot be claimed inside exact compensation.
 
-The high-value question is not whether global order exists. It is whether
-that extra structure removes any independently required premise in record
-reconstruction or interface selection. In particular, global chronology does
-not defeat the `HC-DU-054` archive-relocation fibre unless it also selects
-source binding, write, archive route, orientation, observer access, action
-envelope, and resource horizon. See the
-[prepared conditional series](../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
+Position 1 found the foliation inert for the repository's highest-value next
+question. Global chronology does not defeat the `HC-DU-054`
+archive-relocation fibre unless it also selects source binding, write,
+archive route, orientation, observer access, action envelope, and resource
+horizon. It also does not explain how a certificate changes an admitted
+physical action.
+
+The active question is now whether certificate-conditioned physical response
+factors entirely through the complete physical certificate carrier, verifier
+and controller state, policy, and complete physical boundary input, with the
+declared control tested separately as a possibly lossy quotient. A certificate can
+legitimately change capability without changing source truth or introducing a
+new physical force. Any reproducible certificate-only residual after complete
+state/control matching would instead locate omitted state, modified dynamics,
+or a candidate remainder.
+
+The accompanying source audit constrains how foundations claims may be used:
+
+- exact compensation has no confirmation channel by definition;
+- Lorentz-violation bounds constrain specified observable couplings, not
+  hidden existence in general;
+- heterogeneous gravity-sector sensitivities are not evidence of a leak;
+- a foliation alone is not the logical escape from Bell or Wigner-friend
+  no-go results; and
+- the CMB rest frame, causal-invariant rewrites, and protocol-derived
+  consensus timestamps do not select a fundamental tick.
+
+See the
+[Position-1 result](../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md)
+and
+[conditional series](../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
 
 ### 11. Record reconstruction versus unique geometry
 

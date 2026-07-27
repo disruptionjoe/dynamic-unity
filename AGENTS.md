@@ -372,14 +372,25 @@ Before acting, a new agent must be able to state:
    fibre is not automatically a material record. The five-position `N5-RS`
    sequence is complete; `H-CCR-17` remains open but dormant behind a new
    independently motivated physical reopener. Joe has now instantiated the
-   required `NORTH_STAR_PORTFOLIO_RESET` as `N5-PF-P1`, a whole-program
-   priority and assumption-dependency audit under one ungraded, exactly
-   compensated preferred-foliation premise. That premise supplies a global
-   time orientation and hidden simultaneity structure, not discreteness,
-   Lorentz leakage, a record, observer, archive, access route, certificate, or
-   finality rule. Keep a matched causal-partial-order control, let the
-   portfolio—not the assumption—select the primary, and do not activate
-   `N5-PF-P2..P5` before the Position-1 receipt. Do not
+   required `NORTH_STAR_PORTFOLIO_RESET` as `N5-PF-P1`. Position 1 is now
+   complete. Its source-audited whole-program comparison selects conservative
+   certification and physical feedback as primary, keeps the operational
+   foliation quotient/accessibility boundary as reserve, stops
+   exact-compensation existence testing and unconditioned host building, and
+   returns the foliation `INERT` for the selected primary. The held premise
+   supplies a global time orientation and hidden simultaneity structure, not
+   discreteness, Lorentz leakage, a record, observer, archive, access route,
+   certificate, or finality rule. Experimental bounds constrain declared
+   leakage/access mechanisms rather than hidden existence in general;
+   heterogeneous gravity-sector sensitivities are not evidence of leakage;
+   and a foliation alone is not the logical escape from Bell or
+   Wigner-friend no-go theorems. Only `N5-PF-P2` is executable. Freeze the
+   response-system state, complete record/certificate carrier and
+   verifier/controller state, policy, complete physical boundary input, its
+   declared control quotient, response, reset and resources; prove or refute the
+   conservative factorization in deterministic, stochastic-kernel and
+   quantum-process forms with a matched causal-partial-order control. No
+   model or hardware is needed. Do not
    fit another archive to the closed metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum

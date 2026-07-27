@@ -1,13 +1,14 @@
 ---
 title: "Next five-swing scaffold: preferred foliation as a fixed conditional assumption"
-status: prepared__position_1_executable
+status: position_1_complete__position_2_executable
 doc_type: inline_science_council_persona_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare the next five-swing series under a preferred-frame assumption"
 sequence_id: N5-PF
-active_position: N5-PF-P1
+active_position: N5-PF-P2
+completed_positions:
+  - N5-PF-P1
 deferred_positions:
-  - N5-PF-P2
   - N5-PF-P3
   - N5-PF-P4
   - N5-PF-P5
@@ -36,10 +37,9 @@ P4  attack the strongest surviving regional-finality or excess-content candidate
 P5  collide the result across preferred-leaf and causal-partial-order arenas
 ```
 
-Only `N5-PF-P1` is executable. Positions 2--5 are conditional slots. Position
-1 may keep the provisional branch below, retype it around another Dynamic
-Unity front, or stop it. That is how the assumption remains fixed without
-being allowed to select the work.
+`N5-PF-P1` is complete. It selected conservative certification and physical
+feedback as the primary while returning the foliation `INERT` for that front.
+Only `N5-PF-P2` is now executable. Positions 3--5 remain conditional slots.
 
 The present evidence makes one provisional branch especially
 information-dense:
@@ -458,7 +458,7 @@ Do not rank by affinity with the assumption, persona enthusiasm, conceptual
 drama, or paper count. A front without a finite local learning path cannot
 win.
 
-## 10. Position 2 — operational quotient or first counterexample
+## 10. Position 2 — provisional operational quotient or selected-primary spine
 
 ### Conditional identity
 
@@ -467,7 +467,11 @@ N5-PF-P2
 Operational Foliation Quotient or Selected-Primary Formal Spine
 ```
 
-Activate only after Position 1.
+Position 1 has now activated the selected-primary branch and retyped this
+position as the Conservative Certification and Physical Feedback Formal
+Spine. The provisional quotient design below remains the reserve/control;
+the executable contract is recorded in the completion receipt at the end of
+this document.
 
 ### Provisional decision
 
@@ -772,8 +776,8 @@ an adapter or contact a provider without separate authorization.
 ## 15. Execution discipline
 
 1. Run one position at a time.
-2. Only `N5-PF-P1` is executable now.
-3. Do not activate or mint a final run plan for Positions 2--5 until the
+2. `N5-PF-P1` is complete; only `N5-PF-P2` is executable now.
+3. Do not activate or mint a final run plan for Positions 3--5 until the
    predecessor receipt fixes their content.
 4. Position 1 must begin by repeating
    `ASSUMPTION_VERSION_EXACTLY_COMPENSATED`.
@@ -841,5 +845,60 @@ The five-position series is designed to learn one of three things:
 3. it is operationally inert, while records, access, regional finality, and
    capability remain the real work.
 
-The first position must still earn the right to pursue that branch by beating
-the rest of the Dynamic Unity portfolio on expected knowledge value.
+Position 1 has now earned the next branch by beating the rest of the Dynamic
+Unity portfolio on expected knowledge value.
+
+## Position-1 completion receipt
+
+The complete receipt is:
+
+- [whole-program priority reset and dependency map](preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md);
+- [run receipt](../runs/2026-07-27-preferred-foliation-position-1-portfolio-reset.md).
+
+Position 1 returned:
+
+```text
+ASSUMPTION_VERSION_EXACTLY_COMPENSATED
+PRIMARY_CONSERVATIVE_CERTIFICATION_AND_PHYSICAL_FEEDBACK
+RESERVE_OPERATIONAL_FOLIATION_QUOTIENT_AND_ACCESSIBILITY_BOUNDARY
+STOP_EXACTLY_COMPENSATED_FOLIATION_EXISTENCE_TESTING_AND_UNCONDITIONED_HOST_BUILDING
+FOLIATION_ROLE_INERT
+```
+
+The source audit confirmed that exact compensation has no confirmation route
+inside the branch, while narrowing several supplied claims: current bounds
+constrain declared leakage/access mechanisms rather than hidden existence in
+general; gravity-sector sensitivities are heterogeneous and are not evidence
+of a gravitational leak; preferred foliation alone is not the logical escape
+from Wigner-friend no-go results; and causal invariance, consensus timestamps,
+and the CMB rest frame are constructive or material controls rather than
+evidence for a fundamental tick.
+
+### Executable Position 2
+
+```text
+N5-PF-P2
+Conservative Certification and Physical Feedback Formal Spine
+```
+
+This retypes the provisional Position-2 role without deleting it. Freeze the
+response-system state \(X\), formed record, complete certificate/verifier
+apparatus \(K\), semantic certificate verdict \(C\), policy, complete physical
+boundary input \(B\), its declared control quotient \(U\), response, reset,
+and resources. Prove or refute:
+
+\[
+Y\perp C\mid X,B
+\qquad\text{and}\qquad
+Y\perp B\mid X,U.
+\]
+
+Do so in deterministic, stochastic-kernel, and quantum-process forms, then attack
+hidden memory, route, hysteresis, occurrence identity, and modified dynamics.
+Carry a matched preferred-leaf versus causal-partial-order control.
+
+Maximum credit is a scoped factorization/necessity theorem, exact omitted-state
+witness, or branch-invariant formation/certification non-unification. The
+likely mathematical core is standard causal factorization and data
+processing; novelty language must wait for the collision. No simulation or
+hardware is needed.

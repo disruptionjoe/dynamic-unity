@@ -316,8 +316,24 @@ current results establish the starting boundary, not the answer:
   not identify causal physical source binding: the same signed value can be
   QND-formed or preloaded. In the MMO dual-mesh control, signing the render
   mesh does not determine the collision response. The `N5-SCF` sequence is
-  complete; `N5-RS-P2` resumes with sharpened inputs
-  ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
+  complete. `N5-RS-P2/3/4/5` subsequently completed the whole-portfolio
+  pivot, \(3+1\) causal-exterior attribution, causally closed strict
+  noninjective transfer, and cross-arena closeout as `HC-DU-052/053/054`.
+  The common transfer theorem is absorbed; complete accessible-interface
+  selection remains open but dormant behind a new physical reopener.
+  `N5-PF-P1` has now completed the source-audited portfolio reset under an
+  ungraded exactly compensated preferred foliation. It promotes conservative
+  certification and physical feedback, keeps the operational foliation
+  quotient/accessibility boundary as reserve, and returns the foliation
+  `INERT` for the selected primary. Only `N5-PF-P2` is executable. It freezes
+  response-system state, record/certificate carrier, verifier/controller
+  state, policy, complete physical boundary input, declared control quotient,
+  response, reset, and resources and proves
+  or refutes their deterministic, stochastic-kernel, and quantum-process
+  factorization before any model or hardware
+  ([Position-1 result](explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md);
+  [conditional scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md);
+  [tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
   [completion-transfer result](explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md);

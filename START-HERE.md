@@ -442,16 +442,28 @@ What *has* been earned is a strong finite control stack:
   select the complete accessible formed interface. The finest common
   operational quotient need not be a material record. The five-position
   `N5-RS` sequence is complete; `H-CCR-17` remains open but dormant behind a
-  new physical reopener. Joe has now instantiated the required portfolio
-  reset as
-  [N5-PF-P1](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
-  Position 1 re-ranks the whole repository while holding an exactly
-  compensated preferred foliation as an ungraded conditional premise. The
-  premise supplies hidden simultaneity and global time orientation, not
-  discreteness, Lorentz leakage, a record, observer, archive, access route, or
-  finality rule. The causal-partial-order architecture is the matched hostile
-  control. Only `N5-PF-P1` is executable; Positions 2--5 remain conditional
-  and the assumption may not select the winner. The predecessor receipts are
+  new physical reopener. `N5-PF-P1` has now completed the required
+  [whole-program portfolio reset](explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md)
+  while holding an exactly compensated preferred foliation as an ungraded
+  conditional premise. The source audit confirms that the premise supplies
+  hidden simultaneity and global time orientation, not discreteness, Lorentz
+  leakage, a record, observer, archive, access route, or finality rule.
+  Existing experiments constrain declared leakage/access mechanisms, not
+  hidden existence in general; heterogeneous gravity-sector bounds are not
+  evidence of a leak; and preferred foliation alone is not the logical escape
+  from Bell or Wigner-friend no-go theorems. The CMB rest frame and derived
+  consensus timestamps are controls, not fundamental-tick evidence.
+  Position 1 selected conservative certification and physical feedback as
+  the new primary, the operational foliation quotient/accessibility boundary
+  as reserve, and returned the foliation `INERT` for the selected primary.
+  Only `N5-PF-P2` is executable. It asks whether certificate-conditioned
+  physical response factors through complete physical carrier, verifier,
+  controller state, policy, and complete physical boundary input—and whether
+  the declared control is a sufficient quotient—in deterministic,
+  stochastic-kernel, and quantum-process forms. No simulation or hardware is
+  needed. Positions 3--5 remain conditional. The
+  [series scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md)
+  and predecessor receipts are
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -1004,9 +1016,9 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051/054`. Dynamic sufficiency and complete-interface selection are independent fibre tests. No current arena selects the complete accessible formed interface. Keep `H-CCR-17` open but dormant, stop unconditioned detector/code/archive hosts, and reopen only when a new target-independent physical premise breaks archive relocation. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, cryptographic proof, or threshold certificate is not an observer-access contract. Keep route, authentication, decoder, disclosure, actions, resources, and horizon explicit. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | `N5-PF-P1` makes this the active primary through conservative certification and physical feedback. A proof or threshold certificate can change safe action capability only through a physical carrier, verifier/controller state, policy, and executed control. Freeze those objects and test factorization before claiming a certificate-only physical effect. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `N5-SCF` now separates concentration, propagation, DAG knowledge, metastability, cryptographic hardening, emergence, and capability-relative views before any physical translation. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` attributes the first lawful `3+1` remainder to incoming characteristic data outside the record region. `HC-DU-053` closes the finite packet boundary. `HC-DU-054` shows that its target-relative transfer is known mathematics and that the packet antecedent still does not select archive access. The sequence is complete; await the whole-program portfolio reset rather than extending this specimen. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` attributes the first lawful `3+1` remainder to incoming characteristic data outside the record region. `HC-DU-053` closes the finite packet boundary. `HC-DU-054` shows that its target-relative transfer is known mathematics and that the packet antecedent still does not select archive access. The sequence is complete; preserve it rather than extending the specimen. The exactly compensated foliation is inert for the new primary. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -1069,11 +1081,17 @@ channels; they are not lanes and do not create a second priority system.
    The common dynamic-sufficiency theorem is fully absorbed; the exact shared
    gap is antecedent selection of the complete accessible formed interface.
    The five-position sequence is closed and `H-CCR-17` is dormant behind a
-   physical reopener. The portfolio reset is now instantiated by the
-   [preferred-foliation conditional five-swing preparation](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
-   It fixes the exactly compensated version, keeps the assumption ungraded,
-   and makes `N5-PF-P1` the only executable position. Later positions do not
-   activate until the whole-program comparison selects their content.
+   physical reopener. The
+   [preferred-foliation Position-1 reset](explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md)
+   is now complete. It preserves the exactly compensated version as an
+   ungraded premise, selects conservative certification and physical feedback
+   as the new primary, keeps the operational foliation quotient as reserve,
+   and returns the foliation `INERT` for the primary. The
+   [conditional scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md)
+   makes `N5-PF-P2` the only executable position. It requires a complete
+   carrier/verifier/controller/boundary-input/control contract and deterministic,
+   stochastic, and quantum-process factorization or counterexample before
+   any model or hardware. Later positions remain conditional.
    The
    [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
    and

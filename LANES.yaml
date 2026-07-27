@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 91
+manifest_revision: 92
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -55,7 +55,7 @@ stratified_causal_coordination_scaffold_rule: >-
   exact assumptions. Its first position is complete through the N5-RS-P2 portfolio receipt,
   HC-DU-052 causal-boundary attribution, HC-DU-053 closed-domain transfer result and HC-DU-054
   cross-arena closeout; the coordination spine remains a prepared family rather than a parallel
-  active campaign. The fresh reset is now N5-PF-P1, the sole executable position.
+  active campaign. N5-PF-P1 is complete; N5-PF-P2 is the sole executable position.
 minimum_premise_portfolio_ref: >-
   explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md
 minimum_premise_portfolio_rule: >-
@@ -72,8 +72,8 @@ minimum_premise_portfolio_rule: >-
   instrument remains supplied. HC-DU-054 completes N5-RS-P5: the cross-arena transfer theorem is
   fully absorbed, while antecedent selection of the complete accessible formed interface fails
   in both compared arenas. The five-position sequence is complete. H-CCR-17 is open but dormant
-  behind a new physical reopener. The portfolio reset is now instantiated as N5-PF-P1, the sole
-  executable position.
+  behind a new physical reopener. N5-PF-P1 has completed the portfolio reset; N5-PF-P2 is the
+  sole executable position.
 lawful_causal_exterior_remainder_ref: >-
   explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
 lawful_causal_exterior_remainder_rule: >-
@@ -106,23 +106,39 @@ cross_arena_dynamic_sufficiency_rule: >-
   automatically a material record. The common transfer theorem is fully absorbed by existing
   factorization, observability, lumpability, common-quotient and selector mathematics. Return
   SCOPED_SELECTION_OR_FORMATION_OBSTRUCTION, close N5-RS, keep H-CCR-17 open but dormant behind a
-  new physical reopener, and return NORTH_STAR_PORTFOLIO_RESET. Joe has now instantiated that
-  return as N5-PF-P1 below. Do not create a sixth host, paper, simulation, CFS extension or
+  new physical reopener, and return NORTH_STAR_PORTFOLIO_RESET. N5-PF-P1 has now completed that
+  return below. Do not create a sixth host, paper, simulation, CFS extension or
   hardware action from this closeout.
 preferred_foliation_next_five_ref: >-
   explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
 preferred_foliation_next_five_rule: >-
-  N5-PF is a prepared conditional five-position sequence under one exactly compensated preferred
+  N5-PF is a conditional five-position sequence under one exactly compensated preferred
   foliation. The premise supplies continuous privileged simultaneity and global time orientation
   while every admitted observer-accessible prediction remains Lorentz/SR-equivalent. It supplies
   no discreteness, lattice, minimum tick, Lorentz leakage, record, observer, archive, access route,
   certificate or finality rule; it has no evidence grade and enters no claim or prediction
-  ledger. N5-PF-P1 alone is executable. It re-ranks the complete DU portfolio and labels every
-  front by whether the premise is inert, removes a premise, narrows a completion class, changes a
-  target or interface, or contradicts exact compensation. A matched causal-partial-order control
-  must preserve complete local process statistics, records, access, actions, resources and causal
-  reach while forgetting privileged simultaneity. The portfolio, not the assumption, selects the
-  primary. N5-PF-P2 through P5 remain conditional and inactive until the Position-1 receipt.
+  ledger. N5-PF-P1 is complete. It selected conservative certification and physical feedback as
+  primary, the operational foliation quotient/accessibility boundary as reserve, and returned the
+  foliation INERT for the primary. N5-PF-P2 alone is executable. Freeze response-system
+  state/history, record and certificate carrier, verifier/controller state, policy, complete
+  physical boundary input, declared control quotient, response, reset and resources; prove or
+  refute the conservative factorization and control-sufficiency boundary in
+  deterministic, stochastic-kernel and quantum-process forms. A matched causal-partial-order
+  control must preserve those objects while forgetting privileged simultaneity. No simulation or
+  hardware is needed. N5-PF-P3 through P5 remain conditional.
+preferred_foliation_position_1_ref: >-
+  explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
+preferred_foliation_position_1_rule: >-
+  N5-PF-P1 is complete. Its source audit confirms that exact compensation has no confirmation
+  channel by definition, but narrows overclaims: experiments constrain declared leakage and
+  finite-speed influence models rather than hidden existence in general; heterogeneous
+  gravity-sector SME sensitivities are not evidence of a leak; preferred foliation alone is not
+  the logical escape from Bell or Wigner-friend no-go results; and the CMB rest frame,
+  causal-invariant rewrites and derived consensus timestamps are controls rather than evidence for
+  a fundamental tick. The 17-front compiler promotes conservative certification and physical
+  feedback, keeps the operational quotient as reserve, stops exact-compensation existence testing
+  and unconditioned host building, and changes no claim, prediction, concept, paper, model or
+  hardware state.
 next_five_swing_campaign_ref: >-
   explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
 next_five_swing_campaign_rule: >-
@@ -173,7 +189,7 @@ next_five_host_closeout_sequence_rule: >-
   noninjective transfer and a capability-relative interior first leak in a closed packet sector.
   Position 5 is complete as N5-RS-P5/HC-DU-054. It finds the common transfer theorem fully
   absorbed and localizes the shared gap to antecedent selection of the complete accessible
-  formed interface. N5-RS is closed; only N5-PF-P1 is executable.
+  formed interface. N5-RS is closed; N5-PF-P1 is complete and only N5-PF-P2 is executable.
 stochastic_consensus_finality_sequence_ref: >-
   explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
 stochastic_consensus_finality_sequence_rule: >-
@@ -207,7 +223,8 @@ stochastic_consensus_finality_sequence_rule: >-
   versus causal physical source/action binding, captured also by the signed-render versus
   authoritative-collision dual-mesh control. N5-SCF is complete. Its handoff has been consumed
   by N5-RS-P2 and HC-DU-052/053/054. N5-RS is complete and its portfolio reset has been
-  instantiated as N5-PF-P1. No model, hardware, paper, prediction or physics claim is promoted.
+  completed as N5-PF-P1. Conservative certification and physical feedback is now primary;
+  N5-PF-P2 is executable. No model, hardware, paper, prediction or physics claim is promoted.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -281,7 +298,7 @@ metastable_host_robustness_result_rule: >-
   target-relative noninjective transfer plus an interior first leak. HC-DU-054 completes the
   cross-arena comparison, absorbs the shared transfer theorem and localizes the missing arrow to
   antecedent selection of the complete accessible formed interface. Do not fit another archive
-  to this host; route only N5-PF-P1.
+  to this host. N5-PF-P1 is complete; route only N5-PF-P2.
 joint_input_amplification_result_ref: >-
   explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md
 joint_input_amplification_result_rule: >-
@@ -357,7 +374,7 @@ distributed_physical_collision_result_rule: >-
   authoritative collision capability. The metastable host remains closed under replication,
   signing and hardening. N5-SCF and N5-RS are complete through HC-DU-054. The cross-arena
   closeout absorbs the common transfer theorem and leaves complete accessible-interface
-  selection open. Only N5-PF-P1 is executable.
+  selection open. N5-PF-P1 is complete; only N5-PF-P2 is executable.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -803,9 +820,9 @@ lanes:
     causal-exterior incoming radiation. HC-DU-053 proves strict noninjective transfer and a
     target-relative interior first leak in a closed packet sector while leaving formation
     supplied. HC-DU-054 completes the cross-arena comparison, absorbs the common transfer theorem
-    and separates it from complete accessible-interface selection. N5-RS is closed. Execute only
-    N5-PF-P1, the whole-program reset and preferred-foliation dependency map; the exactly
-    compensated assumption is ungraded and may not select the primary.
+    and separates it from complete accessible-interface selection. N5-RS is closed. N5-PF-P1 has
+    completed the whole-program reset and preferred-foliation dependency map. Execute only
+    N5-PF-P2; the exactly compensated assumption is ungraded and inert for this primary.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -882,6 +899,8 @@ lanes:
   - explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md
   - explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
   - runs/2026-07-27-preferred-foliation-next-five-preparation.md
+  - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
+  - runs/2026-07-27-preferred-foliation-position-1-portfolio-reset.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -1013,8 +1032,9 @@ lanes:
     HC-DU-052 attributes the first lawful `3+1` remainder to omitted incoming characteristic
     data. HC-DU-053 closes the finite packet boundary and proves target-relative transfer plus
     first recoupling. HC-DU-054 closes their cross-arena comparison as fully absorbed transfer
-    plus unselected complete accessible interface. Execute only N5-PF-P1; keep the exactly
-    compensated preferred-foliation premise separate from record, observer, archive and access.
+    plus unselected complete accessible interface. N5-PF-P1 is complete; execute only N5-PF-P2,
+    the conservative-certification and physical-feedback spine. Keep the exactly compensated
+    preferred-foliation premise separate from record, observer, archive and access.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -1161,8 +1181,11 @@ lanes:
     HC-DU-053 proves strict noninjective transfer for a polarization-insensitive action and an
     exact interior leak for oriented capability in a closed packet sector. HC-DU-054 absorbs the
     shared transfer law and localizes the remaining gap to antecedent selection of the complete
-    accessible formed interface. H-CCR-17 is dormant; only N5-PF-P1 is active. It must re-rank
-    the whole portfolio before any preferred-foliation, consensus or interface branch continues.
+    accessible formed interface. H-CCR-17 is dormant. N5-PF-P1 has completed the portfolio reset
+    and promotes conservative certification and physical feedback. Only N5-PF-P2 is active:
+    freeze response-system state, certificate carrier, verifier/controller, policy, complete
+    physical boundary input, declared control quotient, response and resources, then prove or
+    refute the two factorization boundaries without simulation or hardware.
   success_signal: >-
     A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
     counterexample showing exactly which access or resource was missing.
@@ -1172,6 +1195,8 @@ lanes:
   - CH-EMPIRICAL
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
+  - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
+  - runs/2026-07-27-preferred-foliation-position-1-portfolio-reset.md
   - explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
   - tests/du_cross_arena_dynamic_sufficiency_probe.py
   - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
@@ -1278,7 +1303,7 @@ lanes:
     N5-SCF and N5-RS are complete through HC-DU-054. Preserve regional descent as a typed
     downstream dependency; do not activate another consensus build. The cross-arena transfer
     theorem is absorbed and complete accessible-interface selection remains upstream. Route only
-    N5-PF-P1 and carry the causal-partial-order architecture as its matched control.
+    N5-PF-P2 and carry the causal-partial-order architecture as its matched control.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -1413,8 +1438,9 @@ lanes:
     The closed packet result returns both strict noninjective transfer and a
     capability-relative interior remainder while leaving the archive supplied. The cross-arena
     closeout absorbs the common transfer theorem and leaves antecedent selection of the complete
-    accessible formed interface open. Execute only N5-PF-P1 before adding CFS, simulation or
-    hardware; the held preferred foliation does not itself reopen H-CCR-17.
+    accessible formed interface open. N5-PF-P1 is complete; execute only N5-PF-P2 before adding
+    CFS, simulation or hardware. The held preferred foliation is inert for that primary and does
+    not itself reopen H-CCR-17.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1568,7 +1594,8 @@ lanes:
     signed-render/physical-capability factorization boundary without paper or prediction
     promotion. N5-SCF and N5-RS are complete through HC-DU-054. Do not promote a paper from the
     open-boundary, supplied-record or cross-arena controls; route only
-    N5-PF-P1, whose portfolio decision is scientific-priority work rather than paper work.
+    N5-PF-P2, whose conservative-certification decision is scientific-priority work rather than
+    paper work.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1633,8 +1660,9 @@ lanes:
     formation boundary. Preserve HC-DU-054's absorbed transfer theorem, independent interface-
     selection fibre and N5-RS closeout. Preserve the prepared N5-PF assumption contract:
     exactly compensated preferred foliation is ungraded, distinct from discreteness and
-    observer access, and matched against a causal-partial-order control. Only N5-PF-P1 is
-    executable; N5-PF-P2 through P5 remain inactive.
+    observer access, and matched against a causal-partial-order control. Preserve the completed
+    N5-PF-P1 source audit and priority return. Only N5-PF-P2 is executable; N5-PF-P3 through P5
+    remain inactive.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1664,6 +1692,8 @@ lanes:
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
   - runs/2026-07-27-preferred-foliation-next-five-preparation.md
+  - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
+  - runs/2026-07-27-preferred-foliation-position-1-portfolio-reset.md
   - START-HERE.md
   - LANES.yaml
   - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
@@ -5816,6 +5846,26 @@ provenance:
     and inactive. No scientific claim, hypothesis grade, concept status,
     paper priority, prediction, model, hardware, provider, Factory,
     publication, submission or sibling-repository state changed.
+  rev92_note: >-
+    2026-07-27 (Joe direct chat: Go; consider the supplied preferred-frame
+    considerations without treating them as settled): completed N5-PF-P1 as
+    the source-audited whole-program priority reset. The 17-front compiler
+    promotes conservative certification and physical feedback from reserve to
+    primary, keeps the operational foliation quotient/accessibility boundary
+    as reserve, stops exact-compensation existence testing and unconditioned
+    host building, and returns FOLIATION_ROLE_INERT for the selected primary.
+    The audit narrows claims about SME gravity sensitivities, Salart
+    finite-speed hidden-influence bounds, Bell, Wigner-friend no-go escapes,
+    causal invariance, consensus timestamps and the CMB rest frame. Only
+    N5-PF-P2 is executable. It freezes the response-system state/history,
+    record/certificate carrier, verifier/controller state, policy, complete
+    physical boundary input, declared control quotient, response, reset and
+    resources and proves or refutes the conservative semantic-factorization
+    and declared-control-sufficiency boundaries in deterministic,
+    stochastic-kernel and quantum-process forms with a matched
+    causal-partial-order control. Added
+    NI-DU-87 through NI-DU-89. No claim, prediction, concept, paper, model,
+    hardware, provider, publication or sibling-repository state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"

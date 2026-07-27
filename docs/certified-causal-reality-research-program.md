@@ -2173,10 +2173,10 @@ interface fibre. The portfolio return is `NORTH_STAR_PORTFOLIO_RESET`; do not
 manufacture a sixth record host. See
 `../explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md`.
 
-### Conditional preferred-foliation portfolio reset
+### Conditional preferred-foliation series and Position-1 return
 
-Joe has instantiated that portfolio return as `N5-PF-P1`, the first position
-of a five-swing conditional series. The entire series holds an **exactly
+`N5-PF-P1` has completed the portfolio return for a five-swing conditional
+series. The entire series holds an **exactly
 compensated preferred foliation**:
 
 - a privileged simultaneity structure and global update parameter exist;
@@ -2192,16 +2192,38 @@ archive, access route, certificate, finality rule, or empirical result.
 Global time orientation is also typed separately from a material boundary's
 local outward normal and charge convention.
 
-`N5-PF-P1` re-ranks the complete repository before downstream work is chosen.
+Position 1 re-ranked the complete repository rather than allowing the
+assumption to select its own descendants. It returned:
+
+```text
+PRIMARY_CONSERVATIVE_CERTIFICATION_AND_PHYSICAL_FEEDBACK
+RESERVE_OPERATIONAL_FOLIATION_QUOTIENT_AND_ACCESSIBILITY_BOUNDARY
+STOP_EXACTLY_COMPENSATED_FOLIATION_EXISTENCE_TESTING_AND_UNCONDITIONED_HOST_BUILDING
+FOLIATION_ROLE_INERT
+```
+
+The source audit also narrowed several common overclaims. Experimental bounds
+constrain declared leakage and finite-speed influence models, not hidden
+existence in general; heterogeneous SME gravity sensitivities are not
+evidence of a gravitational leak; a preferred foliation alone is not the
+logical escape from Bell or Wigner-friend no-go theorems; and the CMB rest
+frame, causal-invariant rewrites, and consensus timestamps are material or
+constructive controls rather than evidence for a fundamental tick.
+
 Every relevant comparison carries a matched causal-partial-order control that
 preserves complete local process statistics, records, access, actions,
 resources, and causal reach while forgetting privileged simultaneity. The
-provisional successors test operational quotienting, complete accessible
-interface selection, regional-finality/excess candidates, and cross-arena
-branch invariance, but `N5-PF-P2..P5` remain inactive until Position 1 fixes
-their content.
+selected primary is branch-invariant: it asks whether certificate-conditioned
+physical response factors through the complete physical carrier, verifier,
+controller state, and physical boundary input, and whether the declared
+control is a sufficient quotient. `N5-PF-P2` is the only executable
+position. It will prove or refute the deterministic, stochastic-kernel, and
+quantum-process forms before any model or hardware. Positions 3--5 remain
+conditional.
 
 See
+`../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md`
+and
 `../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
@@ -4520,4 +4542,9 @@ FORMED-SHARP PAIRWISE-TO-GLOBAL INSTRUMENT DESCENT OPEN
 HC-DU-033A/033B/035A/036A AND REVISION-36 CONTROL COMPONENT MATHEMATICS KNOWN
 STATIC QUANTUM/BFT CONJUNCTION COLLIDES
 PHYSICAL RESOURCE-COUPLED CONJUNCTION SEARCH-INCOMPLETE
+N5-PF-P1 WHOLE-PROGRAM PRIORITY RESET COMPLETE
+EXACTLY COMPENSATED FOLIATION INERT FOR SELECTED PRIMARY
+PRIMARY CONSERVATIVE CERTIFICATION AND PHYSICAL FEEDBACK
+RESERVE OPERATIONAL FOLIATION QUOTIENT AND ACCESSIBILITY BOUNDARY
+N5-PF-P2 CONSERVATIVE CERTIFICATION FORMAL SPINE NEXT
 ```
