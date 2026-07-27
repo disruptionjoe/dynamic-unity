@@ -1505,6 +1505,14 @@ NO_ENDOGENOUS_ARCHIVE FOR THIS HOST
 adjudication, is now the sole next executable object. See
 `../explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md`.
 
+The prepared ten-lens
+[`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
+does not create a second campaign. It keeps `ECR-N5-S5` as Position 1, then
+requires a minimum-premise theorem and whole-DU portfolio pivot before any
+new arena construction. Only if that pivot retains record selection do the
+later positions attempt physical formation, noninjective held-out transfer,
+and cross-arena generalization.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -2964,6 +2972,10 @@ excludes the hidden completion. Redundant records of consistent histories,
 quantum trajectories, Stinespring/complementary-channel equivalence,
 Blackwell sufficiency, process tensors, and full-environment tomography are
 the strongest absorbers. `ECR-N5-S5` is the sole next executable object.
+The prepared
+[`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
+supplies its approach and the conditional four-position continuation. It
+does not pre-activate those positions.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`

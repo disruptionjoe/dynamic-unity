@@ -378,7 +378,12 @@ What *has* been earned is a strong finite control stack:
   leak is occurrence; inside the visible binary epoch record it is count.
   Full `A+H` access repairs history only by expanding the observer/resource
   contract and becoming injective. `ECR-N5-S5`, robustness and host-level
-  North-Star adjudication, is now the sole next executable object
+  North-Star adjudication, is now the sole next executable object. The
+  prepared ten-lens
+  [next-five scaffold](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
+  retains that exact object as Position 1 and installs a mandatory
+  minimum-premise/whole-portfolio pivot before any new physical build; its
+  later positions remain conditional
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -937,7 +942,10 @@ channels; they are not lanes and do not create a second priority system.
    [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
    `ECR-N5-S1` through `ECR-N5-S4` are complete as
    `HC-DU-042/043/044/045`; only `ECR-N5-S5`, robustness and host-level
-   North-Star adjudication, is next executable.
+   North-Star adjudication, is next executable. Use the
+   [N5-RS preparation](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
+   for its approach and downstream branch logic; do not activate Positions
+   2--5 before the host verdict and portfolio pivot.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies

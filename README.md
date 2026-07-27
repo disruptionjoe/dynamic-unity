@@ -266,7 +266,11 @@ current results establish the starting boundary, not the answer:
   inside the visible binary epoch record it is count. Full `A+H` access
   reconstructs history only through a resource-expanded injective contract.
   `ECR-N5-S5`, robustness and host-level North-Star adjudication, is now the
-  sole next executable object
+  sole next executable object. The prepared ten-lens
+  [next-five sequence](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
+  keeps that exact swing first, then places a minimum-premise and
+  whole-portfolio pivot before any new physical construction. Its later four
+  positions are conditional, not parallel active work
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);

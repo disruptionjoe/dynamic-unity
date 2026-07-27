@@ -916,6 +916,13 @@ remove the hostile completion. A positive exclusion must follow from the
 same independently motivated physical antecedent or be labeled as a new
 supplied premise.
 
+The ten-lens
+[`N5-RS` preparation](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
+preserves this exact Swing 5 as the sole next executable object. It places a
+minimum-premise and whole-DU portfolio pivot immediately afterward so an
+adverse host verdict causes a disciplined redirect rather than another fitted
+archive construction.
+
 ## Bottom line
 
 Some useful physics really is completion-invariant:

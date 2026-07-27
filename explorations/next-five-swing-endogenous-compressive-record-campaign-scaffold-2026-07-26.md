@@ -72,6 +72,12 @@ injective on the finite history class.
 `ECR-N5-S5`, robustness and host-level North-Star adjudication, is now the
 sole next executable object.
 
+The prepared ten-lens
+[`N5-RS` sequence](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
+keeps this exact Swing 5 as its first position. It then inserts a
+minimum-premise and whole-DU portfolio pivot before any successor
+construction. It does not rename Swing 5 or activate another campaign.
+
 The campaign question is:
 
 > Can independently motivated physical dynamics select and physically form a
@@ -760,6 +766,11 @@ and approximate archive leakage, then determine whether any non-target-coded
 premise selected by the host excludes the hidden completion. If none does,
 return the host-level `SELECTION_OR_FORMATION_OBSTRUCTION` without turning it
 into a universal record no-go.
+
+The downstream execution logic is prepared in
+[`N5-RS`](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md).
+Positions 2 through 5 remain conditional behind this host verdict and a
+portfolio-level value-of-information pivot.
 
 ## 10. Campaign claim ceiling
 

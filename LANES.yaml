@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 77
+manifest_revision: 78
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -64,6 +64,18 @@ endogenous_compressive_record_campaign_rule: >-
   count. Full A-plus-H access repairs history only through an injective resource expansion.
   ECR-N5-S5, robustness and host-level North-Star adjudication, is the sole next executable
   object.
+next_five_host_closeout_sequence_ref: >-
+  explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
+next_five_host_closeout_sequence_rule: >-
+  The prepared N5-RS sequence was designed through ten inline divergent lenses and a triple
+  diamond. It does not create a parallel campaign. Position 1 is exactly ECR-N5-S5: close the
+  metastable host under horizon, weighting, refinement, approximate-leakage and host-premise
+  attacks. Position 2 then compiles the minimum missing premise and re-ranks the complete DU
+  portfolio before any new build. Only if that pivot keeps record selection first do Positions
+  3 and 4 attempt one target-independent physical formation chain and one noninjective held-out
+  transfer. Position 5 seeks a cross-arena theorem or the smallest exact non-unification
+  counterexample. Positions 2 through 5 remain conditional and receive run identities only
+  after their predecessors close.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -535,7 +547,9 @@ lanes:
     A-plus-H access is injective resource-expanded tomography. Use ECR-N5-S5 as the sole next
     object: robustly test horizon, representation, subdivision, stochastic weighting,
     approximate archive leakage and any non-target-coded host premise that could exclude the
-    hidden completion.
+    hidden completion. Use the prepared N5-RS sequence only as the downstream approach
+    contract: Position 1 is this exact ECR-N5-S5 object, while Positions 2 through 5 remain
+    conditional behind its host verdict and portfolio pivot.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -597,6 +611,7 @@ lanes:
   - tests/du_epoch_archive_boundary_probe.py
   - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
   - tests/du_completion_invariant_transfer_probe.py
+  - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -768,6 +783,7 @@ lanes:
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
+  - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
   - tests/du_robust_vertical_dynamics_reconstruction_probe.py
@@ -850,6 +866,7 @@ lanes:
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
   - lab/process/cross-repo-hardening-control-contract.md
+  - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
   - tests/du_completion_invariant_transfer_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
@@ -1076,6 +1093,7 @@ lanes:
   - tests/du_completion_invariant_transfer_probe.py
   - explorations/meta-record-geometry-identification-ladder-2026-07-25.md
   - tests/du_meta_record_geometry_identification_probe.py
+  - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md
   - tests/du_conformal_record_geometry_tournament_probe.py
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
@@ -1225,7 +1243,8 @@ lanes:
     completion, support and boundary structure the host does not select. The finest
     visible/hidden completion-common record is terminal matter: it reconstructs reduced future
     behavior but not historical occurrence, while full environment repair is injective and
-    resource-expanded. Only ECR-N5-S5 is next executable.
+    resource-expanded. Preserve the prepared N5-RS sequence without treating it as a parallel
+    campaign: only its Position 1, ECR-N5-S5, is executable.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1235,6 +1254,7 @@ lanes:
   - CH-PAPER
   canonical_refs:
   - AGENTS.md
+  - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - START-HERE.md
   - LANES.yaml
   - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
@@ -5151,6 +5171,23 @@ provenance:
     endogenous archive, ontology, new law, new physics, prediction, paper,
     Factory state, hardware, provider action, submission, publication or
     external contact.
+  rev78_note: >-
+    2026-07-27 (Joe direct chat: prepare and scaffold another five swings
+    using divergent personas): completed the inline ten-lens triple-diamond
+    N5-RS preparation. It creates no parallel campaign. Position 1 is exactly
+    the existing ECR-N5-S5 host robustness and adjudication swing.
+    Position 2 is a mandatory minimum-premise compiler and whole-portfolio
+    pivot before any new construction. Conditional Positions 3 and 4 attempt
+    one target-independent physical formation chain and one noninjective
+    held-out transfer only if the pivot retains record selection. Position 5
+    seeks a cross-arena theorem or smallest exact non-unification
+    counterexample. The scaffold carries branch-specific methods, absorbers,
+    local-computation gates, capability/resource stops and an unranked
+    divergent wish list. Positions 2 through 5 receive no run identity or
+    activation before their predecessors close. No scientific claim,
+    hypothesis grade, priority verdict, paper, Factory state, prediction,
+    model, simulation, hardware, provider, submission, publication or
+    external-contact state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"
