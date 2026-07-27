@@ -716,6 +716,17 @@ source logs. The AQFT arena must still preserve probe, pointer, archive,
 provenance, decoder, and access as separately credited fields rather than
 treating an induced observable as a formed record.
 
+The prepared
+[endogenous-compressive-record campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
+now turns that opening into five branch-safe swings. It uses one bounded
+mechanism tournament, then concentrates on one winner through native
+interface selection, physical write and strict compression, held-out
+multi-target transfer with capability growth, and robustness/North-Star
+adjudication. Only `ECR-N5-S1` is next executable. `ECR-N5-S2` through
+`ECR-N5-S5` are conditional contracts and must consume the strongest honest
+preceding receipt. The matter-flow-to-metastable-archive chain is the
+incumbent for scrutiny, not a selected result.
+
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
 selection, formed-record identity, and actual outcomes as distinct.
@@ -875,11 +886,15 @@ channels; they are not lanes and do not create a second priority system.
    [physical-selection-to-formed-descent campaign scaffold](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md).
    `CCR-N5-S1` through `CCR-N5-S5` are complete. Do not rerun them; consume
    `HC-DU-041` and `H-CCR-17`.
-7. When choosing or executing another plausible near-term research swing, read the
+7. For current central execution, read the
+   [endogenous-compressive-record campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
+   Only `ECR-N5-S1`, the strict mechanism tournament, is next executable.
+   Later swing cards are conditional and are not separately active.
+8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies
    without changing their priority, custody, grade, or activation state.
-8. Follow only the hypotheses, concepts, tests, papers, or historical
+9. Follow only the hypotheses, concepts, tests, papers, or historical
    receipts relevant to the chosen lane. Do not load the whole archive by
    default.
 

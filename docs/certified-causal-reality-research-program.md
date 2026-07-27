@@ -2718,6 +2718,13 @@ detectors, record-complete lookups, or injective sensor arrays have low
 information value. The next central physical arena must select its interface,
 strictly compress its lawful nongauge class, and transfer to a held-out target
 without refit—or yield the corresponding selection/compression obstruction.
+The prepared
+[endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
+uses one strict mechanism tournament followed by conditional tests of native
+interface selection, actual write/persistence and strict compression,
+held-out multi-target transfer with one capability enlargement, and
+representation/refinement robustness. Only `ECR-N5-S1` is next executable;
+the later four swings are dependency contracts, not active parallel bets.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`

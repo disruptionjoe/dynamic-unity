@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 72
+manifest_revision: 73
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -43,6 +43,17 @@ next_five_swing_campaign_rule: >-
   non-equivalence attempt, and a final North-Star adjudication. CCR-N5-S1 through S5 are complete
   as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Treat the scaffold as a closed dependency receipt;
   future central work must consume the endogenous-compression gap and open a new bounded object.
+endogenous_compressive_record_campaign_ref: >-
+  explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
+endogenous_compressive_record_campaign_rule: >-
+  The prepared ECR-N5 campaign consumes HC-DU-041 and attacks H-CCR-17 through staged
+  concentration: one strict tournament among mechanism chains capable of the full endogenous
+  selection, physical write, strict compression and held-out-transfer conjunction, followed by
+  conditional swings on native interface selection, formation/persistence/compression,
+  held-out multi-target transfer with capability growth, and robustness/North-Star
+  adjudication in one winner. Only ECR-N5-S1 is next executable. ECR-N5-S2 through S5 are
+  conditional dependency contracts, not active parallel runs. The matter-flow-to-metastable-
+  archive chain is the incumbent for scrutiny, not a selected scientific result.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -450,7 +461,8 @@ lanes:
     H-final record has no H-accessible same-record remainder; capability enlargement refines
     equivalence and requires a new finality verdict. Advance H-CCR-17 by finding or obstructing
     one selected, formed, noninjective physical record with held-out transfer. Do not repeat
-    supplied quotients or injective tomography.
+    supplied quotients or injective tomography. Use the prepared ECR-N5 staged-concentration
+    campaign; only ECR-N5-S1, the strict endogenous-mechanism tournament, is next executable.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -505,6 +517,7 @@ lanes:
   - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -607,7 +620,9 @@ lanes:
     consumed both receipts without changing the selector or formed-record semantics by arena:
     public operational shadows descend, but plural native apparatuses can remain. HC-DU-041
     finds no current specimen with endogenous selection plus formed strict compression plus
-    held-out transfer. Advance that exact H-CCR-17 conjunction or its obstruction.
+    held-out transfer. Advance that exact H-CCR-17 conjunction or its obstruction through the
+    prepared ECR-N5 campaign. Only ECR-N5-S1 is next executable; do not begin one of the later
+    mechanism-specific construction cards independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -653,6 +668,7 @@ lanes:
   - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -754,6 +770,7 @@ lanes:
   - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -814,7 +831,9 @@ lanes:
     native residual fibre and frozen action envelope. Consume HC-DU-041: fixed-envelope finality
     excludes an accessible remainder, capability enlargement refines equivalence, and no current
     specimen closes endogenous strict-compression reconstruction. Advance H-CCR-17 or its
-    obstruction rather than repeating supplied quotient controls.
+    obstruction rather than repeating supplied quotient controls. The prepared ECR-N5 sequence
+    reaches regional finality only after selection, physical writing and strict compression have
+    been earned in one arena; only its first tournament is next executable.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -843,6 +862,7 @@ lanes:
   - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   do_not: >-
@@ -914,6 +934,8 @@ lanes:
     the exact native-type-erasure non-equivalence. HC-DU-041 has tested held-out public, native
     and capability targets and exposes the endogenous-compression gap. Do not identify the physical systems, repeat code variants, or call the logical
     quotient an irreducible ontology result; the code/check/action structure is supplied.
+    Use the prepared ECR-N5 campaign to select one mechanism chain before another reconstruction
+    build; only ECR-N5-S1 is next executable and later cards must consume its receipt.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -967,6 +989,7 @@ lanes:
   - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -1036,8 +1059,8 @@ lanes:
     HC-DU-041 has completed the downstream adjudication: scoped supplied-interface
     reconstructions and capability-relative remainders are exact, while endogenous compressive
     reconstruction and a representation-robust physical remainder remain open. Advance
-    H-CCR-17 only as a new bounded research object. The campaign
-    scaffold and HC-DU-035E alone create no paper seed or priority change.
+    H-CCR-17 only as a new bounded research object. The prepared ECR-N5 scaffold creates no paper
+    seed or priority change; only its mechanism tournament is next executable.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1063,6 +1086,7 @@ lanes:
   - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -1081,8 +1105,8 @@ lanes:
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
     entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
     the completed CCR-N5 campaign as a closed dependency receipt. CCR-N5-S1 through S5 are
-    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Future central work must consume
-    H-CCR-17 and open a new bounded object.
+    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5 as the prepared
+    successor: only ECR-N5-S1 is next executable, while S2 through S5 remain conditional.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1098,6 +1122,7 @@ lanes:
   - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
   - tests/du_capability_indexed_north_star_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -4914,6 +4939,20 @@ provenance:
     record-first ontology, representation-robust physical remainder, new law, new physics,
     prediction, paper, Factory state, model, simulation, hardware, provider action, submission,
     publication or external contact is promoted.
+  rev73_note: >-
+    2026-07-26 (Joe direct chat: do another scaffolding and approach assessment for the next five
+    big swings): prepared, but did not execute, the ECR-N5 endogenous-compressive-record campaign
+    through a ten-lens triple diamond. The selected orchestration is staged concentration:
+    ECR-N5-S1 compares only mechanism chains with a credible route to the full H-CCR-17
+    conjunction; the conditional successor cards then attack native interface selection,
+    physical write/persistence and strict compression, held-out multi-target transfer with one
+    capability enlargement, and representation/refinement robustness in the same winning arena.
+    Only ECR-N5-S1 is next executable. The matter-flow-to-metastable-archive chain is the
+    incumbent for scrutiny, not a selected result. The material gauge and QEC specimens remain
+    supplied-architecture controls, while Einstein and phase repairs remain tomography controls.
+    No scientific claim, concept, hypothesis, prediction, paper, Factory state, model,
+    simulation, hardware, provider action, submission, publication or external contact is
+    promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

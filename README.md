@@ -234,7 +234,14 @@ current results establish the starting boundary, not the answer:
   transfer. That **endogenous compressive record gap** is now the central
   bottleneck
   ([adjudication](explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md);
-  [campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)).
+  [completed campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)).
+  The prepared successor uses staged concentration: one strict tournament
+  among mechanism chains capable of the entire `H-CCR-17` conjunction,
+  followed by conditional swings on native interface selection, physical
+  write/strict compression, held-out transfer/capability growth, and
+  representation-robust adjudication. Only its first tournament is next
+  executable
+  ([successor scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
   benchmarks, or downstream applications. None governs the new charter and none is promoted
