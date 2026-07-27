@@ -2158,3 +2158,41 @@ factorization, common-quotient, capability-leak, and resource-type
 separation. It is not a universal formation no-go, common native physical
 mechanism, new theorem, new physics, prediction, paper promotion, hardware
 result, provider action, or external action.
+
+## HC-DU-055 conservative certification and physical feedback
+
+`du_conservative_certification_feedback_probe.py` preserves the exact finite
+controls behind `N5-PF-P2`:
+
+- semantic certificate relabeling is inert after complete pre-response
+  history and physical boundary matching;
+- deterministic declared-control sufficiency is exactly quotient
+  factorization;
+- a same-label route/memory witness exposes omitted physical boundary state;
+- stochastic response reconstruction succeeds through one exact positive
+  postprocessing and fails for both an equal-row obstruction and an
+  invertible channel whose unique signed decoder has negative entries;
+- identical complete quantum instruments ignore semantic labels, while
+  physically distinct \(I\) and \(Z\) instruments share a classical
+  population-preserving label and differ exactly under an \(X\)-basis
+  response;
+- certificate-conditioned policy strictly enlarges safe action capability
+  through ordinary physical feedback without changing the source law; and
+- two linear extensions of one causal partial order give the same result,
+  leaving the exactly compensated preferred foliation inert.
+
+Run:
+
+```bash
+python3 tests/du_conservative_certification_feedback_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_conservative_certification_feedback_result.json` and reports
+`24/24`. Passing is regression coverage for the directly proved scoped
+deterministic, stochastic-kernel, and quantum-process necessity package. It
+does not select the complete physical boundary, prove conditional
+independence from marginal channel factorization alone, establish a
+certificate-only force, introduce new mathematics or physics, earn a
+grade-5 remainder, promote a prediction or paper, or authorize hardware,
+provider, publication, or other external action.

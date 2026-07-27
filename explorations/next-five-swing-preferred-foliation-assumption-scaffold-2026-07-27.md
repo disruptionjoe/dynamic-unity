@@ -1,15 +1,15 @@
 ---
 title: "Next five-swing scaffold: preferred foliation as a fixed conditional assumption"
-status: position_1_complete__position_2_executable
+status: position_2_complete__position_3_executable
 doc_type: inline_science_council_persona_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare the next five-swing series under a preferred-frame assumption"
 sequence_id: N5-PF
-active_position: N5-PF-P2
+active_position: N5-PF-P3
 completed_positions:
   - N5-PF-P1
+  - N5-PF-P2
 deferred_positions:
-  - N5-PF-P3
   - N5-PF-P4
   - N5-PF-P5
 run_plan: "../runs/2026-07-27-preferred-foliation-next-five-preparation.md"
@@ -37,9 +37,13 @@ P4  attack the strongest surviving regional-finality or excess-content candidate
 P5  collide the result across preferred-leaf and causal-partial-order arenas
 ```
 
-`N5-PF-P1` is complete. It selected conservative certification and physical
-feedback as the primary while returning the foliation `INERT` for that front.
-Only `N5-PF-P2` is now executable. Positions 3--5 remain conditional slots.
+`N5-PF-P1` selected conservative certification and physical feedback as the
+primary while returning the foliation `INERT` for that front. `N5-PF-P2` has
+now proved the scoped deterministic, stochastic-kernel, and quantum-process
+necessity package. It found no certificate-semantic force after complete
+physical matching, exposed exact failures of lossy control labels, and again
+returned the foliation `INERT`. Only `N5-PF-P3` is now executable. Positions
+4--5 remain conditional slots.
 
 The present evidence makes one provisional branch especially
 information-dense:
@@ -402,7 +406,7 @@ N5-PF-P1
 Whole-Program Priority Reset and Preferred-Foliation Dependency Map
 ```
 
-This is the sole executable position.
+This was the sole executable position at preparation and is now complete.
 
 ### Decision
 
@@ -776,7 +780,7 @@ an adapter or contact a provider without separate authorization.
 ## 15. Execution discipline
 
 1. Run one position at a time.
-2. `N5-PF-P1` is complete; only `N5-PF-P2` is executable now.
+2. `N5-PF-P1/2` are complete; only `N5-PF-P3` is executable now.
 3. Do not activate or mint a final run plan for Positions 3--5 until the
    predecessor receipt fixes their content.
 4. Position 1 must begin by repeating
@@ -874,7 +878,7 @@ from Wigner-friend no-go results; and causal invariance, consensus timestamps,
 and the CMB rest frame are constructive or material controls rather than
 evidence for a fundamental tick.
 
-### Executable Position 2
+### Position 2 contract — completed
 
 ```text
 N5-PF-P2
@@ -902,3 +906,69 @@ witness, or branch-invariant formation/certification non-unification. The
 likely mathematical core is standard causal factorization and data
 processing; novelty language must wait for the collision. No simulation or
 hardware is needed.
+
+## Position-2 completion receipt
+
+The complete result is:
+
+- [conservative certification, physical-boundary factorization, and
+  control-quotient sufficiency](conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md);
+- [run receipt](../runs/2026-07-27-conservative-certification-physical-feedback.md);
+- [exact regression](../tests/du_conservative_certification_feedback_probe.py);
+  and
+- [deterministic artifact](../tests/artifacts/du_conservative_certification_feedback_result.json).
+
+Position 2 returned:
+
+```text
+CONSERVATIVE_CERTIFICATION_THEOREM
+PHYSICAL_BOUNDARY_FACTORIZATION
+DECLARED_CONTROL_SUFFICIENCY_IFF_VALID_POSTPROCESSING
+CAPABILITY_WITHOUT_SOURCE_CHANGE
+EXACT_EXTRA_BOUNDARY_STATE_WITNESSES
+NO_COUNTEREXAMPLE_TO_CONSERVATIVITY_AFTER_COMPLETE_MATCH
+MATHEMATICAL_CORE_FULLY_ABSORBED
+FOLIATION_INERT
+```
+
+Once complete pre-response history and physical boundary input are fixed, a
+semantic relabel cannot change the response without an omitted variable,
+occurrence mismatch, or modified dynamics. A declared control label remains a
+substantive quotient: deterministic fibre inclusion, a valid stochastic
+postprocessing, or quantum process-link kernel containment is required. Exact
+route/memory, positivity, and quantum-phase witnesses show how that quotient
+can fail. Certification can nevertheless enlarge safe action capability
+through ordinary physical policy and feedback while the source law remains
+unchanged.
+
+The stochastic collision also corrects one overstatement: marginal channel
+factorization \(M=QT\) is a postprocessing result, not conditional
+independence in an already existing joint experiment unless the joint kernel
+itself factors.
+
+The mathematical core is fully absorbed by quotient factorization,
+comparison/postprocessing of experiments, and process-tensor/quantum-comb
+linearity. No force, new physics, ontology, grade-5 remainder, prediction,
+paper, or hardware result was earned.
+
+### Executable Position 3
+
+```text
+N5-PF-P3
+Complete Physical Feedback-Boundary Selection or Response-Equivalence Obstruction
+```
+
+Freeze an independently motivated physical antecedent \(A\) and the complete
+future action/tester family \(\mathcal A\). Let \(b\sim_{\mathcal A}b'\) when
+every admitted response agrees. Test whether
+
+\[
+A(m)=A(m')
+\Longrightarrow
+B(m)\sim_{\mathcal A}B(m').
+\]
+
+Search first for a route/access/reset relocation pair crossing the
+response-equivalence classes, then for the smallest target-independent
+physical premise that closes it. Reuse existing specimens; do not construct
+a new host. Carry the matched preferred-leaf/causal-partial-order control.

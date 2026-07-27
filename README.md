@@ -321,17 +321,22 @@ current results establish the starting boundary, not the answer:
   noninjective transfer, and cross-arena closeout as `HC-DU-052/053/054`.
   The common transfer theorem is absorbed; complete accessible-interface
   selection remains open but dormant behind a new physical reopener.
-  `N5-PF-P1` has now completed the source-audited portfolio reset under an
-  ungraded exactly compensated preferred foliation. It promotes conservative
-  certification and physical feedback, keeps the operational foliation
-  quotient/accessibility boundary as reserve, and returns the foliation
-  `INERT` for the selected primary. Only `N5-PF-P2` is executable. It freezes
-  response-system state, record/certificate carrier, verifier/controller
-  state, policy, complete physical boundary input, declared control quotient,
-  response, reset, and resources and proves
-  or refutes their deterministic, stochastic-kernel, and quantum-process
-  factorization before any model or hardware
+  `N5-PF-P1/2` have now completed the source-audited portfolio reset and the
+  conservative-certification formal spine under an ungraded exactly
+  compensated preferred foliation. `HC-DU-055` finds no
+  certificate-semantic force after complete physical matching. A certificate
+  can still enlarge safe capability through its physical carrier,
+  verifier/controller, policy, and executed control. Declared control labels
+  remain lossy unless deterministic fibre inclusion, a valid stochastic
+  postprocessing, or quantum process-link kernel containment holds. Exact
+  route/memory, stochastic-positivity, and \(I\)-versus-\(Z\) phase witnesses
+  expose omitted boundary state. The mathematical core is absorbed and the
+  foliation remains `INERT`. Only `N5-PF-P3` is executable: test whether an
+  independently motivated antecedent selects the complete physical feedback
+  boundary up to the full future response-equivalence class, beginning with
+  a route/access/reset relocation search rather than a new host
   ([Position-1 result](explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md);
+  [Position-2 result](explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md);
   [conditional scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md);
   [tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);

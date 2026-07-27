@@ -587,7 +587,7 @@ observer-level access composed without one privileged biography.
 under harmless subdivision.
 
 **Preferred-foliation conditional branch.** Dynamic Unity has one five-swing
-series whose first position is complete and that holds an exactly compensated preferred
+series whose first two positions are complete and that holds an exactly compensated preferred
 foliation without grading or adopting it. This supplies a hidden global
 simultaneity structure and time orientation, but not a physical record,
 observer, archive, access route, common knowledge, or public finality. The
@@ -603,14 +603,25 @@ archive route, orientation, observer access, action envelope, and resource
 horizon. It also does not explain how a certificate changes an admitted
 physical action.
 
-The active question is now whether certificate-conditioned physical response
-factors entirely through the complete physical certificate carrier, verifier
-and controller state, policy, and complete physical boundary input, with the
-declared control tested separately as a possibly lossy quotient. A certificate can
-legitimately change capability without changing source truth or introducing a
-new physical force. Any reproducible certificate-only residual after complete
-state/control matching would instead locate omitted state, modified dynamics,
-or a candidate remainder.
+Position 2 (`HC-DU-055`) now closes that formal question at scoped grade.
+Certificate semantics add no response after complete pre-response state and
+physical boundary matching. A certificate can legitimately change capability
+without changing source truth or introducing a new force, through its
+physical carrier, verifier/controller, policy, and executed control.
+
+The declared control remains a possibly lossy quotient. In the quantum form,
+one frozen process tensor maps identical complete instruments to identical
+responses; a control class is sufficient exactly when its within-class
+Choi/instrument differences lie in the process-link kernel. The exact
+\(\lvert+\rangle\) witness labels both \(I\) and \(Z\) as
+population-preserving but separates them with \(X\)-basis response
+probabilities one and zero. This is omitted instrument phase, not semantic
+certificate force.
+
+The active question is now whether an independently motivated physical
+antecedent selects the complete feedback boundary up to the full admitted
+future response-equivalence class. Search for a route/access/reset relocation
+pair before adding another host or apparatus.
 
 The accompanying source audit constrains how foundations claims may be used:
 
@@ -625,6 +636,8 @@ The accompanying source audit constrains how foundations claims may be used:
 
 See the
 [Position-1 result](../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md)
+,
+[Position-2 result](../explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md),
 and
 [conditional series](../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
 
@@ -714,7 +727,7 @@ interventional sufficiency, not another finite selector fit.
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
 | Public-finality composition | `HC-DU-035D` exactly characterizes selective future center screening, composition, first-leak localization, and the aggregate-route failure while permitting retained quantum fibres. `HC-DU-035E` adds the six-obligation cross-arena public-shadow descent contract and the native non-lift. `HC-DU-041` closes the fixed-envelope logic: an \(H\)-final record has no \(H\)-accessible remainder, and capability enlargement refines equivalence and requires a new finality verdict | `HC-DU-035/035C/035D/035E/041` |
 | Record sufficiency or physical remainder | `HC-DU-041` separates scoped reconstruction, screened operational duality, capability-relative remainder, and global incomplete contract. Gauge and QEC provide supplied strict-compression controls; Einstein and phase repairs expose the injective-tomography ceiling. `HC-DU-042` shows that a stable quotient is not a formed record. `HC-DU-043` narrows the upstream gap further: selected write/retention architecture and public endpoint value still do not imply a retained occurrence token. `HC-DU-044` supplies the strongest conditional positive—a physically formed fresh-output history and strict bounded-capability quotient—while proving that its completion, epoch, support and access are not selected by the host. `HC-DU-045` supplies the matched-completion boundary: terminal matter is the unique finest common quotient and reconstructs the next reduced law; occurrence already fails across completions, count first fails inside the visible binary epoch record, and full `A+H` repair is injective resource-expanded tomography. `HC-DU-046` proves the boundary is robust, gives the exact approximate-leak error law, and closes the host as `SELECTION_OR_FORMATION_OBSTRUCTION`. `HC-DU-047` proves that downstream protocols cannot repair a target absent from the complete joint input, while XOR and secret-sharing controls keep distributed joint sufficiency open even when every individual record is insufficient. `HC-DU-048` adds that propagation can pool source-formed synergy and a signed DAG can identify declared ancestry, but neither identifies the physical source relation; finite asynchronous gossip also does not collapse distributed, individual, and common knowledge into one layer. `HC-DU-049` adds the certificate-provenance factorization boundary: a hard certificate can be sufficient for conflict-safe execution while insufficient for accountability, equivocation audit, controller independence, or physical-source truth. `HC-DU-050` adds the action-relative selective-view boundary: local finality need not reconstruct global history, capability enlargement refines the fibre, and safe handoff depends on receiver context, epoch binding, and promised evidence availability. `HC-DU-051` adds the physical collision: independent archive failures can improve risk while remaining downstream of one common source record; the material flux archive is exact for boundary actions and fails for interior/crossing/formation targets; and authentication does not identify causal physical source binding. `HC-DU-052` identifies and downgrades the causal-exterior remainder. `HC-DU-053` closes the finite packet boundary: intensity gives strict noninjective transfer for a polarization-insensitive target, while oriented capability or lawful polarization recoupling exposes an exact interior remainder. `HC-DU-054` shows that this dynamic sufficiency is distinct from selection of the complete accessible formed interface. The finest quotient common to all native records on an antecedent fibre predicts exactly the targets constant on the join of their kernels, but that quotient is not automatically a material record. The common theorem is absorbed and the remaining gap is upstream interface selection. | `HC-DU-036/036C/036D/036E/036F/040D/040E/041/042/043/044/045/046/047/048/049/050/051/052/053/054`, `H-CCR-17`, [joint-input result](../explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md), [gossip/DAG result](../explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md), [hardening/provenance result](../explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md), [selective-view/handoff result](../explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md), [distributed/physical collision](../explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md), [lawful causal-exterior remainder](../explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md), [causally closed transfer](../explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md), [cross-arena closeout](../explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md) |
-| Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
+| Finality--capability relation | `HC-DU-055` separates certificate meaning from its physical feedback path. After complete \(X,B\) matching, semantics add no response; a certificate can still strictly enlarge safe action capability through carrier, verifier/controller, policy, and executed control. Declared labels may lose route, memory, positivity, or quantum instrument phase. The active question is independent selection of the complete feedback boundary up to the full future response-equivalence class. | `HC-DU-037/055`, [conservative-certification result](../explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md) |
 | Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records. `HC-DU-039C/D` add that one measured total phase, reduced visibility, or even a nonclassical conditioned channel still needs an independently calibrated full-rank source intervention before it can be attributed to duration or field structure | `HC-DU-038/038D/039C/039D` |
 | Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers kernel-containment across clock and distributed controls; `HC-DU-039D` separates nonclassicality from source attribution; `HC-DU-040B` transports the action-center theorem to von Neumann algebras; and `HC-DU-040D/E` share the exact sequence in which a formed boundary/check record reconstructs its quotient while an action-relative kernel remains. `HC-DU-035E` identifies the maximum unchanged invariant as public-shadow descent; `HC-DU-041` identifies the common verdict as target/action-indexed rather than a physical identification of systems | `HC-DU-035E/039/039C/039D/040B/040C/040D/040E/041` |
 | Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder. The finite material gauge and stabilizer-QEC routes now provide complementary anchors: one material record realizes scoped boundary duality; one complete code record leaves a protected logical remainder by design. The next physical move must independently select structure beyond the supplied detector/code or move to another arena. Reopen AQFT only for a new selector or finite locality discriminator; infrared QED and the clock intervention remain separately gated | `HC-DU-040/040B/040C/040D/040E` |

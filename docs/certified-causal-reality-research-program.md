@@ -2216,15 +2216,110 @@ resources, and causal reach while forgetting privileged simultaneity. The
 selected primary is branch-invariant: it asks whether certificate-conditioned
 physical response factors through the complete physical carrier, verifier,
 controller state, and physical boundary input, and whether the declared
-control is a sufficient quotient. `N5-PF-P2` is the only executable
-position. It will prove or refute the deterministic, stochastic-kernel, and
-quantum-process forms before any model or hardware. Positions 3--5 remain
-conditional.
+control is a sufficient quotient. `N5-PF-P2` has now completed those
+deterministic, stochastic-kernel, and quantum-process forms as `HC-DU-055`.
+`N5-PF-P3` is the only executable position; it tests antecedent selection of
+the complete physical feedback boundary up to full future response
+equivalence. Positions 4--5 remain conditional.
 
 See
 `../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md`
 and
 `../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md`.
+
+### `HC-DU-055` — Conservative certification and physical feedback
+
+`N5-PF-P2` is complete. Freeze complete pre-response state/history \(X\),
+physical record/certificate/verifier/controller state, semantic verdict
+\(C\), policy, complete physical boundary input \(B\), declared control
+\(U=q(B)\), response \(Y\), occurrence identity, reset, and resources.
+
+The earned deterministic result is:
+
+\[
+Y=G(X,B)
+\Longrightarrow
+Y\perp C\mid X,B,
+\]
+
+and, for a deterministic response \(F:X\times B\to Y\), a decoder through
+\((X,U)\) exists exactly when:
+
+\[
+\ker(\mathrm{id}_X,q)\subseteq\ker F.
+\]
+
+The stochastic operational analogue requires a valid stochastic
+postprocessing:
+
+\[
+M_x=QT_x.
+\]
+
+Nonnegative normalization is essential. The exact invertible control:
+
+\[
+Q=
+\begin{pmatrix}
+3/4&1/4\\
+1/4&3/4
+\end{pmatrix}
+\]
+
+with target response \(M=I\) has the unique signed decoder:
+
+\[
+T=
+\begin{pmatrix}
+3/2&-1/2\\
+-1/2&3/2
+\end{pmatrix},
+\]
+
+which is not a physical channel. Moreover, marginal channel factorization
+does not establish conditional independence in an already existing joint
+process unless its complete joint kernel factors.
+
+For a frozen process tensor or quantum comb \(\mathcal W\), identical
+complete instruments have identical outputs. A declared quantum control class
+is sufficient for the selected complete response exactly when every
+within-class Choi/instrument difference lies in the kernel of the process
+link. The minimum witness labels both \(I\) and \(Z\) as
+population-preserving: they preserve computational populations of
+\(\lvert+\rangle\), while an \(X\)-basis response gives probabilities one and
+zero.
+
+Thus certificates can strictly enlarge safe action capability through
+ordinary carrier/verifier/policy/control feedback with no source-law change.
+No certificate-only force survives complete physical matching. Hidden memory,
+route, timing, hysteresis, reset, phase, or occurrence mismatch are
+extra-boundary-state diagnoses; explicitly making \(C\) a physical input
+changes the dynamics or ontology.
+
+The mathematical core is fully absorbed by quotient factorization,
+comparison/postprocessing of experiments, and process-tensor/quantum-comb
+linearity. The exactly compensated preferred foliation is inert: different
+linear extensions of the same causal partial order preserve the result, and
+an accessible tick phase would belong in \(B\) or leave exact compensation.
+
+Position 3 is now executable as the complete physical feedback-boundary
+selection test. For independently fixed antecedent \(A\) and complete future
+action/tester family \(\mathcal A\), define response equivalence
+\(b\sim_{\mathcal A}b'\) and test:
+
+\[
+A(m)=A(m')
+\Longrightarrow
+B(m)\sim_{\mathcal A}B(m').
+\]
+
+This seeks operational class/orbit selection rather than unnecessarily
+demanding microscopic point selection. Search first for a route/access/reset
+relocation pair crossing the classes, then for the smallest
+target-independent premise that closes it. Do not build a new host.
+
+See
+`../explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -4546,5 +4641,12 @@ N5-PF-P1 WHOLE-PROGRAM PRIORITY RESET COMPLETE
 EXACTLY COMPENSATED FOLIATION INERT FOR SELECTED PRIMARY
 PRIMARY CONSERVATIVE CERTIFICATION AND PHYSICAL FEEDBACK
 RESERVE OPERATIONAL FOLIATION QUOTIENT AND ACCESSIBILITY BOUNDARY
-N5-PF-P2 CONSERVATIVE CERTIFICATION FORMAL SPINE NEXT
+N5-PF-P2 CONSERVATIVE CERTIFICATION FORMAL SPINE COMPLETE AS HC-DU-055
+SEMANTIC CERTIFICATE FORCE ABSENT AFTER COMPLETE PHYSICAL MATCH
+DECLARED CONTROL SUFFICIENCY REQUIRES VALID DETERMINISTIC STOCHASTIC OR QUANTUM FACTORIZATION
+CERTIFICATES CHANGE SAFE CAPABILITY THROUGH ORDINARY PHYSICAL FEEDBACK
+MATHEMATICAL CORE FULLY ABSORBED
+EXACT REGRESSION 24/24
+FOLIATION INERT
+N5-PF-P3 PHYSICAL FEEDBACK-BOUNDARY RESPONSE-EQUIVALENCE SELECTION NEXT
 ```

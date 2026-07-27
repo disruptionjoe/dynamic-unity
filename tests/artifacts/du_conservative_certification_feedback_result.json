@@ -1,0 +1,231 @@
+{
+  "capability_verdict": "CAN_CHANGE_THROUGH_ORDINARY_PHYSICAL_FEEDBACK",
+  "checks": [
+    {
+      "detail": "Y factors through (X,B) and is constant in C",
+      "name": "semantic_relabeling_is_inert_at_fixed_complete_boundary",
+      "passed": true
+    },
+    {
+      "detail": "a C-dependent response changes the response map instead of relabeling one realization",
+      "name": "certificate_force_requires_a_new_physical_input",
+      "passed": true
+    },
+    {
+      "detail": "identity quotient has kernel contained in response kernel",
+      "name": "complete_physical_boundary_is_sufficient",
+      "passed": true
+    },
+    {
+      "detail": "same X,U but different B gives different Y",
+      "name": "lossy_declared_control_is_not_automatically_sufficient",
+      "passed": true
+    },
+    {
+      "detail": "same declared NOP label; complete route/memory bit changes response",
+      "name": "hidden_route_or_memory_is_an_exact_boundary_witness",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "3/4",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "name": "control_channel_is_stochastic",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "4/5",
+          "1/5"
+        ],
+        [
+          "1/5",
+          "4/5"
+        ]
+      ],
+      "name": "decoder_is_stochastic",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "13/20",
+          "7/20"
+        ],
+        [
+          "7/20",
+          "13/20"
+        ]
+      ],
+      "name": "positive_stochastic_postprocessing_exists",
+      "passed": true
+    },
+    {
+      "detail": "QT must have equal rows whenever Q has equal rows",
+      "name": "same_row_channel_cannot_decode_distinct_response_rows",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "-1/2",
+          "3/2"
+        ]
+      ],
+      "name": "invertible_channel_has_unique_linear_decoder",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "-1/2",
+          "3/2"
+        ]
+      ],
+      "name": "signed_decoder_preserves_row_normalization",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "3/2",
+          "-1/2"
+        ],
+        [
+          "-1/2",
+          "3/2"
+        ]
+      ],
+      "name": "signed_decoder_fails_positivity",
+      "passed": true
+    },
+    {
+      "detail": "positivity is load-bearing, not a cosmetic constraint",
+      "name": "linear_factorization_is_not_stochastic_sufficiency",
+      "passed": true
+    },
+    {
+      "detail": "I and Z are both population-preserving on the declared classical interface",
+      "name": "quantum_operations_share_computational_population_label",
+      "passed": true
+    },
+    {
+      "detail": "PASS/I and FAIL/I insert the same Choi/instrument operation",
+      "name": "identical_complete_quantum_instrument_ignores_semantic_label",
+      "passed": true
+    },
+    {
+      "detail": {
+        "I_then_X_plus": "1",
+        "Z_then_X_plus": "0"
+      },
+      "name": "phase_sensitive_quantum_response_separates_same_classical_label",
+      "passed": true
+    },
+    {
+      "detail": "the complete boundary instruments differ even though U is equal",
+      "name": "quantum_witness_is_physical_instrument_difference_not_semantic_force",
+      "passed": true
+    },
+    {
+      "detail": {
+        "FAIL": [
+          "WAIT"
+        ],
+        "PASS": [
+          "RELEASE",
+          "WAIT"
+        ]
+      },
+      "name": "certificate_conditioned_policy_strictly_enlarges_capability",
+      "passed": true
+    },
+    {
+      "detail": {
+        "FAIL": "NO_SIGNAL",
+        "PASS": "RELEASE_SIGNAL"
+      },
+      "name": "capability_change_has_ordinary_physical_boundary_path",
+      "passed": true
+    },
+    {
+      "detail": "same_fixed_source_dynamics",
+      "name": "source_law_need_not_change_when_capability_changes",
+      "passed": true
+    },
+    {
+      "detail": {
+        "boundary": "RELEASE",
+        "certificate": "PASS",
+        "controller_ready": true,
+        "record": 1,
+        "response": "OPEN"
+      },
+      "name": "different_linear_extensions_preserve_complete_causal_response",
+      "passed": true
+    },
+    {
+      "detail": "only causal parents enter the certificate/control/response maps",
+      "name": "forgetting_privileged_simultaneity_preserves_factorization",
+      "passed": true
+    },
+    {
+      "detail": "if tick phase reaches the response, it belongs in B and exact compensation is left",
+      "name": "accessible_tick_phase_would_be_a_boundary_change",
+      "passed": true
+    },
+    {
+      "detail": {
+        "certificate_directly_changes_law": "MODIFIED_DYNAMICS_OR_ONTOLOGY",
+        "hidden_memory": "X_OR_B_INCOMPLETE",
+        "hysteresis": "X_OR_B_INCOMPLETE",
+        "occurrence_identity": "OCCURRENCE_MISMATCH",
+        "route_or_timing": "B_INCOMPLETE"
+      },
+      "name": "hostile_cases_have_typed_diagnostic_returns",
+      "passed": true
+    }
+  ],
+  "checks_passed": 24,
+  "checks_total": 24,
+  "claim_id": "HC-DU-055",
+  "counterexample_to_conservativity": false,
+  "declared_control_verdict": "SUFFICIENT_IFF_DETERMINISTIC_QUOTIENT_OR_STOCHASTIC_POSTPROCESSING",
+  "exact_extra_boundary_state_witnesses": true,
+  "foliation_role": "INERT",
+  "mathematical_core": "KNOWN_MATHEMATICS__FULLY_ABSORBED",
+  "maximum_grade": "SCOPED_DETERMINISTIC_STOCHASTIC_AND_QUANTUM_NECESSITY_PACKAGE",
+  "next_position": "N5-PF-P3_COMPLETE_PHYSICAL_FEEDBACK_BOUNDARY_SELECTION",
+  "not_claimed": [
+    "certificate-only force",
+    "new physical law",
+    "new quantum process theorem",
+    "new Blackwell theorem",
+    "ontological result",
+    "grade-5 physical remainder",
+    "prediction",
+    "paper promotion",
+    "hardware result"
+  ],
+  "physical_boundary_verdict": "FACTORIZATION_AFTER_COMPLETE_MATCH",
+  "probe": "du_conservative_certification_feedback_probe",
+  "quantum_verdict": "WITHIN_CLASS_CHOIS_MUST_LIE_IN_PROCESS_LINK_KERNEL",
+  "scientific_verdict": "CONSERVATIVE_CERTIFICATION_THEOREM",
+  "work_id": "N5-PF-P2"
+}

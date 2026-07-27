@@ -371,26 +371,28 @@ Before acting, a new agent must be able to state:
    without qualification. The operational quotient common to an antecedent
    fibre is not automatically a material record. The five-position `N5-RS`
    sequence is complete; `H-CCR-17` remains open but dormant behind a new
-   independently motivated physical reopener. Joe has now instantiated the
-   required `NORTH_STAR_PORTFOLIO_RESET` as `N5-PF-P1`. Position 1 is now
-   complete. Its source-audited whole-program comparison selects conservative
-   certification and physical feedback as primary, keeps the operational
-   foliation quotient/accessibility boundary as reserve, stops
-   exact-compensation existence testing and unconditioned host building, and
-   returns the foliation `INERT` for the selected primary. The held premise
+   independently motivated physical reopener. Joe has now completed the
+   required `NORTH_STAR_PORTFOLIO_RESET` and conservative-certification formal
+   spine as `N5-PF-P1/2`. The source-audited comparison selected conservative
+   certification and physical feedback as primary, and `HC-DU-055` now finds
+   no certificate-semantic force after complete physical matching. A
+   certificate can still enlarge safe action capability through its carrier,
+   verifier/controller, policy, and executed control. Exact route/memory,
+   stochastic-positivity, and quantum-phase witnesses show that declared
+   control labels can omit response-relevant boundary state. The mathematical
+   core is absorbed and the foliation remains `INERT`. The held premise
    supplies a global time orientation and hidden simultaneity structure, not
    discreteness, Lorentz leakage, a record, observer, archive, access route,
    certificate, or finality rule. Experimental bounds constrain declared
    leakage/access mechanisms rather than hidden existence in general;
    heterogeneous gravity-sector sensitivities are not evidence of leakage;
    and a foliation alone is not the logical escape from Bell or
-   Wigner-friend no-go theorems. Only `N5-PF-P2` is executable. Freeze the
-   response-system state, complete record/certificate carrier and
-   verifier/controller state, policy, complete physical boundary input, its
-   declared control quotient, response, reset and resources; prove or refute the
-   conservative factorization in deterministic, stochastic-kernel and
-   quantum-process forms with a matched causal-partial-order control. No
-   model or hardware is needed. Do not
+   Wigner-friend no-go theorems. Only `N5-PF-P3` is executable. Freeze an
+   independently motivated physical antecedent and the complete future
+   action/tester family; test whether it selects the complete feedback
+   boundary up to response equivalence, starting with an exact
+   route/access/reset relocation search and a matched causal-partial-order
+   control. No new host, model, or hardware is needed. Do not
    fit another archive to the closed metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum
