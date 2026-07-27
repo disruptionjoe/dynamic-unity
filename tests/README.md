@@ -6,13 +6,15 @@ not a test; controls are mandatory.
 
 `du_agent_orientation_contract_probe.py` is the exception in kind: it is a
 deterministic governance/cold-start contract rather than a scientific assay.
-It checks that the five authoritative entrypoints agree on the ratified
-Purpose, Vision, Mission, North Star, and operating principle; that the active
-dependency lanes and cross-lane work channels are complete and distinct; that
-the current implementation-complete physical interventional-sufficiency
-bottleneck and three-outcome posture are visible; and that entrypoint links
-resolve. Passing establishes orientation integrity only, never physics,
-ontology, novelty, or paper readiness.
+It parses `../CURRENT-RESEARCH.yaml` as the sole mutable research authority;
+enforces one active scientific flagship and executable action, one separately
+typed prepared publication candidate, parked-work reopeners, WIP limits, typed
+dependencies, acyclicity, evidence-reference integrity, and an unselected
+successor; checks that `../LANES.yaml` contains only stable lane/channel/grade
+topology; rejects copied live-routing assertions on stable surfaces; verifies
+historical guards, entrypoint links, and a bounded cold-start read. Passing
+establishes routing integrity only, never physics, ontology, novelty, or paper
+readiness.
 
 `du_near_term_swing_approach_atlas_probe.py` is another method/governance
 check rather than a scientific assay. It verifies that the five-lens
@@ -20,10 +22,11 @@ near-term approach atlas contains 15 complete approach cards; covers all 27
 paper candidates exactly once and every active dependency lane; retains
 ownership, merge, dependency and no-reopen boundaries; reuses the existing
 36-hypothesis method registry; preserves the nearer-paper versus flagship
-distinction; and exposes the atlas through both human and machine orientation.
-Passing establishes coverage and routing integrity only. It does not validate
-an approach scientifically, rank a swing, authorize work, change Factory
-state, harden a manuscript, or establish publication readiness.
+distinction; and confirms that the dated atlas remains non-authoritative under
+the current-research migration. Passing establishes coverage and historical
+method integrity only. It does not validate an approach scientifically, rank
+a swing, authorize work, change Factory state, harden a manuscript, or
+establish publication readiness.
 
 ## Certified Causal Reality assay contract
 

@@ -1,18 +1,18 @@
 ---
 title: "Dynamic Unity — Start Here"
-status: active_research
+status: active_orientation
 doc_type: orientation
 created: 2026-07-25
 revised: 2026-07-27
-authority: "Joe direct chat; ratified program identity and operating architecture"
+current_routing_authority: CURRENT-RESEARCH.yaml
 ---
 
 # Start Here
 
-This is the shortest authoritative route into Dynamic Unity. It tells a new
-research agent why the program exists, what is actually known, what is live,
-and where work belongs. It is an orientation surface, not a scientific claim
-ledger.
+Dynamic Unity is a verdict-open research program for making physical reality
+intelligible as one coherent, evidence-accountable whole. This page is stable
+orientation. It deliberately does not copy the current work ID, status, or
+priority. Read [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml) for those.
 
 ## Ratified program charter
 
@@ -45,1206 +45,170 @@ ledger.
 
 > Whole-picture purpose. Seam-by-seam mission. Theorem-grade North Star.
 
-The charter does **not** say that records are fundamental. It makes that
-possibility testable while keeping three outcomes coequal:
+The charter keeps three outcomes coequal:
 
 1. **Record-first reconstruction:** independently formed records reconstruct
-   the observer-accessible physical structure.
-2. **Operational duality:** physical and record descriptions translate
-   without observable remainder, but neither is thereby ontologically prior.
-3. **Physics-first remainder:** a finite admitted intervention distinguishes
-   physically different processes that the certified-record description
-   identifies.
+   observer-accessible physical structure.
+2. **Operational duality:** physical and record descriptions translate without
+   observable remainder, without proving either ontologically prior.
+3. **Physics-first remainder:** a finite admitted intervention separates
+   physical processes identified by the certified-record description.
 
-Underidentification means the work is incomplete. It is not a fourth
-ontological verdict.
+Underidentification is incomplete work, not a fourth verdict.
+“Observer-indexed” is initially an operational index over records, access,
+interventions, and capability. It does not deny a global state or preferred
+foliation. Stronger ontology must declare the assumptions it uses.
 
-“Observer-indexed” is an operational and methodological index over records,
-access, interventions, and capability. It does not assert that no global
-state or preferred foliation exists. A stronger observer-relative ontology
-must declare the contextuality, locality, friend-style, and
-preferred-foliation assumptions on which it depends.
-
-## The scientific architecture
-
-Dynamic Unity studies the same seam in both directions:
+## Scientific architecture
 
 ```text
-FORWARD / REPRESENTATION
 accepted physical process
-    -> distinctions and interactions
-    -> physically formed records and certificates
-    -> observer access and action capability
-    -> layered regional finality
-    -> effective classical, temporal, geometric, and field descriptions
+  -> distinctions and interactions
+  -> formed records and certificates
+  -> observer access and action capability
+  -> layered regional finality
+  -> effective classical, temporal, geometric and field descriptions
 
-INVERSE / NORTH-STAR TEST
-complete certified causal record network
-    -> reconstruct observer-accessible physics up to a declared equivalence
-       OR
-    -> produce a finite intervention that exposes the missing physical remainder
+complete independently specified certified causal record network
+  -> reconstruct observer-accessible physics up to declared equivalence
+     OR
+  -> expose the missing physical structure with a finite intervention
 ```
 
-The forward direction can earn a coherent, faithful representation of known
-physics without claiming that records create reality. The inverse direction
-is what could establish reconstruction, operational duality, or a physical
-remainder.
+The forward direction may earn compatibility or representation. The inverse
+direction adjudicates reconstruction, duality, or remainder.
 
-Use this grade ladder so the full picture never gets mistaken for a new
-theory merely because it is coherent:
+## Evidence and type discipline
 
-| Grade | What has been earned |
+| Grade | Earned content |
 |---|---|
-| `0 — vocabulary` | A suggestive analogy or terminology. |
-| `1 — compatibility` | No identified conflict within a declared scope. |
-| `2 — representation` | A faithful map of known physical structure into the typed record architecture. |
-| `3 — reconstruction` | The record object recovers target observables or capabilities up to a declared equivalence. |
-| `4 — selection / necessity` | Independent dynamics selects the record structure, or a theorem shows what is required. |
+| `0 — vocabulary` | Suggestive terminology or analogy. |
+| `1 — compatibility` | No identified conflict in a declared scope. |
+| `2 — representation` | Faithful map of known structure into the typed architecture. |
+| `3 — reconstruction` | Target observables or capabilities recovered up to a declared equivalence. |
+| `4 — selection / necessity` | Independent dynamics selects the structure, or a theorem makes it necessary. |
 | `5 — remainder / prediction` | A finite discriminator survives the complete admitted physical completion class. |
 
-Compatibility is not equivalence. Operational equivalence is not ontology.
-Representation is not derivation. A finite fixture is not a universal law.
-
-## Before reusing a learned result
-
-Read the
-[Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
-before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 212
-source-pinned cases where the plausible default reverses an implication,
-silently changes construction, broadens a scoped no-go, or confuses
-representation, selection, records, access, capability, and finality.
-
-The register is an agent reasoning-control surface, not a claim ledger. Source
-repositories retain their own authority and grades.
-
-## Honest current standing
-
-The North Star is open. No record-first ontology, new physical law, observer,
-proper time, emergent geometry, public-classicality law, or cosmological
-result has been established.
-
-What *has* been earned is a strong finite control stack:
-
-- exact record/access quotients, history factorization-or-witness results,
-  multi-time controls, regional-composition controls, and unchanged quantum
-  and distributed fixtures;
-- an exact finite rational reconstruction/refinement/remainder trichotomy
-  with stochastic decoders, componentwise resource order, and a positive
-  completion-class-relative margin—but no physically exhaustive completion
-  class;
-- explicit demonstrations that a stable algebra, a formed environmental
-  record, observer access, public finality, and capability are different
-  objects;
-- repeated absorption of apparent remainders by omitted environment,
-  provenance, route, controller, decoder, or resource structure; and
-- one frozen binary QND family in which source-action constraints select an
-  effective source-aligned Lüders instrument orbit while leaving the
-  microscopic apparatus and independently justified physical premises open
-  ([result](explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md);
-  [probe](tests/du_robust_physical_instrument_selection_probe.py)); and
-- one explicit \(U(1)\)-conserving source--reference--pointer--archive model
-  proving that conservation and a symmetry-invariant asymmetry budget select
-  only a measurement orbit: the oriented apparatus reference supplies the
-  record axis, complete tomography identifies the implemented instrument, and
-  its capability delta is paid for by consumed reference coherence and
-  archive quality
-  ([result](explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md);
-  [probe](tests/du_conservation_certified_record_probe.py)); and
-- one exact `HC-DU-038A` identification ladder proving that authenticated
-  meta-record order does not generally fix scale, local duration allocation,
-  ambient dimension, proper time or metric, while calibrated edge differences
-  reconstruct one scalar record-time potential exactly when all signed loop
-  sums vanish. The scalar is not spacetime geometry; the next physical gate
-  requires calibrated volume/density plus path-indexed local-clock/reference
-  evidence against nonisometric held-out controls
-  ([result](explorations/meta-record-geometry-identification-ladder-2026-07-25.md);
-  [probe](tests/du_meta_record_geometry_identification_probe.py)); and
-- one exact `HC-DU-038B` conformal tournament in which two overlapping
-  regional volumes reconstruct a declared two-mode smooth geometry and
-  predict a held-out remote clock, while an explicit additional smooth mode
-  preserves every training record and changes that clock and curvature. This
-  establishes conditional finite-dimensional reconstruction and the
-  finite-record ceiling, not a selected spacetime
-  ([result](explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md);
-  [probe](tests/du_conformal_record_geometry_tournament_probe.py)); and
-- one exact scoped `HC-DU-039A` reconstruction theorem used unchanged on the
-  multi-time, conformal-geometry, and layered-regional-finality specimens.
-  It requires a nonempty completion fibre before target constancy, so the
-  inclusion-minimal frustrated binary triangle returns an unrealizable record
-  rather than vacuous reconstruction. It also proves that same-class record
-  refinement can split a nonempty fibre but cannot repair an empty one;
-  provenance/context splitting that restores a process is contract retyping
-  ([result](explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md);
-  [probe](tests/du_certified_reconstruction_fiber_probe.py)); and
-- one coupled exact `HC-DU-039B/036G/038C` swing separating stochastic
-  record-model misfit from held-out target spread, carrying that distinction
-  through a complete binary observer/action chain, and testing the conformal
-  hidden mode against regularity, finite action, unrestricted source, and
-  source-free dynamics. Value finality does not determine selective
-  continuation; smoothness and finite action do not close the geometric
-  fibre; a source-frozen uniqueness-generating equation does in the supplied
-  toy class
-  ([result](explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md);
-  [probe](tests/du_robust_vertical_dynamics_reconstruction_probe.py)).
-- one exact finite `HC-DU-036H` autonomous-record quotient spine. Complete
-  acquisition-stratum, response, and next-record probabilities must agree
-  across every same-record history under every admitted action. This is
-  controlled strong lumpability/probabilistic bisimulation, and is stronger
-  than Blackwell sufficiency for one frozen tester family. Exact three-state
-  controls show why endpoint agreement and separate event/next-record
-  marginals fail; reset, empty-fibre, target-coded-repair, and representation
-  controls close the common loopholes. The same schema works on the
-  QND-versus-flip quantum-instrument shadow and a metastable-versus-BFT
-  distributed-process shadow. The result is known mathematics plus an
-  integrated assurance contract, not a new theorem or physical record
-  ([result](explorations/certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md);
-  [probe](tests/du_certified_causal_spine_probe.py)).
-- one exact finite-dimensional `HC-DU-033D` action-center boundary. Relative
-  to a frozen physical action algebra, its minimal central projections are
-  the finest action-internal sharp record whose Lüders channel preserves
-  every admitted action. An explicit pointer/archive isometry can form that
-  sector label, but the label is an autonomous `HC-DU-036H` state only when
-  every complete event-and-next-record effect is central. It reconstructs all
-  admitted action statistics exactly iff the action algebra is commutative;
-  otherwise two same-central-record states are separated by one
-  within-sector action. A factor has no nontrivial internal nondisturbing
-  sharp record. This is known operator-algebra mathematics plus a new DU
-  formation-to-capability bridge, not physical selection of the action
-  algebra or a new quantum law
-  ([result](explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md);
-  [probe](tests/du_action_center_capability_boundary_probe.py)).
-- one scoped `HC-DU-040B` transport of that boundary to unital von Neumann
-  algebras. A finite internal PVM preserves every admitted action iff all of
-  its projections are central. Consequently, a factor has only the trivial
-  exact internal sharp record, and a net of factor local algebras cannot
-  obtain a nontrivial bounded-region record merely by taking local centers.
-  QFT records must instead use a justified effective action restriction, an
-  enlarged local probe/pointer/archive interface, sector/global/boundary
-  structure, or an explicitly approximate and horizon-indexed contract.
-  Approximate leakage can accumulate coherently, and finality is
-  anti-monotone under capability enlargement, so neither a small one-step
-  defect nor the AQFT split property selects a durable record. This is known
-  operator-algebra mathematics plus a DU arena-selection boundary, not a
-  selected QFT record or new physics
-  ([result](explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md);
-  [probe](tests/du_algebraic_qft_record_transport_probe.py)).
-- one `HC-DU-040C` physical-arena tournament comparing a local AQFT probe,
-  materialized gauge boundary, infrared/asymptotic QED record, and
-  trapped-ion proper-time instrument under the same post-`040B` contract.
-  The materialized gauge boundary is the selected next arena. In the minimum
-  exact control, Gauss law leaves total enclosed charge variable, an external
-  flux pointer/archive reduces that target diameter to zero, and two
-  different interior charge distributions remain in one record fibre and
-  are separated by one interior-sensitive action. This gives scoped
-  record-assisted reconstruction and a capability-relative first leak, while
-  leaving the material boundary, detector Hamiltonian, pointer/archive,
-  decoder, perturbation class, and future action envelope unselected
-  ([result](explorations/physical-arena-selection-tournament-2026-07-26.md)).
-- one exact finite `HC-DU-040D` material gauge-boundary formation-orbit
-  classification. In a frozen two-site `Z3` gauge Hamiltonian, Gauss law
-  identifies total enclosed charge with the boundary-flux sector. A local
-  neutral qutrit detector implements an exact gauge-invariant QND write and a
-  blank archive stores the orthogonal sector label. Minimal additive record
-  semantics select only the controlled-add/subtract orbit; a material
-  orientation selects one operational instrument, while Hamiltonian
-  logarithms, micromotion, off-ready-subspace action, and dilations leave the
-  microscopic formation history nonunique. Exact finality holds only in the
-  projector-preserving boundary envelope; norm error earns a finite horizon,
-  and interior readout, unlogged charge crossing, and intermediate-time
-  detector assays give the first leaks. This is known lattice-gauge and
-  measurement mathematics plus a DU formation-to-capability classification,
-  not a new law, actualization rule, ontology, or paper
-  ([result](explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md)).
-- one exact finite `HC-DU-040E` stabilizer-syndrome classification. For an
-  `[[n,k]]` stabilizer code, the complete generator-invariant syndrome is
-  exactly the Pauli quotient by the normalizer and is sufficient for a frozen
-  correctable error/recovery class. For the unrestricted Pauli class, the
-  same complete record retains the protected logical quotient `N(S)/S`, of
-  binary symplectic dimension `2k`. No code-internal classical refinement can
-  close that quotient while preserving arbitrary reference entanglement and
-  the full logical action algebra. Closing it requires an external source
-  record, logical measurement, error/task restriction, coherent access
-  enlargement, or interface retyping. This is established stabilizer,
-  Knill--Laflamme, operator-QEC, and homological-code mathematics recast as a
-  Dynamic Unity reconstruction/remainder control—not a new QEC theorem,
-  universal record selector, ontological remainder, or paper
-  ([result](explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md)).
-- one exact finite `HC-DU-033E/038E` Admissible Record Envelope framework.
-  The physically relevant object is a refinement poset plus a
-  joint-realizability complex, not the formal tuple of every individually
-  admissible record. A finite join-closed physical class has a greatest
-  record unique up to lossless relabeling; several incomparable maximal
-  records require a plural or interface-dependent verdict. A held-out target
-  that fails through every maximal interface fails throughout that frozen
-  class. Applied unchanged, the material gauge record and complete stabilizer
-  syndrome are greatest in their declared classes and retain their prior
-  interior/logical remainders. In a new \(3+1\) weak-field
-  Einstein--matter control, two one-clock interfaces are incomparable and
-  each misses a held-out redshift; an explicitly resource-enlarged joined
-  two-clock archive has determinant \(1/4\) and reconstructs it exactly.
-  This is known refinement, sufficiency, compatibility, gauge, QEC, and
-  inverse-problem mathematics integrated into a DU adjudication spine—not a
-  universal selector, full-GR result, ontology, new law, or paper
-  ([result](explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md)).
-- one exact `HC-DU-033F/G` antecedent-relative physical-selection ladder.
-  `HC-DU-033F` proves that a claimed antecedent selects a formed ARE or
-  interface exactly when that interface is constant on the antecedent
-  fibres; otherwise the minimal return is a point, orbit, plural family,
-  trivial interface, or empty nontrivial target. `HC-DU-033G` applies the
-  passport unchanged to Einstein--matter. A simple timelike stress-energy
-  eigenline plus time orientation selects a matter flow. Geodesic
-  vorticity-free flow on suitable topology selects an orthogonal proper-time
-  scalar only up to an origin. FLRW selects cosmic-time structure but no
-  observer token; Gödel dust selects flow while vorticity blocks orthogonal
-  synchronization. Homogeneous \(u(R)=0\) transport does not mint an archive,
-  and causal reachability does not select access. Material clocks,
-  write/archive structure, and complete observer-indexed ARE fields first
-  close at \(A_2,A_3,A_4\). This is known factorization, fluid,
-  congruence, Frobenius, material-reference, transport, and communication
-  mathematics in a DU-specific typed selection receipt—not a generic
-  matter-derived record, new gravity, new physics, or paper
-  ([selector](explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md);
-  [matter ladder](explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md)).
-- one exact finite-dimensional `HC-DU-035D` center-screening finality theorem.
-  A formed regional center is screened from its retained noncommutative fibre
-  exactly when every complete selective future map pulls the next public
-  center into the current public center. This condition composes
-  sequentially, in parallel, and under public-record-adaptive control. If it
-  fails, backward propagation of a final public effect identifies a first
-  noncentral map and an exact same-public-record/different-later-outcome
-  witness. The maximum blockwise witness margin is twice the operator-norm
-  distance of the pulled-back effect from the center. Exact controls show
-  that finality can retain an orthogonal quantum fibre, that a later
-  phase-to-public coupling reopens it with unit probability margin, and that
-  aggregate center preservation is insufficient when a retained selective
-  route leaks. This is known operator-algebra, process-memory, and
-  lumpability mathematics—not a selected physical regionalization or new
-  quantum law
-  ([result](explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md);
-  [probe](tests/du_center_screening_regional_finality_probe.py)).
-- one scoped grade-4 `HC-DU-035E` cross-arena descent/non-equivalence result.
-  Explicitly formed Einstein--matter, AQFT, material-gauge, QEC, and
-  authenticated-distributed interfaces export one common object only at the
-  level of their complete public operational shadows. Those shadows descend
-  under six unchanged obligations: nonempty joint realization, certified
-  occurrence/provenance identity, complete selective restriction, physical
-  and resource joinability, future-public center screening, and
-  benign-refinement naturality. Equality of descended shadows does not imply
-  native-interface identity. A classical public record cannot be
-  simultaneously nondisturbing, physically faithful for a noncommuting
-  quantum state class, and broadcastable without contradicting
-  no-broadcasting. The smallest honest cross-arena architecture is therefore
-  a copyable public quotient, native residual fibre, and frozen action envelope. The
-  component mathematics is known; no universal public-reality law or new
-  physics is claimed
-  ([result](explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md);
-  [probe](tests/du_typed_public_shadow_descent_probe.py)).
-- one scoped grade-4 `HC-DU-041` North-Star factorization and attribution
-  result. Interface selection, held-out target reconstruction, and
-  finality for a frozen action class are independent receipts. A record
-  sufficient for every admitted action cannot leave an accessible
-  same-record remainder in that same action class; expanding capability can
-  expose a retained fibre only by making the old finality claim false for the
-  enlarged class. Exact gauge and QEC controls earn strict-compression
-  reconstruction through supplied architectures; the Einstein two-clock and
-  phase repairs are injective tomography. No current specimen combines
-  independent physical interface selection, formed strict compression, and
-  held-out physical transfer. The global result remains
-  `INCOMPLETE_CONTRACT`; the next bottleneck is the endogenous compressive
-  record challenge
-  ([result](explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md);
-  [probe](tests/du_capability_indexed_north_star_probe.py)).
-- one scoped `HC-DU-042` endogenous-record mechanism tournament and
-  write-selector obstruction. The unchanged seven-obligation comparison
-  returns `NO_READY_ARENA`: open-system metastability, environment-selected
-  redundant records, topological/logical sectors, causal-action/AQFT source
-  chains, and material phase boundaries each supply valuable components, but
-  none currently selects a complete blank-to-token write with occurrence
-  provenance and retention/reset from the same target-independent physical
-  antecedent. The exact factorization and two-write counterexample establish
-  that a selected stable quotient is not yet a formed record. `HC-DU-043`
-  then consumes the first matter-flow/metastability host. One exact generator
-  selects the ready/retained classes, write/reset edge architecture, finite
-  persistence and a two-value record orbit up to \(\mathbb Z/2\), but an
-  equal-initial/equal-endpoint path pair proves that endpoint value does not
-  retain write-occurrence provenance. Redundant copies preserve the failure;
-  a bounded exact repair needs a physically retained epoch/reset witness.
-  `HC-DU-044` now proves that the minimum binary epoch transducer is unique
-  while exact set/reset is impossible on one closed reversible carrier.
-  Internal turnover reset duplicates the terminal ready/retained class. A
-  specified fresh-output completion can form the full history, but the host
-  does not select its support, retention, epoch, fragment, or latch; the
-  disposition is `SUPPLIED_EPOCH_ARCHIVE`. `HC-DU-045` now completes the
-  matched-completion transfer. The unique finest record common to the
-  visible-archive and hidden-reservoir `A`-only interfaces is the terminal
-  matter state. It strictly compresses history and reconstructs the next
-  reduced-matter law, but the stale and `CWCW` histories give an exact
-  same-common-record/different-occurrence witness. The cross-completion first
-  leak is occurrence; inside the visible binary epoch record it is count.
-  Full `A+H` access repairs history only by expanding the observer/resource
-  contract and becoming injective. `ECR-N5-S5` is complete as `HC-DU-046`.
-  Historical failure begins exactly at the first completed four-edge cycle
-  and survives arbitrary horizon, positive weighting, relabeling, and benign
-  subdivision. Partial full-history revelation has an exact Bayes-risk law
-  and becomes exact only when injective. Archive relocation leaves the host
-  fixed while changing access, so the final host verdict is
-  `SELECTION_OR_FORMATION_OBSTRUCTION`. The prepared
-  [next-five scaffold](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-  initially queued `N5-RS-P2`, the mandatory
-  minimum-premise/whole-portfolio pivot. Joe then interposed the eighteen-lens
-  [stochastic/consensus/complexity/cryptography scaffold](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-  `N5-SCF-P1/2/3/4/5` are complete as `HC-DU-047/048/049/050/051`. Individual insufficiency
-  does not imply joint insufficiency: XOR and secret-sharing correlations
-  can be jointly exact while every local marginal is uninformative. Lossless
-  gossip can pool that source-formed synergy; signed hash-DAGs preserve
-  declared ancestry and expose an encountered fork. Neither identifies
-  physical source binding. Distributed knowledge, individual knowledge,
-  common knowledge, total order, and action safety remain separate.
-  Metastable preference and quorum locking close decision-risk and
-  conflicting-certificate predicates under frozen premises, not source
-  truth. A certificate sufficient for execution can omit provenance needed
-  by stronger audits. Differently filtered regions can each close a frozen
-  local action without reconstructing one global history, while capability
-  enlargement, stale epochs, unavailable sidecars, and self-confirming
-  filters reopen exact distinctions. `HC-DU-051` then applies the unchanged
-  stack to the material gauge archive and the closed metastable host.
-  Independent archive corruption lowers bounded flux-readout risk while
-  common shock does not; neither splits a source-record fibre. Physical
-  boundary-action closure and receiver-contextual handoff survive. The first
-  exact non-unification is authenticated representation versus causal
-  physical source/action: a signed value can be QND-formed or preloaded, just
-  as a signed MMO render mesh need not determine the authoritative collision
-  response. The five-position sequence is complete. `N5-RS-P2` then completed the
-  [minimum-premise portfolio adjudication](explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md):
-  no current arena selects the complete write-and-access antecedent required
-  by `H-CCR-17`; unconditioned host building stops; the `3+1` law-filtered
-  record-assisted inverse problem is primary; conservative
-  certification/physical feedback is reserve. `N5-RS-P3` is complete as
-  `HC-DU-052`: incoming transverse-traceless data can vanish on the complete
-  past local record region and change a later gauge-invariant target. The
-  witness is lawful and nongauge but is ordinary causal-exterior/open-boundary
-  information. No-incoming radiation closes it by law/source narrowing; a
-  full characteristic archive closes it only by injective tomography.
-  `N5-RS-P4` is complete as `HC-DU-053`: inside a causally closed
-  two-polarization packet sector, normalized intensity is a strictly
-  noninjective record for a later polarization-insensitive response, while an
-  oriented capability reopens its fibre. A plus-only record transfers under
-  aligned propagation and fails when lawful transport recouples the hidden
-  cross polarization with exact coefficient `4/5`. Causal closure and record
-  sufficiency are distinct; full repair is injective tomography and the
-  supplied instrument still leaves `H-CCR-17` open. `N5-RS-P5` is complete as
-  `HC-DU-054`. The packet and metastable host obey the same known
-  target-relative factorization law: a strict quotient can transfer for one
-  action while capability enlargement reopens its fibre. That theorem is
-  fully absorbed. In both arenas, however, the claimed antecedent admits
-  accessible and hidden archive routes. The antecedent therefore does not
-  select the complete accessible formed interface. The finest common
-  operational quotient need not be a material record. The five-position
-  `N5-RS` sequence is complete; `H-CCR-17` remains open but dormant behind a
-  new physical reopener. `N5-PF-P1/2` have now completed the required
-  [whole-program portfolio reset](explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md)
-  and the
-  [conservative-certification formal spine](explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md)
-  while holding an exactly compensated preferred foliation as an ungraded
-  conditional premise. The source audit confirms that the premise supplies
-  hidden simultaneity and global time orientation, not discreteness, Lorentz
-  leakage, a record, observer, archive, access route, or finality rule.
-  Existing experiments constrain declared leakage/access mechanisms, not
-  hidden existence in general; heterogeneous gravity-sector bounds are not
-  evidence of a leak; and preferred foliation alone is not the logical escape
-  from Bell or Wigner-friend no-go theorems. The CMB rest frame and derived
-  consensus timestamps are controls, not fundamental-tick evidence.
-  Position 2 returns `HC-DU-055`: certificate semantics add no response after
-  complete physical state and boundary matching, while lossy control labels
-  fail through exact route/memory, stochastic-positivity, and quantum-phase
-  witnesses. Certificates can still enlarge safe action capability through
-  ordinary physical feedback. The result is mathematically absorbed and the
-  foliation remains `INERT`. Position 3 returns `HC-DU-056`: a boundary
-  response-class selector exists exactly when the complete future response
-  signature is constant on the physical antecedent fibres. Microscopic
-  identity is unnecessary, but capability enlargement can split a selected
-  class. The unchanged gauge and metastable specimens select restricted
-  classes and fail under orientation/path and route/reset-lineage
-  capabilities; the current antecedents do not derive those closing fields.
-  Position 4 returns `HC-DU-057`: consensus does not derive a physical
-  finality rate, broad record mergeability does not derive complementarity,
-  and an unselected finite threshold does not carry a universal exponent.
-  The rate classification needs a fourth branch for genuinely new
-  Lorentz-covariant dynamics, but DU has not derived it and
-  `PRED-DU-001/002` already carry it conditionally. The foliation remains
-  `INERT`. Only `N5-PF-P5` is executable: adjudicate the branch-invariant
-  kernel across preferred-leaf and causal-partial-order arenas. The
-  [series scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md)
-  and predecessor receipts are
-  ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
-  [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
-  [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
-  [completion transfer](explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md);
-  [host closeout](explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md);
-  [joint-input result](explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md);
-  [gossip/DAG result](explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md);
-  [hardening/provenance result](explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md);
-  [selective-view/handoff result](explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md);
-  [distributed/physical collision](explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md);
-  [causal-exterior attribution](explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md);
-  [causally closed transfer](explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md);
-  [cross-arena closeout](explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md);
-  [feedback-boundary selection](explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md);
-  [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
-- one exact finite `HC-DU-039C` screened-effective-physics and
-  source-attribution boundary. A screened public process reconstructs its
-  public order, trace laws, and public-action capabilities, but that is
-  operational closure rather than microscopic source derivation. For an
-  abelian source map \(S\) and held-out target \(T\), reconstruction holds
-  exactly when \(\ker S\subseteq\ker T\). The minimum quantum control records
-  only total phase \(\phi=\tau+\chi\): the proper-duration/field-source pair
-  \((0,1)\) versus \((1,0)\) has the same public network and phase record but
-  opposite source targets. A second independently calibrated sensitivity
-  makes the finite source map full rank. Exact controls pass `27/27`. The
-  result is known observability, quantum phase-readout, and causal-order
-  mathematics; it installs strict compression, held-out transfer, and
-  source-independent calibration as requirements for a nontrivial North-Star
-  reconstruction
-  ([result](explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md);
-  [probe](tests/du_screened_effective_physics_attribution_probe.py)).
-- one primary-source-pinned exact `HC-DU-039D` optical-clock evidence
-  boundary. Mean frequency and terminal phase remain semiclassically
-  reproducible, and every two-level single-time dephasing factor has a
-  classical random-proper-time representation. A conditioned coherent
-  recombination channel can leave the convex hull of one independently
-  frozen history set; the exact Ramsey control passes `36/36`. That
-  history-relative certificate does not identify the physical generator:
-  every output-only functional of
-  \(\theta_\tau+\theta_\chi\) retains local null \((1,-1)\), including
-  complete tomography. A preregistered source-selective intervention is the
-  minimum local coefficient repair, while equivalent proper-time and
-  mass-energy interpretations of one Hamiltonian remain operationally
-  indistinguishable
-  ([result](explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md);
-  [probe](tests/du_proper_time_certification_attribution_probe.py)).
-- one formal-first `HC-DU-033C/038D` separation result. Any natural
-  interface selected at a lawful completion must be fixed by that
-  completion's symmetry stabilizer. Minkowski's Lorentz stabilizer has no
-  fixed future-unit timelike vector, so a symmetric vacuum law cannot select
-  one observer direction. In the matched \(3+1\) compact conformal tangent
-  control, the trace-free linearized vacuum equation forces the perturbation
-  to vanish; every held-out clock target is therefore fixed by the law before
-  records. A timelike physical current is the positive control for selecting
-  one frame component, not a complete pointer/archive/decoder interface
-  ([result](explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md)).
-
-A conditional exterior-graded \(4+6+4\) work surface is also registered for
-Lanes 2 and 6. It begins with a hard type boundary: a rank-14
-\(\Lambda^1\oplus\Lambda^2\oplus\Lambda^3\) bundle over \(X^4\) has
-18-dimensional total space, while the total-14 exterior comparator has
-rank-10 fibre \(\Lambda^2\oplus\Lambda^3\), distinct from GU's symmetric
-metric fibre. Future work must derive any local/relational/access semantics
-from instruments, run Hodge and provenance absorbers, and change a nonempty
-physical reconstruction fibre before the grading counts as more than a
-representation
-([work program](explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md)).
-It is not a new ontology, claim, or priority.
-
-### The live bottleneck
-
-The conservation lift returned an Interface-Necessity No-Go and a
-minimal-structure classification. Additive conservation constrains feasible
-measurements; apparatus asymmetry prices their accuracy; an oriented reference
-programs the axis. Another finite selector fit is no longer the highest-value
-move.
-
-The first implementation-complete physical arm of **Interventional Record
-Sufficiency** has now been executed against a published trapped-ion quantum
-instrument. It returned `INCOMPLETE_CONTRACT`, not a negative scientific
-result: the linked public record contains figure-source data, not the
-calibration-linked trial, invalid-trial, controller, provenance, uncertainty,
-ordered-repeat, and causal-break evidence needed for a finite-shot verdict
-([receipt](explorations/implementation-complete-physical-interventional-sufficiency-arm-2026-07-25.md);
-[probe](tests/du_physical_interventional_sufficiency_probe.py)).
-
-The reusable physical gate is:
-
-1. choose one independently calibrated physical process instrument and state
-   its source, reference, coupling, pointer, archive, decoder, and action
-   premises without claiming they were derived;
-2. retain complete route, environment, controller, detector, invalid-trial,
-   and provenance fields;
-3. reconstruct the complete selective instrument with uncertainty rather than
-   a POVM or terminal distribution alone;
-4. freeze the candidate record and admissible physical-refinement class before
-   seeing the verdict;
-5. run factorization or return a finite separating intervention;
-6. give the witness a finite-shot calibration and the strongest
-   implementation-complete null; and
-7. report factorization, minimal refinement, candidate remainder, or
-   incomplete contract without ontological inflation.
-
-Do not infer missing records from plotted means or aggregate probabilities. A
-bounded public screen found no packet passing all four tables. The strongest
-reopener is Xiang et al.'s public superconducting OQE/process-tensor packet:
-it supplies randomized-benchmarking sequences, train/test partitions,
-reconstructed tensors, and code, but its inspected rows reduce to a Clifford
-sequence plus aggregate `p0`, without the required shot, calibration,
-invalid-trial, selective-map, and reset joins
-([screen](explorations/public-physical-evidence-four-table-screen-2026-07-25.md);
-[probe](tests/du_public_physical_evidence_screen_probe.py)). The bounded
-sidecar audit is now complete at public commit `47d67598`: all `1128` paths
-and the representative acquisition lineage were inspected. The stored
-`200 x 39` products are already calibrated probabilities, and the calibration
-points used to produce them were discarded from the exported row. No joined
-shot, invalid-attempt, calibration, controller/decoder, selective-history or
-complete-reset sidecar is present
-([audit and gate](explorations/physical-sufficiency-acquisition-gate-2026-07-26.md)).
-Stop this public-reuse route. Contacting source authors remains a separately
-Joe-authorized external action.
-
-The formal North-Star contract has also advanced from exact equality to the
-finite `HC-DU-036C` Certified Causal Reconstruction trichotomy. It computes
-the exact minimum stochastic-decoder deficiency, reports every
-resource-Pareto-minimal exact repair, or returns a positive margin against the
-frozen finite completion class
-([result](explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md);
-[probe](tests/du_certified_causal_reconstruction_trichotomy_probe.py)).
-A boundary-expansion control absorbs the synthetic remainder. Therefore use
-this kernel on the next complete physical packet; do not interpret its
-class-relative margin as an irreducible physical remainder or spend another
-swing on synthetic completions.
-
-Every reconstruction assay must now carry two quantitative receipts in that
-order: record-model distance \(\eta\), then held-out target diameter
-\(\Delta\) on the certified tolerance fibre. An empty fibre is a typed
-compatibility or identity failure, not a remainder. A repair that changes the
-completion class, source class or occurrence identity must be charged as
-contract retyping, not reported as ordinary record refinement. Finality is
-also target-indexed: a finalized value does not certify the selective
-continuation that produced it.
-
-Before crediting records for that target diameter, also report the target
-diameter on the lawful completion class *without conditioning on records*.
-If it is already below tolerance, return `LAW_ONLY_CLOSURE`; the law, source,
-and boundary contract fixed the target. If records cross the tolerance only
-after conditioning, return record-assisted reconstruction relative to the
-frozen class. Separately report whether the observer/instrument/archive/access
-interface was physically selected, selected only up to a symmetry orbit,
-supplied, or fitted. Geometry closure and interface selection are independent
-receipts.
-
-The prospective physical gate is now executable. The versioned packet schema
-retains every attempted shot, calibration and joint-systematic object,
-selective event, route/provenance field, controller/decoder version, and
-verified reset receipt for every admitted retained memory. `HC-DU-036D`
-adds a conservative simultaneous finite-shot binary-response certificate:
-base reconstruction, Pareto-minimal refinement, class-relative remainder
-candidate, or `INCONCLUSIVE_FINITE_SHOT`. Aggregate probabilities, missing
-attempts, broken calibration joins, and incomplete causal breaks are refused
-before adjudication
-([schema](specs/physical-sufficiency-acquisition-packet-v0.1.schema.json);
-[probe](tests/du_physical_sufficiency_acquisition_gate_probe.py)). The
-provider-facing bridge is now also executable. `HC-DU-036E` freezes a
-19-circuit, three-qubit QND-memory, calibration, held-out, and causal-break
-suite; preserves joined pointer/environment/reset/output rows and bounded
-provider execution spans; and refuses post-freeze refits, missing shots,
-mutated rows, incomplete attempt visibility, and incomplete reset. Its exact
-Acquisition-Visibility Factorization Lemma states that full
-\(P(S,Y\mid h,a)\) factorization requires both the selection kernel and every
-supported selected/rejected response stratum to factor through the candidate
-record. A standard provider result exposes ordered returned shots, not every
-lower-level physical trigger or retained provider memory, so its ceiling is
-`RETURNED_SHOT_CONDITIONAL_ONLY`
-([result](explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md);
-[driver](lab/acquisition/README.md);
-[probe](tests/du_acquisition_visibility_bridge_probe.py)). The flagship then
-passed its source-pinned novelty and reachability gate. Process tensors,
-quantum-instrument tomography, instrument-specific memory, causal breaks, and
-postselection already occupy the component jobs; the five-part DU integration
-was not located as one result, but remains search-incomplete rather than
-novel. Public documentation for five provider interfaces shows no standard
-route promising every physical attempt and reset of every admitted memory,
-while the existing IBM bridge remains sufficient for a returned-shot pilot
-([gate](explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md);
-[probe](tests/du_interventional_sufficiency_reachability_gate_probe.py)).
-
-`PRED-DU-004` now locks the bridge's exact ordinary-quantum ideal
-distribution before hardware execution: pointer-only Bayes error \(1/4\),
-pointer-plus-environment error zero, and zero pre-break-history dependence in
-the declared post-break reset-witness/environment/output response. The
-classical pointer archive remains retained. This is a citable pre-data
-protocol prediction, not hardware evidence, a complete backend-specific
-statistical preregistration, a `PRED-DU-003` adjudication, or a new-physics
-claim
-([lock](explorations/locked-qnd-memory-hardware-prediction-2026-07-26.md)).
-
-`HC-DU-036H` has now executed the gate's formal-first route. The recursive
-quotient theorem is established controlled lumpability/bisimulation; the
-restricted predictive form is Blackwell sufficiency; and the quantum and
-distributed anchors transfer without semantic refitting. The exact
-counterexamples and minimum one-action discriminators are local and complete.
-The disposition is therefore
-`KNOWN_MATHEMATICS__INTEGRATED_ASSURANCE_ONLY`. Do not spend another swing on
-synthetic quotient variants, a new provider adapter, or theorem novelty.
-
-`HC-DU-033D` now consumes that spine for one exact operator-algebra class. A
-formed central record is complete only for a commutative admitted action
-algebra or a center-restricted action family. Noncommutative within-sector
-effects give a finite same-record/different-capability witness; a factor has
-no nontrivial action-internal nondisturbing sharp record. The physical
-selection burden remains: the action algebra, system/pointer/archive
-boundary, formation coupling, decoder, provenance, reset, and access class
-are still selected, orbit-selected, supplied, or fitted separately.
-
-`HC-DU-035D` has now executed that regional-composition move. The right
-boundary is selective future center screening, not destruction of the
-noncommutative fibre and not preservation only after routes are averaged
-together. A screened center produces an autonomous classical public process
-while the fibre can remain intact. Any later public dependence has a first
-noncentral pullback and a finite local witness. Finality is therefore relative
-to a frozen future action class: adding a new noncentral recoupling changes
-the contract, while omitting an already available recoupling manufactures a
-false finality verdict.
-
-`HC-DU-039C` has now executed that effective-physics reconstruction step. The
-screened public process exactly reconstructs public reachability and every
-functional of its complete public trace law. A hidden target that no admitted
-action responds to is not observer-accessible in that class; an admitted
-noncentral response is a first-leak/incomplete-record witness. Crucially, one
-successful phase readout reconstructs only its total phase. It does not
-attribute proper-duration versus field/path contributions when the
-sensitivity map has a target-changing null direction. A second independently
-calibrated sensitivity repairs the exact finite pair, but changes the
-interface and resource contract.
-
-`HC-DU-039D` has now executed the fifth campaign move in the optical-clock
-and proper-time arena. Mean frequency or phase is semiclassically
-reproducible, and every two-level single-time dephasing/visibility factor has
-a classical random-proper-time representation. Conditioned coherent
-recombination can nevertheless produce a channel outside the convex hull of
-one independently frozen finite history set. That certificate is
-history-relative, not a unique physical-source assignment.
-
-The resulting evidence surface has two independent axes. A nonclassical
-history-channel certificate can hold while proper-time versus matched
-coherent-control attribution retains the exact local null
-\((1,-1)\). No additional observable or complete tomography of the same
-channel repairs identical-generator attribution. The minimum repair is a
-preregistered source-selective intervention row not parallel to the total
-channel sensitivity, with history provenance, controls, nuisance channels,
-postselection, resources, held-out transfer, and no refitting frozen before
-the result. Even full operational coefficient attribution cannot choose
-between equivalent proper-time and mass-energy interpretations of the same
-Hamiltonian.
-
-The five-swing campaign is complete, and its first assumption-breaker has now
-transported the action-center result into the algebraic-QFT setting. The
-transport closes one tempting route: a full local factor algebra cannot
-contain a nontrivial exact sharp record that is both internal and
-nondisturbing for every local action. The split property may create a
-type-I interpolation under additional assumptions, but it does not select a
-probe, pointer, archive, decoder, or record axis.
-
-The materialized-gauge-boundary mechanism is now complete at exact finite
-grade. Gauss law selects the boundary-flux distinction; the structural
-criteria select a controlled-add/subtract formation orbit; detector
-orientation and readout select one operational instrument; and a frozen
-boundary-preserving future-action envelope makes the archive exact. The
-interior distribution, charge-crossing update, microscopic formation
-history, and actual-outcome rule remain outside that record.
-
-The strongest-record handoff is now complete. `HC-DU-033E/038E` defines the
-Admissible Record Envelope as the target-independent record-refinement order
-plus the sets of interfaces that can actually coexist in one frozen process
-and resource budget. It distinguishes a greatest record from several merely
-maximal records and forbids repairing reconstruction with a counterfactual
-tuple of incompatible measurements. The gauge and stabilizer controls have
-greatest records in their declared classes. The new weak-field
-Einstein--matter control shows both sides of the boundary: one-clock resource
-limits leave two incomparable insufficient maxima; a charged two-clock
-interface creates a greatest record and exact held-out transfer.
-
-`HC-DU-033F` supplies the common selector passport. Selection is relative
-to a declared antecedent level. For complete realizations \(\omega\),
-antecedent data \(a(\omega)\), and formed ARE/interface architecture
-\(\xi(\omega)\), that antecedent selects the architecture exactly when
-
-\[
-\ker a\subseteq\ker\xi.
-\]
-
-When point selection fails, the minimal honest return is the interface image
-of the antecedent fibre: one orbit, several plural possibilities, or no
-nontrivial interface. Symmetry is one witness rather than the definition.
-Adding a premise earns selection credit only when it separates every
-same-antecedent/different-interface pair. A plural family is not a joint
-record unless it is physically jointly realizable.
-
-`HC-DU-033G` has now instantiated that passport on Einstein--matter. A simple
-timelike stress-energy eigenline selects the future unit matter flow.
-Geodesic vorticity-free flow on suitable topology selects an orthogonal
-proper-time scalar only up to an origin. Homogeneous FLRW selects the
-congruence and cosmic-time class but leaves the observer worldline in a
-spatial symmetry orbit. Gödel dust selects a flow for which nonzero vorticity
-blocks orthogonal synchronization. The transport law \(u(R)=0\) preserves
-arbitrary supplied archive data and does not mint a write; causal
-reachability does not select an authenticated access route. Material clock,
-write/archive, and complete access/resource/action fields first close at
-\(A_2,A_3,A_4\). The one-clock plural/two-clock greatest-envelope switch
-remains resource-attributed.
-
-`HC-DU-033H` has now instantiated the same passport independently in
-localized AQFT. A supplied target--probe coupling selects an induction map,
-causal localization, and causal factorization, but not one probe
-preparation, POVM, pointer, or archive. A particular induced instrument and
-formed apparatus record first close at \(A_3\). Observer access, decoder,
-resources, future actions, horizon, and complete ARE first close at \(A_4\).
-No rung selects an actual outcome. Movable-cut equivalence preserves target
-measurement statistics in the proved class, not complete pointer,
-provenance, attempt, resource, and access semantics for free. Recent
-free-scalar/Weyl results also show that causal operations strictly exceed
-Fewster--Verch-realizable operations; realizability is a nontrivial plural
-filter rather than a point selector.
-
-`HC-DU-035E` executed `CCR-N5-S4`. The common law lives at the
-public-operational-shadow level, not at the native-interface level. Use the
-unchanged first-obstruction order:
+Keep this type ladder intact:
 
 ```text
-no formed local interface
-    -> empty joint realization
-    -> occurrence/provenance mismatch
-    -> selective-restriction mismatch
-    -> joint interface/resource failure
-    -> public-action leak
-    -> refinement nonnaturality
-    -> public-shadow descent.
+distinction or event
+  != history-conditioned trace
+  != retained record
+  != independently accessible record
+  != rival-excluding certificate
+  != public final record
+  != action-enabling fact
 ```
 
-After public descent, keep `NATIVE_LIFT_EARNED` distinct from
-`NATIVE_LIFT_UNDERDETERMINED`. The no-broadcasting collision means a
-copyable classical public shadow cannot also be a nondisturbing, physically
-faithful reconstruction of arbitrary noncommuting quantum capability.
+Compatibility is not equivalence. Equivalence is not ontology. Representation
+is not derivation. Record sufficiency is target- and capability-relative.
+Law/source narrowing is not record refinement. A certificate can alter safe
+capability through ordinary physical feedback without creating new physics.
 
-`HC-DU-041` has now executed `CCR-N5-S5`. Its unchanged decision rule is:
+## Honest evidence boundary
 
-1. test interface selection, target reconstruction, and action sufficiency
-   separately;
-2. at fixed action envelope, classify a same-record target difference as
-   screened operational duality or as a failure of finality—never both;
-3. when capability expands, refine the operational quotient and re-adjudicate
-   finality;
-4. credit injective repairs as tomography, not nontrivial record-first
-   compression; and
-5. reserve the global ontology verdict while no natural specimen combines
-   endogenous interface selection, formed noninjective compression, and
-   held-out physical transfer.
+The North Star remains open. Dynamic Unity has not established a record-first
+ontology, new physical law, selected observer, proper time, emergent geometry,
+public-classicality law, or cosmology.
 
-The prepared
-[next five-swing campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)
-sequences that dependency without activating five runs:
+It has earned a substantial exact control stack: history
+factorization-or-witness results; completion-relative reconstruction,
+refinement, and remainder tests; separation of formation, retention, access,
+certification, finality, and capability; regional composition controls;
+law-filtered and causally closed physical counterexamples; and repeated
+absorption of apparent remainders by omitted environment, provenance, route,
+controller, decoder, intervention, or resource structure.
 
-1. freeze a target-independent physical ARE selector contract;
-2. test it on Einstein--matter-generated clocks, observers, archives, and
-   access;
-3. test it independently on localized AQFT
-   source--probe--pointer--archive measurement;
-4. attempt formed sharp descent or an exact cross-arena non-equivalence; and
-5. adjudicate reconstruction, plural duality, interface dependence,
-   remainder, or incomplete contract.
+For the accumulated result-by-result map, use the historical
+[`EARNED-RESULTS-INDEX.md`](EARNED-RESULTS-INDEX.md). Before reusing a surprising
+implication, check the
+[`COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md`](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md).
+Neither file routes current work.
 
-All five swings are complete as `HC-DU-033F/G/H`, `HC-DU-035E`, and
-`HC-DU-041`. The campaign's decision-changing output is the endogenous
-compressive record gap, now tracked as `H-CCR-17`. The next central swing
-must find or obstruct that combination in one physically natural arena; it
-must not repeat supplied detectors, codes, fitted sensor arrays, or injective
-source logs. The AQFT arena must still preserve probe, pointer, archive,
-provenance, decoder, and access as separately credited fields rather than
-treating an induced observable as a formed record.
+## Current work and stable topology
 
-The
-[endogenous-compressive-record campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
-turns that opening into five branch-safe swings. `ECR-N5-S1` is complete as
-`HC-DU-042` and returns `NO_READY_ARENA` plus one exact common missing
-premise: a write-complete physical antecedent whose dynamics selects the
-blank-to-token write and provenance, not merely a stable algebra, phase,
-protected sector, or redundant pattern. Matter-flow-coupled metastability is
-the first host and environment-selected records the mandatory absorber.
-`ECR-N5-S2` is complete as `HC-DU-043`. It selects the metastable
-write/retention architecture up to \(\mathbb Z/2\) but returns an exact
-endpoint occurrence-tokenization obstruction. `ECR-N5-S3` is complete as
-`HC-DU-044`: a fresh-output completion can conditionally form the history,
-but its epoch archive and implementation support are not selected by the
-matter host. `ECR-N5-S4` is complete as `HC-DU-045`: terminal matter is the
-unique finest completion-common `A`-only quotient and reconstructs only the
-next reduced-matter law among the frozen targets. Historical occurrence
-already fails across completions; count first fails inside the visible
-binary epoch record. Full-environment access restores history through an
-injective, resource-expanded contract. `ECR-N5-S5` is complete as
-`HC-DU-046`: the first completed cycle is the exact first historical failure,
-the witness is robust, and archive relocation proves that this host does not
-select its accessible historical interface. The host closes as
-`SELECTION_OR_FORMATION_OBSTRUCTION`. `N5-SCF-P1/2/3/4/5` are complete as
-`HC-DU-047/048/049/050/051`: downstream protocols cannot recover a target absent from the
-complete joint input; complementary source-formed shares can be jointly
-sufficient while every participant is individually insufficient; lossless
-gossip can pool those shares; and a signed hash-DAG preserves declared
-ancestry without identifying physical source binding. Quorum hardening can
-exclude conflicting certificates without strengthening physical source
-truth, certificate sufficiency is capability-indexed, and selective regional
-views close only their frozen action targets. Safe handoff requires receiver
-context, epoch binding, available promised evidence, and a frozen capability
-surface. The physical collision proves that independent archive errors can
-lower bounded risk but cannot mint source information, and that
-authenticated representation does not establish physical source/action
-binding. `N5-RS-P2` is complete. Its portfolio receipt pivots immediate work
-to the `3+1` law-filtered record-assisted inverse problem while keeping
-`H-CCR-17` open behind a physical-antecedent reopener. `N5-RS-P3` is complete
-as `HC-DU-052`; its first lawful remainder is causally exterior incoming
-radiation. `N5-RS-P4` is complete as `HC-DU-053`: a causally closed
-polarization-intensity record transfers noninjectively for one action class
-and fails for an oriented enlargement at the first hidden-to-visible
-recoupling. `N5-RS-P5` is complete as `HC-DU-054`: the shared transfer law is
-fully absorbed, while antecedent selection of the complete accessible formed
-interface fails in both compared arenas. The `N5-RS` sequence is closed.
-The required `NORTH_STAR_PORTFOLIO_RESET`, conservative-certification formal
-spine, feedback-boundary response-equivalence selector test, and
-regional-excess hostile audit are now complete as `N5-PF-P1/2/3/4`.
-`HC-DU-056` proves that response-class selection
-is weaker than microscopic identity and capability-indexed; the current gauge
-and host antecedents select restricted classes but not the complete class.
-`HC-DU-057` returns exact counterexamples to consensus-derived finality rate,
-broad mergeability/complementarity, and universal-finality-exponent claims;
-its covariant-new-dynamics fourth branch remains conditional. Only
-`N5-PF-P5` is executable: run the preferred-leaf/partial-order cross-arena
-adjudication without assuming another record host, CFS, consensus, hardware,
-or paper swing wins.
+- [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml) is the sole mutable
+  authority for active, prepared, parked, blocked, next-action, stop, reopen,
+  WIP, and typed dependency state.
+- [`LANES.yaml`](LANES.yaml) defines stable scientific responsibilities and
+  work methods. It does not choose today’s task.
+- [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md)
+  defines durable scientific contracts.
+- [`explorations/`](explorations/) and [`lab/process/runs/`](lab/process/runs/)
+  hold dated evidence and receipts. A dated “active” label is historical.
 
-Do not fit another microscopic Hamiltonian, detector, or probe chain to the
-same final write. Treat causal admissibility, FV realizability, instrument
-selection, formed-record identity, and actual outcomes as distinct.
-
-Infrared/asymptotic QED is parked until a finite-time,
-finite-resolution access/horizon contract exists. The optical-clock
-nuisance-aware source-selective intervention remains a bounded side branch.
-
-For planning, assume **no external hardware is available**. That changes only
-after the local theorem/absorption, exact-counterexample, existing-data, and
-minimum-discriminator gates show that hardware is the irreducible next
-dependency. At that boundary, write and send Joe one awareness note explaining
-what external path exists and what it would decide. Without separate
-authorization, take a local fallback or park the branch; do not keep circling
-providers, adapters, or the same hardware proposal.
-
-Local model building has a separate admission gate. Before a simulation, toy
-model, finite solver, executable fixture, trained surrogate, emulator, or
-adapter becomes a research path, use the
-[Local Model Learning Gate](lab/process/local-model-learning-gate.md):
-
-1. state what bounded research and formal analysis already provide;
-2. name the decision-changing result the smallest build can generate on this
-   computer before hardware;
-3. show that the result is generated rather than encoded in the fixture; and
-4. freeze the local checkpoint and stop condition.
-
-If research supplies the same insight at equal grade, do research instead. If
-the first meaningful learning requires hardware, do not build. Hardware may
-add evidence after a model has already taught us something locally. If the
-predeclared local insight does not appear at the minimal checkpoint, stop the
-build rather than carrying its momentum toward an external dependency
-([probe](tests/du_local_model_learning_gate_probe.py)).
-
-In parallel, `DU-PAPER-013` is now the closest new-paper route. Its
-proof-or-kill produced a bounded-precursor uniform theorem for regularly
-varying CSG coupling ratios and showed that the familiar half-power is one
-tail class rather than a universal post law
-([receipt](explorations/csg-post-tail-universality-proof-kill-2026-07-25.md);
-[probe](tests/du_csg_post_tail_uniformity_probe.py)). A second internal proof
-now derives the result from the direct identity
-\(T_{n+1}/T_n=\mathbb E[r_{n+K}]\), and a broader collision confirms that the
-regular-variation and discrete-saddle method is occupied
-([audit](explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md);
-[probe](tests/du_csg_post_tail_second_method_probe.py)). The exact CSG
-bounded-precursor classification remains provisionally unabsorbed. Its next
-gate is independent expert proof review plus a systematic paper-grade
-bibliography. Do not call the result novel or manuscript-ready before those
-gates close.
-
-`DU-PAPER-007` remains the higher-ceiling flagship. `DU-PAPER-013` is the
-nearer paper. A physical process may enter the flagship as an explicitly
-calibrated premise; the research question is whether its certified causal
-record is interventionally sufficient, not whether scalar conservation
-resources secretly choose its interface.
-
-Regional finality, capability pricing, and time/geometry reconstruction remain
-important, but physical claims should consume an implementation-complete
-instrument and preserve its full provenance and resource passport.
-
-Lane 6 now has a sharper independent bottleneck. More arbitrary volume cells
-or fitted conformal modes are no longer useful. Freeze a physical restriction
-on the record-nullspace—a field equation/source class, energy or regularity
-condition, complete active source-to-solution or calibrated clock-and-light
-instrument, finite task-resolution quotient, or mode-selecting
-dynamics—before revealing the held-out remote clock. Exact continuum
-reconstruction must be resolution- and completion-indexed; a finite regular
-measurement surface can legitimately reconstruct an observer-accessible
-quotient rather than an unrestricted microgeometry.
-
-The Finster/Barandes source collision further types that bottleneck.
-Finster's causal action is a legitimate candidate physical-law filter on the
-completion class; Barandes's stochastic-to-unitary theorem is a
-representation-without-selection absorber. Neither supplies DU's record map,
-observer boundary, or finality rule. Fischer--Finster's
-\(R_{\mu\nu}^{\mathrm{TF}}=0\) continuum condition is identically vacuous in
-the current \(1+1\) conformal arena. A future CFS-facing attempt therefore
-requires a frozen \(3+1\) arena and must separate ordinary Einstein closure
-from a regulator-robust CFS-specific residue. This is an arena rule, not a
-priority change. See
-`explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md`.
-
-`HC-DU-040A` is a separate conditional physical-recovery branch. Its exact
-finite proxy proves that a unit-index boundary map tensored with an
-independently located triplet has index three, while also proving that
-accessible-three need not be global-index-three and that unbroken triplet or
-single-cyclic symmetry cannot generate predictive flavor. The probe passes
-`21/21`; the physical GU source operator, domain, chirality certificate and
-held-out flavor relation remain open. This does not displace the Lane-6
-record-nullspace bottleneck, and `gu-formalization` retains authority over any
-GU generation verdict. Start with
-`explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md`.
-
-Its inverse stage now freezes three protected accessible chiral families plus
-consistent completion and nonzero flavor CP, then works backward. Exact
-controls show that ordinary Standard Model anomalies are family-count blind,
-CKM-like CP requires at least three but not exactly three, and accessible
-chirality does not determine global index or hidden mirrors. Exact three must
-therefore come from a source-derived count-sensitive structure and survive a
-held-out flavor or partner test. See
-`explorations/inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md`;
-the probe passes `27/27` without identifying the physical GU operator.
-
-The conditional source-action toy program is now split by repository
-ownership. GU owns a graded ladder from finite coefficient enumeration through
-dynamic domain wall, overlap/Ginsparg--Wilson regulator, and program-native
-operator lift. DU owns the companion acceptance assay that keeps global index,
-regional access rank, certified record, and matched-resource capability
-distinct under local and enlarged intervention classes. See
-`explorations/conditional-gu-source-action-toy-du-acceptance-contract-2026-07-26.md`.
-This is construction preparation, not evidence that the GU operator exists.
-
-## Dependency lanes
-
-Lanes express **scientific responsibility and dependency**, not methods and
-not a bureaucratic stage gate. The active machine-readable definitions are
-the root `lanes` entries near the top of `LANES.yaml`.
-
-| Lane | Scientific responsibility | Immediate orientation |
-|---|---|---|
-| **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
-| **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051/054/056`. Dynamic sufficiency and complete-interface selection are independent fibre tests. Response-class selection is weaker than microscopic identity but refines under capability growth. No current arena derives the orientation/path or route/reset-lineage fields needed for its complete class. Keep `H-CCR-17` open but dormant and stop unconditioned hosts. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | `HC-DU-055` closes conservative certification; `HC-DU-056` closes the selector test at scoped absorbed grade. A reset must fix every future-readable memory class, and every capability enlargement requires a new response-equivalence verdict. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `HC-DU-057` closes the current rate, mergeability, and universal-exponent shortcuts with exact counterexamples; regional architecture remains useful but does not select its physical adapter. `N5-PF-P5` is the sole executable position. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` attributes the first lawful `3+1` remainder to incoming characteristic data outside the record region. `HC-DU-053` closes the finite packet boundary. `HC-DU-054` shows that its target-relative transfer is known mathematics and that the packet antecedent still does not select archive access. The sequence is complete; preserve it rather than extending the specimen. The exactly compensated foliation is inert for the new primary. |
-| **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
-| **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
-
-## Work channels
-
-Channels are **ways of working**. Any scientific lane may use several
-channels; they are not lanes and do not create a second priority system.
-
-| Channel | Use it for |
-|---|---|
-| `CH-SYN` — Synthesis and compatibility atlas | Relating theories, layers, assumptions, tensions, and candidate deltas at explicit grade. |
-| `CH-FORMAL` — Formal proof and reconstruction | Definitions, theorems, converses, bounds, category/geometry, and proof obligations. |
-| `CH-MODEL` — Executable models and counterexamples | Minimal fixtures, exact compilers, simulations, hostile controls, and reproducible artifacts. |
-| `CH-COLLIDE` — Literature and novelty collision | Checking known results, strongest absorbers, assumptions, and genuine novelty. |
-| `CH-EMPIRICAL` — Experimental discriminators | Complete instruments, metrology, calibration, uncertainty, systematics, and finite tests. |
-| `CH-PAPER` — Paper production | Contribution framing, proof packaging, portfolio/Factory handoff, and responses to hardening requests. |
-| `CH-FRONTIER` — Speculative frontier | Bold ontology or dynamics with a typed passport, strongest foil, finite falsifier, and explicit grade. |
+Publication extraction is a separate WIP class. A prepared paper does not
+become a second scientific flagship and never promotes the underlying grade.
 
 ## First ten minutes
 
-1. Read [`AGENTS.md`](AGENTS.md) for governance and scientific stops.
-2. Read this file completely.
-3. Read only the top-level `program_charter`, `work_channels`, and active
-   `lanes` in [`LANES.yaml`](LANES.yaml). Historical receipts and
-   `legacy_lanes_*` are not current routing authority.
-4. For central work, read
-   [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md).
-5. For quantum/foundations prioritization, also read
-   [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
-6. For the completed central campaign and its next-dependency receipt, read the
-   [physical-selection-to-formed-descent campaign scaffold](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md).
-   `CCR-N5-S1` through `CCR-N5-S5` are complete. Do not rerun them; consume
-   `HC-DU-041` and `H-CCR-17`.
-7. For current central execution, read the
-   [endogenous-compressive-record tournament](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md)
-   and its
-   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
-   `ECR-N5-S1` through `ECR-N5-S5` are complete as
-   `HC-DU-042/043/044/045/046`; the first host is closed as
-   `SELECTION_OR_FORMATION_OBSTRUCTION`. Use the
-   [N5-RS preparation](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-   for its approach and downstream branch logic, then read the interposed
-   [N5-SCF preparation](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-   `N5-SCF-P1/2/3/4/5` are complete as
-   `HC-DU-047/048/049/050/051`. `N5-RS-P2` is now complete as the
-   [minimum-premise and whole-DU portfolio pivot](explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md).
-   It finds no current arena with a complete independently selected
-   write-and-access antecedent, keeps `H-CCR-17` open behind an explicit
-   reopener, selects the `3+1` law-filtered record-assisted inverse problem as
-   primary, and retains conservative certification/physical feedback as
-   reserve. `N5-RS-P3` is complete as
-   [HC-DU-052](explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md).
-   It finds a lawful nongauge radiative remainder but localizes it to omitted
-   incoming characteristic data. `N5-RS-P4` is complete as
-   [HC-DU-053](explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md).
-   It proves scoped strict noninjective transfer and an exact
-   capability-relative interior first leak while leaving the record
-   instrument supplied. `N5-RS-P5` is complete as
-   [HC-DU-054](explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md).
-   The common dynamic-sufficiency theorem is fully absorbed; the exact shared
-   gap is antecedent selection of the complete accessible formed interface.
-   The five-position sequence is closed and `H-CCR-17` is dormant behind a
-   physical reopener. The
-   [preferred-foliation Position-1 reset](explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md)
-   and
-   [Position-2 conservative-certification result](explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md)
-   and
-   [Position-3 feedback-boundary selector result](explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md)
-   and
-   [Position-4 regional-excess audit](explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md)
-   are complete. `HC-DU-055` finds no semantic certificate force after
-   complete physical matching; it localizes failures to lossy boundary
-   quotients, omitted state, occurrence mismatch, or changed dynamics and
-   preserves ordinary physical feedback as the capability path. The
-   mathematical core is absorbed. `HC-DU-056` then proves that an antecedent
-   selects a complete future response class iff the response signature is
-   constant on its fibres. Raw identity is unnecessary; action growth can
-   split the class; and the current specimens do not derive the needed
-   orientation/path or route/reset-lineage premises. `HC-DU-057` then closes
-   the consensus-derived rate, broad mergeability/complementarity, and
-   universal-finality-exponent candidates while correcting the rate
-   classification to preserve a conditional covariant-new-dynamics branch.
-   The foliation remains `INERT`. The
-   [conditional scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md)
-   makes `N5-PF-P5` the only executable position. It performs the
-   preferred-leaf/causal-partial-order cross-arena adjudication.
-   The
-   [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
-   and
-   [stratified causal coordination preparation](explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md)
-   are consumed inputs to that portfolio receipt. They create no parallel
-   active campaign.
-8. When choosing or executing another plausible near-term research swing, read the
-   [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
-   It covers all 27 paper families and the named non-paper dependencies
-   without changing their priority, custody, grade, or activation state.
-9. Follow only the hypotheses, concepts, tests, papers, or historical
-   receipts relevant to the chosen lane. Do not load the whole archive by
-   default.
+1. Read [`AGENTS.md`](AGENTS.md) for governance and research discipline.
+2. Read this page for the stable charter and boundaries.
+3. Parse [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml); identify the one
+   executable action, its maximum grade, completed evidence, remaining
+   obligations, cheapest kill, stop rule, and reopener.
+4. Read only the referenced evidence needed for that action.
+5. Use [`LANES.yaml`](LANES.yaml) to name the owning lane and work channel.
+6. Before central quantum/foundations prioritization, consult the
+   non-authoritative
+   [`quantum-foundations orientation surface`](docs/quantum-foundations-orientation-surface.md).
+7. Before a local model, apply
+   [`LMLG-01`](lab/process/local-model-learning-gate.md).
 
-At that point an agent should be able to answer, in one sentence each:
-
-- Why does Dynamic Unity exist?
-- What result would adjudicate its North Star?
-- What has actually been earned?
-- What is the current bottleneck?
-- Which lane owns the scientific question?
-- Which channel is the best method for the next action?
-
-If any answer is unclear, stop selecting work and repair the orientation
-surface rather than guessing.
+If any document disagrees with `CURRENT-RESEARCH.yaml` about current routing,
+the YAML wins and the duplicate assertion is a defect to remove.
 
 ## Selecting and scoping work
 
-Use the
-[near-term research-swing approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md)
-after selecting a candidate and before designing its execution. It gives the
-counterfactual, typed structure, smallest hostile specimen, proof strategy,
-reusable output, scale trigger, and stop/reopen condition. It is an approach
-registry, not an execution queue; `LANES.yaml`, source ownership, and current
-Factory state remain authoritative for whether a swing may run.
+Every swing states:
 
-Before a swing, write down:
+- exact question and typed object;
+- lane and channel;
+- current and maximum evidence grade;
+- strongest absorber and smallest discriminator;
+- completed evidence it consumes;
+- remaining uncertainty it changes;
+- cheapest kill, stop condition, and durable output;
+- whether the work is local formal analysis, a learning-gated model, an
+  external dependency, or publication extraction.
 
-1. the exact North-Star seam or forward-picture relation being advanced;
-2. lane owner and work channel(s);
-3. current grade and maximum grade this swing can earn;
-4. complete object types, observer/access boundary, interventions, rivals,
-   resources, and representation equivalence;
-5. strongest ordinary-physics, hidden-register, boundary-expansion, and
-   target-refit absorbers that apply;
-6. smallest positive case, cheapest kill, held-out discriminator, and
-   stop/reopen condition; and
-7. durable output: theorem, counterexample, executable artifact, tension map,
-   experimental protocol, or paper package.
+One active scientific flagship is the default. A bounded side probe may run
+only when it can change the flagship decision cheaply. A successor is selected
+after the current flagship returns, not by preserving narrative momentum.
+Parked work has no executable action and must carry an exact reopener.
 
-A work item may use deduction, conditional construction, abduction,
-synthesis, or structural analogy. These warrants answer different questions;
-none is automatically superior. The artifact must label which one it uses.
+## Artifact homes
 
-### Fast routing examples
-
-| Proposed work | Lane | Typical channel |
-|---|---|---|
-| Map QFT, records, observers, and spacetime without claiming derivation | 2 | `CH-SYN`, `CH-COLLIDE` |
-| Characterize or physically calibrate a complete record instrument and its necessary premises | 3 | `CH-FORMAL`, `CH-MODEL`, `CH-EMPIRICAL`, `CH-COLLIDE` |
-| Test whether a certificate changes an observer's action set at matched cost | 4 | `CH-FORMAL`, `CH-MODEL` |
-| Prove when regional record networks safely compose | 5 | `CH-FORMAL`, `CH-MODEL` |
-| Reconstruct proper time or geometry with refinement invariance | 6 | `CH-FORMAL`, `CH-MODEL` |
-| Extract a finite physical residual or submission-ready theorem | 7 | `CH-EMPIRICAL`, `CH-COLLIDE`, `CH-PAPER` |
-| Explore a bold new substrate or dynamics | owning scientific lane | `CH-FRONTIER` plus a falsification channel |
-
-## Where durable work goes
-
-| Artifact | Canonical home |
+| Artifact | Home |
 |---|---|
-| Program identity and human orientation | [`README.md`](README.md), [`START-HERE.md`](START-HERE.md) |
-| Machine-readable priority and routing | active root keys in [`LANES.yaml`](LANES.yaml) |
-| Governing scientific detail | [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md) |
-| Quantum-foundations tensions and possible DU deltas | [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md) |
-| Stable concept and prediction state | [`explorations/concept-register.md`](explorations/concept-register.md), [`explorations/prediction-register.md`](explorations/prediction-register.md); theorem and claim grades remain in the governing agenda and their dated receipts |
-| Dated scientific receipts | `explorations/` |
-| Predeclared run and completion receipt | `lab/process/runs/<RUN-ID>/run-plan.md` |
-| Reproducible checks and outputs | `tests/`, `tests/artifacts/` |
-| Complete paper opportunity inventory | [`papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md`](papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md) |
+| Live portfolio and routing | `CURRENT-RESEARCH.yaml` |
+| Stable lane/channel topology | `LANES.yaml` |
+| Dated scientific result | `explorations/` |
+| Governed run plan/receipt | `lab/process/runs/` |
+| Deterministic probe | `tests/` and `tests/artifacts/` |
+| Durable program contract | `docs/` |
+| Paper source and portfolio | `papers/` |
+| Cross-repository ownership | `CONNECTIONS.md` |
 
-Do not edit dated receipts to make them sound as if the current charter or
-lane map existed earlier. Route them additively.
+Do not edit dated receipts to make them look current. Supersede them through
+new evidence and update only the live authority. The former accumulated
+manifest is preserved at [`LANES-HISTORY.yaml`](LANES-HISTORY.yaml).
 
-## Vocabulary and failure traps
+## Research stops that matter
 
-- A **record** is a physically formed, history-conditioned state or channel
-  with declared persistence and provenance—not arbitrary information chosen
-  after seeing the target.
-- A **certificate** excludes a declared rival class with stated access and
-  error semantics. It need not disclose a unique run-level history.
-- **Finality** is typed by incompatibility, adversary, rollback, access, and
-  error. Redundancy or confidence alone is not finality.
-- An **observer** is a physical intervention/access role, not automatically a
-  conscious person and not a privileged reality owner.
-- **Regional** means a certified network or cover that may become a node at
-  another scale. It is not merely spatial proximity or a blockchain analogy.
-- **Dimension** must be typed: Hilbert, state-space, latent, network,
-  representation, or spacetime dimension are not interchangeable.
-- **Informational distance** is useful only after its channel, task,
-  resources, and relation to physical distance are declared.
-- **Absorption** is informative: it identifies which familiar structure
-  already explains a component. It stops an overclaim, not inquiry into a
-  larger conjunction.
-- **Compatibility with known science** is worth building at representation
-  grade. It becomes a foundational theory only through reconstruction,
-  necessity, compression, or a surviving discriminator.
+- No primitive circularity or target-coded record equivalence.
+- No interface refit after observing the result.
+- No endpoint-only substitute for multi-time/interventional history.
+- No observer, archive, pointer, certificate, or finality rule smuggled in by
+  vocabulary.
+- No distributed-systems theorem transferred without its exact assumptions.
+- No cross-repository custody treated as physical evidence.
+- No ontology promotion from a finite fixture or operational duality.
+- No new local model unless it produces decision-changing learning before any
+  hardware boundary.
+- No repeated hardware/provider work once the irreducible external dependency
+  has been recorded.
 
-When in doubt, preserve the idea, lower the grade, strengthen the comparison,
-and make the next decision finite.
-
-## CapacityOS operating-locator compatibility
-
-The root Lane manifest also exposes the shared CapacityOS 1.0 operating
-locator. It points back to this repository's existing orientation, work
-Channels, and state; it does not replace Dynamic Unity's seven scientific
-Lanes, contract 1.1 extensions, evidence grades, or portfolio controls.
-
-Dynamic Unity remains manual and outside the registered fleet. The locator
-creates no automation, cadence, routing, or System authority.
+Clean absorption, exact non-unification, and a killed conjecture are successful
+research returns.

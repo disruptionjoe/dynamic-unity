@@ -28,6 +28,7 @@ METHOD_REGISTRY = (
 )
 START_HERE = ROOT / "START-HERE.md"
 LANES = ROOT / "LANES.yaml"
+CURRENT_RESEARCH = ROOT / "CURRENT-RESEARCH.yaml"
 OUTPUT = (
     ROOT
     / "tests"
@@ -77,6 +78,7 @@ def run() -> dict[str, object]:
     portfolio = json.loads(PORTFOLIO.read_text(encoding="utf-8"))
     start_text = START_HERE.read_text(encoding="utf-8")
     lanes_text = LANES.read_text(encoding="utf-8")
+    current_text = CURRENT_RESEARCH.read_text(encoding="utf-8")
     matches = list(MARKER.finditer(atlas_text))
     checks: list[dict[str, object]] = []
 
@@ -237,9 +239,13 @@ def run() -> dict[str, object]:
         "paper preparation honors the canonical-Markdown preference",
     )
     check(
-        "cold_start_routing",
-        ATLAS.name in start_text and ATLAS.name in lanes_text,
-        "both human and machine orientation surfaces route to the atlas",
+        "non_authoritative_method_atlas",
+        ATLAS.name not in start_text
+        and ATLAS.name not in lanes_text
+        and "CURRENT-RESEARCH.yaml" in start_text
+        and "CURRENT-RESEARCH.yaml" in lanes_text
+        and "near-term-research-swing-approach-atlas" not in current_text,
+        "dated approach atlas remains available without routing current work",
     )
     check(
         "ownership_boundaries",

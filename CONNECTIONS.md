@@ -3,15 +3,17 @@ title: "Dynamic Unity — Connections (open, sovereign, self-checking)"
 status: active_research
 doc_type: connections
 created: 2026-07-21
-revised: 2026-07-25
+revised: 2026-07-27
 ---
 
 # Connections — open, sovereign, self-checking
 
 The ratified program identity, evidence grades, dependency lanes, and work
-channels are summarized in [`START-HERE.md`](START-HERE.md). Cross-repo
-connections can supply candidate structure and controls, but they never
-change that routing or promote a scientific grade on their own.
+channels are summarized in [`START-HERE.md`](START-HERE.md). Current priority,
+WIP, execution, stops, reopeners, and typed dependencies are owned only by
+[`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml). Cross-repo connections can
+supply candidate structure and controls, but they never change routing or
+promote a scientific grade on their own.
 
 This repo **connects to everything and is bounded by nothing** except its own
 self-verification duty. It draws on and contributes to the sibling repos as *sources and
@@ -19,7 +21,7 @@ sinks of learnings*, not as walls.
 
 | Sibling | What this repo may draw / contribute | The self-check duty |
 |---|---|---|
-| **GU / Observerse** | supplies Weinstein's originating `(9,5)` conjecture, typed geometric data, source gaps, and a demanding recovery/ablation benchmark; may receive reconstruction or remainder findings | GU is a conditional input, rival, and recovery target—not the assumed substrate; the corrected operator bridge is `SOURCE-GAP`, so superseded externality and exactly-one-bit chains remain unavailable |
+| **GU / Observerse** | supplies Weinstein's originating `(9,5)` conjecture, typed geometric data, source gaps, and a demanding recovery/ablation benchmark; may receive reconstruction or remainder findings | GU is a conditional input, rival, and recovery target—not the assumed substrate; current evidence does not establish physical externality, `sigma=w1`, or exactly one external bit |
 | **time-as-finality (TaF)** | supplies typed distinctions among local accumulation, synchronization, access, finality, and observer-relative capability; may receive physical certification results | “records are time,” a GU↔TaF identity, and any finality law remain hypotheses; dimensional proper time requires an explicit physical and metrological map |
 | **temporal-issuance (TI)** | supplies issuance, disclosure, generativity, and “does anything genuinely cross?” rival readings for fresh records | issuance is neither assumed record formation nor imported proof of becoming; finite-type and productive-escape classes remain explicit |
 | **P2C (possibility-to-capability)** | supplies transition diagnosis and action/capability distinctions; may consume a cost-aware finality-to-capability result | precision, access, readout, resource reduction, and enlarged action space remain distinct; a certificate changes capability only under an independently defined risk/action contract |
@@ -45,3 +47,25 @@ must clear the *same hostile-verification bar* as any other claim, and until it 
 at honest grade — a hypothesis, not load-bearing. Verification is a standard the repo enforces
 **on itself**, not clearance it must request. (There are always other ways to verify than
 handing the question to the repo that owns it.)
+
+## Typed GU–DU boundary
+
+Repository ownership and scientific dependency are different relations.
+
+- **External custody:** GU Formalization owns the static operator/domain,
+  orientation, characteristic-class, and substrate-bridge adjudication.
+- **Current scientific status:** that custody does not establish a physical
+  externality theorem, an identification `sigma=w1`, or an exactly-one-bit
+  law. The literal Dynamic Unity bridge from immutable/inflationary records to
+  monotone derived dynamics has the parity-of-flips counterexample recorded in
+  `explorations/record-immutability-forces-external-involution-2026-07-21.md`.
+- **Permitted DU result:** after an earned upstream physical theorem, Dynamic
+  Unity may state and test a conditional dynamic corollary for its typed
+  actualization or becoming object.
+- **Forbidden shortcut:** do not use the sibling repository, file placement,
+  a suggestive `Z/2`, or ownership assignment as evidence for the corollary.
+- **Reopener:** the exact current reopener and stop rule live only in
+  `CURRENT-RESEARCH.yaml`.
+
+This is an `external_dependency`, not a standing blocker on unrelated Dynamic
+Unity research.

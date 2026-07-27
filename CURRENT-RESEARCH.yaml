@@ -1,0 +1,390 @@
+current_research_contract_version: '1.0'
+state_revision: 1
+as_of: '2026-07-27'
+authority: >-
+  Joe direct chat after an Agent Context Engineer review and a five-person
+  Science Council review of the repository-refinement plan.
+scope: >-
+  Sole mutable authority for Dynamic Unity research priority, work in
+  progress, execution status, next actions, stop/reopen rules, and typed
+  cross-repository dependencies.
+non_authorities:
+  - START-HERE.md
+  - AGENTS.md
+  - README.md
+  - LANES.yaml
+  - EARNED-RESULTS-INDEX.md
+  - LANES-HISTORY.yaml
+  - docs/certified-causal-reality-research-program.md
+  - explorations/
+  - lab/process/runs/
+rules:
+  scientific_flagship_wip_limit: 1
+  bounded_side_probe_wip_limit: 1
+  publication_wip_limit: 1
+  sole_executable_action_required: true
+  publication_consumes_banked_science_only: true
+  paper_readiness_never_promotes_scientific_grade: true
+  historical_snapshots_never_route_current_work: true
+  parked_work_requires_reopen_rule: true
+  successor_is_selected_after_current_flagship: true
+  anomaly_intake_is_not_a_standing_lane: true
+status_enums:
+  portfolio_status:
+    - active
+    - ready
+    - parked
+    - blocked
+    - complete
+    - external_custody
+  execution_status:
+    - executable
+    - prepared
+    - none
+  dependency_type:
+    - requires
+    - tests
+    - extracts_from
+    - external_dependency
+    - does_not_block
+
+current_decision:
+  active_scientific_program_id: CCR-BRANCH-INVARIANT-ADJUDICATION
+  executable_action_id: N5-PF-P5
+  publication_program_id: DU-PAPER-013-HARDENING
+  selected_successor_id: null
+  decision_note: >-
+    Complete Position 5 before selecting another scientific moonshot.
+    Publication hardening is a separately typed prepared output and does not
+    constitute a second active scientific program.
+
+programs:
+  - id: CCR-BRANCH-INVARIANT-ADJUDICATION
+    kind: flagship
+    owner_repo: dynamic-unity
+    portfolio_status: active
+    execution_status: executable
+    wip_slot: scientific_flagship
+    active_work_id: N5-PF-P5
+    lane_ids:
+      - '1'
+      - '2'
+      - '3'
+      - '4'
+      - '5'
+      - '6'
+      - '7'
+      - A
+    channel_ids:
+      - CH-SYN
+      - CH-FORMAL
+      - CH-COLLIDE
+    target: >-
+      Apply one unchanged completion/source, process/order, interface,
+      access, finality, action, resource, and held-out-target ledger across a
+      serious preferred-leaf representation, a causal-partial-order control,
+      and one physical record arena. Return the branch-invariant Certified
+      Causal Reality kernel or the first exact non-unification.
+    current_grade: >-
+      OPEN NORTH-STAR ADJUDICATION supported by exact scoped controls through
+      HC-DU-057. The component mathematics is largely known or absorbed; no
+      record-first ontology, new physical law, or grade-5 remainder is earned.
+    maximum_grade: >-
+      SCOPED BRANCH-INVARIANT THEOREM, EXACT NON-UNIFICATION, OR CLEAN
+      NO-EXCESS RESULT. Stronger ontology or new-physics language requires an
+      independently selected finite discriminator beyond the admitted
+      standard-physics completion class.
+    premise_status: >-
+      The exactly compensated continuous preferred foliation is held only as
+      an ungraded conditional premise for this sequence. It supplies hidden
+      simultaneity and global time orientation but no record, observer,
+      archive, access, certificate, finality rule, discreteness, or observable
+      leakage.
+    completed_dependencies:
+      - id: HC-DU-055
+        evidence_ref: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
+      - id: HC-DU-056
+        evidence_ref: explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
+      - id: HC-DU-057
+        evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+      - id: HC-DU-054
+        evidence_ref: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
+    remaining_obligations:
+      - Freeze one unchanged typed ledger before comparing the arenas.
+      - Separate law-only closure, record-assisted reconstruction, and interface selection.
+      - Preserve complete process, provenance, action, capability, and resource matching.
+      - State whether observer indexing is operational, assumption-conditional, or theorem-specific.
+      - Recompute the successor portfolio from the Position-5 return rather than inheriting one.
+    typed_dependencies:
+      - type: requires
+        target: HC-DU-055
+      - type: requires
+        target: HC-DU-056
+      - type: requires
+        target: HC-DU-057
+      - type: tests
+        target: EXACTLY-COMPENSATED-PREFERRED-FOLIATION
+      - type: does_not_block
+        target: DU-PAPER-013-HARDENING
+      - type: does_not_block
+        target: COVARIANT-FINALITY-DYNAMICS
+    cheapest_kill: >-
+      Show that after complete process and interface matching every
+      preferred-leaf description factors through the same causal-partial-order
+      operational quotient and removes no physical premise. Bank
+      NO_EXCESS_CONTENT and stop the conditional sequence.
+    stop_rule: >-
+      Stop after one branch-invariant theorem, one exact non-unification, or a
+      clean no-excess result. Do not construct another record host, simulator,
+      hardware bridge, or fitted interface to rescue the preferred-foliation
+      premise.
+    reopen_rule: >-
+      Not applicable while active. Any successor is selected only after this
+      action changes or preserves the dependency map.
+    local_computation_boundary: >-
+      Direct formal comparison, exact counterexample, and deterministic
+      regression only. No external hardware is needed and no new local model
+      is admitted unless the Local Model Learning Gate identifies a
+      pre-hardware decision-changing result.
+    next_action: >-
+      Execute N5-PF-P5 exactly as frozen in the preferred-foliation sequence
+      scaffold.
+    next_action_ref: explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
+    canonical_evidence_refs:
+      - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
+      - explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
+      - explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
+      - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+      - docs/certified-causal-reality-research-program.md
+
+  - id: DU-PAPER-013-HARDENING
+    kind: publication
+    owner_repo: dynamic-unity
+    portfolio_status: ready
+    execution_status: prepared
+    wip_slot: publication
+    candidate_id: DU-PAPER-013
+    lane_ids:
+      - '7'
+      - A
+    channel_ids:
+      - CH-FORMAL
+      - CH-COLLIDE
+      - CH-PAPER
+    target: >-
+      Harden the bounded-precursor CSG post-tail classification into the
+      nearest new Dynamic Unity paper without claiming a new asymptotic
+      method, universal half-power, cosmology, or new physics.
+    current_grade: >-
+      BOUNDED THEOREM WITH TWO INTERNAL PROOF ROUTES / CSG-SPECIFIC NOVELTY
+      PROVISIONAL. General regular-variation and discrete-saddle methods are
+      occupied.
+    maximum_grade: >-
+      SUBMISSION-READY SCOPED CSG COROLLARY after independent proof review and
+      a systematic paper-grade collision.
+    premise_status: >-
+      Exact candidate named and Factory-seeded but unselected. Publication
+      custody and scientific hardening remain distinct.
+    completed_dependencies:
+      - id: CSG-POST-TAIL-PROOF-1
+        evidence_ref: explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
+      - id: CSG-POST-TAIL-PROOF-2
+        evidence_ref: explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md
+    remaining_obligations:
+      - Obtain independent mathematical proof review.
+      - Complete causal-set, regular-variation, Tauberian, binomial-transform, and analytic-combinatorics collision.
+      - Write the novelty statement at the surviving CSG-specific scope.
+    typed_dependencies:
+      - type: extracts_from
+        target: CSG-POST-TAIL-PROOF-1
+      - type: extracts_from
+        target: CSG-POST-TAIL-PROOF-2
+      - type: external_dependency
+        target: DRAFTING-FACTORY-CUSTODY
+        owner_repo: drafting-factory
+      - type: does_not_block
+        target: CCR-BRANCH-INVARIANT-ADJUDICATION
+    cheapest_kill: >-
+      Find a proof gap or exact prior-art result covering the same
+      CSG-specific bounded-precursor classification.
+    stop_rule: >-
+      Stop manuscript promotion on a material proof gap or complete prior-art
+      absorption. Preserve a corrected narrower negative or classification
+      result when independently valid.
+    reopen_rule: >-
+      Activate the publication WIP slot only after explicit candidate
+      selection and a check that source hardening will not conflict with
+      Drafting Factory custody.
+    local_computation_boundary: >-
+      Proof checking and bibliography only. Canonical Markdown receives the
+      effort; no fold.txt, TeX, PDF, release, upload, or posting work before
+      Joe resumes publication preparation.
+    next_action: >-
+      When activated, commission independent proof review and the systematic
+      novelty collision as one bounded hardening pass.
+    next_action_ref: papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
+    canonical_evidence_refs:
+      - papers/paper-opportunity-portfolio.json
+      - explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
+      - explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md
+
+  - id: COVARIANT-FINALITY-DYNAMICS
+    kind: theory_branch
+    owner_repo: dynamic-unity
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
+    candidate_ids:
+      - PRED-DU-001
+      - PRED-DU-002
+    lane_ids:
+      - '5'
+      - '7'
+    channel_ids:
+      - CH-FORMAL
+      - CH-EMPIRICAL
+      - CH-COLLIDE
+    target: >-
+      Derive a genuinely new observer-accessible Lorentz-covariant finality
+      dynamics with a selected generator, coefficient, local update, and
+      mechanism-specific discriminator.
+    current_grade: >-
+      SEAM / CONDITIONAL PREDICTIONS ONLY. HC-DU-057 preserves this as a
+      logically distinct fourth rate class but derives none of its dynamics.
+    maximum_grade: >-
+      PHYSICAL THEORY OR FINITE PREDICTION only after the complete generator
+      and empirical contract exist.
+    premise_status: >-
+      Mechanism absent. A hidden tick, consensus protocol, merge algebra, or
+      fitted threshold does not supply the missing dynamics.
+    completed_dependencies:
+      - id: HC-DU-057
+        evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+    remaining_obligations:
+      - Explicit generator and state space.
+      - AQFT-compatible locality and no-signalling.
+      - Positivity, conservation, and energy/resource accounting.
+      - Coefficient and scale selection.
+      - Mechanism-specific observable and matched standard-physics null.
+      - Phenomenology consistent with existing bounds.
+    typed_dependencies:
+      - type: requires
+        target: PHYSICAL-FINALITY-GENERATOR
+      - type: tests
+        target: PRED-DU-001
+      - type: tests
+        target: PRED-DU-002
+      - type: does_not_block
+        target: CCR-BRANCH-INVARIANT-ADJUDICATION
+    cheapest_kill: >-
+      Prove that every proposed observable is reproduced by a smooth standard
+      unitary/open-system memory model over the frozen intervention class.
+    stop_rule: >-
+      Do not spend work on another knee, consensus analogy, provider adapter,
+      or hardware proposal while the generator is absent.
+    reopen_rule: >-
+      Reopen only when one explicit local covariant generator with selected
+      coefficient passes positivity, no-signalling, energy, and
+      mechanism-specific-discriminator checks.
+    local_computation_boundary: >-
+      Formal generator and absorber work must produce the first learning
+      locally. Hardware remains unavailable until that boundary is exhausted.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - explorations/prediction-register.md
+      - explorations/covariant-finality-collapse-synthesis-2026-07-21.md
+      - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+
+  - id: CORRECTED-UNDERIVABILITY-OBSERVER-BRIDGE
+    kind: moonshot
+    owner_repo: dynamic-unity
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
+    candidate_id: SOURCE-IS-OBSERVER-COROLLARY
+    lane_ids:
+      - '2'
+      - '3'
+      - '7'
+    channel_ids:
+      - CH-FORMAL
+      - CH-COLLIDE
+    target: >-
+      Determine whether a corrected, physically typed underivability theorem
+      supports a Dynamic Unity becoming corollary after GU's operator-domain
+      and class-realization requirements are satisfied.
+    current_grade: >-
+      SUPERSEDED AS PREVIOUSLY STATED. Immutable or inflationary records do
+      not imply monotone derived dynamics: the parity-of-flips construction
+      supplies an internal fixpoint-free involution. Current GU evidence does
+      not establish physical externality, a sigma-w1 identification, or
+      exactly one external bit.
+    maximum_grade: >-
+      CONDITIONAL DYNAMIC COROLLARY after an earned substrate theorem and a
+      non-stale physical underivability target.
+    premise_status: >-
+      The literal R4-to-monotonicity-to-fixpoint bridge is refuted, and the
+      former external-Z2 dependency is unavailable. Repository custody does
+      not establish the missing physics.
+    completed_dependencies:
+      - id: PARITY-OF-FLIPS-COUNTEREXAMPLE
+        evidence_ref: explorations/record-immutability-forces-external-involution-2026-07-21.md
+    remaining_obligations:
+      - Correct physical definitions of internality, externality, derivability, and actualization.
+      - A valid operator/domain/end/symmetry packet in GU.
+      - A natural class-realization map rather than an imported orientation label.
+      - A genuinely untested theorem target that survives the parity counterexample.
+    typed_dependencies:
+      - type: external_dependency
+        target: GU-SUBSTRATE-BRIDGE-ADJUDICATION
+        owner_repo: gu-formalization
+      - type: does_not_block
+        target: CCR-BRANCH-INVARIANT-ADJUDICATION
+    cheapest_kill: >-
+      Construct a physically source-internal, non-disclosure actualization
+      satisfying the corrected domain contract, or prove that the proposed
+      underivability predicate is representation-dependent or target-coded.
+    stop_rule: >-
+      Do not use R4 implies monotone, physical externality, sigma=w1, or
+      exactly-one-external-bit as premises. Do not activate a proof campaign
+      from repository ownership or analogy.
+    reopen_rule: >-
+      Reopen only after GU produces a current theorem-grade physical bridge,
+      or DU states a new corrected underivability proposition with an exact
+      physical domain, smallest counterexample, and non-stale falsifier.
+    local_computation_boundary: >-
+      Counterexample and theorem work only; no toy growth simulation can
+      substitute for the missing physical-domain bridge.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - CONNECTIONS.md
+      - explorations/record-immutability-forces-external-involution-2026-07-21.md
+      - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
+
+successor_selection:
+  status: blocked
+  blocked_by: N5-PF-P5
+  selected_successor_id: null
+  candidate_classes:
+    - physical-interface-selection
+    - corrected-mathematical-moonshot
+    - conservative-certification-and-physical-feedback
+    - new-route-from-position-5
+  decision_rule: >-
+    Position 5 must report whether it preserves, merges, replaces, or
+    invalidates the current program map. Select exactly one successor by
+    expected decision-changing knowledge, not by prior narrative momentum.
+
+anomaly_intake:
+  status: open_non_wip
+  destination_refs:
+    - explorations/concept-register.md
+    - explorations/prediction-register.md
+    - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
+  activation_rule: >-
+    A new anomaly or abductive route may change the portfolio only after it
+    states the exact tension, strongest absorber, smallest discriminator,
+    maximum grade, and which current dependency it changes. Intake never
+    creates a standing parallel lane.
