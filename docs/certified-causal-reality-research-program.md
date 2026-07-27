@@ -1526,9 +1526,11 @@ law-filtered record-assisted inverse problem, conservative
 certification/physical feedback is reserve. `N5-RS-P3` is complete as
 `HC-DU-052`: the first lawful `3+1` same-record/different-target witness is
 incoming radiative data outside the past record region. It is an
-open-boundary attribution result, not new physics. Only `N5-RS-P4`, the
-causally closed interior reconstruction and noninjective transfer test, is
-executable.
+open-boundary attribution result, not new physics. `N5-RS-P4` is complete as
+`HC-DU-053`: strict noninjective transfer and a capability-relative first
+leak coexist inside a causally closed packet sector, while the record
+instrument remains supplied. Only `N5-RS-P5`, the cross-arena transfer and
+formation non-unification test, is executable.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -2015,14 +2017,88 @@ narrowing, and boundary-data completion are different operations. No claim
 about record fundamentality, new gravity, CFS, ontology, prediction, or
 hardware is earned.
 
-`N5-RS-P3` is complete. The next work object is `N5-RS-P4`, a causally closed
-interior reconstruction test. It must put a complete incoming-characteristic
-variable family inside the frozen completion contract, exclude omitted
-exterior inputs, and then seek strict noninjective held-out transfer, an
-interior nongauge same-record/different-target witness, or law-only closure.
-Direct characteristic tomography earns no compressive-reconstruction credit.
+`N5-RS-P3` handed this boundary to `N5-RS-P4`, which is now complete as
+`HC-DU-053` below. Direct characteristic tomography earns no
+compressive-reconstruction credit.
 See
 `../explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md`.
+
+### `HC-DU-053` — Causally Closed Noninjective Transfer and
+First-Recoupling Criterion
+
+Let \(X\) be a causally closed completion class, \(r:X\to Q\) a
+target-independent record, \(U:X\to X'\) lawful evolution, and
+\(t:X'\to Y\) a held-out target. A common decoder \(d\) with
+
+\[
+t\circ U=d\circ r
+\]
+
+exists exactly when
+
+\[
+r(x)=r(x')
+\Longrightarrow
+t(Ux)=t(Ux')
+\quad\text{for all }x,x'\in X.
+\]
+
+For finite linear maps this is
+
+\[
+\ker R\subseteq\ker(PU).
+\]
+
+The first interior recoupling is the first admitted transport or capability
+for which a record-hidden direction \(H\) obeys \(PUH\ne0\).
+
+The frozen physical specialization puts both plus and cross amplitudes of one
+geometric-optics transverse-traceless packet inside the completion class and
+admits no later exterior input. For orthogonal polarization transport \(U\),
+the scalar record
+
+\[
+r_I(p_+,p_\times)=p_+^2+p_\times^2
+\]
+
+strictly compresses polarization orientation while reconstructing a later
+polarization-insensitive quadratic response with one decoder. On the
+normalized square the law-only target diameter is two and the
+record-conditioned diameter is zero. This is
+`STRICT_RECORD_RECONSTRUCTION`, not law-only closure or tomography.
+
+The same record fails for an oriented signed response, giving a
+`CAPABILITY_RELATIVE_REMAINDER`. A linear plus record transfers under aligned
+propagation but fails under the exact rational rotation
+
+\[
+U_\theta=
+\begin{pmatrix}
+3/5&4/5\\
+-4/5&3/5
+\end{pmatrix},
+\qquad
+P U_\theta H=4/5.
+\]
+
+That witness is causally interior: all incoming variables are already in the
+frozen class. Full two-polarization repair is `INJECTIVE_TOMOGRAPHY`; replacing
+the record by the back-propagated target row is interface refit.
+
+The theorem is known factorization/observability mathematics and the physical
+transport is standard general relativity. The DU result is the closed-boundary
+attribution and the exact coexistence of strict noninjective transfer with a
+capability-relative first leak. The probe-limit test-body record instrument,
+material orientation, and archive remain supplied rather than
+Einstein-selected, so `H-CCR-17` remains open.
+
+`N5-RS-P4` is complete. Only `N5-RS-P5`, Cross-Arena Dynamic Sufficiency and
+Formation Non-Unification, is executable. It must apply this unchanged
+criterion to the gravitational-wave specimen and the closed metastable host,
+then decide whether the common transfer theorem is already absorbed by
+`HC-DU-035D/036H` and whether physical record formation is the smallest
+remaining non-unifying arrow. See
+`../explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -4259,7 +4335,10 @@ RESERVE CONSERVATIVE CERTIFICATION AND PHYSICAL FEEDBACK
 UNCONDITIONED RECORD-HOST AND GENERIC-CONSENSUS BUILDING STOPPED
 HC-DU-052 3+1 LAWFUL CAUSAL-EXTERIOR REMAINDER EXACT
 INCOMING CHARACTERISTIC DATA ARE NOT A CAUSALLY-CLOSED INTERIOR REMAINDER
-N5-RS-P4 CAUSALLY CLOSED INTERIOR RECONSTRUCTION SOLE NEXT EXECUTABLE
+HC-DU-053 CAUSALLY CLOSED STRICT NONINJECTIVE TRANSFER EXACT
+ORIENTED CAPABILITY AND POLARIZATION RECOUPLING EXPOSE INTERIOR FIRST LEAK
+SUPPLIED PROBE-LIMIT RECORD INSTRUMENT LEAVES PHYSICAL FORMATION OPEN
+N5-RS-P5 CROSS-ARENA TRANSFER ABSORPTION AND FORMATION NON-UNIFICATION NEXT
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

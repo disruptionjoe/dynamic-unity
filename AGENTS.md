@@ -350,12 +350,22 @@ Before acting, a new agent must be able to state:
    A no-incoming-radiation condition closes the target by law/source
    narrowing; recording the incoming characteristic data closes it only by
    injective resource expansion. Do not promote that open-boundary witness as
-   a novel physical remainder. Only `N5-RS-P4`, `Causally Closed Interior
-   Reconstruction and Noninjective Transfer`, is executable. Put a complete
-   incoming-boundary variable family inside the frozen completion contract
-   and exclude omitted exterior inputs before seeking strict record assistance
-   or an interior lawful remainder. Do not fit another archive to the closed
-   metastable host,
+   a novel physical remainder. `N5-RS-P4` is now complete as `HC-DU-053`.
+   Inside a causally closed two-polarization packet sector, normalized
+   intensity is a strictly noninjective record for a later
+   polarization-insensitive response, while an oriented capability reopens
+   its fibre. A plus-only record transfers under aligned propagation and
+   fails when lawful transport recouples the hidden cross polarization with
+   exact coefficient `4/5`. Causal closure and record sufficiency are
+   different; the latter is exactly target/action-relative fibre
+   factorization. Full repair is injective tomography and a back-propagated
+   target row is interface refit. The record instrument and archive remain
+   supplied, so `H-CCR-17` remains open. Only `N5-RS-P5`, Cross-Arena Dynamic
+   Sufficiency and Formation Non-Unification, is executable. Apply the
+   unchanged criterion to the physical packet and the closed metastable host,
+   and decide whether transfer is already fully absorbed while physical
+   formation is the smallest non-unifying arrow. Do not fit another archive
+   to the closed metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum
    physics, infer source truth or physical independence from a signature,

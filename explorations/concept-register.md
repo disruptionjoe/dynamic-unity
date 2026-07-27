@@ -733,6 +733,40 @@ CAUSAL-EXTERIOR REMAINDER IDENTIFIED /
 NO CAUSALLY-CLOSED INTERIOR REMAINDER OR RECORD-FIRST GEOMETRY DERIVED.** See
 `3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md`.
 
+### 2026-07-27 causally closed transfer and first recoupling
+
+`HC-DU-053` closes the omitted-boundary loophole inside a frozen
+two-polarization geometric-optics packet sector. Both incoming amplitudes are
+inside the completion class and no later exterior input is admitted. A scalar
+beam-normalized intensity record
+
+\[
+r_I=p_+^2+p_\times^2
+\]
+
+strictly compresses polarization orientation yet predicts a later
+polarization-insensitive quadratic response under both aligned and rotated
+orthogonal transport with one decoder. Its law-only target diameter is two
+and its record-conditioned diameter is zero. This is strict record-assisted
+transfer, not law-only closure or tomography.
+
+The result is capability-relative. The same record fails for an oriented
+signed response. A separate one-component record transfers under aligned
+propagation and fails when lawful polarization transport recouples the hidden
+cross direction with exact coefficient \(4/5\). Thus a causally closed
+interior can contain both noninjective reconstruction and a finite remainder,
+depending on the frozen target/action envelope.
+
+The record instrument, orientation reference, and archive remain supplied;
+Einstein dynamics does not select them. The result therefore advances the
+transfer boundary but does not derive time or geometry from records or close
+`H-CCR-17`.
+
+**Updated status:** **EXACT SCOPED CAUSALLY CLOSED NONINJECTIVE TRANSFER /
+TARGET- AND CAPABILITY-RELATIVE INTERIOR FIRST LEAK /
+PHYSICAL RECORD SELECTION AND FORMATION STILL OPEN.** See
+`3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md`.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize
@@ -1359,6 +1393,34 @@ The next high-value test must include the target's complete incoming-boundary
 variable family in the frozen completion contract, exclude omitted exterior
 inputs, and seek strict noninjective held-out transfer or an interior
 nongauge witness.
+
+### 2026-07-27 causally closed sufficiency boundary
+
+`HC-DU-053` supplies the exact successor. For record \(r\), lawful closed
+transport \(U\), and held-out target \(t\), reconstruction holds exactly when
+
+\[
+r(x)=r(x')\Longrightarrow t(Ux)=t(Ux'),
+\]
+
+with linear form \(\ker R\subseteq\ker(PU)\). Causal closure and record
+sufficiency are therefore distinct: closure removes omitted exterior inputs,
+while sufficiency requires the record's hidden directions to stay invisible
+to the frozen target.
+
+The geometric-optics packet control proves both sides. Normalized intensity
+is a strictly noninjective sufficient record for later
+polarization-insensitive response, but orientation-sensitive capability
+reopens its fibre. A plus-only record transfers under aligned propagation and
+fails at the first cross-to-plus recoupling. Full repair is injective
+two-polarization tomography; a back-propagated target row is interface refit.
+
+This advances the North Star by showing that strict noninjective transfer is
+possible in an ordinary physical sector and by localizing its exact failure.
+It does not select or derive the supplied record instrument. The remaining
+cross-arena question is whether transfer is now fully absorbed by the
+existing factorization spine and physical record formation is the smallest
+unresolved arrow.
 
 ## CONCEPT-DU-005 — record-relative actuality and completion-class refinement
 
@@ -2092,6 +2154,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   Future recursion claims must freeze the capability envelope and horizon,
   not extrapolate durability from one local error number. See
   `algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md`.
+- **2026-07-27 causally closed physical transfer.** `HC-DU-053` gives the
+  center-screening/first-leak rule a `3+1` geometric-optics specialization.
+  A noninjective intensity record remains final for a
+  polarization-insensitive downstream action under orthogonal transport,
+  while an oriented action distinguishes states in the same record fibre. A
+  plus-only record is final under aligned transport and reopens exactly when
+  the hidden cross polarization recouples into the later plus response. This
+  is a physical target/action-relative transfer result with a supplied
+  probe-limit archive, not a selected regionalization or new gravitational
+  finality law. See
+  `3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.

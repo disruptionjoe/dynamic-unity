@@ -2084,3 +2084,41 @@ It is not a numerical-relativity or detector simulation, an independent
 proof of characteristic-Cauchy existence, a novel GR theorem, new physics,
 a prediction, a paper promotion, or authority for CFS, hardware, or external
 action.
+
+## HC-DU-053 3+1 causally closed noninjective transfer
+
+`du_3plus1_closed_noninjective_transfer_probe.py` preserves the exact finite
+certificate behind `N5-RS-P4`:
+
+- both plus and cross incoming amplitudes are inside the frozen two-mode
+  completion class;
+- aligned and rationally rotated polarization transports are exactly
+  orthogonal;
+- normalized quadratic intensity is strictly noninjective on polarization
+  orientation and transfers to a later polarization-insensitive response
+  through one decoder without refit;
+- the primary law-only target diameter is two and the
+  record-conditioned diameter is zero;
+- an orientation-sensitive capability exposes a same-intensity interior
+  remainder;
+- a linear plus record transfers under aligned propagation and fails when
+  the hidden cross direction recouples with exact coefficient `4/5`;
+- the mixed component target has law-only diameter `14/5` and
+  record-conditioned diameter `8/5`;
+- full two-polarization repair is injective tomography; and
+- a back-propagated target row repairs only by changing the interface.
+
+Run:
+
+```bash
+python3 tests/du_3plus1_closed_noninjective_transfer_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_3plus1_closed_noninjective_transfer_result.json` and reports
+`22/22`. Passing is regression coverage for the analytic factorization,
+diameter, invariance, and first-recoupling result. It is not a
+numerical-relativity or detector simulation, an independent proof of
+characteristic closure or physical record formation, a novel GR theorem,
+new physics, a prediction, a paper promotion, or authority for CFS, hardware,
+or external action.

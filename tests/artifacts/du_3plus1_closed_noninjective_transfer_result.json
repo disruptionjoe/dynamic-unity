@@ -1,0 +1,310 @@
+{
+  "attribution": "CAUSALLY_CLOSED_TARGET_AND_CAPABILITY_RELATIVE",
+  "checks": [
+    {
+      "detail": {
+        "rank": 2,
+        "variables": [
+          "p_plus",
+          "p_cross"
+        ]
+      },
+      "name": "incoming_characteristic_family_is_two_dimensional_and_complete_in_sector",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "name": "aligned_transport_is_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "name": "mixed_transport_is_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": "1/1",
+      "name": "mixed_transport_preserves_orientation",
+      "passed": true
+    },
+    {
+      "detail": {
+        "specimens": [
+          [
+            "0/1",
+            "0/1"
+          ],
+          [
+            "1/1",
+            "0/1"
+          ],
+          [
+            "-1/1",
+            "0/1"
+          ],
+          [
+            "0/1",
+            "1/1"
+          ],
+          [
+            "1/1",
+            "1/1"
+          ],
+          [
+            "1/2",
+            "-1/3"
+          ]
+        ],
+        "transports": [
+          "aligned",
+          "mixed"
+        ]
+      },
+      "name": "quadratic_intensity_is_transport_invariant",
+      "passed": true
+    },
+    {
+      "detail": {
+        "common_record": "1/1",
+        "cross": [
+          "0/1",
+          "1/1"
+        ],
+        "plus": [
+          "1/1",
+          "0/1"
+        ]
+      },
+      "name": "intensity_record_is_strictly_noninjective",
+      "passed": true
+    },
+    {
+      "detail": {
+        "diameter_on_box": "2/1"
+      },
+      "name": "law_only_intensity_target_varies",
+      "passed": true
+    },
+    {
+      "detail": "decoder(q)=q for aligned and mixed transport",
+      "name": "one_decoder_transfers_intensity_without_refit",
+      "passed": true
+    },
+    {
+      "detail": {
+        "law_only_diameter": "2/1",
+        "record_conditioned_diameter": "0/1"
+      },
+      "name": "intensity_record_closes_polarization_insensitive_target",
+      "passed": true
+    },
+    {
+      "detail": {
+        "common_intensity": "1/1",
+        "target_minus": "-3/5",
+        "target_plus": "3/5"
+      },
+      "name": "orientation_sensitive_capability_reopens_intensity_fibre",
+      "passed": true
+    },
+    {
+      "detail": 1,
+      "name": "plus_record_rank_one",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "0/1",
+          "1/1"
+        ]
+      ],
+      "name": "plus_record_hidden_direction_is_cross",
+      "passed": true
+    },
+    {
+      "detail": {
+        "joined_rank": 1,
+        "record_rank": 1
+      },
+      "name": "aligned_plus_target_factors_through_record",
+      "passed": true
+    },
+    {
+      "detail": "0/1",
+      "name": "aligned_hidden_to_visible_block_is_zero",
+      "passed": true
+    },
+    {
+      "detail": {
+        "law_only_diameter": "2/1",
+        "record_conditioned_diameter": "0/1",
+        "record_rank": 1,
+        "state_dimension": 2
+      },
+      "name": "aligned_transfer_is_strictly_noninjective_and_not_law_only",
+      "passed": true
+    },
+    {
+      "detail": {
+        "joined_rank": 2,
+        "record_rank": 1
+      },
+      "name": "mixed_plus_target_does_not_factor_through_record",
+      "passed": true
+    },
+    {
+      "detail": "4/5",
+      "name": "mixed_hidden_to_visible_block_is_four_fifths",
+      "passed": true
+    },
+    {
+      "detail": {
+        "record": [
+          "0/1"
+        ],
+        "target": [
+          "4/5"
+        ]
+      },
+      "name": "mixed_cross_witness_changes_target",
+      "passed": true
+    },
+    {
+      "detail": {
+        "law_only_diameter": "14/5",
+        "record_conditioned_diameter": "8/5"
+      },
+      "name": "mixed_target_has_positive_conditioned_diameter",
+      "passed": true
+    },
+    {
+      "detail": {
+        "nullity": 0,
+        "rank": 2
+      },
+      "name": "full_incoming_archive_is_injective_tomography",
+      "passed": true
+    },
+    {
+      "detail": {
+        "joined_rank": 2,
+        "record_rank": 1
+      },
+      "name": "full_output_capability_exceeds_plus_record",
+      "passed": true
+    },
+    {
+      "detail": {
+        "fitted_record": [
+          [
+            "3/5",
+            "4/5"
+          ]
+        ],
+        "old_record": [
+          [
+            "1/1",
+            "0/1"
+          ]
+        ]
+      },
+      "name": "back_propagated_target_row_repairs_only_by_interface_change",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-053",
+  "controls": {
+    "aligned_plus_transfer": "STRICT_RECORD_RECONSTRUCTION",
+    "back_propagated_target_row": "TARGET_CODED_INTERFACE_REFIT",
+    "full_characteristic_archive": "INJECTIVE_TOMOGRAPHY",
+    "mixed_plus_transfer": "SAME_RECORD_DIFFERENT_TARGET",
+    "orientation_sensitive_capability": "CAPABILITY_RELATIVE_REMAINDER",
+    "primary_intensity_target": "STRICT_RECORD_RECONSTRUCTION"
+  },
+  "coordinate_order": [
+    "p_plus",
+    "p_cross"
+  ],
+  "interface_grade": "SUPPLIED_TARGET_INDEPENDENT_PROBE_LIMIT_ARCHIVE",
+  "linear_control": {
+    "aligned_first_recoupling": "0/1",
+    "aligned_target": [
+      [
+        "1/1",
+        "0/1"
+      ]
+    ],
+    "mixed_first_recoupling": "4/5",
+    "mixed_law_only_diameter": "14/5",
+    "mixed_record_conditioned_diameter": "8/5",
+    "mixed_target": [
+      [
+        "3/5",
+        "4/5"
+      ]
+    ],
+    "record_matrix": [
+      [
+        "1/1",
+        "0/1"
+      ]
+    ]
+  },
+  "passed": true,
+  "primary_law_only_target_diameter": "2/1",
+  "primary_record": "I=p_plus^2+p_cross^2",
+  "primary_record_conditioned_target_diameter": "0/1",
+  "primary_target": "downstream normalized polarization-insensitive quadratic response",
+  "schema_version": "1.0",
+  "scope": [
+    "exact finite factorization and rational matrix regression",
+    "complete two-polarization incoming family within a frozen geometric-optics packet sector",
+    "known 3+1 general-relativistic polarization transport",
+    "record formation coupling supplied rather than Einstein-selected",
+    "not a numerical-relativity or detector simulation",
+    "not a new GR theorem, new physics, ontology, or prediction"
+  ],
+  "transports": {
+    "aligned": [
+      [
+        "1/1",
+        "0/1"
+      ],
+      [
+        "0/1",
+        "1/1"
+      ]
+    ],
+    "mixed": [
+      [
+        "3/5",
+        "4/5"
+      ],
+      [
+        "-4/5",
+        "3/5"
+      ]
+    ]
+  },
+  "verdict": "STRICT_NONINJECTIVE_TRANSFER_WITH_INTERIOR_FIRST_RECOUPLING",
+  "work_id": "N5-RS-P4"
+}

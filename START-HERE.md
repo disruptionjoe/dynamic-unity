@@ -110,7 +110,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 194
+Finality, Temporal Issuance, or Possibility to Capability. It records 197
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -420,14 +420,21 @@ What *has* been earned is a strong finite control stack:
   no current arena selects the complete write-and-access antecedent required
   by `H-CCR-17`; unconditioned host building stops; the `3+1` law-filtered
   record-assisted inverse problem is primary; conservative
-  certification/physical feedback is reserve. `N5-RS-P3` is now complete as
+  certification/physical feedback is reserve. `N5-RS-P3` is complete as
   `HC-DU-052`: incoming transverse-traceless data can vanish on the complete
   past local record region and change a later gauge-invariant target. The
   witness is lawful and nongauge but is ordinary causal-exterior/open-boundary
   information. No-incoming radiation closes it by law/source narrowing; a
-  full characteristic archive closes it only by injective tomography. Only
-  `N5-RS-P4`, the causally closed interior reconstruction and noninjective
-  transfer test, is executable
+  full characteristic archive closes it only by injective tomography.
+  `N5-RS-P4` is complete as `HC-DU-053`: inside a causally closed
+  two-polarization packet sector, normalized intensity is a strictly
+  noninjective record for a later polarization-insensitive response, while an
+  oriented capability reopens its fibre. A plus-only record transfers under
+  aligned propagation and fails when lawful transport recouples the hidden
+  cross polarization with exact coefficient `4/5`. Causal closure and record
+  sufficiency are distinct; full repair is injective tomography and the
+  supplied instrument still leaves `H-CCR-17` open. Only `N5-RS-P5`,
+  Cross-Arena Dynamic Sufficiency and Formation Non-Unification, is executable
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -438,6 +445,8 @@ What *has* been earned is a strong finite control stack:
   [hardening/provenance result](explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md);
   [selective-view/handoff result](explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md);
   [distributed/physical collision](explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md);
+  [causal-exterior attribution](explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md);
+  [causally closed transfer](explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md);
   [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
@@ -845,7 +854,10 @@ binding. `N5-RS-P2` is complete. Its portfolio receipt pivots immediate work
 to the `3+1` law-filtered record-assisted inverse problem while keeping
 `H-CCR-17` open behind a physical-antecedent reopener. `N5-RS-P3` is complete
 as `HC-DU-052`; its first lawful remainder is causally exterior incoming
-radiation. `N5-RS-P4` now closes that boundary and tests the interior.
+radiation. `N5-RS-P4` is complete as `HC-DU-053`: a causally closed
+polarization-intensity record transfers noninjectively for one action class
+and fails for an oriented enlargement at the first hidden-to-visible
+recoupling. Only `N5-RS-P5` is executable.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -972,7 +984,7 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051` and the completed `N5-RS-P2` premise lattice. No current arena selects the complete write-and-access antecedent. Keep `H-CCR-17` open, stop unconditioned detector/code/archive hosts, and reopen only when a new target-independent physical premise breaks archive relocation. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, cryptographic proof, or threshold certificate is not an observer-access contract. Keep route, authentication, decoder, disclosure, actions, resources, and horizon explicit. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `N5-SCF` now separates concentration, propagation, DAG knowledge, metastability, cryptographic hardening, emergence, and capability-relative views before any physical translation. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` finds the first lawful `3+1` same-record/different-target witness and attributes it to incoming characteristic data outside the record region. `N5-RS-P4` must include a complete incoming-boundary variable family in the frozen completion contract, exclude omitted exterior inputs, and then test strict noninjective transfer or an interior remainder before adding CFS or hardware. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` attributes the first lawful `3+1` remainder to incoming characteristic data outside the record region. `HC-DU-053` then closes the finite packet boundary: normalized intensity transfers through a strict noninjective record for polarization-insensitive response, while oriented capability or polarization recoupling exposes an interior remainder. Only the cross-arena absorption/formation comparison `N5-RS-P5` is executable before CFS or hardware. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -1026,8 +1038,12 @@ channels; they are not lanes and do not create a second priority system.
    reserve. `N5-RS-P3` is complete as
    [HC-DU-052](explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md).
    It finds a lawful nongauge radiative remainder but localizes it to omitted
-   incoming characteristic data. Only `N5-RS-P4`, the causally closed
-   interior reconstruction and noninjective transfer test, is executable.
+   incoming characteristic data. `N5-RS-P4` is complete as
+   [HC-DU-053](explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md).
+   It proves scoped strict noninjective transfer and an exact
+   capability-relative interior first leak while leaving the record
+   instrument supplied. Only `N5-RS-P5`, the cross-arena dynamic-sufficiency
+   and formation non-unification test, is executable.
    The
    [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
    and
