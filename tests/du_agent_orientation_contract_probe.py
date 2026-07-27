@@ -19,6 +19,7 @@ from typing import Callable
 
 
 ROOT = Path(__file__).resolve().parents[1]
+COUNTER_REGISTER = ROOT / "COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md"
 
 FILES = {
     "start": ROOT / "START-HERE.md",
@@ -76,6 +77,9 @@ EXPECTED_CHANNELS = {
     "CH-PAPER": "Paper production",
     "CH-FRONTIER": "Speculative frontier",
 }
+CURRENT_COMPLETED_RESULT = "HC-DU-056"
+CURRENT_EXECUTABLE_WORK = "N5-PF-P4"
+EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 208
 
 
 def normalize(value: str) -> str:
@@ -127,6 +131,7 @@ def local_markdown_targets(path: Path, text: str) -> list[Path]:
 
 def run() -> dict[str, object]:
     texts = {name: path.read_text(encoding="utf-8") for name, path in FILES.items()}
+    counter_register = COUNTER_REGISTER.read_text(encoding="utf-8")
     checks: list[dict[str, object]] = []
 
     def check(name: str, condition: bool, detail: str) -> None:
@@ -160,6 +165,36 @@ def run() -> dict[str, object]:
             "START-HERE.md" in texts[surface],
             f"{surface} points to the cold-start surface",
         )
+
+    for surface in ("start", "readme", "agents", "lanes", "program"):
+        check(
+            f"{surface}_current_handoff",
+            CURRENT_COMPLETED_RESULT in texts[surface]
+            and CURRENT_EXECUTABLE_WORK in texts[surface],
+            (
+                f"{surface} identifies {CURRENT_COMPLETED_RESULT} as the completed "
+                f"result and routes work to {CURRENT_EXECUTABLE_WORK}"
+            ),
+        )
+
+    counter_ids = [
+        line.split("|")[1].strip().strip("`")
+        for line in counter_register.splitlines()
+        if line.startswith("|")
+        and len(line.split("|")) > 1
+        and line.split("|")[1].strip().strip("`").startswith("NI-")
+    ]
+    check(
+        "counter_assumptive_register_count",
+        len(counter_ids) == EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS
+        and len(counter_ids) == len(set(counter_ids))
+        and str(EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS) in texts["start"],
+        (
+            "counter-assumptive register has the advertised unique source-pinned "
+            f"row count; found={len(counter_ids)} "
+            f"unique={len(set(counter_ids))}"
+        ),
+    )
 
     start_headings = (
         "## Ratified program charter",
@@ -261,8 +296,11 @@ def run() -> dict[str, object]:
         missing_refs = [value for value in refs if not (ROOT / value).exists()]
         check(
             f"lane_{lane_id}_canonical_refs",
-            bool(refs) and not missing_refs,
-            f"lane {lane_id} canonical refs resolve; refs={refs}; missing={missing_refs}",
+            bool(refs) and not missing_refs and len(refs) == len(set(refs)),
+            (
+                f"lane {lane_id} canonical refs resolve without duplicates; "
+                f"refs={refs}; missing={missing_refs}"
+            ),
         )
 
     for channel_id, _, chunk in channel_entries:

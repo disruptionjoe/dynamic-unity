@@ -372,8 +372,9 @@ Before acting, a new agent must be able to state:
    fibre is not automatically a material record. The five-position `N5-RS`
    sequence is complete; `H-CCR-17` remains open but dormant behind a new
    independently motivated physical reopener. Joe has now completed the
-   required `NORTH_STAR_PORTFOLIO_RESET` and conservative-certification formal
-   spine as `N5-PF-P1/2`. The source-audited comparison selected conservative
+   required `NORTH_STAR_PORTFOLIO_RESET`, conservative-certification formal
+   spine, and feedback-boundary response-equivalence selector test as
+   `N5-PF-P1/2/3`. The source-audited comparison selected conservative
    certification and physical feedback as primary, and `HC-DU-055` now finds
    no certificate-semantic force after complete physical matching. A
    certificate can still enlarge safe action capability through its carrier,
@@ -387,12 +388,18 @@ Before acting, a new agent must be able to state:
    leakage/access mechanisms rather than hidden existence in general;
    heterogeneous gravity-sector sensitivities are not evidence of leakage;
    and a foliation alone is not the logical escape from Bell or
-   Wigner-friend no-go theorems. Only `N5-PF-P3` is executable. Freeze an
-   independently motivated physical antecedent and the complete future
-   action/tester family; test whether it selects the complete feedback
-   boundary up to response equivalence, starting with an exact
-   route/access/reset relocation search and a matched causal-partial-order
-   control. No new host, model, or hardware is needed. Do not
+   Wigner-friend no-go theorems. `HC-DU-056` now proves that a response-class
+   selector exists exactly when the complete future response signature is
+   constant on physical antecedent fibres. Raw microscopic identity is
+   unnecessary, but capability growth refines the class. The existing gauge
+   and metastable antecedents select restricted classes and split under
+   orientation/path and route/reset-lineage capabilities; their closing
+   fields remain supplied rather than endogenously selected. The foliation
+   remains inert. Only `N5-PF-P4` is executable. Hostile-audit the
+   finality-rate, physical record-mergeability, and critical-exponent
+   candidates against matched standard physics, predeclared kills, and
+   retreat costs; deepen at most one nonzero residual. No new host, model, or
+   hardware is needed. Do not
    fit another archive to the closed metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum

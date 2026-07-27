@@ -2196,3 +2196,39 @@ independence from marginal channel factorization alone, establish a
 certificate-only force, introduce new mathematics or physics, earn a
 grade-5 remainder, promote a prediction or paper, or authorize hardware,
 provider, publication, or other external action.
+
+## HC-DU-056 feedback-boundary response-equivalence selection
+
+`du_feedback_boundary_selection_probe.py` preserves the exact finite controls
+behind `N5-PF-P3`:
+
+- a response-class selector exists exactly when the complete future response
+  signature is constant on antecedent fibres;
+- raw microscopic implementation identity is not required;
+- nested future action families refine operational equivalence
+  monotonically;
+- the unchanged material `Z3` specimen splits into `1 -> 2 -> 4` response
+  classes under source-only, fixed-pointer, and intermediate-path testers;
+- the unchanged metastable specimen splits into `1 -> 2 -> 4` response
+  classes under endpoint, occurrence, and next-cycle-memory testers;
+- material orientation and route/reset-lineage premises close the declared
+  finite classes while future-invisible microtags remain plural;
+- a semantic reset certificate does not fix retained future-readable memory;
+  and
+- two linear extensions of one causal partial order preserve the complete
+  boundary and response, leaving the exactly compensated foliation inert.
+
+Run:
+
+```bash
+python3 tests/du_feedback_boundary_selection_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_feedback_boundary_selection_result.json` and reports `21/21`.
+Passing is regression coverage for a directly proved scoped selector,
+capability-refinement, and reset-memory necessity package. It does not prove
+that a current physical antecedent endogenously selects a complete interface,
+establish microscopic uniqueness, introduce new behavioral-equivalence or
+quantum-process mathematics, earn a new law, ontology, grade-5 remainder,
+prediction, paper, hardware, provider, publication, or other external action.

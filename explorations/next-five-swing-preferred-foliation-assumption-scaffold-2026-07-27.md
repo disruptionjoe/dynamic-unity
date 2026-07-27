@@ -1,16 +1,16 @@
 ---
 title: "Next five-swing scaffold: preferred foliation as a fixed conditional assumption"
-status: position_2_complete__position_3_executable
+status: position_3_complete__position_4_executable
 doc_type: inline_science_council_persona_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare the next five-swing series under a preferred-frame assumption"
 sequence_id: N5-PF
-active_position: N5-PF-P3
+active_position: N5-PF-P4
 completed_positions:
   - N5-PF-P1
   - N5-PF-P2
+  - N5-PF-P3
 deferred_positions:
-  - N5-PF-P4
   - N5-PF-P5
 run_plan: "../runs/2026-07-27-preferred-foliation-next-five-preparation.md"
 assumption_status: "HELD CONDITIONAL PREMISE / NO EVIDENTIARY GRADE"
@@ -38,12 +38,16 @@ P5  collide the result across preferred-leaf and causal-partial-order arenas
 ```
 
 `N5-PF-P1` selected conservative certification and physical feedback as the
-primary while returning the foliation `INERT` for that front. `N5-PF-P2` has
-now proved the scoped deterministic, stochastic-kernel, and quantum-process
-necessity package. It found no certificate-semantic force after complete
-physical matching, exposed exact failures of lossy control labels, and again
-returned the foliation `INERT`. Only `N5-PF-P3` is now executable. Positions
-4--5 remain conditional slots.
+primary while returning the foliation `INERT` for that front. `N5-PF-P2`
+proved the scoped deterministic, stochastic-kernel, and quantum-process
+necessity package. `N5-PF-P3` now proves the response-class selector theorem:
+microscopic boundary identity is unnecessary, but selection is relative to a
+frozen future action family and can fail after capability growth. The reused
+gauge and metastable specimens select restricted response classes and fail
+when orientation/path or route/reset-lineage capabilities are added. Their
+current antecedents do not endogenously select the complete class. The
+foliation remains `INERT`. Only `N5-PF-P4` is now executable; Position 5
+remains conditional.
 
 The present evidence makes one provisional branch especially
 information-dense:
@@ -580,6 +584,41 @@ INCOMPLETE_CONTRACT
 Do not credit global chronology for a record that was supplied through a
 pointer, archive, decoder, or observer cut.
 
+### Completion receipt — `HC-DU-056`
+
+Position 3 returns:
+
+```text
+RESPONSE_CLASS_SELECTOR_IFF_ANTECEDENT_FIBRE_CONSTANCY
+RAW_MICROSCOPIC_IDENTITY_NOT_REQUIRED
+PARTIAL_OR_ORBIT_BOUNDARY_SELECTION
+FEEDBACK_BOUNDARY_RELOCATION_OBSTRUCTION
+CAPABILITY_DEPENDENT_FIRST_LEAK
+RESET_REQUIRES_COMPLETE_FUTURE_READABLE_MEMORY
+CURRENT_COMPLETE_INTERFACE_NOT_ENDOGENOUSLY_SELECTED
+MATHEMATICAL_CORE_FULLY_ABSORBED
+FOLIATION_INERT
+```
+
+For a complete response signature \(\Sigma_{\mathcal A}\), the selected
+response class exists exactly when
+
+\[
+\ker A\subseteq\ker(\Sigma_{\mathcal A}\circ B).
+\]
+
+Capability enlargement refines response-equivalence. The material `Z3`
+specimen has exact class counts \(1\to2\to4\) under source-only, fixed-pointer,
+and intermediate-path testers; the closed host has the same counts under
+endpoint, occurrence, and next-cycle-memory testers. Orientation/path and
+route/reset-lineage close the finite classes only when physically frozen;
+response signatures themselves are action-coded repairs, not selected
+physics. Future-invisible microscopic tags remain legitimately plural.
+
+The exact regression passes `21/21`. No new host, simulation, hardware,
+physical law, ontology, prediction, paper, or endogenous complete interface
+was produced. Position 4 is activated only as a hostile excess-content audit.
+
 ## 12. Position 4 — regional finality and candidate-excess hostile audit
 
 ### Conditional identity
@@ -780,8 +819,8 @@ an adapter or contact a provider without separate authorization.
 ## 15. Execution discipline
 
 1. Run one position at a time.
-2. `N5-PF-P1/2` are complete; only `N5-PF-P3` is executable now.
-3. Do not activate or mint a final run plan for Positions 3--5 until the
+2. `N5-PF-P1/2/3` are complete; only `N5-PF-P4` is executable now.
+3. Do not activate or mint a final run plan for Positions 4--5 until the
    predecessor receipt fixes their content.
 4. Position 1 must begin by repeating
    `ASSUMPTION_VERSION_EXACTLY_COMPENSATED`.
@@ -951,24 +990,29 @@ comparison/postprocessing of experiments, and process-tensor/quantum-comb
 linearity. No force, new physics, ontology, grade-5 remainder, prediction,
 paper, or hardware result was earned.
 
-### Executable Position 3
+### Position-3 completion and executable Position 4
 
 ```text
-N5-PF-P3
-Complete Physical Feedback-Boundary Selection or Response-Equivalence Obstruction
+N5-PF-P3 COMPLETE AS HC-DU-056
+N5-PF-P4 REGIONAL FINALITY AND EXCESS-CONTENT HOSTILE AUDIT NEXT
 ```
 
-Freeze an independently motivated physical antecedent \(A\) and the complete
-future action/tester family \(\mathcal A\). Let \(b\sim_{\mathcal A}b'\) when
-every admitted response agrees. Test whether
+For Position 3, an independently motivated physical antecedent \(A\) selects
+the complete boundary response class exactly when:
 
 \[
-A(m)=A(m')
-\Longrightarrow
-B(m)\sim_{\mathcal A}B(m').
+\ker A\subseteq\ker(\Sigma_{\mathcal A}\circ B).
 \]
 
-Search first for a route/access/reset relocation pair crossing the
-response-equivalence classes, then for the smallest target-independent
-physical premise that closes it. Reuse existing specimens; do not construct
-a new host. Carry the matched preferred-leaf/causal-partial-order control.
+The current specimens satisfy that inclusion only for restricted action
+families. Orientation/path and route/reset-lineage capabilities expose exact
+first leaks. Physically freezing those fields closes the declared finite
+classes without demanding future-invisible microscopic identity, but the
+current antecedents do not derive the fields. The preferred foliation remains
+inert.
+
+Position 4 must audit the three declared candidate families without building a
+new host: finality-rate bounds, complementarity from record mergeability, and
+critical-exponent claims. Each adapter must freeze its complete response class,
+action envelope, matched standard null, first reopening boundary field, kill,
+and retreat cost. Deepen at most one candidate with nonzero excess content.

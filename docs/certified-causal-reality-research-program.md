@@ -2218,9 +2218,11 @@ physical response factors through the complete physical carrier, verifier,
 controller state, and physical boundary input, and whether the declared
 control is a sufficient quotient. `N5-PF-P2` has now completed those
 deterministic, stochastic-kernel, and quantum-process forms as `HC-DU-055`.
-`N5-PF-P3` is the only executable position; it tests antecedent selection of
-the complete physical feedback boundary up to full future response
-equivalence. Positions 4--5 remain conditional.
+`N5-PF-P3` is now complete as `HC-DU-056`: the response-class selector exists
+exactly when the complete future response signature is constant on antecedent
+fibres, raw microscopic identity is unnecessary, and capability enlargement
+can split a selected class. Only `N5-PF-P4` is executable. Position 5 remains
+conditional.
 
 See
 `../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md`
@@ -2302,24 +2304,80 @@ linearity. The exactly compensated preferred foliation is inert: different
 linear extensions of the same causal partial order preserve the result, and
 an accessible tick phase would belong in \(B\) or leave exact compensation.
 
-Position 3 is now executable as the complete physical feedback-boundary
-selection test. For independently fixed antecedent \(A\) and complete future
-action/tester family \(\mathcal A\), define response equivalence
-\(b\sim_{\mathcal A}b'\) and test:
-
-\[
-A(m)=A(m')
-\Longrightarrow
-B(m)\sim_{\mathcal A}B(m').
-\]
-
-This seeks operational class/orbit selection rather than unnecessarily
-demanding microscopic point selection. Search first for a route/access/reset
-relocation pair crossing the classes, then for the smallest
-target-independent premise that closes it. Do not build a new host.
+Position 3 has now completed that selector test as `HC-DU-056` below.
 
 See
 `../explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md`.
+
+### `HC-DU-056` — Feedback-boundary response-equivalence selection
+
+`N5-PF-P3` is complete. For physical implementation class \(M\), independent
+antecedent \(A:M\to\mathsf A\), complete boundary
+\(B:M\to\mathsf B\), and frozen future action/tester family \(\mathcal A\),
+let \(\Sigma_{\mathcal A}\) be the complete response signature. A unique
+selector into the boundary quotient
+\(\mathsf B/{\sim_{\mathcal A}}\) exists on \(\operatorname{im}A\) exactly
+when:
+
+\[
+\ker A
+\subseteq
+\ker(\Sigma_{\mathcal A}\circ B).
+\]
+
+This corrects an overstrong demand: the antecedent need not select raw
+microscopic implementation identity. Future-invisible route, dilation, or
+Hamiltonian details may remain plural. But if
+\(\mathcal A_0\subseteq\mathcal A_1\), then:
+
+\[
+\sim_{\mathcal A_1}
+\subseteq
+\sim_{\mathcal A_0},
+\]
+
+so capability enlargement can reopen a previously selected class.
+
+Two unchanged specimens realize the same exact response-partition staircase:
+
+```text
+material Z3:
+    source-only (1 class)
+        -> fixed pointer/orientation (2)
+        -> intermediate formation path (4)
+
+closed metastable host:
+    endpoint/next reduced law (1 class)
+        -> archive occurrence access (2)
+        -> next-cycle reset memory (4)
+```
+
+Material orientation selects the gauge endpoint class, and a physically
+frozen path selects the admitted multi-time class; route plus complete
+future-readable reset lineage select the host class. Future-invisible
+microtags remain unselected. These are valid conditional closures, but the
+current source/host antecedents do not derive the extra fields.
+
+A reset command or certificate is complete only when every memory state it
+leaves possible is equivalent under every admitted future action. It need not
+fix invisible microscopic environment state; it must fix all future-readable
+memory modulo behavior.
+
+The exact regression passes `21/21`. The mathematics is fully absorbed by
+quotient factorization, behavioral equivalence/bisimulation, observability,
+and quantum comb/process-tensor tester equivalence. No endogenous complete
+interface, new theorem of those fields, physical law, ontology, grade-5
+remainder, prediction, paper, simulation, or hardware result is earned. The
+exactly compensated foliation remains inert under the matched causal-partial-
+order control.
+
+Only `N5-PF-P4` is executable: hostile-audit the finality-rate,
+record-mergeability, and critical-exponent candidates for nonzero excess
+content, with a complete physical adapter, response class, action envelope,
+standard null, kill, and retreat cost. Position 5 remains conditional.
+
+See
+`../explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -4648,5 +4706,13 @@ CERTIFICATES CHANGE SAFE CAPABILITY THROUGH ORDINARY PHYSICAL FEEDBACK
 MATHEMATICAL CORE FULLY ABSORBED
 EXACT REGRESSION 24/24
 FOLIATION INERT
-N5-PF-P3 PHYSICAL FEEDBACK-BOUNDARY RESPONSE-EQUIVALENCE SELECTION NEXT
+N5-PF-P3 FEEDBACK-BOUNDARY RESPONSE-EQUIVALENCE SELECTION COMPLETE AS HC-DU-056
+RESPONSE-CLASS SELECTOR IFF ANTECEDENT-FIBRE CONSTANCY
+RAW MICROSCOPIC IDENTITY NOT REQUIRED
+CAPABILITY GROWTH REFINES RESPONSE EQUIVALENCE
+GAUGE ORIENTATION/PATH AND HOST ROUTE/RESET FIRST LEAKS EXACT
+CURRENT COMPLETE INTERFACE NOT ENDOGENOUSLY SELECTED
+EXACT REGRESSION 21/21
+FOLIATION INERT
+N5-PF-P4 REGIONAL FINALITY AND EXCESS-CONTENT HOSTILE AUDIT NEXT
 ```

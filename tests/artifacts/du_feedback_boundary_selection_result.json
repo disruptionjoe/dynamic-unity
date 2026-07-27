@@ -1,0 +1,159 @@
+{
+  "capability_verdict": "RESPONSE_EQUIVALENCE_REFINES_UNDER_ACTION_GROWTH",
+  "checks": [
+    {
+      "detail": "same antecedent always has the same response class",
+      "name": "response_class_selector_exists_exactly_on_antecedent_fibres",
+      "passed": true
+    },
+    {
+      "detail": "a0 contains b0 and b1 but both lie in response class r0",
+      "name": "raw_boundary_identity_is_not_required",
+      "passed": true
+    },
+    {
+      "detail": {
+        "a0": "r0",
+        "a1": "r1"
+      },
+      "name": "induced_selector_is_unique_on_the_antecedent_image",
+      "passed": true
+    },
+    {
+      "detail": "controlled add and subtract both preserve the source sectors",
+      "name": "gauge_law_selects_source_only_response_orbit",
+      "passed": true
+    },
+    {
+      "detail": "f=1 is read as pointer 1 under + and pointer 2 under -",
+      "name": "fixed_pointer_capability_reopens_orientation_orbit",
+      "passed": true
+    },
+    {
+      "detail": "orientation is a sufficient supplied premise for final pointer control",
+      "name": "material_orientation_selects_endpoint_response_class",
+      "passed": true
+    },
+    {
+      "detail": "same oriented endpoint instrument; different formation path",
+      "name": "intermediate_tester_reopens_endpoint_identical_paths",
+      "passed": true
+    },
+    {
+      "detail": "microscopic dilation tags remain unselected but response-equivalent",
+      "name": "orientation_and_path_select_full_admitted_response_class",
+      "passed": true
+    },
+    {
+      "detail": "response selection is strictly weaker than microscopic identity",
+      "name": "gauge_raw_implementation_remains_plural",
+      "passed": true
+    },
+    {
+      "detail": {
+        "plus_midpath_classes": 4,
+        "plus_pointer_classes": 2,
+        "source_only_classes": 1
+      },
+      "name": "gauge_capability_partitions_refine_monotonically",
+      "passed": true
+    },
+    {
+      "detail": "archive route and retained reset memory do not alter the frozen reduced endpoint law",
+      "name": "host_antecedent_selects_reduced_endpoint_response_class",
+      "passed": true
+    },
+    {
+      "detail": "visible archive returns WRITE; hidden route returns UNAVAILABLE",
+      "name": "occurrence_capability_exposes_archive_route_relocation",
+      "passed": true
+    },
+    {
+      "detail": "declared route closes the occurrence query but not reset lineage",
+      "name": "route_premise_selects_occurrence_response_only",
+      "passed": true
+    },
+    {
+      "detail": "same reset command and route; future-readable retained memory changes response",
+      "name": "next_cycle_tester_exposes_incomplete_reset",
+      "passed": true
+    },
+    {
+      "detail": "future-invisible microtags remain unselected",
+      "name": "route_and_reset_lineage_select_full_host_response_class",
+      "passed": true
+    },
+    {
+      "detail": "certificate is identical across clean and retained memory realizations",
+      "name": "semantic_reset_certificate_does_not_select_physical_reset",
+      "passed": true
+    },
+    {
+      "detail": "reset need not identify invisible microstructure; it must fix every future-readable memory class",
+      "name": "complete_future_readable_memory_is_the_minimum_reset_repair",
+      "passed": true
+    },
+    {
+      "detail": {
+        "endpoint_classes": 1,
+        "plus_occurrence_classes": 2,
+        "plus_reset_memory_classes": 4
+      },
+      "name": "host_capability_partitions_refine_monotonically",
+      "passed": true
+    },
+    {
+      "detail": "identity factorization is a positive control, not an independently selected antecedent",
+      "name": "response_signature_is_a_formal_but_action_coded_repair",
+      "passed": true
+    },
+    {
+      "detail": {
+        "boundary": [
+          "plus",
+          "path_0",
+          "clean"
+        ],
+        "orientation": 1,
+        "reset": "clean",
+        "response": "stable",
+        "source": 1
+      },
+      "name": "matched_linear_extensions_preserve_boundary_and_response",
+      "passed": true
+    },
+    {
+      "detail": "only causal parents, not leaf ranks, enter the boundary response",
+      "name": "forgetting_privileged_simultaneity_preserves_selector_verdicts",
+      "passed": true
+    }
+  ],
+  "checks_passed": 21,
+  "checks_total": 21,
+  "claim_id": "HC-DU-056",
+  "complete_interface_selected_endogenously": false,
+  "foliation_role": "INERT",
+  "gauge_verdict": "ORBIT_THEN_ORIENTATION_THEN_FORMATION_PATH",
+  "host_verdict": "ENDPOINT_THEN_ROUTE_THEN_RESET_LINEAGE",
+  "mathematical_core": "KNOWN_MATHEMATICS__FULLY_ABSORBED",
+  "maximum_grade": "SCOPED_NECESSITY_AND_OBSTRUCTION_THEOREM",
+  "next_position": "N5-PF-P4_REGIONAL_FINALITY_EXCESS_CONTENT_HOSTILE_AUDIT",
+  "not_claimed": [
+    "microscopic implementation uniqueness",
+    "endogenous complete feedback boundary",
+    "new behavioral-equivalence theorem",
+    "new quantum process theorem",
+    "new physical law",
+    "ontological result",
+    "grade-5 physical remainder",
+    "prediction",
+    "paper promotion",
+    "hardware result"
+  ],
+  "physical_selection_verdict": "CURRENT_WEAK_ANTECEDENTS_SELECT_RESTRICTED_CLASSES_ONLY",
+  "probe": "du_feedback_boundary_selection_probe",
+  "raw_identity_required": false,
+  "repair_verdict": "ROUTE_ORIENTATION_PATH_AND_RESET_FIELDS_CLOSE_ONLY_WHEN_PHYSICALLY_PREDECLARED",
+  "selector_theorem": "KER_A_SUBSET_KERNEL_OF_COMPLETE_RESPONSE_SIGNATURE_IFF_SELECTOR_EXISTS",
+  "work_id": "N5-PF-P3"
+}
