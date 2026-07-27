@@ -1,14 +1,14 @@
 ---
 title: "Next five-swing scaffold: host closeout to target-independent record selection"
-status: position_1_complete__position_2_deferred_behind_n5_scf
+status: position_1_complete__position_2_executable_after_n5_scf_handoff
 doc_type: inline_ten_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare and scaffold another five swings using divergent personas"
 sequence_id: N5-RS
-active_position: N5-SCF-P1
-deferred_position: N5-RS-P2
+active_position: N5-RS-P2
+deferred_position: none
 run_plan: "../runs/2026-07-27-next-five-host-closeout-record-selection-preparation.md"
-claim_status_change: none
+claim_status_change: "N5-SCF completed as HC-DU-047/048/049/050/051; N5-RS-P2 resumes with sharpened inputs"
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -36,10 +36,24 @@ as `HC-DU-046` with host verdict
 Position 2 has identity `N5-RS-P2`, but Joe subsequently interposed the
 [`N5-SCF` stochastic/consensus/complexity/cryptography
 sequence](next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-Only `N5-SCF-P1` is currently executable. `N5-RS-P2` is deferred rather than
-canceled; the fifth `N5-SCF` position must hand back a recommendation to
-resume, retype, or retire it. Positions 3--5 in this scaffold remain
-conditional.
+That five-position sequence is now complete as
+`HC-DU-047/048/049/050/051`. Its physical collision shows that distributed
+layers can amplify, propagate, certify, and hand off a formed physical
+record, but cannot supply the missing causal physical source-binding or
+record-formation premise. Its explicit recommendation is
+`RESUME_WITH_SHARPENED_INPUTS`. `N5-RS-P2` is therefore executable under its
+existing identity; Positions 3--5 remain conditional on its portfolio
+return.
+
+The sharpened premise is:
+
+```text
+independently motivated physical antecedent
+    -> selected target-sensitive source-to-record formation relation
+    -> bound orientation, epoch, archive, and observer access
+    -> strict noninjective action quotient
+    -> downstream propagation/reliability/certification layers
+```
 
 The deliberate pivot is Position 2. If the current host closes adversely and
 no more natural arena has a target-independent route to archive formation,
@@ -246,6 +260,23 @@ Minimum-Premise Compiler and Whole-DU Portfolio Pivot
 ```
 
 This is now the sole executable position.
+
+### `HC-DU-051` handoff
+
+The interposed sequence adds four constraints to the premise compiler:
+
+1. independent archive corruption can lower readout risk while remaining
+   downstream of one common source record;
+2. signatures, hash ancestry, quorums, threshold proofs, and zero-knowledge
+   relations do not identify causal physical source formation;
+3. a formed record can close a regional boundary action while capability
+   expansion reopens interior, crossing, or formation-history distinctions;
+   and
+4. physical handoff requires available evidence, current epoch, calibrated
+   orientation, and a still-valid action envelope.
+
+Treat downstream distributed layers as value multipliers after formation,
+not candidate replacements for the missing physical premise.
 
 ### Decision
 
@@ -470,9 +501,10 @@ the local fallback unless Joe separately authorizes the external path.
 
 1. Run one position at a time.
 2. Position 1 retains its completed identity: `ECR-N5-S5` / `HC-DU-046`.
-3. Position 2 retains identity `N5-RS-P2`, but is deferred behind `N5-SCF`.
-   Do not execute it or mint run identities for Positions 3--5 until the
-   interposed sequence returns its portfolio handoff.
+3. Position 2 retains identity `N5-RS-P2` and is executable after
+   `HC-DU-051` returned `RESUME_WITH_SHARPENED_INPUTS`. Do not mint run
+   identities for Positions 3--5 until Position 2 returns its portfolio
+   verdict.
 4. Before each position, consult the near-term approach atlas and write one
    bounded Run Plan.
 5. Use personas as divergent lenses, never as evidence or votes.

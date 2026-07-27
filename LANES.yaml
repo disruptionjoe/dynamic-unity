@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 84
+manifest_revision: 85
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -75,10 +75,11 @@ next_five_host_closeout_sequence_ref: >-
 next_five_host_closeout_sequence_rule: >-
   The prepared N5-RS sequence was designed through ten inline divergent lenses and a triple
   diamond. It does not create a parallel campaign. Position 1 is complete as HC-DU-046 with
-  host verdict SELECTION_OR_FORMATION_OBSTRUCTION. Position 2 retains identity N5-RS-P2, but Joe
-  has interposed the N5-SCF stochastic/consensus/complexity/cryptography sequence before it.
-  N5-RS-P2 is deferred rather than canceled. Its Positions 3 through 5 remain conditional, and
-  the interposed sequence must hand back a recommendation to resume, retype or retire the pivot.
+  host verdict SELECTION_OR_FORMATION_OBSTRUCTION. Joe interposed and completed the five-position
+  N5-SCF stochastic/consensus/complexity/cryptography sequence as
+  HC-DU-047/048/049/050/051. Its explicit handoff is RESUME_WITH_SHARPENED_INPUTS. Position 2
+  retains identity N5-RS-P2 and is now executable; Positions 3 through 5 remain conditional on
+  its portfolio receipt.
 stochastic_consensus_finality_sequence_ref: >-
   explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
 stochastic_consensus_finality_sequence_rule: >-
@@ -89,8 +90,8 @@ stochastic_consensus_finality_sequence_rule: >-
   homomorphic/MPC and threshold/DKG cryptographers. It preserves HC-DU-035A/035C and asks what
   amplification, propagation, provenance, metastability, hard finality, cryptographic
   verification, concealed computation and capability-relative filtering can add without
-  creating information absent from the complete joint admitted input. N5-SCF-P1/2/3/4 are complete as
-  HC-DU-047/048/049/050. HC-DU-047 proves deterministic and stochastic joint-input no-minting while correcting the
+  creating information absent from the complete joint admitted input. All five positions are
+  complete as HC-DU-047/048/049/050/051. HC-DU-047 proves deterministic and stochastic joint-input no-minting while correcting the
   individual-input overreach: XOR and threshold-secret-sharing correlations can be jointly
   exact while every local marginal is target-independent. IID evidence amplifies; copied,
   common-shock, clustered, higher-order-dependent, stigmergic and adversarially sampled evidence
@@ -105,10 +106,13 @@ stochastic_consensus_finality_sequence_rule: >-
   frozen local action without reconstructing global history; capability enlargement refines the
   relevant history quotient; commitment is not evidence availability; compact handoff is
   receiver-contextual and epoch-bound; and self-confirming filters can hide corrective evidence.
-  Only N5-SCF-P5, DU Physical Collision and Portfolio Handoff, is executable. It must collide the
-  unchanged typed stack with one DU physical arena and hand a resume/retype/retire recommendation
-  to deferred N5-RS-P2. No model,
-  hardware, paper, prediction or physics claim is promoted.
+  HC-DU-051 applies the unchanged stack to the formed material gauge archive and the closed
+  metastable host. Independent archive corruption lowers bounded readout risk while common shock
+  does not; neither splits a source-record fibre. Boundary-flux closure and receiver-contextual
+  handoff transfer physically. The first exact non-unification is authenticated representation
+  versus causal physical source/action binding, captured also by the signed-render versus
+  authoritative-collision dual-mesh control. N5-SCF is complete and N5-RS-P2 resumes with
+  sharpened inputs. No model, hardware, paper, prediction or physics claim is promoted.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -175,9 +179,9 @@ metastable_host_robustness_result_rule: >-
   interface changed by accessible/hidden routing while the host antecedent stays fixed cannot
   factor through that antecedent. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION, retain
   MARKOV_OPERATIONAL_CLOSURE as the positive control, and treat A-plus-H repair as
-  INJECTIVE_TOMOGRAPHY_ONLY. N5-RS-P2 was the initially queued portfolio pivot, but Joe has
-  interposed N5-SCF. HC-DU-047/048/049/050 have completed Positions 1 through 4. Advance only N5-SCF-P5 and
-  do not fit another archive to this host.
+  INJECTIVE_TOMOGRAPHY_ONLY. N5-RS-P2 was the initially queued portfolio pivot; the interposed
+  N5-SCF sequence is now complete as HC-DU-047/048/049/050/051 and recommends resumption with
+  sharpened physical-source-formation inputs. Do not fit another archive to this host.
 joint_input_amplification_result_ref: >-
   explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md
 joint_input_amplification_result_rule: >-
@@ -192,8 +196,8 @@ joint_input_amplification_result_rule: >-
   FHE/MPC and threshold cryptography alter verification, computation, disclosure or authority
   without certifying a physical target absent from the complete joint input. Treat effective
   support as model-relative. HC-DU-048 tests gossip/DAG propagation and provenance across
-  matched synergy and null source worlds; HC-DU-049 tests the hardening boundary and HC-DU-050
-  tests selective views and regional handoff. Advance only N5-SCF-P5.
+  matched synergy and null source worlds; HC-DU-049 tests the hardening boundary, HC-DU-050
+  tests selective views and regional handoff, and HC-DU-051 completes the physical collision.
 synergy_gossip_dag_provenance_result_ref: >-
   explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
 synergy_gossip_dag_provenance_result_rule: >-
@@ -206,7 +210,8 @@ synergy_gossip_dag_provenance_result_rule: >-
   path length fails benign-subdivision naturality while reachability among distinguished original
   events survives. An event-bound zero-knowledge proof certifies its declared relation, not an
   unmodeled physical target. HC-DU-049 tests metastable and Byzantine/threshold
-  hardening; HC-DU-050 tests selective views and regional handoff.
+  hardening; HC-DU-050 tests selective views and regional handoff; HC-DU-051
+  completes the physical collision.
 metastable_byzantine_provenance_result_ref: >-
   explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md
 metastable_byzantine_provenance_result_rule: >-
@@ -222,7 +227,7 @@ metastable_byzantine_provenance_result_rule: >-
   Certificate sufficiency is capability-indexed. Scoped composition requires source
   adequacy, validity adequacy, sampling accounting, conflict safety, liveness,
   certificate sufficiency, epoch/setup integrity and archive availability. HC-DU-050
-  consumes this boundary.
+  consumes this boundary and HC-DU-051 completes the physical collision.
 capability_relative_selective_view_handoff_result_ref: >-
   explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
 capability_relative_selective_view_handoff_result_rule: >-
@@ -235,7 +240,22 @@ capability_relative_selective_view_handoff_result_rule: >-
   evidence is monotone under history extension while absence of a fork is not; and an adaptive
   self-confirming interest filter can hide corrective evidence. Safe handoff factors through
   the export plus declared receiver context and cannot mint a target absent from admitted
-  upstream input. Advance only N5-SCF-P5, DU Physical Collision and Portfolio Handoff.
+  upstream input. HC-DU-051 completes the physical collision and hands the sharpened premise to
+  N5-RS-P2.
+distributed_physical_collision_result_ref: >-
+  explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
+distributed_physical_collision_result_rule: >-
+  Every randomized replica, decoder, signature, proof, vote or hardening layer downstream of one
+  formed physical record remains constant in law on that record's fibres. In the material Z3
+  gauge anchor, independent archive corruption lowers bounded flux-readout risk across an odd-size
+  family while common shock does not; neither creates interior, crossing or formation-history
+  information. The archive exactly closes boundary-flux actions and physical handoff requires
+  evidence availability, current epoch, calibrated orientation and a preserved boundary envelope.
+  The first exact distributed/physical non-unification is authenticated declared origin versus
+  causal physical source binding: a signed value can be QND-formed or preloaded. The MMO
+  dual-mesh control states the same factorization boundary as signed render representation versus
+  authoritative collision capability. The metastable host remains closed under replication,
+  signing and hardening. N5-SCF is complete; resume N5-RS-P2 with sharpened inputs.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -668,8 +688,13 @@ lanes:
     hardening changes conflict safety rather than source truth, and certificate sufficiency is
     capability-indexed. Consume HC-DU-050: incomplete regional views can each close a frozen
     action, while receiver context, epoch, evidence availability and capability expansion govern
-    safe handoff. Advance only N5-SCF-P5;
-    N5-RS-P2 and its later positions remain deferred and conditional.
+    safe handoff. Consume HC-DU-051: independent archive corruption can lower action error after
+    one physical record forms, but neither replication, authenticated lineage nor stronger
+    finality creates distinctions absent from that source record. The first exact non-unifying
+    arrow is authenticated declared origin to causal physical source binding; the signed
+    render-mesh/collision-mesh control makes the capability failure explicit. N5-SCF is complete.
+    Resume only N5-RS-P2 with the sharpened formed-source premise; later N5-RS positions remain
+    deferred and conditional.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -852,10 +877,13 @@ lanes:
     fork-visibility and knowledge-layer separation while leaving physical source binding open.
     HC-DU-049 proves scoped metastable-to-Byzantine composition with a mandatory
     capability-indexed provenance lift. HC-DU-050 proves capability-relative selective-view
-    closure and receiver-contextual regional handoff. Advance only N5-SCF-P5, DU Physical
-    Collision and Portfolio Handoff. N5-RS-P2
-    is deferred behind the five-swing N5-SCF sequence. Do not begin another mechanism-specific
-    card independently.
+    closure and receiver-contextual regional handoff. HC-DU-051 now collides that unchanged
+    stack with the material Z3 archive and closed metastable host: downstream layers amplify,
+    route, authenticate and hand off already formed distinctions but do not certify causal
+    formation. Independent corruption improves bounded readout risk without adding source information;
+    signed render provenance does not determine collision capability. The five-swing N5-SCF
+    sequence is complete. Resume only N5-RS-P2 and do not begin another mechanism-specific card
+    independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -991,8 +1019,11 @@ lanes:
     equivocation audit, membership reconstruction, controller independence or physical-source
     adjudication open. Consume HC-DU-050's exact capability refinement: selective views close
     only their frozen actions, and safe handoff is receiver-contextual, epoch-bound and
-    availability-sensitive. Advance only N5-SCF-P5 and test whether that unchanged structure
-    has a genuine physical counterpart.
+    availability-sensitive. Consume HC-DU-051's physical collision: the material Z3 archive gives
+    the positive counterpart for boundary-flux action, while interior charge, crossing and
+    formation history remain exact leaks. Independent copies reduce action error but do not become
+    independent physical sources, and authenticated representation alone does not bind a current
+    physical capability surface. N5-SCF is complete; resume N5-RS-P2.
   success_signal: >-
     A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
     counterexample showing exactly which access or resource was missing.
@@ -1002,6 +1033,8 @@ lanes:
   - CH-EMPIRICAL
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
+  - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
+  - tests/du_distributed_physical_collision_probe.py
   - explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
   - tests/du_capability_relative_selective_view_handoff_probe.py
   - explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md
@@ -1097,8 +1130,11 @@ lanes:
     knowledge, ordering and action safety are distinct predicates. A conflict-safe certificate
     can still omit the provenance required by a stronger action. HC-DU-050 adds that local
     action closure does not require global-history reconstruction, while capability expansion
-    reopens omitted distinctions. Advance only N5-SCF-P5, DU Physical Collision and Portfolio
-    Handoff; N5-RS-P2 remains deferred.
+    reopens omitted distinctions. HC-DU-051 adds the exact cross-arena boundary: scoped
+    distributed amplification and regional handoff work after target-sensitive physical
+    formation, but declared ancestry and signatures do not identify that formation. The
+    render-mesh/collision-mesh control exposes the same value with different action capability.
+    N5-SCF is complete; resume only N5-RS-P2.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -1109,6 +1145,8 @@ lanes:
   - CH-COLLIDE
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
+  - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
+  - tests/du_distributed_physical_collision_probe.py
   - explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
   - tests/du_capability_relative_selective_view_handoff_probe.py
   - explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
@@ -1221,9 +1259,11 @@ lanes:
     stays absent downstream. HC-DU-048 adds that gossip can pool complementary source
     information and a signed DAG preserves declared rather than physical provenance. HC-DU-049
     adds the scoped hardening and capability-indexed certificate-sufficiency boundary. HC-DU-050
-    adds selective-view local closure and receiver-contextual handoff. Advance only N5-SCF-P5;
-    N5-RS-P2 is deferred behind the
-    stochastic/consensus/complexity/cryptography sequence.
+    adds selective-view local closure and receiver-contextual handoff. HC-DU-051 completes the
+    stochastic/consensus/complexity/cryptography sequence: independent archive corruption changes
+    action risk but not source information, authenticated declared origin does not imply causal
+    source formation, and safe physical handoff also requires the current epoch, orientation,
+    availability and preserved action boundary. Resume only N5-RS-P2.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1366,9 +1406,10 @@ lanes:
     knowledge-layer boundary without paper or prediction promotion. HC-DU-049 adds the scoped
     hardening/provenance-lift boundary without paper or prediction promotion. HC-DU-050 adds the
     capability-relative selective-view and regional-handoff boundary without paper or prediction
-    promotion. Advance only N5-SCF-P5;
-    the N5-RS-P2 minimum-premise and whole-DU portfolio pivot is deferred until N5-SCF returns
-    its cross-arena handoff.
+    promotion. HC-DU-051 adds the scoped physical-collision, amplification-without-minting and
+    signed-render/physical-capability factorization boundary without paper or prediction
+    promotion. N5-SCF is complete. Resume N5-RS-P2 with its sharpened minimum premise and
+    whole-DU portfolio pivot.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1379,6 +1420,9 @@ lanes:
   canonical_refs:
   - papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
   - docs/certified-causal-reality-research-program.md
+  - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
+  - tests/du_distributed_physical_collision_probe.py
+  - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/locked-qnd-memory-hardware-prediction-2026-07-26.md
@@ -1420,11 +1464,12 @@ lanes:
     the first completed cycle and every longer horizon; full environment repair is injective
     and resource-expanded. Preserve the host verdict
     SELECTION_OR_FORMATION_OBSTRUCTION and the prepared N5-RS sequence without treating it as a
-    parallel campaign. Preserve completed HC-DU-047/048/049/050 and their
+    parallel campaign. Preserve completed HC-DU-047/048/049/050/051 and their
     individual-versus-joint-insufficiency, synergy-preserving propagation, declared-provenance
     knowledge-layer, hardening, certificate-sufficiency, selective-view and handoff corrections.
-    Preserve the interposed N5-SCF sequence and make only N5-SCF-P5 executable; N5-RS-P2 remains
-    deferred.
+    Preserve HC-DU-051's independent-risk/source-information distinction and exact
+    authenticated-render/physical-capability factorization. The interposed N5-SCF sequence is
+    complete; make only N5-RS-P2 executable.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1435,6 +1480,8 @@ lanes:
   canonical_refs:
   - AGENTS.md
   - explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
+  - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
+  - tests/du_distributed_physical_collision_probe.py
   - explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md
   - tests/du_capability_relative_selective_view_handoff_probe.py
   - explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
@@ -5470,6 +5517,24 @@ provenance:
     28/28. Only N5-SCF-P5, DU Physical Collision and Portfolio Handoff, is
     executable. N5-RS-P2 remains deferred. No paper, prediction, new physics,
     research model, hardware, provider, submission, publication or
+    external-contact state changed.
+  rev85_note: >-
+    2026-07-27 (Joe direct chat: Go, followed by the render-mesh/collision-mesh
+    analogy): completed N5-SCF-P5 as HC-DU-051. The material Z3 archive is a
+    positive physical counterpart for action-relative boundary finality:
+    independent archive corruption lowers majority-readout error from 1/10 to
+    7/250, while common-source corruption remains at 1/10. This changes
+    majority-readout risk without adding source information; every copy is downstream of one
+    formed physical record. Interior charge, unlogged crossing and microscopic
+    formation history remain exact same-record leaks. A matched dual-mesh
+    control gives identical signed render provenance with different collision
+    capability, proving that authenticated declared origin does not establish
+    causal physical source/action binding. Safe physical handoff requires the
+    formed archive plus availability, current epoch, orientation/calibration and
+    a preserved action boundary. The closed metastable host remains adverse.
+    The exact certificate passes 35/35. N5-SCF is complete; only N5-RS-P2 is
+    executable with the sharpened formed-source premise. No paper, prediction,
+    new physics, research model, hardware, provider, submission, publication or
     external-contact state changed.
 extensions:
   operating_architecture:

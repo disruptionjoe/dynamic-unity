@@ -10,8 +10,9 @@ successor_result: HC-DU-047
 second_successor_result: HC-DU-048
 third_successor_result: HC-DU-049
 fourth_successor_result: HC-DU-050
-current_next_work: N5-SCF-P5
-deferred_work: N5-RS-P2
+fifth_successor_result: HC-DU-051
+current_next_work: N5-RS-P2
+deferred_work: none
 claim_state_change: none
 paper_state_change: none
 hardware_state_change: none
@@ -92,10 +93,21 @@ each possess a sufficient view for a frozen local action without
 reconstructing one global history. Capability enlargement refines the
 relevant history equivalence, a commitment does not provide evidence
 availability, a compact certificate can be stale at a receiver's new epoch,
-and a feedback-selected interest view can hide corrective evidence. The
-active successor is now `N5-SCF-P5`, DU Physical Collision and Portfolio
-Handoff. See
+and a feedback-selected interest view can hide corrective evidence. At that
+stage the active successor became `N5-SCF-P5`, DU Physical Collision and
+Portfolio Handoff. See
 [`HC-DU-050`](../explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md).
+
+`N5-SCF-P5` then completed as `HC-DU-051`. The material gauge boundary
+provides the formed physical positive anchor and the closed metastable host
+remains adverse. Independent archive corruption amplifies bounded readout
+reliability; common shock does not; neither creates distinctions beyond the
+formed source record. Boundary-flux action closure and receiver-contextual
+handoff transfer exactly. The first physical non-unification is that
+authenticated declared origin does not identify causal physical source
+binding. The sequence is complete and recommends
+`RESUME_WITH_SHARPENED_INPUTS` for `N5-RS-P2`. See
+[`HC-DU-051`](../explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md).
 
 Distributed layers then add different typed guarantees:
 

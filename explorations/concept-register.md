@@ -2385,10 +2385,29 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   absence of a fork is not. Safe regional handoff factors through the export
   together with declared receiver context and cannot mint a physical target
   absent from the complete admitted upstream input.
-- **Next discriminator.** `N5-SCF-P5` collides the unchanged completed
-  distributed stack with one physically formed record arena and the closed
-  metastable host, returning either a scoped physical correspondence or the
-  first precise arrow where the translation fails.
+- **2026-07-27 distributed/physical collision.** `HC-DU-051` applies the
+  unchanged stack to the formed material `Z3` gauge-boundary archive and the
+  closed metastable host. Independent archive corruption lowers bounded
+  readout risk across an odd-size family; common shock does not; neither
+  splits a source-record fibre. The gauge record is exact for the
+  boundary-flux action and fails for interior charge, unlogged crossing, and
+  microscopic formation history. Safe physical handoff additionally needs
+  archive availability, current epoch, calibrated orientation, and the
+  preserved boundary envelope.
+- **Exact first non-unification.** Authentication of a declared record value
+  does not establish causal physical source binding. The same signed or
+  hardened value can be QND-formed or preloaded. A separately formed coupling
+  witness repairs the target only by enlarging the physical record. Joe's MMO
+  dual-mesh analogy makes the factorization exact: a signed render mesh can
+  identify the delivered representation while failing to identify the
+  authoritative collision response; safe action requires the response to
+  factor through the view or an independently formed render/collision
+  binding.
+- **Next discriminator.** The five-position `N5-SCF` sequence is complete.
+  Resume `N5-RS-P2` with the sharpened premise that distributed reliability,
+  propagation, certification, and handoff become useful only after an
+  independently motivated physical antecedent selects and forms a
+  target-sensitive source-to-record relation.
 - **Nearest terrain.** Function factorization, Blackwell comparison,
   data processing, concentration under dependence, multivariate synergy,
   secret sharing, zero knowledge, secure computation, threshold
@@ -2401,8 +2420,11 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   SCOPED METASTABLE-TO-BYZANTINE COMPOSITION AND CAPABILITY-INDEXED
   PROVENANCE LIFT INSTALLED / PHYSICAL SOURCE BINDING AND COMMON KNOWLEDGE
   REMAIN SEPARATE / CAPABILITY-RELATIVE SELECTIVE-VIEW AND
-  RECEIVER-CONTEXTUAL HANDOFF BOUNDARY INSTALLED / DU PHYSICAL COLLISION
-  NEXT / NO CONSENSUS
+  RECEIVER-CONTEXTUAL HANDOFF BOUNDARY INSTALLED / SCOPED PHYSICAL
+  AMPLIFICATION AND CAPABILITY-RELATIVE FINALITY INSTALLED /
+  AUTHENTICATED-REPRESENTATION VERSUS CAUSAL-SOURCE/ACTION DUAL-MESH
+  NON-UNIFICATION INSTALLED / N5-RS-P2 RESUMES WITH SHARPENED INPUTS /
+  NO CONSENSUS
   NOVELTY, STRONG EMERGENCE, ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER
   PROMOTION.** See
   `joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md`
@@ -2411,7 +2433,9 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   and
   `metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md`
   and
-  `capability-relative-selective-views-and-regional-handoff-2026-07-27.md`.
+  `capability-relative-selective-views-and-regional-handoff-2026-07-27.md`
+  and
+  `distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

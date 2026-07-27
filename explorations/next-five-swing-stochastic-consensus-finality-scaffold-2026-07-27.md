@@ -1,13 +1,13 @@
 ---
 title: "Next five-swing scaffold: stochastic amplification, layered consensus, and capability-relative finality"
-status: positions_1_through_4_complete__position_5_executable
+status: sequence_complete__handoff_to_n5_rs_p2
 doc_type: inline_eighteen_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: interpose a stochastic/distributed-systems preparation before N5-RS-P2"
 sequence_id: N5-SCF
-active_position: N5-SCF-P5
+active_position: sequence_complete
 run_plan: "../runs/2026-07-27-stochastic-consensus-finality-five-swing-preparation.md"
-claim_status_change: "N5-SCF-P1/2/3/4 complete as HC-DU-047/048/049/050; N5-SCF-P5 executable"
+claim_status_change: "N5-SCF-P1/2/3/4/5 complete as HC-DU-047/048/049/050/051; N5-RS-P2 resumes with sharpened inputs"
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -26,9 +26,13 @@ P4  model capability-relative views through MMO-style interest management and ne
 P5  apply the typed stack to a DU physical-record arena and extract a theorem or exact non-unification
 ```
 
-Positions 1 through 4 are complete as `HC-DU-047/048/049/050`. Position 5 is
-now executable under identity `N5-SCF-P5`. Position 4 fixed the smallest
-receiver-contextual physical handoff and its stop conditions.
+All five positions are complete as `HC-DU-047/048/049/050/051`.
+`HC-DU-051` applies the stack to the material gauge-boundary record and the
+closed metastable host. It returns scoped physical amplification and
+capability-relative finality, then proves the first exact non-unification:
+authenticated declared origin does not identify causal physical source
+binding. The sequence hands `N5-RS-P2` a
+`RESUME_WITH_SHARPENED_INPUTS` recommendation.
 
 This sequence does not assume that consensus creates truth, that quantum
 systems vote, or that the universe implements a distributed database. Its
@@ -72,9 +76,11 @@ filter can hide the first corrective event. Safe handoff is therefore a
 factorization through the export together with receiver context, not a
 context-free property of the certificate.
 
-`N5-RS-P2`, the minimum-premise compiler and whole-DU portfolio pivot, is
-deferred rather than canceled. Position 5 must hand it a sharper premise
-matrix or recommend that it be retyped.
+`N5-RS-P2`, the minimum-premise compiler and whole-DU portfolio pivot, now
+resumes under its existing identity. Its sharpened input is that downstream
+reliability, propagation, certification, hardening, and selective access add
+value only after an independently motivated physical antecedent selects and
+forms a target-sensitive causal source-to-record relation.
 
 No scientific claim, hypothesis grade, paper priority, prediction, model,
 simulation, hardware path, provider action, publication state, or sibling
@@ -822,9 +828,50 @@ KNOWN_DISTRIBUTED_ABSORBER_ONLY
 INCOMPLETE_PHYSICAL_INTERFACE
 ```
 
-Position 5 must write a handoff to the deferred `N5-RS-P2` portfolio pivot.
-It may recommend resuming, retyping, or retiring that work object. It cannot
-make the portfolio decision silently.
+### Completion receipt
+
+Position 5 completed as
+[`HC-DU-051`](distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md).
+The material `Z3` gauge-boundary archive supplies the positive physical
+anchor, and the closed metastable host remains adverse.
+
+The exact return is:
+
+```text
+SCOPED_AMPLIFICATION_WITHOUT_INFORMATION_CREATION_THEOREM
+CAPABILITY_RELATIVE_REGIONAL_FINALITY_THEOREM
+EXACT_DISTRIBUTED_PHYSICAL_NON_UNIFICATION
+```
+
+Independent corruption of physical archive copies lowers bounded readout
+risk across a size family; common shock does not. Neither creates a
+distinction outside the formed flux record. The archive closes the
+boundary-flux action and fails for interior charge, unlogged crossing, and
+microscopic formation history. Safe physical handoff additionally requires
+availability, current epoch, calibrated orientation, and the preserved
+boundary envelope.
+
+The first exact semantic break is:
+
+```text
+authenticated declared origin
+    !=
+causal physical source binding
+```
+
+The same signed or hardened record can be QND-formed or preloaded. A coupling
+witness repairs the distinction only as a newly formed physical meta-record.
+The metastable endpoint remains insufficient for historical occurrence after
+replication, signing, and hardening; full-history access remains injective
+tomography.
+
+Position 5 writes the explicit portfolio recommendation:
+
+```text
+N5-RS-P2: RESUME_WITH_SHARPENED_INPUTS
+```
+
+It does not preselect the portfolio winner.
 
 ## 12. Triple Diamond 3 — assurance
 
@@ -973,5 +1020,11 @@ source truth unchanged and, under compression, omitting provenance needed by
 stronger audit capabilities. `HC-DU-050` shows that differently filtered
 regions can each close a frozen local action without global-history
 reconstruction, while availability, epoch context, adaptive filtering, and
-capability expansion are exact handoff boundaries. `N5-SCF-P5` now applies
-the unchanged typed stack to a physical-record problem in Dynamic Unity.
+capability expansion are exact handoff boundaries. `HC-DU-051` applies the
+unchanged stack to a formed material gauge record and the adverse metastable
+host. Reliability amplification, selective action closure, capability
+refinement, and receiver-contextual handoff survive physically. The
+translation fails exactly when digital authentication is asked to establish
+causal physical source formation, or protocol authority is identified with
+physical target factorization. The five-position sequence is complete and
+hands `N5-RS-P2` a `RESUME_WITH_SHARPENED_INPUTS` recommendation.

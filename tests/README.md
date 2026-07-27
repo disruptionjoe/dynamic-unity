@@ -2007,3 +2007,48 @@ factorization, selective-view minima, capability refinement, and first-failure
 controls. It is not an MMO, database, network, cryptographic, consensus, or
 physical implementation; a security proof; new physics; a prediction; a
 paper promotion; or authority for hardware or external action.
+
+## HC-DU-051 distributed/physical record collision
+
+`du_distributed_physical_collision_probe.py` preserves the exact finite
+controls behind the completed `N5-SCF-P5` collision:
+
+- a QND-formed gauge record and a preloaded/null record have the same visible
+  marginal while only the formed relation reconstructs boundary flux;
+- signatures over the declared value preserve that same visible law and do
+  not identify physical formation mode;
+- the material flux archive exactly closes boundary actions while interior
+  charge and microscopic formation history remain same-record remainders;
+- independent archive corruption lowers majority-readout risk across odd
+  sizes `1,3,5,7,9`, while common shock remains at its error floor;
+- finite full-support noise remains exactly nonidentifying even when majority
+  risk improves;
+- ideal and noisy downstream copies do not split the source record's
+  interior fibre;
+- all 48 physical handoff rows require archive value, availability, current
+  epoch, calibrated orientation, and a preserved boundary envelope;
+- an old archive remains historical truth but is not sufficient for current
+  flux after an unlogged crossing;
+- a hardened certificate can close a declared execution rule while leaving
+  physical source binding open;
+- the MMO dual-mesh control proves that a signed render mesh can identify the
+  delivered representation while failing to identify `BLOCK` versus `PASS`
+  on the authoritative collision surface;
+- endpoint replication, signing, and hardening do not repair the closed
+  metastable-host occurrence fibre; and
+- full-history access repairs that witness only by injective tomography.
+
+Run:
+
+```bash
+python3 tests/du_distributed_physical_collision_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_distributed_physical_collision_result.json` and reports
+`35/35`. Passing is regression coverage for analytic finite factorization,
+exact binomial risk, physical capability refinement, dual-mesh
+non-unification, and hostile-host controls. It is not a network, consensus,
+cryptographic, gauge, quantum, or hardware implementation; a new theorem in
+those component fields; strong emergence; new physics; a prediction; a paper
+promotion; or authority for external action.

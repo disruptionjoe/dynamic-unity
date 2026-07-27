@@ -1,0 +1,323 @@
+{
+  "arena_selection": {
+    "absorber": "HC-DU-040E stabilizer syndrome",
+    "hostile": "HC-DU-046 closed metastable host",
+    "primary": "HC-DU-040D material Z3 gauge boundary",
+    "reason": "the primary already has a formed source-pointer-archive channel, declared access, stochastic redundancy controls, frozen targets, and exact local proofs"
+  },
+  "checks": {
+    "all_pass": true,
+    "details": [
+      {
+        "detail": {
+          "0": "1/3",
+          "1": "1/3",
+          "2": "1/3"
+        },
+        "name": "formed_and_preloaded_worlds_have_the_same_visible_record_marginal",
+        "passed": true
+      },
+      {
+        "detail": "the frozen QND formation relation is target-sensitive",
+        "name": "formed_gauge_record_exactly_reconstructs_boundary_flux",
+        "passed": true
+      },
+      {
+        "detail": "the same record alphabet and marginal can be physically unbound",
+        "name": "preloaded_null_record_does_not_reconstruct_boundary_flux",
+        "passed": true
+      },
+      {
+        "detail": "authentication of the declared value does not identify its physical formation",
+        "name": "signed_artifact_laws_match_when_visible_record_laws_match",
+        "passed": true
+      },
+      {
+        "detail": "same value and signature, different causal source relation",
+        "name": "terminal_certificate_does_not_reconstruct_physical_formation_mode",
+        "passed": true
+      },
+      {
+        "detail": "the repair is an additional physical meta-record, not more hashing",
+        "name": "adding_a_formed_coupling_witness_repairs_provenance_only_by_expanding_the_record",
+        "passed": true
+      },
+      {
+        "detail": "ker(record) is contained in ker(boundary action)",
+        "name": "gauss_boundary_record_is_exact_for_boundary_flux_action",
+        "passed": true
+      },
+      {
+        "detail": "(n1,n2)=(0,1) and (1,0) share flux one",
+        "name": "same_complete_boundary_record_retains_interior_remainder",
+        "passed": true
+      },
+      {
+        "detail": {
+          "boundary_classes": 3,
+          "interior_classes": 4
+        },
+        "name": "interior_capability_strictly_refines_boundary_action_equivalence",
+        "passed": true
+      },
+      {
+        "detail": "equal final instruments admit distinct intermediate dynamics",
+        "name": "terminal_flux_archive_does_not_reconstruct_microscopic_write_history",
+        "passed": true
+      },
+      {
+        "detail": {
+          "1": "1/10",
+          "3": "7/250",
+          "5": "107/12500",
+          "7": "341/125000",
+          "9": "22273/25000000"
+        },
+        "name": "independent_archive_errors_amplify_reliability_across_a_size_family",
+        "passed": true
+      },
+      {
+        "detail": {
+          "1": "1/10",
+          "3": "1/10",
+          "5": "1/10",
+          "7": "1/10",
+          "9": "1/10"
+        },
+        "name": "common_shock_replication_has_no_reliability_scaling_gain",
+        "passed": true
+      },
+      {
+        "detail": {
+          "single_cell": "1/10",
+          "three_cell_majority": "7/250"
+        },
+        "name": "three_independent_cells_beat_one_cell_but_remain_inexact",
+        "passed": true
+      },
+      {
+        "detail": "all-zero copies can arise from flux zero/no errors or flux two/all errors",
+        "name": "finite_full_support_archive_noise_does_not_exactly_identify_flux",
+        "passed": true
+      },
+      {
+        "detail": "lower decision risk is not exact reconstructibility",
+        "name": "majority_hardening_does_not_repair_exact_support_factorization",
+        "passed": true
+      },
+      {
+        "detail": "copying preserves the distinction already in the formed source record",
+        "name": "ideal_redundant_copies_preserve_exact_boundary_flux",
+        "passed": true
+      },
+      {
+        "detail": "no number of downstream copies splits a source-record fibre",
+        "name": "ideal_redundant_copies_do_not_reconstruct_interior_charge",
+        "passed": true
+      },
+      {
+        "detail": "independent channel failures remain downstream of one common flux record",
+        "name": "independently_corrupted_copies_are_not_independent_physical_sources",
+        "passed": true
+      },
+      {
+        "detail": [
+          "archive_flux",
+          "available",
+          "epoch_current",
+          "orientation_aligned",
+          "boundary_preserving"
+        ],
+        "name": "physical_handoff_factors_through_export_plus_receiver_context",
+        "passed": true
+      },
+      {
+        "detail": "availability, epoch, orientation, and action envelope remain live",
+        "name": "archive_value_alone_is_not_a_safe_current_action_handoff",
+        "passed": true
+      },
+      {
+        "detail": {
+          "archive_flux": false,
+          "available": false,
+          "boundary_preserving": false,
+          "epoch_current": false,
+          "orientation_aligned": false
+        },
+        "name": "every_frozen_handoff_field_has_an_exact_first_failure",
+        "passed": true
+      },
+      {
+        "detail": "durable historical truth is typed separately from current-state sufficiency",
+        "name": "old_archive_remains_exact_for_historical_flux",
+        "passed": true
+      },
+      {
+        "detail": "same historical archive, different current enclosed charge",
+        "name": "old_archive_does_not_reconstruct_current_flux_across_crossing",
+        "passed": true
+      },
+      {
+        "detail": "the scoped finality statement is exact once all premises hold",
+        "name": "current_flux_closes_inside_the_frozen_safe_envelope",
+        "passed": true
+      },
+      {
+        "detail": "protocol action closure is real inside the supplied validity/authority rule",
+        "name": "hardened_certificate_is_sufficient_for_declared_execution",
+        "passed": true
+      },
+      {
+        "detail": "authority and physical formation are different targets",
+        "name": "same_hardened_certificate_does_not_adjudicate_physical_source_binding",
+        "passed": true
+      },
+      {
+        "detail": "a proof of the declared relation cannot attest an omitted physical relation",
+        "name": "verification_without_disclosure_does_not_change_the_source_fibre",
+        "passed": true
+      },
+      {
+        "detail": "representation provenance can be exact on its own target",
+        "name": "signed_render_mesh_exactly_identifies_the_delivered_representation",
+        "passed": true
+      },
+      {
+        "detail": "identical visible asset, BLOCK versus PASS",
+        "name": "signed_render_mesh_does_not_identify_collision_capability",
+        "passed": true
+      },
+      {
+        "detail": "the repair binds the action surface; it is not a stronger signature over render alone",
+        "name": "authoritative_dual_mesh_binding_repairs_action_by_expanding_the_handoff",
+        "passed": true
+      },
+      {
+        "detail": "the positive endpoint-action control survives",
+        "name": "metastable_endpoint_preserves_markov_operational_closure",
+        "passed": true
+      },
+      {
+        "detail": "empty history and CWCW share endpoint x1",
+        "name": "metastable_endpoint_does_not_reconstruct_historical_occurrence",
+        "passed": true
+      },
+      {
+        "detail": "every downstream artifact is constant on the adverse endpoint fibre",
+        "name": "replication_signing_and_hardening_of_endpoint_do_not_repair_occurrence",
+        "passed": true
+      },
+      {
+        "detail": "the mandatory hostile repair is full-history tomography on this witness",
+        "name": "full_history_token_repairs_occurrence_only_by_injective_access",
+        "passed": true
+      },
+      {
+        "detail": "HC-DU-046 archive-relocation obstruction remains intact",
+        "name": "unchanged_host_antecedent_does_not_select_archive_location",
+        "passed": true
+      }
+    ],
+    "passed": 35,
+    "total": 35
+  },
+  "claim_id": "HC-DU-051",
+  "emergence_grade": {
+    "archive_majority": "STANDARD_STATISTICAL_AMPLIFICATION",
+    "criticality_or_universality": "NOT_EARNED",
+    "material_flux": "LAW_CONSTRAINED_ACTION_SUFFICIENT_COARSE_GRAINING",
+    "strong_emergence": "NOT_EARNED"
+  },
+  "first_non_unifying_arrow": "authenticated_declared_origin_to_causal_physical_source_binding",
+  "grade": "EXACT_FINITE_TYPED_SYNTHESIS_USING_KNOWN_FACTORIZATION_QND_GAUGE_CONCENTRATION_AND_DISTRIBUTED_SYSTEMS_MATHEMATICS",
+  "local_model_gate": {
+    "disposition": "THEOREM_REGRESSION_OUTSIDE_RESEARCH_MODEL_ADMISSION",
+    "reason": "the analytic fibre and probability arguments decide the result; the script only exhausts their finite witnesses"
+  },
+  "not_earned": [
+    "new distributed-systems theorem",
+    "new gauge or quantum theorem",
+    "physical equivalence between consensus and quantum mechanics",
+    "strong emergence or universality class",
+    "record-first ontology",
+    "new physics or prediction",
+    "paper promotion",
+    "hardware or provider escalation"
+  ],
+  "portfolio_handoff": {
+    "reason": "the distributed stack adds reliability, propagation, audit, and action safety only after a target-sensitive physical formation channel exists; it cannot supply the missing physical selector or source-binding premise",
+    "recommendation": "RESUME_WITH_SHARPENED_INPUTS",
+    "sharpened_minimum_premise": "an independently motivated physical antecedent must select and form a target-sensitive causal source-to-record relation, bind its orientation/epoch/access semantics, and support a frozen noninjective action quotient before downstream finality layers can add value",
+    "work_id": "N5-RS-P2"
+  },
+  "returns": [
+    "SCOPED_AMPLIFICATION_WITHOUT_INFORMATION_CREATION_THEOREM",
+    "CAPABILITY_RELATIVE_REGIONAL_FINALITY_THEOREM",
+    "EXACT_DISTRIBUTED_PHYSICAL_NON_UNIFICATION"
+  ],
+  "theorem_package": {
+    "capability_relative_finality": "The gauge archive is exact for boundary-flux actions in the frozen envelope and incomplete for interior, crossing, and microscopic-formation targets.",
+    "dual_mesh_interpretation": "The certified public view is representation-like; the physical source/action relation is collision-like.  Safe handoff requires the action target to factor through the view or an independently formed binding between them.",
+    "handoff": "Safe physical handoff factors through the archived value plus availability, epoch, orientation, and boundary-preservation context.",
+    "hostile_control": "Endpoint replication and hardening do not repair the metastable history fibre; full-history access remains injective tomography.",
+    "no_minting": "Every randomized replica, decoder, certificate, or hardening layer downstream of one formed record is constant in law on that record's physical fibres.",
+    "non_unification": "Protocol signatures, quorums, threshold authority, and proof systems certify declared relations.  They do not identify the causal physical formation relation without an additional formed physical meta-record.",
+    "risk": {
+      "exact_finite_noisy_reconstruction": false,
+      "single_cell_error": "1/10",
+      "three_common_shock_cell_error": "1/10",
+      "three_independent_cell_majority_error": "7/250"
+    }
+  },
+  "title": "Physical-record amplification and capability-relative finality with exact distributed/physical provenance non-unification",
+  "translation": {
+    "authenticated_provenance": {
+      "distributed": "declared signer/origin and hash ancestry",
+      "physical": "causal source--pointer formation relation",
+      "reason": "the same signed record can be QND-formed or preloaded",
+      "verdict": "EXACT_NON_UNIFICATION"
+    },
+    "dual_mesh_handoff": {
+      "distributed": "signed render/replication view plus authoritative collision state",
+      "physical": "certified record representation plus causal action/formation surface",
+      "reason": "a signature can authenticate the delivered representation while the action target still fails on its fibres",
+      "verdict": "EXACT_FACTORIZATION_ANALOGY_ONLY"
+    },
+    "emergence_and_scaling": {
+      "distributed": "macro protocol variable and finite-size reliability",
+      "physical": "law-constrained flux quotient and standard concentration",
+      "verdict": "COARSE_GRAINING_OR_WEAK_EMERGENCE_ONLY"
+    },
+    "hard_finality": {
+      "distributed": "conflict-safe authorization under membership/fault rules",
+      "physical": "target factorization under an action/horizon envelope",
+      "verdict": "EXACT_NON_UNIFICATION_WITH_SCOPED_ACTION_ANALOGY"
+    },
+    "receiver_context": {
+      "distributed": "availability, epoch, membership, semantics",
+      "physical": "archive availability, epoch, orientation, preserved boundary",
+      "verdict": "EXACT_HANDOFF_CORRESPONDENCE"
+    },
+    "reliability_amplification": {
+      "distributed": "independent evidence concentration under frozen dependence",
+      "physical": "independent archive-cell corruption plus majority decoding",
+      "verdict": "SCOPED_CORRESPONDENCE_WITH_COMMON_SHOCK_CONTROL"
+    },
+    "selective_view_and_capability": {
+      "distributed": "local action closure without global history",
+      "physical": "boundary-flux closure without interior or formation history",
+      "verdict": "EXACT_CAPABILITY_RELATIVE_CORRESPONDENCE"
+    },
+    "source_sensitive_joint_input": {
+      "distributed": "source-bound complementary participant evidence",
+      "physical": "QND boundary-flux formation relation",
+      "verdict": "SCOPED_CORRESPONDENCE"
+    },
+    "zero_knowledge_or_encrypted_computation": {
+      "distributed": "verification/computation with bounded disclosure",
+      "physical": "operational access to a formed physical record",
+      "verdict": "NO_SAME_SEMANTICS_WITHOUT_ADDITIONAL_PHYSICAL_INTERFACE"
+    }
+  },
+  "work_id": "N5-SCF-P5"
+}

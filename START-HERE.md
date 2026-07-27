@@ -388,7 +388,7 @@ What *has* been earned is a strong finite control stack:
   initially queued `N5-RS-P2`, the mandatory
   minimum-premise/whole-portfolio pivot. Joe then interposed the eighteen-lens
   [stochastic/consensus/complexity/cryptography scaffold](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-  `N5-SCF-P1/2/3/4` are complete as `HC-DU-047/048/049/050`. Individual insufficiency
+  `N5-SCF-P1/2/3/4/5` are complete as `HC-DU-047/048/049/050/051`. Individual insufficiency
   does not imply joint insufficiency: XOR and secret-sharing correlations
   can be jointly exact while every local marginal is uninformative. Lossless
   gossip can pool that source-formed synergy; signed hash-DAGs preserve
@@ -401,8 +401,16 @@ What *has* been earned is a strong finite control stack:
   by stronger audits. Differently filtered regions can each close a frozen
   local action without reconstructing one global history, while capability
   enlargement, stale epochs, unavailable sidecars, and self-confirming
-  filters reopen exact distinctions. Only `N5-SCF-P5`, the DU physical
-  collision and portfolio handoff, is executable; `N5-RS-P2` is deferred
+  filters reopen exact distinctions. `HC-DU-051` then applies the unchanged
+  stack to the material gauge archive and the closed metastable host.
+  Independent archive corruption lowers bounded flux-readout risk while
+  common shock does not; neither splits a source-record fibre. Physical
+  boundary-action closure and receiver-contextual handoff survive. The first
+  exact non-unification is authenticated representation versus causal
+  physical source/action: a signed value can be QND-formed or preloaded, just
+  as a signed MMO render mesh need not determine the authoritative collision
+  response. The five-position sequence is complete; `N5-RS-P2` resumes with
+  sharpened inputs
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -412,6 +420,7 @@ What *has* been earned is a strong finite control stack:
   [gossip/DAG result](explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md);
   [hardening/provenance result](explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md);
   [selective-view/handoff result](explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md);
+  [distributed/physical collision](explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md);
   [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
@@ -802,8 +811,8 @@ injective, resource-expanded contract. `ECR-N5-S5` is complete as
 `HC-DU-046`: the first completed cycle is the exact first historical failure,
 the witness is robust, and archive relocation proves that this host does not
 select its accessible historical interface. The host closes as
-`SELECTION_OR_FORMATION_OBSTRUCTION`. `N5-SCF-P1/2/3/4` are complete as
-`HC-DU-047/048/049/050`: downstream protocols cannot recover a target absent from the
+`SELECTION_OR_FORMATION_OBSTRUCTION`. `N5-SCF-P1/2/3/4/5` are complete as
+`HC-DU-047/048/049/050/051`: downstream protocols cannot recover a target absent from the
 complete joint input; complementary source-formed shares can be jointly
 sufficient while every participant is individually insufficient; lossless
 gossip can pool those shares; and a signed hash-DAG preserves declared
@@ -812,8 +821,10 @@ exclude conflicting certificates without strengthening physical source
 truth, certificate sufficiency is capability-indexed, and selective regional
 views close only their frozen action targets. Safe handoff requires receiver
 context, epoch binding, available promised evidence, and a frozen capability
-surface. Only `N5-SCF-P5`, the DU physical collision and portfolio handoff,
-is executable; `N5-RS-P2` is deferred.
+surface. The physical collision proves that independent archive errors can
+lower bounded risk but cannot mint source information, and that
+authenticated representation does not establish physical source/action
+binding. `N5-RS-P2` is now executable with sharpened inputs.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -937,10 +948,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050`: the host does not select completion, epoch, archive routing, or access; downstream layers cannot mint a target absent from the joint input; gossip can pool source-formed synergy; hardening changes action safety rather than source truth; and regional handoff closes only action targets that factor through the delivered view plus receiver context. Use `N5-SCF-P5` to collide that unchanged stack with a physical arena; do not fit another detector, code, or archive. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051`: the host does not select completion, epoch, archive routing, or access; downstream layers cannot mint a target absent from the joint input; gossip can pool source-formed synergy; hardening changes action safety rather than source truth; regional handoff is receiver-contextual; and the physical collision localizes the first non-unification at authenticated representation versus causal source/action binding. Use `N5-RS-P2` to compile the minimum physical premise and compare the portfolio; do not fit another detector, code, or archive. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, cryptographic proof, or threshold certificate is not an observer-access contract. Keep route, authentication, decoder, disclosure, actions, resources, and horizon explicit. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `N5-SCF` now separates concentration, propagation, DAG knowledge, metastability, cryptographic hardening, emergence, and capability-relative views before any physical translation. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-046` closes the first host; `HC-DU-047/048/049/050` separate joint-source synergy, pooling, declared provenance, knowledge, hardening, capability-indexed certificate sufficiency, action-relative selective views, receiver-contextual handoff, and downstream no-minting. `N5-SCF-P5` is the sole next object: test whether the distributed stack illuminates a physical record arena or fails at a precise arrow. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-046` closes the first host; `HC-DU-047/048/049/050/051` separate joint-source synergy, pooling, declared provenance, hardening, capability-relative views, physical amplification, and causal source/action binding. `N5-RS-P2` now compares the sharpened record-selection premise against the `3+1` law-filtered and other North-Star alternatives. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -984,10 +995,10 @@ channels; they are not lanes and do not create a second priority system.
    [N5-RS preparation](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
    for its approach and downstream branch logic, then read the interposed
    [N5-SCF preparation](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-   `N5-SCF-P1/2/3/4` are complete as `HC-DU-047/048/049/050`. Only
-   `N5-SCF-P5` is executable.
-   Do not activate later `N5-SCF` positions
-   or resume deferred `N5-RS-P2` before the appropriate predecessor receipt.
+   `N5-SCF-P1/2/3/4/5` are complete as
+   `HC-DU-047/048/049/050/051`. Resume only `N5-RS-P2` under its existing
+   identity and sharpened physical-source-formation handoff. Positions 3--5
+   of that scaffold remain conditional on its portfolio receipt.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies

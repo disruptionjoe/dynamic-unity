@@ -1513,9 +1513,12 @@ portfolio pivot. Joe subsequently interposed the
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
 to separate stochastic amplification, propagation, DAG knowledge,
 metastability, Byzantine/cryptographic hardening, complexity emergence, and
-capability-relative views before the pivot. `N5-SCF-P1/2/3/4` are complete
-as `HC-DU-047/048/049/050`; only `N5-SCF-P5` is executable. `N5-RS-P2` is
-deferred rather than canceled.
+capability-relative views before the pivot. All five positions are complete
+as `HC-DU-047/048/049/050/051`. `HC-DU-051` transfers physical amplification,
+capability-relative finality, and receiver-contextual handoff to the material
+gauge archive, then localizes exact non-unification at authenticated
+representation versus causal physical source/action binding. `N5-RS-P2`
+resumes under its existing identity with sharpened inputs.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -1870,8 +1873,82 @@ physical theorem, not a claim that physics is a distributed database, and not
 a paper or prediction promotion. See
 `../explorations/capability-relative-selective-views-and-regional-handoff-2026-07-27.md`.
 
-The sole next work object is `N5-SCF-P5`, DU Physical Collision and Portfolio
-Handoff.
+### `HC-DU-051` — Physical Amplification, Capability-Relative Finality, and
+Exact Distributed/Physical Non-Unification
+
+Let \(q:H\to Q\) be a physically formed record and let every replicated
+view, decoder, signature, proof, vote, threshold certificate, or hardening
+artifact \(C\) be generated downstream of \(q\). Then:
+
+\[
+q(h_1)=q(h_2)
+\Longrightarrow
+\mathcal L(C\mid h_1)=\mathcal L(C\mid h_2).
+\]
+
+No downstream layer can reconstruct a target that differs on a
+\(q\)-fibre. Individual participant insufficiency is still not joint
+insufficiency; the premise is the complete joint physical input.
+
+Applied to the formed material `Z3` gauge archive:
+
+1. independent archive-cell corruption with probability \(p<1/2\) lowers
+   majority-readout risk across an odd-size family, while common shock remains
+   at error \(p\);
+2. a separate finite full-support control remains exactly nonidentifying,
+   keeping exact factorization distinct from the binary model's improved
+   majority-readout risk;
+3. ideal copies preserve boundary flux but do not reconstruct interior
+   charge, unlogged crossing, or microscopic formation history;
+4. the archive is exact for the frozen boundary-flux action and capability
+   enlargement strictly refines its physical fibre; and
+5. safe handoff factors through archive value plus availability, current
+   epoch, calibrated orientation, and a preserved boundary envelope.
+
+The first exact non-unification is:
+
+```text
+authenticated declared origin
+    !=
+causal physical source binding
+```
+
+The same signed or hardened terminal value can be QND-formed or preloaded. A
+source intervention or independently formed coupling witness repairs the
+distinction only by enlarging the physical record. Joe's MMO dual-mesh
+analogy gives an exact control: a signed render mesh can reconstruct the
+delivered representation while failing to reconstruct `BLOCK` versus `PASS`
+on the authoritative collision mesh. Safe action requires the collision
+target to factor through the delivered view or an independently formed
+render/collision binding.
+
+The closed metastable host remains adverse: endpoint replication,
+authentication, voting, and hardening do not reconstruct historical write
+occurrence; full-history access remains injective tomography and is not
+selected by the host.
+
+The return is:
+
+```text
+SCOPED_AMPLIFICATION_WITHOUT_INFORMATION_CREATION_THEOREM
+CAPABILITY_RELATIVE_REGIONAL_FINALITY_THEOREM
+EXACT_DISTRIBUTED_PHYSICAL_NON_UNIFICATION
+```
+
+The component mathematics is absorbed by factorization, data processing,
+binomial concentration, QND measurement, finite lattice-gauge theory, and
+distributed authentication/consensus/cryptography. The result is an exact
+finite typed synthesis, not a new component theorem, new physics, strong
+emergence, criticality, prediction, ontology verdict, or paper promotion.
+See
+`../explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md`.
+
+The five-position `N5-SCF` sequence is complete. The sole next work object is
+`N5-RS-P2`, Minimum-Premise Compiler and Whole-DU Portfolio Pivot, resumed
+with the sharpened requirement that an independently motivated physical
+antecedent select and form a target-sensitive causal source-to-record
+relation before downstream reliability, propagation, certification, and
+handoff layers receive credit.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -3360,9 +3437,14 @@ incomplete regions can each close a frozen local action without reconstructing
 global history. Commitment does not imply evidence availability, compact
 verification can be stale relative to receiver epoch, positive fork evidence
 is monotone while absence is not, and capability enlargement refines the
-history quotient. The next route must collide this unchanged distributed stack
-with a physically formed record arena and return the first successful
-correspondence or exact non-unifying arrow.
+history quotient.
+`HC-DU-051` executes the physical collision. The material gauge archive
+inherits exact downstream no-minting, independent-versus-common-shock
+amplification, capability-relative closure, and receiver-contextual handoff.
+The first non-unifying arrow is authenticated representation to causal
+physical source/action binding. A signed render surface, in Joe's MMO
+dual-mesh control, can be exact while the authoritative collision response
+remains open.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
 is complete. Redundant records of consistent histories, quantum trajectories,
@@ -3373,9 +3455,8 @@ The prepared
 initially queued `N5-RS-P2`, the minimum-premise compiler and whole-DU
 portfolio pivot. The interposed
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
-has completed `N5-SCF-P1/2/3/4` as `HC-DU-047/048/049/050`. It now advances
-only `N5-SCF-P5`, DU Physical Collision and Portfolio Handoff. `N5-RS-P2`
-remains deferred.
+has completed all five positions as `HC-DU-047/048/049/050/051`.
+`N5-RS-P2` now resumes with sharpened physical-source-formation inputs.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -4087,8 +4168,14 @@ COMMITMENT IS NOT EVIDENCE AVAILABILITY
 COMPACT CERTIFICATE HANDOFF IS RECEIVER-CONTEXTUAL AND EPOCH-BOUND
 POSITIVE FORK EVIDENCE IS MONOTONE; ABSENCE OF FORK IS NOT
 ADAPTIVE SELF-CONFIRMING FILTERS CAN HIDE CORRECTIVE EVIDENCE
-N5-SCF-P5 DU PHYSICAL COLLISION AND PORTFOLIO HANDOFF NEXT
-N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT DEFERRED
+HC-DU-051 PHYSICAL RECORD AMPLIFICATION AND CAPABILITY-RELATIVE FINALITY EXACT
+INDEPENDENT ARCHIVE ERRORS LOWER RISK; COMMON SHOCK DOES NOT
+DOWNSTREAM COPIES DO NOT SPLIT A PHYSICAL SOURCE-RECORD FIBRE
+AUTHENTICATED DECLARED ORIGIN DOES NOT IDENTIFY CAUSAL PHYSICAL SOURCE BINDING
+SIGNED RENDER REPRESENTATION DOES NOT IDENTIFY AUTHORITATIVE COLLISION CAPABILITY
+METASTABLE HOST REMAINS CLOSED UNDER REPLICATION SIGNING AND HARDENING
+N5-SCF FIVE-POSITION SEQUENCE COMPLETE
+N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT RESUMED
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS
