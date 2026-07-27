@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 66
+manifest_revision: 67
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -35,6 +35,15 @@ near_term_approach_atlas_rule: >-
   strategy, reusable artifact, scale trigger and stop/reopen rule. The atlas covers all 27 paper
   candidates and named non-paper dependencies but has no priority, activation, claim, evidence
   grade, Factory or publication authority.
+next_five_swing_campaign_ref: >-
+  explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+next_five_swing_campaign_rule: >-
+  The prepared central campaign sequences one target-independent physical-ARE selector contract,
+  independent Einstein--matter and localized-AQFT selector tests, a formed-descent or exact
+  non-equivalence attempt, and a final North-Star adjudication. It activates no run by itself.
+  Only its first swing is the next executable object; every later swing must consume the prior
+  receipt and choose the documented positive, adverse or incomplete branch without redefining
+  records, interfaces or success.
 local_model_learning_gate_ref: lab/process/local-model-learning-gate.md
 local_model_learning_gate_rule: >-
   Before a future simulation, toy model, solver, executable fixture, trained surrogate, emulator
@@ -361,6 +370,10 @@ lanes:
     interfaces are incomparable and each fails a held-out redshift; a charged joined two-clock
     archive has determinant 1/4 and reconstructs it. Advance physical selection of the
     admissibility complex itself, not another supplied code, detector, or fitted sensor array.
+    Use the prepared CCR-N5 sequence: first freeze the common target-independent selector
+    passport; then test it in Einstein--matter and localized AQFT; then attempt formed descent;
+    and only then adjudicate a held-out reconstruction or remainder. The scaffold is not five
+    active runs and later swings must branch on adverse receipts rather than assume success.
     Open AQFT only for a new locality or selection proposition. Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -410,6 +423,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
@@ -498,7 +512,10 @@ lanes:
     stabilizer-code variants, or open Fewster--Verch/topological embedding without a new
     locality or endogenous selection proposition. Seek physical selection of the
     admissibility complex—region, reference, code/check family, joint access, archive routes and
-    action/resource envelope—beyond supplied architecture. Treat a regional algebra center or
+    action/resource envelope—beyond supplied architecture. Begin through CCR-N5-S1's common
+    selector passport, then consume its exact positive, orbit, plural or no-selector receipt in
+    the Einstein--matter and localized-AQFT arenas rather than changing the selector by arena.
+    Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
     target-changing source nullspace. HC-DU-039D adds that clock-only visibility remains inside
@@ -539,6 +556,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
@@ -590,7 +608,11 @@ lanes:
     budget, two Einstein--matter clock records are individually admissible but their tuple is
     not; under the two-clock budget the joined archive is a new greatest interface and buys
     exact held-out transfer. Report that as a resource-enabled capability change, not as hidden
-    sufficiency of the old record. Consume HC-DU-035D: a public record can be final without fibre
+    sufficiency of the old record. Through CCR-N5-S1--S3, keep observer token, formed write,
+    provenance, authenticated access, decoder, joint resource budget and future action envelope
+    as separate selector fields in both the Einstein--matter and localized-AQFT arenas. A clock
+    congruence or induced observable alone does not select the observer-access contract. Consume
+    HC-DU-035D: a public record can be final without fibre
     destruction only relative to a complete selectively center-screening future action class.
     Adding a noncentral recoupling changes the capability contract; omitting an admitted route
     creates false finality. Consume HC-DU-039C: the screened class, one total-phase readout and
@@ -623,6 +645,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
     capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
@@ -673,7 +696,11 @@ lanes:
     stabilizer check can be final and mutually compatible while a zero-syndrome noncontractible
     loop retains a nontrivial logical/homological action. Use these as regression controls.
     Never infer full logical-state finality from local defect finality or promote either finite
-    architecture to a universal finality law.
+    architecture to a universal finality law. CCR-N5-S4 is the prepared next composition object:
+    consume the independently classified Einstein--matter and AQFT interfaces, then attempt one
+    formed-descent statement unchanged across at least two physical arenas and the existing
+    gauge/QEC/distributed controls. If the record, overlap, restriction or public-action types
+    must change by arena, return the exact non-equivalence instead of forcing a common theorem.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -698,6 +725,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -758,7 +786,10 @@ lanes:
     record reconstructs it exactly through t=3r0/4-r3. Einstein law and the timelike matter
     current do not select the clock worldlines or archive. The next geometry swing should let
     matter flow generate those interfaces and apply HC-DU-033E to every maximal bundle without
-    refitting. Do not identify the physical systems, repeat code variants, or call the logical
+    refitting. CCR-N5-S2 now freezes that job inside a larger branch-aware sequence: separate
+    congruence, clock rate, synchronization, observer token, write, archive, access and joint
+    resource selection, then hand the exact receipt to the independent AQFT arena and formed
+    descent rather than treating one matter model as universal. Do not identify the physical systems, repeat code variants, or call the logical
     quotient an irreducible ontology result; the code/check/action structure is supplied.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
@@ -809,6 +840,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -872,6 +904,10 @@ lanes:
     locally decision-complete. The bounded public-sidecar audit is closed; consume
     HC-DU-036C/036D for physical adjudication only after complete
     attempt visibility, every join, uncertainty, provenance and complete-reset requirement passes.
+    CCR-N5-S5 is only a prepared downstream adjudicator: it may update a paper or prediction
+    horizon only after S1--S4 return a source-pinned reconstruction, selection theorem,
+    non-equivalence, or finite class-relative remainder. The campaign scaffold itself creates no
+    paper seed or priority change.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -892,6 +928,7 @@ lanes:
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+  - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
     positive membership or perform publication actions. Joe alone publishes.
@@ -908,7 +945,10 @@ lanes:
   depends_on: []
   current_objective: >-
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
-    entrypoints consistent without rewriting dated receipts or promoting their grades.
+    entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
+    the prepared CCR-N5 campaign as five branch-conditioned work contracts, not five active runs;
+    only the first swing becomes executable when Joe opens it, and later swings must consume the
+    preceding receipt.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -920,6 +960,7 @@ lanes:
   - AGENTS.md
   - START-HERE.md
   - LANES.yaml
+  - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   do_not: >-
     Do not treat governance, persona agreement, a vote, a wish list or a reproducibility pass as
     scientific evidence.
@@ -4627,6 +4668,20 @@ provenance:
     simulation or hardware path. No universal selector, full-GR reconstruction, ontology, new
     theorem claim, new law, new physics, prediction, paper promotion, Factory state, hardware,
     provider action, submission, publication or external contact is promoted.
+  rev67_note: >-
+    2026-07-26 (Joe direct chat: assess and scaffold another five swings through divergent
+    personas): prepared, but did not activate, the CCR-N5 physical-selection-to-formed-descent
+    campaign through a ten-lens triple diamond. The sequence freezes one target-independent
+    physical Admissible Record Envelope selector passport; tests it independently on
+    Einstein--matter-generated clocks/observers/archives/access and localized AQFT
+    source--probe--pointer--archive measurement; attempts formed sharp descent or an exact
+    cross-arena non-equivalence; and finishes with a held-out North-Star reconstruction,
+    plural-duality, interface-dependence, remainder or incomplete-contract adjudication. Every
+    later swing branches on the preceding positive, adverse or incomplete receipt, so no
+    positive result is manufactured as a dependency. The generic approach atlas and completed
+    prior five-swing campaign remain distinct. No scientific claim, concept, hypothesis,
+    prediction, paper, Factory state, model, simulation, hardware, provider action, submission,
+    publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

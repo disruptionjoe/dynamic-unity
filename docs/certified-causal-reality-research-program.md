@@ -2363,6 +2363,16 @@ greatest record bundle, leaves symmetry-related maximal bundles, or produces
 a held-out remainder through all of them. Do not fit a larger sensor matrix
 to the target.
 
+The prepared next-five campaign now gives that successor a branch-aware
+sequence. It first freezes a common target-independent physical-ARE selector
+contract, tests it independently in Einstein--matter and localized AQFT
+arenas, attempts formed sharp descent or an exact non-equivalence across the
+surviving physical interfaces, and only then runs a North-Star held-out
+reconstruction/remainder adjudication. Adverse selection results are inputs
+to later swings rather than failures to manufacture a positive branch. The
+campaign is method preparation, not activation or a scientific result. See
+`../explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md`.
+
 See
 `../explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md`.
 
