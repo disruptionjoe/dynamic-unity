@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 65
+manifest_revision: 66
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -168,6 +168,20 @@ stabilizer_syndrome_logical_remainder_rule: >-
   not a universal interface selector, ontological remainder, new QEC theorem, or reason to
   repeat stabilizer variants. A topological-phase successor is admissible only if it tests
   endogenous physical selection beyond a supplied commuting-projector code.
+admissible_record_envelope_ref: >-
+  explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+admissible_record_envelope_rule: >-
+  Freeze the complete process, gauge, observer boundary, action envelope, componentwise resource
+  budget, provenance, formation/finality rule and target-independent admissibility criteria
+  before comparing records. Order admissible records by lossless post-processing and separately
+  record which interfaces are physically jointly realizable. A formal tuple of incompatible or
+  jointly unaffordable records is contract retyping, not refinement. Use a greatest record when
+  one exists; otherwise adjudicate every maximal interface and distinguish selector-free plural
+  reconstruction, interface-selection dependence and a class-relative remainder through the
+  whole frozen envelope. HC-DU-040D/E supply greatest-envelope controls. HC-DU-038E supplies the
+  one-clock plural-remainder/two-clock resource-added reconstruction control. The open object is
+  physical selection of the admissibility complex itself, not another supplied detector, code,
+  or fitted sensor array.
 program_charter:
   status: ratified
   date: '2026-07-25'
@@ -339,9 +353,15 @@ lanes:
     close it; every repair changes the action, boundary, resource, completion or interface
     contract. Bank this class-relative duality/remainder anchor, do not repeat stabilizer or
     surface-code variants, and do not infer ontology or a universal selector from a supplied
-    code. The next physical swing must test endogenous selection beyond a supplied
-    commuting-projector architecture or move to a different arena. Open AQFT only for a new
-    locality or selection proposition. Consume HC-DU-035D's layered
+    code. HC-DU-033E/038E now complete the strongest-record handoff. An Admissible Record
+    Envelope is the target-independent refinement order plus the compatibility complex of
+    interfaces that can physically coexist inside one observer and resource contract. A formal
+    tuple of incompatible records is retyping. The gauge and syndrome records are greatest in
+    their declared classes. In the 3+1 weak-field Einstein--matter control, two one-clock
+    interfaces are incomparable and each fails a held-out redshift; a charged joined two-clock
+    archive has determinant 1/4 and reconstructs it. Advance physical selection of the
+    admissibility complex itself, not another supplied code, detector, or fitted sensor array.
+    Open AQFT only for a new locality or selection proposition. Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
     noncentral pullback and its exact blockwise leakage margin rather than treating finality as
@@ -389,6 +409,7 @@ lanes:
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
+  - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
@@ -470,10 +491,14 @@ lanes:
     code control: the complete stabilizer character is a formed check record, exact for the
     correctable quotient, while the protected logical quotient survives every code-internal
     classical refinement preserving the full encoded action algebra. Treat both mechanisms as
-    banked anchors. Do not fit another detector to the same write, repeat stabilizer-code
-    variants, or open Fewster--Verch/topological embedding without a new locality or endogenous
-    selection proposition. Seek selection of the region, reference, code/check family and
-    action envelope beyond supplied architecture. Treat a regional algebra center or
+    banked anchors. HC-DU-033E now supplies their common interface object: use the greatest
+    jointly realizable record when it exists; otherwise retain every incomparable maximal
+    interface. Never concatenate incompatible instruments or separately affordable resources
+    into a fictional record. Do not fit another detector to the same write, repeat
+    stabilizer-code variants, or open Fewster--Verch/topological embedding without a new
+    locality or endogenous selection proposition. Seek physical selection of the
+    admissibility complex—region, reference, code/check family, joint access, archive routes and
+    action/resource envelope—beyond supplied architecture. Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
     target-changing source nullspace. HC-DU-039D adds that clock-only visibility remains inside
@@ -513,6 +538,7 @@ lanes:
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
+  - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
@@ -559,7 +585,12 @@ lanes:
     full logical action class. The retained logical quotient carries protected capability.
     Charge a logical measurement, external source log, restricted task/error class, coherent
     environment access, or changed code as a contract change rather than crediting the old
-    check record with the added capability. Consume HC-DU-035D: a public record can be final without fibre
+    check record with the added capability. Consume HC-DU-033E/038E: observer access and
+    resources determine which record families are physically joinable. Under the one-clock
+    budget, two Einstein--matter clock records are individually admissible but their tuple is
+    not; under the two-clock budget the joined archive is a new greatest interface and buys
+    exact held-out transfer. Report that as a resource-enabled capability change, not as hidden
+    sufficiency of the old record. Consume HC-DU-035D: a public record can be final without fibre
     destruction only relative to a complete selectively center-screening future action class.
     Adding a noncentral recoupling changes the capability contract; omitting an admitted route
     creates false finality. Consume HC-DU-039C: the screened class, one total-phase readout and
@@ -591,6 +622,7 @@ lanes:
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
+  - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
     capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
@@ -665,6 +697,7 @@ lanes:
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
+  - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -720,10 +753,15 @@ lanes:
     correction quotient and the finite capability-bearing logical remainder N(S)/S at the full
     encoded-action level. Together HC-DU-040D/E instantiate the same exact-sequence form:
     a formed record reconstructs its image while ker(r)/G retains action-relative structure.
-    Do not identify the physical systems, repeat code variants, or call the logical quotient an
-    irreducible ontology result; the code/check/action structure is supplied. Advance a
-    topological phase only if the next proposition is endogenous selection beyond a supplied
-    commuting-projector code, otherwise return to another physical arena. Do not escalate the
+    HC-DU-038E now adds the nontrivial 3+1 Einstein--matter application. One-clock maximal
+    interfaces leave a held-out redshift remainder; the resource-enlarged joined two-clock
+    record reconstructs it exactly through t=3r0/4-r3. Einstein law and the timelike matter
+    current do not select the clock worldlines or archive. The next geometry swing should let
+    matter flow generate those interfaces and apply HC-DU-033E to every maximal bundle without
+    refitting. Do not identify the physical systems, repeat code variants, or call the logical
+    quotient an irreducible ontology result; the code/check/action structure is supplied.
+    Advance a topological phase only if the next proposition is endogenous selection beyond a
+    supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
     requires it. A CFS-facing extension must
     additionally freeze Hilbert/spin/constraint/sector/regulator, distinguish Einstein closure
@@ -770,6 +808,7 @@ lanes:
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
+  - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -4567,6 +4606,27 @@ provenance:
     universal selector, ontological remainder, new QEC theorem, new physical law, paper
     promotion, simulation, hardware, provider action, submission, publication or external
     contact is promoted.
+  rev66_note: >-
+    2026-07-26 (Joe direct chat: Go, execute the combined strongest-record swing): executed
+    HC-DU-033E/038E. The Admissible Record Envelope is the target-independent record-refinement
+    poset plus the compatibility complex of interfaces physically joinable in one frozen
+    process, observer boundary, action envelope and resource budget. A finite join-closed class
+    has a greatest record unique up to lossless relabeling; several incomparable maximal records
+    require separate plural-reconstruction, interface-dependent or whole-class remainder
+    verdicts. A formal tuple of incompatible or jointly unaffordable records is contract
+    retyping. Applied unchanged, the material flux record and complete stabilizer syndrome are
+    greatest in their prior classes and retain the already banked interior/logical remainders.
+    In a new 3+1 static weak-field Einstein--matter control, one-clock records at x=0 and x=3
+    are incomparable and each fails the held-out x=-3 redshift under a one-clock budget. An
+    explicit two-clock resource enlargement yields determinant 1/4 and exact transfer
+    t=3r0/4-r3. Einstein law and the timelike current do not select the clock worldlines,
+    archive or resource budget. Component mathematics is absorbed by partition/sufficiency,
+    quantum compatibility, gauge, stabilizer-QEC and inverse-problem theory. The next North-Star
+    object is physical selection of the admissibility complex itself, preferably with
+    matter-generated clock worldlines, not another supplied detector, code, sensor matrix,
+    simulation or hardware path. No universal selector, full-GR reconstruction, ontology, new
+    theorem claim, new law, new physics, prediction, paper promotion, Factory state, hardware,
+    provider action, submission, publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

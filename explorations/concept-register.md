@@ -1053,6 +1053,25 @@ resolution-stable intervention role. No claim is banked or seeded. See
   assurance contract. Physical formation and selection of the record,
   refinement, and reset boundary remain open. See
   `certified-causal-reconstruction-formal-spine-and-two-anchor-freeze-2026-07-26.md`.
+- **Earned admissible-record-envelope spine.** `HC-DU-033E` now distinguishes
+  the refinement order of target-independent physically formed records from
+  the compatibility complex saying which records can coexist in one process,
+  observer boundary, action envelope, and resource budget. A finite
+  join-closed class has a greatest record unique up to lossless relabeling.
+  Several incomparable maximal records instead require a plural verdict: if
+  all reconstruct, target-level reconstruction is selector-independent; if
+  only some reconstruct, interface selection remains load-bearing; if none
+  reconstruct, the remainder survives the entire frozen class. A formal tuple
+  of incompatible or jointly unaffordable records is contract retyping, not
+  refinement. Applied unchanged, the `HC-DU-040D` flux label and
+  `HC-DU-040E` syndrome are greatest in their declared classes and retain
+  their prior interior/logical remainders. `HC-DU-038E` supplies the first
+  \(3+1\) weak-field Einstein--matter control: two one-clock maxima each fail
+  a held-out redshift under a one-clock budget; an explicit two-clock
+  resource enlargement gives determinant \(1/4\) and exact transfer
+  \(t=3r_0/4-r_3\). Component mathematics is known. The admissibility complex
+  itself remains physically unselected. See
+  `admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/036H/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
@@ -1074,18 +1093,18 @@ resolution-stable intervention role. No claim is banked or seeded. See
      accessible, approximately broadcastable, bounded-risk actionable fact.
      Stop if the result only intersects known statistical, secret-sharing,
      quorum, and quantum-access conditions.
-  3. Parent `HC-DU-033`: justify physical record formation, cadence,
-     interface, equivariant/noncommutative algebra, and structured-process
-     congruence rather than enumerating more bare finite partitions. Apply the
-     stabilizer fixed-point test first, and classify any repair by the
-     physical symmetry breaker it adds.
-  4. `HC-DU-038`: before crediting a record with geometry reconstruction,
-     report the lawful target diameter without records. The next physical
-     arena must retain nonzero law-only target diameter, externalize a local
-     source--probe--pointer--archive rather than rely on a full factor center,
-     include an independently realized symmetry breaker, freeze its future
-     capability envelope and horizon, and carry a held-out transfer or
-     first-leak witness.
+  3. Parent `HC-DU-033`: use the Admissible Record Envelope rather than
+     selecting one convenient interface. Derive or obstruct the physical
+     compatibility complex—observer boundary, jointly formed instruments,
+     archive routes and resource horizon—from a non-engineered process. Apply
+     the stabilizer fixed-point test to every maximal interface and classify
+     any repair by the symmetry breaker, resource, boundary, or process change
+     it adds.
+  4. `HC-DU-038`: extend the \(3+1\) Einstein--matter control only by making
+     the matter flow generate the candidate clock worldlines and access
+     routes. Keep nonzero law-only target diameter, freeze the admissibility
+     complex before the target, and test every maximal bundle. Do not add
+     analyst-placed clocks merely to raise sensitivity rank.
 - **Central failure modes.** Primitive circularity, sufficiency tautology,
   per-fixture interface refitting, weak adversary manufacture, endpoint or
   redundancy substitution, hidden resource export, covariance overclaim,
@@ -1127,9 +1146,14 @@ resolution-stable intervention role. No claim is banked or seeded. See
   STRICT COMPRESSION AND HELD-OUT TRANSFER REQUIRED FOR NONTRIVIAL
   RECONSTRUCTION /
   HC-DU-033C STABILIZER INTERFACE-SELECTION OBSTRUCTION EXACT /
+  HC-DU-033E ADMISSIBLE-RECORD ENVELOPE EXACT AT FINITE
+  REFINEMENT/JOINT-REALIZABILITY GRADE / GREATEST VERSUS INCOMPARABLE MAXIMAL
+  RECORDS TYPED / COUNTERFACTUAL INCOMPATIBLE RECORD JOIN REJECTED /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION
   REMAINS UNSELECTED /
+  HC-DU-038E 3+1 WEAK-FIELD EINSTEIN--MATTER ONE-CLOCK PLURAL REMAINDER AND
+  TWO-CLOCK RESOURCE-ADDED EXACT RECONSTRUCTION /
   POSITIVE FINITE COMPLETION-CLASS MARGIN AND BOUNDARY-EXPANSION ABSORBER
   EXACT / PHYSICAL RECORD FORMATION AND INTERFACE
   SELECTION, ADMISSIBLE PHYSICAL REFINEMENT, BROADCASTABLE PUBLIC FINALITY,

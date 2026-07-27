@@ -2250,6 +2250,122 @@ not a new QEC theorem, universal interface selector, irreducible ontological
 remainder, new physical law, or paper promotion. See
 `../explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md`.
 
+#### `HC-DU-033E` — Admissible Record Envelope
+
+The strongest-record challenge is now typed as
+
+\[
+\operatorname{ARE}(\mathcal C)
+=
+\big(\mathcal R_{\mathcal C}/{\sim},\preceq,\mathcal J_{\mathcal C}\big),
+\]
+
+where \(\mathcal R_{\mathcal C}\) is the target-independent physically
+admissible record class for one frozen complete-process contract,
+\(\preceq\) is lossless record refinement, and
+\(\mathcal J_{\mathcal C}\) identifies which finite record families can
+actually be formed and accessed together inside the same observer boundary,
+action envelope, and resource budget.
+
+For every physically joined record \(r_J\),
+
+\[
+\ker r_J=\bigcap_{R\in J}\ker r_R,
+\]
+
+and a held-out target \(t\) reconstructs exactly iff
+
+\[
+\ker r_J\subseteq\ker t.
+\]
+
+A finite admissible class closed under physical joins has a greatest record
+unique up to lossless relabeling. If it has several incomparable maximal
+records instead, three verdicts must remain distinct:
+
+- every maximal record reconstructs: selector-free plural operational
+  reconstruction;
+- only some reconstruct: interface-selection dependence; and
+- none reconstruct: a class-relative remainder throughout the frozen
+  envelope.
+
+The set-theoretic tuple of individually admissible records is not an
+admissible refinement unless a complete joined implementation and resource
+receipt exist. Incompatible instruments, distinct observer access routes, or
+separately affordable but jointly unaffordable sensors make that tuple a
+process, boundary, or resource change.
+
+Applied unchanged, the `HC-DU-040D` boundary-flux label and the
+`HC-DU-040E` complete stabilizer syndrome are greatest record classes in
+their respective frozen envelopes. They retain exactly the already banked
+interior and logical remainders. This does not independently select either
+envelope.
+
+The refinement, sufficiency, compatibility, gauge, and QEC components are
+known mathematics. The result is a Dynamic Unity adjudication spine, not a
+universal record selector, new theorem claim, ontology, or paper promotion.
+
+#### `HC-DU-038E` — Resource-sensitive \(3+1\) Einstein--matter clock envelope
+
+The envelope has been applied to a smallest nontrivial static weak-field
+\(3+1\) Einstein--matter source class. Two exterior monopole amplitudes
+\((a,b)\in[0,2]^2\) at \(x=-1,+1\) give the normalized clock records
+
+\[
+r_0=a+b,
+\qquad
+r_3=\frac14a+\frac12b,
+\]
+
+and the held-out clock target
+
+\[
+t=\frac12a+\frac14b.
+\]
+
+The law-only target diameter is \(3/2\). Under a one-clock/archive resource
+budget, \(r_0\) and \(r_3\) are incomparable maximal interfaces and each has
+an exact same-record/different-target witness. Their formal pair is
+inadmissible at that budget.
+
+After an explicit two-clock resource enlargement, the physical joint record
+has sensitivity matrix
+
+\[
+S=
+\begin{pmatrix}
+1&1\\
+\frac14&\frac12
+\end{pmatrix},
+\qquad
+\det S=\frac14,
+\]
+
+and
+
+\[
+t=\frac34r_0-r_3.
+\]
+
+Thus the held-out clock reconstructs exactly in the enlarged finite sensor
+class.
+
+This is an exact linear inverse result inside a supplied weak-field static
+source, ideal-clock, asymptotic-reference, and archive contract. Einstein
+dynamics and a timelike matter current constrain the geometry and rest-frame
+direction; they do not select the clock worldlines, archive, access route, or
+resource budget that makes the inverse problem full rank.
+
+The next physical dependency is selection of the admissibility complex
+itself. A bounded successor should let matter flow generate the candidate
+clock worldlines and access routes, then ask whether the dynamics selects a
+greatest record bundle, leaves symmetry-related maximal bundles, or produces
+a held-out remainder through all of them. Do not fit a larger sensor matrix
+to the target.
+
+See
+`../explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md`.
+
 ## Core hypotheses
 
 | ID | Hypothesis | Cheap failure mode |
@@ -2285,6 +2401,12 @@ the target diameter on the lawful class before record conditioning. If that
 diameter is already below tolerance, return law-only closure. Separately
 report whether the interface is physically selected, orbit-selected,
 supplied, or fitted; target constancy cannot supply interface provenance.
+`HC-DU-033E` adds the envelope baseline: “strongest record” means a greatest
+physically jointly realizable interface, not a formal tuple of incompatible
+records. When no greatest interface exists, adjudicate every maximal
+interface and distinguish selector-free plural reconstruction,
+interface-selection dependence, and a class-relative remainder through the
+whole frozen envelope.
 
 ## Dependency order
 
@@ -2305,6 +2427,8 @@ supplied, or fitted; target constancy cannot supply interface provenance.
     scalar asymmetry budget selects a unique record orientation [CLOSED]
     HC-DU-033C stabilizer interface-selection obstruction
     [COMPLETED EXACT CONTROL; COMPLETE PHYSICAL INTERFACE OPEN]
+    HC-DU-033E admissible-record refinement and joint-realizability envelope
+    [COMPLETED EXACT FINITE FRAMEWORK; PHYSICAL SELECTION OF THE ENVELOPE OPEN]
         |
 2. HC-DU-034 multi-time certification
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
@@ -2362,6 +2486,9 @@ supplied, or fitted; target constancy cannot supply interface provenance.
    HC-DU-038D law-only versus record-assisted attribution and 3+1 compact
    conformal vacuum control [COMPLETED EXACT CONTROL; PHYSICAL
    RECORD-ASSISTED EINSTEIN--MATTER ARENA OPEN]
+   HC-DU-038E resource-sensitive 3+1 weak-field Einstein--matter clock
+   envelope [COMPLETED EXACT LINEAR CONTROL; DYNAMICAL CLOCK/ARCHIVE
+   SELECTION OPEN]
         |
 6. HC-DU-039 cross-platform invariance
    HC-DU-039A realizability-first fibre theorem across multi-time,

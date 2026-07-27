@@ -316,14 +316,17 @@ Before acting, a new agent must be able to state:
 
 1. the ratified Purpose and North Star;
 2. the honest current evidence boundary;
-3. the live research bottleneck: select the smallest physical arena that
-   externalizes a local record interface, supplies an independently physical
-   orientation, declares capability-growth and approximate-error horizons,
-   retains nonzero law-only target diameter, and supports a held-out
-   transfer/first-leak test. For paper work separately retain the nearer CSG
-   tail hardening and higher-ceiling interventional-sufficiency flagship; a
-   cloud pilot is optional calibration and physical adjudication remains
-   partner-gated;
+3. the live research bottleneck: physically select or sharply obstruct the
+   Admissible Record Envelope itself—the observer boundary, jointly formable
+   record interfaces, archive/access routes, action envelope and resource
+   horizon—without using the held-out target. Use a greatest physically
+   joinable record when one exists; otherwise adjudicate every incomparable
+   maximal interface. The bounded next arena is an Einstein--matter
+   source--clock--archive problem with matter-generated clock worldlines, not
+   another supplied detector, stabilizer code or fitted sensor matrix. For
+   paper work separately retain the nearer CSG tail hardening and
+   higher-ceiling interventional-sufficiency flagship; a cloud pilot is
+   optional calibration and physical adjudication remains partner-gated;
 4. the owning dependency lane and selected work channel(s);
 5. the maximum evidentiary grade the swing can earn; and
 6. the strongest absorber, finite falsifier, stop condition, and durable

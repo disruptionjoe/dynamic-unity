@@ -183,6 +183,18 @@ current results establish the starting boundary, not the answer:
   requires a frozen capability envelope and finite horizon because leakage
   can accumulate and action growth can reopen a record. This is a known-
   mathematics boundary, not a selected QFT record or new physics.
+- `HC-DU-040D/E` and `HC-DU-033E/038E` now supply the strongest-record
+  boundary. The material boundary-flux archive and the complete stabilizer
+  syndrome are greatest records in their frozen gauge and code envelopes,
+  while retaining scoped interior and logical remainders. The Admissible
+  Record Envelope distinguishes a greatest jointly realizable record from
+  several incomparable maximal records and rejects formal concatenation of
+  incompatible or jointly unaffordable interfaces. In a \(3+1\) weak-field
+  Einstein--matter control, each one-clock maximal interface misses a
+  held-out redshift; an explicit two-clock resource enlargement creates a
+  full-rank joined record and exact transfer. Component mathematics is known.
+  The live bottleneck is physical selection of the admissibility complex
+  itself—not another fitted detector, code, or sensor array.
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
   benchmarks, or downstream applications. None governs the new charter and none is promoted
