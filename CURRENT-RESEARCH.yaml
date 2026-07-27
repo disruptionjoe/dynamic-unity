@@ -1,12 +1,13 @@
 current_research_contract_version: '1.1'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 4
+state_revision: 5
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
   Science Council review of the repository-refinement plan, followed by Joe
   direct chat authorizing a branch-safe next-five sequence scaffold and then
-  executing its preferred-leaf descent position.
+  executing its preferred-leaf descent and reopener-gated successor
+  tournament positions.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -78,24 +79,25 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-BRANCH-INVARIANT-ADJUDICATION
-  executable_action_id: N5-CCR-BS-P2
+  active_scientific_program_id: CCR-KERNEL-MINIMALITY
+  executable_action_id: N5-CCR-BS-P3-KERNEL
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-058 closes the exactly compensated preferred-frame sequence with a
-    branch-invariant kernel and no excess content. Run the reopener-gated
-    tournament before selecting or executing another scientific program.
-    Publication hardening remains separately typed prepared output.
+    The reopener-gated tournament selected only the kernel-minimality arm.
+    All physical moonshots remain parked behind their existing missing
+    premises. Position 3 must prove, compress, correct, absorb, or kill the
+    HC-DU-058 bundle without preferred-foliation assumptions. Publication
+    hardening remains separately typed prepared output.
 
 programs:
-  - id: CCR-BRANCH-INVARIANT-ADJUDICATION
+  - id: CCR-KERNEL-MINIMALITY
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: active
     execution_status: executable
     wip_slot: scientific_flagship
-    active_work_id: N5-CCR-BS-P2
+    active_work_id: N5-CCR-BS-P3-KERNEL
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -106,34 +108,34 @@ programs:
       - '7'
       - A
     channel_ids:
-      - CH-SYN
       - CH-FORMAL
+      - CH-MODEL
       - CH-COLLIDE
     target: >-
-      Apply the branch-safe hard gates to every successor class after
-      HC-DU-058. Select exactly one scientific successor by expected
-      decision-changing knowledge, or return NO_READY_SCIENTIFIC_SUCCESSOR
-      without inventing work.
+      Determine whether the HC-DU-058 observer-operational descent bundle is
+      a minimal complete basis for reconstruction, or whether a field is
+      derivable, redundant, missing, contract-dependent, or fully absorbed.
     current_grade: >-
-      HC-DU-058 earns a scoped grade-4 preferred-leaf descent and no-excess
-      theorem. The exactly compensated foliation can narrow hidden
-      completions but cannot improve record reconstruction, interface
-      selection, finality, capability, resources, or held-out targets after
-      complete matching. No scientific successor is selected.
-    evidence_grade: 4
+      OPEN FORMAL ADJUDICATION. HC-DU-058 proves sufficiency of the complete
+      bundle under quotient descent. Existing results supply many pairwise
+      separations, but whole-bundle minimality, redundancy, and completeness
+      are unproved. Tournament selection is not scientific evidence.
+    evidence_grade: null
     maximum_grade: >-
-      POSITION 2 IS A PRIORITY/METHOD RESULT AND CANNOT PROMOTE SCIENCE.
-      HC-DU-058 remains the program's current grade-4 ceiling. Any selected
-      successor retains its own independent grade, absorber, and falsifier.
+      GRADE 4 SCOPED NECESSITY, LOGICAL-INDEPENDENCE, COMPRESSION, OR
+      INCOMPLETENESS THEOREM. Schema minimality alone cannot earn new physics,
+      ontology, or a grade-5 physical remainder.
     maximum_evidence_grade: 4
     premise_status: >-
-      The exactly compensated continuous preferred foliation has completed
-      its conditional test and is closed with no excess content. It remains
-      neither adopted nor graded. A leaking branch requires a new generator,
-      coupling, observable, standard null, and current-bound collision.
+      Assumption-neutral. Preferred foliation is off in Dynamic Unity and
+      dedicated exploration now belongs to Time as Finality as nonblocking
+      awareness only. No TaF result, preferred frame, GU theorem, physical
+      interface selector, or new dynamics is a premise.
     completed_dependencies:
       - id: HC-DU-058
         evidence_ref: explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
+      - id: N5-CCR-BS-P2
+        evidence_ref: explorations/reopener-gated-successor-tournament-and-kernel-minimality-selection-2026-07-27.md
       - id: HC-DU-055
         evidence_ref: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
       - id: HC-DU-056
@@ -143,14 +145,17 @@ programs:
       - id: HC-DU-054
         evidence_ref: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
     remaining_obligations:
-      - Apply every declared reopener before scoring scientific promise.
-      - Score every admitted class on one unchanged decision-value ledger.
-      - Select exactly one successor or return no-ready-successor.
-      - State which completed dependency the winner can change locally.
-      - Stop before executing the selected successor.
+      - Freeze the model class, representation relation, and natural notion of field derivability.
+      - Reuse existing exact witnesses before constructing a missing counterexample.
+      - Test independence, redundancy, and completeness of every bundle field.
+      - Collide any surviving theorem with standard minimal-realization and normalization results.
+      - Activate cross-arena transfer only if a nontrivial formal delta survives.
     typed_dependencies:
       - type: requires
         target: HC-DU-058
+        target_type: result
+      - type: requires
+        target: N5-CCR-BS-P2
         target_type: result
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
@@ -159,76 +164,86 @@ programs:
         target: COVARIANT-FINALITY-DYNAMICS
         target_type: program
     strongest_absorber: >-
-      Narrative momentum reopens a closed branch or selects a dramatic idea
-      despite a missing physical premise, repeated absorber, external-only
-      learning path, or unmet declared reopener.
+      The seven-field bundle is convenient product packaging of already-known
+      pairwise controls, with no invariant or natural sense in which its named
+      coordinates form a unique minimal basis.
     cheapest_kill: >-
-      If no candidate class passes its hard reopener gate, return
-      NO_READY_SCIENTIFIC_SUCCESSOR and reset the portfolio rather than
-      manufacturing a fifth active hypothesis.
+      Derive one field naturally from the others, construct two models equal
+      on all seven fields but operationally different, or show that every
+      claimed independence witness is already exactly banked and adds only a
+      new schema label.
     stop_rule: >-
-      Stop after selecting exactly one scientific successor or recording
-      NO_READY_SCIENTIFIC_SUCCESSOR. Do not execute the winner, build a model,
-      reopen a parked branch, or promote a paper inside this action.
+      Stop after one minimality theorem, one compression, one missing-field
+      counterexample, one contract-dependence result, or complete absorption.
+      Do not construct seven new fixtures or reopen a physical moonshot.
     reopen_rule: >-
-      Not applicable while active. Position 3 opens only after this action
-      names one winner and freezes its minimum decisive statement.
+      Not applicable while active. Position 4 opens only if Position 3
+      returns a nontrivial formal delta with unchanged definitions that can
+      be tested in a second serious arena.
     local_computation_boundary: >-
-      Document-level hard-gate and decision-value comparison only. No model,
-      simulation, hardware, provider, or new literature campaign is needed
-      to decide the portfolio.
+      Direct proof and reuse of existing exact witnesses first. Add only the
+      smallest deterministic counterexample needed to decide an unresolved
+      field. No simulation, scaling run, hardware, or provider is admitted.
     next_action: >-
-      Execute Position 2 of the branch-safe knowledge sequence without an
-      inherited favorite.
+      Execute the minimum decisive kernel-minimality attack frozen by the
+      tournament.
     next_action_ref: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
     execution_packet:
-      action_id: N5-CCR-BS-P2
+      action_id: N5-CCR-BS-P3-KERNEL
       exact_question: >-
-        Given HC-DU-058's dependency diff, which single open program can now
-        change the North-Star verdict most, locally and without repeating an
-        absorber?
+        Is the HC-DU-058 bundle of complete process, formed
+        record/provenance, observer access, finality/fault contract,
+        action/capability, resources, and held-out target minimal and complete
+        for preserving observer-accessible reconstruction under
+        representation descent?
       source_locator:
         path: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
-        heading: '## 4. Position 2 — reopener-gated successor tournament'
+        heading: '## 5. Position 3 — minimum decisive attack'
       required_inputs:
+        - path: explorations/reopener-gated-successor-tournament-and-kernel-minimality-selection-2026-07-27.md
+          role: selected proposition, field definitions, score, and overbuild stop
         - path: explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
-          role: completed Position-1 return and dependency diff
-        - path: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
-          role: hard gates, scoring contract, and no-preselection guard
-        - path: explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
-          role: whole-program candidate and closed-branch map
+          role: sufficient whole-bundle descent theorem to be minimized
         - path: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
-          role: interface-selection reopener and strongest common absorber
+          role: process/record versus implementation/interface independence controls
+        - path: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
+          role: certificate, boundary input, and capability separation controls
+        - path: explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
+          role: action-family and response-class refinement controls
       unchanged_ledger_fields:
-        - candidate class and exact proposition
-        - declared reopener
-        - changed North-Star dependency
-        - expected decision-changing information
-        - local decidability before hardware
-        - novelty and profundity ceiling
-        - cross-arena reuse
+        - complete physical model class and representation relation
+        - complete multi-time intervention process
+        - formed record and provenance
+        - observer access and admissible interventions
+        - finality and rival/fault contract
+        - action and capability envelope
+        - resource accounting
+        - held-out target and equivalence
+        - witness provenance and reuse
         - strongest absorber
-        - cheapest kill
-        - external-dependency penalty
       arena_roles:
-        - formal theorem and no-go candidate arena
-        - physical selection dynamics and reconstruction candidate arena
-        - no-ready-scientific-successor control arena
+        - deterministic factorization and implementation-fibre witnesses
+        - stochastic and quantum process witnesses
+        - physical and distributed record-capability controls
       expected_return_classes:
-        - ONE_SCIENTIFIC_SUCCESSOR_SELECTED
-        - NO_READY_SCIENTIFIC_SUCCESSOR
-        - PORTFOLIO_CLASSES_MERGED
-        - EXTERNAL_REOPENER_REQUIRED
+        - MINIMAL_TYPED_KERNEL
+        - REDUNDANT_OR_DERIVABLE_FIELD
+        - MISSING_LOAD_BEARING_FIELD
+        - CONTRACT_DEPENDENT_MINIMALITY
+        - ABSORBED_SCHEMA_ONLY
+        - EXACT_COUNTEREXAMPLE
+        - BRANCH_KILLED
       observer_index_return_classes:
-        - OBSERVER_INDEX_INDEPENDENT
-        - OBSERVER_INDEX_OPERATIONAL
-        - OBSERVER_INDEX_THEOREM_SPECIFIC
+        - OBSERVER_INDEX_INDEPENDENT_FIELD
+        - OBSERVER_INDEX_DERIVABLE_FROM_ACCESS_ACTION
+        - OBSERVER_INDEX_REQUIRES_ADDITIONAL_FIELD
       durable_output: >-
-        One dated reopener-gated tournament result and one live-state
-        transition selecting exactly one successor or none.
+        One dated minimality/independence theorem or counterexample package and
+        one live transition to cross-arena transfer or portfolio reset.
       local_method: >-
-        Apply hard gates before scoring. Use the frozen seven-factor
-        decision-value ledger. Do not run the selected scientific swing.
+        Build a witness-reuse matrix first. Run builder, killer, and source
+        auditor against one frozen model class. Add only the smallest missing
+        exact witness; do not create a family of new hosts.
       uses_program_controls:
         - maximum_evidence_grade
         - strongest_absorber
@@ -236,10 +251,12 @@ programs:
         - stop_rule
         - local_computation_boundary
     canonical_evidence_refs:
+      - explorations/reopener-gated-successor-tournament-and-kernel-minimality-selection-2026-07-27.md
       - explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
       - explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
-      - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
       - explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
+      - explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
+      - explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
       - docs/certified-causal-reality-research-program.md
 
   - id: DU-PAPER-013-HARDENING
@@ -293,7 +310,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-BRANCH-INVARIANT-ADJUDICATION
+        target: CCR-KERNEL-MINIMALITY
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -371,7 +388,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-BRANCH-INVARIANT-ADJUDICATION
+        target: CCR-KERNEL-MINIMALITY
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -440,7 +457,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-BRANCH-INVARIANT-ADJUDICATION
+        target: CCR-KERNEL-MINIMALITY
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
@@ -466,20 +483,18 @@ programs:
 
 successor_selection:
   status: blocked
-  blocked_by: N5-CCR-BS-P2
+  blocked_by: N5-CCR-BS-P3-KERNEL
   selected_successor_id: null
   candidate_classes:
-    - branch-invariant-ccr-kernel
-    - physical-interface-selection
-    - covariant-finality-dynamics
-    - corrected-mathematical-moonshot
-    - lawful-physical-reconstruction
-    - new-route-from-position-1
+    - kernel-cross-arena-transfer
+    - kernel-compression-or-correction
+    - physical-interface-selection-with-reopener
+    - north-star-portfolio-reset
   decision_rule: >-
-    Apply each class's hard reopener before scoring. Then select exactly one
-    successor by expected decision-changing knowledge, local decidability,
-    North-Star dependency removed, cross-arena reuse, and cheapest-kill
-    quality. If none passes, return NO_READY_SCIENTIFIC_SUCCESSOR.
+    Position 3 must first return a theorem, compression, missing-field witness,
+    contract-dependence result, or absorption. Cross-arena transfer opens only
+    for a nontrivial delta with unchanged definitions; otherwise reset the
+    portfolio without reopening a blocked physical branch.
 
 anomaly_intake:
   status: open_non_wip
