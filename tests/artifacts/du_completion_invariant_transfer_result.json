@@ -1,0 +1,502 @@
+{
+  "absorber_collision": {
+    "blackwell_and_partition_sufficiency": "target transfer is exactly kernel containment through the common quotient",
+    "markov_sufficiency": "terminal matter state is sufficient for the next reduced matter branch law",
+    "process_tensor_and_full_environment": "full multi-time/environment access can retain history, but that is a stronger access contract",
+    "stinespring_and_complementary_channels": "fixed reduced dynamics does not determine which complementary fragment carries accessible history"
+  },
+  "access_retyping": {
+    "A_only_common_record": "terminal matter endpoint",
+    "A_plus_H_common_record": "complete resolved history",
+    "all_targets_factor_after_A_plus_H": true,
+    "contract_change": "granting H access changes the observer boundary, action envelope, and resource contract; it does not repair the A-only record within the old contract"
+  },
+  "arena": {
+    "hidden_completion": "same history token retained in reservoir H outside the A-only observer boundary",
+    "histories": [
+      {
+        "endpoint": "x1",
+        "length": 0,
+        "word": "EMPTY"
+      },
+      {
+        "endpoint": "x2",
+        "length": 1,
+        "word": "C"
+      },
+      {
+        "endpoint": "x3",
+        "length": 2,
+        "word": "CW"
+      },
+      {
+        "endpoint": "x0",
+        "length": 3,
+        "word": "CWC"
+      },
+      {
+        "endpoint": "x1",
+        "length": 4,
+        "word": "CWCW"
+      },
+      {
+        "endpoint": "x2",
+        "length": 5,
+        "word": "CWCWC"
+      },
+      {
+        "endpoint": "x3",
+        "length": 6,
+        "word": "CWCWCW"
+      },
+      {
+        "endpoint": "x0",
+        "length": 7,
+        "word": "CWCWCWC"
+      },
+      {
+        "endpoint": "x1",
+        "length": 8,
+        "word": "CWCWCWCW"
+      }
+    ],
+    "initial_state": "x1",
+    "same_reduced_matter_law": true,
+    "same_reduced_one_step_branch_map": true,
+    "visible_completion": "history token retained in admitted archive A"
+  },
+  "campaign": "ECR-N5-S4",
+  "capability_factorization": {
+    "completion_common": {
+      "H_count": false,
+      "H_matter": true,
+      "H_occ": false,
+      "H_output": false
+    },
+    "hidden_A_only": {
+      "H_count": false,
+      "H_matter": true,
+      "H_occ": false,
+      "H_output": false
+    },
+    "visible_binary_epoch": {
+      "H_count": false,
+      "H_matter": true,
+      "H_occ": true,
+      "H_output": false
+    },
+    "visible_full_archive": {
+      "H_count": true,
+      "H_matter": true,
+      "H_occ": true,
+      "H_output": true
+    }
+  },
+  "checks": {
+    "all_pass": true,
+    "details": {
+      "capability_filtration_is_strict_at_common_shadow": true,
+      "capability_filtration_is_strict_at_visible_epoch": true,
+      "common_join_equals_endpoint_partition": true,
+      "common_next_decoder_exists": true,
+      "common_occurrence_decoder_absent": true,
+      "common_quotient_candidate_count": true,
+      "completion_branch_maps_are_physically_distinct": true,
+      "count_target_fails_common": true,
+      "cross_completion_first_leak_is_occurrence": true,
+      "enumerated_finest_equals_join": true,
+      "finest_common_quotient_unique": true,
+      "global_access_common_partition_is_full_history": true,
+      "global_access_reconstructs_all_targets": true,
+      "hidden_A_only_reconstructs_only_next": true,
+      "hidden_complete_states_injective": true,
+      "hidden_native_record_is_endpoint_only": true,
+      "lossless_relabel_preserves_common_join": true,
+      "next_target_factors_common": true,
+      "occurrence_target_fails_common": true,
+      "partition_enumeration_bell_9": true,
+      "same_reduced_history_endpoint_map": true,
+      "same_reduced_one_step_branch_map": true,
+      "target_coded_occurrence_not_hidden_quotient": true,
+      "visible_binary_first_leak_is_count": true,
+      "visible_complete_states_injective": true,
+      "visible_epoch_does_not_reconstruct_count": true,
+      "visible_epoch_reconstructs_matter_future": true,
+      "visible_epoch_reconstructs_occurrence": true,
+      "visible_full_reconstructs_all_targets": true,
+      "visible_native_record_is_full_history": true,
+      "word_target_fails_common": true
+    },
+    "passed": 31,
+    "total": 31
+  },
+  "claim": "HC-DU-045",
+  "first_leaks": {
+    "across_completions_at_A_only_boundary": "H_occ",
+    "interpretation": "the completion-common endpoint predicts reduced matter behavior but first fails at historical occurrence; inside the visible history completion the binary epoch quotient first fails at write count",
+    "within_visible_binary_epoch_record": "H_count"
+  },
+  "partitions": {
+    "common_quotient_candidates": 15,
+    "completion_common_join": [
+      [
+        "EMPTY",
+        "CWCW",
+        "CWCWCWCW"
+      ],
+      [
+        "C",
+        "CWCWC"
+      ],
+      [
+        "CW",
+        "CWCWCW"
+      ],
+      [
+        "CWC",
+        "CWCWCWC"
+      ]
+    ],
+    "enumerated_set_partitions": 21147,
+    "finest_common_candidates": 1,
+    "global_A_plus_H_common": [
+      [
+        "EMPTY"
+      ],
+      [
+        "C"
+      ],
+      [
+        "CW"
+      ],
+      [
+        "CWC"
+      ],
+      [
+        "CWCW"
+      ],
+      [
+        "CWCWC"
+      ],
+      [
+        "CWCWCW"
+      ],
+      [
+        "CWCWCWC"
+      ],
+      [
+        "CWCWCWCW"
+      ]
+    ],
+    "hidden_native": [
+      [
+        "EMPTY",
+        "CWCW",
+        "CWCWCWCW"
+      ],
+      [
+        "C",
+        "CWCWC"
+      ],
+      [
+        "CW",
+        "CWCWCW"
+      ],
+      [
+        "CWC",
+        "CWCWCWC"
+      ]
+    ],
+    "terminal_matter": [
+      [
+        "EMPTY",
+        "CWCW",
+        "CWCWCWCW"
+      ],
+      [
+        "C",
+        "CWCWC"
+      ],
+      [
+        "CW",
+        "CWCWCW"
+      ],
+      [
+        "CWC",
+        "CWCWCWC"
+      ]
+    ],
+    "visible_binary_epoch": [
+      [
+        "EMPTY"
+      ],
+      [
+        "C"
+      ],
+      [
+        "CW",
+        "CWCWCW"
+      ],
+      [
+        "CWC",
+        "CWCWCWC"
+      ],
+      [
+        "CWCW",
+        "CWCWCWCW"
+      ],
+      [
+        "CWCWC"
+      ]
+    ],
+    "visible_native": [
+      [
+        "EMPTY"
+      ],
+      [
+        "C"
+      ],
+      [
+        "CW"
+      ],
+      [
+        "CWC"
+      ],
+      [
+        "CWCW"
+      ],
+      [
+        "CWCWC"
+      ],
+      [
+        "CWCWCW"
+      ],
+      [
+        "CWCWCWC"
+      ],
+      [
+        "CWCWCWCW"
+      ]
+    ]
+  },
+  "target_factorization": {
+    "completion_common": {
+      "T_count": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x1",
+            "history": "",
+            "record": "x1",
+            "target": 0
+          },
+          "right": {
+            "endpoint": "x1",
+            "history": "CWCW",
+            "record": "x1",
+            "target": 2
+          }
+        }
+      },
+      "T_next": {
+        "factors": true,
+        "witness": null
+      },
+      "T_occ": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x1",
+            "history": "",
+            "record": "x1",
+            "target": 0
+          },
+          "right": {
+            "endpoint": "x1",
+            "history": "CWCW",
+            "record": "x1",
+            "target": 1
+          }
+        }
+      },
+      "T_word": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x1",
+            "history": "",
+            "record": "x1",
+            "target": "EMPTY"
+          },
+          "right": {
+            "endpoint": "x1",
+            "history": "CWCW",
+            "record": "x1",
+            "target": "CWCW"
+          }
+        }
+      }
+    },
+    "hidden_A_only": {
+      "T_count": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x1",
+            "history": "",
+            "record": [
+              "x1",
+              "A:blank"
+            ],
+            "target": 0
+          },
+          "right": {
+            "endpoint": "x1",
+            "history": "CWCW",
+            "record": [
+              "x1",
+              "A:blank"
+            ],
+            "target": 2
+          }
+        }
+      },
+      "T_next": {
+        "factors": true,
+        "witness": null
+      },
+      "T_occ": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x1",
+            "history": "",
+            "record": [
+              "x1",
+              "A:blank"
+            ],
+            "target": 0
+          },
+          "right": {
+            "endpoint": "x1",
+            "history": "CWCW",
+            "record": [
+              "x1",
+              "A:blank"
+            ],
+            "target": 1
+          }
+        }
+      },
+      "T_word": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x1",
+            "history": "",
+            "record": [
+              "x1",
+              "A:blank"
+            ],
+            "target": "EMPTY"
+          },
+          "right": {
+            "endpoint": "x1",
+            "history": "CWCW",
+            "record": [
+              "x1",
+              "A:blank"
+            ],
+            "target": "CWCW"
+          }
+        }
+      }
+    },
+    "visible_binary_epoch": {
+      "T_count": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x3",
+            "history": "CW",
+            "record": [
+              "x3",
+              1
+            ],
+            "target": 1
+          },
+          "right": {
+            "endpoint": "x3",
+            "history": "CWCWCW",
+            "record": [
+              "x3",
+              1
+            ],
+            "target": 3
+          }
+        }
+      },
+      "T_next": {
+        "factors": true,
+        "witness": null
+      },
+      "T_occ": {
+        "factors": true,
+        "witness": null
+      },
+      "T_word": {
+        "factors": false,
+        "witness": {
+          "left": {
+            "endpoint": "x3",
+            "history": "CW",
+            "record": [
+              "x3",
+              1
+            ],
+            "target": "CW"
+          },
+          "right": {
+            "endpoint": "x3",
+            "history": "CWCWCW",
+            "record": [
+              "x3",
+              1
+            ],
+            "target": "CWCWCW"
+          }
+        }
+      }
+    },
+    "visible_full_archive": {
+      "T_count": {
+        "factors": true,
+        "witness": null
+      },
+      "T_next": {
+        "factors": true,
+        "witness": null
+      },
+      "T_occ": {
+        "factors": true,
+        "witness": null
+      },
+      "T_word": {
+        "factors": true,
+        "witness": null
+      }
+    }
+  },
+  "theorem": {
+    "component_math_grade": "known finite quotient/factorization",
+    "name": "finite completion-common quotient theorem",
+    "statement": "the finest target-independent quotient common to all native records has kernel equal to the equivalence join of their kernels; a target transfers through every native record iff that join is contained in the target kernel"
+  },
+  "verdict": {
+    "archive_result": "NO_ENDOGENOUS_ARCHIVE_FOR_THIS_HOST",
+    "completion_invariant_positive": "strict endpoint compression reconstructs future reduced matter behavior",
+    "history_result": "COMPLETION_AND_ACCESS_RELATIVE_SUFFICIENCY",
+    "north_star": "H-CCR-17 REMAINS OPEN",
+    "positive_grade": "MARKOV_OPERATIONAL_CLOSURE / NOT HISTORY-ARCHIVE RECONSTRUCTION"
+  }
+}

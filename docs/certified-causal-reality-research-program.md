@@ -1429,11 +1429,81 @@ microscopic environment derivation, completion-invariant archive selector,
 universal cost law, actualization rule, ontology, new physics, prediction,
 or paper result.
 
-`ECR-N5-S4` is now the sole next executable object: compare the
-history-retaining completion with a physical hostile completion twin at
-fixed reduced matter law, test no-refit transfer, and localize the first
-capability leak. See
+`ECR-N5-S4` has now consumed this result as `HC-DU-045`. See
 `../explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md`.
+
+### `HC-DU-045` — Completion-Common Record Quotient and Two-Tier Capability Leak
+
+For a finite family of native completion records
+
+\[
+r_i:\Omega\to R_i,
+\]
+
+the unique finest target-independent common quotient has kernel:
+
+\[
+K_\ast=\bigvee_i\ker r_i.
+\]
+
+A target \(t\) transfers through every native record without refit exactly
+when:
+
+\[
+K_\ast\subseteq\ker t.
+\]
+
+This is standard finite quotient/factorization mathematics. Its typed use
+prevents a target that succeeds in one supplied completion from being
+credited as completion-invariant.
+
+In the `HC-DU-044` visible-archive/hidden-reservoir twin, the visible native
+record contains terminal matter plus the resolved history, while the hidden
+`A`-only record contains terminal matter plus a blank archive. Their finest
+common quotient is therefore terminal matter state.
+
+That quotient strictly compresses history and reconstructs the complete
+next-step reduced-matter branch law. This is:
+
+```text
+MARKOV_OPERATIONAL_CLOSURE
+```
+
+not historical reconstruction.
+
+The stale and four-edge-return histories:
+
+\[
+\varnothing
+\qquad\text{and}\qquad
+CWCW
+\]
+
+have the same terminal matter state but different write occurrence. Thus
+historical occurrence, count, and the resolved word do not factor through
+the completion-common record.
+
+The capability filtration has two distinct first leaks:
+
+1. across completions, terminal matter first fails at historical occurrence;
+2. inside the visible binary epoch record, occurrence remains reconstructive
+   and the first failure is write count.
+
+Opening access to both \(A\) and \(H\) reconstructs every frozen history
+target, but changes the observer/action/resource contract and becomes
+injective on the finite history class. It is full-environment tomography,
+not repair of the old record and not strict compressive reconstruction.
+
+The host therefore returns:
+
+```text
+COMPLETION_AND_ACCESS_RELATIVE HISTORY SUFFICIENCY
+NO_ENDOGENOUS_ARCHIVE FOR THIS HOST
+```
+
+`H-CCR-17` remains open. `ECR-N5-S5`, robustness and host-level North-Star
+adjudication, is now the sole next executable object. See
+`../explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -2879,15 +2949,21 @@ ready/retained class. A specified fresh-output completion conditionally
 forms the full history and a strict bounded-capability quotient, but charges
 support, retention, epoch and access structure not selected by the matter
 host. The host therefore returns `SUPPLIED_EPOCH_ARCHIVE`.
+`HC-DU-045` now completes the matched-completion transfer. The unique finest
+common `A`-only quotient is terminal matter state. It reconstructs the next
+reduced-matter law but not occurrence, count, or the event word. The
+cross-completion first leak is occurrence; inside the visible binary epoch
+record it is count. Full `A+H` access reconstructs history only through an
+injective, resource-expanded contract.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
-now concentrates on whether any no-refit record/target factorization survives
-across a history-retaining completion and a physically hostile completion
-twin at fixed reduced matter law. Redundant records of consistent histories,
-quantum trajectories, Stinespring/complementary-channel equivalence, and
-sufficiency theory are the strongest absorbers. `ECR-N5-S4` is the sole next
-executable object; S5 remains a dependency contract, not an active parallel
-bet.
+now concentrates on whether that boundary survives longer horizons,
+representation/refinement, stochastic weighting, and approximate archive
+leakage, and whether any non-target-coded premise selected by the host
+excludes the hidden completion. Redundant records of consistent histories,
+quantum trajectories, Stinespring/complementary-channel equivalence,
+Blackwell sufficiency, process tensors, and full-environment tomography are
+the strongest absorbers. `ECR-N5-S5` is the sole next executable object.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3554,7 +3630,15 @@ INTERNAL TURNOVER RESET DUPLICATES THE TERMINAL READY/RETAINED CLASS
 FRESH-OUTPUT COMPLETION CONDITIONALLY FORMS THE FULL EVENT HISTORY
 STRICT BINARY OCCURRENCE QUOTIENT LEAKS TO COUNT/TIME/OUTPUT-FIELD ACCESS
 METASTABLE HOST RETURNS SUPPLIED_EPOCH_ARCHIVE
-ECR-N5-S4 COMPLETION-INVARIANT TRANSFER AND FIRST-CAPABILITY-LEAK TEST NEXT
+HC-DU-045 COMPLETION-COMMON QUOTIENT EXACT AS KNOWN FINITE FACTORIZATION
+FINEST VISIBLE/HIDDEN A-ONLY COMMON RECORD IS TERMINAL MATTER STATE
+NEXT REDUCED-MATTER LAW TRANSFERS AS MARKOV OPERATIONAL CLOSURE
+WRITE OCCURRENCE COUNT AND EVENT WORD DO NOT TRANSFER
+CROSS-COMPLETION FIRST LEAK IS OCCURRENCE
+VISIBLE-BINARY FIRST LEAK IS COUNT
+FULL A-PLUS-H ACCESS IS RESOURCE-EXPANDED INJECTIVE TOMOGRAPHY
+METASTABLE HOST RETURNS NO_ENDOGENOUS_ARCHIVE FOR HISTORICAL TARGETS
+ECR-N5-S5 ROBUSTNESS AND HOST-LEVEL NORTH-STAR ADJUDICATION NEXT
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: endogenous compression to held-out physics"
-status: swings_1_2_3_complete__swing_4_retyped_next
+status: swings_1_2_3_4_complete__swing_5_retyped_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: do another scaffolding and approach assessment for the next five big swings"
@@ -60,9 +60,17 @@ for a bounded occurrence capability, but the matter host does not select the
 completion, fresh support, output fragment, retention, epoch, or latch. Its
 disposition is `SUPPLIED_EPOCH_ARCHIVE`.
 
-`ECR-N5-S4` is now the sole next executable object, retyped as the
-completion-invariant transfer and first-capability-leak test.
-`ECR-N5-S5` remains conditional.
+`ECR-N5-S4` is now complete as `HC-DU-045`. The unique finest `A`-only
+record common to the visible-archive and hidden-reservoir completions is the
+terminal matter state. It strictly compresses history and reconstructs the
+next reduced-matter law, but not write occurrence, count, or the event word.
+The cross-completion first leak is occurrence. Inside the visible binary
+epoch record, the first leak is count. Full `A+H` access reconstructs every
+target only by expanding the observer/action/resource contract and becoming
+injective on the finite history class.
+
+`ECR-N5-S5`, robustness and host-level North-Star adjudication, is now the
+sole next executable object.
 
 The campaign question is:
 
@@ -538,26 +546,51 @@ held-out test can decide the factorization boundary. Hardware remains
 unavailable; any later hardware-only discriminator becomes an awareness
 note, not a reason to keep building.
 
+**Receipt.** Completed as
+[`HC-DU-045`](completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md).
+For any finite family of native completion records, the unique finest
+target-independent common quotient has kernel equal to the equivalence join
+of their record kernels; exactly the targets constant on that join transfer
+through every arm. In the matched completion twin the join is terminal
+matter state. It reconstructs the next reduced-matter law without refit but
+fails already at write occurrence. The visible binary epoch record
+reconstructs occurrence and first fails at count. Full-environment access
+restores all history targets only through a resource-expanded injective
+contract. Dispositions:
+`MARKOV_OPERATIONAL_CLOSURE`,
+`COMPLETION_AND_ACCESS_RELATIVE HISTORY SUFFICIENCY`, and
+`NO_ENDOGENOUS_ARCHIVE FOR THIS HOST`.
+
 ### `ECR-N5-S5` — Robustness and North-Star Adjudication
 
 **Decision uncertainty.** Does the surviving result reflect a physical
 mechanism rather than one representation, regulator, boundary convention,
 resolution, or fitted resource contract?
 
-**Inherited input.** The selector, formation, compression, transfer, and
-first-leak receipts actually earned in Swings 1--4.
+**Inherited input.** The selector, formation, reversible-support,
+completion-common quotient, positive Markov transfer, exact adverse history
+transfer, and two-tier first-leak receipts actually earned in Swings 1--4.
 
 **Method.**
 
-1. Re-run the typed result under benign relabeling, discretization/refinement,
-   gauge change, boundary subdivision, allowed regulator variation,
-   perturbation, and matched resource normalization.
-2. Recheck provenance and physical joint realizability.
-3. Collide the complete result—not isolated components—with its strongest
+1. Prove or break the endpoint common quotient and occurrence witness at
+   arbitrary completed-cycle horizon.
+2. Re-run the typed result under lossless relabeling, benign temporal
+   subdivision, stochastic branch weights, and matched resource
+   normalization.
+3. Add one declared approximate archive-leak channel and derive the exact
+   error/decision boundary rather than silently replacing exact sufficiency
+   with approximate language.
+4. Test whether any premise actually selected by the metastable host,
+   independently of the desired historical target, excludes the hidden
+   completion.
+5. Recheck provenance, physical joint realizability, and the full-environment
+   tomography control.
+6. Collide the complete result—not isolated components—with its strongest
    standard absorber.
-4. State exactly which arrows are selected, orbit-selected, supplied,
+7. State exactly which arrows are selected, orbit-selected, supplied,
    fitted, represented, or merely assumed.
-5. Return one global verdict:
+8. Return one global verdict:
 
 ```text
 ENDOGENOUS_COMPRESSIVE_RECONSTRUCTION
@@ -568,11 +601,12 @@ INJECTIVE_TOMOGRAPHY_ONLY
 INCOMPLETE_CONTRACT
 ```
 
-**Cheapest positive.** The same theorem and held-out decoder survive the
-frozen benign transformations and strongest absorber without refit.
+**Cheapest positive.** A non-target-coded host condition excludes the hidden
+completion and preserves a noninjective historical decoder under the frozen
+robustness family.
 
-**Cheapest kill.** A benign representation/refinement change destroys the
-selector, quotient, or held-out factorization.
+**Cheapest kill.** The hidden completion survives every host-selected premise,
+or the only history repair is full-environment injective tomography.
 
 **Durable output.** A scoped theorem package, exact no-go/obstruction, or
 minimum-premise research reset. Paper or prediction work may be recommended
@@ -702,10 +736,30 @@ charging the environment factorization, output support, retention, epoch and
 access structure. The binary quotient is autonomous for the frozen
 occurrence capability and leaks first to count/time/output-field access.
 
-`ECR-N5-S4` is now the sole next executable object. It must hold the reduced
-matter law fixed, compare a history-retaining completion against a physical
-hostile completion twin, and determine whether any no-refit target or
-capability factorization survives the declared completion equivalence.
+`ECR-N5-S4` is complete as
+[`HC-DU-045`](completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md).
+It returns:
+
+```text
+FINEST COMPLETION-COMMON RECORD = TERMINAL MATTER STATE
+REDUCED-MATTER FUTURE TRANSFERS
+HISTORICAL OCCURRENCE DOES NOT
+CROSS-COMPLETION FIRST LEAK = OCCURRENCE
+VISIBLE-BINARY FIRST LEAK = COUNT
+```
+
+The exact common-quotient theorem is known finite factorization mathematics.
+Its application localizes the host's positive result to Markov operational
+closure and its archive result to completion/access-relative sufficiency.
+Full `A+H` access restores history only through an injective,
+resource-expanded contract.
+
+`ECR-N5-S5` is now the sole next executable object. It must robustly test the
+boundary over horizon, representation, subdivision, stochastic weighting,
+and approximate archive leakage, then determine whether any non-target-coded
+premise selected by the host excludes the hidden completion. If none does,
+return the host-level `SELECTION_OR_FORMATION_OBSTRUCTION` without turning it
+into a universal record no-go.
 
 ## 10. Campaign claim ceiling
 
@@ -731,9 +785,14 @@ It does not earn:
 
 ## Bottom line
 
-The smartest next five swings are not five separate bets. Use one swing to
-find the least artificial candidate for the complete endogenous-record
-problem, then spend four swings trying hard to prove it or break it.
+The first four swings have localized the problem from “find an endogenous
+record” to one exact question:
 
-That is now the shortest route to learning whether Dynamic Unity's record
-program has a real physical core beyond supplied instruments and tomography.
+> Does any host-selected, target-independent physical premise exclude the
+> archive-hidden completion while preserving noninjective historical
+> transfer?
+
+Swing 5 now decides the strongest honest verdict for this host. That is the
+shortest remaining route to learning whether the current mechanism has a
+physical record core beyond Markov state sufficiency, supplied archives, and
+full-environment tomography.

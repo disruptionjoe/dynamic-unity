@@ -257,11 +257,20 @@ current results establish the starting boundary, not the answer:
   full history and supports a strict binary quotient for the bounded
   occurrence capability, but its support, retention, epoch, and access
   structure are additional physical antecedents. The host therefore returns
-  `SUPPLIED_EPOCH_ARCHIVE`. `ECR-N5-S4`, completion-invariant transfer and
-  first capability leak, is now the sole next executable object
+  `SUPPLIED_EPOCH_ARCHIVE`. `HC-DU-045` now completes the matched-completion
+  transfer. The finest `A`-only record common to the visible-archive and
+  hidden-reservoir completions is terminal matter state. It strictly
+  compresses history and reconstructs the next reduced-matter law, but the
+  stale and `CWCW` histories have the same common record and different write
+  occurrence. Across completions the first capability leak is occurrence;
+  inside the visible binary epoch record it is count. Full `A+H` access
+  reconstructs history only through a resource-expanded injective contract.
+  `ECR-N5-S5`, robustness and host-level North-Star adjudication, is now the
+  sole next executable object
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
+  [completion-transfer result](explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md);
   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,

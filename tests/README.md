@@ -1763,3 +1763,41 @@ capability-leak boundaries. It does not derive a microscopic environment,
 select a completion or epoch archive, establish a universal cost law,
 actualization, ontology, new physics, paper state, hardware path, or external
 action.
+
+## HC-DU-045 completion-common transfer
+
+`du_completion_invariant_transfer_probe.py` preserves the exact finite
+controls behind the visible-archive/hidden-reservoir transfer result:
+
+- the complete visible and hidden states are injective and have the same
+  reduced matter history/branch map;
+- the finest target-independent quotient common to both `A`-only native
+  records is the terminal matter-state partition;
+- exhaustive enumeration of all `21,147` partitions of the nine-history
+  arena finds `15` common quotients and one unique finest quotient;
+- lossless relabeling of the visible history tokens preserves that quotient;
+- the common endpoint reconstructs the complete next reduced-matter branch
+  law but not write occurrence, count, or the resolved history word;
+- the visible binary epoch record reconstructs occurrence and first fails at
+  count;
+- the cross-completion capability filtration first fails at occurrence;
+- target-coded occurrence repair is not a quotient of the hidden native
+  record; and
+- enlarging access from `A` to `A+H` reconstructs every target only by
+  changing the observer/action/resource contract and becoming injective on
+  the finite history class.
+
+Run:
+
+```bash
+python3 tests/du_completion_invariant_transfer_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_completion_invariant_transfer_result.json` and reports
+`31/31`. Passing preserves the finite completion-common quotient,
+positive Markov-transfer, adverse history-transfer, and two-tier first-leak
+classification. It does not select a microscopic completion or archive,
+establish an endogenous record, prove a universal no-go or ontological
+remainder, report new physics, promote a paper, or authorize hardware or any
+external action.

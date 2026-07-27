@@ -3,7 +3,7 @@ title: "Counter-Assumptive Findings Register"
 status: active_orientation
 doc_type: agent_reasoning_control
 created: 2026-07-26
-last_updated: 2026-07-26
+last_updated: 2026-07-27
 owner: dynamic-unity
 claim_status_change: none
 ---
@@ -134,6 +134,7 @@ source artifact and its commit history are authoritative for those rows.
 | `NI-DU-67` | Adding enough clock records to make an Einstein inverse map full rank proves that the original record or Einstein law selected the geometry. | In the \(3+1\) weak-field control, two one-clock interfaces are incomparable and each misses the held-out clock. A joined two-clock archive reconstructs only after an explicit resource/interface enlargement. Einstein dynamics and a timelike current do not select the sensor worldlines or archive. | `GRADE` | exact two-mode linear Einstein--matter clock control; same source |
 | `NI-DU-68` | A dynamically selected, metastable, redundantly copied endpoint value certifies the write occurrence that produced it. | Equal-initial-state/equal-endpoint paths can differ on whether a write occurred, and any number of terminal-value copies preserves that fibre. A bounded exact occurrence claim needs a physically retained epoch/reset witness; a history existing in the realization is not yet a present provenance-bearing record. | `IMPL` | exact finite selector and path-factorization obstruction; `explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md` |
 | `NI-DU-69` | A one-bit sufficient history statistic can be repeatedly formed as one closed reversible physical bit, or the host's own reset edge automatically supplies its epoch. | Exact write-since-epoch semantics uses unique idempotent set/reset maps, which are many-to-one and cannot run on one closed reversible carrier. Repetition must restrict inputs, export overwritten distinctions, consume fresh support, or weaken semantics. Reset on the host turnover edge reproduces only its terminal ready/retained class. A fresh-output completion can form history, but its support, retention, epoch, fragment, and access remain separately credited antecedents. | `IMPL` | exact transducer exhaustion, reversible-carrier proof, internal-reset collapse and conditional output-history construction; `explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md` |
+| `NI-DU-70` | If one completion contains a sufficient history archive, its result transfers to every completion of the same reduced matter law; alternatively, opening the full environment merely reveals what the old observer record already contained. | The finest target-independent quotient common to the visible-archive and hidden-reservoir native records is only terminal matter state. It reconstructs the next reduced-matter law but not write occurrence. The visible binary epoch record first leaks at count, while the cross-completion record first leaks already at occurrence. Granting hidden-reservoir access changes the observer/action/resource contract and becomes injective history tomography; it does not repair the old `A`-only record. | `ATTRIB` | exact finite common-quotient theorem, all-partition certificate and two-tier capability witness; `explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md` |
 
 ## GU Formalization
 

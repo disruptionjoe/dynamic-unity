@@ -728,8 +728,8 @@ simulation, microscopic environment model, or empirical result.
 | closed bounded reversible implementation | `OBSTRUCTED` |
 | strict nongauge compression | `CONDITIONAL POSITIVE` relative to supplied completion, epoch, and \(H_{\mathrm{occ}}\) |
 | first capability leak | `POSITIVE`: count/time/output-field access |
-| held-out reconstruction without refit | not yet tested |
-| completion-invariant physical remainder | not established |
+| held-out reconstruction without refit | `HC-DU-045`: positive only for next reduced-matter behavior; historical occurrence fails |
+| completion-invariant physical remainder | not established; omitted history remains in the hidden complete environment |
 
 The North Star remains open.
 
@@ -807,6 +807,21 @@ did produce:
 
 That makes a no-refit, two-completion transfer test informative rather than
 premature.
+
+### Successor receipt
+
+Swing 4 is now complete as
+[`HC-DU-045`](completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md).
+The unique finest `A`-only quotient common to the visible and hidden
+completion records is terminal matter state. It strictly compresses history
+and reconstructs the next reduced-matter law, but the stale and `CWCW`
+histories give an exact same-common-record/different-occurrence witness.
+Across completions, the first capability leak is occurrence. Inside the
+visible binary epoch record, it is count. Full `A+H` access reconstructs
+history only through a resource-expanded injective contract.
+
+`ECR-N5-S5`, robustness and host-level North-Star adjudication, is now the
+sole next executable campaign object.
 
 ## 14. What is earned
 

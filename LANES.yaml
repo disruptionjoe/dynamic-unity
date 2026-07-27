@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 76
+manifest_revision: 77
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -56,9 +56,14 @@ endogenous_compressive_record_campaign_rule: >-
   interval. ECR-N5-S3 is complete as HC-DU-044. The minimum binary epoch transducer is unique,
   its exact set/reset maps cannot run reversibly on one closed bounded carrier, and a
   fresh-output completion can physically retain the history only by charging completion,
-  support, retention and epoch structure that the matter host does not select. ECR-N5-S4, the
-  completion-invariant transfer and first-capability-leak test, is the sole next executable
-  object. ECR-N5-S5 remains conditional.
+  support, retention and epoch structure that the matter host does not select. ECR-N5-S4 is
+  complete as HC-DU-045. The unique finest A-only record common to the visible-archive and
+  hidden-reservoir completions is terminal matter state. It strictly compresses history and
+  reconstructs the next reduced-matter law, but not occurrence, count or event word. The
+  cross-completion first leak is occurrence; inside the visible binary epoch record it is
+  count. Full A-plus-H access repairs history only through an injective resource expansion.
+  ECR-N5-S5, robustness and host-level North-Star adjudication, is the sole next executable
+  object.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -69,7 +74,7 @@ endogenous_record_mechanism_tournament_rule: >-
   occurrence provenance, persistence and reset as outputs to derive or classify from the
   physical microdynamics rather than semantic fields copied into the antecedent. HC-DU-042
   earns a scoped NO_READY_ARENA and minimum-premise obstruction, not a universal no-go.
-  HC-DU-043 and HC-DU-044 have consumed the first host through the epoch-archive boundary.
+  HC-DU-043, HC-DU-044 and HC-DU-045 have consumed the first host through completion transfer.
 metastable_write_selector_result_ref: >-
   explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
 metastable_write_selector_result_rule: >-
@@ -81,7 +86,9 @@ metastable_write_selector_result_rule: >-
   binary distinction; unbounded occurrence identity requires growing support, a bounded horizon
   or weakened semantics. HC-DU-044 now tests that repair: a fresh-output completion can retain
   history, but the host does not select its environment factorization, archive, or epoch reset.
-  Advance only ECR-N5-S4 on completion-invariant transfer and the first capability leak.
+  HC-DU-045 then shows that only terminal matter survives as the finest visible/hidden common
+  record, reconstructing reduced future behavior but not historical occurrence. Advance only
+  ECR-N5-S5 on robustness and host-level North-Star adjudication.
 matter_environment_epoch_archive_result_ref: >-
   explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
 matter_environment_epoch_archive_result_rule: >-
@@ -94,7 +101,19 @@ matter_environment_epoch_archive_result_rule: >-
   completion can physically form a full history record, and its binary quotient is strict and
   autonomous for the bounded occurrence capability, but the matter host does not select the
   completion, output fragment, retention, epoch or latch. Treat the host as
-  SUPPLIED_EPOCH_ARCHIVE and use ECR-N5-S4 to test completion-invariant transfer.
+  SUPPLIED_EPOCH_ARCHIVE. HC-DU-045 now supplies the exact completion-common transfer boundary.
+completion_common_transfer_result_ref: >-
+  explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
+completion_common_transfer_result_rule: >-
+  For any finite family of native completion records, the unique finest target-independent
+  common quotient has kernel equal to the equivalence join of their record kernels; exactly
+  targets constant on that join transfer without refit. In the visible-archive/hidden-reservoir
+  twin, the A-only common quotient is terminal matter state. It strictly compresses history and
+  reconstructs the next reduced-matter law as Markov operational closure, but write occurrence,
+  count and event word fail. Across completions the first capability leak is occurrence; inside
+  the visible binary epoch record it is count. Full A-plus-H access reconstructs history only
+  through an injective observer/action/resource expansion. Treat the host as
+  NO_ENDOGENOUS_ARCHIVE for historical targets and advance only ECR-N5-S5.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -509,8 +528,14 @@ lanes:
     provenance. Consume HC-DU-044's epoch-archive boundary: the minimum binary occurrence
     transducer is unique, its exact set/reset maps cannot run reversibly on one closed carrier,
     and a fresh-output completion can form history only with charged support, retention and
-    epoch structure not selected by the matter host. Use ECR-N5-S4 as the sole next object:
-    test completion-invariant transfer and localize the first capability leak.
+    epoch structure not selected by the matter host. Consume HC-DU-045's matched-completion
+    transfer: the unique finest A-only common quotient is terminal matter state, which
+    reconstructs the next reduced-matter law but not occurrence, count or event word. The
+    cross-completion first leak is occurrence; the visible binary first leak is count; full
+    A-plus-H access is injective resource-expanded tomography. Use ECR-N5-S5 as the sole next
+    object: robustly test horizon, representation, subdivision, stochastic weighting,
+    approximate archive leakage and any non-target-coded host premise that could exclude the
+    hidden completion.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -570,6 +595,8 @@ lanes:
   - explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
   - explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
   - tests/du_epoch_archive_boundary_probe.py
+  - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
+  - tests/du_completion_invariant_transfer_probe.py
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -678,8 +705,11 @@ lanes:
     HC-DU-044 returns SUPPLIED_EPOCH_ARCHIVE for that host while conditionally forming a full
     history in a specified fresh-output completion. Its binary epoch quotient is strict only
     relative to the supplied epoch and bounded occurrence capability, and leaks first to
-    count/time/output-field access. Advance only ECR-N5-S4 on completion-invariant transfer.
-    Do not begin later mechanism-specific cards independently.
+    count/time/output-field access. HC-DU-045 now proves that terminal matter is the finest
+    visible/hidden A-only common quotient. It reconstructs only reduced future behavior among
+    the frozen targets; historical occurrence fails across completions and count first fails
+    inside the visible epoch record. Advance only ECR-N5-S5 on robustness and host-level
+    adjudication. Do not begin another mechanism-specific card independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -730,6 +760,8 @@ lanes:
   - explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
   - explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
   - tests/du_epoch_archive_boundary_probe.py
+  - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
+  - tests/du_completion_invariant_transfer_probe.py
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -818,6 +850,8 @@ lanes:
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
   - lab/process/cross-repo-hardening-control-contract.md
+  - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
+  - tests/du_completion_invariant_transfer_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
@@ -1003,8 +1037,10 @@ lanes:
     no provenance, exact repeated set/reset requires exported or fresh support, and full history
     forms only in a specified history-retaining completion. Do not identify the physical
     systems, repeat code variants, or call the logical quotient an irreducible ontology result;
-    the completion/epoch/action structure is supplied. Advance only ECR-N5-S4 on
-    completion-invariant transfer and the first capability leak.
+    the completion/epoch/action structure is supplied. HC-DU-045 now fixes the unique finest
+    visible/hidden common quotient as terminal matter, earns Markov future transfer, and returns
+    exact historical occurrence failure plus the two-tier capability leak. Advance only
+    ECR-N5-S5 on robustness and host-level North-Star adjudication.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1036,6 +1072,8 @@ lanes:
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
   - docs/quantum-foundations-orientation-surface.md
+  - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
+  - tests/du_completion_invariant_transfer_probe.py
   - explorations/meta-record-geometry-identification-ladder-2026-07-25.md
   - tests/du_meta_record_geometry_identification_probe.py
   - explorations/conformal-record-geometry-reconstruction-and-finite-record-ceiling-2026-07-25.md
@@ -1132,8 +1170,10 @@ lanes:
     the exact write-selector gap and NO_READY_ARENA disposition; HC-DU-043 selects the
     metastable write/retention architecture while proving an endpoint-provenance obstruction.
     HC-DU-044 adds the exact reversible epoch-archive boundary and a conditional formed-output
-    control without creating a paper seed or priority change. Advance H-CCR-17 only through
-    ECR-N5-S4, the completion-invariant transfer and first-capability-leak test.
+    control without creating a paper seed or priority change. HC-DU-045 adds the exact
+    completion-common quotient, Markov-only positive transfer, adverse history transfer and
+    two-tier capability leak without creating a paper seed or priority change. Advance
+    H-CCR-17 only through ECR-N5-S5, the robustness and host-level adjudication test.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1179,11 +1219,13 @@ lanes:
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
     entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
     the completed CCR-N5 campaign as a closed dependency receipt. CCR-N5-S1 through S5 are
-    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5-S1/S2/S3 as
-    completed HC-DU-042/043/044. The first host selects its write/retention architecture up to
-    Z2, but its endpoint omits occurrence provenance and its minimum epoch repair requires
-    completion, support and boundary structure the host does not select. Only ECR-N5-S4 is next
-    executable; S5 remains conditional.
+    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5-S1 through S4 as
+    completed HC-DU-042/043/044/045. The first host selects its write/retention architecture up
+    to Z2, but its endpoint omits occurrence provenance and its minimum epoch repair requires
+    completion, support and boundary structure the host does not select. The finest
+    visible/hidden completion-common record is terminal matter: it reconstructs reduced future
+    behavior but not historical occurrence, while full environment repair is injective and
+    resource-expanded. Only ECR-N5-S5 is next executable.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1204,6 +1246,8 @@ lanes:
   - explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
   - explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
   - tests/du_epoch_archive_boundary_probe.py
+  - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
+  - tests/du_completion_invariant_transfer_probe.py
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -5086,6 +5130,27 @@ provenance:
     environment derivation, universal cost law, endogenous archive, actualization, ontology,
     new physics, prediction, paper, Factory state, hardware, provider action, submission,
     publication or external contact.
+  rev77_note: >-
+    2026-07-27 (Joe direct chat: Go, execute ECR-N5-S4): completed HC-DU-045
+    as the completion-common record quotient and two-tier capability-leak
+    result. For any finite family of native records, the finest
+    target-independent common quotient has kernel equal to the equivalence
+    join of their record kernels; exactly targets constant on that join
+    transfer without refit. In the visible-archive/hidden-reservoir twin, the
+    unique finest A-only common record is terminal matter state. It strictly
+    compresses history and reconstructs the complete next reduced-matter law,
+    but not write occurrence, count or event word. The cross-completion first
+    leak is occurrence; inside the visible binary epoch record it is count.
+    Full A-plus-H access repairs all frozen targets only through an injective
+    observer/action/resource expansion. The exact certificate exhausts all
+    21,147 partitions and passes every check. The host returns
+    MARKOV_OPERATIONAL_CLOSURE plus NO_ENDOGENOUS_ARCHIVE; H-CCR-17 remains
+    open. Only ECR-N5-S5, robustness and host-level North-Star adjudication,
+    is next executable. This is scoped finite factorization, reconstruction
+    and counterexample work from known mathematics, not a universal no-go,
+    endogenous archive, ontology, new law, new physics, prediction, paper,
+    Factory state, hardware, provider action, submission, publication or
+    external contact.
 extensions:
   operating_architecture:
     contract_version: "1.0"

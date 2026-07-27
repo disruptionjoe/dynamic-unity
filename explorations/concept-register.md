@@ -2250,6 +2250,18 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   access. The matter host does not select the completion, support,
   retention, epoch, fragment, or latch, so the disposition is
   `SUPPLIED_EPOCH_ARCHIVE`.
+- **2026-07-27 completion-common transfer.** `HC-DU-045` proves the finite
+  common-quotient rule: the finest target-independent statistic shared by a
+  family of native completion records has kernel equal to the join of their
+  record kernels, and exactly the targets constant on that join transfer
+  without refit. In the visible-archive/hidden-reservoir twin, that quotient
+  is only the terminal matter state. It strictly compresses history and
+  reconstructs the next reduced-matter law, but the stale and `CWCW` histories
+  give an exact same-common-record/different-occurrence witness. Across
+  completions the first capability leak is occurrence; inside the visible
+  binary epoch record it is count. Full `A+H` access reconstructs history only
+  by expanding the observer/action/resource contract and becoming injective
+  on the finite class.
 - **Controls and global kill.**
   - An unobserved Markov or quantum trajectory is not a retained archive.
   - A prewritten random oracle correlated with a path is disclosure, not a
@@ -2268,10 +2280,14 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   the unchanged typed formation/selection/completion-invariance contract.
 - **Status:** **CONCEPT-OPEN / EXACT MINIMUM TRANSDUCER AND
   REVERSIBLE-ARCHIVE BOUNDARY INSTALLED / CONDITIONAL FRESH-OUTPUT HISTORY
-  FORMATION INSTALLED / METASTABLE HOST RETURNS SUPPLIED_EPOCH_ARCHIVE /
-  COMPLETION-INVARIANT TRANSFER OPEN / NO UNIVERSAL COST, ACTUALIZATION,
-  ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER PROMOTION.** See
-  `matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md`.
+  FORMATION INSTALLED / COMPLETION-COMMON ENDPOINT QUOTIENT AND TWO-TIER
+  CAPABILITY LEAK INSTALLED / METASTABLE HOST RETURNS
+  NO_ENDOGENOUS_ARCHIVE WITH MARKOV_OPERATIONAL_CLOSURE ONLY / ROBUST
+  HOST-LEVEL ADJUDICATION NEXT / NO UNIVERSAL COST, ACTUALIZATION, ONTOLOGY,
+  NEW PHYSICS, PREDICTION, OR PAPER PROMOTION.** See
+  `matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md`
+  and
+  `completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
