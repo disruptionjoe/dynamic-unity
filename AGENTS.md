@@ -371,9 +371,15 @@ Before acting, a new agent must be able to state:
    without qualification. The operational quotient common to an antecedent
    fibre is not automatically a material record. The five-position `N5-RS`
    sequence is complete; `H-CCR-17` remains open but dormant behind a new
-   independently motivated physical reopener. The sole executable object is
-   `NORTH_STAR_PORTFOLIO_RESET`: reassess the whole DU portfolio without
-   preselecting a host, CFS, hardware, consensus, or paper direction. Do not
+   independently motivated physical reopener. Joe has now instantiated the
+   required `NORTH_STAR_PORTFOLIO_RESET` as `N5-PF-P1`, a whole-program
+   priority and assumption-dependency audit under one ungraded, exactly
+   compensated preferred-foliation premise. That premise supplies a global
+   time orientation and hidden simultaneity structure, not discreteness,
+   Lorentz leakage, a record, observer, archive, access route, certificate, or
+   finality rule. Keep a matched causal-partial-order control, let the
+   portfolio—not the assumption—select the primary, and do not activate
+   `N5-PF-P2..P5` before the Position-1 receipt. Do not
    fit another archive to the closed metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum

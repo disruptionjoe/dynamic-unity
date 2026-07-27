@@ -3,7 +3,7 @@ title: "Certified Causal Reality — governing research program"
 status: active_research
 doc_type: research_program
 created: 2026-07-24
-revised: 2026-07-26
+revised: 2026-07-27
 authority: "Joe direct chat; nineteen-lens Science Council triple-diamond convergence"
 claim_grade: "PROGRAM CHARTER / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED"
 novelty_status: "COLLISION CLASSES IDENTIFIED / CLAIM-SPECIFIC SEARCH-INCOMPLETE"
@@ -2172,6 +2172,37 @@ dormant behind a new independently motivated premise that breaks the
 interface fibre. The portfolio return is `NORTH_STAR_PORTFOLIO_RESET`; do not
 manufacture a sixth record host. See
 `../explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md`.
+
+### Conditional preferred-foliation portfolio reset
+
+Joe has instantiated that portfolio return as `N5-PF-P1`, the first position
+of a five-swing conditional series. The entire series holds an **exactly
+compensated preferred foliation**:
+
+- a privileged simultaneity structure and global update parameter exist;
+- the admitted region is globally time-oriented;
+- all observer-accessible predictions remain exactly Lorentz/SR-equivalent;
+- no discreteness, lattice, minimum tick, Lorentz leakage, or preferred
+  spatial axis is assumed; and
+- the premise has no evidentiary grade and is not a claim.
+
+The assumption is permitted to narrow a hidden completion class or improve a
+forward representation. It is not permitted to count as a record, observer,
+archive, access route, certificate, finality rule, or empirical result.
+Global time orientation is also typed separately from a material boundary's
+local outward normal and charge convention.
+
+`N5-PF-P1` re-ranks the complete repository before downstream work is chosen.
+Every relevant comparison carries a matched causal-partial-order control that
+preserves complete local process statistics, records, access, actions,
+resources, and causal reach while forgetting privileged simultaneity. The
+provisional successors test operational quotienting, complete accessible
+interface selection, regional-finality/excess candidates, and cross-arena
+branch invariance, but `N5-PF-P2..P5` remain inactive until Position 1 fixes
+their content.
+
+See
+`../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 

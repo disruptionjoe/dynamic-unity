@@ -442,7 +442,16 @@ What *has* been earned is a strong finite control stack:
   select the complete accessible formed interface. The finest common
   operational quotient need not be a material record. The five-position
   `N5-RS` sequence is complete; `H-CCR-17` remains open but dormant behind a
-  new physical reopener. Only `NORTH_STAR_PORTFOLIO_RESET` is executable
+  new physical reopener. Joe has now instantiated the required portfolio
+  reset as
+  [N5-PF-P1](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
+  Position 1 re-ranks the whole repository while holding an exactly
+  compensated preferred foliation as an ungraded conditional premise. The
+  premise supplies hidden simultaneity and global time orientation, not
+  discreteness, Lorentz leakage, a record, observer, archive, access route, or
+  finality rule. The causal-partial-order architecture is the matched hostile
+  control. Only `N5-PF-P1` is executable; Positions 2--5 remain conditional
+  and the assumption may not select the winner. The predecessor receipts are
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -1060,7 +1069,11 @@ channels; they are not lanes and do not create a second priority system.
    The common dynamic-sufficiency theorem is fully absorbed; the exact shared
    gap is antecedent selection of the complete accessible formed interface.
    The five-position sequence is closed and `H-CCR-17` is dormant behind a
-   physical reopener. Only `NORTH_STAR_PORTFOLIO_RESET` is executable.
+   physical reopener. The portfolio reset is now instantiated by the
+   [preferred-foliation conditional five-swing preparation](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
+   It fixes the exactly compensated version, keeps the assumption ungraded,
+   and makes `N5-PF-P1` the only executable position. Later positions do not
+   activate until the whole-program comparison selects their content.
    The
    [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
    and

@@ -3,7 +3,7 @@ title: "Quantum-foundations tension and delta orientation"
 status: active_orientation
 doc_type: research_orientation
 created: 2026-07-25
-revised: 2026-07-26
+revised: 2026-07-27
 run_id: RUN-20260725-084418-tension-delta-orientation
 supersedes_orientation_run: RUN-20260725-083026-quantum-orientation-surface
 claim_grade: "KNOWN FOUNDATIONS TERRAIN + CANDIDATE DYNAMIC UNITY DELTAS / NO CLAIM OR PRIORITY AUTHORITY"
@@ -585,6 +585,24 @@ observer-level access composed without one privileged biography.
 
 **Not a delta.** Another graph hierarchy whose depth or distance changes
 under harmless subdivision.
+
+**Preferred-foliation conditional branch.** Dynamic Unity now has one
+prepared five-swing series that holds an exactly compensated preferred
+foliation without grading or adopting it. This supplies a hidden global
+simultaneity structure and time orientation, but not a physical record,
+observer, archive, access route, common knowledge, or public finality. The
+matched control forgets privileged simultaneity while preserving the complete
+observer-accessible causal process. Any result that survives that forgetting
+is foliation-inert; any observer-accessible difference would require a
+separate leaking branch and cannot be claimed inside exact compensation.
+
+The high-value question is not whether global order exists. It is whether
+that extra structure removes any independently required premise in record
+reconstruction or interface selection. In particular, global chronology does
+not defeat the `HC-DU-054` archive-relocation fibre unless it also selects
+source binding, write, archive route, orientation, observer access, action
+envelope, and resource horizon. See the
+[prepared conditional series](../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
 
 ### 11. Record reconstruction versus unique geometry
 
