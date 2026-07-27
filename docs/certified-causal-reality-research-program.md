@@ -1508,10 +1508,13 @@ See
 The prepared ten-lens
 [`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
 does not create a second campaign. Its first position is complete; Position 2
-is now executable as `N5-RS-P2`, the minimum-premise theorem and whole-DU
-portfolio pivot. Only if that pivot retains record selection do later
-positions attempt physical formation, noninjective held-out transfer, and
-cross-arena generalization.
+retains identity `N5-RS-P2`, the minimum-premise theorem and whole-DU
+portfolio pivot. Joe subsequently interposed the
+[`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
+to separate stochastic amplification, propagation, DAG knowledge,
+metastability, Byzantine/cryptographic hardening, complexity emergence, and
+capability-relative views before the pivot. Only `N5-SCF-P1` is executable;
+`N5-RS-P2` is deferred rather than canceled.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -3035,8 +3038,12 @@ Stinespring/complementary-channel equivalence, Blackwell sufficiency, process
 tensors, and full-environment tomography remain the strongest absorbers.
 The prepared
 [`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-now advances only `N5-RS-P2`, the minimum-premise compiler and whole-DU
-portfolio pivot. It does not pre-activate Positions 3 through 5.
+initially queued `N5-RS-P2`, the minimum-premise compiler and whole-DU
+portfolio pivot. The interposed
+[`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
+now advances only `N5-SCF-P1`, the dependency-sensitive amplification and
+certificate no-recovery boundary. It does not pre-activate later `N5-SCF`
+positions; `N5-RS-P2` remains deferred.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3718,7 +3725,8 @@ PARTIAL FULL-HISTORY LEAK BAYES ERROR EQUALS ONE-MINUS-LAMBDA TIMES ENDPOINT AMB
 EXACT LEAK REPAIR OCCURS ONLY AT INJECTIVE REVELATION
 HOST-INVARIANT ARCHIVE RELOCATION OBSTRUCTS INTERFACE SELECTION
 METASTABLE HOST FINAL VERDICT SELECTION_OR_FORMATION_OBSTRUCTION
-N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT NEXT
+N5-SCF-P1 DEPENDENCY-SENSITIVE AMPLIFICATION AND CERTIFICATE NO-RECOVERY NEXT
+N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT DEFERRED
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

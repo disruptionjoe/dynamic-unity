@@ -1,0 +1,728 @@
+---
+title: "Next five-swing scaffold: stochastic amplification, layered consensus, and capability-relative finality"
+status: position_1_executable
+doc_type: inline_eighteen_lens_triple_diamond_five_swing_scaffold
+created: 2026-07-27
+authority: "Joe direct chat: interpose a stochastic/distributed-systems preparation before N5-RS-P2"
+sequence_id: N5-SCF
+active_position: N5-SCF-P1
+run_plan: "../runs/2026-07-27-stochastic-consensus-finality-five-swing-preparation.md"
+claim_status_change: none
+paper_state_change: none
+hardware_state_change: none
+---
+
+# Next five-swing scaffold: stochastic amplification, layered consensus, and capability-relative finality
+
+## Executive decision
+
+Interpose one five-swing knowledge sequence before `N5-RS-P2`:
+
+```text
+P1  prove the exact boundary between statistical amplification and missing information
+P2  separate gossip reach, DAG knowledge, provenance, and common knowledge
+P3  compose metastable confidence with Byzantine/threshold hardening without conflating guarantees
+P4  model capability-relative views through MMO-style interest management and network churn
+P5  apply the typed stack to a DU physical-record arena and extract a theorem or exact non-unification
+```
+
+Only Position 1 is executable, under identity `N5-SCF-P1`. Positions 2--5
+remain conditional work packages. They receive run identities only after the
+preceding result fixes the smallest useful arena and stop condition.
+
+This sequence does not assume that consensus creates truth, that quantum
+systems vote, or that the universe implements a distributed database. Its
+purpose is narrower and more useful:
+
+> Determine exactly which distinctions stochastic aggregation, propagation,
+> DAG knowledge, metastable agreement, Byzantine certification, threshold
+> disclosure, and capability-relative filtering can preserve or amplify—and
+> which distinctions no layering can create after every admitted participant
+> has lost them.
+
+`N5-RS-P2`, the minimum-premise compiler and whole-DU portfolio pivot, is
+deferred rather than canceled. Position 5 must hand it a sharper premise
+matrix or recommend that it be retyped.
+
+No scientific claim, hypothesis grade, paper priority, prediction, model,
+simulation, hardware path, provider action, publication state, or sibling
+repository state changes through this preparation.
+
+## 1. Why this sequence is not a repeat of `HC-DU-035A/035C`
+
+The existing threshold and regional-finality work already established:
+
+- reconstruction, finality, and capability thresholds are not one scalar;
+- equal locked quorums exclude incompatible certificates exactly when
+  \(2q>N+f\);
+- independent evidence can concentrate while a common shock leaves an error
+  floor;
+- metastable confidence can roll back before a separately supplied absorbing
+  boundary;
+- authenticated DAGs, boundary summaries, provenance, validator origin, and
+  higher-layer action factorization must stay typed apart; and
+- a region becomes a valid higher-layer node only when all frozen upper
+  responses factor through its exported certificate.
+
+The new sequence attacks the dynamic composition left open by those controls:
+
+```text
+formed local evidence
+    -> noisy or correlated participant views
+    -> selective propagation
+    -> authenticated causal/DAG knowledge
+    -> metastable preference
+    -> threshold or BFT certificate
+    -> action-safe regional finality
+    -> capability-dependent observer view
+```
+
+The question is not whether each component exists. Mature distributed-systems
+literature answers that. The question is what each arrow adds, what premises
+it consumes, and whether the complete stack can ever repair the
+archive-relocation and missing-provenance obstruction in `HC-DU-046`.
+
+## 2. The eighteen divergent lenses
+
+These are inline analytical lenses, not evidence, votes, or simulated people.
+
+| lens | strongest observation | consequence for the five swings |
+|---|---|---|
+| Orthodox professor | Every theorem is conditional on a process, dependence, timing, fault, membership, and authentication model. “Many observers agree” has no content until those are frozen. | Build an assumption ledger before any analogy or simulation. |
+| Heterodox professor | The interesting object may be a changing network of networks whose regions cross different confidence and finality transitions at different times. | Preserve multiple layers and phase-like transitions instead of forcing one global finality scalar. |
+| Commercial scientist | A usable system separates fast tentative action from slower irreversible commitment and exposes latency, rollback, bandwidth, failure-domain, and recovery costs. | Measure typed operational tradeoffs, not only abstract agreement. |
+| Wild-frontier scientist | A physical delta, if one exists, is likelier to live in composition, path dependence, or a topology-sensitive failure of ordinary channel factorization than in the existence of thresholds. | Carry one explicit physics-facing discriminator to Position 5, with standard theory as the null. |
+| Philosopher of science | Consensus can constitute a public rule for action without constituting the underlying event. Certification, truth, objectivity, and ontology are different claims. | The stack may create shared capability while remaining informationally downstream of physical record formation. |
+| Hashgraph/DAG specialist | Gossip-about-gossip can encode who learned what from whom and permit virtual voting, but authenticated ancestry and consensus ordering are additional protocol achievements, not record formation. | Test reachability, ancestry, equivocation evidence, knowledge, and ordering separately. |
+| Avalanche/metastable-consensus specialist | Repeated random subsampling can drive a network toward a metastable preference with tunable failure probability, but the guarantee depends on adversary fraction, sampling, timing, and confidence parameters. | Treat probabilistic finality as a bounded-risk result, never as an absorbing fact by vocabulary. |
+| Byzantine consensus and reliable-broadcast specialist | Quorum intersection, reliable broadcast, locks, signatures, and view change solve different adversarial agreement problems. | Give each layer its own safety, liveness, provenance, timing, membership, and fault contract. |
+| Epidemic/network-propagation specialist | Fast rumor spread concerns dissemination under a mixing/contact model. Partitions, correlated loss, eclipse, topology, and churn can make raw population size irrelevant. | Replace raw \(N\) with effective independent support and explicit delivery topology. |
+| MMO networking and replication specialist | Area-of-interest filtering and prediction deliberately give participants different task-relevant views. Locally sufficient views can coexist without global reconstruction. | Model observer access as capability-relative selective replication, and treat interest-set changes as record refinement or contract retyping. |
+| Weak/strong emergence and causal-autonomy specialist | Weak emergence can remain completely fixed by microdynamics while requiring simulation or a higher-level description; strong emergence would require a much stronger failure of microphysical derivation or new causal power. | Never promote computational difficulty, coarse-grained predictive advantage, or surprising collective behavior into new ontology. Test macro-level intervention sufficiency explicitly. |
+| Stigmergy and swarm self-organization specialist | Agents can coordinate indirectly by writing and reading persistent environmental traces. The trace is an external memory and feedback field, not merely a message or a vote. | Add formation, decay, collision, forgery, access, and path-dependence controls for environmental traces; compare them directly with DU archive formation. |
+| Scaling, renormalization, and universality specialist | A real collective regime change needs a family of system sizes, an order parameter, finite-size rounding/shift, and preferably a scaling collapse or fixed-point account. | A sigmoid, confidence knee, or one-network threshold receives no phase-transition or universality credit by itself. |
+| Cascades, percolation, and multilayer-network specialist | Local thresholds can create global cascades only inside topology- and distribution-dependent cascade windows; interdependent layers can amplify both reach and fragility. | Track cascade susceptibility, connected vulnerable clusters, correlated failure domains, and layer coupling separately from consensus safety. |
+| Adaptive and co-evolving systems specialist | Node states alter topology, topology alters evidence flow, and local success changes future sampling. This feedback breaks fixed-network and exogenous-sampling assumptions. | Add topology-state feedback, selection bias, hysteresis, path dependence, and endogenous membership as explicit later controls. |
+| Zero-knowledge and commitment-systems specialist | A verifier can learn that a declared relation has a witness while learning no additional witness information under a precise simulator, soundness, setup, and adversary contract. | Separate existence, certification, disclosure, extractability, and physical truth. A valid proof of a statement about supplied inputs does not prove that those inputs are faithful records of the world. |
+| Homomorphic-encryption and secure-computation specialist | Parties can evaluate a declared function over concealed inputs without exposing those inputs, subject to correctness, leakage, circuit, key, and computational-security assumptions. | Treat encrypted computation as capability without access, not as record creation. The output cannot contain a target distinction that is absent from the admitted inputs and function. |
+| Threshold-cryptography and distributed-key-generation specialist | Secret sharing, verifiable sharing, DKG, threshold decryption, and threshold signing distribute authority differently and have separate setup, bias, corruption, refresh, and attribution guarantees. | Distinguish quorum agreement from cryptographic key access, signer provenance from one compressed threshold signature, and share count from independent control origins. |
+
+### Eighteen-lens convergence
+
+All eighteen lenses converge on one boundary:
+
+> Aggregation can amplify independently present signal and protocols can
+> propagate, authenticate, order, lock, disclose, or make that signal safe
+> for declared actions. They cannot recover a distinction that is absent from
+> every admitted input channel.
+
+The possible DU contribution is not that boundary alone; it is a typed
+composition theorem or smallest failure showing where a physical-record
+network does or does not satisfy its premises.
+
+The complexity lenses add a second boundary:
+
+> Collective order, useful macro-variables, or scale-dependent regularity can
+> emerge from local dynamics without adding information that was absent from
+> the microprocess. Strong-emergence language requires a discriminator beyond
+> weak emergence, coarse-graining, computational cost, or finite-size
+> threshold behavior.
+
+The cryptographic lenses add a third:
+
+> Cryptography can certify a predicate without disclosure, compute on hidden
+> inputs, or distribute the authority to open/sign. It does not certify the
+> physical truth or completeness of its inputs unless a separate trusted
+> formation and attestation chain supplies that premise.
+
+## 3. Relevant theorem terrain and what it does not imply
+
+This is a primary-source orientation surface, not a novelty claim.
+
+| terrain | result or discipline | what DU must not infer |
+|---|---|---|
+| Independent concentration | [Hoeffding](https://doi.org/10.1080/01621459.1963.10500830) bounds tails for sums of bounded independent variables. | A raw population count does not imply an exponential reliability gain when observations share causes or sampling is adversarial. |
+| Partial dependence | [Janson](https://doi.org/10.1002/rsa.20008) gives large-deviation bounds under explicit dependency structure. | “Weakly correlated” cannot be left qualitative; effective support depends on the dependency graph or another frozen dependence model. |
+| Epidemic dissemination | [Demers et al.](https://doi.org/10.1145/41840.41841) develop epidemic replicated-database maintenance; [Karp et al.](https://pure.mpg.de/view/item_1330885) analyze randomized rumor spreading and its time/communication tradeoff. | Fast spread does not prove agreement, provenance, common knowledge, or truth. |
+| Asynchronous impossibility | [Fischer, Lynch, and Paterson](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf) show that deterministic consensus cannot guarantee termination in the fully asynchronous crash-failure model, even with one fault. | A practical timeout or observed convergence does not remove the timing premise. |
+| Partial synchrony | [Dwork, Lynch, and Stockmeyer](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf) recover consensus under explicit partially synchronous timing models. | Liveness obtained after a timing bound or stabilization point is not an assumption-free law. |
+| Failure detectors | [Chandra and Toueg](https://doi.org/10.1145/226643.226647) characterize consensus using failure detectors with declared completeness and accuracy. | Suspicion or local absence is not physical nonexistence; the oracle interface is an added information structure. |
+| Byzantine reliable broadcast and quorums | [Malkhi and Reiter](https://doi.org/10.1007/s004460050050) formalize Byzantine quorum systems; [Malkhi et al.](https://doi.org/10.1145/277697.277781) treat probabilistic Byzantine quorums. | Delivery or certificate agreement does not reconstruct a source event omitted from all validator records. |
+| Threshold access | [Shamir](https://doi.org/10.1145/359168.359176) establishes threshold secret sharing. | \(k\)-of-\(N\) reconstruction is not consensus, dealer consistency, public finality, or independent provenance. |
+| Locked BFT | [HotStuff](https://arxiv.org/abs/1803.05069) separates quorum certificates, locking, phases, view change, safety, and responsiveness. | A finality certificate requires a membership/fault/timing contract and does not select the underlying physical record. |
+| Gossip-about-gossip | Baird's [Hashgraph white paper](https://leemon.com/papers/2016b2.pdf) uses a signed hash-DAG of gossip history; [Crary's formal verification](https://arxiv.org/abs/2102.01167) verifies the scoped batch algorithm and clarifies that virtual votes derive from shared DAG data while communication cycles remain necessary. | The DAG does not make all histories globally known, prevent every network partition, or create evidence that no event recorded. |
+| Metastable BFT | [Team Rocket et al.](https://arxiv.org/abs/1906.08936) analyze leaderless subsampled metastable consensus with parameterized probabilistic safety and liveness assumptions. | Repeated confidence crossing is not absolute or premise-free finality. |
+| Common knowledge | [Halpern and Moses](https://doi.org/10.1145/79147.79161) distinguish individual, distributed, and common knowledge. | Copies, common readability, and even mutual belief are not automatically common knowledge. |
+| Interest management | Heger et al.'s [MMO interest-management model](https://doi.org/10.14279/tuj.eceasst.17.213) uses areas of interest/effect to determine which state changes are relevant to which participants. | Selective replication is not inconsistency by itself, and local action sufficiency is not global state reconstruction. |
+| Weak and causal emergence | [Bedau](https://doi.org/10.1111/0029-4624.31.s11.17) defines weak emergence through microphysical derivability that may require simulation; [Hoel, Albantakis, and Tononi](https://www.pnas.org/doi/10.1073/pnas.1314922110) study macro-grainings with greater effective information. | Simulation dependence or a more informative macro-description is not by itself strong emergence, downward causation, or new physics. |
+| Stigmergic coordination | [Dorigo, Maniezzo, and Colorni](https://doi.org/10.1109/3477.484436) show how agents can coordinate through persistent shared traces in Ant System. | A useful global pattern can be fully explained by an externally stored, updated, and evaporating trace field; the trace's physical formation must still be accounted for. |
+| Scaling and universality | [Kadanoff](https://doi.org/10.1103/PhysicsPhysiqueFizika.2.263) develops block-scale collective variables near criticality; [Fisher and Barber](https://doi.org/10.1103/PhysRevLett.28.1516) establish finite-size scaling discipline. | One finite network, one sharp curve, or one apparent critical value does not establish a phase transition or universality class. |
+| Cascades and percolation | [Watts](https://doi.org/10.1073/pnas.082090499) shows that global threshold cascades occupy topology- and threshold-dependent windows in sparse random networks. | A cascade is not consensus: widespread adoption can coexist with fragility, path dependence, and no adversarial safety. |
+| Adaptive and self-organizing networks | [Gross and Blasius](https://arxiv.org/abs/0709.1858) review networks whose node dynamics and topology co-evolve; [Bak, Tang, and Wiesenfeld](https://doi.org/10.1103/PhysRevLett.59.381) provide the canonical self-organized-criticality model. | Fixed-topology concentration and exogenous-sampling theorems do not transfer automatically when the process rewires its own evidence channels or tunes itself toward a critical regime. |
+| Zero knowledge | [Goldwasser, Micali, and Rackoff](https://doi.org/10.1137/0218012) formalize interactive proofs whose verifier learns no additional knowledge beyond the proposition under the declared model. | Zero knowledge separates verification from disclosure; it does not establish that a physical event produced the witness or that the proved statement exhausts reality. |
+| Homomorphic computation | [Gentry](https://research.ibm.com/publications/fully-homomorphic-encryption-using-ideal-lattices) constructs fully homomorphic evaluation of circuits over encrypted data. | Encrypted evaluation preserves confidentiality while computing a supplied function; it does not add source information, truthful-input guarantees, or public finality. |
+| Threshold cryptography and DKG | [Gennaro, Jarecki, Krawczyk, and Rabin](https://doi.org/10.1007/s00145-006-0347-3) show why distributed key generation needs a rigorous active-adversary and key-bias analysis; Shamir supplies the threshold-access baseline above. | A \(k\)-share opening or signature may distribute authority while hiding which source evidence each controller possessed. Setup, control-origin independence, and input provenance remain separate. |
+
+### The theorem map in one line
+
+```text
+concentration != dissemination != authenticated ancestry != agreement
+              != finality != disclosure != common knowledge != truth
+```
+
+Each implication requires additional premises. The five swings are designed
+to locate those premises exactly.
+
+## 4. Strongest preparatory conjectures
+
+These are scoped targets, not promoted claims.
+
+### C-SCF-1 — No distinction amplification
+
+Let hidden history be \(H\), the finest admitted source record be \(Q\), node
+views be \(R_1,\ldots,R_N\), and the final certificate be \(C\). If the frozen
+architecture forms a Markov chain
+
+\[
+H \longrightarrow Q \longrightarrow (R_1,\ldots,R_N)
+  \longrightarrow C,
+\]
+
+then two histories inducing the same law for \(Q\) induce the same law for
+\(C\). No randomized aggregation, gossip, DAG, vote, or threshold layer
+downstream of \(Q\) can make a target exactly reconstructible if it is not
+already measurable through \(Q\).
+
+This is expected to be a direct data-processing/factorization consequence.
+The value lies in making it the unchanged hostile control for every later
+layer, not in claiming new mathematics.
+
+### C-SCF-2 — Effective-support amplification
+
+When participants receive genuinely target-sensitive noisy evidence, the
+error exponent depends on the independence/dependence/fault structure rather
+than raw participant count. IID concentration is the positive control;
+common shock, dependency clusters, adversarial sampling, eclipse, and Sybil
+origins are the hostile controls.
+
+The open question is whether one representation-robust effective-support
+quantity can cover the selected finite arenas without hiding topology,
+adversary, or provenance in a fitted scalar.
+
+### C-SCF-3 — Typed finality ladder
+
+A layered protocol may monotonically add:
+
+```text
+delivery
+authenticated provenance
+equivocation evidence
+metastable confidence
+fork safety
+witness disclosure
+common verification
+bounded-risk action capability
+```
+
+but no layer receives credit for another layer's guarantee. A common theorem
+would state the exact composition requirements. A smallest counterexample
+showing that no one ladder order works unchanged would be equally valuable.
+
+### C-SCF-4 — Capability-relative view sufficiency
+
+An interest-managed view can be sufficient for a frozen local action class
+while remaining insufficient for global history or a larger capability
+class. Expanding the interest/action set can reveal the first omitted
+distinction and requires a new finality verdict.
+
+This is a distributed control for Dynamic Unity's observer-indexed access and
+capability structure, not evidence that physical observers are MMO clients.
+
+### C-SCF-5 — Emergence-grade separation
+
+For a declared microprocess, coarse-graining, intervention family, and
+resource bound, classify a collective variable as:
+
+```text
+NOMINAL_MACRO_DESCRIPTION
+WEAKLY_EMERGENT_SIMULATION_DEPENDENCE
+MACRO_PREDICTIVE_OR_CAUSAL_ADVANTAGE
+STRONG_EMERGENCE_CANDIDATE
+INCOMPLETE_MICRO_CONTRACT
+```
+
+No collective threshold receives strong-emergence credit unless two complete
+microphysical models agree on every admitted micro-level cause and response
+yet differ under a finite macro-level intervention, or another comparably
+strong operational criterion is supplied. A failure of practical prediction
+or a useful macro causal model is insufficient.
+
+### C-SCF-6 — Scaling-before-criticality
+
+Any proposed public-fact phase transition must expose:
+
+- an order parameter;
+- a growing system-size family;
+- finite-size shift and rounding;
+- a correlation or susceptibility scale;
+- topology and boundary-condition sensitivity;
+- a candidate scaling collapse or a proved reason none should exist; and
+- a null model producing a similar finite knee without criticality.
+
+The likely outcome is that many consensus thresholds are engineered protocol
+boundaries, not universal critical phenomena. Discovering a robust
+universality class would be a substantially stronger result.
+
+### C-SCF-7 — Cryptographic no-minting corollaries
+
+For an incomplete physical record \(Q\):
+
+- a zero-knowledge proof can establish only a declared predicate whose
+  witness relation is satisfied by supplied inputs;
+- homomorphic or multiparty evaluation can produce only the declared
+  function \(f(Q_1,\ldots,Q_N)\) of admitted inputs; and
+- threshold opening or signing can change who must cooperate without changing
+  the information content of the underlying record.
+
+If a held-out target does not factor through the admitted input tuple, none of
+these layers can make it exactly reconstructible without adding a new
+target-sensitive input. This is expected to be a standard
+factorization/data-processing consequence. Its DU value is as a hostile
+control against treating verification, concealment, or distributed authority
+as physical record formation.
+
+## 5. Triple Diamond 1 — define the problem worth solving
+
+### Divergence
+
+The user intuition could point to at least six different questions:
+
+1. Does a law of large numbers make a regional fact physically real?
+2. Can gossip propagation create public objectivity?
+3. Can a DAG encode enough causal provenance to reconstruct occurrence?
+4. Can metastable confidence become hard finality through a later BFT layer?
+5. Can threshold cryptography make an inaccessible fact actionable without
+   disclosing it?
+6. Can differently filtered observer views jointly support one regional
+   reality?
+7. Is the resulting macro-order only weakly emergent from a complete
+   microprocess, or is any stronger claim operationally defensible?
+8. Is a sharp threshold a finite-size protocol knee, a cascade window, a
+   self-organized critical regime, or a genuine universality class?
+9. Do environmental traces coordinate participants stigmergically while
+   introducing an unacknowledged archive?
+10. Does state-dependent rewiring invalidate the fixed topology and sampling
+    assumptions?
+11. Can a fact become publicly verifiable without witness disclosure, and
+    what exactly does that change about capability and finality?
+12. Can a network compute an action-enabling function over hidden records
+    while no participant can access the complete witness?
+13. Does threshold signing or opening prove independent physical support, or
+    only control of shares produced by one setup and source?
+
+### Convergence
+
+The exact shared problem is:
+
+> Given a physically formed source distinction and a frozen network of
+> participant channels, what is the strongest guarantee each stochastic,
+> propagation, DAG, metastable, quorum, cryptographic, and access-filtering
+> layer can add; and what source distinctions remain impossible to recover?
+
+This formulation allows a theorem, a counterexample, or a disciplined
+non-unification result. It does not presuppose that the layers form one
+physical ontology.
+
+## 6. Triple Diamond 2 — choose the efficient orchestration
+
+| option | benefit | decisive weakness | disposition |
+|---|---|---|---|
+| Build one elaborate blockchain-like universe toy | Vivid integrated architecture | Too many supplied choices; failures are uninterpretable | reject |
+| Survey distributed theorems only | Strong orientation | No collision with the DU obstruction | preparation only |
+| Map each protocol directly to a quantum effect | High apparent novelty | Meaning changes and analogy risk | reject |
+| Prove only a generic data-processing theorem | Exact and cheap | Known boundary; misses layered operational structure | use as Position 1 spine |
+| Stage exact theorem, protocol layers, capability views, then one physical collision | Every step has a positive and hostile control | Requires strict stopping and no vocabulary inflation | selected |
+
+### Selected principle
+
+Use **amplification before architecture, and architecture before physics**:
+
+```text
+what information exists?
+    -> how dependence changes amplification
+    -> how propagation changes who has it
+    -> how DAGs and certificates change what can be verified
+    -> how finality changes safe action
+    -> whether the same typed structure survives a physical arena
+```
+
+Local computation is admitted only when it discovers an exact counterexample,
+checks a symbolic boundary, or validates a proof certificate before external
+hardware would matter.
+
+## 7. Position 1 — dependency-sensitive amplification and no-recovery
+
+### Identity
+
+```text
+N5-SCF-P1
+Dependency-Sensitive Amplification and Certificate No-Recovery
+```
+
+### Decision
+
+Can a large participant population or layered randomized certificate recover
+any historical distinction missing from the finest common source record?
+When signal is present, what dependence structure—not raw \(N\)—controls the
+available reliability gain?
+
+### Best approach
+
+1. Freeze a binary target, source record, participant channels, protocol
+   randomness, sampling rule, and adversary.
+2. Prove the deterministic factorization boundary.
+3. Prove its stochastic Markov/data-processing version.
+4. Add IID noisy target-sensitive observations as the positive concentration
+   control.
+5. Add common shock, clustered dependence, duplicated/Sybil origin,
+   adversarial subsampling, and endpoint-only views as hostile controls.
+6. Add one stigmergic shared-trace control: many agents read one formed,
+   decaying environmental mark rather than receiving independent evidence.
+7. Add algebraic corollaries for zero-knowledge verification, homomorphic
+   evaluation, and threshold opening over an incomplete input record.
+8. Compare exact reconstructibility, Bayes/minimax risk, and certificate
+   disagreement separately.
+9. Ask whether an effective-support quantity survives benign splitting,
+   relabeling, and origin duplication.
+
+### Required outputs
+
+- one exact no-recovery theorem or smallest counterexample;
+- one dependence-sensitive amplification boundary;
+- one explicit statement of what law-of-large-numbers language earns;
+- one reusable typed assumption ledger; and
+- a branch decision for Position 2.
+
+### Stop
+
+Do not build a network simulator unless the analytic boundary leaves a
+decision-changing finite case unresolved.
+
+## 8. Position 2 — propagation, DAG knowledge, and provenance
+
+### Conditional decision
+
+Given the smallest informative Position-1 source, what do epidemic
+propagation and gossip-about-gossip add beyond independent node views?
+
+### Best approach
+
+1. Use one event set and one fault model across plain gossip, signed gossip,
+   hash-DAG ancestry, and virtual-vote views.
+2. Track separately:
+   - event delivery;
+   - authenticated origin;
+   - causal ancestry;
+   - equivocation detectability;
+   - distributed knowledge;
+   - common knowledge;
+   - total ordering; and
+   - action sufficiency.
+3. Hold final delivered values fixed while varying routes and provenance.
+4. Add partitions, eclipse, churn, delayed edges, and duplicated origin.
+5. Test lossless DAG subdivision and benign relay insertion.
+6. Compare direct message propagation with stigmergic environmental traces,
+   including trace write, evaporation, collision, and forgery.
+7. Add one commitment/zero-knowledge variant that certifies an ancestry or
+   consistency predicate without disclosing the complete event path.
+8. Report precisely what the verifier can now act on and what history remains
+   hidden.
+9. Return the first layer at which each target becomes identifiable.
+
+### Stop
+
+Do not call a DAG a physical causal set or a gossip edge entanglement. The
+shared object is the typed information relation only.
+
+## 9. Position 3 — metastable confidence to Byzantine hardening
+
+### Conditional decision
+
+Can one unchanged specimen pass from fast probabilistic preference to
+fork-safe public commitment while preserving provenance and honest accounting
+of rollback, liveness, latency, and fault assumptions?
+
+### Best approach
+
+1. Freeze one membership, origin-rank, topology, adversary, and timing model.
+2. Run or analyze an Avalanche-like subsampling/confidence layer.
+3. Add a separate reliable-broadcast or DAG provenance layer.
+4. Add a quorum-lock or threshold-certificate hardening layer.
+5. Compare a multisignature/quorum certificate with a true threshold
+   signature and declared DKG; preserve signer/control-origin provenance.
+6. Add one zero-knowledge or verifiable-secret-sharing path in which a
+   hidden witness becomes publicly certifiable without becoming public.
+7. Add one homomorphic/MPC control that computes the frozen action predicate
+   over private participant records without reconstructing them centrally.
+8. Keep probabilistic error, conflicting-certificate safety, liveness,
+   disclosure, and action capability as separate outputs.
+9. Attack the composition with adaptive faults, correlated samples,
+   partitions, equivocation, withheld shares, and membership churn.
+10. Charge messages, samples, latency, trust/setup/key-generation, memory,
+    proof size, circuit cost, and rollback.
+11. If a sharp transition appears, vary system size and topology; report
+   finite-size shift/rounding and a noncritical sigmoid control before using
+   phase-transition language.
+
+### Required return
+
+Either:
+
+```text
+SCOPED_LAYERED_FINALITY_COMPOSITION
+```
+
+with exact premises, or the smallest counterexample showing that one layer's
+output is not a sufficient input certificate for the next.
+
+## 10. Position 4 — MMO-style interest management and observer capability
+
+### Conditional decision
+
+Can differently filtered regional views be simultaneously action-sufficient
+without one globally replicated state, and how does an observer's capability
+change re-open previously final distinctions?
+
+### Best approach
+
+1. Freeze one world history and several action classes.
+2. Define area-of-interest/effect or task-relevance filters independently of
+   the held-out responses.
+3. Give different participants different selective record streams.
+4. Test local prediction/dead reckoning, rollback, handoff, sharding,
+   partition, and interest-set expansion.
+5. Let at least one participant policy rewire or resize its own interest
+   neighborhood, and test whether the feedback creates hysteresis or sampling
+   bias.
+6. Determine the minimal view sufficient for each action class.
+7. Distinguish:
+   - local action closure;
+   - cross-region reconciliation;
+   - global history reconstruction;
+   - provenance verification; and
+   - capability enlargement.
+8. Compare the result to DU's capability-indexed equivalence and first-leak
+   laws without identifying software clients with physical observers.
+
+### Information-dense output
+
+A finite theorem or exact counterexample for:
+
+```text
+action-relative local finality
+    + incompatible incomplete views
+    + safe regional composition
+```
+
+with the first distinction revealed when capability expands.
+
+## 11. Position 5 — DU physical collision and portfolio handoff
+
+### Conditional decision
+
+Does the complete typed distributed stack illuminate a real physical-record
+question, or does the translation fail at a precise arrow?
+
+### Best approach
+
+Apply the unchanged contract to:
+
+1. the distributed specimen surviving Positions 1--4; and
+2. one DU physical arena selected only after the earlier receipts, with the
+   metastable host as mandatory hostile control.
+
+Candidate physical arenas must already have:
+
+- a physically formed record channel;
+- a declared observer/access boundary;
+- a nontrivial stochastic or correlated evidence structure;
+- an independently fixed action target; and
+- a local proof or counterexample available before external hardware.
+
+Test whether:
+
+- independent physical records really supply new target-sensitive evidence;
+- redundancy merely copies one common source;
+- authenticated provenance has a physical counterpart;
+- a probabilistic threshold changes only risk or changes exact
+  reconstructibility;
+- a hardening layer changes public action capability without changing the
+  underlying event; and
+- capability expansion refines the record fibre in the same typed way;
+- the surviving macro-variable is only a convenient or weakly emergent
+  coarse-graining, has a declared intervention-level causal advantage, or
+  leaves a complete-microprocess remainder; and
+- any claimed threshold survives a genuine scaling-family test rather than
+  one finite protocol configuration;
+- verification without disclosure, computation without access, and
+  threshold authority have physical counterparts with the same semantics;
+  and
+- any cryptographic certificate rests on independently formed physical
+  inputs rather than a supplied attestation oracle.
+
+### Final returns
+
+```text
+SCOPED_AMPLIFICATION_WITHOUT_INFORMATION_CREATION_THEOREM
+SCOPED_LAYERED_FINALITY_COMPOSITION_THEOREM
+CAPABILITY_RELATIVE_REGIONAL_FINALITY_THEOREM
+EXACT_DISTRIBUTED_PHYSICAL_NON_UNIFICATION
+KNOWN_DISTRIBUTED_ABSORBER_ONLY
+INCOMPLETE_PHYSICAL_INTERFACE
+```
+
+Position 5 must write a handoff to the deferred `N5-RS-P2` portfolio pivot.
+It may recommend resuming, retyping, or retiring that work object. It cannot
+make the portfolio decision silently.
+
+## 12. Triple Diamond 3 — assurance
+
+### Twenty-three obligations
+
+1. source event and finest admitted source record frozen;
+2. target fixed before protocol design;
+3. participant origin and independence rank explicit;
+4. dependence and sampling law explicit;
+5. topology, membership, churn, and partition model explicit;
+6. adversary and corruption timing explicit;
+7. timing/synchrony and liveness premise explicit;
+8. authentication and cryptographic setup explicit;
+9. delivery separated from agreement;
+10. provenance separated from endpoint value;
+11. metastable confidence separated from hard finality;
+12. certificate verification separated from witness disclosure;
+13. common readability separated from common knowledge;
+14. local action sufficiency separated from global reconstruction;
+15. every physics translation preserves meaning or returns non-unification;
+16. microprocess and macro coarse-graining fixed before emergence grading;
+17. weak emergence and macro predictive advantage separated from strong
+    emergence;
+18. order parameter, size family, and finite-size effects explicit before
+    criticality language;
+19. stigmergic trace formation, persistence, collision, and decay charged;
+20. topology-state feedback and endogenous sampling tested before transferring
+    fixed-network theorems;
+21. zero-knowledge completeness, soundness, simulation, setup, and statement
+    relation separated from physical truth;
+22. homomorphic/MPC functionality, leakage, correctness, key custody, and
+    truthful-input assumptions explicit; and
+23. threshold setup/DKG, control-origin independence, corruption timing,
+    refresh, disclosure, and signer provenance explicit.
+
+### Absorber controls
+
+Before any novelty language, collide results with:
+
+- data processing and statistical experiment comparison;
+- concentration under independence and dependency graphs;
+- epidemic dissemination and rumor spreading;
+- FLP, partial synchrony, and failure-detector assumptions;
+- reliable broadcast, quorum intersection, locked BFT, and threshold access;
+- Hashgraph-style authenticated DAG knowledge;
+- Avalanche-style probabilistic metastability;
+- common-knowledge results;
+- interest-management and replicated-state practice;
+- weak/causal-emergence and coarse-graining controls;
+- stigmergic and swarm coordination;
+- finite-size scaling, renormalization, cascades, percolation, and
+  self-organized criticality;
+- adaptive and co-evolving network controls;
+- zero-knowledge, commitment, homomorphic/MPC, verifiable-sharing, DKG, and
+  threshold-signature controls;
+- process tensors, redundant records, SBS/Quantum Darwinism, and
+  full-environment tomography on the physics side.
+
+### Reopen and stop rules
+
+| result | response |
+|---|---|
+| Position 1 shows all proposed gains are copies of one incomplete source | Bank the no-recovery boundary; Position 2 studies provenance only if a distinct target remains. |
+| A dependence-robust effective-support theorem survives | Carry it unchanged into Positions 2 and 3. |
+| DAG provenance adds no held-out capability | Stop at a known distributed absorber; do not map it to physics. |
+| Metastable and BFT layers compose only after adding a new trusted interface | Record the first missing arrow; do not call the stack emergent. |
+| Interest-managed views give exact local action closure | Carry the minimal-view theorem to the physical collision. |
+| A threshold is sharp at one size but has no scaling family | Classify it as a finite protocol knee; do not escalate criticality language. |
+| A macro-description outperforms a micro-description only under a declared intervention distribution | Report macro causal advantage, not strong emergence. |
+| Stigmergic coordination succeeds only because a persistent trace was supplied | Charge the trace as an archive and return to the formation question. |
+| Adaptive rewiring destroys IID or fixed-topology guarantees | Retype the process and prove a feedback-aware bound or stop. |
+| Zero knowledge verifies a predicate but the physical input attestation remains supplied | Bank verification-without-disclosure as a capability control; do not claim physical finality. |
+| Homomorphic/MPC output enables an action while inputs remain private | Classify computation-without-access separately from public record formation. |
+| Threshold signing compresses away validator or origin detail needed by a later target | Preserve an auditable provenance lift or return a capability-relative leak. |
+| The physical arena lacks formed, nonduplicated evidence | Return `INCOMPLETE_PHYSICAL_INTERFACE`; no hardware or simulator escalation. |
+| One translation survives every control | Hand it to `N5-RS-P2` as a newly justified premise, not as ontology. |
+
+## 13. Local-computation and external-hardware rule
+
+Every position must earn its first decision-changing result by proof, exact
+finite counterexample, symbolic calculation, or a small deterministic local
+certificate.
+
+No external hardware is part of this sequence. If Position 5 leaves one
+irreducible empirical discriminator:
+
+1. write one awareness note;
+2. specify the external path and local fallback;
+3. do not keep circling the blocked hardware path; and
+4. do not build a local model whose only new learning would occur after
+   external access.
+
+## 14. Unconstrained wish list
+
+These are `UNRANKED / UNCOMMITTED / NOT_A_CLAIM`:
+
+- a dependency-sensitive “effective validator rank” invariant robust to
+  Sybil splitting and benign relay subdivision;
+- a theorem separating formation provenance from cryptographic provenance;
+- a categorical composition law for delivery, knowledge, certification, and
+  capability morphisms;
+- an exact relation between Blackwell informativeness and Byzantine quorum
+  hardening;
+- a finite-size scaling test distinguishing a true public-fact phase
+  transition from a confidence knee;
+- a dynamic-region theorem with validators and regions joining or leaving;
+- a zero-knowledge physical-record analogy in which existence,
+  certification, and disclosure remain separate;
+- a network-of-networks model where different regions use different finality
+  rules without a privileged global clock;
+- an observer-capability version of interest management with a proved first
+  leak;
+- a scaling-family test for public-fact thresholds with an explicit
+  noncritical finite-size foil;
+- a theorem relating stigmergic trace memory to provenance-bearing record
+  formation;
+- an intervention test separating useful macro causal autonomy from strong
+  emergence;
+- an adaptive-network version of effective support where evidence and
+  topology co-evolve;
+- a zero-knowledge public-fact control separating existence, certification,
+  disclosure, and physical truth;
+- a homomorphic capability result in which an action is enabled without any
+  observer receiving the complete record;
+- a threshold-DKG provenance theorem distinguishing share count, signer
+  threshold, and independent source support; and
+- a physical experiment in which independent record channels versus one
+  common copied source produce a preregistered difference before any hardware
+  barrier.
+
+## Bottom line
+
+The large-number intuition is useful only after one question is answered:
+
+> Are there many independent pieces of target-sensitive evidence, or many
+> downstream copies of the same incomplete record?
+
+The first case permits concentration and layered hardening. The second does
+not. The next five swings will establish that boundary, follow the information
+through propagation and consensus layers, test capability-relative regional
+views, and only then ask whether the architecture survives contact with a
+physical-record problem in Dynamic Unity.

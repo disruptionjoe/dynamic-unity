@@ -8,7 +8,8 @@ authority: "Joe direct chat: Go"
 result: "../explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md"
 probe: "../tests/du_metastable_host_robustness_adjudication_probe.py"
 artifact: "../tests/artifacts/du_metastable_host_robustness_adjudication_result.json"
-next_work: N5-RS-P2
+next_work: N5-SCF-P1
+previously_queued_work: N5-RS-P2
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -78,11 +79,14 @@ verdict: SELECTION_OR_FORMATION_OBSTRUCTION
 
 ## Routing
 
-The ECR-N5 campaign is complete. The sole next executable work object is:
+The ECR-N5 campaign is complete. `N5-RS-P2` was the initially queued
+successor. Joe subsequently interposed the stochastic/consensus/complexity/
+cryptography sequence. The sole next executable work object is now:
 
 ```text
-N5-RS-P2
-Minimum-Premise Compiler and Whole-DU Portfolio Pivot
+N5-SCF-P1
+Dependency-Sensitive Amplification and Certificate No-Recovery
 ```
 
-No paper, prediction, provider, or hardware state changed.
+`N5-RS-P2` is deferred, not canceled. No paper, prediction, provider, or
+hardware state changed.

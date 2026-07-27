@@ -272,11 +272,14 @@ current results establish the starting boundary, not the answer:
   archive relocation leaves the host antecedent fixed while changing its
   interface, the host cannot select archive location or access. Its final
   verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`; full-environment repair
-  remains `INJECTIVE_TOMOGRAPHY_ONLY`. The prepared ten-lens
+  remains `INJECTIVE_TOMOGRAPHY_ONLY`. The prepared
   [next-five sequence](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-  now advances only `N5-RS-P2`, the minimum-premise and whole-portfolio pivot,
-  before any new physical construction. Its later three positions are
-  conditional, not parallel active work
+  originally queued `N5-RS-P2`, the minimum-premise and whole-portfolio
+  pivot. Joe has now interposed the eighteen-lens
+  [stochastic/consensus/complexity/cryptography sequence](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
+  Only `N5-SCF-P1`, the dependency-sensitive amplification and certificate
+  no-recovery boundary, is executable. Its later four positions are
+  conditional; `N5-RS-P2` is deferred, not canceled
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);

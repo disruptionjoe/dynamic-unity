@@ -930,7 +930,10 @@ lossless relabeling and benign subdivision; supplies the exact
 partial-history-leak Bayes-risk law; and shows that archive relocation leaves
 the host antecedent invariant while changing the interface. The scoped host
 verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`. Only `N5-RS-P2`, the
-minimum-premise compiler and whole-DU portfolio pivot, is now executable.
+minimum-premise compiler and whole-DU portfolio pivot, was initially queued.
+Joe subsequently interposed the
+[`N5-SCF` sequence](next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
+Only `N5-SCF-P1` is now executable; `N5-RS-P2` is deferred.
 
 ## Bottom line
 

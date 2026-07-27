@@ -140,3 +140,18 @@ Minimum-Premise Compiler and Whole-DU Portfolio Pivot
 ```
 
 Positions 3 through 5 remain conditional.
+
+## Routing update — stochastic/consensus interposition
+
+Joe subsequently interposed the
+[`N5-SCF` five-swing sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
+to test statistical amplification, distributed finality, complexity/emergence,
+and cryptographic hardening before the portfolio pivot.
+
+```text
+CURRENT:  N5-SCF-P1
+DEFERRED: N5-RS-P2
+```
+
+The `N5-SCF` fifth position must explicitly hand back a recommendation to
+resume, retype, or retire `N5-RS-P2`.

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 79
+manifest_revision: 80
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -75,13 +75,26 @@ next_five_host_closeout_sequence_ref: >-
 next_five_host_closeout_sequence_rule: >-
   The prepared N5-RS sequence was designed through ten inline divergent lenses and a triple
   diamond. It does not create a parallel campaign. Position 1 is complete as HC-DU-046 with
-  host verdict SELECTION_OR_FORMATION_OBSTRUCTION. Position 2 is now the sole executable object
-  under identity N5-RS-P2: compile the minimum missing premise and re-rank the complete DU
-  portfolio before any new build. Only if that pivot keeps record selection first do Positions
-  3 and 4 attempt one target-independent physical formation chain and one noninjective held-out
-  transfer. Position 5 seeks a cross-arena theorem or the smallest exact non-unification
-  counterexample. Positions 3 through 5 remain conditional and receive run identities only
-  after their predecessors close.
+  host verdict SELECTION_OR_FORMATION_OBSTRUCTION. Position 2 retains identity N5-RS-P2, but Joe
+  has interposed the N5-SCF stochastic/consensus/complexity/cryptography sequence before it.
+  N5-RS-P2 is deferred rather than canceled. Its Positions 3 through 5 remain conditional, and
+  the interposed sequence must hand back a recommendation to resume, retype or retire the pivot.
+stochastic_consensus_finality_sequence_ref: >-
+  explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
+stochastic_consensus_finality_sequence_rule: >-
+  The N5-SCF sequence was prepared through eighteen inline lenses: the five-person Science
+  Council; Hashgraph/DAG, Avalanche/metastable, Byzantine consensus, epidemic propagation and MMO
+  networking specialists; weak/strong emergence, stigmergy, scaling/universality,
+  cascades/percolation and adaptive-network specialists; and zero-knowledge,
+  homomorphic/MPC and threshold/DKG cryptographers. It preserves HC-DU-035A/035C and asks what
+  amplification, propagation, provenance, metastability, hard finality, cryptographic
+  verification, concealed computation and capability-relative filtering can add without
+  creating information absent from every input. Only N5-SCF-P1 is executable: prove the
+  dependency-sensitive amplification and certificate no-recovery boundary, including
+  cryptographic no-minting corollaries. Positions 2 through 5 remain conditional. Position 5
+  must collide the unchanged typed stack with one DU physical arena and hand a resume/retype/
+  retire recommendation to deferred N5-RS-P2. No model, hardware, paper or claim is promoted by
+  the preparation.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -148,8 +161,8 @@ metastable_host_robustness_result_rule: >-
   interface changed by accessible/hidden routing while the host antecedent stays fixed cannot
   factor through that antecedent. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION, retain
   MARKOV_OPERATIONAL_CLOSURE as the positive control, and treat A-plus-H repair as
-  INJECTIVE_TOMOGRAPHY_ONLY. Advance only N5-RS-P2, the minimum-premise compiler and whole-DU
-  portfolio pivot; do not fit another archive to this host.
+  INJECTIVE_TOMOGRAPHY_ONLY. N5-RS-P2 was the initially queued portfolio pivot, but Joe has
+  interposed N5-SCF. Advance only N5-SCF-P1 and do not fit another archive to this host.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -572,9 +585,10 @@ lanes:
     closeout: the first completed cycle is the exact first historical failure, the witness
     survives horizon, positive weighting and benign representation changes, partial history
     leakage obeys an exact Bayes boundary, and host-invariant archive relocation blocks
-    interface selection. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION. Use N5-RS-P2
-    as the sole next object: compile the minimum missing premise and re-rank the whole DU
-    portfolio before any new construction. Positions 3 through 5 remain conditional.
+    interface selection. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION. Joe has
+    interposed the N5-SCF stochastic/consensus/complexity/cryptography sequence before the
+    N5-RS-P2 portfolio pivot. Advance only N5-SCF-P1; N5-RS-P2 and its later positions remain
+    deferred and conditional.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -752,7 +766,8 @@ lanes:
     the frozen targets; historical occurrence fails across completions and count first fails
     inside the visible epoch record. HC-DU-046 closes the host under horizon, weighting,
     relabeling, subdivision, approximate leakage and archive relocation. Advance only
-    N5-RS-P2, the minimum-premise compiler and whole-portfolio pivot. Do not begin another
+    N5-SCF-P1, the dependency-sensitive amplification and certificate no-recovery boundary.
+    N5-RS-P2 is deferred behind the five-swing N5-SCF sequence. Do not begin another
     mechanism-specific card independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
@@ -1089,7 +1104,8 @@ lanes:
     visible/hidden common quotient as terminal matter, earns Markov future transfer, and returns
     exact historical occurrence failure plus the two-tier capability leak. HC-DU-046 proves
     the failure is robust and that the host cannot select an interface changed by archive
-    relocation while its own antecedent stays fixed. Advance only N5-RS-P2.
+    relocation while its own antecedent stays fixed. Advance only N5-SCF-P1; N5-RS-P2 is
+    deferred behind the stochastic/consensus/complexity/cryptography sequence.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1227,7 +1243,8 @@ lanes:
     two-tier capability leak without creating a paper seed or priority change. HC-DU-046
     completes the robustness adjudication, closes this host as
     SELECTION_OR_FORMATION_OBSTRUCTION, and leaves H-CCR-17 open outside it. Advance only
-    N5-RS-P2, the minimum-premise compiler and whole-DU portfolio pivot.
+    N5-SCF-P1; the N5-RS-P2 minimum-premise and whole-DU portfolio pivot is deferred until
+    N5-SCF returns its cross-arena handoff.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1279,7 +1296,8 @@ lanes:
     the first completed cycle and every longer horizon; full environment repair is injective
     and resource-expanded. Preserve the host verdict
     SELECTION_OR_FORMATION_OBSTRUCTION and the prepared N5-RS sequence without treating it as a
-    parallel campaign. Only Position 2, N5-RS-P2, is executable.
+    parallel campaign. Preserve the interposed N5-SCF sequence and make only N5-SCF-P1
+    executable; N5-RS-P2 remains deferred.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1289,6 +1307,7 @@ lanes:
   - CH-PAPER
   canonical_refs:
   - AGENTS.md
+  - explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - START-HERE.md
   - LANES.yaml

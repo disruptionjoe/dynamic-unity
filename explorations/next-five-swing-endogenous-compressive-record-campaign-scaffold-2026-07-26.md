@@ -82,8 +82,10 @@ not. The final host verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`.
 The prepared ten-lens
 [`N5-RS` sequence](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
 has consumed this exact Swing 5 as its completed first position. Its
-minimum-premise and whole-DU portfolio pivot is now executable as
-`N5-RS-P2`. It does not activate a successor construction before that pivot.
+minimum-premise and whole-DU portfolio pivot retained identity `N5-RS-P2`.
+Joe subsequently interposed the
+[`N5-SCF` sequence](next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
+Only `N5-SCF-P1` is executable; `N5-RS-P2` remains deferred.
 
 The campaign question is:
 
@@ -785,8 +787,9 @@ universal record no-go.
 
 The downstream execution logic is prepared in
 [`N5-RS`](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md).
-Position 2 is now executable as `N5-RS-P2`. Positions 3 through 5 remain
-conditional behind its portfolio-level value-of-information pivot.
+Position 2 retains identity `N5-RS-P2`, but is deferred behind the interposed
+[`N5-SCF` sequence](next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
+Only `N5-SCF-P1` is executable. Positions 3 through 5 remain conditional.
 
 ## 10. Campaign claim ceiling
 
@@ -820,6 +823,9 @@ first host:
 > closes, terminal state cannot certify occurrence; exact repair is either a
 > supplied interface or full-history tomography.
 
-The host has no further active build. `N5-RS-P2` must now identify the weakest
+The host has no further active build. `N5-SCF-P1` now tests whether
+stochastic aggregation, complexity-scale collective structure, or
+cryptographic hardening can add anything beyond incomplete source records.
+Deferred `N5-RS-P2` later uses that result to identify the weakest
 independently motivated premise that could break archive relocation and
 decide whether that route is still the highest-value Dynamic Unity program.

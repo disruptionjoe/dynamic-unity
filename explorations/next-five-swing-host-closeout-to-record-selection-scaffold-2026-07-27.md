@@ -1,11 +1,12 @@
 ---
 title: "Next five-swing scaffold: host closeout to target-independent record selection"
-status: position_1_complete__position_2_executable
+status: position_1_complete__position_2_deferred_behind_n5_scf
 doc_type: inline_ten_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare and scaffold another five swings using divergent personas"
 sequence_id: N5-RS
-active_position: N5-RS-P2
+active_position: N5-SCF-P1
+deferred_position: N5-RS-P2
 run_plan: "../runs/2026-07-27-next-five-host-closeout-record-selection-preparation.md"
 claim_status_change: none
 paper_state_change: none
@@ -32,11 +33,13 @@ Position 1 was exactly the already prepared `ECR-N5-S5`. It is now complete
 as `HC-DU-046` with host verdict
 `SELECTION_OR_FORMATION_OBSTRUCTION`.
 
-Position 2 is now executable under identity `N5-RS-P2`. Positions 3--5 remain
-conditional work packages and become executable one at a time only after the
-preceding receipt fixes their arena, premise, and stop condition. The
-sequence therefore concentrates effort without assuming that the current
-record-selection path deserves all five swings.
+Position 2 has identity `N5-RS-P2`, but Joe subsequently interposed the
+[`N5-SCF` stochastic/consensus/complexity/cryptography
+sequence](next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
+Only `N5-SCF-P1` is currently executable. `N5-RS-P2` is deferred rather than
+canceled; the fifth `N5-SCF` position must hand back a recommendation to
+resume, retype, or retire it. Positions 3--5 in this scaffold remain
+conditional.
 
 The deliberate pivot is Position 2. If the current host closes adversely and
 no more natural arena has a target-independent route to archive formation,
@@ -467,8 +470,9 @@ the local fallback unless Joe separately authorizes the external path.
 
 1. Run one position at a time.
 2. Position 1 retains its completed identity: `ECR-N5-S5` / `HC-DU-046`.
-3. Position 2 now has identity `N5-RS-P2`. Do not mint run identities for
-   Positions 3--5 until the predecessor fixes their actual decision question.
+3. Position 2 retains identity `N5-RS-P2`, but is deferred behind `N5-SCF`.
+   Do not execute it or mint run identities for Positions 3--5 until the
+   interposed sequence returns its portfolio handoff.
 4. Before each position, consult the near-term approach atlas and write one
    bounded Run Plan.
 5. Use personas as divergent lenses, never as evidence or votes.

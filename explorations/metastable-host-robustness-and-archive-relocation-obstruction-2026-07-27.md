@@ -589,14 +589,18 @@ It does **not** establish:
 `ECR-N5-S1` through `ECR-N5-S5` are complete. The metastable host should now
 leave active routing.
 
-The next executable object is:
+The initially queued object was:
 
 ```text
 N5-RS-P2
 Minimum-Premise Compiler and Whole-DU Portfolio Pivot
 ```
 
-It must:
+Joe subsequently interposed the
+[`N5-SCF` stochastic/consensus/complexity/cryptography
+sequence](next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
+Only `N5-SCF-P1` is now executable. `N5-RS-P2` remains deferred and, if
+resumed, must:
 
 1. build the premise lattice for source/environment law, physical
    factorization, blank preparation, write coupling, provenance, retention,
