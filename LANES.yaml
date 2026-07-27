@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 94
+manifest_revision: 95
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -55,7 +55,7 @@ stratified_causal_coordination_scaffold_rule: >-
   exact assumptions. Its first position is complete through the N5-RS-P2 portfolio receipt,
   HC-DU-052 causal-boundary attribution, HC-DU-053 closed-domain transfer result and HC-DU-054
   cross-arena closeout; the coordination spine remains a prepared family rather than a parallel
-  active campaign. N5-PF-P1/2/3 are complete; N5-PF-P4 is the sole executable position.
+  active campaign. N5-PF-P1/2/3/4 are complete; N5-PF-P5 is the sole executable position.
 minimum_premise_portfolio_ref: >-
   explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md
 minimum_premise_portfolio_rule: >-
@@ -72,9 +72,9 @@ minimum_premise_portfolio_rule: >-
   instrument remains supplied. HC-DU-054 completes N5-RS-P5: the cross-arena transfer theorem is
   fully absorbed, while antecedent selection of the complete accessible formed interface fails
   in both compared arenas. The five-position sequence is complete. H-CCR-17 is open but dormant
-  behind a new physical reopener. N5-PF-P1/2/3 have completed the portfolio reset,
-  conservative-certification spine and feedback-boundary selector test; N5-PF-P4 is the sole
-  executable position.
+  behind a new physical reopener. N5-PF-P1/2/3/4 have completed the portfolio reset,
+  conservative-certification spine, feedback-boundary selector test and regional-excess audit;
+  N5-PF-P5 is the sole executable position.
 lawful_causal_exterior_remainder_ref: >-
   explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
 lawful_causal_exterior_remainder_rule: >-
@@ -118,7 +118,7 @@ preferred_foliation_next_five_rule: >-
   while every admitted observer-accessible prediction remains Lorentz/SR-equivalent. It supplies
   no discreteness, lattice, minimum tick, Lorentz leakage, record, observer, archive, access route,
   certificate or finality rule; it has no evidence grade and enters no claim or prediction
-  ledger. N5-PF-P1/2/3 are complete. HC-DU-055 proves the scoped conservative-certification
+  ledger. N5-PF-P1/2/3/4 are complete. HC-DU-055 proves the scoped conservative-certification
   package: semantic labels add no response after complete physical matching; declared controls
   require deterministic fibre inclusion, valid stochastic postprocessing or quantum process-link
   kernel containment; certificates can change safe capability through ordinary physical
@@ -127,9 +127,12 @@ preferred_foliation_next_five_rule: >-
   signature is constant on antecedent fibres; raw microscopic identity is unnecessary and
   capability enlargement refines the class. The gauge and host specimens select restricted
   classes but split under orientation/path and route/reset-lineage actions; the current
-  antecedents do not derive those fields. The mathematical core is absorbed and the foliation
-  is INERT. N5-PF-P4 alone is executable: hostile-audit finality-rate, record-mergeability and
-  critical-exponent candidates. N5-PF-P5 remains conditional.
+  antecedents do not derive those fields. HC-DU-057 closes the three regional candidates:
+  consensus does not derive a physical finality rate, broad record mergeability does not derive
+  complementarity, and an unselected finite threshold does not carry a universal exponent. Its
+  corrected fourth rate class—new Lorentz-covariant dynamics—remains conditional in
+  PRED-DU-001/002. The mathematical core is absorbed and the foliation is INERT. N5-PF-P5 alone
+  is executable.
 preferred_foliation_position_1_ref: >-
   explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
 preferred_foliation_position_1_rule: >-
@@ -169,8 +172,22 @@ feedback_boundary_selection_rule: >-
   microtags remain plural, but the current antecedents do not derive the closing fields. A
   complete reset must fix every future-readable memory mode modulo response, not merely carry a
   reset label. Exact controls pass 21/21. The mathematics is fully absorbed and the exactly
-  compensated foliation is inert. Only N5-PF-P4 is executable; audit finality-rate,
-  record-mergeability and critical-exponent candidates without building a new host.
+  compensated foliation is inert. HC-DU-057 has consumed the P4 handoff through the
+  regional-excess audit below.
+regional_finality_excess_audit_ref: >-
+  explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+regional_finality_excess_audit_rule: >-
+  HC-DU-057 completes N5-PF-P4. FLP, randomized consensus, partial synchrony and one hidden tick
+  do not select a physical formation generator, participant-known bound, protocol, error contract
+  or coefficient. The same tick admits exact three-step versus two-step formation at error 1/8,
+  and arbitrary policy wait changes decision latency. The rate trilemma is corrected to a
+  four-way classification by adding genuinely new Lorentz-covariant dynamics; DU does not derive
+  that branch and PRED-DU-001/002 already carry it conditionally. Noncommuting unsharp X/Z effects
+  admit an exact positive joint POVM while provenance-tagged formed records merge classically;
+  only the sharp-PVM narrowing is known mathematics. An unselected score power changes an apparent
+  exponent, and a finite analytic knee is not criticality. Exact controls pass 20/20. No current
+  candidate retains DU-specific excess; the exactly compensated foliation is inert. Only
+  N5-PF-P5 is executable.
 next_five_swing_campaign_ref: >-
   explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
 next_five_swing_campaign_rule: >-
@@ -221,7 +238,7 @@ next_five_host_closeout_sequence_rule: >-
   noninjective transfer and a capability-relative interior first leak in a closed packet sector.
   Position 5 is complete as N5-RS-P5/HC-DU-054. It finds the common transfer theorem fully
   absorbed and localizes the shared gap to antecedent selection of the complete accessible
-  formed interface. N5-RS is closed; N5-PF-P1/2/3 are complete and only N5-PF-P4 is executable.
+  formed interface. N5-RS is closed; N5-PF-P1/2/3/4 are complete and only N5-PF-P5 is executable.
 stochastic_consensus_finality_sequence_ref: >-
   explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
 stochastic_consensus_finality_sequence_rule: >-
@@ -255,9 +272,10 @@ stochastic_consensus_finality_sequence_rule: >-
   versus causal physical source/action binding, captured also by the signed-render versus
   authoritative-collision dual-mesh control. N5-SCF is complete. Its handoff has been consumed
   by N5-RS-P2 and HC-DU-052/053/054. N5-RS is complete and its portfolio reset has been
-  completed through N5-PF-P1/2/3. HC-DU-055 closes conservative certification and physical
+  completed through N5-PF-P1/2/3/4. HC-DU-055 closes conservative certification and physical
   feedback at scoped absorbed grade; HC-DU-056 closes feedback-boundary selection at scoped
-  absorbed grade; N5-PF-P4 is executable. No model, hardware, paper,
+  absorbed grade; HC-DU-057 closes the current regional-excess shortcuts; N5-PF-P5 is executable.
+  No model, hardware, paper,
   prediction or physics claim is promoted.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
@@ -333,7 +351,7 @@ metastable_host_robustness_result_rule: >-
   cross-arena comparison, absorbs the shared transfer theorem and localizes the missing arrow to
   antecedent selection of the complete accessible formed interface. Do not fit another archive
   to this host. HC-DU-056 has now proved response-class selection relative to capability and
-  preserved the route/reset obstruction; N5-PF-P1/2/3 are complete. Route only N5-PF-P4.
+  preserved the route/reset obstruction; N5-PF-P1/2/3/4 are complete. Route only N5-PF-P5.
 joint_input_amplification_result_ref: >-
   explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md
 joint_input_amplification_result_rule: >-
@@ -410,7 +428,7 @@ distributed_physical_collision_result_rule: >-
   signing and hardening. N5-SCF and N5-RS are complete through HC-DU-054. The cross-arena
   closeout absorbs the common transfer theorem and leaves complete accessible-interface
   selection open. HC-DU-056 closes the scoped selector test without deriving the complete
-  interface. N5-PF-P1/2/3 are complete; only N5-PF-P4 is executable.
+  interface. N5-PF-P1/2/3/4 are complete; only N5-PF-P5 is executable.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -856,7 +874,7 @@ lanes:
     causal-exterior incoming radiation. HC-DU-053 proves strict noninjective transfer and a
     target-relative interior first leak in a closed packet sector while leaving formation
     supplied. HC-DU-054 completes the cross-arena comparison, absorbs the common transfer theorem
-    and separates it from complete accessible-interface selection. N5-RS is closed. N5-PF-P1/2/3
+    and separates it from complete accessible-interface selection. N5-RS is closed. N5-PF-P1/2/3/4
     have completed the whole-program reset, HC-DU-055 conservative-certification spine and
     HC-DU-056 feedback-boundary response-equivalence selector test.
     Semantic labels add no response after complete physical matching; declared controls can omit
@@ -864,8 +882,9 @@ lanes:
     physical feedback; and the exactly compensated foliation is inert. HC-DU-056 proves that raw
     microscopic identity is unnecessary, capability growth refines response classes, and the
     current gauge/host antecedents select only restricted classes before orientation/path or
-    route/reset-lineage leaks. Execute only N5-PF-P4: hostile-audit finality-rate,
-    record-mergeability and critical-exponent candidates for nonzero excess content.
+    route/reset-lineage leaks. HC-DU-057 closes the current rate, mergeability and universal-
+    exponent shortcuts while preserving a conditional covariant-new-dynamics branch. Execute
+    only N5-PF-P5: preferred-leaf/causal-partial-order cross-arena adjudication.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -941,6 +960,9 @@ lanes:
   - explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md
   - explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md
   - explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
+  - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+  - runs/2026-07-27-regional-finality-excess-audit.md
+  - tests/du_regional_finality_excess_audit_probe.py
   - runs/2026-07-27-preferred-foliation-next-five-preparation.md
   - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
   - runs/2026-07-27-preferred-foliation-position-1-portfolio-reset.md
@@ -1075,10 +1097,11 @@ lanes:
     HC-DU-052 attributes the first lawful `3+1` remainder to omitted incoming characteristic
     data. HC-DU-053 closes the finite packet boundary and proves target-relative transfer plus
     first recoupling. HC-DU-054 closes their cross-arena comparison as fully absorbed transfer
-    plus unselected complete accessible interface. N5-PF-P1/2/3 are complete; HC-DU-055 closes
+    plus unselected complete accessible interface. N5-PF-P1/2/3/4 are complete; HC-DU-055 closes
     conservative certification and HC-DU-056 proves the capability-indexed boundary selector
     theorem. The current antecedents select restricted response classes but not the complete
-    orientation/path or route/reset-lineage class. Execute only N5-PF-P4 and keep the exactly
+    orientation/path or route/reset-lineage class. HC-DU-057 closes the current regional-excess
+    shortcuts. Execute only N5-PF-P5 and keep the exactly
     compensated preferred-foliation premise separate from record, observer, archive and access.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
@@ -1226,16 +1249,17 @@ lanes:
     HC-DU-053 proves strict noninjective transfer for a polarization-insensitive action and an
     exact interior leak for oriented capability in a closed packet sector. HC-DU-054 absorbs the
     shared transfer law and localizes the remaining gap to antecedent selection of the complete
-    accessible formed interface. H-CCR-17 is dormant. N5-PF-P1/2/3 are complete. HC-DU-055 proves
+    accessible formed interface. H-CCR-17 is dormant. N5-PF-P1/2/3/4 are complete. HC-DU-055 proves
     semantic inertness after complete physical matching, deterministic quotient factorization,
     valid stochastic postprocessing with positivity, and the quantum process-link kernel
     criterion; it also proves that certificates can enlarge safe action capability through
     ordinary physical feedback without changing source law. Its exact controls pass 24/24.
     HC-DU-056 proves response-class selection iff antecedent-fibre constancy, raw microscopic
     identity unnecessary, and capability refinement exact; its gauge and host controls pass
-    21/21 and leave the complete interface underselected. The foliation is inert. Only
-    N5-PF-P4 is active: hostile-audit the finality-rate, record-mergeability and
-    critical-exponent candidates with no new host, simulation or hardware.
+    21/21 and leave the complete interface underselected. HC-DU-057 closes three tempting
+    regional-excess shortcuts with 20/20 exact controls. The foliation is inert. Only
+    N5-PF-P5 is active: preferred-leaf/causal-partial-order adjudication with no new host,
+    simulation or hardware.
   success_signal: >-
     A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
     counterexample showing exactly which access or resource was missing.
@@ -1251,6 +1275,9 @@ lanes:
   - explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
   - runs/2026-07-27-feedback-boundary-response-equivalence-selection.md
   - tests/du_feedback_boundary_selection_probe.py
+  - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+  - runs/2026-07-27-regional-finality-excess-audit.md
+  - tests/du_regional_finality_excess_audit_probe.py
   - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
   - runs/2026-07-27-preferred-foliation-position-1-portfolio-reset.md
   - explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
@@ -1359,7 +1386,8 @@ lanes:
     N5-SCF and N5-RS are complete through HC-DU-054. Preserve regional descent as a typed
     downstream dependency; do not activate another consensus build. HC-DU-055 closes
     conservative certification and HC-DU-056 closes the feedback-boundary selector at scoped
-    absorbed grade while leaving the complete interface underselected. Route only N5-PF-P4 and
+    absorbed grade while leaving the complete interface underselected. HC-DU-057 closes the
+    current rate, mergeability and universal-exponent shortcuts. Route only N5-PF-P5 and
     carry the causal-partial-order architecture as
     its matched control.
   success_signal: >-
@@ -1382,6 +1410,9 @@ lanes:
   - tests/du_synergy_gossip_dag_provenance_probe.py
   - explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md
   - tests/du_metastable_byzantine_provenance_hardening_probe.py
+  - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+  - runs/2026-07-27-regional-finality-excess-audit.md
+  - tests/du_regional_finality_excess_audit_probe.py
   - tests/du_regional_finality_descent_probe.py
   - tests/du_record_formation_composition_probe.py
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
@@ -1496,10 +1527,11 @@ lanes:
     The closed packet result returns both strict noninjective transfer and a
     capability-relative interior remainder while leaving the archive supplied. The cross-arena
     closeout absorbs the common transfer theorem and leaves antecedent selection of the complete
-    accessible formed interface open. N5-PF-P1/2/3 are complete; HC-DU-055 leaves the held
+    accessible formed interface open. N5-PF-P1/2/3/4 are complete; HC-DU-055 leaves the held
     preferred foliation inert and HC-DU-056 proves that only restricted response classes are
-    selected before capability exposes orientation/path or route/reset-lineage. Execute only
-    N5-PF-P4 before adding CFS, simulation or hardware; it does not itself reopen H-CCR-17.
+    selected before capability exposes orientation/path or route/reset-lineage. HC-DU-057
+    closes the current regional-excess shortcuts. Execute only N5-PF-P5 before adding CFS,
+    simulation or hardware; it does not itself reopen H-CCR-17.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1651,12 +1683,11 @@ lanes:
     capability-relative selective-view and regional-handoff boundary without paper or prediction
     promotion. HC-DU-051 adds the scoped physical-collision, amplification-without-minting and
     signed-render/physical-capability factorization boundary without paper or prediction
-    promotion. N5-SCF and N5-RS are complete through HC-DU-054. HC-DU-055/056 are useful scoped
+    promotion. N5-SCF and N5-RS are complete through HC-DU-054. HC-DU-055/056/057 are useful scoped
     absorbed theorem packages, not paper promotions. Do not promote a paper from the
-    open-boundary, supplied-record, cross-arena, certification or selector controls; route only
-    N5-PF-P4,
-    whose feedback-boundary selection decision is scientific-priority work rather than paper
-    work.
+    open-boundary, supplied-record, cross-arena, certification, selector or regional-excess
+    controls; route only N5-PF-P5, whose branch-invariant adjudication is scientific-priority
+    work rather than paper work.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1722,10 +1753,11 @@ lanes:
     selection fibre and N5-RS closeout. Preserve the prepared N5-PF assumption contract:
     exactly compensated preferred foliation is ungraded, distinct from discreteness and
     observer access, and matched against a causal-partial-order control. Preserve completed
-    N5-PF-P1/2/3, HC-DU-055's absorbed semantic/physical/control-boundary separation and
+    N5-PF-P1/2/3/4, HC-DU-055's absorbed semantic/physical/control-boundary separation and
     24/24 exact regression, plus HC-DU-056's response-class selector, capability-refinement,
-    reset-memory criterion and 21/21 exact regression. Only N5-PF-P4 is executable; N5-PF-P5
-    remains inactive.
+    reset-memory criterion and 21/21 exact regression, plus HC-DU-057's three-candidate audit,
+    corrected four-way rate classification and 20/20 exact regression. Only N5-PF-P5 is
+    executable.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1755,6 +1787,9 @@ lanes:
   - tests/du_metastable_byzantine_provenance_hardening_probe.py
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
+  - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+  - runs/2026-07-27-regional-finality-excess-audit.md
+  - tests/du_regional_finality_excess_audit_probe.py
   - runs/2026-07-27-preferred-foliation-next-five-preparation.md
   - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
   - runs/2026-07-27-preferred-foliation-position-1-portfolio-reset.md
@@ -5975,6 +6010,25 @@ provenance:
     through NI-DU-95. No endogenous complete interface, new theorem, physics,
     ontology, grade-5 remainder, prediction, paper, model, hardware, provider,
     publication or sibling-repository state changed.
+  rev95_note: >-
+    2026-07-27 (Joe direct chat: Go): completed N5-PF-P4 as HC-DU-057. FLP,
+    randomized consensus, partial synchrony and one hidden global tick do not
+    select a physical finality generator, participant-known delay bound,
+    protocol, error contract or coefficient. With one tick held fixed,
+    ordinary formation probabilities one-half and three-quarters reach error
+    one-eighth in three and two steps, and arbitrary policy wait changes
+    decision latency. Corrected the rate trilemma to a four-way classification
+    by adding genuinely new Lorentz-covariant dynamics; DU does not derive that
+    branch and PRED-DU-001/002 already carry it conditionally. Noncommuting
+    unsharp X/Z effects admit an exact positive joint POVM, while
+    provenance-tagged formed records merge classically; the sharp-PVM
+    narrowing is known mathematics. A score power changes an unselected
+    apparent exponent, and a finite analytic knee is not criticality. Exact
+    controls pass 20/20. No current candidate retains DU-specific excess; the
+    exactly compensated foliation remains inert. N5-PF-P5 alone is executable.
+    Added NI-DU-96 through NI-DU-99. No new generator, coefficient, law,
+    ontology, grade-5 remainder, concept, prediction, paper, model, hardware,
+    provider, publication or sibling-repository state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"

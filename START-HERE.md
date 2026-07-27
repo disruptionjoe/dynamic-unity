@@ -110,7 +110,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 208
+Finality, Temporal Issuance, or Possibility to Capability. It records 212
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -467,9 +467,14 @@ What *has* been earned is a strong finite control stack:
   class. The unchanged gauge and metastable specimens select restricted
   classes and fail under orientation/path and route/reset-lineage
   capabilities; the current antecedents do not derive those closing fields.
-  Only `N5-PF-P4` is executable: audit finality-rate, record-mergeability, and
-  critical-exponent candidates for nonzero excess content. Position 5 remains
-  conditional. The
+  Position 4 returns `HC-DU-057`: consensus does not derive a physical
+  finality rate, broad record mergeability does not derive complementarity,
+  and an unselected finite threshold does not carry a universal exponent.
+  The rate classification needs a fourth branch for genuinely new
+  Lorentz-covariant dynamics, but DU has not derived it and
+  `PRED-DU-001/002` already carry it conditionally. The foliation remains
+  `INERT`. Only `N5-PF-P5` is executable: adjudicate the branch-invariant
+  kernel across preferred-leaf and causal-partial-order arenas. The
   [series scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md)
   and predecessor receipts are
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
@@ -900,13 +905,17 @@ recoupling. `N5-RS-P5` is complete as `HC-DU-054`: the shared transfer law is
 fully absorbed, while antecedent selection of the complete accessible formed
 interface fails in both compared arenas. The `N5-RS` sequence is closed.
 The required `NORTH_STAR_PORTFOLIO_RESET`, conservative-certification formal
-spine, and feedback-boundary response-equivalence selector test are now
-complete as `N5-PF-P1/2/3`. `HC-DU-056` proves that response-class selection
+spine, feedback-boundary response-equivalence selector test, and
+regional-excess hostile audit are now complete as `N5-PF-P1/2/3/4`.
+`HC-DU-056` proves that response-class selection
 is weaker than microscopic identity and capability-indexed; the current gauge
 and host antecedents select restricted classes but not the complete class.
-Only `N5-PF-P4` is executable: run the predeclared hostile excess-content
-audit without assuming that another record host, CFS, consensus, hardware, or
-paper swing wins.
+`HC-DU-057` returns exact counterexamples to consensus-derived finality rate,
+broad mergeability/complementarity, and universal-finality-exponent claims;
+its covariant-new-dynamics fourth branch remains conditional. Only
+`N5-PF-P5` is executable: run the preferred-leaf/partial-order cross-arena
+adjudication without assuming another record host, CFS, consensus, hardware,
+or paper swing wins.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -1032,7 +1041,7 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051/054/056`. Dynamic sufficiency and complete-interface selection are independent fibre tests. Response-class selection is weaker than microscopic identity but refines under capability growth. No current arena derives the orientation/path or route/reset-lineage fields needed for its complete class. Keep `H-CCR-17` open but dormant and stop unconditioned hosts. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | `HC-DU-055` closes conservative certification; `HC-DU-056` closes the selector test at scoped absorbed grade. A reset must fix every future-readable memory class, and every capability enlargement requires a new response-equivalence verdict. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `N5-PF-P4` is now the sole executable position: hostile-audit finality-rate, record-mergeability, and critical-exponent candidates for nonzero excess content before any new model. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `HC-DU-057` closes the current rate, mergeability, and universal-exponent shortcuts with exact counterexamples; regional architecture remains useful but does not select its physical adapter. `N5-PF-P5` is the sole executable position. |
 | **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` attributes the first lawful `3+1` remainder to incoming characteristic data outside the record region. `HC-DU-053` closes the finite packet boundary. `HC-DU-054` shows that its target-relative transfer is known mathematics and that the packet antecedent still does not select archive access. The sequence is complete; preserve it rather than extending the specimen. The exactly compensated foliation is inert for the new primary. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
@@ -1102,6 +1111,8 @@ channels; they are not lanes and do not create a second priority system.
    [Position-2 conservative-certification result](explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md)
    and
    [Position-3 feedback-boundary selector result](explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md)
+   and
+   [Position-4 regional-excess audit](explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md)
    are complete. `HC-DU-055` finds no semantic certificate force after
    complete physical matching; it localizes failures to lossy boundary
    quotients, omitted state, occurrence mismatch, or changed dynamics and
@@ -1110,12 +1121,14 @@ channels; they are not lanes and do not create a second priority system.
    selects a complete future response class iff the response signature is
    constant on its fibres. Raw identity is unnecessary; action growth can
    split the class; and the current specimens do not derive the needed
-   orientation/path or route/reset-lineage premises. The foliation remains
-   `INERT`. The
+   orientation/path or route/reset-lineage premises. `HC-DU-057` then closes
+   the consensus-derived rate, broad mergeability/complementarity, and
+   universal-finality-exponent candidates while correcting the rate
+   classification to preserve a conditional covariant-new-dynamics branch.
+   The foliation remains `INERT`. The
    [conditional scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md)
-   makes `N5-PF-P4` the only executable position. It hostile-audits the
-   finality-rate, record-mergeability, and critical-exponent candidates.
-   Position 5 remains conditional.
+   makes `N5-PF-P5` the only executable position. It performs the
+   preferred-leaf/causal-partial-order cross-arena adjudication.
    The
    [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
    and

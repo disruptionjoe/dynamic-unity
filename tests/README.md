@@ -2232,3 +2232,42 @@ that a current physical antecedent endogenously selects a complete interface,
 establish microscopic uniqueness, introduce new behavioral-equivalence or
 quantum-process mathematics, earn a new law, ontology, grade-5 remainder,
 prediction, paper, hardware, provider, publication, or other external action.
+
+## HC-DU-057 regional-finality excess audit
+
+`du_regional_finality_excess_audit_probe.py` preserves the exact finite
+controls behind `N5-PF-P4`:
+
+- one causal tick with ordinary formation probabilities \(1/2\) and \(3/4\)
+  reaches error \(1/8\) in three and two steps respectively;
+- an arbitrary policy wait changes decision latency without changing causal
+  propagation or the physical formation process;
+- the rate classification has four branches, separating new Lorentz-covariant
+  dynamics from both preferred-frame leakage and inaccessible hidden
+  structure;
+- noncommuting unsharp \(X/Z\) effects at \(\eta=1/2\) have an exact positive
+  joint POVM whose four effects each have trace \(1/2\) and determinant
+  \(1/32\);
+- provenance-tagged formed classical records merge associatively,
+  commutatively, and idempotently downstream;
+- a monotone power of an unselected finality score preserves ordering while
+  changing the apparent exponent;
+- a finite analytic crossover becomes sharply knee-like without becoming a
+  critical singularity; and
+- two linear extensions of one causal partial order preserve formed record and
+  safe action, leaving the exactly compensated foliation inert.
+
+Run:
+
+```bash
+python3 tests/du_regional_finality_excess_audit_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_regional_finality_excess_audit_result.json` and reports `20/20`.
+Passing is regression coverage for a scoped three-candidate classification and
+its exact counterexamples. It does not derive a new finality rate, derive
+complementarity, select a universal critical exponent or objective-collapse
+coefficient, provide preferred-foliation evidence, earn a new ontology or
+grade-5 remainder, promote a prediction or paper, or authorize hardware,
+provider, publication, or other external action.

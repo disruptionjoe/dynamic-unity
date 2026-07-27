@@ -1882,6 +1882,22 @@ local channels and resources, and a residual beyond ordinary decoherence,
 QEC, percolation, consensus and thermodynamic criticality. This routes back
 to `PRED-DU-001/002`; it does not create a duplicate prediction.
 
+### 2026-07-27 Position-4 excess audit
+
+`HC-DU-057` closes the universal-exponent shortcut. Before a critical exponent
+is meaningful, physics must independently select the order parameter,
+normalization, growing family, dimension, symmetry, conservation laws,
+interaction range, bath, generator, and finite-size scaling contract. A
+monotone power of an unselected “finality score” preserves threshold ordering
+while changing the apparent exponent, and a finite analytic family can become
+arbitrarily sharp without a critical singularity.
+
+Keep platform-specific protected phases open under the existing controls. Do
+not infer one cross-platform exponent from quantum records, error-correcting
+codes, percolation, metastable consensus, or Byzantine thresholds until the
+same physical order parameter transfers without refitting. No state or
+prediction promotion occurs.
+
 ## CONCEPT-DU-010 — observer identity as record colimit
 
 - **Concept (articulation-invariant).** A persistent observer or person may be
@@ -2658,7 +2674,10 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
      physical residual.
   9. Layered regional certificate-gated dynamics (`F9`) as the strongest
      new-physics articulation of the coordination picture.
-  10. A frozen empirical-equivalence trilemma/no-go by attrition.
+  10. A frozen four-way empirical-equivalence classification/no-go by
+      attrition: ordinary dynamics/protocol, observable preferred-frame
+      leakage, inaccessible hidden structure, or genuinely new
+      Lorentz-covariant dynamics.
 - **Strongest absorbers.**
   FLP, partial synchrony, CAP, CALM, common-knowledge logic, Byzantine
   agreement, CRDT/serializability, cryptographic post-processing,
@@ -2677,6 +2696,23 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   PHYSICS, PREDICTION, ONTOLOGY, PAPER, OR PRIORITY PROMOTION.** See
   `substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md` and
   `next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md`.
+
+### 2026-07-27 Position-4 physical-adapter correction
+
+`HC-DU-057` finds no current DU-specific physical excess in the three
+regional candidates. FLP and partial-synchrony results do not select a
+physical finality generator, participant-known bound, fault contract,
+protocol, or coefficient. Source joint measurability, instrument
+compatibility, nondisturbance, joint physical record formation, and
+downstream classical archive merge remain distinct. Criticality requires a
+selected physical scaling family.
+
+The coordination architecture remains useful for exposing missing premises
+and organizing formation, propagation, regional action safety, and global
+binding. It does not select its own physical adapter. The corrected fourth
+rate class—new Lorentz-covariant dynamics—remains conditional in
+`PRED-DU-001/002`, not evidence for consensus-derived physics or the held
+preferred foliation.
 
 ## Boundary
 

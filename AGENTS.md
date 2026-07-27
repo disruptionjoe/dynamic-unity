@@ -373,8 +373,8 @@ Before acting, a new agent must be able to state:
    sequence is complete; `H-CCR-17` remains open but dormant behind a new
    independently motivated physical reopener. Joe has now completed the
    required `NORTH_STAR_PORTFOLIO_RESET`, conservative-certification formal
-   spine, and feedback-boundary response-equivalence selector test as
-   `N5-PF-P1/2/3`. The source-audited comparison selected conservative
+   spine, feedback-boundary response-equivalence selector test, and
+   regional-excess hostile audit as `N5-PF-P1/2/3/4`. The source-audited comparison selected conservative
    certification and physical feedback as primary, and `HC-DU-055` now finds
    no certificate-semantic force after complete physical matching. A
    certificate can still enlarge safe action capability through its carrier,
@@ -395,11 +395,16 @@ Before acting, a new agent must be able to state:
    and metastable antecedents select restricted classes and split under
    orientation/path and route/reset-lineage capabilities; their closing
    fields remain supplied rather than endogenously selected. The foliation
-   remains inert. Only `N5-PF-P4` is executable. Hostile-audit the
-   finality-rate, physical record-mergeability, and critical-exponent
-   candidates against matched standard physics, predeclared kills, and
-   retreat costs; deepen at most one nonzero residual. No new host, model, or
-   hardware is needed. Do not
+   remains inert. `HC-DU-057` closes the three regional candidates: consensus
+   does not derive a physical finality rate; broad record mergeability does
+   not derive complementarity; and an unselected finite knee does not carry a
+   universal exponent. Preserve its corrected fourth rate class—genuinely new
+   Lorentz-covariant dynamics—only as the already conditional
+   `PRED-DU-001/002` branch. Only `N5-PF-P5` is executable. Apply one unchanged
+   process/interface/access/finality/action/resource ledger across a serious
+   preferred-leaf representation, a causal-partial-order control, and one
+   physical record arena; bank the branch-invariant kernel or first exact
+   non-unification. No new host, model, or hardware is needed. Do not
    fit another archive to the closed metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum

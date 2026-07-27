@@ -321,9 +321,9 @@ current results establish the starting boundary, not the answer:
   noninjective transfer, and cross-arena closeout as `HC-DU-052/053/054`.
   The common transfer theorem is absorbed; complete accessible-interface
   selection remains open but dormant behind a new physical reopener.
-  `N5-PF-P1/2/3` have now completed the source-audited portfolio reset, the
+  `N5-PF-P1/2/3/4` have now completed the source-audited portfolio reset, the
   conservative-certification formal spine, and the feedback-boundary
-  response-equivalence selection test under an ungraded exactly
+  response-equivalence selection and regional-excess hostile audits under an ungraded exactly
   compensated preferred foliation. `HC-DU-055` finds no
   certificate-semantic force after complete physical matching. A certificate
   can still enlarge safe capability through its physical carrier,
@@ -337,13 +337,19 @@ current results establish the starting boundary, not the answer:
   unnecessary, but capability growth refines the class. The reused gauge and
   metastable specimens select restricted classes and split exactly under
   orientation/path and route/reset-lineage capabilities; their current
-  antecedents do not derive the extra fields. The mathematical core is
-  absorbed and the foliation remains `INERT`. Only `N5-PF-P4` is executable:
-  run the hostile excess-content audit of finality-rate, record-mergeability,
-  and critical-exponent candidates without building a new host
+  antecedents do not derive the extra fields. `HC-DU-057` then finds no
+  DU-specific excess in the three regional candidates: consensus does not
+  derive a physical finality rate, broad record mergeability does not derive
+  complementarity, and an unselected finite threshold does not carry a
+  universal exponent. It corrects the rate trilemma to include genuinely new
+  Lorentz-covariant dynamics, but that branch remains conditional in
+  `PRED-DU-001/002`. The mathematical core is absorbed and the foliation
+  remains `INERT`. Only `N5-PF-P5` is executable: state the branch-invariant
+  kernel across preferred-leaf and causal-partial-order arenas
   ([Position-1 result](explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md);
   [Position-2 result](explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md);
   [Position-3 result](explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md);
+  [Position-4 result](explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md);
   [conditional scaffold](explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md);
   [tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);

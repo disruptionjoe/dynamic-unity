@@ -2221,8 +2221,12 @@ deterministic, stochastic-kernel, and quantum-process forms as `HC-DU-055`.
 `N5-PF-P3` is now complete as `HC-DU-056`: the response-class selector exists
 exactly when the complete future response signature is constant on antecedent
 fibres, raw microscopic identity is unnecessary, and capability enlargement
-can split a selected class. Only `N5-PF-P4` is executable. Position 5 remains
-conditional.
+can split a selected class. `N5-PF-P4` is complete as `HC-DU-057`: consensus
+does not derive a physical finality rate, broad record mergeability does not
+derive complementarity, and an unselected finite threshold does not carry a
+universal exponent. The corrected rate classification preserves genuinely
+new Lorentz-covariant dynamics as a fourth logical branch, but DU has not
+derived it. Only `N5-PF-P5` is executable.
 
 See
 `../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md`
@@ -2371,13 +2375,60 @@ remainder, prediction, paper, simulation, or hardware result is earned. The
 exactly compensated foliation remains inert under the matched causal-partial-
 order control.
 
-Only `N5-PF-P4` is executable: hostile-audit the finality-rate,
-record-mergeability, and critical-exponent candidates for nonzero excess
-content, with a complete physical adapter, response class, action envelope,
-standard null, kill, and retreat cost. Position 5 remains conditional.
-
 See
 `../explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md`.
+
+### `HC-DU-057` — Regional-finality excess audit
+
+`N5-PF-P4` is complete. Three proposed regional/consensus physics candidates
+were deleted back to their physical statements, reconstructed in their native
+theorem assumptions, and collided with exact controls and standard-physics
+absorbers.
+
+The finality-rate candidate fails. FLP is a qualitative asynchronous
+nontermination theorem, and partial synchrony adds declared bounds and
+participant-knowledge conditions; neither selects a physical formation
+generator or coefficient. With one causal tick fixed, independent formation
+probabilities \(1/2\) and \(3/4\) reach error \(1/8\) in three and two steps.
+An arbitrary policy wait changes decision latency again.
+
+The prepared rate trilemma was incomplete. A proposed observer-accessible
+rate can instead be genuinely new Lorentz-covariant dynamics. That fourth
+class is distinct from ordinary timescales, preferred-frame leakage, and
+inaccessible hidden structure. It is not derived here; `PRED-DU-001/002`
+already carry it as a conditional seam.
+
+The broad mergeability/complementarity candidate also fails. Source POVM
+joint measurability, instrument compatibility, nondisturbance, joint physical
+record formation, and downstream classical archive merge are different
+types. At unsharpness \(\eta=1/2\), noncommuting \(X/Z\) effects admit an exact
+positive joint POVM whose four joint effects each have trace \(1/2\) and
+determinant \(1/32\). Already formed provenance-bearing records merge by
+associative, commutative, idempotent set union. The sharp-PVM
+joint-measurability/commutation equivalence survives only as known
+mathematics.
+
+The universal-exponent candidate fails before a physical order parameter and
+scaling family are selected. A monotone power of an unselected score
+preserves finite threshold ordering while changing the apparent exponent. A
+finite analytic crossover becomes arbitrarily sharp without becoming a
+critical singularity. Once the physical family is frozen, ordinary
+statistical/open-system universality machinery applies first.
+
+The exact regression passes `20/20`. No current candidate retains DU-specific
+nonzero excess. No new generator, coefficient, law, ontology, grade-5
+remainder, concept, prediction, paper, model, hardware, or provider result is
+earned. The exactly compensated foliation remains inert under the matched
+causal-partial-order control.
+
+Only `N5-PF-P5` is executable: apply one unchanged completion/source,
+process/order, interface, access, finality, action, resource, and target
+ledger across a serious preferred-leaf representation, a causal-partial-order
+control, and one physical record arena. Bank the branch-invariant kernel or
+the first exact non-unification.
+
+See
+`../explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -4714,5 +4765,14 @@ GAUGE ORIENTATION/PATH AND HOST ROUTE/RESET FIRST LEAKS EXACT
 CURRENT COMPLETE INTERFACE NOT ENDOGENOUSLY SELECTED
 EXACT REGRESSION 21/21
 FOLIATION INERT
-N5-PF-P4 REGIONAL FINALITY AND EXCESS-CONTENT HOSTILE AUDIT NEXT
+N5-PF-P4 REGIONAL FINALITY AND EXCESS-CONTENT HOSTILE AUDIT COMPLETE AS HC-DU-057
+CONSENSUS-DERIVED PHYSICAL FINALITY RATE EXACT COUNTEREXAMPLE
+RATE TRILEMMA CORRECTED TO FOUR-WAY CLASSIFICATION
+BROAD MERGEABILITY-COMPLEMENTARITY EXACT COUNTEREXAMPLE
+SHARP-PVM CASE KNOWN THEOREM SPECIALIZATION
+UNIVERSAL FINALITY EXPONENT EXACT COUNTEREXAMPLE
+NO CURRENT DU-SPECIFIC EXCESS
+EXACT REGRESSION 20/20
+FOLIATION INERT
+N5-PF-P5 PREFERRED-LEAF / PARTIAL-ORDER CROSS-ARENA ADJUDICATION NEXT
 ```

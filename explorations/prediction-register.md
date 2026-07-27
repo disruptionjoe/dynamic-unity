@@ -140,6 +140,20 @@ justified smooth-slope bound or another mechanism-specific observable. See
   Its shared conditional Factory merge-review seed does not clear its own H1'
   (the AQFT-net embedding) or the shared scientific gate.
 
+### 2026-07-27 `HC-DU-057` no-promotion note
+
+The regional-finality excess audit corrects one classification without
+changing either prediction's state. A measurable finality rate is not forced
+to be an ordinary timescale, a preferred-foliation leak, or inaccessible; it
+could arise from genuinely new observer-accessible Lorentz-covariant
+dynamics. That fourth class is the logical home already conditionally occupied
+by `PRED-DU-001/002`.
+
+Consensus theorems, a hidden global tick, record merge algebra, and a finite
+threshold do not derive that dynamics, its coefficient, or its order
+parameter. The audit therefore supplies no progress on H1, H1', or H2--H7 and
+does not register, harden, duplicate, seed, or promote either prediction.
+
 ### PRED-DU-003 — post-causal-break finality-memory residual
 
 - **State: SEAM / CONDITIONAL EXTENSION / ABSORPTION-FIRST.**

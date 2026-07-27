@@ -1,0 +1,310 @@
+{
+  "candidate_classifications": {
+    "broad_mergeability_complementarity": "EXACT_COUNTEREXAMPLE",
+    "covariant_new_dynamics_rate": "SCOPED_CONJECTURE_WITH_NONZERO_EXCESS__ALREADY_ROUTED_TO_PRED_DU_001_002__NOT_DERIVED",
+    "finality_rate_from_consensus": "EXACT_COUNTEREXAMPLE",
+    "sharp_pvm_narrowing": "KNOWN_THEOREM_SPECIALIZATION",
+    "universal_finality_exponents": "EXACT_COUNTEREXAMPLE"
+  },
+  "checks": [
+    {
+      "detail": {
+        "causal_tick": "held fixed",
+        "error": {
+          "denominator": 8,
+          "numerator": 1
+        },
+        "p_half_steps": 3,
+        "p_three_quarters_steps": 2
+      },
+      "name": "same_tick_allows_distinct_standard_formation_times",
+      "passed": true
+    },
+    {
+      "detail": "ordinary success probabilities change the hitting time while causal reach is unchanged",
+      "name": "formation_difference_is_an_ordinary_local_dynamics_parameter",
+      "passed": true
+    },
+    {
+      "detail": {
+        "policy_waits": [
+          0,
+          1,
+          7,
+          101
+        ],
+        "same_physical_formation_steps": 2
+      },
+      "name": "protocol_wait_can_change_finality_latency_arbitrarily",
+      "passed": true
+    },
+    {
+      "detail": [
+        "formed",
+        "safe"
+      ],
+      "name": "causal_partial_order_control_is_leaf_invariant",
+      "passed": true
+    },
+    {
+      "detail": "an observer-readable response depending only on linear-extension rank violates the matched exactly compensated control",
+      "name": "accessible_leaf_rank_would_be_a_leaking_branch",
+      "passed": true
+    },
+    {
+      "detail": [
+        "STANDARD_DYNAMICS_OR_PROTOCOL",
+        "LEAKING_PREFERRED_FRAME",
+        "OPERATIONALLY_UNIDENTIFIABLE",
+        "COVARIANT_NEW_DYNAMICS"
+      ],
+      "name": "rate_classification_requires_four_not_three_branches",
+      "passed": true
+    },
+    {
+      "detail": "the two branches are explicitly distinct",
+      "name": "covariant_new_dynamics_is_not_evidence_for_hidden_foliation",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          {
+            "denominator": 1,
+            "numerator": 0
+          },
+          {
+            "denominator": 8,
+            "numerator": -1
+          }
+        ],
+        [
+          {
+            "denominator": 8,
+            "numerator": 1
+          },
+          {
+            "denominator": 1,
+            "numerator": 0
+          }
+        ]
+      ],
+      "name": "unsharp_x_and_z_effects_do_not_commute",
+      "passed": true
+    },
+    {
+      "detail": {
+        "(-1, -1)": {
+          "determinant": {
+            "denominator": 32,
+            "numerator": 1
+          },
+          "trace": {
+            "denominator": 2,
+            "numerator": 1
+          }
+        },
+        "(-1, 1)": {
+          "determinant": {
+            "denominator": 32,
+            "numerator": 1
+          },
+          "trace": {
+            "denominator": 2,
+            "numerator": 1
+          }
+        },
+        "(1, -1)": {
+          "determinant": {
+            "denominator": 32,
+            "numerator": 1
+          },
+          "trace": {
+            "denominator": 2,
+            "numerator": 1
+          }
+        },
+        "(1, 1)": {
+          "determinant": {
+            "denominator": 32,
+            "numerator": 1
+          },
+          "trace": {
+            "denominator": 2,
+            "numerator": 1
+          }
+        }
+      },
+      "name": "all_four_joint_effects_are_positive",
+      "passed": true
+    },
+    {
+      "detail": "sum over z gives E_x",
+      "name": "joint_effects_have_exact_x_marginals",
+      "passed": true
+    },
+    {
+      "detail": "sum over x gives E_z",
+      "name": "joint_effects_have_exact_z_marginals",
+      "passed": true
+    },
+    {
+      "detail": "the eta=1/2 unsharp X/Z POVMs are jointly measurable",
+      "name": "noncommutativity_does_not_imply_nonmergeability",
+      "passed": true
+    },
+    {
+      "detail": [
+        "context:X",
+        "context:Z",
+        "outcome:+",
+        "outcome:-",
+        "provenance:lab-a",
+        "provenance:lab-b"
+      ],
+      "name": "formed_classical_archives_merge_commutatively",
+      "passed": true
+    },
+    {
+      "detail": "set-union CRDT laws hold after the context-tagged records exist",
+      "name": "formed_classical_archives_merge_associatively_and_idempotently",
+      "passed": true
+    },
+    {
+      "detail": "same-axis effects commute; sharp-PVM equivalence remains the known narrowed theorem",
+      "name": "sharp_same_basis_positive_control_commutes",
+      "passed": true
+    },
+    {
+      "detail": {
+        "score": [
+          {
+            "denominator": 8,
+            "numerator": 1
+          },
+          {
+            "denominator": 4,
+            "numerator": 1
+          },
+          {
+            "denominator": 2,
+            "numerator": 1
+          },
+          {
+            "denominator": 4,
+            "numerator": 3
+          }
+        ],
+        "squared_score": [
+          {
+            "denominator": 64,
+            "numerator": 1
+          },
+          {
+            "denominator": 16,
+            "numerator": 1
+          },
+          {
+            "denominator": 4,
+            "numerator": 1
+          },
+          {
+            "denominator": 16,
+            "numerator": 9
+          }
+        ]
+      },
+      "name": "monotone_score_reparameterization_preserves_order",
+      "passed": true
+    },
+    {
+      "detail": {
+        "linear_ratio": {
+          "denominator": 2,
+          "numerator": 1
+        },
+        "squared_ratio": {
+          "denominator": 4,
+          "numerator": 1
+        }
+      },
+      "name": "same_threshold_order_can_carry_different_apparent_exponent",
+      "passed": true
+    },
+    {
+      "detail": {
+        "size_2": [
+          {
+            "denominator": 10,
+            "numerator": 1
+          },
+          {
+            "denominator": 2,
+            "numerator": 1
+          },
+          {
+            "denominator": 10,
+            "numerator": 9
+          }
+        ],
+        "size_8": [
+          {
+            "denominator": 6562,
+            "numerator": 1
+          },
+          {
+            "denominator": 2,
+            "numerator": 1
+          },
+          {
+            "denominator": 6562,
+            "numerator": 6561
+          }
+        ]
+      },
+      "name": "finite_analytic_crossover_can_look_sharp",
+      "passed": true
+    },
+    {
+      "detail": "the finite rational family has no singular denominator on the physical interval",
+      "name": "finite_knee_is_not_yet_a_critical_point",
+      "passed": true
+    },
+    {
+      "detail": {
+        "broad_mergeability_complementarity": "EXACT_COUNTEREXAMPLE",
+        "covariant_new_dynamics_rate": "SCOPED_CONJECTURE_WITH_NONZERO_EXCESS__ALREADY_ROUTED_TO_PRED_DU_001_002__NOT_DERIVED",
+        "finality_rate_from_consensus": "EXACT_COUNTEREXAMPLE",
+        "sharp_pvm_narrowing": "KNOWN_THEOREM_SPECIALIZATION",
+        "universal_finality_exponents": "EXACT_COUNTEREXAMPLE"
+      },
+      "name": "all_three_prepared_regional_candidates_fail_du_specific_excess_gate",
+      "passed": true
+    }
+  ],
+  "checks_passed": 20,
+  "checks_total": 20,
+  "claim_id": "HC-DU-057",
+  "criticality_result": "ORDER_PARAMETER_AND_SCALING_FAMILY_REQUIRED__FINITE_KNEE_IS_NOT_CRITICALITY",
+  "du_specific_nonzero_residual": false,
+  "foliation_role": "INERT",
+  "maximum_grade": "SCOPED_THREE_CANDIDATE_CLASSIFICATION_WITH_EXACT_COUNTEREXAMPLES",
+  "mergeability_result": "SOURCE_JOINT_MEASURABILITY__INSTRUMENT_COMPATIBILITY__NONDISTURBANCE__JOINT_FORMATION__AND_ARCHIVE_MERGE_ARE_DISTINCT",
+  "next_position": "N5-PF-P5_PREFERRED_LEAF_PARTIAL_ORDER_ADJUDICATION",
+  "not_claimed": [
+    "a new physical finality rate",
+    "a derivation of complementarity",
+    "a universal finality exponent",
+    "a selected collapse coefficient",
+    "preferred-foliation evidence",
+    "new ontology",
+    "grade-5 physical remainder",
+    "prediction promotion",
+    "paper promotion",
+    "hardware or provider result"
+  ],
+  "probe": "du_regional_finality_excess_audit_probe",
+  "rate_result": "CONSENSUS_DOES_NOT_DERIVE_A_PHYSICAL_RATE__RATE_TRILEMMA_CORRECTED_TO_FOUR_WAY_CLASSIFICATION",
+  "schema_version": "1.0",
+  "work_id": "N5-PF-P4"
+}

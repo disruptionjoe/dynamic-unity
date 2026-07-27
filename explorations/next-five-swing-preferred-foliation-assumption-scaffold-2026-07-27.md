@@ -1,17 +1,17 @@
 ---
 title: "Next five-swing scaffold: preferred foliation as a fixed conditional assumption"
-status: position_3_complete__position_4_executable
+status: position_4_complete__position_5_executable
 doc_type: inline_science_council_persona_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare the next five-swing series under a preferred-frame assumption"
 sequence_id: N5-PF
-active_position: N5-PF-P4
+active_position: N5-PF-P5
 completed_positions:
   - N5-PF-P1
   - N5-PF-P2
   - N5-PF-P3
-deferred_positions:
-  - N5-PF-P5
+  - N5-PF-P4
+deferred_positions: []
 run_plan: "../runs/2026-07-27-preferred-foliation-next-five-preparation.md"
 assumption_status: "HELD CONDITIONAL PREMISE / NO EVIDENTIARY GRADE"
 claim_status_change: none
@@ -40,14 +40,19 @@ P5  collide the result across preferred-leaf and causal-partial-order arenas
 `N5-PF-P1` selected conservative certification and physical feedback as the
 primary while returning the foliation `INERT` for that front. `N5-PF-P2`
 proved the scoped deterministic, stochastic-kernel, and quantum-process
-necessity package. `N5-PF-P3` now proves the response-class selector theorem:
+necessity package. `N5-PF-P3` proves the response-class selector theorem:
 microscopic boundary identity is unnecessary, but selection is relative to a
 frozen future action family and can fail after capability growth. The reused
 gauge and metastable specimens select restricted response classes and fail
 when orientation/path or route/reset-lineage capabilities are added. Their
 current antecedents do not endogenously select the complete class. The
-foliation remains `INERT`. Only `N5-PF-P4` is now executable; Position 5
-remains conditional.
+foliation remains `INERT`. `N5-PF-P4` now closes the three regional-excess
+candidates: consensus does not derive a physical finality rate, broad
+mergeability does not derive complementarity, and an unselected finite
+threshold does not carry a universal exponent. Its important correction is a
+fourth rate class—genuinely new Lorentz-covariant dynamics—which remains
+conditional in `PRED-DU-001/002`, not derived here. Only `N5-PF-P5` is now
+executable.
 
 The present evidence makes one provisional branch especially
 information-dense:
@@ -307,20 +312,24 @@ premises.
 **Retreat cost:** regional finality remains a separately formed and
 capability-indexed layer.
 
-### `PF-C4` — Finality-rate trilemma
+### `PF-C4` — Finality-rate quadrilemma
 
 A proposed finality rate distinct from causal reach is either:
 
 1. a standard dynamical/communication/decision timescale;
 2. an observable preferred-foliation leak; or
-3. operationally unidentifiable.
+3. operationally unidentifiable; or
+4. genuinely new observer-accessible Lorentz-covariant dynamics.
 
-**Cheapest kill:** a fourth class with a precise rate law and measurable
-excess that remains exactly Lorentz compensated.
+The fourth class is a correction earned by `HC-DU-057`. Relativistic
+objective-collapse models show the class is logically available, but DU has
+not selected its generator or coefficient. `PRED-DU-001/002` already carry
+the conditional branch.
 
 **Retreat cost:** the mailbox finality-rate proposal moves to the leaking
 branch, is absorbed by standard dynamics, or remains a conjecture without a
-selected coefficient.
+selected coefficient. A covariant-new-dynamics claim stays conditional until
+its generator, coefficient, controls, and held-out excess are derived.
 
 ### `PF-C5` — Branch-invariant observer indexing
 
@@ -690,6 +699,43 @@ Do not build a consensus or decoherence simulator unless a minimal local model
 passes `LMLG-01` and can decide a residual not already decidable by theorem,
 counterexample, or existing literature.
 
+### Completion receipt — `HC-DU-057`
+
+Position 4 returns:
+
+```text
+CONSENSUS_DERIVED_FINALITY_RATE_EXACT_COUNTEREXAMPLE
+RATE_TRILEMMA_CORRECTED_TO_FOUR_WAY_CLASSIFICATION
+BROAD_MERGEABILITY_COMPLEMENTARITY_EXACT_COUNTEREXAMPLE
+SHARP_PVM_CASE_KNOWN_THEOREM_SPECIALIZATION
+UNIVERSAL_FINALITY_EXPONENT_EXACT_COUNTEREXAMPLE
+NO_CURRENT_DU_SPECIFIC_EXCESS
+FOLIATION_INERT
+```
+
+One hidden global tick permits different ordinary formation times and
+arbitrary protocol waits. FLP and partial-synchrony theorems do not select a
+physical generator, delay bound, participant knowledge, error contract, or
+coefficient. The exact \(p=1/2\) versus \(p=3/4\) control gives safe formation
+in three versus two steps at error \(1/8\) while causal reach is fixed.
+
+The prepared rate trilemma was incomplete. New observer-accessible
+Lorentz-covariant dynamics is a fourth logical class distinct from standard
+timescales, preferred-frame leakage, and inaccessible structure. DU does not
+derive this branch; `PRED-DU-001/002` already carry it conditionally.
+
+For mergeability, noncommuting unsharp \(X/Z\) effects at \(\eta=1/2\) admit
+an exact positive joint POVM, while already formed provenance-bearing
+classical records merge by set union. The sharp-PVM equivalence remains known
+mathematics. For criticality, a monotone score power changes the apparent
+exponent before an order parameter is physically selected, and a finite
+analytic crossover can become arbitrarily sharp without a critical
+singularity.
+
+The exact regression passes `20/20`. No candidate warrants a new model, and
+no physics, prediction, concept, paper, ontology, hardware, or provider state
+is promoted. Position 5 is activated.
+
 ## 13. Position 5 — cross-arena branch-invariant synthesis
 
 ### Conditional identity
@@ -819,9 +865,9 @@ an adapter or contact a provider without separate authorization.
 ## 15. Execution discipline
 
 1. Run one position at a time.
-2. `N5-PF-P1/2/3` are complete; only `N5-PF-P4` is executable now.
-3. Do not activate or mint a final run plan for Positions 4--5 until the
-   predecessor receipt fixes their content.
+2. `N5-PF-P1/2/3/4` are complete; only `N5-PF-P5` is executable now.
+3. Do not reopen Position 4 without a newly selected physical generator,
+   instrument, or order parameter.
 4. Position 1 must begin by repeating
    `ASSUMPTION_VERSION_EXACTLY_COMPENSATED`.
 5. If the version ever changes, close this sequence and state why; do not
@@ -864,8 +910,8 @@ These are `UNRANKED / UNCOMMITTED / NOT_A_CLAIM`:
 - look for a no-go stating that no exactly compensated hidden structure can
   improve observer-accessible source attribution without an independently
   accessible sensitivity;
-- test the finality-rate trilemma against partially synchronous and
-  randomized Byzantine models;
+- preserve the corrected four-way finality-rate classification and ask which
+  physical premise, if any, selects its covariant-new-dynamics branch;
 - classify mergeable sharp records, compatible unsharp records, and
   noncommuting capability in one operator-algebraic interface;
 - audit existing open-system critical phenomena before positing new
@@ -990,11 +1036,12 @@ comparison/postprocessing of experiments, and process-tensor/quantum-comb
 linearity. No force, new physics, ontology, grade-5 remainder, prediction,
 paper, or hardware result was earned.
 
-### Position-3 completion and executable Position 4
+### Position-3 and Position-4 completion; executable Position 5
 
 ```text
 N5-PF-P3 COMPLETE AS HC-DU-056
-N5-PF-P4 REGIONAL FINALITY AND EXCESS-CONTENT HOSTILE AUDIT NEXT
+N5-PF-P4 COMPLETE AS HC-DU-057
+N5-PF-P5 PREFERRED-LEAF / PARTIAL-ORDER ADJUDICATION NEXT
 ```
 
 For Position 3, an independently motivated physical antecedent \(A\) selects
@@ -1008,11 +1055,16 @@ The current specimens satisfy that inclusion only for restricted action
 families. Orientation/path and route/reset-lineage capabilities expose exact
 first leaks. Physically freezing those fields closes the declared finite
 classes without demanding future-invisible microscopic identity, but the
-current antecedents do not derive the fields. The preferred foliation remains
-inert.
+current antecedents do not derive the fields.
 
-Position 4 must audit the three declared candidate families without building a
-new host: finality-rate bounds, complementarity from record mergeability, and
-critical-exponent claims. Each adapter must freeze its complete response class,
-action envelope, matched standard null, first reopening boundary field, kill,
-and retreat cost. Deepen at most one candidate with nonzero excess content.
+Position 4 then closes all three declared candidate families without a new
+host. Consensus does not derive a physical finality rate; broad record
+mergeability does not derive complementarity; and an unselected finite
+threshold does not carry a universal critical exponent. Its corrected
+four-way rate classification preserves new Lorentz-covariant dynamics as a
+logical branch, but DU does not derive it and `PRED-DU-001/002` already carry
+it conditionally.
+
+The preferred foliation remains inert. Position 5 must now state what survives
+unchanged across preferred-leaf and causal-partial-order arenas after complete
+process, interface, access, finality, action, and resource matching.
