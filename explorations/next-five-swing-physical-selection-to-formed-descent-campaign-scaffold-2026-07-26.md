@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: physical selection to formed descent"
-status: swings_1_through_4_complete_swing_5_next
+status: all_five_swings_complete_successor_h_ccr_17_open
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: prepare and scaffold the next five swings using divergent personas"
@@ -12,8 +12,8 @@ run_plan: "../runs/2026-07-26-next-five-swing-campaign-scaffold.md"
 
 ## Campaign progress
 
-`CCR-N5-S1` through `CCR-N5-S4` are complete as
-`HC-DU-033F/G/H` and `HC-DU-035E`.
+`CCR-N5-S1` through `CCR-N5-S5` are complete as
+`HC-DU-033F/G/H`, `HC-DU-035E`, and `HC-DU-041`.
 
 The result replaces a context-free selector search with an exact
 antecedent-relative contract. For complete realizations \(\omega\), claimed
@@ -83,9 +83,16 @@ cross-arena architecture is therefore a public quotient plus native residual
 fibre plus frozen action envelope. See
 [the executed formed-descent result](typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md).
 
-`CCR-N5-S5` is now the next executable object. It must test held-out targets
-against the descended public shadow and its plural native lifts without
-crediting public operational closure as physical reconstruction.
+`CCR-N5-S5` then found that interface selection, target reconstruction, and
+finality for a future action class are independent factorization receipts. At
+fixed capability, a final public record cannot also leave an accessible
+same-record remainder. Capability enlargement may expose the native fibre,
+but then the old record is not final for the enlarged class. Existing gauge
+and QEC controls reconstruct through supplied strict quotients; Einstein and
+phase repairs are injective tomography. No current specimen combines
+endogenous interface selection, formed strict compression, held-out physical
+transfer, and no refit. See
+[the executed North-Star adjudication](capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md).
 
 ## Executive result
 
@@ -697,11 +704,11 @@ The same grammar classifies Einstein--matter, AQFT, material gauge, QEC, and
 authenticated-distributed controls without changing the meaning of record or
 action.
 
-## 10. Prepared Swing 5 — North-Star Reconstruction and Remainder Adjudication
+## 10. Swing 5 — North-Star Reconstruction and Remainder Adjudication
 
 **Prepared ID:** `CCR-N5-S5`
 
-**Execution status:** next executable campaign object.
+**Execution status:** complete as `HC-DU-041`.
 
 **Owning lanes/channels:** Lanes 1, 4, 5, 6, 7, and A;
 `CH-FORMAL`, `CH-SYN`, `CH-COLLIDE`, with `CH-EMPIRICAL` only if a local
@@ -788,23 +795,42 @@ One North-Star decision packet containing the selected ARE, descent receipt,
 held-out target table, finite witnesses, exact grade, strongest absorber,
 and the next program decision.
 
+### Execution receipt
+
+The unchanged target audit returned a target/action-indexed mixed verdict:
+
+- supplied/engineered gauge and QEC interfaces earn strict-compression
+  reconstruction for boundary charge and correction action;
+- Einstein two-clock and two-sensitivity phase repairs reconstruct by
+  injectively identifying their finite source classes;
+- AQFT and authenticated controls close declared public behavior only after
+  their apparatus/protocol interfaces are supplied;
+- gauge-interior, logical, and noncentral native fibres are screened
+  operational duals under restricted actions and finite remainders under
+  enlarged actions; and
+- no present specimen earns endogenous compressive reconstruction or a
+  representation-robust physical remainder.
+
+The exact fixed-envelope theorem forbids simultaneous credit for
+\(H\)-finality and an \(H\)-accessible same-record remainder. The exact
+capability-filtration theorem requires finality to be re-adjudicated whenever
+the action class grows. The global verdict is `INCOMPLETE_CONTRACT`; the next
+central hypothesis is `H-CCR-17`, the Endogenous Compressive Record
+Challenge.
+
+The exact regression passes `20/20`. No local model, paper, prediction,
+hardware, provider, Factory, sibling-repository, publication, submission, or
+external-contact action was opened.
+
 ## 11. Campaign execution contract
 
 ### One swing at a time
 
-`CCR-N5-S1/S2/S3/S4` are complete. Only `CCR-N5-S5` is now executable. Before
-each later swing:
-
-1. read the preceding receipt;
-2. select the appropriate branch above;
-3. create a fresh local Run Plan;
-4. freeze its strongest current primary-source absorber;
-5. apply `LMLG-01`;
-6. execute one coherent large swing; and
-7. update this scaffold only if the dependency logic materially changes.
-
-Prepared status is not activation. Joe's later “Go” opens the next bounded
-swing.
+`CCR-N5-S1` through `CCR-N5-S5` are complete. This scaffold is now a closed
+dependency and result receipt, not an activation surface. Future central work
+must consume `HC-DU-041` and explicitly open a new bounded object. The
+recommended successor is `H-CCR-17`; it is not activated merely by being
+named here.
 
 ### Common return vector
 
@@ -864,20 +890,19 @@ campaign dependency changed.
 
 ## Bottom line
 
-The campaign is concentrated without being brittle:
+The completed campaign was concentrated without being brittle:
 
 - Swing 1 makes every later comparison mean the same thing.
 - Swings 2 and 3 test that meaning in two physically different arenas.
 - Swing 4 establishes that public operational shadows compose under one
   contract while native physical interfaces do not generally collapse to one
   copyable classical type.
-- Swing 5 asks whether that descended public shadow reconstructs anything
-  that law alone did not already fix, or whether one finite admitted action
-  exposes its native fibre.
+- Swing 5 proves that reconstruction and remainder are target/action-indexed,
+  identifies injective tomography as a ceiling rather than strict
+  compression, and exposes the endogenous-compression gap.
 
-That is the shortest current route from the exact finite control stack toward
-the still-unabsorbed blockbuster possibility:
+The resulting shortest route toward the still-unabsorbed blockbuster
+possibility is `H-CCR-17`:
 
-> physically selected records form a covariant regional structure that
-> reconstructs observer-accessible reality—or expose a finite, typed
-> remainder where they do not.
+> Find—or obstruct—a physically selected, formed, noninjective record that
+> reconstructs independently held-out observer physics without refit.

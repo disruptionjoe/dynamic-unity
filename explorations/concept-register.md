@@ -999,6 +999,23 @@ resolution-stable intervention role. No claim is banked or seeded. See
   transferable object, the exact non-lift, and one finite obstruction
   grammar. See
   `typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md`.
+- **Earned capability-indexed adjudication and open endogenous-compression
+  gap.** `HC-DU-041` separates three exact factorization receipts:
+  antecedent-relative interface selection, held-out target reconstruction,
+  and complete behavior sufficiency under a frozen capability envelope
+  \(H\). If a target is accessible through \(H\) and the record is sufficient
+  for every \(H\)-behavior, the target necessarily factors through the
+  record. A same-record target difference is therefore screened operational
+  duality or a failure of \(H\)-finality, not both. Capability enlargement
+  refines operational equivalence and requires a new finality verdict. The
+  gauge and QEC controls earn strict compression through supplied
+  architectures; Einstein and phase repairs are injective tomography. No
+  current specimen combines endogenous interface selection, formed
+  noninjective compression, held-out physical transfer, and no refit. The
+  components are known sufficiency, process, control, gauge, and QEC
+  mathematics. The live concept frontier is `H-CCR-17`, not a record-first
+  ontology or representation-robust remainder. See
+  `capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md`.
 - **Earned algebraic-QFT transport and capability-growth boundary.**
   `HC-DU-040B` removes the finite-dimensional crutch from one part of the
   program. For any unital von Neumann algebra and finite internal PVM, the
@@ -1968,6 +1985,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   classical public object. Public descent and native reconstruction are now
   separate receipts. See
   `typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md`.
+- **2026-07-26 capability-indexed finality correction.** `HC-DU-041`
+  proves that public finality is indexed by the frozen future action class.
+  If every admitted behavior factors through the public record, no target
+  accessible through those behaviors can vary inside one public fibre.
+  Enlarging capability can expose a retained native distinction only by
+  refining the old operational quotient and invalidating the old finality
+  claim for the enlarged class. The public quotient, native fibre, and
+  capability filtration therefore remain separately typed. This closes the
+  five-swing campaign but leaves endogenous physical selection of a strictly
+  compressive reconstructive record open as `H-CCR-17`. See
+  `capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md`.
 - **2026-07-26 algebraic-QFT and approximate-horizon correction.**
   `HC-DU-040B` shows that the exact center-screening idea does transport to
   unital von Neumann algebras, but it becomes maximally restrictive for

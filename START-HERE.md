@@ -334,6 +334,21 @@ What *has* been earned is a strong finite control stack:
   physics is claimed
   ([result](explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md);
   [probe](tests/du_typed_public_shadow_descent_probe.py)).
+- one scoped grade-4 `HC-DU-041` North-Star factorization and attribution
+  result. Interface selection, held-out target reconstruction, and
+  finality for a frozen action class are independent receipts. A record
+  sufficient for every admitted action cannot leave an accessible
+  same-record remainder in that same action class; expanding capability can
+  expose a retained fibre only by making the old finality claim false for the
+  enlarged class. Exact gauge and QEC controls earn strict-compression
+  reconstruction through supplied architectures; the Einstein two-clock and
+  phase repairs are injective tomography. No current specimen combines
+  independent physical interface selection, formed strict compression, and
+  held-out physical transfer. The global result remains
+  `INCOMPLETE_CONTRACT`; the next bottleneck is the endogenous compressive
+  record challenge
+  ([result](explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md);
+  [probe](tests/du_capability_indexed_north_star_probe.py)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
   public order, trace laws, and public-action capabilities, but that is
@@ -645,7 +660,7 @@ free-scalar/Weyl results also show that causal operations strictly exceed
 Fewster--Verch-realizable operations; realizability is a nontrivial plural
 filter rather than a point selector.
 
-`HC-DU-035E` has now executed `CCR-N5-S4`. The common law lives at the
+`HC-DU-035E` executed `CCR-N5-S4`. The common law lives at the
 public-operational-shadow level, not at the native-interface level. Use the
 unchanged first-obstruction order:
 
@@ -665,19 +680,19 @@ After public descent, keep `NATIVE_LIFT_EARNED` distinct from
 copyable classical public shadow cannot also be a nondisturbing, physically
 faithful reconstruction of arbitrary noncommuting quantum capability.
 
-The next high-value dependency is `CCR-N5-S5`:
+`HC-DU-041` has now executed `CCR-N5-S5`. Its unchanged decision rule is:
 
-1. consume only the interfaces and public shadows selected or classified in
-   `HC-DU-033F/G/H` and `HC-DU-035E`;
-2. freeze the lawful class, observer, resources, future actions, and every
-   incomparable maximal native lift;
-3. report target diameter before record conditioning;
-4. test strict compression and held-out transfer through the descended public
-   shadow;
-5. separately test whether the target varies across native realizations with
-   that same shadow; and
-6. return reconstruction, plural operational duality, interface dependence,
-   a finite class-relative remainder, or incomplete contract.
+1. test interface selection, target reconstruction, and action sufficiency
+   separately;
+2. at fixed action envelope, classify a same-record target difference as
+   screened operational duality or as a failure of finality—never both;
+3. when capability expands, refine the operational quotient and re-adjudicate
+   finality;
+4. credit injective repairs as tomography, not nontrivial record-first
+   compression; and
+5. reserve the global ontology verdict while no natural specimen combines
+   endogenous interface selection, formed noninjective compression, and
+   held-out physical transfer.
 
 The prepared
 [next five-swing campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)
@@ -692,12 +707,14 @@ sequences that dependency without activating five runs:
 5. adjudicate reconstruction, plural duality, interface dependence,
    remainder, or incomplete contract.
 
-The first four swings are complete as `HC-DU-033F/G/H` and `HC-DU-035E`.
-Only `CCR-N5-S5` is now the next executable campaign object. Each later swing remains
-branch-conditioned on the preceding receipts, not on a positive result. The
-AQFT arena must preserve probe, pointer, archive, provenance, decoder, and
-access as separately credited fields rather than treating an induced
-observable as a formed record.
+All five swings are complete as `HC-DU-033F/G/H`, `HC-DU-035E`, and
+`HC-DU-041`. The campaign's decision-changing output is the endogenous
+compressive record gap, now tracked as `H-CCR-17`. The next central swing
+must find or obstruct that combination in one physically natural arena; it
+must not repeat supplied detectors, codes, fitted sensor arrays, or injective
+source logs. The AQFT arena must still preserve probe, pointer, archive,
+provenance, decoder, and access as separately credited fields rather than
+treating an induced observable as a formed record.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -823,8 +840,8 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-033G/H`: Einstein--matter selects flow and conditional synchronization before any generic record, while localized AQFT selects an induction/realizability family before any particular instrument or archive. Advance formed descent; do not repeat supplied detector, code, or fitted-probe variants. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, or FV realization is not an observer-access contract. Keep route, authentication, decoder, actions, resources, and horizon explicit; no completed ladder selects an actual outcome. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E` establishes one public-shadow descent contract and an exact native-type-erasure no-go. Preserve the public quotient, native fibre, action envelope, logical/homological remainder, and movable-cut semantic boundary through `CCR-N5-S5`. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `CCR-N5-S5` is next: test held-out targets against the descended public shadow, every plural native lift, and the lawful pre-record baseline. Public operational closure is not source or native-interface reconstruction. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. Freeze the future action envelope; capability enlargement requires a new finality verdict. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Advance `H-CCR-17`: seek or obstruct an independently selected, formed, noninjective physical record that reconstructs a held-out observer target without refit. More supplied or injective sensor repairs are low value. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -854,10 +871,10 @@ channels; they are not lanes and do not create a second priority system.
    [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md).
 5. For quantum/foundations prioritization, also read
    [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
-6. When Joe opens the next central campaign swing, read the
+6. For the completed central campaign and its next-dependency receipt, read the
    [physical-selection-to-formed-descent campaign scaffold](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md).
-   `CCR-N5-S1/S2/S3/S4` are complete; `CCR-N5-S5` is the next executable object,
-   while the later swings remain receipt-conditioned.
+   `CCR-N5-S1` through `CCR-N5-S5` are complete. Do not rerun them; consume
+   `HC-DU-041` and `H-CCR-17`.
 7. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies

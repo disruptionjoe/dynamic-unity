@@ -195,7 +195,7 @@ current results establish the starting boundary, not the answer:
   full-rank joined record and exact transfer. Component mathematics is known.
   The live bottleneck is physical selection of the admissibility complex
   itself—not another fitted detector, code, or sensor array.
-- The first three swings of the branch-aware next-five campaign are complete.
+- The branch-aware five-swing campaign is complete.
   `HC-DU-033F` proves that physical ARE/interface selection is relative to a
   declared antecedent and holds exactly when the formed interface
   architecture is constant on its antecedent fibres. Its minimal honest
@@ -222,9 +222,18 @@ current results establish the starting boundary, not the answer:
   nondisturbing, physically faithful for noncommuting quantum capability, and
   broadcastable. The minimum common architecture is a copyable public
   quotient plus native residual fibre plus frozen action envelope.
-  `CCR-N5-S5`, the held-out North-Star reconstruction/remainder
-  adjudication, is next
-  ([result](explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md);
+  `HC-DU-041` now completes `CCR-N5-S5` and the campaign. It proves that
+  target reconstruction, interface selection, and finality for an action
+  class are separate factorization receipts. At fixed capability, a truly
+  final record cannot also leave an accessible same-record remainder;
+  capability enlargement can expose one only by invalidating the old
+  finality claim. Existing gauge and QEC records reconstruct through strict
+  compression but use supplied architectures; the Einstein and phase repairs
+  are injective tomography. No current specimen combines endogenous
+  interface selection, formed strict compression, and held-out physical
+  transfer. That **endogenous compressive record gap** is now the central
+  bottleneck
+  ([adjudication](explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md);
   [campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,

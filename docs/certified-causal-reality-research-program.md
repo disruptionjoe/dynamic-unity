@@ -1239,9 +1239,54 @@ plurality.
 
 This is a scoped grade-4 structural necessity/no-go. It does not establish a
 universal public-reality law, select the native interface, reconstruct the
-microscopic source, or choose an actual outcome. `CCR-N5-S5` must test public
-targets, native-interface targets, and capability targets separately. See
+microscopic source, or choose an actual outcome. `HC-DU-041` has now tested
+public targets, native-interface targets, and capability targets separately.
+See
 `../explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md`.
+
+### `HC-DU-041` — Capability-Indexed North-Star Adjudication
+
+`CCR-N5-S5` closes the five-swing campaign with three independent
+factorization receipts. For antecedent \(a\), interface \(\xi\), public record
+\(r\), complete behavior \(\beta_H\) under capability envelope \(H\), and
+held-out target \(t\), test separately:
+
+\[
+\ker a\subseteq\ker\xi,\qquad
+\ker r\subseteq\ker t,\qquad
+\ker r\subseteq\ker\beta_H.
+\]
+
+No one receipt supplies another.
+
+If \(t=f\circ\beta_H\) and \(r\) is sufficient for \(\beta_H\), then \(t\)
+factors through \(r\). Consequently, a same-record target difference at
+fixed \(H\) is either screened from \(H\), giving operational duality at that
+boundary, or is exposed by an \(H\)-action, in which case the record is not
+final for \(H\). Capability enlargement \(H\subseteq H'\) refines
+operational equivalence:
+
+\[
+\ker\beta_{H'}\subseteq\ker\beta_H.
+\]
+
+This is known factorization, statistical-sufficiency, control, and
+process-tensor mathematics. The scoped grade-4 gain is the attribution rule:
+interface selection, reconstruction, and capability-relative finality remain
+separate, and a fixed envelope cannot receive both finality and accessible
+remainder credit.
+
+The target audit also distinguishes strict compression from tomography. The
+material-gauge and stabilizer-QEC records are strict sufficient quotients but
+use supplied architectures. The Einstein two-clock and two-sensitivity phase
+repairs are injective on their finite source classes. Localized AQFT closes a
+declared public behavior only after a supplied A3/A4 apparatus. No current
+specimen combines independently selected physical interface, formed
+noninjective record, held-out physical-target reconstruction, and no refit.
+
+The global North-Star verdict remains `INCOMPLETE_CONTRACT`. The new central
+opening is `H-CCR-17`, the Endogenous Compressive Record Challenge. See
+`../explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -2625,13 +2670,12 @@ causal composition relative to supplied couplings, but a particular
 instrument, formed archive, and observer ARE first close at later antecedent
 rungs. Do not fit a larger sensor matrix or detector to the target.
 
-The branch-aware next-five campaign now gives that successor an exact
-sequence. Its first four stages are complete as `HC-DU-033F/G/H` and
-`HC-DU-035E`. The formed-descent stage found one common public-shadow law
-plus an exact native-type-erasure obstruction. The next stage is the
-North-Star held-out reconstruction/remainder adjudication. The partial and
-adverse physical-selection receipts remain inputs rather than failures to
-manufacture a positive branch. See
+The branch-aware next-five campaign is complete as `HC-DU-033F/G/H`,
+`HC-DU-035E`, and `HC-DU-041`. It found one common public-shadow law, an exact
+native-type-erasure obstruction, capability-indexed finality, and the current
+endogenous strict-compression gap. The partial and adverse physical-selection
+receipts remain results rather than failures to manufacture a positive
+branch. See
 `../explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md`.
 
 See
@@ -2657,17 +2701,27 @@ See
 | `H-CCR-14` | Added authenticated connectivity can expose loop frustration and reduce path-independent public capacity; a harder finality layer restores capability only by rejecting, repairing, recording, or quotienting the loop syndrome. | The effect disappears in every noisy, adversarial, and physical realization once the full protocol and resource ledger are frozen. |
 | `H-CCR-15` | Every finite layered-finality effect either factors through an enlarged standard quantum process carrying its history, route, environment and control registers, or leaves a finite post-causal-break witness after all admitted quantum and classical memories are re-prepared while entanglement and no-signalling are preserved. | A retained register, incomplete process boundary or signalling nonlinear rule absorbs every proposed residual. |
 | `H-CCR-16` | Relative to a declared cover, upper task, access class, adversary, and resource ledger, regional certified causal networks compose into an action-safe higher-level object exactly when their overlap data are compatible, their certificates have independent adversarial support, their boundary summaries are action-sufficient, and every loop either descends or carries an explicit provenance/logical lift; otherwise a finite typed obstruction identifies what is missing. | The conditions are defined to force composition, change meaning between quantum and distributed fixtures, fail under benign refinement, or require an unbounded or target-defined obstruction in the declared class. |
+| `H-CCR-17` | A physically natural dynamics selects and forms an observer-indexed record that is noninjective on the lawful nongauge physical class yet reconstructs an independently held-out time, geometry, field, or capability target without refitting across the frozen action/resource envelope—or an exact obstruction explains why this combination cannot occur. | The law already closes the target; the interface is supplied; the repair is injective tomography; the record is target-coded; held-out transfer fails; capability growth exposes the fibre; or representation/resource refitting carries the result. |
 
-**`H-CCR-16` scoped resolution.** `HC-DU-035E` establishes the unchanged
+**`H-CCR-16` scoped resolution.** `HC-DU-035E/041` establish the unchanged
 public-shadow form of the hypothesis and its finite first-obstruction grammar
 across five arenas. It also refutes the stronger native-type-erasure reading:
 a copyable classical public object cannot be a nondisturbing, physically
-faithful lift of a noncommuting quantum state class. The open part is whether
-the descended public shadow reconstructs held-out observer-accessible
-targets, or whether a native fibre survives every admissible refinement.
+faithful lift of a noncommuting quantum state class. At fixed capability,
+`HC-DU-041` then proves that an accessible same-record target difference is a
+failure of finality, while a screened difference earns operational duality.
+No current witness survives every legitimate refinement as a
+representation-robust remainder.
+
+**`H-CCR-17` priority.** More reconstructions through supplied codes,
+detectors, record-complete lookups, or injective sensor arrays have low
+information value. The next central physical arena must select its interface,
+strictly compress its lawful nongauge class, and transfer to a held-out target
+without refit—or yield the corresponding selection/compression obstruction.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
-`H-CCR-08`, and `H-CCR-16` now use the `HC-DU-039A/039B` ordering. First
+`H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
+ordering. First
 report distance \(\eta\) from the observed record to the frozen admitted
 record image. Only on the resulting certified nonempty tolerance fibre
 report held-out target diameter \(\Delta\), reconstruction, or a
@@ -3308,6 +3362,13 @@ PUBLIC-SHADOW EQUALITY DOES NOT IMPLY NATIVE-INTERFACE IDENTITY
 NO-BROADCASTING FORBIDS A NONDISTURBING PHYSICALLY FAITHFUL BROADCASTABLE
 CLASSICAL LIFT OF A NONCOMMUTING QUANTUM STATE CLASS
 MINIMUM COMMON OBJECT IS PUBLIC QUOTIENT PLUS NATIVE FIBRE PLUS ACTION ENVELOPE
+HC-DU-041 CAPABILITY-INDEXED NORTH-STAR FACTORIZATION AND ATTRIBUTION EXACT
+INTERFACE SELECTION TARGET RECONSTRUCTION AND H-FINALITY ARE INDEPENDENT
+AN H-FINAL RECORD HAS NO H-ACCESSIBLE SAME-RECORD REMAINDER
+CAPABILITY ENLARGEMENT REFINES OPERATIONAL EQUIVALENCE AND REOPENS FINALITY
+INJECTIVE REPAIR EARNS TOMOGRAPHY NOT NONTRIVIAL RECORD COMPRESSION
+NO CURRENT ENDOGENOUS STRICT-COMPRESSION RECONSTRUCTION
+GLOBAL VERDICT INCOMPLETE_CONTRACT; H-CCR-17 OPEN
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

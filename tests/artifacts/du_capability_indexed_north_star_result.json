@@ -1,0 +1,169 @@
+{
+  "candidate_audit": {
+    "authenticated_bft": {
+      "held_out_physical_target": false,
+      "interface_selected": false,
+      "no_refit": true,
+      "record_formed": true,
+      "strict_noninjective": true
+    },
+    "einstein_two_clock": {
+      "held_out_physical_target": true,
+      "interface_selected": false,
+      "no_refit": true,
+      "record_formed": true,
+      "strict_noninjective": false
+    },
+    "localized_aqft": {
+      "held_out_physical_target": false,
+      "interface_selected": false,
+      "no_refit": true,
+      "record_formed": true,
+      "strict_noninjective": true
+    },
+    "material_gauge": {
+      "held_out_physical_target": true,
+      "interface_selected": false,
+      "no_refit": true,
+      "record_formed": true,
+      "strict_noninjective": true
+    },
+    "stabilizer_qec": {
+      "held_out_physical_target": true,
+      "interface_selected": false,
+      "no_refit": true,
+      "record_formed": true,
+      "strict_noninjective": true
+    },
+    "two_sensitivity_phase": {
+      "held_out_physical_target": true,
+      "interface_selected": false,
+      "no_refit": true,
+      "record_formed": false,
+      "strict_noninjective": false
+    }
+  },
+  "checks": [
+    {
+      "detail": "176 binary antecedents, zero counterexamples.",
+      "name": "fixed-envelope factorization composition is exhaustive at four states",
+      "passed": true
+    },
+    {
+      "detail": "Nine interior configurations map to three boundary sectors.",
+      "name": "Z3 flux is a strict noninjective public quotient",
+      "passed": true
+    },
+    {
+      "detail": "The public quotient reconstructs the declared boundary charge.",
+      "name": "boundary charge target factors through flux",
+      "passed": true
+    },
+    {
+      "detail": "(1,0) and (0,1) share flux but differ on the interior target.",
+      "name": "interior charge does not factor through boundary flux",
+      "passed": true
+    },
+    {
+      "detail": "Adding an interior-sensitive action can only split old equivalence classes.",
+      "name": "enlarged gauge capability refines boundary capability",
+      "passed": true
+    },
+    {
+      "detail": "Sixteen physical Pauli histories map to four correction syndromes.",
+      "name": "repetition-code syndrome strictly compresses correctable histories",
+      "passed": true
+    },
+    {
+      "detail": "The syndrome selects the declared recovery class without logging the error.",
+      "name": "correction target factors through syndrome on the correctable class",
+      "passed": true
+    },
+    {
+      "detail": "Identity and logical operators can share a syndrome.",
+      "name": "logical action does not factor through syndrome on the full Pauli class",
+      "passed": true
+    },
+    {
+      "detail": "Adding logical actions splits, but never merges, syndrome classes.",
+      "name": "logical capability refines syndrome-only capability",
+      "passed": true
+    },
+    {
+      "detail": "The old syndrome is not final for the enlarged logical-action envelope.",
+      "name": "identity and logical X form the minimum same-record witness",
+      "passed": true
+    },
+    {
+      "detail": "Exact target-fibre width is 1/2.",
+      "name": "first one-clock maximal record leaves exact target width one half",
+      "passed": true
+    },
+    {
+      "detail": "Exact target-fibre width is 3/4.",
+      "name": "second one-clock maximal record leaves exact target width three quarters",
+      "passed": true
+    },
+    {
+      "detail": "The joined two-by-two source sensitivity has determinant 1/4.",
+      "name": "joined two-clock sensitivity is injective",
+      "passed": true
+    },
+    {
+      "detail": "The repair identifies the full two-parameter source class.",
+      "name": "joined clock reconstruction is tomography rather than strict compression",
+      "passed": true
+    },
+    {
+      "detail": "t=(3/4)r0-r3 without refitting.",
+      "name": "held-out redshift is the exact joined-record combination",
+      "passed": true
+    },
+    {
+      "detail": "Four sources map to two total phases.",
+      "name": "total phase is a strict quotient of two source bits",
+      "passed": true
+    },
+    {
+      "detail": "(0,1) and (1,0) share total phase and disagree on tau.",
+      "name": "proper-duration component is not identified by total phase",
+      "passed": true
+    },
+    {
+      "detail": "The repair is full source identification, not a nontrivial quotient.",
+      "name": "independent second sensitivity makes the source map injective",
+      "passed": true
+    },
+    {
+      "detail": "Every current positive is supplied, nonphysical, noncompressive, or lacks a held-out physical target.",
+      "name": "no current specimen closes endogenous compressive reconstruction",
+      "passed": true
+    },
+    {
+      "detail": "No arena-specific success definition was introduced.",
+      "name": "all candidate audits use the same five criteria",
+      "passed": true
+    }
+  ],
+  "disposition": "TARGET_ACTION_INDEXED_MIXED_VERDICT",
+  "exact_results": {
+    "current_endogenous_compressive_winners": [],
+    "einstein_joined_sensitivity_determinant": "1/4",
+    "einstein_r0_target_fibre_width": "1/2",
+    "einstein_r3_target_fibre_width": "3/4",
+    "fixed_envelope_antecedents_checked": 176,
+    "fixed_envelope_counterexamples": 0,
+    "gauge_public_sector_count": 3,
+    "gauge_state_count": 9,
+    "qec_correctable_history_count": 16,
+    "qec_syndrome_count": 4
+  },
+  "hypothesis_id": "HC-DU-041",
+  "prepared_id": "CCR-N5-S5",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "summary": {
+    "passed": 20,
+    "total": 20
+  }
+}

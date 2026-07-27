@@ -1696,3 +1696,35 @@ modes. It does not construct a local QFT record, prove all QFT local algebras
 are factors, select a split inclusion or instrument, establish a universal
 approximate-finality law, report new physics, promote a paper, or authorize
 hardware or any external action.
+
+## HC-DU-041 capability-indexed North-Star adjudication
+
+`du_capability_indexed_north_star_probe.py` preserves the finite exact
+controls behind the completed five-swing adjudication:
+
+- exhaustive four-state binary factorization composition;
+- the \(9\to3\) material \(Z_3\) gauge quotient and interior-action leak;
+- the \(16\to4\) correctable repetition-code quotient and full-class logical
+  leak;
+- capability enlargement as refinement of operational equivalence;
+- exact one-clock Einstein target-fibre widths \(1/2\) and \(3/4\);
+- joined two-clock sensitivity determinant \(1/4\), identifying the repair as
+  source tomography;
+- the total-phase source null and injective two-sensitivity repair; and
+- the unchanged candidate audit showing no current endogenous,
+  strict-compression, held-out-transfer winner.
+
+Run:
+
+```bash
+python3 tests/du_capability_indexed_north_star_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_capability_indexed_north_star_result.json` and reports `20/20`
+with `TARGET_ACTION_INDEXED_MIXED_VERDICT`. Passing preserves the
+factorization, capability-filtration, and attribution controls. It does not
+select a physical interface, establish endogenous compressive
+reconstruction, prove a representation-robust physical remainder, choose an
+ontology, report new physics, promote a paper, or authorize hardware or any
+external action.
