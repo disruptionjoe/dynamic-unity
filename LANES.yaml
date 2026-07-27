@@ -1,5 +1,5 @@
 lane_contract_version: '2.0'
-manifest_revision: 96
+manifest_revision: 97
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -12,6 +12,7 @@ owner:
     - CURRENT-RESEARCH.yaml
 orientation_ref: START-HERE.md
 current_research_ref: CURRENT-RESEARCH.yaml
+charter_authority: program_charter
 historical_manifest_ref: LANES-HISTORY.yaml
 lane_design_note: >-
   Lanes encode stable scientific responsibility. Work channels encode methods

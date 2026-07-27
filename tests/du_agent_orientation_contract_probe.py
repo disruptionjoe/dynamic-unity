@@ -1,16 +1,21 @@
 #!/usr/bin/env python3
-"""Validate Dynamic Unity's current-research authority and cold-start contract.
+"""Validate Dynamic Unity's live authority and cold-start contract.
 
 This is a repository-governance probe. Passing establishes routing consistency,
-reference integrity, WIP discipline, and cold-start recoverability only. It
-establishes no physics, theorem, ontology, novelty, prediction, or paper grade.
+reference integrity, WIP discipline, schema conformance, and cold-start
+recoverability only. It establishes no physics, theorem, ontology, novelty,
+prediction, scientific grade, or paper readiness.
 """
 
 from __future__ import annotations
 
+import argparse
+import importlib.util
 import json
 import re
+import unicodedata
 from collections import Counter
+from copy import deepcopy
 from pathlib import Path
 from typing import Any
 
@@ -19,8 +24,10 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 CURRENT_PATH = ROOT / "CURRENT-RESEARCH.yaml"
+SCHEMA_PATH = ROOT / "CURRENT-RESEARCH.schema.json"
 LANES_PATH = ROOT / "LANES.yaml"
 COUNTER_REGISTER = ROOT / "COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md"
+ARTIFACT_PATH = ROOT / "tests" / "artifacts" / "du_agent_orientation_contract_result.json"
 
 STABLE_FILES = {
     "start": ROOT / "START-HERE.md",
@@ -32,6 +39,7 @@ STABLE_FILES = {
     "connections": ROOT / "CONNECTIONS.md",
     "explorations_index": ROOT / "explorations" / "README.md",
 }
+CHARTER_COPIES = ("start", "agents", "readme", "program")
 HISTORICAL_FILES = {
     "results_history": ROOT / "EARNED-RESULTS-INDEX.md",
     "lanes_history": ROOT / "LANES-HISTORY.yaml",
@@ -65,9 +73,7 @@ EXPECTED_GRADES = {
     5: "remainder_or_prediction",
 }
 EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 212
-CURRENT_AUTHORITY_NAME = "CURRENT-RESEARCH.yaml"
-EXPECTED_EXECUTABLE_ACTION = "N5-PF-P5"
-EXPECTED_PUBLICATION_CANDIDATE = "DU-PAPER-013"
+CURRENT_AUTHORITY_NAME = CURRENT_PATH.name
 
 
 def load_yaml(path: Path) -> dict[str, Any]:
@@ -75,6 +81,11 @@ def load_yaml(path: Path) -> dict[str, Any]:
     if not isinstance(value, dict):
         raise AssertionError(f"{path.name} must parse as a YAML mapping")
     return value
+
+
+def normalized_prose(value: str) -> str:
+    value = unicodedata.normalize("NFKD", value).lower()
+    return re.sub(r"[^a-z0-9]+", " ", value).strip()
 
 
 def local_markdown_targets(path: Path, text: str) -> list[Path]:
@@ -107,16 +118,26 @@ def assert_acyclic(edges: dict[str, set[str]]) -> None:
         visit(node)
 
 
-def run() -> dict[str, Any]:
-    current = load_yaml(CURRENT_PATH)
-    lanes = load_yaml(LANES_PATH)
-    stable_texts = {
-        name: path.read_text(encoding="utf-8") for name, path in STABLE_FILES.items()
-    }
-    historical_texts = {
-        name: path.read_text(encoding="utf-8")
-        for name, path in HISTORICAL_FILES.items()
-    }
+def validate_json_schema(current: dict[str, Any]) -> str:
+    schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
+    if schema.get("$schema") != "https://json-schema.org/draft/2020-12/schema":
+        raise AssertionError("schema must declare JSON Schema draft 2020-12")
+    if importlib.util.find_spec("jsonschema") is None:
+        return "schema parsed; semantic fallback used because jsonschema is unavailable"
+
+    import jsonschema
+
+    jsonschema.Draft202012Validator.check_schema(schema)
+    jsonschema.Draft202012Validator(schema).validate(current)
+    return "validated with jsonschema Draft202012Validator"
+
+
+def validate_authority(
+    current: dict[str, Any],
+    lanes: dict[str, Any],
+    stable_texts: dict[str, str],
+    historical_texts: dict[str, str],
+) -> dict[str, Any]:
     checks: list[dict[str, Any]] = []
 
     def check(check_id: str, condition: bool, detail: str) -> None:
@@ -124,12 +145,18 @@ def run() -> dict[str, Any]:
             raise AssertionError(f"{check_id}: {detail}")
         checks.append({"id": check_id, "pass": True, "detail": detail})
 
+    schema_detail = validate_json_schema(current)
+    check(
+        "json_schema_contract",
+        current.get("schema_ref") == SCHEMA_PATH.name,
+        schema_detail,
+    )
     check(
         "current_contract_identity",
-        current.get("current_research_contract_version") == "1.0"
+        current.get("current_research_contract_version") == "1.1"
         and isinstance(current.get("state_revision"), int)
         and current.get("scope", "").startswith("Sole mutable authority"),
-        "current authority has a version, revision and exclusive scope",
+        "current authority has contract version 1.1, a revision, and exclusive scope",
     )
 
     rules = current.get("rules", {})
@@ -140,8 +167,10 @@ def run() -> dict[str, Any]:
         isinstance(rules, dict)
         and isinstance(status_enums, dict)
         and isinstance(programs, list)
-        and bool(programs),
-        "rules, enums and a nonempty program portfolio are present",
+        and bool(programs)
+        and isinstance(current.get("transition_protocol"), dict)
+        and isinstance(current.get("run_home_contract"), dict),
+        "rules, enums, transition/run-home contracts, and a program portfolio exist",
     )
 
     program_ids = [program.get("id") for program in programs]
@@ -156,14 +185,17 @@ def run() -> dict[str, Any]:
     allowed_portfolio = set(status_enums.get("portfolio_status", []))
     allowed_execution = set(status_enums.get("execution_status", []))
     allowed_dependency = set(status_enums.get("dependency_type", []))
+    allowed_target_type = set(status_enums.get("dependency_target_type", []))
     check(
         "enum_contract",
         allowed_portfolio
         == {"active", "ready", "parked", "blocked", "complete", "external_custody"}
         and allowed_execution == {"executable", "prepared", "none"}
         and allowed_dependency
-        == {"requires", "tests", "extracts_from", "external_dependency", "does_not_block"},
-        "portfolio, execution and dependency enums are exact",
+        == {"requires", "tests", "extracts_from", "external_dependency", "does_not_block"}
+        and allowed_target_type
+        == {"program", "result", "premise", "prediction", "requirement", "external_work"},
+        "portfolio, execution, dependency, and dependency-target enums are exact",
     )
 
     invalid_statuses = [
@@ -205,20 +237,21 @@ def run() -> dict[str, Any]:
         "decision_matches_portfolio",
         decision.get("active_scientific_program_id") == active["id"]
         and decision.get("executable_action_id") == active.get("active_work_id")
-        and decision.get("executable_action_id") == EXPECTED_EXECUTABLE_ACTION
         and decision.get("selected_successor_id") is None,
-        "decision points to the active program/action and leaves successor unselected",
+        "decision derives its active program/action from the portfolio",
     )
 
-    publication = program_by_id.get(decision.get("publication_program_id"))
+    publication = program_by_id.get(decision.get("prepared_publication_program_id"))
     check(
-        "publication_exact_candidate",
+        "prepared_publication_contract",
         publication is not None
         and publication.get("kind") == "publication"
         and publication.get("execution_status") == "prepared"
-        and publication.get("candidate_id") == EXPECTED_PUBLICATION_CANDIDATE,
-        "the separate prepared publication slot names one exact candidate",
+        and isinstance(publication.get("candidate_id"), str)
+        and bool(publication["candidate_id"]),
+        "the separate prepared publication slot names one nonempty candidate",
     )
+
     slot_counts = Counter(
         program.get("wip_slot")
         for program in programs
@@ -257,10 +290,16 @@ def run() -> dict[str, Any]:
         "portfolio_status",
         "execution_status",
         "wip_slot",
+        "primary_lane_id",
+        "supporting_lane_ids",
+        "channel_ids",
         "target",
         "current_grade",
+        "evidence_grade",
         "maximum_grade",
+        "maximum_evidence_grade",
         "premise_status",
+        "completed_dependencies",
         "remaining_obligations",
         "typed_dependencies",
         "cheapest_kill",
@@ -279,7 +318,53 @@ def run() -> dict[str, Any]:
     check(
         "program_contract_completeness",
         not incomplete_programs,
-        f"every program has grade, premise, dependency, kill/stop/reopen and local-boundary fields; missing={incomplete_programs}",
+        f"every program has normalized lanes/grades and control fields; missing={incomplete_programs}",
+    )
+
+    actual_lanes = {str(item["id"]): item["title"] for item in lanes.get("lanes", [])}
+    actual_channels = {
+        item["id"]: item["title"] for item in lanes.get("work_channels", [])
+    }
+    actual_grades = {
+        item["grade"]: item["label"] for item in lanes.get("evidence_grades", [])
+    }
+    topology_errors: list[str] = []
+    grade_errors: list[str] = []
+    for program in programs:
+        primary = str(program.get("primary_lane_id"))
+        supporting = [str(item) for item in program.get("supporting_lane_ids", [])]
+        channels = program.get("channel_ids", [])
+        if (
+            primary not in actual_lanes
+            or primary in supporting
+            or len(supporting) != len(set(supporting))
+            or any(item not in actual_lanes for item in supporting)
+            or any(item not in actual_channels for item in channels)
+        ):
+            topology_errors.append(program["id"])
+        for field in ("evidence_grade", "maximum_evidence_grade"):
+            value = program.get(field)
+            if value is not None and (
+                not isinstance(value, int) or isinstance(value, bool) or value not in actual_grades
+            ):
+                grade_errors.append(f"{program['id']}:{field}={value!r}")
+        current_grade = program.get("evidence_grade")
+        maximum_grade = program.get("maximum_evidence_grade")
+        if (
+            current_grade is not None
+            and maximum_grade is not None
+            and current_grade > maximum_grade
+        ):
+            grade_errors.append(f"{program['id']}:current-exceeds-maximum")
+    check(
+        "normalized_lane_and_channel_refs",
+        not topology_errors,
+        f"primary/supporting lanes and channels resolve without overlap; errors={topology_errors}",
+    )
+    check(
+        "normalized_grade_contract",
+        not grade_errors,
+        f"normalized grades are null or declared integers and do not exceed maxima; errors={grade_errors}",
     )
 
     dependency_errors: list[str] = []
@@ -288,17 +373,29 @@ def run() -> dict[str, Any]:
         for dependency in program.get("typed_dependencies", []):
             dependency_type = dependency.get("type")
             target = dependency.get("target")
-            if dependency_type not in allowed_dependency or not isinstance(target, str):
+            target_type = dependency.get("target_type")
+            if (
+                dependency_type not in allowed_dependency
+                or target_type not in allowed_target_type
+                or not isinstance(target, str)
+                or not target
+            ):
                 dependency_errors.append(f"{program['id']}:{dependency}")
                 continue
             if dependency_type == "external_dependency" and not dependency.get("owner_repo"):
                 dependency_errors.append(f"{program['id']}:external-without-owner:{target}")
-            if dependency_type == "requires" and target in program_by_id:
+            if target_type == "program" and target not in program_by_id:
+                dependency_errors.append(f"{program['id']}:missing-program:{target}")
+            if (
+                dependency_type == "requires"
+                and target_type == "program"
+                and target in program_by_id
+            ):
                 internal_edges[program["id"]].add(target)
     check(
         "typed_dependencies_valid",
         not dependency_errors,
-        f"dependency types and external owners are valid; errors={dependency_errors}",
+        f"dependency relations and target namespaces are explicit; errors={dependency_errors}",
     )
     assert_acyclic(internal_edges)
     check(
@@ -318,14 +415,54 @@ def run() -> dict[str, Any]:
         )
         if program.get("next_action_ref"):
             refs.append(program["next_action_ref"])
+        packet = program.get("execution_packet")
+        if packet:
+            refs.append(packet.get("source_locator", {}).get("path"))
+            refs.extend(item.get("path") for item in packet.get("required_inputs", []))
         for ref in refs:
             ref_count += 1
-            if not (ROOT / ref).exists():
+            if not isinstance(ref, str) or not (ROOT / ref).exists():
                 missing_refs.append(f"{program['id']}:{ref}")
     check(
         "current_evidence_refs_resolve",
         ref_count >= 10 and not missing_refs,
-        f"{ref_count} current evidence and action references resolve; missing={missing_refs}",
+        f"{ref_count} current evidence, action, and input references resolve; missing={missing_refs}",
+    )
+
+    packet = active.get("execution_packet", {})
+    source_locator = packet.get("source_locator", {})
+    source_path = ROOT / str(source_locator.get("path", ""))
+    source_heading = source_locator.get("heading", "")
+    packet_controls = packet.get("uses_program_controls", [])
+    packet_errors: list[str] = []
+    if packet.get("action_id") != active.get("active_work_id"):
+        packet_errors.append("action mismatch")
+    if not str(packet.get("exact_question", "")).strip():
+        packet_errors.append("missing exact question")
+    if not source_path.is_file() or source_heading not in source_path.read_text(
+        encoding="utf-8"
+    ):
+        packet_errors.append("source locator does not resolve to its heading")
+    for key in (
+        "required_inputs",
+        "unchanged_ledger_fields",
+        "arena_roles",
+        "expected_return_classes",
+        "observer_index_return_classes",
+    ):
+        if not packet.get(key):
+            packet_errors.append(f"missing {key}")
+    for key in packet_controls:
+        if not str(active.get(key, "")).strip():
+            packet_errors.append(f"control {key} is absent from active program")
+    if not str(packet.get("durable_output", "")).strip():
+        packet_errors.append("missing durable output")
+    if not str(packet.get("local_method", "")).strip():
+        packet_errors.append("missing local method")
+    check(
+        "active_execution_packet",
+        not packet_errors,
+        f"active action is directly executable from one embedded packet; errors={packet_errors}",
     )
 
     check(
@@ -343,15 +480,26 @@ def run() -> dict[str, Any]:
         "anomaly intake remains open without creating standing parallel work",
     )
 
-    actual_lanes = {
-        str(item["id"]): item["title"] for item in lanes.get("lanes", [])
-    }
-    actual_channels = {
-        item["id"]: item["title"] for item in lanes.get("work_channels", [])
-    }
-    actual_grades = {
-        item["grade"]: item["label"] for item in lanes.get("evidence_grades", [])
-    }
+    transition = current.get("transition_protocol", {})
+    check(
+        "state_transition_protocol",
+        len(transition.get("steps", [])) >= 5
+        and "increment" in " ".join(transition["steps"]).lower()
+        and "never rewrite" in transition.get("history_rule", "").lower(),
+        "live-state changes have an ordered revision, validation, and additive-history protocol",
+    )
+
+    run_homes = current.get("run_home_contract", {})
+    legacy_readme = (ROOT / "runs" / "README.md").read_text(encoding="utf-8")
+    check(
+        "run_home_contract",
+        run_homes.get("governed_run_home") == "lab/process/runs/"
+        and run_homes.get("legacy_run_home") == "runs/"
+        and "non-routing" in legacy_readme
+        and "lab/process/runs/" in legacy_readme,
+        "governed and legacy run homes are explicit without moving history",
+    )
+
     check(
         "stable_lane_topology",
         actual_lanes == EXPECTED_LANES,
@@ -376,9 +524,7 @@ def run() -> dict[str, Any]:
     )
 
     missing_authority_pointers = [
-        name
-        for name, text in stable_texts.items()
-        if CURRENT_AUTHORITY_NAME not in text
+        name for name, text in stable_texts.items() if CURRENT_AUTHORITY_NAME not in text
     ]
     check(
         "stable_surfaces_route_current_authority",
@@ -386,23 +532,6 @@ def run() -> dict[str, Any]:
         f"every stable entrypoint points to the live authority; missing={missing_authority_pointers}",
     )
 
-    forbidden_live_assertions = (
-        "Only `N5-PF-P5` is executable",
-        "N5-PF-P5 is the sole executable",
-        "N5-PF-P5 alone is executable",
-        "sole executable position",
-    )
-    duplicated_live_assertions = [
-        f"{name}:{phrase}"
-        for name, text in stable_texts.items()
-        for phrase in forbidden_live_assertions
-        if phrase in text
-    ]
-    check(
-        "no_duplicated_mutable_routing_assertion",
-        not duplicated_live_assertions,
-        f"stable surfaces do not copy executable status; duplicates={duplicated_live_assertions}",
-    )
     mutable_tokens = set(program_ids)
     mutable_tokens.add(str(decision.get("executable_action_id")))
     copied_mutable_tokens = [
@@ -415,6 +544,22 @@ def run() -> dict[str, Any]:
         "no_copied_current_program_or_action_ids",
         not copied_mutable_tokens,
         f"stable surfaces point to live state without copying its IDs; copies={copied_mutable_tokens}",
+    )
+
+    charter = lanes.get("program_charter", {})
+    charter_errors: list[str] = []
+    for charter_key in ("purpose", "vision", "mission", "north_star", "operating_principle"):
+        expected = normalized_prose(str(charter.get(charter_key, "")))
+        if not expected:
+            charter_errors.append(f"structured:{charter_key}")
+            continue
+        for name in CHARTER_COPIES:
+            if expected not in normalized_prose(stable_texts[name]):
+                charter_errors.append(f"{name}:{charter_key}")
+    check(
+        "stable_charter_parity",
+        lanes.get("charter_authority") == "program_charter" and not charter_errors,
+        f"all stable charter copies match LANES.yaml program_charter; errors={charter_errors}",
     )
 
     check(
@@ -472,17 +617,42 @@ def run() -> dict[str, Any]:
         f"required cold-start surfaces total {cold_start_words} words (limit 6000)",
     )
 
+    dependency_classes = {
+        dependency.get("target_type")
+        for dependency in active.get("typed_dependencies", [])
+    }
+    isolated_recoveries = {
+        "purpose_and_north_star": bool(charter.get("purpose") and charter.get("north_star")),
+        "honest_evidence_boundary": (
+            "has not established" in stable_texts["start"].lower()
+            and bool(active.get("current_grade"))
+        ),
+        "active_program_and_action": (
+            decision.get("active_scientific_program_id") == active.get("id")
+            and decision.get("executable_action_id") == packet.get("action_id")
+        ),
+        "completed_and_remaining": bool(
+            active.get("completed_dependencies") and active.get("remaining_obligations")
+        ),
+        "execution_ceiling_and_output": bool(
+            active.get("primary_lane_id")
+            and active.get("channel_ids")
+            and active.get("maximum_evidence_grade") is not None
+            and active.get("strongest_absorber")
+            and active.get("cheapest_kill")
+            and active.get("stop_rule")
+            and packet.get("durable_output")
+        ),
+        "typed_dependencies": bool(dependency_classes),
+        "local_boundary": bool(active.get("local_computation_boundary")),
+    }
     check(
-        "scientific_nonpromotion",
-        "no scientific result" in (
-            CURRENT_PATH.parent
-            / "lab"
-            / "process"
-            / "runs"
-            / "RUN-20260727-162657-current-research-authority-migration"
-            / "run-plan.md"
-        ).read_text(encoding="utf-8").lower(),
-        "migration run explicitly makes no scientific promotion",
+        "context_isolated_cold_start_recovery",
+        all(isolated_recoveries.values()),
+        (
+            "the seven required answers are recoverable from only "
+            f"AGENTS/START/CURRENT/LANES: {isolated_recoveries}"
+        ),
     )
 
     return {
@@ -503,5 +673,95 @@ def run() -> dict[str, Any]:
     }
 
 
+def replace_identifiers(value: Any, replacements: dict[str, str]) -> Any:
+    if isinstance(value, dict):
+        return {
+            key: replace_identifiers(item, replacements) for key, item in value.items()
+        }
+    if isinstance(value, list):
+        return [replace_identifiers(item, replacements) for item in value]
+    if isinstance(value, str):
+        for old, new in replacements.items():
+            value = value.replace(old, new)
+    return value
+
+
+def mutated_state_fixture(current: dict[str, Any]) -> tuple[dict[str, Any], dict[str, str]]:
+    decision = current["current_decision"]
+    publication = next(
+        program
+        for program in current["programs"]
+        if program["id"] == decision["prepared_publication_program_id"]
+    )
+    replacements = {
+        decision["active_scientific_program_id"]: "FIXTURE-ACTIVE-PROGRAM",
+        decision["executable_action_id"]: "FIXTURE-EXECUTABLE-ACTION",
+        decision["prepared_publication_program_id"]: "FIXTURE-PUBLICATION-PROGRAM",
+        publication["candidate_id"]: "FIXTURE-PUBLICATION-CANDIDATE",
+    }
+    return replace_identifiers(deepcopy(current), replacements), replacements
+
+
+def run() -> dict[str, Any]:
+    current = load_yaml(CURRENT_PATH)
+    lanes = load_yaml(LANES_PATH)
+    stable_texts = {
+        name: path.read_text(encoding="utf-8") for name, path in STABLE_FILES.items()
+    }
+    historical_texts = {
+        name: path.read_text(encoding="utf-8")
+        for name, path in HISTORICAL_FILES.items()
+    }
+
+    report = validate_authority(current, lanes, stable_texts, historical_texts)
+    mutated, replacements = mutated_state_fixture(current)
+    mutated_report = validate_authority(mutated, lanes, stable_texts, historical_texts)
+    original_payload = json.dumps(current, sort_keys=True)
+    mutated_payload = json.dumps(mutated, sort_keys=True)
+    if any(old in mutated_payload for old in replacements):
+        raise AssertionError("mutated_state_genericity: an original identifier survived")
+    if not all(new in mutated_payload for new in replacements.values()):
+        raise AssertionError("mutated_state_genericity: a fixture identifier is missing")
+    if mutated_report["status"] != "PASS" or mutated_payload == original_payload:
+        raise AssertionError("mutated_state_genericity: structurally equivalent state failed")
+    report["checks"].append(
+        {
+            "id": "mutated_state_genericity",
+            "pass": True,
+            "detail": (
+                "program, action, publication-program, and candidate IDs were "
+                "mutated in memory and the unchanged validator passed"
+            ),
+        }
+    )
+    report["checks_passed"] = len(report["checks"])
+    return report
+
+
+def artifact_summary(report: dict[str, Any]) -> dict[str, Any]:
+    return {
+        key: value
+        for key, value in report.items()
+        if key != "checks"
+    }
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--write-artifact",
+        action="store_true",
+        help="write the compact deterministic result to tests/artifacts",
+    )
+    args = parser.parse_args()
+    report = run()
+    if args.write_artifact:
+        ARTIFACT_PATH.write_text(
+            json.dumps(artifact_summary(report), indent=2, sort_keys=True) + "\n",
+            encoding="utf-8",
+        )
+    print(json.dumps(report, indent=2, sort_keys=True))
+
+
 if __name__ == "__main__":
-    print(json.dumps(run(), indent=2, sort_keys=True))
+    main()

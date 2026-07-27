@@ -1,5 +1,6 @@
-current_research_contract_version: '1.0'
-state_revision: 1
+current_research_contract_version: '1.1'
+schema_ref: CURRENT-RESEARCH.schema.json
+state_revision: 2
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
@@ -18,6 +19,7 @@ non_authorities:
   - docs/certified-causal-reality-research-program.md
   - explorations/
   - lab/process/runs/
+  - runs/
 rules:
   scientific_flagship_wip_limit: 1
   bounded_side_probe_wip_limit: 1
@@ -47,11 +49,36 @@ status_enums:
     - extracts_from
     - external_dependency
     - does_not_block
+  dependency_target_type:
+    - program
+    - result
+    - premise
+    - prediction
+    - requirement
+    - external_work
+
+run_home_contract:
+  governed_run_home: lab/process/runs/
+  legacy_run_home: runs/
+  rule: >-
+    New governed work uses lab/process/runs/. The root runs/ directory is
+    preserved as non-routing historical evidence and receives no new runs.
+
+transition_protocol:
+  steps:
+    - Write or close the dated evidence and governed run receipt.
+    - Update current routing only in CURRENT-RESEARCH.yaml.
+    - Increment state_revision for every committed live-state transition.
+    - Validate the JSON Schema and semantic governance contract.
+    - Commit explicit paths, push without force, and finish the repository session.
+  history_rule: >-
+    Never rewrite dated evidence or historical manifests to make them current;
+    supersede them additively and route only through this file.
 
 current_decision:
   active_scientific_program_id: CCR-BRANCH-INVARIANT-ADJUDICATION
   executable_action_id: N5-PF-P5
-  publication_program_id: DU-PAPER-013-HARDENING
+  prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
     Complete Position 5 before selecting another scientific moonshot.
@@ -66,8 +93,8 @@ programs:
     execution_status: executable
     wip_slot: scientific_flagship
     active_work_id: N5-PF-P5
-    lane_ids:
-      - '1'
+    primary_lane_id: '1'
+    supporting_lane_ids:
       - '2'
       - '3'
       - '4'
@@ -89,11 +116,13 @@ programs:
       OPEN NORTH-STAR ADJUDICATION supported by exact scoped controls through
       HC-DU-057. The component mathematics is largely known or absorbed; no
       record-first ontology, new physical law, or grade-5 remainder is earned.
+    evidence_grade: null
     maximum_grade: >-
       SCOPED BRANCH-INVARIANT THEOREM, EXACT NON-UNIFICATION, OR CLEAN
       NO-EXCESS RESULT. Stronger ontology or new-physics language requires an
       independently selected finite discriminator beyond the admitted
       standard-physics completion class.
+    maximum_evidence_grade: 4
     premise_status: >-
       The exactly compensated continuous preferred foliation is held only as
       an ungraded conditional premise for this sequence. It supplies hidden
@@ -118,16 +147,26 @@ programs:
     typed_dependencies:
       - type: requires
         target: HC-DU-055
+        target_type: result
       - type: requires
         target: HC-DU-056
+        target_type: result
       - type: requires
         target: HC-DU-057
+        target_type: result
       - type: tests
         target: EXACTLY-COMPENSATED-PREFERRED-FOLIATION
+        target_type: premise
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
+        target_type: program
       - type: does_not_block
         target: COVARIANT-FINALITY-DYNAMICS
+        target_type: program
+    strongest_absorber: >-
+      After complete process, interface, access, finality, action, and resource
+      matching, every preferred-leaf description factors through the same
+      causal-partial-order operational quotient and removes no physical premise.
     cheapest_kill: >-
       Show that after complete process and interface matching every
       preferred-leaf description factors through the same causal-partial-order
@@ -150,6 +189,65 @@ programs:
       Execute N5-PF-P5 exactly as frozen in the preferred-foliation sequence
       scaffold.
     next_action_ref: explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
+    execution_packet:
+      action_id: N5-PF-P5
+      exact_question: >-
+        After complete process, interface, access, finality, action,
+        capability, resource, and target matching, what does a preferred
+        foliation change relative to a causal-partial-order description?
+      source_locator:
+        path: explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
+        heading: '## 13. Position 5 — cross-arena branch-invariant synthesis'
+      required_inputs:
+        - path: explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
+          role: frozen portfolio and premise map
+        - path: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
+          role: law, record, interface, and quotient controls
+        - path: explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
+          role: physical feedback and capability controls
+        - path: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+          role: regional finality and rate controls
+      unchanged_ledger_fields:
+        - physical completion/source
+        - primitive causal/operational order
+        - foliation/time orientation
+        - formed record/provenance
+        - observer/access interface
+        - regional finality/fault contract
+        - action/capability envelope
+        - resource horizon
+        - held-out target
+        - quotient/first witness
+        - strongest absorber
+      arena_roles:
+        - global-leaf positive representation
+        - causal-partial-order control
+        - physical record arena
+      expected_return_classes:
+        - BRANCH_INVARIANT_CERTIFIED_CAUSAL_REALITY_KERNEL
+        - SCOPED_FOLIATION_ASSISTED_RECONSTRUCTION
+        - SCOPED_FOLIATION_INTERFACE_SELECTION
+        - EXACT_FOLIATION_PARTIAL_ORDER_NON_UNIFICATION
+        - NO_EXCESS_CONTENT
+        - LEAKING_BRANCH_REQUIRED
+        - NORTH_STAR_PORTFOLIO_RESET
+      observer_index_return_classes:
+        - OPERATIONAL_AND_METHODOLOGICAL
+        - CONDITIONAL_ON_REJECTING_PREFERRED_FOLIATION
+        - THEOREM_SPECIFIC_DEPENDENCY
+      durable_output: >-
+        One dated Position-5 adjudication receipt and, only if exact local
+        computation changes the decision, one deterministic test artifact.
+      local_method: >-
+        Use formal comparison or the smallest exact counterexample only. Do
+        not add a host, simulator, hardware bridge, fitted interface, or
+        external dependency.
+      uses_program_controls:
+        - maximum_evidence_grade
+        - strongest_absorber
+        - cheapest_kill
+        - stop_rule
+        - local_computation_boundary
     canonical_evidence_refs:
       - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
       - explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
@@ -164,8 +262,8 @@ programs:
     execution_status: prepared
     wip_slot: publication
     candidate_id: DU-PAPER-013
-    lane_ids:
-      - '7'
+    primary_lane_id: '7'
+    supporting_lane_ids:
       - A
     channel_ids:
       - CH-FORMAL
@@ -179,9 +277,11 @@ programs:
       BOUNDED THEOREM WITH TWO INTERNAL PROOF ROUTES / CSG-SPECIFIC NOVELTY
       PROVISIONAL. General regular-variation and discrete-saddle methods are
       occupied.
+    evidence_grade: 4
     maximum_grade: >-
       SUBMISSION-READY SCOPED CSG COROLLARY after independent proof review and
       a systematic paper-grade collision.
+    maximum_evidence_grade: 4
     premise_status: >-
       Exact candidate named and Factory-seeded but unselected. Publication
       custody and scientific hardening remain distinct.
@@ -197,13 +297,17 @@ programs:
     typed_dependencies:
       - type: extracts_from
         target: CSG-POST-TAIL-PROOF-1
+        target_type: result
       - type: extracts_from
         target: CSG-POST-TAIL-PROOF-2
+        target_type: result
       - type: external_dependency
         target: DRAFTING-FACTORY-CUSTODY
+        target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
         target: CCR-BRANCH-INVARIANT-ADJUDICATION
+        target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
       CSG-specific bounded-precursor classification.
@@ -237,8 +341,8 @@ programs:
     candidate_ids:
       - PRED-DU-001
       - PRED-DU-002
-    lane_ids:
-      - '5'
+    primary_lane_id: '5'
+    supporting_lane_ids:
       - '7'
     channel_ids:
       - CH-FORMAL
@@ -251,9 +355,11 @@ programs:
     current_grade: >-
       SEAM / CONDITIONAL PREDICTIONS ONLY. HC-DU-057 preserves this as a
       logically distinct fourth rate class but derives none of its dynamics.
+    evidence_grade: 0
     maximum_grade: >-
       PHYSICAL THEORY OR FINITE PREDICTION only after the complete generator
       and empirical contract exist.
+    maximum_evidence_grade: 5
     premise_status: >-
       Mechanism absent. A hidden tick, consensus protocol, merge algebra, or
       fitted threshold does not supply the missing dynamics.
@@ -270,12 +376,16 @@ programs:
     typed_dependencies:
       - type: requires
         target: PHYSICAL-FINALITY-GENERATOR
+        target_type: requirement
       - type: tests
         target: PRED-DU-001
+        target_type: prediction
       - type: tests
         target: PRED-DU-002
+        target_type: prediction
       - type: does_not_block
         target: CCR-BRANCH-INVARIANT-ADJUDICATION
+        target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
       unitary/open-system memory model over the frozen intervention class.
@@ -303,9 +413,9 @@ programs:
     execution_status: none
     wip_slot: none
     candidate_id: SOURCE-IS-OBSERVER-COROLLARY
-    lane_ids:
+    primary_lane_id: '3'
+    supporting_lane_ids:
       - '2'
-      - '3'
       - '7'
     channel_ids:
       - CH-FORMAL
@@ -320,9 +430,11 @@ programs:
       supplies an internal fixpoint-free involution. Current GU evidence does
       not establish physical externality, a sigma-w1 identification, or
       exactly one external bit.
+    evidence_grade: 0
     maximum_grade: >-
       CONDITIONAL DYNAMIC COROLLARY after an earned substrate theorem and a
       non-stale physical underivability target.
+    maximum_evidence_grade: 4
     premise_status: >-
       The literal R4-to-monotonicity-to-fixpoint bridge is refuted, and the
       former external-Z2 dependency is unavailable. Repository custody does
@@ -338,9 +450,11 @@ programs:
     typed_dependencies:
       - type: external_dependency
         target: GU-SUBSTRATE-BRIDGE-ADJUDICATION
+        target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
         target: CCR-BRANCH-INVARIANT-ADJUDICATION
+        target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
       satisfying the corrected domain contract, or prove that the proposed

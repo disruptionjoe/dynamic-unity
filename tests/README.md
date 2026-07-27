@@ -9,12 +9,18 @@ deterministic governance/cold-start contract rather than a scientific assay.
 It parses `../CURRENT-RESEARCH.yaml` as the sole mutable research authority;
 enforces one active scientific flagship and executable action, one separately
 typed prepared publication candidate, parked-work reopeners, WIP limits, typed
-dependencies, acyclicity, evidence-reference integrity, and an unselected
-successor; checks that `../LANES.yaml` contains only stable lane/channel/grade
-topology; rejects copied live-routing assertions on stable surfaces; verifies
-historical guards, entrypoint links, and a bounded cold-start read. Passing
-establishes routing integrity only, never physics, ontology, novelty, or paper
-readiness.
+dependency target namespaces, normalized lanes and grades, acyclicity,
+evidence-reference integrity, an embedded execution packet, and an unselected
+successor. It validates `../CURRENT-RESEARCH.schema.json`; checks that
+`../LANES.yaml` contains only stable lane/channel/grade topology and the
+canonical structured charter; rejects copied live-routing assertions; verifies
+charter parity, run-home semantics, historical guards, entrypoint links, and a
+bounded context-isolated cold start. Its positive control mutates all current
+program/action/publication identifiers in memory and reruns the unchanged
+validator, proving current IDs are data rather than validator code. Use
+`--write-artifact` only when intentionally refreshing the compact deterministic
+receipt. Passing establishes routing integrity only, never physics, ontology,
+novelty, or paper readiness.
 
 `du_near_term_swing_approach_atlas_probe.py` is another method/governance
 check rather than a scientific assay. It verifies that the five-lens

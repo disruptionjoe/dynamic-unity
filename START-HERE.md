@@ -137,6 +137,8 @@ Neither file routes current work.
   defines durable scientific contracts.
 - [`explorations/`](explorations/) and [`lab/process/runs/`](lab/process/runs/)
   hold dated evidence and receipts. A dated “active” label is historical.
+- [`runs/`](runs/) is a preserved legacy receipt home. It is non-routing and
+  receives no new governed runs.
 
 Publication extraction is a separate WIP class. A prepared paper does not
 become a second scientific flagship and never promotes the underlying grade.
@@ -186,6 +188,7 @@ Parked work has no executable action and must carry an exact reopener.
 | Stable lane/channel topology | `LANES.yaml` |
 | Dated scientific result | `explorations/` |
 | Governed run plan/receipt | `lab/process/runs/` |
+| Legacy non-routing run receipt | `runs/` |
 | Deterministic probe | `tests/` and `tests/artifacts/` |
 | Durable program contract | `docs/` |
 | Paper source and portfolio | `papers/` |

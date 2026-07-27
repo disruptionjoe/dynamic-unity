@@ -25,8 +25,8 @@ duplicate assertion; do not silently choose the dated file.
 - **Vision:** build a living, ontology-neutral architecture in which quantum
   dynamics, records, observers, capabilities, spacetime, fields, particles,
   thermodynamics, and cosmology are related at their honestly earned
-  evidentiary grades—and use unresolved seams to locate, classify, dissolve,
-  or decisively test tensions in present physics.
+  evidentiary grades—and use the unresolved seams to locate, classify, dissolve,
+  or decisively test the tensions in present physics.
 - **Mission:** construct, formalize, stress-test, and prepare for publication
   faithful representations, reconstruction theorems, countermodels, no-go
   results, and empirical discriminators that connect—or sharply separate—
@@ -176,6 +176,8 @@ Do not create a lane for a method, persona, or temporary hypothesis.
 - **Scientific work uses governed runs.** Declare scope, run the repository
   session convention, preserve unrelated changes, validate proportionally,
   stage explicit paths, commit, push, and finish.
+- **Run homes are not interchangeable.** New governed runs live only in
+  `lab/process/runs/`; root `runs/` is non-routing legacy evidence.
 
 ## Cold-start work contract
 
