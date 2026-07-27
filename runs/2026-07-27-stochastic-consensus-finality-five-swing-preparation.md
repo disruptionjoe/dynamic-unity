@@ -7,7 +7,8 @@ authority: "Joe direct chat: prepare five swings using Science Council and distr
 scaffold: "../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md"
 next_work: N5-SCF-P1
 successor_result: HC-DU-047
-current_next_work: N5-SCF-P2
+second_successor_result: HC-DU-048
+current_next_work: N5-SCF-P3
 deferred_work: N5-RS-P2
 claim_state_change: none
 paper_state_change: none
@@ -63,9 +64,16 @@ cryptography does not prove the physical truth or completeness of its inputs
 boundary. “Absent from every participant individually” is not enough: XOR
 and threshold-secret-sharing correlations can make the joint tuple exact
 while every local marginal is uninformative. The valid no-minting premise is
-absence from the **complete joint admitted input**. The active successor is
-`N5-SCF-P2`, Synergy-Preserving Gossip/DAG Provenance and Knowledge. See
+absence from the **complete joint admitted input**. See
 [`HC-DU-047`](../explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md).
+
+`N5-SCF-P2` then completed as `HC-DU-048`. Lossless gossip pools
+source-formed synergy; signed hash-DAGs preserve declared ancestry and expose
+forks only after branches meet. Neither identifies physical source binding.
+Distributed knowledge, individual knowledge, common knowledge, total order,
+and action safety remain separate receipts. The active successor is now
+`N5-SCF-P3`, Provenance-Preserving Metastable-to-Byzantine Hardening. See
+[`HC-DU-048`](../explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md).
 
 Distributed layers then add different typed guarantees:
 

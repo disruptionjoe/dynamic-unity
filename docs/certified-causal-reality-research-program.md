@@ -1513,9 +1513,9 @@ portfolio pivot. Joe subsequently interposed the
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
 to separate stochastic amplification, propagation, DAG knowledge,
 metastability, Byzantine/cryptographic hardening, complexity emergence, and
-capability-relative views before the pivot. `N5-SCF-P1` is complete as
-`HC-DU-047`; only `N5-SCF-P2` is executable. `N5-RS-P2` is deferred rather
-than canceled.
+capability-relative views before the pivot. `N5-SCF-P1/2` are complete as
+`HC-DU-047/048`; only `N5-SCF-P3` is executable. `N5-RS-P2` is deferred
+rather than canceled.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -1643,8 +1643,60 @@ consensus theorem, cryptographic primitive, emergence law, physics result, or
 ontology. See
 `../explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md`.
 
-The sole next work object is `N5-SCF-P2`,
-Synergy-Preserving Gossip/DAG Provenance and Knowledge.
+`N5-SCF-P2` consumes this correction as `HC-DU-048`.
+
+### `HC-DU-048` — Synergy-Preserving Gossip, DAG Provenance, and Knowledge
+
+Let the synergy source be:
+
+\[
+R_1=U,\qquad R_2=T\oplus U,
+\]
+
+for independent uniform \(T,U\), and let the null source have independent
+uniform \(T,R_1,R_2\). The complete payload pair is uniform in both worlds.
+Therefore every fixed downstream protocol artifact constructed only from
+the event tuple—including ideal signatures, parent hashes, a complete
+admitted DAG, deterministic DAG-derived votes, or total order—has the same
+law in both worlds. Yet:
+
+\[
+P(T=R_1\oplus R_2)=1
+\]
+
+in the synergy world and \(1/2\) in the null world. Signed propagation
+authenticates declared events and ancestry; it does not identify physical
+source binding.
+
+Lossless delivery of both shares reconstructs \(T\) exactly. A partitioned
+one-share view, an eclipse view containing two copies of one origin, or churn
+without retention has Bayes error \(1/2\). Thus gossip converts
+source-group distributed knowledge into one recipient's individual
+knowledge; it does not mint the target.
+
+Endpoint payloads and total order do not identify route. A retained
+parent-hash DAG identifies declared ancestry under its cryptographic
+premises. Raw path length changes under benign relay insertion, while
+reachability from the distinguished source events to the terminal event is
+invariant. Signed creator labels identify declared key-origin rank, not
+physical independence. A fork becomes attributable only in a view containing
+both incompatible signed branches; local absence of a fork is not global
+non-equivocation.
+
+Finite asynchronous acknowledgment chains retain the last-message
+obstruction to common knowledge. An event-bound zero-knowledge proof can
+certify a declared consistency relation without disclosing its witnesses,
+but physical truth remains open unless the physical target-to-commitment map
+is an independently admitted source interface.
+
+The result is known component mathematics organized as one scoped
+formation--joint-information--propagation--declared-provenance--knowledge--
+action boundary. It is not a new gossip, Hashgraph, consensus,
+common-knowledge, cryptographic, emergence, or physical theorem. See
+`../explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md`.
+
+The sole next work object is `N5-SCF-P3`,
+Provenance-Preserving Metastable-to-Byzantine Hardening.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -3109,6 +3161,16 @@ individual insufficiency is not enough: source-formed XOR or secret-sharing
 correlations can make occurrence jointly exact while every local marginal is
 uninformative. The next route must therefore audit joint source formation and
 provenance, not merely local record completeness or replica count.
+`HC-DU-048` executes that audit through the first propagation layer.
+Lossless gossip pools complementary source information and changes recipient
+capability. Ideal signed hash-DAGs preserve declared origin and ancestry and
+make an encountered fork attributable, but the matched synergy/null pair
+proves that they do not identify physical source binding. Distributed
+knowledge, individual knowledge, common knowledge, total order, and
+action-safe certification remain distinct. The next route must test whether
+metastable and Byzantine/threshold hardening preserve those typed receipts or
+compress away the provenance required to distinguish duplication,
+equivocation, and an unbound null source.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
 is complete. Redundant records of consistent histories, quantum trajectories,
@@ -3119,9 +3181,9 @@ The prepared
 initially queued `N5-RS-P2`, the minimum-premise compiler and whole-DU
 portfolio pivot. The interposed
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
-has completed `N5-SCF-P1` as `HC-DU-047`. It now advances only
-`N5-SCF-P2`, Synergy-Preserving Gossip/DAG Provenance and Knowledge. It does
-not pre-activate later `N5-SCF` positions; `N5-RS-P2` remains deferred.
+has completed `N5-SCF-P1/2` as `HC-DU-047/048`. It now advances only
+`N5-SCF-P3`, Provenance-Preserving Metastable-to-Byzantine Hardening. It
+does not pre-activate later `N5-SCF` positions; `N5-RS-P2` remains deferred.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3811,7 +3873,14 @@ PAIRWISE STATISTICS DO NOT DETERMINE THRESHOLD TAILS
 STIGMERGIC REPLICATION PRESERVES THE FORMATION-ERROR FLOOR
 ZERO KNOWLEDGE SECURE COMPUTATION AND THRESHOLD AUTHORITY DO NOT CERTIFY OMITTED PHYSICAL INPUTS
 NO UNIVERSAL EFFECTIVE-SUPPORT SCALAR EARNED
-N5-SCF-P2 SYNERGY-PRESERVING GOSSIP DAG PROVENANCE AND KNOWLEDGE NEXT
+HC-DU-048 SYNERGY-PRESERVING GOSSIP AND SOURCE-BINDING NONIDENTIFIABILITY EXACT
+LOSSLESS POOLING TURNS DISTRIBUTED KNOWLEDGE INTO RECIPIENT CAPABILITY
+SIGNED HASH-DAG PRESERVES DECLARED ANCESTRY NOT PHYSICAL SOURCE TRUTH
+ENDPOINT ORDER AND RAW HOP COUNT DO NOT RECONSTRUCT SUBDIVISION-INVARIANT PROVENANCE
+MERGED SIGNED BRANCHES PROVE EQUIVOCATION; LOCAL ABSENCE DOES NOT PROVE NON-EQUIVOCATION
+FINITE ASYNCHRONOUS ACKNOWLEDGMENTS DO NOT CREATE COMMON KNOWLEDGE
+EVENT-BOUND ZERO KNOWLEDGE CERTIFIES A DECLARED RELATION NOT AN UNMODELED PHYSICAL TARGET
+N5-SCF-P3 PROVENANCE-PRESERVING METASTABLE-TO-BYZANTINE HARDENING NEXT
 N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT DEFERRED
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING

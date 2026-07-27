@@ -2349,10 +2349,24 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   population and sample size. The result corrects the earlier wording from
   “absent from every participant” to “absent from the complete joint
   admitted input.”
-- **Next discriminator.** `N5-SCF-P2` asks what plain gossip, signed gossip,
-  hash-DAG ancestry, and privacy-preserving provenance proofs must preserve
-  to distinguish source-formed joint sufficiency from coincidental,
-  duplicated, or target-independent values.
+- **2026-07-27 propagation/provenance boundary.** `HC-DU-048` proves that a
+  source-bound XOR world and a target-independent null world can have the
+  same complete payload-pair law and therefore the same fixed signed-DAG
+  artifact law. Lossless gossip pools the complementary shares and turns
+  distributed knowledge into recipient capability. Parent hashes preserve
+  declared ancestry and a merged view can expose signed equivocation, but
+  signatures do not identify physical source binding or independence.
+  Endpoint value and total order do not reconstruct route; raw path length
+  fails benign-subdivision naturality while original-event reachability
+  survives. Finite asynchronous acknowledgment does not create common
+  knowledge, and an event-bound zero-knowledge proof certifies its declared
+  relation rather than an unmodeled physical target.
+- **Next discriminator.** `N5-SCF-P3` asks whether an Avalanche-like
+  preference layer and a Byzantine/quorum/threshold hardening layer can
+  preserve source binding, declared origin, route ancestry, and the first
+  equivocation witness while changing rollback and action safety—or whether
+  certificate compression erases the provenance the upper-layer claim
+  needs.
 - **Nearest terrain.** Function factorization, Blackwell comparison,
   data processing, concentration under dependence, multivariate synergy,
   secret sharing, zero knowledge, secure computation, threshold
@@ -2360,10 +2374,15 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   Potential DU value lies in the unchanged physical
   formation--joint-sufficiency--provenance--capability contract.
 - **Status:** **CONCEPT-OPEN / JOINT-INPUT NO-MINTING AND SYNERGISTIC-RECOVERY
-  CONTROLS INSTALLED / NO UNIVERSAL EFFECTIVE-SUPPORT SCALAR / GOSSIP-DAG
-  PROVENANCE COLLISION NEXT / NO CONSENSUS NOVELTY, STRONG EMERGENCE,
-  ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER PROMOTION.** See
-  `joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md`.
+  CONTROLS INSTALLED / NO UNIVERSAL EFFECTIVE-SUPPORT SCALAR /
+  SYNERGY-PRESERVING GOSSIP AND DECLARED-DAG-PROVENANCE BOUNDARY INSTALLED /
+  PHYSICAL SOURCE BINDING AND COMMON KNOWLEDGE REMAIN SEPARATE /
+  METASTABLE-TO-BYZANTINE PROVENANCE COMPOSITION NEXT / NO CONSENSUS
+  NOVELTY, STRONG EMERGENCE, ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER
+  PROMOTION.** See
+  `joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md`
+  and
+  `synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 81
+manifest_revision: 82
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -89,14 +89,17 @@ stochastic_consensus_finality_sequence_rule: >-
   homomorphic/MPC and threshold/DKG cryptographers. It preserves HC-DU-035A/035C and asks what
   amplification, propagation, provenance, metastability, hard finality, cryptographic
   verification, concealed computation and capability-relative filtering can add without
-  creating information absent from the complete joint admitted input. N5-SCF-P1 is complete as
-  HC-DU-047. It proves deterministic and stochastic joint-input no-minting while correcting the
+  creating information absent from the complete joint admitted input. N5-SCF-P1/2 are complete as
+  HC-DU-047/048. HC-DU-047 proves deterministic and stochastic joint-input no-minting while correcting the
   individual-input overreach: XOR and threshold-secret-sharing correlations can be jointly
   exact while every local marginal is target-independent. IID evidence amplifies; copied,
   common-shock, clustered, higher-order-dependent, stigmergic and adversarially sampled evidence
-  obey separately frozen bounds, and no universal effective-support scalar is earned. Only
-  N5-SCF-P2, Synergy-Preserving Gossip/DAG Provenance and Knowledge, is executable. Positions 3
-  through 5 remain conditional. Position 5 must collide the unchanged typed stack with one DU
+  obey separately frozen bounds, and no universal effective-support scalar is earned. HC-DU-048
+  proves that lossless gossip can pool complementary source information and signed hash-DAGs can
+  preserve declared ancestry and encountered equivocation evidence, while physical source binding,
+  common knowledge, total order and action safety remain separate. Only N5-SCF-P3,
+  Provenance-Preserving Metastable-to-Byzantine Hardening, is executable. Positions 4 through 5
+  remain conditional. Position 5 must collide the unchanged typed stack with one DU
   physical arena and hand a resume/retype/retire recommendation to deferred N5-RS-P2. No model,
   hardware, paper, prediction or physics claim is promoted.
 endogenous_record_mechanism_tournament_ref: >-
@@ -166,8 +169,8 @@ metastable_host_robustness_result_rule: >-
   factor through that antecedent. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION, retain
   MARKOV_OPERATIONAL_CLOSURE as the positive control, and treat A-plus-H repair as
   INJECTIVE_TOMOGRAPHY_ONLY. N5-RS-P2 was the initially queued portfolio pivot, but Joe has
-  interposed N5-SCF. HC-DU-047 has completed Position 1. Advance only N5-SCF-P2 and do not fit
-  another archive to this host.
+  interposed N5-SCF. HC-DU-047/048 have completed Positions 1 and 2. Advance only N5-SCF-P3 and
+  do not fit another archive to this host.
 joint_input_amplification_result_ref: >-
   explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md
 joint_input_amplification_result_rule: >-
@@ -181,8 +184,21 @@ joint_input_amplification_result_rule: >-
   tails. Stigmergic replication approaches its trace-formation error floor. Zero knowledge,
   FHE/MPC and threshold cryptography alter verification, computation, disclosure or authority
   without certifying a physical target absent from the complete joint input. Treat effective
-  support as model-relative. Advance only N5-SCF-P2, which tests what gossip/DAG provenance
-  preserves across synergy and null source worlds.
+  support as model-relative. HC-DU-048 now tests gossip/DAG propagation and provenance across
+  matched synergy and null source worlds. Advance only N5-SCF-P3.
+synergy_gossip_dag_provenance_result_ref: >-
+  explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
+synergy_gossip_dag_provenance_result_rule: >-
+  A source-bound XOR world and a target-independent null world have the same complete payload law
+  and therefore the same fixed signed-DAG artifact law. Lossless gossip pools complementary source
+  information and turns distributed knowledge into recipient capability. Ideal signatures and
+  parent hashes preserve declared origin and ancestry and a merged view can expose signed
+  equivocation, but they do not identify physical source binding, physical independence, hidden
+  branches or literal common knowledge. Endpoint value and total order do not identify route; raw
+  path length fails benign-subdivision naturality while reachability among distinguished original
+  events survives. An event-bound zero-knowledge proof certifies its declared relation, not an
+  unmodeled physical target. Advance only N5-SCF-P3, Provenance-Preserving
+  Metastable-to-Byzantine Hardening.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -609,8 +625,10 @@ lanes:
     interposed the N5-SCF stochastic/consensus/complexity/cryptography sequence before the
     N5-RS-P2 portfolio pivot. Consume HC-DU-047: no downstream layer recovers a target absent
     from the complete joint input, but source-formed complementary shares can be jointly
-    sufficient while every local marginal is uninformative. Advance only N5-SCF-P2; N5-RS-P2
-    and its later positions remain deferred and conditional.
+    sufficient while every local marginal is uninformative. Consume HC-DU-048: gossip can pool
+    those shares and a signed DAG can preserve declared ancestry, while physical source binding,
+    common knowledge, ordering and action safety remain separate. Advance only N5-SCF-P3;
+    N5-RS-P2 and its later positions remain deferred and conditional.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -789,9 +807,11 @@ lanes:
     inside the visible epoch record. HC-DU-046 closes the host under horizon, weighting,
     relabeling, subdivision, approximate leakage and archive relocation. HC-DU-047 proves
     joint-input no-minting, exact synergistic-recovery controls and dependency-sensitive
-    amplification. Advance only N5-SCF-P2, the synergy-preserving gossip/DAG provenance and
-    knowledge boundary. N5-RS-P2 is deferred behind the five-swing N5-SCF sequence. Do not
-    begin another mechanism-specific card independently.
+    amplification. HC-DU-048 proves synergy-preserving propagation, declared-DAG provenance,
+    fork-visibility and knowledge-layer separation while leaving physical source binding open.
+    Advance only N5-SCF-P3, provenance-preserving metastable-to-Byzantine hardening. N5-RS-P2
+    is deferred behind the five-swing N5-SCF sequence. Do not begin another mechanism-specific
+    card independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -1015,7 +1035,13 @@ lanes:
     specimen closes endogenous strict-compression reconstruction. Advance H-CCR-17 or its
     obstruction rather than repeating supplied quotient controls. The prepared ECR-N5 sequence
     reaches regional finality only after selection, physical writing and strict compression have
-    been earned in one arena; only its first tournament is next executable.
+    been earned in one arena. Consume HC-DU-047/048 before any distributed hardening claim:
+    individually insufficient records may become target-sufficient only when pooled; gossip
+    preserves that synergy without identifying its physical source; a signed parent DAG preserves
+    declared ancestry but neither route nor controller independence; and delivery, reconstruction,
+    provenance, equivocation evidence, distributed knowledge, individual knowledge, common
+    knowledge, ordering and action safety are distinct predicates. Advance only N5-SCF-P3,
+    provenance-preserving metastable-to-Byzantine hardening; N5-RS-P2 remains deferred.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -1026,6 +1052,8 @@ lanes:
   - CH-COLLIDE
   canonical_refs:
   - docs/certified-causal-reality-research-program.md
+  - explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
+  - tests/du_synergy_gossip_dag_provenance_probe.py
   - tests/du_regional_finality_descent_probe.py
   - tests/du_record_formation_composition_probe.py
   - explorations/certified-reconstruction-fiber-theorem-and-hostile-regional-case-2026-07-26.md
@@ -1129,7 +1157,9 @@ lanes:
     the failure is robust and that the host cannot select an interface changed by archive
     relocation while its own antecedent stays fixed. HC-DU-047 adds that local insufficiency
     does not imply joint insufficiency, while any target absent from the complete joint input
-    stays absent downstream. Advance only N5-SCF-P2; N5-RS-P2 is deferred behind the
+    stays absent downstream. HC-DU-048 adds that gossip can pool complementary source
+    information and a signed DAG preserves declared rather than physical provenance. Advance
+    only N5-SCF-P3; N5-RS-P2 is deferred behind the
     stochastic/consensus/complexity/cryptography sequence.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
@@ -1269,8 +1299,10 @@ lanes:
     completes the robustness adjudication, closes this host as
     SELECTION_OR_FORMATION_OBSTRUCTION, and leaves H-CCR-17 open outside it. HC-DU-047 adds
     the joint-input no-minting and synergistic-recovery boundary without paper or prediction
-    promotion. Advance only N5-SCF-P2; the N5-RS-P2 minimum-premise and whole-DU portfolio
-    pivot is deferred until N5-SCF returns its cross-arena handoff.
+    promotion. HC-DU-048 adds the synergy-preserving gossip, declared-DAG-provenance and
+    knowledge-layer boundary without paper or prediction promotion. Advance only N5-SCF-P3;
+    the N5-RS-P2 minimum-premise and whole-DU portfolio pivot is deferred until N5-SCF returns
+    its cross-arena handoff.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1322,9 +1354,10 @@ lanes:
     the first completed cycle and every longer horizon; full environment repair is injective
     and resource-expanded. Preserve the host verdict
     SELECTION_OR_FORMATION_OBSTRUCTION and the prepared N5-RS sequence without treating it as a
-    parallel campaign. Preserve completed HC-DU-047 and its individual-versus-joint
-    insufficiency correction. Preserve the interposed N5-SCF sequence and make only N5-SCF-P2
-    executable; N5-RS-P2 remains deferred.
+    parallel campaign. Preserve completed HC-DU-047/048 and their
+    individual-versus-joint-insufficiency, synergy-preserving propagation, declared-provenance
+    and knowledge-layer corrections. Preserve the interposed N5-SCF sequence and make only
+    N5-SCF-P3 executable; N5-RS-P2 remains deferred.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1335,6 +1368,8 @@ lanes:
   canonical_refs:
   - AGENTS.md
   - explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
+  - explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md
+  - tests/du_synergy_gossip_dag_provenance_probe.py
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - START-HERE.md
   - LANES.yaml
@@ -5314,6 +5349,20 @@ provenance:
     exact certificate passes 24/24. Only N5-SCF-P2, Synergy-Preserving Gossip/DAG Provenance
     and Knowledge, is executable. N5-RS-P2 remains deferred. No paper, prediction, new physics,
     model, hardware, provider, submission, publication or external-contact state changed.
+  rev82_note: >-
+    2026-07-27 (Joe direct chat: Go): completed N5-SCF-P2 as HC-DU-048. A
+    source-bound XOR world and a target-independent null world have the same complete payload
+    law and therefore the same fixed signed-DAG artifact law. Lossless gossip pools
+    complementary source information and turns distributed knowledge into recipient
+    capability. Ideal signatures and parent hashes preserve declared origin and ancestry and a
+    merged view can expose signed equivocation, but they do not identify physical source
+    binding, physical independence, hidden branches or literal common knowledge. Endpoint value
+    and total order do not identify route; raw path length fails benign-subdivision naturality
+    while original-event reachability survives. Event-bound zero knowledge certifies a
+    declared relation rather than an unmodeled physical target. The exact certificate passes
+    34/34. Only N5-SCF-P3, Provenance-Preserving Metastable-to-Byzantine Hardening, is
+    executable. N5-RS-P2 remains deferred. No paper, prediction, new physics, model, hardware,
+    provider, submission, publication or external-contact state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"

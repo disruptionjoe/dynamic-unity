@@ -1874,3 +1874,45 @@ dependence, stigmergy, sampling, and cryptographic boundaries. It is not a
 network simulator, a cryptographic implementation, a physical model, a
 universal effective-support law, new physics, a prediction, a paper
 promotion, or authority for hardware or external action.
+
+## HC-DU-048 synergy-preserving gossip, DAG provenance, and knowledge
+
+`du_synergy_gossip_dag_provenance_probe.py` preserves the exact finite
+controls behind the propagation/provenance Position-2 result:
+
+- a source-bound XOR world and a target-independent null world have the same
+  complete payload-pair law and the same fixed ideal signed-DAG artifact law;
+- lossless delivery of both shares reconstructs the target, while partition,
+  duplicated-origin eclipse, and churn without retention leave Bayes error
+  \(1/2\);
+- endpoint payload and source order do not identify route, while retained
+  parent links identify declared ancestry;
+- raw path length changes under benign relay insertion, while reachability
+  between distinguished original source and terminal events survives;
+- signed labels distinguish declared key-origin rank but not physical source
+  independence;
+- partitioned views miss a fork that a merged signed view proves;
+- the source group has distributed knowledge before any member knows the
+  target, and pooling converts that information into recipient capability;
+- every tested finite asynchronous acknowledgment chain retains a
+  false-proposition world in the common-knowledge component;
+- total order does not identify source truth;
+- an event-bound proof certifies a declared relation but not an unmodeled
+  physical target; and
+- a shared trace may preserve target sufficiency while compressing or losing
+  formation provenance.
+
+Run:
+
+```bash
+python3 tests/du_synergy_gossip_dag_provenance_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_synergy_gossip_dag_provenance_result.json` and reports `34/34`.
+Passing is regression coverage for the analytic information-factorization,
+declared-provenance, reachability, epistemic, and statement-binding
+boundaries. It is not a network simulator, Hashgraph implementation,
+cryptographic implementation, physical model, consensus novelty, common-
+knowledge theorem, new physics, a prediction, a paper promotion, or authority
+for hardware or external action.

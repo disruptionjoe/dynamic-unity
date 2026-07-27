@@ -1,0 +1,248 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "(0, 0)": "1/4",
+        "(0, 1)": "1/4",
+        "(1, 0)": "1/4",
+        "(1, 1)": "1/4"
+      },
+      "name": "synergy_and_null_worlds_have_identical_joint_payload_law",
+      "passed": true
+    },
+    {
+      "detail": "each one-share Bayes error is 1/2",
+      "name": "synergy_individual_views_are_target_independent",
+      "passed": true
+    },
+    {
+      "detail": "T = R1 xor R2",
+      "name": "synergy_joint_view_recovers_target",
+      "passed": true
+    },
+    {
+      "detail": "same payload law, but physical T is independent",
+      "name": "null_joint_view_remains_target_independent",
+      "passed": true
+    },
+    {
+      "detail": "payloads, ideal signatures, parent hashes, derived vote shadow, and source order match",
+      "name": "matched_signed_dag_artifact_law_cannot_identify_source_binding",
+      "passed": true
+    },
+    {
+      "detail": "protocol artifacts authenticate declared events, not the physical target relation",
+      "name": "same_dag_artifact_supports_different_target_relations",
+      "passed": true
+    },
+    {
+      "detail": "no signature or total order is required to decode the XOR target",
+      "name": "lossless_plain_gossip_of_both_shares_preserves_joint_sufficiency",
+      "passed": true
+    },
+    {
+      "detail": "one source route is unavailable",
+      "name": "partitioned_one_share_view_remains_insufficient",
+      "passed": true
+    },
+    {
+      "detail": "two delivered copies, one informational origin",
+      "name": "eclipse_duplicate_origin_does_not_replace_missing_share",
+      "passed": true
+    },
+    {
+      "detail": "risk falls only when the complementary share arrives",
+      "name": "delayed_merge_changes_access_time_not_source_truth",
+      "passed": true
+    },
+    {
+      "detail": "a restarted terminal seeing only the later share cannot decode",
+      "name": "churn_without_retention_loses_the_earlier_share",
+      "passed": true
+    },
+    {
+      "detail": "direct and relayed routes deliver the same ordered source values",
+      "name": "endpoint_payload_and_source_order_do_not_identify_route",
+      "passed": true
+    },
+    {
+      "detail": "retained parent links separate the two declared communication histories",
+      "name": "signed_parent_dag_identifies_declared_route",
+      "passed": true
+    },
+    {
+      "detail": {
+        "direct": [
+          1,
+          1
+        ],
+        "relayed": [
+          2,
+          2
+        ]
+      },
+      "name": "raw_path_length_changes_under_benign_relay_insertion",
+      "passed": true
+    },
+    {
+      "detail": "reachability is invariant although node, edge, and hop counts change",
+      "name": "source_to_terminal_reachability_survives_relay_subdivision",
+      "passed": true
+    },
+    {
+      "detail": "same values in the same order",
+      "name": "payload_only_view_cannot_identify_declared_origin_rank",
+      "passed": true
+    },
+    {
+      "detail": "key labels distinguish one versus two declared origins",
+      "name": "signed_origin_labels_identify_declared_origin_rank",
+      "passed": true
+    },
+    {
+      "detail": {
+        "physical_controller_ranks": {
+          "independent-controllers": 2,
+          "shared-controller": 1
+        },
+        "same_signed_artifact": [
+          [
+            "source-1",
+            0
+          ],
+          [
+            "source-2",
+            1
+          ]
+        ]
+      },
+      "name": "declared_origin_rank_does_not_prove_physical_independence",
+      "passed": true
+    },
+    {
+      "detail": "each side sees one validly attributed branch",
+      "name": "partitioned_views_do_not_locally_detect_equivocation",
+      "passed": true
+    },
+    {
+      "detail": "same declared creator and sequence, incompatible signed event digests",
+      "name": "merged_signed_view_contains_an_equivocation_proof",
+      "passed": true
+    },
+    {
+      "detail": "a hidden branch is compatible with the local view",
+      "name": "local_absence_of_a_fork_is_not_global_non_equivocation",
+      "passed": true
+    },
+    {
+      "detail": "each local information partition crosses both target values",
+      "name": "neither_source_individually_knows_the_synergy_target",
+      "passed": true
+    },
+    {
+      "detail": "the intersection of the two local information partitions fixes T",
+      "name": "pooled_source_information_is_distributed_knowledge",
+      "passed": true
+    },
+    {
+      "detail": "a recipient holding both source records can act on T",
+      "name": "gossip_pooling_turns_distributed_into_recipient_knowledge",
+      "passed": true
+    },
+    {
+      "detail": {
+        "0": "false-proposition world remains epistemically reachable",
+        "1": "false-proposition world remains epistemically reachable",
+        "2": "false-proposition world remains epistemically reachable",
+        "3": "false-proposition world remains epistemically reachable",
+        "4": "false-proposition world remains epistemically reachable",
+        "5": "false-proposition world remains epistemically reachable",
+        "6": "false-proposition world remains epistemically reachable",
+        "7": "false-proposition world remains epistemically reachable",
+        "8": "false-proposition world remains epistemically reachable"
+      },
+      "name": "every_tested_finite_async_ack_chain_lacks_common_knowledge",
+      "passed": true
+    },
+    {
+      "detail": "ordering chooses a sequence; it does not attest the physical target relation",
+      "name": "same_total_order_can_hold_in_synergy_and_null_worlds",
+      "passed": true
+    },
+    {
+      "detail": "existence alone does not bind a proof to the delivered source events",
+      "name": "unbound_existential_xor_statement_is_vacuous_for_each_target",
+      "passed": true
+    },
+    {
+      "detail": "binding event digests and a target commitment distinguishes valid from invalid statements",
+      "name": "event_bound_relation_certificate_checks_the_declared_predicate",
+      "passed": true
+    },
+    {
+      "detail": "the same statement proof is compatible with different physical targets",
+      "name": "valid_relation_proof_does_not_attest_an_unmodeled_physical_target",
+      "passed": true
+    },
+    {
+      "detail": "action safety is relative to the bound statement, setup, keys, and fault model",
+      "name": "certificate_can_enable_statement_relative_action_without_physical_truth",
+      "passed": true
+    },
+    {
+      "detail": "the environmental trace must retain both shares or an equivalent sufficient statistic",
+      "name": "intact_pair_trace_preserves_synergy_but_adds_an_archive",
+      "passed": true
+    },
+    {
+      "detail": "target sufficiency survives while pair provenance is compressed",
+      "name": "parity_trace_reconstructs_synergy_while_erasing_source_pair",
+      "passed": true
+    },
+    {
+      "detail": "trace semantics depend on source formation, not the mark alphabet alone",
+      "name": "same_parity_trace_is_useless_in_the_null_world",
+      "passed": true
+    },
+    {
+      "detail": {
+        "erased_trace_target_error": "1/2",
+        "same_mark_distinct_origins": [
+          [
+            "formed-by-sources",
+            1
+          ],
+          [
+            "forged-by-adversary",
+            1
+          ]
+        ]
+      },
+      "name": "evaporated_or_forged_unattributed_trace_cannot_certify_origin",
+      "passed": true
+    }
+  ],
+  "checks_passed": 34,
+  "checks_total": 34,
+  "claim_id": "HC-DU-048",
+  "first_identifiable_layer": {
+    "action_safety": "a task-, statement-, setup-, and adversary-relative certificate",
+    "authenticated_declared_origin": "ideal signed source event",
+    "common_knowledge": "not attained by any finite asynchronous acknowledgment chain in the tested family",
+    "declared_route_ancestry": "retained parent-hash DAG",
+    "distributed_knowledge": "source group before pooling; the intersection of local information partitions",
+    "equivocation_evidence": "one view containing both incompatible signed branches",
+    "event_delivery": "recipient view containing the event",
+    "individual_knowledge": "recipient after both complementary shares arrive and remain retained",
+    "joint_target_reconstruction": "first retained view containing both synergy shares",
+    "physical_source_truth": "not identified without an independently admitted formation or attestation channel",
+    "total_order": "a separately specified consensus/order rule under its own fault assumptions"
+  },
+  "grade": "scoped exact finite classification from known information-factorization, signed-DAG, graph-reachability, epistemic-logic, and statement-binding controls",
+  "local_model_gate": {
+    "disposition": "PROOF_CERTIFICATE_OUTSIDE_RESEARCH_MODEL_ADMISSION",
+    "reason": "the analytic finite theorems and counterexamples are stated independently; the script only checks exact finite information partitions, event projections, reachability, and epistemic components"
+  },
+  "run_id": "N5-SCF-P2",
+  "status": "PASS"
+}

@@ -1,13 +1,13 @@
 ---
 title: "Next five-swing scaffold: stochastic amplification, layered consensus, and capability-relative finality"
-status: position_1_complete__position_2_executable
+status: positions_1_and_2_complete__position_3_executable
 doc_type: inline_eighteen_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: interpose a stochastic/distributed-systems preparation before N5-RS-P2"
 sequence_id: N5-SCF
-active_position: N5-SCF-P2
+active_position: N5-SCF-P3
 run_plan: "../runs/2026-07-27-stochastic-consensus-finality-five-swing-preparation.md"
-claim_status_change: "N5-SCF-P1 complete as HC-DU-047; N5-SCF-P2 executable"
+claim_status_change: "N5-SCF-P1/2 complete as HC-DU-047/048; N5-SCF-P3 executable"
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -26,10 +26,10 @@ P4  model capability-relative views through MMO-style interest management and ne
 P5  apply the typed stack to a DU physical-record arena and extract a theorem or exact non-unification
 ```
 
-Position 1 is complete as `HC-DU-047`. Position 2 is now executable under
-identity `N5-SCF-P2`. Positions 3--5 remain conditional work packages and
-receive run identities only after the preceding result fixes the smallest
-useful arena and stop condition.
+Positions 1 and 2 are complete as `HC-DU-047/048`. Position 3 is now
+executable under identity `N5-SCF-P3`. Positions 4--5 remain conditional work
+packages and receive run identities only after the preceding result fixes the
+smallest useful arena and stop condition.
 
 This sequence does not assume that consensus creates truth, that quantum
 systems vote, or that the universe implements a distributed database. Its
@@ -46,6 +46,13 @@ joint insufficiency: XOR and threshold-secret-sharing correlations can make a
 target exactly recoverable from the tuple while every participant marginal
 is target-independent. The correct no-minting premise is failure on the
 joint-input fibres.
+
+`HC-DU-048` then follows the XOR source through propagation and provenance.
+Lossless gossip can pool complementary shares and turn distributed knowledge
+into individual capability. Signed hash-DAGs can preserve declared ancestry
+and expose an encountered fork. Neither identifies whether the source
+correlation was physically target-binding. Literal common knowledge, total
+order, and action safety are separate receipts.
 
 `N5-RS-P2`, the minimum-premise compiler and whole-DU portfolio pivot, is
 deferred rather than canceled. Position 5 must hand it a sharper premise
@@ -460,6 +467,36 @@ decision-changing finite case unresolved.
 
 ## 8. Position 2 — propagation, DAG knowledge, and provenance
 
+### Completion receipt
+
+Position 2 is complete as
+[`HC-DU-048`](synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md).
+
+It returns:
+
+```text
+SYNERGY_PRESERVED_BY_LOSSLESS_POOLING
+SIGNED_DAG_DECLARED_PROVENANCE_ONLY
+DISTRIBUTED_KNOWLEDGE_SEPARATED_FROM_COMMON_KNOWLEDGE
+PHYSICAL_SOURCE_BINDING_NOT_IDENTIFIED
+```
+
+The synergy and null worlds have identical complete payload-pair laws and
+therefore identical fixed signed-DAG artifact laws, but only the synergy
+world binds \(T=R_1\oplus R_2\). Plain gossip of both shares reconstructs the
+target. Partitions, duplicated-origin eclipse, and churn without retention
+leave Bayes error \(1/2\). Parent hashes recover declared route ancestry;
+endpoint values and total order do not. Raw hop count fails relay-subdivision
+naturality while source-to-terminal reachability survives. Signed forks are
+attributable only after incompatible branches meet. The source group has
+distributed knowledge before any member individually knows the target, and
+finite asynchronous acknowledgment chains retain the common-knowledge
+obstruction. Event-bound proofs certify declared relations, not an unmodeled
+physical target.
+
+The 34/34 exact certificate is
+`tests/artifacts/du_synergy_gossip_dag_provenance_result.json`.
+
 ### Identity
 
 ```text
@@ -514,35 +551,63 @@ a gossip edge entanglement. Do not infer source truth from a signature. Stop
 after a finite factorization theorem or smallest route/provenance
 counterexample. The shared object is the typed information relation only.
 
-## 9. Position 3 — metastable confidence to Byzantine hardening
+## 9. Position 3 — provenance-preserving metastable-to-Byzantine hardening
 
-### Conditional decision
+### Identity
 
-Can one unchanged specimen pass from fast probabilistic preference to
-fork-safe public commitment while preserving provenance and honest accounting
-of rollback, liveness, latency, and fault assumptions?
+```text
+N5-SCF-P3
+Provenance-Preserving Metastable-to-Byzantine Hardening
+```
+
+### Decision
+
+Can one unchanged, source-bound synergistic specimen pass from fast
+probabilistic preference to fork-safe public commitment while preserving
+enough provenance to distinguish independent support, duplicated origin,
+equivocation, and the matched unbound null source? What does hardening add
+beyond the information and declared ancestry already present?
 
 ### Best approach
 
-1. Freeze one membership, origin-rank, topology, adversary, and timing model.
-2. Run or analyze an Avalanche-like subsampling/confidence layer.
-3. Add a separate reliable-broadcast or DAG provenance layer.
-4. Add a quorum-lock or threshold-certificate hardening layer.
-5. Compare a multisignature/quorum certificate with a true threshold
-   signature and declared DKG; preserve signer/control-origin provenance.
-6. Add one zero-knowledge or verifiable-secret-sharing path in which a
-   hidden witness becomes publicly certifiable without becoming public.
-7. Add one homomorphic/MPC control that computes the frozen action predicate
+1. Reuse unchanged:
+   - the source-bound XOR world;
+   - the matched null world;
+   - the signed duplicated-origin control; and
+   - the two-branch equivocation control from `HC-DU-048`.
+2. Freeze one membership, topology, adversary, timing, sampler, key-control,
+   and source-attestation model.
+3. Analyze the smallest Avalanche-like subsampling/confidence layer that can
+   return a decision-changing exact error or counterexample without a
+   network simulator.
+4. Add a separate reliable-broadcast or retained-DAG provenance layer.
+5. Add a quorum-lock or threshold-certificate hardening layer.
+6. Compare:
+   - explicit signer-set quorum certificates;
+   - multisignatures;
+   - compressed threshold signatures; and
+   - a declared DKG/VSS setup.
+   Preserve signer identity, control-origin rank, source-event digest, and
+   physical source binding as distinct fields.
+7. Require any compressed certificate to retain or point to the first signed
+   equivocation witness; otherwise return a provenance-erasing
+   counterexample.
+8. Add one event-bound zero-knowledge or verifiable-sharing path in which a
+   source relation becomes publicly certifiable without disclosing the
+   shares. Preserve the null world as the physical-attestation hostile case.
+9. Add one homomorphic/MPC control that computes the frozen action predicate
    over private participant records without reconstructing them centrally.
-8. Keep probabilistic error, conflicting-certificate safety, liveness,
-   disclosure, and action capability as separate outputs.
-9. Attack the composition with adaptive faults, correlated samples,
-   partitions, equivocation, withheld shares, and membership churn.
-10. Charge messages, samples, latency, trust/setup/key-generation, memory,
+10. Keep probabilistic preference error, rollback, conflicting-certificate
+    safety, liveness, latency, disclosure, declared provenance, physical
+    provenance, and action capability as separate outputs.
+11. Attack the composition with correlated samples, partitions, eclipse,
+    adaptive faults, equivocation, withheld shares, membership churn, and
+    benign DAG subdivision.
+12. Charge messages, samples, latency, trust/setup/key generation, memory,
     proof size, circuit cost, and rollback.
-11. If a sharp transition appears, vary system size and topology; report
-   finite-size shift/rounding and a noncritical sigmoid control before using
-   phase-transition language.
+13. If a sharp transition appears, vary system size and topology; report
+    finite-size shift/rounding and a noncritical sigmoid control before using
+    phase-transition language.
 
 ### Required return
 
@@ -554,6 +619,13 @@ SCOPED_LAYERED_FINALITY_COMPOSITION
 
 with exact premises, or the smallest counterexample showing that one layer's
 output is not a sufficient input certificate for the next.
+
+### Stop
+
+Do not infer physical truth from confidence, quorum lock, signer count,
+threshold authority, or key count. Do not build a general network simulator.
+Stop at one exact composition theorem or the smallest
+provenance-erasing/hardening counterexample.
 
 ## 10. Position 4 — MMO-style interest management and observer capability
 
@@ -793,7 +865,11 @@ The large-number intuition is useful only after two questions are answered:
 > complementary correlations? If so, is that information independently
 > replicated, clustered, commonly shocked, or merely copied?
 
-`HC-DU-047` establishes that boundary. `N5-SCF-P2` now follows source-formed
-joint information through gossip and DAG provenance. Later conditional
-positions test consensus hardening, capability-relative regional views, and
-only then contact with a physical-record problem in Dynamic Unity.
+`HC-DU-047` establishes the joint-input boundary. `HC-DU-048` shows that
+gossip can pool source-formed synergy and a signed DAG can preserve declared
+ancestry, while physical source binding, common knowledge, total order and
+action safety remain separate. `N5-SCF-P3` now tests whether metastable and
+Byzantine/threshold hardening can preserve those distinctions rather than
+compress them away. Later conditional positions test capability-relative
+regional views and only then contact with a physical-record problem in
+Dynamic Unity.
