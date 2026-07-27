@@ -215,8 +215,17 @@ current results establish the starting boundary, not the answer:
   at A3, a complete observer ARE/finality contract at A4, and no rung selects
   an actual outcome. Causality is broader than Fewster--Verch realizability,
   and movable-cut target equivalence is weaker than formed-record identity.
-  `CCR-N5-S4`, the formed-descent or exact non-equivalence attempt, is next
-  ([campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)).
+  `HC-DU-035E` now completes `CCR-N5-S4`. Explicitly formed interfaces share
+  one action-safe **public-shadow** descent contract, but the shadow does not
+  identify the native interface. An exact no-broadcasting obstruction rules
+  out a universal classical public object that is simultaneously
+  nondisturbing, physically faithful for noncommuting quantum capability, and
+  broadcastable. The minimum common architecture is a copyable public
+  quotient plus native residual fibre plus frozen action envelope.
+  `CCR-N5-S5`, the held-out North-Star reconstruction/remainder
+  adjudication, is next
+  ([result](explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md);
+  [campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
   benchmarks, or downstream applications. None governs the new charter and none is promoted

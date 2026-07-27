@@ -368,6 +368,19 @@ a public outcome, backward effect propagation localizes the first noncentral
 map and supplies a finite witness. Preserving the center only after selective
 routes are averaged is not enough.
 
+**Cross-arena correction (`HC-DU-035E`).** The maximum common object is the
+complete public operational shadow of an explicitly formed interface, not one
+untyped native record. Its descent requires nonempty full-cover realization,
+certified occurrence/provenance identity, complete selective restrictions,
+physical/resource joinability, future-public center screening, and
+benign-refinement naturality. The same statement classifies
+Einstein--matter, AQFT, gauge, QEC, and authenticated-distributed controls.
+It does not identify their native interfaces. A copyable classical public
+record cannot also be a nondisturbing, physically faithful reconstruction of
+an arbitrary noncommuting quantum state class without contradicting
+no-broadcasting. Preserve the public quotient, native residual fibre, and
+frozen action envelope separately.
+
 ### 3. Static process description versus actual formation
 
 **Established.** A sufficiently enlarged standard quantum process can encode
@@ -478,6 +491,15 @@ map preserves centers in the Heisenberg direction. The criterion composes
 under sequence, tensor product, and public-record-adaptive policy. This is a
 known-mathematics assurance theorem, not yet a physical law selecting regions,
 their action algebras, archives, or admissible future couplings.
+
+**Maximum common descent (`HC-DU-035E`).** That criterion now transfers across
+the five prepared arenas only after each native interface exports a formed
+copyable public shadow. Public-shadow descent is a real cross-platform
+invariant. Native-interface descent is not: gauge interiors, QEC logical
+states, AQFT probe chains, material archives, and distributed provenance can
+remain different beneath the same public behavior. `CCR-N5-S5` must therefore
+test public targets, native-interface targets, and capability targets
+separately.
 
 ### 9. Quantum measurement versus relativistic localization
 
@@ -633,14 +655,14 @@ interventional sufficiency, not another finite selector fit.
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
-| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, decoder, code/check family, and action envelope. `HC-DU-033F` makes selection antecedent-relative: an ARE/interface is selected exactly when it is constant on the claimed antecedent fibres; otherwise return the minimal orbit, plural family, or empty nontrivial class. `HC-DU-033G` completes the Einstein--matter ladder: simple-eigenline matter selects flow, FLRW selects cosmic-time structure but no observer token, Gödel vorticity blocks orthogonal synchronization, homogeneous transport does not mint an archive, and complete access/resource fields first close at A4. `HC-DU-033H` independently completes the localized-AQFT ladder: target--probe dynamics selects an induction/realizability family and causal composition, while a particular instrument, formed archive, and complete observer ARE first close at A3/A4 and no rung selects an outcome. `HC-DU-033C` is the symmetry witness, `HC-DU-040D` the finite gauge formation-orbit control, and `HC-DU-040E` the supplied-code process-relative control. The live opening is formed descent across those typed partial interfaces, not another fitted detector or code | `HC-DU-033/033C/033E/033F/033G/033H/036B/036C/036E/036F/040B/040C/040D/040E` |
+| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, decoder, code/check family, and action envelope. `HC-DU-033F` makes selection antecedent-relative: an ARE/interface is selected exactly when it is constant on the claimed antecedent fibres; otherwise return the minimal orbit, plural family, or empty nontrivial class. `HC-DU-033G` completes the Einstein--matter ladder: simple-eigenline matter selects flow, FLRW selects cosmic-time structure but no observer token, Gödel vorticity blocks orthogonal synchronization, homogeneous transport does not mint an archive, and complete access/resource fields first close at A4. `HC-DU-033H` independently completes the localized-AQFT ladder: target--probe dynamics selects an induction/realizability family and causal composition, while a particular instrument, formed archive, and complete observer ARE first close at A3/A4 and no rung selects an outcome. `HC-DU-035E` now shows that later public-shadow descent cannot repair this upstream provenance: the descended shadow may remain compatible with several native apparatuses. `HC-DU-033C` is the symmetry witness, `HC-DU-040D` the finite gauge formation-orbit control, and `HC-DU-040E` the supplied-code process-relative control. The live opening is held-out reconstruction across every admissible native lift, not another fitted detector or code | `HC-DU-033/033C/033E/033F/033G/033H/035E/036B/036C/036E/036F/040B/040C/040D/040E` |
 | Acquisition visibility | Distinguish the provider-returned population from the complete attempted physical process; full factorization additionally requires the selection kernel and every supported selected/rejected response stratum to factor through the record. A scoped five-interface matrix finds no standard documented all-attempt/complete-reset route; silence is not absence | `HC-DU-036D/036E/036F` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
-| Public-finality composition | `HC-DU-035D` exactly characterizes selective future center screening, composition, first-leak localization, and the aggregate-route failure while permitting retained quantum fibres. The open delta is physical selection of the regions, action algebras, archives, and future action class, followed by transfer to effective-physics reconstruction | `HC-DU-035/035C/035D` |
+| Public-finality composition | `HC-DU-035D` exactly characterizes selective future center screening, composition, first-leak localization, and the aggregate-route failure while permitting retained quantum fibres. `HC-DU-035E` adds the six-obligation cross-arena public-shadow descent contract and proves that no nondisturbing physically faithful broadcastable classical lift can preserve a noncommuting quantum state class. The open delta is whether the descended public shadow reconstructs held-out targets across every native lift or leaves a finite capability-relative remainder | `HC-DU-035/035C/035D/035E` |
 | Record sufficiency or physical remainder | Translate the five-part integrated contract into process-tensor, quantum-instrument, statistical-experiment, and system-identification language before physical escalation. `HC-DU-040E` is the exact positive/negative control: a complete syndrome gives correction-class duality while \(N(S)/S\) remains capability-bearing for the full logical action. Distinguish ordinary refinement from logical measurement, source logging, action/task restriction, coherent-access enlargement, and interface retyping | `HC-DU-036/036C/036D/036E/036F/040E` |
 | Finality--capability relation | Explain when certification strictly changes bounded-risk action rather than relabeling permission | `HC-DU-037` |
 | Meta-record geometry | Reconstruct causal/metric structure up to gauge or prove the record surface underdetermines it, while comparing law-only and record-conditioned target diameter so physical-law closure is not credited to records. `HC-DU-039C/D` add that one measured total phase, reduced visibility, or even a nonclassical conditioned channel still needs an independently calibrated full-rank source intervention before it can be attributed to duration or field structure | `HC-DU-038/038D/039C/039D` |
-| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers kernel-containment across clock and distributed controls; `HC-DU-039D` separates nonclassicality from source attribution; `HC-DU-040B` transports the action-center theorem to von Neumann algebras; and `HC-DU-040D/E` share the exact sequence in which a formed boundary/check record reconstructs its quotient while an action-relative kernel remains. The gauge and QEC systems are not physically identified | `HC-DU-039/039C/039D/040B/040C/040D/040E` |
+| Cross-platform invariant | Carry one typed law unchanged across distributed, quantum, causal-set, and QFT realizations. `HC-DU-039C` transfers kernel-containment across clock and distributed controls; `HC-DU-039D` separates nonclassicality from source attribution; `HC-DU-040B` transports the action-center theorem to von Neumann algebras; and `HC-DU-040D/E` share the exact sequence in which a formed boundary/check record reconstructs its quotient while an action-relative kernel remains. `HC-DU-035E` identifies the maximum unchanged invariant as public-shadow descent and the exact non-invariant as a faithful classical native lift. The systems are not physically identified | `HC-DU-035E/039/039C/039D/040B/040C/040D/040E` |
 | Physical recovery | Recover classicality, relativistic locality, low-energy physics, or a measurable remainder. The finite material gauge and stabilizer-QEC routes now provide complementary anchors: one material record realizes scoped boundary duality; one complete code record leaves a protected logical remainder by design. The next physical move must independently select structure beyond the supplied detector/code or move to another arena. Reopen AQFT only for a new selector or finite locality discriminator; infrared QED and the clock intervention remain separately gated | `HC-DU-040/040B/040C/040D/040E` |
 
 ## Pointers, not prescriptions

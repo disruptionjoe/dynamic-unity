@@ -1,0 +1,415 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "detail": "One root bit fixes the connected flat cover.",
+      "name": "flat binary triangle has exactly two global assignments",
+      "passed": true
+    },
+    {
+      "detail": "Pairwise relations are locally satisfiable but the full cover is empty.",
+      "name": "odd binary triangle has no global assignment",
+      "passed": true
+    },
+    {
+      "detail": "Subdividing one zero-parity edge does not change the obstruction.",
+      "name": "inert relay preserves cycle syndrome",
+      "passed": true
+    },
+    {
+      "detail": "Both instruments have the same sharp Z outcome effects.",
+      "name": "QND and flip instruments expose the same first record value",
+      "passed": true
+    },
+    {
+      "detail": "A repeated Z read separates the selective maps with certainty.",
+      "name": "held-out continuation separates QND from flip",
+      "passed": true
+    },
+    {
+      "detail": "The boundary archive reconstructs total enclosed charge.",
+      "name": "two interior configurations share one Z3 boundary flux",
+      "passed": true
+    },
+    {
+      "detail": "An admitted n1-sensitive action separates the same-flux states.",
+      "name": "interior readout exposes the gauge fibre",
+      "passed": true
+    },
+    {
+      "detail": "Both commute with every stabilizer generator.",
+      "name": "identity and logical X have the same complete syndrome",
+      "passed": true
+    },
+    {
+      "detail": "I maps |0_L> to |0_L>; X_L maps it to |1_L>.",
+      "name": "logical Z distinguishes the same-syndrome pair",
+      "passed": true
+    },
+    {
+      "detail": "Any two q=3 quorums contain more than f shared validators.",
+      "name": "three-of-four quorum is Byzantine-safe at f=1",
+      "passed": true
+    },
+    {
+      "detail": "Two q=2 quorums can intersect only in the Byzantine validator.",
+      "name": "two-of-four quorum is unsafe at f=1",
+      "passed": true
+    },
+    {
+      "detail": "Copies controlled by one origin do not supply three independent supports.",
+      "name": "raw signature count can exceed independent provenance rank",
+      "passed": true
+    },
+    {
+      "detail": "The pair lies outside the exactly broadcastable commuting class.",
+      "name": "|0> and |+> density operators do not commute",
+      "passed": true
+    },
+    {
+      "detail": "NO_FORMED_LOCAL_INTERFACE",
+      "name": "unchanged descent grammar classifies einstein_matter_A1_flow_without_archive",
+      "passed": true
+    },
+    {
+      "detail": "NO_FORMED_LOCAL_INTERFACE",
+      "name": "unchanged descent grammar classifies aqft_A2_induction_family_without_pointer",
+      "passed": true
+    },
+    {
+      "detail": "EMPTY_JOINT_REALIZATION",
+      "name": "unchanged descent grammar classifies frustrated_three_region_cover",
+      "passed": true
+    },
+    {
+      "detail": "OCCURRENCE_OR_PROVENANCE_MISMATCH",
+      "name": "unchanged descent grammar classifies raw_signature_count_with_correlated_origin",
+      "passed": true
+    },
+    {
+      "detail": "SELECTIVE_RESTRICTION_MISMATCH",
+      "name": "unchanged descent grammar classifies same_effect_different_continuation",
+      "passed": true
+    },
+    {
+      "detail": "JOINT_RESOURCE_OR_INTERFACE_FAILURE",
+      "name": "unchanged descent grammar classifies one_clock_counterfactual_join",
+      "passed": true
+    },
+    {
+      "detail": "PUBLIC_ACTION_LEAK",
+      "name": "unchanged descent grammar classifies qec_syndrome_under_full_logical_actions",
+      "passed": true
+    },
+    {
+      "detail": "REFINEMENT_NONNATURAL",
+      "name": "unchanged descent grammar classifies relay_count_dependent_representation",
+      "passed": true
+    },
+    {
+      "detail": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "name": "unchanged descent grammar classifies material_gauge_boundary_flux_envelope",
+      "passed": true
+    },
+    {
+      "detail": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "name": "unchanged descent grammar classifies qec_syndrome_correctable_envelope",
+      "passed": true
+    },
+    {
+      "detail": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "name": "unchanged descent grammar classifies aqft_A4_supplied_formed_archive",
+      "passed": true
+    },
+    {
+      "detail": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "name": "unchanged descent grammar classifies safe_authenticated_certificate",
+      "passed": true
+    },
+    {
+      "detail": "Every control receives exactly one ordered return type.",
+      "name": "first-obstruction grammar is total on the frozen controls",
+      "passed": true
+    },
+    {
+      "detail": "All positive public controls retain a plural or supplied native lift.",
+      "name": "public descent never silently earns native-interface identity",
+      "passed": true
+    }
+  ],
+  "controls": [
+    {
+      "classification": "NO_FORMED_LOCAL_INTERFACE",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": false,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "einstein_matter_A1_flow_without_archive",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "NO_FORMED_LOCAL_INTERFACE",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": false,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "aqft_A2_induction_family_without_pointer",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "EMPTY_JOINT_REALIZATION",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "frustrated_three_region_cover",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": false,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "OCCURRENCE_OR_PROVENANCE_MISMATCH",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "raw_signature_count_with_correlated_origin",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": false,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "SELECTIVE_RESTRICTION_MISMATCH",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "same_effect_different_continuation",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": false
+      }
+    },
+    {
+      "classification": "JOINT_RESOURCE_OR_INTERFACE_FAILURE",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": false,
+        "name": "one_clock_counterfactual_join",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "PUBLIC_ACTION_LEAK",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": false,
+        "jointly_realizable_resources": true,
+        "name": "qec_syndrome_under_full_logical_actions",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "REFINEMENT_NONNATURAL",
+      "passport": {
+        "benign_refinement_naturality": false,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "relay_count_dependent_representation",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "material_gauge_boundary_flux_envelope",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "qec_syndrome_correctable_envelope",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "aqft_A4_supplied_formed_archive",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    },
+    {
+      "classification": "PUBLIC_SHADOW_DESCENDS__NATIVE_LIFT_UNDERDETERMINED",
+      "passport": {
+        "benign_refinement_naturality": true,
+        "formed_local_interface": true,
+        "future_public_screening": true,
+        "jointly_realizable_resources": true,
+        "name": "safe_authenticated_certificate",
+        "native_lift_selected": false,
+        "nonempty_joint_realization": true,
+        "occurrence_provenance_identity": true,
+        "selective_restrictions": true
+      }
+    }
+  ],
+  "finite_witnesses": {
+    "byzantine_quorum": {
+      "N": 4,
+      "f": 1,
+      "independent_origins": 1,
+      "q2_safe": false,
+      "q3_safe": true,
+      "raw_signatures": 3
+    },
+    "flat_cycle_solutions": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ],
+    "frustrated_cycle_solutions": [],
+    "gauge_same_flux_pair": {
+      "flux": 1,
+      "interior_n1_separates": true,
+      "left": [
+        1,
+        0
+      ],
+      "right": [
+        0,
+        1
+      ]
+    },
+    "noncommuting_state_commutator": [
+      [
+        "0",
+        "1/2"
+      ],
+      [
+        "-1/2",
+        "0"
+      ]
+    ],
+    "qec_same_syndrome_pair": {
+      "held_out_logical_z_margin": 1,
+      "identity_syndrome": [
+        0,
+        0
+      ],
+      "logical_x_syndrome": [
+        0,
+        0
+      ]
+    },
+    "selective_instrument_rows": [
+      {
+        "flip_next": 1,
+        "input": 0,
+        "outcome": 0,
+        "qnd_next": 0
+      },
+      {
+        "flip_next": 0,
+        "input": 1,
+        "outcome": 1,
+        "qnd_next": 1
+      }
+    ]
+  },
+  "hypothesis_id": "HC-DU-035E",
+  "obstruction_order": [
+    {
+      "failure": "NO_FORMED_LOCAL_INTERFACE",
+      "field": "formed_local_interface"
+    },
+    {
+      "failure": "EMPTY_JOINT_REALIZATION",
+      "field": "nonempty_joint_realization"
+    },
+    {
+      "failure": "OCCURRENCE_OR_PROVENANCE_MISMATCH",
+      "field": "occurrence_provenance_identity"
+    },
+    {
+      "failure": "SELECTIVE_RESTRICTION_MISMATCH",
+      "field": "selective_restrictions"
+    },
+    {
+      "failure": "JOINT_RESOURCE_OR_INTERFACE_FAILURE",
+      "field": "jointly_realizable_resources"
+    },
+    {
+      "failure": "PUBLIC_ACTION_LEAK",
+      "field": "future_public_screening"
+    },
+    {
+      "failure": "REFINEMENT_NONNATURAL",
+      "field": "benign_refinement_naturality"
+    }
+  ],
+  "run_id": "RUN-20260726-dynamic-unity-typed-public-shadow-descent",
+  "scientific_evidence": "direct theorem analysis; this executable is regression only",
+  "scope": "exact finite regression for the public-shadow descent and native-type-erasure result",
+  "sha256_without_digest": "31299cab11f53be31c9c44a6327c0aaf6862da9ca87920336932651d4fa6e8fa"
+}

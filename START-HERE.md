@@ -317,6 +317,23 @@ What *has* been earned is a strong finite control stack:
   quantum law
   ([result](explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md);
   [probe](tests/du_center_screening_regional_finality_probe.py)).
+- one scoped grade-4 `HC-DU-035E` cross-arena descent/non-equivalence result.
+  Explicitly formed Einstein--matter, AQFT, material-gauge, QEC, and
+  authenticated-distributed interfaces export one common object only at the
+  level of their complete public operational shadows. Those shadows descend
+  under six unchanged obligations: nonempty joint realization, certified
+  occurrence/provenance identity, complete selective restriction, physical
+  and resource joinability, future-public center screening, and
+  benign-refinement naturality. Equality of descended shadows does not imply
+  native-interface identity. A classical public record cannot be
+  simultaneously nondisturbing, physically faithful for a noncommuting
+  quantum state class, and broadcastable without contradicting
+  no-broadcasting. The smallest honest cross-arena architecture is therefore
+  a copyable public quotient, native residual fibre, and frozen action envelope. The
+  component mathematics is known; no universal public-reality law or new
+  physics is claimed
+  ([result](explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md);
+  [probe](tests/du_typed_public_shadow_descent_probe.py)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
   public order, trace laws, and public-action capabilities, but that is
@@ -628,18 +645,39 @@ free-scalar/Weyl results also show that causal operations strictly exceed
 Fewster--Verch-realizable operations; realizability is a nontrivial plural
 filter rather than a point selector.
 
-The next high-value dependency is `CCR-N5-S4`:
+`HC-DU-035E` has now executed `CCR-N5-S4`. The common law lives at the
+public-operational-shadow level, not at the native-interface level. Use the
+unchanged first-obstruction order:
 
-1. consume the Einstein--matter and localized-AQFT partial/adverse selector
-   receipts without inventing an endogenous pointer;
-2. freeze the smallest explicitly formed \(A_3/A_4\) interfaces across the
-   material gauge, QEC, Einstein--matter, AQFT, and authenticated controls;
-3. test nonempty lawful realization, occurrence/provenance compatibility,
-   selective restriction, joint realizability, center-screened future
-   actions, and benign-refinement naturality;
-4. derive one common formed-descent law or the smallest exact
-   cross-arena non-equivalence; and
-5. preserve every interface, action, resource, and horizon receipt.
+```text
+no formed local interface
+    -> empty joint realization
+    -> occurrence/provenance mismatch
+    -> selective-restriction mismatch
+    -> joint interface/resource failure
+    -> public-action leak
+    -> refinement nonnaturality
+    -> public-shadow descent.
+```
+
+After public descent, keep `NATIVE_LIFT_EARNED` distinct from
+`NATIVE_LIFT_UNDERDETERMINED`. The no-broadcasting collision means a
+copyable classical public shadow cannot also be a nondisturbing, physically
+faithful reconstruction of arbitrary noncommuting quantum capability.
+
+The next high-value dependency is `CCR-N5-S5`:
+
+1. consume only the interfaces and public shadows selected or classified in
+   `HC-DU-033F/G/H` and `HC-DU-035E`;
+2. freeze the lawful class, observer, resources, future actions, and every
+   incomparable maximal native lift;
+3. report target diameter before record conditioning;
+4. test strict compression and held-out transfer through the descended public
+   shadow;
+5. separately test whether the target varies across native realizations with
+   that same shadow; and
+6. return reconstruction, plural operational duality, interface dependence,
+   a finite class-relative remainder, or incomplete contract.
 
 The prepared
 [next five-swing campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)
@@ -654,8 +692,8 @@ sequences that dependency without activating five runs:
 5. adjudicate reconstruction, plural duality, interface dependence,
    remainder, or incomplete contract.
 
-The first three swings are complete as `HC-DU-033F/G/H`. Only `CCR-N5-S4`
-is now the next executable campaign object. Each later swing remains
+The first four swings are complete as `HC-DU-033F/G/H` and `HC-DU-035E`.
+Only `CCR-N5-S5` is now the next executable campaign object. Each later swing remains
 branch-conditioned on the preceding receipts, not on a positive result. The
 AQFT arena must preserve probe, pointer, archive, provenance, decoder, and
 access as separately credited fields rather than treating an induced
@@ -785,8 +823,8 @@ the root `lanes` entries near the top of `LANES.yaml`.
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
 | **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-033G/H`: Einstein--matter selects flow and conditional synchronization before any generic record, while localized AQFT selects an induction/realizability family before any particular instrument or archive. Advance formed descent; do not repeat supplied detector, code, or fitted-probe variants. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, or FV realization is not an observer-access contract. Keep route, authentication, decoder, actions, resources, and horizon explicit; no completed ladder selects an actual outcome. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `CCR-N5-S4` is next: test one typed descent law across explicitly formed apparatus-relative interfaces, or return the smallest cross-arena non-equivalence. Preserve the logical/homological remainder and the movable-cut semantic boundary. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-033G/H/038E` separate matter-selected clock geometry and AQFT-local induced operations from apparatus-selected records and observer AREs. Carry both partial receipts into formed descent and held-out reconstruction. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E` establishes one public-shadow descent contract and an exact native-type-erasure no-go. Preserve the public quotient, native fibre, action envelope, logical/homological remainder, and movable-cut semantic boundary through `CCR-N5-S5`. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `CCR-N5-S5` is next: test held-out targets against the descended public shadow, every plural native lift, and the lawful pre-record baseline. Public operational closure is not source or native-interface reconstruction. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -818,7 +856,7 @@ channels; they are not lanes and do not create a second priority system.
    [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
 6. When Joe opens the next central campaign swing, read the
    [physical-selection-to-formed-descent campaign scaffold](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md).
-   `CCR-N5-S1/S2/S3` are complete; `CCR-N5-S4` is the next executable object,
+   `CCR-N5-S1/S2/S3/S4` are complete; `CCR-N5-S5` is the next executable object,
    while the later swings remain receipt-conditioned.
 7. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).

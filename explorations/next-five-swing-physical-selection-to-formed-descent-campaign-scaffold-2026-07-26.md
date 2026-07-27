@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: physical selection to formed descent"
-status: swings_1_through_3_complete_swing_4_next
+status: swings_1_through_4_complete_swing_5_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: prepare and scaffold the next five swings using divergent personas"
@@ -12,8 +12,8 @@ run_plan: "../runs/2026-07-26-next-five-swing-campaign-scaffold.md"
 
 ## Campaign progress
 
-`CCR-N5-S1`, `CCR-N5-S2`, and `CCR-N5-S3` are complete as
-`HC-DU-033F/G/H`.
+`CCR-N5-S1` through `CCR-N5-S4` are complete as
+`HC-DU-033F/G/H` and `HC-DU-035E`.
 
 The result replaces a context-free selector search with an exact
 antecedent-relative contract. For complete realizations \(\omega\), claimed
@@ -70,9 +70,22 @@ The localized-AQFT ladder independently located the QFT boundary:
 
 See
 [the executed localized-AQFT ladder](localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md).
-`CCR-N5-S4` is now the next executable object. It must consume both
-partial/adverse selector receipts and attempt formed descent without
-pretending either arena endogenously selected a pointer or actual outcome.
+`CCR-N5-S4` then found the maximum unchanged common object. Explicitly formed
+`A3/A4` interfaces can export copyable public operational shadows, and those
+shadows descend under one six-obligation contract: nonempty joint
+realization, certified overlap identity/provenance, complete selective
+restriction, physical/resource joinability, future-public center screening,
+and benign-refinement naturality. The common result does not lift to one
+classical native record object whenever noncommuting quantum capability is
+retained: an exact nondisturbing, physically faithful, broadcastable
+classical lift would violate no-broadcasting. The smallest honest
+cross-arena architecture is therefore a public quotient plus native residual
+fibre plus frozen action envelope. See
+[the executed formed-descent result](typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md).
+
+`CCR-N5-S5` is now the next executable object. It must test held-out targets
+against the descended public shadow and its plural native lifts without
+crediting public operational closure as physical reconstruction.
 
 ## Executive result
 
@@ -126,9 +139,10 @@ The campaign's scientific objective is:
 > obstruction.
 
 The initial preparation executed no swing. The subsequent
-`CCR-N5-S1/S2/S3` executions earned only the scoped `HC-DU-033F/G/H`
-selector classifications stated above; they promoted no paper and make no
-integrated-theorem novelty claim.
+`CCR-N5-S1/S2/S3/S4` executions earned only the scoped `HC-DU-033F/G/H`
+selector classifications and `HC-DU-035E` public-shadow
+descent/native-non-lift result stated above; they promoted no paper and make
+no new-physics claim.
 
 ## 1. Why this is not the previous campaign or the approach atlas
 
@@ -575,7 +589,8 @@ and a finite-horizon record/finality contract.
 
 **Prepared ID:** `CCR-N5-S4`
 
-**Execution status:** next executable campaign object.
+**Execution status:** completed as `HC-DU-035E`; see
+[the result](typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md).
 
 **Owning lanes/channels:** Lanes 1, 3, 5, and A;
 `CH-FORMAL`, `CH-SYN`, `CH-COLLIDE`.
@@ -650,9 +665,43 @@ law or new physics.
 One typed descent theorem/non-equivalence matrix, finite obstruction grammar,
 and unchanged cross-arena controls.
 
+### Executed verdict
+
+The second decision output was obtained.
+
+One unchanged theorem governs the **public operational shadows** of explicitly
+formed interfaces. It does not identify their native physical realizations.
+The exact no-broadcasting collision rules out a universal classical public
+object that is simultaneously nondisturbing, physically faithful for a
+noncommuting quantum action class, and broadcastable. The smallest honest
+cross-arena architecture is therefore
+
+\[
+(\text{public quotient},\text{native fibre},\text{action envelope}).
+\]
+
+The ordered finite return grammar is:
+
+```text
+NO_FORMED_LOCAL_INTERFACE
+EMPTY_JOINT_REALIZATION
+OCCURRENCE_OR_PROVENANCE_MISMATCH
+SELECTIVE_RESTRICTION_MISMATCH
+JOINT_RESOURCE_OR_INTERFACE_FAILURE
+PUBLIC_ACTION_LEAK
+REFINEMENT_NONNATURAL
+PUBLIC_SHADOW_DESCENDS
+```
+
+The same grammar classifies Einstein--matter, AQFT, material gauge, QEC, and
+authenticated-distributed controls without changing the meaning of record or
+action.
+
 ## 10. Prepared Swing 5 — North-Star Reconstruction and Remainder Adjudication
 
 **Prepared ID:** `CCR-N5-S5`
+
+**Execution status:** next executable campaign object.
 
 **Owning lanes/channels:** Lanes 1, 4, 5, 6, 7, and A;
 `CH-FORMAL`, `CH-SYN`, `CH-COLLIDE`, with `CH-EMPIRICAL` only if a local
@@ -743,7 +792,7 @@ and the next program decision.
 
 ### One swing at a time
 
-`CCR-N5-S1/S2/S3` are complete. Only `CCR-N5-S4` is now executable. Before
+`CCR-N5-S1/S2/S3/S4` are complete. Only `CCR-N5-S5` is now executable. Before
 each later swing:
 
 1. read the preceding receipt;
@@ -819,9 +868,12 @@ The campaign is concentrated without being brittle:
 
 - Swing 1 makes every later comparison mean the same thing.
 - Swings 2 and 3 test that meaning in two physically different arenas.
-- Swing 4 asks whether selected records genuinely compose.
-- Swing 5 asks whether the composition reconstructs anything that law alone
-  did not already fix.
+- Swing 4 establishes that public operational shadows compose under one
+  contract while native physical interfaces do not generally collapse to one
+  copyable classical type.
+- Swing 5 asks whether that descended public shadow reconstructs anything
+  that law alone did not already fix, or whether one finite admitted action
+  exposes its native fibre.
 
 That is the shortest current route from the exact finite control stack toward
 the still-unabsorbed blockbuster possibility:

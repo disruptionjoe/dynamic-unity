@@ -982,6 +982,23 @@ resolution-stable intervention role. No claim is banked or seeded. See
   This is exact known mathematics; physical regions and the complete future
   action class remain unselected. See
   `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
+- **Earned typed public-shadow descent and native non-lift.** `HC-DU-035E`
+  completes the cross-arena descent attempt. Explicitly formed
+  Einstein--matter, AQFT, material-gauge, QEC, and
+  authenticated-distributed interfaces share one common object only at the
+  level of their complete public operational shadows. The same ordered
+  obligations—nonempty joint realization, certified occurrence/provenance,
+  complete selective restriction, physical/resource joinability,
+  future-public center screening, and benign-refinement naturality—govern
+  descent in every arena. Equality of those shadows does not identify the
+  native interface. No-broadcasting gives the exact quantum obstruction: a
+  copyable classical public record cannot also be a nondisturbing,
+  physically faithful lift of a noncommuting state class. The minimum common
+  architecture is a public quotient, native residual fibre, and frozen
+  action envelope. The components are known; the DU gain is the maximum
+  transferable object, the exact non-lift, and one finite obstruction
+  grammar. See
+  `typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md`.
 - **Earned algebraic-QFT transport and capability-growth boundary.**
   `HC-DU-040B` removes the finite-dimensional crutch from one part of the
   program. For any unital von Neumann algebra and finite internal PVM, the
@@ -1147,14 +1164,15 @@ resolution-stable intervention role. No claim is banked or seeded. See
      accessible, approximately broadcastable, bounded-risk actionable fact.
      Stop if the result only intersects known statistical, secret-sharing,
      quorum, and quantum-access conditions.
-  3. Parent `HC-DU-033/035D/039`: consume the completed
-     `HC-DU-033G/H` Einstein--matter and AQFT receipts in `CCR-N5-S4`.
-     Freeze the smallest explicitly formed apparatus-relative interfaces,
-     then test nonempty lawful realization, occurrence/provenance
-     compatibility, selective restriction, joint realizability,
-     center-screened future actions, and benign-refinement naturality.
-     Return one typed formed-descent law or the smallest cross-arena
-     non-equivalence.
+  3. Parent `HC-DU-033/035D/035E/039`: execute `CCR-N5-S5` using the
+     descended public shadow plus every plural native lift. Report lawful
+     target diameter before records, public-shadow target diameter, and
+     target variation across native lifts separately. Test strict
+     compression, held-out transfer, source-independent calibration, no
+     refitting, and one capability action that could expose the residual
+     fibre. Return reconstruction, plural operational duality,
+     interface dependence, a finite class-relative remainder, or incomplete
+     contract.
   4. `HC-DU-038`: preserve the exact separation among matter-selected flow,
      AQFT-selected induction/realizability families, apparatus-selected
      clocks/archives, and access/resource-selected AREs. Apply every maximal
@@ -1196,6 +1214,12 @@ resolution-stable intervention role. No claim is banked or seeded. See
   HC-DU-035D SELECTIVE CENTER-SCREENING FINALITY AND FIRST-LEAK LOCALIZATION
   EXACT / QUANTUM FIBRES MAY PERSIST BEHIND A FINAL PUBLIC CENTER /
   AGGREGATE-ONLY CENTER PRESERVATION REJECTED /
+  HC-DU-035E TYPED PUBLIC-SHADOW DESCENT AND NATIVE NON-LIFT EXACT /
+  SIX-OBLIGATION PUBLIC DESCENT CONTRACT TRANSFERS ACROSS FIVE ARENAS /
+  PUBLIC-SHADOW EQUALITY DOES NOT IMPLY NATIVE-INTERFACE IDENTITY /
+  NONDISTURBING PHYSICALLY FAITHFUL BROADCASTABLE CLASSICAL LIFT OF A
+  NONCOMMUTING QUANTUM CLASS FORBIDDEN /
+  PUBLIC QUOTIENT, NATIVE FIBRE, AND ACTION ENVELOPE RETAINED /
   HC-DU-039C SCREENED OPERATIONAL EQUIVALENCE AND SOURCE-ATTRIBUTION RANK
   EXACT / TOTAL PHASE DOES NOT IDENTIFY TIME VERSUS FIELD SOURCE /
   STRICT COMPRESSION AND HELD-OUT TRANSFER REQUIRED FOR NONTRIVIAL
@@ -1935,6 +1959,15 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   It does not select a physical regionalization, action algebra, boundary,
   archive, or complete future action class. See
   `center-screening-regional-finality-and-first-leak-2026-07-26.md`.
+- **2026-07-26 typed public-shadow descent and native non-lift.**
+  `HC-DU-035E` carries the formed center-plus-fibre object across
+  Einstein--matter, AQFT, material gauge, QEC, and authenticated-distributed
+  controls. One six-obligation contract governs the copyable public
+  operational shadows, while no-broadcasting forbids flattening a retained
+  noncommuting quantum fibre into one nondisturbing, faithful, broadcastable
+  classical public object. Public descent and native reconstruction are now
+  separate receipts. See
+  `typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md`.
 - **2026-07-26 algebraic-QFT and approximate-horizon correction.**
   `HC-DU-040B` shows that the exact center-screening idea does transport to
   unital von Neumann algebras, but it becomes maximally restrictive for

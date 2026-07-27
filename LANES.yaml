@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 70
+manifest_revision: 71
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -40,8 +40,8 @@ next_five_swing_campaign_ref: >-
 next_five_swing_campaign_rule: >-
   The prepared central campaign sequences one target-independent physical-ARE selector contract,
   independent Einstein--matter and localized-AQFT selector tests, a formed-descent or exact
-  non-equivalence attempt, and a final North-Star adjudication. CCR-N5-S1 through S3 are complete
-  as HC-DU-033F/G/H. Only CCR-N5-S4 is now the next executable object; every later swing must consume
+  non-equivalence attempt, and a final North-Star adjudication. CCR-N5-S1 through S4 are complete
+  as HC-DU-033F/G/H and HC-DU-035E. Only CCR-N5-S5 is now the next executable object; every later swing must consume
   the prior receipts and choose the documented positive, adverse or incomplete branch without
   redefining records, interfaces or success.
 physical_are_selector_result_ref: >-
@@ -61,8 +61,9 @@ einstein_matter_selection_ladder_rule: >-
   orthogonal synchronization is obstructed. Homogeneous archive transport preserves supplied
   data but does not mint a write, and causal reachability does not select a route, authentication,
   decoder or capability. Material clock, write/archive and observer-access/resource antecedents
-  first close those fields at A2, A3 and A4 respectively. Consume this exact partial/adverse
-  receipt with the localized-AQFT receipt in CCR-N5-S4 rather than treating clock geometry as a
+  first close those fields at A2, A3 and A4 respectively. HC-DU-035E has consumed this exact
+  partial/adverse receipt with the localized-AQFT receipt; carry the resulting
+  public-shadow/native-lift distinction into CCR-N5-S5 rather than treating clock geometry as a
   formed record.
 localized_aqft_selection_ladder_ref: >-
   explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -75,7 +76,20 @@ localized_aqft_selection_ladder_rule: >-
   operations strictly exceed the FV-realizable class in the scoped free-scalar/Weyl result, so
   realizability is a nontrivial plural filter rather than a point selector. Movable-cut target
   equivalence does not imply complete formed-record identity without an action-sufficiency proof.
-  Consume this exact partial/adverse receipt with the Einstein--matter receipt in CCR-N5-S4.
+  HC-DU-035E has consumed this exact partial/adverse receipt with the Einstein--matter receipt;
+  carry the resulting public-shadow/native-lift distinction into CCR-N5-S5.
+typed_public_shadow_descent_ref: >-
+  explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
+typed_public_shadow_descent_rule: >-
+  Explicitly formed interfaces share one unchanged descent law only at the level of their
+  complete public operational shadows. Require nonempty joint realization, certified
+  occurrence/provenance identity, complete selective restrictions, physical and resource
+  joinability, future-public center screening and benign-refinement naturality. Public-shadow
+  equality does not establish native-interface identity. A copyable classical public record
+  cannot also be a nondisturbing physically faithful lift of a noncommuting quantum state class
+  without violating no-broadcasting. Preserve the public quotient, native residual fibre and
+  frozen action envelope separately. CCR-N5-S4 is complete as HC-DU-035E; consume it in
+  CCR-N5-S5 rather than flattening the native arenas into one ledger.
 local_model_learning_gate_ref: lab/process/local-model-learning-gate.md
 local_model_learning_gate_rule: >-
   Before a future simulation, toy model, solver, executable fixture, trained surrogate, emulator
@@ -416,9 +430,15 @@ lanes:
     causal composition relative to supplied couplings; a particular instrument and formed
     archive first close at A3; the observer ARE/finality contract first closes at A4; and no
     rung selects an outcome. Causal admissibility is broader than FV realizability, while
-    movable-cut target equivalence does not supply formed-record identity. CCR-N5-S4 is now the
-    next executable campaign object and must attempt formed descent or exact non-equivalence
-    across the two partial/adverse selector receipts. Later swings remain receipt-conditioned.
+    movable-cut target equivalence does not supply formed-record identity. Consume HC-DU-035E:
+    explicitly formed interfaces share one action-safe descent law only through their complete
+    public operational shadows. The law requires nonempty joint realization, certified
+    occurrence/provenance, complete selective restrictions, physical/resource joinability,
+    future-public center screening and benign-refinement naturality. It does not identify the
+    native interface. No-broadcasting forbids a nondisturbing physically faithful broadcastable
+    classical lift of a noncommuting quantum state class. CCR-N5-S5 is now the next executable
+    campaign object: test held-out public, native-interface and capability targets separately
+    across every admissible native lift. Later swings remain receipt-conditioned.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -468,6 +488,8 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
+  - tests/du_typed_public_shadow_descent_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
@@ -567,8 +589,10 @@ lanes:
     selected before any observer token, write, archive or access route. Homogeneous transport
     does not mint content and causal reachability does not select access. HC-DU-033H now returns
     the independent AQFT ladder: localized coupling selects an induction family before any
-    particular instrument, pointer/archive, observer ARE or actual outcome. Consume both
-    receipts in CCR-N5-S4 without changing the selector or formed-record semantics by arena.
+    particular instrument, pointer/archive, observer ARE or actual outcome. HC-DU-035E has
+    consumed both receipts without changing the selector or formed-record semantics by arena:
+    public operational shadows descend, but plural native apparatuses can remain. In
+    CCR-N5-S5, preserve that native plurality while testing held-out targets.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -610,6 +634,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
@@ -672,8 +697,9 @@ lanes:
     separate selector fields. HC-DU-033H supplies the AQFT counterpart: probe preparation and
     effects close one instrument at A3, while observer access, resources, actions and horizon
     close at A4. A clock congruence, induced observable or FV realization alone does not select
-    the observer-access contract. Carry both receipts into CCR-N5-S4. Consume
-    HC-DU-035D: a public record can be final without fibre
+    the observer-access contract. HC-DU-035E has carried both receipts through public-shadow
+    descent while leaving their native lifts plural. In CCR-N5-S5, test observer-accessible
+    targets across every admissible native lift. Consume HC-DU-035D: a public record can be final without fibre
     destruction only relative to a complete selectively center-screening future action class.
     Adding a noncentral recoupling changes the capability contract; omitting an admitted route
     creates false finality. Consume HC-DU-039C: the screened class, one total-phase readout and
@@ -706,6 +732,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
@@ -760,11 +787,13 @@ lanes:
     stabilizer check can be final and mutually compatible while a zero-syndrome noncontractible
     loop retains a nontrivial logical/homological action. Use these as regression controls.
     Never infer full logical-state finality from local defect finality or promote either finite
-    architecture to a universal finality law. CCR-N5-S4 is the prepared next composition object:
-    consume the independently classified Einstein--matter and AQFT interfaces, then attempt one
-    formed-descent statement unchanged across at least two physical arenas and the existing
-    gauge/QEC/distributed controls. If the record, overlap, restriction or public-action types
-    must change by arena, return the exact non-equivalence instead of forcing a common theorem.
+    architecture to a universal finality law. Consume HC-DU-035E as the completed composition
+    object. One six-obligation public-shadow descent contract transfers unchanged across the
+    Einstein--matter, AQFT, gauge, QEC and authenticated-distributed controls, but equality of
+    those shadows does not identify the native interface. Preserve the copyable public quotient,
+    native residual fibre and frozen action envelope. In CCR-N5-S5, test whether held-out targets
+    factor through the descended public shadow, vary only across plural native lifts, or are
+    exposed by one admitted capability action.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -789,6 +818,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -857,8 +887,9 @@ lanes:
     closes at the complete A4 contract. The one-clock plural/two-clock greatest-envelope switch
     remains resource-attributed. HC-DU-033H independently shows that AQFT target--probe dynamics
     selects an induction/realizability family but no particular apparatus record or actual
-    outcome before A3/A4. CCR-N5-S4 must now test formed descent across those typed interfaces
-    or return an exact non-equivalence. Do not identify the physical systems, repeat code variants, or call the logical
+    outcome before A3/A4. HC-DU-035E now establishes formed descent for the public shadows and
+    the exact native-type-erasure non-equivalence. CCR-N5-S5 must test held-out public,
+    native-interface and capability targets separately. Do not identify the physical systems, repeat code variants, or call the logical
     quotient an irreducible ontology result; the code/check/action structure is supplied.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
@@ -909,6 +940,7 @@ lanes:
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
+  - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
@@ -976,10 +1008,11 @@ lanes:
     locally decision-complete. The bounded public-sidecar audit is closed; consume
     HC-DU-036C/036D for physical adjudication only after complete
     attempt visibility, every join, uncertainty, provenance and complete-reset requirement passes.
-    CCR-N5-S5 is only a prepared downstream adjudicator: it may update a paper or prediction
-    horizon only after S1--S4 return a source-pinned reconstruction, selection theorem,
-    non-equivalence, or finite class-relative remainder. The campaign scaffold itself creates no
-    paper seed or priority change.
+    CCR-N5-S5 is now the executable downstream adjudicator because S1--S4 have returned the
+    source-pinned selector ladders and HC-DU-035E public-shadow/native-non-lift result. It may
+    update a paper or prediction horizon only if its own held-out target analysis earns a scoped
+    reconstruction, selected structure, or finite class-relative remainder. The campaign
+    scaffold and HC-DU-035E alone create no paper seed or priority change.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1000,6 +1033,8 @@ lanes:
   - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
   - explorations/physical-arena-selection-tournament-2026-07-26.md
   - explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md
+  - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
+  - tests/du_typed_public_shadow_descent_probe.py
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   do_not: >-
     Do not let paper readiness promote scientific grade, call a necessary target-class bound
@@ -1019,8 +1054,8 @@ lanes:
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
     entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
     the CCR-N5 campaign as branch-conditioned work contracts, not five active runs. CCR-N5-S1
-    through S3 are complete as HC-DU-033F/G/H; only CCR-N5-S4 is now executable, and later
-    swings must consume the preceding receipts.
+    through S4 are complete as HC-DU-033F/G/H and HC-DU-035E; only CCR-N5-S5 is now executable,
+    and later swings must consume the preceding receipts.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1032,6 +1067,7 @@ lanes:
   - AGENTS.md
   - START-HERE.md
   - LANES.yaml
+  - explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
@@ -4814,6 +4850,24 @@ provenance:
     pointer, archive, observer, outcome, actualization theory, ontology, new QFT, new law, new
     physics, prediction, paper, Factory state, model, simulation, hardware, provider action,
     submission, publication or external contact is promoted.
+  rev71_note: >-
+    2026-07-26 (Joe direct chat: Go, execute CCR-N5-S4): completed HC-DU-035E as the typed
+    public-shadow descent and native-interface non-equivalence result. Explicitly formed
+    Einstein--matter, AQFT, material-gauge, stabilizer-QEC and authenticated-distributed
+    interfaces share one unchanged action-safe descent contract only through their complete
+    public operational shadows. Descent requires nonempty joint realization, certified
+    occurrence/provenance identity, complete selective restrictions, physical/resource
+    joinability, future-public center screening and benign-refinement naturality. The same
+    ordered finite obstruction grammar transfers without changing record or action semantics.
+    Equality of descended public shadows does not imply native-interface identity. A classical
+    public record cannot be simultaneously nondisturbing, physically faithful for a
+    noncommuting quantum state class and broadcastable without violating no-broadcasting.
+    Therefore the minimum common architecture is a copyable public quotient plus native
+    residual fibre plus frozen action envelope. Component mathematics is known. CCR-N5-S5, the
+    held-out North-Star reconstruction/remainder adjudication, is now the sole next executable
+    campaign object. No universal public-reality law, endogenous selector, actualization theory,
+    ontology, new law, new physics, prediction, paper, Factory state, model, simulation,
+    hardware, provider action, submission, publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

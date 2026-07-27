@@ -1183,6 +1183,66 @@ controlled lumpability. Regional action algebras, boundaries, formation
 couplings, archives, and the future action class remain unselected. See
 `../explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md`.
 
+### `HC-DU-035E` — Typed Public-Shadow Descent and Native Non-Lift
+
+`CCR-N5-S4` applies the same formed-descent contract to the completed
+Einstein--matter, localized-AQFT, material-gauge, stabilizer-QEC, and
+authenticated-distributed controls.
+
+The maximum unchanged common object is the **public operational shadow** of
+an explicitly formed interface. For a finite cover, it descends into an
+autonomous action-safe regional public process when:
+
+1. the complete local interfaces have a nonempty joint lawful realization;
+2. overlap occurrence identity and provenance are certified;
+3. restrictions preserve complete selective processes rather than values or
+   effects alone;
+4. the interfaces coexist under one observer and componentwise resource
+   contract;
+5. every admitted future public effect factors through the joined public
+   record; and
+6. the verdict is natural under benign refinement.
+
+The exact first-failure return is one of:
+
+```text
+NO_FORMED_LOCAL_INTERFACE
+EMPTY_JOINT_REALIZATION
+OCCURRENCE_OR_PROVENANCE_MISMATCH
+SELECTIVE_RESTRICTION_MISMATCH
+JOINT_RESOURCE_OR_INTERFACE_FAILURE
+PUBLIC_ACTION_LEAK
+REFINEMENT_NONNATURAL
+PUBLIC_SHADOW_DESCENDS.
+```
+
+This is the full-cover/identity/resource extension of
+`HC-DU-035D/036H`. Its sheaf, process, center-screening, marginal, QEC, and
+BFT components are known.
+
+The exact non-equivalence is the native lift. A classical public record is
+copyable. If it were also a nondisturbing extraction of an arbitrary
+noncommuting quantum state and physically decodable into two action-faithful
+native marginals, it would broadcast that state family. No-broadcasting
+forbids this. Therefore the smallest honest cross-arena architecture is
+
+\[
+(\text{copyable public quotient},
+ \text{native residual fibre},
+ \text{frozen action envelope}),
+\]
+
+not one type-erased universal ledger. Public descent can coexist with a
+gauge-interior fibre, QEC logical quotient, AQFT apparatus plurality,
+Einstein--matter archive plurality, or distributed provenance/route
+plurality.
+
+This is a scoped grade-4 structural necessity/no-go. It does not establish a
+universal public-reality law, select the native interface, reconstruct the
+microscopic source, or choose an actual outcome. `CCR-N5-S5` must test public
+targets, native-interface targets, and capability targets separately. See
+`../explorations/typed-public-shadow-descent-and-native-interface-non-equivalence-2026-07-26.md`.
+
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
 For a declared finite-dimensional or finitely presented class, prove one:
@@ -2566,12 +2626,12 @@ instrument, formed archive, and observer ARE first close at later antecedent
 rungs. Do not fit a larger sensor matrix or detector to the target.
 
 The branch-aware next-five campaign now gives that successor an exact
-sequence. Its first three stages are complete as `HC-DU-033F/G/H`; the next
-stage attempts formed sharp descent or exact non-equivalence across the
-independently typed interfaces, followed by a North-Star held-out
-reconstruction/remainder adjudication. The two partial/adverse physical
-selection receipts are inputs rather than failures to manufacture a positive
-branch. See
+sequence. Its first four stages are complete as `HC-DU-033F/G/H` and
+`HC-DU-035E`. The formed-descent stage found one common public-shadow law
+plus an exact native-type-erasure obstruction. The next stage is the
+North-Star held-out reconstruction/remainder adjudication. The partial and
+adverse physical-selection receipts remain inputs rather than failures to
+manufacture a positive branch. See
 `../explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md`.
 
 See
@@ -2597,6 +2657,14 @@ See
 | `H-CCR-14` | Added authenticated connectivity can expose loop frustration and reduce path-independent public capacity; a harder finality layer restores capability only by rejecting, repairing, recording, or quotienting the loop syndrome. | The effect disappears in every noisy, adversarial, and physical realization once the full protocol and resource ledger are frozen. |
 | `H-CCR-15` | Every finite layered-finality effect either factors through an enlarged standard quantum process carrying its history, route, environment and control registers, or leaves a finite post-causal-break witness after all admitted quantum and classical memories are re-prepared while entanglement and no-signalling are preserved. | A retained register, incomplete process boundary or signalling nonlinear rule absorbs every proposed residual. |
 | `H-CCR-16` | Relative to a declared cover, upper task, access class, adversary, and resource ledger, regional certified causal networks compose into an action-safe higher-level object exactly when their overlap data are compatible, their certificates have independent adversarial support, their boundary summaries are action-sufficient, and every loop either descends or carries an explicit provenance/logical lift; otherwise a finite typed obstruction identifies what is missing. | The conditions are defined to force composition, change meaning between quantum and distributed fixtures, fail under benign refinement, or require an unbounded or target-defined obstruction in the declared class. |
+
+**`H-CCR-16` scoped resolution.** `HC-DU-035E` establishes the unchanged
+public-shadow form of the hypothesis and its finite first-obstruction grammar
+across five arenas. It also refutes the stronger native-type-erasure reading:
+a copyable classical public object cannot be a nondisturbing, physically
+faithful lift of a noncommuting quantum state class. The open part is whether
+the descended public shadow reconstructs held-out observer-accessible
+targets, or whether a native fibre survives every admissible refinement.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, and `H-CCR-16` now use the `HC-DU-039A/039B` ordering. First
@@ -3234,6 +3302,12 @@ HC-DU-035D SELECTIVE CENTER-SCREENING REGIONAL FINALITY AND FIRST-LEAK LOCALIZAT
 SELECTIVE CENTER SCREENING COMPOSES WHILE RETAINING NONCOMMUTATIVE FIBRES
 AGGREGATE CENTER PRESERVATION DOES NOT IMPLY SELECTIVE FINALITY
 BLOCKWISE LEAKAGE MARGIN EQUALS TWICE OPERATOR-NORM DISTANCE TO THE CENTER
+HC-DU-035E TYPED PUBLIC-SHADOW DESCENT AND NATIVE NON-LIFT EXACT
+ONE SIX-OBLIGATION PUBLIC DESCENT CONTRACT TRANSFERS ACROSS FIVE ARENAS
+PUBLIC-SHADOW EQUALITY DOES NOT IMPLY NATIVE-INTERFACE IDENTITY
+NO-BROADCASTING FORBIDS A NONDISTURBING PHYSICALLY FAITHFUL BROADCASTABLE
+CLASSICAL LIFT OF A NONCOMMUTING QUANTUM STATE CLASS
+MINIMUM COMMON OBJECT IS PUBLIC QUOTIENT PLUS NATIVE FIBRE PLUS ACTION ENVELOPE
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS
