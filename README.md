@@ -277,14 +277,22 @@ current results establish the starting boundary, not the answer:
   originally queued `N5-RS-P2`, the minimum-premise and whole-portfolio
   pivot. Joe has now interposed the eighteen-lens
   [stochastic/consensus/complexity/cryptography sequence](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-  Only `N5-SCF-P1`, the dependency-sensitive amplification and certificate
-  no-recovery boundary, is executable. Its later four positions are
-  conditional; `N5-RS-P2` is deferred, not canceled
+  `N5-SCF-P1` is complete as `HC-DU-047`. It corrects the no-minting premise:
+  individual insufficiency does not imply joint insufficiency, because XOR
+  and secret-sharing correlations can be jointly exact while every local
+  marginal is uninformative. Nothing downstream can recover a target absent
+  from the complete joint admitted input. IID evidence amplifies; copies,
+  common shocks, clustered origins, stigmergic formation error, adversarial
+  sampling, and cryptographic functionality obey their separately frozen
+  bounds. Only `N5-SCF-P2`, synergy-preserving gossip/DAG provenance and
+  knowledge, is executable. Its later three positions are conditional;
+  `N5-RS-P2` is deferred, not canceled
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
   [completion-transfer result](explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md);
   [host-closeout result](explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md);
+  [joint-input result](explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md);
   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,

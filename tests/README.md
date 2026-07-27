@@ -1837,3 +1837,40 @@ exact-risk, and archive-relocation proofs. It is not the proof itself, a
 microscopic environment simulation, a universal record no-go, evidence of
 new physics, a prediction, a paper promotion, or authority for hardware or
 external action.
+
+## HC-DU-047 joint-input no-minting and dependency-sensitive amplification
+
+`du_joint_input_amplification_probe.py` preserves the exact finite controls
+behind the stochastic/consensus Position-1 result:
+
+- every downstream deterministic certificate remains measurable through the
+  common source record;
+- every tested binary stochastic garbling has Bayes risk no lower than its
+  input experiment;
+- XOR and \(2\)-of-\(3\) Shamir sharing recover a target from a joint tuple
+  while every individual marginal is target-independent;
+- IID majority amplifies, while duplication, common shock, and clustered
+  origin limit or eliminate the gain;
+- three exchangeable pairwise-independent laws with the same marginal and
+  pairwise moments have different majority tails;
+- stigmergic replication obeys the exact formation-plus-readout error law and
+  approaches the formation-error floor;
+- uniform and eclipse sampling differ at fixed population and sample size;
+  and
+- threshold certificates, FHE/MPC functions, and zero-knowledge transcripts
+  do not reconstruct physical targets absent from their complete admitted
+  inputs.
+
+Run:
+
+```bash
+python3 tests/du_joint_input_amplification_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_joint_input_amplification_result.json` and reports `24/24`.
+Passing is regression coverage for the analytic factorization, synergy,
+dependence, stigmergy, sampling, and cryptographic boundaries. It is not a
+network simulator, a cryptographic implementation, a physical model, a
+universal effective-support law, new physics, a prediction, a paper
+promotion, or authority for hardware or external action.

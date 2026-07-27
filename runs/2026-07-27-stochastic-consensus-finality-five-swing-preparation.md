@@ -6,6 +6,8 @@ work_id: N5-SCF-PREP
 authority: "Joe direct chat: prepare five swings using Science Council and distributed-systems lenses"
 scaffold: "../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md"
 next_work: N5-SCF-P1
+successor_result: HC-DU-047
+current_next_work: N5-SCF-P2
 deferred_work: N5-RS-P2
 claim_state_change: none
 paper_state_change: none
@@ -45,7 +47,7 @@ The eighteen lenses converged on three boundaries:
 
 ```text
 large N can amplify independently present target-sensitive evidence
-large N cannot recover a distinction absent from every admitted input channel
+initial wording: large N cannot recover a distinction absent from every admitted input channel
 
 collective order can be weakly emergent from a complete microprocess
 collective surprise or a finite threshold does not establish strong emergence
@@ -54,6 +56,16 @@ or a universality class
 cryptography can certify, conceal, compute, or distribute opening authority
 cryptography does not prove the physical truth or completeness of its inputs
 ```
+
+### Successor correction
+
+`N5-SCF-P1` subsequently completed as `HC-DU-047` and corrected the first
+boundary. “Absent from every participant individually” is not enough: XOR
+and threshold-secret-sharing correlations can make the joint tuple exact
+while every local marginal is uninformative. The valid no-minting premise is
+absence from the **complete joint admitted input**. The active successor is
+`N5-SCF-P2`, Synergy-Preserving Gossip/DAG Provenance and Knowledge. See
+[`HC-DU-047`](../explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md).
 
 Distributed layers then add different typed guarantees:
 
@@ -73,6 +85,8 @@ No guarantee may be silently credited to another layer.
 The primary-source audit covered:
 
 - concentration under independence and partial dependence;
+- concentration under specified limited independence;
+- multivariate synergy and complementary-information controls;
 - epidemic/rumor dissemination;
 - asynchronous consensus impossibility;
 - partial synchrony and failure detectors;
@@ -100,8 +114,8 @@ P4  capability-relative interest-managed regional views
 P5  DU physical collision and portfolio handoff
 ```
 
-Only `N5-SCF-P1` is executable. Later positions remain conditional and do not
-yet receive run identities.
+At preparation time, only `N5-SCF-P1` was executable. Later positions were
+conditional and had not yet received run identities.
 
 ## Triple-diamond disposition
 
@@ -142,9 +156,9 @@ Every later position must freeze:
   and
 - the meaning-preserving bridge or exact non-unification with physics.
 
-## Routing
+## Routing at preparation time
 
-The sole next executable work object is:
+At preparation time, the sole next executable work object was:
 
 ```text
 N5-SCF-P1
@@ -153,6 +167,7 @@ Dependency-Sensitive Amplification and Certificate No-Recovery
 
 `N5-RS-P2` is deferred, not canceled. Position 5 must return a handoff that
 resumes, retypes, or recommends retirement of that portfolio-pivot object.
+The successor correction above now governs current routing.
 
 ## Validation
 

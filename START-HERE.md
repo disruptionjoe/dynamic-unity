@@ -104,7 +104,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 182
+Finality, Temporal Issuance, or Possibility to Capability. It records 185
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -388,14 +388,19 @@ What *has* been earned is a strong finite control stack:
   initially queued `N5-RS-P2`, the mandatory
   minimum-premise/whole-portfolio pivot. Joe then interposed the eighteen-lens
   [stochastic/consensus/complexity/cryptography scaffold](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-  Only `N5-SCF-P1`, dependency-sensitive amplification and certificate
-  no-recovery, is executable; later `N5-SCF` positions remain conditional and
-  `N5-RS-P2` is deferred
+  `N5-SCF-P1` is complete as `HC-DU-047`. Individual insufficiency does not
+  imply joint insufficiency: XOR and secret-sharing correlations can be
+  jointly exact while every local marginal is uninformative. The valid
+  no-minting premise is absence from the complete joint admitted input.
+  Only `N5-SCF-P2`, synergy-preserving gossip/DAG provenance and knowledge,
+  is executable; later positions remain conditional and `N5-RS-P2` is
+  deferred
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
   [completion transfer](explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md);
   [host closeout](explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md);
+  [joint-input result](explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md);
   [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
@@ -786,10 +791,12 @@ injective, resource-expanded contract. `ECR-N5-S5` is complete as
 `HC-DU-046`: the first completed cycle is the exact first historical failure,
 the witness is robust, and archive relocation proves that this host does not
 select its accessible historical interface. The host closes as
-`SELECTION_OR_FORMATION_OBSTRUCTION`. Joe has interposed the
-`N5-SCF` stochastic/consensus/complexity/cryptography sequence. Only
-`N5-SCF-P1`, the dependency-sensitive amplification and certificate
-no-recovery boundary, is executable; `N5-RS-P2` is deferred.
+`SELECTION_OR_FORMATION_OBSTRUCTION`. `N5-SCF-P1` is complete as
+`HC-DU-047`: downstream protocols cannot recover a target absent from the
+complete joint input, but complementary source-formed shares can be jointly
+sufficient while every participant is individually insufficient. Only
+`N5-SCF-P2`, synergy-preserving gossip/DAG provenance and knowledge, is
+executable; `N5-RS-P2` is deferred.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -913,10 +920,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046`: a fresh-output completion can form history, but the host does not select completion, epoch, archive routing, or access. The robust host verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`. Use `N5-SCF-P1` to prove what aggregation and cryptographic hardening cannot mint; do not fit another detector, code, or archive. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047`: the host does not select completion, epoch, archive routing, or access; downstream layers cannot mint a target absent from the joint input, while complementary source-formed shares remain a live joint-record route. Use `N5-SCF-P2` to type what gossip/DAG provenance preserves; do not fit another detector, code, or archive. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, cryptographic proof, or threshold certificate is not an observer-access contract. Keep route, authentication, decoder, disclosure, actions, resources, and horizon explicit. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `N5-SCF` now separates concentration, propagation, DAG knowledge, metastability, cryptographic hardening, emergence, and capability-relative views before any physical translation. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-046` preserves completion-invariant Markov future closure, proves robust historical failure, and closes this host. `N5-SCF-P1` is the sole next object; the physical collision occurs only after the distributed/complexity/cryptographic layers are typed. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-046` closes the first host; `HC-DU-047` separates joint-source synergy from downstream no-minting. `N5-SCF-P2` is the sole next object; the physical collision occurs only after the distributed/complexity/cryptographic layers are typed. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -960,7 +967,8 @@ channels; they are not lanes and do not create a second priority system.
    [N5-RS preparation](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
    for its approach and downstream branch logic, then read the interposed
    [N5-SCF preparation](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
-   Only `N5-SCF-P1` is executable. Do not activate later `N5-SCF` positions
+   `N5-SCF-P1` is complete as `HC-DU-047`. Only `N5-SCF-P2` is executable.
+   Do not activate later `N5-SCF` positions
    or resume deferred `N5-RS-P2` before the appropriate predecessor receipt.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).

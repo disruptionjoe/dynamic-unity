@@ -316,17 +316,19 @@ Before acting, a new agent must be able to state:
 
 1. the ratified Purpose and North Star;
 2. the honest current evidence boundary;
-3. the live research bottleneck: execute only `N5-SCF-P1`, the
-   dependency-sensitive amplification and certificate no-recovery boundary.
-   Prove what large populations, correlated sampling, stigmergic traces,
-   zero-knowledge verification, homomorphic/MPC evaluation, and threshold
-   opening can amplify or certify without creating a distinction absent from
-   every admitted source record. Preserve `N5-RS-P2`, the minimum-premise and
-   whole-DU portfolio pivot, as deferred until the five-position `N5-SCF`
-   sequence returns its cross-arena handoff. Do not fit another archive to the
-   closed metastable host, infer strong emergence from a finite threshold, map
-   a distributed protocol directly to quantum physics, or build a simulator
-   before an exact local proof boundary requires it. For paper work separately
+3. the live research bottleneck: `N5-SCF-P1` is complete as `HC-DU-047`.
+   Its correction is load-bearing: individual insufficiency does not imply
+   joint insufficiency; XOR and secret-sharing correlations can be jointly
+   sufficient while every local marginal is uninformative. The valid
+   no-minting premise is absence from the complete joint admitted input.
+   Execute only `N5-SCF-P2`, Synergy-Preserving Gossip/DAG Provenance and
+   Knowledge. Preserve `N5-RS-P2`, the minimum-premise and whole-DU portfolio
+   pivot, as deferred until the five-position `N5-SCF` sequence returns its
+   cross-arena handoff. Do not fit another archive to the closed metastable
+   host, infer strong emergence from a finite threshold, map a distributed
+   protocol directly to quantum physics, infer source truth from a signature,
+   or build a simulator before an exact local proof boundary requires it. For
+   paper work separately
    retain the nearer CSG tail hardening and higher-ceiling
    interventional-sufficiency flagship; a cloud pilot is optional calibration
    and physical adjudication remains partner-gated;

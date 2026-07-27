@@ -1,0 +1,176 @@
+{
+  "checks": [
+    {
+      "detail": "same common record, different target witness exists",
+      "name": "target_not_constant_on_common_record_fibres",
+      "passed": true
+    },
+    {
+      "detail": "exhausted all 16 binary functions on the two-bit joint-input alphabet",
+      "name": "all_downstream_binary_certificates_remain_common_record_measurable",
+      "passed": true
+    },
+    {
+      "detail": "no exhausted downstream certificate admits a target decoder",
+      "name": "no_downstream_certificate_recovers_nonfactorable_target",
+      "passed": true
+    },
+    {
+      "detail": "1/4",
+      "name": "base_record_bayes_risk",
+      "passed": true
+    },
+    {
+      "detail": {
+        "garblings": 25,
+        "maximum_risk": "1/2",
+        "minimum_risk": "1/4"
+      },
+      "name": "every_tested_stochastic_garbling_is_blackwell_no_better",
+      "passed": true
+    },
+    {
+      "detail": "1/2",
+      "name": "xor_each_individual_view_is_target_independent",
+      "passed": true
+    },
+    {
+      "detail": "0/1",
+      "name": "xor_joint_view_recovers_target_exactly",
+      "passed": true
+    },
+    {
+      "detail": "for each coordinate and secret, every field value occurs once as the slope varies",
+      "name": "shamir_single_share_is_secret_independent",
+      "passed": true
+    },
+    {
+      "detail": "75 pair reconstructions checked exactly over F_5",
+      "name": "shamir_every_two_share_pair_recovers_secret",
+      "passed": true
+    },
+    {
+      "detail": {
+        "1": "1/4",
+        "15": "2321945/134217728",
+        "3": "5/32",
+        "5": "53/512",
+        "9": "6413/131072"
+      },
+      "name": "iid_majority_amplifies_positive_signal",
+      "passed": true
+    },
+    {
+      "detail": "oddly many exact copies have the same decision as their one origin",
+      "name": "duplicating_one_noisy_origin_does_not_amplify",
+      "passed": true
+    },
+    {
+      "detail": "if all nodes read T xor B, majority error is P(B=1)=1/4 for every odd N",
+      "name": "common_shock_sets_population_independent_error_floor",
+      "passed": true
+    },
+    {
+      "detail": {
+        "fifteen_independent_origins": "2321945/134217728",
+        "three_independent_origins_each_replicated_five_times": "5/32"
+      },
+      "name": "equal_cluster_replication_reduces_to_origin_count",
+      "passed": true
+    },
+    {
+      "detail": "N=15 in both cases, but three independent origins are much weaker than fifteen",
+      "name": "raw_population_size_overstates_clustered_support",
+      "passed": true
+    },
+    {
+      "detail": {
+        "A": [
+          "2/1",
+          "8/3"
+        ],
+        "B": [
+          "2/1",
+          "8/3"
+        ],
+        "IID": [
+          "2/1",
+          "8/3"
+        ]
+      },
+      "name": "three_exchangeable_laws_have_same_marginal_and_pairwise_moments",
+      "passed": true
+    },
+    {
+      "detail": {
+        "A": "8/27",
+        "B": "2/9",
+        "IID": "7/27"
+      },
+      "name": "same_pairwise_statistics_have_different_majority_errors",
+      "passed": true
+    },
+    {
+      "detail": {
+        "1": "13/50",
+        "3": "229/1250",
+        "9": "451817/3906250"
+      },
+      "name": "stigmergic_error_obeys_exact_formation_plus_readout_law",
+      "passed": true
+    },
+    {
+      "detail": {
+        "formation_floor": "1/10",
+        "nine_reader_error": "451817/3906250"
+      },
+      "name": "stigmergic_replication_approaches_but_does_not_cross_formation_floor",
+      "passed": true
+    },
+    {
+      "detail": "19/84",
+      "name": "uniform_without_replacement_sample_error",
+      "passed": true
+    },
+    {
+      "detail": {
+        "eclipse_error": "1/1",
+        "same_population": "six correct, three wrong",
+        "same_sample_size": 3,
+        "uniform_error": "19/84"
+      },
+      "name": "eclipse_route_can_force_the_same_size_sample_wrong",
+      "passed": true
+    },
+    {
+      "detail": "same valid certificate, different provenance/control-origin target",
+      "name": "threshold_certificate_does_not_reconstruct_control_origin_rank",
+      "passed": true
+    },
+    {
+      "detail": "exhausted all binary functions on the joint two-bit input alphabet",
+      "name": "mpc_fhe_cannot_recover_target_absent_from_joint_input",
+      "passed": true
+    },
+    {
+      "detail": "a transcript simulatable from the same statement cannot distinguish same-statement histories",
+      "name": "zero_knowledge_statement_transcript_does_not_certify_omitted_physical_target",
+      "passed": true
+    },
+    {
+      "detail": "the apparent repair adds a new target-sensitive channel conditional on Q",
+      "name": "target_sensitive_seed_breaks_downstream_markov_premise",
+      "passed": true
+    }
+  ],
+  "checks_passed": 24,
+  "checks_total": 24,
+  "claim_id": "HC-DU-047",
+  "grade": "exact finite regression for known factorization, Blackwell/data-processing, synergy, concentration, dependency, stigmergic, sampling, and cryptographic controls",
+  "local_model_gate": {
+    "disposition": "PROOF_CERTIFICATE_OUTSIDE_RESEARCH_MODEL_ADMISSION",
+    "reason": "the analytic finite theorems and counterexamples are stated independently; this script only exhausts or evaluates their exact rational controls"
+  },
+  "run_id": "N5-SCF-P1",
+  "status": "PASS"
+}

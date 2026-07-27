@@ -2305,6 +2305,66 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   and
   `metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md`.
 
+## CONCEPT-DU-014 — joint-source sufficiency and dependency-sensitive finality
+
+- **Concept (articulation-invariant).** A regional target can be absent from
+  every individual record yet exactly present in their joint correlation.
+  Conversely, no downstream stochastic, distributed, or cryptographic layer
+  can recover a target absent from the complete joint admitted input.
+  Individual access, distributed sufficiency, independent evidence,
+  replication, certification, disclosure, and action-safe finality remain
+  separately typed.
+- **Concept INVARIANT.**
+  1. Never infer joint insufficiency from individual insufficiency.
+  2. Credit threshold or multiparty recovery only to target-sensitive
+     information present in the joint source tuple.
+  3. Treat copies, common shocks, clusters, higher-order dependence,
+     sampler topology, and adversarial route control as separate
+     amplification premises.
+  4. A shared stigmergic trace can be independently readable while retaining
+     a common formation-error floor.
+  5. Zero knowledge can verify without disclosure; FHE/MPC can compute
+     without individual access; threshold cryptography can distribute
+     authority. None certifies completeness or independent physical
+     provenance of the admitted inputs.
+  6. “Effective support” is model-relative. Raw population, marginal
+     accuracy, and pairwise correlation do not determine threshold tails.
+- **Formalization FAMILY.**
+  1. deterministic kernel/fibre factorization;
+  2. stochastic Markov garbling and Blackwell decision order;
+  3. XOR, secret-sharing, and other synergistic encodings;
+  4. IID, common-shock, clustered, exchangeable, and adversarially sampled
+     evidence;
+  5. stigmergic formation/readout channels;
+  6. signed gossip and hash-DAG preservation of correlation and provenance;
+  7. zero-knowledge ancestry statements and threshold-origin controls; and
+  8. capability-relative action targets over incomplete regional views.
+- **2026-07-27 exact first boundary.** `HC-DU-047` proves deterministic and
+  stochastic joint-input no-minting and installs exact XOR and
+  \(2\)-of-\(3\) Shamir positive controls. IID evidence concentrates, while
+  copied/common-shock evidence does not; clustered replication depends on
+  origin count; exchangeable pairwise-independent laws can have different
+  majority tails; stigmergic replication approaches the trace-formation
+  error floor; and uniform versus eclipse sampling changes risk at fixed
+  population and sample size. The result corrects the earlier wording from
+  “absent from every participant” to “absent from the complete joint
+  admitted input.”
+- **Next discriminator.** `N5-SCF-P2` asks what plain gossip, signed gossip,
+  hash-DAG ancestry, and privacy-preserving provenance proofs must preserve
+  to distinguish source-formed joint sufficiency from coincidental,
+  duplicated, or target-independent values.
+- **Nearest terrain.** Function factorization, Blackwell comparison,
+  data processing, concentration under dependence, multivariate synergy,
+  secret sharing, zero knowledge, secure computation, threshold
+  cryptography, and distributed knowledge absorb the component mathematics.
+  Potential DU value lies in the unchanged physical
+  formation--joint-sufficiency--provenance--capability contract.
+- **Status:** **CONCEPT-OPEN / JOINT-INPUT NO-MINTING AND SYNERGISTIC-RECOVERY
+  CONTROLS INSTALLED / NO UNIVERSAL EFFECTIVE-SUPPORT SCALAR / GOSSIP-DAG
+  PROVENANCE COLLISION NEXT / NO CONSENSUS NOVELTY, STRONG EMERGENCE,
+  ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER PROMOTION.** See
+  `joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md`.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.

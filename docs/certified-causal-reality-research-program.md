@@ -1513,8 +1513,9 @@ portfolio pivot. Joe subsequently interposed the
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
 to separate stochastic amplification, propagation, DAG knowledge,
 metastability, Byzantine/cryptographic hardening, complexity emergence, and
-capability-relative views before the pivot. Only `N5-SCF-P1` is executable;
-`N5-RS-P2` is deferred rather than canceled.
+capability-relative views before the pivot. `N5-SCF-P1` is complete as
+`HC-DU-047`; only `N5-SCF-P2` is executable. `N5-RS-P2` is deferred rather
+than canceled.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -1575,6 +1576,75 @@ FULL-ENVIRONMENT CONTROL: INJECTIVE_TOMOGRAPHY_ONLY
 This is final for the declared host and robustness family, not a universal
 record no-go. `H-CCR-17` remains open outside it. See
 `../explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md`.
+
+### `HC-DU-047` — Joint-Input No-Minting and Synergistic Recovery
+
+For deterministic records, if the complete participant tuple \(R\) factors
+through a common source record \(Q\), and every downstream certificate \(C\)
+factors through \(R\), then:
+
+\[
+R=f\circ Q,\quad C=g\circ R
+\quad\Longrightarrow\quad
+C=(g\circ f)\circ Q.
+\]
+
+Any target reconstructed from \(C\) was already measurable through \(Q\).
+The stochastic version is the corresponding Markov-garbling/Blackwell
+boundary:
+
+\[
+H\longrightarrow Q\longrightarrow R\longrightarrow C.
+\]
+
+No decision based on \(C\) improves on the optimal decision based on \(Q\).
+Target-sensitive protocol randomness conditional on \(Q\) is a new input and
+falls outside the premise.
+
+The central correction is equally exact:
+
+```text
+individual insufficiency does not imply joint insufficiency
+```
+
+For independent uniform bits \(T,U\), the shares
+\(R_1=U,\ R_2=T\oplus U\) are individually target-independent while their
+tuple reconstructs \(T\). A \(2\)-of-\(3\) Shamir scheme gives the threshold
+control. Threshold or multiparty recovery therefore decodes source-formed
+joint information; it does not mint information.
+
+IID target-sensitive evidence concentrates. Exact copies and a common shock
+do not. Equal-size clusters amplify according to independent origin count,
+not raw replica count. Three exchangeable pairwise-independent laws with the
+same marginal and pairwise moments have different majority tails, so no
+universal effective-support scalar follows from \(N\), accuracy, and pairwise
+correlation alone.
+
+For one stigmergic mark with formation error \(\delta\) and \(N\)-reader
+majority readout error \(e_N\), final target error is:
+
+\[
+\delta+(1-2\delta)e_N.
+\]
+
+Replication drives readout error down while preserving the formation-error
+floor. Uniform and eclipse sampling likewise give different risk at fixed
+population and sample size.
+
+Zero knowledge can verify without disclosure; FHE/MPC can compute a
+synergistic function without individual access; threshold cryptography can
+distribute authority. None reconstructs a target absent from the complete
+joint input or certifies independent physical provenance without an added
+formation/attestation premise.
+
+The result is known component mathematics organized as a scoped
+formation--joint-sufficiency--provenance--capability boundary. It is not a new
+consensus theorem, cryptographic primitive, emergence law, physics result, or
+ontology. See
+`../explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md`.
+
+The sole next work object is `N5-SCF-P2`,
+Synergy-Preserving Gossip/DAG Provenance and Knowledge.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -3031,6 +3101,14 @@ weights, lossless relabeling, benign subdivision, exact approximate-leak
 decision risk, and archive relocation. The host-only antecedent cannot select
 an accessible interface changed by archive routing. The final host verdict is
 `SELECTION_OR_FORMATION_OBSTRUCTION`.
+`HC-DU-047` then closes the downstream amplification question while correcting
+one overbroad premise. If the complete joint participant input is only a
+function or garbling of the incomplete endpoint record, no stochastic,
+distributed, or cryptographic layer can reconstruct occurrence. But
+individual insufficiency is not enough: source-formed XOR or secret-sharing
+correlations can make occurrence jointly exact while every local marginal is
+uninformative. The next route must therefore audit joint source formation and
+provenance, not merely local record completeness or replica count.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
 is complete. Redundant records of consistent histories, quantum trajectories,
@@ -3041,9 +3119,9 @@ The prepared
 initially queued `N5-RS-P2`, the minimum-premise compiler and whole-DU
 portfolio pivot. The interposed
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
-now advances only `N5-SCF-P1`, the dependency-sensitive amplification and
-certificate no-recovery boundary. It does not pre-activate later `N5-SCF`
-positions; `N5-RS-P2` remains deferred.
+has completed `N5-SCF-P1` as `HC-DU-047`. It now advances only
+`N5-SCF-P2`, Synergy-Preserving Gossip/DAG Provenance and Knowledge. It does
+not pre-activate later `N5-SCF` positions; `N5-RS-P2` remains deferred.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3725,7 +3803,15 @@ PARTIAL FULL-HISTORY LEAK BAYES ERROR EQUALS ONE-MINUS-LAMBDA TIMES ENDPOINT AMB
 EXACT LEAK REPAIR OCCURS ONLY AT INJECTIVE REVELATION
 HOST-INVARIANT ARCHIVE RELOCATION OBSTRUCTS INTERFACE SELECTION
 METASTABLE HOST FINAL VERDICT SELECTION_OR_FORMATION_OBSTRUCTION
-N5-SCF-P1 DEPENDENCY-SENSITIVE AMPLIFICATION AND CERTIFICATE NO-RECOVERY NEXT
+HC-DU-047 JOINT-INPUT NO-MINTING EXACT
+INDIVIDUAL INSUFFICIENCY DOES NOT IMPLY JOINT INSUFFICIENCY
+XOR AND SHAMIR SYNERGISTIC RECOVERY CONTROLS EXACT
+IID AMPLIFIES; COPIES COMMON SHOCKS AND CLUSTERS DO NOT INHERIT RAW-N GAIN
+PAIRWISE STATISTICS DO NOT DETERMINE THRESHOLD TAILS
+STIGMERGIC REPLICATION PRESERVES THE FORMATION-ERROR FLOOR
+ZERO KNOWLEDGE SECURE COMPUTATION AND THRESHOLD AUTHORITY DO NOT CERTIFY OMITTED PHYSICAL INPUTS
+NO UNIVERSAL EFFECTIVE-SUPPORT SCALAR EARNED
+N5-SCF-P2 SYNERGY-PRESERVING GOSSIP DAG PROVENANCE AND KNOWLEDGE NEXT
 N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT DEFERRED
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING

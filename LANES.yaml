@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 80
+manifest_revision: 81
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -89,12 +89,16 @@ stochastic_consensus_finality_sequence_rule: >-
   homomorphic/MPC and threshold/DKG cryptographers. It preserves HC-DU-035A/035C and asks what
   amplification, propagation, provenance, metastability, hard finality, cryptographic
   verification, concealed computation and capability-relative filtering can add without
-  creating information absent from every input. Only N5-SCF-P1 is executable: prove the
-  dependency-sensitive amplification and certificate no-recovery boundary, including
-  cryptographic no-minting corollaries. Positions 2 through 5 remain conditional. Position 5
-  must collide the unchanged typed stack with one DU physical arena and hand a resume/retype/
-  retire recommendation to deferred N5-RS-P2. No model, hardware, paper or claim is promoted by
-  the preparation.
+  creating information absent from the complete joint admitted input. N5-SCF-P1 is complete as
+  HC-DU-047. It proves deterministic and stochastic joint-input no-minting while correcting the
+  individual-input overreach: XOR and threshold-secret-sharing correlations can be jointly
+  exact while every local marginal is target-independent. IID evidence amplifies; copied,
+  common-shock, clustered, higher-order-dependent, stigmergic and adversarially sampled evidence
+  obey separately frozen bounds, and no universal effective-support scalar is earned. Only
+  N5-SCF-P2, Synergy-Preserving Gossip/DAG Provenance and Knowledge, is executable. Positions 3
+  through 5 remain conditional. Position 5 must collide the unchanged typed stack with one DU
+  physical arena and hand a resume/retype/retire recommendation to deferred N5-RS-P2. No model,
+  hardware, paper, prediction or physics claim is promoted.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -162,7 +166,23 @@ metastable_host_robustness_result_rule: >-
   factor through that antecedent. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION, retain
   MARKOV_OPERATIONAL_CLOSURE as the positive control, and treat A-plus-H repair as
   INJECTIVE_TOMOGRAPHY_ONLY. N5-RS-P2 was the initially queued portfolio pivot, but Joe has
-  interposed N5-SCF. Advance only N5-SCF-P1 and do not fit another archive to this host.
+  interposed N5-SCF. HC-DU-047 has completed Position 1. Advance only N5-SCF-P2 and do not fit
+  another archive to this host.
+joint_input_amplification_result_ref: >-
+  explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md
+joint_input_amplification_result_rule: >-
+  If the complete joint participant input is a function or stochastic garbling of a common
+  record Q, every downstream protocol certificate remains a function or garbling of Q and
+  cannot reconstruct a target that fails on Q fibres. Individual insufficiency is not joint
+  insufficiency: XOR and two-of-three Shamir controls recover a target exactly from a tuple
+  whose individual marginals are target-independent. IID target-sensitive evidence
+  concentrates, while copies and common shocks do not; clustered replication is controlled by
+  origin structure, and marginal accuracy plus pairwise correlation do not determine threshold
+  tails. Stigmergic replication approaches its trace-formation error floor. Zero knowledge,
+  FHE/MPC and threshold cryptography alter verification, computation, disclosure or authority
+  without certifying a physical target absent from the complete joint input. Treat effective
+  support as model-relative. Advance only N5-SCF-P2, which tests what gossip/DAG provenance
+  preserves across synergy and null source worlds.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -587,8 +607,10 @@ lanes:
     leakage obeys an exact Bayes boundary, and host-invariant archive relocation blocks
     interface selection. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION. Joe has
     interposed the N5-SCF stochastic/consensus/complexity/cryptography sequence before the
-    N5-RS-P2 portfolio pivot. Advance only N5-SCF-P1; N5-RS-P2 and its later positions remain
-    deferred and conditional.
+    N5-RS-P2 portfolio pivot. Consume HC-DU-047: no downstream layer recovers a target absent
+    from the complete joint input, but source-formed complementary shares can be jointly
+    sufficient while every local marginal is uninformative. Advance only N5-SCF-P2; N5-RS-P2
+    and its later positions remain deferred and conditional.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -765,10 +787,11 @@ lanes:
     visible/hidden A-only common quotient. It reconstructs only reduced future behavior among
     the frozen targets; historical occurrence fails across completions and count first fails
     inside the visible epoch record. HC-DU-046 closes the host under horizon, weighting,
-    relabeling, subdivision, approximate leakage and archive relocation. Advance only
-    N5-SCF-P1, the dependency-sensitive amplification and certificate no-recovery boundary.
-    N5-RS-P2 is deferred behind the five-swing N5-SCF sequence. Do not begin another
-    mechanism-specific card independently.
+    relabeling, subdivision, approximate leakage and archive relocation. HC-DU-047 proves
+    joint-input no-minting, exact synergistic-recovery controls and dependency-sensitive
+    amplification. Advance only N5-SCF-P2, the synergy-preserving gossip/DAG provenance and
+    knowledge boundary. N5-RS-P2 is deferred behind the five-swing N5-SCF sequence. Do not
+    begin another mechanism-specific card independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -1104,8 +1127,10 @@ lanes:
     visible/hidden common quotient as terminal matter, earns Markov future transfer, and returns
     exact historical occurrence failure plus the two-tier capability leak. HC-DU-046 proves
     the failure is robust and that the host cannot select an interface changed by archive
-    relocation while its own antecedent stays fixed. Advance only N5-SCF-P1; N5-RS-P2 is
-    deferred behind the stochastic/consensus/complexity/cryptography sequence.
+    relocation while its own antecedent stays fixed. HC-DU-047 adds that local insufficiency
+    does not imply joint insufficiency, while any target absent from the complete joint input
+    stays absent downstream. Advance only N5-SCF-P2; N5-RS-P2 is deferred behind the
+    stochastic/consensus/complexity/cryptography sequence.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1242,9 +1267,10 @@ lanes:
     completion-common quotient, Markov-only positive transfer, adverse history transfer and
     two-tier capability leak without creating a paper seed or priority change. HC-DU-046
     completes the robustness adjudication, closes this host as
-    SELECTION_OR_FORMATION_OBSTRUCTION, and leaves H-CCR-17 open outside it. Advance only
-    N5-SCF-P1; the N5-RS-P2 minimum-premise and whole-DU portfolio pivot is deferred until
-    N5-SCF returns its cross-arena handoff.
+    SELECTION_OR_FORMATION_OBSTRUCTION, and leaves H-CCR-17 open outside it. HC-DU-047 adds
+    the joint-input no-minting and synergistic-recovery boundary without paper or prediction
+    promotion. Advance only N5-SCF-P2; the N5-RS-P2 minimum-premise and whole-DU portfolio
+    pivot is deferred until N5-SCF returns its cross-arena handoff.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1296,7 +1322,8 @@ lanes:
     the first completed cycle and every longer horizon; full environment repair is injective
     and resource-expanded. Preserve the host verdict
     SELECTION_OR_FORMATION_OBSTRUCTION and the prepared N5-RS sequence without treating it as a
-    parallel campaign. Preserve the interposed N5-SCF sequence and make only N5-SCF-P1
+    parallel campaign. Preserve completed HC-DU-047 and its individual-versus-joint
+    insufficiency correction. Preserve the interposed N5-SCF sequence and make only N5-SCF-P2
     executable; N5-RS-P2 remains deferred.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
@@ -5263,6 +5290,30 @@ provenance:
     executable. The deterministic certificate passes 16/16 checks. No paper,
     Factory, prediction, hardware, provider, submission, publication or
     external-contact state changed.
+  rev80_note: >-
+    2026-07-27 (Joe direct chat: scaffold the next five swings with Science Council,
+    distributed-systems, complexity and cryptography lenses): prepared the N5-SCF sequence
+    through eighteen inline lenses and a triple diamond. It interposes dependency-sensitive
+    amplification, gossip/DAG provenance, metastable-to-Byzantine hardening,
+    capability-relative interest-managed views, and one final DU physical collision before the
+    deferred N5-RS-P2 portfolio pivot. Only N5-SCF-P1 was made executable. The preparation
+    promoted no claim, model, hardware path, paper, prediction or physics result.
+  rev81_note: >-
+    2026-07-27 (Joe direct chat: Go): completed N5-SCF-P1 as HC-DU-047. Deterministic
+    factorization and stochastic Blackwell/data-processing prove that no downstream protocol
+    recovers a target absent from the complete joint admitted input. The swing corrects the
+    stronger individual-input wording: XOR and two-of-three Shamir controls recover a target
+    exactly from joint correlations while every individual marginal is target-independent.
+    IID evidence concentrates; duplicated and common-shock evidence does not; equal clusters
+    reduce to independent origin count; and three exchangeable pairwise-independent laws with
+    identical marginal and pairwise moments have different majority tails. Stigmergic
+    replication approaches its trace-formation error floor, and uniform versus eclipse
+    sampling differs at fixed population and sample size. Zero knowledge, FHE/MPC and
+    threshold cryptography retain their verification, computation, disclosure and authority
+    functions without certifying an omitted physical target or independent provenance. The
+    exact certificate passes 24/24. Only N5-SCF-P2, Synergy-Preserving Gossip/DAG Provenance
+    and Knowledge, is executable. N5-RS-P2 remains deferred. No paper, prediction, new physics,
+    model, hardware, provider, submission, publication or external-contact state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"

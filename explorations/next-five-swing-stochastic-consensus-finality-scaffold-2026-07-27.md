@@ -1,13 +1,13 @@
 ---
 title: "Next five-swing scaffold: stochastic amplification, layered consensus, and capability-relative finality"
-status: position_1_executable
+status: position_1_complete__position_2_executable
 doc_type: inline_eighteen_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: interpose a stochastic/distributed-systems preparation before N5-RS-P2"
 sequence_id: N5-SCF
-active_position: N5-SCF-P1
+active_position: N5-SCF-P2
 run_plan: "../runs/2026-07-27-stochastic-consensus-finality-five-swing-preparation.md"
-claim_status_change: none
+claim_status_change: "N5-SCF-P1 complete as HC-DU-047; N5-SCF-P2 executable"
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -26,9 +26,10 @@ P4  model capability-relative views through MMO-style interest management and ne
 P5  apply the typed stack to a DU physical-record arena and extract a theorem or exact non-unification
 ```
 
-Only Position 1 is executable, under identity `N5-SCF-P1`. Positions 2--5
-remain conditional work packages. They receive run identities only after the
-preceding result fixes the smallest useful arena and stop condition.
+Position 1 is complete as `HC-DU-047`. Position 2 is now executable under
+identity `N5-SCF-P2`. Positions 3--5 remain conditional work packages and
+receive run identities only after the preceding result fixes the smallest
+useful arena and stop condition.
 
 This sequence does not assume that consensus creates truth, that quantum
 systems vote, or that the universe implements a distributed database. Its
@@ -37,8 +38,14 @@ purpose is narrower and more useful:
 > Determine exactly which distinctions stochastic aggregation, propagation,
 > DAG knowledge, metastable agreement, Byzantine certification, threshold
 > disclosure, and capability-relative filtering can preserve or amplify—and
-> which distinctions no layering can create after every admitted participant
-> has lost them.
+> which distinctions no layering can create after the complete joint
+> admitted input has lost them.
+
+`HC-DU-047` makes that wording load-bearing. Individual insufficiency is not
+joint insufficiency: XOR and threshold-secret-sharing correlations can make a
+target exactly recoverable from the tuple while every participant marginal
+is target-independent. The correct no-minting premise is failure on the
+joint-input fibres.
 
 `N5-RS-P2`, the minimum-premise compiler and whole-DU portfolio pivot, is
 deferred rather than canceled. Position 5 must hand it a sharper premise
@@ -109,12 +116,17 @@ These are inline analytical lenses, not evidence, votes, or simulated people.
 
 ### Eighteen-lens convergence
 
-All eighteen lenses converge on one boundary:
+All eighteen lenses initially suggested one boundary, which Position 1 has
+now corrected:
 
-> Aggregation can amplify independently present signal and protocols can
-> propagate, authenticate, order, lock, disclose, or make that signal safe
-> for declared actions. They cannot recover a distinction that is absent from
-> every admitted input channel.
+> Aggregation can amplify independently present signal, combine
+> complementary source-formed shares, and propagate, authenticate, order,
+> lock, disclose, or make that signal safe for declared actions. It cannot
+> recover a distinction that is absent from the **entire joint admitted
+> input channel**.
+
+The initial intuition—“absent from every participant individually”—is false.
+Synergistic correlations are the exact counterexample.
 
 The possible DU contribution is not that boundary alone; it is a typed
 composition theorem or smallest failure showing where a physical-record
@@ -143,6 +155,8 @@ This is a primary-source orientation surface, not a novelty claim.
 |---|---|---|
 | Independent concentration | [Hoeffding](https://doi.org/10.1080/01621459.1963.10500830) bounds tails for sums of bounded independent variables. | A raw population count does not imply an exponential reliability gain when observations share causes or sampling is adversarial. |
 | Partial dependence | [Janson](https://doi.org/10.1002/rsa.20008) gives large-deviation bounds under explicit dependency structure. | “Weakly correlated” cannot be left qualitative; effective support depends on the dependency graph or another frozen dependence model. |
+| Limited independence | [Schmidt, Siegel, and Srinivasan](https://doi.org/10.1137/S089548019223872X) derive Chernoff--Hoeffding bounds under specified limited-independence conditions. | Pairwise independence alone does not fix majority tails; the order and form of dependence required by a bound must be explicit. |
+| Multivariate synergy | [Williams and Beer](https://arxiv.org/abs/1004.2515) formalize one nonnegative decomposition of redundant, unique, and synergistic information. | An individually uninformative record tuple need not be jointly uninformative. The exact XOR/secret-sharing controls do not depend on one disputed universal synergy measure. |
 | Epidemic dissemination | [Demers et al.](https://doi.org/10.1145/41840.41841) develop epidemic replicated-database maintenance; [Karp et al.](https://pure.mpg.de/view/item_1330885) analyze randomized rumor spreading and its time/communication tradeoff. | Fast spread does not prove agreement, provenance, common knowledge, or truth. |
 | Asynchronous impossibility | [Fischer, Lynch, and Paterson](https://groups.csail.mit.edu/tds/papers/Lynch/jacm85.pdf) show that deterministic consensus cannot guarantee termination in the fully asynchronous crash-failure model, even with one fault. | A practical timeout or observed convergence does not remove the timing premise. |
 | Partial synchrony | [Dwork, Lynch, and Stockmeyer](https://groups.csail.mit.edu/tds/papers/Lynch/jacm88.pdf) recover consensus under explicit partially synchronous timing models. | Liveness obtained after a timing bound or stabilization point is not an assumption-free law. |
@@ -362,6 +376,42 @@ hardware would matter.
 
 ## 7. Position 1 — dependency-sensitive amplification and no-recovery
 
+### Completion receipt
+
+Position 1 is complete as
+[`HC-DU-047`](joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md).
+
+It returns:
+
+```text
+JOINT_INPUT_NO_MINTING
+SYNERGISTIC_RECOVERY_POSITIVE_CONTROL
+DEPENDENCY_SENSITIVE_AMPLIFICATION
+NO_UNIVERSAL_EFFECTIVE_SUPPORT_SCALAR
+```
+
+The exact correction is:
+
+```text
+individual insufficiency != joint insufficiency
+```
+
+XOR and \(2\)-of-\(3\) Shamir controls show exact target recovery from a
+joint tuple whose individual marginals contain no target information.
+Conversely, deterministic factorization and stochastic
+Blackwell/data-processing prove no downstream improvement when the complete
+joint input is a function or garbling of one incomplete record. IID evidence
+concentrates, but copies and common shock do not; clustered replication is
+controlled by origin structure; pairwise independence does not determine
+threshold tails; stigmergic replication approaches the formation-error
+floor; and uniform versus eclipse sampling gives different risk at fixed
+population and sample size. Cryptography can compute synergy, verify without
+disclosure, or distribute authority, but cannot recover a target absent from
+the full joint input.
+
+The 24/24 exact certificate is
+`tests/artifacts/du_joint_input_amplification_result.json`.
+
 ### Identity
 
 ```text
@@ -410,39 +460,59 @@ decision-changing finite case unresolved.
 
 ## 8. Position 2 — propagation, DAG knowledge, and provenance
 
-### Conditional decision
+### Identity
+
+```text
+N5-SCF-P2
+Synergy-Preserving Gossip/DAG Provenance and Knowledge
+```
+
+### Decision
 
 Given the smallest informative Position-1 source, what do epidemic
-propagation and gossip-about-gossip add beyond independent node views?
+propagation and gossip-about-gossip preserve or add beyond local node views?
+Can a protocol distinguish source-formed joint sufficiency from coincidental,
+copied, or target-independent values without importing a new attestation
+oracle?
 
 ### Best approach
 
-1. Use one event set and one fault model across plain gossip, signed gossip,
+1. Freeze two locally indistinguishable source specimens:
+   - a synergy world \(R_1=U,\ R_2=T\oplus U\); and
+   - a null world with uniform local records but no target-binding joint
+     relation.
+2. Use one event set and one fault model across plain gossip, signed gossip,
    hash-DAG ancestry, and virtual-vote views.
-2. Track separately:
+3. Track separately:
    - event delivery;
    - authenticated origin;
+   - source-formation relation;
    - causal ancestry;
    - equivocation detectability;
    - distributed knowledge;
    - common knowledge;
    - total ordering; and
    - action sufficiency.
-3. Hold final delivered values fixed while varying routes and provenance.
-4. Add partitions, eclipse, churn, delayed edges, and duplicated origin.
-5. Test lossless DAG subdivision and benign relay insertion.
-6. Compare direct message propagation with stigmergic environmental traces,
+4. Hold final delivered values fixed while varying routes, target-binding
+   provenance, and duplicated origin.
+5. Add partitions, eclipse, churn, delayed edges, and duplicated origin.
+6. Test lossless DAG subdivision and benign relay insertion.
+7. Compare direct message propagation with stigmergic environmental traces,
    including trace write, evaporation, collision, and forgery.
-7. Add one commitment/zero-knowledge variant that certifies an ancestry or
+8. Add one commitment/zero-knowledge variant that certifies an ancestry or
    consistency predicate without disclosing the complete event path.
-8. Report precisely what the verifier can now act on and what history remains
+9. Report precisely what the verifier can now act on and what history remains
    hidden.
-9. Return the first layer at which each target becomes identifiable.
+10. Return the first layer at which target reconstruction, provenance,
+    distributed knowledge, common knowledge, ordering, and action safety each
+    become identifiable.
 
 ### Stop
 
-Do not call a DAG a physical causal set or a gossip edge entanglement. The
-shared object is the typed information relation only.
+Do not build a network simulator. Do not call a DAG a physical causal set or
+a gossip edge entanglement. Do not infer source truth from a signature. Stop
+after a finite factorization theorem or smallest route/provenance
+counterexample. The shared object is the typed information relation only.
 
 ## 9. Position 3 — metastable confidence to Byzantine hardening
 
@@ -646,8 +716,9 @@ Before any novelty language, collide results with:
 
 | result | response |
 |---|---|
-| Position 1 shows all proposed gains are copies of one incomplete source | Bank the no-recovery boundary; Position 2 studies provenance only if a distinct target remains. |
-| A dependence-robust effective-support theorem survives | Carry it unchanged into Positions 2 and 3. |
+| Position 1 shows all proposed gains are copies of one incomplete source | Completed adversely for those cases: bank joint-input no-minting. |
+| Position 1 finds source-formed joint synergy | Completed positively: Position 2 must preserve the correlation and distinguish its provenance from coincidental values. |
+| A universal dependence-robust effective-support scalar survives | Rejected in general by same-marginal/same-pairwise/different-tail controls; use only model-relative origin/dependency structures. |
 | DAG provenance adds no held-out capability | Stop at a known distributed absorber; do not map it to physics. |
 | Metastable and BFT layers compose only after adding a new trusted interface | Record the first missing arrow; do not call the stack emergent. |
 | Interest-managed views give exact local action closure | Carry the minimal-view theorem to the physical collision. |
@@ -716,13 +787,13 @@ These are `UNRANKED / UNCOMMITTED / NOT_A_CLAIM`:
 
 ## Bottom line
 
-The large-number intuition is useful only after one question is answered:
+The large-number intuition is useful only after two questions are answered:
 
-> Are there many independent pieces of target-sensitive evidence, or many
-> downstream copies of the same incomplete record?
+> Does the complete joint input contain target information, including
+> complementary correlations? If so, is that information independently
+> replicated, clustered, commonly shocked, or merely copied?
 
-The first case permits concentration and layered hardening. The second does
-not. The next five swings will establish that boundary, follow the information
-through propagation and consensus layers, test capability-relative regional
-views, and only then ask whether the architecture survives contact with a
-physical-record problem in Dynamic Unity.
+`HC-DU-047` establishes that boundary. `N5-SCF-P2` now follows source-formed
+joint information through gossip and DAG provenance. Later conditional
+positions test consensus hardening, capability-relative regional views, and
+only then contact with a physical-record problem in Dynamic Unity.
