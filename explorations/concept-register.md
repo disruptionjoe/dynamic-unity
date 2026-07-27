@@ -2361,12 +2361,24 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   survives. Finite asynchronous acknowledgment does not create common
   knowledge, and an event-bound zero-knowledge proof certifies its declared
   relation rather than an unmodeled physical target.
-- **Next discriminator.** `N5-SCF-P3` asks whether an Avalanche-like
-  preference layer and a Byzantine/quorum/threshold hardening layer can
-  preserve source binding, declared origin, route ancestry, and the first
-  equivocation witness while changing rollback and action safety—or whether
-  certificate compression erases the provenance the upper-layer claim
-  needs.
+- **2026-07-27 hardening/provenance-lift boundary.** `HC-DU-049` proves that
+  metastable preference, quorum locking, and cryptographic certification
+  change different objects. A correct \(5\)-of-\(7\) lock under two faults
+  excludes conflicting certificates but does not improve a proposal's
+  physical target binding. Explicit or bitmap-bearing certificates preserve
+  declared signers; ordinary group-key threshold verification may omit them.
+  A plain final certificate also need not retain rejected equivocation,
+  membership epoch, controller independence, or source truth. Certificate
+  sufficiency is therefore capability-indexed: execution, accountability,
+  fork audit, and physical adjudication require different retained views.
+  The scoped composition needs source adequacy, validity adequacy, sampling
+  accounting, conflict safety, liveness, certificate sufficiency,
+  epoch/setup integrity, and archive availability.
+- **Next discriminator.** `N5-SCF-P4` derives the minimum selective regional
+  view for tentative response, conflict-safe execution, signer
+  accountability, equivocation audit, and physical-source adjudication, then
+  tests compact-certificate handoff with an available provenance sidecar
+  under partition, churn, rollback, and capability expansion.
 - **Nearest terrain.** Function factorization, Blackwell comparison,
   data processing, concentration under dependence, multivariate synergy,
   secret sharing, zero knowledge, secure computation, threshold
@@ -2376,13 +2388,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
 - **Status:** **CONCEPT-OPEN / JOINT-INPUT NO-MINTING AND SYNERGISTIC-RECOVERY
   CONTROLS INSTALLED / NO UNIVERSAL EFFECTIVE-SUPPORT SCALAR /
   SYNERGY-PRESERVING GOSSIP AND DECLARED-DAG-PROVENANCE BOUNDARY INSTALLED /
-  PHYSICAL SOURCE BINDING AND COMMON KNOWLEDGE REMAIN SEPARATE /
-  METASTABLE-TO-BYZANTINE PROVENANCE COMPOSITION NEXT / NO CONSENSUS
+  SCOPED METASTABLE-TO-BYZANTINE COMPOSITION AND CAPABILITY-INDEXED
+  PROVENANCE LIFT INSTALLED / PHYSICAL SOURCE BINDING AND COMMON KNOWLEDGE
+  REMAIN SEPARATE / CAPABILITY-RELATIVE SELECTIVE VIEWS AND REGIONAL HANDOFF
+  NEXT / NO CONSENSUS
   NOVELTY, STRONG EMERGENCE, ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER
   PROMOTION.** See
   `joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md`
   and
-  `synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md`.
+  `synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md`
+  and
+  `metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only

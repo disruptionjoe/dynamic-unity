@@ -1513,8 +1513,8 @@ portfolio pivot. Joe subsequently interposed the
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
 to separate stochastic amplification, propagation, DAG knowledge,
 metastability, Byzantine/cryptographic hardening, complexity emergence, and
-capability-relative views before the pivot. `N5-SCF-P1/2` are complete as
-`HC-DU-047/048`; only `N5-SCF-P3` is executable. `N5-RS-P2` is deferred
+capability-relative views before the pivot. `N5-SCF-P1/2/3` are complete as
+`HC-DU-047/048/049`; only `N5-SCF-P4` is executable. `N5-RS-P2` is deferred
 rather than canceled.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
@@ -1695,8 +1695,94 @@ action boundary. It is not a new gossip, Hashgraph, consensus,
 common-knowledge, cryptographic, emergence, or physical theorem. See
 `../explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md`.
 
-The sole next work object is `N5-SCF-P3`,
-Provenance-Preserving Metastable-to-Byzantine Hardening.
+`N5-SCF-P3` consumes this boundary as `HC-DU-049`.
+
+### `HC-DU-049` — Metastable-to-Byzantine Hardening and the Provenance-Lift Boundary
+
+For the frozen finite control
+
+\[
+n=7,\qquad f=2,\qquad q=5,
+\]
+
+any two quorum certificates intersect in at least
+
+\[
+2q-n=3>f
+\]
+
+validators. Under a correct non-conflicting lock rule, two conflicting
+certificates are therefore impossible. The lock premise is load-bearing:
+threshold count alone permits the same quorum to authorize two values. A
+\(4\mid3\) partition preserves safety while blocking liveness.
+
+For an Avalanche-like \(k=3\), two-response sample over two wrong nodes, the
+wrong local-majority probability is \(1/7\). Three independent wrong samples
+have probability \(1/343\); reusing one correlated neighborhood leaves the
+probability \(1/7\); eclipse makes it one. Metastable confidence therefore
+depends on the routing and dependence contract and is not the same object as
+quorum conflict safety.
+
+Carry unchanged the source-bound and null worlds:
+
+\[
+R_1=U,\quad R_2=T\oplus U
+\]
+
+versus independent uniform \(T,R_1,R_2\). Proposals contain both source
+digests and declare \(t_{\mathrm{decl}}=R_1\oplus R_2\). The complete
+proposal law—and therefore every fixed proposal-derived sampling, vote,
+lock, quorum, threshold-signature verification, proof, or private-computation
+artifact law—is identical in both worlds. Yet physical-target error is zero
+in the source-bound world and \(1/2\) in the null world. Hardening makes a
+declared claim safer to execute; it does not make the claim physically true.
+
+For a complete history \(\omega\), public certificate \(\pi(\omega)\), and
+held-out audit target \(Z(\omega)\), exact certificate sufficiency is:
+
+\[
+\ker \pi\subseteq\ker Z.
+\]
+
+An explicit or bitmap-bearing certificate can preserve the declared signer
+set. Ordinary group-key threshold verification may not. A plain final
+certificate also need not reconstruct rejected equivocation, membership
+epoch, physical controller independence, or source formation. The minimum
+semantic provenance lift binds the certificate, epoch, membership root,
+validity relation, source digests, and a benign-subdivision-invariant event
+root, while retaining available conflicting-branch openings when
+accountability requires them.
+
+The exact scoped composition requires eight separately typed premises:
+
+1. source adequacy;
+2. validity adequacy;
+3. sampling/preference accounting;
+4. conflicting-certificate safety;
+5. liveness;
+6. capability-relative certificate sufficiency;
+7. epoch/setup integrity; and
+8. archive availability.
+
+The return is:
+
+```text
+SCOPED_LAYERED_FINALITY_COMPOSITION
+WITH A MANDATORY CAPABILITY-INDEXED PROVENANCE LIFT
+```
+
+The component mathematics is absorbed by Avalanche/Snow, authenticated BFT
+and HotStuff-style locking, FLP and partial synchrony, threshold signatures,
+DKG/VSS, proactive refresh, accountable signatures, zero knowledge, MPC,
+factorization, and provenance theory. The Dynamic Unity increment is the
+unchanged end-to-end classification from physical source formation through
+observer-relative action. It is a scoped exact result, not a new consensus
+or cryptographic theorem, physical record-selection theorem, prediction, new
+physics result, or paper promotion. See
+`../explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md`.
+
+The sole next work object is `N5-SCF-P4`,
+Capability-Relative Selective Views and Regional Handoff.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -3171,6 +3257,15 @@ action-safe certification remain distinct. The next route must test whether
 metastable and Byzantine/threshold hardening preserve those typed receipts or
 compress away the provenance required to distinguish duplication,
 equivocation, and an unbound null source.
+`HC-DU-049` executes that hardening test. Exact metastable confidence,
+quorum-lock conflict safety, liveness, certificate verification, signer
+accountability, equivocation audit, and physical-source adjudication are
+different predicates. A valid hard certificate has the same law in the
+source-bound and null worlds; certificate compression can preserve execution
+while erasing provenance required by stronger audits. The next route must
+derive minimum capability-relative regional views and test whether a compact
+certificate plus an available provenance sidecar can hand off safely under
+partition, churn, rollback, and capability expansion.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
 is complete. Redundant records of consistent histories, quantum trajectories,
@@ -3181,8 +3276,8 @@ The prepared
 initially queued `N5-RS-P2`, the minimum-premise compiler and whole-DU
 portfolio pivot. The interposed
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
-has completed `N5-SCF-P1/2` as `HC-DU-047/048`. It now advances only
-`N5-SCF-P3`, Provenance-Preserving Metastable-to-Byzantine Hardening. It
+has completed `N5-SCF-P1/2/3` as `HC-DU-047/048/049`. It now advances only
+`N5-SCF-P4`, Capability-Relative Selective Views and Regional Handoff. It
 does not pre-activate later `N5-SCF` positions; `N5-RS-P2` remains deferred.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
@@ -3880,7 +3975,15 @@ ENDPOINT ORDER AND RAW HOP COUNT DO NOT RECONSTRUCT SUBDIVISION-INVARIANT PROVEN
 MERGED SIGNED BRANCHES PROVE EQUIVOCATION; LOCAL ABSENCE DOES NOT PROVE NON-EQUIVOCATION
 FINITE ASYNCHRONOUS ACKNOWLEDGMENTS DO NOT CREATE COMMON KNOWLEDGE
 EVENT-BOUND ZERO KNOWLEDGE CERTIFIES A DECLARED RELATION NOT AN UNMODELED PHYSICAL TARGET
-N5-SCF-P3 PROVENANCE-PRESERVING METASTABLE-TO-BYZANTINE HARDENING NEXT
+HC-DU-049 SCOPED METASTABLE-TO-BYZANTINE COMPOSITION EXACT
+METASTABLE CONFIDENCE QUORUM SAFETY LIVENESS AND SOURCE TRUTH REMAIN DISTINCT
+FIVE-OF-SEVEN LOCKED QUORUMS EXCLUDE CONFLICTS UNDER TWO FAULTS
+HARDENED CERTIFICATE LAW DOES NOT AMPLIFY PHYSICAL SOURCE TRUTH
+CERTIFICATE SUFFICIENCY IS CAPABILITY-INDEXED
+THRESHOLD COMPRESSION MAY OMIT SIGNER FORK MEMBERSHIP AND FORMATION PROVENANCE
+SEMANTIC PROVENANCE LIFT SURVIVES BENIGN RELAY SUBDIVISION
+EIGHT-PREMISE LAYERED FINALITY COMPOSITION CONTRACT EXACT
+N5-SCF-P4 CAPABILITY-RELATIVE SELECTIVE VIEWS AND REGIONAL HANDOFF NEXT
 N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT DEFERRED
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING

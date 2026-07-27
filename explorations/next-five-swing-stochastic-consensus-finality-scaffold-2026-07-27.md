@@ -1,13 +1,13 @@
 ---
 title: "Next five-swing scaffold: stochastic amplification, layered consensus, and capability-relative finality"
-status: positions_1_and_2_complete__position_3_executable
+status: positions_1_through_3_complete__position_4_executable
 doc_type: inline_eighteen_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: interpose a stochastic/distributed-systems preparation before N5-RS-P2"
 sequence_id: N5-SCF
-active_position: N5-SCF-P3
+active_position: N5-SCF-P4
 run_plan: "../runs/2026-07-27-stochastic-consensus-finality-five-swing-preparation.md"
-claim_status_change: "N5-SCF-P1/2 complete as HC-DU-047/048; N5-SCF-P3 executable"
+claim_status_change: "N5-SCF-P1/2/3 complete as HC-DU-047/048/049; N5-SCF-P4 executable"
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -26,10 +26,10 @@ P4  model capability-relative views through MMO-style interest management and ne
 P5  apply the typed stack to a DU physical-record arena and extract a theorem or exact non-unification
 ```
 
-Positions 1 and 2 are complete as `HC-DU-047/048`. Position 3 is now
-executable under identity `N5-SCF-P3`. Positions 4--5 remain conditional work
-packages and receive run identities only after the preceding result fixes the
-smallest useful arena and stop condition.
+Positions 1 through 3 are complete as `HC-DU-047/048/049`. Position 4 is now
+executable under identity `N5-SCF-P4`. Position 5 remains a conditional work
+package and receives a run identity only after Position 4 fixes the smallest
+useful physical handoff and stop condition.
 
 This sequence does not assume that consensus creates truth, that quantum
 systems vote, or that the universe implements a distributed database. Its
@@ -53,6 +53,16 @@ into individual capability. Signed hash-DAGs can preserve declared ancestry
 and expose an encountered fork. Neither identifies whether the source
 correlation was physically target-binding. Literal common knowledge, total
 order, and action safety are separate receipts.
+
+`HC-DU-049` carries that specimen through metastable preference, quorum
+locking, explicit and compressed certificates, threshold signing, private
+verification, churn, and mobile corruption. A correct \(5\)-of-\(7\) lock
+under two faults excludes conflicting certificates, but the same hardened
+certificate law occurs in the source-bound and target-independent null
+worlds. Hardening changes action safety, not source truth. The certificate
+needed for execution may omit the signer, fork, membership, or formation
+provenance needed for a later audit, so finality is capability-indexed and
+requires a typed provenance lift.
 
 `N5-RS-P2`, the minimum-premise compiler and whole-DU portfolio pivot, is
 deferred rather than canceled. Position 5 must hand it a sharper premise
@@ -553,6 +563,34 @@ counterexample. The shared object is the typed information relation only.
 
 ## 9. Position 3 — provenance-preserving metastable-to-Byzantine hardening
 
+### Completion receipt
+
+Position 3 is complete as
+[`HC-DU-049`](metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md).
+
+It returns:
+
+```text
+SCOPED_LAYERED_FINALITY_COMPOSITION
+WITH A MANDATORY CAPABILITY-INDEXED PROVENANCE LIFT
+```
+
+For \(n=7,f=2,q=5\), any two quorums intersect in at least three
+validators, so a correct non-conflicting lock excludes conflicting
+certificates. A \(4\mid3\) partition blocks liveness without breaking that
+safety. In the matched source worlds, every proposal-derived sampling,
+quorum, threshold, proof, or private-computation artifact has the same law,
+while physical-target error is zero in the source-bound world and \(1/2\) in
+the null world. Explicit or bitmap-bearing certificates preserve declared
+signers; ordinary group-key threshold verification may not. A plain final
+certificate also need not retain rejected equivocation, membership epoch,
+physical controller independence, or physical source truth. The eight
+premises for scoped composition and the minimum semantic provenance lift are
+now explicit.
+
+The 43/43 exact certificate is
+`tests/artifacts/du_metastable_byzantine_provenance_hardening_result.json`.
+
 ### Identity
 
 ```text
@@ -627,9 +665,16 @@ threshold authority, or key count. Do not build a general network simulator.
 Stop at one exact composition theorem or the smallest
 provenance-erasing/hardening counterexample.
 
-## 10. Position 4 — MMO-style interest management and observer capability
+## 10. Position 4 — capability-relative selective views and regional handoff
 
-### Conditional decision
+### Identity
+
+```text
+N5-SCF-P4
+Capability-Relative Selective Views and Regional Handoff
+```
+
+### Decision
 
 Can differently filtered regional views be simultaneously action-sufficient
 without one globally replicated state, and how does an observer's capability
@@ -637,24 +682,36 @@ change re-open previously final distinctions?
 
 ### Best approach
 
-1. Freeze one world history and several action classes.
-2. Define area-of-interest/effect or task-relevance filters independently of
-   the held-out responses.
-3. Give different participants different selective record streams.
-4. Test local prediction/dead reckoning, rollback, handoff, sharding,
-   partition, and interest-set expansion.
-5. Let at least one participant policy rewire or resize its own interest
-   neighborhood, and test whether the feedback creates hysteresis or sampling
-   bias.
-6. Determine the minimal view sufficient for each action class.
-7. Distinguish:
+1. Reuse the source-bound and matched-null worlds plus the exact Position-3
+   certificate and provenance projections.
+2. Freeze five action classes before defining any view: tentative response,
+   conflict-safe execution, signer accountability, equivocation audit, and
+   physical-source adjudication.
+3. Define area-of-interest/effect and task-relevance filters independently of
+   the held-out responses, then compute the minimum sufficient view for each
+   action class.
+4. Give different regional participants selective streams over decision,
+   signer, fork, route, source, epoch, and archive records.
+5. Test compact-certificate handoff with an on-demand provenance sidecar;
+   distinguish a sidecar that is merely committed from one that remains
+   retrievable.
+6. Test local prediction/dead reckoning, rollback, cross-region handoff,
+   sharding, partition, stale membership, selective replication, and
+   interest-set expansion.
+7. Let at least one participant policy rewire or resize its own interest
+   neighborhood, and test whether the feedback creates hysteresis, eclipse,
+   or sampling bias.
+8. Distinguish:
    - local action closure;
    - cross-region reconciliation;
    - global history reconstruction;
    - provenance verification; and
    - capability enlargement.
-8. Compare the result to DU's capability-indexed equivalence and first-leak
+9. Compare the result to DU's capability-indexed equivalence and first-leak
    laws without identifying software clients with physical observers.
+10. Preserve the Position-3 first-identifiable-layer table. Stop if a
+    capability target does not factor through its delivered view; do not
+    repair the failure by silently expanding that view.
 
 ### Information-dense output
 
@@ -868,8 +925,10 @@ The large-number intuition is useful only after two questions are answered:
 `HC-DU-047` establishes the joint-input boundary. `HC-DU-048` shows that
 gossip can pool source-formed synergy and a signed DAG can preserve declared
 ancestry, while physical source binding, common knowledge, total order and
-action safety remain separate. `N5-SCF-P3` now tests whether metastable and
-Byzantine/threshold hardening can preserve those distinctions rather than
-compress them away. Later conditional positions test capability-relative
-regional views and only then contact with a physical-record problem in
-Dynamic Unity.
+action safety remain separate. `HC-DU-049` shows that metastable and
+Byzantine/threshold hardening can close conflict-safe execution while leaving
+source truth unchanged and, under compression, omitting provenance needed by
+stronger audit capabilities. `N5-SCF-P4` now derives the minimum selective
+regional view for each action and tests safe handoff. Only then may the
+conditional final position contact a physical-record problem in Dynamic
+Unity.

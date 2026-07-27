@@ -1,0 +1,380 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "all_samples": 35,
+        "probability": "1/7",
+        "wrong_samples": 5
+      },
+      "name": "exact_wrong_sample_probability_is_one_seventh",
+      "passed": true
+    },
+    {
+      "detail": "1/343",
+      "name": "three_independent_wrong_samples_have_probability_one_over_343",
+      "passed": true
+    },
+    {
+      "detail": "one sampled neighborhood repeated three times remains one draw",
+      "name": "reused_correlated_neighborhood_does_not_multiply_confidence",
+      "passed": true
+    },
+    {
+      "detail": "all three rounds return three wrong-preference responses",
+      "name": "complete_eclipse_makes_wrong_local_confidence_certain",
+      "passed": true
+    },
+    {
+      "detail": "local confidence is not a global conflicting-certificate exclusion",
+      "name": "partitioned_views_can_reach_opposite_local_confidence",
+      "passed": true
+    },
+    {
+      "detail": {
+        "fault_bound": 2,
+        "minimum_intersection": 3
+      },
+      "name": "five_of_seven_quorums_intersect_in_at_least_three",
+      "passed": true
+    },
+    {
+      "detail": "intersection size 3 exceeds the two-validator Byzantine budget",
+      "name": "every_quorum_pair_has_an_honest_intersection_under_two_faults",
+      "passed": true
+    },
+    {
+      "detail": "two conflicting certificates would require an honest double-sign",
+      "name": "honest_non_conflicting_lock_excludes_two_conflicting_quorums",
+      "passed": true
+    },
+    {
+      "detail": {
+        "authorizations": [
+          {
+            "proposal": 0,
+            "signers": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          },
+          {
+            "proposal": 1,
+            "signers": [
+              0,
+              1,
+              2,
+              3,
+              4
+            ]
+          }
+        ],
+        "missing_premise": "correct validators must not sign conflicting locked proposals"
+      },
+      "name": "threshold_count_without_a_lock_does_not_exclude_conflicting_certificates",
+      "passed": true
+    },
+    {
+      "detail": {
+        "component_sizes": [
+          4,
+          3
+        ],
+        "quorum": 5
+      },
+      "name": "four_three_partition_preserves_safety_but_blocks_liveness",
+      "passed": true
+    },
+    {
+      "detail": "the two Byzantine validators may withhold without preventing this certificate",
+      "name": "five_available_honest_validators_can_form_a_quorum",
+      "passed": true
+    },
+    {
+      "detail": "four available honest votes are below the five-vote quorum",
+      "name": "one_more_honest_outage_plus_byzantine_withholding_blocks_progress",
+      "passed": true
+    },
+    {
+      "detail": "the complete pair and its declared XOR have the same law",
+      "name": "source_bound_and_null_worlds_have_the_same_proposal_law",
+      "passed": true
+    },
+    {
+      "detail": "fixed validators, votes, lock, and certificate depend only on the proposal",
+      "name": "source_bound_and_null_worlds_have_the_same_hardened_certificate_law",
+      "passed": true
+    },
+    {
+      "detail": "proposal validity is not physical target binding",
+      "name": "declared_xor_validity_passes_in_both_source_worlds",
+      "passed": true
+    },
+    {
+      "detail": {
+        "null_error": "1/2",
+        "source_bound_error": "0/1"
+      },
+      "name": "physical_target_binding_is_exact_only_in_the_source_bound_world",
+      "passed": true
+    },
+    {
+      "detail": "agreement hardens the declared proposal, not the omitted physical relation",
+      "name": "five_validator_endorsements_do_not_improve_null_source_truth",
+      "passed": true
+    },
+    {
+      "detail": {
+        "controller_ranks": [
+          2,
+          1
+        ],
+        "same_artifact": [
+          "source-key-1",
+          "source-key-2",
+          [
+            0,
+            1,
+            2,
+            3,
+            4
+          ]
+        ]
+      },
+      "name": "explicit_validator_and_source_key_sets_do_not_identify_controller_rank",
+      "passed": true
+    },
+    {
+      "detail": "five validators can endorse one or two physically controlled source keys",
+      "name": "validator_quorum_size_is_not_source_evidence_rank",
+      "passed": true
+    },
+    {
+      "detail": "individual signatures retain signer identity",
+      "name": "explicit_qc_reconstructs_declared_signer_subset",
+      "passed": true
+    },
+    {
+      "detail": "signature compression plus a retained bitmap preserves the set",
+      "name": "bitmap_bearing_aggregate_reconstructs_declared_signer_subset",
+      "passed": true
+    },
+    {
+      "detail": "two different five-signer transcripts verify under the same group-key semantics",
+      "name": "ordinary_compressed_threshold_verification_omits_signer_subset",
+      "passed": true
+    },
+    {
+      "detail": "accountability is additional certificate structure",
+      "name": "accountable_threshold_sidecar_repairs_signer_subset",
+      "passed": true
+    },
+    {
+      "detail": "clean and forked histories share the final decision and signer set",
+      "name": "plain_final_qc_does_not_reconstruct_rejected_equivocation",
+      "passed": true
+    },
+    {
+      "detail": "the committed semantic event set distinguishes the signed fork",
+      "name": "semantic_provenance_lift_reconstructs_encountered_equivocation",
+      "passed": true
+    },
+    {
+      "detail": "a root binds an event set; an accusation still needs the two branch openings",
+      "name": "fork_audit_requires_available_conflicting_branch_openings",
+      "passed": true
+    },
+    {
+      "detail": "a root over every relay hop is representation-sensitive",
+      "name": "raw_transport_root_changes_under_benign_relay_subdivision",
+      "passed": true
+    },
+    {
+      "detail": {
+        "direct_semantic_projection": [
+          [
+            "source",
+            "s1"
+          ],
+          [
+            "source",
+            "s2"
+          ],
+          [
+            "proposal",
+            "m"
+          ],
+          [
+            "decision",
+            "m"
+          ]
+        ],
+        "relayed_semantic_projection": [
+          [
+            "source",
+            "s1"
+          ],
+          [
+            "source",
+            "s2"
+          ],
+          [
+            "proposal",
+            "m"
+          ],
+          [
+            "decision",
+            "m"
+          ]
+        ]
+      },
+      "name": "canonical_semantic_root_survives_benign_relay_subdivision",
+      "passed": true
+    },
+    {
+      "detail": "semantic finality and route forensics are different certificate targets",
+      "name": "separate_route_log_can_retain_the_subdivision_when_the_action_needs_it",
+      "passed": true
+    },
+    {
+      "detail": "the same group-key semantics is compatible with two disjoint memberships",
+      "name": "group_key_signature_alone_does_not_identify_membership_epoch",
+      "passed": true
+    },
+    {
+      "detail": "the signed statement must bind its membership context",
+      "name": "epoch_and_membership_root_repair_membership_provenance",
+      "passed": true
+    },
+    {
+      "detail": {
+        "accumulated_distinct_shares": 6,
+        "per_epoch_corruptions": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            4,
+            5
+          ]
+        ],
+        "threshold": 5
+      },
+      "name": "persistent_shares_accumulate_past_threshold_under_mobile_corruption",
+      "passed": true
+    },
+    {
+      "detail": "refresh and erasure are additional premises; this is only an ideal epoch-typing control",
+      "name": "epoch_refreshed_shares_do_not_form_one_same_epoch_threshold",
+      "passed": true
+    },
+    {
+      "detail": "the committed pair and declared parity have the same law",
+      "name": "private_verification_and_computation_artifact_laws_match_across_source_worlds",
+      "passed": true
+    },
+    {
+      "detail": "verification and computation preserve the admitted source relation",
+      "name": "zk_vss_mpc_stack_does_not_attest_unmodeled_physical_target",
+      "passed": true
+    },
+    {
+      "detail": "the output is correct for the declared inputs even when unrelated to physical T",
+      "name": "mpc_parity_enables_declared_value_access_without_share_disclosure",
+      "passed": true
+    },
+    {
+      "detail": "an execution action depending only on the certified message can close",
+      "name": "compressed_threshold_record_is_sufficient_for_decision_value",
+      "passed": true
+    },
+    {
+      "detail": "a signer-audit action reopens the certificate fibre",
+      "name": "the_same_threshold_record_is_insufficient_for_accountability",
+      "passed": true
+    },
+    {
+      "detail": "a fork-audit action needs the provenance lift",
+      "name": "the_same_plain_qc_is_insufficient_for_equivocation_audit",
+      "passed": true
+    },
+    {
+      "detail": "declared keys and physical control remain distinct",
+      "name": "even_explicit_qc_is_insufficient_for_physical_controller_audit",
+      "passed": true
+    },
+    {
+      "detail": "physical adjudication needs an independently admitted attestation channel",
+      "name": "hardened_protocol_certificate_is_insufficient_for_physical_source_truth",
+      "passed": true
+    },
+    {
+      "detail": [
+        "source_adequacy",
+        "validity_adequacy",
+        "preference_accounting",
+        "conflict_safety",
+        "liveness",
+        "certificate_sufficiency",
+        "epoch_setup_integrity",
+        "archive_availability"
+      ],
+      "name": "complete_typed_contract_returns_scoped_composition",
+      "passed": true
+    },
+    {
+      "detail": {
+        "archive_availability": "FAIL:archive_availability",
+        "certificate_sufficiency": "FAIL:certificate_sufficiency",
+        "conflict_safety": "FAIL:conflict_safety",
+        "epoch_setup_integrity": "FAIL:epoch_setup_integrity",
+        "liveness": "FAIL:liveness",
+        "preference_accounting": "FAIL:preference_accounting",
+        "source_adequacy": "FAIL:source_adequacy",
+        "validity_adequacy": "FAIL:validity_adequacy"
+      },
+      "name": "each_missing_premise_returns_its_first_typed_failure",
+      "passed": true
+    }
+  ],
+  "checks_passed": 43,
+  "checks_total": 43,
+  "claim_id": "HC-DU-049",
+  "first_identifiable_layer": {
+    "conflict_safety": "quorum intersection plus correct non-conflicting lock",
+    "decision_value": "valid quorum or threshold certificate",
+    "declared_signer_subset": "explicit votes, bitmap, or accountable threshold sidecar",
+    "encountered_equivocation": "available openings bound by the semantic provenance lift",
+    "local_preference": "sample transcript under its routing/dependence model",
+    "membership_epoch": "epoch and membership root bound into the signed statement",
+    "physical_controller_independence": "not identified by declared keys alone",
+    "physical_source_truth": "not identified without an independently admitted formation/attestation channel"
+  },
+  "frozen_control": {
+    "byzantine_bound": 2,
+    "confidence_rounds": 3,
+    "correlated_three_round_probability": "1/7",
+    "independent_three_round_probability": "1/343",
+    "minimum_quorum_intersection": 3,
+    "quorum": 5,
+    "sample_size": 3,
+    "sample_threshold": 2,
+    "validators": 7,
+    "wrong_sample_probability": "1/7"
+  },
+  "local_model_gate": {
+    "disposition": "PROOF_CERTIFICATE_OUTSIDE_RESEARCH_MODEL_ADMISSION",
+    "reason": "the analytic finite theorems and counterexamples are stated independently; the script only preserves exact combinatorics, factorization fibres, certificate projections, and first-failure controls"
+  },
+  "next_work": "N5-SCF-P4",
+  "return": "SCOPED_LAYERED_FINALITY_COMPOSITION_WITH_CAPABILITY_INDEXED_PROVENANCE_LIFT",
+  "run_id": "N5-SCF-P3",
+  "status": "PASS"
+}

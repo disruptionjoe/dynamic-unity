@@ -8,7 +8,8 @@ scaffold: "../explorations/next-five-swing-stochastic-consensus-finality-scaffol
 next_work: N5-SCF-P1
 successor_result: HC-DU-047
 second_successor_result: HC-DU-048
-current_next_work: N5-SCF-P3
+third_successor_result: HC-DU-049
+current_next_work: N5-SCF-P4
 deferred_work: N5-RS-P2
 claim_state_change: none
 paper_state_change: none
@@ -74,6 +75,16 @@ Distributed knowledge, individual knowledge, common knowledge, total order,
 and action safety remain separate receipts. The active successor is now
 `N5-SCF-P3`, Provenance-Preserving Metastable-to-Byzantine Hardening. See
 [`HC-DU-048`](../explorations/synergy-preserving-gossip-dag-provenance-and-knowledge-2026-07-27.md).
+
+`N5-SCF-P3` then completed as `HC-DU-049`. Exact metastable sampling changes
+decision risk; a correct \(5\)-of-\(7\) quorum lock changes conflict safety;
+and certificate design changes which audits remain possible. None changes
+the physical truth of the source claim. The matched null source survives
+every proposal-derived hardening artifact, while compressed certificates can
+omit signer, fork, membership, or formation provenance needed by stronger
+capabilities. The active successor is now `N5-SCF-P4`,
+Capability-Relative Selective Views and Regional Handoff. See
+[`HC-DU-049`](../explorations/metastable-to-byzantine-hardening-and-provenance-lift-2026-07-27.md).
 
 Distributed layers then add different typed guarantees:
 

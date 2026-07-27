@@ -1916,3 +1916,47 @@ boundaries. It is not a network simulator, Hashgraph implementation,
 cryptographic implementation, physical model, consensus novelty, common-
 knowledge theorem, new physics, a prediction, a paper promotion, or authority
 for hardware or external action.
+
+## HC-DU-049 metastable-to-Byzantine hardening and provenance lift
+
+`du_metastable_byzantine_provenance_hardening_probe.py` preserves the exact
+finite controls behind the Position-3 composition result:
+
+- Avalanche-like wrong-preference probability is \(1/7\) for one frozen
+  sample, \(1/343\) for three independent samples, \(1/7\) for one reused
+  correlated neighborhood, and one under eclipse;
+- any two \(5\)-of-\(7\) quorums intersect in at least three validators, so a
+  correct non-conflicting lock excludes conflicting certificates under two
+  Byzantine faults;
+- a \(4\mid3\) partition blocks liveness while preserving that safety;
+- the source-bound and target-independent null worlds have identical
+  proposal and hardened-certificate laws, despite physical-target error zero
+  versus \(1/2\);
+- validator quorum size does not identify source-evidence or physical
+  controller rank;
+- explicit and bitmap-bearing certificates retain declared signers, while
+  ordinary group-key threshold verification may not;
+- a plain final quorum certificate does not reconstruct rejected
+  equivocation;
+- semantic provenance survives benign relay subdivision while raw route
+  structure does not;
+- epoch/membership binding and proactive refresh are separate premises;
+- ZK, VSS, MPC, and threshold verification do not attest an unmodeled
+  physical target; and
+- every one of eight omitted composition premises returns its own exact
+  first failure.
+
+Run:
+
+```bash
+python3 tests/du_metastable_byzantine_provenance_hardening_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_metastable_byzantine_provenance_hardening_result.json` and
+reports `43/43`. Passing is regression coverage for the analytic
+combinatorics, factorization fibres, certificate projections, and
+first-failure controls. It is not an Avalanche, Byzantine-consensus,
+threshold-signature, DKG, ZK, MPC, or physical implementation; a security
+proof; new physics; a prediction; a paper promotion; or authority for
+hardware or external action.
