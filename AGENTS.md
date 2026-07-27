@@ -338,17 +338,23 @@ Before acting, a new agent must be able to state:
    handoff transfer exactly. Authentication then fails to identify causal
    physical source formation: a signed value can be QND-formed or preloaded.
    In the MMO dual-mesh control, a signed render mesh identifies
-   representation while collision capability remains open. Resume only
-   `N5-RS-P2`, the minimum-premise and whole-DU portfolio pivot, with these
-   sharpened inputs. Do not fit another archive to the closed metastable host,
+   representation while collision capability remains open. `N5-RS-P2` has
+   now completed the minimum-premise and whole-DU portfolio pivot. No current
+   arena derives a complete write-and-access physical antecedent, so stop
+   unconditioned host proliferation while keeping `H-CCR-17` open. The
+   primary front is the `3+1` law-filtered record-assisted inverse problem;
+   conservative certification/physical feedback is the reserve. Only
+   `N5-RS-P3`, `3+1 Law-Filtered Record-Assisted Reconstruction and Smallest
+   Lawful Remainder`, is executable. Do not fit another archive to the closed
+   metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum
    physics, infer source truth or physical independence from a signature,
    quorum or key count, or build a simulator before an exact local proof
    boundary requires it. The 2026-07-27 substrate-hypothesis council and
    stratified causal coordination scaffold are preparatory inputs to
-   `N5-RS-P2`, not a new active campaign. Treat observer indexing as
-   operational/methodological unless a stronger ontological claim explicitly
+   the completed portfolio receipt, not a new active campaign. Treat observer
+   indexing as operational/methodological unless a stronger ontological claim explicitly
    rejects preferred-foliation and contextual/global-completion branches.
    For paper work separately
    retain the nearer CSG tail hardening and higher-ceiling

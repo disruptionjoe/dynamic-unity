@@ -415,8 +415,13 @@ What *has* been earned is a strong finite control stack:
   exact non-unification is authenticated representation versus causal
   physical source/action: a signed value can be QND-formed or preloaded, just
   as a signed MMO render mesh need not determine the authoritative collision
-  response. The five-position sequence is complete; `N5-RS-P2` resumes with
-  sharpened inputs
+  response. The five-position sequence is complete. `N5-RS-P2` then completed the
+  [minimum-premise portfolio adjudication](explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md):
+  no current arena selects the complete write-and-access antecedent required
+  by `H-CCR-17`; unconditioned host building stops; the `3+1` law-filtered
+  record-assisted inverse problem is primary; conservative
+  certification/physical feedback is reserve; and only `N5-RS-P3` is
+  executable
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -830,7 +835,9 @@ context, epoch binding, available promised evidence, and a frozen capability
 surface. The physical collision proves that independent archive errors can
 lower bounded risk but cannot mint source information, and that
 authenticated representation does not establish physical source/action
-binding. `N5-RS-P2` is now executable with sharpened inputs.
+binding. `N5-RS-P2` is complete. Its portfolio receipt pivots immediate work
+to `N5-RS-P3`, the `3+1` law-filtered record-assisted inverse problem, while
+keeping `H-CCR-17` open behind a physical-antecedent reopener.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -954,10 +961,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051`: the host does not select completion, epoch, archive routing, or access; downstream layers cannot mint a target absent from the joint input; gossip can pool source-formed synergy; hardening changes action safety rather than source truth; regional handoff is receiver-contextual; and the physical collision localizes the first non-unification at authenticated representation versus causal source/action binding. Use `N5-RS-P2` to compile the minimum physical premise and compare the portfolio; do not fit another detector, code, or archive. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051` and the completed `N5-RS-P2` premise lattice. No current arena selects the complete write-and-access antecedent. Keep `H-CCR-17` open, stop unconditioned detector/code/archive hosts, and reopen only when a new target-independent physical premise breaks archive relocation. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, cryptographic proof, or threshold certificate is not an observer-access contract. Keep route, authentication, decoder, disclosure, actions, resources, and horizon explicit. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `N5-SCF` now separates concentration, propagation, DAG knowledge, metastability, cryptographic hardening, emergence, and capability-relative views before any physical translation. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-046` closes the first host; `HC-DU-047/048/049/050/051` separate joint-source synergy, pooling, declared provenance, hardening, capability-relative views, physical amplification, and causal source/action binding. `N5-RS-P2` now compares the sharpened record-selection premise against the `3+1` law-filtered and other North-Star alternatives. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `N5-RS-P2` selects the `3+1` law-filtered record-assisted inverse problem. `N5-RS-P3` must distinguish law-only closure, strict record-assisted reconstruction, and an exact lawful same-record/different-target remainder before adding CFS or hardware. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -1002,14 +1009,18 @@ channels; they are not lanes and do not create a second priority system.
    for its approach and downstream branch logic, then read the interposed
    [N5-SCF preparation](explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md).
    `N5-SCF-P1/2/3/4/5` are complete as
-   `HC-DU-047/048/049/050/051`. Resume only `N5-RS-P2` under its existing
-   identity and sharpened physical-source-formation handoff. Positions 3--5
-   of that scaffold remain conditional on its portfolio receipt.
+   `HC-DU-047/048/049/050/051`. `N5-RS-P2` is now complete as the
+   [minimum-premise and whole-DU portfolio pivot](explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md).
+   It finds no current arena with a complete independently selected
+   write-and-access antecedent, keeps `H-CCR-17` open behind an explicit
+   reopener, selects the `3+1` law-filtered record-assisted inverse problem as
+   primary, and retains conservative certification/physical feedback as
+   reserve. Only `N5-RS-P3` is executable.
    The
    [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
    and
    [stratified causal coordination preparation](explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md)
-   are new inputs to that same portfolio pivot. They create no parallel
+   are consumed inputs to that portfolio receipt. They create no parallel
    active campaign.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).

@@ -1507,9 +1507,8 @@ See
 
 The prepared ten-lens
 [`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-does not create a second campaign. Its first position is complete; Position 2
-retains identity `N5-RS-P2`, the minimum-premise theorem and whole-DU
-portfolio pivot. Joe subsequently interposed the
+does not create a second campaign. Its first position is complete. Joe
+subsequently interposed the
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
 to separate stochastic amplification, propagation, DAG knowledge,
 metastability, Byzantine/cryptographic hardening, complexity emergence, and
@@ -1517,8 +1516,15 @@ capability-relative views before the pivot. All five positions are complete
 as `HC-DU-047/048/049/050/051`. `HC-DU-051` transfers physical amplification,
 capability-relative finality, and receiver-contextual handoff to the material
 gauge archive, then localizes exact non-unification at authenticated
-representation versus causal physical source/action binding. `N5-RS-P2`
-resumes under its existing identity with sharpened inputs.
+representation versus causal physical source/action binding. `N5-RS-P2` is
+now complete as the
+[minimum-premise and whole-DU portfolio pivot](../explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md).
+No current arena selects the complete write-and-access antecedent required by
+`H-CCR-17`. The route remains conceptually open behind a physical reopener;
+unconditioned host building stops. The primary front is the `3+1`
+law-filtered record-assisted inverse problem, conservative
+certification/physical feedback is reserve, and only `N5-RS-P3` is
+executable.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -1943,12 +1949,12 @@ emergence, criticality, prediction, ontology verdict, or paper promotion.
 See
 `../explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md`.
 
-The five-position `N5-SCF` sequence is complete. The sole next work object is
-`N5-RS-P2`, Minimum-Premise Compiler and Whole-DU Portfolio Pivot, resumed
-with the sharpened requirement that an independently motivated physical
-antecedent select and form a target-sensitive causal source-to-record
-relation before downstream reliability, propagation, certification, and
-handoff layers receive credit.
+The five-position `N5-SCF` sequence and `N5-RS-P2` portfolio pivot are
+complete. The sole next work object is `N5-RS-P3`, `3+1 Law-Filtered
+Record-Assisted Reconstruction and Smallest Lawful Remainder`. It must report
+law-only target closure before record-conditioned closure, quotient gauge,
+use only jointly realizable record interfaces, and return an exact lawful
+record-null/target-changing vector when reconstruction fails.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -3452,11 +3458,15 @@ Stinespring/complementary-channel equivalence, Blackwell sufficiency, process
 tensors, and full-environment tomography remain the strongest absorbers.
 The prepared
 [`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-initially queued `N5-RS-P2`, the minimum-premise compiler and whole-DU
-portfolio pivot. The interposed
+initially queued the minimum-premise compiler and whole-DU portfolio pivot.
+The interposed
 [`N5-SCF` sequence](../explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md)
 has completed all five positions as `HC-DU-047/048/049/050/051`.
-`N5-RS-P2` now resumes with sharpened physical-source-formation inputs.
+`N5-RS-P2` has now completed its cross-portfolio comparison. It returns
+`PIVOT_TO_3_PLUS_1_LAW_FILTERED_RECONSTRUCTION`, retains conservative
+certification/physical feedback as reserve, and stops unconditioned host and
+generic consensus building. `H-CCR-17` remains open only behind a new
+target-independent physical antecedent that breaks archive relocation.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -4175,7 +4185,11 @@ AUTHENTICATED DECLARED ORIGIN DOES NOT IDENTIFY CAUSAL PHYSICAL SOURCE BINDING
 SIGNED RENDER REPRESENTATION DOES NOT IDENTIFY AUTHORITATIVE COLLISION CAPABILITY
 METASTABLE HOST REMAINS CLOSED UNDER REPLICATION SIGNING AND HARDENING
 N5-SCF FIVE-POSITION SEQUENCE COMPLETE
-N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT RESUMED
+N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT COMPLETE
+PRIMARY 3+1 LAW-FILTERED RECORD-ASSISTED RECONSTRUCTION
+RESERVE CONSERVATIVE CERTIFICATION AND PHYSICAL FEEDBACK
+UNCONDITIONED RECORD-HOST AND GENERIC-CONSENSUS BUILDING STOPPED
+N5-RS-P3 3+1 LAWFUL INVERSE PROBLEM SOLE NEXT EXECUTABLE
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS
