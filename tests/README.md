@@ -2052,3 +2052,35 @@ non-unification, and hostile-host controls. It is not a network, consensus,
 cryptographic, gauge, quantum, or hardware implementation; a new theorem in
 those component fields; strong emergence; new physics; a prediction; a paper
 promotion; or authority for external action.
+
+## HC-DU-052 3+1 lawful causal-exterior remainder
+
+`du_3plus1_lawful_causal_remainder_probe.py` preserves the exact finite
+response-matrix certificate behind `N5-RS-P3`:
+
+- three jointly available local scalar/vector responses exactly reconstruct
+  their three source coefficients;
+- two incoming transverse-traceless modes lie in the complete local-record
+  kernel;
+- the two modes independently change the two-polarization future
+  gauge-invariant target;
+- adding the target rows raises exact rank from three to five;
+- one polarization is already a minimum exact lawful remainder;
+- a no-incoming-radiation condition closes the target before records are
+  consulted; and
+- the full incoming characteristic archive closes the finite class only by
+  injective resource expansion.
+
+Run:
+
+```bash
+python3 tests/du_3plus1_lawful_causal_remainder_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_3plus1_lawful_causal_remainder_result.json` and reports
+`14/14`. Passing is regression coverage for the analytic rank attribution.
+It is not a numerical-relativity or detector simulation, an independent
+proof of characteristic-Cauchy existence, a novel GR theorem, new physics,
+a prediction, a paper promotion, or authority for CFS, hardware, or external
+action.

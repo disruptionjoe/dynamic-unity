@@ -1523,7 +1523,11 @@ No current arena selects the complete write-and-access antecedent required by
 `H-CCR-17`. The route remains conceptually open behind a physical reopener;
 unconditioned host building stops. The primary front is the `3+1`
 law-filtered record-assisted inverse problem, conservative
-certification/physical feedback is reserve, and only `N5-RS-P3` is
+certification/physical feedback is reserve. `N5-RS-P3` is complete as
+`HC-DU-052`: the first lawful `3+1` same-record/different-target witness is
+incoming radiative data outside the past record region. It is an
+open-boundary attribution result, not new physics. Only `N5-RS-P4`, the
+causally closed interior reconstruction and noninjective transfer test, is
 executable.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
@@ -1950,11 +1954,75 @@ See
 `../explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md`.
 
 The five-position `N5-SCF` sequence and `N5-RS-P2` portfolio pivot are
-complete. The sole next work object is `N5-RS-P3`, `3+1 Law-Filtered
-Record-Assisted Reconstruction and Smallest Lawful Remainder`. It must report
-law-only target closure before record-conditioned closure, quotient gauge,
-use only jointly realizable record interfaces, and return an exact lawful
-record-null/target-changing vector when reconstruction fails.
+complete. Their first selected inverse problem, `N5-RS-P3`, is completed
+below as `HC-DU-052`.
+
+### `HC-DU-052` — Causal-Exterior Lawful Remainder and
+Characteristic-Boundary Attribution
+
+Let \(\mathcal S_{\mathrm{law}}/\mathcal G\) be a finite linearized `3+1`
+Einstein--matter solution class modulo diffeomorphism gauge. Let \(O_R\) be a
+past record region and \(O_T\) a later target region. If a lawful radiative
+solution \(w\) vanishes on the full local physical process in \(O_R\) but has
+nonzero gauge-invariant linearized Weyl response in \(O_T\), then every local
+record \(R\) formed inside \(O_R\) obeys
+
+\[
+DR(w)=0,
+\qquad
+DT(w)\ne0.
+\]
+
+Thus \(w\) is an exact lawful, nongauge,
+same-record/different-target witness. It is not yet a novel physical
+remainder: it is incoming characteristic information outside the record
+region's causal domain.
+
+The frozen finite specialization uses coordinates
+\((a,b,c,p_+,p_\times)\), record
+
+\[
+R=
+\left(a+b,\frac14a+\frac12b,c\right),
+\]
+
+and future radiative target \(T=(p_+,p_\times)\). It returns
+
+\[
+\operatorname{rank}DR=3,\qquad
+\operatorname{rank}\binom{DR}{DT}=5,
+\]
+
+with exact witnesses \(e_+\) and \(e_\times\). The same framework supplies
+three attribution controls:
+
+1. the local record strictly reconstructs the scalar/vector source sector;
+2. a no-incoming-radiation condition gives `LAW_ONLY_TARGET_CLOSURE`; and
+3. adding \((p_+,p_\times)\) as characteristic data gives
+   `INJECTIVE_TOMOGRAPHY_ONLY`.
+
+The primary return is:
+
+```text
+LAWFUL_SAME_RECORD_DIFFERENT_TARGET
+CAUSAL_EXTERIOR / OPEN-BOUNDARY ATTRIBUTION
+```
+
+The component mathematics is absorbed by standard hyperbolic
+domain-of-dependence and characteristic initial-value theory. The DU
+increment is the credit assignment: local record refinement, physical-law
+narrowing, and boundary-data completion are different operations. No claim
+about record fundamentality, new gravity, CFS, ontology, prediction, or
+hardware is earned.
+
+`N5-RS-P3` is complete. The next work object is `N5-RS-P4`, a causally closed
+interior reconstruction test. It must put a complete incoming-characteristic
+variable family inside the frozen completion contract, exclude omitted
+exterior inputs, and then seek strict noninjective held-out transfer, an
+interior nongauge same-record/different-target witness, or law-only closure.
+Direct characteristic tomography earns no compressive-reconstruction credit.
+See
+`../explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -4189,7 +4257,9 @@ N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT COMPLETE
 PRIMARY 3+1 LAW-FILTERED RECORD-ASSISTED RECONSTRUCTION
 RESERVE CONSERVATIVE CERTIFICATION AND PHYSICAL FEEDBACK
 UNCONDITIONED RECORD-HOST AND GENERIC-CONSENSUS BUILDING STOPPED
-N5-RS-P3 3+1 LAWFUL INVERSE PROBLEM SOLE NEXT EXECUTABLE
+HC-DU-052 3+1 LAWFUL CAUSAL-EXTERIOR REMAINDER EXACT
+INCOMING CHARACTERISTIC DATA ARE NOT A CAUSALLY-CLOSED INTERIOR REMAINDER
+N5-RS-P4 CAUSALLY CLOSED INTERIOR RECONSTRUCTION SOLE NEXT EXECUTABLE
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

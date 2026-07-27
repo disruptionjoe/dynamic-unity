@@ -709,6 +709,30 @@ EXACT TYPE AND HODGE-ABSORBER CONTROLS /
 PHYSICAL GRADE SEMANTICS AND RECONSTRUCTION OPEN.** No concept, lane, claim,
 paper, or priority is promoted.
 
+### 2026-07-27 lawful 3+1 causal-exterior remainder
+
+`HC-DU-052` executes the first law-filtered `3+1` inverse problem. In one
+linearized Einstein--matter solution family, a jointly available local
+scalar/vector record reconstructs three source coefficients exactly, while
+two incoming transverse-traceless modes vanish on the complete past record
+region and change a later gauge-invariant Weyl/optical target. The exact
+record rank is three; adjoining the target raises it to five. The two
+radiative basis vectors are lawful, nongauge, record-null, and
+target-changing.
+
+This earns `LAWFUL_SAME_RECORD_DIFFERENT_TARGET`, but the attribution is
+causal exterior/open boundary. A no-incoming-radiation condition gives
+law-only closure; a full incoming characteristic archive gives injective
+resource-expanded tomography. Neither result says local records create time
+or geometry. The next admissible target must lie inside a causally closed
+domain with a complete incoming-boundary variable family declared inside the
+frozen completion contract.
+
+**Updated status:** **EXACT SCOPED 3+1 LAWFUL NULLSPACE /
+CAUSAL-EXTERIOR REMAINDER IDENTIFIED /
+NO CAUSALLY-CLOSED INTERIOR REMAINDER OR RECORD-FIRST GEOMETRY DERIVED.** See
+`3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md`.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize
@@ -1310,6 +1334,31 @@ resolution-stable intervention role. No claim is banked or seeded. See
   baselines, not a scientific answer to record fundamentality.
   `CONCEPT-DU-002` and `CONCEPT-DU-003` remain major inputs; their grades do
   not change.
+
+### 2026-07-27 law/record/boundary attribution
+
+`HC-DU-052` gives the first lawful `3+1` same-record/different-target vector
+under the portfolio pivot. Two incoming radiative polarizations are outside
+the complete local past record region and remain free under the Einstein
+law, while a later gauge-invariant target detects them. The result is exact
+but absorbed by hyperbolic domain-of-dependence and characteristic-Cauchy
+theory.
+
+The concept therefore gains a new mandatory split:
+
+```text
+causal-exterior/open-boundary remainder
+    !=
+causally-closed interior physical remainder.
+```
+
+Record refinement inside the old region cannot recover exterior
+characteristic data. Adding a no-incoming condition is completion/source
+narrowing; adding the characteristic data is resource-expanded tomography.
+The next high-value test must include the target's complete incoming-boundary
+variable family in the frozen completion contract, exclude omitted exterior
+inputs, and seek strict noninjective held-out transfer or an interior
+nongauge witness.
 
 ## CONCEPT-DU-005 — record-relative actuality and completion-class refinement
 

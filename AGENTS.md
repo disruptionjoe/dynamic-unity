@@ -343,9 +343,18 @@ Before acting, a new agent must be able to state:
    arena derives a complete write-and-access physical antecedent, so stop
    unconditioned host proliferation while keeping `H-CCR-17` open. The
    primary front is the `3+1` law-filtered record-assisted inverse problem;
-   conservative certification/physical feedback is the reserve. Only
-   `N5-RS-P3`, `3+1 Law-Filtered Record-Assisted Reconstruction and Smallest
-   Lawful Remainder`, is executable. Do not fit another archive to the closed
+   conservative certification/physical feedback is the reserve.
+   `N5-RS-P3` is now complete as `HC-DU-052`. It returns an exact lawful,
+   nongauge same-record/different-target witness, but localizes it to incoming
+   transverse-traceless data outside the past record region's causal domain.
+   A no-incoming-radiation condition closes the target by law/source
+   narrowing; recording the incoming characteristic data closes it only by
+   injective resource expansion. Do not promote that open-boundary witness as
+   a novel physical remainder. Only `N5-RS-P4`, `Causally Closed Interior
+   Reconstruction and Noninjective Transfer`, is executable. Put a complete
+   incoming-boundary variable family inside the frozen completion contract
+   and exclude omitted exterior inputs before seeking strict record assistance
+   or an interior lawful remainder. Do not fit another archive to the closed
    metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum

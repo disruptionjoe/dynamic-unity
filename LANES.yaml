@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 87
+manifest_revision: 88
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -52,8 +52,9 @@ stratified_causal_coordination_scaffold_rule: >-
   successor picture types source formation, causal access, monotone propagation, regional
   action-safe certificates, harder coordination and regional-to-global descent. FLP, CAP, CALM,
   common-knowledge, Byzantine and topological-computability results transfer only through their
-  exact assumptions. Its first position is complete through the N5-RS-P2 portfolio receipt; the
-  coordination spine remains a prepared family rather than a parallel active campaign.
+  exact assumptions. Its first position is complete through the N5-RS-P2 portfolio receipt and
+  HC-DU-052 causal-boundary attribution; the coordination spine remains a prepared family rather
+  than a parallel active campaign.
 minimum_premise_portfolio_ref: >-
   explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md
 minimum_premise_portfolio_rule: >-
@@ -61,10 +62,21 @@ minimum_premise_portfolio_rule: >-
   write-and-access physical antecedent, so preserve H-CCR-17 behind an explicit
   archive-relocation-breaking reopener and stop unconditioned host proliferation. The primary
   front is the 3+1 law-filtered record-assisted inverse problem; conservative certification and
-  physical feedback is reserve. Only N5-RS-P3 is executable. It must distinguish law-only
-  closure, strict record-assisted reconstruction, lawful same-record/different-target
-  remainder, interface-selection dependence and incomplete physical class before CFS,
-  simulation or hardware.
+  physical feedback is reserve. N5-RS-P3 is complete as HC-DU-052. It returns a lawful nongauge
+  same-record/different-target witness but attributes it to incoming characteristic data outside
+  the past record region. Only N5-RS-P4 is executable: include a complete incoming-boundary
+  variable family in the frozen completion contract, exclude omitted exterior inputs, and
+  distinguish strict noninjective transfer, an interior remainder, law-only closure and
+  injective tomography before CFS, simulation or hardware.
+lawful_causal_exterior_remainder_ref: >-
+  explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
+lawful_causal_exterior_remainder_rule: >-
+  HC-DU-052 is an exact scoped linearized 3+1 Einstein--matter attribution result. Incoming
+  transverse-traceless modes can vanish on the entire local past record region and change a
+  later gauge-invariant target. Return LAWFUL_SAME_RECORD_DIFFERENT_TARGET, but type the witness
+  as causal-exterior/open-boundary information. A no-incoming-radiation condition is law/source
+  narrowing; a full incoming characteristic archive is injective resource-expanded tomography.
+  Neither earns a novel physical remainder. N5-RS-P4 must close the characteristic boundary.
 next_five_swing_campaign_ref: >-
   explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
 next_five_swing_campaign_rule: >-
@@ -110,7 +122,9 @@ next_five_host_closeout_sequence_rule: >-
   HC-DU-047/048/049/050/051. Its explicit handoff was RESUME_WITH_SHARPENED_INPUTS. Position 2
   is complete as N5-RS-P2 and returns PIVOT_TO_3_PLUS_1_LAW_FILTERED_RECONSTRUCTION. The
   record-selection route remains open only behind the portfolio receipt's physical reopener.
-  Position 3 is retyped as N5-RS-P3 and is the sole executable object.
+  Position 3 is complete as HC-DU-052 and localizes the first lawful remainder to omitted
+  incoming characteristic data. Position 4 is retyped as N5-RS-P4, Causally Closed Interior
+  Reconstruction and Noninjective Transfer, and is the sole executable object.
 stochastic_consensus_finality_sequence_ref: >-
   explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
 stochastic_consensus_finality_sequence_rule: >-
@@ -143,8 +157,8 @@ stochastic_consensus_finality_sequence_rule: >-
   handoff transfer physically. The first exact non-unification is authenticated representation
   versus causal physical source/action binding, captured also by the signed-render versus
   authoritative-collision dual-mesh control. N5-SCF is complete. Its handoff has been consumed
-  by N5-RS-P2; only N5-RS-P3 is executable. No model, hardware, paper, prediction or physics
-  claim is promoted.
+  by N5-RS-P2 and HC-DU-052; only N5-RS-P4 is executable. No model, hardware, paper, prediction
+  or physics claim is promoted.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -213,8 +227,9 @@ metastable_host_robustness_result_rule: >-
   MARKOV_OPERATIONAL_CLOSURE as the positive control, and treat A-plus-H repair as
   INJECTIVE_TOMOGRAPHY_ONLY. The interposed N5-SCF sequence is complete as
   HC-DU-047/048/049/050/051 and N5-RS-P2 has consumed its sharpened
-  physical-source-formation inputs. Do not fit another archive to this host; only N5-RS-P3 is
-  executable.
+  physical-source-formation inputs. HC-DU-052 then localizes the first lawful `3+1` remainder to
+  omitted incoming characteristic data. Do not fit another archive to this host; only N5-RS-P4
+  is executable.
 joint_input_amplification_result_ref: >-
   explorations/joint-input-no-minting-synergistic-recovery-and-dependency-sensitive-amplification-2026-07-27.md
 joint_input_amplification_result_rule: >-
@@ -288,7 +303,8 @@ distributed_physical_collision_result_rule: >-
   causal physical source binding: a signed value can be QND-formed or preloaded. The MMO
   dual-mesh control states the same factorization boundary as signed render representation versus
   authoritative collision capability. The metastable host remains closed under replication,
-  signing and hardening. N5-SCF and N5-RS-P2 are complete; only N5-RS-P3 is executable.
+  signing and hardening. N5-SCF, N5-RS-P2 and N5-RS-P3/HC-DU-052 are complete; only N5-RS-P4 is
+  executable.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -730,7 +746,8 @@ lanes:
     render-mesh/collision-mesh control makes the capability failure explicit. N5-SCF and
     N5-RS-P2 are complete. The portfolio receipt selects the `3+1` law-filtered record-assisted
     inverse problem as primary, conservative certification and physical feedback as reserve,
-    and host proliferation as stopped. Only N5-RS-P3 is executable.
+    and host proliferation as stopped. HC-DU-052 localizes the first lawful `3+1` remainder to
+    causal-exterior incoming radiation. Only N5-RS-P4 is executable.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -772,6 +789,9 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md
   - runs/2026-07-27-minimum-premise-whole-du-portfolio-pivot.md
+  - explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
+  - runs/2026-07-27-3-plus-1-lawful-causal-remainder.md
+  - tests/du_3plus1_lawful_causal_remainder_probe.py
   - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   - explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   - explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
@@ -925,8 +945,9 @@ lanes:
     formation. Independent corruption improves bounded readout risk without adding source information;
     signed render provenance does not determine collision capability. The five-swing N5-SCF
     sequence and N5-RS-P2 portfolio pivot are complete. Preserve H-CCR-17 behind the explicit
-    archive-relocation-breaking reopener, do not begin another mechanism-specific host card, and
-    execute only N5-RS-P3.
+    archive-relocation-breaking reopener and do not begin another mechanism-specific host card.
+    HC-DU-052 attributes the first lawful `3+1` remainder to omitted incoming characteristic
+    data; execute only N5-RS-P4 inside a causally closed boundary.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -1067,9 +1088,11 @@ lanes:
     the positive counterpart for boundary-flux action, while interior charge, crossing and
     formation history remain exact leaks. Independent copies reduce action error but do not become
     independent physical sources, and authenticated representation alone does not bind a current
-    physical capability surface. N5-SCF and N5-RS-P2 are complete. Freeze the observer,
-    action, resource and record envelope for N5-RS-P3; conservative certification remains the
-    reserve rather than a parallel campaign.
+    physical capability surface. N5-SCF, N5-RS-P2 and N5-RS-P3/HC-DU-052 are complete.
+    HC-DU-052 localizes the first lawful remainder to causal-exterior incoming radiation. Put a
+    complete incoming-boundary variable family inside the frozen completion contract, exclude
+    omitted exterior inputs, and freeze the observer, action, resource and record envelope for
+    N5-RS-P4; conservative certification remains the reserve rather than a parallel campaign.
   success_signal: >-
     A necessary-and-sufficient certificate-to-capability result, tight matched-resource bound or
     counterexample showing exactly which access or resource was missing.
@@ -1180,8 +1203,9 @@ lanes:
     distributed amplification and regional handoff work after target-sensitive physical
     formation, but declared ancestry and signatures do not identify that formation. The
     render-mesh/collision-mesh control exposes the same value with different action capability.
-    N5-SCF and N5-RS-P2 are complete. Preserve regional descent as a typed downstream dependency;
-    do not activate another consensus build before N5-RS-P3 decides the lawful inverse problem.
+    N5-SCF, N5-RS-P2 and N5-RS-P3/HC-DU-052 are complete. Preserve regional descent as a typed
+    downstream dependency; do not activate another consensus build before N5-RS-P4 decides the
+    causally closed interior inverse problem.
   success_signal: >-
     A pairwise-to-global action-sufficient composition theorem, tight obstruction or explicit
     provenance/logical lift that transfers unchanged across physical and adversarial distributed
@@ -1310,10 +1334,12 @@ lanes:
     stochastic/consensus/complexity/cryptography sequence: independent archive corruption changes
     action risk but not source information, authenticated declared origin does not imply causal
     source formation, and safe physical handoff also requires the current epoch, orientation,
-    availability and preserved action boundary. N5-RS-P2 is complete. Execute only N5-RS-P3:
-    distinguish law-only target closure, strict record-assisted reconstruction, a lawful
-    same-record/different-target remainder, interface-selection dependence and an incomplete
-    physical class before adding CFS, simulation or hardware.
+    availability and preserved action boundary. N5-RS-P2 and N5-RS-P3 are complete. HC-DU-052
+    returns a lawful same-record/different-target witness but attributes it to omitted incoming
+    characteristic data. Execute only N5-RS-P4: include a complete incoming-boundary variable
+    family in the frozen completion contract, exclude omitted exterior inputs, and distinguish
+    strict noninjective transfer, an interior remainder, law-only closure and injective
+    tomography before adding CFS, simulation or hardware.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1346,6 +1372,9 @@ lanes:
   - docs/certified-causal-reality-research-program.md
   - explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md
   - runs/2026-07-27-minimum-premise-whole-du-portfolio-pivot.md
+  - explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
+  - runs/2026-07-27-3-plus-1-lawful-causal-remainder.md
+  - tests/du_3plus1_lawful_causal_remainder_probe.py
   - docs/quantum-foundations-orientation-surface.md
   - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
   - tests/du_completion_invariant_transfer_probe.py
@@ -1460,8 +1489,9 @@ lanes:
     capability-relative selective-view and regional-handoff boundary without paper or prediction
     promotion. HC-DU-051 adds the scoped physical-collision, amplification-without-minting and
     signed-render/physical-capability factorization boundary without paper or prediction
-    promotion. N5-SCF and N5-RS-P2 are complete. Do not promote a paper from the portfolio
-    decision; route only N5-RS-P3 and reassess publication after its exact trichotomy returns.
+    promotion. N5-SCF, N5-RS-P2 and N5-RS-P3/HC-DU-052 are complete. Do not promote a paper from
+    the open-boundary attribution; route only N5-RS-P4 and reassess publication after the
+    causally closed interior decision.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1521,7 +1551,8 @@ lanes:
     knowledge-layer, hardening, certificate-sufficiency, selective-view and handoff corrections.
     Preserve HC-DU-051's independent-risk/source-information distinction and exact
     authenticated-render/physical-capability factorization. Preserve N5-RS-P2's whole-DU premise
-    lattice and primary/reserve/stop decision. Only N5-RS-P3 is executable.
+    lattice and primary/reserve/stop decision. Preserve HC-DU-052's causal-exterior versus
+    causally-closed-interior distinction. Only N5-RS-P4 is executable.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1533,6 +1564,9 @@ lanes:
   - AGENTS.md
   - explorations/minimum-premise-whole-du-portfolio-pivot-2026-07-27.md
   - runs/2026-07-27-minimum-premise-whole-du-portfolio-pivot.md
+  - explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
+  - runs/2026-07-27-3-plus-1-lawful-causal-remainder.md
+  - tests/du_3plus1_lawful_causal_remainder_probe.py
   - explorations/next-five-swing-stochastic-consensus-finality-scaffold-2026-07-27.md
   - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
   - tests/du_distributed_physical_collision_probe.py
@@ -5627,6 +5661,22 @@ provenance:
     before CFS, simulation or hardware. No claim, prediction, evidence grade,
     paper, Factory state, model, hardware, provider, publication or
     external-contact state changed.
+  rev88_note: >-
+    2026-07-27 (Joe direct chat: Go): completed N5-RS-P3 as HC-DU-052, the
+    first 3+1 law-filtered record-assisted reconstruction test. In an exact
+    finite linearized Einstein--matter solution family, the supplied local
+    scalar/vector record has rank three and reconstructs its three source
+    coefficients, while two incoming transverse-traceless modes vanish on the
+    full past record region and independently change a later gauge-invariant
+    target. The exact certificate passes 14/14 and returns
+    LAWFUL_SAME_RECORD_DIFFERENT_TARGET. The witness is explicitly downgraded
+    to causal-exterior/open-boundary information under standard hyperbolic and
+    characteristic-Cauchy theory. No-incoming radiation closes the target by
+    law/source narrowing; the full incoming characteristic archive closes it
+    only by injective resource-expanded tomography. Only N5-RS-P4, Causally
+    Closed Interior Reconstruction and Noninjective Transfer, is executable.
+    Added NI-DU-82. No new physics, ontology, prediction, paper, CFS, hardware,
+    provider, publication or external-contact state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"
