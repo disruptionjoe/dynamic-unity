@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: physical selection to formed descent"
-status: swings_1_and_2_complete_swing_3_next
+status: swings_1_through_3_complete_swing_4_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: prepare and scaffold the next five swings using divergent personas"
@@ -12,7 +12,8 @@ run_plan: "../runs/2026-07-26-next-five-swing-campaign-scaffold.md"
 
 ## Campaign progress
 
-`CCR-N5-S1` and `CCR-N5-S2` are complete as `HC-DU-033F/G`.
+`CCR-N5-S1`, `CCR-N5-S2`, and `CCR-N5-S3` are complete as
+`HC-DU-033F/G/H`.
 
 The result replaces a context-free selector search with an exact
 antecedent-relative contract. For complete realizations \(\omega\), claimed
@@ -50,9 +51,28 @@ The Einstein--matter ladder then located the first honest selector rungs:
 
 See
 [the executed Einstein--matter ladder](einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md).
-`CCR-N5-S3` is now the next executable object. It must apply the same
-passport unchanged to localized AQFT source--probe--pointer--archive
-measurement and preserve the S2 partial/adverse receipt.
+
+The localized-AQFT ladder independently located the QFT boundary:
+
+- target--probe dynamics selects an induction map, causal localization, and
+  causal factorization relative to the supplied probe architecture;
+- a particular induced target instrument first closes after probe
+  preparation and effects are supplied at \(A_3\);
+- a formed record also needs pointer, archive, provenance, and reset
+  semantics at \(A_3\);
+- a complete observer-indexed ARE and finality claim first close with access,
+  resources, future actions, and a horizon at \(A_4\);
+- movable-cut equivalence preserves target measurement statistics in the
+  proved class, not complete formed-record identity for free; and
+- causal operations strictly exceed Fewster--Verch-realizable operations in
+  a recent free-scalar/Weyl result, so realizability is a nontrivial plural
+  filter rather than a point selector.
+
+See
+[the executed localized-AQFT ladder](localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md).
+`CCR-N5-S4` is now the next executable object. It must consume both
+partial/adverse selector receipts and attempt formed descent without
+pretending either arena endogenously selected a pointer or actual outcome.
 
 ## Executive result
 
@@ -105,10 +125,10 @@ The campaign's scientific objective is:
 > remain external and return the smallest finite remainder or selection
 > obstruction.
 
-The initial preparation executed no swing. The subsequent `CCR-N5-S1/S2`
-executions earned only the scoped `HC-DU-033F/G` selector classifications
-stated above; they promoted no paper and make no integrated-theorem novelty
-claim.
+The initial preparation executed no swing. The subsequent
+`CCR-N5-S1/S2/S3` executions earned only the scoped `HC-DU-033F/G/H`
+selector classifications stated above; they promoted no paper and make no
+integrated-theorem novelty claim.
 
 ## 1. Why this is not the previous campaign or the approach atlas
 
@@ -467,7 +487,17 @@ law/interface/record/access receipt matrix.
 
 **Prepared ID:** `CCR-N5-S3`
 
-**Execution status:** next executable campaign object.
+**Execution status:** completed as `HC-DU-033H`.
+
+**Receipt:** Localized target--probe dynamics selects a family-valued
+induction map plus causal localization and composition, not one probe
+preparation, POVM, pointer, or archive. A particular induced instrument and
+formed apparatus record first close at \(A_3\); observer access, resources,
+action envelope, horizon, and complete ARE close at \(A_4\). No rung selects
+an actual outcome. Causality is broader than Fewster--Verch realizability,
+and movable-cut target equivalence is weaker than complete formed-record
+identity. See the
+[completed exploration](localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md).
 
 **Owning lanes/channels:** Lanes 3, 4, 5, and 6;
 `CH-FORMAL`, `CH-COLLIDE`, `CH-SYN`.
@@ -544,6 +574,8 @@ and a finite-horizon record/finality contract.
 ## 9. Prepared Swing 4 — Formed Sharp Descent or Exact Non-Equivalence
 
 **Prepared ID:** `CCR-N5-S4`
+
+**Execution status:** next executable campaign object.
 
 **Owning lanes/channels:** Lanes 1, 3, 5, and A;
 `CH-FORMAL`, `CH-SYN`, `CH-COLLIDE`.
@@ -711,8 +743,8 @@ and the next program decision.
 
 ### One swing at a time
 
-`CCR-N5-S1/S2` are complete. Only `CCR-N5-S3` is now executable. Before each
-later swing:
+`CCR-N5-S1/S2/S3` are complete. Only `CCR-N5-S4` is now executable. Before
+each later swing:
 
 1. read the preceding receipt;
 2. select the appropriate branch above;

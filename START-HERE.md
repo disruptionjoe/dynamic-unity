@@ -615,18 +615,31 @@ write/archive, and complete access/resource/action fields first close at
 \(A_2,A_3,A_4\). The one-clock plural/two-clock greatest-envelope switch
 remains resource-attributed.
 
-The next high-value dependency is `CCR-N5-S3`:
+`HC-DU-033H` has now instantiated the same passport independently in
+localized AQFT. A supplied target--probe coupling selects an induction map,
+causal localization, and causal factorization, but not one probe
+preparation, POVM, pointer, or archive. A particular induced instrument and
+formed apparatus record first close at \(A_3\). Observer access, decoder,
+resources, future actions, horizon, and complete ARE first close at \(A_4\).
+No rung selects an actual outcome. Movable-cut equivalence preserves target
+measurement statistics in the proved class, not complete pointer,
+provenance, attempt, resource, and access semantics for free. Recent
+free-scalar/Weyl results also show that causal operations strictly exceed
+Fewster--Verch-realizable operations; realizability is a nontrivial plural
+filter rather than a point selector.
 
-1. apply the unchanged selector passport to a localized AQFT
-   source--probe--pointer--archive process;
-2. distinguish the system theory and realized state from the supplied probe,
-   coupling, preparation, observable, pointer, provenance, and access fields;
-3. locate the first antecedent rung that point-selects each field without
-   using the held-out target;
-4. preserve the factor-internal no-record result and the Einstein--matter
-   partial/adverse receipt; and
-5. return a selected nontrivial local ARE, an apparatus-relative selector,
-   an orbit/plural family, or an empty nontrivial internal-record class.
+The next high-value dependency is `CCR-N5-S4`:
+
+1. consume the Einstein--matter and localized-AQFT partial/adverse selector
+   receipts without inventing an endogenous pointer;
+2. freeze the smallest explicitly formed \(A_3/A_4\) interfaces across the
+   material gauge, QEC, Einstein--matter, AQFT, and authenticated controls;
+3. test nonempty lawful realization, occurrence/provenance compatibility,
+   selective restriction, joint realizability, center-screened future
+   actions, and benign-refinement naturality;
+4. derive one common formed-descent law or the smallest exact
+   cross-arena non-equivalence; and
+5. preserve every interface, action, resource, and horizon receipt.
 
 The prepared
 [next five-swing campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)
@@ -641,16 +654,16 @@ sequences that dependency without activating five runs:
 5. adjudicate reconstruction, plural duality, interface dependence,
    remainder, or incomplete contract.
 
-The first two swings are complete as `HC-DU-033F/G`. Only `CCR-N5-S3` is now
-the next executable campaign object. Each later swing remains
+The first three swings are complete as `HC-DU-033F/G/H`. Only `CCR-N5-S4`
+is now the next executable campaign object. Each later swing remains
 branch-conditioned on the preceding receipts, not on a positive result. The
 AQFT arena must preserve probe, pointer, archive, provenance, decoder, and
 access as separately credited fields rather than treating an induced
 observable as a formed record.
 
-Do not fit another microscopic Hamiltonian to the same final flux write.
-Open a Fewster--Verch AQFT embedding only after stating a new locality or
-selection proposition that the finite model cannot already decide.
+Do not fit another microscopic Hamiltonian, detector, or probe chain to the
+same final write. Treat causal admissibility, FV realizability, instrument
+selection, formed-record identity, and actual outcomes as distinct.
 
 Infrared/asymptotic QED is parked until a finite-time,
 finite-resolution access/horizon contract exists. The optical-clock
@@ -770,10 +783,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-033G`: Einstein--matter selects flow and conditional synchronization before any generic observer, write, archive, or access interface. Apply the same passport next to localized AQFT; do not repeat supplied detector, code, or fitted-sensor variants. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, or induced observable is not an observer-access contract. Keep route, authentication, decoder, actions, and resources explicit; the one-clock/two-clock control proves that a resource change can change reconstruction. |
-| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Use projector-preserving gauge finality and complete local stabilizer checks as positive controls; preserve the logical/homological remainder and never equate local defect finality with full logical-state finality. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-033G/038E` now separate matter-selected clock geometry from apparatus-selected records: FLRW is flow/time positive and observer negative; Gödel is flow positive and synchronization negative; one-clock/two-clock reconstruction remains resource-relative. Carry that boundary into AQFT and formed descent. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-033G/H`: Einstein--matter selects flow and conditional synchronization before any generic record, while localized AQFT selects an induction/realizability family before any particular instrument or archive. Advance formed descent; do not repeat supplied detector, code, or fitted-probe variants. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, or FV realization is not an observer-access contract. Keep route, authentication, decoder, actions, resources, and horizon explicit; no completed ladder selects an actual outcome. |
+| **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `CCR-N5-S4` is next: test one typed descent law across explicitly formed apparatus-relative interfaces, or return the smallest cross-arena non-equivalence. Preserve the logical/homological remainder and the movable-cut semantic boundary. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-033G/H/038E` separate matter-selected clock geometry and AQFT-local induced operations from apparatus-selected records and observer AREs. Carry both partial receipts into formed descent and held-out reconstruction. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -805,7 +818,7 @@ channels; they are not lanes and do not create a second priority system.
    [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
 6. When Joe opens the next central campaign swing, read the
    [physical-selection-to-formed-descent campaign scaffold](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md).
-   `CCR-N5-S1/S2` are complete; `CCR-N5-S3` is the next executable object,
+   `CCR-N5-S1/S2/S3` are complete; `CCR-N5-S4` is the next executable object,
    while the later swings remain receipt-conditioned.
 7. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).

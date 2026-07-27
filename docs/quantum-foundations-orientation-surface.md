@@ -511,6 +511,31 @@ pointer, archive, decoder, or oriented reference. Approximate leakage can
 accumulate coherently, and finality defect cannot improve merely by enlarging
 the admitted capability set.
 
+**Localized selection receipt (`HC-DU-033H`).** In the Fewster--Verch
+framework, a supplied target theory, probe theory, coupling region, coupled
+theory, and scattering morphism select the *induction map* from probe
+preparations and effects to target observables/instruments, plus causal
+localization and factorization. They do not choose one input to that map. A
+particular induced instrument first closes after the probe preparation and
+POVM are supplied; a formed record additionally needs a material pointer,
+archive, provenance, and reset; and a complete observer ARE/finality claim
+needs access, resources, future actions, and a horizon. No rung selects an
+actual outcome.
+
+Movable Fewster--Verch cuts preserve the proved target measurement class, not
+complete formed-record semantics without an additional action-sufficiency
+argument ([Mandrysch--Navascués](https://arxiv.org/abs/2411.13605)).
+Moreover, a 2026 preprint proves that causal QFT operations and
+Fewster--Verch-realizable operations do not coincide in a declared
+free-scalar/Weyl class: some causal
+channels are not even asymptotically FV-realizable, a broad plural class is
+realizable, and the promised-gap decision problem between
+network-implementable and far-from-network-implementable is uncomputable for
+a declared countable class under the paper's assumptions
+([Mandrysch--Simmons--Navascués](https://arxiv.org/abs/2607.12976)).
+Realizability is therefore a nontrivial physical filter, not a point
+selector. Uncomputability is not actualization or physical openness.
+
 ### 10. Causal order versus observer-accessible reality
 
 **Established.** Causal-set and histories programs can assign global or
@@ -608,7 +633,7 @@ interventional sufficiency, not another finite selector fit.
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |
-| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, decoder, code/check family, and action envelope. `HC-DU-033F` makes selection antecedent-relative: an ARE/interface is selected exactly when it is constant on the claimed antecedent fibres; otherwise return the minimal orbit, plural family, or empty nontrivial class. `HC-DU-033G` completes the Einstein--matter ladder: simple-eigenline matter selects flow, FLRW selects cosmic-time structure but no observer token, Gödel vorticity blocks orthogonal synchronization, homogeneous transport does not mint an archive, and complete access/resource fields first close at A4. `HC-DU-033C` is the symmetry witness, `HC-DU-040D` the finite gauge formation-orbit control, and `HC-DU-040E` the supplied-code process-relative control. The live opening is the unchanged localized-AQFT antecedent test, not another fitted detector or code | `HC-DU-033/033C/033E/033F/033G/036B/036C/036E/036F/040B/040C/040D/040E` |
+| Record formation and interface selection | Explain or delimit selection of the oriented reference, processor, pointer/archive, decoder, code/check family, and action envelope. `HC-DU-033F` makes selection antecedent-relative: an ARE/interface is selected exactly when it is constant on the claimed antecedent fibres; otherwise return the minimal orbit, plural family, or empty nontrivial class. `HC-DU-033G` completes the Einstein--matter ladder: simple-eigenline matter selects flow, FLRW selects cosmic-time structure but no observer token, Gödel vorticity blocks orthogonal synchronization, homogeneous transport does not mint an archive, and complete access/resource fields first close at A4. `HC-DU-033H` independently completes the localized-AQFT ladder: target--probe dynamics selects an induction/realizability family and causal composition, while a particular instrument, formed archive, and complete observer ARE first close at A3/A4 and no rung selects an outcome. `HC-DU-033C` is the symmetry witness, `HC-DU-040D` the finite gauge formation-orbit control, and `HC-DU-040E` the supplied-code process-relative control. The live opening is formed descent across those typed partial interfaces, not another fitted detector or code | `HC-DU-033/033C/033E/033F/033G/033H/036B/036C/036E/036F/040B/040C/040D/040E` |
 | Acquisition visibility | Distinguish the provider-returned population from the complete attempted physical process; full factorization additionally requires the selection kernel and every supported selected/rejected response stratum to factor through the record. A scoped five-interface matrix finds no standard documented all-attempt/complete-reset route; silence is not absence | `HC-DU-036D/036E/036F` |
 | Certified multi-time history | Connect complete temporal process structure to rival-excluding causal provenance | `HC-DU-034` |
 | Public-finality composition | `HC-DU-035D` exactly characterizes selective future center screening, composition, first-leak localization, and the aggregate-route failure while permitting retained quantum fibres. The open delta is physical selection of the regions, action algebras, archives, and future action class, followed by transfer to effective-physics reconstruction | `HC-DU-035/035C/035D` |

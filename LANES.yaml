@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 69
+manifest_revision: 70
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -40,8 +40,8 @@ next_five_swing_campaign_ref: >-
 next_five_swing_campaign_rule: >-
   The prepared central campaign sequences one target-independent physical-ARE selector contract,
   independent Einstein--matter and localized-AQFT selector tests, a formed-descent or exact
-  non-equivalence attempt, and a final North-Star adjudication. CCR-N5-S1 and S2 are complete as
-  HC-DU-033F/G. Only CCR-N5-S3 is now the next executable object; every later swing must consume
+  non-equivalence attempt, and a final North-Star adjudication. CCR-N5-S1 through S3 are complete
+  as HC-DU-033F/G/H. Only CCR-N5-S4 is now the next executable object; every later swing must consume
   the prior receipts and choose the documented positive, adverse or incomplete branch without
   redefining records, interfaces or success.
 physical_are_selector_result_ref: >-
@@ -62,7 +62,20 @@ einstein_matter_selection_ladder_rule: >-
   data but does not mint a write, and causal reachability does not select a route, authentication,
   decoder or capability. Material clock, write/archive and observer-access/resource antecedents
   first close those fields at A2, A3 and A4 respectively. Consume this exact partial/adverse
-  receipt in CCR-N5-S3 rather than treating clock geometry as a formed record.
+  receipt with the localized-AQFT receipt in CCR-N5-S4 rather than treating clock geometry as a
+  formed record.
+localized_aqft_selection_ladder_ref: >-
+  explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
+localized_aqft_selection_ladder_rule: >-
+  A supplied Fewster--Verch target--probe coupling selects the induction map from probe
+  preparations and effects to target observables/instruments, plus causal localization and
+  factorization; it does not select one input to that map. A particular induced instrument and
+  formed pointer/archive first close at A3. Observer access, decoder, resources, future actions,
+  horizon and complete ARE first close at A4. No rung selects an actual outcome. Causal QFT
+  operations strictly exceed the FV-realizable class in the scoped free-scalar/Weyl result, so
+  realizability is a nontrivial plural filter rather than a point selector. Movable-cut target
+  equivalence does not imply complete formed-record identity without an action-sufficiency proof.
+  Consume this exact partial/adverse receipt with the Einstein--matter receipt in CCR-N5-S4.
 local_model_learning_gate_ref: lab/process/local-model-learning-gate.md
 local_model_learning_gate_rule: >-
   Before a future simulation, toy model, solver, executable fixture, trained surrogate, emulator
@@ -398,10 +411,15 @@ lanes:
     topology selects an orthogonal proper-time class; homogeneous matter still leaves observer
     worldlines in an orbit; transport without a write source does not mint an archive; and causal
     reachability does not select access. Material clock, write/archive and access/resource
-    antecedents first close those fields at A2, A3 and A4. CCR-N5-S3 is now the next executable
-    campaign object and must apply the same passport to localized AQFT without assuming a
-    quantum-positive selector result. Later swings remain receipt-conditioned.
-    Open AQFT only for that new locality and selection proposition. Consume HC-DU-035D's layered
+    antecedents first close those fields at A2, A3 and A4. Consume HC-DU-033H's completed
+    localized-AQFT ladder: target--probe dynamics selects an induction/realizability family and
+    causal composition relative to supplied couplings; a particular instrument and formed
+    archive first close at A3; the observer ARE/finality contract first closes at A4; and no
+    rung selects an outcome. Causal admissibility is broader than FV realizability, while
+    movable-cut target equivalence does not supply formed-record identity. CCR-N5-S4 is now the
+    next executable campaign object and must attempt formed descent or exact non-equivalence
+    across the two partial/adverse selector receipts. Later swings remain receipt-conditioned.
+    Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
     noncentral pullback and its exact blockwise leakage margin rather than treating finality as
@@ -453,6 +471,7 @@ lanes:
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
+  - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
@@ -546,8 +565,10 @@ lanes:
     on its fibres; symmetry is one witness, not the definition. HC-DU-033G has now returned the
     Einstein--matter point/orbit/empty ladder: flow and conditional synchronization can be
     selected before any observer token, write, archive or access route. Homogeneous transport
-    does not mint content and causal reachability does not select access. Reuse this same
-    passport in CCR-N5-S3 localized AQFT rather than changing the selector by arena.
+    does not mint content and causal reachability does not select access. HC-DU-033H now returns
+    the independent AQFT ladder: localized coupling selects an induction family before any
+    particular instrument, pointer/archive, observer ARE or actual outcome. Consume both
+    receipts in CCR-N5-S4 without changing the selector or formed-record semantics by arena.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -592,6 +613,7 @@ lanes:
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
+  - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
   - explorations/proper-time-certification-hierarchy-and-source-attribution-null-2026-07-26.md
   - tests/du_action_center_capability_boundary_probe.py
@@ -647,9 +669,10 @@ lanes:
     antecedent-relative. Consume HC-DU-033G's Einstein--matter result that A1 can select matter
     flow and conditional synchronization while observer token, formed write, provenance,
     authenticated access, decoder, joint resource budget and future action envelope remain
-    separate selector fields. Through CCR-N5-S3, report the first antecedent rung at which each
-    becomes fixed. A clock congruence or induced observable alone does not select the
-    observer-access contract. Consume
+    separate selector fields. HC-DU-033H supplies the AQFT counterpart: probe preparation and
+    effects close one instrument at A3, while observer access, resources, actions and horizon
+    close at A4. A clock congruence, induced observable or FV realization alone does not select
+    the observer-access contract. Carry both receipts into CCR-N5-S4. Consume
     HC-DU-035D: a public record can be final without fibre
     destruction only relative to a complete selectively center-screening future action class.
     Adding a noncentral recoupling changes the capability contract; omitting an admitted route
@@ -686,6 +709,7 @@ lanes:
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
+  - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   do_not: >-
     Do not use an observer as an unexplained primitive in a reconstruction claim or compare
     capabilities under unmatched systems, time, controls, priors, decoder access, risk or error
@@ -766,6 +790,8 @@ lanes:
   - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
   - explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
+  - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
+  - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   do_not: >-
     Do not identify qubits with validators, entanglement with consensus, graph subdivision with
     physical distance, or redundancy/confidence with public finality.
@@ -829,8 +855,10 @@ lanes:
     orthogonal cosmic-time class but no observer token, Gödel selects flow while vorticity blocks
     orthogonal synchronization, homogeneous transport does not mint an archive, and access first
     closes at the complete A4 contract. The one-clock plural/two-clock greatest-envelope switch
-    remains resource-attributed. CCR-N5-S3 must carry this exact point/orbit/plural/empty receipt
-    into localized AQFT rather than treating the matter model as universal. Do not identify the physical systems, repeat code variants, or call the logical
+    remains resource-attributed. HC-DU-033H independently shows that AQFT target--probe dynamics
+    selects an induction/realizability family but no particular apparatus record or actual
+    outcome before A3/A4. CCR-N5-S4 must now test formed descent across those typed interfaces
+    or return an exact non-equivalence. Do not identify the physical systems, repeat code variants, or call the logical
     quotient an irreducible ontology result; the code/check/action structure is supplied.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
@@ -884,6 +912,7 @@ lanes:
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
+  - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   - explorations/triplet-boundary-index-flavor-identifiability-integrated-swing-2026-07-25.md
   - tests/du_triplet_boundary_flavor_integrated_probe.py
@@ -990,8 +1019,8 @@ lanes:
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
     entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
     the CCR-N5 campaign as branch-conditioned work contracts, not five active runs. CCR-N5-S1
-    and S2 are complete as HC-DU-033F/G; only CCR-N5-S3 is now executable, and later swings must
-    consume the preceding receipts.
+    through S3 are complete as HC-DU-033F/G/H; only CCR-N5-S4 is now executable, and later
+    swings must consume the preceding receipts.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1006,6 +1035,7 @@ lanes:
   - explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
+  - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
   do_not: >-
     Do not treat governance, persona agreement, a vote, a wish list or a reproducibility pass as
     scientific evidence.
@@ -4763,6 +4793,27 @@ provenance:
     object. No generic matter-derived observer or record, actualization theory, ontology, new
     gravity, new law, new physics, prediction, paper, Factory state, model, simulation, hardware,
     provider action, submission, publication or external contact is promoted.
+  rev70_note: >-
+    2026-07-26 (Joe direct chat: Go, execute CCR-N5-S3): completed HC-DU-033H as an exact
+    localized-AQFT antecedent-relative selection ladder. In a Fewster--Verch target--probe
+    scheme, the supplied target/probe theories, coupling region, coupled theory and scattering
+    morphism select the family-valued induction map from probe preparations and effects to
+    induced target observables/instruments, plus causal localization and factorization. They do
+    not choose one input to that map. A particular induced instrument and formed material
+    pointer/archive first close at A3 after probe preparation, effects, provenance and reset are
+    supplied. Observer access, decoder, resources, future actions, horizon and complete ARE
+    first close at A4. No rung selects an actual outcome. Movable Fewster--Verch cuts preserve
+    target measurement in the proved class, not complete formed-record identity without an
+    action-sufficiency proof. Recent free-scalar/Weyl results show that causal QFT operations
+    strictly exceed the FV-realizable class; realizability is a nontrivial plural filter, while
+    the promised-gap network-implementable versus far-from-network-implementable decision is
+    uncomputable in a declared countable class. Neither fact supplies point selection,
+    actualization or physical openness. The full-local-factor internal-record obstruction
+    remains. Component mathematics is known. CCR-N5-S4, the formed sharp descent or exact
+    non-equivalence attempt, is now the sole next executable campaign object. No endogenous QFT
+    pointer, archive, observer, outcome, actualization theory, ontology, new QFT, new law, new
+    physics, prediction, paper, Factory state, model, simulation, hardware, provider action,
+    submission, publication or external contact is promoted.
 extensions:
   operating_architecture:
     contract_version: "1.0"

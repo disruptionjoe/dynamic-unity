@@ -1109,6 +1109,23 @@ resolution-stable intervention role. No claim is banked or seeded. See
   one-clock plural/two-clock greatest-envelope switch remains explicitly
   resource-attributed. Component mathematics is known. See
   `einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md`.
+- **Earned localized-AQFT induction-to-record selection ladder.**
+  `HC-DU-033H` applies the same passport to Fewster--Verch target--probe
+  measurement. A supplied coupling architecture selects the map from probe
+  preparations and effects to induced target observables/instruments, plus
+  causal localization and factorization. It does not choose one input to
+  that map. A particular instrument and formed pointer/archive first close
+  at \(A_3\); a complete observer/access/resource/action ARE and finality
+  contract first close at \(A_4\); no rung selects an actual outcome.
+  Movable-cut equivalence preserves target measurement in the proved class,
+  not complete formed-record identity without an action-sufficiency proof.
+  Recent free-scalar/Weyl results make causal admissibility strictly broader
+  than Fewster--Verch realizability and make the promised-gap decision
+  between network-implementable and far-from-network-implementable
+  uncomputable in a scoped countable class. Realizability is therefore a
+  nontrivial plural filter, not a selector; uncomputability is not
+  actualization. Component mathematics is known. See
+  `localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/036H/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
@@ -1130,18 +1147,19 @@ resolution-stable intervention role. No claim is banked or seeded. See
      accessible, approximately broadcastable, bounded-risk actionable fact.
      Stop if the result only intersects known statistical, secret-sharing,
      quorum, and quantum-access conditions.
-  3. Parent `HC-DU-033`: consume the completed `HC-DU-033G`
-     Einstein--matter receipt and instantiate `HC-DU-033F` unchanged in
-     localized AQFT. Track system theory, realized state/reference, probe,
-     coupling region, preparation, observable, pointer/archive, provenance,
-     reset, observer access, decoder, resources, and future action horizon
-     separately. Return the first singleton rung or preserve the orbit,
-     plural, trivial, or empty class.
-  4. `HC-DU-038`: preserve the exact separation between matter-selected flow
-     and conditional synchronization, apparatus-selected clocks/archives,
-     and access/resource-selected AREs. Apply every maximal selected AQFT
-     bundle without target refitting before attempting cross-arena formed
-     descent.
+  3. Parent `HC-DU-033/035D/039`: consume the completed
+     `HC-DU-033G/H` Einstein--matter and AQFT receipts in `CCR-N5-S4`.
+     Freeze the smallest explicitly formed apparatus-relative interfaces,
+     then test nonempty lawful realization, occurrence/provenance
+     compatibility, selective restriction, joint realizability,
+     center-screened future actions, and benign-refinement naturality.
+     Return one typed formed-descent law or the smallest cross-arena
+     non-equivalence.
+  4. `HC-DU-038`: preserve the exact separation among matter-selected flow,
+     AQFT-selected induction/realizability families, apparatus-selected
+     clocks/archives, and access/resource-selected AREs. Apply every maximal
+     selected bundle without target refitting in the final North-Star
+     reconstruction swing.
 - **Central failure modes.** Primitive circularity, sufficiency tautology,
   per-fixture interface refitting, weak adversary manufacture, endpoint or
   redundancy substitution, hidden resource export, covariance overclaim,
@@ -1195,6 +1213,13 @@ resolution-stable intervention role. No claim is banked or seeded. See
   BUT OBSERVER-ORBIT NEGATIVE / GODEL FLOW POSITIVE BUT ORTHOGONAL
   SYNCHRONIZATION OBSTRUCTED / HOMOGENEOUS TRANSPORT DOES NOT MINT /
   CAUSAL REACHABILITY DOES NOT SELECT ACCESS /
+  HC-DU-033H LOCALIZED-AQFT INDUCTION/REALIZABILITY/INSTRUMENT/FORMED-RECORD/
+  ACCESS/FINALITY ANTECEDENT LADDER EXACT AS KNOWN MATHEMATICS /
+  TARGET--PROBE DYNAMICS SELECTS AN INDUCTION FAMILY AND CAUSAL COMPOSITION,
+  NOT ONE INSTRUMENT / A3 APPARATUS RECORD AND A4 OBSERVER ARE CLOSURE /
+  NO ACTUAL-OUTCOME SELECTION / CAUSAL OPERATIONS STRICTLY BROADER THAN
+  FV-REALIZABLE OPERATIONS IN THE SCOPED SOURCE CLASS / MOVABLE-CUT TARGET
+  EQUIVALENCE DOES NOT SUPPLY FORMED-RECORD IDENTITY /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION
   REMAINS UNSELECTED /

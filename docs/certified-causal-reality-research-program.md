@@ -647,6 +647,16 @@ same-class refinement and occurrence-identity/completion retyping. It is not
 a novel mathematical theorem or completion of the broader five-platform
 invariance target.
 
+`HC-DU-033H` has a scoped primary-source collision. Fewster--Verch already
+supplies localized target--probe induction, induced observables/instruments,
+and causal factorization; Mandrysch--Navascués supplies movable-cut and
+POVM/instrument controls; split and quantum-reference theory supply the
+subsystem/reference absorbers; and the 2026 causal-versus-FV-realizable
+preprint supplies the nontrivial operation-class filter and scoped
+undecidability boundary. The exact DU gain is the antecedent-attribution
+ladder and formed-record semantic audit, not a new AQFT theorem, physical
+selector, actualization law, or paper.
+
 The rest of `HC-DU-033`, physical `HC-DU-034`, `HC-DU-035B`, the physical
 formation/transfer portion of `HC-DU-036B`, `HC-DU-037`, and
 the remainder of `HC-DU-039..040` retain only an initial collision-class
@@ -2431,6 +2441,70 @@ receipt, not a generic matter-derived observer or record, new gravitational
 law, new physics, actualization theory, or paper claim. See
 `../explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md`.
 
+#### `HC-DU-033H` — Localized AQFT induction-to-record antecedent ladder
+
+Apply `HC-DU-033F` unchanged to the frozen localized-QFT ladder from target
+theory, through realized source/reference and target--probe coupling, to
+probe measurement, formed archive, and observer access.
+
+For target algebra \(\mathcal A\), probe algebra \(\mathcal B\), scattering
+morphism \(\Theta\), and supplied probe state \(\sigma\), the
+Fewster--Verch construction determines
+
+\[
+\varepsilon_{\sigma,\Theta}(B)
+=
+\eta_\sigma\!\left(\Theta(\mathbf 1\otimes B)\right).
+\]
+
+At \(A_2\), the localized target--probe physics therefore selects the
+family-valued induction map
+
+\[
+(\sigma,\mathsf B)
+\longmapsto
+\left(
+\varepsilon_{\sigma,\Theta}(\mathsf B),
+\mathcal I_{\sigma,\Theta,\mathsf B}
+\right),
+\]
+
+together with causal localization and causal factorization for supplied
+schemes. It does not choose the probe state or POVM entering that map.
+Consequently \(A_2\) selects either a plural instrument family or no
+nontrivial induced measurement, not one nontrivial record interface.
+
+A particular induced target instrument first closes at \(A_3\), after probe
+preparation and effects are supplied. A formed record additionally requires
+the material pointer, write, archive, provenance, reset, and attempt
+semantics at that rung. The complete observer-indexed Admissible Record
+Envelope and any exact or approximate finality claim first close at \(A_4\),
+with access, decoder, resources, future action class, norm, and horizon.
+No rung in the ladder selects an actual outcome; an instrument specifies
+probabilities and conditional continuations.
+
+Movable Fewster--Verch cuts preserve the proved target measurement class,
+not complete formed-record identity for free: additional probes can change
+carriers, provenance, resources, reset memories, and access. The full-local-
+factor obstruction of `HC-DU-040B` remains in force.
+
+Recent QFT results further show, in their declared free-scalar/Weyl class,
+that causal operations strictly exceed the closure of Fewster--Verch-
+realizable operations, while a broad plural class of diagonal Weyl
+instruments is realizable, while the promised-gap decision problem between
+network-implementable and far-from-network-implementable is uncomputable for
+a declared countable class. Realizability is therefore a nontrivial filter,
+not a point selector; uncomputability is not physical actualization or
+openness.
+
+The component mathematics is established AQFT measurement, instrument,
+split-property, movable-cut, and quantum-reference terrain. The Dynamic
+Unity result is the exact composed selection receipt and the identification
+of the remaining class-selection question, not an endogenous QFT pointer,
+archive, outcome, observer, actualization law, new QFT theorem, new physics,
+or paper claim. See
+`../explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md`.
+
 #### `HC-DU-038E` — Resource-sensitive \(3+1\) Einstein--matter clock envelope
 
 The envelope has been applied to a smallest nontrivial static weak-field
@@ -2482,20 +2556,22 @@ dynamics and a timelike matter current constrain the geometry and rest-frame
 direction; they do not select the clock worldlines, archive, access route, or
 resource budget that makes the inverse problem full rank.
 
-`HC-DU-033G` now supplies that bounded selector receipt. Matter flow can
+`HC-DU-033G` supplies the bounded Einstein--matter selector receipt. Matter flow can
 select a congruence and conditional synchronization, but it does not thereby
 select one observer, material clock, write, archive, access route, or
-resource budget. The next physical dependency is to apply the same passport
-to a localized AQFT source--probe--pointer--archive process. Do not fit a
-larger sensor matrix to the target.
+resource budget. `HC-DU-033H` now supplies the independent AQFT receipt:
+localized probe dynamics selects an induction/realizability family and
+causal composition relative to supplied couplings, but a particular
+instrument, formed archive, and observer ARE first close at later antecedent
+rungs. Do not fit a larger sensor matrix or detector to the target.
 
 The branch-aware next-five campaign now gives that successor an exact
-sequence. Its first two stages are complete as `HC-DU-033F/G`; the next stage
-instantiates the common target-independent selector passport in an
-independent localized-AQFT test, followed by formed sharp descent or exact
-non-equivalence, and a North-Star held-out
-reconstruction/remainder adjudication. Adverse selection results are inputs
-to later swings rather than failures to manufacture a positive branch. See
+sequence. Its first three stages are complete as `HC-DU-033F/G/H`; the next
+stage attempts formed sharp descent or exact non-equivalence across the
+independently typed interfaces, followed by a North-Star held-out
+reconstruction/remainder adjudication. The two partial/adverse physical
+selection receipts are inputs rather than failures to manufacture a positive
+branch. See
 `../explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md`.
 
 See
