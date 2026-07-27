@@ -2305,6 +2305,69 @@ The refinement, sufficiency, compatibility, gauge, and QEC components are
 known mathematics. The result is a Dynamic Unity adjudication spine, not a
 universal record selector, new theorem claim, ontology, or paper promotion.
 
+#### `HC-DU-033F` — Antecedent-relative physical ARE selector
+
+Physical selection is now typed relative to an explanatory cut. Let
+\(\omega\) range over complete physical realizations, let
+
+\[
+a(\omega)
+\]
+
+contain exactly the antecedent physical facts being credited with selection,
+and let
+
+\[
+\xi(\omega)
+\]
+
+be the formed ARE/interface architecture. The antecedent selects that
+architecture exactly when
+
+\[
+\ker a\subseteq\ker\xi.
+\]
+
+When point selection fails, the unique minimal sound set-valued return is
+
+\[
+\Sigma_a^\xi(\alpha)
+=
+\{\xi(\omega):a(\omega)=\alpha\}.
+\]
+
+It classifies the residual as one selected point, one symmetry orbit,
+several plural possibilities, a trivial interface only, or no physically
+admissible interface. If an antecedent is refined, its selector fibre can
+only shrink.
+
+If a symmetry preserves \(a\) and moves \(\xi\), its full orbit lies in the
+selector fibre; point selection requires a fixed interface. This recovers
+`HC-DU-033C` as a witness while extending the test to nonsymmetry
+underdetermination. If an extra finite classical premise \(b\) repairs exact
+selection among \(n\) remaining interface classes, it must take at least
+\(n\) distinguishable values on that antecedent fibre. A fixed-length binary
+label therefore requires at least \(\lceil\log_2 n\rceil\) bits. The statement
+is a discrimination bound, not a thermodynamic law.
+
+Envelope selection and point-interface selection remain separate. A law may
+select a full covariant family or compatibility complex without selecting one
+observer-indexed member. Multiple selector outputs do not form one joint
+record unless they belong to the physical joint-realizability complex.
+
+Exact controls transfer the same passport through the action-center,
+Minkowski, material `Z3` gauge, Einstein--matter, supplied stabilizer, and
+AQFT-factor results. They distinguish structural value selection,
+orbit-only selection, partial state selection, process-relative selection,
+plural maximal interfaces, and an empty nontrivial internal-record target.
+
+The mathematics is elementary set factorization, equivariant reasoning,
+statistical sufficiency, asymmetry-resource, measurement, and AQFT terrain.
+The Dynamic Unity result is the typed selector-attribution contract, not a
+universal selector, new physical law, actualization theory, ontology, or
+paper claim. See
+`../explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md`.
+
 #### `HC-DU-038E` — Resource-sensitive \(3+1\) Einstein--matter clock envelope
 
 The envelope has been applied to a smallest nontrivial static weak-field
@@ -2363,14 +2426,13 @@ greatest record bundle, leaves symmetry-related maximal bundles, or produces
 a held-out remainder through all of them. Do not fit a larger sensor matrix
 to the target.
 
-The prepared next-five campaign now gives that successor a branch-aware
-sequence. It first freezes a common target-independent physical-ARE selector
-contract, tests it independently in Einstein--matter and localized AQFT
-arenas, attempts formed sharp descent or an exact non-equivalence across the
-surviving physical interfaces, and only then runs a North-Star held-out
+The branch-aware next-five campaign now gives that successor an exact
+sequence. Its first stage is complete as `HC-DU-033F`; the next stage
+instantiates the common target-independent selector passport in
+Einstein--matter, followed by an independent localized-AQFT test, formed sharp
+descent or exact non-equivalence, and a North-Star held-out
 reconstruction/remainder adjudication. Adverse selection results are inputs
-to later swings rather than failures to manufacture a positive branch. The
-campaign is method preparation, not activation or a scientific result. See
+to later swings rather than failures to manufacture a positive branch. See
 `../explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md`.
 
 See
@@ -2416,7 +2478,13 @@ physically jointly realizable interface, not a formal tuple of incompatible
 records. When no greatest interface exists, adjudicate every maximal
 interface and distinguish selector-free plural reconstruction,
 interface-selection dependence, and a class-relative remainder through the
-whole frozen envelope.
+whole frozen envelope. `HC-DU-033F` adds the selector-attribution baseline:
+name the antecedent level and test whether the formed ARE/interface
+architecture is constant on its fibres. If not, return the minimal orbit,
+plural family, trivial class, or empty target rather than choosing a member.
+Any added reference, apparatus, boundary, access path, decoder, action class,
+or resource earns selection credit only at the rung where it actually closes
+the interface fibre.
 
 ## Dependency order
 
@@ -2438,7 +2506,11 @@ whole frozen envelope.
     HC-DU-033C stabilizer interface-selection obstruction
     [COMPLETED EXACT CONTROL; COMPLETE PHYSICAL INTERFACE OPEN]
     HC-DU-033E admissible-record refinement and joint-realizability envelope
-    [COMPLETED EXACT FINITE FRAMEWORK; PHYSICAL SELECTION OF THE ENVELOPE OPEN]
+    [COMPLETED EXACT FINITE FRAMEWORK]
+    HC-DU-033F antecedent-relative ARE selector factorization and
+    minimum-premise classification
+    [COMPLETED EXACT; COMPONENT MATHEMATICS KNOWN;
+     EINSTEIN--MATTER AND AQFT PHYSICAL ANTECEDENT TESTS OPEN]
         |
 2. HC-DU-034 multi-time certification
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]

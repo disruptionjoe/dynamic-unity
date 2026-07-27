@@ -195,12 +195,15 @@ current results establish the starting boundary, not the answer:
   full-rank joined record and exact transfer. Component mathematics is known.
   The live bottleneck is physical selection of the admissibility complex
   itself—not another fitted detector, code, or sensor array.
-- A ten-lens triple-diamond preparation now scaffolds the next five central
-  swings as one branch-aware campaign: a common physical-ARE selector
-  contract; independent Einstein--matter and localized-AQFT selector tests;
-  formed sharp descent or exact non-equivalence; and a final North-Star
-  reconstruction/remainder adjudication. The scaffold activates no run and
-  changes no scientific grade, paper, prediction, hardware, or Factory state
+- The first swing of the branch-aware next-five campaign is complete.
+  `HC-DU-033F` proves that physical ARE/interface selection is relative to a
+  declared antecedent and holds exactly when the formed interface
+  architecture is constant on its antecedent fibres. Its minimal honest
+  failure return is an orbit, plural family, or empty nontrivial interface
+  class; a plural family is not a joint record without physical
+  compatibility. This is known factorization/equivariance mathematics in a
+  DU-specific typed contract, not a universal selector. `CCR-N5-S2`, the
+  Einstein--matter antecedent-ladder test, is next
   ([campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,

@@ -1072,6 +1072,24 @@ resolution-stable intervention role. No claim is banked or seeded. See
   \(t=3r_0/4-r_3\). Component mathematics is known. The admissibility complex
   itself remains physically unselected. See
   `admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md`.
+- **Earned antecedent-relative selector spine.** `HC-DU-033F` now makes
+  physical ARE/interface selection relative to the exact explanatory cut
+  receiving credit. For complete realizations \(\omega\), antecedent
+  \(a(\omega)\), and formed ARE/interface architecture \(\xi(\omega)\), a
+  selector exists exactly when
+  \(\ker a\subseteq\ker\xi\). Otherwise the unique minimal sound return is
+  the image of the antecedent fibre: one symmetry orbit, several plural
+  possibilities, a trivial interface, or no admissible nontrivial interface.
+  Refining the antecedent can only shrink that set. A finite exact added
+  classical premise selecting among \(n\) remaining interface classes must
+  have at least \(n\) distinguishable values. Envelope selection remains
+  weaker than point-interface selection, and a plural family remains weaker
+  than a physically formed joint record. The result transfers unchanged
+  through the action-center, Minkowski, material gauge, Einstein--matter,
+  stabilizer, and AQFT-factor controls. Component mathematics is known. The
+  next test is the Einstein--matter antecedent ladder, not a context-free
+  universal selector search. See
+  `antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/036H/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
@@ -1093,13 +1111,15 @@ resolution-stable intervention role. No claim is banked or seeded. See
      accessible, approximately broadcastable, bounded-risk actionable fact.
      Stop if the result only intersects known statistical, secret-sharing,
      quorum, and quantum-access conditions.
-  3. Parent `HC-DU-033`: use the Admissible Record Envelope rather than
-     selecting one convenient interface. Derive or obstruct the physical
-     compatibility complex—observer boundary, jointly formed instruments,
-     archive routes and resource horizon—from a non-engineered process. Apply
-     the stabilizer fixed-point test to every maximal interface and classify
-     any repair by the symmetry breaker, resource, boundary, or process change
-     it adds.
+  3. Parent `HC-DU-033`: instantiate the `HC-DU-033F` antecedent ladder
+     rather than selecting one convenient interface. In Einstein--matter,
+     track every observer, clock, synchronization, write, archive, access,
+     decoder, action, and resource field from law through realized matter,
+     apparatus, formation, and access. Return the first rung at which each
+     field's selector fibre becomes a singleton; otherwise preserve the orbit,
+     plural family, trivial class, or empty target. Apply the stabilizer test
+     as one witness and the ARE compatibility complex before calling any
+     plural result a joint record.
   4. `HC-DU-038`: extend the \(3+1\) Einstein--matter control only by making
      the matter flow generate the candidate clock worldlines and access
      routes. Keep nonzero law-only target diameter, freeze the admissibility
@@ -1149,6 +1169,10 @@ resolution-stable intervention role. No claim is banked or seeded. See
   HC-DU-033E ADMISSIBLE-RECORD ENVELOPE EXACT AT FINITE
   REFINEMENT/JOINT-REALIZABILITY GRADE / GREATEST VERSUS INCOMPARABLE MAXIMAL
   RECORDS TYPED / COUNTERFACTUAL INCOMPATIBLE RECORD JOIN REJECTED /
+  HC-DU-033F ANTECEDENT-RELATIVE ARE/INTERFACE SELECTOR FACTORIZATION,
+  MINIMAL SOUND SET-VALUED SELECTOR, SYMMETRY-ORBIT OBSTRUCTION, AND FINITE
+  MINIMUM-PREMISE BOUND EXACT AS KNOWN MATHEMATICS / ENVELOPE SELECTION,
+  POINT SELECTION, FORMATION, ACCESS, AND JOINT REALIZABILITY KEPT DISTINCT /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION
   REMAINS UNSELECTED /

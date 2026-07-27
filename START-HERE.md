@@ -567,13 +567,30 @@ Einstein--matter control shows both sides of the boundary: one-clock resource
 limits leave two incomparable insufficient maxima; a charged two-clock
 interface creates a greatest record and exact held-out transfer.
 
-The next high-value dependency is now one level deeper:
+`HC-DU-033F` now supplies the common selector passport. Selection is relative
+to a declared antecedent level. For complete realizations \(\omega\),
+antecedent data \(a(\omega)\), and formed ARE/interface architecture
+\(\xi(\omega)\), that antecedent selects the architecture exactly when
 
-1. select a non-engineered physical arena in which the observer boundary,
-   jointly formable interfaces, archive routes, and resource horizon might
-   follow from the dynamics rather than analyst placement;
-2. derive or obstruct that admissibility/compatibility complex without using
-   the held-out target;
+\[
+\ker a\subseteq\ker\xi.
+\]
+
+When point selection fails, the minimal honest return is the interface image
+of the antecedent fibre: one orbit, several plural possibilities, or no
+nontrivial interface. Symmetry is one witness rather than the definition.
+Adding a premise earns selection credit only when it separates every
+same-antecedent/different-interface pair. A plural family is not a joint
+record unless it is physically jointly realizable.
+
+The next high-value dependency is `CCR-N5-S2`:
+
+1. instantiate the unchanged selector passport on an Einstein--matter
+   antecedent ladder from law through realized matter, clocks/apparatus,
+   formation/archive, and observer access/resources;
+2. locate the first rung that point-selects each observer, clock,
+   synchronization, write, archive, access, decoder, action, and resource
+   field without using the held-out target;
 3. apply the envelope unchanged to every maximal physically selected bundle;
    and
 4. return canonical reconstruction, selector-free plural reconstruction,
@@ -592,11 +609,11 @@ sequences that dependency without activating five runs:
 5. adjudicate reconstruction, plural duality, interface dependence,
    remainder, or incomplete contract.
 
-Only the first prepared swing is the next executable object. Each later
-swing is branch-conditioned on the preceding receipt, not on a positive
-result. The Einstein--matter arena must let matter flow generate candidate
-clock worldlines rather than turn the present two-clock rank repair into
-another fitted sensor campaign.
+The first swing is complete as `HC-DU-033F`. Only `CCR-N5-S2` is now the next
+executable campaign object. Each later swing remains branch-conditioned on
+the preceding receipt, not on a positive result. The Einstein--matter arena
+must let matter flow generate candidate clock worldlines rather than turn the
+present two-clock rank repair into another fitted sensor campaign.
 
 Do not fit another microscopic Hamiltonian to the same final flux write.
 Open a Fewster--Verch AQFT embedding only after stating a new locality or
@@ -755,7 +772,8 @@ channels; they are not lanes and do not create a second priority system.
    [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
 6. When Joe opens the next central campaign swing, read the
    [physical-selection-to-formed-descent campaign scaffold](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md).
-   It prepares five dependency-aware swings but activates none by itself.
+   `CCR-N5-S1` is complete; `CCR-N5-S2` is the next executable object, while
+   the later swings remain receipt-conditioned.
 7. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies

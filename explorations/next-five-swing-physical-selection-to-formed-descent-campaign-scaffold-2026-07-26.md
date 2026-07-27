@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: physical selection to formed descent"
-status: prepared_not_started
+status: swing_1_complete_swing_2_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: prepare and scaffold the next five swings using divergent personas"
@@ -9,6 +9,32 @@ run_plan: "../runs/2026-07-26-next-five-swing-campaign-scaffold.md"
 ---
 
 # Physical selection to formed descent
+
+## Campaign progress
+
+`CCR-N5-S1` is complete as `HC-DU-033F`.
+
+The result replaces a context-free selector search with an exact
+antecedent-relative contract. For complete realizations \(\omega\), claimed
+antecedent \(a(\omega)\), and formed ARE/interface architecture
+\(\xi(\omega)\), the antecedent selects the interface exactly when
+
+\[
+\ker a\subseteq\ker\xi.
+\]
+
+When point selection fails, the minimal honest output is the fibre image
+\(\Sigma_a^\xi\): a point, one orbit, several plural possibilities, or no
+nontrivial interface. Any finite exact additional classical premise must
+distinguish at least as many values as remain in that fibre. A plural set is
+still not a joint record unless it lies in the physical compatibility
+complex.
+
+See
+[the executed selector theorem](antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md).
+`CCR-N5-S2` is now the next executable object. It must instantiate the
+unchanged passport across the law, realized-matter, clock/apparatus,
+formation/archive, and observer-access/resource antecedent ladder.
 
 ## Executive result
 
@@ -61,8 +87,9 @@ The campaign's scientific objective is:
 > remain external and return the smallest finite remainder or selection
 > obstruction.
 
-This preparation does not execute any swing, promote any hypothesis or paper,
-or claim that the integrated theorem is novel.
+The initial preparation executed no swing. The subsequent `CCR-N5-S1`
+execution earned only the scoped `HC-DU-033F` selector classification stated
+above; it promoted no paper and makes no integrated-theorem novelty claim.
 
 ## 1. Why this is not the previous campaign or the approach atlas
 
@@ -230,6 +257,9 @@ Every swing must preserve these ten invariants.
 
 **Prepared ID:** `CCR-N5-S1`
 
+**Execution status:** complete as `HC-DU-033F`; see
+[the result](antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md).
+
 **Owning lanes/channels:** Lanes 1, 3, 4, and A;
 `CH-FORMAL`, `CH-SYN`, `CH-COLLIDE`.
 
@@ -317,6 +347,8 @@ claim-by-claim collision matrix.
 ## 7. Prepared Swing 2 — Einstein--Matter Clock, Observer, Archive, and Access Selection
 
 **Prepared ID:** `CCR-N5-S2`
+
+**Execution status:** next executable campaign object.
 
 **Owning lanes/channels:** Lanes 3, 4, and 6;
 `CH-FORMAL`, `CH-SYN`, `CH-COLLIDE`.
@@ -650,7 +682,8 @@ and the next program decision.
 
 ### One swing at a time
 
-Only `CCR-N5-S1` is the first executable object. Before each later swing:
+`CCR-N5-S1` is complete. Only `CCR-N5-S2` is now executable. Before each
+later swing:
 
 1. read the preceding receipt;
 2. select the appropriate branch above;
