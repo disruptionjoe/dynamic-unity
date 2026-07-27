@@ -1,11 +1,12 @@
 current_research_contract_version: '1.1'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 3
+state_revision: 4
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
   Science Council review of the repository-refinement plan, followed by Joe
-  direct chat authorizing a branch-safe next-five sequence scaffold.
+  direct chat authorizing a branch-safe next-five sequence scaffold and then
+  executing its preferred-leaf descent position.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -78,13 +79,14 @@ transition_protocol:
 
 current_decision:
   active_scientific_program_id: CCR-BRANCH-INVARIANT-ADJUDICATION
-  executable_action_id: N5-PF-P5
+  executable_action_id: N5-CCR-BS-P2
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    Complete Position 5 before selecting another scientific moonshot.
-    Publication hardening is a separately typed prepared output and does not
-    constitute a second active scientific program.
+    HC-DU-058 closes the exactly compensated preferred-frame sequence with a
+    branch-invariant kernel and no excess content. Run the reopener-gated
+    tournament before selecting or executing another scientific program.
+    Publication hardening remains separately typed prepared output.
 
 programs:
   - id: CCR-BRANCH-INVARIANT-ADJUDICATION
@@ -93,7 +95,7 @@ programs:
     portfolio_status: active
     execution_status: executable
     wip_slot: scientific_flagship
-    active_work_id: N5-PF-P5
+    active_work_id: N5-CCR-BS-P2
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -108,29 +110,30 @@ programs:
       - CH-FORMAL
       - CH-COLLIDE
     target: >-
-      Apply one unchanged completion/source, process/order, interface,
-      access, finality, action, resource, and held-out-target ledger across a
-      serious preferred-leaf representation, a causal-partial-order control,
-      and one physical record arena. Return the branch-invariant Certified
-      Causal Reality kernel or the first exact non-unification.
+      Apply the branch-safe hard gates to every successor class after
+      HC-DU-058. Select exactly one scientific successor by expected
+      decision-changing knowledge, or return NO_READY_SCIENTIFIC_SUCCESSOR
+      without inventing work.
     current_grade: >-
-      OPEN NORTH-STAR ADJUDICATION supported by exact scoped controls through
-      HC-DU-057. The component mathematics is largely known or absorbed; no
-      record-first ontology, new physical law, or grade-5 remainder is earned.
-    evidence_grade: null
+      HC-DU-058 earns a scoped grade-4 preferred-leaf descent and no-excess
+      theorem. The exactly compensated foliation can narrow hidden
+      completions but cannot improve record reconstruction, interface
+      selection, finality, capability, resources, or held-out targets after
+      complete matching. No scientific successor is selected.
+    evidence_grade: 4
     maximum_grade: >-
-      SCOPED BRANCH-INVARIANT THEOREM, EXACT NON-UNIFICATION, OR CLEAN
-      NO-EXCESS RESULT. Stronger ontology or new-physics language requires an
-      independently selected finite discriminator beyond the admitted
-      standard-physics completion class.
+      POSITION 2 IS A PRIORITY/METHOD RESULT AND CANNOT PROMOTE SCIENCE.
+      HC-DU-058 remains the program's current grade-4 ceiling. Any selected
+      successor retains its own independent grade, absorber, and falsifier.
     maximum_evidence_grade: 4
     premise_status: >-
-      The exactly compensated continuous preferred foliation is held only as
-      an ungraded conditional premise for this sequence. It supplies hidden
-      simultaneity and global time orientation but no record, observer,
-      archive, access, certificate, finality rule, discreteness, or observable
-      leakage.
+      The exactly compensated continuous preferred foliation has completed
+      its conditional test and is closed with no excess content. It remains
+      neither adopted nor graded. A leaking branch requires a new generator,
+      coupling, observable, standard null, and current-bound collision.
     completed_dependencies:
+      - id: HC-DU-058
+        evidence_ref: explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
       - id: HC-DU-055
         evidence_ref: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
       - id: HC-DU-056
@@ -140,24 +143,15 @@ programs:
       - id: HC-DU-054
         evidence_ref: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
     remaining_obligations:
-      - Freeze one unchanged typed ledger before comparing the arenas.
-      - Separate law-only closure, record-assisted reconstruction, and interface selection.
-      - Preserve complete process, provenance, action, capability, and resource matching.
-      - State whether observer indexing is operational, assumption-conditional, or theorem-specific.
-      - Recompute the successor portfolio from the Position-5 return rather than inheriting one.
+      - Apply every declared reopener before scoring scientific promise.
+      - Score every admitted class on one unchanged decision-value ledger.
+      - Select exactly one successor or return no-ready-successor.
+      - State which completed dependency the winner can change locally.
+      - Stop before executing the selected successor.
     typed_dependencies:
       - type: requires
-        target: HC-DU-055
+        target: HC-DU-058
         target_type: result
-      - type: requires
-        target: HC-DU-056
-        target_type: result
-      - type: requires
-        target: HC-DU-057
-        target_type: result
-      - type: tests
-        target: EXACTLY-COMPENSATED-PREFERRED-FOLIATION
-        target_type: premise
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
@@ -165,86 +159,76 @@ programs:
         target: COVARIANT-FINALITY-DYNAMICS
         target_type: program
     strongest_absorber: >-
-      After complete process, interface, access, finality, action, and resource
-      matching, every preferred-leaf description factors through the same
-      causal-partial-order operational quotient and removes no physical premise.
+      Narrative momentum reopens a closed branch or selects a dramatic idea
+      despite a missing physical premise, repeated absorber, external-only
+      learning path, or unmet declared reopener.
     cheapest_kill: >-
-      Show that after complete process and interface matching every
-      preferred-leaf description factors through the same causal-partial-order
-      operational quotient and removes no physical premise. Bank
-      NO_EXCESS_CONTENT and stop the conditional sequence.
+      If no candidate class passes its hard reopener gate, return
+      NO_READY_SCIENTIFIC_SUCCESSOR and reset the portfolio rather than
+      manufacturing a fifth active hypothesis.
     stop_rule: >-
-      Stop after one branch-invariant theorem, one exact non-unification, or a
-      clean no-excess result. Do not construct another record host, simulator,
-      hardware bridge, or fitted interface to rescue the preferred-foliation
-      premise.
+      Stop after selecting exactly one scientific successor or recording
+      NO_READY_SCIENTIFIC_SUCCESSOR. Do not execute the winner, build a model,
+      reopen a parked branch, or promote a paper inside this action.
     reopen_rule: >-
-      Not applicable while active. Any successor is selected only after this
-      action changes or preserves the dependency map.
+      Not applicable while active. Position 3 opens only after this action
+      names one winner and freezes its minimum decisive statement.
     local_computation_boundary: >-
-      Direct formal comparison, exact counterexample, and deterministic
-      regression only. No external hardware is needed and no new local model
-      is admitted unless the Local Model Learning Gate identifies a
-      pre-hardware decision-changing result.
+      Document-level hard-gate and decision-value comparison only. No model,
+      simulation, hardware, provider, or new literature campaign is needed
+      to decide the portfolio.
     next_action: >-
-      Execute N5-PF-P5 exactly as frozen in the preferred-foliation sequence
-      scaffold.
-    next_action_ref: explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
+      Execute Position 2 of the branch-safe knowledge sequence without an
+      inherited favorite.
+    next_action_ref: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
     execution_packet:
-      action_id: N5-PF-P5
+      action_id: N5-CCR-BS-P2
       exact_question: >-
-        After complete process, interface, access, finality, action,
-        capability, resource, and target matching, what does a preferred
-        foliation change relative to a causal-partial-order description?
+        Given HC-DU-058's dependency diff, which single open program can now
+        change the North-Star verdict most, locally and without repeating an
+        absorber?
       source_locator:
-        path: explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md
-        heading: '## 13. Position 5 — cross-arena branch-invariant synthesis'
+        path: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
+        heading: '## 4. Position 2 — reopener-gated successor tournament'
       required_inputs:
+        - path: explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
+          role: completed Position-1 return and dependency diff
         - path: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
-          role: branch-safe downstream sequence and no-preselection guard
+          role: hard gates, scoring contract, and no-preselection guard
         - path: explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
-          role: frozen portfolio and premise map
-        - path: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
-          role: law, record, interface, and quotient controls
-        - path: explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
-          role: physical feedback and capability controls
-        - path: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
-          role: regional finality and rate controls
+          role: whole-program candidate and closed-branch map
+        - path: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
+          role: interface-selection reopener and strongest common absorber
       unchanged_ledger_fields:
-        - physical completion/source
-        - primitive causal/operational order
-        - foliation/time orientation
-        - formed record/provenance
-        - observer/access interface
-        - regional finality/fault contract
-        - action/capability envelope
-        - resource horizon
-        - held-out target
-        - quotient/first witness
+        - candidate class and exact proposition
+        - declared reopener
+        - changed North-Star dependency
+        - expected decision-changing information
+        - local decidability before hardware
+        - novelty and profundity ceiling
+        - cross-arena reuse
         - strongest absorber
+        - cheapest kill
+        - external-dependency penalty
       arena_roles:
-        - global-leaf positive representation
-        - causal-partial-order control
-        - physical record arena
+        - formal theorem and no-go candidate arena
+        - physical selection dynamics and reconstruction candidate arena
+        - no-ready-scientific-successor control arena
       expected_return_classes:
-        - BRANCH_INVARIANT_CERTIFIED_CAUSAL_REALITY_KERNEL
-        - SCOPED_FOLIATION_ASSISTED_RECONSTRUCTION
-        - SCOPED_FOLIATION_INTERFACE_SELECTION
-        - EXACT_FOLIATION_PARTIAL_ORDER_NON_UNIFICATION
-        - NO_EXCESS_CONTENT
-        - LEAKING_BRANCH_REQUIRED
-        - NORTH_STAR_PORTFOLIO_RESET
+        - ONE_SCIENTIFIC_SUCCESSOR_SELECTED
+        - NO_READY_SCIENTIFIC_SUCCESSOR
+        - PORTFOLIO_CLASSES_MERGED
+        - EXTERNAL_REOPENER_REQUIRED
       observer_index_return_classes:
-        - OPERATIONAL_AND_METHODOLOGICAL
-        - CONDITIONAL_ON_REJECTING_PREFERRED_FOLIATION
-        - THEOREM_SPECIFIC_DEPENDENCY
+        - OBSERVER_INDEX_INDEPENDENT
+        - OBSERVER_INDEX_OPERATIONAL
+        - OBSERVER_INDEX_THEOREM_SPECIFIC
       durable_output: >-
-        One dated Position-5 adjudication receipt and, only if exact local
-        computation changes the decision, one deterministic test artifact.
+        One dated reopener-gated tournament result and one live-state
+        transition selecting exactly one successor or none.
       local_method: >-
-        Use formal comparison or the smallest exact counterexample only. Do
-        not add a host, simulator, hardware bridge, fitted interface, or
-        external dependency.
+        Apply hard gates before scoring. Use the frozen seven-factor
+        decision-value ledger. Do not run the selected scientific swing.
       uses_program_controls:
         - maximum_evidence_grade
         - strongest_absorber
@@ -252,10 +236,10 @@ programs:
         - stop_rule
         - local_computation_boundary
     canonical_evidence_refs:
+      - explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
+      - explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
       - explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md
-      - explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
-      - explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
-      - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+      - explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
       - docs/certified-causal-reality-research-program.md
 
   - id: DU-PAPER-013-HARDENING
@@ -482,17 +466,20 @@ programs:
 
 successor_selection:
   status: blocked
-  blocked_by: N5-PF-P5
+  blocked_by: N5-CCR-BS-P2
   selected_successor_id: null
   candidate_classes:
+    - branch-invariant-ccr-kernel
     - physical-interface-selection
+    - covariant-finality-dynamics
     - corrected-mathematical-moonshot
-    - conservative-certification-and-physical-feedback
-    - new-route-from-position-5
+    - lawful-physical-reconstruction
+    - new-route-from-position-1
   decision_rule: >-
-    Position 5 must report whether it preserves, merges, replaces, or
-    invalidates the current program map. Select exactly one successor by
-    expected decision-changing knowledge, not by prior narrative momentum.
+    Apply each class's hard reopener before scoring. Then select exactly one
+    successor by expected decision-changing knowledge, local decidability,
+    North-Star dependency removed, cross-arena reuse, and cheapest-kill
+    quality. If none passes, return NO_READY_SCIENTIFIC_SUCCESSOR.
 
 anomaly_intake:
   status: open_non_wip

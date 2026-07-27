@@ -2714,6 +2714,30 @@ rate class—new Lorentz-covariant dynamics—remains conditional in
 `PRED-DU-001/002`, not evidence for consensus-derived physics or the held
 preferred foliation.
 
+### 2026-07-27 branch-invariant-kernel boundary
+
+`HC-DU-058` closes the exactly compensated preferred-foliation series. Let
+\(\pi\) forget only the preferred ordering of causally independent events.
+When the complete process, formed record/provenance, observer access,
+finality/fault contract, action/capability envelope, resources, and held-out
+target all factor through \(\pi\), record reconstruction and every declared
+observer-accessible result are identical on the preferred-leaf and
+causal-partial-order branches.
+
+A preferred leaf may narrow hidden completions or supply global time
+orientation. It does not thereby select an interface, archive, observer,
+certificate, finality rule, capability, or physical target. Any
+observer-accessible non-descending map is either an unmatched physical
+premise or preferred-foliation leakage requiring a separate dynamics and
+empirical contract.
+
+Observer indexing therefore remains operational and methodological under
+both branches. It indexes records, access, interventions, actions, resources,
+and targets; it does not require denial of a global state or preferred
+foliation. The component mathematics is absorbed by quotient factorization
+and causal composition. The result supplies no new physics or grade-5
+remainder.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

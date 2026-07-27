@@ -586,9 +586,9 @@ observer-level access composed without one privileged biography.
 **Not a delta.** Another graph hierarchy whose depth or distance changes
 under harmless subdivision.
 
-**Preferred-foliation conditional branch.** Dynamic Unity has one five-swing
-series whose first two positions are complete and that holds an exactly compensated preferred
-foliation without grading or adopting it. This supplies a hidden global
+**Preferred-foliation conditional branch.** Dynamic Unity completed one
+five-position series that held an exactly compensated preferred foliation
+without grading or adopting it. This supplies a hidden global
 simultaneity structure and time orientation, but not a physical record,
 observer, archive, access route, common knowledge, or public finality. The
 matched control forgets privileged simultaneity while preserving the complete
@@ -635,8 +635,19 @@ merge are distinct; and a finite knee does not carry a universal exponent
 before physics selects an order parameter and scaling family. The rate
 classification needs a fourth branch for genuinely new Lorentz-covariant
 dynamics, but DU has not derived it and `PRED-DU-001/002` already hold it
-conditionally. The active question is the Position-5 branch-invariant
-preferred-leaf/causal-partial-order synthesis.
+conditionally.
+
+Position 5 (`HC-DU-058`) closes the held branch. Let \(\pi\) forget only the
+preferred ordering of causally independent events. If the complete process,
+formed record/provenance, observer access, finality/fault contract,
+action/capability envelope, resources, and held-out target all descend through
+\(\pi\), reconstruction and every observer-accessible result are identical on
+the preferred-leaf and causal-partial-order branches. A preferred leaf can
+narrow hidden completions and supply time orientation; it does not select the
+physical interface or improve reconstruction. Any observer-accessible
+non-descending map is an unmatched premise or a leaking preferred-frame
+dynamics. The series therefore returns a branch-invariant Certified Causal
+Reality kernel and `NO_EXCESS_CONTENT`.
 
 The accompanying source audit constrains how foundations claims may be used:
 
@@ -650,10 +661,11 @@ The accompanying source audit constrains how foundations claims may be used:
   consensus timestamps do not select a fundamental tick.
 
 See the
-[Position-1 result](../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md)
-,
+[Position-1 result](../explorations/preferred-foliation-whole-program-priority-reset-and-dependency-map-2026-07-27.md),
 [Position-2 result](../explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md),
 [Position-3 result](../explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md),
+[Position-4 result](../explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md),
+[Position-5 result](../explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md),
 and
 [conditional series](../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
 
