@@ -377,17 +377,22 @@ What *has* been earned is a strong finite control stack:
   same-common-record/different-occurrence witness. The cross-completion first
   leak is occurrence; inside the visible binary epoch record it is count.
   Full `A+H` access repairs history only by expanding the observer/resource
-  contract and becoming injective. `ECR-N5-S5`, robustness and host-level
-  North-Star adjudication, is now the sole next executable object. The
-  prepared ten-lens
+  contract and becoming injective. `ECR-N5-S5` is complete as `HC-DU-046`.
+  Historical failure begins exactly at the first completed four-edge cycle
+  and survives arbitrary horizon, positive weighting, relabeling, and benign
+  subdivision. Partial full-history revelation has an exact Bayes-risk law
+  and becomes exact only when injective. Archive relocation leaves the host
+  fixed while changing access, so the final host verdict is
+  `SELECTION_OR_FORMATION_OBSTRUCTION`. The prepared ten-lens
   [next-five scaffold](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-  retains that exact object as Position 1 and installs a mandatory
-  minimum-premise/whole-portfolio pivot before any new physical build; its
-  later positions remain conditional
+  now makes `N5-RS-P2`, the mandatory minimum-premise/whole-portfolio pivot,
+  the sole executable object before any new physical build; its later
+  positions remain conditional
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
   [completion transfer](explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md);
+  [host closeout](explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md);
   [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
@@ -774,8 +779,12 @@ unique finest completion-common `A`-only quotient and reconstructs only the
 next reduced-matter law among the frozen targets. Historical occurrence
 already fails across completions; count first fails inside the visible
 binary epoch record. Full-environment access restores history through an
-injective, resource-expanded contract. `ECR-N5-S5`, robustness and host-level
-North-Star adjudication, is now the sole next executable object.
+injective, resource-expanded contract. `ECR-N5-S5` is complete as
+`HC-DU-046`: the first completed cycle is the exact first historical failure,
+the witness is robust, and archive relocation proves that this host does not
+select its accessible historical interface. The host closes as
+`SELECTION_OR_FORMATION_OBSTRUCTION`. Only `N5-RS-P2`, the minimum-premise
+compiler and whole-DU portfolio pivot, is executable.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -899,10 +908,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045`: a fresh-output completion can form history, but the host does not select the completion/epoch/archive, and the finest visible/hidden completion-common record is only terminal matter. Robustly test whether any host-selected non-target-coded premise excludes the hidden twin; do not fit another detector, code, or archive. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046`: a fresh-output completion can form history, but the host does not select completion, epoch, archive routing, or access. The robust host verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`. Advance only the minimum-premise/portfolio pivot; do not fit another detector, code, or archive. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, or FV realization is not an observer-access contract. Keep route, authentication, decoder, actions, resources, and horizon explicit; no completed ladder selects an actual outcome. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. Freeze the future action envelope; capability enlargement requires a new finality verdict. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-045` earns completion-invariant Markov future reconstruction but exact historical failure. Advance only `ECR-N5-S5`: test horizon, representation, subdivision, approximate leakage, and host-selected-completion robustness, then return the host-level North-Star verdict. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-046` preserves completion-invariant Markov future closure, proves robust historical failure, and closes this host. Advance only `N5-RS-P2` to decide whether record selection or a stronger DU seam receives the next concentrated swing. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -940,12 +949,13 @@ channels; they are not lanes and do not create a second priority system.
    [endogenous-compressive-record tournament](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md)
    and its
    [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
-   `ECR-N5-S1` through `ECR-N5-S4` are complete as
-   `HC-DU-042/043/044/045`; only `ECR-N5-S5`, robustness and host-level
-   North-Star adjudication, is next executable. Use the
+   `ECR-N5-S1` through `ECR-N5-S5` are complete as
+   `HC-DU-042/043/044/045/046`; the first host is closed as
+   `SELECTION_OR_FORMATION_OBSTRUCTION`. Use the
    [N5-RS preparation](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-   for its approach and downstream branch logic; do not activate Positions
-   2--5 before the host verdict and portfolio pivot.
+   for its approach and downstream branch logic. Only `N5-RS-P2`, the
+   minimum-premise compiler and whole-DU portfolio pivot, is executable; do
+   not activate Positions 3--5 before its receipt.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies

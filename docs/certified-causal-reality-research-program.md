@@ -1501,17 +1501,77 @@ COMPLETION_AND_ACCESS_RELATIVE HISTORY SUFFICIENCY
 NO_ENDOGENOUS_ARCHIVE FOR THIS HOST
 ```
 
-`H-CCR-17` remains open. `ECR-N5-S5`, robustness and host-level North-Star
-adjudication, is now the sole next executable object. See
+`H-CCR-17` remains open. `ECR-N5-S5` consumed this boundary as `HC-DU-046`.
+See
 `../explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md`.
 
 The prepared ten-lens
 [`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-does not create a second campaign. It keeps `ECR-N5-S5` as Position 1, then
-requires a minimum-premise theorem and whole-DU portfolio pivot before any
-new arena construction. Only if that pivot retains record selection do the
-later positions attempt physical formation, noninjective held-out transfer,
-and cross-arena generalization.
+does not create a second campaign. Its first position is complete; Position 2
+is now executable as `N5-RS-P2`, the minimum-premise theorem and whole-DU
+portfolio pivot. Only if that pivot retains record selection do later
+positions attempt physical formation, noninjective held-out transfer, and
+cross-arena generalization.
+
+### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
+
+For every prefix horizon \(\Omega_N=\{h_0,\ldots,h_N\}\), the terminal matter
+endpoint is the unique finest quotient common to the visible-archive and
+hidden-reservoir `A`-only records. The next reduced-matter branch law factors
+through it at every horizon.
+
+Historical occurrence, count, and event word first fail when the first
+four-edge cycle closes:
+
+\[
+X(h_0)=X(h_4)=x_1,
+\qquad
+O(h_0)\neq O(h_4).
+\]
+
+This witness belongs to every longer prefix class. Positive stochastic
+weights cannot repair an exact support-level failure, and lossless token
+relabeling or benign target-preserving temporal subdivision leaves the
+record and target kernels unchanged.
+
+Under the declared history-leak channel that reveals the complete token with
+probability \(\lambda\) and otherwise returns endpoint plus erasure, optimal
+Bayes occurrence error is:
+
+\[
+R_{\mathrm{Bayes}}(\lambda)
+=(1-\lambda)\sum_x
+\min\{P(O=0,X=x),P(O=1,X=x)\}.
+\]
+
+Exact history reconstruction occurs only at \(\lambda=1\), where the record
+is injective on the history class.
+
+The archive-relocation theorem provides the final selector result. If a host
+antecedent \(a\) is invariant under an involution \(\tau\) but a claimed
+interface \(\xi\) changes, then \(\xi\) cannot factor through \(a\):
+
+\[
+a\circ\tau=a,\quad \xi\circ\tau\neq\xi
+\quad\Longrightarrow\quad
+\nexists s:\xi=s\circ a.
+\]
+
+Swapping the same retained history between accessible fragment \(A\) and
+hidden reservoir \(H\) instantiates the obstruction while preserving the
+complete matter trajectory, generator, and reduced law.
+
+The frozen host therefore returns:
+
+```text
+POSITIVE CONTROL: MARKOV_OPERATIONAL_CLOSURE
+HOST VERDICT: SELECTION_OR_FORMATION_OBSTRUCTION
+FULL-ENVIRONMENT CONTROL: INJECTIVE_TOMOGRAPHY_ONLY
+```
+
+This is final for the declared host and robustness family, not a universal
+record no-go. `H-CCR-17` remains open outside it. See
+`../explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -2957,25 +3017,26 @@ ready/retained class. A specified fresh-output completion conditionally
 forms the full history and a strict bounded-capability quotient, but charges
 support, retention, epoch and access structure not selected by the matter
 host. The host therefore returns `SUPPLIED_EPOCH_ARCHIVE`.
-`HC-DU-045` now completes the matched-completion transfer. The unique finest
+`HC-DU-045` completes the matched-completion transfer. The unique finest
 common `A`-only quotient is terminal matter state. It reconstructs the next
 reduced-matter law but not occurrence, count, or the event word. The
 cross-completion first leak is occurrence; inside the visible binary epoch
 record it is count. Full `A+H` access reconstructs history only through an
 injective, resource-expanded contract.
+`HC-DU-046` closes the host under arbitrary horizon, positive stochastic
+weights, lossless relabeling, benign subdivision, exact approximate-leak
+decision risk, and archive relocation. The host-only antecedent cannot select
+an accessible interface changed by archive routing. The final host verdict is
+`SELECTION_OR_FORMATION_OBSTRUCTION`.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
-now concentrates on whether that boundary survives longer horizons,
-representation/refinement, stochastic weighting, and approximate archive
-leakage, and whether any non-target-coded premise selected by the host
-excludes the hidden completion. Redundant records of consistent histories,
-quantum trajectories, Stinespring/complementary-channel equivalence,
-Blackwell sufficiency, process tensors, and full-environment tomography are
-the strongest absorbers. `ECR-N5-S5` is the sole next executable object.
+is complete. Redundant records of consistent histories, quantum trajectories,
+Stinespring/complementary-channel equivalence, Blackwell sufficiency, process
+tensors, and full-environment tomography remain the strongest absorbers.
 The prepared
 [`N5-RS` sequence](../explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-supplies its approach and the conditional four-position continuation. It
-does not pre-activate those positions.
+now advances only `N5-RS-P2`, the minimum-premise compiler and whole-DU
+portfolio pivot. It does not pre-activate Positions 3 through 5.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3650,7 +3711,14 @@ CROSS-COMPLETION FIRST LEAK IS OCCURRENCE
 VISIBLE-BINARY FIRST LEAK IS COUNT
 FULL A-PLUS-H ACCESS IS RESOURCE-EXPANDED INJECTIVE TOMOGRAPHY
 METASTABLE HOST RETURNS NO_ENDOGENOUS_ARCHIVE FOR HISTORICAL TARGETS
-ECR-N5-S5 ROBUSTNESS AND HOST-LEVEL NORTH-STAR ADJUDICATION NEXT
+HC-DU-046 ARBITRARY-HORIZON ENDPOINT COMMON QUOTIENT EXACT
+FIRST HISTORICAL FAILURE IS THE COMPLETED FOUR-EDGE CYCLE
+POSITIVE STOCHASTIC WEIGHTS AND BENIGN SUBDIVISION PRESERVE THE WITNESS
+PARTIAL FULL-HISTORY LEAK BAYES ERROR EQUALS ONE-MINUS-LAMBDA TIMES ENDPOINT AMBIGUITY
+EXACT LEAK REPAIR OCCURS ONLY AT INJECTIVE REVELATION
+HOST-INVARIANT ARCHIVE RELOCATION OBSTRUCTS INTERFACE SELECTION
+METASTABLE HOST FINAL VERDICT SELECTION_OR_FORMATION_OBSTRUCTION
+N5-RS-P2 MINIMUM-PREMISE COMPILER AND WHOLE-DU PORTFOLIO PIVOT NEXT
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

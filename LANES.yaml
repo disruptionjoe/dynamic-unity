@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 78
+manifest_revision: 79
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -62,19 +62,25 @@ endogenous_compressive_record_campaign_rule: >-
   reconstructs the next reduced-matter law, but not occurrence, count or event word. The
   cross-completion first leak is occurrence; inside the visible binary epoch record it is
   count. Full A-plus-H access repairs history only through an injective resource expansion.
-  ECR-N5-S5, robustness and host-level North-Star adjudication, is the sole next executable
-  object.
+  ECR-N5-S5 is complete as HC-DU-046. Terminal matter remains the finest common record at
+  every horizon; historical occurrence first fails at the completed four-edge cycle and the
+  witness survives positive weighting, lossless relabeling and benign subdivision. A declared
+  full-history leak has exact Bayes risk equal to one minus reveal probability times endpoint
+  ambiguity, and exact repair occurs only at complete revelation. The host-only antecedent is
+  invariant under accessible/hidden archive relocation, so it cannot select archive location
+  or access. The final host verdict is SELECTION_OR_FORMATION_OBSTRUCTION; full-environment
+  repair is INJECTIVE_TOMOGRAPHY_ONLY.
 next_five_host_closeout_sequence_ref: >-
   explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
 next_five_host_closeout_sequence_rule: >-
   The prepared N5-RS sequence was designed through ten inline divergent lenses and a triple
-  diamond. It does not create a parallel campaign. Position 1 is exactly ECR-N5-S5: close the
-  metastable host under horizon, weighting, refinement, approximate-leakage and host-premise
-  attacks. Position 2 then compiles the minimum missing premise and re-ranks the complete DU
+  diamond. It does not create a parallel campaign. Position 1 is complete as HC-DU-046 with
+  host verdict SELECTION_OR_FORMATION_OBSTRUCTION. Position 2 is now the sole executable object
+  under identity N5-RS-P2: compile the minimum missing premise and re-rank the complete DU
   portfolio before any new build. Only if that pivot keeps record selection first do Positions
   3 and 4 attempt one target-independent physical formation chain and one noninjective held-out
   transfer. Position 5 seeks a cross-arena theorem or the smallest exact non-unification
-  counterexample. Positions 2 through 5 remain conditional and receive run identities only
+  counterexample. Positions 3 through 5 remain conditional and receive run identities only
   after their predecessors close.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
@@ -86,7 +92,8 @@ endogenous_record_mechanism_tournament_rule: >-
   occurrence provenance, persistence and reset as outputs to derive or classify from the
   physical microdynamics rather than semantic fields copied into the antecedent. HC-DU-042
   earns a scoped NO_READY_ARENA and minimum-premise obstruction, not a universal no-go.
-  HC-DU-043, HC-DU-044 and HC-DU-045 have consumed the first host through completion transfer.
+  HC-DU-043 through HC-DU-046 have consumed and closed the first host. The scoped final verdict
+  is SELECTION_OR_FORMATION_OBSTRUCTION, not a universal record no-go.
 metastable_write_selector_result_ref: >-
   explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
 metastable_write_selector_result_rule: >-
@@ -99,8 +106,9 @@ metastable_write_selector_result_rule: >-
   or weakened semantics. HC-DU-044 now tests that repair: a fresh-output completion can retain
   history, but the host does not select its environment factorization, archive, or epoch reset.
   HC-DU-045 then shows that only terminal matter survives as the finest visible/hidden common
-  record, reconstructing reduced future behavior but not historical occurrence. Advance only
-  ECR-N5-S5 on robustness and host-level North-Star adjudication.
+  record, reconstructing reduced future behavior but not historical occurrence. HC-DU-046
+  proves this boundary at arbitrary horizon, gives the exact approximate-leak decision law,
+  and closes the host through the archive-relocation obstruction.
 matter_environment_epoch_archive_result_ref: >-
   explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
 matter_environment_epoch_archive_result_rule: >-
@@ -125,7 +133,23 @@ completion_common_transfer_result_rule: >-
   count and event word fail. Across completions the first capability leak is occurrence; inside
   the visible binary epoch record it is count. Full A-plus-H access reconstructs history only
   through an injective observer/action/resource expansion. Treat the host as
-  NO_ENDOGENOUS_ARCHIVE for historical targets and advance only ECR-N5-S5.
+  NO_ENDOGENOUS_ARCHIVE for historical targets. HC-DU-046 supplies its final robustness and
+  selection adjudication.
+metastable_host_robustness_result_ref: >-
+  explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md
+metastable_host_robustness_result_rule: >-
+  For every prefix horizon, terminal matter is the finest visible/hidden A-only common record
+  and reconstructs the next reduced-matter branch law. Historical occurrence, count and word
+  first fail at the completed four-edge cycle and remain failed at every longer horizon.
+  Positive stochastic weights preserve the support witness; lossless relabeling and benign
+  subdivision preserve its kernels. Under complete-history reveal probability lambda and
+  otherwise endpoint-only erasure, Bayes occurrence error is (1-lambda) times endpoint
+  ambiguity mass; exact repair occurs only at lambda one and is injective. Any archive
+  interface changed by accessible/hidden routing while the host antecedent stays fixed cannot
+  factor through that antecedent. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION, retain
+  MARKOV_OPERATIONAL_CLOSURE as the positive control, and treat A-plus-H repair as
+  INJECTIVE_TOMOGRAPHY_ONLY. Advance only N5-RS-P2, the minimum-premise compiler and whole-DU
+  portfolio pivot; do not fit another archive to this host.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -544,12 +568,13 @@ lanes:
     transfer: the unique finest A-only common quotient is terminal matter state, which
     reconstructs the next reduced-matter law but not occurrence, count or event word. The
     cross-completion first leak is occurrence; the visible binary first leak is count; full
-    A-plus-H access is injective resource-expanded tomography. Use ECR-N5-S5 as the sole next
-    object: robustly test horizon, representation, subdivision, stochastic weighting,
-    approximate archive leakage and any non-target-coded host premise that could exclude the
-    hidden completion. Use the prepared N5-RS sequence only as the downstream approach
-    contract: Position 1 is this exact ECR-N5-S5 object, while Positions 2 through 5 remain
-    conditional behind its host verdict and portfolio pivot.
+    A-plus-H access is injective resource-expanded tomography. Consume HC-DU-046's robustness
+    closeout: the first completed cycle is the exact first historical failure, the witness
+    survives horizon, positive weighting and benign representation changes, partial history
+    leakage obeys an exact Bayes boundary, and host-invariant archive relocation blocks
+    interface selection. Close this host as SELECTION_OR_FORMATION_OBSTRUCTION. Use N5-RS-P2
+    as the sole next object: compile the minimum missing premise and re-rank the whole DU
+    portfolio before any new construction. Positions 3 through 5 remain conditional.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -611,6 +636,8 @@ lanes:
   - tests/du_epoch_archive_boundary_probe.py
   - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
   - tests/du_completion_invariant_transfer_probe.py
+  - explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md
+  - tests/du_metastable_host_robustness_adjudication_probe.py
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
@@ -723,8 +750,10 @@ lanes:
     count/time/output-field access. HC-DU-045 now proves that terminal matter is the finest
     visible/hidden A-only common quotient. It reconstructs only reduced future behavior among
     the frozen targets; historical occurrence fails across completions and count first fails
-    inside the visible epoch record. Advance only ECR-N5-S5 on robustness and host-level
-    adjudication. Do not begin another mechanism-specific card independently.
+    inside the visible epoch record. HC-DU-046 closes the host under horizon, weighting,
+    relabeling, subdivision, approximate leakage and archive relocation. Advance only
+    N5-RS-P2, the minimum-premise compiler and whole-portfolio pivot. Do not begin another
+    mechanism-specific card independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -869,6 +898,8 @@ lanes:
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
   - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
   - tests/du_completion_invariant_transfer_probe.py
+  - explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md
+  - tests/du_metastable_host_robustness_adjudication_probe.py
   - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
   - explorations/center-screening-regional-finality-and-first-leak-2026-07-26.md
   - explorations/screened-effective-physics-and-source-attribution-rank-2026-07-26.md
@@ -1056,8 +1087,9 @@ lanes:
     systems, repeat code variants, or call the logical quotient an irreducible ontology result;
     the completion/epoch/action structure is supplied. HC-DU-045 now fixes the unique finest
     visible/hidden common quotient as terminal matter, earns Markov future transfer, and returns
-    exact historical occurrence failure plus the two-tier capability leak. Advance only
-    ECR-N5-S5 on robustness and host-level North-Star adjudication.
+    exact historical occurrence failure plus the two-tier capability leak. HC-DU-046 proves
+    the failure is robust and that the host cannot select an interface changed by archive
+    relocation while its own antecedent stays fixed. Advance only N5-RS-P2.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1091,6 +1123,8 @@ lanes:
   - docs/quantum-foundations-orientation-surface.md
   - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
   - tests/du_completion_invariant_transfer_probe.py
+  - explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md
+  - tests/du_metastable_host_robustness_adjudication_probe.py
   - explorations/meta-record-geometry-identification-ladder-2026-07-25.md
   - tests/du_meta_record_geometry_identification_probe.py
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
@@ -1190,8 +1224,10 @@ lanes:
     HC-DU-044 adds the exact reversible epoch-archive boundary and a conditional formed-output
     control without creating a paper seed or priority change. HC-DU-045 adds the exact
     completion-common quotient, Markov-only positive transfer, adverse history transfer and
-    two-tier capability leak without creating a paper seed or priority change. Advance
-    H-CCR-17 only through ECR-N5-S5, the robustness and host-level adjudication test.
+    two-tier capability leak without creating a paper seed or priority change. HC-DU-046
+    completes the robustness adjudication, closes this host as
+    SELECTION_OR_FORMATION_OBSTRUCTION, and leaves H-CCR-17 open outside it. Advance only
+    N5-RS-P2, the minimum-premise compiler and whole-DU portfolio pivot.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1237,14 +1273,13 @@ lanes:
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
     entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
     the completed CCR-N5 campaign as a closed dependency receipt. CCR-N5-S1 through S5 are
-    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5-S1 through S4 as
-    completed HC-DU-042/043/044/045. The first host selects its write/retention architecture up
-    to Z2, but its endpoint omits occurrence provenance and its minimum epoch repair requires
-    completion, support and boundary structure the host does not select. The finest
-    visible/hidden completion-common record is terminal matter: it reconstructs reduced future
-    behavior but not historical occurrence, while full environment repair is injective and
-    resource-expanded. Preserve the prepared N5-RS sequence without treating it as a parallel
-    campaign: only its Position 1, ECR-N5-S5, is executable.
+    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5-S1 through S5 as
+    completed HC-DU-042/043/044/045/046. The first host selects its write/retention architecture
+    up to Z2, but not archive routing or access. Its endpoint omits occurrence provenance at
+    the first completed cycle and every longer horizon; full environment repair is injective
+    and resource-expanded. Preserve the host verdict
+    SELECTION_OR_FORMATION_OBSTRUCTION and the prepared N5-RS sequence without treating it as a
+    parallel campaign. Only Position 2, N5-RS-P2, is executable.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -5187,6 +5222,27 @@ provenance:
     activation before their predecessors close. No scientific claim,
     hypothesis grade, priority verdict, paper, Factory state, prediction,
     model, simulation, hardware, provider, submission, publication or
+    external-contact state changed.
+  rev79_note: >-
+    2026-07-27 (Joe direct chat: Go): completed ECR-N5-S5 as HC-DU-046 and
+    closed the frozen metastable host. Terminal matter is the unique finest
+    visible/hidden A-only common record at every prefix horizon. It
+    reconstructs the next reduced branch law, while occurrence, count and
+    event word first fail at the completed four-edge cycle and remain failed
+    at every longer horizon. The witness survives positive stochastic
+    weighting, lossless relabeling and benign temporal subdivision. Under
+    complete-history reveal probability lambda and otherwise endpoint-only
+    erasure, Bayes occurrence error is exactly (1-lambda) times endpoint
+    ambiguity mass; exact repair occurs only at lambda one and is injective.
+    The archive-relocation theorem shows that an interface changed by an
+    accessible/hidden routing swap cannot be selected by a host antecedent
+    invariant under that swap. The scoped host verdict is
+    SELECTION_OR_FORMATION_OBSTRUCTION, with MARKOV_OPERATIONAL_CLOSURE as
+    positive control and full-environment repair classified
+    INJECTIVE_TOMOGRAPHY_ONLY. H-CCR-17 remains open outside this host. Only
+    N5-RS-P2, the minimum-premise compiler and whole-DU portfolio pivot, is
+    executable. The deterministic certificate passes 16/16 checks. No paper,
+    Factory, prediction, hardware, provider, submission, publication or
     external-contact state changed.
 extensions:
   operating_architecture:

@@ -852,7 +852,7 @@ This swing does not establish:
 - hardware evidence; or
 - provider evidence.
 
-## 15. Retyped `ECR-N5-S5`
+## 15. Retyped `ECR-N5-S5` and completion receipt
 
 Swing 5 is now executable as:
 
@@ -918,10 +918,19 @@ supplied premise.
 
 The ten-lens
 [`N5-RS` preparation](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-preserves this exact Swing 5 as the sole next executable object. It places a
+preserved this exact Swing 5 as the sole next executable object. It placed a
 minimum-premise and whole-DU portfolio pivot immediately afterward so an
 adverse host verdict causes a disciplined redirect rather than another fitted
 archive construction.
+
+`ECR-N5-S5` is now complete as
+[`HC-DU-046`](metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md).
+It proves that this boundary survives arbitrary horizon, positive weights,
+lossless relabeling and benign subdivision; supplies the exact
+partial-history-leak Bayes-risk law; and shows that archive relocation leaves
+the host antecedent invariant while changing the interface. The scoped host
+verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`. Only `N5-RS-P2`, the
+minimum-premise compiler and whole-DU portfolio pivot, is now executable.
 
 ## Bottom line
 

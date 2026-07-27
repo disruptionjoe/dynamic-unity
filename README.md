@@ -265,16 +265,23 @@ current results establish the starting boundary, not the answer:
   occurrence. Across completions the first capability leak is occurrence;
   inside the visible binary epoch record it is count. Full `A+H` access
   reconstructs history only through a resource-expanded injective contract.
-  `ECR-N5-S5`, robustness and host-level North-Star adjudication, is now the
-  sole next executable object. The prepared ten-lens
+  `ECR-N5-S5` is complete as `HC-DU-046`. The endpoint boundary survives
+  arbitrary horizon, positive weights, lossless relabeling, and benign
+  subdivision; partial history leakage obeys an exact Bayes-risk law and is
+  exactly sufficient only at complete revelation. Because accessible/hidden
+  archive relocation leaves the host antecedent fixed while changing its
+  interface, the host cannot select archive location or access. Its final
+  verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`; full-environment repair
+  remains `INJECTIVE_TOMOGRAPHY_ONLY`. The prepared ten-lens
   [next-five sequence](explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-  keeps that exact swing first, then places a minimum-premise and
-  whole-portfolio pivot before any new physical construction. Its later four
-  positions are conditional, not parallel active work
+  now advances only `N5-RS-P2`, the minimum-premise and whole-portfolio pivot,
+  before any new physical construction. Its later three positions are
+  conditional, not parallel active work
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
   [completion-transfer result](explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md);
+  [host-closeout result](explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md);
   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,

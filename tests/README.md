@@ -1801,3 +1801,39 @@ classification. It does not select a microscopic completion or archive,
 establish an endogenous record, prove a universal no-go or ontological
 remainder, report new physics, promote a paper, or authorize hardware or any
 external action.
+
+## HC-DU-046 metastable-host robustness adjudication
+
+`du_metastable_host_robustness_adjudication_probe.py` preserves the exact
+finite controls behind the arbitrary-horizon and archive-relocation result:
+
+- endpoint occurrence factorization holds through horizon three and first
+  fails at the completed four-edge cycle;
+- the empty-history/four-edge witness remains present through every tested
+  horizon from four to forty;
+- the next reduced-matter branch law continues to factor through endpoint;
+- lossless history-token relabelings preserve the information class;
+- subdivisions from one through eight microsteps per event contract to the
+  same macro witness;
+- four positive priors and five rational history-reveal probabilities obey
+  the exact Bayes-risk formula;
+- the equal-prior witness has risk \((1-\lambda)/2\) and reaches zero only at
+  complete revelation;
+- accessible/hidden archive relocation preserves the host antecedent while
+  changing the admitted interface; and
+- full-environment access removes routing dependence only by reading the
+  unique full-history token.
+
+Run:
+
+```bash
+python3 tests/du_metastable_host_robustness_adjudication_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_metastable_host_robustness_adjudication_result.json` and reports
+`16/16`. Passing is regression coverage for the analytic arbitrary-horizon,
+exact-risk, and archive-relocation proofs. It is not the proof itself, a
+microscopic environment simulation, a universal record no-go, evidence of
+new physics, a prediction, a paper promotion, or authority for hardware or
+external action.

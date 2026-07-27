@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: endogenous compression to held-out physics"
-status: swings_1_2_3_4_complete__swing_5_retyped_next
+status: completed_all_five_swings
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: do another scaffolding and approach assessment for the next five big swings"
@@ -69,14 +69,21 @@ epoch record, the first leak is count. Full `A+H` access reconstructs every
 target only by expanding the observer/action/resource contract and becoming
 injective on the finite history class.
 
-`ECR-N5-S5`, robustness and host-level North-Star adjudication, is now the
-sole next executable object.
+`ECR-N5-S5` is complete as
+[`HC-DU-046`](metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md).
+The endpoint/history boundary survives arbitrary horizon, positive
+stochastic weights, lossless relabeling and benign subdivision. A declared
+full-history leak has exact Bayes occurrence error equal to
+\((1-\lambda)\) times endpoint ambiguity mass and becomes exactly sufficient
+only at complete, injective revelation. The host antecedent is invariant
+under accessible/hidden archive relocation, while the archive interface is
+not. The final host verdict is `SELECTION_OR_FORMATION_OBSTRUCTION`.
 
 The prepared ten-lens
 [`N5-RS` sequence](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md)
-keeps this exact Swing 5 as its first position. It then inserts a
-minimum-premise and whole-DU portfolio pivot before any successor
-construction. It does not rename Swing 5 or activate another campaign.
+has consumed this exact Swing 5 as its completed first position. Its
+minimum-premise and whole-DU portfolio pivot is now executable as
+`N5-RS-P2`. It does not activate a successor construction before that pivot.
 
 The campaign question is:
 
@@ -85,7 +92,8 @@ The campaign question is:
 > held-out observer physics under a frozen action and resource envelope—or
 > can we prove which part of that conjunction is impossible?
 
-That is `H-CCR-17`. The campaign promotes no answer to it.
+That is `H-CCR-17`. This campaign closes one host adversely; it does not
+close the challenge across other physical arenas.
 
 ## 1. Why the problem has changed
 
@@ -760,17 +768,25 @@ closure and its archive result to completion/access-relative sufficiency.
 Full `A+H` access restores history only through an injective,
 resource-expanded contract.
 
-`ECR-N5-S5` is now the sole next executable object. It must robustly test the
-boundary over horizon, representation, subdivision, stochastic weighting,
-and approximate archive leakage, then determine whether any non-target-coded
-premise selected by the host excludes the hidden completion. If none does,
-return the host-level `SELECTION_OR_FORMATION_OBSTRUCTION` without turning it
-into a universal record no-go.
+`ECR-N5-S5` is complete as
+[`HC-DU-046`](metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md).
+It returns:
+
+```text
+ARBITRARY-HORIZON ENDPOINT COMMON QUOTIENT
+FIRST HISTORICAL FAILURE = COMPLETED FOUR-EDGE CYCLE
+EXACT LEAKAGE RISK LAW
+ARCHIVE-RELOCATION SELECTION OBSTRUCTION
+HOST VERDICT = SELECTION_OR_FORMATION_OBSTRUCTION
+```
+
+The result is robust under the declared family and does not become a
+universal record no-go.
 
 The downstream execution logic is prepared in
 [`N5-RS`](next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md).
-Positions 2 through 5 remain conditional behind this host verdict and a
-portfolio-level value-of-information pivot.
+Position 2 is now executable as `N5-RS-P2`. Positions 3 through 5 remain
+conditional behind its portfolio-level value-of-information pivot.
 
 ## 10. Campaign claim ceiling
 
@@ -796,14 +812,14 @@ It does not earn:
 
 ## Bottom line
 
-The first four swings have localized the problem from “find an endogenous
-record” to one exact question:
+All five swings are complete. The campaign localized and then closed the
+first host:
 
-> Does any host-selected, target-independent physical premise exclude the
-> archive-hidden completion while preserving noninjective historical
-> transfer?
+> Its matter dynamics selects reduced evolution and write-like transition
+> roles, but not archive routing or observer access. Once the first cycle
+> closes, terminal state cannot certify occurrence; exact repair is either a
+> supplied interface or full-history tomography.
 
-Swing 5 now decides the strongest honest verdict for this host. That is the
-shortest remaining route to learning whether the current mechanism has a
-physical record core beyond Markov state sufficiency, supplied archives, and
-full-environment tomography.
+The host has no further active build. `N5-RS-P2` must now identify the weakest
+independently motivated premise that could break archive relocation and
+decide whether that route is still the highest-value Dynamic Unity program.

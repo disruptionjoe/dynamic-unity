@@ -126,3 +126,17 @@ Validation:
 - `git diff --check`: clean; and
 - no scientific executable, model, hardware, provider, paper, Factory,
   prediction, submission, publication, or sibling-repository state changed.
+
+## Successor receipt — 2026-07-27
+
+Position 1 later completed as
+[`HC-DU-046`](../explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md)
+with scoped host verdict `SELECTION_OR_FORMATION_OBSTRUCTION`. Position 2 is
+therefore now executable under identity:
+
+```text
+N5-RS-P2
+Minimum-Premise Compiler and Whole-DU Portfolio Pivot
+```
+
+Positions 3 through 5 remain conditional.

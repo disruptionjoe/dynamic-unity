@@ -1,11 +1,11 @@
 ---
 title: "Next five-swing scaffold: host closeout to target-independent record selection"
-status: prepared__position_1_only_executable
+status: position_1_complete__position_2_executable
 doc_type: inline_ten_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare and scaffold another five swings using divergent personas"
 sequence_id: N5-RS
-active_first_swing: ECR-N5-S5
+active_position: N5-RS-P2
 run_plan: "../runs/2026-07-27-next-five-host-closeout-record-selection-preparation.md"
 claim_status_change: none
 paper_state_change: none
@@ -28,13 +28,15 @@ P4  test noninjective held-out transfer and the first capability leak
 P5  extract a cross-arena theorem or the smallest proof that unification fails
 ```
 
-Position 1 is exactly the already prepared `ECR-N5-S5`. This scaffold does
-not rename it, duplicate it, or activate another campaign beside it.
+Position 1 was exactly the already prepared `ECR-N5-S5`. It is now complete
+as `HC-DU-046` with host verdict
+`SELECTION_OR_FORMATION_OBSTRUCTION`.
 
-Positions 2--5 are conditional work packages. They become executable one at a
-time only after the preceding receipt fixes their arena, premise, and stop
-condition. The sequence therefore concentrates effort without assuming that
-the current record-selection path deserves all five swings.
+Position 2 is now executable under identity `N5-RS-P2`. Positions 3--5 remain
+conditional work packages and become executable one at a time only after the
+preceding receipt fixes their arena, premise, and stop condition. The
+sequence therefore concentrates effort without assuming that the current
+record-selection path deserves all five swings.
 
 The deliberate pivot is Position 2. If the current host closes adversely and
 no more natural arena has a target-independent route to archive formation,
@@ -182,6 +184,22 @@ ECR-N5-S5
 Robustness and Host-Level North-Star Adjudication
 ```
 
+### Completion receipt
+
+Completed as
+[`HC-DU-046`](metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md).
+The endpoint common quotient and four-edge occurrence witness survive
+arbitrary horizon, positive weights, lossless relabeling and benign
+subdivision. Partial full-history revelation obeys an exact Bayes-risk law
+and is exactly sufficient only at injective revelation. The host antecedent
+cannot select an archive interface changed by accessible/hidden relocation.
+
+```text
+HOST VERDICT: SELECTION_OR_FORMATION_OBSTRUCTION
+POSITIVE CONTROL: MARKOV_OPERATIONAL_CLOSURE
+FULL-ENVIRONMENT CONTROL: INJECTIVE_TOMOGRAPHY_ONLY
+```
+
 ### Decision
 
 Does the `HC-DU-045` boundary survive every benign and host-selected change
@@ -216,6 +234,15 @@ Do not introduce a new detector, factorization, output fragment, or archive
 Hamiltonian merely to kill the hostile twin.
 
 ## 6. Position 2 — minimum-premise compiler and portfolio pivot
+
+### Identity
+
+```text
+N5-RS-P2
+Minimum-Premise Compiler and Whole-DU Portfolio Pivot
+```
+
+This is now the sole executable position.
 
 ### Decision
 
@@ -439,9 +466,9 @@ the local fallback unless Joe separately authorizes the external path.
 ## 11. Execution discipline
 
 1. Run one position at a time.
-2. Position 1 retains its existing identity: `ECR-N5-S5`.
-3. Do not mint run identities for Positions 2--5 until the predecessor fixes
-   their actual decision question.
+2. Position 1 retains its completed identity: `ECR-N5-S5` / `HC-DU-046`.
+3. Position 2 now has identity `N5-RS-P2`. Do not mint run identities for
+   Positions 3--5 until the predecessor fixes their actual decision question.
 4. Before each position, consult the near-term approach atlas and write one
    bounded Run Plan.
 5. Use personas as divergent lenses, never as evidence or votes.

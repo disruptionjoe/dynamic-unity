@@ -1,0 +1,603 @@
+{
+  "archive_relocation_certificate": {
+    "accessible_interface_changes": true,
+    "full_environment_interface_invariant": true,
+    "host_antecedent_invariant": true
+  },
+  "campaign": "ECR-N5-S5",
+  "checks": {
+    "all_pass": true,
+    "details": {
+      "all_horizons_below_four_factor_occurrence": true,
+      "all_horizons_from_four_fail_occurrence": true,
+      "all_horizons_preserve_next_branch_factorization": true,
+      "all_leakage_formula_checks": true,
+      "all_subdivisions_contract_to_same_macro_witness": true,
+      "archive_swap_obstruction_holds": true,
+      "equal_pair_full_reveal_risk_is_zero": true,
+      "equal_pair_zero_reveal_risk_is_half": true,
+      "every_partial_reveal_has_positive_equal_pair_error": true,
+      "first_occurrence_failure_is_horizon_four": true,
+      "full_history_cost_eventually_exceeds_endpoint_cost": true,
+      "h0_h4_different_count": true,
+      "h0_h4_different_occurrence": true,
+      "h0_h4_different_word": true,
+      "h0_h4_same_endpoint": true,
+      "lossless_relabelings_are_injective": true
+    },
+    "passed": 16,
+    "total": 16
+  },
+  "claim": "HC-DU-046",
+  "horizon_certificate": {
+    "first_occurrence_failure": 4,
+    "rows": [
+      {
+        "count_factors_through_endpoint": true,
+        "horizon": 0,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": true,
+        "word_factors_through_endpoint": true
+      },
+      {
+        "count_factors_through_endpoint": true,
+        "horizon": 1,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": true,
+        "word_factors_through_endpoint": true
+      },
+      {
+        "count_factors_through_endpoint": true,
+        "horizon": 2,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": true,
+        "word_factors_through_endpoint": true
+      },
+      {
+        "count_factors_through_endpoint": true,
+        "horizon": 3,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": true,
+        "word_factors_through_endpoint": true
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 4,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 5,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 6,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 7,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 8,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 9,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 10,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 11,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 12,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 13,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 14,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 15,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 16,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 17,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 18,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 19,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 20,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 21,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 22,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 23,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 24,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 25,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 26,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 27,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 28,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 29,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 30,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 31,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 32,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 33,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 34,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 35,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 36,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 37,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 38,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 39,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      },
+      {
+        "count_factors_through_endpoint": false,
+        "horizon": 40,
+        "next_branch_factors_through_endpoint": true,
+        "occurrence_factors_through_endpoint": false,
+        "word_factors_through_endpoint": false
+      }
+    ],
+    "tested_through": 40
+  },
+  "host_selected_premise_audit": {
+    "not_selected_by_frozen_host": [
+      "environment factorization into A and H",
+      "blank archive preparation",
+      "history-routing coupling",
+      "retention horizon and epoch boundary",
+      "observer boundary and access route",
+      "archive location"
+    ],
+    "selected_by_frozen_host": [
+      "four-state matter carrier",
+      "alternating write/turnover edge architecture",
+      "terminal next-state law",
+      "ready/retained orbit structure up to relabeling"
+    ]
+  },
+  "resource_normalization": [
+    {
+      "endpoint_alphabet_upper_bits": 2,
+      "full_history_distinctions": 5,
+      "full_history_minimum_bits": 3,
+      "horizon": 4
+    },
+    {
+      "endpoint_alphabet_upper_bits": 2,
+      "full_history_distinctions": 9,
+      "full_history_minimum_bits": 4,
+      "horizon": 8
+    },
+    {
+      "endpoint_alphabet_upper_bits": 2,
+      "full_history_distinctions": 17,
+      "full_history_minimum_bits": 5,
+      "horizon": 16
+    },
+    {
+      "endpoint_alphabet_upper_bits": 2,
+      "full_history_distinctions": 33,
+      "full_history_minimum_bits": 6,
+      "horizon": 32
+    },
+    {
+      "endpoint_alphabet_upper_bits": 2,
+      "full_history_distinctions": 41,
+      "full_history_minimum_bits": 6,
+      "horizon": 40
+    }
+  ],
+  "stochastic_and_leakage_certificate": {
+    "equal_h0_h4_bayes_risk": {
+      "0": "1/2",
+      "1": "0",
+      "1/2": "1/4",
+      "1/4": "3/8",
+      "3/4": "1/8"
+    },
+    "equal_h0_h4_total_variation": {
+      "0": "0",
+      "1": "1",
+      "1/2": "1/2",
+      "1/4": "1/4",
+      "3/4": "3/4"
+    },
+    "rows": [
+      {
+        "bayes_error": "1/2",
+        "endpoint_ambiguity_mass": "1/2",
+        "formula_value": "1/2",
+        "prior": "equal_h0_h4",
+        "reveal_probability": "0"
+      },
+      {
+        "bayes_error": "3/8",
+        "endpoint_ambiguity_mass": "1/2",
+        "formula_value": "3/8",
+        "prior": "equal_h0_h4",
+        "reveal_probability": "1/4"
+      },
+      {
+        "bayes_error": "1/4",
+        "endpoint_ambiguity_mass": "1/2",
+        "formula_value": "1/4",
+        "prior": "equal_h0_h4",
+        "reveal_probability": "1/2"
+      },
+      {
+        "bayes_error": "1/8",
+        "endpoint_ambiguity_mass": "1/2",
+        "formula_value": "1/8",
+        "prior": "equal_h0_h4",
+        "reveal_probability": "3/4"
+      },
+      {
+        "bayes_error": "0",
+        "endpoint_ambiguity_mass": "1/2",
+        "formula_value": "0",
+        "prior": "equal_h0_h4",
+        "reveal_probability": "1"
+      },
+      {
+        "bayes_error": "2/9",
+        "endpoint_ambiguity_mass": "2/9",
+        "formula_value": "2/9",
+        "prior": "uniform_h0_h8",
+        "reveal_probability": "0"
+      },
+      {
+        "bayes_error": "1/6",
+        "endpoint_ambiguity_mass": "2/9",
+        "formula_value": "1/6",
+        "prior": "uniform_h0_h8",
+        "reveal_probability": "1/4"
+      },
+      {
+        "bayes_error": "1/9",
+        "endpoint_ambiguity_mass": "2/9",
+        "formula_value": "1/9",
+        "prior": "uniform_h0_h8",
+        "reveal_probability": "1/2"
+      },
+      {
+        "bayes_error": "1/18",
+        "endpoint_ambiguity_mass": "2/9",
+        "formula_value": "1/18",
+        "prior": "uniform_h0_h8",
+        "reveal_probability": "3/4"
+      },
+      {
+        "bayes_error": "0",
+        "endpoint_ambiguity_mass": "2/9",
+        "formula_value": "0",
+        "prior": "uniform_h0_h8",
+        "reveal_probability": "1"
+      },
+      {
+        "bayes_error": "1/15",
+        "endpoint_ambiguity_mass": "1/15",
+        "formula_value": "1/15",
+        "prior": "increasing_h0_h8",
+        "reveal_probability": "0"
+      },
+      {
+        "bayes_error": "1/20",
+        "endpoint_ambiguity_mass": "1/15",
+        "formula_value": "1/20",
+        "prior": "increasing_h0_h8",
+        "reveal_probability": "1/4"
+      },
+      {
+        "bayes_error": "1/30",
+        "endpoint_ambiguity_mass": "1/15",
+        "formula_value": "1/30",
+        "prior": "increasing_h0_h8",
+        "reveal_probability": "1/2"
+      },
+      {
+        "bayes_error": "1/60",
+        "endpoint_ambiguity_mass": "1/15",
+        "formula_value": "1/60",
+        "prior": "increasing_h0_h8",
+        "reveal_probability": "3/4"
+      },
+      {
+        "bayes_error": "0",
+        "endpoint_ambiguity_mass": "1/15",
+        "formula_value": "0",
+        "prior": "increasing_h0_h8",
+        "reveal_probability": "1"
+      },
+      {
+        "bayes_error": "25/511",
+        "endpoint_ambiguity_mass": "25/511",
+        "formula_value": "25/511",
+        "prior": "decreasing_h0_h8",
+        "reveal_probability": "0"
+      },
+      {
+        "bayes_error": "75/2044",
+        "endpoint_ambiguity_mass": "25/511",
+        "formula_value": "75/2044",
+        "prior": "decreasing_h0_h8",
+        "reveal_probability": "1/4"
+      },
+      {
+        "bayes_error": "25/1022",
+        "endpoint_ambiguity_mass": "25/511",
+        "formula_value": "25/1022",
+        "prior": "decreasing_h0_h8",
+        "reveal_probability": "1/2"
+      },
+      {
+        "bayes_error": "25/2044",
+        "endpoint_ambiguity_mass": "25/511",
+        "formula_value": "25/2044",
+        "prior": "decreasing_h0_h8",
+        "reveal_probability": "3/4"
+      },
+      {
+        "bayes_error": "0",
+        "endpoint_ambiguity_mass": "25/511",
+        "formula_value": "0",
+        "prior": "decreasing_h0_h8",
+        "reveal_probability": "1"
+      }
+    ]
+  },
+  "subdivision_certificate": [
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 1
+    },
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 2
+    },
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 3
+    },
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 4
+    },
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 5
+    },
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 6
+    },
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 7
+    },
+    {
+      "contracted_cycle": "CWCW",
+      "contracted_empty": "",
+      "different_occurrence": true,
+      "same_endpoint": true,
+      "subdivisions_per_event": 8
+    }
+  ],
+  "theorem_package": {
+    "approximate_boundary": "under complete-history reveal probability lambda and otherwise endpoint-only erasure, Bayes occurrence error equals (1-lambda) times endpoint ambiguity mass",
+    "arbitrary_horizon": "the finest visible/hidden A-only common quotient remains terminal endpoint at every prefix horizon; historical occurrence first fails at horizon four and the h0/h4 witness persists at every longer horizon",
+    "archive_relocation": "an archive interface cannot be selected by a host antecedent invariant under accessible/hidden routing swap",
+    "positive_weights": "strictly positive stochastic weights preserve exact nonfactorization because both witness histories remain in support",
+    "representation_invariance": "lossless token relabeling and target-preserving temporal subdivision preserve the record and target kernels"
+  },
+  "verdict": {
+    "full_environment_control": "INJECTIVE_TOMOGRAPHY_ONLY",
+    "historical_host_verdict": "SELECTION_OR_FORMATION_OBSTRUCTION",
+    "north_star": "H-CCR-17 remains open outside this host; compile the minimum missing premise and re-rank the DU portfolio",
+    "positive": "MARKOV_OPERATIONAL_CLOSURE",
+    "scope": "final for the frozen metastable host and declared robustness family; not a universal record no-go"
+  }
+}

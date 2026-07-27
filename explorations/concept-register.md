@@ -2262,6 +2262,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   binary epoch record it is count. Full `A+H` access reconstructs history only
   by expanding the observer/action/resource contract and becoming injective
   on the finite class.
+- **2026-07-27 robust host closeout.** `HC-DU-046` proves that terminal matter
+  remains the finest visible/hidden common record at every prefix horizon.
+  Occurrence, count, and word first fail at the completed four-edge cycle and
+  remain failed afterward. Positive weights, lossless relabeling, and benign
+  subdivision preserve the witness. Under complete-history reveal
+  probability \(\lambda\), Bayes occurrence error is
+  \((1-\lambda)\) times endpoint ambiguity mass, and exact repair occurs only
+  at injective revelation. The archive-relocation theorem shows that a host
+  antecedent invariant under accessible/hidden routing cannot select the
+  archive interface changed by that routing. The scoped host verdict is
+  `SELECTION_OR_FORMATION_OBSTRUCTION`.
 - **Controls and global kill.**
   - An unobserved Markov or quantum trajectory is not a retained archive.
   - A prewritten random oracle correlated with a path is disclosure, not a
@@ -2278,16 +2289,21 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   trajectories, redundant consistent-history records, and sufficient
   statistics absorb the component mathematics. Potential DU value lies in
   the unchanged typed formation/selection/completion-invariance contract.
-- **Status:** **CONCEPT-OPEN / EXACT MINIMUM TRANSDUCER AND
+- **Status:** **CONCEPT-OPEN ACROSS OTHER PHYSICAL ARENAS / FIRST METASTABLE
+  HOST CLOSED / EXACT MINIMUM TRANSDUCER AND
   REVERSIBLE-ARCHIVE BOUNDARY INSTALLED / CONDITIONAL FRESH-OUTPUT HISTORY
   FORMATION INSTALLED / COMPLETION-COMMON ENDPOINT QUOTIENT AND TWO-TIER
-  CAPABILITY LEAK INSTALLED / METASTABLE HOST RETURNS
-  NO_ENDOGENOUS_ARCHIVE WITH MARKOV_OPERATIONAL_CLOSURE ONLY / ROBUST
-  HOST-LEVEL ADJUDICATION NEXT / NO UNIVERSAL COST, ACTUALIZATION, ONTOLOGY,
+  CAPABILITY LEAK INSTALLED / ARBITRARY-HORIZON AND EXACT APPROXIMATE-LEAK
+  BOUNDARIES INSTALLED / METASTABLE HOST RETURNS
+  SELECTION_OR_FORMATION_OBSTRUCTION WITH MARKOV_OPERATIONAL_CLOSURE ONLY /
+  MINIMUM-PREMISE AND WHOLE-PORTFOLIO PIVOT NEXT / NO UNIVERSAL COST,
+  ACTUALIZATION, ONTOLOGY,
   NEW PHYSICS, PREDICTION, OR PAPER PROMOTION.** See
   `matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md`
   and
-  `completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md`.
+  `completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md`
+  and
+  `metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md`.
 
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
