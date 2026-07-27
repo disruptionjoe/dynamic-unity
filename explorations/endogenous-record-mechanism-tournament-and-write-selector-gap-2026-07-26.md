@@ -806,3 +806,14 @@ tournament finds the next, more physical bottleneck:
 > provenance**.
 
 That is now the sole next research object.
+
+## Successor receipt
+
+`ECR-N5-S2` is complete as
+[`HC-DU-043`](metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md).
+The first host selects its write/retention architecture and value orbit up to
+\(\mathbb Z/2\), but endpoint value does not retain write-occurrence
+provenance and redundant endpoint copies do not repair it. The current next
+object is `ECR-N5-S3`: derive the retained epoch/history witness from the
+same matter--environment dynamics or return that the history archive is
+supplied.

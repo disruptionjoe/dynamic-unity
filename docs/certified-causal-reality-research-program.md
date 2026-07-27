@@ -1323,9 +1323,59 @@ may still select the material carrier, write, provenance, and persistence.
 Matter-flow-coupled metastability is the first host for that test, with
 environment-selected records/SBS as the mandatory absorber.
 
-`ECR-N5-S2` is now the sole next executable object: the matter-flow
-metastable write-selector or tokenization-obstruction test. See
+This identified `ECR-N5-S2`, now completed as `HC-DU-043`: the
+matter-flow metastable write-selector or tokenization-obstruction test. See
 `../explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md`.
+
+### `HC-DU-043` — Metastable Write Architecture and Occurrence Tokenization
+
+`ECR-N5-S2` instantiates the first host with the exact alternating-rate
+four-state generator
+
+\[
+x_0\xrightarrow{\alpha}x_1\xrightarrow{\kappa}x_2
+\xrightarrow{\alpha}x_3\xrightarrow{\kappa}x_0,
+\qquad
+\alpha\gg\kappa.
+\]
+
+Relative to a frozen typed source--carrier antecedent, the rate gap selects
+the ready and retained classes, fast write and slow turnover/reset edge
+orbits, finite write/retention bounds, and a two-value record orbit up to
+\(\mathbb Z/2\). The classification remains stable while the minimum fast
+rate exceeds the maximum slow rate.
+
+Occurrence provenance does not descend to endpoint value. A no-jump path
+from \(x_1\) and a four-jump return path from \(x_1\) have the same initial
+and terminal states and terminal value, but differ on whether a write
+occurred. Therefore:
+
+\[
+\ker(X_0,X_T,r_T)\not\subseteq\ker p_T.
+\]
+
+Any number of redundant copies of \(r_T\) preserves the same kernel. A
+bounded exact repair requires at least one physically retained binary epoch
+distinction plus a certified reset boundary. Exact unbounded occurrence
+identity still requires growing support, a bounded horizon, or weakened
+semantics.
+
+Quantum Darwinism/SBS absorbs terminal-value objectivity. Redundant records
+of consistent histories identify the stronger positive route: the
+environment must retain the relevant history distinction. They do not select
+the required physical epoch archive for this generator.
+
+This is scoped grade-4 selection/necessity from known Markov,
+metastability, trajectory, redundancy, history, equivariance, and
+factorization mathematics. It is not a microscopic matter derivation,
+complete endogenous record, actualization rule, ontology, new physics,
+prediction, or paper result.
+
+`ECR-N5-S3` is now the sole next executable object: hold one complete
+matter--environment process fixed and test whether it selects and forms the
+epoch/write witness, or return `SUPPLIED_EPOCH_ARCHIVE` /
+`HISTORY_RECORD_NOT_SELECTED`. See
+`../explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -2759,14 +2809,17 @@ mechanism chains is ready for the full conjunction. Their common missing
 premise is a write-complete physical antecedent: a full material
 source--carrier--environment dynamics and preparation from which blank,
 write, provenance, persistence, and reset can be derived or honestly
-classified. A selected stable quotient is not yet a formed record.
+classified. `HC-DU-043` now sharpens that boundary. One typed metastable
+generator selects its write/retention architecture and value orbit up to
+\(\mathbb Z/2\), but endpoint value does not retain occurrence provenance,
+and redundant value copies preserve the obstruction. The minimum bounded
+repair is a physically retained epoch/reset witness.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
-now concentrates first on matter-flow-coupled metastability, with
-environment-selected records as the strongest absorber. `ECR-N5-S2` is the
-sole next executable object and must either prove the write-selector
-factorization up to physical gauge/orbit or return the exact tokenization
-obstruction. The later three swings remain dependency contracts, not active
+now concentrates on whether one unchanged matter--environment interaction
+selects and forms that history-bearing witness. Redundant records of
+consistent histories are the strongest absorber. `ECR-N5-S3` is the sole
+next executable object; S4 and S5 remain dependency contracts, not active
 parallel bets.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
@@ -3423,7 +3476,12 @@ HC-DU-042 ENDOGENOUS-RECORD MECHANISM TOURNAMENT RETURNS NO_READY_ARENA
 SELECTED STABLE QUOTIENT DOES NOT ENTAIL FORMED PROVENANCE-BEARING WRITE
 WRITE SELECTOR EXISTS IFF WRITE-COMPLETE INTERFACE IS CONSTANT ON ANTECEDENT FIBRES
 MATTER-FLOW METASTABILITY IS FIRST HOST; QD/SBS IS MANDATORY ABSORBER
-ECR-N5-S2 WRITE-SELECTOR OR TOKENIZATION-OBSTRUCTION TEST NEXT
+HC-DU-043 METASTABLE WRITE/RETENTION ARCHITECTURE SELECTED UP TO Z2
+ENDPOINT VALUE DOES NOT RETAIN WRITE-OCCURRENCE PROVENANCE
+REDUNDANT ENDPOINT COPIES PRESERVE THE PROVENANCE OBSTRUCTION
+BOUNDED EXACT REPAIR REQUIRES A PHYSICALLY RETAINED EPOCH/RESET WITNESS
+REDUNDANT RECORDS OF CONSISTENT HISTORIES ARE THE STRONGEST POSITIVE ABSORBER
+ECR-N5-S3 MATTER--ENVIRONMENT PROVENANCE-LIFT AND FORMATION-DESCENT TEST NEXT
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

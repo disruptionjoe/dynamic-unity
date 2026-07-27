@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: endogenous compression to held-out physics"
-status: swing_1_complete__swing_2_retyped_next
+status: swings_1_2_complete__swing_3_retyped_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: do another scaffolding and approach assessment for the next five big swings"
@@ -18,10 +18,10 @@ The next five swings should use **staged concentration**:
 S1  compare only mechanisms that could satisfy the whole H-CCR-17 conjunction
         |
         v
-S2  try to derive the native interface from the winning dynamics
+S2  derive the write architecture or return its tokenization obstruction
         |
         v
-S3  prove an actual write, persistence, and strict physical compression
+S3  derive a retained epoch/history witness, then test formation and compression
         |
         v
 S4  test no-refit transfer to held-out physics and an enlarged capability class
@@ -44,10 +44,16 @@ missing premise is a write-complete physical antecedent. Matter flow plus
 metastability remains the first host, with decoherence/SBS as its mandatory
 absorber.
 
-`ECR-N5-S2` is now the sole next executable object, retyped as the
-matter-flow metastable write-selector or tokenization-obstruction test.
-`ECR-N5-S3` through `ECR-N5-S5` remain conditional branch contracts, not
-active runs.
+`ECR-N5-S2` is now complete as `HC-DU-043`. The exact metastable normal
+form selects its ready/retained classes, write/reset edge architecture,
+finite persistence and value orbit up to \(\mathbb Z/2\). It also proves
+that endpoint value does not retain write-occurrence provenance: a
+same-initial/same-endpoint path pair differs on whether a write occurred, and
+arbitrarily many endpoint copies preserve the obstruction.
+
+`ECR-N5-S3` is now the sole next executable object, retyped as the
+matter--environment provenance-lift and formation-descent test. `ECR-N5-S4`
+and `ECR-N5-S5` remain conditional branch contracts, not active runs.
 
 The campaign question is:
 
@@ -271,7 +277,7 @@ ECR-N5-S1  mechanism tournament and arena passport
 ECR-N5-S2  native interface selection or obstruction
                                      |
                                      v
-ECR-N5-S3  physical write + persistence + strict compression
+ECR-N5-S3  history/epoch witness + formation + strict compression
                                      |
                                      v
 ECR-N5-S4  held-out transfer + capability enlargement
@@ -390,48 +396,57 @@ minimum-premise obstruction.
 **Computation/hardware.** Symbolic or exact finite classification only when
 it proves the symmetry/orbit boundary. No hardware.
 
-### `ECR-N5-S3` — Physical Formation, Persistence, and Strict Compression
+### `ECR-N5-S3` — Matter-Environment Provenance Lift, Formation, and Strict Compression
 
-**Decision uncertainty.** Does the selected interface actually form a
-provenance-bearing record, and is that record a genuine physical quotient
-rather than a transported initial value or an injective source log?
+**Decision uncertainty.** Does the same target-independent
+matter--environment dynamics that selects the metastable value orbit also
+select and form a retained epoch/write witness, and does the resulting
+history-bearing record become a genuine strict quotient?
 
-**Inherited input.** The selected point/orbit or minimum-premise receipt from
-Swing 2.
+**Inherited input.** `HC-DU-043`: write/retention architecture selected up
+to \(\mathbb Z/2\), endpoint occurrence provenance obstructed, one retained
+binary epoch distinction necessary for the bounded question.
 
 **Method.**
 
-1. Specify the write \(W\), blank memory, source, energy/resource ledger,
-   reset, provenance, and finite stability horizon.
-2. Separate write formation from passive transport and from post hoc
-   declaration of an observable algebra.
-3. Prove persistence under a frozen perturbation ball using the mechanism's
-   natural tool: spectral gap, metastable basin, large-deviation bound,
-   conservation law, topological protection, or local causal factorization.
-4. Exhibit two lawful nongauge realizations in one record fibre.
-5. Confirm nonzero pre-record target diameter and rule out target-defined
-   coarse graining.
-6. Determine whether the quotient is autonomous for a preregistered
+1. Freeze one complete matter--environment interaction, environment
+   preparation, fragment boundary, reset receipt, access route,
+   representation group, resource ledger, and perturbation class.
+2. Compare terminal-value broadcasting, environment fragments carrying the
+   fast write edge, and the minimum binary epoch witness without changing the
+   antecedent.
+3. Test whether the history/epoch interface is selected by the complete
+   dynamics or supplied by a monitoring/archive choice.
+4. Separate a physically retained trajectory record from an unobserved path
+   and from post hoc declaration of a history variable.
+5. If selected, prove write formation, provenance, reset, and finite
+   persistence; then exhibit two lawful nongauge histories in one complete
+   record fibre and confirm nonzero pre-record target diameter.
+6. Determine whether the strict quotient is autonomous for a preregistered
    capability class \(H\).
 
-**Strongest absorbers.** Landauer accounting, decoherence/SBS, metastability
-and sufficient-statistic theory, QEC/noiseless subsystems, ordinary detector
-physics, and inaccessible-environment completion.
+**Strongest absorbers.** Redundant records of consistent histories,
+decoherence/SBS, trajectory-unravelling dependence, Landauer accounting,
+metastability and sufficient-statistic theory, ordinary detector physics,
+and inaccessible-environment completion.
 
-**Cheapest positive.** A target-independent write theorem with a nontrivial
-record fibre and finite persistence/error bound.
+**Cheapest positive.** The fixed interaction itself forms a robust
+epoch/write flag or redundant history fragment, yielding a
+provenance-complete nontrivial record fibre with finite persistence/error
+bound.
 
 **Cheapest kills.**
 
-- no actual write occurs;
+- the epoch/history archive is selected only after choosing a monitoring;
+- the physical path exists but is not retained by any admitted subsystem;
 - the stable variable is supplied by initial conditions or apparatus;
 - the record map is injective modulo gauge;
 - the target is already law-fixed; or
 - persistence exists only outside the declared action/resource envelope.
 
-**Adverse branch.** Bank `TRANSPORT_ONLY`, `SUPPLIED_INTERFACE`,
-`TOMOGRAPHY_CEILING`, or `NO_AUTONOMOUS_QUOTIENT` and pass the exact
-obstruction to Swing 4.
+**Adverse branch.** Bank `SUPPLIED_EPOCH_ARCHIVE`,
+`HISTORY_RECORD_NOT_SELECTED`, `TRANSPORT_ONLY`, `TOMOGRAPHY_CEILING`, or
+`NO_AUTONOMOUS_QUOTIENT` and pass the exact obstruction to Swing 4.
 
 **Durable output.** A formation theorem or a minimized formation/compression
 counterexample with a machine-checkable kernel certificate where possible.
@@ -598,7 +613,7 @@ The campaign is worth running because it has no low-information terminal
 branch. What it must not do is keep a favored construction alive by supplying
 each missing arrow one at a time.
 
-## 9. First execution handoff
+## 9. Execution handoff
 
 `ECR-N5-S1` is complete as
 [`HC-DU-042`](endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md).
@@ -625,12 +640,28 @@ host of the now-exact next question: whether a full material generator can
 select the blank-to-token write and provenance, rather than merely a slow
 phase simplex or monitoring-dependent trajectory.
 
-`ECR-N5-S2` is now the sole next executable object. Its exact inherited
-contract is in `HC-DU-042`, Section 8. It must test
-\(\ker a_W\subseteq\ker\xi_W\) for one minimal matter-coupled metastable
-generator, preserve environment-selected records as the strongest absorber,
-and return a selected point/orbit, plural family, trivial interface, or
-tokenization obstruction. It may not add a hand-selected detector after
+`ECR-N5-S2` is complete as
+[`HC-DU-043`](metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md).
+It returns:
+
+```text
+WRITE ARCHITECTURE SELECTED UP TO Z2
+ENDPOINT OCCURRENCE PROVENANCE OBSTRUCTED
+```
+
+The minimum bounded repair is one physically retained binary epoch/write
+distinction plus a certified reset boundary. This is a distinguishability
+lower bound, not an energy claim. Exact unbounded occurrence identity still
+requires growing support, a bounded horizon, or weakened semantics.
+
+`ECR-N5-S3` is now the sole next executable object. It must compare
+endpoint-value broadcasting, environment fragments that retain the write
+edge, and the minimum epoch witness under one unchanged target-independent
+matter--environment process. Redundant records of consistent histories are
+the strongest absorber. A positive branch must show that the same dynamics selects and
+forms value, epoch provenance, persistence and reset over the declared
+perturbation class. Otherwise return `SUPPLIED_EPOCH_ARCHIVE` or
+`HISTORY_RECORD_NOT_SELECTED`. It may not add a hand-selected detector after
 seeing the held-out target.
 
 ## 10. Campaign claim ceiling

@@ -104,7 +104,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 180
+Finality, Temporal Issuance, or Possibility to Capability. It records 181
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -357,11 +357,17 @@ What *has* been earned is a strong finite control stack:
   none currently selects a complete blank-to-token write with occurrence
   provenance and retention/reset from the same target-independent physical
   antecedent. The exact factorization and two-write counterexample establish
-  that a selected stable quotient is not yet a formed record. Matter-flow
-  plus metastability remains the first host and Quantum Darwinism/SBS its
-  mandatory absorber. `ECR-N5-S2`, the write-selector or
-  tokenization-obstruction test, is now the sole next executable object
+  that a selected stable quotient is not yet a formed record. `HC-DU-043`
+  then consumes the first matter-flow/metastability host. One exact generator
+  selects the ready/retained classes, write/reset edge architecture, finite
+  persistence and a two-value record orbit up to \(\mathbb Z/2\), but an
+  equal-initial/equal-endpoint path pair proves that endpoint value does not
+  retain write-occurrence provenance. Redundant copies preserve the failure;
+  a bounded exact repair needs a physically retained epoch/reset witness.
+  `ECR-N5-S3`, the matter--environment provenance-lift and
+  formation-descent test, is now the sole next executable object
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
+  [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
@@ -738,10 +744,12 @@ premise: a write-complete physical antecedent whose dynamics selects the
 blank-to-token write and provenance, not merely a stable algebra, phase,
 protected sector, or redundant pattern. Matter-flow-coupled metastability is
 the first host and environment-selected records the mandatory absorber.
-`ECR-N5-S2` is now the sole next executable object. It tests the
-write-selector factorization or returns a tokenization obstruction.
-`ECR-N5-S3` through `ECR-N5-S5` remain conditional contracts and must consume
-the strongest honest preceding receipt.
+`ECR-N5-S2` is complete as `HC-DU-043`. It selects the metastable
+write/retention architecture up to \(\mathbb Z/2\) but returns an exact
+endpoint occurrence-tokenization obstruction. `ECR-N5-S3` is now the sole
+next executable object: derive a retained epoch/history witness from the same
+matter--environment dynamics or return that the history archive is supplied.
+`ECR-N5-S4` and `ECR-N5-S5` remain conditional contracts.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -906,9 +914,9 @@ channels; they are not lanes and do not create a second priority system.
    [endogenous-compressive-record tournament](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md)
    and its
    [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
-   `ECR-N5-S1` is complete as `HC-DU-042`; only `ECR-N5-S2`, the
-   matter-flow metastable write-selector or tokenization-obstruction test, is
-   next executable.
+   `ECR-N5-S1` and `ECR-N5-S2` are complete as `HC-DU-042/043`; only
+   `ECR-N5-S3`, the matter--environment provenance-lift and
+   formation-descent test, is next executable.
    Later swing cards are conditional and are not separately active.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).

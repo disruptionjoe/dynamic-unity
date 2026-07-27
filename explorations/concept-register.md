@@ -1033,6 +1033,25 @@ resolution-stable intervention role. No claim is banked or seeded. See
   matter-flow-coupled metastable write-selector or tokenization-obstruction
   test, with environment-selected records as the mandatory absorber. See
   `endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md`.
+- **Earned metastable write-orbit / occurrence-token separation.**
+  `HC-DU-043` instantiates the first host with one exact
+  timescale-separated four-state generator. Relative to a frozen typed
+  source--carrier antecedent, the weighted dynamics selects ready and
+  retained classes, write and reset edge orbits, finite write/retention
+  bounds, and a two-value record orbit up to \(\mathbb Z/2\), stably over a
+  declared rate-ordering class. It does not make endpoint value a
+  provenance-bearing occurrence token: equal-initial-state/equal-endpoint
+  positive-probability paths can differ on whether a write occurred, and any
+  number of redundant endpoint-value copies preserves that fibre. A bounded
+  exact repair therefore requires at least one physically retained binary
+  epoch distinction plus a certified reset boundary; unbounded exact
+  occurrence identity still needs growing support, bounded semantics, or
+  allowed aliasing. Quantum Darwinism/SBS absorbs value objectivity, while
+  redundant records of consistent histories identify the correct positive repair
+  without selecting its physical archive. This is scoped grade-4
+  selection/necessity from known mathematics, not a microscopic matter
+  derivation, endogenous record, ontology, new law, or prediction. See
+  `metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md`.
 - **Earned algebraic-QFT transport and capability-growth boundary.**
   `HC-DU-040B` removes the finite-dimensional crutch from one part of the
   program. For any unital von Neumann algebra and finite internal PVM, the

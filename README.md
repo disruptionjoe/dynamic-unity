@@ -243,11 +243,18 @@ current results establish the starting boundary, not the answer:
   provenance, and retention/reset interface from the same target-independent
   physical antecedent. The exact write-selector factorization shows why a
   selected slow algebra, phase orbit, protected sector, or redundant pattern
-  is not yet a formed record. Matter-flow-coupled metastability is retained
-  as the first host, with environment-selected records as its mandatory
-  absorber. `ECR-N5-S2`, the write-selector or tokenization-obstruction test,
-  is now the sole next executable object
+  is not yet a formed record. `HC-DU-043` has now consumed the first
+  matter-flow/metastability host. Its exact generator selects ready and
+  retained classes, write and reset edge orbits, finite persistence, and a
+  two-value record orbit up to \(\mathbb Z/2\). But equal-initial-state,
+  equal-endpoint histories can differ on whether a write occurred, and
+  arbitrarily many copies of the endpoint value preserve that provenance
+  failure. The minimum bounded repair is a physically retained epoch/reset
+  witness, not more value redundancy. `ECR-N5-S3`, the matter--environment
+  provenance-lift and formation-descent test, is now the sole next executable
+  object
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
+  [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,
