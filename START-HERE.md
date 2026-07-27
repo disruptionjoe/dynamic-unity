@@ -3,7 +3,7 @@ title: "Dynamic Unity — Start Here"
 status: active_research
 doc_type: orientation
 created: 2026-07-25
-revised: 2026-07-26
+revised: 2026-07-27
 authority: "Joe direct chat; ratified program identity and operating architecture"
 ---
 
@@ -59,6 +59,12 @@ possibility testable while keeping three outcomes coequal:
 Underidentification means the work is incomplete. It is not a fourth
 ontological verdict.
 
+“Observer-indexed” is an operational and methodological index over records,
+access, interventions, and capability. It does not assert that no global
+state or preferred foliation exists. A stronger observer-relative ontology
+must declare the contextuality, locality, friend-style, and
+preferred-foliation assumptions on which it depends.
+
 ## The scientific architecture
 
 Dynamic Unity studies the same seam in both directions:
@@ -104,7 +110,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 187
+Finality, Temporal Issuance, or Possibility to Capability. It records 194
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -999,6 +1005,12 @@ channels; they are not lanes and do not create a second priority system.
    `HC-DU-047/048/049/050/051`. Resume only `N5-RS-P2` under its existing
    identity and sharpened physical-source-formation handoff. Positions 3--5
    of that scaffold remain conditional on its portfolio receipt.
+   The
+   [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
+   and
+   [stratified causal coordination preparation](explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md)
+   are new inputs to that same portfolio pivot. They create no parallel
+   active campaign.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies

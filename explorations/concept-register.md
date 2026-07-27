@@ -3,7 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
-revised: 2026-07-26
+revised: 2026-07-27
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -2437,6 +2437,70 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   and
   `distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md`.
 
+## CONCEPT-DU-015 — stratified causal coordination and empirical excess
+
+- **Concept (articulation-invariant).** Observer-accessible facts and
+  capabilities may be organized by a stratified physical coordination
+  architecture: source events form local records; causal channels determine
+  access; different proposition types require different propagation,
+  coordination, fault, trust, and finality premises; capability-relative
+  regional quotients may compose into higher-level nodes; and the resulting
+  structure either reconstructs observer-accessible physics or leaves a
+  finite physical remainder.
+- **Concept invariant.**
+  1. Physical source/record formation is antecedent to downstream
+     dissemination, proof, consensus, and certification.
+  2. Finality is indexed by proposition, region, observer, action/capability,
+     evidence/access envelope, fault model, and horizon rather than supplied
+     as one scalar.
+  3. Downstream layers may amplify, combine, route, authenticate, harden,
+     disclose, or make source-formed information action-safe, but they do not
+     create a target absent from the complete joint admitted input.
+  4. Local action sufficiency need not reconstruct one global biography.
+     Regional-to-global composition requires explicit compatibility,
+     physical joint realizability, resource, and descent conditions.
+  5. The architecture earns physical excess only through an operational
+     difference after the complete standard physical process is fixed, a
+     universal no-refit relation, or a finite record-relative remainder.
+- **Formalization family.**
+  1. A CALM-inspired monotonicity boundary between coordination-free record
+     growth and coordination-requiring absence, uniqueness, revocation, or
+     global invariants.
+  2. Proposition- and capability-indexed regional finality.
+  3. Conservative certification and physical-feedback factorization.
+  4. Certificate-hysteresis as a witness of persistent hidden physical state
+     or modified dynamics.
+  5. Sheaf/category/hypergraph regional descent with a typed compatibility
+     obstruction.
+  6. Branch-invariant operational observer indexing under both preferred- and
+     nonpreferred-foliation completions.
+  7. Total certified-record refinement (`F6` in the substrate council).
+  8. Relational reconciliation curvature (`F2`) as the highest-ceiling
+     physical residual.
+  9. Layered regional certificate-gated dynamics (`F9`) as the strongest
+     new-physics articulation of the coordination picture.
+  10. A frozen empirical-equivalence trilemma/no-go by attrition.
+- **Strongest absorbers.**
+  FLP, partial synchrony, CAP, CALM, common-knowledge logic, Byzantine
+  agreement, CRDT/serializability, cryptographic post-processing,
+  data-processing/control factorization, process tensors, quantum
+  no-broadcasting, contextuality, ordinary hidden sectors, and
+  observer-internal cognitive models.
+- **Grading.** The substrate council finds eight formulations with
+  conditional logical/empirical excess and two cognitive relocations with no
+  substrate excess. None supplies an earned Grade-5 residual, selected
+  coefficient, or new physical law. The broader coordination picture is a
+  representation-grade research architecture only after its cross-domain
+  mappings are made faithful; it is currently a concept family and approach
+  surface.
+- **Status:** **CONCEPT-OPEN / FORMALIZATION FAMILY CAPTURED / DISTRIBUTED
+  COMPONENT THEOREMS OCCUPIED / PHYSICAL ADAPTER AND EXCESS OPEN / NO NEW
+  PHYSICS, PREDICTION, ONTOLOGY, PAPER, OR PRIORITY PROMOTION.** See
+  `substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md` and
+  `next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md`.
+
 ## Boundary
-Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
-invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.
+
+Discovery / Lane-2 instrument. Concepts are *held*, not banked;
+formalizations are tested; only invariant-level falsification closes a
+concept. This prevents losing an idea to a single articulation.

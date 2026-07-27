@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 85
+manifest_revision: 86
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -35,6 +35,25 @@ near_term_approach_atlas_rule: >-
   strategy, reusable artifact, scale trigger and stop/reopen rule. The atlas covers all 27 paper
   candidates and named non-paper dependencies but has no priority, activation, claim, evidence
   grade, Factory or publication authority.
+substrate_hypothesis_council_ref: >-
+  explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md
+substrate_hypothesis_council_rule: >-
+  Treat H* as a branching hypothesis family, not an earned physical theory. The coherent
+  computational-identity core has no empirical excess by itself. Eight descendants state
+  conditional operational differences or prohibitions; none has an earned grade-5 residual,
+  selected coefficient or new physical law. Preserve the corrected scopes of Kochen--Specker,
+  Bell and Troyer--Wiese, strike entropy-area scaling as an architecture selector, and keep
+  observer indexing operational/methodological unless a stronger branch explicitly rejects
+  preferred-foliation and contextual/global-completion routes.
+stratified_causal_coordination_scaffold_ref: >-
+  explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md
+stratified_causal_coordination_scaffold_rule: >-
+  Use the game-engine comparison as a calibration doorway, not the program frame. The prepared
+  successor picture types source formation, causal access, monotone propagation, regional
+  action-safe certificates, harder coordination and regional-to-global descent. FLP, CAP, CALM,
+  common-knowledge, Byzantine and topological-computability results transfer only through their
+  exact assumptions. Position 1 is the already executable N5-RS-P2 portfolio compiler; no new
+  campaign or later run identity is active.
 next_five_swing_campaign_ref: >-
   explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md
 next_five_swing_campaign_rule: >-
@@ -489,7 +508,9 @@ program_charter:
   ontology_posture: >-
     No outcome is presumed. Underidentification is incomplete work, not a fourth ontology.
     Compatibility is not equivalence; representation is not derivation; operational equivalence
-    is not ontological priority.
+    is not ontological priority. Observer indexing is an operational/methodological index over
+    records, access, interventions and capability; it does not by itself deny a global state or
+    preferred foliation.
   forward_architecture: >-
     Accepted physical dynamics -> distinctions and interactions -> physically formed records and
     certificates -> observer access and action capability -> layered regional finality ->
@@ -759,6 +780,8 @@ lanes:
   - explorations/metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md
   - tests/du_metastable_host_robustness_adjudication_probe.py
   - explorations/next-five-swing-host-closeout-to-record-selection-scaffold-2026-07-27.md
+  - explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md
+  - explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -801,6 +824,8 @@ lanes:
   - START-HERE.md
   - docs/quantum-foundations-orientation-surface.md
   - docs/certified-causal-reality-research-program.md
+  - explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md
+  - explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md
   - explorations/graded-observer-geometry-4-6-4-work-program-2026-07-26.md
   do_not: >-
     Do not claim derivation, necessity or new physics merely because known theories fit one
@@ -5536,6 +5561,27 @@ provenance:
     executable with the sharpened formed-source premise. No paper, prediction,
     new physics, research model, hardware, provider, submission, publication or
     external-contact state changed.
+  rev86_note: >-
+    2026-07-27 (Joe direct chat: ten-formulation substrate council, layered
+    regional clarification and broader five-swing preparation): completed an
+    inline Lakatos audit of H-star and admitted CONCEPT-DU-015, stratified
+    causal coordination and empirical excess. The safe computational-identity
+    core has no empirical excess; eight descendants state conditional
+    differences or prohibitions, two relocate the architecture into cognition
+    or embodied control, and none earns a grade-5 residual, selected
+    coefficient or new physical law. The audit narrows the Kochen--Specker,
+    Bell and Troyer--Wiese scopes, removes area-scaling as an architecture
+    selector and keeps observer indexing operational unless a stronger branch
+    rejects preferred-foliation and contextual/global-completion routes. A
+    24-lens successor scaffold treats the game-engine comparison as a
+    calibration doorway and recasts the opportunity as source formation,
+    causal access, proposition-indexed regional finality, coordination,
+    certification and regional descent. FLP, CAP, CALM, common-knowledge,
+    Byzantine and topological-computability results enter only through their
+    native assumptions. N5-RS-P2 remains the sole executable position; later
+    successor positions are unactivated. Added NI-DU-78 through NI-DU-81. No
+    claim, prediction, evidence grade, paper, priority, model, hardware,
+    provider, publication or external-contact state changed.
 extensions:
   operating_architecture:
     contract_version: "1.0"

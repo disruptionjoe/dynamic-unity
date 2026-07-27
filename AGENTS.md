@@ -345,7 +345,12 @@ Before acting, a new agent must be able to state:
    from a finite threshold, map a distributed protocol directly to quantum
    physics, infer source truth or physical independence from a signature,
    quorum or key count, or build a simulator before an exact local proof
-   boundary requires it. For paper work separately
+   boundary requires it. The 2026-07-27 substrate-hypothesis council and
+   stratified causal coordination scaffold are preparatory inputs to
+   `N5-RS-P2`, not a new active campaign. Treat observer indexing as
+   operational/methodological unless a stronger ontological claim explicitly
+   rejects preferred-foliation and contextual/global-completion branches.
+   For paper work separately
    retain the nearer CSG tail hardening and higher-ceiling
    interventional-sufficiency flagship; a cloud pilot is optional calibration
    and physical adjudication remains partner-gated;

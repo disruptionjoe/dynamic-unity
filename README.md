@@ -3,7 +3,7 @@ title: "Dynamic Unity — Certified Causal Reality"
 status: active_research
 doc_type: overview
 created: 2026-07-21
-revised: 2026-07-26
+revised: 2026-07-27
 ---
 
 # Dynamic Unity
@@ -68,6 +68,21 @@ Here “causal” initially means only a declared operational
 intervention/composition or influence relation; it does not silently supply the
 clock, metric, light cones, foliation, or spacetime causal order later targeted
 for reconstruction.
+
+“Observer-indexed” is likewise an operational and methodological index over
+records, access, interventions, and capability. It does not assert that no
+global state or preferred foliation can exist. Any stronger ontological claim
+must state the contextuality, locality, friend-style, and foliation
+assumptions on which it depends.
+
+The current coordination-facing synthesis is the
+[stratified causal coordination concept](explorations/concept-register.md)
+and its
+[five-swing preparation](explorations/next-five-swing-stratified-causal-coordination-scaffold-2026-07-27.md).
+It treats the game-engine comparison as a calibration doorway, not the
+program frame. Distributed-system impossibility and possibility results are
+used only through their exact assumptions; they do not become physical laws
+by analogy.
 
 The program works in both directions. The **forward representation** asks how
 accepted physical dynamics forms records, observer access, regional finality,
