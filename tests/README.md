@@ -1728,3 +1728,38 @@ select a physical interface, establish endogenous compressive
 reconstruction, prove a representation-robust physical remainder, choose an
 ontology, report new physics, promote a paper, or authorize hardware or any
 external action.
+
+## HC-DU-044 epoch-archive boundary
+
+`du_epoch_archive_boundary_probe.py` preserves the exact finite controls
+behind the matter--environment provenance-lift result:
+
+- exhaustive classification of all `256` binary deterministic transducers,
+  with one exact set/retain/reset solution after event semantics are frozen;
+- exhaustive rejection of all `16` assignments of reversible bit maps;
+- the even-write `CWCW` counterexample to parity-as-occurrence;
+- equality of the host-internal turnover flag and the terminal
+  ready/retained class over allowed cycle prefixes;
+- separation of the stale and rewritten same-endpoint paths by an externally
+  initialized epoch flag;
+- injectivity of a source-labelled fresh-output branch map, making it
+  extensible to a reversible completion with charged output support;
+- two injective completion twins with the same reduced matter branch map but
+  branch information sent to the admitted archive in one and a hidden
+  reservoir in the other; and
+- strict binary occurrence compression plus its first write-count leak.
+
+Run:
+
+```bash
+python3 tests/du_epoch_archive_boundary_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_epoch_archive_boundary_result.json` and reports
+`SUPPLIED_EPOCH_ARCHIVE`. Passing preserves the minimum-transducer,
+reversible-carrier, internal-reset-collapse, conditional-output-history, and
+capability-leak boundaries. It does not derive a microscopic environment,
+select a completion or epoch archive, establish a universal cost law,
+actualization, ontology, new physics, paper state, hardware path, or external
+action.

@@ -1,5 +1,5 @@
 lane_contract_version: '1.1'
-manifest_revision: 75
+manifest_revision: 76
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -53,9 +53,12 @@ endogenous_compressive_record_campaign_rule: >-
   ECR-N5-S2 is complete as HC-DU-043. One exact metastable generator selects the
   ready/retained classes, write/reset edge architecture, finite persistence bounds and value
   orbit up to Z2, but its terminal value cannot certify whether a write occurred during the
-  interval. Redundant terminal-value copies preserve that obstruction. Only ECR-N5-S3, the
-  matter--environment provenance-lift and formation-descent test, is next executable.
-  ECR-N5-S4 and S5 remain conditional dependency contracts, not active parallel runs.
+  interval. ECR-N5-S3 is complete as HC-DU-044. The minimum binary epoch transducer is unique,
+  its exact set/reset maps cannot run reversibly on one closed bounded carrier, and a
+  fresh-output completion can physically retain the history only by charging completion,
+  support, retention and epoch structure that the matter host does not select. ECR-N5-S4, the
+  completion-invariant transfer and first-capability-leak test, is the sole next executable
+  object. ECR-N5-S5 remains conditional.
 endogenous_record_mechanism_tournament_ref: >-
   explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
 endogenous_record_mechanism_tournament_rule: >-
@@ -66,7 +69,7 @@ endogenous_record_mechanism_tournament_rule: >-
   occurrence provenance, persistence and reset as outputs to derive or classify from the
   physical microdynamics rather than semantic fields copied into the antecedent. HC-DU-042
   earns a scoped NO_READY_ARENA and minimum-premise obstruction, not a universal no-go.
-  HC-DU-043 has consumed its first host.
+  HC-DU-043 and HC-DU-044 have consumed the first host through the epoch-archive boundary.
 metastable_write_selector_result_ref: >-
   explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
 metastable_write_selector_result_rule: >-
@@ -76,9 +79,22 @@ metastable_write_selector_result_rule: >-
   a write occurred, and any number of redundant terminal-value copies keeps the same fibre.
   A bounded exact repair requires a physically formed epoch/reset witness carrying at least one
   binary distinction; unbounded occurrence identity requires growing support, a bounded horizon
-  or weakened semantics. Treat redundant records of consistent histories as the strongest
-  absorber and
-  advance only ECR-N5-S3.
+  or weakened semantics. HC-DU-044 now tests that repair: a fresh-output completion can retain
+  history, but the host does not select its environment factorization, archive, or epoch reset.
+  Advance only ECR-N5-S4 on completion-invariant transfer and the first capability leak.
+matter_environment_epoch_archive_result_ref: >-
+  explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
+matter_environment_epoch_archive_result_rule: >-
+  For the bounded proposition "a write occurred since the certified epoch reset," the two-state
+  set/retain/reset transducer is necessary, sufficient and unique once event semantics are
+  frozen. Its set and reset maps are many-to-one, so no closed reversible carrier can implement
+  them on every admitted state; exact repetition requires restricted inputs, exported
+  information, fresh support, bounded semantics or approximation. Resetting on the host's own
+  turnover edge reproduces only its terminal ready/retained class. A specified fresh-output
+  completion can physically form a full history record, and its binary quotient is strict and
+  autonomous for the bounded occurrence capability, but the matter host does not select the
+  completion, output fragment, retention, epoch or latch. Treat the host as
+  SUPPLIED_EPOCH_ARCHIVE and use ECR-N5-S4 to test completion-invariant transfer.
 physical_are_selector_result_ref: >-
   explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
 physical_are_selector_result_rule: >-
@@ -490,9 +506,11 @@ lanes:
     NO_READY_ARENA and HC-DU-043's first-host result. The exact metastable generator selects a
     write/retention architecture and value orbit up to Z2, but equal-initial/equal-endpoint
     histories can differ on whether a write occurred; redundant endpoint values do not repair
-    provenance. Use ECR-N5-S3 as the sole next object: test whether the same
-    matter--environment dynamics selects and forms a retained epoch/write witness, with
-    redundant records of consistent histories as the strongest absorber.
+    provenance. Consume HC-DU-044's epoch-archive boundary: the minimum binary occurrence
+    transducer is unique, its exact set/reset maps cannot run reversibly on one closed carrier,
+    and a fresh-output completion can form history only with charged support, retention and
+    epoch structure not selected by the matter host. Use ECR-N5-S4 as the sole next object:
+    test completion-invariant transfer and localize the first capability leak.
     Consume HC-DU-035D's layered
     boundary: public centers remain autonomous through composition exactly when every complete
     selective future map pulls the next public center into the current center. Use the first
@@ -550,6 +568,8 @@ lanes:
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
+  - explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
+  - tests/du_epoch_archive_boundary_probe.py
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -655,9 +675,11 @@ lanes:
     held-out transfer. HC-DU-042 returns NO_READY_ARENA across five mechanism chains.
     HC-DU-043 then selects the metastable write/retention architecture up to Z2 while proving
     that endpoint value, even redundantly copied, does not retain write-occurrence provenance.
-    Advance only ECR-N5-S3: derive the epoch/history witness from the same complete
-    matter--environment dynamics or return SUPPLIED_EPOCH_ARCHIVE /
-    HISTORY_RECORD_NOT_SELECTED. Do not begin later mechanism-specific cards independently.
+    HC-DU-044 returns SUPPLIED_EPOCH_ARCHIVE for that host while conditionally forming a full
+    history in a specified fresh-output completion. Its binary epoch quotient is strict only
+    relative to the supplied epoch and bounded occurrence capability, and leaks first to
+    count/time/output-field access. Advance only ECR-N5-S4 on completion-invariant transfer.
+    Do not begin later mechanism-specific cards independently.
     Treat a regional algebra center or
     unmaterialized edge mode as a boundary convention, not a formed record. HC-DU-039C adds
     that one formed phase readout may still leave a
@@ -706,6 +728,8 @@ lanes:
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
+  - explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
+  - tests/du_epoch_archive_boundary_probe.py
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -975,10 +999,12 @@ lanes:
     compared the five candidate mechanism chains and returns NO_READY_ARENA: their shared missing
     object is the selected physical write, not another stable quotient. HC-DU-043 now proves
     that the first host can select its write/retention architecture but not occurrence
-    provenance from endpoint value. Do not identify the physical systems, repeat code variants,
-    or call the logical quotient an irreducible ontology result; the code/check/action structure
-    is supplied. Advance only ECR-N5-S3 on the matter--environment provenance-lift and
-    formation-descent boundary; later cards must consume its receipt.
+    provenance from endpoint value. HC-DU-044 sharpens the repair: internal turnover reset adds
+    no provenance, exact repeated set/reset requires exported or fresh support, and full history
+    forms only in a specified history-retaining completion. Do not identify the physical
+    systems, repeat code variants, or call the logical quotient an irreducible ontology result;
+    the completion/epoch/action structure is supplied. Advance only ECR-N5-S4 on
+    completion-invariant transfer and the first capability leak.
     Advance a topological phase only if the next proposition is endogenous selection beyond a
     supplied commuting-projector code, otherwise return to another physical arena. Do not escalate the
     gauge instrument to continuum or simulation unless a new locality/selection statement
@@ -1104,9 +1130,10 @@ lanes:
     reconstructions and capability-relative remainders are exact, while endogenous compressive
     reconstruction and a representation-robust physical remainder remain open. HC-DU-042 adds
     the exact write-selector gap and NO_READY_ARENA disposition; HC-DU-043 selects the
-    metastable write/retention architecture while proving an endpoint-provenance obstruction,
-    without creating a paper seed or priority change. Advance H-CCR-17 only through
-    ECR-N5-S3, the bounded matter--environment provenance-lift and formation-descent test.
+    metastable write/retention architecture while proving an endpoint-provenance obstruction.
+    HC-DU-044 adds the exact reversible epoch-archive boundary and a conditional formed-output
+    control without creating a paper seed or priority change. Advance H-CCR-17 only through
+    ECR-N5-S4, the completion-invariant transfer and first-capability-leak test.
   success_signal: >-
     A submission-ready scoped theorem, no-go, reconstruction, experimental discriminator or
     coherent-picture paper with exact grade, prior-art separation and reproducible evidence.
@@ -1152,10 +1179,11 @@ lanes:
     Keep the ratified charter, dependency lanes, work channels, active bottleneck and cold-start
     entrypoints consistent without rewriting dated receipts or promoting their grades. Preserve
     the completed CCR-N5 campaign as a closed dependency receipt. CCR-N5-S1 through S5 are
-    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5-S1 as completed
-    HC-DU-042 and ECR-N5-S2 as completed HC-DU-043. The latter selects the metastable
-    write/retention architecture up to Z2 while localizing the remaining gap to a retained
-    occurrence/epoch witness. Only ECR-N5-S3 is next executable; S4 and S5 remain conditional.
+    complete as HC-DU-033F/G/H, HC-DU-035E and HC-DU-041. Preserve ECR-N5-S1/S2/S3 as
+    completed HC-DU-042/043/044. The first host selects its write/retention architecture up to
+    Z2, but its endpoint omits occurrence provenance and its minimum epoch repair requires
+    completion, support and boundary structure the host does not select. Only ECR-N5-S4 is next
+    executable; S5 remains conditional.
   success_signal: >-
     An incoming agent can identify purpose, North Star, evidence boundary, bottleneck, lane,
     channel, grade and canonical output without conversational context or a full archive read.
@@ -1174,6 +1202,8 @@ lanes:
   - explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md
   - explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md
   - explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
+  - explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md
+  - tests/du_epoch_archive_boundary_probe.py
   - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
   - explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md
   - explorations/localized-aqft-source-probe-pointer-archive-selection-ladder-2026-07-26.md
@@ -5038,6 +5068,24 @@ provenance:
     microscopic matter derivation, complete endogenous record, actualization, ontology, new law,
     new physics, prediction, paper, Factory state, model, simulation, hardware, provider action,
     submission, publication or external contact.
+  rev76_note: >-
+    2026-07-27 (Joe direct chat: Go, after reporting PyYAML installed): completed HC-DU-044 as
+    the ECR-N5-S3 matter--environment provenance lift. The bounded proposition "a write occurred
+    since a certified epoch reset" has one minimum two-state deterministic transducer once event
+    semantics are frozen. Exhaustion of all 256 binary transducers finds exactly one; exhaustion
+    of all 16 reversible bit-transition assignments finds none. Generally, exact set/reset maps
+    cannot run on one closed reversible carrier because they are many-to-one. The host's
+    internal turnover reset reproduces only its terminal ready/retained class. A source-labelled
+    fresh-output dilation conditionally forms the full event history and admits a strict binary
+    occurrence quotient for a frozen bounded capability, but it charges fresh/exported support,
+    retention, completion and epoch structure not selected by the reduced matter host. The host
+    therefore returns SUPPLIED_EPOCH_ARCHIVE. Only ECR-N5-S4, completion-invariant transfer and
+    first capability leak, is next executable. This is scoped grade-4
+    uniqueness/necessity/conditional formation from known automata, reversible-computation,
+    dilation, trajectory, redundant-history and sufficiency mathematics, not a microscopic
+    environment derivation, universal cost law, endogenous archive, actualization, ontology,
+    new physics, prediction, paper, Factory state, hardware, provider action, submission,
+    publication or external contact.
 extensions:
   operating_architecture:
     contract_version: "1.0"

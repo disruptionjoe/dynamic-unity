@@ -2205,6 +2205,74 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   and
   `inverse-chirality-three-generation-retrodiction-swing-2026-07-25.md`.
 
+## CONCEPT-DU-013 — physical epoch archives and implementation support
+
+- **Concept (articulation-invariant).** A bounded history proposition may
+  have a minimal finite sufficient statistic while its repeated physical
+  formation requires a larger support ledger. The path fact, retained full
+  history, compressed archive, physical epoch boundary, and observer access
+  route remain separately typed. A one-bit logical answer does not imply a
+  one-bit closed reversible implementation.
+- **Concept INVARIANT.**
+  1. Event occurrence is not credited as a present record without a retained
+     physical subsystem or output algebra carrying the distinction.
+  2. A reset counts as endogenous only if the claimed antecedent selects and
+     physically realizes its boundary; tying reset to an existing state
+     transition may merely duplicate terminal state.
+  3. Exact many-to-one archive updates must preserve/export overwritten
+     information, consume fresh support, restrict inputs/horizon, or weaken
+     exactness.
+  4. A full history record and its strict quotient receive separate
+     formation, sufficiency, access, and resource receipts.
+  5. Autonomy is capability-indexed; capability growth may reveal the first
+     count, order, timing, or environment-output leak.
+  6. Coordinate/isometric changes of one complete process remain
+     representation; physically different completion, retention, fragment,
+     or access structures remain distinct.
+- **Formalization FAMILY.**
+  1. deterministic set/retain/reset automata and Myhill--Nerode minimality;
+  2. reversible dilations with retained input/history or exported garbage;
+  3. collision models and input--output fields with fresh environment modes;
+  4. redundant environment records of histories;
+  5. event counters, conserved currents, reset receipts, and metastable
+     latches;
+  6. bounded sufficient statistics and their first capability leak; and
+  7. hostile completion twins at fixed reduced matter law.
+- **2026-07-27 exact first host.** `HC-DU-044` proves that the minimum binary
+  “write since epoch” transducer is unique after event semantics are frozen,
+  while no reversible two-state assignment implements its exact set/reset
+  maps. The general surjectivity proof extends the obstruction to any closed
+  reversible carrier with both logical sectors. On the `HC-DU-043`
+  metastable cycle, reset on internal turnover exactly reproduces the
+  ready/retained terminal class. A source-labelled fresh-output completion
+  conditionally forms the full event history; its binary quotient is strict
+  for the bounded occurrence capability and leaks to count/time/output-field
+  access. The matter host does not select the completion, support,
+  retention, epoch, fragment, or latch, so the disposition is
+  `SUPPLIED_EPOCH_ARCHIVE`.
+- **Controls and global kill.**
+  - An unobserved Markov or quantum trajectory is not a retained archive.
+  - A prewritten random oracle correlated with a path is disclosure, not a
+    newly formed write receipt.
+  - A reversible parity toggle cannot stand in for idempotent occurrence.
+  - A full output tape does not count as strict compression.
+  - A quotient chosen to answer its own defining query earns ordinary
+    sufficiency, not broad physical reconstruction.
+  - If no physically admissible completion-invariant record or
+    capability consequence survives, the endogenous-archive articulation is
+    falsified for that host, not promoted into ontology.
+- **Nearest terrain.** Automata minimization, reversible computation,
+  Landauer accounting, Stinespring/input--output dilation, quantum
+  trajectories, redundant consistent-history records, and sufficient
+  statistics absorb the component mathematics. Potential DU value lies in
+  the unchanged typed formation/selection/completion-invariance contract.
+- **Status:** **CONCEPT-OPEN / EXACT MINIMUM TRANSDUCER AND
+  REVERSIBLE-ARCHIVE BOUNDARY INSTALLED / CONDITIONAL FRESH-OUTPUT HISTORY
+  FORMATION INSTALLED / METASTABLE HOST RETURNS SUPPLIED_EPOCH_ARCHIVE /
+  COMPLETION-INVARIANT TRANSFER OPEN / NO UNIVERSAL COST, ACTUALIZATION,
+  ONTOLOGY, NEW PHYSICS, PREDICTION, OR PAPER PROMOTION.** See
+  `matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md`.
+
 ## Boundary
 Discovery / Lane-2 instrument. Concepts are *held*, not banked; formalizations are tested; only
 invariant-level falsification closes a concept. This prevents losing an idea to a single articulation.

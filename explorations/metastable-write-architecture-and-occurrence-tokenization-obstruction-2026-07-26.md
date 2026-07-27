@@ -722,3 +722,16 @@ That is why the next work is not another stability calculation and not more
 redundant copies. It is to determine whether matter and environment jointly
 form a history-bearing epoch witness without that witness being supplied as
 the very detector Dynamic Unity is trying to derive.
+
+## Successor receipt — 2026-07-27
+
+`ECR-N5-S3` is complete as
+[`HC-DU-044`](matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md).
+The minimum binary epoch transducer is unique, but exact repeated set/reset
+cannot run reversibly on one closed carrier. Reset on this host's own
+turnover edge reproduces only the terminal ready/retained class. A specified
+fresh-output completion can physically retain the full history and supports
+a strict bounded-occurrence quotient, but the host does not select its
+completion, support, retention, epoch, fragment, or latch. The disposition
+is `SUPPLIED_EPOCH_ARCHIVE`; `ECR-N5-S4` now tests completion-invariant
+transfer and the first capability leak.

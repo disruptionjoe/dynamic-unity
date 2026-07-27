@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: endogenous compression to held-out physics"
-status: swings_1_2_complete__swing_3_retyped_next
+status: swings_1_2_3_complete__swing_4_retyped_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: do another scaffolding and approach assessment for the next five big swings"
@@ -51,9 +51,18 @@ that endpoint value does not retain write-occurrence provenance: a
 same-initial/same-endpoint path pair differs on whether a write occurred, and
 arbitrarily many endpoint copies preserve the obstruction.
 
-`ECR-N5-S3` is now the sole next executable object, retyped as the
-matter--environment provenance-lift and formation-descent test. `ECR-N5-S4`
-and `ECR-N5-S5` remain conditional branch contracts, not active runs.
+`ECR-N5-S3` is now complete as `HC-DU-044`. The minimum binary occurrence
+transducer is unique, but its exact set/reset maps cannot run reversibly on
+one closed carrier. Resetting on the host's own turnover edge reproduces
+only its terminal ready/retained value. A specified fresh-output completion
+can physically retain the full history and supports a strict binary quotient
+for a bounded occurrence capability, but the matter host does not select the
+completion, fresh support, output fragment, retention, epoch, or latch. Its
+disposition is `SUPPLIED_EPOCH_ARCHIVE`.
+
+`ECR-N5-S4` is now the sole next executable object, retyped as the
+completion-invariant transfer and first-capability-leak test.
+`ECR-N5-S5` remains conditional.
 
 The campaign question is:
 
@@ -458,47 +467,68 @@ not universal finality or ontology.
 exact fibre, spectral boundary, or counterexample before hardware. Parameter
 sweeps without a proof boundary are excluded.
 
-### `ECR-N5-S4` — Held-Out Transfer and Capability-Growth Assay
+**Receipt.** Completed as
+[`HC-DU-044`](matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md).
+The two-state set/retain/reset transducer is the unique exact minimum for the
+bounded epoch question, but its set/reset maps are noninjective and cannot
+run on one closed reversible carrier. The selected internal turnover reset
+collapses to the already-known terminal ready/retained class. A
+source-labelled fresh-output completion forms the full event history and
+admits a strict binary quotient for the bounded occurrence capability, but
+its support, retention, epoch and access structure are additional physical
+antecedents. Disposition: `SUPPLIED_EPOCH_ARCHIVE`.
 
-**Decision uncertainty.** Does the formed strict quotient reconstruct
-independently held-out physics without refit, and exactly where does the
-claim break when capability grows?
+### `ECR-N5-S4` — Completion-Invariant Transfer and First Capability Leak
 
-**Inherited input.** The strongest honestly formed quotient or exact adverse
-receipt from Swing 3.
+**Decision uncertainty.** Does any nontrivial record/target factorization
+survive across physically admissible complete environment realizations of
+the same matter law, or is every success conditional on the supplied
+history-retaining completion?
+
+**Inherited input.** `HC-DU-044`: a conditionally formed full output history,
+its strict binary occurrence quotient, the exact fresh/exported-support
+debt, the disposition `SUPPLIED_EPOCH_ARCHIVE`, and the first known leak to
+count/time/output-field access.
 
 **Method.**
 
-1. Predeclare at least two target families—preferably one time/geometry/field
-   target and one action/capability target.
-2. Freeze calibration sources, held-out sources, interventions, nuisance
-   variables, decoder, error tolerance, and resource budget before testing.
-3. Report lawful target diameter before record conditioning.
-4. Test \(\ker r\subseteq\ker t_j\) on the held-out split with no refit.
-5. Test \(\ker r\subseteq\ker\beta_H\) separately.
-6. Enlarge capability once, \(H\subset H'\), and either prove continued
-   factorization or localize the first same-record separating action.
-7. Run law-only, hidden-environment, target-coded, representation, and
-   ordinary-sufficient-statistic twins.
+1. Freeze a history-retaining fresh-output completion, output fragment,
+   retention horizon, epoch reset, binary quotient, decoder, resource
+   ledger, and \(H_{\mathrm{occ}}\subset H'\).
+2. Freeze at least one held-out target independently of the record decoder.
+3. Construct a physical hostile completion twin with the same reduced matter
+   law and matter interventions but no retained history in the admitted
+   fragment, a different temporal factorization, or scrambling outside the
+   action envelope.
+4. Keep coordinate/isometric rewritings of one complete process in the
+   representation group; the hostile twin must differ physically in access,
+   support, retention, or completion.
+5. Test \(\ker r\subseteq\ker t\) and
+   \(\ker r\subseteq\ker\beta_H\) with no refit in both arms.
+6. Enlarge capability once and localize the first count/time/output-field
+   leak.
+7. Return the strongest invariant common record, or prove that sufficiency is
+   completion- or access-relative.
 
 **Strongest absorbers.** Blackwell/quantum sufficiency, process tensors,
+Stinespring/complementary-channel equivalence, quantum trajectories,
 inverse problems, effective field theory, QEC, and full-environment
 completion.
 
 **Cheapest positive.** One frozen noninjective record decoder transfers to a
-held-out physical target and one capability class, with a preregistered
-finite boundary under \(H'\).
+held-out target and \(H_{\mathrm{occ}}\) in both complete arms, with a
+preregistered finite boundary under \(H'\).
 
-**Cheapest kill.** One lawful same-record pair changes the held-out target at
-fixed \(H\), or success disappears after a legitimate nuisance,
-environment, or resource completion.
+**Cheapest kill.** Success disappears when the history archive is removed,
+scrambled outside the admitted access envelope, or replaced by a physically
+admissible completion at fixed reduced matter law.
 
-**Adverse branch.** Return a finite target-specific obstruction, an
-operational-duality-only result, or a proof that the record's sufficient
-target class is narrower than claimed.
+**Adverse branch.** Return `COMPLETION-RELATIVE SUFFICIENCY`,
+`ACCESS-RELATIVE SUFFICIENCY`, `FIRST CAPABILITY LEAK`, or
+`NO ENDOGENOUS ARCHIVE`.
 
 **Durable output.** A no-refit transfer certificate plus first-leak witness,
-or the smallest exact same-record/different-target counterexample.
+or the smallest exact two-completion counterexample.
 
 **Maximum grade.** Scoped reconstruction, operational duality, or
 capability-relative remainder in the declared physical class.
@@ -654,15 +684,28 @@ distinction plus a certified reset boundary. This is a distinguishability
 lower bound, not an energy claim. Exact unbounded occurrence identity still
 requires growing support, a bounded horizon, or weakened semantics.
 
-`ECR-N5-S3` is now the sole next executable object. It must compare
-endpoint-value broadcasting, environment fragments that retain the write
-edge, and the minimum epoch witness under one unchanged target-independent
-matter--environment process. Redundant records of consistent histories are
-the strongest absorber. A positive branch must show that the same dynamics selects and
-forms value, epoch provenance, persistence and reset over the declared
-perturbation class. Otherwise return `SUPPLIED_EPOCH_ARCHIVE` or
-`HISTORY_RECORD_NOT_SELECTED`. It may not add a hand-selected detector after
-seeing the held-out target.
+`ECR-N5-S3` is complete as
+[`HC-DU-044`](matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md).
+It returns:
+
+```text
+MINIMAL BINARY EPOCH TRANSDUCER UNIQUE
+CLOSED BOUNDED REVERSIBLE LATCH OBSTRUCTED
+FRESH-OUTPUT HISTORY FORMATION CONDITIONAL
+SUPPLIED_EPOCH_ARCHIVE
+```
+
+The exact logical statistic needs one bit, but repeated reversible formation
+must preserve or export the overwritten history. The host's internal reset
+adds no provenance. A fresh-output completion forms the history only after
+charging the environment factorization, output support, retention, epoch and
+access structure. The binary quotient is autonomous for the frozen
+occurrence capability and leaks first to count/time/output-field access.
+
+`ECR-N5-S4` is now the sole next executable object. It must hold the reduced
+matter law fixed, compare a history-retaining completion against a physical
+hostile completion twin, and determine whether any no-refit target or
+capability factorization survives the declared completion equivalence.
 
 ## 10. Campaign claim ceiling
 

@@ -1,0 +1,458 @@
+{
+  "archive_access_completion_twins": {
+    "admitted_archive_differs": true,
+    "hidden_arm_admitted_archive_cardinality": 1,
+    "hidden_completion_injective": true,
+    "interpretation": "fixed reduced matter dynamics does not select whether the branch token enters the admitted archive or a hidden reservoir",
+    "same_reduced_matter_branch_map": true,
+    "visible_arm_admitted_archive_cardinality": 8,
+    "visible_completion_injective": true
+  },
+  "binary_transducer": {
+    "deterministic_candidates": 256,
+    "semantic_matches": 1,
+    "semantics": {
+      "C": "retain_for_external_epoch_question",
+      "E": "clear_at_certified_epoch_reset",
+      "I": "retain",
+      "W": "set_true"
+    },
+    "symbols": [
+      "I",
+      "C",
+      "W",
+      "E"
+    ],
+    "unique": true,
+    "unique_match": {
+      "C": [
+        0,
+        1
+      ],
+      "E": [
+        0,
+        0
+      ],
+      "I": [
+        0,
+        1
+      ],
+      "W": [
+        1,
+        1
+      ]
+    }
+  },
+  "claim": "HC-DU-044",
+  "closed_reversible_carrier": {
+    "epoch_reset_map_is_bijective": false,
+    "exact_implementation_exists": false,
+    "parity_counterexample": {
+      "parity_output": 0,
+      "required_epoch_output": 1,
+      "word": "CWCW"
+    },
+    "semantic_matches": 0,
+    "two_state_candidates": 16,
+    "write_map_is_bijective": false
+  },
+  "external_epoch": {
+    "requires_certified_initialization": true,
+    "same_endpoint_occurrence_pair": {
+      "initial_state": "x1",
+      "left_epoch_flag": 0,
+      "left_word": "",
+      "right_epoch_flag": 1,
+      "right_word": "CWCW",
+      "separated": true,
+      "terminal_state": "x1"
+    }
+  },
+  "fresh_output_completion": {
+    "branch_map_injective": true,
+    "history_tapes": {
+      "": [],
+      "C": [
+        "C"
+      ],
+      "CW": [
+        "C",
+        "W"
+      ],
+      "CWC": [
+        "C",
+        "W",
+        "C"
+      ],
+      "CWCW": [
+        "C",
+        "W",
+        "C",
+        "W"
+      ],
+      "CWCWC": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C"
+      ],
+      "CWCWCW": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W"
+      ],
+      "CWCWCWC": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C"
+      ],
+      "CWCWCWCW": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W"
+      ],
+      "CWCWCWCWC": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C"
+      ],
+      "CWCWCWCWCW": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W"
+      ],
+      "CWCWCWCWCWC": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C"
+      ],
+      "CWCWCWCWCWCW": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W"
+      ],
+      "CWCWCWCWCWCWC": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C"
+      ],
+      "CWCWCWCWCWCWCW": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W"
+      ],
+      "CWCWCWCWCWCWCWC": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C"
+      ],
+      "CWCWCWCWCWCWCWCW": [
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W",
+        "C",
+        "W"
+      ]
+    },
+    "single_step_branch_map": [
+      {
+        "input": [
+          "x0",
+          "no_jump"
+        ],
+        "output": [
+          "x0",
+          "N:x0"
+        ]
+      },
+      {
+        "input": [
+          "x0",
+          "jump"
+        ],
+        "output": [
+          "x1",
+          "J:x0>x1"
+        ]
+      },
+      {
+        "input": [
+          "x1",
+          "no_jump"
+        ],
+        "output": [
+          "x1",
+          "N:x1"
+        ]
+      },
+      {
+        "input": [
+          "x1",
+          "jump"
+        ],
+        "output": [
+          "x2",
+          "J:x1>x2"
+        ]
+      },
+      {
+        "input": [
+          "x2",
+          "no_jump"
+        ],
+        "output": [
+          "x2",
+          "N:x2"
+        ]
+      },
+      {
+        "input": [
+          "x2",
+          "jump"
+        ],
+        "output": [
+          "x3",
+          "J:x2>x3"
+        ]
+      },
+      {
+        "input": [
+          "x3",
+          "no_jump"
+        ],
+        "output": [
+          "x3",
+          "N:x3"
+        ]
+      },
+      {
+        "input": [
+          "x3",
+          "jump"
+        ],
+        "output": [
+          "x0",
+          "J:x3>x0"
+        ]
+      }
+    ],
+    "support_cost": "one fresh output cell per resolved step/branch",
+    "therefore_extensible_to_reversible_completion": true
+  },
+  "internal_turnover_reset": {
+    "always_equals_endpoint_ready_retained_class": true,
+    "checks": [
+      {
+        "endpoint": "x1",
+        "endpoint_retained_flag": 1,
+        "equal": true,
+        "internal_turnover_flag": 1,
+        "word": ""
+      },
+      {
+        "endpoint": "x2",
+        "endpoint_retained_flag": 0,
+        "equal": true,
+        "internal_turnover_flag": 0,
+        "word": "C"
+      },
+      {
+        "endpoint": "x3",
+        "endpoint_retained_flag": 1,
+        "equal": true,
+        "internal_turnover_flag": 1,
+        "word": "CW"
+      },
+      {
+        "endpoint": "x0",
+        "endpoint_retained_flag": 0,
+        "equal": true,
+        "internal_turnover_flag": 0,
+        "word": "CWC"
+      },
+      {
+        "endpoint": "x1",
+        "endpoint_retained_flag": 1,
+        "equal": true,
+        "internal_turnover_flag": 1,
+        "word": "CWCW"
+      },
+      {
+        "endpoint": "x2",
+        "endpoint_retained_flag": 0,
+        "equal": true,
+        "internal_turnover_flag": 0,
+        "word": "CWCWC"
+      },
+      {
+        "endpoint": "x3",
+        "endpoint_retained_flag": 1,
+        "equal": true,
+        "internal_turnover_flag": 1,
+        "word": "CWCWCW"
+      },
+      {
+        "endpoint": "x0",
+        "endpoint_retained_flag": 0,
+        "equal": true,
+        "internal_turnover_flag": 0,
+        "word": "CWCWCWC"
+      },
+      {
+        "endpoint": "x1",
+        "endpoint_retained_flag": 1,
+        "equal": true,
+        "internal_turnover_flag": 1,
+        "word": "CWCWCWCW"
+      },
+      {
+        "endpoint": "x2",
+        "endpoint_retained_flag": 0,
+        "equal": true,
+        "internal_turnover_flag": 0,
+        "word": "CWCWCWCWC"
+      },
+      {
+        "endpoint": "x3",
+        "endpoint_retained_flag": 1,
+        "equal": true,
+        "internal_turnover_flag": 1,
+        "word": "CWCWCWCWCW"
+      },
+      {
+        "endpoint": "x0",
+        "endpoint_retained_flag": 0,
+        "equal": true,
+        "internal_turnover_flag": 0,
+        "word": "CWCWCWCWCWC"
+      },
+      {
+        "endpoint": "x1",
+        "endpoint_retained_flag": 1,
+        "equal": true,
+        "internal_turnover_flag": 1,
+        "word": "CWCWCWCWCWCW"
+      }
+    ],
+    "interpretation": "resetting on the host turnover edge reproduces the already-selected ready/retained value"
+  },
+  "method": "exact_finite_exhaustion_and_injectivity_checks",
+  "nonclaims": [
+    "no microscopic matter-environment derivation",
+    "no unique unravelling or output-field factorization",
+    "no universal thermodynamic cost",
+    "no public finality or record ontology",
+    "no new-physics prediction",
+    "no hardware result"
+  ],
+  "schema_version": "1.0",
+  "strict_compression": {
+    "autonomous_for_H": "future updates and the bounded query 'has any W occurred since E?'",
+    "noninjective": true,
+    "not_sufficient_for_H_prime": "write count, order, timing, or full output-field access",
+    "pair": {
+      "left_word": "CW",
+      "left_write_count": 1,
+      "right_word": "CWCWCW",
+      "right_write_count": 3,
+      "shared_endpoint": "x3",
+      "shared_epoch_flag": 1
+    }
+  },
+  "swing": "ECR-N5-S3",
+  "verdict": {
+    "bounded_closed_reversible_latch_obstructed": true,
+    "disposition": "SUPPLIED_EPOCH_ARCHIVE",
+    "fresh_output_history_can_form": true,
+    "host_internal_reset_adds_provenance": false,
+    "metastable_host_selects_output_archive": false,
+    "minimal_epoch_transducer_unique": true
+  }
+}

@@ -250,11 +250,18 @@ current results establish the starting boundary, not the answer:
   equal-endpoint histories can differ on whether a write occurred, and
   arbitrarily many copies of the endpoint value preserve that provenance
   failure. The minimum bounded repair is a physically retained epoch/reset
-  witness, not more value redundancy. `ECR-N5-S3`, the matter--environment
-  provenance-lift and formation-descent test, is now the sole next executable
-  object
+  witness, not more value redundancy. `HC-DU-044` has now tested that repair.
+  The minimum binary epoch transducer is unique, but exact set/reset cannot
+  run reversibly on one closed carrier. The host's own turnover reset adds no
+  provenance. A specified fresh-output completion can physically retain the
+  full history and supports a strict binary quotient for the bounded
+  occurrence capability, but its support, retention, epoch, and access
+  structure are additional physical antecedents. The host therefore returns
+  `SUPPLIED_EPOCH_ARCHIVE`. `ECR-N5-S4`, completion-invariant transfer and
+  first capability leak, is now the sole next executable object
   ([tournament result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction result](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
+  [epoch-archive result](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
   [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - Geometric Unity, the tachyon-transducer, the source action, recursive viability, and
   `Lambda~1/sqrt(N)` remain preserved at their existing grades as antecedents, rivals,

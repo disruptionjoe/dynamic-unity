@@ -1371,11 +1371,69 @@ factorization mathematics. It is not a microscopic matter derivation,
 complete endogenous record, actualization rule, ontology, new physics,
 prediction, or paper result.
 
-`ECR-N5-S3` is now the sole next executable object: hold one complete
-matter--environment process fixed and test whether it selects and forms the
-epoch/write witness, or return `SUPPLIED_EPOCH_ARCHIVE` /
-`HISTORY_RECORD_NOT_SELECTED`. See
+`ECR-N5-S3` has now consumed this result as `HC-DU-044`. See
 `../explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md`.
+
+### `HC-DU-044` — Epoch-Archive Boundary and Conditional History Formation
+
+For the bounded proposition
+
+\[
+b(\omega)
+=
+\mathbf 1\{\text{at least one write occurred since the certified epoch reset}\},
+\]
+
+the two logical states “not yet” and “yes” are necessary and sufficient.
+Once idle, turnover, write, and epoch-reset semantics are frozen, the
+set/retain/reset transition table is unique. Exact exhaustion finds one
+solution among all \(4^4=256\) binary deterministic transducers.
+
+The write and reset maps are many-to-one. If a closed carrier update is
+reversible, its image is the whole carrier space; it cannot map every
+admitted state into only the logical-one sector or only the logical-zero
+sector. No assignment of reversible bit maps satisfies the contract.
+Repeated exact implementation therefore requires restricted inputs,
+exported information, fresh support, bounded semantics, or approximation.
+
+Resetting the flag on the host's own slow turnover edge does not provide the
+missing provenance. On every allowed path it is exactly:
+
+\[
+b_t=\mathbf 1\{X_t\text{ is in the retained class}\},
+\]
+
+so it duplicates the terminal value.
+
+A source-labelled fresh-output dilation supplies the conditional positive.
+Orthogonal environment cells retain each resolved matter branch, forming a
+full event history over the declared horizon. The binary occurrence flag is
+then a strict autonomous quotient for the narrow occurrence capability, but
+it first leaks under write-count, event-time, order, or output-field access.
+An exact twin sends the same branch token either to the admitted archive or
+to a hidden reservoir. Both complete branch maps are injective and have the
+same reduced matter map, so the host does not select archive access.
+
+The reduced matter host does not select the dilation, fresh-cell
+factorization, output fragment, retention, epoch reset, access route, or
+material latch. Its disposition is:
+
+```text
+SUPPLIED_EPOCH_ARCHIVE
+```
+
+This is scoped grade-4 uniqueness/necessity/conditional formation from
+known automata, reversible-computation, dilation, trajectory,
+redundant-history, and sufficient-statistic mathematics. It is not a
+microscopic environment derivation, completion-invariant archive selector,
+universal cost law, actualization rule, ontology, new physics, prediction,
+or paper result.
+
+`ECR-N5-S4` is now the sole next executable object: compare the
+history-retaining completion with a physical hostile completion twin at
+fixed reduced matter law, test no-refit transfer, and localize the first
+capability leak. See
+`../explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -2814,13 +2872,22 @@ generator selects its write/retention architecture and value orbit up to
 \(\mathbb Z/2\), but endpoint value does not retain occurrence provenance,
 and redundant value copies preserve the obstruction. The minimum bounded
 repair is a physically retained epoch/reset witness.
+`HC-DU-044` now sharpens that repair. Its minimum binary transducer is
+unique, but exact repeated set/reset cannot run reversibly on one closed
+carrier. The host's internal turnover reset reproduces only the terminal
+ready/retained class. A specified fresh-output completion conditionally
+forms the full history and a strict bounded-capability quotient, but charges
+support, retention, epoch and access structure not selected by the matter
+host. The host therefore returns `SUPPLIED_EPOCH_ARCHIVE`.
 The
 [endogenous-compressive-record campaign](../explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)
-now concentrates on whether one unchanged matter--environment interaction
-selects and forms that history-bearing witness. Redundant records of
-consistent histories are the strongest absorber. `ECR-N5-S3` is the sole
-next executable object; S4 and S5 remain dependency contracts, not active
-parallel bets.
+now concentrates on whether any no-refit record/target factorization survives
+across a history-retaining completion and a physically hostile completion
+twin at fixed reduced matter law. Redundant records of consistent histories,
+quantum trajectories, Stinespring/complementary-channel equivalence, and
+sufficiency theory are the strongest absorbers. `ECR-N5-S4` is the sole next
+executable object; S5 remains a dependency contract, not an active parallel
+bet.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -3481,7 +3548,13 @@ ENDPOINT VALUE DOES NOT RETAIN WRITE-OCCURRENCE PROVENANCE
 REDUNDANT ENDPOINT COPIES PRESERVE THE PROVENANCE OBSTRUCTION
 BOUNDED EXACT REPAIR REQUIRES A PHYSICALLY RETAINED EPOCH/RESET WITNESS
 REDUNDANT RECORDS OF CONSISTENT HISTORIES ARE THE STRONGEST POSITIVE ABSORBER
-ECR-N5-S3 MATTER--ENVIRONMENT PROVENANCE-LIFT AND FORMATION-DESCENT TEST NEXT
+HC-DU-044 MINIMUM BINARY EPOCH TRANSDUCER UNIQUE
+CLOSED BOUNDED REVERSIBLE SET/RESET LATCH OBSTRUCTED
+INTERNAL TURNOVER RESET DUPLICATES THE TERMINAL READY/RETAINED CLASS
+FRESH-OUTPUT COMPLETION CONDITIONALLY FORMS THE FULL EVENT HISTORY
+STRICT BINARY OCCURRENCE QUOTIENT LEAKS TO COUNT/TIME/OUTPUT-FIELD ACCESS
+METASTABLE HOST RETURNS SUPPLIED_EPOCH_ARCHIVE
+ECR-N5-S4 COMPLETION-INVARIANT TRANSFER AND FIRST-CAPABILITY-LEAK TEST NEXT
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

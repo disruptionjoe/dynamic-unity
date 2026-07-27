@@ -364,10 +364,16 @@ What *has* been earned is a strong finite control stack:
   equal-initial/equal-endpoint path pair proves that endpoint value does not
   retain write-occurrence provenance. Redundant copies preserve the failure;
   a bounded exact repair needs a physically retained epoch/reset witness.
-  `ECR-N5-S3`, the matter--environment provenance-lift and
-  formation-descent test, is now the sole next executable object
+  `HC-DU-044` now proves that the minimum binary epoch transducer is unique
+  while exact set/reset is impossible on one closed reversible carrier.
+  Internal turnover reset duplicates the terminal ready/retained class. A
+  specified fresh-output completion can form the full history, but the host
+  does not select its support, retention, epoch, fragment, or latch; the
+  disposition is `SUPPLIED_EPOCH_ARCHIVE`. `ECR-N5-S4`, completion-invariant
+  transfer and first capability leak, is now the sole next executable object
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
+  [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
   [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
@@ -746,10 +752,13 @@ protected sector, or redundant pattern. Matter-flow-coupled metastability is
 the first host and environment-selected records the mandatory absorber.
 `ECR-N5-S2` is complete as `HC-DU-043`. It selects the metastable
 write/retention architecture up to \(\mathbb Z/2\) but returns an exact
-endpoint occurrence-tokenization obstruction. `ECR-N5-S3` is now the sole
-next executable object: derive a retained epoch/history witness from the same
-matter--environment dynamics or return that the history archive is supplied.
-`ECR-N5-S4` and `ECR-N5-S5` remain conditional contracts.
+endpoint occurrence-tokenization obstruction. `ECR-N5-S3` is complete as
+`HC-DU-044`: a fresh-output completion can conditionally form the history,
+but its epoch archive and implementation support are not selected by the
+matter host. `ECR-N5-S4` is now the sole next executable object: test whether
+any no-refit record/target factorization survives a physically hostile
+completion twin, then localize the first capability leak. `ECR-N5-S5`
+remains conditional.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -873,10 +882,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-033G/H`: Einstein--matter selects flow and conditional synchronization before any generic record, while localized AQFT selects an induction/realizability family before any particular instrument or archive. Advance formed descent; do not repeat supplied detector, code, or fitted-probe variants. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044`: a fresh-output completion can form history, but one closed bit cannot reversibly implement exact repeated set/reset, internal turnover reset adds no provenance, and the matter host does not select the completion/epoch/archive. Test completion-invariant formation; do not repeat supplied detector, code, or fitted-probe variants. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, or FV realization is not an observer-access contract. Keep route, authentication, decoder, actions, resources, and horizon explicit; no completed ladder selects an actual outcome. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. Freeze the future action envelope; capability enlargement requires a new finality verdict. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Advance `H-CCR-17`: seek or obstruct an independently selected, formed, noninjective physical record that reconstructs a held-out observer target without refit. More supplied or injective sensor repairs are low value. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | Advance `H-CCR-17` through `ECR-N5-S4`: test no-refit target factorization across a history-retaining completion and a physical hostile completion twin, then localize the first capability leak. More supplied or injective sensor repairs are low value. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -914,9 +923,9 @@ channels; they are not lanes and do not create a second priority system.
    [endogenous-compressive-record tournament](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md)
    and its
    [campaign scaffold](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md).
-   `ECR-N5-S1` and `ECR-N5-S2` are complete as `HC-DU-042/043`; only
-   `ECR-N5-S3`, the matter--environment provenance-lift and
-   formation-descent test, is next executable.
+   `ECR-N5-S1`, `ECR-N5-S2`, and `ECR-N5-S3` are complete as
+   `HC-DU-042/043/044`; only `ECR-N5-S4`, completion-invariant transfer and
+   first capability leak, is next executable.
    Later swing cards are conditional and are not separately active.
 8. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
