@@ -1,6 +1,6 @@
 ---
 title: "Next five-swing campaign scaffold: physical selection to formed descent"
-status: swing_1_complete_swing_2_next
+status: swings_1_and_2_complete_swing_3_next
 doc_type: triple_diamond_campaign_scaffold
 created: 2026-07-26
 authority: "Joe direct chat: prepare and scaffold the next five swings using divergent personas"
@@ -12,7 +12,7 @@ run_plan: "../runs/2026-07-26-next-five-swing-campaign-scaffold.md"
 
 ## Campaign progress
 
-`CCR-N5-S1` is complete as `HC-DU-033F`.
+`CCR-N5-S1` and `CCR-N5-S2` are complete as `HC-DU-033F/G`.
 
 The result replaces a context-free selector search with an exact
 antecedent-relative contract. For complete realizations \(\omega\), claimed
@@ -32,9 +32,27 @@ complex.
 
 See
 [the executed selector theorem](antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md).
-`CCR-N5-S2` is now the next executable object. It must instantiate the
-unchanged passport across the law, realized-matter, clock/apparatus,
-formation/archive, and observer-access/resource antecedent ladder.
+
+The Einstein--matter ladder then located the first honest selector rungs:
+
+- a simple timelike stress-energy eigenline plus time orientation selects a
+  future unit matter flow at \(A_1\);
+- geodesic vorticity-free flow on suitable topology selects an orthogonal
+  proper-time scalar only up to an origin;
+- homogeneous FLRW selects cosmic-time structure but no observer token;
+- Gödel dust selects matter flow while vorticity obstructs orthogonal
+  synchronization;
+- homogeneous archive transport does not mint a write;
+- material clocks, write/archive structure, and observer access/resources
+  first close at \(A_2\), \(A_3\), and \(A_4\); and
+- the one-clock plural/two-clock greatest-record switch remains explicitly
+  resource-attributed.
+
+See
+[the executed Einstein--matter ladder](einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md).
+`CCR-N5-S3` is now the next executable object. It must apply the same
+passport unchanged to localized AQFT source--probe--pointer--archive
+measurement and preserve the S2 partial/adverse receipt.
 
 ## Executive result
 
@@ -87,9 +105,10 @@ The campaign's scientific objective is:
 > remain external and return the smallest finite remainder or selection
 > obstruction.
 
-The initial preparation executed no swing. The subsequent `CCR-N5-S1`
-execution earned only the scoped `HC-DU-033F` selector classification stated
-above; it promoted no paper and makes no integrated-theorem novelty claim.
+The initial preparation executed no swing. The subsequent `CCR-N5-S1/S2`
+executions earned only the scoped `HC-DU-033F/G` selector classifications
+stated above; they promoted no paper and make no integrated-theorem novelty
+claim.
 
 ## 1. Why this is not the previous campaign or the approach atlas
 
@@ -348,7 +367,15 @@ claim-by-claim collision matrix.
 
 **Prepared ID:** `CCR-N5-S2`
 
-**Execution status:** next executable campaign object.
+**Execution status:** completed as `HC-DU-033G`.
+
+**Receipt:** Matter can select a simple-eigenline flow and, conditionally, an
+orthogonal proper-time class. FLRW leaves the observer worldline in a
+symmetry orbit; Gödel vorticity blocks synchronization; \(u(R)=0\) transports
+but does not mint; causal reachability does not select access; clock,
+write/archive, and complete ARE fields first close at \(A_2,A_3,A_4\).
+See the
+[completed exploration](einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md).
 
 **Owning lanes/channels:** Lanes 3, 4, and 6;
 `CH-FORMAL`, `CH-SYN`, `CH-COLLIDE`.
@@ -439,6 +466,8 @@ law/interface/record/access receipt matrix.
 ## 8. Prepared Swing 3 — Localized AQFT Source--Probe--Pointer--Archive Selection
 
 **Prepared ID:** `CCR-N5-S3`
+
+**Execution status:** next executable campaign object.
 
 **Owning lanes/channels:** Lanes 3, 4, 5, and 6;
 `CH-FORMAL`, `CH-COLLIDE`, `CH-SYN`.
@@ -682,7 +711,7 @@ and the next program decision.
 
 ### One swing at a time
 
-`CCR-N5-S1` is complete. Only `CCR-N5-S2` is now executable. Before each
+`CCR-N5-S1/S2` are complete. Only `CCR-N5-S3` is now executable. Before each
 later swing:
 
 1. read the preceding receipt;

@@ -1087,9 +1087,28 @@ resolution-stable intervention role. No claim is banked or seeded. See
   than a physically formed joint record. The result transfers unchanged
   through the action-center, Minkowski, material gauge, Einstein--matter,
   stabilizer, and AQFT-factor controls. Component mathematics is known. The
-  next test is the Einstein--matter antecedent ladder, not a context-free
+  next test was the Einstein--matter antecedent ladder, not a context-free
   universal selector search. See
   `antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md`.
+- **Earned Einstein--matter clock-to-record selection ladder.**
+  `HC-DU-033G` applies the selector passport unchanged. A realized simple
+  timelike stress-energy eigenline plus time orientation selects a future
+  unit matter flow and unlabelled congruence at \(A_1\). Geodesic
+  vorticity-free flow on a suitable topology selects an orthogonal
+  proper-time scalar only up to an origin. Homogeneous FLRW selects that
+  clock geometry while spatial symmetry leaves the observer worldline in an
+  orbit. Gödel dust selects a matter flow with nonzero vorticity, so
+  orthogonal synchronization is obstructed. The equation \(u(R)=0\)
+  transports arbitrary supplied archive data and does not mint a write;
+  causal reachability does not select an authenticated route, decoder,
+  budget, or capability. Material clock/worldtube, write/archive, and
+  complete observer-access/resource/action fields first close at
+  \(A_2,A_3,A_4\), unless a richer source theory explicitly moves those
+  premises earlier. Brown--Kuchař dust is a positive added-material-reference
+  construction, not a generic stress-energy derivation of records. The prior
+  one-clock plural/two-clock greatest-envelope switch remains explicitly
+  resource-attributed. Component mathematics is known. See
+  `einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md`.
 - **Immediate tests.**
   1. `HC-DU-034B/036B/036C/036G/036H/039B`: take one independently calibrated physical process
      instrument as an explicit premise, retain its reference, route,
@@ -1111,20 +1130,18 @@ resolution-stable intervention role. No claim is banked or seeded. See
      accessible, approximately broadcastable, bounded-risk actionable fact.
      Stop if the result only intersects known statistical, secret-sharing,
      quorum, and quantum-access conditions.
-  3. Parent `HC-DU-033`: instantiate the `HC-DU-033F` antecedent ladder
-     rather than selecting one convenient interface. In Einstein--matter,
-     track every observer, clock, synchronization, write, archive, access,
-     decoder, action, and resource field from law through realized matter,
-     apparatus, formation, and access. Return the first rung at which each
-     field's selector fibre becomes a singleton; otherwise preserve the orbit,
-     plural family, trivial class, or empty target. Apply the stabilizer test
-     as one witness and the ARE compatibility complex before calling any
-     plural result a joint record.
-  4. `HC-DU-038`: extend the \(3+1\) Einstein--matter control only by making
-     the matter flow generate the candidate clock worldlines and access
-     routes. Keep nonzero law-only target diameter, freeze the admissibility
-     complex before the target, and test every maximal bundle. Do not add
-     analyst-placed clocks merely to raise sensitivity rank.
+  3. Parent `HC-DU-033`: consume the completed `HC-DU-033G`
+     Einstein--matter receipt and instantiate `HC-DU-033F` unchanged in
+     localized AQFT. Track system theory, realized state/reference, probe,
+     coupling region, preparation, observable, pointer/archive, provenance,
+     reset, observer access, decoder, resources, and future action horizon
+     separately. Return the first singleton rung or preserve the orbit,
+     plural, trivial, or empty class.
+  4. `HC-DU-038`: preserve the exact separation between matter-selected flow
+     and conditional synchronization, apparatus-selected clocks/archives,
+     and access/resource-selected AREs. Apply every maximal selected AQFT
+     bundle without target refitting before attempting cross-arena formed
+     descent.
 - **Central failure modes.** Primitive circularity, sufficiency tautology,
   per-fixture interface refitting, weak adversary manufacture, endpoint or
   redundancy substitution, hidden resource export, covariance overclaim,
@@ -1173,6 +1190,11 @@ resolution-stable intervention role. No claim is banked or seeded. See
   MINIMAL SOUND SET-VALUED SELECTOR, SYMMETRY-ORBIT OBSTRUCTION, AND FINITE
   MINIMUM-PREMISE BOUND EXACT AS KNOWN MATHEMATICS / ENVELOPE SELECTION,
   POINT SELECTION, FORMATION, ACCESS, AND JOINT REALIZABILITY KEPT DISTINCT /
+  HC-DU-033G EINSTEIN--MATTER FLOW/SYNCHRONIZATION/OBSERVER/ARCHIVE/ACCESS
+  ANTECEDENT LADDER EXACT AS KNOWN MATHEMATICS / FLRW FLOW-AND-TIME POSITIVE
+  BUT OBSERVER-ORBIT NEGATIVE / GODEL FLOW POSITIVE BUT ORTHOGONAL
+  SYNCHRONIZATION OBSTRUCTED / HOMOGENEOUS TRANSPORT DOES NOT MINT /
+  CAUSAL REACHABILITY DOES NOT SELECT ACCESS /
   HC-DU-038D LAW-ONLY VERSUS RECORD-ASSISTED ATTRIBUTION EXACT /
   3+1 COMPACT CONFORMAL VACUUM TARGET CLOSES BY LAW WHILE OBSERVER DIRECTION
   REMAINS UNSELECTED /

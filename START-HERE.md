@@ -281,6 +281,25 @@ What *has* been earned is a strong finite control stack:
   inverse-problem mathematics integrated into a DU adjudication spine—not a
   universal selector, full-GR result, ontology, new law, or paper
   ([result](explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md)).
+- one exact `HC-DU-033F/G` antecedent-relative physical-selection ladder.
+  `HC-DU-033F` proves that a claimed antecedent selects a formed ARE or
+  interface exactly when that interface is constant on the antecedent
+  fibres; otherwise the minimal return is a point, orbit, plural family,
+  trivial interface, or empty nontrivial target. `HC-DU-033G` applies the
+  passport unchanged to Einstein--matter. A simple timelike stress-energy
+  eigenline plus time orientation selects a matter flow. Geodesic
+  vorticity-free flow on suitable topology selects an orthogonal proper-time
+  scalar only up to an origin. FLRW selects cosmic-time structure but no
+  observer token; Gödel dust selects flow while vorticity blocks orthogonal
+  synchronization. Homogeneous \(u(R)=0\) transport does not mint an archive,
+  and causal reachability does not select access. Material clocks,
+  write/archive structure, and complete observer-indexed ARE fields first
+  close at \(A_2,A_3,A_4\). This is known factorization, fluid,
+  congruence, Frobenius, material-reference, transport, and communication
+  mathematics in a DU-specific typed selection receipt—not a generic
+  matter-derived record, new gravity, new physics, or paper
+  ([selector](explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md);
+  [matter ladder](explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md)).
 - one exact finite-dimensional `HC-DU-035D` center-screening finality theorem.
   A formed regional center is screened from its retained noncommutative fibre
   exactly when every complete selective future map pulls the next public
@@ -567,7 +586,7 @@ Einstein--matter control shows both sides of the boundary: one-clock resource
 limits leave two incomparable insufficient maxima; a charged two-clock
 interface creates a greatest record and exact held-out transfer.
 
-`HC-DU-033F` now supplies the common selector passport. Selection is relative
+`HC-DU-033F` supplies the common selector passport. Selection is relative
 to a declared antecedent level. For complete realizations \(\omega\),
 antecedent data \(a(\omega)\), and formed ARE/interface architecture
 \(\xi(\omega)\), that antecedent selects the architecture exactly when
@@ -583,18 +602,31 @@ Adding a premise earns selection credit only when it separates every
 same-antecedent/different-interface pair. A plural family is not a joint
 record unless it is physically jointly realizable.
 
-The next high-value dependency is `CCR-N5-S2`:
+`HC-DU-033G` has now instantiated that passport on Einstein--matter. A simple
+timelike stress-energy eigenline selects the future unit matter flow.
+Geodesic vorticity-free flow on suitable topology selects an orthogonal
+proper-time scalar only up to an origin. Homogeneous FLRW selects the
+congruence and cosmic-time class but leaves the observer worldline in a
+spatial symmetry orbit. Gödel dust selects a flow for which nonzero vorticity
+blocks orthogonal synchronization. The transport law \(u(R)=0\) preserves
+arbitrary supplied archive data and does not mint a write; causal
+reachability does not select an authenticated access route. Material clock,
+write/archive, and complete access/resource/action fields first close at
+\(A_2,A_3,A_4\). The one-clock plural/two-clock greatest-envelope switch
+remains resource-attributed.
 
-1. instantiate the unchanged selector passport on an Einstein--matter
-   antecedent ladder from law through realized matter, clocks/apparatus,
-   formation/archive, and observer access/resources;
-2. locate the first rung that point-selects each observer, clock,
-   synchronization, write, archive, access, decoder, action, and resource
-   field without using the held-out target;
-3. apply the envelope unchanged to every maximal physically selected bundle;
-   and
-4. return canonical reconstruction, selector-free plural reconstruction,
-   interface dependence, or a finite class-relative remainder.
+The next high-value dependency is `CCR-N5-S3`:
+
+1. apply the unchanged selector passport to a localized AQFT
+   source--probe--pointer--archive process;
+2. distinguish the system theory and realized state from the supplied probe,
+   coupling, preparation, observable, pointer, provenance, and access fields;
+3. locate the first antecedent rung that point-selects each field without
+   using the held-out target;
+4. preserve the factor-internal no-record result and the Einstein--matter
+   partial/adverse receipt; and
+5. return a selected nontrivial local ARE, an apparatus-relative selector,
+   an orbit/plural family, or an empty nontrivial internal-record class.
 
 The prepared
 [next five-swing campaign](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md)
@@ -609,11 +641,12 @@ sequences that dependency without activating five runs:
 5. adjudicate reconstruction, plural duality, interface dependence,
    remainder, or incomplete contract.
 
-The first swing is complete as `HC-DU-033F`. Only `CCR-N5-S2` is now the next
-executable campaign object. Each later swing remains branch-conditioned on
-the preceding receipt, not on a positive result. The Einstein--matter arena
-must let matter flow generate candidate clock worldlines rather than turn the
-present two-clock rank repair into another fitted sensor campaign.
+The first two swings are complete as `HC-DU-033F/G`. Only `CCR-N5-S3` is now
+the next executable campaign object. Each later swing remains
+branch-conditioned on the preceding receipts, not on a positive result. The
+AQFT arena must preserve probe, pointer, archive, provenance, decoder, and
+access as separately credited fields rather than treating an induced
+observable as a formed record.
 
 Do not fit another microscopic Hamiltonian to the same final flux write.
 Open a Fewster--Verch AQFT embedding only after stating a new locality or
@@ -737,10 +770,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Use `HC-DU-033E` to distinguish a greatest physically joinable record from incomparable maximal interfaces. The open object is selection of the admissibility complex itself; do not repeat supplied detector, code, or fitted-sensor variants. |
-| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | Treat record joins as physical only when observer access and the complete resource ledger permit joint formation. The one-clock/two-clock control proves that a resource change can change the reconstruction verdict. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-033G`: Einstein--matter selects flow and conditional synchronization before any generic observer, write, archive, or access interface. Apply the same passport next to localized AQFT; do not repeat supplied detector, code, or fitted-sensor variants. |
+| **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, or induced observable is not an observer-access contract. Keep route, authentication, decoder, actions, and resources explicit; the one-clock/two-clock control proves that a resource change can change reconstruction. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | Use projector-preserving gauge finality and complete local stabilizer checks as positive controls; preserve the logical/homological remainder and never equate local defect finality with full logical-state finality. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-038E` supplies the first nontrivial \(3+1\) Einstein--matter clock-envelope control: one-clock maxima fail; a charged joined two-clock archive reconstructs. Next derive the interface/worldlines from matter dynamics or return a selection obstruction. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-033G/038E` now separate matter-selected clock geometry from apparatus-selected records: FLRW is flow/time positive and observer negative; Gödel is flow positive and synchronization negative; one-clock/two-clock reconstruction remains resource-relative. Carry that boundary into AQFT and formed descent. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -772,8 +805,8 @@ channels; they are not lanes and do not create a second priority system.
    [`docs/quantum-foundations-orientation-surface.md`](docs/quantum-foundations-orientation-surface.md).
 6. When Joe opens the next central campaign swing, read the
    [physical-selection-to-formed-descent campaign scaffold](explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md).
-   `CCR-N5-S1` is complete; `CCR-N5-S2` is the next executable object, while
-   the later swings remain receipt-conditioned.
+   `CCR-N5-S1/S2` are complete; `CCR-N5-S3` is the next executable object,
+   while the later swings remain receipt-conditioned.
 7. When choosing or executing another plausible near-term research swing, read the
    [five-lens approach atlas](explorations/near-term-research-swing-approach-atlas-2026-07-25.md).
    It covers all 27 paper families and the named non-paper dependencies

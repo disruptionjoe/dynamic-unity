@@ -2368,6 +2368,69 @@ universal selector, new physical law, actualization theory, ontology, or
 paper claim. See
 `../explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md`.
 
+#### `HC-DU-033G` — Einstein--matter clock-to-record antecedent ladder
+
+Apply `HC-DU-033F` unchanged to the frozen ladder
+
+\[
+A_0\subset A_1\subset A_2\subset A_3\subset A_4,
+\]
+
+from Einstein--matter law, through realized matter, material clocks,
+write/archive formation, and observer access/resources.
+
+For a perfect fluid
+
+\[
+T_{ab}=(\rho+p)u_a u_b+p\,g_{ab},
+\]
+
+a simple timelike eigenline with \(\rho+p\neq0\), future time orientation,
+and normalization selects one future unit matter flow at \(A_1\). Its
+integral curves select an unlabelled congruence, not one observer token.
+Solutions of \(u(T)=1\) differ by \(c\) with \(u(c)=0\). If the flow is
+geodesic and vorticity-free, then \(du^\flat=0\); on a suitable simply
+connected domain,
+
+\[
+u^\flat=-d\tau
+\]
+
+selects an orthogonal proper-time scalar up to one additive origin.
+
+The exact controls separate the structures:
+
+- homogeneous FLRW selects the comoving congruence and cosmic-time class,
+  while spatial translations move every candidate observer worldline;
+- Gödel dust selects a timelike matter flow with nonzero vorticity, so
+  orthogonal synchronization is obstructed;
+- \(u(R)=0\) transports arbitrary supplied archive data and does not mint a
+  write;
+- \(u(R)=J_R\) forms determinate content only relative to a supplied write
+  source, initial state, pointer/archive, provenance, and reset; and
+- causal reachability selects allowed influence relations, not one route,
+  authentication rule, decoder, resource budget, or future capability.
+
+Material clock/worldtube fields, write/archive fields, and complete
+observer-access/resource/action fields first become point-selected at
+\(A_2,A_3,A_4\), respectively, unless a richer source theory explicitly
+moves one of those premises earlier. Brown--Kuchař dust is the standard
+positive construction: it adds physical clock and rod fields and does not
+derive arbitrary records from generic stress energy.
+
+The prior one-clock/two-clock Einstein--matter ARE control transfers
+unchanged. One calibrated clock budget leaves two incomparable maximal
+records and a plural remainder. The explicitly enlarged two-clock joined
+archive is full rank and reconstructs the held-out clock. The verdict change
+is resource- and interface-attributed, not an Einstein-law selector.
+
+The component mathematics is established perfect-fluid, congruence,
+Frobenius, material-reference, transport-PDE, communication, and inverse
+problem theory. The Dynamic Unity result is the exact composed selector
+receipt, not a generic matter-derived observer or record, new gravitational
+law, new physics, actualization theory, or paper claim. See
+`../explorations/einstein-matter-clock-observer-archive-selection-ladder-2026-07-26.md`.
+
 #### `HC-DU-038E` — Resource-sensitive \(3+1\) Einstein--matter clock envelope
 
 The envelope has been applied to a smallest nontrivial static weak-field
@@ -2419,18 +2482,18 @@ dynamics and a timelike matter current constrain the geometry and rest-frame
 direction; they do not select the clock worldlines, archive, access route, or
 resource budget that makes the inverse problem full rank.
 
-The next physical dependency is selection of the admissibility complex
-itself. A bounded successor should let matter flow generate the candidate
-clock worldlines and access routes, then ask whether the dynamics selects a
-greatest record bundle, leaves symmetry-related maximal bundles, or produces
-a held-out remainder through all of them. Do not fit a larger sensor matrix
-to the target.
+`HC-DU-033G` now supplies that bounded selector receipt. Matter flow can
+select a congruence and conditional synchronization, but it does not thereby
+select one observer, material clock, write, archive, access route, or
+resource budget. The next physical dependency is to apply the same passport
+to a localized AQFT source--probe--pointer--archive process. Do not fit a
+larger sensor matrix to the target.
 
 The branch-aware next-five campaign now gives that successor an exact
-sequence. Its first stage is complete as `HC-DU-033F`; the next stage
-instantiates the common target-independent selector passport in
-Einstein--matter, followed by an independent localized-AQFT test, formed sharp
-descent or exact non-equivalence, and a North-Star held-out
+sequence. Its first two stages are complete as `HC-DU-033F/G`; the next stage
+instantiates the common target-independent selector passport in an
+independent localized-AQFT test, followed by formed sharp descent or exact
+non-equivalence, and a North-Star held-out
 reconstruction/remainder adjudication. Adverse selection results are inputs
 to later swings rather than failures to manufacture a positive branch. See
 `../explorations/next-five-swing-physical-selection-to-formed-descent-campaign-scaffold-2026-07-26.md`.
@@ -2484,7 +2547,10 @@ architecture is constant on its fibres. If not, return the minimal orbit,
 plural family, trivial class, or empty target rather than choosing a member.
 Any added reference, apparatus, boundary, access path, decoder, action class,
 or resource earns selection credit only at the rung where it actually closes
-the interface fibre.
+the interface fibre. `HC-DU-033G` supplies the Einstein--matter receipt:
+matter-selected flow and conditional synchronization are not formed records;
+homogeneous transport is not a write; and causal reachability is not access.
+Reuse those type boundaries unchanged in localized AQFT.
 
 ## Dependency order
 
@@ -2509,8 +2575,10 @@ the interface fibre.
     [COMPLETED EXACT FINITE FRAMEWORK]
     HC-DU-033F antecedent-relative ARE selector factorization and
     minimum-premise classification
-    [COMPLETED EXACT; COMPONENT MATHEMATICS KNOWN;
-     EINSTEIN--MATTER AND AQFT PHYSICAL ANTECEDENT TESTS OPEN]
+    [COMPLETED EXACT; COMPONENT MATHEMATICS KNOWN]
+    HC-DU-033G Einstein--matter clock/observer/archive/access antecedent ladder
+    [COMPLETED EXACT SCOPED; COMPONENT MATHEMATICS KNOWN;
+     LOCALIZED AQFT PHYSICAL ANTECEDENT TEST NEXT]
         |
 2. HC-DU-034 multi-time certification
    HC-DU-034A signed all-port history assay [COMPLETED ANALYTIC CONTROL]
