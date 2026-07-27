@@ -110,7 +110,7 @@ Representation is not derivation. A finite fixture is not a universal law.
 Read the
 [Counter-Assumptive Findings Register](COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)
 before importing a result from Dynamic Unity, GU Formalization, Time as
-Finality, Temporal Issuance, or Possibility to Capability. It records 197
+Finality, Temporal Issuance, or Possibility to Capability. It records 199
 source-pinned cases where the plausible default reverses an implication,
 silently changes construction, broadens a scoped no-go, or confuses
 representation, selection, records, access, capability, and finality.
@@ -433,8 +433,16 @@ What *has* been earned is a strong finite control stack:
   aligned propagation and fails when lawful transport recouples the hidden
   cross polarization with exact coefficient `4/5`. Causal closure and record
   sufficiency are distinct; full repair is injective tomography and the
-  supplied instrument still leaves `H-CCR-17` open. Only `N5-RS-P5`,
-  Cross-Arena Dynamic Sufficiency and Formation Non-Unification, is executable
+  supplied instrument still leaves `H-CCR-17` open. `N5-RS-P5` is complete as
+  `HC-DU-054`. The packet and metastable host obey the same known
+  target-relative factorization law: a strict quotient can transfer for one
+  action while capability enlargement reopens its fibre. That theorem is
+  fully absorbed. In both arenas, however, the claimed antecedent admits
+  accessible and hidden archive routes. The antecedent therefore does not
+  select the complete accessible formed interface. The finest common
+  operational quotient need not be a material record. The five-position
+  `N5-RS` sequence is complete; `H-CCR-17` remains open but dormant behind a
+  new physical reopener. Only `NORTH_STAR_PORTFOLIO_RESET` is executable
   ([result](explorations/endogenous-record-mechanism-tournament-and-write-selector-gap-2026-07-26.md);
   [selector/obstruction](explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md);
   [epoch-archive boundary](explorations/matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md);
@@ -447,6 +455,7 @@ What *has* been earned is a strong finite control stack:
   [distributed/physical collision](explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md);
   [causal-exterior attribution](explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md);
   [causally closed transfer](explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md);
+  [cross-arena closeout](explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md);
   [campaign](explorations/next-five-swing-endogenous-compressive-record-campaign-scaffold-2026-07-26.md)).
 - one exact finite `HC-DU-039C` screened-effective-physics and
   source-attribution boundary. A screened public process reconstructs its
@@ -857,7 +866,11 @@ as `HC-DU-052`; its first lawful remainder is causally exterior incoming
 radiation. `N5-RS-P4` is complete as `HC-DU-053`: a causally closed
 polarization-intensity record transfers noninjectively for one action class
 and fails for an oriented enlargement at the first hidden-to-visible
-recoupling. Only `N5-RS-P5` is executable.
+recoupling. `N5-RS-P5` is complete as `HC-DU-054`: the shared transfer law is
+fully absorbed, while antecedent selection of the complete accessible formed
+interface fails in both compared arenas. The `N5-RS` sequence is closed.
+Only a fresh `NORTH_STAR_PORTFOLIO_RESET` is executable; it must not assume
+that another record host, CFS, consensus, hardware, or paper swing wins.
 
 Do not fit another microscopic Hamiltonian, detector, or probe chain to the
 same final write. Treat causal admissibility, FV realizability, instrument
@@ -981,10 +994,10 @@ the root `lanes` entries near the top of `LANES.yaml`.
 |---|---|---|
 | **1 — North Star adjudication** | Keep the central reconstruction-or-remainder question exact and integrate results from every dependency. | Ask what would actually decide among the three outcomes. |
 | **2 — Forward representation and coherence** | Build the full typed picture of known physics, mark grades, and expose exact seams or tensions. | Coherence is valuable at representation grade; do not smuggle in ontology. |
-| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051` and the completed `N5-RS-P2` premise lattice. No current arena selects the complete write-and-access antecedent. Keep `H-CCR-17` open, stop unconditioned detector/code/archive hosts, and reopen only when a new target-independent physical premise breaks archive relocation. |
+| **3 — Physical record formation and selection** | Derive or delimit record instruments, interfaces, archives, and robustness from independently motivated physics. | Consume `HC-DU-044/045/046/047/048/049/050/051/054`. Dynamic sufficiency and complete-interface selection are independent fibre tests. No current arena selects the complete accessible formed interface. Keep `H-CCR-17` open but dormant, stop unconditioned detector/code/archive hosts, and reopen only when a new target-independent physical premise breaks archive relocation. |
 | **4 — Observer access, certification, and capability** | Define physical observers, access boundaries, certificates, actions, risk, and matched resources. | A congruence, causal cone, induced observable, cryptographic proof, or threshold certificate is not an observer-access contract. Keep route, authentication, decoder, disclosure, actions, resources, and horizon explicit. |
 | **5 — Regional finality and recursive composition** | Determine when local certified networks compose into safe higher-level facts and actions. | `HC-DU-035E/041` establish public-shadow descent, native non-lift, and capability-indexed finality. `N5-SCF` now separates concentration, propagation, DAG knowledge, metastability, cryptographic hardening, emergence, and capability-relative views before any physical translation. |
-| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` attributes the first lawful `3+1` remainder to incoming characteristic data outside the record region. `HC-DU-053` then closes the finite packet boundary: normalized intensity transfers through a strict noninjective record for polarization-insensitive response, while oriented capability or polarization recoupling exposes an interior remainder. Only the cross-arena absorption/formation comparison `N5-RS-P5` is executable before CFS or hardware. |
+| **6 — Time, geometry, fields, and physical reconstruction** | Recover effective temporal, geometric, field, and particle structure with uniqueness and refinement controls. | `HC-DU-052` attributes the first lawful `3+1` remainder to incoming characteristic data outside the record region. `HC-DU-053` closes the finite packet boundary. `HC-DU-054` shows that its target-relative transfer is known mathematics and that the packet antecedent still does not select archive access. The sequence is complete; await the whole-program portfolio reset rather than extending this specimen. |
 | **7 — Remainders, predictions, and publishable results** | Extract finite discriminators, theorems/no-gos, novelty collisions, experiments, and paper-ready packages. | Proof-review the nearer CSG theorem while preserving the physical-sufficiency flagship; Joe publishes. |
 | **A — Stewardship** | Preserve claim grades, provenance, topology, reproducibility, paper custody, and historical receipts. | Governance and custody never count as scientific evidence. |
 
@@ -1042,8 +1055,12 @@ channels; they are not lanes and do not create a second priority system.
    [HC-DU-053](explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md).
    It proves scoped strict noninjective transfer and an exact
    capability-relative interior first leak while leaving the record
-   instrument supplied. Only `N5-RS-P5`, the cross-arena dynamic-sufficiency
-   and formation non-unification test, is executable.
+   instrument supplied. `N5-RS-P5` is complete as
+   [HC-DU-054](explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md).
+   The common dynamic-sufficiency theorem is fully absorbed; the exact shared
+   gap is antecedent selection of the complete accessible formed interface.
+   The five-position sequence is closed and `H-CCR-17` is dormant behind a
+   physical reopener. Only `NORTH_STAR_PORTFOLIO_RESET` is executable.
    The
    [substrate-hypothesis Lakatos council](explorations/substrate-hypothesis-ten-formulation-lakatos-council-2026-07-27.md)
    and

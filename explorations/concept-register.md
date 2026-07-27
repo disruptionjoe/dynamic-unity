@@ -1422,6 +1422,48 @@ cross-arena question is whether transfer is now fully absorbed by the
 existing factorization spine and physical record formation is the smallest
 unresolved arrow.
 
+### 2026-07-27 cross-arena formation--transfer separation
+
+`HC-DU-054` closes that comparison. The gravitational-wave packet and the
+closed metastable host obey the same known dynamic-sufficiency rule:
+
+\[
+\ker r\subseteq
+\bigcap_{h\in\mathcal H}\ker(h\circ U).
+\]
+
+Both have a strict quotient that transfers for a frozen action, both fail
+after capability enlargement, and both admit injective full-information
+repair. That common theorem is fully absorbed by factorization,
+observability, controlled lumpability, and the existing
+`HC-DU-035D/036H/039C/041` spine.
+
+The cross-arena gain is a sharper type separation. Dynamic sufficiency is a
+state/history-fibre test after an interface has been fixed. Selection of the
+complete accessible formed interface is instead an implementation-fibre
+test,
+
+\[
+\ker a\subseteq\ker\xi.
+\]
+
+Neither implies the other. In both arenas an accessible and a hidden archive
+route can preserve the claimed physical antecedent while changing the
+observer's record. Thus the smallest shared missing arrow is not “formation”
+without qualification, but antecedent selection of the complete accessible
+formed interface: source binding, write, archive route, orientation, access,
+action envelope, and resource horizon.
+
+For an antecedent fibre, the join of all native record kernels gives the
+finest antecedent-guaranteed operational quotient. A target transfers across
+every native interface exactly when it is constant on that join. This
+quotient is not automatically a physically materialized record.
+
+**Disposition:** `SCOPED_SELECTION_OR_FORMATION_OBSTRUCTION`;
+`H-CCR-17` remains open but dormant behind a new physical reopener. The
+five-position `N5-RS` sequence is complete and returns
+`NORTH_STAR_PORTFOLIO_RESET`, not a sixth record host.
+
 ## CONCEPT-DU-005 — record-relative actuality and completion-class refinement
 
 - **Concept (articulation-invariant).** Relative to a declared record-bearing
@@ -2395,6 +2437,17 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   antecedent invariant under accessible/hidden routing cannot select the
   archive interface changed by that routing. The scoped host verdict is
   `SELECTION_OR_FORMATION_OBSTRUCTION`.
+- **2026-07-27 cross-arena closeout.** `HC-DU-054` shows that conditional
+  formation and dynamic sufficiency do not imply antecedent selection of the
+  complete accessible archive interface. The metastable endpoint remains the
+  antecedent-guaranteed common quotient and predicts the next reduced law,
+  while the gravitational-wave antecedent admits accessible/hidden routing
+  whose common quotient is constant. In both cases the common quotient is an
+  operational factor, not automatically a physically formed record. The
+  transfer theorem is fully absorbed; the missing object is the
+  target-independent source/write/archive/access/action interface. Close the
+  `N5-RS` sequence and require a new physical reopener before returning to
+  `H-CCR-17`.
 - **Controls and global kill.**
   - An unobserved Markov or quantum trajectory is not a retained archive.
   - A prewritten random oracle correlated with a path is disclosure, not a
@@ -2418,14 +2471,18 @@ to `PRED-DU-001/002`; it does not create a duplicate prediction.
   CAPABILITY LEAK INSTALLED / ARBITRARY-HORIZON AND EXACT APPROXIMATE-LEAK
   BOUNDARIES INSTALLED / METASTABLE HOST RETURNS
   SELECTION_OR_FORMATION_OBSTRUCTION WITH MARKOV_OPERATIONAL_CLOSURE ONLY /
-  MINIMUM-PREMISE AND WHOLE-PORTFOLIO PIVOT NEXT / NO UNIVERSAL COST,
+  CROSS-ARENA FORMATION--TRANSFER SEPARATION INSTALLED /
+  N5-RS SEQUENCE COMPLETE / H-CCR-17 DORMANT BEHIND A PHYSICAL REOPENER /
+  NORTH-STAR PORTFOLIO RESET NEXT / NO UNIVERSAL COST,
   ACTUALIZATION, ONTOLOGY,
   NEW PHYSICS, PREDICTION, OR PAPER PROMOTION.** See
   `matter-environment-epoch-archive-boundary-and-conditional-history-formation-2026-07-27.md`
   and
   `completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md`
   and
-  `metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md`.
+  `metastable-host-robustness-and-archive-relocation-obstruction-2026-07-27.md`
+  and
+  `cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md`.
 
 ## CONCEPT-DU-014 — joint-source sufficiency and dependency-sensitive finality
 

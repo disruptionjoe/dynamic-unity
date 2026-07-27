@@ -1,0 +1,236 @@
+{
+  "checks": [
+    {
+      "detail": "decoder(q)=q under the frozen orthogonal transport",
+      "name": "gw_supplied_intensity_record_transfers",
+      "passed": true
+    },
+    {
+      "detail": {
+        "record_blocks": 3,
+        "state_count": 9
+      },
+      "name": "gw_supplied_intensity_record_is_noninjective",
+      "passed": true
+    },
+    {
+      "detail": "same intensity can have different oriented response",
+      "name": "gw_capability_enlargement_reopens_record",
+      "passed": true
+    },
+    {
+      "detail": "two exact rational orthogonal steps",
+      "name": "gw_orthogonal_subdivision_preserves_intensity_transfer",
+      "passed": true
+    },
+    {
+      "detail": {
+        "rank_type": "two_component_tomography"
+      },
+      "name": "gw_full_two_component_archive_is_injective",
+      "passed": true
+    },
+    {
+      "detail": "same packet/probe antecedent, accessible-versus-hidden archive routing",
+      "name": "gw_antecedent_does_not_select_archive_access",
+      "passed": true
+    },
+    {
+      "detail": {
+        "blocks": [
+          [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        ]
+      },
+      "name": "gw_antecedent_guaranteed_operational_quotient_is_trivial",
+      "passed": true
+    },
+    {
+      "detail": "hidden archive arm leaves the nonconstant target unresolved",
+      "name": "gw_nonconstant_intensity_is_not_antecedent_robust",
+      "passed": true
+    },
+    {
+      "detail": "ordinary Markov operational closure",
+      "name": "host_endpoint_transfers_next_reduced_law",
+      "passed": true
+    },
+    {
+      "detail": {
+        "endpoint_blocks": 4,
+        "history_count": 9
+      },
+      "name": "host_endpoint_is_noninjective",
+      "passed": true
+    },
+    {
+      "detail": {
+        "witness_lengths": [
+          0,
+          4
+        ]
+      },
+      "name": "host_occurrence_capability_reopens_endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "history_count": 9
+      },
+      "name": "host_full_history_archive_is_injective",
+      "passed": true
+    },
+    {
+      "detail": "same generator, accessible-versus-hidden archive routing",
+      "name": "host_antecedent_does_not_select_archive_access",
+      "passed": true
+    },
+    {
+      "detail": {
+        "blocks": [
+          [
+            0,
+            4,
+            8
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            7
+          ]
+        ]
+      },
+      "name": "host_antecedent_guaranteed_quotient_is_endpoint",
+      "passed": true
+    },
+    {
+      "detail": "next reduced state factors through every admitted native record",
+      "name": "host_next_target_is_antecedent_robust",
+      "passed": true
+    },
+    {
+      "detail": "occurrence fails through the finest completion-common quotient",
+      "name": "host_history_target_is_not_antecedent_robust",
+      "passed": true
+    },
+    {
+      "detail": "token spelling does not change the quotient",
+      "name": "lossless_relabeling_preserves_host_record_kernel",
+      "passed": true
+    },
+    {
+      "detail": "scalar encoding does not change the quotient",
+      "name": "lossless_relabeling_preserves_gw_record_kernel",
+      "passed": true
+    },
+    {
+      "detail": "exactness returns only at complete revelation for the witness pair",
+      "name": "partial_erasure_cannot_restore_exact_host_history_sufficiency",
+      "passed": true
+    },
+    {
+      "detail": "exactness returns only at complete revelation for the witness pair",
+      "name": "partial_erasure_cannot_restore_exact_gw_intensity_sufficiency",
+      "passed": true
+    },
+    {
+      "detail": {
+        "prefix_41_minimum_bits": 6,
+        "prefix_9_minimum_bits": 4
+      },
+      "name": "host_history_tomography_resource_grows_with_horizon",
+      "passed": true
+    },
+    {
+      "detail": {
+        "gw_exact_control": {
+          "carrier_type": "continuous_two_component_vector",
+          "component_count": 2,
+          "requires_precision_contract": true
+        },
+        "host_exact_control": {
+          "carrier_type": "finite_history_prefix",
+          "minimum_bits": 6,
+          "prefix_count": 41
+        },
+        "verdict": "NO_CROSS_ARENA_RESOURCE_SCALAR_WITHOUT_RETYPING"
+      },
+      "name": "gw_and_host_resource_indices_are_not_one_scalar",
+      "passed": true
+    },
+    {
+      "detail": {
+        "selected_and_failure": [
+          true,
+          false
+        ],
+        "selected_and_transfer": [
+          true,
+          true
+        ],
+        "unselected_and_failure": [
+          false,
+          false
+        ],
+        "unselected_and_transfer": [
+          false,
+          true
+        ]
+      },
+      "name": "selection_and_transfer_are_logically_independent",
+      "passed": true
+    },
+    {
+      "detail": "same operational shadow; different native physical implementations",
+      "name": "both_arenas_share_unselected_interface_plus_restricted_transfer",
+      "passed": true
+    },
+    {
+      "detail": "orientation and occurrence are distinct arena-native first leaks",
+      "name": "both_arenas_fail_after_capability_growth",
+      "passed": true
+    },
+    {
+      "detail": "both repairs identify every admitted finite specimen",
+      "name": "full_repairs_are_tomographic_not_compressive",
+      "passed": true
+    }
+  ],
+  "checks_passed": 26,
+  "checks_total": 26,
+  "claim_id": "HC-DU-054",
+  "h_ccr_17": "OPEN_BUT_DORMANT_BEHIND_PHYSICAL_REOPENER",
+  "maximum_grade": "SCOPED_CROSS_ARENA_FORMATION_TRANSFER_SEPARATION_AND_ABSORPTION",
+  "not_claimed": [
+    "universal record-formation no-go",
+    "common native physical mechanism",
+    "new factorization theorem",
+    "new general-relativistic theorem",
+    "new physics",
+    "prediction",
+    "paper promotion",
+    "hardware requirement"
+  ],
+  "portfolio_return": "NORTH_STAR_PORTFOLIO_RESET",
+  "probe": "du_cross_arena_dynamic_sufficiency_probe",
+  "scientific_verdict": "SCOPED_SELECTION_OR_FORMATION_OBSTRUCTION",
+  "smallest_missing_arrow": "ANTECEDENT_TO_COMPLETE_ACCESSIBLE_FORMED_INTERFACE_SELECTION",
+  "transfer_verdict": "KNOWN_MATHEMATICS__FULLY_ABSORBED",
+  "work_id": "N5-RS-P5"
+}

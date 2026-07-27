@@ -1,14 +1,14 @@
 ---
 title: "Next five-swing scaffold: host closeout to target-independent record selection"
-status: position_1_complete__position_2_executable_after_n5_scf_handoff
+status: sequence_complete__north_star_portfolio_reset_next
 doc_type: inline_ten_lens_triple_diamond_five_swing_scaffold
 created: 2026-07-27
 authority: "Joe direct chat: prepare and scaffold another five swings using divergent personas"
 sequence_id: N5-RS
-active_position: N5-RS-P2
+active_position: none
 deferred_position: none
 run_plan: "../runs/2026-07-27-next-five-host-closeout-record-selection-preparation.md"
-claim_status_change: "N5-SCF completed as HC-DU-047/048/049/050/051; N5-RS-P2 resumes with sharpened inputs"
+claim_status_change: "N5-RS complete through HC-DU-054; dynamic sufficiency absorbed and complete accessible-interface selection remains open"
 paper_state_change: none
 hardware_state_change: none
 ---
@@ -550,3 +550,31 @@ The next five positions should earn one of two kinds of progress:
 
 The sequence is designed so that an adverse result shortens the search rather
 than causing another round of fitted archive construction.
+
+## 13. Sequence closeout — 2026-07-27
+
+All five positions are complete:
+
+| position | final receipt |
+|---|---|
+| `P1` | `HC-DU-046`: the metastable host closes as `SELECTION_OR_FORMATION_OBSTRUCTION` |
+| `P2` | portfolio pivot: the `3+1` lawful inverse problem wins; host proliferation stops |
+| `P3` | `HC-DU-052`: the first lawful remainder is causal-exterior incoming radiation |
+| `P4` | `HC-DU-053`: strict noninjective transfer and a capability-relative first leak coexist in a closed packet sector |
+| `P5` | `HC-DU-054`: the transfer spine is fully absorbed and the common missing arrow is antecedent selection of the complete accessible formed interface |
+
+The fifth position corrects one phrase in the original scaffold. “Physical
+formation” alone is not the smallest unresolved object. Both arenas can
+conditionally form a token after a probe, fresh carrier, archive, route, and
+access contract are supplied. What neither antecedent selects is that
+complete accessible formation interface.
+
+The sequence return is:
+
+```text
+NORTH_STAR_PORTFOLIO_RESET
+```
+
+`H-CCR-17` remains open but dormant behind a new independently motivated
+physical premise that breaks the interface fibre. Do not infer a sixth
+record-host swing from this closeout.

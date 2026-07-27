@@ -1529,8 +1529,13 @@ incoming radiative data outside the past record region. It is an
 open-boundary attribution result, not new physics. `N5-RS-P4` is complete as
 `HC-DU-053`: strict noninjective transfer and a capability-relative first
 leak coexist inside a causally closed packet sector, while the record
-instrument remains supplied. Only `N5-RS-P5`, the cross-arena transfer and
-formation non-unification test, is executable.
+instrument remains supplied. `N5-RS-P5` is complete as `HC-DU-054`. The
+packet and metastable host share only the already absorbed
+dynamic-sufficiency spine. Their exact common gap is antecedent selection of
+the complete accessible formed interface, not formation without
+qualification. The `N5-RS` sequence is complete; `H-CCR-17` is open but
+dormant behind a new physical reopener. Only `NORTH_STAR_PORTFOLIO_RESET` is
+executable.
 
 ### `HC-DU-046` — Metastable-Host Robustness and Archive-Relocation Obstruction
 
@@ -2092,13 +2097,81 @@ capability-relative first leak. The probe-limit test-body record instrument,
 material orientation, and archive remain supplied rather than
 Einstein-selected, so `H-CCR-17` remains open.
 
-`N5-RS-P4` is complete. Only `N5-RS-P5`, Cross-Arena Dynamic Sufficiency and
-Formation Non-Unification, is executable. It must apply this unchanged
-criterion to the gravitational-wave specimen and the closed metastable host,
-then decide whether the common transfer theorem is already absorbed by
-`HC-DU-035D/036H` and whether physical record formation is the smallest
-remaining non-unifying arrow. See
+`N5-RS-P4` handed this result to the cross-arena comparison below. See
 `../explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md`.
+
+### `HC-DU-054` — Antecedent-Fibre Dynamic Sufficiency and
+Accessible-Formation Separation
+
+`N5-RS-P5` applies one typed contract to the causally closed
+gravitational-wave packet and the closed metastable host.
+
+There are two independent fibre tests. For complete implementation variants
+\(M\), claimed antecedent \(a:M\to A\), and complete accessible-interface
+architecture \(\xi:M\to\Xi\), antecedent selection requires
+
+\[
+\ker a\subseteq\ker\xi.
+\]
+
+After one interface is fixed, for lawful state/history class \(X\), record
+\(r:X\to Q\), closed evolution \(U\), and held-out action family
+\(\mathcal H\), dynamic sufficiency requires
+
+\[
+\ker r\subseteq
+\bigcap_{h\in\mathcal H}\ker(h\circ U).
+\]
+
+The first inclusion concerns source binding, write, orientation, archive
+routing, access, action envelope, and resources across implementations. The
+second concerns what a fixed record predicts across states or histories.
+Neither implies the other.
+
+For a frozen antecedent fibre \(a^{-1}(\alpha)\), let \(r_m\) be each native
+accessible record and define
+
+\[
+K_\alpha=\bigvee_{m\in a^{-1}(\alpha)}\ker r_m.
+\]
+
+A target factors through every native record on that antecedent fibre exactly
+when \(K_\alpha\subseteq\ker t\). The quotient \(X/K_\alpha\) is the finest
+antecedent-guaranteed operational quotient. It is not automatically a
+physically formed record.
+
+Both arenas have a strictly noninjective quotient that transfers for one
+frozen action, a capability enlargement that reopens its fibre, and an
+injective full-information repair. But both antecedents also admit
+accessible-versus-hidden archive routing. In the packet case this makes the
+antecedent-guaranteed quotient constant; in the metastable host it leaves
+only terminal matter, sufficient for the next reduced law but not occurrence.
+
+Thus the common dynamic theorem is fully absorbed by ordinary
+factorization, observability, controlled lumpability, common-quotient
+mathematics, and `HC-DU-035D/036H/039C/041/045`. The physical mechanisms and
+resource laws do not unify: wave amplitudes are not event histories,
+intensity is not endpoint state, orientation is not occurrence, and
+continuous precision is not a finite history-bit count.
+
+The exact return is:
+
+```text
+SCOPED_SELECTION_OR_FORMATION_OBSTRUCTION
+ANTECEDENT_TO_COMPLETE_ACCESSIBLE_FORMED_INTERFACE_SELECTION
+TRANSFER THEOREM FULLY ABSORBED
+```
+
+This is not a universal formation no-go. Both arenas conditionally form
+tokens after the relevant probe, carrier, archive, routing, and access
+contract is supplied. It is not a common native mechanism, new theorem,
+new physics, prediction, paper, or hardware result.
+
+The five-position `N5-RS` sequence is complete. `H-CCR-17` remains open but
+dormant behind a new independently motivated premise that breaks the
+interface fibre. The portfolio return is `NORTH_STAR_PORTFOLIO_RESET`; do not
+manufacture a sixth record host. See
+`../explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md`.
 
 ### `HC-DU-036` — Interventional Record-Sufficiency Dichotomy
 
@@ -3609,8 +3682,16 @@ has completed all five positions as `HC-DU-047/048/049/050/051`.
 `N5-RS-P2` has now completed its cross-portfolio comparison. It returns
 `PIVOT_TO_3_PLUS_1_LAW_FILTERED_RECONSTRUCTION`, retains conservative
 certification/physical feedback as reserve, and stops unconditioned host and
-generic consensus building. `H-CCR-17` remains open only behind a new
-target-independent physical antecedent that breaks archive relocation.
+generic consensus building. `N5-RS-P3/4/5` are now complete as
+`HC-DU-052/053/054`. The first localizes the lawful witness to omitted
+incoming characteristic data; the second proves strict noninjective transfer
+and its first capability leak inside a closed packet sector; the third shows
+that this transfer law is fully absorbed and separates it from antecedent
+selection of the complete accessible formed interface. `H-CCR-17` remains
+open only behind a new target-independent physical antecedent that breaks
+archive relocation. It is dormant rather than an active invitation to build
+another host. The next executable object is a whole-program
+`NORTH_STAR_PORTFOLIO_RESET`.
 
 **Common reconstruction precondition.** `H-CCR-02`, `H-CCR-05`,
 `H-CCR-08`, `H-CCR-16`, and `H-CCR-17` use the `HC-DU-039A/039B/041`
@@ -4338,7 +4419,13 @@ INCOMING CHARACTERISTIC DATA ARE NOT A CAUSALLY-CLOSED INTERIOR REMAINDER
 HC-DU-053 CAUSALLY CLOSED STRICT NONINJECTIVE TRANSFER EXACT
 ORIENTED CAPABILITY AND POLARIZATION RECOUPLING EXPOSE INTERIOR FIRST LEAK
 SUPPLIED PROBE-LIMIT RECORD INSTRUMENT LEAVES PHYSICAL FORMATION OPEN
-N5-RS-P5 CROSS-ARENA TRANSFER ABSORPTION AND FORMATION NON-UNIFICATION NEXT
+HC-DU-054 CROSS-ARENA FORMATION--TRANSFER SEPARATION EXACT
+DYNAMIC-SUFFICIENCY THEOREM FULLY ABSORBED
+ANTECEDENT DOES NOT SELECT COMPLETE ACCESSIBLE FORMED INTERFACE
+COMMON OPERATIONAL QUOTIENT IS NOT AUTOMATICALLY A MATERIAL RECORD
+N5-RS FIVE-POSITION SEQUENCE COMPLETE
+H-CCR-17 OPEN BUT DORMANT BEHIND A NEW PHYSICAL REOPENER
+NORTH_STAR_PORTFOLIO_RESET NEXT
 FIXED CENTER AND COHERENTLY ACCESSIBLE ENVIRONMENT EVIDENCE PROVABLY DISTINCT
 BRANCH-BASIS DEPHASING ERASES THE SECTOR CODE BEFORE DECODING
 QUANTUM MULTIPLICITY SURVIVES INSIDE COHERENTLY READABLE CENTRAL SECTORS

@@ -2122,3 +2122,39 @@ numerical-relativity or detector simulation, an independent proof of
 characteristic closure or physical record formation, a novel GR theorem,
 new physics, a prediction, a paper promotion, or authority for CFS, hardware,
 or external action.
+
+## HC-DU-054 cross-arena dynamic sufficiency and formation separation
+
+`du_cross_arena_dynamic_sufficiency_probe.py` preserves the exact finite
+certificate behind `N5-RS-P5`:
+
+- the supplied gravitational-wave intensity record is strictly noninjective,
+  transfers under the frozen polarization-insensitive action, and fails
+  after oriented capability enlargement;
+- accessible and hidden scalar-archive routing preserve the packet/probe
+  antecedent while changing the observer interface, making its
+  antecedent-guaranteed common quotient constant;
+- the metastable endpoint strictly compresses history and transfers the next
+  reduced law, while occurrence fails at the first completed cycle;
+- accessible and hidden history routing preserve the host antecedent, with
+  endpoint as the finest common quotient;
+- lossless relabeling, exact subdivision, and reveal/erase controls preserve
+  the respective boundaries;
+- full repairs are injective/tomographic and the two arenas charge
+  differently typed resources; and
+- complete-interface selection and state/history transfer are logically
+  independent.
+
+Run:
+
+```bash
+python3 tests/du_cross_arena_dynamic_sufficiency_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_cross_arena_dynamic_sufficiency_result.json` and reports
+`26/26`. Passing is regression coverage for the cross-arena selector,
+factorization, common-quotient, capability-leak, and resource-type
+separation. It is not a universal formation no-go, common native physical
+mechanism, new theorem, new physics, prediction, paper promotion, hardware
+result, provider action, or external action.

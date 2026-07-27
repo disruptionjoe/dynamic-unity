@@ -360,12 +360,21 @@ Before acting, a new agent must be able to state:
    different; the latter is exactly target/action-relative fibre
    factorization. Full repair is injective tomography and a back-propagated
    target row is interface refit. The record instrument and archive remain
-   supplied, so `H-CCR-17` remains open. Only `N5-RS-P5`, Cross-Arena Dynamic
-   Sufficiency and Formation Non-Unification, is executable. Apply the
-   unchanged criterion to the physical packet and the closed metastable host,
-   and decide whether transfer is already fully absorbed while physical
-   formation is the smallest non-unifying arrow. Do not fit another archive
-   to the closed metastable host,
+   supplied, so `H-CCR-17` remains open. `N5-RS-P5` is now complete as
+   `HC-DU-054`. The physical packet and closed metastable host obey the same
+   known target-relative fibre-factorization rule: each has a strict quotient
+   that transfers for one frozen action, fails after capability enlargement,
+   and admits only injective full-information repair. The transfer theorem is
+   fully absorbed. The sharper unresolved arrow is antecedent selection of the
+   complete accessible formed interface—source binding, write, archive route,
+   orientation, access, action envelope, and resource horizon—not “formation”
+   without qualification. The operational quotient common to an antecedent
+   fibre is not automatically a material record. The five-position `N5-RS`
+   sequence is complete; `H-CCR-17` remains open but dormant behind a new
+   independently motivated physical reopener. The sole executable object is
+   `NORTH_STAR_PORTFOLIO_RESET`: reassess the whole DU portfolio without
+   preselecting a host, CFS, hardware, consensus, or paper direction. Do not
+   fit another archive to the closed metastable host,
    infer strong emergence
    from a finite threshold, map a distributed protocol directly to quantum
    physics, infer source truth or physical independence from a signature,
