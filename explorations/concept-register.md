@@ -2786,6 +2786,31 @@ consequence with absorbed component mathematics, not a new law, ontology, or
 prediction. See
 `branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md`.
 
+### 2026-07-27 correction to the no-ready portfolio scope
+
+`CORR-DU-060-1` preserves the `HC-DU-060` mathematics but narrows its
+portfolio return. The completed sequence established
+`NO_READY_SCIENTIFIC_SUCCESSOR_FROM_N5_CCR_BRANCH_SAFE_SEQUENCE`; it did not
+establish whole-repository scientific exhaustion.
+
+The correction restores the distinction among closed/absorbed, open but
+missing a premise, and ready. Endogenous interface selection, autonomous
+layered-finality dynamics, physical-to-coordination translation,
+reconciliation holonomy, and the other explicitly preserved programs remain
+open at unchanged grades.
+
+The newly authorized twenty-one-lens whole-repository assessment recommends
+an autonomous stratified-finality generator gate as the primary next move:
+compare Liouvillian spectral metastability, thermodynamic
+symmetry-breaking/durable memory, and autonomous dissipative stabilization
+under one unchanged selection passport. The immediate question is whether any
+mechanism selects a previously missing physical object or merely a standard
+state/timescale quotient while carrier, write, access, and action semantics
+remain supplied. See
+`hc-du-060-portfolio-scope-correction-2026-07-27.md`,
+`whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md`,
+and `autonomous-stratified-finality-generator-gate-contract-2026-07-27.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

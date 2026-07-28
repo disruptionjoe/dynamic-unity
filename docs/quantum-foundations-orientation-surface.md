@@ -699,6 +699,20 @@ reopener fired. Dynamic Unity therefore records
 physical program. See the
 [portfolio closeout](../explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md).
 
+**Portfolio-scope correction.** The `NO_READY_SCIENTIFIC_SUCCESSOR` return was
+valid only for that branch-safe sequence's gated candidate set. It did not
+close the whole Dynamic Unity portfolio. Physical-interface formation,
+autonomous layered-finality mechanisms, typed physical-to-coordination
+adapters, reconciliation holonomy, and other corrected programs remain open
+at their prior grades. Joe has authorized a new whole-repository opportunity
+assessment, whose primary recommendation is to test whether autonomous
+metastable, thermodynamic-memory, or dissipative-stabilization mechanisms
+select a robust action-indexed finality filtration or merely supply another
+state partition. See the
+[scope correction](../explorations/hc-du-060-portfolio-scope-correction-2026-07-27.md)
+and
+[opportunity map](../explorations/whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md).
+
 ### 11. Record reconstruction versus unique geometry
 
 **Established.** Order, correlations, entanglement, spectra, and boundary data
