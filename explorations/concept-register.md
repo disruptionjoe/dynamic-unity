@@ -3641,6 +3641,31 @@ birth. The result does not establish source issuance or make choosing among
 pretyped actions issuance. See
 `unissued-type-probability-naturality-trilemma-and-novelty-orbit-2026-07-28.md`.
 
+### 2026-07-28 delayed-activation absorber for record-graph settlement
+
+`HC-DU-087` audits Time as Finality's new nucleation-ratchet result. Its
+surviving chain-versus-star settlement difference is genuine but changes type
+pre-existence and consumption-edge rule together.
+
+A fixed initial type reservoir with delayed activation and the antecedently
+fixed rule “consume the current head when activated” reproduces the nucleated
+arm's complete time-indexed weighted record graph. Every settlement functional
+of that graph is therefore identical. The corrected attribution is:
+
+```text
+old-task attainability equality <- conservative extension
+defects                         <- variant selection + contact
+settlement                      <- weighted consumption graph
+type pre-existence              <- not identified
+```
+
+Order-dependent edges remain meaningful provenance and can change settlement
+substantially. They do not establish that a type was absent from the source
+before activation. Reopen only with a source-sensitive pre-activation
+intervention, physical footprint, binding commitment, or independently
+warranted completion theorem. See
+`record-graph-settlement-and-delayed-activation-nonidentifiability-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
