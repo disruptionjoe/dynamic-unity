@@ -3,7 +3,7 @@ title: "Dynamic Unity — Start Here"
 status: active_orientation
 doc_type: orientation
 created: 2026-07-25
-revised: 2026-07-27
+revised: 2026-07-28
 current_routing_authority: CURRENT-RESEARCH.yaml
 ---
 
@@ -55,9 +55,29 @@ The charter keeps three outcomes coequal:
    physical processes identified by the certified-record description.
 
 Underidentification is incomplete work, not a fourth verdict.
-“Observer-indexed” is initially an operational index over records, access,
-interventions, and capability. It does not deny a global state or preferred
-foliation. Stronger ontology must declare the assumptions it uses.
+
+## Perspective and reality type rule
+
+Dynamic Unity adopts minimal scientific realism: admitted systems,
+interactions, occurrences, and physically formed records are not constituted
+by an observer's knowledge of them. It remains neutral among detailed
+ontologies and priority claims.
+
+Keep three coordinates independent:
+
+- **Scope:** local/observer-indexed, regional/public, or global/completion.
+- **Status:** ontic physical occurrence or epistemic belief, forecast, and
+  scientific representation.
+- **Formation:** disclosure from a frozen prior completion or candidate
+  issuance beyond it.
+
+Observer-indexed means indexed to a physical subsystem's records, access,
+interventions, actions, and resources—not subjective or mind-dependent.
+Public certification means jointly action-available under a declared
+contract—not global ontology. Beginning reconstruction from records is an
+epistemic method, not proof that records create or constitute reality. The
+quantum state's ontic, epistemic, relational, operational, or mixed role must
+be declared per candidate.
 
 ## Scientific architecture
 
@@ -112,13 +132,9 @@ The North Star remains open. Dynamic Unity has not established a record-first
 ontology, new physical law, selected observer, proper time, emergent geometry,
 public-classicality law, or cosmology.
 
-It has earned a substantial exact control stack: history
-factorization-or-witness results; completion-relative reconstruction,
-refinement, and remainder tests; separation of formation, retention, access,
-certification, finality, and capability; regional composition controls;
-law-filtered and causally closed physical counterexamples; and repeated
-absorption of apparent remainders by omitted environment, provenance, route,
-controller, decoder, intervention, or resource structure.
+It has earned exact history-factorization, completion-relative
+reconstruction, refinement, remainder, typed-record, regional-composition,
+law-filtered counterexample, and omitted-structure absorption controls.
 
 For the accumulated result-by-result map, use the historical
 [`EARNED-RESULTS-INDEX.md`](EARNED-RESULTS-INDEX.md). Before reusing a surprising
@@ -128,34 +144,30 @@ Neither file routes current work.
 
 ## Current work and stable topology
 
-- [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml) is the sole mutable
-  authority for active, prepared, parked, blocked, next-action, stop, reopen,
-  WIP, and typed dependency state.
+- [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml) alone routes current work.
 - [`LANES.yaml`](LANES.yaml) defines stable scientific responsibilities and
   work methods. It does not choose today’s task.
 - [`docs/certified-causal-reality-research-program.md`](docs/certified-causal-reality-research-program.md)
   defines durable scientific contracts.
 - [`explorations/`](explorations/) and [`lab/process/runs/`](lab/process/runs/)
-  hold dated evidence and receipts. A dated “active” label is historical.
-- [`runs/`](runs/) is a preserved legacy receipt home. It is non-routing and
-  receives no new governed runs.
+  hold evidence and receipts; dated status labels are historical.
+- [`runs/`](runs/) is preserved non-routing legacy evidence.
 
 Publication extraction is a separate WIP class. A prepared paper does not
 become a second scientific flagship and never promotes the underlying grade.
 
 ## First ten minutes
 
-1. Read [`AGENTS.md`](AGENTS.md) for governance and research discipline.
-2. Read this page for the stable charter and boundaries.
-3. Parse [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml); identify the one
+1. Read [`AGENTS.md`](AGENTS.md) and this page.
+2. Parse [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml); identify the one
    executable action and its controls, or confirm that the portfolio is in
    an explicit no-ready quiescent state.
-4. Read only the referenced evidence needed for that action.
-5. Use [`LANES.yaml`](LANES.yaml) to name the owning lane and work channel.
-6. Before central quantum/foundations prioritization, consult the
+3. Read only its referenced evidence; use [`LANES.yaml`](LANES.yaml) to name
+   the owning lane and channel.
+4. Before central quantum/foundations prioritization, consult the
    non-authoritative
    [`quantum-foundations orientation surface`](docs/quantum-foundations-orientation-surface.md).
-7. Before a local model, apply
+5. Before a local model, apply
    [`LMLG-01`](lab/process/local-model-learning-gate.md).
 
 If any document disagrees with `CURRENT-RESEARCH.yaml` about current routing,
@@ -163,38 +175,21 @@ the YAML wins and the duplicate assertion is a defect to remove.
 
 ## Selecting and scoping work
 
-Every swing states:
+Every swing states its typed question, lane/channel, grade ceiling, evidence
+consumed, uncertainty changed, absorber, discriminator, kill, stop, output,
+and local-model, external-dependency, or publication status. It also declares
+the three coordinates above.
 
-- exact question and typed object;
-- lane and channel;
-- current and maximum evidence grade;
-- strongest absorber and smallest discriminator;
-- completed evidence it consumes;
-- remaining uncertainty it changes;
-- cheapest kill, stop condition, and durable output;
-- whether the work is local formal analysis, a learning-gated model, an
-  external dependency, or publication extraction.
-
-One active scientific flagship is the default. A bounded side probe may run
-only when it can change the flagship decision cheaply. A successor is selected
-after the current flagship returns, not by preserving narrative momentum.
-When no candidate satisfies its exact reopener, the portfolio may be
-explicitly quiescent with no executable scientific action rather than inventing
-work. Parked work has no executable action and must carry an exact reopener.
+Use one scientific flagship, at most one decision-changing side probe, and
+only separately typed publication extraction. Select successors after the
+current return. If no reopener is satisfied, remain explicitly quiescent;
+parked work has no action and carries an exact reopener.
 
 ## Artifact homes
 
-| Artifact | Home |
-|---|---|
-| Live portfolio and routing | `CURRENT-RESEARCH.yaml` |
-| Stable lane/channel topology | `LANES.yaml` |
-| Dated scientific result | `explorations/` |
-| Governed run plan/receipt | `lab/process/runs/` |
-| Legacy non-routing run receipt | `runs/` |
-| Deterministic probe | `tests/` and `tests/artifacts/` |
-| Durable program contract | `docs/` |
-| Paper source and portfolio | `papers/` |
-| Cross-repository ownership | `CONNECTIONS.md` |
+Use `docs/` for contracts, `explorations/` for dated results,
+`lab/process/runs/` for governed runs, `tests/` for probes, `papers/` for
+publication sources, and `CONNECTIONS.md` for ownership.
 
 Do not edit dated receipts to make them look current. Supersede them through
 new evidence and update only the live authority. The former accumulated
@@ -207,6 +202,8 @@ manifest is preserved at [`LANES-HISTORY.yaml`](LANES-HISTORY.yaml).
 - No endpoint-only substitute for multi-time/interventional history.
 - No observer, archive, pointer, certificate, or finality rule smuggled in by
   vocabulary.
+- No cast from observer-indexed to subjective, public to global ontology,
+  record-relative determinacy to issuance, or settlement to source truth.
 - No distributed-systems theorem transferred without its exact assumptions.
 - No cross-repository custody treated as physical evidence.
 - No ontology promotion from a finite fixture or operational duality.

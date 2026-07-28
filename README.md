@@ -3,7 +3,7 @@ title: "Dynamic Unity — Certified Causal Reality"
 status: active_research
 doc_type: overview
 created: 2026-07-21
-revised: 2026-07-27
+revised: 2026-07-28
 current_routing_authority: CURRENT-RESEARCH.yaml
 ---
 
@@ -47,9 +47,9 @@ intelligible as one coherent, evidence-accountable whole.
 
 Certified Causal Reality asks:
 
-> Can everything that becomes physically real and actionable for an observer
-> be reconstructed from causal histories the observer can certify? If not,
-> what irreducible physical structure is required?
+> Can independently formed physical records reconstruct every response,
+> observable, and capability available within a declared observer/access
+> contract? If not, what additional physical structure is required?
 
 It keeps three outcomes open:
 
@@ -61,11 +61,14 @@ It keeps three outcomes open:
 3. **Physics-first remainder:** a finite admitted intervention separates
    physical processes identified by the candidate record description.
 
-The repository does not assume that information or records are fundamental.
-Underidentification is incomplete work, not a verdict. “Observer-indexed” is
-initially an operational index over records, access, interventions, actions,
-and resources; it does not by itself deny a global state or preferred
-foliation.
+The repository uses methodological physical realism while remaining neutral
+among detailed ontologies. Physical systems, interactions, occurrences, and
+formed records are not identified with anyone's beliefs. “Observer-indexed”
+names a physical access/action/resource relation, not subjectivity. Local,
+public, and global describe scope; ontic and epistemic describe status.
+Public certification is not global ontology, and record reconstruction is not
+record fundamentality. The quantum state's role and the disclosure-versus-
+issuance question remain candidate-specific and open.
 
 ## How it works
 

@@ -3,7 +3,7 @@ title: "Quantum-foundations tension and delta orientation"
 status: active_orientation
 doc_type: research_orientation
 created: 2026-07-25
-revised: 2026-07-27
+revised: 2026-07-28
 run_id: RUN-20260725-084418-tension-delta-orientation
 supersedes_orientation_run: RUN-20260725-083026-quantum-orientation-surface
 claim_grade: "KNOWN FOUNDATIONS TERRAIN + CANDIDATE DYNAMIC UNITY DELTAS / NO CLAIM OR PRIORITY AUTHORITY"
@@ -29,9 +29,9 @@ ledger, or assertion that every listed opening is real or fillable.
 
 The governing question remains:
 
-> **Can certified causal histories reconstruct everything that becomes
-> physically real and actionable for an observer, or does a finite physical
-> remainder survive?**
+> **Can independently formed physical records reconstruct every response,
+> observable, and capability available within a declared observer/access
+> contract? If not, what additional physical structure is required?**
 
 ## The orientation card
 
@@ -40,6 +40,12 @@ For any candidate direction, fill this before selecting work:
 ```yaml
 candidate:
 object_type:
+perspective_scope: local_system | regional_public | global_completion
+referent_status: ontic | epistemic | relational | operational | mixed
+quantum_state_role:
+formation_status: disclosure | candidate_issuance | undecided
+global_completion_status:
+locality_separability_foliation_assumptions:
 established_reach:
 tension_kind:
 exact_tension:
@@ -55,6 +61,58 @@ The key question is not “Which test can we attach?” It is:
 > **What relation, selection principle, composition law, reconstruction, or
 > physical consequence is absent from the best current account, and could
 > Dynamic Unity supply it?**
+
+## Perspective, ontology, and the EPR completeness question
+
+Dynamic Unity's default semantics are minimally realist: physical systems,
+interactions, occurrences, and formed records are not constituted by an
+agent's beliefs. This does not select a detailed global ontology or decide
+whether the quantum state is ontic, epistemic, relational, operational, or
+mixed.
+
+Perspective and status are independent coordinates:
+
+| Scope | Ontic example | Epistemic example |
+|---|---|---|
+| local/system-indexed | a detector interaction and physically retained record | that system's probability assignment or forecast |
+| regional/public | an authenticated, action-safe record available to a declared participant class | the participants' shared model or confidence |
+| global/completion | a candidate observer-independent physical history or relational structure | a scientific reconstruction of the whole |
+
+“First-person” should therefore be read as system-indexed only when the
+physical boundary is explicit; it is not a synonym for consciousness,
+subjectivity, or knowledge. “Third-person” is too ambiguous unless it is typed
+as publicly composable, external scientific description, or
+global-completion scope. Public finality does not establish global ontology.
+
+The 1935
+[Einstein--Podolsky--Rosen paper](https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777)
+offered a sufficient criterion of physical reality and argued that the
+wavefunction was incomplete under its completeness and locality/separability
+reasoning. It did not derive one particular hidden-variable ontology.
+[Bohr's reply](https://journals.aps.org/pr/abstract/10.1103/PhysRev.48.696)
+accepted that there need be no mechanical disturbance of the distant system
+but argued that the experimental arrangement changes the conditions defining
+possible predictions. This is contextual and phenomenon-centered; it should
+not be reduced to the claim that a conscious mind creates reality.
+
+Later Bell and Kochen--Specker results block important combinations of local
+factorization and context-independent value assignment. They do not by
+themselves refute observer-independent reality. Dynamic Unity therefore takes
+the **EPR completeness question**, not the full EPR conclusion, as live:
+
+1. a global completion may exist and local records may disclose parts of it;
+2. a global ontology may be contextual, nonlocal, nonseparable, or relational
+   rather than a classical value catalogue;
+3. system-indexed physical events may be primitive with only constrained
+   cross-perspective gluing;
+4. physical and record descriptions may remain operationally dual, leaving
+   priority undecidable inside the admitted action envelope; or
+5. an interaction may physically issue a distinction absent from every
+   independently warranted prior completion.
+
+The fifth branch requires a formation mechanism, source-relative completion
+test, and finite consequence. Record-relative determinacy, Bayesian update,
+internal underivability, or public settlement alone is not evidence for it.
 
 ## Kinds of tension
 

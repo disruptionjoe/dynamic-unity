@@ -48,9 +48,13 @@ and method live in [`LANES.yaml`](../LANES.yaml).
 
 ## Central adjudication
 
-Can everything that becomes physically real and actionable for an observer be
-reconstructed from causal histories the observer can certify? If not, what
-irreducible physical structure is required?
+Can independently formed physical records reconstruct every response,
+observable, and capability available within a declared observer/access
+contract? If not, what additional physical structure is required?
+
+Separately, do record-forming interactions merely disclose distinctions fixed
+by an independently warranted prior completion, or can any physically issue a
+new distinction? Reconstruction and formation are different adjudications.
 
 The program keeps three outcomes open:
 
@@ -174,17 +178,52 @@ A public-finality claim requires:
 Redundancy, copying, confidence, consensus, threshold crossing, decoherence,
 or a cryptographic signature does not alone supply all of these.
 
-## Observer indexing
+## Perspective and ontology contract
 
-Observer indexing is initially methodological and operational: it indexes
-records, access, interventions, actions, and resources. It does not by itself
-deny a global state, preferred foliation, or observer-independent completion.
+Dynamic Unity uses **methodological physical realism**. Within an admitted
+candidate theory, systems, interactions, occurrences, and physically formed
+records are not constituted by an observer's beliefs about them.
+“Ontology-neutral” means neutral among detailed physical ontologies and
+priority claims; it does not identify reality with knowledge or language.
 
-Any stronger perspectival ontology must declare which contextuality, locality,
-friend-style, foliation, global-completion, or measurement assumptions make it
-necessary. A hidden structure inaccessible to every admitted observer is not
-thereby false; it is operationally unavailable and must earn relevance through
-some other consequence.
+Three coordinates must remain independent:
+
+| Coordinate | Typed alternatives | Forbidden inference |
+|---|---|---|
+| Perspective or scope | local/system-indexed; regional/public; global/completion | local is not epistemic; public is not globally complete |
+| Status | ontic physical occurrence/structure; epistemic belief, probability, forecast, or scientific representation | an epistemic description can concern ontic reality; an experience can be a physical event while its represented content remains epistemic |
+| Formation | disclosure from the frozen prior completion; candidate issuance beyond it; undecided | record formation or internal underivability does not by itself prove issuance |
+
+Use “observer-indexed” for a physical subsystem's records, access,
+interventions, actions, targets, and resources. It does not by itself mean
+subjective, consciousness-dependent, ontologically relative, or incompatible
+with a global state or preferred foliation. Use “public” for a fact certified
+and action-available to a declared participant class under a fault, resource,
+and rollback contract. Public or composition-global finality is not the
+observer-independent global ontology.
+
+The act of constructing a scientific ontology is epistemic; the proposed
+referent may be ontic. The quantum state must therefore be typed per candidate
+as ontic, epistemic, relational, operational, or mixed. Dynamic Unity takes
+the EPR completeness question seriously without treating the EPR conclusion,
+classical context-independent values, locality, separability, or wavefunction
+incompleteness as established.
+
+**Disclosure** means the target distinction is already fixed or generated
+inside the independently frozen source/completion class. **Source issuance**
+means a physical source forms a distinction not fixed by that class after
+completed-history, generator, controller, and fixed-oracle rivals are
+exhausted. External computability does not by itself prove disclosure;
+first-person or internal underivability does not by itself prove issuance.
+
+Beginning reconstruction from local records is an epistemic method forced by
+the evidence available to investigators. It is not evidence that records are
+fundamental, create reality, or exhaust the global ontology. Any stronger
+perspectival or record-first ontology must declare its contextuality,
+locality, friend-style, foliation, global-completion, and measurement
+assumptions and earn a theorem or finite consequence. Hidden structure
+inaccessible to every admitted observer is operationally unavailable, not
+thereby nonexistent.
 
 ## Regional and recursive composition
 
@@ -227,11 +266,15 @@ Every central candidate freezes before assessment:
 
 1. physical state/history and full multi-time/intervention process;
 2. primitive precedence/composition relation;
-3. all supplied temporal, geometric, field, and foliation structure;
-4. record instrument, provenance, pointer/archive and retention rule;
-5. observer/access boundary and admissible capability class;
+3. all supplied temporal, geometric, field, foliation, global-completion,
+   locality, and separability structure;
+4. record instrument, provenance, pointer/archive, retention rule, and whether
+   the claimed object is physical or epistemic;
+5. observer/access boundary, perspective scope, admissible capability class,
+   and quantum-state role;
 6. rival/adversary class, certificate, finalizer, and representation group;
-7. resource and completion boundaries;
+7. resource and completion boundaries, plus disclosure, issuance, or
+   undecided formation status;
 8. held-out targets, standard null, strongest absorber, and finite falsifier;
 9. current and maximum evidence grade;
 10. cheapest kill, stop condition, and reopener.

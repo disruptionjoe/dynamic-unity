@@ -14,7 +14,9 @@ preserves distinctions among operational frameworks, ontological models,
 interpretations, causal models, emergence mechanisms, no-go theorems, and
 physical extensions; identifies the opening each leaves and the contribution
 Dynamic Unity might supply; then points resulting work back to its canonical
-ledger.
+ledger. The governing perspective/ontology contract remains in
+`certified-causal-reality-research-program.md`; the foundations surface applies
+it to the EPR/Bohr completeness question and candidate theory families.
 
 Earlier detailed program chronologies remain recoverable in repository
 history. Their progress and “next” language is historical evidence, not

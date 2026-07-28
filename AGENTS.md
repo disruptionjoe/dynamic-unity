@@ -1,22 +1,19 @@
 # Dynamic Unity — Agent Instructions
 
-This repository is the Dynamic Unity research program. It owns its claims,
-grades, lanes, channels, tests, papers, and explorations.
+This repository owns Dynamic Unity's claims, grades, lanes, channels, tests,
+papers, and explorations.
 
 ## Required read order
 
-1. Read this file.
-2. Read `START-HERE.md` for the stable charter and evidence boundary.
-3. Parse `CURRENT-RESEARCH.yaml`. It is the sole mutable authority for current
+1. Read this file and `START-HERE.md`.
+2. Parse `CURRENT-RESEARCH.yaml`. It is the sole mutable authority for current
    priority, WIP, execution, next action, stops, reopeners, and typed
    dependencies.
-4. Read only the evidence referenced by the selected work.
-5. Use `LANES.yaml` to assign stable scientific responsibility and method.
+3. Read only evidence referenced by the selected work.
+4. Use `LANES.yaml` to assign stable responsibility and method.
 
-`README.md`, the durable program document, registers, dated explorations,
-run receipts, `EARNED-RESULTS-INDEX.md`, and `LANES-HISTORY.yaml` do not route
-current work. If they disagree with `CURRENT-RESEARCH.yaml`, repair the
-duplicate assertion; do not silently choose the dated file.
+All other documents are non-routing. If one disagrees with
+`CURRENT-RESEARCH.yaml`, repair its duplicate assertion.
 
 ## Posture
 
@@ -43,19 +40,33 @@ reconstruction, operational duality, and physics-first remainder.
 Underidentification is not a verdict. Record ontology is not charter doctrine,
 and operational equivalence does not establish metaphysical priority.
 
+Dynamic Unity uses **methodological physical realism**: admitted systems,
+interactions, occurrences, and formed records are not constituted by an
+agent's beliefs. Detailed ontology remains open. Keep three coordinates
+independent:
+
+- local/observer-indexed, regional/public, and global/completion describe
+  physical or operational scope;
+- ontic occurrence and epistemic belief, forecast, or model describe status;
+- disclosure and issuance describe whether a distinction was already fixed
+  by the frozen prior completion class or was physically formed beyond it.
+
+Observer-indexed does not mean subjective. Public does not mean globally
+complete. Starting from records is an evidence method, not proof that records
+are fundamental. EPR motivates a completeness question; it does not establish
+classical hidden values, locality, separability, or wavefunction
+incompleteness.
+
 Geometric Unity is an originating inspiration, conditional input, rival, and
 recovery target—not the assumed substrate. Cross-repository custody is never
 evidence. Read `CONNECTIONS.md` before relying on a sibling result.
 
 ## Open exploration, honest banking
 
-Use derivation, abduction, synthesis, counterfactual construction,
-analogy-as-structure, simulation, and adversarial refutation where appropriate.
-Derivation is not the sole warrant. Warrant types are non-ordinal: derived,
-conditionally entailed, constructively realized, abductively preferred, and
-structural analogy answer different questions.
+Use derivation, abduction, synthesis, counterfactual construction, analogy,
+simulation, and adversarial refutation as appropriate.
 
-The discipline applies at banking and publication:
+At banking and publication:
 
 - separate what is shown from what is posited;
 - state assumptions, scope, strongest absorber, falsifier, and maximum grade;
@@ -115,6 +126,10 @@ Apply these stops:
   quotient.
 - **No ontology inflation.** A finite fixture, analogy, or operational duality
   is not universal fundamentality.
+- **No perspective/status cast.** Do not equate system-indexed with epistemic
+  or subjective, or public/cross-perspective with global ontology.
+- **No formation cast.** Record-relative determinacy or internal
+  underivability is not source issuance; settlement is not source truth.
 - **No cross-domain theorem by metaphor.** FLP, CAP, CALM, consensus,
   cryptographic, complexity, and network results transfer only through their
   exact assumptions.
@@ -124,18 +139,9 @@ non-authoritative `docs/quantum-foundations-orientation-surface.md`.
 
 ## Current-state and WIP contract
 
-`CURRENT-RESEARCH.yaml` enforces:
-
-- exactly one active scientific flagship and executable scientific action
-  whenever research is active, or an explicit quiescent
-  `NO_READY_SCIENTIFIC_SUCCESSOR` state with neither;
-- at most one bounded side probe that can cheaply change that decision;
-- at most one separately typed publication candidate using banked science;
-- no preselected scientific successor;
-- no executable action on parked work;
-- exact cheapest-kill, stop, and reopen rules;
-- typed dependencies that distinguish logical prerequisites, tests,
-  extraction, external ownership, and nonblocking work.
+`CURRENT-RESEARCH.yaml` enforces one active flagship/action or explicit
+no-ready quiescence, bounded WIP, no preselected successor or parked
+executable, exact stop/reopen rules, and typed dependencies.
 
 A prepared paper is not a second scientific program. Paper readiness never
 promotes the underlying scientific grade. A new anomaly enters the registers;
@@ -183,10 +189,10 @@ Do not create a lane for a method, persona, or temporary hypothesis.
 
 ## Cold-start work contract
 
-Before acting, an agent must be able to state:
+Before acting, state:
 
 1. the Purpose and North Star;
-2. the honest evidence boundary;
+2. the honest evidence boundary and perspective/ontology contract;
 3. the active scientific program and executable action—or the explicit
    no-ready quiescent state—read from `CURRENT-RESEARCH.yaml`;
 4. the completed evidence and remaining obligation the action consumes;
@@ -195,8 +201,7 @@ Before acting, an agent must be able to state:
 6. which dependencies are internal, conditional, external, or nonblocking;
 7. the local-model or hardware disposition, if relevant.
 
-If this cannot be recovered unambiguously, repair orientation before
-scientific work.
+If this is ambiguous, repair orientation before scientific work.
 
 ## Repository operations
 

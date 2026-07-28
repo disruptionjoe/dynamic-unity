@@ -28,6 +28,8 @@ SCHEMA_PATH = ROOT / "CURRENT-RESEARCH.schema.json"
 LANES_PATH = ROOT / "LANES.yaml"
 COUNTER_REGISTER = ROOT / "COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md"
 ARTIFACT_PATH = ROOT / "tests" / "artifacts" / "du_agent_orientation_contract_result.json"
+FOUNDATIONS_PATH = ROOT / "docs" / "quantum-foundations-orientation-surface.md"
+CONCEPT_REGISTER_PATH = ROOT / "explorations" / "concept-register.md"
 
 STABLE_FILES = {
     "start": ROOT / "START-HERE.md",
@@ -72,8 +74,44 @@ EXPECTED_GRADES = {
     4: "selection_or_necessity",
     5: "remainder_or_prediction",
 }
-EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 242
+EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 246
 CURRENT_AUTHORITY_NAME = CURRENT_PATH.name
+
+SEMANTIC_MARKERS = {
+    "start": (
+        "Dynamic Unity adopts minimal scientific realism",
+        "Keep three coordinates independent",
+        "Observer-indexed means indexed to a physical subsystem's records",
+        "Public certification means jointly action-available",
+        "Beginning reconstruction from records is an epistemic method",
+    ),
+    "agents": (
+        "methodological physical realism",
+        "Observer-indexed does not mean subjective",
+        "Public does not mean globally complete",
+        "Record-relative determinacy or internal underivability is not source issuance",
+    ),
+    "program": (
+        "Perspective and ontology contract",
+        "The act of constructing a scientific ontology is epistemic",
+        "Public or composition-global finality is not the observer-independent global ontology",
+        "first-person or internal underivability does not by itself prove issuance",
+        "EPR completeness question seriously",
+    ),
+    "foundations": (
+        "Perspective, ontology, and the EPR completeness question",
+        "Einstein--Podolsky--Rosen paper",
+        "Bohr's reply",
+        "They do not by themselves refute observer-independent reality",
+        "perspective_scope: local_system | regional_public | global_completion",
+        "formation_status: disclosure | candidate_issuance | undecided",
+    ),
+    "concepts": (
+        "Perspective and status guard",
+        "record-relative determinacy and candidate physical formation",
+        "This formal core does not decide whether the proposition pre-existed",
+    ),
+}
 
 
 def load_yaml(path: Path) -> dict[str, Any]:
@@ -118,6 +156,16 @@ def assert_acyclic(edges: dict[str, set[str]]) -> None:
         visit(node)
 
 
+def missing_semantic_markers(semantic_texts: dict[str, str]) -> list[str]:
+    missing: list[str] = []
+    for name, markers in SEMANTIC_MARKERS.items():
+        normalized_text = normalized_prose(semantic_texts[name])
+        for marker in markers:
+            if normalized_prose(marker) not in normalized_text:
+                missing.append(f"{name}:{marker}")
+    return missing
+
+
 def validate_json_schema(current: dict[str, Any]) -> str:
     schema = json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
     if schema.get("$schema") != "https://json-schema.org/draft/2020-12/schema":
@@ -137,6 +185,7 @@ def validate_authority(
     lanes: dict[str, Any],
     stable_texts: dict[str, str],
     historical_texts: dict[str, str],
+    semantic_texts: dict[str, str],
 ) -> dict[str, Any]:
     checks: list[dict[str, Any]] = []
 
@@ -600,6 +649,17 @@ def validate_authority(
         f"all stable charter copies match LANES.yaml program_charter; errors={charter_errors}",
     )
 
+    semantic_missing = missing_semantic_markers(semantic_texts)
+    check(
+        "perspective_ontology_semantic_contract",
+        not semantic_missing,
+        (
+            "cold-start and durable surfaces preserve independent perspective, "
+            "ontic/epistemic, and disclosure/issuance coordinates; "
+            f"missing={semantic_missing}"
+        ),
+    )
+
     check(
         "historical_snapshot_guards",
         "historical_snapshot" in historical_texts["results_history"]
@@ -673,6 +733,13 @@ def validate_authority(
         "honest_evidence_boundary": (
             "has not established" in stable_texts["start"].lower()
             and bool(context_program.get("current_grade"))
+        ),
+        "perspective_ontology_contract": (
+            "minimal scientific realism" in stable_texts["start"].lower()
+            and "observer-indexed does not mean subjective"
+            in stable_texts["agents"].lower()
+            and "public certification means jointly action-available"
+            in stable_texts["start"].lower()
         ),
         "active_or_quiescent_state": (
             quiescent
@@ -776,10 +843,21 @@ def run() -> dict[str, Any]:
         name: path.read_text(encoding="utf-8")
         for name, path in HISTORICAL_FILES.items()
     }
+    semantic_texts = {
+        "start": stable_texts["start"],
+        "agents": stable_texts["agents"],
+        "program": stable_texts["program"],
+        "foundations": FOUNDATIONS_PATH.read_text(encoding="utf-8"),
+        "concepts": CONCEPT_REGISTER_PATH.read_text(encoding="utf-8"),
+    }
 
-    report = validate_authority(current, lanes, stable_texts, historical_texts)
+    report = validate_authority(
+        current, lanes, stable_texts, historical_texts, semantic_texts
+    )
     mutated, replacements = mutated_state_fixture(current)
-    mutated_report = validate_authority(mutated, lanes, stable_texts, historical_texts)
+    mutated_report = validate_authority(
+        mutated, lanes, stable_texts, historical_texts, semantic_texts
+    )
     original_payload = json.dumps(current, sort_keys=True)
     mutated_payload = json.dumps(mutated, sort_keys=True)
     if any(old in mutated_payload for old in replacements):
@@ -796,6 +874,31 @@ def run() -> dict[str, Any]:
                 "scientific-program, any active action, publication-program, "
                 "and candidate IDs were mutated in memory and the unchanged "
                 "validator passed"
+            ),
+        }
+    )
+    semantic_mutation_failures: list[str] = []
+    for name, markers in SEMANTIC_MARKERS.items():
+        marker = markers[0]
+        mutated_semantics = dict(semantic_texts)
+        mutated_semantics[name] = mutated_semantics[name].replace(
+            marker, "REMOVED_SEMANTIC_CONTRACT_MARKER", 1
+        )
+        missing = missing_semantic_markers(mutated_semantics)
+        if not any(item.startswith(f"{name}:") for item in missing):
+            semantic_mutation_failures.append(name)
+    if semantic_mutation_failures:
+        raise AssertionError(
+            "perspective_contract_negative_mutations: "
+            f"mutations escaped={semantic_mutation_failures}"
+        )
+    report["checks"].append(
+        {
+            "id": "perspective_contract_negative_mutations",
+            "pass": True,
+            "detail": (
+                "removing one required marker from each cold-start, durable, "
+                "foundations, and concept surface was rejected"
             ),
         }
     )

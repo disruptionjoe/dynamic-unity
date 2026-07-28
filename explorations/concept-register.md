@@ -3,7 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
-revised: 2026-07-27
+revised: 2026-07-28
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -24,6 +24,17 @@ note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and seve
    - A surviving formalization → **CONCEPT-SUPPORTED** (by that route).
 5. **Only falsification of the INVARIANT closes the concept.** A dead articulation is a dead
    articulation.
+
+## Perspective and status guard
+
+Concept language does not override the durable
+[`perspective and ontology contract`](../docs/certified-causal-reality-research-program.md#perspective-and-ontology-contract).
+System-indexed versus public/global scope and ontic versus epistemic status
+are independent axes. A completion-class invariant earns record-relative
+determinacy; ontic formation requires an independently realized physical
+process and consequence. Public certification earns action-qualified
+composability, not global ontology. Historical “first-person,”
+“third-person,” and “actuality” language must be read through this contract.
 
 ---
 
@@ -875,11 +886,11 @@ resolution-stable intervention role. No claim is banked or seeded. See
 
 ## CONCEPT-DU-004 — certified causal sufficiency and physical remainder
 
-- **Concept (articulation-invariant).** An observer's effective physical
-  reality may be reconstructible from an independently specified,
-  interventionally complete, adversary-robust and resource-accounted quotient
-  of causal history. If it is not, a finite admitted intervention should expose
-  the additional physical structure required.
+- **Concept (articulation-invariant).** Observer-accessible physical targets
+  may be reconstructible from an independently specified, interventionally
+  complete, adversary-robust and resource-accounted quotient of causal
+  history. If they are not, a finite admitted intervention should expose the
+  additional physical structure required.
 - **Concept INVARIANT.**
   1. Record generation, provenance, access and certification are defined
      independently of the target physical predictions.
@@ -1492,16 +1503,18 @@ quotient is not automatically a physically materialized record.
 five-position `N5-RS` sequence is complete and returns
 `NORTH_STAR_PORTFOLIO_RESET`, not a sixth record host.
 
-## CONCEPT-DU-005 — record-relative actuality and completion-class refinement
+## CONCEPT-DU-005 — record-relative determinacy and candidate physical formation
 
 - **Concept (articulation-invariant).** Relative to a declared record-bearing
   agent \(A\), an inaccessible region may be physically represented by the
   class \(\Omega_A\) of process histories compatible with \(A\)'s certified
   records, rather than by one assumed completed biography. A proposition is
-  actual for \(A\) when it is invariant across \(\Omega_A\). A physical
-  interaction may refine that class and form a new shared fact; it need not be
-  interpreted as merely revealing which globally completed biography was
-  always selected.
+  **record-determinate for \(A\)** when it is invariant across \(\Omega_A\).
+  This formal core does not decide whether the proposition pre-existed, is
+  merely learned, or is ontically formed. The stronger candidate says a
+  physical interaction may refine the class and form a new shared fact rather
+  than merely reveal one globally completed biography; that is a separate
+  formation hypothesis.
 - **Concept INVARIANT.**
   1. No agent is privileged. Every record network receives the same object,
      access, intervention, adversary and resource typing.
@@ -1510,8 +1523,9 @@ five-position `N5-RS` sequence is complete and returns
      proposition whose actuality is being tested. An empty class means the
      comparison contract is inconsistent, not that every proposition is
      actual.
-  3. Actuality means invariance across the admissible class, not confidence,
-     redundancy, ignorance or terminal-state equality.
+  3. Record-relative determinacy means invariance across the admissible class,
+     not confidence, redundancy, ignorance, terminal-state equality, or
+     physical creation.
   4. Refinement is implemented by a physical instrument or channel with
      retained provenance and charged resources.
   5. Binding, certification and disclosure may separate: a region can
@@ -1553,18 +1567,19 @@ five-position `N5-RS` sequence is complete and returns
   sufficiency are known components. The open DU question is whether a
   target-independent physical refinement law yields a discriminator beyond
   those representations.
-- **Status:** **CONCEPT-OPEN / COMPLETION-CLASS REPRESENTATIONS KNOWN /
-  PHYSICAL SHARED-FACT REFINEMENT LAW OPEN / NO ONTOLOGY SELECTED.** No claim
-  is banked or seeded. See
+- **Status:** **RECORD-RELATIVE DETERMINACY FORMALIZED /
+  PHYSICAL SHARED-FACT FORMATION LAW OPEN / NO ONTOLOGY SELECTED.** No claim is
+  banked or seeded. See
   `science-council-record-relative-actuality-concept-ledger-triage-2026-07-24.md`.
 
 ### 2026-07-24 open-frontier correction: passive refinement is flat
 
 For a frozen completion space, passive certified updates
-\(J_c(X)=X\cap C_c\) commute and are idempotent. Actuality—constancy on the
-remaining class—is monotone under every nonempty refinement. Purely learning
-fixed facts therefore cannot create an order-dependent past or reconciliation
-holonomy. A nonzero route effect requires active disturbance, loss,
+  \(J_c(X)=X\cap C_c\) commute and are idempotent. Record-relative
+  determinacy—constancy on the remaining class—is monotone under every
+  nonempty refinement. Purely learning fixed facts therefore cannot create an
+  order-dependent past or reconciliation holonomy. A nonzero route effect
+  requires active disturbance, loss,
 context-dependent translation, noncommuting instruments, a changed model
 class, omitted provenance, or an approximate/resource-bounded comparison.
 Pairwise satisfiability with an empty global intersection is a gluing
@@ -1618,9 +1633,9 @@ PHYSICAL SELECTION OF THAT STRUCTURE OPEN.** See
 
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
-- **Concept (articulation-invariant).** Fully real record perspectives may be
-  joined by physical reconciliation maps. Pairwise consistent maps need not
-  form one globally flat comparison structure: composing
+- **Concept (articulation-invariant).** Physically instantiated record-bearing
+  systems may be joined by physical reconciliation maps. Pairwise consistent
+  maps need not form one globally flat comparison structure: composing
   \(A\rightarrow B\rightarrow C\rightarrow A\) may leave a measurable,
   gauge-invariant loop residue or irreducible reconciliation cost.
   “Creating a joint past” means forming a new compatible joint record section
@@ -1845,8 +1860,9 @@ that bound survives reversible implementation.
 ## CONCEPT-DU-009 — protected public-fact phases
 
 - **Concept (articulation-invariant).** A private distinction can become a
-  durable public fact when it is encoded into a record structure that admits
-  sufficiently independent, compatible and adversary-robust access. In
+  durable, publicly certified action fact when it is encoded into a record
+  structure that admits sufficiently independent, compatible and
+  adversary-robust access. In
   suitable growing families, that change may exhibit a threshold, percolation
   front, protected logical phase or hysteretic transition. There is no
   presumed universal scalar objectivity threshold.
@@ -1951,8 +1967,8 @@ prediction promotion occurs.
 ## CONCEPT-DU-010 — observer identity as record colimit
 
 - **Concept (articulation-invariant).** A persistent observer or person may be
-  physically individuated by the successful gluing of compatible,
-  causally connected first-person record sections rather than by one hidden
+  physically individuated by the successful gluing of compatible, causally
+  connected system-indexed formed-record sections rather than by one hidden
   substrate label carried through every split and merge. Identity can
   therefore branch, overlap or remain genuinely underdetermined when the
   record-and-control structure does.
@@ -2004,9 +2020,9 @@ prediction promotion occurs.
 - **Concept (articulation-invariant).** The physically relevant organization
   may be a changing cover of causal record networks whose regions can become
   nodes in higher-level networks when they export independently formed,
-  action-sufficient boundary certificates. “Global” is then relative to a
-  declared regional composition and task, not one universal completed record;
-  “local” need not mean one observer or one spacetime point.
+  action-sufficient boundary certificates. “Composition-global” is then
+  relative to a declared regional composition and task, not one universal
+  completed record; “local” need not mean one observer or one spacetime point.
 - **Concept INVARIANT.**
   1. Regions may overlap, split, merge, and recur at several scales; they are
      not assumed to form one fixed tree.

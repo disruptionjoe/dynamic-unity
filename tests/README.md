@@ -16,9 +16,13 @@ an unselected successor. It validates `../CURRENT-RESEARCH.schema.json`; checks 
 `../LANES.yaml` contains only stable lane/channel/grade topology and the
 canonical structured charter; rejects copied live-routing assertions; verifies
 charter parity, run-home semantics, historical guards, entrypoint links, and a
-bounded context-isolated cold start. Its positive control mutates all current
-program/action/publication identifiers in memory and reruns the unchanged
-validator, proving current IDs are data rather than validator code. Use
+bounded context-isolated cold start. It also requires independent
+perspective/scope, ontic/epistemic, and disclosure/issuance coordinates across
+the cold-start, durable-program, foundations, and concept surfaces; one
+negative mutation per surface proves those markers are load-bearing. Its
+positive control mutates all current program/action/publication identifiers in
+memory and reruns the unchanged validator, proving current IDs are data rather
+than validator code. Use
 `--write-artifact` only when intentionally refreshing the compact deterministic
 receipt. Passing establishes routing integrity only, never physics, ontology,
 novelty, or paper readiness.
