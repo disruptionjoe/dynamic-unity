@@ -819,6 +819,17 @@ global quantum state. It rules out hiding all those types inside a scalar of
 the instantaneous state. See the
 [state-only record-functional gate](../explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md).
 
+**Capability--record closure (`HC-DU-064`).** Once a complete physical process
+and observer-indexed response-query family are frozen, the common response
+kernel is the unique coarsest exact record requirement. Conversely, a record
+equivalence determines every admitted query constant on its fibres. These
+maps form a Galois polarity whose closed pairs make a complete,
+representation-covariant lattice. The minimum classical two-bit and quantum
+Pauli-channel controls both yield the non-chain diamond \(M_3\). This is a
+positive relational replacement for a bare record scalar, but remains an
+operational quotient rather than a formed material record. See the
+[capability--record closure result](../explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

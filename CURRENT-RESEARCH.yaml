@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 12
+state_revision: 13
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat through 2026-07-27, including explicit authorizations
@@ -82,22 +82,21 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-063 closes bare state-only record functionals under full
-    representation invariance. Typed relational, process, and access
-    structures remain open; H-CCR-17 remains closed. No scientific successor
-    is selected. Publication hardening is unchanged.
+    HC-DU-064 derives a covariant, generally non-chain capability-record
+    lattice. Physical formation remains open; H-CCR-17 remains closed. No
+    successor is selected.
 
 programs:
-  - id: CCR-INTRINSIC-RECORD-FUNCTIONAL-GATE
+  - id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: complete
     execution_status: none
     wip_slot: none
-    primary_lane_id: '1'
+    primary_lane_id: '5'
     supporting_lane_ids:
+      - '1'
       - '2'
-      - '3'
       - '4'
       - '7'
     channel_ids:
@@ -105,47 +104,56 @@ programs:
       - CH-FORMAL
       - CH-COLLIDE
     target: >-
-      Completed: test bare state-only record-ness and identify the required
-      extra physical typing.
+      Completed: derive record requirements and regional composition from
+      frozen physical queries.
     current_grade: >-
-      HC-DU-063: scoped Grade-4 orbit-separation no-go and minimum-typing
-      necessity. Components are absorbed; no ontology, prediction, or new
+      HC-DU-064: scoped Grade-4 polarity, closure, covariance, and non-chain
+      transfer package. Components are absorbed; no formed record or new
       physics.
     evidence_grade: 4
     maximum_grade: >-
-      Complete at its scoped necessity grade; a selected typed-record theory
-      has an independent ceiling.
+      Complete at scoped necessity grade; a physical formation lift has an
+      independent ceiling.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral; full invariance applies only before physical typing.
-      Preferred foliation is off.
+      Assumption-neutral; process, query, horizon, and resource antecedents
+      are frozen. Preferred foliation is off.
     completed_dependencies:
+      - id: HC-DU-064
+        evidence_ref: explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
       - id: HC-DU-063
         evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - id: HC-DU-056
+        evidence_ref: explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
     remaining_obligations: []
     typed_dependencies:
-      - type: tests
-        target: INTRINSIC-STATE-ONLY-RECORD-FUNCTIONAL
-        target_type: premise
+      - type: requires
+        target: HC-DU-063
+        target_type: result
+      - type: requires
+        target: HC-DU-056
+        target_type: result
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Orbit invariance, subsystem relativity, SBS, and consistent histories.
+      Formal concept analysis, sufficient statistics, operational
+      equivalence, quantum combs, and process tensors.
     cheapest_kill: >-
-      Met: same-orbit copy and uncorrelated states have one bit versus zero
-      mutual information; a classical permutation control agrees.
+      Passed: the polarity and covariance squares hold, and the classical and
+      Pauli specimens realize the same non-chain M3 lattice.
     stop_rule: >-
-      Do not relabel another bare-state scalar as invariant record content.
+      Do not force finality into a scalar chain or call the quotient a formed
+      material record.
     reopen_rule: >-
-      Reopen for a theory selecting relational structure, process provenance,
-      access/action typing, and a natural functional that transfers unchanged.
+      Reopen for a physical record map realizing one closed pair with formed
+      provenance, access, charged decoders, and unchanged transfer.
     local_computation_boundary: >-
-      Exact finite witnesses complete; no model or hardware is authorized.
+      Exact analytic witnesses complete; no model or hardware is authorized.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
-      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
       - docs/quantum-foundations-orientation-surface.md
 
   - id: CCR-POST-EINSTEIN-LAW-FILTER
@@ -672,16 +680,15 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - physically-selected-typed-record-structure-and-natural-functional
+    - physical-formation-lift-of-closed-capability-record-pair
     - new-physical-formed-interface-selector
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
     Do not reactivate closed gates without their exact reopeners. A successor
-    must supply selected typed-record structure, a nonabsorbed law filter,
-    evidence for a missing formed interface, or a fresh locally decidable
-    proposition.
+    must physically form a closed pair, supply a nonabsorbed law filter, or
+    pose a fresh locally decidable proposition.
 
 anomaly_intake:
   status: open_non_wip

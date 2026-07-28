@@ -2273,6 +2273,28 @@ prediction promotion occurs.
   probe-limit archive, not a selected regionalization or new gravitational
   finality law. See
   `3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md`.
+- **2026-07-27 capability--record Galois closure.** `HC-DU-064` upgrades the
+  capability-indexed correction from one monotone family to a complete
+  architecture. For a fixed process and physical response-query universe,
+  query families map to their common response kernels, while record
+  equivalences map to every admitted query constant on their fibres. The
+  resulting polarity has closure operators and a complete lattice of fixed
+  capability--record pairs.
+
+  Regional pooling, when physically available, intersects response kernels;
+  common query content is controlled by the join of record relations. The
+  minimum two-bit control and the four Pauli-channel tester family both
+  realize the nondistributive diamond \(M_3\): three incomparable local
+  quotients, any two of which identify the complete specimen and determine
+  the third query. Regional finality is therefore generally a lattice, not
+  one scalar local-to-global chain.
+
+  The construction is representation-covariant and supplies a canonical
+  operational record requirement after the complete process, observer,
+  query, horizon, and resource contract are frozen. It does not physically
+  form that quotient, select those antecedents, supply provenance or access,
+  make decoders free, or reopen `H-CCR-17`. See
+  `capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
