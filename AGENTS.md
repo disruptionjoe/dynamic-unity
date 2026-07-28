@@ -126,7 +126,9 @@ non-authoritative `docs/quantum-foundations-orientation-surface.md`.
 
 `CURRENT-RESEARCH.yaml` enforces:
 
-- one active scientific flagship and one executable scientific action;
+- exactly one active scientific flagship and executable scientific action
+  whenever research is active, or an explicit quiescent
+  `NO_READY_SCIENTIFIC_SUCCESSOR` state with neither;
 - at most one bounded side probe that can cheaply change that decision;
 - at most one separately typed publication candidate using banked science;
 - no preselected scientific successor;
@@ -185,8 +187,8 @@ Before acting, an agent must be able to state:
 
 1. the Purpose and North Star;
 2. the honest evidence boundary;
-3. the active scientific program and one executable action, read from
-   `CURRENT-RESEARCH.yaml`;
+3. the active scientific program and executable action—or the explicit
+   no-ready quiescent state—read from `CURRENT-RESEARCH.yaml`;
 4. the completed evidence and remaining obligation the action consumes;
 5. its lane, channel, maximum grade, strongest absorber, cheapest kill, stop,
    and durable output;

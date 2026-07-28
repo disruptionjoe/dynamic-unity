@@ -7,11 +7,12 @@ not a test; controls are mandatory.
 `du_agent_orientation_contract_probe.py` is the exception in kind: it is a
 deterministic governance/cold-start contract rather than a scientific assay.
 It parses `../CURRENT-RESEARCH.yaml` as the sole mutable research authority;
-enforces one active scientific flagship and executable action, one separately
+enforces either one active scientific flagship with one executable action or
+an explicit no-ready quiescent state with neither; also enforces one separately
 typed prepared publication candidate, parked-work reopeners, WIP limits, typed
 dependency target namespaces, normalized lanes and grades, acyclicity,
-evidence-reference integrity, an embedded execution packet, and an unselected
-successor. It validates `../CURRENT-RESEARCH.schema.json`; checks that
+evidence-reference integrity, the conditional execution-packet contract, and
+an unselected successor. It validates `../CURRENT-RESEARCH.schema.json`; checks that
 `../LANES.yaml` contains only stable lane/channel/grade topology and the
 canonical structured charter; rejects copied live-routing assertions; verifies
 charter parity, run-home semantics, historical guards, entrypoint links, and a

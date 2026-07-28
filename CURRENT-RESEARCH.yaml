@@ -1,13 +1,13 @@
-current_research_contract_version: '1.1'
+current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 6
+state_revision: 7
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
   Science Council review of the repository-refinement plan, followed by Joe
   direct chat authorizing a branch-safe next-five sequence scaffold and then
-  executing its preferred-leaf descent and reopener-gated successor
-  tournament positions.
+  executing all five positions through the finite-consequence and
+  no-ready-successor reset.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -34,6 +34,7 @@ rules:
   parked_work_requires_reopen_rule: true
   successor_is_selected_after_current_flagship: true
   anomaly_intake_is_not_a_standing_lane: true
+  quiescent_no_ready_allowed: true
 status_enums:
   portfolio_status:
     - active
@@ -79,27 +80,27 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-NORTH-STAR-PORTFOLIO-RESET
-  executable_action_id: N5-CCR-BS-P5-RESET
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-059 closes literal seven-field minimality. The invariant is the
-    target-relative operational kernel, while the held-out target and
-    finality/fault rule are adjudication queries rather than independent
-    physical coordinates. The result is contract-dependent and mathematically
-    absorbed, so Position 4 does not open. Position 5 must compile the finite
-    consequence and reset the North-Star portfolio without an inherited
-    favorite. Publication hardening remains separately typed prepared output.
+    HC-DU-060 completes the branch-safe sequence. The invariant is the
+    target-relative operational quotient under a fixed antecedent, physical
+    object, external query, and derived verdict. Interface selection and
+    target sufficiency remain independent obligations. No physical-interface,
+    dynamics, lawful-reconstruction, corrected-theorem, finite-discriminator,
+    or hardware reopener fired. The portfolio is intentionally quiescent at
+    NO_READY_SCIENTIFIC_SUCCESSOR rather than inventing an executable action.
+    Publication hardening remains separately typed prepared output.
 
 programs:
   - id: CCR-NORTH-STAR-PORTFOLIO-RESET
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: active
-    execution_status: executable
-    wip_slot: scientific_flagship
-    active_work_id: N5-CCR-BS-P5-RESET
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -114,17 +115,17 @@ programs:
       - CH-FORMAL
       - CH-COLLIDE
     target: >-
-      Compile the strongest finite consequence of HC-DU-058/059, apply the
-      corrected object-query architecture to the whole live portfolio, and
-      activate exactly one locally decision-changing scientific successor or
-      return NO_READY_SCIENTIFIC_SUCCESSOR without inventing work.
+      Completed: compile the strongest finite consequence of HC-DU-058/059,
+      apply the corrected object-query architecture to the whole live
+      portfolio, and return NO_READY_SCIENTIFIC_SUCCESSOR when no exact
+      reopener fired.
     current_grade: >-
-      HC-DU-059 EARNS A SCOPED GRADE-4 FACTORIZATION, COMPRESSION, AND
-      CONTRACT-DEPENDENCE RESULT. Literal seven-coordinate minimality fails:
-      the held-out target is derived or external, finality splits into
-      carrier/rule/verdict, observer identity is operational, and named-field
-      minimality is representation-dependent. The joint operational kernel is
-      the invariant. Its mathematical core is fully absorbed.
+      HC-DU-060 BANKS THE SCOPED GRADE-4 CONSEQUENCE. Reconstruction is
+      constancy on target-relative operational-quotient fibres. Named-field
+      minimality is presentation-dependent; target and adjudication queries
+      remain external; interface selection and target sufficiency do not imply
+      one another. The component mathematics is fully absorbed. No current
+      physical reopener or finite discriminator survives.
     evidence_grade: 4
     maximum_grade: >-
       POSITION 5 IS A CONSEQUENCE/PRIORITY RESULT AND CANNOT PROMOTE SCIENCE.
@@ -138,6 +139,8 @@ programs:
       completion/gauge/representation/occurrence contract and must not treat
       the compressed schema as new physics.
     completed_dependencies:
+      - id: HC-DU-060
+        evidence_ref: explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md
       - id: HC-DU-059
         evidence_ref: explorations/presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md
       - id: HC-DU-058
@@ -152,12 +155,7 @@ programs:
         evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
       - id: HC-DU-054
         evidence_ref: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
-    remaining_obligations:
-      - State the strongest theorem/no-go and assumption boundary earned by HC-DU-058/059.
-      - Apply the corrected antecedent/physical-object/query/verdict roles to every candidate class.
-      - Require the exact reopener and locally decision-changing dependency before scoring promise.
-      - Activate exactly one successor or return no-ready-successor.
-      - Leave one executable action and preserve every parked branch whose reopener did not fire.
+    remaining_obligations: []
     typed_dependencies:
       - type: requires
         target: HC-DU-059
@@ -180,86 +178,25 @@ programs:
       branch whose missing physical premise and strongest absorber are
       unchanged.
     cheapest_kill: >-
-      If no candidate has a fired reopener and a locally decidable proposition
-      capable of changing a North-Star dependency, return
-      NO_READY_SCIENTIFIC_SUCCESSOR.
+      Met: no candidate has a fired reopener and a locally decidable,
+      unabsorbed proposition capable of changing a North-Star dependency.
     stop_rule: >-
-      Stop after banking the finite consequence and either activating exactly
-      one successor or recording NO_READY_SCIENTIFIC_SUCCESSOR. Do not execute
-      the successor, build a new host, promote a paper, or reopen a branch
-      whose exact reopener did not fire.
+      Satisfied. Do not build a new host, promote a paper into scientific
+      priority, reopen a branch whose exact reopener did not fire, or create a
+      standing discovery lane merely to fill the empty WIP slot.
     reopen_rule: >-
-      Not applicable while active. Any later successor must carry its own
-      explicit reopen rule.
+      A later scientific program must be authorized from new evidence that
+      satisfies an existing exact reopener, or from a new bounded contract
+      naming the dependency it can change, strongest absorber, cheapest kill,
+      maximum grade, and local first-learning point.
     local_computation_boundary: >-
       Document-level consequence compiler and hard-gate portfolio comparison
       only. No simulation, scaling, new literature campaign, hardware,
       provider, or external collaboration is needed.
-    next_action: >-
-      Execute Position 5 of the branch-safe knowledge sequence using
-      HC-DU-059's corrected object-query contract.
-    next_action_ref: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
-    execution_packet:
-      action_id: N5-CCR-BS-P5-RESET
-      exact_question: >-
-        What is the strongest finite consequence honestly earned by
-        HC-DU-058/059, and which single current scientific program, if any,
-        can now change the North-Star verdict locally without repeating an
-        absorber or confusing physical object data with adjudication queries?
-      source_locator:
-        path: explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
-        heading: '## 7. Position 5 — finite consequence or portfolio reset'
-      required_inputs:
-        - path: explorations/presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md
-          role: completed Position-3 theorem, compression, absorber collision, and Position-4 gate
-        - path: explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
-          role: branch-invariant descent theorem and no-excess boundary
-        - path: explorations/reopener-gated-successor-tournament-and-kernel-minimality-selection-2026-07-27.md
-          role: prior hard-gate tournament and physical-branch reopener state
-        - path: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
-          role: strongest remaining physical interface-selection gap and absorber
-        - path: docs/certified-causal-reality-research-program.md
-          role: North Star, grade boundaries, and live program-wide purpose
-      unchanged_ledger_fields:
-        - fixed completion, gauge, representation, and occurrence antecedent
-        - physical process, formed record, and observer-operational contract
-        - external target and finality/fault adjudication queries
-        - derived verdict and maximum honest grade
-        - exact reopener and changed North-Star dependency
-        - local learning before hardware or external access
-        - strongest absorber
-        - cheapest kill and stop condition
-      arena_roles:
-        - theorem, no-go, and compression consequence arena
-        - physical-interface, dynamics, and reconstruction successor arena
-        - no-ready-scientific-successor control arena
-      expected_return_classes:
-        - SCOPED_THEOREM_BANKED
-        - EXACT_NON_UNIFICATION_BANKED
-        - FINITE_DISCRIMINATOR_LOCKED
-        - IMPLEMENTATION_COMPLETE_EXTERNAL_BOUNDARY
-        - NO_EXCESS_PORTFOLIO_RESET
-        - ONE_NEW_PROGRAM_ACTIVATED
-        - NO_READY_SCIENTIFIC_SUCCESSOR
-      observer_index_return_classes:
-        - OBSERVER_INDEX_DERIVABLE_FROM_ACCESS_ACTION
-        - OBSERVER_INDEX_OPERATIONAL_ROLE_PRESERVED
-        - OBSERVER_INDEX_NEW_DEPENDENCY_FOUND
-      durable_output: >-
-        One dated finite-consequence and North-Star portfolio-reset receipt
-        and one live transition to exactly one successor or a clean
-        no-ready-successor state.
-      local_method: >-
-        Compile the theorem/no-go boundary first, then apply hard reopeners
-        before scoring. Use the corrected object-query roles unchanged. Do
-        not execute any candidate scientific work inside the reset.
-      uses_program_controls:
-        - maximum_evidence_grade
-        - strongest_absorber
-        - cheapest_kill
-        - stop_rule
-        - local_computation_boundary
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
+      - explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md
       - explorations/presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md
       - explorations/reopener-gated-successor-tournament-and-kernel-minimality-selection-2026-07-27.md
       - explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
@@ -492,8 +429,8 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: blocked
-  blocked_by: N5-CCR-BS-P5-RESET
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
     - no-ready-scientific-successor
@@ -503,11 +440,12 @@ successor_selection:
     - corrected-formal-theorem-with-natural-physical-realization
     - finite-discriminator-or-explicit-external-boundary
   decision_rule: >-
-    Position 5 must consume HC-DU-059's corrected object-query architecture,
-    apply exact reopeners before scoring, and activate exactly one locally
-    decision-changing scientific successor or return
-    NO_READY_SCIENTIFIC_SUCCESSOR. No candidate inherits priority from
-    narrative momentum, paper readiness, or the skipped cross-arena position.
+    HC-DU-060 applied exact reopeners before scoring and returned
+    NO_READY_SCIENTIFIC_SUCCESSOR. A future program may activate only from
+    new evidence satisfying an exact reopener or a newly authorized bounded
+    contract naming the dependency changed, absorber, kill, grade ceiling,
+    and local first-learning point. No candidate inherits priority from
+    narrative momentum, paper readiness, or an empty WIP slot.
 
 anomaly_intake:
   status: open_non_wip

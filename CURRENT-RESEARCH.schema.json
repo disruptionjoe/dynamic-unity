@@ -24,7 +24,7 @@
   ],
   "properties": {
     "current_research_contract_version": {
-      "const": "1.1"
+      "const": "1.2"
     },
     "schema_ref": {
       "const": "CURRENT-RESEARCH.schema.json"
@@ -64,7 +64,8 @@
         "historical_snapshots_never_route_current_work",
         "parked_work_requires_reopen_rule",
         "successor_is_selected_after_current_flagship",
-        "anomaly_intake_is_not_a_standing_lane"
+        "anomaly_intake_is_not_a_standing_lane",
+        "quiescent_no_ready_allowed"
       ],
       "properties": {
         "scientific_flagship_wip_limit": {
@@ -98,6 +99,9 @@
           "type": "boolean"
         },
         "anomaly_intake_is_not_a_standing_lane": {
+          "type": "boolean"
+        },
+        "quiescent_no_ready_allowed": {
           "type": "boolean"
         }
       }
@@ -198,10 +202,10 @@
       ],
       "properties": {
         "active_scientific_program_id": {
-          "$ref": "#/$defs/nonemptyString"
+          "$ref": "#/$defs/nullableString"
         },
         "executable_action_id": {
-          "$ref": "#/$defs/nonemptyString"
+          "$ref": "#/$defs/nullableString"
         },
         "prepared_publication_program_id": {
           "$ref": "#/$defs/nonemptyString"
@@ -239,7 +243,7 @@
           "$ref": "#/$defs/nonemptyString"
         },
         "blocked_by": {
-          "$ref": "#/$defs/nonemptyString"
+          "$ref": "#/$defs/nullableString"
         },
         "selected_successor_id": {
           "type": [

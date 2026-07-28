@@ -2763,6 +2763,29 @@ minimal-realization, dependency, and universal-property results. It creates
 no ontology, physics, prediction, or cross-arena transfer. See
 `presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md`.
 
+### 2026-07-27 operational-quotient consequence and no-ready reset
+
+`HC-DU-060` composes the branch-invariant descent and presentation-invariant
+kernel results. For a fixed completion/gauge/representation/occurrence
+antecedent, exact reconstruction of an external query is equivalent to
+constancy of its verdict on the fibres of the complete physical and
+observer-operational object. Coordinate names and coordinate count are not
+invariants when lossless recodings induce the same quotient.
+
+The result also preserves an exact non-unification. An antecedent selects a
+physical interface only when the interface factors through that antecedent;
+an interface reconstructs a target only when the target factors through the
+resulting operational object. Neither factorization entails the other.
+Archive relocation supplies the standing control.
+
+No candidate physical reopener fired after this correction. There is no new
+generator, selected interface, lawful boundary, natural physical realization,
+finite residual, or irreducible hardware dependency. The portfolio therefore
+returns `NO_READY_SCIENTIFIC_SUCCESSOR`. This is a scoped grade-4 program
+consequence with absorbed component mathematics, not a new law, ontology, or
+prediction. See
+`branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

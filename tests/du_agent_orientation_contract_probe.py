@@ -153,10 +153,10 @@ def validate_authority(
     )
     check(
         "current_contract_identity",
-        current.get("current_research_contract_version") == "1.1"
+        current.get("current_research_contract_version") == "1.2"
         and isinstance(current.get("state_revision"), int)
         and current.get("scope", "").startswith("Sole mutable authority"),
-        "current authority has contract version 1.1, a revision, and exclusive scope",
+        "current authority has contract version 1.2, a revision, and exclusive scope",
     )
 
     rules = current.get("rules", {})
@@ -219,26 +219,50 @@ def validate_authority(
         if program.get("portfolio_status") == "active"
         and program.get("wip_slot") == "scientific_flagship"
     ]
+    successor = current.get("successor_selection", {})
+    quiescent = successor.get("status") == "no_ready"
+    decision = current.get("current_decision", {})
     check(
-        "one_active_scientific_program",
-        len(active_science) == 1
-        and len(executable) == 1
-        and executable[0]["id"] == active_science[0]["id"],
+        "active_or_quiescent_scientific_program",
         (
-            "exactly one active scientific flagship is executable; "
+            quiescent
+            and rules.get("quiescent_no_ready_allowed") is True
+            and not active_science
+            and not executable
+            and decision.get("active_scientific_program_id") is None
+            and decision.get("executable_action_id") is None
+        )
+        or (
+            not quiescent
+            and len(active_science) == 1
+            and len(executable) == 1
+            and executable[0]["id"] == active_science[0]["id"]
+        ),
+        (
+            "one active executable flagship or an explicit no-ready "
+            "quiescent state; "
             f"active={[p['id'] for p in active_science]} "
             f"executable={[p['id'] for p in executable]}"
         ),
     )
 
-    decision = current.get("current_decision", {})
-    active = active_science[0]
+    active = active_science[0] if active_science else None
     check(
         "decision_matches_portfolio",
-        decision.get("active_scientific_program_id") == active["id"]
-        and decision.get("executable_action_id") == active.get("active_work_id")
+        (
+            (
+                quiescent
+                and decision.get("active_scientific_program_id") is None
+                and decision.get("executable_action_id") is None
+            )
+            or (
+                active is not None
+                and decision.get("active_scientific_program_id") == active["id"]
+                and decision.get("executable_action_id") == active.get("active_work_id")
+            )
+        )
         and decision.get("selected_successor_id") is None,
-        "decision derives its active program/action from the portfolio",
+        "decision derives its active program/action or explicit quiescence from the portfolio",
     )
 
     publication = program_by_id.get(decision.get("prepared_publication_program_id"))
@@ -429,49 +453,63 @@ def validate_authority(
         f"{ref_count} current evidence, action, and input references resolve; missing={missing_refs}",
     )
 
-    packet = active.get("execution_packet", {})
-    source_locator = packet.get("source_locator", {})
-    source_path = ROOT / str(source_locator.get("path", ""))
-    source_heading = source_locator.get("heading", "")
-    packet_controls = packet.get("uses_program_controls", [])
+    packet: dict[str, Any] = {}
     packet_errors: list[str] = []
-    if packet.get("action_id") != active.get("active_work_id"):
-        packet_errors.append("action mismatch")
-    if not str(packet.get("exact_question", "")).strip():
-        packet_errors.append("missing exact question")
-    if not source_path.is_file() or source_heading not in source_path.read_text(
-        encoding="utf-8"
-    ):
-        packet_errors.append("source locator does not resolve to its heading")
-    for key in (
-        "required_inputs",
-        "unchanged_ledger_fields",
-        "arena_roles",
-        "expected_return_classes",
-        "observer_index_return_classes",
-    ):
-        if not packet.get(key):
-            packet_errors.append(f"missing {key}")
-    for key in packet_controls:
-        if not str(active.get(key, "")).strip():
-            packet_errors.append(f"control {key} is absent from active program")
-    if not str(packet.get("durable_output", "")).strip():
-        packet_errors.append("missing durable output")
-    if not str(packet.get("local_method", "")).strip():
-        packet_errors.append("missing local method")
+    if active is not None:
+        packet = active.get("execution_packet", {})
+        source_locator = packet.get("source_locator", {})
+        source_path = ROOT / str(source_locator.get("path", ""))
+        source_heading = source_locator.get("heading", "")
+        packet_controls = packet.get("uses_program_controls", [])
+        if packet.get("action_id") != active.get("active_work_id"):
+            packet_errors.append("action mismatch")
+        if not str(packet.get("exact_question", "")).strip():
+            packet_errors.append("missing exact question")
+        if not source_path.is_file() or source_heading not in source_path.read_text(
+            encoding="utf-8"
+        ):
+            packet_errors.append("source locator does not resolve to its heading")
+        for key in (
+            "required_inputs",
+            "unchanged_ledger_fields",
+            "arena_roles",
+            "expected_return_classes",
+            "observer_index_return_classes",
+        ):
+            if not packet.get(key):
+                packet_errors.append(f"missing {key}")
+        for key in packet_controls:
+            if not str(active.get(key, "")).strip():
+                packet_errors.append(f"control {key} is absent from active program")
+        if not str(packet.get("durable_output", "")).strip():
+            packet_errors.append("missing durable output")
+        if not str(packet.get("local_method", "")).strip():
+            packet_errors.append("missing local method")
+    elif any(program.get("execution_packet") for program in programs):
+        packet_errors.append("quiescent portfolio retains an execution packet")
     check(
-        "active_execution_packet",
+        "execution_packet_contract",
         not packet_errors,
-        f"active action is directly executable from one embedded packet; errors={packet_errors}",
+        (
+            "an active action has one complete embedded packet, or a "
+            f"quiescent portfolio has none; errors={packet_errors}"
+        ),
     )
 
     check(
-        "successor_blocked_by_current_action",
-        current.get("successor_selection", {}).get("status") == "blocked"
-        and current["successor_selection"].get("blocked_by")
-        == decision.get("executable_action_id")
-        and current["successor_selection"].get("selected_successor_id") is None,
-        "successor selection waits for the current executable return",
+        "successor_state_contract",
+        (
+            quiescent
+            and successor.get("blocked_by") is None
+            and successor.get("selected_successor_id") is None
+        )
+        or (
+            not quiescent
+            and successor.get("status") == "blocked"
+            and successor.get("blocked_by") == decision.get("executable_action_id")
+            and successor.get("selected_successor_id") is None
+        ),
+        "successor selection is blocked by the active action or explicitly no-ready",
     )
     check(
         "anomaly_intake_non_wip",
@@ -617,34 +655,53 @@ def validate_authority(
         f"required cold-start surfaces total {cold_start_words} words (limit 6000)",
     )
 
+    context_program = active or next(
+        (
+            program
+            for program in programs
+            if program.get("portfolio_status") == "complete"
+            and program.get("kind") == "flagship"
+        ),
+        {},
+    )
     dependency_classes = {
         dependency.get("target_type")
-        for dependency in active.get("typed_dependencies", [])
+        for dependency in context_program.get("typed_dependencies", [])
     }
     isolated_recoveries = {
         "purpose_and_north_star": bool(charter.get("purpose") and charter.get("north_star")),
         "honest_evidence_boundary": (
             "has not established" in stable_texts["start"].lower()
-            and bool(active.get("current_grade"))
+            and bool(context_program.get("current_grade"))
         ),
-        "active_program_and_action": (
-            decision.get("active_scientific_program_id") == active.get("id")
+        "active_or_quiescent_state": (
+            quiescent
+            and decision.get("active_scientific_program_id") is None
+            and decision.get("executable_action_id") is None
+        )
+        or (
+            active is not None
+            and decision.get("active_scientific_program_id") == active.get("id")
             and decision.get("executable_action_id") == packet.get("action_id")
         ),
         "completed_and_remaining": bool(
-            active.get("completed_dependencies") and active.get("remaining_obligations")
+            context_program.get("completed_dependencies")
+            and (
+                context_program.get("remaining_obligations")
+                or quiescent
+            )
         ),
         "execution_ceiling_and_output": bool(
-            active.get("primary_lane_id")
-            and active.get("channel_ids")
-            and active.get("maximum_evidence_grade") is not None
-            and active.get("strongest_absorber")
-            and active.get("cheapest_kill")
-            and active.get("stop_rule")
-            and packet.get("durable_output")
+            context_program.get("primary_lane_id")
+            and context_program.get("channel_ids")
+            and context_program.get("maximum_evidence_grade") is not None
+            and context_program.get("strongest_absorber")
+            and context_program.get("cheapest_kill")
+            and context_program.get("stop_rule")
+            and (packet.get("durable_output") or quiescent)
         ),
         "typed_dependencies": bool(dependency_classes),
-        "local_boundary": bool(active.get("local_computation_boundary")),
+        "local_boundary": bool(context_program.get("local_computation_boundary")),
     }
     check(
         "context_isolated_cold_start_recovery",
@@ -693,12 +750,19 @@ def mutated_state_fixture(current: dict[str, Any]) -> tuple[dict[str, Any], dict
         for program in current["programs"]
         if program["id"] == decision["prepared_publication_program_id"]
     )
+    routed_program_id = decision["active_scientific_program_id"] or next(
+        program["id"]
+        for program in current["programs"]
+        if program.get("portfolio_status") == "complete"
+        and program.get("kind") == "flagship"
+    )
     replacements = {
-        decision["active_scientific_program_id"]: "FIXTURE-ACTIVE-PROGRAM",
-        decision["executable_action_id"]: "FIXTURE-EXECUTABLE-ACTION",
+        routed_program_id: "FIXTURE-SCIENTIFIC-PROGRAM",
         decision["prepared_publication_program_id"]: "FIXTURE-PUBLICATION-PROGRAM",
         publication["candidate_id"]: "FIXTURE-PUBLICATION-CANDIDATE",
     }
+    if decision["executable_action_id"] is not None:
+        replacements[decision["executable_action_id"]] = "FIXTURE-EXECUTABLE-ACTION"
     return replace_identifiers(deepcopy(current), replacements), replacements
 
 
@@ -729,8 +793,9 @@ def run() -> dict[str, Any]:
             "id": "mutated_state_genericity",
             "pass": True,
             "detail": (
-                "program, action, publication-program, and candidate IDs were "
-                "mutated in memory and the unchanged validator passed"
+                "scientific-program, any active action, publication-program, "
+                "and candidate IDs were mutated in memory and the unchanged "
+                "validator passed"
             ),
         }
     )

@@ -148,8 +148,8 @@ become a second scientific flagship and never promotes the underlying grade.
 1. Read [`AGENTS.md`](AGENTS.md) for governance and research discipline.
 2. Read this page for the stable charter and boundaries.
 3. Parse [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml); identify the one
-   executable action, its maximum grade, completed evidence, remaining
-   obligations, cheapest kill, stop rule, and reopener.
+   executable action and its controls, or confirm that the portfolio is in
+   an explicit no-ready quiescent state.
 4. Read only the referenced evidence needed for that action.
 5. Use [`LANES.yaml`](LANES.yaml) to name the owning lane and work channel.
 6. Before central quantum/foundations prioritization, consult the
@@ -178,7 +178,9 @@ Every swing states:
 One active scientific flagship is the default. A bounded side probe may run
 only when it can change the flagship decision cheaply. A successor is selected
 after the current flagship returns, not by preserving narrative momentum.
-Parked work has no executable action and must carry an exact reopener.
+When no candidate satisfies its exact reopener, the portfolio may be
+explicitly quiescent with no executable scientific action rather than inventing
+work. Parked work has no executable action and must carry an exact reopener.
 
 ## Artifact homes
 

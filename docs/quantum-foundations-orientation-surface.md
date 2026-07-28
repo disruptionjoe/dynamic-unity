@@ -687,6 +687,18 @@ The result is mathematically absorbed, so it does not open another
 cross-arena physics test. See the
 [operational-kernel correction](../explorations/presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md).
 
+The sequence closeout (`HC-DU-060`) composes that correction with the
+branch-invariant result. Exact reconstruction is constancy on fibres of the
+target-relative operational quotient under a fixed antecedent. Selection of
+the physical carrier/write/archive/access interface is a separate
+factorization obligation, and neither it nor target sufficiency implies the
+other. No existing physical-interface, covariant-dynamics,
+lawful-reconstruction, corrected-theorem, finite-discriminator, or hardware
+reopener fired. Dynamic Unity therefore records
+`NO_READY_SCIENTIFIC_SUCCESSOR` rather than treating a clearer schema as a new
+physical program. See the
+[portfolio closeout](../explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md).
+
 ### 11. Record reconstruction versus unique geometry
 
 **Established.** Order, correlations, entanglement, spectra, and boundary data
