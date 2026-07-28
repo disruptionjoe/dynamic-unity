@@ -1631,6 +1631,34 @@ TYPED RELATIONAL AND PROCESS RECORD STRUCTURE REQUIRED /
 PHYSICAL SELECTION OF THAT STRUCTURE OPEN.** See
 `state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md`.
 
+### 2026-07-28 event-ontology trichotomy
+
+`HC-DU-090` separates three objects that are often called an “event.”
+Belavkin Eventum Mechanics induces a commutative classical output history
+after an input--output channel and nondemolition algebra are supplied. The
+ETH approach conditionally selects a candidate actuality algebra as the
+center of the state's centralizer after a future-algebra co-filtration and
+state are supplied, then uses an added collapse axiom to select one realized
+event from a generating family. Such a family is not automatically unique
+outside an atomic/minimal-projection convention.
+Kent instead samples asymptotic data and derives one global beable completion.
+
+Thus:
+
+```text
+formed monitored output
+    != algebraically selected actuality algebra
+    != sampled global one-world completion.
+```
+
+Only ETH adds a nontrivial conditional event-algebra selector, and it still
+does not select the full retained provenance, access, certification, and
+regional-finality interface. No arm establishes source issuance or empirical
+excess over its matched standard-quantum account. Reopen only through the
+naturality of the ETH actuality-algebra quotient and its generating families
+across physically admissible future-algebra nets and representations. See
+`event-formation-antecedent-tournament-eventum-eth-kent-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing
