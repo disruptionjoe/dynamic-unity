@@ -172,6 +172,41 @@ the cited theorem. The probe does not select physical ports, separation,
 settings, measurement independence, acquisition, record formation, ambient
 modular flow, proper-time calibration, geometry, ontology, or new physics.
 
+## Indivisible-stochastic modular-rigidity boundary
+
+`du_indivisible_stochastic_modular_rigidity_probe.py` executes the exact
+finite controls for `HC-DU-079`:
+
+- the complete \(\theta=\pi/8\) tilted-CHSH conditional table is encoded as
+  the column-stochastic object
+  \(\Gamma_{(a,b),(x,y)}=p(a,b\mid x,y)\);
+- the Schur-Hadamard family
+  \(\Theta_\phi=\operatorname{diag}(1,1,1,e^{i\phi})\sqrt{\Gamma}\)
+  leaves every labeled transition probability and output probability fixed;
+- relative to one supplied \(A\otimes B\) output factor, the reduced
+  eigenvalues are
+  \(1/2\pm\sqrt{6+2\cos\phi}/8\);
+- the fixed-factor modular ratio therefore changes from
+  \(3+2\sqrt2\) at \(\phi=0\) to \(3\) at \(\phi=\pi\);
+- the endpoint phase is controlled-\(Z\), diagonal in the configuration
+  basis but nonlocal relative to the supplied factor; and
+- two binary full-process realizers share every base-time transition matrix
+  while giving probabilities one and zero to \(X_2=X_1\).
+
+Run:
+
+```bash
+python3 tests/du_indivisible_stochastic_modular_rigidity_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_indivisible_stochastic_modular_rigidity_result.json` and reports
+`25/25`. Passing establishes only the finite phase-gauge,
+fixed-factor-spectrum, and multi-time counterexamples. It does not prove the
+cited stochastic-quantum or self-testing theorems, select a physical
+configuration semantics, tensor factor, locality contract, instrument,
+record, division event, time, geometry, ontology, or new law.
+
 All pre-recharter probes and deterministic artifacts remain regression
 evidence for their exact scoped findings. They are antecedents and benchmark
 fixtures, not evidence that Certified Causal Reality, record-first ontology,

@@ -982,6 +982,28 @@ ordinary CHSH is the useful null: it certifies noncommutativity while the
 local state is tracial and modularly silent. See the
 [self-testing gate](../explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md).
 
+**Indivisible-stochastic modular boundary (`HC-DU-079`).** The same exact
+labeled tilted-CHSH table can be encoded as one Barandes
+indivisible-stochastic transition matrix
+\(\Gamma_{(a,b),(x,y)}=p(a,b\mid x,y)\), but the native object does not inherit
+self-testing rigidity. Its admitted Schur-Hadamard phase freedom contains the
+family
+\(\Theta_\phi=\operatorname{diag}(1,1,1,e^{i\phi})\sqrt{\Gamma}\).
+Every labeled transition probability remains fixed while, relative to one
+supplied \(A\otimes B\) output factor, the reduced modular ratio varies
+continuously from \(3+2\sqrt2\) to \(3\). At the endpoint the phase is
+controlled-\(Z\), diagonal in the configuration basis but nonlocal relative
+to that factor. Hence either the fixed-factor spectrum changes or the factor
+must transform with the gauge; the stochastic law selects neither. The
+`HC-DU-078` positive survives only after the standard quantum-local Bell
+realization class is supplied, where tilted-CHSH self-testing restricts the
+equivalence to local isometry and junk. Barandes division events are admitted
+conditioning times, not formed records or finality events, and base-time
+transition families remain insufficient for multi-time targets. Use
+indivisible stochastic processes as a representation/null model, not as a
+physical interface or time selector. See the
+[indivisible-stochastic gate](../explorations/indivisible-stochastic-modular-nonidentifiability-and-quantum-local-rigidity-boundary-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

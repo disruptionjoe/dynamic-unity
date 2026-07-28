@@ -1,0 +1,59 @@
+{
+  "claim_id": "HC-DU-079",
+  "status": "PASS",
+  "checks_passed": 25,
+  "checks_total": 25,
+  "failures": [],
+  "native_stochastic_object": {
+    "configuration_count": 4,
+    "initial_configuration_semantics": "(x,y)",
+    "target_configuration_semantics": "(a,b)",
+    "transition_type": "Gamma[(a,b),(x,y)] = p(a,b|x,y)",
+    "conditioning_times": [
+      "0"
+    ],
+    "target_times": [
+      "0",
+      "1"
+    ],
+    "division_events": [
+      "0"
+    ]
+  },
+  "exact_counterexample": {
+    "phase_family": "D(phi)=diag(1,1,1,exp(i phi))",
+    "potential_family": "Theta_phi=D(phi)*sqrt(Gamma)",
+    "fixed_factor_reduced_eigenvalues": "1/2 +/- sqrt(6 + 2 cos(phi))/8",
+    "fixed_factor_modular_ratio": "(4 + sqrt(6 + 2 cos(phi)))/(4 - sqrt(6 + 2 cos(phi)))",
+    "ratio_at_phi_zero": "3 + 2*sqrt(2)",
+    "ratio_at_phi_pi": "3",
+    "pi_phase_relative_to_supplied_factor": "controlled-Z"
+  },
+  "numeric_certificate": {
+    "tilted_quantum_score": 3.265986323710904,
+    "tilted_quantum_maximum": 3.265986323710904,
+    "maximum_gamma_difference_across_phase_lifts": 0.0,
+    "maximum_output_probability_difference": 0.0,
+    "zero_phase_fixed_factor_modular_ratio": 5.828427124746189,
+    "pi_phase_fixed_factor_modular_ratio": 3.0,
+    "ratio_curve_maximum_error": 3.552713678800501e-15,
+    "controlled_z_operator_schmidt_rank": 2,
+    "same_base_realizer_temporal_equality_probabilities": [
+      1.0,
+      0.0
+    ]
+  },
+  "interpretation": {
+    "negative": "The complete labeled indivisible-stochastic transition object does not determine fixed-factor modular data across its admitted Schur-Hadamard realization freedom.",
+    "conditional_positive": "After separately imposing the standard quantum-local Bell realization class, maximal tilted-CHSH self-testing still fixes the extracted target spectrum and modular ratio.",
+    "multi_time": "Base-time first-order transition families do not determine intermediate temporal relations or a complete process.",
+    "finality_guard": "A division event is an admitted conditioning time, not by itself a formed, retained, accessible, certified, or final physical record.",
+    "not_established": [
+      "physical selection of the configuration semantics or factor",
+      "physical selection of quantum locality or Bell instruments",
+      "complete multi-time or interventionally complete dynamics",
+      "record formation, provenance, access, or regional finality",
+      "ambient modular flow, calibrated time, geometry, or ontology"
+    ]
+  }
+}

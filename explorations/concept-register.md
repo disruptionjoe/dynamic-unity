@@ -3333,6 +3333,55 @@ provenance, bounded access, clock calibration, modular inclusion, geometry,
 or ontology. See
 `self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md`.
 
+### 2026-07-28 indivisible-stochastic modular-rigidity boundary
+
+`HC-DU-079` tests whether the `HC-DU-078` modular ratio is already an
+invariant of the labeled stochastic transition law. It is not.
+
+Encode the exact tilted-CHSH table as
+
+\[
+\Gamma_{(a,b),(x,y)}=p(a,b\mid x,y).
+\]
+
+For the Schur-Hadamard gauge family
+
+\[
+\Theta_\phi
+=
+\operatorname{diag}(1,1,1,e^{i\phi})\sqrt{\Gamma},
+\]
+
+every complete labeled transition probability is unchanged. With uniform
+initial configurations and one fixed supplied \(A\otimes B\) output factor,
+the reduced modular ratio varies as
+
+\[
+R(\phi)
+=
+\frac{4+\sqrt{6+2\cos\phi}}
+     {4-\sqrt{6+2\cos\phi}},
+\]
+
+from \(3+2\sqrt2\) at \(\phi=0\) to \(3\) at \(\phi=\pi\). The latter phase is
+controlled-\(Z\) relative to the supplied factor: an allowed diagonal
+configuration rephasing that is not a product unitary. Thus either the fixed
+factor spectrum changes or the factor itself must transform with the gauge.
+The native stochastic object selects neither.
+
+The conditional positive from `HC-DU-078` remains: restrict realizations to
+the standard quantum-local Bell class, then maximal tilted-CHSH self-testing
+fixes the extracted target spectrum up to local isometry. That rigidity comes
+from the additional realization contract, not indivisibility alone.
+
+Selected base-time transitions also remain multi-time incomplete: the exact
+binary realizers \(X_2=X_1\) and \(X_2=1-X_1\) share every transition from
+\(X_0\) while disagreeing maximally on the intermediate temporal relation.
+A Barandes division event is an admitted conditioning time, not physical
+record formation, provenance, access, certification, or regional finality.
+See
+`indivisible-stochastic-modular-nonidentifiability-and-quantum-local-rigidity-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
