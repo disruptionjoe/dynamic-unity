@@ -3427,6 +3427,44 @@ access-preserving operational quotient, not literal identity between a point
 set and a field. See
 `objective-collapse-law-ontology-access-nonidentification-and-physical-antecedent-gate-2026-07-28.md`.
 
+### 2026-07-28 objective-collapse conditional formation and provenance boundary
+
+`HC-DU-081` resolves the next arrow as a conjunction:
+
+```text
+fixed (GRW law, primitive ontology, apparatus)
+  -> ontology-native macroscopic outcome pattern
+  -> supplied calibrated operational outcome
+
+terminal outcome pattern
+  -/-> formation provenance
+
+physical collapse occurrence
+  -/-> universally reliable bounded certificate.
+```
+
+GRWm and GRWf can conditionally form physically real apparatus outcomes.
+Their native carriers remain different: a coarse matter pattern at readout
+versus a pattern of flashes over a finite late interval. Supplied calibration
+maps can take both to one operational outcome alphabet. That is an
+access-preserving quotient, not a common raw archive or ontology identity.
+
+The apparatus, ready state, interaction, display region, flash window,
+matter coarse graining, retention horizon, calibration, and bounded access
+remain part of the experiment specification. The collapse law and primitive
+ontology do not select them in the cited formalism.
+
+A terminal pattern also does not identify its route. Preloading, alternative
+writing, erase/rewrite, relocation, and reset show which additional trusted
+blank, lineage, boundary, or persistence structure a provenance archive
+would need. Separately, the GRW epistemology theorems show that whether a
+specified collapse occurred cannot be inferred with certainty in general.
+
+The next admissible question is therefore narrower: with the ontology and
+apparatus qualifier frozen, does the bounded outcome record contract a
+non-copying held-out target fibre beyond what the law alone predicts? See
+`objective-collapse-conditional-outcome-formation-and-provenance-nonidentification-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
