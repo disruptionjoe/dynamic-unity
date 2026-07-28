@@ -3382,6 +3382,51 @@ record formation, provenance, access, certification, or regional finality.
 See
 `indivisible-stochastic-modular-nonidentifiability-and-quantum-local-rigidity-boundary-2026-07-28.md`.
 
+### 2026-07-28 objective-collapse physical-antecedent gate
+
+`HC-DU-080` separates three levels that the phrase “collapse creates a
+record” conflates:
+
+```text
+collapse law L
+  != complete physical theory (L, primitive ontology)
+  != bounded operational record architecture.
+```
+
+The same GRW collapse dynamics admits flash and matter-density primitive
+ontologies in their common domain. GRWf and GRWm assign discrete spacetime
+points versus a continuous matter field while retaining the same experimental
+predictions. The law therefore does not select the primitive ontology.
+
+Once either ontology is included as a postulate of a complete theory,
+however, the missing physical antecedent is conditionally real: GRWf supplies
+a stochastic spacetime flash process and GRWm a matter-density process. This
+is stronger than a nonunique dilation, unravelling, endpoint, or stochastic
+representation.
+
+Neither process is automatically a bounded record. A flash is an occurrence,
+not a later retained trace; a complete flash history is not bounded access; a
+matter-density value is not formation provenance. The primitive-ontology
+literature itself distinguishes what is real from what inhabitants can
+measure and notes that some well-defined collapse facts are not reliably
+accessible.
+
+The concept therefore remains open at a sharper seam:
+
+```text
+fixed (L, PO)
+  -> physical occurrence or matter history
+  ?-> target-independent formed archive
+  ?-> bounded observer access
+  ?-> held-out target sufficiency.
+```
+
+The next admissible test is ontology-conditional formation and provenance
+inside one bounded apparatus worldtube. Cross-ontology comparison must use an
+access-preserving operational quotient, not literal identity between a point
+set and a field. See
+`objective-collapse-law-ontology-access-nonidentification-and-physical-antecedent-gate-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
