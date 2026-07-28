@@ -2281,3 +2281,33 @@ complementarity, select a universal critical exponent or objective-collapse
 coefficient, provide preferred-foliation evidence, earn a new ontology or
 grade-5 remainder, promote a prediction or paper, or authorize hardware,
 provider, publication, or other external action.
+
+## HC-DU-072 operational duality and no-priority
+
+`du_operational_duality_no_priority_probe.py` preserves the exact finite
+controls behind the cross-platform operational-duality result:
+
+- exhaustive four-history binary checks show that equal deterministic
+  kernels give identical target-factorization scope;
+- a noisy binary experiment and an irrelevant outcome-splitting refinement
+  mutually garble exactly;
+- a repetition-code correction quotient and syndrome record are dual for the
+  frozen recovery action, while logical \(\overline X\) is the first leak;
+- an authenticated public-action quotient and certificate are dual for the
+  frozen execution action, while physical formation provenance is the first
+  leak; and
+- a same-alphabet, same-marginal source-unbound certificate fails the gate.
+
+Run:
+
+```bash
+python3 tests/du_operational_duality_no_priority_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_operational_duality_no_priority_result.json` and reports `8/8`.
+Passing establishes scoped operational equivalence and its action-relative
+breaks. It does not establish ontological identity or priority, native-state
+equality, physical record formation, interface selection, new probability or
+physics, a grade-5 remainder, prediction, paper, model, hardware, provider,
+publication, or other external action.

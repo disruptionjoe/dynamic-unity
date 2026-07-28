@@ -889,6 +889,19 @@ specimens closes all three with complete acquisition, so the controlled-risk
 route activates no successor. See the
 [risk-indexed capability frontier](../explorations/risk-indexed-capability-record-frontier-and-physical-reopener-audit-2026-07-28.md).
 
+**Operational duality and no-priority (`HC-DU-072`).** A physical
+operational presentation and a certified-record presentation that mutually
+simulate one another by target-independent maps have identical downstream
+response laws and decision risks. No experiment confined to that frozen
+action envelope can identify which description is ontologically prior. The
+same theorem transfers unchanged to a stabilizer correction/syndrome
+quotient and an authenticated public-action/certificate quotient. A logical
+action and a physical-source audit are exact first leaks, respectively.
+This earns the operational-duality branch at scoped theorem grade; it does
+not identify native states, select a physical record interface, or settle a
+global ontology. See the
+[operational-duality transfer](../explorations/operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

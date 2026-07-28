@@ -65,6 +65,13 @@ The program keeps three outcomes open:
 Underidentification is incomplete adjudication. It is not an ontological
 outcome.
 
+Operational duality is different from generic underidentification. It is
+earned only when physical-operational and record presentations mutually
+simulate one another by target-independent maps for the frozen action
+contract. Then no decision internal to that contract can identify
+ontological priority. A capability enlargement or independently selected
+formation arrow may still break the equivalence.
+
 ## Typed kernel
 
 For an admitted physical completion class \(M\), define:
@@ -242,6 +249,10 @@ interface refit—not reconstruction.
   not identify unobserved attempts or controller state.
 - **Multi-time control:** base-time transitions and endpoint states are not an
   interventionally complete process.
+- **Operational-duality control:** mutual sufficiency earns equal decision
+  content and a no-priority verdict only inside the frozen action envelope.
+  It does not earn native identity, physical formation, interface selection,
+  or an ontology.
 
 The
 [`Counter-Assumptive Findings Register`](../COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)

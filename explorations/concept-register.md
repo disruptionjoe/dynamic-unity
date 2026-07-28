@@ -3105,6 +3105,35 @@ so no successor is activated. The Blackwell, Le Cam, minimax,
 data-processing, and formal-concept components are absorbed. See
 `risk-indexed-capability-record-frontier-and-physical-reopener-audit-2026-07-28.md`.
 
+### 2026-07-28 operational duality and no-priority
+
+`HC-DU-072` closes the missing scoped operational-duality theorem. For
+deterministic presentations on one history class,
+
+\[
+\ker P=\ker R=\ker B_A
+\]
+
+makes the physical-operational and certified-record images canonically
+isomorphic quotients. Every target factors through one exactly when it
+factors through the other. In the stochastic case, mutual
+target-independent Blackwell garblings give identical attainable response
+laws and risks for every downstream decision in the frozen contract.
+
+Therefore operational duality supports no empirical verdict about
+ontological priority inside that contract. This is not generic
+underidentification: it requires mutual sufficiency. It is also not native
+identity, record formation, or interface selection.
+
+The schema transfers unchanged to stabilizer correction/syndrome and
+authenticated public-action/certificate fixtures. Multiplication by logical
+\(\overline X\) and a physical-source audit supply the respective minimum
+first leaks. A same-alphabet preloaded certificate fails because its fibres
+cross the physical target. Blackwell, Le Cam, sufficiency, QEC, and
+distributed refinement absorb the components; the typed transfer and
+formation/selection boundary are the DU result. See
+`operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

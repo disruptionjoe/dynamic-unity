@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "equal_kernel_pairs": 32,
+        "scope_disagreements": 0
+      },
+      "name": "equal deterministic kernels give identical target scope",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "3/8",
+          "3/8",
+          "1/8",
+          "1/8"
+        ],
+        [
+          "1/8",
+          "1/8",
+          "3/8",
+          "3/8"
+        ]
+      ],
+      "name": "stochastic record is a target-independent garbling of physical experiment",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "3/4",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "3/4"
+        ]
+      ],
+      "name": "physical experiment is recovered by target-independent forgetting",
+      "passed": true
+    },
+    {
+      "detail": "same four syndrome/correction sectors after the declared code quotient",
+      "name": "quantum correction quotient and syndrome record are operationally dual",
+      "passed": true
+    },
+    {
+      "detail": [
+        0,
+        1
+      ],
+      "name": "logical action is the minimum quantum first leak",
+      "passed": true
+    },
+    {
+      "detail": "same two public execution sectors despite hidden formation mode",
+      "name": "distributed public-action quotient and certificate are operationally dual",
+      "passed": true
+    },
+    {
+      "detail": [
+        0,
+        1
+      ],
+      "name": "source-provenance action is the minimum distributed first leak",
+      "passed": true
+    },
+    {
+      "detail": "source-unbound certificate crosses target fibres",
+      "name": "same alphabet and marginal do not imply operational duality",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-072",
+  "result": "OPERATIONAL_DUALITY_NO_PRIORITY_WITH_ACTION_RELATIVE_FIRST_LEAK",
+  "schema_version": "1.0",
+  "summary": {
+    "distributed_first_leak": [
+      0,
+      1
+    ],
+    "hardware_used": false,
+    "passed": 8,
+    "physical_model_claimed": false,
+    "quantum_first_leak": [
+      0,
+      1
+    ],
+    "total": 8
+  }
+}
