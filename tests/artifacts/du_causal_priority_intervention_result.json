@@ -1,0 +1,195 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "common_cause": {
+          "(0, 0)": "1/2",
+          "(1, 1)": "1/2"
+        },
+        "record_to_source": {
+          "(0, 0)": "1/2",
+          "(1, 1)": "1/2"
+        },
+        "source_to_record": {
+          "(0, 0)": "1/2",
+          "(1, 1)": "1/2"
+        }
+      },
+      "name": "all three classical models have the same passive endpoint law",
+      "passed": true
+    },
+    {
+      "detail": {
+        "diagonal": [
+          [
+            "common_cause",
+            "record_to_source",
+            "source_to_record"
+          ]
+        ],
+        "passive": [
+          [
+            "common_cause",
+            "record_to_source",
+            "source_to_record"
+          ]
+        ]
+      },
+      "name": "passive and diagonal interventions do not orient formation",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "common_cause",
+          "record_to_source"
+        ],
+        [
+          "source_to_record"
+        ]
+      ],
+      "name": "one source intervention leaves one confounded pair",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "common_cause",
+          "source_to_record"
+        ],
+        [
+          "record_to_source"
+        ]
+      ],
+      "name": "one record intervention leaves the other confounded pair",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "common_cause"
+        ],
+        [
+          "record_to_source"
+        ],
+        [
+          "source_to_record"
+        ]
+      ],
+      "name": "two arrow-breaking interventions distinguish all three models",
+      "passed": true
+    },
+    {
+      "detail": {
+        "record_intervention_margin": "1/2",
+        "source_intervention_margin": "1/2"
+      },
+      "name": "classical arrow-breaking margins are exactly one half",
+      "passed": true
+    },
+    {
+      "detail": [
+        [
+          "do_source_0",
+          "do_record_0"
+        ],
+        [
+          "do_source_0",
+          "do_record_0",
+          "do_both_0"
+        ]
+      ],
+      "name": "minimum classical orientation cover is the two arrow-breaking actions",
+      "passed": true
+    },
+    {
+      "detail": {
+        "common_cause": {
+          "(0, ('valid', 0, 5))": "1/2",
+          "(1, ('valid', 1, 3))": "1/2"
+        },
+        "record_to_source": {
+          "(0, ('valid', 0, 5))": "1/2",
+          "(1, ('valid', 1, 3))": "1/2"
+        },
+        "source_to_record": {
+          "(0, ('valid', 0, 5))": "1/2",
+          "(1, ('valid', 1, 3))": "1/2"
+        }
+      },
+      "name": "authentication preserves value without revealing formation direction",
+      "passed": true
+    },
+    {
+      "detail": "all terminal density matrices equal |Phi+><Phi+|",
+      "name": "opposite directional circuits and common source share one Bell endpoint",
+      "passed": true
+    },
+    {
+      "detail": {
+        "common_source": {
+          "phase_record": 1.0,
+          "phase_source": 1.0
+        },
+        "record_to_source": {
+          "phase_record": -1.0,
+          "phase_source": 1.0
+        },
+        "source_to_record": {
+          "phase_record": 1.0,
+          "phase_source": -1.0
+        }
+      },
+      "name": "source phase identifies source-to-record circuit only",
+      "passed": true
+    },
+    {
+      "detail": {
+        "common_source": {
+          "phase_record": 1.0,
+          "phase_source": 1.0
+        },
+        "record_to_source": {
+          "phase_record": -1.0,
+          "phase_source": 1.0
+        },
+        "source_to_record": {
+          "phase_record": 1.0,
+          "phase_source": -1.0
+        }
+      },
+      "name": "record phase identifies record-to-source circuit only",
+      "passed": true
+    },
+    {
+      "detail": {
+        "common_source": {
+          "phase_record": 1.0,
+          "phase_source": 1.0
+        },
+        "record_to_source": {
+          "phase_record": -1.0,
+          "phase_source": 1.0
+        },
+        "source_to_record": {
+          "phase_record": 1.0,
+          "phase_source": -1.0
+        }
+      },
+      "name": "two quantum arrow-breaking interventions distinguish all three processes",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-073",
+  "result": "TERMINAL_DUALITY_DOES_NOT_ORIENT_CAUSAL_PRIORITY_TWO_ARROW_BREAKING_INTERVENTIONS_MINIMAL",
+  "schema_version": "1.0",
+  "summary": {
+    "classical_margin": "1/2",
+    "classical_minimum_interventions": 2,
+    "hardware_used": false,
+    "passed": 12,
+    "physical_model_claimed": false,
+    "quantum_phase_margin": "1/1",
+    "total": 12
+  }
+}

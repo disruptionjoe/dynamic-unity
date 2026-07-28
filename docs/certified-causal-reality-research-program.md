@@ -3,7 +3,7 @@ title: "Certified Causal Reality — durable research program"
 status: active_research
 doc_type: research_program
 created: 2026-07-24
-revised: 2026-07-27
+revised: 2026-07-28
 current_routing_authority: "../CURRENT-RESEARCH.yaml"
 claim_grade: "PROGRAM CHARTER / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED"
 ---
@@ -71,6 +71,14 @@ simulate one another by target-independent maps for the frozen action
 contract. Then no decision internal to that contract can identify
 ontological priority. A capability enlargement or independently selected
 formation arrow may still break the equivalence.
+
+Breaking operational duality and orienting a formation arrow are themselves
+different tasks. Against a live common-source rival, one one-sided
+intervention may separate one direct-arrow model while leaving the other
+confounded. A causal-priority claim must freeze the rival class and use enough
+independently realizable arrow-breaking interventions to identify the process.
+Even then, a local causal arrow does not select the variables, interfaces, or
+ontological substrate.
 
 ## Typed kernel
 
@@ -253,6 +261,11 @@ interface refit—not reconstruction.
   content and a no-priority verdict only inside the frozen action envelope.
   It does not earn native identity, physical formation, interface selection,
   or an ontology.
+- **Causal-priority control:** terminal correlation, authentication, or one
+  one-sided first leak need not exclude a common source. Freeze source and
+  record ports, test both independently addressed pre-formation directions,
+  retain the common-cause rival, and keep process direction distinct from
+  substrate priority.
 
 The
 [`Counter-Assumptive Findings Register`](../COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md)

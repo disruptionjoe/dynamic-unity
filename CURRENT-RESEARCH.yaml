@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 21
+state_revision: 22
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,16 +82,15 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-072 proves that mutually sufficient physical-operational and record
-    presentations have identical decision content, so their ontological
-    priority is unidentifiable inside the frozen action envelope. The theorem
-    transfers unchanged to quantum correction and authenticated public-action
-    controls; logical and physical-source actions are exact first leaks.
-    Formation and interface selection remain independent, so no successor is
+    HC-DU-073 sharpens HC-DU-072: terminal equality does not orient formation.
+    In the frozen direct-arrow/common-cause class, both one-sided interventions
+    are jointly necessary and sufficient. Quantum and distributed controls
+    transfer, but a causal arrow does not establish ontology or select its
+    ports. No current arena supplies the complete contract, so no successor is
     selected.
 
 programs:
-  - id: CCR-OPERATIONAL-DUALITY-NO-PRIORITY
+  - id: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: complete
@@ -109,77 +108,80 @@ programs:
       - CH-COLLIDE
       - CH-MODEL
     target: >-
-      Completed: decide when physical-operational and certified-record
-      descriptions are empirically co-sufficient, whether that can identify
-      ontological priority, and whether the theorem transfers unchanged
-      between quantum and authenticated distributed fixtures.
+      Completed: find the minimum intervention family distinguishing
+      source-write, record-driven response, and common-source formation after
+      terminal duality, with unchanged cross-platform transfer.
     current_grade: >-
-      HC-DU-072 BANKS A SCOPED GRADE-4 OPERATIONAL-DUALITY/NO-PRIORITY
-      THEOREM, UNCHANGED QUANTUM/DISTRIBUTED TRANSFER, AND ACTION-RELATIVE
-      FIRST-LEAK BOUNDARY. BLACKWELL, LE CAM, SUFFICIENCY, BISIMULATION,
-      STABILIZER-QEC, AND DISTRIBUTED-REFINEMENT COMPONENTS ARE ABSORBED.
+      HC-DU-073 BANKS SCOPED GRADE-4 TERMINAL NONORIENTATION,
+      TWO-INTERVENTION CAUSAL-PRIORITY MINIMALITY, CROSS-PLATFORM TRANSFER,
+      AND AN ONTOLOGY BOUNDARY. CAUSAL MODELS, INTERVENTION CALCULUS,
+      QUANTUM CAUSAL TOMOGRAPHY, AND PROCESS TENSORS ABSORB THE COMPONENTS.
     evidence_grade: 4
     maximum_grade: >-
-      THE COMPLETED THEOREM CANNOT PROMOTE BEYOND SCOPED NECESSITY. A
-      PHYSICALLY SELECTED FORMED INTERFACE OR ROBUST FIRST LEAK IN A FROZEN
-      PHYSICAL COMPLETION CLASS RETAINS AN INDEPENDENT GRADE-5 CEILING.
+      SCOPED NECESSITY ONLY. PHYSICALLY SELECTED PORTS, BOTH REALIZABLE
+      INTERVENTIONS, COMPLETE ACQUISITION, AND A HELD-OUT RESPONSE RETAIN AN
+      INDEPENDENT GRADE-5 CEILING.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral finite decision contract. History class,
-      physical-operational quotient, record presentation, action envelope,
-      response laws, losses, and resources are frozen before comparison.
+      Assumption-neutral finite contract with models, ports, surgical
+      interventions, responses, readouts, and resources frozen.
     completed_dependencies:
+      - id: HC-DU-073
+        evidence_ref: explorations/causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md
       - id: HC-DU-072
         evidence_ref: explorations/operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md
-      - id: HC-DU-071
-        evidence_ref: explorations/risk-indexed-capability-record-frontier-and-physical-reopener-audit-2026-07-28.md
-      - id: HC-DU-064
-        evidence_ref: explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
       - id: HC-DU-051
         evidence_ref: explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
+      - id: HC-DU-055
+        evidence_ref: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
     remaining_obligations: []
     typed_dependencies:
       - type: requires
-        target: HC-DU-041
+        target: HC-DU-072
         target_type: result
       - type: extracts_from
         target: HC-DU-051
         target_type: result
       - type: tests
-        target: OPERATIONAL-DUALITY-NO-PRIORITY
+        target: CAUSAL-PRIORITY-INTERVENTION-MINIMALITY
         target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Blackwell comparison and mutual sufficiency, Le Cam deficiency,
-      deterministic bisimulation/quotients, stabilizer-QEC logical fibres,
-      distributed implementation refinement, and HC-DU-041/051/054/064/071.
+      Structural causal models and surgical interventions, observational
+      equivalence and hidden common causes, quantum causal models, causal
+      tomography, process tensors, authenticated distributed refinement, and
+      HC-DU-031C/051/055/056/072.
     cheapest_kill: >-
-      Did not fire against the scoped theorem: one schema transfers unchanged
-      to both fixtures and the hostile same-alphabet control fails it. It
-      fired against ontology and activation because the operative quotient,
-      code, certificate, action envelope, and interfaces remain supplied.
+      Did not fire against the declared minimum: exhaustive classical
+      enumeration and exact two-qubit controls pass. It fired against novelty,
+      universality, ontology, and activation because causal-intervention
+      theory absorbs the components and the ports, interventions, process
+      class, and complete acquisition remain supplied.
     stop_rule: >-
-      Satisfied. Do not infer ontological identity or priority, physical
-      formation, native-state equality, or interface selection from
-      operational equivalence. Do not repeat the theorem in another host.
+      Satisfied. Do not infer formation direction from terminal correlation
+      or authentication, call a semantic rewrite a physical intervention,
+      universalize the two-intervention minimum, or infer substrate priority
+      from a local causal arrow. Do not repeat the finite ladder in another
+      host.
     reopen_rule: >-
-      Reopen only with a physically selected formed interface, an
-      independently warranted enlarged action giving a robust first leak, or
-      a frozen physical completion class on which one simulation direction
-      fails without interface, source, target, or resource refit.
+      Reopen only with physically selected source and record ports, both
+      independently realizable pre-formation interventions, complete
+      attempted-process acquisition, a common-cause rival, and one no-refit
+      held-out response; or with a different physical class yielding a
+      stronger causal-identification boundary.
     local_computation_boundary: >-
-      Exact proof and finite enumeration complete the scoped result. No new
-      local model or external hardware is warranted.
+      Exact enumeration and two-qubit linear algebra complete the scoped
+      result. No new local model or external hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md
       - explorations/operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md
-      - explorations/capability-indexed-north-star-adjudication-and-endogenous-compression-gap-2026-07-26.md
-      - explorations/stabilizer-syndrome-record-duality-and-logical-remainder-2026-07-26.md
-      - explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
       - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
+      - explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
+      - explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
       - docs/quantum-foundations-orientation-surface.md
 
   - id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
@@ -484,7 +486,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-OPERATIONAL-DUALITY-NO-PRIORITY
+        target: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -562,7 +564,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-OPERATIONAL-DUALITY-NO-PRIORITY
+        target: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -631,7 +633,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-OPERATIONAL-DUALITY-NO-PRIORITY
+        target: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization

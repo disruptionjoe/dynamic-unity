@@ -2311,3 +2311,37 @@ breaks. It does not establish ontological identity or priority, native-state
 equality, physical record formation, interface selection, new probability or
 physics, a grade-5 remainder, prediction, paper, model, hardware, provider,
 publication, or other external action.
+
+## HC-DU-073 causal-priority intervention ladder
+
+`du_causal_priority_intervention_probe.py` preserves the exact finite controls
+behind the causal-priority reopener:
+
+- source-to-record, record-to-source, and common-source structural models
+  share one passive binary endpoint law;
+- passive observation and a diagonal joint intervention orient nothing;
+- either one-sided surgical intervention separates one direct-arrow model
+  while leaving the other confounded with common source;
+- both arrow-breaking interventions distinguish all three, with exact
+  classical total-variation margin \(1/2\), and exhaustive subset search
+  verifies the minimum cover size is two;
+- deterministic authentication preserves endpoint value without identifying
+  formation direction; and
+- opposite CNOT formation circuits plus a Bell-pair replacement channel share
+  one terminal density matrix, while two pre-formation phase interventions
+  give three exact \(X\otimes X\) signatures.
+
+Run:
+
+```bash
+python3 tests/du_causal_priority_intervention_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_causal_priority_intervention_result.json` and reports `12/12`.
+Passing establishes only the declared model-class-relative intervention
+minimum and unchanged process transfer. It does not establish a universal
+causal-discovery bound, physical realizability of the intervention ports,
+complete acquisition, interface selection, ontological substrate priority,
+new causal or quantum law, a grade-5 remainder, prediction, paper, model,
+hardware, provider, publication, or other external action.

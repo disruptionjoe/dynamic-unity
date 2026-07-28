@@ -902,6 +902,21 @@ not identify native states, select a physical record interface, or settle a
 global ontology. See the
 [operational-duality transfer](../explorations/operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md).
 
+**Causal-priority intervention ladder (`HC-DU-073`).** Equal terminal density
+matrices do not identify the formation process. In the exact control, opposite
+CNOT directions with oppositely located \(|+\rangle\) roots and a common-source
+replacement channel all emit \(|\Phi^+\rangle\). A pre-formation \(Z\) phase on
+the source-side port identifies only the source-to-record circuit; the matched
+phase on the record-side port identifies only the reverse circuit. Both
+interventions distinguish all three through \(X\otimes X\), while either alone
+leaves one direct process confounded with common source. This is a scoped
+process-tomography fixture absorbed by quantum causal models and causal
+tomography, not a universal two-intervention quantum bound. A successful
+physical analogue would identify a causal arrow inside a frozen process, not
+ontological substrate priority or an endogenously selected record interface.
+See the
+[causal-priority ladder](../explorations/causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

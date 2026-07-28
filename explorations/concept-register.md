@@ -3134,6 +3134,42 @@ distributed refinement absorb the components; the typed transfer and
 formation/selection boundary are the DU result. See
 `operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md`.
 
+### 2026-07-28 causal-priority intervention ladder
+
+`HC-DU-073` sharpens the action-relative reopener left by `HC-DU-072`.
+Terminal equality, endpoint tomography, authentication, and diagonal joint
+settings cannot orient a formation relation. In the frozen binary class
+
+\[
+U\to P\to R,\qquad
+U\to R\to P,\qquad
+U\to(P,R),
+\]
+
+one source-side surgical intervention separates \(P\to R\) but leaves
+\(R\to P\) confounded with common cause; one record-side intervention gives
+the converse. Both independently addressed interventions are necessary and
+sufficient, with exact classical total-variation margin \(1/2\).
+
+The same schema transfers to opposite-direction CNOT preparations and a
+Bell-pair replacement channel sharing one terminal density matrix, and to
+source-write, certificate-driven actuation, and common-source distributed
+histories sharing one authenticated endpoint. Structural causal models,
+quantum causal models, causal tomography, and process tensors absorb the
+components. The DU increment is the typed reopener:
+
+```text
+two physical arrow-breaking interventions
+  + common-cause rival
+  + complete acquisition
+  + no interface/source refit.
+```
+
+Even a successful run identifies only a causal direction inside the frozen
+process; it does not select the ports or establish ontological substrate
+priority. No current physical arena satisfies the complete contract. See
+`causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
