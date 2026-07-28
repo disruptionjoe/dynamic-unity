@@ -872,6 +872,23 @@ concentration results to correct DU's physical reopener. It does not derive
 quantum strength, select a record interface, or add new physics. See the
 [risk-indexed separation theorem](../explorations/risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md).
 
+**Risk-indexed capability--record frontier (`HC-DU-071`).** Finite confidence
+does not widen a record's physical target scope. For a frozen target, loss,
+resource envelope, and acceptable error, records and actions form an
+antitone polarity under the relation “this record reconstructs this action
+within the declared risk”; its closed pairs form a complete concept lattice.
+If two histories have identical complete joint record laws and opposite
+deterministic binary targets, every record-only decoder has minimax error at
+least \(1/2\), at every repetition count for which the complete joint laws
+remain identical. Repetition and redundancy can lower risk only when the
+accessible law already contains target information. The physical audit also
+separates theory-law discrimination, record-to-target reconstruction, and
+antecedent-to-interface selection. None of the current gauge, QEC,
+metastable, gravitational-wave, infrared, proper-time, provider, or CHSH
+specimens closes all three with complete acquisition, so the controlled-risk
+route activates no successor. See the
+[risk-indexed capability frontier](../explorations/risk-indexed-capability-record-frontier-and-physical-reopener-audit-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

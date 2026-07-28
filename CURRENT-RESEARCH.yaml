@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 19
+state_revision: 20
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,96 +82,104 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-070 proves that exact support closure and finite statistical
-    separation are non-equivalent. A full-support null may admit every finite
-    transcript while a positive probability-law margin yields finite
-    confidence at declared risk. The physical reopener now admits exact or
-    risk-indexed routes. CHSH is absorbed calibration, so no successor is
-    selected.
+    HC-DU-071 composes controlled statistical risk with Dynamic Unity's
+    capability--record closure. Confidence can admit an action only when the
+    complete record law already differs across its target classes. Opposite
+    binary targets retain minimax error one half at every repetition count
+    whose complete laws remain identical. Theory-law separation, record
+    reconstruction, and interface selection remain independent. No audited
+    physical arena closes all three, so no successor is selected.
 
 programs:
-  - id: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
+  - id: CCR-RISK-INDEXED-CAPABILITY-FRONTIER
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: complete
     execution_status: none
     wip_slot: none
-    primary_lane_id: '1'
+    primary_lane_id: '4'
     supporting_lane_ids:
-      - '4'
+      - '1'
+      - '3'
+      - '5'
       - '7'
     channel_ids:
       - CH-FORMAL
-      - CH-EMPIRICAL
+      - CH-SYN
       - CH-COLLIDE
+      - CH-EMPIRICAL
     target: >-
-      Completed: determine whether support-dense stochastic theories can
-      retain finite empirical content through probability-law separation, and
-      correct the physical reopener without weakening evidence typing.
+      Completed: determine whether HC-DU-070's controlled-risk route broadens
+      record capability, and audit the strongest physical candidates without
+      refitting their interfaces, targets, or resource contracts.
     current_grade: >-
-      HC-DU-070 BANKS A SCOPED GRADE-4 SUPPORT/PROBABILITY
-      NON-UNIFICATION, ROBUST SCORE-SEPARATION THEOREM, MEMORY-ROBUST
-      FINITE-SAMPLE GATE, DATA-PROCESSING LAW, AND REOPENER CORRECTION. THE
-      STATISTICS AND BELL COMPONENTS ARE ABSORBED.
+      HC-DU-071 BANKS A SCOPED GRADE-4 RISK-INDEXED CAPABILITY POLARITY,
+      NO-SCOPE-FROM-CONFIDENCE THEOREM, THREE-MARGIN NON-UNIFICATION, AND
+      PHYSICAL REOPENER ADJUDICATION. BLACKWELL, LE CAM, MINIMAX,
+      DATA-PROCESSING, AND FORMAL-CONCEPT COMPONENTS ARE ABSORBED.
     evidence_grade: 4
     maximum_grade: >-
-      THE COMPLETED THEOREM CANNOT PROMOTE BEYOND SCOPED NECESSITY. A
-      PHYSICALLY SELECTED LAW FAMILY AND IMPLEMENTATION-COMPLETE
-      DISCRIMINATOR RETAIN THEIR OWN INDEPENDENT GRADE-5 CEILING.
+      THE COMPLETED SYNTHESIS CANNOT PROMOTE BEYOND SCOPED NECESSITY. A
+      PHYSICALLY SELECTED FORMED INTERFACE, COMPLETE ACQUISITION, AND
+      HELD-OUT POSITIVE-MARGIN TARGET RETAIN AN INDEPENDENT GRADE-5 CEILING.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral finite-transcript theorem. The CHSH specimen freezes
-      setting independence, complete acquisition, causal separation, and
-      conditional null classes. It is calibration, not a selected DU model.
+      Assumption-neutral finite decision contract. History class, complete
+      joint record laws, actions, held-out responses, losses, resources, and
+      acceptable errors are frozen before decoding. Existing physical
+      specimens are reused unchanged.
     completed_dependencies:
+      - id: HC-DU-071
+        evidence_ref: explorations/risk-indexed-capability-record-frontier-and-physical-reopener-audit-2026-07-28.md
       - id: HC-DU-070
         evidence_ref: explorations/risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md
-      - id: HC-DU-069
-        evidence_ref: explorations/operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md
-      - id: HC-DU-036D
-        evidence_ref: explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
+      - id: HC-DU-064
+        evidence_ref: explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
+      - id: HC-DU-051
+        evidence_ref: explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
     remaining_obligations: []
     typed_dependencies:
       - type: requires
-        target: HC-DU-069
+        target: HC-DU-070
         target_type: result
       - type: extracts_from
-        target: HC-DU-036D
+        target: HC-DU-064
         target_type: result
       - type: tests
-        target: FINITE-RISK-INDEXED-PHYSICAL-SEPARATION
+        target: RISK-INDEXED-PHYSICAL-RECORD-CAPABILITY
         target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Neyman--Pearson testing, total variation, convex separation,
-      Hoeffding--Azuma concentration, finite-statistics Bell analysis, and
-      DU's existing bounded-score and finite-shot certificates.
+      Blackwell comparison of experiments, Le Cam deficiency, minimax
+      decision theory, data processing, formal-concept closure, and DU's
+      existing HC-DU-036C/041/051/064/070 results.
     cheapest_kill: >-
-      Not fired as a typed correction: the quantum CHSH class has full
-      transcript support while the Tsirelson score gap yields arbitrarily
-      small finite error. Zero-error closure therefore cannot exhaust finite
-      empirical content.
+      Fired against scientific activation: the unchanged audit found no arena
+      with a physically selected formed interface, complete acquisition, and
+      held-out positive-margin target. The formal polarity remains exact but
+      does not itself select a physical successor.
     stop_rule: >-
-      Satisfied. Do not call support density empirical vacuity, call a
-      p-value a posterior, omit convex mixtures or memory, credit passive
-      records for active separation, or rerun Bell calibration as DU physics.
+      Satisfied. Do not infer new target scope from lower p-values, treat
+      redundant archives as independent physical sources, infer interface
+      selection from low deficiency, or infer record reconstruction from
+      theory-law separation.
     reopen_rule: >-
-      Reopen only with a physically selected support or probability-law
-      family, complete transcript and acquisition contract, strongest
-      legitimate class enlargement, and either a support-disjoint event or
-      positive robust score gap with preregistered errors and held-out target.
+      Reopen only with a physically selected formed interface, complete
+      acquisition and frozen noise, held-out target, declared
+      loss/resource/error contract, robust positive margin after the strongest
+      legitimate class enlargement, and unchanged no-refit transfer.
     local_computation_boundary: >-
-      Exact proof and unchanged 28/28 CHSH control complete. No new model or
-      hardware is warranted.
+      Exact proof and unchanged executed specimens suffice. No new local model
+      or external hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/risk-indexed-capability-record-frontier-and-physical-reopener-audit-2026-07-28.md
       - explorations/risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md
-      - explorations/operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md
-      - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
-      - lab/process/operational-theory-landscape-contract.md
+      - explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
+      - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
       - docs/quantum-foundations-orientation-surface.md
 
   - id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
@@ -476,7 +484,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
+        target: CCR-RISK-INDEXED-CAPABILITY-FRONTIER
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -554,7 +562,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
+        target: CCR-RISK-INDEXED-CAPABILITY-FRONTIER
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -623,7 +631,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
+        target: CCR-RISK-INDEXED-CAPABILITY-FRONTIER
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
@@ -652,6 +660,7 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - physically-selected-target-sensitive-record-law-with-complete-assay
     - physically-selected-positive-margin-law-family-with-complete-assay
     - physically-restricted-nondense-completion-class-with-finite-separator
     - finite-operational-infrared-memory-interface-selector
@@ -662,10 +671,11 @@ successor_selection:
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
     Do not reactivate closed gates without their exact reopeners. A successor
-    must physically form a closed pair, supply either a realizable
-    support-disjoint separator or a positive robust law margin under complete
-    acquisition and fixed errors, provide a finite natural infrared interface
-    or nonabsorbed law filter, or pose a fresh locally decidable proposition.
+    must physically form a closed risk-indexed pair with a target-sensitive
+    record law, supply either a realizable support-disjoint separator or a
+    positive robust law margin under complete acquisition and fixed errors,
+    provide a finite natural infrared interface or nonabsorbed law filter, or
+    pose a fresh locally decidable proposition.
 
 anomaly_intake:
   status: open_non_wip

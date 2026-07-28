@@ -3067,6 +3067,44 @@ target. Bell, hypothesis-testing, convex-separation, and concentration
 mathematics are absorbed; no new physics or successor is selected. See
 `risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md`.
 
+### 2026-07-28 risk-indexed capability--record frontier
+
+`HC-DU-071` composes the risk correction with the capability--record spine.
+For a fixed target, loss, resource envelope, and acceptable error, records
+and actions form an antitone polarity under the incidence
+
+\[
+R\,I_\varepsilon\,a
+\quad\Longleftrightarrow\quad
+d_R(a)\leq\varepsilon_a.
+\]
+
+The closed pairs form a complete concept lattice. This makes approximate
+finality precise without converting it into one scalar: changing the target,
+loss, budget, or threshold changes the contract.
+
+The decisive no-scope result is exact. Two histories with identical complete
+joint record laws and opposite deterministic binary targets retain minimax
+record-only error \(1/2\). Repetition, consensus, authentication, and
+redundancy lower risk only when the complete accessible law already differs
+across those target classes.
+
+The unchanged physical audit keeps three receipts separate:
+
+```text
+theory-law separation
+    != record-to-target reconstruction
+    != antecedent-to-interface selection.
+```
+
+Gauge, syndrome, metastable, and gravitational-wave specimens retain useful
+target-relative results; proper-time and CHSH retain theory-family
+separation; infrared memory remains incompletely typed; and the provider
+packet remains acquisition-incomplete. No arena closes all three receipts,
+so no successor is activated. The Blackwell, Le Cam, minimax,
+data-processing, and formal-concept components are absorbed. See
+`risk-indexed-capability-record-frontier-and-physical-reopener-audit-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
