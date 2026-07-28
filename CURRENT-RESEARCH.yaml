@@ -1,11 +1,11 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 33
+state_revision: 34
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
-  recorded in the governed run receipts and the direct `Go` authorization
-  for `OC-CCR-S3-LAWFUL-FIBRE-TARGET-GATE`.
+  recorded in governed run receipts and the direct `Go` authorization for
+  `PFI-S1-RESIDUAL-NATURALITY-AUDIT`.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -83,11 +83,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-082 finds conditional prediction gain but no excess beyond GRW
-    instruments. The campaign stops; no successor is preselected.
+    HC-DU-083 separates the known forecast quotient from carrier selection.
+    Predictive value cannot select a symmetric point carrier; issuance remains
+    unearned. No successor is selected.
 
 programs:
-  - id: CCR-OBJECTIVE-COLLAPSE-EVENT-TO-CERTIFIED-RECORD
+  - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: complete
@@ -104,51 +105,56 @@ programs:
       - CH-FORMAL
       - CH-SYN
     target: >-
-      Completed: test collapse law, outcome formation, provenance, interface
-      selection, and downstream prediction.
+      Completed: test predictive record selection and recursive issuance.
     current_grade: >-
-      HC-DU-082 BANKS A GRADE-4 OUTCOME-SUFFICIENCY BOUNDARY AND
-      CONDITIONAL GRADE-3 TARGET-KERNEL RECONSTRUCTION, ABSORBED BY GRW
-      INSTRUMENTS. HC-DU-081 RETAINS PROVENANCE AND ACCESS BOUNDARIES.
+      HC-DU-083 BANKS A SCOPED GRADE-4 NECESSITY. THE FORECAST QUOTIENT IS
+      KNOWN AND CONTRACT-RELATIVE; EQUAL PREDICTIVE VALUE CANNOT NATURALLY
+      SELECT A POINT CARRIER ON A FIXED-POINT-FREE ORBIT. SOURCE ISSUANCE IS
+      NOT ESTABLISHED.
     evidence_grade: 4
     maximum_grade: >-
-      CAPPED AT GRADE 4; NO GRADE-5 REMAINDER OR PREDICTION WAS FOUND.
+      CAPPED AT GRADE 4; A SOURCE-PINNED SELECTOR WITH NO-REFIT TRANSFER
+      RETAINS A SEPARATE GRADE-5 CEILING.
     maximum_evidence_grade: 4
     premise_status: >-
-      Conditional on cited GRW definitions; neutral about their truth. Law,
-      ontology, instrument, outcome, access, kernel, and future remain distinct.
+      Ontology-neutral. Process, actions, horizon, resources, carrier,
+      formation, access, capability, and issuance remain distinct.
     completed_dependencies:
-      - id: HC-DU-082
-        evidence_ref: explorations/objective-collapse-lawful-fibre-target-contraction-and-instrument-absorption-2026-07-28.md
-      - id: HC-DU-081
-        evidence_ref: explorations/objective-collapse-conditional-outcome-formation-and-provenance-nonidentification-2026-07-28.md
+      - id: HC-DU-083
+        evidence_ref: explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
+      - id: HC-DU-033C
+        evidence_ref: explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
+      - id: HC-DU-036H
+        evidence_ref: explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
     remaining_obligations: []
     typed_dependencies:
       - type: tests
-        target: OUTCOME-TO-DOWNSTREAM-TARGET-SUFFICIENCY
+        target: PREDICTIVE-VALUE-TO-PHYSICAL-INTERFACE-SELECTION
         target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      GRW superoperators determine consecutive-experiment kernels once the
-      experiment is supplied.
+      Epsilon-transducers, bisimulation, HC-DU-036, HC-DU-033C, stochastic
+      thermodynamics, and fixed-oracle completion.
     cheapest_kill: >-
-      Met: reading the outcome lowers Bayes risk, but same-outcome histories
-      retain different future responses and all kernels are standard GRW.
+      Met. The quotient is known, and two symmetry-swapped resource-matched
+      carriers have identical predictive value but no natural point selector.
     stop_rule: >-
-      Do not call branch conditioning new physics, exact future determination,
-      provenance, or interface selection.
+      Skip quotient reconstruction. Do not call predictive usefulness physical
+      formation, universal purpose, or source issuance.
     reopen_rule: >-
-      Require either physical selection of the interface/access contract or a
-      no-refit held-out response outside the frozen GRW instrument prediction.
+      Require a source-pinned law that forms and selects a covariant interface
+      before target choice and transfers without refit beyond stability,
+      dissipation, fitness, and process dynamics.
     local_computation_boundary: >-
-      Source analysis decided this gate; no model or hardware is warranted.
+      Exact quotient and symmetry analysis decided the gate; no model or
+      hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
-      - explorations/objective-collapse-lawful-fibre-target-contraction-and-instrument-absorption-2026-07-28.md
-      - explorations/objective-collapse-conditional-outcome-formation-and-provenance-nonidentification-2026-07-28.md
+      - explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
+      - explorations/post-collapse-predictive-selection-to-forecasting-issuance-next-five-reassessment-2026-07-28.md
 
   - id: CCR-INDIVISIBLE-STOCHASTIC-MODULAR-RIGIDITY-GATE
     kind: flagship
@@ -666,7 +672,7 @@ successor_selection:
     - physically-restricted-nondense-completion-class-with-finite-separator
     - finite-operational-infrared-memory-interface-selector
     - physical-formation-lift-of-closed-capability-record-pair
-    - new-physical-formed-interface-selector
+    - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question

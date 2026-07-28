@@ -3503,6 +3503,48 @@ selects the interface/access contract or a no-refit held-out response falls
 outside the frozen GRW instrument prediction. See
 `objective-collapse-lawful-fibre-target-contraction-and-instrument-absorption-2026-07-28.md`.
 
+### 2026-07-28 predictive forecast quotient and physical-carrier boundary
+
+`HC-DU-083` separates three arrows:
+
+```text
+controlled process + future action family
+  -> canonical coarsest exact forecast quotient
+
+forecast quotient
+  -/-> unique physical carrier embedding
+
+situated capability-frontier growth
+  -/-> source issuance.
+```
+
+The first arrow is known epsilon-transducer, predictive-state,
+bisimulation, and `HC-DU-036A/H` terrain. It remains relative to the process,
+action family, horizon, tolerance, and resources; action or horizon expansion
+refines the quotient.
+
+The second failure is an exact specialization of `HC-DU-033C`. If a physical
+antecedent and all declared predictive, stability, dissipation, resource, and
+capability scores are invariant under a swap of two equally predictive
+formed carriers, no natural selector can choose either point. Physics may
+select their orbit, common algebra, or value, but choosing one member needs a
+branch, relational access token, or other physical asymmetry.
+
+Thermodynamics, semantic information, evolution, empowerment, and active
+inference explain ways predictive information can be useful or favored
+relative to supplied signal/sensor, system/environment, viability, fitness,
+action, blanket, and horizon contracts. They do not currently select one
+universal record interface.
+
+Recursive action-frontier expansion remains a real operational capability
+change, but under a fixed complete process it is compatible with disclosure.
+Source issuance requires a physically justified restriction on fixed-oracle
+and completed-history rivals. The prepared campaign therefore stops after
+Swing 1: skip the already-known quotient construction and reopen only with a
+source-pinned physical formation/selection antecedent and no-refit held-out
+transfer. See
+`predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
