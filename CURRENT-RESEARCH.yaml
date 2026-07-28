@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 13
+state_revision: 14
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat through 2026-07-27, including explicit authorizations
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-064 derives a covariant, generally non-chain capability-record
-    lattice. Physical formation remains open; H-CCR-17 remains closed. No
-    successor is selected.
+    HC-DU-064/065 derive a non-chain record lattice and separate resource
+    formation profile. Supplied protocols form the Pauli top; no interface is
+    selected. H-CCR-17 stays closed and no successor is selected.
 
 programs:
   - id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
@@ -104,55 +104,49 @@ programs:
       - CH-FORMAL
       - CH-COLLIDE
     target: >-
-      Completed: derive record requirements and regional composition from
-      frozen physical queries.
+      Completed: derive closed record requirements and their physical
+      formation profile from frozen queries.
     current_grade: >-
-      HC-DU-064: scoped Grade-4 polarity, closure, covariance, and non-chain
-      transfer package. Components are absorbed; no formed record or new
-      physics.
+      HC-DU-064/065: scoped Grade-4 closure, non-chain transfer,
+      closure--formation separation, and Pauli resource frontier. Components
+      are absorbed; protocols are supplied.
     evidence_grade: 4
     maximum_grade: >-
-      Complete at scoped necessity grade; a physical formation lift has an
-      independent ceiling.
+      Complete at scoped necessity; no endogenous selection or new physics.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral; process, query, horizon, and resource antecedents
-      are frozen. Preferred foliation is off.
+      Frozen process, query, horizon, and resources; preferred foliation off.
     completed_dependencies:
+      - id: HC-DU-065
+        evidence_ref: explorations/capability-record-closure-formation-profile-and-pauli-resource-frontier-2026-07-27.md
       - id: HC-DU-064
         evidence_ref: explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
-      - id: HC-DU-063
-        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - id: HC-DU-056
-        evidence_ref: explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
     remaining_obligations: []
     typed_dependencies:
       - type: requires
-        target: HC-DU-063
-        target_type: result
-      - type: requires
-        target: HC-DU-056
+        target: HC-DU-064
         target_type: result
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Formal concept analysis, sufficient statistics, operational
-      equivalence, quantum combs, and process tensors.
+      Formal-concept closure, the Admissible Record Envelope, channel
+      discrimination, dense coding, and Bell discrimination.
     cheapest_kill: >-
-      Passed: the polarity and covariance squares hold, and the classical and
-      Pauli specimens realize the same non-chain M3 lattice.
+      Passed: one unassisted qubit cannot distinguish four Pauli channels;
+      two uses or one entangled reference qubit suffice.
     stop_rule: >-
-      Do not force finality into a scalar chain or call the quotient a formed
-      material record.
+      Do not infer formation from closure, scalarize receipts, or call a
+      supplied Bell analyzer selected.
     reopen_rule: >-
-      Reopen for a physical record map realizing one closed pair with formed
-      provenance, access, charged decoders, and unchanged transfer.
+      Reopen for dynamics selecting the complete interface, or unchanged
+      resource-decorated transfer to a second serious physical arena.
     local_computation_boundary: >-
-      Exact analytic witnesses complete; no model or hardware is authorized.
+      Exact proofs complete; no model or hardware is authorized.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/capability-record-closure-formation-profile-and-pauli-resource-frontier-2026-07-27.md
       - explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
       - docs/quantum-foundations-orientation-surface.md
 

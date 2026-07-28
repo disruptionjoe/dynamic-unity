@@ -2295,6 +2295,28 @@ prediction promotion occurs.
   form that quotient, select those antecedents, supply provenance or access,
   make decoders free, or reopen `H-CCR-17`. See
   `capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md`.
+- **2026-07-27 closure--formation profile and Pauli frontier.** `HC-DU-065`
+  composes the closure lattice with the Admissible Record Envelope without
+  identifying them. A closed requirement now carries a Pareto set of physical
+  formation receipts, not an intrinsic scalar cost. Individually feasible
+  lattice atoms need not have a jointly feasible capability-side join under
+  the same resource contract.
+
+  In the four-Pauli specimen, every one-bit atom is formable with one
+  unassisted use, while the complete four-valued record is not. Exact
+  formation needs either two unassisted uses or one use plus a maximally
+  entangled reference qubit and joint Bell measurement; either route needs a
+  four-state value archive. The same \(M_3\) lattice can have a different
+  formation profile in co-located and split-port classical architectures.
+  Thus the cross-domain invariant is semantic closure, while the physically
+  informative delta lies in native interface compatibility and resource
+  geometry.
+
+  This conditionally forms the Pauli top under supplied laboratory
+  antecedents. It does not select the process, tester, ancilla, analyzer,
+  archive, observer, or resource exchange law and does not reopen
+  `H-CCR-17`. See
+  `capability-record-closure-formation-profile-and-pauli-resource-frontier-2026-07-27.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
