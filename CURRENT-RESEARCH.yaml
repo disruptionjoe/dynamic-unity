@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 22
+state_revision: 23
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,12 +82,14 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-073 sharpens HC-DU-072: terminal equality does not orient formation.
-    In the frozen direct-arrow/common-cause class, both one-sided interventions
-    are jointly necessary and sufficient. Quantum and distributed controls
-    transfer, but a causal arrow does not establish ontology or select its
-    ports. No current arena supplies the complete contract, so no successor is
-    selected.
+    HC-DU-074 executes the first gate of the selected-record North-Star
+    campaign. Current gravitational quantum filtering exposes output fields
+    but explicitly permits inequivalent homodyne and number-counting
+    unravellings of the same unconditional dynamics. Autonomous detectors
+    physically amplify and reset only after their detector channel is
+    supplied. New sibling results and prior physical classes change no exact
+    reopener. No candidate is admitted, Swing 2 is inactive, and no scientific
+    successor is selected.
 
 programs:
   - id: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
@@ -668,6 +670,7 @@ successor_selection:
     - finite-operational-infrared-memory-interface-selector
     - physical-formation-lift-of-closed-capability-record-pair
     - new-physical-formed-interface-selector
+    - physically-selected-output-unravelling-with-bounded-provenance-archive
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
@@ -676,8 +679,9 @@ successor_selection:
     must physically form a closed risk-indexed pair with a target-sensitive
     record law, supply either a realizable support-disjoint separator or a
     positive robust law margin under complete acquisition and fixed errors,
-    provide a finite natural infrared interface or nonabsorbed law filter, or
-    pose a fresh locally decidable proposition.
+    select an output algebra or unravelling with bounded provenance-preserving
+    access, provide a finite natural infrared interface or nonabsorbed law
+    filter, or pose a fresh locally decidable proposition.
 
 anomaly_intake:
   status: open_non_wip

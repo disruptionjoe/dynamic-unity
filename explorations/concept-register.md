@@ -3170,6 +3170,38 @@ process; it does not select the ports or establish ontological substrate
 priority. No current physical arena satisfies the complete contract. See
 `causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md`.
 
+### 2026-07-28 antecedent admission and unravelling boundary
+
+`HC-DU-074` executes Swing 1 of the selected-record North-Star campaign and
+returns `NO_READY_SCIENTIFIC_SUCCESSOR`.
+
+The strongest newly checked source is a gravitational quantum-filtering
+construction that dilates the Diósi--Penrose generator into continuum output
+fields. It derives the familiar diffusive stochastic equation after choosing
+to homodyne an output quadrature. The same source explicitly constructs
+number counting as an alternative monitoring of the same output dynamics.
+The unconditional generator therefore selects neither trajectory record:
+
+```text
+selected output-field coupling
+  != selected output observable
+  != bounded retained record
+  != target reconstruction.
+```
+
+An autonomous quantum-detector source physically derives gain, current,
+reset, dark-count, jitter, and entropy tradeoffs after its detector
+architecture and detection channel are supplied. It is a useful conditional
+formation model, but remains inside `HC-DU-061`'s closed mechanism class.
+Current Time as Finality and GU Formalization work changes no DU physical
+reopener.
+
+The future admission class is now sharper: physics must select an output
+algebra or unravelling up to a physically irrelevant equivalence, provide
+bounded access and retained provenance, and leave a target independently
+escrowed. See
+`physical-antecedent-admission-tournament-and-unravelling-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
