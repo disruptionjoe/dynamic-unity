@@ -329,6 +329,17 @@ A timelike current supplies a positive control for one frame component, not a
 complete record interface. See the
 [law/interface separation result](../explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md).
 
+The post-Einstein attribution gate is also complete. If a proposed correction
+\(C(m)\) is moved into an otherwise unrestricted effective source, then
+\((m,J)\mapsto(m,J-C(m))\) preserves the physical configuration and all
+record/target fibres that factor through it. An Einstein-form effective source
+therefore does not by itself narrow the lawful class. Current 2026 CFS sources
+do not yet supply one explicit regulator-selected post-Einstein operator for
+the frozen \(3+1\) packet. Reopen only with the operator, independently fixed
+source and regulator class, non-absorption proof, and a changed rank/nullspace
+or explicit witness relative to the Einstein baseline. See the
+[post-Einstein CFS gate](../explorations/post-einstein-cfs-law-filter-and-effective-source-relocation-gate-2026-07-27.md).
+
 ## Cross-cutting tensions most relevant to Dynamic Unity
 
 ### 1. Identity between rigidity and unconstrained splitting

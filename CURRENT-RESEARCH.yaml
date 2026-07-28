@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 10
+state_revision: 11
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
@@ -10,7 +10,9 @@ authority: >-
   Joe's subsequent correction and authorization of a whole-repository
   Science Council and distributed-systems opportunity assessment, followed
   by Joe direct chat authorizing a source-pinned sibling-update audit and
-  Science Council Triple Diamond for the next five swings.
+  Science Council Triple Diamond for the next five swings, and Joe direct
+  chat authorizing the fresh whole-repository bounded successor that completed
+  the post-Einstein CFS law-filter gate.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -88,20 +90,105 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-061 completes the authorized three-mechanism autonomous-finality
-    gate. Liouvillian dynamics selects invariant/slow structure and timescales;
-    thermodynamic memory can additionally select material carrier, phase
-    sectors, barriers, and retention; autonomous dissipation can stabilize a
-    chosen code/steady manifold. None of the strongest standard constructions
-    also selects a target-blind blank-to-written occurrence, retained
-    provenance, archive route, access port, and future action envelope. No
-    mechanism passes admission. Because the common interface-factorization
-    boundary is already banked in HC-DU-033F/054, Positions 2--5 are not
-    automatically activated. The portfolio is quiescent with
-    NO_READY_SUCCESSOR_FROM_THIS_GATE, not a claim of whole-repository
-    exhaustion. Publication hardening remains separately prepared.
+    HC-DU-062 completes the fresh post-Einstein CFS law-filter gate. An
+    unrestricted effective source absorbs any correction by the
+    configuration-preserving relocation (m,J) -> (m,J-C(m)); such a rewrite
+    cannot shrink physical record fibres. Current 2026 CFS gravity sources
+    reach Einstein/Einstein--Dirac form and identify higher-order correction
+    programs, but do not yet supply one explicit regulator-selected
+    post-Einstein operator and independently frozen source class for DU's
+    completed 3+1 packet. The CFS branch is stopped behind that exact
+    reopener. No new scientific flagship or executable action is preselected.
+    This is not whole-repository exhaustion. Publication hardening remains
+    separately prepared and unchanged.
 
 programs:
+  - id: CCR-POST-EINSTEIN-LAW-FILTER
+    kind: flagship
+    owner_repo: dynamic-unity
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
+    primary_lane_id: '6'
+    supporting_lane_ids:
+      - '1'
+      - '3'
+      - '7'
+    channel_ids:
+      - CH-SYN
+      - CH-FORMAL
+      - CH-COLLIDE
+    target: >-
+      Completed: determine whether current causal-fermion-system gravity
+      results supply an explicit post-Einstein filter for DU's completed 3+1
+      lawful reconstruction packet or only relocate a correction into an
+      unconstrained effective source.
+    current_grade: >-
+      HC-DU-062 BANKS A SCOPED GRADE-4 EXACT SOURCE-RELOCATION CONSEQUENCE
+      AND PRIMARY-SOURCE SCOPE AUDIT. THE BIJECTION, LEADING EINSTEIN CONTENT,
+      AND FIBRE MATHEMATICS ARE ABSORBED. NO NEW CFS FIELD EQUATION, NEW
+      PHYSICS, PREDICTION, PAPER, MODEL, HARDWARE, OR PROVIDER RESULT.
+    evidence_grade: 4
+    maximum_grade: >-
+      THE COMPLETED GATE CANNOT PROMOTE SCIENCE BEYOND ITS SCOPED
+      ATTRIBUTION RESULT. A FUTURE EXPLICIT CFS CORRECTION RETAINS ITS OWN
+      INDEPENDENT MAXIMUM GRADE.
+    maximum_evidence_grade: 4
+    premise_status: >-
+      Assumption-neutral. The physical configuration, record, target, gauge,
+      boundary, and source types remain fixed. Preferred foliation is off.
+      No effective source, coefficient, regulator, or target was fitted.
+    completed_dependencies:
+      - id: HC-DU-062
+        evidence_ref: explorations/post-einstein-cfs-law-filter-and-effective-source-relocation-gate-2026-07-27.md
+      - id: HC-DU-038C
+        evidence_ref: explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+      - id: HC-DU-052
+        evidence_ref: explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
+      - id: HC-DU-053
+        evidence_ref: explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md
+    remaining_obligations: []
+    typed_dependencies:
+      - type: requires
+        target: HC-DU-038C
+        target_type: result
+      - type: tests
+        target: CFS-POST-EINSTEIN-LAW-FILTER
+        target_type: requirement
+      - type: does_not_block
+        target: DU-PAPER-013-HARDENING
+        target_type: program
+    strongest_absorber: >-
+      Ordinary Einstein or Einstein--Dirac dynamics plus an unrestricted
+      effective-source class: any added correction can be relocated into the
+      source without changing the physical configuration.
+    cheapest_kill: >-
+      Met for the current source packet: the explicit bijection between
+      corrected and baseline lawful graphs preserves every record and target
+      that factors through the physical configuration.
+    stop_rule: >-
+      Satisfied. Do not build a CFS toy, refit an effective stress tensor,
+      rerun the 1+1 conformal host, or treat a catalog of possible corrections
+      as a frozen post-Einstein operator.
+    reopen_rule: >-
+      Reopen only with an explicit correction operator, frozen
+      configuration/gauge/boundary/source class, independently selected
+      coefficient or regulator, proof that the source class cannot absorb the
+      correction, and a changed rank/nullspace or witness on the same 3+1
+      packet relative to the Einstein baseline.
+    local_computation_boundary: >-
+      Completed by exact algebra and primary-source analysis. No model or
+      external hardware was needed and none is authorized by the result.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - explorations/post-einstein-cfs-law-filter-and-effective-source-relocation-gate-2026-07-27.md
+      - explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
+      - explorations/robust-reconstruction-vertical-slice-and-dynamics-restricted-geometry-2026-07-26.md
+      - explorations/3-plus-1-law-filtered-record-assisted-reconstruction-and-causal-exterior-remainder-2026-07-27.md
+      - explorations/3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md
+      - docs/quantum-foundations-orientation-surface.md
+
   - id: CCR-AUTONOMOUS-STRATIFIED-FINALITY
     kind: flagship
     owner_repo: dynamic-unity
@@ -541,15 +628,18 @@ successor_selection:
   selected_successor_id: null
   candidate_classes:
     - new-physical-formed-interface-selector
+    - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
-    - no-ready-successor-from-frozen-three-class-gate
+    - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
-    HC-DU-061 admits no mechanism from the frozen three-class gate and finds
-    that the common minimum factorization statement is already banked. Do not
-    activate later reconciliation, adapter, holonomy, or transfer positions
-    without a selected record object. A new scientific successor requires new
-    evidence selecting a missing formed-interface component or a fresh bounded
-    whole-repository question with an unbanked locally decidable proposition.
+    HC-DU-062 finds no explicit CFS post-Einstein operator/source/regularizer
+    packet ready for the completed 3+1 fibre test, while HC-DU-061 admits no
+    mechanism from the frozen autonomous-finality gate. Do not activate a CFS
+    model, later reconciliation, adapter, holonomy, or transfer position
+    without its exact reopener. A new scientific successor requires an
+    explicit non-source-absorbable law filter, new evidence selecting a
+    missing formed-interface component, or a fresh bounded whole-repository
+    question with an unbanked locally decidable proposition.
 
 anomaly_intake:
   status: open_non_wip

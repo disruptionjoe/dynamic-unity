@@ -767,6 +767,34 @@ TARGET- AND CAPABILITY-RELATIVE INTERIOR FIRST LEAK /
 PHYSICAL RECORD SELECTION AND FORMATION STILL OPEN.** See
 `3-plus-1-causally-closed-noninjective-transfer-and-first-recoupling-2026-07-27.md`.
 
+### 2026-07-27 post-Einstein CFS law-filter gate
+
+`HC-DU-062` adds an exact attribution guard to the lawful-reconstruction
+program. For baseline field operator \(E\), proposed correction \(C\), and an
+otherwise unrestricted effective source,
+
+\[
+\Phi_C(m,J)=(m,J-C(m))
+\]
+
+bijects the corrected lawful graph \(E(m)+C(m)=J\) with the baseline graph
+\(E(m)=J_0\) while preserving the physical configuration \(m\). Any record or
+target that factors through \(m\) therefore has the same completion fibres and
+target diameters. A correction has reconstruction content only relative to an
+independently frozen source class that is not closed under this relocation.
+
+The current 2026 CFS gravity sources reach Einstein/Einstein--Dirac form and
+name higher-order, osculation, regularizing-vector, and measure corrections,
+but do not yet supply one explicit regulator-selected post-Einstein operator
+for DU's frozen \(3+1\) packet. The branch is stopped until such an operator,
+source class, coefficient/regularizer, and changed rank or witness are
+provided.
+
+**Updated status:** **EXACT SCOPED EFFECTIVE-SOURCE RELOCATION INVARIANCE /
+LEADING CFS GRAVITY ABSORBED BY EINSTEIN BASELINE /
+EXPLICIT POST-EINSTEIN CFS FILTER NOT READY.** See
+`post-einstein-cfs-law-filter-and-effective-source-relocation-gate-2026-07-27.md`.
+
 ## CONCEPT-DU-003 — recursive operational viability and physical system individuation
 
 - **Concept (articulation-invariant).** Some physical regimes may organize
