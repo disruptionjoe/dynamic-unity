@@ -845,6 +845,19 @@ no-programming, interferometry, and instrument characterization absorb the
 physics. The live relation is therefore implementation-complete physical
 interventional sufficiency, not another finite selector fit.
 
+**Formation-profile transfer update.** `HC-DU-066` carries the
+`HC-DU-065` resource-decorated formation law unchanged into stabilizer QEC:
+exact formation requires pairwise orthogonal accessible conditional supports
+and enough archive states. The same semantic \(M_3\) is realized, but native
+receipts do not unify. A Pauli-channel top uses repeated access or an
+entangled reference and Bell analyzer; the repetition-code top uses encoded
+redundancy and a supplied QND syndrome interface. The complete syndrome has
+an exact record-only recovery consequence, while every atom fails. This is a
+cross-arena transfer and resource non-unification, not interface selection or
+a shared physical mechanism. It discharges the table row's second-arena
+reopener; the remaining reopener is physical interface selection or a
+quantitative invariant beyond ordinary support discrimination.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

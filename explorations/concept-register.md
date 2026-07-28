@@ -2317,6 +2317,28 @@ prediction promotion occurs.
   archive, observer, or resource exchange law and does not reopen
   `H-CCR-17`. See
   `capability-record-closure-formation-profile-and-pauli-resource-frontier-2026-07-27.md`.
+- **2026-07-27 stabilizer formation transfer.** `HC-DU-066` transfers the
+  `HC-DU-065` formation profile unchanged to the three-qubit
+  repetition-code syndrome. The four error representatives and three
+  stabilizer parities realize the same \(M_3\), while exact formation in both
+  arenas is governed by the same orthogonal-output-support and archive
+  criterion.
+
+  The physical receipts do not unify. One unassisted Pauli-channel use cannot
+  form the four-valued top; it needs a second use or an entangled reference
+  and Bell readout. One QEC error occurrence already occupies one of four
+  orthogonal syndrome subspaces, so a supplied QND instrument can form the
+  top using encoded-carrier redundancy plus parallel, sequential, or joint
+  pointer resources. One terminal binary pointer is impossible; the retained
+  transcript and value archive need at least four labels.
+
+  The complete syndrome is necessary and sufficient for a frozen record-only
+  Pauli recovery on \(\{I,X_1,X_2,X_3\}\); every one-bit atom confounds two
+  required corrections. This is an exact held-out capability consequence and
+  resource non-unification, not a new QEC theorem. The code, checks, pointers,
+  decoder, archive, and observer remain supplied, so `H-CCR-17` does not
+  reopen. See
+  `stabilizer-syndrome-formation-transfer-and-channel-state-resource-non-unification-2026-07-27.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.
