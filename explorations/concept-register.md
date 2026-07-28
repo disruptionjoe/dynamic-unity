@@ -1659,6 +1659,38 @@ naturality of the ETH actuality-algebra quotient and its generating families
 across physically admissible future-algebra nets and representations. See
 `event-formation-antecedent-tournament-eventum-eth-kent-2026-07-28.md`.
 
+### 2026-07-28 actuality-algebra covariance and co-filtration relativity
+
+`HC-DU-091` separates coordinate-free definition from physical-interface
+selection. For a state-carrying star-isomorphism \(\alpha\),
+
+\[
+\alpha(Z_\omega(A))=Z_{\omega\circ\alpha^{-1}}(\alpha(A)),
+\]
+
+so the center-of-centralizer rule is representation-natural. It is not
+restriction-natural:
+
+\[
+Z_{\omega|_B}(B)
+\ne
+B\cap Z_\omega(A)
+\]
+
+in the smallest exact \(M_2(\mathbb C)\) counterexample. Under one tracial
+state and identity dynamics, restrictions to the symmetry-related algebras
+\(\operatorname{span}\{I,Z\}\) and \(\operatorname{span}\{I,X\}\) generate
+incompatible atomic event families, while the ambient actuality algebra is
+scalar.
+
+Thus a future-algebra co-filtration can carry the physical asymmetry that
+selects an event, but the actuality-algebra rule does not select that
+co-filtration. Once either finite event family and time are fixed, the ETH
+conditioning rule is the ordinary matched Lüders instrument. Reopen only
+through an independently derived physical co-filtration and a no-refit
+consequence beyond that instrument. See
+`eth-actuality-algebra-naturality-restriction-counterexample-and-instrument-boundary-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing

@@ -1,0 +1,303 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "centralizer_complex_dimension": 4
+      },
+      "name": "tracial_centralizer_is_full_m2",
+      "passed": true
+    },
+    {
+      "detail": {
+        "actuality_algebra_complex_dimension": 1
+      },
+      "name": "full_m2_actuality_algebra_is_scalar",
+      "passed": true
+    },
+    {
+      "detail": {
+        "actuality_algebra_complex_dimension": 2
+      },
+      "name": "restricted_z_algebra_is_abelian_and_actual",
+      "passed": true
+    },
+    {
+      "detail": {
+        "actuality_algebra_complex_dimension": 2
+      },
+      "name": "restricted_x_algebra_is_abelian_and_actual",
+      "passed": true
+    },
+    {
+      "detail": {
+        "Bz_intersection_Z_tau_A_dimension": 1,
+        "Z_tau_restricted_Bz_dimension": 2
+      },
+      "name": "restriction_naturality_fails",
+      "passed": true
+    },
+    {
+      "detail": {
+        "full_centralizer_complex_dimension": 2,
+        "identified_centralizer_basis": [
+          "I",
+          "Z"
+        ]
+      },
+      "name": "nontracial_control_has_diagonal_full_actuality_algebra",
+      "passed": true
+    },
+    {
+      "detail": {
+        "full_actuality_algebra": "span(I,Z)",
+        "intersection": "span(I)",
+        "restricted_actuality_algebra": "span(I,X)"
+      },
+      "name": "nontracial_restriction_rotates_actuality_algebra",
+      "passed": true
+    },
+    {
+      "detail": {
+        "alpha_I": [
+          [
+            "1/1",
+            "0/1"
+          ],
+          [
+            "0/1",
+            "1/1"
+          ]
+        ],
+        "alpha_X": [
+          [
+            "1/1",
+            "0/1"
+          ],
+          [
+            "0/1",
+            "-1/1"
+          ]
+        ],
+        "alpha_Y": [
+          [
+            "0/1",
+            {
+              "imag": "1/1",
+              "real": "0/1"
+            }
+          ],
+          [
+            {
+              "imag": "-1/1",
+              "real": "0/1"
+            },
+            "0/1"
+          ]
+        ],
+        "alpha_Z": [
+          [
+            "0/1",
+            "1/1"
+          ],
+          [
+            "1/1",
+            "0/1"
+          ]
+        ]
+      },
+      "name": "hadamard_is_exact_star_automorphism_control",
+      "passed": true
+    },
+    {
+      "detail": {
+        "after": [
+          "1/1",
+          "0/1",
+          "0/1",
+          "0/1"
+        ],
+        "before": [
+          "1/1",
+          "0/1",
+          "0/1",
+          "0/1"
+        ]
+      },
+      "name": "hadamard_preserves_tracial_state",
+      "passed": true
+    },
+    {
+      "detail": {
+        "image": "span(I,X)",
+        "source": "span(I,Z)"
+      },
+      "name": "representation_covariance_maps_actuality_algebras",
+      "passed": true
+    },
+    {
+      "detail": {
+        "commutator_X_Z": [
+          [
+            "0/1",
+            "-2/1"
+          ],
+          [
+            "2/1",
+            "0/1"
+          ]
+        ]
+      },
+      "name": "symmetry_related_event_algebras_are_incompatible",
+      "passed": true
+    },
+    {
+      "detail": {
+        "projection": [
+          [
+            "1/1",
+            "0/1"
+          ],
+          [
+            "0/1",
+            "0/1"
+          ]
+        ],
+        "trace": "1/1"
+      },
+      "name": "Pz_plus_is_rank_one_projection",
+      "passed": true
+    },
+    {
+      "detail": {
+        "projection": [
+          [
+            "0/1",
+            "0/1"
+          ],
+          [
+            "0/1",
+            "1/1"
+          ]
+        ],
+        "trace": "1/1"
+      },
+      "name": "Pz_minus_is_rank_one_projection",
+      "passed": true
+    },
+    {
+      "detail": {
+        "projection": [
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ]
+        ],
+        "trace": "1/1"
+      },
+      "name": "Px_plus_is_rank_one_projection",
+      "passed": true
+    },
+    {
+      "detail": {
+        "projection": [
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "1/2"
+          ]
+        ],
+        "trace": "1/1"
+      },
+      "name": "Px_minus_is_rank_one_projection",
+      "passed": true
+    },
+    {
+      "detail": {
+        "x_partition": [
+          "Px_plus",
+          "Px_minus"
+        ],
+        "z_partition": [
+          "Pz_plus",
+          "Pz_minus"
+        ]
+      },
+      "name": "atomic_event_pairs_partition_identity",
+      "passed": true
+    },
+    {
+      "detail": {
+        "weights": [
+          "1/2",
+          "1/2",
+          "1/2",
+          "1/2"
+        ]
+      },
+      "name": "born_weights_are_half",
+      "passed": true
+    },
+    {
+      "detail": {
+        "posterior_rule": "P rho P / Tr(rho P)"
+      },
+      "name": "eth_conditioned_state_equals_luders_posterior",
+      "passed": true
+    },
+    {
+      "detail": {
+        "sequential_weights": [
+          "1/4",
+          "1/4",
+          "1/4",
+          "1/4"
+        ]
+      },
+      "name": "matched_sequential_instrument_weights_are_quarters",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-091",
+  "disposition": {
+    "cofiltration": "NO_PHYSICAL_COFILTRATION_SELECTOR",
+    "event_to_record_continuation": "STOP_LOWER_SELECTOR_FAILED",
+    "fixed_collapse_step": "STANDARD_INSTRUMENT_ABSORPTION",
+    "representation": "REPRESENTATION_NATURALITY",
+    "restriction": "ALGEBRA_RELATIVE_EVENT_AMBIGUITY"
+  },
+  "fixture": {
+    "ambient_algebra": "M2(C)",
+    "cofiltration_refinements": [
+      [
+        "M2(C)",
+        "span(I,Z)",
+        "C I"
+      ],
+      [
+        "M2(C)",
+        "span(I,X)",
+        "C I"
+      ]
+    ],
+    "dynamics": "identity",
+    "shared_coarse_endpoints": [
+      "M2(C)",
+      "C I"
+    ],
+    "states": {
+      "nontracial_control": "rho=diag(3/4,1/4)",
+      "symmetric": "tau=Tr/2"
+    }
+  },
+  "summary": {
+    "passed": 19,
+    "total": 19
+  }
+}

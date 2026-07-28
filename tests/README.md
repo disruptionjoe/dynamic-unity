@@ -2498,3 +2498,40 @@ causal-discovery bound, physical realizability of the intervention ports,
 complete acquisition, interface selection, ontological substrate priority,
 new causal or quantum law, a grade-5 remainder, prediction, paper, model,
 hardware, provider, publication, or other external action.
+
+## HC-DU-091 ETH actuality-algebra naturality
+
+`du_eth_actuality_algebra_naturality_probe.py` preserves the exact finite
+controls for the ETH center-of-centralizer gate:
+
+- the tracial centralizer of \(M_2(\mathbb C)\) is the full algebra, whose
+  center is scalar;
+- restricting the same state to either
+  \(\operatorname{span}\{I,Z\}\) or \(\operatorname{span}\{I,X\}\) produces a
+  two-dimensional actuality algebra;
+- a faithful nontracial state supplies a control in which restriction rotates
+  the actuality algebra rather than merely exploiting tracial degeneracy;
+- the Hadamard star-automorphism preserves the frozen symmetric antecedent,
+  exchanges the two restricted event algebras, and verifies representation
+  covariance;
+- the two atomic event partitions are individually canonical up to labels
+  but mutually incompatible; and
+- once either partition and its event time are fixed, the ETH conditioning
+  step has the exact probabilities and posterior states of the matched Lüders
+  projective instrument.
+
+Run:
+
+```bash
+python3 tests/du_eth_actuality_algebra_naturality_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_eth_actuality_algebra_naturality_result.json` and reports
+`19/19`. Passing establishes only the scoped representation-covariance,
+restriction/co-filtration non-naturality, symmetry-orbit, and finite
+instrument-absorption controls. It does not refute ETH, select a physical
+future-algebra net, derive an event time, form a durable record, select
+provenance or access, establish source issuance or empirical excess, earn a
+grade-5 remainder, or authorize a prediction, paper, model, hardware,
+provider, publication, or other external action.
