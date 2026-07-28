@@ -669,6 +669,24 @@ See the
 and
 [conditional series](../explorations/next-five-swing-preferred-foliation-assumption-scaffold-2026-07-27.md).
 
+The follow-on kernel-minimality attack (`HC-DU-059`) corrects one overpacked
+part of that theorem. The seven fields are an audit checklist, not a uniquely
+minimal physical basis. Their invariant content is the joint
+observer-operational response kernel. A held-out target is either derived
+from the complete process or belongs outside the physical object as the query
+testing sufficiency. A finality/fault entry similarly splits into physical
+carrier, supplied adjudication rule, and derived verdict. Observer indexing
+is the access/action/resource role, not an additional identity coordinate.
+
+The recommended formal shape is therefore: freeze the completion, gauge,
+representation, and occurrence contract; describe the physical
+process/record/observer-operational interface; independently declare target
+and fault/finality queries; then calculate reconstruction and remainder
+verdicts. Named-field minimality is contract- and presentation-dependent.
+The result is mathematically absorbed, so it does not open another
+cross-arena physics test. See the
+[operational-kernel correction](../explorations/presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md).
+
 ### 11. Record reconstruction versus unique geometry
 
 **Established.** Order, correlations, entanglement, spectra, and boundary data

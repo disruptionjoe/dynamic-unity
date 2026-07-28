@@ -1,0 +1,130 @@
+{
+  "claim_id": "HC-DU-059",
+  "work_id": "N5-CCR-BS-P3-KERNEL",
+  "domain_size": 4,
+  "checks_passed": 12,
+  "checks_total": 12,
+  "all_passed": true,
+  "returns": [
+    "REDUNDANT_OR_DERIVABLE_FIELD",
+    "CONTRACT_DEPENDENT_MINIMALITY",
+    "ABSORBED_SCHEMA_ONLY",
+    "OBSERVER_INDEX_DERIVABLE_FROM_ACCESS_ACTION"
+  ],
+  "checks": [
+    {
+      "name": "target_factorization_equals_kernel_inclusion_positive",
+      "passed": true,
+      "detail": "parity is constant on every complete-signature fibre"
+    },
+    {
+      "name": "target_factorization_equals_kernel_inclusion_negative",
+      "passed": true,
+      "detail": "the first coordinate alone does not determine parity"
+    },
+    {
+      "name": "first_field_independent_in_named_presentation",
+      "passed": true,
+      "detail": "the second field does not derive the first"
+    },
+    {
+      "name": "second_field_independent_in_named_presentation",
+      "passed": true,
+      "detail": "the first field does not derive the second"
+    },
+    {
+      "name": "bijective_repacking_preserves_joint_kernel",
+      "passed": true,
+      "detail": {
+        "original_partition": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "repacked_partition": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "name": "repacking_makes_one_coordinate_redundant",
+      "passed": true,
+      "detail": "the constant dummy field is derivable after lossless repacking"
+    },
+    {
+      "name": "invertible_coordinate_mixing_preserves_joint_kernel",
+      "passed": true,
+      "detail": "the original and XOR-mixed bases preserve exactly the same distinctions"
+    },
+    {
+      "name": "mixed_basis_retains_coordinate_independence",
+      "passed": true,
+      "detail": "even an irredundant two-field basis is not a unique named basis"
+    },
+    {
+      "name": "held_out_target_derived_from_complete_process",
+      "passed": true,
+      "detail": "the target is a readout of the declared complete process"
+    },
+    {
+      "name": "target_coordinate_adds_no_kernel_information",
+      "passed": true,
+      "detail": "including a derived target in the physical bundle does not refine its fibres"
+    },
+    {
+      "name": "complete_process_can_absorb_named_target",
+      "passed": true,
+      "detail": "a complete process signature and the same signature with an explicit target agree"
+    },
+    {
+      "name": "minimal_target_quotient_is_coarser_than_complete_presentation",
+      "passed": true,
+      "detail": {
+        "complete_partition": [
+          [
+            0
+          ],
+          [
+            1
+          ],
+          [
+            2
+          ],
+          [
+            3
+          ]
+        ],
+        "target_partition": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ]
+      }
+    }
+  ]
+}

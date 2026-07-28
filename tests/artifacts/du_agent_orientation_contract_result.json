@@ -1,10 +1,10 @@
 {
-  "active_scientific_program": "CCR-KERNEL-MINIMALITY",
+  "active_scientific_program": "CCR-NORTH-STAR-PORTFOLIO-RESET",
   "authority": "CURRENT-RESEARCH.yaml",
   "checks_passed": 35,
-  "cold_start_words": 5286,
+  "cold_start_words": 5350,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
-  "executable_action": "N5-CCR-BS-P3-KERNEL",
+  "executable_action": "N5-CCR-BS-P5-RESET",
   "prepared_publication_candidate": "DU-PAPER-013",
   "probe": "du_agent_orientation_contract_probe",
   "scope": "current_research_authority_and_cold_start_governance_only",

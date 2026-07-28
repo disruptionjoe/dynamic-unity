@@ -2738,6 +2738,31 @@ foliation. The component mathematics is absorbed by quotient factorization
 and causal composition. The result supplies no new physics or grade-5
 remainder.
 
+### 2026-07-27 presentation-invariant operational-kernel correction
+
+`HC-DU-059` corrects the literal minimality reading of the seven-field
+`HC-DU-058` bundle. The invariant is the joint target-relative response
+kernel, not a unique list or number of coordinate fields. Lossless repacking
+can preserve every operational distinction while making a named coordinate
+redundant, and invertible coordinate mixing preserves the same kernel with a
+different basis.
+
+The held-out target is either a readout of the complete process and therefore
+derivable, or an external query testing the bundle and therefore not an
+independent physical coordinate. Finality likewise separates into a physical
+carrier, an external rival/fault rule, and a derived verdict. Observer
+indexing remains the typed operational role formed by access, interventions,
+actions, and resources; no additional personal-identity field is required.
+
+The corrected role architecture freezes completion/gauge/representation and
+occurrence antecedents, separates the physical description
+\((\mathcal P,r,O)\) from adjudication queries \((\Phi,\mathcal T)\), and
+evaluates the verdict afterward. This is a scoped grade-4 DU correction whose
+mathematics is absorbed by factorization, sufficient-statistic,
+minimal-realization, dependency, and universal-property results. It creates
+no ontology, physics, prediction, or cross-arena transfer. See
+`presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
