@@ -1,0 +1,264 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "phase_minus": "1/1",
+        "phase_plus": "1/1",
+        "population_one": "1/1",
+        "population_zero": "1/1"
+      },
+      "name": "carrier_outputs_are_normalized",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minus": [
+          "7/8",
+          "1/8"
+        ],
+        "plus": [
+          "7/8",
+          "1/8"
+        ]
+      },
+      "name": "phase_target_same_counting_shadow",
+      "passed": true
+    },
+    {
+      "detail": {
+        "minus": [
+          "1/4",
+          "3/4"
+        ],
+        "plus": [
+          "3/4",
+          "1/4"
+        ]
+      },
+      "name": "phase_target_distinct_homodyne_shadow",
+      "passed": true
+    },
+    {
+      "detail": {
+        "counting_error": "1/2",
+        "full_carrier_error": "1/4",
+        "homodyne_error": "1/4"
+      },
+      "name": "phase_target_full_carrier_matches_homodyne_optimum",
+      "passed": true
+    },
+    {
+      "detail": {
+        "one": [
+          "3/4",
+          "1/4"
+        ],
+        "zero": [
+          "1/1",
+          "0/1"
+        ]
+      },
+      "name": "population_target_distinct_counting_shadow",
+      "passed": true
+    },
+    {
+      "detail": {
+        "one": [
+          "1/2",
+          "1/2"
+        ],
+        "zero": [
+          "1/2",
+          "1/2"
+        ]
+      },
+      "name": "population_target_same_homodyne_shadow",
+      "passed": true
+    },
+    {
+      "detail": {
+        "counting_error": "3/8",
+        "full_carrier_error": "3/8",
+        "homodyne_error": "1/2"
+      },
+      "name": "population_target_full_carrier_matches_counting_optimum",
+      "passed": true
+    },
+    {
+      "detail": {
+        "carrier": [
+          [
+            "7/8",
+            "1/4"
+          ],
+          [
+            "1/4",
+            "1/8"
+          ]
+        ],
+        "counting_shadow": [
+          "7/8",
+          "1/8"
+        ],
+        "homodyne_shadow": [
+          "3/4",
+          "1/4"
+        ]
+      },
+      "name": "classical_shadow_plurality_does_not_change_carrier",
+      "passed": true
+    },
+    {
+      "detail": {
+        "hidden": [
+          0,
+          0
+        ],
+        "visible": [
+          0,
+          0
+        ]
+      },
+      "name": "same_reduced_erasure_channel",
+      "passed": true
+    },
+    {
+      "detail": {
+        "hidden": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        "visible": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ]
+      },
+      "name": "full_complements_related_by_swap",
+      "passed": true
+    },
+    {
+      "detail": {
+        "hidden_access_law": [
+          0,
+          0
+        ],
+        "visible_access_law": [
+          0,
+          1
+        ]
+      },
+      "name": "fixed_access_port_not_preserved_by_swap",
+      "passed": true
+    },
+    {
+      "detail": {
+        "hidden_equal_prior_bit_error": "1/2",
+        "visible_equal_prior_bit_error": "0/1"
+      },
+      "name": "access_target_risk_separates_completions",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-075",
+  "disposition": {
+    "carrier_shadow": "CLASSICAL_SHADOW_PLURALITY_ONLY",
+    "physical_access": "REQUIRES_ACCESS_PRESERVING_EQUIVALENCE",
+    "plain_complement": "QUANTUM_OUTPUT_EQUIVALENCE_CLASS_ONLY",
+    "positive_control": "CONDITIONAL_PHYSICAL_QUANTUM_RECORD_ADMITTED"
+  },
+  "fixture": {
+    "access_relocation": {
+      "full_complement_relation": "environment_swap",
+      "hidden_access_law": [
+        0,
+        0
+      ],
+      "hidden_equal_prior_bit_error": "1/2",
+      "same_reduced_channel": "constant_zero_erasure",
+      "visible_access_law": [
+        0,
+        1
+      ],
+      "visible_equal_prior_bit_error": "0/1"
+    },
+    "amplitude_damping_gamma": "1/4",
+    "phase": {
+      "carrier_minus": [
+        [
+          "7/8",
+          "-1/4"
+        ],
+        [
+          "-1/4",
+          "1/8"
+        ]
+      ],
+      "carrier_plus": [
+        [
+          "7/8",
+          "1/4"
+        ],
+        [
+          "1/4",
+          "1/8"
+        ]
+      ],
+      "counting_error": "1/2",
+      "full_carrier_error": "1/4",
+      "homodyne_error": "1/4"
+    },
+    "population": {
+      "carrier_one": [
+        [
+          "3/4",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/4"
+        ]
+      ],
+      "carrier_zero": [
+        [
+          "1/1",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "0/1"
+        ]
+      ],
+      "counting_error": "3/8",
+      "full_carrier_error": "3/8",
+      "homodyne_error": "1/2"
+    },
+    "predeclared_actions": [
+      "environment_Z_counting_like",
+      "environment_X_homodyne_like"
+    ],
+    "predeclared_targets": [
+      "phase_sign",
+      "population_bit"
+    ]
+  },
+  "summary": {
+    "passed": 12,
+    "total": 12
+  }
+}

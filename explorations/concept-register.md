@@ -3202,6 +3202,32 @@ bounded access and retained provenance, and leave a target independently
 escrowed. See
 `physical-antecedent-admission-tournament-and-unravelling-boundary-2026-07-28.md`.
 
+### 2026-07-28 quantum output carrier / classical shadow correction
+
+`HC-DU-075` and `CORR-DU-074-1` separate the quantum output carrier from its
+later classical shadows. Homodyne and number counting can be inequivalent
+observer actions on one common output field; their plurality does not by
+itself prove carrier nonselection. A quantum carrier can count as a record
+before classical readout only when its physical factor, source coupling,
+blank/provenance relation, retention, bounded accessible algebra, and action
+consequences are selected.
+
+Ordinary Stinespring equivalence is too weak for that claim. It preserves the
+full complementary-information class up to an environment isometry, but the
+isometry may move information across a fixed observer boundary. The exact
+visible/hidden erasure-channel control has one reduced system channel and
+swap-equivalent full complements while the fixed accessible port decodes the
+input with error \(0\) in one completion and \(1/2\) in the other. Record
+equivalence must therefore preserve access, retention, and provenance.
+
+The Gough--Rees construction fixes one Fock-space output process within its
+chosen Hudson--Parthasarathy model, with homodyne and counting downstream. It
+does not physically derive the Universe's detector carrier, bounded archive,
+observer access, or readout-to-spacetime feedback. The `HC-DU-074` no-ready
+conclusion remains, but now for the formation/selection/access reasons rather
+than classical-shadow plurality. See
+`quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

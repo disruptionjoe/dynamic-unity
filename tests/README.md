@@ -58,6 +58,25 @@ arbitrary interfaces, and free-resource completions as relevant. A probe may
 not define record equivalence by agreement under every physical experiment it
 later claims to predict.
 
+## Quantum output carrier / classical shadow gate
+
+`du_quantum_output_record_gate_probe.py` executes the exact finite controls
+for `HC-DU-075`. At amplitude-damping strength \(\gamma=1/4\), one retained
+environment qubit supports:
+
+- a counting-like \(Z\) shadow that loses an input phase-sign target;
+- a homodyne-like \(X\) shadow that retains that target;
+- the opposite capability ordering for a population target; and
+- full-carrier Helstrom errors matching the relevant predeclared action.
+
+The same probe checks two isometric completions of a constant-output erasure
+channel. Their full complements are related by environment `SWAP`, but the
+fixed accessible port carries the input in only one completion, giving
+equal-prior input-bit errors \(0\) and \(1/2\). Passing establishes the
+carrier/shadow type separation and access-relocation witness only. It does
+not select a physical environment, prove collapse, model gravity, establish
+record ontology, or warrant hardware.
+
 All pre-recharter probes and deterministic artifacts remain regression
 evidence for their exact scoped findings. They are antecedents and benchmark
 fixtures, not evidence that Certified Causal Reality, record-first ontology,

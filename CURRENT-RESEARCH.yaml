@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 24
+state_revision: 25
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -77,27 +77,28 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-QUANTUM-OUTPUT-RECORD-GATE
-  executable_action_id: QOR-01-OUTPUT-CARRIER-VS-CLASSICAL-SHADOW
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    The post-HC-DU-074 whole-repository reassessment selects one unbanked
-    scope gate. Same-dynamics/different-unravelling proves classical-shadow
-    plurality, but may not prove nonselection of the full quantum output
-    carrier. QOR-01 will distinguish a selected quantum output equivalence
-    class from a merely mathematical dilation, physically plural output
-    completions, and a target-fitted readout. No scientific claim, paper,
-    prediction, model, hardware action, or later campaign swing is promoted.
+    QOR-01 is complete as HC-DU-075 and CORR-DU-074-1. Multiple classical
+    unravellings prove classical-shadow plurality, not nonselection of a
+    common quantum carrier. Record equivalence must preserve physical access,
+    retention, and provenance; plain Stinespring equivalence may relocate
+    information across the observer boundary. The Gough--Rees construction
+    fixes one model-level Fock output process but does not derive its physical
+    detector carrier, bounded archive, observer access, or feedback to
+    spacetime. The no-ready conclusion remains for corrected reasons. No
+    scientific successor or executable action is selected.
 
 programs:
   - id: CCR-QUANTUM-OUTPUT-RECORD-GATE
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: active
-    execution_status: executable
-    wip_slot: scientific_flagship
-    active_work_id: QOR-01-OUTPUT-CARRIER-VS-CLASSICAL-SHADOW
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
     primary_lane_id: '3'
     supporting_lane_ids:
       - '1'
@@ -108,36 +109,39 @@ programs:
       - CH-SYN
       - CH-COLLIDE
     target: >-
-      Determine whether the HC-DU-074 input--output construction selects a
-      retained quantum output record up to access-preserving equivalence while
-      homodyne/counting are observer actions, or only a mathematical dilation
-      requiring a supplied classical interface.
+      Completed: distinguish a retained quantum output carrier from its
+      downstream classical shadows, define access-preserving output
+      equivalence, and classify the HC-DU-074 gravitational input--output
+      source without requiring dynamics to choose an observer's later
+      question.
     current_grade: >-
-      PRIORITY GATE ONLY. NO QUANTUM RECORD, SELECTOR, RECONSTRUCTION,
-      PREDICTION, OR NEW PHYSICS IS PROMOTED.
-    evidence_grade: 0
+      HC-DU-075 BANKS A SCOPED GRADE-4 CARRIER/SHADOW SEPARATION,
+      ACCESS-PRESERVING COMPLEMENT CRITERION, EXACT ACCESS-RELOCATION
+      OBSTRUCTION, AND CORR-DU-074-1. STANDARD CHANNEL AND MEASUREMENT
+      MATHEMATICS ABSORB THE COMPONENTS. THE GRAVITATIONAL SOURCE REMAINS
+      GRADE-2 REPRESENTATION/CONDITIONAL CONSTRUCTION.
+    evidence_grade: 4
     maximum_grade: >-
-      SCOPED GRADE-4 SELECTION OR NONSELECTION CONSEQUENCE. CHANNEL AND
-      MEASUREMENT MATHEMATICS REMAIN ABSORBED; ANY HELD-OUT RECONSTRUCTION OR
-      EMPIRICAL REMAINDER REQUIRES A LATER INDEPENDENT RECEIPT.
+      THE COMPLETED GATE CANNOT PROMOTE BEYOND ITS SCOPED TYPE RESULT. A
+      PHYSICALLY SELECTED CARRIER, RETAINED ACCESS, AND HELD-OUT
+      RECONSTRUCTION CONSEQUENCE RETAIN AN INDEPENDENT GRADE-5 CEILING.
     maximum_evidence_grade: 4
     premise_status: >-
       Assumption-neutral. The reduced dynamics, physical dilation, quantum
       output, retention, access actions, classical shadows, resources, and
       target remain separately typed.
     completed_dependencies:
+      - id: HC-DU-075
+        evidence_ref: explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md
+      - id: CORR-DU-074-1
+        evidence_ref: explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md
       - id: HC-DU-074
         evidence_ref: explorations/physical-antecedent-admission-tournament-and-unravelling-boundary-2026-07-28.md
       - id: HC-DU-063
         evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
       - id: HC-DU-033F
         evidence_ref: explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
-    remaining_obligations:
-      - Type the channel, complement, physical output, retention, access, actions, and target separately.
-      - Prove the classical-shadow/carrier non-implication and hostile converse.
-      - Apply channel equivalence to the source-pinned input--output construction.
-      - Transfer the same passport to one exact finite quantum-channel control.
-      - Return the first missing field or an admitted quantum record without refit.
+    remaining_obligations: []
     typed_dependencies:
       - type: requires
         target: HC-DU-074
@@ -149,90 +153,34 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Stinespring uniqueness and complementary channels, quantum Blackwell
-      comparison, statistical sufficiency, quantum trajectories and
-      unravellings, input--output and measurement theory, and
-      HC-DU-033F/054/063/071/074.
+      Confirmed: Stinespring uniqueness and complementary channels absorb the
+      information-class mathematics; quantum measurement, filtering, and
+      trajectory theory absorb classical-shadow plurality. They do not
+      transport physical access, retention, or provenance automatically.
     cheapest_kill: >-
-      Show that the claimed antecedent admits two access-inequivalent full
-      output processes, or that the source supplies only a mathematical
-      dilation with no bounded retained accessible carrier.
+      Met. The exact erasure fixture has one reduced channel and
+      swap-equivalent full complements but perfect versus chance decoding at
+      a fixed access port. The gravitational source constructs a model-level
+      dilation but supplies no independent physical detector carrier,
+      bounded retained archive, or observer access boundary.
     stop_rule: >-
-      Stop after the exact type verdict and one unchanged physical
-      application. Do not call an abstract complement an archive, require a
-      law to choose a later question, fit a measurement to the target, infer
-      collapse or ontology, use hardware, or activate a later campaign swing
-      without an explicit positive return.
+      Satisfied. Do not call an abstract complement an archive, infer carrier
+      nonselection from classical-shadow plurality, require a law to choose a
+      later question, target-fit a measurement, infer collapse or ontology,
+      use hardware, or repeat this gate in another representation.
     reopen_rule: >-
-      Not applicable while active. A later reconstruction gate opens only
-      after this action returns a physically formed, retained, accessible
-      quantum record or an exact physically selected equivalence class.
+      Reopen only with a theory or implementation that independently fixes
+      the actual source-to-output carrier, localized formation and blank
+      condition, retained provenance over a finite horizon, bounded observer
+      access/resources, and a target-independent action menu with one
+      held-out capability or reconstruction consequence.
     local_computation_boundary: >-
-      Direct theorem and source analysis first. One exact finite qubit channel
-      may certify the type boundary; no simulation, provider, hardware, or
-      collaboration is authorized.
-    next_action: >-
-      Execute QOR-01 against the source-pinned gravitational input--output
-      construction and one finite quantum-channel control.
-    next_action_ref: explorations/post-hc074-priority-reassessment-and-quantum-output-record-gate-2026-07-28.md
-    execution_packet:
-      action_id: QOR-01-OUTPUT-CARRIER-VS-CLASSICAL-SHADOW
-      exact_question: >-
-        Does the antecedent select a retained, accessible quantum output
-        record up to access-preserving equivalence, with homodyne/counting as
-        downstream actions, or only a representation awaiting a classical
-        interface?
-      source_locator:
-        path: explorations/post-hc074-priority-reassessment-and-quantum-output-record-gate-2026-07-28.md
-        heading: '## 6. Executable successor'
-      required_inputs:
-        - path: explorations/physical-antecedent-admission-tournament-and-unravelling-boundary-2026-07-28.md
-          role: source-pinned input--output candidate and classical-unravelling hostile pair
-        - path: explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
-          role: antecedent-relative selection passport
-        - path: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-          role: minimum relational, historical, and access typing
-        - path: explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
-          role: complementary-channel and physical archive-location boundary
-      unchanged_ledger_fields:
-        - reduced system law and finite-time process
-        - physical dilation versus mathematical representation
-        - quantum output subsystem, algebra, blank input, and provenance
-        - retention interval, bounded access algebra, and resources
-        - observer measurement actions and classical shadows
-        - independently held-out target and law-only baseline
-        - representation quotient and access-preserving equivalence
-      arena_roles:
-        - source-pinned gravitational quantum input--output construction
-        - exact finite quantum-channel positive and hostile controls
-        - homodyne-like and counting-like classical shadows
-      expected_return_classes:
-        - QUANTUM_OUTPUT_EQUIVALENCE_CLASS_SELECTED
-        - PHYSICAL_QUANTUM_RECORD_ADMITTED
-        - CLASSICAL_SHADOW_PLURALITY_ONLY
-        - DILATION_REPRESENTATION_ONLY
-        - PHYSICAL_QUANTUM_OUTPUT_NONSELECTION
-        - OUTPUT_CARRIER_NOT_RETAINED_OR_ACCESSIBLE
-        - TARGET_CODED_MEASUREMENT
-        - HC074_STRENGTHENED_NO_READY
-      observer_index_return_classes:
-        - OBSERVER_MEASUREMENT_AS_ACTION
-        - OBSERVER_CLASSICALIZATION_SUPPLIED
-        - OBSERVER_ACCESS_UNSELECTED
-      durable_output: >-
-        One exact carrier-versus-shadow theorem/counterexample, one
-        source-pinned physical classification, one unchanged finite-channel
-        transfer, and one successor or strengthened stop disposition.
-      local_method: >-
-        Direct channel, factorization, and source analysis with at most one
-        exact finite linear-algebra control; no trajectory simulation or
-        external acquisition.
-      uses_program_controls:
-        - strongest_absorber
-        - cheapest_kill
-        - stop_rule
-        - local_computation_boundary
+      One exact finite amplitude-damping and access-relocation certificate
+      completes the proof boundary. No simulation or hardware is warranted.
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
+      - explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md
       - explorations/post-hc074-priority-reassessment-and-quantum-output-record-gate-2026-07-28.md
       - explorations/physical-antecedent-admission-tournament-and-unravelling-boundary-2026-07-28.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
@@ -652,27 +600,28 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: blocked
-  blocked_by: QOR-01-OUTPUT-CARRIER-VS-CLASSICAL-SHADOW
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - quantum-output-record-versus-classical-unravelling-scope-gate
+    - physically-selected-access-preserving-quantum-output-carrier
     - physically-selected-target-sensitive-record-law-with-complete-assay
     - physically-selected-positive-margin-law-family-with-complete-assay
     - physically-restricted-nondense-completion-class-with-finite-separator
     - finite-operational-infrared-memory-interface-selector
     - physical-formation-lift-of-closed-capability-record-pair
     - new-physical-formed-interface-selector
-    - physically-selected-output-unravelling-with-bounded-provenance-archive
+    - physically-selected-output-carrier-with-bounded-provenance-archive
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
-    Later selection is blocked by QOR-01. First determine whether classical
-    unravelling plurality is compatible with one selected formed quantum
-    output carrier, or whether only a mathematical dilation exists. Do not
-    reactivate another closed gate or select a later successor until that
-    scope question returns.
+    No current candidate closes a fresh prerequisite. Select a successor only
+    when new physical work independently fixes an actual source-to-output
+    carrier, retained provenance, bounded access/resources, and one held-out
+    consequence; or when another whole-repository question supplies a
+    genuinely unbanked discriminator. Classical-shadow plurality alone is no
+    longer a carrier nonselection argument.
 
 anomaly_intake:
   status: open_non_wip

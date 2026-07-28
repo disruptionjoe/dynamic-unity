@@ -2,7 +2,7 @@
   "active_scientific_program": null,
   "authority": "CURRENT-RESEARCH.yaml",
   "checks_passed": 35,
-  "cold_start_words": 5964,
+  "cold_start_words": 5774,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
   "executable_action": null,
   "prepared_publication_candidate": "DU-PAPER-013",

@@ -917,6 +917,23 @@ ontological substrate priority or an endogenously selected record interface.
 See the
 [causal-priority ladder](../explorations/causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md).
 
+**Quantum output carrier / classical shadow (`HC-DU-075`,
+`CORR-DU-074-1`).** Multiple classical unravellings of one open-system
+process prove classical-shadow plurality, not physical nonselection of the
+common quantum carrier. A selected output can remain quantum until a later
+observer action, provided its physical factor, formation provenance,
+retention, accessible algebra, and resource/action menu are independently
+fixed. Plain Stinespring equivalence identifies only total complementary
+information: an environment isometry may move that information across the
+fixed access boundary. The exact erasure-channel control has one reduced law
+and swap-equivalent full complements but perfect versus chance decoding at
+the same accessible port. In the Gough--Rees gravitational filter, one
+Fock-space output process is fixed inside the chosen dilation and homodyne
+and counting are downstream measurements; the source does not derive the
+physical detector carrier, retained archive, observer access, or feedback to
+spacetime. `HC-DU-074` remains no-ready, with its scope corrected. See the
+[quantum-output gate result](../explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible
