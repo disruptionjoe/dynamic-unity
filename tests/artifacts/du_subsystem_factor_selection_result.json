@@ -1,0 +1,23 @@
+{
+  "claim_id": "HC-DU-076",
+  "status": "PASS",
+  "checks_passed": 19,
+  "checks_total": 19,
+  "failures": [],
+  "exact_fixture": {
+    "hamiltonian_spectrum": [
+      0.0,
+      1.0,
+      2.0,
+      4.0
+    ],
+    "stabilizer": "CZ",
+    "entropy_bits_original_tps": 6.406853007629834e-16,
+    "entropy_bits_rotated_tps": 1.0000000000000002,
+    "state_stabilizer_overlap_magnitude": 0.4999999999999998,
+    "polynomial_orbit_rank": 4,
+    "original_joint_algebra_rank": 16,
+    "rotated_joint_algebra_rank": 16
+  },
+  "scope": "Finite algebraic certificate for source-law stabilizer-orbit nonselection, target-profile classification, and observable-algebra reconstruction. No physical TPS, record carrier, spacetime, ontology, or new quantum law is selected."
+}

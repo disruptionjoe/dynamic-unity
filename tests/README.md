@@ -77,6 +77,36 @@ carrier/shadow type separation and access-relocation witness only. It does
 not select a physical environment, prove collapse, model gravity, establish
 record ontology, or warrant hardware.
 
+## Subsystem factor selection and quantum-mereology gate
+
+`du_subsystem_factor_selection_probe.py` executes the exact finite controls
+for `HC-DU-076`:
+
+- the nondegenerate Hamiltonian `diag(0,1,2,4)` is preserved by `CZ`;
+- `CZ` moves both two-qubit factor algebras while each rotated pair still
+  commutes, intersects only in scalars, and generates all of \(M_4\);
+- \(|++\rangle\) has subsystem entropy \(0\) in the original TPS and \(1\)
+  in the rotated TPS;
+- the same full-support state breaks the `CZ` symmetry of the
+  Hamiltonian--state pair;
+- the polynomial orbit \(R(H)|\psi\rangle\) has full rank, validating the
+  finite assumption behind the invariant-profile classifier; and
+- a selected two-sector dephasing center remains insufficient to fix the
+  complete tensor-factor pair.
+
+Run:
+
+```bash
+python3 tests/du_subsystem_factor_selection_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_subsystem_factor_selection_result.json` and reports `19/19`.
+Passing establishes only the scoped stabilizer-orbit witness,
+classification/selection boundary, and observable-algebra positive control.
+It does not derive a physical TPS, record carrier, spacetime, locality,
+ontology, or new quantum law.
+
 All pre-recharter probes and deterministic artifacts remain regression
 evidence for their exact scoped findings. They are antecedents and benchmark
 fixtures, not evidence that Certified Causal Reality, record-first ontology,

@@ -3228,6 +3228,41 @@ conclusion remains, but now for the formation/selection/access reasons rather
 than classical-shadow plurality. See
 `quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md`.
 
+### 2026-07-28 source-law subsystem factor selection gate
+
+`HC-DU-076` sharpens the physical carrier required by `HC-DU-075`. A bare
+tensor factor in a Hilbert-space or Stinespring representation is not a
+selected physical subsystem. The carrier must be anchored as a selected
+observable algebra, net region, interaction boundary, or
+access-preserving equivalent.
+
+For any natural Hamiltonian-only structure score, the score is constant on
+the Hamiltonian stabilizer orbit. The exact nondegenerate witness
+
+\[
+H=\operatorname{diag}(0,1,2,4)
+\]
+
+is fixed by \(CZ\), while \(CZ\) moves both two-qubit factor algebras and
+changes \(|++\rangle\) from product to maximally entangled relative to the
+rotated TPS. Adding the full-support state breaks that particular symmetry,
+so no general Hamiltonian--state no-go is claimed.
+
+The 2025 Hamiltonian-plus-state theorem is preserved at its actual scope. A
+complete entropy profile of all \(R(H)|\psi\rangle\) vectors can uniquely
+classify a TPS, but the target TPS supplies the profile values. Existence of
+a complete fingerprint is not an autonomous physical rule selecting those
+values. Conversely, independently selected commuting full matrix observable
+algebras with scalar intersection and full generated algebra reconstruct a
+TPS up to local equivalence.
+
+Quantum mereology therefore supplies serious candidate criteria—locality,
+quasi-classicality, spectral structure, and minimal algebraic scrambling—but
+not yet the DU conjunction of carrier selection, formation, retention,
+provenance, bounded access, and held-out transfer. The selected-record
+campaign remains quiescent. See
+`source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

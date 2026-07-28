@@ -934,6 +934,22 @@ physical detector carrier, retained archive, observer access, or feedback to
 spacetime. `HC-DU-074` remains no-ready, with its scope corrected. See the
 [quantum-output gate result](../explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md).
 
+**Subsystem factor selection and quantum mereology (`HC-DU-076`).** A bare
+Hamiltonian naturally selects at most a stabilizer orbit of candidate tensor
+factorizations. The exact nondegenerate two-qubit witness is preserved by
+\(CZ\), while \(CZ\) moves both factor algebras and changes one fixed state's
+entanglement relative to the factorization. A full-support state breaks this
+particular symmetry, and recent invariant-theory work correctly shows that a
+complete target-derived entropy profile can classify one TPS. Classification
+by a supplied fingerprint is not yet a physical rule that chooses the
+fingerprint values. The positive finite boundary is algebraic: commuting
+full matrix observable algebras with trivial intersection and full generated
+algebra reconstruct a TPS. A DU quantum carrier must therefore be anchored
+as a selected physical observable algebra or net region before formation,
+retention, provenance, and observer access can be asked. Quantum-mereology
+criteria remain live bridges, not solved record theories. See the
+[subsystem-factor gate](../explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible
