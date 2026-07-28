@@ -1594,6 +1594,28 @@ declared entangled joint statistics and remote marginals. See `H-CCR-15`,
 `PRED-DU-003`, and
 `entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md`.
 
+### 2026-07-27 state-only record-functional no-go
+
+`HC-DU-063` proves that record-ness cannot be both nontrivial and a
+state-only invariant under every global representation change. In the
+minimum quantum witness, a perfect classical copy state and an uncorrelated
+state have identical spectrum and lie on one \(U(4)\) orbit, while their
+system--record mutual information is respectively one bit and zero. The
+classical four-microstate permutation control has the same form.
+
+Restricting the representation group after a physical subsystem or observable
+algebra is selected permits correlation records. It does not recover write
+provenance from an endpoint or observer access from a remote carrier.
+Therefore a viable record-first theory must physically supply or select
+relational/algebraic structure, a process and occurrence boundary, and an
+access/action contract. The result does not choose ontology or refute a
+global-state description.
+
+**Updated status:** **EXACT SCOPED STATE-ONLY ORBIT OBSTRUCTION /
+TYPED RELATIONAL AND PROCESS RECORD STRUCTURE REQUIRED /
+PHYSICAL SELECTION OF THAT STRUCTURE OPEN.** See
+`state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Fully real record perspectives may be

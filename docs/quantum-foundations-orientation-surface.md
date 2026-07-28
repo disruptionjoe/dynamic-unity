@@ -806,6 +806,19 @@ relativistic Hamiltonian is fundamentally described as proper-time evolution
 or mass-energy coupling. Record sufficiency, source identification, and
 ontology remain different grades.
 
+**State-only record boundary (`HC-DU-063`).** A bare globally
+representation-invariant state functional cannot identify record-ness. A
+perfect two-bit classical copy state and an uncorrelated state have the same
+spectrum and lie on one global-unitary orbit, while their declared
+system--record mutual information is one bit versus zero. The same obstruction
+holds under unrestricted classical microstate relabeling. A record-first
+account must therefore physically select an algebra, subsystem, region, or
+other relational split; a process/epoch and retained provenance; and an
+observer access/action contract. This does not refute record ontology or a
+global quantum state. It rules out hiding all those types inside a scalar of
+the instantaneous state. See the
+[state-only record-functional gate](../explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

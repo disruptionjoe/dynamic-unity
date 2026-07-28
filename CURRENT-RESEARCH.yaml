@@ -1,18 +1,10 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 11
+state_revision: 12
 as_of: '2026-07-27'
 authority: >-
-  Joe direct chat after an Agent Context Engineer review and a five-person
-  Science Council review of the repository-refinement plan, followed by Joe
-  direct chat authorizing a branch-safe next-five sequence scaffold and then
-  executing all five positions through the finite-consequence reset, and
-  Joe's subsequent correction and authorization of a whole-repository
-  Science Council and distributed-systems opportunity assessment, followed
-  by Joe direct chat authorizing a source-pinned sibling-update audit and
-  Science Council Triple Diamond for the next five swings, and Joe direct
-  chat authorizing the fresh whole-repository bounded successor that completed
-  the post-Einstein CFS law-filter gate.
+  Joe direct chat through 2026-07-27, including explicit authorizations
+  recorded in the governed run receipts.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -90,19 +82,72 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-062 completes the fresh post-Einstein CFS law-filter gate. An
-    unrestricted effective source absorbs any correction by the
-    configuration-preserving relocation (m,J) -> (m,J-C(m)); such a rewrite
-    cannot shrink physical record fibres. Current 2026 CFS gravity sources
-    reach Einstein/Einstein--Dirac form and identify higher-order correction
-    programs, but do not yet supply one explicit regulator-selected
-    post-Einstein operator and independently frozen source class for DU's
-    completed 3+1 packet. The CFS branch is stopped behind that exact
-    reopener. No new scientific flagship or executable action is preselected.
-    This is not whole-repository exhaustion. Publication hardening remains
-    separately prepared and unchanged.
+    HC-DU-063 closes bare state-only record functionals under full
+    representation invariance. Typed relational, process, and access
+    structures remain open; H-CCR-17 remains closed. No scientific successor
+    is selected. Publication hardening is unchanged.
 
 programs:
+  - id: CCR-INTRINSIC-RECORD-FUNCTIONAL-GATE
+    kind: flagship
+    owner_repo: dynamic-unity
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
+    primary_lane_id: '1'
+    supporting_lane_ids:
+      - '2'
+      - '3'
+      - '4'
+      - '7'
+    channel_ids:
+      - CH-SYN
+      - CH-FORMAL
+      - CH-COLLIDE
+    target: >-
+      Completed: test bare state-only record-ness and identify the required
+      extra physical typing.
+    current_grade: >-
+      HC-DU-063: scoped Grade-4 orbit-separation no-go and minimum-typing
+      necessity. Components are absorbed; no ontology, prediction, or new
+      physics.
+    evidence_grade: 4
+    maximum_grade: >-
+      Complete at its scoped necessity grade; a selected typed-record theory
+      has an independent ceiling.
+    maximum_evidence_grade: 4
+    premise_status: >-
+      Assumption-neutral; full invariance applies only before physical typing.
+      Preferred foliation is off.
+    completed_dependencies:
+      - id: HC-DU-063
+        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+    remaining_obligations: []
+    typed_dependencies:
+      - type: tests
+        target: INTRINSIC-STATE-ONLY-RECORD-FUNCTIONAL
+        target_type: premise
+      - type: does_not_block
+        target: DU-PAPER-013-HARDENING
+        target_type: program
+    strongest_absorber: >-
+      Orbit invariance, subsystem relativity, SBS, and consistent histories.
+    cheapest_kill: >-
+      Met: same-orbit copy and uncorrelated states have one bit versus zero
+      mutual information; a classical permutation control agrees.
+    stop_rule: >-
+      Do not relabel another bare-state scalar as invariant record content.
+    reopen_rule: >-
+      Reopen for a theory selecting relational structure, process provenance,
+      access/action typing, and a natural functional that transfers unchanged.
+    local_computation_boundary: >-
+      Exact finite witnesses complete; no model or hardware is authorized.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - docs/quantum-foundations-orientation-surface.md
+
   - id: CCR-POST-EINSTEIN-LAW-FILTER
     kind: flagship
     owner_repo: dynamic-unity
@@ -627,19 +672,16 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - physically-selected-typed-record-structure-and-natural-functional
     - new-physical-formed-interface-selector
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
-    HC-DU-062 finds no explicit CFS post-Einstein operator/source/regularizer
-    packet ready for the completed 3+1 fibre test, while HC-DU-061 admits no
-    mechanism from the frozen autonomous-finality gate. Do not activate a CFS
-    model, later reconciliation, adapter, holonomy, or transfer position
-    without its exact reopener. A new scientific successor requires an
-    explicit non-source-absorbable law filter, new evidence selecting a
-    missing formed-interface component, or a fresh bounded whole-repository
-    question with an unbanked locally decidable proposition.
+    Do not reactivate closed gates without their exact reopeners. A successor
+    must supply selected typed-record structure, a nonabsorbed law filter,
+    evidence for a missing formed interface, or a fresh locally decidable
+    proposition.
 
 anomaly_intake:
   status: open_non_wip
