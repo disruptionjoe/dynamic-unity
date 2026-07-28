@@ -3587,6 +3587,39 @@ level, not necessarily by bare fundamental law. Formation provenance, access,
 law selection, and issuance remain separate. See
 `evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md`.
 
+### 2026-07-28 issuance-compatible forecastability
+
+`HC-DU-085` asks conditionally what forecastability means if the source can
+issue a distinction not present in the prior forecast type:
+
+```text
+known-outcome calibration + novelty mass
+  -> honest pre-event possibility envelope
+
+exact prior individuation of later type content
+  -> disclosure relative to that prior typing
+
+post-event conservative type extension + recovery
+  -> adaptive capability, not proof of source issuance.
+```
+
+An `OTHER` symbol can forecast that the present vocabulary will fail but
+cannot distinguish two later types that both map to it. Exact content
+prediction exists only when the target factors through the old record.
+Alternatively, a fixed richer interface or hyperprior may already contain
+every later distinction, in which case the observed schema growth is
+disclosure relative to that source.
+
+Forecastability in an issuing world is therefore a profile: calibration and
+resolution over present distinctions, novelty hazard, resource-accounted
+extension cost, recovery time, and no-refit transfer. Forecasting and
+settlement point in opposite temporal directions around one occurrence but
+are not one scalar axis; elementary controls realize high or low forecast
+resolution independently of high or low settlement.
+
+This is a conditional type boundary, not evidence that issuance occurs. See
+`forecastability-under-issuance-type-extension-and-settlement-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

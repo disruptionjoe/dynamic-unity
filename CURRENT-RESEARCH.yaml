@@ -1,11 +1,10 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 35
+state_revision: 36
 as_of: '2026-07-28'
 authority: >-
-  Joe direct chat through 2026-07-28, including explicit authorizations
-  recorded in governed run receipts and the direct `Go` authorization for
-  `PFI-S2-EVOLUTIONARY-SELECTION-LEVEL-TYPING`.
+  Joe direct chat through 2026-07-28; governed run receipts preserve each
+  explicit authorization.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -83,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-084 credits selection of predictive interfaces.
-    Law selection needs meta-dynamics; fitness is not universal purpose, and
-    issuance remains unearned. No successor is selected.
+    HC-DU-085 separates issuance-compatible forecasting from advance
+    disclosure. Fixed ambient models absorb apparent type growth; issuance
+    remains unearned. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -105,20 +104,22 @@ programs:
       - CH-FORMAL
       - CH-SYN
     target: >-
-      Completed: test predictive record selection and recursive issuance.
+      Completed: test predictive selection and issuance-compatible forecasting.
     current_grade: >-
-      HC-DU-083/084 BANK GRADE-4 BOUNDARIES. A PHYSICAL ECOLOGY CAN SELECT
-      PREDICTIVE INTERFACE TYPES, NOT SYMMETRIC POINT CARRIERS OR LAWS. LAW
-      SELECTION NEEDS META-DYNAMICS; ISSUANCE IS UNEARNED.
+      HC-DU-083/084/085 BANK GRADE-4 BOUNDARIES. ECOLOGIES CAN SELECT
+      INTERFACE TYPES; GENUINE TYPE ISSUANCE PRECLUDES EXACT PRIOR TYPING BUT
+      PERMITS NOVELTY-RATE FORECASTS. ISSUANCE IS UNEARNED.
     evidence_grade: 4
     maximum_grade: >-
       CAPPED AT GRADE 4; A SOURCE-PINNED SELECTOR WITH NO-REFIT TRANSFER
       RETAINS A SEPARATE GRADE-5 CEILING.
     maximum_evidence_grade: 4
     premise_status: >-
-      Ontology-neutral. Process, actions, horizon, resources, carrier,
-      formation, access, capability, and issuance remain distinct.
+      Ontology-neutral; process, interface, access, capability, settlement,
+      and issuance remain distinct.
     completed_dependencies:
+      - id: HC-DU-085
+        evidence_ref: explorations/forecastability-under-issuance-type-extension-and-settlement-boundary-2026-07-28.md
       - id: HC-DU-084
         evidence_ref: explorations/evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md
       - id: HC-DU-083
@@ -137,25 +138,24 @@ programs:
         target_type: program
     strongest_absorber: >-
       Epsilon-transducers, bisimulation, HC-DU-036, HC-DU-033C, stochastic
-      thermodynamics, evolutionary information value, replicator dynamics, and
+      thermodynamics, evolutionary information value, fixed hyperpriors, and
       fixed-oracle completion.
     cheapest_kill: >-
-      Met. Prediction affects selection only through a typed growth
-      consequence; law selection is undefined without an explicit
-      law-ensemble meta-dynamics.
+      Met. Exact prior typing is disclosure; a fixed ambient model absorbs
+      online type growth.
     stop_rule: >-
-      Skip quotient and evolutionary-toy reconstruction. Do not call
-      predictive usefulness universal purpose, law selection, or issuance.
+      Skip forecast toys. Do not call novelty mass issued content, online
+      schema growth source issuance, or forecastability universal purpose.
     reopen_rule: >-
-      Require an independently fixed physical antecedent that endogenously
-      forms/selects an interface before target choice, transfers without
-      refit, and exceeds fitness and process dynamics for a stronger DU claim.
+      Require a physical type-extension packet that survives the fixed-source,
+      fixed-hyperprior, access, relabeling, and completed-history rivals.
     local_computation_boundary: >-
       Exact quotient and symmetry analysis decided the gate; no model or
       hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/forecastability-under-issuance-type-extension-and-settlement-boundary-2026-07-28.md
       - explorations/evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md
       - explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
       - explorations/post-collapse-predictive-selection-to-forecasting-issuance-next-five-reassessment-2026-07-28.md
