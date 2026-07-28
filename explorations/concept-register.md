@@ -3620,6 +3620,27 @@ resolution independently of high or low settlement.
 This is a conditional type boundary, not evidence that issuance occurs. See
 `forecastability-under-issuance-type-extension-and-settlement-boundary-2026-07-28.md`.
 
+### 2026-07-28 probability over unissued types
+
+`HC-DU-086` sharpens the pre-issuance forecast boundary. There is no
+probability distribution on every nonempty finite type set that is natural
+under every injection: the two maps from a singleton into a pair would require
+the pair's distribution to be two different point masses.
+
+Equivalently, an unbounded collection of individually represented future
+types cannot all receive positive, symmetric, never-revised probabilities
+while remaining normalized. Without type-distinguishing structure, all
+unissued candidates form one orbit and every invariant forecast factors
+through one `NOVEL` symbol.
+
+Type-specific advance probability therefore requires an explicit finite cap,
+base measure, feature geometry, grammar, hyperprior, physical asymmetry, or
+revision rule. These can support valid open-world forecasting. If fixed in
+advance, they are also the correct disclosure controls for apparent type
+birth. The result does not establish source issuance or make choosing among
+pretyped actions issuance. See
+`unissued-type-probability-naturality-trilemma-and-novelty-orbit-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
