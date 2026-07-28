@@ -1691,6 +1691,32 @@ through an independently derived physical co-filtration and a no-refit
 consequence beyond that instrument. See
 `eth-actuality-algebra-naturality-restriction-counterexample-and-instrument-boundary-2026-07-28.md`.
 
+### 2026-07-28 physical co-filtration and external-device event boundary
+
+`HC-DU-092` corrects the strongest possible overreading of `HC-DU-091`.
+Relativistic QFT can conditionally select a future-algebra co-filtration:
+in the scoped four-dimensional free electromagnetic construction, future
+cones and Huygens' principle yield strict inclusion; in the large-\(N\)
+\(\mathcal N=4\) SYM construction, the paper proves strict time-band
+inclusion above the Hawking--Page temperature and argues against it below the
+transition and at zero temperature.
+
+This earns physical typing of an access-loss architecture, not an event or
+record. In exact thermal equilibrium the large-\(N\) centralizer has trivial
+center, so the ETH event criterion returns no event. The published first-event
+construction adds an external-device crossed product, selects one maximal
+torus \(H\simeq U(1)^5\), supplies a device state, and chooses a noncanonical
+partition of the joint Cartan spectrum. No maximal torus of the compact
+non-Abelian semisimple symmetry group is fixed by every inner automorphism:
+an invariant choice would be normal, making its nonzero Abelian Lie algebra
+an impossible Abelian ideal of a semisimple algebra.
+
+Thus physics can select the co-filtration while a nonequilibrium probe selects
+the event interface. Once the partition is fixed, the update is Lüders.
+Durable carrier, provenance, access, certification, and regional finality
+remain unselected. See
+`relativistic-eth-physical-cofiltration-large-n-event-selector-and-external-device-boundary-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing
