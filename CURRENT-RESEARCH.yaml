@@ -1,11 +1,11 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 32
+state_revision: 33
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
   recorded in the governed run receipts and the direct `Go` authorization
-  for `OC-CCR-S2-FORMATION-PROVENANCE-GATE`.
+  for `OC-CCR-S3-LAWFUL-FIBRE-TARGET-GATE`.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -83,8 +83,8 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-081 admits conditional outcome formation, not interface selection or
-    provenance. A lawful-fibre target test is prepared, not executable.
+    HC-DU-082 finds conditional prediction gain but no excess beyond GRW
+    instruments. The campaign stops; no successor is preselected.
 
 programs:
   - id: CCR-OBJECTIVE-COLLAPSE-EVENT-TO-CERTIFIED-RECORD
@@ -104,54 +104,51 @@ programs:
       - CH-FORMAL
       - CH-SYN
     target: >-
-      Completed: separate collapse law, physical outcome formation,
-      provenance, and record-interface selection.
+      Completed: test collapse law, outcome formation, provenance, interface
+      selection, and downstream prediction.
     current_grade: >-
-      HC-DU-081 BANKS GRADE-4 TERMINAL-PATTERN PROVENANCE
-      NON-IDENTIFICATION AND NO-UNIVERSAL-COLLAPSE-CERTIFICATE BOUNDARIES,
-      PLUS CONDITIONAL GRADE-2 OUTCOME FORMATION. APPARATUS, CALIBRATION,
-      ACCESS, AND LINEAGE REMAIN SUPPLIED.
+      HC-DU-082 BANKS A GRADE-4 OUTCOME-SUFFICIENCY BOUNDARY AND
+      CONDITIONAL GRADE-3 TARGET-KERNEL RECONSTRUCTION, ABSORBED BY GRW
+      INSTRUMENTS. HC-DU-081 RETAINS PROVENANCE AND ACCESS BOUNDARIES.
     evidence_grade: 4
     maximum_grade: >-
-      CAPPED AT GRADES 4/2. A CONDITIONAL LAWFUL-FIBRE TEST RETAINS
-      INDEPENDENT GRADES 3/5 CEILINGS.
+      CAPPED AT GRADE 4; NO GRADE-5 REMAINDER OR PREDICTION WAS FOUND.
     maximum_evidence_grade: 4
     premise_status: >-
-      Conditional on the cited GRW model definitions; neutral about their
-      truth and foliation. Law, ontology, history, record, and access remain
-      distinct.
+      Conditional on cited GRW definitions; neutral about their truth. Law,
+      ontology, instrument, outcome, access, kernel, and future remain distinct.
     completed_dependencies:
+      - id: HC-DU-082
+        evidence_ref: explorations/objective-collapse-lawful-fibre-target-contraction-and-instrument-absorption-2026-07-28.md
       - id: HC-DU-081
         evidence_ref: explorations/objective-collapse-conditional-outcome-formation-and-provenance-nonidentification-2026-07-28.md
-      - id: HC-DU-080
-        evidence_ref: explorations/objective-collapse-law-ontology-access-nonidentification-and-physical-antecedent-gate-2026-07-28.md
     remaining_obligations: []
     typed_dependencies:
       - type: tests
-        target: OCCURRENCE-TO-ARCHIVE-FORMATION-AND-PROVENANCE
+        target: OUTCOME-TO-DOWNSTREAM-TARGET-SUFFICIENCY
         target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      GRW derives outcome statistics from supplied experiment structure, while
-      collapse occurrence is not universally measurable.
+      GRW superoperators determine consecutive-experiment kernels once the
+      experiment is supplied.
     cheapest_kill: >-
-      Met: preloaded, rewritten, relocated, and reset histories defeat terminal
-      provenance; collapse detection is bounded below certainty.
+      Met: reading the outcome lowers Bayes risk, but same-outcome histories
+      retain different future responses and all kernels are standard GRW.
     stop_rule: >-
-      Do not call calibrated outcomes selected interfaces, block histories
-      bounded archives, or terminal pointers provenance certificates.
+      Do not call branch conditioning new physics, exact future determination,
+      provenance, or interface selection.
     reopen_rule: >-
-      Freeze ontology, apparatus, calibration, and access; require nontrivial
-      held-out target contraction beyond law-only prediction.
+      Require either physical selection of the interface/access contract or a
+      no-refit held-out response outside the frozen GRW instrument prediction.
     local_computation_boundary: >-
       Source analysis decided this gate; no model or hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/objective-collapse-lawful-fibre-target-contraction-and-instrument-absorption-2026-07-28.md
       - explorations/objective-collapse-conditional-outcome-formation-and-provenance-nonidentification-2026-07-28.md
-      - explorations/objective-collapse-law-ontology-access-nonidentification-and-physical-antecedent-gate-2026-07-28.md
 
   - id: CCR-INDIVISIBLE-STOCHASTIC-MODULAR-RIGIDITY-GATE
     kind: flagship
@@ -659,7 +656,6 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - objective-collapse-ontology-conditional-lawful-fibre-target-contraction
     - physically-selected-stochastic-quantum-gauge-and-local-factor-with-held-out-transfer
     - physically-formed-self-testing-interface-with-calibrated-held-out-transfer
     - physically-selected-modular-algebra-state-inclusion-with-calibrated-time
@@ -676,9 +672,8 @@ successor_selection:
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
-    The first candidate is an ontology- and apparatus-conditional lawful-fibre
-    test. Require a non-copying target, law/record fibre comparison, unchanged
-    calibration/access, and a stop if GRW already supplies the result.
+    Select no successor without comparing dependency-changing questions,
+    cheapest kills, and no-refit Grade-5 potential across the portfolio.
 
 anomaly_intake:
   status: open_non_wip

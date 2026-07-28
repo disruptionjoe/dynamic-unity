@@ -3465,6 +3465,44 @@ apparatus qualifier frozen, does the bounded outcome record contract a
 non-copying held-out target fibre beyond what the law alone predicts? See
 `objective-collapse-conditional-outcome-formation-and-provenance-nonidentification-2026-07-28.md`.
 
+### 2026-07-28 objective-collapse lawful-fibre target boundary
+
+`HC-DU-082` resolves that last conditional question:
+
+```text
+law + supplied GRW experiment
+  -> joint and conditional downstream-response kernels
+
+realized accessible outcome
+  -> strict situated Bayes-risk reduction can occur
+  -/-> exact realized-future determination
+  -/-> a new physical reconstruction law.
+```
+
+An exact two-state control uses a uniform first outcome, a fixed
+\(R_y(\pi/3)\) post-outcome intervention, and a separate later pointer. Reading
+the first outcome reduces optimal binary prediction error from \(1/2\) to
+\(1/4\), while the later response remains non-copying and stochastic.
+
+This operational value is fully absorbed by the standard GRW law of
+superoperators for consecutive experiments. The supplied experiment fixes the
+joint law and conditional post-experiment state; the realized record tells an
+observer which already-defined kernel applies.
+
+Outcome \(z\) is sufficient for a declared future action class exactly when
+every admitted same-\(z\) conditional state is operationally equivalent for
+that class. With tomographically complete actions, those states must be equal.
+Any unequal pair is separated by the positive spectral projector of their
+difference. Enlarging preparation, instrument, environment access, or action
+class may therefore reopen a same-record/different-target leak, but it must be
+charged as a changed contract.
+
+The objective-collapse campaign stops because its positive lawful-fibre
+result is standard rather than Dynamic Unity excess. Reopen only if physics
+selects the interface/access contract or a no-refit held-out response falls
+outside the frozen GRW instrument prediction. See
+`objective-collapse-lawful-fibre-target-contraction-and-instrument-absorption-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
