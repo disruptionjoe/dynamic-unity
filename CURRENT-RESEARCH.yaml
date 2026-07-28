@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 9
+state_revision: 10
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
@@ -83,33 +83,31 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-AUTONOMOUS-STRATIFIED-FINALITY
-  executable_action_id: N6-CCR-P1-AUTONOMOUS-FINALITY-GENERATOR-GATE
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    CORR-DU-060-1 preserves HC-DU-060's mathematics but limits its no-ready
-    return to the completed branch-safe sequence. Joe authorized a new
-    whole-repository opportunity assessment. Twenty-one inline lenses converge
-    on an autonomous stratified-finality generator gate: compare Liouvillian
-    metastability, thermodynamic durable memory, and autonomous dissipative
-    stabilization under one selection passport before building a model. The
-    physical-to-coordination adapter is reserve and complete-process
-    reconciliation holonomy is frontier. A source-pinned cross-repository
-    Triple Diamond leaves that live gate unchanged while conditionally
-    sequencing selector witness, reconciliation naturality,
-    adapter-or-holonomy, and no-refit transfer behind its returns. Later
-    positions remain unactivated. Publication hardening remains separately
-    typed prepared output.
+    HC-DU-061 completes the authorized three-mechanism autonomous-finality
+    gate. Liouvillian dynamics selects invariant/slow structure and timescales;
+    thermodynamic memory can additionally select material carrier, phase
+    sectors, barriers, and retention; autonomous dissipation can stabilize a
+    chosen code/steady manifold. None of the strongest standard constructions
+    also selects a target-blind blank-to-written occurrence, retained
+    provenance, archive route, access port, and future action envelope. No
+    mechanism passes admission. Because the common interface-factorization
+    boundary is already banked in HC-DU-033F/054, Positions 2--5 are not
+    automatically activated. The portfolio is quiescent with
+    NO_READY_SUCCESSOR_FROM_THIS_GATE, not a claim of whole-repository
+    exhaustion. Publication hardening remains separately prepared.
 
 programs:
   - id: CCR-AUTONOMOUS-STRATIFIED-FINALITY
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: active
-    execution_status: executable
-    wip_slot: scientific_flagship
-    active_work_id: N6-CCR-P1-AUTONOMOUS-FINALITY-GENERATOR-GATE
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
     primary_lane_id: '3'
     supporting_lane_ids:
       - '1'
@@ -121,37 +119,36 @@ programs:
       - CH-FORMAL
       - CH-COLLIDE
     target: >-
-      Determine whether independently motivated autonomous physical dynamics
-      selects a robust nested family of long-lived distinguishable states,
-      carrier/write structure, and future action-equivalence classes
-      sufficient to reopen physical record formation or layered finality.
+      Completed: determine whether Liouvillian metastability, thermodynamic
+      durable memory, or autonomous dissipative stabilization selects a robust
+      action-indexed hierarchy and any previously missing formed-interface
+      structure.
     current_grade: >-
-      NEW ABDUCTIVE MECHANISM-DISCRIMINATION PROGRAM / NO MECHANISM ADMITTED
-      YET / NO SCIENTIFIC CLAIM OR PREDICTION PROMOTED.
-    evidence_grade: 0
+      HC-DU-061 BANKS A SCOPED GRADE-4 THREE-CLASS NON-ADMISSION CONSEQUENCE
+      AND GRADE-3 PARTIAL-SELECTION CLASSIFICATION. PRIMARY PHYSICS AND
+      FACTORIZATION MATHEMATICS ARE ABSORBED. NO UNIVERSAL AUTONOMOUS-DYNAMICS
+      NO-GO, NEW PHYSICS, PREDICTION, PAPER, MODEL, OR HARDWARE RESULT.
+    evidence_grade: 4
     maximum_grade: >-
-      THE ACTIVE GATE IS A PRIORITY RESULT ONLY. A later admitted mechanism
-      may earn at most scoped grade 4 selection/necessity before any separate
-      finite discriminator.
+      THE COMPLETED GATE CANNOT PROMOTE SCIENCE BEYOND ITS SCOPED
+      CLASSIFICATION. A FUTURE REOPENER RETAINS ITS OWN INDEPENDENT MAXIMUM
+      GRADE.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral standard-physics first. Preferred foliation remains
-      off in Dynamic Unity and under Time as Finality custody. No record
-      basis, observer, threshold, target, or finality verdict may be fitted
-      into the antecedent.
+      Assumption-neutral standard-physics audit completed. Preferred foliation
+      remained off and under Time as Finality custody. No record basis,
+      observer, threshold, target, or finality verdict was fitted into the
+      antecedent.
     completed_dependencies:
+      - id: HC-DU-061
+        evidence_ref: explorations/autonomous-finality-three-mechanism-selection-gate-result-2026-07-27.md
       - id: CORR-DU-060-1
         evidence_ref: explorations/hc-du-060-portfolio-scope-correction-2026-07-27.md
       - id: N6-CCR-P0-WHOLE-REPO-OPPORTUNITY-RESET
         evidence_ref: explorations/whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md
       - id: HC-DU-060
         evidence_ref: explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md
-    remaining_obligations:
-      - Reconstruct the strongest primary-source result for each of the three frozen mechanism classes.
-      - Apply one unchanged selection passport to state sectors, timescales, carrier, write, retention, provenance, access, actions, and resources.
-      - State the exact action-indexed quotient or first failed typed map.
-      - Apply threshold, decomposition, unraveling, capability-expansion, and enlarged-state hostile controls.
-      - Admit exactly one mechanism to construction or return the common minimum missing premise.
+    remaining_obligations: []
     typed_dependencies:
       - type: requires
         target: CORR-DU-060-1
@@ -166,99 +163,32 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Standard open-system, metastability, memory, and control theory selects
-      state sectors and timescales, while carrier, blank-to-written
-      occurrence, access ports, action semantics, and thresholds remain
-      supplied. The resulting hierarchy is then a useful representation, not
-      a new physical selector or dynamics.
+      Confirmed in the frozen classes: standard open-system, thermodynamic
+      memory, and control theory selects state sectors, timescales, carrier or
+      a chosen protected manifold, while blank-to-written provenance, access
+      ports, action semantics, or target-blind mechanism selection remains
+      supplied.
     cheapest_kill: >-
-      Show that every candidate filtration changes under an equally
-      admissible threshold, decomposition, unraveling, action family, or
-      observer boundary while the frozen autonomous physics remains
-      unchanged.
+      Met at scoped level: unchanged mechanism antecedents admit alternative
+      unravelings, occurrence histories, access routes, or action families,
+      while autonomous error correction instead encodes the target code and
+      decoder in the supplied generator.
     stop_rule: >-
-      Stop after one mechanism passes admission or all three return the common
-      missing premise. Do not construct all three, add another supplied
-      archive host, infer new physics from standard metastability, open
-      hardware, reopen preferred foliation, or execute the admitted successor
-      inside this gate.
+      Satisfied. No mechanism passes admission and all three return the
+      antecedent-invariant formed-interface premise. Do not construct another
+      supplied archive host or execute later reconciliation work without a
+      selected or precisely reopened record object.
     reopen_rule: >-
-      Not applicable while active. A construction successor opens only after
-      one mechanism independently selects a previously missing North-Star
-      object and states a locally decidable unbanked proposition.
+      Reopen only when a new physical result independently selects at least one
+      missing carrier/write/provenance/access/action component and states a
+      locally decidable proposition not already absorbed by HC-DU-033F/054/061.
     local_computation_boundary: >-
-      Primary-source and direct formal discrimination first. No local model
-      until one mechanism passes the selection gate; no external hardware,
-      provider, or collaboration is needed.
-    next_action: >-
-      Execute the autonomous stratified-finality generator gate over the
-      three frozen mechanism classes using one unchanged passport.
-    next_action_ref: explorations/autonomous-stratified-finality-generator-gate-contract-2026-07-27.md
-    execution_packet:
-      action_id: N6-CCR-P1-AUTONOMOUS-FINALITY-GENERATOR-GATE
-      exact_question: >-
-        Does Liouvillian spectral metastability, thermodynamic durable memory,
-        or autonomous dissipative stabilization independently select a robust
-        action-indexed finality filtration and any previously missing
-        carrier/write/access structure, or do all three leave the physical
-        interface supplied?
-      source_locator:
-        path: explorations/autonomous-stratified-finality-generator-gate-contract-2026-07-27.md
-        heading: '## Exact question'
-      required_inputs:
-        - path: explorations/hc-du-060-portfolio-scope-correction-2026-07-27.md
-          role: corrected sequence-relative no-ready boundary
-        - path: explorations/whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md
-          role: twenty-one-lens opportunity map and primary/reserve/frontier synthesis
-        - path: explorations/cross-repo-autonomous-finality-to-reconciliation-next-five-triple-diamond-2026-07-27.md
-          role: source-pinned next-five sequence, counterfactual controls, and conditional handoffs
-        - path: explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
-          role: strongest existing metastable partial-selection result and occurrence control
-        - path: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
-          role: interface-selection versus dynamic-sufficiency boundary
-        - path: docs/quantum-foundations-orientation-surface.md
-          role: standard-physics absorbers and current foundations boundary
-      unchanged_ledger_fields:
-        - autonomous generator, state space, boundary, representation, and resources
-        - independently selected versus supplied state sectors and timescales
-        - carrier support, blank-to-written occurrence, retention, and provenance
-        - readout and observer access ports
-        - future action families, horizons, errors, and capability enlargement
-        - external target and finality queries
-        - strongest absorber, cheapest kill, maximum grade, and local first-learning point
-      arena_roles:
-        - Liouvillian spectral metastability and invariant-algebra arena
-        - thermodynamic symmetry-breaking, nucleation, and durable-memory arena
-        - autonomous dissipative error-correction and stabilization arena
-      expected_return_classes:
-        - DYNAMICS_SELECTS_STATE_FILTRATION_ONLY
-        - DYNAMICS_SELECTS_CARRIER_AND_WRITE
-        - DYNAMICS_SELECTS_ACCESSIBLE_INTERFACE
-        - ACTION_INDEXED_FILTRATION_CONSTRUCTED
-        - APPROXIMATE_OR_HYSTERETIC_NON_FILTRATION
-        - THRESHOLD_OR_PARTITION_SUPPLIED
-        - ABSORBED_BY_STANDARD_METASTABILITY
-        - ONE_MECHANISM_ADMITTED
-        - NO_READY_MECHANISM
-      observer_index_return_classes:
-        - OBSERVER_ROLE_DERIVED_FROM_ACCESS_ACTION
-        - OBSERVER_ACCESS_PORT_SUPPLIED
-        - OBSERVER_ACCESS_PORT_PHYSICALLY_SELECTED
-      durable_output: >-
-        One source-audited three-mechanism comparison, exact selection/failure
-        map, one admitted construction successor or clean no-ready mechanism
-        return, and one live portfolio transition.
-      local_method: >-
-        Reconstruct primary-source mechanisms, apply the unchanged passport,
-        and run formal/adversarial selection controls before any model. Stop
-        at one admitted mechanism or a common missing-premise theorem.
-      uses_program_controls:
-        - maximum_evidence_grade
-        - strongest_absorber
-        - cheapest_kill
-        - stop_rule
-        - local_computation_boundary
+      Completed by source and formal analysis. No model or external hardware
+      was needed and none is authorized by the result.
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
+      - explorations/autonomous-finality-three-mechanism-selection-gate-result-2026-07-27.md
       - explorations/autonomous-stratified-finality-generator-gate-contract-2026-07-27.md
       - explorations/whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md
       - explorations/cross-repo-autonomous-finality-to-reconciliation-next-five-triple-diamond-2026-07-27.md
@@ -606,21 +536,20 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: blocked
-  blocked_by: N6-CCR-P1-AUTONOMOUS-FINALITY-GENERATOR-GATE
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - liouvillian-spectral-metastability
-    - thermodynamic-symmetry-breaking-and-durable-memory
-    - autonomous-dissipative-error-correction-or-stabilization
-    - no-ready-mechanism
+    - new-physical-formed-interface-selector
+    - independently-unbanked-whole-repository-question
+    - no-ready-successor-from-frozen-three-class-gate
   decision_rule: >-
-    The active gate applies one unchanged selection passport before promise
-    scoring. Admit exactly one mechanism only if it independently selects a
-    previously missing North-Star object and yields a locally decidable,
-    unbanked proposition. Otherwise return the common missing premise or
-    NO_READY_MECHANISM. No candidate inherits priority from persona agreement,
-    narrative momentum, paper readiness, or the earlier quiescent state.
+    HC-DU-061 admits no mechanism from the frozen three-class gate and finds
+    that the common minimum factorization statement is already banked. Do not
+    activate later reconciliation, adapter, holonomy, or transfer positions
+    without a selected record object. A new scientific successor requires new
+    evidence selecting a missing formed-interface component or a fresh bounded
+    whole-repository question with an unbanked locally decidable proposition.
 
 anomaly_intake:
   status: open_non_wip

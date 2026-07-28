@@ -713,6 +713,25 @@ state partition. See the
 and
 [opportunity map](../explorations/whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md).
 
+**Autonomous-mechanism gate.** `HC-DU-061` has now tested that recommendation.
+Liouvillian metastability selects invariant/slow operator structure and
+relaxation scales. Thermodynamic memory can additionally select material
+carrier support, phase sectors, barriers, and finite retention. Autonomous
+dissipative stabilization can select a chosen attractive code/steady
+manifold relative to engineered jump operators. Those are genuine physical
+partial selections.
+
+None of the three audited standard mechanism classes also derives a
+target-blind blank-to-written occurrence with retained provenance, archive
+routing, observer access, and an independently fixed future action envelope.
+The first failure differs—unraveling, endpoint provenance, or target-coded
+reservoir engineering—but the common missing arrow is the
+antecedent-invariant complete accessible formed interface already localized
+by `HC-DU-033F/054`. This is a scoped non-admission, not a universal no-go.
+Do not reopen the same question by substituting a slower mode, higher barrier,
+more redundant endpoint, or better protected code. See the
+[three-mechanism result](../explorations/autonomous-finality-three-mechanism-selection-gate-result-2026-07-27.md).
+
 ### 11. Record reconstruction versus unique geometry
 
 **Established.** Order, correlations, entanglement, spectra, and boundary data

@@ -2811,6 +2811,32 @@ remain supplied. See
 `whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md`,
 and `autonomous-stratified-finality-generator-gate-contract-2026-07-27.md`.
 
+### 2026-07-27 autonomous-finality three-mechanism gate
+
+`HC-DU-061` completes the source-audited comparison of Liouvillian
+metastability, thermodynamic durable memory, and autonomous dissipative
+stabilization. The three mechanisms independently select different partial
+objects: invariant/slow structure and timescales; material carrier, phase
+orbit, barrier, and retention; or a chosen attractive code/steady manifold
+relative to engineered jumps.
+
+None of the strongest standard constructions also selects a target-blind
+blank-to-written occurrence, retained provenance, archive route, access port,
+and future action envelope. Liouvillian trajectory records depend on a
+physical unraveling/monitoring; thermodynamic endpoint phase does not identify
+whether, when, or why it was written; and autonomous error correction encodes
+the code and decoder into the engineered generator while leaving external
+access supplied.
+
+The result is a scoped grade-4 non-admission consequence and grade-3
+partial-selection classification, not a universal autonomous-dynamics
+no-go. The common missing premise is an antecedent-invariant autonomous
+formed-interface selector. Because that factorization statement is already
+banked in `HC-DU-033F/054`, the prepared later reconciliation, adapter,
+holonomy, and transfer positions are not automatically activated. The return
+is `NO_READY_MECHANISM_FROM_FROZEN_THREE_CLASS_GATE`. See
+`autonomous-finality-three-mechanism-selection-gate-result-2026-07-27.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
