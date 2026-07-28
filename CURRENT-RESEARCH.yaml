@@ -1,11 +1,11 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 34
+state_revision: 35
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
   recorded in governed run receipts and the direct `Go` authorization for
-  `PFI-S1-RESIDUAL-NATURALITY-AUDIT`.
+  `PFI-S2-EVOLUTIONARY-SELECTION-LEVEL-TYPING`.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -83,9 +83,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-083 separates the known forecast quotient from carrier selection.
-    Predictive value cannot select a symmetric point carrier; issuance remains
-    unearned. No successor is selected.
+    HC-DU-084 credits selection of predictive interfaces.
+    Law selection needs meta-dynamics; fitness is not universal purpose, and
+    issuance remains unearned. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -107,10 +107,9 @@ programs:
     target: >-
       Completed: test predictive record selection and recursive issuance.
     current_grade: >-
-      HC-DU-083 BANKS A SCOPED GRADE-4 NECESSITY. THE FORECAST QUOTIENT IS
-      KNOWN AND CONTRACT-RELATIVE; EQUAL PREDICTIVE VALUE CANNOT NATURALLY
-      SELECT A POINT CARRIER ON A FIXED-POINT-FREE ORBIT. SOURCE ISSUANCE IS
-      NOT ESTABLISHED.
+      HC-DU-083/084 BANK GRADE-4 BOUNDARIES. A PHYSICAL ECOLOGY CAN SELECT
+      PREDICTIVE INTERFACE TYPES, NOT SYMMETRIC POINT CARRIERS OR LAWS. LAW
+      SELECTION NEEDS META-DYNAMICS; ISSUANCE IS UNEARNED.
     evidence_grade: 4
     maximum_grade: >-
       CAPPED AT GRADE 4; A SOURCE-PINNED SELECTOR WITH NO-REFIT TRANSFER
@@ -120,6 +119,8 @@ programs:
       Ontology-neutral. Process, actions, horizon, resources, carrier,
       formation, access, capability, and issuance remain distinct.
     completed_dependencies:
+      - id: HC-DU-084
+        evidence_ref: explorations/evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md
       - id: HC-DU-083
         evidence_ref: explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
       - id: HC-DU-033C
@@ -136,23 +137,26 @@ programs:
         target_type: program
     strongest_absorber: >-
       Epsilon-transducers, bisimulation, HC-DU-036, HC-DU-033C, stochastic
-      thermodynamics, and fixed-oracle completion.
+      thermodynamics, evolutionary information value, replicator dynamics, and
+      fixed-oracle completion.
     cheapest_kill: >-
-      Met. The quotient is known, and two symmetry-swapped resource-matched
-      carriers have identical predictive value but no natural point selector.
+      Met. Prediction affects selection only through a typed growth
+      consequence; law selection is undefined without an explicit
+      law-ensemble meta-dynamics.
     stop_rule: >-
-      Skip quotient reconstruction. Do not call predictive usefulness physical
-      formation, universal purpose, or source issuance.
+      Skip quotient and evolutionary-toy reconstruction. Do not call
+      predictive usefulness universal purpose, law selection, or issuance.
     reopen_rule: >-
-      Require a source-pinned law that forms and selects a covariant interface
-      before target choice and transfers without refit beyond stability,
-      dissipation, fitness, and process dynamics.
+      Require an independently fixed physical antecedent that endogenously
+      forms/selects an interface before target choice, transfers without
+      refit, and exceeds fitness and process dynamics for a stronger DU claim.
     local_computation_boundary: >-
       Exact quotient and symmetry analysis decided the gate; no model or
       hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md
       - explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
       - explorations/post-collapse-predictive-selection-to-forecasting-issuance-next-five-reassessment-2026-07-28.md
 

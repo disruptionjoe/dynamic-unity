@@ -3545,6 +3545,48 @@ source-pinned physical formation/selection antecedent and no-refit held-out
 transfer. See
 `predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md`.
 
+### 2026-07-28 evolutionary interface selection and meta-law boundary
+
+`HC-DU-084` corrects the explanatory level at which a physical selector may
+act:
+
+```text
+law + physical population + ecology + heredity + differential growth
+  -> predictive interface types may be selected
+
+predictive interface selection
+  -/-> laws selected for forecastability
+  -/-> source issuance.
+```
+
+For fixed resource-accounted log growth rates, the abundance ratio of two
+heritable types changes as
+
+\[
+\frac{n_i(k)}{n_j(k)}
+=
+\frac{n_i(0)}{n_j(0)}e^{k(g_i-g_j)}.
+\]
+
+This makes population-level selection physical rather than retrospective.
+It does not make information the selected quantity: a perfectly predictive
+but irrelevant or costly channel can lose, and an uninformative fixed
+phenotype can win in a constant environment. Symmetry-equivalent carriers
+retain equal growth and remain an orbit unless drift, mutation, or another
+physical asymmetry selects a realization.
+
+Selection among laws additionally requires a law ensemble, world
+reproduction or weighting, an inheritance/mutation kernel, and a sampling
+measure. Those objects form a meta-dynamics. Holding that meta-dynamics fixed
+makes law selection meaningful but remains compatible with completed-history
+disclosure; it does not establish source issuance.
+
+The corrected DU requirement is antecedent-relative: the interface object
+must be selected by an independently fixed physical antecedent at the claimed
+level, not necessarily by bare fundamental law. Formation provenance, access,
+law selection, and issuance remain separate. See
+`evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
