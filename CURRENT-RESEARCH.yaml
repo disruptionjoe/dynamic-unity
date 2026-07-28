@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 38
+state_revision: 39
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28; governed run receipts preserve each
@@ -82,9 +82,8 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-087 absorbs record-graph settlement through delayed activation.
-    Edge provenance survives; type pre-existence and issuance do not.
-    No successor is selected.
+    HC-DU-088 limits commitments to registry fixation; physical issuance
+    still needs a faithful exhaustive adapter. No successor.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -107,9 +106,9 @@ programs:
     target: >-
       Completed: test predictive selection and issuance-compatible forecasting.
     current_grade: >-
-      HC-DU-083--087 BANK GRADE-4 BOUNDARIES. ECOLOGIES CAN SELECT
-      INTERFACES; STRUCTURE-FREE FORECASTS COLLAPSE TO NOVELTY, AND GRAPH
-      SETTLEMENT CANNOT IDENTIFY TYPE PRE-EXISTENCE. ISSUANCE IS UNEARNED.
+      HC-DU-083--088 BANK GRADE-4 BOUNDARIES. FORECAST QUOTIENTS,
+      EVOLUTION, NOVELTY MASS, SETTLEMENT GRAPHS, AND COMMITMENTS DO NOT
+      IDENTIFY SOURCE ISSUANCE.
     evidence_grade: 4
     maximum_grade: >-
       CAPPED AT GRADE 4; A SOURCE-PINNED SELECTOR WITH NO-REFIT TRANSFER
@@ -119,6 +118,8 @@ programs:
       Ontology-neutral; process, interface, access, capability, settlement,
       and issuance remain distinct.
     completed_dependencies:
+      - id: HC-DU-088
+        evidence_ref: explorations/preactivation-commitment-provenance-and-source-issuance-boundary-2026-07-28.md
       - id: HC-DU-087
         evidence_ref: explorations/record-graph-settlement-and-delayed-activation-nonidentifiability-2026-07-28.md
       - id: HC-DU-086
@@ -146,29 +147,32 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Epsilon-transducers, bisimulation, HC-DU-036, HC-DU-033C, stochastic
-      thermodynamics, evolutionary value, Bayesian nonparametrics, delayed
-      activation, and fixed completion.
+      Predictive states, bisimulation, HC-DU-033C/036, evolutionary and
+      Bayesian models, fixed completion, activation, and
+      commitment/proof-system factorization.
     cheapest_kill: >-
-      Met. Predeclared delayed activation reproduces the weighted record graph.
+      Met. Dormant-fixed and issuance histories share one complete commitment,
+      proof, update, access, and action transcript.
     stop_rule: >-
-      Skip novelty-rate toys. Do not call novelty mass exact content, prior-
-      structured class growth source issuance, or choice type creation.
+      Stop cryptographic strengthening. Do not call hidden content absence,
+      registry extension source issuance, or a supplied registry physical
+      source.
     reopen_rule: >-
-      Require a source-sensitive pre-activation discriminator surviving
-      fixed-generator and completed-history completion.
+      Require preactivation intervention/footprint or selected
+      faithful exhaustive adapter, fixed completion/boundary, and independently
+      formed later occurrence.
     local_computation_boundary: >-
       Exact quotient, symmetry, and graph-factor analysis decided the gate;
       no model or hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/preactivation-commitment-provenance-and-source-issuance-boundary-2026-07-28.md
       - explorations/record-graph-settlement-and-delayed-activation-nonidentifiability-2026-07-28.md
       - explorations/unissued-type-probability-naturality-trilemma-and-novelty-orbit-2026-07-28.md
       - explorations/forecastability-under-issuance-type-extension-and-settlement-boundary-2026-07-28.md
       - explorations/evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md
       - explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
-      - explorations/post-collapse-predictive-selection-to-forecasting-issuance-next-five-reassessment-2026-07-28.md
 
   - id: CCR-INDIVISIBLE-STOCHASTIC-MODULAR-RIGIDITY-GATE
     kind: flagship

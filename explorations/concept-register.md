@@ -3666,6 +3666,33 @@ intervention, physical footprint, binding commitment, or independently
 warranted completion theorem. See
 `record-graph-settlement-and-delayed-activation-nonidentifiability-2026-07-28.md`.
 
+### 2026-07-28 commitment-relative actuality and source-adapter correction
+
+`HC-DU-088` narrows the commitment reopener. A time-anchored binding
+commitment and sound opening can certify that a registry was fixed before
+activation even when hiding prevented access to its content. Zero-knowledge
+set proofs can similarly certify membership or nonmembership relative to that
+registry without disclosing the rest.
+
+The result is representation-relative:
+
+```text
+fixed in committed registry
+  -/-> physically present or generable in source
+
+authenticated registry extension
+  -/-> physical source issuance.
+```
+
+Dormant-fixed and issuance histories can have identical commitments, proofs,
+updates, observer access, and actions. A source-sensitive result requires an
+independently formed adapter whose registry is faithful to and exhaustive of
+the frozen physical source, generators, boundaries, and controllers. Binding
+can preserve that adapter's output; cryptography cannot select or prove the
+adapter. Commitment therefore remains a clean positive control for
+fixed-but-undisclosed content, not a standalone issuance witness. See
+`preactivation-commitment-provenance-and-source-issuance-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
