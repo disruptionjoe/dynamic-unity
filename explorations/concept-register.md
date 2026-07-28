@@ -3693,6 +3693,32 @@ adapter. Commitment therefore remains a clean positive control for
 fixed-but-undisclosed content, not a standalone issuance witness. See
 `preactivation-commitment-provenance-and-source-issuance-boundary-2026-07-28.md`.
 
+### 2026-07-28 preactivation operational presence and footprint consolidation
+
+`HC-DU-089` collapses the remaining intervention and footprint routes into one
+complete preactivation response/resource signature. A footprint measurement is
+an admitted query. Dormant physical presence is identifiable relative to the
+frozen source boundary and action family exactly when the preexistence target
+is constant on that signature's fibres.
+
+A positive separating response can rule out a declared source model. A null
+establishes only operational equivalence for the admitted actions unless the
+query family is independently complete for the source target.
+
+Type count alone carries no universal energy or Landauer price. Orthogonal
+label states may be energy-degenerate; Landauer applies to irreversible
+information loss; and a compact generator can produce many later types
+without storing one preactivation entry per type. Finite-region entropy and
+quantum-speed bounds become informative only after resident
+distinguishability, region/energy, reliability, compression class, and
+deadline are frozen.
+
+The reopener is now one concrete physical packet: a source proposal deriving a
+separating preactivation bound that survives every admitted compact-generator
+and completed-history rival, or an independently proved source-completion
+theorem. Generic cost or observability work repeats known boundaries. See
+`preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
