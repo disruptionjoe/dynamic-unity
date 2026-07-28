@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 17
+state_revision: 18
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,102 +82,96 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-068 finds partial physical typing in finite-time infrared memory:
-    gauge dynamics forms a soft carrier and rotational symmetry conditionally
-    selects one dressing component, but the finite operational detector,
-    resolution/access quotient, archive, actions, and held-out hard target
-    remain supplied or absent. The exact reopener does not fire; H-CCR-17
-    stays closed and no successor is selected.
+    HC-DU-069 replaces the false completion/escape binary with an exact
+    operational-closure trichotomy. A history can lie outside a completion
+    class while every finite admitted record remains compatible with it.
+    Fixed resource bounds may retain finite falsifiers while their unbounded
+    union becomes dense. No physical openness reopener fires and no successor
+    is selected.
 
 programs:
-  - id: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
+  - id: CCR-OPERATIONAL-COMPLETION-CLOSURE
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: complete
     execution_status: none
     wip_slot: none
-    primary_lane_id: '3'
+    primary_lane_id: '1'
     supporting_lane_ids:
-      - '1'
+      - '2'
       - '4'
-      - '6'
       - '7'
     channel_ids:
       - CH-SYN
       - CH-FORMAL
       - CH-COLLIDE
     target: >-
-      Completed: determine whether the 2026 finite-time and
-      detector-resolution infrared-memory results physically select a finite
-      observer-accessible typed record and leave an independently held-out
-      hard-process target.
+      Completed: determine exactly when finite certified records prove escape
+      from a declared completion class, and whether removing every fixed
+      resource bound can erase that empirical content.
     current_grade: >-
-      HC-DU-068 BANKS A SCOPED GRADE-4 REOPENER DISPOSITION AND GRADE-3
-      PARTIAL-PHYSICAL-TYPING CLASSIFICATION. QED/PERTURBATIVE-GRAVITY
-      DYNAMICS FORMS A SOFT MEMORY CARRIER AND CONDITIONALLY SELECTS A
-      DRESSING COMPONENT, BUT THE FINITE OPERATIONAL RECORD INTERFACE,
-      ACCESS QUOTIENT, AND INVERSE TARGET REMAIN SUPPLIED OR ABSENT.
+      HC-DU-069 BANKS A SCOPED GRADE-4 OPERATIONAL-CLOSURE TRICHOTOMY,
+      FINITE-CERTIFICATE CRITERION, CAPABILITY MONOTONICITY LAW, AND
+      BOUNDED/UNBOUNDED SQUEEZE. THE COMPONENT TOPOLOGY, COMPUTABILITY, AND
+      MONITORABILITY RESULTS ARE ABSORBED.
     evidence_grade: 4
     maximum_grade: >-
-      THE COMPLETED AUDIT CANNOT PROMOTE BEYOND ITS SCOPED NON-ADMISSION AND
-      PARTIAL-SELECTION RESULT. A FUTURE FINITE REALIZATION OR RECONSTRUCTION
-      THEOREM RETAINS ITS OWN INDEPENDENT MAXIMUM GRADE.
+      THE COMPLETED THEOREM CANNOT PROMOTE BEYOND SCOPED NECESSITY. A
+      PHYSICALLY SELECTED COMPLETION CLASS AND FINITE SEPARATING EXPERIMENT
+      RETAIN THEIR OWN INDEPENDENT GRADE-5 CEILING.
     maximum_evidence_grade: 4
     premise_status: >-
-      Frozen to massive scalar QED, a massive scalar coupled to perturbative
-      gravity, and the free-scalar local-QFT realizability source. No
-      detector, frame, resolution, observer, archive, action class, target, or
-      finality rule was fitted into the physical antecedent.
+      Assumption-neutral theorem over a frozen completion class and
+      observer/action-relative operational topology. It neither selects the
+      class nor asserts that any physical model is dense.
     completed_dependencies:
-      - id: HC-DU-068
-        evidence_ref: explorations/finite-time-infrared-memory-typed-record-reopener-audit-2026-07-28.md
+      - id: HC-DU-069
+        evidence_ref: explorations/operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md
       - id: HC-DU-063
         evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - id: IR-MEMORY-PARKED-REOPENER
-        evidence_ref: explorations/physical-arena-selection-tournament-2026-07-26.md
+      - id: FIXED-COMPLETION-CONTROL
+        evidence_ref: explorations/spectral-flow-source-adversarial-kill-2026-07-21.md
     remaining_obligations: []
     typed_dependencies:
       - type: requires
         target: HC-DU-063
         target_type: result
       - type: tests
-        target: FINITE-TIME-IR-MEMORY-REOPENER
+        target: FINITE-RECORD-OPENNESS-CERTIFICATION
         target_type: requirement
-      - type: tests
-        target: H-CCR-17
-        target_type: requirement
+      - type: extracts_from
+        target: TI-E199-E203-FIXED-ORACLE-BOUNDARY
+        target_type: external_work
+        owner_repo: temporal-issuance
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Infrared-safe scattering, asymptotic symmetry and memory,
-      detector-relative coarse graining, AQFT measurement realizability, and
-      HC-DU-033F/054/063 absorb the components while separating a formed
-      carrier from a selected operational record.
+      Cantor-space closure, safety/liveness topology, bad-prefix and runtime
+      monitorability, elementary computability density, and identification in
+      the limit absorb the component mathematics.
     cheapest_kill: >-
-      Met: the named finite-time detector still couples zero-frequency,
-      null-infinity, and infinite-time limits; finite resolution is a
-      detector parameter; and no independently held-out inverse target is
-      frozen.
+      Not fired as a typed program correction: standard topology absorbs the
+      proof, but the limit-underdetermined class invalidates DU's prior binary
+      completion/escape language and changes its physical reopener.
     stop_rule: >-
-      Satisfied. Do not infer bounded observer access from retained time
-      dependence, call a soft cloud or asymptotic memory a certified record,
-      treat a realizable supplied instrument as selected, build an infrared
-      toy, or activate the proposed follow-on swings.
+      Satisfied. Do not infer global nonmembership, noncomputability,
+      randomness, becoming, or issuance from a finite trace; enlarge a rival
+      without reporting the changed closure; or build another fixed-source
+      toy whose verdict follows from the theorem.
     reopen_rule: >-
-      Reopen only with a finite detector worldtube/window/resolution and
-      explicit local-QFT realization, an independent selector or naturality
-      theorem for its access quotient, blank-to-written provenance, and a
-      nonempty physical fibre with a genuinely held-out target showing
-      record-conditioned contraction or an exact remainder.
+      Reopen physical productive escape only with a selected physical
+      completion class, explicit operational topology, justified
+      resource/oracle/access bound, and one realizable finite record fibre
+      disjoint from the strongest enlarged rival class.
     local_computation_boundary: >-
-      Completed by primary-source, limit, and factorization analysis. No model
-      or external hardware was needed and none is authorized by the result.
+      Exact symbolic proof and analytic controls complete. Enumeration and
+      external hardware cannot raise the grade and are not authorized.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
-      - explorations/finite-time-infrared-memory-typed-record-reopener-audit-2026-07-28.md
-      - explorations/physical-arena-selection-tournament-2026-07-26.md
+      - explorations/operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md
+      - explorations/spectral-flow-source-adversarial-kill-2026-07-21.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
       - docs/quantum-foundations-orientation-surface.md
 
@@ -483,7 +477,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
+        target: CCR-OPERATIONAL-COMPLETION-CLOSURE
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -561,7 +555,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
+        target: CCR-OPERATIONAL-COMPLETION-CLOSURE
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -630,7 +624,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
+        target: CCR-OPERATIONAL-COMPLETION-CLOSURE
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
@@ -659,6 +653,7 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - physically-restricted-nondense-completion-class-with-finite-separator
     - finite-operational-infrared-memory-interface-selector
     - physical-formation-lift-of-closed-capability-record-pair
     - new-physical-formed-interface-selector
@@ -667,8 +662,9 @@ successor_selection:
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
     Do not reactivate closed gates without their exact reopeners. A successor
-    must physically form a closed pair, supply a finite natural infrared
-    interface, provide a nonabsorbed law filter, or pose a fresh locally
+    must physically form a closed pair, supply a realizable finite separator
+    outside the strongest completion closure, provide a finite natural
+    infrared interface or nonabsorbed law filter, or pose a fresh locally
     decidable proposition.
 
 anomaly_intake:

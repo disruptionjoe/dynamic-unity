@@ -2999,6 +2999,42 @@ not fire, the four conditional follow-ons remain inactive, and no local model
 or external hardware is warranted. See
 `finite-time-infrared-memory-typed-record-reopener-audit-2026-07-28.md`.
 
+### 2026-07-28 operational completion-closure trichotomy
+
+`HC-DU-069` corrects the binary contrast between fixed-completion disclosure
+and productive escape. Relative to a frozen observer/action record topology,
+a realized complete history is either:
+
+```text
+inside C
+  = absorbed
+
+inside operational closure(C) but outside C
+  = limit-underdetermined
+
+outside operational closure(C)
+  = finitely certified escape.
+```
+
+A finite record excludes \(C\) exactly in the third case. Every false history
+has some finite exclusion certificate exactly when \(C\) is closed; at least
+one exact finite falsifier exists exactly when \(C\) is not dense. Enlarging
+capability refines the operational topology and can shrink the
+limit-underdetermined region.
+
+The bounded/unbounded control is exact: every fixed bound on
+eventually-periodic binary generators gives a finite closed class, while the
+union over all finite bounds is dense and proper. Computable histories are
+likewise dense, so no finite prefix proves that its infinite continuation is
+noncomputable. The same criterion applies to finite intervention transcripts
+and completed response trees.
+
+The component topology, monitorability, computability, and learning theory are
+absorbed. The DU-specific return is the typed completion/record/capability
+boundary and its physical reopener. No physical openness, issuance,
+computability of nature, new law, or prediction is earned. See
+`operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
