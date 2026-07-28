@@ -3263,6 +3263,37 @@ provenance, bounded access, and held-out transfer. The selected-record
 campaign remains quiescent. See
 `source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md`.
 
+### 2026-07-28 commutative-record modular-time gate
+
+`HC-DU-077` closes the narrow route from a complete commutative record algebra
+and its state to nontrivial Tomita--Takesaki time. Every faithful state on a
+commutative von Neumann algebra is tracial, so the intrinsic modular group is
+trivial.
+
+The exact \(M_2\) witness fixes the classical record algebra
+\(\mathcal D=\operatorname{span}\{I,Z\}\). The faithful states
+
+\[
+\rho_0=I/2,
+\qquad
+\rho_c=(I+(3/5)X)/2
+\]
+
+agree on every record observable, while \(\rho_0\) has trivial ambient
+modular flow and \(\rho_c\) has nontrivial ambient flow that moves \(Z\)
+outside \(\mathcal D\). Complete classical record statistics therefore do not
+fix ambient modular dynamics.
+
+The positive route is typed rather than closed: a selected noncommutative
+algebra plus faithful state yields dimensionless modular flow; physical time
+needs calibration or a dynamical identification; geometric reconstruction
+needs modular inclusions or a net with standardness, modular-position, and
+positivity conditions. Bisognano--Wichmann is a strong positive theorem in a
+supplied QFT/wedge/vacuum setting, not a derivation of geometry from classical
+records. Formed provenance, bounded access, and held-out transfer remain
+separate. See
+`commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

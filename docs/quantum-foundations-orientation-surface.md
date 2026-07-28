@@ -950,6 +950,22 @@ retention, provenance, and observer access can be asked. Quantum-mereology
 criteria remain live bridges, not solved record theories. See the
 [subsystem-factor gate](../explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md).
 
+**Commutative-record modular silence (`HC-DU-077`).** Tomita--Takesaki
+modular flow is a serious algebraic route from a noncommutative algebra--state
+pair toward time, and modular inclusions can reconstruct translations or
+spacetime symmetries under strong standardness and positioning conditions.
+But every faithful state on a commutative record algebra is tracial, so that
+algebra's intrinsic modular group is trivial. The exact \(M_2\) hostile
+control gives two faithful ambient states with identical values on every
+observable in one complete classical record algebra and different ambient
+modular flows. A classical record quotient therefore does not retain modular
+time automatically. Keep the positive ladder typed: selected noncommutative
+algebra and state, then dimensionless modular flow, then physical
+calibration, then inclusion/net geometry. Bisognano--Wichmann begins with a
+typed QFT wedge algebra and vacuum; it does not derive those antecedents from
+records. See the
+[modular-time gate](../explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

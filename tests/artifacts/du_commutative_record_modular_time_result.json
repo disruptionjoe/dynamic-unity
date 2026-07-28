@@ -1,0 +1,28 @@
+{
+  "claim_id": "HC-DU-077",
+  "status": "PASS",
+  "checks_passed": 19,
+  "checks_total": 19,
+  "failures": [],
+  "exact_fixture": {
+    "record_algebra": "D = span{I,Z}",
+    "record_expectations_tracial": [
+      1.0,
+      0.0
+    ],
+    "record_expectations_coherent": [
+      1.0,
+      0.0
+    ],
+    "ambient_state_distance_hilbert_schmidt": 0.4242640687119285,
+    "same_record_different_flow_margin": 1.8072554055879295,
+    "coherent_flow_offdiagonal_magnitude": 0.9830277404112433,
+    "diagonal_state_eigenvalue_ratio": 4.0,
+    "offdiagonal_modular_phase": [
+      0.18345697474330172,
+      0.9830277404112437
+    ],
+    "state_power_rescaling_error": 1.962615573354719e-16
+  },
+  "scope": "Finite certificate that a commutative record algebra has trivial intrinsic modular flow and that its complete state does not determine ambient modular dynamics. No physical state, time calibration, Type-III algebra, geometry, record formation, or new law is selected."
+}

@@ -107,6 +107,37 @@ classification/selection boundary, and observable-algebra positive control.
 It does not derive a physical TPS, record carrier, spacetime, locality,
 ontology, or new quantum law.
 
+## Commutative-record modular-time gate
+
+`du_commutative_record_modular_time_probe.py` executes the finite controls
+for `HC-DU-077`:
+
+- the complete classical record algebra is
+  \(\mathcal D=\operatorname{span}\{I,Z\}\);
+- two faithful ambient states agree on every observable in \(\mathcal D\)
+  while inducing different ambient modular flows;
+- the tracial ambient state has trivial modular dynamics;
+- the coherent ambient state moves \(Z\) outside the record algebra;
+- every projector in the commutative algebra remains fixed by its intrinsic
+  modular flow;
+- a faithful diagonal state supplies the positive noncommutative control:
+  the record algebra stays fixed while off-diagonal observables acquire the
+  exact eigenvalue-ratio phase; and
+- normalized powers of the state rescale the modular parameter exactly.
+
+Run:
+
+```bash
+python3 tests/du_commutative_record_modular_time_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_commutative_record_modular_time_result.json` and reports
+`19/19`. Passing establishes only the finite modular-silence and
+same-record/different-ambient-flow certificate. It does not select a physical
+state, Type-III algebra, proper-time calibration, geometry, formed record,
+ontology, or new law.
+
 All pre-recharter probes and deterministic artifacts remain regression
 evidence for their exact scoped findings. They are antecedents and benchmark
 fixtures, not evidence that Certified Causal Reality, record-first ontology,

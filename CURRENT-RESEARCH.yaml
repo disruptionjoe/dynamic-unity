@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 26
+state_revision: 27
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,20 +82,122 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    QMF-01 is complete as HC-DU-076. A bare Hamiltonian naturally selects at
-    most a stabilizer orbit of subsystem factorizations; the exact
-    nondegenerate two-qubit witness preserves H while moving the factor
-    algebras and changing one fixed state's entanglement. A Hamiltonian plus
-    full-support state can support a complete invariant classifier, but
-    target-derived entropy-profile values are not a source-selected physical
-    law. Commuting observable factor algebras reconstruct a TPS when they are
-    independently supplied or selected. The HC-DU-075 carrier passport must
-    therefore be anchored in a physical observable algebra or net region, not
-    merely a Hilbert factor. No current arena also closes formation,
-    retention, provenance, bounded access, and held-out transfer. No
+    MTR-01 is complete as HC-DU-077. Every faithful state on a commutative
+    record algebra is tracial, so its intrinsic modular automorphism group is
+    trivial. The exact qubit witness gives two faithful ambient states with
+    identical complete classical-record restrictions and different ambient
+    modular flows. Nontrivial modular reconstruction therefore requires a
+    selected noncommutative algebra and faithful state; physical time further
+    requires calibration or a dynamical identification, while geometric
+    reconstruction requires inclusion/net structure and modular-position
+    conditions. Bisognano--Wichmann and modular-inclusion theorems are strong
+    conditional positives, not record-first derivations of their supplied
+    algebra, state, region, or access antecedents. No current arena also
+    closes formation, provenance, bounded access, and held-out transfer. No
     scientific successor or executable action is selected.
 
 programs:
+  - id: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
+    kind: flagship
+    owner_repo: dynamic-unity
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
+    primary_lane_id: '6'
+    supporting_lane_ids:
+      - '1'
+      - '3'
+      - '4'
+      - '7'
+    channel_ids:
+      - CH-FORMAL
+      - CH-SYN
+      - CH-COLLIDE
+      - CH-MODEL
+    target: >-
+      Completed: determine whether a complete commutative certified-record
+      algebra and its state can reconstruct nontrivial modular time, identify
+      the minimum noncommutative algebra--state--inclusion data required by
+      positive modular reconstruction, and keep modular flow, physical clock
+      calibration, and geometric action separately typed.
+    current_grade: >-
+      HC-DU-077 BANKS A SCOPED GRADE-4 COMMUTATIVE MODULAR-SILENCE THEOREM,
+      EXACT SAME-RECORD/DIFFERENT-AMBIENT-MODULAR-FLOW WITNESS,
+      NONCOMMUTATIVE POSITIVE CONTROL, AND TYPED MODULAR-RECONSTRUCTION
+      LADDER. TOMITA--TAKESAKI, THERMAL-TIME, BISOGNANO--WICHMANN,
+      MODULAR-INCLUSION, AND LOCALLY COVARIANT QFT MATHEMATICS ABSORB THE
+      COMPONENTS. NO PHYSICAL STATE, TIME, GEOMETRY, RECORD, OR NEW LAW IS
+      SELECTED.
+    evidence_grade: 4
+    maximum_grade: >-
+      THE COMPLETED GATE CANNOT PROMOTE BEYOND ITS SCOPED NECESSITY RESULT. A
+      PHYSICALLY SELECTED ALGEBRA--STATE--INCLUSION STRUCTURE WITH
+      CALIBRATION, FORMED ACCESSIBLE RECORDS, AND HELD-OUT TRANSFER RETAINS
+      AN INDEPENDENT GRADE-5 CEILING.
+    maximum_evidence_grade: 4
+    premise_status: >-
+      Assumption-neutral finite certificate plus primary-source AQFT audit.
+      Commutative record state, ambient algebra and state, modular parameter,
+      physical time calibration, net/inclusion geometry, formation, access,
+      and targets remain separately typed. Preferred foliation remains off
+      and under Time as Finality's dedicated exploration.
+    completed_dependencies:
+      - id: HC-DU-077
+        evidence_ref: explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
+      - id: HC-DU-076
+        evidence_ref: explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
+      - id: HC-DU-063
+        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - id: HC-DU-040B
+        evidence_ref: explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
+    remaining_obligations: []
+    typed_dependencies:
+      - type: requires
+        target: HC-DU-076
+        target_type: result
+      - type: tests
+        target: MODULAR-RECORD-TO-TIME-AND-GEOMETRY-RECONSTRUCTION
+        target_type: requirement
+      - type: does_not_block
+        target: DU-PAPER-013-HARDENING
+        target_type: program
+    strongest_absorber: >-
+      Confirmed: modular theory proves commutative silence and supplies
+      noncommutative flow; Bisognano--Wichmann and modular inclusions supply
+      conditional geometric positives; Fewster--Verch blocks a free
+      generally covariant preferred state. None selects a complete formed
+      record interface.
+    cheapest_kill: >-
+      Met against commutative modular reconstruction. The exact M2 witness
+      fixes D=span{I,Z}; I/2 and (I+(3/5)X)/2 agree on every D observable but
+      have trivial versus nontrivial ambient modular dynamics. The
+      noncommutative diagonal-state control retains exact modular phases.
+    stop_rule: >-
+      Satisfied. Do not seek nontrivial modular flow inside a commutative
+      record algebra, call a timestamp a derivation of time, identify the
+      dimensionless modular parameter with proper time without calibration,
+      treat a supplied wedge/vacuum as record-derived geometry, infer
+      ontology, or repeat the finite witness in another representation.
+    reopen_rule: >-
+      Reopen only when one physical antecedent independently selects a
+      noncommutative observable algebra or net, faithful state/weight or
+      state class, nontrivial inclusion/relative position, modular-to-observer
+      time calibration, formed provenance and bounded access, and one
+      target-independent intervention family with a held-out temporal or
+      geometric consequence.
+    local_computation_boundary: >-
+      One exact two-dimensional modular certificate completes the local proof
+      boundary. No Type-III simulation, larger model, external hardware, or
+      provider work is warranted.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
+      - explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
+      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
+      - docs/quantum-foundations-orientation-surface.md
+
   - id: CCR-SUBSYSTEM-FACTOR-SELECTION-GATE
     kind: flagship
     owner_repo: dynamic-unity
@@ -284,100 +386,6 @@ programs:
       - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
       - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
 
-  - id: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '7'
-    supporting_lane_ids:
-      - '1'
-      - '3'
-      - '4'
-      - '5'
-    channel_ids:
-      - CH-FORMAL
-      - CH-SYN
-      - CH-COLLIDE
-      - CH-MODEL
-    target: >-
-      Completed: find the minimum intervention family distinguishing
-      source-write, record-driven response, and common-source formation after
-      terminal duality, with unchanged cross-platform transfer.
-    current_grade: >-
-      HC-DU-073 BANKS SCOPED GRADE-4 TERMINAL NONORIENTATION,
-      TWO-INTERVENTION CAUSAL-PRIORITY MINIMALITY, CROSS-PLATFORM TRANSFER,
-      AND AN ONTOLOGY BOUNDARY. CAUSAL MODELS, INTERVENTION CALCULUS,
-      QUANTUM CAUSAL TOMOGRAPHY, AND PROCESS TENSORS ABSORB THE COMPONENTS.
-    evidence_grade: 4
-    maximum_grade: >-
-      SCOPED NECESSITY ONLY. PHYSICALLY SELECTED PORTS, BOTH REALIZABLE
-      INTERVENTIONS, COMPLETE ACQUISITION, AND A HELD-OUT RESPONSE RETAIN AN
-      INDEPENDENT GRADE-5 CEILING.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Assumption-neutral finite contract with models, ports, surgical
-      interventions, responses, readouts, and resources frozen.
-    completed_dependencies:
-      - id: HC-DU-073
-        evidence_ref: explorations/causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md
-      - id: HC-DU-072
-        evidence_ref: explorations/operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md
-      - id: HC-DU-051
-        evidence_ref: explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
-      - id: HC-DU-055
-        evidence_ref: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: requires
-        target: HC-DU-072
-        target_type: result
-      - type: extracts_from
-        target: HC-DU-051
-        target_type: result
-      - type: tests
-        target: CAUSAL-PRIORITY-INTERVENTION-MINIMALITY
-        target_type: requirement
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
-    strongest_absorber: >-
-      Structural causal models and surgical interventions, observational
-      equivalence and hidden common causes, quantum causal models, causal
-      tomography, process tensors, authenticated distributed refinement, and
-      HC-DU-031C/051/055/056/072.
-    cheapest_kill: >-
-      Did not fire against the declared minimum: exhaustive classical
-      enumeration and exact two-qubit controls pass. It fired against novelty,
-      universality, ontology, and activation because causal-intervention
-      theory absorbs the components and the ports, interventions, process
-      class, and complete acquisition remain supplied.
-    stop_rule: >-
-      Satisfied. Do not infer formation direction from terminal correlation
-      or authentication, call a semantic rewrite a physical intervention,
-      universalize the two-intervention minimum, or infer substrate priority
-      from a local causal arrow. Do not repeat the finite ladder in another
-      host.
-    reopen_rule: >-
-      Reopen only with physically selected source and record ports, both
-      independently realizable pre-formation interventions, complete
-      attempted-process acquisition, a common-cause rival, and one no-refit
-      held-out response; or with a different physical class yielding a
-      stronger causal-identification boundary.
-    local_computation_boundary: >-
-      Exact enumeration and two-qubit linear algebra complete the scoped
-      result. No new local model or external hardware is warranted.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/causal-priority-intervention-ladder-and-process-transfer-2026-07-28.md
-      - explorations/operational-duality-no-priority-and-cross-platform-transfer-2026-07-28.md
-      - explorations/distributed-physical-record-collision-and-portfolio-handoff-2026-07-27.md
-      - explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
-      - explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
-      - docs/quantum-foundations-orientation-surface.md
-
   - id: DU-PAPER-013-HARDENING
     kind: publication
     owner_repo: dynamic-unity
@@ -429,7 +437,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
+        target: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -507,7 +515,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
+        target: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -576,7 +584,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-CAUSAL-PRIORITY-INTERVENTION-LADDER
+        target: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
@@ -605,6 +613,7 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - physically-selected-modular-algebra-state-inclusion-with-calibrated-time
     - physically-selected-observable-carrier-algebra-with-access-preserving-factorization
     - physically-selected-access-preserving-quantum-output-carrier
     - physically-selected-target-sensitive-record-law-with-complete-assay
@@ -620,11 +629,13 @@ successor_selection:
   decision_rule: >-
     No current candidate closes a fresh prerequisite. Select a successor only
     when new physical work independently fixes an observable carrier algebra
-    or access-preserving factorization, actual source-to-carrier formation,
-    retained provenance, bounded access/resources, and one held-out
-    consequence; or when another whole-repository question supplies a
-    genuinely unbanked discriminator. A bare Hilbert factor, target-derived
-    invariant profile, or classical-shadow plurality is insufficient.
+    or access-preserving factorization, a faithful state or state class and
+    any claimed inclusion/calibration structure, actual source-to-carrier
+    formation, retained provenance, bounded access/resources, and one
+    held-out consequence; or when another whole-repository question supplies
+    a genuinely unbanked discriminator. A commutative record state, bare
+    Hilbert factor, target-derived invariant profile, or classical-shadow
+    plurality is insufficient.
 
 anomaly_intake:
   status: open_non_wip
