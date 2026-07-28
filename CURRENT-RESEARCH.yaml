@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 8
+state_revision: 9
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat after an Agent Context Engineer review and a five-person
@@ -8,7 +8,9 @@ authority: >-
   direct chat authorizing a branch-safe next-five sequence scaffold and then
   executing all five positions through the finite-consequence reset, and
   Joe's subsequent correction and authorization of a whole-repository
-  Science Council and distributed-systems opportunity assessment.
+  Science Council and distributed-systems opportunity assessment, followed
+  by Joe direct chat authorizing a source-pinned sibling-update audit and
+  Science Council Triple Diamond for the next five swings.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -93,8 +95,12 @@ current_decision:
     metastability, thermodynamic durable memory, and autonomous dissipative
     stabilization under one selection passport before building a model. The
     physical-to-coordination adapter is reserve and complete-process
-    reconciliation holonomy is frontier. Publication hardening remains
-    separately typed prepared output.
+    reconciliation holonomy is frontier. A source-pinned cross-repository
+    Triple Diamond leaves that live gate unchanged while conditionally
+    sequencing selector witness, reconciliation naturality,
+    adapter-or-holonomy, and no-refit transfer behind its returns. Later
+    positions remain unactivated. Publication hardening remains separately
+    typed prepared output.
 
 programs:
   - id: CCR-AUTONOMOUS-STRATIFIED-FINALITY
@@ -204,6 +210,8 @@ programs:
           role: corrected sequence-relative no-ready boundary
         - path: explorations/whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md
           role: twenty-one-lens opportunity map and primary/reserve/frontier synthesis
+        - path: explorations/cross-repo-autonomous-finality-to-reconciliation-next-five-triple-diamond-2026-07-27.md
+          role: source-pinned next-five sequence, counterfactual controls, and conditional handoffs
         - path: explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md
           role: strongest existing metastable partial-selection result and occurrence control
         - path: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
@@ -253,6 +261,7 @@ programs:
     canonical_evidence_refs:
       - explorations/autonomous-stratified-finality-generator-gate-contract-2026-07-27.md
       - explorations/whole-repo-science-council-and-distributed-opportunity-map-2026-07-27.md
+      - explorations/cross-repo-autonomous-finality-to-reconciliation-next-five-triple-diamond-2026-07-27.md
       - explorations/hc-du-060-portfolio-scope-correction-2026-07-27.md
       - explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md
       - explorations/metastable-write-architecture-and-occurrence-tokenization-obstruction-2026-07-26.md

@@ -2,7 +2,7 @@
   "active_scientific_program": "CCR-AUTONOMOUS-STRATIFIED-FINALITY",
   "authority": "CURRENT-RESEARCH.yaml",
   "checks_passed": 35,
-  "cold_start_words": 5852,
+  "cold_start_words": 5914,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
   "executable_action": "N6-CCR-P1-AUTONOMOUS-FINALITY-GENERATOR-GATE",
   "prepared_publication_candidate": "DU-PAPER-013",
