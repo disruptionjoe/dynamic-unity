@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 18
+state_revision: 19
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,15 +82,15 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-069 replaces the false completion/escape binary with an exact
-    operational-closure trichotomy. A history can lie outside a completion
-    class while every finite admitted record remains compatible with it.
-    Fixed resource bounds may retain finite falsifiers while their unbounded
-    union becomes dense. No physical openness reopener fires and no successor
-    is selected.
+    HC-DU-070 proves that exact support closure and finite statistical
+    separation are non-equivalent. A full-support null may admit every finite
+    transcript while a positive probability-law margin yields finite
+    confidence at declared risk. The physical reopener now admits exact or
+    risk-indexed routes. CHSH is absorbed calibration, so no successor is
+    selected.
 
 programs:
-  - id: CCR-OPERATIONAL-COMPLETION-CLOSURE
+  - id: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: complete
@@ -98,81 +98,80 @@ programs:
     wip_slot: none
     primary_lane_id: '1'
     supporting_lane_ids:
-      - '2'
       - '4'
       - '7'
     channel_ids:
-      - CH-SYN
       - CH-FORMAL
+      - CH-EMPIRICAL
       - CH-COLLIDE
     target: >-
-      Completed: determine exactly when finite certified records prove escape
-      from a declared completion class, and whether removing every fixed
-      resource bound can erase that empirical content.
+      Completed: determine whether support-dense stochastic theories can
+      retain finite empirical content through probability-law separation, and
+      correct the physical reopener without weakening evidence typing.
     current_grade: >-
-      HC-DU-069 BANKS A SCOPED GRADE-4 OPERATIONAL-CLOSURE TRICHOTOMY,
-      FINITE-CERTIFICATE CRITERION, CAPABILITY MONOTONICITY LAW, AND
-      BOUNDED/UNBOUNDED SQUEEZE. THE COMPONENT TOPOLOGY, COMPUTABILITY, AND
-      MONITORABILITY RESULTS ARE ABSORBED.
+      HC-DU-070 BANKS A SCOPED GRADE-4 SUPPORT/PROBABILITY
+      NON-UNIFICATION, ROBUST SCORE-SEPARATION THEOREM, MEMORY-ROBUST
+      FINITE-SAMPLE GATE, DATA-PROCESSING LAW, AND REOPENER CORRECTION. THE
+      STATISTICS AND BELL COMPONENTS ARE ABSORBED.
     evidence_grade: 4
     maximum_grade: >-
       THE COMPLETED THEOREM CANNOT PROMOTE BEYOND SCOPED NECESSITY. A
-      PHYSICALLY SELECTED COMPLETION CLASS AND FINITE SEPARATING EXPERIMENT
-      RETAIN THEIR OWN INDEPENDENT GRADE-5 CEILING.
+      PHYSICALLY SELECTED LAW FAMILY AND IMPLEMENTATION-COMPLETE
+      DISCRIMINATOR RETAIN THEIR OWN INDEPENDENT GRADE-5 CEILING.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral theorem over a frozen completion class and
-      observer/action-relative operational topology. It neither selects the
-      class nor asserts that any physical model is dense.
+      Assumption-neutral finite-transcript theorem. The CHSH specimen freezes
+      setting independence, complete acquisition, causal separation, and
+      conditional null classes. It is calibration, not a selected DU model.
     completed_dependencies:
+      - id: HC-DU-070
+        evidence_ref: explorations/risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md
       - id: HC-DU-069
         evidence_ref: explorations/operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md
-      - id: HC-DU-063
-        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - id: FIXED-COMPLETION-CONTROL
-        evidence_ref: explorations/spectral-flow-source-adversarial-kill-2026-07-21.md
+      - id: HC-DU-036D
+        evidence_ref: explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
     remaining_obligations: []
     typed_dependencies:
       - type: requires
-        target: HC-DU-063
+        target: HC-DU-069
+        target_type: result
+      - type: extracts_from
+        target: HC-DU-036D
         target_type: result
       - type: tests
-        target: FINITE-RECORD-OPENNESS-CERTIFICATION
+        target: FINITE-RISK-INDEXED-PHYSICAL-SEPARATION
         target_type: requirement
-      - type: extracts_from
-        target: TI-E199-E203-FIXED-ORACLE-BOUNDARY
-        target_type: external_work
-        owner_repo: temporal-issuance
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Cantor-space closure, safety/liveness topology, bad-prefix and runtime
-      monitorability, elementary computability density, and identification in
-      the limit absorb the component mathematics.
+      Neyman--Pearson testing, total variation, convex separation,
+      Hoeffding--Azuma concentration, finite-statistics Bell analysis, and
+      DU's existing bounded-score and finite-shot certificates.
     cheapest_kill: >-
-      Not fired as a typed program correction: standard topology absorbs the
-      proof, but the limit-underdetermined class invalidates DU's prior binary
-      completion/escape language and changes its physical reopener.
+      Not fired as a typed correction: the quantum CHSH class has full
+      transcript support while the Tsirelson score gap yields arbitrarily
+      small finite error. Zero-error closure therefore cannot exhaust finite
+      empirical content.
     stop_rule: >-
-      Satisfied. Do not infer global nonmembership, noncomputability,
-      randomness, becoming, or issuance from a finite trace; enlarge a rival
-      without reporting the changed closure; or build another fixed-source
-      toy whose verdict follows from the theorem.
+      Satisfied. Do not call support density empirical vacuity, call a
+      p-value a posterior, omit convex mixtures or memory, credit passive
+      records for active separation, or rerun Bell calibration as DU physics.
     reopen_rule: >-
-      Reopen physical productive escape only with a selected physical
-      completion class, explicit operational topology, justified
-      resource/oracle/access bound, and one realizable finite record fibre
-      disjoint from the strongest enlarged rival class.
+      Reopen only with a physically selected support or probability-law
+      family, complete transcript and acquisition contract, strongest
+      legitimate class enlargement, and either a support-disjoint event or
+      positive robust score gap with preregistered errors and held-out target.
     local_computation_boundary: >-
-      Exact symbolic proof and analytic controls complete. Enumeration and
-      external hardware cannot raise the grade and are not authorized.
+      Exact proof and unchanged 28/28 CHSH control complete. No new model or
+      hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md
       - explorations/operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md
-      - explorations/spectral-flow-source-adversarial-kill-2026-07-21.md
-      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
+      - lab/process/operational-theory-landscape-contract.md
       - docs/quantum-foundations-orientation-surface.md
 
   - id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
@@ -477,7 +476,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-OPERATIONAL-COMPLETION-CLOSURE
+        target: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -555,7 +554,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-OPERATIONAL-COMPLETION-CLOSURE
+        target: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -624,7 +623,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-OPERATIONAL-COMPLETION-CLOSURE
+        target: CCR-RISK-INDEXED-OPERATIONAL-SEPARATION
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
@@ -653,6 +652,7 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - physically-selected-positive-margin-law-family-with-complete-assay
     - physically-restricted-nondense-completion-class-with-finite-separator
     - finite-operational-infrared-memory-interface-selector
     - physical-formation-lift-of-closed-capability-record-pair
@@ -662,10 +662,10 @@ successor_selection:
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
     Do not reactivate closed gates without their exact reopeners. A successor
-    must physically form a closed pair, supply a realizable finite separator
-    outside the strongest completion closure, provide a finite natural
-    infrared interface or nonabsorbed law filter, or pose a fresh locally
-    decidable proposition.
+    must physically form a closed pair, supply either a realizable
+    support-disjoint separator or a positive robust law margin under complete
+    acquisition and fixed errors, provide a finite natural infrared interface
+    or nonabsorbed law filter, or pose a fresh locally decidable proposition.
 
 anomaly_intake:
   status: open_non_wip

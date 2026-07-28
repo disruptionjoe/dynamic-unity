@@ -858,6 +858,20 @@ to DU's completion contract, not evidence that nature is open-ended or
 noncomputable. See the
 [completion-closure theorem](../explorations/operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md).
 
+**Risk-indexed operational separation (`HC-DU-070`).** Support closure and
+probability-law separation are different. A null family containing one
+full-support law has no nontrivial zero-error finite test, yet disjoint closed
+convex null and alternative law families have a positive robust score gap
+equal to their minimum total-variation distance. Conditional bounded-score
+ceilings and floors yield finite-confidence tests without IID. In the frozen
+CHSH control, quantum theory includes a full-support behavior, while
+\(n\) consecutive wins have quantum-null probability at most
+\(((2+\sqrt2)/4)^n\); finite confidence therefore exists although logical
+finite exclusion does not. This composes known hypothesis-testing, Bell, and
+concentration results to correct DU's physical reopener. It does not derive
+quantum strength, select a record interface, or add new physics. See the
+[risk-indexed separation theorem](../explorations/risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

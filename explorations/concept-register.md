@@ -3035,6 +3035,38 @@ boundary and its physical reopener. No physical openness, issuance,
 computability of nature, new law, or prediction is earned. See
 `operational-completion-closure-trichotomy-and-bounded-unbounded-squeeze-2026-07-28.md`.
 
+### 2026-07-28 risk-indexed operational separation
+
+`HC-DU-070` separates two non-equivalent finite-evidence objects:
+
+```text
+support closure
+  -> zero-error logical exclusion
+
+probability-law geometry
+  -> finite-confidence statistical exclusion.
+```
+
+A null family containing one full-support law makes every nontrivial
+zero-error finite test impossible. Nevertheless, disjoint closed convex null
+and alternative law families have a positive robust bounded-score gap equal
+to their minimum total-variation distance. Conditional score ceilings and
+floors then give memory-robust finite tests by Hoeffding--Azuma concentration.
+
+The CHSH control is exact. The quantum class contains a full-support local
+behavior, so no finite transcript logically excludes quantum theory. Yet
+\(n\) consecutive wins have quantum-null probability at most
+\(((2+\sqrt2)/4)^n\), while an ideal PR box wins with probability one.
+Finite confidence is therefore available at every declared nonzero error even
+though exact finite exclusion is not.
+
+The corrected physical reopener accepts either a support-disjoint finite
+fibre or a physically selected probability-law family with positive robust
+margin, implementation-complete acquisition, frozen errors, and a held-out
+target. Bell, hypothesis-testing, convex-separation, and concentration
+mathematics are absorbed; no new physics or successor is selected. See
+`risk-indexed-operational-separation-and-support-probability-non-unification-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
