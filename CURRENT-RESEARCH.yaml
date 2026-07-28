@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 29
+state_revision: 30
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,18 +82,16 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    ISMR-01 is complete as HC-DU-079. The exact labeled tilted-CHSH law,
-    encoded as one indivisible-stochastic transition matrix, does not fix
-    target-factor modular data across Barandes's admitted Schur-Hadamard
-    gauge. One exact phase family leaves every transition probability fixed
-    while changing the reduced modular ratio relative to a supplied output
-    factor from 3+2sqrt(2) to 3. Quantum-local tilted-CHSH self-testing
-    retains the HC-DU-078 conditional positive only after the party/factor
-    and realization class are supplied. Base-time transitions remain
-    multi-time incomplete, and a division event is not record formation or
-    finality. No current antecedent selects the missing physical interface,
-    gauge, complete process, calibration, or held-out transfer. No scientific
-    successor or executable action is selected.
+    ISMR-01 remains complete as HC-DU-079. A whole-repository planning
+    reassessment now ranks an objective-collapse primitive-event/matter
+    process audit as the first prepared candidate for a future authorization:
+    unlike another representation or memory host, it may change the missing
+    physical-occurrence antecedent. The five-position campaign is scaffolded
+    in explorations/next-five-swing-objective-collapse-event-to-certified-record-campaign-scaffold-2026-07-28.md.
+    This is a planning priority, not evidence that collapse models are true,
+    that a collapse law selects its primitive ontology, or that flashes are
+    retained records. No scientific successor or executable action is
+    selected; the repository remains quiescent until an explicit transition.
 
 programs:
   - id: CCR-INDIVISIBLE-STOCHASTIC-MODULAR-RIGIDITY-GATE
@@ -602,6 +600,7 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - objective-collapse-primitive-event-or-matter-process-to-certified-record
     - physically-selected-stochastic-quantum-gauge-and-local-factor-with-held-out-transfer
     - physically-formed-self-testing-interface-with-calibrated-held-out-transfer
     - physically-selected-modular-algebra-state-inclusion-with-calibrated-time
@@ -618,16 +617,17 @@ successor_selection:
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
-    No current candidate closes a fresh prerequisite. Select a successor only
-    when new physical work independently fixes and forms the intervention
-    ports, settings, separation/access contract, observable carrier or
-    access-preserving factorization, faithful state or state class, any
-    claimed calibration/inclusion structure, retained provenance and bounded
-    resources, and one held-out consequence; or when another whole-repository
-    question supplies a genuinely unbanked discriminator. A bare indivisible
-    transition object, self-tested target under supplied ports, commutative
-    ledger state, bare Hilbert factor, target-derived profile, or shadow
-    plurality is insufficient.
+    No scientific successor is executable. The first prepared candidate is
+    the bounded objective-collapse antecedent/primitive-ontology gate because
+    it may change one missing prerequisite by supplying a physical occurrence
+    or matter process. A later authorization must still distinguish collapse
+    law, primitive ontology, occurrence history, retained record, observer
+    access, certificate, and held-out target. Select a successor only after
+    that gate or another new physical work item independently changes a
+    prerequisite. A bare indivisible transition object, self-tested target
+    under supplied ports, commutative ledger state, bare Hilbert factor,
+    target-derived profile, classical-shadow plurality, collapse trajectory,
+    or unretained flash history is insufficient.
 
 anomaly_intake:
   status: open_non_wip
