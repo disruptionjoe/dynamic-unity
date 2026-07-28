@@ -2339,6 +2339,22 @@ prediction promotion occurs.
   decoder, archive, and observer remain supplied, so `H-CCR-17` does not
   reopen. See
   `stabilizer-syndrome-formation-transfer-and-channel-state-resource-non-unification-2026-07-27.md`.
+- **2026-07-27 pairwise-shadow formation no-go.** `HC-DU-067` proves that an
+  action-confusability graph aggregated across alternative interventions can
+  erase the joint-interface structure it is meant to assess. One-use
+  unassisted Pauli discrimination gives every edge of \(K_4\), with each
+  pair witnessed by a suitable input, while dimensionality excludes every
+  jointly formable triple. A complete repetition-code syndrome interface
+  gives the same \(K_4\) and a full tetrahedral joint-realizability complex.
+
+  For one fixed interface, pairwise orthogonality remains sufficient. The
+  failure is the swap from “every pair has some interface” to “one interface
+  handles every pair.” The first flag-defect order and a repeatable-test
+  pair-separation cover are exact contract-relative diagnostics, but neither
+  is a universal physical cost or interface selector. The result closes the
+  graph-only `IT-A` route and confirms the existing Admissible Record
+  Envelope as the necessary higher-order object. See
+  `action-confusability-graph-no-go-and-higher-order-formation-profile-2026-07-27.md`.
 - **Controls and global kill conditions.**
   - Merely renaming a causal site, algebraic net, sheaf, protocol layer, or
     process tensor adds no concept-specific result.

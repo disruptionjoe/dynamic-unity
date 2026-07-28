@@ -858,6 +858,17 @@ a shared physical mechanism. It discharges the table row's second-arena
 reopener; the remaining reopener is physical interface selection or a
 quantitative invariant beyond ordinary support discrimination.
 
+**Pairwise-shadow correction.** `HC-DU-067` closes the graph-only version of
+the proposed action-confusability route. Under one unassisted use, every pair
+of Pauli channels has a pair-specific perfect discriminator, so the
+aggregate graph is \(K_4\); nevertheless no triple fits into one qubit output
+space. A complete repetition-code syndrome has the same \(K_4\) shadow and a
+full four-label interface. Agents must retain witness-interface labels or
+the full resource-indexed joint-realizability complex. A fixed-interface
+graph remains sufficient for its own orthogonal output family. The
+contract-relative flag-defect and test-cover numbers are diagnostics, not
+new physics or universal information costs.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

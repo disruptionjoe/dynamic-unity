@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 15
+state_revision: 16
 as_of: '2026-07-27'
 authority: >-
   Joe direct chat through 2026-07-27, including explicit authorizations
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-064--066 derive a non-chain record lattice, separate formation
-    profile, and exact stabilizer transfer. Native receipts differ; supplied
-    protocols select no interface. H-CCR-17 stays closed; no successor.
+    HC-DU-064--067 derive non-chain closure, separate formation, transfer it,
+    and prove pairwise aggregation loses joint-interface structure. Supplied
+    protocols select none; H-CCR-17 stays closed; no successor.
 
 programs:
   - id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
@@ -104,12 +104,12 @@ programs:
       - CH-FORMAL
       - CH-COLLIDE
     target: >-
-      Completed: derive closed record requirements, formation profiles, and
-      one unchanged physical-arena transfer.
+      Completed: derive closed record requirements, formation profiles,
+      transfer, and the pairwise-shadow no-go.
     current_grade: >-
-      HC-DU-064--066: scoped Grade-4 closure, formation separation, Pauli
-      frontier, stabilizer transfer, and resource non-unification. Components
-      are absorbed; protocols are supplied.
+      HC-DU-064--067: scoped Grade-4 closure, formation, transfer,
+      resource non-unification, and aggregate-graph insufficiency. Components
+      are absorbed; interfaces are supplied.
     evidence_grade: 4
     maximum_grade: >-
       Complete at scoped necessity; no endogenous selection or new physics.
@@ -117,6 +117,8 @@ programs:
     premise_status: >-
       Frozen process, query, horizon, and resources; preferred foliation off.
     completed_dependencies:
+      - id: HC-DU-067
+        evidence_ref: explorations/action-confusability-graph-no-go-and-higher-order-formation-profile-2026-07-27.md
       - id: HC-DU-066
         evidence_ref: explorations/stabilizer-syndrome-formation-transfer-and-channel-state-resource-non-unification-2026-07-27.md
       - id: HC-DU-065
@@ -132,22 +134,23 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Formal-concept closure, the Admissible Record Envelope, channel
-      discrimination, stabilizer QEC, and perfect support discrimination.
+      Formal-concept closure, ARE, channel/zero-error discrimination,
+      stabilizer QEC, perfect support discrimination, and set cover.
     cheapest_kill: >-
-      Passed: the same M3 transfers, but Pauli and QEC tops require different
-      output-support and resource architectures.
+      Fired: Pauli and QEC both aggregate to K4, while only QEC has a common
+      four-label interface; the required higher object is the existing ARE.
     stop_rule: >-
-      Do not infer formation from closure, scalarize receipts, equate one
-      error occurrence with one channel use, or call supplied checks selected.
+      Do not infer joint formation from closure or pairwise edges, scalarize
+      receipts, equate occurrence with channel use, or call checks selected.
     reopen_rule: >-
-      Reopen for dynamics selecting the complete interface, or a quantitative
-      cross-arena invariant beyond ordinary orthogonal-support discrimination.
+      Reopen for dynamics selecting the complete interface, or an observable
+      law tied to higher-order formation after fixing resources independently.
     local_computation_boundary: >-
       Exact proofs complete; no model or hardware is authorized.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
+      - explorations/action-confusability-graph-no-go-and-higher-order-formation-profile-2026-07-27.md
       - explorations/stabilizer-syndrome-formation-transfer-and-channel-state-resource-non-unification-2026-07-27.md
       - explorations/capability-record-closure-formation-profile-and-pauli-resource-frontier-2026-07-27.md
       - explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
