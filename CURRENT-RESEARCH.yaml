@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 27
+state_revision: 28
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28, including explicit authorizations
@@ -82,21 +82,107 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    MTR-01 is complete as HC-DU-077. Every faithful state on a commutative
-    record algebra is tracial, so its intrinsic modular automorphism group is
-    trivial. The exact qubit witness gives two faithful ambient states with
-    identical complete classical-record restrictions and different ambient
-    modular flows. Nontrivial modular reconstruction therefore requires a
-    selected noncommutative algebra and faithful state; physical time further
-    requires calibration or a dynamical identification, while geometric
-    reconstruction requires inclusion/net structure and modular-position
-    conditions. Bisognano--Wichmann and modular-inclusion theorems are strong
-    conditional positives, not record-first derivations of their supplied
-    algebra, state, region, or access antecedents. No current arena also
-    closes formation, provenance, bounded access, and held-out transfer. No
-    scientific successor or executable action is selected.
+    DIMR-01 is complete as HC-DU-078. Under the standard quantum Bell
+    contract, an exact labeled tilted-CHSH law self-tests an extracted
+    noncommutative qubit factor and faithful nontracial target state, fixing
+    target-factor modular data up to local isometry and auxiliary degrees.
+    Erasing the settings admits an exactly same-output setting-independent
+    classical source. Thus intervention-conditioned classical records can
+    reconstruct quantum structure that a static commutative ledger cannot,
+    but the setting/separation interface, formation, ambient algebra, clock
+    calibration, geometry, and access remain supplied. No current arena
+    closes those physical antecedents and held-out transfer. No scientific
+    successor or executable action is selected.
 
 programs:
+  - id: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
+    kind: flagship
+    owner_repo: dynamic-unity
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
+    primary_lane_id: '1'
+    supporting_lane_ids:
+      - '3'
+      - '4'
+      - '6'
+      - '7'
+    channel_ids:
+      - CH-FORMAL
+      - CH-SYN
+      - CH-COLLIDE
+      - CH-MODEL
+    target: >-
+      Completed: determine whether intervention-labeled classical Bell
+      records can reconstruct the noncommutative factor and state required by
+      HC-DU-077, and identify the exact loss under setting erasure.
+    current_grade: >-
+      HC-DU-078 BANKS A CONDITIONAL GRADE-3 SELF-TESTED TARGET-FACTOR
+      RECONSTRUCTION AND A SCOPED GRADE-4 CONTEXT-ERASURE NECESSITY RESULT.
+      TILTED-CHSH, SELF-TESTING, AND FINITE MODULAR MATHEMATICS ABSORB THE
+      COMPONENTS. NO PHYSICAL INTERFACE, TIME, GEOMETRY, OR NEW LAW IS
+      SELECTED.
+    evidence_grade: 4
+    maximum_grade: >-
+      THE COMPLETED GATE CANNOT PROMOTE BEYOND ITS SCOPED RESULT. A
+      PHYSICALLY FORMED AND SELECTED SETTING/SEPARATION INTERFACE WITH
+      CALIBRATION AND HELD-OUT TEMPORAL OR GEOMETRIC TRANSFER RETAINS AN
+      INDEPENDENT GRADE-5 CEILING.
+    maximum_evidence_grade: 4
+    premise_status: >-
+      Assumption-neutral about ontology and foliation; conditional on the
+      standard quantum Bell/self-testing model. Ports, settings, separation,
+      acquisition, formation, ambient algebra, calibration, and targets
+      remain separately typed.
+    completed_dependencies:
+      - id: HC-DU-078
+        evidence_ref: explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
+      - id: HC-DU-077
+        evidence_ref: explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
+      - id: HC-DU-076
+        evidence_ref: explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
+    remaining_obligations: []
+    typed_dependencies:
+      - type: requires
+        target: HC-DU-077
+        target_type: result
+      - type: tests
+        target: SELF-TESTED-TARGET-MODULAR-DATA
+        target_type: requirement
+      - type: does_not_block
+        target: DU-PAPER-013-HARDENING
+        target_type: program
+    strongest_absorber: >-
+      Confirmed: tilted-CHSH self-testing reconstructs the target state and
+      tested observables up to local isometry and junk. It does not select the
+      physical ports, acquisition, record formation, ambient algebra, or
+      calibrated time.
+    cheapest_kill: >-
+      The positive route survives under the standard exact self-testing
+      contract. The unlabeled route is killed exactly: a setting-independent
+      classical process has the identical pooled outcome law.
+    stop_rule: >-
+      Satisfied. Do not call unlabeled outcomes self-testing data, treat
+      device independence as assumption-free, infer ambient flow or physical
+      interface selection, identify modular parameter with proper time, or
+      repeat larger Bell fixtures without a selected interface and held-out
+      consequence.
+    reopen_rule: >-
+      Reopen only when one physical antecedent independently selects or forms
+      the settings and separation interface, retains provenance and bounded
+      access, and the same no-refit transcript transfers through calibrated
+      modular data to a held-out temporal or geometric consequence.
+    local_computation_boundary: >-
+      One exact two-qubit correlation and erasure certificate completes the
+      local boundary. Finite-shot simulation and hardware are unwarranted.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
+      - explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
+      - explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
+      - docs/quantum-foundations-orientation-surface.md
+
   - id: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
     kind: flagship
     owner_repo: dynamic-unity
@@ -292,100 +378,6 @@ programs:
       - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
       - explorations/central-record-interface-selection-theorem-and-no-go-2026-07-24.md
 
-  - id: CCR-QUANTUM-OUTPUT-RECORD-GATE
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '3'
-    supporting_lane_ids:
-      - '1'
-      - '4'
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-SYN
-      - CH-COLLIDE
-    target: >-
-      Completed: distinguish a retained quantum output carrier from its
-      downstream classical shadows, define access-preserving output
-      equivalence, and classify the HC-DU-074 gravitational input--output
-      source without requiring dynamics to choose an observer's later
-      question.
-    current_grade: >-
-      HC-DU-075 BANKS A SCOPED GRADE-4 CARRIER/SHADOW SEPARATION,
-      ACCESS-PRESERVING COMPLEMENT CRITERION, EXACT ACCESS-RELOCATION
-      OBSTRUCTION, AND CORR-DU-074-1. STANDARD CHANNEL AND MEASUREMENT
-      MATHEMATICS ABSORB THE COMPONENTS. THE GRAVITATIONAL SOURCE REMAINS
-      GRADE-2 REPRESENTATION/CONDITIONAL CONSTRUCTION.
-    evidence_grade: 4
-    maximum_grade: >-
-      THE COMPLETED GATE CANNOT PROMOTE BEYOND ITS SCOPED TYPE RESULT. A
-      PHYSICALLY SELECTED CARRIER, RETAINED ACCESS, AND HELD-OUT
-      RECONSTRUCTION CONSEQUENCE RETAIN AN INDEPENDENT GRADE-5 CEILING.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Assumption-neutral. The reduced dynamics, physical dilation, quantum
-      output, retention, access actions, classical shadows, resources, and
-      target remain separately typed.
-    completed_dependencies:
-      - id: HC-DU-075
-        evidence_ref: explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md
-      - id: CORR-DU-074-1
-        evidence_ref: explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md
-      - id: HC-DU-074
-        evidence_ref: explorations/physical-antecedent-admission-tournament-and-unravelling-boundary-2026-07-28.md
-      - id: HC-DU-063
-        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - id: HC-DU-033F
-        evidence_ref: explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: requires
-        target: HC-DU-074
-        target_type: result
-      - type: tests
-        target: PHYSICALLY-FORMED-QUANTUM-OUTPUT-RECORD
-        target_type: requirement
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
-    strongest_absorber: >-
-      Confirmed: Stinespring uniqueness and complementary channels absorb the
-      information-class mathematics; quantum measurement, filtering, and
-      trajectory theory absorb classical-shadow plurality. They do not
-      transport physical access, retention, or provenance automatically.
-    cheapest_kill: >-
-      Met. The exact erasure fixture has one reduced channel and
-      swap-equivalent full complements but perfect versus chance decoding at
-      a fixed access port. The gravitational source constructs a model-level
-      dilation but supplies no independent physical detector carrier,
-      bounded retained archive, or observer access boundary.
-    stop_rule: >-
-      Satisfied. Do not call an abstract complement an archive, infer carrier
-      nonselection from classical-shadow plurality, require a law to choose a
-      later question, target-fit a measurement, infer collapse or ontology,
-      use hardware, or repeat this gate in another representation.
-    reopen_rule: >-
-      Reopen only with a theory or implementation that independently fixes
-      the actual source-to-output carrier, localized formation and blank
-      condition, retained provenance over a finite horizon, bounded observer
-      access/resources, and a target-independent action menu with one
-      held-out capability or reconstruction consequence.
-    local_computation_boundary: >-
-      One exact finite amplitude-damping and access-relocation certificate
-      completes the proof boundary. No simulation or hardware is warranted.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/quantum-output-carrier-classical-shadow-and-access-relocation-2026-07-28.md
-      - explorations/post-hc074-priority-reassessment-and-quantum-output-record-gate-2026-07-28.md
-      - explorations/physical-antecedent-admission-tournament-and-unravelling-boundary-2026-07-28.md
-      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - explorations/antecedent-relative-physical-are-selector-and-minimum-premise-theorem-2026-07-26.md
-      - explorations/completion-common-record-quotient-and-two-tier-capability-leak-2026-07-27.md
-
   - id: DU-PAPER-013-HARDENING
     kind: publication
     owner_repo: dynamic-unity
@@ -437,7 +429,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
+        target: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -515,7 +507,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
+        target: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -584,7 +576,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
+        target: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
@@ -613,6 +605,7 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - physically-formed-self-testing-interface-with-calibrated-held-out-transfer
     - physically-selected-modular-algebra-state-inclusion-with-calibrated-time
     - physically-selected-observable-carrier-algebra-with-access-preserving-factorization
     - physically-selected-access-preserving-quantum-output-carrier
@@ -628,14 +621,14 @@ successor_selection:
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
     No current candidate closes a fresh prerequisite. Select a successor only
-    when new physical work independently fixes an observable carrier algebra
-    or access-preserving factorization, a faithful state or state class and
-    any claimed inclusion/calibration structure, actual source-to-carrier
-    formation, retained provenance, bounded access/resources, and one
-    held-out consequence; or when another whole-repository question supplies
-    a genuinely unbanked discriminator. A commutative record state, bare
-    Hilbert factor, target-derived invariant profile, or classical-shadow
-    plurality is insufficient.
+    when new physical work independently fixes and forms the intervention
+    ports, settings, separation/access contract, observable carrier or
+    access-preserving factorization, faithful state or state class, any
+    claimed calibration/inclusion structure, retained provenance and bounded
+    resources, and one held-out consequence; or when another whole-repository
+    question supplies a genuinely unbanked discriminator. A self-tested
+    target under supplied ports, commutative ledger state, bare Hilbert
+    factor, target-derived profile, or shadow plurality is insufficient.
 
 anomaly_intake:
   status: open_non_wip

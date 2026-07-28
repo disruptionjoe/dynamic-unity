@@ -138,6 +138,40 @@ same-record/different-ambient-flow certificate. It does not select a physical
 state, Type-III algebra, proper-time calibration, geometry, formed record,
 ontology, or new law.
 
+## Self-tested modular reconstruction gate
+
+`du_self_tested_modular_reconstruction_probe.py` executes the exact finite
+controls for `HC-DU-078`:
+
+- the \(\theta=\pi/8\) tilted-CHSH strategy attains
+  \(4\sqrt6/3\), its exact quantum maximum;
+- under the standard self-testing theorem, the labeled conditional law
+  certifies an extracted noncommutative qubit factor and the faithful
+  nontracial local state
+  \(\operatorname{diag}((2+\sqrt2)/4,(2-\sqrt2)/4)\);
+- the resulting target-factor modular eigenvalue ratio is
+  \(3+2\sqrt2\);
+- erasing the setting labels admits a setting-independent classical source
+  with exactly the same pooled output distribution;
+- retaining the labels separates the quantum and classical conditional laws;
+  and
+- maximal ordinary CHSH is the null control: it certifies noncommuting Pauli
+  structure while its local reduced state is tracial and modularly silent.
+
+Run:
+
+```bash
+python3 tests/du_self_tested_modular_reconstruction_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_self_tested_modular_reconstruction_result.json` and reports
+`23/23`. Passing establishes the exact two-qubit arithmetic and
+context-erasure counterexample only. The self-testing implication comes from
+the cited theorem. The probe does not select physical ports, separation,
+settings, measurement independence, acquisition, record formation, ambient
+modular flow, proper-time calibration, geometry, ontology, or new physics.
+
 All pre-recharter probes and deterministic artifacts remain regression
 evidence for their exact scoped findings. They are antecedents and benchmark
 fixtures, not evidence that Certified Causal Reality, record-first ontology,

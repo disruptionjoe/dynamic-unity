@@ -966,6 +966,22 @@ typed QFT wedge algebra and vacuum; it does not derive those antecedents from
 records. See the
 [modular-time gate](../explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md).
 
+**Self-tested modular reconstruction (`HC-DU-078`).** The commutative-silence
+result is a boundary on a static ledger, not a ban on reconstructing quantum
+structure from classical evidence. Under the standard quantum Bell contract,
+an intervention-labeled tilted-CHSH correlation can self-test an extracted
+noncommutative qubit factor and a faithful nontracial target state. At
+\(\theta=\pi/8\), the certified local eigenvalue ratio is
+\(3+2\sqrt2\), so the target factor has nontrivial modular data. If the setting
+labels are erased, however, a setting-independent classical source has the
+identical pooled output law. Settings, party/separation semantics, and the
+conditional structure are load-bearing. They remain supplied physical
+interface antecedents, and self-testing does not select record formation,
+ambient algebra, proper-time calibration, geometry, or ontology. Maximal
+ordinary CHSH is the useful null: it certifies noncommutativity while the
+local state is tracial and modularly silent. See the
+[self-testing gate](../explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md).
+
 ## Candidate Dynamic Unity delta families
 
 The current opportunities cluster into a small number of possible

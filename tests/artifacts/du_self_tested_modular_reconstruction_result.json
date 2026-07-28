@@ -1,0 +1,41 @@
+{
+  "claim_id": "HC-DU-078",
+  "status": "PASS",
+  "checks_passed": 23,
+  "checks_total": 23,
+  "failures": [],
+  "exact_fixture": {
+    "theta": "pi/8",
+    "alpha": "2/sqrt(3)",
+    "cos_mu": "sqrt(2/3)",
+    "sin_mu": "1/sqrt(3)",
+    "quantum_maximum": "4*sqrt(6)/3",
+    "classical_bound": "2 + 2/sqrt(3)",
+    "local_state": "diag((2+sqrt(2))/4,(2-sqrt(2))/4)",
+    "modular_eigenvalue_ratio": "3 + 2*sqrt(2)"
+  },
+  "numeric_certificate": {
+    "tilted_quantum_score": 3.265986323710904,
+    "tilted_quantum_maximum": 3.265986323710904,
+    "tilted_classical_bound": 3.1547005383792515,
+    "setting_erased_control_score": 1.224744871391589,
+    "labeled_law_max_distance": 0.29251249288024994,
+    "unlabeled_law_max_distance": 0.0,
+    "local_modular_eigenvalue_ratio": 5.82842712474619,
+    "local_modular_phase_real": -0.1907742746372594,
+    "local_modular_phase_imag": 0.9816339318384565,
+    "max_no_signalling_error": 1.1102230246251565e-16
+  },
+  "interpretation": {
+    "positive": "Under the standard quantum Bell/self-testing contract, the labeled maximal tilted-CHSH law certifies a target noncommutative factor and faithful nontracial target state up to local isometry and auxiliary degrees of freedom.",
+    "hostile": "After setting erasure, a setting-independent classical source reproduces the complete pooled outcome law exactly.",
+    "null": "Maximal ordinary CHSH certifies noncommutative Pauli structure while the extracted local state is tracial and has trivial local modular flow.",
+    "not_established": [
+      "physical selection of settings or subsystem separation",
+      "measurement independence or implementation-complete acquisition",
+      "record formation, provenance, retention, or observer access",
+      "ambient modular flow outside the extracted target factor",
+      "proper-time calibration, geometry, ontology, or new physics"
+    ]
+  }
+}

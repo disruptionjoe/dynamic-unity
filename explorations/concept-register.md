@@ -3294,6 +3294,45 @@ records. Formed provenance, bounded access, and held-out transfer remain
 separate. See
 `commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md`.
 
+### 2026-07-28 self-tested modular reconstruction gate
+
+`HC-DU-078` corrects the strongest possible overreading of `HC-DU-077`.
+Classical records are not limited to one static commutative ledger state.
+Under the standard quantum Bell contract, a complete intervention-labeled
+conditional law can self-test an extracted noncommutative factor and target
+state up to local isometry and auxiliary degrees.
+
+For the exact tilted-CHSH point \(\theta=\pi/8\), the labeled correlations
+certify the target local state
+
+\[
+\rho_A
+=
+\operatorname{diag}
+\left(
+\frac{2+\sqrt2}{4},
+\frac{2-\sqrt2}{4}
+\right),
+\]
+
+whose modular eigenvalue ratio is \(3+2\sqrt2\). This conditionally closes
+the algebra--state-to-target-modular-data step for the extracted factor.
+
+The context-erasure theorem is the hostile boundary. After settings are
+forgotten, a setting-independent local classical source reproduces exactly
+the same pooled output distribution. The self-tested quantum structure lives
+in the conditional relations among settings and outcomes, not in the
+outcome values alone. Maximal ordinary CHSH supplies a second boundary:
+noncommutative Pauli structure can be certified while the local reduced state
+is tracial and its modular flow trivial.
+
+The settings, party/separation contract, quantum realization class,
+acquisition, and occurrence identity remain supplied. Self-testing does not
+select the physical interface, full ambient algebra, record formation,
+provenance, bounded access, clock calibration, modular inclusion, geometry,
+or ontology. See
+`self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
