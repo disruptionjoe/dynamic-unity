@@ -1,9 +1,9 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 16
-as_of: '2026-07-27'
+state_revision: 17
+as_of: '2026-07-28'
 authority: >-
-  Joe direct chat through 2026-07-27, including explicit authorizations
+  Joe direct chat through 2026-07-28, including explicit authorizations
   recorded in the governed run receipts.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
@@ -82,11 +82,105 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-064--067 derive non-chain closure, separate formation, transfer it,
-    and prove pairwise aggregation loses joint-interface structure. Supplied
-    protocols select none; H-CCR-17 stays closed; no successor.
+    HC-DU-068 finds partial physical typing in finite-time infrared memory:
+    gauge dynamics forms a soft carrier and rotational symmetry conditionally
+    selects one dressing component, but the finite operational detector,
+    resolution/access quotient, archive, actions, and held-out hard target
+    remain supplied or absent. The exact reopener does not fire; H-CCR-17
+    stays closed and no successor is selected.
 
 programs:
+  - id: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
+    kind: flagship
+    owner_repo: dynamic-unity
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
+    primary_lane_id: '3'
+    supporting_lane_ids:
+      - '1'
+      - '4'
+      - '6'
+      - '7'
+    channel_ids:
+      - CH-SYN
+      - CH-FORMAL
+      - CH-COLLIDE
+    target: >-
+      Completed: determine whether the 2026 finite-time and
+      detector-resolution infrared-memory results physically select a finite
+      observer-accessible typed record and leave an independently held-out
+      hard-process target.
+    current_grade: >-
+      HC-DU-068 BANKS A SCOPED GRADE-4 REOPENER DISPOSITION AND GRADE-3
+      PARTIAL-PHYSICAL-TYPING CLASSIFICATION. QED/PERTURBATIVE-GRAVITY
+      DYNAMICS FORMS A SOFT MEMORY CARRIER AND CONDITIONALLY SELECTS A
+      DRESSING COMPONENT, BUT THE FINITE OPERATIONAL RECORD INTERFACE,
+      ACCESS QUOTIENT, AND INVERSE TARGET REMAIN SUPPLIED OR ABSENT.
+    evidence_grade: 4
+    maximum_grade: >-
+      THE COMPLETED AUDIT CANNOT PROMOTE BEYOND ITS SCOPED NON-ADMISSION AND
+      PARTIAL-SELECTION RESULT. A FUTURE FINITE REALIZATION OR RECONSTRUCTION
+      THEOREM RETAINS ITS OWN INDEPENDENT MAXIMUM GRADE.
+    maximum_evidence_grade: 4
+    premise_status: >-
+      Frozen to massive scalar QED, a massive scalar coupled to perturbative
+      gravity, and the free-scalar local-QFT realizability source. No
+      detector, frame, resolution, observer, archive, action class, target, or
+      finality rule was fitted into the physical antecedent.
+    completed_dependencies:
+      - id: HC-DU-068
+        evidence_ref: explorations/finite-time-infrared-memory-typed-record-reopener-audit-2026-07-28.md
+      - id: HC-DU-063
+        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - id: IR-MEMORY-PARKED-REOPENER
+        evidence_ref: explorations/physical-arena-selection-tournament-2026-07-26.md
+    remaining_obligations: []
+    typed_dependencies:
+      - type: requires
+        target: HC-DU-063
+        target_type: result
+      - type: tests
+        target: FINITE-TIME-IR-MEMORY-REOPENER
+        target_type: requirement
+      - type: tests
+        target: H-CCR-17
+        target_type: requirement
+      - type: does_not_block
+        target: DU-PAPER-013-HARDENING
+        target_type: program
+    strongest_absorber: >-
+      Infrared-safe scattering, asymptotic symmetry and memory,
+      detector-relative coarse graining, AQFT measurement realizability, and
+      HC-DU-033F/054/063 absorb the components while separating a formed
+      carrier from a selected operational record.
+    cheapest_kill: >-
+      Met: the named finite-time detector still couples zero-frequency,
+      null-infinity, and infinite-time limits; finite resolution is a
+      detector parameter; and no independently held-out inverse target is
+      frozen.
+    stop_rule: >-
+      Satisfied. Do not infer bounded observer access from retained time
+      dependence, call a soft cloud or asymptotic memory a certified record,
+      treat a realizable supplied instrument as selected, build an infrared
+      toy, or activate the proposed follow-on swings.
+    reopen_rule: >-
+      Reopen only with a finite detector worldtube/window/resolution and
+      explicit local-QFT realization, an independent selector or naturality
+      theorem for its access quotient, blank-to-written provenance, and a
+      nonempty physical fibre with a genuinely held-out target showing
+      record-conditioned contraction or an exact remainder.
+    local_computation_boundary: >-
+      Completed by primary-source, limit, and factorization analysis. No model
+      or external hardware was needed and none is authorized by the result.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - explorations/finite-time-infrared-memory-typed-record-reopener-audit-2026-07-28.md
+      - explorations/physical-arena-selection-tournament-2026-07-26.md
+      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - docs/quantum-foundations-orientation-surface.md
+
   - id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
     kind: flagship
     owner_repo: dynamic-unity
@@ -338,121 +432,6 @@ programs:
       - explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
       - docs/quantum-foundations-orientation-surface.md
 
-  - id: CCR-NORTH-STAR-PORTFOLIO-RESET
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '1'
-    supporting_lane_ids:
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
-      - A
-    channel_ids:
-      - CH-SYN
-      - CH-FORMAL
-      - CH-COLLIDE
-    target: >-
-      Completed: compile the strongest finite consequence of HC-DU-058/059,
-      apply the corrected object-query architecture to the whole live
-      portfolio, and return NO_READY_SCIENTIFIC_SUCCESSOR when no exact
-      reopener fired.
-    current_grade: >-
-      HC-DU-060 BANKS THE SCOPED GRADE-4 CONSEQUENCE. Reconstruction is
-      constancy on target-relative operational-quotient fibres. Named-field
-      minimality is presentation-dependent; target and adjudication queries
-      remain external; interface selection and target sufficiency do not imply
-      one another. The component mathematics is fully absorbed. No candidate
-      inside that branch-safe sequence fired its physical reopener or supplied
-      a finite discriminator; CORR-DU-060-1 prevents that scoped return from
-      being read as whole-repository exhaustion.
-    evidence_grade: 4
-    maximum_grade: >-
-      POSITION 5 IS A CONSEQUENCE/PRIORITY RESULT AND CANNOT PROMOTE SCIENCE.
-      HC-DU-059 remains the current grade-4 ceiling. Any activated successor
-      retains its own independent maximum grade, absorber, and falsifier.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Assumption-neutral. Preferred foliation is off in Dynamic Unity and
-      dedicated exploration now belongs to Time as Finality as nonblocking
-      awareness only. The reset must preserve the fixed
-      completion/gauge/representation/occurrence contract and must not treat
-      the compressed schema as new physics.
-    completed_dependencies:
-      - id: CORR-DU-060-1
-        evidence_ref: explorations/hc-du-060-portfolio-scope-correction-2026-07-27.md
-      - id: HC-DU-060
-        evidence_ref: explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md
-      - id: HC-DU-059
-        evidence_ref: explorations/presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md
-      - id: HC-DU-058
-        evidence_ref: explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
-      - id: N5-CCR-BS-P2
-        evidence_ref: explorations/reopener-gated-successor-tournament-and-kernel-minimality-selection-2026-07-27.md
-      - id: HC-DU-055
-        evidence_ref: explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
-      - id: HC-DU-056
-        evidence_ref: explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
-      - id: HC-DU-057
-        evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
-      - id: HC-DU-054
-        evidence_ref: explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: requires
-        target: HC-DU-059
-        target_type: result
-      - type: requires
-        target: HC-DU-058
-        target_type: result
-      - type: requires
-        target: N5-CCR-BS-P2
-        target_type: result
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
-      - type: does_not_block
-        target: COVARIANT-FINALITY-DYNAMICS
-        target_type: program
-    strongest_absorber: >-
-      The reset merely renames the same fibre-factorization and
-      interface-selection gaps, or narrative momentum activates a dramatic
-      branch whose missing physical premise and strongest absorber are
-      unchanged.
-    cheapest_kill: >-
-      Met: no candidate has a fired reopener and a locally decidable,
-      unabsorbed proposition capable of changing a North-Star dependency.
-    stop_rule: >-
-      Satisfied. Do not build a new host, promote a paper into scientific
-      priority, reopen a branch whose exact reopener did not fire, or create a
-      standing discovery lane merely to fill the empty WIP slot.
-    reopen_rule: >-
-      A later scientific program must be authorized from new evidence that
-      satisfies an existing exact reopener, or from a new bounded contract
-      naming the dependency it can change, strongest absorber, cheapest kill,
-      maximum grade, and local first-learning point.
-    local_computation_boundary: >-
-      Document-level consequence compiler and hard-gate portfolio comparison
-      only. No simulation, scaling, new literature campaign, hardware,
-      provider, or external collaboration is needed.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/branch-invariant-operational-quotient-and-no-ready-successor-2026-07-27.md
-      - explorations/presentation-invariant-operational-kernel-and-query-separation-2026-07-27.md
-      - explorations/reopener-gated-successor-tournament-and-kernel-minimality-selection-2026-07-27.md
-      - explorations/preferred-leaf-descent-and-branch-invariant-certified-causal-reality-kernel-2026-07-27.md
-      - explorations/next-five-swing-branch-safe-knowledge-sequence-2026-07-27.md
-      - explorations/cross-arena-dynamic-sufficiency-and-formation-non-unification-2026-07-27.md
-      - explorations/conservative-certification-physical-boundary-factorization-and-control-quotient-2026-07-27.md
-      - explorations/feedback-boundary-response-equivalence-selection-and-capability-refinement-2026-07-27.md
-      - docs/certified-causal-reality-research-program.md
-
   - id: DU-PAPER-013-HARDENING
     kind: publication
     owner_repo: dynamic-unity
@@ -504,7 +483,7 @@ programs:
         target_type: external_work
         owner_repo: drafting-factory
       - type: does_not_block
-        target: CCR-NORTH-STAR-PORTFOLIO-RESET
+        target: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
         target_type: program
     cheapest_kill: >-
       Find a proof gap or exact prior-art result covering the same
@@ -582,7 +561,7 @@ programs:
         target: PRED-DU-002
         target_type: prediction
       - type: does_not_block
-        target: CCR-NORTH-STAR-PORTFOLIO-RESET
+        target: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
         target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
@@ -651,7 +630,7 @@ programs:
         target_type: external_work
         owner_repo: gu-formalization
       - type: does_not_block
-        target: CCR-NORTH-STAR-PORTFOLIO-RESET
+        target: CCR-FINITE-TIME-IR-MEMORY-SELECTOR
         target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
@@ -680,6 +659,7 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
+    - finite-operational-infrared-memory-interface-selector
     - physical-formation-lift-of-closed-capability-record-pair
     - new-physical-formed-interface-selector
     - explicit-non-source-absorbable-post-einstein-law-filter
@@ -687,8 +667,9 @@ successor_selection:
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
     Do not reactivate closed gates without their exact reopeners. A successor
-    must physically form a closed pair, supply a nonabsorbed law filter, or
-    pose a fresh locally decidable proposition.
+    must physically form a closed pair, supply a finite natural infrared
+    interface, provide a nonabsorbed law filter, or pose a fresh locally
+    decidable proposition.
 
 anomaly_intake:
   status: open_non_wip

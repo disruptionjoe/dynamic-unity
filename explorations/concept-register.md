@@ -2969,6 +2969,36 @@ holonomy, and transfer positions are not automatically activated. The return
 is `NO_READY_MECHANISM_FROM_FROZEN_THREE_CLASS_GATE`. See
 `autonomous-finality-three-mechanism-selection-gate-result-2026-07-27.md`.
 
+### 2026-07-28 finite-time infrared-memory partial typing
+
+`HC-DU-068` audits the 2026 finite-time Faddeev--Kulish, detector-resolution,
+and local-QFT realizability results against DU's parked infrared reopener.
+Gauge dynamics forms a genuine soft memory carrier. Within a supplied
+constant-time/asymptotic frame, retained time dependence and rotational
+symmetry conditionally select the gauge-fixing component of the dressing.
+
+The operational record still does not descend from the physical antecedent.
+The named finite-time detector couples \(L\to\infty\),
+\(\omega_0\to0\), and \(t\to\infty\); detector resolution labels a physical
+family of hard/soft quotients rather than being selected by QED; and
+local-QFT realizability constrains supplied instruments without choosing one.
+No bounded detector worldtube, provenance-bearing write, observer action
+class, nonempty inverse fibre, or held-out hard-process target is supplied.
+
+The durable distinction is:
+
+```text
+formed physical memory carrier
+  != conditionally selected dressing
+  != finite operational record interface
+  != held-out target reconstruction.
+```
+
+The disposition is `PARTIAL_PHYSICAL_TYPING`. The scientific reopener does
+not fire, the four conditional follow-ons remain inactive, and no local model
+or external hardware is warranted. See
+`finite-time-infrared-memory-typed-record-reopener-audit-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

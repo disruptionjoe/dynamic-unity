@@ -236,7 +236,7 @@ prioritizing a QFT-facing proposal:
 |---|---|---|---|
 | Local-factor center | A finite internal sharp PVM preserves a full factor algebra only when it is trivial | Externalize a local probe/pointer/archive or independently justify a smaller effective action algebra | Calling the scalar local center a physical record |
 | Gauge subregions | Gauss constraints obstruct naive tensor factorization; regional centers and edge extensions depend on boundary choices ([Casini--Huerta--Rosabal](https://arxiv.org/abs/1312.1183), [Donnelly--Freidel](https://arxiv.org/abs/1601.04744), [Riello](https://arxiv.org/abs/2010.15894)). `HC-DU-040D` now gives an exact finite material positive control: gauge law plus minimal additive QND criteria select a controlled-add/subtract formation orbit, while material calibration selects one operational instrument and microscopic formation remains nonunique | Derive a physical selector for the region/reference/action envelope, or exhibit a record-complete physical remainder that survives every admissible interface refinement | Treating an algebraic center or unmaterialized edge mode as a selected pointer; fitting another Hamiltonian to the same final gauge instrument |
-| Infrared and asymptotic structure | Charged excitations carry delocalized soft-photon structure; asymptotic charges and memory constrain scattering ([Mund--Rehren--Schroer](https://arxiv.org/abs/2109.10342), [Hirai--Sugishita](https://arxiv.org/abs/1805.05651)) | Derive a finite-time, finite-resolution access map from asymptotic structure to an observer certificate and a held-out hard-process target | Calling an asymptotic charge a finite local archive |
+| Infrared and asymptotic structure | Charged excitations carry delocalized soft structure; Oertel's 2026 time-dependent FK construction conditionally selects a rotationally invariant dressing component, while Fukuyama makes the observable hard/soft quotient detector-resolution dependent. `HC-DU-068` finds that the detector still uses coupled null-infinity/zero-frequency/infinite-time limits and that resolution remains supplied ([Oertel](https://arxiv.org/abs/2605.06774), [Fukuyama](https://arxiv.org/abs/2606.08879)) | Derive a bounded detector worldtube/window/resolution and physically natural access quotient, then freeze a nonempty inverse fibre and held-out hard-process target | Calling retained time dependence bounded observer access, or treating a detector-selected resolution family as one QED-selected record |
 | Algebraic reach versus operational cost | Reeh--Schlieder cyclicity gives broad local state-preparation reach, while modular bounds can impose operator or postselection cost ([Blanco-Romero--Almenares Mendoza](https://arxiv.org/abs/2605.18640)) | Define record and capability relative to matched norm, energy, success probability, and horizon | Treating dense reachability as cheap controllable capability |
 | Modular/state-dependent time | A state and algebra induce modular flow; a covariant preferred state is generally unavailable under standard dynamically local assumptions ([Connes--Rovelli](https://arxiv.org/abs/gr-qc/9406019), [Fewster--Verch](https://arxiv.org/abs/1106.4785)) | Type which physical state, access boundary, and calibration turn modular flow into observer time | Saying the abstract algebra alone selects one physical clock |
 | Generalized symmetries and net completeness | Higher-form symmetries act on extended operators; generalized symmetries can diagnose nonmaximal local nets ([Gaiotto et al.](https://arxiv.org/abs/1412.5148), [Casini--Magán](https://arxiv.org/abs/2110.11358)) | Test whether extended charge/sector structure constrains regional record composition or supplies a held-out capability consequence | Renaming a symmetry charge, anomaly, or extended operator as a certificate |
@@ -254,6 +254,19 @@ side branch. See the
 [tournament](../explorations/physical-arena-selection-tournament-2026-07-26.md)
 and the
 [completed mechanism](../explorations/material-gauge-boundary-formation-orbit-and-first-leaks-2026-07-26.md).
+
+**Infrared-memory reopener disposition (`HC-DU-068`).** The 2026 source packet
+improves the forward physical story without closing the inverse record
+problem. Soft dynamics forms a memory carrier; retained time dependence and
+rotational symmetry select one dressing component relative to a supplied
+constant-time/asymptotic frame; and finite detector resolution indexes
+observable coarse grainings. The named finite-time detector nevertheless
+retains \(L\to\infty\), \(\omega_0\to0\), and \(t\to\infty\) limits.
+Fewster--Verch realizability distinguishes physical from merely causal
+instruments but does not select a detector. Require a bounded positive
+realization, natural access quotient, provenance-bearing write, and held-out
+inverse target before reopening the branch. See the
+[audit](../explorations/finite-time-infrared-memory-typed-record-reopener-audit-2026-07-28.md).
 
 **Complete-record capability boundary (`HC-DU-040E`).** A complete
 generator-invariant stabilizer syndrome can be exactly sufficient for
