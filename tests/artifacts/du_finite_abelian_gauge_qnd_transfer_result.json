@@ -1,0 +1,152 @@
+{
+  "checks": {
+    "character_ghz_ancilla_saturates_the_bound": true,
+    "dressed_links_are_gauge_invariant": true,
+    "each_dressed_tuple_is_exactly_one_gauge_orbit": true,
+    "every_dressed_tuple_is_reachable": true,
+    "joined_shares_reconstruct_holonomy_exactly": true,
+    "local_control_uses_gauge_invariant_dressed_variables": true,
+    "log_group_order_ancilla_lower_bound_transfers": true,
+    "matter_probe_interface_cost_is_not_in_ancilla_scalar": true,
+    "physical_orbit_basis_factors_over_dressed_links": true,
+    "proper_share_subsets_remain_holonomy_blind": true,
+    "protocol_equals_wilson_holonomy_lueders_channel": true,
+    "regular_matter_gauge_action_is_free": true,
+    "target_projectors_are_unchanged_total_charge_projectors": true,
+    "wilson_holonomy_telescopes_to_dressed_link_sum": true
+  },
+  "checks_passed": 14,
+  "checks_total": 14,
+  "claim_id": "HC-DU-121",
+  "formal_boundary": {
+    "excluded_transfers": "No transfer is claimed to pure gauge theory, continuous groups, non-Abelian loops, arbitrary regional algebras, or continuum QFT.",
+    "resource_scope": "log2(|G|) prices only the pre-shared ancillary entanglement after matter, dressed-link access, local couplings, stations, and later aggregation are supplied.",
+    "transfer": "Regular-representation matter makes gauge orbits bijective with independent dressed-link tuples, and Wilson holonomy is their total G-value. The HC-DU-120 instrument and proof therefore apply without changing target, channel, station cut, or ancillary-entanglement definition."
+  },
+  "non_claims": [
+    "not a continuum or dynamical lattice-gauge simulation",
+    "not selection of regular-representation matter or local access",
+    "not a complete energy, apparatus, latency, or preparation cost",
+    "not a pure-gauge, non-Abelian, or continuous-group theorem",
+    "not empirical excess, ontology priority, prediction, or new physics"
+  ],
+  "specimens": [
+    {
+      "cycle_links_and_vertices": 3,
+      "dressed_link_tuple_reachability": "all",
+      "expected_tensor_product_dimension": 8,
+      "gauge_orbits": 8,
+      "gauge_transformations": 8,
+      "ghz_ancilla_entanglement_every_cut": "log2(2)",
+      "group": "Z2",
+      "group_moduli": [
+        2
+      ],
+      "group_order": 2,
+      "joined_share_reconstruction": "exact",
+      "kinematic_basis_states": 64,
+      "necessary_ancilla_entanglement_every_cut": "log2(2)",
+      "nonselective_channel": "total-charge Lueders",
+      "orbit_size": 8,
+      "orbit_to_dressed_tuple_map": "bijective",
+      "physical_basis_dimension": 8,
+      "physical_factorization": "one C[G] factor per dressed link",
+      "proper_share_information_about_holonomy_bits": 0,
+      "wilson_holonomy": "sum of dressed links"
+    },
+    {
+      "cycle_links_and_vertices": 3,
+      "dressed_link_tuple_reachability": "all",
+      "expected_tensor_product_dimension": 27,
+      "gauge_orbits": 27,
+      "gauge_transformations": 27,
+      "ghz_ancilla_entanglement_every_cut": "log2(3)",
+      "group": "Z3",
+      "group_moduli": [
+        3
+      ],
+      "group_order": 3,
+      "joined_share_reconstruction": "exact",
+      "kinematic_basis_states": 729,
+      "necessary_ancilla_entanglement_every_cut": "log2(3)",
+      "nonselective_channel": "total-charge Lueders",
+      "orbit_size": 27,
+      "orbit_to_dressed_tuple_map": "bijective",
+      "physical_basis_dimension": 27,
+      "physical_factorization": "one C[G] factor per dressed link",
+      "proper_share_information_about_holonomy_bits": 0,
+      "wilson_holonomy": "sum of dressed links"
+    },
+    {
+      "cycle_links_and_vertices": 3,
+      "dressed_link_tuple_reachability": "all",
+      "expected_tensor_product_dimension": 64,
+      "gauge_orbits": 64,
+      "gauge_transformations": 64,
+      "ghz_ancilla_entanglement_every_cut": "log2(4)",
+      "group": "Z4",
+      "group_moduli": [
+        4
+      ],
+      "group_order": 4,
+      "joined_share_reconstruction": "exact",
+      "kinematic_basis_states": 4096,
+      "necessary_ancilla_entanglement_every_cut": "log2(4)",
+      "nonselective_channel": "total-charge Lueders",
+      "orbit_size": 64,
+      "orbit_to_dressed_tuple_map": "bijective",
+      "physical_basis_dimension": 64,
+      "physical_factorization": "one C[G] factor per dressed link",
+      "proper_share_information_about_holonomy_bits": 0,
+      "wilson_holonomy": "sum of dressed links"
+    },
+    {
+      "cycle_links_and_vertices": 3,
+      "dressed_link_tuple_reachability": "all",
+      "expected_tensor_product_dimension": 64,
+      "gauge_orbits": 64,
+      "gauge_transformations": 64,
+      "ghz_ancilla_entanglement_every_cut": "log2(4)",
+      "group": "Z2xZ2",
+      "group_moduli": [
+        2,
+        2
+      ],
+      "group_order": 4,
+      "joined_share_reconstruction": "exact",
+      "kinematic_basis_states": 4096,
+      "necessary_ancilla_entanglement_every_cut": "log2(4)",
+      "nonselective_channel": "total-charge Lueders",
+      "orbit_size": 64,
+      "orbit_to_dressed_tuple_map": "bijective",
+      "physical_basis_dimension": 64,
+      "physical_factorization": "one C[G] factor per dressed link",
+      "proper_share_information_about_holonomy_bits": 0,
+      "wilson_holonomy": "sum of dressed links"
+    },
+    {
+      "cycle_links_and_vertices": 4,
+      "dressed_link_tuple_reachability": "all",
+      "expected_tensor_product_dimension": 16,
+      "gauge_orbits": 16,
+      "gauge_transformations": 16,
+      "ghz_ancilla_entanglement_every_cut": "log2(2)",
+      "group": "Z2",
+      "group_moduli": [
+        2
+      ],
+      "group_order": 2,
+      "joined_share_reconstruction": "exact",
+      "kinematic_basis_states": 256,
+      "necessary_ancilla_entanglement_every_cut": "log2(2)",
+      "nonselective_channel": "total-charge Lueders",
+      "orbit_size": 16,
+      "orbit_to_dressed_tuple_map": "bijective",
+      "physical_basis_dimension": 16,
+      "physical_factorization": "one C[G] factor per dressed link",
+      "proper_share_information_about_holonomy_bits": 0,
+      "wilson_holonomy": "sum of dressed links"
+    }
+  ],
+  "status": "PASS"
+}

@@ -4974,6 +4974,46 @@ a genuinely non-Abelian/continuous exception, or unchanged transfer to a
 held-out North-Star target. See
 `generalized-symmetry-access-nonfactorization-and-finite-abelian-regional-qnd-resource-law-2026-07-29.md`.
 
+### 2026-07-29 finite-Abelian lattice-gauge transfer
+
+`HC-DU-121` satisfies the first physical-transfer reopener from `HC-DU-120`
+without changing the target, instrument, regional route, or ancillary
+resource definition.
+
+For a finite Abelian group with regular-representation matter at lattice
+vertices, every link has the gauge-invariant dressed coordinate
+
+\[
+Y_{vw}=-\phi_v+U_{vw}+\phi_w.
+\]
+
+Gauge orbits are in bijection with complete dressed-link tuples: every tuple
+is reachable, and two kinematic configurations have the same tuple exactly
+when a local gauge transformation relates them. The physical orbit basis
+therefore factors as one \(\mathbb C[G]\) register per dressed link. Around a
+closed cycle, the matter terms telescope and
+
+\[
+\sum_eY_e=\sum_eU_e,
+\]
+
+so the Wilson holonomy is exactly the total-\(G\) target used by
+`HC-DU-120`.
+
+The selective Wilson-holonomy Lüders instrument consequently retains the
+same optimal ancillary resource law: regional LOCC needs at least
+\(\log_2|G|\) entanglement across every nontrivial link-station cut, and a
+character-\(G\)-GHZ ancilla attains every bound, keeps all proper share
+subsets target-blind, and makes their joint value exact.
+
+The scalar prices only the pre-shared ancillary entanglement after charged
+matter, dressed-link access, local couplings, station assignment, and later
+aggregation are supplied. It is not a complete energy, apparatus,
+preparation, or latency cost, and the action does not select the interface.
+Pure gauge theory, continuous groups, non-Abelian loops, other regional
+algebras, and continuum QFT require separate proofs. See
+`finite-abelian-lattice-gauge-wilson-qnd-transfer-and-resource-scope-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -386,6 +386,39 @@ access classification; select an apparatus or resource; isolate empirical
 excess; introduce new physics; or authorize a prediction, paper, hardware,
 provider, publication, or other external action.
 
+## HC-DU-121 finite-Abelian lattice-gauge QND transfer
+
+`du_finite_abelian_gauge_qnd_transfer_probe.py` preserves the exact
+matter-completed lattice-gauge transfer:
+
+- gauge invariance of
+  \(Y_{vw}=-\phi_v+U_{vw}+\phi_w\);
+- bijection between complete dressed-link tuples and gauge orbits;
+- reachability and independence of every \(G^E\) physical tuple;
+- physical-basis factorization over the dressed links;
+- telescoping equality between the dressed-link sum and Wilson holonomy;
+- equality with the unchanged total-charge Lüders channel;
+- proper-share blindness and exact joined reconstruction; and
+- transfer of the matching \(\log_2|G|\) ancillary-entanglement lower and
+  upper bounds.
+
+Run:
+
+```bash
+python3 tests/du_finite_abelian_gauge_qnd_transfer_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_finite_abelian_gauge_qnd_transfer_result.json` and reports
+`14/14` over five specimens. Passing establishes only the exact finite
+orbit/channel/resource regression under supplied regular-representation
+matter and dressed-link access. It is not a dynamical or continuum
+lattice-gauge simulation; a pure-gauge, continuous-group, non-Abelian, AQFT,
+or universal QFT theorem; selection of matter, apparatus, stations, or
+access; a complete energy or implementation cost; empirical excess; new
+physics; or authorization for a prediction, paper, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
