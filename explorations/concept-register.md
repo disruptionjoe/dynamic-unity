@@ -4417,6 +4417,57 @@ joined acquisition, and unchanged transfer from finite event packets to a
 held-out regional causal or conformal relation. See
 `tetrahedral-interaction-arrival-localization-calibration-and-source-formation-boundary-2026-07-29.md`.
 
+### 2026-07-29 reciprocal-crosslink self-calibration and delay boundary
+
+`HC-DU-108` conditionally removes the numerical detector calibration from
+`HC-DU-107`'s supplied inputs. For honest stationary unit-rate clocks and
+reciprocal unit-speed propagation, a timestamped crosslink gives
+
+\[
+p_{ij}=d_{ij}+b_j-b_i.
+\]
+
+The two directions recover
+
+\[
+d_{ij}=\frac{p_{ij}+p_{ji}}2,
+\qquad
+b_j-b_i=\frac{p_{ij}-p_{ji}}2.
+\]
+
+Complete affinely independent \(K_4\) distances recover the detector
+constellation up to Euclidean isometry. Connected offset differences recover
+the clocks up to one common time-origin shift. Correcting the held-out event
+packet with those reconstructed values reproduces `HC-DU-107` in that gauge.
+Autolocated relativistic positioning, two-way time transfer, distance
+geometry, sensor self-calibration, and clock rigidity absorb the mathematics.
+
+The reciprocal law is load-bearing. With free directed delays
+
+\[
+p_{ij}=a_{ij}+b_j-b_i,
+\]
+
+the transformation
+
+\[
+b_i'=b_i+c_i,\qquad a_{ij}'=a_{ij}+c_i-c_j
+\]
+
+leaves the complete transcript unchanged. Unknown transmit/receive latency
+contaminates both the symmetric range and antisymmetric offset estimates. An
+unknown common clock rate is confounded with spatial scale. Cryptographic
+authentication can certify sender identity and payload integrity, not
+timestamp truth, clock state, path reciprocity, or absence of a delay attack.
+
+This is operational scaffold reconstruction, not a preferred foliation.
+Spatial isometry and common time origin are declared gauges. The remaining
+candidate requires a target-independent formed and associated nonlinear
+event, physically warranted or bounded reciprocity/latency/rate, complete
+crosslink and event acquisition, and unchanged transfer to a held-out
+regional causal or conformal relation. See
+`reciprocal-crosslink-self-calibration-distance-clock-gauge-and-asymmetric-delay-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

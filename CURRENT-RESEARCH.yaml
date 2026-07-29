@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 58
+state_revision: 59
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-107 proves that four fixed tetrahedral arrival channels robustly
-    localize every event in a compact Minkowski region, while unknown clock
-    offsets destroy absolute event identification. Localization is not the
-    live wall: source formation, association, calibration, acquisition, and
-    no-refit regional transfer remain open. No successor is selected.
+    HC-DU-108 proves reciprocal crosslinks recover detector geometry and
+    relative clock offsets up to spatial-isometry and time-origin gauge.
+    Directed delay, hardware latency, and clock scale remain exact
+    nonidentifiabilities. Source formation, association, complete acquisition,
+    and no-refit regional transfer remain open. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -696,7 +696,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - source-formed-nonlinear-interaction-event-with-fixed-calibrated-tetrahedral-arrival-readout-complete-provenance-and-no-refit-regional-geometry-transfer
+    - source-formed-nonlinear-interaction-event-with-reciprocal-clock-rigid-self-calibrating-crosslinks-bounded-latency-asymmetry-complete-provenance-and-no-refit-regional-geometry-transfer
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates

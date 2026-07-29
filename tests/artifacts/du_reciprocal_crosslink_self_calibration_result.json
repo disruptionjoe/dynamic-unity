@@ -1,0 +1,35 @@
+{
+  "boundary": "Regression only: no physical source formation, honest timestamping, propagation reciprocity, clock-rate selection, hardware calibration, event association, complete acquisition, Lorentzian geometry, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-108",
+  "controls": {
+    "anchored_gram_matrix": [
+      [
+        "8",
+        "4",
+        "4"
+      ],
+      [
+        "4",
+        "8",
+        "4"
+      ],
+      [
+        "4",
+        "4",
+        "8"
+      ]
+    ],
+    "anchored_gram_rank": 3,
+    "clock_rate_spatial_scale_confounding_witness": true,
+    "directed_crosslink_count": 12,
+    "directed_delay_clock_gauge_witness": true,
+    "event_packet_composes_up_to_common_time_origin": true,
+    "hardware_latency_range_confounding_witness": true,
+    "node_count": 4,
+    "reciprocal_range_recovery": true,
+    "regular_tetrahedron_squared_edge_length": "8",
+    "relative_clock_offset_recovery": true,
+    "undirected_range_count": 6
+  },
+  "status": "PASS"
+}
