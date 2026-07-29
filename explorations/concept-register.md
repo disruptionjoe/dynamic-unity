@@ -4210,6 +4210,39 @@ packet with a uniform causal/conformal inverse margin, complete acquisition,
 and no-refit transfer. See
 `bounded-weyl-causal-propagator-response-factorization-localization-and-finite-geometry-boundary-2026-07-28.md`.
 
+### 2026-07-28 operational event identity and causal-saturation boundary
+
+`HC-DU-103` closes the strongest finite-geometry reading left by
+`HC-DU-102`. Apparatus identity, port, local sequence token, parent-record
+hashes, and source/readout role can identify finite operational events without
+assigning the held-out spacetime coordinates. This is a real
+target-independent evidence surface. It does not select the map from an
+apparatus event to a local field algebra or region.
+
+For a finite event poset, a sound detected-response graph reconstructs the
+causal order by transitive closure exactly when it contains every cover edge.
+A zero/signal gap \(\gamma>0\) and response error below \(\gamma/2\) make the
+finite recovery robust. Microcausality supplies only soundness; it does not
+supply cover saturation or the margin. The Pauli--Jordan form is also
+antisymmetric, so a directed causal arrow requires an independently recorded
+intervention/readout role rather than nonzero commutator support alone.
+
+Sharp Huygens propagation gives an exact physical counterexample. In
+\(3+1\)-dimensional massless Minkowski theory, two small strictly
+timelike-related regions bounded away from null separation have zero direct
+causal-propagator response. A sampled null intermediary can repair the
+transitive comparison only after enlarging the event/record packet. A
+propagator spectrum removes labels but can lose response incidence; it does
+not solve operational localization.
+
+The corrected reopener is a target-independent operational event net with
+independently warranted local couplings, a finite jointly realizable carrier
+family proved cover-saturating with a uniform margin on a frozen compact
+completion class, complete acquisition, and no-refit transfer. Massive
+tails, multiple fields, or nonlinear wave interactions are possible class
+exits with new interface burdens, not automatic repairs. See
+`operational-event-localization-causal-saturation-huygens-and-finite-conformal-reconstruction-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -1,0 +1,48 @@
+{
+  "probe": "du_operational_localization_causal_saturation_probe",
+  "status": "PASS",
+  "claim_id": "HC-DU-103",
+  "checks": {
+    "finite_poset": {
+      "nodes": 4,
+      "true_order_edges": 5,
+      "cover_edges": 4,
+      "sound_cover_saturation_recovers_order": true,
+      "one_missing_cover_breaks_reconstruction": true
+    },
+    "uniform_margin": {
+      "gamma": "2/5",
+      "epsilon": "3/20",
+      "threshold": "1/5",
+      "exact_recovery": true
+    },
+    "sharp_huygens": {
+      "endpoint_interval_squared": "4",
+      "endpoint_causally_ordered": true,
+      "endpoint_direct_response": false,
+      "sampled_null_intermediary_repairs_transitive_order": true,
+      "two_event_packet_does_not": true
+    },
+    "spectrum_loses_labeled_incidence": {
+      "common_characteristic_polynomial": "lambda*(lambda^2+25)",
+      "incidence_a": [
+        [
+          1,
+          2
+        ]
+      ],
+      "incidence_b": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ]
+      ],
+      "different": true
+    }
+  },
+  "scope_warning": "Exact finite order, margin, point-support Huygens, and spectral controls only. No selected localization, local QFT realization, formed instrument, physical causal saturation, continuum conformal geometry, full metric, novel physics, or prediction is established."
+}

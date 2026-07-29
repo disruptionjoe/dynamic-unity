@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 53
+state_revision: 54
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28; governed run receipts preserve each
@@ -82,12 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-102 proves that calibrated Weyl displacements expose causal
-    symplectic response on fixed readouts. This does not close the continuum
-    bridge: the automorphisms lack norm continuity, while state, localization,
-    instrument, finite acquisition, and inverse margin remain supplied. A full
-    labeled propagator conditionally carries conformal geometry. No successor
-    is selected.
+    HC-DU-103 proves that finite response recovery requires sound cover
+    saturation and a uniform margin. Standard massless Huygens propagation
+    gives a timelike zero-response counterexample. Operational provenance
+    names events but does not select local support; spectrum loses incidence.
+    No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -697,7 +696,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - target-independently-localized-finite-weyl-response-packet-with-uniform-causal-conformal-margin
+    - target-independent-operational-event-net-with-causally-saturating-finite-response-family-and-uniform-margin
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
