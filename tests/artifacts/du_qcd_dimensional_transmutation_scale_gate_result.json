@@ -1,0 +1,20 @@
+{
+  "boundary": "Regression only: no QCD mass-gap proof, selected Standard-Model parameter, physical clock, formed record, provenance, access, metric reconstruction in nature, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-113",
+  "controls": {
+    "beta_law_leaves_lambda_integration_constant_free": true,
+    "common_energy_unit_covariance": true,
+    "fixed_matter_mark_breaks_metric_scale_gauge": true,
+    "fixed_matter_mark_reconstructs_selected_proper_times": true,
+    "joint_rescaling_of_all_admitted_scales_is_common_unit_gauge": true,
+    "lattice_physical_scale_requires_one_measured_mass": true,
+    "one_loop_rg_invariant_lambda_reconstructed": true,
+    "partial_rescaling_against_fixed_sector_changes_physical_ratio": true,
+    "physical_masses_and_ratios_scheme_invariant": true,
+    "reference_coupling_and_lambda_are_equivalent_parameters": true,
+    "scheme_change_rescales_lambda": true,
+    "unequal_local_metric_scales_require_local_matter_law_refit": true,
+    "unmatched_lattice_global_scale_gauge": true
+  },
+  "status": "PASS"
+}

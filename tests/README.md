@@ -133,6 +133,43 @@ dimensionful mark, clock, mass, interface, formation, provenance, access,
 certified record, new physics, prediction, paper, hardware, provider,
 publication, or other external action.
 
+## HC-DU-113 QCD dimensional-transmutation scale gate
+
+`du_qcd_dimensional_transmutation_scale_gate_probe.py` preserves the exact
+finite controls behind the scale-provenance result:
+
+- one-loop asymptotically free flow reconstructs one invariant
+  \(\Lambda\) along each trajectory;
+- the beta law leaves the trajectory's integration constant free;
+- specifying one reference coupling and specifying \(\Lambda\) are
+  equivalent;
+- a common energy-unit rescaling preserves the running;
+- a one-loop finite scheme shift rescales \(\Lambda\) while physical masses
+  and ratios remain invariant;
+- lattice mass products require one measured reference mass to fix physical
+  units;
+- a fixed physical matter mark breaks the metric-scale gauge and
+  conditionally reconstructs selected proper times;
+- joint rescaling of the metric and every admitted dimensional scale is a
+  common-unit gauge;
+- holding another sector fixed changes a physical dimensionless ratio; and
+- unequal local metric factors require forbidden local matter-law refit.
+
+Run:
+
+```bash
+python3 tests/du_qcd_dimensional_transmutation_scale_gate_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_qcd_dimensional_transmutation_scale_gate_result.json`.
+Passing establishes only the scoped RG scale-provenance, lattice-matching,
+common-unit, and fixed-matter-anchor controls. It does not prove a QCD mass
+gap, select a Standard-Model parameter, form a physical clock or record,
+establish provenance/access, reconstruct nature's metric, introduce new
+physics, or authorize a prediction, paper, hardware, provider, publication,
+or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

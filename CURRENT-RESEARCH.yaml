@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 63
+state_revision: 64
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-112 proves the complete unmarked Poisson causal-set law is invariant
-    under compensated metric-density rescaling, so no graph statistic can
-    self-calibrate absolute scale. Free regional density also absorbs local
-    conformal scale. A fixed accessible dimensionful mark breaks the gauge
-    conditionally; its selection and formation remain open. No successor is
+    HC-DU-113: QCD transmutation creates an RG-invariant scale without
+    selecting its integration constant; lattice QCD needs one dimensional
+    input. A fixed matter mark calibrates intervals; full common rescaling is
+    unit gauge. Ultimate scale origin is not a reconstruction
+    prerequisite. Mark formation and transfer remain open. No successor is
     selected.
 
 programs:
@@ -697,7 +697,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - source-formed-conformally-transferring-nonlinear-interaction-event-from-fixed-null-front-architecture-with-predeclared-finite-resolution-controls-independently-selected-accessible-scale-bearing-physical-mark-unique-occurrence-identity-bounded-source-latency-reciprocal-clock-rigid-self-calibrating-crosslinks-complete-provenance-acquisition-and-no-refit-full-regional-metric-geometry-transfer
+    - source-formed-conformally-transferring-nonlinear-interaction-event-from-fixed-null-front-architecture-with-predeclared-finite-resolution-controls-physically-formed-transported-stable-matter-scale-mark-common-unit-gauge-unique-occurrence-identity-bounded-source-latency-reciprocal-clock-rigid-self-calibrating-crosslinks-complete-provenance-acquisition-and-no-refit-full-regional-metric-geometry-transfer
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates

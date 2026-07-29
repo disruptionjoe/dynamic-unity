@@ -4640,6 +4640,47 @@ latency; complete provenance and acquisition; and unchanged finite transfer
 to held-out regional metric geometry. See
 `complete-causal-set-law-scale-gauge-and-marked-anchor-necessity-2026-07-29.md`.
 
+### 2026-07-29 QCD dimensional transmutation and operational scale closure
+
+`HC-DU-113` tests the strongest standard physical candidate for
+`HC-DU-112`'s missing scale mark. For the one-loop asymptotically free flow,
+
+\[
+\frac1{g^2(\mu)}
+=
+2b_0\log\frac{\mu}{\Lambda},
+\]
+
+the beta function generates an RG-invariant dimensionful coordinate but
+leaves \(\Lambda\) as one free integration constant. Specifying
+\(g(\mu_0)\) and specifying \(\Lambda\) are equivalent trajectory data.
+Dimensional transmutation produces genuine scale-bearing physics without
+uniquely selecting the overall scale.
+
+Finite scheme changes rescale the representation parameter \(\Lambda_S\)
+while physical masses \(M_i=C_i^{(S)}\Lambda_S\) and their ratios remain
+invariant. Lattice QCD has the same structure: it computes dimensionless
+\(aM_i\), and one measured dimensionful observable fixes \(a\) in physical
+units.
+
+This is enough for Dynamic Unity operationally. A fixed realized matter mass,
+transition, decay, or correlation mark conditionally calibrates proper-time
+intervals. Co-rescaling the metric and every admitted dimensional parameter
+according to physical dimension preserves all dimensionless marks and is one
+common-unit gauge. Holding a gravitational, cosmological, electroweak, or other
+sector fixed instead changes a dimensionless inter-sector ratio and is
+physical. Unequal local conformal factors cannot be absorbed by one global
+conversion against a transported fixed standard.
+
+The refined candidate no longer requires an explanation of ultimate absolute
+scale before geometry reconstruction. It requires one predeclared physically
+formed and transported stable matter-scale process; retained provenance;
+bounded systematics; observer access; complete acquisition; a common-unit
+quotient over all admitted dimensional parameters; and unchanged transfer to
+held-out local/regional metric geometry.
+See
+`qcd-dimensional-transmutation-operational-metric-anchor-and-scale-origin-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
