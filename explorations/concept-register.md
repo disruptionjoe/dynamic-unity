@@ -4069,6 +4069,40 @@ and completed-history rival, or an independently proved source-completion
 theorem. Generic cost or observability work repeats known boundaries. See
 `preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md`.
 
+### 2026-07-28 equilibrium passive-response and thermal-calibration gate
+
+`HC-DU-099` identifies the first endogenous alternative to choosing an
+external stochastic source for the active-wave route. KMS/FDT structure can
+make a system's own equilibrium fluctuations determine its retarded linear
+response once the algebra, dynamics, state, inverse temperature, observable,
+and conjugate coupling are fixed.
+
+That relation is not a complete physical selector. In the equilibrium process
+
+\[
+dX_t=-\mu kX_t\,dt+\mu f(t)\,dt+
+\sqrt{2\mu/\beta}\,dW_t,
+\]
+
+the transformation
+
+\[
+(\beta,k,\mu)\mapsto(a\beta,k/a,a\mu)
+\]
+
+leaves the complete unforced path law unchanged while multiplying the
+force-response kernel by \(a\). Every member still satisfies FDT. An
+independently calibrated \(\beta\) removes this exact ambiguity, after which
+two passive covariance values reconstruct the complete OU response.
+
+A finite observer record additionally requires a uniform integrated-mixing
+bound, detector calibration, bounded duration and bandwidth, complete
+acquisition, and no-refit transfer. FDT therefore selects a
+covariance-response relation inside a selected equilibrium interface; it does
+not select the state, phase, observable, coupling, detector, calibration, or
+target class. See
+`fluctuation-dissipation-passive-response-reconstruction-thermal-calibration-gauge-and-finite-time-record-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

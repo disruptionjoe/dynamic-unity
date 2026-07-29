@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 49
+state_revision: 50
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-098 proves stochastic multiplexing yields an explicit small-ball
-    modulus only from a uniform noise-weighted response gap. Pairwise
-    almost-sure separation, ideal white noise, and one stochastic setting do
-    not supply a finite uniform record. No arena selects finite-energy
-    covariances, that gap, and complete finite acquisition; no successor is
+    HC-DU-099 proves FDT/KMS constrains equilibrium correlation and response
+    but does not select their state or interface. A Langevin gauge preserves
+    the full passive law while changing force response; calibration removes
+    it, and uniform mixing makes OU reconstruction finite. No serious arena
+    supplies the remaining interface and acquisition; no successor is
     selected.
 
 programs:
@@ -697,7 +697,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - physically-selected-finite-energy-stochastic-active-wave-class-with-uniform-noise-weighted-gap-and-finite-acquisition
+    - physically-selected-stochastic-active-or-equilibrium-passive-interface-with-uniform-finite-time-gap-and-complete-acquisition
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
