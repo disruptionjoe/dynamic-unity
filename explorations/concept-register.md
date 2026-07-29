@@ -4329,6 +4329,51 @@ localization rank, a uniform inverse margin on a frozen class, and unchanged
 held-out causal/conformal transfer. See
 `nonlinear-interaction-mobius-provenance-context-complexity-and-localization-rank-boundary-2026-07-29.md`.
 
+### 2026-07-29 finite-dimensional event packet and compositional-geometry boundary
+
+`HC-DU-106` determines when `HC-DU-105`'s finite nonlinear packet can be
+exact rather than merely finite-resolution. Let \(\Theta\) be a compact
+\(C^1\) model manifold and let \(\mathcal M\) be the admitted scalar
+mixed-response family. If \(\mathcal M\) separates both every pair of model
+points and every nonzero tangent direction, compactness selects a finite
+subfamily
+
+\[
+F:\Theta\longrightarrow\mathbb R^N
+\]
+
+that is a \(C^1\) embedding. It is fixed for the whole class before the
+held-out model, and compactness gives a positive global inverse-Lipschitz
+margin. This strengthens the fixed-resolution compactness result of
+`HC-DU-095` by using tangent completeness to control pairs approaching the
+diagonal.
+
+Target dimension is a real resource. Exact continuous reconstruction on an
+open \(d\)-parameter class requires at least \(d\) scalar response
+coordinates. If the completion class contains target-distinct spheres of
+arbitrarily high dimension, Borsuk--Ulam defeats every fixed finite packet.
+A regularity-bounded gauge-fixed field or Lorentzian metric class contains
+arbitrarily many small independent perturbation directions even when it is
+compact in a weaker topology. Compactness therefore gives finite packets at
+each nonzero target resolution; it does not turn exact unrestricted
+continuum identity into a fixed finite-coordinate record.
+
+The 16 four-source contexts and the scalar response dimension are distinct
+resources. One quartet with \(N\) parallel readouts still uses 16 source
+configurations but retains \(16N\) scalar values. Separately designed
+quartets can increase both counts. A finite scalar packet also assumes exact
+real coordinates; finite-bit physical certification requires a positive
+inverse margin, calibrated precision, bounded ranges, and quantization.
+
+The viable architecture is consequently compositional: a finite packet
+localizes one formed event or one physically selected finite-complexity
+sector; a growing authenticated event network carries progressively richer
+causal and geometric structure. The next gate is point-and-tangent
+completeness for a target-independent physical response family on a compact
+four-dimensional interaction-event region, followed only then by regional
+geometric composition. See
+`finite-dimensional-nonlinear-response-embedding-unbounded-field-dimension-and-compositional-geometry-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

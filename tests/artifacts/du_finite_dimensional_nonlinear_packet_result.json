@@ -1,0 +1,15 @@
+{
+  "boundary": "Regression only: no Lorentzian metric, nonlinear field, selected model class, physical source/readout, formed event, record, geometry, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-106",
+  "controls": {
+    "exact_target_recovery": true,
+    "full_packet_rank": 3,
+    "rank_deficient_packet_rank": 2,
+    "retained_scalar_value_count": 48,
+    "same_packet_different_target": true,
+    "simultaneous_response_channels": 3,
+    "source_configuration_count": 16,
+    "source_count": 4
+  },
+  "status": "PASS"
+}

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 56
+state_revision: 57
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-105 proves that a finite Boolean packet can isolate joint nonlinear
-    source dependence, but this does not identify or archive the interaction
-    event. Localization requires target-kernel containment and a uniform
-    positive inverse margin; published positives retain supplied geometry,
-    boundary, probes, and continuum response. No successor is selected.
+    HC-DU-106 proves that point- and tangent-complete responses finite-reduce
+    a compact finite-dimensional target exactly, while no fixed finite
+    continuous packet can exactly reconstruct an unbounded-dimensional field
+    class. The viable target is a formed event followed by growing regional
+    composition. Physical selection remains open. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -696,7 +696,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - target-independent-physically-multiplexed-nonlinear-interaction-event-packet-with-uniform-localization-margin-and-no-refit-conformal-transfer
+    - physically-selected-finite-dimensional-nonlinear-event-localization-packet-with-point-tangent-completeness-and-compositional-no-refit-geometry-transfer
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
