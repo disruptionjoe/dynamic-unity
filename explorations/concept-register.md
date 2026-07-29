@@ -5375,6 +5375,42 @@ target-relative reconstruction. It selects no mode family, QFT, state,
 detector, observer, interface, empirical excess, new law, or prediction. See
 `covariant-local-finite-mode-trilemma-indexed-family-repair-and-continuum-gaussian-first-leak-2026-07-29.md`.
 
+### 2026-07-29 AQFT nuclearity and the finite-resolution record boundary
+
+`HC-DU-131` tests the physically established QFT phase-space reopener emitted
+by `HC-DU-130`.
+
+For a nuclear map
+\[
+Tx=\sum_j\phi_j(x)y_j,
+\qquad
+\sum_j\|\phi_j\|\,\|y_j\|<\infty,
+\]
+the finite partial sums converge in operator norm. The unit-ball image is
+therefore totally bounded and finitely approximable at every nonzero
+resolution. Nuclearity does not imply finite rank. If \(T\) has infinite
+rank, every finite-rank linear record leaks: otherwise \(T\) would factor
+through the record's finite-dimensional range. A supplied approximant with
+error \(\eta\) nevertheless bounds every supplied \(L\)-Lipschitz target
+fibre by \(2L\eta\).
+
+Buchholz--Wichmann energy nuclearity gives this abstract boundary a real AQFT
+specimen through
+\[
+\Theta_{\beta,O}(A)=e^{-\beta H}A\Omega.
+\]
+It constrains an energy-damped local phase-space image relative to a supplied
+QFT, region, state, Hamiltonian, and scale. It does not make the local algebra
+finite, choose a finite expansion, or select a probe, observer, archive, or
+access interface. Likewise, a degenerate irreducible symmetry block may be
+selected as a whole while no rank-one coordinate is symmetry invariant.
+
+The result is a scoped Grade-4 exact-finite versus nuclear finite-resolution,
+infinite-rank first-leak, and symmetry-selection boundary plus conditional
+Grade-3 target-relative reconstruction. It earns no new AQFT theorem,
+empirical excess, law, physics, prediction, or ready successor. See
+`aqft-nuclearity-effective-finite-resolution-reconstruction-and-interface-selection-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

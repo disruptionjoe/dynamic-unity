@@ -727,6 +727,39 @@ law, new physics, or prediction; transfer the raw test-function result to
 every on-shell quotient, net algebra, or interacting theory; or authorize a
 paper, model, hardware, provider, publication, or other external action.
 
+## HC-DU-131 AQFT nuclearity finite-resolution boundary
+
+`du_aqft_nuclearity_finite_resolution_boundary_probe.py` preserves the exact
+controls behind the nuclear finite-resolution/exact finite-record boundary:
+
+- the infinite-rank diagonal map \(De_j=2^{-(j+1)}e_j\) has nuclear norm one;
+- its finite-rank truncations have exact nuclear and operator tail bounds;
+- every tested finite truncation admits a same-record/different-tail target
+  witness saturating the \(2L\eta\) bound;
+- genuinely finite-rank diagonal maps close exactly when every nonzero
+  coordinate is retained;
+- the zero and full-multiplet projectors commute with the rotation control;
+  and
+- four rank-one orthogonal projectors fail rotation equivariance.
+
+Run:
+
+```bash
+python3 tests/du_aqft_nuclearity_finite_resolution_boundary_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_aqft_nuclearity_finite_resolution_boundary_result.json` and
+reports `38/38`. Passing is a bounded exact regression of standard nuclear
+tails, finite-rank factorization, target-error, and symmetry-commutant
+mathematics. It does not construct or simulate an AQFT; prove nuclearity for
+every QFT; select a QFT, local algebra, region, state, Hamiltonian, damping
+scale, finite approximant, probe, detector, observer, archive, access
+boundary, or target; establish exact finite continuum reconstruction;
+produce empirical excess, a new law, new physics, or a prediction; or
+authorize a paper, model, hardware, provider, publication, or other external
+action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

@@ -1,0 +1,250 @@
+{
+  "check_count": 38,
+  "checks": {
+    "finite_rank_1_complete_record_has_zero_tail": true,
+    "finite_rank_1_range_rank_is_exact": true,
+    "finite_rank_2_complete_record_has_zero_tail": true,
+    "finite_rank_2_range_rank_is_exact": true,
+    "finite_rank_4_complete_record_has_zero_tail": true,
+    "finite_rank_4_range_rank_is_exact": true,
+    "finite_rank_7_complete_record_has_zero_tail": true,
+    "finite_rank_7_range_rank_is_exact": true,
+    "finite_rank_approximants_converge_monotonically": true,
+    "full_multiplet_projector_is_rotation_equivariant": true,
+    "infinite_diagonal_nuclear_norm_is_one": true,
+    "no_tested_finite_rank_closes_the_exact_tail": true,
+    "rank_0_finite_resolution_bound_saturates": true,
+    "rank_0_nuclear_sum_plus_tail_is_one": true,
+    "rank_0_operator_tail_is_first_omitted": true,
+    "rank_0_same_record_tail_witness_nonzero": true,
+    "rank_1_finite_resolution_bound_saturates": true,
+    "rank_1_nuclear_sum_plus_tail_is_one": true,
+    "rank_1_operator_tail_is_first_omitted": true,
+    "rank_1_same_record_tail_witness_nonzero": true,
+    "rank_2_finite_resolution_bound_saturates": true,
+    "rank_2_nuclear_sum_plus_tail_is_one": true,
+    "rank_2_operator_tail_is_first_omitted": true,
+    "rank_2_same_record_tail_witness_nonzero": true,
+    "rank_4_finite_resolution_bound_saturates": true,
+    "rank_4_nuclear_sum_plus_tail_is_one": true,
+    "rank_4_operator_tail_is_first_omitted": true,
+    "rank_4_same_record_tail_witness_nonzero": true,
+    "rank_8_finite_resolution_bound_saturates": true,
+    "rank_8_nuclear_sum_plus_tail_is_one": true,
+    "rank_8_operator_tail_is_first_omitted": true,
+    "rank_8_same_record_tail_witness_nonzero": true,
+    "rank_one_axis_x_fails_rotation_equivariance": true,
+    "rank_one_axis_y_fails_rotation_equivariance": true,
+    "rank_one_diagonal_minus_fails_rotation_equivariance": true,
+    "rank_one_diagonal_plus_fails_rotation_equivariance": true,
+    "symbolic_rotation_commutant_projector_rule": true,
+    "zero_projector_is_rotation_equivariant": true
+  },
+  "claim_id": "HC-DU-131",
+  "finite_rank_escape": [
+    {
+      "exact_rank": 1,
+      "tail_after_complete_record": "0",
+      "weights": [
+        "1/2"
+      ]
+    },
+    {
+      "exact_rank": 2,
+      "tail_after_complete_record": "0",
+      "weights": [
+        "1/2",
+        "1/4"
+      ]
+    },
+    {
+      "exact_rank": 4,
+      "tail_after_complete_record": "0",
+      "weights": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ]
+    },
+    {
+      "exact_rank": 7,
+      "tail_after_complete_record": "0",
+      "weights": [
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16",
+        "1/32",
+        "1/64",
+        "1/128"
+      ]
+    }
+  ],
+  "infinite_rank_nuclear_control": {
+    "controls": [
+      {
+        "held_out_target_difference": "1",
+        "nuclear_tail_bound": "1",
+        "operator_tail_error": "1/2",
+        "retained_nuclear_sum": "0",
+        "retained_rank": 0,
+        "same_record_witness": "+/- e_0"
+      },
+      {
+        "held_out_target_difference": "1/2",
+        "nuclear_tail_bound": "1/2",
+        "operator_tail_error": "1/4",
+        "retained_nuclear_sum": "1/2",
+        "retained_rank": 1,
+        "same_record_witness": "+/- e_1"
+      },
+      {
+        "held_out_target_difference": "1/4",
+        "nuclear_tail_bound": "1/4",
+        "operator_tail_error": "1/8",
+        "retained_nuclear_sum": "3/4",
+        "retained_rank": 2,
+        "same_record_witness": "+/- e_2"
+      },
+      {
+        "held_out_target_difference": "1/16",
+        "nuclear_tail_bound": "1/16",
+        "operator_tail_error": "1/32",
+        "retained_nuclear_sum": "15/16",
+        "retained_rank": 4,
+        "same_record_witness": "+/- e_4"
+      },
+      {
+        "held_out_target_difference": "1/256",
+        "nuclear_tail_bound": "1/256",
+        "operator_tail_error": "1/512",
+        "retained_nuclear_sum": "255/256",
+        "retained_rank": 8,
+        "same_record_witness": "+/- e_8"
+      }
+    ],
+    "interpretation": "Every finite truncation has a controlled nonzero tail. The first omitted coordinate gives an exact same-record/different-target witness.",
+    "map": "D e_j = 2^-(j+1) e_j",
+    "nuclear_norm": "1"
+  },
+  "local_model_learning_gate": {
+    "disposition": "PROOF_FIRST_MINIMAL_REGRESSION_ONLY",
+    "hardware": "irrelevant",
+    "simulation": "not admitted"
+  },
+  "non_claims": [
+    "not a construction or simulation of an AQFT",
+    "not a proof that every QFT satisfies nuclearity",
+    "not a selected region, state, damping scale or finite approximation",
+    "not a physically formed record, detector, archive or observer",
+    "not exact continuum reconstruction from finite data",
+    "not empirical excess, a new law, new physics or a prediction"
+  ],
+  "result": "NUCLEARITY_GIVES_FINITE_RESOLUTION_NOT_FINITE_TRUTH+INFINITE_RANK_FORBIDS_EXACT_FINITE_RECORD_COMPLETENESS+FINITE_RANK_IS_THE_EXACT_POSITIVE_ESCAPE+LIPSCHITZ_TARGETS_INHERIT_CONTROLLED_TAIL_ERROR+SYMMETRY_SELECTS_FULL_MULTIPLET_NOT_RANK_ONE_COORDINATE+AQFT_NUCLEARITY_DOES_NOT_SELECT_RECORD_INTERFACE+NO_READY_SUCCESSOR",
+  "schema_version": "1.0",
+  "status": "PASS",
+  "symmetry_selection_control": {
+    "full_multiplet_projector_commutes": true,
+    "group_control": "quarter-turn generator of SO(2)",
+    "interpretation": "The invariant object may be the full degenerate multiplet. Selecting one coordinate requires an additional reference or asymmetry.",
+    "rank_one_candidates": [
+      {
+        "candidate": "axis_x",
+        "commutator_with_quarter_turn": [
+          [
+            "0",
+            "-1"
+          ],
+          [
+            "-1",
+            "0"
+          ]
+        ],
+        "commutes": false,
+        "projector": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "candidate": "axis_y",
+        "commutator_with_quarter_turn": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "commutes": false,
+        "projector": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ]
+      },
+      {
+        "candidate": "diagonal_plus",
+        "commutator_with_quarter_turn": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "-1"
+          ]
+        ],
+        "commutes": false,
+        "projector": [
+          [
+            "1/2",
+            "1/2"
+          ],
+          [
+            "1/2",
+            "1/2"
+          ]
+        ]
+      },
+      {
+        "candidate": "diagonal_minus",
+        "commutator_with_quarter_turn": [
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "commutes": false,
+        "projector": [
+          [
+            "1/2",
+            "-1/2"
+          ],
+          [
+            "-1/2",
+            "1/2"
+          ]
+        ]
+      }
+    ]
+  }
+}
