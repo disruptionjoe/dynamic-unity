@@ -4897,6 +4897,47 @@ observer action/access class, and access-preserving held-out target
 factorization. See
 `local-qft-realizability-generalized-symmetry-record-algebra-and-access-selection-boundary-2026-07-29.md`.
 
+### 2026-07-29 Wilson-loop access and regional threshold records
+
+`HC-DU-119` supplies a concrete known-physics positive for the extended-access
+reopener without collapsing its types. One spacelike Wilson-loop target has
+different record/capability status depending on gauge group, matter content,
+topology, demolition semantics, and resources.
+
+In the Beckman--Gottesman--Kitaev--Preskill classification:
+
+- an Abelian loop with suitable matter admits a nondemolition distributed
+  measurement when the parties possess a pre-distributed entangled ancilla;
+- local destructive readout can recover loop values by forming a strictly
+  finer record;
+- a non-Abelian spacelike nondemolition loop measurement is acausal under the
+  theorem's assumptions; and
+- in a pure Abelian theory on nontrivial topology, a nontrivial Wilson loop
+  can be locally changeable but locally unmeasurable, while its conjugate
+  electric sector is measurable but locally unchangeable.
+
+The exact three-bit control realizes the Abelian architecture as a `(3,3)`
+threshold record. Every proper subset of cat-ancilla outcomes is uniform and
+target-blind, while the joined parity reconstructs the extended target. The
+induced channel is exactly the parity Lüders channel and preserves
+within-sector coherence. Full local readout returns the same parity while
+destroying that coherence, so target equality does not identify the record or
+instrument. A single timelike-routed ancilla implements the same ideal
+instrument with a different resource, provenance, and failure contract.
+
+This makes local formation, distributed retention, later causal aggregation,
+observer access, and target finality distinct physical moments. It also proves
+that action and observation are not one nested capability relation.
+
+The candidate is now a gauge/matter/topology/resource-indexed classification
+of extended operations together with one formed regional carrier and held-out
+consequence. The high-ceiling reopeners are a new generalized-symmetry access
+classification, a selected regional formation mechanism, an invariant
+cross-route resource law, or unchanged transfer to a held-out time, geometry,
+field, or capability target. More parity/stabilizer variants without one of
+those increments are stopped. See
+`wilson-loop-measurability-regional-threshold-record-and-capability-access-trichotomy-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

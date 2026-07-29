@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 69
+state_revision: 70
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,12 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-118: Local-QFT causality and realizability are physical filters, not
-    selectors of probe, coupling, state, readout, formed output, or access.
-    Generalized-symmetry net gaps can hide extended targets from every
-    proper-local record, but extended access must be frozen and realizable;
-    relative entropy only quantifies that fixed restriction. No successor is
-    selected.
+    HC-DU-119: Wilson-loop measurability is gauge-, matter-, topology-,
+    resource-, and demolition-relative. Abelian QND access can form
+    individually blind, jointly complete regional shares; destructive access
+    is a finer record; non-Abelian spacelike QND access is causality-forbidden
+    in scope. Changeability and measurability can be incomparable. No successor
+    is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

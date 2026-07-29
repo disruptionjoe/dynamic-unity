@@ -318,6 +318,41 @@ prove formation, retention, provenance, or observer access, isolate empirical
 excess, introduce new physics, or authorize a prediction, paper, hardware,
 provider, publication, or other external action.
 
+## HC-DU-119 Wilson-loop access/finality trichotomy
+
+`du_wilson_loop_access_finality_probe.py` preserves:
+
+- an exact three-share cat-ancilla parity protocol whose complete output
+  reconstructs the extended target while every proper share subset is
+  target-blind;
+- equality of that protocol's nonselective channel with the parity Lüders
+  channel on every computational matrix unit;
+- preservation of within-parity coherence and removal of cross-parity
+  coherence;
+- strict refinement and additional disturbance under complete local data
+  readout;
+- equality of the ideal parity instrument produced by a sequential coherent
+  ancilla under a different route/resource contract; and
+- singleton conjugacy-class multiplication for \(\mathbb Z_2\) versus
+  identity/three-cycle product ambiguity for the transposition class of
+  \(S_3\).
+
+Run:
+
+```bash
+python3 tests/du_wilson_loop_access_finality_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_wilson_loop_access_finality_result.json` and reports `11/11`.
+Passing establishes only the finite threshold-record, nondemolition versus
+destructive, route/resource, and Abelian/non-Abelian algebraic-hinge
+controls. It does not simulate gauge theory, prove the relativistic Wilson-
+loop causality theorem, select a physical measurement apparatus, establish
+authentication or Byzantine finality, isolate empirical excess, introduce
+new physics, or authorize a prediction, paper, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
