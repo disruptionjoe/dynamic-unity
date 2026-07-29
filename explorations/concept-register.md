@@ -1795,6 +1795,48 @@ They currently supply an ideal continuum capability surface, not a finite
 formed record packet. See
 `operational-influence-capability-saturation-and-active-wave-geometry-reconstruction-boundary-2026-07-28.md`.
 
+### 2026-07-28 compact physical capability to finite certificate
+
+`HC-DU-095` proves a conditional continuum-to-finite bridge.
+
+Let \(\Theta\) be a compact admissible physical completion class,
+\(T:\Theta\to Z\) a continuous target, and \(\mathcal M\) a family of
+continuous physically realizable scalar measurements. If \(\mathcal M\)
+separates every completion pair whose target distance is at least
+\(\delta\), compactness selects a finite subfamily
+\(\{m_1,\ldots,m_N\}\) and a uniform margin \(\gamma_\delta>0\) such that
+
+\[
+d_Z(T\theta,T\theta')\geq\delta
+\quad\Longrightarrow\quad
+\max_i|m_i(\theta)-m_i(\theta')|\geq\gamma_\delta.
+\]
+
+If total per-coordinate record error satisfies
+\(2\eta<\gamma_\delta\), every nonempty compatible-record fibre has target
+diameter below \(\delta\). Compact measurement ranges can be finitely
+quantized, provided the selected probes form one jointly executable or
+repeatably preparable campaign with joined complete-attempt acquisition.
+
+If \(P_\delta(T(\Theta))\) is the target packing number, every such discrete
+record needs at least \(P_\delta\) codes, hence at least
+\(\lceil\log_2P_\delta\rceil\) bits. Finite-resolution cost follows the
+metric entropy of the admitted target quotient, not the bare presence of
+continuum variables.
+
+The premises are load-bearing. The bounded noncompact class of standard
+basis vectors in \(\ell^2\) is pointwise separated by the infinite coordinate
+family, while every finite coordinate subset leaves two target-distinct
+vectors identical. Weak compactness does not repair the result when the
+strong target is discontinuous in the weak topology.
+
+The theorem is target-resolution and task relative. It does not select the
+physical completion class, probe family, observer, archive, margin, or
+resource budget. “One measurement” also does not type finite data: one source
+may contain infinitely many encoded components or return a continuum
+space-time trace. See
+`finite-target-resolution-certification-from-compact-physical-capability-surfaces-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing

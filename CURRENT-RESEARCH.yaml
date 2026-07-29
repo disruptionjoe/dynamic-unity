@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 45
+state_revision: 46
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-094 proves that one complete process reconstructs used influence,
-    not the wider causal-possibility order. Exact recovery requires a
-    physically realizable causally saturating process family. Nonlinear-wave
-    source-to-solution theorems are a serious conditional conformal positive,
-    but finite certified acquisition remains absent; no successor is selected.
+    HC-DU-095 proves that a compact physical completion class and continuous
+    target-separating capability family admit a finite robust certificate at
+    every fixed target resolution. Boundedness or pointwise separation alone
+    does not. No audited arena supplies the required compact Lorentzian class,
+    joint finite probe packet, and acquisition margin; no successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -696,7 +696,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - finite-certified-active-wave-source-to-solution-geometry-reconstruction
+    - physically-selected-compact-active-wave-class-with-constructive-finite-stable-packet
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
