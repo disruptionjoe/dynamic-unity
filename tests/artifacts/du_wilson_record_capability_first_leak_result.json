@@ -1,0 +1,123 @@
+{
+  "checks": {
+    "all_closed_loop_winding_responses_factor": true,
+    "all_proper_simple_open_paths_leak": true,
+    "characters_separate_finite_abelian_group_elements": true,
+    "criterion_holds_for_finite_product_groups": true,
+    "n_minus_one_group_coordinates_are_necessary": true,
+    "n_minus_one_group_coordinates_are_sufficient": true,
+    "no_interface_selection_or_empirical_excess_is_claimed": true,
+    "one_record_supports_reconstruction_and_remainder_by_action": true,
+    "path_response_factorization_matches_endomorphism_criterion": true,
+    "repair_is_a_finer_not_free_interface": true,
+    "same_record_open_path_witness_exists": true,
+    "two_link_change_is_minimal": true,
+    "wilson_fibre_size_is_group_order_to_n_minus_one": true,
+    "witness_is_character_response_distinguishable": true
+  },
+  "checks_passed": 14,
+  "checks_total": 14,
+  "claim_id": "HC-DU-122",
+  "formal_boundary": {
+    "closed_loop_positive": "Every winding vector (k,...,k) is reconstructed exactly as [k]_G(Q(y)).",
+    "factorization_theorem": "For L_c(y)=sum_i c_i y_i and Q(y)=sum_i y_i, the complete finite-Abelian character-response family factors through Q iff the multiplication endomorphisms [c_i]_G all agree.",
+    "first_leak": "Every proper simple matter-completed open path has both 0 and 1 coefficients and admits a minimal two-link same-Q/different-response witness.",
+    "repair": "Each Q fibre has |G|^(n-1) basis completions. Under a G-valued-coordinate contract, n-1 finer coordinates are necessary and sufficient for full basis identification."
+  },
+  "non_claims": [
+    "not unrestricted quantum-state or process reconstruction",
+    "not a proof that the finer repair is nondemolition",
+    "not selection of matter, action, apparatus, or observer access",
+    "not a pure-gauge, non-Abelian, continuous-group, or continuum theorem",
+    "not empirical excess, a prediction, ontology priority, or new physics"
+  ],
+  "specimens": [
+    {
+      "additional_group_coordinates_necessary": 2,
+      "additional_group_coordinates_sufficient": 2,
+      "basis_completions_per_record": 4,
+      "coefficient_vectors_exhaustively_checked": 125,
+      "cycle_links": 3,
+      "group": "Z2",
+      "group_moduli": [
+        2
+      ],
+      "group_order": 2,
+      "minimum_same_record_hamming_distance": 2,
+      "physical_basis_states": 8,
+      "proper_simple_paths_checked": 6,
+      "record_values": 2,
+      "winding_coefficients_checked": 7
+    },
+    {
+      "additional_group_coordinates_necessary": 2,
+      "additional_group_coordinates_sufficient": 2,
+      "basis_completions_per_record": 9,
+      "coefficient_vectors_exhaustively_checked": 125,
+      "cycle_links": 3,
+      "group": "Z3",
+      "group_moduli": [
+        3
+      ],
+      "group_order": 3,
+      "minimum_same_record_hamming_distance": 2,
+      "physical_basis_states": 27,
+      "proper_simple_paths_checked": 6,
+      "record_values": 3,
+      "winding_coefficients_checked": 7
+    },
+    {
+      "additional_group_coordinates_necessary": 2,
+      "additional_group_coordinates_sufficient": 2,
+      "basis_completions_per_record": 16,
+      "coefficient_vectors_exhaustively_checked": 125,
+      "cycle_links": 3,
+      "group": "Z4",
+      "group_moduli": [
+        4
+      ],
+      "group_order": 4,
+      "minimum_same_record_hamming_distance": 2,
+      "physical_basis_states": 64,
+      "proper_simple_paths_checked": 6,
+      "record_values": 4,
+      "winding_coefficients_checked": 7
+    },
+    {
+      "additional_group_coordinates_necessary": 2,
+      "additional_group_coordinates_sufficient": 2,
+      "basis_completions_per_record": 16,
+      "coefficient_vectors_exhaustively_checked": 125,
+      "cycle_links": 3,
+      "group": "Z2xZ2",
+      "group_moduli": [
+        2,
+        2
+      ],
+      "group_order": 4,
+      "minimum_same_record_hamming_distance": 2,
+      "physical_basis_states": 64,
+      "proper_simple_paths_checked": 6,
+      "record_values": 4,
+      "winding_coefficients_checked": 7
+    },
+    {
+      "additional_group_coordinates_necessary": 3,
+      "additional_group_coordinates_sufficient": 3,
+      "basis_completions_per_record": 8,
+      "coefficient_vectors_exhaustively_checked": 625,
+      "cycle_links": 4,
+      "group": "Z2",
+      "group_moduli": [
+        2
+      ],
+      "group_order": 2,
+      "minimum_same_record_hamming_distance": 2,
+      "physical_basis_states": 16,
+      "proper_simple_paths_checked": 14,
+      "record_values": 2,
+      "winding_coefficients_checked": 7
+    }
+  ],
+  "status": "PASS"
+}

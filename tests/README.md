@@ -419,6 +419,36 @@ access; a complete energy or implementation cost; empirical excess; new
 physics; or authorization for a prediction, paper, hardware, provider,
 publication, or other external action.
 
+## HC-DU-122 Wilson-record capability first leak
+
+`du_wilson_record_capability_first_leak_probe.py` preserves the exact
+capability-relative factorization theorem in the unchanged `HC-DU-121`
+dressed-link basis:
+
+- a path response factors through the formed Wilson record iff all
+  coefficient multiplication endomorphisms agree on \(G\);
+- every closed-loop winding response factors exactly;
+- every proper simple matter-completed open path leaks;
+- the smallest same-record/different-response witness changes two links;
+- every Wilson fibre has \(|G|^{n-1}\) basis completions; and
+- \(n-1\) additional \(G\)-valued coordinates are necessary and sufficient
+  to complete all path responses.
+
+Run:
+
+```bash
+python3 tests/du_wilson_record_capability_first_leak_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_wilson_record_capability_first_leak_result.json` and reports
+`14/14` over five finite-Abelian specimens. Passing is only a bounded exact
+regression of the algebraic proof. It does not establish unrestricted
+quantum-state reconstruction, select the finer interface, prove the repair
+is nondemolition, transfer beyond the regular-matter finite-Abelian cycle,
+produce empirical excess, or authorize a prediction, paper, hardware,
+provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

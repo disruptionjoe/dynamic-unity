@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 72
+state_revision: 73
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-121: in a regular-matter finite-Abelian lattice gauge theory, gauge
-    orbits are independent dressed links whose loop sum is Wilson holonomy.
-    The unchanged regional QND instrument retains the log2(|G|) cutwise ancilla
-    bound and GHZ optimum. Matter and access remain supplied; this is not a
-    complete physical cost. No successor is selected.
+    HC-DU-122: one formed Wilson record exactly fixes all closed-loop winding
+    responses but no proper matter-completed open path. A two-link witness is
+    minimal; completing all path responses needs n-1 finer G-valued
+    coordinates. Sufficiency is capability-relative. Interface selection and
+    empirical excess remain open. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

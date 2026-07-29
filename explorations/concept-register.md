@@ -5014,6 +5014,41 @@ Pure gauge theory, continuous groups, non-Abelian loops, other regional
 algebras, and continuum QFT require separate proofs. See
 `finite-abelian-lattice-gauge-wilson-qnd-transfer-and-resource-scope-2026-07-29.md`.
 
+### 2026-07-29 formed Wilson record and capability first leak
+
+`HC-DU-122` holds the complete `HC-DU-121` physical arena and regional Wilson
+record fixed and varies only the declared future gauge-probe capability.
+
+For dressed links \(y_i\in G\), let
+
+\[
+Q(y)=\sum_i y_i,\qquad
+L_c(y)=\sum_i c_i y_i.
+\]
+
+The complete finite-Abelian character response of \(L_c\) factors through
+the formed record \(Q\) exactly when all integer-multiplication endomorphisms
+\([c_i]_G\) agree. Every closed-loop winding therefore reconstructs exactly
+as \(kQ(y)\). Every proper simple matter-completed open path has both zero and
+identity coefficients and fails.
+
+The universal smallest witness changes two links: add nonzero \(a\) on an
+included link and \(-a\) on an excluded link. The Wilson record is unchanged
+while some character separates the open-line responses. One link cannot
+preserve the sum, so the witness is support-minimal.
+
+Each Wilson fibre has \(|G|^{n-1}\) physical basis completions. One
+target-coded \(G\)-value can repair one predeclared path, while completing all
+path responses needs at least \(n-1\) additional \(G\)-valued coordinates;
+the first \(n-1\) dressed links attain the bound. That universal repair is a
+finer and potentially destructive interface, not an unchanged QND protocol.
+
+The result is the first exact DU specimen where one independently formed
+physical record yields both record-first reconstruction and a finite physical
+remainder relative to different admitted actions. It does not select those
+actions or interfaces and produces no empirical excess. See
+`formed-wilson-record-closed-loop-reconstruction-open-line-first-leak-and-minimal-repair-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
