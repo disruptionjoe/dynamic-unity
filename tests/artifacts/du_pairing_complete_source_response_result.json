@@ -1,0 +1,679 @@
+{
+  "analytic_theorem": {
+    "complete_query_equivalence": "If y^T C1 x = y^T C2 x for spanning source and readout families, then C1 = C2.",
+    "factorization_nonidentifiability": "Equality of C does not identify K or M separately.",
+    "fixed_pairing_corollary": "For fixed invertible K, C = K M is bijective in M.",
+    "operator_sufficiency_criterion": "On any declared packet class, M is sufficient exactly when M1=M2 implies K1 M1=K2 M2.",
+    "scalar_action_corollary": "x^T C x determines sym(C); it determines C only when C is symmetric (Hermitian over the complex field).",
+    "variable_pairing_obstruction": "If K varies, equality of M does not imply equality of C."
+  },
+  "basis_covariance": {
+    "identity": "K' M' = T^T (K M) T",
+    "transform": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "transformed_operator": [
+      [
+        "1",
+        "2"
+      ],
+      [
+        "-1",
+        "-1"
+      ]
+    ],
+    "transformed_pairing": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "transformed_response": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "2"
+      ]
+    ]
+  },
+  "check_count": 26,
+  "checks": {
+    "all_sampled_quadratic_values_equal": true,
+    "antisymmetric_cross_query_survives": true,
+    "bare_operator_grading_changes": true,
+    "both_operators_are_k_self_adjoint": true,
+    "complete_basis_query_recovers_response": true,
+    "factor_pairings_have_same_signature": true,
+    "factorization_family_k_self_adjoint": true,
+    "factorization_family_operators_distinct": true,
+    "factorization_family_same_response": true,
+    "factorization_family_same_signature": true,
+    "fixed_pairing_recovers_operator": true,
+    "held_out_bilinear_separates_pairings": true,
+    "held_out_readout_separates": true,
+    "held_out_source_separates": true,
+    "incomplete_readout_span_agrees": true,
+    "incomplete_source_span_agrees": true,
+    "pairings_are_involutions": true,
+    "physical_response_grading_is_invariant": true,
+    "same_bare_operator": true,
+    "same_m_different_dual_response": true,
+    "same_physical_response": true,
+    "same_signature_pairings": true,
+    "scalar_action_recovers_only_symmetric_part": true,
+    "scalar_query_count_matches_symmetric_dimension": true,
+    "simultaneous_basis_change_is_covariant": true,
+    "three_scalar_queries_reconstruct_symmetric_response": true
+  },
+  "claim_id": "HC-DU-127",
+  "definitions": {
+    "bilinear_query": "B(y,x) = y^T C x",
+    "operator_representative": "M: V -> V",
+    "pairing": "K: V -> V*",
+    "physical_dual_response": "C = K M: V -> V*",
+    "query_packet": "R_XY(C) = Y^T C X"
+  },
+  "factorization_family": {
+    "checked_members": [
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "4",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "-4",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": -4,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "3",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "-3",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": -3,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "2",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "-2",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": -2,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "-1",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": -1,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": 0,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "-1",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "1",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": 1,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "-2",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "2",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": 2,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "-3",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "3",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": 3,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      },
+      {
+        "determinant": "-1",
+        "k_self_adjoint": true,
+        "operator": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "-4",
+            "1"
+          ]
+        ],
+        "pairing": [
+          [
+            "4",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ],
+        "parameter": 4,
+        "response": [
+          [
+            "0",
+            "1"
+          ],
+          [
+            "1",
+            "0"
+          ]
+        ]
+      }
+    ],
+    "formula": {
+      "K_n": "[[n,1],[1,0]]",
+      "K_n_M_n": "[[0,1],[1,0]]",
+      "M_n": "[[1,0],[-n,1]]",
+      "det_K_n": "-1",
+      "parameter_domain": "all integers n"
+    }
+  },
+  "local_model_learning_gate": {
+    "admission": "ADMIT_LOCAL_LEARNING_BUILD",
+    "continuation": "Bank the finite theorem; require a native domain/boundary packet before any infinite-dimensional or GU transfer.",
+    "hardware": "irrelevant",
+    "local_learning_delta": "The 2x2 exact specimens locate the invariant at C=KM, expose an infinite factorization fibre, and fix the query-span leak.",
+    "pre_hardware_checkpoint": "PASS",
+    "research_only_baseline": "Finite duality and metric-dependent adjoints predict that K matters; DU lacked the minimum same-signature source witness."
+  },
+  "non_claims": [
+    "not a selected physical pairing, source basis, probe, or readout",
+    "not an unbounded-operator, domain, Green-form, or QFT theorem",
+    "not a GU chirality, source-action, or generation result",
+    "not a formed archive, observer, public fact, or finality result",
+    "not empirical excess, a new law, new physics, or a prediction"
+  ],
+  "query_span_first_leak": {
+    "base_response": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "held_out_readout": [
+      "0",
+      "1"
+    ],
+    "held_out_source": [
+      "0",
+      "1"
+    ],
+    "hidden_response": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "2"
+      ]
+    ],
+    "retained_readout": [
+      "1",
+      "0"
+    ],
+    "retained_source": [
+      "1",
+      "0"
+    ]
+  },
+  "result": "DUAL_VALUED_RESPONSE_IS_MINIMAL_FOR_COMPLETE_BILINEAR_QUERIES+BARE_OPERATOR_IS_COMPLETE_IFF_C_IS_CONSTANT_ON_M_FIBRES+SAME_M_CAN_YIELD_DIFFERENT_C+SAME_C_HAS_AN_INFINITE_SAME_SIGNATURE_KM_FIBRE+BARE_GRADING_CAN_CHANGE_INSIDE_ONE_SOURCE_RESPONSE_FIBRE+SCALAR_ACTION_SEES_ONLY_THE_SYMMETRIC_PART+QUERY_AND_READOUT_SPANS_BOUND_COMPLETENESS+NO_GU_OR_QFT_TRANSFER",
+  "same_operator_different_response": {
+    "held_out_query": {
+      "left": [
+        "1",
+        "0"
+      ],
+      "right": [
+        "0",
+        "1"
+      ],
+      "value_1": "1",
+      "value_2": "0"
+    },
+    "operator": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "pairing_1": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "pairing_2": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "pairing_signature": [
+      1,
+      1
+    ],
+    "response_1": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ],
+    "response_2": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ]
+  },
+  "same_response_different_factorization": {
+    "both_k_self_adjoint": true,
+    "packet_a": {
+      "bare_grading": "commutes",
+      "operator": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "pairing": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "physical_grading": "anticommutes"
+    },
+    "packet_b": {
+      "bare_grading": "anticommutes",
+      "operator": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "pairing": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "-1"
+        ]
+      ],
+      "physical_grading": "anticommutes"
+    },
+    "response": [
+      [
+        "0",
+        "1"
+      ],
+      [
+        "1",
+        "0"
+      ]
+    ]
+  },
+  "scalar_action_boundary": {
+    "common_symmetric_part": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "1"
+      ]
+    ],
+    "cross_values": [
+      "1",
+      "-1"
+    ],
+    "polarization_specimen": {
+      "queries": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "1"
+        ]
+      ],
+      "reconstructed": [
+        [
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "3"
+        ]
+      ],
+      "target": [
+        [
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "3"
+        ]
+      ],
+      "values": [
+        "2",
+        "3",
+        "3"
+      ]
+    },
+    "quadratic_sources_checked": 25,
+    "response_minus": [
+      [
+        "1",
+        "-1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "response_plus": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "-1",
+        "1"
+      ]
+    ]
+  },
+  "schema_version": "1.0",
+  "status": "PASS"
+}

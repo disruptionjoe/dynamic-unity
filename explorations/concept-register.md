@@ -5218,6 +5218,49 @@ action-indexed representation fibre. No direct-action or field ontology,
 continuum/quantum transfer, empirical excess, or new law is selected. See
 `source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md`.
 
+### 2026-07-29 pairing-complete dual-valued source response
+
+`HC-DU-127` generalizes the `HC-DU-126` response record beyond a silently
+fixed positive pairing.
+
+A linear source response is naturally
+
+\[
+C=KM:V\longrightarrow V^*,
+\]
+
+where \(K:V\to V^*\) is a nondegenerate pairing and \(M:V\to V\) is an
+operator representative. For frozen source and readout families \(X,Y\), the
+formed response packet is \(Y^\mathsf TCX\). If both families span \(V\), this
+packet determines exactly \(C\); if either is deficient, an exact held-out
+query can leak. Therefore \(C\) is the minimal complete response record, up to
+information-equivalent encoding, for all bilinear source queries.
+
+The operator \(M\) is sufficient on a declared packet class exactly when
+\(C=KM\) is constant on every \(M\)-fibre. A fixed invertible \(K\) makes
+\(M\leftrightarrow C\) bijective and recovers `HC-DU-126` as a special case.
+With variable pairings, the same \(M\) can produce different \(C\), while one
+\(C\) has an infinite same-signature factorization family. In the exact
+two-dimensional control, two source-equivalent factorizations make the bare
+operator respectively commute and anticommute with one grading while the
+physical \(C\) is identical. Operator-level grading therefore need not descend
+to the source-response quotient.
+
+A scalar quadratic action determines only \(\operatorname{sym}C\); full
+bilinear response or physical self-adjointness is needed to recover a general
+\(C\). Under a simultaneous source-coordinate change,
+\(K'=T^\mathsf TKT\), \(M'=T^{-1}MT\), and
+\(C'=T^\mathsf TCT\). Changing only \(K\) while holding the calibrated source
+labels and \(M\) fixed is not a representation change.
+
+The component mathematics is absorbed by finite duality, polarization,
+congruence, and mature indefinite-metric/Krein operator theory. The DU
+increment is the exact source-record, query-span, factorization-fibre, and
+field/direct-action typing boundary. No pairing, domain, observer, archive,
+ontology, GU bridge, QFT transfer, empirical excess, or new law is selected.
+See
+`pairing-complete-dual-valued-source-response-and-factorization-fibre-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -588,6 +588,40 @@ continuum, QFT, gravity, nonreciprocal, or nonlinear systems; produce
 empirical excess; or authorize a prediction, paper, hardware, provider,
 publication, or other external action.
 
+## HC-DU-127 pairing-complete dual-valued source response
+
+`du_pairing_complete_source_response_probe.py` preserves the exact finite
+controls behind the pairing-complete response theorem:
+
+- two normalized signature-\((1,1)\) pairings with the same bare operator
+  produce different dual-valued responses \(C=KM\);
+- two same-signature packets produce the same \(C\) while their bare
+  operators respectively commute and anticommute with one grading;
+- the exact family
+  \(K_n=\left(\begin{smallmatrix}n&1\\1&0\end{smallmatrix}\right)\),
+  \(M_n=\left(\begin{smallmatrix}1&0\\-n&1\end{smallmatrix}\right)\)
+  has \(K_nM_n\) constant for every integer \(n\);
+- scalar quadratic values erase the antisymmetric part while polarization
+  exactly reconstructs a symmetric response; and
+- incomplete source or readout spans admit a fixed held-out first leak,
+  whereas complete basis queries reconstruct \(C\).
+
+Run:
+
+```bash
+python3 tests/du_pairing_complete_source_response_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_pairing_complete_source_response_result.json` and reports
+`26/26`. Passing is only a bounded exact regression of standard finite
+duality, polarization, congruence, and indefinite-pairing mathematics. It
+does not select a physical pairing, domain, adjoint, Green form, source
+basis, probe, readout, archive, observer, field/direct-action ontology, or
+GU construction; transfer to unbounded operators, QFT, or gravity; produce
+empirical excess; or authorize a prediction, paper, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

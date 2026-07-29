@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 77
+state_revision: 78
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,13 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-126: the boundary response operator is the minimal complete
-    source-native record for finite linear reciprocal source capability.
-    Exactly b-1 fixed vector-response probes form it and transfer without
-    refit; scalar action-only readout needs b(b-1)/2. The same exact response
-    has positive simple mediator completions of every finite cycle rank.
-    This earns source-query operational duality, not ontology selection. No
-    successor is selected.
+    HC-DU-127: complete finite bilinear queries determine C=KM. M suffices iff
+    C is constant on M-fibres; fixed K suffices. One C leaves an infinite
+    same-signature factorization fibre with variable bare grading; scalar
+    action sees only sym(C). No GU/QFT transfer or successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
