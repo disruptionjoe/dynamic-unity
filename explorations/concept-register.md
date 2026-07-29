@@ -1915,6 +1915,56 @@ independent physical selection and collide with standard embedding or
 compressed-sensing results. See
 `quantitative-finite-probe-construction-small-ball-observability-and-sobolev-entropy-boundary-2026-07-28.md`.
 
+### 2026-07-28 stochastic multiplexing and the finite-energy record gate
+
+`HC-DU-098` supplies one explicit route to the `HC-DU-097` modulus. For a
+source-to-response family \(R_\theta:H_{\rm in}\to H_{\rm out}\), let
+\(W\sim N(0,Q)\) and \(V\sim N(0,S)\) be independent Hilbert-valued Gaussian
+source and readout weights and retain
+
+\[
+m_{W,V}(\theta)=\langle V,R_\theta W\rangle.
+\]
+
+If every target-distinct pair has the uniform noise-weighted response gap
+
+\[
+\inf_{(\theta,\theta')\in K_\delta}
+\left\|
+S^{1/2}(R_\theta-R_{\theta'})Q^{1/2}
+\right\|_{\rm HS}
+=s_\delta>0,
+\]
+
+Gaussian fourth moments and Paley--Zygmund give
+
+\[
+\Pr\left\{
+|m_{W,V}(\theta)-m_{W,V}(\theta')|
+\geq s_\delta/\sqrt2
+\right\}
+\geq 1/36.
+\]
+
+Conditioning source and readout norms to sufficiently large finite bounds
+retains probability at least \(1/72\). With an operator-Lipschitz response,
+this gives a common probe Lipschitz constant and an explicit `HC-DU-097`
+packet.
+
+Three controls prevent promotion. Random projection of \(S^1\) separates
+every fixed pair almost surely while every realized scalar projection is
+globally noninjective, so pairwise probability-one separation is not one
+uniform reconstruction event. A fully isotropic Gaussian covariance on an
+infinite-dimensional Hilbert source space is \(cI\); finite energy requires
+trace class and hence \(c=0\). Finally, published single-white-noise inverse
+results retain complete distribution-valued incident and returned traces and
+recover response operators through infinite-time correlation limits.
+
+Stochastic multiplexing can reduce experimental settings, but not by itself
+record dimension, duration, bandwidth, energy, inverse stability, covariance
+selection, or acquisition lineage. See
+`stochastic-multiplexing-pairwise-uniform-observability-and-finite-energy-record-boundary-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing

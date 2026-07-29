@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 48
+state_revision: 49
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28; governed run receipts preserve each
@@ -82,10 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-097 proves compactness gives no probe-count or margin bound. A
-    uniform physical observability modulus yields one; full Sobolev classes
-    have infinite box dimension. No arena supplies that modulus, a joint
-    bounded packet, and complete acquisition; no successor is selected.
+    HC-DU-098 proves stochastic multiplexing yields an explicit small-ball
+    modulus only from a uniform noise-weighted response gap. Pairwise
+    almost-sure separation, ideal white noise, and one stochastic setting do
+    not supply a finite uniform record. No arena selects finite-energy
+    covariances, that gap, and complete finite acquisition; no successor is
+    selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -695,7 +697,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - physically-selected-regularity-compact-active-wave-class-with-uniform-observability-and-joint-finite-packet
+    - physically-selected-finite-energy-stochastic-active-wave-class-with-uniform-noise-weighted-gap-and-finite-acquisition
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
