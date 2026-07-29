@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 68
+state_revision: 69
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,13 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-117: Araki/Petz absorb the relative-entropy core. It is a reusable
-    diagnostic, not capacity or remainder without a selected record
-    contract. GU retains an unresolved integer-index/3-primary-torsion fork
-    and lacks its native source action and physicalization bridge, so
-    direct-action descent is not yet well posed. Positive source kernels can
-    erase determinant orientation; the complete-effective-action guard
-    stands. No successor is selected.
+    HC-DU-118: Local-QFT causality and realizability are physical filters, not
+    selectors of probe, coupling, state, readout, formed output, or access.
+    Generalized-symmetry net gaps can hide extended targets from every
+    proper-local record, but extended access must be frozen and realizable;
+    relative entropy only quantifies that fixed restriction. No successor is
+    selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

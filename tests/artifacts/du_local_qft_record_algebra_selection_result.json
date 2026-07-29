@@ -1,0 +1,95 @@
+{
+  "claim_id": "HC-DU-118",
+  "controls": {
+    "all_proper_local_marginals_agree": true,
+    "different_supplied_actions_induce_different_expectations": true,
+    "each_supplied_z2_action_has_an_idempotent_expectation": true,
+    "extended_parity_target_differs": true,
+    "full_record_reconstructs_parity_target": true,
+    "full_relative_entropy_is_positive": true,
+    "parity_target_fails_every_proper_subset_factorization": true,
+    "proper_local_relative_entropy_is_zero": true,
+    "same_finite_arena_admits_distinct_induced_record_channels": true
+  },
+  "interpretation": {
+    "algebra_boundary": "A fixed proper-local algebra can erase an extended target; granting the extended observable changes the access algebra.",
+    "entropy_boundary": "Relative-entropy loss quantifies a fixed restriction but does not select that restriction.",
+    "expectation_boundary": "Group averaging is canonical only after the group action is supplied.",
+    "instrument_boundary": "Admitting a class of local system-probe couplings does not select one induced record channel."
+  },
+  "limits": [
+    "finite classical control, not a QFT or type-III computation",
+    "reversible bit couplings are not Fewster-Verch instruments",
+    "parity is only a finite shadow of an extended operator",
+    "no generalized symmetry or physical algebra selected",
+    "no record formation, retention, provenance, or access proved",
+    "no empirical excess, ontology priority, or new physics"
+  ],
+  "status": "PASS",
+  "witnesses": {
+    "flip_both_expectation_of_indicator_00": {
+      "(0, 0)": "1/2",
+      "(0, 1)": "0",
+      "(1, 0)": "0",
+      "(1, 1)": "1/2"
+    },
+    "flip_first_expectation_of_indicator_00": {
+      "(0, 0)": "1/2",
+      "(0, 1)": "0",
+      "(1, 0)": "1/2",
+      "(1, 1)": "0"
+    },
+    "full_kl_closed_form": "(1/2) log 3",
+    "full_kl_signature": {
+      "1/3": "1/4",
+      "3": "3/4"
+    },
+    "induced_record_channels": {
+      "controlled_not": {
+        "0": 0,
+        "1": 1
+      },
+      "controlled_not_then_probe_flip": {
+        "0": 1,
+        "1": 0
+      },
+      "identity_coupling": {
+        "0": 0,
+        "1": 0
+      }
+    },
+    "minus_parity_expectation": "-1/2",
+    "plus_parity_expectation": "1/2",
+    "proper_local_kl_signatures": {
+      "0": {},
+      "01": {},
+      "02": {},
+      "1": {},
+      "12": {},
+      "2": {}
+    },
+    "proper_subsets": [
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        2
+      ]
+    ]
+  }
+}

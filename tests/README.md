@@ -289,6 +289,35 @@ index/torsion descent theorem, isolate empirical excess, introduce new
 physics, or authorize a prediction, paper, hardware, provider, publication,
 or other external action.
 
+## HC-DU-118 local-QFT record-algebra selection
+
+`du_local_qft_record_algebra_selection_probe.py` preserves:
+
+- three distinct record channels induced by reversible couplings in the same
+  finite system--probe arena;
+- equality of every proper-local marginal for a full-support parity pair;
+- an extended parity target with expectations \(+1/2\) and \(-1/2\);
+- exact full divergence \((1/2)\log 3\) and zero divergence on every proper
+  restriction; and
+- two idempotent group averages that differ because their supplied
+  \(\mathbb Z_2\) actions differ.
+
+Run:
+
+```bash
+python3 tests/du_local_qft_record_algebra_selection_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_local_qft_record_algebra_selection_result.json`.
+Passing establishes only the finite realizability-versus-selection,
+proper-local/extended-target, access-retyping, and relative conditional-
+expectation controls. It does not model QFT or a type-III algebra, implement a
+Fewster--Verch instrument, select a physical observable net or record channel,
+prove formation, retention, provenance, or observer access, isolate empirical
+excess, introduce new physics, or authorize a prediction, paper, hardware,
+provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

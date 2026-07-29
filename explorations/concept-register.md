@@ -4844,6 +4844,59 @@ descent remains concept-open but cannot execute until the construction fork,
 source action, physical readout, and complete translation packet exist. See
 `relative-entropy-record-sufficiency-and-gu-index-direct-action-descent-admission-boundary-2026-07-29.md`.
 
+### 2026-07-29 local-QFT realizability and algebra-relative remainder
+
+`HC-DU-118` narrows Dynamic Unity's record-interface problem without solving
+it. Fewster--Verch measurement schemes and their recent extensions provide a
+serious local, covariant, causally composable class of QFT instruments.
+Causality and Fewster--Verch realizability are distinct, and general
+realizability by compositions is undecidable. The correct positive method is
+therefore a constructive realization or a proved sufficient class, not a
+universal implementability decider.
+
+Realizability remains a filter rather than a selector. An induced system
+observable depends on a supplied probe theory, preparation, coupling region,
+scattering morphism, and probe readout. Formation, retention, acquisition, and
+observer access do not follow from membership in the realizable class.
+
+Generalized-symmetry AQFT supplies a genuine hostile specimen:
+
+\[
+\mathcal A_{\rm add}(R)
+\subsetneq
+\mathcal A_{\rm max}(R).
+\]
+
+An extended target may be invisible to every proper-local/additive record.
+The exact finite control uses
+
+\[
+P_\pm(x)
+=
+\frac{1\pm\frac12(-1)^{x_1+x_2+x_3}}8.
+\]
+
+All one- and two-site marginals agree, the global-parity expectations are
+\(+1/2\) and \(-1/2\), and the full divergence is
+\((1/2)\log3\) while every proper-local divergence is zero.
+
+This is an algebra-relative remainder. It becomes an observer-accessible
+physical remainder only if the extended action was independently frozen and
+physically realized for that observer. Adding the extended operator otherwise
+retypes the action/access contract rather than refines one unchanged record.
+
+Conditional expectation and relative entropy do not close selection. Two
+different supplied \(\mathbb Z_2\) actions on the same finite algebra give
+different idempotent group averages. Each expectation is canonical relative
+to its action; neither selects the action. Relative entropy then quantifies
+the fixed restriction rather than choosing it.
+
+The strengthened candidate is a physically selected, constructively
+realizable observable carrier algebra with a formed retained output, frozen
+observer action/access class, and access-preserving held-out target
+factorization. See
+`local-qft-realizability-generalized-symmetry-record-algebra-and-access-selection-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
