@@ -1,0 +1,32 @@
+{
+  "boundary": "Regression only: no gravity or QFT model, metric selection, stress-energy prediction, counterterm prescription, physical record, access boundary, ontology priority, empirical excess, new physics, prediction, paper, hardware, or external action.",
+  "claim_id": "HC-DU-116",
+  "controls": {
+    "determinant_response_not_fixed_by_source_kernel": true,
+    "full_parameter_kernel_equivalence_preserves_total_source_response": true,
+    "held_out_background_response_separates_pointwise_twins": true,
+    "local_mediator_response_partition_not_identified": true,
+    "on_shell_background_envelope_identity_exact": true,
+    "pointwise_source_equivalence_not_derivative_equivalence": true,
+    "source_independent_determinant_has_background_response": true
+  },
+  "status": "PASS",
+  "witnesses": {
+    "envelope_derivative": "1029/3025",
+    "full_family_effective_kernel": "-3/5",
+    "full_family_kernel_derivative": "63/100",
+    "one_vs_two_channel_logdet_derivatives": [
+      "21/20",
+      "21/10"
+    ],
+    "pointwise_twin_effective_kernel": "-1",
+    "pointwise_twin_kernel_derivatives": [
+      "1",
+      "2"
+    ],
+    "two_channel_derivative_partition": [
+      "567/2500",
+      "252/625"
+    ]
+  }
+}

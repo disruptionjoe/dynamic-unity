@@ -230,6 +230,36 @@ or record, select ontology, isolate empirical excess, introduce new physics,
 or authorize a prediction, paper, hardware, provider, publication, or other
 external action.
 
+## HC-DU-116 background-natural mediator elimination
+
+`du_background_natural_mediator_elimination_probe.py` preserves:
+
+- the exact on-shell envelope identity for a background-dependent quadratic
+  mediator;
+- a same-frozen-source-action/different-background-derivative
+  counterexample;
+- equality of total source response for one- and two-channel completions with
+  the same complete parameter-dependent source kernel;
+- non-identifiability of the local mediator-response partition; and
+- the exact background derivative of a source-independent Gaussian
+  determinant.
+
+Run:
+
+```bash
+python3 tests/du_background_natural_mediator_elimination_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_background_natural_mediator_elimination_result.json`.
+Passing establishes only the finite variational identity,
+pointwise-versus-background-natural equivalence boundary, local-partition
+non-identifiability, and determinant-response control. It does not establish
+gravity or QFT equivalence, select a metric or stress tensor, fix
+renormalization, form a record, select ontology, isolate empirical excess,
+introduce new physics, or authorize a prediction, paper, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

@@ -4759,6 +4759,45 @@ conditional event-trigger candidate, not a selected interface or empirical
 delta. See
 `haag-algebraic-field-direct-action-and-transactional-event-selection-boundary-2026-07-29.md`.
 
+### 2026-07-29 background-natural elimination and quantum determinant
+
+`HC-DU-116` strengthens mediator-elimination invariance from one frozen
+background to a typed ladder. Exact stationary elimination obeys the envelope
+identity
+
+\[
+\frac{dS_{\rm eff}}{d\lambda}
+=
+\left.
+\frac{\partial S}{\partial\lambda}
+\right|_{\phi_*},
+\]
+
+so the total classical background response is preserved when the complete
+background dependence is translated. Equality at one background is weaker:
+\(A=0,B=1,K=1\) with \(K'=1\) or \(2\) has the same frozen source action and
+different first background derivatives. Matching the complete
+background-dependent effective source kernel absorbs that source-facing
+discriminator but does not select a local mediator or absorber-stress
+partition.
+
+At quantum level the Gaussian determinant is source-independent at fixed
+background but satisfies
+
+\[
+\frac{d}{d\lambda}\log\det K
+=
+\operatorname{tr}(K^{-1}K'),
+\]
+
+and can therefore contribute to metric response. Full branch equivalence
+must match the effective action, determinant, measure, state, boundary,
+regulator, gauge quotient, and allowed counterterms. A held-out background
+derivative is a high-information first-leak assay after pointwise matching,
+not an earned remainder until those terms and one physical interface are
+fixed. See
+`background-natural-mediator-elimination-total-response-determinant-and-gravity-leak-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
