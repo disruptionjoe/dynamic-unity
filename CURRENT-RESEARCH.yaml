@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 67
+state_revision: 68
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,12 +82,13 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-116: exact elimination preserves total on-shell background response
-    only when complete background dependence is retained. Pointwise source
-    twins can differ in held-out derivatives; quantum determinants can carry
-    source-independent metric response. Full effective-action matching
-    absorbs that delta, while local stress partitions remain branch-relative.
-    No successor is selected.
+    HC-DU-117: Araki/Petz absorb the relative-entropy core. It is a reusable
+    diagnostic, not capacity or remainder without a selected record
+    contract. GU retains an unresolved integer-index/3-primary-torsion fork
+    and lacks its native source action and physicalization bridge, so
+    direct-action descent is not yet well posed. Positive source kernels can
+    erase determinant orientation; the complete-effective-action guard
+    stands. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

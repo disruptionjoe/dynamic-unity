@@ -260,6 +260,35 @@ renormalization, form a record, select ontology, isolate empirical excess,
 introduce new physics, or authorize a prediction, paper, hardware, provider,
 publication, or other external action.
 
+## HC-DU-117 relative-entropy and index-descent admission
+
+`du_relative_entropy_index_descent_admission_probe.py` preserves:
+
+- exact KL preservation and recovery for a statistically sufficient record
+  with a parameter-independent hidden conditional;
+- positive full-state divergence and zero record divergence for an
+  insufficient constant quotient;
+- one reconstructable and one unreconstructable target under the same lossy
+  record;
+- invariance under bijective relabeling; and
+- equal positive source kernels with opposite determinant orientations.
+
+Run:
+
+```bash
+python3 tests/du_relative_entropy_index_descent_admission_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_relative_entropy_index_descent_admission_result.json`.
+Passing establishes only the finite classical sufficiency, target-relative
+factorization, and determinant-orientation-loss controls. It does not
+implement Araki relative entropy or a type-III algebra, select a physical
+record channel, derive capacity or Landauer's law, model GU, establish an
+index/torsion descent theorem, isolate empirical excess, introduce new
+physics, or authorize a prediction, paper, hardware, provider, publication,
+or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

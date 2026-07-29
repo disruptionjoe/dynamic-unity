@@ -1,0 +1,55 @@
+{
+  "claim_id": "HC-DU-117",
+  "controls": {
+    "bijective_relabeling_preserves_relative_entropy": true,
+    "complete_determinant_retains_orientation": true,
+    "constant_record_loses_positive_relative_entropy": true,
+    "exact_recovery_from_sufficient_record": true,
+    "positive_information_loss_does_not_decide_target_reconstruction": true,
+    "positive_source_kernel_erases_determinant_orientation": true,
+    "relative_entropy_preserved_exactly_under_sufficient_record": true,
+    "shared_conditional_record_is_statistically_sufficient": true
+  },
+  "interpretation": {
+    "descent_boundary": "A positive source kernel may erase orientation retained by the complete determinant/effective action.",
+    "relative_entropy": "A divergence-loss and sufficiency diagnostic only after the algebra, state family, channel, and reference are fixed.",
+    "target_boundary": "Full statistical sufficiency is stronger than reconstruction of one independently declared target."
+  },
+  "limits": [
+    "finite classical KL control, not a type-III computation",
+    "no physical algebra, record channel, observer, or resource selected",
+    "no channel capacity or Landauer law derived",
+    "determinant-sign witness is not a GU generation model",
+    "no GU source action or torsion-to-integer bridge supplied",
+    "no empirical excess, ontology priority, or new physics"
+  ],
+  "status": "PASS",
+  "witnesses": {
+    "constant_target_factors": true,
+    "hidden_target_factors": false,
+    "insufficient_full_signature": {
+      "1/3": "1/4",
+      "3": "3/4"
+    },
+    "insufficient_loss_closed_form": "(1/2) log 3",
+    "insufficient_record_signature": {},
+    "opposite_determinants": [
+      1,
+      -1
+    ],
+    "shared_positive_kernel": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "sufficient_full_and_record_signature": {
+      "1/2": "1/3",
+      "2": "2/3"
+    }
+  }
+}

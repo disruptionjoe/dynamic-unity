@@ -3,7 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
-revised: 2026-07-28
+revised: 2026-07-29
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -4797,6 +4797,52 @@ derivative is a high-information first-leak assay after pointwise matching,
 not an earned remainder until those terms and one physical interface are
 fixed. See
 `background-natural-mediator-elimination-total-response-determinant-and-gravity-leak-boundary-2026-07-29.md`.
+
+### 2026-07-29 relative-entropy sufficiency and typed index descent
+
+`HC-DU-117` admits one standard tool and rejects two type collapses.
+
+For a fixed physical algebra, admitted state family, reference state, and
+record channel \(R_*\), the loss
+
+\[
+L_R(\rho,\sigma)
+=
+D_{\mathcal M}(\rho\Vert\sigma)
+-
+D_{\mathcal N}(R_*\rho\Vert R_*\sigma)
+\ge0
+\]
+
+is a family-wide distinguishability diagnostic. Equality with one common
+recovery channel is the Araki--Petz statistical-sufficiency case. It is
+useful in type-III settings because the relative modular object does not
+require a trace-class local density matrix.
+
+This is not automatically a capacity, physical remainder, formed record, or
+capability. Those require an independently selected algebra, channel, state
+family, reference, formation process, access boundary, target, action class,
+and resource contract. Exact finite controls also show that full statistical
+sufficiency is stronger than one-target reconstruction: a constant record can
+lose \((1/2)\log3\) of state-pair divergence while still reconstructing a
+constant target and failing a hidden target.
+
+The same gate corrects the proposed GU/direct-action object. GU does not
+currently possess one settled physical generation index. Its current
+construction fork keeps integer/Fredholm indices distinct from a proposed
+3-primary torsion carrier; the physical count remains `OPEN /
+located-not-forced`, and both the torsion-to-integer bridge and native source
+action remain unbuilt. Integer-index/anomaly descent must compare the complete
+effective action, including determinant phase, measure, state, boundary, and
+regulator. Torsion/rho descent needs a separately typed map or functor. The
+finite control \(D_+^\mathsf TD_+=D_-^\mathsf TD_-=I\) with
+\(\det D_+=1\) and \(\det D_-=-1\) proves only that a positive source kernel
+can erase determinant orientation; it is not a GU model.
+
+Relative entropy is retained as a reusable instrument. GU/direct-action
+descent remains concept-open but cannot execute until the construction fork,
+source action, physical readout, and complete translation packet exist. See
+`relative-entropy-record-sufficiency-and-gu-index-direct-action-descent-admission-boundary-2026-07-29.md`.
 
 ## Boundary
 
