@@ -1,0 +1,809 @@
+{
+  "analytic_theorem": {
+    "algebra_antecedent": "The functional cannot be evaluated on products until the algebra product, involution and test/source labels are fixed.",
+    "finite_record_boundary": "No fixed finite correlation order determines an unrestricted positive functional hierarchy.",
+    "gns_reconstruction": "For fixed A and positive omega, quotienting N_omega and completing gives a cyclic star representation unique up to the standard unitary equivalence.",
+    "os_reconstruction": "Euclidean Schwinger functions satisfying the precise OS axioms reconstruct Wightman/Hamiltonian data; reflection positivity is load-bearing.",
+    "wightman_reconstruction": "A complete positive Wightman functional satisfying the declared axioms reconstructs the corresponding relativistic QFT representation up to unitary equivalence."
+  },
+  "check_count": 27,
+  "checks": {
+    "all_retained_moments_match": true,
+    "commutative_cyclic_vector_spans_basis": true,
+    "commutative_gram_is_identity": true,
+    "commutative_left_representation_is_multiplicative": true,
+    "commutative_packet_commutes": true,
+    "commutative_star_matches_gns_adjoint": true,
+    "commutative_triple_is_positive_one": true,
+    "explicit_states_match_through_second_moment": true,
+    "explicit_third_moment_is_first_leak": true,
+    "finite_difference_gap_formula_is_exact": true,
+    "finite_hierarchy_states_are_normalized": true,
+    "finite_hierarchy_states_are_strictly_positive": true,
+    "held_out_triple_separates_products": true,
+    "matrix_cyclic_vector_spans_basis": true,
+    "matrix_gram_is_identity": true,
+    "matrix_left_representation_is_multiplicative": true,
+    "matrix_packet_is_noncommutative": true,
+    "matrix_star_matches_gns_adjoint": true,
+    "matrix_triple_is_negative_one": true,
+    "next_moment_always_leaks": true,
+    "nonfaithful_gram_has_rank_one": true,
+    "nonfaithful_state_has_exact_null_vector": true,
+    "nonpositive_gram_has_negative_determinant": true,
+    "normalized_nonpositive_functional_has_negative_norm": true,
+    "null_space_is_left_invariant": true,
+    "same_state_coordinates": true,
+    "same_two_point_gram": true
+  },
+  "claim_id": "HC-DU-128",
+  "definitions": {
+    "cyclic_domain": "D_omega = pi_omega(A) Omega_omega",
+    "full_correlation_functional": "omega evaluated on every admitted algebra word/test tuple",
+    "gns_pairing": "<[a],[b]> = omega(a* b)",
+    "null_ideal": "N_omega = {a : omega(a* a)=0}",
+    "state_packet": "(A, *, omega)"
+  },
+  "finite_hierarchy_first_leak": {
+    "explicit_order_two": {
+      "state_a": {
+        "moments_0_to_3": [
+          "1",
+          "0",
+          "1",
+          "0"
+        ],
+        "nodes": [
+          -1,
+          1
+        ],
+        "weights": [
+          "1/2",
+          "1/2"
+        ]
+      },
+      "state_b": {
+        "moments_0_to_3": [
+          "1",
+          "0",
+          "1",
+          "1"
+        ],
+        "nodes": [
+          -1,
+          0,
+          2
+        ],
+        "weights": [
+          "1/3",
+          "1/2",
+          "1/6"
+        ]
+      }
+    },
+    "general_family": [
+      {
+        "epsilon": "1/4",
+        "expected_gap_magnitude": "1/2",
+        "finite_difference_next_gap": "1/2",
+        "next_minus": "1/4",
+        "next_plus": "3/4",
+        "nodes": [
+          0,
+          1
+        ],
+        "order": 0,
+        "retained_minus": [
+          "1"
+        ],
+        "retained_plus": [
+          "1"
+        ],
+        "signed_difference": [
+          "-1",
+          "1"
+        ],
+        "state_minus": [
+          "3/4",
+          "1/4"
+        ],
+        "state_plus": [
+          "1/4",
+          "3/4"
+        ]
+      },
+      {
+        "epsilon": "1/12",
+        "expected_gap_magnitude": "1/3",
+        "finite_difference_next_gap": "1/3",
+        "next_minus": "3/2",
+        "next_plus": "11/6",
+        "nodes": [
+          0,
+          1,
+          2
+        ],
+        "order": 1,
+        "retained_minus": [
+          "1",
+          "1"
+        ],
+        "retained_plus": [
+          "1",
+          "1"
+        ],
+        "signed_difference": [
+          "1",
+          "-2",
+          "1"
+        ],
+        "state_minus": [
+          "1/4",
+          "1/2",
+          "1/4"
+        ],
+        "state_plus": [
+          "5/12",
+          "1/6",
+          "5/12"
+        ]
+      },
+      {
+        "epsilon": "1/24",
+        "expected_gap_magnitude": "1/2",
+        "finite_difference_next_gap": "1/2",
+        "next_minus": "35/4",
+        "next_plus": "37/4",
+        "nodes": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "order": 2,
+        "retained_minus": [
+          "1",
+          "3/2",
+          "7/2"
+        ],
+        "retained_plus": [
+          "1",
+          "3/2",
+          "7/2"
+        ],
+        "signed_difference": [
+          "-1",
+          "3",
+          "-3",
+          "1"
+        ],
+        "state_minus": [
+          "7/24",
+          "1/8",
+          "3/8",
+          "5/24"
+        ],
+        "state_plus": [
+          "5/24",
+          "3/8",
+          "1/8",
+          "7/24"
+        ]
+      },
+      {
+        "epsilon": "1/60",
+        "expected_gap_magnitude": "4/5",
+        "finite_difference_next_gap": "4/5",
+        "next_minus": "352/5",
+        "next_plus": "356/5",
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "order": 3,
+        "retained_minus": [
+          "1",
+          "2",
+          "6",
+          "20"
+        ],
+        "retained_plus": [
+          "1",
+          "2",
+          "6",
+          "20"
+        ],
+        "signed_difference": [
+          "1",
+          "-4",
+          "6",
+          "-4",
+          "1"
+        ],
+        "state_minus": [
+          "11/60",
+          "4/15",
+          "1/10",
+          "4/15",
+          "11/60"
+        ],
+        "state_plus": [
+          "13/60",
+          "2/15",
+          "3/10",
+          "2/15",
+          "13/60"
+        ]
+      },
+      {
+        "epsilon": "1/120",
+        "expected_gap_magnitude": "2",
+        "finite_difference_next_gap": "2",
+        "next_minus": "1473/2",
+        "next_plus": "1477/2",
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "order": 4,
+        "retained_minus": [
+          "1",
+          "5/2",
+          "55/6",
+          "75/2",
+          "979/6"
+        ],
+        "retained_plus": [
+          "1",
+          "5/2",
+          "55/6",
+          "75/2",
+          "979/6"
+        ],
+        "signed_difference": [
+          "-1",
+          "5",
+          "-10",
+          "10",
+          "-5",
+          "1"
+        ],
+        "state_minus": [
+          "7/40",
+          "1/8",
+          "1/4",
+          "1/12",
+          "5/24",
+          "19/120"
+        ],
+        "state_plus": [
+          "19/120",
+          "5/24",
+          "1/12",
+          "1/4",
+          "1/8",
+          "7/40"
+        ]
+      },
+      {
+        "epsilon": "1/280",
+        "expected_gap_magnitude": "36/7",
+        "finite_difference_next_gap": "36/7",
+        "next_minus": "67153/7",
+        "next_plus": "67189/7",
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "order": 5,
+        "retained_minus": [
+          "1",
+          "3",
+          "13",
+          "63",
+          "325",
+          "1743"
+        ],
+        "retained_plus": [
+          "1",
+          "3",
+          "13",
+          "63",
+          "325",
+          "1743"
+        ],
+        "signed_difference": [
+          "1",
+          "-6",
+          "15",
+          "-20",
+          "15",
+          "-6",
+          "1"
+        ],
+        "state_minus": [
+          "39/280",
+          "23/140",
+          "5/56",
+          "3/14",
+          "5/56",
+          "23/140",
+          "39/280"
+        ],
+        "state_plus": [
+          "41/280",
+          "17/140",
+          "11/56",
+          "1/14",
+          "11/56",
+          "17/140",
+          "41/280"
+        ]
+      },
+      {
+        "epsilon": "1/560",
+        "expected_gap_magnitude": "18",
+        "finite_difference_next_gap": "18",
+        "next_minus": "150029",
+        "next_plus": "150047",
+        "nodes": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "order": 6,
+        "retained_minus": [
+          "1",
+          "7/2",
+          "35/2",
+          "98",
+          "1169/2",
+          "3626",
+          "46205/2"
+        ],
+        "retained_plus": [
+          "1",
+          "7/2",
+          "35/2",
+          "98",
+          "1169/2",
+          "3626",
+          "46205/2"
+        ],
+        "signed_difference": [
+          "-1",
+          "7",
+          "-21",
+          "35",
+          "-35",
+          "21",
+          "-7",
+          "1"
+        ],
+        "state_minus": [
+          "71/560",
+          "9/80",
+          "13/80",
+          "1/16",
+          "3/16",
+          "7/80",
+          "11/80",
+          "69/560"
+        ],
+        "state_plus": [
+          "69/560",
+          "11/80",
+          "7/80",
+          "3/16",
+          "1/16",
+          "13/80",
+          "9/80",
+          "71/560"
+        ]
+      }
+    ],
+    "status": "REGRESSION_OF_HC_DU_100_NOT_NEW_THEOREM"
+  },
+  "fixed_packet_gns": {
+    "commutative_left_representation": [
+      [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "cyclic_vector": [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "domain_dimension": 4,
+    "matrix_left_representation": [
+      [
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      [
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "-1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "0",
+          "-1"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ]
+      ],
+      [
+        [
+          "0",
+          "0",
+          "0",
+          "1"
+        ],
+        [
+          "0",
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "1",
+          "0",
+          "0",
+          "0"
+        ]
+      ]
+    ],
+    "pairing": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ]
+  },
+  "local_model_learning_gate": {
+    "disposition": "PROOF_FIRST_MINIMAL_REGRESSION_ONLY",
+    "hardware": "irrelevant",
+    "learning": "Formal reconstruction and exact counterexamples determine the boundary; the executable artifact preserves them only.",
+    "simulation": "not admitted"
+  },
+  "non_claims": [
+    "not a new GNS, Wightman, Osterwalder-Schrader or moment theorem",
+    "not a selected physical algebra, state, source, geometry or interface",
+    "not a finite formed record or acquisition theorem",
+    "not a GU, Krein, gauge-field or indefinite-metric reconstruction",
+    "not field-ontology or direct-action-ontology selection",
+    "not empirical excess, a new law, new physics or a prediction"
+  ],
+  "null_quotient": {
+    "algebra": "R[x]/(x^2=1)",
+    "gram": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "null_norm": "0",
+    "null_vector": [
+      "1",
+      "-1"
+    ],
+    "positive_state": "omega(1)=1, omega(x)=1",
+    "quotient_dimension": 1
+  },
+  "positivity_boundary": {
+    "algebra": "R[x]/(x^2=1)",
+    "consequence": "No positive Hilbert GNS packet follows.",
+    "gram": [
+      [
+        "1",
+        "2"
+      ],
+      [
+        "2",
+        "1"
+      ]
+    ],
+    "negative_norm": "-2",
+    "negative_vector": [
+      "1",
+      "-1"
+    ],
+    "normalized_functional": "omega(1)=1, omega(x)=2"
+  },
+  "result": "FIXED_STAR_ALGEBRA_PLUS_FULL_POSITIVE_FUNCTIONAL_RECONSTRUCTS_ITS_CYCLIC_GNS_PACKET+FUNCTIONAL_VALUES_AND_TWO_POINT_PAIRING_DO_NOT_SELECT_PRODUCT+POSITIVITY_IS_LOAD_BEARING+NULL_QUOTIENT_IS_FUNCTIONAL_RELATIVE+EVERY_FIXED_FINITE_CORRELATION_ORDER_HAS_A_NEXT_ORDER_LEAK+WIGHTMAN_OS_RECONSTRUCTION_IS_A_CONDITIONAL_POSITIVE+THEORETICAL_FUNCTIONAL_IS_NOT_A_FORMED_FINITE_RECORD+NO_GU_OR_INDEFINITE_METRIC_TRANSFER",
+  "same_state_and_pairing_different_product": {
+    "basis": [
+      "1",
+      "a",
+      "b",
+      "c"
+    ],
+    "commutative_commutator_ab": [
+      "0",
+      "0",
+      "0",
+      "0"
+    ],
+    "commutative_gram": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "commutative_triple_omega_abc": "1",
+    "interpretation": "The linear functional and induced two-point Hilbert pairing are identical, while the supplied algebra product differs.",
+    "matrix_commutator_ab": [
+      "0",
+      "0",
+      "0",
+      "-2"
+    ],
+    "matrix_gram": [
+      [
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "matrix_triple_omega_abc": "-1",
+    "state_coordinates": [
+      "1",
+      "0",
+      "0",
+      "0"
+    ]
+  },
+  "schema_version": "1.0",
+  "status": "PASS"
+}

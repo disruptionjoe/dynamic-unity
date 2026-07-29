@@ -622,6 +622,42 @@ GU construction; transfer to unbounded operators, QFT, or gravity; produce
 empirical excess; or authorize a prediction, paper, hardware, provider,
 publication, or other external action.
 
+## HC-DU-128 positive-functional QFT reconstruction boundary
+
+`du_positive_functional_qft_reconstruction_probe.py` preserves the exact
+finite controls behind the positive-functional reconstruction boundary:
+
+- one commutative Walsh star algebra and one noncommutative real matrix star
+  algebra share the same state coordinates and identity two-point GNS Gram
+  matrix but have opposite held-out triple expectation;
+- within each fixed packet, left multiplication is a cyclic star
+  representation and reconstructs the declared finite algebra;
+- a normalized nonpositive functional has an exact negative-norm witness and
+  cannot produce an ordinary Hilbert GNS packet;
+- a nonfaithful positive state has a left-invariant null ideal and a
+  one-dimensional quotient; and
+- for every retained moment order \(0\) through \(6\), two strictly positive
+  finite-support states agree through that order and differ at the next.
+
+Run:
+
+```bash
+python3 tests/du_positive_functional_qft_reconstruction_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_positive_functional_qft_reconstruction_result.json` and reports
+`27/27`. Passing is a bounded exact regression of standard finite GNS,
+star-algebra, positivity, null-quotient, moment, and finite-difference
+mathematics. It does not establish Wightman/OS reconstruction by computation;
+select an observable algebra, product, involution, state, spacetime,
+source/test structure, record interface, observer, archive, or access
+boundary; turn an infinite theoretical functional into a finite formed
+record; transfer ordinary positivity to indefinite/Krein or GU structure;
+produce empirical excess, a new law, new physics, or a prediction; or
+authorize a paper, model, hardware, provider, publication, or other external
+action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

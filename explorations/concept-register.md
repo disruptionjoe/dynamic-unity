@@ -5261,6 +5261,43 @@ ontology, GU bridge, QFT transfer, empirical excess, or new law is selected.
 See
 `pairing-complete-dual-valued-source-response-and-factorization-fibre-2026-07-29.md`.
 
+### 2026-07-29 positive-functional QFT reconstruction and finite-record boundary
+
+`HC-DU-128` tests the first exact infinite-dimensional/QFT reopener named by
+`HC-DU-127`.
+
+On a fixed unital star algebra \(\mathcal A\), a normalized positive
+functional \(\omega\) constructs the GNS pairing
+\(\langle[a],[b]\rangle=\omega(a^*b)\), the functional-relative null quotient,
+the cyclic representation, cyclic vector, and common algebraic domain. A
+complete functional is therefore sufficient, and minimal up to
+information-equivalent encoding, for every query in the fixed algebra.
+Wightman and Osterwalder--Schrader reconstruction provide a genuine
+conditional QFT positive when the full correlation hierarchy and their
+remaining algebraic, causal, symmetry, spectrum, locality, positivity, and
+regularity conditions are supplied.
+
+The positive has a hard antecedent boundary. One four-dimensional real vector
+space carries both a commutative Walsh algebra and a noncommutative matrix
+algebra with the same state coordinates and two-point GNS Gram matrix, while
+the expectation of one triple product is \(+1\) in one packet and \(-1\) in
+the other. State values and pairing do not select multiplication or
+involution. A normalized nonpositive functional supplies no Hilbert GNS
+space, while a nonfaithful positive state creates a functional-relative null
+quotient. Ordinary positive reconstruction also does not transfer to an
+indefinite/Krein packet without an additional Hilbert-space structure
+condition.
+
+Every fixed finite moment order has an exact next-order first leak in the
+unrestricted positive class. The complete theoretical functional or
+Wightman hierarchy is thus not yet a finite physically formed record. A
+physical North-Star successor requires a preselected algebra and state class,
+a finite sufficient-statistic theorem, a realizable formed
+probe/readout/archive/access interface, complete lineage and bounded
+resources, and no-refit held-out transfer. No QFT or GU successor, ontology
+priority, empirical excess, new law, or prediction is selected. See
+`positive-functional-qft-reconstruction-algebra-antecedent-and-finite-record-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
