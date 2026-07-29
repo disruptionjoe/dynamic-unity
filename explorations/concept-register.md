@@ -4468,6 +4468,54 @@ crosslink and event acquisition, and unchanged transfer to a held-out
 regional causal or conformal relation. See
 `reciprocal-crosslink-self-calibration-distance-clock-gauge-and-asymmetric-delay-boundary-2026-07-29.md`.
 
+### 2026-07-29 fixed null-front event control and physical-formation boundary
+
+`HC-DU-109` closes the flat kinematic portion of the source-formation
+question. Freeze the four null covectors
+
+\[
+(1,1,0,0),\quad(1,-1,0,0),\quad(1,0,1,0),\quad(1,0,0,1).
+\]
+
+Their phase matrix has determinant \(-2\), so one unchanged architecture with
+four continuously variable phase settings \(c\) addresses exactly one
+Minkowski event:
+
+\[
+t=\frac{c_1+c_2}{2},\quad
+x=\frac{c_1-c_2}{2},\quad
+y=c_3-t,\quad
+z=c_4-t.
+\]
+
+The smallest singular value is
+\(\sqrt{(5-\sqrt{17})/2}>0.66\), giving a fixed positive
+phase-to-event stability margin. Three scalar phases leave the exact kernel
+direction \((0,0,0,1)\). Continuous control therefore removes event-specific
+architectural redesign, but it is not a finite packet: a finite exact codebook
+forms only finitely many exact events, while finite bits support only a
+declared finite resolution.
+
+Source timing is a separate physical interface. If the realized phase is
+\(c+\lambda\), two positive unknown latency vectors can make one retained
+command compatible with different events. Authentication protects the command
+but does not certify the physically realized phase. `HC-DU-108` calibrates the
+detector network, not the source emission chains.
+
+Ideal null-front intersection is not yet a nonlinear formed event. A specified
+PDE must produce a nonzero detectable mixed response, the input/output lineage
+must be retained, and the control packet must transfer to unknown curved
+geometry without choosing phases, beams, or the decoder from the held-out
+metric. Nonlinear Lorentzian inverse theory absorbs the artificial-point-source
+concept while retaining those supplied interfaces.
+
+The remaining candidate is one fixed null-front architecture with a
+predeclared finite-resolution control codebook, independently bounded source
+latency, physical nonlinear formation, reciprocal self-calibrated detector
+crosslinks, complete provenance/acquisition, and unchanged transfer to a
+held-out regional causal or conformal relation. See
+`fixed-null-front-interaction-controllability-continuous-control-and-geometry-refit-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

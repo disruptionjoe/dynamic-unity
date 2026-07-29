@@ -1,0 +1,23 @@
+{
+  "boundary": "Regression only: no nonlinear PDE interaction, detectable outgoing singularity, physical source selection, source timing honesty, finite exact continuum control, curved-spacetime controllability, event association, complete acquisition, regional geometry, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-109",
+  "controls": {
+    "all_covectors_null": true,
+    "all_targets_exactly_recovered": true,
+    "finite_codebook_exact_event_count": 5,
+    "fixed_null_front_count": 4,
+    "phase_matrix_determinant": "-2",
+    "phase_to_event_condition_number": 3.2255049266776936,
+    "same_command_different_positive_latency_event_witness": true,
+    "smallest_singular_value": 0.6621534468619564,
+    "squared_singular_values": [
+      "(5-sqrt(17))/2",
+      "1",
+      "2",
+      "(5+sqrt(17))/2"
+    ],
+    "target_event_count_checked": 4,
+    "three_channel_kernel_dimension_at_least": 1
+  },
+  "status": "PASS"
+}
