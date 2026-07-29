@@ -1,0 +1,327 @@
+{
+  "check_count": 36,
+  "checks": {
+    "disjoint_orbit_1_has_full_rank": true,
+    "disjoint_orbit_1_is_pairwise_disjoint": true,
+    "disjoint_orbit_2_has_full_rank": true,
+    "disjoint_orbit_2_is_pairwise_disjoint": true,
+    "disjoint_orbit_3_has_full_rank": true,
+    "disjoint_orbit_3_is_pairwise_disjoint": true,
+    "disjoint_orbit_5_has_full_rank": true,
+    "disjoint_orbit_5_is_pairwise_disjoint": true,
+    "disjoint_orbit_8_has_full_rank": true,
+    "disjoint_orbit_8_is_pairwise_disjoint": true,
+    "gaussian_1_held_out_mode_is_first_leak": true,
+    "gaussian_1_inside_target_reconstructs": true,
+    "gaussian_1_retained_sector_is_identical": true,
+    "gaussian_2_held_out_mode_is_first_leak": true,
+    "gaussian_2_inside_target_reconstructs": true,
+    "gaussian_2_retained_sector_is_identical": true,
+    "gaussian_3_held_out_mode_is_first_leak": true,
+    "gaussian_3_inside_target_reconstructs": true,
+    "gaussian_3_retained_sector_is_identical": true,
+    "gaussian_5_held_out_mode_is_first_leak": true,
+    "gaussian_5_inside_target_reconstructs": true,
+    "gaussian_5_retained_sector_is_identical": true,
+    "indexed_local_packet_family_is_exactly_covariant": true,
+    "one_fixed_local_packet_is_not_invariant_under_large_shift": true,
+    "periodic_2_character_is_global_not_local": true,
+    "periodic_2_character_line_is_invariant": true,
+    "periodic_2_local_orbit_is_finite_complete": true,
+    "periodic_3_character_is_global_not_local": true,
+    "periodic_3_character_line_is_invariant": true,
+    "periodic_3_local_orbit_is_finite_complete": true,
+    "periodic_5_character_is_global_not_local": true,
+    "periodic_5_character_line_is_invariant": true,
+    "periodic_5_local_orbit_is_finite_complete": true,
+    "periodic_7_character_is_global_not_local": true,
+    "periodic_7_character_line_is_invariant": true,
+    "periodic_7_local_orbit_is_finite_complete": true
+  },
+  "claim_id": "HC-DU-130",
+  "continuum_gaussian_first_leak": {
+    "construction": "Two product Gaussian states agree on every retained mode; one extra oscillator is vacuum in state A and thermal with covariance 3/2 I in state B.",
+    "controls": [
+      {
+        "hidden_variance_state_a": "1/2",
+        "hidden_variance_state_b": "3/2",
+        "hidden_weyl_exponent_state_a": "-1/4",
+        "hidden_weyl_exponent_state_b": "-3/4",
+        "inside_target_variance": "1/2",
+        "retained_modes": 1,
+        "retained_quadrature_dimension": 2,
+        "same_complete_retained_covariance": true
+      },
+      {
+        "hidden_variance_state_a": "1/2",
+        "hidden_variance_state_b": "3/2",
+        "hidden_weyl_exponent_state_a": "-1/4",
+        "hidden_weyl_exponent_state_b": "-3/4",
+        "inside_target_variance": "1/2",
+        "retained_modes": 2,
+        "retained_quadrature_dimension": 4,
+        "same_complete_retained_covariance": true
+      },
+      {
+        "hidden_variance_state_a": "1/2",
+        "hidden_variance_state_b": "3/2",
+        "hidden_weyl_exponent_state_a": "-1/4",
+        "hidden_weyl_exponent_state_b": "-3/4",
+        "inside_target_variance": "1/2",
+        "retained_modes": 3,
+        "retained_quadrature_dimension": 6,
+        "same_complete_retained_covariance": true
+      },
+      {
+        "hidden_variance_state_a": "1/2",
+        "hidden_variance_state_b": "3/2",
+        "hidden_weyl_exponent_state_a": "-1/4",
+        "hidden_weyl_exponent_state_b": "-3/4",
+        "inside_target_variance": "1/2",
+        "retained_modes": 5,
+        "retained_quadrature_dimension": 10,
+        "same_complete_retained_covariance": true
+      }
+    ],
+    "interpretation": "The finite population packet exactly reconstructs the restricted Gaussian state. A target on an independently admitted complementary mode does not factor through it."
+  },
+  "escape_controls": [
+    {
+      "character": 1,
+      "character_exponents": [
+        0,
+        1
+      ],
+      "character_support_size": 2,
+      "delta_orbit_dimension": 2,
+      "group": "Z/2Z",
+      "translation_phase_exponents": [
+        0,
+        1
+      ]
+    },
+    {
+      "character": 1,
+      "character_exponents": [
+        0,
+        1,
+        2
+      ],
+      "character_support_size": 3,
+      "delta_orbit_dimension": 3,
+      "group": "Z/3Z",
+      "translation_phase_exponents": [
+        0,
+        2,
+        1
+      ]
+    },
+    {
+      "character": 1,
+      "character_exponents": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "character_support_size": 5,
+      "delta_orbit_dimension": 5,
+      "group": "Z/5Z",
+      "translation_phase_exponents": [
+        0,
+        4,
+        3,
+        2,
+        1
+      ]
+    },
+    {
+      "character": 1,
+      "character_exponents": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "character_support_size": 7,
+      "delta_orbit_dimension": 7,
+      "group": "Z/7Z",
+      "translation_phase_exponents": [
+        0,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ]
+    }
+  ],
+  "fixed_packet_theorem": {
+    "arena": "C_c^infinity(R^d)",
+    "finite_controls": [
+      {
+        "evaluation_rank": 1,
+        "orbit_size": 1,
+        "supports": [
+          [
+            "-1/2",
+            "1/2"
+          ]
+        ],
+        "witnesses": [
+          "0"
+        ]
+      },
+      {
+        "evaluation_rank": 2,
+        "orbit_size": 2,
+        "supports": [
+          [
+            "-1/2",
+            "1/2"
+          ],
+          [
+            "5/2",
+            "7/2"
+          ]
+        ],
+        "witnesses": [
+          "0",
+          "3"
+        ]
+      },
+      {
+        "evaluation_rank": 3,
+        "orbit_size": 3,
+        "supports": [
+          [
+            "-1/2",
+            "1/2"
+          ],
+          [
+            "5/2",
+            "7/2"
+          ],
+          [
+            "11/2",
+            "13/2"
+          ]
+        ],
+        "witnesses": [
+          "0",
+          "3",
+          "6"
+        ]
+      },
+      {
+        "evaluation_rank": 5,
+        "orbit_size": 5,
+        "supports": [
+          [
+            "-1/2",
+            "1/2"
+          ],
+          [
+            "5/2",
+            "7/2"
+          ],
+          [
+            "11/2",
+            "13/2"
+          ],
+          [
+            "17/2",
+            "19/2"
+          ],
+          [
+            "23/2",
+            "25/2"
+          ]
+        ],
+        "witnesses": [
+          "0",
+          "3",
+          "6",
+          "9",
+          "12"
+        ]
+      },
+      {
+        "evaluation_rank": 8,
+        "orbit_size": 8,
+        "supports": [
+          [
+            "-1/2",
+            "1/2"
+          ],
+          [
+            "5/2",
+            "7/2"
+          ],
+          [
+            "11/2",
+            "13/2"
+          ],
+          [
+            "17/2",
+            "19/2"
+          ],
+          [
+            "23/2",
+            "25/2"
+          ],
+          [
+            "29/2",
+            "31/2"
+          ],
+          [
+            "35/2",
+            "37/2"
+          ],
+          [
+            "41/2",
+            "43/2"
+          ]
+        ],
+        "witnesses": [
+          "0",
+          "3",
+          "6",
+          "9",
+          "12",
+          "15",
+          "18",
+          "21"
+        ]
+      }
+    ],
+    "proof": "A nonzero compactly supported function has arbitrarily many pairwise disjoint translates; private-point evaluation makes them linearly independent."
+  },
+  "indexed_family_repair": {
+    "all_exact_checks_pass": true,
+    "definition": "S_x = tau_x S_0",
+    "family_law": "tau_b(S_x) = S_(x+b)",
+    "interpretation": "Covariance moves a finite local packet with its physical region index; it does not leave one fixed packet invariant."
+  },
+  "local_model_learning_gate": {
+    "disposition": "PROOF_FIRST_MINIMAL_REGRESSION_ONLY",
+    "hardware": "irrelevant",
+    "simulation": "not admitted"
+  },
+  "non_claims": [
+    "not a no-go on covariant families of finite local instruments",
+    "not a no-go on finite nonlocal spectral sectors",
+    "not a no-go on finite periodic or cutoff arenas",
+    "not a selected QFT mode family, state, observer or record interface",
+    "not continuum-state reconstruction from finite records",
+    "not empirical excess, a new law, new physics or a prediction"
+  ],
+  "result": "NO_NONZERO_FIXED_FINITE_TRANSLATION_INVARIANT_LOCAL_PACKET+INDEXED_FINITE_LOCAL_PACKET_FAMILY_IS_COVARIANT+FULL_LOCAL_TRANSLATION_ORBIT_HAS_UNBOUNDED_DIMENSION+NONLOCAL_CHARACTER_AND_FINITE_PERIODIC_ESCAPES_PRESERVED+FINITE_GAUSSIAN_PACKET_RECONSTRUCTS_ONLY_ITS_RESTRICTION+COMPLEMENT_MODE_IS_THE_CONTINUUM_FIRST_LEAK+NO_READY_SUCCESSOR",
+  "schema_version": "1.0",
+  "status": "PASS"
+}

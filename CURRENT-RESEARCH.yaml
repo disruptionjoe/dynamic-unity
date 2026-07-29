@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 80
+state_revision: 81
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-129: n(2n+1) single-quadrature populations determine a finite-mode
-    Gaussian state, but every finite binned transcript retains a continuum of
-    states. Bounded covariance plus declared error/confidence gives a finite
-    certificate; Fock/thermal twins expose non-Gaussian leakage. Gaussianity
-    and the interface remain supplied; no successor is selected.
+    HC-DU-130: no nonzero finite packet of compactly supported continuum
+    smearings is translation-invariant. Covariance survives as a
+    region-indexed family with infinite orbit; nonlocal or finite-periodic
+    packets escape. Finite Gaussian data reconstruct only the restricted
+    state; one complementary mode leaks. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

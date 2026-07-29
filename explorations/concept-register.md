@@ -5338,6 +5338,43 @@ observer, interface, QFT continuum transfer, GU/Krein packet, empirical
 excess, law, or prediction. See
 `gaussian-population-reconstruction-finite-shot-certificate-and-nongaussian-first-leak-2026-07-29.md`.
 
+### 2026-07-29 covariant local finite-mode trilemma and indexed-family repair
+
+`HC-DU-130` tests whether the finite Gaussian packet in `HC-DU-129` can be one
+fixed finite local continuum sector while respecting translations.
+
+It cannot. No nonzero finite-dimensional subspace of
+\(C_c^\infty(\mathbb R^d)\) is invariant under every translation: one
+nonzero compactly supported function has arbitrarily many pairwise disjoint,
+therefore linearly independent, translates. The correct covariant local
+object is instead an indexed family
+\[
+S_x=\tau_xS_0,
+\qquad
+\tau_aS_x=S_{x+a}.
+\]
+Every member may be finite and properly local, but the span of the full orbit
+is infinite-dimensional. This does not require an infinitely complicated
+law or simultaneous archive: one base packet and the group action can specify
+the entire family compactly.
+
+Two exact escapes fix the scope. A finite translation-character sector is
+invariant but nonlocal on noncompact spacetime. A finite periodic site arena
+admits finite local invariant packets because discretization and periodicity
+have changed the arena. Neither refutes the scoped continuum theorem.
+
+For a larger CCR system \(H=S\oplus T\), two product Gaussian states can agree
+on every accessible Weyl observable in \(\mathcal W(S)\) and differ on one
+complementary oscillator. A finite Gaussian packet therefore reconstructs
+exactly the restricted state and precisely those held-out targets that factor
+through that restriction; it does not reconstruct the continuum completion.
+
+The result is a scoped Grade-4 local--finite--translation-covariance necessity
+and continuum-complement first-leak boundary plus conditional Grade-3
+target-relative reconstruction. It selects no mode family, QFT, state,
+detector, observer, interface, empirical excess, new law, or prediction. See
+`covariant-local-finite-mode-trilemma-indexed-family-repair-and-continuum-gaussian-first-leak-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

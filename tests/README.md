@@ -695,6 +695,38 @@ non-Gaussian states, or GU/Krein theory; produce empirical excess, a new law,
 new physics, or a prediction; or authorize a paper, model, hardware, provider,
 publication, or other external action.
 
+## HC-DU-130 covariant local finite-mode trilemma
+
+`du_covariant_local_finite_mode_trilemma_probe.py` preserves the exact
+controls behind the continuum packet boundary:
+
+- compactly supported translated bumps with pairwise disjoint support have
+  exact full orbit rank for tested packet sizes;
+- a region-indexed finite local packet family obeys translation covariance;
+- one fixed local packet changes under a sufficiently large translation;
+- finite cyclic arenas retain finite local translation orbits, while character
+  lines are finite and invariant but global;
+- arbitrary retained Gaussian packet sizes can agree exactly while one hidden
+  oscillator has different vacuum and thermal covariance; and
+- an inside target agrees while a held-out Weyl target on the complementary
+  mode differs.
+
+Run:
+
+```bash
+python3 tests/du_covariant_local_finite_mode_trilemma_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_covariant_local_finite_mode_trilemma_result.json` and reports
+`36/36`. Passing is a bounded exact regression of the disjoint-translate
+proof, indexed-family repair, periodic/nonlocal escapes, and Gaussian
+restriction first leak. It does not select a mode family, state, algebra,
+detector, observer, interface, compactification, QFT, empirical excess, new
+law, new physics, or prediction; transfer the raw test-function result to
+every on-shell quotient, net algebra, or interacting theory; or authorize a
+paper, model, hardware, provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
