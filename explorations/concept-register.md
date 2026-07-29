@@ -5178,6 +5178,46 @@ resource, formation, and access interface are separately typed.
 The result neither selects field nor direct-action ontology. See
 `homomorphic-cycle-record-formation-matroid-resource-regional-correlation-and-direct-action-descent-boundary-2026-07-29.md`.
 
+### 2026-07-29 source-action-native response record
+
+`HC-DU-126` constructs the source-native record requested by the
+field/direct-action descent boundary in the finite positive reciprocal
+quadratic arena.
+
+For a network with \(b\) labeled boundary terminals, exact stationary
+elimination of every interior mediator preserves the Dirichlet-to-Neumann
+operator \(\Lambda\). After grounding one terminal, the matrix
+\(A\in\operatorname{Sym}_{b-1}\) is the minimal complete record, up to
+information-equivalent encoding, for every linear boundary source response.
+Any equivalence relation that reconstructs every \(Ax\) must determine
+\(A\).
+
+Exactly \(b-1\) fixed linearly independent potential probes with joined
+current-vector readout are necessary and sufficient to form this complete
+record. Full rank gives \(A=YX^{-1}\) and exact no-refit transfer to every
+held-out source query. Rank deficiency leaves a physical
+same-record/different-response pair inside the open cone of strictly
+positive complete-boundary networks. If the interface returns only the
+scalar quadratic action, the exact minimum is instead
+\((b-1)b/2\) queries. The source law does not select which interface exists.
+
+One fixed three-terminal response has a star realization of cycle rank zero
+and, for every \(m\geq1\), a positive simple realization of cycle rank \(m\).
+Internal vertex count, edge count, and topology are therefore unbounded on
+one complete source-response fibre. Explicit-field and direct-relation
+presentations are operationally dual for the frozen source queries, not
+ontologically identified. The topology becomes an observer-accessible
+physical remainder only after a mediator-facing action is independently
+admitted and formed.
+
+The component mathematics is absorbed by Dirichlet-to-Neumann maps, inverse
+resistor networks, Schur/Kron reduction, star--triangle equivalence, and
+linear experimental design. The DU increment is the typed combination of
+source-native record, finite formation, no-refit capability transfer, and
+action-indexed representation fibre. No direct-action or field ontology,
+continuum/quantum transfer, empirical excess, or new law is selected. See
+`source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

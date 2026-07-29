@@ -1,0 +1,505 @@
+{
+  "checks": {
+    "ambiguity_pair_is_realized_by_positive_boundary_networks": true,
+    "b_minus_one_independent_vector_probes_are_necessary": true,
+    "b_minus_one_independent_vector_probes_are_sufficient": true,
+    "boundary_response_operator_descends_through_exact_mediator_elimination": true,
+    "field_and_direct_relation_presentations_are_source_query_dual": true,
+    "fixed_probe_record_transfers_to_held_out_boundary_queries": true,
+    "internal_topology_does_not_factor_through_source_action": true,
+    "internal_vertex_and_edge_counts_are_unbounded_on_one_source_fibre": true,
+    "mediator_facing_action_reopens_the_source_equivalence_class": true,
+    "no_continuum_quantum_or_empirical_excess": true,
+    "no_direct_action_or_field_ontology_selection": true,
+    "one_source_response_has_every_finite_cycle_rank": true,
+    "orthogonal_vector_probes_minimize_inverse_amplification": true,
+    "rank_deficient_probe_record_has_same_record_different_response_witness": true,
+    "response_law_does_not_select_probe_archive_observer_or_access": true,
+    "response_operator_is_complete_for_linear_source_capability": true,
+    "response_operator_is_minimal_up_to_information_equivalence": true,
+    "scalar_action_interface_uses_symmetric_matrix_dimension": true,
+    "scalar_action_query_omission_leaves_a_physical_ambiguity": true,
+    "sequential_and_one_shot_schur_elimination_agree": true,
+    "star_and_triangle_share_one_complete_source_response": true
+  },
+  "checks_passed": 21,
+  "checks_total": 21,
+  "claim_id": "HC-DU-126",
+  "formal_boundary": {
+    "direct_action": "A direct relation presentation and an explicit mediator presentation with the same response are operationally dual for the frozen source-query class, not ontologically identified.",
+    "formation": "With vector current readout, b-1 fixed independent boundary potential probes are necessary and sufficient. With only scalar action readout, n(n+1)/2 fixed queries are necessary and sufficient.",
+    "remainder": "One complete three-terminal source response admits positive simple mediator completions of every finite cycle rank. Topology becomes a physical remainder only after a mediator-facing action is admitted.",
+    "source_record": "The labeled boundary Dirichlet-to-Neumann operator is the minimal complete record, up to information-equivalent encoding, for all linear boundary source responses."
+  },
+  "non_claims": [
+    "not a dynamically selected probe, archive, observer, or access boundary",
+    "not a single-occurrence event record",
+    "not direct-action QED, AQFT, gravity, or a quantum effective action",
+    "not ontology equivalence or ontology selection",
+    "not empirical excess, prediction, or new physics"
+  ],
+  "robustness": {
+    "exact_error_identity": "A_hat - A = E X^-1",
+    "normalized_orthogonal_inverse_max_entry": "1",
+    "orthogonal_design_has_unit_condition_number": true,
+    "weak_direction_inverse_max_entry": "10",
+    "weak_probe_direction_amplifies_error": true
+  },
+  "scalar_interface": {
+    "both_positive_network_responses": true,
+    "complete_query_count": 6,
+    "complete_scalar_reconstruction": true,
+    "expected_symmetric_dimension": 6,
+    "grounded_dimension": 3,
+    "omitted_action_differs": true,
+    "omitted_query": [
+      "0",
+      "1",
+      "1"
+    ],
+    "retained_actions_equal": true,
+    "retained_query_count": 5
+  },
+  "status": "PASS",
+  "unbounded_topology_family": {
+    "analytic_extension": "all integers m >= 0",
+    "cycle_ranks_checked": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "members": [
+      {
+        "cycle_rank": 0,
+        "edges": 3,
+        "network": "star_3",
+        "vertices": 4
+      },
+      {
+        "cycle_rank": 1,
+        "edges": 4,
+        "network": "multipath_1",
+        "vertices": 4
+      },
+      {
+        "cycle_rank": 2,
+        "edges": 6,
+        "network": "multipath_2",
+        "vertices": 5
+      },
+      {
+        "cycle_rank": 3,
+        "edges": 8,
+        "network": "multipath_3",
+        "vertices": 6
+      },
+      {
+        "cycle_rank": 4,
+        "edges": 10,
+        "network": "multipath_4",
+        "vertices": 7
+      },
+      {
+        "cycle_rank": 5,
+        "edges": 12,
+        "network": "multipath_5",
+        "vertices": 8
+      },
+      {
+        "cycle_rank": 6,
+        "edges": 14,
+        "network": "multipath_6",
+        "vertices": 9
+      },
+      {
+        "cycle_rank": 7,
+        "edges": 16,
+        "network": "multipath_7",
+        "vertices": 10
+      },
+      {
+        "cycle_rank": 8,
+        "edges": 18,
+        "network": "multipath_8",
+        "vertices": 11
+      }
+    ],
+    "same_complete_source_response": true,
+    "target_response": [
+      [
+        "2",
+        "-1",
+        "-1"
+      ],
+      [
+        "-1",
+        "2",
+        "-1"
+      ],
+      [
+        "-1",
+        "-1",
+        "2"
+      ]
+    ],
+    "vertex_and_edge_counts_unbounded": true
+  },
+  "vector_probe_ambiguity": {
+    "both_positive_network_responses": true,
+    "boundary_count": 4,
+    "held_out_input": [
+      "0",
+      "0",
+      "1"
+    ],
+    "minus_held_out": [
+      "-4/5",
+      "-8/5",
+      "53/10"
+    ],
+    "plus_held_out": [
+      "-4/5",
+      "-8/5",
+      "11/2"
+    ],
+    "required_probe_count": 3,
+    "selected_outputs_equal": true,
+    "selected_probe_count": 2
+  },
+  "vector_reconstruction_specimens": [
+    {
+      "basis_transfer_exact": true,
+      "boundary_count": 3,
+      "cycle_rank": 1,
+      "grounded_response": [
+        [
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "2"
+        ]
+      ],
+      "held_out_input": [
+        "1",
+        "2"
+      ],
+      "held_out_output": [
+        "0",
+        "3"
+      ],
+      "interior_count": 0,
+      "network": "unit_triangle",
+      "nonorthogonal_transfer_exact": true,
+      "response": [
+        [
+          "2",
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1",
+          "2"
+        ]
+      ],
+      "sequential_elimination_invariant": true,
+      "vector_probes": 2
+    },
+    {
+      "basis_transfer_exact": true,
+      "boundary_count": 3,
+      "cycle_rank": 0,
+      "grounded_response": [
+        [
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "2"
+        ]
+      ],
+      "held_out_input": [
+        "1",
+        "2"
+      ],
+      "held_out_output": [
+        "0",
+        "3"
+      ],
+      "interior_count": 1,
+      "network": "star_3",
+      "nonorthogonal_transfer_exact": true,
+      "response": [
+        [
+          "2",
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1",
+          "2"
+        ]
+      ],
+      "sequential_elimination_invariant": true,
+      "vector_probes": 2
+    },
+    {
+      "basis_transfer_exact": true,
+      "boundary_count": 3,
+      "cycle_rank": 2,
+      "grounded_response": [
+        [
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "2"
+        ]
+      ],
+      "held_out_input": [
+        "1",
+        "2"
+      ],
+      "held_out_output": [
+        "0",
+        "3"
+      ],
+      "interior_count": 2,
+      "network": "multipath_2",
+      "nonorthogonal_transfer_exact": true,
+      "response": [
+        [
+          "2",
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1",
+          "2"
+        ]
+      ],
+      "sequential_elimination_invariant": true,
+      "vector_probes": 2
+    },
+    {
+      "basis_transfer_exact": true,
+      "boundary_count": 3,
+      "cycle_rank": 5,
+      "grounded_response": [
+        [
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "2"
+        ]
+      ],
+      "held_out_input": [
+        "1",
+        "2"
+      ],
+      "held_out_output": [
+        "0",
+        "3"
+      ],
+      "interior_count": 5,
+      "network": "multipath_5",
+      "nonorthogonal_transfer_exact": true,
+      "response": [
+        [
+          "2",
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "2",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1",
+          "2"
+        ]
+      ],
+      "sequential_elimination_invariant": true,
+      "vector_probes": 2
+    },
+    {
+      "basis_transfer_exact": true,
+      "boundary_count": 4,
+      "cycle_rank": 0,
+      "grounded_response": [
+        [
+          "3",
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "3",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1",
+          "3"
+        ]
+      ],
+      "held_out_input": [
+        "1",
+        "2",
+        "3"
+      ],
+      "held_out_output": [
+        "-2",
+        "2",
+        "6"
+      ],
+      "interior_count": 1,
+      "network": "star_4",
+      "nonorthogonal_transfer_exact": true,
+      "response": [
+        [
+          "3",
+          "-1",
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "3",
+          "-1",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1",
+          "3",
+          "-1"
+        ],
+        [
+          "-1",
+          "-1",
+          "-1",
+          "3"
+        ]
+      ],
+      "sequential_elimination_invariant": true,
+      "vector_probes": 3
+    },
+    {
+      "basis_transfer_exact": true,
+      "boundary_count": 5,
+      "cycle_rank": 6,
+      "grounded_response": [
+        [
+          "3",
+          "-1/2",
+          "-2/3",
+          "-5/6"
+        ],
+        [
+          "-1/2",
+          "11/2",
+          "-4/3",
+          "-5/3"
+        ],
+        [
+          "-2/3",
+          "-4/3",
+          "15/2",
+          "-5/2"
+        ],
+        [
+          "-5/6",
+          "-5/3",
+          "-5/2",
+          "9"
+        ]
+      ],
+      "held_out_input": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "held_out_output": [
+        "-10/3",
+        "-1/6",
+        "55/6",
+        "73/3"
+      ],
+      "interior_count": 0,
+      "network": "weighted_complete_5",
+      "nonorthogonal_transfer_exact": true,
+      "response": [
+        [
+          "3",
+          "-1/2",
+          "-2/3",
+          "-5/6",
+          "-1"
+        ],
+        [
+          "-1/2",
+          "11/2",
+          "-4/3",
+          "-5/3",
+          "-2"
+        ],
+        [
+          "-2/3",
+          "-4/3",
+          "15/2",
+          "-5/2",
+          "-3"
+        ],
+        [
+          "-5/6",
+          "-5/3",
+          "-5/2",
+          "9",
+          "-4"
+        ],
+        [
+          "-1",
+          "-2",
+          "-3",
+          "-4",
+          "10"
+        ]
+      ],
+      "sequential_elimination_invariant": true,
+      "vector_probes": 4
+    }
+  ]
+}

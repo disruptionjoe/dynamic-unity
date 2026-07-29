@@ -553,6 +553,41 @@ cost law; transfer to non-Abelian, continuous, AQFT, or continuum theories;
 produce empirical excess; or authorize a prediction, paper, hardware,
 provider, publication, or other external action.
 
+## HC-DU-126 source-action response record and mediator fibre
+
+`du_source_action_response_record_probe.py` preserves four exact finite
+reciprocal-network boundaries:
+
+- Schur/Kron elimination leaves the complete labeled boundary
+  Dirichlet-to-Neumann operator unchanged;
+- with \(b\) boundary terminals, \(b-1\) fixed independent potential probes
+  with joined current-vector output are necessary and sufficient to
+  reconstruct every held-out source response without refit;
+- an interface returning only scalar action values instead needs
+  \(n(n+1)/2\) fixed queries, where \(n=b-1\); and
+- one complete three-terminal source response has positive simple mediator
+  completions of every finite cycle rank, so internal topology does not
+  factor through source-only behavior.
+
+Run:
+
+```bash
+python3 tests/du_source_action_response_record_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_source_action_response_record_result.json` and reports
+`21/21` over six reconstruction specimens, exact full-rank and
+rank-deficient controls, two scalar-interface controls, one robustness
+comparison, and nine source-equivalent topology specimens. Passing is only
+a bounded exact regression of standard response-map, Schur-complement, and
+linear-identification mathematics. It does not select a probe, readout,
+archive, observer, access boundary, field or direct-action ontology; turn
+source-query operational duality into ontology equivalence; transfer to
+continuum, QFT, gravity, nonreciprocal, or nonlinear systems; produce
+empirical excess; or authorize a prediction, paper, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
