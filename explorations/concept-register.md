@@ -1869,6 +1869,52 @@ boundary/source class, target topology, and finite interval remains open.
 See
 `physical-regularity-gap-compactness-and-geometric-target-topology-boundary-2026-07-28.md`.
 
+### 2026-07-28 quantitative physical observability and finite packet cost
+
+`HC-DU-097` identifies the modulus needed to make `HC-DU-095` constructive.
+Let \(K_\delta\) be the compact target-distinct pair space. If admitted probes
+are uniformly \(L\)-Lipschitz and a physical probe distribution satisfies
+
+\[
+\nu\{m:|m(\theta)-m(\theta')|\geq a_\delta\}
+\geq p_\delta,\qquad 0<p_\delta<1
+\]
+
+for every pair in \(K_\delta\), then a
+\(Q_\delta=N(K_\delta,a_\delta/(2L))\) pair cover and a union bound give
+
+\[
+N
+\geq
+\frac{\log Q_\delta+\log(1/\alpha)}
+     {-\log(1-p_\delta)}
+\]
+
+random probes with uniform margin at least \(a_\delta/2\), with design
+success probability \(1-\alpha\). Retained error below \(a_\delta/4\) then
+gives the finite target-resolution certificate. An effective net and
+separator oracle give a deterministic \(Q_\delta\)-probe variant. If
+\(p_\delta=1\), one random probe covers the finite net almost surely.
+
+Compactness supplies none of \(L,a_\delta,p_\delta,Q_\delta\), the probe
+distribution, algorithm, joint campaign, or acquisition precision. An
+\(n\)-point class with only singleton probes requires \(n-1\) coordinates
+despite a \(\lceil\log_2n\rceil\)-bit information floor, and rescaling one
+probe makes its robust margin arbitrarily small.
+
+For the full \(H^s\) unit ball viewed in \(H^{s'}\), \(r=s-s'>0\),
+
+\[
+\log P_\epsilon\gtrsim\epsilon^{-d/r}.
+\]
+
+The compact class has infinite box dimension and no fixed finite-dimensional
+Hölder-stable encoding for its full identity target. Finite-dimensional
+manifold, attractor, sparse, low-rank, or parametric escapes require
+independent physical selection and collide with standard embedding or
+compressed-sensing results. See
+`quantitative-finite-probe-construction-small-ball-observability-and-sobolev-entropy-boundary-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing
