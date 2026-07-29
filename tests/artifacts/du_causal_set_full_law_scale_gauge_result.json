@@ -1,0 +1,26 @@
+{
+  "boundary": "Regression only: no physical density, dimensionful mark, clock, mass, interface, formation, provenance, access, certified record, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-112",
+  "controls": {
+    "absolute_scale_nonidentifiable_from_unmarked_law": true,
+    "causal_order_exactly_invariant": true,
+    "covarying_mark_restores_scale_gauge": true,
+    "dimension": 4,
+    "dimensionless_curvature_in_discreteness_units_invariant": true,
+    "dimensionless_volume_ratios_invariant": true,
+    "fixed_dimensionful_mark_breaks_scale_gauge": true,
+    "global_metric_scale": 1.5,
+    "joint_count_probability_controls": [
+      3.2501751868133057e-24,
+      5.1022912435290474e-18,
+      2.0345298986313444e-11,
+      2.9394651441656997e-06
+    ],
+    "known_fixed_mark_reconstructs_selected_proper_times": true,
+    "poisson_intensity_measure_exactly_invariant": true,
+    "regional_density_absorbs_local_conformal_scale": true,
+    "representative_joint_count_probabilities_equal": true,
+    "representative_unmarked_graph_statistics_invariant": true
+  },
+  "status": "PASS"
+}

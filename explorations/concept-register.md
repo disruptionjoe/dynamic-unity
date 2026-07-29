@@ -4599,6 +4599,47 @@ remains a finite-complexity control, not unrestricted smooth reconstruction.
 See
 `order-plus-volume-full-metric-reconstruction-event-density-and-provenance-boundary-2026-07-29.md`.
 
+### 2026-07-29 complete causal-set law and scale-anchor necessity
+
+`HC-DU-112` strengthens `HC-DU-111` from selected count statistics to the
+complete unmarked Poisson causal-set law. In dimension \(d\),
+
+\[
+(g,\rho)
+\longmapsto
+(c^2g,\rho/c^d)
+\]
+
+preserves both causal order and the full Poisson intensity measure. The
+induced ordered-event laws are therefore identical. Every chain, interval,
+suborder, graph, neural, consensus, or randomized statistic has the same
+distribution, so no further computation on the unmarked causal set can
+self-calibrate absolute scale.
+
+With homogeneous unknown density, relative and dimensionless geometry can
+remain identifiable. If density may vary regionally, the transformation
+
+\[
+g'=\Omega^2g,
+\qquad
+\rho'(x)=\rho(x)/\Omega(x)^d
+\]
+
+absorbs arbitrary local conformal scale as well.
+
+A fixed density or dimensionful mark can break the gauge conditionally. The
+controlled pair mark \(q_m(x,y)=e^{-m\tau_g(x,y)}\) reconstructs selected
+proper time when \(m\) is independently fixed; if \(m\mapsto m/c\), the gauge
+returns. Thus adding data is insufficient unless one dimensionful relation is
+physically fixed rather than transformed with the rival.
+
+The refined candidate is a source-formed conformally transferring event
+network with one independently selected, noncovarying, accessible
+scale-bearing physical mark; unique occurrence identity; bounded source
+latency; complete provenance and acquisition; and unchanged finite transfer
+to held-out regional metric geometry. See
+`complete-causal-set-law-scale-gauge-and-marked-anchor-necessity-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

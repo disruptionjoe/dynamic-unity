@@ -103,6 +103,36 @@ record, complete acquisition, metric-independent partition, unrestricted
 smooth metric, new physics, prediction, paper, model, hardware, provider,
 publication, or other external action.
 
+## HC-DU-112 complete causal-set scale-gauge gate
+
+`du_causal_set_full_law_scale_gauge_probe.py` preserves the exact finite
+controls behind the complete-law result:
+
+- compensated metric-density rescaling preserves the exact Poisson intensity
+  measure;
+- representative joint count probabilities, not merely their means, agree;
+- positive constant Weyl scaling preserves the causal order;
+- representative unmarked graph summaries remain unchanged;
+- free regional density absorbs local conformal scale;
+- volume ratios and curvature in discreteness units remain invariant;
+- a fixed known dimensionful pair mark breaks the scale gauge and
+  conditionally reconstructs selected proper-time intervals; and
+- an inversely covarying mark parameter restores the gauge.
+
+Run:
+
+```bash
+python3 tests/du_causal_set_full_law_scale_gauge_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_causal_set_full_law_scale_gauge_result.json`.
+Passing establishes only the scoped complete-law scale nonidentifiability and
+fixed-versus-covarying anchor controls. It does not select a physical density,
+dimensionful mark, clock, mass, interface, formation, provenance, access,
+certified record, new physics, prediction, paper, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
