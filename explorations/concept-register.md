@@ -4243,6 +4243,43 @@ tails, multiple fields, or nonlinear wave interactions are possible class
 exits with new interface burdens, not automatic repairs. See
 `operational-event-localization-causal-saturation-huygens-and-finite-conformal-reconstruction-boundary-2026-07-28.md`.
 
+### 2026-07-28 massive-tail margin and formed-relay boundary
+
+`HC-DU-104` tests the most immediate repairs left by `HC-DU-103`. The
+standard \(3+1\)-dimensional massive Klein--Gordon retarded propagator has an
+interior point-response tail
+
+\[
+K_m(\tau)=\frac{m}{4\pi\tau}J_1(m\tau).
+\]
+
+Mass removes the broad sharp-Huygens timelike zero, but one carrier has blind
+shells at \(\tau=j_{1,k}/m\). More generally, every fixed finite family of
+these tails has combined amplitude tending to zero as
+\(\tau\to\infty\). It therefore cannot supply one positive response margin
+over an unbounded timelike horizon, even when multiple masses avoid common
+exact zeros on a declared interval.
+
+On a compact separation interval where the family has no common zero,
+continuity does give a positive local margin. That local margin composes:
+if a physical extension forms and acquires enough short-range relay events
+that every original finite-poset cover is replaced by a sound detected path,
+transitive closure recovers the original order. An abstract subdivision earns
+nothing; each relay needs an independently warranted occurrence, local
+coupling, identity, provenance, acquisition, and resource account.
+The formation rule cannot place relays by consulting the held-out proper-time
+distance or target geometry.
+
+This yields the scoped passive-direct-carrier / unbounded-depth /
+uniform-margin trilemma and redirects the constructive route toward
+interaction-generated relay events. Nonlinear Lorentzian inverse problems
+are a serious positive because interacting waves create new propagating
+singularities and a rich source-to-solution map can recover conformal
+geometry. They still supply a continuum source class, observer region, law,
+localization, and response interface rather than selecting one finite formed
+relay record. See
+`massive-tail-dispersive-margin-no-go-and-formed-relay-reconstruction-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

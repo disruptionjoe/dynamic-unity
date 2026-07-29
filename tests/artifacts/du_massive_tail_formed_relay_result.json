@@ -1,0 +1,14 @@
+{
+  "boundary": "Regression only: no selected field, point detector, uniform continuum margin, physical relay formation, acquisition, geometry reconstruction, new physics, or prediction.",
+  "claim_id": "HC-DU-104",
+  "controls": {
+    "first_positive_j1_root": 3.831705970207512,
+    "formed_relay_count": 3,
+    "long_direct_edge_without_formed_relays": false,
+    "long_order_recovered_with_formed_relays": true,
+    "maximum_local_step": 2.0,
+    "point_tail_zero_at_first_root": 1.49497956241052e-18,
+    "sampled_short_range_margin": 0.008993818208165454
+  },
+  "status": "PASS"
+}
