@@ -4103,6 +4103,43 @@ not select the state, phase, observable, coupling, detector, calibration, or
 target class. See
 `fluctuation-dissipation-passive-response-reconstruction-thermal-calibration-gauge-and-finite-time-record-boundary-2026-07-28.md`.
 
+### 2026-07-28 nonlinear passive-response hierarchy and finite-jet gate
+
+`HC-DU-100` separates two reconstruction theorems that the word "response"
+had compressed together. A stipulated white-noise-driven linear wave can
+reconstruct a spatial Riemannian metric from ideal infinite-time passive
+correlations. The audited Lorentzian conformal reconstruction instead uses a
+nonlinear source-to-solution operator and nonlinear wave interaction.
+
+Linear FDT therefore does not supply the Lorentzian theorem's input. A
+nonlinear fluctuation-response hierarchy is the coherent bridge, but every
+fixed finite hierarchy has an exact ceiling. For any retained order \(N\),
+
+\[
+L_0(s)=s,
+\qquad
+L_c(s)=s+c\,s^{N+1}
+\]
+
+have the same response derivatives through \(N\) and different held-out
+responses. Both are entire, so analyticity alone does not repair the
+nonidentification.
+
+A physically warranted common coefficient bound
+\(\|A_n\|\leq MR^{-n}\) does repair the finite-resolution problem on
+\(\|f\|\leq r<R\): the omitted response tail is at most
+
+\[
+M\frac{(r/R)^{N+1}}{1-r/R}.
+\]
+
+Composed with a held-out target margin and finite estimation error, this
+selects a finite response order at declared resolution. The bound does not
+select the stationary state, perturbation, higher-correlation ordering,
+sequential instrument, analytic class, mixing rate, detector, or complete
+acquisition. See
+`nonlinear-fluctuation-response-hierarchy-finite-jet-obstruction-and-passive-to-active-geometry-handoff-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

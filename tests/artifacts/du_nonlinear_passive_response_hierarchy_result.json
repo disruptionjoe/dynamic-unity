@@ -1,0 +1,142 @@
+{
+  "probe": "du_nonlinear_passive_response_hierarchy_probe",
+  "status": "PASS",
+  "claim_id": "HC-DU-100",
+  "checks": {
+    "finite_jet_counterexamples": 8,
+    "sharp_tail_controls": 9,
+    "minimum_order_control": true
+  },
+  "finite_jet_cases": [
+    {
+      "retained_order": 1,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 2,
+      "first_difference": "3/2",
+      "held_out_source": "1/2",
+      "held_out_difference": "3/16"
+    },
+    {
+      "retained_order": 2,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 3,
+      "first_difference": "24/5",
+      "held_out_source": "1/2",
+      "held_out_difference": "1/10"
+    },
+    {
+      "retained_order": 3,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 4,
+      "first_difference": "20",
+      "held_out_source": "1/2",
+      "held_out_difference": "5/96"
+    },
+    {
+      "retained_order": 4,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 5,
+      "first_difference": "720/7",
+      "held_out_source": "1/2",
+      "held_out_difference": "3/112"
+    },
+    {
+      "retained_order": 5,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 6,
+      "first_difference": "630",
+      "held_out_source": "1/2",
+      "held_out_difference": "7/512"
+    },
+    {
+      "retained_order": 6,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 7,
+      "first_difference": "4480",
+      "held_out_source": "1/2",
+      "held_out_difference": "1/144"
+    },
+    {
+      "retained_order": 7,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 8,
+      "first_difference": "36288",
+      "held_out_source": "1/2",
+      "held_out_difference": "9/2560"
+    },
+    {
+      "retained_order": 8,
+      "equal_derivatives_through_retained_order": true,
+      "first_difference_order": 9,
+      "first_difference": "3628800/11",
+      "held_out_source": "1/2",
+      "held_out_difference": "5/2816"
+    }
+  ],
+  "analytic_tail_cases": [
+    {
+      "retained_order": 0,
+      "exact_tail": "1",
+      "certified_bound": "1",
+      "sharp": true
+    },
+    {
+      "retained_order": 1,
+      "exact_tail": "1/2",
+      "certified_bound": "1/2",
+      "sharp": true
+    },
+    {
+      "retained_order": 2,
+      "exact_tail": "1/4",
+      "certified_bound": "1/4",
+      "sharp": true
+    },
+    {
+      "retained_order": 3,
+      "exact_tail": "1/8",
+      "certified_bound": "1/8",
+      "sharp": true
+    },
+    {
+      "retained_order": 4,
+      "exact_tail": "1/16",
+      "certified_bound": "1/16",
+      "sharp": true
+    },
+    {
+      "retained_order": 5,
+      "exact_tail": "1/32",
+      "certified_bound": "1/32",
+      "sharp": true
+    },
+    {
+      "retained_order": 6,
+      "exact_tail": "1/64",
+      "certified_bound": "1/64",
+      "sharp": true
+    },
+    {
+      "retained_order": 7,
+      "exact_tail": "1/128",
+      "certified_bound": "1/128",
+      "sharp": true
+    },
+    {
+      "retained_order": 8,
+      "exact_tail": "1/256",
+      "certified_bound": "1/256",
+      "sharp": true
+    }
+  ],
+  "minimum_order_example": {
+    "coefficient_scale": "1",
+    "analytic_radius": "2",
+    "evaluation_radius": "1",
+    "target_tolerance": "1/100",
+    "first_sufficient_order": 7,
+    "previous_bound": "1/64",
+    "sufficient_bound": "1/128"
+  },
+  "scope_warning": "Exact scalar analytic controls only; no physical correlation hierarchy, instrument, spacetime, or acquisition is selected."
+}
