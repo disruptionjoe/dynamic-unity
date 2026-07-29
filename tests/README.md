@@ -480,6 +480,42 @@ transfer to non-Abelian, continuous, higher-cell, AQFT, or continuum
 theories; produce empirical excess; or authorize a prediction, paper,
 hardware, provider, publication, or other external action.
 
+## HC-DU-124 regional cycle-record gluing
+
+`du_regional_cycle_record_gluing_probe.py` preserves the exact two-region
+Mayer--Vietoris specialization in the unchanged matter-completed
+finite-Abelian graph arena:
+
+- connected overlap makes compatible complete local cycle records determine
+  the global cycle class uniquely;
+- an overlap with \(k\) connected components leaves exactly
+  \(|G|^{k-1}\) global cycle classes per compatible local-record pair;
+- \(k-1\) explicit cross-region cycle values are necessary and sufficient to
+  complete the global class under a \(G\)-coordinate contract;
+- overlap connectivity, not overlap vertex count, controls the deficit;
+- the graph cycle ranks obey
+  \(\beta_1(\Gamma)=\beta_1(A)+\beta_1(B)-\beta_1(I)+(k-1)\);
+- each local-record fibre still contains
+  \(|G|^{|V|+k-2}\) physical dressed-edge states; and
+- cross-cycle values plus \(|V|-1\) spanning-tree values attain the minimum
+  universal full-state coordinate count.
+
+Run:
+
+```bash
+python3 tests/du_regional_cycle_record_gluing_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_regional_cycle_record_gluing_result.json` and reports `17/17`
+over five connected/disconnected/cyclic-overlap finite covers. Passing is
+only a bounded exact regression of the standard gluing proof. It does not
+select the regions or record interfaces; establish formation, provenance,
+access, verification, BFT, public finality, consensus, or a resource law;
+transfer to many-region, non-Abelian, continuous, higher-cell, AQFT, or
+continuum theories; produce empirical excess; or authorize a prediction,
+paper, hardware, provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

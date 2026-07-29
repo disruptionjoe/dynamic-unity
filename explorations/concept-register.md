@@ -5089,6 +5089,54 @@ destructive. Matter makes the coboundary directions distinct physical
 orbits; they must not be discarded as pure-gauge redundancy. See
 `complete-cycle-record-graph-cohomology-mincut-first-leak-and-spanning-tree-repair-2026-07-29.md`.
 
+### 2026-07-29 regional cycle-record gluing and layered remainder
+
+`HC-DU-124` computes when independently complete regional cycle records
+determine the complete global cycle record.
+
+Let a connected graph be covered by connected subgraphs \(A\) and \(B\), and
+let their nonempty intersection have \(k\) connected components. For the
+finite-Abelian matter-completed dressed-edge arena, Mayer--Vietoris gives
+
+\[
+\ker\!\left(
+H^1(\Gamma;G)\to H^1(A;G)\oplus H^1(B;G)
+\right)
+\cong G^{k-1}.
+\]
+
+Every compatible pair of complete local cycle records consequently has
+exactly \(|G|^{k-1}\) global cycle-class completions. Connected overlap makes
+the global cycle record unique. Disconnected overlap leaves \(k-1\)
+independent cross-region loop values. One path out through \(A\) and back
+through \(B\) for every non-base overlap component supplies a sufficient
+basis; cardinality makes the same count necessary under a \(G\)-valued
+coordinate contract.
+
+Overlap connectivity, not overlap size, controls the deficit. Two shared
+vertices connected inside the overlap yield no missing class; the same two
+vertices in different overlap components yield one.
+
+Global cycle completion is still not physical-state completion. Every global
+class retains the \(|G|^{|V|-1}\) physical coboundary fibre from `HC-DU-123`,
+so a compatible local-record fibre contains
+\(|G|^{|V|+k-2}\) dressed-edge basis states. The layered repair is therefore
+
+```text
+local cycle records
+  + k-1 cross-region loop values
+    = global cycle record
+  + |V|-1 spanning-tree edge values
+    = complete dressed-edge state.
+```
+
+This is a standard cohomological gluing theorem specialized into the DU
+record/remainder contract. It does not select the regional cover or
+interfaces, form a public certificate, define a fault model, or establish a
+communication, entanglement, energy, latency, consensus, or empirical law.
+See
+`regional-cycle-record-mayer-vietoris-gluing-deficit-cross-certificate-and-layered-remainder-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
