@@ -170,6 +170,36 @@ establish provenance/access, reconstruct nature's metric, introduce new
 physics, or authorize a prediction, paper, hardware, provider, publication,
 or other external action.
 
+## HC-DU-114 Multi-standard clock metric--matter rank gate
+
+`du_multistandard_clock_metric_matter_rank_probe.py` preserves:
+
+- an exact one-clock same-record/different-redshift witness when one
+  matter-law nuisance is admitted;
+- conditional one-clock reconstruction when that matter law is frozen;
+- the minimum two-distinct-sensitivity repair for one nuisance;
+- the failure of repeated identical species to add attribution rank;
+- cancellation of metric common mode in clock ratios;
+- a full-rank three-species redshift/alpha/mass-ratio control;
+- the two-clock/two-nuisance dimension deficit;
+- the exact universal-frequency-drift/redshift confounding witness; and
+- inverse-error amplification for nearly parallel sensitivities.
+
+Run:
+
+```bash
+python3 tests/du_multistandard_clock_metric_matter_rank_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_multistandard_clock_metric_matter_rank_result.json`.
+Passing establishes only the finite linear rank, kernel, and conditioning
+controls. It does not select or form physical clocks, transport or compare
+them, join their archives, establish provenance/access, warrant an
+unrestricted nuisance class, reconstruct nature's metric, introduce new
+physics, or authorize a prediction, paper, hardware, provider, publication,
+or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

@@ -4681,6 +4681,41 @@ held-out local/regional metric geometry.
 See
 `qcd-dimensional-transmutation-operational-metric-anchor-and-scale-origin-boundary-2026-07-29.md`.
 
+### 2026-07-29 Multi-standard clock metric--matter attribution
+
+`HC-DU-114` operationalizes `HC-DU-113`'s requirement that a matter standard
+remain fixed. For one joined family of `S` clock records and `p` frozen
+dimensionless matter-law nuisance directions,
+
+\[
+y
+=
+[\mathbf1\;K]
+\begin{pmatrix}
+z\\
+\theta
+\end{pmatrix},
+\]
+
+redshift plus all nuisance coordinates are reconstructed exactly iff the
+augmented sensitivity matrix has rank \(p+1\). Redshift alone factors iff its
+target row lies in that matrix's row space. One clock therefore fails whenever
+one admitted nuisance has nonzero sensitivity; two distinct sensitivities are
+the minimum repair for one nuisance. Identical species add samples but not
+attribution rank, and near-parallel sensitivities produce an inverse-margin
+penalty. Clock ratios cancel the metric common mode and diagnose differential
+matter drift.
+
+A universal multiplicative frequency drift contributes a second column of
+ones and is exactly confounded with metric redshift for every clock-only
+family. It must be quotiented as full common-unit gauge, excluded by a
+warranted local-position-invariance contract, or separated by a non-clock
+anchor/source model. The viable candidate is now a physically formed,
+jointly archived multi-standard comparison with frozen sensitivities,
+nuisance class, transport, systematics, provenance, access, resources, and
+no-refit transfer—not a bare atom or one transition frequency. See
+`multistandard-clock-metric-matter-attribution-rank-and-common-mode-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -1,0 +1,16 @@
+{
+  "boundary": "Regression only: no physical clock selection, formation, transport, joined archive, provenance, access, unrestricted matter-law control, natural metric reconstruction, new physics, prediction, evidence grade, or external-hardware result.",
+  "claim_id": "HC-DU-114",
+  "controls": {
+    "clock_ratio_cancels_metric_common_mode": true,
+    "identical_species_add_no_attribution_rank": true,
+    "near_parallel_sensitivities_amplify_record_error": true,
+    "one_clock_reconstructs_only_with_frozen_matter_law": true,
+    "one_clock_same_record_different_redshift_witness": true,
+    "three_species_reconstruct_frozen_redshift_alpha_mu_class": true,
+    "two_clocks_fail_for_two_nuisance_directions": true,
+    "two_distinct_sensitivities_repair_one_nuisance": true,
+    "universal_frequency_drift_exactly_confounds_redshift": true
+  },
+  "status": "PASS"
+}
