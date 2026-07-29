@@ -1,0 +1,467 @@
+{
+  "probe": "du_bounded_kms_local_response_tail_probe",
+  "status": "PASS",
+  "claim_id": "HC-DU-101",
+  "checks": {
+    "pauli_nested_commutator_cases": 13,
+    "factorial_tail_cases": 36,
+    "minimum_order_cases": 2,
+    "unbounded_scale_counterexamples": 13,
+    "order_zero_and_one_symbolic_control": "At lambda=pi/(2m), q*cos(2m*lambda)=-q while the order-0/1 Taylor polynomial is q, so the error is 2q."
+  },
+  "nested_commutator_cases": [
+    {
+      "order": 0,
+      "exact_pauli_nested_commutator_norm": 1,
+      "certified_norm": 1,
+      "saturates": true
+    },
+    {
+      "order": 1,
+      "exact_pauli_nested_commutator_norm": 2,
+      "certified_norm": 2,
+      "saturates": true
+    },
+    {
+      "order": 2,
+      "exact_pauli_nested_commutator_norm": 4,
+      "certified_norm": 4,
+      "saturates": true
+    },
+    {
+      "order": 3,
+      "exact_pauli_nested_commutator_norm": 8,
+      "certified_norm": 8,
+      "saturates": true
+    },
+    {
+      "order": 4,
+      "exact_pauli_nested_commutator_norm": 16,
+      "certified_norm": 16,
+      "saturates": true
+    },
+    {
+      "order": 5,
+      "exact_pauli_nested_commutator_norm": 32,
+      "certified_norm": 32,
+      "saturates": true
+    },
+    {
+      "order": 6,
+      "exact_pauli_nested_commutator_norm": 64,
+      "certified_norm": 64,
+      "saturates": true
+    },
+    {
+      "order": 7,
+      "exact_pauli_nested_commutator_norm": 128,
+      "certified_norm": 128,
+      "saturates": true
+    },
+    {
+      "order": 8,
+      "exact_pauli_nested_commutator_norm": 256,
+      "certified_norm": 256,
+      "saturates": true
+    },
+    {
+      "order": 9,
+      "exact_pauli_nested_commutator_norm": 512,
+      "certified_norm": 512,
+      "saturates": true
+    },
+    {
+      "order": 10,
+      "exact_pauli_nested_commutator_norm": 1024,
+      "certified_norm": 1024,
+      "saturates": true
+    },
+    {
+      "order": 11,
+      "exact_pauli_nested_commutator_norm": 2048,
+      "certified_norm": 2048,
+      "saturates": true
+    },
+    {
+      "order": 12,
+      "exact_pauli_nested_commutator_norm": 4096,
+      "certified_norm": 4096,
+      "saturates": true
+    }
+  ],
+  "factorial_tail_cases": [
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 0,
+      "actual_exponential_tail": 0.2840254166877414,
+      "factorial_certificate": 0.32100635417193535,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 1,
+      "actual_exponential_tail": 0.034025416687741394,
+      "factorial_certificate": 0.04012579427149192,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 2,
+      "actual_exponential_tail": 0.0027754166877413944,
+      "factorial_certificate": 0.0033438161892909934,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 3,
+      "actual_exponential_tail": 0.0001712500210746537,
+      "factorial_certificate": 0.00020898851183068708,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 4,
+      "actual_exponential_tail": 8.489604408135065e-06,
+      "factorial_certificate": 1.0449425591534355e-05,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 5,
+      "actual_exponential_tail": 3.515835746981111e-07,
+      "factorial_certificate": 4.3539273298059807e-07,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 6,
+      "actual_exponential_tail": 1.2499373314156514e-08,
+      "factorial_certificate": 1.554974046359279e-08,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 7,
+      "actual_exponential_tail": 3.8922332024071693e-10,
+      "factorial_certificate": 4.859293894872746e-10,
+      "certified": true
+    },
+    {
+      "source_budget_x": 0.25,
+      "retained_order": 8,
+      "actual_exponential_tail": 1.078115374752997e-11,
+      "factorial_certificate": 1.349803859686874e-11,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 0,
+      "actual_exponential_tail": 1.718281828459045,
+      "factorial_certificate": 2.718281828459045,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 1,
+      "actual_exponential_tail": 0.7182818284590451,
+      "factorial_certificate": 1.3591409142295225,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 2,
+      "actual_exponential_tail": 0.2182818284590451,
+      "factorial_certificate": 0.45304697140984085,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 3,
+      "actual_exponential_tail": 0.05161516179237857,
+      "factorial_certificate": 0.11326174285246021,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 4,
+      "actual_exponential_tail": 0.00994849512571161,
+      "factorial_certificate": 0.02265234857049204,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 5,
+      "actual_exponential_tail": 0.0016151617923783057,
+      "factorial_certificate": 0.0037753914284153404,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 6,
+      "actual_exponential_tail": 0.0002262729034896438,
+      "factorial_certificate": 0.0005393416326307629,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 7,
+      "actual_exponential_tail": 2.7860205076724043e-05,
+      "factorial_certificate": 6.741770407884536e-05,
+      "certified": true
+    },
+    {
+      "source_budget_x": 1.0,
+      "retained_order": 8,
+      "actual_exponential_tail": 3.0586177750535626e-06,
+      "factorial_certificate": 7.490856008760596e-06,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 0,
+      "actual_exponential_tail": 6.38905609893065,
+      "factorial_certificate": 14.7781121978613,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 1,
+      "actual_exponential_tail": 4.38905609893065,
+      "factorial_certificate": 14.7781121978613,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 2,
+      "actual_exponential_tail": 2.3890560989306504,
+      "factorial_certificate": 9.8520747985742,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 3,
+      "actual_exponential_tail": 1.0557227655973174,
+      "factorial_certificate": 4.9260373992871,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 4,
+      "actual_exponential_tail": 0.3890560989306504,
+      "factorial_certificate": 1.9704149597148402,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 5,
+      "actual_exponential_tail": 0.1223894322639838,
+      "factorial_certificate": 0.6568049865716133,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 6,
+      "actual_exponential_tail": 0.033500543375095226,
+      "factorial_certificate": 0.18765856759188954,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 7,
+      "actual_exponential_tail": 0.00810371797826992,
+      "factorial_certificate": 0.046914641897972384,
+      "certified": true
+    },
+    {
+      "source_budget_x": 2.0,
+      "retained_order": 8,
+      "actual_exponential_tail": 0.0017545116290635931,
+      "factorial_certificate": 0.010425475977327197,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 0,
+      "actual_exponential_tail": 53.598150033144236,
+      "factorial_certificate": 218.39260013257694,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 1,
+      "actual_exponential_tail": 49.598150033144236,
+      "factorial_certificate": 436.7852002651539,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 2,
+      "actual_exponential_tail": 41.598150033144236,
+      "factorial_certificate": 582.3802670202052,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 3,
+      "actual_exponential_tail": 30.931483366477572,
+      "factorial_certificate": 582.3802670202052,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 4,
+      "actual_exponential_tail": 20.264816699810908,
+      "factorial_certificate": 465.90421361616416,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 5,
+      "actual_exponential_tail": 11.731483366477569,
+      "factorial_certificate": 310.60280907744277,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 6,
+      "actual_exponential_tail": 6.042594477588679,
+      "factorial_certificate": 177.48731947282442,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 7,
+      "actual_exponential_tail": 2.7918008267950327,
+      "factorial_certificate": 88.74365973641221,
+      "certified": true
+    },
+    {
+      "source_budget_x": 4.0,
+      "retained_order": 8,
+      "actual_exponential_tail": 1.166404001398206,
+      "factorial_certificate": 39.44162654951654,
+      "certified": true
+    }
+  ],
+  "minimum_order_cases": [
+    {
+      "source_budget_x": 1.0,
+      "tolerance": 0.01,
+      "first_certified_order": 5,
+      "certificate": 0.0037753914284153404
+    },
+    {
+      "source_budget_x": 4.0,
+      "tolerance": 0.01,
+      "first_certified_order": 16,
+      "certificate": 0.0026371161901304536
+    }
+  ],
+  "scaling_cases": [
+    {
+      "retained_order": 2,
+      "first_scale_witness": 2,
+      "exact_unscaled_taylor_value_at_lambda_one": "-7",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "3",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 3,
+      "first_scale_witness": 2,
+      "exact_unscaled_taylor_value_at_lambda_one": "-7",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "3",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 4,
+      "first_scale_witness": 2,
+      "exact_unscaled_taylor_value_at_lambda_one": "11/3",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "4/3",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 5,
+      "first_scale_witness": 2,
+      "exact_unscaled_taylor_value_at_lambda_one": "11/3",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "4/3",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 6,
+      "first_scale_witness": 2,
+      "exact_unscaled_taylor_value_at_lambda_one": "-91/45",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "23/45",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 7,
+      "first_scale_witness": 2,
+      "exact_unscaled_taylor_value_at_lambda_one": "-91/45",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "23/45",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 8,
+      "first_scale_witness": 3,
+      "exact_unscaled_taylor_value_at_lambda_one": "97/7",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "45/7",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 9,
+      "first_scale_witness": 3,
+      "exact_unscaled_taylor_value_at_lambda_one": "97/7",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "45/7",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 10,
+      "first_scale_witness": 3,
+      "exact_unscaled_taylor_value_at_lambda_one": "-491/175",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "158/175",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 11,
+      "first_scale_witness": 3,
+      "exact_unscaled_taylor_value_at_lambda_one": "-491/175",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "158/175",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 12,
+      "first_scale_witness": 4,
+      "exact_unscaled_taylor_value_at_lambda_one": "18359647/467775",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "8945936/467775",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 13,
+      "first_scale_witness": 4,
+      "exact_unscaled_taylor_value_at_lambda_one": "18359647/467775",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "8945936/467775",
+      "error_exceeds_thermal_amplitude": true
+    },
+    {
+      "retained_order": 14,
+      "first_scale_witness": 4,
+      "exact_unscaled_taylor_value_at_lambda_one": "-476755771/42567525",
+      "thermal_amplitude": "1/2",
+      "exact_error_lower_bound": "217094123/42567525",
+      "error_exceeds_thermal_amplitude": true
+    }
+  ],
+  "scope_warning": "Elementary bounded-response regressions only. KMS is not used to obtain the tail, and no state, phase, instrument, passive record, field limit, or geometry is selected."
+}

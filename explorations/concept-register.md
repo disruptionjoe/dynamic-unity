@@ -4140,6 +4140,42 @@ sequential instrument, analytic class, mixing rate, detector, or complete
 acquisition. See
 `nonlinear-fluctuation-response-hierarchy-finite-jet-obstruction-and-passive-to-active-geometry-handoff-2026-07-28.md`.
 
+### 2026-07-28 bounded local quantum-response tail and source-scale boundary
+
+`HC-DU-101` closes one premise left open by `HC-DU-100`. For any normalized
+state, bounded readout \(A\), bounded perturbation \(B\), and finite source
+profile \(f\), the complete finite-time response has the explicit tail
+
+\[
+|F-F_N|
+\leq
+\|A\|\sum_{n>N}\frac{x^n}{n!}
+\leq
+\|A\|e^x\frac{x^{N+1}}{(N+1)!},
+\qquad
+x=2|\lambda|\|B\|\|f\|_1.
+\]
+
+The proof is the norm majorant of the Duhamel nested-commutator expansion.
+KMS equilibrium is not used. KMS instead relates thermal orderings and can
+organize the response coefficients relative to a supplied algebra, dynamics,
+state, temperature, readout, and perturbation.
+
+The result extends to a \(C^\ast\)-dynamical system and is uniform through a
+local lattice thermodynamic limit when the readout and perturbation retain
+fixed local support and norm. It is not uniform over unbounded source budget:
+the exact thermal family \(F_m(\lambda)=q\cos(2m\lambda)\) defeats every fixed
+Taylor order as \(m\to\infty\).
+
+Continuum quantum-field couplings are generally unbounded, so the operator
+norm proof does not transfer without bounded-functional, energy-constrained,
+or cutoff-uniform control. Algebraic KMS correlators are also not one passive
+formed record; the noncommuting orderings require an operational instrument.
+The live bridge is therefore no longer generic analyticity. It is a
+physically realizable local-field source and instrument class rich enough for
+a finite geometric inverse theorem. See
+`bounded-kms-local-response-factorial-tail-thermodynamic-scaling-and-record-interface-boundary-2026-07-28.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

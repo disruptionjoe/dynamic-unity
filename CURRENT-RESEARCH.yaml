@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 51
+state_revision: 52
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28; governed run receipts preserve each
@@ -82,11 +82,13 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-100 separates linear passive imaging from nonlinear Lorentzian
-    reconstruction. No finite response jet identifies a general analytic map;
-    a common tail bound gives a conditional finite-resolution bridge. No
-    arena selects the required nonlinear correlation hierarchy, instrument,
-    or acquisition, so no successor is selected.
+    HC-DU-101 closes HC-DU-100's generic analytic-tail dependency for bounded
+    finite-time quantum response: a fixed local bounded source has an explicit
+    factorial tail, uniformly through a local lattice thermodynamic limit.
+    KMS does not create that bound or a passive record. Extensive/unbounded
+    sources, continuum-field transfer, the response-complete instrument,
+    acquisition, and geometric inverse margin remain open, so no successor is
+    selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -696,7 +698,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - physically-selected-nonlinear-passive-response-hierarchy-with-uniform-analytic-tail-and-finite-geometry-transfer
+    - physically-realizable-bounded-or-energy-constrained-local-field-response-hierarchy-with-finite-geometry-transfer
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
