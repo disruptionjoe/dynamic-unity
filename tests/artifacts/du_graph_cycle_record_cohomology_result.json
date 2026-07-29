@@ -1,0 +1,357 @@
+{
+  "checks": {
+    "all_closed_cycle_responses_factor": true,
+    "all_simple_open_path_responses_leak": true,
+    "bridges_create_one_edge_first_leaks": true,
+    "complete_cycle_record_kernel_equals_coboundaries": true,
+    "cycle_record_fibre_size_is_group_order_to_vertices_minus_one": true,
+    "cycle_record_is_surjective_onto_group_to_cycle_rank": true,
+    "cycle_specialization_recovers_two_edge_first_leak": true,
+    "factorization_matches_boundary_annihilator_criterion": true,
+    "finite_product_group_criterion_passes": true,
+    "matter_completed_coboundaries_are_retained_as_physical": true,
+    "minimum_leak_support_equals_endpoint_min_cut": true,
+    "no_empirical_excess_or_new_physics_is_claimed": true,
+    "no_joint_resource_law_or_interface_selection_is_claimed": true,
+    "open_path_leak_is_character_distinguishable": true,
+    "record_equivalence_is_spanning_tree_invariant": true,
+    "tree_coordinates_plus_cycle_record_are_injective": true,
+    "vertices_minus_one_group_coordinates_are_necessary": true,
+    "vertices_minus_one_group_coordinates_are_sufficient": true
+  },
+  "checks_passed": 18,
+  "checks_total": 18,
+  "claim_id": "HC-DU-123",
+  "formal_boundary": {
+    "cohomology": "For any connected finite graph, the kernel of a complete fundamental-cycle record is im(d), so its fibres are affine coboundary classes and its quotient is H^1(graph;G).",
+    "factorization": "The complete character response of an integer edge chain factors through the cycle record iff every coefficient in its vertex boundary annihilates G.",
+    "first_leak": "Every simple open path leaks. The minimum support of a same-cycle-record/different-endpoint-response witness is the endpoint edge connectivity.",
+    "repair": "Each fibre has |G|^(|V|-1) basis states. Under a G-valued coordinate contract, |V|-1 additional coordinates are necessary, and any spanning-tree edge tuple is sufficient."
+  },
+  "non_claims": [
+    "not selection of graph, tree, cycle basis, apparatus, or action class",
+    "not a joint formation-resource or information-disturbance law",
+    "not unrestricted quantum-state or process reconstruction",
+    "not a pure-gauge, non-Abelian, continuous-group, or continuum theorem",
+    "not empirical excess, ontology priority, prediction, or new physics"
+  ],
+  "specimens": [
+    {
+      "additional_group_coordinates_necessary": 3,
+      "additional_group_coordinates_sufficient": 3,
+      "basis_completions_per_cycle_record": 27,
+      "cycle_rank": 0,
+      "cycle_record_values": 1,
+      "edges": 3,
+      "endpoint_connectivity_checks": [
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 0,
+          "target": 1
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 0,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 0,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 1,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 1,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 2,
+          "target": 3
+        }
+      ],
+      "graph": "path4",
+      "group": "Z3",
+      "group_order": 3,
+      "integer_chains_exhaustively_checked": 27,
+      "maximum_endpoint_leak_support": 1,
+      "minimum_endpoint_leak_support": 1,
+      "physical_basis_states": 27,
+      "simple_open_paths_checked": 6,
+      "spanning_trees_checked": 1,
+      "vertices": 4
+    },
+    {
+      "additional_group_coordinates_necessary": 2,
+      "additional_group_coordinates_sufficient": 2,
+      "basis_completions_per_cycle_record": 4,
+      "cycle_rank": 1,
+      "cycle_record_values": 2,
+      "edges": 3,
+      "endpoint_connectivity_checks": [
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 0,
+          "target": 1
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 0,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 1,
+          "target": 2
+        }
+      ],
+      "graph": "triangle",
+      "group": "Z2",
+      "group_order": 2,
+      "integer_chains_exhaustively_checked": 27,
+      "maximum_endpoint_leak_support": 2,
+      "minimum_endpoint_leak_support": 2,
+      "physical_basis_states": 8,
+      "simple_open_paths_checked": 6,
+      "spanning_trees_checked": 3,
+      "vertices": 3
+    },
+    {
+      "additional_group_coordinates_necessary": 3,
+      "additional_group_coordinates_sufficient": 3,
+      "basis_completions_per_cycle_record": 27,
+      "cycle_rank": 2,
+      "cycle_record_values": 9,
+      "edges": 5,
+      "endpoint_connectivity_checks": [
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 0,
+          "target": 1
+        },
+        {
+          "minimum_edge_cut": 3,
+          "minimum_leak_support": 3,
+          "start": 0,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 0,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 1,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 1,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 2,
+          "target": 3
+        }
+      ],
+      "graph": "square_with_diagonal",
+      "group": "Z3",
+      "group_order": 3,
+      "integer_chains_exhaustively_checked": 243,
+      "maximum_endpoint_leak_support": 3,
+      "minimum_endpoint_leak_support": 2,
+      "physical_basis_states": 243,
+      "simple_open_paths_checked": 19,
+      "spanning_trees_checked": 8,
+      "vertices": 4
+    },
+    {
+      "additional_group_coordinates_necessary": 5,
+      "additional_group_coordinates_sufficient": 5,
+      "basis_completions_per_cycle_record": 32,
+      "cycle_rank": 2,
+      "cycle_record_values": 4,
+      "edges": 7,
+      "endpoint_connectivity_checks": [
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 0,
+          "target": 1
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 0,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 0,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 0,
+          "target": 4
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 0,
+          "target": 5
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 1,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 1,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 1,
+          "target": 4
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 1,
+          "target": 5
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 2,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 2,
+          "target": 4
+        },
+        {
+          "minimum_edge_cut": 1,
+          "minimum_leak_support": 1,
+          "start": 2,
+          "target": 5
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 3,
+          "target": 4
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 3,
+          "target": 5
+        },
+        {
+          "minimum_edge_cut": 2,
+          "minimum_leak_support": 2,
+          "start": 4,
+          "target": 5
+        }
+      ],
+      "graph": "bridged_triangles",
+      "group": "Z2",
+      "group_order": 2,
+      "integer_chains_exhaustively_checked": 2187,
+      "maximum_endpoint_leak_support": 2,
+      "minimum_endpoint_leak_support": 1,
+      "physical_basis_states": 128,
+      "simple_open_paths_checked": 37,
+      "spanning_trees_checked": 9,
+      "vertices": 6
+    },
+    {
+      "additional_group_coordinates_necessary": 3,
+      "additional_group_coordinates_sufficient": 3,
+      "basis_completions_per_cycle_record": 64,
+      "cycle_rank": 3,
+      "cycle_record_values": 64,
+      "edges": 6,
+      "endpoint_connectivity_checks": [
+        {
+          "minimum_edge_cut": 3,
+          "minimum_leak_support": 3,
+          "start": 0,
+          "target": 1
+        },
+        {
+          "minimum_edge_cut": 3,
+          "minimum_leak_support": 3,
+          "start": 0,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 3,
+          "minimum_leak_support": 3,
+          "start": 0,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 3,
+          "minimum_leak_support": 3,
+          "start": 1,
+          "target": 2
+        },
+        {
+          "minimum_edge_cut": 3,
+          "minimum_leak_support": 3,
+          "start": 1,
+          "target": 3
+        },
+        {
+          "minimum_edge_cut": 3,
+          "minimum_leak_support": 3,
+          "start": 2,
+          "target": 3
+        }
+      ],
+      "graph": "complete4",
+      "group": "Z2xZ2",
+      "group_order": 4,
+      "integer_chains_exhaustively_checked": 729,
+      "maximum_endpoint_leak_support": 3,
+      "minimum_endpoint_leak_support": 3,
+      "physical_basis_states": 4096,
+      "simple_open_paths_checked": 30,
+      "spanning_trees_checked": 16,
+      "vertices": 4
+    }
+  ],
+  "status": "PASS"
+}

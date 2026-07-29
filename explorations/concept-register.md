@@ -5049,6 +5049,46 @@ remainder relative to different admitted actions. It does not select those
 actions or interfaces and produces no empirical excess. See
 `formed-wilson-record-closed-loop-reconstruction-open-line-first-leak-and-minimal-repair-2026-07-29.md`.
 
+### 2026-07-29 complete cycle record and graph-topological remainder
+
+`HC-DU-123` generalizes the one-cycle capability boundary to every connected
+finite graph in the unchanged finite-Abelian regular-matter arena.
+
+For dressed-edge data \(y\in G^E\), a spanning tree coordinates the complete
+independent cycle record
+
+\[
+Q_T(y)\in G^{|E|-|V|+1}.
+\]
+
+Its kernel is exactly the graph coboundary space:
+
+\[
+\ker Q_T=\operatorname{im}d.
+\]
+
+Thus the record is the cohomology class
+\([y]\in H^1(\Gamma;G)\), its fibres are affine physical coboundary classes,
+and changing spanning trees changes only coordinates—not record equivalence.
+Each fibre has \(|G|^{|V|-1}\) basis completions.
+
+An integer edge-chain response factors through the cycle record iff every
+coefficient in its vertex boundary annihilates \(G\). All ordinary closed
+chains reconstruct. Every simple open path leaks.
+
+For an open path from \(u\) to \(v\), the minimum support of a same-cycle-
+record/different-response witness is exactly the minimum \(u\)-\(v\) edge
+cut. A bridge gives one edge, a simple cycle gives two, and \(K_4\) gives
+three. This is a record-fibre distance law, not a transferred consensus or
+cryptographic theorem.
+
+Completing all path responses needs at least \(|V|-1\) additional
+\(G\)-valued coordinates, and the dressed values on any spanning tree attain
+the bound. The tree is not physically preferred and finer acquisition may be
+destructive. Matter makes the coboundary directions distinct physical
+orbits; they must not be discarded as pure-gauge redundancy. See
+`complete-cycle-record-graph-cohomology-mincut-first-leak-and-spanning-tree-repair-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

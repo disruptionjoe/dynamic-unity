@@ -449,6 +449,37 @@ is nondemolition, transfer beyond the regular-matter finite-Abelian cycle,
 produce empirical excess, or authorize a prediction, paper, hardware,
 provider, publication, or other external action.
 
+## HC-DU-123 graph-cycle cohomology and min-cut first leak
+
+`du_graph_cycle_record_cohomology_probe.py` preserves the exact arbitrary-
+graph generalization in the unchanged matter-completed finite-Abelian arena:
+
+- a complete fundamental-cycle record has kernel equal to the coboundaries;
+- its quotient is \(H^1(\Gamma;G)\) and its equivalence is spanning-tree
+  invariant;
+- an edge-chain response factors iff its vertex boundary annihilates \(G\);
+- every ordinary closed chain reconstructs and every simple open path leaks;
+- the minimum endpoint-leak support equals endpoint edge connectivity;
+- each record fibre has \(|G|^{|V|-1}\) basis states; and
+- \(|V|-1\) additional \(G\)-valued tree coordinates are necessary and
+  sufficient to complete every path response.
+
+Run:
+
+```bash
+python3 tests/du_graph_cycle_record_cohomology_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_graph_cycle_record_cohomology_result.json` and reports `18/18`
+over five trees/cycles/bridged/multiply-connected graph specimens. Passing is
+only a bounded exact regression of the graph proof. It does not select the
+graph, spanning tree, cycle instrument, matter, observer, or action class;
+derive a joint resource law; establish unrestricted state reconstruction;
+transfer to non-Abelian, continuous, higher-cell, AQFT, or continuum
+theories; produce empirical excess; or authorize a prediction, paper,
+hardware, provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
