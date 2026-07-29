@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 43
+state_revision: 44
 as_of: '2026-07-28'
 authority: >-
   Joe direct chat through 2026-07-28; governed run receipts preserve each
@@ -82,10 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-092 earns conditional physical co-filtrations in massless QED and
-    high-temperature large-N SYM. Equilibrium supplies no event; the published
-    event construction adds an external device, noncanonical maximal torus,
-    state/partition, and Lüders update. No record selector, excess, or successor.
+    HC-DU-093 proves that future-algebra inclusion reconstructs causal order
+    exactly only with order reflection. Strict diminution does not supply it,
+    and one time-band chain cannot retain spacelike branching. Full
+    future-cone nets retain a conditional causal/conformal route; no formed
+    operational net or successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

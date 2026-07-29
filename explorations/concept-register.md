@@ -1717,6 +1717,36 @@ Durable carrier, provenance, access, certification, and regional finality
 remain unselected. See
 `relativistic-eth-physical-cofiltration-large-n-event-selector-and-external-device-boundary-2026-07-28.md`.
 
+### 2026-07-28 future-algebra order-reflection boundary
+
+`HC-DU-093` determines exactly when the physical co-filtrations earned by
+`HC-DU-092` carry causal geometry. For an antitone assignment \(F\), algebra
+inclusion induces
+
+\[
+x\preceq_F y
+\quad\Longleftrightarrow\quad
+F(y)\subseteq F(x).
+\]
+
+The physical order is always contained in this algebraic preorder. Exact
+reconstruction requires the converse: **order reflection**. Strict
+diminution prevents collisions along already comparable pairs but does not
+prevent nested algebras from falsely ordering spacelike-incomparable events.
+An exact three-event infinite-factor counterexample witnesses that failure.
+
+A total time-band chain cannot order-reflect any causal poset with spacelike
+branching. A full future-cone family can conditionally reconstruct causal
+order if its algebra assignment is point-separating and order-reflecting;
+standard distinguishing-spacetime theorems then recover conformal geometry,
+not metric scale.
+
+The minimum candidate geometry-bearing object is therefore a structured,
+order-reflecting net—not one algebra or chain. It remains theoretically
+supplied rather than an independently formed certified operational record.
+See
+`future-algebra-order-reflection-causal-order-and-conformal-reconstruction-boundary-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing
