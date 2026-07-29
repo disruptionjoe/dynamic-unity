@@ -5491,6 +5491,54 @@ reference-state reconstruction. It earns no new AQFT theorem, empirical
 excess, law, physics, prediction, or ready successor. See
 `aqft-standard-split-canonical-type-i-factor-and-record-interface-boundary-2026-07-29.md`.
 
+### 2026-07-29 standard split relative-entropy family and uniform finite compression
+
+`HC-DU-134` tests the strongest state-family reopener emitted by
+`HC-DU-133`.
+
+Let \(\sigma\) be the faithful density selected on the canonical standard-split
+factor and let
+\[
+\mathcal K_D(\sigma)=\{\rho:D(\rho\Vert\sigma)\le D\}.
+\]
+If \(P\) is a finite spectral projection of \(\sigma\),
+\(q=\operatorname{Tr}\sigma(1-P)\), and
+\(p=\operatorname{Tr}\rho(1-P)\), binary relative-entropy monotonicity gives
+\[
+p\le
+\min\!\left\{1,\frac{D+\log2}{\log(1/q)}\right\}.
+\]
+The bound vanishes uniformly as the reference tail \(q\) vanishes. Hence the
+forward-relative-entropy ball is trace-norm compact.
+
+The reference-relative map
+\[
+\mathcal C_P(\rho)
+=P\rho P+\operatorname{Tr}(\rho(1-P))
+\frac{P\sigma P}{\operatorname{Tr}(P\sigma)}
+\]
+is CPTP, has finite-dimensional output, and obeys
+\[
+\|\rho-\mathcal C_P(\rho)\|_1\le2\sqrt p+p.
+\]
+Every fixed downstream channel and effect inherits the same uniform control,
+including with an arbitrary spectator system.
+
+The orientation is load-bearing. The family
+\(\rho_n=(1-c)\sigma+c|e_n\rangle\langle e_n|\) has uniformly bounded
+\(D(\sigma\Vert\rho_n)\) while retaining at least \(c\) mass beyond every
+fixed spectral cutoff. Pure tail states also show that bounded entropy and
+bounded rank do not suffice.
+
+This is the first exact repair of the standard-split one-state limitation:
+one canonical finite carrier uniformly controls a nontrivial infinite state
+family. The radius, tolerance, physical process family, finite classical
+encoding, probe, write, archive, access, and target remain supplied or open.
+Compactness is not record formation. The result is scoped Grade 4 plus
+conditional Grade 3, not a new relative-entropy/AQFT theorem, empirical
+excess, law, physics, prediction, or ready successor. See
+`aqft-standard-split-relative-entropy-uniform-finite-compression-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

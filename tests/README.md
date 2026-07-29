@@ -3316,3 +3316,30 @@ Passing it does not select the net, regions, standard state, tolerance, probe,
 instrument, record write, lineage, archive, access, outcome, target, new AQFT
 theorem, empirical excess, law, physics, prediction, paper, hardware,
 provider, publication, or other external action.
+
+## HC-DU-134 standard split relative-entropy uniform-compression boundary
+
+`HC-DU-134` is proof- and primary-literature-only. It tests the exact
+state-family reopener left by `HC-DU-133`:
+
+- binary relative-entropy data processing turns a bounded forward
+  \(D(\rho\Vert\sigma)\) radius into a uniform bound on probability outside
+  the canonical spectral projection of \(\sigma\);
+- the bound vanishes with the reference tail, making the admitted family
+  trace-norm compact;
+- a reference-replacement CPTP map has finite-dimensional output and uniform
+  trace-norm error at most \(2\sqrt p+p\);
+- every fixed downstream channel, effect, and spectator-extended experiment
+  inherits that control;
+- a reverse-relative-entropy family has a closed-form escaping sequence; and
+- pure tail states prove that entropy and rank bounds do not replace forward
+  relative-entropy control.
+
+No new scientific executable was added because data processing, spectral
+tightness, the gentle-measurement inequality, and the hostile sequences decide
+the boundary exactly. The repository governance suite remains the executable
+regression. Passing it does not select the standard triple, physical state
+family, entropy radius, tolerance, compression dynamics, finite classical
+code, probe, acquisition, record write, lineage, archive, access, target, new
+operator-algebra theorem, AQFT theorem, empirical excess, law, physics,
+prediction, paper, hardware, provider, publication, or other external action.
