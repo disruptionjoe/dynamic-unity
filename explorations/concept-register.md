@@ -5451,6 +5451,46 @@ interface, new AQFT theorem, empirical excess, law, physics, prediction, or
 ready successor. See
 `aqft-hamiltonian-spectral-cutoff-phase-space-width-and-finite-probe-boundary-2026-07-29.md`.
 
+### 2026-07-29 standard split canonical factor and finite reference-state compression
+
+`HC-DU-133` corrects the broad split-property nonselection statement left by
+`HC-DU-131`.
+
+A bare split inclusion \(A\subset B\) guarantees only that some type-I factor
+lies between the endpoints, and there can be infinitely many. A standard split
+triple \(\Lambda=(A,B,\Omega)\), with \(\Omega\) cyclic and separating for
+\(A\), \(B\), and \(A'\cap B\), selects the canonical factor
+
+\[
+N_\Lambda
+=A\vee J_\Lambda A J_\Lambda
+=B\cap J_\Lambda B J_\Lambda .
+\]
+
+The construction is natural under unitary equivalences preserving the full
+triple. It therefore earns exact conditional subsystem-selection credit once
+the net, nested regions, representation, and standard state are independently
+fixed.
+
+In nontrivial standard AQFT inclusions \(N_\Lambda\) is type \(I_\infty\).
+The distinguished state restricts to a faithful infinite-rank trace-class
+density \(\rho_\Lambda\). For every declared \(\tau>0\),
+\(P_\tau=\mathbf1_{[\tau,\infty)}(\rho_\Lambda)\) has rank at most
+\(1/\tau\), and the normalized truncation has exact trace-norm error
+\(2\operatorname{Tr}(\rho_\Lambda(1-P_\tau))\to0\). This selects a finite,
+basis-free approximation of the reference state.
+
+The compression is not uniform over all normal states: a pure state supported
+in \(1-P_\tau\) is missed completely. Nor is the finite corner generally an
+intermediate factor containing \(A\). No probe, instrument, record write,
+archive, observer access, finality, or outcome follows.
+
+The result is a scoped Grade-4 standard-split selector, type-\(I_\infty\),
+finite-compression, and nonuniformity boundary plus conditional Grade-3
+reference-state reconstruction. It earns no new AQFT theorem, empirical
+excess, law, physics, prediction, or ready successor. See
+`aqft-standard-split-canonical-type-i-factor-and-record-interface-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

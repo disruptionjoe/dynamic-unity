@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 83
+state_revision: 84
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,13 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-132: a Hamiltonian cutoff selects a basis-free low-energy sector and
-    exponential tail, but Reeh--Schlieder plus continuous low-energy
-    multiplicity keeps the projected local map infinite-rank in noncompact
-    QFT. Compact resolvent is an exact finite-rank escape. Phase-space widths
-    select approximation size, not coordinates; local probe realizability
-    yields only a conditional finite packet. No interface or successor is
-    selected.
+    HC-DU-133 corrects the split boundary: a standard split triple canonically
+    selects a type-I-infinity factor, and its reference-state spectrum yields
+    finite basis-free compressions at declared tolerance. The triple, tolerance,
+    probe, archive, access, and uniform process control remain antecedent; no
+    formed record or successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

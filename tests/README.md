@@ -3291,3 +3291,28 @@ future-algebra net, derive an event time, form a durable record, select
 provenance or access, establish source issuance or empirical excess, earn a
 grade-5 remainder, or authorize a prediction, paper, model, hardware,
 provider, publication, or other external action.
+
+## HC-DU-133 standard split canonical-factor boundary
+
+`HC-DU-133` is proof- and primary-literature-only. It corrects the earlier
+broad statement that AQFT split structure cannot canonically choose an
+intermediate type-I factor:
+
+- a bare split inclusion supplies existence and can have infinitely many
+  intermediate factors;
+- a standard split triple supplies the Doplicher--Longo canonical factor;
+- the construction is equivariant under equivalences of the full triple;
+- the nontrivial AQFT factor is type \(I_\infty\);
+- its faithful reference-state density has infinite rank;
+- a positive spectral threshold gives a finite basis-free compression with
+  exact trace-distance error; and
+- one complement-supported normal state proves that compression is not
+  uniform over the local normal-state space.
+
+No new scientific executable was added because modular theory, trace-class
+spectral calculus, and the one-state counterexample decide every boundary
+exactly. The repository governance suite remains the executable regression.
+Passing it does not select the net, regions, standard state, tolerance, probe,
+instrument, record write, lineage, archive, access, outcome, target, new AQFT
+theorem, empirical excess, law, physics, prediction, paper, hardware,
+provider, publication, or other external action.
