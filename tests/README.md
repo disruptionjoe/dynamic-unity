@@ -353,6 +353,39 @@ authentication or Byzantine finality, isolate empirical excess, introduce
 new physics, or authorize a prediction, paper, hardware, provider,
 publication, or other external action.
 
+## HC-DU-120 generalized-symmetry access/resource classification
+
+`du_generalized_symmetry_access_resource_probe.py` preserves:
+
+- exact finite-Abelian total-charge share laws for
+  \(\mathbb Z_2,\mathbb Z_3,\mathbb Z_4\), and
+  \(\mathbb Z_2\times\mathbb Z_2\);
+- exact joined-share reconstruction and target blindness of every proper
+  share subset;
+- equality of the character-GHZ protocol with the total-charge Lüders channel
+  on every computational matrix unit;
+- \(|G|\) equal Schmidt probabilities for every charge-sector output and
+  every nontrivial party cut;
+- the \(\log_2|G|\) cutwise entanglement lower bound supplied by LOCC
+  monotonicity; and
+- equality of that lower bound with the character-GHZ resource entropy.
+
+Run:
+
+```bash
+python3 tests/du_generalized_symmetry_access_resource_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_generalized_symmetry_access_resource_result.json` and reports
+`12/12` over five specimens. Passing establishes only the finite-Abelian
+group/channel/Schmidt controls. The LOCC necessity step uses standard
+entanglement monotonicity. The probe does not model QFT, AQFT, SymTFT, gauge
+theory, or a relativistic detector; prove a universal generalized-symmetry
+access classification; select an apparatus or resource; isolate empirical
+excess; introduce new physics; or authorize a prediction, paper, hardware,
+provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

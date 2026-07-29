@@ -4938,6 +4938,42 @@ field, or capability target. More parity/stabilizer variants without one of
 those increments are stopped. See
 `wilson-loop-measurability-regional-threshold-record-and-capability-access-trichotomy-2026-07-29.md`.
 
+### 2026-07-29 generalized-symmetry access and exact regional resource cost
+
+`HC-DU-120` separates the algebraic and operational parts of the
+generalized-symmetry access question.
+
+Under the finite-index, \(\pi_0\)-complete, transportable \(D>2\) assumptions
+of the higher-form DHR result, loop sectors have finite Abelian-group fusion,
+their dual sectors carry the Pontryagin-dual group, and their linked
+commutators are fixed by the character pairing and linking number. This
+classifies the extended charge skeleton. It does not select a measurement
+instrument, matter/probe realization, route, resource, formed output, or
+observer access.
+
+The exact finite control freezes an \(n\)-party total-charge target for a
+finite Abelian group \(G\). An exact selective Lüders measurement maps the
+uniform product input to a fixed-charge state with \(|G|\) equal Schmidt
+coefficients across every nontrivial party cut. LOCC monotonicity therefore
+requires at least \(\log_2|G|\) pre-shared entanglement across every cut. A
+character-\(G\)-GHZ resource attains the bound, implements the charge Lüders
+channel, keeps every proper share subset uniform and target-blind, and makes
+the joined share sum exact.
+
+Holding the symmetry group and target fixed while adding or removing that
+resource changes QND measurability. Physical access therefore does not factor
+through generalized-symmetry data alone. The minimum classifier is typed by
+the net/representation, region/target, instrument, matter/probe, causal route,
+resource, acquisition, and observer access.
+
+The result is a scoped exact resource law, not a universal QFT measurement
+theorem. A timelike coherent carrier is an alternative quantum-communication
+contract, not a counterexample to the spacelike LOCC bound. Reopen through a
+constructive QFT transfer, a typed entanglement/quantum-communication tradeoff,
+a genuinely non-Abelian/continuous exception, or unchanged transfer to a
+held-out North-Star target. See
+`generalized-symmetry-access-nonfactorization-and-finite-abelian-regional-qnd-resource-law-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

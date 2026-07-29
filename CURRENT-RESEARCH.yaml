@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 70
+state_revision: 71
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,12 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-119: Wilson-loop measurability is gauge-, matter-, topology-,
-    resource-, and demolition-relative. Abelian QND access can form
-    individually blind, jointly complete regional shares; destructive access
-    is a finer record; non-Abelian spacelike QND access is causality-forbidden
-    in scope. Changeability and measurability can be incomparable. No successor
-    is selected.
+    HC-DU-120: generalized-symmetry data classifies algebraic sectors, not
+    access. For finite Abelian charge under regional LOCC, exact Lüders
+    measurement requires log2(|G|) entanglement across every nontrivial cut;
+    character-GHZ attains it with blind proper shares and exact joint recovery.
+    QFT transfer and apparatus selection remain open. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
