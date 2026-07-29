@@ -200,6 +200,36 @@ unrestricted nuisance class, reconstruct nature's metric, introduce new
 physics, or authorize a prediction, paper, hardware, provider, publication,
 or other external action.
 
+## HC-DU-115 Haag/direct-action interface fork
+
+`du_mediator_elimination_interface_fork_probe.py` preserves:
+
+- exact stationary elimination of a finite quadratic mediator;
+- equality of the explicit-mediator and effective source-only actions;
+- equality of their source-response maps;
+- exact one- and two-channel factorizations of the same scalar source kernel;
+- different candidate channel weights under those source-equivalent
+  factorizations;
+- one mediator-facing action direction invisible to the original source; and
+- the need to supply a factorization before reconstructing mediator
+  coordinates.
+
+Run:
+
+```bash
+python3 tests/du_mediator_elimination_interface_fork_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_mediator_elimination_interface_fork_result.json`.
+Passing establishes only the finite Schur-complement, query-relative
+equivalence, factorization non-identifiability, and action-class enlargement
+controls. It does not establish QED/AQFT/direct-action equivalence, resolve
+Haag's theorem, select absorbers, validate RTI, cause collapse, form an event
+or record, select ontology, isolate empirical excess, introduce new physics,
+or authorize a prediction, paper, hardware, provider, publication, or other
+external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

@@ -1,0 +1,13 @@
+{
+  "boundary": "Regression only: no QED/AQFT/direct-action equivalence theorem, Haag resolution, absorber selection, RTI validation, collapse, formed event, record, access, ontology, empirical excess, new physics, prediction, paper, hardware, or external action.",
+  "claim_id": "HC-DU-115",
+  "controls": {
+    "absorber_partition_not_selected_by_source_kernel": true,
+    "mediator_facing_action_distinguishes_enlarged_completion": true,
+    "mediator_reconstruction_requires_supplied_factorization": true,
+    "same_source_kernel_one_vs_two_channels": true,
+    "source_response_preserved": true,
+    "stationary_mediator_elimination_exact": true
+  },
+  "status": "PASS"
+}

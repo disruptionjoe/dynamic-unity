@@ -4716,6 +4716,49 @@ nuisance class, transport, systematics, provenance, access, resources, and
 no-refit transfer—not a bare atom or one transition frequency. See
 `multistandard-clock-metric-matter-attribution-rank-and-common-mode-boundary-2026-07-29.md`.
 
+### 2026-07-29 Haag field/direct-action fork and interface invariance
+
+`HC-DU-115` makes the field ontology supporting some Dynamic Unity record
+results an explicit branch commitment rather than an invisible default.
+Haag's theorem blocks a naive interaction-picture unitary identification of
+free and interacting fields under its assumptions; it does not select AQFT,
+direct action, or an ontology.
+
+For an invertible quadratic mediator,
+
+\[
+S(j,\phi)
+=
+\frac12j^\mathsf TAj+j^\mathsf TB\phi
++\frac12\phi^\mathsf TK\phi,
+\]
+
+stationary elimination gives
+
+\[
+S_{\rm eff}(j)
+=
+\frac12j^\mathsf T
+\left(A-BK^{-1}B^\mathsf T\right)j.
+\]
+
+Every source-only on-shell query is preserved. The effective kernel does not
+determine mediator dimension, factorization, local mediator algebra, or
+candidate absorber/event partition. A scalar kernel has exact one- and
+two-channel factorizations with weights \(1\) and
+\((9/25,16/25)\), while the two-channel completion contains an action
+direction invisible to the original source.
+
+The new guard is **mediator-elimination invariance**: a local-field record
+theorem is universal across this fork only when its formed records,
+interventions, targets, resources, and capabilities factor through the
+field-to-direct-action translation. Otherwise it is branch-relative.
+Direct action does not itself select records; it relocates the open interface
+to matter currents and their outputs. RTI is retained as a contested
+conditional event-trigger candidate, not a selected interface or empirical
+delta. See
+`haag-algebraic-field-direct-action-and-transactional-event-selection-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 65
+state_revision: 66
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-114: one clock confounds redshift with admitted matter-law drift. A
-    joined clock family separates p frozen nuisances exactly when its
-    augmented sensitivity rank is p+1. Universal frequency drift remains
-    confounded with redshift. Formation, transfer, provenance, access, and
-    nuisance-class selection remain open. No successor is selected.
+    HC-DU-115: Haag exposes but does not adjudicate the field/direct-action
+    fork. Exact mediator elimination preserves source response but not
+    mediator dimension, channel factorization, local records, or event
+    partition. Field-algebra record results are branch-relative unless their
+    interfaces and targets survive elimination. RTI remains a contested
+    conditional trigger, not an earned selector. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -696,6 +697,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
+    - mediator-elimination-invariant-physically-selected-event-record-interface-with-held-out-transfer
     - source-formed-conformally-transferring-nonlinear-interaction-event-from-fixed-null-front-architecture-with-predeclared-finite-resolution-controls-physically-formed-joint-multistandard-clock-record-full-metric-matter-sensitivity-rank-frozen-nuisance-class-universal-common-mode-quotient-unique-occurrence-identity-bounded-source-latency-reciprocal-clock-rigid-self-calibrating-crosslinks-complete-provenance-acquisition-and-no-refit-full-regional-metric-geometry-transfer
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
