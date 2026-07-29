@@ -1,0 +1,65 @@
+{
+  "probe": "du_bounded_weyl_causal_propagator_probe",
+  "status": "PASS",
+  "claim_id": "HC-DU-102",
+  "checks": {
+    "antisymmetry_cases": 16,
+    "exact_factorization_cases": 64,
+    "one_amplitude_phase_alias": {
+      "base_cycles": "1/3",
+      "alias_cycles": "22/3",
+      "same_phase": true
+    },
+    "same_symplectic_response_different_quasifree_state": {
+      "vacuum_covariance_determinant": "1/4",
+      "thermal_covariance_determinant": "1",
+      "vacuum_characteristic": 0.7788007830714049,
+      "thermal_characteristic": 0.6065306597126334,
+      "different": true
+    },
+    "symplectic_relabeling_cases": 16,
+    "norm_discontinuity_witness": {
+      "phase_cycles": "1/2",
+      "exact_norm_difference": 2
+    },
+    "finite_packet_same_training_different_held_out": {
+      "training_pairs": 2,
+      "held_out_form_a": "0",
+      "held_out_form_b": "1",
+      "different": true
+    }
+  },
+  "representative_exact_controls": {
+    "antisymmetry": {
+      "left": [
+        "1",
+        "0"
+      ],
+      "right": [
+        "-3/2",
+        "4/3"
+      ],
+      "sigma": "4/3",
+      "antisymmetric": true
+    },
+    "factorization": {
+      "amplitude": "5/2",
+      "source": [
+        "1",
+        "0"
+      ],
+      "readout": [
+        "-3/2",
+        "4/3"
+      ],
+      "exact_conjugation_exponent": "10/3",
+      "factorized": true
+    },
+    "symplectic_relabeling": {
+      "original_sigma": "4/3",
+      "transformed_sigma": "4/3",
+      "preserved": true
+    }
+  },
+  "scope_warning": "Exact finite symplectic controls only. No QFT realization, selected localization, field state, formed record, finite inverse margin, causal or conformal geometry, full metric, novel physics, or prediction is established."
+}
