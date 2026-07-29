@@ -4516,6 +4516,48 @@ crosslinks, complete provenance/acquisition, and unchanged transfer to a
 held-out regional causal or conformal relation. See
 `fixed-null-front-interaction-controllability-continuous-control-and-geometry-refit-boundary-2026-07-29.md`.
 
+### 2026-07-29 conformal event transfer and metric-scale boundary
+
+`HC-DU-110` closes the easiest nonflat transfer class without overclaiming
+full curved geometry. For
+
+\[
+g_\Omega=\Omega^2\eta,
+\]
+
+the four fixed `HC-DU-109` covectors remain null and their intersection still
+solves \(Lp=c\). The same predeclared phase codebook and coordinate decoder
+therefore transfer unchanged across the positive conformal class. This is a
+genuine no-refit event-control result, but it is conformal-scale blind.
+
+The blindness is exact for the controlled four-dimensional specimen
+
+\[
+\left(\square_g-\frac16R_g\right)u+a u^2=f.
+\]
+
+Under
+
+\[
+(g,u,a,f)
+\mapsto
+(\Omega^2g,\Omega^{-1}u,\Omega^{-1}a,\Omega^{-3}f),
+\]
+
+the equation is covariant. When \(\Omega=1\) on the source/readout region,
+distinct interior metric/coefficient pairs have the same complete local
+source-to-solution map. Every mixed response order, including a conditional
+four-wave artificial point source, inherits the same equivalence. Nonlinearity
+does not automatically promote conformal recovery to metric recovery.
+
+Holding \(a\) fixed breaks this exact gauge because its quadratic term then
+has conformal weight \(-2\) rather than \(-3\). That is a necessary exit, not
+an injectivity theorem. The refined geometry candidate needs an independently
+selected nonconformal scale datum, finite stable inversion on a frozen compact
+class, physical source formation, bounded latency, complete provenance and
+acquisition, and unchanged held-out transfer. See
+`conformal-null-front-transfer-metric-coupling-gauge-and-scale-anchor-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

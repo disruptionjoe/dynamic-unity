@@ -1,0 +1,38 @@
+{
+  "boundary": "Regression only: no fundamental scalar law, physical source formation, nonzero four-wave symbol, finite-support realization, selected coupling, source timing, provenance, complete acquisition, full-metric reconstruction, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-110",
+  "controls": {
+    "all_covectors_null_for_all_weyl_factors": true,
+    "all_target_events_unchanged_across_conformal_family": true,
+    "breaking_gauge_proves_injectivity": false,
+    "conformal_weights": {
+      "conformal_wave_operator_on_u": -3,
+      "field_u": -1,
+      "quadratic_coefficient_a": -1,
+      "quadratic_field_power": 2,
+      "source_f": -3
+    },
+    "fixed_coefficient_covariance_mismatch_factor": "2",
+    "fixed_coefficient_weight": 0,
+    "fixed_null_front_count": 4,
+    "fixed_quadratic_total_weight": -2,
+    "interior_same_map_witness": {
+      "base_coefficient": "3/5",
+      "base_metric_scale": "1",
+      "boundary_omega": "1",
+      "boundary_source_and_response_unchanged": true,
+      "omega": "2",
+      "transformed_coefficient": "3/10",
+      "transformed_metric_scale": "4"
+    },
+    "quadratic_total_weight": -3,
+    "target_event_count_checked": 4,
+    "weyl_factors_checked": [
+      "1",
+      "3/2",
+      "2",
+      "5/2"
+    ]
+  },
+  "status": "PASS"
+}

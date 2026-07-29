@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 60
+state_revision: 61
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,13 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-109 proves one fixed four-null-front architecture addresses every
-    event in a supplied flat 3+1 arena using four continuous phase controls.
-    Three channels leave a line fibre, finite settings give only finite
-    coverage, and unknown source latency confounds event location. Nonlinear
-    signal formation, curved-geometry control, association, complete
-    acquisition, and no-refit regional transfer remain open. No successor is
-    selected.
+    HC-DU-110 proves fixed HC-DU-109 fronts transfer across a positive
+    conformal class while the complete local quadratic-wave response is
+    invariant under (g,a) -> (Omega^2 g,Omega^-1 a); every mixed order is
+    scale-blind. Full metric recovery requires a selected nonconformal datum,
+    formation, bounded latency, provenance, complete acquisition, and transfer
+    beyond the class. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -698,7 +697,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - source-formed-nonlinear-interaction-event-from-fixed-null-front-architecture-with-predeclared-finite-resolution-controls-independently-bounded-source-latency-reciprocal-clock-rigid-self-calibrating-crosslinks-complete-provenance-acquisition-and-no-refit-regional-geometry-transfer
+    - source-formed-conformally-transferring-nonlinear-interaction-event-from-fixed-null-front-architecture-with-predeclared-finite-resolution-controls-independently-selected-nonconformal-scale-anchor-bounded-source-latency-reciprocal-clock-rigid-self-calibrating-crosslinks-complete-provenance-acquisition-and-no-refit-full-regional-metric-geometry-transfer
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates

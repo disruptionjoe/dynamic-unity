@@ -39,6 +39,38 @@ method integrity only. It does not validate an approach scientifically, rank
 a swing, authorize work, change Factory state, harden a manuscript, or
 establish publication readiness.
 
+## HC-DU-110 conformal null-front transfer and scale-anchor gate
+
+`du_conformal_null_front_transfer_scale_anchor_probe.py` preserves the exact
+finite controls behind the conformal-transfer result:
+
+- all four fixed phase covectors remain null under several positive Weyl
+  factors;
+- the same phase code recovers the same coordinate events throughout the
+  conformal family;
+- the conformal-wave, field, quadratic-coupling, and source weights all match;
+- an explicit interior witness changes metric scale and coupling while the
+  boundary conjugacy is the identity;
+- holding the quadratic coefficient fixed produces the exact one-factor
+  covariance mismatch; and
+- breaking that gauge is recorded as necessary but not sufficient for metric
+  injectivity.
+
+Run:
+
+```bash
+python3 tests/du_conformal_null_front_transfer_scale_anchor_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_conformal_null_front_transfer_scale_anchor_result.json`.
+Passing establishes only the scoped conformal null-front/event-control
+transfer, metric/coupling gauge, and fixed-coefficient scale-anchor boundary.
+It does not establish fundamental scalar dynamics, physical source formation,
+a nonzero four-wave symbol, selected coupling, source timing, provenance,
+complete acquisition, full-metric reconstruction, new physics, prediction,
+paper, model, hardware, provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
