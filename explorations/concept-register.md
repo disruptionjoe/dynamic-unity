@@ -1747,6 +1747,54 @@ supplied rather than an independently formed certified operational record.
 See
 `future-algebra-order-reflection-causal-order-and-conformal-reconstruction-boundary-2026-07-28.md`.
 
+### 2026-07-28 operational causal capability saturation
+
+`HC-DU-094` identifies the operational content of `HC-DU-093`'s missing
+order-reflection premise.
+
+For a complete physical process \(P\), define
+
+\[
+x\rightsquigarrow_P y
+\]
+
+when two admitted interventions at \(x\), with the remaining context fixed,
+produce distinct response laws at \(y\). Causal soundness places this
+influence relation inside the physical causal order. It does not supply the
+converse: causal possibility is permission, and one process need not use
+every permitted link.
+
+The smallest exact witness is a constant/replacer process on two sites. Its
+complete intervention-response law is identical whether the sites are
+causally ordered or spacelike-incomparable.
+
+A physically admitted process/intervention family is **causally saturating**
+when the transitive closure of the union of its operational influences equals
+the causal order. Under soundness, exact causal reconstruction from the
+family holds if and only if this saturation condition holds.
+
+Consequently:
+
+```text
+one history
+  != one complete process
+  != a physically realizable capability family
+  != a causally saturating response surface
+  != finite certified records of that surface.
+```
+
+Symmetric commutation or mutual no-signalling cannot orient time.
+Intervention-only causal discovery weakens ordinary observational
+faithfulness but retains intervention coverage/faithfulness. QFT further
+separates mathematically causal channels from physically realizable
+operations.
+
+Lorentzian nonlinear-wave inverse theorems provide a serious positive:
+complete local source-to-solution maps can reconstruct conformal spacetime.
+They currently supply an ideal continuum capability surface, not a finite
+formed record packet. See
+`operational-influence-capability-saturation-and-active-wave-geometry-reconstruction-boundary-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing
