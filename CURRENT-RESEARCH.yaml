@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 75
+state_revision: 76
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-124: complete cycle records from connected regions have |G|^(k-1)
-    global completions when their overlap has k components. k-1 cross-cycle
-    values complete the global record; |V|-1 physical coboundary coordinates
-    still remain. This is neither public finality nor interface selection. No
-    successor is selected.
+    HC-DU-125: one uniform-kernel instrument forms complete cycle records.
+    Local marginals expose only local classes; cross-region glue lives in
+    joined correlations. Cut entanglement is matroid connectivity times
+    log2|G|. Star-triangle equivalence proves field-cycle records do not
+    automatically descend to source-only direct action. No successor is
+    selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

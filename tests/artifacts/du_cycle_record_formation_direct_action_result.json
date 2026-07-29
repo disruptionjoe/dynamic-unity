@@ -1,0 +1,2225 @@
+{
+  "checks": {
+    "complete_cycle_kernel_is_the_coboundary_subgroup": true,
+    "complete_cycle_measurement_is_cycle_basis_invariant": true,
+    "connected_overlap_needs_no_extra_glue_coordinate": true,
+    "cross_region_glue_is_hidden_from_each_local_marginal": true,
+    "cut_schmidt_rank_equals_shared_syndrome_order": true,
+    "cycle_resource_cost_is_matroid_connectivity_times_log_group_order": true,
+    "direct_action_native_relation_record_requires_retyping": true,
+    "discarding_lineage_erases_disconnected_overlap_glue": true,
+    "equal_source_kernel_does_not_fix_interaction_graph_cycle_rank": true,
+    "field_cycle_record_does_not_automatically_descend_to_direct_action": true,
+    "joined_transcript_recovers_complete_global_cycle_class": true,
+    "local_transcript_is_exact_projected_kernel_quotient": true,
+    "multiply_connected_graph_can_require_multiple_group_units": true,
+    "no_field_or_direct_action_ontology_is_selected": true,
+    "no_public_finality_complete_resource_law_or_empirical_excess": true,
+    "one_uniform_kernel_resource_attains_every_cutwise_bound": true,
+    "raw_transcript_causes_no_within_fibre_dephasing": true,
+    "raw_transcript_depends_only_on_target_fibre": true,
+    "regional_marginal_reveals_exactly_local_cycle_class": true,
+    "shared_syndrome_entanglement_is_a_cutwise_locc_lower_bound": true,
+    "star_and_triangle_have_exactly_equal_source_kernel": true,
+    "tree_cycle_record_needs_no_entanglement": true,
+    "uniform_kernel_ancilla_implements_exact_homomorphic_luders_measurement": true,
+    "uniform_kernel_state_has_flat_cut_schmidt_spectrum": true
+  },
+  "checks_passed": 24,
+  "checks_total": 24,
+  "claim_id": "HC-DU-125",
+  "formal_boundary": {
+    "cutwise_resource": "Across S:Sbar, the resource and every conditional uniform input output have flat Schmidt rank |im(Q_S) intersection im(Q_Sbar)|, giving a matching entanglement lower bound and construction.",
+    "direct_action": "Exact source-kernel equivalence does not fix an interaction completion's cycle topology. A cycle record descends only if it factors through the elimination map; a DAT-native relation record is a retyped construction.",
+    "graph_specialization": "For a complete graph-cycle record, the cut rank is |G|^(|V|-c(S)-c(Sbar)+1), the graphic-matroid connectivity exponent.",
+    "homomorphic_instrument": "The uniform state on ker(Q), local controlled addition, and local group-basis readout implement the exact selective Luders instrument for any frozen finite-Abelian homomorphism Q.",
+    "regional_glue": "Each region's masked transcript depends exactly on its local cycle class; joined transcript correlations retain the k-1 cross-region cycle coordinates."
+  },
+  "graph_specimens": [
+    {
+      "cut_results": [
+        {
+          "entanglement_formula": "0*log2(2)",
+          "kernel_state_schmidt_rank": 1,
+          "left_components": 3,
+          "left_edges": [
+            0
+          ],
+          "matroid_connectivity_exponent": 0,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2
+          ],
+          "shared_syndrome_order": 1
+        },
+        {
+          "entanglement_formula": "0*log2(2)",
+          "kernel_state_schmidt_rank": 1,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1
+          ],
+          "matroid_connectivity_exponent": 0,
+          "right_components": 3,
+          "right_edges": [
+            2
+          ],
+          "shared_syndrome_order": 1
+        },
+        {
+          "entanglement_formula": "0*log2(2)",
+          "kernel_state_schmidt_rank": 1,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2
+          ],
+          "matroid_connectivity_exponent": 0,
+          "right_components": 3,
+          "right_edges": [
+            1
+          ],
+          "shared_syndrome_order": 1
+        }
+      ],
+      "cuts_checked": 3,
+      "cycle_bases_checked": 1,
+      "cycle_rank": 0,
+      "edges": 3,
+      "expected_coboundary_size": 8,
+      "graph": "path4",
+      "group": "Z2",
+      "group_order": 2,
+      "kernel_size": 8,
+      "maximum_connectivity_exponent": 0,
+      "minimum_connectivity_exponent": 0,
+      "vertices": 4
+    },
+    {
+      "cut_results": [
+        {
+          "entanglement_formula": "1*log2(4)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "1*log2(4)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 2,
+          "right_edges": [
+            2
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "1*log2(4)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 2,
+          "right_edges": [
+            1
+          ],
+          "shared_syndrome_order": 4
+        }
+      ],
+      "cuts_checked": 3,
+      "cycle_bases_checked": 3,
+      "cycle_rank": 1,
+      "edges": 3,
+      "expected_coboundary_size": 16,
+      "graph": "triangle",
+      "group": "Z2xZ2",
+      "group_order": 4,
+      "kernel_size": 16,
+      "maximum_connectivity_exponent": 1,
+      "minimum_connectivity_exponent": 1,
+      "vertices": 3
+    },
+    {
+      "cut_results": [
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 5,
+          "left_edges": [
+            0
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 4,
+          "left_edges": [
+            0,
+            1
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 2,
+          "right_edges": [
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 4,
+          "left_edges": [
+            0,
+            2
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 4,
+          "left_edges": [
+            0,
+            3
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 4,
+          "left_edges": [
+            0,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 4,
+          "left_edges": [
+            0,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 4,
+          "left_edges": [
+            0,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "0*log2(2)",
+          "kernel_state_schmidt_rank": 1,
+          "left_components": 4,
+          "left_edges": [
+            0,
+            1,
+            2
+          ],
+          "matroid_connectivity_exponent": 0,
+          "right_components": 3,
+          "right_edges": [
+            3,
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 1
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            3
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            2,
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            2,
+            3,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            2,
+            3,
+            4,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            2,
+            3
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            2,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            3,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            2,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            3,
+            4,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            2,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            4,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            3,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            3,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "0*log2(2)",
+          "kernel_state_schmidt_rank": 1,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "matroid_connectivity_exponent": 0,
+          "right_components": 4,
+          "right_edges": [
+            4,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 1
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            3,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            3,
+            4,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            1,
+            2,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            2,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            2,
+            4,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            3,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            2,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            2,
+            3,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            2,
+            3,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            2,
+            3,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            5,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            4,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            3,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            3,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            3,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            3,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            2,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            3,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            2,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            3,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            2,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 3,
+          "left_edges": [
+            0,
+            4,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            1,
+            2,
+            3
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            5,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            4,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            4,
+            5
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            3,
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            2,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            3,
+            5
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            2,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            3,
+            4
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 4,
+          "right_edges": [
+            2,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            3,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 4,
+          "right_edges": [
+            2,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            3,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 4,
+          "right_edges": [
+            2,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            4,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            2,
+            3
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 4,
+          "right_edges": [
+            1,
+            6
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 4,
+          "right_edges": [
+            1,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 4,
+          "right_edges": [
+            1,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            4,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            1,
+            3
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            3,
+            4,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 4,
+          "right_edges": [
+            1,
+            2
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 5,
+          "right_edges": [
+            6
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 5,
+          "right_edges": [
+            5
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 5,
+          "right_edges": [
+            4
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "0*log2(2)",
+          "kernel_state_schmidt_rank": 1,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 0,
+          "right_components": 5,
+          "right_edges": [
+            3
+          ],
+          "shared_syndrome_order": 1
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            3,
+            4,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 5,
+          "right_edges": [
+            2
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 5,
+          "right_edges": [
+            1
+          ],
+          "shared_syndrome_order": 2
+        }
+      ],
+      "cuts_checked": 63,
+      "cycle_bases_checked": 9,
+      "cycle_rank": 2,
+      "edges": 7,
+      "expected_coboundary_size": 32,
+      "graph": "bridged_triangles",
+      "group": "Z2",
+      "group_order": 2,
+      "kernel_size": 32,
+      "maximum_connectivity_exponent": 2,
+      "minimum_connectivity_exponent": 0,
+      "vertices": 6
+    },
+    {
+      "cut_results": [
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 3,
+          "left_edges": [
+            0
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            2,
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            3
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            3,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            1,
+            3
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            2,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "3*log2(2)",
+          "kernel_state_schmidt_rank": 8,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            4
+          ],
+          "matroid_connectivity_exponent": 3,
+          "right_components": 1,
+          "right_edges": [
+            2,
+            3,
+            5
+          ],
+          "shared_syndrome_order": 8
+        },
+        {
+          "entanglement_formula": "3*log2(2)",
+          "kernel_state_schmidt_rank": 8,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            5
+          ],
+          "matroid_connectivity_exponent": 3,
+          "right_components": 1,
+          "right_edges": [
+            2,
+            3,
+            4
+          ],
+          "shared_syndrome_order": 8
+        },
+        {
+          "entanglement_formula": "3*log2(2)",
+          "kernel_state_schmidt_rank": 8,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3
+          ],
+          "matroid_connectivity_exponent": 3,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            4,
+            5
+          ],
+          "shared_syndrome_order": 8
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 2,
+          "left_edges": [
+            0,
+            2,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            3,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "3*log2(2)",
+          "kernel_state_schmidt_rank": 8,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            5
+          ],
+          "matroid_connectivity_exponent": 3,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            3,
+            4
+          ],
+          "shared_syndrome_order": 8
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "3*log2(2)",
+          "kernel_state_schmidt_rank": 8,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 3,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            4
+          ],
+          "shared_syndrome_order": 8
+        },
+        {
+          "entanglement_formula": "3*log2(2)",
+          "kernel_state_schmidt_rank": 8,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 3,
+          "right_components": 1,
+          "right_edges": [
+            1,
+            2,
+            3
+          ],
+          "shared_syndrome_order": 8
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            4,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            3,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            3,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            2,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            2,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            2,
+            3
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            5
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            4
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            3
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "2*log2(2)",
+          "kernel_state_schmidt_rank": 4,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            3,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 2,
+          "right_components": 2,
+          "right_edges": [
+            1,
+            2
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            5
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            3,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            4
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            2,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            3
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            2
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "entanglement_formula": "1*log2(2)",
+          "kernel_state_schmidt_rank": 2,
+          "left_components": 1,
+          "left_edges": [
+            0,
+            2,
+            3,
+            4,
+            5
+          ],
+          "matroid_connectivity_exponent": 1,
+          "right_components": 3,
+          "right_edges": [
+            1
+          ],
+          "shared_syndrome_order": 2
+        }
+      ],
+      "cuts_checked": 31,
+      "cycle_bases_checked": 16,
+      "cycle_rank": 3,
+      "edges": 6,
+      "expected_coboundary_size": 8,
+      "graph": "complete4",
+      "group": "Z2",
+      "group_order": 2,
+      "kernel_size": 8,
+      "maximum_connectivity_exponent": 3,
+      "minimum_connectivity_exponent": 1,
+      "vertices": 4
+    }
+  ],
+  "homomorphic_specimens": [
+    {
+      "cut_results": [
+        {
+          "kernel_state_schmidt_rank": 3,
+          "left_coordinates": [
+            0
+          ],
+          "right_coordinates": [
+            1,
+            2
+          ],
+          "shared_syndrome_order": 3
+        },
+        {
+          "kernel_state_schmidt_rank": 3,
+          "left_coordinates": [
+            0,
+            1
+          ],
+          "right_coordinates": [
+            2
+          ],
+          "shared_syndrome_order": 3
+        },
+        {
+          "kernel_state_schmidt_rank": 3,
+          "left_coordinates": [
+            0,
+            2
+          ],
+          "right_coordinates": [
+            1
+          ],
+          "shared_syndrome_order": 3
+        }
+      ],
+      "cuts_checked": 3,
+      "data_states": 27,
+      "group": "Z3",
+      "group_order": 3,
+      "kernel_size": 9,
+      "name": "three_party_total",
+      "realized_record_values": 3,
+      "stations": 3,
+      "target_coordinates": 1
+    },
+    {
+      "cut_results": [
+        {
+          "kernel_state_schmidt_rank": 2,
+          "left_coordinates": [
+            0
+          ],
+          "right_coordinates": [
+            1,
+            2,
+            3
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "kernel_state_schmidt_rank": 2,
+          "left_coordinates": [
+            0,
+            1
+          ],
+          "right_coordinates": [
+            2,
+            3
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "kernel_state_schmidt_rank": 4,
+          "left_coordinates": [
+            0,
+            2
+          ],
+          "right_coordinates": [
+            1,
+            3
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "kernel_state_schmidt_rank": 4,
+          "left_coordinates": [
+            0,
+            3
+          ],
+          "right_coordinates": [
+            1,
+            2
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "kernel_state_schmidt_rank": 2,
+          "left_coordinates": [
+            0,
+            1,
+            2
+          ],
+          "right_coordinates": [
+            3
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "kernel_state_schmidt_rank": 2,
+          "left_coordinates": [
+            0,
+            1,
+            3
+          ],
+          "right_coordinates": [
+            2
+          ],
+          "shared_syndrome_order": 2
+        },
+        {
+          "kernel_state_schmidt_rank": 2,
+          "left_coordinates": [
+            0,
+            2,
+            3
+          ],
+          "right_coordinates": [
+            1
+          ],
+          "shared_syndrome_order": 2
+        }
+      ],
+      "cuts_checked": 7,
+      "data_states": 16,
+      "group": "Z2",
+      "group_order": 2,
+      "kernel_size": 4,
+      "name": "two_linear_targets",
+      "realized_record_values": 4,
+      "stations": 4,
+      "target_coordinates": 2
+    },
+    {
+      "cut_results": [
+        {
+          "kernel_state_schmidt_rank": 4,
+          "left_coordinates": [
+            0
+          ],
+          "right_coordinates": [
+            1,
+            2
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "kernel_state_schmidt_rank": 4,
+          "left_coordinates": [
+            0,
+            1
+          ],
+          "right_coordinates": [
+            2
+          ],
+          "shared_syndrome_order": 4
+        },
+        {
+          "kernel_state_schmidt_rank": 4,
+          "left_coordinates": [
+            0,
+            2
+          ],
+          "right_coordinates": [
+            1
+          ],
+          "shared_syndrome_order": 4
+        }
+      ],
+      "cuts_checked": 3,
+      "data_states": 64,
+      "group": "Z2xZ2",
+      "group_order": 4,
+      "kernel_size": 4,
+      "name": "product_group_two_targets",
+      "realized_record_values": 16,
+      "stations": 3,
+      "target_coordinates": 2
+    }
+  ],
+  "non_claims": [
+    "not dynamic selection of the graph, matter, target, or interface",
+    "not a complete physical preparation or measurement cost",
+    "not authentication, BFT, consensus, or public finality",
+    "not proof of RTI actualization or direct-action ontology",
+    "not a non-Abelian, continuous, pure-gauge, AQFT, or continuum result",
+    "not empirical excess, prediction, or new physics"
+  ],
+  "regional_specimens": [
+    {
+      "cover": "two_paths_one_cycle",
+      "cross_region_coordinates_hidden_in_marginals": 1,
+      "global_classes_per_local_pair": 3,
+      "global_cycle_classes": 3,
+      "group": "Z3",
+      "group_order": 3,
+      "joined_transcript_recovers_global_class": true,
+      "local_record_pairs": 1,
+      "overlap_components": 2,
+      "region_a_cycle_rank": 0,
+      "region_b_cycle_rank": 0
+    },
+    {
+      "cover": "cyclic_overlap_plus_island",
+      "cross_region_coordinates_hidden_in_marginals": 1,
+      "global_classes_per_local_pair": 2,
+      "global_cycle_classes": 4,
+      "group": "Z2",
+      "group_order": 2,
+      "joined_transcript_recovers_global_class": true,
+      "local_record_pairs": 2,
+      "overlap_components": 2,
+      "region_a_cycle_rank": 1,
+      "region_b_cycle_rank": 1
+    },
+    {
+      "cover": "squares_shared_edge",
+      "cross_region_coordinates_hidden_in_marginals": 0,
+      "global_classes_per_local_pair": 1,
+      "global_cycle_classes": 4,
+      "group": "Z2",
+      "group_order": 2,
+      "joined_transcript_recovers_global_class": true,
+      "local_record_pairs": 4,
+      "overlap_components": 1,
+      "region_a_cycle_rank": 1,
+      "region_b_cycle_rank": 1
+    }
+  ],
+  "star_triangle": {
+    "boundary_source_kernel": [
+      [
+        "2",
+        "-1",
+        "-1"
+      ],
+      [
+        "-1",
+        "2",
+        "-1"
+      ],
+      [
+        "-1",
+        "-1",
+        "2"
+      ]
+    ],
+    "interaction_graph_cycle_rank_equal": false,
+    "scope": "classical fixed-background boundary response; complete quantum equivalence additionally needs determinant, measure, state, boundary, regulator, and background dependence",
+    "source_kernel_equal": true,
+    "source_vectors_checked": 4,
+    "star_conductances": [
+      3,
+      3,
+      3
+    ],
+    "star_cycle_rank": 0,
+    "triangle_conductances": [
+      1,
+      1,
+      1
+    ],
+    "triangle_cycle_rank": 1
+  },
+  "status": "PASS"
+}

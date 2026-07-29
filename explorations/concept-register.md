@@ -5137,6 +5137,47 @@ communication, entanglement, energy, latency, consensus, or empirical law.
 See
 `regional-cycle-record-mayer-vietoris-gluing-deficit-cross-certificate-and-layered-remainder-2026-07-29.md`.
 
+### 2026-07-29 homomorphic record formation and direct-action descent
+
+`HC-DU-125` physically forms the complete local and global finite-Abelian
+cycle records from `HC-DU-121`--`124` with one unchanged instrument.
+
+For any homomorphism \(Q:D\to H\), the ancillary state uniform on
+\(\ker Q\), local controlled addition, and local group-basis readout implement
+the exact selective Lüders instrument for \(Q\). A station subset \(S\) sees
+only the quotient \(D_S/\pi_S(\ker Q)\). In a two-region graph cover this
+means every region's transcript marginal reveals exactly its local cycle
+class, while the cross-region gluing sector lives only in correlations
+between the joined masked transcripts.
+
+Across \(S:\bar S\), the uniform-kernel resource has flat Schmidt rank
+
+\[
+|\operatorname{im}Q_S\cap\operatorname{im}Q_{\bar S}|,
+\]
+
+and an exact LOCC implementation needs and attains its logarithm in
+pre-shared entanglement. For the complete graph-cycle map this becomes
+
+\[
+\bigl(|V|-c(S)-c(\bar S)+1\bigr)\log_2|G|,
+\]
+
+the graphic-matroid connectivity function times the group information unit.
+This is a formation-resource law, not endpoint min-cut, regional-overlap
+deficit, consensus threshold, or complete physical cost.
+
+The same result exposes a field/direct-action type boundary. Exact
+star--triangle elimination preserves the complete boundary source action
+while changing interaction-graph cycle rank from zero to one. Therefore a
+field- or mediator-cycle record is not automatically invariant under
+reduction to direct source action. A direct-action-native source-relation
+record can be built only after its relation variables, local actions, target,
+resource, formation, and access interface are separately typed.
+
+The result neither selects field nor direct-action ontology. See
+`homomorphic-cycle-record-formation-matroid-resource-regional-correlation-and-direct-action-descent-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

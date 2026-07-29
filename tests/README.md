@@ -516,6 +516,43 @@ transfer to many-region, non-Abelian, continuous, higher-cell, AQFT, or
 continuum theories; produce empirical excess; or authorize a prediction,
 paper, hardware, provider, publication, or other external action.
 
+## HC-DU-125 homomorphic cycle-record formation and direct-action descent
+
+`du_cycle_record_formation_direct_action_probe.py` preserves four exact
+finite boundaries:
+
+- for any tested finite-Abelian homomorphism \(Q\), the uniform
+  \(\ker Q\) ancillary state plus local controlled addition implements the
+  exact selective Lüders instrument without within-fibre dephasing;
+- each station subset's raw transcript reveals exactly its projected-kernel
+  quotient, while joined regional correlations retain the cross-region
+  gluing sector;
+- the uniform-kernel state's Schmidt rank across \(S:\bar S\) is
+  \(|\operatorname{im}Q_S\cap\operatorname{im}Q_{\bar S}|\), giving a
+  matching cutwise LOCC lower bound and construction;
+- for complete graph-cycle records, the resource exponent is
+  \(|V|-c(S)-c(\bar S)+1\), the graphic-matroid connectivity function; and
+- an exact star--triangle Schur complement gives one source kernel with
+  interaction-graph cycle ranks zero and one, so a mediator-cycle record
+  does not automatically descend to direct source action.
+
+Run:
+
+```bash
+python3 tests/du_cycle_record_formation_direct_action_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_cycle_record_formation_direct_action_result.json` and reports
+`24/24` over three homomorphic, four graph, three regional, and one
+star--triangle specimen. Passing is only a bounded exact regression of the
+analytic proof. It does not select a homomorphism, graph, matter sector,
+station factorization, resource, record interface, field or direct-action
+ontology, absorber or RTI event rule; establish public finality or a complete
+cost law; transfer to non-Abelian, continuous, AQFT, or continuum theories;
+produce empirical excess; or authorize a prediction, paper, hardware,
+provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
