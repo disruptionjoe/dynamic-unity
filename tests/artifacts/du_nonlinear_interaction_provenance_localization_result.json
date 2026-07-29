@@ -1,0 +1,15 @@
+{
+  "boundary": "Regression only: no physical nonlinear field, selected source interface, repeatability, formed interaction record, event localization, finite QFT acquisition, geometry reconstruction, new physics, or prediction.",
+  "claim_id": "HC-DU-105",
+  "controls": {
+    "aggregate_readout_same_record_different_site": true,
+    "analytic_tail_halves_with_amplitude": true,
+    "boolean_context_count": 16,
+    "full_rank_two_readout_repair": true,
+    "mobius_joint_coefficient": "17/5",
+    "source_count": 4,
+    "strict_subset_query_failures": 16,
+    "worst_case_error_amplification": "16"
+  },
+  "status": "PASS"
+}

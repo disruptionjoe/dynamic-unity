@@ -1,9 +1,9 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 55
-as_of: '2026-07-28'
+state_revision: 56
+as_of: '2026-07-29'
 authority: >-
-  Joe direct chat through 2026-07-28; governed run receipts preserve each
+  Joe direct chat through 2026-07-29; governed run receipts preserve each
   explicit authorization.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-104 proves that a finite fixed massive point-response family has no
-    positive margin over unbounded timelike depth. A compact zero-free class
-    has a local margin, and formed short-range relays can compose it into
-    finite-order recovery. Relay formation remains unselected. No successor
-    is selected.
+    HC-DU-105 proves that a finite Boolean packet can isolate joint nonlinear
+    source dependence, but this does not identify or archive the interaction
+    event. Localization requires target-kernel containment and a uniform
+    positive inverse margin; published positives retain supplied geometry,
+    boundary, probes, and continuum response. No successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -696,7 +696,7 @@ successor_selection:
     - physical-formation-lift-of-closed-capability-record-pair
     - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
     - physically-selected-output-carrier-with-bounded-provenance-archive
-    - target-independent-physically-formed-short-range-response-relay-net-with-uniform-local-margin-and-no-refit-conformal-transfer
+    - target-independent-physically-multiplexed-nonlinear-interaction-event-packet-with-uniform-localization-margin-and-no-refit-conformal-transfer
     - explicit-non-source-absorbable-post-einstein-law-filter
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates

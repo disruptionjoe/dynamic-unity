@@ -4280,6 +4280,55 @@ localization, and response interface rather than selecting one finite formed
 relay record. See
 `massive-tail-dispersive-margin-no-go-and-formed-relay-reconstruction-boundary-2026-07-28.md`.
 
+### 2026-07-29 nonlinear-interaction provenance and localization boundary
+
+`HC-DU-105` reduces one ideal higher-order nonlinear response coefficient to
+a finite context packet while identifying the next nontrivial interface.
+For \(k\) independently addressable source channels, the Boolean Möbius sum
+
+\[
+\mathfrak I_k(\eta)
+=
+\sum_{S\subseteq[k]}(-1)^{k-|S|}R(\eta\mathbf 1_S)
+\]
+
+cancels every response term that omits at least one source. Dividing by
+\(\eta^k\) exactly returns the pure \(k\)-way coefficient for response
+polynomials of total degree at most \(k\). A common analytic coefficient
+majorant gives an explicit finite-amplitude tail. In the frozen unrestricted
+Boolean multiaffine query model, every one of the \(2^k\) contexts is
+worst-case necessary; for four-wave attribution, that is 16 on/off contexts.
+
+Finite amplitude creates a physical tradeoff. The analytic tail decreases
+with \(\eta\), while per-context acquisition error is amplified by
+\(2^k/\eta^k\). The packet therefore needs a calibrated amplitude window,
+repeatability/reset, joined attempt-level acquisition, and a shared
+coefficient bound. It cannot be idealized as a derivative at zero without
+those burdens.
+
+Most importantly, the mixed coefficient identifies **source provenance**,
+not **event provenance**. Distinct interaction-site distributions can produce
+the same aggregate packet. In a finite model \(y=Bc\), a held-out target
+\(Lc\) is exactly reconstructible iff
+\(\ker B\subseteq\ker L\); full site recovery requires full column rank, and
+robust transfer requires a uniform positive quotient singular margin.
+
+Nonlinear Lorentzian inverse problems already supply the strong constructive
+absorber: higher-order linearization, finite differences, Gaussian beams, and
+separation constructions can recover conformal or coefficient information,
+including with multiple intersections. They retain a supplied spacetime or
+boundary, nonlinear law, source and observation regions, continuum response
+operator, and geometry-informed probe design. A physical interaction
+singularity, a cross-context mixed derivative, and a formed retained record
+remain different objects.
+
+The corrected candidate is a target-independent physically multiplexed
+nonlinear source/readout packet with formed source and event identities,
+complete acquisition, source-to-event-to-readout provenance, target-relative
+localization rank, a uniform inverse margin on a frozen class, and unchanged
+held-out causal/conformal transfer. See
+`nonlinear-interaction-mobius-provenance-context-complexity-and-localization-rank-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
