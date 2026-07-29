@@ -1,0 +1,25 @@
+{
+  "boundary": "Regression only: no nonlinear interaction, source formation, event association, detector selection, calibrated clock, retained record, Lorentzian reconstruction, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-107",
+  "controls": {
+    "center_gram_diagonal": [
+      "4",
+      "4/3",
+      "4/3",
+      "4/3"
+    ],
+    "center_sigma_min": 1.1547005383792517,
+    "common_offset_absolute_time_confounding": true,
+    "detector_count": 4,
+    "detector_radius": 20.0,
+    "deterministic_event_count": 9,
+    "event_region_radius": 1.0,
+    "event_spacetime_dimension": 4,
+    "jacobian_perturbation_bound": 0.21052631578947367,
+    "minimum_observed_pair_ratio": 1.1537386898686144,
+    "per_detector_offset_same_record_different_event": true,
+    "uniform_lower_lipschitz_margin": 0.944174222589778
+  },
+  "noise_corollary": "If every arrival coordinate has absolute error at most epsilon, two compatible events are at most 4*epsilon/margin apart.",
+  "status": "PASS"
+}

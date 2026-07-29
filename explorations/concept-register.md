@@ -4374,6 +4374,49 @@ four-dimensional interaction-event region, followed only then by regional
 geometric composition. See
 `finite-dimensional-nonlinear-response-embedding-unbounded-field-dimension-and-compositional-geometry-boundary-2026-07-29.md`.
 
+### 2026-07-29 tetrahedral interaction-arrival localization and calibration boundary
+
+`HC-DU-107` supplies the first explicit fixed physical readout specialization
+of `HC-DU-106`. Four stationary detectors at regular-tetrahedron sites
+\(s_i=-Rv_i\) retain the null arrival packet
+
+\[
+A_i(t,x)=t+\|x+Rv_i\|.
+\]
+
+On the compact event region
+\([ -T,T]\times\overline{B_{R/20}(0)}\), the same four channels satisfy
+
+\[
+\|A(p)-A(q)\|
+\ge
+\left(\frac2{\sqrt3}-\frac4{19}\right)\|p-q\|,
+\]
+
+with margin greater than \(0.94\). They are therefore globally point- and
+tangent-complete, require no held-out-event refit, and saturate the
+four-scalar local lower bound for a spacetime event. Coordinate error
+\(\epsilon\) in every channel bounds ambiguity by \(4\epsilon/\gamma\).
+
+Relativistic positioning absorbs the timing-coordinate mathematics.
+Nonlinear Lorentzian inverse theory supplies a serious conditional mechanism
+for forming artificial point-source singularities. Their composition proves
+only fixed-scaffold event localization. It does not select or reconstruct the
+Minkowski metric, propagation law, detector sites, clock offsets, response
+latency, event association, or joined acquisition used to define the packet.
+
+Calibration is load-bearing. With one free offset per detector, every
+alternative event reproduces the same four readings after offset refit. Even
+one common unknown offset is exactly confounded with absolute event time.
+Multiple source events add an association/provenance problem.
+
+The open candidate is now a target-independent finite nonlinear source family
+that forms one associable outgoing interaction event throughout a frozen
+compact region, plus independently formed detector calibration, complete
+joined acquisition, and unchanged transfer from finite event packets to a
+held-out regional causal or conformal relation. See
+`tetrahedral-interaction-arrival-localization-calibration-and-source-formation-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
