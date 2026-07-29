@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 79
+state_revision: 80
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-128: on a fixed star algebra, a complete positive functional
-    reconstructs its cyclic GNS pairing, null quotient, representation, and
-    domain. It does not select the algebra or become a finite formed record;
-    identical state/two-point data can hide different products, and every
-    fixed finite hierarchy leaks. No QFT/GU successor is selected.
+    HC-DU-129: n(2n+1) single-quadrature populations determine a finite-mode
+    Gaussian state, but every finite binned transcript retains a continuum of
+    states. Bounded covariance plus declared error/confidence gives a finite
+    certificate; Fock/thermal twins expose non-Gaussian leakage. Gaussianity
+    and the interface remain supplied; no successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

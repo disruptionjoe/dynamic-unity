@@ -1,0 +1,260 @@
+{
+  "check_count": 33,
+  "checks": {
+    "different_transcripts_share_gaussian_sufficient_statistic": true,
+    "fock_and_thermal_share_covariance": true,
+    "fock_and_thermal_share_first_moments": true,
+    "fourth_moment_is_nongaussian_first_leak": true,
+    "modes_1_covariance_reconstructs_exactly": true,
+    "modes_1_example_is_strictly_physical_by_margin": true,
+    "modes_1_incomplete_witness_remains_physical": true,
+    "modes_1_measurement_rank_is_complete": true,
+    "modes_1_one_missing_setting_has_null_direction": true,
+    "modes_1_setting_count_is_exact": true,
+    "modes_2_covariance_reconstructs_exactly": true,
+    "modes_2_example_is_strictly_physical_by_margin": true,
+    "modes_2_incomplete_witness_remains_physical": true,
+    "modes_2_measurement_rank_is_complete": true,
+    "modes_2_one_missing_setting_has_null_direction": true,
+    "modes_2_setting_count_is_exact": true,
+    "modes_3_covariance_reconstructs_exactly": true,
+    "modes_3_example_is_strictly_physical_by_margin": true,
+    "modes_3_incomplete_witness_remains_physical": true,
+    "modes_3_measurement_rank_is_complete": true,
+    "modes_3_one_missing_setting_has_null_direction": true,
+    "modes_3_setting_count_is_exact": true,
+    "modes_4_covariance_reconstructs_exactly": true,
+    "modes_4_example_is_strictly_physical_by_margin": true,
+    "modes_4_incomplete_witness_remains_physical": true,
+    "modes_4_measurement_rank_is_complete": true,
+    "modes_4_one_missing_setting_has_null_direction": true,
+    "modes_4_setting_count_is_exact": true,
+    "number_variance_is_nongaussian_first_leak": true,
+    "same_finite_binned_transcript_possible_under_two_gaussians": true,
+    "sample_budget_grows_with_setting_count": true,
+    "sample_budget_is_finite_at_declared_resolution": true,
+    "sufficient_statistic_preserves_likelihood_quadratic": true
+  },
+  "claim_id": "HC-DU-129",
+  "definitions": {
+    "certificate": "confidence-qualified physical parameter/target region",
+    "formed_record": "finite digitized outcomes joined to settings, attempts, calibration and lineage",
+    "population_packet": "{mean(u^T R), variance(u^T R)} for declared directions u",
+    "quadrature_dimension": "m = 2n",
+    "state_parameter": "(d,V)"
+  },
+  "finite_resolution_certificate": {
+    "assumptions": {
+      "complete_attempt_lineage": true,
+      "covariance_entry_max_error": 0.2,
+      "covariance_spectral_bound": 2.0,
+      "failure_probability": 0.05,
+      "iid_repetitions": true,
+      "mean_max_error": 0.2
+    },
+    "interpretation": "Finite confidence-qualified reconstruction at declared resolution; not exact state selection.",
+    "sample_budgets": [
+      {
+        "covariance": 39462,
+        "mean": 508,
+        "modes": 1,
+        "per_setting": 39462,
+        "settings": 3,
+        "total_outcomes": 118386
+      },
+      {
+        "covariance": 48131,
+        "mean": 577,
+        "modes": 2,
+        "per_setting": 48131,
+        "settings": 10,
+        "total_outcomes": 481310
+      },
+      {
+        "covariance": 53473,
+        "mean": 618,
+        "modes": 3,
+        "per_setting": 53473,
+        "settings": 21,
+        "total_outcomes": 1122933
+      }
+    ],
+    "sufficient_bound": "N >= max((2B/eps_d^2) ln(4m/alpha), 1+(72B^2/eps_V^2) ln(4k/alpha)) per direction"
+  },
+  "finite_transcript_nonidentification": {
+    "bins": [
+      [
+        -0.25,
+        0.25
+      ],
+      [
+        1.0,
+        1.25
+      ],
+      [
+        -2.0,
+        -1.5
+      ],
+      [
+        0.5,
+        0.75
+      ]
+    ],
+    "consequence": "The same finite formed transcript remains possible under both state parameters; likelihood weight is not exact rival exclusion.",
+    "thermal_transcript_probability": 3.64404850757335e-05,
+    "thermal_variance": 1.5,
+    "vacuum_transcript_probability": 1.5430871301563955e-05,
+    "vacuum_variance": 0.5
+  },
+  "iid_likelihood_sufficiency": {
+    "likelihood_quadratic_coefficients": [
+      "18",
+      "-12",
+      "4"
+    ],
+    "scope": "Sufficiency holds only for the frozen iid Gaussian instrument; order/provenance can matter outside that model.",
+    "shared_summary": [
+      4,
+      "6",
+      "18"
+    ],
+    "transcript_a": [
+      0,
+      0,
+      3,
+      3
+    ],
+    "transcript_b": [
+      0,
+      1,
+      1,
+      4
+    ]
+  },
+  "incomplete_setting_first_leak": [
+    {
+      "minus_physical_margin": "3/2",
+      "missing_variance_minus": "3",
+      "missing_variance_plus": "5",
+      "modes": 1,
+      "plus_physical_margin": "3/2",
+      "retained_rank": 2,
+      "retained_settings": 2,
+      "same_retained_variances": true
+    },
+    {
+      "minus_physical_margin": "3/2",
+      "missing_variance_minus": "3",
+      "missing_variance_plus": "5",
+      "modes": 2,
+      "plus_physical_margin": "3/2",
+      "retained_rank": 9,
+      "retained_settings": 9,
+      "same_retained_variances": true
+    },
+    {
+      "minus_physical_margin": "3/2",
+      "missing_variance_minus": "3",
+      "missing_variance_plus": "5",
+      "modes": 3,
+      "plus_physical_margin": "3/2",
+      "retained_rank": 20,
+      "retained_settings": 20,
+      "same_retained_variances": true
+    },
+    {
+      "minus_physical_margin": "3/2",
+      "missing_variance_minus": "3",
+      "missing_variance_plus": "5",
+      "modes": 4,
+      "plus_physical_margin": "3/2",
+      "retained_rank": 35,
+      "retained_settings": 35,
+      "same_retained_variances": true
+    }
+  ],
+  "local_model_learning_gate": {
+    "disposition": "PROOF_FIRST_MINIMAL_REGRESSION_ONLY",
+    "hardware": "irrelevant",
+    "simulation": "not admitted"
+  },
+  "non_claims": [
+    "not a new Gaussian tomography or statistical sufficiency theorem",
+    "not exact state determination from finitely many shots",
+    "not a selected Gaussian sector, mode basis or detector",
+    "not a QFT continuum or GU/Krein reconstruction",
+    "not empirical excess, a new law, new physics or a prediction"
+  ],
+  "nongaussian_first_leak": {
+    "number_variance": {
+      "fock": "0",
+      "thermal": "2"
+    },
+    "q_fourth": {
+      "fock": "15/4",
+      "thermal": "27/4"
+    },
+    "shared_covariance": [
+      [
+        "3/2",
+        "0"
+      ],
+      [
+        "0",
+        "3/2"
+      ]
+    ],
+    "shared_mean": [
+      "0",
+      "0"
+    ],
+    "state_a": "Fock |1>",
+    "state_b": "thermal Gaussian with mean occupation 1"
+  },
+  "population_setting_theorem": {
+    "controls": [
+      {
+        "measurement_rank": 3,
+        "minimum_covariance_margin": "199/40",
+        "modes": 1,
+        "necessary_and_sufficient_settings": 3,
+        "quadrature_dimension": 2,
+        "reconstructed_exactly": true
+      },
+      {
+        "measurement_rank": 10,
+        "minimum_covariance_margin": "2871/320",
+        "modes": 2,
+        "necessary_and_sufficient_settings": 10,
+        "quadrature_dimension": 4,
+        "reconstructed_exactly": true
+      },
+      {
+        "measurement_rank": 21,
+        "minimum_covariance_margin": "467/36",
+        "modes": 3,
+        "necessary_and_sufficient_settings": 21,
+        "quadrature_dimension": 6,
+        "reconstructed_exactly": true
+      },
+      {
+        "measurement_rank": 36,
+        "minimum_covariance_margin": "4345/256",
+        "modes": 4,
+        "necessary_and_sufficient_settings": 36,
+        "quadrature_dimension": 8,
+        "reconstructed_exactly": true
+      }
+    ],
+    "directions": "{e_i} union {e_i+e_j : i<j}",
+    "formula": "k = m(m+1)/2 = n(2n+1)",
+    "minimality": "Each quadrature population contributes one linear variance functional on Sym_m, which has dimension k."
+  },
+  "result": "GAUSSIAN_POPULATION_PACKET_HAS_A_FINITE_MINIMAL_SETTING_BASIS+FINITE_IID_SUMMARY_IS_LIKELIHOOD_SUFFICIENT_NOT_PARAMETER_DETERMINING+EVERY_FINITE_DIGITIZED_TRANSCRIPT_HAS_MULTIPLE_GAUSSIAN_COMPLETIONS+BOUNDED_COVARIANCE_GIVES_FINITE_CONFIDENCE_RECONSTRUCTION+FIRST_SECOND_MOMENTS_FAIL_OUTSIDE_THE_GAUSSIAN_CLASS+QUADRATIC_PRESERVATION_IS_NOT_STATE_SELECTION+NO_READY_SUCCESSOR",
+  "schema_version": "1.0",
+  "selection_boundary": {
+    "ground_or_kms_contract": "A specified stable quadratic Hamiltonian plus a specified ground/KMS state contract can select a Gaussian state; then the selection is law-side rather than record-side.",
+    "quadratic_unitary": "Preserves a supplied Gaussian class and cannot turn a non-Gaussian state into a Gaussian one, because its inverse is also Gaussian."
+  },
+  "status": "PASS"
+}

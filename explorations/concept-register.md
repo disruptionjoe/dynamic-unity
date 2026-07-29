@@ -5298,6 +5298,46 @@ resources, and no-refit held-out transfer. No QFT or GU successor, ontology
 priority, empirical excess, new law, or prediction is selected. See
 `positive-functional-qft-reconstruction-algebra-antecedent-and-finite-record-boundary-2026-07-29.md`.
 
+### 2026-07-29 Gaussian population reconstruction and finite-record ladder
+
+`HC-DU-129` tests the quasifree/Gaussian finite-statistic reopener emitted by
+`HC-DU-128`.
+
+For a fixed \(n\)-mode canonical bosonic algebra, a Gaussian state is
+determined by its mean vector and covariance matrix. Under a supplied
+single-output quadrature-population interface, exactly
+\(n(2n+1)\) settings are necessary and sufficient for all such packets. The
+directions \(e_i\) and \(e_i+e_j\) attain the bound. Each setting supplies one
+linear variance functional on the \(n(2n+1)\)-dimensional symmetric-covariance
+space, so fewer settings leave an exact physical same-population/different-
+covariance direction.
+
+This is population reconstruction, not finite-shot state truth. Under the
+frozen iid Gaussian instrument, count, sum, and squared sum are
+likelihood-sufficient per setting. Every finite digitized transcript whose
+bins have nonzero width nevertheless has positive probability under a
+continuum of nonsingular Gaussian states. A finite record earns a
+confidence-qualified reconstruction only after a covariance/energy bound,
+complete attempt lineage, calibration, digitization, accuracy, and failure
+probability are declared. Normal and chi-square concentration give an
+explicit finite sample bound under that contract.
+
+The Gaussian class is also load-bearing. The one-photon Fock state and a
+centered thermal Gaussian with mean occupation one share
+\(d=0,V=\tfrac32I\) while their fourth quadrature moments are
+\(15/4\) and \(27/4\), and their number variances are zero and two.
+Quadratic unitary dynamics preserves a supplied Gaussian sector but does not
+select its initial state. A specified quadratic Hamiltonian plus a specified
+ground/KMS contract can select a state on the law side, making the record
+confirmatory rather than selective.
+
+The result is a scoped Grade-4 setting, finite-shot, class, and first-leak
+boundary plus conditional Grade-3 finite-resolution certification. It selects
+no mode algebra, Gaussian sector, Hamiltonian, temperature, state, detector,
+observer, interface, QFT continuum transfer, GU/Krein packet, empirical
+excess, law, or prediction. See
+`gaussian-population-reconstruction-finite-shot-certificate-and-nongaussian-first-leak-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

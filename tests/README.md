@@ -658,6 +658,43 @@ produce empirical excess, a new law, new physics, or a prediction; or
 authorize a paper, model, hardware, provider, publication, or other external
 action.
 
+## HC-DU-129 Gaussian finite-record ladder
+
+`du_gaussian_finite_record_ladder_probe.py` preserves the exact controls
+behind the Gaussian population/finite-shot boundary:
+
+- for one through four modes, the
+  \(n(2n+1)\) coordinate and pair-quadrature directions have complete exact
+  covariance rank and reconstruct a supplied physical covariance;
+- removing one direction leaves two strictly physical covariances with every
+  retained variance equal and the held-out variance different;
+- two different iid transcripts share the exact Gaussian likelihood-sufficient
+  tuple \((N,\sum x,\sum x^2)\);
+- one finite binned transcript has positive probability under two distinct
+  physical Gaussian variances;
+- the one-photon Fock state and mean-occupation-one thermal Gaussian share
+  first moments and covariance while differing in fourth moment and number
+  variance; and
+- the conservative concentration formula produces finite declared-resolution
+  sample budgets without simulation.
+
+Run:
+
+```bash
+python3 tests/du_gaussian_finite_record_ladder_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_gaussian_finite_record_ladder_result.json` and reports `33/33`.
+Passing is a bounded exact regression of standard covariance tomography,
+Gaussian likelihood, concentration, and moment mathematics. It does not
+select the mode algebra, symplectic form, Gaussian class, Hamiltonian, state,
+detector, digitization, observer, archive, access boundary, or target; prove
+exact state determination from finite shots; transfer to continuum QFT,
+non-Gaussian states, or GU/Krein theory; produce empirical excess, a new law,
+new physics, or a prediction; or authorize a paper, model, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
