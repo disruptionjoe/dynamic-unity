@@ -5411,6 +5411,46 @@ Grade-3 target-relative reconstruction. It earns no new AQFT theorem,
 empirical excess, law, physics, prediction, or ready successor. See
 `aqft-nuclearity-effective-finite-resolution-reconstruction-and-interface-selection-boundary-2026-07-29.md`.
 
+### 2026-07-29 Hamiltonian cutoff, phase-space width, and finite probes
+
+`HC-DU-132` tests whether the Hamiltonian closes the coordinate-selection gap
+left by `HC-DU-131`.
+
+For \(P_E=\mathbf1_{[0,E]}(H)\),
+\[
+\|(1-P_E)e^{-\beta H}A\Omega\|
+\leq e^{-\beta E}\|A\|.
+\]
+The Hamiltonian therefore selects a basis-free low-energy subspace and an
+exponential tail once \(E\) is supplied. It does not generally select a finite
+subspace. If \(\Omega\) is cyclic for the local algebra and
+\(P_E\mathcal H\) is infinite-dimensional, then
+\(A\mapsto P_Ee^{-\beta H}A\Omega\) has dense range in
+\(P_E\mathcal H\) and hence infinite rank. A free massive field on
+noncompact space supplies an explicit witness: every cutoff \(E>m\) contains
+an infinite-dimensional \(L^2\) momentum-ball sector. Compact resolvent is an
+exact finite-rank escape.
+
+For a compact phase-space image \(K\), Kolmogorov widths
+\[
+d_n(K)=\inf_{\dim V\leq n}\sup_{y\in K}\operatorname{dist}(y,V)
+\]
+give a basis-independent minimum approximation dimension at any nonzero
+tolerance. They do not select an optimizing subspace, basis, probe, or archive.
+Two diagonal maps can have equal nuclear norm and different width profiles.
+
+Composing `HC-DU-095` with Fewster--Jubb--Ruep yields the strongest conditional
+positive: compact target separation reduces to finitely many local
+observables, and in the real linear scalar field each chosen observable has
+asymptotic local probe schemes. A finite-resolution physical certificate still
+requires a supplied target/class, selected probes, repeatability or campaign
+compatibility, complete acquisition, calibration, archive, access, resources,
+and sub-margin error. The result is a scoped Grade-4 spectral/width boundary
+plus conditional Grade-3 finite local-probe certification, with no selected
+interface, new AQFT theorem, empirical excess, law, physics, prediction, or
+ready successor. See
+`aqft-hamiltonian-spectral-cutoff-phase-space-width-and-finite-probe-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

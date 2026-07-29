@@ -1,0 +1,200 @@
+{
+  "check_count": 43,
+  "checks": {
+    "compact_resolvent_cutoff_0_rank_is_finite": true,
+    "compact_resolvent_cutoff_15_rank_is_finite": true,
+    "compact_resolvent_cutoff_1_rank_is_finite": true,
+    "compact_resolvent_cutoff_3_rank_is_finite": true,
+    "compact_resolvent_cutoff_7_rank_is_finite": true,
+    "cutoff_0_projected_target_bound_is_twice_tail": true,
+    "cutoff_0_tail_obeys_spectral_bound": true,
+    "cutoff_1_projected_target_bound_is_twice_tail": true,
+    "cutoff_1_tail_obeys_spectral_bound": true,
+    "cutoff_2_projected_target_bound_is_twice_tail": true,
+    "cutoff_2_tail_obeys_spectral_bound": true,
+    "cutoff_4_projected_target_bound_is_twice_tail": true,
+    "cutoff_4_tail_obeys_spectral_bound": true,
+    "cutoff_8_projected_target_bound_is_twice_tail": true,
+    "cutoff_8_tail_obeys_spectral_bound": true,
+    "equal_nuclear_norm_does_not_fix_width_profile": true,
+    "finite_grid_is_labeled_regression_not_continuum_evidence": true,
+    "finite_probe_composition_remains_conditional": true,
+    "flat_nuclear_norm_is_one": true,
+    "flat_width_closes_exactly_at_its_rank": true,
+    "geometric_nuclear_norm_is_one": true,
+    "geometric_width_converges_monotonically": true,
+    "low_energy_grid_rank_grows_strictly_under_refinement": true,
+    "momentum_refinement_16_count_is_exact": true,
+    "momentum_refinement_1_count_is_exact": true,
+    "momentum_refinement_2_count_is_exact": true,
+    "momentum_refinement_4_count_is_exact": true,
+    "momentum_refinement_8_count_is_exact": true,
+    "width_rank_0_flat_matches_exact_rank": true,
+    "width_rank_0_geometric_is_positive": true,
+    "width_rank_12_flat_matches_exact_rank": true,
+    "width_rank_12_geometric_is_positive": true,
+    "width_rank_1_flat_matches_exact_rank": true,
+    "width_rank_1_geometric_is_positive": true,
+    "width_rank_2_flat_matches_exact_rank": true,
+    "width_rank_2_geometric_is_positive": true,
+    "width_rank_4_flat_matches_exact_rank": true,
+    "width_rank_4_geometric_is_positive": true,
+    "width_rank_7_flat_matches_exact_rank": true,
+    "width_rank_7_geometric_is_positive": true,
+    "width_rank_8_flat_matches_exact_rank": true,
+    "width_rank_8_geometric_is_positive": true,
+    "width_value_does_not_encode_an_optimizing_basis": true
+  },
+  "claim_id": "HC-DU-132",
+  "compact_resolvent_escape": {
+    "controls": [
+      {
+        "bounded_spectral_rank": 1,
+        "cutoff_energy": 0
+      },
+      {
+        "bounded_spectral_rank": 2,
+        "cutoff_energy": 1
+      },
+      {
+        "bounded_spectral_rank": 4,
+        "cutoff_energy": 3
+      },
+      {
+        "bounded_spectral_rank": 8,
+        "cutoff_energy": 7
+      },
+      {
+        "bounded_spectral_rank": 16,
+        "cutoff_energy": 15
+      }
+    ],
+    "interpretation": "Compact resolvent makes every bounded spectral projection finite rank; it does not select a detector or record.",
+    "spectrum": "0,1,2,..."
+  },
+  "conditional_positive": {
+    "interface_selected": false,
+    "statement": "Compact target separation plus a finite selected observable family, admitted local probe schemes, repeatability or joint compatibility, complete acquisition, and sub-margin total error yields finite-resolution certification."
+  },
+  "local_model_learning_gate": {
+    "continuum_claim_from_grid": false,
+    "disposition": "PROOF_FIRST_MINIMAL_REGRESSION_ONLY",
+    "hardware": "irrelevant",
+    "simulation": "not admitted"
+  },
+  "non_claims": [
+    "not a construction or simulation of an AQFT",
+    "not numerical evidence for an infinite-dimensional continuum",
+    "not a proof that every QFT has continuous low-energy spectrum",
+    "not a selected cutoff scale, target, probe, detector or archive",
+    "not physical record formation or observer access",
+    "not empirical excess, a new AQFT theorem, new law, new physics or a prediction"
+  ],
+  "noncompact_multiplicity_regression": {
+    "controls": [
+      {
+        "low_energy_grid_rank": 3,
+        "refinement": 1
+      },
+      {
+        "low_energy_grid_rank": 5,
+        "refinement": 2
+      },
+      {
+        "low_energy_grid_rank": 9,
+        "refinement": 4
+      },
+      {
+        "low_energy_grid_rank": 17,
+        "refinement": 8
+      },
+      {
+        "low_energy_grid_rank": 33,
+        "refinement": 16
+      }
+    ],
+    "interpretation": "Rank growth under grid refinement is only a regression of the analytic positive-measure L2 argument, not continuum evidence."
+  },
+  "phase_space_width_control": {
+    "controls": [
+      {
+        "flat_rank_8_width": "1/8",
+        "geometric_width": "1/2",
+        "retained_rank": 0
+      },
+      {
+        "flat_rank_8_width": "1/8",
+        "geometric_width": "1/4",
+        "retained_rank": 1
+      },
+      {
+        "flat_rank_8_width": "1/8",
+        "geometric_width": "1/8",
+        "retained_rank": 2
+      },
+      {
+        "flat_rank_8_width": "1/8",
+        "geometric_width": "1/32",
+        "retained_rank": 4
+      },
+      {
+        "flat_rank_8_width": "1/8",
+        "geometric_width": "1/256",
+        "retained_rank": 7
+      },
+      {
+        "flat_rank_8_width": "0",
+        "geometric_width": "1/512",
+        "retained_rank": 8
+      },
+      {
+        "flat_rank_8_width": "0",
+        "geometric_width": "1/8192",
+        "retained_rank": 12
+      }
+    ],
+    "flat_map": "diag(1/8 repeated 8 times, then 0)",
+    "geometric_map": "diag(1/2,1/4,1/8,...)",
+    "interpretation": "Basis-free approximation width is more informative than one nuclear norm, but it still does not choose coordinates.",
+    "shared_nuclear_norm": "1"
+  },
+  "result": "HAMILTONIAN_CUTOFF_SELECTS_TAIL_NOT_GENERIC_FINITE_RANK+NONCOMPACT_LOW_ENERGY_SECTOR_REMAINS_INFINITE+COMPACT_RESOLVENT_IS_AN_EXACT_FINITE_RANK_ESCAPE+PHASE_SPACE_WIDTH_IS_BASIS_FREE_SIZE_NOT_INTERFACE_SELECTOR+EQUAL_NUCLEAR_NORM_ALLOWS_DIFFERENT_WIDTH_PROFILES+FINITE_LOCAL_PROBE_PACKET_IS_CONDITIONAL+NO_READY_SUCCESSOR",
+  "schema_version": "1.0",
+  "spectral_tail_control": {
+    "beta": "ln(2)",
+    "controls": [
+      {
+        "analytic_tail_bound": "1",
+        "cutoff_energy": 0,
+        "first_omitted_weight": "1/2",
+        "two_point_target_diameter_bound": "2"
+      },
+      {
+        "analytic_tail_bound": "1/2",
+        "cutoff_energy": 1,
+        "first_omitted_weight": "1/4",
+        "two_point_target_diameter_bound": "1"
+      },
+      {
+        "analytic_tail_bound": "1/4",
+        "cutoff_energy": 2,
+        "first_omitted_weight": "1/8",
+        "two_point_target_diameter_bound": "1/2"
+      },
+      {
+        "analytic_tail_bound": "1/16",
+        "cutoff_energy": 4,
+        "first_omitted_weight": "1/32",
+        "two_point_target_diameter_bound": "1/8"
+      },
+      {
+        "analytic_tail_bound": "1/256",
+        "cutoff_energy": 8,
+        "first_omitted_weight": "1/512",
+        "two_point_target_diameter_bound": "1/128"
+      }
+    ],
+    "interpretation": "A bounded spectral cutoff supplies an exact tail bound but does not establish that the retained sector is finite."
+  },
+  "status": "PASS"
+}

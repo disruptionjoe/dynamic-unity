@@ -760,6 +760,41 @@ produce empirical excess, a new law, new physics, or a prediction; or
 authorize a paper, model, hardware, provider, publication, or other external
 action.
 
+## HC-DU-132 AQFT spectral cutoff and phase-space width
+
+`du_aqft_spectral_cutoff_width_probe.py` preserves the exact finite controls
+behind the Hamiltonian-cutoff and finite-probe boundary:
+
+- for \(\beta=\log2\), every tested bounded spectral cutoff obeys the exact
+  energy-damped tail bound;
+- a low-energy momentum-grid rank grows strictly under refinement, explicitly
+  as a regression rather than continuum evidence;
+- the compact-resolvent control with spectrum \(0,1,2,\ldots\) has finite-rank
+  bounded spectral projections;
+- an infinite geometric diagonal map and a flat rank-eight map share nuclear
+  norm one while having different Kolmogorov-width profiles;
+- the geometric widths converge without terminating, while the finite-rank
+  widths close exactly at rank eight; and
+- width values and conditional finite-probe existence are not treated as
+  coordinate or physical-interface selectors.
+
+Run:
+
+```bash
+python3 tests/du_aqft_spectral_cutoff_width_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_aqft_spectral_cutoff_width_result.json` and reports `43/43`.
+Passing is a bounded exact regression of spectral-tail, refinement,
+compact-resolvent, and diagonal-width controls. It does not construct or
+simulate an AQFT; supply numerical evidence for an infinite continuum; prove
+that every QFT has continuous low-energy spectrum; select a QFT, region, state,
+cutoff, target, approximating subspace, probe, detector, observer, archive, or
+access boundary; establish record formation or no-refit transfer; produce
+empirical excess, a new AQFT theorem, law, physics, or prediction; or authorize
+a paper, model, hardware, provider, publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is
