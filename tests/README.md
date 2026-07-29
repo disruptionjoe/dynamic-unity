@@ -71,6 +71,38 @@ a nonzero four-wave symbol, selected coupling, source timing, provenance,
 complete acquisition, full-metric reconstruction, new physics, prediction,
 paper, model, hardware, provider, publication, or other external action.
 
+## HC-DU-111 order-plus-volume metric reconstruction gate
+
+`du_order_volume_metric_reconstruction_probe.py` preserves the exact finite
+controls behind the volume-anchor result:
+
+- four-dimensional cell volume exactly recovers piecewise-constant conformal
+  scale by a positive fourth root;
+- metric determinant scaling supplies an independent algebraic control;
+- bounded relative volume error has an explicit relative-scale bound;
+- volume is additive under benign partition refinement;
+- duplicate occurrence identities defeat naive count additivity;
+- known Poisson density gives quantified count and scale resolution;
+- unknown global density leaves an exact absolute-scale gauge while preserving
+  relative scale;
+- unknown regional density absorbs arbitrary local factors; and
+- equal cell integrals can hide different smooth conformal factors.
+
+Run:
+
+```bash
+python3 tests/du_order_volume_metric_reconstruction_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_order_volume_metric_reconstruction_result.json`.
+Passing establishes only the scoped conformal-class-plus-volume
+reconstruction and density/provenance/acquisition boundaries. It does not
+select a physical volume measure, fundamental event density, formed count
+record, complete acquisition, metric-independent partition, unrestricted
+smooth metric, new physics, prediction, paper, model, hardware, provider,
+publication, or other external action.
+
 ## Certified Causal Reality assay contract
 
 The governing research agenda is

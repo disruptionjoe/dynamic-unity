@@ -4558,6 +4558,47 @@ class, physical source formation, bounded latency, complete provenance and
 acquisition, and unchanged held-out transfer. See
 `conformal-null-front-transfer-metric-coupling-gauge-and-scale-anchor-boundary-2026-07-29.md`.
 
+### 2026-07-29 order-plus-volume metric completion and density gauge
+
+`HC-DU-111` gives the exact best-case completion of `HC-DU-110`. On a fixed
+four-dimensional manifold and conformal class,
+
+\[
+\Omega
+=
+\left(
+\frac{d\mu}{d\mathrm{vol}_{\bar g}}
+\right)^{1/4}
+\]
+
+uniquely reconstructs the metric \(g=\Omega^2\bar g\) from a positive volume
+measure. On a fixed \(k\)-cell piecewise-constant family, \(k\) cell volumes
+recover the \(k\) scale factors exactly and with an explicit fourth-root
+stability bound. This is the rigorous content behind causal-set theory's
+“order plus number” architecture.
+
+Number becomes volume only through a density and provenance contract. For
+Poisson means
+
+\[
+\lambda_j=\rho_j\Omega_j^4\bar V_j,
+\]
+
+unknown common \(\rho\) is exactly confounded with one global Weyl scale,
+although count ratios retain relative scale. Unknown regional \(\rho_j\)
+absorbs every local factor. Duplicate or missed occurrence identities,
+selection, and incomplete acquisition also break additive volume counting.
+Local finiteness posits a discrete order; it does not by itself select an
+observer-accessible, calibrated count interface.
+
+The refined candidate is now a physically formed event network with unique
+occurrence identity, de-duplicated refinement-additive counts, independently
+selected homogeneous density, complete acquisition, and unchanged finite
+order-plus-volume transfer to held-out metric scale. A fixed finite partition
+remains a finite-complexity control, not unrestricted smooth reconstruction.
+See
+`order-plus-volume-full-metric-reconstruction-event-density-and-provenance-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

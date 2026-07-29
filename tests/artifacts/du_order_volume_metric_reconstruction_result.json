@@ -1,0 +1,30 @@
+{
+  "boundary": "Regression only: no physical volume selector, fundamental event density, formed count record, complete acquisition, metric-independent partition, unrestricted smooth-metric reconstruction, new physics, prediction, or evidence grade.",
+  "claim_id": "HC-DU-111",
+  "controls": {
+    "all_conformal_factors_exactly_recovered": true,
+    "cell_volume_map": "V_j = Omega_j^4 Vbar_j",
+    "dimension": 4,
+    "duplicate_event_id_breaks_naive_count_additivity": true,
+    "metric_determinant_volume_control": true,
+    "partition_refinement_volume_additive": true,
+    "piecewise_constant_cell_count": 4,
+    "poisson_known_density_control": {
+      "conformal_scale_ratio_interval": [
+        0.9740037464252967,
+        1.0241136890844451
+      ],
+      "lambda": 3000.0,
+      "relative_count_error": 0.1,
+      "relative_standard_deviation": 0.018257418583505537,
+      "two_sided_failure_bound": 9.079985952496955e-05
+    },
+    "relative_scale_error_bound": 0.027055659622924912,
+    "relative_volume_error_epsilon": 0.1,
+    "same_cell_volume_different_smooth_factor_witness": true,
+    "unknown_global_density_absolute_scale_gauge": true,
+    "unknown_global_density_preserves_relative_scale": true,
+    "unknown_local_density_local_scale_gauge": true
+  },
+  "status": "PASS"
+}
