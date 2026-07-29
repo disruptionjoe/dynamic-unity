@@ -1837,6 +1837,38 @@ may contain infinitely many encoded components or return a continuum
 space-time trace. See
 `finite-target-resolution-certification-from-compact-physical-capability-surfaces-2026-07-28.md`.
 
+### 2026-07-28 physical regularity gap to compact target class
+
+`HC-DU-096` identifies the physical compactness route and its exact limit.
+On a fixed compact domain and in a fixed gauge, a uniformly \(H^s\)-bounded
+class is precompact in every \(H^{s'}\) with \(s'<s\), and in \(C^k\) when
+\(s>k+d/2\). If physical admissibility is closed in that weaker topology and
+the held-out target and readouts are continuous there, the compact closure
+can be passed into `HC-DU-095` to obtain a conditional finite robust
+target-resolution certificate.
+
+The topology must match the target. In four dimensions, the simple sufficient
+Sobolev thresholds are \(s>2\) for \(C^0\) metric/cone coefficients, \(s>3\)
+for \(C^1\) connection coefficients, and \(s>4\) for \(C^2\) curvature.
+The conformal sequence
+
+\[
+g_n=e^{2n^{-2}\sin(nx)}\eta
+\]
+
+has the same causal cones for every \(n\) and converges to \(\eta\) in
+\(C^1\), while its curvature retains an order-one oscillation. Compactness
+for a causal target therefore does not imply compactness for curvature.
+
+A reversible well-posed field evolution is a homeomorphism on its data
+domain, so it preserves compactness in both directions. It can propagate a
+compact regular initial-data class but cannot turn a merely bounded
+infinite-dimensional energy ball into one. Physical selection of the domain,
+gauge or quotient, topology, Lorentzian margin, noncollapse bounds,
+boundary/source class, target topology, and finite interval remains open.
+See
+`physical-regularity-gap-compactness-and-geometric-target-topology-boundary-2026-07-28.md`.
+
 ## CONCEPT-DU-006 — physical perspective gluing and perspectival holonomy
 
 - **Concept (articulation-invariant).** Physically instantiated record-bearing
