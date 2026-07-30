@@ -4240,3 +4240,41 @@ The artifact is
 joined returned-shot physical packet and exact implementation boundary. It
 does not establish an all-attempt process, complete material archive,
 remainder, prediction, ontology, or new physics.
+
+## HC-DU-169 action/resource finality quotient audit
+
+`du_action_resource_finality_quotient_audit.py` uses the source-defined
+decoder action quotient
+
+```text
+DASR 0 or 2 -> no X
+DASR 1      -> X
+```
+
+and verifies:
+
+- status 2 has a higher retained median time than status 0 within every
+  circuit from rounds 3 through 9;
+- all seven empirical probabilities of superiority exceed 0.70 and all
+  seven KS distances exceed 0.35;
+- a round/pre-state-stratified response test detects no status-0/status-2
+  split at five percent;
+- the held-out timing CSV contains 300,000 rows but no decoder status or
+  stable row identity, so it cannot replicate the action-quotient test.
+
+Run:
+
+```bash
+uv run --with h5py python \
+  tests/du_action_resource_finality_quotient_audit.py \
+  --fast-source /path/to/fast_feedback_raw_data.h5 \
+  --timing-source /path/to/decoder_timings_each_repetition.csv \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_action_resource_finality_quotient_result.json`. Passing
+establishes only a source-pinned sample-level action/resource distinction and
+the held-out schema boundary. It establishes no causal status effect,
+population law, implementation-complete process, physical remainder,
+ontology, or new physics.

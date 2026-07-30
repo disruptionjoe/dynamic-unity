@@ -1,0 +1,253 @@
+{
+  "claim_id": "HC-DU-169",
+  "run_id": "RUN-20260730-144047-action-resource-finality-quotient-audit",
+  "status": "PASS",
+  "sources": {
+    "fast_feedback": {
+      "file": "fast_feedback_raw_data.h5",
+      "md5": "3b2503a80f2b92916660489e2f07e880",
+      "sha256": "dd2a3d48e86ea81094b44439fb58a3d9788757e26799bd4ee7497eb94798ed08",
+      "raw_file_committed": false
+    },
+    "heldout_timing": {
+      "file": "decoder_timings_each_repetition.csv",
+      "md5": "ec6e10f742b7c29627dad8ff9a97a592",
+      "sha256": "8f23b21a27004381734fefeef80e5326e0a67c391212fcb792950cf9b51bd324",
+      "raw_file_committed": false
+    }
+  },
+  "checks_passed": 47,
+  "source_defined_action_quotient": {
+    "no_action_statuses": [
+      0,
+      2
+    ],
+    "conditional_x_status": 1
+  },
+  "discovery_timing": [
+    {
+      "rounds": 3,
+      "d0_count": 188,
+      "d2_count": 703,
+      "median_d0": 431.0,
+      "median_d2": 671.0,
+      "median_gap_d2_minus_d0": 240.0,
+      "probability_d2_exceeds_d0_with_half_ties": 0.910648890772071,
+      "ks_distance": 0.6890302956932296
+    },
+    {
+      "rounds": 4,
+      "d0_count": 172,
+      "d2_count": 719,
+      "median_d0": 599.0,
+      "median_d2": 863.0,
+      "median_gap_d2_minus_d0": 264.0,
+      "probability_d2_exceeds_d0_with_half_ties": 0.8613424653103471,
+      "ks_distance": 0.5942280945757997
+    },
+    {
+      "rounds": 5,
+      "d0_count": 169,
+      "d2_count": 717,
+      "median_d0": 771.0,
+      "median_d2": 1091.0,
+      "median_gap_d2_minus_d0": 320.0,
+      "probability_d2_exceeds_d0_with_half_ties": 0.8647140864714087,
+      "ks_distance": 0.633944855702178
+    },
+    {
+      "rounds": 6,
+      "d0_count": 174,
+      "d2_count": 699,
+      "median_d0": 1043.0,
+      "median_d2": 1347.0,
+      "median_gap_d2_minus_d0": 304.0,
+      "probability_d2_exceeds_d0_with_half_ties": 0.764573364247776,
+      "ks_distance": 0.4032608159439593
+    },
+    {
+      "rounds": 7,
+      "d0_count": 199,
+      "d2_count": 672,
+      "median_d0": 1257.0,
+      "median_d2": 1609.0,
+      "median_gap_d2_minus_d0": 352.0,
+      "probability_d2_exceeds_d0_with_half_ties": 0.8146760588657574,
+      "ks_distance": 0.4972556233548696
+    },
+    {
+      "rounds": 8,
+      "d0_count": 200,
+      "d2_count": 653,
+      "median_d0": 1534.0,
+      "median_d2": 1838.0,
+      "median_gap_d2_minus_d0": 304.0,
+      "probability_d2_exceeds_d0_with_half_ties": 0.7425076569678407,
+      "ks_distance": 0.36179938744257273
+    },
+    {
+      "rounds": 9,
+      "d0_count": 208,
+      "d2_count": 647,
+      "median_d0": 1722.0,
+      "median_d2": 2078.0,
+      "median_gap_d2_minus_d0": 356.0,
+      "probability_d2_exceeds_d0_with_half_ties": 0.7275405718701701,
+      "ks_distance": 0.3761517655451194
+    }
+  ],
+  "response_strata": [
+    {
+      "rounds": 3,
+      "pre": 0,
+      "n_d0": 77,
+      "fail_d0": 8,
+      "n_d2": 349,
+      "fail_d2": 26
+    },
+    {
+      "rounds": 3,
+      "pre": 1,
+      "n_d0": 111,
+      "fail_d0": 58,
+      "n_d2": 354,
+      "fail_d2": 154
+    },
+    {
+      "rounds": 4,
+      "pre": 0,
+      "n_d0": 100,
+      "fail_d0": 8,
+      "n_d2": 365,
+      "fail_d2": 35
+    },
+    {
+      "rounds": 4,
+      "pre": 1,
+      "n_d0": 72,
+      "fail_d0": 40,
+      "n_d2": 354,
+      "fail_d2": 177
+    },
+    {
+      "rounds": 5,
+      "pre": 0,
+      "n_d0": 77,
+      "fail_d0": 13,
+      "n_d2": 348,
+      "fail_d2": 49
+    },
+    {
+      "rounds": 5,
+      "pre": 1,
+      "n_d0": 92,
+      "fail_d0": 54,
+      "n_d2": 369,
+      "fail_d2": 213
+    },
+    {
+      "rounds": 6,
+      "pre": 0,
+      "n_d0": 88,
+      "fail_d0": 14,
+      "n_d2": 317,
+      "fail_d2": 34
+    },
+    {
+      "rounds": 6,
+      "pre": 1,
+      "n_d0": 86,
+      "fail_d0": 54,
+      "n_d2": 382,
+      "fail_d2": 237
+    },
+    {
+      "rounds": 7,
+      "pre": 0,
+      "n_d0": 83,
+      "fail_d0": 5,
+      "n_d2": 309,
+      "fail_d2": 23
+    },
+    {
+      "rounds": 7,
+      "pre": 1,
+      "n_d0": 116,
+      "fail_d0": 68,
+      "n_d2": 363,
+      "fail_d2": 218
+    },
+    {
+      "rounds": 8,
+      "pre": 0,
+      "n_d0": 105,
+      "fail_d0": 10,
+      "n_d2": 285,
+      "fail_d2": 26
+    },
+    {
+      "rounds": 8,
+      "pre": 1,
+      "n_d0": 95,
+      "fail_d0": 67,
+      "n_d2": 368,
+      "fail_d2": 249
+    },
+    {
+      "rounds": 9,
+      "pre": 0,
+      "n_d0": 92,
+      "fail_d0": 12,
+      "n_d2": 301,
+      "fail_d2": 28
+    },
+    {
+      "rounds": 9,
+      "pre": 1,
+      "n_d0": 116,
+      "fail_d0": 76,
+      "n_d2": 346,
+      "fail_d2": 231
+    }
+  ],
+  "response_totals": {
+    "d0_n": 1310,
+    "d0_failures": 487,
+    "d2_n": 4810,
+    "d2_failures": 1700
+  },
+  "response_cmh": {
+    "score_numerator": 19.737574494945903,
+    "score_variance": 171.11290210023708,
+    "z_score": 1.508872014546113,
+    "two_sided_normal_p": 0.131331492799545
+  },
+  "heldout_timing_schema": {
+    "fields": [
+      "rounds",
+      "cycles",
+      "time_per_round"
+    ],
+    "round_counts": {
+      "9": 100000,
+      "17": 100000,
+      "25": 100000
+    },
+    "decoder_status_join_present": false,
+    "row_identity_present": false
+  },
+  "earned": [
+    "source-defined action quotient with DASR 0 and 2 on the same no-X branch",
+    "seven-of-seven within-round retained timing separations in the discovery packet",
+    "sample-level failure of the action quotient to preserve the retained resource coordinate",
+    "no response split detected at five percent after round/pre stratification",
+    "exact held-out schema boundary: 300,000 timings without decoder status or row identity"
+  ],
+  "disposition": [
+    "ACTION_QUOTIENT_RESOURCE_DISTINCTION",
+    "NO_DETECTED_ACTION_QUOTIENT_RESPONSE_DISTINCTION",
+    "HELDOUT_SCHEMA_CANNOT_TEST_ACTION_QUOTIENT",
+    "KNOWN_CONTROL_THEORY_ABSORPTION"
+  ],
+  "scientific_nonclaim": "The audit establishes a source-pinned sample-level timing distinction inside one returned-shot packet. It does not identify a causal status effect, population law, implementation-complete process, physical remainder, ontology, or new physics."
+}

@@ -6813,6 +6813,36 @@ waveform lineage, archive policy, or environment scope.
 satisfied by a real laboratory packet. Implementation completeness, material
 factorization/minimality, and Grade-5 remainder adjudication remain closed.
 
+### 2026-07-30 action/resource finality quotient
+
+`HC-DU-169` uses the source-defined Rigetti decoder action map as a physical
+quotient. `DASR=0` and `DASR=2` both authorize no conditional \(X\), but
+their retained timing distributions separate within every circuit from
+rounds 3 through 9. The action quotient is therefore not sufficient for the
+retained resource/timing coordinate.
+
+The same packet does not show a corresponding response distinction at the
+frozen five-percent threshold after stratifying by round and pre-feedback
+qubit state. The separately published 300,000-row timing file cannot provide
+held-out validation because it retains neither decoder status nor a stable
+row join.
+
+The reusable criterion is coordinate-specific factorization:
+
+\[
+a(d)=a(d')
+\Longrightarrow
+K_Z(\cdot\mid d)=K_Z(\cdot\mid d').
+\]
+
+Finality for action \(a\) does not imply finality for latency, cost,
+provenance, or another response coordinate \(Z\).
+
+**Updated seed status:** layered finality gains a real engineered physical
+specimen and an exact held-out schema reopener. This neither selects a
+fundamental finality law nor satisfies the flagship's implementation-complete
+packet gate.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

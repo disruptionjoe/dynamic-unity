@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 122
+state_revision: 123
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-168 finds 8,000 joined returned hardware rows linking measurement,
-    decoder, feedback branch, and later response. Missing attempt census and
-    controller/archive lineage block implementation completeness. No successor.
+    HC-DU-169 shows that action-equivalent decoder certificates can remain
+    timing/resource-distinct, while the held-out timing archive lacks the
+    status join needed to replicate the split. No successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -114,8 +114,8 @@ programs:
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
       HC-DU-165/166 bank material/action boundaries; HC-DU-167 calibrates
-      remainder. HC-DU-168 adds a source-pinned returned-shot feedback packet,
-      not all-attempt implementation completeness.
+      remainder; HC-DU-168 supplies a joined returned-shot packet; HC-DU-169
+      separates action from timing/resource finality within it.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -157,10 +157,13 @@ programs:
         evidence_ref: explorations/calibrated-ground-truth-remainder-instrument-and-downstream-only-kill-2026-07-30.md
       - id: HC-DU-168
         evidence_ref: explorations/rigetti-real-time-qec-returned-shot-record-action-response-packet-and-implementation-boundary-2026-07-30.md
+      - id: HC-DU-169
+        evidence_ref: explorations/action-equivalent-decoder-certificates-resource-timing-split-and-heldout-status-join-boundary-2026-07-30.md
     remaining_obligations:
       - Complete the HC-DU-168 all-attempt/controller/archive sidecar: trigger census, dispositions, program/firmware, route memory, waveform lineage, retention/access/reset, and environment scope.
       - Prove that its physical response kernel factors through the material archive rather than only a fitted reduced instrument.
       - Test behavioral minimality apart from provenance completeness.
+      - Keep action-finality, timing/resource-finality, response-finality, and provenance-finality separate; a held-out timing test requires decoder status or a stable row join.
       - Keep operational label sufficiency separate from material archive selection.
       - Keep Choi/Kraus minimality separate from both operational sufficiency and physical minimality.
       - Keep action syntax, lawful solutions, response, process, material record, and index separate; recheck GU only at Euler/domain or RB8 response.
@@ -223,6 +226,7 @@ programs:
       - explorations/gu-candidate-source-action-stage-adapter-earliest-response-gate-and-record-interface-nonimplication-2026-07-30.md
       - explorations/calibrated-ground-truth-remainder-instrument-and-downstream-only-kill-2026-07-30.md
       - explorations/rigetti-real-time-qec-returned-shot-record-action-response-packet-and-implementation-boundary-2026-07-30.md
+      - explorations/action-equivalent-decoder-certificates-resource-timing-split-and-heldout-status-join-boundary-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md
