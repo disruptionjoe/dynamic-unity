@@ -1,0 +1,104 @@
+{
+  "claim_id": "HC-DU-156",
+  "return": "DETERMINISTIC_SELECTOR_IS_INVARIANT_DIRAC_CASE+STOCHASTIC_ONLY_SELECTOR_EXISTS_ON_COMPACT_ORBITS+STOCHASTIC_SELECTION_NOT_AUTOMATIC_OR_UNIQUE+LORENTZ_H3_HAS_NO_NORMALIZED_INVARIANT_SELECTOR+SELECTED_KERNEL_NOT_REALIZED_INTERFACE_OR_FORMED_RECORD+SAME_UNLABELLED_CHANNEL_DIFFERENT_LABELLED_INSTRUMENTS+STANDARD_COVARIANT_INSTRUMENT_ABSORPTION+NO_READY_SUCCESSOR",
+  "checks": {
+    "c3_action_is_transitive": true,
+    "c3_action_has_no_fixed_point": true,
+    "no_deterministic_equivariant_selector": true,
+    "uniform_stochastic_selector_is_invariant": true,
+    "uniform_selector_is_unique_on_transitive_three_orbit": true,
+    "no_invariant_dirac_measure": true,
+    "orientation_token_selects_one_point_equivariantly": true,
+    "multiple_orbits_leave_invariant_probability_nonunique": true,
+    "integer_translation_has_no_normalized_invariant_probability": true,
+    "lorentz_hyperboloid_has_no_normalized_invariant_probability": true,
+    "uniform_axis_dephasing_shrinks_bloch_vector_by_one_third": true,
+    "pauli_error_instrument_has_same_unlabelled_channel": true,
+    "unlabelled_channels_agree_on_complete_bloch_basis": true,
+    "instrument_a_conditionals_are_exact": true,
+    "instrument_b_conditionals_are_exact": true,
+    "erased_label_x_plus_probability_is_two_thirds_for_both": true,
+    "accessible_labels_distinguish_the_instruments": true,
+    "axis_dephasing_instrument_is_cyclically_covariant": true,
+    "pauli_error_instrument_is_cyclically_covariant": true,
+    "same_channel_does_not_identify_labelled_archive": true
+  },
+  "finite_selector_fixture": {
+    "fixed_points": [],
+    "uniform_distribution": [
+      "1/3",
+      "1/3",
+      "1/3"
+    ],
+    "two_orbit_invariant_distribution_a": [
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6"
+    ],
+    "two_orbit_invariant_distribution_b": [
+      "1/12",
+      "1/12",
+      "1/12",
+      "1/4",
+      "1/4",
+      "1/4"
+    ]
+  },
+  "quantum_instrument_fixture": {
+    "average_dephasing_bloch_map": [
+      [
+        "1/3",
+        0,
+        0
+      ],
+      [
+        0,
+        "1/3",
+        0
+      ],
+      [
+        0,
+        0,
+        "1/3"
+      ]
+    ],
+    "pauli_error_bloch_map": [
+      [
+        "1/3",
+        0,
+        0
+      ],
+      [
+        0,
+        "1/3",
+        0
+      ],
+      [
+        0,
+        0,
+        "1/3"
+      ]
+    ],
+    "instrument_a_conditional_x_plus": [
+      1,
+      "1/2",
+      "1/2"
+    ],
+    "instrument_b_conditional_x_plus": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "erased_label_x_plus_probability": "2/3"
+  },
+  "scope": [
+    "A point no-selector theorem does not automatically exclude an equivariant probability-valued selector.",
+    "Compact averaging can select a lottery while leaving its realized outcome and archive unselected.",
+    "Noncompact physical orbits can lack even a normalized invariant lottery.",
+    "An unlabelled channel does not identify its labelled instrument or formed record."
+  ]
+}

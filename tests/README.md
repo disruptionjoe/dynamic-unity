@@ -3771,6 +3771,28 @@ map, record algebra, archive, regional-finality protocol, or certificate,
 establish perspectival curvature or new physics, predict an anomaly, justify
 hardware, or promote a paper.
 
+## HC-DU-156 equivariant stochastic interface-selector gate
+
+Run:
+
+```bash
+python3 tests/du_stochastic_interface_selector_gate_probe.py --write-artifact
+```
+
+The exact fixture verifies a transitive \(C_3\) orbit with no equivariant
+point selector but a unique invariant lottery, a two-orbit case with
+nonunique invariant lotteries, and the proof receipts for normalized
+invariant-probability failure under integer translations and on the Lorentz
+hyperboloid. It also verifies two cyclically covariant labelled qubit
+instruments with the same unlabelled Bloch channel \(r\mapsto r/3\) and
+different accessible conditional responses.
+
+Passing establishes only the deterministic/stochastic selector distinction
+and the sampler/archive formation boundary. It does not numerically prove the
+continuous hyperbolic theorem or select a physical sampler, realized
+interface, record, observer, access path, provenance, ontology, new physics,
+prediction, hardware action, or paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It

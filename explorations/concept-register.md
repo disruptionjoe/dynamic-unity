@@ -6249,6 +6249,35 @@ CURVATURE FORM ABSORBED / NO SELECTED FULL LOOP, REPRESENTATION-INVARIANT
 HOLONOMY, REGIONAL FINALITY LAW, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
 `qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md`.
 
+### 2026-07-30 equivariant stochastic interface selector boundary
+
+`HC-DU-156` corrects a deterministic-selector overreach. On a homogeneous
+antecedent orbit, an equivariant point selector is a stabilizer-fixed fibre
+point, while an equivariant Markov kernel is a stabilizer-invariant
+probability measure. An invariant Dirac measure is only the deterministic
+special case.
+
+Finite and compact averaging can therefore select a lottery when no point is
+selected. The escape is neither automatic nor complete. Multiple orbits leave
+mixture weights open, and the noncompact Lorentz orbit \(H^3\) admits no
+normalized invariant probability. Thus stochasticity does not rescue a
+law-only covariant observer direction in Minkowski vacuum.
+
+Two exact cyclically covariant qubit instruments supply the formation control.
+Uniform labelled \(X/Y/Z\) dephasing and a differently labelled Pauli-error
+instrument have the same unlabelled channel \(r\mapsto r/3\), but their
+accessible labels give different conditional futures. A selected kernel or
+channel therefore does not select its sampler, realized interface, archive,
+access, or provenance.
+
+**Updated status:** **CONCEPT-OPEN / DETERMINISTIC SELECTOR IDENTIFIED AS
+INVARIANT-DIRAC SPECIAL CASE / COMPACT STOCHASTIC-ONLY SELECTOR AND
+NONCOMPACT NO-NORMALIZED-SELECTOR CLASSES PROVED / SAME-CHANNEL
+DIFFERENT-LABELLED-INSTRUMENT CONTROL BANKED / STANDARD INVARIANT-MEASURE,
+COVARIANT-INSTRUMENT, AND SSB ABSORPTION / NO FORMED RECORD, EMPIRICAL EXCESS,
+OR NEW PHYSICS.** See
+`equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

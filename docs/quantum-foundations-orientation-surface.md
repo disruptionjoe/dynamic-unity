@@ -1210,6 +1210,16 @@ graph remains sufficient for its own orthogonal output family. The
 contract-relative flag-defect and test-cover numbers are diagnostics, not
 new physics or universal information costs.
 
+**Stochastic-selector correction.** `HC-DU-156` adds a missing rung between a
+symmetry orbit and a selected point. On a homogeneous orbit, an equivariant
+point selector is a stabilizer-fixed fibre point; an equivariant stochastic
+selector is a stabilizer-invariant probability. Compact averaging can select
+a lottery without selecting a winner, but multiple orbits can leave its law
+nonunique, and the Lorentz hyperboloid \(H^3\) admits no normalized invariant
+lottery. A selected kernel still does not select its sampler or archive:
+two covariant labelled instruments can have the same unlabelled channel and
+different conditional records.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

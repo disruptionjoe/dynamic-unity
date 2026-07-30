@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 108
+state_revision: 109
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,12 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-155 separates complete transformation from reduced access. A
-    reversible full loop may close while discard-and-refresh fails by the
-    removed-lineage term; noncommuting reductions also cause ordinary order
-    effects. Neither is perspectival curvature without a selected full loop
-    and matched lineage, protocol, covariance, refinement, and standard-QM
-    controls. No reopen rule is met.
+    HC-DU-156 corrects point nonselection: compact symmetry can select a
+    lottery without a winner, but noncompact H3 has no normalized invariant
+    lottery. A kernel still selects no sampler, realized interface, or
+    archive; same-channel labelled instruments differ. No reopen rule is met.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -369,11 +367,10 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Parked after testing one source-pinned GIE apparatus class for physical
-      descent or lawful remainder.
+      Parked after apparatus and stochastic-selector selection tests.
     current_grade: >-
-      HC-DU-137--152 bank Grade-4 interface-to-apparatus boundaries,
-      including a source-pinned apparatus-class nonselection result.
+      HC-DU-137--152/156 bank Grade-4 interface/apparatus selection boundaries
+      and the stochastic-selector correction.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for lawful remainder or prediction.
@@ -387,6 +384,8 @@ programs:
         evidence_ref: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
       - id: HC-DU-152
         evidence_ref: explorations/christodoulou-gie-apparatus-class-selection-and-descent-boundary-2026-07-30.md
+      - id: HC-DU-156
+        evidence_ref: explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
     remaining_obligations: []
     typed_dependencies:
       - type: requires
@@ -396,22 +395,17 @@ programs:
         target: PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: requirement
     strongest_absorber: >-
-      Christodoulou et al. explicitly require apparatus stress and identify a
-      heavy, homogeneous sufficient regime; Ward identities, Gaussian
-      influence functionals, and effective-apparatus limits absorb the pieces.
+      Covariant instruments, invariant measures, SSB, and effective-apparatus
+      limits absorb the pieces.
     cheapest_kill: >-
-      Met. The source supplies qualitative apparatus conditions but no
-      dynamics, variation class, norm, error bound, or no-refit transfer.
+      Met. A unique invariant kernel need select no sampler, label, or archive.
     stop_rule: >-
-      Stop at the earned supply boundary; do not invent an apparatus class,
-      simulate it, design hardware, or infer a phase correction.
+      Do not promote a symmetry orbit, kernel, or channel into a formed record.
     reopen_rule: >-
-      Require one source-pinned dynamical apparatus packet that selects a
-      normed completion class and either proves a uniform HC-DU-151 bound or
-      gives a same-contract no-refit probability difference.
+      Require a source-pinned apparatus or stochastic instrument selecting its
+      completion class, sampler, accessible archive, and no-refit consequence.
     local_computation_boundary: >-
-      Primary-source reconstruction decided the gate. Local apparatus
-      construction would only replay HC-DU-151 and is disallowed; no hardware.
+      Exact finite controls close the gate; no scale-up or hardware.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
@@ -419,6 +413,7 @@ programs:
       - explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
       - explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
       - explorations/christodoulou-gie-apparatus-class-selection-and-descent-boundary-2026-07-30.md
+      - explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
 
   - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
     kind: supporting_branch
@@ -727,15 +722,13 @@ successor_selection:
     - closed-direct-action-versus-field-probability-packet
     - formed-provenance-intervention-packet
     - source-selected-qrf-formed-record-handoff-packet
+    - source-selected-stochastic-interface-instrument
     - no-ready-successor
   decision_rule: >-
-    HC-DU-152 supplies no physical apparatus class, HC-DU-153 supplies a QRF
-    handoff theorem only after access and block interfaces are fixed, and
-    HC-DU-154 assumes a definite outcome and complete communication packet.
-    HC-DU-155 shows that reduced-loop and path-order effects are absorbed by
-    discarded lineage or noncommuting access maps unless a selected complete
-    loop survives matched controls. None meets a parked program's reopen rule,
-    so no successor activates.
+    HC-DU-152 supplies no physical apparatus class; HC-DU-153--155 leave QRF
+    interfaces or lineage supplied. HC-DU-156 opens compact stochastic-only
+    selectors, closes the Lorentz H3 lottery, and leaves sampler/archive
+    formation open. No parked-program reopener is met.
 
 anomaly_intake:
   status: open_non_wip
