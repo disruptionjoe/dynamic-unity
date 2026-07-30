@@ -3559,3 +3559,30 @@ regression. Passing it does not select the measurement, pointer, rate, read
 time, bath, reversible dynamics, actual outcome, archive, provenance,
 observer access, thermodynamic cost, universal port law, empirical excess,
 prediction, new physics, hardware need, or paper promotion.
+
+## HC-DU-142 thermodynamic quantum-record packet selector audit
+
+`HC-DU-142` audits the strongest bounded measurement-model classes and
+separates three physical joints that earlier shorthand combined:
+
+- formation of a macroscopic pointer or detector signal;
+- actualization of one outcome in an individual run; and
+- retention of an accessible provenance-bearing archive.
+
+Metastable apparatus and autonomous-detector sources strongly model formation,
+thermodynamic performance, and reset. Bohmian and objective-collapse theories
+provide explicit single-run exits by adding primitive ontology or modified
+dynamics. No audited source selects the complete unchanged packet.
+
+The exact regression argument uses one dephasing Lindbladian. Its direct-count
+unravelling has zero information about a binary \(Z\)-eigenstate source, while
+its homodyne unravelling has strictly positive sign-channel capacity.
+Unconditional dynamics therefore does not select a unique trajectory record
+or capacity even up to information equivalence.
+
+No numerical executable was added because the exact probability laws and
+bounded primary-source audit decide the scoped result. The governance probe
+remains the executable regression. Passing it does not select the monitoring
+boundary, detector, transcript, individual ontology, retained archive,
+provenance, observer access, task, no-refit capacity, empirical excess,
+prediction, new physics, hardware need, or paper promotion.

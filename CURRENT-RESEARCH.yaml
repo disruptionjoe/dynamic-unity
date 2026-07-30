@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 93
+state_revision: 94
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,12 +82,14 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-141 derives an exact binary channel and finite-time capacity from one
-    frozen hybrid-measurement packet. Its finite error is incomplete one-way
-    relaxation, not thermal reversion. A reversible repair separates
-    thermodynamic bias from kinetic depth; Norton's log-odds relation requires
-    added detailed balance. The model still lacks an actual retained record.
-    No successor is ready.
+    HC-DU-142 separates record formation, single-run actuality, and retained
+    accessible provenance. Metastable/autonomous detectors type formation,
+    thermodynamics, and reset; Bohmian/collapse theories add single outcomes
+    via extra ontology or dynamics. One dephasing Lindbladian supports a
+    zero-information direct-count record and a positive-information homodyne
+    record, so unconditional dynamics does not select the record or capacity.
+    No audited source selects the unchanged complete packet. No successor is
+    ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -443,10 +445,10 @@ programs:
     target: >-
       Quantify capacity and resolution after a formed interface exists.
     current_grade: >-
-      HC-DU-136, HC-DU-140, and HC-DU-141 bank Grade-4 scalar, port,
-      odds/capacity, finite-time-channel, and thermodynamic-nonimplication
-      boundaries plus conditional Grade-3 binary reconstruction. A physical
-      formed-record capacity remains open.
+      HC-DU-136/140/141/142 bank Grade-4 scalar, port, finite-time capacity,
+      thermodynamic-nonimplication, trajectory-record nonselection, and
+      formation--actuality--archive boundaries plus conditional Grade-3 binary
+      reconstruction. A selected complete-record capacity remains open.
     evidence_grade: 4
     maximum_grade: "Scoped Grade 4 supporting result."
     maximum_evidence_grade: 4
@@ -459,6 +461,8 @@ programs:
         evidence_ref: explorations/quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md
       - id: HC-DU-141
         evidence_ref: explorations/hybrid-quantum-measurement-finite-time-capacity-and-thermodynamic-nonimplication-2026-07-29.md
+      - id: HC-DU-142
+        evidence_ref: explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
     remaining_obligations:
       - Derive a complete physical record and its model-selected capacity.
     typed_dependencies:
@@ -466,21 +470,26 @@ programs:
         target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: program
     strongest_absorber: >-
-      Binary-channel/Fano theory, hybrid measurement, stochastic-thermodynamic
-      current--affinity structure, and constrained capacity.
+      Binary-channel/Fano theory, metastable and autonomous detectors,
+      quantum-trajectory unravelling, stochastic thermodynamics, primitive
+      ontology/objective collapse, and constrained capacity.
     cheapest_kill: >-
-      Met twice: one erasure family preserves port flow and completion odds
-      while capacity grows as s log d; the exact hybrid generator has zero
-      reverse rate, so its finite readout failure cannot be Norton's thermal
-      reversion probability.
+      Met three ways: one erasure family preserves port flow and completion
+      odds while capacity grows as s log d; the exact hybrid generator has
+      zero reverse rate, so its finite readout failure cannot be Norton's
+      thermal reversion probability; and one dephasing Lindbladian has a
+      direct-count transcript with zero source information and a homodyne
+      transcript with positive information.
     stop_rule: >-
-      Do not run another generic probability, odds, energy, or capacity
-      analogy before a complete physical interface packet selects their maps.
+      No generic probability, energy, capacity, measurement-model, or
+      trajectory survey before a complete physical packet selects their maps.
     reopen_rule: >-
-      Reopen only when one physical theory or apparatus packet selects the
-      boundary decomposition, source and measurement dynamics, formed retained
-      transcript, observer access, task semantics, and a no-refit theorem from
-      the resulting conditional law to accessible capacity.
+      Reopen only when one unchanged physical theory/apparatus packet selects
+      the boundary decomposition, source and measurement dynamics, one
+      individual outcome under a stated ontology, a provenance-bearing
+      retained archive through the read horizon, reset and entropy
+      bookkeeping, observer access, task semantics, and a no-refit theorem
+      from the resulting conditional law to accessible capacity.
     local_computation_boundary: >-
       Proof-first local specimen only; no hardware.
     next_action: null
@@ -489,6 +498,7 @@ programs:
       - explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
       - explorations/quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md
       - explorations/hybrid-quantum-measurement-finite-time-capacity-and-thermodynamic-nonimplication-2026-07-29.md
+      - explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication

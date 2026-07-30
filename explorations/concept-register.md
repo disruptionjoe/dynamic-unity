@@ -5814,6 +5814,41 @@ THERMODYNAMIC ADAPTER, ACTUAL RECORD, UNIVERSAL COST LAW, OR EMPIRICAL
 EXCESS.** See
 `hybrid-quantum-measurement-finite-time-capacity-and-thermodynamic-nonimplication-2026-07-29.md`.
 
+### 2026-07-29 thermodynamic quantum-record packet selector audit
+
+`HC-DU-142` replaces “actual retained record” with three separately typed
+physical joints:
+
+1. formation of a macroscopic pointer, current, or other detectable carrier;
+2. actualization of one outcome in an individual run; and
+3. retention of an accessible, provenance-bearing archive.
+
+Metastable measurement apparatuses and autonomous quantum detectors strongly
+model formation, thermodynamics, reset, and in some cases stable pointer
+retention. Their unconditioned descriptions remain ensemble- or
+average-current descriptions. Bohmian configuration and objective-collapse
+dynamics are honest single-run exits, but add primitive ontology or modified
+dynamics and do not thereby derive the complete archive/access/capacity
+packet.
+
+The exact selector control uses
+\(\mathcal L_Z(\rho)=\gamma(Z\rho Z-\rho)\). Its direct-count unravelling has
+\(I(X;N_{[0,t]})=0\) for a binary \(Z\)-eigenstate source, while its homodyne
+unravelling has the sign-channel capacity
+\[
+1-h_2\!\left(\Phi(-2\sqrt{\gamma t})\right)>0.
+\]
+The unconditional dynamics therefore does not determine a unique trajectory
+record or capacity even up to information equivalence. A monitoring boundary,
+detector, transcript, archive, observer access, and task remain separately
+typed.
+
+**Updated status:** **CONCEPT-OPEN / FORMATION--SINGLE-RUN-ACTUALIZATION--
+ARCHIVE SEPARATION BANKED / SCOPED TRAJECTORY-RECORD NONSELECTION PROVED /
+OBJECTIVE-OUTCOME EXITS ADMITTED / NO COMPLETE PHYSICALLY SELECTED RECORD
+PACKET, CAPACITY, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
+`thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
