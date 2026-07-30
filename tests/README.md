@@ -3529,6 +3529,35 @@ establish an observed BMV result, prove exclusive mediation in nature, select
 a record ontology, produce empirical excess, authorize hardware, or promote
 a paper.
 
+## HC-DU-147 mediator-diagnostic identifiability boundary
+
+`du_mediator_diagnostic_identifiability_probe.py` upgrades the `HC-DU-146`
+endpoint control to a complete-probe-process symmetry regression:
+
+- candidate mediator factors \(G,Q\) are exchanged by one inaccessible swap;
+- the mediator initialization is swap invariant;
+- every admitted probe control commutes with the swap;
+- the two routed processes are swap conjugate;
+- 16 informationally spanning probe inputs and 100 pairs of probe controls
+  give 1,600 identical reduced probe outputs;
+- the named active-component target nevertheless differs; and
+- a calibrated component-selective \(X_G\) pulse breaks the symmetry and
+  changes the accessible final \(A B\) parity exactly.
+
+Run:
+
+```bash
+python3 tests/du_mediator_diagnostic_identifiability_probe.py --write-artifact
+```
+
+Passing proves only the finite symmetry regression and positive control. The
+general all-probe statement follows from the swap-covariance proof in
+`HC-DU-147`, not from protocol enumeration. Neither establishes gravity as
+the active mediator, invalidates effective-process or quantum-memory
+diagnostics, validates a proposed gravity experiment, observes exclusive
+mediation, produces empirical excess, authorizes hardware, or promotes a
+paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It

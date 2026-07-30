@@ -1,0 +1,80 @@
+{
+  "arena": {
+    "mediator_initial_state": "|0>_G |0>_Q",
+    "probe_control_family": [
+      "I",
+      "X_A",
+      "Z_A",
+      "H_A",
+      "S_A",
+      "X_B",
+      "Z_B",
+      "H_B",
+      "CNOT_A_B",
+      "CNOT_B_A"
+    ],
+    "probe_inputs": [
+      "0",
+      "1",
+      "+",
+      "+i"
+    ],
+    "probe_protocol_count": 1600,
+    "qubit_order": [
+      "A",
+      "B",
+      "G",
+      "Q"
+    ],
+    "routed_gate_pattern": "CNOT(A,M), probe control, CNOT(M,B), probe control, CNOT(A,M)"
+  },
+  "assertions": {
+    "all_probe_controls_commute_with_mediator_swap": true,
+    "component_selective_pulse_breaks_symmetry": true,
+    "full_outputs_differ_only_by_inaccessible_swap": true,
+    "initial_mediator_state_is_swap_invariant": true,
+    "named_active_component_differs": true,
+    "routed_processes_are_swap_conjugate": true,
+    "tomographic_probe_protocols_are_indistinguishable": true
+  },
+  "claim_id": "HC-DU-147",
+  "kernel_statement": "The G/Q swap fixes the entire admitted probe process while flipping the named active-component target. The target therefore does not factor through complete probe input-output behavior.",
+  "maximum_deltas": {
+    "full_output_after_swap": 0.0,
+    "initial_swap": 0,
+    "probe_control_commutator": 0.0,
+    "reduced_probe_process": 0.0,
+    "route_conjugation": 0.0
+  },
+  "minimum_repair": "Break the inaccessible-factor stabilizer with independently calibrated component-selective control, known topology/coupling structure, retained component provenance, exclusive mediation, or a frozen component-specific excess prediction.",
+  "positive_control": {
+    "gravity_route_final_state": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "0110"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "1010"
+      }
+    ],
+    "gravity_route_odd_AB_parity_probability": 0.9999999999999998,
+    "operation": "X_G after the first routed coupling",
+    "other_route_final_state": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "0010"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "1110"
+      }
+    ],
+    "other_route_odd_AB_parity_probability": 0
+  },
+  "scope_guard": "The regression verifies one exact finite symmetry class. The general all-probe statement follows from swap covariance, not from enumerating 1,600 protocols. Neither result identifies gravity, validates a proposed experiment, or predicts new physics."
+}

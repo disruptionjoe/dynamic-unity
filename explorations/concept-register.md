@@ -5776,6 +5776,38 @@ CALCULATION CONTESTED / NO OBSERVED PACKET, EMPIRICAL EXCESS, NEW PHYSICS, OR
 READY SUCCESSOR.** See
 `local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md`.
 
+### 2026-07-30 complete probe process versus named-component attribution
+
+`HC-DU-147` tests the cheapest repair to `HC-DU-146`: replace one endpoint
+with complete probe-side preparations, interventions, time-indexed records,
+and measurements. Richer diagnostics can identify an effective process,
+reject a classical-memory realization class, distinguish a mediator regime
+inside a frozen Hamiltonian family, or recover parameters up to an
+input--output equivalence. Those are substantive positive results.
+
+They still need not identify a named inaccessible component. If a swap
+\(S_{GQ}\) of candidate mediators fixes the initial mediator state and every
+probe operation while conjugating the two routed dynamics, every finite
+adaptive probe-only protocol has the same outcome law in both completions.
+The target "component \(G\) was active" changes under the swap, so it does not
+factor through the complete probe process.
+
+The exact four-qubit regression verifies zero reduced-process difference
+across 1,600 informationally spanning finite protocols. A calibrated
+component-selective \(X_G\) pulse breaks the symmetry and changes final probe
+parity from certainly odd to certainly even across the two routes. Thus the
+minimum repair is not merely more data: it is topology, component-selective
+access, retained provenance, exclusive mediation, or frozen
+component-specific excess.
+
+**Updated status:** **CONCEPT-OPEN / EFFECTIVE-PROCESS AND MEDIATOR-REGIME
+DIAGNOSTICS CONDITIONALLY USEFUL / NAMED COMPONENT NONIDENTIFIABLE FROM THE
+COMPLETE PROBE PROCESS UNDER AN INACCESSIBLE-FACTOR STABILIZER /
+COMPONENT-SELECTIVE ACCESS OR PROVENANCE REPAIRS THE FINITE CASE / ONE-SIDED
+READOUT DOES NOT IMPLY PROBE-ONLY INTERVENTION / NO OBSERVED EXCLUSIVE
+MEDIATION PACKET, NEW PHYSICS, HARDWARE PATH, PAPER, OR READY SUCCESSOR.** See
+`probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md`.
+
 ## CONCEPT-DU-018 — typed probability boundary ladder
 
 - **Concept.** Probability may be the natural dynamical boundary coordinate

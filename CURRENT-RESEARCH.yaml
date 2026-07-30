@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 98
+state_revision: 99
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,10 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-146 preserves conditional total-mediator class exclusion but proves
-    that complete endpoints do not identify the active named component.
-    Gravity-entanglement calculations remain disputed, no observed
-    exclusive-mediation packet was found, and no successor is ready.
+    HC-DU-147 proves complete probe behavior cannot name an active mediator
+    under an inaccessible-factor symmetry. Diagnostics can identify effective
+    processes or realization classes; attribution requires symmetry-breaking
+    access, provenance, exclusive mediation, or component-specific excess.
+    No observed packet or ready successor exists.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -367,14 +368,13 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Parked after proving the finite antecedent-completion boundary and the
-      controller-relative action-envelope compiler, then colliding the open
-      counterfactual premise with constructor theory.
+      Parked after the antecedent-completion, action-envelope, constructor,
+      and complete probe-process mediator-diagnostic gates.
     current_grade: >-
-      HC-DU-137--139/146 bank Grade-4 interface/action-envelope boundaries,
-      constructor adapter necessity, conditional total-mediator class
-      exclusion, and complete-endpoint nonidentifiability of the active named
-      mediator.
+      HC-DU-137--139/146--147 bank Grade-4 interface/action-envelope
+      boundaries, constructor adapter necessity, conditional total-mediator
+      class exclusion, and endpoint- through complete-probe-process
+      nonidentifiability of the active named mediator.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
@@ -394,6 +394,8 @@ programs:
         evidence_ref: explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
       - id: HC-DU-146
         evidence_ref: explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
+      - id: HC-DU-147
+        evidence_ref: explorations/probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md
     remaining_obligations:
       - Await a completed physical task-repertoire selector plus a
         subsidiary-theory observer/controller/access/resource adapter, a
@@ -408,28 +410,30 @@ programs:
         target_type: requirement
     strongest_absorber: >-
       Behavioral equivalence, antecedent factorization, sufficient statistics,
-      system identification, quantum controllability, programmable-processor
-      no-programming, constructor-theoretic possible/impossible tasks and
-      total-mediator witnesses, mediator-component attribution and
-      realization freedom, and prior DU formation/QFT/infrared audits.
+      system identification and unitary similarity, quantum controllability,
+      no-programming, constructor tasks and total-mediator witnesses,
+      quantum-memory/mediator diagnostics, realization freedom, and prior DU
+      formation/QFT/infrared audits.
     cheapest_kill: >-
       Met: source-equivalent apparatuses, actual-history-equivalent controller
-      envelopes, and complete-endpoint-equivalent circuits disagree on their
-      respective interface, action, and active-component targets.
+      envelopes, and complete-probe-process-equivalent circuits disagree on
+      their respective interface, action, and active-component targets.
     stop_rule: >-
-      Stop designed finite apparatus/controller variants and constructor-theory
-      relabels. Do not replay the completed autonomous, mediator, local-QFT,
-      infrared, programmable-action, or quantum-homogenizer controls.
+      Stop designed apparatus/controller variants and constructor relabels.
+      Do not seek named provenance through probe-only tomography or replay
+      completed autonomous, mediator, QFT, infrared, programmable-action, or
+      quantum-homogenizer controls.
     reopen_rule: >-
       Require a completed theory that independently selects the task
       repertoire and observer/controller/preparation/resource/access adapter,
-      a stronger scoped mediator no-go tied to an observed acquisition packet
-      that proves exclusive mediation or carries component provenance,
-      or a frozen constructor-specific empirical excess prediction.
+      an observed acquisition packet with exclusive mediation or retained
+      component provenance, a calibrated component-selective access contract,
+      a theorem removing the relevant realization stabilizer, or frozen
+      component-specific empirical excess.
     local_computation_boundary: >-
-      Existing exact response/controller probes plus the primary-source and
-      type-level constructor collision decide the boundary. No constructor toy,
-      quantum simulation, or hardware is warranted without a reopener.
+      Exact response/controller and mediator-symmetry probes plus the
+      primary-source collisions decide the boundary. No larger tomography
+      simulation, gravity model, or hardware is warranted without a reopener.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
@@ -437,6 +441,7 @@ programs:
       - explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
       - explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
       - explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
+      - explorations/probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 
@@ -734,9 +739,10 @@ successor_selection:
     - physically-selected-probability-port-instrument-to-capacity-law
   decision_rule: >-
     Keep tasks, ports, odds, capacity, records, total-mediator exclusion, and
+    effective-process identification, realization-class witnesses, and named
     component attribution distinct. Select only a complete physical packet,
-    an observed exclusive-mediation/provenance packet, or frozen empirical
-    excess.
+    an observed exclusive-mediation/provenance packet, a symmetry-breaking
+    component-access theorem, or frozen empirical excess.
 
 anomaly_intake:
   status: open_non_wip
