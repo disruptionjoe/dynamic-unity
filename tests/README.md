@@ -3982,3 +3982,28 @@ automaton.
 This is a governance and context-retention test only. Passing establishes no
 selector, no-section theorem, material record, reconstruction, remainder, new
 law, prediction, or publication claim.
+
+## HC-DU-160 action-indexed selection frontier
+
+`du_action_indexed_selection_frontier_probe.py` exactly enumerates the
+selection frontiers of a predeclared two-bit candidate family under three
+nested action classes. It checks upper closure, antitone action refinement,
+and the expected zero-, two-, and three-member minimal-frontier antichains.
+
+The same probe checks a qubit measurement-model boundary while holding the
+unlabelled dephasing channel fixed. Changing the pointer observable at fixed
+coupling, or the coupling isometry at fixed pointer observable, changes the
+labelled instrument. The pair is therefore a scoped formal-instrument
+minimum inside the declared model.
+
+Run:
+
+```bash
+python3 tests/du_action_indexed_selection_frontier_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_action_indexed_selection_frontier_result.json`. Passing proves
+only the finite antichains and measurement-model deletion witnesses. It
+establishes no universal physical selector, formed record, observer, ontology,
+prediction, empirical result, or new physics.

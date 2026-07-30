@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 113
+state_revision: 114
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-159 completed Swing 1. Trivial natural instrument sections exist,
-    while unitary channels obstruct informative refinements and complete
-    material interfaces remain unselected. Swing 2 is scientifically eligible
-    and prepared by the campaign but is not activated or executable in this
-    transition.
+    HC-DU-160 completed Swing 2. Minimal antecedent bundles are indexed by
+    action/access class and can form exact antichains; in the frozen qubit
+    model, coupling plus readout is a scoped formal-instrument minimum while
+    the complete material packet remains unselected. Swing 3 is scientifically
+    eligible but is not activated or executable in this transition.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -115,10 +115,11 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-159 banks scoped Grade-4 classification: every process has trivial
-      coin-toss/singleton instrument sections; unitary channels admit no
-      informative refinement; nonunitary covariant decompositions need not be
-      affine, compositional, or material. The complete interface remains open.
+      HC-DU-160 banks scoped Grade-4 classification: selection frontiers are
+      indexed by action class, finite minimal bundles form antichains, and
+      coupling plus pointer readout is jointly minimal for a formal instrument
+      in one frozen qubit model. Sampler, material archive, provenance, reset,
+      and observer access remain unselected.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -142,9 +143,10 @@ programs:
         evidence_ref: explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
       - id: HC-DU-159
         evidence_ref: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
+      - id: HC-DU-160
+        evidence_ref: explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
     remaining_obligations:
-      - Construct the minimal physical selection frontier.
-      - Admit material work only after a frontier coordinate survives.
+      - Source-pin one surviving coupling or readout coordinate before material work.
       - Require a complete formed-record packet before reconstruction credit.
       - Transfer any result without refitting before regional generalization.
     typed_dependencies:
@@ -161,23 +163,25 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Quantum instruments, Choi extremality,
+      Finite sufficient statistics, candidate keys, quantum instruments,
+      minimal measurement models, Choi extremality,
       no-information-without-disturbance, categorical classical structures,
       combs/process tensors, dilation freedom, sufficient statistics,
       decoherence/SBS, AQFT measurement schemes, and classical identifiability.
     cheapest_kill: >-
-      Swing 1's literal no-section conjecture is killed by
-      \(s_p(\Phi)_x=p_x\Phi\). Swing 2 is killed if removing a
-      target-independent antecedent leaves no uniqueness change or if a known
-      selection theorem already covers the exact frontier.
+      Swing 2's context-free minimum is killed because changing the action
+      class changes the response kernel, while exact finite antichains block a
+      unique least bundle. Swing 3 is killed if the source-pinned
+      material-response derivative remains inside the frozen nuisance span.
     stop_rule: >-
       Stop on target coding, an untyped process/interface map, full prior-art
       absorption, a failed typed prerequisite, or any route requiring hardware
       before new local learning. A prepared later swing is not executable
       without a separate authorization.
     reopen_rule: >-
-      Swing 2 may activate only by separate direct authorization because
-      HC-DU-159 supplies its scoped interface frontier. After any later
+      Swing 3 may activate only by separate direct authorization after one
+      coupling or readout coordinate is pinned to a primary-source physical
+      platform with a frozen nuisance contract. After any later
       scientific stop, require a new physical antecedent that changes the exact
       interface orbit or a source-pinned finite no-refit discriminator.
     local_computation_boundary: >-
@@ -185,13 +189,15 @@ programs:
       finite orbit or verify an exact counterexample. No simulation, provider,
       or external hardware is authorized.
     next_action: >-
-      If separately authorized, execute Swing 2: partially order the five
-      target-blind antecedent coordinates and find a unique minimal frontier,
-      an exact antichain of incomparable minima, or a no-finite-frontier result.
+      If separately authorized, execute Swing 3: select one source-pinned
+      physical platform, vary one surviving coupling or readout coordinate,
+      freeze the action and nuisance contracts, and test whether its response
+      derivative leaves the nuisance span without refitting.
     next_action_ref: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
     canonical_evidence_refs:
       - explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
       - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
+      - explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
@@ -650,10 +656,11 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-159 satisfies Swing 2's scientific prerequisite but does not itself
-    authorize execution. No scientific action is executable in this
-    transition. A separate direct authorization may activate only the
-    counterfactual minimal-selection-frontier gate, not a later campaign swing.
+    HC-DU-160 satisfies Swing 3's scientific prerequisite only at the abstract
+    coupling/readout level and does not itself authorize execution. No
+    scientific action is executable in this transition. A separate direct
+    authorization may activate only one source-pinned material-substitution
+    response-rank gate, not a later campaign swing.
 
 anomaly_intake:
   status: open_non_wip

@@ -1266,6 +1266,21 @@ boundary, or observer index. No-information-without-disturbance, quantum
 instrument/process theory, and categorical classical-structure results absorb
 the mathematical components.
 
+**Action-indexed frontier correction.** `HC-DU-160` shows that an
+action/access class is not one more antecedent coordinate: it indexes the
+operational equivalence relation the coordinates must select. For fixed
+\(H\), a bundle \(S\) selects exactly when
+\(\ker(a_S)\subseteq\ker(R_H)\); finite minimal bundles form an antichain,
+and strengthening \(H\) can split or enlarge that frontier. In a qubit
+measurement model with the same unlabelled dephasing channel, changing either
+the coupling isometry or the pointer observable changes the labelled
+instrument. Coupling plus readout is therefore a scoped formal-instrument
+minimum, while sampler, realized outcome, archive, provenance, reset, and
+access remain unselected. Sufficient-statistic, candidate-key,
+measurement-model, dilation, and process-tensor mathematics absorb the
+components; the physical question begins when one surviving coordinate is
+source-pinned without using a held-out target.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

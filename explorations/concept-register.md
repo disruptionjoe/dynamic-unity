@@ -6399,12 +6399,14 @@ OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
   17. `SEED-DU-MPA-17` — Interface Relativity Principle.
 
 - **Execution discipline.** The seeds are preserved independently of the
-  work queue. Only the first natural-section/no-section gate is executable.
-  Material, reconstruction, first-leak, transfer, regional-composition, and
-  new-dynamics branches require their typed predecessors.
+  work queue. `HC-DU-159` and `HC-DU-160` complete the natural-section and
+  selection-frontier gates. Material, reconstruction, first-leak, transfer,
+  regional-composition, and new-dynamics branches still require their typed
+  predecessors and separate authorization.
 - **Status:** **CONCEPT-OPEN / CHARTER-RATIFIED RESEARCH QUESTION /
-  `HC-DU-159` BANKS THE FIRST SCOPED FRONTIER / MATERIAL RECORD,
-  RECONSTRUCTION, REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
+  `HC-DU-159` AND `HC-DU-160` BANK THE FORMAL-INSTRUMENT AND
+  ACTION-INDEXED SELECTION FRONTIERS / MATERIAL RECORD, RECONSTRUCTION,
+  REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
 - **Canonical campaign:** `minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md`.
 
 ### 2026-07-30 instrument-section correction
@@ -6437,6 +6439,40 @@ no-information-without-disturbance, process-theory, and categorical copying
 results absorb the components. The DU increment is the exact five-coordinate
 selection frontier: information, disturbance/process extension, classical
 structure, material realization/provenance, and observer access.
+
+### 2026-07-30 action-indexed selection-frontier correction
+
+`HC-DU-160` corrects the five-coordinate list before material work. An
+action/access class \(H\) changes the operational equivalence relation to be
+selected, so it is a **base index**, not one more coordinate inside a single
+antecedent poset. For fixed \(H\), a bundle \(S\) selects the response class
+exactly when
+
+\[
+\ker(a_S)\subseteq\ker(R_H).
+\]
+
+In a finite declared coordinate family, selecting bundles are upward closed,
+their inclusion-minimal members form an antichain, and a unique least bundle
+exists exactly when the intersection of all selecting bundles still selects.
+An exact two-bit fixture has two incomparable minima for outcome access and
+three for audit access, proving that capability expansion can change the
+frontier.
+
+The physical positive control is a qubit measurement model. With the same
+unlabelled dephasing channel, changing either the coupling isometry or the
+pointer observable changes the labelled instrument. Coupling plus readout
+algebra is therefore a scoped unique minimum for the formal instrument inside
+that two-coordinate model. It still selects no sampler, actual outcome,
+material archive, provenance, reset semantics, or observer access.
+
+**Updated frontier:** candidate antecedents include coupling, readout algebra,
+material carrier, and provenance mechanisms; informativeness, formation,
+retention, and accessibility are predicates; \(H\) indexes the problem.
+Sufficient-statistic, candidate-key, measurement-model, instrument-dilation,
+and process-tensor mathematics absorb the components. `SEED-DU-MPA-03/04`
+may proceed only after coupling or readout is source-pinned to one physical
+platform with a frozen nuisance contract.
 
 ## Boundary
 
