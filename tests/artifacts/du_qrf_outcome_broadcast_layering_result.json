@@ -1,0 +1,83 @@
+{
+  "claim_id": "HC-DU-154",
+  "return": "OUTCOME_BROADCAST_WITHOUT_REFERENCE_DECOHERENCE+RETAINED_BRANCH_INFORMATION_IS_THE_FIRST_LEAK+ALGEBRA_RELATIVE_FINALITY_ONLY+STANDARD_QUANTUM_ABSORPTION+NO_READY_SUCCESSOR",
+  "checks": {
+    "initial_position_is_coherent": true,
+    "first_local_write_temporarily_marks_position": true,
+    "second_local_write_erases_temporary_position_tag": true,
+    "external_receiver_contains_outcome_one": true,
+    "outcome_messages_are_perfectly_distinguishable": true,
+    "same_outcome_message_is_branch_independent": true,
+    "perfect_outcome_broadcast_and_position_coherence_coexist": true,
+    "retained_intermediate_tag_blocks_coherence_restoration": true,
+    "partial_branch_overlap_is_three_fifths": true,
+    "partial_visibility_is_three_fifths": true,
+    "partial_distinguishability_is_four_fifths": true,
+    "pure_two_path_complementarity_saturates": true
+  },
+  "two_stage_fixture": {
+    "initial_position_state": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ]
+    ],
+    "position_state_after_first_local_write": [
+      [
+        "1/2",
+        0
+      ],
+      [
+        0,
+        "1/2"
+      ]
+    ],
+    "position_state_after_coherent_completion": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ]
+    ],
+    "external_receiver_state": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "position_state_after_intermediate_leak": [
+      [
+        "1/2",
+        0
+      ],
+      [
+        0,
+        "1/2"
+      ]
+    ]
+  },
+  "controlled_message_fixture": {
+    "outcome_message_overlap": 0,
+    "within_outcome_branch_overlap": 1,
+    "partial_branch_overlap": "3/5",
+    "visibility": "3/5",
+    "distinguishability": "4/5",
+    "visibility_squared_plus_distinguishability_squared": 1
+  },
+  "scope": [
+    "Exact finite illustration of outcome-only broadcast and branch-information leakage.",
+    "Outcome-record and reference-position coherence are independently typed.",
+    "Measurement actualization, interface selection, certification, and new physics remain open."
+  ]
+}

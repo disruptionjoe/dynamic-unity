@@ -584,6 +584,34 @@ statistics invariant; local experiments tied to different physical phase
 standards are different procedures
 ([HC-DU-153](../explorations/reduced-qrf-access-handoff-and-decoherence-attribution-boundary-2026-07-30.md)).
 
+**QRF outcome-broadcast correction (`HC-DU-154`).** A definite outcome and a
+reference system's position are different physical degrees of freedom.
+Vanrietvelde's position-superposed-lab protocol copies an internal outcome to
+a well-localized receiver while returning the receiver to a product state
+with the lab's position. The outcome is readable and the position remains
+coherent.
+
+For branch-conditioned message states \(m_{r,x}\), the reference off-diagonal
+is multiplied by \(\langle m_{r,y}|m_{r,x}\rangle\). A message may vary
+orthogonally with outcome \(r\) while not varying at all with position branch
+\(x\). Only retained which-position information decoheres that reference
+coordinate. Temporary marking can be coherently erased; a lost or copied tag
+cannot.
+
+This is a standard-QM control for layered record language:
+
+```text
+outcome definite/copyable
+  does not imply
+whole carrier classical or globally final.
+```
+
+It supports algebra- and access-indexed record status, not a new
+layered-finality dynamics. The source assumes the Heisenberg cut, definite
+outcome, factorization, register, communication protocol, and receiver; one
+external copy is not public/BFT certification. See
+([HC-DU-154](../explorations/qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md)).
+
 ### 6. Histories versus endpoints
 
 **Established.** Process tensors characterize multi-time memory-bearing

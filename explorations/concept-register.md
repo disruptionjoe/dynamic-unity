@@ -6189,6 +6189,31 @@ BANKED / PHYSICAL REFERENCE RELATIVITY SUPPORTED / NO SELECTED RECORD,
 REGIONAL FINALITY LAW, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
 `reduced-qrf-access-handoff-and-decoherence-attribution-boundary-2026-07-30.md`.
 
+### 2026-07-30 QRF outcome broadcast and algebra-relative finality
+
+`HC-DU-154` supplies an orthodox quantum control against whole-system
+finality. A position-superposed lab may hold a definite internal outcome and
+copy it to a well-localized external receiver without reducing its final
+position coherence.
+
+For a controlled message \(m_{r,x}\), the reference off-diagonal is
+multiplied by \(\langle m_{r,y}|m_{r,x}\rangle\). Outcome readability concerns
+variation with \(r\); reference decoherence concerns variation with \(x\).
+The message can be perfectly outcome-readable and exactly branch independent.
+
+Vanrietvelde's sequential protocol temporarily marks the branch and then
+coherently erases it. A hostile inaccessible copy of the temporary tag
+prevents restoration. Record formation, temporary correlation, retention,
+broadcast, and public certification are therefore distinct physical joints.
+
+**Updated status:** **CONCEPT-OPEN / PERFECT OUTCOME BROADCAST WITH PRESERVED
+REFERENCE COHERENCE PROVED IN THE DECLARED UNITARY PACKET / RETAINED BRANCH
+INFORMATION IDENTIFIED AS THE FIRST LEAK / ONE WHOLE-SYSTEM FINALITY SCALAR
+REFUTED AS A GENERAL DESCRIPTION / STANDARD COMPLEMENTARITY AND QUANTUM
+ERASURE ABSORB THE PHYSICS / HEISENBERG CUT, INTERFACE, CERTIFICATION,
+REGIONAL LAW, EMPIRICAL EXCESS, AND NEW PHYSICS OPEN.** See
+`qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

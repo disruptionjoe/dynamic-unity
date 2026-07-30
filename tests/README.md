@@ -3716,6 +3716,33 @@ does not select a QRF, subsystem factorization, accessible algebra, PVM,
 initial assignment, phase reference, record, archive, observer, gravity
 signal, physical remainder, new physics, hardware path, or paper.
 
+## HC-DU-154 QRF outcome-broadcast and layered-finality boundary
+
+Run:
+
+```bash
+python3 tests/du_qrf_outcome_broadcast_layering_probe.py --write-artifact
+```
+
+The exact fixture reproduces the load-bearing structure of Vanrietvelde's
+position-superposed-lab communication protocol. A first local copy
+temporarily marks which position branch is occupied; the second local copy
+removes that tag while leaving the external receiver with the definite
+outcome. The final reference-position state is exactly the initial coherent
+state.
+
+A hostile third register copies the temporary tag before the second contact.
+The receiver still gets the outcome, but the inaccessible copy prevents
+position-coherence restoration. A partial-message control uses overlap
+\(3/5\), visibility \(3/5\), and distinguishability \(4/5\), saturating
+\(V^2+D^2=1\).
+
+Passing establishes an exact finite separation between outcome information
+and reference-branch information. It does not solve the measurement problem,
+select a Heisenberg cut, subsystem factorization, outcome basis, apparatus,
+record, observer, archive, access/certification protocol, regional finality
+law, new physics, prediction, hardware need, or paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It
