@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 101
+state_revision: 102
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,10 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-149 separates complete relational outcome probabilities from
-    commutator-labelled split terms. A 2026 quantum-reference-field framework
-    supplies the missing machinery, but no transport of the 2025 phase was
-    found. No observed packet, prediction, hardware path, or successor exists.
+    HC-DU-150 proves that gauge completion forces external controllers into
+    the conserved source but selects only an affine completion class. No
+    closed apparatus phase, observed packet, prediction, hardware path, or
+    successor exists.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -368,11 +368,11 @@ programs:
       - CH-SYN
     target: >-
       Parked after interface, action-envelope, constructor, mediator-diagnostic,
-      commutator-phase, and relational-observable completion gates.
+      commutator-phase, relational-observable, and conserved-controller gates.
     current_grade: >-
-      HC-DU-137--139/146--149 bank Grade-4 interface/action, constructor,
+      HC-DU-137--139/146--150 bank Grade-4 interface/action, constructor,
       mediator-attribution, direct-action descent, phase-decomposition, and
-      relational-completion boundaries.
+      relational/apparatus-completion boundaries.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
@@ -398,6 +398,8 @@ programs:
         evidence_ref: explorations/quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md
       - id: HC-DU-149
         evidence_ref: explorations/quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md
+      - id: HC-DU-150
+        evidence_ref: explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
     remaining_obligations:
       - Await a completed physical task-repertoire selector plus a
         subsidiary-theory observer/controller/access/resource adapter, a
@@ -413,18 +415,21 @@ programs:
     strongest_absorber: >-
       Operational equivalence, system identification, controllability,
       realization and Hamiltonian-split freedom, relational observables,
-      direct action, influence functionals, and prior DU physical audits.
+      Ward identities, total conservation, direct action, influence
+      functionals, and prior DU physical audits.
     cheapest_kill: >-
       Met: operationally equivalent apparatus, controller, mediator-route, and
       central-commutator/direct-phase pairs disagree on finer targets.
     stop_rule: >-
       Stop designed variants and probe-only provenance searches. Do not replay
       completed controls, treat a split-labelled phase piece as an invariant,
-      or copy an external phase into DU's prediction register.
+      treat an externally driven probe as a closed source, or copy an external
+      phase into DU's prediction register.
     reopen_rule: >-
       Require a selected task/observer adapter, observed exclusive mediation or
-      provenance, or one observed relational no-refit phase surface completed
-      across gauge/reference, back-reaction, truncation, rivals, and lineage.
+      provenance, a dynamically explicit conserved apparatus-twin calculation,
+      or one observed relational no-refit phase surface completed across
+      gauge/reference, back-reaction, truncation, rivals, and lineage.
     local_computation_boundary: >-
       Exact finite probes and primary-source collisions decide the boundary.
       No larger tomography, gravity model, or hardware is warranted.
@@ -438,6 +443,7 @@ programs:
       - explorations/probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md
       - explorations/quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md
       - explorations/quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md
+      - explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 

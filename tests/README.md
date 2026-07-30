@@ -3615,6 +3615,35 @@ gauge-dependent, reproduce or refute that phase, complete probe/reference
 back-reaction, select a physical decomposition, observe gravity, authorize
 hardware, add a DU prediction, or promote a paper.
 
+## HC-DU-150 conserved-controller gauge-completion gate
+
+`du_conserved_controller_gauge_completion_probe.py` preserves the exact
+periodic-lattice Ward-identity and affine-completion fixture:
+
+- a nonconserved symmetric probe source has a nonzero gauge variation;
+- exact discrete summation by parts equates that variation with the pairing
+  of the gauge parameter and source divergence;
+- two controllers carry the opposite divergence and cancel the probe shift;
+- both controller-inclusive total sources are exactly conserved and
+  gauge-invariant;
+- the controllers differ by a nonzero divergence-free discrete Airy tensor;
+  and
+- the two equally conserved completions differ on a held-out interaction
+  pairing.
+
+Run:
+
+```bash
+python3 tests/du_conserved_controller_gauge_completion_probe.py --write-artifact
+```
+
+Passing proves only the scoped conserved-total-source requirement and affine
+controller-completion nonuniqueness for the exact finite coupling. It is not a
+simulation of linearized gravity or a realistic controller; it does not show
+that the Chen--Giacomini fringe is gauge-dependent, calculate or cancel its
+phase, select a physical apparatus, observe gravity, authorize hardware, add
+a DU prediction, or promote a paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It

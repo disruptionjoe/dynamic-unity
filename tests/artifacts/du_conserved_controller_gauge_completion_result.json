@@ -1,0 +1,38 @@
+{
+  "arena": {
+    "coupling": "-1/2 sum h(mu,nu) T(mu,nu)",
+    "divergence": "sum_mu B_mu T(mu,nu)",
+    "gauge_parameter": "xi=div(T_probe)",
+    "gauge_shift": "delta_h(mu,nu)=D_mu xi_nu+D_nu xi_mu",
+    "spacetime": "periodic 4x5 integer lattice",
+    "tensor_rank": "symmetric 2x2"
+  },
+  "assertions": {
+    "both_completed_couplings_are_gauge_invariant": true,
+    "conserved_completions_differ_on_held_out_pairing": true,
+    "controller_cancels_probe_gauge_shift": true,
+    "controller_one_carries_opposite_exchange_current": true,
+    "controller_two_carries_same_opposite_exchange_current": true,
+    "dropping_controller_restores_positive_control": true,
+    "exact_discrete_summation_by_parts_holds": true,
+    "first_total_source_is_conserved": true,
+    "nonzero_divergence_free_completion_freedom_exists": true,
+    "probe_only_coupling_has_nonzero_gauge_shift": true,
+    "probe_source_is_open_and_nonconserved": true,
+    "second_total_source_is_conserved": true
+  },
+  "claim_id": "HC-DU-150",
+  "exact_values": {
+    "controller_one_gauge_variation": -1172,
+    "controller_two_gauge_variation": -1172,
+    "divergence_free_addition_norm_squared": 5498,
+    "held_out_pairing_total_one": 0,
+    "held_out_pairing_total_two": -2749,
+    "probe_divergence_norm_squared": 1172,
+    "probe_gauge_variation": 1172,
+    "total_one_gauge_variation": 0,
+    "total_two_gauge_variation": 0
+  },
+  "scope": "Exact periodic-lattice Ward-identity and completion-freedom fixture only; not a simulation of linearized gravity, not a model of a laboratory controller, and not a verdict on the Chen--Giacomini phase.",
+  "theorem_statement": "For the linearized symmetric-tensor coupling, a probe-only source with nonzero divergence has a gauge-dependent coupling. A controller carrying the opposite divergence restores total conservation and gauge invariance. Conservation alone selects only an affine completion class: divergence-free controller additions preserve gauge invariance while changing a held-out interaction pairing."
+}

@@ -5889,6 +5889,42 @@ CONDITIONAL PHASE-SURFACE REOPENER PRESERVED / NO DU PREDICTION, HARDWARE
 PATH, NEW PHYSICS, OR READY SUCCESSOR.** See
 `quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md`.
 
+### 2026-07-30 conserved-controller gauge-completion boundary
+
+`HC-DU-150` proves the first physical completion requirement left by
+`HC-DU-149`. For
+\(S_{\mathrm{int}}=-\kappa\int h_{\mu\nu}T^{\mu\nu}/2\), a linearized
+diffeomorphism changes the coupling by
+\(\kappa\int\xi_\nu\partial_\mu T^{\mu\nu}\). Gauge invariance for arbitrary
+compactly supported \(\xi\) therefore requires a conserved **total** source.
+If an externally driven probe has stress divergence \(f^\nu\), its physical
+controller/support must carry \(-f^\nu\).
+
+Conservation does not uniquely select the controller. Its solutions form the
+affine class \(T_C^{(0)}+\ker\partial\). The exact periodic-lattice fixture
+implements discrete summation by parts: the probe-only gauge shift is \(1172\);
+each of two controllers contributes \(-1172\); both total shifts vanish. The
+controllers differ by a nonzero divergence-free discrete Airy tensor and
+give held-out pairings \(0\) and \(-2749\).
+
+Chen and Giacomini's 2025 model explicitly uses external source/probe
+potentials but does not display their dynamical stress completion. Their 2026
+reference-field framework provides the positive architecture—reference
+fields, clock, and measurement probe are physical and enter the gravity
+constraints—but does not transport the 2025 phase or its controllers. The
+sharp reopener is an apparatus-twin calculation: identical reduced
+source/probe trajectories under two dynamically explicit conserved
+controller realizations, followed by one unchanged relational no-refit
+outcome test.
+
+**Updated status:** **CONCEPT-OPEN / TOTAL-CONSERVATION GAUGE-COMPLETION
+NECESSITY PROVED / CONTROLLER STRESS EXCHANGE IS PHYSICALLY LOAD-BEARING /
+AFFINE CONSERVED-COMPLETION NONUNIQUENESS PROVED / PHYSICAL REFERENCE AND
+MEASUREMENT ARCHITECTURE IDENTIFIED / CLOSED CONTROLLER-INCLUSIVE PHASE,
+COMPLETION-INDEPENDENCE, ACQUISITION, AND EMPIRICAL EXCESS OPEN / NO DU
+PREDICTION, HARDWARE PATH, NEW PHYSICS, OR READY SUCCESSOR.** See
+`quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md`.
+
 ## CONCEPT-DU-018 — typed probability boundary ladder
 
 - **Concept.** Probability may be the natural dynamical boundary coordinate
