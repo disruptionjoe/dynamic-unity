@@ -4278,3 +4278,31 @@ establishes only a source-pinned sample-level action/resource distinction and
 the held-out schema boundary. It establishes no causal status effect,
 population law, implementation-complete process, physical remainder,
 ontology, or new physics.
+
+## HC-DU-170 controller-sidecar recovery audit
+
+`du_controller_sidecar_recovery_audit.py` pins the arXiv v1 TeX source bundle
+for `arXiv:2410.05202` and verifies:
+
+- source descriptions of proprietary assembly, decoder initialization,
+  measurement buffering, 32-bit packet formatting, status polling,
+  conditional \(X\), matched idle, WISHBONE, star routing, clock crossing,
+  and the aggregate qubit-\(T_1\) physical timing check;
+- the complete source bundle contains no executable, configuration, data, or
+  log member; and
+- one exact latent-state twin preserves the returned
+  pre-state/command/response tuple while changing physical pulse delivery.
+
+Run:
+
+```bash
+python3 tests/du_controller_sidecar_recovery_audit.py \
+  --source /path/to/arxiv-2410.05202-v1-source.tar \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_controller_sidecar_recovery_result.json`. Passing establishes
+only a source-pinned workflow/executable boundary and command/actuation
+nonidentification control. It does not show a lost pulse, laboratory defect,
+physical remainder, ontology, or new physics.

@@ -6843,6 +6843,33 @@ specimen and an exact held-out schema reopener. This neither selects a
 fundamental finality law nor satisfies the flagship's implementation-complete
 packet gate.
 
+### 2026-07-30 fault-relative implementation completeness
+
+`HC-DU-170` recovers more of the Riverlane/Rigetti controller sidecar than
+`HC-DU-168` credited. The supplementary source specifies the descriptive
+program workflow, WISHBONE/star route architecture, status polling,
+conditional-\(X\)/matched-idle semantics, and aggregate \(T_1\)-based
+end-to-end actuation check. It does not provide exact executable/configuration
+identity or per-attempt command, actuation, disposition, archive, and
+environment lineage.
+
+For implementation class \(\mathcal I\), retained passport \(p\), and target
+law \(T\), implementation completeness means
+
+\[
+p(i)=p(i')\Longrightarrow T(i)=T(i')
+\qquad (i,i'\in\mathcal I).
+\]
+
+Thus completeness is relative to a frozen target, fault class, and
+environment scope. It is not a demand for maximal telemetry. A waveform is
+required only when an admitted target or fault varies inside the coarser
+passport fibre.
+
+**Updated seed status:** the physical reopener is made finite and
+threat-model-relative, but remains unmet. Descriptive command semantics and
+aggregate physical feedback do not identify per-attempt physical actuation.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

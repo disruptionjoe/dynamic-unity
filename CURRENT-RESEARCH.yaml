@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 123
+state_revision: 124
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-169 shows that action-equivalent decoder certificates can remain
-    timing/resource-distinct, while the held-out timing archive lacks the
-    status join needed to replicate the split. No successor.
+    HC-DU-170 recovers controller workflow and makes completeness
+    target/fault-relative. Executable, actuation, attempt, and archive
+    lineage remain absent; no successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -113,9 +113,9 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165/166 bank material/action boundaries; HC-DU-167 calibrates
-      remainder; HC-DU-168 supplies a joined returned-shot packet; HC-DU-169
-      separates action from timing/resource finality within it.
+      HC-DU-165--167 bank boundaries and calibration; HC-DU-168/169 supply
+      the joined packet and coordinate split; HC-DU-170 makes implementation
+      completeness target/fault-relative.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -159,8 +159,11 @@ programs:
         evidence_ref: explorations/rigetti-real-time-qec-returned-shot-record-action-response-packet-and-implementation-boundary-2026-07-30.md
       - id: HC-DU-169
         evidence_ref: explorations/action-equivalent-decoder-certificates-resource-timing-split-and-heldout-status-join-boundary-2026-07-30.md
+      - id: HC-DU-170
+        evidence_ref: explorations/controller-sidecar-recovery-command-actuation-nonidentification-and-fault-relative-completeness-2026-07-30.md
     remaining_obligations:
-      - Complete the HC-DU-168 all-attempt/controller/archive sidecar: trigger census, dispositions, program/firmware, route memory, waveform lineage, retention/access/reset, and environment scope.
+      - Freeze the implementation target, fault class, and environment scope; require only the fields needed to make that target constant on the implementation fibre.
+      - For this QEC packet, add all-attempt dispositions, exact executable/configuration identity, target-sufficient actuation/route evidence, and archive lineage/access/reset.
       - Prove that its physical response kernel factors through the material archive rather than only a fitted reduced instrument.
       - Test behavioral minimality apart from provenance completeness.
       - Keep action-finality, timing/resource-finality, response-finality, and provenance-finality separate; a held-out timing test requires decoder status or a stable row join.
@@ -182,18 +185,12 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Finite sufficient statistics, candidate keys, quantum instruments,
-      minimal measurement models, Choi/Kraus rank, Stinespring uniqueness,
-      outcome-sector commutants, Choi extremality,
-      variational well-posedness, Green/BFV response theory,
-      no-information-without-disturbance, categorical classical structures,
-      combs/process tensors, dilation freedom, sufficient statistics,
-      decoherence/SBS, AQFT measurement schemes, passive linear quantum-system
-      identification, quantum input-output theory, circuit-QED calibration,
-      matched filtering, statistical decision theory, classical acquisition
-      and provenance, measurement-based feedback, classical identifiability,
-      Blackwell sufficiency, causal states, predictive-state representations,
-      probabilistic bisimulation, QND tomography, and process tensors.
+      Sufficient statistics and candidate keys; quantum instruments and
+      minimal measurement models; Choi/Kraus/Stinespring theory; combs and
+      process tensors; decoherence/SBS; AQFT measurement schemes; system and
+      input-output identification; circuit-QED calibration; acquisition
+      provenance; feedback control; Blackwell sufficiency, causal states,
+      predictive-state representations, bisimulation, and QND tomography.
     cheapest_kill: >-
       Met. Even after replacing arbitrary dilations by the abstract minimal
       normal one, the instrument fixes only Choi-rank sector multiplicities
@@ -207,12 +204,11 @@ programs:
       before new local learning. A prepared later swing is not executable
       without a separate authorization.
     reopen_rule: >-
-      Reduced-instrument and returned-shot joined multi-time terms are
-      satisfied. HC-DU-168 lacks trigger/rejection census, physical
-      program/firmware/route memory, waveform lineage, archive/access/reset
-      semantics, and environment scope. Reopen only when one source-pinned
-      packet adds them and supports material-archive factorization plus
-      minimality.
+      Returned-shot, workflow, route-architecture, and aggregate-feedback
+      terms are satisfied. Reopen only with a source-pinned packet complete
+      for a frozen target/fault/environment class: all-attempt dispositions,
+      executable/configuration identity, target-sufficient actuation/route
+      evidence, archive lineage/access/reset, factorization, and minimality.
     local_computation_boundary: >-
       Literature and formal proof first. Local computation may enumerate one
       finite orbit or verify an exact counterexample. No simulation, provider,
@@ -227,6 +223,7 @@ programs:
       - explorations/calibrated-ground-truth-remainder-instrument-and-downstream-only-kill-2026-07-30.md
       - explorations/rigetti-real-time-qec-returned-shot-record-action-response-packet-and-implementation-boundary-2026-07-30.md
       - explorations/action-equivalent-decoder-certificates-resource-timing-split-and-heldout-status-join-boundary-2026-07-30.md
+      - explorations/controller-sidecar-recovery-command-actuation-nonidentification-and-fault-relative-completeness-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md

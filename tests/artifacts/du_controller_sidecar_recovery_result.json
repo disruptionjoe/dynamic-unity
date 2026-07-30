@@ -1,0 +1,124 @@
+{
+  "claim_id": "HC-DU-170",
+  "run_id": "RUN-20260730-153100-controller-sidecar-recovery-audit",
+  "status": "PASS",
+  "source": {
+    "name": "arXiv:2410.05202 v1 source bundle",
+    "file": "source.tar",
+    "md5": "c540a68e31307224b1ed2370cbfe0e00",
+    "sha256": "25f66da6b24385f5456da6c8fd078e597e4d3993b00bf1eb0d7759c55588d8f6",
+    "raw_file_committed": false
+  },
+  "checks_passed": 17,
+  "bundle_members": [
+    "figures",
+    "figures/combined_timings_plot.pdf",
+    "figures/cz_and_readout.pdf",
+    "figures/decoding_graph_no_resets_figure.pdf",
+    "figures/experiment_flowchart.pdf",
+    "figures/feedback_timing.pdf",
+    "figures/lep_and_defects.pdf",
+    "figures/lep_with_resets_plot.pdf",
+    "figures/reference_data.pdf",
+    "figures/reset_calibration.pdf",
+    "figures/riverlane_rigetti_stack.pdf",
+    "figures/stability_diagrams.pdf",
+    "main.bbl",
+    "main.tex",
+    "supplement.bbl",
+    "supplement.tex"
+  ],
+  "positive_source_markers": {
+    "proprietary_assembly": true,
+    "decoder_initialization": true,
+    "measurement_buffer": true,
+    "packet_format": true,
+    "status_poll": true,
+    "conditional_x": true,
+    "matched_idle": true,
+    "wishbone": true,
+    "star_route": true,
+    "clock_crossing": true,
+    "physical_clock_check": true
+  },
+  "executable_or_data_members": [],
+  "public_sidecar_ladder": [
+    {
+      "level": "declared_workflow_and_architecture",
+      "status": "SOURCE_SPECIFIED"
+    },
+    {
+      "level": "exact_executable_program_firmware_and_configuration",
+      "status": "ABSENT_FROM_SOURCE_BUNDLE"
+    },
+    {
+      "level": "intended_command_semantics",
+      "status": "SOURCE_SPECIFIED"
+    },
+    {
+      "level": "per_attempt_command_and_route_lineage",
+      "status": "ABSENT_FROM_SOURCE_BUNDLE"
+    },
+    {
+      "level": "aggregate_physical_actuation_check",
+      "status": "PARTIALLY_SPECIFIED"
+    },
+    {
+      "level": "per_attempt_physical_actuation_acknowledgement",
+      "status": "ABSENT_FROM_SOURCE_BUNDLE"
+    },
+    {
+      "level": "all_attempt_disposition_census",
+      "status": "ABSENT_FROM_SOURCE_BUNDLE"
+    },
+    {
+      "level": "archive_retention_access_reset_semantics",
+      "status": "ABSENT_FROM_SOURCE_BUNDLE"
+    },
+    {
+      "level": "declared_environment_and_persistence_scope",
+      "status": "ABSENT_FROM_SOURCE_BUNDLE"
+    }
+  ],
+  "command_actuation_twin": {
+    "visible_fields": [
+      "reported_m1",
+      "logical_result",
+      "issued_command",
+      "reported_y"
+    ],
+    "delivered": {
+      "reported_m1": 0,
+      "logical_result": 1,
+      "issued_command": "X",
+      "latent_post_m1_state": 0,
+      "physical_x_delivered": 1,
+      "reported_y": 1
+    },
+    "lost": {
+      "reported_m1": 0,
+      "logical_result": 1,
+      "issued_command": "X",
+      "latent_post_m1_state": 1,
+      "physical_x_delivered": 0,
+      "reported_y": 1
+    },
+    "same_visible_tuple": true,
+    "different_physical_actuation": true
+  },
+  "earned": [
+    "source-pinned recovery of the public controller workflow and route architecture",
+    "exact distinction between intended command semantics and per-attempt actuation lineage",
+    "finite latent-state countermodel showing returned command/response nonidentification of actuation",
+    "narrowed fault-model-relative sidecar request"
+  ],
+  "disposition": [
+    "DESCRIPTIVE_CONTROLLER_SIDECAR_RECOVERED",
+    "EXECUTABLE_AND_CONFIGURATION_SIDECAR_ABSENT",
+    "AGGREGATE_ACTUATION_EVIDENCE_ONLY",
+    "PER_ATTEMPT_ACTUATION_NONIDENTIFICATION",
+    "ATTEMPT_ARCHIVE_ENVIRONMENT_GATES_UNCHANGED",
+    "NO_READY_SUCCESSOR"
+  ],
+  "scientific_nonclaim": "Passing establishes a public-source boundary and an elementary nonidentification control. It does not show that a pulse was lost, that the laboratory record is defective, that a physical remainder exists, or that new physics is present."
+}
