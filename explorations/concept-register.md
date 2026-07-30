@@ -5875,6 +5875,40 @@ INTERVENTION-NATURAL EQUIVALENCE OPEN / NO ONTOLOGY PRIORITY, UNIVERSAL
 COLLAPSE RESULT, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
 `nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md`.
 
+### 2026-07-30 system-control naturality and process completion
+
+`HC-DU-144` closes the smallest active reopener left by `HC-DU-143`. One
+fixed Tilloy--Wiseman bath/noise map preserves the conditioned path across
+every finite sequence of system-only unitary pulses:
+
+\[
+\langle x|(U\otimes I_B)|\Psi\rangle
+=U\langle x|\Psi\rangle.
+\]
+
+The pulse leaves the bath coordinates and initial noise map unchanged; the
+matched expectation values then drive identical future bath/noise updates.
+The proof extends conditionally to feedback selected from an already matched
+record under one supplied common controller.
+
+An uncontrolled trajectory still does not select arbitrary intervention
+responses. Three times and one bit suffice: a current-state process and a
+hidden-memory restore process share the entire no-intervention history but
+respond oppositely to an intermediate flip. A process tensor or equivalent
+joint completion is therefore necessary. Once both representations inherit
+the same process tensor from the common bath dilation, ordinary system-side
+instrument statistics agree by construction.
+
+The first admissible leak moves outside the shared process: direct bath access,
+changed collapse kernel/operators or boundary, symmetry/covariance, stable
+bounded-below realization, or complete implementation resources.
+
+**Updated status:** **CONCEPT-OPEN / FINITE SYSTEM-CONTROL AND MATCHED-RECORD
+FEEDBACK DUALITY PROVED / TRAJECTORY-TO-PROCESS INFERENCE REFUTED / COMMON
+PROCESS-TENSOR ABSORPTION IDENTIFIED / STABLE COVARIANT PHYSICAL REALIZATION
+OPEN / NO ONTOLOGY PRIORITY, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
+`nonmarkovian-collapse-bohmian-system-control-naturality-and-process-completion-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

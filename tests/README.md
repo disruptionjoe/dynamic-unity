@@ -3612,3 +3612,31 @@ probe remains the executable regression. Passing it does not validate either
 ontology, prove universal collapse equivalence, select an archive or access
 boundary, establish intervention-natural equivalence, produce empirical
 excess, predict new physics, justify hardware, or promote a paper.
+
+## HC-DU-144 collapse/Bohmian system-control naturality gate
+
+`HC-DU-144` closes the smallest active reopener from `HC-DU-143`:
+
+- conditional projection commutes with a system-only unitary,
+  \(\langle x|(U\otimes I_B)|\Psi\rangle=U\langle x|\Psi\rangle\);
+- the pulse leaves the bath coordinate and fixed initial noise map unchanged;
+- equal conditional paths therefore restart equal and compose across every
+  finite pulse sequence; and
+- feedback selected from a matched record prefix also closes under one
+  supplied common controller and policy.
+
+The result simultaneously blocks the opposite overclaim. One uncontrolled
+trajectory does not determine every intervention response. A three-time
+one-bit witness gives the same complete no-intervention path but opposite
+responses to a flip, depending on whether the process propagates the current
+state or restores hidden initial memory. Arbitrary instruments require a
+process tensor or equivalent joint completion. If both descriptions inherit
+one common process tensor, all declared system-side instrument statistics
+agree by construction.
+
+No numerical executable was added because direct conditional-state algebra,
+the exact finite counterexample, and established process-tensor theorems
+decide the result. The governance probe remains the executable regression.
+Passing it does not select an instrument, controller, bath, physical
+implementation, symmetry, resource contract, ontology, empirical excess,
+prediction, hardware action, or paper promotion.
