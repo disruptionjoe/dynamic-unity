@@ -275,6 +275,14 @@ does not register, harden, duplicate, seed, or promote either prediction.
   identifiable against a preregistered ordinary-loss family exactly when
   \(K(r_c)\notin\operatorname{col}(B)\). One visibility datum with an
   admitted unknown ordinary-loss scalar cannot satisfy this gate.
+- **Instantiated shared-kernel boundary.** In the source's pointlike
+  small-separation model, CSL, residual gas, blackbody radiation, and
+  intra-shot white electric-field phase noise are all proportional to
+  \(I_D=\int D^2dt\). A force-amplitude or pointlike path scan therefore
+  cannot attribute the loss. Finite-width breathing can restore rank against
+  one shared \(I_D\) nuisance: for two configurations the determinant is
+  \(I_{D,1}I_{D,2}(S_{{\rm br},1}-S_{{\rm br},2})\). This is conditional on
+  an unchanged apparatus and independently frozen width-dependent losses.
 - **Conditional falsifier.** A frozen nonzero parameter point is excluded
   when the no-refit multi-configuration visibility surface is incompatible
   with \(K(r_c)\) after the preregistered nuisance family, calibration,
@@ -282,8 +290,9 @@ does not register, harden, duplicate, seed, or promote either prediction.
   parameter space; it does not eliminate CSL with free \((\lambda,r_c)\).
 - **Hardening checklist.**
   1. independently audit the proposal's full apparatus and sensitivity model;
-  2. freeze multiple \(F,\omega,\sigma(t)\), mass/geometry, and source-off
-     controls before data;
+  2. include a matched-trajectory preparation-width contrast before relying
+     on force amplitude; use frequency or mass/charge contrasts only with
+     unchanged or independently calibrated transfer functions;
   3. preregister the ordinary-loss design \(B\) and verify the attribution
      rank;
   4. preserve calibration, selection, and attempted-run lineage;
@@ -294,7 +303,8 @@ does not register, harden, duplicate, seed, or promote either prediction.
   No external apparatus search or run is authorized. Reopen hardware only
   for a credible implementation packet that clears the checklist.
 - **Source pointer.**
-  `reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md`.
+  `reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md`;
+  `reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md`.
 
 ---
 

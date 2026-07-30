@@ -285,9 +285,9 @@ bibliography.
 | Semiclassical gravity | Couples quantum matter descriptions to a classical metric in a controlled approximation | Backreaction, state reduction, fluctuations, and regime of validity remain difficult | Determine whether physically formed public records contribute anything beyond stress-energy and known fluctuations |
 | Full quantum-gravity programs | Offer several non-equivalent routes to quantum spacetime | Their primitives, observables, recovery maps, and low-energy limits differ; there is no single “quantum gravity tension” | Use certified causal reality as a comparison language only if one invariant statement transfers without redefining records or geometry |
 
-### Reversible-pointer collapse correction
+### Reversible-pointer collapse and attribution correction
 
-`HC-DU-157` adds a source-pinned control to the objective-collapse row.
+`HC-DU-157--158` add a source-pinned control to the objective-collapse row.
 Renkel's proposed CSL test temporarily separates two nanoparticle-pointer
 paths and then recombines their position and momentum. The returned pointer
 endpoint is identical in the force-on and force-off cases, while conditional
@@ -307,7 +307,16 @@ only if \(K(r_c)\notin\operatorname{col}(B)\). This preserves a genuine
 conditional modified-dynamics discriminator while blocking any inference
 from visibility loss to record formation, theory attribution, or evidence
 for CSL. The apparatus and access interface remain supplied
-([result](../explorations/reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md)).
+([path/record result](../explorations/reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md)).
+
+The source's pointlike CSL, gas, blackbody, and white-electric-noise terms
+all share \(I_D=\int D^2dt\), so a force-amplitude scan has rank one and
+cannot attribute the loss. Finite-width breathing supplies the narrower
+escape: with \(I_{DG,i}=I_{D,i}S_i\), two matched preparations separate CSL
+from one shared \(I_D\) nuisance exactly when \(S_1\ne S_2\). Prefer a
+matched-trajectory preparation-width contrast over more force points; freeze
+width-dependent endpoint loss and every additional nuisance before data
+([attribution result](../explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md)).
 
 ### QFT tensions are not one problem
 

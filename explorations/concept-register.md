@@ -6318,6 +6318,47 @@ CALIBRATION, ACCESS, AND NUISANCE CLASS SUPPLIED / NO OBSERVED RESULT, DU LAW,
 SELECTED INTERFACE, OR READY SUCCESSOR.** See
 `reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md`.
 
+### 2026-07-30 reversible-pointer CSL response-rank boundary
+
+`HC-DU-158` instantiates the abstract attribution gate from `HC-DU-157`.
+In the pointlike small-separation model, CSL, residual-gas decoherence,
+blackbody decoherence, and intra-shot white electric-field phase noise are
+all scalar multiples of
+
+\[
+I_D=\int_0^\tau D^2(t)\,dt.
+\]
+
+Their response sub-design has rank one. More force points, more exact data,
+or a pointlike \(F,\omega\) scan identify only the sum coefficient. A
+source-off Ramsey visibility also has \(I_D=0\), so it does not estimate the
+path-correlated coefficients without an additional measurement interface.
+
+The proposal's finite-width factor supplies a conditional repair. Writing
+\(I_{DG,i}=I_{D,i}S_i\), the CSL and shared-\(I_D\) nuisance columns have
+two-configuration determinant
+
+\[
+I_{D,1}I_{D,2}(S_1-S_2).
+\]
+
+A matched preparation-width contrast therefore restores rank at fixed
+\(r_c\) when \(S_1\ne S_2\), provided width-dependent endpoint and technical
+losses are independently measured or frozen. Mass/charge contrast supplies
+a more apparatus-sensitive second repair. The exact nonquadratic CSL
+separation response differs from its quadratic approximation by at most
+\(3.125\times10^{-6}\) and \(5.0\times10^{-5}\) at the source's baseline and
+aggressive points, respectively, so leaving the quadratic regime is not the
+cheap local control.
+
+**Updated status:** **CONCEPT-OPEN / EXACT POINTLIKE SHARED-KERNEL
+ATTRIBUTION OBSTRUCTION BANKED / FORCE-AMPLITUDE SCAN KILLED AS A
+PROVENANCE TEST / CONDITIONAL FINITE-WIDTH BREATHING-CONTRAST AND
+MASS/CHARGE RANK REPAIRS BANKED / STANDARD FILTER-FUNCTION AND EXPERIMENTAL-
+DESIGN ABSORPTION / COMPLETE NUISANCE ACQUISITION, SELECTED APPARATUS,
+OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
+`reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

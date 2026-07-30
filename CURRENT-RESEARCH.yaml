@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 110
+state_revision: 111
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,10 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-157 separates path-integrated irreversible response from a returned
-    pointer and retained archive. One visibility identifies total loss unless
-    the CSL kernel escapes a frozen nuisance span. The proposal supplies its
-    apparatus and access, so no reopener is met.
+    HC-DU-158 instantiates the reversible-pointer nuisance span: pointlike CSL
+    and three ordinary losses share one quadratic path kernel. Finite width
+    supplies a conditional breathing-contrast repair, but its apparatus,
+    calibration, and nuisance contract remain supplied, so no reopener is met.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -431,13 +431,14 @@ programs:
     target: >-
       Quantify capacity and resolution after a formed interface exists.
     current_grade: >-
-      HC-DU-136, HC-DU-140--145, and HC-DU-153--157 bank Grade-4
+      HC-DU-136, HC-DU-140--145, and HC-DU-153--158 bank Grade-4
       resource/capacity typing,
       formation--actuality--archive separation, trajectory nonselection, and
       active collapse/Bohmian record duality, fixed-class stability
       obstruction, covariant-QFT absorption, and physical-reference handoff
-      and rate-attribution boundaries, plus exact outcome/reference and
-      loop/path/retention separations. Selected implementation remains open.
+      and rate-attribution boundaries, plus exact outcome/reference,
+      loop/path/retention, and CSL/nuisance response-rank separations. Selected
+      implementation remains open.
     evidence_grade: 4
     maximum_grade: "Scoped Grade 4 supporting result."
     maximum_evidence_grade: 4
@@ -466,6 +467,8 @@ programs:
         evidence_ref: explorations/qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md
       - id: HC-DU-157
         evidence_ref: explorations/reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md
+      - id: HC-DU-158
+        evidence_ref: explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
     remaining_obligations:
       - Derive a complete physical record and its model-selected capacity.
     typed_dependencies:
@@ -480,14 +483,16 @@ programs:
       operational QRF outcome broadcast, which-path complementarity, quantum
       erasure, channel recoverability, conditional expectations, commuting
       squares, noncommuting coarse graining, and ordinary nuisance-parameter
-      identifiability.
+      identifiability, filter-function decoherence, and small-separation
+      quadratic response degeneracy.
     cheapest_kill: >-
       Met by erasure-family nonfactorization, readout/reversion nonidentity,
       incompatible Lindbladian records, and matched active system records from
       collapse versus Bohmian completions.
     stop_rule: >-
-      No generic probability, energy, capacity, measurement-model, or
-      trajectory survey before a complete physical packet selects their maps.
+      No generic probability, energy, capacity, measurement-model,
+      trajectory survey, or force-only collapse scan before a complete
+      physical packet selects and separates their maps.
     reopen_rule: >-
       Require one source-selected stable bounded-below/covariant
       apparatus/archive/access/resource packet and a no-refit capacity or
@@ -509,6 +514,7 @@ programs:
       - explorations/qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md
       - explorations/qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md
       - explorations/reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md
+      - explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication
@@ -725,12 +731,13 @@ successor_selection:
     - formed-provenance-intervention-packet
     - source-selected-qrf-formed-record-handoff-packet
     - source-selected-stochastic-interface-instrument
-    - reversible-pointer-collapse-discriminator
+    - reversible-pointer-breathing-contrast-discriminator
     - no-ready-successor
   decision_rule: >-
     HC-DU-152--156 leave apparatus, interface, sampler, archive, or lineage
-    supplied. HC-DU-157 adds a conditional path-loss discriminator but also
-    supplies its apparatus and nuisance contract. No parked reopener is met.
+    supplied. HC-DU-157--158 locate a conditional path-loss discriminator, an
+    exact quadratic nuisance degeneracy, and a breathing-contrast repair, but
+    still supply the apparatus and nuisance contract. No parked reopener is met.
 
 anomaly_intake:
   status: open_non_wip
