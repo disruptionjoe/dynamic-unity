@@ -6789,6 +6789,30 @@ method-validation instrument. It does not select a physical action envelope,
 record interface, observer, or completion class and does not reopen the
 physical flagship.
 
+### 2026-07-30 real-time QEC returned-shot physical packet
+
+`HC-DU-168` advances the physical-record frontier with Riverlane/Rigetti's
+source-pinned Ankaa-2 fast-feedback packet. Eight thousand retained hardware
+rows join ordered hard and complex soft measurement events, decoder
+registers, timing, a documented conditional-\(X\) branch, and a later
+qubit-50 response. Immediate fidelity, double-measurement, and \(T_1\)
+reference packets and explicit no-reset metadata are also retained.
+
+On 176 repeated complete hard-history keys covering 389 rows, the retained
+`DASR` decision has zero conflicts. This is positive compatibility with
+factorization of the observed decoder branch through the retained hard
+history, not a global proof: most high-round histories are unique and the
+decoder implementation is absent.
+
+The packet identifies only the returned-shot kernel. Its schema does not
+contain every pre-return trigger, rejected/retried attempt, main physical
+program, decoder firmware/configuration, controller route/memory, full
+waveform lineage, archive policy, or environment scope.
+
+**Updated seed status:** the joined multi-time returned-shot term is
+satisfied by a real laboratory packet. Implementation completeness, material
+factorization/minimality, and Grade-5 remainder adjudication remain closed.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

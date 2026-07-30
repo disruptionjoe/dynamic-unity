@@ -1,0 +1,204 @@
+{
+  "claim_id": "HC-DU-168",
+  "run_id": "RUN-20260730-142222-rigetti-fast-feedback-packet-audit",
+  "status": "PASS",
+  "source": {
+    "record": "https://zenodo.org/records/15364358",
+    "file": "fast_feedback_raw_data.h5",
+    "md5": "3b2503a80f2b92916660489e2f07e880",
+    "sha256": "dd2a3d48e86ea81094b44439fb58a3d9788757e26799bd4ee7497eb94798ed08",
+    "raw_file_committed": false
+  },
+  "checks_passed": 103,
+  "totals": {
+    "returned_rows": 8000,
+    "hard_measurement_events": 216000,
+    "soft_measurement_events": 216000,
+    "decoder_rows": 8000,
+    "time_rows": 8000,
+    "repeated_hard_history_groups": 176,
+    "repeated_hard_history_rows": 389,
+    "decoder_conflict_groups": 0,
+    "decoder_conflict_rows": 0
+  },
+  "circuits": [
+    {
+      "circuit": 0,
+      "rounds": 2,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 502,
+        "1": 498
+      },
+      "documented_branch_response_successes": 746,
+      "documented_branch_response_rate": 0.746,
+      "unique_hard_histories": 820,
+      "repeated_hard_history_groups": 145,
+      "repeated_hard_history_rows": 325,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        288,
+        656
+      ]
+    },
+    {
+      "circuit": 1,
+      "rounds": 3,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 188,
+        "1": 109,
+        "2": 703
+      },
+      "documented_branch_response_successes": 718,
+      "documented_branch_response_rate": 0.718,
+      "unique_hard_histories": 970,
+      "repeated_hard_history_groups": 28,
+      "repeated_hard_history_rows": 58,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        303,
+        1319
+      ]
+    },
+    {
+      "circuit": 2,
+      "rounds": 4,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 172,
+        "1": 109,
+        "2": 719
+      },
+      "documented_branch_response_successes": 703,
+      "documented_branch_response_rate": 0.703,
+      "unique_hard_histories": 999,
+      "repeated_hard_history_groups": 1,
+      "repeated_hard_history_rows": 2,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        311,
+        1735
+      ]
+    },
+    {
+      "circuit": 3,
+      "rounds": 5,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 169,
+        "1": 114,
+        "2": 717
+      },
+      "documented_branch_response_successes": 626,
+      "documented_branch_response_rate": 0.626,
+      "unique_hard_histories": 998,
+      "repeated_hard_history_groups": 2,
+      "repeated_hard_history_rows": 4,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        323,
+        1955
+      ]
+    },
+    {
+      "circuit": 4,
+      "rounds": 6,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 174,
+        "1": 127,
+        "2": 699
+      },
+      "documented_branch_response_successes": 617,
+      "documented_branch_response_rate": 0.617,
+      "unique_hard_histories": 1000,
+      "repeated_hard_history_groups": 0,
+      "repeated_hard_history_rows": 0,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        515,
+        2291
+      ]
+    },
+    {
+      "circuit": 5,
+      "rounds": 7,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 199,
+        "1": 129,
+        "2": 672
+      },
+      "documented_branch_response_successes": 631,
+      "documented_branch_response_rate": 0.631,
+      "unique_hard_histories": 1000,
+      "repeated_hard_history_groups": 0,
+      "repeated_hard_history_rows": 0,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        449,
+        3009
+      ]
+    },
+    {
+      "circuit": 6,
+      "rounds": 8,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 200,
+        "1": 147,
+        "2": 653
+      },
+      "documented_branch_response_successes": 583,
+      "documented_branch_response_rate": 0.583,
+      "unique_hard_histories": 1000,
+      "repeated_hard_history_groups": 0,
+      "repeated_hard_history_rows": 0,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        718,
+        3766
+      ]
+    },
+    {
+      "circuit": 7,
+      "rounds": 9,
+      "returned_rows": 1000,
+      "dasr_counts": {
+        "0": 208,
+        "1": 145,
+        "2": 647
+      },
+      "documented_branch_response_successes": 599,
+      "documented_branch_response_rate": 0.599,
+      "unique_hard_histories": 1000,
+      "repeated_hard_history_groups": 0,
+      "repeated_hard_history_rows": 0,
+      "decoder_conflict_groups": 0,
+      "time_range": [
+        918,
+        3942
+      ]
+    }
+  ],
+  "earned": [
+    "source-pinned Ankaa-2 physical session",
+    "8,000 row-joined returned hardware repetitions",
+    "216,000 classified and 216,000 complex soft measurement events",
+    "decoder-register and timing row joins",
+    "documented conditional-X branch and later q50 response",
+    "immediate fidelity, double-measurement, and T1 reference packets",
+    "explicit no-reset metadata"
+  ],
+  "missing": [
+    "census of every pre-return trigger, rejected attempt, and retry",
+    "main physical Quil/pulse program and decoder firmware/configuration",
+    "controller route and hidden memory state",
+    "raw within-measurement waveform lineage",
+    "physical archive retention/access/reset policy",
+    "declared hidden-environment completion scope"
+  ],
+  "disposition": "RETURNED_SHOT_MULTI_TIME_PARTIAL_REOPENER",
+  "scientific_nonclaim": "The packet supports returned-shot record/action/response analysis. It does not identify the all-attempt process or a complete material archive, and it establishes no remainder, new law, or new physics."
+}

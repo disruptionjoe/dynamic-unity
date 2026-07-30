@@ -4210,3 +4210,33 @@ The artifact is
 only a finite calibration method and its causal-direction counterexamples. It
 establishes no game-engine ontology, physical record selector, quantum result,
 prediction, scientific successor, or new physics.
+
+## HC-DU-168 Rigetti fast-feedback packet audit
+
+`du_rigetti_fast_feedback_packet_audit.py` audits the external
+`fast_feedback_raw_data.h5` file pinned by MD5 and SHA-256. It verifies:
+
+- eight Ankaa-2 circuit groups with 1,000 aligned returned rows each;
+- 216,000 classified and 216,000 complex soft measurement events;
+- row-joined decoder registers, timing, and post-feedback qubit-50 response;
+- the source-documented conditional-\(X\) response relation without fitting;
+- 176 repeated complete hard histories covering 389 rows with no observed
+  `DASR` conflicts;
+- immediate reference/calibration groups and explicit no-reset metadata; and
+- absence of an all-trigger/rejection census, main physical program,
+  firmware/configuration, controller route/memory, waveform lineage, archive
+  policy, and environment scope.
+
+After downloading the frozen 5.6 MB source file, run:
+
+```bash
+uv run --with h5py python tests/du_rigetti_fast_feedback_packet_audit.py \
+  --source /path/to/fast_feedback_raw_data.h5 \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_rigetti_fast_feedback_packet_result.json`. Passing establishes a
+joined returned-shot physical packet and exact implementation boundary. It
+does not establish an all-attempt process, complete material archive,
+remainder, prediction, ontology, or new physics.

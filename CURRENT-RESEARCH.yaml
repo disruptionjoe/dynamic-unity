@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 121
+state_revision: 122
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-167 builds an exact source-known remainder calibration and kills
-    causal-direction classification. It selects no physical interface. The
-    implementation-complete reopener remains; no successor is ready.
+    HC-DU-168 finds 8,000 joined returned hardware rows linking measurement,
+    decoder, feedback branch, and later response. Missing attempt census and
+    controller/archive lineage block implementation completeness. No successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -113,9 +113,9 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165/166 bank the material and action-stage boundaries.
-      HC-DU-167 adds an exact source-known remainder calibration; it selects
-      no physical interface.
+      HC-DU-165/166 bank material/action boundaries; HC-DU-167 calibrates
+      remainder. HC-DU-168 adds a source-pinned returned-shot feedback packet,
+      not all-attempt implementation completeness.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -155,8 +155,10 @@ programs:
         evidence_ref: explorations/gu-candidate-source-action-stage-adapter-earliest-response-gate-and-record-interface-nonimplication-2026-07-30.md
       - id: HC-DU-167
         evidence_ref: explorations/calibrated-ground-truth-remainder-instrument-and-downstream-only-kill-2026-07-30.md
+      - id: HC-DU-168
+        evidence_ref: explorations/rigetti-real-time-qec-returned-shot-record-action-response-packet-and-implementation-boundary-2026-07-30.md
     remaining_obligations:
-      - Source-pin an implementation-complete joined acquisition packet and complete archive.
+      - Complete the HC-DU-168 all-attempt/controller/archive sidecar: trigger census, dispositions, program/firmware, route memory, waveform lineage, retention/access/reset, and environment scope.
       - Prove that its physical response kernel factors through the material archive rather than only a fitted reduced instrument.
       - Test behavioral minimality apart from provenance completeness.
       - Keep operational label sufficiency separate from material archive selection.
@@ -202,13 +204,12 @@ programs:
       before new local learning. A prepared later swing is not executable
       without a separate authorization.
     reopen_rule: >-
-      The process-tomography term is now satisfied at the fitted reduced-
-      instrument level. A minimal Stinespring or normal measurement model is
-      not implementation completeness. Reopen material reconstruction only with one
-      source-pinned implementation-complete packet containing joined
-      per-attempt acquisition records and later responses, explicit hidden-
-      environment scope, retention/provenance/access/reset semantics, and a
-      factorization plus minimality test for the retained material archive.
+      Reduced-instrument and returned-shot joined multi-time terms are
+      satisfied. HC-DU-168 lacks trigger/rejection census, physical
+      program/firmware/route memory, waveform lineage, archive/access/reset
+      semantics, and environment scope. Reopen only when one source-pinned
+      packet adds them and supports material-archive factorization plus
+      minimality.
     local_computation_boundary: >-
       Literature and formal proof first. Local computation may enumerate one
       finite orbit or verify an exact counterexample. No simulation, provider,
@@ -221,6 +222,7 @@ programs:
       - explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
       - explorations/gu-candidate-source-action-stage-adapter-earliest-response-gate-and-record-interface-nonimplication-2026-07-30.md
       - explorations/calibrated-ground-truth-remainder-instrument-and-downstream-only-kill-2026-07-30.md
+      - explorations/rigetti-real-time-qec-returned-shot-record-action-response-packet-and-implementation-boundary-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md
