@@ -5583,6 +5583,42 @@ meter, probe, write, archive, access contract, target, empirical excess, new
 law, physics, prediction, or ready successor. See
 `aqft-modular-energy-work-and-postselection-physical-state-family-selector-boundary-2026-07-29.md`.
 
+### 2026-07-29 physical reliability and reconstruction-capacity contract
+
+`HC-DU-136` turns the finite-certificate resource-floor idea into an exact
+typed statement. For a physical completion class and held-out target, let
+\(M_T(2\delta)\) be the target packing number. If every admissible protocol
+under budget \(B\) has accessible information at most
+\(\mathcal C_\Pi(B)\), then reconstruction to error \(\delta\) with failure
+at most \(\epsilon\) requires
+
+\[
+\mathcal C_\Pi(B)
+\ge
+\log M_T(2\delta)
+-h_2(\epsilon)
+-\epsilon\log\!\big(M_T(2\delta)-1\big).
+\]
+
+The mathematical bridge is absorbed by Fano/minimax and rate-distortion
+theory. The physical research object is the independently selected capacity
+function \(\mathcal C_\Pi(B)\), not a generic information-to-energy slogan.
+Ordinary energy alone fails exactly: a \(d\)-level zero-Hamiltonian system has
+zero state energy and \(\log d\) perfectly distinguishable symbols. Landauer
+heat, Norton completion odds, external-controller dissipation, finite-time
+activity, work, duration, reliability, and support are separately typed
+resources.
+
+Relative-entropy orientation remains load-bearing. Reliability theory can
+bound \(D(\gamma\Vert\rho)\), whereas `HC-DU-134` requires
+\(D(\rho\Vert\gamma)\) and already contains a reverse-orientation escape.
+The selected next specimen must therefore derive its operational divergence,
+resource vector, and accessible capacity from one complete metastable record
+process. A conditional operational resolution floor is not yet a formed
+record, physical remainder, ontology, source issuance, law, or new physics.
+See
+`physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

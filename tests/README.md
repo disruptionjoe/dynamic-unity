@@ -3373,3 +3373,33 @@ QFT comparison, energy or work budget, operation class, resource meter,
 probe, acquisition, record write, lineage, archive, access, target, new
 operator-algebra theorem, AQFT theorem, empirical excess, law, physics,
 prediction, paper, hardware, provider, publication, or other external action.
+
+## HC-DU-136 physical reliability and reconstruction-floor boundary
+
+`HC-DU-136` is proof- and primary-literature-only. It tests whether a target
+packing count plus a generic physical resource produces a universal finite
+reconstruction floor:
+
+- a \(d\)-level zero-Hamiltonian family proves that ordinary state energy
+  alone does not bound accessible information across untyped systems;
+- Norton completion odds, Landauer expectation identities, controller
+  dissipation, finite-time activity, work, duration, reliability, support,
+  and measurement capacity remain separately typed;
+- Myrvold and Norton explicitly establish that their fluctuation and
+  Landauer analyses are compatible;
+- an \(M_T(2\delta)\)-point target packing and a physical accessible-capacity
+  bound \(\mathcal C_\Pi(B)\) compose through Fano to give the exact necessary
+  resolution inequality;
+- Fano/minimax, rate-distortion, energy-constrained channel capacity, and
+  stochastic thermodynamics absorb the mathematical components;
+- the completion class, protocol, resource vector, budget, target topology,
+  capacity, archive, and observer access remain physically unselected; and
+- reliability bounds can use the reverse relative-entropy orientation that
+  `HC-DU-134` already proves insufficient for its canonical finite carrier.
+
+No new scientific executable was added for `HC-DU-136`; the exact theorem and
+counterexample are proof checks. The repository governance suite remains the
+executable regression. Passing it does not establish the next metastable
+specimen, a model-selected capacity, a formed record, physical remainder,
+ontology, source issuance, empirical excess, law, physics, prediction, paper,
+hardware, provider, publication, or other external action.

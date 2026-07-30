@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 86
+state_revision: 87
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -77,16 +77,14 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: null
-  executable_action_id: null
+  active_scientific_program_id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
+  executable_action_id: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-135 identifies the exact physical-selector bridge for HC-DU-134:
-    a split modular-energy cap, genuine Gibbs energy/work budget, or proved
-    form comparison K_sigma <= aH+b selects the required family. Norm,
-    success probability, and arbitrary energy do not. No generic QFT
-    comparison or formed record is selected, so no successor is selected.
+    HC-DU-136 kills an untyped universal resource scalar and banks a conditional
+    capacity-to-resolution floor. PRRF-02 must physically derive or kill the
+    resource, formed record, and accessible capacity before any transfer.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -109,52 +107,28 @@ programs:
     target: >-
       Completed: test predictive selection and issuance-compatible forecasting.
     current_grade: >-
-      HC-DU-083--089 BANK GRADE-4 BOUNDARIES. PREDICTIVE, EVOLUTIONARY,
-      FORECAST, SETTLEMENT, CRYPTOGRAPHIC, AND RESOURCE EVIDENCE DOES NOT
-      IDENTIFY SOURCE ISSUANCE.
+      HC-DU-083--089 bank Grade-4 boundaries: prediction, evolution,
+      settlement, commitments, and resources do not identify source issuance.
     evidence_grade: 4
     maximum_grade: >-
-      CAPPED AT GRADE 4; A SOURCE-PINNED SELECTOR WITH NO-REFIT TRANSFER
-      RETAINS A SEPARATE GRADE-5 CEILING.
+      Completed result capped at Grade 4; a new source-pinned no-refit
+      discriminator retains an independent Grade-5 ceiling.
     maximum_evidence_grade: 4
     premise_status: >-
-      Ontology-neutral; process, interface, access, capability, settlement,
-      and issuance remain distinct.
+      Ontology-neutral; interface, access, settlement, and issuance are distinct.
     completed_dependencies:
       - id: HC-DU-089
         evidence_ref: explorations/preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md
-      - id: HC-DU-088
-        evidence_ref: explorations/preactivation-commitment-provenance-and-source-issuance-boundary-2026-07-28.md
-      - id: HC-DU-087
-        evidence_ref: explorations/record-graph-settlement-and-delayed-activation-nonidentifiability-2026-07-28.md
-      - id: HC-DU-086
-        evidence_ref: explorations/unissued-type-probability-naturality-trilemma-and-novelty-orbit-2026-07-28.md
-      - id: HC-DU-085
-        evidence_ref: explorations/forecastability-under-issuance-type-extension-and-settlement-boundary-2026-07-28.md
-      - id: HC-DU-084
-        evidence_ref: explorations/evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md
       - id: HC-DU-083
         evidence_ref: explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
-      - id: HC-DU-033C
-        evidence_ref: explorations/law-interface-reconstruction-separation-and-3-plus-1-control-2026-07-26.md
-      - id: HC-DU-036H
-        evidence_ref: explorations/action-center-record-formation-and-capability-boundary-2026-07-26.md
     remaining_obligations: []
     typed_dependencies:
-      - type: external_dependency
-        target: time-as-finality@9981cb1
-        target_type: external_work
-        owner_repo: time-as-finality
-      - type: tests
-        target: PREDICTIVE-VALUE-TO-PHYSICAL-INTERFACE-SELECTION
-        target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Predictive states, evolution, fixed completion, activation,
-      commitments, observability, reversible computation, and compact
-      generators.
+      Fixed completions, activation, observability, reversible computation,
+      and compact generators.
     cheapest_kill: >-
       Met. Dormant-fixed and issuance labels share one complete preactivation
       response/resource signature.
@@ -162,9 +136,8 @@ programs:
       Stop generic issuance proxies. Require a concrete physical source packet
       or completion theorem.
     reopen_rule: >-
-      Require a source proposal deriving a separating preactivation bound under
-      frozen boundary, access, compression, accuracy, deadline, and completion
-      class—or a source-completion theorem.
+      Require a source-pinned separating preactivation bound under a frozen
+      completion/access/resource contract, or a source-completion theorem.
     local_computation_boundary: >-
       Exact response-factor and physical-bound analysis decided the gate; no
       model or hardware is warranted.
@@ -172,11 +145,7 @@ programs:
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md
-      - explorations/preactivation-commitment-provenance-and-source-issuance-boundary-2026-07-28.md
-      - explorations/record-graph-settlement-and-delayed-activation-nonidentifiability-2026-07-28.md
-      - explorations/unissued-type-probability-naturality-trilemma-and-novelty-orbit-2026-07-28.md
-      - explorations/forecastability-under-issuance-type-extension-and-settlement-boundary-2026-07-28.md
-      - explorations/evolutionary-predictive-interface-selection-law-selection-and-issuance-boundary-2026-07-28.md
+      - explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
 
   - id: CCR-INDIVISIBLE-STOCHASTIC-MODULAR-RIGIDITY-GATE
     kind: flagship
@@ -197,65 +166,41 @@ programs:
       - CH-COLLIDE
       - CH-MODEL
     target: >-
-      Completed: determine whether the HC-DU-078 modular ratio is invariant
-      across the native realization freedom of its unchanged
-      indivisible-stochastic transition object.
+      Completed: test modular-ratio invariance across one indivisible-
+      stochastic transition object's native realization freedom.
     current_grade: >-
-      HC-DU-079 BANKS A SCOPED GRADE-4 STOCHASTIC-NATIVE MODULAR
-      NON-IDENTIFIABILITY RESULT, A CONDITIONAL GRADE-3 QUANTUM-LOCAL
-      RIGIDITY BRIDGE, AND AN EXACT MULTI-TIME INSUFFICIENCY CONTROL.
-      STOCHASTIC-QUANTUM GAUGE, SELF-TESTING, AND PROCESS-TENSOR MATHEMATICS
-      ABSORB THE COMPONENTS. NO PHYSICAL INTERFACE, TIME, OR NEW LAW IS
-      SELECTED.
+      HC-DU-079 banks Grade-4 stochastic-native modular non-identifiability,
+      conditional Grade-3 quantum-local rigidity, and exact multi-time
+      insufficiency; known gauge, self-testing, and process theory absorb it.
     evidence_grade: 4
     maximum_grade: >-
-      THE COMPLETED GATE CANNOT PROMOTE BEYOND ITS SCOPED RESULT. A
-      PHYSICALLY SELECTED CONFIGURATION/INTERVENTION SEMANTICS, LOCAL FACTOR,
-      GAUGE CLASS, COMPLETE PROCESS, FORMED RECORD, CALIBRATION, AND HELD-OUT
-      TRANSFER RETAIN AN INDEPENDENT GRADE-5 CEILING.
+      Completed result capped at Grade 4; a selected complete process,
+      factor/gauge, formed record, and held-out transfer remain independent.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral about ontology and foliation. The negative uses
-      Barandes's declared phase gauge and one exact finite law; the positive
-      remains conditional on the standard quantum Bell/self-testing class.
+      Ontology/foliation-neutral; negative in Barandes's phase gauge, positive
+      conditional on the standard Bell/self-testing class.
     completed_dependencies:
       - id: HC-DU-079
         evidence_ref: explorations/indivisible-stochastic-modular-nonidentifiability-and-quantum-local-rigidity-boundary-2026-07-28.md
-      - id: HC-DU-078
-        evidence_ref: explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
-      - id: BARANDES-SOURCE-COLLISION
-        evidence_ref: explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
     remaining_obligations: []
     typed_dependencies:
-      - type: requires
-        target: HC-DU-078
-        target_type: result
-      - type: tests
-        target: STOCHASTIC-NATIVE-MODULAR-INVARIANCE
-        target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Confirmed: the stochastic-quantum correspondence declares phase and
-      dilation freedom; tilted-CHSH self-testing supplies rigidity only in a
-      narrower quantum-local realization class; process tensors supply the
-      missing multi-time object.
+      Stochastic-quantum phase/dilation freedom, narrower self-testing
+      rigidity, and process tensors.
     cheapest_kill: >-
       Met. D(phi)=diag(1,1,1,exp(i phi)) leaves the complete labeled Gamma
       fixed while the supplied-factor modular ratio varies continuously from
       3+2sqrt(2) to 3.
     stop_rule: >-
-      Satisfied. Do not call a stochastic lift a selected state or factor,
-      identify a division event with a formed/final record, infer complete
-      multi-time dynamics, or repeat larger lifts without a physical selector
-      and held-out consequence.
+      Do not call a stochastic lift a selected state/factor or repeat it
+      without a physical selector, complete process, and held-out consequence.
     reopen_rule: >-
-      Reopen only when one physical antecedent selects the intervention
-      semantics, access-preserving factor/algebra and gauge class, supplies
-      the required complete process, forms provenance-bearing bounded
-      records, and transfers one gauge-invariant result without refit to a
-      held-out temporal, geometric, field, or capability target.
+      Require a physical antecedent selecting interventions, factor/gauge,
+      complete process, bounded record, and no-refit held-out transfer.
     local_computation_boundary: >-
       One exact four-configuration phase family and binary three-time witness
       complete the local boundary. Hardware and larger simulation are
@@ -264,8 +209,6 @@ programs:
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/indivisible-stochastic-modular-nonidentifiability-and-quantum-local-rigidity-boundary-2026-07-28.md
-      - explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
-      - explorations/causal-action-and-stochastic-quantum-source-collision-2026-07-26.md
       - docs/quantum-foundations-orientation-surface.md
 
   - id: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
@@ -286,65 +229,41 @@ programs:
       - CH-COLLIDE
       - CH-MODEL
     target: >-
-      Completed: determine whether intervention-labeled classical Bell
-      records can reconstruct the noncommutative factor and state required by
-      HC-DU-077, and identify the exact loss under setting erasure.
+      Completed: test Bell-record reconstruction of target noncommutative data
+      and the exact loss under setting erasure.
     current_grade: >-
-      HC-DU-078 BANKS A CONDITIONAL GRADE-3 SELF-TESTED TARGET-FACTOR
-      RECONSTRUCTION AND A SCOPED GRADE-4 CONTEXT-ERASURE NECESSITY RESULT.
-      TILTED-CHSH, SELF-TESTING, AND FINITE MODULAR MATHEMATICS ABSORB THE
-      COMPONENTS. NO PHYSICAL INTERFACE, TIME, GEOMETRY, OR NEW LAW IS
-      SELECTED.
+      HC-DU-078 banks conditional Grade-3 self-tested target reconstruction
+      and Grade-4 context-label necessity; self-testing and modular mathematics
+      absorb the components.
     evidence_grade: 4
     maximum_grade: >-
-      THE COMPLETED GATE CANNOT PROMOTE BEYOND ITS SCOPED RESULT. A
-      PHYSICALLY FORMED AND SELECTED SETTING/SEPARATION INTERFACE WITH
-      CALIBRATION AND HELD-OUT TEMPORAL OR GEOMETRIC TRANSFER RETAINS AN
-      INDEPENDENT GRADE-5 CEILING.
+      Completed result capped at Grade 4; a formed setting/separation
+      interface, calibration, and held-out transfer remain independent.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral about ontology and foliation; conditional on the
-      standard quantum Bell/self-testing model. Ports, settings, separation,
-      acquisition, formation, ambient algebra, calibration, and targets
-      remain separately typed.
+      Ontology/foliation-neutral and conditional on the standard Bell model;
+      ports, settings, acquisition, algebra, and targets remain typed.
     completed_dependencies:
       - id: HC-DU-078
         evidence_ref: explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
-      - id: HC-DU-077
-        evidence_ref: explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
-      - id: HC-DU-076
-        evidence_ref: explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
     remaining_obligations: []
     typed_dependencies:
-      - type: requires
-        target: HC-DU-077
-        target_type: result
-      - type: tests
-        target: SELF-TESTED-TARGET-MODULAR-DATA
-        target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Confirmed: tilted-CHSH self-testing reconstructs the target state and
-      tested observables up to local isometry and junk. It does not select the
-      physical ports, acquisition, record formation, ambient algebra, or
-      calibrated time.
+      Tilted-CHSH self-testing reconstructs target data up to local isometry
+      and junk but not ports, acquisition, ambient algebra, or calibrated time.
     cheapest_kill: >-
       The positive route survives under the standard exact self-testing
       contract. The unlabeled route is killed exactly: a setting-independent
       classical process has the identical pooled outcome law.
     stop_rule: >-
-      Satisfied. Do not call unlabeled outcomes self-testing data, treat
-      device independence as assumption-free, infer ambient flow or physical
-      interface selection, identify modular parameter with proper time, or
-      repeat larger Bell fixtures without a selected interface and held-out
-      consequence.
+      Do not call unlabeled outcomes self-testing data or repeat Bell fixtures
+      without a selected formed interface and held-out consequence.
     reopen_rule: >-
-      Reopen only when one physical antecedent independently selects or forms
-      the settings and separation interface, retains provenance and bounded
-      access, and the same no-refit transcript transfers through calibrated
-      modular data to a held-out temporal or geometric consequence.
+      Require a physical antecedent forming settings/separation with bounded
+      provenance and a calibrated no-refit held-out transfer.
     local_computation_boundary: >-
       One exact two-qubit correlation and erasure certificate completes the
       local boundary. Finite-shot simulation and hardware are unwarranted.
@@ -352,8 +271,6 @@ programs:
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
-      - explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
-      - explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
       - docs/quantum-foundations-orientation-surface.md
 
   - id: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
@@ -374,76 +291,40 @@ programs:
       - CH-COLLIDE
       - CH-MODEL
     target: >-
-      Completed: determine whether a complete commutative certified-record
-      algebra and its state can reconstruct nontrivial modular time, identify
-      the minimum noncommutative algebra--state--inclusion data required by
-      positive modular reconstruction, and keep modular flow, physical clock
-      calibration, and geometric action separately typed.
+      Completed: classify commutative modular silence and the minimum
+      noncommutative data for conditional modular-time reconstruction.
     current_grade: >-
-      HC-DU-077 BANKS A SCOPED GRADE-4 COMMUTATIVE MODULAR-SILENCE THEOREM,
-      EXACT SAME-RECORD/DIFFERENT-AMBIENT-MODULAR-FLOW WITNESS,
-      NONCOMMUTATIVE POSITIVE CONTROL, AND TYPED MODULAR-RECONSTRUCTION
-      LADDER. TOMITA--TAKESAKI, THERMAL-TIME, BISOGNANO--WICHMANN,
-      MODULAR-INCLUSION, AND LOCALLY COVARIANT QFT MATHEMATICS ABSORB THE
-      COMPONENTS. NO PHYSICAL STATE, TIME, GEOMETRY, RECORD, OR NEW LAW IS
-      SELECTED.
+      HC-DU-077 banks Grade-4 commutative modular silence, an exact
+      same-record/different-flow witness, and the conditional noncommutative
+      reconstruction ladder; modular/AQFT mathematics absorbs it.
     evidence_grade: 4
     maximum_grade: >-
-      THE COMPLETED GATE CANNOT PROMOTE BEYOND ITS SCOPED NECESSITY RESULT. A
-      PHYSICALLY SELECTED ALGEBRA--STATE--INCLUSION STRUCTURE WITH
-      CALIBRATION, FORMED ACCESSIBLE RECORDS, AND HELD-OUT TRANSFER RETAINS
-      AN INDEPENDENT GRADE-5 CEILING.
+      Completed result capped at Grade 4; a selected algebra/state/inclusion,
+      calibration, formed record, and held-out transfer remain independent.
     maximum_evidence_grade: 4
     premise_status: >-
-      Assumption-neutral finite certificate plus primary-source AQFT audit.
-      Commutative record state, ambient algebra and state, modular parameter,
-      physical time calibration, net/inclusion geometry, formation, access,
-      and targets remain separately typed. Preferred foliation remains off
-      and under Time as Finality's dedicated exploration.
+      Assumption-neutral; record algebra, ambient state, modular parameter,
+      clock calibration, geometry, formation, and access remain distinct.
     completed_dependencies:
       - id: HC-DU-077
         evidence_ref: explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
-      - id: HC-DU-076
-        evidence_ref: explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
-      - id: HC-DU-063
-        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - id: HC-DU-040B
-        evidence_ref: explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
     remaining_obligations: []
     typed_dependencies:
-      - type: requires
-        target: HC-DU-076
-        target_type: result
-      - type: tests
-        target: MODULAR-RECORD-TO-TIME-AND-GEOMETRY-RECONSTRUCTION
-        target_type: requirement
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Confirmed: modular theory proves commutative silence and supplies
-      noncommutative flow; Bisognano--Wichmann and modular inclusions supply
-      conditional geometric positives; Fewster--Verch blocks a free
-      generally covariant preferred state. None selects a complete formed
-      record interface.
+      Modular/AQFT theory supplies silence, noncommutative flow, and conditional
+      geometric positives, but no complete formed record interface.
     cheapest_kill: >-
-      Met against commutative modular reconstruction. The exact M2 witness
-      fixes D=span{I,Z}; I/2 and (I+(3/5)X)/2 agree on every D observable but
-      have trivial versus nontrivial ambient modular dynamics. The
-      noncommutative diagonal-state control retains exact modular phases.
+      Met: one exact M2 pair agrees on the commutative record algebra but has
+      trivial versus nontrivial ambient modular dynamics.
     stop_rule: >-
-      Satisfied. Do not seek nontrivial modular flow inside a commutative
-      record algebra, call a timestamp a derivation of time, identify the
-      dimensionless modular parameter with proper time without calibration,
-      treat a supplied wedge/vacuum as record-derived geometry, infer
-      ontology, or repeat the finite witness in another representation.
+      Do not seek flow inside a commutative record algebra or identify modular
+      parameter with physical time without calibration.
     reopen_rule: >-
-      Reopen only when one physical antecedent independently selects a
-      noncommutative observable algebra or net, faithful state/weight or
-      state class, nontrivial inclusion/relative position, modular-to-observer
-      time calibration, formed provenance and bounded access, and one
-      target-independent intervention family with a held-out temporal or
-      geometric consequence.
+      Require a selected noncommutative net/state/inclusion, time calibration,
+      formed bounded record, and target-independent held-out consequence.
     local_computation_boundary: >-
       One exact two-dimensional modular certificate completes the local proof
       boundary. No Type-III simulation, larger model, external hardware, or
@@ -452,10 +333,135 @@ programs:
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
-      - explorations/source-law-subsystem-factor-selection-and-quantum-mereology-gate-2026-07-28.md
-      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - explorations/algebraic-qft-record-transport-and-capability-stable-finality-2026-07-26.md
       - docs/quantum-foundations-orientation-surface.md
+
+  - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
+    kind: flagship
+    owner_repo: dynamic-unity
+    portfolio_status: active
+    execution_status: executable
+    wip_slot: scientific_flagship
+    active_work_id: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
+    primary_lane_id: '1'
+    supporting_lane_ids:
+      - '3'
+      - '4'
+      - '7'
+    channel_ids:
+      - CH-FORMAL
+      - CH-COLLIDE
+      - CH-SYN
+      - CH-MODEL
+    target: >-
+      Derive or kill a physical reliability-to-resolution floor, then test the
+      unchanged formed record against one held-out target.
+    current_grade: >-
+      HC-DU-136 banks Grade-4 scalar, conditional-capacity, and divergence-
+      orientation boundaries; standard theory absorbs their mathematics.
+    evidence_grade: 4
+    maximum_grade: >-
+      Grade 5 only from a physical protocol, resource boundary, formed record,
+      and no-refit held-out discriminator; PRRF-02 is capped below that.
+    maximum_evidence_grade: 5
+    premise_status: >-
+      Observer-indexed physical access with protocol, resource, record, target,
+      archive, and capacity kept typed.
+    completed_dependencies:
+      - id: HC-DU-136
+        evidence_ref: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+      - id: HC-DU-135
+        evidence_ref: explorations/aqft-modular-energy-work-and-postselection-physical-state-family-selector-boundary-2026-07-29.md
+    remaining_obligations:
+      - Derive one model-selected resource/reliability/capacity relation with complete lineage.
+      - Form one bounded record rather than an endpoint distribution.
+      - Transfer only after a positive return, then test one held-out target without refit.
+    typed_dependencies:
+      - type: requires
+        target: HC-DU-136
+        target_type: result
+      - type: tests
+        target: PHYSICALLY-SELECTED-RELIABILITY-TO-ACCESSIBLE-CAPACITY
+        target_type: requirement
+      - type: does_not_block
+        target: DU-PAPER-013-HARDENING
+        target_type: program
+    strongest_absorber: >-
+      Fano/rate-distortion, stochastic thermodynamics, finite-time information
+      processing, quantum estimation, and energy-constrained capacity.
+    cheapest_kill: >-
+      In the frozen metastable apparatus, exhibit two admissible protocols
+      with the same proposed scalar resource and reliability but different
+      accessible capacities, or show that the alleged bound depends on an
+      externally chosen step decomposition, target, or protocol restriction.
+    stop_rule: >-
+      Stop on an unselected resource, known-curve replay, admitted-protocol
+      escape, or record/target refit; do not infer ontology or jump to QFT.
+    reopen_rule: >-
+      Not applicable while active. Quantum and modular phases open only after
+      the same classical specimen derives a physical capacity and formed
+      accessible record without target fitting.
+    local_computation_boundary: >-
+      Analyze first; compute only a new hostile protocol, optimum, or phase
+      boundary. Hardware is unavailable and unnecessary.
+    next_action: >-
+      Execute PRRF-02 on one two-state local-detailed-balance memory. Preserve
+      blank, source drive, write interval, outcome/retry/controller lineage,
+      resource ledger, readout, and one held-out target; determine the operative
+      divergence and accessible-capacity bound.
+    next_action_ref: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+    execution_packet:
+      action_id: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
+      exact_question: >-
+        Which divergence and resource, if any, does a complete two-state
+        metastable record process select for a non-fitted capacity bound?
+      source_locator:
+        path: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+        heading: '## 7. Exact next action'
+      required_inputs:
+        - path: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+          role: exact conditional floor, resource no-go, orientation boundary, and specimen contract
+        - path: explorations/aqft-standard-split-relative-entropy-uniform-finite-compression-boundary-2026-07-29.md
+          role: forward/reverse relative-entropy hostile control
+      unchanged_ledger_fields:
+        - state space, rates, bath, blank, drive, interval, and stop rule
+        - outcome, retry, and controller lineage
+        - work, entropy, duration, activity, and support
+        - readout, transcript, and observer boundary
+        - divergence, target, error, and capacity contract
+      arena_roles:
+        - exact continuous-time two-state metastable record apparatus
+        - positive and same-scalar/different-capacity hostile controls
+      expected_return_classes:
+        - MODEL_SELECTED_CAPACITY_BOUND
+        - FORWARD_DIVERGENCE_SELECTED
+        - REVERSE_DIVERGENCE_ONLY
+        - PATH_SPACE_RESOURCE_REQUIRED
+        - SAME_SCALAR_DIFFERENT_CAPACITY
+        - STOP_NO_DECISION_CHANGING_LOCAL_LEARNING
+      observer_index_return_classes:
+        - FORMED_ACCESSIBLE_RECORD
+        - ENDPOINT_CORRELATION_ONLY
+        - ACCESS_OR_ARCHIVE_SUPPLIED
+      durable_output: >-
+        One exact theorem or counterexample, absorber classification,
+        formed-record verdict, and conditional continuation or stop.
+      local_method: >-
+        Direct Markov proof first; admit one minimal local optimization or
+        counterexample search through LMLG-01. No hardware.
+      uses_program_controls:
+        strongest_absorber: >-
+          Stochastic thermodynamics of two-state memories, finite-time
+          information processing, kinetic proofreading, and statistical
+          decision theory.
+        cheapest_kill: >-
+          Same declared scalar resource and reliability with different
+          accessible capacity, or a bound created by the chosen step labels.
+        stop_rule: >-
+          Stop before quantum or modular transfer unless the physical process
+          itself selects the resource/capacity relation and a formed record.
+    canonical_evidence_refs:
+      - explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+      - explorations/aqft-modular-energy-work-and-postselection-physical-state-family-selector-boundary-2026-07-29.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication
@@ -551,30 +557,25 @@ programs:
       - CH-EMPIRICAL
       - CH-COLLIDE
     target: >-
-      Derive a genuinely new observer-accessible Lorentz-covariant finality
-      dynamics with a selected generator, coefficient, local update, and
-      mechanism-specific discriminator.
+      Derive observer-accessible covariant finality dynamics with a selected
+      generator, coefficient, and mechanism-specific discriminator.
     current_grade: >-
-      SEAM / CONDITIONAL PREDICTIONS ONLY. HC-DU-057 preserves this as a
-      logically distinct fourth rate class but derives none of its dynamics.
+      SEAM ONLY. HC-DU-057 preserves a distinct rate class but no dynamics.
     evidence_grade: 0
     maximum_grade: >-
       PHYSICAL THEORY OR FINITE PREDICTION only after the complete generator
       and empirical contract exist.
     maximum_evidence_grade: 5
     premise_status: >-
-      Mechanism absent. A hidden tick, consensus protocol, merge algebra, or
-      fitted threshold does not supply the missing dynamics.
+      Mechanism absent; ticks, consensus analogies, and fitted thresholds do
+      not supply it.
     completed_dependencies:
       - id: HC-DU-057
         evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
     remaining_obligations:
-      - Explicit generator and state space.
-      - AQFT-compatible locality and no-signalling.
-      - Positivity, conservation, and energy/resource accounting.
-      - Coefficient and scale selection.
-      - Mechanism-specific observable and matched standard-physics null.
-      - Phenomenology consistent with existing bounds.
+      - Generator, state space, coefficient, and scale.
+      - Locality, no-signalling, positivity, conservation, and resource accounting.
+      - Mechanism-specific observable, standard-physics null, and existing-bound compatibility.
     typed_dependencies:
       - type: requires
         target: PHYSICAL-FINALITY-GENERATOR
@@ -585,9 +586,6 @@ programs:
       - type: tests
         target: PRED-DU-002
         target_type: prediction
-      - type: does_not_block
-        target: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
-        target_type: program
     cheapest_kill: >-
       Prove that every proposed observable is reproduced by a smooth standard
       unitary/open-system memory model over the frozen intervention class.
@@ -599,8 +597,7 @@ programs:
       coefficient passes positivity, no-signalling, energy, and
       mechanism-specific-discriminator checks.
     local_computation_boundary: >-
-      Formal generator and absorber work must produce the first learning
-      locally. Hardware remains unavailable until that boundary is exhausted.
+      Generator and absorber work must produce the first learning locally.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
@@ -627,36 +624,28 @@ programs:
       supports a Dynamic Unity becoming corollary after GU's operator-domain
       and class-realization requirements are satisfied.
     current_grade: >-
-      SUPERSEDED AS PREVIOUSLY STATED. Immutable or inflationary records do
-      not imply monotone derived dynamics: the parity-of-flips construction
-      supplies an internal fixpoint-free involution. Current GU evidence does
-      not establish physical externality, a sigma-w1 identification, or
-      exactly one external bit.
+      SUPERSEDED. Parity-of-flips supplies an internal fixpoint-free
+      involution; current GU evidence establishes no physical externality,
+      sigma-w1 identity, or unique external bit.
     evidence_grade: 0
     maximum_grade: >-
       CONDITIONAL DYNAMIC COROLLARY after an earned substrate theorem and a
       non-stale physical underivability target.
     maximum_evidence_grade: 4
     premise_status: >-
-      The literal R4-to-monotonicity-to-fixpoint bridge is refuted, and the
-      former external-Z2 dependency is unavailable. Repository custody does
-      not establish the missing physics.
+      The R4-to-monotonicity bridge is refuted; repository custody supplies no
+      replacement physics.
     completed_dependencies:
       - id: PARITY-OF-FLIPS-COUNTEREXAMPLE
         evidence_ref: explorations/record-immutability-forces-external-involution-2026-07-21.md
     remaining_obligations:
-      - Correct physical definitions of internality, externality, derivability, and actualization.
-      - A valid operator/domain/end/symmetry packet in GU.
-      - A natural class-realization map rather than an imported orientation label.
-      - A genuinely untested theorem target that survives the parity counterexample.
+      - Correct physical definitions and a valid GU operator/domain/end/symmetry packet.
+      - Natural class realization and a theorem target surviving the parity counterexample.
     typed_dependencies:
       - type: external_dependency
         target: GU-SUBSTRATE-BRIDGE-ADJUDICATION
         target_type: external_work
         owner_repo: gu-formalization
-      - type: does_not_block
-        target: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
-        target_type: program
     cheapest_kill: >-
       Construct a physically source-internal, non-disclosure actualization
       satisfying the corrected domain contract, or prove that the proposed
@@ -670,8 +659,7 @@ programs:
       or DU states a new corrected underivability proposition with an exact
       physical domain, smallest counterexample, and non-stale falsifier.
     local_computation_boundary: >-
-      Counterexample and theorem work only; no toy growth simulation can
-      substitute for the missing physical-domain bridge.
+      Counterexample and theorem work only; toy growth cannot supply the bridge.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
@@ -680,30 +668,22 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: no_ready
-  blocked_by: null
+  status: blocked
+  blocked_by: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
   selected_successor_id: null
   candidate_classes:
-    - physically-selected-stochastic-quantum-gauge-and-local-factor-with-held-out-transfer
-    - physically-formed-self-testing-interface-with-calibrated-held-out-transfer
-    - physically-selected-modular-algebra-state-inclusion-with-calibrated-time
-    - physically-selected-observable-carrier-algebra-with-access-preserving-factorization
-    - physically-selected-access-preserving-quantum-output-carrier
-    - physically-selected-target-sensitive-record-law-with-complete-assay
-    - physically-selected-positive-margin-law-family-with-complete-assay
-    - physically-restricted-nondense-completion-class-with-finite-separator
-    - finite-operational-infrared-memory-interface-selector
-    - physical-formation-lift-of-closed-capability-record-pair
-    - source-pinned-formed-forecasting-interface-with-no-refit-capability-transfer
-    - physically-selected-output-carrier-with-bounded-provenance-archive
-    - background-natural-complete-effective-action-equivalence-with-physically-formed-held-out-local-stress-or-record-transfer
-    - source-formed-conformally-transferring-nonlinear-interaction-event-from-fixed-null-front-architecture-with-predeclared-finite-resolution-controls-physically-formed-joint-multistandard-clock-record-full-metric-matter-sensitivity-rank-frozen-nuisance-class-universal-common-mode-quotient-unique-occurrence-identity-bounded-source-latency-reciprocal-clock-rigid-self-calibrating-crosslinks-complete-provenance-acquisition-and-no-refit-full-regional-metric-geometry-transfer
-    - explicit-non-source-absorbable-post-einstein-law-filter
+    - model-selected-metastable-reliability-to-accessible-capacity
+    - no-refit-quantum-estimation-transfer-of-physical-capacity-contract
+    - physical-resource-to-split-modular-form-comparison
+    - formed-record-held-out-target-finite-resolution-first-leak
     - independently-unbanked-whole-repository-question
     - no-ready-successor-from-completed-bounded-gates
   decision_rule: >-
-    Select no successor without comparing dependency-changing questions,
-    cheapest kills, and no-refit Grade-5 potential across the portfolio.
+    Later campaign phases are blocked by PRRF-02. First derive or kill a
+    model-selected resource-to-accessible-capacity relation and formed record
+    in the smallest physical specimen. Do not proceed by an information-to-
+    energy slogan, choose a later divergence after seeing the result, or enter
+    quantum/modular work until the unchanged physical gate returns.
 
 anomaly_intake:
   status: open_non_wip
