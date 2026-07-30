@@ -1,0 +1,39 @@
+{
+  "arena": {
+    "completion": "common divergence-free discrete Airy tensor added to both branch controllers",
+    "phase": "I(T)=1/2 <T,G T>",
+    "response": "componentwise inverse of I plus periodic graph Laplacian",
+    "source": "symmetric 2x2 tensor with backward divergence",
+    "spacetime": "periodic 4x5 rational lattice"
+  },
+  "assertions": {
+    "all_base_and_completion_sources_are_conserved": true,
+    "apparatus_twins_keep_reduced_probe_histories_fixed": true,
+    "both_reduced_probe_branches_are_open": true,
+    "common_completion_self_phase_cancels_from_relative_phase": true,
+    "conservation_does_not_force_phase_independence": true,
+    "controller_a_repairs_both_probe_divergences": true,
+    "controller_b_repairs_both_probe_divergences": true,
+    "identical_branch_positive_control_has_zero_relative_phase": true,
+    "nonzero_common_completion_exists": true,
+    "nonzero_response_orthogonal_completion_exists": true,
+    "orthogonal_completion_preserves_relative_phase": true,
+    "relative_phase_shift_equals_response_cross_pairing": true,
+    "response_pair_is_symmetric_on_tested_sources": true,
+    "response_preserves_conservation": true
+  },
+  "claim_id": "HC-DU-151",
+  "exact_values": {
+    "common_completion_self_phase": "23940214/23925",
+    "completion_induced_phase_shift": "4361746/23925",
+    "completion_norm_squared": 12524,
+    "orthogonal_completion_cross_pairing": 0,
+    "orthogonal_completion_norm_squared": "44715401399654752/19738125",
+    "relative_phase_completion_a": "1967351/4785",
+    "relative_phase_completion_b": "14198501/23925",
+    "relative_phase_orthogonal_completion": "1967351/4785",
+    "response_cross_pairing": "4361746/23925"
+  },
+  "scope": "Exact finite Gaussian-response theorem fixture only; not a Lorentzian graviton propagator, realistic apparatus, prediction, or correction to a published gravitational phase.",
+  "theorem_statement": "For a symmetric Gaussian response, the change in relative branch phase under a common controller completion K is exactly <T_1-T_0,GK>. The K self-phase cancels. Hence the relative phase is constant on an admitted linear completion space exactly when the branch-difference source is response-orthogonal to that space. Conservation alone does not imply this condition."
+}

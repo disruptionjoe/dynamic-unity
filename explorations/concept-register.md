@@ -5925,6 +5925,47 @@ COMPLETION-INDEPENDENCE, ACQUISITION, AND EMPIRICAL EXCESS OPEN / NO DU
 PREDICTION, HARDWARE PATH, NEW PHYSICS, OR READY SUCCESSOR.** See
 `quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md`.
 
+### 2026-07-30 apparatus-twin influence-phase boundary
+
+`HC-DU-151` consumes the algebraic apparatus-twin reopener left by
+`HC-DU-150`. For a symmetric Gaussian response,
+\(I(T)=\langle T,GT\rangle/2\). Adding one common divergence-free controller
+completion \(K\) to branch totals \(T_0,T_1\) changes the relative phase by
+exactly
+
+\[
+\langle T_1-T_0,GK\rangle.
+\]
+
+The controller self-phase cancels; the cross phase need not. Relative-phase
+descent through the reduced probe is therefore equivalent to response
+orthogonality between the branch-difference source and the entire physically
+admitted completion space. Conservation and gauge admissibility do not imply
+that second condition.
+
+The exact rational periodic fixture keeps both reduced probes fixed, repairs
+both stress divergences, and preserves total conservation. A common
+completion shifts the relative phase by \(4361746/23925\), exactly its
+response cross pairing. A constructed nonzero orthogonal completion leaves
+the phase unchanged, proving the positive side of the criterion.
+
+Christodoulou et al. already identify the apparatus stress needed for
+arbitrary driven trajectories and argue that a sufficiently heavy apparatus
+with a sufficiently homogeneous field suppresses the branch-relative self
+and cross terms. This is the nearest physical absorber and one approximate
+route to the orthogonality condition. Operational GIE models with explicit
+matter dynamics continue to supply their trap or force interfaces rather
+than include those interfaces in the gravitational source.
+
+**Updated status:** **CONCEPT-OPEN / EXACT QUADRATIC APPARATUS-INDEPENDENCE
+CRITERION PROVED / CONSERVATION-ONLY IMPLICATION REFUTED / CONSERVED
+SAME-PROBE DIFFERENT-PHASE AND ORTHOGONAL SAME-PHASE CONTROLS BANKED /
+HEAVY-HOMOGENEOUS PHYSICAL ABSORBER IDENTIFIED / SELECTED CONTROLLER CLASS,
+UNIFORM ORTHOGONALITY OR NO-REFIT VIOLATION, ACQUISITION, AND EMPIRICAL
+EXCESS OPEN / NO PUBLISHED-PHASE VERDICT, DU PREDICTION, HARDWARE PATH, NEW
+PHYSICS, OR READY SUCCESSOR.** See
+`quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md`.
+
 ## CONCEPT-DU-018 — typed probability boundary ladder
 
 - **Concept.** Probability may be the natural dynamical boundary coordinate

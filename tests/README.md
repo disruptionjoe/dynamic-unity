@@ -3644,6 +3644,37 @@ that the Chen--Giacomini fringe is gauge-dependent, calculate or cancel its
 phase, select a physical apparatus, observe gravity, authorize hardware, add
 a DU prediction, or promote a paper.
 
+## HC-DU-151 apparatus-twin influence-phase gate
+
+`du_apparatus_twin_influence_phase_probe.py` preserves the exact rational
+Gaussian-response criterion and controls:
+
+- two nonconserved reduced probe branches are kept fixed across apparatus
+  twins;
+- both controller families carry the opposite probe divergence and make
+  every total branch source conserved;
+- a common divergence-free controller addition changes the relative
+  influence phase by exactly
+  \(\langle T_1-T_0,GK\rangle\);
+- the common controller self-phase cancels;
+- the nonzero cross pairing proves that conservation alone does not imply
+  apparatus independence;
+- a constructed nonzero response-orthogonal completion leaves the relative
+  phase exactly unchanged; and
+- identical branch totals remain a zero-relative-phase positive control.
+
+Run:
+
+```bash
+python3 tests/du_apparatus_twin_influence_phase_probe.py --write-artifact
+```
+
+Passing proves only the scoped quadratic factorization criterion and exact
+finite counterexample. The kernel is not a Lorentzian graviton propagator and
+the controllers are not laboratory models. It does not calculate, correct,
+or refute a published gravitational phase; select a physical apparatus;
+observe gravity; authorize hardware; add a DU prediction; or promote a paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It

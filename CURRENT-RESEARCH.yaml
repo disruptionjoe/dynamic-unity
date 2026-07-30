@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 102
+state_revision: 103
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,10 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-150 proves that gauge completion forces external controllers into
-    the conserved source but selects only an affine completion class. No
-    closed apparatus phase, observed packet, prediction, hardware path, or
-    successor exists.
+    HC-DU-151 proves that conserved apparatus twins can shift a Gaussian
+    relative phase unless an exact response-orthogonality condition holds.
+    No physical twin, observed packet, prediction, hardware path, or successor
+    exists.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -367,12 +367,12 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Parked after interface, action-envelope, constructor, mediator-diagnostic,
-      commutator-phase, relational-observable, and conserved-controller gates.
+      Parked after interface, constructor, mediator, relational-phase,
+      conserved-controller, and apparatus-orthogonality gates.
     current_grade: >-
-      HC-DU-137--139/146--150 bank Grade-4 interface/action, constructor,
-      mediator-attribution, direct-action descent, phase-decomposition, and
-      relational/apparatus-completion boundaries.
+      HC-DU-137--139/146--151 bank Grade-4 interface/action, constructor,
+      mediator, direct-action, phase, controller, and apparatus-descent
+      boundaries.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
@@ -400,6 +400,8 @@ programs:
         evidence_ref: explorations/quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md
       - id: HC-DU-150
         evidence_ref: explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
+      - id: HC-DU-151
+        evidence_ref: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
     remaining_obligations:
       - Await a completed physical task-repertoire selector plus a
         subsidiary-theory observer/controller/access/resource adapter, a
@@ -413,23 +415,21 @@ programs:
         target: PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: requirement
     strongest_absorber: >-
-      Operational equivalence, system identification, controllability,
-      realization and Hamiltonian-split freedom, relational observables,
-      Ward identities, total conservation, direct action, influence
-      functionals, and prior DU physical audits.
+      Operational equivalence, realization/split freedom, relational
+      observables, Ward identities, conservation, Gaussian influence
+      functionals, heavy/homogeneous apparatus limits, and prior DU audits.
     cheapest_kill: >-
-      Met: operationally equivalent apparatus, controller, mediator-route, and
-      central-commutator/direct-phase pairs disagree on finer targets.
+      Met: equivalent reduced probes, apparatus completions, mediator routes,
+      and phase decompositions disagree on finer targets.
     stop_rule: >-
-      Stop designed variants and probe-only provenance searches. Do not replay
-      completed controls, treat a split-labelled phase piece as an invariant,
-      treat an externally driven probe as a closed source, or copy an external
-      phase into DU's prediction register.
+      Stop designed variants and probe-only provenance. Do not replay controls,
+      equate conservation with phase descent, or copy an external phase into
+      DU's prediction register.
     reopen_rule: >-
       Require a selected task/observer adapter, observed exclusive mediation or
-      provenance, a dynamically explicit conserved apparatus-twin calculation,
-      or one observed relational no-refit phase surface completed across
-      gauge/reference, back-reaction, truncation, rivals, and lineage.
+      provenance, a physical controller class with uniform response
+      orthogonality or a no-refit violation, or one observed relational phase
+      surface completed across gauge, back-reaction, rivals, and lineage.
     local_computation_boundary: >-
       Exact finite probes and primary-source collisions decide the boundary.
       No larger tomography, gravity model, or hardware is warranted.
@@ -444,6 +444,7 @@ programs:
       - explorations/quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md
       - explorations/quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md
       - explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
+      - explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 
