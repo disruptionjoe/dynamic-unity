@@ -73,7 +73,8 @@ def main() -> int:
         "grade_zero_boundary_present": "This scaffold is Grade 0." in campaign_text,
         "concept_family_open": (
             "## CONCEPT-DU-019" in concept_text
-            and "CAMPAIGN-GRADE ONLY" in concept_text
+            and "CONCEPT-OPEN" in concept_text
+            and "SEED-DU-MPA-17" in concept_text
         ),
     }
     if not all(checks.values()):

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 112
+state_revision: 113
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -77,25 +77,24 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
-  executable_action_id: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    Joe ratified the upstream North-Star question and the coherent
-    minimal-antecedent campaign. The first action tests whether a complete
-    operational record interface admits a natural target-blind section or an
-    exact no-section obstruction. This charter authorization selects work; it
-    does not satisfy a parked scientific reopener or promote any seed.
+    HC-DU-159 completed Swing 1. Trivial natural instrument sections exist,
+    while unitary channels obstruct informative refinements and complete
+    material interfaces remain unselected. Swing 2 is scientifically eligible
+    and prepared by the campaign but is not activated or executable in this
+    transition.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: active
-    execution_status: executable
+    portfolio_status: ready
+    execution_status: prepared
     wip_slot: scientific_flagship
-    active_work_id: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -116,10 +115,11 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      Grade 0 campaign activation only. The first natural-section/no-section
-      gate is executable; no selector, theorem, record packet, reconstruction,
-      remainder, new law, or new physics is established.
-    evidence_grade: 0
+      HC-DU-159 banks scoped Grade-4 classification: every process has trivial
+      coin-toss/singleton instrument sections; unitary channels admit no
+      informative refinement; nonunitary covariant decompositions need not be
+      affine, compositional, or material. The complete interface remains open.
+    evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
       packet, lawful finite discriminator, and no-refit transfer. A scoped
@@ -140,8 +140,9 @@ programs:
         evidence_ref: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
       - id: HC-DU-158
         evidence_ref: explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
+      - id: HC-DU-159
+        evidence_ref: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
     remaining_obligations:
-      - Adjudicate the smallest natural-section/no-section arena.
       - Construct the minimal physical selection frontier.
       - Admit material work only after a frontier coordinate survives.
       - Require a complete formed-record packet before reconstruction credit.
@@ -160,88 +161,37 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Known measurement/instrument nonuniqueness, dilation freedom,
-      contextuality and no-programming results, sufficient statistics,
-      process tensors, decoherence/SBS, AQFT measurement schemes, and
-      classical identifiability.
+      Quantum instruments, Choi extremality,
+      no-information-without-disturbance, categorical classical structures,
+      combs/process tensors, dilation freedom, sufficient statistics,
+      decoherence/SBS, AQFT measurement schemes, and classical identifiability.
     cheapest_kill: >-
-      A two-object symmetry or operational-equivalence orbit with no invariant
-      interface point kills a universal section; a known theorem covering the
-      exact statement kills novelty.
+      Swing 1's literal no-section conjecture is killed by
+      \(s_p(\Phi)_x=p_x\Phi\). Swing 2 is killed if removing a
+      target-independent antecedent leaves no uniqueness change or if a known
+      selection theorem already covers the exact frontier.
     stop_rule: >-
       Stop on target coding, an untyped process/interface map, full prior-art
       absorption, a failed typed prerequisite, or any route requiring hardware
-      before new local learning. Only one campaign swing may execute.
+      before new local learning. A prepared later swing is not executable
+      without a separate authorization.
     reopen_rule: >-
-      After a campaign stop, reopen only with a new physical antecedent that
-      changes the exact interface orbit or a source-pinned finite no-refit
-      discriminator under the complete record-packet contract.
+      Swing 2 may activate only by separate direct authorization because
+      HC-DU-159 supplies its scoped interface frontier. After any later
+      scientific stop, require a new physical antecedent that changes the exact
+      interface orbit or a source-pinned finite no-refit discriminator.
     local_computation_boundary: >-
       Literature and formal proof first. Local computation may enumerate one
       finite orbit or verify an exact counterexample. No simulation, provider,
       or external hardware is authorized.
     next_action: >-
-      Execute the smallest instrument no-section admission gate and return one
-      exact section, obstruction, partial frontier, or prior-art absorption.
+      If separately authorized, execute Swing 2: partially order the five
+      target-blind antecedent coordinates and find a unique minimal frontier,
+      an exact antichain of incomparable minima, or a no-finite-frontier result.
     next_action_ref: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
-    execution_packet:
-      action_id: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
-      exact_question: >-
-        In the smallest nontrivial multi-time process arena, can a complete
-        instrument-sampler-archive-provenance-access packet be selected by a
-        natural target-blind assignment respecting symmetries, operational
-        equivalence, mixtures, and composition, or is there an exact
-        no-section obstruction?
-      source_locator:
-        path: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
-        heading: '## Swing 1 activation packet'
-      required_inputs:
-        - path: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
-          role: Ratified campaign, seed registry, controls, and return classes.
-        - path: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-          role: Minimum typed-record and state-only nonselection boundary.
-        - path: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
-          role: Physical antecedent and completion-class stop boundary.
-        - path: explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
-          role: Complete material record-packet benchmark.
-        - path: docs/certified-causal-reality-research-program.md
-          role: Durable target-blind selection, reconstruction, and grading contract.
-      unchanged_ledger_fields:
-        - selected-versus-supplied
-        - complete-process-versus-interface
-        - formation-retention-access-and-sufficiency
-        - observer-action-resource-index
-        - reconstruction-duality-remainder-outcomes
-        - evidence-and-maximum-grade
-        - external-hardware-boundary
-      arena_roles:
-        - constructor-attempting-the-smallest-natural-section
-        - hostile-symmetry-and-operational-equivalence-orbit
-        - strongest-known-theorem-absorber
-        - grade-and-ontology-adjudicator
-      expected_return_classes:
-        - NATURAL_SECTION_FOUND
-        - NO_NATURAL_SECTION
-        - PARTIAL_SELECTION_FRONTIER
-        - KNOWN_RESULT_ABSORPTION
-      observer_index_return_classes:
-        - OBSERVER_INDEX_SELECTED
-        - OBSERVER_INDEX_EXTERNALLY_SUPPLIED
-        - OBSERVER_INDEX_IRRELEVANT_TO_SCOPED_THEOREM
-        - OBSERVER_INDEX_UNDERDETERMINED
-      durable_output: >-
-        explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
-      local_method: >-
-        Formal construction/counterexample and absorber collision first; one
-        exact finite-orbit enumeration only if direct proof is less decisive.
-      uses_program_controls:
-        - premise_status
-        - strongest_absorber
-        - cheapest_kill
-        - stop_rule
-        - local_computation_boundary
     canonical_evidence_refs:
       - explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
+      - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
@@ -684,8 +634,8 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: blocked
-  blocked_by: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
     - instrument-natural-section-or-no-section
@@ -700,9 +650,10 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    Swing 1 alone is executable. Its typed return activates the next campaign
-    gate or stops the funnel. No later swing, parked branch, or new dynamics is
-    authorized before its declared prerequisites survive.
+    HC-DU-159 satisfies Swing 2's scientific prerequisite but does not itself
+    authorize execution. No scientific action is executable in this
+    transition. A separate direct authorization may activate only the
+    counterfactual minimal-selection-frontier gate, not a later campaign swing.
 
 anomaly_intake:
   status: open_non_wip

@@ -1253,6 +1253,19 @@ lottery. A selected kernel still does not select its sampler or archive:
 two covariant labelled instruments can have the same unlabelled channel and
 different conditional records.
 
+**Instrument-section correction.** `HC-DU-159` blocks the stronger claim that
+a bare process admits no natural instrument section. Every channel has
+singleton and process-independent coin-toss sections
+\(\Phi_x=p_x\Phi\). The exact quantum boundary is informativeness: every
+instrument refining a unitary channel is of that trivial form, by rank-one
+Choi support. Some nonunitary channels admit covariant mathematical
+decompositions, including Choi spectral blocks, but covariance does not make
+the construction affine, compositional, or material. A process-to-instrument
+map still selects no sampler, actual outcome, archive, provenance, access
+boundary, or observer index. No-information-without-disturbance, quantum
+instrument/process theory, and categorical classical-structure results absorb
+the mathematical components.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

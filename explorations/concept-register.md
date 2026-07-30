@@ -6403,9 +6403,40 @@ OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
   Material, reconstruction, first-leak, transfer, regional-composition, and
   new-dynamics branches require their typed predecessors.
 - **Status:** **CONCEPT-OPEN / CHARTER-RATIFIED RESEARCH QUESTION /
-  CAMPAIGN-GRADE ONLY / NO SELECTOR, NO-SECTION THEOREM, MATERIAL RECORD,
-  RECONSTRUCTION, REMAINDER, NEW LAW, OR NEW PHYSICS YET.**
+  `HC-DU-159` BANKS THE FIRST SCOPED FRONTIER / MATERIAL RECORD,
+  RECONSTRUCTION, REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
 - **Canonical campaign:** `minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md`.
+
+### 2026-07-30 instrument-section correction
+
+`HC-DU-159` refutes the literal version of `SEED-DU-MPA-02`. For every
+channel \(\Phi\) and probability vector \(p\), the instrument
+
+\[
+\Phi_x=p_x\Phi
+\]
+
+is a representation-covariant, affine natural section of the
+instrument-forgetful map; singleton and process-independent coin-toss
+sections therefore always exist. A universal “no instrument section”
+theorem is false.
+
+The informative version survives on an exact scoped boundary. If a quantum
+instrument sums to a unitary channel, rank-one Choi support forces every
+component to be \(p_x\Phi_U\), so its label contains no input information.
+Nonunitary processes can admit nontrivial mathematical sections: Choi
+spectral blocks give one covariant construction, but it is neither affine nor
+compositional and does not select a sampler, realized outcome, archive,
+provenance, observer access, or action envelope. The complete packet's
+observer index therefore remains externally supplied.
+
+**Updated seed:** `SEED-DU-MPA-02` now asks for a no-section theorem for an
+**informative, nondisturbing, complete material record packet**, with the
+relevant morphisms and antecedent fibre declared. Known quantum-instrument,
+no-information-without-disturbance, process-theory, and categorical copying
+results absorb the components. The DU increment is the exact five-coordinate
+selection frontier: information, disturbance/process extension, classical
+structure, material realization/provenance, and observer access.
 
 ## Boundary
 
