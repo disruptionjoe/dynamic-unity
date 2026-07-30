@@ -4306,3 +4306,39 @@ The artifact is
 only a source-pinned workflow/executable boundary and command/actuation
 nonidentification control. It does not show a lost pulse, laboratory defect,
 physical remainder, ontology, or new physics.
+
+## HC-DU-171 public-sidecar availability audit
+
+`du_public_sidecar_availability_audit.py` pins the final supplement, complete
+Zenodo record, official Riverlane/Rigetti public-repository inventories, and
+five plausible Riverlane source checkouts. It verifies:
+
+- the Zenodo deposit contains the exact 18 published data files and no
+  executable/configuration sidecar;
+- official repository metadata and the pinned plausible source trees contain
+  no experiment companion, prototype compiler, or exact implementation
+  artifact;
+- QECIPHY postdates the archived experiment packet and is a generic interface;
+  and
+- one exact twin keeps the later interface view fixed while changing
+  historical executable identity and held-out actuation.
+
+Run:
+
+```bash
+python3 tests/du_public_sidecar_availability_audit.py \
+  --zenodo-record /path/to/zenodo-record-15364358.json \
+  --riverlane-repos /path/to/riverlane-public-repos.json \
+  --rigetti-repos /path/to/rigetti-public-repos.json \
+  --qeciphy-repo /path/to/qeciphy-repo.json \
+  --nature-supplement /path/to/final-supplement.pdf \
+  --riverlane-checkouts /path/to/pinned-riverlane-checkouts \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_public_sidecar_availability_result.json`. Passing establishes
+absence only on the declared frozen public surfaces and a historical
+non-substitution control. It does not prove private or global absence,
+evaluate the experiment, establish a physical remainder, or support new
+physics.

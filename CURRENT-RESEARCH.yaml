@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 124
+state_revision: 125
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-170 recovers controller workflow and makes completeness
-    target/fault-relative. Executable, actuation, attempt, and archive
-    lineage remain absent; no successor.
+    HC-DU-171 closes the bounded public-sidecar search. Exact executable,
+    attempt, actuation, and archive lineage remain external-custody
+    dependencies; no successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -114,8 +114,8 @@ programs:
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
       HC-DU-165--167 bank boundaries and calibration; HC-DU-168/169 supply
-      the joined packet and coordinate split; HC-DU-170 makes implementation
-      completeness target/fault-relative.
+      the joined packet and coordinate split; HC-DU-170/171 make completeness
+      target/fault-relative and close the public search.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -161,9 +161,11 @@ programs:
         evidence_ref: explorations/action-equivalent-decoder-certificates-resource-timing-split-and-heldout-status-join-boundary-2026-07-30.md
       - id: HC-DU-170
         evidence_ref: explorations/controller-sidecar-recovery-command-actuation-nonidentification-and-fault-relative-completeness-2026-07-30.md
+      - id: HC-DU-171
+        evidence_ref: explorations/public-implementation-sidecar-availability-and-successor-interface-nonsubstitution-2026-07-30.md
     remaining_obligations:
       - Freeze the implementation target, fault class, and environment scope; require only the fields needed to make that target constant on the implementation fibre.
-      - For this QEC packet, add all-attempt dispositions, exact executable/configuration identity, target-sufficient actuation/route evidence, and archive lineage/access/reset.
+      - For this QEC packet, external custody must supply all-attempt dispositions, exact executable/configuration identity, target-sufficient actuation/route evidence, and archive lineage/access/reset.
       - Prove that its physical response kernel factors through the material archive rather than only a fitted reduced instrument.
       - Test behavioral minimality apart from provenance completeness.
       - Keep action-finality, timing/resource-finality, response-finality, and provenance-finality separate; a held-out timing test requires decoder status or a stable row join.
@@ -204,11 +206,11 @@ programs:
       before new local learning. A prepared later swing is not executable
       without a separate authorization.
     reopen_rule: >-
-      Returned-shot, workflow, route-architecture, and aggregate-feedback
-      terms are satisfied. Reopen only with a source-pinned packet complete
-      for a frozen target/fault/environment class: all-attempt dispositions,
-      executable/configuration identity, target-sufficient actuation/route
-      evidence, archive lineage/access/reset, factorization, and minimality.
+      Public searching is closed. Reopen only on a new source release or
+      source-pinned custody packet complete for a frozen
+      target/fault/environment class: dispositions, executable/configuration
+      identity, actuation/route evidence, archive lineage/access/reset,
+      factorization, and minimality.
     local_computation_boundary: >-
       Literature and formal proof first. Local computation may enumerate one
       finite orbit or verify an exact counterexample. No simulation, provider,
@@ -224,6 +226,7 @@ programs:
       - explorations/rigetti-real-time-qec-returned-shot-record-action-response-packet-and-implementation-boundary-2026-07-30.md
       - explorations/action-equivalent-decoder-certificates-resource-timing-split-and-heldout-status-join-boundary-2026-07-30.md
       - explorations/controller-sidecar-recovery-command-actuation-nonidentification-and-fault-relative-completeness-2026-07-30.md
+      - explorations/public-implementation-sidecar-availability-and-successor-interface-nonsubstitution-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md

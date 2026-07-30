@@ -1,0 +1,92 @@
+{
+  "claim_id": "HC-DU-171",
+  "run_id": "RUN-20260730-161103-public-sidecar-availability-audit",
+  "status": "PASS",
+  "bounded_surfaces": {
+    "nature_supplement": {
+      "file": "du-nature-2026-supplement.pdf",
+      "sha256": "e5f2ef9eabd2831d85daa74569cf95175d114a97c2a127e41d9e32f2c9f2cd95",
+      "embedded_file_marker": false
+    },
+    "zenodo": {
+      "record_id": 15364358,
+      "concept_record_id": "13961129",
+      "updated": "2025-05-08T14:00:31.812241+00:00",
+      "file_count": 18,
+      "files": [
+        "decoder_timings_each_repetition.csv",
+        "defect_rates_per_round.txt",
+        "defect_rates_per_round_stability_9.txt",
+        "fast_feedback_raw_data.h5",
+        "fig4b_decoding_response_time.csv",
+        "figS4c_feedback_response_time_probability_density_data.csv",
+        "figS4c_feedback_response_time_probability_density_fit_parameters.csv",
+        "figS4d_t1_time_fitting.csv",
+        "lep_belief_matching.txt",
+        "lep_fpga.txt",
+        "lep_mwpm.txt",
+        "lep_mwpm_soft_info_pairwise_correlation_graph.txt",
+        "lep_mwpm_soft_info_pairwise_correlation_graph_with_resets.txt",
+        "lep_mwpm_stability_9.txt",
+        "mean_decoding_time.txt",
+        "stability_8_with_resets_raw_data.h5",
+        "stability_8_without_resets_raw_data.h5",
+        "stability_9_raw_data.h5"
+      ],
+      "executable_sidecars": []
+    },
+    "official_public_repository_inventories": {
+      "riverlane_repository_count": 13,
+      "rigetti_repository_count": 59,
+      "inventory_term_hits": {
+        "riverlane": [],
+        "rigetti": []
+      }
+    },
+    "relevant_riverlane_checkout_scan": {
+      "commits": {
+        "ACID": "801b2ab41d2ee2a6f78f8b7624335c003b2bb81b",
+        "QHAL": "e61b9b80e5a54f277cb65854f62a51c23981ec62",
+        "QStone": "3aa26d5b45ecf282438d5d4eb68b84dae1574aeb",
+        "qeciphy": "a88289e25f1511ffc75959478799632eea2123b7",
+        "soft_information_models": "25f493206c210d53a954539859d76b6d7ca3db79"
+      },
+      "term_hits": []
+    },
+    "qeciphy": {
+      "created_at": "2025-10-11T15:32:04Z",
+      "description": "A robust, open-source physical layer implementation for FPGA-to-FPGA communication over high-speed serial links of the Quantum Error Correction interface (QECi) PHY layer.",
+      "historical_mapping_or_digest_found": false
+    }
+  },
+  "checks_passed": 25,
+  "successor_non_substitution_twin": {
+    "visible_fields": [
+      "later_interface_view"
+    ],
+    "historical_a": {
+      "later_interface_view": "generic_qec_link_v1",
+      "historical_executable_digest": "program-A",
+      "historical_route_state": "route-A",
+      "held_out_target": "actuation-A"
+    },
+    "historical_b": {
+      "later_interface_view": "generic_qec_link_v1",
+      "historical_executable_digest": "program-B",
+      "historical_route_state": "route-B",
+      "held_out_target": "actuation-B"
+    },
+    "same_successor_interface_view": true,
+    "different_historical_identity": true,
+    "different_held_out_target": true
+  },
+  "disposition": [
+    "BOUNDED_PUBLIC_SIDECAR_SEARCH_COMPLETE",
+    "NO_EXACT_EXECUTABLE_OR_LINEAGE_SIDECAR_FOUND",
+    "EXTERNAL_CUSTODY_DEPENDENCY_CONFIRMED",
+    "LATER_OPEN_INTERFACE_NOT_HISTORICAL_REPAIR",
+    "PUBLIC_SEARCH_STOP",
+    "NO_READY_SUCCESSOR"
+  ],
+  "scientific_nonclaim": "Passing establishes absence on the declared, frozen public surfaces and a provenance non-substitution control. It does not prove global or private absence, evaluate the experiment, establish a physical remainder, or support new physics."
+}

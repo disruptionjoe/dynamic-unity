@@ -6870,6 +6870,27 @@ passport fibre.
 threat-model-relative, but remains unmet. Descriptive command semantics and
 aggregate physical feedback do not identify per-attempt physical actuation.
 
+### 2026-07-30 public-sidecar availability closure
+
+`HC-DU-171` audits the final article, supplement, complete Zenodo inventory,
+official Riverlane/Rigetti repository inventories, five plausible Riverlane
+source repositories, and the later QECi/QECIPHY release. No exact historical
+program, compiler, assembly, binary, firmware, configuration digest,
+all-attempt control log, or archive lineage appears on those bounded public
+surfaces.
+
+A later open interface does not repair historical provenance merely by being
+functionally compatible. If two historical implementations have the same
+successor-interface view but different executable identities or held-out
+targets, the successor cannot select between them without a source-pinned
+mapping, digest, or contemporaneous certificate.
+
+**Updated seed status:** the Rigetti/Riverlane specimen is exhausted at its
+public ceiling. The remaining reopener is an external-custody dependency.
+QECi/QECIPHY is a candidate future co-design surface, not a retroactive
+historical sidecar. Stop public searching unless a source release or custody
+condition changes.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
