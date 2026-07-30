@@ -9,8 +9,9 @@ check. It verifies that the physical-descent campaign contains ten ordered
 and complete swing cards; preserves the Science Council, triple-diamond,
 counterfactual, naturality, control, adjoint, value-of-information,
 gauge/QFT, direct-action, metrology, adversarial, and overbuild-protection
-lenses; activates only Swing 1; blocks later swings on typed returns; and
-matches the live `CURRENT-RESEARCH.yaml` execution packet. Run with
+lenses; permits only Swing 1 before a typed return; and matches either its
+live `CURRENT-RESEARCH.yaml` execution packet or its governed additive
+disposition. Run with
 `--write-artifact` only when intentionally refreshing its deterministic
 receipt. Passing establishes campaign completeness and routing only, never
 physics, novelty, a theorem, a prediction, paper readiness, hardware

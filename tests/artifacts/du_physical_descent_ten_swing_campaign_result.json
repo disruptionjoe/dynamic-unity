@@ -38,29 +38,31 @@
       "detail": "typed ledger, evidence-grade, and external-action guards are explicit"
     },
     {
-      "id": "live_swing_one_routing",
+      "id": "swing_one_lifecycle_routing",
       "pass": true,
-      "detail": "current authority routes exactly the selected program and Swing 1"
+      "detail": "current authority either routes Swing 1 or records its governed HC-DU-152 disposition"
     },
     {
-      "id": "later_swings_blocked",
+      "id": "conditional_successor_lifecycle",
       "pass": true,
-      "detail": "successor selection is blocked by the live Swing-1 return"
+      "detail": "later swings remain conditional before completion and are not silently activated afterward"
     },
     {
       "id": "source_locator_resolves",
       "pass": true,
-      "detail": "the embedded execution packet resolves to the Swing-1 card"
+      "detail": "the live source locator or completed evidence chain resolves"
     }
   ],
   "scientific_claim": "none",
-  "active_program": "CCR-PHYSICAL-RECORD-INTERFACE-SELECTION",
-  "active_action": "PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION",
+  "campaign_state": "SWING_1_COMPLETED",
+  "program": "CCR-PHYSICAL-RECORD-INTERFACE-SELECTION",
+  "action": "PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION",
+  "completion": "HC-DU-152",
   "prepared_swings": 10,
-  "executable_swings": 1,
+  "executable_swings": 0,
   "limitations": [
     "Does not validate any physical model or scientific claim.",
-    "Does not authorize Swings 2-10, hardware, publication, or contact.",
+    "Does not authorize later swings, hardware, publication, or contact.",
     "Does not establish novelty, paper readiness, or a North-Star result."
   ]
 }

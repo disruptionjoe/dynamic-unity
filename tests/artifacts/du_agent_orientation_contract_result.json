@@ -1,10 +1,10 @@
 {
-  "active_scientific_program": "CCR-PHYSICAL-RECORD-INTERFACE-SELECTION",
+  "active_scientific_program": null,
   "authority": "CURRENT-RESEARCH.yaml",
   "checks_passed": 37,
-  "cold_start_words": 5918,
+  "cold_start_words": 5856,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
-  "executable_action": "PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION",
+  "executable_action": null,
   "prepared_publication_candidate": "DU-PAPER-013",
   "probe": "du_agent_orientation_contract_probe",
   "scope": "current_research_authority_and_cold_start_governance_only",

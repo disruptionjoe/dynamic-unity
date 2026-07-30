@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 104
+state_revision: 105
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -77,13 +77,14 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
-  executable_action_id: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    Activate one GIE apparatus-class audit for HC-DU-151. Later swings are
-    conditional; no claim or grade changes.
+    HC-DU-152 returns UNSELECTED_INTERFACE: the audited GIE source names the
+    apparatus and a qualitative heavy/homogeneous regime but selects no
+    physical completion class. No later campaign swing is ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -349,10 +350,9 @@ programs:
   - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: active
-    execution_status: executable
-    wip_slot: scientific_flagship
-    active_work_id: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -366,9 +366,11 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Test physical apparatus-class selection for descent or lawful remainder.
+      Parked after testing one source-pinned GIE apparatus class for physical
+      descent or lawful remainder.
     current_grade: >-
-      HC-DU-137--151 bank Grade-4 interface-to-apparatus boundaries.
+      HC-DU-137--152 bank Grade-4 interface-to-apparatus boundaries,
+      including a source-pinned apparatus-class nonselection result.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for lawful remainder or prediction.
@@ -380,9 +382,9 @@ programs:
         evidence_ref: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
       - id: PDSI-CAMPAIGN-01
         evidence_ref: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
-    remaining_obligations:
-      - Extract a physical apparatus class or exact supply boundary.
-      - Gate all continuation on typed predecessor returns.
+      - id: HC-DU-152
+        evidence_ref: explorations/christodoulou-gie-apparatus-class-selection-and-descent-boundary-2026-07-30.md
+    remaining_obligations: []
     typed_dependencies:
       - type: requires
         target: HC-DU-126
@@ -391,61 +393,29 @@ programs:
         target: PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: requirement
     strongest_absorber: >-
-      Relational observables, Ward identities, Gaussian influence functionals,
-      and apparatus limits.
+      Christodoulou et al. explicitly require apparatus stress and identify a
+      heavy, homogeneous sufficient regime; Ward identities, Gaussian
+      influence functionals, and effective-apparatus limits absorb the pieces.
     cheapest_kill: >-
-      The source supplies a nominal apparatus but no variation law.
+      Met. The source supplies qualitative apparatus conditions but no
+      dynamics, variation class, norm, error bound, or no-refit transfer.
     stop_rule: >-
-      Stop at a supply boundary; do not simulate, design hardware, or infer correction.
+      Stop at the earned supply boundary; do not invent an apparatus class,
+      simulate it, design hardware, or infer a phase correction.
     reopen_rule: >-
-      Later swings require their named predecessor return.
+      Require one source-pinned dynamical apparatus packet that selects a
+      normed completion class and either proves a uniform HC-DU-151 bound or
+      gives a same-contract no-refit probability difference.
     local_computation_boundary: >-
-      Source reconstruction first; compute only exact decision boundaries. No hardware.
-    next_action: >-
-      Reconstruct one GIE model's apparatus, response, variation class, and supply boundary.
-    next_action_ref: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
-    execution_packet:
-      action_id: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
-      exact_question: >-
-        Does one GIE model select the controller class required by HC-DU-151?
-      source_locator:
-        path: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
-        heading: '## Swing 1 — physical apparatus class extraction'
-      required_inputs:
-        - path: explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
-          role: controller-completion boundary
-        - path: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
-          role: exact descent criterion
-        - path: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
-          role: campaign ledger and gates
-      unchanged_ledger_fields:
-        - model, approximation, response, and variation domain
-        - source, controller, boundary, and gauge
-        - observer, target, calibration, resources, and no-refit rule
-      arena_roles:
-        - primary-source GIE apparatus
-        - HC-DU-151 orthogonality criterion
-        - supplied-interface hostile control
-      expected_return_classes:
-        - SELECTED_PHYSICAL_CLASS
-        - PARTIAL_PHYSICAL_TYPING
-        - UNSELECTED_INTERFACE
-      observer_index_return_classes:
-        - PHYSICAL_OBSERVER_CONTROLLER_SELECTED
-        - OBSERVER_OR_CONTROLLER_SUPPLIED
-        - NO_OBSERVER_INDEX_NEEDED_AT_THIS_GATE
-      durable_output: >-
-        Typed apparatus passport, supply audit, and next state.
-      local_method: >-
-        Source reconstruction and symmetry audit; no simulation or hardware.
-      uses_program_controls:
-        - strongest_absorber
-        - cheapest_kill
-        - stop_rule
+      Primary-source reconstruction decided the gate. Local apparatus
+      construction would only replay HC-DU-151 and is disallowed; no hardware.
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
       - explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
       - explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
       - explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
+      - explorations/christodoulou-gie-apparatus-class-selection-and-descent-boundary-2026-07-30.md
 
   - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
     kind: supporting_branch
@@ -730,17 +700,18 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: blocked
-  blocked_by: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - physical-apparatus-tangent-and-response-span
-    - equivariant-interface-nonselection-theorem
-    - direct-action-field-first-operational-leak
-    - formation-provenance-intervention
+    - source-selected-normed-apparatus-completion-class
+    - physical-automorphism-interface-nonselection
+    - closed-direct-action-versus-field-probability-packet
+    - formed-provenance-intervention-packet
     - no-ready-successor
   decision_rule: >-
-    Route only from Swing 1's typed return; never bypass a missing physical class.
+    HC-DU-152 supplies no physical class, so no prepared later swing activates.
+    Reopen only from a source-pinned packet meeting the parked program's rule.
 
 anomaly_intake:
   status: open_non_wip

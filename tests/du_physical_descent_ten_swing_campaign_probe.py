@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Validate the physical-descent ten-swing campaign contract.
+"""Validate the physical-descent ten-swing campaign contract and lifecycle.
 
-Passing establishes method completeness, conditional ordering, and live
-Swing-1 routing only. It establishes no physics, theorem, novelty, prediction,
-scientific grade, paper readiness, or authorization beyond the active action.
+Passing establishes method completeness, conditional ordering, and either
+live Swing-1 routing or an additive governed Swing-1 disposition. It
+establishes no physics, theorem, novelty, prediction, scientific grade, paper
+readiness, or authorization beyond the current authority.
 """
 
 from __future__ import annotations
@@ -31,6 +32,11 @@ ARTIFACT = (
 )
 PROGRAM_ID = "CCR-PHYSICAL-RECORD-INTERFACE-SELECTION"
 ACTION_ID = "PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION"
+COMPLETION_ID = "HC-DU-152"
+COMPLETION_REF = (
+    "explorations/"
+    "christodoulou-gie-apparatus-class-selection-and-descent-boundary-2026-07-30.md"
+)
 
 EXPECTED_TITLES = [
     "physical apparatus class extraction",
@@ -163,43 +169,75 @@ def main() -> None:
     program = programs[PROGRAM_ID]
     decision = current["current_decision"]
     successor = current["successor_selection"]
-    check(
-        "live_swing_one_routing",
+    completed = {
+        item["id"]: item["evidence_ref"]
+        for item in program.get("completed_dependencies", [])
+    }
+    live_swing_one = (
         program["portfolio_status"] == "active"
         and program["execution_status"] == "executable"
-        and program["active_work_id"] == ACTION_ID
+        and program.get("active_work_id") == ACTION_ID
         and decision["active_scientific_program_id"] == PROGRAM_ID
         and decision["executable_action_id"] == ACTION_ID
-        and program["execution_packet"]["action_id"] == ACTION_ID,
-        "current authority routes exactly the selected program and Swing 1",
+        and program.get("execution_packet", {}).get("action_id") == ACTION_ID
+    )
+    completed_swing_one = (
+        completed.get(COMPLETION_ID) == COMPLETION_REF
+        and program.get("active_work_id") != ACTION_ID
+        and program.get("execution_packet", {}).get("action_id") != ACTION_ID
     )
     check(
-        "later_swings_blocked",
-        successor["status"] == "blocked"
-        and successor["blocked_by"] == ACTION_ID
-        and successor["selected_successor_id"] is None,
-        "successor selection is blocked by the live Swing-1 return",
+        "swing_one_lifecycle_routing",
+        live_swing_one or completed_swing_one,
+        "current authority either routes Swing 1 or records its governed HC-DU-152 disposition",
+    )
+    check(
+        "conditional_successor_lifecycle",
+        (
+            live_swing_one
+            and successor["status"] == "blocked"
+            and successor["blocked_by"] == ACTION_ID
+            and successor["selected_successor_id"] is None
+        )
+        or (
+            completed_swing_one
+            and successor["blocked_by"] != ACTION_ID
+            and successor["selected_successor_id"] is None
+        ),
+        "later swings remain conditional before completion and are not silently activated afterward",
     )
     check(
         "source_locator_resolves",
-        program["execution_packet"]["source_locator"]["path"]
-        == str(CAMPAIGN.relative_to(ROOT))
-        and program["execution_packet"]["source_locator"]["heading"] in text,
-        "the embedded execution packet resolves to the Swing-1 card",
+        (
+            live_swing_one
+            and program["execution_packet"]["source_locator"]["path"]
+            == str(CAMPAIGN.relative_to(ROOT))
+            and program["execution_packet"]["source_locator"]["heading"] in text
+        )
+        or (
+            completed_swing_one
+            and str(CAMPAIGN.relative_to(ROOT))
+            in program["canonical_evidence_refs"]
+            and (ROOT / COMPLETION_REF).is_file()
+        ),
+        "the live source locator or completed evidence chain resolves",
     )
 
+    campaign_state = "LIVE_SWING_1" if live_swing_one else "SWING_1_COMPLETED"
     result = {
         "probe": "du_physical_descent_ten_swing_campaign_probe",
         "status": "PASS",
         "checks": checks,
         "scientific_claim": "none",
-        "active_program": PROGRAM_ID,
-        "active_action": ACTION_ID,
+        "campaign_state": campaign_state,
+        "program": PROGRAM_ID,
+        "action": ACTION_ID,
+        "completion": COMPLETION_ID if completed_swing_one else None,
         "prepared_swings": 10,
-        "executable_swings": 1,
+        "executable_swings": 1 if live_swing_one else 0,
         "limitations": [
             "Does not validate any physical model or scientific claim.",
-            "Does not authorize Swings 2-10, hardware, publication, or contact.",
+            "Does not authorize later swings, hardware, publication, or contact.",
             "Does not establish novelty, paper readiness, or a North-Star result.",
         ],
     }
