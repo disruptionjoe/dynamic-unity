@@ -5850,6 +5850,45 @@ MODEL-CLASS TEST PRESERVED / NO OBSERVED PACKET, UNIQUE FIELD ONTOLOGY, DU
 PREDICTION, HARDWARE PATH, NEW PHYSICS, OR READY SUCCESSOR.** See
 `quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md`.
 
+### 2026-07-30 relational phase-decomposition boundary
+
+`HC-DU-149` sharpens the phase reopener by separating a complete relational
+outcome probability from the commutator-labelled pieces of one Hamiltonian
+decomposition. The 2025 Chen--Giacomini calculation uses temporal gauge,
+neglects probe back-reaction and declared longitudinal/source/probe
+commutators, and displays a Zassenhaus expansion through \(t^3\). Those are
+legitimate proposal assumptions, not yet an invariance proof for every named
+piece.
+
+The same authors' 2026 quantum-reference-field construction is a material
+positive bridge: physical scalar reference fields enter the gravitational
+constraints and back-react; relational observables are gauge invariant;
+unitary perspective maps and a relational measurement outline are supplied.
+The inspected work does not explicitly transport the 2025 phase into that
+framework, and the complete relativistic operational theory remains open.
+
+The exact finite control fixes \(H=X+Z\) while varying
+\(H_0^{(\alpha)}=(1-\alpha)X\) and
+\(H_I^{(\alpha)}=Z+\alpha X\). Exact evolution is unchanged, but the labelled
+commutator is \((1-\alpha)[X,Z]\) and vanishes at \(\alpha=1\). A second
+control proves that transforming state, evolution, and readout together
+preserves the probability, whereas retaining the old readout does not.
+
+The admissible empirical target is therefore one no-refit relational joint
+source--probe probability surface, completed or bounded at the same
+perturbative order and invariant across admitted reference perspectives. The
+generic split theorem does not prove that the gravitational phase is gauge
+dependent or false.
+
+**Updated status:** **CONCEPT-OPEN / COMPLETE RELATIONAL PROBABILITY
+SEPARATED FROM DECOMPOSITION-LABELLED PHASE PIECES / EXACT SPLIT
+NONIDENTIFIABILITY AND RELATIONAL-COVARIANCE CONTROL / PHYSICAL
+QUANTUM-REFERENCE-FIELD BRIDGE IDENTIFIED / PHASE TRANSPORT, PROBE AND
+REFERENCE BACK-REACTION, SAME-ORDER COMPLETION, AND ACQUISITION OPEN /
+CONDITIONAL PHASE-SURFACE REOPENER PRESERVED / NO DU PREDICTION, HARDWARE
+PATH, NEW PHYSICS, OR READY SUCCESSOR.** See
+`quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md`.
+
 ## CONCEPT-DU-018 — typed probability boundary ladder
 
 - **Concept.** Probability may be the natural dynamical boundary coordinate

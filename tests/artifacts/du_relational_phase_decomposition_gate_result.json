@@ -1,0 +1,76 @@
+{
+  "arena": {
+    "hilbert_dimension": 2,
+    "perspective_rotation": "exp(-i 0.61 Z / 2)",
+    "split_family": "H0(alpha)=(1-alpha)X; HI(alpha)=Z+alpha X",
+    "time": 0.37,
+    "tolerance": 1e-12,
+    "total_hamiltonian": "X + Z"
+  },
+  "assertions": {
+    "all_splits_have_same_total_hamiltonian": true,
+    "equivalent_split_has_zero_labelled_commutator": true,
+    "labelled_commutator_varies_across_equivalent_splits": true,
+    "original_split_has_nonzero_labelled_commutator": true,
+    "relational_probability_is_frame_invariant": true,
+    "untransformed_readout_is_positive_control": true
+  },
+  "claim_id": "HC-DU-149",
+  "exact_total_propagator": [
+    [
+      {
+        "imag": -0.353345312050805,
+        "real": 0.866195232556402
+      },
+      {
+        "imag": -0.353345312050805,
+        "real": 0.0
+      }
+    ],
+    [
+      {
+        "imag": -0.353345312050805,
+        "real": 0.0
+      },
+      {
+        "imag": 0.353345312050805,
+        "real": 0.866195232556402
+      }
+    ]
+  ],
+  "maximum_total_hamiltonian_delta": 0.0,
+  "probabilities": {
+    "base_joint_contract": 0.806066024744561,
+    "fully_transformed_relational_contract": 0.806066024744561,
+    "transformed_state_and_dynamics_but_fixed_readout": 0.965775971382887
+  },
+  "scope": "Exact finite decomposition and relational-covariance control only; not a gravitational gauge calculation.",
+  "split_rows": [
+    {
+      "alpha": 0.0,
+      "labelled_commutator_frobenius_norm": 2.8284271247461903,
+      "total_hamiltonian_delta": 0.0
+    },
+    {
+      "alpha": 0.25,
+      "labelled_commutator_frobenius_norm": 2.1213203435596424,
+      "total_hamiltonian_delta": 0.0
+    },
+    {
+      "alpha": 0.5,
+      "labelled_commutator_frobenius_norm": 1.4142135623730951,
+      "total_hamiltonian_delta": 0.0
+    },
+    {
+      "alpha": 0.75,
+      "labelled_commutator_frobenius_norm": 0.7071067811865476,
+      "total_hamiltonian_delta": 0.0
+    },
+    {
+      "alpha": 1.0,
+      "labelled_commutator_frobenius_norm": 0.0,
+      "total_hamiltonian_delta": 0.0
+    }
+  ],
+  "theorem_statement": "The total evolution and relational endpoint probabilities can remain fixed while the commutator assigned to a chosen free/interaction split varies continuously and vanishes in an equivalent split. A commutator-labelled phase component is therefore not separately identifiable without a physically selected, invariant decomposition and measurement contract."
+}

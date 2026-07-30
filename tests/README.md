@@ -3586,6 +3586,35 @@ phase's conditional excess over Newtonian and declared classical models,
 observe a gravity signal, authorize hardware, add a DU prediction, or promote
 a paper.
 
+## HC-DU-149 relational phase-decomposition gate
+
+`du_relational_phase_decomposition_gate_probe.py` preserves the exact finite
+control used to distinguish a complete relational outcome probability from
+the commutator-labelled pieces of one Hamiltonian split:
+
+- \(H=X+Z\) is held fixed;
+- \(H_0^{(\alpha)}=(1-\alpha)X\) and
+  \(H_I^{(\alpha)}=Z+\alpha X\) give five exactly equivalent tested splits;
+- the labelled commutator norm varies continuously from \(2\sqrt2\) to zero;
+- the exact propagator and endpoint contract stay fixed;
+- jointly transforming state, evolution, and readout preserves the Born
+  probability; and
+- transforming state and evolution while retaining the old readout changes
+  it, providing the positive control.
+
+Run:
+
+```bash
+python3 tests/du_relational_phase_decomposition_gate_probe.py --write-artifact
+```
+
+Passing proves only scoped Hamiltonian-split nonidentifiability and unitary
+relational-probability covariance. It is not a diffeomorphism or gravitational
+gauge calculation; it does not show that the Chen--Giacomini phase is
+gauge-dependent, reproduce or refute that phase, complete probe/reference
+back-reaction, select a physical decomposition, observe gravity, authorize
+hardware, add a DU prediction, or promote a paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It
