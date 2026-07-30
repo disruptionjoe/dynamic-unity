@@ -1345,6 +1345,24 @@ only with an implementation-complete material packet; more tomography alone
 cannot select archive, provenance, retention, reset, access, or physical
 dilation.
 
+**Minimal-instrument-dilation correction.** `HC-DU-165` closes the tempting
+repair in which the arbitrary physical dilation is replaced by the minimal
+one. For outcome map \(\mathcal E_x\), Liouville rank and Choi/Kraus rank are
+different invariants. The former tests whether the outcome label fixes all
+later system responses; the latter fixes the multiplicity of that outcome in
+an abstract minimal normal apparatus. Exact qubit controls realize both
+\((4,1)\) and \((1,4)\), so neither rank substitutes for the other. Standard
+minimal measurement theory gives
+\(\mathcal K_{\min}=\bigoplus_x\mathbb C^{r_x}\), unique up to
+outcome-preserving unitaries. Under the full within-sector gauge, the
+pointwise fixed apparatus algebra is only
+\(\bigoplus_x\mathbb CI_{r_x}\), the supplied outcome-sector algebra.
+Minimality therefore selects no physical carrier, provenance token,
+retention/reset process, observer access, or realized outcome. A concrete
+Hamiltonian, material apparatus, environment, or archive may break the
+gauge, but that is an additional physical antecedent. The
+implementation-complete reopener remains in force.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

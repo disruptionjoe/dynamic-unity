@@ -1,0 +1,75 @@
+{
+  "boundary": "The exact controls distinguish operational response rank from minimal Kraus multiplicity and show that only outcome-sector scalars are pointwise fixed under the tested full sector gauge. They do not select a material realization.",
+  "checks": {
+    "coin_identity_separates_operational_and_kraus_rank": true,
+    "cross_sector_token_is_not_fixed": true,
+    "fixed_algebra_dimension_equals_outcome_count": true,
+    "ideal_outcomes_have_rank_pair_1_1": true,
+    "minimal_normal_dimension_profiles_follow_choi_ranks": true,
+    "minimality_does_not_equal_operational_label_sufficiency": true,
+    "outcome_sector_identities_are_fixed": true,
+    "rational_within_sector_kraus_rotation_preserves_map": true,
+    "redundant_kraus_coordinates_preserve_coin_map": true,
+    "replacer_separates_kraus_and_operational_rank": true,
+    "within_sector_basis_token_is_not_fixed": true
+  },
+  "claim_id": "HC-DU-165",
+  "gauge_controls": {
+    "ambient_operator_dimension": 9,
+    "constraint_rank": 7,
+    "fixed_algebra_dimension": 2,
+    "fixed_basis": [
+      "identity_on_outcome_sector_0",
+      "identity_on_outcome_sector_1"
+    ],
+    "rational_kraus_rotation_preserves_map": true,
+    "redundant_two_coordinate_coin_realization_preserves_map": true,
+    "sector_profile": [
+      1,
+      2
+    ]
+  },
+  "minimal_normal_apparatus_profiles": {
+    "coin_two_outcome": {
+      "sector_choi_ranks": [
+        1,
+        1
+      ],
+      "total_dimension": 2
+    },
+    "one_outcome_depolarizing_replacer": {
+      "sector_choi_ranks": [
+        4
+      ],
+      "total_dimension": 4
+    },
+    "projective_two_outcome": {
+      "sector_choi_ranks": [
+        1,
+        1
+      ],
+      "total_dimension": 2
+    }
+  },
+  "probe": "du_minimal_instrument_dilation_invariant_probe",
+  "rank_table": {
+    "coin_identity_outcome": {
+      "choi_rank": 1,
+      "liouville_rank": 4
+    },
+    "depolarizing_replacer": {
+      "choi_rank": 4,
+      "liouville_rank": 1
+    },
+    "ideal_0": {
+      "choi_rank": 1,
+      "liouville_rank": 1
+    },
+    "ideal_1": {
+      "choi_rank": 1,
+      "liouville_rank": 1
+    }
+  },
+  "scope": "finite-dimensional rank separation, minimal normal apparatus multiplicity, Kraus gauge, and fixed-algebra controls",
+  "status": "PASS"
+}

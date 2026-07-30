@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 118
+state_revision: 119
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,12 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-164 completed the bounded QND-tomography reopener audit.
-    Outcome-conditioned process tomography satisfies the operational-process
-    rung, but the pinned public packet contains aggregate counts rather than
-    an implementation-complete material archive. Exact dilation twins show
-    that even perfect accessible instrument tomography cannot select hidden
-    archive support. The campaign remains parked with no ready scientific
+    HC-DU-165 completed the bounded minimal-instrument-dilation audit.
+    Choi ranks fix abstract minimal apparatus sectors; independent Liouville
+    ranks test label sufficiency. Only the supplied outcome algebra survives
+    within-sector unitary gauge. No material carrier, archive, provenance,
+    reset, or access is selected. The campaign remains parked with no ready
     successor.
 
 programs:
@@ -117,13 +116,11 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-164 banks a scoped Grade-4 operational/material boundary. QND
-      tomography reconstructs a fitted outcome-conditioned reduced
-      instrument and supplies a rank-one operational label-sufficiency test.
-      It does not select the instrument's material dilation, archive,
-      provenance, retention, reset, or access. Exact dilation twins have the
-      same accessible instrument for every input and system-side action but
-      different hidden archive support.
+      HC-DU-165 banks a scoped Grade-4 minimal-representation/material
+      boundary. Independent Liouville and Choi ranks test label sufficiency
+      and minimal Kraus multiplicity respectively. The full within-sector
+      unitary gauge fixes only the supplied outcome algebra, not a material
+      carrier, archive, provenance, reset, access, or realized outcome.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -157,11 +154,14 @@ programs:
         evidence_ref: explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md
       - id: HC-DU-164
         evidence_ref: explorations/qnd-tomography-operational-closure-label-sufficiency-and-material-dilation-boundary-2026-07-30.md
+      - id: HC-DU-165
+        evidence_ref: explorations/minimal-instrument-dilation-outcome-sector-invariant-and-material-archive-gauge-boundary-2026-07-30.md
     remaining_obligations:
       - Source-pin an implementation-complete joined acquisition packet and complete archive.
       - Prove that its physical response kernel factors through the material archive rather than only a fitted reduced instrument.
       - Test behavioral minimality apart from provenance completeness.
       - Keep operational label sufficiency separate from material archive selection.
+      - Keep Choi/Kraus minimality separate from both operational sufficiency and physical minimality.
       - Do not activate remainder or transfer before those gates.
     typed_dependencies:
       - type: extracts_from
@@ -178,7 +178,8 @@ programs:
         target_type: program
     strongest_absorber: >-
       Finite sufficient statistics, candidate keys, quantum instruments,
-      minimal measurement models, Choi extremality,
+      minimal measurement models, Choi/Kraus rank, Stinespring uniqueness,
+      outcome-sector commutants, Choi extremality,
       no-information-without-disturbance, categorical classical structures,
       combs/process tensors, dilation freedom, sufficient statistics,
       decoherence/SBS, AQFT measurement schemes, passive linear quantum-system
@@ -188,11 +189,12 @@ programs:
       Blackwell sufficiency, causal states, predictive-state representations,
       probabilistic bisimulation, QND tomography, and process tensors.
     cheapest_kill: >-
-      Met. The strongest source-pinned QND-tomography packet reconstructs
-      aggregate outcome-conditioned process matrices but retains no ordered
-      shot memory, raw/IQ acquisition lineage, or complete archive/reset
-      census. Exact physical dilations with different hidden archive support
-      induce the same accessible instrument.
+      Met. Even after replacing arbitrary dilations by the abstract minimal
+      normal one, the instrument fixes only Choi-rank sector multiplicities
+      and the outcome algebra up to within-sector unitary equivalence.
+      Liouville and Choi rank answer different questions, nonminimal physical
+      realizations remain possible, and no material carrier or provenance is
+      selected.
     stop_rule: >-
       Stop on target coding, an untyped process/interface map, full prior-art
       absorption, a failed typed prerequisite, or any route requiring hardware
@@ -200,7 +202,8 @@ programs:
       without a separate authorization.
     reopen_rule: >-
       The process-tomography term is now satisfied at the fitted reduced-
-      instrument level. Reopen material reconstruction only with one
+      instrument level. A minimal Stinespring or normal measurement model is
+      not implementation completeness. Reopen material reconstruction only with one
       source-pinned implementation-complete packet containing joined
       per-attempt acquisition records and later responses, explicit hidden-
       environment scope, retention/provenance/access/reset semantics, and a
@@ -219,6 +222,7 @@ programs:
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md
       - explorations/qnd-tomography-operational-closure-label-sufficiency-and-material-dilation-boundary-2026-07-30.md
+      - explorations/minimal-instrument-dilation-outcome-sector-invariant-and-material-archive-gauge-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
@@ -677,12 +681,12 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-164 narrows but does not clear the material-realization gate. No
-    scientific action is executable and Swing 6 is not eligible: a complete
-    fitted accessible instrument cannot substitute for a source-selected
-    material archive or identify its physical dilation. Use the
-    implementation-complete reopener rather than another tomography-only or
-    later campaign card.
+    HC-DU-165 closes the minimal-dilation shortcut without clearing the
+    material-realization gate. No scientific action is executable and Swing 6
+    is not eligible: neither a complete fitted instrument nor its abstract
+    minimal normal realization substitutes for a source-selected material
+    archive. Use the implementation-complete reopener rather than another
+    tomography-, Kraus-rank-, or later-campaign card.
 
 anomaly_intake:
   status: open_non_wip

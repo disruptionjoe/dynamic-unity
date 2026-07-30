@@ -4119,3 +4119,35 @@ The artifact is
 only the exact finite label-sufficiency and material-dilation nonselection
 controls. It establishes no fact about the IBM apparatus, complete physical
 archive, reconstruction, remainder, new law, or new physics.
+
+## HC-DU-165 minimal-instrument-dilation invariant boundary
+
+`du_minimal_instrument_dilation_invariant_probe.py` checks exact controls for
+the bounded minimal-realization audit:
+
+- ideal projective outcome maps have Liouville/Choi rank pair \((1,1)\);
+- a coin-labelled identity outcome has pair \((4,1)\), while a completely
+  depolarizing replacer has pair \((1,4)\), proving that operational
+  label-sufficiency rank and minimal Kraus multiplicity are independent;
+- a rational rotation of a two-Kraus dephasing representation preserves the
+  map on the complete matrix-unit basis;
+- a redundant two-coordinate Kraus list realizes the same rank-one-Choi coin
+  map;
+- for outcome-sector profile \((1,2)\), exact commutant equations have rank
+  seven in a nine-dimensional operator space, leaving exactly the two
+  outcome-sector identities fixed; and
+- summing the outcome Choi ranks gives the standard minimal normal apparatus
+  dimensions for the declared controls.
+
+Run:
+
+```bash
+python3 tests/du_minimal_instrument_dilation_invariant_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_minimal_instrument_dilation_invariant_result.json`. Passing
+proves only the finite two-rank, Kraus-gauge, redundant-realization, and
+fixed-algebra controls. It establishes no physical minimality, material
+carrier, archive, provenance, reset, observer, remainder, law, or new
+physics.
