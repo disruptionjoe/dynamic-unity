@@ -28,10 +28,10 @@ All other documents are non-routing. If one disagrees with
   faithful representations, reconstruction theorems, countermodels, no-go
   results, and empirical discriminators that connect—or sharply separate—
   those layers.
-- **North Star:** determine whether independently selected, observer-indexed
-  certified causal records reconstruct all observer-accessible time,
-  geometry, fields, and capability—and identify a finite physical remainder
-  wherever they do not.
+- **North Star:** determine what target-blind physical antecedents, if any,
+  select material, provenance-bearing, observer-indexed record interfaces;
+  then establish their observer-accessible reconstruction,
+  operational-duality, and smallest finite-remainder boundaries.
 - **Operating principle:** whole-picture purpose; seam-by-seam mission;
   theorem-grade North Star.
 
@@ -39,6 +39,11 @@ Certified Causal Reality keeps three coequal outcomes live: record-first
 reconstruction, operational duality, and physics-first remainder.
 Underidentification is not a verdict. Record ontology is not charter doctrine,
 and operational equivalence does not establish metaphysical priority.
+
+The North Star begins before a record interface is supplied. Do not infer an
+instrument, sampler, archive, provenance relation, observer boundary, or action
+class from a process representation unless a target-blind physical or formal
+selection argument earns it. A scoped no-section theorem is a valid result.
 
 Dynamic Unity uses **methodological physical realism**: admitted systems,
 interactions, occurrences, and formed records are not constituted by an

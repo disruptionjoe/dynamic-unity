@@ -3,7 +3,7 @@ title: "Dynamic Unity — Certified Causal Reality"
 status: active_research
 doc_type: overview
 created: 2026-07-21
-revised: 2026-07-28
+revised: 2026-07-30
 current_routing_authority: CURRENT-RESEARCH.yaml
 ---
 
@@ -35,9 +35,10 @@ intelligible as one coherent, evidence-accountable whole.
 
 **North Star**
 
-> Determine whether independently selected, observer-indexed certified causal
-> records reconstruct all observer-accessible time, geometry, fields, and
-> capability—and identify a finite physical remainder wherever they do not.
+> Determine what target-blind physical antecedents, if any, select material,
+> provenance-bearing, observer-indexed record interfaces; then establish their
+> observer-accessible reconstruction, operational-duality, and smallest
+> finite-remainder boundaries.
 
 **Operating principle**
 
@@ -47,9 +48,10 @@ intelligible as one coherent, evidence-accountable whole.
 
 Certified Causal Reality asks:
 
-> Can independently formed physical records reconstruct every response,
-> observable, and capability available within a declared observer/access
-> contract? If not, what additional physical structure is required?
+> What minimal target-blind physical antecedent selects a complete material
+> record interface, if any; what observer-accessible physics then reconstructs
+> from its certified records; and what smallest finite intervention exposes
+> any remainder?
 
 It keeps three outcomes open:
 

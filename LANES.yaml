@@ -1,5 +1,5 @@
 lane_contract_version: '2.0'
-manifest_revision: 97
+manifest_revision: 98
 owner:
   owner_id: dynamic-unity
   display_name: Dynamic Unity
@@ -34,10 +34,10 @@ program_charter:
     and empirical discriminators that connect—or sharply separate—those
     layers.
   north_star: >-
-    Determine whether independently selected, observer-indexed certified
-    causal records reconstruct all observer-accessible time, geometry, fields,
-    and capability—and identify a finite physical remainder wherever they do
-    not.
+    Determine what target-blind physical antecedents, if any, select material,
+    provenance-bearing, observer-indexed record interfaces; then establish
+    their observer-accessible reconstruction, operational-duality, and
+    smallest finite-remainder boundaries.
   operating_principle: >-
     Whole-picture purpose. Seam-by-seam mission. Theorem-grade North Star.
   outcomes:

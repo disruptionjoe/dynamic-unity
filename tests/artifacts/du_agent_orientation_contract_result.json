@@ -1,10 +1,10 @@
 {
-  "active_scientific_program": null,
+  "active_scientific_program": "CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER",
   "authority": "CURRENT-RESEARCH.yaml",
   "checks_passed": 37,
-  "cold_start_words": 5923,
+  "cold_start_words": 5939,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
-  "executable_action": null,
+  "executable_action": "MPA-01-INSTRUMENT-NO-SECTION-ADMISSION",
   "prepared_publication_candidate": "DU-PAPER-013",
   "probe": "du_agent_orientation_contract_probe",
   "scope": "current_research_authority_and_cold_start_governance_only",

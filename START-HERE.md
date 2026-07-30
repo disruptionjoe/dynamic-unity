@@ -3,7 +3,7 @@ title: "Dynamic Unity — Start Here"
 status: active_orientation
 doc_type: orientation
 created: 2026-07-25
-revised: 2026-07-28
+revised: 2026-07-30
 current_routing_authority: CURRENT-RESEARCH.yaml
 ---
 
@@ -37,9 +37,10 @@ priority. Read [`CURRENT-RESEARCH.yaml`](CURRENT-RESEARCH.yaml) for those.
 
 **North Star**
 
-> Determine whether independently selected, observer-indexed certified causal
-> records reconstruct all observer-accessible time, geometry, fields, and
-> capability—and identify a finite physical remainder wherever they do not.
+> Determine what target-blind physical antecedents, if any, select material,
+> provenance-bearing, observer-indexed record interfaces; then establish their
+> observer-accessible reconstruction, operational-duality, and smallest
+> finite-remainder boundaries.
 
 **Operating principle**
 
@@ -55,6 +56,12 @@ The charter keeps three outcomes coequal:
    physical processes identified by the certified-record description.
 
 Underidentification is incomplete work, not a fourth verdict.
+
+The North Star now begins upstream of the record interface. A process,
+endpoint state, trajectory, or formal quotient does not by itself select an
+instrument, sampler, archive, provenance relation, observer boundary, or
+action class. Selection must be target-blind and physically or formally
+earned; exact nonselection is a valid outcome.
 
 ## Perspective and reality type rule
 
@@ -82,14 +89,16 @@ be declared per candidate.
 ## Scientific architecture
 
 ```text
-accepted physical process
+target-blind physical antecedents
+  -> lawful multi-time process
+  -> selected material record interface, or exact selection obstruction
   -> distinctions and interactions
   -> formed records and certificates
   -> observer access and action capability
   -> layered regional finality
   -> effective classical, temporal, geometric and field descriptions
 
-complete independently specified certified causal record network
+independently selected certified causal record network
   -> reconstruct observer-accessible physics up to declared equivalence
      OR
   -> expose the missing physical structure with a finite intervention

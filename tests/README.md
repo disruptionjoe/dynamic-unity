@@ -3970,3 +3970,15 @@ probe remains the executable regression. Passing it does not prove a
 universal stable-dilation no-go, select a physical implementation, record,
 archive, access boundary, ontology, or regulator, establish empirical excess,
 predict new physics, justify hardware, or promote a paper.
+
+## Minimal-antecedent coherent campaign governance
+
+`du_minimal_antecedent_campaign_probe.py` verifies that the ratified campaign
+retains all seventeen named theorem, hypothesis, principle, benchmark, and
+moonshot seeds; exposes ten ordered conditional swing cards; and leaves only
+Swing 1 executable through an explicit activation packet and transition
+automaton.
+
+This is a governance and context-retention test only. Passing establishes no
+selector, no-section theorem, material record, reconstruction, remainder, new
+law, prediction, or publication claim.

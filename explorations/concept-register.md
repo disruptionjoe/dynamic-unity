@@ -3,7 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
-revised: 2026-07-29
+revised: 2026-07-30
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -6358,6 +6358,54 @@ MASS/CHARGE RANK REPAIRS BANKED / STANDARD FILTER-FUNCTION AND EXPERIMENTAL-
 DESIGN ABSORPTION / COMPLETE NUISANCE ACQUISITION, SELECTED APPARATUS,
 OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
 `reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md`.
+
+## CONCEPT-DU-019 — minimal physical antecedent, natural interface selection, and first leak
+
+- **Concept.** Dynamic Unity's reconstruction question begins one layer
+  earlier than an independently supplied record map. The program must
+  determine what target-blind physical antecedents, if any, select a complete
+  material, provenance-bearing, observer-indexed record interface; only then
+  may it credit records with reconstruction or locate a physical remainder.
+- **Invariant.**
+
+  ```text
+  TARGET-BLIND SELECTOR OR EXACT NONSELECTION
+  + COMPLETE MULTI-TIME PROCESS
+  + MATERIAL FORMATION / ARCHIVE / PROVENANCE / ACCESS
+  + ACTION-RELATIVE RECONSTRUCTION
+  + LAW-ONLY BASELINE
+  + SMALLEST PHYSICALLY REALIZABLE FIRST LEAK
+  + NO-REFIT TRANSFER BEFORE GENERALIZATION
+  ```
+
+- **Formalization family.**
+
+  1. `SEED-DU-MPA-01` — Physical Selection-Frontier Theorem.
+  2. `SEED-DU-MPA-02` — Instrument No-Section Theorem.
+  3. `SEED-DU-MPA-03` — Material-Indexed Recordability Hypothesis.
+  4. `SEED-DU-MPA-04` — Material-Substitution Response-Rank Theorem.
+  5. `SEED-DU-MPA-05` — Action-Relative Record Materialization Theorem.
+  6. `SEED-DU-MPA-06` — Law–Record Finite-Remainder Theorem.
+  7. `SEED-DU-MPA-07` — Minimal First-Leak Theorem.
+  8. `SEED-DU-MPA-08` — Layered Finality Composition Theorem.
+  9. `SEED-DU-MPA-09` — Covariant Finality Generator Hypothesis.
+  10. `SEED-DU-MPA-10` — Antecedent-Relative Selection Principle.
+  11. `SEED-DU-MPA-11` — Operational Ontology Restraint.
+  12. `SEED-DU-MPA-12` — Target-Blindness Criterion.
+  13. `SEED-DU-MPA-13` — First-Leak Realism Principle.
+  14. `SEED-DU-MPA-14` — Source–Mediator Operational Duality Conjecture.
+  15. `SEED-DU-MPA-15` — Complete Record Packet Benchmark.
+  16. `SEED-DU-MPA-16` — No-Refit Transfer Criterion.
+  17. `SEED-DU-MPA-17` — Interface Relativity Principle.
+
+- **Execution discipline.** The seeds are preserved independently of the
+  work queue. Only the first natural-section/no-section gate is executable.
+  Material, reconstruction, first-leak, transfer, regional-composition, and
+  new-dynamics branches require their typed predecessors.
+- **Status:** **CONCEPT-OPEN / CHARTER-RATIFIED RESEARCH QUESTION /
+  CAMPAIGN-GRADE ONLY / NO SELECTOR, NO-SECTION THEOREM, MATERIAL RECORD,
+  RECONSTRUCTION, REMAINDER, NEW LAW, OR NEW PHYSICS YET.**
+- **Canonical campaign:** `minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md`.
 
 ## Boundary
 

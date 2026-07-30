@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 111
+state_revision: 112
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -77,152 +77,177 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: null
-  executable_action_id: null
+  active_scientific_program_id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
+  executable_action_id: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-158 instantiates the reversible-pointer nuisance span: pointlike CSL
-    and three ordinary losses share one quadratic path kernel. Finite width
-    supplies a conditional breathing-contrast repair, but its apparatus,
-    calibration, and nuisance contract remain supplied, so no reopener is met.
+    Joe ratified the upstream North-Star question and the coherent
+    minimal-antecedent campaign. The first action tests whether a complete
+    operational record interface admits a natural target-blind section or an
+    exact no-section obstruction. This charter authorization selects work; it
+    does not satisfy a parked scientific reopener or promote any seed.
 
 programs:
-  - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
+  - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
+    portfolio_status: active
+    execution_status: executable
+    wip_slot: scientific_flagship
+    active_work_id: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
       - '3'
       - '4'
       - '5'
-      - '7'
-    channel_ids:
-      - CH-COLLIDE
-      - CH-FORMAL
-      - CH-SYN
-    target: >-
-      Completed: test predictive selection and issuance-compatible forecasting.
-    current_grade: >-
-      HC-DU-083--089/143--145 bank Grade-4 boundaries: prediction,
-      settlement, matched active records, and stable-band analyticity do not
-      identify source issuance.
-    evidence_grade: 4
-    maximum_grade: >-
-      Completed result capped at Grade 4; a new source-pinned no-refit
-      discriminator retains an independent Grade-5 ceiling.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Ontology-neutral; interface, access, settlement, and issuance are distinct.
-    completed_dependencies:
-      - id: HC-DU-089
-        evidence_ref: explorations/preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md
-      - id: HC-DU-083
-        evidence_ref: explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
-      - id: HC-DU-143
-        evidence_ref: explorations/nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md
-      - id: HC-DU-144
-        evidence_ref: explorations/nonmarkovian-collapse-bohmian-system-control-naturality-and-process-completion-boundary-2026-07-30.md
-      - id: HC-DU-145
-        evidence_ref: explorations/nonmarkovian-collapse-bohmian-stable-covariant-realization-boundary-2026-07-30.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
-    strongest_absorber: >-
-      Fixed completions, observability, and process-complete
-      collapse/Bohmian duality; stable-band analyticity and covariant
-      statistical-QFT rewriting.
-    cheapest_kill: >-
-      Met. Issuance labels share one passive record law under an exact path
-      correspondence.
-    stop_rule: >-
-      Stop generic issuance proxies. Require a concrete physical source packet
-      or completion theorem.
-    reopen_rule: >-
-      Require a source-selected stable/covariant realization with one finite
-      no-refit discriminator under a frozen access, archive, and resource
-      contract; band limitation or realization retyping alone does not reopen.
-    local_computation_boundary: >-
-      Exact response-factor and physical-bound analysis decided the gate; no
-      model or hardware is warranted.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md
-      - explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
-      - explorations/nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md
-      - explorations/nonmarkovian-collapse-bohmian-system-control-naturality-and-process-completion-boundary-2026-07-30.md
-      - explorations/nonmarkovian-collapse-bohmian-stable-covariant-realization-boundary-2026-07-30.md
-
-  - id: CCR-INDIVISIBLE-STOCHASTIC-MODULAR-RIGIDITY-GATE
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '1'
-    supporting_lane_ids:
-      - '2'
-      - '3'
-      - '4'
       - '6'
       - '7'
     channel_ids:
       - CH-FORMAL
       - CH-SYN
       - CH-COLLIDE
-      - CH-MODEL
+      - CH-EMPIRICAL
+      - CH-FRONTIER
     target: >-
-      Completed: test modular-ratio invariance across one indivisible-
-      stochastic transition object's native realization freedom.
+      Determine the minimal target-blind physical antecedent, if any, that
+      selects a material, provenance-bearing, observer-indexed record
+      interface; then adjudicate action-relative reconstruction, operational
+      duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-079 banks Grade-4 stochastic-native modular non-identifiability,
-      conditional Grade-3 quantum-local rigidity, and exact multi-time
-      insufficiency; known gauge, self-testing, and process theory absorb it.
-    evidence_grade: 4
+      Grade 0 campaign activation only. The first natural-section/no-section
+      gate is executable; no selector, theorem, record packet, reconstruction,
+      remainder, new law, or new physics is established.
+    evidence_grade: 0
     maximum_grade: >-
-      Completed result capped at Grade 4; a selected complete process,
-      factor/gauge, formed record, and held-out transfer remain independent.
-    maximum_evidence_grade: 4
+      Grade 5 only after a target-blind selected interface, complete material
+      packet, lawful finite discriminator, and no-refit transfer. A scoped
+      no-section or selection-frontier theorem can earn Grade 4.
+    maximum_evidence_grade: 5
     premise_status: >-
-      Ontology/foliation-neutral; negative in Barandes's phase gauge, positive
-      conditional on the standard Bell/self-testing class.
+      Ontology-neutral and target-blind. Process, instrument, sampler, archive,
+      provenance, observer access, action class, target, and public finality
+      remain separately typed. Charter selection is not scientific evidence.
     completed_dependencies:
-      - id: HC-DU-079
-        evidence_ref: explorations/indivisible-stochastic-modular-nonidentifiability-and-quantum-local-rigidity-boundary-2026-07-28.md
-    remaining_obligations: []
+      - id: HC-DU-063
+        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - id: HC-DU-137
+        evidence_ref: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
+      - id: HC-DU-142
+        evidence_ref: explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
+      - id: HC-DU-151
+        evidence_ref: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
+      - id: HC-DU-158
+        evidence_ref: explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
+    remaining_obligations:
+      - Adjudicate the smallest natural-section/no-section arena.
+      - Construct the minimal physical selection frontier.
+      - Admit material work only after a frontier coordinate survives.
+      - Require a complete formed-record packet before reconstruction credit.
+      - Transfer any result without refitting before regional generalization.
     typed_dependencies:
+      - type: extracts_from
+        target: HC-DU-063
+        target_type: result
+      - type: extracts_from
+        target: HC-DU-137
+        target_type: result
+      - type: tests
+        target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
+        target_type: program
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Stochastic-quantum phase/dilation freedom, narrower self-testing
-      rigidity, and process tensors.
+      Known measurement/instrument nonuniqueness, dilation freedom,
+      contextuality and no-programming results, sufficient statistics,
+      process tensors, decoherence/SBS, AQFT measurement schemes, and
+      classical identifiability.
     cheapest_kill: >-
-      Met. D(phi)=diag(1,1,1,exp(i phi)) leaves the complete labeled Gamma
-      fixed while the supplied-factor modular ratio varies continuously from
-      3+2sqrt(2) to 3.
+      A two-object symmetry or operational-equivalence orbit with no invariant
+      interface point kills a universal section; a known theorem covering the
+      exact statement kills novelty.
     stop_rule: >-
-      Do not call a stochastic lift a selected state/factor or repeat it
-      without a physical selector, complete process, and held-out consequence.
+      Stop on target coding, an untyped process/interface map, full prior-art
+      absorption, a failed typed prerequisite, or any route requiring hardware
+      before new local learning. Only one campaign swing may execute.
     reopen_rule: >-
-      Require a physical antecedent selecting interventions, factor/gauge,
-      complete process, bounded record, and no-refit held-out transfer.
+      After a campaign stop, reopen only with a new physical antecedent that
+      changes the exact interface orbit or a source-pinned finite no-refit
+      discriminator under the complete record-packet contract.
     local_computation_boundary: >-
-      One exact four-configuration phase family and binary three-time witness
-      complete the local boundary. Hardware and larger simulation are
-      unwarranted.
-    next_action: null
-    next_action_ref: null
+      Literature and formal proof first. Local computation may enumerate one
+      finite orbit or verify an exact counterexample. No simulation, provider,
+      or external hardware is authorized.
+    next_action: >-
+      Execute the smallest instrument no-section admission gate and return one
+      exact section, obstruction, partial frontier, or prior-art absorption.
+    next_action_ref: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
+    execution_packet:
+      action_id: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
+      exact_question: >-
+        In the smallest nontrivial multi-time process arena, can a complete
+        instrument-sampler-archive-provenance-access packet be selected by a
+        natural target-blind assignment respecting symmetries, operational
+        equivalence, mixtures, and composition, or is there an exact
+        no-section obstruction?
+      source_locator:
+        path: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
+        heading: '## Swing 1 activation packet'
+      required_inputs:
+        - path: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
+          role: Ratified campaign, seed registry, controls, and return classes.
+        - path: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+          role: Minimum typed-record and state-only nonselection boundary.
+        - path: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
+          role: Physical antecedent and completion-class stop boundary.
+        - path: explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
+          role: Complete material record-packet benchmark.
+        - path: docs/certified-causal-reality-research-program.md
+          role: Durable target-blind selection, reconstruction, and grading contract.
+      unchanged_ledger_fields:
+        - selected-versus-supplied
+        - complete-process-versus-interface
+        - formation-retention-access-and-sufficiency
+        - observer-action-resource-index
+        - reconstruction-duality-remainder-outcomes
+        - evidence-and-maximum-grade
+        - external-hardware-boundary
+      arena_roles:
+        - constructor-attempting-the-smallest-natural-section
+        - hostile-symmetry-and-operational-equivalence-orbit
+        - strongest-known-theorem-absorber
+        - grade-and-ontology-adjudicator
+      expected_return_classes:
+        - NATURAL_SECTION_FOUND
+        - NO_NATURAL_SECTION
+        - PARTIAL_SELECTION_FRONTIER
+        - KNOWN_RESULT_ABSORPTION
+      observer_index_return_classes:
+        - OBSERVER_INDEX_SELECTED
+        - OBSERVER_INDEX_EXTERNALLY_SUPPLIED
+        - OBSERVER_INDEX_IRRELEVANT_TO_SCOPED_THEOREM
+        - OBSERVER_INDEX_UNDERDETERMINED
+      durable_output: >-
+        explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
+      local_method: >-
+        Formal construction/counterexample and absorber collision first; one
+        exact finite-orbit enumeration only if direct proof is less decisive.
+      uses_program_controls:
+        - premise_status
+        - strongest_absorber
+        - cheapest_kill
+        - stop_rule
+        - local_computation_boundary
     canonical_evidence_refs:
-      - explorations/indivisible-stochastic-modular-nonidentifiability-and-quantum-local-rigidity-boundary-2026-07-28.md
-      - docs/quantum-foundations-orientation-surface.md
+      - explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
+      - explorations/concept-register.md
+      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
+      - explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
+      - explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
+      - explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
 
   - id: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
     kind: flagship
@@ -284,68 +309,6 @@ programs:
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
-      - docs/quantum-foundations-orientation-surface.md
-
-  - id: CCR-MODULAR-TIME-RECONSTRUCTION-GATE
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '6'
-    supporting_lane_ids:
-      - '1'
-      - '3'
-      - '4'
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-SYN
-      - CH-COLLIDE
-      - CH-MODEL
-    target: >-
-      Completed: classify commutative modular silence and the minimum
-      noncommutative data for conditional modular-time reconstruction.
-    current_grade: >-
-      HC-DU-077 banks Grade-4 commutative modular silence, an exact
-      same-record/different-flow witness, and the conditional noncommutative
-      reconstruction ladder; modular/AQFT mathematics absorbs it.
-    evidence_grade: 4
-    maximum_grade: >-
-      Completed result capped at Grade 4; a selected algebra/state/inclusion,
-      calibration, formed record, and held-out transfer remain independent.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Assumption-neutral; record algebra, ambient state, modular parameter,
-      clock calibration, geometry, formation, and access remain distinct.
-    completed_dependencies:
-      - id: HC-DU-077
-        evidence_ref: explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
-    strongest_absorber: >-
-      Modular/AQFT theory supplies silence, noncommutative flow, and conditional
-      geometric positives, but no complete formed record interface.
-    cheapest_kill: >-
-      Met: one exact M2 pair agrees on the commutative record algebra but has
-      trivial versus nontrivial ambient modular dynamics.
-    stop_rule: >-
-      Do not seek flow inside a commutative record algebra or identify modular
-      parameter with physical time without calibration.
-    reopen_rule: >-
-      Require a selected noncommutative net/state/inclusion, time calibration,
-      formed bounded record, and target-independent held-out consequence.
-    local_computation_boundary: >-
-      One exact two-dimensional modular certificate completes the local proof
-      boundary. No Type-III simulation, larger model, external hardware, or
-      provider work is warranted.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
       - docs/quantum-foundations-orientation-surface.md
 
   - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
@@ -721,23 +684,25 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: no_ready
-  blocked_by: null
+  status: blocked
+  blocked_by: MPA-01-INSTRUMENT-NO-SECTION-ADMISSION
   selected_successor_id: null
   candidate_classes:
-    - source-selected-normed-apparatus-completion-class
-    - physical-automorphism-interface-nonselection
-    - closed-direct-action-versus-field-probability-packet
-    - formed-provenance-intervention-packet
-    - source-selected-qrf-formed-record-handoff-packet
-    - source-selected-stochastic-interface-instrument
-    - reversible-pointer-breathing-contrast-discriminator
+    - instrument-natural-section-or-no-section
+    - minimal-physical-selection-frontier
+    - material-substitution-response-rank
+    - complete-formed-record-packet
+    - action-relative-record-materialization
+    - law-record-finite-remainder
+    - minimal-physically-realizable-first-leak
+    - no-refit-cross-platform-transfer
+    - layered-regional-finality-composition
+    - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-152--156 leave apparatus, interface, sampler, archive, or lineage
-    supplied. HC-DU-157--158 locate a conditional path-loss discriminator, an
-    exact quadratic nuisance degeneracy, and a breathing-contrast repair, but
-    still supply the apparatus and nuisance contract. No parked reopener is met.
+    Swing 1 alone is executable. Its typed return activates the next campaign
+    gate or stops the funnel. No later swing, parked branch, or new dynamics is
+    authorized before its declared prerequisites survive.
 
 anomaly_intake:
   status: open_non_wip

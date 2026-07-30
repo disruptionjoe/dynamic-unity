@@ -3,7 +3,7 @@ title: "Certified Causal Reality — durable research program"
 status: active_research
 doc_type: research_program
 created: 2026-07-24
-revised: 2026-07-28
+revised: 2026-07-30
 current_routing_authority: "../CURRENT-RESEARCH.yaml"
 claim_grade: "PROGRAM CHARTER / CENTRAL CONJECTURE OPEN / NO ONTOLOGY SELECTED"
 ---
@@ -38,9 +38,10 @@ and method live in [`LANES.yaml`](../LANES.yaml).
 
 **North Star**
 
-> Determine whether independently selected, observer-indexed certified causal
-> records reconstruct all observer-accessible time, geometry, fields, and
-> capability—and identify a finite physical remainder wherever they do not.
+> Determine what target-blind physical antecedents, if any, select material,
+> provenance-bearing, observer-indexed record interfaces; then establish their
+> observer-accessible reconstruction, operational-duality, and smallest
+> finite-remainder boundaries.
 
 **Operating principle**
 
@@ -48,9 +49,20 @@ and method live in [`LANES.yaml`](../LANES.yaml).
 
 ## Central adjudication
 
-Can independently formed physical records reconstruct every response,
-observable, and capability available within a declared observer/access
-contract? If not, what additional physical structure is required?
+What is the minimal target-blind physical antecedent under which lawful
+multi-time dynamics selects a material, observer-indexed, provenance-bearing
+record interface? Which observer-accessible time, geometry, field or source
+relations, and capabilities then factor through its finite certified records?
+If the factorization fails, what is the smallest physically realizable
+extension of access that exposes the remainder?
+
+The first question is logically upstream of reconstruction. A state,
+trajectory, endpoint, process representation, entropy, redundancy measure, or
+abstract behavioral quotient does not by itself select an instrument,
+sampler, material archive, provenance relation, observer boundary, or action
+class. The selector must be target-blind and natural under the declared
+physical equivalences. An exact nonselection or no-section theorem is a valid
+North-Star result.
 
 Separately, do record-forming interactions merely disclose distinctions fixed
 by an independently warranted prior completion, or can any physically issue a

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "activation_packet_present": true,
+    "all_seeds_in_campaign": true,
+    "all_seeds_in_concept_register": true,
+    "concept_family_open": true,
+    "grade_zero_boundary_present": true,
+    "single_executable_gate_declared": true,
+    "ten_ordered_swing_cards": true,
+    "transition_automaton_present": true
+  },
+  "disclaimer": "Passing establishes campaign preservation and gating only; it establishes no scientific result.",
+  "probe": "du_minimal_antecedent_campaign_probe",
+  "scope": "campaign_retention_and_gating_only",
+  "seed_count": 17,
+  "status": "PASS",
+  "swing_count": 10
+}
