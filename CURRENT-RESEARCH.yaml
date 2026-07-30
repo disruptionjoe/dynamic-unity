@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 85
+state_revision: 86
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,10 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-134 conditionally repairs HC-DU-133: forward-relative-entropy balls
-    around the canonical split state are compact and uniformly finitely
-    compressible; reverse balls, entropy, and rank fail. The physical family
-    and record interface remain unselected, so no successor is selected.
+    HC-DU-135 identifies the exact physical-selector bridge for HC-DU-134:
+    a split modular-energy cap, genuine Gibbs energy/work budget, or proved
+    form comparison K_sigma <= aH+b selects the required family. Norm,
+    success probability, and arbitrary energy do not. No generic QFT
+    comparison or formed record is selected, so no successor is selected.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE

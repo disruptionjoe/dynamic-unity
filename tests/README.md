@@ -3343,3 +3343,33 @@ family, entropy radius, tolerance, compression dynamics, finite classical
 code, probe, acquisition, record write, lineage, archive, access, target, new
 operator-algebra theorem, AQFT theorem, empirical excess, law, physics,
 prediction, paper, hardware, provider, publication, or other external action.
+
+## HC-DU-135 modular-resource physical-family selector boundary
+
+`HC-DU-135` is proof- and primary-literature-only. It tests whether physical
+resource constraints select the exact family required by `HC-DU-134`:
+
+- a bound on the same one-sided split modular energy
+  \(K_\sigma=-\log\sigma\) bounds forward relative entropy;
+- an ordinary Hamiltonian controls that modular energy precisely when a
+  quadratic-form comparison \(K_\sigma\le aH+bI\) is proved;
+- a genuine Gibbs reference supplies the clean energy/free-energy
+  specialization;
+- norm-one, success-one spectral swaps give an exact unbounded-relative-entropy
+  counterexample;
+- a compact-resolvent Hamiltonian can have a bounded-energy family with
+  unbounded relative entropy when the split modular cost grows faster;
+- the failed split-relative route can still leave a finite physical
+  \(H\)-spectral carrier;
+- negative ambient-modular preparation costs constrain a different signed
+  object; and
+- finite-volume CFT modular inclusions can select a global Hamiltonian without
+  selecting the split comparison or a formed record.
+
+No new scientific executable was added because the resource inequalities and
+hostile sequences decide the boundary exactly. The repository governance
+suite remains the executable regression. Passing it does not select a generic
+QFT comparison, energy or work budget, operation class, resource meter,
+probe, acquisition, record write, lineage, archive, access, target, new
+operator-algebra theorem, AQFT theorem, empirical excess, law, physics,
+prediction, paper, hardware, provider, publication, or other external action.

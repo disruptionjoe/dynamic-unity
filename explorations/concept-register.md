@@ -5539,6 +5539,50 @@ conditional Grade 3, not a new relative-entropy/AQFT theorem, empirical
 excess, law, physics, prediction, or ready successor. See
 `aqft-standard-split-relative-entropy-uniform-finite-compression-boundary-2026-07-29.md`.
 
+### 2026-07-29 modular-resource selection of a standard-split state family
+
+`HC-DU-135` tests whether known resource constraints physically select the
+forward-relative-entropy family introduced in `HC-DU-134`.
+
+For the faithful canonical split density \(\sigma\), let
+\(K_\sigma=-\log\sigma\). Then
+\[
+\operatorname{Tr}(\rho K_\sigma)\le E
+\quad\Longrightarrow\quad
+D(\rho\Vert\sigma)\le E,
+\]
+so an upper bound on this exact one-sided modular energy composes with
+`HC-DU-134` to select a uniformly finite effective carrier. More generally,
+an ordinary Hamiltonian \(H\) supplies a uniform affine relative-entropy
+bound exactly when a quadratic-form comparison
+\[
+K_\sigma\le aH+bI
+\]
+holds. A genuine Gibbs reference is the clean positive specialization:
+\(K_\sigma=\beta H+\log Z\).
+
+The comparison is not automatic. Norm-one, success-one unitaries that swap
+large and vanishing eigenvalues of \(\sigma\) produce unbounded
+\(D(U\sigma U^*\Vert\sigma)\). A compact-resolvent Hamiltonian can also admit
+a fixed-energy family with unbounded relative entropy when \(K_\sigma\) grows
+faster than \(H\). That same energy family can still possess its own finite
+\(H\)-spectral carrier, so failure of the \(\sigma\)-relative route is not
+failure of every physical finite-carrier route.
+
+Published lower bounds on large negative expectation of an ambient modular
+generator constrain a different signed object from the positive one-sided
+split \(K_\sigma\). Nested modular inclusions can reconstruct a physical
+global Hamiltonian exactly in finite-volume vacuum CFT, but do not yet prove
+the split comparison or form a record.
+
+The result is a scoped Grade-4 resource-comparison criterion, exact
+norm/success and energy counterexamples, alternate-carrier correction, and
+modular-object typing boundary plus conditional Grade-3 Gibbs/resource-selected
+state-family reconstruction. It selects no generic QFT comparison, resource
+meter, probe, write, archive, access contract, target, empirical excess, new
+law, physics, prediction, or ready successor. See
+`aqft-modular-energy-work-and-postselection-physical-state-family-selector-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
