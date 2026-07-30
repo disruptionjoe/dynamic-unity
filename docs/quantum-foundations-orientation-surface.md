@@ -1281,6 +1281,21 @@ measurement-model, dilation, and process-tensor mathematics absorb the
 components; the physical question begins when one surviving coordinate is
 source-pinned without using a held-out target.
 
+**Source-pinned coupling correction.** `HC-DU-161` realizes that next step on
+Peronnin et al.'s sequential superconducting-qubit readout platform. In its
+calibrated two-mode model, residual readout-population slope plus the
+phase-resolved slope and curvature of the monitored buffer output identify
+the pump-controlled coupling \(g\) against \(\kappa_r,\kappa_b\): the exact
+response Jacobian has determinant \(g/2\). One terminal reset fraction or
+fidelity remains insufficient; a weak-coupling endpoint depends only on
+\(\kappa_r+4g^2/\kappa_b+\kappa_p\), so distinct coupling and unmonitored-loss
+values can be exact twins. The source's strong-pump discrepancies require
+effective-parameter refits or possible parasitic modes and therefore do not
+inherit the low-pump identification. This is standard circuit-QED/system
+identification, not new physics. The open DU question is whether the matched
+calibration arms constitute one joined, formed, retained, provenance-bearing,
+accessible record packet.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

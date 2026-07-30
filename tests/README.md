@@ -4007,3 +4007,30 @@ The artifact is
 only the finite antichains and measurement-model deletion witnesses. It
 establishes no universal physical selector, formed record, observer, ontology,
 prediction, empirical result, or new physics.
+
+## HC-DU-161 source-pinned coupling-response rank
+
+`du_source_pinned_coupling_response_rank_probe.py` checks the exact local
+response boundary for the Peronnin et al. sequential superconducting-qubit
+readout platform:
+
+- the residual-population slope and phase-calibrated output slope/curvature
+  have Jacobian determinant \(g/2\) with respect to
+  \((g,\kappa_r,\kappa_b)\);
+- one weak-coupling terminal endpoint has exact coupling/unmonitored-loss
+  twins even inside the conservative low-pump regime; and
+- the source's main reported operating ratio lies outside the strict
+  reflection-calibration regime but inside its wider two-mode release-model
+  regime.
+
+Run:
+
+```bash
+python3 tests/du_source_pinned_coupling_response_rank_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_source_pinned_coupling_response_rank_result.json`. Passing
+establishes only the exact rank and endpoint counterexample in the frozen
+two-mode model. It establishes no complete record packet, physical selector,
+anomalous response, empirical result, new law, or new physics.

@@ -6399,14 +6399,16 @@ OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
   17. `SEED-DU-MPA-17` — Interface Relativity Principle.
 
 - **Execution discipline.** The seeds are preserved independently of the
-  work queue. `HC-DU-159` and `HC-DU-160` complete the natural-section and
-  selection-frontier gates. Material, reconstruction, first-leak, transfer,
+  work queue. `HC-DU-159` through `HC-DU-161` complete the natural-section,
+  selection-frontier, and first source-pinned coupling-response gates.
+  Complete-packet, reconstruction, first-leak, transfer,
   regional-composition, and new-dynamics branches still require their typed
   predecessors and separate authorization.
 - **Status:** **CONCEPT-OPEN / CHARTER-RATIFIED RESEARCH QUESTION /
-  `HC-DU-159` AND `HC-DU-160` BANK THE FORMAL-INSTRUMENT AND
-  ACTION-INDEXED SELECTION FRONTIERS / MATERIAL RECORD, RECONSTRUCTION,
-  REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
+  `HC-DU-159` THROUGH `HC-DU-161` BANK THE FORMAL-INSTRUMENT,
+  ACTION-INDEXED SELECTION, AND SOURCE-PINNED COUPLING-RESPONSE
+  FRONTIERS / COMPLETE MATERIAL RECORD, RECONSTRUCTION, REMAINDER,
+  NEW LAW, OR NEW PHYSICS OPEN.**
 - **Canonical campaign:** `minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md`.
 
 ### 2026-07-30 instrument-section correction
@@ -6473,6 +6475,52 @@ Sufficient-statistic, candidate-key, measurement-model, instrument-dilation,
 and process-tensor mathematics absorb the components. `SEED-DU-MPA-03/04`
 may proceed only after coupling or readout is source-pinned to one physical
 platform with a frozen nuisance contract.
+
+### 2026-07-30 source-pinned coupling-response correction
+
+`HC-DU-161` instantiates the coupling coordinate on the sequential
+superconducting-qubit measurement platform of Peronnin et al. The
+pump-controlled Josephson-ring-modulator coupling
+
+\[
+H_{\rm bs}=\hbar(gb^\dagger r+g^*br^\dagger)
+\]
+
+connects a long-lived readout mode to a lossy monitored buffer mode. For a
+prepared readout amplitude, empty buffer, symmetric pump center, calibrated
+gain/phase/time origin, and fixed two-mode loss model, the response packet
+
+\[
+\left(
+\frac{d}{dt}\frac{|r|^2}{|A|^2},
+\ i\frac{\dot b}{A},
+\ -i\frac{\ddot b}{A}
+\right)_{t=0}
+\]
+
+has Jacobian determinant \(g/2\) with respect to
+\((g,\kappa_r,\kappa_b)\). The coupling response therefore leaves the
+declared loss-nuisance span for \(g\ne0\).
+
+One endpoint does not inherit that result. In the weak-coupling population
+law
+
+\[
+\Gamma=\kappa_r+4g^2/\kappa_b+\kappa_p,
+\]
+
+distinct coupling/parasitic-loss pairs can give the same endpoint at every
+time. The source's strong-pump discrepancies also require effective-parameter
+refits or extra unmonitored modes, so the low-pump rank cannot be transferred
+there unchanged.
+
+**Updated seed status:** `SEED-DU-MPA-03/04` earn one scoped
+source-pinned coupling-response instance under ordinary circuit-QED, not a
+general material-substitution law. `SEED-DU-MPA-15` is now the next gate:
+determine whether the platform's separately calibrated internal and output
+responses form one joined, provenance-complete physical record packet.
+Passive linear quantum-system identification, input-output theory, and the
+source's own calibration absorb the mathematical components.
 
 ## Boundary
 

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 114
+state_revision: 115
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,10 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-160 completed Swing 2. Minimal antecedent bundles are indexed by
-    action/access class and can form exact antichains; in the frozen qubit
-    model, coupling plus readout is a scoped formal-instrument minimum while
-    the complete material packet remains unselected. Swing 3 is scientifically
+    HC-DU-161 completed Swing 3 on the source-pinned Peronnin sequential
+    superconducting-qubit readout platform. A calibrated three-response packet
+    identifies the pump coupling against declared two-mode loss nuisances,
+    while one terminal endpoint has exact coupling/loss twins and the
+    strong-pump regime fails no-refit transfer. Swing 4 is scientifically
     eligible but is not activated or executable in this transition.
 
 programs:
@@ -115,11 +116,13 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-160 banks scoped Grade-4 classification: selection frontiers are
-      indexed by action class, finite minimal bundles form antichains, and
-      coupling plus pointer readout is jointly minimal for a formal instrument
-      in one frozen qubit model. Sampler, material archive, provenance, reset,
-      and observer access remain unselected.
+      HC-DU-161 banks a scoped Grade-4 source-pinned coupling-response result.
+      In the calibrated two-mode sequential-readout model, residual-population
+      slope plus phase-resolved output slope and curvature have response
+      Jacobian determinant g/2 against the declared loss nuisances. One
+      terminal endpoint remains nonidentifying, and strong-pump parameter
+      refits do not transfer the result. A joined sampler, material archive,
+      provenance, reset, and observer access remain unselected.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -145,9 +148,11 @@ programs:
         evidence_ref: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
       - id: HC-DU-160
         evidence_ref: explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
+      - id: HC-DU-161
+        evidence_ref: explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
     remaining_obligations:
-      - Source-pin one surviving coupling or readout coordinate before material work.
       - Require a complete formed-record packet before reconstruction credit.
+      - Adjudicate whether matched calibration arms form one joined attempt lineage.
       - Transfer any result without refitting before regional generalization.
     typed_dependencies:
       - type: extracts_from
@@ -167,37 +172,38 @@ programs:
       minimal measurement models, Choi extremality,
       no-information-without-disturbance, categorical classical structures,
       combs/process tensors, dilation freedom, sufficient statistics,
-      decoherence/SBS, AQFT measurement schemes, and classical identifiability.
+      decoherence/SBS, AQFT measurement schemes, passive linear quantum-system
+      identification, quantum input-output theory, circuit-QED calibration,
+      and classical identifiability.
     cheapest_kill: >-
-      Swing 2's context-free minimum is killed because changing the action
-      class changes the response kernel, while exact finite antichains block a
-      unique least bundle. Swing 3 is killed if the source-pinned
-      material-response derivative remains inside the frozen nuisance span.
+      Swing 4 is killed if the residual-population and output calibration arms
+      are not one joined blank-to-written attempt record, or if archive,
+      provenance, access, and reset semantics remain externally supplied.
     stop_rule: >-
       Stop on target coding, an untyped process/interface map, full prior-art
       absorption, a failed typed prerequisite, or any route requiring hardware
       before new local learning. A prepared later swing is not executable
       without a separate authorization.
     reopen_rule: >-
-      Swing 3 may activate only by separate direct authorization after one
-      coupling or readout coordinate is pinned to a primary-source physical
-      platform with a frozen nuisance contract. After any later
-      scientific stop, require a new physical antecedent that changes the exact
-      interface orbit or a source-pinned finite no-refit discriminator.
+      Swing 4 may activate only by separate direct authorization on the same
+      source-pinned platform. After any later scientific stop, require either
+      a complete one-run record packet or a new physical antecedent that changes
+      the exact interface orbit with a source-pinned no-refit discriminator.
     local_computation_boundary: >-
       Literature and formal proof first. Local computation may enumerate one
       finite orbit or verify an exact counterexample. No simulation, provider,
       or external hardware is authorized.
     next_action: >-
-      If separately authorized, execute Swing 3: select one source-pinned
-      physical platform, vary one surviving coupling or readout coordinate,
-      freeze the action and nuisance contracts, and test whether its response
-      derivative leaves the nuisance span without refitting.
+      If separately authorized, execute Swing 4 on the same sequential-readout
+      platform: test blank-to-written formation, one-run joining, retention,
+      provenance, access, reset, and one held-out action consequence. Do not
+      start reconstruction or a later campaign swing.
     next_action_ref: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
     canonical_evidence_refs:
       - explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
       - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
       - explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
+      - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
@@ -656,11 +662,11 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-160 satisfies Swing 3's scientific prerequisite only at the abstract
-    coupling/readout level and does not itself authorize execution. No
-    scientific action is executable in this transition. A separate direct
-    authorization may activate only one source-pinned material-substitution
-    response-rank gate, not a later campaign swing.
+    HC-DU-161 satisfies Swing 4's scientific prerequisite by source-pinning
+    one coupling-response coordinate, but does not itself authorize execution.
+    No scientific action is executable in this transition. A separate direct
+    authorization may activate only the complete-record-packet gate on the
+    same platform, not reconstruction or a later campaign swing.
 
 anomaly_intake:
   status: open_non_wip
