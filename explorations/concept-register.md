@@ -6397,6 +6397,10 @@ OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
   15. `SEED-DU-MPA-15` — Complete Record Packet Benchmark.
   16. `SEED-DU-MPA-16` — No-Refit Transfer Criterion.
   17. `SEED-DU-MPA-17` — Interface Relativity Principle.
+  18. `SEED-DU-MPA-18` — Stage–Resource–Persistence Separation Theorem.
+  19. `SEED-DU-MPA-19` — Common Causal Response Object Conjecture.
+  20. `SEED-DU-MPA-20` — Response-Tower First-Leak Theorem.
+  21. `SEED-DU-MPA-21` — Certified Causal Response Theory.
 
 - **Execution discipline.** The seeds are preserved independently of the
   work queue. `HC-DU-159` through `HC-DU-165` complete the natural-section,
@@ -7032,6 +7036,44 @@ archive, occurrence history, observer, public finality, or new dynamics.
 Modes-of-asymmetry, QRF, WAY/no-programming, mutual-asymmetry, and exchange
 physics absorb the components. See
 `relational-reference-symmetry-reduction-embodied-coupling-and-certificate-boundary-2026-07-30.md`.
+
+### 2026-07-30 stage–resource–persistence separation and response-host gate
+
+`HC-DU-176` kills the universal linear ladder
+
+```text
+record -> marked stage -> symmetry-reducing resource -> persistent carrier.
+```
+
+The three coordinates are independent. An invariant classical occurrence
+flag can be stage-bearing and persistent without carrying a nontrivial
+symmetry character; a persistent preloaded relation need not certify a
+formation stage; and a stage-local relational distinction can be erased from
+the declared horizon archive.
+
+For a scoped retained provenance record of a declared nontrivial relational
+character, the exact joint criterion is
+
+\[
+\ker a_H\subseteq\ker s\cap\ker c.
+\]
+
+Persistence is target-relative rather than microscopic injectivity: horizon
+evolution may erase nuisance distinctions but may not merge different
+declared target classes.
+
+**Updated seed status:** `SEED-DU-MPA-18` is banked as a scoped theorem family
+with its universal form killed. `SEED-DU-MPA-19` and
+`SEED-DU-MPA-20` remain conditional exploration/theorem targets.
+`SEED-DU-MPA-21`, Certified Causal Response Theory, is a high-ceiling
+candidate framework under the ratified North Star—not a replacement charter,
+scientific result, or premise. A common response functional may supply
+relational response and causal propagation without selecting a formation
+stage, material archive, provenance, observer access, or certified quotient.
+See
+`stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md`
+and
+`certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md`.
 
 ## Boundary
 

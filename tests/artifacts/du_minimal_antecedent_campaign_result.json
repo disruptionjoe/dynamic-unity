@@ -12,7 +12,7 @@
   "disclaimer": "Passing establishes campaign preservation and gating only; it establishes no scientific result.",
   "probe": "du_minimal_antecedent_campaign_probe",
   "scope": "campaign_retention_and_gating_only",
-  "seed_count": 17,
+  "seed_count": 21,
   "status": "PASS",
   "swing_count": 10
 }

@@ -1328,6 +1328,24 @@ portable certificate, observer boundary, or public finality. Modes of
 asymmetry, quantum reference frames, WAY/no-programming, mutual asymmetry,
 and exchange physics absorb the components.
 
+**Stage–resource–persistence correction and response-host gate.**
+`HC-DU-176` rejects the universal claim that every record must pass through
+one linear sequence from marked stage to symmetry-reducing resource to
+persistent carrier. Those are independent, target-typed obligations. For a
+retained provenance record of a declared nontrivial relational character,
+the exact finite criterion is
+\(\ker a_H\subseteq\ker s\cap\ker c\), and persistence requires only that
+horizon dynamics preserve the declared target classes—not every microscopic
+archive distinction. A response functional, effective action, hyperbolic
+linearization, or process tensor may supply lawful response and causal
+propagation without selecting a formation cut, material archive, provenance,
+observer access, or certified quotient. Treat Certified Causal Response
+Theory as a candidate framework under the existing North Star. Before
+crediting it, compare classical and quantum effective actions, in-in
+functionals, stochastic gravity, locally covariant QFT/relative Cauchy
+evolution, process tensors, direct-action descriptions, and one
+action-selection rival on one unchanged duty matrix.
+
 **Action-indexed frontier correction.** `HC-DU-160` shows that an
 action/access class is not one more antecedent coordinate: it indexes the
 operational equivalence relation the coordinates must select. For fixed

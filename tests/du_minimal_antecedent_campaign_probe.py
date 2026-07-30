@@ -28,7 +28,7 @@ ARTIFACT = (
     / "artifacts"
     / "du_minimal_antecedent_campaign_result.json"
 )
-SEEDS = tuple(f"SEED-DU-MPA-{index:02d}" for index in range(1, 18))
+SEEDS = tuple(f"SEED-DU-MPA-{index:02d}" for index in range(1, 22))
 
 
 def main() -> int:
@@ -74,7 +74,7 @@ def main() -> int:
         "concept_family_open": (
             "## CONCEPT-DU-019" in concept_text
             and "CONCEPT-OPEN" in concept_text
-            and "SEED-DU-MPA-17" in concept_text
+            and "SEED-DU-MPA-21" in concept_text
         ),
     }
     if not all(checks.values()):

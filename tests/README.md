@@ -4474,3 +4474,34 @@ establishes only the scoped character-mode, symmetry-reduction, and
 action-relative reference controls. It does not select a material archive,
 occurrence provenance, portable certificate, observer, public finality, new
 physics, paper, hardware, provider, or later scientific action.
+
+## HC-DU-176 stage–resource–persistence separation
+
+`du_stage_resource_persistence_separation_probe.py` preserves the exact
+finite controls behind the scoped joint-target theorem and universal-ladder
+kill:
+
+- exhaustive four-history archives satisfy the joint-target criterion iff
+  they satisfy both component criteria;
+- stage plus persistence need not carry a nontrivial relational character;
+- relational character plus persistence need not carry formation
+  provenance;
+- stage plus character need not persist to the declared horizon;
+- a supplied all-three architecture is an exact positive control;
+- horizon evolution may erase nuisance detail while retaining the target;
+- merging distinct target classes is exactly a persistence failure; and
+- a persistent terminal value need not certify that a write occurred.
+
+Run:
+
+```bash
+python3 tests/du_stage_resource_persistence_separation_probe.py \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_stage_resource_persistence_separation_result.json`. Passing
+establishes only the scoped factorization, persistence, and independence
+controls. It does not select a physical stage, symmetry resource, material
+archive, common response object, hyperbolic dynamics, observer, finality,
+new physics, paper, hardware, provider, or later scientific action.

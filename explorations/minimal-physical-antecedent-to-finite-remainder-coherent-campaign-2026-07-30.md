@@ -254,9 +254,19 @@ it is not silently discarded when another branch wins the work queue.
 | `SEED-DU-MPA-15` | **Complete Record Packet Benchmark:** formation, one-run outcome, archive, provenance, access, reset, and held-out capability must travel together | standing benchmark | Swings 3--8 |
 | `SEED-DU-MPA-16` | **No-Refit Transfer Criterion:** a result transfers only when definitions and nuisance controls remain unchanged in a second arena | standing benchmark | Swing 8 |
 | `SEED-DU-MPA-17` | **Interface Relativity Principle:** record sufficiency and finality are relative to observer, action, resource, and adversary classes without becoming subjective | standing guard | all swings |
+| `SEED-DU-MPA-18` | **Stage–Resource–Persistence Separation Theorem:** the three obligations are independent; for a scoped joint target exact certification is a kernel intersection and horizon persistence is target-relative | scoped theorem family; universal ladder killed by `HC-DU-176` | response-host and record-selector work |
+| `SEED-DU-MPA-19` | **Common Causal Response Object Conjecture:** geometry, source, gauge, vacuum, and higher-fluctuation responses may be projections of one covariant history-sensitive object | exploration; mandatory absorber audit | new conditional Wave 2 |
+| `SEED-DU-MPA-20` | **Response-Tower First-Leak Theorem:** locate the least response order and smallest admitted intervention separating systems matched at lower orders | conditional theorem target | after one serious host survives absorption |
+| `SEED-DU-MPA-21` | **Certified Causal Response Theory:** test whether a physically selected response object supplies a stage-bearing material record whose certified network reconstructs accessible physics up to the first finite remainder | high-ceiling candidate theory under the existing North Star | five-wave conditional campaign |
 
 These are seeds, hypotheses, theorem targets, or method constraints at their
 declared grades. Inclusion in the registry is preservation, not evidence.
+
+The four additions and their conditional transition logic are maintained in
+`certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md`.
+That campaign neither replaces this ten-swing historical scaffold nor changes
+the ratified North Star. `HC-DU-176` completes its first wave and makes only
+the common-response-object absorber/typing audit eligible.
 
 ## Swing 1 — instrument no-section admission
 

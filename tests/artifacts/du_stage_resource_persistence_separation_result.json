@@ -1,0 +1,69 @@
+{
+  "check_count": 10,
+  "checks": [
+    {
+      "assignments_checked": 256,
+      "name": "joint_kernel_criterion_equals_component_conjunction",
+      "passed": true
+    },
+    {
+      "name": "stage_plus_persistence_does_not_imply_character",
+      "passed": true
+    },
+    {
+      "name": "character_plus_persistence_does_not_imply_stage",
+      "passed": true
+    },
+    {
+      "name": "stage_plus_character_does_not_imply_horizon_persistence",
+      "passed": true
+    },
+    {
+      "horizon_classes": 4,
+      "name": "supplied_stage_character_persistence_positive_control",
+      "passed": true
+    },
+    {
+      "name": "symmetry_resource_is_not_universal_record_requirement",
+      "passed": true
+    },
+    {
+      "horizon_classes": 4,
+      "name": "noninjective_horizon_map_can_preserve_target",
+      "passed": true,
+      "stage_classes": 8
+    },
+    {
+      "horizon_classes": 2,
+      "name": "merging_target_classes_kills_persistence",
+      "passed": true,
+      "target_classes": 4
+    },
+    {
+      "name": "persistent_terminal_value_does_not_certify_formation",
+      "passed": true
+    },
+    {
+      "assignments_checked": 256,
+      "name": "target_relative_persistence_equivalence",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-176",
+  "earned": {
+    "independence": "stage, nontrivial relational resource, and persistence are independent typed obligations",
+    "joint_record_criterion": "ker(record) subset ker(stage) intersection ker(character)",
+    "persistence_criterion": "the horizon map may erase nuisance detail but may not merge declared target classes",
+    "universal_ladder": "killed outside the scoped target"
+  },
+  "not_earned": [
+    "physical stage selection",
+    "symmetry-resource selection",
+    "material archive selection",
+    "common causal response object",
+    "hyperbolic dynamics",
+    "observer or finality selection",
+    "new physics or empirical excess"
+  ],
+  "passed": true
+}
