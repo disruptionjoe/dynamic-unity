@@ -4181,3 +4181,32 @@ the typed dependency ladder, source-marker audit, and finite logical
 nonimplication controls. It establishes no GU action, lawful solution,
 physical response, instrument, material record, reconstruction, prediction,
 scientific successor, or new physics.
+
+## HC-DU-167 calibrated ground-truth remainder instrument
+
+`du_calibrated_remainder_instrument_probe.py` enumerates a source-known
+32-world render/collision/navigation/authority control and verifies:
+
+- exact reconstruction is target constancy on the frozen
+  action--observation fibres;
+- five nested envelopes refine the partition through
+  `2 -> 4 -> 8 -> 16 -> 32` equivalence classes;
+- repeating an unchanged deterministic query does not shrink the structural
+  remainder;
+- a downstream-only render coordinate can be reconstructible while an
+  action-modifiable remote collision coordinate remains unresolved outside
+  its action envelope; and
+- authenticating the render coordinate does not bind the independent
+  collision coordinate.
+
+Run:
+
+```bash
+python3 tests/du_calibrated_remainder_instrument_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_calibrated_remainder_instrument_result.json`. Passing validates
+only a finite calibration method and its causal-direction counterexamples. It
+establishes no game-engine ontology, physical record selector, quantum result,
+prediction, scientific successor, or new physics.

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 120
+state_revision: 121
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,11 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-166 admits GU's candidate action and partial variation at formula
-    grade. They do not supply closed Euler/domain equations, lawful solutions,
-    response, process, or material record. RB8 is the earliest conditional
-    response handoff; the implementation-complete reopener remains. No ready
-    successor.
+    HC-DU-167 builds an exact source-known remainder calibration and kills
+    causal-direction classification. It selects no physical interface. The
+    implementation-complete reopener remains; no successor is ready.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -115,10 +113,9 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165 banks the minimal-representation/material boundary.
-      HC-DU-166 banks the action-stage ladder: candidate syntax and partial
-      variation exist; closed dynamics, response, process, and material
-      record do not.
+      HC-DU-165/166 bank the material and action-stage boundaries.
+      HC-DU-167 adds an exact source-known remainder calibration; it selects
+      no physical interface.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -156,6 +153,8 @@ programs:
         evidence_ref: explorations/minimal-instrument-dilation-outcome-sector-invariant-and-material-archive-gauge-boundary-2026-07-30.md
       - id: HC-DU-166
         evidence_ref: explorations/gu-candidate-source-action-stage-adapter-earliest-response-gate-and-record-interface-nonimplication-2026-07-30.md
+      - id: HC-DU-167
+        evidence_ref: explorations/calibrated-ground-truth-remainder-instrument-and-downstream-only-kill-2026-07-30.md
     remaining_obligations:
       - Source-pin an implementation-complete joined acquisition packet and complete archive.
       - Prove that its physical response kernel factors through the material archive rather than only a fitted reduced instrument.
@@ -221,6 +220,7 @@ programs:
       - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
       - explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
       - explorations/gu-candidate-source-action-stage-adapter-earliest-response-gate-and-record-interface-nonimplication-2026-07-30.md
+      - explorations/calibrated-ground-truth-remainder-instrument-and-downstream-only-kill-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md

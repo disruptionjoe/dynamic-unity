@@ -1,0 +1,84 @@
+{
+  "claim_id": "HC-DU-167",
+  "run_id": "RUN-20260730-140913-calibrated-remainder-instrument",
+  "status": "PASS",
+  "world_count": 32,
+  "coordinate_count": 5,
+  "checks_passed": 25,
+  "calibration_curve": {
+    "near_capability": {
+      "actions": [
+        "push_near"
+      ],
+      "equivalence_classes": 2,
+      "maximum_fibre_size": 16,
+      "unresolved_coordinates": [
+        "render",
+        "remote_collision",
+        "nav_policy",
+        "authority"
+      ]
+    },
+    "plus_visual": {
+      "actions": [
+        "push_near",
+        "look"
+      ],
+      "equivalence_classes": 4,
+      "maximum_fibre_size": 8,
+      "unresolved_coordinates": [
+        "remote_collision",
+        "nav_policy",
+        "authority"
+      ]
+    },
+    "plus_npc": {
+      "actions": [
+        "push_near",
+        "look",
+        "watch_npc"
+      ],
+      "equivalence_classes": 8,
+      "maximum_fibre_size": 4,
+      "unresolved_coordinates": [
+        "remote_collision",
+        "authority"
+      ]
+    },
+    "plus_remote": {
+      "actions": [
+        "push_near",
+        "look",
+        "watch_npc",
+        "toggle_remote"
+      ],
+      "equivalence_classes": 16,
+      "maximum_fibre_size": 2,
+      "unresolved_coordinates": [
+        "authority"
+      ]
+    },
+    "complete": {
+      "actions": [
+        "push_near",
+        "look",
+        "watch_npc",
+        "toggle_remote",
+        "force_conflict"
+      ],
+      "equivalence_classes": 32,
+      "maximum_fibre_size": 1,
+      "unresolved_coordinates": []
+    }
+  },
+  "downstream_only_conjecture": "KILLED",
+  "selected_remainder_criterion": "A target lies outside the structural remainder exactly when it is constant on every fibre of the frozen action-observation signature.",
+  "example_world": {
+    "render": 1,
+    "near_collision": 1,
+    "remote_collision": 1,
+    "nav_policy": 1,
+    "authority": 1
+  },
+  "scientific_nonclaim": "This exact finite control calibrates a reconstruction method. It establishes no game-engine ontology, quantum result, physical record selector, empirical prediction, or scientific successor."
+}

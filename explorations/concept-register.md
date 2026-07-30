@@ -6762,6 +6762,33 @@ adapter but no selected antecedent. The source-action dependency is
 `PARTIALLY_ADVANCED`; the implementation-complete material reopener and
 `NO_READY_SUCCESSOR` remain unchanged.
 
+### 2026-07-30 calibrated ground-truth remainder instrument
+
+`HC-DU-167` executes the previously proposed game-world calibration rather
+than transferring its ontology. For finite world class \(W\), frozen
+action--observation signature \(S_A\), and target \(T\), exact reconstruction
+is equivalent to
+
+\[
+\ker S_A\subseteq\ker T.
+\]
+
+Because the source truth is available, every fibre and target-changing twin
+can be enumerated exactly. Nested action envelopes refine the partition and
+shrink the structural remainder; repeating an unchanged deterministic query
+does not.
+
+The first causal conjecture fails. A downstream-only render coordinate is
+reconstructible once looking is recorded, while a remote collision coordinate
+with a genuine state-changing intervention remains unresolved before that
+intervention enters the action envelope. Remainder membership is therefore
+query-relative, not a context-free causal-direction label.
+
+**Updated seed status:** the calibrated finite world is a reusable
+method-validation instrument. It does not select a physical action envelope,
+record interface, observer, or completion class and does not reopen the
+physical flagship.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
