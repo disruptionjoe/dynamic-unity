@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 94
+state_revision: 95
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,14 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-142 separates record formation, single-run actuality, and retained
-    accessible provenance. Metastable/autonomous detectors type formation,
-    thermodynamics, and reset; Bohmian/collapse theories add single outcomes
-    via extra ontology or dynamics. One dephasing Lindbladian supports a
-    zero-information direct-count record and a positive-information homodyne
-    record, so unconditional dynamics does not select the record or capacity.
-    No audited source selects the unchanged complete packet. No successor is
-    ready.
+    HC-DU-143 proves that the exact non-Markovian collapse/Bohmian path
+    correspondence preserves every unchanged passive downstream record. Such
+    records do not identify progressive stochastic issuance versus enlarged-
+    initial disclosure. Active equivalence remains open because it needs one
+    intervention-natural mapping; completion access, symmetry, and resource
+    cost are first leaks. No successor is ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -112,8 +110,8 @@ programs:
     target: >-
       Completed: test predictive selection and issuance-compatible forecasting.
     current_grade: >-
-      HC-DU-083--089 bank Grade-4 boundaries: prediction, evolution,
-      settlement, commitments, and resources do not identify source issuance.
+      HC-DU-083--089/143 bank Grade-4 boundaries: prediction, settlement, and
+      matched passive records do not identify source issuance.
     evidence_grade: 4
     maximum_grade: >-
       Completed result capped at Grade 4; a new source-pinned no-refit
@@ -126,23 +124,25 @@ programs:
         evidence_ref: explorations/preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md
       - id: HC-DU-083
         evidence_ref: explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
+      - id: HC-DU-143
+        evidence_ref: explorations/nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md
     remaining_obligations: []
     typed_dependencies:
       - type: does_not_block
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Fixed completions, activation, observability, reversible computation,
-      and compact generators.
+      Fixed completions, observability, compact generators, and exact
+      collapse/Bohmian source-completion duality.
     cheapest_kill: >-
-      Met. Dormant-fixed and issuance labels share one complete preactivation
-      response/resource signature.
+      Met. Issuance labels share one passive record law under an exact path
+      correspondence.
     stop_rule: >-
       Stop generic issuance proxies. Require a concrete physical source packet
       or completion theorem.
     reopen_rule: >-
-      Require a source-pinned separating preactivation bound under a frozen
-      completion/access/resource contract, or a source-completion theorem.
+      Require an intervention-natural separator under one frozen completion,
+      access, archive, and resource contract.
     local_computation_boundary: >-
       Exact response-factor and physical-bound analysis decided the gate; no
       model or hardware is warranted.
@@ -151,6 +151,7 @@ programs:
     canonical_evidence_refs:
       - explorations/preactivation-operational-presence-resource-footprint-and-compact-generator-boundary-2026-07-28.md
       - explorations/predictive-forecast-quotient-physical-carrier-selection-and-issuance-boundary-2026-07-28.md
+      - explorations/nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md
 
   - id: CCR-INDIVISIBLE-STOCHASTIC-MODULAR-RIGIDITY-GATE
     kind: flagship
@@ -445,10 +446,10 @@ programs:
     target: >-
       Quantify capacity and resolution after a formed interface exists.
     current_grade: >-
-      HC-DU-136/140/141/142 bank Grade-4 scalar, port, finite-time capacity,
-      thermodynamic-nonimplication, trajectory-record nonselection, and
-      formation--actuality--archive boundaries plus conditional Grade-3 binary
-      reconstruction. A selected complete-record capacity remains open.
+      HC-DU-136/140--143 bank Grade-4 resource/capacity typing,
+      formation--actuality--archive separation, trajectory nonselection, and
+      passive collapse/Bohmian record duality plus conditional Grade-3 binary
+      reconstruction. Selected complete-record capacity remains open.
     evidence_grade: 4
     maximum_grade: "Scoped Grade 4 supporting result."
     maximum_evidence_grade: 4
@@ -463,6 +464,8 @@ programs:
         evidence_ref: explorations/hybrid-quantum-measurement-finite-time-capacity-and-thermodynamic-nonimplication-2026-07-29.md
       - id: HC-DU-142
         evidence_ref: explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
+      - id: HC-DU-143
+        evidence_ref: explorations/nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md
     remaining_obligations:
       - Derive a complete physical record and its model-selected capacity.
     typed_dependencies:
@@ -471,25 +474,19 @@ programs:
         target_type: program
     strongest_absorber: >-
       Binary-channel/Fano theory, metastable and autonomous detectors,
-      quantum-trajectory unravelling, stochastic thermodynamics, primitive
-      ontology/objective collapse, and constrained capacity.
+      quantum trajectories, stochastic thermodynamics, objective collapse,
+      collapse/Bohmian path duality, and constrained capacity.
     cheapest_kill: >-
-      Met three ways: one erasure family preserves port flow and completion
-      odds while capacity grows as s log d; the exact hybrid generator has
-      zero reverse rate, so its finite readout failure cannot be Norton's
-      thermal reversion probability; and one dephasing Lindbladian has a
-      direct-count transcript with zero source information and a homodyne
-      transcript with positive information.
+      Met by erasure-family nonfactorization, readout/reversion nonidentity,
+      incompatible records from one Lindbladian, and matched passive records
+      from collapse versus Bohmian completions.
     stop_rule: >-
       No generic probability, energy, capacity, measurement-model, or
       trajectory survey before a complete physical packet selects their maps.
     reopen_rule: >-
-      Reopen only when one unchanged physical theory/apparatus packet selects
-      the boundary decomposition, source and measurement dynamics, one
-      individual outcome under a stated ontology, a provenance-bearing
-      retained archive through the read horizon, reset and entropy
-      bookkeeping, observer access, task semantics, and a no-refit theorem
-      from the resulting conditional law to accessible capacity.
+      Require one complete apparatus/archive/access/resource packet and a
+      no-refit capacity theorem, or an intervention-natural failure of the
+      collapse/Bohmian correspondence.
     local_computation_boundary: >-
       Proof-first local specimen only; no hardware.
     next_action: null
@@ -499,6 +496,7 @@ programs:
       - explorations/quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md
       - explorations/hybrid-quantum-measurement-finite-time-capacity-and-thermodynamic-nonimplication-2026-07-29.md
       - explorations/thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md
+      - explorations/nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication

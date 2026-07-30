@@ -5849,6 +5849,32 @@ OBJECTIVE-OUTCOME EXITS ADMITTED / NO COMPLETE PHYSICALLY SELECTED RECORD
 PACKET, CAPACITY, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
 `thermodynamic-quantum-trajectory-record-packet-selector-audit-2026-07-29.md`.
 
+### 2026-07-29 collapse/Bohmian record duality and issuance boundary
+
+`HC-DU-143` imports the Tilloy--Wiseman exact correspondence between a class
+of non-Markovian stochastic collapse trajectories and deterministic Bohmian
+system-plus-bath completions. The bath initial distribution pushes forward to
+the collapse-noise law, while the conditioned system wavefunction and a
+natural local beable agree pathwise.
+
+For every unchanged passive kernel \(K\) from that matched path to a record or
+archive, the two record laws are equal by measurable pushforward. Every
+record-mediated passive target or decision risk is equal as well. Consequently
+the labels “progressively introduced stochasticity” and “enlarged-initial
+disclosure” do not factor through the matched formed record.
+
+This does not prove global ontology identity or full active equivalence. An
+active source-facing capability requires one no-refit correspondence natural
+across the entire intervention family. Direct bath/global access,
+symmetry/covariance, complete implementation cost, and the singular Markovian
+limit are completion- or implementation-facing first leaks.
+
+**Updated status:** **CONCEPT-OPEN / PASSIVE DOWNSTREAM RECORD DUALITY AND
+FORMATION-LABEL NONFACTORIZATION PROVED IN ONE NON-MARKOVIAN CLASS /
+INTERVENTION-NATURAL EQUIVALENCE OPEN / NO ONTOLOGY PRIORITY, UNIVERSAL
+COLLAPSE RESULT, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
+`nonmarkovian-collapse-bohmian-record-duality-and-issuance-first-leak-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

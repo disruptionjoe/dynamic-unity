@@ -3586,3 +3586,29 @@ remains the executable regression. Passing it does not select the monitoring
 boundary, detector, transcript, individual ontology, retained archive,
 provenance, observer access, task, no-refit capacity, empirical excess,
 prediction, new physics, hardware need, or paper promotion.
+
+## HC-DU-143 non-Markovian collapse/Bohmian record-duality gate
+
+`HC-DU-143` imports the Tilloy--Wiseman exact construction in which a
+non-Markovian stochastic collapse trajectory is represented by a deterministic
+Bohmian system-plus-bath completion. The bath initial distribution pushes
+forward to the collapse-noise law, and the conditioned system wavefunction
+plus a natural local beable agree pathwise.
+
+Ordinary measurable pushforward then proves that every unchanged passive
+record/archive kernel downstream of the matched path has the same law. A
+formed record in this class therefore cannot identify progressive stochastic
+issuance versus disclosure from an enlarged initial completion.
+
+The result does not establish global ontology identity or equality under
+active interventions. That stronger claim requires one no-refit
+correspondence natural across the complete intervention family. Bath/global
+access, symmetry or covariance, implementation resources, and the singular
+Markovian limit remain possible first leaks.
+
+No numerical executable was added because the published pathwise theorem and
+the exact pushforward proof decide the passive-record result. The governance
+probe remains the executable regression. Passing it does not validate either
+ontology, prove universal collapse equivalence, select an archive or access
+boundary, establish intervention-natural equivalence, produce empirical
+excess, predict new physics, justify hardware, or promote a paper.
