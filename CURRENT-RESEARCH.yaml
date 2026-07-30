@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 91
+state_revision: 92
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,13 +82,14 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-139 confirms that constructor theory makes counterfactual capability
-    a legitimate physical object but does not identify its global asymptotic
-    task repertoire with a finite observer/controller action envelope. A
-    subsidiary theory and access/resource adapter remain necessary. Its
-    general witness theorem supplies a scoped mediator-remainder import, not a
-    record-interface selector or frozen constructor-specific empirical excess.
-    No further nonredundant successor is ready.
+    HC-DU-140 confirms a useful probability-first ladder but refutes a
+    universal identification among quantum probability-port flow, Norton
+    completion odds, and observer-accessible capacity. A fixed erasure family
+    keeps aggregate port flow and completion odds unchanged while accessible
+    information grows as s log d. The quantities compose only after the
+    subsystem, source, instrument, actual transcript, access, task, and
+    resource packet is physically selected. No further nonredundant successor
+    is ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -444,8 +445,9 @@ programs:
     target: >-
       Quantify capacity and resolution after a formed interface exists.
     current_grade: >-
-      HC-DU-136 banks scoped Grade-4 scalar, conditional-capacity, and
-      divergence-orientation boundaries; the physical capacity remains open.
+      HC-DU-136 and HC-DU-140 bank scoped Grade-4 scalar, conditional-capacity,
+      divergence-orientation, probability-port, and odds/capacity
+      nonfactorization boundaries; the physical capacity remains open.
     evidence_grade: 4
     maximum_grade: "Scoped Grade 4 supporting result."
     maximum_evidence_grade: 4
@@ -454,6 +456,8 @@ programs:
     completed_dependencies:
       - id: HC-DU-136
         evidence_ref: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+      - id: HC-DU-140
+        evidence_ref: explorations/quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md
     remaining_obligations:
       - Derive a complete physical record and its model-selected capacity.
     typed_dependencies:
@@ -463,18 +467,23 @@ programs:
     strongest_absorber: >-
       Fano/rate-distortion, stochastic thermodynamics, and constrained capacity.
     cheapest_kill: >-
-      Same declared scalar resource and reliability with different capacities.
+      Met for port flow and completion odds: one erasure family preserves both
+      while accessible information grows as s log d.
     stop_rule: >-
-      Do not run PRRF-02 as a standalone trunk or before a selector premise.
+      Do not run another generic probability, odds, energy, or capacity
+      analogy before a complete physical interface packet selects their maps.
     reopen_rule: >-
-      Reopen as PRIS Swing 3 or 8 only after the active selector gate returns
-      the required formed-interface premise.
+      Reopen only when one physical theory or apparatus packet selects the
+      boundary decomposition, source and measurement dynamics, formed retained
+      transcript, observer access, task semantics, and a no-refit theorem from
+      the resulting conditional law to accessible capacity.
     local_computation_boundary: >-
       Proof-first local specimen only; no hardware.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+      - explorations/quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication
@@ -689,12 +698,16 @@ successor_selection:
     - observed-local-mediator-nonclassicality-remainder
     - stronger-scoped-physical-interface-nonselection-theorem
     - frozen-interface-excess-prediction
+    - physically-selected-probability-port-instrument-to-capacity-law
   decision_rule: >-
     HC-DU-139 proves that making possible tasks fundamental does not identify
-    the global asymptotic repertoire with one finite observer action envelope.
-    Select no successor until one candidate physically selects both the task
-    repertoire and its observer adapter, ties a stronger mediator remainder to
-    a complete observed packet, or freezes empirical excess.
+    the global repertoire with one finite observer envelope. HC-DU-140 proves
+    that making probability the boundary variable does not identify flow,
+    completion odds, or accessible capacity. Select no successor until one
+    candidate physically selects the relevant task or port repertoire together
+    with its instrument, observer adapter, transcript, and resource contract;
+    ties a stronger mediator remainder to a complete observed packet; or
+    freezes empirical excess.
 
 anomaly_intake:
   status: open_non_wip

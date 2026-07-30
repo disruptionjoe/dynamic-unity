@@ -3500,3 +3500,32 @@ executable regression. Passing it does not validate constructor theory, select
 a global repertoire or finite observer envelope, observe mediator
 nonclassicality, form or certify a record, produce constructor-specific
 empirical excess, authorize hardware, or promote a paper.
+
+## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
+
+`HC-DU-140` is a primary-source and exact information-theoretic collision. It
+establishes that:
+
+- Krhač's scalar port pairing encodes instantaneous Born-probability flow
+  across a declared additive decomposition;
+- Norton's odds concern dynamically realized thermodynamic
+  completion/reversion probabilities for a declared fluctuation-suppression
+  process;
+- observer-accessible capacity additionally requires a source encoding,
+  instrument, transcript, access, decoder, task, and resource contract;
+- for fixed success probability \(s\), a \(d\)-ary erasure family can preserve
+  aggregate port flow and completion odds \(s/(1-s)\) while its accessible
+  information is \(s\log d\);
+- “not an energy eigenstate” does not imply absence of an energy distribution
+  or expectation; and
+- a complete selected physical packet can compose flow into an outcome law,
+  odds, accessible information, and then the `HC-DU-136` reconstruction floor,
+  but the three probability quantities are not interchangeable.
+
+No new scientific executable was added. Direct algebra and the erasure-channel
+witness decide the universal claim. The repository governance suite remains
+the executable regression. Passing it does not select a subsystem
+decomposition, measurement, actual outcome, record write, archive, observer
+access, success task, thermodynamic implementation, physical capacity,
+finality-cost law, empirical excess, prediction, new physics, hardware need,
+or paper promotion.

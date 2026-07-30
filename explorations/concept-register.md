@@ -5746,6 +5746,37 @@ select a record, archive, observer boundary, or mediator ontology. No current
 constructor test supplies frozen DU empirical excess. See
 `constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md`.
 
+## CONCEPT-DU-018 — typed probability boundary ladder
+
+- **Concept.** Probability may be the natural dynamical boundary coordinate
+  for a quantum subsystem decomposition without becoming one universal
+  currency for flow, reliability, information, or thermodynamic cost.
+- **Three objects.** Keep separate (1) instantaneous Born-probability flow
+  across a selected additive decomposition, (2) dynamic thermodynamic
+  completion/reversion odds for a declared process, and (3) accessible mutual
+  information under a selected source--instrument--transcript--observer
+  protocol.
+- **Exact boundary.** A \(d\)-ary erasure family with fixed success
+  probability \(s\) can preserve the aggregate port history and completion
+  odds \(s/(1-s)\) for every \(d\), while accessible information is
+  \(s\log d\). Neither flow nor odds determines capacity.
+- **Conditional composition.** A fully selected subsystem and
+  quantum/hybrid dynamics may generate an outcome law; an independently
+  selected encoding, measurement, actual transcript, access, task, and
+  resource contract may then generate odds and capacity; `HC-DU-136` converts
+  that capacity into a reconstruction floor.
+- **Energy correction.** A generic state need not have a sharp energy
+  eigenvalue, but may still have an energy distribution and expectation.
+  Probability is the port variable selected by norm conservation in this
+  construction, not a universal replacement for energy.
+- **Reopener.** One physical theory or apparatus must select the entire
+  port-to-outcome-to-record-to-capacity chain without interface refit.
+- **Status:** **CONCEPT-OPEN / PROBABILITY-FIRST TYPED LADDER SUPPORTED /
+  UNIVERSAL FLOW--ODDS--CAPACITY IDENTITY REFUTED / NO SELECTED RECORD,
+  FINALITY-COST LAW, PHYSICAL CAPACITY, EMPIRICAL EXCESS, OR NEW PHYSICS.**
+  See
+  `quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
