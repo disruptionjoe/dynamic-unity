@@ -5808,6 +5808,48 @@ READOUT DOES NOT IMPLY PROBE-ONLY INTERVENTION / NO OBSERVED EXCLUSIVE
 MEDIATION PACKET, NEW PHYSICS, HARDWARE PATH, PAPER, OR READY SUCCESSOR.** See
 `probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md`.
 
+### 2026-07-30 commutator-phase direct-action excess boundary
+
+`HC-DU-148` tests the strongest theory-specific excess reopener preserved by
+`HC-DU-147`. Chen and Giacomini predict wide-source and canonical
+gravitational-field-commutator phase terms beyond the Newton potential and the
+classical or semiclassical models they audit. Those functional shapes retain
+nonzero conditional empirical content.
+
+They do not automatically identify a named field ontology. The source paper
+itself writes a nonlocal direct matter operator reproducing the wide-source
+phase, while noting that no established gravity theory is known to select it.
+More generally, for mediator operations satisfying
+\(UV=\omega VU\), the controlled group commutator is
+\(U^sV^pU^{-s}V^{-p}=\omega^{sp}I\). The exact qubit control therefore makes
+the mediated sequence
+
+\[
+C_X(S,M)C_Z(P,M)C_X(S,M)C_Z(P,M)
+=CZ(S,P)\otimes I_M.
+\]
+
+All source--probe--mediator endpoints agree with the direct phase for every
+input, while one mediator-facing midpoint measurement separates the
+realizations. Gaussian influence-functionals supply the continuum absorber:
+field commutator/response information can survive in a matter-history kernel
+without retaining an independently accessible field record.
+
+The productive empirical object is a no-refit phase **surface**, not the name
+of a term in one derivation. Source shape, probe stress-energy, time powers,
+back-reaction, gauge, omitted commutators, rival classes, nuisance parameters,
+and acquisition must be frozen across held-out configurations. Such a test
+can distinguish physical law classes while leaving ontology unresolved inside
+an operational-equivalence fibre.
+
+**Updated status:** **CONCEPT-OPEN / WIDE-SOURCE AND COMMUTATOR PHASES RETAIN
+CONDITIONAL EXCESS OVER DECLARED NEWTONIAN AND CLASSICAL RIVALS /
+CENTRAL-COMMUTATOR PHASE DESCENDS EXACTLY TO A DIRECT ACTION /
+MEDIATOR-FACING ACCESS REOPENS ATTRIBUTION / MULTICONFIGURATION NO-REFIT
+MODEL-CLASS TEST PRESERVED / NO OBSERVED PACKET, UNIQUE FIELD ONTOLOGY, DU
+PREDICTION, HARDWARE PATH, NEW PHYSICS, OR READY SUCCESSOR.** See
+`quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md`.
+
 ## CONCEPT-DU-018 — typed probability boundary ladder
 
 - **Concept.** Probability may be the natural dynamical boundary coordinate

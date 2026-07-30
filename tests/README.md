@@ -3558,6 +3558,34 @@ diagnostics, validates a proposed gravity experiment, observes exclusive
 mediation, produces empirical excess, authorizes hardware, or promotes a
 paper.
 
+## HC-DU-148 commutator-phase direct-action descent
+
+`du_commutator_phase_direct_action_descent_probe.py` preserves the exact
+finite control used to distinguish a commutator-derived phase from unique
+mediator attribution:
+
+- source \(S\) and probe \(P\) act only through mediator \(M\);
+- the mediated sequence is
+  \(C_X(S,M),C_Z(P,M),C_X(S,M),C_Z(P,M)\);
+- the sequence equals \(CZ(S,P)\otimes I_M\) on all eight basis states and
+  64 informationally spanning product inputs;
+- the mediator is restored exactly at the endpoint for every input;
+- a mediator-facing midpoint measurement gives \(P(M=1)=1/2\) in the mediated
+  path and \(0\) in the direct path.
+
+Run:
+
+```bash
+python3 tests/du_commutator_phase_direct_action_descent_probe.py --write-artifact
+```
+
+Passing proves only the central-Weyl/Pauli descent and its mediator-facing
+positive control. It does not model linearized gravity, reproduce or refute
+the Chen--Giacomini phase, select a physical direct-action law, erase the
+phase's conditional excess over Newtonian and declared classical models,
+observe a gravity signal, authorize hardware, add a DU prediction, or promote
+a paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It

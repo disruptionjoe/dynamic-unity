@@ -1,0 +1,73 @@
+{
+  "arena": {
+    "direct_sequence": [
+      "C_Z(S,P)"
+    ],
+    "mediated_sequence": [
+      "C_X(S,M)",
+      "C_Z(P,M)",
+      "C_X(S,M)",
+      "C_Z(P,M)"
+    ],
+    "qubit_order": [
+      "S",
+      "P",
+      "M"
+    ],
+    "tolerance": 1e-12
+  },
+  "assertions": {
+    "basis_operator_equality": true,
+    "mediated_path_has_no_direct_source_probe_gate": true,
+    "mediator_endpoint_restored_for_every_input": true,
+    "mediator_facing_midpoint_separates": true,
+    "only_joint_source_probe_one_gets_minus_phase": true,
+    "spanning_input_equality": true
+  },
+  "basis_cases": 8,
+  "basis_max_state_delta": 0.0,
+  "basis_phase_table": {
+    "000": 1,
+    "001": 1,
+    "010": 1,
+    "011": 1,
+    "100": 1,
+    "101": 1,
+    "110": -1,
+    "111": -1
+  },
+  "claim_id": "HC-DU-148",
+  "positive_control": {
+    "direct_midpoint": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_SPM": "000"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_SPM": "100"
+      }
+    ],
+    "direct_probability_M_equals_1": 0,
+    "input": "|+>_S |0>_P |0>_M",
+    "mediated_midpoint": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_SPM": "000"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_SPM": "101"
+      }
+    ],
+    "mediated_probability_M_equals_1": 0.4999999999999999
+  },
+  "scope_guard": "This finite Weyl/Pauli control proves a representation and attribution boundary only. It does not reproduce linearized gravity, derive the Chen--Giacomini functional form, select a physical direct-action theory, or erase the proposed excess over Newtonian and declared classical models.",
+  "spanning_max_state_delta": 0.0,
+  "spanning_product_cases": 64,
+  "theorem_statement": "A central mediator group commutator can induce an exact source--probe phase while returning the mediator identity. Complete endpoint behavior then factors through a direct source--probe action, whereas mediator-facing mid-process access separates the realizations."
+}

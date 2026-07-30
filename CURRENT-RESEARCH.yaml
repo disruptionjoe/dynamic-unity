@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 99
+state_revision: 100
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,11 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-147 proves complete probe behavior cannot name an active mediator
-    under an inaccessible-factor symmetry. Diagnostics can identify effective
-    processes or realization classes; attribution requires symmetry-breaking
-    access, provenance, exclusive mediation, or component-specific excess.
-    No observed packet or ready successor exists.
+    HC-DU-148 preserves Chen--Giacomini phase surfaces as conditional
+    discriminators while proving exact central-commutator descent to a direct
+    phase. Frozen laws can differ without unique field attribution. No observed
+    packet, DU prediction, hardware path, or ready successor exists.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -368,13 +367,12 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Parked after the antecedent-completion, action-envelope, constructor,
-      and complete probe-process mediator-diagnostic gates.
+      Parked after interface, action-envelope, constructor, mediator-diagnostic,
+      and commutator-phase excess gates.
     current_grade: >-
-      HC-DU-137--139/146--147 bank Grade-4 interface/action-envelope
-      boundaries, constructor adapter necessity, conditional total-mediator
-      class exclusion, and endpoint- through complete-probe-process
-      nonidentifiability of the active named mediator.
+      HC-DU-137--139/146--148 bank Grade-4 interface/action, constructor,
+      mediator-attribution, central-commutator descent, and frozen-rival-class
+      boundaries.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
@@ -396,6 +394,8 @@ programs:
         evidence_ref: explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
       - id: HC-DU-147
         evidence_ref: explorations/probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md
+      - id: HC-DU-148
+        evidence_ref: explorations/quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md
     remaining_obligations:
       - Await a completed physical task-repertoire selector plus a
         subsidiary-theory observer/controller/access/resource adapter, a
@@ -409,31 +409,24 @@ programs:
         target: PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: requirement
     strongest_absorber: >-
-      Behavioral equivalence, antecedent factorization, sufficient statistics,
-      system identification and unitary similarity, quantum controllability,
-      no-programming, constructor tasks and total-mediator witnesses,
-      quantum-memory/mediator diagnostics, realization freedom, and prior DU
-      formation/QFT/infrared audits.
+      Operational equivalence, system identification, controllability,
+      no-programming, constructor/mediator witnesses, realization freedom,
+      direct action, influence functionals, and prior DU physical audits.
     cheapest_kill: >-
-      Met: source-equivalent apparatuses, actual-history-equivalent controller
-      envelopes, and complete-probe-process-equivalent circuits disagree on
-      their respective interface, action, and active-component targets.
+      Met: operationally equivalent apparatus, controller, mediator-route, and
+      central-commutator/direct-phase pairs disagree on finer targets.
     stop_rule: >-
-      Stop designed apparatus/controller variants and constructor relabels.
-      Do not seek named provenance through probe-only tomography or replay
-      completed autonomous, mediator, QFT, infrared, programmable-action, or
-      quantum-homogenizer controls.
+      Stop designed variants and probe-only provenance searches. Do not replay
+      completed physical controls, infer ontology from a commutator label, or
+      copy an external phase into DU's prediction register.
     reopen_rule: >-
-      Require a completed theory that independently selects the task
-      repertoire and observer/controller/preparation/resource/access adapter,
-      an observed acquisition packet with exclusive mediation or retained
-      component provenance, a calibrated component-selective access contract,
-      a theorem removing the relevant realization stabilizer, or frozen
-      component-specific empirical excess.
+      Require a selected task/observer adapter, observed exclusive mediation or
+      provenance, a calibrated component-access contract, a theorem excluding
+      the rival realization class, or observed no-refit excess with full
+      lineage.
     local_computation_boundary: >-
-      Exact response/controller and mediator-symmetry probes plus the
-      primary-source collisions decide the boundary. No larger tomography
-      simulation, gravity model, or hardware is warranted without a reopener.
+      Exact finite probes and primary-source collisions decide the boundary.
+      No larger tomography, gravity model, or hardware is warranted.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
@@ -442,6 +435,7 @@ programs:
       - explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
       - explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
       - explorations/probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md
+      - explorations/quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 
@@ -738,11 +732,10 @@ successor_selection:
     - frozen-interface-excess-prediction
     - physically-selected-probability-port-instrument-to-capacity-law
   decision_rule: >-
-    Keep tasks, ports, odds, capacity, records, total-mediator exclusion, and
-    effective-process identification, realization-class witnesses, and named
-    component attribution distinct. Select only a complete physical packet,
-    an observed exclusive-mediation/provenance packet, a symmetry-breaking
-    component-access theorem, or frozen empirical excess.
+    Keep tasks, records, capacities, process classes, and named attribution
+    distinct. Select only a complete physical packet, observed provenance,
+    symmetry-breaking access theorem, or frozen excess surviving declared
+    direct-action, influence-functional, and acquisition rivals.
 
 anomaly_intake:
   status: open_non_wip
