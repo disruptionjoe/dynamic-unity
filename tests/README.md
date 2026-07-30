@@ -4092,3 +4092,30 @@ The artifact is
 only the exact finite quotient and nonidentification controls. It establishes
 no hidden apparatus variable, complete physical archive, reconstruction,
 remainder, new law, or new physics.
+
+## HC-DU-164 QND-tomography material-archive boundary
+
+`du_qnd_tomography_material_archive_probe.py` checks exact controls for the
+bounded QND-tomography reopener audit:
+
+- ideal rank-one projective outcome maps have one-dimensional Liouville range,
+  so the outcome label fixes the posterior system state;
+- an independent coin-label outcome map has full qubit Liouville rank, and a
+  later \(Z\) effect distinguishes histories sharing that label;
+- two measurement dilations agree on a complete input matrix-unit basis after
+  tracing hidden support, hence induce the same accessible system-plus-label
+  instrument for every input and later accessible action; and
+- the same dilations leave a hidden archive register blank versus copied, so
+  extending access to that register strictly distinguishes them.
+
+Run:
+
+```bash
+python3 tests/du_qnd_tomography_material_archive_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_qnd_tomography_material_archive_result.json`. Passing proves
+only the exact finite label-sufficiency and material-dilation nonselection
+controls. It establishes no fact about the IBM apparatus, complete physical
+archive, reconstruction, remainder, new law, or new physics.

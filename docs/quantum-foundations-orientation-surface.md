@@ -1328,6 +1328,23 @@ representations, bisimulation, QND tomography, and process tensors absorb the
 components. The earned boundary is observed predictive mean versus physical
 material realization, not action-relative reconstruction.
 
+**QND-tomography reopener correction.** `HC-DU-164` confirms that
+informationally complete QND measurement tomography can reconstruct a fitted
+outcome-conditioned reduced instrument, not merely an aggregate repeat rate.
+It also supplies a sharp operational label test: outcome \(n\) alone fixes
+all later system-only responses across admitted inputs exactly when
+\(\mathcal E_n(\rho)=\operatorname{tr}(F_n\rho)\tau_n\), equivalently when
+the source's Liouville/process matrix has rank one. That closure remains
+operational. Exact measurement dilations can induce the same accessible
+system-plus-label instrument for every input while retaining different hidden
+archive support. The pinned public IBM packet contains aggregate joined
+categorical counts but no non-null ordered shot memory or raw/IQ acquisition
+lineage. Instrument/process tomography, measure-and-prepare channels,
+Stinespring freedom, and acquisition theory absorb the components. Reopen
+only with an implementation-complete material packet; more tomography alone
+cannot select archive, provenance, retention, reset, access, or physical
+dilation.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

@@ -6631,6 +6631,46 @@ mathematical components. `SEED-DU-MPA-06` is not eligible. Reopen only with a
 source-pinned joined multi-action/tomography packet, complete archive
 semantics, and factorization plus minimality tests.
 
+### 2026-07-30 QND-tomography reopener correction
+
+`HC-DU-164` audits the strongest process-tomography route named by that
+reopener. Pereira--García-Ripoll--Ramos QND tomography uses complete prepared
+states, intermediate operations, and second measurements to reconstruct the
+outcome-conditioned reduced instrument \(\{\mathcal E_n\}\). This closes the
+operational-process rung more strongly than repeat agreement.
+
+For one outcome, the retained label is sufficient for every later
+system-only action across admitted input histories exactly when
+
+\[
+\mathcal E_n(\rho)=\operatorname{tr}(F_n\rho)\tau_n,
+\]
+
+equivalently when the source's Liouville/process matrix has rank one. That
+criterion is standard measure-and-prepare/instrument mathematics and does not
+select a material archive.
+
+Two exact measurement dilations prove the remaining separation. They induce
+the same accessible ideal system-plus-label instrument on every input, while
+one hidden archive register remains blank and the other copies the outcome.
+Accessing that register distinguishes them. Therefore even perfect
+operational label sufficiency plus complete accessible instrument tomography
+does not select physical archive support, provenance, or implementation.
+
+The pinned version-0.1 IBM source packet contains aggregate joined
+categorical counts sufficient for the fitted instrument, but no non-null
+ordered shot memory or raw/IQ acquisition lineage. Its 98 stored process
+estimates are numerically full rank but remain close to rank one; without a
+rank-one submodel test and uncertainty contract, exact label insufficiency is
+unadjudicated.
+
+**Updated seed status:** the process-tomography term of the reopener is
+satisfied at reduced-instrument level. The material archive, provenance,
+retention, reset, hidden-environment scope, factorization, and minimality
+terms remain unsatisfied. `SEED-DU-MPA-06` remains ineligible. A future
+reopener must be implementation-complete rather than merely
+tomography-complete.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

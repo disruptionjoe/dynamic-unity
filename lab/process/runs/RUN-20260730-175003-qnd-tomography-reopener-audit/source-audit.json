@@ -1,0 +1,78 @@
+{
+  "audit": "qnd_tomography_public_source_packet",
+  "audited_at": "2026-07-30",
+  "claim_id": "HC-DU-164",
+  "primary_sources": [
+    {
+      "doi": "10.1103/PhysRevLett.129.010402",
+      "title": "Complete physical characterization of QND measurements via tomography",
+      "url": "https://arxiv.org/abs/2109.06616"
+    },
+    {
+      "doi": "10.1038/s41534-023-00688-7",
+      "title": "Parallel tomography of quantum non-demolition measurements in multi-qubit devices",
+      "url": "https://www.nature.com/articles/s41534-023-00688-7"
+    }
+  ],
+  "public_packet": {
+    "zenodo_doi": "10.5281/zenodo.7341393",
+    "zenodo_title": "LucianoPereiraValenzuela/Parallel_QND_measurement_tomography: version 0.1",
+    "zenodo_publication_date": "2022-11-21",
+    "zenodo_version": "0.1",
+    "archive_file": "LucianoPereiraValenzuela/Parallel_QND_measurement_tomography-0.1.zip",
+    "archive_bytes": 202575433,
+    "archive_md5": "0e317d063561231842a9039306e45f94",
+    "github_url": "https://github.com/LucianoPereiraValenzuela/Parallel_QND_measurement_tomography/tree/0.1",
+    "github_commit": "5c4b8e51767571602de4d2409836f3a37ca25292"
+  },
+  "repository_scan": {
+    "files_excluding_git_metadata": 2519,
+    "bytes_excluding_git_metadata": 449944671,
+    "json_files": 132,
+    "qiskit_result_json_files": 122,
+    "experiment_result_entries": 61336,
+    "backend_result_file_counts": {
+      "ibm_lagos": 30,
+      "ibm_perth": 87,
+      "ibmq_casablanca": 5
+    },
+    "shot_count_entry_counts": {
+      "1000": 410,
+      "8192": 60926
+    },
+    "measurement_level_entry_counts": {
+      "2": 61336
+    },
+    "entries_with_aggregate_counts": 61336,
+    "entries_with_nonnull_ordered_memory": 0,
+    "entries_with_nonnull_raw_or_iq_like_data": 0,
+    "reconstruction_input": "aggregate counts obtained through Result.get_counts",
+    "interpretation": [
+      "Count keys retain joined categorical outcomes within each circuit and support p(m,n|i,j).",
+      "The packet does not retain shot order, raw IQ traces, rejected attempts, controller lineage, or an implementation-complete reset/archive census."
+    ]
+  },
+  "published_estimate_diagnostic": {
+    "scope": "seven stored data_tomo_v2 files for ibm_perth; seven qubits; two outcomes",
+    "process_matrices": 98,
+    "matrix_shape": [
+      4,
+      4
+    ],
+    "numerical_rank_tolerance": 1e-10,
+    "numerical_rank_counts": {
+      "4": 98
+    },
+    "best_rank_one_relative_frobenius_residual": {
+      "minimum": 0.0025282202706308743,
+      "first_quartile": 0.009873437770150935,
+      "median": 0.013950179644854373,
+      "third_quartile": 0.017863569421208172,
+      "maximum": 0.03431738843175693
+    },
+    "method": "restricted unpickling allowed only NumPy array primitives and a data-only Results placeholder; repository code was not imported or executed",
+    "adjudication": "UNADJUDICATED_RANK_ONE_NULL",
+    "reason": "Finite constrained maximum-likelihood estimates can be numerically full-rank. The source did not preregister or report a rank-one/replacer submodel test with uncertainty, so numerical rank alone cannot establish exact label insufficiency."
+  },
+  "disclaimer": "This audit characterizes a pinned public packet and exact representation boundary. It does not characterize hidden IBM controller state, rejected attempts, unexported acquisition data, or the unique physical implementation of the fitted instrument."
+}

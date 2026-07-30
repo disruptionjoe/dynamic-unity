@@ -1,0 +1,89 @@
+{
+  "checks": {
+    "hidden_archive_access_is_a_strict_action_extension": true,
+    "hidden_archive_support_differs": true,
+    "ideal_outcome_maps_have_one_dimensional_range": true,
+    "operational_label_sufficiency_does_not_select_material_archive": true,
+    "same_accessible_instrument_for_every_input_operator": true,
+    "uninformative_coin_label_does_not_fix_postmeasurement_state": true
+  },
+  "claim_id": "HC-DU-164",
+  "dilation_twins": {
+    "accessible_channel_on_matrix_units": [
+      [
+        {
+          "basis": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "coefficient": "1"
+        }
+      ],
+      [],
+      [],
+      [
+        {
+          "basis": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "coefficient": "1"
+        }
+      ]
+    ],
+    "blank_archive_dilation": {
+      "0": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "1": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "copied_archive_dilation": {
+      "0": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "1": [
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "factor_order": [
+      "system",
+      "classical_outcome",
+      "environment",
+      "R"
+    ],
+    "hidden_archive_for_input_one": {
+      "blank_archive": 0,
+      "copied_archive": 1
+    }
+  },
+  "disclaimer": "Passing establishes only exact finite representation and nonselection controls. It establishes no fact about the IBM apparatus, complete archive, physical dilation, remainder, new law, or new physics.",
+  "label_sufficiency_controls": {
+    "future_action_witness": "After the same coin outcome, a later Z effect distinguishes input |0> from input |1>; the label alone is insufficient.",
+    "ideal_projective_outcome_liouville_ranks": {
+      "0": 1,
+      "1": 1
+    },
+    "uninformative_coin_outcome_liouville_rank": 4
+  },
+  "probe": "du_qnd_tomography_material_archive_probe",
+  "scope": "finite-dimensional label sufficiency and exact measurement-dilation twins",
+  "status": "PASS"
+}
