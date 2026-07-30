@@ -5653,6 +5653,45 @@ See
   LAW, OR NEW PHYSICS EARNED.** See
   `physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md`.
 
+### 2026-07-29 antecedent-completion boundary and campaign stop
+
+`HC-DU-137` corrects and executes the finite selector gate. The
+preregistered cheapest kill was internally inconsistent: an automorphism
+preserving the complete future-response structure cannot move an interface
+outside the operational equivalence class defined by that same response
+structure. Symmetry can obstruct one raw interface representative; it cannot
+obstruct the response quotient after response-preserving symmetries have
+already been divided out.
+
+The corrected kill is one antecedent fibre containing two different complete
+response signatures. `HC-DU-126` supplies it exactly. One grounded
+source-response operator \(A\) supports:
+
+- a vector-current apparatus writing \(Ax\), with \(n\) independent fixed
+  probes necessary and sufficient; and
+- a scalar-action apparatus writing \(x^\mathsf TAx/2\), with
+  \(n(n+1)/2\) fixed probes necessary and sufficient.
+
+For \(n\ge2\), these interfaces differ in raw output, write type, and minimum
+formation cost while sharing the same source-only antecedent. They become
+equivalent only under a weaker action contract that forgets formation and
+asks solely for eventual source-response prediction.
+
+Thus a fixed complete unlabelled physical process canonically selects its
+response quotient, but the quotient cannot select its own probe, archive,
+access path, or future action envelope. Adding an independently physical
+premise can close the antecedent fibre and earns credit at that richer cut;
+adding the desired response label after the fact is action-coded repair.
+
+The prepared formation, mediator, local-QFT, and finite-time-infrared
+follow-ons already exist as `HC-DU-056/061`, `HC-DU-115/125/126`,
+`HC-DU-118`, and `HC-DU-068`. Replaying them would not select a new physical
+premise. The campaign therefore stops at scoped Grade 4 and returns
+`NO_READY_SUCCESSOR`. The concept remains open only for a theory or mechanism
+that independently selects an action/probe/archive/access boundary, or a
+stronger physical-class no-go. See
+`physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

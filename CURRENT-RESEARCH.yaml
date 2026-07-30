@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 88
+state_revision: 89
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -77,13 +77,14 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
-  executable_action_id: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    Physical record-interface selection is the upstream North-Star joint.
-    PRIS-02 must return a natural interface or exact obstruction.
+    HC-DU-137 closes the finite selector gate: a complete process selects its
+    fixed-action response quotient, source physics does not select the
+    probe/access/archive process, and no nonredundant successor is ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -337,10 +338,9 @@ programs:
   - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: active
-    execution_status: executable
-    wip_slot: scientific_flagship
-    active_work_id: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -354,11 +354,13 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Select a target-blind formed accessible interface from a complete
-      physical antecedent, or prove exact nonselection.
+      Parked after proving the finite antecedent-completion boundary for
+      target-blind physical record-interface selection.
     current_grade: >-
-      PRIS-01 is Grade-0 work ordering; no selector theorem is earned.
-    evidence_grade: 0
+      HC-DU-137 banks scoped Grade-4 source-only interface nonselection,
+      complete-process response-quotient selection, action-envelope
+      non-self-selection, and the corrected naturality kill.
+    evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
     maximum_evidence_grade: 5
@@ -369,9 +371,11 @@ programs:
         evidence_ref: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - id: HC-DU-126
         evidence_ref: explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
+      - id: HC-DU-137
+        evidence_ref: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
     remaining_obligations:
-      - Prove a finite natural selector or exact no-fixed-selector obstruction.
-      - Gate formation, descent, QFT, reconstruction, and capacity.
+      - Await an independently physical action/probe/archive/access selector
+        or a stronger physical-class no-go.
     typed_dependencies:
       - type: requires
         target: HC-DU-126
@@ -380,69 +384,25 @@ programs:
         target: PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: requirement
     strongest_absorber: >-
-      Behavioral equivalence, naturality, decoherence, QFT measurement, and inverse response.
+      Behavioral equivalence, antecedent factorization, sufficient statistics,
+      system identification, and prior DU formation/QFT/infrared audits.
     cheapest_kill: >-
-      A physical automorphism preserves the entire antecedent and future
-      response while moving every candidate interface outside its operational
-      equivalence class.
+      Met. One source response admits vector-current and scalar-action
+      apparatuses with different complete formed-interface responses.
     stop_rule: >-
-      Stop on target coding, representation labels, supplied interface, empty
-      fibre, or no decision-changing learning.
+      Stop designed finite apparatus variants and do not replay the completed
+      autonomous, mediator, local-QFT, or infrared selection audits.
     reopen_rule: >-
-      Not applicable while active. Each later swing opens only through the
-      return classes frozen by PRIS-01.
+      Require a theory or mechanism that selects the probe/action/archive/access
+      boundary without already containing it, a stronger scoped physical-class
+      no-go, or a frozen empirical excess prediction.
     local_computation_boundary: >-
-      Proof first; compute only an exact decision witness. No hardware.
-    next_action: >-
-      Add one material probe/memory to HC-DU-126. Freeze the antecedent before
-      record naming; derive the response quotient and prove selection or the
-      smallest naturality obstruction.
-    next_action_ref: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
-    execution_packet:
-      action_id: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
-      exact_question: >-
-        Does the finite physical antecedent select an operational record
-        interface or retain a naturality obstruction?
-      source_locator:
-        path: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
-        heading: '## 10. Exact next action'
-      required_inputs:
-        - path: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
-          role: selector contract and campaign gates
-        - path: explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
-          role: finite source-response and mediator fibre
-      unchanged_ledger_fields:
-        - histories, dynamics, sources, boundaries, and couplings
-        - observer actions and physical equivalences
-        - formation, access, retention, and reset
-        - no record labels, target, or fitted decoder
-      arena_roles:
-        - exact finite source--mediator--probe selector arena
-        - automorphism, target-coded, and endpoint-only hostile controls
-      expected_return_classes:
-        - SELECTOR_FOUND
-        - SELECTOR_EQUIVALENCE_CLASS_ONLY
-        - NATURALITY_OBSTRUCTION
-        - REPRESENTATION_DEPENDENT_INTERFACE
-        - TARGET_CODED_REPAIR
-        - NO_READY_SUCCESSOR
-      observer_index_return_classes:
-        - FORMED_ACCESSIBLE_RECORD
-        - ENDPOINT_CORRELATION_ONLY
-        - FORMATION_SELECTED_ACCESS_SUPPLIED
-        - ACCESS_SELECTED_FORMATION_SUPPLIED
-      durable_output: >-
-        Exact selector theorem or obstruction and one activated branch or stop.
-      local_method: >-
-        Proof first; one minimal exact local search through LMLG-01. No hardware.
-      uses_program_controls:
-        strongest_absorber: >-
-          Behavioral equivalence, naturality, Schur complements, and decoherence.
-        cheapest_kill: >-
-          One antecedent-preserving automorphism with no invariant interface.
-        stop_rule: >-
-          Stop on target coding, supplied labels, or no finite result.
+      Existing exact probes decide the finite boundary. No new model or
+      hardware is warranted without a reopener.
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
+      - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 
@@ -699,21 +659,18 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: blocked
-  blocked_by: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - natural-physical-record-interface-equivalence-class
-    - physical-interface-nonselection-obstruction
-    - dynamic-formation-and-access-premise
-    - representation-invariant-operational-duality
-    - formed-qft-record-held-out-reconstruction-or-remainder
-    - no-ready-successor
+    - independently-selected-action-probe-archive-access-boundary
+    - stronger-scoped-physical-interface-nonselection-theorem
+    - frozen-interface-excess-prediction
   decision_rule: >-
-    All later phases are blocked by PRIS-02. First derive a target-blind
-    natural interface class or an exact nonselection witness in the finite
-    source--mediator--probe arena. Activate only the branch named by its frozen
-    return class; do not run the nine swings by schedule.
+    HC-DU-137 stops finite designed-interface variants and identifies the
+    prepared later swings as prior-result replays. Select no successor until
+    one candidate supplies an independently physical interface premise, a
+    stronger theorem class, or frozen empirical excess.
 
 anomaly_intake:
   status: open_non_wip

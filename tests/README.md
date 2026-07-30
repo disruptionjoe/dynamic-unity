@@ -3403,3 +3403,44 @@ executable regression. Passing it does not establish the next metastable
 specimen, a model-selected capacity, a formed record, physical remainder,
 ontology, source issuance, empirical excess, law, physics, prediction, paper,
 hardware, provider, publication, or other external action.
+
+## HC-DU-137 physical-interface antecedent-completion boundary
+
+`HC-DU-137` is an exact proof composition using two already banked finite
+regressions:
+
+- `du_feedback_boundary_selection_probe.py` preserves the theorem that a
+  fixed-action response-class selector exists exactly when the complete
+  response signature is constant on antecedent fibres, and that richer
+  future actions refine the quotient; and
+- `du_source_action_response_record_probe.py` preserves one exact source
+  response with vector-current and scalar-action interfaces whose minimum
+  complete fixed-probe counts are respectively \(n\) and \(n(n+1)/2\).
+
+Together they establish the campaign boundary:
+
+- a response-preserving automorphism cannot move an interface outside the
+  response equivalence class defined by that same response structure;
+- the correct operational nonselection witness is
+  same-antecedent/different-response;
+- the source response does not select the probe, write, archive, access, or
+  action envelope;
+- a complete physical apparatus process can select its operational quotient
+  relative to its frozen actions; and
+- inserting the desired response-class label after inspection is
+  action-coded repair.
+
+Run:
+
+```bash
+python3 tests/du_feedback_boundary_selection_probe.py
+python3 tests/du_source_action_response_record_probe.py
+```
+
+No new scientific executable was added because another finite model would
+replay already proved factorization and apparatus controls. Passing the two
+regressions establishes only the scoped finite antecedent-completion boundary.
+It does not select an apparatus in nature, prove a universal record-interface
+no-go, establish an observer-independent record ontology, transfer to
+continuum or QFT, produce empirical excess, authorize hardware, or promote a
+paper.
