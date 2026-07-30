@@ -6891,6 +6891,35 @@ QECi/QECIPHY is a candidate future co-design surface, not a retroactive
 historical sidecar. Stop public searching unless a source release or custody
 condition changes.
 
+### 2026-07-30 stage-local compositional section boundary
+
+`HC-DU-172` strengthens the process-only selection boundary. For a
+finite-dimensional channel \(\Phi:A\to B\), let
+\(\{S_x(\Phi)\}_{x\in X}\) be CP components summing to \(\Phi\). If the same
+stage-local label must commute with every downstream channel,
+
+\[
+S_x(\Psi\Phi)=\Psi S_x(\Phi),
+\]
+
+then rank-one Choi support of \(\operatorname{id}_A\) forces
+
+\[
+S_x(\Phi)=p_x^A\Phi
+\]
+
+for every \(\Phi\). The selected label is an uninformative coin. Informative
+decompositions such as the projective instrument over a dephasing channel
+remain possible, but they require a marked composition cut, selected
+classical sector, restricted continuation class, dilation, or material
+archive.
+
+**Updated seed status:** a bare end-to-end process cannot be credited with a
+provenance-bearing formation stage merely because one of its factorizations
+has an informative instrument. The next physical reopener must select or
+expose the stage-bearing structure. CP-map and information-disturbance theory
+absorb the mathematics; no new physics or ready successor follows.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

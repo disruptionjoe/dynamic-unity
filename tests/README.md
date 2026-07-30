@@ -4342,3 +4342,33 @@ absence only on the declared frozen public surfaces and a historical
 non-substitution control. It does not prove private or global absence,
 evaluate the experiment, establish a physical remainder, or support new
 physics.
+
+## HC-DU-172 stage-local instrument-section triviality
+
+`du_stage_local_instrument_section_triviality_probe.py` preserves the exact
+finite controls behind the analytic theorem:
+
+- the identity channel has rank-one Choi support;
+- coin components sum to the identity and transport naturally through
+  representative downstream channels;
+- downstream naturality transports those coin components to dephasing;
+- the projective \(Z\)-instrument is an informative decomposition of the
+  same dephasing channel;
+- that informative decomposition violates the bare-arrow stage-local
+  naturality equation; and
+- once the projective cut is marked, its components transport through later
+  dynamics and still sum to the composite.
+
+Run:
+
+```bash
+python3 tests/du_stage_local_instrument_section_triviality_probe.py \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_stage_local_instrument_section_triviality_result.json`. Passing
+preserves the proof controls only; the general result is analytic. It does
+not select a physical cut, instrument, sampler, outcome, archive, provenance
+chain, observer, new physics, prediction, paper, hardware, provider, or later
+scientific action.

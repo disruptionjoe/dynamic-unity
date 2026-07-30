@@ -1266,6 +1266,21 @@ boundary, or observer index. No-information-without-disturbance, quantum
 instrument/process theory, and categorical classical-structure results absorb
 the mathematical components.
 
+**Stage-local composition correction.** `HC-DU-172` closes the tempting
+nonunitary escape when a selector is required to preserve the same formation
+stage under arbitrary downstream processing. For CP components summing to
+each channel, downstream naturality
+\(S_x(\Psi\Phi)=\Psi S_x(\Phi)\) and rank-one Choi support of the identity
+force \(S_x(\Phi)=p_x^A\Phi\) for every channel leaving \(A\). Every selected
+label is therefore an uninformative coin. Informative projective components
+of a dephasing channel remain a positive control; they require a marked
+composition cut, classical output sector, restricted continuation class, or
+selected dilation/archive and do not satisfy the bare-arrow contract.
+CP-map Radon--Nikodym order and no-information-without-disturbance absorb the
+mathematics. The physical question is now whether dynamics selects the
+stage-bearing structure, not whether another decomposition of the end-to-end
+channel can be written.
+
 **Action-indexed frontier correction.** `HC-DU-160` shows that an
 action/access class is not one more antecedent coordinate: it indexes the
 operational equivalence relation the coordinates must select. For fixed

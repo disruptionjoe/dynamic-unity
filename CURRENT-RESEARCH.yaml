@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 125
+state_revision: 126
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-171 closes the bounded public-sidecar search. Exact executable,
-    attempt, actuation, and archive lineage remain external-custody
-    dependencies; no successor.
+    HC-DU-172 makes every bare-process downstream-natural stage-local
+    instrument section a coin. Informative records require a marked physical
+    cut or extra structure; no successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -113,9 +113,9 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165--167 bank boundaries and calibration; HC-DU-168/169 supply
-      the joined packet and coordinate split; HC-DU-170/171 make completeness
-      target/fault-relative and close the public search.
+      HC-DU-165--171 bank representation, calibration, and custody boundaries;
+      HC-DU-172 proves the bare-process stage-local compositional
+      nonselection boundary.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -163,6 +163,8 @@ programs:
         evidence_ref: explorations/controller-sidecar-recovery-command-actuation-nonidentification-and-fault-relative-completeness-2026-07-30.md
       - id: HC-DU-171
         evidence_ref: explorations/public-implementation-sidecar-availability-and-successor-interface-nonsubstitution-2026-07-30.md
+      - id: HC-DU-172
+        evidence_ref: explorations/stage-local-compositional-instrument-section-triviality-and-marked-cut-boundary-2026-07-30.md
     remaining_obligations:
       - Freeze the implementation target, fault class, and environment scope; require only the fields needed to make that target constant on the implementation fibre.
       - For this QEC packet, external custody must supply all-attempt dispositions, exact executable/configuration identity, target-sufficient actuation/route evidence, and archive lineage/access/reset.
@@ -170,7 +172,7 @@ programs:
       - Test behavioral minimality apart from provenance completeness.
       - Keep action-finality, timing/resource-finality, response-finality, and provenance-finality separate; a held-out timing test requires decoder status or a stable row join.
       - Keep operational label sufficiency separate from material archive selection.
-      - Keep Choi/Kraus minimality separate from both operational sufficiency and physical minimality.
+      - Keep Choi/Kraus minimality and bare-process sections separate from marked physical cuts and material selection.
       - Keep action syntax, lawful solutions, response, process, material record, and index separate; recheck GU only at Euler/domain or RB8 response.
       - Do not activate remainder or transfer before those gates.
     typed_dependencies:
@@ -188,18 +190,14 @@ programs:
         target_type: program
     strongest_absorber: >-
       Sufficient statistics and candidate keys; quantum instruments and
-      minimal measurement models; Choi/Kraus/Stinespring theory; combs and
-      process tensors; decoherence/SBS; AQFT measurement schemes; system and
-      input-output identification; circuit-QED calibration; acquisition
-      provenance; feedback control; Blackwell sufficiency, causal states,
-      predictive-state representations, bisimulation, and QND tomography.
+      minimal measurement models; CP-map Radon--Nikodym, Choi/Kraus/Stinespring
+      theory, and information-disturbance; combs/process tensors; AQFT
+      measurement; system identification; acquisition provenance; feedback;
+      Blackwell sufficiency, causal states, bisimulation, and QND tomography.
     cheapest_kill: >-
-      Met. Even after replacing arbitrary dilations by the abstract minimal
-      normal one, the instrument fixes only Choi-rank sector multiplicities
-      and the outcome algebra up to within-sector unitary equivalence.
-      Liouville and Choi rank answer different questions, nonminimal physical
-      realizations remain possible, and no material carrier or provenance is
-      selected.
+      Met for bare processes: downstream stage-local naturality plus purity
+      of the identity forces every selected component to be a coin multiple
+      of the channel.
     stop_rule: >-
       Stop on target coding, an untyped process/interface map, full prior-art
       absorption, a failed typed prerequisite, or any route requiring hardware
@@ -227,6 +225,7 @@ programs:
       - explorations/action-equivalent-decoder-certificates-resource-timing-split-and-heldout-status-join-boundary-2026-07-30.md
       - explorations/controller-sidecar-recovery-command-actuation-nonidentification-and-fault-relative-completeness-2026-07-30.md
       - explorations/public-implementation-sidecar-availability-and-successor-interface-nonsubstitution-2026-07-30.md
+      - explorations/stage-local-compositional-instrument-section-triviality-and-marked-cut-boundary-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md

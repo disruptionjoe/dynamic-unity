@@ -1,0 +1,33 @@
+{
+  "boundary": "The finite controls preserve the proof boundary; the general theorem follows analytically from purity of the identity CP map and downstream naturality, not from enumeration.",
+  "checks": {
+    "coin_components_sum_to_identity": true,
+    "identity_choi_has_rank_one": true,
+    "informative_decomposition_violates_bare_stage_naturality": true,
+    "marked_components_transport_through_downstream_channel": true,
+    "marked_projective_instrument_is_informative": true,
+    "marked_projective_instrument_sums_to_dephasing": true,
+    "naturality_forces_coin_decomposition_of_dephasing": true,
+    "postprocessing_naturality_holds_for_exact_controls": true
+  },
+  "claim_id": "HC-DU-172",
+  "coin_probabilities": [
+    "1/3",
+    "2/3"
+  ],
+  "disclaimer": "Passing selects no physical cut, instrument, sampler, outcome, archive, provenance chain, observer, or new physics.",
+  "identity_choi_rank": 1,
+  "marked_outcome_probabilities": {
+    "rho_one": [
+      "0",
+      "1"
+    ],
+    "rho_zero": [
+      "1",
+      "0"
+    ]
+  },
+  "probe": "du_stage_local_instrument_section_triviality_probe",
+  "scope": "finite-dimensional exact controls for postprocessing-natural instrument sections and the marked-cut exit",
+  "status": "PASS"
+}
