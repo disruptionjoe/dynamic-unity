@@ -6920,6 +6920,30 @@ has an informative instrument. The next physical reopener must select or
 expose the stage-bearing structure. CP-map and information-disturbance theory
 absorb the mathematics; no new physics or ready successor follows.
 
+### 2026-07-30 quantum-controlled order relocation
+
+`HC-DU-173` tests a real stage-bearing carrier rather than another
+bare-channel decomposition. In a two-branch controlled order, correlating the
+branches with pure marker states of overlap \(\gamma\) gives accessible
+interference \(V=|\gamma|\), optimal distinguishability
+\(D=\sqrt{1-|\gamma|^2}\), and \(D^2+V^2=1\). Orthogonal markers erase
+unconditional branch interference for the restricted observer.
+
+That does not select one globally actualized order. The coherent marked state
+and its incoherent mixture have identical diagonal order records and
+identical reduced controls, but a joint \(X\otimes X\) action distinguishes
+them exactly. Complementary-basis conditioning on the marker restores unit
+interference. The marker can therefore relocate order coherence into a
+larger completion.
+
+**Updated seed status:** `CONCEPT-DU-019` gains a concrete distinction among
+a coherent stage carrier, restricted classical causal order, and material
+finality. A record can be final for one action algebra and reopen under a
+coherent access extension. Quantum-switch dephasing, complementarity,
+purification, and quantum erasure absorb the mathematics; no physical marker,
+archive, observer boundary, global actualization, new physics, or ready
+successor is selected.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

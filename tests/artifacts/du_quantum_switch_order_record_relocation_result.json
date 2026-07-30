@@ -1,0 +1,125 @@
+{
+  "probe": "du_quantum_switch_order_record_relocation_probe",
+  "claim_id": "HC-DU-173",
+  "status": "PASS",
+  "checks_passed": 12,
+  "checks_total": 12,
+  "complementarity_cases": [
+    {
+      "case": "unmarked",
+      "marker_overlap": "1",
+      "visibility": "1",
+      "distinguishability": "0",
+      "D2_plus_V2": "1"
+    },
+    {
+      "case": "partial_3_4_5",
+      "marker_overlap": "3/5",
+      "visibility": "3/5",
+      "distinguishability": "4/5",
+      "D2_plus_V2": "1"
+    },
+    {
+      "case": "orthogonal",
+      "marker_overlap": "0",
+      "visibility": "0",
+      "distinguishability": "1",
+      "D2_plus_V2": "1"
+    }
+  ],
+  "restricted_record_twin": {
+    "coherent_diagonal": [
+      "1/2",
+      "0",
+      "0",
+      "1/2"
+    ],
+    "incoherent_diagonal": [
+      "1/2",
+      "0",
+      "0",
+      "1/2"
+    ],
+    "coherent_reduced_control": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ],
+    "incoherent_reduced_control": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ],
+    "coherent_XX_response": "1",
+    "incoherent_XX_response": "0"
+  },
+  "eraser": {
+    "plus_probability": "1/2",
+    "minus_probability": "1/2",
+    "plus_conditioned_X": "1",
+    "minus_conditioned_X": "-1",
+    "unconditional_X": "0"
+  },
+  "checks": [
+    {
+      "name": "unmarked_visibility_matches_marker_overlap",
+      "passed": true
+    },
+    {
+      "name": "unmarked_pure_marker_duality",
+      "passed": true
+    },
+    {
+      "name": "partial_3_4_5_visibility_matches_marker_overlap",
+      "passed": true
+    },
+    {
+      "name": "partial_3_4_5_pure_marker_duality",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_visibility_matches_marker_overlap",
+      "passed": true
+    },
+    {
+      "name": "orthogonal_pure_marker_duality",
+      "passed": true
+    },
+    {
+      "name": "diagonal_order_record_is_identical",
+      "passed": true
+    },
+    {
+      "name": "restricted_control_state_is_identical",
+      "passed": true
+    },
+    {
+      "name": "coherent_joint_action_is_first_leak",
+      "passed": true
+    },
+    {
+      "name": "eraser_outcomes_are_balanced",
+      "passed": true
+    },
+    {
+      "name": "conditional_eraser_restores_unit_interference",
+      "passed": true
+    },
+    {
+      "name": "unconditional_interference_remains_zero",
+      "passed": true
+    }
+  ],
+  "interpretation": "A diagonal order record can close a restricted action class while a coherent joint operation distinguishes the purified completion. The marker relocates coherence; it does not by itself prove global actualization or select a physical archive.",
+  "scope_limit": "Finite standard-quantum control only. Causal separability of dephased quantum-controlled processes is source-derived, not proved by this regression."
+}

@@ -4372,3 +4372,31 @@ preserves the proof controls only; the general result is analytic. It does
 not select a physical cut, instrument, sampler, outcome, archive, provenance
 chain, observer, new physics, prediction, paper, hardware, provider, or later
 scientific action.
+
+## HC-DU-173 quantum-switch order-record relocation
+
+`du_quantum_switch_order_record_relocation_probe.py` preserves the exact
+finite controls behind the access-relative causal-order result:
+
+- three pure-marker cases satisfy the exact
+  \(D^2+V^2=1\) distinguishability--visibility relation;
+- a coherent order-marker completion and its incoherent mixture have the
+  same diagonal record and reduced order control;
+- one joint \(X\otimes X\) action distinguishes those completions exactly;
+  and
+- complementary-basis marker conditioning restores unit interference while
+  the unconditioned response remains zero.
+
+Run:
+
+```bash
+python3 tests/du_quantum_switch_order_record_relocation_probe.py \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_quantum_switch_order_record_relocation_result.json`. Passing
+establishes only the finite complementarity and coherent-access witnesses.
+It does not prove causal nonseparability, select a switch, marker, sampler,
+archive, provenance chain, access boundary, observer, global actualization,
+new physics, paper, hardware, provider, or later scientific action.

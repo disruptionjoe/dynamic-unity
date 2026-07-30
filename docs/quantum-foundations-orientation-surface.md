@@ -1281,6 +1281,21 @@ mathematics. The physical question is now whether dynamics selects the
 stage-bearing structure, not whether another decomposition of the end-to-end
 channel can be written.
 
+**Quantum-controlled order correction.** `HC-DU-173` supplies a
+stage-bearing quantum carrier without promoting it to an actualized order.
+For two pure order-marker states of overlap \(\gamma\), branch-interference
+visibility and marker distinguishability obey
+\(V=|\gamma|\), \(D=\sqrt{1-|\gamma|^2}\), and \(D^2+V^2=1\).
+Orthogonal markers make the reduced control and diagonal order record
+classical, but the coherent completion and incoherent mixture differ under a
+joint \(X\otimes X\) action; complementary-basis conditioning restores unit
+interference. Benhaj--Sengupta--Branciard's 2026 dephasing theorems establish
+when the admitted process becomes causally separable, not which purification
+or global order is ontically selected. Treat a coherent carrier, restricted
+causal definiteness, retained material archive, and global actualization as
+different rungs. Process-matrix resource theory, complementarity,
+purification, and quantum erasure absorb the mathematics.
+
 **Action-indexed frontier correction.** `HC-DU-160` shows that an
 action/access class is not one more antecedent coordinate: it indexes the
 operational equivalence relation the coordinates must select. For fixed
