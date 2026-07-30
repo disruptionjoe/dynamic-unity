@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 119
+state_revision: 120
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,11 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-165 completed the bounded minimal-instrument-dilation audit.
-    Choi ranks fix abstract minimal apparatus sectors; independent Liouville
-    ranks test label sufficiency. Only the supplied outcome algebra survives
-    within-sector unitary gauge. No material carrier, archive, provenance,
-    reset, or access is selected. The campaign remains parked with no ready
+    HC-DU-166 admits GU's candidate action and partial variation at formula
+    grade. They do not supply closed Euler/domain equations, lawful solutions,
+    response, process, or material record. RB8 is the earliest conditional
+    response handoff; the implementation-complete reopener remains. No ready
     successor.
 
 programs:
@@ -116,11 +115,10 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165 banks a scoped Grade-4 minimal-representation/material
-      boundary. Independent Liouville and Choi ranks test label sufficiency
-      and minimal Kraus multiplicity respectively. The full within-sector
-      unitary gauge fixes only the supplied outcome algebra, not a material
-      carrier, archive, provenance, reset, access, or realized outcome.
+      HC-DU-165 banks the minimal-representation/material boundary.
+      HC-DU-166 banks the action-stage ladder: candidate syntax and partial
+      variation exist; closed dynamics, response, process, and material
+      record do not.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -156,12 +154,15 @@ programs:
         evidence_ref: explorations/qnd-tomography-operational-closure-label-sufficiency-and-material-dilation-boundary-2026-07-30.md
       - id: HC-DU-165
         evidence_ref: explorations/minimal-instrument-dilation-outcome-sector-invariant-and-material-archive-gauge-boundary-2026-07-30.md
+      - id: HC-DU-166
+        evidence_ref: explorations/gu-candidate-source-action-stage-adapter-earliest-response-gate-and-record-interface-nonimplication-2026-07-30.md
     remaining_obligations:
       - Source-pin an implementation-complete joined acquisition packet and complete archive.
       - Prove that its physical response kernel factors through the material archive rather than only a fitted reduced instrument.
       - Test behavioral minimality apart from provenance completeness.
       - Keep operational label sufficiency separate from material archive selection.
       - Keep Choi/Kraus minimality separate from both operational sufficiency and physical minimality.
+      - Keep action syntax, lawful solutions, response, process, material record, and index separate; recheck GU only at Euler/domain or RB8 response.
       - Do not activate remainder or transfer before those gates.
     typed_dependencies:
       - type: extracts_from
@@ -180,6 +181,7 @@ programs:
       Finite sufficient statistics, candidate keys, quantum instruments,
       minimal measurement models, Choi/Kraus rank, Stinespring uniqueness,
       outcome-sector commutants, Choi extremality,
+      variational well-posedness, Green/BFV response theory,
       no-information-without-disturbance, categorical classical structures,
       combs/process tensors, dilation freedom, sufficient statistics,
       decoherence/SBS, AQFT measurement schemes, passive linear quantum-system
@@ -218,6 +220,7 @@ programs:
       - explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
       - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
       - explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
+      - explorations/gu-candidate-source-action-stage-adapter-earliest-response-gate-and-record-interface-nonimplication-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md

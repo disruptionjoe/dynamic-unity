@@ -4151,3 +4151,33 @@ proves only the finite two-rank, Kraus-gauge, redundant-realization, and
 fixed-algebra controls. It establishes no physical minimality, material
 carrier, archive, provenance, reset, observer, remainder, law, or new
 physics.
+
+## HC-DU-166 GU source-action admission adapter
+
+`du_gu_source_action_admission_probe.py` checks the exact type boundary
+between GU's new candidate source-action construction and Dynamic Unity's
+record/reconstruction ladder:
+
+- the seven rung requirement sets are strictly nested from candidate
+  functional through DU reconstruction;
+- the frozen GU N1/N3 property set clears only the candidate-action rung;
+- one fixed action admits constant and identity record maps with different
+  fibres;
+- one fixed response law admits distinct material carrier/provenance packets;
+  and
+- the frozen GU packet, N3 result, and post-N3 rebase retain their explicit
+  Euler, stationarity, domain, probability, observer-feedback, and RB8
+  boundaries.
+
+Run:
+
+```bash
+python3 tests/du_gu_source_action_admission_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_gu_source_action_admission_result.json`. Passing proves only
+the typed dependency ladder, source-marker audit, and finite logical
+nonimplication controls. It establishes no GU action, lawful solution,
+physical response, instrument, material record, reconstruction, prediction,
+scientific successor, or new physics.

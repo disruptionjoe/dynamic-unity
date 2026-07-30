@@ -1,0 +1,104 @@
+{
+  "claim_id": "HC-DU-166",
+  "run_id": "RUN-20260730-134759-gu-source-action-admission-adapter",
+  "status": "PASS",
+  "checks_passed": 15,
+  "current_gu_qualifies": [
+    "candidate_action"
+  ],
+  "current_gu_missing_by_rung": {
+    "candidate_action": [],
+    "complete_euler": [
+      "boundary_junction_contract",
+      "complete_euler_operator"
+    ],
+    "lawful_completion": [
+      "admitted_background",
+      "boundary_junction_contract",
+      "closed_global_domain",
+      "complete_euler_operator",
+      "nonempty_solution_class"
+    ],
+    "source_response": [
+      "admitted_background",
+      "boundary_junction_contract",
+      "closed_global_domain",
+      "complete_euler_operator",
+      "green_prescription",
+      "hessian_or_linearization",
+      "nonempty_solution_class",
+      "readout_map",
+      "source_insertion"
+    ],
+    "operational_process": [
+      "admitted_background",
+      "boundary_junction_contract",
+      "closed_global_domain",
+      "complete_euler_operator",
+      "green_prescription",
+      "hessian_or_linearization",
+      "intervention_class",
+      "nonempty_solution_class",
+      "outcome_maps",
+      "readout_map",
+      "sampler",
+      "source_insertion",
+      "state_or_preparation"
+    ],
+    "material_record": [
+      "access",
+      "admitted_background",
+      "boundary_junction_contract",
+      "closed_global_domain",
+      "complete_euler_operator",
+      "formation_map",
+      "green_prescription",
+      "hessian_or_linearization",
+      "intervention_class",
+      "material_carrier",
+      "nonempty_solution_class",
+      "outcome_maps",
+      "provenance",
+      "readout_map",
+      "reset",
+      "retention",
+      "sampler",
+      "source_insertion",
+      "state_or_preparation"
+    ],
+    "du_reconstruction": [
+      "access",
+      "admitted_background",
+      "boundary_junction_contract",
+      "closed_global_domain",
+      "complete_euler_operator",
+      "completion_fibre",
+      "formation_map",
+      "green_prescription",
+      "held_out_target",
+      "hessian_or_linearization",
+      "intervention_class",
+      "material_carrier",
+      "nonempty_solution_class",
+      "outcome_maps",
+      "provenance",
+      "readout_map",
+      "record_map",
+      "reset",
+      "retention",
+      "sampler",
+      "source_insertion",
+      "state_or_preparation"
+    ]
+  },
+  "source_markers": [
+    "n3_eight_missing_maps",
+    "n3_no_stationary_solution",
+    "packet_no_complete_euler",
+    "packet_no_observer_feedback",
+    "packet_probability_open",
+    "rebase_no_action_correctness",
+    "rebase_rb8_green_bfv"
+  ],
+  "scientific_nonclaim": "This artifact validates a typed dependency ladder and exact finite nonimplication controls only. It establishes no GU action, physical law, record interface, prediction, or successor."
+}

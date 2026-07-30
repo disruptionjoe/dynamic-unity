@@ -6721,6 +6721,47 @@ physics instantiates or breaks the dilation gauge and supplies the joined
 material/provenance/access/reset contract. Choi, Kraus, Stinespring, Ozawa,
 Pellonpää--Tukiainen, and commutant mathematics absorb the components.
 
+### 2026-07-30 GU candidate-source-action stage correction
+
+`HC-DU-166` updates a cross-repository dependency without promoting it.
+GU now has a formula-built candidate bulk-plus-defect action/datum packet and
+a partial term-by-term variational-emission map. This clears the candidate
+functional rung and partially clears the Euler rung. It does not yet supply a
+complete Euler/domain system, nonempty lawful solution class, source/readout
+response, operational instrument, sampler, material archive, provenance,
+access, or reset.
+
+The concept therefore carries an explicit action-to-record ladder:
+
+```text
+candidate functional
+ -> complete Euler/domain contract
+ -> lawful solutions/background
+ -> Hessian/Green/source/readout response
+ -> operational process/instrument
+ -> material record/provenance/access/reset
+ -> completion-fibre reconstruction
+```
+
+No arrow is automatic. Exact finite controls preserve one action while
+changing the record partition, and preserve one response while relocating the
+material carrier and provenance. They establish logical nonimplication, not a
+physical countermodel to GU.
+
+Within GU's planned campaign, RB8 is the earliest conditional handoff to an
+`HC-DU-126/127`-style audit; the existing result still requires its finite
+linear assumptions or a proved generalization. A response audit need not wait
+for the later index/count tournament, and an index cannot substitute for a
+missing record interface.
+GU's geometric observer section, record-current source term, and external
+datum remain differently typed from a DU observer, formed record, and
+accessible outcome.
+
+**Updated seed status:** `CONCEPT-DU-019` gains a reusable action-stage
+adapter but no selected antecedent. The source-action dependency is
+`PARTIALLY_ADVANCED`; the implementation-complete material reopener and
+`NO_READY_SUCCESSOR` remain unchanged.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
