@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 87
+state_revision: 88
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -77,14 +77,13 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
-  executable_action_id: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
+  active_scientific_program_id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
+  executable_action_id: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-136 kills an untyped universal resource scalar and banks a conditional
-    capacity-to-resolution floor. PRRF-02 must physically derive or kill the
-    resource, formed record, and accessible capacity before any transfer.
+    Physical record-interface selection is the upstream North-Star joint.
+    PRIS-02 must return a natural interface or exact obstruction.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -335,133 +334,165 @@ programs:
       - explorations/commutative-record-modular-silence-and-algebraic-time-reconstruction-gate-2026-07-28.md
       - docs/quantum-foundations-orientation-surface.md
 
-  - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
+  - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
     kind: flagship
     owner_repo: dynamic-unity
     portfolio_status: active
     execution_status: executable
     wip_slot: scientific_flagship
-    active_work_id: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
+    active_work_id: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
     primary_lane_id: '1'
     supporting_lane_ids:
+      - '2'
       - '3'
       - '4'
+      - '6'
       - '7'
     channel_ids:
       - CH-FORMAL
+      - CH-MODEL
       - CH-COLLIDE
       - CH-SYN
-      - CH-MODEL
     target: >-
-      Derive or kill a physical reliability-to-resolution floor, then test the
-      unchanged formed record against one held-out target.
+      Select a target-blind formed accessible interface from a complete
+      physical antecedent, or prove exact nonselection.
     current_grade: >-
-      HC-DU-136 banks Grade-4 scalar, conditional-capacity, and divergence-
-      orientation boundaries; standard theory absorbs their mathematics.
-    evidence_grade: 4
+      PRIS-01 is Grade-0 work ordering; no selector theorem is earned.
+    evidence_grade: 0
     maximum_grade: >-
-      Grade 5 only from a physical protocol, resource boundary, formed record,
-      and no-refit held-out discriminator; PRRF-02 is capped below that.
+      Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
     maximum_evidence_grade: 5
     premise_status: >-
-      Observer-indexed physical access with protocol, resource, record, target,
-      archive, and capacity kept typed.
+      Ontology-neutral; formation, access, descent, retention, and target stay typed.
     completed_dependencies:
-      - id: HC-DU-136
-        evidence_ref: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
-      - id: HC-DU-135
-        evidence_ref: explorations/aqft-modular-energy-work-and-postselection-physical-state-family-selector-boundary-2026-07-29.md
+      - id: PRIS-01
+        evidence_ref: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
+      - id: HC-DU-126
+        evidence_ref: explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
     remaining_obligations:
-      - Derive one model-selected resource/reliability/capacity relation with complete lineage.
-      - Form one bounded record rather than an endpoint distribution.
-      - Transfer only after a positive return, then test one held-out target without refit.
+      - Prove a finite natural selector or exact no-fixed-selector obstruction.
+      - Gate formation, descent, QFT, reconstruction, and capacity.
     typed_dependencies:
       - type: requires
-        target: HC-DU-136
+        target: HC-DU-126
         target_type: result
       - type: tests
-        target: PHYSICALLY-SELECTED-RELIABILITY-TO-ACCESSIBLE-CAPACITY
+        target: PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: requirement
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
     strongest_absorber: >-
-      Fano/rate-distortion, stochastic thermodynamics, finite-time information
-      processing, quantum estimation, and energy-constrained capacity.
+      Behavioral equivalence, naturality, decoherence, QFT measurement, and inverse response.
     cheapest_kill: >-
-      In the frozen metastable apparatus, exhibit two admissible protocols
-      with the same proposed scalar resource and reliability but different
-      accessible capacities, or show that the alleged bound depends on an
-      externally chosen step decomposition, target, or protocol restriction.
+      A physical automorphism preserves the entire antecedent and future
+      response while moving every candidate interface outside its operational
+      equivalence class.
     stop_rule: >-
-      Stop on an unselected resource, known-curve replay, admitted-protocol
-      escape, or record/target refit; do not infer ontology or jump to QFT.
+      Stop on target coding, representation labels, supplied interface, empty
+      fibre, or no decision-changing learning.
     reopen_rule: >-
-      Not applicable while active. Quantum and modular phases open only after
-      the same classical specimen derives a physical capacity and formed
-      accessible record without target fitting.
+      Not applicable while active. Each later swing opens only through the
+      return classes frozen by PRIS-01.
     local_computation_boundary: >-
-      Analyze first; compute only a new hostile protocol, optimum, or phase
-      boundary. Hardware is unavailable and unnecessary.
+      Proof first; compute only an exact decision witness. No hardware.
     next_action: >-
-      Execute PRRF-02 on one two-state local-detailed-balance memory. Preserve
-      blank, source drive, write interval, outcome/retry/controller lineage,
-      resource ledger, readout, and one held-out target; determine the operative
-      divergence and accessible-capacity bound.
-    next_action_ref: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+      Add one material probe/memory to HC-DU-126. Freeze the antecedent before
+      record naming; derive the response quotient and prove selection or the
+      smallest naturality obstruction.
+    next_action_ref: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
     execution_packet:
-      action_id: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
+      action_id: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
       exact_question: >-
-        Which divergence and resource, if any, does a complete two-state
-        metastable record process select for a non-fitted capacity bound?
+        Does the finite physical antecedent select an operational record
+        interface or retain a naturality obstruction?
       source_locator:
-        path: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
-        heading: '## 7. Exact next action'
+        path: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
+        heading: '## 10. Exact next action'
       required_inputs:
-        - path: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
-          role: exact conditional floor, resource no-go, orientation boundary, and specimen contract
-        - path: explorations/aqft-standard-split-relative-entropy-uniform-finite-compression-boundary-2026-07-29.md
-          role: forward/reverse relative-entropy hostile control
+        - path: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
+          role: selector contract and campaign gates
+        - path: explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
+          role: finite source-response and mediator fibre
       unchanged_ledger_fields:
-        - state space, rates, bath, blank, drive, interval, and stop rule
-        - outcome, retry, and controller lineage
-        - work, entropy, duration, activity, and support
-        - readout, transcript, and observer boundary
-        - divergence, target, error, and capacity contract
+        - histories, dynamics, sources, boundaries, and couplings
+        - observer actions and physical equivalences
+        - formation, access, retention, and reset
+        - no record labels, target, or fitted decoder
       arena_roles:
-        - exact continuous-time two-state metastable record apparatus
-        - positive and same-scalar/different-capacity hostile controls
+        - exact finite source--mediator--probe selector arena
+        - automorphism, target-coded, and endpoint-only hostile controls
       expected_return_classes:
-        - MODEL_SELECTED_CAPACITY_BOUND
-        - FORWARD_DIVERGENCE_SELECTED
-        - REVERSE_DIVERGENCE_ONLY
-        - PATH_SPACE_RESOURCE_REQUIRED
-        - SAME_SCALAR_DIFFERENT_CAPACITY
-        - STOP_NO_DECISION_CHANGING_LOCAL_LEARNING
+        - SELECTOR_FOUND
+        - SELECTOR_EQUIVALENCE_CLASS_ONLY
+        - NATURALITY_OBSTRUCTION
+        - REPRESENTATION_DEPENDENT_INTERFACE
+        - TARGET_CODED_REPAIR
+        - NO_READY_SUCCESSOR
       observer_index_return_classes:
         - FORMED_ACCESSIBLE_RECORD
         - ENDPOINT_CORRELATION_ONLY
-        - ACCESS_OR_ARCHIVE_SUPPLIED
+        - FORMATION_SELECTED_ACCESS_SUPPLIED
+        - ACCESS_SELECTED_FORMATION_SUPPLIED
       durable_output: >-
-        One exact theorem or counterexample, absorber classification,
-        formed-record verdict, and conditional continuation or stop.
+        Exact selector theorem or obstruction and one activated branch or stop.
       local_method: >-
-        Direct Markov proof first; admit one minimal local optimization or
-        counterexample search through LMLG-01. No hardware.
+        Proof first; one minimal exact local search through LMLG-01. No hardware.
       uses_program_controls:
         strongest_absorber: >-
-          Stochastic thermodynamics of two-state memories, finite-time
-          information processing, kinetic proofreading, and statistical
-          decision theory.
+          Behavioral equivalence, naturality, Schur complements, and decoherence.
         cheapest_kill: >-
-          Same declared scalar resource and reliability with different
-          accessible capacity, or a bound created by the chosen step labels.
+          One antecedent-preserving automorphism with no invariant interface.
         stop_rule: >-
-          Stop before quantum or modular transfer unless the physical process
-          itself selects the resource/capacity relation and a formed record.
+          Stop on target coding, supplied labels, or no finite result.
+    canonical_evidence_refs:
+      - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
+      - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
+
+  - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
+    kind: supporting_branch
+    owner_repo: dynamic-unity
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
+    primary_lane_id: '4'
+    supporting_lane_ids:
+      - '3'
+      - '7'
+    channel_ids:
+      - CH-FORMAL
+      - CH-MODEL
+    target: >-
+      Quantify capacity and resolution after a formed interface exists.
+    current_grade: >-
+      HC-DU-136 banks scoped Grade-4 scalar, conditional-capacity, and
+      divergence-orientation boundaries; the physical capacity remains open.
+    evidence_grade: 4
+    maximum_grade: "Scoped Grade 4 supporting result."
+    maximum_evidence_grade: 4
+    premise_status: >-
+      Resource, formation, access, target, and capacity remain typed.
+    completed_dependencies:
+      - id: HC-DU-136
+        evidence_ref: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
+    remaining_obligations:
+      - Derive a complete physical record and its model-selected capacity.
+    typed_dependencies:
+      - type: requires
+        target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
+        target_type: program
+    strongest_absorber: >-
+      Fano/rate-distortion, stochastic thermodynamics, and constrained capacity.
+    cheapest_kill: >-
+      Same declared scalar resource and reliability with different capacities.
+    stop_rule: >-
+      Do not run PRRF-02 as a standalone trunk or before a selector premise.
+    reopen_rule: >-
+      Reopen as PRIS Swing 3 or 8 only after the active selector gate returns
+      the required formed-interface premise.
+    local_computation_boundary: >-
+      Proof-first local specimen only; no hardware.
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
       - explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
-      - explorations/aqft-modular-energy-work-and-postselection-physical-state-family-selector-boundary-2026-07-29.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication
@@ -669,21 +700,20 @@ programs:
 
 successor_selection:
   status: blocked
-  blocked_by: PRRF-02-METASTABLE-RECORD-ORIENTATION-SPECIMEN
+  blocked_by: PRIS-02-FINITE-SOURCE-MEDIATOR-PROBE-SELECTOR-OR-NONSELECTION
   selected_successor_id: null
   candidate_classes:
-    - model-selected-metastable-reliability-to-accessible-capacity
-    - no-refit-quantum-estimation-transfer-of-physical-capacity-contract
-    - physical-resource-to-split-modular-form-comparison
-    - formed-record-held-out-target-finite-resolution-first-leak
-    - independently-unbanked-whole-repository-question
-    - no-ready-successor-from-completed-bounded-gates
+    - natural-physical-record-interface-equivalence-class
+    - physical-interface-nonselection-obstruction
+    - dynamic-formation-and-access-premise
+    - representation-invariant-operational-duality
+    - formed-qft-record-held-out-reconstruction-or-remainder
+    - no-ready-successor
   decision_rule: >-
-    Later campaign phases are blocked by PRRF-02. First derive or kill a
-    model-selected resource-to-accessible-capacity relation and formed record
-    in the smallest physical specimen. Do not proceed by an information-to-
-    energy slogan, choose a later divergence after seeing the result, or enter
-    quantum/modular work until the unchanged physical gate returns.
+    All later phases are blocked by PRIS-02. First derive a target-blind
+    natural interface class or an exact nonselection witness in the finite
+    source--mediator--probe arena. Activate only the branch named by its frozen
+    return class; do not run the nine swings by schedule.
 
 anomaly_intake:
   status: open_non_wip

@@ -5619,6 +5619,40 @@ record, physical remainder, ontology, source issuance, law, or new physics.
 See
 `physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md`.
 
+## CONCEPT-DU-016 — physical record-interface selection
+
+- **Concept.** Relative to a complete physical antecedent fixed without record
+  labels or a held-out target, physics may select a formed,
+  observer-accessible record interface up to operational equivalence—or
+  retain an exact nonselection orbit.
+- **Minimum object.** A candidate interface contains a record-value space,
+  history-to-record map, formation/provenance relation, physical access map,
+  and retention/reset boundary. State, endpoint correlation, realizable
+  measurement, natural algebra, archive, and observer access remain distinct.
+- **Selector contract.** A positive must be target-blind, natural under
+  physical equivalences, formation-sensitive, accessible under the frozen
+  action class, response-sufficient and minimal, stable under justified
+  representation descent, complete for future-readable memory, and nonempty
+  before held-out reconstruction.
+- **Repo-wide role.** This is the repeated upstream gap shared by state-only
+  no-gos, dynamic sufficiency, finite-time infrared memory, local-QFT
+  realizability, field/direct-action duality, standard-split/modular carriers,
+  and the resource-to-resolution theorem.
+- **Selected first arena.** Extend the exact finite source--mediator response
+  model with one material probe/memory dynamics and seek either one natural
+  operational selector class or the smallest automorphism/factorization
+  obstruction. The metastable resource specimen becomes a conditional
+  formation test rather than the flagship.
+- **Campaign.** Nine gated swings run from the finite selector/no-go through
+  formation, field/direct-action descent, local-QFT and infrared transfer,
+  held-out reconstruction, quantitative capacity, and one no-refit
+  cross-arena disposition. Later swings activate only when their premises
+  pass.
+- **Status:** **CONCEPT-OPEN / SELECTOR CONTRACT AND ARENA LADDER
+  PREREGISTERED / NO SELECTOR, ONTOLOGY, PHYSICAL REMAINDER, PREDICTION, NEW
+  LAW, OR NEW PHYSICS EARNED.** See
+  `physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
