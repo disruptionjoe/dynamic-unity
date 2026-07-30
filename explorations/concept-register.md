@@ -6995,6 +6995,44 @@ no reference, record, consensus rule, preferred frame, or new dynamics is
 selected. See
 `regional-reference-alignment-collective-character-and-access-attribution-boundary-2026-07-30.md`.
 
+### 2026-07-30 relational-reference symmetry reduction
+
+`HC-DU-175` locates the first physical antecedent upstream of that reference
+premise. A \(U(1)^2\)-invariant input processed by a fully
+\(U(1)^2\)-covariant channel cannot acquire the nontrivial
+\(|10\rangle\langle01|\) character mode. An ordinary number-conserving
+exchange interaction can create it because the interaction preserves only
+diagonal \(U(1)\):
+
+\[
+H_\phi
+=
+J\left(
+e^{i\phi}|10\rangle\langle01|
++
+e^{-i\phi}|01\rangle\langle10|
+\right).
+\]
+
+At \(Jt=\pi/4\), the relational coherence has magnitude \(1/2\) while both
+local reduced states remain diagonal. Local rephasing moves \(H_\phi\) and
+the coherence together; the absolute diagonal phase stays unselected.
+
+The relation need not be emitted as a classical coordinate. Preparing and
+inverting with the same stable coupling returns the input with probability
+one for every \(\phi\); a coupling mismatch \(\delta\) lowers the return
+probability to \(\cos^2(\delta/2)\). The coupling is therefore an embodied,
+action-relative reference for that task.
+
+**Updated seed status:** search for the symmetry-reducing interaction or
+asymmetric resource, not an absolute frame. A reusable coupling, a retained
+phase carrier, and a portable provenance-bearing certificate are different
+physical interface types. The exact process is reversible and selects no
+archive, occurrence history, observer, public finality, or new dynamics.
+Modes-of-asymmetry, QRF, WAY/no-programming, mutual-asymmetry, and exchange
+physics absorb the components. See
+`relational-reference-symmetry-reduction-embodied-coupling-and-certificate-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

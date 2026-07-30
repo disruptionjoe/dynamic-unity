@@ -1,0 +1,138 @@
+{
+  "probe": "du_relational_reference_symmetry_reduction_probe",
+  "claim_id": "HC-DU-175",
+  "status": "PASS",
+  "checks_passed": 11,
+  "checks_total": 11,
+  "checks": [
+    {
+      "name": "input_is_invariant_under_independent_local_phases",
+      "passed": true,
+      "max_error": 1.1141707235212026e-16
+    },
+    {
+      "name": "full_local_covariance_no_generation_controls",
+      "passed": true,
+      "identity_coherence_abs": 0.0,
+      "dephased_coherence_abs": 0.0
+    },
+    {
+      "name": "exchange_reduces_local_symmetry_to_diagonal_u1",
+      "passed": true,
+      "total_number_commutator_norm": 0.0,
+      "local_number_commutator_norm": 1.0
+    },
+    {
+      "name": "exchange_creates_purely_relational_coherence",
+      "passed": true,
+      "coherence_real": -0.18080771598248097,
+      "coherence_imag": 0.4661636728030172,
+      "coherence_abs": 0.49999999999999994,
+      "local_a_off_diagonal_abs": 0.0,
+      "local_b_off_diagonal_abs": 0.0
+    },
+    {
+      "name": "relational_coherence_is_reversible_not_final",
+      "passed": true,
+      "time_controls": [
+        {
+          "tau": 0.0,
+          "observed": 0.0,
+          "predicted": 0.0
+        },
+        {
+          "tau": 0.7853981633974483,
+          "observed": 0.49999999999999994,
+          "predicted": 0.5
+        },
+        {
+          "tau": 1.5707963267948966,
+          "observed": 1.1102230246251565e-16,
+          "predicted": 6.123233995736766e-17
+        },
+        {
+          "tau": 3.141592653589793,
+          "observed": 1.2246467991473535e-16,
+          "predicted": 1.2246467991473532e-16
+        }
+      ]
+    },
+    {
+      "name": "coupling_and_state_rephase_covariantly",
+      "passed": true,
+      "hamiltonian_error": 1.5700924586837752e-16,
+      "state_error": 1.1523720796090757e-16
+    },
+    {
+      "name": "absolute_global_phase_remains_unselected",
+      "passed": true,
+      "max_error": 1.1104452288902185e-16
+    },
+    {
+      "name": "unresolved_physical_phase_randomization_erases_system_mode",
+      "passed": true,
+      "averaged_coherence_abs": 3.6022649490937693e-17
+    },
+    {
+      "name": "retained_phase_relation_restores_conditioned_mode",
+      "passed": true,
+      "conditioned_modes": [
+        {
+          "real": 0.0,
+          "imag": 0.5
+        },
+        {
+          "real": 0.0,
+          "imag": 0.5
+        },
+        {
+          "real": 0.0,
+          "imag": 0.5
+        },
+        {
+          "real": 0.0,
+          "imag": 0.5
+        }
+      ]
+    },
+    {
+      "name": "stable_coupling_embodies_action_relative_reference",
+      "passed": true,
+      "mismatch_controls": [
+        {
+          "phase_mismatch": 0.0,
+          "return_probability": 1.0,
+          "predicted": 1.0
+        },
+        {
+          "phase_mismatch": 0.2,
+          "return_probability": 0.9900332889206207,
+          "predicted": 0.9900332889206209
+        },
+        {
+          "phase_mismatch": 0.7,
+          "return_probability": 0.8824210936422444,
+          "predicted": 0.8824210936422442
+        },
+        {
+          "phase_mismatch": 3.141592653589793,
+          "return_probability": 3.2216756913561115e-32,
+          "predicted": 3.749399456654644e-33
+        }
+      ]
+    },
+    {
+      "name": "coherent_reference_generation_does_not_form_record",
+      "passed": true,
+      "round_trip_error": 3.1000469287926187e-17
+    }
+  ],
+  "theorem_surface": {
+    "no_generation": "A U(1)^2-invariant input stays invariant under every U(1)^2-covariant channel, so its nontrivial relative character mode remains zero.",
+    "positive_control": "A total-number-conserving exchange interaction reduces U(1)^2 to diagonal U(1) and creates relative coherence with no local coherence or absolute phase.",
+    "embodied_reference": "Reusing the same stable coupling closes a bounded prepare/invert task; mismatch delta gives return probability cos^2(delta/2)."
+  },
+  "duplicate_guard": "Generic phase-orbit selection, oriented-reference necessity, GHZ threshold/pooling, and cycle holonomy are prior DU results. This probe checks only the symmetry-reduction bridge.",
+  "interpretation": "A relational reference need not be an absolute frame or a separate classical label. It can be embodied in a stable cross-region interaction. Portability, provenance, retention, and public certification remain additional physical questions.",
+  "scope_limit": "Standard symmetry, asymmetry-resource, quantum-reference-frame, and exchange-interaction physics. No record, archive, observer, finality rule, empirical excess, or new physics is selected."
+}

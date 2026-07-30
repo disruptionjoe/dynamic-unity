@@ -4437,3 +4437,40 @@ establishes only the scoped reference/access formulas and controls. It does
 not select a reference, regional factorization, record, provenance join,
 observer, consensus rule, preferred frame, collapse law, new physics, paper,
 hardware, provider, or later scientific action.
+
+## HC-DU-175 relational-reference symmetry-reduction gate
+
+`du_relational_reference_symmetry_reduction_probe.py` preserves the exact
+finite controls behind the reference-generation boundary:
+
+- \(|10\rangle\langle10|\) is invariant under independent local
+  \(U(1)^2\) phases;
+- full-local-covariance controls create no
+  \(|10\rangle\langle01|\) character mode;
+- the exchange Hamiltonian conserves total excitation while breaking each
+  separate local-number symmetry;
+- quarter-swap evolution creates magnitude-\(1/2\) relational coherence
+  while both local reduced states remain diagonal;
+- the coherence is reversible and therefore is not itself a record;
+- local coordinate changes move the coupling and state together while
+  common phase remains free;
+- physical run-to-run phase randomization erases the system-only mode;
+- a retained phase relation restores the conditional mode;
+- reusing the same stable coupling embodies the reference for a bounded
+  action family; and
+- a coupling mismatch \(\delta\) gives exact return probability
+  \(\cos^2(\delta/2)\).
+
+Run:
+
+```bash
+python3 tests/du_relational_reference_symmetry_reduction_probe.py \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_relational_reference_symmetry_reduction_result.json`. Passing
+establishes only the scoped character-mode, symmetry-reduction, and
+action-relative reference controls. It does not select a material archive,
+occurrence provenance, portable certificate, observer, public finality, new
+physics, paper, hardware, provider, or later scientific action.

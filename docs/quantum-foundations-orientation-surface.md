@@ -1312,6 +1312,22 @@ are not attributed by the same parity quadratures. Quantum reference-frame,
 asymmetry, GHZ, twirling, and dephasing theory absorb the mathematics. Do not
 infer consensus, preferred foliation, record selection, or new dynamics.
 
+**Relational-reference generation correction.** `HC-DU-175` proves the
+missing upstream symmetry statement. A locally \(U(1)^2\)-invariant input
+cannot acquire the nontrivial relative character under a fully
+\(U(1)^2\)-covariant channel. A total-number-conserving exchange interaction
+can create relational coherence by reducing independent local phases to
+diagonal \(U(1)\); both local marginals remain phase invariant, and local
+rephasing moves the coupling and state together without selecting an
+absolute origin. A stable coupling can embody the reference for a bounded
+prepare/invert action: phase mismatch \(\delta\) gives return probability
+\(\cos^2(\delta/2)\). This corrects the assumption that every usable
+reference must be a detached classical label. Reversible relational
+coherence still supplies no occurrence provenance, material archive,
+portable certificate, observer boundary, or public finality. Modes of
+asymmetry, quantum reference frames, WAY/no-programming, mutual asymmetry,
+and exchange physics absorb the components.
+
 **Action-indexed frontier correction.** `HC-DU-160` shows that an
 action/access class is not one more antecedent coordinate: it indexes the
 operational equivalence relation the coordinates must select. For fixed

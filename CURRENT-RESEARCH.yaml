@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 128
+state_revision: 129
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-174 shows that regional coherent access needs a relational
-    reference certificate, not absolute local or global frames. No selector
-    or successor.
+    HC-DU-175 shows that a symmetry-reducing interaction can embody a
+    relational reference without an absolute frame. It forms no archive and
+    selects no successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -114,8 +114,8 @@ programs:
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
       HC-DU-165--172 bank representation, custody, and bare-process
-      nonselection; HC-DU-173--174 add causal-order and relational-reference
-      access boundaries.
+      nonselection; HC-DU-173--175 add causal-order, relational-access, and
+      symmetry-reduction boundaries.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -169,6 +169,8 @@ programs:
         evidence_ref: explorations/quantum-switch-order-record-relocation-access-relative-causal-definiteness-and-first-leak-2026-07-30.md
       - id: HC-DU-174
         evidence_ref: explorations/regional-reference-alignment-collective-character-and-access-attribution-boundary-2026-07-30.md
+      - id: HC-DU-175
+        evidence_ref: explorations/relational-reference-symmetry-reduction-embodied-coupling-and-certificate-boundary-2026-07-30.md
     remaining_obligations:
       - Freeze the implementation target, fault class, and environment scope; require only the fields needed to make that target constant on the implementation fibre.
       - For this QEC packet, external custody must supply all-attempt dispositions, exact executable/configuration identity, target-sufficient actuation/route evidence, and archive lineage/access/reset.
@@ -176,7 +178,7 @@ programs:
       - Test behavioral minimality apart from provenance completeness.
       - Keep action-finality, timing/resource-finality, response-finality, and provenance-finality separate; a held-out timing test requires decoder status or a stable row join.
       - Keep operational label sufficiency separate from material archive selection.
-      - Keep bare-process sections, coherent stage carriers, reduced causal separability, material selection, and global actualization separate.
+      - Keep bare processes, coherent carriers, embodied references, retained certificates, material selection, and global actualization separate.
       - Keep action syntax, lawful solutions, response, process, material record, and index separate; recheck GU only at Euler/domain or RB8 response.
       - Do not activate remainder or transfer before those gates.
     typed_dependencies:
@@ -198,7 +200,8 @@ programs:
       theory, and information-disturbance; combs/process tensors; AQFT
       measurement; system identification; acquisition provenance; feedback;
       Blackwell sufficiency, causal states, bisimulation, QND tomography,
-      causal-order dephasing, QRF/asymmetry, complementarity, and quantum erasure.
+      causal-order dephasing, modes of asymmetry, QRF, exchange interactions,
+      complementarity, and quantum erasure.
     cheapest_kill: >-
       Met for bare processes: downstream stage-local naturality plus purity
       of the identity forces every selected component to be a coin multiple
@@ -233,6 +236,7 @@ programs:
       - explorations/stage-local-compositional-instrument-section-triviality-and-marked-cut-boundary-2026-07-30.md
       - explorations/quantum-switch-order-record-relocation-access-relative-causal-definiteness-and-first-leak-2026-07-30.md
       - explorations/regional-reference-alignment-collective-character-and-access-attribution-boundary-2026-07-30.md
+      - explorations/relational-reference-symmetry-reduction-embodied-coupling-and-certificate-boundary-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md
@@ -696,12 +700,11 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-165 closes the minimal-dilation shortcut without clearing the
-    material-realization gate. No scientific action is executable and Swing 6
-    is not eligible: neither a complete fitted instrument nor its abstract
-    minimal normal realization substitutes for a source-selected material
-    archive. Use the implementation-complete reopener rather than another
-    tomography-, Kraus-rank-, or later-campaign card.
+    HC-DU-175 locates relational reference in a symmetry-reducing interaction
+    or asymmetric resource and shows that stable coupling can embody it for a
+    bounded action. Reversible coherence supplies no archive, provenance, or
+    portable certificate. No scientific action is executable; require a
+    source-pinned complete interface or the existing custody reopener.
 
 anomaly_intake:
   status: open_non_wip
