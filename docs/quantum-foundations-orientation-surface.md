@@ -565,6 +565,25 @@ Otherwise it localizes to a first noncentral recoupling or to omitted
 route/provenance state. Those standard possibilities must be excluded before
 any residual is called perspectival curvature.
 
+**Reduced-QRF handoff correction (`HC-DU-153`).** A physical change of quantum
+reference followed by loss of inaccessible degrees supplies an exact CPTP
+handoff, but kinematic block preservation does not guarantee temporal
+population preservation. For every factorized inaccessible preparation,
+population survival is equivalent to dynamical compatibility of the pulled-
+back output effects with the corresponding controlled evolution. This is a
+candidate fact-handoff condition, not yet a formed-record theorem: the
+factorization, accessible subsystem, PVMs, assignment, reference, and readout
+remain supplied. In the Hamiltonian-symmetric regime, local coherence has
+environment and reference factors whose rates add. A complete local Ramsey
+curve has the null direction \((1,-1)\); even two uncalibrated references
+retain a common-mode gauge. Require independent reference calibration or a
+source-selective intervention before attributing dephasing, especially when
+reference degradation and gravity-motivated models share the same energy-gap
+scaling. Describing one complete experiment in another QRF leaves its
+statistics invariant; local experiments tied to different physical phase
+standards are different procedures
+([HC-DU-153](../explorations/reduced-qrf-access-handoff-and-decoherence-attribution-boundary-2026-07-30.md)).
+
 ### 6. Histories versus endpoints
 
 **Established.** Process tensors characterize multi-time memory-bearing

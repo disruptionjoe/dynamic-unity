@@ -1,0 +1,129 @@
+{
+  "claim_id": "HC-DU-153",
+  "return": "HANDOFF_THEOREM_WITH_SUPPLIED_INTERFACE+REFERENCE_ATTRIBUTION_NONIDENTIFIABILITY+CALIBRATED_RANK_TWO_REPAIR+NO_READY_SUCCESSOR",
+  "checks": {
+    "z2_effect_is_a_projector": true,
+    "block_preserving_effects_complete": true,
+    "noncompatible_commutator_is_nonzero": true,
+    "noncompatible_population_changes": true,
+    "compatible_commutator_is_zero": true,
+    "compatible_population_is_preserved": true,
+    "single_trace_rank_is_one": true,
+    "single_trace_has_env_reference_null": true,
+    "factorization_twins_have_same_complete_rate": true,
+    "factorization_twins_have_same_visibility_exponent_all_times": true,
+    "two_uncalibrated_references_remain_rank_deficient": true,
+    "independent_reference_calibration_restores_full_rank": true
+  },
+  "handoff_fixture": {
+    "effect_pi_00": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "noncompatible_unitary": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ],
+    "noncompatible_commutator": [
+      [
+        0,
+        1
+      ],
+      [
+        -1,
+        0
+      ]
+    ],
+    "population_before": 1,
+    "population_after_noncompatible": 0,
+    "compatible_unitary": [
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "compatible_commutator": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "population_after_compatible": 1
+  },
+  "attribution_fixture": {
+    "single_trace_design": [
+      [
+        1,
+        1
+      ]
+    ],
+    "single_trace_rank": 1,
+    "null_direction": [
+      1,
+      -1
+    ],
+    "twin_one_env_ref": [
+      2,
+      3
+    ],
+    "twin_two_env_ref": [
+      4,
+      1
+    ],
+    "common_local_rate": 5,
+    "two_uncalibrated_reference_design": [
+      [
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "two_uncalibrated_reference_rank": 2,
+    "two_reference_null_direction": [
+      -1,
+      1,
+      1
+    ],
+    "calibrated_design": [
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "calibrated_rank": 2
+  },
+  "scope": [
+    "Exact finite illustration of Luppi et al. Theorem 4.2.",
+    "Exact local-rate source-attribution rank boundary.",
+    "No physical interface, record, observer, gravity signal, or new physics is selected."
+  ]
+}

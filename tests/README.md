@@ -3688,6 +3688,34 @@ the controllers are not laboratory models. It does not calculate, correct,
 or refute a published gravitational phase; select a physical apparatus;
 observe gravity; authorize hardware; add a DU prediction; or promote a paper.
 
+## HC-DU-153 reduced-QRF access-attribution and handoff gate
+
+`du_qrf_access_attribution_handoff_probe.py` preserves two exact finite
+boundaries from the reduced-QRF audit:
+
+- in the source's \(\mathbb Z_2\) block-preserving effect structure, a
+  conditional reference flip fails the dynamical-compatibility commutator and
+  changes an output population from one to zero;
+- a commuting conditional phase preserves the population;
+- one local Ramsey rate \(\gamma_{\rm local}=\gamma_{\rm env}+
+  \gamma_{\rm ref}\) has design rank one and null direction \((1,-1)\);
+- environment/reference twins \((2,3)\) and \((4,1)\) give the same complete
+  exponential visibility law;
+- two uncalibrated references still retain the common-mode null
+  \((-1,1,1)\); and
+- an independent reference-calibration row restores full rank.
+
+Run:
+
+```bash
+python3 tests/du_qrf_access_attribution_handoff_probe.py --write-artifact
+```
+
+Passing proves only the scoped compatibility and attribution boundary. It
+does not select a QRF, subsystem factorization, accessible algebra, PVM,
+initial assignment, phase reference, record, archive, observer, gravity
+signal, physical remainder, new physics, hardware path, or paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It

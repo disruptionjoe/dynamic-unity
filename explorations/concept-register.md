@@ -6161,6 +6161,34 @@ WITHOUT EXACT FINITE CERTIFICATION / NO STABLE PATHWISE SELECTOR, PHYSICAL
 REMAINDER, ONTOLOGY PRIORITY, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
 `nonmarkovian-collapse-bohmian-stable-covariant-realization-boundary-2026-07-30.md`.
 
+### 2026-07-30 reduced-QRF fact handoff and attribution boundary
+
+`HC-DU-153` supplies an orthodox quantum specimen for a physical
+reference/access handoff. If a reduced QRF channel is block preserving, a
+chosen output population is constant for every factorized inaccessible
+preparation exactly when the pulled-back output effects commute with the
+corresponding controlled inaccessible evolution. Kinematic preservation of a
+block label is therefore weaker than dynamical survival of that candidate
+fact.
+
+In the Hamiltonian-symmetric regime, the locally measured coherence is an
+environment factor times a reference factor. Their decoherence rates add, so
+one complete local Ramsey curve has source null direction \((1,-1)\). Two
+uncalibrated local standards retain a common-mode gauge; independent reference
+calibration or a source-selective intervention restores rank.
+
+The bridge remains conditional. The QRF model fixes the subsystem
+factorization, access boundary, PVMs, initial assignment, reference protocol,
+and readout; it forms no blank-to-written record or archive. The exact
+compatibility theorem is therefore a candidate record-handoff law only after
+a physical model selects and forms those interfaces.
+
+**Updated status:** **CONCEPT-OPEN / EXACT QRF HANDOFF-COMPATIBILITY THEOREM
+IMPORTED / ENVIRONMENT--REFERENCE ATTRIBUTION GAUGE AND CALIBRATED REPAIR
+BANKED / PHYSICAL REFERENCE RELATIVITY SUPPORTED / NO SELECTED RECORD,
+REGIONAL FINALITY LAW, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
+`reduced-qrf-access-handoff-and-decoherence-attribution-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
