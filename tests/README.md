@@ -3444,3 +3444,34 @@ It does not select an apparatus in nature, prove a universal record-interface
 no-go, establish an observer-independent record ontology, transfer to
 continuum or QFT, produce empirical excess, authorize hardware, or promote a
 paper.
+
+## HC-DU-138 physical action-envelope compiler
+
+`HC-DU-138` closes one premise left explicit by `HC-DU-137`. A complete
+physical controller packet—joint dynamics, reachable controller
+preparations, reset, resources, horizon, and readout—compiles its induced
+action envelope. That envelope then induces the fixed-action response
+quotient. The exact regression contains:
+
+- a one-qubit control specimen in which the same drift \(Z\) has a
+  one-dimensional reachable Lie algebra without a control generator and
+  generates \(\mathfrak{su}(2)\) after \(X\) control is admitted;
+- a fixed controlled-H processor whose reachable program support compiles
+  either \(\{I\}\) or \(\{I,H\}\);
+- an exact \(|+\rangle,|-\rangle\) pair identified by the smaller envelope
+  and separated by the larger one; and
+- a same-actual-program-history/different-counterfactual-envelope witness.
+
+Run:
+
+```bash
+python3 tests/du_physical_action_envelope_compiler_probe.py
+```
+
+Passing establishes only the finite controller-relative compiler,
+monotonicity, and actual-history nonselection boundary. Quantum control,
+no-programming, and counterfactual-task formalisms absorb the component
+mathematics. It does not select an observer, controller, preparation class,
+record, archive, or access boundary in nature, and it establishes no
+ontology, universal no-go, physical remainder, empirical excess, prediction,
+law, new physics, hardware need, or paper promotion.

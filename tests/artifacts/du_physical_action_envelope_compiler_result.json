@@ -1,0 +1,56 @@
+{
+  "checks": {
+    "adding_one_control_generator_produces_su2": true,
+    "complete_controller_packet_selects_its_envelope": true,
+    "controlled_hadamard_processor_is_unitary": true,
+    "controller_resource_extension_is_monotone": true,
+    "drift_only_packet_has_one_dimensional_lie_algebra": true,
+    "exact_program_states_are_orthogonal": true,
+    "hadamard_action_separates_plus_and_minus": true,
+    "hadamard_maps_minus_to_one": true,
+    "hadamard_maps_plus_to_zero": true,
+    "identity_z_readout_confuses_plus_and_minus": true,
+    "larger_physical_action_envelope_refines_response_quotient": true,
+    "lie_dimension_is_representation_invariant": true,
+    "one_actual_program_history_does_not_select_counterfactual_envelope": true,
+    "pauli_commutator_supplies_third_direction": true,
+    "processor_alone_does_not_select_action_envelope": true,
+    "program_dimension_bounds_this_exact_action_family": true,
+    "same_drift_does_not_select_one_action_envelope": true,
+    "singleton_program_support_compiles_singleton_envelope": true,
+    "two_program_support_compiles_two_action_envelope": true
+  },
+  "checks_passed": 19,
+  "checks_total": 19,
+  "claim_id": "HC-DU-138",
+  "formal_boundary": {
+    "conditional_selector": "A fixed physical controller, reachable preparation/resource class, readout, and horizon compile an action envelope and therefore a response quotient.",
+    "monotonicity": "Enlarging the admitted physical controller resources enlarges the action envelope and can strictly refine response classes.",
+    "nonselection": "The drift/source law, processor alone, and one actual program history do not determine the counterfactual preparation class."
+  },
+  "hamiltonian_control": {
+    "drift_only_lie_dimension": 1,
+    "drift_plus_x_lie_dimension": 3,
+    "shared_drift": "Z"
+  },
+  "non_claims": [
+    "not a new quantum-control or programmable-processor theorem",
+    "not a selected observer, controller, preparation class, or archive in nature",
+    "not a universal impossibility of deriving counterfactual tasks from physics",
+    "not a record ontology, physical remainder, prediction, law, or new physics"
+  ],
+  "programmable_controller": {
+    "large_response_cells": 2,
+    "processor": "controlled-H",
+    "program_dimension": 2,
+    "program_support_large": [
+      "I",
+      "H"
+    ],
+    "program_support_small": [
+      "I"
+    ],
+    "small_response_cells": 1
+  },
+  "status": "PASS"
+}

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 89
+state_revision: 90
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,9 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-137 closes the finite selector gate: a complete process selects its
-    fixed-action response quotient, source physics does not select the
-    probe/access/archive process, and no nonredundant successor is ready.
+    HC-DU-138 proves that a complete physical controller packet can compile
+    its action envelope and response quotient, while a source/drift law,
+    processor, or one actual history does not select the counterfactual
+    preparation/resource/observer boundary. No further nonredundant successor
+    is ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -354,12 +356,14 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Parked after proving the finite antecedent-completion boundary for
-      target-blind physical record-interface selection.
+      Parked after proving the finite antecedent-completion boundary and the
+      controller-relative action-envelope compiler for target-blind physical
+      record-interface selection.
     current_grade: >-
-      HC-DU-137 banks scoped Grade-4 source-only interface nonselection,
-      complete-process response-quotient selection, action-envelope
-      non-self-selection, and the corrected naturality kill.
+      HC-DU-137/138 bank scoped Grade-4 source-only interface nonselection,
+      complete-process response-quotient selection, controller-relative
+      action-envelope selection, counterfactual-preparation nonselection, and
+      the corrected naturality boundary.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
@@ -373,9 +377,12 @@ programs:
         evidence_ref: explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
       - id: HC-DU-137
         evidence_ref: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
+      - id: HC-DU-138
+        evidence_ref: explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
     remaining_obligations:
-      - Await an independently physical action/probe/archive/access selector
-        or a stronger physical-class no-go.
+      - Await a physical theory selecting the controller, counterfactual
+        preparation/resource, probe, archive, access, and observer boundary,
+        or a stronger physical-class no-go or frozen empirical excess.
     typed_dependencies:
       - type: requires
         target: HC-DU-126
@@ -385,24 +392,31 @@ programs:
         target_type: requirement
     strongest_absorber: >-
       Behavioral equivalence, antecedent factorization, sufficient statistics,
-      system identification, and prior DU formation/QFT/infrared audits.
+      system identification, quantum controllability, programmable-processor
+      no-programming, constructor-theoretic tasks, and prior DU
+      formation/QFT/infrared audits.
     cheapest_kill: >-
-      Met. One source response admits vector-current and scalar-action
-      apparatuses with different complete formed-interface responses.
+      Met at two cuts. One source response admits vector-current and
+      scalar-action apparatuses; one fixed controlled-H processor and actual
+      program-zero history admit different counterfactual program supports
+      and response quotients.
     stop_rule: >-
-      Stop designed finite apparatus variants and do not replay the completed
-      autonomous, mediator, local-QFT, or infrared selection audits.
+      Stop designed finite apparatus and controller variants. Do not replay
+      the completed autonomous, mediator, local-QFT, infrared, or
+      programmable-action controls.
     reopen_rule: >-
-      Require a theory or mechanism that selects the probe/action/archive/access
-      boundary without already containing it, a stronger scoped physical-class
-      no-go, or a frozen empirical excess prediction.
+      Require a theory or mechanism that independently selects the controller,
+      counterfactual preparation/resource, probe, archive, access, and
+      observer boundary, a stronger scoped physical-class no-go, or a frozen
+      empirical excess prediction.
     local_computation_boundary: >-
-      Existing exact probes decide the finite boundary. No new model or
-      hardware is warranted without a reopener.
+      Existing exact response and controller probes decide the finite
+      boundary. No new model or hardware is warranted without a reopener.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
+      - explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 
@@ -663,14 +677,15 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - independently-selected-action-probe-archive-access-boundary
+    - physically-selected-controller-preparation-resource-observer-boundary
     - stronger-scoped-physical-interface-nonselection-theorem
     - frozen-interface-excess-prediction
   decision_rule: >-
-    HC-DU-137 stops finite designed-interface variants and identifies the
-    prepared later swings as prior-result replays. Select no successor until
-    one candidate supplies an independently physical interface premise, a
-    stronger theorem class, or frozen empirical excess.
+    HC-DU-138 closes the finite controller-relative action compiler and shows
+    that one actual history does not select its counterfactual preparation
+    class. Select no successor until one candidate physically selects that
+    richer boundary, proves a stronger theorem class, or freezes empirical
+    excess.
 
 anomaly_intake:
   status: open_non_wip
