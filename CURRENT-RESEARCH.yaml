@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 103
+state_revision: 104
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -77,15 +77,13 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: null
-  executable_action_id: null
+  active_scientific_program_id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
+  executable_action_id: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-151 proves that conserved apparatus twins can shift a Gaussian
-    relative phase unless an exact response-orthogonality condition holds.
-    No physical twin, observed packet, prediction, hardware path, or successor
-    exists.
+    Activate one GIE apparatus-class audit for HC-DU-151. Later swings are
+    conditional; no claim or grade changes.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -351,9 +349,10 @@ programs:
   - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
+    portfolio_status: active
+    execution_status: executable
+    wip_slot: scientific_flagship
+    active_work_id: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -367,46 +366,23 @@ programs:
       - CH-COLLIDE
       - CH-SYN
     target: >-
-      Parked after interface, constructor, mediator, relational-phase,
-      conserved-controller, and apparatus-orthogonality gates.
+      Test physical apparatus-class selection for descent or lawful remainder.
     current_grade: >-
-      HC-DU-137--139/146--151 bank Grade-4 interface/action, constructor,
-      mediator, direct-action, phase, controller, and apparatus-descent
-      boundaries.
+      HC-DU-137--151 bank Grade-4 interface-to-apparatus boundaries.
     evidence_grade: 4
     maximum_grade: >-
-      Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
+      Grade 4 for selection/nonselection; Grade 5 for lawful remainder or prediction.
     maximum_evidence_grade: 5
     premise_status: >-
-      Ontology-neutral; formation, access, descent, retention, and target stay typed.
+      Ontology-neutral; interface, descent, and target remain typed.
     completed_dependencies:
-      - id: PRIS-01
-        evidence_ref: explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
-      - id: HC-DU-126
-        evidence_ref: explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
-      - id: HC-DU-137
-        evidence_ref: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
-      - id: HC-DU-138
-        evidence_ref: explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
-      - id: HC-DU-139
-        evidence_ref: explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
-      - id: HC-DU-146
-        evidence_ref: explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
-      - id: HC-DU-147
-        evidence_ref: explorations/probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md
-      - id: HC-DU-148
-        evidence_ref: explorations/quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md
-      - id: HC-DU-149
-        evidence_ref: explorations/quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md
-      - id: HC-DU-150
-        evidence_ref: explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
       - id: HC-DU-151
         evidence_ref: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
+      - id: PDSI-CAMPAIGN-01
+        evidence_ref: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
     remaining_obligations:
-      - Await a completed physical task-repertoire selector plus a
-        subsidiary-theory observer/controller/access/resource adapter, a
-        stronger scoped physical-class no-go with an observed acquisition
-        packet, or frozen empirical excess.
+      - Extract a physical apparatus class or exact supply boundary.
+      - Gate all continuation on typed predecessor returns.
     typed_dependencies:
       - type: requires
         target: HC-DU-126
@@ -415,38 +391,61 @@ programs:
         target: PHYSICAL-RECORD-INTERFACE-SELECTION
         target_type: requirement
     strongest_absorber: >-
-      Operational equivalence, realization/split freedom, relational
-      observables, Ward identities, conservation, Gaussian influence
-      functionals, heavy/homogeneous apparatus limits, and prior DU audits.
+      Relational observables, Ward identities, Gaussian influence functionals,
+      and apparatus limits.
     cheapest_kill: >-
-      Met: equivalent reduced probes, apparatus completions, mediator routes,
-      and phase decompositions disagree on finer targets.
+      The source supplies a nominal apparatus but no variation law.
     stop_rule: >-
-      Stop designed variants and probe-only provenance. Do not replay controls,
-      equate conservation with phase descent, or copy an external phase into
-      DU's prediction register.
+      Stop at a supply boundary; do not simulate, design hardware, or infer correction.
     reopen_rule: >-
-      Require a selected task/observer adapter, observed exclusive mediation or
-      provenance, a physical controller class with uniform response
-      orthogonality or a no-refit violation, or one observed relational phase
-      surface completed across gauge, back-reaction, rivals, and lineage.
+      Later swings require their named predecessor return.
     local_computation_boundary: >-
-      Exact finite probes and primary-source collisions decide the boundary.
-      No larger tomography, gravity model, or hardware is warranted.
-    next_action: null
-    next_action_ref: null
+      Source reconstruction first; compute only exact decision boundaries. No hardware.
+    next_action: >-
+      Reconstruct one GIE model's apparatus, response, variation class, and supply boundary.
+    next_action_ref: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
+    execution_packet:
+      action_id: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
+      exact_question: >-
+        Does one GIE model select the controller class required by HC-DU-151?
+      source_locator:
+        path: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
+        heading: '## Swing 1 — physical apparatus class extraction'
+      required_inputs:
+        - path: explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
+          role: controller-completion boundary
+        - path: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
+          role: exact descent criterion
+        - path: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
+          role: campaign ledger and gates
+      unchanged_ledger_fields:
+        - model, approximation, response, and variation domain
+        - source, controller, boundary, and gauge
+        - observer, target, calibration, resources, and no-refit rule
+      arena_roles:
+        - primary-source GIE apparatus
+        - HC-DU-151 orthogonality criterion
+        - supplied-interface hostile control
+      expected_return_classes:
+        - SELECTED_PHYSICAL_CLASS
+        - PARTIAL_PHYSICAL_TYPING
+        - UNSELECTED_INTERFACE
+      observer_index_return_classes:
+        - PHYSICAL_OBSERVER_CONTROLLER_SELECTED
+        - OBSERVER_OR_CONTROLLER_SUPPLIED
+        - NO_OBSERVER_INDEX_NEEDED_AT_THIS_GATE
+      durable_output: >-
+        Typed apparatus passport, supply audit, and next state.
+      local_method: >-
+        Source reconstruction and symmetry audit; no simulation or hardware.
+      uses_program_controls:
+        - strongest_absorber
+        - cheapest_kill
+        - stop_rule
     canonical_evidence_refs:
-      - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
-      - explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
-      - explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
-      - explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
-      - explorations/probe-process-mediator-diagnostics-symmetry-identifiability-and-component-attribution-2026-07-30.md
-      - explorations/quantum-gravity-commutator-phase-direct-action-descent-and-frozen-excess-boundary-2026-07-30.md
-      - explorations/quantum-gravity-relational-observable-phase-decomposition-and-completion-boundary-2026-07-30.md
       - explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
       - explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
-      - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
-      - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
+      - explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
 
   - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
     kind: supporting_branch
@@ -731,20 +730,17 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: no_ready
-  blocked_by: null
+  status: blocked
+  blocked_by: PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION
   selected_successor_id: null
   candidate_classes:
-    - physically-selected-task-repertoire-and-observer-adapter
-    - observed-exclusive-mediation-component-attribution-remainder
-    - stronger-scoped-physical-interface-nonselection-theorem
-    - frozen-interface-excess-prediction
-    - physically-selected-probability-port-instrument-to-capacity-law
+    - physical-apparatus-tangent-and-response-span
+    - equivariant-interface-nonselection-theorem
+    - direct-action-field-first-operational-leak
+    - formation-provenance-intervention
+    - no-ready-successor
   decision_rule: >-
-    Keep tasks, records, capacities, process classes, and named attribution
-    distinct. Select only a complete physical packet, observed provenance,
-    symmetry-breaking access theorem, or frozen excess surviving declared
-    direct-action, influence-functional, and acquisition rivals.
+    Route only from Swing 1's typed return; never bypass a missing physical class.
 
 anomaly_intake:
   status: open_non_wip

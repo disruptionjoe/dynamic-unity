@@ -1,0 +1,66 @@
+{
+  "probe": "du_physical_descent_ten_swing_campaign_probe",
+  "status": "PASS",
+  "checks": [
+    {
+      "id": "ten_ordered_swings",
+      "pass": true,
+      "detail": "campaign has the exact ten ordered swing titles"
+    },
+    {
+      "id": "complete_swing_cards",
+      "pass": true,
+      "detail": "every swing has question, activation, method, positive, kill, return, and next; errors=[]"
+    },
+    {
+      "id": "divergent_method_coverage",
+      "pass": true,
+      "detail": "all ten divergent specialist lenses are present"
+    },
+    {
+      "id": "triple_diamond_and_convergence",
+      "pass": true,
+      "detail": "purpose, architecture, and assurance diamonds converge explicitly"
+    },
+    {
+      "id": "anti_bruteforce_contract",
+      "pass": true,
+      "detail": "symmetry, adjoint, value-of-information, and local-learning shortcuts replace brute force"
+    },
+    {
+      "id": "conditional_transition_contract",
+      "pass": true,
+      "detail": "only Swing 1 is live and every later swing is conditional"
+    },
+    {
+      "id": "typed_and_grade_guards",
+      "pass": true,
+      "detail": "typed ledger, evidence-grade, and external-action guards are explicit"
+    },
+    {
+      "id": "live_swing_one_routing",
+      "pass": true,
+      "detail": "current authority routes exactly the selected program and Swing 1"
+    },
+    {
+      "id": "later_swings_blocked",
+      "pass": true,
+      "detail": "successor selection is blocked by the live Swing-1 return"
+    },
+    {
+      "id": "source_locator_resolves",
+      "pass": true,
+      "detail": "the embedded execution packet resolves to the Swing-1 card"
+    }
+  ],
+  "scientific_claim": "none",
+  "active_program": "CCR-PHYSICAL-RECORD-INTERFACE-SELECTION",
+  "active_action": "PDSI-01-PHYSICAL-APPARATUS-CLASS-EXTRACTION",
+  "prepared_swings": 10,
+  "executable_swings": 1,
+  "limitations": [
+    "Does not validate any physical model or scientific claim.",
+    "Does not authorize Swings 2-10, hardware, publication, or contact.",
+    "Does not establish novelty, paper readiness, or a North-Star result."
+  ]
+}

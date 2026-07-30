@@ -4,6 +4,18 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+`du_physical_descent_ten_swing_campaign_probe.py` is a method/governance
+check. It verifies that the physical-descent campaign contains ten ordered
+and complete swing cards; preserves the Science Council, triple-diamond,
+counterfactual, naturality, control, adjoint, value-of-information,
+gauge/QFT, direct-action, metrology, adversarial, and overbuild-protection
+lenses; activates only Swing 1; blocks later swings on typed returns; and
+matches the live `CURRENT-RESEARCH.yaml` execution packet. Run with
+`--write-artifact` only when intentionally refreshing its deterministic
+receipt. Passing establishes campaign completeness and routing only, never
+physics, novelty, a theorem, a prediction, paper readiness, hardware
+authorization, or permission to execute Swings 2--10.
+
 `du_agent_orientation_contract_probe.py` is the exception in kind: it is a
 deterministic governance/cold-start contract rather than a scientific assay.
 It parses `../CURRENT-RESEARCH.yaml` as the sole mutable research authority;
