@@ -612,6 +612,31 @@ outcome, factorization, register, communication protocol, and receiver; one
 external copy is not public/BFT certification. See
 ([HC-DU-154](../explorations/qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md)).
 
+**Reduced-loop/curvature correction (`HC-DU-155`).** Do not infer physical
+perspectival curvature from a loop defect among reduced descriptions. For
+complete reversible transformation \(\mathcal U\), assignments \(J_i\), and
+access reductions \(R_i\),
+
+\[
+Q_{B\to A}Q_{A\to B}-I
+=
+R_A\mathcal U^{-1}(J_BR_B-I)\mathcal UJ_A.
+\]
+
+Thus the complete frame loop may close while a discard-and-refresh return
+fails solely because the intermediate access boundary removed
+return-relevant lineage. A chosen observable algebra may nevertheless close.
+
+Also distinguish loop failure from protocol-order dependence. Two
+trace-preserving conditional expectations onto noncommuting qubit algebras
+give different outputs in different orders under ordinary quantum mechanics.
+The effect is representation covariant but compares different physical
+reduction sequences. Require a selected complete loop, matched retained
+lineage, same-protocol control, covariant readout, benign-refinement
+invariance, and survival of standard channel/recovery absorbers before using
+the word curvature
+([HC-DU-155](../explorations/qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md)).
+
 ### 6. Histories versus endpoints
 
 **Established.** Process tensors characterize multi-time memory-bearing

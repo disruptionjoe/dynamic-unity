@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 107
+state_revision: 108
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,12 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-154 banks an exact orthodox-QM boundary: a definite outcome can be
-    broadcast outside a position-superposed laboratory without decohering its
-    reference position when the final message is branch independent. Retained
-    reference-branch information, not outcome information itself, is the first
-    leak. The source supplies the Heisenberg cut, factors, register, protocol,
-    and access arrangement, so no scientific-program reopen rule is met.
+    HC-DU-155 separates complete transformation from reduced access. A
+    reversible full loop may close while discard-and-refresh fails by the
+    removed-lineage term; noncommuting reductions also cause ordinary order
+    effects. Neither is perspectival curvature without a selected full loop
+    and matched lineage, protocol, covariance, refinement, and standard-QM
+    controls. No reopen rule is met.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -436,15 +436,14 @@ programs:
     target: >-
       Quantify capacity and resolution after a formed interface exists.
     current_grade: >-
-      HC-DU-136, HC-DU-140--145, and HC-DU-153--154 bank Grade-4
+      HC-DU-136, HC-DU-140--145, and HC-DU-153--155 bank Grade-4
       resource/capacity typing,
       formation--actuality--archive separation, trajectory nonselection, and
       active collapse/Bohmian record duality, fixed-class stability
       obstruction, covariant-QFT absorption, and physical-reference handoff
-      and rate-attribution boundaries, plus exact separation of outcome
-      broadcast from reference-position decoherence, and conditional Grade-3
-      binary reconstruction. Selected physical implementation/capacity remains
-      open.
+      and rate-attribution boundaries, plus exact outcome/reference and
+      full-loop/reduced-loop separations, and conditional Grade-3 binary
+      reconstruction. Selected physical implementation/capacity remains open.
     evidence_grade: 4
     maximum_grade: "Scoped Grade 4 supporting result."
     maximum_evidence_grade: 4
@@ -469,6 +468,8 @@ programs:
         evidence_ref: explorations/reduced-qrf-access-handoff-and-decoherence-attribution-boundary-2026-07-30.md
       - id: HC-DU-154
         evidence_ref: explorations/qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md
+      - id: HC-DU-155
+        evidence_ref: explorations/qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md
     remaining_obligations:
       - Derive a complete physical record and its model-selected capacity.
     typed_dependencies:
@@ -481,7 +482,9 @@ programs:
       collapse/Bohmian duality, constrained capacity, stable-band
       analyticity, covariant statistical-QFT rewriting, reduced QRF channels,
       operational QRF outcome broadcast, which-path complementarity, quantum
-      erasure, and ordinary nuisance-parameter identifiability.
+      erasure, channel recoverability, conditional expectations, commuting
+      squares, noncommuting coarse graining, and ordinary nuisance-parameter
+      identifiability.
     cheapest_kill: >-
       Met by erasure-family nonfactorization, readout/reversion nonidentity,
       incompatible Lindbladian records, and matched active system records from
@@ -508,6 +511,7 @@ programs:
       - explorations/nonmarkovian-collapse-bohmian-stable-covariant-realization-boundary-2026-07-30.md
       - explorations/reduced-qrf-access-handoff-and-decoherence-attribution-boundary-2026-07-30.md
       - explorations/qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md
+      - explorations/qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication
@@ -728,7 +732,10 @@ successor_selection:
     HC-DU-152 supplies no physical apparatus class, HC-DU-153 supplies a QRF
     handoff theorem only after access and block interfaces are fixed, and
     HC-DU-154 assumes a definite outcome and complete communication packet.
-    None meets a parked program's reopen rule, so no successor activates.
+    HC-DU-155 shows that reduced-loop and path-order effects are absorbed by
+    discarded lineage or noncommuting access maps unless a selected complete
+    loop survives matched controls. None meets a parked program's reopen rule,
+    so no successor activates.
 
 anomaly_intake:
   status: open_non_wip

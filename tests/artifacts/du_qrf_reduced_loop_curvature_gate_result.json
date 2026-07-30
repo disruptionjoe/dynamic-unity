@@ -1,0 +1,140 @@
+{
+  "claim_id": "HC-DU-155",
+  "return": "REDUCED_LOOP_DEFECT_FROM_DISCARDED_LINEAGE+NONCOMMUTING_REDUCTION_PATH_DEPENDENCE+REPRESENTATION_COVARIANT_STATISTICS+STANDARD_QM_COARSE_GRAINING_ABSORPTION+NO_READY_SUCCESSOR",
+  "checks": {
+    "full_transform_is_an_involution": true,
+    "retained_lineage_full_loop_closes": true,
+    "retained_lineage_accessible_state_closes": true,
+    "intermediate_reduction_dephases_coherent_input": true,
+    "discard_and_refresh_reduced_loop_fails": true,
+    "reduced_loop_x_probability_defect_is_one_half": true,
+    "loop_defect_equals_discarded_lineage_term": true,
+    "noncommuting_axes_are_unit_and_nonexceptional": true,
+    "z_then_b_output_is_exact": true,
+    "b_then_z_output_is_exact": true,
+    "path_difference_is_exact": true,
+    "path_readout_difference_is_six_twenty_fifths": true,
+    "path_trace_distance_is_six_twenty_fifths": true,
+    "conditional_expectations_do_not_commute": true,
+    "identical_conditional_expectations_are_idempotent": true,
+    "orthogonal_pauli_conditional_expectations_commute": true,
+    "covariant_path_outputs_rotate_together": true,
+    "covariant_readout_probabilities_are_invariant": true
+  },
+  "forward_return_fixture": {
+    "full_transform_squared": [
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "initial_accessible_state": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ]
+    ],
+    "retained_lineage_return_state": [
+      [
+        "1/2",
+        "1/2"
+      ],
+      [
+        "1/2",
+        "1/2"
+      ]
+    ],
+    "discard_and_refresh_return_state": [
+      [
+        "1/2",
+        0
+      ],
+      [
+        0,
+        "1/2"
+      ]
+    ],
+    "x_plus_probability_before": 1,
+    "x_plus_probability_after_reduced_loop": "1/2",
+    "probability_defect": "1/2"
+  },
+  "path_order_fixture": {
+    "axis_a": [
+      0,
+      0,
+      1
+    ],
+    "axis_b": [
+      "3/5",
+      0,
+      "4/5"
+    ],
+    "axis_overlap": "4/5",
+    "z_then_b_output": [
+      "12/25",
+      0,
+      "16/25"
+    ],
+    "b_then_z_output": [
+      0,
+      0,
+      "16/25"
+    ],
+    "path_difference": [
+      "12/25",
+      0,
+      0
+    ],
+    "x_plus_probability_z_then_b": "37/50",
+    "x_plus_probability_b_then_z": "1/2",
+    "probability_difference": "6/25",
+    "trace_distance": "6/25",
+    "conditional_expectation_commutator": [
+      [
+        0,
+        0,
+        "12/25"
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        "-12/25",
+        0,
+        0
+      ]
+    ]
+  },
+  "scope": [
+    "Full reversible frame transformations and reduced access channels are different typed objects.",
+    "A reduced loop defect can be caused entirely by discarded lineage.",
+    "Noncommuting access reductions can create ordinary path-order dependence.",
+    "Perspectival curvature requires an invariant excess after complete lineage and representation controls."
+  ]
+}

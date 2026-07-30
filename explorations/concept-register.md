@@ -6214,6 +6214,41 @@ ERASURE ABSORB THE PHYSICS / HEISENBERG CUT, INTERFACE, CERTIFICATION,
 REGIONAL LAW, EMPIRICAL EXCESS, AND NEW PHYSICS OPEN.** See
 `qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md`.
 
+### 2026-07-30 reduced-loop defect and curvature admission boundary
+
+`HC-DU-155` separates a complete reversible perspective transformation from
+the reduced channel obtained after inaccessible degrees are discarded. For
+assignments \(J_i\), reductions \(R_i\), and complete reversible
+transformation \(\mathcal U\),
+
+\[
+Q_{B\to A}Q_{A\to B}-I
+=
+R_A\mathcal U^{-1}(J_BR_B-I)\mathcal UJ_A.
+\]
+
+The reduced return fails exactly to the extent that the outward packet loses
+lineage needed by the return and visible to the final access map. One
+observable algebra can still close while the full state does not.
+
+A separate exact qubit fixture proves that access reduction order can matter
+even in orthodox quantum theory. Conditional expectations onto axes
+\((0,0,1)\) and \((3/5,0,4/5)\) differ by probability and trace distance
+\(6/25\) across the two orders. The statistic is unchanged when state,
+channels, and readout transform together.
+
+These results narrow perspectival curvature. A reduced-state loop defect or
+noncommuting order effect is not sufficient. A physical candidate must
+survive complete-lineage, same-protocol, selected-interface, covariant
+readout, benign-refinement, and standard-channel controls.
+
+**Updated status:** **CONCEPT-OPEN / EXACT REDUCED-LOOP CLOSURE IDENTITY AND
+DISCARDED-LINEAGE WITNESS BANKED / NONCOMMUTING ACCESS ORDER EFFECT BANKED /
+COMMUTING-SQUARE REGIONAL-DESCENT CONDITION IDENTIFIED / EASY REDUCED-STATE
+CURVATURE FORM ABSORBED / NO SELECTED FULL LOOP, REPRESENTATION-INVARIANT
+HOLONOMY, REGIONAL FINALITY LAW, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
+`qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -3743,6 +3743,34 @@ select a Heisenberg cut, subsystem factorization, outcome basis, apparatus,
 record, observer, archive, access/certification protocol, regional finality
 law, new physics, prediction, hardware need, or paper.
 
+## HC-DU-155 reduced-QRF loop defect and perspectival-curvature gate
+
+Run:
+
+```bash
+python3 tests/du_qrf_reduced_loop_curvature_gate_probe.py --write-artifact
+```
+
+The exact fixture preserves four controls:
+
+- a CNOT outward-and-return transformation closes exactly when the same
+  carrier lineage is retained;
+- discarding that carrier and substituting a fresh blank makes the reduced
+  return dephase \(|+\rangle\), with \(X{+}\) probability defect \(1/2\);
+- on every basis operator of \(M_2\), the reduced-loop defect equals the
+  discarded-lineage term in the general closure identity; and
+- two qubit conditional expectations onto nonparallel, nonorthogonal axes
+  have an exact order-dependent probability and trace-distance difference
+  \(6/25\), while identical/orthogonal controls commute and joint
+  representation change preserves the statistics.
+
+Passing establishes only the scoped full-versus-reduced-loop,
+discarded-lineage, noncommuting-access, and curvature-admission boundaries.
+It does not realize a physical QRF loop, select a frame, assignment, access
+map, record algebra, archive, regional-finality protocol, or certificate,
+establish perspectival curvature or new physics, predict an anomaly, justify
+hardware, or promote a paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It
