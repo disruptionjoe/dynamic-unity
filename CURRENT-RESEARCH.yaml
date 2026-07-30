@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 90
+state_revision: 91
 as_of: '2026-07-29'
 authority: >-
   Joe direct chat through 2026-07-29; governed run receipts preserve each
@@ -82,11 +82,13 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-138 proves that a complete physical controller packet can compile
-    its action envelope and response quotient, while a source/drift law,
-    processor, or one actual history does not select the counterfactual
-    preparation/resource/observer boundary. No further nonredundant successor
-    is ready.
+    HC-DU-139 confirms that constructor theory makes counterfactual capability
+    a legitimate physical object but does not identify its global asymptotic
+    task repertoire with a finite observer/controller action envelope. A
+    subsidiary theory and access/resource adapter remain necessary. Its
+    general witness theorem supplies a scoped mediator-remainder import, not a
+    record-interface selector or frozen constructor-specific empirical excess.
+    No further nonredundant successor is ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -357,13 +359,14 @@ programs:
       - CH-SYN
     target: >-
       Parked after proving the finite antecedent-completion boundary and the
-      controller-relative action-envelope compiler for target-blind physical
-      record-interface selection.
+      controller-relative action-envelope compiler, then colliding the open
+      counterfactual premise with constructor theory.
     current_grade: >-
-      HC-DU-137/138 bank scoped Grade-4 source-only interface nonselection,
+      HC-DU-137--139 bank scoped Grade-4 source-only interface nonselection,
       complete-process response-quotient selection, controller-relative
-      action-envelope selection, counterfactual-preparation nonselection, and
-      the corrected naturality boundary.
+      action-envelope selection, counterfactual-preparation nonselection,
+      constructor-repertoire/action-envelope nonidentity, typed adapter
+      necessity, and a scoped mediator nonclassicality import.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
@@ -379,10 +382,13 @@ programs:
         evidence_ref: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
       - id: HC-DU-138
         evidence_ref: explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
+      - id: HC-DU-139
+        evidence_ref: explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
     remaining_obligations:
-      - Await a physical theory selecting the controller, counterfactual
-        preparation/resource, probe, archive, access, and observer boundary,
-        or a stronger physical-class no-go or frozen empirical excess.
+      - Await a completed physical task-repertoire selector plus a
+        subsidiary-theory observer/controller/access/resource adapter, a
+        stronger scoped physical-class no-go with an observed acquisition
+        packet, or frozen empirical excess.
     typed_dependencies:
       - type: requires
         target: HC-DU-126
@@ -393,30 +399,32 @@ programs:
     strongest_absorber: >-
       Behavioral equivalence, antecedent factorization, sufficient statistics,
       system identification, quantum controllability, programmable-processor
-      no-programming, constructor-theoretic tasks, and prior DU
-      formation/QFT/infrared audits.
+      no-programming, constructor-theoretic possible/impossible tasks and
+      mediator witnesses, and prior DU formation/QFT/infrared audits.
     cheapest_kill: >-
       Met at two cuts. One source response admits vector-current and
       scalar-action apparatuses; one fixed controlled-H processor and actual
       program-zero history admit different counterfactual program supports
       and response quotients.
     stop_rule: >-
-      Stop designed finite apparatus and controller variants. Do not replay
-      the completed autonomous, mediator, local-QFT, infrared, or
-      programmable-action controls.
+      Stop designed finite apparatus/controller variants and constructor-theory
+      relabels. Do not replay the completed autonomous, mediator, local-QFT,
+      infrared, programmable-action, or quantum-homogenizer controls.
     reopen_rule: >-
-      Require a theory or mechanism that independently selects the controller,
-      counterfactual preparation/resource, probe, archive, access, and
-      observer boundary, a stronger scoped physical-class no-go, or a frozen
-      empirical excess prediction.
+      Require a completed theory that independently selects the task
+      repertoire and observer/controller/preparation/resource/access adapter,
+      a stronger scoped mediator no-go tied to an observed acquisition packet,
+      or a frozen constructor-specific empirical excess prediction.
     local_computation_boundary: >-
-      Existing exact response and controller probes decide the finite
-      boundary. No new model or hardware is warranted without a reopener.
+      Existing exact response/controller probes plus the primary-source and
+      type-level constructor collision decide the boundary. No constructor toy,
+      quantum simulation, or hardware is warranted without a reopener.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
       - explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
+      - explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 
@@ -677,15 +685,16 @@ successor_selection:
   blocked_by: null
   selected_successor_id: null
   candidate_classes:
-    - physically-selected-controller-preparation-resource-observer-boundary
+    - physically-selected-task-repertoire-and-observer-adapter
+    - observed-local-mediator-nonclassicality-remainder
     - stronger-scoped-physical-interface-nonselection-theorem
     - frozen-interface-excess-prediction
   decision_rule: >-
-    HC-DU-138 closes the finite controller-relative action compiler and shows
-    that one actual history does not select its counterfactual preparation
-    class. Select no successor until one candidate physically selects that
-    richer boundary, proves a stronger theorem class, or freezes empirical
-    excess.
+    HC-DU-139 proves that making possible tasks fundamental does not identify
+    the global asymptotic repertoire with one finite observer action envelope.
+    Select no successor until one candidate physically selects both the task
+    repertoire and its observer adapter, ties a stronger mediator remainder to
+    a complete observed packet, or freezes empirical excess.
 
 anomaly_intake:
   status: open_non_wip

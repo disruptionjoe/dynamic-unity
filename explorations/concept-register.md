@@ -5721,6 +5721,31 @@ stronger physical-class no-go. See
   PREDICTION, LAW, OR NEW PHYSICS EARNED.** See
   `physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md`.
 
+### 2026-07-29 constructor-repertoire collision
+
+`HC-DU-139` establishes that constructor theory is the strongest current
+physical-language absorber and a useful correction, but not the missing
+selector. It makes possible/impossible tasks primitive, so the action envelope
+need not be dismissed as analyst-supplied semantics. Its global repertoire is
+nevertheless asymptotic and repeatability-sensitive, while a DU action envelope
+is observer/controller indexed, finite-budget, finite-horizon, finite-error,
+readout-relative, and may contain consumptive or one-shot actions.
+
+The same global repertoire therefore permits different observer envelopes, and
+one finite envelope does not recover the global repertoire. A subsidiary theory
+plus substrate, controller, preparation, access, resource, horizon, error,
+reset, and readout fields is the minimum typed adapter. The current proposed
+ultimate constructor law explicitly leaves the general task metric and
+impossibility criterion open.
+
+The general witness theorem is retained as a scoped physical-class necessity
+import: under its locality, interoperability, determinism, mediation, and
+no-direct-interaction assumptions, a mediator that entangles two quantum probes
+cannot have only one jointly sharp classical information variable. It does not
+select a record, archive, observer boundary, or mediator ontology. No current
+constructor test supplies frozen DU empirical excess. See
+`constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

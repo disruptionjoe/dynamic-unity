@@ -3475,3 +3475,28 @@ mathematics. It does not select an observer, controller, preparation class,
 record, archive, or access boundary in nature, and it establishes no
 ontology, universal no-go, physical remainder, empirical excess, prediction,
 law, new physics, hardware need, or paper promotion.
+
+## HC-DU-139 constructor-repertoire/action-envelope boundary
+
+`HC-DU-139` is a primary-source and exact type-level collision. It establishes
+that:
+
+- constructor theory makes possible/impossible tasks legitimate physical
+  primitives rather than merely semantic action labels;
+- its global task repertoire is asymptotic and repeatability-sensitive;
+- a DU action envelope is instead finite, observer/controller/access/resource/
+  horizon/readout indexed and may include one-shot operations;
+- the same global repertoire can support different finite observer envelopes;
+- one finite observer envelope cannot recover the global repertoire;
+- a subsidiary theory plus a typed physical adapter is required; and
+- the general witness theorem imports a scoped mediator nonclassicality
+  remainder under its explicit locality, interoperability, determinism,
+  mediation, and no-direct-interaction assumptions.
+
+No new scientific executable was added. The result is decided by definitions,
+two exact nonfactorization witnesses, and the published status of current
+constructor-theory tests. The repository governance suite remains the
+executable regression. Passing it does not validate constructor theory, select
+a global repertoire or finite observer envelope, observe mediator
+nonclassicality, form or certify a record, produce constructor-specific
+empirical excess, authorize hardware, or promote a paper.
