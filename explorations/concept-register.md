@@ -6399,16 +6399,17 @@ OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
   17. `SEED-DU-MPA-17` — Interface Relativity Principle.
 
 - **Execution discipline.** The seeds are preserved independently of the
-  work queue. `HC-DU-159` through `HC-DU-162` complete the natural-section,
-  selection-frontier, source-pinned coupling-response, and complete-packet
-  gates. Reconstruction, first-leak, transfer,
-  regional-composition, and new-dynamics branches still require their typed
-  predecessors and separate authorization.
+  work queue. `HC-DU-159` through `HC-DU-163` complete the natural-section,
+  selection-frontier, source-pinned coupling-response, complete-packet, and
+  action-relative materialization gates. The campaign parks at
+  material-realization nonidentification. Reconstruction, first-leak,
+  transfer, regional-composition, and new-dynamics branches remain preserved
+  but are not eligible.
 - **Status:** **CONCEPT-OPEN / CHARTER-RATIFIED RESEARCH QUESTION /
-  `HC-DU-159` THROUGH `HC-DU-162` BANK THE FORMAL-INSTRUMENT,
+  `HC-DU-159` THROUGH `HC-DU-163` BANK THE FORMAL-INSTRUMENT,
   ACTION-INDEXED SELECTION, SOURCE-PINNED COUPLING-RESPONSE, AND
-  PARTIAL-PACKET FRONTIERS / COMPLETE MATERIAL RECORD, RECONSTRUCTION,
-  REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
+  OBSERVED-MEAN/MATERIAL-REALIZATION FRONTIERS / COMPLETE MATERIAL RECORD,
+  RECONSTRUCTION, REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
 - **Canonical campaign:** `minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md`.
 
 ### 2026-07-30 instrument-section correction
@@ -6572,6 +6573,63 @@ single-shot readout, matched-filter/sufficient-statistic, decision,
 acquisition, provenance, and feedback theory absorb the components.
 `SEED-DU-MPA-05` may proceed only with this partial packet and may not credit
 it as target-blind or complete.
+
+### 2026-07-30 action-relative materialization correction
+
+`HC-DU-163` freezes the source's smallest realized future action: apply no
+outcome-conditioned control, begin the same second readout \(220\) ns later,
+and retain its binary result.
+
+For complete physical histories \(h\), the response signature
+
+\[
+\sigma_H(h)
+=
+\mathbb P(z_2\in\cdot\mid\operatorname{do}(H),h)
+\]
+
+induces a unique coarsest exact behavioral quotient, up to relabeling. A
+record \(r\) is sufficient exactly when
+
+\[
+\ker r\subseteq\ker\sigma_H,
+\]
+
+and it realizes the coarsest quotient exactly only when the kernels are
+equal. Overfine, coarse, and incomparable archives are distinct outcomes.
+
+The material correction is that an observed conditional law is only
+
+\[
+\mathbb P(z_2\in\cdot\mid r)
+=
+\mathbb E[\sigma_H(H)\mid r].
+\]
+
+It identifies the mean response inside a record fibre, not whether the
+complete physical-history response is constant there. An exact sixteen-
+history control has two completions with identical label, statistic, and raw
+trace distributions; identical joined one-step response laws at all three
+record levels; and identical \(95\%\) aggregate repeat agreement. One has two
+physical quotient classes and zero within-record response heterogeneity. The
+other has four classes and conditional response-propensity variance
+\(1/400\).
+
+In the first completion, the binary label is exact and the statistic/trace
+are overfine. In the second, the label is coarse and the statistic/trace are
+incomparable with the physical quotient. An idealized identity archive is
+sufficient but overfine in both. The hostile completion is not a claim that
+the apparatus contains a latent variable; it proves that the reported
+one-step law cannot decide the material-realization relation.
+
+**Updated seed status:** `SEED-DU-MPA-05` earns the abstract
+action-relative quotient and a scoped material-realization
+nonidentification, not `ACTION_RELATIVE_RECONSTRUCTION`. Minimal sufficient
+statistics, Blackwell comparison, causal states, predictive-state
+representations, bisimulation, QND tomography, and process tensors absorb the
+mathematical components. `SEED-DU-MPA-06` is not eligible. Reopen only with a
+source-pinned joined multi-action/tomography packet, complete archive
+semantics, and factorization plus minimality tests.
 
 ## Boundary
 

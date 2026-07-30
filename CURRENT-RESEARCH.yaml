@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 116
+state_revision: 117
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,19 +82,18 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-162 completed Swing 4 on the same source-pinned platform. The
-    amplifier/down-converter/digitizer chain physically forms an accessible
-    one-run voltage trace and calibration-conditional binary outcome, but the
-    source does not select complete retention, provenance, archive reset, or
-    outcome-conditioned physical feedback. Swing 5 is scientifically
-    eligible but is not activated or executable in this transition.
+    HC-DU-163 completed Swing 5. The frozen action-relative behavioral
+    quotient exists, but the aggregate repeat response identifies only an
+    observed mean law and does not establish that any formed record realizes
+    the physical-history quotient. The campaign is parked with no ready
+    scientific successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: ready
-    execution_status: prepared
+    portfolio_status: parked
+    execution_status: none
     wip_slot: scientific_flagship
     primary_lane_id: '1'
     supporting_lane_ids:
@@ -116,12 +115,11 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-162 banks scoped Grade-4 partial physical typing. The
-      source-pinned sequential readout forms and digitizes one-run voltage
-      traces and conditionally classifies them, while exact compression,
-      lineage, and archive-completion twins show that the reported interface
-      does not select a complete retained provenance packet. Probe reset,
-      archive reset, and physical feedback remain separate and incomplete.
+      HC-DU-163 banks a scoped Grade-4 material-realization
+      nonidentification. The coarsest response-law quotient exists for the
+      frozen repeat-readout action, but observed record-conditioned laws are
+      conditional means. Exact twins have identical joined one-step laws and
+      95-percent agreement while their physical-history quotients differ.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -151,11 +149,13 @@ programs:
         evidence_ref: explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - id: HC-DU-162
         evidence_ref: explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
+      - id: HC-DU-163
+        evidence_ref: explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md
     remaining_obligations:
-      - Require a complete formed-record packet before reconstruction credit.
-      - Freeze one action class and derive its coarsest future-response quotient.
-      - Test whether the partial material archive realizes that quotient.
-      - Transfer any result without refitting before regional generalization.
+      - Source-pin a joined multi-action response packet and complete archive.
+      - Prove that its physical response kernel factors through that archive.
+      - Test behavioral minimality apart from provenance completeness.
+      - Do not activate remainder or transfer before those gates.
     typed_dependencies:
       - type: extracts_from
         target: HC-DU-063
@@ -177,39 +177,37 @@ programs:
       decoherence/SBS, AQFT measurement schemes, passive linear quantum-system
       identification, quantum input-output theory, circuit-QED calibration,
       matched filtering, statistical decision theory, classical acquisition
-      and provenance, measurement-based feedback, and classical identifiability.
+      and provenance, measurement-based feedback, classical identifiability,
+      Blackwell sufficiency, causal states, predictive-state representations,
+      probabilistic bisimulation, QND tomography, and process tensors.
     cheapest_kill: >-
-      Swing 5 is killed if the declared material archive is finer or coarser
-      than the coarsest future-response quotient, or if adding one admitted
-      action changes that quotient.
+      Met. The source does not identify whether its label, calibrated
+      statistic, or raw trace is exact, overfine, coarse, or incomparable
+      relative to the physical-history response quotient.
     stop_rule: >-
       Stop on target coding, an untyped process/interface map, full prior-art
       absorption, a failed typed prerequisite, or any route requiring hardware
       before new local learning. A prepared later swing is not executable
       without a separate authorization.
     reopen_rule: >-
-      Swing 5 may activate only by separate direct authorization using the
-      explicit partial packet from HC-DU-162. It must freeze raw trace,
-      calibrated statistic, binary label, acquisition/retention/access
-      contract, and action class without treating the interface as target-blind
-      or complete. After any later stop, require a changed action class,
-      complete packet, or source-pinned no-refit discriminator.
+      Reopen only with one source-pinned packet containing joined per-attempt
+      records and later responses, a predeclared intervention or tomography
+      family determining the postmeasurement process, explicit
+      retention/provenance/access/reset semantics, and a factorization plus
+      minimality test for the retained archive.
     local_computation_boundary: >-
       Literature and formal proof first. Local computation may enumerate one
       finite orbit or verify an exact counterexample. No simulation, provider,
       or external hardware is authorized.
-    next_action: >-
-      If separately authorized, execute Swing 5: derive the coarsest exact
-      behavioral quotient for one frozen action class and test whether the
-      source-pinned partial archive realizes it. Do not credit reconstruction
-      to missing provenance or activate the finite-remainder swing.
-    next_action_ref: explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
       - explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
       - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
       - explorations/action-indexed-physical-selection-frontier-antichain-and-measurement-model-boundary-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
+      - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
@@ -668,11 +666,11 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-162 satisfies Swing 5's scientific prerequisite only as an
-    explicitly partial packet and does not itself authorize execution. No
-    scientific action is executable in this transition. A separate direct
-    authorization may activate only the action-relative materialization gate,
-    not the finite-remainder or later campaign swings.
+    HC-DU-163 stops the campaign at the material-realization gate. No
+    scientific action is executable and Swing 6 is not eligible: an observed
+    predictive mean cannot substitute for a source-selected archive realizing
+    the physical-history quotient. Use the exact reopener rather than a later
+    campaign card.
 
 anomaly_intake:
   status: open_non_wip

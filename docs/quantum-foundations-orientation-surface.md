@@ -1312,6 +1312,22 @@ feedback theory absorb the components. The earned object is a
 calibration-conditional partial record packet, not a target-blind complete
 interface.
 
+**Action-relative materialization correction.** `HC-DU-163` freezes the
+source's unchanged second binary readout as the only admitted future action.
+Complete physical histories have a unique coarsest quotient under equality
+of their second-outcome response laws. That known predictive-state
+construction is not yet a material archive. The observed law conditional on
+a first record is the conditional mean of the complete-history response law
+inside that record fibre. Exact completion twins can therefore have the same
+candidate-record distributions, the same joined one-step response laws, and
+the same \(95\%\) repeat agreement while possessing different physical-
+history quotients. The source does not establish that its raw trace,
+calibrated statistic, or label is exact, sufficient, or minimal for the
+frozen action. Minimal sufficiency, causal states, predictive-state
+representations, bisimulation, QND tomography, and process tensors absorb the
+components. The earned boundary is observed predictive mean versus physical
+material realization, not action-relative reconstruction.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

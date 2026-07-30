@@ -1,0 +1,57 @@
+{
+  "action_extension": {
+    "baseline_quotient_classes": 2,
+    "binary_label_relation_after_extension": "COARSE_RESPONSE_LOSS",
+    "extended_kernel_strictly_refines_baseline": true,
+    "extended_quotient_classes": 4
+  },
+  "checks": {
+    "action_extension_strictly_refines_quotient": true,
+    "aggregate_repeat_rate_matches_source_summary": true,
+    "identity_archive_is_sufficient_but_overfine": true,
+    "label_exact_in_one_twin_and_lossy_in_other": true,
+    "physical_quotient_exists_by_signature_image": true,
+    "same_joined_observed_law_different_physical_quotient": true,
+    "statistic_and_trace_can_be_incomparable": true,
+    "zero_conditional_heterogeneity_iff_exact_in_control": true
+  },
+  "claim_id": "HC-DU-163",
+  "disclaimer": "Passing establishes only exact finite quotient and nonidentification controls. It establishes no latent variable in the source apparatus, complete physical archive, reconstruction, remainder, new law, or new physics.",
+  "exact_relations": {
+    "binary_label": "EXACT_REALIZATION",
+    "calibrated_statistic": "OVERFINE_RESPONSE_SUFFICIENT",
+    "idealized_identity_archive": "OVERFINE_RESPONSE_SUFFICIENT",
+    "raw_trace": "OVERFINE_RESPONSE_SUFFICIENT"
+  },
+  "frozen_action": "unchanged second binary readout beginning 220 ns after the first, with no outcome-conditioned intervention",
+  "heterogeneous_relations": {
+    "binary_label": "COARSE_RESPONSE_LOSS",
+    "calibrated_statistic": "INCOMPARABLE",
+    "idealized_identity_archive": "OVERFINE_RESPONSE_SUFFICIENT",
+    "raw_trace": "INCOMPARABLE"
+  },
+  "probe": "du_action_relative_materialization_probe",
+  "report_twins": {
+    "aggregate_repeat_probability_exact": "19/20",
+    "aggregate_repeat_probability_heterogeneous": "19/20",
+    "domain_size": 16,
+    "exact_physical_quotient_classes": 2,
+    "heterogeneous_physical_quotient_classes": 4,
+    "label_conditional_variance_exact": {
+      "'e'": "0",
+      "'g'": "0"
+    },
+    "label_conditional_variance_heterogeneous": {
+      "'e'": "1/400",
+      "'g'": "1/400"
+    },
+    "same_candidate_record_distribution": true,
+    "same_joined_one_step_laws": {
+      "binary_label": true,
+      "calibrated_statistic": true,
+      "raw_trace": true
+    }
+  },
+  "scope": "frozen_repeat_readout_action_and_exact_finite_twins",
+  "status": "PASS"
+}

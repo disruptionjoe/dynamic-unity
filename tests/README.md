@@ -4062,3 +4062,33 @@ The artifact is
 Passing establishes only finite logical controls around the primary-source
 audit. It establishes no experimental fact, complete physical record,
 reconstruction, remainder, new law, or new physics.
+
+## HC-DU-163 action-relative materialization boundary
+
+`du_action_relative_materialization_probe.py` checks exact finite controls
+for the frozen repeat-readout action:
+
+- equality of complete future-response signatures induces a unique quotient;
+- homogeneous and within-record-heterogeneous completions can have identical
+  candidate-record distributions, identical joined one-step response laws,
+  and identical \(95\%\) aggregate repeat agreement while possessing
+  different physical-history quotients;
+- zero conditional response-propensity variance separates sufficiency from
+  an observed conditional mean in the finite control;
+- binary label, calibrated statistic, raw trace, and an idealized identity
+  archive can be exact, overfine, coarse, or incomparable relative to the
+  quotient; and
+- adding one explicitly excluded response action strictly refines the
+  behavioral quotient.
+
+Run:
+
+```bash
+python3 tests/du_action_relative_materialization_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_action_relative_materialization_result.json`. Passing proves
+only the exact finite quotient and nonidentification controls. It establishes
+no hidden apparatus variable, complete physical archive, reconstruction,
+remainder, new law, or new physics.
