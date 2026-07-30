@@ -4034,3 +4034,31 @@ The artifact is
 establishes only the exact rank and endpoint counterexample in the frozen
 two-mode model. It establishes no complete record packet, physical selector,
 anomalous response, empirical result, new law, or new physics.
+
+## HC-DU-162 sequential-readout complete-packet boundary
+
+`du_sequential_readout_complete_record_packet_probe.py` checks exact finite
+controls for the source-pinned packet audit:
+
+- distinct raw traces can differ by a nonzero vector in the calibrated
+  statistic's kernel and therefore share the same complex statistic and
+  binary label;
+- full-lineage and streaming-summary archive policies can return the same
+  label counts and repeat-agreement summary while retaining different trial
+  provenance;
+- the source-reported positive cross-classification probabilities make a
+  binary label non-identifying for preparation history; and
+- the reported release and QND figures are approximate and do not define
+  archive-memory reset.
+
+Run:
+
+```bash
+python3 tests/du_sequential_readout_complete_record_packet_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_sequential_readout_complete_record_packet_result.json`.
+Passing establishes only finite logical controls around the primary-source
+audit. It establishes no experimental fact, complete physical record,
+reconstruction, remainder, new law, or new physics.

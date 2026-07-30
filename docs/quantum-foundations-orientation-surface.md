@@ -1296,6 +1296,22 @@ identification, not new physics. The open DU question is whether the matched
 calibration arms constitute one joined, formed, retained, provenance-bearing,
 accessible record packet.
 
+**Complete-packet correction.** `HC-DU-162` confirms that the same platform
+does physically form an accessible one-run voltage trace: the probe is
+released, amplified, down-converted, and digitized before a calibrated
+statistic and binary result are computed. It does not select the complete
+packet. The weight function and decision region are learned from
+state-labelled ensemble data; distinct traces in the weight's kernel have the
+same statistic and label; the reported binary error rates make the label
+non-identifying for preparation history; and full-lineage versus
+streaming-summary archives can reproduce the same reported statistics.
+Readout-mode emptying, qubit QND agreement, detector readiness, archive reset,
+and record-conditioned physical feedback are separate layers. Standard
+single-shot readout, matched-filter, decision, acquisition, provenance, and
+feedback theory absorb the components. The earned object is a
+calibration-conditional partial record packet, not a target-blind complete
+interface.
+
 | Delta family | Missing relation DU could supply | Current program home |
 |---|---|---|
 | Certified overlap identity | Select exactly which facts, events, instruments, histories, and values persist across contexts | `HC-DU-033/035C`, `H-CCR-16` |

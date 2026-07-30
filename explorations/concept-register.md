@@ -6399,16 +6399,16 @@ OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
   17. `SEED-DU-MPA-17` — Interface Relativity Principle.
 
 - **Execution discipline.** The seeds are preserved independently of the
-  work queue. `HC-DU-159` through `HC-DU-161` complete the natural-section,
-  selection-frontier, and first source-pinned coupling-response gates.
-  Complete-packet, reconstruction, first-leak, transfer,
+  work queue. `HC-DU-159` through `HC-DU-162` complete the natural-section,
+  selection-frontier, source-pinned coupling-response, and complete-packet
+  gates. Reconstruction, first-leak, transfer,
   regional-composition, and new-dynamics branches still require their typed
   predecessors and separate authorization.
 - **Status:** **CONCEPT-OPEN / CHARTER-RATIFIED RESEARCH QUESTION /
-  `HC-DU-159` THROUGH `HC-DU-161` BANK THE FORMAL-INSTRUMENT,
-  ACTION-INDEXED SELECTION, AND SOURCE-PINNED COUPLING-RESPONSE
-  FRONTIERS / COMPLETE MATERIAL RECORD, RECONSTRUCTION, REMAINDER,
-  NEW LAW, OR NEW PHYSICS OPEN.**
+  `HC-DU-159` THROUGH `HC-DU-162` BANK THE FORMAL-INSTRUMENT,
+  ACTION-INDEXED SELECTION, SOURCE-PINNED COUPLING-RESPONSE, AND
+  PARTIAL-PACKET FRONTIERS / COMPLETE MATERIAL RECORD, RECONSTRUCTION,
+  REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
 - **Canonical campaign:** `minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md`.
 
 ### 2026-07-30 instrument-section correction
@@ -6521,6 +6521,57 @@ determine whether the platform's separately calibrated internal and output
 responses form one joined, provenance-complete physical record packet.
 Passive linear quantum-system identification, input-output theory, and the
 source's own calibration absorb the mathematical components.
+
+### 2026-07-30 complete-record-packet correction
+
+`HC-DU-162` audits `SEED-DU-MPA-15` on that same platform. The result is a
+real positive at the upstream physical joint:
+
+```text
+prepared probe
+  -> interaction
+  -> released field
+  -> amplification and down-conversion
+  -> one-run digitized V(t)
+```
+
+The source therefore realizes blank-to-written detector-trace formation and
+an accessible one-run operational outcome. The later maps
+
+\[
+V\longmapsto
+\beta_w(V)=\int V(t)w(t)\,dt
+\longmapsto
+z_{w,Z_g}(V)
+\]
+
+remain calibration-conditioned: \(w\) is built from state-labelled average
+traces and \(Z_g\) from measured state-conditioned distributions.
+
+The exact boundary has three parts.
+
+1. Any nonzero \(\delta V\in\ker\ell_w\) gives a distinct trace with the same
+   \(\beta\) and binary label.
+2. The source's positive cross-classification rates imply that one binary
+   label does not determine preparation history.
+3. A full-lineage archive and a streaming aggregate can reproduce the same
+   histograms, fidelity, and repeat-agreement summaries while retaining
+   different trial provenance.
+
+The reported \(91\%\) release efficiency and \(95\%\) consecutive-readout
+agreement concern probe/output and qubit layers. They do not define
+detector-memory freshness, archive retention, or old-record erasure.
+Heralding on the first result establishes a record-conditioned response
+statistic, not an outcome-conditioned physical feedback action.
+
+**Updated seed status:** `SEED-DU-MPA-15` earns
+`PARTIAL_PHYSICAL_TYPING`: formed raw trace, calibration-conditional
+single-run classification, and supplied physical access. Complete archive,
+provenance, reset, and held-out action remain unselected. Standard
+single-shot readout, matched-filter/sufficient-statistic, decision,
+acquisition, provenance, and feedback theory absorb the components.
+`SEED-DU-MPA-05` may proceed only with this partial packet and may not credit
+it as target-blind or complete.
 
 ## Boundary
 

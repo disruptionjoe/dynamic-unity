@@ -1,0 +1,90 @@
+{
+  "archive_twin": {
+    "different_retained_lineage": true,
+    "full_retained_attempt_count": 4,
+    "same_declared_summary": true,
+    "streaming_retained_attempt_count": 0,
+    "summary": {
+      "label_counts": {
+        "e": 2,
+        "g": 2
+      },
+      "repeat_agreements": 3,
+      "repeat_pairs": 4
+    }
+  },
+  "checks": {
+    "binary_label_does_not_identify_preparation_history": true,
+    "complete_packet_not_earned": true,
+    "distinct_traces_same_beta_and_label": true,
+    "nonzero_trace_kernel_witness": true,
+    "reported_reset_controls_are_approximate": true,
+    "same_summary_different_archive_lineage": true
+  },
+  "claim_id": "HC-DU-162",
+  "complete_packet": false,
+  "compression_twin": {
+    "beta_left": "1",
+    "beta_right": "1",
+    "delta_is_in_weight_kernel": true,
+    "delta_is_nonzero": true,
+    "kernel_delta": [
+      "2",
+      "-1",
+      "0",
+      "3"
+    ],
+    "same_beta": true,
+    "same_binary_label": true,
+    "trace_left": [
+      "1",
+      "0",
+      "0",
+      "0"
+    ],
+    "trace_right": [
+      "3",
+      "-1",
+      "0",
+      "3"
+    ],
+    "weight": [
+      "1",
+      "2",
+      "-1",
+      "0"
+    ]
+  },
+  "disclaimer": "Passing establishes only finite logical controls around the source audit; it establishes no experimental fact, complete physical record, reconstruction, remainder, new law, or new physics.",
+  "lineage_ambiguity": {
+    "p_label_g_given_prepared_e": "17/500",
+    "p_label_g_given_prepared_g": "123/125",
+    "same_label_has_both_preparation_histories": true
+  },
+  "packet_fields": {
+    "blank_to_written_trace": "PHYSICALLY_REALIZED",
+    "causal_provenance": "NOT_IDENTIFIED",
+    "held_out_action": "NO_OUTCOME_CONDITIONED_PHYSICAL_ACTION",
+    "observer_access": "PHYSICALLY_REALIZED_BUT_BOUNDARY_SUPPLIED",
+    "one_run_operational_outcome": "CALIBRATION_CONDITIONAL",
+    "reset": "APPROXIMATE_PROBE_RESET_ARCHIVE_RESET_UNSPECIFIED",
+    "retained_archive": "USED_BUT_RETENTION_SEMANTICS_UNSELECTED"
+  },
+  "probe": "du_sequential_readout_complete_record_packet_probe",
+  "reset_boundary": {
+    "probe_reset_does_not_define_archive_reset": true,
+    "qnd_repeat_is_not_exact": true,
+    "release_is_not_exact_blank": true,
+    "reported_qnd_agreement": "19/20",
+    "reported_qnd_mismatch": "1/20",
+    "reported_release_efficiency": "91/100",
+    "reported_release_inefficiency": "9/100"
+  },
+  "scope": "peronnin_sequential_readout_complete_packet_boundary",
+  "source": {
+    "arxiv": "1904.04635",
+    "journal": "Physical Review Letters 124, 180502 (2020)",
+    "title": "Sequential dispersive measurement of a superconducting qubit"
+  },
+  "status": "PASS"
+}
