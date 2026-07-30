@@ -3640,3 +3640,41 @@ decide the result. The governance probe remains the executable regression.
 Passing it does not select an instrument, controller, bath, physical
 implementation, symmetry, resource contract, ontology, empirical excess,
 prediction, hardware action, or paper promotion.
+
+## HC-DU-145 collapse/Bohmian stable-covariant realization gate
+
+`HC-DU-145` tests the first physical seam left by `HC-DU-144`.
+The literal Tilloy--Wiseman bath is
+
+\[
+H_B=d\Gamma(M_\omega)
+\]
+
+on a full bosonic Fock space over signed frequencies. If a normalized
+one-particle packet has negative expectation
+\(\epsilon_f=\langle f,M_\omega f\rangle<0\), the \(n\)-boson state in that
+mode has energy \(n\epsilon_f\to-\infty\). The even coupling needed by the
+exact mixed-frequency path map supplies the negative partner for every
+ordinary nonzero positive-frequency support. The literal exact realization is
+therefore not bounded below.
+
+A stable repair must restrict or retype the physical packet: band limit,
+carrier/rotating frame, reference or pump, occupation sector, nonlinear
+stabilization, different beables/coupling, regulator, or future boundary.
+None inherits the exact pathwise theorem without a new proof and matched
+resource audit.
+
+Lorentz covariance does not itself produce a discriminator. Tilloy's
+Lorentz-invariant statistical-field rewriting of regularized interacting QFT
+is explicitly intended to retain orthodox QFT observation statistics. It is
+a representation-level absorber, not the same real-noise/Bohmian path map or
+a rigorous stable nonperturbative selector of a record/archive interface.
+Band-limited analyticity gives arbitrary finite forecasting accuracy, not an
+exact finite-precision certificate of the future.
+
+No numerical executable was added because the exact spectrum lemma and
+primary-source construction audit decide the scoped result. The governance
+probe remains the executable regression. Passing it does not prove a
+universal stable-dilation no-go, select a physical implementation, record,
+archive, access boundary, ontology, or regulator, establish empirical excess,
+predict new physics, justify hardware, or promote a paper.

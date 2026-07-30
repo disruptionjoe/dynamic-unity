@@ -5909,6 +5909,38 @@ PROCESS-TENSOR ABSORPTION IDENTIFIED / STABLE COVARIANT PHYSICAL REALIZATION
 OPEN / NO ONTOLOGY PRIORITY, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
 `nonmarkovian-collapse-bohmian-system-control-naturality-and-process-completion-boundary-2026-07-30.md`.
 
+### 2026-07-30 stable/covariant realization boundary
+
+`HC-DU-145` finds an exact obstruction inside the literal
+Tilloy--Wiseman realization. Its signed-frequency bath Hamiltonian is second
+quantization of multiplication by \(\omega\) on the full bosonic Fock space.
+Any negative-frequency wavepacket has a negative one-particle expectation,
+and \(n\) bosons in that mode drive the energy to \(-\infty\). The nontrivial
+even coupling used by the exact mixed-frequency path map necessarily supplies
+the negative partner.
+
+A bounded-below repair therefore restricts the spectrum or changes the
+realization. The source identifies band limitation as necessary; a physical
+carrier/rotating-frame implementation additionally imports a cutoff,
+reference, pump, sector, or approximation contract. The exact path theorem
+must be reproved in that packet.
+
+Covariance does not force empirical excess. Tilloy's Lorentz-invariant
+statistical-field reformulation of regularized interacting QFT is designed
+to retain orthodox QFT statistics. It is a strong operational absorber, but
+not the same real-noise/Bohmian path map and not a rigorous stable
+nonperturbative realization or selected record interface. Band limitation
+also makes the source's histories analytic and arbitrarily finitely
+forecastable; it does not make them exactly reconstructible from one finite
+precision record.
+
+**Updated status:** **CONCEPT-OPEN / LITERAL PAIRED-FREQUENCY STABILITY
+OBSTRUCTION PROVED / BOUNDED-BAND REPAIR RETYPES OR RESTRICTS THE PHYSICAL
+PACKET / COVARIANT-QFT OPERATIONAL ABSORBER IDENTIFIED / ANALYTIC FORECASTING
+WITHOUT EXACT FINITE CERTIFICATION / NO STABLE PATHWISE SELECTOR, PHYSICAL
+REMAINDER, ONTOLOGY PRIORITY, EMPIRICAL EXCESS, OR NEW PHYSICS.** See
+`nonmarkovian-collapse-bohmian-stable-covariant-realization-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
