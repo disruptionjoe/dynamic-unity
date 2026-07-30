@@ -4400,3 +4400,40 @@ establishes only the finite complementarity and coherent-access witnesses.
 It does not prove causal nonseparability, select a switch, marker, sampler,
 archive, provenance chain, access boundary, observer, global actualization,
 new physics, paper, hardware, provider, or later scientific action.
+
+## HC-DU-174 regional reference-alignment gate
+
+`du_regional_reference_alignment_gate_probe.py` preserves the finite controls
+behind the collective-reference theorem:
+
+- direct density-matrix expectations match
+  \(\operatorname{Re}[\eta e^{i\sum_i\theta_i}]\);
+- proper-coalition GHZ indistinguishability is retained explicitly as an
+  already-banked regression control;
+- simultaneous state and measurement frame changes leave the response
+  invariant;
+- zero-sum local frame shifts lie in the collective-character kernel;
+- independent reference errors factor through local first Fourier moments;
+- one independently uniform regional twirl closes the parity discriminator;
+- locally uniform but anticorrelated frames preserve full relational access;
+- two fixed parity settings reconstruct the complex relational coherence;
+- local dephasing and reference quality multiply but remain separately typed;
+- an exact twin leaves both parity quadratures unchanged while reallocating
+  loss between source/dephasing and reference factors;
+- independent reference degradation scales smoothly rather than as a
+  consensus threshold; and
+- a wrong collective basis hides undephased coherence.
+
+Run:
+
+```bash
+python3 tests/du_regional_reference_alignment_gate_probe.py \
+  --write-artifact
+```
+
+The artifact is
+`artifacts/du_regional_reference_alignment_gate_result.json`. Passing
+establishes only the scoped reference/access formulas and controls. It does
+not select a reference, regional factorization, record, provenance join,
+observer, consensus rule, preferred frame, collapse law, new physics, paper,
+hardware, provider, or later scientific action.

@@ -1296,6 +1296,22 @@ causal definiteness, retained material archive, and global actualization as
 different rungs. Process-matrix resource theory, complementarity,
 purification, and quantum erasure absorb the mathematics.
 
+**Regional reference-alignment correction.** `HC-DU-174` makes explicit the
+reference premise hidden in “local measurements plus classical pooling.”
+The GHZ threshold and pooling result were already banked and are not new.
+For equatorial regional controls, the joined response is
+\(\operatorname{Re}[\eta e^{i\sum_i\theta_i}]\) and depends on local frames
+only through the collective \(U(1)\) character. Zero-sum local frame shifts
+are gauge for that response. One independently twirled region erases the
+operational discriminator, but locally uniform anticorrelated frames can
+retain it perfectly. Thus neither local frame-quality scalars nor one
+absolute global frame is the composition object; a physically usable
+relational reference certificate is. Independent dephasing and unresolved
+reference alignment multiply in the response but remain different types and
+are not attributed by the same parity quadratures. Quantum reference-frame,
+asymmetry, GHZ, twirling, and dephasing theory absorb the mathematics. Do not
+infer consensus, preferred foliation, record selection, or new dynamics.
+
 **Action-indexed frontier correction.** `HC-DU-160` shows that an
 action/access class is not one more antecedent coordinate: it indexes the
 operational equivalence relation the coordinates must select. For fixed

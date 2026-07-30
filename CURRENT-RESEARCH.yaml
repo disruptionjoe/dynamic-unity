@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 127
+state_revision: 128
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,9 +82,9 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-173 shows that an order marker can classicalize a restricted
-    quantum-switch process while preserving a coherent first leak in its
-    larger carrier. Finality remains action-relative; no selector or successor.
+    HC-DU-174 shows that regional coherent access needs a relational
+    reference certificate, not absolute local or global frames. No selector
+    or successor.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -114,8 +114,8 @@ programs:
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
       HC-DU-165--172 bank representation, custody, and bare-process
-      nonselection boundaries; HC-DU-173 adds an exact access-relative
-      causal-order first leak.
+      nonselection; HC-DU-173--174 add causal-order and relational-reference
+      access boundaries.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -167,6 +167,8 @@ programs:
         evidence_ref: explorations/stage-local-compositional-instrument-section-triviality-and-marked-cut-boundary-2026-07-30.md
       - id: HC-DU-173
         evidence_ref: explorations/quantum-switch-order-record-relocation-access-relative-causal-definiteness-and-first-leak-2026-07-30.md
+      - id: HC-DU-174
+        evidence_ref: explorations/regional-reference-alignment-collective-character-and-access-attribution-boundary-2026-07-30.md
     remaining_obligations:
       - Freeze the implementation target, fault class, and environment scope; require only the fields needed to make that target constant on the implementation fibre.
       - For this QEC packet, external custody must supply all-attempt dispositions, exact executable/configuration identity, target-sufficient actuation/route evidence, and archive lineage/access/reset.
@@ -196,7 +198,7 @@ programs:
       theory, and information-disturbance; combs/process tensors; AQFT
       measurement; system identification; acquisition provenance; feedback;
       Blackwell sufficiency, causal states, bisimulation, QND tomography,
-      causal-order dephasing, complementarity, purification, and quantum erasure.
+      causal-order dephasing, QRF/asymmetry, complementarity, and quantum erasure.
     cheapest_kill: >-
       Met for bare processes: downstream stage-local naturality plus purity
       of the identity forces every selected component to be a coin multiple
@@ -230,6 +232,7 @@ programs:
       - explorations/public-implementation-sidecar-availability-and-successor-interface-nonsubstitution-2026-07-30.md
       - explorations/stage-local-compositional-instrument-section-triviality-and-marked-cut-boundary-2026-07-30.md
       - explorations/quantum-switch-order-record-relocation-access-relative-causal-definiteness-and-first-leak-2026-07-30.md
+      - explorations/regional-reference-alignment-collective-character-and-access-attribution-boundary-2026-07-30.md
       - explorations/source-pinned-sequential-readout-coupling-response-rank-and-strong-pump-boundary-2026-07-30.md
       - explorations/sequential-readout-formed-trace-complete-packet-and-provenance-boundary-2026-07-30.md
       - explorations/action-relative-behavioral-quotient-observed-mean-and-material-realization-boundary-2026-07-30.md

@@ -6944,6 +6944,57 @@ purification, and quantum erasure absorb the mathematics; no physical marker,
 archive, observer boundary, global actualization, new physics, or ready
 successor is selected.
 
+### 2026-07-30 regional reference-alignment gate
+
+`HC-DU-174` stops an attempted duplicate before extracting the missing
+premise. `HC-DU-035A/C` had already proved proper-coalition GHZ phase
+indistinguishability and local-\(X\)-measurement parity pooling;
+`HC-DU-125` had already located global record glue in joined correlations.
+
+For regional equatorial angles \(\theta_i\), the surviving multipartite
+coherence response is
+
+\[
+\operatorname{Re}
+\left[
+\eta e^{i\sum_i\theta_i}
+\right].
+\]
+
+It is covariant under simultaneous state/reference relabeling and depends on
+the local frame tuple only through the collective character
+\(\chi(\boldsymbol\alpha)=e^{i\sum_i\alpha_i}\). The operative reference
+space is consequently
+
+\[
+U(1)^n/\ker\chi\cong U(1),
+\]
+
+not \(n\) absolute origins or a preferred global frame. With unobserved
+reference errors \(\delta_i\), access is multiplied by the joint Fourier
+coefficient
+
+\[
+\Gamma=\mathbb E[e^{i\sum_i\delta_i}].
+\]
+
+Only under independent errors does this equal the product of local first
+moments. One independently uniform frame makes \(\Gamma=0\), while
+uniform-but-anticorrelated local frames can have zero marginal moments and
+\(\Gamma=1\). Relational reference glue can therefore be absent from every
+local reference-quality score.
+
+Independent dephasing contributes the separate factor
+\(\prod_i\lambda_i\). Two fixed parity quadratures identify only
+\(\eta(\prod_i\lambda_i)\Gamma\), not source coherence, dephasing, and
+reference loss separately. A complete regional action packet must add a
+relational reference certificate and joined provenance to the carriers,
+local instruments, route, and action/fault contract. Standard GHZ, QRF,
+asymmetry, twirling, Fourier, and dephasing mathematics absorb the result;
+no reference, record, consensus rule, preferred frame, or new dynamics is
+selected. See
+`regional-reference-alignment-collective-character-and-access-attribution-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

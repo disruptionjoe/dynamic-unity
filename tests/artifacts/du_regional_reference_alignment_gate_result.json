@@ -1,0 +1,95 @@
+{
+  "probe": "du_regional_reference_alignment_gate_probe",
+  "claim_id": "HC-DU-174",
+  "status": "PASS",
+  "checks_passed": 12,
+  "checks_total": 12,
+  "checks": [
+    {
+      "name": "reference_covariant_product_response_formula",
+      "passed": true,
+      "max_error": 1.6653345369377348e-16
+    },
+    {
+      "name": "proper_coalition_threshold_regression_only",
+      "passed": true,
+      "max_error": 0.0
+    },
+    {
+      "name": "state_and_measurement_frame_change_is_covariant",
+      "passed": true,
+      "baseline": 0.7188955487855335,
+      "transformed": 0.7188955487855336
+    },
+    {
+      "name": "zero_sum_local_frame_shift_is_in_collective_kernel",
+      "passed": true,
+      "kernel_sum": -2.7755575615628914e-17
+    },
+    {
+      "name": "independent_reference_quality_factorizes",
+      "passed": true,
+      "enumerated": 0.12180348921006459,
+      "predicted": 0.1218034892100647
+    },
+    {
+      "name": "one_independent_uniform_reference_twirl_closes_first_leak",
+      "passed": true,
+      "twirled_response": -2.7755575615628914e-17
+    },
+    {
+      "name": "relational_alignment_survives_locally_uniform_frames",
+      "passed": true,
+      "local_moment_1_abs": 4.329780281177466e-17,
+      "local_moment_2_abs": 4.329780281177466e-17,
+      "collective_response": 0.7
+    },
+    {
+      "name": "fixed_two_setting_relational_phase_reconstruction",
+      "passed": true,
+      "reconstructed_real": 0.7,
+      "reconstructed_imag": -0.25000000000000006
+    },
+    {
+      "name": "dephasing_and_reference_quality_multiply_but_remain_typed",
+      "passed": true,
+      "enumerated": 0.036541046763019405,
+      "predicted": 0.03654104676301942
+    },
+    {
+      "name": "parity_quadratures_do_not_attribute_dephasing_vs_reference_loss",
+      "passed": true,
+      "x_quadrature": 0.8,
+      "y_quadrature": -0.19999999999999996
+    },
+    {
+      "name": "independent_reference_scaling_is_smooth_not_threshold",
+      "passed": true,
+      "qualities_n_2_through_8": [
+        0.81,
+        0.7290000000000001,
+        0.6561,
+        0.5904900000000001,
+        0.531441,
+        0.4782969000000001,
+        0.4304672100000001
+      ]
+    },
+    {
+      "name": "wrong_collective_basis_can_hide_undephased_coherence",
+      "passed": true,
+      "aligned_response": 0.8,
+      "misaligned_response": 4.898587196589413e-17
+    }
+  ],
+  "theorem_surface": {
+    "parity_response": "Re[eta exp(i sum_i theta_i)]",
+    "frame_covariance": "eta -> eta exp(-i sum_i alpha_i), theta_i -> theta_i + alpha_i",
+    "reference_error_factor": "E[exp(i sum_i delta_i)]; product of first Fourier moments only under independent errors",
+    "independent_dephasing_factor": "product_i lambda_i",
+    "relevant_reference_group": "U(1)^n / ker(sum) ~= U(1), not n absolute phase origins"
+  },
+  "duplicate_guard": "Proper-coalition GHZ indistinguishability and local-X parity pooling were already banked in HC-DU-035A/C and HC-DU-125. They are regression controls only.",
+  "interpretation": "Regional quantum access composes only relative to a relational reference certificate. Independent local reference quality is insufficient: locally uniform but correlated frames can retain full joined access, while one independently twirled frame can erase it operationally.",
+  "scope_limit": "Known GHZ, quantum-reference-frame, asymmetry, twirling, and dephasing mathematics. No reference, record, regionalization, consensus rule, actualization, or new physics is selected."
+}
