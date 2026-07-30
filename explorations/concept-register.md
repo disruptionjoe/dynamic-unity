@@ -5746,6 +5746,36 @@ select a record, archive, observer boundary, or mediator ontology. No current
 constructor test supplies frozen DU empirical excess. See
 `constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md`.
 
+### 2026-07-30 total-mediator versus named-component attribution
+
+`HC-DU-146` sharpens the mediator import without withdrawing its conditional
+core. Under the Marletto--Vedral theorem packet, entanglement excludes the
+declared all-classical **total mediator**. It does not identify which named
+component carries the required nonclassical structure unless exclusive
+mediation and factorization are independently established.
+
+The exact control uses probes \(A,B\) and candidate mediators \(G,Q\). One
+locally mediated CNOT path runs through \(G\), the other through \(Q\). Both
+produce the same Bell pair and reset both mediators to the same blank state.
+Thus even the complete four-system endpoint is identical while the active
+component differs. A component-tagged interaction receipt or isolating
+intervention repairs the finite target; endpoint entanglement alone does not.
+
+The physical gravity literature is live and contested. Models classified as
+classical can generate entanglement under some dynamics; non-locally
+tomographic models can do so without observable spacetime superpositions; and
+the 2025 full-QFT classical-gravity calculation has multiple 2025--2026
+rebuttals. No completed gravitational-entanglement acquisition packet was
+found through 2026-07-30. The exact attribution theorem survives either
+resolution of those disputes.
+
+**Updated status:** **CONCEPT-OPEN / CONDITIONAL TOTAL-MEDIATOR REMAINDER
+PRESERVED / NAMED-COMPONENT ATTRIBUTION NONIDENTIFIABLE FROM THE COMPLETE
+ENDPOINT / PROVENANCE OR ISOLATING INTERVENTION REQUIRED / PHYSICAL GRAVITY
+CALCULATION CONTESTED / NO OBSERVED PACKET, EMPIRICAL EXCESS, NEW PHYSICS, OR
+READY SUCCESSOR.** See
+`local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md`.
+
 ## CONCEPT-DU-018 — typed probability boundary ladder
 
 - **Concept.** Probability may be the natural dynamical boundary coordinate

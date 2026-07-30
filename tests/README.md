@@ -3501,6 +3501,34 @@ a global repertoire or finite observer envelope, observe mediator
 nonclassicality, form or certify a record, produce constructor-specific
 empirical excess, authorize hardware, or promote a paper.
 
+## HC-DU-146 mediator-component attribution boundary
+
+`du_mediator_component_attribution_probe.py` preserves the exact finite
+counterexample used to distinguish total-mediator nonclassicality from
+named-component attribution:
+
+- probes \(A,B\) and candidate mediator components \(G,Q\);
+- no direct \(A\)--\(B\) gate;
+- one coherent CNOT path through \(G\) and one through \(Q\);
+- unit Bell fidelity at the active midpoint;
+- the same final Bell pair at \(A,B\);
+- both mediator components reset to the same blank endpoint;
+- equality of the complete four-system endpoint; and
+- a component-tagged interaction receipt that distinguishes the paths.
+
+Run:
+
+```bash
+python3 tests/du_mediator_component_attribution_probe.py --write-artifact
+```
+
+Passing proves only the finite factorization obstruction and its provenance
+positive control. It does not model gravity or QFT, validate or refute
+constructor theory, adjudicate the Aziz--Howl calculation or its rebuttals,
+establish an observed BMV result, prove exclusive mediation in nature, select
+a record ontology, produce empirical excess, authorize hardware, or promote
+a paper.
+
 ## HC-DU-140 quantum probability-port / completion-odds / capacity boundary
 
 `HC-DU-140` is a primary-source and exact information-theoretic collision. It

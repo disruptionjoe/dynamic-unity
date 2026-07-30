@@ -1,0 +1,112 @@
+{
+  "arena": {
+    "allowed_gates": "probe--mediator CNOT only",
+    "initial_mediator_state": "|0>_G |0>_Q",
+    "initial_probe_state": "|+>_A |0>_B",
+    "qubit_order": [
+      "A",
+      "B",
+      "G",
+      "Q"
+    ]
+  },
+  "assertions": {
+    "active_component_carries_coherent_midpoint": true,
+    "both_mediators_reset": true,
+    "both_paths_are_locally_mediated": true,
+    "component_receipt_distinguishes": true,
+    "same_complete_endpoint": true,
+    "same_probe_bell_output": true
+  },
+  "claim_id": "HC-DU-146",
+  "endpoint_fidelity": 0.9999999999999996,
+  "gravity_active_completion": {
+    "final": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "0000"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "1100"
+      }
+    ],
+    "midpoint": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "0000"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "1010"
+      }
+    ],
+    "receipt": [
+      [
+        "CNOT",
+        "A",
+        "G"
+      ],
+      [
+        "CNOT",
+        "G",
+        "B"
+      ],
+      [
+        "CNOT",
+        "A",
+        "G"
+      ]
+    ]
+  },
+  "kernel_statement": "The endpoint map identifies the two completions while the named active-component target separates them; therefore the target does not factor through the endpoint record.",
+  "matter_active_completion": {
+    "final": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "0000"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "1100"
+      }
+    ],
+    "midpoint": [
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "0000"
+      },
+      {
+        "amplitude_imag": 0.0,
+        "amplitude_real": 0.707106781186547,
+        "bits_ABGQ": "1001"
+      }
+    ],
+    "receipt": [
+      [
+        "CNOT",
+        "A",
+        "Q"
+      ],
+      [
+        "CNOT",
+        "Q",
+        "B"
+      ],
+      [
+        "CNOT",
+        "A",
+        "Q"
+      ]
+    ]
+  },
+  "minimum_repair": "A physically formed, retained, and accessible component-tagged interaction receipt, or an intervention that isolates the component-specific path.",
+  "scope_guard": "The finite circuit is an attribution counterexample, not a gravity model, BMV result, constructor-theory proof, or empirical prediction."
+}

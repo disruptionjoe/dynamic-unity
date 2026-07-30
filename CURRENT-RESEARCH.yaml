@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 97
+state_revision: 98
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,12 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-145 proves that the literal nontrivial paired-frequency
-    Tilloy--Wiseman Fock bath is unbounded below. Stable repairs restrict or
-    retype the physical packet, while Lorentz-invariant statistical-QFT
-    rewritings absorb the inference that covariance must create empirical
-    excess. No finite physical remainder or complete selected record packet
-    was found, and no successor is ready.
+    HC-DU-146 preserves conditional total-mediator class exclusion but proves
+    that complete endpoints do not identify the active named component.
+    Gravity-entanglement calculations remain disputed, no observed
+    exclusive-mediation packet was found, and no successor is ready.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -373,11 +371,10 @@ programs:
       controller-relative action-envelope compiler, then colliding the open
       counterfactual premise with constructor theory.
     current_grade: >-
-      HC-DU-137--139 bank scoped Grade-4 source-only interface nonselection,
-      complete-process response-quotient selection, controller-relative
-      action-envelope selection, counterfactual-preparation nonselection,
-      constructor-repertoire/action-envelope nonidentity, typed adapter
-      necessity, and a scoped mediator nonclassicality import.
+      HC-DU-137--139/146 bank Grade-4 interface/action-envelope boundaries,
+      constructor adapter necessity, conditional total-mediator class
+      exclusion, and complete-endpoint nonidentifiability of the active named
+      mediator.
     evidence_grade: 4
     maximum_grade: >-
       Grade 4 for selection/nonselection; Grade 5 for a lawful remainder or prediction.
@@ -395,6 +392,8 @@ programs:
         evidence_ref: explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
       - id: HC-DU-139
         evidence_ref: explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
+      - id: HC-DU-146
+        evidence_ref: explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
     remaining_obligations:
       - Await a completed physical task-repertoire selector plus a
         subsidiary-theory observer/controller/access/resource adapter, a
@@ -411,12 +410,12 @@ programs:
       Behavioral equivalence, antecedent factorization, sufficient statistics,
       system identification, quantum controllability, programmable-processor
       no-programming, constructor-theoretic possible/impossible tasks and
-      mediator witnesses, and prior DU formation/QFT/infrared audits.
+      total-mediator witnesses, mediator-component attribution and
+      realization freedom, and prior DU formation/QFT/infrared audits.
     cheapest_kill: >-
-      Met at two cuts. One source response admits vector-current and
-      scalar-action apparatuses; one fixed controlled-H processor and actual
-      program-zero history admit different counterfactual program supports
-      and response quotients.
+      Met: source-equivalent apparatuses, actual-history-equivalent controller
+      envelopes, and complete-endpoint-equivalent circuits disagree on their
+      respective interface, action, and active-component targets.
     stop_rule: >-
       Stop designed finite apparatus/controller variants and constructor-theory
       relabels. Do not replay the completed autonomous, mediator, local-QFT,
@@ -424,7 +423,8 @@ programs:
     reopen_rule: >-
       Require a completed theory that independently selects the task
       repertoire and observer/controller/preparation/resource/access adapter,
-      a stronger scoped mediator no-go tied to an observed acquisition packet,
+      a stronger scoped mediator no-go tied to an observed acquisition packet
+      that proves exclusive mediation or carries component provenance,
       or a frozen constructor-specific empirical excess prediction.
     local_computation_boundary: >-
       Existing exact response/controller probes plus the primary-source and
@@ -436,6 +436,7 @@ programs:
       - explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
       - explorations/physical-action-envelope-compiler-counterfactual-preparation-and-record-refinement-boundary-2026-07-29.md
       - explorations/constructor-task-repertoire-finite-observer-action-envelope-and-empirical-reopener-boundary-2026-07-29.md
+      - explorations/local-mediator-nonclassicality-component-attribution-and-gravity-witness-boundary-2026-07-30.md
       - explorations/physical-record-interface-selection-contract-and-nine-swing-campaign-2026-07-29.md
       - explorations/source-action-native-response-record-intervention-minimality-unbounded-mediator-fibre-and-operational-duality-2026-07-29.md
 
@@ -727,17 +728,15 @@ successor_selection:
   selected_successor_id: null
   candidate_classes:
     - physically-selected-task-repertoire-and-observer-adapter
-    - observed-local-mediator-nonclassicality-remainder
+    - observed-exclusive-mediation-component-attribution-remainder
     - stronger-scoped-physical-interface-nonselection-theorem
     - frozen-interface-excess-prediction
     - physically-selected-probability-port-instrument-to-capacity-law
   decision_rule: >-
-    HC-DU-139--141 leave global tasks, flow, odds, finite-time capacity,
-    thermal reversion, and actual records distinct. Select no successor until
-    one candidate physically selects the task or port repertoire, reversible
-    thermodynamic typing, instrument, observer adapter, transcript, and
-    resource contract; ties a mediator remainder to a complete observed
-    packet; or freezes empirical excess.
+    Keep tasks, ports, odds, capacity, records, total-mediator exclusion, and
+    component attribution distinct. Select only a complete physical packet,
+    an observed exclusive-mediation/provenance packet, or frozen empirical
+    excess.
 
 anomaly_intake:
   status: open_non_wip
