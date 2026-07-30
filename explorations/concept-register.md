@@ -5777,6 +5777,43 @@ constructor test supplies frozen DU empirical excess. See
   See
   `quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md`.
 
+### 2026-07-29 finite-time hybrid positive control
+
+`HC-DU-141` proves that the ladder can carry an exact calculation once one
+binary apparatus packet is frozen. Measurement-eigenstate inputs and a
+uniform blank pointer in the Krhač--Schuller--Stramigioli hybrid law produce
+the binary symmetric channel
+
+\[
+q(t)=\frac12e^{-\gamma t},
+\qquad
+C(t)=1-h_2(q(t)),
+\qquad
+O_{\rm read}(t)=2e^{\gamma t}-1.
+\]
+
+Thus \(C=1-h_2(1/(1+O_{\rm read}))\) is exact **within that supplied packet**.
+It is not a Norton thermodynamic law. The hybrid generator has a zero reverse
+rate, so finite readout failure is incomplete relaxation rather than
+fluctuation-induced reversion.
+
+The smallest reversible two-rate repair separates thermodynamic bias
+\(O_{\rm th}=\alpha/\beta\) from kinetic depth
+\((\alpha+\beta)t\). Under an independently supplied local-detailed-balance
+map, \(\Delta S=k_{\rm B}\log O_{\rm th}\); finite-time capacity still depends
+on both coordinates. Standard stochastic thermodynamics provides a genuine
+current--log-affinity product for entropy-production rate, but no current
+source derives an adapter from Krhač's quantum probability port to that
+thermodynamic Markov pair. The source paper also treats the ex-ante pointer
+distribution rather than one actual ex-post retained record.
+
+**Updated status:** **CONCEPT-OPEN / EXACT PACKET-RELATIVE
+FLOW--OUTCOME--CAPACITY CALCULATION / RELIABILITY BIAS AND KINETIC DEPTH
+SEPARATED / STOCHASTIC-THERMODYNAMIC PORT HOST IDENTIFIED / NO QUANTUM-TO-
+THERMODYNAMIC ADAPTER, ACTUAL RECORD, UNIVERSAL COST LAW, OR EMPIRICAL
+EXCESS.** See
+`hybrid-quantum-measurement-finite-time-capacity-and-thermodynamic-nonimplication-2026-07-29.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

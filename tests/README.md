@@ -3529,3 +3529,33 @@ decomposition, measurement, actual outcome, record write, archive, observer
 access, success task, thermodynamic implementation, physical capacity,
 finality-cost law, empirical excess, prediction, new physics, hardware need,
 or paper promotion.
+
+## HC-DU-141 hybrid-measurement finite-time capacity positive control
+
+`HC-DU-141` freezes the smallest binary packet in the exactly solvable
+Krhač--Schuller--Stramigioli hybrid measurement law and proves that:
+
+- measurement-eigenstate inputs and a uniform blank pointer induce the binary
+  symmetric channel \(q(t)=e^{-\gamma t}/2\);
+- its exact capacity is \(C(t)=1-h_2(q(t))\), and the uniform source saturates
+  the binary Fano relation;
+- the packet-relative readout odds satisfy
+  \(O_{\rm read}=2e^{\gamma t}-1\) and
+  \(C=1-h_2(1/(1+O_{\rm read}))\);
+- the hybrid generator is one-way, so its finite error is incomplete
+  relaxation rather than a fluctuation-induced reversion probability;
+- the smallest reversible two-rate repair makes finite-time capacity depend
+  independently on thermodynamic bias \(\alpha/\beta\) and kinetic depth
+  \((\alpha+\beta)t\);
+- Norton's \(\Delta S=k_{\rm B}\log O\) enters only after a thermodynamic or
+  local-detailed-balance realization is supplied; and
+- stochastic thermodynamics has a current--log-affinity entropy-production
+  pairing, but the quantum-to-thermodynamic adapter and actual ex-post record
+  remain unselected.
+
+No numerical executable was added because the exact solution and channel
+algebra decide the result. The governance probe remains the executable
+regression. Passing it does not select the measurement, pointer, rate, read
+time, bath, reversible dynamics, actual outcome, archive, provenance,
+observer access, thermodynamic cost, universal port law, empirical excess,
+prediction, new physics, hardware need, or paper promotion.
