@@ -6278,6 +6278,46 @@ COVARIANT-INSTRUMENT, AND SSB ABSORPTION / NO FORMED RECORD, EMPIRICAL EXCESS,
 OR NEW PHYSICS.** See
 `equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md`.
 
+### 2026-07-30 reversible-pointer CSL path and retained-record boundary
+
+`HC-DU-157` imports one source-pinned objective-collapse discriminator while
+separating its record types. In Renkel's proposed harmonic pointer protocol,
+
+\[
+D(t)=\frac{F}{m\omega^2}(1-\cos\omega t),
+\qquad
+\tau=\frac{2\pi}{\omega},
+\]
+
+so the force-on and force-off arms have the same returned pointer endpoint,
+but the pointlike small-separation CSL path exponent differs:
+
+\[
+\Lambda_{\rm CSL}
+=
+\lambda\frac{3\pi F^2}
+{4m_0^2r_c^2\omega^5}.
+\]
+
+An irreversible response therefore need not be a retained pointer record.
+The reverse attribution also fails: one measured visibility has
+
+\[
+-\log(V/V_0)=\Lambda_{\rm CSL}+\Lambda_{\rm loss}
+\]
+
+and identifies only total loss. Across configurations
+\(y=\lambda K(r_c)+B\theta\), CSL amplitude is identifiable against a frozen
+ordinary-loss family exactly when \(K(r_c)\notin\operatorname{col}(B)\).
+
+**Updated status:** **CONCEPT-OPEN / ENDPOINT-PATH NONFACTORIZATION AND
+RETAINED-RECORD IMPLICATION FAILURE BANKED / NO-REFIT ATTRIBUTION RANK
+BANKED / CONDITIONAL CSL THEORY-CLASS DISCRIMINATOR PRESERVED / STANDARD
+COLLAPSE, DECOHERENCE, AND IDENTIFIABILITY ABSORPTION / APPARATUS, PARAMETERS,
+CALIBRATION, ACCESS, AND NUISANCE CLASS SUPPLIED / NO OBSERVED RESULT, DU LAW,
+SELECTED INTERFACE, OR READY SUCCESSOR.** See
+`reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

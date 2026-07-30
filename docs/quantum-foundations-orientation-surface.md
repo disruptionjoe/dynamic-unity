@@ -285,6 +285,30 @@ bibliography.
 | Semiclassical gravity | Couples quantum matter descriptions to a classical metric in a controlled approximation | Backreaction, state reduction, fluctuations, and regime of validity remain difficult | Determine whether physically formed public records contribute anything beyond stress-energy and known fluctuations |
 | Full quantum-gravity programs | Offer several non-equivalent routes to quantum spacetime | Their primitives, observables, recovery maps, and low-energy limits differ; there is no single “quantum gravity tension” | Use certified causal reality as a comparison language only if one invariant statement transfers without redefining records or geometry |
 
+### Reversible-pointer collapse correction
+
+`HC-DU-157` adds a source-pinned control to the objective-collapse row.
+Renkel's proposed CSL test temporarily separates two nanoparticle-pointer
+paths and then recombines their position and momentum. The returned pointer
+endpoint is identical in the force-on and force-off cases, while conditional
+CSL visibility loss depends on the full separation path. Thus:
+
+```text
+irreversible path-dependent response
+  != retained pointer record
+  != collapse-provenance certificate.
+```
+
+The measured visibility has the form
+\(V=V_0e^{-\Lambda_{\rm CSL}}e^{-\Lambda_{\rm loss}}\). One datum therefore
+identifies total loss only. Across frozen configurations
+\(y=\lambda K(r_c)+B\theta\), CSL amplitude escapes the ordinary-loss model
+only if \(K(r_c)\notin\operatorname{col}(B)\). This preserves a genuine
+conditional modified-dynamics discriminator while blocking any inference
+from visibility loss to record formation, theory attribution, or evidence
+for CSL. The apparatus and access interface remain supplied
+([result](../explorations/reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md)).
+
 ### QFT tensions are not one problem
 
 `HC-DU-040B` and the subsequent physical-arena tournament sharpen the QFT

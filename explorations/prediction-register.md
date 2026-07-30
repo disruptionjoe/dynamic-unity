@@ -3,7 +3,7 @@ title: "Dynamic Unity prediction register — Lane 4.2 pre-seed holding state"
 status: active_research
 doc_type: register
 created: 2026-07-21
-revised: 2026-07-26
+revised: 2026-07-30
 note: "Tracks scientific prediction hardening independently from cheap Drafting Factory paper-opportunity intake. Registration, Factory seeding, scientific hardening, drafting, and publication are distinct."
 ---
 
@@ -243,6 +243,58 @@ does not register, harden, duplicate, seed, or promote either prediction.
   Registration does not activate, submit, or publish a paper.
 - **Source pointer.**
   `locked-qnd-memory-hardware-prediction-2026-07-26.md`.
+
+### PRED-DU-005 — reversible-pointer CSL path-loss surface
+
+- **State: IMPORTED CONDITIONAL DISCRIMINATOR / UNEXECUTED / NOT
+  DU-ORIGINAL / NOT HARDWARE-AUTHORIZED.**
+- **Source and status.** Renkel's July 2026 v4
+  [preprint](https://arxiv.org/abs/2606.22707) proposes the experiment and
+  derives the CSL response; it reports no experimental result. Dynamic Unity
+  registers the typed discriminator and attribution gate, not ownership of
+  the protocol or prediction.
+- **Conditional claim.** For fixed CSL parameters \((\lambda,r_c)\), a frozen
+  reversible-pointer path has endpoint Ramsey visibility
+  \[
+  V_i=V_{0,i}\exp[-\lambda K_i(r_c)]\exp[-\Lambda_{{\rm loss},i}],
+  \]
+  even though the branch-conditioned pointer position and momentum
+  recombine. In the pointlike small-separation harmonic limit,
+  \[
+  \lambda K
+  =
+  \lambda\frac{3\pi F^2}
+  {4m_0^2r_c^2\omega^5}.
+  \]
+- **What is distinctive.** This is a real modified-dynamics delta from the
+  matched ideal unitary protocol, but it belongs to CSL. It is not evidence
+  that records create reality, and the visibility is not a retained
+  run-level pointer or collapse-provenance record.
+- **Attribution gate.** Across configurations,
+  \(y=\lambda K(r_c)+B\theta\). At fixed \(r_c\), CSL amplitude is locally
+  identifiable against a preregistered ordinary-loss family exactly when
+  \(K(r_c)\notin\operatorname{col}(B)\). One visibility datum with an
+  admitted unknown ordinary-loss scalar cannot satisfy this gate.
+- **Conditional falsifier.** A frozen nonzero parameter point is excluded
+  when the no-refit multi-configuration visibility surface is incompatible
+  with \(K(r_c)\) after the preregistered nuisance family, calibration,
+  uncertainty, selection, and attempt-lineage checks pass. A null constrains
+  parameter space; it does not eliminate CSL with free \((\lambda,r_c)\).
+- **Hardening checklist.**
+  1. independently audit the proposal's full apparatus and sensitivity model;
+  2. freeze multiple \(F,\omega,\sigma(t)\), mass/geometry, and source-off
+     controls before data;
+  3. preregister the ordinary-loss design \(B\) and verify the attribution
+     rank;
+  4. preserve calibration, selection, and attempted-run lineage;
+  5. freeze parameter points, uncertainty, and stop rules; and
+  6. distinguish direct-interferometric value from stronger existing
+     non-interferometric CSL bounds.
+- **Hardware posture.** The analytic type and rank audit is complete locally.
+  No external apparatus search or run is authorized. Reopen hardware only
+  for a credible implementation packet that clears the checklist.
+- **Source pointer.**
+  `reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md`.
 
 ---
 

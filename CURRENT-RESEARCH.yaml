@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 109
+state_revision: 110
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,10 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-156 corrects point nonselection: compact symmetry can select a
-    lottery without a winner, but noncompact H3 has no normalized invariant
-    lottery. A kernel still selects no sampler, realized interface, or
-    archive; same-channel labelled instruments differ. No reopen rule is met.
+    HC-DU-157 separates path-integrated irreversible response from a returned
+    pointer and retained archive. One visibility identifies total loss unless
+    the CSL kernel escapes a frozen nuisance span. The proposal supplies its
+    apparatus and access, so no reopener is met.
 
 programs:
   - id: CCR-PREDICTIVE-SELECTION-TO-FORECASTING-ISSUANCE
@@ -431,14 +431,13 @@ programs:
     target: >-
       Quantify capacity and resolution after a formed interface exists.
     current_grade: >-
-      HC-DU-136, HC-DU-140--145, and HC-DU-153--155 bank Grade-4
+      HC-DU-136, HC-DU-140--145, and HC-DU-153--157 bank Grade-4
       resource/capacity typing,
       formation--actuality--archive separation, trajectory nonselection, and
       active collapse/Bohmian record duality, fixed-class stability
       obstruction, covariant-QFT absorption, and physical-reference handoff
       and rate-attribution boundaries, plus exact outcome/reference and
-      full-loop/reduced-loop separations, and conditional Grade-3 binary
-      reconstruction. Selected physical implementation/capacity remains open.
+      loop/path/retention separations. Selected implementation remains open.
     evidence_grade: 4
     maximum_grade: "Scoped Grade 4 supporting result."
     maximum_evidence_grade: 4
@@ -465,6 +464,8 @@ programs:
         evidence_ref: explorations/qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md
       - id: HC-DU-155
         evidence_ref: explorations/qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md
+      - id: HC-DU-157
+        evidence_ref: explorations/reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md
     remaining_obligations:
       - Derive a complete physical record and its model-selected capacity.
     typed_dependencies:
@@ -507,6 +508,7 @@ programs:
       - explorations/reduced-qrf-access-handoff-and-decoherence-attribution-boundary-2026-07-30.md
       - explorations/qrf-outcome-broadcast-reference-coherence-and-layered-finality-boundary-2026-07-30.md
       - explorations/qrf-reduced-loop-defect-conditional-expectation-path-order-and-perspectival-curvature-gate-2026-07-30.md
+      - explorations/reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication
@@ -723,12 +725,12 @@ successor_selection:
     - formed-provenance-intervention-packet
     - source-selected-qrf-formed-record-handoff-packet
     - source-selected-stochastic-interface-instrument
+    - reversible-pointer-collapse-discriminator
     - no-ready-successor
   decision_rule: >-
-    HC-DU-152 supplies no physical apparatus class; HC-DU-153--155 leave QRF
-    interfaces or lineage supplied. HC-DU-156 opens compact stochastic-only
-    selectors, closes the Lorentz H3 lottery, and leaves sampler/archive
-    formation open. No parked-program reopener is met.
+    HC-DU-152--156 leave apparatus, interface, sampler, archive, or lineage
+    supplied. HC-DU-157 adds a conditional path-loss discriminator but also
+    supplies its apparatus and nuisance contract. No parked reopener is met.
 
 anomaly_intake:
   status: open_non_wip
