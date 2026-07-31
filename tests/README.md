@@ -4621,3 +4621,34 @@ only finite factorization, cross-interface ambiguity, support separation,
 gauge-descent, and data-processing boundaries. It does not construct a GU
 flag or source action, select a detector/archive/observer, prove a physical
 GU--DU round trip, establish new physics, or authorize a later campaign wave.
+
+## HC-DU-182 time-resolved TPC acquired-packet boundary
+
+`du_time_resolved_tpc_record_packet_probe.py` preserves the exact finite
+controls behind the source-pinned negative-ion TPC audit:
+
+- one carrier records event-time-plus-depth and separately identifies
+  neither target;
+- two distinct calibrated carrier velocities give a nonzero determinant and
+  exact conditional reconstruction of event time and depth;
+- duplicate carrier speed does not repair the rank deficiency;
+- one raw hit packet admits different event-membership partitions;
+- a physically retained event tag repairs the finite partition fixture;
+- deterministic clustering of the common packet does not create occurrence
+  provenance;
+- a lossless archive cannot repair an absent minority peak; and
+- a joined acquisition packet need not factor source identity.
+
+Run:
+
+```bash
+python3 tests/du_time_resolved_tpc_record_packet_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_time_resolved_tpc_record_packet_result.json`. Passing
+establishes only finite rank and factorization boundaries. It does not model
+TPC physics, select a trigger/event builder/archive, prove universal
+minority-carrier detection, establish head-tail sense or source identity,
+combine duties from different detector platforms, reveal new physics, or
+authorize a later campaign wave.

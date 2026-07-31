@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "name": "one_carrier_arrival_does_not_factor_event_time",
+      "passed": true
+    },
+    {
+      "name": "one_carrier_arrival_does_not_factor_depth",
+      "passed": true
+    },
+    {
+      "determinant": {
+        "denominator": 6,
+        "numerator": -1
+      },
+      "name": "distinct_carrier_velocities_have_full_clock_depth_rank",
+      "passed": true
+    },
+    {
+      "name": "two_carrier_packet_exactly_reconstructs_time_and_depth",
+      "passed": true
+    },
+    {
+      "name": "duplicate_carrier_speed_does_not_repair_rank",
+      "passed": true
+    },
+    {
+      "name": "raw_hit_packet_does_not_factor_event_membership",
+      "passed": true
+    },
+    {
+      "name": "physically_retained_event_tag_repairs_partition_fixture",
+      "passed": true
+    },
+    {
+      "name": "algorithmic_clustering_does_not_create_event_provenance",
+      "passed": true
+    },
+    {
+      "name": "lossless_archive_cannot_repair_missing_minority_peak",
+      "passed": true
+    },
+    {
+      "name": "joined_acquisition_packet_need_not_factor_source_identity",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-182",
+  "earned_boundary": "One carrier records event-time-plus-depth only. Two distinct calibrated carrier velocities give a full-rank exact repair. Raw acquired hits still do not select event membership or source identity, and lossless storage cannot add an absent carrier or provenance tag.",
+  "non_claims": [
+    "No TPC dynamics or detector efficiency is simulated.",
+    "No trigger, event builder, archive, or observer is selected.",
+    "No head-tail sense or source identity is certified.",
+    "No new physics or ready successor is established."
+  ],
+  "passed_checks": 10,
+  "status": "PASS",
+  "total_checks": 10
+}

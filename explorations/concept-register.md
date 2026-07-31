@@ -7281,6 +7281,52 @@ processing. No successor, physical bridge, ontology, or paper is promoted.
 See
 `selected-interface-round-trip-factorization-and-gu-conditional-bridge-boundary-2026-07-30.md`.
 
+### 2026-07-30 time-resolved TPC acquired-packet boundary
+
+`HC-DU-182` locates a real joined detector packet without combining
+incompatible platforms. A negative-ion micro-TPC physically joins
+self-triggered acquisition, transverse coordinates, charge/energy,
+waveforms, and conditional absolute drift-depth reconstruction.
+
+The exact rank boundary is:
+
+\[
+t_i=t_0+\frac{z}{v_i}.
+\]
+
+One carrier leaves a one-dimensional clock-depth fibre. Two correctly
+associated carrier species with distinct calibrated velocities give a
+full-rank system:
+
+\[
+\det
+\begin{pmatrix}
+1&1/v_1\\
+1&1/v_2
+\end{pmatrix}
+=\frac1{v_2}-\frac1{v_1}\ne0.
+\]
+
+The repair is conditional on common event membership, carrier identity,
+calibrated velocities, and one declared readout clock. The source directly
+earns absolute depth; observer-independent event time does not follow.
+
+Raw acquired hits can still admit multiple occurrence partitions. A retained
+hardware event tag refines the record; a justified single-event regime
+narrows the completion class. Deterministic clustering estimates a partition
+but does not create missing provenance. The reported minority-peak efficiency
+also prevents treating the two-carrier packet as universal over every event.
+
+**Updated seed status:** a real apparatus now joins formation, electronic
+acquisition, three-dimensional localization, and an absolute-depth repair.
+Per-event head-tail sense, source identity, selected archive/access, and the
+unabsorbed higher-response discriminator remain missing. Timepix3's rich hit
+packets and MIMAC's polarity response are adjacent evidence, not components
+of the source-pinned negative-ion architecture. Standard TPC, negative-ion
+transport, observability, DAQ, event-building, and inverse-problem theory
+absorb the result. No successor or paper is promoted. See
+`time-resolved-tpc-acquired-packet-clock-depth-rank-and-event-building-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
