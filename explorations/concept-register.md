@@ -7516,6 +7516,42 @@ conditional local ceiling. No CSL evidence, device forecast, paper, new DU
 law, successor, or Wave-3 activation is earned. See
 `reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md`.
 
+### 2026-07-31 quantum-gravity phase-family boundary
+
+`HC-DU-189` splits the Chen--Giacomini umbrella into two prediction objects.
+The wide-source phase genuinely depends on two source energy-density profiles,
+but remains a source-dependent response schema until one physical
+control-to-profile-to-outcome map is frozen. The displayed nested-commutator
+phases instead contain only the probe stress. They survive source deletion,
+cancel from a pure source-branch difference at fixed probe, and can still
+separate probe-stress branches.
+
+For the normalized Gaussian fixture
+
+\[
+T_P^{ij}(k)=p^ip^j e^{-\sigma^2|k|^2/2},
+\]
+
+the isotropic transverse-traceless fraction is (4/15), and the combined
+displayed phase is
+
+\[
+\Theta_1+\Theta_2
+=
+\frac{61\kappa t^3p^4}{2880\pi^{3/2}\sigma^3}.
+\]
+
+The point-probe limit therefore diverges, while probe self-gravity is the
+same formal order (O(\kappa T_P^2)) as the retained commutator terms.
+
+**Updated seed status:** the wide-source branch retains the umbrella's high
+conditional ceiling but needs a physical preparation and relational-readout
+map. The commutator branch is downgraded as a source--probe mediator lock and
+retained only as a narrower finite-profile, conserved, renormalized
+quantized-field/probe self-response candidate. No hardware, magnitude, paper,
+new law, successor, or Wave-3 activation is earned. See
+`quantum-gravity-phase-family-source-deletion-uv-and-preparation-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -1,0 +1,80 @@
+{
+  "analytic_fixture": {
+    "i1": "p^4/(8 pi^(3/2) sigma^3)",
+    "itt_over_i1": "4/15",
+    "probe_profile": "T_ij(k)=Q_ij exp(-sigma^2 |k|^2/2)",
+    "rank_one_tensor": "Q_ij=p_i p_j",
+    "theta_comm": "61 kappa t^3 p^4 / (2880 pi^(3/2) sigma^3)",
+    "theta_comm_over_kappa_t3_i1": "61/360"
+  },
+  "checks": [
+    {
+      "name": "wide_source_phase_depends_on_both_source_profiles",
+      "passed": true
+    },
+    {
+      "name": "displayed_commutator_terms_have_no_source_dependency",
+      "passed": true
+    },
+    {
+      "name": "commutator_probe_branch_phase_survives_source_deletion",
+      "passed": true
+    },
+    {
+      "name": "commutator_term_cancels_from_source_branch_difference",
+      "passed": true
+    },
+    {
+      "name": "commutator_term_can_still_separate_probe_branches",
+      "passed": true
+    },
+    {
+      "name": "rank_one_isotropic_tt_fraction_is_four_fifteenths",
+      "passed": true,
+      "value": "4/15"
+    },
+    {
+      "name": "combined_commutator_coefficient_is_sixty_one_over_360",
+      "passed": true,
+      "value": "61/360"
+    },
+    {
+      "name": "halving_probe_width_multiplies_phase_integral_by_eight",
+      "passed": true,
+      "ratios": [
+        8.0,
+        8.0,
+        8.0
+      ]
+    },
+    {
+      "name": "point_probe_limit_is_ultraviolet_divergent",
+      "passed": true,
+      "values": [
+        0.02244839026564582,
+        0.17958712212516656,
+        1.4366969770013325,
+        11.49357581601066
+      ]
+    },
+    {
+      "name": "same_integrated_probe_stress_different_widths_give_different_phases",
+      "passed": true
+    },
+    {
+      "name": "probe_self_gravity_is_same_formal_order_as_displayed_term",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-189",
+  "earned_boundary": "The displayed commutator phases are probe-only self-response functionals: they survive source deletion, cancel from a pure source-branch difference, and require a selected finite probe profile or renormalization. The wide-source phase is a distinct source-dependent schema whose physical preparation map remains to be supplied.",
+  "non_claims": [
+    "No published algebra is refuted by this dependency audit.",
+    "Source independence does not make the commutator term classical.",
+    "No complete conserved probe/controller calculation is supplied.",
+    "No experimental magnitude, hardware action, or new DU law is earned."
+  ],
+  "passed_checks": 11,
+  "status": "PASS",
+  "total_checks": 11
+}

@@ -4818,3 +4818,34 @@ only a source-model numerical conditioning and local-stop boundary. The shot
 counts are optimistic diagnostics, not device forecasts. It validates no CSL
 parameter, complete nuisance model, apparatus, observed anomaly, new physics,
 hardware action, or later campaign wave.
+
+## HC-DU-189 quantum-gravity phase-family boundary
+
+`du_quantum_gravity_phase_family_boundary_probe.py` preserves the exact
+controls behind the Chen--Giacomini phase-family split:
+
+- the wide-source cross phase depends on both source profiles;
+- the displayed commutator phases contain no source dependency;
+- the commutator contribution survives source deletion, cancels from a pure
+  source-branch comparison, and can distinguish probe branches;
+- a rank-one isotropic stress has transverse-traceless fraction (4/15);
+- the combined coefficient is (61/360) times the unprojected Gaussian
+  integral;
+- halving Gaussian probe width multiplies that integral by eight;
+- the point-probe limit diverges and equal integrated stresses with different
+  widths give different phases; and
+- omitted probe self-gravity enters at the same formal perturbative order.
+
+Run:
+
+```bash
+python3 tests/du_quantum_gravity_phase_family_boundary_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_quantum_gravity_phase_family_boundary_result.json`. Passing
+establishes only the displayed dependency, source-deletion, Gaussian-profile,
+angular-projection, and perturbative-order boundaries. It does not simulate
+quantum gravity, validate either paper, select a probe profile or apparatus,
+identify a source--probe mediator, reveal new physics, or authorize a later
+campaign wave.
