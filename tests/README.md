@@ -4879,3 +4879,37 @@ establishes only the finite global-energy/local-profile, joint-spectrum,
 commuting-Newton, coarse-graining, and phase-averaging boundaries. It proves
 no universal QFT no-go, refutation of the published algebra, apparatus,
 observed effect, hardware action, new DU law, or later campaign wave.
+
+## HC-DU-191 wide-source model tournament and cumulant reopener
+
+`du_quantum_gravity_source_model_tournament_probe.py` preserves the exact
+controls behind the many-body source classification:
+
+- an $N$-boson Hartree mode has binomial local occupation with variance
+  $Np(1-p)$ and relative noise $O(N^{-1/2})$;
+- its exact phase characteristic differs from the phase of its mean profile;
+- at fixed accumulated mean phase, that discrepancy vanishes at the
+  mean-field $1/N$ rate;
+- a fragmented local-number state has an exact broad profile whose bilinear
+  density-kernel phase is the classical extended-density functional;
+- a translated-profile cat retains local variance;
+- Hartree and fragmented states with the same mean density differ first in
+  higher cumulants and visibility;
+- a coherent-field occupation analogue remains Poissonian; and
+- a number-diagonal classical mixture reproduces the diagonal phase
+  characteristic, while complementary coherence distinguishes it from the
+  pure Hartree source.
+
+Run:
+
+```bash
+python3 tests/du_quantum_gravity_source_model_tournament_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_quantum_gravity_source_model_tournament_result.json`. Passing
+establishes only finite occupation-statistics, classical density-kernel,
+concentration, cumulant, and complementary-coherence boundaries. It proves no
+universal QFT no-go, Chen--Giacomini refutation, unique quantum-gravity
+witness, apparatus, observed effect, hardware action, new DU law, or later
+campaign wave.

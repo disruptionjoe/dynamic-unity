@@ -7575,6 +7575,34 @@ paper refutation, observed effect, apparatus, hardware action, new DU law,
 successor, or Wave-3 activation is earned. See
 `quantum-gravity-wide-source-preparation-and-relational-readout-boundary-2026-07-31.md`.
 
+### 2026-07-31 wide-source model tournament and cumulant reopener
+
+`HC-DU-191` executes the source-model reopener left by `HC-DU-190`. In the
+frozen occupation-density class, a coherent Hartree source has binomial local
+occupations with relative noise $O(N^{-1/2})$, a delocalized soliton center
+superposes translated profiles, and a coherent-field analogue retains
+Poisson/vacuum stress fluctuations. A fragmented local-number Fock state can
+have an exact broad profile, but its density-kernel phase is exactly the
+classical extended-density Newton functional. At fixed accumulated mean
+phase, the Hartree correction discarded by mean-profile closure decays as
+$1/N$.
+
+The first finite target omitted by the mean profile is the second and higher
+stress cumulants. Same-mean Hartree and fragmented states give different
+visibility, but a number-diagonal classical mixture reproduces the diagonal
+Hartree phase characteristic; complementary coherence access is required.
+Stress-noise, stochastic-gravity, BEC non-Gaussianity, and
+gravity-entanglement literatures absorb the component claim.
+
+**Updated seed status:** the original novel-mean-profile route loses priority.
+The highest-value conditional continuation is a same-mean/different-cumulant
+prediction tournament across quantized Newton, semiclassical, stochastic,
+direct-action, collapse, and matter-cross-talk rivals, with no hardware until
+one locked finite statistic survives. No universal QFT no-go, paper
+refutation, unique quantum-gravity witness, observed effect, apparatus,
+hardware action, new DU law, successor, or Wave-3 activation is earned. See
+`quantum-gravity-wide-source-model-tournament-and-cumulant-reopener-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

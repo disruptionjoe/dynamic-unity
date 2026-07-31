@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "name": "hartree_profile_distribution_normalizes",
+      "passed": true
+    },
+    {
+      "name": "hartree_local_mean_is_Np",
+      "passed": true
+    },
+    {
+      "name": "hartree_local_variance_is_Np_one_minus_p",
+      "passed": true
+    },
+    {
+      "name": "finite_delocalized_hartree_state_is_not_joint_profile_sharp",
+      "passed": true
+    },
+    {
+      "cv_N_100": 0.13627702877384937,
+      "cv_N_400": 0.06813851438692468,
+      "name": "hartree_relative_profile_noise_scales_as_inverse_sqrt_N",
+      "passed": true
+    },
+    {
+      "name": "hartree_phase_characteristic_has_closed_binomial_form",
+      "passed": true
+    },
+    {
+      "exact_visibility": 0.9044192211289958,
+      "mean_profile_visibility": 0.9999999999999999,
+      "name": "mean_profile_replacement_erases_finite_visibility_loss",
+      "passed": true
+    },
+    {
+      "loss_N_1000": 0.0005941092559019756,
+      "loss_N_2000": 0.00029709872627592393,
+      "name": "fixed_mean_phase_profile_error_vanishes_at_mean_field_rate",
+      "passed": true
+    },
+    {
+      "name": "fragmented_fock_state_has_exact_broad_local_profile",
+      "passed": true
+    },
+    {
+      "bilinear_energy": 90.53333333333333,
+      "name": "exact_fragmented_profile_phase_is_classical_extended_density_functional",
+      "passed": true
+    },
+    {
+      "name": "translated_profile_cat_has_nonzero_local_variance",
+      "passed": true
+    },
+    {
+      "fragmented_visibility": 1.0,
+      "hartree_visibility": 0.8329294870745518,
+      "name": "same_mean_profile_different_cumulants_give_different_visibility",
+      "passed": true
+    },
+    {
+      "name": "coherent_field_analogue_is_concentrated_but_not_profile_sharp",
+      "passed": true,
+      "relative_occupation_noise": 0.2
+    },
+    {
+      "name": "diagonal_phase_visibility_is_reproduced_by_classical_profile_mixture",
+      "passed": true
+    },
+    {
+      "mixture_first_order_coherence": 0.0,
+      "name": "complementary_coherence_access_separates_pure_source_from_mixture",
+      "passed": true,
+      "pure_first_order_coherence": 9.539392014169456
+    }
+  ],
+  "claim_id": "HC-DU-191",
+  "earned_boundary": "Within the frozen occupation-density source classes, exact broad profiles are available as fragmented local-number eigenstates but their density-kernel phase is the classical extended-density functional. Coherent or collectively delocalized sources retain local-profile fluctuations. Macroscopic Hartree/coherent sources concentrate only in the ordinary mean-field limit, moving the first honest target from mean phase to higher stress cumulants.",
+  "exact_boundary": {
+    "first_surviving_statistic": "second and higher local-stress cumulants",
+    "fragmented_phase": "classical bilinear extended-density kernel",
+    "fragmented_profile": "local-number eigenstate",
+    "hartree_characteristic": "[(1-p)+p exp(-i chi)]^N",
+    "hartree_profile": "Binomial(N,p), variance Np(1-p)"
+  },
+  "non_claims": [
+    "No universal QFT no-go is proved.",
+    "Stress cumulants are not unique predictions of quantum gravity.",
+    "Diagonal visibility loss alone does not certify source coherence.",
+    "No apparatus, magnitude, hardware action, or new DU law is earned."
+  ],
+  "passed_checks": 15,
+  "status": "PASS",
+  "total_checks": 15
+}
