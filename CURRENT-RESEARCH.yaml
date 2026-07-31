@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 139
+state_revision: 140
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,11 +82,11 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-176--181 bank response-host, material-record, and GU--DU
-    boundaries. HC-DU-182--184 join prompt timing, absolute depth,
-    acquisition, event-pairing limits, and physical head-tail information in
-    source-pinned detectors. Event-level polarity and an unabsorbed
-    response-order discriminator remain absent; Wave 3 stays ineligible.
+    HC-DU-176--184 bank response-host, material-record, GU--DU, acquired
+    detector-packet, event-pairing, and polarity boundaries. HC-DU-185
+    separates representational from predictive absorption and corrects the
+    response reopener. No source-pinned no-refit excess target exists yet;
+    Wave 3 stays ineligible.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -116,9 +116,9 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165--181 bank formal, detector, interface, and round-trip
-      boundaries. HC-DU-182--184 add source-pinned acquired packets with
-      clock-depth, event-pairing, and ensemble/event polarity boundaries.
+      HC-DU-165--184 bank formal, detector, interface, round-trip, acquired
+      packet, event-pairing, and ensemble/event polarity boundaries.
+      HC-DU-185 corrects the predictive-absorption gate.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -158,6 +158,8 @@ programs:
         evidence_ref: explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md
       - id: HC-DU-184
         evidence_ref: explorations/drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md
+      - id: HC-DU-185
+        evidence_ref: explorations/representational-versus-predictive-absorption-and-response-order-reopener-correction-2026-07-30.md
     remaining_obligations:
       - For a GU-conditioned round trip, select the flag/interface target-blindly or prove observer-target descent across the admitted family.
       - Physically certify common-event membership across prompt and delayed record channels, or freeze the exact completion class and error contract under which it is inferred.
@@ -165,7 +167,7 @@ programs:
       - Make minority-carrier or other absolute-depth association robust on the declared event class and type finite failures explicitly.
       - Upgrade bounded-error head-tail information to a declared event certificate without treating a known source direction as intrinsic provenance.
       - Physically select event time semantics and the readout/archive/access quotient.
-      - Expose an invariant higher-response distinction not absorbed by Peierls, effective-action, Schwinger--Dyson, stochastic-gravity, relative-Cauchy, or process-tensor theory.
+      - Lock a finite response coefficient, scaling, symmetry relation, or statistic that varies across the matched incumbent completion fibre, without refit and through a physically selected interface.
       - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
       - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
     typed_dependencies:
@@ -182,30 +184,28 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Standard response/process theory absorbs the abstract host; detector
-      physics, acquisition, tracking, data association, calibration, and
-      classification absorb the material packets; inverse problems and
-      experiment comparison absorb reconstruction; TPC transport,
-      triggerless DAQ, accidental coincidences, matching, stopping power,
-      binary testing, efficiency, and systematics absorb the clock-depth,
-      event-pairing, and head-tail boundaries.
+      Standard response/process theory absorbs the abstract host but not every
+      law it can represent. Model comparison, preregistration, identifiability,
+      and no-refit prediction absorb the novelty test. Detector physics,
+      acquisition, tracking, matching, calibration, binary testing,
+      efficiency, and systematics absorb the material-packet boundaries.
     cheapest_kill: >-
-      Untagged interfaces and S1/S2 matchings can collide across different
-      targets; missing carriers restore clock-depth ambiguity; and opposite
-      ensemble head-tail means can coexist with nonzero one-event error.
-      Source identity and selected access remain absent. No complete physical
-      closed loop follows.
+      Mere encodability or after-fact parameter choice supplies no prediction.
+      Untagged interfaces and S1/S2 matchings can collide across targets;
+      missing carriers restore clock-depth ambiguity; opposite ensemble means
+      can coexist with nonzero one-event error. No complete loop follows.
     stop_rule: >-
-      Do not construct a generic response tower from shared vocabulary,
-      compare unlike response orders without adapters, promote lawful
-      response into a formed record, or treat a conditional decoder as
-      physical interface selection. No later campaign wave is executable.
+      Do not mistake representability for predictive absorption, permit
+      target-dependent refitting, compare unlike response orders without
+      adapters, promote lawful response into a formed record, or treat a
+      conditional decoder as physical interface selection. No later campaign
+      wave is executable.
     reopen_rule: >-
       Reopen Wave 3 only when one source-pinned theory both selects at least
-      one missing physical-interface duty and fixes an invariant,
-      unabsorbed response-order question with a finite held-out consequence.
-      The QEC branch separately requires its frozen source-pinned complete
-      packet.
+      one missing physical-interface duty and locks a finite response target
+      that varies across the matched incumbent completion fibre, without
+      target-dependent refit. The QEC branch separately requires its frozen
+      source-pinned complete packet.
     local_computation_boundary: >-
       Primary-source reconstruction and formal comparison first. Local
       computation may verify one exact equivalence, counterexample, or proof

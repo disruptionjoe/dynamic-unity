@@ -4711,3 +4711,29 @@ The artifact is
 only finite rank, binary-testing, and factorization boundaries. It does not
 simulate DRIFT, resolve its reported systematics, certify any event's path
 sense or source, reveal new physics, or authorize a later campaign wave.
+
+## HC-DU-185 predictive versus representational absorption
+
+`du_predictive_vs_representational_absorption_probe.py` preserves the exact
+finite controls behind the corrected response reopener:
+
+- two laws can share every training value and disagree held out;
+- a universal response family can represent both without predicting either;
+- target-blind challenger selection adds a locked prediction;
+- target constancy on the frozen incumbent fibre is the positive control;
+- choosing a matching law after reveal remains refitting;
+- first nonzero response-difference order survives a nonsingular source
+  reparameterization but can move under a singular map; and
+- selecting a response law does not select a physical record interface.
+
+Run:
+
+```bash
+python3 tests/du_predictive_vs_representational_absorption_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_predictive_vs_representational_absorption_result.json`. Passing
+establishes only the predictive-absorption and coordinate boundaries. It does
+not refute a standard response formalism, select a physical coefficient or
+interface, reveal new physics, or authorize a later campaign wave.

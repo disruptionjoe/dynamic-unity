@@ -7402,6 +7402,36 @@ binary-testing, efficiency, and systematic-analysis theory absorb the
 components. No successor or paper is promoted. See
 `drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md`.
 
+### 2026-07-30 predictive versus representational absorption
+
+`HC-DU-185` corrects an overconstrained response-order reopener. A universal
+response framework can represent two laws that agree on every training record
+and disagree on a held-out target. That representability does not establish
+that the incumbent predicted the target.
+
+For incumbent completion fibre \(\mathcal C_I(a,r)\), held-out target \(T\),
+and challenger prediction \(T_H(a,r)\), predictive absorption holds exactly
+when
+
+\[
+\forall c,c'\in\mathcal C_I(a,r),
+\qquad T(c)=T(c')=T_H(a,r).
+\]
+
+The exact fixture \(f(x)=x\), \(g(x)=x^2\), trained at \(x=0,1\) and held out
+at \(x=2\), separates universal encodability from prediction. Both laws are
+representable and fit training values \((0,1)\), but predict \(2\) and \(4\).
+Choosing \(g\) after seeing \(4\) is refitting; selecting it target-blindly is
+a prediction. The first nonzero challenger/incumbent response difference
+remains invariant under nonsingular local source reparameterization.
+
+**Updated seed status:** Wave 3 no longer requires a candidate to escape every
+standard response language. It requires a source-pinned, preregistered finite
+target that varies across the matched incumbent fibre, is fixed by the
+challenger without refit, and is acquired through a physically selected
+interface. No such candidate is selected yet. See
+`representational-versus-predictive-absorption-and-response-order-reopener-correction-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
