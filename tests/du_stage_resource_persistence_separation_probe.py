@@ -258,9 +258,11 @@ def run_probe() -> dict[str, object]:
             ),
             "independence": (
                 "stage, nontrivial relational resource, and persistence are "
-                "independent typed obligations"
+                "logically independent target conditions in this abstract fixture"
             ),
-            "universal_ladder": "killed outside the scoped target",
+            "universal_ladder": (
+                "not licensed by the three differently scoped typed results"
+            ),
         },
         "not_earned": [
             "physical stage selection",
@@ -270,6 +272,7 @@ def run_probe() -> dict[str, object]:
             "hyperbolic dynamics",
             "observer or finality selection",
             "new physics or empirical excess",
+            "independent physical realizability of all three conditions",
         ],
     }
     return result

@@ -4478,8 +4478,8 @@ physics, paper, hardware, provider, or later scientific action.
 ## HC-DU-176 stage–resource–persistence separation
 
 `du_stage_resource_persistence_separation_probe.py` preserves the exact
-finite controls behind the scoped joint-target theorem and universal-ladder
-kill:
+finite controls behind the scoped joint-target theorem and blocks the
+universal ladder as an inference from differently scoped typed results:
 
 - exhaustive four-history archives satisfy the joint-target criterion iff
   they satisfy both component criteria;
@@ -4501,7 +4501,9 @@ python3 tests/du_stage_resource_persistence_separation_probe.py \
 
 The artifact is
 `artifacts/du_stage_resource_persistence_separation_result.json`. Passing
-establishes only the scoped factorization, persistence, and independence
-controls. It does not select a physical stage, symmetry resource, material
-archive, common response object, hyperbolic dynamics, observer, finality,
-new physics, paper, hardware, provider, or later scientific action.
+establishes only the scoped factorization, persistence, and logical
+target-independence controls in the abstract fixture. It does not prove
+independent physical realizability or select a physical stage, symmetry
+resource, material archive, common response object, hyperbolic dynamics,
+observer, finality, new physics, paper, hardware, provider, or later
+scientific action.

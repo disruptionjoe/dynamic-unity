@@ -51,10 +51,10 @@
   ],
   "claim_id": "HC-DU-176",
   "earned": {
-    "independence": "stage, nontrivial relational resource, and persistence are independent typed obligations",
+    "independence": "stage, nontrivial relational resource, and persistence are logically independent target conditions in this abstract fixture",
     "joint_record_criterion": "ker(record) subset ker(stage) intersection ker(character)",
     "persistence_criterion": "the horizon map may erase nuisance detail but may not merge declared target classes",
-    "universal_ladder": "killed outside the scoped target"
+    "universal_ladder": "not licensed by the three differently scoped typed results"
   },
   "not_earned": [
     "physical stage selection",
@@ -63,7 +63,8 @@
     "common causal response object",
     "hyperbolic dynamics",
     "observer or finality selection",
-    "new physics or empirical excess"
+    "new physics or empirical excess",
+    "independent physical realizability of all three conditions"
   ],
   "passed": true
 }

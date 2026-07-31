@@ -6403,18 +6403,22 @@ OBSERVED RESULT, CSL EVIDENCE, NEW DU LAW, AND READY SUCCESSOR OPEN.** See
   21. `SEED-DU-MPA-21` — Certified Causal Response Theory.
 
 - **Execution discipline.** The seeds are preserved independently of the
-  work queue. `HC-DU-159` through `HC-DU-165` complete the natural-section,
-  selection-frontier, source-pinned coupling-response, complete-packet,
-  action-relative materialization, QND-tomography, and minimal-dilation
-  gates. The campaign parks at material-realization nonidentification.
-  Reconstruction, first-leak, transfer, regional-composition, and
-  new-dynamics branches remain preserved but are not eligible.
+  work queue. `HC-DU-159` through `HC-DU-177` now include the
+  natural-section, selection-frontier, physical-packet, action-relative,
+  process-tomography, causal-order, relational-reference, formal
+  stage/resource/persistence, and common-response-host gates. `HC-DU-177`
+  finds multiple typed response hosts but no concrete common host or
+  material-interface selector. Reconstruction, response-tower first leak,
+  transfer, regional composition, and new dynamics remain preserved but
+  ineligible.
 - **Status:** **CONCEPT-OPEN / CHARTER-RATIFIED RESEARCH QUESTION /
-  `HC-DU-159` THROUGH `HC-DU-165` BANK THE FORMAL-INSTRUMENT,
+  `HC-DU-159` THROUGH `HC-DU-177` BANK THE FORMAL-INSTRUMENT,
   ACTION-INDEXED SELECTION, SOURCE-PINNED COUPLING-RESPONSE,
-  OBSERVED-MEAN/MATERIAL-REALIZATION, PROCESS-TOMOGRAPHY, AND
-  MINIMAL-DILATION FRONTIERS / COMPLETE MATERIAL RECORD, RECONSTRUCTION,
-  REMAINDER, NEW LAW, OR NEW PHYSICS OPEN.**
+  OBSERVED-MEAN/MATERIAL-REALIZATION, PROCESS-TOMOGRAPHY,
+  MINIMAL-DILATION, CAUSAL-ORDER, RELATIONAL-REFERENCE,
+  STAGE/RESOURCE/PERSISTENCE, AND COMMON-RESPONSE-HOST FRONTIERS /
+  COMPLETE MATERIAL RECORD, RECONSTRUCTION, REMAINDER, NEW LAW, OR NEW
+  PHYSICS OPEN / NO READY SUCCESSOR.**
 - **Canonical campaign:** `minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md`.
 
 ### 2026-07-30 instrument-section correction
@@ -7039,17 +7043,19 @@ physics absorb the components. See
 
 ### 2026-07-30 stage–resource–persistence separation and response-host gate
 
-`HC-DU-176` kills the universal linear ladder
+`HC-DU-176` blocks the universal linear ladder as an inference from three
+differently scoped results
 
 ```text
 record -> marked stage -> symmetry-reducing resource -> persistent carrier.
 ```
 
-The three coordinates are independent. An invariant classical occurrence
-flag can be stage-bearing and persistent without carrying a nontrivial
-symmetry character; a persistent preloaded relation need not certify a
-formation stage; and a stage-local relational distinction can be erased from
-the declared horizon archive.
+The three target conditions are logically independent in the abstract
+fixture. An invariant classical occurrence flag can be stage-bearing and
+persistent without carrying a nontrivial symmetry character; a persistent
+preloaded relation need not certify a formation stage; and a stage-local
+relational distinction can be erased from the declared horizon archive.
+This does not prove independent physical realizability of three mechanisms.
 
 For a scoped retained provenance record of a declared nontrivial relational
 character, the exact joint criterion is
@@ -7062,18 +7068,23 @@ Persistence is target-relative rather than microscopic injectivity: horizon
 evolution may erase nuisance distinctions but may not merge different
 declared target classes.
 
-**Updated seed status:** `SEED-DU-MPA-18` is banked as a scoped theorem family
-with its universal form killed. `SEED-DU-MPA-19` and
-`SEED-DU-MPA-20` remain conditional exploration/theorem targets.
-`SEED-DU-MPA-21`, Certified Causal Response Theory, is a high-ceiling
-candidate framework under the ratified North Star—not a replacement charter,
-scientific result, or premise. A common response functional may supply
-relational response and causal propagation without selecting a formation
-stage, material archive, provenance, observer access, or certified quotient.
+**Updated seed status after `HC-DU-177`:** `SEED-DU-MPA-18` is banked as a
+scoped formal theorem family; its physical conjunction remains conditional
+on a common domain and fixed resource notion. `SEED-DU-MPA-19` survives only
+as a common typed response **schema**: the audited formalisms have no single
+concrete common host without explicit target-independent adapters.
+`SEED-DU-MPA-20` remains a conditional theorem target for a physically frozen
+source--observable pair, but no host currently satisfies its activation
+gate. `SEED-DU-MPA-21`, Certified Causal Response Theory, survives as a typed
+research architecture under the ratified North Star—not a replacement
+charter, scientific ontology, selected successor, or premise. Standard
+response theory supplies lawful response and propagation without selecting
+a formation stage, material archive, provenance, observer access, or
+certified quotient.
 See
 `stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md`
 and
-`certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md`.
+`common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md`.
 
 ## Boundary
 

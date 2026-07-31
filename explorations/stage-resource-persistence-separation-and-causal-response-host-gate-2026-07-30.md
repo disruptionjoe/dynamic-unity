@@ -6,8 +6,9 @@ created: 2026-07-30
 run_id: RUN-20260730-182231-stage-resource-persistence-separation
 claim_id: HC-DU-176
 claim_grade: >-
-  SCOPED GRADE 4 FACTORIZATION AND INDEPENDENCE BOUNDARY / COMPONENT
-  MATHEMATICS ABSORBED / NO NEW PHYSICS
+  SCOPED GRADE 4 FORMAL FACTORIZATION AND LOGICAL NONIMPLICATION BOUNDARY /
+  COMPONENT MATHEMATICS ABSORBED / NO PHYSICAL-INDEPENDENCE THEOREM OR NEW
+  PHYSICS
 ---
 
 # Stage, relational resource, persistence, and the causal-response host gate
@@ -23,7 +24,7 @@ record
   -> persistent carrier
 ```
 
-is false as a universal theory of records.
+does not follow universally from the three typed Dynamic Unity results.
 
 An ordinary classical occurrence flag can be formed and retained without
 carrying any nontrivial symmetry character. A stable relational coupling can
@@ -39,7 +40,8 @@ The surviving theorem is target-scoped:
 > but may not merge archive states carrying different declared target
 > values.
 
-The three physical obligations are independent:
+The three declared target conditions are logically independent in the
+abstract finite fixture:
 
 1. **stage:** which occurrence or composition cut the distinction belongs to;
 2. **resource:** which interaction or asymmetric carrier makes the declared
@@ -56,7 +58,9 @@ of a nontrivial relational character
 over a declared continuation horizon
 ```
 
-They do not form one universal record law.
+They do not form one universal record law without a shared physical domain
+and one fixed meaning of resource. The fixture does not prove that three
+independently realizable physical mechanisms exist.
 
 This gives the proposed common causal-response object a precise gate. A
 quantum response functional and its hyperbolic linearization may supply the
@@ -68,10 +72,10 @@ North Star, not installed as a new North Star or physical claim.
 The complete return is:
 
 ```text
-UNIVERSAL_LINEAR_LADDER_KILLED
+UNIVERSAL_LINEAR_IMPLICATION_NOT_LICENSED
 + SCOPED_JOINT_TARGET_KERNEL_THEOREM
 + TARGET_RELATIVE_PERSISTENCE_NOT_GLOBAL_INJECTIVITY
-+ STAGE_RESOURCE_PERSISTENCE_INDEPENDENCE
++ ABSTRACT_TARGET_CONDITIONS_LOGICALLY_INDEPENDENT
 + COMPONENT_THEOREMS_RETAIN_THEIR_DIFFERENT_SCOPES
 + RESPONSE_OBJECT_DOES_NOT_AUTOMATICALLY_SELECT_STAGE_OR_ARCHIVE
 + FOUR_RESPONSE_THEORY_SEEDS_PRESERVED
@@ -419,11 +423,12 @@ The result preserves four additions under `CONCEPT-DU-019`.
 ### `SEED-DU-MPA-18` — Stage–Resource–Persistence Separation Theorem
 
 For a declared joint target, exact certification is a kernel intersection
-and persistence is target-relative. The three physical obligations are
-independent.
+and persistence is target-relative. The target conditions are logically
+independent in the abstract fixture.
 
-**Status:** scoped theorem family, with the universal ladder killed by
-`HC-DU-176`.
+**Status:** scoped formal theorem family. `HC-DU-176` blocks inferring the
+universal ladder from the three typed results; a physical conjunction remains
+conditional on one shared domain and fixed resource notion.
 
 ### `SEED-DU-MPA-19` — Common Causal Response Object Conjecture
 
@@ -470,10 +475,11 @@ The components are mature:
 
 Dynamic Unity earns:
 
-1. the exact rejection of a tempting universal linear ladder;
+1. the exact rejection of a tempting universal logical implication from the
+   three differently scoped results;
 2. one target-scoped conjunction theorem;
 3. target-relative rather than microscopic persistence;
-4. exact independence controls; and
+4. exact logical-independence controls in the abstract target fixture; and
 5. a sharper admission test for the common-response-object branch.
 
 It does not earn new mathematics in those absorber fields, a new physical
@@ -520,12 +526,14 @@ Passing validates the finite factorization controls only.
 
 ## Final status
 
-**BANKED SCOPED RESULT / THE UNIVERSAL STAGE–RESOURCE–PERSISTENCE LADDER IS
-FALSE / FOR A RETAINED PROVENANCE RECORD OF A DECLARED NONTRIVIAL
+**BANKED SCOPED FORMAL RESULT / THE THREE TYPED RESULTS DO NOT LICENSE A
+UNIVERSAL STAGE–RESOURCE–PERSISTENCE IMPLICATION / FOR A RETAINED PROVENANCE
+RECORD OF A DECLARED NONTRIVIAL
 RELATIONAL CHARACTER, EXACT HORIZON CERTIFICATION IS THE JOINT KERNEL
 CONDITION AND PERSISTENCE IS INJECTIVITY ONLY BETWEEN DECLARED TARGET
-CLASSES / STAGE, CHARACTER RESOURCE, AND PERSISTENCE ARE INDEPENDENT
-OBLIGATIONS / THE THREE PRIOR DU NECESSITY RESULTS COMPOSE ONLY UNDER THEIR
+CLASSES / THE STAGE, CHARACTER, AND PERSISTENCE TARGET CONDITIONS ARE
+LOGICALLY INDEPENDENT IN THE ABSTRACT FIXTURE, NOT PROVED INDEPENDENT
+PHYSICAL MECHANISMS / THE THREE PRIOR DU NECESSITY RESULTS COMPOSE ONLY UNDER THEIR
 TYPED TARGET AND CONTINUATION ASSUMPTIONS / A COMMON QUANTUM OR HYPERBOLIC
 RESPONSE OBJECT MAY SUPPLY RESPONSE AND PROPAGATION WITHOUT SELECTING A
 FORMATION STAGE OR MATERIAL ARCHIVE / FOUR CONDITIONAL RESPONSE-THEORY SEEDS

@@ -68,16 +68,18 @@ effective equivalence = ontological priority
 
 **Status:** complete as `HC-DU-176`.
 
-**Result.** The universal linear ladder is false. For a scoped retained
-provenance record of a nontrivial relational character:
+**Result.** The three differently scoped DU results do not license a universal
+linear implication. For a scoped retained provenance record of a nontrivial
+relational character:
 
 \[
 \ker a_H\subseteq\ker s\cap\ker c
 \]
 
 is the exact joint-target criterion, and horizon persistence is
-target-relative rather than global injectivity. Stage, character resource,
-and persistence are independent.
+target-relative rather than global injectivity. The three target conditions
+are logically independent in the abstract fixture; independent physical
+realizability was not proved.
 
 **Handoff.** A response formalism may supply the character/response and
 propagation coordinates without selecting the stage or archive. Wave 2 must
@@ -91,36 +93,49 @@ credits?
 
 **Mandatory candidates.**
 
-1. classical total action and covariant phase space;
-2. 1PI quantum effective action;
+1. classical action, Peierls response, and covariant phase space;
+2. in-out 1PI quantum effective action;
 3. closed-time-path/in-in effective action and influence functional;
-4. stochastic gravity and stress-tensor noise kernels;
-5. locally covariant QFT and relative Cauchy evolution;
-6. process tensors/quantum combs;
-7. direct-action and field-eliminated descriptions; and
-8. one action-selection rival such as causal fermion systems.
+4. Schwinger--Dyson and \(n\)PI response hierarchies;
+5. stochastic gravity and stress-tensor noise kernels;
+6. locally covariant QFT and relative Cauchy evolution;
+7. process tensors/quantum combs;
+8. direct-action and field-eliminated descriptions; and
+9. one action-selection rival such as causal fermion systems.
 
 **Optimized method.**
 
-1. Freeze one duty matrix before reading: object, supplied inputs, selected
-   outputs, response orders, stage, carrier, persistence, access, and
-   empirical excess.
-2. Reconstruct exact definitions from primary sources.
-3. Separate formal representation, lawful selection, and physical
+1. Freeze a typed adapter before comparison: object category, source,
+   state, contour, boundary, gauge, renormalization, query, output, and
+   admitted equivalence.
+2. Freeze one duty matrix: supplied inputs, selected outputs, response
+   semantics, stage, carrier, persistence, provenance, access, certified
+   quotient, and empirical excess.
+3. Reconstruct exact definitions from primary sources.
+4. Separate formal representation, lawful selection, and physical
    interface selection.
-4. Find the smallest pair of candidates that agree on low-order equations
+5. Treat response order as meaningful only for a frozen physical
+   source--observable pairing. Locally invertible source reparameterizations
+   preserve the first nonzero order but mix higher tensors by the chain
+   rule; auxiliary-field, integration-out, and representation changes
+   require an explicit adapter.
+6. Test gauge and field-parametrization dependence, including the
+   Vilkovisky--DeWitt issue where applicable.
+7. Find the smallest pair of candidates that agree on low-order equations
    but differ on a higher response or interface duty.
-5. Stop if every apparent delta is already standard effective-action,
-   AQFT, stochastic-gravity, or process-tensor structure.
+8. Stop if every apparent delta is already standard effective-action,
+   Schwinger--Dyson, AQFT, stochastic-gravity, or process-tensor structure.
 
 **Returns.**
 
 ```text
-COMMON_HOST_SELECTED
-PARTIAL_RESPONSE_HOST
-MULTIPLE_INEQUIVALENT_HOSTS
+COMMON_RESPONSE_LANGUAGE_ONLY
+PARTIAL_LAWFUL_RESPONSE_HOST
+MULTIPLE_TYPED_RESPONSE_HOSTS
 FULL_PRIOR_ART_ABSORPTION
-NO_STAGE_OR_ARCHIVE_SELECTOR
+PHYSICAL_INTERFACE_NONSELECTION
+INVARIANT_RESPONSE_ORDER_OPEN
+W3_ADVANCE_GATE_SATISFIED
 ```
 
 **Cheapest kill.** The candidate object is only a representation of supplied
@@ -133,8 +148,9 @@ non-unification result.
 
 ## Wave 3 — smallest hyperbolic causal-response tower
 
-**Activation.** Wave 2 identifies one physically serious host and an
-unabsorbed response-order question.
+**Activation.** Wave 2 identifies one physically serious host that both
+selects at least one previously missing physical-interface duty and exposes
+an invariant, unabsorbed response-order question.
 
 **Question.** In the smallest honest arena, how do the first, second, and
 higher variations compose into causal response, and where does the first
@@ -247,8 +263,12 @@ NO_READY_SUCCESSOR
 W1_COMPLETE
   -> W2_RESPONSE_HOST_AUDIT
 
-W2_COMMON_OR_PARTIAL_HOST
+W2_HOST_SELECTS_MISSING_DUTY
++ W2_INVARIANT_UNABSORBED_RESPONSE_QUESTION
   -> W3_HYPERBOLIC_RESPONSE_TOWER
+
+W2_LANGUAGE_ONLY_OR_INTERFACE_NONSELECTION
+  -> BANK_AND_STOP
 
 W2_FULL_ABSORPTION
   -> BANK_AND_STOP

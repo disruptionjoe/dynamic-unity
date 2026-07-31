@@ -1329,9 +1329,10 @@ asymmetry, quantum reference frames, WAY/no-programming, mutual asymmetry,
 and exchange physics absorb the components.
 
 **Stage–resource–persistence correction and response-host gate.**
-`HC-DU-176` rejects the universal claim that every record must pass through
-one linear sequence from marked stage to symmetry-reducing resource to
-persistent carrier. Those are independent, target-typed obligations. For a
+`HC-DU-176` rejects inferring a universal claim that every record must pass
+through one linear sequence from marked stage to symmetry-reducing resource
+to persistent carrier. Those are logically independent target conditions in
+the abstract fixture, not proved independent physical mechanisms. For a
 retained provenance record of a declared nontrivial relational character,
 the exact finite criterion is
 \(\ker a_H\subseteq\ker s\cap\ker c\), and persistence requires only that
@@ -1345,6 +1346,21 @@ crediting it, compare classical and quantum effective actions, in-in
 functionals, stochastic gravity, locally covariant QFT/relative Cauchy
 evolution, process tensors, direct-action descriptions, and one
 action-selection rival on one unchanged duty matrix.
+
+**Common-response-host correction.** `HC-DU-177` finds no single established
+concrete response object across those formalisms. Peierls/covariant phase
+space, in-out 1PI, CTP/in-in, Schwinger--Dyson/\(n\)PI, stochastic gravity,
+relative Cauchy evolution, process tensors, direct action, and causal action
+use different source, state, query, output, and equivalence types. They share
+an abstract perturbation/intervention-to-response schema only after explicit
+target-independent adapters. Standard theory absorbs the proposed response
+tower: stochastic gravity is already the clean mean-response/noise-kernel
+pair, and \(n\)PI/Schwinger--Dyson theory already organizes higher
+correlations. None of the audited response objects selects a formation stage,
+material archive, provenance relation, observer access boundary, or
+certified quotient. `SEED-DU-MPA-20` therefore requires a physically frozen
+source--observable pair and remains ineligible until one host also selects a
+missing physical-interface duty.
 
 **Action-indexed frontier correction.** `HC-DU-160` shows that an
 action/access class is not one more antecedent coordinate: it indexes the

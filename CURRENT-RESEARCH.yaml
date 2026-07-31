@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 130
+state_revision: 131
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -77,25 +77,26 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
-  executable_action_id: CCRT-W2-COMMON-RESPONSE-OBJECT-AUDIT
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-176 kills a universal stage--resource--persistence ladder while
-    banking the exact scoped joint-target criterion and four response-theory
-    seeds. Joe authorized the conditional sequence. Certified Causal Response
-    Theory remains a candidate framework under the ratified North Star; only
-    its common-response-object absorber and typing audit is executable.
+    HC-DU-176 is corrected to a formal target-factorization and logical
+    nonimplication result, not physical-mechanism independence. HC-DU-177
+    finds only an abstract common response schema across multiple typed hosts;
+    standard theory absorbs the response hierarchy and no host selects a
+    missing material record-interface duty. Wave 3 is ineligible and the
+    scientific portfolio returns to explicit no-ready quiescence.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
     kind: flagship
     owner_repo: dynamic-unity
-    portfolio_status: active
-    execution_status: executable
-    wip_slot: scientific_flagship
-    active_work_id: CCRT-W2-COMMON-RESPONSE-OBJECT-AUDIT
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
+    active_work_id: null
     primary_lane_id: '1'
     supporting_lane_ids:
       - '2'
@@ -118,9 +119,11 @@ programs:
     current_grade: >-
       HC-DU-165--172 bank representation, custody, and bare-process
       nonselection; HC-DU-173--175 add causal-order, relational-access, and
-      symmetry-reduction boundaries. HC-DU-176 kills the universal
-      stage--resource--persistence ladder and banks the scoped joint-target
-      factorization and independence boundary.
+      symmetry-reduction boundaries. Corrected HC-DU-176 banks scoped formal
+      joint-target factorization and logical nonimplication. HC-DU-177 banks
+      typed common-host necessity and physical-interface nonselection:
+      established response formalisms share no concrete host without
+      adapters and select no missing record-interface duty.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -144,12 +147,13 @@ programs:
         evidence_ref: explorations/relational-reference-symmetry-reduction-embodied-coupling-and-certificate-boundary-2026-07-30.md
       - id: HC-DU-176
         evidence_ref: explorations/stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md
+      - id: HC-DU-177
+        evidence_ref: explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
     remaining_obligations:
-      - Apply one unchanged typed duty matrix to classical actions, 1PI and closed-time-path effective actions, stochastic gravity, locally covariant QFT/relative Cauchy evolution, process tensors, direct-action descriptions, and one action-selection rival.
-      - Separate lawful response selection from formation-stage, carrier, persistence, provenance, observer-access, and certified-quotient selection.
-      - Identify the smallest low-order-matched pair that differs at a higher response order or interface duty; stop if standard theory fully absorbs the proposed common host.
+      - Find a source-pinned theory that selects at least one missing formation, archive, provenance, or access duty and fixes a physical source--observable response contract.
+      - Expose an invariant higher-response distinction not absorbed by Peierls, effective-action, Schwinger--Dyson, stochastic-gravity, relative-Cauchy, or process-tensor theory.
       - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
-      - Do not activate a response tower, remainder, or transfer before its typed gate.
+      - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
     typed_dependencies:
       - type: extracts_from
         target: HC-DU-063
@@ -164,105 +168,37 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Effective actions, in-in/influence functionals, stochastic gravity,
-      locally covariant QFT, process tensors, direct-action reformulations,
-      instruments/dilations, sufficient statistics, asymmetry/QRF theory,
-      system identification, and archive provenance.
+      Peierls/covariant phase space, in-out and in-in effective actions,
+      Schwinger--Dyson/nPI hierarchies, stochastic gravity, locally covariant
+      QFT/relative Cauchy evolution, process tensors, direct-action
+      reformulations, causal action, instruments/dilations, and archive
+      provenance.
     cheapest_kill: >-
-      Every candidate common object merely represents supplied
-      state/history/interface data, or two equally admissible hosts agree on
-      the claimed low-order projections while disagreeing on the supposedly
-      selected stage, carrier, archive, or access structure.
+      Met by HC-DU-177. The candidates share an abstract query-to-response
+      schema but require different supplied source/state/query/output
+      contracts; none selects stage, carrier, archive, provenance, access, or
+      certification from response alone.
     stop_rule: >-
-      Stop on target coding, an untyped process/interface map, full prior-art
-      absorption, a failed typed prerequisite, or any route requiring hardware
-      before new local learning. A prepared later swing is not executable
-      without a separate authorization.
+      Do not construct a generic response tower from shared vocabulary,
+      compare unlike response orders without adapters, or promote lawful
+      response into a formed record. No later campaign wave is executable.
     reopen_rule: >-
-      After this bounded audit, advance to a response-tower construction only
-      if one physically serious host selects at least one missing typed duty
-      and exposes an unabsorbed response-order question. Otherwise bank and
-      stop. The separate QEC custody branch still reopens only on a
-      source-pinned complete packet for its frozen target/fault/environment
-      class.
+      Reopen Wave 3 only when one source-pinned theory both selects at least
+      one missing physical-interface duty and fixes an invariant,
+      unabsorbed response-order question with a finite held-out consequence.
+      The QEC branch separately requires its frozen source-pinned complete
+      packet.
     local_computation_boundary: >-
       Primary-source reconstruction and formal comparison first. Local
       computation may verify one exact equivalence, counterexample, or proof
       boundary. No full field simulation, provider, or external hardware is
       authorized.
-    next_action: >-
-      Execute the common-causal-response-object absorber and typed-duty audit
-      with one frozen matrix, then return a selected host, partial host,
-      inequivalent-host obstruction, full absorption, or no-stage/archive
-      selector.
-    next_action_ref: explorations/certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md
-    execution_packet:
-      action_id: CCRT-W2-COMMON-RESPONSE-OBJECT-AUDIT
-      exact_question: >-
-        Does any established common response formalism physically select more
-        than lawful response and causal propagation—specifically a formation
-        stage, material carrier, target-bearing persistence, provenance,
-        observer access, or certified record quotient—or do those duties
-        remain supplied across every serious candidate?
-      source_locator:
-        path: explorations/certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md
-        heading: '## Wave 2 — common-response-object absorber and typing audit'
-      required_inputs:
-        - path: explorations/certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md
-          role: Frozen campaign contract.
-        - path: explorations/stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md
-          role: HC-DU-176 host gate.
-        - path: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-          role: Typed-record minimum.
-        - path: docs/quantum-foundations-orientation-surface.md
-          role: Theory and absorber map.
-        - path: docs/certified-causal-reality-research-program.md
-          role: Charter and grades.
-      unchanged_ledger_fields:
-        - selected-versus-supplied
-        - representation-versus-lawful-selection-versus-interface-selection
-        - response-order-versus-spacetime-derivative-order
-        - stage-carrier-persistence-provenance-and-access
-        - law-only-versus-record-conditioned-target-closure
-        - observer-action-resource-index
-        - evidence-and-maximum-grade
-        - external-hardware-boundary
-      arena_roles:
-        - classical-action-and-1PI-effective-action-host
-        - closed-time-path-stochastic-gravity-and-lcqft-host
-        - process-tensor-and-direct-action-host
-        - causal-action-selection-rival
-        - hostile-novelty-and-interface-nonselection-adjudicator
-      expected_return_classes:
-        - COMMON_HOST_SELECTED
-        - PARTIAL_RESPONSE_HOST
-        - MULTIPLE_INEQUIVALENT_HOSTS
-        - FULL_PRIOR_ART_ABSORPTION
-        - NO_STAGE_OR_ARCHIVE_SELECTOR
-      observer_index_return_classes:
-        - OBSERVER_INDEX_SELECTED
-        - OBSERVER_INDEX_EXTERNALLY_SUPPLIED
-        - OBSERVER_INDEX_IRRELEVANT_TO_SCOPED_THEOREM
-        - OBSERVER_INDEX_UNDERDETERMINED
-      durable_output: >-
-        explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
-      local_method: >-
-        Primary-source definitions, one unchanged duty matrix, then one exact
-        hostile pair only if it changes the disposition.
-      uses_program_controls:
-        - premise_status
-        - strongest_absorber
-        - cheapest_kill
-        - stop_rule
-        - reopen_rule
-        - local_computation_boundary
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
       - explorations/certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md
       - explorations/stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md
-      - explorations/minimal-physical-antecedent-to-finite-remainder-coherent-campaign-2026-07-30.md
-      - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
-      - explorations/stage-local-compositional-instrument-section-triviality-and-marked-cut-boundary-2026-07-30.md
-      - explorations/relational-reference-symmetry-reduction-embodied-coupling-and-certificate-boundary-2026-07-30.md
+      - explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
 
@@ -662,8 +598,8 @@ programs:
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
 successor_selection:
-  status: blocked
-  blocked_by: CCRT-W2-COMMON-RESPONSE-OBJECT-AUDIT
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
     - common-causal-response-object-audit
@@ -681,11 +617,11 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    Only the common-response-object audit is executable. A partial or common
-    host may activate the smallest hyperbolic response-tower gate; full
-    absorption or failure to select any missing typed duty banks the result
-    and stops. No later wave, parked branch, or new dynamics is authorized
-    before this action returns.
+    HC-DU-177 closes the current action with no host satisfying the Wave-3
+    gate. Select no successor until a source-pinned theory both selects a
+    missing physical-interface duty and exposes an invariant unabsorbed
+    response-order question, or another candidate independently satisfies
+    the North-Star admission contract.
 
 anomaly_intake:
   status: open_non_wip
