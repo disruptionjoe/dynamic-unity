@@ -7799,6 +7799,43 @@ result, observation, Grade-5 remainder, hardware action, successor, or later
 wave is earned. See
 `constraint-compatible-gravity-interventions-platform-audit-and-radiative-reopener-2026-07-31.md`.
 
+### 2026-07-31 gravitational-radiation Gaussian tomography boundary
+
+`HC-DU-199` finds a concrete receiver-side implementation of `HC-DU-198`'s
+radiative reopener in a 2026 proposal for graviton counting and phase-sensitive
+Gaussian-state tomography. In the proposal's frozen one-mode vacuum-receiver
+beamsplitter model, known nonzero transfer makes incident Gaussian first and
+second moments exactly reconstructible from detector moments. Three quadrature
+phases span the covariance; two cardinal phases do not.
+
+The physical interface is not thereby selected. At one vacuum-receiver
+setting, two distinct physical Gaussian inputs at two distinct uncalibrated
+transfers produce the exact same detector covariance. Two known receiver
+references recover the transfer from their response slope only if the source
+state is fixed across those arms. The proposal's exact coupling cancellation in normalized
+$g^{(2)}$ also does not cancel finite record cost: in the exact two-quantum
+control, $g^{(2)}=1/2$ for every nonzero transfer while the double-event
+probability is $\eta^2$. A tenfold smaller transfer costs one hundred times as
+many expected trials for the same double-event count.
+
+A controlled sub-vacuum detector quadrature excludes the scoped model of a
+vacuum receiver plus exogenous classical random displacement. A
+response-equivalent nongravitational quantum ancilla or direct quantum law
+retains the complete receiver record, so gravitational field ontology is not
+identified.
+
+**Updated seed status:** recognize conditional Gaussian radiative-state
+reconstruction as a real Grade-3 joint and preserve transfer calibration,
+source stability across reference arms, phase reference, finite evidence
+formation, detector noise, and provenance as separate physical requirements.
+Reopen only with a source-selected or independently stable state family,
+internally formed calibration and gravitational lineage, and a
+no-refit target that separates the direct quantum twin before external
+hardware. No astrophysical preparation, graviton observation, feasibility,
+Grade-5 remainder, hardware action, new gravity law, successor, or later-wave
+activation is earned. See
+`gravitational-radiation-gaussian-tomography-calibration-sample-cost-and-ontology-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

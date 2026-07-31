@@ -1,0 +1,135 @@
+{
+  "assertions": {
+    "both_incident_covariances_are_physical": true,
+    "classical_random_displacement_of_vacuum_cannot_explain_subvacuum_output": true,
+    "distinct_eta_and_input_pairs_have_identical_detector_covariance": true,
+    "double_event_probability_scales_as_eta_squared": true,
+    "known_eta_exactly_reconstructs_incident_covariance": true,
+    "known_eta_exactly_reconstructs_incident_displacement": true,
+    "normalized_g2_is_exactly_one_half_at_both_couplings": true,
+    "response_equivalent_quantum_ancilla_remains": true,
+    "shared_detector_output_contains_subvacuum_quadrature": true,
+    "tenfold_weaker_transfer_requires_one_hundredfold_more_trials": true,
+    "three_quadrature_phases_span_gaussian_covariance": true,
+    "two_cardinal_phases_leave_cross_covariance_unidentified": true,
+    "two_known_receiver_references_reconstruct_transfer_if_source_is_fixed": true
+  },
+  "claim_id": "HC-DU-199",
+  "disposition": "CALIBRATED_GAUSSIAN_RADIATIVE_STATE_RECONSTRUCTION_COUPLING_INVARIANT_RATIO_NOT_ACQUISITION_INVARIANT_SCOPED_CLASSICAL_DRIVE_EXCLUSION_NOT_FIELD_ONTOLOGY",
+  "finite_acquisition": {
+    "boundary": "g2 cancels eta at the population level, while the event count needed to estimate it diverges as eta^-2 in this exact control",
+    "eta_1_over_10": {
+      "factorial_second": "1/50",
+      "g2": "1/2",
+      "mean": "1/5",
+      "p0": "81/100",
+      "p1": "9/50",
+      "p2": "1/100"
+    },
+    "eta_1_over_100": {
+      "factorial_second": "1/5000",
+      "g2": "1/2",
+      "mean": "1/50",
+      "p0": "9801/10000",
+      "p1": "99/5000",
+      "p2": "1/10000"
+    },
+    "expected_trials_eta_1_over_10": "10000/1",
+    "expected_trials_eta_1_over_100": "1000000/1",
+    "incident_state": "two-quantum Fock state",
+    "target_double_events": 100,
+    "trial_ratio": "100/1"
+  },
+  "gaussian_channel": {
+    "calibration_boundary": "eta>0 must be fixed for Gaussian-state inversion. One vacuum-receiver output does not fix it; two known receiver references can do so only if the source state is stable across the calibration arms.",
+    "exact_displacement_example": {
+      "eta": "1/4",
+      "input": [
+        "3/2",
+        "-1/2"
+      ],
+      "output": [
+        "3/4",
+        "-1/4"
+      ]
+    },
+    "law": "V_out=(1-eta) I/2 + eta V_in; m_out=sqrt(eta) m_in",
+    "pair_a": {
+      "eta": "1/4",
+      "input_covariance": [
+        [
+          "1/4",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "1/1"
+        ]
+      ]
+    },
+    "pair_b": {
+      "eta": "1/2",
+      "input_covariance": [
+        [
+          "3/8",
+          "0/1"
+        ],
+        [
+          "0/1",
+          "3/4"
+        ]
+      ]
+    },
+    "reference_slope_calibration_positive_control": {
+      "assumption": "same source state across two known receiver preparations",
+      "identity": "eta=1-(delta_receiver_output/delta_receiver_input)^2",
+      "receiver_input_gap": "2/1",
+      "receiver_output_gap": "1/1",
+      "reconstructed_eta": "3/4"
+    },
+    "shared_output_covariance": [
+      [
+        "7/16",
+        "0/1"
+      ],
+      [
+        "0/1",
+        "5/8"
+      ]
+    ]
+  },
+  "quadrature_design": {
+    "parameters": [
+      "V_xx",
+      "V_xp",
+      "V_pp"
+    ],
+    "phase_rows": [
+      [
+        "1/1",
+        "0/1",
+        "0/1"
+      ],
+      [
+        "0/1",
+        "0/1",
+        "1/1"
+      ],
+      [
+        "1/2",
+        "1/1",
+        "1/2"
+      ]
+    ],
+    "rank_three_phases": 3,
+    "rank_two_phases": 2
+  },
+  "rival_boundary": {
+    "excluded_rival": "vacuum detector plus exogenous classical random displacement, whose added covariance is positive semidefinite",
+    "ontology_result": "NOT_SELECTED",
+    "subvacuum_output_variance": "7/16",
+    "surviving_rival": "a non-gravitational quantum ancilla or direct quantum response law with the same Gaussian state and calibrated channel"
+  },
+  "scope_guard": "This finite channel result assumes a selected on-shell mode, RWA, vacuum receiver where stated, calibrated transfer, source repeatability, phase reference, and Gaussian class where stated. It proves no astrophysical state preparation, graviton observation, feasibility, universal classical-gravity exclusion, field ontology, hardware action, Grade-5 remainder, or active Dynamic Unity successor.",
+  "theorem_statement": "For a frozen one-mode vacuum-receiver beamsplitter channel with known eta>0, detector first and second moments injectively reconstruct the incident Gaussian state. If eta is not independently calibrated, distinct physical Gaussian inputs can produce the same detector covariance at one receiver setting. A known two-reference receiver family reconstructs eta if the source is fixed across arms. Normalized second-order coherence may cancel eta exactly while finite evidence formation remains eta-dependent. A subvacuum quadrature excludes the scoped classical random-displacement signal but not response-equivalent quantum or direct-action realizations."
+}

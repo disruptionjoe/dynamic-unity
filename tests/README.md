@@ -5125,3 +5125,39 @@ radiative-response, ontology, and source-bounded platform-audit boundary. It
 proves no direct-action gravity, field ontology, quantized gravity,
 experimental impossibility, observation, complete gravitational packet,
 Grade-5 remainder, hardware action, new gravity law, or later campaign wave.
+
+## HC-DU-199 gravitational-radiation Gaussian tomography boundary
+
+`du_gravitational_radiation_gaussian_tomography_probe.py` preserves the exact
+finite controls behind the radiative reconstruction and evidence-formation
+boundary:
+
+- known nonzero transfer exactly reconstructs incident Gaussian moments;
+- two distinct physical input/transfer pairs have the same detector covariance
+  at one receiver setting when transfer is not calibrated;
+- two known receiver references recover transfer from their response slope
+  when the source is fixed across arms;
+- three quadrature phases span a one-mode covariance while two leave the cross
+  covariance unidentified;
+- a two-quantum input has $g^{(2)}=1/2$ at two different transfers;
+- the double-event probability remains proportional to $\eta^2$, imposing a
+  one-hundredfold trial penalty for a tenfold smaller transfer;
+- a sub-vacuum output excludes vacuum plus a classical random displacement;
+  and
+- a response-equivalent quantum ancilla remains observationally identical at
+  the receiver.
+
+Run:
+
+```bash
+python3 tests/du_gravitational_radiation_gaussian_tomography_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_gravitational_radiation_gaussian_tomography_result.json`. Passing
+establishes only conditional one-mode Gaussian reconstruction plus scoped
+calibration, phase-design, finite-evidence, classical-rival, and ontology
+boundaries. It proves no astrophysical state preparation, gravitational-wave
+quantization, graviton observation, universal classical-gravity exclusion,
+experimental feasibility, field ontology, Grade-5 remainder, hardware action,
+new gravity law, active successor, or later campaign wave.
