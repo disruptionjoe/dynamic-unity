@@ -7327,6 +7327,45 @@ transport, observability, DAQ, event-building, and inverse-problem theory
 absorb the result. No successor or paper is promoted. See
 `time-resolved-tpc-acquired-packet-clock-depth-rank-and-event-building-boundary-2026-07-30.md`.
 
+### 2026-07-30 dual-phase prompt/delayed event-pairing boundary
+
+`HC-DU-183` finds one real detector architecture that physically joins
+prompt S1 formation, delayed S2 formation, a detector-relative time anchor,
+conditional depth, transverse position, response-class information, and
+triggerless acquisition.
+
+For acquired S1 peaks \(A\), S2 peaks \(B\), and a target-blind physical
+compatibility graph \(G_q\subseteq A\times B\), let \(\mathcal M(q)\) be the
+admissible matchings. A pairing-dependent target \(T\) factors through the
+raw packet exactly when
+
+\[
+M,M'\in\mathcal M(q)
+\quad\Longrightarrow\quad
+T(M)=T(M').
+\]
+
+Unique admissible matching is sufficient when the matching itself is the
+target. Two S1 peaks at \(0,1\), two S2 peaks at \(3,4\), and an allowed
+delay window \([2,4]\) give the smallest exact hostile fixture: both perfect
+matchings are admissible and yield different paired depths.
+
+PandaX-II accidental coincidences show the boundary is physical, not merely
+formal: unrelated isolated S1 and S2 signals can fall inside one allowed
+drift window. XENONnT's triggerless acquisition retains the signal stream
+without thereby predetermining its event partition.
+
+**Updated seed status:** event membership across formed record channels is
+now its own explicit interface duty. A retained common event tag repairs by
+record refinement; a justified unique-matching or single-event regime
+repairs by completion narrowing; an event builder provides calibrated
+inference with a declared error. Standard detector response, DAQ,
+accidental-coincidence analysis, bipartite matching, data association,
+calibration, and classification absorb the component result. Path polarity,
+source identity, selected archive/access, and the response-order gate remain
+open. No successor or paper is promoted. See
+`dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

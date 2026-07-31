@@ -4652,3 +4652,33 @@ TPC physics, select a trigger/event builder/archive, prove universal
 minority-carrier detection, establish head-tail sense or source identity,
 combine duties from different detector platforms, reveal new physics, or
 authorize a later campaign wave.
+
+## HC-DU-183 dual-phase S1/S2 event-pairing boundary
+
+`du_dual_phase_s1_s2_pairing_probe.py` preserves the exact finite controls
+behind the source-pinned dual-phase xenon audit:
+
+- one drift-time window can admit two exact S1/S2 perfect matchings;
+- raw triggerless peaks then fail to factor event pairing and paired depths;
+- a retained common event tag repairs both targets by record refinement;
+- a uniquely matchable compatibility graph repairs conditionally by
+  completion narrowing;
+- correctly paired S1/S2 delay reconstructs depth;
+- S2 alone does not separate detector-relative event time and depth;
+- a lossless triggerless archive does not create pairing provenance;
+- overlapping S2/S1-style response laws do not give zero-error class
+  certification; and
+- a complete detector packet need not factor upstream source identity.
+
+Run:
+
+```bash
+python3 tests/du_dual_phase_s1_s2_pairing_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_dual_phase_s1_s2_pairing_result.json`. Passing establishes
+only finite matching and factorization boundaries. It does not simulate
+xenon response, estimate accidental-coincidence rates, select an event
+builder/archive/observer, certify path polarity or source identity, reveal
+new physics, or authorize a later campaign wave.

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 137
+state_revision: 138
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,15 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-176--180 bank response-host and partial material-record boundaries.
-    HC-DU-181 separates interface selection or family descent, law
-    identification, and event certification in a conditional GU--DU round
-    trip. HC-DU-182 finds one real negative-ion detector joining electronic
-    acquisition and conditional absolute-depth reconstruction while locating
-    the first leaks at carrier/event association, track polarity, source
-    provenance, and selected access. The unabsorbed response-order
-    discriminator remains absent; Wave 3 is ineligible and the portfolio
-    stays no-ready quiescent.
+    HC-DU-176--181 bank the response-host, material-record, and conditional
+    GU--DU boundaries. HC-DU-182 joins acquisition with conditional absolute
+    depth. HC-DU-183 joins prompt timing, delayed depth, position, statistical
+    response, and triggerless acquisition while proving event-pairing
+    ambiguity. No unabsorbed response-order discriminator exists; Wave 3
+    remains ineligible and the portfolio stays no-ready quiescent.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -120,12 +117,11 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165--177 bank formal and interface-nonselection boundaries.
-      HC-DU-178--180 add detector formation, retained spatial trace, and
-      transient overlapping orientation laws. HC-DU-181 separates interface
-      selection, family descent, law identification, and event certification.
-      HC-DU-182 adds a source-pinned acquired 3D/absolute-depth packet and
-      exact clock-depth and event-building boundaries.
+      HC-DU-165--177 bank formal and interface-nonselection boundaries;
+      HC-DU-178--180 add formed detector traces and orientation laws;
+      HC-DU-181 separates selection, descent, identification, and event
+      certification; HC-DU-182--183 add source-pinned acquired packets with
+      exact clock-depth and prompt/delayed event-pairing boundaries.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -161,9 +157,12 @@ programs:
         evidence_ref: explorations/selected-interface-round-trip-factorization-and-gu-conditional-bridge-boundary-2026-07-30.md
       - id: HC-DU-182
         evidence_ref: explorations/time-resolved-tpc-acquired-packet-clock-depth-rank-and-event-building-boundary-2026-07-30.md
+      - id: HC-DU-183
+        evidence_ref: explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md
     remaining_obligations:
       - For a GU-conditioned round trip, select the flag/interface target-blindly or prove observer-target descent across the admitted family.
-      - Extend one source-pinned acquired packet from absolute 3D localization to physically certified event membership and path polarity without cross-platform stitching.
+      - Physically certify common-event membership across prompt and delayed record channels, or freeze the exact completion class and error contract under which it is inferred.
+      - Extend one source-pinned acquired packet from conditional 3D localization to path polarity without cross-platform stitching.
       - Make minority-carrier or other absolute-depth association robust on the declared event class and type finite failures explicitly.
       - Upgrade bounded-error head-tail information to a declared event certificate without treating a known source direction as intrinsic provenance.
       - Physically select event time semantics and the readout/archive/access quotient.
@@ -197,15 +196,21 @@ programs:
       factorization boundary; TPC transport, multi-species negative-ion drift,
       linear observability rank, triggering, acquisition, event building,
       timewalk, detector efficiency, and classification absorb the acquired
-      packet and clock-depth boundary.
+      packet and clock-depth boundary; dual-phase xenon response, triggerless
+      DAQ, accidental-coincidence analysis, bipartite matching, unique
+      matchability, and data association absorb the prompt/delayed pairing
+      boundary.
     cheapest_kill: >-
       HC-DU-181 shows that named invertible interfaces can collide without a
       retained tag and law identification need not certify one event.
-      HC-DU-182 supplies the detector-level kill: a missing or unassociated
-      minority peak restores one-carrier clock-depth ambiguity, raw hits need
-      not determine event membership, and the source-pinned architecture does
-      not join head-tail or source identity. No complete material instrument
-      or physical closed loop follows.
+      HC-DU-182 supplies one detector-level kill: a missing or unassociated
+      minority peak restores one-carrier clock-depth ambiguity. HC-DU-183
+      supplies the sharper multi-channel kill: the same triggerless S1/S2
+      stream can admit two physically compatible event matchings with
+      different depths, and accidental coincidences realize the concern in
+      operating detectors. Neither architecture joins head-tail or source
+      identity. No complete material instrument or physical closed loop
+      follows.
     stop_rule: >-
       Do not construct a generic response tower from shared vocabulary,
       compare unlike response orders without adapters, promote lawful
@@ -233,6 +238,7 @@ programs:
       - explorations/gaseous-tpc-oriented-trace-head-tail-information-and-zero-error-boundary-2026-07-30.md
       - explorations/selected-interface-round-trip-factorization-and-gu-conditional-bridge-boundary-2026-07-30.md
       - explorations/time-resolved-tpc-acquired-packet-clock-depth-rank-and-event-building-boundary-2026-07-30.md
+      - explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
 

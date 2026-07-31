@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "matching_count": 2,
+      "name": "drift_window_can_admit_multiple_exact_s1_s2_matchings",
+      "passed": true
+    },
+    {
+      "name": "raw_triggerless_peaks_do_not_factor_event_pairing",
+      "passed": true
+    },
+    {
+      "name": "raw_triggerless_peaks_do_not_factor_paired_depths",
+      "passed": true
+    },
+    {
+      "name": "retained_common_event_tag_repairs_pairing_fixture",
+      "passed": true
+    },
+    {
+      "matching_count": 1,
+      "name": "unique_compatibility_graph_conditionally_selects_pairing",
+      "passed": true
+    },
+    {
+      "name": "correctly_paired_s1_s2_delay_reconstructs_depth",
+      "passed": true
+    },
+    {
+      "name": "s2_only_peak_does_not_factor_event_time_or_depth",
+      "passed": true
+    },
+    {
+      "name": "lossless_triggerless_archive_does_not_create_pairing",
+      "passed": true
+    },
+    {
+      "minimum_equal_prior_error": {
+        "denominator": 5,
+        "numerator": 1
+      },
+      "name": "overlapping_s2_s1_laws_are_not_zero_error_certificates",
+      "passed": true,
+      "total_variation": {
+        "denominator": 5,
+        "numerator": 3
+      }
+    },
+    {
+      "name": "complete_detector_event_packet_need_not_factor_source_identity",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-183",
+  "earned_boundary": "A dual-phase prompt-delayed packet conditionally reconstructs depth only after S1/S2 event pairing is fixed. A drift-time window can admit multiple perfect matchings, so lossless triggerless acquisition does not itself certify event identity.",
+  "non_claims": [
+    "No xenon detector response or accidental-coincidence rate is simulated.",
+    "No event builder, archive, source, or observer is selected.",
+    "No recoil class is certified with zero error.",
+    "No new physics or ready successor is established."
+  ],
+  "passed_checks": 10,
+  "status": "PASS",
+  "total_checks": 10
+}
