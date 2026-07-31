@@ -219,3 +219,29 @@ Durable artifacts belong in the repository at honest grade. Work cards are
 specifications, not research products. Use absolute paths and explicit-path
 staging; never `git add -A`. Commit and non-force push are normal versioning
 after a coherent validated batch. Publishing remains Joe-gated.
+
+## System Execution Boundary
+
+This repository owns its purpose, governance, authoritative work and Lane
+state, domain methods, code and artifacts, evidence, validation, and acceptance
+decisions. Those surfaces are repository state; System execution does not copy
+or overrule their truth.
+
+A governed CapacityOS execution starts from the Brain or CapacityOS entrypoint.
+System Runtime owns its complete execution envelope, working Run Plan,
+lifecycle trace, central owner claim, receipt, execution history, and transport
+under `repos/private/system-runtime/`. Before the first owner write, validate
+the closed envelope and acquire the owner key through
+`repository-execution-claim.sh`; hold it through owner commit and push
+verification, then release it before final Runtime integration.
+
+A direct repository mount may inspect state or perform explicitly
+human-directed non-System work under this repository's governance. It is not a
+governed CapacityOS Run and must not create repository-local CapacityOS plans,
+receipts, claims, or execution memory. Runtime records execution and returns a
+result to the named owner; it cannot decide domain truth, method validity, or
+acceptance.
+
+Pre-cutover execution-like files retained in this repository are frozen domain
+or publication evidence only when listed by checksum in the Runtime migration
+manifest. New or changed CapacityOS execution records belong in Runtime.
