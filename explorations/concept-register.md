@@ -7742,6 +7742,34 @@ unique graviton witness, selected port, observed effect, hardware action, new
 DU law, successor, or later-wave activation is earned. See
 `finite-time-trapped-detector-process-dilation-nonidentification-and-mediator-record-necessity-2026-07-31.md`.
 
+### 2026-07-31 source–mediator–detector causal-cut boundary
+
+`HC-DU-197` sharpens `HC-DU-196`'s expanded-interface reopener. One named
+midpoint or one mediator reset is not a mediation certificate. In the complete
+binary split-node arena, natural operation leaves four deterministic response
+functions compatible with serial mediation, while natural operation plus
+either one replacement leaves two. Both source-conditioned port replacements
+reconstruct the full response and decide direct source dependence at fixed
+mediator value.
+
+This earns a relative causal-bottleneck certificate under surgical,
+intervention-independent, joined-trial assumptions. It does not earn physical
+ontology: a gravitationally named port and a nongravitational quantum ancilla
+can expose the same complete intervention table or process. Quantum transfer
+requires an informationally complete CP intervention family and process/Markov
+factorization; named-component attribution still requires independently formed
+port lineage or a theory-level selection result.
+
+**Updated seed status:** stop treating a second detector, midpoint value, or
+single reset as the physical reopener. The next conditional object is one
+source–port–receiver packet with interventionally spanning port operations,
+verified surgical isolation, row-level lineage, no-refit transfer, and an
+independent physical port-selection contract. No gravitational mediator,
+complete QFT port, observed causal break, physical selector, Grade-5 remainder,
+new causal theorem, hardware action, successor, or later-wave activation is
+earned. See
+`source-mediator-detector-causal-cut-relative-mediation-certificate-and-ontology-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

@@ -5065,3 +5065,34 @@ invariant, detector-only dilation nonidentification, and interface-expansion
 necessity. It proves no complete continuum detector theory, universal
 direct-action equivalence, unique graviton witness, selected expanded port,
 observed effect, hardware action, new DU law, or later campaign wave.
+
+## HC-DU-197 source–mediator–detector causal-cut boundary
+
+`du_source_mediator_causal_cut_probe.py` preserves the exact finite controls
+behind the relative mediation disposition:
+
+- natural serial mediation and a fixed direct-edge rival have the same
+  source-conditioned detector response;
+- one replacement of the candidate port still leaves the two responses
+  identical;
+- the missing replacement separates them;
+- exhaustive enumeration of all 16 Boolean responses yields the completion
+  count `4 -> 2 -> 1` for natural, one-cut, and complete replacement surfaces;
+- the complete response decides direct source dependence at fixed port value;
+- the operationally complete port record remains identical under two distinct
+  physical implementation labels; and
+- source settings, intervention arms, and detector rows remain explicitly
+  joined.
+
+Run:
+
+```bash
+python3 tests/du_source_mediator_causal_cut_probe.py --write-artifact
+```
+
+The artifact is `artifacts/du_source_mediator_causal_cut_result.json`. Passing
+establishes only one-cut insufficiency, finite relative causal-bottleneck
+identification, and physical-label nonfactorization. It proves no gravitational
+mediator, complete quantum-field port, observed causal break, selected physical
+interface, Grade-5 remainder, hardware action, new causal theorem, or later
+campaign wave.

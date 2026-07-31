@@ -1,0 +1,132 @@
+{
+  "arena": {
+    "candidate_port": "binary mediator M",
+    "candidate_rule": "D=M",
+    "detector": "binary response D",
+    "direct_edge_rival_rule": "D=S AND M",
+    "source": "binary split-node input S",
+    "surgical_arms": [
+      "natural",
+      "replace_zero",
+      "replace_one"
+    ]
+  },
+  "assertions": {
+    "candidate_and_rival_truth_tables_differ": true,
+    "complete_operational_record_does_not_select_physical_label": true,
+    "complete_replacements_select_one_boolean_response": true,
+    "natural_arm_leaves_four_boolean_completions": true,
+    "natural_endpoint_collision": true,
+    "natural_plus_one_cut_leaves_two_completions": true,
+    "natural_plus_zero_cut_leaves_two_completions": true,
+    "one_zero_replacement_still_collides": true,
+    "physical_labels_differ": true,
+    "rival_really_has_direct_source_dependence": true,
+    "second_replacement_separates_hidden_direct_edge": true,
+    "selected_boolean_response_has_no_direct_source_dependence": true,
+    "trial_lineage_is_explicit": true
+  },
+  "candidate_table": {
+    "natural": [
+      0,
+      1
+    ],
+    "replace_one": [
+      1,
+      1
+    ],
+    "replace_zero": [
+      0,
+      0
+    ]
+  },
+  "candidate_truth_table_order_s0m0_s0m1_s1m0_s1m1": [
+    0,
+    1,
+    0,
+    1
+  ],
+  "claim_id": "HC-DU-197",
+  "completion_counts": {
+    "natural_and_both_replacements": 1,
+    "natural_and_replace_one": 2,
+    "natural_and_replace_zero": 2,
+    "natural_only": 4
+  },
+  "direct_edge_rival_table": {
+    "natural": [
+      0,
+      1
+    ],
+    "replace_one": [
+      0,
+      1
+    ],
+    "replace_zero": [
+      0,
+      0
+    ]
+  },
+  "direct_edge_rival_truth_table_order_s0m0_s0m1_s1m0_s1m1": [
+    0,
+    0,
+    0,
+    1
+  ],
+  "disposition": "INTERVENTIONALLY_COMPLETE_PORT_CERTIFIES_RELATIVE_CAUSAL_BOTTLENECK_NOT_PHYSICAL_ONTOLOGY",
+  "matching_masks": {
+    "natural_and_both_replacements": [
+      10
+    ],
+    "natural_and_replace_one": [
+      10,
+      14
+    ],
+    "natural_and_replace_zero": [
+      8,
+      10
+    ],
+    "natural_only": [
+      8,
+      10,
+      12,
+      14
+    ]
+  },
+  "quantum_transfer": "For quantum systems, replace the two Boolean replacements by an informationally complete spanning family of CP interventions and test the quantum process/Markov factorization. One causal break remains only a necessary control; complete process access certifies an operational causal structure, not a unique dilation or named field ontology.",
+  "same_record_different_physical_label": {
+    "completion_labels": [
+      "gravitational_port",
+      "non_gravitational_quantum_ancilla"
+    ],
+    "record": {
+      "arms": [
+        "natural",
+        "replace_zero",
+        "replace_one"
+      ],
+      "detector_table": {
+        "natural": [
+          0,
+          1
+        ],
+        "replace_one": [
+          1,
+          1
+        ],
+        "replace_zero": [
+          0,
+          0
+        ]
+      },
+      "implementation_label_hidden": true,
+      "port_dimension": 2,
+      "source_settings": [
+        0,
+        1
+      ]
+    }
+  },
+  "scope_guard": "This is an exact finite causal-identification and typing result. It proves no gravitational mediator, complete quantum-field port, observed causal break, new causal theorem, physical interface selection, or Grade-5 remainder.",
+  "theorem_statement": "In the frozen binary split-node class, natural behavior plus one replacement arm does not establish that M is a complete causal bottleneck. Source-conditioned responses under a spanning replacement family reconstruct the complete response f(S,M) and thereby decide direct S-to-D functional dependence. Even that complete operational certificate is invariant under replacing a named gravitational port with an operationally identical quantum ancilla, so physical ontology still requires independently formed port lineage or a theory-level selection result."
+}
