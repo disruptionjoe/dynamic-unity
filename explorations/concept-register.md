@@ -7770,6 +7770,35 @@ new causal theorem, hardware action, successor, or later-wave activation is
 earned. See
 `source-mediator-detector-causal-cut-relative-mediation-certificate-and-ontology-boundary-2026-07-31.md`.
 
+### 2026-07-31 constraint-compatible gravity intervention boundary
+
+`HC-DU-198` corrects the physical transfer of `HC-DU-197`. An
+interventionally spanning port family is complete only relative to an
+independently specified lawful action algebra. In the exact constraint-bound
+arena `M=S`, field-mediated `D=M` and reduced direct `D=S` responses agree on
+every lawful source action; the two mathematical cuts that separate them both
+leave the physical constraint surface. Those cuts would change the completion
+class rather than refine the record.
+
+The correction is sector-relative rather than anti-field. An independently
+preparable radiative input lawfully separates a field-response class from a
+near-field-only rival. A direct presentation supplied with the same radiative
+input still reproduces the complete response, so the test does not identify
+field ontology. The six-platform audit found no reviewed gravitational
+proposal with the complete eight-field source--port--receiver packet. A
+cavity/phonon analogue supplies the native packet only as a method positive
+control and transfers no gravitational provenance.
+
+**Updated seed status:** replace arbitrary near-field resets with
+constraint-compatible actions. Preserve a conditional radiative reopener only
+when a candidate provides a physically realizable source or incoming-mode
+family, remote receiver, joined lineage, no-refit target, and declared
+classical-wave/direct-action/material rivals before external hardware. No
+direct-action selection, gravitational field ontology, quantized-gravity
+result, observation, Grade-5 remainder, hardware action, successor, or later
+wave is earned. See
+`constraint-compatible-gravity-interventions-platform-audit-and-radiative-reopener-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

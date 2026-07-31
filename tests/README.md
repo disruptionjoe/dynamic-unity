@@ -5096,3 +5096,32 @@ identification, and physical-label nonfactorization. It proves no gravitational
 mediator, complete quantum-field port, observed causal break, selected physical
 interface, Grade-5 remainder, hardware action, new causal theorem, or later
 campaign wave.
+
+## HC-DU-198 constraint-compatible gravity intervention boundary
+
+`du_constraint_compatible_intervention_probe.py` preserves the exact finite
+controls behind the lawful-action correction and radiative reopener:
+
+- the full binary source--port cube has four points while `M=S` admits two;
+- both off-surface cuts violate the frozen constraint;
+- mediated `D=M` and direct `D=S` presentations agree on every lawful
+  near-field action;
+- the full mathematical cube would separate them only by using off-law cuts;
+- an independently variable radiative input separates a near-field-only rival;
+- a response-equivalent direct presentation survives that radiative test;
+- no reviewed gravitational platform supplies all eight packet fields; and
+- a complete native cavity/phonon analogue transfers no gravity attribution.
+
+Run:
+
+```bash
+python3 tests/du_constraint_compatible_intervention_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_constraint_compatible_intervention_result.json`. Passing
+establishes only the scoped lawful-intervention, constrained-duality,
+radiative-response, ontology, and source-bounded platform-audit boundary. It
+proves no direct-action gravity, field ontology, quantized gravity,
+experimental impossibility, observation, complete gravitational packet,
+Grade-5 remainder, hardware action, new gravity law, or later campaign wave.

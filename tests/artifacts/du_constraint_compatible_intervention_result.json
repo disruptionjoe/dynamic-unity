@@ -1,0 +1,197 @@
+{
+  "assertions": {
+    "analogue_platform_is_complete_native_positive_control": true,
+    "analogue_positive_control_does_not_transfer_gravity_attribution": true,
+    "constraint_surface_has_two_points": true,
+    "full_intervention_cube_has_four_points": true,
+    "mediated_and_direct_models_equal_on_every_lawful_near_field_action": true,
+    "no_reviewed_gravitational_platform_has_complete_packet": true,
+    "off_surface_cuts_violate_mediator_equals_source": true,
+    "radiative_mode_is_independently_variable": true,
+    "radiative_variation_separates_near_field_only_rival": true,
+    "response_equivalent_direct_twin_survives_radiative_test": true,
+    "unlawful_full_cube_would_separate_the_presentations": true
+  },
+  "claim_id": "HC-DU-198",
+  "complete_gravitational_packets": [],
+  "complete_native_packets": [
+    "cavity_or_phonon_analogue"
+  ],
+  "disposition": "CONSTRAINT_COMPATIBLE_INTERVENTIONS_REPLACE_ARBITRARY_PORT_CUT_RADIATIVE_SECTOR_REOPENS_RELATIVE_RESPONSE_NOT_ONTOLOGY",
+  "near_field": {
+    "constraint": "M=S",
+    "direct_response_on_full_cube": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "direct_response_on_lawful_surface": [
+      0,
+      1
+    ],
+    "full_mathematical_cube": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "lawful_intervention_surface": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "mediated_response_on_full_cube": [
+      0,
+      1,
+      0,
+      1
+    ],
+    "mediated_response_on_lawful_surface": [
+      0,
+      1
+    ],
+    "unlawful_port_cuts": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        0
+      ]
+    ]
+  },
+  "platform_audit": {
+    "acoustic_resonator_ligo_correlated": {
+      "explicit_rivals": 2,
+      "gravity_transfer": true,
+      "independent_port_operations": 0,
+      "no_refit_target": 2,
+      "physical_port_selection": 1,
+      "receiver": 2,
+      "row_lineage": 1,
+      "sector": "radiative_receiver_proposal",
+      "source_family": 2,
+      "surgical_isolation": 0
+    },
+    "bmv_near_field": {
+      "explicit_rivals": 2,
+      "gravity_transfer": true,
+      "independent_port_operations": 0,
+      "no_refit_target": 2,
+      "physical_port_selection": 1,
+      "receiver": 2,
+      "row_lineage": 1,
+      "sector": "constraint_bound_near_field",
+      "source_family": 2,
+      "surgical_isolation": 0
+    },
+    "cavity_or_phonon_analogue": {
+      "explicit_rivals": 2,
+      "gravity_transfer": false,
+      "independent_port_operations": 2,
+      "no_refit_target": 2,
+      "physical_port_selection": 2,
+      "receiver": 2,
+      "row_lineage": 2,
+      "sector": "native_nongravitational_positive_control",
+      "source_family": 2,
+      "surgical_isolation": 2
+    },
+    "harmonic_trap_graviton_detector": {
+      "explicit_rivals": 2,
+      "gravity_transfer": true,
+      "independent_port_operations": 0,
+      "no_refit_target": 1,
+      "physical_port_selection": 1,
+      "receiver": 2,
+      "row_lineage": 0,
+      "sector": "radiative_receiver_proposal",
+      "source_family": 1,
+      "surgical_isolation": 0
+    },
+    "massive_material_mediator": {
+      "explicit_rivals": 2,
+      "gravity_transfer": false,
+      "independent_port_operations": 2,
+      "no_refit_target": 2,
+      "physical_port_selection": 2,
+      "receiver": 2,
+      "row_lineage": 1,
+      "sector": "controlled_material_mediator",
+      "source_family": 1,
+      "surgical_isolation": 1
+    },
+    "wide_source_phase": {
+      "explicit_rivals": 2,
+      "gravity_transfer": true,
+      "independent_port_operations": 0,
+      "no_refit_target": 2,
+      "physical_port_selection": 1,
+      "receiver": 1,
+      "row_lineage": 0,
+      "sector": "source_probe_phase",
+      "source_family": 2,
+      "surgical_isolation": 0
+    }
+  },
+  "platform_audit_scale": {
+    "absent": 0,
+    "full": 2,
+    "partial": 1
+  },
+  "radiative_sector": {
+    "lawful_surface": [
+      {
+        "direct_with_same_input_response": 0,
+        "field_response": 0,
+        "incoming_mode": 0,
+        "near_field_only_response": 0,
+        "source": 0
+      },
+      {
+        "direct_with_same_input_response": 1,
+        "field_response": 1,
+        "incoming_mode": 1,
+        "near_field_only_response": 0,
+        "source": 0
+      },
+      {
+        "direct_with_same_input_response": 1,
+        "field_response": 1,
+        "incoming_mode": 0,
+        "near_field_only_response": 1,
+        "source": 1
+      },
+      {
+        "direct_with_same_input_response": 0,
+        "field_response": 0,
+        "incoming_mode": 1,
+        "near_field_only_response": 1,
+        "source": 1
+      }
+    ],
+    "ontology_boundary": "D=S XOR R has both a field-mediated and a response-equivalent direct presentation, so the response test does not select ontology",
+    "positive_discriminator": "incoming R=1 separates D=S XOR R from D=S"
+  },
+  "scope_guard": "This exact finite result does not prove that gravity is direct, that gravitational radiation is quantized, that a reviewed proposal is impossible, or that a radiative response identifies a field ontology. The platform audit is source-bounded and earns no observation, hardware action, Grade-5 remainder, or active successor.",
+  "theorem_statement": "An intervention identifies a target only relative to the lawful action algebra of a frozen physical completion class. Enlarging that algebra with operations that violate a field constraint changes the physical problem rather than refining its record. When M is fixed by S, mediated and direct presentations may agree on every lawful near-field action even though arbitrary off-law cuts would separate them. An independently preparable radiative mode can reopen a lawful response-class discriminator, but equal radiative response still does not select field ontology."
+}
