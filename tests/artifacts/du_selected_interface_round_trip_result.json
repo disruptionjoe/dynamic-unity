@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "name": "each_named_interface_has_a_conditional_decoder",
+      "passed": true
+    },
+    {
+      "name": "conditional_decoders_do_not_imply_untagged_decoder",
+      "passed": true
+    },
+    {
+      "name": "retained_interface_tag_repairs_by_record_enlargement",
+      "passed": true
+    },
+    {
+      "name": "selected_informative_interface_closes_law_round_trip",
+      "passed": true
+    },
+    {
+      "name": "physical_selection_does_not_imply_identifiability",
+      "passed": true
+    },
+    {
+      "name": "selector_not_needed_when_target_descends_across_family",
+      "passed": true
+    },
+    {
+      "minimum_equal_prior_error": {
+        "denominator": 5,
+        "numerator": 1
+      },
+      "name": "law_identifiability_does_not_imply_event_certificate",
+      "passed": true,
+      "total_variation": {
+        "denominator": 5,
+        "numerator": 3
+      }
+    },
+    {
+      "name": "disjoint_target_supports_give_exact_event_decoder",
+      "passed": true
+    },
+    {
+      "downstream_total_variation": {
+        "denominator": 10,
+        "numerator": 3
+      },
+      "name": "common_downstream_channel_contracts_target_information",
+      "passed": true,
+      "upstream_total_variation": {
+        "denominator": 5,
+        "numerator": 3
+      }
+    },
+    {
+      "name": "common_readout_cannot_repair_equal_upstream_laws",
+      "passed": true
+    },
+    {
+      "name": "physical_round_trip_requires_gauge_descent",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-181",
+  "nonclaims": [
+    "No GU flag or source action is constructed.",
+    "No detector, retained archive, observer, or capability is selected.",
+    "No finite fixture establishes new physics or ontology.",
+    "A retained interface tag is record enlargement, not free repair.",
+    "Law-level identifiability is not one-event certification."
+  ],
+  "run_id": "RUN-20260731-022601-selected-interface-round-trip-gate",
+  "scope": "finite exact factorization and support controls only",
+  "summary": {
+    "passed": 11,
+    "status": "PASS",
+    "total": 11
+  }
+}

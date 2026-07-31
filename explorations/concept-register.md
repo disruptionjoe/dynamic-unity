@@ -7226,6 +7226,61 @@ theory absorb the result. The response-order gate remains unmet and no
 successor is selected. See
 `gaseous-tpc-oriented-trace-head-tail-information-and-zero-error-boundary-2026-07-30.md`.
 
+### 2026-07-30 selected-interface GU--DU round-trip boundary
+
+`HC-DU-181` formalizes the conditional closed loop:
+
+```text
+source-owned action
+-> selected flag or target descent across the flag family
+-> selected material instrument and retained record law
+-> DU reconstruction
+-> observer-accessible physical target.
+```
+
+For a selected record-law map \(K_s\) and target \(T\), an exact law-level
+decoder exists iff
+
+\[
+\ker K_s\subseteq\ker T.
+\]
+
+Named-interface decoders do not imply one physical record-only decoder. For
+an unselected family \(\{K_i\}\), the exact criterion is
+
+\[
+K_i(m)=K_j(m')
+\quad\Longrightarrow\quad
+T(m)=T(m')
+\]
+
+for every admitted interface and completion pair. The direct/flip finite
+control makes both named interfaces perfectly invertible while the untagged
+family remains ambiguous. Retaining the interface tag repairs the example by
+record enlargement.
+
+The swing also preserves an important alternative to dynamic flag selection:
+if the complete target descends across every admissible flag, the unselected
+flag direction is irrelevant or gauge for that target. This must be proved
+for the full dynamics, records, interventions, and capabilities; covariance
+alone does not earn it.
+
+Law-level identifiability remains weaker than one-event certification.
+Distinct overlapping laws permit exact decoding from the complete law while
+forbidding zero-error decoding from one realized record. Exact event
+certification requires disjoint supports across target classes.
+
+**Updated seed status:** the GU-to-record-to-DU round trip is retained as a
+conditional architecture and explicit theorem target. At
+`gu-formalization@c144ab0`, neither a source-owned flag selector nor
+cross-flag target descent is established. Dynamic Unity has no one
+source-selected complete material instrument/archive/access packet. The
+component mathematics is fully absorbed by comparison of statistical
+experiments, sufficiency, identifiability, inverse problems, and data
+processing. No successor, physical bridge, ontology, or paper is promoted.
+See
+`selected-interface-round-trip-factorization-and-gu-conditional-bridge-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

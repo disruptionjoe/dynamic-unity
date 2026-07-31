@@ -4586,3 +4586,38 @@ boundaries. It does not model TPC physics, prove persistent material
 orientation, certify any experimental event with zero error, establish path
 membership, event time, particle identity, selected calibration/readout,
 new physics, or later scientific action.
+
+## HC-DU-181 selected-interface round-trip boundary
+
+`du_selected_interface_round_trip_probe.py` preserves the exact finite
+controls behind the conditional GU-to-record-to-DU closed loop:
+
+- each of two named direct/flipped interfaces has its own exact decoder;
+- the same pair fails to admit one untagged decoder because cross-interface
+  record-law collisions mix target values;
+- retaining interface identity repairs the collision by enlarging the
+  record packet;
+- a selected informative interface closes the law-level round trip;
+- selecting a constant interface does not create identifiability;
+- no selector is needed when the target descends across the complete
+  interface family;
+- distinct overlapping laws identify the target at law level while
+  forbidding a zero-error event decoder;
+- disjoint target-conditioned supports give an exact event decoder;
+- a common noisy readout contracts total variation from \(3/5\) to \(3/10\);
+- a common readout cannot repair equal upstream laws; and
+- physical record and target maps must descend through the declared gauge
+  quotient.
+
+Run:
+
+```bash
+python3 tests/du_selected_interface_round_trip_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_selected_interface_round_trip_result.json`. Passing establishes
+only finite factorization, cross-interface ambiguity, support separation,
+gauge-descent, and data-processing boundaries. It does not construct a GU
+flag or source action, select a detector/archive/observer, prove a physical
+GU--DU round trip, establish new physics, or authorize a later campaign wave.
