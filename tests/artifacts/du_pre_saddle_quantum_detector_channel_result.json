@@ -1,0 +1,121 @@
+{
+  "checks": [
+    {
+      "maximum_error": 0.0,
+      "name": "classical_random_hamiltonian_channel_is_unital",
+      "passed": true
+    },
+    {
+      "image_of_identity": [
+        [
+          1.23,
+          0.0
+        ],
+        [
+          0.0,
+          0.77
+        ]
+      ],
+      "name": "vacuum_relaxation_channel_is_nonunital",
+      "passed": true
+    },
+    {
+      "name": "nonunital_relaxation_excludes_random_unitary_force_only_rival",
+      "passed": true,
+      "separation": 0.22999999999999998
+    },
+    {
+      "downward_probability": 0.23,
+      "name": "vacuum_channel_has_downward_without_upward_transition",
+      "passed": true,
+      "upward_probability": 0.0
+    },
+    {
+      "absorption_weights": [
+        0,
+        1,
+        7
+      ],
+      "detector_selection_rule": "delta_n_detector=plus_or_minus_2",
+      "emission_weights": [
+        1,
+        2,
+        8
+      ],
+      "name": "bosonic_transition_weights_retain_vacuum_spontaneous_term",
+      "passed": true
+    },
+    {
+      "name": "real_stationary_classical_force_has_symmetric_rate_surface",
+      "negative_frequency_weights": [
+        0.8,
+        2.1,
+        4.7
+      ],
+      "passed": true,
+      "positive_frequency_weights": [
+        0.8,
+        2.1,
+        4.7
+      ]
+    },
+    {
+      "name": "classical_dissipative_population_process_copies_energy_records",
+      "passed": true,
+      "transition_matrix": [
+        [
+          1.0,
+          0.23
+        ],
+        [
+          0.0,
+          0.77
+        ]
+      ]
+    },
+    {
+      "kraus_completeness_error": 0.0,
+      "maximum_error": 0.0,
+      "name": "direct_quantum_ancilla_copies_complete_endpoint_channel",
+      "passed": true
+    },
+    {
+      "detunings": [
+        0.0,
+        0.25,
+        0.9
+      ],
+      "name": "finite_switching_replaces_delta_squared_with_bounded_window",
+      "passed": true,
+      "window_values": [
+        11.559999999999999,
+        10.88053933168057,
+        4.930057199298881
+      ]
+    },
+    {
+      "name": "harmonic_trap_supplies_a_two_gap_resonance_surface",
+      "passed": true,
+      "resonant_field_frequencies": [
+        2.6,
+        4.8
+      ],
+      "trap_frequencies": [
+        1.3,
+        2.4
+      ]
+    }
+  ],
+  "claim_id": "HC-DU-195",
+  "disposition": "RANDOM_UNITARY_FORCE_RIVAL_KILLED_ENDPOINT_AND_FIELD_ATTRIBUTION_OPEN",
+  "earned_boundary": "Vacuum downward-without-upward relaxation is nonunital and therefore excludes an exogenous classical random-Hamiltonian force as the complete detector model. It does not identify a gravitational field: a classical dissipative population process copies energy records and a direct quantum ancilla copies the complete endpoint channel. The published harmonic-trap proposal supplies the gap and selection rule, but its delta-squared infinite-time expression is not a finite acquired probability contract.",
+  "non_claims": [
+    "No claim is made that the harmonic-trap calculation is incorrect.",
+    "No universal semiclassical- or classical-gravity no-go is established.",
+    "No endpoint decay statistic uniquely identifies a graviton or field mediator.",
+    "No observed effect, finite apparatus packet, hardware action, new DU law, or successor is selected."
+  ],
+  "passed_checks": 10,
+  "status": "PASS",
+  "total_checks": 10
+}

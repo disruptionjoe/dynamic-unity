@@ -7687,6 +7687,33 @@ witness, observed effect, apparatus, selected material interface, hardware
 action, new DU law, successor, or later-wave activation is earned. See
 `graviton-noise-commutative-gaussian-record-no-go-and-quantum-detector-reopener-2026-07-31.md`.
 
+### 2026-07-31 pre-saddle quantum-detector channel boundary
+
+`HC-DU-195` executes the exact quantum-detector reopener left by `HC-DU-194`.
+A 2024 Physical Review D follow-on already adds a harmonic trap to the
+Parikh--Wilczek--Zahariade detector. It quantizes the trap and one gravitational
+mode and supplies $\Delta n_{\rm detector}=\pm2$, resonance
+$\omega=2\omega_0$, and $\eta_G$ versus $\eta_G+1$ absorption/emission weights.
+The vacuum therefore has downward transition without upward transition.
+
+This asymmetry is a real channel-class discriminator: an exogenous classical
+random Hamiltonian gives a random-unitary and hence unital channel, whereas
+vacuum relaxation is nonunital. The stronger field attribution fails. A
+classical decay process reproduces the energy-basis record and a direct quantum
+ancilla reproduces the complete amplitude-damping endpoint channel. The
+source's displayed infinite-time probability retains $\delta^2$ and is not yet
+a finite acquired packet; finite switching gives a bounded sinc-squared window.
+
+**Updated seed status:** the gap is source-supplied, not hypothetical. Preserve
+the trapped detector as a conditional finite-time process target, but state the
+positive as a random-unitary obstruction rather than a graviton witness. Reopen
+with two fixed gaps, coherence-sensitive preparation/readout, source deletion,
+ordinary damping and direct-quantum rivals, and a selected mediator-facing
+record. No universal semiclassical-gravity no-go, unique graviton witness,
+observed effect, finite apparatus, hardware action, new DU law, successor, or
+later-wave activation is earned. See
+`pre-saddle-quantum-detector-random-unitary-obstruction-and-gravitational-gap-selection-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

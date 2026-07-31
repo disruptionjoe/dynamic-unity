@@ -5004,3 +5004,31 @@ classical realizations, ordering-erasure boundary, and quantum-process
 reopener. It proves no source-paper error, universal stochastic-gravity no-go,
 unique quantum-gravity witness, observed effect, apparatus, selected material
 interface, hardware action, new DU law, or later campaign wave.
+
+## HC-DU-195 pre-saddle quantum-detector channel boundary
+
+`du_pre_saddle_quantum_detector_channel_probe.py` preserves the exact finite
+controls behind the harmonic-trap source disposition:
+
+- every classical random-Hamiltonian mixture is unital;
+- vacuum amplitude damping is nonunital and lies outside that rival class;
+- downward-without-upward transition retains the bosonic vacuum term;
+- a real stationary classical force has an even rate surface;
+- an ordinary classical decay process copies the energy-basis record;
+- a direct quantum ancilla copies the complete endpoint channel;
+- finite switching replaces delta squared with a bounded resonance window; and
+- two independently fixed trap gaps select two resonance frequencies.
+
+Run:
+
+```bash
+python3 tests/du_pre_saddle_quantum_detector_channel_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_pre_saddle_quantum_detector_channel_result.json`. Passing
+establishes only the scoped random-unitary obstruction, endpoint attribution
+stop, harmonic-trap source correction, and finite-time contract boundary. It
+proves no universal classical- or semiclassical-gravity no-go, unique graviton
+witness, observed effect, finite apparatus, selected mediator record, hardware
+action, new DU law, or later campaign wave.
