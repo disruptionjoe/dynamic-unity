@@ -7086,6 +7086,44 @@ See
 and
 `common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md`.
 
+### 2026-07-30 bubble-chamber material-event record boundary
+
+`HC-DU-178` supplies a source-pinned material positive that the abstract
+response-host audit did not. In a prepared superheated-liquid bubble chamber,
+localized deposited energy can drive a metastable blank state into a
+supercritical bubble. The bubble grows, remains physically available through
+the acquisition horizon, and is erased when hydraulic recompression resets
+the chamber. Formation, one-run material occurrence, finite retention, reset,
+and a probabilistic source-response law are therefore physically joined
+before digital readout.
+
+The correct target statement is:
+
+```text
+bubble
+  = material record of detector-level nucleation
+  != exact certificate of the upstream particle history.
+```
+
+Formally, a retained record \(r_N\) may satisfy
+\(\ker r_N\subseteq\ker n\) for the nucleation target while failing
+\(\ker r_N\subseteq\ker s\) for an upstream source target. In the stochastic
+form, zero-error source certification requires mutually singular
+source-conditioned record laws. Bubble-chamber efficiency below one and
+overlap among recoil, alpha, wall, and interface responses defeat that
+condition even though optical and acoustic records support useful
+bounded-error classification.
+
+**Updated seed status:** a material record is neither restricted to classical
+data files nor automatically a unique source biography. Every future record
+passport must name the target it certifies: detector event, upstream source,
+material history, or calibrated event class. Cameras, acoustic transducers,
+trigger logic, calibration, logging, and storage are separate access/archive
+interfaces. Standard nucleation and detector science absorb the result.
+Because no invariant unabsorbed response-order discriminator follows,
+Wave 3 remains ineligible and no successor is selected. See
+`bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
