@@ -1,0 +1,79 @@
+{
+  "checks": [
+    {
+      "name": "one_packet_can_join_depth_timing_and_orientation_statistic",
+      "passed": true
+    },
+    {
+      "determinant": {
+        "denominator": 2,
+        "numerator": 1
+      },
+      "name": "distinct_carrier_velocities_retain_full_depth_rank",
+      "passed": true
+    },
+    {
+      "name": "missing_minority_peak_restores_depth_ambiguity",
+      "passed": true
+    },
+    {
+      "forward_mean": {
+        "denominator": 4,
+        "numerator": 1
+      },
+      "name": "ensemble_mean_tracks_reversal",
+      "passed": true,
+      "reverse_mean": {
+        "denominator": 4,
+        "numerator": -1
+      }
+    },
+    {
+      "minimum_equal_prior_error": {
+        "denominator": 8,
+        "numerator": 3
+      },
+      "name": "ensemble_asymmetry_does_not_give_zero_error_event_sense",
+      "passed": true,
+      "total_variation": {
+        "denominator": 4,
+        "numerator": 1
+      }
+    },
+    {
+      "four_event_equal_prior_error": {
+        "denominator": 512,
+        "numerator": 81
+      },
+      "name": "replication_strengthens_ensemble_detection_only",
+      "passed": true
+    },
+    {
+      "name": "disjoint_orientation_laws_are_zero_error_positive_control",
+      "passed": true
+    },
+    {
+      "name": "known_source_geometry_repairs_ambiguous_event_by_side_information",
+      "passed": true
+    },
+    {
+      "name": "joined_depth_head_tail_packet_need_not_factor_species",
+      "passed": true
+    },
+    {
+      "name": "triggered_acquisition_does_not_force_event_orientation",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-184",
+  "earned_boundary": "One physical packet can join absolute-depth carriers and a head-tail statistic. A reversal-sensitive ensemble mean does not imply zero-error orientation for one event; event-level certification requires disjoint laws or an explicit error.",
+  "non_claims": [
+    "No DRIFT detector response or calibration is simulated.",
+    "No reported systematic effect is resolved.",
+    "No event source or recoil species is certified.",
+    "No new physics or ready successor is established."
+  ],
+  "passed_checks": 10,
+  "status": "PASS",
+  "total_checks": 10
+}

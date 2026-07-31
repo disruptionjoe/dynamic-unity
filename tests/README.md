@@ -4682,3 +4682,32 @@ only finite matching and factorization boundaries. It does not simulate
 xenon response, estimate accidental-coincidence rates, select an event
 builder/archive/observer, certify path polarity or source identity, reveal
 new physics, or authorize a later campaign wave.
+
+## HC-DU-184 DRIFT joined depth/head-tail boundary
+
+`du_drift_joined_depth_head_tail_probe.py` preserves the exact finite
+controls behind the source-pinned DRIFT-IId audit:
+
+- one packet can join multi-carrier depth timing and a head-tail statistic;
+- distinct carrier velocities retain full depth rank;
+- a missing minority peak restores the one-carrier depth ambiguity;
+- orientation-conditioned ensemble means can reverse while event laws
+  overlap with nonzero optimal error;
+- replication strengthens ensemble detection without certifying one event;
+- disjoint laws give the exact zero-error positive control;
+- known calibration-source geometry repairs an ambiguous event only by
+  imported side information;
+- the joined packet need not factor recoil species; and
+- triggered acquisition does not force path orientation.
+
+Run:
+
+```bash
+python3 tests/du_drift_joined_depth_head_tail_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_drift_joined_depth_head_tail_result.json`. Passing establishes
+only finite rank, binary-testing, and factorization boundaries. It does not
+simulate DRIFT, resolve its reported systematics, certify any event's path
+sense or source, reveal new physics, or authorize a later campaign wave.

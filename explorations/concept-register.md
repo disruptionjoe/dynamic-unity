@@ -7366,6 +7366,42 @@ source identity, selected archive/access, and the response-order gate remain
 open. No successor or paper is promoted. See
 `dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md`.
 
+### 2026-07-30 joined absolute-depth/head-tail event boundary
+
+`HC-DU-184` corrects the earlier cross-platform assessment. One DRIFT-IId
+configuration physically joins oxygen-induced minority-carrier absolute
+depth, triggered waveform acquisition, and a head-tail ionization-asymmetry
+response. Physical depth and path-polarity information therefore coexist in
+one acquired packet on the source's admitted event class.
+
+The measured head-tail claim is ensemble-scoped. For event statistic \(A\)
+with orientation-conditioned laws \(\mu_+,\mu_-\), unequal means establish
+different laws and physical orientation information. Equal-prior one-event
+error remains
+
+\[
+P_e^\star
+=
+\frac{1-\operatorname{TV}(\mu_+,\mu_-)}2.
+\]
+
+Opposite ensemble means do not imply zero error. The exact fixture
+\(\mu_+=(0,3/4,1/4)\) and \(\mu_-=(1/4,3/4,0)\) on
+\(A\in\{-1,0,+1\}\) has means \(\pm1/4\), total variation \(1/4\), and
+optimal one-event error \(3/8\). Repetition strengthens the ensemble result
+without changing the single-event certificate.
+
+**Updated seed status:** the search for one platform joining absolute depth
+and physical polarity information closes positively. The remaining duty is
+an orientation-conditioned event law, calibrated likelihood, or disjoint
+support establishing a declared per-event error or certificate. Known
+neutron-source geometry remains side information. Low-\(z\) carrier overlap,
+diffusion/trigger losses, recoil-species ambiguity, and reported systematics
+limit the positive. Directional TPC, stopping-power, detector-calibration,
+binary-testing, efficiency, and systematic-analysis theory absorb the
+components. No successor or paper is promoted. See
+`drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
