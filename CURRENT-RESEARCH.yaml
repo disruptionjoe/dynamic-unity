@@ -1,9 +1,9 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 140
-as_of: '2026-07-30'
+state_revision: 141
+as_of: '2026-07-31'
 authority: >-
-  Joe direct chat through 2026-07-30; governed run receipts preserve each
+  Joe direct chat through 2026-07-31; governed run receipts preserve each
   explicit authorization.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
@@ -82,11 +82,10 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-176--184 bank response-host, material-record, GU--DU, acquired
-    detector-packet, event-pairing, and polarity boundaries. HC-DU-185
-    separates representational from predictive absorption and corrects the
-    response reopener. No source-pinned no-refit excess target exists yet;
-    Wave 3 stays ineligible.
+    HC-DU-176--184 bank response-host and material-interface boundaries.
+    HC-DU-185/186 correct absorption, predictive-excess, and modular-interface
+    gates. CSL is the closest conditional packet; Chen--Giacomini has the
+    highest conditional ceiling. Neither is observed; Wave 3 stays ineligible.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -116,9 +115,9 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165--184 bank formal, detector, interface, round-trip, acquired
-      packet, event-pairing, and ensemble/event polarity boundaries.
-      HC-DU-185 corrects the predictive-absorption gate.
+      HC-DU-165--184 bank formal and physical-interface boundaries.
+      HC-DU-185/186 correct predictive absorption, excess, and modular
+      acquisition gates.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -160,6 +159,8 @@ programs:
         evidence_ref: explorations/drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md
       - id: HC-DU-185
         evidence_ref: explorations/representational-versus-predictive-absorption-and-response-order-reopener-correction-2026-07-30.md
+      - id: HC-DU-186
+        evidence_ref: explorations/predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md
     remaining_obligations:
       - For a GU-conditioned round trip, select the flag/interface target-blindly or prove observer-target descent across the admitted family.
       - Physically certify common-event membership across prompt and delayed record channels, or freeze the exact completion class and error contract under which it is inferred.
@@ -167,7 +168,7 @@ programs:
       - Make minority-carrier or other absolute-depth association robust on the declared event class and type finite failures explicitly.
       - Upgrade bounded-error head-tail information to a declared event certificate without treating a known source direction as intrinsic provenance.
       - Physically select event time semantics and the readout/archive/access quotient.
-      - Lock a finite response coefficient, scaling, symmetry relation, or statistic that varies across the matched incumbent completion fibre, without refit and through a physically selected interface.
+      - Lock a finite response target that is not predictively absorbed by the matched incumbent fibre and preserve it through a separately frozen physical acquisition channel without refit.
       - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
       - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
     typed_dependencies:
@@ -184,28 +185,26 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Standard response/process theory absorbs the abstract host but not every
-      law it can represent. Model comparison, preregistration, identifiability,
-      and no-refit prediction absorb the novelty test. Detector physics,
-      acquisition, tracking, matching, calibration, binary testing,
-      efficiency, and systematics absorb the material-packet boundaries.
+      Standard response/process theory absorbs the host but not every law it
+      represents. Comparison of experiments, sufficiency, data processing,
+      identifiability, and no-refit design absorb the prediction/interface
+      gate. Detector physics absorbs the material-packet boundaries.
     cheapest_kill: >-
-      Mere encodability or after-fact parameter choice supplies no prediction.
-      Untagged interfaces and S1/S2 matchings can collide across targets;
-      missing carriers restore clock-depth ambiguity; opposite ensemble means
-      can coexist with nonzero one-event error. No complete loop follows.
+      Mere encodability or after-fact parameter choice supplies no prediction;
+      a coarse readout can erase real excess; and a single configuration can
+      confound one challenger term with one free nuisance. No observed
+      no-refit response packet closes the loop.
     stop_rule: >-
-      Do not mistake representability for predictive absorption, permit
-      target-dependent refitting, compare unlike response orders without
-      adapters, promote lawful response into a formed record, or treat a
-      conditional decoder as physical interface selection. No later campaign
-      wave is executable.
+      Do not mistake representability for prediction, require an incumbent
+      fibre to vary before rival exclusion counts, require one mechanism to
+      select law and apparatus, refit after reveal, or promote lawful response
+      into a formed record. No later campaign wave is executable.
     reopen_rule: >-
-      Reopen Wave 3 only when one source-pinned theory both selects at least
-      one missing physical-interface duty and locks a finite response target
-      that varies across the matched incumbent completion fibre, without
-      target-dependent refit. The QEC branch separately requires its frozen
-      source-pinned complete packet.
+      Reopen Wave 3 only when one joined source-pinned physical contract locks
+      a target not predictively absorbed by the matched incumbent fibre and
+      acquires it through a separately frozen, physically formed interface
+      without target-dependent refit. The QEC branch separately requires its
+      frozen source-pinned complete packet.
     local_computation_boundary: >-
       Primary-source reconstruction and formal comparison first. Local
       computation may verify one exact equivalence, counterexample, or proof
@@ -224,6 +223,7 @@ programs:
       - explorations/time-resolved-tpc-acquired-packet-clock-depth-rank-and-event-building-boundary-2026-07-30.md
       - explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md
       - explorations/drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md
+      - explorations/predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
 

@@ -1,0 +1,59 @@
+{
+  "checks": [
+    {
+      "name": "absorbed_classification",
+      "passed": true
+    },
+    {
+      "name": "sharpening_classification",
+      "passed": true
+    },
+    {
+      "name": "rival_excluding_classification",
+      "passed": true
+    },
+    {
+      "name": "three_cases_are_exhaustive_for_nonempty_incumbent",
+      "passed": true
+    },
+    {
+      "name": "resolving_interface_preserves_rival_excess",
+      "passed": true
+    },
+    {
+      "name": "coarse_interface_can_erase_rival_excess",
+      "passed": true
+    },
+    {
+      "name": "interface_cannot_manufacture_difference_from_equal_targets",
+      "passed": true
+    },
+    {
+      "name": "joined_contract_does_not_require_one_selector_for_both_modules",
+      "passed": true
+    },
+    {
+      "name": "frozen_affine_nuisance_has_zero_second_difference",
+      "passed": true
+    },
+    {
+      "name": "quadratic_response_adds_no_refit_shape_excess",
+      "passed": true
+    },
+    {
+      "name": "single_configuration_is_absorbed_by_free_scalar_nuisance",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-186",
+  "earned_boundary": "For a locked singleton challenger target and nonempty incumbent target set, predictive absorption, predictive sharpening, and rival-excluding excess are exhaustive. A separately frozen physical readout may preserve or erase the distinction; it need not be selected by the same mechanism that selects the law.",
+  "non_claims": [
+    "No CSL or quantum-gravity prediction is validated.",
+    "No nuisance family is physically complete.",
+    "No apparatus or acquisition lineage is selected.",
+    "No observed excess, new physics, or ready successor is earned."
+  ],
+  "passed_checks": 11,
+  "status": "PASS",
+  "total_checks": 11
+}

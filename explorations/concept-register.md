@@ -7432,6 +7432,36 @@ challenger without refit, and is acquired through a physically selected
 interface. No such candidate is selected yet. See
 `representational-versus-predictive-absorption-and-response-order-reopener-correction-2026-07-30.md`.
 
+### 2026-07-31 predictive-excess trichotomy and modular interface
+
+`HC-DU-186` corrects the residual overconstraint in `HC-DU-185`. For
+nonempty incumbent target image \(\mathcal I\) and locked singleton
+challenger \(h\), exactly one relation holds:
+
+\[
+\mathcal I=\{h\}
+\quad\text{(absorption)},\qquad
+h\in\mathcal I,\ |\mathcal I|>1
+\quad\text{(sharpening)},\qquad
+h\notin\mathcal I
+\quad\text{(rival exclusion)}.
+\]
+
+The third case includes two theories making different definite predictions;
+incumbent target variation is not required. A frozen physical acquisition
+channel can preserve or erase either distinction. The response law and
+apparatus channel may be selected by different mechanisms provided one
+source-pinned no-refit contract types their composition and acquisition
+preserves the target difference.
+
+**Updated seed status:** reversible-pointer CSL is the closest conditional
+experiment packet; the Chen--Giacomini phase surface has the highest
+conditional ceiling; DRIFT supplies physical interface information without
+a new-law target. None is observed or promoted. Wave 3 now reopens for either
+predictive sharpening or rival-excluding excess through a separately frozen
+physical interface. See
+`predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

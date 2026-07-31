@@ -4737,3 +4737,30 @@ The artifact is
 establishes only the predictive-absorption and coordinate boundaries. It does
 not refute a standard response formalism, select a physical coefficient or
 interface, reveal new physics, or authorize a later campaign wave.
+
+## HC-DU-186 predictive-excess trichotomy
+
+`du_predictive_excess_trichotomy_probe.py` preserves the exact controls behind
+the corrected modular experiment gate:
+
+- absorption, predictive sharpening, and rival-excluding excess are
+  exhaustive for one locked challenger target;
+- a resolving interface preserves rival excess while a coarse interface can
+  erase it;
+- a readout cannot create a distinction from identical raw predictions;
+- response and acquisition selectors can be independently frozen;
+- a quadratic three-configuration response escapes a preregistered affine
+  nuisance family by its second finite difference; and
+- one free scalar nuisance absorbs one single-configuration scalar delta.
+
+Run:
+
+```bash
+python3 tests/du_predictive_excess_trichotomy_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_predictive_excess_trichotomy_result.json`. Passing establishes
+only finite prediction-relation, readout, modular-composition, and
+response-shape boundaries. It validates no CSL or gravity law, complete
+nuisance class, observed anomaly, new physics, or later campaign wave.
