@@ -7552,6 +7552,29 @@ quantized-field/probe self-response candidate. No hardware, magnitude, paper,
 new law, successor, or Wave-3 activation is earned. See
 `quantum-gravity-phase-family-source-deletion-uv-and-preparation-boundary-2026-07-31.md`.
 
+### 2026-07-31 wide-source local-energy spectral boundary
+
+`HC-DU-190` tests the preparation premise behind the remaining high-ceiling
+Chen--Giacomini branch. A spatially wide stationary state is an eigenstate of
+the global Hamiltonian, but need not be a simultaneous eigenstate of finitely
+smeared local energy-density cells. In the exact two-cell model with a
+positive global source Hamiltonian,
+hopping makes those cells noncommuting and eliminates all joint eigenprofiles;
+zero mean current does not repair this. In the commuting limit, exact
+one-particle profiles are localized and their cross-source phase is exactly the
+lattice Newton kernel. Coarse-graining makes total mass sharp only by erasing
+the spatial shape, while replacing the operator by an expectation profile can
+miss visibility loss.
+
+**Updated seed status:** the wide-source branch retains conditional high
+ceiling, but it is parked behind a spectral-realizability reopener. The next
+admissible move is a bounded source-model tournament over explicit many-body
+and QFT candidates, stopped at the first failure of joint sharpness,
+preparability, or operator-valued phase propagation. No universal QFT no-go,
+paper refutation, observed effect, apparatus, hardware action, new DU law,
+successor, or Wave-3 activation is earned. See
+`quantum-gravity-wide-source-preparation-and-relational-readout-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

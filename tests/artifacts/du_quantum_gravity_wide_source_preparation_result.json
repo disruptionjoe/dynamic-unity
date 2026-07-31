@@ -1,0 +1,81 @@
+{
+  "analytic_boundary": {
+    "commutator": "[T_L,T_R]=i J(a+b)Y/2",
+    "commuting_case": "J=0 gives localized one-particle profiles",
+    "hopping_case": "J>0 and a+b>0 implies no common eigenvector",
+    "local_cells": "T_L=a P_L+(J/2)X; T_R=b P_R+(J/2)X",
+    "phase_control": "localized profile kernel equals lattice Newton kernel"
+  },
+  "checks": [
+    {
+      "name": "local_cells_sum_to_global_hamiltonian",
+      "passed": true
+    },
+    {
+      "name": "global_source_hamiltonian_is_positive_definite",
+      "passed": true
+    },
+    {
+      "name": "positive_hopping_local_energy_cells_do_not_commute",
+      "passed": true
+    },
+    {
+      "name": "wide_state_is_global_energy_eigenstate",
+      "passed": true
+    },
+    {
+      "name": "wide_stationary_state_has_zero_mean_current",
+      "passed": true
+    },
+    {
+      "name": "zero_mean_current_does_not_annihilate_local_commutator",
+      "passed": true
+    },
+    {
+      "name": "global_energy_eigenstate_is_not_local_profile_eigenstate",
+      "passed": true
+    },
+    {
+      "name": "hopping_case_has_no_common_local_energy_eigenvector",
+      "passed": true
+    },
+    {
+      "name": "commuting_limit_joint_profiles_are_localized",
+      "passed": true
+    },
+    {
+      "name": "wide_density_is_expectation_not_eigenprofile",
+      "passed": true
+    },
+    {
+      "kernel": [
+        -5.333333333333333,
+        -4.0,
+        -8.0,
+        -5.333333333333333
+      ],
+      "name": "localized_profile_phase_is_exactly_newton_kernel",
+      "passed": true
+    },
+    {
+      "name": "coarse_determinacy_erases_spatial_shape",
+      "passed": true
+    },
+    {
+      "coherent_visibility": 0.7071067811865476,
+      "mean_phase_visibility": 1.0,
+      "name": "expectation_profile_replacement_misses_phase_visibility",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-190",
+  "earned_boundary": "A wide stationary global-energy state is not thereby a deterministic local-energy profile. In the smallest two-cell model with a positive global source Hamiltonian, hopping removes the joint local spectrum; removing hopping restores localized profiles and the Newton kernel. Coarse determinacy erases the spatial shape.",
+  "non_claims": [
+    "No universal QFT no-go is proved.",
+    "No Chen--Giacomini equation is algebraically refuted.",
+    "No apparatus, magnitude, hardware action, or new DU law is earned."
+  ],
+  "passed_checks": 13,
+  "status": "PASS",
+  "total_checks": 13
+}

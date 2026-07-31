@@ -4849,3 +4849,33 @@ angular-projection, and perturbative-order boundaries. It does not simulate
 quantum gravity, validate either paper, select a probe profile or apparatus,
 identify a source--probe mediator, reveal new physics, or authorize a later
 campaign wave.
+
+## HC-DU-190 wide-source local-energy spectral boundary
+
+`du_quantum_gravity_wide_source_preparation_probe.py` preserves the exact
+controls behind the Chen--Giacomini preparation gate:
+
+- local energy cells sum to the global source Hamiltonian;
+- the frozen global source Hamiltonian is positive definite;
+- positive hopping makes the two local cells noncommuting and removes their
+  common eigenvectors;
+- a spatially wide state remains an exact global-energy eigenstate with zero
+  mean current while retaining nonzero local variances and commutator action;
+- the commuting limit has localized exact profiles whose cross-source kernel
+  is exactly the lattice Newton potential;
+- coarsening to total mass erases spatial shape; and
+- replacing a profile-valued phase distribution by its mean can erase a
+  visibility loss.
+
+Run:
+
+```bash
+python3 tests/du_quantum_gravity_wide_source_preparation_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_quantum_gravity_wide_source_preparation_result.json`. Passing
+establishes only the finite global-energy/local-profile, joint-spectrum,
+commuting-Newton, coarse-graining, and phase-averaging boundaries. It proves
+no universal QFT no-go, refutation of the published algebra, apparatus,
+observed effect, hardware action, new DU law, or later campaign wave.
