@@ -7714,6 +7714,34 @@ observed effect, finite apparatus, hardware action, new DU law, successor, or
 later-wave activation is earned. See
 `pre-saddle-quantum-detector-random-unitary-obstruction-and-gravitational-gap-selection-boundary-2026-07-31.md`.
 
+### 2026-07-31 finite trapped-detector process and dilation boundary
+
+`HC-DU-196` derives the finite resonant continuation of `HC-DU-195`. In the
+rotating-wave subspace $\{|2,0\rangle,|0,1\rangle\}$, the trapped interaction
+gives a bounded exact exchange, a CPTP amplitude-damping detector channel, and
+a complementary mediator channel. Detector tomography retains useful
+implementation-invariant facts: nonunitality, Kraus rank two, a minimum
+two-dimensional pure dilation, and single-mode revival that excludes an
+irreversible Markov semigroup.
+
+Physical mediator identity is not one of those invariants. One frozen
+non-gravitational quantum-ancilla family reproduces the complete detector
+channel across a spanning input set and two independently fixed gaps. Equal
+process tensors extend that equality to every detector-only multi-time
+instrument. At full swap the detector resets while the complementary output
+carries its complete input state; an environment-only isometry changes that
+mediator record without changing detector statistics.
+
+**Updated seed status:** stop adding detector-only controls for mediator
+attribution. The next conditional object is the smallest independently selected
+expanded port—mediator-facing or separately typed source/receiver—whose joined
+finite record does not factor through the original detector process. The port
+must also carry physical lineage and beat direct action and ordinary cross-talk.
+No complete continuum detector theory, universal direct-action equivalence,
+unique graviton witness, selected port, observed effect, hardware action, new
+DU law, successor, or later-wave activation is earned. See
+`finite-time-trapped-detector-process-dilation-nonidentification-and-mediator-record-necessity-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

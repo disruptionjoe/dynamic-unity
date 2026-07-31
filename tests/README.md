@@ -5032,3 +5032,36 @@ stop, harmonic-trap source correction, and finite-time contract boundary. It
 proves no universal classical- or semiclassical-gravity no-go, unique graviton
 witness, observed effect, finite apparatus, selected mediator record, hardware
 action, new DU law, or later campaign wave.
+
+## HC-DU-196 finite trapped-detector process and dilation boundary
+
+`du_finite_time_trapped_detector_dilation_probe.py` preserves the exact finite
+controls behind the process-dilation disposition:
+
+- the resonant two-state exchange block is unitary and bounded;
+- its weak-coupling limit recovers the finite sinc-squared window;
+- the reduced detector map is trace preserving and nonunital;
+- one direct quantum ancilla copies the complete channel on a spanning input
+  set and one predeclared coupling family copies two gaps;
+- Kraus rank forces a minimum two-dimensional pure environment without
+  identifying it;
+- the complementary channel carries the detector's lost population and
+  coherence;
+- a full swap moves the complete input record out of the detector;
+- an environment isometry changes mediator records without changing the
+  detector channel; and
+- single-mode revival excludes only an irreversible memoryless semigroup.
+
+Run:
+
+```bash
+python3 tests/du_finite_time_trapped_detector_dilation_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_finite_time_trapped_detector_dilation_result.json`. Passing
+establishes only the scoped finite-channel construction, minimal-memory
+invariant, detector-only dilation nonidentification, and interface-expansion
+necessity. It proves no complete continuum detector theory, universal
+direct-action equivalence, unique graviton witness, selected expanded port,
+observed effect, hardware action, new DU law, or later campaign wave.

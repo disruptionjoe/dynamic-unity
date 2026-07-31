@@ -1,0 +1,105 @@
+{
+  "checks": [
+    {
+      "exchange_amplitude": [
+        -0.0,
+        -0.6599713653086725
+      ],
+      "name": "finite_two_state_exchange_block_is_unitary",
+      "normalization": 1.0,
+      "passed": true,
+      "survival_amplitude": [
+        0.689751945999868,
+        -0.29779195751732784
+      ]
+    },
+    {
+      "name": "finite_transition_probability_is_bounded_without_delta_squared",
+      "passed": true,
+      "transition_probability": 0.43556220302739324
+    },
+    {
+      "exact_probability": 0.000157645790068487,
+      "name": "weak_coupling_limit_recovers_finite_sinc_squared_window",
+      "passed": true,
+      "perturbative_probability": 0.00015765479612701568
+    },
+    {
+      "name": "finite_detector_map_is_trace_preserving",
+      "output_trace": 1.0,
+      "passed": true
+    },
+    {
+      "image_of_identity": [
+        [
+          1.4355622030273931,
+          0.0
+        ],
+        [
+          0.0,
+          0.5644377969726068
+        ]
+      ],
+      "name": "nonzero_exchange_retains_the_nonunital_discriminator",
+      "passed": true
+    },
+    {
+      "maximum_error": 0.0,
+      "name": "direct_quantum_ancilla_matches_complete_detector_channel",
+      "passed": true
+    },
+    {
+      "kraus_gram_determinant": 0.6814099733487103,
+      "minimal_pure_environment_dimension": 2,
+      "name": "detector_channel_selects_minimal_memory_dimension_not_identity",
+      "passed": true
+    },
+    {
+      "gap_probabilities": [
+        0.0004853304884428751,
+        0.006536506139105031
+      ],
+      "maximum_errors": [
+        0.0,
+        0.0
+      ],
+      "name": "one_no_refit_direct_ancilla_family_matches_two_gap_surface",
+      "passed": true
+    },
+    {
+      "mediator_coherence_magnitude": 0.12694802681417916,
+      "mediator_excitation_probability": 0.2831154319678056,
+      "name": "detector_loss_is_complementary_mediator_information_gain",
+      "passed": true
+    },
+    {
+      "detector_reset_error": 1.1778275760747913e-17,
+      "mediator_recovery_error": 0.0,
+      "name": "full_swap_moves_the_complete_record_out_of_the_detector",
+      "passed": true
+    },
+    {
+      "mediator_record_change": 0.4337691360643889,
+      "name": "environment_isometry_changes_mediator_record_not_detector_channel",
+      "passed": true
+    },
+    {
+      "later_transition_probability": 1.4997597826618576e-32,
+      "name": "single_mode_revival_excludes_irreversible_markov_semigroup_only",
+      "passed": true,
+      "transfer_probability": 1.0
+    }
+  ],
+  "claim_id": "HC-DU-196",
+  "disposition": "FINITE_CHANNEL_DERIVED_DETECTOR_ONLY_DILATION_ATTRIBUTION_CLOSED_INTERFACE_EXPANSION_REQUIRED",
+  "earned_boundary": "The resonant rotating-wave block gives a bounded finite-time amplitude-damping channel and a complementary mediator channel. Detector-only tomography, two gaps, coherence access, and single-mode memory can exclude random-unitary and memoryless semigroup rivals, but cannot identify the physical dilation: one no-refit quantum-ancilla family reproduces the complete detector surface. Distinguishing dilations requires an independently selected interface not factoring through the original detector process.",
+  "non_claims": [
+    "The rotating-wave two-state block is not the complete source Hamiltonian or continuum field theory.",
+    "No claim is made that every constrained direct-action theory matches the gravitational process.",
+    "A mediator-facing or expanded port is necessary only within an admitted detector-process equivalence class and is not sufficient for gravitational attribution.",
+    "No observed effect, apparatus, hardware action, new DU law, or successor is selected."
+  ],
+  "passed_checks": 12,
+  "status": "PASS",
+  "total_checks": 12
+}
