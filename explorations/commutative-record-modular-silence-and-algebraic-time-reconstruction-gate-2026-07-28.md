@@ -5,7 +5,7 @@ doc_type: exploration_result
 created: 2026-07-28
 claim_id: HC-DU-077
 run_id: RUN-20260728-115711-modular-time-reconstruction-gate
-run_plan: "../lab/process/runs/RUN-20260728-115711-modular-time-reconstruction-gate/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260728-115711-modular-time-reconstruction-gate/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260728-115711-modular-time-reconstruction-gate/run-receipt.md"
 owner_repo: dynamic-unity
 ---

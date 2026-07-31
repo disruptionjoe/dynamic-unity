@@ -10,7 +10,7 @@ claim_status_change: none
 banked: false
 probe: tests/du_lambda_N_covariant_perturbation_kill.py
 artifact: tests/artifacts/du_lambda_N_covariant_perturbation_kill_result.json
-run_plan: lab/process/runs/RUN-20260721-230002-covariant-count-perturbation/run-plan.md
+run_plan: system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260721-230002-covariant-count-perturbation/run-plan.md
 grade: "Exact/structural for the covariant equations, gauge-invariant comoving closure, principal characteristic, fixed-point identity, causal-volume power-law calculation, and beta=0 control; deterministic finite-model grade for the single-fluid linear-growth integration (18/18 checks, 30k/60k convergence); phenomenological interacting-vacuum grade for the complete-Q model; no fundamental action, Boltzmann hierarchy, baryon/radiation split, nonlinear structure simulation, or likelihood. Scoped to the declared count candidates and strongest local lift; not a universal no-go for every nonlocal/UV completion."
 ---
 

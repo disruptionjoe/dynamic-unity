@@ -7,7 +7,7 @@ claim_id: HC-DU-064
 work_id: N7-CCR-P1-CAPABILITY-RECORD-GALOIS-CLOSURE
 program_id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
 run_id: RUN-20260727-214101-capability-record-galois-closure
-run_plan: "../lab/process/runs/RUN-20260727-214101-capability-record-galois-closure/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260727-214101-capability-record-galois-closure/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260727-214101-capability-record-galois-closure/run-receipt.md"
 authority: "Joe direct chat: Go"
 claim_grade: "SCOPED GRADE-4 EXACT CAPABILITY-RECORD POLARITY, CLOSURE, REGIONAL COMPOSITION, AND COVARIANCE NECESSITY PACKAGE / FORMAL-CONCEPT, PARTITION, SUFFICIENCY, OPERATIONAL-EQUIVALENCE, COMB, AND PROCESS-TENSOR MATHEMATICS ABSORBED / NO PHYSICAL RECORD FORMATION, OBSERVER SELECTION, ONTOLOGY, NEW PHYSICS, PREDICTION, PAPER, MODEL, HARDWARE, OR PROVIDER RESULT"

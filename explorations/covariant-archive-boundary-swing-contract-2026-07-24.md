@@ -6,7 +6,7 @@ created: 2026-07-24
 directed_by: "Joe direct chat, 2026-07-24"
 hardening_id: HC-DU-031C
 predecessor: explorations/covariant-recorder-naturalization-swing-2026-07-24.md
-run_plan: lab/process/runs/RUN-20260724-133640-covariant-archive-boundary/run-plan.md
+run_plan: system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-133640-covariant-archive-boundary/run-plan.md
 lane: "1.5 / 2.2 / 2.4 / 4.4"
 banking_authority: none
 prediction_authority: none

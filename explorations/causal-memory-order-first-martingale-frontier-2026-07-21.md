@@ -11,7 +11,7 @@ claim_status_change: none
 banked: false
 probe: tests/du_causal_memory_frontier_probe.py
 artifact: tests/artifacts/du_causal_memory_frontier_probe_result.json
-run_plan: lab/process/runs/RUN-20260721-233305-causal-memory-frontier/run-plan.md
+run_plan: system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260721-233305-causal-memory-frontier/run-plan.md
 grade: "Exact/structural for the power-law causal-volume formula, light-cone moment hierarchy, bi-wave coefficient and principal cone, de Sitter full-past asymptotic, tracker equations of state, Brownian sign survival and 3+1 Minkowski common-past covariance. Deterministic finite-background grade for the separately conserved radiation/matter history (45/45 checks; 20k/40k convergence). Phenomenological only for complete-Q stress closure. No order-first growth law, causal response/noise action, quantum ghost theorem, finite-k feedback determinant, Boltzmann hierarchy or likelihood."
 ---
 

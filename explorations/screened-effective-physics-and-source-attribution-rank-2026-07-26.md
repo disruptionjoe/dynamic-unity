@@ -7,7 +7,7 @@ hypothesis_id: HC-DU-039C
 run_id: RUN-20260726-174500-screened-effective-physics-attribution
 authority: "Joe direct chat: Go, proceeding with the fourth large swing of the five-swing Dynamic Unity campaign"
 claim_grade: "EXACT FINITE SCREENED-OPERATIONAL-EQUIVALENCE, TARGET-ACCESSIBILITY, AND SOURCE-ATTRIBUTION-RANK THEOREM / KNOWN LINEAR OBSERVABILITY, QUANTUM PHASE-READOUT, AND CAUSAL-ORDER MATHEMATICS / NO PHYSICAL CLOCK, METRIC, FIELD, INTERFACE, NEW LAW, NEW PHYSICS, OR PAPER PROMOTION"
-run_plan: "../lab/process/runs/RUN-20260726-174500-screened-effective-physics-attribution/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-174500-screened-effective-physics-attribution/run-plan.md"
 probe: "../tests/du_screened_effective_physics_attribution_probe.py"
 artifact: "../tests/artifacts/du_screened_effective_physics_attribution_result.json"
 ---

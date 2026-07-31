@@ -7,7 +7,7 @@ claim_id: HC-DU-065
 work_id: N7-CCR-P2-CAPABILITY-RECORD-FORMATION-PROFILE
 program_id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
 run_id: RUN-20260727-215551-capability-record-formation-profile
-run_plan: "../lab/process/runs/RUN-20260727-215551-capability-record-formation-profile/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260727-215551-capability-record-formation-profile/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260727-215551-capability-record-formation-profile/run-receipt.md"
 authority: "Joe direct chat: Go"
 claim_grade: "SCOPED GRADE-4 EXACT CLOSURE--FORMATION SEPARATION, RESOURCE NECESSITY, AND CONDITIONAL PAULI FORMATION FRONTIER / ADMISSIBLE-RECORD, CHANNEL-DISCRIMINATION, DENSE-CODING, BELL-DISCRIMINATION, AND RESOURCE MATHEMATICS ABSORBED / NO ENDOGENOUS INTERFACE SELECTION, UNIVERSAL RESOURCE LAW, NEW PHYSICS, PREDICTION, PAPER, MODEL, HARDWARE, OR PROVIDER RESULT"

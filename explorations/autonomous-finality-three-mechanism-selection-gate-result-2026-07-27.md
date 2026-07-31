@@ -7,7 +7,7 @@ claim_id: HC-DU-061
 work_id: N6-CCR-P1-AUTONOMOUS-FINALITY-GENERATOR-GATE
 program_id: CCR-AUTONOMOUS-STRATIFIED-FINALITY
 run_id: RUN-20260727-204953-autonomous-finality-generator-gate
-run_plan: "../lab/process/runs/RUN-20260727-204953-autonomous-finality-generator-gate/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260727-204953-autonomous-finality-generator-gate/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260727-204953-autonomous-finality-generator-gate/run-receipt.md"
 authority: "Joe direct chat: Go"
 claim_grade: "SCOPED GRADE-4 THREE-CLASS NON-ADMISSION CONSEQUENCE AND GRADE-3 PARTIAL-SELECTION CLASSIFICATION / PRIMARY PHYSICS AND FACTORIZATION MATHEMATICS ABSORBED / NO UNIVERSAL AUTONOMOUS-DYNAMICS NO-GO, RECORD-FIRST RESULT, NEW PHYSICS, PREDICTION, PAPER, MODEL, HARDWARE, OR PROVIDER RESULT"

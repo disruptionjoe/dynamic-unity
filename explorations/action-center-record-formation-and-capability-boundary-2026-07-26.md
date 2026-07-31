@@ -7,7 +7,7 @@ hypothesis_id: HC-DU-033D
 run_id: RUN-20260726-152732-action-center-capability-boundary
 authority: "Joe direct chat: proceed with the second large swing of the five-swing Dynamic Unity campaign"
 claim_grade: "EXACT FINITE-DIMENSIONAL ACTION-CENTER FORMATION/SUFFICIENCY BOUNDARY / KNOWN OPERATOR-ALGEBRA MATHEMATICS / CONDITIONAL ON SUPPLIED ACTION ALGEBRA AND FORMATION COUPLING / NO NEW PHYSICS OR ONTOLOGY"
-run_plan: "../lab/process/runs/RUN-20260726-152732-action-center-capability-boundary/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-152732-action-center-capability-boundary/run-plan.md"
 probe: "../tests/du_action_center_capability_boundary_probe.py"
 artifact: "../tests/artifacts/du_action_center_capability_boundary_result.json"
 ---

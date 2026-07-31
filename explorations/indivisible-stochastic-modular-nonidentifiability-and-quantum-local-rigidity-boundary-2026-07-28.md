@@ -5,7 +5,7 @@ doc_type: exploration_result
 created: 2026-07-28
 claim_id: HC-DU-079
 run_id: RUN-20260728-123801-indivisible-stochastic-modular-rigidity
-run_plan: "../lab/process/runs/RUN-20260728-123801-indivisible-stochastic-modular-rigidity/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260728-123801-indivisible-stochastic-modular-rigidity/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260728-123801-indivisible-stochastic-modular-rigidity/run-receipt.md"
 owner_repo: dynamic-unity
 ---

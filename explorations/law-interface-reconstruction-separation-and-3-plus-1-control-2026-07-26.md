@@ -5,7 +5,7 @@ doc_type: theorem_and_hostile_control
 created: 2026-07-26
 authority: "Joe direct chat: run the more impactful integrated swing joining physical interface selection to lawful geometry reconstruction"
 claim_grade: "EXACT STABILIZER OBSTRUCTION + EXACT LAW/RECORD ATTRIBUTION TRICHOTOMY + EXACT 3+1 LINEARIZED CONFORMAL CONTROL / COMPONENT MATHEMATICS KNOWN / NEW DU DEPENDENCY RESULT / NO NOVEL-PHYSICS OR PAPER PROMOTION"
-run_plan: "../lab/process/runs/RUN-20260726-122948-law-interface-reconstruction-separation/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-122948-law-interface-reconstruction-separation/run-plan.md"
 program_ids:
   - HC-DU-033C
   - HC-DU-038D

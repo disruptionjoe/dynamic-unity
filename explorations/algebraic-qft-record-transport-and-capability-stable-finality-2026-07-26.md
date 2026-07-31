@@ -7,7 +7,7 @@ hypothesis_id: HC-DU-040B
 run_id: RUN-20260726-171040-algebraic-qft-record-transport
 authority: "Joe direct chat: Go, executing the first assumption-breaker swing after the completed five-swing campaign"
 claim_grade: "GENERAL FINITE-PVM VON NEUMANN-ALGEBRA TRANSPORT + FACTOR-INTERNAL RECORD NO-GO + CAPABILITY-ENVELOPE AND FINITE-HORIZON APPROXIMATE-SCREENING BOUNDARY / COMPONENT MATHEMATICS KNOWN / NO SELECTED QFT RECORD, ONTOLOGY, NEW LAW, NEW PHYSICS, HARDWARE RESULT, OR PAPER PROMOTION"
-run_plan: "../lab/process/runs/RUN-20260726-171040-algebraic-qft-record-transport/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-171040-algebraic-qft-record-transport/run-plan.md"
 probe: "../tests/du_algebraic_qft_record_transport_probe.py"
 artifact: "../tests/artifacts/du_algebraic_qft_record_transport_result.json"
 ---

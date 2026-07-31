@@ -5,7 +5,7 @@ doc_type: theorem_and_collision_audit
 created: 2026-07-24
 authority: "Joe direct chat: do another heavy swing"
 claim_grade: "EXACT FINITE ABELIAN SPECIALIZATION PLUS MATCHED PAULI CONTROL / KNOWN COMPONENT MATHEMATICS / NEW DU DEPENDENCY RESULT / NO NOVEL-PHYSICS PROMOTION"
-run_plan: "../lab/process/runs/RUN-20260724-225324-central-record-interface-selection/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-225324-central-record-interface-selection/run-plan.md"
 probe: "../tests/du_central_record_interface_selection_probe.py"
 artifact: "../tests/artifacts/du_central_record_interface_selection_result.json"
 ---

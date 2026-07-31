@@ -7,7 +7,7 @@ claim_id: HC-DU-066
 work_id: N7-CCR-P4-STABILIZER-FORMATION-TRANSFER
 program_id: CCR-CAPABILITY-RECORD-GALOIS-CLOSURE
 run_id: RUN-20260727-221127-stabilizer-formation-transfer
-run_plan: "../lab/process/runs/RUN-20260727-221127-stabilizer-formation-transfer/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260727-221127-stabilizer-formation-transfer/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260727-221127-stabilizer-formation-transfer/run-receipt.md"
 authority: "Joe direct chat: Go"
 claim_grade: "SCOPED GRADE-4 EXACT CROSS-ARENA FORMATION-CRITERION TRANSFER, RESOURCE LOWER BOUNDS, AND RECORD-ONLY RECOVERY CONSEQUENCE / STABILIZER-QEC, KNILL--LAFLAMME, PERFECT-DISCRIMINATION, QND-MEASUREMENT, AND DIMENSION MATHEMATICS ABSORBED / NO NEW QEC THEOREM, ENDOGENOUS INTERFACE SELECTION, UNIVERSAL RESOURCE LAW, NEW PHYSICS, PREDICTION, PAPER, MODEL, HARDWARE, OR PROVIDER RESULT"

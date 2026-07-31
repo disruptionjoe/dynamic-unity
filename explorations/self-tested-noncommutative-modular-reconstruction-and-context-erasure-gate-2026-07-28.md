@@ -5,7 +5,7 @@ doc_type: exploration_result
 created: 2026-07-28
 claim_id: HC-DU-078
 run_id: RUN-20260728-121120-self-tested-modular-reconstruction
-run_plan: "../lab/process/runs/RUN-20260728-121120-self-tested-modular-reconstruction/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260728-121120-self-tested-modular-reconstruction/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260728-121120-self-tested-modular-reconstruction/run-receipt.md"
 owner_repo: dynamic-unity
 ---

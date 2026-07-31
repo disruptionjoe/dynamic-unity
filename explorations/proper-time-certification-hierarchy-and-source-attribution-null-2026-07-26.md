@@ -7,7 +7,7 @@ hypothesis_id: HC-DU-039D
 run_id: RUN-20260726-183500-proper-time-certification-attribution
 authority: "Joe direct chat: Go, proceeding with the fifth large swing of the five-swing Dynamic Unity campaign"
 claim_grade: "PRIMARY-SOURCE-PINNED PROPER-TIME EVIDENCE HIERARCHY, HISTORY-RELATIVE CHANNEL CERTIFICATE, AND RESIDUAL MECHANISM-ATTRIBUTION NULL / KNOWN QUANTUM CHANNEL, CONVEXITY, INTERFEROMETRY, AND LOCAL IDENTIFIABILITY MATHEMATICS / NO OBSERVED PROPER-TIME NONCLASSICALITY, ONTOLOGY, NEW LAW, NEW PHYSICS, HARDWARE RESULT, OR PAPER PROMOTION"
-run_plan: "../lab/process/runs/RUN-20260726-183500-proper-time-certification-attribution/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-183500-proper-time-certification-attribution/run-plan.md"
 probe: "../tests/du_proper_time_certification_attribution_probe.py"
 artifact: "../tests/artifacts/du_proper_time_certification_attribution_result.json"
 ---

@@ -7,7 +7,7 @@ claim_id: HC-DU-062
 work_id: N6-CCR-P2-POST-EINSTEIN-LAW-FILTER-GATE
 program_id: CCR-POST-EINSTEIN-LAW-FILTER
 run_id: RUN-20260727-210929-post-einstein-cfs-law-filter
-run_plan: "../lab/process/runs/RUN-20260727-210929-post-einstein-cfs-law-filter/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260727-210929-post-einstein-cfs-law-filter/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260727-210929-post-einstein-cfs-law-filter/run-receipt.md"
 authority: "Joe direct chat: Go"
 claim_grade: "SCOPED GRADE-4 EXACT SOURCE-RELOCATION CONSEQUENCE AND PRIMARY-SOURCE SCOPE AUDIT / ALGEBRA AND LEADING EINSTEIN CONTENT ABSORBED / NO NEW CFS FIELD EQUATION, NEW PHYSICS, PREDICTION, PAPER, MODEL, HARDWARE, OR PROVIDER RESULT"

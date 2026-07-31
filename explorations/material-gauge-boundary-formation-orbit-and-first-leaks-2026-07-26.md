@@ -7,7 +7,7 @@ hypothesis_id: HC-DU-040D
 run_id: RUN-20260726-181904-material-gauge-boundary-formation
 authority: "Joe direct chat: Go, executing the HC-DU-040C materialized-gauge-boundary handoff"
 claim_grade: "EXACT FINITE Z3 GAUGE-BOUNDARY FORMATION-ORBIT CLASSIFICATION + FINITE-HORIZON ROBUSTNESS / KNOWN LATTICE-GAUGE, QND-INSTRUMENT, GROUP-SYNDROME, DILATION, AND PERTURBATION MATHEMATICS / NO UNIQUE MICROSCOPIC DETECTOR, FUNDAMENTAL OUTCOME-SELECTION LAW, NEW GAUGE LAW, ONTOLOGY, QFT RECOVERY, HARDWARE RESULT, OR PAPER PROMOTION"
-run_plan: "../lab/process/runs/RUN-20260726-181904-material-gauge-boundary-formation/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-181904-material-gauge-boundary-formation/run-plan.md"
 ---
 
 # Material gauge-boundary formation orbit and first leaks

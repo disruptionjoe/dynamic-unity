@@ -7,7 +7,7 @@ hypothesis_id: HC-DU-035D
 run_id: RUN-20260726-154509-center-screening-regional-finality
 authority: "Joe direct chat: proceed with the third large swing of the five-swing Dynamic Unity campaign"
 claim_grade: "EXACT FINITE-DIMENSIONAL CENTER-SCREENING, COMPOSITION, FIRST-LEAK, AND QUANTITATIVE WITNESS THEOREM / KNOWN OPERATOR-ALGEBRA, PROCESS-MEMORY, AND LUMPABILITY MATHEMATICS / NO PHYSICAL REGIONALIZATION, UNIVERSAL FINALITY, OR NEW PHYSICS"
-run_plan: "../lab/process/runs/RUN-20260726-154509-center-screening-regional-finality/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-154509-center-screening-regional-finality/run-plan.md"
 probe: "../tests/du_center_screening_regional_finality_probe.py"
 artifact: "../tests/artifacts/du_center_screening_regional_finality_result.json"
 ---

@@ -7,7 +7,7 @@ claim_id: HC-DU-063
 work_id: N6-CCR-P3-INTRINSIC-RECORD-FUNCTIONAL-GATE
 program_id: CCR-INTRINSIC-RECORD-FUNCTIONAL-GATE
 run_id: RUN-20260727-212419-state-only-record-functional-gate
-run_plan: "../lab/process/runs/RUN-20260727-212419-state-only-record-functional-gate/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260727-212419-state-only-record-functional-gate/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260727-212419-state-only-record-functional-gate/run-receipt.md"
 authority: "Joe direct chat: Go"
 claim_grade: "SCOPED GRADE-4 EXACT ORBIT-SEPARATION NO-GO AND MINIMUM-TYPING NECESSITY CONSEQUENCE / GROUP-ACTION, SPECTRAL, MUTUAL-INFORMATION, SUBSYSTEM-RELATIVITY, SBS, AND CONSISTENT-HISTORY COMPONENTS ABSORBED / NO UNIVERSAL RECORD NO-GO, RECORD ONTOLOGY, NEW PHYSICS, PREDICTION, PAPER, MODEL, HARDWARE, OR PROVIDER RESULT"

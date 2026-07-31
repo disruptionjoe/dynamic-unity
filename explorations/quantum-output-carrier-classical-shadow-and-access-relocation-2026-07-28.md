@@ -6,7 +6,7 @@ created: 2026-07-28
 claim_id: HC-DU-075
 correction_id: CORR-DU-074-1
 run_id: RUN-20260728-111609-quantum-output-record-gate
-run_plan: "../lab/process/runs/RUN-20260728-111609-quantum-output-record-gate/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260728-111609-quantum-output-record-gate/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260728-111609-quantum-output-record-gate/run-receipt.md"
 owner_repo: dynamic-unity
 ---

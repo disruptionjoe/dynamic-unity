@@ -5,7 +5,7 @@ doc_type: theorem_no_go_and_physical_dependency
 created: 2026-07-25
 authority: "Joe direct chat: orchestrate the record-formation to certified-composition wave"
 claim_grade: "EXACT FINITE EFFECTIVE-INSTRUMENT RESULT / COMPONENT MATHEMATICS KNOWN / PHYSICAL PROPER-TIME IMPLEMENTATION INCOMPLETE / NEW DU DEPENDENCY RESULT / NO NOVEL-PHYSICS PROMOTION"
-run_plan: "../lab/process/runs/RUN-20260725-100452-record-formation-certified-composition/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-100452-record-formation-certified-composition/run-plan.md"
 probe: "../tests/du_record_formation_composition_probe.py"
 artifact: "../tests/artifacts/du_record_formation_composition_result.json"
 ---

@@ -2623,7 +2623,7 @@ record_selection_quotient_swing:
     Joe direct chat: orchestrate a strong research wave, with discretion to choose one focal
     point or preparatory work.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-162458-hc-du-033-record-selection/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-162458-hc-du-033-record-selection/run-plan.md
   theorem_ref: >-
     explorations/hc-du-033-record-selection-quotient-theorem-2026-07-24.md
   novelty_audit_ref: >-
@@ -2667,7 +2667,7 @@ layered_threshold_objectivity_swing:
     Joe direct chat: choose the ten threshold, stochastic and cryptographic lenses, run the
     assessment, and orchestrate the swing.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-174434-hc-du-035a-layered-threshold/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-174434-hc-du-035a-layered-threshold/run-plan.md
   theorem_ref: >-
     explorations/hc-du-035a-layered-threshold-objectivity-2026-07-24.md
   novelty_audit_ref: >-
@@ -2707,7 +2707,7 @@ repository_wide_council_advancement_wave:
     repository and new framing as a whole, advance its independently chosen best attempt, derive
     successor results, and synthesize the wave in plain English.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-181047-science-council-repository-wide-advancement/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-181047-science-council-repository-wide-advancement/run-plan.md
   synthesis_ref: >-
     explorations/science-council-repository-wide-advancement-wave-synthesis-2026-07-24.md
   persona_refs:
@@ -2768,7 +2768,7 @@ open_frontier_council_advancement_wave:
     sub-agent per persona, let each pursue its own most important or interesting advance, and
     preserve useful laws, theorems, hypotheses and explorations at honest grade.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-191339-science-council-open-frontier-advancement/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-191339-science-council-open-frontier-advancement/run-plan.md
   synthesis_ref: >-
     explorations/science-council-open-frontier-advancement-wave-synthesis-2026-07-24.md
   persona_refs:
@@ -2821,7 +2821,7 @@ cross_repo_hardening_and_paper_candidate_assessment:
     one-swing programs across the whole Dynamic Unity repository that are most likely to reach a
     defensible publishable paper.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-202950-cross-repo-hardening-and-paper-candidates/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-202950-cross-repo-hardening-and-paper-candidates/run-plan.md
   control_contract_ref: lab/process/cross-repo-hardening-control-contract.md
   integration_ref: explorations/cross-repo-hardening-integration-2026-07-24.md
   paper_candidate_ref: explorations/repository-wide-paper-swing-candidates-2026-07-24.md
@@ -2895,7 +2895,7 @@ paper_opportunity_portfolio_audit:
     readiness pass on each, estimate the work remaining before Drafting-Factory seeding and
     manuscript defense, and record the result in the source repository.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-204614-paper-opportunity-portfolio-audit/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-204614-paper-opportunity-portfolio-audit/run-plan.md
   human_portfolio_ref: papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
   machine_portfolio_ref: papers/paper-opportunity-portfolio.json
   probe_ref: tests/du_paper_opportunity_portfolio_probe.py
@@ -2934,7 +2934,7 @@ paper_opportunity_factory_intake:
     Joe direct chat: make sure the audited paper opportunities are in the Drafting Factory system
     so its prioritization can move them forward.
   source_run_ref: >-
-    lab/process/runs/RUN-20260724-210404-factory-intake-reconciliation/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-210404-factory-intake-reconciliation/run-plan.md
   portfolio_ref: papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
   factory_revision: ca7b748e58e9210fbace1ad897df88f849ae9ff5
   intake_result: >-
@@ -2962,7 +2962,7 @@ concentrated_paper_closing_program:
     primary covariant-record paper attack, bounded flagship compiler hedge and explicit reserve
     pivot gates.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-213302-concentrated-paper-closing-program/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-213302-concentrated-paper-closing-program/run-plan.md
   synthesis_ref: >-
     explorations/concentrated-paper-closing-program-synthesis-2026-07-24.md
   primary_theorem_ref: explorations/covariant-record-cost-closing-swing-2026-07-24.md
@@ -3015,7 +3015,7 @@ three_paper_advance:
     Joe direct chat: accept the recommended three-paper orchestration, advance the post-ready
     bounded paper, proof-or-kill DU-PAPER-013, and execute one implementation-complete physical
     arm of DU-PAPER-007.
-  run_plan_ref: lab/process/runs/RUN-20260725-150819-three-paper-advance/run-plan.md
+  run_plan_ref: system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-150819-three-paper-advance/run-plan.md
   csg_receipt_ref: explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
   csg_probe_ref: tests/du_csg_post_tail_uniformity_probe.py
   csg_artifact_ref: tests/artifacts/du_csg_post_tail_uniformity_result.json
@@ -3056,7 +3056,7 @@ reconstruction_data_csg_triad:
   authority: >-
     Joe direct chat: accept and execute the recommended next meaningful research swing.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-200918-reconstruction-data-csg-triad/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-200918-reconstruction-data-csg-triad/run-plan.md
   reconstruction_receipt_ref: >-
     explorations/certified-causal-reconstruction-trichotomy-2026-07-25.md
   reconstruction_probe_ref: >-
@@ -3116,7 +3116,7 @@ physical_history_certificate_transfer_swing:
     Joe direct chat: execute the recommended actual-work orchestration after reviewing the
     repository's next most impactful work.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-220842-physical-history-certificate-transfer/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-220842-physical-history-certificate-transfer/run-plan.md
   synthesis_ref: >-
     explorations/physical-history-certificate-transfer-and-generativity-hedge-2026-07-24.md
   physical_probe_ref: tests/du_physical_history_certificate_transfer_probe.py
@@ -3160,7 +3160,7 @@ central_record_interface_selection_swing:
   authority: >-
     Joe direct chat: do another heavy swing after the stochastic physical/protocol transfer.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260724-225324-central-record-interface-selection/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260724-225324-central-record-interface-selection/run-plan.md
   theorem_and_collision_ref: >-
     explorations/central-record-interface-selection-theorem-and-no-go-2026-07-24.md
   probe_ref: tests/du_central_record_interface_selection_probe.py
@@ -3212,7 +3212,7 @@ entangled_finality_absorption_boundary_swing:
     repository, take a big swing at associated low-hanging fruit, and prepare every candidate
     with its best approach.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-053806-entangled-finality-absorption-boundary/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-053806-entangled-finality-absorption-boundary/run-plan.md
   synthesis_ref: >-
     explorations/entangled-layered-finality-absorption-boundary-and-candidate-registry-2026-07-25.md
   probe_ref: tests/du_entangled_finality_absorption_probe.py
@@ -3250,7 +3250,7 @@ regional_finality_descent_kernel_swing:
     approach, integrate the approaches into the repository, and execute enough low-hanging work
     to give the program direction and momentum.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-060628-regional-finality-descent-kernel/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-060628-regional-finality-descent-kernel/run-plan.md
   synthesis_ref: >-
     explorations/regional-finality-descent-kernel-and-approach-registry-2026-07-25.md
   probe_ref: tests/du_regional_finality_descent_probe.py
@@ -3288,7 +3288,7 @@ regional_selection_noisy_descent_triple_diamond_swing:
     Joe direct chat: triple-diamond the approaches to endogenous regionalization and noisy
     noninvertible descent, then take the big swing at both.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-064622-regional-selection-noisy-descent/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-064622-regional-selection-noisy-descent/run-plan.md
   synthesis_ref: >-
     explorations/regional-selection-and-noisy-descent-triple-diamond-swing-2026-07-25.md
   endogenous_probe_ref: tests/du_endogenous_regionalization_probe.py
@@ -3333,7 +3333,7 @@ multitime_marginal_transfer_swing:
     Joe direct chat: run the prepared multi-time regional grammar, general marginal compiler,
     authenticated protocol and quantum instrument swing.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-071641-multitime-marginal-transfer/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-071641-multitime-marginal-transfer/run-plan.md
   synthesis_ref: >-
     explorations/multitime-regional-grammar-and-exact-marginal-transfer-swing-2026-07-25.md
   compiler_ref: tests/du_exact_marginal_extension_compiler.py
@@ -3378,7 +3378,7 @@ operational_theory_landscape_swing:
     foils, force-versus-permit distinction and constructive causal-inference framing across
     Dynamic Unity.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-075017-operational-theory-landscape/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-075017-operational-theory-landscape/run-plan.md
   contract_ref: lab/process/operational-theory-landscape-contract.md
   synthesis_ref: >-
     explorations/operational-theory-landscape-and-certified-overlap-swing-2026-07-25.md
@@ -3430,7 +3430,7 @@ record_formation_certified_composition_wave:
     physical record formation, recursive regional composition and a bounded quantum-strength
     frontier gate.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-100452-record-formation-certified-composition/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-100452-record-formation-certified-composition/run-plan.md
   synthesis_ref: >-
     explorations/record-formation-to-certified-composition-wave-synthesis-2026-07-25.md
   primary_ref: >-
@@ -3493,7 +3493,7 @@ formed_sharp_descent_swing:
     Joe direct chat: save the operational-duality and generative-issuance stories to the Thinking
     Wiki, then orchestrate the next physically formed sharp-instrument and regional-descent swing.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-110735-formed-sharp-descent/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-110735-formed-sharp-descent/run-plan.md
   synthesis_ref: >-
     explorations/formed-sharp-descent-swing-synthesis-2026-07-25.md
   physical_ref: >-
@@ -3554,7 +3554,7 @@ robust_physical_instrument_selection:
   authority: >-
     Joe direct chat: Yeah, let's go after it.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-120514-robust-physical-instrument-selection/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-120514-robust-physical-instrument-selection/run-plan.md
   result_ref: >-
     explorations/robust-physical-instrument-selection-theorem-and-no-go-2026-07-25.md
   probe_ref: tests/du_robust_physical_instrument_selection_probe.py
@@ -3601,7 +3601,7 @@ conservation_certified_record_gate:
   authority: >-
     Joe direct chat: All right, go ahead and run that.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260725-140945-conservation-certified-record/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260725-140945-conservation-certified-record/run-plan.md
   result_ref: >-
     explorations/conservation-to-certified-record-interface-necessity-no-go-2026-07-25.md
   probe_ref: tests/du_conservation_certified_record_probe.py
@@ -3642,7 +3642,7 @@ physical_sufficiency_acquisition_gate:
   authority: >-
     Joe direct chat: take the most impactful swing possible toward the North Star.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260726-010042-physical-sufficiency-acquisition-gate/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-010042-physical-sufficiency-acquisition-gate/run-plan.md
   result_ref: >-
     explorations/physical-sufficiency-acquisition-gate-2026-07-26.md
   schema_ref: specs/physical-sufficiency-acquisition-packet-v0.1.schema.json
@@ -3682,7 +3682,7 @@ hardware_acquisition_visibility_bridge:
   authority: >-
     Joe direct chat: do the next swing.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260726-070222-hardware-acquisition-bridge/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-070222-hardware-acquisition-bridge/run-plan.md
   result_ref: >-
     explorations/acquisition-visibility-and-hardware-bridge-2026-07-26.md
   provider_schema_ref: specs/physical-sufficiency-provider-capture-v0.1.schema.json
@@ -3727,7 +3727,7 @@ qnd_memory_hardware_prediction_lock:
     commitment even if the hardware experiment is never executed.
   prediction_id: PRED-DU-004
   run_plan_ref: >-
-    lab/process/runs/RUN-20260726-192532-lock-qnd-hardware-prediction/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-192532-lock-qnd-hardware-prediction/run-plan.md
   prediction_ref: >-
     explorations/locked-qnd-memory-hardware-prediction-2026-07-26.md
   register_ref: explorations/prediction-register.md
@@ -3752,7 +3752,7 @@ interventional_sufficiency_novelty_reachability_gate:
     Joe direct chat: take the next recommended swing after assessing the downstream hardware and
     provider implications of the HC-DU-036E acquisition route.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260726-093934-interventional-sufficiency-go-no-go/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-093934-interventional-sufficiency-go-no-go/run-plan.md
   result_ref: >-
     explorations/interventional-record-sufficiency-novelty-reachability-gate-2026-07-26.md
   probe_ref: tests/du_interventional_sufficiency_reachability_gate_probe.py
@@ -3805,7 +3805,7 @@ local_model_learning_gate:
     on the current computer before any external-hardware boundary and beyond what bounded research
     or formal analysis can already provide.
   run_plan_ref: >-
-    lab/process/runs/RUN-20260726-100135-local-model-learning-gate/run-plan.md
+    system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260726-100135-local-model-learning-gate/run-plan.md
   contract_ref: lab/process/local-model-learning-gate.md
   probe_ref: tests/du_local_model_learning_gate_probe.py
   artifact_ref: tests/artifacts/du_local_model_learning_gate_result.json

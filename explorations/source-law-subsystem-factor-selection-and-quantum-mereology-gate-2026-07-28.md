@@ -5,7 +5,7 @@ doc_type: exploration_result
 created: 2026-07-28
 claim_id: HC-DU-076
 run_id: RUN-20260728-113459-subsystem-factor-selection
-run_plan: "../lab/process/runs/RUN-20260728-113459-subsystem-factor-selection/run-plan.md"
+run_plan: "system-runtime#meta/runs/history/repositories/dynamic-unity/lab/process/runs/RUN-20260728-113459-subsystem-factor-selection/run-plan.md"
 run_receipt: "../lab/process/runs/RUN-20260728-113459-subsystem-factor-selection/run-receipt.md"
 owner_repo: dynamic-unity
 ---
