@@ -314,15 +314,29 @@ def validate_authority(
         "decision derives its active program/action or explicit quiescence from the portfolio",
     )
 
-    publication = program_by_id.get(decision.get("prepared_publication_program_id"))
+    prepared_publication_id = decision.get("prepared_publication_program_id")
+    publication = program_by_id.get(prepared_publication_id)
+    prepared_publications = [
+        program
+        for program in programs
+        if program.get("kind") == "publication"
+        and program.get("execution_status") == "prepared"
+    ]
     check(
         "prepared_publication_contract",
-        publication is not None
-        and publication.get("kind") == "publication"
-        and publication.get("execution_status") == "prepared"
-        and isinstance(publication.get("candidate_id"), str)
-        and bool(publication["candidate_id"]),
-        "the separate prepared publication slot names one nonempty candidate",
+        (
+            prepared_publication_id is None
+            and not prepared_publications
+        )
+        or (
+            publication is not None
+            and publication.get("kind") == "publication"
+            and publication.get("execution_status") == "prepared"
+            and isinstance(publication.get("candidate_id"), str)
+            and bool(publication["candidate_id"])
+            and prepared_publications == [publication]
+        ),
+        "the prepared-publication slot is empty exactly when no publication is prepared, otherwise it names the sole prepared candidate",
     )
 
     slot_counts = Counter(
@@ -786,7 +800,9 @@ def validate_authority(
         "authority": CURRENT_AUTHORITY_NAME,
         "active_scientific_program": decision["active_scientific_program_id"],
         "executable_action": decision["executable_action_id"],
-        "prepared_publication_candidate": publication["candidate_id"],
+        "prepared_publication_candidate": (
+            publication["candidate_id"] if publication is not None else None
+        ),
         "cold_start_words": cold_start_words,
         "checks_passed": len(checks),
         "checks": checks,
@@ -813,9 +829,16 @@ def replace_identifiers(value: Any, replacements: dict[str, str]) -> Any:
 def mutated_state_fixture(current: dict[str, Any]) -> tuple[dict[str, Any], dict[str, str]]:
     decision = current["current_decision"]
     publication = next(
-        program
-        for program in current["programs"]
-        if program["id"] == decision["prepared_publication_program_id"]
+        (
+            program
+            for program in current["programs"]
+            if program["id"] == decision["prepared_publication_program_id"]
+        ),
+        next(
+            program
+            for program in current["programs"]
+            if program.get("kind") == "publication"
+        ),
     )
     routed_program_id = decision["active_scientific_program_id"] or next(
         program["id"]
@@ -825,7 +848,7 @@ def mutated_state_fixture(current: dict[str, Any]) -> tuple[dict[str, Any], dict
     )
     replacements = {
         routed_program_id: "FIXTURE-SCIENTIFIC-PROGRAM",
-        decision["prepared_publication_program_id"]: "FIXTURE-PUBLICATION-PROGRAM",
+        publication["id"]: "FIXTURE-PUBLICATION-PROGRAM",
         publication["candidate_id"]: "FIXTURE-PUBLICATION-CANDIDATE",
     }
     if decision["executable_action_id"] is not None:

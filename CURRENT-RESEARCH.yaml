@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 143
+state_revision: 144
 as_of: '2026-07-31'
 authority: >-
   Joe direct chat through 2026-07-31; governed run receipts preserve each
@@ -79,14 +79,16 @@ transition_protocol:
 current_decision:
   active_scientific_program_id: null
   executable_action_id: null
-  prepared_publication_program_id: DU-PAPER-013-HARDENING
+  prepared_publication_program_id: null
   selected_successor_id: null
   decision_note: >-
     HC-DU-176--184 bank response-host and material-interface boundaries.
     HC-DU-185--187 correct the prediction gate and harden the CSL contrast.
     HC-DU-188 finds that contrast ill-conditioned in the source regime and
     parks it behind a device redesign. Chen--Giacomini retains the highest
-    conditional local ceiling. Wave 3 stays ineligible.
+    conditional local ceiling. Wave 3 stays ineligible. DU-PAPER-013 is now
+    published on Zenodo as v0.2.1 under Drafting Factory custody; it consumes
+    no scientific or publication WIP.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -438,9 +440,9 @@ programs:
   - id: DU-PAPER-013-HARDENING
     kind: publication
     owner_repo: dynamic-unity
-    portfolio_status: ready
-    execution_status: prepared
-    wip_slot: publication
+    portfolio_status: complete
+    execution_status: none
+    wip_slot: none
     candidate_id: DU-PAPER-013
     primary_lane_id: '7'
     supporting_lane_ids:
@@ -450,25 +452,28 @@ programs:
       - CH-COLLIDE
       - CH-PAPER
     target: >-
-      Harden the bounded-precursor CSG post-tail classification into the
-      nearest new Dynamic Unity paper without claiming a new asymptotic
-      method, universal half-power, cosmology, or new physics.
+      Published bounded-precursor CSG post-tail classification, without any
+      claim of a new asymptotic method, universal half-power, cosmology, or
+      new physics. Zenodo v0.2.0 recorded the scientific result and v0.2.1
+      corrected only the reader-facing typesetting.
     current_grade: >-
-      SOURCE-HARDENED GRADE-4 BOUNDED THEOREM / FACTORY POST-READY MARKDOWN
-      v0.1.0. General regular-variation and discrete-saddle methods are
-      occupied; a systematic bounded search did not locate the same
-      CSG-specific uniform subscale and proportional-window classification.
+      PUBLISHED GRADE-4 BOUNDED THEOREM / ZENODO v0.2.1. General
+      regular-variation and discrete-saddle methods are occupied; a
+      systematic bounded search did not locate the same CSG-specific uniform
+      subscale and proportional-window classification. Publication and the
+      typesetting correction do not increase the evidence grade.
     evidence_grade: 4
     maximum_grade: >-
-      POST-READY SCOPED CSG COROLLARY. Publication does not increase the
+      PUBLISHED SCOPED CSG COROLLARY. Publication does not increase the
       scientific grade, and later external review may strengthen a future
-      version without gating Zenodo readiness.
+      version without reopening the completed publication program.
     maximum_evidence_grade: 4
     premise_status: >-
       The source theorem, proof repair, proportional-window extension,
       systematic collision, reproducible probes, and version-bound hostile
-      review are complete. Drafting Factory owns the post-ready package;
-      no external publication action is authorized.
+      review are complete. Drafting Factory published Zenodo v0.2.0 and the
+      scientifically identical v0.2.1 PDF/TeX correction. No further external
+      publication action is authorized.
     completed_dependencies:
       - id: CSG-POST-TAIL-PROOF-1
         evidence_ref: explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
@@ -503,9 +508,10 @@ programs:
       exact absorber, or a requested later-version extension. Metadata,
       release, and author-final edits remain Drafting Factory work.
     local_computation_boundary: >-
-      Source proof checking and deterministic controls are complete. The
-      canonical artifact remains Markdown; no fold.txt, TeX, or PDF was
-      created. No upload or posting is authorized.
+      Source checks are frozen at revision 30aaf36. Dynamic Unity retains
+      Markdown/source evidence; Drafting Factory owns the verified PDF/TeX
+      and Zenodo receipts. Public v0.2.1:
+      https://zenodo.org/records/21724178. No further upload is authorized.
     next_action: null
     next_action_ref: null
     canonical_evidence_refs:

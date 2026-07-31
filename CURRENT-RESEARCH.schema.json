@@ -208,7 +208,7 @@
           "$ref": "#/$defs/nullableString"
         },
         "prepared_publication_program_id": {
-          "$ref": "#/$defs/nonemptyString"
+          "$ref": "#/$defs/nullableString"
         },
         "selected_successor_id": {
           "type": [
@@ -506,7 +506,7 @@
           "$ref": "#/$defs/nonemptyString"
         },
         "active_work_id": {
-          "$ref": "#/$defs/nonemptyString"
+          "$ref": "#/$defs/nullableString"
         },
         "candidate_id": {
           "$ref": "#/$defs/nonemptyString"
