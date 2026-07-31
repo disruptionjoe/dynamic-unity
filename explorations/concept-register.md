@@ -7124,6 +7124,52 @@ Because no invariant unabsorbed response-order discriminator follows,
 Wave 3 remains ineligible and no successor is selected. See
 `bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md`.
 
+### 2026-07-30 nuclear-emulsion spatial provenance and lineage boundary
+
+`HC-DU-179` advances the material positive from a detector-event flag to a
+retained spatial trace. Ionizing passage changes silver-halide grains, and
+the latent material pattern can persist through a long exposure before
+development and microscopy. This physically selects local formation
+provenance and spatial arrangement.
+
+It does not generally select a causal graph over those marks. Published NIT
+analysis filters images, extracts grain contours, connects grains under
+distance and angular tolerances, and selects a longest chain. The exact finite
+control shows why the distinction matters:
+
+```text
+same four marked sites
+  -> two admissible path covers;
+
+same undirected segment
+  -> two temporal orientations.
+```
+
+The complete provenance ladder is now:
+
+```text
+local material formation
+< spatial trace
+< unique path membership
+< temporal direction
+< event identity
+< source classification.
+```
+
+This is a ladder of target strength for the source-pinned packet, not a
+universal temporal law. A physical edge/order tag is record refinement. A
+physically justified unique path-cover regime is completion-class narrowing.
+They must remain typed apart.
+
+**Updated seed status:** a material pattern can contain real spatial
+provenance without intrinsic same-source edges. Do not demote published tracks
+to fiction; credit their declared association, calibration, and admissibility
+contract. Do not promote a reconstructed chain to a timestamp, head–tail
+arrow, event identity, or particle biography. Standard emulsion physics,
+tracking, data association, and classification absorb the result. The
+response-order gate remains unmet and no successor is selected. See
+`nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

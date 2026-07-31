@@ -1,0 +1,60 @@
+{
+  "check_count": 9,
+  "checks": [
+    {
+      "matching_count": 2,
+      "name": "c4_has_two_admissible_path_covers",
+      "passed": true
+    },
+    {
+      "name": "same_marked_grains_different_lineage",
+      "passed": true
+    },
+    {
+      "name": "occupancy_record_does_not_factor_lineage",
+      "passed": true
+    },
+    {
+      "name": "material_trace_factors_local_mark_pattern",
+      "passed": true
+    },
+    {
+      "name": "edge_tag_repairs_lineage_factorization",
+      "passed": true
+    },
+    {
+      "matching_count": 1,
+      "name": "unique_path_cover_is_conditional_on_admissibility",
+      "passed": true
+    },
+    {
+      "name": "time_insensitive_segment_does_not_factor_direction",
+      "passed": true
+    },
+    {
+      "name": "ordered_endpoint_tag_repairs_direction",
+      "passed": true
+    },
+    {
+      "name": "downstream_deterministic_readout_cannot_restore_lineage",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-179",
+  "earned": {
+    "direction_boundary": "an unordered time-insensitive segment does not determine its temporal orientation",
+    "lineage_boundary": "site occupancy does not determine a source-path partition when multiple admissible path covers exist",
+    "material_positive": "a marked-site field can exactly retain the local material trace target",
+    "repairs": "retain edge/order tags or independently restrict the physical admissibility class until the path cover is unique"
+  },
+  "not_earned": [
+    "nuclear-emulsion chemistry",
+    "physical existence of the finite C4 specimen",
+    "particle or source identity",
+    "event time",
+    "track direction",
+    "selected readout or archive",
+    "new physics or empirical excess"
+  ],
+  "passed": true
+}

@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 133
+state_revision: 134
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,16 +82,13 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-176 is corrected to a formal target-factorization and logical
-    nonimplication result, not physical-mechanism independence. HC-DU-177
-    finds only an abstract common response schema across multiple typed hosts;
-    standard theory absorbs the response hierarchy. HC-DU-178 then finds a
-    source-pinned bubble-chamber positive: material dynamics selects
-    detector-event formation, finite retention, reset, and a probabilistic
-    source-response contract, but not exact upstream provenance, a selected
-    access/archive quotient, or an unabsorbed response-order discriminator.
-    Wave 3 remains ineligible and the scientific portfolio remains in
-    explicit no-ready quiescence.
+    HC-DU-176 is a formal factorization/nonimplication result. HC-DU-177 finds
+    no concrete common response host. HC-DU-178 physically joins
+    bubble-chamber formation, finite retention, reset, and a response law.
+    HC-DU-179 extends the positive to a retained emulsion spatial trace, but
+    not path edges, direction, event time, source identity, selected access,
+    or an unabsorbed response-order discriminator. Wave 3 remains ineligible;
+    the scientific portfolio stays in explicit no-ready quiescence.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -121,17 +118,14 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165--172 bank representation, custody, and bare-process
-      nonselection; HC-DU-173--175 add causal-order, relational-access, and
-      symmetry-reduction boundaries. Corrected HC-DU-176 banks scoped formal
-      joint-target factorization and logical nonimplication. HC-DU-177 banks
-      typed common-host necessity and physical-interface nonselection:
-      established response formalisms share no concrete host without
-      adapters and select no missing record-interface duty. HC-DU-178 banks a
-      source-pinned partial selector: bubble-chamber matter joins
-      detector-event formation, finite retention, reset, and a physical
-      response law, while source certification, access, and archive remain
-      separate.
+      HC-DU-165--175 bank representation, custody, process, causal-order,
+      relational-access, and symmetry boundaries. HC-DU-176/177 bank formal
+      joint-target factorization and common-host/interface nonselection.
+      HC-DU-178 joins detector-event formation, finite retention, reset, and
+      response in bubble-chamber matter. HC-DU-179 adds an emulsion spatial
+      carrier while proving that global path edges, orientation, event
+      identity, and source class require physical tags or a justified
+      unique-cover class.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -159,8 +153,11 @@ programs:
         evidence_ref: explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
       - id: HC-DU-178
         evidence_ref: explorations/bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md
+      - id: HC-DU-179
+        evidence_ref: explorations/nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md
     remaining_obligations:
-      - Extend the source-pinned formation-and-retention positive into upstream provenance, a physically selected access/archive quotient, or an exact bounded-error source certificate without target refitting.
+      - Extend local material spatial provenance into physically selected path edges, temporal order, event identity, or an exact bounded-error source certificate without target refitting.
+      - Select the development/readout/archive/access quotient physically rather than installing it as an external inference pipeline.
       - Expose an invariant higher-response distinction not absorbed by Peierls, effective-action, Schwinger--Dyson, stochastic-gravity, relative-Cauchy, or process-tensor theory.
       - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
       - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
@@ -178,19 +175,18 @@ programs:
         target: DU-PAPER-013-HARDENING
         target_type: program
     strongest_absorber: >-
-      Peierls/covariant phase space, in-out and in-in effective actions,
-      Schwinger--Dyson/nPI hierarchies, stochastic gravity, locally covariant
-      QFT/relative Cauchy evolution, process tensors, direct-action
-      reformulations, causal action, instruments/dilations, and archive
-      provenance; for the material-event positive, ordinary nucleation,
-      metastability, detector-response, signal-detection, acquisition, and
-      reset theory.
+      Standard response theory, process tensors, direct/causal action,
+      instruments and provenance absorb the abstract host; nucleation,
+      metastability, detector response and acquisition absorb the bubble;
+      latent-image chemistry, tracking, path covers, data association,
+      calibration and classification absorb the emulsion trace.
     cheapest_kill: >-
-      HC-DU-178 supplies the positive control and the kill together. A bubble
-      can exactly record detector-level nucleation while distinct upstream
-      source histories retain overlapping bubble/readout laws; camera,
-      acoustic, calibration, and archive choices remain supplied. No
-      unabsorbed higher-response discriminator follows.
+      HC-DU-179 supplies the next positive control and kill. Nuclear-emulsion
+      matter retains altered sites and their spatial pattern, but the same
+      four-site trace admits two path covers and an unordered segment admits
+      opposite temporal orientations. Edge/order tags or a unique physical
+      path-cover class repair lineage; no unabsorbed higher-response
+      discriminator follows.
     stop_rule: >-
       Do not construct a generic response tower from shared vocabulary,
       compare unlike response orders without adapters, or promote lawful
@@ -213,6 +209,7 @@ programs:
       - explorations/stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md
       - explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
       - explorations/bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md
+      - explorations/nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
 
@@ -634,11 +631,12 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-178 clears formation and finite retention for one source-pinned
-    material detector, but not exact upstream provenance, selected access, or
-    the unabsorbed response-order half of the Wave-3 gate. Select no successor
-    until one candidate closes both conjuncts, or another candidate
-    independently satisfies the North-Star admission contract.
+    HC-DU-179 extends the material positive through retained spatial
+    provenance but not intrinsic path edges, temporal direction, event
+    identity, source certification, selected access, or the unabsorbed
+    response-order half of the Wave-3 gate. Select no successor until one
+    candidate closes both conjuncts, or another candidate independently
+    satisfies the North-Star admission contract.
 
 anomaly_intake:
   status: open_non_wip

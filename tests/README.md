@@ -4519,3 +4519,36 @@ independent physical realizability or select a physical stage, symmetry
 resource, material archive, common response object, hyperbolic dynamics,
 observer, finality, new physics, paper, hardware, provider, or later
 scientific action.
+
+## HC-DU-179 material-trace lineage boundary
+
+`du_material_trace_lineage_probe.py` preserves the exact finite controls
+behind the distinction between a material marked-site field and causal
+lineage:
+
+- the cycle graph \(C_4\) has two admissible perfect path covers;
+- both covers produce the same four-site material record while assigning
+  different same-source edges;
+- the marked-site record exactly factors local material formation but not
+  path membership;
+- a physical edge tag repairs lineage factorization;
+- narrowing the admissible graph to a path makes the cover unique without
+  changing the record;
+- a time-insensitive undirected segment does not determine traversal
+  direction;
+- an ordered endpoint tag repairs direction; and
+- deterministic development or scanning of the same latent field cannot
+  restore lineage already lost in its fibre.
+
+Run:
+
+```bash
+python3 tests/du_material_trace_lineage_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_material_trace_lineage_result.json`. Passing establishes only
+the finite site/path and direction factorization boundaries. It does not
+model nuclear-emulsion chemistry, prove the physical realization of the
+four-site witness, identify a particle or source, timestamp an event, select
+a readout or archive, establish new physics, or authorize later work.
