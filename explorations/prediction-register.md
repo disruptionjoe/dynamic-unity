@@ -283,6 +283,19 @@ does not register, harden, duplicate, seed, or promote either prediction.
   one shared \(I_D\) nuisance: for two configurations the determinant is
   \(I_{D,1}I_{D,2}(S_{{\rm br},1}-S_{{\rm br},2})\). This is conditional on
   an unchanged apparatus and independently frozen width-dependent losses.
+- **Version-1 three-width lock (2026-07-31).** The source's own timing-error
+  term is proportional to endpoint packet variance. With one shared
+  path-loss coefficient and one unknown width-linear timing coefficient, two
+  widths span the full two-configuration response space and cannot attribute
+  CSL. At fixed path, temperature, weak trap, mass, and $r_c$, the CSL
+  breathing factor is strictly convex in prepared endpoint variance. Three
+  distinct widths therefore give a CSL column outside
+  \(\operatorname{span}\{\mathbf1,W\}\). The preregistered contrast
+  \(w=(W_3-W_2,W_1-W_3,W_2-W_1)\) annihilates both nuisance columns and
+  retains the CSL response. This is conditional on a complete frozen
+  nuisance family, common timing statistics, and an unchanged acquisition
+  contract. The source's published baseline/aggressive pair changes
+  weak-trap frequency and duration and is not this matched control.
 - **Conditional falsifier.** A frozen nonzero parameter point is excluded
   when the no-refit multi-configuration visibility surface is incompatible
   with \(K(r_c)\) after the preregistered nuisance family, calibration,
@@ -290,9 +303,11 @@ does not register, harden, duplicate, seed, or promote either prediction.
   parameter space; it does not eliminate CSL with free \((\lambda,r_c)\).
 - **Hardening checklist.**
   1. independently audit the proposal's full apparatus and sensitivity model;
-  2. include a matched-trajectory preparation-width contrast before relying
-     on force amplitude; use frequency or mass/charge contrasts only with
-     unchanged or independently calibrated transfer functions;
+  2. include at least three matched-trajectory preparation widths when both
+     shared path loss and width-linear timing loss remain unknown; two widths
+     suffice only after one coefficient is fixed independently; use frequency
+     or mass/charge contrasts only with unchanged or independently calibrated
+     transfer functions;
   3. preregister the ordinary-loss design \(B\) and verify the attribution
      rank;
   4. preserve calibration, selection, and attempted-run lineage;
@@ -304,7 +319,8 @@ does not register, harden, duplicate, seed, or promote either prediction.
   for a credible implementation packet that clears the checklist.
 - **Source pointer.**
   `reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md`;
-  `reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md`.
+  `reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md`;
+  `reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md`.
 
 ---
 

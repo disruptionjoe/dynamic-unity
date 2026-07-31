@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "name": "contrast_annihilates_shared_path_nuisance",
+      "passed": true
+    },
+    {
+      "name": "contrast_annihilates_width_linear_timing_nuisance",
+      "passed": true
+    },
+    {
+      "name": "strictly_convex_breathing_response_survives_contrast",
+      "passed": true
+    },
+    {
+      "name": "locked_contrast_recovers_only_challenger_component",
+      "passed": true
+    },
+    {
+      "name": "zero_challenger_gives_zero_locked_contrast",
+      "passed": true
+    },
+    {
+      "name": "three_width_design_has_full_rank",
+      "passed": true
+    },
+    {
+      "name": "two_width_response_is_absorbed_by_two_unknown_nuisances",
+      "passed": true
+    },
+    {
+      "name": "two_width_repair_returns_if_timing_is_independently_fixed",
+      "passed": true
+    },
+    {
+      "name": "source_breathing_kernel_second_derivative_prefactor_is_positive",
+      "passed": true
+    },
+    {
+      "name": "force_scan_keeps_csl_and_environment_columns_collinear",
+      "passed": true
+    },
+    {
+      "name": "arbitrary_configuration_nuisance_kills_attribution",
+      "passed": true
+    },
+    {
+      "name": "published_operating_pair_is_not_matched_width_only_control",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-187",
+  "earned_boundary": "With a shared path-loss coefficient and one unknown timing-loss coefficient linear in endpoint variance, two prepared widths cannot identify a CSL breathing response. Three distinct widths do so in the frozen source model because the CSL breathing factor is strictly convex in endpoint variance.",
+  "non_claims": [
+    "No CSL parameter point or apparatus is empirically validated.",
+    "No real nuisance family is proved complete.",
+    "No source engineering estimate is reproduced.",
+    "No hardware action, observed anomaly, or new DU law is earned."
+  ],
+  "passed_checks": 12,
+  "prediction_id": "PRED-DU-005",
+  "status": "PASS",
+  "total_checks": 12
+}

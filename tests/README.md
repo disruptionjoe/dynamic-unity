@@ -4764,3 +4764,30 @@ The artifact is
 only finite prediction-relation, readout, modular-composition, and
 response-shape boundaries. It validates no CSL or gravity law, complete
 nuisance class, observed anomaly, new physics, or later campaign wave.
+
+## HC-DU-187 reversible-pointer CSL three-width prediction lock
+
+`du_csl_three_width_prediction_lock_probe.py` preserves the exact finite
+controls behind the hardened `PRED-DU-005` response geometry:
+
+- one contrast annihilates a shared path-loss column and a width-linear
+  timing-loss column;
+- a strictly convex breathing response survives that contrast;
+- two widths are saturated by the two unknown nuisance coefficients;
+- three widths restore rank in the frozen minimal model;
+- force-only scans retain the known CSL/environment collinearity;
+- arbitrary configuration-specific nuisance terms kill attribution; and
+- the paper's baseline/aggressive pair is not a matched-width-only control.
+
+Run:
+
+```bash
+python3 tests/du_csl_three_width_prediction_lock_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_csl_three_width_prediction_lock_result.json`. Passing
+establishes only finite rank, contrast, and prediction-lock boundaries. It
+does not validate CSL, a complete nuisance family, the proposal's engineering
+estimates, an apparatus, an observed anomaly, new physics, or a later
+campaign wave.

@@ -7462,6 +7462,35 @@ predictive sharpening or rival-excluding excess through a separately frozen
 physical interface. See
 `predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md`.
 
+### 2026-07-31 reversible-pointer CSL three-width prediction lock
+
+`HC-DU-187` tightens the conditional breathing-contrast repair in
+`PRED-DU-005`. The source's timing-mismatch loss changes with endpoint packet
+variance. Once a shared path-loss coefficient and one width-linear timing
+coefficient are both unknown, two prepared widths carry no attribution rank:
+their nuisance columns already span the two-dimensional response space.
+
+For fixed path, temperature, weak trap, mass, and $r_c$, the finite-width
+CSL breathing factor is strictly convex in prepared endpoint variance. Three
+distinct widths therefore place its response outside the affine nuisance
+span. The contrast
+
+\[
+w=(W_3-W_2,\;W_1-W_3,\;W_2-W_1)
+\]
+
+annihilates both the shared and width-linear columns while retaining the CSL
+response.
+
+**Updated seed status:** the reversible-pointer route remains the closest
+conditional experiment packet, but its cheapest no-refit design now needs
+three matched widths or an independently fixed timing coefficient. The
+published baseline/aggressive pair is not that control because weak-trap
+frequency and duration change. The lock remains imported, conditional, and
+unexecuted. No CSL evidence, complete nuisance family, hardware action,
+paper, new DU law, or Wave-3 activation is earned. See
+`reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
