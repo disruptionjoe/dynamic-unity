@@ -1,0 +1,94 @@
+{
+  "checks": [
+    {
+      "maximum_error": 1.1102230246251565e-16,
+      "name": "vacuum_symmetrized_kernel_has_exact_classical_gaussian_factorization",
+      "passed": true
+    },
+    {
+      "name": "vacuum_symmetrized_kernel_is_positive_semidefinite",
+      "passed": true,
+      "quadratic_forms": [
+        1.1988346935191212,
+        1.2653281121026385,
+        15.708806590672392
+      ]
+    },
+    {
+      "characteristic": 0.626210850187014,
+      "name": "complete_gaussian_record_characteristic_is_classically_reproduced",
+      "passed": true
+    },
+    {
+      "maximum_errors": [
+        1.1102230246251565e-16,
+        4.440892098500626e-16,
+        1.7763568394002505e-15
+      ],
+      "name": "squeezed_nonstationary_kernel_has_classical_quadrature_realization",
+      "passed": true
+    },
+    {
+      "minimum_quadratic_forms": [
+        1.1988346935191212,
+        0.6069269154486715,
+        0.4242881031527875
+      ],
+      "name": "squeezed_kernel_remains_positive_for_each_source_parameter",
+      "passed": true
+    },
+    {
+      "fourth_moment": -0.2566097381091692,
+      "name": "all_gaussian_fourth_record_moments_are_classically_reproduced",
+      "passed": true
+    },
+    {
+      "name": "nonlinear_classical_detector_processing_preserves_the_absorption",
+      "passed": true,
+      "processed_moments": [
+        0.8,
+        1.9200000000000004
+      ]
+    },
+    {
+      "name": "cross_detector_gaussian_correlation_has_classical_common_cause_model",
+      "passed": true,
+      "quadratic_forms": [
+        1.3435457086813494,
+        1.8824865361545386
+      ]
+    },
+    {
+      "name": "vacuum_power_surface_has_one_no_refit_classical_spectral_copy",
+      "passed": true,
+      "power_values": [
+        3.2,
+        7.6,
+        12.8
+      ]
+    },
+    {
+      "name": "commutative_gaussian_record_erases_ordered_quantum_component",
+      "ordered_imaginary_part": -0.6271585022629842,
+      "passed": true,
+      "retained_symmetrized_value": 0.4966610645493066
+    },
+    {
+      "commuting_noise_rate_ratio": 1.0,
+      "name": "ordered_quantum_detector_target_lies_outside_the_classical_arm_record",
+      "passed": true,
+      "vacuum_ordered_rate_ratio": 0.0
+    }
+  ],
+  "claim_id": "HC-DU-194",
+  "earned_boundary": "The vacuum, squeezed, and shared-detector Gaussian kernels admit explicit classical stochastic realizations. Therefore every statistic of the resulting commutative Gaussian record, and every deterministic classical post-processing of that record, is unable to certify field quantization. The ordered imaginary correlation remains outside that record and requires a genuinely quantum, energy-selective or incompatible multi-time detector contract.",
+  "non_claims": [
+    "No claim is made that the graviton-noise calculation is incorrect.",
+    "No universal classical-gravity theory is established.",
+    "The exact pre-saddle quantum detector transition law is not classically reproduced here.",
+    "No observed effect, apparatus, hardware action, new DU law, or successor is selected."
+  ],
+  "passed_checks": 11,
+  "status": "PASS",
+  "total_checks": 11
+}

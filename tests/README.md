@@ -4974,3 +4974,33 @@ commuting-noise exclusion, two-frequency equilibrium-FDT discriminator, and
 field-attribution stop. It proves no universal classical-gravity no-go, unique
 quantum-gravity witness, observed effect, apparatus, material interface,
 hardware action, new DU law, or later campaign wave.
+
+## HC-DU-194 graviton-noise commutative Gaussian record boundary
+
+`du_graviton_noise_commutative_gaussian_record_probe.py` preserves the exact
+finite controls behind the primary-source disposition:
+
+- the vacuum symmetrized kernel has an explicit positive classical Gaussian
+  factorization;
+- the complete Gaussian characteristic functional and Wick moments match;
+- squeezed nonstationary kernels factor through classical quadratures across
+  three source parameters;
+- deterministic nonlinear detector processing preserves the absorption;
+- two-detector correlations have a shared classical common-cause model;
+- one no-refit classical spectral law copies the full vacuum power surface;
+- the commutative record erases the ordered imaginary component; and
+- an energy-selective ordered rate is outside the classical arm record.
+
+Run:
+
+```bash
+python3 tests/du_graviton_noise_commutative_gaussian_record_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_graviton_noise_commutative_gaussian_record_result.json`.
+Passing establishes only the scoped commutative-record nonidentification,
+classical realizations, ordering-erasure boundary, and quantum-process
+reopener. It proves no source-paper error, universal stochastic-gravity no-go,
+unique quantum-gravity witness, observed effect, apparatus, selected material
+interface, hardware action, new DU law, or later campaign wave.

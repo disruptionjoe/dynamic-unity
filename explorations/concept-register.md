@@ -7660,6 +7660,33 @@ hardware action, new DU law, successor, or later-wave activation is earned.
 See
 `quantum-gravity-matched-noise-response-classical-realization-and-two-frequency-fdt-boundary-2026-07-31.md`.
 
+### 2026-07-31 graviton-noise commutative-record boundary
+
+`HC-DU-194` applies the ordered-response reopener to the
+Parikh--Wilczek--Zahariade graviton-noise construction. The source supplies a
+substantive quantum-field influence functional, but its proposed observable
+surface is explicitly rewritten as real Gaussian stochastic noise and then
+evaluated on an equal-path classical detector saddle. Vacuum, thermal,
+squeezed, nonlinear arm-response, and nearby-detector correlation records all
+retain classical stochastic realizations.
+
+The exact scoped theorem is that a complete commutative Gaussian record law is
+identical to an ordinary classical Gaussian law, and every deterministic
+classical post-processing preserves the equality. An $\hbar$-dependent power
+spectrum, squeezing enhancement, or shared-detector correlation therefore
+does not by itself identify gravitons. The missing datum is the ordered
+imaginary correlation erased by the arm record.
+
+**Updated seed status:** the published classical arm-noise surface does not
+satisfy the `HC-DU-193` reopener. Preserve the source's exact pre-saddle quantum
+detector transition probability as the next conditional object. It must be
+tested through incompatible or energy-selective instruments at two gaps or
+frequencies against classical stochastic and direct quantum rivals. No
+source-paper error, universal stochastic-gravity no-go, unique quantum-gravity
+witness, observed effect, apparatus, selected material interface, hardware
+action, new DU law, successor, or later-wave activation is earned. See
+`graviton-noise-commutative-gaussian-record-no-go-and-quantum-detector-reopener-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
