@@ -4552,3 +4552,37 @@ the finite site/path and direction factorization boundaries. It does not
 model nuclear-emulsion chemistry, prove the physical realization of the
 four-site witness, identify a particle or source, timestamp an event, select
 a readout or archive, establish new physics, or authorize later work.
+
+## HC-DU-180 oriented-trace and head-tail boundary
+
+`du_oriented_trace_head_tail_probe.py` preserves the exact finite controls
+behind the distinction between an unoriented spatial axis, a physically
+polarized response profile, and a bounded-error orientation certificate:
+
+- an unweighted three-site axis does not factor traversal direction;
+- a reflection-asymmetric profile factors direction in a frozen noiseless
+  response class;
+- a centered reflection-odd moment changes sign under path reversal;
+- a reflection-symmetric profile carries no orientation information;
+- overlapping orientation-conditioned laws give total variation \(3/5\)
+  and minimum equal-prior error \(1/5\), not zero error;
+- disjoint laws give exact orientation;
+- a noisy downstream readout contracts total variation from \(3/5\) to
+  \(3/10\);
+- axis-only coarse-graining erases head-tail information; and
+- a known source label can repair a joint packet while remaining imported
+  side information rather than intrinsic detector provenance.
+
+Run:
+
+```bash
+python3 tests/du_oriented_trace_head_tail_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_oriented_trace_head_tail_result.json`. Passing establishes only
+finite orientation factorization, binary-testing, and data-processing
+boundaries. It does not model TPC physics, prove persistent material
+orientation, certify any experimental event with zero error, establish path
+membership, event time, particle identity, selected calibration/readout,
+new physics, or later scientific action.

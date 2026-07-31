@@ -1,0 +1,89 @@
+{
+  "check_count": 9,
+  "checks": [
+    {
+      "name": "unoriented_axis_does_not_factor_direction",
+      "passed": true
+    },
+    {
+      "name": "asymmetric_profile_factors_noiseless_direction",
+      "passed": true
+    },
+    {
+      "forward_moment": -4,
+      "name": "reflection_odd_moment_changes_sign",
+      "passed": true,
+      "reverse_moment": 4
+    },
+    {
+      "name": "reflection_symmetric_profile_carries_no_direction",
+      "passed": true
+    },
+    {
+      "minimum_equal_prior_error": {
+        "denominator": 5,
+        "numerator": 1
+      },
+      "name": "overlapping_laws_give_bounded_not_zero_error",
+      "passed": true,
+      "total_variation": {
+        "denominator": 5,
+        "numerator": 3
+      }
+    },
+    {
+      "minimum_equal_prior_error": {
+        "denominator": 1,
+        "numerator": 0
+      },
+      "name": "disjoint_laws_give_zero_error_orientation",
+      "passed": true,
+      "total_variation": {
+        "denominator": 1,
+        "numerator": 1
+      }
+    },
+    {
+      "downstream_minimum_equal_prior_error": {
+        "denominator": 20,
+        "numerator": 7
+      },
+      "downstream_total_variation": {
+        "denominator": 10,
+        "numerator": 3
+      },
+      "name": "downstream_readout_cannot_increase_orientation_tv",
+      "passed": true,
+      "upstream_total_variation": {
+        "denominator": 5,
+        "numerator": 3
+      }
+    },
+    {
+      "name": "axis_coarse_graining_erases_head_tail_information",
+      "passed": true
+    },
+    {
+      "name": "known_source_label_is_imported_orientation_information",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-180",
+  "earned": {
+    "noiseless_boundary": "a reflection-asymmetric retained profile can factor an orientation that an unoriented axis cannot",
+    "readout_boundary": "a downstream stochastic readout cannot increase total variation between the orientation-conditioned laws",
+    "side_information_boundary": "a known source direction may repair the joint packet without becoming intrinsic detector provenance",
+    "statistical_boundary": "equal-prior optimal head-tail error is (1-TV(mu_plus,mu_minus))/2"
+  },
+  "not_earned": [
+    "time-projection-chamber physics",
+    "material persistence after the transient ionization field",
+    "zero-error event-by-event head-tail certification in an experiment",
+    "track membership in a multi-event exposure",
+    "event time or upstream particle identity",
+    "selected calibration, readout, archive, or observer access",
+    "an unabsorbed higher-response law",
+    "new physics or empirical excess"
+  ],
+  "passed": true
+}

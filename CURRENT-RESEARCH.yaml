@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 134
+state_revision: 135
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -82,13 +82,12 @@ current_decision:
   prepared_publication_program_id: DU-PAPER-013-HARDENING
   selected_successor_id: null
   decision_note: >-
-    HC-DU-176 is a formal factorization/nonimplication result. HC-DU-177 finds
-    no concrete common response host. HC-DU-178 physically joins
-    bubble-chamber formation, finite retention, reset, and a response law.
-    HC-DU-179 extends the positive to a retained emulsion spatial trace, but
-    not path edges, direction, event time, source identity, selected access,
-    or an unabsorbed response-order discriminator. Wave 3 remains ineligible;
-    the scientific portfolio stays in explicit no-ready quiescence.
+    HC-DU-176/177 bank formal factorization and no concrete common response
+    host. HC-DU-178/179 add detector-event formation, retention, and spatial
+    trace. HC-DU-180 adds physically polarized but transient, overlapping TPC
+    response laws. Exact orientation, retained lineage, selected access, and
+    an unabsorbed response-order discriminator remain absent. Wave 3 stays
+    ineligible and the portfolio remains no-ready quiescent.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -118,14 +117,11 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165--175 bank representation, custody, process, causal-order,
-      relational-access, and symmetry boundaries. HC-DU-176/177 bank formal
-      joint-target factorization and common-host/interface nonselection.
-      HC-DU-178 joins detector-event formation, finite retention, reset, and
-      response in bubble-chamber matter. HC-DU-179 adds an emulsion spatial
-      carrier while proving that global path edges, orientation, event
-      identity, and source class require physical tags or a justified
-      unique-cover class.
+      HC-DU-165--177 bank representation, custody, process, symmetry,
+      factorization, and interface-nonselection boundaries. HC-DU-178 joins
+      bubble formation, retention, reset, and response. HC-DU-179 adds an
+      emulsion spatial carrier without intrinsic path edges. HC-DU-180 adds a
+      transient TPC orientation carrier whose conditioned laws overlap.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -155,9 +151,12 @@ programs:
         evidence_ref: explorations/bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md
       - id: HC-DU-179
         evidence_ref: explorations/nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md
+      - id: HC-DU-180
+        evidence_ref: explorations/gaseous-tpc-oriented-trace-head-tail-information-and-zero-error-boundary-2026-07-30.md
     remaining_obligations:
-      - Extend local material spatial provenance into physically selected path edges, temporal order, event identity, or an exact bounded-error source certificate without target refitting.
-      - Select the development/readout/archive/access quotient physically rather than installing it as an external inference pipeline.
+      - Join retained material spatial provenance with physically selected path edges or a reflection-asymmetric polarity field in one source-pinned carrier.
+      - Upgrade bounded-error head-tail information to a declared event certificate without treating a known source direction as intrinsic provenance.
+      - Physically select event membership, event time, and the readout/archive/access quotient.
       - Expose an invariant higher-response distinction not absorbed by Peierls, effective-action, Schwinger--Dyson, stochastic-gravity, relative-Cauchy, or process-tensor theory.
       - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
       - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
@@ -179,14 +178,18 @@ programs:
       instruments and provenance absorb the abstract host; nucleation,
       metastability, detector response and acquisition absorb the bubble;
       latent-image chemistry, tracking, path covers, data association,
-      calibration and classification absorb the emulsion trace.
+      calibration and classification absorb the emulsion trace; stopping
+      power, Bragg profiles, gaseous-TPC response, binary testing, total
+      variation, data processing, deconvolution, and calibration absorb
+      head-tail orientation.
     cheapest_kill: >-
-      HC-DU-179 supplies the next positive control and kill. Nuclear-emulsion
-      matter retains altered sites and their spatial pattern, but the same
-      four-site trace admits two path covers and an unordered segment admits
-      opposite temporal orientations. Edge/order tags or a unique physical
-      path-cover class repair lineage; no unabsorbed higher-response
-      discriminator follows.
+      HC-DU-180 supplies the orientation positive and kill together. A
+      reflection-asymmetric ionization law makes the two path senses
+      statistically distinguishable, but overlapping conditioned laws forbid
+      zero-error certification; deterministic readout cannot increase their
+      total variation, and a known source label is additional side
+      information. The carrier is transient and no unabsorbed
+      higher-response discriminator follows.
     stop_rule: >-
       Do not construct a generic response tower from shared vocabulary,
       compare unlike response orders without adapters, or promote lawful
@@ -210,6 +213,7 @@ programs:
       - explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
       - explorations/bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md
       - explorations/nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md
+      - explorations/gaseous-tpc-oriented-trace-head-tail-information-and-zero-error-boundary-2026-07-30.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
 
@@ -631,9 +635,9 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-179 extends the material positive through retained spatial
-    provenance but not intrinsic path edges, temporal direction, event
-    identity, source certification, selected access, or the unabsorbed
+    HC-DU-180 adds physical bounded-error orientation information to the
+    detector ladder but does not join it with the retained emulsion carrier,
+    exact event association, selected access/archive, or the unabsorbed
     response-order half of the Wave-3 gate. Select no successor until one
     candidate closes both conjuncts, or another candidate independently
     satisfies the North-Star admission contract.

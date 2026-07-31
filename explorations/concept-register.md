@@ -7170,6 +7170,62 @@ tracking, data association, and classification absorb the result. The
 response-order gate remains unmet and no successor is selected. See
 `nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md`.
 
+### 2026-07-30 gaseous-TPC oriented-trace and head-tail boundary
+
+`HC-DU-180` identifies the physical coordinate that can orient an otherwise
+unoriented path. A reflection-asymmetric scalar response profile, such as a
+stopping-power-dependent ionization density, can distinguish the two path
+senses in a frozen response class. DRIFT, MIMAC, and high-definition gaseous
+TPC work physically realize and reconstruct versions of this polarity.
+
+The exact deterministic boundary is:
+
+\[
+q\ne\mathcal Rq
+\]
+
+for the two reflected profiles, together with a frozen physical law mapping
+profile polarity to the event's starting end. Without the latter, asymmetry
+distinguishes the ends but does not name which one came first.
+
+The stochastic boundary is:
+
+\[
+P_{\rm err}^{\star}
+=
+\frac{1-\operatorname{TV}(\mu_+,\mu_-)}{2}
+\]
+
+under equal priors. Nonzero total variation gives usable head-tail
+information; zero-error orientation requires mutually singular conditioned
+laws. A common downstream drift/readout/reconstruction channel cannot
+increase total variation. A known neutron-source direction can repair the
+joint calibration packet while remaining imported side information rather
+than intrinsic detector provenance.
+
+The refined ladder is:
+
+```text
+spatial axis
+< reflection-asymmetric physical profile
+< bounded-error orientation certificate
+< zero-error orientation certificate
+< event/path membership
+< event time
+< source identity.
+```
+
+**Updated seed status:** `HC-DU-179`'s “physical order tag” need not be a
+discrete timestamp or edge label; a graded material-response field can break
+path-reversal symmetry. The positive remains split across platforms:
+emulsion supplies long material retention with weak orientation, while a
+gaseous TPC supplies stronger directional information in a transient carrier
+whose retained acquisition is separately selected. Standard stopping-power,
+TPC, hypothesis-testing, deconvolution, calibration, and directional-detector
+theory absorb the result. The response-order gate remains unmet and no
+successor is selected. See
+`gaseous-tpc-oriented-trace-head-tail-information-and-zero-error-boundary-2026-07-30.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
