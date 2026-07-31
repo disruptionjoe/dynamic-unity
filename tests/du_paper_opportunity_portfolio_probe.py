@@ -152,11 +152,19 @@ def build_result() -> dict[str, Any]:
             seed_id not in candidate_by_id[candidate_id]["factory_snapshot"]
             or (
                 candidate_id in factory_intake["standalone_seed_map"]
-                and (
-                    candidate_by_id[candidate_id]["factory_state"]
-                    != "existing_seed_unselected"
-                    or candidate_by_id[candidate_id]["seed_status"]
-                    != "factory_seeded_unselected"
+                and not (
+                    (
+                        candidate_by_id[candidate_id]["factory_state"]
+                        == "existing_seed_unselected"
+                        and candidate_by_id[candidate_id]["seed_status"]
+                        == "factory_seeded_unselected"
+                    )
+                    or (
+                        candidate_by_id[candidate_id]["factory_state"]
+                        == "factory_post_ready"
+                        and candidate_by_id[candidate_id]["seed_status"]
+                        == "already_factory_post_ready"
+                    )
                 )
             )
             or (

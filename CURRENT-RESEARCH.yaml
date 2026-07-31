@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 131
+state_revision: 132
 as_of: '2026-07-30'
 authority: >-
   Joe direct chat through 2026-07-30; governed run receipts preserve each
@@ -412,26 +412,29 @@ programs:
       nearest new Dynamic Unity paper without claiming a new asymptotic
       method, universal half-power, cosmology, or new physics.
     current_grade: >-
-      BOUNDED THEOREM WITH TWO INTERNAL PROOF ROUTES / CSG-SPECIFIC NOVELTY
-      PROVISIONAL. General regular-variation and discrete-saddle methods are
-      occupied.
+      SOURCE-HARDENED GRADE-4 BOUNDED THEOREM / FACTORY POST-READY MARKDOWN
+      v0.1.0. General regular-variation and discrete-saddle methods are
+      occupied; a systematic bounded search did not locate the same
+      CSG-specific uniform subscale and proportional-window classification.
     evidence_grade: 4
     maximum_grade: >-
-      SUBMISSION-READY SCOPED CSG COROLLARY after independent proof review and
-      a systematic paper-grade collision.
+      POST-READY SCOPED CSG COROLLARY. Publication does not increase the
+      scientific grade, and later external review may strengthen a future
+      version without gating Zenodo readiness.
     maximum_evidence_grade: 4
     premise_status: >-
-      Exact candidate named and Factory-seeded but unselected. Publication
-      custody and scientific hardening remain distinct.
+      The source theorem, proof repair, proportional-window extension,
+      systematic collision, reproducible probes, and version-bound hostile
+      review are complete. Drafting Factory owns the post-ready package;
+      no external publication action is authorized.
     completed_dependencies:
       - id: CSG-POST-TAIL-PROOF-1
         evidence_ref: explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
       - id: CSG-POST-TAIL-PROOF-2
         evidence_ref: explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md
-    remaining_obligations:
-      - Obtain independent mathematical proof review.
-      - Complete causal-set, regular-variation, Tauberian, binomial-transform, and analytic-combinatorics collision.
-      - Write the novelty statement at the surviving CSG-specific scope.
+      - id: CSG-POST-TAIL-PAPER-HARDENING
+        evidence_ref: explorations/csg-post-tail-independent-hardening-and-paper-grade-collision-2026-07-30.md
+    remaining_obligations: []
     typed_dependencies:
       - type: extracts_from
         target: CSG-POST-TAIL-PROOF-1
@@ -454,21 +457,21 @@ programs:
       absorption. Preserve a corrected narrower negative or classification
       result when independently valid.
     reopen_rule: >-
-      Activate the publication WIP slot only after explicit candidate
-      selection and a check that source hardening will not conflict with
-      Drafting Factory custody.
+      Reopen source work only for a material proof objection, a newly located
+      exact absorber, or a requested later-version extension. Metadata,
+      release, and author-final edits remain Drafting Factory work.
     local_computation_boundary: >-
-      Proof checking and bibliography only. Canonical Markdown receives the
-      effort; no fold.txt, TeX, PDF, release, upload, or posting work before
-      Joe resumes publication preparation.
-    next_action: >-
-      When activated, commission independent proof review and the systematic
-      novelty collision as one bounded hardening pass.
-    next_action_ref: papers/PAPER-OPPORTUNITY-PORTFOLIO-2026-07-24.md
+      Source proof checking and deterministic controls are complete. The
+      canonical artifact remains Markdown; no fold.txt, TeX, or PDF was
+      created. No upload or posting is authorized.
+    next_action: null
+    next_action_ref: null
     canonical_evidence_refs:
       - papers/paper-opportunity-portfolio.json
       - explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
       - explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md
+      - explorations/csg-post-tail-independent-hardening-and-paper-grade-collision-2026-07-30.md
+      - tests/artifacts/du_csg_post_tail_paper_hardening_result.json
 
   - id: COVARIANT-FINALITY-DYNAMICS
     kind: theory_branch

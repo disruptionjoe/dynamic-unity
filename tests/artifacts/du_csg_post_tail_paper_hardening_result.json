@@ -1,0 +1,175 @@
+{
+  "probe": "du_csg_post_tail_paper_hardening_probe",
+  "claim_grade": "finite hostile controls for the precursor-window and eventual-positivity seams",
+  "proportional_precursor_control": {
+    "family": "t_m=1/m!",
+    "balance_scale": "P/((b+1)b) approximately 1",
+    "proportional_limit_equation": "x(c+x)=1",
+    "rows": [
+      {
+        "post_size": 4096,
+        "implicit_scale": 64,
+        "subscale_precursor": 8,
+        "subscale_normalized_response": 0.9418739173061719,
+        "proportional_cases": [
+          {
+            "c": 0.5,
+            "precursor": 32,
+            "observed_normalized_response": 0.7805991144318779,
+            "predicted_limit": 0.7807764064044151,
+            "absolute_error": 0.00017729197253724127
+          },
+          {
+            "c": 1.0,
+            "precursor": 64,
+            "observed_normalized_response": 0.6165030017697566,
+            "predicted_limit": 0.6180339887498949,
+            "absolute_error": 0.0015309869801383158
+          },
+          {
+            "c": 2.0,
+            "precursor": 128,
+            "observed_normalized_response": 0.4126436817847321,
+            "predicted_limit": 0.41421356237309515,
+            "absolute_error": 0.0015698805883630484
+          }
+        ]
+      },
+      {
+        "post_size": 16384,
+        "implicit_scale": 128,
+        "subscale_precursor": 11,
+        "subscale_normalized_response": 0.9593966407139319,
+        "proportional_cases": [
+          {
+            "c": 0.5,
+            "precursor": 64,
+            "observed_normalized_response": 0.7807147816892727,
+            "predicted_limit": 0.7807764064044151,
+            "absolute_error": 6.162471514248313e-05
+          },
+          {
+            "c": 1.0,
+            "precursor": 128,
+            "observed_normalized_response": 0.6172822947827686,
+            "predicted_limit": 0.6180339887498949,
+            "absolute_error": 0.0007516939671262657
+          },
+          {
+            "c": 2.0,
+            "precursor": 256,
+            "observed_normalized_response": 0.4134309267395041,
+            "predicted_limit": 0.41421356237309515,
+            "absolute_error": 0.0007826356335910445
+          }
+        ]
+      },
+      {
+        "post_size": 65536,
+        "implicit_scale": 256,
+        "subscale_precursor": 16,
+        "subscale_normalized_response": 0.970030295905614,
+        "proportional_cases": [
+          {
+            "c": 0.5,
+            "precursor": 128,
+            "observed_normalized_response": 0.7807523711991674,
+            "predicted_limit": 0.7807764064044151,
+            "absolute_error": 2.4035205247741054e-05
+          },
+          {
+            "c": 1.0,
+            "precursor": 256,
+            "observed_normalized_response": 0.6176616258159846,
+            "predicted_limit": 0.6180339887498949,
+            "absolute_error": 0.0003723629339102974
+          },
+          {
+            "c": 2.0,
+            "precursor": 512,
+            "observed_normalized_response": 0.41382283333009556,
+            "predicted_limit": 0.41421356237309515,
+            "absolute_error": 0.00039072904299958244
+          }
+        ]
+      }
+    ]
+  },
+  "finite_prefix_control": {
+    "shared_tail": "t_m=1/m! for every m>=5",
+    "rows": [
+      {
+        "post_size": 256,
+        "implicit_scale": 16,
+        "variants": {
+          "unaltered": {
+            "response": 0.06122019831533908,
+            "response_over_b_over_P": 0.9795231730454252
+          },
+          "zero_prefix": {
+            "response": 0.061220225223541515,
+            "response_over_b_over_P": 0.9795236035766642
+          },
+          "large_irregular_prefix": {
+            "response": 0.011811418433344064,
+            "response_over_b_over_P": 0.18898269493350503
+          }
+        },
+        "maximum_pairwise_response_delta": 0.7905409086431592
+      },
+      {
+        "post_size": 1024,
+        "implicit_scale": 32,
+        "variants": {
+          "unaltered": {
+            "response": 0.03096728986761106,
+            "response_over_b_over_P": 0.990953275763554
+          },
+          "zero_prefix": {
+            "response": 0.03096728986761106,
+            "response_over_b_over_P": 0.990953275763554
+          },
+          "large_irregular_prefix": {
+            "response": 0.030967281818652867,
+            "response_over_b_over_P": 0.9909530181968917
+          }
+        },
+        "maximum_pairwise_response_delta": 2.5756666222065405e-07
+      },
+      {
+        "post_size": 4096,
+        "implicit_scale": 64,
+        "variants": {
+          "unaltered": {
+            "response": 0.01555910831282988,
+            "response_over_b_over_P": 0.9957829320211123
+          },
+          "zero_prefix": {
+            "response": 0.01555910831282988,
+            "response_over_b_over_P": 0.9957829320211123
+          },
+          "large_irregular_prefix": {
+            "response": 0.01555910831282988,
+            "response_over_b_over_P": 0.9957829320211123
+          }
+        },
+        "maximum_pairwise_response_delta": 0.0
+      }
+    ]
+  },
+  "checks": {
+    "subscale_window_moves_toward_one": true,
+    "proportional_window_matches_distinct_limit": true,
+    "proportional_limit_is_not_the_subscale_limit": true,
+    "finite_prefix_effect_decreases": true,
+    "finite_prefix_effect_is_terminally_negligible": true
+  },
+  "checks_passed": 5,
+  "checks_total": 5,
+  "limits": [
+    "Finite calculations are not the asymptotic proof.",
+    "The proportional-window formula is proved separately.",
+    "No CSG coupling sequence, post occurrence, or continuum limit is selected.",
+    "The probe does not establish novelty or physical interpretation."
+  ]
+}

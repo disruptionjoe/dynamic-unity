@@ -1,5 +1,5 @@
 {
-  "as_of_date": "2026-07-26",
+  "as_of_date": "2026-07-30",
   "claim_grade": "PORTFOLIO AUDIT / FACTORY-SEED READINESS IS NOT SCIENTIFIC OR MANUSCRIPT READINESS",
   "completeness_boundary": "Candidate families exposed by the active theorem spine and publishable ladder, exact-result packages, prediction register, concept register, prior repo-wide paper assessment, existing Dynamic Unity Factory entries, and stopped or transferred branches.",
   "coverage_map": {
@@ -173,7 +173,7 @@
     "two_to_three_source_swings": "Two or three distinct source-owned theorem, transfer, empirical, or novelty jobs remain.",
     "unknown_until_clarified": "A bounded clarification must first determine what the paper would actually claim."
   },
-  "portfolio_version": "1.3",
+  "portfolio_version": "1.4",
   "seed_status_definitions": {
     "already_factory_post_ready": "The Factory already records the paper package as post-ready.",
     "already_factory_seeded": "The Factory already holds the cheap seed; do not duplicate it.",
@@ -637,41 +637,40 @@
     },
     {
       "audience": "Causal-set theory, stochastic processes, and mathematical physics",
-      "contribution": "A precise tail-class theorem for post-conditioned CSG couplings, including the alpha/(alpha+1) exponent family and the correction that the physical post sector begins at T1.",
-      "current_grade": "Derived bounded-precursor uniform theorem for eventually decreasing regularly varying adjacent coupling ratios, with exponent -alpha/(alpha+1), tight boundary classes, deterministic controls, and two internal proof routes. A broader collision absorbs the general regular-variation, large-power, and discrete-saddle method. The exact CSG-specific classification remains provisionally unabsorbed; independent expert proof review and a systematic bibliography remain open.",
+      "contribution": "A precise tail-class theorem for post-conditioned CSG couplings, including the alpha/(alpha+1) exponent family, the proportional-precursor boundary law x(c+x)^alpha=1, and the correction that the physical post sector begins at T1.",
+      "current_grade": "Source-hardened Grade-4 theorem for eventually nonincreasing regularly varying adjacent coupling ratios, with uniform subscale response, a proportional-precursor extension, exact finite-prefix handling, boundary classes, and 18 passing deterministic controls. General regular-variation, large-power, and discrete-saddle methods are occupied; a systematic bounded search did not locate the same CSG-specific classification. Factory Markdown v0.1.0 is post-ready without external review or external action.",
       "evidence_refs": [
         "explorations/science-council-five-persona-successor-wave-synthesis-2026-07-24.md",
         "explorations/csg-post-tail-universality-proof-kill-2026-07-25.md",
         "explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md",
+        "explorations/csg-post-tail-independent-hardening-and-paper-grade-collision-2026-07-30.md",
         "tests/du_successor_heterodox_post_rg_half_power_probe.py",
         "tests/du_successor_wild_frontier_post_tail_probe.py",
         "tests/du_csg_post_tail_uniformity_probe.py",
-        "tests/du_csg_post_tail_second_method_probe.py"
+        "tests/du_csg_post_tail_second_method_probe.py",
+        "tests/du_csg_post_tail_paper_hardening_probe.py",
+        "tests/artifacts/du_csg_post_tail_paper_hardening_result.json"
       ],
-      "factory_snapshot": "DU-SEED-CSG-POST-TAIL-CLASSES admitted at drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5.",
-      "factory_state": "existing_seed_unselected",
+      "factory_snapshot": "DU-SEED-CSG-POST-TAIL-CLASSES is source-hardened and held by Drafting Factory as post-ready canonical Markdown v0.1.0; no external action is authorized.",
+      "factory_state": "factory_post_ready",
       "family": "causal_set_growth",
       "hardening_request": "none",
       "id": "DU-PAPER-013",
-      "manuscript_distance": "one_source_hardening_swing",
-      "manuscript_load_bearing_gaps": [
-        "Obtain independent mathematical proof review of the uniform concentration and expectation step.",
-        "Complete a systematic paper-grade causal-set and Tauberian/binomial-transform bibliography and novelty statement beyond the bounded collision.",
-        "After those gates survive, convert the source receipt and figure-ready controls into a manuscript."
-      ],
-      "manuscript_swings_estimate": "1",
+      "manuscript_distance": "factory_post_ready",
+      "manuscript_load_bearing_gaps": [],
+      "manuscript_swings_estimate": "0",
       "negative_result_value": "A proof that the apparent half-power is not universal and exactly classifies its tail dependence is independently valuable.",
-      "novelty_boundary": "The post map and transitive-percolation attraction are known; Lambda, curvature, recurrence, and physical scale are not derived.",
+      "novelty_boundary": "The post map, fixed line, broad pointwise attraction, and general asymptotic machinery are known. The bounded search did not locate the same CSG-specific uniform subscale plus proportional-window classification; priority is not claimed. Lambda, curvature, recurrence, and physical scale are not derived.",
       "overlap_ids": [
         "DU-PAPER-014",
         "DU-PAPER-018"
       ],
-      "recommended_action": "Advance as the closest new DU paper through independent expert proof review and a systematic bibliography. Frame any survivor as a CSG-specific corollary using known asymptotic machinery, not a new mathematical method. Do not call it novel, manuscript-ready, cosmological, or new physics until those gates close. Factory custody remains unselected.",
-      "seed_status": "factory_seeded_unselected",
+      "recommended_action": "Preserve source Grade 4 and the scoped CSG contribution boundary. Drafting Factory owns post-ready Markdown v0.1.0. Reopen source hardening only for a material proof objection, an exact newly located absorber, or a requested later-version extension; do not call the result new asymptotic machinery, cosmology, or new physics.",
+      "seed_status": "already_factory_post_ready",
       "seed_swings_estimate": "0",
       "seed_work_remaining": [],
       "source_owner": "dynamic-unity",
-      "title": "Tail Universality Classes in Causal-Set Post Renormalization"
+      "title": "Tail-Index Renormalization after Posts in Classical Sequential Growth"
     },
     {
       "audience": "Causal-set quantum gravity and cosmology",

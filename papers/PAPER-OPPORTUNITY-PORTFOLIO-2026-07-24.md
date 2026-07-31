@@ -245,14 +245,15 @@ Neither should be reseeded.
 | `DU-PAPER-003` | **Covariant Records Are Not Free** | Exact tight record-disturbance/support controls; general novelty absorbed | `1` pre-proof | Clock-QCA extension classification or nonseparable covariance-locality-support theorem; otherwise merge/stop |
 | `DU-PAPER-007` | **Interventional Record Sufficiency** | Exact finite closure, `HC-DU-036C` trichotomy, v0.1 physical packet, `HC-DU-036D` finite-shot gate, `HC-DU-036E` hardware bridge, and `HC-DU-036F` component-collision/provider-reachability gate; integrated novelty unresolved; no real packet has passed | `2–3` | First express and collide the five-part integrated contract in process-tensor/instrument/statistical-experiment language; use the existing authorized pilot only if decision-changing; obtain an all-attempt/complete-reset packet only after formal survival |
 | `DU-PAPER-009` | **Higher-Order Public Finality** | Exact reversible baseline plus finite noninvertible path/provenance compiler pilot | `2–3` | Noisy physical theorem, higher-certificate relation, and unchanged BFT/QEC transfer |
-| `DU-PAPER-013` | **Tail Universality Classes in Causal-Set Post Renormalization** | Bounded-precursor uniform regular-ratio theorem, tight boundaries, deterministic controls, and two internal proof routes; general asymptotic method occupied, exact CSG delta provisional | `1` | Independent expert proof review plus systematic paper-grade causal-set/Tauberian bibliography |
+| `DU-PAPER-013` | **Tail-Index Renormalization after Posts in Classical Sequential Growth** | Source-hardened uniform subscale and proportional-window theorems; general asymptotic method occupied; exact CSG delta qualified after systematic collision | `0` | Factory post-ready Markdown v0.1.0; reopen source work only for a material objection or later-version extension |
 | `DU-PAPER-015` | **Is a Global Update Clock Physical or Gauge?** | Exact finite controls; general quotient theorem occupied | `1` pre-proof | Clock-QCA record instrument, scheduler/boost congruence, and tight minimal Lorentz-sensitive leakage theorem |
 | `DU-PAPER-016` | **Systems Without a Privileged Depth** | Exact finite active-control constructions and depth-refinement countertheorem | `1–2` | General role-cover theorem, prior-art review, and one non-toy specimen |
 | `DU-PAPER-017` | **Finite Records Cannot Certify Open-Endedness** | Exact aliasing, finite-prefix, fixed-completion, and fixed-oracle controls | `1–2` | Freeze completion/novelty class and prove a parameterized escape-or-incomplete-contract theorem |
 
-These seven are now canonical unselected Factory seeds at
-`drafting-factory@ca7b748e58e9210fbace1ad897df88f849ae9ff5`. Factory
-prioritization may reorder them against every other research seed. Custody
+Six remain canonical unselected Factory seeds from the 2026-07-24 intake.
+`DU-PAPER-013` has since completed source hardening and entered post-ready
+Factory custody. Factory prioritization may reorder the remaining seeds
+against every other research seed. Custody
 does not activate any of them.
 
 ### Merge-review seeds
@@ -316,16 +317,15 @@ No transfer has been sent by this audit.
 
 ### Closest source packets
 
-One item is already Factory post-ready. Six more paper families remain within
-one concentrated source-hardening or decisive pre-proof swing:
+`DU-PAPER-013` is now Factory post-ready. Five more paper families remain
+within one concentrated source-hardening or decisive pre-proof swing:
 
-1. `DU-PAPER-013` — causal-set post tail classes;
-2. `DU-PAPER-003` — covariant records, now a stop/go pre-proof rather than a
+1. `DU-PAPER-003` — covariant records, now a stop/go pre-proof rather than a
    default paper build;
-3. `DU-PAPER-015` — global clock gauge-or-witness, also a stop/go pre-proof;
-4. `DU-PAPER-016` — systems without privileged depth;
-5. `DU-PAPER-017` — finite records and open-endedness; and
-6. `DU-PAPER-004` — boundary relocation, likely merged with `003`.
+2. `DU-PAPER-015` — global clock gauge-or-witness, also a stop/go pre-proof;
+3. `DU-PAPER-016` — systems without privileged depth;
+4. `DU-PAPER-017` — finite records and open-endedness; and
+5. `DU-PAPER-004` — boundary relocation, likely merged with `003`.
 
 This does not reorder scientific importance. It measures distance from current
 source material to a paper-shaped package.
@@ -335,9 +335,9 @@ source material to a paper-shaped package.
 After the concentrated closing swing, the source sequence separates immediate
 paper closure from foundational importance:
 
-1. **`DU-PAPER-013`** is the closest new-paper route, now at independent
-   expert proof review and systematic bibliography hardening; any survivor is
-   framed as a CSG-specific corollary using known asymptotic machinery.
+1. **`DU-PAPER-013`** completed the closest new-paper route as post-ready
+   Markdown v0.1.0. It remains a scoped CSG classification using known
+   asymptotic machinery, not a new method or new physics claim.
 2. **`DU-PAPER-007`** remains the flagship route most central to the program;
    its quantitative formal spine is stronger, but its components overlap
    established process-tensor and instrument work and no standard provider
@@ -418,6 +418,28 @@ This is a routing scan, not a claim-specific novelty verdict.
 
 Every proposal selected for actual Factory production still needs a
 claim-specific bibliography and novelty review.
+
+## DU-PAPER-013 hardening disposition — 2026-07-30
+
+`DU-PAPER-013` completed the remaining source gates and moved to Drafting
+Factory post-ready custody as canonical Markdown v0.1.0.
+
+- A fresh proof audit repaired the expectation step with an explicit uniform
+  integrability argument and made arbitrary finite coupling prefixes exact.
+- A new proportional-precursor theorem identifies the actual scale boundary:
+  if \(n/b_P\to c\), the normalized response tends to the unique positive
+  \(x_c\) satisfying \(x_c(c+x_c)^\alpha=1\).
+- The general regular-variation, binomial-transform, and saddle machinery is
+  occupied. A systematic bounded primary-source search did not locate the
+  same CSG-specific uniform subscale plus proportional-window
+  classification, so the manuscript states a qualified scoped contribution
+  rather than claiming a new method or universal novelty.
+- Three deterministic CSG probes pass. No outside reviewer is an internal
+  Zenodo-readiness prerequisite, and no external publication action occurred.
+
+The source receipt is
+`../explorations/csg-post-tail-independent-hardening-and-paper-grade-collision-2026-07-30.md`.
+The Factory package remains the release authority.
 
 ## Confirmed Factory intake
 

@@ -1241,6 +1241,18 @@ It passes `5/5` checks. Passing strengthens the analytic audit only. It is not
 independent peer review, theorem novelty, selection of a CSG law, or physical
 cosmology.
 
+`du_csg_post_tail_paper_hardening_probe.py` targets the two remaining
+paper-grade seams. It changes an arbitrary finite prefix—including zeros and
+large irregular entries—while keeping the same factorial tail, and it tests
+precursors proportional to the implicit balance scale. In the
+\(\alpha=1\) class, the latter converge to the positive solution of
+\(x(c+x)=1\), rather than to the bounded-precursor value one.
+
+It passes `5/5` checks. Passing supports the analytic finite-prefix estimate
+and demonstrates that \(n=o(b_P)\) is a load-bearing scale boundary. It does
+not replace the proof, establish novelty, select a CSG law, or supply a
+physical interpretation.
+
 `du_certified_causal_reconstruction_trichotomy_probe.py` implements the
 finite exact-rational binary-outcome specialization of `HC-DU-036C`. For each
 frozen record or completion kernel it exactly enumerates the vertices of the

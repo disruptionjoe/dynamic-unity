@@ -52,9 +52,9 @@
   },
   "manuscript_distance_counts": {
     "dependency_program": 5,
-    "factory_post_ready": 1,
+    "factory_post_ready": 2,
     "not_standalone": 8,
-    "one_source_hardening_swing": 6,
+    "one_source_hardening_swing": 5,
     "two_to_three_source_swings": 7
   },
   "near_manuscript_ids": [
@@ -80,10 +80,10 @@
     "standalone_proposals": []
   },
   "seed_status_counts": {
-    "already_factory_post_ready": 1,
+    "already_factory_post_ready": 2,
     "already_factory_seeded": 1,
     "factory_seeded_merge_review": 2,
-    "factory_seeded_unselected": 7,
+    "factory_seeded_unselected": 6,
     "merge_candidate_not_standalone": 6,
     "one_bounded_clarification": 4,
     "research_result_required": 4,
