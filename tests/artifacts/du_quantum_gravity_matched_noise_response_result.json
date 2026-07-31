@@ -1,0 +1,92 @@
+{
+  "checks": [
+    {
+      "covariance_at_origin": 0.9728029672203861,
+      "name": "thermal_quantum_covariance_is_nontrivial_and_positive_at_origin",
+      "passed": true
+    },
+    {
+      "maximum_error": 1.6653345369377348e-16,
+      "name": "classical_gaussian_process_matches_quantum_symmetrized_covariance",
+      "passed": true
+    },
+    {
+      "maximum_error": 0.0,
+      "name": "classical_input_output_model_can_copy_the_causal_response",
+      "passed": true
+    },
+    {
+      "classical_scalar_imaginary_part": 0.0,
+      "name": "matched_classical_response_does_not_supply_quantum_ordering",
+      "passed": true,
+      "quantum_ordered_imaginary_part": -0.38133004887036215
+    },
+    {
+      "name": "quantum_ordered_spectrum_has_kms_asymmetry",
+      "passed": true,
+      "ratios": [
+        0.2725317930340126,
+        0.04415716841969286
+      ]
+    },
+    {
+      "name": "real_stationary_commuting_noise_has_even_spectrum",
+      "passed": true,
+      "ratios": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "classical_effective_temperatures": [
+        0.7692307692307692,
+        0.7692307692307692
+      ],
+      "name": "two_frequency_quantum_fdt_rejects_one_temperature_classical_fdt",
+      "passed": true,
+      "quantum_effective_temperatures": [
+        0.8746305205153175,
+        1.3108730438790333
+      ]
+    },
+    {
+      "name": "one_temperature_classical_fdt_is_frequency_constant",
+      "passed": true
+    },
+    {
+      "hot_relative_error": 4.799999540409771e-07,
+      "name": "quantum_fdt_recovers_classical_high_temperature_limit",
+      "passed": true,
+      "warm_relative_error": 0.0047953983104559224
+    },
+    {
+      "derivative_numerators": [
+        0.19919121864630795,
+        4.090555618688926
+      ],
+      "name": "quantum_two_frequency_contrast_has_strict_monotonicity_certificate",
+      "passed": true
+    },
+    {
+      "name": "response_hierarchy_separates_classical_realization_from_field_attribution",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-193",
+  "earned_boundary": "At fixed calibrated KMS temperature, symmetrized noise and linear response are joined by the quantum fluctuation--dissipation relation, so they cannot be independently matched and varied inside that class. Outside that class, an explicit classical Gaussian input--output model can copy both. Ordered spectral asymmetry rejects a real stationary commuting scalar-noise rival, and two calibrated frequencies reject a one-temperature classical equilibrium FDT, but neither result identifies a gravitational field rather than a direct quantum environment.",
+  "non_claims": [
+    "No gravitational field, direct-action ontology, or apparatus is modeled.",
+    "No universal classical stochastic or semiclassical theory is excluded.",
+    "A copied c-number susceptibility is not credited as an operator commutator.",
+    "No observed effect, hardware action, new DU law, or successor is selected."
+  ],
+  "passed_checks": 11,
+  "response_hierarchy": [
+    "symmetrized_noise",
+    "c_number_causal_susceptibility",
+    "ordered_spectral_asymmetry_or_incompatible_sequential_response",
+    "mediator_provenance_or_component_access"
+  ],
+  "status": "PASS",
+  "total_checks": 11
+}

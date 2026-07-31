@@ -7632,6 +7632,34 @@ observed effect, apparatus, material interface, hardware action, new DU law,
 successor, or Wave-3 activation is earned. See
 `quantum-gravity-same-mean-different-cumulant-rival-prediction-tournament-2026-07-31.md`.
 
+### 2026-07-31 matched-noise response and ordered-spectrum boundary
+
+`HC-DU-193` executes the ordered-response reopener from `HC-DU-192`. The loose
+phrase “mediator-facing noncommuting response” separates into three levels.
+At fixed calibrated KMS equilibrium, symmetrized noise and dissipative response
+are joined by quantum fluctuation--dissipation, so they cannot be matched and
+varied independently. Outside that class, a classical Gaussian input--output
+process exactly copies both a selected covariance and a causal c-number
+susceptibility; response alone is not an operator commutator.
+
+Ordered emission/absorption asymmetry does exclude a frozen real stationary
+commuting scalar-noise rival. A two-frequency calibrated contrast likewise
+excludes a one-temperature classical equilibrium FDT, with the classical limit
+recovered at high temperature. These are rival-class discriminators, not field
+attribution: a direct quantum action or environment can retain the same probe
+process after a field representation is eliminated.
+
+**Updated seed status:** refine the hierarchy into symmetrized noise, c-number
+response, ordered noncommuting response, and mediator provenance/component
+access. The next conditional reopener is a source-pinned gravitational map to
+two independently calibrated frequencies or an ordered sequential statistic,
+with source-deletion, conserved-apparatus, direct-action, and quantized-matter
+cross-talk controls. No universal classical-gravity no-go, unique
+quantum-gravity witness, observed effect, apparatus, material interface,
+hardware action, new DU law, successor, or later-wave activation is earned.
+See
+`quantum-gravity-matched-noise-response-classical-realization-and-two-frequency-fdt-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

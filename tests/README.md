@@ -4943,3 +4943,34 @@ establishes only the scoped observable/rival hierarchy and endpoint mediation
 nonidentification. It proves no universal classical-gravity no-go, unique
 quantum-gravity witness, observed effect, apparatus, material interface,
 hardware action, new DU law, or later campaign wave.
+
+## HC-DU-193 matched-noise response and ordered-spectrum boundary
+
+`du_quantum_gravity_matched_noise_response_probe.py` preserves the exact
+finite controls behind the response-rival boundary:
+
+- calibrated KMS symmetrized noise and dissipative response obey one quantum
+  fluctuation--dissipation relation;
+- a real classical Gaussian process exactly reproduces the quantum
+  symmetrized harmonic covariance;
+- a classical input--output model can copy the causal c-number response;
+- that copy does not supply the quantum ordered-correlation imaginary part;
+- a thermal quantum spectrum has emission/absorption asymmetry while a real
+  stationary commuting scalar spectrum is even;
+- two calibrated frequencies reject one classical equilibrium temperature;
+- the quantum contrast has an exact strict-monotonicity certificate; and
+- the classical FDT is recovered in the high-temperature limit.
+
+Run:
+
+```bash
+python3 tests/du_quantum_gravity_matched_noise_response_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_quantum_gravity_matched_noise_response_result.json`. Passing
+establishes only the scoped KMS dependency, classical realization,
+commuting-noise exclusion, two-frequency equilibrium-FDT discriminator, and
+field-attribution stop. It proves no universal classical-gravity no-go, unique
+quantum-gravity witness, observed effect, apparatus, material interface,
+hardware action, new DU law, or later campaign wave.
