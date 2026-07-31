@@ -4913,3 +4913,33 @@ concentration, cumulant, and complementary-coherence boundaries. It proves no
 universal QFT no-go, Chen--Giacomini refutation, unique quantum-gravity
 witness, apparatus, observed effect, hardware action, new DU law, or later
 campaign wave.
+
+## HC-DU-192 same-mean/different-cumulant rival hierarchy
+
+`du_quantum_gravity_cumulant_rival_prediction_probe.py` preserves the exact
+finite controls behind the rival-prediction tournament:
+
+- same-mean Hartree and fragmented sources have different second cumulants;
+- expectation-value-only closure identifies them while a profile-sensitive
+  phase channel gives different visibility;
+- a classical profile lottery reproduces the full diagonal characteristic;
+- Gaussian stochastic noise matches the first two cumulants but misses the
+  nonzero third cumulant at the expected cubic order;
+- complementary coherence excludes a pre-existing incoherent source mixture;
+- a controlled profile phase crosses an exact separable-channel witness bound;
+- copy--phase--uncompute mediation and direct action are endpoint-equivalent;
+  and
+- intermediate mediator access separates those implementations.
+
+Run:
+
+```bash
+python3 tests/du_quantum_gravity_cumulant_rival_prediction_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_quantum_gravity_cumulant_rival_prediction_result.json`. Passing
+establishes only the scoped observable/rival hierarchy and endpoint mediation
+nonidentification. It proves no universal classical-gravity no-go, unique
+quantum-gravity witness, observed effect, apparatus, material interface,
+hardware action, new DU law, or later campaign wave.

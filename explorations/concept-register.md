@@ -7603,6 +7603,35 @@ refutation, unique quantum-gravity witness, observed effect, apparatus,
 hardware action, new DU law, successor, or Wave-3 activation is earned. See
 `quantum-gravity-wide-source-model-tournament-and-cumulant-reopener-2026-07-31.md`.
 
+### 2026-07-31 cumulant rival hierarchy and mediator-access reopener
+
+`HC-DU-192` executes the `HC-DU-191` same-mean/different-cumulant
+reopener. In the frozen profile-phase class, an expectation-value-only
+semiclassical closure predicts the same unit-visibility response for Hartree
+and fragmented sources with equal mean occupation, while the exact
+profile-sensitive channel gives different visibility. This is a valid finite
+rival exclusion against that narrow closure.
+
+The stronger attribution does not survive. A classical profile lottery with
+the same occupation law reproduces the full diagonal characteristic; a
+Gaussian stochastic rival reproduces its first two cumulants; complementary
+source coherence is needed to exclude the pre-existing mixture; and
+entanglement excludes only a declared separable classical-channel class. A
+copy--phase--uncompute mediator and a direct controlled phase are exactly
+endpoint-equivalent, so even complete endpoint matter access cannot identify
+field mediation.
+
+**Updated seed status:** retain the four-level observable hierarchy—mean,
+cumulants/visibility, complementary coherence or entanglement, and
+mediator-facing noncommuting response. The next conditional reopener is a
+same-mean/same-symmetrized-noise comparison between classical stochastic and
+quantum mediators, with an ordered-commutator or causal-susceptibility target
+and source-deletion, direct-action, and quantized-matter-cross-talk controls.
+No universal semiclassical-gravity no-go, unique quantum-gravity witness,
+observed effect, apparatus, material interface, hardware action, new DU law,
+successor, or Wave-3 activation is earned. See
+`quantum-gravity-same-mean-different-cumulant-rival-prediction-tournament-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

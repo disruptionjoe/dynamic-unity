@@ -1,0 +1,101 @@
+{
+  "checks": [
+    {
+      "fragmented_variance": 0.0,
+      "hartree_variance": 4.550000000000011,
+      "mean": 6.999999999999999,
+      "name": "same_mean_sources_have_different_second_cumulant",
+      "passed": true
+    },
+    {
+      "name": "mean_only_semiclassical_closure_identifies_same_mean_sources",
+      "passed": true
+    },
+    {
+      "fragmented_visibility": 1.0,
+      "hartree_visibility": 0.9044192211289958,
+      "name": "profile_sensitive_phase_channel_separates_them_by_visibility",
+      "passed": true
+    },
+    {
+      "name": "classical_profile_lottery_reproduces_full_diagonal_characteristic",
+      "passed": true
+    },
+    {
+      "halving_ratio": 8.000019914599832,
+      "name": "gaussian_stochastic_rival_matches_two_cumulants_but_not_three",
+      "passed": true,
+      "third_cumulant": 1.3650000000000002
+    },
+    {
+      "name": "complementary_source_coherence_excludes_preexisting_profile_mixture",
+      "passed": true,
+      "pure_first_order_coherence": 9.539392014169456
+    },
+    {
+      "cluster_witness_sum": 2.0,
+      "name": "controlled_profile_phase_can_cross_separable_channel_bound",
+      "passed": true,
+      "separable_bound": 1.0
+    },
+    {
+      "name": "direct_and_mediated_controlled_phase_are_endpoint_equivalent",
+      "passed": true,
+      "rows": [
+        {
+          "direct_phase": 1,
+          "final_mediator": 0,
+          "mediated_phase": 1,
+          "probe": 0,
+          "source": 0
+        },
+        {
+          "direct_phase": 1,
+          "final_mediator": 0,
+          "mediated_phase": 1,
+          "probe": 1,
+          "source": 0
+        },
+        {
+          "direct_phase": 1,
+          "final_mediator": 0,
+          "mediated_phase": 1,
+          "probe": 0,
+          "source": 1
+        },
+        {
+          "direct_phase": -1,
+          "final_mediator": 0,
+          "mediated_phase": -1,
+          "probe": 1,
+          "source": 1
+        }
+      ]
+    },
+    {
+      "name": "midprocess_mediator_access_separates_endpoint_equivalent_implementations",
+      "passed": true
+    },
+    {
+      "name": "observable_hierarchy_has_strictly_distinct_adjudication_levels",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-192",
+  "earned_boundary": "Same-mean/different-cumulant visibility is a finite discriminator against expectation-value-only semiclassical closure. It is not a unique quantum-gravity witness: a classical profile lottery reproduces the full diagonal characteristic, Gaussian stochastic models reproduce its first two cumulants, and direct and mediated controlled phases are endpoint-equivalent. Complementary coherence, entanglement, and finally mediator-facing noncommuting access form successively stronger but separately assumption-indexed gates.",
+  "non_claims": [
+    "No observed gravitational effect or apparatus is modeled.",
+    "No universal classical-gravity theory is excluded.",
+    "Matter entanglement alone is not credited as unique mediator identification.",
+    "No field mediator, record interface, hardware action, or new DU law is selected."
+  ],
+  "passed_checks": 10,
+  "rival_quotient": {
+    "coherence_or_entanglement": "rejects declared incoherent/separable-channel rivals but not every classical-gravity-plus-quantum-matter model",
+    "mean_phase": "shared by mean-field, profile-sensitive, stochastic, direct, and mediated models after calibration",
+    "mediator_facing_response": "required to distinguish a field mediator from endpoint-equivalent direct action",
+    "visibility_or_cumulants": "rejects expectation-value-only closure but is shared by diagonal quantum and classical stochastic/profile models"
+  },
+  "status": "PASS",
+  "total_checks": 10
+}
