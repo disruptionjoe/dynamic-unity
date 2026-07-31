@@ -296,6 +296,17 @@ does not register, harden, duplicate, seed, or promote either prediction.
   nuisance family, common timing statistics, and an unchanged acquisition
   contract. The source's published baseline/aggressive pair changes
   weak-trap frequency and duration and is not this matched control.
+- **Conditioning boundary (2026-07-31).** The v4 equations reproduce the
+  source's rounded breathing factors, but the three-width curvature is
+  catastrophically small near its actual tight-preparation ratios. In the
+  source's optimistic shot-noise model, retained source-near fixtures require
+  more than $10^{19}$ baseline or $10^{17}$ aggressive total shots at the
+  quoted single-point minimum rates. An exploratory $q=(10,20,50)$ redesign
+  lowers those diagnostics to about $5.67\times10^7$ and
+  $1.62\times10^7$, respectively, but lowers the preparation trap by two
+  to three orders into an unaudited apparatus regime. The lock remains valid
+  but is parked behind a source-pinned device redesign with complete
+  width-dependent nuisance, timing, lineage, and error contracts.
 - **Conditional falsifier.** A frozen nonzero parameter point is excluded
   when the no-refit multi-configuration visibility surface is incompatible
   with \(K(r_c)\) after the preregistered nuisance family, calibration,
@@ -320,7 +331,8 @@ does not register, harden, duplicate, seed, or promote either prediction.
 - **Source pointer.**
   `reversible-pointer-csl-path-functional-record-retention-and-attribution-boundary-2026-07-30.md`;
   `reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md`;
-  `reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md`.
+  `reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md`;
+  `reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md`.
 
 ---
 

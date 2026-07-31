@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 142
+state_revision: 143
 as_of: '2026-07-31'
 authority: >-
   Joe direct chat through 2026-07-31; governed run receipts preserve each
@@ -83,11 +83,10 @@ current_decision:
   selected_successor_id: null
   decision_note: >-
     HC-DU-176--184 bank response-host and material-interface boundaries.
-    HC-DU-185/186 correct absorption, predictive-excess, and modular-interface
-    gates. HC-DU-187 hardens the closest conditional CSL packet: two widths
-    are nuisance-saturated, while three matched widths admit a strict-convexity
-    contrast. Chen--Giacomini has the highest conditional ceiling. Neither is
-    observed; Wave 3 stays ineligible.
+    HC-DU-185--187 correct the prediction gate and harden the CSL contrast.
+    HC-DU-188 finds that contrast ill-conditioned in the source regime and
+    parks it behind a device redesign. Chen--Giacomini retains the highest
+    conditional local ceiling. Wave 3 stays ineligible.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -120,7 +119,8 @@ programs:
       HC-DU-165--184 bank formal and physical-interface boundaries.
       HC-DU-185/186 correct predictive absorption, excess, and modular
       acquisition gates. HC-DU-187 hardens the closest conditional CSL
-      response into a three-width strict-convexity lock.
+      response into a three-width strict-convexity lock; HC-DU-188 establishes
+      its source-regime conditioning and local stop.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -166,6 +166,8 @@ programs:
         evidence_ref: explorations/predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md
       - id: HC-DU-187
         evidence_ref: explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
+      - id: HC-DU-188
+        evidence_ref: explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
     remaining_obligations:
       - For a GU-conditioned round trip, select the flag/interface target-blindly or prove observer-target descent across the admitted family.
       - Physically certify common-event membership across prompt and delayed record channels, or freeze the exact completion class and error contract under which it is inferred.
@@ -173,7 +175,7 @@ programs:
       - Make minority-carrier or other absolute-depth association robust on the declared event class and type finite failures explicitly.
       - Upgrade bounded-error head-tail information to a declared event certificate without treating a known source direction as intrinsic provenance.
       - Physically select event time semantics and the readout/archive/access quotient.
-      - Instantiate the PRED-DU-005 three-width contrast with numerical configurations, fixed nonzero parameter point, complete predeclared nuisance basis, timing monitor, uncertainty, selection, and attempt-lineage contract; or lock another finite response target not absorbed by the matched incumbent fibre.
+      - Keep PRED-DU-005 parked until one source-pinned device packet demonstrates the wide preparation range, complete width-dependent nuisance basis, timing monitor, joined attempt lineage, and finite no-refit shot/error budget; otherwise lock another nonabsorbed finite target.
       - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
       - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
     typed_dependencies:
@@ -230,6 +232,7 @@ programs:
       - explorations/drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md
       - explorations/predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md
       - explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
+      - explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
 
@@ -380,8 +383,9 @@ programs:
     current_grade: >-
       HC-DU-136, 140--145, and 153--158 bank Grade-4 resource/capacity,
       formation/archive, trajectory, reference, and response-rank boundaries.
-      HC-DU-187 adds the source-pinned three-width response-rank repair. A
-      selected implementation remains open.
+      HC-DU-187 adds the three-width response-rank repair; HC-DU-188 shows it
+      is ill-conditioned in the source regime. A selected implementation
+      remains open.
     evidence_grade: 4
     maximum_grade: "Scoped Grade 4 supporting result."
     maximum_evidence_grade: 4
@@ -394,6 +398,8 @@ programs:
         evidence_ref: explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
       - id: HC-DU-187
         evidence_ref: explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
+      - id: HC-DU-188
+        evidence_ref: explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
     remaining_obligations:
       - Derive a complete physical record and its model-selected capacity.
     typed_dependencies:
@@ -427,6 +433,7 @@ programs:
       - explorations/nonmarkovian-collapse-bohmian-stable-covariant-realization-boundary-2026-07-30.md
       - explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
       - explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
+      - explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
 
   - id: DU-PAPER-013-HARDENING
     kind: publication

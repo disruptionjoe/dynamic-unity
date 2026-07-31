@@ -1,0 +1,195 @@
+{
+  "aggressive": {
+    "source_near": {
+      "breathing_contrast": -3.257825855439156e-08,
+      "breathing_factors": [
+        0.02397401970049259,
+        0.024053444694828223,
+        0.024079741601126733
+      ],
+      "l1_normalized_weights": [
+        -0.12406015037593986,
+        0.5,
+        -0.3759398496240602
+      ],
+      "q_values": [
+        500.0,
+        1000.0,
+        10000.0
+      ],
+      "width_variance_over_rc_squared": [
+        0.002209038400000001,
+        0.0005522596000000002,
+        5.522596000000002e-06
+      ]
+    },
+    "source_near_shots": {
+      "absolute_exponent_contrast": 1.2844738612183482e-08,
+      "exponent_amplitude": 0.3942733338781243,
+      "exposure_penalty_vs_source_N0": 552199681363.7805,
+      "lambda_point_per_second": 4.7e-12,
+      "optimistic_total_shots_5sigma": 2.7609984068189027e+17,
+      "pointlike_kernel_seconds": 83887943378.32433,
+      "source_breathing_factor": 0.024079741601126733
+    },
+    "wide_redesign": {
+      "breathing_contrast": -0.004246770822999759,
+      "breathing_factors": [
+        0.0005688717243397328,
+        0.004254140363072033,
+        0.01615774888879646
+      ],
+      "l1_normalized_weights": [
+        -0.109375,
+        0.5,
+        -0.39062500000000006
+      ],
+      "q_values": [
+        10.0,
+        20.0,
+        50.0
+      ],
+      "width_variance_over_rc_squared": [
+        5.522596000000002,
+        1.3806490000000005,
+        0.22090384000000007
+      ]
+    },
+    "wide_redesign_shots": {
+      "absolute_exponent_contrast": 0.0016743884906004606,
+      "exponent_amplitude": 0.3942733338781243,
+      "exposure_penalty_vs_source_N0": 32.49632378620508,
+      "lambda_point_per_second": 4.7e-12,
+      "optimistic_total_shots_5sigma": 16248161.893102542,
+      "pointlike_kernel_seconds": 83887943378.32433,
+      "source_breathing_factor": 0.024079741601126733
+    }
+  },
+  "baseline": {
+    "source_near": {
+      "breathing_contrast": -3.952637355440769e-09,
+      "breathing_factors": [
+        0.04810770773586248,
+        0.048147489600511635,
+        0.04816023023216198
+      ],
+      "l1_normalized_weights": [
+        -0.12121212121212122,
+        0.5,
+        -0.3787878787878788
+      ],
+      "q_values": [
+        500.0,
+        1000.0,
+        5000.0
+      ],
+      "width_variance_over_rc_squared": [
+        0.0005522596000000002,
+        0.00013806490000000006,
+        5.522596000000002e-06
+      ]
+    },
+    "source_near_shots": {
+      "absolute_exponent_contrast": 7.859276239594015e-10,
+      "exponent_amplitude": 0.19883625875204042,
+      "exposure_penalty_vs_source_N0": 147496456235128.25,
+      "lambda_point_per_second": 7.6e-11,
+      "optimistic_total_shots_5sigma": 7.374822811756413e+19,
+      "pointlike_kernel_seconds": 2616266562.526848,
+      "source_breathing_factor": 0.04816023023216198
+    },
+    "wide_redesign": {
+      "breathing_contrast": -0.004507893572510611,
+      "breathing_factors": [
+        0.008540998502101308,
+        0.026649701932759194,
+        0.04326034643897056
+      ],
+      "l1_normalized_weights": [
+        -0.109375,
+        0.5,
+        -0.39062500000000006
+      ],
+      "q_values": [
+        10.0,
+        20.0,
+        50.0
+      ],
+      "width_variance_over_rc_squared": [
+        1.3806490000000005,
+        0.3451622500000001,
+        0.05522596000000002
+      ]
+    },
+    "wide_redesign_shots": {
+      "absolute_exponent_contrast": 0.0008963326928103797,
+      "exponent_amplitude": 0.19883625875204042,
+      "exposure_penalty_vs_source_N0": 113.3987374233137,
+      "lambda_point_per_second": 7.6e-11,
+      "optimistic_total_shots_5sigma": 56699368.71165685,
+      "pointlike_kernel_seconds": 2616266562.526848,
+      "source_breathing_factor": 0.04816023023216198
+    }
+  },
+  "checks": [
+    {
+      "name": "baseline_breathing_factor_reproduces_rounded_source",
+      "passed": true,
+      "value": 0.04816023023216198
+    },
+    {
+      "name": "aggressive_breathing_factor_reproduces_rounded_source",
+      "passed": true,
+      "value": 0.024079741601126733
+    },
+    {
+      "max_absolute_delta": 6.938893903907228e-18,
+      "name": "simpson_grid_converges_at_source_points",
+      "passed": true
+    },
+    {
+      "name": "wide_baseline_contrast_still_costs_over_fifty_million_shots",
+      "passed": true,
+      "value": 56699368.71165685
+    },
+    {
+      "name": "wide_aggressive_contrast_still_costs_over_ten_million_shots",
+      "passed": true,
+      "value": 16248161.893102542
+    },
+    {
+      "name": "source_near_baseline_contrast_is_catastrophically_conditioned",
+      "passed": true,
+      "value": 7.374822811756413e+19
+    },
+    {
+      "name": "source_near_aggressive_contrast_is_catastrophically_conditioned",
+      "passed": true,
+      "value": 2.7609984068189027e+17
+    },
+    {
+      "name": "usable_curvature_probe_requires_orders_lower_prep_frequency",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-188",
+  "earned_boundary": "The HC-DU-187 three-width contrast is formally identifiable but catastrophically ill-conditioned near the proposal's actual tight-trap ratios. A measurable curvature contrast requires a large preparation redesign whose systematics and feasibility are not established by the source.",
+  "non_claims": [
+    "The shot counts are optimistic source-model diagnostics, not an apparatus forecast.",
+    "No complete nuisance family or timing monitor is supplied.",
+    "No CSL parameter point is excluded or supported.",
+    "No hardware search, provider, experiment, or paper is authorized."
+  ],
+  "passed_checks": 8,
+  "prediction_id": "PRED-DU-005",
+  "source_model": {
+    "arxiv_version": "2606.22707v4",
+    "benchmark_exposure": 500000.0,
+    "loss_budget": 0.3,
+    "mass_kg": 1e-18,
+    "rc_m": 1e-07,
+    "temperature_kelvin": 0.4
+  },
+  "status": "PASS",
+  "total_checks": 8
+}

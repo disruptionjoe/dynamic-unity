@@ -4791,3 +4791,30 @@ establishes only finite rank, contrast, and prediction-lock boundaries. It
 does not validate CSL, a complete nuisance family, the proposal's engineering
 estimates, an apparatus, an observed anomaly, new physics, or a later
 campaign wave.
+
+## HC-DU-188 reversible-pointer CSL conditioning boundary
+
+`du_csl_three_width_conditioning_probe.py` preserves the numerical learning
+gate behind the local stop on `PRED-DU-005`:
+
+- both rounded v4 breathing factors are reproduced;
+- Simpson-grid convergence is checked;
+- a wide `q=(10,20,50)` redesign retains a finite but exposure-expensive
+  contrast;
+- source-near preparation ratios make the contrast catastrophically
+  ill-conditioned; and
+- useful curvature requires preparation frequencies orders below the
+  source-analyzed setting.
+
+Run:
+
+```bash
+python3 tests/du_csl_three_width_conditioning_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_csl_three_width_conditioning_result.json`. Passing establishes
+only a source-model numerical conditioning and local-stop boundary. The shot
+counts are optimistic diagnostics, not device forecasts. It validates no CSL
+parameter, complete nuisance model, apparatus, observed anomaly, new physics,
+hardware action, or later campaign wave.

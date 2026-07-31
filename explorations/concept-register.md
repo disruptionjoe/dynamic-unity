@@ -7491,6 +7491,31 @@ unexecuted. No CSL evidence, complete nuisance family, hardware action,
 paper, new DU law, or Wave-3 activation is earned. See
 `reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md`.
 
+### 2026-07-31 reversible-pointer CSL conditioning boundary
+
+`HC-DU-188` separates exact identifiability from numerical usability for the
+three-width `PRED-DU-005` lock. The v4 source equations reproduce its rounded
+baseline and aggressive breathing factors, so the correction is not an
+implementation artifact. Near the source's actual tight-preparation ratios,
+however, the nuisance-quotiented breathing curvature is nearly flat.
+
+In the source's optimistic shot-noise model, retained source-near fixtures
+require more than $10^{19}$ baseline or $10^{17}$ aggressive total shots
+at its quoted single-point minimum rates. An exploratory $q=(10,20,50)$
+family lowers the diagnostics to about $5.67\times10^7$ and
+$1.62\times10^7$, but only by lowering the preparation trap two to three
+orders into an apparatus regime the source has not audited.
+
+**Updated seed status:** strict convexity remains mathematically valid, but
+`PRED-DU-005` is no longer the closest locally actionable packet. Park it
+behind one source-pinned wide-preparation device design with a complete
+width-dependent nuisance basis, timing monitor, attempted-run lineage, and
+finite no-refit shot/error budget. Do not search for hardware or continue
+local optimization before that reopener. Chen--Giacomini retains the highest
+conditional local ceiling. No CSL evidence, device forecast, paper, new DU
+law, successor, or Wave-3 activation is earned. See
+`reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
