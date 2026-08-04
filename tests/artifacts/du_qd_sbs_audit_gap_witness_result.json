@@ -1,0 +1,576 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "ideal": {
+          "exactly_unitary": true,
+          "rotation_column": [
+            "0/1",
+            "1/1"
+          ]
+        },
+        "main": {
+          "exactly_unitary": true,
+          "rotation_column": [
+            "3/5",
+            "4/5"
+          ]
+        },
+        "weak": {
+          "exactly_unitary": true,
+          "rotation_column": [
+            "24/25",
+            "7/25"
+          ]
+        }
+      },
+      "name": "controlled_rotations_exactly_unitary",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "W1_N2_spectra_certified_exact",
+      "passed": true
+    },
+    {
+      "detail": {
+        "H_S_bits": 0.9043814577244939,
+        "I_S_F1_bits": 0.904381457724494
+      },
+      "name": "W1_N2_raw_plateau_exact_on_both_fragments_redundancy_2",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "W1_N2_audit_distinguishability_fails_overlap_3_5",
+      "passed": true
+    },
+    {
+      "detail": {
+        "compression_det_F1": {
+          "decimal": -0.036864,
+          "exact": "-576/15625"
+        }
+      },
+      "name": "W1_N2_audit_discord_positive_via_exact_NPT",
+      "passed": true
+    },
+    {
+      "detail": {
+        "gap_bits_float_detail": 0.18245336283713154
+      },
+      "name": "W1_N2_accessible_pointer_information_strictly_below_plateau",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "W1_N4_spectra_certified_exact",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "W1_N4_half_fragments_exactly_on_plateau_redundancy_2",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditional_overlap": "9/25",
+        "gap_bits_float_detail": 0.08346852728924514
+      },
+      "name": "W1_N4_half_fragment_audit_fails_all_three_margins",
+      "passed": true
+    },
+    {
+      "detail": {
+        "npt_compression_determinant": {
+          "decimal": 0.0,
+          "exact": "0/1"
+        },
+        "rho_SF_entangled_hence_discord_positive": false
+      },
+      "name": "control_ideal_SBS_state_passes_every_audit",
+      "passed": true
+    },
+    {
+      "detail": {
+        "I_S_F1_minus_H_S_bits_float_detail": 0.5804875523455415,
+        "overlaps": [
+          "3/5",
+          "24/25"
+        ],
+        "plateau_identity_fails_exactly": true,
+        "spectra_certified_exact": true,
+        "x_F1": "3/5",
+        "x_SF1": "24/25"
+      },
+      "name": "control_asymmetric_overlaps_break_exact_plateau",
+      "passed": true
+    },
+    {
+      "detail": {
+        "raw_redundancy": [
+          2,
+          3,
+          4
+        ]
+      },
+      "name": "W2_exact_plateau_all_fragments_all_scales",
+      "passed": true
+    },
+    {
+      "detail": null,
+      "name": "W2_distinguishability_perfect_and_discord_zero",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditional_mutual_information_bits": [
+          "1/1",
+          "1/1",
+          "1/1"
+        ]
+      },
+      "name": "W2_sbs_product_form_fails_one_full_bit_uniform_in_scale",
+      "passed": true
+    },
+    {
+      "detail": {
+        "conditional_mutual_information_bits": "0/1"
+      },
+      "name": "control_independent_junk_passes_independence_audit",
+      "passed": true
+    },
+    {
+      "detail": {
+        "half_split": {
+          "I_minus_H_S_bits_float_detail": 0.0,
+          "branch_coherence_weight": "81/625",
+          "conditional_overlap": "81/625",
+          "fragment_size": 4,
+          "plateau_exact": true
+        },
+        "single_fragment": {
+          "I_minus_H_S_bits_float_detail": -0.2775065533056381,
+          "branch_coherence_weight": "2187/78125",
+          "conditional_overlap": "3/5",
+          "fragment_size": 1,
+          "plateau_exact": false
+        }
+      },
+      "name": "two_sided_ideal_family_gap_decays_with_scale",
+      "passed": true
+    }
+  ],
+  "limits": [
+    "All states are exact finite fixtures in the declared central-spin class; no continuum, thermal, or hardware claim.",
+    "The audit conditions witnessed are exactly the published SBS / strong-quantum-Darwinism conditions; no novelty claim.",
+    "Entanglement certifies nonzero discord; the exact optimal discord value is not computed.",
+    "The Holevo gap bounds pointer-observable access; it is not the full Henderson-Vedral optimization.",
+    "W2's independence failure carries no system information; whether it is an operational objectivity failure or only an SBS-definition failure is contested in the literature and is recorded, not resolved, here.",
+    "The ideal-family scaling sweep shows plateau and audit co-occur asymptotically in the pure symmetric family; the witness lives at finite overlap, small fragments, or correlated environments.",
+    "No grade movement, banking, prediction, paper, routing, or external action follows from this probe."
+  ],
+  "metadata": {
+    "campaign": "Q-0063 decoherence-null confrontation, discriminator D2",
+    "claim_grade": "EXACT FINITE WITNESS COMPUTATION / KNOWN MATHEMATICS / AUDIT CONDITIONS ARE THE PUBLISHED SBS-OVER-QD CONDITIONS",
+    "frozen_plan": "explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md",
+    "model_class": "central-spin pure dephasing via exact controlled rotations; system-independent correlated environment ancillas",
+    "run_id": "RUN-20260803-d2-qd-sbs-audit-gap-witness"
+  },
+  "results": {
+    "W1_N2_fragment_1": {
+      "audit_access_gap": {
+        "gap_H_S_minus_chi_strictly_positive": true,
+        "gap_bits_float_detail": 0.18245336283713154,
+        "holevo_pointer_bound_equals_H_F": true
+      },
+      "audit_discord": {
+        "npt_compression_determinant": {
+          "decimal": -0.036864,
+          "exact": "-576/15625"
+        },
+        "rho_SF_entangled_hence_discord_positive": true
+      },
+      "audit_distinguishability": {
+        "conditional_fragment_overlap": "3/5",
+        "perfect_distinguishability_fails": true
+      },
+      "entropies_bits_float_detail": {
+        "H_F": 0.7219280948873623,
+        "H_S": 0.9043814577244939,
+        "H_SF": 0.7219280948873623,
+        "I_SF": 0.904381457724494
+      },
+      "fragment_env_qubits": [
+        1
+      ],
+      "fragment_size": 1,
+      "n_env": 2,
+      "plateau_I_equals_H_S_exact": true,
+      "plateau_deviation_sign": 0,
+      "single_fragment_overlap_a": "3/5",
+      "spectra_certified_exact": true,
+      "spectrum_parameters": {
+        "x_F": "3/5",
+        "x_S": "9/25",
+        "x_SF": "3/5"
+      }
+    },
+    "W1_N2_fragment_2": {
+      "audit_access_gap": {
+        "gap_H_S_minus_chi_strictly_positive": true,
+        "gap_bits_float_detail": 0.18245336283713154,
+        "holevo_pointer_bound_equals_H_F": true
+      },
+      "audit_discord": {
+        "npt_compression_determinant": {
+          "decimal": -0.036864,
+          "exact": "-576/15625"
+        },
+        "rho_SF_entangled_hence_discord_positive": true
+      },
+      "audit_distinguishability": {
+        "conditional_fragment_overlap": "3/5",
+        "perfect_distinguishability_fails": true
+      },
+      "entropies_bits_float_detail": {
+        "H_F": 0.7219280948873623,
+        "H_S": 0.9043814577244939,
+        "H_SF": 0.7219280948873623,
+        "I_SF": 0.904381457724494
+      },
+      "fragment_env_qubits": [
+        2
+      ],
+      "fragment_size": 1,
+      "n_env": 2,
+      "plateau_I_equals_H_S_exact": true,
+      "plateau_deviation_sign": 0,
+      "single_fragment_overlap_a": "3/5",
+      "spectra_certified_exact": true,
+      "spectrum_parameters": {
+        "x_F": "3/5",
+        "x_S": "9/25",
+        "x_SF": "3/5"
+      }
+    },
+    "W1_N4_half_fragment_12": {
+      "audit_access_gap": {
+        "gap_H_S_minus_chi_strictly_positive": true,
+        "gap_bits_float_detail": 0.08346852728924514,
+        "holevo_pointer_bound_equals_H_F": true
+      },
+      "audit_discord": {
+        "npt_compression_determinant": {
+          "decimal": -0.024546115584,
+          "exact": "-5992704/244140625"
+        },
+        "rho_SF_entangled_hence_discord_positive": true
+      },
+      "audit_distinguishability": {
+        "conditional_fragment_overlap": "9/25",
+        "perfect_distinguishability_fails": true
+      },
+      "entropies_bits_float_detail": {
+        "H_F": 0.9043814577244939,
+        "H_S": 0.987849985013739,
+        "H_SF": 0.9043814577244939,
+        "I_SF": 0.9878499850137391
+      },
+      "fragment_env_qubits": [
+        1,
+        2
+      ],
+      "fragment_size": 2,
+      "n_env": 4,
+      "plateau_I_equals_H_S_exact": true,
+      "plateau_deviation_sign": 0,
+      "single_fragment_overlap_a": "3/5",
+      "spectra_certified_exact": true,
+      "spectrum_parameters": {
+        "x_F": "9/25",
+        "x_S": "81/625",
+        "x_SF": "9/25"
+      }
+    },
+    "W1_N4_half_fragment_34": {
+      "audit_access_gap": {
+        "gap_H_S_minus_chi_strictly_positive": true,
+        "gap_bits_float_detail": 0.08346852728924514,
+        "holevo_pointer_bound_equals_H_F": true
+      },
+      "audit_discord": {
+        "npt_compression_determinant": {
+          "decimal": -0.024546115584,
+          "exact": "-5992704/244140625"
+        },
+        "rho_SF_entangled_hence_discord_positive": true
+      },
+      "audit_distinguishability": {
+        "conditional_fragment_overlap": "9/25",
+        "perfect_distinguishability_fails": true
+      },
+      "entropies_bits_float_detail": {
+        "H_F": 0.9043814577244939,
+        "H_S": 0.987849985013739,
+        "H_SF": 0.9043814577244939,
+        "I_SF": 0.9878499850137391
+      },
+      "fragment_env_qubits": [
+        3,
+        4
+      ],
+      "fragment_size": 2,
+      "n_env": 4,
+      "plateau_I_equals_H_S_exact": true,
+      "plateau_deviation_sign": 0,
+      "single_fragment_overlap_a": "3/5",
+      "spectra_certified_exact": true,
+      "spectrum_parameters": {
+        "x_F": "9/25",
+        "x_S": "81/625",
+        "x_SF": "9/25"
+      }
+    },
+    "W2_correlated_junk": [
+      {
+        "H_S_bits": "1/1",
+        "discord_zero_by_diagonal_embedding": true,
+        "distinguishability_perfect": true,
+        "fragment_entropy_bits": {
+          "H_F1": "2/1",
+          "H_F2": "2/1"
+        },
+        "fragment_pair_conditional_mutual_information_bits": "1/1",
+        "joint_fragment_plateau_exact": true,
+        "junk_correlated": true,
+        "n_fragments": 2,
+        "per_fragment_plateau": [
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 1,
+            "plateau_exact": true
+          },
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 2,
+            "plateau_exact": true
+          }
+        ],
+        "pointer_decomposition_unique": true,
+        "raw_redundancy_fragments_at_plateau": 2,
+        "sbs_product_form_fails": true
+      },
+      {
+        "H_S_bits": "1/1",
+        "discord_zero_by_diagonal_embedding": true,
+        "distinguishability_perfect": true,
+        "fragment_entropy_bits": {
+          "H_F1": "2/1",
+          "H_F2": "2/1"
+        },
+        "fragment_pair_conditional_mutual_information_bits": "1/1",
+        "joint_fragment_plateau_exact": true,
+        "junk_correlated": true,
+        "n_fragments": 3,
+        "per_fragment_plateau": [
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 1,
+            "plateau_exact": true
+          },
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 2,
+            "plateau_exact": true
+          },
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 3,
+            "plateau_exact": true
+          }
+        ],
+        "pointer_decomposition_unique": true,
+        "raw_redundancy_fragments_at_plateau": 3,
+        "sbs_product_form_fails": true
+      },
+      {
+        "H_S_bits": "1/1",
+        "discord_zero_by_diagonal_embedding": true,
+        "distinguishability_perfect": true,
+        "fragment_entropy_bits": {
+          "H_F1": "2/1",
+          "H_F2": "2/1"
+        },
+        "fragment_pair_conditional_mutual_information_bits": "1/1",
+        "joint_fragment_plateau_exact": true,
+        "junk_correlated": true,
+        "n_fragments": 4,
+        "per_fragment_plateau": [
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 1,
+            "plateau_exact": true
+          },
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 2,
+            "plateau_exact": true
+          },
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 3,
+            "plateau_exact": true
+          },
+          {
+            "I_S_F_bits": "1/1",
+            "fragment": 4,
+            "plateau_exact": true
+          }
+        ],
+        "pointer_decomposition_unique": true,
+        "raw_redundancy_fragments_at_plateau": 4,
+        "sbs_product_form_fails": true
+      }
+    ],
+    "control_asymmetric": {
+      "I_S_F1_minus_H_S_bits_float_detail": 0.5804875523455415,
+      "overlaps": [
+        "3/5",
+        "24/25"
+      ],
+      "plateau_identity_fails_exactly": true,
+      "spectra_certified_exact": true,
+      "x_F1": "3/5",
+      "x_SF1": "24/25"
+    },
+    "control_ideal_SBS": {
+      "audit_access_gap": {
+        "gap_H_S_minus_chi_strictly_positive": false,
+        "gap_bits_float_detail": 0.0,
+        "holevo_pointer_bound_equals_H_F": true
+      },
+      "audit_discord": {
+        "npt_compression_determinant": {
+          "decimal": 0.0,
+          "exact": "0/1"
+        },
+        "rho_SF_entangled_hence_discord_positive": false
+      },
+      "audit_distinguishability": {
+        "conditional_fragment_overlap": "0/1",
+        "perfect_distinguishability_fails": false
+      },
+      "entropies_bits_float_detail": {
+        "H_F": 1.0,
+        "H_S": 1.0,
+        "H_SF": 1.0,
+        "I_SF": 1.0
+      },
+      "fragment_env_qubits": [
+        1
+      ],
+      "fragment_size": 1,
+      "n_env": 2,
+      "plateau_I_equals_H_S_exact": true,
+      "plateau_deviation_sign": 0,
+      "single_fragment_overlap_a": "0/1",
+      "spectra_certified_exact": true,
+      "spectrum_parameters": {
+        "x_F": "0/1",
+        "x_S": "0/1",
+        "x_SF": "0/1"
+      }
+    },
+    "control_independent_junk": {
+      "H_S_bits": "1/1",
+      "discord_zero_by_diagonal_embedding": true,
+      "distinguishability_perfect": true,
+      "fragment_entropy_bits": {
+        "H_F1": "2/1",
+        "H_F2": "2/1"
+      },
+      "fragment_pair_conditional_mutual_information_bits": "0/1",
+      "joint_fragment_plateau_exact": true,
+      "junk_correlated": false,
+      "n_fragments": 2,
+      "per_fragment_plateau": [
+        {
+          "I_S_F_bits": "1/1",
+          "fragment": 1,
+          "plateau_exact": true
+        },
+        {
+          "I_S_F_bits": "1/1",
+          "fragment": 2,
+          "plateau_exact": true
+        }
+      ],
+      "pointer_decomposition_unique": true,
+      "raw_redundancy_fragments_at_plateau": 2,
+      "sbs_product_form_fails": false
+    },
+    "ideal_family_scaling": {
+      "n_env": 8,
+      "overlap_a": "3/5",
+      "rows": [
+        {
+          "I_minus_H_S_bits_float_detail": -0.2775065533056381,
+          "branch_coherence_weight": "2187/78125",
+          "conditional_overlap": "3/5",
+          "fragment_size": 1,
+          "plateau_exact": false
+        },
+        {
+          "I_minus_H_S_bits_float_detail": -0.09404775556834888,
+          "branch_coherence_weight": "729/15625",
+          "conditional_overlap": "9/25",
+          "fragment_size": 2,
+          "plateau_exact": false
+        },
+        {
+          "I_minus_H_S_bits_float_detail": -0.02955578352458721,
+          "branch_coherence_weight": "243/3125",
+          "conditional_overlap": "27/125",
+          "fragment_size": 3,
+          "plateau_exact": false
+        },
+        {
+          "I_minus_H_S_bits_float_detail": 0.0,
+          "branch_coherence_weight": "81/625",
+          "conditional_overlap": "81/625",
+          "fragment_size": 4,
+          "plateau_exact": true
+        },
+        {
+          "I_minus_H_S_bits_float_detail": 0.02955578352458721,
+          "branch_coherence_weight": "27/125",
+          "conditional_overlap": "243/3125",
+          "fragment_size": 5,
+          "plateau_exact": false
+        },
+        {
+          "I_minus_H_S_bits_float_detail": 0.09404775556834888,
+          "branch_coherence_weight": "9/25",
+          "conditional_overlap": "729/15625",
+          "fragment_size": 6,
+          "plateau_exact": false
+        },
+        {
+          "I_minus_H_S_bits_float_detail": 0.2775065533056381,
+          "branch_coherence_weight": "3/5",
+          "conditional_overlap": "2187/78125",
+          "fragment_size": 7,
+          "plateau_exact": false
+        }
+      ]
+    }
+  },
+  "summary": {
+    "checks_passed": 16,
+    "checks_total": 16,
+    "frozen_table_branch": "KILLS_THE_NULL_STRONG_FORM_AT_REALIZABLE_SCALES",
+    "result": "PLATEAU_WITH_FAILED_AUDIT_WITNESSED",
+    "two_sided_rider": "IDEAL_FAMILY_CO_OCCURRENCE_AT_LARGE_SCALE_RECORDED"
+  }
+}

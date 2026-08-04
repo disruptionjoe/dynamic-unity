@@ -5161,3 +5161,46 @@ boundaries. It proves no astrophysical state preparation, gravitational-wave
 quantization, graviton observation, universal classical-gravity exclusion,
 experimental feasibility, field ontology, Grade-5 remainder, hardware action,
 new gravity law, active successor, or later campaign wave.
+
+## D2 QD/SBS audit-gap witness (Q-0063 decoherence-null campaign)
+
+`du_qd_sbs_audit_gap_witness_probe.py` executes discriminator D2 of the
+frozen Q-0063 campaign plan
+(`../explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md`)
+with exact rational arithmetic and no load-bearing floating point:
+
+- exact controlled-rotation central-spin dynamics generate branching states
+  whose proper fragments satisfy the raw quantum-Darwinism plateau
+  $I(S{:}F)=H(S)$ exactly (certified spectral multiset equality) at $N=2$
+  and, for half-environment fragments, at $N=4$;
+- the same states fail every audited condition by finite exact margins:
+  conditional-fragment overlap $3/5$, an exact NPT compression determinant
+  ($-576/15625$ at $N=2$) certifying positive S:F discord, and a Holevo
+  pointer-access gap of $\approx 0.18$ bits below the plateau;
+- perfect records with system-independent correlated junk keep the exact
+  plateau, perfect distinguishability, and zero discord while failing the
+  SBS product form by one full bit of conditional fragment-fragment mutual
+  information, uniformly in fragment number;
+- mandatory controls: the ideal SBS state passes every audit, asymmetric
+  overlaps break the exact plateau, and independent junk passes the
+  independence audit; and
+- the two-sidedness sweep records that in the ideal pure family at $N=8$
+  plateau and audit co-occur asymptotically, locating the null's surviving
+  corner.
+
+Run:
+
+```bash
+python3 tests/du_qd_sbs_audit_gap_witness_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_qd_sbs_audit_gap_witness_result.json` and reports `16/16` with
+byte-identical reruns. Passing establishes only the scoped exact finite
+witness: plateau-with-failed-audit states exist at realizable scales, so raw
+and audited redundancy differ empirically per the frozen D2 table. The audit
+conditions witnessed are exactly the published SBS/strong-quantum-Darwinism
+conditions; the probe establishes no new physics, mechanism, consensus
+ontology, grade movement, banking, prediction, paper, hardware, provider,
+publication, or other external action. The results note is
+`../explorations/qd-sbs-audit-gap-witness-d2-execution-2026-08-03.md`.
