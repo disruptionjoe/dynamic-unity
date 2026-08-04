@@ -1,10 +1,11 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 144
-as_of: '2026-07-31'
+state_revision: 145
+as_of: '2026-08-03'
 authority: >-
-  Joe direct chat through 2026-07-31; governed run receipts preserve each
-  explicit authorization.
+  Joe direct chat through 2026-08-03; governed run receipts preserve each
+  explicit authorization. The 2026-08-03 chat authorized Q-0063 campaign
+  discriminators D1 and D2 now and D3 after their outcomes.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -77,18 +78,18 @@ transition_protocol:
     supersede them additively and route only through this file.
 
 current_decision:
-  active_scientific_program_id: null
-  executable_action_id: null
+  active_scientific_program_id: DU-Q0063-DECOHERENCE-NULL-AUDIT-LAYER-CONFRONTATION
+  executable_action_id: Q0063-D1-CLASSICALITY-TRANSITION-FUNCTIONAL-FORM-CHECK
   prepared_publication_program_id: null
   selected_successor_id: null
   decision_note: >-
-    HC-DU-176--184 bank response-host and material-interface boundaries.
-    HC-DU-185--187 correct the prediction gate and harden the CSL contrast.
-    HC-DU-188 finds that contrast ill-conditioned in the source regime and
-    parks it behind a device redesign. Chen--Giacomini retains the highest
-    conditional local ceiling. Wave 3 stays ineligible. DU-PAPER-013 is now
-    published on Zenodo as v0.2.1 under Drafting Factory custody; it consumes
-    no scientific or publication WIP.
+    Joe (direct chat 2026-08-03) activated the Q-0063 decoherence-null
+    audit-layer confrontation campaign through the anomaly-intake gate its
+    scoping note satisfies; the free scientific-flagship slot takes it
+    without eviction. Sole executable action: D1. D2 is authorized to
+    follow D1; D3 is authorized only after the D1/D2 outcomes. All parked
+    programs, their reopeners, Wave-3 ineligibility, and DU-PAPER-013
+    Drafting Factory custody are unchanged.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -648,9 +649,154 @@ programs:
       - explorations/record-immutability-forces-external-involution-2026-07-21.md
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
 
+  - id: DU-Q0063-DECOHERENCE-NULL-AUDIT-LAYER-CONFRONTATION
+    kind: confrontation_campaign
+    owner_repo: dynamic-unity
+    portfolio_status: active
+    execution_status: executable
+    wip_slot: scientific_flagship
+    active_work_id: Q0063-D1-CLASSICALITY-TRANSITION-FUNCTIONAL-FORM-CHECK
+    primary_lane_id: '5'
+    supporting_lane_ids:
+      - '3'
+      - '4'
+    channel_ids:
+      - CH-COLLIDE
+      - CH-FORMAL
+      - CH-MODEL
+      - CH-EMPIRICAL
+    target: >-
+      Adjudicate whether the audit layer -- physically audited access,
+      fragment independence, and provenance over raw environmental
+      redundancy -- adds empirically distinguishable content, or is
+      bookkeeping on one and the same physical process. D1--D3 run under
+      frozen two-sided verdict tables; a null win is a licensed terminal
+      Grade-4 absorption return.
+    current_grade: >-
+      SCOPED CAMPAIGN, NOTHING EXECUTED. The scoping note establishes no
+      science; only executed discriminators bank.
+    evidence_grade: 0
+    maximum_grade: >-
+      Grade 4 for the audit-layer verdict either way. Any Grade-5-shaped D6
+      outcome enters the prediction register at SEAM under its full gates.
+    maximum_evidence_grade: 4
+    premise_status: >-
+      Ontic-neutral operational claims at regional/public scope, disclosure
+      only. The null is steelmanned; banked formal underdetermination is
+      conceded as not yet empirical distinguishability.
+    completed_dependencies:
+      - id: HC-DU-057
+        evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+      - id: HC-DU-063
+        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
+      - id: Q0063-WAVE-1A-ABSORPTION
+        evidence_ref: explorations/external-mergeable-sector-theorem-spine-and-taf-record-typing-absorption-2026-08-03.md
+      - id: Q0063-CAMPAIGN-SCOPING
+        evidence_ref: explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md
+    remaining_obligations:
+      - Execute D1 against its frozen verdict table.
+      - Execute D2 after D1 returns; D1 and D2 share the 2026-08-03 authorization.
+      - Route D3 through the next transition after the D1/D2 outcomes, per the same authorization.
+      - Write the terminal verdict exploration once D1--D3 have each returned, whichever way.
+      - D6 only on D1's data-silent branch; D7 only as the single bounded side probe when it decides a live branch; D4 never inside this campaign.
+    typed_dependencies:
+      - type: tests
+        target: COVARIANT-FINALITY-DYNAMICS
+        target_type: program
+      - type: extracts_from
+        target: HC-DU-057
+        target_type: result
+      - type: extracts_from
+        target: HC-DU-063
+        target_type: result
+    strongest_absorber: >-
+      Decoherence theory, quantum Darwinism and Spectrum Broadcast
+      Structure, the Brandao--Piani--Horodecki generic-objectivity theorems
+      with the Qi--Ranard strengthening, and standard open-system response
+      theory.
+    cheapest_kill: >-
+      The null survives D1--D3: data settle the decoherence functional
+      form, the audit conditions co-occur with raw redundancy at observed
+      scales, and genericity covers the rest. That verdict banks as the
+      terminal absorption result and deletes the consensus-mechanism
+      successor class.
+    stop_rule: >-
+      Stop with a terminal verdict when D1--D3 have each returned a
+      preregistered verdict. Stop any discriminator whose table proves
+      ill-posed and bank the ill-posedness; never amend a table mid-run. No
+      hardware or provider anywhere; at most one awareness note on the D6
+      branch.
+    reopen_rule: >-
+      After the terminal verdict, reopen only through a new dated two-sided
+      discriminator contract routed through this file; no reframing of a
+      null win as an incomplete campaign.
+    local_computation_boundary: >-
+      Literature, theorem, and exact-small-model work only. D1 is
+      digitized-curve comparison of published data; no simulation beyond
+      the declared small models, no provider, no hardware.
+    next_action: >-
+      Execute the D1 functional-form literature check; D2 follows under the
+      same authorization; D3 routes through the next transition after their
+      outcomes.
+    next_action_ref: explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md
+    execution_packet:
+      action_id: Q0063-D1-CLASSICALITY-TRANSITION-FUNCTIONAL-FORM-CHECK
+      exact_question: >-
+        Does existing time-resolved decoherence data settle the functional
+        form of the classicality transition -- pure exponential decoherence
+        versus the three preregistered mechanism signatures (finite-size
+        critical scaling, discrete participation jump, order-independent
+        monotone convergence)?
+      source_locator:
+        path: explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md
+        heading: '### D1 — Literature check: the functional form of the classicality transition (S) — FIRST MOVE'
+      required_inputs:
+        - path: explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md
+          role: Frozen campaign contract and verdict tables.
+        - path: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+          role: HC-DU-057 trio kills consumed by the campaign.
+        - path: explorations/external-mergeable-sector-theorem-spine-and-taf-record-typing-absorption-2026-08-03.md
+          role: Wave 1a absorption note and sharpened null.
+        - path: docs/quantum-foundations-orientation-surface.md
+          role: Theory and absorber map.
+      unchanged_ledger_fields:
+        - preregistered-pass-fail-tables
+        - declared-model-classes-and-witness-forms
+        - absorber-first-two-sided-discipline
+        - evidence-and-maximum-grade
+      arena_roles:
+        - cavity-qed-mesoscopic-decay-corpus
+        - macromolecule-interferometry-corpus
+        - engineered-reservoir-decay-corpus
+        - hostile-absorption-adjudicator
+      expected_return_classes:
+        - LAYER_D_MECHANISMS_EXCLUDED_NULL_SURVIVES_D1
+        - MECHANISM_SIGNATURE_NULL_WOUNDED
+        - DATA_CANNOT_DISCRIMINATE_BURDEN_TO_D6
+      observer_index_return_classes:
+        - OBSERVER_INDEX_IRRELEVANT_TO_SCOPED_VERDICT
+        - OBSERVER_INDEX_UNDERDETERMINED
+      durable_output: >-
+        One dated exploration banking D1's preregistered verdict under
+        explorations/.
+      local_method: >-
+        Primary-source reconstruction of the named corpora; digitized-curve
+        comparison only; literature pins rebuilt from primary sources at
+        execution.
+      uses_program_controls:
+        - premise_status
+        - strongest_absorber
+        - cheapest_kill
+        - stop_rule
+        - reopen_rule
+        - local_computation_boundary
+    canonical_evidence_refs:
+      - explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md
+      - docs/quantum-foundations-orientation-surface.md
+
 successor_selection:
-  status: no_ready
-  blocked_by: null
+  status: blocked
+  blocked_by: Q0063-D1-CLASSICALITY-TRANSITION-FUNCTIONAL-FORM-CHECK
   selected_successor_id: null
   candidate_classes:
     - gu-du-selected-interface-or-descent-round-trip
