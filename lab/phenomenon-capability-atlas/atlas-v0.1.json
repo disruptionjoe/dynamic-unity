@@ -1,0 +1,668 @@
+{
+  "schema_version": "0.1",
+  "atlas_id": "DU-PCA-PILOT-0.1",
+  "status": "COMPLETED_NONROUTING_METHOD_PILOT",
+  "owner": "dynamic-unity",
+  "created_at": "2026-08-15",
+  "routing": {
+    "non_routing": true,
+    "banked": false,
+    "wip": false,
+    "live_authority": "CURRENT-RESEARCH.yaml",
+    "scheduled_priority_unchanged": true,
+    "executable_continuation": null
+  },
+  "denominator": {
+    "kind": "BOUNDED_STRESS_SET",
+    "count": 6,
+    "exhaustive": false,
+    "inclusion_rule": "Select six locally pinned cases that force different record, access, capability, finality, and structural-representation boundaries.",
+    "exclusion_rule": "Do not imply coverage of all physics, use a GU requirement row as a phenomenon, or admit a case without a scoped physical model and two contrasts.",
+    "freeze_rule": "Version 0.1 contains exactly these six cards; additions require a new version and a separately audited denominator."
+  },
+  "evidence_ceiling": 2,
+  "source_adapters": [
+    {
+      "adapter_id": "ADAPTER-GU-CPL",
+      "source_repo": "gu-formalization",
+      "revision": "44b26cdebb9b011c66ec8ba12a0b64bc697560d9",
+      "source_kind": "THEORY_REQUIREMENT_LEDGER",
+      "role": "Many-to-many future crosswalk to the 82 canonical construction and physics-requirement targets in Conditional Physics Ledger v0.258.",
+      "authority_transfer": false,
+      "truth_boundary": "A ledger row and its SAME, DIFFERS, NEEDS, or OVER_DETERMINED verdict remain GU-owned requirement statements and are never cast as phenomenon verdicts.",
+      "phenomenon_eligible": false
+    },
+    {
+      "adapter_id": "ADAPTER-DU",
+      "source_repo": "dynamic-unity",
+      "revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+      "source_kind": "PHYSICS_RESULT",
+      "role": "Receiver-owned source packets, exact controls, and integrated dynamics-record-access boundaries.",
+      "authority_transfer": false,
+      "truth_boundary": "Dated results retain their filed grade, banking, nonclaim, and routing statements.",
+      "phenomenon_eligible": true
+    },
+    {
+      "adapter_id": "ADAPTER-TAF",
+      "source_repo": "time-as-finality",
+      "revision": "9769cc51138a6aa9ffcbfd16678ce3ce5dc0ad12",
+      "source_kind": "CAPABILITY_METHOD",
+      "role": "Observer-indexed capability projection, future-action, access-profile, and finality diagnostics.",
+      "authority_transfer": false,
+      "truth_boundary": "TaF audit objects do not establish a universal capability scalar or new source dynamics.",
+      "phenomenon_eligible": true
+    },
+    {
+      "adapter_id": "ADAPTER-P2C",
+      "source_repo": "possibility-to-capability",
+      "revision": "beee931c4d4245831ff5311a1341eaf1b3d4cbdc",
+      "source_kind": "TRANSITION_DIAGNOSTIC",
+      "role": "Frozen transition witness fields and deterministic classification vocabulary.",
+      "authority_transfer": false,
+      "truth_boundary": "The classifier types supplied evidence; it neither verifies the witness nor upgrades its grade.",
+      "phenomenon_eligible": true
+    },
+    {
+      "adapter_id": "ADAPTER-TI",
+      "source_repo": "temporal-issuance",
+      "revision": "b45bc41040c04cf345bcbfd37679f9a64ec73e11",
+      "source_kind": "ISSUANCE_EFFECT_METHOD",
+      "role": "Guarded distinction among source issuance, disclosure, projection, finalization, and information loss.",
+      "authority_transfer": false,
+      "truth_boundary": "Finality, access change, and capability change cannot be promoted to physical issuance.",
+      "phenomenon_eligible": false
+    },
+    {
+      "adapter_id": "ADAPTER-CONTINUITY",
+      "source_repo": "continuity-ledger",
+      "revision": "a0a3b85bdd4be67ffbeb0bb6f551f53e870cf8d8",
+      "source_kind": "RECORD_PROVENANCE_METHOD",
+      "role": "Occurrence identity, custody, provenance, and material-record discipline.",
+      "authority_transfer": false,
+      "truth_boundary": "Trace, retained record, accessible record, certificate, and public record remain distinct stages.",
+      "phenomenon_eligible": false
+    }
+  ],
+  "source_bindings": [
+    {
+      "binding_id": "SRC-GU-CPL-V0258",
+      "adapter_ref": "ADAPTER-GU-CPL",
+      "source_owner": "gu-formalization",
+      "immutable_revision": "44b26cdebb9b011c66ec8ba12a0b64bc697560d9",
+      "artifact_locator": "lab/process/conditional-physics-ledger-v0.258.json",
+      "assertion_selector": "/denominator, /progress, and /rows",
+      "content_sha256": "540b50e386073c0f43da4e8d5a8ffdaf06fd243c6612622d7daf187c0a725047",
+      "native_claim_status": "LEDGER V0.258 / 82 OF 82 CANONICAL TARGETS MAPPED",
+      "native_evidence_grade": "ROW-LOCAL GU VERDICTS; NOT A DU NUMERIC-GRADE IMPORT",
+      "receiver_paraphrase": "The ledger supplies 82 canonical construction and physics-requirement targets for a future reviewed many-to-many crosswalk.",
+      "source_nonclaims": ["The 82-target denominator is not a physical-phenomena inventory and no GU row is an atlas phenomenon by default."],
+      "missing_import_requirements": ["A reviewed many-to-many requirement-to-phenomenon crosswalk does not yet exist."]
+    },
+    {
+      "binding_id": "SRC-DU-QD-D1",
+      "adapter_ref": "ADAPTER-DU",
+      "source_owner": "dynamic-unity",
+      "immutable_revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+      "artifact_locator": "explorations/classicality-transition-functional-form-d1-literature-check-2026-08-03.md",
+      "assertion_selector": "sections 1-6 and Not established",
+      "content_sha256": "a748eb7b6fea42525c0aade3a6500bd3bf88eb2173e14ea62a9c572cf0dc7f1e",
+      "native_claim_status": "EXECUTED DISCRIMINATOR / LITERATURE COLLISION / NON-ROUTING / UNBANKED",
+      "native_evidence_grade": "NO GRADE MOVEMENT",
+      "receiver_paraphrase": "Published time-resolved decoherence results absorb the tested exotic transition signatures in their measured regimes.",
+      "source_nonclaims": ["No universal classicality mechanism, new physics, banking, or routing result."],
+      "missing_import_requirements": []
+    },
+    {
+      "binding_id": "SRC-DU-QD-D2",
+      "adapter_ref": "ADAPTER-DU",
+      "source_owner": "dynamic-unity",
+      "immutable_revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+      "artifact_locator": "explorations/qd-sbs-audit-gap-witness-d2-execution-2026-08-03.md",
+      "assertion_selector": "sections 2-8",
+      "content_sha256": "55bab508a5eaee40c89bf2fa697aa28229f3641e840b6cb7b01d50bc64de8530",
+      "native_claim_status": "EXECUTED AUDIT-GAP WITNESS / NON-ROUTING / UNBANKED",
+      "native_evidence_grade": "JOE-GATED GRADE 4 NAMED BY THE FROZEN TABLE; NO GRADE MOVEMENT",
+      "receiver_paraphrase": "Raw redundancy, distinguishability, discord, and independence are separately measurable audit rungs in finite QD/SBS witnesses.",
+      "source_nonclaims": ["No new mechanism, consensus ontology, universal macroscopic claim, or novelty over SBS literature."],
+      "missing_import_requirements": []
+    },
+    {
+      "binding_id": "SRC-TAF-SG",
+      "adapter_ref": "ADAPTER-TAF",
+      "source_owner": "time-as-finality",
+      "immutable_revision": "9769cc51138a6aa9ffcbfd16678ce3ce5dc0ad12",
+      "artifact_locator": "tests/T64-stern-gerlach-access-window.md",
+      "assertion_selector": "full test contract",
+      "content_sha256": "fddc3ce31585bb3a481719576e0806a2fcc328275159d327fa4bcf2a0c3467ad",
+      "native_claim_status": "TYPED TOY DETECTOR ACCESS-WINDOW TEST",
+      "native_evidence_grade": "SOURCE USES TEST STATUS RATHER THAN A DU NUMERIC GRADE",
+      "receiver_paraphrase": "Detector readout, redundant environment, local access, and duplicate archive can be varied separately.",
+      "source_nonclaims": ["No new measurement dynamics or universal finality result."],
+      "missing_import_requirements": []
+    },
+    {
+      "binding_id": "SRC-P2C-RING",
+      "adapter_ref": "ADAPTER-P2C",
+      "source_owner": "possibility-to-capability",
+      "immutable_revision": "beee931c4d4245831ff5311a1341eaf1b3d4cbdc",
+      "artifact_locator": "exports/witness/P2C-W1-superconducting-ring-v0.1/blobs/WITNESS-FREEZE.md",
+      "assertion_selector": "frozen witness semantics",
+      "content_sha256": "694443cacddfcd784a81e01a6e059557b5b1e6aaeea8c0a7616a4f0ac6b71b51",
+      "native_claim_status": "FROZEN FRAME-INDEXED SUPERCONDUCTING-RING WITNESS",
+      "native_evidence_grade": "WHOLE-FAMILY ABSORPTION OPEN; NO GLOBAL CAPABILITY VERDICT",
+      "receiver_paraphrase": "Normal and superconducting regimes permit a matched finite comparison of persistent winding memory and task support.",
+      "source_nonclaims": ["No universal capability law and no proof that the full possibility family enlarges."],
+      "missing_import_requirements": []
+    },
+    {
+      "binding_id": "SRC-TI-RING",
+      "adapter_ref": "ADAPTER-TI",
+      "source_owner": "temporal-issuance",
+      "immutable_revision": "b45bc41040c04cf345bcbfd37679f9a64ec73e11",
+      "artifact_locator": "exports/packets/TI-WFA-001-superconducting-ring-whole-family-legitimacy-v0.1/blobs/ti_wfa_01_semantics.md",
+      "assertion_selector": "whole-family legitimacy semantics",
+      "content_sha256": "96448a2a9e80307632d24d106014dcf3c98d588361eeed6b5431dee5fedeabbc",
+      "native_claim_status": "WHOLE-FAMILY LEGITIMACY PACKET",
+      "native_evidence_grade": "SOURCE USES PACKET VERIFICATION STATUS RATHER THAN A DU NUMERIC GRADE",
+      "receiver_paraphrase": "A phase-relative capability delta can coexist with whole-family ontological absorption.",
+      "source_nonclaims": ["No physical issuance conclusion follows from the phase transition."],
+      "missing_import_requirements": []
+    },
+    {
+      "binding_id": "SRC-DU-BUBBLE",
+      "adapter_ref": "ADAPTER-DU",
+      "source_owner": "dynamic-unity",
+      "immutable_revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+      "artifact_locator": "explorations/bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md",
+      "assertion_selector": "sections 2-8",
+      "content_sha256": "4383ba2b8d6cfbcaf91b80aba1aa0f14e00dc72d916b77557927d2d56cf7586c",
+      "native_claim_status": "SOURCE-PINNED APPARATUS PACKET AND EXACT TARGET-FACTORIZATION BOUNDARY",
+      "native_evidence_grade": "GRADE 4 EXACT BOUNDARY; GRADE 2 SOURCE RECONSTRUCTION",
+      "receiver_paraphrase": "A bubble is an exact material record of chamber nucleation but generally only probabilistic evidence for an upstream source class.",
+      "source_nonclaims": ["No novel detector physics, zero-error source certificate, or successor selection."],
+      "missing_import_requirements": []
+    },
+    {
+      "binding_id": "SRC-DU-XENON",
+      "adapter_ref": "ADAPTER-DU",
+      "source_owner": "dynamic-unity",
+      "immutable_revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+      "artifact_locator": "explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md",
+      "assertion_selector": "sections 2-8",
+      "content_sha256": "b2de002412780eb6a5ff08cf68e7648e949acd753de1d5dcf3d7186a11cb5d7d",
+      "native_claim_status": "SOURCE-PINNED DETECTOR PACKET AND EXACT PAIRING BOUNDARY",
+      "native_evidence_grade": "GRADE 4 EXACT PAIRING BOUNDARY; CONDITIONAL GRADE 3 RECONSTRUCTION; GRADE 2 SOURCE AUDIT",
+      "receiver_paraphrase": "S1 and S2 may each be formed records while their common-event relation remains a separate physical or inferential duty.",
+      "source_nonclaims": ["No novel detector theorem, new physics, zero-error source certificate, or successor selection."],
+      "missing_import_requirements": []
+    },
+    {
+      "binding_id": "SRC-DU-REDSHIFT",
+      "adapter_ref": "ADAPTER-DU",
+      "source_owner": "dynamic-unity",
+      "immutable_revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+      "artifact_locator": "explorations/admissible-record-envelope-and-einstein-matter-reconstruction-control-2026-07-26.md",
+      "assertion_selector": "section 7 and sections 9-11",
+      "content_sha256": "a2bc1014ec06149863eb34d47daa7c06f781b9db0a05e9b33f4704a0a386523b",
+      "native_claim_status": "EXACT FINITE 3+1 WEAK-FIELD EINSTEIN-MATTER CONTROL",
+      "native_evidence_grade": "PROGRAM-LEVEL FORMAL SPINE; NOT A LITERATURE-NOVEL THEOREM",
+      "receiver_paraphrase": "Within a frozen two-source weak-field class, two jointly realizable clock records can reconstruct a held-out clock where either alone cannot.",
+      "source_nonclaims": ["No full nonlinear GR reconstruction, selected clock architecture, record-origin geometry, or new physical law."],
+      "missing_import_requirements": ["Dedicated primary-source audit of gravitational-redshift experiments and clock metrology before publication use."]
+    },
+    {
+      "binding_id": "SRC-TAF-HORIZON-TEST",
+      "adapter_ref": "ADAPTER-TAF",
+      "source_owner": "time-as-finality",
+      "immutable_revision": "9769cc51138a6aa9ffcbfd16678ce3ce5dc0ad12",
+      "artifact_locator": "tests/T418-schwarzschild-horizon-access-profile-screen.md",
+      "assertion_selector": "full test contract",
+      "content_sha256": "5f143b1edacf4c282697ddb9a77a7ef8ba7c83ff9dbde12c7429e9702ded6e7c",
+      "native_claim_status": "GR CAUSAL-ACCESSIBILITY GUARDRAIL CONTRACT",
+      "native_evidence_grade": "NO CLAIM-LEDGER MOVEMENT",
+      "receiver_paraphrase": "An aligned exterior profile sees no capability split between states with the same exterior shadow and different interior records.",
+      "source_nonclaims": ["No black-hole information, QFT, holography, evaporation, or semiclassical-gravity claim."],
+      "missing_import_requirements": ["Primary-source GR/horizon reference packet before publication use."]
+    },
+    {
+      "binding_id": "SRC-TAF-HORIZON-RESULT",
+      "adapter_ref": "ADAPTER-TAF",
+      "source_owner": "time-as-finality",
+      "immutable_revision": "9769cc51138a6aa9ffcbfd16678ce3ce5dc0ad12",
+      "artifact_locator": "results/T418-schwarzschild-horizon-access-profile-screen-v0.1-results.md",
+      "assertion_selector": "verdict, geometry audit, access-profile audit, and falsification condition",
+      "content_sha256": "3c01f79009329d78cb4d097dfefbf10d27187f8249a1ea093c1d7b0562da7dfd",
+      "native_claim_status": "IMPLEMENTED_GUARDRAIL_NO_CLAIM_PROMOTION",
+      "native_evidence_grade": "SOURCE USES IMPLEMENTATION STATUS RATHER THAN A DU NUMERIC GRADE",
+      "receiver_paraphrase": "Outgoing radial null traces escape from outside the horizon but not from the horizon or interior in the frozen classical model.",
+      "source_nonclaims": ["No TaF residue is established beyond standard Schwarzschild causal access and profile alignment."],
+      "missing_import_requirements": ["Primary-source GR/horizon reference packet before publication use."]
+    }
+  ],
+  "phenomena": [
+    {
+      "phenomenon_id": "DU-PCA-001",
+      "display_name": "Environment-induced decoherence and redundant quantum records",
+      "domain": "quantum foundations and open systems",
+      "lifecycle": "REVIEWED",
+      "source_binding_refs": ["SRC-DU-QD-D1", "SRC-DU-QD-D2", "SRC-TAF-SG"],
+      "source_grounding_status": "AUDITED_LOCAL_PACKET",
+      "physics": {
+        "empirical_signature": "Interference terms decay under system-environment coupling, while multiple environment fragments can carry information about a pointer observable.",
+        "accepted_frameworks": ["open-system quantum dynamics", "decoherence", "Quantum Darwinism", "strong-QD and spectrum-broadcast-structure audits"],
+        "governing_relations": ["unitary or channel evolution of system-apparatus-environment states", "off-diagonal coherence decay", "mutual information, Holevo information, discord, distinguishability, and conditional fragment correlation"],
+        "validity_regime": "Finite system-environment models and source-pinned laboratory regimes; no unrestricted macroscopic-universality claim.",
+        "observables": ["interference visibility", "pointer outcome", "fragment mutual information", "Holevo information", "discord", "fragment cross-correlation"],
+        "source_assertion_refs": ["SRC-DU-QD-D1", "SRC-DU-QD-D2", "SRC-TAF-SG"],
+        "completeness_status": "SCOPED_ACCEPTED_DESCRIPTION"
+      },
+      "process": {
+        "direction": "SOURCE_PHYSICS_TO_INDUCED_CAPABILITY",
+        "antecedents": ["prepared superposition or pointer-correlated state", "declared apparatus and environment partition", "declared fragment sampling rule"],
+        "transitions": ["system-apparatus correlation", "environmental entanglement", "local coherence suppression", "fragment record formation", "detector registration and archive"],
+        "interventions": ["vary fragment access", "measure pointer and fragments", "audit distinguishability, discord, and independence", "attempt coherent erasure or recoherence within the model"],
+        "temporal_antecedents": ["preparation precedes coupling", "fragment formation precedes fragment readout", "archive access follows detector registration"],
+        "geometric_antecedents": ["tensor-factor partition or operational subsystem decomposition", "declared observer region and fragment boundary"]
+      },
+      "record_ladder": [
+        {"level": "EVENT", "status": "ESTABLISHED", "target": "declared pointer-coupling event", "carrier": "system-apparatus-environment state", "condition": "source model and preparation hold", "warrant": "unitary/channel dynamics and detector packet"},
+        {"level": "TRACE", "status": "ESTABLISHED", "target": "history-conditioned pointer distinction", "carrier": "conditional fragment states and detector spot", "condition": "coupling creates branch-correlated differences", "warrant": "coherence and conditional-state observables"},
+        {"level": "RETAINED_RECORD", "status": "CONDITIONAL", "target": "pointer value", "carrier": "environment fragments and detector archive", "condition": "retention exceeds the declared readout horizon", "warrant": "redundancy and archive checks"},
+        {"level": "ACCESSIBLE_RECORD", "status": "CONDITIONAL", "target": "pointer value", "carrier": "sampled fragments or detector log", "condition": "observer has a physical channel and adequate distinguishability", "warrant": "access-window and Holevo/discord audits"},
+        {"level": "CERTIFICATE", "status": "CONDITIONAL", "target": "pointer value within a frozen error class", "carrier": "independently readable fragments plus calibrated detector record", "condition": "distinguishability and independence criteria pass", "warrant": "strong-QD/SBS audit, not raw plateau alone"},
+        {"level": "PUBLIC_FINAL_RECORD", "status": "UNKNOWN", "target": "shared pointer fact", "carrier": "multiple provenance-preserving fragment or archive reads", "condition": "independence, common calibration, and admissible reopener class must be fixed", "warrant": "not established by v0.1"},
+        {"level": "ACTION_ENABLING_FACT", "status": "CONDITIONAL", "target": "feed-forward conditioned on pointer value", "carrier": "accessible certified readout", "condition": "latency and error budget permit the declared control", "warrant": "task-indexed, not inferred from decoherence alone"}
+      ],
+      "observer_profiles": [
+        {"observer_id": "OBS-QD-OUTSIDE", "observer_kind": "LABORATORY_AGENT", "physical_subsystem": "agent and instruments outside the sampled-fragment access window", "boundary": "no fragment or detector-log channel", "channels": ["preparation metadata only"], "visible_records": [], "horizon": "one experimental run", "operations": ["predict ensemble statistics"], "resources": ["source model", "preparation metadata"], "risk_or_error": "no one-shot pointer inference licensed", "provenance": "run identity only"},
+        {"observer_id": "OBS-QD-FRAGMENT", "observer_kind": "LABORATORY_AGENT", "physical_subsystem": "calibrated fragment probes and detector archive", "boundary": "declared sampled fragments plus authenticated run log", "channels": ["fragment measurement", "detector readout", "archive query"], "visible_records": ["conditional fragment states", "pointer log"], "horizon": "retention time of fragments or archive", "operations": ["infer pointer", "audit distinguishability", "condition feed-forward"], "resources": ["calibration", "fragment access", "decoder", "error budget"], "risk_or_error": "bounded by declared discrimination and audit thresholds", "provenance": "fragment identity and run-linked archive"}
+      ],
+      "task_family": {"task_id": "TASK-QD-POINTER", "task": "infer and condition an operation on the pointer value", "success_rule": "meet the declared one-shot error threshold without using hidden global-state access", "horizon": "before record decay or archive expiry", "actions": ["sample fragment", "decode pointer", "condition feed-forward"], "resources": ["calibrated access channel", "decoder", "audit thresholds"], "risk_or_error": "declared discrimination error and false-objectivity risk", "provenance_requirement": "fragment and detector records share an authenticated run identity"},
+      "contrasts": [
+        {
+          "contrast_id": "X-QD-ACCESS",
+          "left": "OBS-QD-OUTSIDE",
+          "right": "OBS-QD-FRAGMENT",
+          "is_matched_control": true,
+          "comparison_frame": {"matched_fields": ["physical state", "dynamics", "pointer task", "run horizon"], "changed_fields": ["fragment and archive access"], "unmatched_fields": [], "normalization": "Add the same fragment/readout channel to both profiles before judging intrinsic task support."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "EQUIVALENT", "description_change": "NO", "dynamics_change": "NO", "persistent_record": "NO", "access_change": "YES", "control_change": "YES", "irreversible": "NO", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "EQUAL", "preceding_factorization": "FACTORED", "factorization_search_scope": "access channel and decoder", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["ACCESS_CHANGE", "NO_CAPABILITY_CHANGE"]
+        },
+        {
+          "contrast_id": "X-QD-AUDIT",
+          "left": "raw mutual-information plateau with failed distinguishability or independence audit",
+          "right": "same plateau height with distinguishable, low-discord, independently readable fragments",
+          "is_matched_control": false,
+          "comparison_frame": {"matched_fields": ["pointer task", "fragment count", "access operations", "decoder family", "risk threshold"], "changed_fields": ["conditional fragment-state audit properties"], "unmatched_fields": [], "normalization": "Hold the observer interface fixed and compare normalized one-shot pointer and public-objectivity tasks."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "INEQUIVALENT", "description_change": "YES", "dynamics_change": "YES", "persistent_record": "YES", "access_change": "NO", "control_change": "YES", "irreversible": "NO", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "SUPERSET", "preceding_factorization": "FACTORED", "factorization_search_scope": "record distinguishability, discord, and independence rungs", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["FIXED_FAMILY_DYNAMICS_CHANGE", "RECORD_FORMATION", "CAPABILITY_ENLARGEMENT"]
+        }
+      ],
+      "projection_audit": {"projection": "global state to sampled fragment statistics and detector log", "visible_equivalence": "equal sampled records at the declared resolution", "sufficiency_status": "VARIES_ON_FIBRES", "witness_pair": "finite plateau states with equal raw redundancy but different discord, distinguishability, or independence audit", "capability_spread": "public-objectivity and reliable one-shot inference tasks differ", "native_comparison": "PREORDER"},
+      "finality": {"local_scope": "loss of locally accessible coherence can be stable for the laboratory horizon", "public_scope": "requires independently readable provenance-preserving records and is not established by a plateau", "global_scope": "not claimed; coherent environmental access can reopen the branch relation in principle", "settlement": "NO", "preceding_factorization": "FACTORED", "factorization_search_scope": "decoherence, record formation, fragment access, and audit layers", "reopenable_by_admissible_continuation": "YES", "reopener": "coherent environment control, quantum erasure, additional fragment audit, or changed horizon", "verdict": "NONE"},
+      "temporal_issuance": {"classification": "DISCLOSURE", "source_side_primitive": false, "same_neighbor_data_discriminator": false, "ordinary_disclosure_absorber": "ordinary system-environment dynamics plus detector and access completion", "warrant": "The card types record formation and access; it supplies no source-side issuance discriminator."},
+      "structures": [
+        {"structure_id": "G-QD-STATE", "kind": "STATE_SPACE", "origin": "SOURCE_THEORY", "warrant": "PHYSICS_OWNED", "carrier": "density operators and quantum channels on the declared subsystem decomposition", "maps_or_relations": "partial trace, channel evolution, and measurement maps", "invariant": "operational probabilities under equivalent representations", "axioms_checked": ["positive normalized states", "completely positive trace-preserving maps in the scoped models"], "evidence_ceiling": 2},
+        {"structure_id": "G-QD-FRAGMENTS", "kind": "HYPERGRAPH", "origin": "ATLAS_INTRODUCED", "warrant": "STRUCTURAL_ANALOGY", "carrier": "environment fragments and jointly audited fragment sets", "maps_or_relations": "hyperedges encode jointly accessible or independently readable sets", "invariant": "coverage and overlap pattern under fragment relabeling", "axioms_checked": ["declared vertices", "declared hyperedge membership"], "evidence_ceiling": 1}
+      ],
+      "evidence": {"atlas_grade": 2, "ceiling_reason": "Pinned source reconstruction and finite controls support a faithful typed representation, not a new mechanism or ontology.", "strongest_absorber": "ordinary decoherence, Quantum Darwinism, strong-QD/SBS, consistent histories, and causal access", "cheapest_kill": "If the audit fields never change any normalized task under matched access, the atlas overlay is relabeling only.", "falsifier": "A matched finite state pair showing equal full audit data but different declared pointer capability, or the reverse of the encoded projection verdict.", "missing_work": ["D3 genericity remains outside this non-routing pilot."], "nonclaims": ["No new measurement dynamics.", "No universal emergence law.", "No routing or banking change."]}
+    },
+    {
+      "phenomenon_id": "DU-PCA-002",
+      "display_name": "Superconducting-ring fluxoid memory",
+      "domain": "condensed matter and mesoscopic superconductivity",
+      "lifecycle": "REVIEWED",
+      "source_binding_refs": ["SRC-P2C-RING", "SRC-TI-RING"],
+      "source_grounding_status": "AUDITED_LOCAL_PACKET",
+      "physics": {
+        "empirical_signature": "Below the superconducting transition, a ring supports quantized fluxoid sectors and persistent supercurrent with phase-slip-limited retention.",
+        "accepted_frameworks": ["BCS superconductivity", "Ginzburg-Landau and London theory", "metastable phase-slip dynamics"],
+        "governing_relations": ["complex order parameter with phase winding", "fluxoid quantization n times the flux quantum", "free-energy barriers and thermally or quantum activated phase slips"],
+        "validity_regime": "Finite superconducting ring under the frozen preparation, temperature, threading, readout, and horizon frame of P2C-W1.",
+        "observables": ["persistent current", "trapped flux or fluxoid number", "transition temperature", "phase-slip rate"],
+        "source_assertion_refs": ["SRC-P2C-RING", "SRC-TI-RING"],
+        "completeness_status": "SCOPED_ACCEPTED_DESCRIPTION"
+      },
+      "process": {
+        "direction": "SOURCE_PHYSICS_TO_INDUCED_CAPABILITY",
+        "antecedents": ["ring geometry", "cooling protocol", "threaded flux or current preparation", "declared finite horizon"],
+        "transitions": ["condensation below transition temperature", "phase winding selection", "persistent current retention", "possible phase-slip escape"],
+        "interventions": ["cool through transition", "thread flux", "read with SQUID or transport channel", "heat through transition or induce phase slip"],
+        "temporal_antecedents": ["preparation precedes phase selection", "retention interval precedes readout", "erase operation may follow readout"],
+        "geometric_antecedents": ["ring topology", "phase map from the spatial circle to U(1)", "declared magnetic and material boundary conditions"]
+      },
+      "record_ladder": [
+        {"level": "EVENT", "status": "ESTABLISHED", "target": "entry into a superconducting winding sector", "carrier": "ring order parameter", "condition": "frozen cooling and preparation protocol", "warrant": "phase-transition witness packet"},
+        {"level": "TRACE", "status": "ESTABLISHED", "target": "winding sector", "carrier": "persistent supercurrent and magnetic flux", "condition": "phase coherence persists", "warrant": "GL/London response"},
+        {"level": "RETAINED_RECORD", "status": "CONDITIONAL", "target": "integer winding", "carrier": "metastable fluxoid sector", "condition": "phase-slip time exceeds the task horizon", "warrant": "finite persistence, never absolute"},
+        {"level": "ACCESSIBLE_RECORD", "status": "CONDITIONAL", "target": "integer winding", "carrier": "SQUID or transport signal", "condition": "readout channel and calibration are supplied", "warrant": "readout exposes rather than creates the fluxoid"},
+        {"level": "CERTIFICATE", "status": "CONDITIONAL", "target": "winding sector in the calibrated ring model", "carrier": "stable calibrated flux readout", "condition": "noise and alias classes are bounded", "warrant": "frame-indexed certificate only"},
+        {"level": "PUBLIC_FINAL_RECORD", "status": "UNKNOWN", "target": "shared winding fact", "carrier": "authenticated archive of repeated readouts", "condition": "public access and rollback horizon fixed", "warrant": "not supplied by persistence alone"},
+        {"level": "ACTION_ENABLING_FACT", "status": "CONDITIONAL", "target": "zero-maintenance memory or winding-conditioned control", "carrier": "retained fluxoid plus readout", "condition": "task horizon shorter than escape and resources matched", "warrant": "P2C frame-indexed task comparison"}
+      ],
+      "observer_profiles": [
+        {"observer_id": "OBS-RING-CLOSED", "observer_kind": "DETECTOR_SUBSYSTEM", "physical_subsystem": "superconducting ring without an attached readout", "boundary": "material ring and local electromagnetic environment", "channels": ["internal persistent current dynamics"], "visible_records": [], "horizon": "phase-slip-limited retention interval", "operations": ["retain prepared winding"], "resources": ["cryogenic environment", "prepared ring"], "risk_or_error": "escape probability over horizon", "provenance": "preparation protocol identifies the ring and run"},
+        {"observer_id": "OBS-RING-SQUID", "observer_kind": "LABORATORY_AGENT", "physical_subsystem": "ring plus calibrated SQUID and archive", "boundary": "readout coupling and authenticated data path", "channels": ["magnetic flux readout", "transport readout", "archive query"], "visible_records": ["winding-sensitive signal", "calibration record"], "horizon": "readout and archive retention interval", "operations": ["infer winding", "condition control", "verify persistence"], "resources": ["cryogenics", "SQUID", "calibration", "decoder"], "risk_or_error": "readout error plus phase-slip probability", "provenance": "ring identity, preparation, readout, and calibration are linked"}
+      ],
+      "task_family": {"task_id": "TASK-RING-MEMORY", "task": "store and later recover an integer winding label without continuous drive", "success_rule": "recover the prepared label within the declared error and maintenance budget", "horizon": "finite retention interval", "actions": ["prepare winding", "wait", "read winding", "optionally erase"], "resources": ["ring", "cryogenics", "threading protocol", "readout for recovery"], "risk_or_error": "phase-slip and readout failure probability", "provenance_requirement": "same ring, preparation, and readout calibration"},
+      "contrasts": [
+        {
+          "contrast_id": "X-RING-READOUT",
+          "left": "OBS-RING-CLOSED",
+          "right": "OBS-RING-SQUID",
+          "is_matched_control": true,
+          "comparison_frame": {"matched_fields": ["ring state", "temperature", "retention horizon", "prepared winding"], "changed_fields": ["readout channel and decoder"], "unmatched_fields": [], "normalization": "Supply the same readout channel to both sides before judging intrinsic storage capability."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "EQUIVALENT", "description_change": "NO", "dynamics_change": "NO", "persistent_record": "NO", "access_change": "YES", "control_change": "YES", "irreversible": "NO", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "EQUAL", "preceding_factorization": "FACTORED", "factorization_search_scope": "readout access and decoder", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["ACCESS_CHANGE", "NO_CAPABILITY_CHANGE"]
+        },
+        {
+          "contrast_id": "X-RING-PHASE",
+          "left": "matched normal-conducting branch with driven decaying current",
+          "right": "superconducting branch with quantized phase winding and persistent current",
+          "is_matched_control": false,
+          "comparison_frame": {"matched_fields": ["ring geometry", "threading budget", "readout", "task", "finite horizon"], "changed_fields": ["phase regime and order-parameter dynamics"], "unmatched_fields": [], "normalization": "Compare task support at matched final frame while retaining the source-owned full Hamiltonian/phase-diagram absorber."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "INEQUIVALENT", "description_change": "YES", "dynamics_change": "YES", "persistent_record": "YES", "access_change": "NO", "control_change": "YES", "irreversible": "NO", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "SUPERSET", "preceding_factorization": "FACTORED", "factorization_search_scope": "phase-specific dynamics and record formation", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["FIXED_FAMILY_DYNAMICS_CHANGE", "RECORD_FORMATION", "CAPABILITY_ENLARGEMENT"]
+        }
+      ],
+      "projection_audit": {"projection": "full ring and environment state to calibrated winding readout", "visible_equivalence": "equal readout distributions within tolerance", "sufficiency_status": "NOT_TESTED", "witness_pair": "no same-readout/different-normalized-memory-capability pair is established in the packet", "capability_spread": "unknown outside the frozen phase and error frame", "native_comparison": "RISK_BOUND"},
+      "finality": {"local_scope": "winding can be stable relative to a finite memory horizon", "public_scope": "requires authenticated readout and declared rollback horizon", "global_scope": "not claimed; heating or a phase slip reopens or erases the winding", "settlement": "NO", "preceding_factorization": "FACTORED", "factorization_search_scope": "phase dynamics, record retention, and access", "reopenable_by_admissible_continuation": "YES", "reopener": "phase slip, heating through the transition, changed horizon, or added work budget", "verdict": "NONE"},
+      "temporal_issuance": {"classification": "UNDECIDED", "source_side_primitive": false, "same_neighbor_data_discriminator": false, "ordinary_disclosure_absorber": "one fixed microscopic possibility family and phase diagram contains both branches", "warrant": "The packet supports a phase-relative capability delta while leaving whole-family issuance absorbed or open."},
+      "structures": [
+        {"structure_id": "G-RING-WINDING", "kind": "HOMOTOPY_CLASS", "origin": "SOURCE_THEORY", "warrant": "PHYSICS_OWNED", "carrier": "phase map from the ring circle to U(1)", "maps_or_relations": "continuous deformation within the nonvanishing-order-parameter regime", "invariant": "integer winding number", "axioms_checked": ["closed spatial loop", "single-valued order parameter", "continuous phase map away from slips"], "evidence_ceiling": 2},
+        {"structure_id": "G-RING-RESOURCE", "kind": "RESOURCE_PREORDER", "origin": "ATLAS_INTRODUCED", "warrant": "STRUCTURAL_ANALOGY", "carrier": "finite storage-and-recovery task configurations", "maps_or_relations": "x precedes y when allowed operations transform x into a configuration supporting every y-task", "invariant": "task support under declared free operations", "axioms_checked": ["reflexive identity transformation", "transitive composition of declared operations"], "evidence_ceiling": 1}
+      ],
+      "evidence": {"atlas_grade": 2, "ceiling_reason": "A pinned designed witness supports a faithful phase-relative mapping; full-family capability and issuance remain open.", "strongest_absorber": "one BCS/GL possibility family and phase diagram plus ordinary metastability", "cheapest_kill": "If the normalized storage task can be matched by the normal branch at the same maintenance budget and horizon, the capability delta disappears.", "falsifier": "A matched normal-branch realization satisfying the same zero-maintenance recovery task and error threshold.", "missing_work": ["Whole-family absorption adjudication remains source-owned."], "nonclaims": ["No universal capability law.", "No absolute finality.", "No physical issuance conclusion."]}
+    },
+    {
+      "phenomenon_id": "DU-PCA-003",
+      "display_name": "Bubble-chamber nucleation",
+      "domain": "particle detection and metastable fluids",
+      "lifecycle": "REVIEWED",
+      "source_binding_refs": ["SRC-DU-BUBBLE"],
+      "source_grounding_status": "AUDITED_LOCAL_PACKET",
+      "physics": {
+        "empirical_signature": "Localized energy deposition in a superheated liquid can nucleate a supercritical vapor bubble that grows, emits acoustic/optical signals, and is erased by recompression.",
+        "accepted_frameworks": ["classical and molecular nucleation theory", "metastability and first-passage physics", "detector response and likelihood classification"],
+        "governing_relations": ["source-conditioned energy deposition", "critical nucleation threshold", "bubble growth and acoustic emission", "stochastic source-response kernel"],
+        "validity_regime": "Source-pinned finite bubble-chamber apparatus and declared operating/calibration regime.",
+        "observables": ["bubble count", "bubble morphology", "position and timing", "acoustic signal", "optical image"],
+        "source_assertion_refs": ["SRC-DU-BUBBLE"],
+        "completeness_status": "SCOPED_ACCEPTED_DESCRIPTION"
+      },
+      "process": {
+        "direction": "SOURCE_PHYSICS_TO_INDUCED_CAPABILITY",
+        "antecedents": ["superheated metastable liquid", "declared pressure-temperature state", "incident energy deposition", "calibrated optical/acoustic apparatus"],
+        "transitions": ["energy deposition", "nucleation", "supercritical bubble growth", "optical/acoustic transduction", "archive", "recompression reset"],
+        "interventions": ["vary thermodynamic threshold", "read optical and acoustic channels", "recompress chamber", "apply source-class decoder"],
+        "temporal_antecedents": ["deposition precedes nucleation", "bubble retention precedes recompression", "archive can outlive material bubble"],
+        "geometric_antecedents": ["chamber volume and fiducial region", "localized energy-deposition field", "bubble morphology and sensor layout"]
+      },
+      "record_ladder": [
+        {"level": "EVENT", "status": "ESTABLISHED", "target": "chamber nucleation event", "carrier": "supercritical vapor bubble", "condition": "bubble formation under the frozen apparatus model", "warrant": "typed physical chain"},
+        {"level": "TRACE", "status": "ESTABLISHED", "target": "nucleation event", "carrier": "bubble morphology plus acoustic/optical emissions", "condition": "sensors couple to the growth event", "warrant": "detector mechanism audit"},
+        {"level": "RETAINED_RECORD", "status": "ESTABLISHED", "target": "nucleation event", "carrier": "material bubble until recompression and digital signals thereafter", "condition": "retention horizon is declared", "warrant": "finite material and archive retention"},
+        {"level": "ACCESSIBLE_RECORD", "status": "CONDITIONAL", "target": "nucleation event", "carrier": "camera/acoustic stream and event archive", "condition": "acquisition and query path exist", "warrant": "physical access profile"},
+        {"level": "CERTIFICATE", "status": "CONDITIONAL", "target": "exact chamber event but probabilistic upstream source class", "carrier": "calibrated morphology and acoustic packet", "condition": "target type and response overlap are stated", "warrant": "exact event/source factorization boundary"},
+        {"level": "PUBLIC_FINAL_RECORD", "status": "CONDITIONAL", "target": "shared chamber-event fact", "carrier": "authenticated optical/acoustic archive", "condition": "custody, calibration, and finite reopener class are preserved", "warrant": "not a global upstream-source finality claim"},
+        {"level": "ACTION_ENABLING_FACT", "status": "CONDITIONAL", "target": "event-triggered reset or source-class decision", "carrier": "queried calibrated packet", "condition": "risk threshold and authorized action are declared", "warrant": "statistical decision, not zero-error source identity"}
+      ],
+      "observer_profiles": [
+        {"observer_id": "OBS-BUBBLE-MATERIAL", "observer_kind": "DETECTOR_SUBSYSTEM", "physical_subsystem": "superheated chamber before camera query", "boundary": "fluid volume and direct bubble carrier", "channels": ["bubble growth", "acoustic propagation"], "visible_records": ["material bubble"], "horizon": "until recompression", "operations": ["retain nucleation distinction", "trigger local acquisition"], "resources": ["metastable fluid", "sensor coupling"], "risk_or_error": "nucleation and sensor thresholds", "provenance": "spatiotemporal chamber event identity"},
+        {"observer_id": "OBS-BUBBLE-ARCHIVE", "observer_kind": "LABORATORY_AGENT", "physical_subsystem": "calibrated camera/acoustic acquisition and analyst", "boundary": "authenticated detector archive", "channels": ["image query", "acoustic query", "calibration lookup"], "visible_records": ["bubble morphology", "timing", "position", "acoustic features"], "horizon": "archive retention", "operations": ["certify chamber event", "estimate source class", "authorize reset or classification"], "resources": ["archive access", "calibration", "likelihood model", "risk budget"], "risk_or_error": "source-conditioned supports may overlap", "provenance": "run, sensor, calibration, and occurrence IDs are joined"}
+      ],
+      "task_family": {"task_id": "TASK-BUBBLE-CLASSIFY", "task": "certify chamber nucleation and classify an upstream interaction within a declared error", "success_rule": "exact event decision plus source-class risk below the frozen threshold", "horizon": "material-bubble or archive retention interval", "actions": ["query records", "apply calibration", "classify", "reset chamber"], "resources": ["optical/acoustic packet", "calibration", "likelihood model"], "risk_or_error": "event miss/false alarm and source misclassification", "provenance_requirement": "records must be linked to one chamber occurrence and calibration state"},
+      "contrasts": [
+        {
+          "contrast_id": "X-BUBBLE-ARCHIVE",
+          "left": "material bubble before remote acquisition",
+          "right": "authenticated optical/acoustic archive after recompression",
+          "is_matched_control": true,
+          "comparison_frame": {"matched_fields": ["nucleation occurrence", "target", "calibration", "risk threshold"], "changed_fields": ["carrier and observer access"], "unmatched_fields": [], "normalization": "Give both profiles the same query channel before evaluating event-certification capability."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "EQUIVALENT", "description_change": "NO", "dynamics_change": "NO", "persistent_record": "YES", "access_change": "YES", "control_change": "YES", "irreversible": "YES", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "EQUAL", "preceding_factorization": "FACTORED", "factorization_search_scope": "carrier substitution and archive access", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["RECORD_FORMATION", "ACCESS_CHANGE", "NO_CAPABILITY_CHANGE"]
+        },
+        {
+          "contrast_id": "X-BUBBLE-TARGET",
+          "left": "bubble morphology alone",
+          "right": "joined calibrated morphology, acoustic, position, and timing packet",
+          "is_matched_control": false,
+          "comparison_frame": {"matched_fields": ["same chamber event class", "source hypotheses", "decision rule family", "risk threshold"], "changed_fields": ["physically acquired record channels"], "unmatched_fields": [], "normalization": "Charge each channel and calibration as an explicit resource; do not rename source likelihood as an exact certificate."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "INEQUIVALENT", "description_change": "YES", "dynamics_change": "NO", "persistent_record": "YES", "access_change": "YES", "control_change": "YES", "irreversible": "NO", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "SUPERSET", "preceding_factorization": "FACTORED", "factorization_search_scope": "additional record channels and likelihood discrimination", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["RECORD_FORMATION", "ACCESS_CHANGE", "CAPABILITY_ENLARGEMENT"]
+        }
+      ],
+      "projection_audit": {"projection": "upstream interaction history to retained bubble morphology and sensor packet", "visible_equivalence": "equal retained packet at instrument resolution", "sufficiency_status": "VARIES_ON_FIBRES", "witness_pair": "distinct upstream source classes with overlapping source-conditioned record support", "capability_spread": "exact upstream-source certification is unavailable on an overlapping fibre even though nucleation certification is available", "native_comparison": "RISK_BOUND"},
+      "finality": {"local_scope": "the bubble settles chamber nucleation until reset", "public_scope": "an archive can preserve the event fact after the material carrier is erased", "global_scope": "upstream source identity is not final when response supports overlap", "settlement": "NO", "preceding_factorization": "FACTORED", "factorization_search_scope": "event record, access, archive, and source-response likelihood", "reopenable_by_admissible_continuation": "YES", "reopener": "new calibration, added channels, alternative source model, or archive provenance challenge", "verdict": "NONE"},
+      "temporal_issuance": {"classification": "DISCLOSURE", "source_side_primitive": false, "same_neighbor_data_discriminator": false, "ordinary_disclosure_absorber": "nucleation dynamics, detector transduction, acquisition, and archive access", "warrant": "The material event forms a record; no source-side issuance primitive is needed or established."},
+      "structures": [
+        {"structure_id": "G-BUBBLE-CHAIN", "kind": "STOCHASTIC_CHAIN", "origin": "SOURCE_THEORY", "warrant": "PHYSICS_OWNED", "carrier": "source, energy deposition, nucleation, bubble, sensor, and classification variables", "maps_or_relations": "source-conditioned stochastic kernels along the detector chain", "invariant": "typed target factorization and support overlap", "axioms_checked": ["declared conditional kernels", "normalized probabilities", "target types remain distinct"], "evidence_ceiling": 2},
+        {"structure_id": "G-BUBBLE-FIBRES", "kind": "FIBRE_FAMILY", "origin": "ATLAS_INTRODUCED", "warrant": "FAITHFUL_REPRESENTATION", "carrier": "upstream histories grouped by equal retained packets", "maps_or_relations": "record projection and equal-record equivalence", "invariant": "source-class multiplicity within a record fibre", "axioms_checked": ["projection declared", "equivalence reflexive, symmetric, and transitive"], "evidence_ceiling": 1}
+      ],
+      "evidence": {"atlas_grade": 2, "ceiling_reason": "A source-pinned apparatus packet and exact event/source boundary support the representation; the atlas imports neither the source Grade 4 nor novelty.", "strongest_absorber": "nucleation theory, detector response, likelihood classification, DAQ, and finite-horizon memory/reset", "cheapest_kill": "If the card labels a bubble an exact upstream-particle certificate, it has collapsed its load-bearing target distinction.", "falsifier": "A source-pinned zero-overlap response theorem for the declared source class would falsify the probabilistic-certificate boundary in that class.", "missing_work": ["No new detector study is authorized by this pilot."], "nonclaims": ["No new detector physics.", "No zero-error upstream certificate.", "No global finality."]}
+    },
+    {
+      "phenomenon_id": "DU-PCA-004",
+      "display_name": "Dual-phase xenon S1/S2 event formation and pairing",
+      "domain": "particle detection and event building",
+      "lifecycle": "REVIEWED",
+      "source_binding_refs": ["SRC-DU-XENON"],
+      "source_grounding_status": "AUDITED_LOCAL_PACKET",
+      "physics": {
+        "empirical_signature": "One interaction can generate prompt scintillation S1 and delayed ionization/electroluminescence S2 whose delay conditionally reconstructs depth when the pair is correct.",
+        "accepted_frameworks": ["dual-phase xenon detector physics", "electron drift and extraction", "triggerless acquisition", "statistical event building"],
+        "governing_relations": ["prompt excitation and scintillation", "electron drift and delayed proportional scintillation", "depth from paired S1/S2 delay", "bipartite compatibility and accidental-coincidence rates"],
+        "validity_regime": "Calibrated dual-phase event class with declared drift window, thresholds, and accidental-coincidence model.",
+        "observables": ["S1 and S2 times", "waveforms and areas", "PMT hit patterns", "S2/S1", "candidate pairing graph"],
+        "source_assertion_refs": ["SRC-DU-XENON"],
+        "completeness_status": "SCOPED_ACCEPTED_DESCRIPTION"
+      },
+      "process": {
+        "direction": "SOURCE_PHYSICS_TO_INDUCED_CAPABILITY",
+        "antecedents": ["interaction in active xenon", "electric drift/extraction fields", "calibrated photosensors and clock", "declared event-building window"],
+        "transitions": ["prompt S1 formation", "electron drift", "S2 formation", "digitization", "candidate pairing", "event reconstruction"],
+        "interventions": ["query S1 only or S2 only", "join candidate peaks", "vary drift window", "add physical common-event tag or side information"],
+        "temporal_antecedents": ["S1 precedes S2 for a common event", "drift delay encodes depth only after pairing", "archive precedes software partition"],
+        "geometric_antecedents": ["TPC active volume", "field/drift geometry", "sensor plane pattern", "bipartite timing-compatibility graph"]
+      },
+      "record_ladder": [
+        {"level": "EVENT", "status": "ESTABLISHED", "target": "interaction-induced S1 or S2 channel event", "carrier": "xenon excitations and ionization electrons", "condition": "above-threshold detector response", "warrant": "source-pinned detector chain"},
+        {"level": "TRACE", "status": "ESTABLISHED", "target": "prompt or delayed channel response", "carrier": "photons, electrons, and PMT waveform", "condition": "channel transduction occurs", "warrant": "detector physics"},
+        {"level": "RETAINED_RECORD", "status": "ESTABLISHED", "target": "above-threshold signal stream", "carrier": "digitized triggerless archive", "condition": "lossless retention within declared threshold", "warrant": "DAQ packet"},
+        {"level": "ACCESSIBLE_RECORD", "status": "ESTABLISHED", "target": "S1/S2 candidates", "carrier": "queryable waveform archive", "condition": "analyst/controller has archive and calibration access", "warrant": "declared profile"},
+        {"level": "CERTIFICATE", "status": "CONDITIONAL", "target": "common event and depth", "carrier": "uniquely certified S1/S2 pair", "condition": "physical tag or unique matchability; algorithmic choice alone is insufficient", "warrant": "exact pairing theorem"},
+        {"level": "PUBLIC_FINAL_RECORD", "status": "FAILED", "target": "unique event partition", "carrier": "immutable unpartitioned packet", "condition": "multiple admissible matchings remain", "warrant": "digitization does not settle event membership"},
+        {"level": "ACTION_ENABLING_FACT", "status": "CONDITIONAL", "target": "3D localization and event-class action", "carrier": "correctly paired calibrated event", "condition": "pairing and calibration risks meet the task threshold", "warrant": "conditional Grade 3 source result, atlas Grade 2 ceiling"}
+      ],
+      "observer_profiles": [
+        {"observer_id": "OBS-XENON-S2", "observer_kind": "LOCAL_CONTROLLER", "physical_subsystem": "S2-only stream processor", "boundary": "delayed channel and its calibration", "channels": ["S2 waveform", "transverse PMT pattern"], "visible_records": ["S2 time", "area", "xy pattern"], "horizon": "event-building window", "operations": ["detect S2", "estimate transverse location"], "resources": ["S2 calibration", "clock"], "risk_or_error": "no absolute depth without a prompt origin", "provenance": "signal and run identity only"},
+        {"observer_id": "OBS-XENON-PAIR", "observer_kind": "LABORATORY_AGENT", "physical_subsystem": "joint S1/S2 event builder with calibrated archive", "boundary": "both channels plus pairing evidence", "channels": ["S1 stream", "S2 stream", "clock", "calibration", "event-tag side channel if present"], "visible_records": ["S1/S2 candidates", "compatibility edges", "calibration packet"], "horizon": "archive and pairing-analysis interval", "operations": ["pair signals", "reconstruct depth", "classify event"], "resources": ["joint archive", "drift calibration", "matching rule", "accidental model"], "risk_or_error": "pairing ambiguity and classification error", "provenance": "run identity plus physically warranted common-event relation when available"}
+      ],
+      "task_family": {"task_id": "TASK-XENON-DEPTH", "task": "reconstruct interaction depth and event class from a physically warranted S1/S2 pair", "success_rule": "correct pair and depth within declared calibration/error tolerance", "horizon": "event archive retention and analysis window", "actions": ["select candidate signals", "certify or infer pairing", "compute delay depth", "classify"], "resources": ["S1 and S2 streams", "clock", "calibration", "pairing evidence"], "risk_or_error": "accidental-coincidence and reconstruction error", "provenance_requirement": "both signals must be linked to one occurrence, not merely one packet"},
+      "contrasts": [
+        {
+          "contrast_id": "X-XENON-PAIR",
+          "left": "S2-only retained record",
+          "right": "correctly paired and calibrated S1/S2 record",
+          "is_matched_control": false,
+          "comparison_frame": {"matched_fields": ["same interaction class", "clock", "drift model", "depth task", "error threshold"], "changed_fields": ["prompt-origin record and common-event relation"], "unmatched_fields": [], "normalization": "Charge S1 acquisition and pairing evidence as explicit resources; then compare the normalized depth task."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "INEQUIVALENT", "description_change": "YES", "dynamics_change": "NO", "persistent_record": "YES", "access_change": "YES", "control_change": "YES", "irreversible": "NO", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "SUPERSET", "preceding_factorization": "FACTORED", "factorization_search_scope": "prompt-origin and pairing record", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["RECORD_FORMATION", "ACCESS_CHANGE", "CAPABILITY_ENLARGEMENT"]
+        },
+        {
+          "contrast_id": "X-XENON-IMMUTABLE",
+          "left": "immutable packet interpreted with admissible matching M1",
+          "right": "same immutable packet interpreted with admissible matching M2",
+          "is_matched_control": true,
+          "comparison_frame": {"matched_fields": ["physical packet", "observer access", "resources", "task", "risk threshold"], "changed_fields": ["software event partition only"], "unmatched_fields": [], "normalization": "Treat an unrecorded common-event relation as unknown; do not credit either partition with new physical provenance."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "INEQUIVALENT", "description_change": "YES", "dynamics_change": "NO", "persistent_record": "NO", "access_change": "NO", "control_change": "NO", "irreversible": "YES", "settlement": "NO", "raw_task_relation": "EQUAL", "normalized_task_relation": "EQUAL", "preceding_factorization": "FACTORED", "factorization_search_scope": "representation and event-builder choice", "ordering": "CO_OCCURRENT", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["NO_CAPABILITY_CHANGE"]
+        }
+      ],
+      "projection_audit": {"projection": "physical interaction history to unpartitioned S1/S2 packet", "visible_equivalence": "same digitized candidate signals and calibration context", "sufficiency_status": "VARIES_ON_FIBRES", "witness_pair": "two admissible common-event relations induce different correct depth assignments for one immutable packet", "capability_spread": "a fixed event builder cannot guarantee correct eventwise depth on both hidden-relation states", "native_comparison": "RISK_BOUND"},
+      "finality": {"local_scope": "digitization fixes samples but not their event membership", "public_scope": "a shared immutable packet can preserve ambiguity rather than settle it", "global_scope": "not claimed", "settlement": "NO", "preceding_factorization": "FACTORED", "factorization_search_scope": "signal formation, retention, pairing relation, calibration, and access", "reopenable_by_admissible_continuation": "YES", "reopener": "new side information, physical event tag, calibration, or altered admissible matching class", "verdict": "NONE"},
+      "temporal_issuance": {"classification": "DISCLOSURE", "source_side_primitive": false, "same_neighbor_data_discriminator": false, "ordinary_disclosure_absorber": "detector response, delayed access, and event-building completion", "warrant": "Pairing ambiguity concerns a missing relation record, not temporal issuance."},
+      "structures": [
+        {"structure_id": "G-XENON-MATCH", "kind": "MATCHING_COMPLEX", "origin": "SOURCE_THEORY", "warrant": "FAITHFUL_REPRESENTATION", "carrier": "S1 candidates, S2 candidates, and physically admissible compatibility edges", "maps_or_relations": "matchings encode candidate common-event partitions", "invariant": "number and structure of admissible matchings", "axioms_checked": ["bipartite vertex classes", "edge admissibility rule", "matching disjointness"], "evidence_ceiling": 2},
+        {"structure_id": "G-XENON-FIBRES", "kind": "FIBRE_FAMILY", "origin": "ATLAS_INTRODUCED", "warrant": "FAITHFUL_REPRESENTATION", "carrier": "physical event histories grouped by equal immutable packets", "maps_or_relations": "packet projection and hidden pairing relation", "invariant": "event-partition multiplicity within a packet fibre", "axioms_checked": ["projection declared", "equal-packet equivalence declared"], "evidence_ceiling": 1}
+      ],
+      "evidence": {"atlas_grade": 2, "ceiling_reason": "The source supplies exact pairing controls and detector audit; the atlas is only a typed representation.", "strongest_absorber": "xenon detector physics, triggerless DAQ, accidental-coincidence models, matching theory, and statistical event building", "cheapest_kill": "If the atlas treats an immutable packet as a physically final event partition, it fails the source theorem.", "falsifier": "A physical common-event tag or proven unique-matchability condition for every event in the declared class removes the pairing fibre.", "missing_work": ["No new detector or event-building study is authorized."], "nonclaims": ["No new detector theorem.", "No source certificate.", "No finality from digitization."]}
+    },
+    {
+      "phenomenon_id": "DU-PCA-005",
+      "display_name": "Weak-field gravitational redshift with a clock array",
+      "domain": "gravitation, metrology, and inverse problems",
+      "lifecycle": "REVIEWED",
+      "source_binding_refs": ["SRC-DU-REDSHIFT"],
+      "source_grounding_status": "PRIMARY_AUDIT_REQUIRED",
+      "physics": {
+        "empirical_signature": "Clock rate or accumulated phase changes with weak static gravitational potential relative to a calibrated reference.",
+        "accepted_frameworks": ["weak-field general relativity", "Poisson-limit source model", "calibrated clock comparison", "linear inverse problems"],
+        "governing_relations": ["Poisson equation for weak potential", "clock response proportional to potential difference", "finite sensitivity matrix and rank", "held-out linear transfer"],
+        "validity_regime": "Frozen two-source, weak static field and calibrated finite clock-array model; not unrestricted GR.",
+        "observables": ["clock frequency ratio", "accumulated phase", "calibrated record vector", "held-out clock response"],
+        "source_assertion_refs": ["SRC-DU-REDSHIFT"],
+        "completeness_status": "SCOPED_MODEL_WITH_AUDIT_GAP"
+      },
+      "process": {
+        "direction": "SOURCE_PHYSICS_TO_INDUCED_CAPABILITY",
+        "antecedents": ["weak static matter source", "clock locations and sensitivity functions", "reference comparison", "calibration and archive join"],
+        "transitions": ["source generates potential", "clock accumulates phase", "comparison forms a record", "records are joined", "source coordinates and held-out response are reconstructed"],
+        "interventions": ["place one or two clocks", "withhold one target clock", "join or isolate archives", "enlarge the source/nuisance class"],
+        "temporal_antecedents": ["calibration precedes accumulation", "accumulation precedes comparison", "archive join precedes joint inversion"],
+        "geometric_antecedents": ["weak-field spatial configuration", "clock locations", "source-support geometry", "declared asymptotic/reference boundary"]
+      },
+      "record_ladder": [
+        {"level": "EVENT", "status": "CONDITIONAL", "target": "clock phase accumulation in the frozen field", "carrier": "clock degree of freedom", "condition": "physical clock and comparison instrument supplied", "warrant": "the local source is a model/control, not an apparatus derivation"},
+        {"level": "TRACE", "status": "CONDITIONAL", "target": "relative redshift", "carrier": "clock phase or frequency comparison", "condition": "reference path and matter-law nuisance are calibrated", "warrant": "weak-field response law"},
+        {"level": "RETAINED_RECORD", "status": "CONDITIONAL", "target": "clock comparison", "carrier": "calibrated archive", "condition": "archive physically forms and retains the result", "warrant": "assumed interface in the finite control"},
+        {"level": "ACCESSIBLE_RECORD", "status": "CONDITIONAL", "target": "one- or two-clock record vector", "carrier": "local or joined archives", "condition": "observer has the corresponding query and join rights", "warrant": "resource-sensitive envelope"},
+        {"level": "CERTIFICATE", "status": "CONDITIONAL", "target": "source coordinates and held-out response within the frozen class", "carrier": "full-rank two-clock record", "condition": "model class, calibration, rank, and nuisance bounds hold", "warrant": "exact finite reconstruction control"},
+        {"level": "PUBLIC_FINAL_RECORD", "status": "UNKNOWN", "target": "shared gravitational-source attribution", "carrier": "joint calibrated archive", "condition": "new source modes and common-mode nuisances are excluded", "warrant": "not earned by finite rank alone"},
+        {"level": "ACTION_ENABLING_FACT", "status": "CONDITIONAL", "target": "predict held-out clock response", "carrier": "full-rank joined record", "condition": "frozen two-source class and error bound", "warrant": "exact held-out transfer in the control"}
+      ],
+      "observer_profiles": [
+        {"observer_id": "OBS-CLOCK-LOCAL", "observer_kind": "LABORATORY_AGENT", "physical_subsystem": "one calibrated clock and its local archive", "boundary": "one sensitivity row", "channels": ["local phase comparison", "local archive query"], "visible_records": ["one clock response"], "horizon": "frozen measurement interval", "operations": ["estimate one linear combination of sources"], "resources": ["one clock", "reference", "calibration"], "risk_or_error": "nontrivial source fibre remains", "provenance": "local clock and calibration identity"},
+        {"observer_id": "OBS-CLOCK-JOINT", "observer_kind": "DISTRIBUTED_OBSERVER", "physical_subsystem": "two physically realized clocks with a provenance-preserving archive join", "boundary": "two full-rank sensitivity rows and shared model", "channels": ["two clock comparisons", "authenticated archive join"], "visible_records": ["joint two-clock vector", "calibrations"], "horizon": "joined archive retention", "operations": ["invert source coordinates", "predict held-out clock"], "resources": ["two distinct clocks", "join channel", "calibration", "frozen model"], "risk_or_error": "conditioning and enlarged-model error", "provenance": "joint realizability and occurrence/calibration linkage"}
+      ],
+      "task_family": {"task_id": "TASK-CLOCK-HELDOUT", "task": "predict a held-out clock response in the frozen weak-field source class", "success_rule": "unique source reconstruction and exact model-level held-out transfer", "horizon": "frozen measurement and archive interval", "actions": ["query records", "join archives", "invert sensitivity matrix", "predict target"], "resources": ["clock array", "reference", "calibration", "join rights", "source model"], "risk_or_error": "matrix conditioning and model/nuisance mismatch", "provenance_requirement": "records must be jointly realizable and linked to the same source state"},
+      "contrasts": [
+        {
+          "contrast_id": "X-CLOCK-RANK",
+          "left": "one-clock record with a nontrivial source fibre",
+          "right": "two jointly realized full-rank clock records",
+          "is_matched_control": false,
+          "comparison_frame": {"matched_fields": ["source class", "held-out task", "calibration convention", "error tolerance"], "changed_fields": ["second independent sensitivity record"], "unmatched_fields": [], "normalization": "Charge the second clock and archive join as explicit resources; compare capability within the same frozen class."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "INEQUIVALENT", "description_change": "YES", "dynamics_change": "NO", "persistent_record": "YES", "access_change": "YES", "control_change": "YES", "irreversible": "NO", "settlement": "YES", "raw_task_relation": "SUPERSET", "normalized_task_relation": "SUPERSET", "preceding_factorization": "FACTORED", "factorization_search_scope": "record refinement, rank, and joint realizability", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["RECORD_FORMATION", "ACCESS_CHANGE", "CAPABILITY_ENLARGEMENT"]
+        },
+        {
+          "contrast_id": "X-CLOCK-JOIN",
+          "left": "two clocks held in isolated archives",
+          "right": "the same two records available through an authenticated join",
+          "is_matched_control": true,
+          "comparison_frame": {"matched_fields": ["physical clocks", "record values", "source class", "task", "horizon"], "changed_fields": ["join access and authorization"], "unmatched_fields": [], "normalization": "Give both observers the same physical join channel and rights before judging intrinsic record sufficiency."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "EQUIVALENT", "description_change": "NO", "dynamics_change": "NO", "persistent_record": "NO", "access_change": "YES", "control_change": "YES", "irreversible": "NO", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "EQUAL", "preceding_factorization": "FACTORED", "factorization_search_scope": "archive join and authorization", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "YES"},
+          "expected_diagnosis": ["ACCESS_CHANGE", "NO_CAPABILITY_CHANGE"]
+        }
+      ],
+      "projection_audit": {"projection": "two-source state to a selected clock-record vector", "visible_equivalence": "equal available clock records", "sufficiency_status": "VARIES_ON_FIBRES", "witness_pair": "one-clock equal-record source pairs predict different held-out clocks", "capability_spread": "held-out prediction fails on the one-clock fibre and succeeds after full-rank joint refinement", "native_comparison": "EQUIVALENCE"},
+      "finality": {"local_scope": "full rank settles the frozen finite inverse problem", "public_scope": "requires a physically joined, calibrated, provenance-preserving record", "global_scope": "not claimed; enlarged source or nuisance classes reopen the fibre", "settlement": "NO", "preceding_factorization": "FACTORED", "factorization_search_scope": "record rank, calibration, archive join, source and nuisance class", "reopenable_by_admissible_continuation": "YES", "reopener": "additional source modes, common-mode clock drift, calibration error, or changed action class", "verdict": "NONE"},
+      "temporal_issuance": {"classification": "DISCLOSURE", "source_side_primitive": false, "same_neighbor_data_discriminator": false, "ordinary_disclosure_absorber": "weak-field response plus added physical record and archive join", "warrant": "Full-rank reconstruction discloses a frozen source coordinate; it does not issue the gravitational state."},
+      "structures": [
+        {"structure_id": "G-CLOCK-AFFINE", "kind": "FIBRE_FAMILY", "origin": "SOURCE_THEORY", "warrant": "FAITHFUL_REPRESENTATION", "carrier": "finite weak-field source square and linear clock-record maps", "maps_or_relations": "sensitivity matrix maps sources to records", "invariant": "kernel dimension and held-out variation on fibres", "axioms_checked": ["linear map declared", "rank computed in frozen class", "held-out target kept separate"], "evidence_ceiling": 2},
+        {"structure_id": "G-CLOCK-JOIN", "kind": "HYPERGRAPH", "origin": "ATLAS_INTRODUCED", "warrant": "STRUCTURAL_ANALOGY", "carrier": "clock records and physically realizable joint archives", "maps_or_relations": "hyperedges encode jointly formable and queryable record sets", "invariant": "maximum physically realizable rank", "axioms_checked": ["record vertices declared", "join edges require physical provenance"], "evidence_ceiling": 1}
+      ],
+      "evidence": {"atlas_grade": 1, "ceiling_reason": "The finite model and exact control are pinned, but a dedicated primary experimental/metrology audit is still required for publication-grade accepted-physics sourcing.", "strongest_absorber": "weak-field GR, linear inverse problems, sensor placement, calibration, and resource-sensitive data fusion", "cheapest_kill": "If counterfactual clock records are concatenated without joint realizability, the advertised rank is not physical.", "falsifier": "A same-class one-clock factorization that predicts the held-out response for every source state would remove the rank boundary.", "missing_work": ["Primary-source audit of redshift experiments and clock metrology.", "Physical interface-selection audit for the clock array."], "nonclaims": ["No unrestricted GR reconstruction.", "No selected clock architecture.", "No record-origin account of geometry."]}
+    },
+    {
+      "phenomenon_id": "DU-PCA-006",
+      "display_name": "Schwarzschild-horizon classical causal access",
+      "domain": "classical general relativity and causal structure",
+      "lifecycle": "REVIEWED",
+      "source_binding_refs": ["SRC-TAF-HORIZON-TEST", "SRC-TAF-HORIZON-RESULT"],
+      "source_grounding_status": "PRIMARY_AUDIT_REQUIRED",
+      "physics": {
+        "empirical_signature": "In the frozen classical Schwarzschild model, outgoing radial null directions escape from outside the event horizon but not from the horizon or interior.",
+        "accepted_frameworks": ["classical Schwarzschild geometry", "ingoing Eddington-Finkelstein coordinates", "Lorentzian causal accessibility", "observer access-profile alignment"],
+        "governing_relations": ["outgoing radial null equation dr/dv = one half times (1 - r_s/r)", "causal past of an exterior observer", "exterior-record projection"],
+        "validity_regime": "Classical fixed Schwarzschild spacetime with radial null signals; no evaporation, QFT, holography, or black-hole-information model.",
+        "observables": ["radial null trace", "arrival at exterior cutoff", "exterior received-record log", "observer-profile-aligned task set"],
+        "source_assertion_refs": ["SRC-TAF-HORIZON-TEST", "SRC-TAF-HORIZON-RESULT"],
+        "completeness_status": "SCOPED_MODEL_WITH_AUDIT_GAP"
+      },
+      "process": {
+        "direction": "SOURCE_PHYSICS_TO_INDUCED_CAPABILITY",
+        "antecedents": ["fixed Schwarzschild mass and horizon radius", "emission event and radial null direction", "declared exterior cutoff and observer profile"],
+        "transitions": ["signal emission", "null propagation", "possible exterior arrival", "received-log formation", "observer task evaluation"],
+        "interventions": ["place emission inside, on, or outside horizon", "change observer from exterior to infalling", "compare equal exterior shadows"],
+        "temporal_antecedents": ["emission precedes possible reception", "reception precedes exterior-log query"],
+        "geometric_antecedents": ["Lorentzian Schwarzschild metric", "event horizon", "exterior region and cutoff", "observer causal past"]
+      },
+      "record_ladder": [
+        {"level": "EVENT", "status": "CONDITIONAL", "target": "classical signal emission", "carrier": "localized field or signal degree of freedom", "condition": "emitter and signal model supplied", "warrant": "assumed fixture event"},
+        {"level": "TRACE", "status": "ESTABLISHED", "target": "radial null propagation class", "carrier": "null trajectory", "condition": "frozen classical geometry", "warrant": "implemented horizon geometry audit"},
+        {"level": "RETAINED_RECORD", "status": "CONDITIONAL", "target": "received outside signal", "carrier": "exterior detector log", "condition": "trajectory reaches detector and archive is supplied", "warrant": "positive control"},
+        {"level": "ACCESSIBLE_RECORD", "status": "CONDITIONAL", "target": "exterior signal", "carrier": "exterior received-record algebra/log", "condition": "signal lies in observer causal past", "warrant": "causal-accessibility screen"},
+        {"level": "CERTIFICATE", "status": "FAILED", "target": "interior record content from the aligned exterior shadow", "carrier": "exterior log", "condition": "distinct interiors share the same exterior projection", "warrant": "access-profile audit"},
+        {"level": "PUBLIC_FINAL_RECORD", "status": "UNKNOWN", "target": "global interior fact", "carrier": "exterior public record", "condition": "not supplied by classical exterior access", "warrant": "outside modeled scope"},
+        {"level": "ACTION_ENABLING_FACT", "status": "CONDITIONAL", "target": "respond to an exterior-emitted signal", "carrier": "received exterior record", "condition": "arrival and task horizon hold", "warrant": "outside-signal positive control"}
+      ],
+      "observer_profiles": [
+        {"observer_id": "OBS-HORIZON-EXTERIOR", "observer_kind": "EXTERIOR_CAUSAL_OBSERVER", "physical_subsystem": "stationary exterior detector and log", "boundary": "causal past ending at the exterior cutoff", "channels": ["incoming classical signals", "exterior geometry and log query"], "visible_records": ["outside-signal arrivals", "exterior shadow"], "horizon": "finite advanced-time integration to exterior cutoff", "operations": ["distinguish received outside signals", "condition exterior response"], "resources": ["exterior detector", "classical geometry", "clock and log"], "risk_or_error": "numerical trace and detector threshold in the frozen fixture", "provenance": "emission/arrival identity when a signal reaches the detector"},
+        {"observer_id": "OBS-HORIZON-INFALL", "observer_kind": "INFALLING_OBSERVER", "physical_subsystem": "infalling or full-slice profile", "boundary": "different causal-access region crossing the horizon", "channels": ["local interior interaction", "full-slice state in the comparison fixture"], "visible_records": ["interior record in its causal neighborhood"], "horizon": "proper-time interval before singularity or fixture end", "operations": ["distinguish selected interior records locally"], "resources": ["changed trajectory", "changed access profile"], "risk_or_error": "not comparable to exterior capability without explicit profile transport", "provenance": "local occurrence identity only"}
+      ],
+      "task_family": {"task_id": "TASK-HORIZON-EXPORT", "task": "receive and condition an exterior action on a classical emitted record", "success_rule": "signal reaches the exterior cutoff and is distinguished by the aligned exterior observer", "horizon": "frozen integration and detector interval", "actions": ["propagate signal", "detect arrival", "query log", "respond"], "resources": ["classical signal", "exterior detector", "declared geometry"], "risk_or_error": "frozen numerical and detection tolerance", "provenance_requirement": "arrival log must link to an emitted outside signal"},
+      "contrasts": [
+        {
+          "contrast_id": "X-HORIZON-LOCATION",
+          "left": "classical record emitted inside the horizon",
+          "right": "matched record emitted outside the horizon",
+          "is_matched_control": false,
+          "comparison_frame": {"matched_fields": ["signal type", "exterior observer", "detector cutoff", "response task"], "changed_fields": ["emission region in the causal geometry"], "unmatched_fields": [], "normalization": "Use one aligned exterior access profile and charge any trajectory/profile change explicitly."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "INEQUIVALENT", "description_change": "YES", "dynamics_change": "NO", "persistent_record": "YES", "access_change": "YES", "control_change": "YES", "irreversible": "UNKNOWN", "settlement": "NO", "raw_task_relation": "SUPERSET", "normalized_task_relation": "SUPERSET", "preceding_factorization": "FACTORED", "factorization_search_scope": "ordinary Schwarzschild causal reachability", "ordering": "ORDER_COMPATIBLE", "reopenable_by_admissible_continuation": "UNKNOWN"},
+          "expected_diagnosis": ["RECORD_FORMATION", "ACCESS_CHANGE", "CAPABILITY_ENLARGEMENT"]
+        },
+        {
+          "contrast_id": "X-HORIZON-ALIGNMENT",
+          "left": "state A with exterior shadow E and interior record A",
+          "right": "state B with the same exterior shadow E and interior record B",
+          "is_matched_control": true,
+          "comparison_frame": {"matched_fields": ["Schwarzschild exterior", "exterior observer profile", "received-record algebra", "task boundary"], "changed_fields": ["causally inaccessible interior record"], "unmatched_fields": [], "normalization": "Compare exterior projection only to exterior-native capability; infalling capability is a declared different profile."},
+          "witness": {"possibility_family_relation": "SAME", "representation_relation": "EQUIVALENT", "description_change": "NO", "dynamics_change": "NO", "persistent_record": "NO", "access_change": "NO", "control_change": "NO", "irreversible": "UNKNOWN", "settlement": "NO", "raw_task_relation": "EQUAL", "normalized_task_relation": "EQUAL", "preceding_factorization": "FACTORED", "factorization_search_scope": "causal access and observer-profile alignment", "ordering": "INCOMPARABLE", "reopenable_by_admissible_continuation": "UNKNOWN"},
+          "expected_diagnosis": ["NO_CAPABILITY_CHANGE"]
+        }
+      ],
+      "projection_audit": {"projection": "full classical fixture state to exterior geometry and received-record log", "visible_equivalence": "same exterior shadow and aligned exterior record algebra", "sufficiency_status": "CONSTANT_ON_FIBRES", "witness_pair": "two fixtures with different interior records but equal aligned exterior task support", "capability_spread": "zero for the frozen exterior-native task; a split appears only after changing to an infalling/full-slice profile", "native_comparison": "EQUIVALENCE"},
+      "finality": {"local_scope": "interior-to-exterior non-export is causal inaccessibility in the fixed classical model", "public_scope": "the exterior log can settle only received exterior events", "global_scope": "not claimed; black-hole information, evaporation, and quantum completions are outside scope", "settlement": "NO", "preceding_factorization": "FACTORED", "factorization_search_scope": "classical causal structure and observer-profile alignment", "reopenable_by_admissible_continuation": "UNKNOWN", "reopener": "change of access profile or extension to a quantum/evaporating model", "verdict": "NONE"},
+      "temporal_issuance": {"classification": "NOT_APPLICABLE", "source_side_primitive": false, "same_neighbor_data_discriminator": false, "ordinary_disclosure_absorber": "classical causal access fully absorbs the implemented screen", "warrant": "No issuance claim is posed by the source guardrail."},
+      "structures": [
+        {"structure_id": "G-HORIZON-LORENTZ", "kind": "LORENTZIAN_GEOMETRY", "origin": "SOURCE_THEORY", "warrant": "PHYSICS_OWNED", "carrier": "fixed Schwarzschild spacetime", "maps_or_relations": "metric light cones and radial null propagation", "invariant": "causal separation and horizon boundary in the declared chart", "axioms_checked": ["Lorentzian signature in modeled region", "radial null equation", "inside/on/outside positive control"], "evidence_ceiling": 2},
+        {"structure_id": "G-HORIZON-PROJECTION", "kind": "QUOTIENT", "origin": "ATLAS_INTRODUCED", "warrant": "FAITHFUL_REPRESENTATION", "carrier": "fixture states modulo equality of exterior shadow and received log", "maps_or_relations": "exterior projection induces visible equivalence", "invariant": "aligned exterior task set", "axioms_checked": ["equivalence reflexive", "equivalence symmetric", "equivalence transitive"], "evidence_ceiling": 1}
+      ],
+      "evidence": {"atlas_grade": 1, "ceiling_reason": "The implemented classical guardrail is exact in its fixture, but the local packet lacks a dedicated primary GR reference audit for publication use.", "strongest_absorber": "classical Schwarzschild causal structure plus access-profile alignment", "cheapest_kill": "If an infalling capability is silently compared with an exterior projection, the card manufactures a false residue.", "falsifier": "Two states matching exterior geometry, access profile, received-record algebra, and task boundary but splitting an exterior-native capability not reducible to standard causal access.", "missing_work": ["Primary-source GR/horizon reference packet.", "Any quantum or evaporating extension would require a new card and denominator version."], "nonclaims": ["No black-hole information result.", "No QFT or holography claim.", "No finality beyond ordinary classical access."]}
+    }
+  ],
+  "cross_specimen_controls": [
+    {"control_id": "CTRL-01", "mutation": "Cast the GU Conditional Physics Ledger adapter or one of its requirement rows as a phenomenon source.", "must_reject_because": "Requirement targets and physical phenomena are different denominators and remain source-owned."},
+    {"control_id": "CTRL-02", "mutation": "Delete, duplicate, or reorder one of the seven record-ladder levels.", "must_reject_because": "Event, trace, record, access, certificate, public final record, and action fact are independent typed duties."},
+    {"control_id": "CTRL-03", "mutation": "Call an observer HUMAN without a physical subsystem, boundary, channels, resources, and operations.", "must_reject_because": "People are one physical observer class, not an unexplained access primitive."},
+    {"control_id": "CTRL-04", "mutation": "Diagnose CAPABILITY_ENLARGEMENT when normalized_task_relation is EQUAL.", "must_reject_because": "Raw task growth absorbed by frame normalization is access or resource change, not intrinsic capability enlargement."},
+    {"control_id": "CTRL-05", "mutation": "Diagnose FINALITY_CANDIDATE from irreversibility without settlement, finite nonfactorization scope, and no reopening.", "must_reject_because": "Irreversibility alone is not finality."},
+    {"control_id": "CTRL-06", "mutation": "Classify ISSUANCE from access, settlement, or finality while source-side primitive and same-neighbor-data discriminator are false.", "must_reject_because": "Temporal Issuance is independent of disclosure and finalization."},
+    {"control_id": "CTRL-07", "mutation": "Relabel atlas-introduced geometry as source theory or physics-owned without a source assertion.", "must_reject_because": "Structural provenance and warrant are load-bearing claim boundaries."},
+    {"control_id": "CTRL-08", "mutation": "Change a source file or pin while retaining its recorded digest and revision.", "must_reject_because": "Source bindings are immutable and content-addressed."},
+    {"control_id": "CTRL-09", "mutation": "Mark a projection CONSTANT_ON_FIBRES while its capability_spread declares a nonzero or differing task set.", "must_reject_because": "Projection sufficiency requires capability constancy on visible-equivalence fibres."},
+    {"control_id": "CTRL-10", "mutation": "Hide an unmatched resource, task, horizon, action menu, risk budget, or provenance requirement in a matched contrast.", "must_reject_because": "Capability comparison requires identical frames or an explicit normalization map."},
+    {"control_id": "CTRL-11", "mutation": "Raise an atlas card or introduced structure above the v0.1 evidence ceiling.", "must_reject_because": "This pilot earns at most source-grounded representation, never claim promotion."},
+    {"control_id": "CTRL-12", "mutation": "Infer exhaustive coverage from the six-card count or the 82-target GU denominator.", "must_reject_because": "The atlas denominator is a bounded stress set and the GU denominator counts construction requirements."}
+  ],
+  "nonclaims": [
+    "This bundle is not an exhaustive inventory of physical phenomena.",
+    "It does not move, reinterpret, or upgrade any source-repository claim.",
+    "It does not derive physical dynamics from capability, access, finality, or geometric language.",
+    "It establishes no universal observer class, capability measure, finality law, issuance law, or ontology.",
+    "It establishes no new physics, experiment, prediction, paper, hardware need, or publication priority.",
+    "Passing its validator establishes representation and provenance integrity only."
+  ]
+}

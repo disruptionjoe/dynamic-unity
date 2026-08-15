@@ -4,6 +4,27 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+`du_phenomenon_capability_atlas_probe.py` validates the completed, non-routing
+Phenomenon-to-Capability Atlas v0.1. It checks the strict schema marker; six-card
+bounded denominator; immutable, content-addressed source bindings; the guard
+against casting Geometric Unity requirement rows as phenomena; the seven-stage
+record ladder; physical observer profiles; matched P2C transition contrasts;
+normalized capability; TaF projection/finality gates; Temporal Issuance
+independence; structural provenance; evidence ceilings; and global nonclaims.
+It also rejects 16 planted mutations covering category collapse, hidden
+resources, false finality/issuance, geometry laundering, stale source custody,
+and exhaustive-coverage inflation. Run:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 tests/du_phenomenon_capability_atlas_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_phenomenon_capability_atlas_result.json`. Passing establishes
+source/provenance and representation integrity only. It does not validate the
+physics summaries, novelty, ontology, a capability or finality law, paper
+readiness, live routing, or permission to expand the catalog.
+
 `du_physical_descent_ten_swing_campaign_probe.py` is a method/governance
 check. It verifies that the physical-descent campaign contains ten ordered
 and complete swing cards; preserves the Science Council, triple-diamond,
