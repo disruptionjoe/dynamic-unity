@@ -22,10 +22,12 @@ Earlier detailed program chronologies remain recoverable in repository
 history. Their progress and “next” language is historical evidence, not
 routing.
 
-`phenomenon-to-capability-atlas.md` defines the completed, non-routing v0.1
-research instrument for mapping source-grounded physical dynamics through the
-typed record ladder, physical observer/access profiles, normalized capability,
-candidate finality, and warranted structural representations. Its six-card
-stress set is a bounded method pilot, not an exhaustive phenomena catalog or a
-second live research program; routing remains exclusively in
-`../CURRENT-RESEARCH.yaml`.
+`phenomenon-to-capability-atlas.md` defines the completed, non-routing atlas
+research instrument for mapping source-grounded physical dynamics through a
+typed record DAG and ladder, physical observer/access profiles, normalized
+capability, candidate finality, and warranted structural representations. The
+v0.1 six-card stress set remains immutable. The additive v0.2 first run hardens
+claim-level physics grounding, independently remaps the existing xenon S1/S2
+specimen, and records one exact superconducting-ring vertical non-composition.
+Neither release is an exhaustive phenomena catalog or a second live research
+program; routing remains exclusively in `../CURRENT-RESEARCH.yaml`.

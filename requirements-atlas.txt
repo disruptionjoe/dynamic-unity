@@ -1,0 +1,2 @@
+# The v0.2 atlas validator is deliberately standard-library only.
+# Run it with: python3 -S tests/du_phenomenon_capability_atlas_v02_probe.py

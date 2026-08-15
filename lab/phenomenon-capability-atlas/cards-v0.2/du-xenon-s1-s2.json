@@ -1,0 +1,545 @@
+{
+  "schema_version": "0.2",
+  "card_id": "DU-PCA-004",
+  "display_name": "Dual-phase xenon S1/S2 event formation and pairing",
+  "domain": "particle detection and event building",
+  "status": "COMPLETED_NONROUTING_METHOD_SPECIMEN",
+  "owner": "dynamic-unity",
+  "routing": {
+    "non_routing": true,
+    "banked": false,
+    "wip": false,
+    "live_authority": "CURRENT-RESEARCH.yaml",
+    "executable_continuation": null
+  },
+  "evidence_ceiling": 2,
+  "lineage": {
+    "predecessor_card_id": "DU-PCA-004",
+    "predecessor_artifact": "lab/phenomenon-capability-atlas/atlas-v0.1.json",
+    "predecessor_sha256": "20e44a45c66b1b9f7a06f05f4002a963c19ffc6d41685a91d5931eb1aea7115f",
+    "migration_kind": "ADDITIVE_TYPED_REPAIR"
+  },
+  "source_bindings": [
+    {
+      "binding_id": "SRC-DU-XENON",
+      "source_owner": "dynamic-unity",
+      "immutable_revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+      "artifact_locator": "explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md",
+      "assertion_selector": "sections 2-8",
+      "content_sha256": "b2de002412780eb6a5ff08cf68e7648e949acd753de1d5dcf3d7186a11cb5d7d",
+      "claim_role": "PHYSICS_GROUNDING",
+      "physics_grounding": {
+        "status": "INDEPENDENT_ACCEPTED",
+        "independent_of_atlas_mapping": true,
+        "basis": "HC-DU-183 predates the atlas and reconstructs accepted dual-phase-xenon detector, triggerless-DAQ, event-building, and accidental-coincidence physics from collaboration sources, while separately proving the finite matching boundary."
+      },
+      "native_claim_status": "SOURCE-PINNED DETECTOR PACKET AND EXACT PAIRING BOUNDARY",
+      "native_evidence_grade": "GRADE 4 EXACT PAIRING BOUNDARY; CONDITIONAL GRADE 3 RECONSTRUCTION; GRADE 2 SOURCE AUDIT",
+      "receiver_paraphrase": "S1 and S2 may each be formed and retained records while their common-occurrence relation remains a separate physical or inferential record duty.",
+      "source_nonclaims": [
+        "No novel detector theorem, new physics, zero-error source certificate, response-order discriminator, paper seed, or successor selection is established."
+      ],
+      "missing_import_requirements": [
+        "No one numerically frozen apparatus regime is supplied across the XENON1T, XENONnT, and PandaX-II source packet."
+      ]
+    }
+  ],
+  "review_status": {
+    "mapping": "INDEPENDENTLY_REMAPPED",
+    "source": "SELECTOR_REVIEWED",
+    "domain": "LOCAL_PACKET_REVIEWED",
+    "review_artifact": "lab/phenomenon-capability-atlas/reviews/xenon-s1-s2-independent-remap-v0.2.json"
+  },
+  "physics": {
+    "description_status": "SCOPED_ACCEPTED_DESCRIPTION",
+    "empirical_signature": "An interaction in dual-phase liquid xenon can produce prompt scintillation S1 and delayed ionization-electroluminescence S2; a correctly associated pair conditionally reconstructs drift depth, while unrelated signals inside the drift window can form accidental coincidences.",
+    "accepted_frameworks": [
+      "dual-phase xenon detector physics",
+      "electron drift, extraction, and proportional scintillation",
+      "triggerless data acquisition",
+      "calibrated statistical event building",
+      "accidental-coincidence estimation"
+    ],
+    "governing_relations": [
+      "prompt excitation and scintillation form S1",
+      "ionization electrons drift, extract, and form delayed S2",
+      "z equals calibrated drift velocity times the correctly paired S2-minus-S1 delay",
+      "physically admissible S1/S2 relations form a bipartite compatibility graph",
+      "an exact pairing-dependent target factors the raw packet if and only if it is constant over every admissible-matching fibre"
+    ],
+    "validity_regime": "Family-level dual-phase-xenon architecture under an above-threshold triggerless-acquisition contract, calibrated clock and drift response, target-blind pairing constraints, and a declared accidental-coincidence model. The source packet composes XENON1T detector physics, XENONnT acquisition/reconstruction, and PandaX-II accidental-coincidence evidence rather than freezing one numerical apparatus.",
+    "observables": [
+      "S1 and S2 times",
+      "waveforms and areas",
+      "photomultiplier hit patterns",
+      "S2/S1 response",
+      "scatter multiplicity",
+      "admissible S1/S2 compatibility edges"
+    ],
+    "physics_grounding_refs": [
+      "SRC-DU-XENON"
+    ],
+    "grounding_gaps": [
+      "Detector dimensions, field strengths, temperature and pressure, electron lifetime, diffusion, digitization thresholds, event rates, calibration epoch, and event-class cuts are not numerically frozen into one apparatus packet.",
+      "The exact finite matching fixture establishes factorization logic, not the frequency of ambiguity in any collaboration data set."
+    ]
+  },
+  "process": {
+    "direction": "SOURCE_PHYSICS_TO_INDUCED_CAPABILITY",
+    "initial_conditions": [
+      {
+        "condition_id": "IC-XENON-DUAL-PHASE",
+        "kind": "PHYSICAL",
+        "status": "PARAMETERIZED",
+        "statement": "The xenon target is maintained in a dual-phase liquid-gas configuration with fields sufficient for electron drift, extraction, and gas electroluminescence.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      },
+      {
+        "condition_id": "IC-XENON-INTERACTION",
+        "kind": "PHYSICAL",
+        "status": "PARAMETERIZED",
+        "statement": "An admitted energy-deposition interaction occurs in the active liquid and can produce both excitation and ionization channels.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      },
+      {
+        "condition_id": "IC-XENON-CALIBRATION",
+        "kind": "CALIBRATION",
+        "status": "PARAMETERIZED",
+        "statement": "Clock, drift velocity, sensor response, and geometry calibrations are available for the declared run class.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      },
+      {
+        "condition_id": "IC-XENON-MULTIPEAK",
+        "kind": "PHYSICAL",
+        "status": "PARAMETERIZED",
+        "statement": "The event-building interval may contain more than one acquired S1 candidate and more than one acquired S2 candidate.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      }
+    ],
+    "boundary_conditions": [
+      {
+        "condition_id": "BC-XENON-THRESHOLD",
+        "kind": "INTERFACE",
+        "status": "PARAMETERIZED",
+        "statement": "Only signals above the declared digitization and reconstruction thresholds enter the retained packet.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      },
+      {
+        "condition_id": "BC-XENON-DRIFT-WINDOW",
+        "kind": "TEMPORAL",
+        "status": "PARAMETERIZED",
+        "statement": "Candidate S1/S2 edges satisfy declared drift-time and quality constraints that are target-blind with respect to the chosen matching.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      },
+      {
+        "condition_id": "BC-XENON-ACTIVE-VOLUME",
+        "kind": "GEOMETRIC",
+        "status": "PARAMETERIZED",
+        "statement": "The interaction, drift path, liquid-gas interface, and sensor response lie inside the calibrated active-volume geometry.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      },
+      {
+        "condition_id": "BC-XENON-APPARATUS-NUMERICS",
+        "kind": "PHYSICAL",
+        "status": "UNSPECIFIED",
+        "statement": "No single collaboration-specific numerical detector configuration is selected by this family-level card.",
+        "source_binding_refs": ["SRC-DU-XENON"]
+      }
+    ],
+    "antecedents": [
+      "dual-phase xenon target and active-volume fields",
+      "energy deposition in the active liquid",
+      "calibrated photosensors, clock, drift response, and triggerless acquisition",
+      "declared target-blind compatibility and event-class constraints"
+    ],
+    "transitions": [
+      "interaction and prompt S1 formation",
+      "ionization-electron drift and extraction",
+      "delayed S2 formation",
+      "optical and electronic transduction",
+      "digitization into separate S1 and S2 candidate records",
+      "software construction of compatibility edges and pairing estimates",
+      "conditional position and response-class reconstruction"
+    ],
+    "interventions": [
+      "query either endpoint stream or the joint unpartitioned archive",
+      "vary target-blind drift-time, topology, veto, and quality constraints",
+      "add a retained physical common-occurrence tag",
+      "narrow to a source-justified uniquely matchable event class",
+      "apply a calibrated stochastic event builder while retaining its error model"
+    ],
+    "temporal_antecedents": [
+      "for a common occurrence S1 precedes S2",
+      "electron drift separates the prompt and delayed carriers",
+      "digitization precedes event partition",
+      "pair certification precedes exact eventwise depth reconstruction"
+    ],
+    "geometric_antecedents": [
+      "TPC active volume and field geometry",
+      "liquid-gas interface and drift direction",
+      "sensor-plane response geometry",
+      "bipartite S1/S2 compatibility graph"
+    ]
+  },
+  "record_graph": {
+    "nodes": [
+      {
+        "record_id": "REC-XENON-INTERACTION",
+        "node_kind": "EVENT",
+        "level": "EVENT",
+        "status": "CONDITIONAL",
+        "target": "admitted energy-deposition interaction in active xenon",
+        "carrier": "localized xenon excitation and ionization degrees of freedom",
+        "condition": "the admitted interaction class and detector operating conditions hold",
+        "warrant": "accepted detector process reconstructed by HC-DU-183",
+        "provenance": "run, active-volume, and interaction-class context",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": []
+      },
+      {
+        "record_id": "REC-XENON-S1-TRACE",
+        "node_kind": "TRACE",
+        "level": "TRACE",
+        "status": "PRESENT",
+        "target": "prompt scintillation response",
+        "carrier": "S1 photons and sensor waveform",
+        "condition": "prompt scintillation couples above threshold to the photosensors",
+        "warrant": "dual-phase xenon detector chain",
+        "provenance": "channel, sensor, clock, and run identity",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-INTERACTION"]
+      },
+      {
+        "record_id": "REC-XENON-S2-TRACE",
+        "node_kind": "TRACE",
+        "level": "TRACE",
+        "status": "PRESENT",
+        "target": "delayed ionization-electroluminescence response",
+        "carrier": "drifted electrons, S2 photons, and sensor waveform",
+        "condition": "ionization electrons survive drift and produce above-threshold S2",
+        "warrant": "dual-phase xenon drift and extraction chain",
+        "provenance": "channel, sensor, clock, and run identity",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-INTERACTION"]
+      },
+      {
+        "record_id": "REC-XENON-S1-DIGITIZED",
+        "node_kind": "MATERIAL_RECORD",
+        "level": "RETAINED_RECORD",
+        "status": "PRESENT",
+        "target": "above-threshold S1 candidate",
+        "carrier": "digitized triggerless S1 waveform and reconstructed peak attributes",
+        "condition": "DAQ and reconstruction thresholds admit the signal",
+        "warrant": "triggerless acquisition packet",
+        "provenance": "channel, timebase, sensor, run, and calibration identifiers",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-S1-TRACE"]
+      },
+      {
+        "record_id": "REC-XENON-S2-DIGITIZED",
+        "node_kind": "MATERIAL_RECORD",
+        "level": "RETAINED_RECORD",
+        "status": "PRESENT",
+        "target": "above-threshold S2 candidate",
+        "carrier": "digitized triggerless S2 waveform and reconstructed peak attributes",
+        "condition": "DAQ and reconstruction thresholds admit the signal",
+        "warrant": "triggerless acquisition packet",
+        "provenance": "channel, timebase, sensor, run, and calibration identifiers",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-S2-TRACE"]
+      },
+      {
+        "record_id": "REC-XENON-UNPARTITIONED-ARCHIVE",
+        "node_kind": "MATERIAL_RECORD",
+        "level": "ACCESSIBLE_RECORD",
+        "status": "PRESENT",
+        "target": "joint candidate stream without a predetermined event partition",
+        "carrier": "queryable triggerless waveform archive and calibration context",
+        "condition": "the declared observer has archive and calibration access",
+        "warrant": "XENONnT acquisition/reconstruction separation in HC-DU-183",
+        "provenance": "authenticated run, channel, timebase, and calibration custody",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-S1-DIGITIZED", "REC-XENON-S2-DIGITIZED"]
+      },
+      {
+        "record_id": "REC-XENON-COMMON-OCCURRENCE",
+        "node_kind": "RELATION_RECORD",
+        "level": "RETAINED_RECORD",
+        "status": "ABSENT",
+        "target": "the physical relation that one S1 candidate and one S2 candidate came from the same occurrence",
+        "carrier": "no carrier in the raw untagged packet; a retained shared event tag would supply one",
+        "condition": "absent when multiple physically admissible matchings remain and no common tag is retained",
+        "warrant": "HC-DU-183 exact matching boundary and accidental-coincidence witness",
+        "provenance": "would require a target-blind physical association across both endpoint channels",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-S1-DIGITIZED", "REC-XENON-S2-DIGITIZED"]
+      },
+      {
+        "record_id": "REC-XENON-PAIRING-ESTIMATE",
+        "node_kind": "RELATION_RECORD",
+        "level": "ACCESSIBLE_RECORD",
+        "status": "CONDITIONAL",
+        "target": "a calibrated inferred common-occurrence relation",
+        "carrier": "event-builder output with compatibility score or posterior",
+        "condition": "a declared stochastic event builder and error model are supplied",
+        "warrant": "inference repair in HC-DU-183, not physical provenance by algorithm alone",
+        "provenance": "algorithm version, calibration, input packet, and model context",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-S1-DIGITIZED", "REC-XENON-S2-DIGITIZED"]
+      },
+      {
+        "record_id": "REC-XENON-PAIRING-CERTIFICATE",
+        "node_kind": "CERTIFICATE",
+        "level": "CERTIFICATE",
+        "status": "CONDITIONAL",
+        "target": "exact common-occurrence pairing and pairing-dependent depth within the frozen class",
+        "carrier": "retained physical common tag or uniquely matchable calibrated packet",
+        "condition": "every physically admissible matching induces the same target; unique admissible matching is sufficient",
+        "warrant": "HC-DU-183 equation (1) and exact finite controls",
+        "provenance": "source-justified admissibility class, calibration, packet, and tag or uniqueness proof",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-COMMON-OCCURRENCE"]
+      },
+      {
+        "record_id": "REC-XENON-PUBLIC-PARTITION",
+        "node_kind": "PUBLIC_RECORD",
+        "level": "PUBLIC_FINAL_RECORD",
+        "status": "UNKNOWN",
+        "target": "shared provenance-preserving event partition",
+        "carrier": "authenticated packet plus relation certificate and reviewable calibration",
+        "condition": "public observer class, custody, admissible reopeners, and risk budget are fixed",
+        "warrant": "not established by HC-DU-183 or by immutable digitization alone",
+        "provenance": "public custody and common calibration would be required",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-PAIRING-CERTIFICATE"]
+      },
+      {
+        "record_id": "REC-XENON-PAIRING-ACTION",
+        "node_kind": "ACTION_FACT",
+        "level": "ACTION_ENABLING_FACT",
+        "status": "CONDITIONAL",
+        "target": "eventwise depth reconstruction or classification conditioned on a warranted pair",
+        "carrier": "pairing certificate or calibrated pairing estimate with declared risk",
+        "condition": "the task's pairing, calibration, and error thresholds hold",
+        "warrant": "conditional depth reconstruction and statistical response classification in HC-DU-183",
+        "provenance": "action references the exact packet, pairing basis, calibration, and decision rule",
+        "source_binding_refs": ["SRC-DU-XENON"],
+        "relates": ["REC-XENON-PAIRING-CERTIFICATE", "REC-XENON-PAIRING-ESTIMATE"]
+      }
+    ],
+    "edges": [
+      {"edge_id": "EDGE-XENON-INTERACTION-S1", "from": "REC-XENON-INTERACTION", "to": "REC-XENON-S1-TRACE", "relation": "FORMS", "warrant": "Prompt excitation forms S1."},
+      {"edge_id": "EDGE-XENON-INTERACTION-S2", "from": "REC-XENON-INTERACTION", "to": "REC-XENON-S2-TRACE", "relation": "FORMS", "warrant": "Ionization, drift, extraction, and electroluminescence form S2."},
+      {"edge_id": "EDGE-XENON-S1-RETAIN", "from": "REC-XENON-S1-TRACE", "to": "REC-XENON-S1-DIGITIZED", "relation": "RETAINS", "warrant": "DAQ digitizes the above-threshold S1 waveform."},
+      {"edge_id": "EDGE-XENON-S2-RETAIN", "from": "REC-XENON-S2-TRACE", "to": "REC-XENON-S2-DIGITIZED", "relation": "RETAINS", "warrant": "DAQ digitizes the above-threshold S2 waveform."},
+      {"edge_id": "EDGE-XENON-S1-ARCHIVE", "from": "REC-XENON-S1-DIGITIZED", "to": "REC-XENON-UNPARTITIONED-ARCHIVE", "relation": "MAKES_ACCESSIBLE", "warrant": "The archive exposes the S1 candidates without fixing event membership."},
+      {"edge_id": "EDGE-XENON-S2-ARCHIVE", "from": "REC-XENON-S2-DIGITIZED", "to": "REC-XENON-UNPARTITIONED-ARCHIVE", "relation": "MAKES_ACCESSIBLE", "warrant": "The archive exposes the S2 candidates without fixing event membership."},
+      {"edge_id": "EDGE-XENON-ARCHIVE-ESTIMATE", "from": "REC-XENON-UNPARTITIONED-ARCHIVE", "to": "REC-XENON-PAIRING-ESTIMATE", "relation": "DERIVES", "warrant": "A calibrated event builder can infer a matching with explicit error."},
+      {"edge_id": "EDGE-XENON-RELATION-CERTIFICATE", "from": "REC-XENON-COMMON-OCCURRENCE", "to": "REC-XENON-PAIRING-CERTIFICATE", "relation": "CERTIFIES", "warrant": "A retained common tag or equivalent unique-matchability proof supplies exact pairing."},
+      {"edge_id": "EDGE-XENON-CERTIFICATE-PUBLIC", "from": "REC-XENON-PAIRING-CERTIFICATE", "to": "REC-XENON-PUBLIC-PARTITION", "relation": "DERIVES", "warrant": "A public record additionally requires custody, shared calibration, and reopener controls."},
+      {"edge_id": "EDGE-XENON-CERTIFICATE-ACTION", "from": "REC-XENON-PAIRING-CERTIFICATE", "to": "REC-XENON-PAIRING-ACTION", "relation": "ENABLES_ACTION", "warrant": "A correct pair conditionally enables exact model-level drift depth."},
+      {"edge_id": "EDGE-XENON-ESTIMATE-ACTION", "from": "REC-XENON-PAIRING-ESTIMATE", "to": "REC-XENON-PAIRING-ACTION", "relation": "ENABLES_ACTION", "warrant": "A calibrated estimate can support risk-bounded statistical action without becoming exact provenance."}
+    ],
+    "acyclicity_warrant": "Edges follow occurrence, endpoint formation, retention, access, relation inference or certification, public derivation, and action; no downstream node forms or rewrites an upstream physical occurrence."
+  },
+  "observer_profiles": [
+    {
+      "observer_id": "OBS-XENON-DAQ",
+      "observer_kind": "DAQ_ARCHIVE",
+      "physical_subsystem": "triggerless acquisition electronics, storage, and authenticated run archive",
+      "boundary": "both above-threshold endpoint streams and calibration context, without a predetermined event partition",
+      "channels": ["S1 waveform stream", "S2 waveform stream", "clock", "run and calibration metadata"],
+      "visible_record_refs": ["REC-XENON-S1-DIGITIZED", "REC-XENON-S2-DIGITIZED", "REC-XENON-UNPARTITIONED-ARCHIVE"],
+      "horizon": "archive retention interval",
+      "operations": ["retain endpoint records", "query candidate streams", "preserve packet and calibration custody"],
+      "resources": ["DAQ thresholds", "storage", "timebase", "authenticated run metadata"],
+      "risk_or_error": "threshold loss and pulse reconstruction error; no exact event partition follows from storage alone",
+      "provenance": "run, channel, sensor, clock, threshold, and calibration identifiers",
+      "selection_status": "ANALYST_SELECTED"
+    },
+    {
+      "observer_id": "OBS-XENON-EVENT-BUILDER",
+      "observer_kind": "CALIBRATED_EVENT_BUILDER",
+      "physical_subsystem": "software and analyst/controller operating on the joint archive with detector geometry and calibration",
+      "boundary": "unpartitioned endpoint records, target-blind compatibility constraints, calibration, and optional tag or side information",
+      "channels": ["joint archive query", "compatibility graph", "drift and geometry calibration", "veto and topology context", "event-tag side channel if physically present"],
+      "visible_record_refs": ["REC-XENON-UNPARTITIONED-ARCHIVE", "REC-XENON-PAIRING-ESTIMATE", "REC-XENON-PAIRING-CERTIFICATE"],
+      "horizon": "event-building and archive-analysis interval",
+      "operations": ["construct admissible edges", "enumerate or rank matchings", "test unique matchability", "reconstruct conditional depth", "apply risk-bounded classification"],
+      "resources": ["both endpoint streams", "calibration", "detector geometry", "admissibility contract", "stochastic error model", "physical tag when available"],
+      "risk_or_error": "accidental coincidence, multiple admissible matchings, calibration drift, and overlapping response laws",
+      "provenance": "algorithm, packet, run, calibration, admissibility class, and any physical common-occurrence tag",
+      "selection_status": "ANALYST_SELECTED"
+    }
+  ],
+  "task_family": {
+    "task_id": "TASK-XENON-PAIRING-FACTORIZATION",
+    "task": "Determine whether the raw S1/S2 packet exactly fixes the common-occurrence relation and every declared pairing-dependent target.",
+    "success_rule": "Every physically admissible matching of the retained packet yields the same declared target; unique admissible matching is a sufficient special case.",
+    "horizon": "the declared event-building and archive-retention interval",
+    "actions": ["construct the compatibility graph", "enumerate admissible matchings", "test target constancy on the matching fibre", "issue a conditional certificate or retain explicit ambiguity", "conditionally reconstruct depth after pairing"],
+    "resources": ["S1 and S2 endpoint records", "clock", "drift and geometry calibration", "target-blind admissibility constraints", "optional physical common tag", "error model for inferential pairing"],
+    "risk_or_error": "incorrect event membership, accidental coincidence, calibration mismatch, and downstream depth or class error",
+    "provenance_requirement": "endpoint records, admissibility class, calibration, and any tag or uniqueness proof must refer to the same run and declared event-building interval",
+    "selection_status": "SOURCE_SELECTED"
+  },
+  "contrasts": [
+    {
+      "contrast_id": "X-XENON-RELATION-REPAIR",
+      "left": "untagged multi-peak packet with multiple admissible matchings",
+      "right": "the same endpoint packet refined by a retained physical common-occurrence tag or a source-justified uniquely matchable class",
+      "is_matched_control": false,
+      "comparison_frame": {
+        "matched_fields": ["endpoint waveforms", "clock", "detector response", "pairing target", "error threshold"],
+        "changed_fields": ["relation-record carrier or justified completion class"],
+        "unmatched_fields": [],
+        "normalization": "Charge the physical tag or class-narrowing evidence explicitly; do not credit software choice alone with physical provenance."
+      },
+      "witness": {
+        "possibility_family_relation": "SAME",
+        "dynamics_change": "NO",
+        "persistent_record": "YES",
+        "access_change": "YES",
+        "control_change": "YES",
+        "settlement": "YES",
+        "raw_task_relation": "SUPERSET",
+        "normalized_task_relation": "SUPERSET",
+        "preceding_factorization": "FACTORED",
+        "factorization_search_scope": "common-occurrence relation record, admissibility class, and pairing certificate",
+        "ordering": "ORDER_COMPATIBLE",
+        "reopenable_by_admissible_continuation": "YES"
+      },
+      "expected_diagnosis": ["RECORD_FORMATION", "ACCESS_CHANGE", "CAPABILITY_ENLARGEMENT"]
+    },
+    {
+      "contrast_id": "X-XENON-IMMUTABLE",
+      "left": "immutable untagged packet interpreted with admissible matching M1",
+      "right": "the same immutable untagged packet interpreted with admissible matching M2",
+      "is_matched_control": true,
+      "comparison_frame": {
+        "matched_fields": ["physical endpoint packet", "observer access", "resources", "pairing target", "risk threshold"],
+        "changed_fields": ["software event partition only"],
+        "unmatched_fields": [],
+        "normalization": "Treat the unrecorded common-occurrence relation as unknown and credit neither software partition with new physical provenance."
+      },
+      "witness": {
+        "possibility_family_relation": "SAME",
+        "dynamics_change": "NO",
+        "persistent_record": "NO",
+        "access_change": "NO",
+        "control_change": "NO",
+        "settlement": "NO",
+        "raw_task_relation": "EQUAL",
+        "normalized_task_relation": "EQUAL",
+        "preceding_factorization": "FACTORED",
+        "factorization_search_scope": "representation and event-builder choice",
+        "ordering": "CO_OCCURRENT",
+        "reopenable_by_admissible_continuation": "YES"
+      },
+      "expected_diagnosis": ["NO_CAPABILITY_CHANGE"]
+    }
+  ],
+  "projection_audit": {
+    "projection": "physical interaction histories and common-occurrence relations to the unpartitioned digitized S1/S2 packet",
+    "visible_equivalence": "equal endpoint waveforms, peak attributes, clock, and calibration context",
+    "sufficiency_status": "VARIES_ON_FIBRES",
+    "witness_status": "SUPPLIED",
+    "witness_pair": "the HC-DU-183 two-by-two fixture has equal raw peaks and two admissible matchings that induce different pairings and depths",
+    "visible_state_relation": "EQUAL",
+    "capability_relation": "DIFFERENT",
+    "spread_status": "NONZERO",
+    "spread_basis": "one fixed decoder cannot guarantee the correct event membership or paired depth on both hidden-relation histories",
+    "native_comparison": "RISK_BOUND"
+  },
+  "finality": {
+    "local_scope": "the raw digitized packet fixes endpoint samples but does not settle their common-occurrence relation when multiple admissible matchings remain",
+    "public_scope": "not source-assessed; a shared immutable packet can preserve rather than remove pairing ambiguity",
+    "global_scope": "not assessed or claimed",
+    "settlement": "NO",
+    "preceding_factorization": "FACTORED",
+    "factorization_search_scope": "endpoint formation, retention, relation recording, admissibility, calibration, access, and pairing certification",
+    "reopenable_by_admissible_continuation": "YES",
+    "reopener": "a retained physical common tag, source-justified unique matchability, new side information, changed event class, or calibration revision",
+    "verdict": "NONE"
+  },
+  "temporal_issuance": {
+    "classification": "UNDECIDED",
+    "source_side_primitive": false,
+    "same_neighbor_data_discriminator": false,
+    "ordinary_disclosure_absorber": "ordinary detector response, acquisition, delayed reconstruction, relation refinement, and event-building inference",
+    "warrant": "HC-DU-183 does not run an issuance discriminator; no issuance conclusion is promoted from record formation or pairing ambiguity."
+  },
+  "structures": [
+    {
+      "structure_id": "G-XENON-COMPATIBILITY",
+      "kind": "BIPARTITE_GRAPH",
+      "origin": "SOURCE_THEORY",
+      "warrant": "FAITHFUL_REPRESENTATION",
+      "carrier": "acquired S1 candidates, acquired S2 candidates, and target-blind physically admissible compatibility edges",
+      "maps_or_relations": "edges satisfy drift-time, region, quality, topology, veto, and other declared admissibility conditions; matchings encode candidate common-occurrence partitions",
+      "invariant": "set of admissible matchings and constancy or variation of the declared target across them",
+      "axioms_checked": ["two declared vertex classes", "edges cross only between S1 and S2 candidates", "matching edges are endpoint-disjoint", "admissibility is fixed before choosing a matching"],
+      "evidence_ceiling": 2
+    },
+    {
+      "structure_id": "G-XENON-PACKET-FIBRE",
+      "kind": "FIBRE_FAMILY",
+      "origin": "SOURCE_THEORY",
+      "warrant": "FAITHFUL_REPRESENTATION",
+      "carrier": "physical histories and common-occurrence relations grouped by equal raw endpoint packets",
+      "maps_or_relations": "the record projection maps each history to its unpartitioned packet; equal-packet histories form one fibre",
+      "invariant": "pairing and pairing-dependent target multiplicity within each record fibre",
+      "axioms_checked": ["record projection declared", "equal-packet relation is reflexive", "equal-packet relation is symmetric", "equal-packet relation is transitive", "target constancy is evaluated on each fibre"],
+      "evidence_ceiling": 2
+    }
+  ],
+  "evidence": {
+    "atlas_grade": 2,
+    "ceiling_reason": "HC-DU-183 supplies independent accepted detector grounding, primary-source reconstruction, accidental-coincidence evidence, and an exact finite factorization control; the v0.2 card is a non-routing typed mapping and imports no source Grade 4 promotion.",
+    "challenges": {
+      "strongest_absorber": {
+        "condition": "Standard dual-phase-xenon detector physics, triggerless DAQ, calibrated stochastic event building, accidental-coincidence estimation, bipartite matching, and sufficient-statistic theory explain the entire packet.",
+        "consequence": "The card earns no new detector physics or Dynamic Unity mechanism."
+      },
+      "representation_kill": {
+        "condition": "The mapping collapses the underlying interaction, endpoint records, common-occurrence relation, pairing estimate, and certificate into one linear record or treats an immutable packet as a final event partition.",
+        "consequence": "The representation contradicts the exact HC-DU-183 factorization boundary."
+      },
+      "claim_falsifier": {
+        "condition": "A source-pinned theorem or exhaustive physical constraint shows that every physically realizable raw-packet fibre in the declared family is target-constant for event membership and paired depth.",
+        "consequence": "The claimed nonfactorization and physical pairing remainder fail for that declared family."
+      },
+      "regime_reopener": {
+        "condition": "A retained common-occurrence tag is added, a source-justified low-rate or topology class becomes uniquely matchable, or the detector, thresholds, calibration, event-rate model, or target changes.",
+        "consequence": "Recompute the compatibility graph and target constancy; this repairs or changes the regime rather than falsifying the conditional theorem."
+      },
+      "held_out_discriminator": {
+        "status": "PROPOSED",
+        "description": "Before revealing event labels in a source-owned held-out packet class, freeze the compatibility graph and predict whether raw records uniquely factor pairing and paired depth.",
+        "opposed_outcomes": [
+          "Every packet is target-constant under the frozen graph, so the pairing remainder is absent in that class.",
+          "At least one equal-record fibre contains target-varying admissible histories, so the pairing remainder survives."
+        ]
+      }
+    },
+    "missing_work": [
+      "A blinded domain-expert remap with no prior atlas exposure.",
+      "One numerically frozen detector/event-class packet if apparatus-specific claims are desired.",
+      "A source-owned held-out packet test of target constancy under preregistered compatibility rules."
+    ],
+    "nonclaims": [
+      "No new detector theorem or detector response simulation.",
+      "No zero-error particle or upstream-source certificate.",
+      "No source-selected observer beyond the frozen task; both observer profiles are analyst-selected.",
+      "No finality or temporal-issuance claim.",
+      "No physics grade movement, banking, routing, successor, paper, experiment, or hardware authorization."
+    ]
+  },
+  "nonclaims": [
+    "This sealed v0.2 specimen does not modify or supersede the v0.1 atlas bundle.",
+    "It does not promote HC-DU-183 or any primary-source detector claim.",
+    "It does not select a canonical observer or universal capability task.",
+    "It does not establish finality, issuance, new physics, or publication priority.",
+    "It changes no live Dynamic Unity routing."
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dynamic-unity.local/specs/phenomenon-capability-atlas-release-v0.2.schema.json",
+  "title": "Dynamic Unity Phenomenon-to-Capability Atlas first-run release manifest v0.2",
+  "description": "Frozen release manifest. Exact cardinalities, identities, paths, predecessor digests, and validator mutation inventory live here rather than in the reusable card schema.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "release_id", "artifact_type", "status", "owner", "created_at",
+    "routing", "legacy_v01", "v02_specimens", "schemas", "validator",
+    "migration_contract", "nonclaims"
+  ],
+  "properties": {
+    "schema_version": { "const": "0.2" },
+    "release_id": { "const": "DU-PCA-FIRST-RUN-V0.2" },
+    "artifact_type": { "const": "PHENOMENON_CAPABILITY_ATLAS_FROZEN_RELEASE_MANIFEST" },
+    "status": { "const": "FROZEN_NONROUTING_FIRST_RUN" },
+    "owner": { "const": "dynamic-unity" },
+    "created_at": { "const": "2026-08-15" },
+    "routing": { "$ref": "#/$defs/routing" },
+    "legacy_v01": { "$ref": "#/$defs/legacy" },
+    "v02_specimens": { "$ref": "#/$defs/specimens" },
+    "schemas": { "$ref": "#/$defs/schemas" },
+    "validator": { "$ref": "#/$defs/validator" },
+    "migration_contract": { "$ref": "#/$defs/migration" },
+    "nonclaims": { "$ref": "#/$defs/nonEmptyStringList" }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "nonEmptyStringList": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/nonEmptyString" } },
+    "routing": {
+      "type": "object", "additionalProperties": false,
+      "required": ["non_routing", "banked", "wip", "live_authority", "scheduled_priority_unchanged", "executable_continuation"],
+      "properties": {
+        "non_routing": { "const": true }, "banked": { "const": false },
+        "wip": { "const": false }, "live_authority": { "const": "CURRENT-RESEARCH.yaml" },
+        "scheduled_priority_unchanged": { "const": true },
+        "executable_continuation": { "type": "null" }
+      }
+    },
+    "frozenArtifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "$ref": "#/$defs/nonEmptyString" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+      }
+    },
+    "legacy": {
+      "type": "object", "additionalProperties": false,
+      "required": ["preserved_byte_for_byte", "atlas_id", "card_count", "card_ids", "artifacts"],
+      "properties": {
+        "preserved_byte_for_byte": { "const": true },
+        "atlas_id": { "const": "DU-PCA-PILOT-0.1" },
+        "card_count": { "const": 6 },
+        "card_ids": { "const": ["DU-PCA-001", "DU-PCA-002", "DU-PCA-003", "DU-PCA-004", "DU-PCA-005", "DU-PCA-006"] },
+        "artifacts": {
+          "type": "object", "additionalProperties": false,
+          "required": ["exploration", "atlas", "schema", "probe", "receipt"],
+          "properties": {
+            "exploration": { "const": { "path": "explorations/phenomenon-to-capability-atlas-v0.1-2026-08-15.md", "sha256": "21a34d3a0b5582c10b6f45582421648b3ba5bb770073880cad3b18014cf41998" } },
+            "atlas": { "const": { "path": "lab/phenomenon-capability-atlas/atlas-v0.1.json", "sha256": "20e44a45c66b1b9f7a06f05f4002a963c19ffc6d41685a91d5931eb1aea7115f" } },
+            "schema": { "const": { "path": "specs/phenomenon-capability-atlas-v0.1.schema.json", "sha256": "526225c50defd96bb286b842c4d451c23cdfe40d28a631a23a7b5877b085bdc4" } },
+            "probe": { "const": { "path": "tests/du_phenomenon_capability_atlas_probe.py", "sha256": "3654209be9f4ebc21cb24ffd85a7ffdd0bc5fe9dfe63194ee30ac32789771bfd" } },
+            "receipt": { "const": { "path": "tests/artifacts/du_phenomenon_capability_atlas_result.json", "sha256": "8386b4657c5bfce1860d0acbd062f693a292abc2aeb4ca8e26a47b7123936b4b" } }
+          }
+        }
+      }
+    },
+    "specimens": {
+      "type": "object", "additionalProperties": false,
+      "required": ["card_count", "card_ids", "review_count", "review_ids", "composition_count", "composition_ids", "artifacts"],
+      "properties": {
+        "card_count": { "const": 1 },
+        "card_ids": { "const": ["DU-PCA-004"] },
+        "review_count": { "const": 1 },
+        "review_ids": { "const": ["DU-PCA-004-XENON-INDEPENDENT-REMAP-V0.2"] },
+        "composition_count": { "const": 1 },
+        "composition_ids": { "const": ["DU-PCA-COMP-GU-RING-FIRST-RUN-V0.2"] },
+        "artifacts": {
+          "type": "object", "additionalProperties": false,
+          "required": ["card", "review", "composition"],
+          "properties": {
+            "card": {
+              "type": "object", "additionalProperties": false,
+              "required": ["path", "sha256"],
+              "properties": {
+                "path": { "const": "lab/phenomenon-capability-atlas/cards-v0.2/du-xenon-s1-s2.json" },
+                "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+              }
+            },
+            "review": {
+              "type": "object", "additionalProperties": false,
+              "required": ["path", "sha256"],
+              "properties": {
+                "path": { "const": "lab/phenomenon-capability-atlas/reviews/xenon-s1-s2-independent-remap-v0.2.json" },
+                "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+              }
+            },
+            "composition": {
+              "type": "object", "additionalProperties": false,
+              "required": ["path", "sha256"],
+              "properties": {
+                "path": { "const": "lab/phenomenon-capability-atlas/compositions/gu-record-capability-first-run-v0.2.json" },
+                "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "schemaArtifact": {
+      "type": "object", "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": { "$ref": "#/$defs/nonEmptyString" },
+        "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" }
+      }
+    },
+    "schemas": {
+      "type": "object", "additionalProperties": false,
+      "required": ["card", "review", "composition", "release"],
+      "properties": {
+        "card": {
+          "type": "object", "additionalProperties": false,
+          "required": ["path", "sha256"],
+          "properties": { "path": { "const": "specs/phenomenon-capability-atlas-card-v0.2.schema.json" }, "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" } }
+        },
+        "review": {
+          "type": "object", "additionalProperties": false,
+          "required": ["path", "sha256"],
+          "properties": { "path": { "const": "specs/phenomenon-capability-atlas-review-v0.2.schema.json" }, "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" } }
+        },
+        "composition": {
+          "type": "object", "additionalProperties": false,
+          "required": ["path", "sha256"],
+          "properties": { "path": { "const": "specs/phenomenon-capability-atlas-composition-v0.2.schema.json" }, "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" } }
+        },
+        "release": {
+          "type": "object", "additionalProperties": false,
+          "required": ["path", "sha256"],
+          "properties": { "path": { "const": "specs/phenomenon-capability-atlas-release-v0.2.schema.json" }, "sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" } }
+        }
+      }
+    },
+    "validator": {
+      "type": "object", "additionalProperties": false,
+      "required": ["probe_path", "probe_sha256", "receipt_path", "schema_engine", "hostile_mutation_ids"],
+      "properties": {
+        "probe_path": { "const": "tests/du_phenomenon_capability_atlas_v02_probe.py" },
+        "probe_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "receipt_path": { "const": "tests/artifacts/du_phenomenon_capability_atlas_v02_result.json" },
+        "schema_engine": { "const": "STDLIB_FAIL_CLOSED_SUPPORTED_DRAFT_2020_12_VOCABULARY" },
+        "hostile_mutation_ids": {
+          "const": [
+            "unknown_schema_property", "unsupported_schema_keyword", "legacy_record_status",
+            "missing_review_axis", "adapter_level_eligibility", "accepted_without_independent_grounding",
+            "gu_requirement_as_physics_grounding", "accepted_with_domain_gap",
+            "release_card_count_drift", "release_card_id_drift", "release_digest_drift",
+            "schema_digest_drift", "predecessor_digest_drift", "source_digest_drift",
+            "predecessor_card_identity_drift", "review_artifact_ref_drift",
+            "projection_constant_nonzero", "projection_varies_zero", "projection_not_tested_with_witness",
+            "relation_record_missing_subjects", "record_graph_cycle", "missing_representation_kill",
+            "supplied_discriminator_without_outcomes", "review_metric_drift", "review_axis_collapse",
+            "composition_gu_false_friend", "composition_matched_as_same_occurrence",
+            "composition_matched_as_evolution", "composition_dangling_endpoint",
+            "composition_atlas_predecessor_role_leak", "p2c_tool_result_drift",
+            "composition_cltp_as_physics",
+            "composition_finality_promotion", "composition_ti_erases_residue",
+            "evidence_grade_promotion", "routing_promotion"
+          ]
+        }
+      }
+    },
+    "migration": {
+      "type": "object", "additionalProperties": false,
+      "required": ["record_status_map", "review_axes_split", "physics_eligibility_location", "projection_spread_typed", "challenge_fields_split", "release_constraints_location"],
+      "properties": {
+        "record_status_map": { "const": { "ESTABLISHED": "PRESENT", "FAILED": "ABSENT", "CONDITIONAL": "CONDITIONAL", "UNKNOWN": "UNKNOWN", "NOT_APPLICABLE": "NOT_APPLICABLE" } },
+        "review_axes_split": { "const": true },
+        "physics_eligibility_location": { "const": "CLAIM_LEVEL_SOURCE_BINDING" },
+        "projection_spread_typed": { "const": true },
+        "challenge_fields_split": { "const": true },
+        "release_constraints_location": { "const": "THIS_FROZEN_MANIFEST" }
+      }
+    }
+  }
+}

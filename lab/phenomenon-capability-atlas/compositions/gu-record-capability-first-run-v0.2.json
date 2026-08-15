@@ -1,0 +1,1310 @@
+{
+  "schema_version": "0.2",
+  "composition_id": "DU-PCA-COMP-GU-RING-FIRST-RUN-V0.2",
+  "status": "COMPLETED_NONROUTING_CONDITIONAL_NONCOMPOSITION",
+  "owner": "dynamic-unity",
+  "routing": {
+    "non_routing": true,
+    "banked": false,
+    "wip": false,
+    "live_authority": "CURRENT-RESEARCH.yaml",
+    "executable_continuation": null
+  },
+  "evidence_ceiling": 2,
+  "phenomenon_ref": "DU-PCA-002",
+  "source_bindings": [
+    {
+      "binding_id": "SRC-GU-LEDGER-V0258",
+      "source_owner": "gu-formalization",
+      "immutable_revision": "44b26cdebb9b011c66ec8ba12a0b64bc697560d9",
+      "artifact_locator": "lab/process/conditional-physics-ledger-v0.258.json",
+      "assertion_selector": "/denominator and all /rows entries; exhaustive superconducting-ring term query and explicit review of RA-E6 and LT-SM6",
+      "content_sha256": "540b50e386073c0f43da4e8d5a8ffdaf06fd243c6612622d7daf187c0a725047",
+      "role": "THEORY_REQUIREMENT",
+      "native_status": "Conditional Physics Ledger v0.258 with 82 canonical construction and physics-requirement targets; not a phenomena inventory",
+      "nonclaims": [
+        "The ledger contains no superconductivity, BCS, Ginzburg-Landau, fluxoid, persistent-current, or phase-slip requirement row.",
+        "Repository custody and thematic resemblance do not supply a GU-to-ring physics arrow."
+      ]
+    },
+    {
+      "binding_id": "SRC-P2C-RING-PHYSICS",
+      "source_owner": "possibility-to-capability",
+      "immutable_revision": "850521c2fc07b277734e293cd68c0928bb0cb6de",
+      "artifact_locator": "explorations/2026-07-16-real-physical-witness/WITNESS-FREEZE.md",
+      "assertion_selector": "sections 0-4, especially 0.3-0.7 and 1",
+      "content_sha256": "694443cacddfcd784a81e01a6e059557b5b1e6aaeea8c0a7616a4f0ac6b71b51",
+      "role": "PHYSICS_STIPULATION",
+      "native_status": "Frozen P2C-W1 exploration witness consuming literature-grade physics, definitional hierarchy mapping, and a toy executable discriminator",
+      "nonclaims": [
+        "The artifact is not a dedicated primary-source experimental packet and does not upgrade the stipulated ring physics.",
+        "It earns no frame-free capability, GU, TaF, TI, finality, or physical-issuance result."
+      ]
+    },
+    {
+      "binding_id": "SRC-P2C-RING-REVIEW",
+      "source_owner": "possibility-to-capability",
+      "immutable_revision": "850521c2fc07b277734e293cd68c0928bb0cb6de",
+      "artifact_locator": "explorations/2026-07-16-real-physical-witness/REFEREE-REPORT.md",
+      "assertion_selector": "R-D1 and section 4 corrected disposition",
+      "content_sha256": "dfd966259d9e8e2f58bc3725f53f5751c08e0f6b4015c01c333548e09eca0113",
+      "role": "PHYSICS_STIPULATION",
+      "native_status": "Governing referee report; SOUND-WITH-CORRECTIONS and SURVIVES_LOCAL_COMPLETIONS / UNDISCHARGED_VS_WHOLE_FAMILY",
+      "nonclaims": [
+        "The literal same-ring before/after and the budget-matched counterfactual pair are not one comparison.",
+        "No capability-enlargement verdict is licensed by the P2C review."
+      ]
+    },
+    {
+      "binding_id": "SRC-P2C-DIAGNOSTIC-V01",
+      "source_owner": "possibility-to-capability",
+      "immutable_revision": "beee931c4d4245831ff5311a1341eaf1b3d4cbdc",
+      "artifact_locator": "interfaces/transition-diagnosis-v0.1.md",
+      "assertion_selector": "typed transition hierarchy, capability normalization, and nonclaims",
+      "content_sha256": "88e5868d0365ce76ac37cbc26c95e0a5349401983f49a242cc03094946237877",
+      "role": "TRANSITION_DIAGNOSTIC",
+      "native_status": "P2C transition-diagnosis interface v0.1",
+      "nonclaims": [
+        "A raw task-set increase is not by itself a normalized capability enlargement.",
+        "The interface does not decide source physics, finality, issuance, or whole-family legitimacy."
+      ]
+    },
+    {
+      "binding_id": "SRC-P2C-DIAGNOSTIC-TOOL-V01",
+      "source_owner": "possibility-to-capability",
+      "immutable_revision": "beee931c4d4245831ff5311a1341eaf1b3d4cbdc",
+      "artifact_locator": "tools/capability_diagnostic.py",
+      "assertion_selector": "evaluate_assessment, classify_branch, aggregate_branches, label-swap metamorphic control, and CLI main",
+      "content_sha256": "02f07be767923def2254079afe2f7117b20f53f134b2566279d4688370f70e6d",
+      "role": "TRANSITION_DIAGNOSTIC",
+      "native_status": "Reusable dependency-light Transition Diagnosis v0.1 classifier; provisional receiver-witness diagnostic",
+      "nonclaims": [
+        "A valid classification does not establish that supplied witnesses are true or that the hierarchy is universal.",
+        "The tool does not verify superconducting physics, GU source closure, finality, issuance, or source-claim promotion."
+      ]
+    },
+    {
+      "binding_id": "SRC-CONTINUITY-CLTP-V01",
+      "source_owner": "continuity-ledger",
+      "immutable_revision": "a0a3b85bdd4be67ffbeb0bb6f551f53e870cf8d8",
+      "artifact_locator": "interfaces/continuity-ledger-transaction-v0.1.md",
+      "assertion_selector": "Status, Packet, Required Fields, and Gate Verdicts",
+      "content_sha256": "00a3adff95319aede588751e64519c5bb1d6ac90196b9e7aacaae0ff326fbc15",
+      "role": "RECORD_METHOD",
+      "native_status": "Proposed founding interface",
+      "nonclaims": [
+        "CLTP supplies a transaction-accounting method, not ring-specific physical record formation or occurrence identity.",
+        "Filling CLTP fields by metaphor cannot pass its gates."
+      ]
+    },
+    {
+      "binding_id": "SRC-TAF-RING-ADJUDICATION",
+      "source_owner": "time-as-finality",
+      "immutable_revision": "0749ce51c2eb542defe4010341787f1974a56a7d",
+      "artifact_locator": "exports/packets/TAF-002-p2cw1-capability-adjudication-v0.1/blobs/taf002_semantics.md",
+      "assertion_selector": "sections 4-5 and 8-9",
+      "content_sha256": "5980b236776cf48f25641a74f0bb8afd1fc48d666b7a34d77e588e7e2cca3c8b",
+      "role": "CAPABILITY_FINALITY_METHOD",
+      "native_status": "Source-issued exploration-tier formal adjudication; no TaF claim-status movement and authority_transfer=false",
+      "nonclaims": [
+        "TaF consumes the frozen ring physics as a literature-grade stipulation and does not re-derive or endorse it.",
+        "The packet asserts no frame-free enlargement, fixed-family verdict, issuance, temporal order, or unbounded-horizon persistence."
+      ]
+    },
+    {
+      "binding_id": "SRC-TI-RING-WHOLE-FAMILY",
+      "source_owner": "temporal-issuance",
+      "immutable_revision": "a336132d5ef3d6e3b31c704d07ecb39d28c753b1",
+      "artifact_locator": "exports/packets/TI-WFA-001-superconducting-ring-whole-family-legitimacy-v0.1/blobs/ti_wfa_01_semantics.md",
+      "assertion_selector": "sections 2-4",
+      "content_sha256": "96448a2a9e80307632d24d106014dcf3c98d588361eeed6b5431dee5fedeabbc",
+      "role": "ISSUANCE_EFFECT_METHOD",
+      "native_status": "LEGITIMATE-BUT-CONCLUSION-CAPPED source adjudication at exploration tier, formal-only",
+      "nonclaims": [
+        "GLOBAL_ONTOLOGICAL_ABSORPTION earns no operational or physical absorption.",
+        "Issue[S]^physical remains false; packet issuance is not physical temporal issuance."
+      ]
+    },
+    {
+      "binding_id": "SRC-DU-ATLAS-RING-V01",
+      "source_owner": "dynamic-unity",
+      "immutable_revision": "fb9a162da8124378afb950ad51344911230cbf0c",
+      "artifact_locator": "lab/phenomenon-capability-atlas/atlas-v0.1.json",
+      "assertion_selector": "/phenomena/1 where phenomenon_id=DU-PCA-002",
+      "content_sha256": "20e44a45c66b1b9f7a06f05f4002a963c19ffc6d41685a91d5931eb1aea7115f",
+      "role": "ATLAS_PREDECESSOR",
+      "native_status": "Reviewed non-routing Dynamic Unity atlas Grade 2 representation",
+      "nonclaims": [
+        "The card is a receiver-owned overlay and is not a new source theory or primary physics packet.",
+        "The card does not establish finality, physical issuance, whole-family enlargement, or a GU crosswalk."
+      ]
+    }
+  ],
+  "composition_claim": "Conditional downstream composition only: if the frozen P2C superconducting-ring physics and its matched frame are admitted at source grade, Dynamic Unity can type record formation and relation records, apply the P2C transition diagnostic, preserve TaF's frame-indexed capability factorization, and carry TI's conclusion-capped whole-family effect; the GU typed source arrow and a dedicated primary physics packet remain absent.",
+  "source_closure": {
+    "gu_requirement_crosswalk": {
+      "status": "NO_TYPED_SOURCE_ARROW",
+      "exhaustive_query": "At GU revision 44b26cdebb9b011c66ec8ba12a0b64bc697560d9, all 82 canonical targets and 84 row records under /denominator and /rows were searched for superconductivity, BCS, Ginzburg-Landau, fluxoid, persistent current, and phase slip; no owning row was found.",
+      "rejected_false_friends": [
+        "RA-E6",
+        "LT-SM6"
+      ],
+      "missing_source_duty": "GU must supply a source-owned superconducting-ring requirement or conditional dynamics theorem with an explicit domain, construction, and map into the ring frame; receiver analogy cannot create it."
+    },
+    "physics_packet": {
+      "status": "LITERATURE_GRADE_STIPULATION_NO_PRIMARY_PACKET",
+      "evidence": "SRC-P2C-RING-PHYSICS freezes BCS/GL/London, fluxoid quantization, persistent current, and phase-slip behavior at literature grade, and SRC-P2C-RING-REVIEW caps the result accordingly.",
+      "missing_source_duty": "Bind a dedicated primary-source theory/experiment packet with exact specimen, preparation, flux sweep, deformation, readout, calibration, error model, horizon, and held-out data before empirical promotion."
+    },
+    "continuity": {
+      "status": "PROPOSED_METHOD_ONLY_NOT_RING_INSTANCE",
+      "evidence": "SRC-CONTINUITY-CLTP-V01 is explicitly a proposed founding interface whose fields and gates discipline a transaction record.",
+      "missing_source_duty": "A ring-specific CLTP instance must independently establish occurrence identity, same carrier, custody, loss/import ledgers, and physical transduction; this receiver composition does not do so."
+    },
+    "p2c": {
+      "status": "CLOSED_CONDITIONAL_AT_SOURCE_GRADE",
+      "evidence": "SRC-P2C-RING-PHYSICS and SRC-P2C-RING-REVIEW freeze the two distinct frames and locate the candidate as SURVIVES_LOCAL_COMPLETIONS / UNDISCHARGED_VS_WHOLE_FAMILY.",
+      "missing_source_duty": "No P2C hierarchy enlargement may be asserted unless P2C itself accepts a source-faithful downstream return; current use remains a conditional diagnostic."
+    },
+    "taf": {
+      "status": "SOURCE_ISSUED_CONDITIONAL_FORMAL_RETURN",
+      "evidence": "SRC-TAF-RING-ADJUDICATION affirms the (1,1,1) versus (0,0,0) frame-indexed delta and names record-formation/erasure structure as its carrier.",
+      "missing_source_duty": "An unbounded-horizon or physical-finality claim would require evidence beyond the designed finite witness and beyond the literature metastability cap."
+    },
+    "temporal_issuance": {
+      "status": "SOURCE_ISSUED_GLOBAL_CONCLUSION_CAP",
+      "evidence": "SRC-TI-RING-WHOLE-FAMILY classifies admitting the S phase into one known family as GLOBAL_ONTOLOGICAL_ABSORPTION while retaining the operational residue and keeping physical issuance false.",
+      "missing_source_duty": "Any physical issuance claim requires an independent source-side discriminator; the whole-family result cannot be upgraded across TI's conclusion-class firewall."
+    }
+  },
+  "physical_frame": {
+    "literal_same_ring_transition": {
+      "initial_state": "OBJ-N-SAME-INITIAL",
+      "operation": "COOL",
+      "final_state": "OBJ-S-SAME-FINAL",
+      "occurrence_identity": "PRESERVED",
+      "budget_status": "UNMATCHED"
+    },
+    "matched_budget_counterfactual_pair": {
+      "left_state": "OBJ-N-MATCHED-FINAL",
+      "relation": "MATCHED_WITH",
+      "right_state": "OBJ-S-MATCHED-FINAL",
+      "occurrence_identity": "NOT_ASSERTED",
+      "causal_evolution": false
+    },
+    "failed_joint_requirement": "NO_ADMITTED_SQUARE_PRESERVES_OCCURRENCE_IDENTITY_FINAL_TEMPERATURE_AND_SPENT_BUDGET"
+  },
+  "initial_boundary_conditions": [
+    {
+      "condition_id": "IC-SAME-RING-NORMAL",
+      "condition_kind": "INITIAL",
+      "applies_to": "SAME_RING",
+      "status": "FROZEN",
+      "statement": "One identified thin conventional superconducting ring begins in its normal regime at T_i>Tc with psi=0 and finite resistivity.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW"
+      ]
+    },
+    {
+      "condition_id": "BC-SAME-RING-FINAL",
+      "condition_kind": "BOUNDARY",
+      "applies_to": "SAME_RING",
+      "status": "FROZEN",
+      "statement": "The same material ring is cooled through Tc to T_f<Tc; occurrence identity is preserved but the before/after comparison is not temperature- or spent-budget-matched.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW"
+      ]
+    },
+    {
+      "condition_id": "IC-MATCHED-NORMAL-REFERENCE",
+      "condition_kind": "INITIAL",
+      "applies_to": "MATCHED_COUNTERFACTUAL",
+      "status": "FROZEN",
+      "statement": "The left context is a reference normal conductor of matched ring geometry at the same final T_f and after the same COOL and THREAD spend; it is a different system, not the earlier state of the S ring.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW",
+        "SRC-TAF-RING-ADJUDICATION"
+      ]
+    },
+    {
+      "condition_id": "IC-MATCHED-SUPERCONDUCTING-RING",
+      "condition_kind": "INITIAL",
+      "applies_to": "MATCHED_COUNTERFACTUAL",
+      "status": "FROZEN",
+      "statement": "The right context is the ring in the superconducting branch at the same final T_f, with integer phase winding available under the frozen source stipulation.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ]
+    },
+    {
+      "condition_id": "BC-RING-GEOMETRY",
+      "condition_kind": "BOUNDARY",
+      "applies_to": "BOTH",
+      "status": "FROZEN",
+      "statement": "A finite, uncut ring geometry and the phase map S^1 to U(1) are retained; DEFORM is smooth, local, and does not cut the ring.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-DU-ATLAS-RING-V01"
+      ]
+    },
+    {
+      "condition_id": "BC-INTERVENTION-MENU",
+      "condition_kind": "BOUNDARY",
+      "applies_to": "BOTH",
+      "status": "FROZEN",
+      "statement": "The operation menu is COOL, THREAD, PROBE_READ, and DEFORM; the task and menu are not refit after observing the result.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ]
+    },
+    {
+      "condition_id": "BC-MATCHED-RESOURCE-FRAME",
+      "condition_kind": "BOUNDARY",
+      "applies_to": "MATCHED_COUNTERFACTUAL",
+      "status": "FROZEN",
+      "statement": "Final temperature, spent COOL and THREAD budget, PROBE_READ budget, observer access, task family, residual budget, horizon, and quotient are matched; maintenance draw is the distinguishing task resource rather than a hidden subsidy.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ]
+    },
+    {
+      "condition_id": "BC-FINITE-HORIZON",
+      "condition_kind": "BOUNDARY",
+      "applies_to": "BOTH",
+      "status": "PARAMETERIZED",
+      "statement": "The retention horizon H is finite and no greater than the literature-grade metastability cap; tau_P is not asserted beyond that cap.",
+      "source_refs": [
+        "SRC-TAF-RING-ADJUDICATION",
+        "SRC-DU-ATLAS-RING-V01"
+      ]
+    },
+    {
+      "condition_id": "BC-READOUT-PROVENANCE",
+      "condition_kind": "BOUNDARY",
+      "applies_to": "BOTH",
+      "status": "STIPULATED",
+      "statement": "PROBE_READ uses the same calibrated SQUID or transport metrology budget in both contexts, and ring identity, preparation, readout, calibration, and archive provenance remain linked.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-DU-ATLAS-RING-V01"
+      ]
+    }
+  ],
+  "typed_objects": [
+    {
+      "object_id": "OBJ-GU-INVENTORY",
+      "object_type": "GU_REQUIREMENT_INVENTORY",
+      "description": "The complete v0.258 GU conditional requirement denominator, queried as a source inventory rather than recast as a phenomena ledger.",
+      "source_refs": [
+        "SRC-GU-LEDGER-V0258"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-N-SAME-INITIAL",
+      "object_type": "PHYSICAL_STATE",
+      "description": "The identified ring in the normal regime at T_i>Tc for the literal same-system before/after comparison.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-S-SAME-FINAL",
+      "object_type": "PHYSICAL_STATE",
+      "description": "The same identified ring after physical cooling to the superconducting regime at T_f<Tc; its budget is not matched to the earlier state.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-N-MATCHED-FINAL",
+      "object_type": "PHYSICAL_STATE",
+      "description": "The reference normal conductor at the same final temperature and matched spend in the counterfactual capability frame.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-S-MATCHED-FINAL",
+      "object_type": "PHYSICAL_STATE",
+      "description": "The superconducting ring at the same final temperature and matched spend in the counterfactual capability frame.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-COOL-THROUGH-TC",
+      "object_type": "PHYSICAL_EVENT",
+      "description": "The causal COOL event crossing Tc with threaded flux present in the literal same-ring frame.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-THREADED-FLUX",
+      "object_type": "RESOURCE",
+      "description": "The externally supplied flux boundary datum and its matched THREAD spend; it seeds the stored integer without supplying quantization, invariance, or persistence.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-CONTINUITY-CLTP-V01"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-FLUXOID-RECORD",
+      "object_type": "MATERIAL_RECORD",
+      "description": "A phase-slip-limited integer winding or trapped fluxoid token formed at cool-through, seeded by threaded flux, and held by the superconducting ring.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-NORMAL-CURRENT-TRACE",
+      "object_type": "MATERIAL_RECORD",
+      "description": "A continuous, deformation-sensitive, decaying-or-maintained current trace in the normal reference context; it does not satisfy the joint Q/I/P record task.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-SQUID-READOUT",
+      "object_type": "ACCESS_READOUT",
+      "description": "The calibrated winding-sensitive SQUID or transport readout produced by PROBE_READ under a symmetric metrology budget.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-READOUT-CALIBRATION",
+      "object_type": "RESOURCE",
+      "description": "The frozen SQUID or transport calibration, decoder, and bounded noise/alias contract required to interpret PROBE_READ symmetrically across the two contexts.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-AUTHENTICATED-ARCHIVE",
+      "object_type": "ACCESS_READOUT",
+      "description": "A provenance-linked archive of calibrated readouts; its public-final status remains unearned without a separate access and rollback contract.",
+      "source_refs": [
+        "SRC-CONTINUITY-CLTP-V01",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "grade": 1
+    },
+    {
+      "object_id": "OBJ-HEATING-OR-PHASE-SLIP",
+      "object_type": "PHYSICAL_EVENT",
+      "description": "An admissible heating-through-Tc or phase-slip event that erases or reopens the finite-horizon fluxoid record.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-CAPABILITY-N",
+      "object_type": "CAPABILITY_ENVELOPE",
+      "description": "The normal-context achievability envelope C_N=(0,0,0) for tau_Q, tau_I, and tau_P under the frozen TaF frame.",
+      "source_refs": [
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-CAPABILITY-S",
+      "object_type": "CAPABILITY_ENVELOPE",
+      "description": "The superconducting-context achievability envelope C_S=(1,1,1) for tau_Q, tau_I, and finite-horizon tau_P under the frozen TaF frame.",
+      "source_refs": [
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "object_id": "OBJ-WHOLE-BCS-GL-FAMILY",
+      "object_type": "WHOLE_FAMILY",
+      "description": "One admitted BCS/GL Hamiltonian and phase diagram containing both N and S regimes, used only for TI's global/ontological completion class.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TI-RING-WHOLE-FAMILY"
+      ],
+      "grade": 2
+    }
+  ],
+  "typed_maps": [
+    {
+      "map_id": "MAP-COOL-SAME-RING",
+      "map_type": "PHYSICAL_EVOLUTION",
+      "domain_refs": [
+        "OBJ-N-SAME-INITIAL",
+        "OBJ-COOL-THROUGH-TC"
+      ],
+      "codomain_refs": [
+        "OBJ-S-SAME-FINAL"
+      ],
+      "causal": true,
+      "description": "Literal causal evolution of one ring across Tc; this map preserves material occurrence identity but not common final temperature or matched spend.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-MATCHED-COUNTERFACTUAL",
+      "map_type": "MATCHING_RELATION",
+      "domain_refs": [
+        "OBJ-N-MATCHED-FINAL"
+      ],
+      "codomain_refs": [
+        "OBJ-S-MATCHED-FINAL"
+      ],
+      "causal": false,
+      "description": "A noncausal MATCHED_WITH relation at common final temperature, spent budget, access, task, horizon, and quotient; it asserts neither same occurrence nor evolution.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-FORM-FLUXOID",
+      "map_type": "RECORD_FORMATION",
+      "domain_refs": [
+        "OBJ-S-MATCHED-FINAL",
+        "OBJ-COOL-THROUGH-TC"
+      ],
+      "codomain_refs": [
+        "OBJ-FLUXOID-RECORD"
+      ],
+      "causal": true,
+      "description": "Conditional formation map rho_S from the stipulated superconducting cool-through physics to a quantized, locally invariant, metastable record token.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-FORM-NORMAL-TRACE",
+      "map_type": "RECORD_FORMATION",
+      "domain_refs": [
+        "OBJ-N-MATCHED-FINAL"
+      ],
+      "codomain_refs": [
+        "OBJ-NORMAL-CURRENT-TRACE"
+      ],
+      "causal": true,
+      "description": "Conditional formation map rho_N to a continuous, deformation-sensitive, decaying-or-maintained current trace.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-PROBE-FLUXOID",
+      "map_type": "ACCESS",
+      "domain_refs": [
+        "OBJ-FLUXOID-RECORD"
+      ],
+      "codomain_refs": [
+        "OBJ-SQUID-READOUT"
+      ],
+      "causal": true,
+      "description": "PROBE_READ exposes the held fluxoid through a calibrated readout and does not create the winding record.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-PROBE-NORMAL-TRACE",
+      "map_type": "ACCESS",
+      "domain_refs": [
+        "OBJ-NORMAL-CURRENT-TRACE"
+      ],
+      "codomain_refs": [
+        "OBJ-SQUID-READOUT"
+      ],
+      "causal": true,
+      "description": "The same metrology access map is supplied to the normal trace; access symmetry does not remove its failures of Q, I, and zero-maintenance P.",
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-ACHIEVABILITY-N",
+      "map_type": "CAPABILITY",
+      "domain_refs": [
+        "OBJ-NORMAL-CURRENT-TRACE",
+        "OBJ-SQUID-READOUT"
+      ],
+      "codomain_refs": [
+        "OBJ-CAPABILITY-N"
+      ],
+      "causal": false,
+      "description": "TaF's reconstructibility evaluator Ach maps the normal record/access structure to C_N=(0,0,0) in the fixed task frame.",
+      "source_refs": [
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-ACHIEVABILITY-S",
+      "map_type": "CAPABILITY",
+      "domain_refs": [
+        "OBJ-FLUXOID-RECORD",
+        "OBJ-SQUID-READOUT"
+      ],
+      "codomain_refs": [
+        "OBJ-CAPABILITY-S"
+      ],
+      "causal": false,
+      "description": "TaF's reconstructibility evaluator Ach maps the superconducting record/access structure to C_S=(1,1,1) only up to the declared metastability horizon.",
+      "source_refs": [
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "grade": 2
+    },
+    {
+      "map_id": "MAP-WHOLE-FAMILY-QUOTIENT",
+      "map_type": "WHOLE_FAMILY_QUOTIENT",
+      "domain_refs": [
+        "OBJ-N-MATCHED-FINAL",
+        "OBJ-S-MATCHED-FINAL",
+        "OBJ-CAPABILITY-N",
+        "OBJ-CAPABILITY-S"
+      ],
+      "codomain_refs": [
+        "OBJ-WHOLE-BCS-GL-FAMILY"
+      ],
+      "causal": false,
+      "description": "TI's whole_family move admits both phases into one known family and absorbs absolute ontological novelty without absorbing the operational capability delta.",
+      "source_refs": [
+        "SRC-TI-RING-WHOLE-FAMILY"
+      ],
+      "grade": 2
+    }
+  ],
+  "relation_records": [
+    {
+      "relation_id": "REL-SAME-RING-EVOLVES",
+      "relation_type": "EVOLVES_TO",
+      "from_ref": "OBJ-N-SAME-INITIAL",
+      "to_ref": "OBJ-S-SAME-FINAL",
+      "frame": "SAME_RING",
+      "status": "PRESENT",
+      "warrant": "The literal single-system comparison is the same ring physically cooled across Tc."
+    },
+    {
+      "relation_id": "REL-SAME-RING-OCCURRENCE",
+      "relation_type": "SAME_OCCURRENCE",
+      "from_ref": "OBJ-N-SAME-INITIAL",
+      "to_ref": "OBJ-S-SAME-FINAL",
+      "frame": "SAME_RING",
+      "status": "PRESENT",
+      "warrant": "Material occurrence identity is preserved across the physical COOL map, while the comparison remains budget-unmatched."
+    },
+    {
+      "relation_id": "REL-SAME-RING-MATERIAL",
+      "relation_type": "MATERIAL_CONTINUITY",
+      "from_ref": "OBJ-N-SAME-INITIAL",
+      "to_ref": "OBJ-S-SAME-FINAL",
+      "frame": "SAME_RING",
+      "status": "PRESENT",
+      "warrant": "The same identified material carrier crosses the phase boundary."
+    },
+    {
+      "relation_id": "REL-MATCHED-PAIR",
+      "relation_type": "MATCHED_WITH",
+      "from_ref": "OBJ-N-MATCHED-FINAL",
+      "to_ref": "OBJ-S-MATCHED-FINAL",
+      "frame": "MATCHED_COUNTERFACTUAL",
+      "status": "PRESENT",
+      "warrant": "R-D1 freezes a budget-matched counterfactual pair at common final temperature, access, task, horizon, and quotient."
+    },
+    {
+      "relation_id": "REL-MATCHED-NOT-SAME-OCCURRENCE",
+      "relation_type": "SAME_OCCURRENCE",
+      "from_ref": "OBJ-N-MATCHED-FINAL",
+      "to_ref": "OBJ-S-MATCHED-FINAL",
+      "frame": "MATCHED_COUNTERFACTUAL",
+      "status": "ABSENT",
+      "warrant": "The matched pair compares two systems; substituting SAME_OCCURRENCE would undo the governing R-D1 correction."
+    },
+    {
+      "relation_id": "REL-MATCHED-NOT-EVOLUTION",
+      "relation_type": "EVOLVES_TO",
+      "from_ref": "OBJ-N-MATCHED-FINAL",
+      "to_ref": "OBJ-S-MATCHED-FINAL",
+      "frame": "MATCHED_COUNTERFACTUAL",
+      "status": "ABSENT",
+      "warrant": "MATCHED_WITH is noncausal and is not a physical N-to-S evolution map."
+    },
+    {
+      "relation_id": "REL-FLUXOID-FORMED-BY",
+      "relation_type": "FORMED_BY",
+      "from_ref": "OBJ-FLUXOID-RECORD",
+      "to_ref": "OBJ-COOL-THROUGH-TC",
+      "frame": "BOTH",
+      "status": "CONDITIONAL",
+      "warrant": "P2C-W1 stipulates cool-through with flux present as the formation event; GU and a primary packet do not independently ground it here."
+    },
+    {
+      "relation_id": "REL-FLUXOID-SEEDED-BY",
+      "relation_type": "SEEDED_BY",
+      "from_ref": "OBJ-FLUXOID-RECORD",
+      "to_ref": "OBJ-THREADED-FLUX",
+      "frame": "BOTH",
+      "status": "CONDITIONAL",
+      "warrant": "Threaded flux selects which integer n is stored but does not itself supply quantization, deformation invariance, or persistence."
+    },
+    {
+      "relation_id": "REL-FLUXOID-HELD-BY",
+      "relation_type": "HELD_BY",
+      "from_ref": "OBJ-FLUXOID-RECORD",
+      "to_ref": "OBJ-S-MATCHED-FINAL",
+      "frame": "MATCHED_COUNTERFACTUAL",
+      "status": "CONDITIONAL",
+      "warrant": "The superconducting ring is the material holder of the winding token under the frozen physics stipulation."
+    },
+    {
+      "relation_id": "REL-FLUXOID-READ-BY",
+      "relation_type": "READ_BY",
+      "from_ref": "OBJ-FLUXOID-RECORD",
+      "to_ref": "OBJ-SQUID-READOUT",
+      "frame": "BOTH",
+      "status": "CONDITIONAL",
+      "warrant": "PROBE_READ makes the fluxoid accessible through symmetric calibrated metrology and does not form the token."
+    },
+    {
+      "relation_id": "REL-READOUT-CALIBRATED-BY",
+      "relation_type": "CALIBRATED_BY",
+      "from_ref": "OBJ-SQUID-READOUT",
+      "to_ref": "OBJ-READOUT-CALIBRATION",
+      "frame": "BOTH",
+      "status": "CONDITIONAL",
+      "warrant": "Calibration and bounded noise/alias classes are required before a winding-sensitive signal can support a certificate."
+    },
+    {
+      "relation_id": "REL-READOUT-ARCHIVED-AS",
+      "relation_type": "ARCHIVED_AS",
+      "from_ref": "OBJ-SQUID-READOUT",
+      "to_ref": "OBJ-AUTHENTICATED-ARCHIVE",
+      "frame": "BOTH",
+      "status": "CONDITIONAL",
+      "warrant": "An authenticated provenance link is required; retention of an endpoint does not retain this archive edge automatically."
+    },
+    {
+      "relation_id": "REL-ARCHIVE-SUPPORTS-CAPABILITY",
+      "relation_type": "SUPPORTS",
+      "from_ref": "OBJ-AUTHENTICATED-ARCHIVE",
+      "to_ref": "OBJ-CAPABILITY-S",
+      "frame": "MATCHED_COUNTERFACTUAL",
+      "status": "CONDITIONAL",
+      "warrant": "The archive supports reconstruction and later action only inside the declared observer, task, horizon, error, provenance, and authorization contract."
+    },
+    {
+      "relation_id": "REL-FLUXOID-ERASED-BY",
+      "relation_type": "ERASED_BY",
+      "from_ref": "OBJ-FLUXOID-RECORD",
+      "to_ref": "OBJ-HEATING-OR-PHASE-SLIP",
+      "frame": "BOTH",
+      "status": "CONDITIONAL",
+      "warrant": "Heating through Tc or a phase slip can reopen or erase the finite-horizon winding record."
+    }
+  ],
+  "steps": [
+    {
+      "step_id": "STEP-1",
+      "layer": "GU_REQUIREMENT_CROSSWALK",
+      "inputs": [
+        "OBJ-GU-INVENTORY",
+        "superconducting-ring requirement query"
+      ],
+      "outputs": [
+        "NO_TYPED_GU_ARROW",
+        "RA-E6 and LT-SM6 rejected as false friends"
+      ],
+      "source_refs": [
+        "SRC-GU-LEDGER-V0258"
+      ],
+      "status": "SOURCE_CLOSURE_FAILURE",
+      "grade": 0,
+      "result": "GU owns no typed requirement or conditional dynamics arrow for the superconducting-ring phenomenon in v0.258; the vertical composition therefore cannot begin from GU as requested.",
+      "nonclaims": [
+        "Electroweak U(1) survival is not superconducting U(1) order-parameter dynamics.",
+        "Higgs curvature components are not BCS/GL fluxoid formation."
+      ]
+    },
+    {
+      "step_id": "STEP-2",
+      "layer": "INITIAL_BOUNDARY_CONDITIONS",
+      "inputs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW"
+      ],
+      "outputs": [
+        "literal same-ring unmatched transition frame",
+        "matched-budget two-system counterfactual frame",
+        "nine explicit initial and boundary conditions"
+      ],
+      "source_refs": [
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW",
+        "SRC-TAF-RING-ADJUDICATION"
+      ],
+      "status": "COMPOSED",
+      "grade": 2,
+      "result": "R-D1 is preserved exactly: the causal same-ring transition and the matched capability pair are distinct typed frames and cannot be merged into a single before/after arrow.",
+      "nonclaims": [
+        "There is no physical map that simultaneously preserves same occurrence, common final temperature, and matched spent budget.",
+        "The normal reference is not asserted to be the earlier state of the superconducting ring."
+      ]
+    },
+    {
+      "step_id": "STEP-3",
+      "layer": "DU_CONTINUITY_RECORDS",
+      "inputs": [
+        "OBJ-COOL-THROUGH-TC",
+        "OBJ-FLUXOID-RECORD",
+        "OBJ-SQUID-READOUT",
+        "SRC-CONTINUITY-CLTP-V01"
+      ],
+      "outputs": [
+        "typed record-relation DAG",
+        "METHOD_ONLY_NOT_RING_PHYSICS CLTP gate"
+      ],
+      "source_refs": [
+        "SRC-CONTINUITY-CLTP-V01",
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "status": "CONDITIONAL",
+      "grade": 1,
+      "result": "Dynamic Unity instantiates formed-by, seeded-by, held-by, read-by, calibrated-by, archived-as, supports, erased-by, and frame-identity relations as a receiver-owned representation; CLTP disciplines the fields but does not ground the ring physics.",
+      "nonclaims": [
+        "A retained fluxoid is not automatically an accessible record, certificate, public final record, or action-enabling fact.",
+        "The proposed CLTP interface does not independently establish occurrence identity or same-carrier truth for the matched pair."
+      ]
+    },
+    {
+      "step_id": "STEP-4",
+      "layer": "P2C_TRANSITION",
+      "inputs": [
+        "OBJ-N-MATCHED-FINAL",
+        "OBJ-S-MATCHED-FINAL",
+        "OBJ-FLUXOID-RECORD",
+        "SRC-P2C-DIAGNOSTIC-V01"
+      ],
+      "outputs": [
+        "same possibility family",
+        "normalized task superset candidate",
+        "conditional capability diagnosis"
+      ],
+      "source_refs": [
+        "SRC-P2C-DIAGNOSTIC-V01",
+        "SRC-P2C-RING-PHYSICS",
+        "SRC-P2C-RING-REVIEW"
+      ],
+      "status": "CONDITIONAL",
+      "grade": 2,
+      "result": "Within the frozen matched frame, the S branch supports quantized, deformation-invariant, zero-maintenance finite-horizon memory that the N branch does not; P2C itself leaves hierarchy enlargement unadjudicated against the whole-family absorber.",
+      "nonclaims": [
+        "This is not a frame-free enlargement of the possibility family.",
+        "P2C's source verdict is not promoted beyond SURVIVES_LOCAL_COMPLETIONS / UNDISCHARGED_VS_WHOLE_FAMILY."
+      ]
+    },
+    {
+      "step_id": "STEP-5",
+      "layer": "TAF_CAPABILITY_FINALITY",
+      "inputs": [
+        "OBJ-NORMAL-CURRENT-TRACE",
+        "OBJ-FLUXOID-RECORD",
+        "OBJ-SQUID-READOUT"
+      ],
+      "outputs": [
+        "OBJ-CAPABILITY-N",
+        "OBJ-CAPABILITY-S",
+        "record-formation/erasure factorization",
+        "finality NONE"
+      ],
+      "source_refs": [
+        "SRC-TAF-RING-ADJUDICATION",
+        "SRC-DU-ATLAS-RING-V01"
+      ],
+      "status": "COMPOSED",
+      "grade": 2,
+      "result": "TaF affirms C_S=(1,1,1) versus C_N=(0,0,0) in the declared finite frame; the delta is entirely carried by record-formation/erasure structure, not access, resource enlargement, or hidden state, and it earns no finality.",
+      "nonclaims": [
+        "tau_P is not asserted beyond the literature metastability cap.",
+        "The factorization is not a claim that access causes the capability delta."
+      ]
+    },
+    {
+      "step_id": "STEP-6",
+      "layer": "TI_ISSUANCE_EFFECT",
+      "inputs": [
+        "OBJ-WHOLE-BCS-GL-FAMILY",
+        "OBJ-CAPABILITY-N",
+        "OBJ-CAPABILITY-S"
+      ],
+      "outputs": [
+        "GLOBAL_ONTOLOGICAL_ABSORPTION",
+        "operational residue retained",
+        "physical issuance false"
+      ],
+      "source_refs": [
+        "SRC-TI-RING-WHOLE-FAMILY"
+      ],
+      "status": "COMPOSED",
+      "grade": 2,
+      "result": "Admitting both phases into one known family legitimately blocks absolute ontological novelty only; TI's conclusion-class firewall preserves the operational capability residue and supplies no physical issuance.",
+      "nonclaims": [
+        "A source-issued packet is not a physically issued distinction.",
+        "Global/ontological absorption cannot be cast as operational or predictive absorption."
+      ]
+    }
+  ],
+  "diagrams": [
+    {
+      "diagram_id": "DGM-FRAME-FAILURE",
+      "kind": "FAILED_SQUARE",
+      "nodes": [
+        "OBJ-N-SAME-INITIAL",
+        "OBJ-S-SAME-FINAL",
+        "OBJ-N-MATCHED-FINAL",
+        "OBJ-S-MATCHED-FINAL"
+      ],
+      "arrows": [
+        {
+          "arrow_id": "MAP-COOL-SAME-RING",
+          "from_ref": "OBJ-N-SAME-INITIAL",
+          "to_ref": "OBJ-S-SAME-FINAL",
+          "arrow_type": "PHYSICAL"
+        },
+        {
+          "arrow_id": "MAP-MATCHED-COUNTERFACTUAL",
+          "from_ref": "OBJ-N-MATCHED-FINAL",
+          "to_ref": "OBJ-S-MATCHED-FINAL",
+          "arrow_type": "COUNTERFACTUAL_MATCH"
+        }
+      ],
+      "verdict": "DOES_NOT_COMMUTE",
+      "failure_reason": "The top arrow is causal and preserves the ring occurrence but compares different temperatures and unmatched spend; the bottom relation matches final temperature and spend but compares two systems and is noncausal. No admitted vertical maps complete a square while preserving occurrence identity, common final temperature, matched spend, and physical transduction."
+    },
+    {
+      "diagram_id": "DGM-RECORD-RELATION-DAG",
+      "kind": "RELATION_DAG",
+      "nodes": [
+        "OBJ-COOL-THROUGH-TC",
+        "OBJ-THREADED-FLUX",
+        "OBJ-FLUXOID-RECORD",
+        "OBJ-S-MATCHED-FINAL",
+        "OBJ-SQUID-READOUT",
+        "OBJ-READOUT-CALIBRATION",
+        "OBJ-AUTHENTICATED-ARCHIVE",
+        "OBJ-CAPABILITY-S",
+        "OBJ-HEATING-OR-PHASE-SLIP"
+      ],
+      "arrows": [
+        {
+          "arrow_id": "REL-FLUXOID-FORMED-BY",
+          "from_ref": "OBJ-FLUXOID-RECORD",
+          "to_ref": "OBJ-COOL-THROUGH-TC",
+          "arrow_type": "RECORD"
+        },
+        {
+          "arrow_id": "REL-FLUXOID-SEEDED-BY",
+          "from_ref": "OBJ-FLUXOID-RECORD",
+          "to_ref": "OBJ-THREADED-FLUX",
+          "arrow_type": "RECORD"
+        },
+        {
+          "arrow_id": "REL-FLUXOID-HELD-BY",
+          "from_ref": "OBJ-FLUXOID-RECORD",
+          "to_ref": "OBJ-S-MATCHED-FINAL",
+          "arrow_type": "RECORD"
+        },
+        {
+          "arrow_id": "REL-FLUXOID-READ-BY",
+          "from_ref": "OBJ-FLUXOID-RECORD",
+          "to_ref": "OBJ-SQUID-READOUT",
+          "arrow_type": "ACCESS"
+        },
+        {
+          "arrow_id": "REL-READOUT-CALIBRATED-BY",
+          "from_ref": "OBJ-SQUID-READOUT",
+          "to_ref": "OBJ-READOUT-CALIBRATION",
+          "arrow_type": "ACCESS"
+        },
+        {
+          "arrow_id": "REL-READOUT-ARCHIVED-AS",
+          "from_ref": "OBJ-SQUID-READOUT",
+          "to_ref": "OBJ-AUTHENTICATED-ARCHIVE",
+          "arrow_type": "ACCESS"
+        },
+        {
+          "arrow_id": "REL-ARCHIVE-SUPPORTS-CAPABILITY",
+          "from_ref": "OBJ-AUTHENTICATED-ARCHIVE",
+          "to_ref": "OBJ-CAPABILITY-S",
+          "arrow_type": "CAPABILITY"
+        },
+        {
+          "arrow_id": "REL-FLUXOID-ERASED-BY",
+          "from_ref": "OBJ-FLUXOID-RECORD",
+          "to_ref": "OBJ-HEATING-OR-PHASE-SLIP",
+          "arrow_type": "RECORD"
+        }
+      ],
+      "verdict": "NOT_TESTED",
+      "failure_reason": "This is an acyclic provenance and access representation, not a commutation claim; every conditional edge retains its own warrant and may not be inferred from endpoint retention."
+    }
+  ],
+  "preserved_invariants": [
+    "All receiver objects, maps, steps, and the composition verdict remain at Dynamic Unity Grade 2 or below.",
+    "The literal same-ring causal transition and the matched two-system counterfactual pair remain distinct throughout.",
+    "Occurrence identity and material continuity are present only in the same-ring frame; final-temperature and spent-budget matching are present only in the counterfactual frame.",
+    "MATCHED_WITH is never substituted by SAME_OCCURRENCE, MATERIAL_CONTINUITY, or EVOLVES_TO.",
+    "The matched task, menu, observer access, residual budget, horizon, quotient, and metrology are held fixed before evaluating C_N and C_S.",
+    "Quantization Q, noncutting-deformation invariance I, and zero-maintenance finite-horizon persistence P remain separate task coordinates; tau_P is capped by metastability.",
+    "The capability delta is carried by record-formation/erasure structure and not by access enlargement, resource enlargement, or hidden state.",
+    "TI's whole-family conclusion remains GLOBAL_ONTOLOGICAL_ABSORPTION and cannot cross its conclusion-class firewall into operational or physical absorption.",
+    "Finality remains NONE and physical issuance remains false because heating, phase slip, changed horizon, and changed context are admissible reopeners.",
+    "Immutable source revisions, selectors, digests, native statuses, nonclaims, and ownership remain attached; no cross-repository authority transfers."
+  ],
+  "observer_action_resource_contract": {
+    "observer": "A reconciler consisting of the identified ring, calibrated SQUID or transport readout, provenance-linked archive, decoder, and authorization boundary; no conscious-observer claim.",
+    "task": "Store and later reconstruct an integer winding label that is quantized across the frozen flux sweep, invariant under noncutting DEFORM, and retained for the declared horizon with exactly zero maintenance spend.",
+    "horizon": "A declared finite H no greater than the source's literature-grade metastability cap; no unbounded persistence claim.",
+    "actions": [
+      "COOL",
+      "THREAD",
+      "PROBE_READ",
+      "DEFORM",
+      "COOL above Tc or undergo phase slip as an explicit erasure/reopener"
+    ],
+    "resources": [
+      "matched ring geometry",
+      "same final temperature T_f",
+      "same spent COOL and THREAD budget",
+      "same residual budget and PROBE_READ metrology",
+      "same task family, horizon, and representation quotient",
+      "calibrated SQUID or transport channel and authenticated provenance",
+      "maintenance draw measured as the distinguishing task resource"
+    ],
+    "risk_or_error": "Readout error and alias classes plus phase-slip probability over H must be bounded; the primary packet needed to set empirical tolerances is absent.",
+    "provenance": "Ring identity, preparation, threaded flux, cool-through event, readout, calibration, archive entry, and task decision are represented by explicit typed relations; the matched reference has no same-occurrence edge to the S ring."
+  },
+  "cltp_gate": {
+    "status": "METHOD_ONLY_NOT_RING_PHYSICS",
+    "occurrence_identity": "PRESERVED_SAME_RING_ONLY",
+    "same_carrier": "PRESERVED_SAME_RING_ONLY",
+    "custody": "Continuity Ledger owns the proposed CLTP method; Dynamic Unity owns this receiver-side relation DAG; P2C owns the stipulated ring physics and R-D1 frames.",
+    "physics_role": "NON_GROUNDING",
+    "warrant": "CLTP fields expose transduction, continuity, loss, import, agency, absorber, and evidence duties, but the proposed interface supplies no ring-specific physical theorem and no identity edge for the matched counterfactual pair."
+  },
+  "p2c_diagnostic": {
+    "possibility_family_relation": "SAME",
+    "dynamics_change": "YES",
+    "raw_task_relation": "SUPERSET",
+    "normalized_task_relation": "SUPERSET",
+    "record_formation": "YES",
+    "access_change": "NO",
+    "control_change": "NO",
+    "capability_verdict": "CONDITIONAL",
+    "tool_binding_ref": "SRC-P2C-DIAGNOSTIC-TOOL-V01",
+    "assessment": {
+      "schema_version": "0.1",
+      "assessment_id": "DU-PCA-TD-002",
+      "status": "provisional",
+      "question": "Within the frozen matched-budget counterfactual frame, how does the supplied normal-versus-superconducting ring witness classify when access and control are held fixed?",
+      "construction": {
+        "fork_identified": false,
+        "selected_branch_id": "matched-ring-frame",
+        "retention_statement": "This run selects only the P2C R-D1 matched-budget counterfactual construction; the literal same-ring unmatched transition and the one-context whole-family construction remain separately retained and are not silently merged."
+      },
+      "branch_relation": "SAME_OBJECT",
+      "branches": [
+        {
+          "branch_id": "matched-ring-frame",
+          "label": "normal reference matched with superconducting ring",
+          "admissibility": "ADMISSIBLE",
+          "witness": {
+            "possibility_family_relation": {
+              "value": "SAME",
+              "evidence_refs": [
+                "SRC-P2C-RING-REVIEW:section-4"
+              ]
+            },
+            "representation_relation": {
+              "value": "INEQUIVALENT",
+              "evidence_refs": [
+                "SRC-DU-ATLAS-RING-V01:X-RING-PHASE"
+              ]
+            },
+            "description_change": {
+              "value": "YES",
+              "evidence_refs": [
+                "SRC-P2C-RING-PHYSICS:sections-0.2-0.7"
+              ]
+            },
+            "dynamics_change": {
+              "value": "YES",
+              "evidence_refs": [
+                "SRC-P2C-RING-PHYSICS:sections-0.2-0.7"
+              ]
+            },
+            "persistent_record": {
+              "value": "YES",
+              "evidence_refs": [
+                "SRC-P2C-RING-PHYSICS:section-0.5"
+              ]
+            },
+            "access_change": {
+              "value": "NO",
+              "evidence_refs": [
+                "SRC-P2C-RING-PHYSICS:section-0.6"
+              ]
+            },
+            "control_change": {
+              "value": "NO",
+              "evidence_refs": [
+                "SRC-P2C-RING-PHYSICS:sections-0.3-0.4"
+              ]
+            },
+            "raw_task_set_relation": {
+              "value": "SUPERSET",
+              "evidence_refs": [
+                "SRC-P2C-RING-PHYSICS:section-1"
+              ]
+            },
+            "normalized_task_set_relation": {
+              "value": "SUPERSET",
+              "evidence_refs": [
+                "SRC-TAF-RING-ADJUDICATION:sections-4-5"
+              ]
+            },
+            "irreversible": {
+              "value": "NO",
+              "evidence_refs": [
+                "SRC-DU-ATLAS-RING-V01:finality"
+              ]
+            },
+            "settlement": {
+              "value": "NO",
+              "evidence_refs": [
+                "SRC-DU-ATLAS-RING-V01:finality"
+              ]
+            },
+            "preceding_layer_factorization": {
+              "value": "FACTORED",
+              "evidence_refs": [
+                "SRC-TAF-RING-ADJUDICATION:section-5-clause-2"
+              ]
+            },
+            "reopenable_by_admissible_continuation": {
+              "value": "YES",
+              "evidence_refs": [
+                "SRC-DU-ATLAS-RING-V01:finality"
+              ]
+            },
+            "ordering_relation": {
+              "value": "ORDER_COMPATIBLE",
+              "evidence_refs": [
+                "SRC-DU-ATLAS-RING-V01:X-RING-PHASE"
+              ]
+            }
+          },
+          "normalization_frame": "Same final temperature, spent COOL and THREAD budget, residual budget, PROBE_READ access, task family, finite horizon, quotient, and error contract; the two systems differ only in region physics and record-formation/erasure structure.",
+          "factorization_search_scope": "Record formation, holder access, resources, hidden state, erasure, and whole-family completion under the pinned P2C, TaF, and TI returns.",
+          "declared_claims": [
+            "FIXED_FAMILY_DYNAMICS",
+            "RECORD_FORMATION",
+            "CAPABILITY_ENLARGEMENT",
+            "MULTI_LEVEL"
+          ],
+          "evidence_grade": "EXPLORATORY",
+          "verification": "UNVERIFIED"
+        }
+      ],
+      "label_neutrality": {
+        "left_label": "normal reference",
+        "right_label": "superconducting ring",
+        "required": true
+      },
+      "assumptions": [
+        "The frozen P2C literature-grade branch physics and R-D1 matched-budget counterfactual frame are supplied as receiver inputs rather than verified by this tool run.",
+        "The TaF finite-horizon capability envelope and record-formation/erasure factorization are consumed without grade promotion."
+      ],
+      "evidence_grade": "EXPLORATORY",
+      "tests": [
+        "Classify the matched frame with control_change=NO and access_change=NO.",
+        "Require the result to remain invariant under the tool's pure label swap."
+      ],
+      "falsifiers": [
+        "The evaluator omits FIXED_FAMILY_DYNAMICS, RECORD_FORMATION, or CAPABILITY_ENLARGEMENT from the branch components.",
+        "The aggregate outcome differs from MULTI_LEVEL or changes under a pure label swap."
+      ],
+      "nonclaims": [
+        "The tool classifies supplied receiver witnesses provisionally; it does not verify superconducting physics, establish the witnesses' truth, complete GU source closure, prove finality or issuance, or promote a P2C source claim."
+      ],
+      "reopening_conditions": [
+        "Reopen if the frozen matched frame, access/control equality, normalized task relation, or source-owned TaF/TI return changes."
+      ]
+    },
+    "tool_result": {
+      "aggregate_outcome": "MULTI_LEVEL",
+      "assessment_id": "DU-PCA-TD-002",
+      "branch_relation": "SAME_OBJECT",
+      "branch_results": [
+        {
+          "alerts": [],
+          "branch_id": "matched-ring-frame",
+          "components": [
+            "FIXED_FAMILY_DYNAMICS",
+            "RECORD_FORMATION",
+            "CAPABILITY_ENLARGEMENT"
+          ],
+          "outcome": "MULTI_LEVEL",
+          "rejected_declared_claims": []
+        }
+      ],
+      "contract": "transition-diagnosis-v0.1",
+      "errors": [],
+      "label_invariance": {
+        "invariant": true,
+        "outcome_after": "MULTI_LEVEL",
+        "outcome_before": "MULTI_LEVEL",
+        "tested": true
+      },
+      "nonclaim": "A classification is a provisional diagnosis of supplied witnesses, not evidence that the witnesses are true or that the hierarchy is universal.",
+      "valid": true
+    },
+    "physics_truth_verified": false,
+    "warrant": "The pinned P2C tool executed successfully on the embedded receiver-owned matched-frame assessment with access_change=NO and control_change=NO, returning MULTI_LEVEL with FIXED_FAMILY_DYNAMICS, RECORD_FORMATION, and CAPABILITY_ENLARGEMENT under label invariance. This provisional tool diagnosis does not promote P2C's source disposition or verify the supplied physics; the atlas capability verdict remains conditional."
+  },
+  "taf_capability_factorization": {
+    "normal_capability": [
+      0,
+      0,
+      0
+    ],
+    "superconducting_capability": [
+      1,
+      1,
+      1
+    ],
+    "factorization": "FACTORS_THROUGH_RECORD_FORMATION_AND_ERASURE_STRUCTURE",
+    "status": "CONDITIONAL_ON_FROZEN_P2C_STIPULATION",
+    "warrant": "TAF-002 section 4 c1-c3 and c11 plus section 5 Clauses 1-2 place the entire delta in token formability, lattice, invariance, maintenance draw, lifetime, and erasure cost; enlarging holder access, residual budget, or hidden state leaves C_N unchanged."
+  },
+  "ti_effect": {
+    "classification": "GLOBAL_ONTOLOGICAL_ABSORPTION",
+    "physical_issuance": false,
+    "operational_residue": "RETAINED",
+    "warrant": "TI-WFA-001 admits the target S phase into one known BCS/GL family only at the global/ontological conclusion class, blocking absolute novelty while leaving the matched operational task delta untouched."
+  },
+  "finality": {
+    "verdict": "NONE",
+    "settlement": "NO",
+    "preceding_factorization": "FACTORED",
+    "reopenable": true,
+    "reopener": "Heating through Tc, a phase slip, a longer horizon beyond the metastability cap, a changed context or quotient, or an altered resource contract.",
+    "warrant": "The record is only conditionally retained, its capability factor is known, and admissible continuations erase or reopen it; retention and packet issuance do not satisfy TaF settlement or TI physical issuance."
+  },
+  "challenges": {
+    "strongest_absorber": {
+      "condition": "Admit one established BCS/GL Hamiltonian and phase diagram containing both N and S, with COOL available across Tc.",
+      "consequence": "The result is legitimately absorbed only as GLOBAL_ONTOLOGICAL_ABSORPTION: absolute novelty is blocked, but the operational capability residue remains."
+    },
+    "representation_kill": {
+      "condition": "HOSTILE_CONTROL_RELATION_TYPE_COLLAPSE: replace MATCHED_WITH in the counterfactual pair by SAME_OCCURRENCE, MATERIAL_CONTINUITY, or EVOLVES_TO.",
+      "consequence": "Reject the composition because it fabricates a causal same-system matched transition and violates the governing R-D1 frame distinction."
+    },
+    "claim_falsifier": {
+      "condition": "Cheapest physical kill: at the same final temperature, spent and residual budget, access, task family, horizon, quotient, and error contract, a normal realization achieves the joint Q/I/P envelope (1,1,1).",
+      "consequence": "The frame-indexed capability delta is false and the atlas representation must be revised without falling back to access, seed, or value-only arguments."
+    },
+    "regime_reopener": {
+      "condition": "Heat above Tc, induce or observe a phase slip, extend H beyond the metastability cap, or change the frame, quotient, or resource contract.",
+      "consequence": "The winding record, tau_P result, and any local settlement reopen; finality remains NONE."
+    },
+    "held_out_discriminator": {
+      "status": "PROPOSED",
+      "description": "Withhold one applied-flux interval and one smooth noncutting deformation from any calibration or fit, then predict the later calibrated readout under the frozen frame; empirical use awaits the missing primary packet.",
+      "opposed_outcomes": [
+        "S: an integer fluxoid plateau is recovered and the same integer survives the held-out DEFORM through H within the declared error bound.",
+        "N: no jointly quantized, deformation-invariant, zero-maintenance persistent record is recovered under the same frame."
+      ]
+    }
+  },
+  "hostile_controls": [
+    {
+      "control_id": "CTRL-GU-FALSE-FRIEND",
+      "mutation": "Replace the absent GU typed source arrow with RA-E6 or LT-SM6 on the basis of a shared U(1), symmetry-breaking, Higgs, or curvature vocabulary.",
+      "expected_result": "REJECT",
+      "warrant": "RA-E6 concerns the massless photon after electroweak breaking and LT-SM6 concerns Higgs kinetic/potential/breaking curvature components; neither owns BCS/GL order-parameter dynamics, fluxoid formation, persistent current, or phase slips."
+    },
+    {
+      "control_id": "CTRL-MATCHED-RELATION-CAST",
+      "mutation": "Cast the matched two-system relation MATCHED_WITH as SAME_OCCURRENCE, MATERIAL_CONTINUITY, or EVOLVES_TO, or report it as the literal same-ring COOL transition.",
+      "expected_result": "REJECT",
+      "warrant": "The governing P2C referee correction R-D1 requires the literal same-ring comparison to remain budget-unmatched and the budget-matched comparison to remain a noncausal counterfactual pair of two systems."
+    }
+  ],
+  "composition_verdict": {
+    "classification": "CONDITIONAL_DOWNSTREAM_COMPOSITION_WITH_SOURCE_CLOSURE_FAILURE",
+    "downstream_result": "Conditional on the frozen literature-grade P2C stipulation, the DU/Continuity relation representation, P2C diagnostic, TaF capability computation, TI whole-family effect, and finality denial compose without changing source meanings: C_S=(1,1,1), C_N=(0,0,0), the delta factors through record-formation/erasure structure, whole-family absorption is global/ontological only, operational residue is retained, finality is NONE, and physical issuance is false.",
+    "source_closure_failures": [
+      "GU_TYPED_ARROW_MISSING",
+      "PHYSICS_PACKET_LITERATURE_STIPULATION"
+    ],
+    "square_verdict": "NO_SQUARE_PRESERVES_IDENTITY_FINAL_TEMPERATURE_AND_SPENT_BUDGET",
+    "grade": 1,
+    "warrant": "The GU-dependent vertical verdict is capped at Grade 1 compatibility because the GU typed arrow and dedicated primary physics packet are missing. Imported downstream objects and maps may retain their source-grounded Grade 2 representation ceilings, but they do not promote this noncomposition verdict."
+  },
+  "nonclaims": [
+    "No GU superconducting-ring physics, conditional theorem, or typed source arrow is invented; RA-E6 and LT-SM6 remain rejected false friends.",
+    "HOSTILE_CONTROL_GU_FALSE_FRIEND_CROSSWALK: accepting RA-E6 or LT-SM6 as the GU source arrow invalidates this artifact.",
+    "HOSTILE_CONTROL_RELATION_TYPE_COLLAPSE: treating MATCHED_WITH as SAME_OCCURRENCE, MATERIAL_CONTINUITY, or EVOLVES_TO invalidates this artifact.",
+    "No primary-source packet, new measurement, new mechanism, or empirical confirmation is supplied.",
+    "No frame simultaneously provides literal same-ring identity, common final temperature, matched spent budget, and a causal N-to-S transduction.",
+    "No Continuity Ledger method is recast as ring physics, and no matched-pair occurrence identity is inferred from endpoints.",
+    "No P2C hierarchy enlargement or frame-free capability law is promoted; its corrected source disposition remains intact.",
+    "No TaF finality, unbounded persistence, temporal order, or record-capability-order consequence is asserted.",
+    "No TI physical issuance follows; source packet issuance and physical issuance are distinct.",
+    "No global/ontological absorber is upgraded into operational, predictive, or causal absorption.",
+    "No routing, banking, WIP, CURRENT-RESEARCH.yaml, orientation, concept-register, or sibling-repository change follows from this non-routing specimen."
+  ]
+}

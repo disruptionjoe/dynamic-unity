@@ -1,0 +1,201 @@
+{
+  "schema_version": "0.2",
+  "review_id": "DU-PCA-004-XENON-INDEPENDENT-REMAP-V0.2",
+  "artifact_type": "PHENOMENON_CAPABILITY_ATLAS_INDEPENDENT_REMAP",
+  "status": "COMPLETED_NONROUTING_INDEPENDENT_REMAP_WITH_PRIOR_EXPOSURE",
+  "owner": "dynamic-unity",
+  "routing": {
+    "non_routing": true,
+    "banked": false,
+    "wip": false,
+    "live_authority": "CURRENT-RESEARCH.yaml",
+    "executable_continuation": null
+  },
+  "card_ref": "DU-PCA-004",
+  "source_freeze": {
+    "binding_id": "SRC-DU-XENON",
+    "source_owner": "dynamic-unity",
+    "immutable_revision": "0f09474855a97c7961470a10e8ecda1a65baa4e1",
+    "artifact_locator": "explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md",
+    "assertion_selector": "sections 2-8",
+    "content_sha256": "b2de002412780eb6a5ff08cf68e7648e949acd753de1d5dcf3d7186a11cb5d7d"
+  },
+  "method": {
+    "ordering": "SOURCE_FIRST_THEN_FIELD_COMPARISON",
+    "prior_atlas_exposure": true,
+    "blinded": false,
+    "reviewer_relation": "INDEPENDENT_OF_V02_CARD_AUTHORING",
+    "comparison_unit_policy": "The source-first reconstruction and its 39 comparison units were frozen before authoring the additive v0.2 card. Each unit receives exactly one unweighted verdict: agreement when HC-DU-183 explicitly supports or entails the published field, disagreement when the source-first object or type differs, and underdetermined when the source does not select or establish the field. Prior exposure to v0.1 is recorded and can bias agreement upward."
+  },
+  "review_axes": {
+    "mapping": {
+      "status": "COMPLETED_WITH_FRAME_DEPENDENCE",
+      "evidence_refs": [
+        "lab/phenomenon-capability-atlas/atlas-v0.1.json#/phenomena/3",
+        "lab/phenomenon-capability-atlas/cards-v0.2/du-xenon-s1-s2.json",
+        "the 39 field_comparisons in this artifact"
+      ],
+      "limitations": [
+        "The reviewer had prior exposure to the v0.1 atlas, so this is source-first ordered but not blinded.",
+        "The comparison measures one analyst remap, not inter-rater reliability."
+      ]
+    },
+    "source": {
+      "status": "SELECTOR_AND_DIGEST_REVIEWED",
+      "evidence_refs": [
+        "SRC-DU-XENON at revision 0f09474855a97c7961470a10e8ecda1a65baa4e1",
+        "tests/du_dual_phase_s1_s2_pairing_probe.py",
+        "tests/artifacts/du_dual_phase_s1_s2_pairing_result.json"
+      ],
+      "limitations": [
+        "The collaboration papers were consumed through HC-DU-183's filed primary-source reconstruction rather than independently re-audited in this remap.",
+        "The exact finite fixture proves factorization logic, not the empirical frequency of ambiguous packets."
+      ]
+    },
+    "domain": {
+      "status": "LOCAL_ACCEPTED_PHYSICS_PACKET_WITH_APPARATUS_GAP",
+      "evidence_refs": [
+        "HC-DU-183 sections 2, 4, 5, and 6",
+        "HC-DU-183 source pins to XENON1T detector/DAQ, XENONnT triggerless reconstruction, and PandaX-II accidental-coincidence evidence"
+      ],
+      "limitations": [
+        "No independent dual-phase-xenon domain expert participated.",
+        "The packet is family-level and does not freeze one detector's numerical fields, thresholds, rates, calibration epoch, or event cuts."
+      ]
+    }
+  },
+  "source_first_reconstruction": {
+    "phenomenon_regime": "Family-level dual-phase-xenon S1/S2 transduction and event association: accepted detector physics, triggerless retention, and accidental coincidences under parameterized above-threshold, calibration, drift-window, geometry, and event-class conditions. The packet composes evidence from multiple collaboration apparatuses and is not one numerically frozen experimental regime.",
+    "physical_initial_conditions": [
+      "A dual-phase liquid-gas xenon target supports prompt scintillation, electron drift, extraction, and gas electroluminescence.",
+      "An admitted energy-deposition interaction occurs in the active liquid and can form excitation and ionization channels.",
+      "Clock, drift velocity, sensor response, active-volume geometry, and acquisition thresholds are calibrated for the declared class.",
+      "The event-building interval may contain multiple acquired S1 and S2 candidates.",
+      "Detector-specific field strengths, thermodynamic state, electron lifetime, diffusion, thresholds, rates, calibration epoch, and cuts remain unfrozen."
+    ],
+    "process": [
+      "The interaction forms prompt S1 and ionization electrons.",
+      "Electrons drift, extract across the liquid-gas interface, and form delayed S2.",
+      "Sensors and triggerless DAQ retain separate above-threshold endpoint records.",
+      "Software later constructs target-blind compatibility edges and pairing estimates.",
+      "A correct pair conditionally supports drift depth; S2 pattern supports transverse position; S2/S1 and multiplicity support statistical classification."
+    ],
+    "record_topology": [
+      "The underlying interaction occurrence is distinct from S1 and S2 traces.",
+      "S1 and S2 digitized peaks are distinct retained endpoint records.",
+      "The common-occurrence relation between one S1 and one S2 is a separate relation record and is absent from an untagged ambiguous raw packet.",
+      "An event-builder estimate is inferential and does not become physical provenance by algorithm alone.",
+      "A retained physical common tag or source-justified unique matchability can conditionally certify the relation and pairing-dependent depth.",
+      "One linear seven-stage ladder cannot preserve this branching endpoint-plus-relation topology without changing targets between stages."
+    ],
+    "observer_profiles": [
+      "Analyst-selected DAQ archive profile: both unpartitioned endpoint streams and calibration context are visible; retention is possible but exact pairing is not.",
+      "Analyst-selected calibrated event-builder profile: both streams, geometry, calibration, compatibility rules, stochastic model, and optional side information are visible; pairing can be inferred and conditionally certified.",
+      "HC-DU-183 selects no observer, so neither profile is a source-owned canonical observer."
+    ],
+    "capability_tasks": [
+      "Retain and query above-threshold S1 and S2 endpoint records.",
+      "Determine whether event membership and paired depth are constant over every physically admissible matching of the raw packet.",
+      "Conditionally reconstruct drift depth only after pairing is fixed.",
+      "Estimate transverse position from S2 pattern and perform risk-bounded statistical response classification.",
+      "Resources and risks include both streams, clock, drift and geometry calibration, thresholds, target-blind admissibility, optional physical tag, accidental coincidences, multiple matchings, calibration error, and overlapping response laws."
+    ],
+    "geometric_structures": [
+      "Physical TPC active volume, drift direction, liquid-gas interface, and sensor-plane geometry.",
+      "Bipartite compatibility graph on acquired S1 and S2 candidates with target-blind admissibility edges.",
+      "Raw-packet fibres containing physical histories that share endpoint records but differ in common-occurrence relation and pairing-dependent targets.",
+      "The source establishes a graph and matching set, not a separately axiomatized matching complex."
+    ],
+    "issuance_assessment": "UNDERDETERMINED_FROM_SOURCE: HC-DU-183 supplies no source-side issuance primitive or same-neighbor-data discriminator. Ordinary detector dynamics, acquisition, relation refinement, and delayed reconstruction are sufficient absorbers; no issuance classification is earned by the source remap.",
+    "finality_assessment": "UNDERDETERMINED_AT_PUBLIC_AND_GLOBAL_SCOPE: a raw immutable packet does not settle event membership when multiple admissible matchings remain. Target-local settlement is conditional on a physical tag or unique matchability, but HC-DU-183 does not run the full local/public/global finality triple gate."
+  },
+  "field_comparisons": [
+    {"comparison_id": "M1", "category": "METADATA", "published_field": "/display_name", "verdict": "AGREEMENT", "source_first_finding": "The name correctly identifies dual-phase-xenon S1/S2 formation and pairing."},
+    {"comparison_id": "M2", "category": "METADATA", "published_field": "/domain", "verdict": "AGREEMENT", "source_first_finding": "Particle detection and event building are the source-owned domain."},
+    {"comparison_id": "M3", "category": "METADATA", "published_field": "/source_binding_refs", "verdict": "AGREEMENT", "source_first_finding": "SRC-DU-XENON is the correct immutable HC-DU-183 binding."},
+    {"comparison_id": "M4", "category": "METADATA", "published_field": "/source_grounding_status", "verdict": "AGREEMENT", "source_first_finding": "The local packet contains a primary-source detector audit and exact finite pairing control, without transferring its Grade 4 result to the atlas."},
+
+    {"comparison_id": "P1", "category": "PHYSICS", "published_field": "/physics/empirical_signature", "verdict": "AGREEMENT", "source_first_finding": "S1/S2 formation, conditional depth, and accidental pairing are source-supported."},
+    {"comparison_id": "P2", "category": "PHYSICS", "published_field": "/physics/accepted_frameworks", "verdict": "AGREEMENT", "source_first_finding": "The named detector, drift, acquisition, and event-building frameworks match HC-DU-183."},
+    {"comparison_id": "P3", "category": "PHYSICS", "published_field": "/physics/governing_relations", "verdict": "AGREEMENT", "source_first_finding": "Prompt formation, delayed drift response, paired-depth relation, and compatibility matching are source-supported."},
+    {"comparison_id": "P4", "category": "PHYSICS", "published_field": "/physics/validity_regime", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "The published field reads as one calibrated event class, while HC-DU-183 composes multiple detector programs and freezes no single numerical apparatus."},
+    {"comparison_id": "P5", "category": "PHYSICS", "published_field": "/physics/observables", "verdict": "AGREEMENT", "source_first_finding": "Times, waveforms, areas, patterns, S2/S1, and pairing compatibility are supported observables."},
+
+    {"comparison_id": "X1", "category": "PROCESS", "published_field": "/process/antecedents", "verdict": "AGREEMENT", "source_first_finding": "The generic active-xenon, field, calibration, and event-window antecedents are correct."},
+    {"comparison_id": "X2", "category": "PROCESS", "published_field": "/process/transitions", "verdict": "AGREEMENT", "source_first_finding": "The process order from S1/S2 formation through digitization and later event building matches the source."},
+    {"comparison_id": "X3", "category": "PROCESS", "published_field": "/process/interventions", "verdict": "AGREEMENT", "source_first_finding": "Endpoint queries, changed compatibility constraints, physical tags, and side information match source repairs and controls."},
+    {"comparison_id": "X4", "category": "PROCESS", "published_field": "/process/temporal_antecedents", "verdict": "AGREEMENT", "source_first_finding": "S1 precedes S2 for a common occurrence, and pairing precedes exact depth reconstruction."},
+    {"comparison_id": "X5", "category": "PROCESS", "published_field": "/process/geometric_antecedents", "verdict": "AGREEMENT", "source_first_finding": "TPC geometry, sensor pattern, and bipartite compatibility are all source-supported."},
+    {"comparison_id": "X6", "category": "PROCESS", "published_field": "/process/initial_conditions", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "V0.1 has no explicit initial-condition field, and HC-DU-183 leaves important apparatus and rate parameters unfrozen."},
+
+    {"comparison_id": "R1", "category": "RECORD", "published_field": "/record_ladder/0", "verdict": "DISAGREEMENT", "source_first_finding": "The published EVENT is an S1-or-S2 channel event; the source-first map keeps the underlying interaction occurrence distinct from both endpoint traces."},
+    {"comparison_id": "R2", "category": "RECORD", "published_field": "/record_ladder/1", "verdict": "AGREEMENT", "source_first_finding": "Photons, electrons, and sensor waveforms correctly instantiate the S1 and S2 traces."},
+    {"comparison_id": "R3", "category": "RECORD", "published_field": "/record_ladder/2", "verdict": "AGREEMENT", "source_first_finding": "The above-threshold triggerless endpoint stream is a retained record."},
+    {"comparison_id": "R4", "category": "RECORD", "published_field": "/record_ladder relation-record topology", "verdict": "DISAGREEMENT", "source_first_finding": "HC-DU-183 makes common occurrence a separate physical or inferential record duty; v0.1 encodes it only inside certificate conditions, provenance, and projection prose rather than as a first-class relation node."},
+    {"comparison_id": "R5", "category": "RECORD", "published_field": "/record_ladder/3", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "The source establishes software processing but does not select the atlas observer's archive rights and access boundary."},
+    {"comparison_id": "R6", "category": "RECORD", "published_field": "/record_ladder/4", "verdict": "AGREEMENT", "source_first_finding": "A physical tag or target constancy over all admissible matchings is the exact certificate gate."},
+    {"comparison_id": "R7", "category": "RECORD", "published_field": "/record_ladder/5", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "The raw-packet nonfactorization is supported, but public access, custody, and finality are not source-audited."},
+    {"comparison_id": "R8", "category": "RECORD", "published_field": "/record_ladder/6", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "Conditional reconstruction is supported, but HC-DU-183 selects no authorized action class."},
+
+    {"comparison_id": "O1", "category": "OBSERVER", "published_field": "/observer_profiles/0", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "An S2-only control is legitimate, but the source selects no observer and the source-natural first interface is the joint unpartitioned DAQ archive."},
+    {"comparison_id": "O2", "category": "OBSERVER", "published_field": "/observer_profiles/1", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "The calibrated joint event-builder profile is consistent but analyst-selected rather than source-selected."},
+
+    {"comparison_id": "T1", "category": "TASK", "published_field": "/task_family/task", "verdict": "DISAGREEMENT", "source_first_finding": "The frozen source question is exact event-membership and target-factorization; v0.1 centers depth and event classification after a warranted pair, partly assuming the load-bearing relation."},
+    {"comparison_id": "T2", "category": "TASK", "published_field": "/task_family resources, risk, and provenance", "verdict": "AGREEMENT", "source_first_finding": "Both endpoint streams, calibration, pairing evidence, accidentals, and same-occurrence provenance are load-bearing resources and risks."},
+
+    {"comparison_id": "C1", "category": "CONTRAST", "published_field": "/contrasts/0", "verdict": "AGREEMENT", "source_first_finding": "The source probe exactly supports the S2-only versus correctly paired depth contrast, although it is not the source's primary frozen task."},
+    {"comparison_id": "C2", "category": "CONTRAST", "published_field": "/contrasts/1", "verdict": "AGREEMENT", "source_first_finding": "The immutable packet with admissible M1 and M2 is the exact smallest source counterexample."},
+    {"comparison_id": "C3", "category": "CONTRAST", "published_field": "/projection_audit", "verdict": "AGREEMENT", "source_first_finding": "Equal raw packets with different pairing-dependent targets directly instantiate the source's fibre criterion."},
+
+    {"comparison_id": "F1", "category": "FINALITY", "published_field": "/finality", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "NONE is conservative, but HC-DU-183 does not run the TaF settlement, nonfactorization, and reopening gate across local, public, and global scopes."},
+    {"comparison_id": "I1", "category": "ISSUANCE", "published_field": "/temporal_issuance", "verdict": "UNDERDETERMINED_FROM_SOURCE", "source_first_finding": "DISCLOSURE is a plausible atlas overlay, but the source supplies no issuance primitive or same-neighbor-data discriminator and does not make a TI classification."},
+
+    {"comparison_id": "G1", "category": "STRUCTURE", "published_field": "/structures/0", "verdict": "DISAGREEMENT", "source_first_finding": "HC-DU-183 defines a bipartite compatibility graph and admissible matching set; it does not separately construct or check the axioms of a MATCHING_COMPLEX."},
+    {"comparison_id": "G2", "category": "STRUCTURE", "published_field": "/structures/1", "verdict": "AGREEMENT", "source_first_finding": "The source explicitly applies an ordinary record-fibre criterion to hidden common-occurrence relations."},
+
+    {"comparison_id": "E1", "category": "EVIDENCE", "published_field": "/evidence/atlas_grade and ceiling_reason", "verdict": "AGREEMENT", "source_first_finding": "The Grade 2 mapping ceiling correctly avoids importing the source's exact Grade 4 theorem."},
+    {"comparison_id": "E2", "category": "EVIDENCE", "published_field": "/evidence/strongest_absorber", "verdict": "AGREEMENT", "source_first_finding": "The absorber matches HC-DU-183 section 6."},
+    {"comparison_id": "E3", "category": "EVIDENCE", "published_field": "/evidence/cheapest_kill", "verdict": "AGREEMENT", "source_first_finding": "Treating an immutable raw packet as a physically final event partition contradicts the exact source boundary."},
+    {"comparison_id": "E4", "category": "EVIDENCE", "published_field": "/evidence/falsifier", "verdict": "DISAGREEMENT", "source_first_finding": "Adding a physical tag or restricting to a uniquely matchable class repairs or changes the regime; it does not falsify the conditional factorization theorem."},
+    {"comparison_id": "E5", "category": "EVIDENCE", "published_field": "/evidence/missing_work and nonclaims", "verdict": "AGREEMENT", "source_first_finding": "The nonclaims correctly forbid detector-theorem, source-certificate, finality, routing, and new-study promotion."}
+  ],
+  "metrics": {
+    "comparison_units": 39,
+    "agreement": 25,
+    "disagreement": 5,
+    "underdetermined_from_source": 9,
+    "raw_agreement_fraction": 0.641,
+    "raw_disagreement_fraction": 0.1282,
+    "raw_underdetermined_fraction": 0.2308,
+    "agreement_on_determined_units": 0.8333,
+    "frame_sensitive_units": 14,
+    "frame_sensitive_fraction": 0.359,
+    "physics_grade_movement": "NONE",
+    "routing_change": false
+  },
+  "verdicts": [
+    "SUBSTANTIVE_PHYSICS_AND_FIBRE_CORE_STABLE",
+    "OBSERVER_AND_TASK_FRAME_NOT_SOURCE_SELECTED",
+    "SINGLE_LADDER_LOSES_RELATION_RECORD_TOPOLOGY",
+    "VALIDITY_REGIME_IS_FAMILY_LEVEL_NOT_ONE_FROZEN_APPARATUS",
+    "MATCHING_COMPLEX_AND_FALSIFIER_FIELDS_REQUIRE_RETYPE",
+    "NO_PHYSICS_PROMOTION"
+  ],
+  "required_repairs": [
+    "Keep the underlying interaction occurrence separate from S1 and S2 trace and endpoint-record nodes.",
+    "Represent common occurrence, pairing estimate, and pairing certificate as distinct relation-record duties in a record DAG.",
+    "Type both observer profiles as analyst-selected because HC-DU-183 explicitly selects no observer.",
+    "Restore exact event-membership and target-factorization as the source-selected primary task; retain depth and classification as conditional downstream tasks.",
+    "Retype MATCHING_COMPLEX as the source-supported BIPARTITE_GRAPH unless a separate complex construction and axioms are supplied.",
+    "Separate a genuine claim falsifier from physical-tag and unique-matchability regime repairs.",
+    "State that the accepted packet is family-level and list the missing apparatus-specific numerical conditions.",
+    "Run a genuinely blinded domain-expert remap before treating these agreement metrics as inter-rater evidence."
+  ],
+  "nonclaims": [
+    "This review does not modify or supersede the v0.1 card or source-owned HC-DU-183 evidence.",
+    "The 25/5/9 counts measure one non-blinded mapping comparison, not scientific truth or inter-rater reliability.",
+    "No detector physics, source grade, atlas grade, finality, issuance, or ontology is promoted.",
+    "No experiment, hardware, publication, successor, banking, WIP, or routing action is authorized.",
+    "The additive v0.2 card repairs representation typing only."
+  ]
+}

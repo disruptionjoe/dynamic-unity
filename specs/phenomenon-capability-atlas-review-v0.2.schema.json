@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dynamic-unity.local/specs/phenomenon-capability-atlas-review-v0.2.schema.json",
+  "title": "Dynamic Unity Atlas independent-remap review v0.2",
+  "description": "Release-specific source-first review of DU-PCA-004, with mapping, source, and domain review kept independent.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "review_id", "artifact_type", "status", "owner", "routing",
+    "card_ref", "source_freeze", "method", "review_axes", "source_first_reconstruction",
+    "field_comparisons", "metrics", "verdicts", "required_repairs", "nonclaims"
+  ],
+  "properties": {
+    "schema_version": { "const": "0.2" },
+    "review_id": { "const": "DU-PCA-004-XENON-INDEPENDENT-REMAP-V0.2" },
+    "artifact_type": { "const": "PHENOMENON_CAPABILITY_ATLAS_INDEPENDENT_REMAP" },
+    "status": { "const": "COMPLETED_NONROUTING_INDEPENDENT_REMAP_WITH_PRIOR_EXPOSURE" },
+    "owner": { "const": "dynamic-unity" },
+    "routing": { "$ref": "#/$defs/routing" },
+    "card_ref": { "const": "DU-PCA-004" },
+    "source_freeze": { "$ref": "#/$defs/sourceFreeze" },
+    "method": { "$ref": "#/$defs/method" },
+    "review_axes": { "$ref": "#/$defs/reviewAxes" },
+    "source_first_reconstruction": { "$ref": "#/$defs/reconstruction" },
+    "field_comparisons": {
+      "type": "array", "minItems": 39, "maxItems": 39,
+      "items": { "$ref": "#/$defs/fieldComparison" }
+    },
+    "metrics": { "$ref": "#/$defs/metrics" },
+    "verdicts": { "$ref": "#/$defs/nonEmptyStringList" },
+    "required_repairs": { "$ref": "#/$defs/nonEmptyStringList" },
+    "nonclaims": { "$ref": "#/$defs/nonEmptyStringList" }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "stringList": { "type": "array", "items": { "$ref": "#/$defs/nonEmptyString" } },
+    "nonEmptyStringList": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/nonEmptyString" } },
+    "routing": {
+      "type": "object", "additionalProperties": false,
+      "required": ["non_routing", "banked", "wip", "live_authority", "executable_continuation"],
+      "properties": {
+        "non_routing": { "const": true }, "banked": { "const": false },
+        "wip": { "const": false }, "live_authority": { "const": "CURRENT-RESEARCH.yaml" },
+        "executable_continuation": { "type": "null" }
+      }
+    },
+    "sourceFreeze": {
+      "type": "object", "additionalProperties": false,
+      "required": ["binding_id", "source_owner", "immutable_revision", "artifact_locator", "assertion_selector", "content_sha256"],
+      "properties": {
+        "binding_id": { "const": "SRC-DU-XENON" },
+        "source_owner": { "const": "dynamic-unity" },
+        "immutable_revision": { "const": "0f09474855a97c7961470a10e8ecda1a65baa4e1" },
+        "artifact_locator": { "const": "explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md" },
+        "assertion_selector": { "const": "sections 2-8" },
+        "content_sha256": { "const": "b2de002412780eb6a5ff08cf68e7648e949acd753de1d5dcf3d7186a11cb5d7d" }
+      }
+    },
+    "method": {
+      "type": "object", "additionalProperties": false,
+      "required": ["ordering", "prior_atlas_exposure", "blinded", "reviewer_relation", "comparison_unit_policy"],
+      "properties": {
+        "ordering": { "const": "SOURCE_FIRST_THEN_FIELD_COMPARISON" },
+        "prior_atlas_exposure": { "const": true },
+        "blinded": { "const": false },
+        "reviewer_relation": { "const": "INDEPENDENT_OF_V02_CARD_AUTHORING" },
+        "comparison_unit_policy": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "axis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "evidence_refs", "limitations"],
+      "properties": {
+        "status": { "$ref": "#/$defs/nonEmptyString" },
+        "evidence_refs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "limitations": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "reviewAxes": {
+      "type": "object", "additionalProperties": false,
+      "required": ["mapping", "source", "domain"],
+      "properties": {
+        "mapping": { "$ref": "#/$defs/axis" },
+        "source": { "$ref": "#/$defs/axis" },
+        "domain": { "$ref": "#/$defs/axis" }
+      }
+    },
+    "reconstruction": {
+      "type": "object", "additionalProperties": false,
+      "required": ["phenomenon_regime", "physical_initial_conditions", "process", "record_topology", "observer_profiles", "capability_tasks", "geometric_structures", "issuance_assessment", "finality_assessment"],
+      "properties": {
+        "phenomenon_regime": { "$ref": "#/$defs/nonEmptyString" },
+        "physical_initial_conditions": { "$ref": "#/$defs/nonEmptyStringList" },
+        "process": { "$ref": "#/$defs/nonEmptyStringList" },
+        "record_topology": { "$ref": "#/$defs/nonEmptyStringList" },
+        "observer_profiles": { "$ref": "#/$defs/nonEmptyStringList" },
+        "capability_tasks": { "$ref": "#/$defs/nonEmptyStringList" },
+        "geometric_structures": { "$ref": "#/$defs/nonEmptyStringList" },
+        "issuance_assessment": { "$ref": "#/$defs/nonEmptyString" },
+        "finality_assessment": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "fieldComparison": {
+      "type": "object", "additionalProperties": false,
+      "required": ["comparison_id", "category", "published_field", "verdict", "source_first_finding"],
+      "properties": {
+        "comparison_id": { "type": "string", "pattern": "^[A-Z][0-9]+$" },
+        "category": { "enum": ["METADATA", "PHYSICS", "PROCESS", "RECORD", "OBSERVER", "TASK", "CONTRAST", "FINALITY", "ISSUANCE", "STRUCTURE", "EVIDENCE"] },
+        "published_field": { "$ref": "#/$defs/nonEmptyString" },
+        "verdict": { "enum": ["AGREEMENT", "DISAGREEMENT", "UNDERDETERMINED_FROM_SOURCE"] },
+        "source_first_finding": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "metrics": {
+      "type": "object", "additionalProperties": false,
+      "required": ["comparison_units", "agreement", "disagreement", "underdetermined_from_source", "raw_agreement_fraction", "raw_disagreement_fraction", "raw_underdetermined_fraction", "agreement_on_determined_units", "frame_sensitive_units", "frame_sensitive_fraction", "physics_grade_movement", "routing_change"],
+      "properties": {
+        "comparison_units": { "const": 39 },
+        "agreement": { "const": 25 },
+        "disagreement": { "const": 5 },
+        "underdetermined_from_source": { "const": 9 },
+        "raw_agreement_fraction": { "const": 0.641 },
+        "raw_disagreement_fraction": { "const": 0.1282 },
+        "raw_underdetermined_fraction": { "const": 0.2308 },
+        "agreement_on_determined_units": { "const": 0.8333 },
+        "frame_sensitive_units": { "const": 14 },
+        "frame_sensitive_fraction": { "const": 0.359 },
+        "physics_grade_movement": { "const": "NONE" },
+        "routing_change": { "const": false }
+      }
+    }
+  }
+}

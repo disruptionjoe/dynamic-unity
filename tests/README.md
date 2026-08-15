@@ -25,6 +25,28 @@ source/provenance and representation integrity only. It does not validate the
 physics summaries, novelty, ontology, a capability or finality law, paper
 readiness, live routing, or permission to expand the catalog.
 
+`du_phenomenon_capability_atlas_v02_probe.py` validates the additive,
+non-routing v0.2 first run. It uses a fail-closed standard-library evaluator for
+the exact JSON Schema vocabulary in the four v0.2 schemas, then checks
+claim-level independent physics grounding, distinct review axes, the canonical
+record vocabulary and relation DAG, typed capability projections, challenge
+semantics, the 39-row source-first xenon adjudication, and the
+superconducting-ring composition/source-closure failure. Its hostile suite also
+proves that the core card schema accepts a synthetic additional ID while the
+frozen release rejects it; no seventh card is published. Run:
+
+```bash
+PYTHONDONTWRITEBYTECODE=1 python3 -S tests/du_phenomenon_capability_atlas_v02_probe.py
+```
+
+The deterministic receipt is
+`artifacts/du_phenomenon_capability_atlas_v02_result.json`. Passing validates
+the declared structure and source custody only. It does not establish accepted
+physics beyond the pinned sources, blind independence, GU source closure,
+finality, issuance, novelty, routing, or authority to expand the denominator.
+The frozen first-run receipt covers four instances, 31 semantic invariants, and
+36/36 rejected hostile mutations.
+
 `du_physical_descent_ten_swing_campaign_probe.py` is a method/governance
 check. It verifies that the physical-descent campaign contains ten ordered
 and complete swing cards; preserves the Science Council, triple-diamond,

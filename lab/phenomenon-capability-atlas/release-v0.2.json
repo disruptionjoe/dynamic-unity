@@ -1,0 +1,162 @@
+{
+  "schema_version": "0.2",
+  "release_id": "DU-PCA-FIRST-RUN-V0.2",
+  "artifact_type": "PHENOMENON_CAPABILITY_ATLAS_FROZEN_RELEASE_MANIFEST",
+  "status": "FROZEN_NONROUTING_FIRST_RUN",
+  "owner": "dynamic-unity",
+  "created_at": "2026-08-15",
+  "routing": {
+    "non_routing": true,
+    "banked": false,
+    "wip": false,
+    "live_authority": "CURRENT-RESEARCH.yaml",
+    "scheduled_priority_unchanged": true,
+    "executable_continuation": null
+  },
+  "legacy_v01": {
+    "preserved_byte_for_byte": true,
+    "atlas_id": "DU-PCA-PILOT-0.1",
+    "card_count": 6,
+    "card_ids": [
+      "DU-PCA-001",
+      "DU-PCA-002",
+      "DU-PCA-003",
+      "DU-PCA-004",
+      "DU-PCA-005",
+      "DU-PCA-006"
+    ],
+    "artifacts": {
+      "exploration": {
+        "path": "explorations/phenomenon-to-capability-atlas-v0.1-2026-08-15.md",
+        "sha256": "21a34d3a0b5582c10b6f45582421648b3ba5bb770073880cad3b18014cf41998"
+      },
+      "atlas": {
+        "path": "lab/phenomenon-capability-atlas/atlas-v0.1.json",
+        "sha256": "20e44a45c66b1b9f7a06f05f4002a963c19ffc6d41685a91d5931eb1aea7115f"
+      },
+      "schema": {
+        "path": "specs/phenomenon-capability-atlas-v0.1.schema.json",
+        "sha256": "526225c50defd96bb286b842c4d451c23cdfe40d28a631a23a7b5877b085bdc4"
+      },
+      "probe": {
+        "path": "tests/du_phenomenon_capability_atlas_probe.py",
+        "sha256": "3654209be9f4ebc21cb24ffd85a7ffdd0bc5fe9dfe63194ee30ac32789771bfd"
+      },
+      "receipt": {
+        "path": "tests/artifacts/du_phenomenon_capability_atlas_result.json",
+        "sha256": "8386b4657c5bfce1860d0acbd062f693a292abc2aeb4ca8e26a47b7123936b4b"
+      }
+    }
+  },
+  "v02_specimens": {
+    "card_count": 1,
+    "card_ids": [
+      "DU-PCA-004"
+    ],
+    "review_count": 1,
+    "review_ids": [
+      "DU-PCA-004-XENON-INDEPENDENT-REMAP-V0.2"
+    ],
+    "composition_count": 1,
+    "composition_ids": [
+      "DU-PCA-COMP-GU-RING-FIRST-RUN-V0.2"
+    ],
+    "artifacts": {
+      "card": {
+        "path": "lab/phenomenon-capability-atlas/cards-v0.2/du-xenon-s1-s2.json",
+        "sha256": "21fe9f809995381ed6d8e802d3871e69d2585af04f8a929e5acb598b765c1343"
+      },
+      "review": {
+        "path": "lab/phenomenon-capability-atlas/reviews/xenon-s1-s2-independent-remap-v0.2.json",
+        "sha256": "b68b2ca763adb06e0abe94795166327f369a64637a6e92b4dd031aa65c52a57a"
+      },
+      "composition": {
+        "path": "lab/phenomenon-capability-atlas/compositions/gu-record-capability-first-run-v0.2.json",
+        "sha256": "8cf0bf746af969aeb579697b75ddc2e3524706abf6fe2403a5640f66d82759e5"
+      }
+    }
+  },
+  "schemas": {
+    "card": {
+      "path": "specs/phenomenon-capability-atlas-card-v0.2.schema.json",
+      "sha256": "b5ae919a1eacddb942e5e7b0a7817b2b30c817d9e7983837f5e8419da314a7db"
+    },
+    "review": {
+      "path": "specs/phenomenon-capability-atlas-review-v0.2.schema.json",
+      "sha256": "26a39a9b038dd6fb7a93522f0c9f456e9c4f49c8c35a850c24f08e9d1067a528"
+    },
+    "composition": {
+      "path": "specs/phenomenon-capability-atlas-composition-v0.2.schema.json",
+      "sha256": "7ea4ce59120e53da9413b6f70b97369944d4cea562ed6368c6367bfd83082e4a"
+    },
+    "release": {
+      "path": "specs/phenomenon-capability-atlas-release-v0.2.schema.json",
+      "sha256": "97334cbf52796f4ae247f80d6d31656a4f1796361ebc689a8b8c1ed3cba120b2"
+    }
+  },
+  "validator": {
+    "probe_path": "tests/du_phenomenon_capability_atlas_v02_probe.py",
+    "probe_sha256": "f799481442aa93bf95192430e885542423aca31cc8403ae541a5f4bf2330a370",
+    "receipt_path": "tests/artifacts/du_phenomenon_capability_atlas_v02_result.json",
+    "schema_engine": "STDLIB_FAIL_CLOSED_SUPPORTED_DRAFT_2020_12_VOCABULARY",
+    "hostile_mutation_ids": [
+      "unknown_schema_property",
+      "unsupported_schema_keyword",
+      "legacy_record_status",
+      "missing_review_axis",
+      "adapter_level_eligibility",
+      "accepted_without_independent_grounding",
+      "gu_requirement_as_physics_grounding",
+      "accepted_with_domain_gap",
+      "release_card_count_drift",
+      "release_card_id_drift",
+      "release_digest_drift",
+      "schema_digest_drift",
+      "predecessor_digest_drift",
+      "source_digest_drift",
+      "predecessor_card_identity_drift",
+      "review_artifact_ref_drift",
+      "projection_constant_nonzero",
+      "projection_varies_zero",
+      "projection_not_tested_with_witness",
+      "relation_record_missing_subjects",
+      "record_graph_cycle",
+      "missing_representation_kill",
+      "supplied_discriminator_without_outcomes",
+      "review_metric_drift",
+      "review_axis_collapse",
+      "composition_gu_false_friend",
+      "composition_matched_as_same_occurrence",
+      "composition_matched_as_evolution",
+      "composition_dangling_endpoint",
+      "composition_atlas_predecessor_role_leak",
+      "p2c_tool_result_drift",
+      "composition_cltp_as_physics",
+      "composition_finality_promotion",
+      "composition_ti_erases_residue",
+      "evidence_grade_promotion",
+      "routing_promotion"
+    ]
+  },
+  "migration_contract": {
+    "record_status_map": {
+      "ESTABLISHED": "PRESENT",
+      "FAILED": "ABSENT",
+      "CONDITIONAL": "CONDITIONAL",
+      "UNKNOWN": "UNKNOWN",
+      "NOT_APPLICABLE": "NOT_APPLICABLE"
+    },
+    "review_axes_split": true,
+    "physics_eligibility_location": "CLAIM_LEVEL_SOURCE_BINDING",
+    "projection_spread_typed": true,
+    "challenge_fields_split": true,
+    "release_constraints_location": "THIS_FROZEN_MANIFEST"
+  },
+  "nonclaims": [
+    "This release remaps one existing v0.1 card and publishes no seventh phenomenon.",
+    "The v0.1 six-card denominator and its versioned artifacts remain byte-identical.",
+    "The superconducting-ring vertical specimen is a Grade-1 conditional noncomposition with an absent GU source arrow and no dedicated primary physics packet.",
+    "Schema and probe success establish representation and source-custody consistency only, not scientific truth, physics-source entailment, finality, issuance, novelty, or ontology.",
+    "No source grade, atlas denominator, banking, WIP, routing, successor, publication, experiment, or hardware action is authorized."
+  ]
+}

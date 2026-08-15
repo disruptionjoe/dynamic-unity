@@ -1,0 +1,373 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://dynamic-unity.local/specs/phenomenon-capability-atlas-composition-v0.2.schema.json",
+  "title": "Dynamic Unity GU-to-record-to-capability first-run composition v0.2",
+  "description": "Conditional superconducting-ring composition that preserves source-closure failures and distinguishes physical evolution from a matched counterfactual relation.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "composition_id", "status", "owner", "routing",
+    "evidence_ceiling", "phenomenon_ref", "source_bindings", "composition_claim",
+    "source_closure", "physical_frame", "initial_boundary_conditions", "typed_objects",
+    "typed_maps", "relation_records", "steps", "diagrams", "preserved_invariants",
+    "observer_action_resource_contract", "cltp_gate", "p2c_diagnostic",
+    "taf_capability_factorization", "ti_effect", "finality", "challenges",
+    "hostile_controls", "composition_verdict", "nonclaims"
+  ],
+  "properties": {
+    "schema_version": { "const": "0.2" },
+    "composition_id": { "const": "DU-PCA-COMP-GU-RING-FIRST-RUN-V0.2" },
+    "status": { "const": "COMPLETED_NONROUTING_CONDITIONAL_NONCOMPOSITION" },
+    "owner": { "const": "dynamic-unity" },
+    "routing": { "$ref": "#/$defs/routing" },
+    "evidence_ceiling": { "type": "integer", "minimum": 0, "maximum": 2 },
+    "phenomenon_ref": { "const": "DU-PCA-002" },
+    "source_bindings": { "type": "array", "minItems": 5, "items": { "$ref": "#/$defs/sourceBinding" } },
+    "composition_claim": { "$ref": "#/$defs/nonEmptyString" },
+    "source_closure": { "$ref": "#/$defs/sourceClosure" },
+    "physical_frame": { "$ref": "#/$defs/physicalFrame" },
+    "initial_boundary_conditions": { "type": "array", "minItems": 6, "items": { "$ref": "#/$defs/condition" } },
+    "typed_objects": { "type": "array", "minItems": 7, "items": { "$ref": "#/$defs/typedObject" } },
+    "typed_maps": { "type": "array", "minItems": 7, "items": { "$ref": "#/$defs/typedMap" } },
+    "relation_records": { "type": "array", "minItems": 6, "items": { "$ref": "#/$defs/relationRecord" } },
+    "steps": { "type": "array", "minItems": 6, "items": { "$ref": "#/$defs/step" } },
+    "diagrams": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/diagram" } },
+    "preserved_invariants": { "$ref": "#/$defs/nonEmptyStringList" },
+    "observer_action_resource_contract": { "$ref": "#/$defs/capabilityFrame" },
+    "cltp_gate": { "$ref": "#/$defs/cltpGate" },
+    "p2c_diagnostic": { "$ref": "#/$defs/p2cDiagnostic" },
+    "taf_capability_factorization": { "$ref": "#/$defs/tafFactorization" },
+    "ti_effect": { "$ref": "#/$defs/tiEffect" },
+    "finality": { "$ref": "#/$defs/finality" },
+    "challenges": { "$ref": "#/$defs/challenges" },
+    "hostile_controls": { "type": "array", "minItems": 2, "maxItems": 2, "items": { "$ref": "#/$defs/hostileControl" } },
+    "composition_verdict": { "$ref": "#/$defs/compositionVerdict" },
+    "nonclaims": { "$ref": "#/$defs/nonEmptyStringList" }
+  },
+  "$defs": {
+    "nonEmptyString": { "type": "string", "minLength": 1 },
+    "stringList": { "type": "array", "items": { "$ref": "#/$defs/nonEmptyString" } },
+    "nonEmptyStringList": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/nonEmptyString" } },
+    "routing": {
+      "type": "object", "additionalProperties": false,
+      "required": ["non_routing", "banked", "wip", "live_authority", "executable_continuation"],
+      "properties": {
+        "non_routing": { "const": true }, "banked": { "const": false },
+        "wip": { "const": false }, "live_authority": { "const": "CURRENT-RESEARCH.yaml" },
+        "executable_continuation": { "type": "null" }
+      }
+    },
+    "sourceBinding": {
+      "type": "object", "additionalProperties": false,
+      "required": ["binding_id", "source_owner", "immutable_revision", "artifact_locator", "assertion_selector", "content_sha256", "role", "native_status", "nonclaims"],
+      "properties": {
+        "binding_id": { "type": "string", "pattern": "^SRC-[A-Z0-9-]+$" },
+        "source_owner": { "enum": ["gu-formalization", "dynamic-unity", "possibility-to-capability", "time-as-finality", "temporal-issuance", "continuity-ledger"] },
+        "immutable_revision": { "type": "string", "pattern": "^[0-9a-f]{40}$" },
+        "artifact_locator": { "$ref": "#/$defs/nonEmptyString" },
+        "assertion_selector": { "$ref": "#/$defs/nonEmptyString" },
+        "content_sha256": { "type": "string", "pattern": "^[0-9a-f]{64}$" },
+        "role": { "enum": ["THEORY_REQUIREMENT", "PHYSICS_STIPULATION", "ATLAS_PREDECESSOR", "RECORD_METHOD", "TRANSITION_DIAGNOSTIC", "CAPABILITY_FINALITY_METHOD", "ISSUANCE_EFFECT_METHOD"] },
+        "native_status": { "$ref": "#/$defs/nonEmptyString" },
+        "nonclaims": { "$ref": "#/$defs/nonEmptyStringList" }
+      }
+    },
+    "closureAxis": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "evidence", "missing_source_duty"],
+      "properties": {
+        "status": { "$ref": "#/$defs/nonEmptyString" },
+        "evidence": { "$ref": "#/$defs/nonEmptyString" },
+        "missing_source_duty": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "guClosure": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "exhaustive_query", "rejected_false_friends", "missing_source_duty"],
+      "properties": {
+        "status": { "const": "NO_TYPED_SOURCE_ARROW" },
+        "exhaustive_query": { "$ref": "#/$defs/nonEmptyString" },
+        "rejected_false_friends": { "type": "array", "minItems": 2, "items": { "enum": ["RA-E6", "LT-SM6"] } },
+        "missing_source_duty": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "sourceClosure": {
+      "type": "object", "additionalProperties": false,
+      "required": ["gu_requirement_crosswalk", "physics_packet", "continuity", "p2c", "taf", "temporal_issuance"],
+      "properties": {
+        "gu_requirement_crosswalk": { "$ref": "#/$defs/guClosure" },
+        "physics_packet": { "$ref": "#/$defs/closureAxis" },
+        "continuity": { "$ref": "#/$defs/closureAxis" },
+        "p2c": { "$ref": "#/$defs/closureAxis" },
+        "taf": { "$ref": "#/$defs/closureAxis" },
+        "temporal_issuance": { "$ref": "#/$defs/closureAxis" }
+      }
+    },
+    "sameRingFrame": {
+      "type": "object", "additionalProperties": false,
+      "required": ["initial_state", "operation", "final_state", "occurrence_identity", "budget_status"],
+      "properties": {
+        "initial_state": { "$ref": "#/$defs/nonEmptyString" },
+        "operation": { "const": "COOL" },
+        "final_state": { "$ref": "#/$defs/nonEmptyString" },
+        "occurrence_identity": { "const": "PRESERVED" },
+        "budget_status": { "const": "UNMATCHED" }
+      }
+    },
+    "matchedFrame": {
+      "type": "object", "additionalProperties": false,
+      "required": ["left_state", "relation", "right_state", "occurrence_identity", "causal_evolution"],
+      "properties": {
+        "left_state": { "$ref": "#/$defs/nonEmptyString" },
+        "relation": { "const": "MATCHED_WITH" },
+        "right_state": { "$ref": "#/$defs/nonEmptyString" },
+        "occurrence_identity": { "const": "NOT_ASSERTED" },
+        "causal_evolution": { "const": false }
+      }
+    },
+    "physicalFrame": {
+      "type": "object", "additionalProperties": false,
+      "required": ["literal_same_ring_transition", "matched_budget_counterfactual_pair", "failed_joint_requirement"],
+      "properties": {
+        "literal_same_ring_transition": { "$ref": "#/$defs/sameRingFrame" },
+        "matched_budget_counterfactual_pair": { "$ref": "#/$defs/matchedFrame" },
+        "failed_joint_requirement": { "const": "NO_ADMITTED_SQUARE_PRESERVES_OCCURRENCE_IDENTITY_FINAL_TEMPERATURE_AND_SPENT_BUDGET" }
+      }
+    },
+    "condition": {
+      "type": "object", "additionalProperties": false,
+      "required": ["condition_id", "condition_kind", "applies_to", "status", "statement", "source_refs"],
+      "properties": {
+        "condition_id": { "type": "string", "pattern": "^(IC|BC)-[A-Z0-9-]+$" },
+        "condition_kind": { "enum": ["INITIAL", "BOUNDARY"] },
+        "applies_to": { "enum": ["SAME_RING", "MATCHED_COUNTERFACTUAL", "BOTH"] },
+        "status": { "enum": ["FROZEN", "PARAMETERIZED", "STIPULATED"] },
+        "statement": { "$ref": "#/$defs/nonEmptyString" },
+        "source_refs": { "$ref": "#/$defs/nonEmptyStringList" }
+      }
+    },
+    "typedObject": {
+      "type": "object", "additionalProperties": false,
+      "required": ["object_id", "object_type", "description", "source_refs", "grade"],
+      "properties": {
+        "object_id": { "type": "string", "pattern": "^OBJ-[A-Z0-9-]+$" },
+        "object_type": { "enum": ["GU_REQUIREMENT_INVENTORY", "PHYSICAL_STATE", "PHYSICAL_EVENT", "RESOURCE", "MATERIAL_RECORD", "ACCESS_READOUT", "CAPABILITY_ENVELOPE", "WHOLE_FAMILY"] },
+        "description": { "$ref": "#/$defs/nonEmptyString" },
+        "source_refs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "grade": { "type": "integer", "minimum": 0, "maximum": 2 }
+      }
+    },
+    "typedMap": {
+      "type": "object", "additionalProperties": false,
+      "required": ["map_id", "map_type", "domain_refs", "codomain_refs", "causal", "description", "source_refs", "grade"],
+      "properties": {
+        "map_id": { "type": "string", "pattern": "^MAP-[A-Z0-9-]+$" },
+        "map_type": { "enum": ["PHYSICAL_EVOLUTION", "MATCHING_RELATION", "RECORD_FORMATION", "ACCESS", "CAPABILITY", "WHOLE_FAMILY_QUOTIENT"] },
+        "domain_refs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "codomain_refs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "causal": { "type": "boolean" },
+        "description": { "$ref": "#/$defs/nonEmptyString" },
+        "source_refs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "grade": { "type": "integer", "minimum": 0, "maximum": 2 }
+      }
+    },
+    "relationRecord": {
+      "type": "object", "additionalProperties": false,
+      "required": ["relation_id", "relation_type", "from_ref", "to_ref", "frame", "status", "warrant"],
+      "properties": {
+        "relation_id": { "type": "string", "pattern": "^REL-[A-Z0-9-]+$" },
+        "relation_type": { "enum": ["FORMED_BY", "SEEDED_BY", "HELD_BY", "READ_BY", "ARCHIVED_AS", "SUPPORTS", "CALIBRATED_BY", "ERASED_BY", "MATCHED_WITH", "SAME_OCCURRENCE", "MATERIAL_CONTINUITY", "EVOLVES_TO"] },
+        "from_ref": { "$ref": "#/$defs/nonEmptyString" },
+        "to_ref": { "$ref": "#/$defs/nonEmptyString" },
+        "frame": { "enum": ["SAME_RING", "MATCHED_COUNTERFACTUAL", "BOTH"] },
+        "status": { "enum": ["PRESENT", "ABSENT", "CONDITIONAL", "UNKNOWN", "NOT_APPLICABLE"] },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "step": {
+      "type": "object", "additionalProperties": false,
+      "required": ["step_id", "layer", "inputs", "outputs", "source_refs", "status", "grade", "result", "nonclaims"],
+      "properties": {
+        "step_id": { "type": "string", "pattern": "^STEP-[0-9]+$" },
+        "layer": { "enum": ["GU_REQUIREMENT_CROSSWALK", "INITIAL_BOUNDARY_CONDITIONS", "DU_CONTINUITY_RECORDS", "P2C_TRANSITION", "TAF_CAPABILITY_FINALITY", "TI_ISSUANCE_EFFECT"] },
+        "inputs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "outputs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "source_refs": { "$ref": "#/$defs/nonEmptyStringList" },
+        "status": { "enum": ["COMPOSED", "CONDITIONAL", "SOURCE_CLOSURE_FAILURE", "NONCOMPOSING"] },
+        "grade": { "type": "integer", "minimum": 0, "maximum": 2 },
+        "result": { "$ref": "#/$defs/nonEmptyString" },
+        "nonclaims": { "$ref": "#/$defs/nonEmptyStringList" }
+      }
+    },
+    "diagramArrow": {
+      "type": "object", "additionalProperties": false,
+      "required": ["arrow_id", "from_ref", "to_ref", "arrow_type"],
+      "properties": {
+        "arrow_id": { "$ref": "#/$defs/nonEmptyString" },
+        "from_ref": { "$ref": "#/$defs/nonEmptyString" },
+        "to_ref": { "$ref": "#/$defs/nonEmptyString" },
+        "arrow_type": { "enum": ["PHYSICAL", "COUNTERFACTUAL_MATCH", "RECORD", "ACCESS", "CAPABILITY", "QUOTIENT"] }
+      }
+    },
+    "diagram": {
+      "type": "object", "additionalProperties": false,
+      "required": ["diagram_id", "kind", "nodes", "arrows", "verdict", "failure_reason"],
+      "properties": {
+        "diagram_id": { "type": "string", "pattern": "^DGM-[A-Z0-9-]+$" },
+        "kind": { "enum": ["COMMUTING_SQUARE", "FAILED_SQUARE", "RELATION_DAG"] },
+        "nodes": { "$ref": "#/$defs/nonEmptyStringList" },
+        "arrows": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/diagramArrow" } },
+        "verdict": { "enum": ["COMMUTES", "DOES_NOT_COMMUTE", "NOT_TESTED"] },
+        "failure_reason": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "capabilityFrame": {
+      "type": "object", "additionalProperties": false,
+      "required": ["observer", "task", "horizon", "actions", "resources", "risk_or_error", "provenance"],
+      "properties": {
+        "observer": { "$ref": "#/$defs/nonEmptyString" },
+        "task": { "$ref": "#/$defs/nonEmptyString" },
+        "horizon": { "$ref": "#/$defs/nonEmptyString" },
+        "actions": { "$ref": "#/$defs/nonEmptyStringList" },
+        "resources": { "$ref": "#/$defs/nonEmptyStringList" },
+        "risk_or_error": { "$ref": "#/$defs/nonEmptyString" },
+        "provenance": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "cltpGate": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "occurrence_identity", "same_carrier", "custody", "physics_role", "warrant"],
+      "properties": {
+        "status": { "const": "METHOD_ONLY_NOT_RING_PHYSICS" },
+        "occurrence_identity": { "enum": ["PRESERVED_SAME_RING_ONLY", "NOT_ESTABLISHED"] },
+        "same_carrier": { "enum": ["PRESERVED_SAME_RING_ONLY", "NOT_ESTABLISHED"] },
+        "custody": { "$ref": "#/$defs/nonEmptyString" },
+        "physics_role": { "const": "NON_GROUNDING" },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "p2cDiagnostic": {
+      "type": "object", "additionalProperties": false,
+      "required": ["possibility_family_relation", "dynamics_change", "raw_task_relation", "normalized_task_relation", "record_formation", "access_change", "control_change", "capability_verdict", "tool_binding_ref", "assessment", "tool_result", "physics_truth_verified", "warrant"],
+      "properties": {
+        "possibility_family_relation": { "const": "SAME" },
+        "dynamics_change": { "const": "YES" },
+        "raw_task_relation": { "const": "SUPERSET" },
+        "normalized_task_relation": { "const": "SUPERSET" },
+        "record_formation": { "const": "YES" },
+        "access_change": { "const": "NO" },
+        "control_change": { "const": "NO" },
+        "capability_verdict": { "const": "CONDITIONAL" },
+        "tool_binding_ref": { "const": "SRC-P2C-DIAGNOSTIC-TOOL-V01" },
+        "assessment": { "type": "object" },
+        "tool_result": { "$ref": "#/$defs/p2cToolResult" },
+        "physics_truth_verified": { "const": false },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "p2cToolResult": {
+      "type": "object", "additionalProperties": false,
+      "required": ["contract", "assessment_id", "valid", "aggregate_outcome", "branch_relation", "branch_results", "label_invariance", "errors", "nonclaim"],
+      "properties": {
+        "contract": { "const": "transition-diagnosis-v0.1" },
+        "assessment_id": { "type": "string", "pattern": "^[A-Z][A-Z0-9_-]*-TD-[0-9]{3,}$" },
+        "valid": { "const": true },
+        "aggregate_outcome": { "const": "MULTI_LEVEL" },
+        "branch_relation": { "const": "SAME_OBJECT" },
+        "branch_results": { "type": "array", "minItems": 1, "maxItems": 1, "items": { "type": "object" } },
+        "label_invariance": { "$ref": "#/$defs/p2cLabelInvariance" },
+        "errors": { "const": [] },
+        "nonclaim": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "p2cLabelInvariance": {
+      "type": "object", "additionalProperties": false,
+      "required": ["tested", "invariant", "outcome_before", "outcome_after"],
+      "properties": {
+        "tested": { "const": true }, "invariant": { "const": true },
+        "outcome_before": { "const": "MULTI_LEVEL" },
+        "outcome_after": { "const": "MULTI_LEVEL" }
+      }
+    },
+    "tafFactorization": {
+      "type": "object", "additionalProperties": false,
+      "required": ["normal_capability", "superconducting_capability", "factorization", "status", "warrant"],
+      "properties": {
+        "normal_capability": { "const": [0, 0, 0] },
+        "superconducting_capability": { "const": [1, 1, 1] },
+        "factorization": { "const": "FACTORS_THROUGH_RECORD_FORMATION_AND_ERASURE_STRUCTURE" },
+        "status": { "const": "CONDITIONAL_ON_FROZEN_P2C_STIPULATION" },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "tiEffect": {
+      "type": "object", "additionalProperties": false,
+      "required": ["classification", "physical_issuance", "operational_residue", "warrant"],
+      "properties": {
+        "classification": { "const": "GLOBAL_ONTOLOGICAL_ABSORPTION" },
+        "physical_issuance": { "const": false },
+        "operational_residue": { "const": "RETAINED" },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "finality": {
+      "type": "object", "additionalProperties": false,
+      "required": ["verdict", "settlement", "preceding_factorization", "reopenable", "reopener", "warrant"],
+      "properties": {
+        "verdict": { "const": "NONE" },
+        "settlement": { "enum": ["NO", "CONDITIONAL", "UNKNOWN"] },
+        "preceding_factorization": { "const": "FACTORED" },
+        "reopenable": { "const": true },
+        "reopener": { "$ref": "#/$defs/nonEmptyString" },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "challenge": {
+      "type": "object", "additionalProperties": false,
+      "required": ["condition", "consequence"],
+      "properties": { "condition": { "$ref": "#/$defs/nonEmptyString" }, "consequence": { "$ref": "#/$defs/nonEmptyString" } }
+    },
+    "heldOut": {
+      "type": "object", "additionalProperties": false,
+      "required": ["status", "description", "opposed_outcomes"],
+      "properties": {
+        "status": { "enum": ["SUPPLIED", "PROPOSED", "NONE_IDENTIFIED", "NOT_APPLICABLE"] },
+        "description": { "$ref": "#/$defs/nonEmptyString" },
+        "opposed_outcomes": { "$ref": "#/$defs/stringList" }
+      }
+    },
+    "challenges": {
+      "type": "object", "additionalProperties": false,
+      "required": ["strongest_absorber", "representation_kill", "claim_falsifier", "regime_reopener", "held_out_discriminator"],
+      "properties": {
+        "strongest_absorber": { "$ref": "#/$defs/challenge" },
+        "representation_kill": { "$ref": "#/$defs/challenge" },
+        "claim_falsifier": { "$ref": "#/$defs/challenge" },
+        "regime_reopener": { "$ref": "#/$defs/challenge" },
+        "held_out_discriminator": { "$ref": "#/$defs/heldOut" }
+      }
+    },
+    "hostileControl": {
+      "type": "object", "additionalProperties": false,
+      "required": ["control_id", "mutation", "expected_result", "warrant"],
+      "properties": {
+        "control_id": { "enum": ["CTRL-GU-FALSE-FRIEND", "CTRL-MATCHED-RELATION-CAST"] },
+        "mutation": { "$ref": "#/$defs/nonEmptyString" },
+        "expected_result": { "const": "REJECT" },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    },
+    "compositionVerdict": {
+      "type": "object", "additionalProperties": false,
+      "required": ["classification", "downstream_result", "source_closure_failures", "square_verdict", "grade", "warrant"],
+      "properties": {
+        "classification": { "const": "CONDITIONAL_DOWNSTREAM_COMPOSITION_WITH_SOURCE_CLOSURE_FAILURE" },
+        "downstream_result": { "$ref": "#/$defs/nonEmptyString" },
+        "source_closure_failures": { "type": "array", "minItems": 2, "items": { "enum": ["GU_TYPED_ARROW_MISSING", "PHYSICS_PACKET_LITERATURE_STIPULATION"] } },
+        "square_verdict": { "const": "NO_SQUARE_PRESERVES_IDENTITY_FINAL_TEMPERATURE_AND_SPENT_BUDGET" },
+        "grade": { "type": "integer", "minimum": 0, "maximum": 2 },
+        "warrant": { "$ref": "#/$defs/nonEmptyString" }
+      }
+    }
+  }
+}

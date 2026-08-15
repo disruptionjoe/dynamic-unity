@@ -1,7 +1,7 @@
 ---
 artifact_type: phenomenon_to_capability_atlas_contract
-schema_version: "0.1"
-status: completed_nonrouting_method_pilot
+schema_version: "0.2"
+status: completed_nonrouting_first_method_run
 owner: dynamic-unity
 primary_lane: "2"
 supporting_lanes: ["3", "4", "5", "6"]
@@ -9,6 +9,7 @@ channel: CH-SYN
 banked: false
 maximum_grade: 2
 created: 2026-08-15
+updated: 2026-08-15
 live_routing_authority: ../CURRENT-RESEARCH.yaml
 ---
 
@@ -46,10 +47,13 @@ only through a physical observer profile.
 
 ## Status and routing boundary
 
-Version 0.1 is a completed, non-routing, unbanked method pilot. Its frozen six
-specimens test the representation contract; they are not a new WIP program, a
-successor selection, or an executable continuation. `CURRENT-RESEARCH.yaml`
-remains the sole live research authority, and Q0063 remains untouched.
+Version 0.1 is a completed, non-routing, unbanked method pilot. Its schema,
+six-card bundle, probe, receipt, and dated synthesis remain immutable evidence.
+Version 0.2 is an additive first method run: one existing specimen is remapped,
+one vertical composition is attempted, and the reusable contract is hardened.
+Neither version is a new WIP program, a successor selection, or an executable
+continuation. `CURRENT-RESEARCH.yaml` remains the sole live research authority,
+and Q0063 remains untouched.
 
 The atlas may become a large catalog only after a separately authorized source
 inventory, primary-source audit, denominator freeze, and expansion review. The
@@ -71,10 +75,36 @@ evidence grade is preserved independently of the atlas mapping grade.
 | Temporal Issuance | guarded issuance-versus-disclosure effect type | Access change, settlement, or finality does not imply issuance. |
 | Continuity Ledger | occurrence identity, custody, provenance, and material-record discipline | A trace is not automatically a record, and a record is not automatically a public certificate. |
 
-Each source adapter declares whether its rows are eligible to serve as
-phenomena. The Geometric Unity requirement-ledger adapter is deliberately
-`phenomenon_eligible: false`; a future physics-phenomena inventory or audited
-crosswalk must do the semantic work that a row name cannot do.
+Eligibility is declared on each **claim binding**, not on a repository-wide
+adapter. A binding records its claim role, whether it is independent of the
+atlas mapping, its physics-grounding status, revision, locator, selector, and
+content digest. An accepted-physics description must resolve at least one
+independent `PHYSICS_GROUNDING` binding marked `INDEPENDENT_ACCEPTED` under an
+adequate domain review. A method, classifier, theory requirement, or atlas
+mapping cannot bootstrap that status, even when it lives in a physics-oriented
+repository.
+
+In particular, a Geometric Unity Conditional Physics Ledger row is typed as a
+`THEORY_REQUIREMENT` unless a separate accepted-physics source supports the
+phenomenon claim. The GU crosswalk may expose a requirement, a missing map, or
+a negative result; none of those is silently relabeled as empirical grounding.
+
+## Review axes
+
+Version 0.2 separates four questions that v0.1's single lifecycle label could
+not answer:
+
+- mapping review: whether the atlas representation itself has been reviewed;
+- source review: whether pins, selectors, and paraphrase entailment have been
+  checked;
+- domain review: whether accepted-physics grounding is adequate for the claim;
+  and
+- empirical status: what the source actually establishes in the frozen regime.
+
+Independent agreement on a mapping cannot upgrade source or domain review.
+Likewise, a valid source pin does not establish that a paraphrase is entailed by
+the pinned source. Review records retain reviewer relation, evidence references,
+limitations, prior atlas exposure, and whether the exercise was blinded.
 
 ## Unit of analysis
 
@@ -98,6 +128,13 @@ where:
 - \(G\): source-native or atlas-introduced structure with an explicit warrant;
 - \(E\): evidence grade, absorbers, cheapest kill, falsifier, and nonclaims.
 
+Version 0.2 also requires explicit initial and boundary conditions, plus a
+typed record graph. The graph keeps occurrence, trace, retained endpoint,
+relation record, estimate, certificate, and action-support edges distinct. A
+single ordered ladder remains a useful status projection, but it is not allowed
+to erase the DAG that says which endpoints share an occurrence, which process
+formed a token, or which calibration and custody relations support a claim.
+
 Two cards with the same phenomenon label but different regimes, interfaces,
 observers, or tasks may be different units. Conversely, several source-ledger
 rows may constrain one card.
@@ -106,6 +143,10 @@ rows may constrain one card.
 
 Every card instantiates all seven levels in order. `ABSENT`, `PRESENT`,
 `CONDITIONAL`, `UNKNOWN`, or `NOT_APPLICABLE` is an answer; omission is not.
+The v0.1 migration is explicit: `ESTABLISHED` becomes `PRESENT`, `FAILED`
+becomes `ABSENT`, and the other statuses retain their names. This migration is
+accepted only at the release boundary; legacy vocabulary is rejected by the
+v0.2 card schema.
 
 | Level | Question |
 |---|---|
@@ -188,6 +229,12 @@ verdict is one of `CONSTANT_ON_FIBRES`, `VARIES_ON_FIBRES`, `NOT_TESTED`, or
 witness. This is a target- and frame-relative test, not a universal notion of
 information sufficiency.
 
+The witness is typed rather than inferred from prose. It declares whether a
+witness was supplied, whether the visible states are equal, whether the
+capabilities are equal or different, and whether the measured spread is zero,
+nonzero, unknown, or not applicable. Contradictory combinations fail
+validation.
+
 ## Finality and Temporal Issuance
 
 Finality is assessed separately at local, public, and global scopes. A
@@ -251,14 +298,20 @@ An imported Grade 4 theorem remains Grade 4 in its source, but placing it on a
 card does not make the atlas card Grade 4. Conversely, the atlas cannot promote
 an unverified source attribution by giving it polished structure.
 
-Every card names:
+Every card names separately:
 
 - the strongest ordinary-physics or established-method absorber;
-- the cheapest observation that would kill the usefulness of the mapping;
-- a genuine falsifier or hostile control;
-- missing source or empirical work;
+- the cheapest `representation_kill` that would defeat the atlas mapping;
+- a `claim_falsifier` that would defeat the scoped source claim;
+- a `regime_reopener` that narrows or reopens the claim without falsifying it;
+- a held-out discriminator, including the opposed outcomes it could separate;
+- missing source, empirical, or review work;
 - explicit nonclaims; and
 - its maximum earned atlas grade.
+
+A repair is not a falsifier. For example, adding a physical common-event tag
+to an ambiguous detector packet reopens or narrows the regime; it does not
+falsify the theorem that the original untagged packet was insufficient.
 
 Passing the schema or validator establishes only representation integrity. It
 does not establish scientific truth, novelty, a theorem, an experiment, new
@@ -298,3 +351,43 @@ A later atlas-wide catalog requires, in order:
 
 Until those gates are met, v0.1 is useful as a method, schema, six worked
 specimens, and a queue-definition surface—not as an exhaustive ledger.
+
+## Frozen v0.2 first run
+
+The v0.2 release contains one remapped **existing** specimen, dual-phase-xenon
+S1/S2 event formation and pairing. It is not a seventh phenomenon and does not
+change the v0.1 denominator. The source-first review found that the strongest
+detector/fibre result is stable while analyst framing enters materially in five
+places: occurrence identity, relation-record topology, primary-task choice,
+geometric naming, and falsifier-versus-reopener semantics. Because the reviewer
+had prior exposure to the atlas, the exercise is source-first but explicitly
+not blinded; the agreement rate is not treated as an independence result.
+
+The vertical specimen follows the superconducting-ring fluxoid-memory packet
+through accepted local physics, record formation, observer access, normalized
+capability, whole-family completion, issuance, and finality. It returns
+`CONDITIONAL_DOWNSTREAM_COMPOSITION_WITH_SOURCE_CLOSURE_FAILURE`:
+
+- the matched normal/superconducting counterfactual supports a finite,
+  frame-indexed task-envelope delta carried by record-formation and erasure
+  structure;
+- the pinned P2C classifier reproduces the supplied matched-frame witness as a
+  provisional multi-level dynamics/record/capability diagnosis while explicitly
+  declining to verify the physics;
+- the same-ring cool-through process and the matched final-temperature
+  counterfactual are different relation types and cannot be one commuting
+  physical square while preserving identity, final temperature, budget, and
+  transduction;
+- the current GU requirement ledger contains no superconductivity/fluxoid row,
+  so the source edge is absent rather than invented;
+- whole-family completion absorbs an absolute novelty reading but not the
+  operational capability delta;
+- heating, phase slip, a changed horizon, or a changed context remains a
+  reopener, so finality is `NONE`; and
+- no source grade, physics grade, routing state, or issuance claim moves.
+
+The core card schema is denominator-agnostic. A separate release manifest
+freezes exact card identities and content digests, source bindings, hostile
+mutations, predecessor digests, and the non-routing posture. This permits a
+synthetic seventh-card scalability control without publishing or authorizing a
+seventh card.
