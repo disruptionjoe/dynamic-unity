@@ -1,11 +1,13 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 145
-as_of: '2026-08-03'
+state_revision: 146
+as_of: '2026-08-27'
 authority: >-
-  Joe direct chat through 2026-08-03; governed run receipts preserve each
+  Joe direct chat through 2026-08-27; governed run receipts preserve each
   explicit authorization. The 2026-08-03 chat authorized Q-0063 campaign
-  discriminators D1 and D2 now and D3 after their outcomes.
+  discriminators D1 and D2 now and D3 after their outcomes. The 2026-08-27
+  chat added two parked research programs without changing active priority:
+  four-dimensional QFT completion and infrared empirical quantum gravity.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -87,9 +89,11 @@ current_decision:
     audit-layer confrontation campaign through the anomaly-intake gate its
     scoping note satisfies; the free scientific-flagship slot takes it
     without eviction. Sole executable action: D1. D2 is authorized to
-    follow D1; D3 is authorized only after the D1/D2 outcomes. All parked
-    programs, their reopeners, Wave-3 ineligibility, and DU-PAPER-013
-    Drafting Factory custody are unchanged.
+    follow D1; D3 is authorized only after the D1/D2 outcomes. Joe's
+    2026-08-27 addition of the four-dimensional QFT-completion and infrared
+    empirical-quantum-gravity programs is parked and does not change this
+    selection, Wave-3 ineligibility, or DU-PAPER-013 Drafting Factory
+    custody.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -648,6 +652,140 @@ programs:
       - CONNECTIONS.md
       - explorations/record-immutability-forces-external-involution-2026-07-21.md
       - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
+
+  - id: DU-FOUR-DIMENSIONAL-QFT-COMPLETION
+    kind: research_program
+    owner_repo: dynamic-unity
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
+    active_work_id: null
+    primary_lane_id: '6'
+    supporting_lane_ids:
+      - '2'
+      - '3'
+      - '4'
+      - '7'
+    channel_ids:
+      - CH-SYN
+      - CH-FORMAL
+      - CH-COLLIDE
+      - CH-EMPIRICAL
+      - CH-FRONTIER
+    target: >-
+      Complete one delimited four-dimensional QFT sector from local causal
+      algebra and constraints through positive states, dynamics, observables,
+      measurement interfaces, and finite empirical reconstruction.
+    current_grade: >-
+      PROGRAM CHARTER ONLY; no construction, theorem, obstruction, or new
+      empirical content is established.
+    evidence_grade: 0
+    maximum_grade: >-
+      Grade 5 only for a finite nonabsorbed prediction or lawful remainder;
+      scoped constructions, reconstructions, or obstructions stop lower.
+    maximum_evidence_grade: 5
+    premise_status: >-
+      Existing algebraic, constructive, perturbative, effective, and
+      operational QFT remain incumbent; the target is an explicit seam, not a
+      presumed universal missing theory.
+    completed_dependencies: []
+    remaining_obligations:
+      - Freeze one sector, observable class, domain, incumbent map, and acceptance ceiling.
+      - Carry algebra, gauge quotient, states, dynamics, renormalization, preparation, detector, record, and reconstruction through one contract.
+      - Return a scoped construction, reconstruction, obstruction, or finite discriminator that survives incumbent comparison.
+    typed_dependencies:
+      - type: does_not_block
+        target: DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY
+        target_type: program
+    strongest_absorber: >-
+      Algebraic, constructive, perturbative, effective, lattice/continuum, and
+      operational QFT may jointly supply the whole selected chain.
+    cheapest_kill: >-
+      Existing work already supplies the selected algebra-to-record chain, or
+      the alleged gap is only representational.
+    stop_rule: >-
+      Do not claim universal construction or turn elegance into evidence; type
+      the first unowned domain, state, measure, detector, or limit assumption.
+    reopen_rule: >-
+      A dated contract must select one sector and seam, name incumbents, freeze
+      the endpoint, and supply the cheapest-kill comparison.
+    local_computation_boundary: >-
+      Literature, proof, symbolic, exact-small, or bounded numerical work only
+      after selection; no provider or hardware is authorized.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - docs/quantum-foundations-orientation-surface.md
+      - CONNECTIONS.md
+
+  - id: DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY
+    kind: research_program
+    owner_repo: dynamic-unity
+    portfolio_status: parked
+    execution_status: none
+    wip_slot: none
+    active_work_id: null
+    primary_lane_id: '6'
+    supporting_lane_ids:
+      - '2'
+      - '4'
+      - '7'
+    channel_ids:
+      - CH-SYN
+      - CH-FORMAL
+      - CH-MODEL
+      - CH-COLLIDE
+      - CH-EMPIRICAL
+      - CH-FRONTIER
+    target: >-
+      Reconstruct or falsify accessible-energy quantum-gravitational structure
+      using local covariance, EFT, semiclassical dynamics, clocks, detectors,
+      finite observations, and cosmology without presuming a UV completion.
+    current_grade: >-
+      PROGRAM CHARTER ONLY; no detection, reconstruction, UV theory, or
+      departure from general relativity is established.
+    evidence_grade: 0
+    maximum_grade: >-
+      Grade 5 only for a finite nonabsorbed prediction or lawful remainder;
+      controlled reconstructions, universality results, and no-gos stop lower.
+    maximum_evidence_grade: 5
+    premise_status: >-
+      GR, curved-spacetime QFT, semiclassical gravity, gravitational EFT, and
+      current bounds remain incumbent; infrared effects need not select a UV
+      completion.
+    completed_dependencies: []
+    remaining_obligations:
+      - Freeze one regime, detector class, observable, uncertainty budget, incumbent null, and two-sided verdict.
+      - Separate universal infrared content from UV assumptions and modified-gravity alternatives.
+      - Carry dressing, locality, state, backreaction, clock, detector, and record semantics through one calculation.
+    typed_dependencies:
+      - type: does_not_block
+        target: DU-FOUR-DIMENSIONAL-QFT-COMPLETION
+        target_type: program
+      - type: external_dependency
+        target: GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION
+        target_type: external_work
+        owner_repo: gu-formalization
+    strongest_absorber: >-
+      Curved-spacetime QFT, semiclassical gravity, gravitational EFT, quantum
+      metrology, noise, and modified-gravity fits may absorb every signal.
+    cheapest_kill: >-
+      The observable is definition-dependent, inaccessible under its finite
+      budget, or reproduced by incumbent low-energy theory plus noise.
+    stop_rule: >-
+      Do not infer UV completion from infrared universality or call sensitivity
+      a detection; type the first uncontrolled physical assumption.
+    reopen_rule: >-
+      A dated contract must select one finite window, carry the
+      observable-to-record chain, name confounds, and freeze a verdict table.
+    local_computation_boundary: >-
+      Analytic, literature, and bounded numerical work only after observable
+      selection; no provider or hardware is authorized.
+    next_action: null
+    next_action_ref: null
+    canonical_evidence_refs:
+      - docs/quantum-foundations-orientation-surface.md
+      - CONNECTIONS.md
 
   - id: DU-Q0063-DECOHERENCE-NULL-AUDIT-LAYER-CONFRONTATION
     kind: confrontation_campaign
