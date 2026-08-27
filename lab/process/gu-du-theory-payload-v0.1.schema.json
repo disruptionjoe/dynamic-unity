@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gu-du-theory-payload-v0.1.schema.json",
+  "title": "Dynamic Unity GU theory-payload receiver record v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version", "record_id", "source", "burdens", "required_payload",
+    "receiver_decision", "du_destination", "missing_conditions", "scientific_nonclaims"
+  ],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "record_id": {"type": "string", "minLength": 1},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "repository", "revision", "passport_ref", "passport_id",
+        "passport_schema_version", "export_status", "truth_grade", "claim_effect"
+      ],
+      "properties": {
+        "repository": {"const": "gu-formalization"},
+        "revision": {"type": "string", "pattern": "^[0-9a-f]{40}$"},
+        "passport_ref": {"type": "string", "minLength": 1},
+        "passport_id": {"type": "string", "minLength": 1},
+        "passport_schema_version": {"const": "0.1"},
+        "export_status": {"enum": ["not_ready", "ready"]},
+        "truth_grade": {"type": "string", "minLength": 1},
+        "claim_effect": {"type": "string", "minLength": 1}
+      }
+    },
+    "burdens": {
+      "type": "array", "minItems": 3, "maxItems": 3,
+      "prefixItems": [
+        {"allOf": [{"$ref": "#/$defs/burden"}, {"properties": {"order": {"const": 1}, "id": {"const": "action_causal_closure"}}}]},
+        {"allOf": [{"$ref": "#/$defs/burden"}, {"properties": {"order": {"const": 2}, "id": {"const": "physical_state_space"}}}]},
+        {"allOf": [{"$ref": "#/$defs/burden"}, {"properties": {"order": {"const": 3}, "id": {"const": "observable_export"}}}]}
+      ],
+      "items": false
+    },
+    "required_payload": {
+      "type": "object", "additionalProperties": false,
+      "required": [
+        "qualified_action_and_domain", "physical_state_space_certificate",
+        "observable_process_map", "frozen_parameters_and_held_out_test",
+        "truth_grade_and_live_null"
+      ],
+      "properties": {
+        "qualified_action_and_domain": {"$ref": "#/$defs/nullableBundle"},
+        "physical_state_space_certificate": {"$ref": "#/$defs/nullableBundle"},
+        "observable_process_map": {"$ref": "#/$defs/nullableBundle"},
+        "frozen_parameters_and_held_out_test": {"$ref": "#/$defs/nullableBundle"},
+        "truth_grade_and_live_null": {"$ref": "#/$defs/nullableBundle"}
+      }
+    },
+    "receiver_decision": {"enum": ["REJECT_NOT_READY", "ADMIT_FOR_LOCAL_VERIFICATION"]},
+    "du_destination": {
+      "type": "object", "additionalProperties": false,
+      "required": ["program_ids", "verification_ceiling", "routing_effect", "wip_effect", "grade_effect"],
+      "properties": {
+        "program_ids": {
+          "type": "array", "minItems": 2, "maxItems": 2, "uniqueItems": true,
+          "items": {"enum": ["DU-FOUR-DIMENSIONAL-QFT-COMPLETION", "DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY"]}
+        },
+        "verification_ceiling": {"const": "local_verification_only"},
+        "routing_effect": {"const": "none"},
+        "wip_effect": {"const": "none"},
+        "grade_effect": {"const": "none"}
+      }
+    },
+    "missing_conditions": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "scientific_nonclaims": {"type": "array", "minItems": 5, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"receiver_decision": {"const": "REJECT_NOT_READY"}}},
+      "then": {"properties": {"missing_conditions": {"minItems": 1}}}
+    },
+    {
+      "if": {"properties": {"receiver_decision": {"const": "ADMIT_FOR_LOCAL_VERIFICATION"}}},
+      "then": {
+        "properties": {
+          "source": {"properties": {"export_status": {"const": "ready"}}},
+          "burdens": {
+            "prefixItems": [
+              {"properties": {"status": {"const": "satisfied"}, "evidence_refs": {"minItems": 1}}},
+              {"properties": {"status": {"const": "satisfied"}, "evidence_refs": {"minItems": 1}}},
+              {"properties": {"status": {"const": "satisfied"}, "evidence_refs": {"minItems": 1}}}
+            ]
+          },
+          "required_payload": {
+            "properties": {
+              "qualified_action_and_domain": {"$ref": "#/$defs/evidenceBundle"},
+              "physical_state_space_certificate": {"$ref": "#/$defs/evidenceBundle"},
+              "observable_process_map": {"$ref": "#/$defs/evidenceBundle"},
+              "frozen_parameters_and_held_out_test": {"$ref": "#/$defs/evidenceBundle"},
+              "truth_grade_and_live_null": {"$ref": "#/$defs/evidenceBundle"}
+            }
+          },
+          "missing_conditions": {"maxItems": 0}
+        }
+      }
+    }
+  ],
+  "$defs": {
+    "burden": {
+      "type": "object", "additionalProperties": false,
+      "required": ["order", "id", "status", "evidence_refs"],
+      "properties": {
+        "order": {"type": "integer", "minimum": 1, "maximum": 3},
+        "id": {"type": "string", "minLength": 1},
+        "status": {"enum": ["blocked", "open", "satisfied"]},
+        "evidence_refs": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "evidenceBundle": {
+      "type": "object", "additionalProperties": false,
+      "required": ["claim_summary", "evidence_refs"],
+      "properties": {
+        "claim_summary": {"type": "string", "minLength": 1},
+        "evidence_refs": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "nullableBundle": {"anyOf": [{"type": "null"}, {"$ref": "#/$defs/evidenceBundle"}]}
+  }
+}

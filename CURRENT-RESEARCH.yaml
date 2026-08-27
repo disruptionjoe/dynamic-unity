@@ -1,6 +1,6 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 146
+state_revision: 147
 as_of: '2026-08-27'
 authority: >-
   Joe direct chat through 2026-08-27; governed run receipts preserve each
@@ -717,6 +717,7 @@ programs:
     canonical_evidence_refs:
       - docs/quantum-foundations-orientation-surface.md
       - CONNECTIONS.md
+      - lab/process/gu-du-theory-payload-receiver-contract.md
 
   - id: DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY
     kind: research_program
@@ -786,6 +787,7 @@ programs:
     canonical_evidence_refs:
       - docs/quantum-foundations-orientation-surface.md
       - CONNECTIONS.md
+      - lab/process/gu-du-theory-payload-receiver-contract.md
 
   - id: DU-Q0063-DECOHERENCE-NULL-AUDIT-LAYER-CONFRONTATION
     kind: confrontation_campaign

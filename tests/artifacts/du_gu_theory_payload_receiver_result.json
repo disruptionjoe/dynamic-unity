@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "current_receiver_decision": "REJECT_NOT_READY",
+  "current_gu_ready_for_local_verification": false,
+  "synthetic_ready_positive_control": true,
+  "hostile_mutations_rejected": 12,
+  "du_effects": {
+    "routing": "none",
+    "wip": "none",
+    "grade": "none"
+  },
+  "scientific_nonclaim": "Receiver validation establishes interface behavior only, not GU or Dynamic Unity physics."
+}

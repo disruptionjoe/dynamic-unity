@@ -69,3 +69,20 @@ Repository ownership and scientific dependency are different relations.
 
 This is an `external_dependency`, not a standing blocker on unrelated Dynamic
 Unity research.
+
+## GU theory-payload receiver
+
+The versioned receiver at
+[`lab/process/gu-du-theory-payload-receiver-contract.md`](lab/process/gu-du-theory-payload-receiver-contract.md)
+turns the boundary above into a fail-closed local interface. A GU packet may
+open DU-local verification only after it supplies immutable provenance, three
+ordered evidence-bearing burdens, and all five qualified export bundles.
+Admission never changes DU routing, WIP, grade, successor selection, or
+prediction status.
+
+The current GU geometry-first passport is recorded at
+[`lab/process/gu-du-theory-payload-current.json`](lab/process/gu-du-theory-payload-current.json)
+as `REJECT_NOT_READY`: its export status is `not_ready` and all three burdens
+remain blocked. That is a receiver disposition, not a scientific verdict on
+GU. Any future `ready` packet must still pass Dynamic Unity's independent
+action/domain, state, process, record, null, absorber, and no-refit checks.

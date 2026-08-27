@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "record_id": "GU-GEOMETRY-FIRST-V0.1-AT-1E3F03FE",
+  "source": {
+    "repository": "gu-formalization",
+    "revision": "1e3f03fe1b09d2dda00baff47163e5142e468395",
+    "passport_ref": "lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml",
+    "passport_id": "GU-GEOMETRY-FIRST-V0.1",
+    "passport_schema_version": "0.1",
+    "export_status": "not_ready",
+    "truth_grade": "research_architecture_only",
+    "claim_effect": "none"
+  },
+  "burdens": [
+    {"order": 1, "id": "action_causal_closure", "status": "blocked", "evidence_refs": []},
+    {"order": 2, "id": "physical_state_space", "status": "blocked", "evidence_refs": []},
+    {"order": 3, "id": "observable_export", "status": "blocked", "evidence_refs": []}
+  ],
+  "required_payload": {
+    "qualified_action_and_domain": null,
+    "physical_state_space_certificate": null,
+    "observable_process_map": null,
+    "frozen_parameters_and_held_out_test": null,
+    "truth_grade_and_live_null": null
+  },
+  "receiver_decision": "REJECT_NOT_READY",
+  "du_destination": {
+    "program_ids": [
+      "DU-FOUR-DIMENSIONAL-QFT-COMPLETION",
+      "DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY"
+    ],
+    "verification_ceiling": "local_verification_only",
+    "routing_effect": "none",
+    "wip_effect": "none",
+    "grade_effect": "none"
+  },
+  "missing_conditions": [
+    "qualified_action_and_domain",
+    "physical_state_space_certificate",
+    "observable_process_map",
+    "frozen_parameters_and_held_out_test",
+    "truth_grade_and_live_null"
+  ],
+  "scientific_nonclaims": [
+    "no GU action is admitted",
+    "no physical state space is admitted",
+    "no observable or record process is admitted",
+    "no Dynamic Unity grade or WIP changes",
+    "no unification or quantum-gravity result is established"
+  ]
+}
