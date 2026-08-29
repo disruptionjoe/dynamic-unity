@@ -3,7 +3,7 @@ title: "Quantum-foundations tension and delta orientation"
 status: active_orientation
 doc_type: research_orientation
 created: 2026-07-25
-revised: 2026-07-29
+revised: 2026-08-28
 run_id: RUN-20260725-084418-tension-delta-orientation
 supersedes_orientation_run: RUN-20260725-083026-quantum-orientation-surface
 claim_grade: "KNOWN FOUNDATIONS TERRAIN + CANDIDATE DYNAMIC UNITY DELTAS / NO CLAIM OR PRIORITY AUTHORITY"
@@ -702,6 +702,21 @@ absorbs the result.
 
 **Not a delta.** A new redundancy threshold without a new operational
 consequence.
+
+**Current exact boundary (`HC-DU-200`).** A raw Quantum-Darwinism
+mutual-information plateau does not by itself certify locally accessible
+classical record content: the exact finite central-spin witness has
+`I(S:F)=H(S)` while perfect distinguishability fails, discord remains
+positive, and Holevo access lies below the plateau. Brandão--Piani--Horodecki
+and Qi--Ranard generic-objectivity theorems do not repair that implication.
+They constrain local channels to common-measurement measure-and-prepare form
+for most supplied factors, or every small region outside an excluded blanket;
+they do not force outcome availability, a physically selected accessible
+fragment class, fragment independence, provenance, co-vanishing with plateau
+flatness, or a physical convergence rate. The separate access audit is
+therefore necessary in the declared class. Strong QD/SBS physics absorbs the
+entire physical content; this is a scoped necessity control, not new DU
+physics ([terminal result](../explorations/generic-objectivity-transfer-d3-and-q0063-terminal-verdict-2026-08-28.md)).
 
 ### 8. Regional finality versus one global/local dichotomy
 

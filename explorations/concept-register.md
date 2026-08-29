@@ -3,7 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
-revised: 2026-07-30
+revised: 2026-08-28
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -7835,6 +7835,34 @@ hardware. No astrophysical preparation, graviton observation, feasibility,
 Grade-5 remainder, hardware action, new gravity law, successor, or later-wave
 activation is earned. See
 `gravitational-radiation-gaussian-tomography-calibration-sample-cost-and-ontology-boundary-2026-07-31.md`.
+
+### 2026-08-28 raw-plateau / accessible-record nonimplication
+
+`HC-DU-200` closes the Q-0063 decoherence-null confrontation. The exact W1
+central-spin family supplies `N=2` and `N=4` states with a raw
+Quantum-Darwinism plateau, `I(S:F)=H(S)`, while local conditional states are
+not perfectly distinguishable, S:F discord is positive, and Holevo-accessible
+information is strictly below the plateau. The independently adjudicated W2
+independence fixture is not part of the banked basis, and no provenance result
+is claimed.
+
+The Brandão--Piani--Horodecki and Qi--Ranard theorems do not force the missing
+implication. Their common-measurement / measure-and-prepare conclusions do not
+supply outcome availability, physically selected observer-accessible
+fragments, strong fragment independence, provenance, a co-vanishing bound in
+plateau flatness, or a physical convergence rate. Their displayed general
+bounds are quantitatively vacuous on the executed `N=2`--`4` witness.
+
+**Updated seed status:** a separately typed access audit is necessary before a
+raw plateau can certify an accessible classical record in the declared class.
+This earns scoped Grade 4 as an exact nonimplication and necessity control.
+Strong Quantum Darwinism, SBS, Holevo/discord decomposition, and generic
+channel classicality absorb all physical content. No new DU mechanism,
+prediction, independence law, provenance, finality, ontology, hardware path,
+paper, or successor is earned. Reopen only with a physical-rate theorem over a
+physically selected accessible-fragment class or a finite frozen audit
+experiment with nonabsorbed operational consequence. See
+`generic-objectivity-transfer-d3-and-q0063-terminal-verdict-2026-08-28.md`.
 
 ## Boundary
 
