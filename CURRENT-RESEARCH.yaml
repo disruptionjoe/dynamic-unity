@@ -1,10 +1,9 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 155
+state_revision: 156
 as_of: '2026-08-31'
-authority: Joe direct chat through 2026-08-31 and governed receipts. The 2026-08-31
-  computation-first direction authorizes the portfolio assessment and consequent
-  common-view relationship audit. Earlier completed programs remain dated evidence.
+authority: Joe direct chat through 2026-08-31 and governed receipts. The latest
+  direction authorizes the forty-lens A-B vote and CTS-A2 attempt ordering.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -74,10 +73,9 @@ current_decision:
   executable_action_id: CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-206 completes CTS-A1. The perspectives form one exact typed
-    relationship atlas, but the process does not select their matched projectors,
-    consumer, observer boundary, or ruler response. CVC-A, physically selected common-view
-    closure, is the surviving theorem obligation. Only CTS-A2 is executable.
+  decision_note: HC-DU-206 completes CTS-A1 without selecting views or rulers. The
+    Grade-0 A-B vote orders CTS-A2 as P35 -> P30 -> P33, with P40/P31 as the
+    obstruction branch. Voting is not evidence. Only CTS-A2 is executable.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -462,8 +460,11 @@ programs:
     evidence_ref: explorations/common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md
   - id: CTS-PORTFOLIO-ADMISSION
     evidence_ref: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
+  - id: CTS-A2-40-LENS-A-B-VOTE
+    evidence_ref: explorations/common-view-selector-forty-lens-linear-quadratic-and-social-distance-vote-2026-08-31.md
   remaining_obligations:
-  - Test CVC-A on one source-pinned physical antecedent under every remaining automorphism.
+  - Test P35 -> P30 -> P33 on one source-pinned antecedent under all automorphisms.
+  - If uniqueness fails, test P40/P31 for a regional obstruction without refit.
   - Return a physical selector or the smallest exact obstruction before coformation.
   - Type sharding/finality before distributed theorems; geometry needs an independent
     scale anchor.
@@ -495,9 +496,8 @@ programs:
     finite discriminator.
   local_computation_boundary: Formal/source comparison and at most one exact finite
     proof control; no simulation, training, provider, or hardware.
-  next_action: Test whether one physical antecedent selects a natural matched family
-    of record, capability, composability, finality, and ruler maps, or return the
-    smallest exact obstruction.
+  next_action: Test P35 -> P30 -> P33 on one source-pinned action, or return the
+    P40/P31 regional obstruction.
   next_action_ref: explorations/common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md
   execution_packet:
     action_id: CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION
@@ -518,6 +518,8 @@ programs:
       role: Consumer-freedom control.
     - path: explorations/complete-causal-set-law-scale-gauge-and-marked-anchor-necessity-2026-07-29.md
       role: Ruler and metric-scale nonselection control.
+    - path: explorations/common-view-selector-forty-lens-linear-quadratic-and-social-distance-vote-2026-08-31.md
+      role: Grade-0 A-B vote and attempt order; not evidence.
     unchanged_ledger_fields:
     - all-hypotheses-grade-zero
     - process-interface-action-type-separation
@@ -552,6 +554,7 @@ programs:
   - lab/process/computation-first-common-view-relationship-atlas.json
   - explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
   - lab/process/computation-first-closed-transition-hypothesis-portfolio.json
+  - explorations/common-view-selector-forty-lens-linear-quadratic-and-social-distance-vote-2026-08-31.md
   - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
   - explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
 successor_selection:

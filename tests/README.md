@@ -5387,3 +5387,26 @@ conditions; the probe establishes no new physics, mechanism, consensus
 ontology, grade movement, banking, prediction, paper, hardware, provider,
 publication, or other external action. The results note is
 `../explorations/qd-sbs-audit-gap-witness-d2-execution-2026-08-03.md`.
+
+## Forty-lens common-view-selector A/B vote
+
+`du_common_view_selector_40_lens_vote_probe.py` audits the exploratory
+common-view-selector portfolio assessment. It validates:
+
+- twenty computational and twenty mathematical/physical lenses;
+- one explicit Grade-0 hypothesis, decisive test, and absorber per lens;
+- separate complete 100-credit linear and quadratic ballots;
+- exclusion of every self-vote;
+- reconciliation to 4,000 credits in each arm;
+- complete deterministic A/B rankings; and
+- descriptive disciplinary-distance and cross-family support metadata.
+
+The artifact is
+`artifacts/du_common_view_selector_40_lens_vote_result.json` and reports `7/7`
+checks. Linear allocation favors `P35`, Covariant Action-Response Closure;
+quadratic allocation and the social-distance bridge measure favor `P30`, the
+Interventional Causal-State Selector. The vote therefore selects an attempt
+order—`P35 -> P30 -> P33`, with `P40/P31` as the obstruction branch—not a
+scientific winner. Passing proves only the ballot contract and arithmetic.
+Every hypothesis remains Grade 0; no claim, prediction, physical selector,
+novelty judgment, paper, hardware action, or successor is established.
