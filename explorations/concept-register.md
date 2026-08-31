@@ -7929,6 +7929,40 @@ variants; reopen only with a physically selected continuation algebra and a
 held-out no-refit response. See
 `action-family-indexed-record-selection-continuation-equivalence-and-blackwell-boundary-2026-08-31.md`.
 
+### 2026-08-31 Bell prescription / execution / deferred-correction correction
+
+`HC-DU-203` re-audits the primary Bell source behind `HC-DU-201` and
+`HC-DU-202`. The apparatus physically forms the eight-outcome Bell carrier,
+conditions target-photon tomography on it, and derives the four Pauli
+correction labels. The paper does not report an outcome-conditioned Pauli gate
+on the target or a live frame-aware controller for arbitrary later operations.
+
+The exact Pauli control separates four rungs:
+
+```text
+formed record
+  -> correction prescription / Pauli frame
+  -> compatible terminal-statistic recovery
+  -> enacted adaptive quantum continuation.
+```
+
+Ignoring a uniform correction label depolarizes the target; consuming it in an
+active correction restores the input; and a record-conditioned terminal
+measurement frame recovers compatible Pauli statistics without a hardware
+correction. The last equivalence is task-scoped. It does not recreate a live
+corrected state for every future interaction unless a physical controller
+propagates and consumes the frame.
+
+**Updated seed status:** retain the Bell apparatus as a Grade-3 formed-record,
+conditional-tomography, and correction-prescription positive. Bank the
+prescription/execution necessity boundary at scoped Grade 4. Standard
+teleportation, Pauli tracking, quantum instruments, and adaptive computation
+absorb the result. Stop calling the two-bit quotient physically
+action-enabling without naming its consumer and action family. Reopen only
+with a source-pinned active correction or declared frame-aware continuation
+that passes a held-out no-refit task beyond terminal tomography. See
+`heralded-bell-prescription-execution-and-deferred-correction-boundary-2026-08-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

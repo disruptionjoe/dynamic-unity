@@ -1,0 +1,203 @@
+{
+  "active_branchwise_recovery": {
+    "I": {
+      "X": 2,
+      "Y": -3,
+      "Z": 5
+    },
+    "X": {
+      "X": 2,
+      "Y": -3,
+      "Z": 5
+    },
+    "Y": {
+      "X": 2,
+      "Y": -3,
+      "Z": 5
+    },
+    "Z": {
+      "X": 2,
+      "Y": -3,
+      "Z": 5
+    }
+  },
+  "conditional_uncorrected_bloch": {
+    "I": {
+      "X": 2,
+      "Y": -3,
+      "Z": 5
+    },
+    "X": {
+      "X": 2,
+      "Y": 3,
+      "Z": -5
+    },
+    "Y": {
+      "X": -2,
+      "Y": -3,
+      "Z": -5
+    },
+    "Z": {
+      "X": -2,
+      "Y": 3,
+      "Z": 5
+    }
+  },
+  "generic_input_bloch": {
+    "X": 2,
+    "Y": -3,
+    "Z": 5
+  },
+  "hostile_fixed_continuation": {
+    "input_z": 1,
+    "x_branch_fixed_z_readout": -1,
+    "x_branch_frame_corrected_terminal_z": 1
+  },
+  "ignored_record_average_bloch": {
+    "X": 0.0,
+    "Y": 0.0,
+    "Z": 0.0
+  },
+  "pauli_conjugation_signs": {
+    "I": {
+      "X": 1,
+      "Y": 1,
+      "Z": 1
+    },
+    "X": {
+      "X": 1,
+      "Y": -1,
+      "Z": -1
+    },
+    "Y": {
+      "X": -1,
+      "Y": 1,
+      "Z": -1
+    },
+    "Z": {
+      "X": -1,
+      "Y": -1,
+      "Z": 1
+    }
+  },
+  "scientific_boundary": {
+    "does_not_prove": [
+      "validity of the source experiment",
+      "that the source physically applied a Pauli correction",
+      "selection of an observer or continuation algebra",
+      "arbitrary downstream capability from a correction prescription alone",
+      "new physics or ontology priority"
+    ],
+    "proves": [
+      "discarding a uniform Bell label depolarizes the unconditional ideal target",
+      "active branchwise Pauli correction exactly restores the ideal input",
+      "record-conditioned terminal Pauli-frame interpretation is statistically equivalent",
+      "fixed nonadaptive continuation can fail when the correction label is not consumed"
+    ]
+  },
+  "source_scope": {
+    "citation": "Arenskoetter et al., Phys. Rev. Research 6, 023061 (2024)",
+    "doi": "10.1103/PhysRevResearch.6.023061",
+    "manual_source_audit": {
+      "arbitrary_downstream_adaptive_controller_reported": false,
+      "correction_prescription_derived": true,
+      "formed_eight_outcome_bell_record": true,
+      "outcome_conditioned_physical_pauli_gate_reported": false,
+      "outcome_conditioned_process_tomography": true
+    },
+    "source_claims_validated_by_probe": false
+  },
+  "terminal_frame_rows": [
+    {
+      "branch": "I",
+      "frame_sign": 1,
+      "observable": "X",
+      "recovered_expectation": 2,
+      "uncorrected_expectation": 2
+    },
+    {
+      "branch": "I",
+      "frame_sign": 1,
+      "observable": "Y",
+      "recovered_expectation": -3,
+      "uncorrected_expectation": -3
+    },
+    {
+      "branch": "I",
+      "frame_sign": 1,
+      "observable": "Z",
+      "recovered_expectation": 5,
+      "uncorrected_expectation": 5
+    },
+    {
+      "branch": "X",
+      "frame_sign": 1,
+      "observable": "X",
+      "recovered_expectation": 2,
+      "uncorrected_expectation": 2
+    },
+    {
+      "branch": "X",
+      "frame_sign": -1,
+      "observable": "Y",
+      "recovered_expectation": -3,
+      "uncorrected_expectation": 3
+    },
+    {
+      "branch": "X",
+      "frame_sign": -1,
+      "observable": "Z",
+      "recovered_expectation": 5,
+      "uncorrected_expectation": -5
+    },
+    {
+      "branch": "Y",
+      "frame_sign": -1,
+      "observable": "X",
+      "recovered_expectation": 2,
+      "uncorrected_expectation": -2
+    },
+    {
+      "branch": "Y",
+      "frame_sign": 1,
+      "observable": "Y",
+      "recovered_expectation": -3,
+      "uncorrected_expectation": -3
+    },
+    {
+      "branch": "Y",
+      "frame_sign": -1,
+      "observable": "Z",
+      "recovered_expectation": 5,
+      "uncorrected_expectation": -5
+    },
+    {
+      "branch": "Z",
+      "frame_sign": -1,
+      "observable": "X",
+      "recovered_expectation": 2,
+      "uncorrected_expectation": -2
+    },
+    {
+      "branch": "Z",
+      "frame_sign": -1,
+      "observable": "Y",
+      "recovered_expectation": -3,
+      "uncorrected_expectation": 3
+    },
+    {
+      "branch": "Z",
+      "frame_sign": 1,
+      "observable": "Z",
+      "recovered_expectation": 5,
+      "uncorrected_expectation": 5
+    }
+  ],
+  "typed_boundary": {
+    "enacted_continuation": "a physical controller must consume the record to correct or adapt arbitrary later quantum operations",
+    "formed_record": "Bell outcome is physically acquired and retained for evaluation",
+    "prescription": "outcome labels which Pauli would recover the input",
+    "terminal_equivalence": "record-conditioned Pauli-frame interpretation recovers compatible terminal observables"
+  },
+  "verdict": "PRESCRIPTION_AND_TERMINAL_EQUIVALENCE_DO_NOT_BY_THEMSELVES_ESTABLISH_ENACTED_ARBITRARY_CONTINUATION"
+}

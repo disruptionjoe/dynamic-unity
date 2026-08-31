@@ -4,6 +4,26 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-203 Bell prescription/execution boundary
+
+`du_bell_prescription_execution_probe.py` exhausts the four ideal Pauli
+branches and all three traceless Pauli observables. It verifies that ignoring
+a uniform Bell label depolarizes the target, active branchwise correction
+restores it, record-conditioned terminal Pauli-frame interpretation recovers
+compatible measurement statistics, and a fixed continuation that ignores the
+record fails on an explicit hostile witness. Run:
+
+```bash
+python3 tests/du_bell_prescription_execution_probe.py --write-artifact
+```
+
+The deterministic receipt is
+`artifacts/du_bell_prescription_execution_result.json`. Passing establishes
+only the ideal Pauli algebra and the prescription/execution/deferred-terminal
+boundary. It does not validate the source experiment, infer a physical Pauli
+gate or adaptive controller, select an observer/continuation algebra, establish
+arbitrary downstream capability, or claim new physics.
+
 ## HC-DU-201 heralded Bell-record capability quotient
 
 `du_heralded_bell_record_capability_probe.py` reconstructs the eight-outcome
