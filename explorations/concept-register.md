@@ -7864,6 +7864,38 @@ physically selected accessible-fragment class or a finite frozen audit
 experiment with nonabsorbed operational consequence. See
 `generic-objectivity-transfer-d3-and-q0063-terminal-verdict-2026-08-28.md`.
 
+### 2026-08-31 heralded Bell record / action-quotient boundary
+
+`HC-DU-201` supplies the strongest source-grounded record-to-capability
+positive in the current DU portfolio. In the 2024 trapped-ion/photonic
+full-Bell-measurement apparatus, the physically acquired raw record
+`(passage, herald polarization, atomic projection) in Z_2^3` factors through
+the exact action quotient `(passage, herald XOR projection) in Z_2^2`. The four
+quotient classes select the four Pauli corrections for conditional
+teleportation. Four actions prove a two-bit deterministic minimum; erasing
+either actionable bit lowers the ideal unknown-qubit Haar-average fidelity to
+`2/3`, and erasing both lowers it to `1/2`.
+
+The discarded raw bit is correction-null but potentially audit-, calibration-,
+or provenance-live. This makes the task-relative distinction between a
+capability record and an audit record exact without identifying either with
+the complete physical state. Source-reported conditional fidelity also does
+not determine finite-horizon capability: expected resource units range from
+roughly `5.0e3` experimental runs to `1.37e6` generated pairs per success,
+depending on the declared denominator.
+
+**Updated seed status:** bank the physical positive and scoped Grade-4
+minimality/nonidentification boundary. The apparatus, instrument, timing and
+reference contract, access path, and task are engineered rather than selected
+from bare dynamics. Any theories inducing the same accessible instrument and
+record-conditioned target channel remain indistinguishable under all
+downstream record processing. Standard teleportation, quantum instruments,
+data processing, and resource accounting absorb the result. Reopen only for
+an implementation-complete per-attempt lineage needed by a held-out target, a
+target-blind physical apparatus/interface selector, or an upstream finite
+prediction on one frozen apparatus. See
+`heralded-bell-record-action-quotient-resource-boundary-2026-08-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

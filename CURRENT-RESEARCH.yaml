@@ -1,15 +1,17 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 148
-as_of: '2026-08-28'
+state_revision: 149
+as_of: '2026-08-31'
 authority: >-
-  Joe direct chat through 2026-08-28; governed run receipts preserve each
+  Joe direct chat through 2026-08-31; governed run receipts preserve each
   explicit authorization. The 2026-08-03 chat authorized Q-0063 campaign
   discriminators D1 and D2 and D3 after their outcomes. Joe's 2026-08-28
   big-wave direction authorized the bounded D3 execution, terminal campaign
-  disposition, and live-state repair. The 2026-08-27 chat added two parked
-  research programs without making either executable: four-dimensional QFT
-  completion and infrared empirical quantum gravity.
+  disposition, and live-state repair. Joe's 2026-08-31 big-wave direction
+  authorized the bounded heralded Bell-record round trip banked as HC-DU-201.
+  The 2026-08-27 chat added two parked research programs without making either
+  executable: four-dimensional QFT completion and infrared empirical quantum
+  gravity.
 scope: >-
   Sole mutable authority for Dynamic Unity research priority, work in
   progress, execution status, next actions, stop/reopen rules, and typed
@@ -87,15 +89,19 @@ current_decision:
   prepared_publication_program_id: null
   selected_successor_id: null
   decision_note: >-
-    Q-0063 is complete as HC-DU-200. D1 excluded the proposed threshold and
-    quorum signatures at measured scales; D2 proved that a raw
-    mutual-information plateau need not certify locally accessible classical
-    record content; D3 proved that BPH/Qi--Ranard generic-objectivity theorems
-    do not repair that implication for physically selected accessible
-    fragments at physical rates. The result is a scoped Grade-4 necessity
-    control fully absorbed by strong-QD/SBS physics, with no new DU mechanism
-    or prediction. No scientific successor is ready. The GU receiver and both
-    QFT charters remain parked; no publication program is prepared here.
+    HC-DU-201 adds a source-grounded physical positive to the HC-DU-200
+    boundary: one heralded ion--photon Bell apparatus forms an eight-value raw
+    record that factors through an exact minimal two-bit action quotient and
+    thereby conditionally enables the four Pauli corrections of teleportation.
+    One raw bit is correction-null but potentially audit-live; reported
+    conditional fidelity and finite-horizon availability separate sharply
+    under the source's three success denominators. The apparatus, instrument,
+    access path, and task remain supplied, and downstream records cannot
+    distinguish theories inducing the same instrument and conditioned target
+    channel. Standard teleportation and instrument theory absorb the result;
+    no new DU mechanism or prediction is earned. No scientific successor is
+    ready. The GU receiver and both QFT charters remain parked; no publication
+    program is prepared here.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -129,7 +135,11 @@ programs:
       HC-DU-185/186 correct predictive absorption, excess, and modular
       acquisition gates. HC-DU-187 hardens the closest conditional CSL
       response into a three-width strict-convexity lock; HC-DU-188 establishes
-      its source-regime conditioning and local stop.
+      its source-regime conditioning and local stop. HC-DU-201 supplies the
+      strongest action-enabling physical record positive so far: an exact
+      minimal two-bit Bell-record quotient, finite retry normalization, and a
+      downstream ontology-nonidentification boundary under one engineered
+      heralded apparatus.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -177,6 +187,8 @@ programs:
         evidence_ref: explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
       - id: HC-DU-188
         evidence_ref: explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
+      - id: HC-DU-201
+        evidence_ref: explorations/heralded-bell-record-action-quotient-resource-boundary-2026-08-31.md
     remaining_obligations:
       - For a GU-conditioned round trip, select the flag/interface target-blindly or prove observer-target descent across the admitted family.
       - Physically certify common-event membership across prompt and delayed record channels, or freeze the exact completion class and error contract under which it is inferred.
@@ -186,6 +198,7 @@ programs:
       - Physically select event time semantics and the readout/archive/access quotient.
       - Keep PRED-DU-005 parked until one source-pinned device packet demonstrates the wide preparation range, complete width-dependent nuisance basis, timing monitor, joined attempt lineage, and finite no-refit shot/error budget; otherwise lock another nonabsorbed finite target.
       - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
+      - Upgrade the heralded Bell packet to an implementation-complete per-attempt archive only when a held-out no-refit target requires accepted, rejected, reset, and controller-memory lineage; never treat conditional fidelity as unconditional capability.
       - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
     typed_dependencies:
       - type: extracts_from
@@ -242,6 +255,7 @@ programs:
       - explorations/predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md
       - explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
       - explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
+      - explorations/heralded-bell-record-action-quotient-resource-boundary-2026-08-31.md
       - explorations/concept-register.md
       - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
 
@@ -913,13 +927,14 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-200 closes Q-0063 without a new mechanism or prediction. The audit
-    rung is non-vacuous but fully absorbed by strong-QD/SBS physics. No source
-    currently joins retained carrier, event association, selected
-    access/archive, and an unabsorbed response-order consequence. The GU
-    receiver is not ready, and both QFT programs remain charter-only. Select
-    no successor until one parked reopener or another North-Star admission
-    contract closes.
+    HC-DU-200 closes Q-0063 without a new mechanism or prediction. HC-DU-201
+    then demonstrates that one engineered physical apparatus can join a formed
+    record, controller access, an exact action quotient, and a real conditional
+    capability. It still does not select its apparatus, instrument,
+    actualization, or implementation-complete attempt lineage, and it carries
+    no unabsorbed response-order consequence. The GU receiver is not ready,
+    and both QFT programs remain charter-only. Select no successor until one
+    parked reopener or another North-Star admission contract closes.
 
 anomaly_intake:
   status: open_non_wip

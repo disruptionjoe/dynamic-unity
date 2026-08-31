@@ -4,6 +4,28 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-201 heralded Bell-record capability quotient
+
+`du_heralded_bell_record_capability_probe.py` reconstructs the eight-outcome
+truth table of the source-pinned trapped-ion/photonic full Bell measurement.
+It proves that the raw record `(passage, herald, atom)` factors through the
+minimal two-bit action quotient `(passage, herald XOR atom)`, checks every raw
+coordinate-deletion control, derives the ideal Haar-average fidelity loss when
+either actionable bit is erased, and keeps three source-reported success
+denominators separate when computing retry horizons. Run:
+
+```bash
+python3 tests/du_heralded_bell_record_capability_probe.py --write-artifact
+```
+
+The deterministic receipt is
+`artifacts/du_heralded_bell_record_capability_result.json`. Passing establishes
+only the finite ideal quotient, its action-relative minimality, and the stated
+retry arithmetic. It does not validate the source experiment, select the
+apparatus or record interface, prove single-world actualization, reconstruct
+rejected-attempt lineage, distinguish quantum ontologies, or establish new
+physics.
+
 `du_phenomenon_capability_atlas_probe.py` validates the completed, non-routing
 Phenomenon-to-Capability Atlas v0.1. It checks the strict schema marker; six-card
 bounded denominator; immutable, content-addressed source bindings; the guard

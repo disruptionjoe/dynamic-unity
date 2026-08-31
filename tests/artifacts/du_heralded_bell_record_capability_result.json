@@ -1,0 +1,295 @@
+{
+  "action_quotient": {
+    "action_classes": 4,
+    "map": "(passage, herald, atom) -> (passage, herald XOR atom)",
+    "minimum_action_bits": 2,
+    "raw_classes": 8,
+    "raw_redundancy_bits": 1,
+    "sufficient": true
+  },
+  "coordinate_deletion_controls": {
+    "0": {
+      "classes": 2,
+      "exact": false,
+      "indices": [
+        0
+      ],
+      "optimal_haar_fidelity": 0.6666666666666666
+    },
+    "01": {
+      "classes": 4,
+      "exact": false,
+      "indices": [
+        0,
+        1
+      ],
+      "optimal_haar_fidelity": 0.6666666666666666
+    },
+    "012": {
+      "classes": 8,
+      "exact": true,
+      "indices": [
+        0,
+        1,
+        2
+      ],
+      "optimal_haar_fidelity": 1.0
+    },
+    "02": {
+      "classes": 4,
+      "exact": false,
+      "indices": [
+        0,
+        2
+      ],
+      "optimal_haar_fidelity": 0.6666666666666666
+    },
+    "1": {
+      "classes": 2,
+      "exact": false,
+      "indices": [
+        1
+      ],
+      "optimal_haar_fidelity": 0.5
+    },
+    "12": {
+      "classes": 4,
+      "exact": false,
+      "indices": [
+        1,
+        2
+      ],
+      "optimal_haar_fidelity": 0.6666666666666666
+    },
+    "2": {
+      "classes": 2,
+      "exact": false,
+      "indices": [
+        2
+      ],
+      "optimal_haar_fidelity": 0.5
+    },
+    "none": {
+      "classes": 1,
+      "exact": false,
+      "indices": [],
+      "optimal_haar_fidelity": 0.5
+    }
+  },
+  "correction_classes": {
+    "I": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0
+      ]
+    ],
+    "X": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ]
+    ],
+    "Y": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        1
+      ]
+    ],
+    "Z": [
+      [
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1
+      ]
+    ]
+  },
+  "finite_retry": {
+    "per_experimental_run": {
+      "combined_success": 0.0001981,
+      "expected_units": 5047.955577990914,
+      "first_passage_success": 0.000176,
+      "second_passage_success": 2.21e-05,
+      "units_for_95_percent": 15121,
+      "units_for_99_percent": 23245
+    },
+    "per_generated_pair": {
+      "combined_success": 7.285e-07,
+      "expected_units": 1372683.5964310227,
+      "first_passage_success": 6.47e-07,
+      "second_passage_success": 8.15e-08,
+      "units_for_95_percent": 4112192,
+      "units_for_99_percent": 6321440
+    },
+    "per_incoming_photon_at_ion": {
+      "combined_success": 1.926e-05,
+      "expected_units": 51921.07995846314,
+      "first_passage_success": 1.71e-05,
+      "second_passage_success": 2.16e-06,
+      "units_for_95_percent": 155541,
+      "units_for_99_percent": 239104
+    }
+  },
+  "ideal_quotient_fidelities": {
+    "full_two_bit_record": 1.0,
+    "no_actionable_bits": 0.5,
+    "parity_only": 0.6666666666666666,
+    "passage_only": 0.6666666666666666
+  },
+  "independent_bit_error_threshold_for_fidelity_above_two_thirds": 0.29289321881345254,
+  "raw_rows": [
+    {
+      "bell_family": "Psi",
+      "correction": "Y",
+      "quotient": [
+        0,
+        0
+      ],
+      "raw": [
+        0,
+        0,
+        0
+      ],
+      "sign": "+"
+    },
+    {
+      "bell_family": "Psi",
+      "correction": "X",
+      "quotient": [
+        0,
+        1
+      ],
+      "raw": [
+        0,
+        0,
+        1
+      ],
+      "sign": "-"
+    },
+    {
+      "bell_family": "Psi",
+      "correction": "X",
+      "quotient": [
+        0,
+        1
+      ],
+      "raw": [
+        0,
+        1,
+        0
+      ],
+      "sign": "-"
+    },
+    {
+      "bell_family": "Psi",
+      "correction": "Y",
+      "quotient": [
+        0,
+        0
+      ],
+      "raw": [
+        0,
+        1,
+        1
+      ],
+      "sign": "+"
+    },
+    {
+      "bell_family": "Phi",
+      "correction": "Z",
+      "quotient": [
+        1,
+        0
+      ],
+      "raw": [
+        1,
+        0,
+        0
+      ],
+      "sign": "+"
+    },
+    {
+      "bell_family": "Phi",
+      "correction": "I",
+      "quotient": [
+        1,
+        1
+      ],
+      "raw": [
+        1,
+        0,
+        1
+      ],
+      "sign": "-"
+    },
+    {
+      "bell_family": "Phi",
+      "correction": "I",
+      "quotient": [
+        1,
+        1
+      ],
+      "raw": [
+        1,
+        1,
+        0
+      ],
+      "sign": "-"
+    },
+    {
+      "bell_family": "Phi",
+      "correction": "Z",
+      "quotient": [
+        1,
+        0
+      ],
+      "raw": [
+        1,
+        1,
+        1
+      ],
+      "sign": "+"
+    }
+  ],
+  "scientific_boundary": {
+    "does_not_prove": [
+      "source-paper validity",
+      "apparatus selection from bare quantum laws",
+      "single-world actualization",
+      "implementation-complete attempt lineage",
+      "new physics or ontology priority"
+    ],
+    "proves": [
+      "exact action-relative factorization of the ideal raw record",
+      "two-bit deterministic minimality for an arbitrary unknown qubit",
+      "separation of conditional correctness from finite-horizon availability"
+    ]
+  },
+  "source": {
+    "citation": "Arenskoetter et al., Phys. Rev. Research 6, 023061 (2024)",
+    "doi": "10.1103/PhysRevResearch.6.023061",
+    "source_claims_validated_by_probe": false
+  }
+}
