@@ -7988,6 +7988,31 @@ physical matched-orbit selector and held-out no-refit response/resource/
 provenance transfer; regional composition remains unearned. See
 `record-consumer-diagonal-descent-relative-handoff-and-physical-gauge-boundary-2026-08-31.md`.
 
+### 2026-08-31 record algebra / consumer-action selector frontier
+
+`HC-DU-205` adds the next boundary after matched handoff descent. A fixed
+formed sharp record algebra admits multiple record-preserving controlled
+actions with different downstream capabilities. The inverse write returns
+the carrier to blank; it does not choose one of those actions. Exact finite
+controls realize one binary record snapshot and all four binary response
+policies, while preserving the `HC-DU-204` matched-label descent law.
+
+The unchanged selector passport returns no complete winner. Source-action/QND
+stability partially selects a producer orbit; finite-time infrared memory
+partially selects a carrier/dressing; direct action supplies a source relation
+after theory choice; and a stable embodied interaction can close a bounded
+capability without forming a retained occurrence record. None selects write,
+consumer, alignment, provenance, archive, access, resources, and actions as
+one physical handoff.
+
+**Updated reopener:** require one target-blind cross-boundary action,
+constraint, or stable interaction that selects a writer-consumer pair or
+matched physical-gauge orbit. Removing it must restore physically distinct
+consumers, and the complete formation/provenance/resource/capability packet
+must descend without refit. Do not repeat pointer, quotient, inverse-write, or
+host variants without that new premise. See
+`record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

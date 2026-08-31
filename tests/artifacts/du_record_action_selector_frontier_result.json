@@ -1,0 +1,452 @@
+{
+  "claim_id": "HC-DU-205",
+  "earned": [
+    "exact record-preserving consumer-action freedom",
+    "exact inverse-write erasure/nonselection boundary",
+    "matched label-orbit descent regression",
+    "unchanged-passport comparison of three physical selector families",
+    "minimum reopener localized to a cross-boundary write/read action law"
+  ],
+  "exact_consumer_freedom": {
+    "all_consumers_commute_with_record_projectors": true,
+    "consumer_policies_checked": 4,
+    "distinct_formed_record_snapshots": 1,
+    "distinct_target_response_signatures": 4,
+    "policy_rows": [
+      {
+        "policy": [
+          0,
+          0
+        ],
+        "rows": [
+          {
+            "after_consumer": [
+              0,
+              0,
+              0
+            ],
+            "after_inverse_write": [
+              0,
+              0,
+              0
+            ],
+            "formed": [
+              0,
+              0,
+              0
+            ],
+            "source": 0
+          },
+          {
+            "after_consumer": [
+              1,
+              1,
+              0
+            ],
+            "after_inverse_write": [
+              1,
+              0,
+              0
+            ],
+            "formed": [
+              1,
+              1,
+              0
+            ],
+            "source": 1
+          }
+        ],
+        "target_response_signature": [
+          0,
+          0
+        ]
+      },
+      {
+        "policy": [
+          0,
+          1
+        ],
+        "rows": [
+          {
+            "after_consumer": [
+              0,
+              0,
+              0
+            ],
+            "after_inverse_write": [
+              0,
+              0,
+              0
+            ],
+            "formed": [
+              0,
+              0,
+              0
+            ],
+            "source": 0
+          },
+          {
+            "after_consumer": [
+              1,
+              1,
+              1
+            ],
+            "after_inverse_write": [
+              1,
+              0,
+              1
+            ],
+            "formed": [
+              1,
+              1,
+              0
+            ],
+            "source": 1
+          }
+        ],
+        "target_response_signature": [
+          0,
+          1
+        ]
+      },
+      {
+        "policy": [
+          1,
+          0
+        ],
+        "rows": [
+          {
+            "after_consumer": [
+              0,
+              0,
+              1
+            ],
+            "after_inverse_write": [
+              0,
+              0,
+              1
+            ],
+            "formed": [
+              0,
+              0,
+              0
+            ],
+            "source": 0
+          },
+          {
+            "after_consumer": [
+              1,
+              1,
+              0
+            ],
+            "after_inverse_write": [
+              1,
+              0,
+              0
+            ],
+            "formed": [
+              1,
+              1,
+              0
+            ],
+            "source": 1
+          }
+        ],
+        "target_response_signature": [
+          1,
+          0
+        ]
+      },
+      {
+        "policy": [
+          1,
+          1
+        ],
+        "rows": [
+          {
+            "after_consumer": [
+              0,
+              0,
+              1
+            ],
+            "after_inverse_write": [
+              0,
+              0,
+              1
+            ],
+            "formed": [
+              0,
+              0,
+              0
+            ],
+            "source": 0
+          },
+          {
+            "after_consumer": [
+              1,
+              1,
+              1
+            ],
+            "after_inverse_write": [
+              1,
+              0,
+              1
+            ],
+            "formed": [
+              1,
+              1,
+              0
+            ],
+            "source": 1
+          }
+        ],
+        "target_response_signature": [
+          1,
+          1
+        ]
+      }
+    ],
+    "record_labels": [
+      0,
+      1
+    ]
+  },
+  "inverse_write_boundary": {
+    "inverse_only_outputs": [
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0
+      ]
+    ],
+    "result": "inverse write returns the record to blank; it does not select a target action",
+    "writer_is_self_inverse": true
+  },
+  "matched_orbit_control": {
+    "cases_checked": 8,
+    "matched_invariant_cases": 8,
+    "rows": [
+      {
+        "matched_response": [
+          0,
+          0
+        ],
+        "permutation": [
+          0,
+          1
+        ],
+        "policy": [
+          0,
+          0
+        ],
+        "unmatched_invariant": true,
+        "unmatched_response": [
+          0,
+          0
+        ]
+      },
+      {
+        "matched_response": [
+          0,
+          1
+        ],
+        "permutation": [
+          0,
+          1
+        ],
+        "policy": [
+          0,
+          1
+        ],
+        "unmatched_invariant": true,
+        "unmatched_response": [
+          0,
+          1
+        ]
+      },
+      {
+        "matched_response": [
+          1,
+          0
+        ],
+        "permutation": [
+          0,
+          1
+        ],
+        "policy": [
+          1,
+          0
+        ],
+        "unmatched_invariant": true,
+        "unmatched_response": [
+          1,
+          0
+        ]
+      },
+      {
+        "matched_response": [
+          1,
+          1
+        ],
+        "permutation": [
+          0,
+          1
+        ],
+        "policy": [
+          1,
+          1
+        ],
+        "unmatched_invariant": true,
+        "unmatched_response": [
+          1,
+          1
+        ]
+      },
+      {
+        "matched_response": [
+          0,
+          0
+        ],
+        "permutation": [
+          1,
+          0
+        ],
+        "policy": [
+          0,
+          0
+        ],
+        "unmatched_invariant": true,
+        "unmatched_response": [
+          0,
+          0
+        ]
+      },
+      {
+        "matched_response": [
+          0,
+          1
+        ],
+        "permutation": [
+          1,
+          0
+        ],
+        "policy": [
+          0,
+          1
+        ],
+        "unmatched_invariant": false,
+        "unmatched_response": [
+          1,
+          0
+        ]
+      },
+      {
+        "matched_response": [
+          1,
+          0
+        ],
+        "permutation": [
+          1,
+          0
+        ],
+        "policy": [
+          1,
+          0
+        ],
+        "unmatched_invariant": false,
+        "unmatched_response": [
+          0,
+          1
+        ]
+      },
+      {
+        "matched_response": [
+          1,
+          1
+        ],
+        "permutation": [
+          1,
+          0
+        ],
+        "policy": [
+          1,
+          1
+        ],
+        "unmatched_invariant": true,
+        "unmatched_response": [
+          1,
+          1
+        ]
+      }
+    ],
+    "unmatched_invariant_cases": 6
+  },
+  "not_earned": [
+    "a full physical handoff selector",
+    "a universal no-go against physical handoff selection",
+    "regional composition or public finality",
+    "empirical excess, new physics, or ontology priority"
+  ],
+  "run_id": "RUN-20260831-151458-record-module-selector-tournament",
+  "selector_tournament": {
+    "direct_action": {
+      "decisive_witness": "one source kernel has inequivalent channel factorizations",
+      "full_handoff_selected": false,
+      "not_selected": [
+        "mediator or absorber factorization",
+        "event partition",
+        "formed archive and provenance",
+        "consumer/access/action family"
+      ],
+      "selected": [
+        "source relation/response after a direct-action theory and boundary prescription are supplied"
+      ]
+    },
+    "embodied_relation_control": {
+      "decisive_witness": "action-relative capability exists without a record token",
+      "full_handoff_selected": false,
+      "not_selected": [
+        "formed retained occurrence record",
+        "portable archive",
+        "public certification"
+      ],
+      "selected": [
+        "bounded prepare/invert capability through reuse of one stable interaction"
+      ]
+    },
+    "finite_time_infrared_memory": {
+      "decisive_witness": "physical detector resolution indexes a family of record quotients",
+      "full_handoff_selected": false,
+      "not_selected": [
+        "bounded detector and resolution",
+        "blank-to-written provenance archive",
+        "consumer/action family",
+        "held-out reconstruction target"
+      ],
+      "selected": [
+        "soft carrier structure",
+        "conditional dressing component after a time frame and rotation subgroup are supplied"
+      ]
+    },
+    "source_action_qnd": {
+      "decisive_witness": "same effects and record, orthogonal selective continuation",
+      "full_handoff_selected": false,
+      "not_selected": [
+        "source action and candidate class",
+        "downstream consumer action",
+        "archive/access boundary",
+        "microscopic dilation"
+      ],
+      "selected": [
+        "record axis/effective instrument orbit inside a frozen informative QND candidate class"
+      ]
+    }
+  },
+  "status": "PASS",
+  "verdict": "NO_CURRENT_MECHANISM_SELECTS_A_COMPLETE_HANDOFF; RECORD_FORMATION_AND_RECORD_PRESERVATION_LEAVE_CONSUMER_ACTION_FREE; THE_INVERSE_WRITE_ERASES_BUT_DOES_NOT_SUPPLY_USE"
+}

@@ -4,6 +4,25 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-205 record-algebra / consumer-action selector frontier
+
+`du_record_action_selector_frontier_probe.py` checks that one reversible
+binary writer and one formed sharp record support four record-preserving
+consumer policies with four different target responses. It proves that the
+inverse write erases the carrier without selecting the consumer, checks all
+eight matched/unmatched binary relabeling cases, and validates the three
+selector-mechanism dispositions against banked artifacts. Run:
+
+```bash
+python3 tests/du_record_action_selector_frontier_probe.py --write-artifact
+```
+
+The deterministic receipt is
+`artifacts/du_record_action_selector_frontier_result.json`. Passing proves
+only the exact finite consumer-freedom, inverse-write, matched-descent, and
+artifact-consistency boundaries. It does not select a physical handoff,
+establish a universal no-go, compose regional finality, or claim new physics.
+
 ## HC-DU-204 record-consumer diagonal descent
 
 `du_record_consumer_diagonal_descent_probe.py` checks the coordinated versus
