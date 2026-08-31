@@ -1,0 +1,129 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "capability": 2,
+        "classical_composability": 2,
+        "record": 2,
+        "regional_finality": 2
+      },
+      "name": "each_perspective_is_lossy",
+      "passed": true
+    },
+    {
+      "detail": {
+        "joint_rank": 4
+      },
+      "name": "joint_views_separate_four_degree_control",
+      "passed": true
+    },
+    {
+      "detail": {
+        "capability+classical_composability": 3,
+        "capability+regional_finality": 4,
+        "classical_composability+regional_finality": 3,
+        "record+capability": 3,
+        "record+classical_composability": 4,
+        "record+regional_finality": 3
+      },
+      "name": "relationships_are_not_one_scalar_chain",
+      "passed": true
+    },
+    {
+      "detail": {
+        "rank": 3,
+        "witness": [
+          [
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1
+          ]
+        ]
+      },
+      "name": "undercomplete_positive_falsifier",
+      "passed": true
+    },
+    {
+      "detail": {
+        "candidate_one_bit_views": 15
+      },
+      "name": "classical_process_does_not_select_one_view",
+      "passed": true
+    },
+    {
+      "detail": {
+        "pauli_testers": 15
+      },
+      "name": "two_qubit_pauli_transfer_preserves_view_freedom",
+      "passed": true
+    },
+    {
+      "detail": {
+        "metric_parameters": 10,
+        "rank": 4
+      },
+      "name": "four_axial_rulers_do_not_identify_general_metric",
+      "passed": true
+    },
+    {
+      "detail": {
+        "rank": 10,
+        "rulers": 10
+      },
+      "name": "axis_plus_pair_rulers_identify_symmetric_metric_control",
+      "passed": true
+    },
+    {
+      "detail": {
+        "metric_a_e4_squared": 1,
+        "metric_b_e4_squared": 4
+      },
+      "name": "same_views_admit_different_metric_completions",
+      "passed": true
+    },
+    {
+      "detail": {
+        "observer_index_verdict": "OBSERVER_INDEX_REMAINS_SUPPLIED",
+        "verdict": "NONTRIVIAL_AXIOM_WITH_THEOREM_OBLIGATION",
+        "view_ids": [
+          "capability",
+          "classical_composability",
+          "geometry",
+          "record",
+          "regional_finality"
+        ]
+      },
+      "name": "atlas_verdict_and_boundary_are_frozen",
+      "passed": true
+    }
+  ],
+  "checks_passed": 10,
+  "checks_total": 10,
+  "claim_id": "HC-DU-206",
+  "earned": [
+    "exact joint-kernel reconstruction control",
+    "exact undercomplete-view witness",
+    "unchanged classical-to-two-qubit-Pauli response-functional transfer",
+    "four-axis versus ten-response metric-rank boundary",
+    "physically selected common-view closure isolated as the extra axiom"
+  ],
+  "not_earned": [
+    "four fundamental physical degrees",
+    "a selected process boundary or view family",
+    "a selected metric, connection, scale, observer, record, or finality law",
+    "a computational ontology, empirical excess, or new physics"
+  ],
+  "observer_index_verdict": "OBSERVER_INDEX_REMAINS_SUPPLIED",
+  "probe": "du_common_view_closure_probe",
+  "run_id": "RUN-20260831-181219-common-view-closure-audit",
+  "scientific_boundary": "Exact finite relationship and necessity controls only. The component mathematics is standard; the physical common-view selector remains open.",
+  "status": "PASS",
+  "verdict": "NONTRIVIAL_AXIOM_WITH_THEOREM_OBLIGATION"
+}

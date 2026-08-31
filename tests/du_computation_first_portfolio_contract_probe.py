@@ -198,12 +198,13 @@ def run_checks(portfolio: dict[str, Any]) -> dict[str, Any]:
         f"positions={positions}",
     )
     check(
-        "sole_executable_first_action",
-        executable == ["CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT"]
+        "sole_executable_next_action",
+        executable == ["CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION"]
+        and campaign[0].get("status") == "complete"
         and all(
             item.get("status") == "conditional"
             for item in campaign
-            if item.get("position") != 1
+            if item.get("position") not in {1, 2}
         ),
         f"executable={executable}",
     )

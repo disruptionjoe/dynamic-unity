@@ -8036,13 +8036,44 @@ necessity, and record-consumer freedom.
 
 The selected first question is not whether physics can be described as
 computation. It is whether a minimal closed typed transition system contains
-an axiom beyond a complete quantum process plus supplied interfaces. Only
-`CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT` is executable. Classical
-composability, record-capability coformation, regional sharding/finality, and
-geometry recovery remain dependency-gated. See
+an axiom beyond a complete quantum process plus supplied interfaces.
+`CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT` was the first action and is complete
+as `HC-DU-206`; the following entry records its result and successor. See
 `computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md`
 and
 `../lab/process/computation-first-closed-transition-hypothesis-portfolio.json`.
+
+### 2026-08-31 common-view closure and four-degree ruler boundary
+
+`HC-DU-206` corrects the eight-family portfolio without promoting an
+ontology. Record, capability, classical composability, regional finality, and
+geometry are best treated as typed views, closures, or reconstruction targets
+over one indexed operational transition package—not as independent
+substrates.
+
+For target-independent view maps `v_i:X->Y_i`, a held-out target factors
+through their joint view exactly when the intersection of the view kernels
+refines the target kernel. The four-bit exact control uses four individually
+rank-2 perspectives whose joint rank is 4; an undercomplete control has joint
+rank 3 and an explicit same-view/different-state witness. The same fifteen
+nonzero linear view choices transfer unchanged to two-qubit Pauli-channel
+commutation testers, so quantum consistency does not select one view family.
+
+A general pointwise symmetric metric on a four-dimensional carrier has ten
+components. Four axial ruler responses have rank 4; axes plus the six pair-sum
+responses have rank 10. The same transition and view data admit different
+metric completions when ruler response is absent. These are standard
+factorization and linear-algebra controls, consistent with `HC-DU-112`.
+
+The surviving extra axiom is `CVC-A`, physically selected common-view closure:
+one target-independent antecedent must select the process boundary,
+action/resource envelope, matched view orbit, material realization, and
+sufficient ruler response. Adding them as tuple fields is representation, not
+selection. The next question is `CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION`.
+See
+`common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md`
+and
+`../lab/process/computation-first-common-view-relationship-atlas.json`.
 
 ## Boundary
 

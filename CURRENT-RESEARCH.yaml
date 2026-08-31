@@ -1,10 +1,10 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 154
+state_revision: 155
 as_of: '2026-08-31'
 authority: Joe direct chat through 2026-08-31 and governed receipts. The 2026-08-31
-  computation-first direction authorizes this portfolio assessment and its sole non-vacuity
-  action. Earlier completed programs remain dated evidence, not live routing.
+  computation-first direction authorizes the portfolio assessment and consequent
+  common-view relationship audit. Earlier completed programs remain dated evidence.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -71,15 +71,13 @@ transition_protocol:
     current; supersede them additively and route only through this file.
 current_decision:
   active_scientific_program_id: DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE
-  executable_action_id: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
+  executable_action_id: CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: The twenty computational lenses are consolidated into eight Grade-0
-    conditional families rather than forty claims. The active program first tests
-    whether a closed typed transition substrate has any axiom beyond a complete process
-    plus supplied interfaces. Only CTS-A1 is executable; classical composability,
-    record-capability coformation, regional sharding/finality, and geometry recovery
-    remain outcome-gated.
+  decision_note: HC-DU-206 completes CTS-A1. The perspectives form one exact typed
+    relationship atlas, but the process does not select their matched projectors,
+    consumer, observer boundary, or ruler response. CVC-A, physically selected common-view
+    closure, is the surviving theorem obligation. Only CTS-A2 is executable.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -427,7 +425,7 @@ programs:
   portfolio_status: active
   execution_status: executable
   wip_slot: scientific_flagship
-  active_work_id: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
+  active_work_id: CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION
   primary_lane_id: '1'
   supporting_lane_ids:
   - '2'
@@ -443,8 +441,9 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: Grade 0 conditional campaign; no physical hypothesis is promoted.
-  evidence_grade: 0
+  current_grade: HC-DU-206 banks a scoped Grade-4 relationship/necessity boundary;
+    every physical hypothesis remains Grade 0.
+  evidence_grade: 4
   maximum_grade: Grade 4 for selection or nonselection; Grade 5 only for a later finite
     no-refit residual.
   maximum_evidence_grade: 5
@@ -459,11 +458,13 @@ programs:
     evidence_ref: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
   - id: HC-DU-205
     evidence_ref: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
+  - id: HC-DU-206
+    evidence_ref: explorations/common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md
   - id: CTS-PORTFOLIO-ADMISSION
     evidence_ref: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
   remaining_obligations:
-  - Run Position 1 before dependent positions.
-  - Advance composability or coformation only if an extra axiom survives.
+  - Test CVC-A on one source-pinned physical antecedent under every remaining automorphism.
+  - Return a physical selector or the smallest exact obstruction before coformation.
   - Type sharding/finality before distributed theorems; geometry needs an independent
     scale anchor.
   - Terminate in theorem, counterexample, finite discriminator, or absorption.
@@ -477,39 +478,46 @@ programs:
   - type: extracts_from
     target: HC-DU-205
     target_type: result
+  - type: extracts_from
+    target: HC-DU-206
+    target_type: result
   - type: tests
-    target: COMPUTATION-FIRST-CLOSED-TRANSITION-PREMISE
+    target: PHYSICALLY-SELECTED-COMMON-VIEW-CLOSURE
     target_type: premise
   strongest_absorber: Quantum processes, categorical classical structures, decoherence,
     causal structures, QEC, and distributed representations.
-  cheapest_kill: Target-independent adapters reduce the candidate to a complete process
-    plus supplied interfaces, or an external interpreter remains.
-  stop_rule: Stop on representation, quantum inconsistency, or external interpretation;
-    no fitted semantic rescue.
+  cheapest_kill: Two equally admitted matched view families or ruler responses survive
+    one physical antecedent, or the selector uses the held-out target.
+  stop_rule: Stop on unselected views, unmatched re-encoding, target-fit rulers, or
+    pure representation; no semantic rescue.
   reopen_rule: After absorption, require a new target-independent axiom that selects
     an interface, forbids an architecture, imposes no-refit transfer, or yields a
     finite discriminator.
   local_computation_boundary: Formal/source comparison and at most one exact finite
     proof control; no simulation, training, provider, or hardware.
-  next_action: Define the minimal transition object, map it to DU and quantum/classical
-    controls, isolate extra axioms, and return one frozen verdict.
-  next_action_ref: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
+  next_action: Test whether one physical antecedent selects a natural matched family
+    of record, capability, composability, finality, and ruler maps, or return the
+    smallest exact obstruction.
+  next_action_ref: explorations/common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md
   execution_packet:
-    action_id: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
-    exact_question: Which transition axioms exceed quantum processes and DU's typed
-      kernel without an interpreter or fitted interface?
+    action_id: CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION
+    exact_question: Does one physical antecedent select a natural matched family of
+      record, capability, composability, finality, and ruler maps, or what is the
+      smallest exact obstruction?
     source_locator:
-      path: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
-      heading: '## Position 1 — non-vacuity and translation audit — executable'
+      path: explorations/common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md
+      heading: '# 10. Portfolio and next-action disposition'
     required_inputs:
+    - path: lab/process/computation-first-common-view-relationship-atlas.json
+      role: Typed views, relationship results, CVC-A, and exact controls.
     - path: lab/process/computation-first-closed-transition-hypothesis-portfolio.json
-      role: Eight-family contract and gates.
-    - path: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
-      role: Duplicate audit and campaign.
+      role: Eight-family dependencies and advancement gates.
     - path: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
       role: Interface-selection control.
     - path: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
       role: Consumer-freedom control.
+    - path: explorations/complete-causal-set-law-scale-gauge-and-marked-anchor-necessity-2026-07-29.md
+      role: Ruler and metric-scale nonselection control.
     unchanged_ledger_fields:
     - all-hypotheses-grade-zero
     - process-interface-action-type-separation
@@ -522,17 +530,17 @@ programs:
     - classical-event-system-control
     - hostile-contextual-control
     expected_return_classes:
+    - PHYSICAL_COMMON_VIEW_SELECTOR_FOUND
+    - COMMON_VIEW_NO_SECTION_OR_AMBIGUITY_OBSTRUCTION
     - PURE_REPRESENTATION_ABSORBED
-    - NONTRIVIAL_AXIOM_WITH_THEOREM_OBLIGATION
-    - INCONSISTENT_WITH_QUANTUM_PROCESS_CONTROL
-    - UNDERDEFINED_EXTERNAL_INTERPRETER_REMAINS
+    - PHYSICAL_CANDIDATE_INCONSISTENT
     observer_index_return_classes:
     - OBSERVER_INDEX_DERIVES_FROM_SELECTED_ACTION_BOUNDARY
     - OBSERVER_INDEX_REMAINS_SUPPLIED
     - OBSERVER_INDEX_IRRELEVANT_TO_SCOPED_TRANSLATION
-    durable_output: One exact adapter, absorber, counterexample, or theorem-obligation
-      verdict plus a routing transition.
-    local_method: Source/formal comparison; one exact finite control only if decisive.
+    durable_output: One source-pinned selector or exact obstruction theorem, with
+      matched-orbit and ruler controls, plus a routing transition.
+    local_method: Source/formal comparison; exact finite control only if decisive.
     uses_program_controls:
     - premise_status
     - strongest_absorber
@@ -540,13 +548,15 @@ programs:
     - stop_rule
     - local_computation_boundary
   canonical_evidence_refs:
+  - explorations/common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md
+  - lab/process/computation-first-common-view-relationship-atlas.json
   - explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
   - lab/process/computation-first-closed-transition-hypothesis-portfolio.json
   - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
   - explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
 successor_selection:
   status: blocked
-  blocked_by: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
+  blocked_by: CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION
   selected_successor_id: null
   candidate_classes:
   - computation-first-closed-transition-substrate
@@ -556,11 +566,10 @@ successor_selection:
   - minimal-physical-selection-frontier
   - law-record-finite-remainder
   - no-ready-successor
-  decision_rule: CTS-A1 now blocks successor selection. Advance only if it isolates
-    a nontrivial target-independent transition axiom with a theorem obligation. Pure
-    representation, inconsistency, or an external-interpreter remainder terminally
-    absorbs the computation-first campaign. All other programs, GU, and both QFT branches
-    remain parked.
+  decision_rule: CTS-A2 blocks successor selection. Advance only through a source-pinned
+    physical common-view selector or exact scoped obstruction. Representation, fitted
+    views, or unmatched ruler/consumer choices absorb the route. Other programs remain
+    parked.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

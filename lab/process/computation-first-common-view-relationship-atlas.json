@@ -1,0 +1,158 @@
+{
+  "contract_version": "1.0",
+  "status": "banked_scoped_relationship_atlas",
+  "owner_repo": "dynamic-unity",
+  "program_id": "DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE",
+  "action_id": "CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT",
+  "claim_id": "HC-DU-206",
+  "verdict": "NONTRIVIAL_AXIOM_WITH_THEOREM_OBLIGATION",
+  "observer_index_verdict": "OBSERVER_INDEX_REMAINS_SUPPLIED",
+  "scientific_boundary": "The atlas is an exact typed synthesis and finite necessity/nonselection control. It does not establish a computational ontology, four fundamental degrees, a selected view family, a selected metric, new dynamics, or empirical excess.",
+  "conditional_common_object": {
+    "name": "indexed operational transition package",
+    "notation": "T=(M,W,Pre,A,H,G; V)",
+    "fields": [
+      {
+        "id": "M",
+        "type": "lawful completion or process class",
+        "selection_status": "must be frozen or physically selected"
+      },
+      {
+        "id": "W",
+        "type": "complete multi-time transition/process response",
+        "selection_status": "law-relative"
+      },
+      {
+        "id": "Pre",
+        "type": "primitive operational precedence/composition",
+        "selection_status": "does not by itself supply time or metric"
+      },
+      {
+        "id": "A",
+        "type": "admitted action/intervention family",
+        "selection_status": "observer and resource indexed"
+      },
+      {
+        "id": "H",
+        "type": "resource, access, and continuation horizon",
+        "selection_status": "physically supplied until derived"
+      },
+      {
+        "id": "G",
+        "type": "physical representation/gauge equivalence",
+        "selection_status": "complete responses must descend"
+      },
+      {
+        "id": "V",
+        "type": "family of typed perspective maps",
+        "selection_status": "the missing common-view selector"
+      }
+    ]
+  },
+  "mathematical_correction": {
+    "four_degrees": "A four-dimensional carrier is a conditional finite specimen, not an earned spacetime or substrate claim.",
+    "metric": "A metric is a section of Sym^2(T*M), not itself the carrier bundle.",
+    "pointwise_components": 10,
+    "connection": "A connection supplies transport and comparison across base points; it is not supplied by a metric in every admitted theory.",
+    "projectors": "View projectors select components or quotients but are not generally rulers and are not selected merely by writing them down.",
+    "action": "An action functional constrains dynamics; it is not an interaction between coordinate labels."
+  },
+  "views": [
+    {
+      "id": "record",
+      "formal_type": "history/process quotient or formed carrier map",
+      "relation_to_common_object": "a sufficient quotient only relative to a frozen query/action family",
+      "closest_du_result": "HC-DU-064",
+      "unselected_fields": ["writer", "provenance", "archive", "access", "consumer"]
+    },
+    {
+      "id": "capability",
+      "formal_type": "admitted intervention/response family",
+      "relation_to_common_object": "Galois-dual to an exact operational record requirement",
+      "closest_du_result": "HC-DU-064",
+      "unselected_fields": ["observer boundary", "resources", "horizon", "physical realizability"]
+    },
+    {
+      "id": "classical_composability",
+      "formal_type": "copy/compare/merge congruence on a selected interface",
+      "relation_to_common_object": "restricts which quotients remain lawful under composition",
+      "closest_du_result": "HC-DU-159",
+      "unselected_fields": ["physical sampler", "material archive", "merge channel", "publicness"]
+    },
+    {
+      "id": "regional_finality",
+      "formal_type": "action-safe closure over incompatible continuations under a fault/provenance contract",
+      "relation_to_common_object": "orders closed capability-record pairs but is not generally a scalar chain",
+      "closest_du_result": "HC-DU-064",
+      "unselected_fields": ["fault model", "authentication", "delivery", "rollback", "error bound"]
+    },
+    {
+      "id": "geometry",
+      "formal_type": "held-out causal/conformal/metric target reconstructed from response relations and rulers",
+      "relation_to_common_object": "downstream of capability saturation and an independent scale-bearing mark",
+      "closest_du_result": "HC-DU-112",
+      "unselected_fields": ["metric tensor", "connection", "scale", "calibration", "physical ruler"]
+    }
+  ],
+  "relationship_results": [
+    {
+      "id": "R1",
+      "statement": "A family of views reconstructs a target exactly iff the intersection of its equivalence kernels refines the target kernel.",
+      "novelty": "standard factorization and observability mathematics"
+    },
+    {
+      "id": "R2",
+      "statement": "Record requirements and capability queries form an antitone Galois connection after the query family is frozen.",
+      "novelty": "already banked as HC-DU-064"
+    },
+    {
+      "id": "R3",
+      "statement": "Composability and finality add congruence, access, fault, provenance, and action-safety conditions; they are not new coordinates of the carrier.",
+      "novelty": "typed synthesis"
+    },
+    {
+      "id": "R4",
+      "statement": "Even a jointly state-separating view family does not select a metric completion when the ruler response is absent.",
+      "novelty": "finite specialization of HC-DU-112 and inverse-problem nonidentifiability"
+    },
+    {
+      "id": "R5",
+      "statement": "Matched re-encoding of carrier and all view maps may be gauge; changing only a projector, ruler, or consumer is generally physical.",
+      "novelty": "specialization of HC-DU-204/205"
+    }
+  ],
+  "extra_axiom": {
+    "id": "CVC-A",
+    "name": "physically selected common-view closure",
+    "statement": "One target-independent physical antecedent selects the process boundary, action/resource envelope, perspective maps, their matched representation orbit, and enough ruler response that the joint view diagram commutes and is faithful up to declared gauge.",
+    "why_nontrivial": "A complete process can admit many inequivalent instruments, observers, consumers, quotients, and metrics. Adding them as tuple fields is representation, not selection.",
+    "theorem_obligation": "Either construct a physically selected natural family satisfying joint descent and target reconstruction, or exhibit the smallest symmetry, contextuality, consumer-freedom, or metric ambiguity obstruction.",
+    "falsifier": "Two equally admitted antecedent completions have identical selected process and all formed view data but incompatible view relations or held-out ruler/metric responses.",
+    "retreat_cost": "Without CVC-A the computation-first picture remains a useful compatibility atlas only."
+  },
+  "exact_controls": {
+    "four_bit_view_ranks": {
+      "record": 2,
+      "capability": 2,
+      "classical_composability": 2,
+      "regional_finality": 2,
+      "joint": 4
+    },
+    "undercomplete_joint_rank": 3,
+    "undercomplete_witness": [
+      [0, 0, 0, 0],
+      [0, 0, 0, 1]
+    ],
+    "nonzero_one_bit_view_choices": 15,
+    "two_qubit_pauli_transfer": "the same fifteen nonzero linear response functionals arise as Pauli commutation testers",
+    "four_axis_ruler_rank": 4,
+    "full_symmetric_metric_parameter_count": 10,
+    "axis_plus_pair_ruler_rank": 10,
+    "same_views_different_metric_witness": "diag(1,1,1,1) versus diag(1,1,1,4)"
+  },
+  "next_action": {
+    "id": "CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION",
+    "question": "Does one physical antecedent select a natural matched family of record, capability, composability, finality, and ruler maps, or what is the smallest exact obstruction?",
+    "status": "executable"
+  }
+}

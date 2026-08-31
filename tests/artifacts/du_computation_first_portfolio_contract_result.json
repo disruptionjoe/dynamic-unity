@@ -52,8 +52,8 @@
       "passed": true
     },
     {
-      "detail": "executable=['CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT']",
-      "name": "sole_executable_first_action",
+      "detail": "executable=['CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION']",
+      "name": "sole_executable_next_action",
       "passed": true
     },
     {

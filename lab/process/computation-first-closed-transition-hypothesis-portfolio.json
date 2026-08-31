@@ -31,11 +31,11 @@
       "maximum_evidence_grade": 5,
       "warrants": ["CONDITIONAL_POSIT", "STRUCTURAL_ANALOGY"],
       "depends_on": [],
-      "closest_du_results": ["HC-DU-064", "HC-DU-094", "HC-DU-137", "HC-DU-177"],
+      "closest_du_results": ["HC-DU-064", "HC-DU-094", "HC-DU-137", "HC-DU-177", "HC-DU-206"],
       "strongest_absorbers": ["process tensors and quantum combs", "operational quantum theory", "causal-state and sufficient-statistic constructions"],
       "decisive_question": "Does the proposed transition state add any independently selected structure beyond a complete process plus supplied action boundary?",
       "cheapest_kill": "Two physically admitted completions have the same complete transition state, action envelope, and resources but different accessible responses, or the transition state is only a relabeling of the complete process.",
-      "advancement_gate": "Define target-independent adapters to the DU typed kernel and one quantum process specimen, then isolate at least one additional axiom with a theorem obligation."
+      "advancement_gate": "HC-DU-206 isolates physically selected common-view closure as the nontrivial axiom. Advance only through a physical selector or smallest exact obstruction; the common typed representation alone is absorbed."
     },
     {
       "id": "CTS-H2",
@@ -127,11 +127,11 @@
       "maximum_evidence_grade": 4,
       "warrants": ["CONDITIONAL_POSIT"],
       "depends_on": ["CTS-H1"],
-      "closest_du_results": ["HC-DU-137", "HC-DU-159", "HC-DU-172", "HC-DU-181", "HC-DU-204", "HC-DU-205"],
+      "closest_du_results": ["HC-DU-137", "HC-DU-159", "HC-DU-172", "HC-DU-181", "HC-DU-204", "HC-DU-205", "HC-DU-206"],
       "strongest_absorbers": ["natural transformations and no-section results", "quantum instruments and combs", "realization theory", "gauge descent"],
       "decisive_question": "Which complete handoff coordinates are constant on the candidate antecedent fibre, and which remain supplied?",
       "cheapest_kill": "The supposed selector depends on the held-out target, or two inequivalent complete handoffs remain on one antecedent fibre.",
-      "advancement_gate": "Expose every adapter and free choice, quotient only matched full physical gauge, and prove selection or exact nonselection."
+      "advancement_gate": "Test CVC-A from HC-DU-206: expose every adapter and free choice, quotient only matched full physical gauge, and prove selection or the smallest exact obstruction."
     },
     {
       "id": "CTS-H8",
@@ -176,16 +176,16 @@
     {
       "position": 1,
       "action_id": "CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT",
-      "status": "executable",
+      "status": "complete",
       "hypothesis_ids": ["CTS-H1", "CTS-H7"],
-      "question": "Which axioms of the minimal closed typed transition system add content beyond ordinary process theory and the existing DU typed kernel?"
+      "question": "Which axioms of the minimal closed typed transition system add content beyond ordinary process theory and the existing DU typed kernel? HC-DU-206 returns physically selected common-view closure as the surviving theorem obligation."
     },
     {
       "position": 2,
-      "action_id": "CTS-A2-CLASSICAL-COMPOSABILITY-BOUNDARY",
-      "status": "conditional",
-      "hypothesis_ids": ["CTS-H3"],
-      "question": "Do algebraic copyability, operational mergeability, and material accessibility select one classical substructure?"
+      "action_id": "CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION",
+      "status": "executable",
+      "hypothesis_ids": ["CTS-H3", "CTS-H7"],
+      "question": "Does one physical antecedent select a natural matched family of record, capability, composability, finality, and ruler maps, or what is the smallest exact obstruction?"
     },
     {
       "position": 3,

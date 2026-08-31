@@ -4,6 +4,25 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-206 common-view closure and metric-ruler boundary
+
+`du_common_view_closure_probe.py` validates the exact finite controls for the
+computation-first relationship atlas. It checks four individually lossy
+two-bit perspective maps with a jointly separating rank-4 family, a rank-3
+undercomplete falsifier, all fifteen classical and two-qubit-Pauli linear
+response functionals, four axial metric responses of rank 4, and axes plus
+pair sums of rank 10 for a general symmetric four-dimensional metric. Run:
+
+```bash
+python3 tests/du_common_view_closure_probe.py --write-artifact
+```
+
+The deterministic artifact is
+`artifacts/du_common_view_closure_result.json`. Passing establishes only the
+finite relationship, factorization, and nonselection controls. It does not
+establish four fundamental degrees, a selected view family or metric,
+computational ontology, or new physics.
+
 ## Computation-first hypothesis portfolio contract
 
 `du_computation_first_portfolio_contract_probe.py` validates the conditional
@@ -11,7 +30,7 @@ closed-transition portfolio without treating it as scientific evidence. It
 checks eight unique hypothesis families, twenty unique computational lenses,
 exactly forty lens-to-hypothesis mappings, complete absorber/falsifier/grade
 fields, an acyclic dependency graph, complete five-position coverage, and one
-sole executable first action. Run:
+sole executable next action. Run:
 
 ```bash
 python3 tests/du_computation_first_portfolio_contract_probe.py --write-artifact
