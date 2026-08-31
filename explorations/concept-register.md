@@ -7963,6 +7963,31 @@ with a source-pinned active correction or declared frame-aware continuation
 that passes a held-out no-refit task beyond terminal tomography. See
 `heralded-bell-prescription-execution-and-deferred-correction-boundary-2026-08-31.md`.
 
+### 2026-08-31 record-consumer diagonal descent / relative handoff
+
+`HC-DU-204` joins the interface nonselection, selection-or-descent, and Bell
+prescription/execution results. A record encoding and its consumer may be
+jointly re-encoded without changing their closed response. An unmatched
+producer or consumer change is harmless exactly inside the consumer's
+stabilizer on reachable records.
+
+The Bell control exhausts all `24` Pauli-label permutations. Every coordinated
+record/correction-table relabeling preserves ideal correction; only identity
+preserves an arbitrary unknown-qubit task when the producer alone changes,
+while four permutations preserve a terminal `Z` statistic. The QEC control
+transfers the same contract: swapping decoder statuses `0` and `2` preserves
+the idle/X action but changes the retained timing law.
+
+**Updated seed status:** an absolute interface and absolute consumer need not
+be point-selected if physics selects a matched pair orbit and the complete
+dynamics, material record, provenance, resources, interventions, and
+capabilities descend through it. Formal endpoint invariance alone is not
+physical gauge. Quantum combs, Pauli frames, feedback control, automata, and
+realization theory absorb the mathematics. Reopen only with a target-blind
+physical matched-orbit selector and held-out no-refit response/resource/
+provenance transfer; regional composition remains unearned. See
+`record-consumer-diagonal-descent-relative-handoff-and-physical-gauge-boundary-2026-08-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

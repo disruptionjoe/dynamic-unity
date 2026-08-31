@@ -1,12 +1,11 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 151
+state_revision: 152
 as_of: '2026-08-31'
 authority: >-
-  Joe direct chat through 2026-08-31; governed receipts preserve each explicit
-  authorization. The 2026-08-31 big-wave directions authorized HC-DU-201,
-  HC-DU-202, and the source-hardening prescription/execution boundary banked
-  as HC-DU-203.
+  Joe direct chat through 2026-08-31; governed receipts preserve authorization.
+  The 2026-08-31 big waves authorized HC-DU-201--204, ending with the
+  record-consumer joint-descent boundary.
   The 2026-08-27 chat added two parked research programs without making either
   executable: four-dimensional QFT completion and infrared empirical quantum
   gravity.
@@ -87,12 +86,12 @@ current_decision:
   prepared_publication_program_id: null
   selected_successor_id: null
   decision_note: >-
-    HC-DU-201--203 establish a formed Bell record, task-relative correction
-    quotient, and conditional tomography/prescription—not an active Pauli gate
-    or arbitrary adaptive continuation. A compatible terminal Pauli frame works
-    only when the record is consumed. Standard sufficiency, teleportation, and
-    process theory absorb the result. No physical selector, new prediction,
-    successor, or publication is ready; GU and both QFT charters remain parked.
+    HC-DU-201--204 establish Bell formation, task-relative correction,
+    prescription/execution separation, and joint producer-consumer descent.
+    A matched orbit with complete physical descent needs no absolute interface;
+    endpoint invariance alone is not gauge. Existing process/control theory
+    absorbs the result. No selector, prediction, successor, or paper is ready;
+    GU and both QFT charters remain parked.
 
 programs:
   - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
@@ -122,11 +121,10 @@ programs:
       interface; then adjudicate action-relative reconstruction, operational
       duality, and the smallest physically realizable finite remainder.
     current_grade: >-
-      HC-DU-165--188 bank the formal, physical-interface, prediction, and CSL
-      boundaries. HC-DU-201--203 add a formed Bell carrier, task-relative
-      correction quotient, audit/naturality controls, and the exact boundary
-      between prescription, compatible terminal frame recovery, and enacted
-      arbitrary continuation. The source reports no active Pauli feed-forward.
+      HC-DU-165--188 bank prior boundaries. HC-DU-201--204 add Bell formation,
+      task-relative correction, prescription/execution separation, and the
+      selection-or-matched-descent boundary. Formal descent selects no material
+      consumer and establishes no full physical gauge.
     evidence_grade: 4
     maximum_grade: >-
       Grade 5 only after a target-blind selected interface, complete material
@@ -180,6 +178,8 @@ programs:
         evidence_ref: explorations/action-family-indexed-record-selection-continuation-equivalence-and-blackwell-boundary-2026-08-31.md
       - id: HC-DU-203
         evidence_ref: explorations/heralded-bell-prescription-execution-and-deferred-correction-boundary-2026-08-31.md
+      - id: HC-DU-204
+        evidence_ref: explorations/record-consumer-diagonal-descent-relative-handoff-and-physical-gauge-boundary-2026-08-31.md
     remaining_obligations:
       - For a GU-conditioned round trip, select the flag/interface target-blindly or prove observer-target descent across the admitted family.
       - Physically certify common-event membership across prompt and delayed record channels, or freeze the exact completion class and error contract under which it is inferred.
@@ -192,6 +192,7 @@ programs:
       - Upgrade the heralded Bell packet to an implementation-complete per-attempt archive only when a held-out no-refit target requires accepted, rejected, reset, and controller-memory lineage; never treat conditional fidelity as unconditional capability.
       - Physically select the observer/access/continuation algebra before using continuation equivalence as a target-blind record; task-minimal certificates cannot supply that algebra after the fact.
       - Require a named physical consumer before calling a correction-prescribing record action-enabling; terminal frame correction and arbitrary downstream adaptive capability are different contracts.
+      - Point-select the record-consumer pair or prove complete physical descent across a target-blind matched orbit; endpoint invariance is insufficient.
       - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
     typed_dependencies:
       - type: extracts_from
@@ -909,6 +910,7 @@ successor_selection:
     - common-causal-response-object-audit
     - hyperbolic-response-tower-first-leak
     - target-blind-response-record-selector
+    - matched-record-consumer-orbit-selection
     - instrument-natural-section-or-no-section
     - minimal-physical-selection-frontier
     - material-substitution-response-rank
@@ -921,10 +923,10 @@ successor_selection:
     - covariant-finality-generator-after-finite-residual
     - no-ready-successor
   decision_rule: >-
-    HC-DU-200--203 leave no new mechanism or prediction. The Bell apparatus
-    joins record, quotient, and conditional tomography but selects neither its
-    interface nor continuation algebra; arbitrary continuation requires a
-    further physical consumer. GU and both QFT programs remain parked.
+    HC-DU-200--204 leave no new mechanism or prediction. A matched handoff may
+    descend without absolute label selection, but no source yet selects the
+    full material orbit, consumer, provenance, and action family. GU and both
+    QFT programs remain parked.
     Select no successor until a parked reopener or another North-Star admission
     contract closes.
 

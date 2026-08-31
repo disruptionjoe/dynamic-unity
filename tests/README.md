@@ -4,6 +4,27 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-204 record-consumer diagonal descent
+
+`du_record_consumer_diagonal_descent_probe.py` checks the coordinated versus
+unmatched handoff boundary. It exhausts six stochastic re-encodings, `1,296`
+deterministic encoder/policy/permutation cases, all `24` Pauli-label
+permutations, and all six QEC-status permutations. It verifies exact matched
+descent, the reachable-policy stabilizer criterion, Bell action-family
+contraction, the QEC action/timing split, and consistency with the banked
+source-audit artifacts. Run:
+
+```bash
+python3 tests/du_record_consumer_diagonal_descent_probe.py --write-artifact
+```
+
+The deterministic receipt is
+`artifacts/du_record_consumer_diagonal_descent_result.json`. Passing proves
+only the finite composition and artifact-consistency boundaries. It does not
+validate either experiment, select a physical producer/consumer from bare
+dynamics, establish per-attempt actuation, compose regional finality, or claim
+new physics.
+
 ## HC-DU-203 Bell prescription/execution boundary
 
 `du_bell_prescription_execution_probe.py` exhausts the four ideal Pauli

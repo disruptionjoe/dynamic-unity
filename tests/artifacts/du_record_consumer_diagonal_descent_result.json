@@ -1,0 +1,126 @@
+{
+  "bell_application": {
+    "active_physical_pauli_gate_reported": false,
+    "interpretation": "absolute label names are dispensable; matched correction semantics are not",
+    "matched_relabelings_preserving_full_correction": 24,
+    "record_labels": [
+      "I",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "unmatched_relabelings_preserving_full_unknown_qubit_task": 1,
+    "unmatched_relabelings_preserving_terminal_z_statistic": 4
+  },
+  "claim_id": "HC-DU-204",
+  "earned": [
+    "exact diagonal record-consumer relabeling descent",
+    "exact unmatched-handoff stabilizer criterion",
+    "Bell action-family stabilizer contraction from terminal Z to arbitrary qubit continuation",
+    "QEC witness that action equivalence need not preserve retained timing",
+    "correction from point-selection-only to selection-or-joint-descent"
+  ],
+  "general_exact_controls": {
+    "deterministic_cases_checked": 1296,
+    "matched_descent_universal_in_fixture": true,
+    "stochastic_matched_invariant_count": 6,
+    "stochastic_permutations": [
+      {
+        "matched_equals_baseline": true,
+        "permutation": [
+          0,
+          1,
+          2
+        ],
+        "unmatched_equals_baseline": true
+      },
+      {
+        "matched_equals_baseline": true,
+        "permutation": [
+          0,
+          2,
+          1
+        ],
+        "unmatched_equals_baseline": false
+      },
+      {
+        "matched_equals_baseline": true,
+        "permutation": [
+          1,
+          0,
+          2
+        ],
+        "unmatched_equals_baseline": false
+      },
+      {
+        "matched_equals_baseline": true,
+        "permutation": [
+          1,
+          2,
+          0
+        ],
+        "unmatched_equals_baseline": false
+      },
+      {
+        "matched_equals_baseline": true,
+        "permutation": [
+          2,
+          0,
+          1
+        ],
+        "unmatched_equals_baseline": false
+      },
+      {
+        "matched_equals_baseline": true,
+        "permutation": [
+          2,
+          1,
+          0
+        ],
+        "unmatched_equals_baseline": false
+      }
+    ],
+    "stochastic_unmatched_invariant_count": 1,
+    "surjective_deterministic_cases_checked": 288,
+    "unmatched_invariance_equals_reached_policy_stabilizer": true
+  },
+  "not_earned": [
+    "physical selection of a Bell or QEC controller from bare dynamics",
+    "per-attempt QEC actuation lineage",
+    "universal observer selection",
+    "regional finality composition",
+    "new physics, empirical excess, or ontology priority"
+  ],
+  "qec_application": {
+    "aggregate_actuation_evidence": "PARTIALLY_SPECIFIED",
+    "intended_command_semantics": "SOURCE_SPECIFIED",
+    "interpretation": "a relabeling can be gauge for action and physical for resource timing",
+    "status_0_2_swap_separated_by_retained_timing": true,
+    "status_to_action": {
+      "0": "idle",
+      "1": "X",
+      "2": "idle"
+    },
+    "unmatched_action_stabilizers": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        1,
+        0
+      ]
+    ]
+  },
+  "run_id": "RUN-20260831-144802-record-consumer-diagonal-descent",
+  "status": "PASS",
+  "theorem_boundary": {
+    "formal_descent": "closed response is invariant under every matched record relabeling",
+    "matched_diagonal_action": "re-encode producer labels and co-transform consumer semantics",
+    "physical_gauge_requirement": "all declared dynamics, costs, provenance, records, and capabilities must descend",
+    "unmatched_action": "change producer encoding or consumer semantics independently"
+  },
+  "verdict": "MATCHED_RECORD_CONSUMER_ORBIT_CAN_DESCEND_WITHOUT_ABSOLUTE_INTERFACE_SELECTION_BUT_ALIGNMENT_AND_FULL_PHYSICAL_GAUGE_REMAIN_TO_BE_SELECTED_OR_PROVED"
+}
