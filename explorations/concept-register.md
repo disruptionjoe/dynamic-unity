@@ -7896,6 +7896,39 @@ target-blind physical apparatus/interface selector, or an upstream finite
 prediction on one frozen apparatus. See
 `heralded-bell-record-action-quotient-resource-boundary-2026-08-31.md`.
 
+### 2026-08-31 action-family record selection / continuation equivalence
+
+`HC-DU-202` applies the already banked `HC-DU-163` action-relative behavioral
+quotient theorem to the source-grounded HC-DU-201 Bell apparatus. `HC-DU-163`
+already established the unique coarsest quotient and action-refinement law;
+`HC-DU-054` and the capability-record Galois closure bank adjacent mathematics.
+This swing independently reproduces those controls rather than claiming them
+again.
+
+On the HC-DU-201 Bell carrier, the correction family selects four classes/two
+bits. Adding either the herald-audit or atomic-audit continuation restores all
+eight raw classes/three bits. The correction quotient has perfect value for
+correction but only `1/2` optimal success for either audit task, while the raw
+carrier has value `1`; it is therefore not universally Blackwell-equivalent.
+An exhaustive check of all `4,140` carrier partitions and all `64` frozen task
+subsets verifies the prior theorem in every case. The newly banked physical
+specialization is the exact audit-restoration and Blackwell-loss witness. A
+separate naturality control proves that a bare eight-element carrier under full
+relabeling admits only equality and indiscrete invariant partitions.
+
+**Updated seed status:** preserve three distinct objects: formed physical
+carrier, continuation-complete operational record, and task-minimal
+certificate. Grade 3 belongs to the source-grounded Bell realization; scoped
+Grade 4 belongs only to the bare-carrier naturality/typed-structure necessity
+control. The continuation quotient is target-blind only after the
+observer/access/action/resource/horizon family is independently physically
+fixed. Minimal sufficient statistics, Blackwell comparison, Myhill--Nerode,
+bisimulation, causal states, and quantum statistical comparison absorb the
+mathematics. No new physics or successor is earned. Stop further Bell quotient
+variants; reopen only with a physically selected continuation algebra and a
+held-out no-refit response. See
+`action-family-indexed-record-selection-continuation-equivalence-and-blackwell-boundary-2026-08-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

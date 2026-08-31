@@ -1,0 +1,1089 @@
+{
+  "all_partition_count": 4140,
+  "all_task_subsets": [
+    {
+      "minimum_bits": 0,
+      "minimum_classes": 1,
+      "sufficient_partition_count": 4140,
+      "tasks": []
+    },
+    {
+      "minimum_bits": 1,
+      "minimum_classes": 2,
+      "sufficient_partition_count": 225,
+      "tasks": [
+        "bell_family"
+      ]
+    },
+    {
+      "minimum_bits": 1,
+      "minimum_classes": 2,
+      "sufficient_partition_count": 225,
+      "tasks": [
+        "bell_sign"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "correction"
+      ]
+    },
+    {
+      "minimum_bits": 1,
+      "minimum_classes": 2,
+      "sufficient_partition_count": 225,
+      "tasks": [
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 1,
+      "minimum_classes": 2,
+      "sufficient_partition_count": 225,
+      "tasks": [
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_family",
+        "bell_sign"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_family",
+        "correction"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_family",
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_family",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_sign",
+        "correction"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_sign",
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_sign",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "correction",
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "correction",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "correction",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "correction",
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "correction",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "correction",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "correction",
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "correction",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "correction",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 2,
+      "minimum_classes": 4,
+      "sufficient_partition_count": 16,
+      "tasks": [
+        "bell_sign",
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "correction",
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "correction",
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "correction",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction",
+        "herald_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "correction",
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "correction",
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "correction",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "correction",
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "correction",
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "correction",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "correction",
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction",
+        "herald_audit",
+        "atom_audit"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction",
+        "herald_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "correction",
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_sign",
+        "correction",
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    },
+    {
+      "minimum_bits": 3,
+      "minimum_classes": 8,
+      "sufficient_partition_count": 1,
+      "tasks": [
+        "bell_family",
+        "bell_sign",
+        "correction",
+        "herald_audit",
+        "atom_audit",
+        "raw_identity"
+      ]
+    }
+  ],
+  "carrier_size": 8,
+  "claim_id": "HC-DU-202",
+  "correction_sufficient_partition_count": 16,
+  "decision_witnesses": {
+    "guess_atom_from_correction_quotient": 0.5,
+    "guess_atom_from_raw": 1.0,
+    "guess_correction_from_correction_quotient": 1.0,
+    "guess_herald_from_correction_quotient": 0.5,
+    "guess_herald_from_raw": 1.0
+  },
+  "earned_here": {
+    "bare_carrier_naturality": "full relabeling covariance admits only equality and the indiscrete partition; every nontrivial quotient needs additional typed structure",
+    "bell_boundary": "the correction family selects four classes; adding either independent audit bit restores all eight raw classes",
+    "universal_decision_boundary": "the correction quotient is sufficient for correction but strictly loses decision value for herald and atom audit tasks"
+  },
+  "naturality_controls": {
+    "bare_carrier_invariant_class_counts": [
+      1,
+      8
+    ],
+    "bare_carrier_s8_invariant_partition_count": 2,
+    "correction_quotient_is_swap_invariant": true,
+    "typed_herald_atom_swap_invariant_partition_count": 352
+  },
+  "not_earned": [
+    "physical selection of the task or continuation family",
+    "a unique record quotient from the carrier alone",
+    "experimental validation",
+    "quantum ontology priority",
+    "new physics or an empirical prediction"
+  ],
+  "prior_result_reproduced": {
+    "finite_common_sufficiency": "the kernel of the joint task signature is the unique coarsest deterministic quotient sufficient for that frozen task family; already banked as HC-DU-163",
+    "monotonicity": "enlarging a task/continuation family can only refine its minimal quotient; already banked as HC-DU-163"
+  },
+  "representative_minimal_quotients": {
+    "bell_family_only": {
+      "blocks": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "classes": 2,
+      "tasks": [
+        "bell_family"
+      ]
+    },
+    "correction_only": {
+      "blocks": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      ],
+      "classes": 4,
+      "tasks": [
+        "correction"
+      ]
+    },
+    "correction_plus_atom_audit": {
+      "blocks": [
+        [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "classes": 8,
+      "tasks": [
+        "correction",
+        "atom_audit"
+      ]
+    },
+    "correction_plus_herald_audit": {
+      "blocks": [
+        [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "classes": 8,
+      "tasks": [
+        "correction",
+        "herald_audit"
+      ]
+    },
+    "correction_plus_redundant_family": {
+      "blocks": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ]
+        ]
+      ],
+      "classes": 4,
+      "tasks": [
+        "correction",
+        "bell_family"
+      ]
+    },
+    "none": {
+      "blocks": [
+        [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            1
+          ],
+          [
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            1
+          ],
+          [
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "classes": 1,
+      "tasks": []
+    },
+    "raw_identity": {
+      "blocks": [
+        [
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            0,
+            1,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            0,
+            1
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            0
+          ]
+        ],
+        [
+          [
+            1,
+            1,
+            1
+          ]
+        ]
+      ],
+      "classes": 8,
+      "tasks": [
+        "raw_identity"
+      ]
+    }
+  },
+  "task_family_subset_count": 64
+}

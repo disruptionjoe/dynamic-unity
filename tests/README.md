@@ -26,6 +26,26 @@ apparatus or record interface, prove single-world actualization, reconstruct
 rejected-attempt lineage, distinguish quantum ontologies, or establish new
 physics.
 
+## HC-DU-202 action-family record selection
+
+`du_action_family_record_selection_probe.py` exhausts all `4,140` partitions
+of the eight-outcome HC-DU-201 Bell carrier and all `64` subsets of a frozen
+six-task family. It independently checks the already banked `HC-DU-163`
+coarsest action-relative quotient and monotone-refinement result, then adds the
+source-grounded Bell specialization: correction plus either independent audit
+bit restores the full carrier, exact Blackwell-style decision witnesses, and
+the bare-carrier relabeling obstruction. Run:
+
+```bash
+python3 tests/du_action_family_record_selection_probe.py --write-artifact
+```
+
+The deterministic receipt is
+`artifacts/du_action_family_record_selection_result.json`. Passing proves only
+the finite partition, rank, naturality, and decision controls. It does not
+select a physical task/continuation family, validate the source experiment,
+establish ontology priority, or predict new physics.
+
 `du_phenomenon_capability_atlas_probe.py` validates the completed, non-routing
 Phenomenon-to-Capability Atlas v0.1. It checks the strict schema marker; six-card
 bounded denominator; immutable, content-addressed source bindings; the guard
