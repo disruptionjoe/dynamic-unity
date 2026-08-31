@@ -4,6 +4,25 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## Computation-first hypothesis portfolio contract
+
+`du_computation_first_portfolio_contract_probe.py` validates the conditional
+closed-transition portfolio without treating it as scientific evidence. It
+checks eight unique hypothesis families, twenty unique computational lenses,
+exactly forty lens-to-hypothesis mappings, complete absorber/falsifier/grade
+fields, an acyclic dependency graph, complete five-position coverage, and one
+sole executable first action. Run:
+
+```bash
+python3 tests/du_computation_first_portfolio_contract_probe.py --write-artifact
+```
+
+The deterministic receipt is
+`artifacts/du_computation_first_portfolio_contract_result.json`. Passing proves
+only portfolio completeness and routing integrity. It does not establish that
+reality is computation, promote any hypothesis, select a physical interface,
+or claim new physics.
+
 ## HC-DU-205 record-algebra / consumer-action selector frontier
 
 `du_record_action_selector_frontier_probe.py` checks that one reversible

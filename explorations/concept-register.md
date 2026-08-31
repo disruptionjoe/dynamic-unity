@@ -8013,6 +8013,37 @@ must descend without refit. Do not repeat pointer, quotient, inverse-write, or
 host variants without that new premise. See
 `record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md`.
 
+### 2026-08-31 computation-first closed-transition substrate portfolio
+
+The twenty computation/networking lenses do not create forty independent
+scientific hypotheses. A duplicate and absorber audit consolidates them into
+eight conditional families:
+
+1. `CTS-H1` closed causal operational sufficiency;
+2. `CTS-H2` record-capability coformation;
+3. `CTS-H3` classicality as physical composability;
+4. `CTS-H4` layered capability-relative finality;
+5. `CTS-H5` geometry from causal access and recoverability;
+6. `CTS-H6` provenance-bearing event identity;
+7. `CTS-H7` natural cross-layer selection; and
+8. `CTS-H8` dynamic sharding and access routing.
+
+All remain Grade-0 conditional posits. Existing DU results already absorb or
+bound most components: capability-record closure, informative-instrument
+no-section, provenance and history/endpoint controls, regional handoff,
+classicality/QD absorption, geometry capability saturation, scale-gauge
+necessity, and record-consumer freedom.
+
+The selected first question is not whether physics can be described as
+computation. It is whether a minimal closed typed transition system contains
+an axiom beyond a complete quantum process plus supplied interfaces. Only
+`CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT` is executable. Classical
+composability, record-capability coformation, regional sharding/finality, and
+geometry recovery remain dependency-gated. See
+`computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md`
+and
+`../lab/process/computation-first-closed-transition-hypothesis-portfolio.json`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

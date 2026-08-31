@@ -1,0 +1,79 @@
+{
+  "campaign_position_count": 5,
+  "checks": [
+    {
+      "detail": "ids=['CTS-H1', 'CTS-H2', 'CTS-H3', 'CTS-H4', 'CTS-H5', 'CTS-H6', 'CTS-H7', 'CTS-H8']",
+      "name": "eight_unique_hypothesis_families",
+      "passed": true
+    },
+    {
+      "detail": "missing={}",
+      "name": "hypothesis_contract_complete",
+      "passed": true
+    },
+    {
+      "detail": "invalid=[]",
+      "name": "conditional_grade_boundary",
+      "passed": true
+    },
+    {
+      "detail": "invalid=[]",
+      "name": "absorber_falsifier_and_gate_present",
+      "passed": true
+    },
+    {
+      "detail": "unknown={}",
+      "name": "dependencies_resolve",
+      "passed": true
+    },
+    {
+      "detail": "cycle=False",
+      "name": "dependency_graph_acyclic",
+      "passed": true
+    },
+    {
+      "detail": "count=20 unique=20",
+      "name": "twenty_unique_lenses",
+      "passed": true
+    },
+    {
+      "detail": "invalid=[]",
+      "name": "forty_valid_lens_mappings",
+      "passed": true
+    },
+    {
+      "detail": "mapped=['CTS-H1', 'CTS-H2', 'CTS-H3', 'CTS-H4', 'CTS-H5', 'CTS-H6', 'CTS-H7', 'CTS-H8']",
+      "name": "every_hypothesis_has_lens_support",
+      "passed": true
+    },
+    {
+      "detail": "positions=[1, 2, 3, 4, 5]",
+      "name": "five_ordered_campaign_positions",
+      "passed": true
+    },
+    {
+      "detail": "executable=['CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT']",
+      "name": "sole_executable_first_action",
+      "passed": true
+    },
+    {
+      "detail": "covered=['CTS-H1', 'CTS-H2', 'CTS-H3', 'CTS-H4', 'CTS-H5', 'CTS-H6', 'CTS-H7', 'CTS-H8']",
+      "name": "campaign_covers_all_hypotheses_once_or_more",
+      "passed": true
+    },
+    {
+      "detail": "rules=6 nulls=5",
+      "name": "anti_vacuity_contract_present",
+      "passed": true
+    }
+  ],
+  "checks_passed": 13,
+  "checks_total": 13,
+  "hypothesis_count": 8,
+  "lens_count": 20,
+  "lens_hypothesis_mapping_count": 40,
+  "probe": "du_computation_first_portfolio_contract_probe",
+  "program_id": "DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE",
+  "scientific_boundary": "Portfolio completeness and routing only; no hypothesis, physical law, ontology, prediction, or evidence grade is established.",
+  "status": "PASS"
+}

@@ -1,29 +1,23 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 153
+state_revision: 154
 as_of: '2026-08-31'
-authority: >-
-  Joe direct chat through 2026-08-31; receipts preserve authorization.
-  The 2026-08-31 big waves authorized HC-DU-201--205 through the
-  record-consumer action-selector frontier.
-  The 2026-08-27 chat added two parked research programs without making either
-  executable: four-dimensional QFT completion and infrared empirical quantum
-  gravity.
-scope: >-
-  Sole mutable authority for Dynamic Unity research priority, work in
-  progress, execution status, next actions, stop/reopen rules, and typed
-  cross-repository dependencies.
+authority: Joe direct chat through 2026-08-31 and governed receipts. The 2026-08-31
+  computation-first direction authorizes this portfolio assessment and its sole non-vacuity
+  action. Earlier completed programs remain dated evidence, not live routing.
+scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
+  execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
-  - START-HERE.md
-  - AGENTS.md
-  - README.md
-  - LANES.yaml
-  - EARNED-RESULTS-INDEX.md
-  - LANES-HISTORY.yaml
-  - docs/certified-causal-reality-research-program.md
-  - explorations/
-  - lab/process/runs/
-  - runs/
+- START-HERE.md
+- AGENTS.md
+- README.md
+- LANES.yaml
+- EARNED-RESULTS-INDEX.md
+- LANES-HISTORY.yaml
+- docs/certified-causal-reality-research-program.md
+- explorations/
+- lab/process/runs/
+- runs/
 rules:
   scientific_flagship_wip_limit: 1
   bounded_side_probe_wip_limit: 1
@@ -38,907 +32,542 @@ rules:
   quiescent_no_ready_allowed: true
 status_enums:
   portfolio_status:
-    - active
-    - ready
-    - parked
-    - blocked
-    - complete
-    - external_custody
+  - active
+  - ready
+  - parked
+  - blocked
+  - complete
+  - external_custody
   execution_status:
-    - executable
-    - prepared
-    - none
+  - executable
+  - prepared
+  - none
   dependency_type:
-    - requires
-    - tests
-    - extracts_from
-    - external_dependency
-    - does_not_block
+  - requires
+  - tests
+  - extracts_from
+  - external_dependency
+  - does_not_block
   dependency_target_type:
-    - program
-    - result
-    - premise
-    - prediction
-    - requirement
-    - external_work
-
+  - program
+  - result
+  - premise
+  - prediction
+  - requirement
+  - external_work
 run_home_contract:
   governed_run_home: lab/process/runs/
   legacy_run_home: runs/
-  rule: >-
-    New governed work uses lab/process/runs/. The root runs/ directory is
-    preserved as non-routing historical evidence and receives no new runs.
-
+  rule: New governed work uses lab/process/runs/. The root runs/ directory is preserved
+    as non-routing historical evidence and receives no new runs.
 transition_protocol:
   steps:
-    - Write or close the dated evidence and governed run receipt.
-    - Update current routing only in CURRENT-RESEARCH.yaml.
-    - Increment state_revision for every committed live-state transition.
-    - Validate the JSON Schema and semantic governance contract.
-    - Commit explicit paths, push without force, and finish the repository session.
-  history_rule: >-
-    Never rewrite dated evidence or historical manifests to make them current;
-    supersede them additively and route only through this file.
-
+  - Write or close the dated evidence and governed run receipt.
+  - Update current routing only in CURRENT-RESEARCH.yaml.
+  - Increment state_revision for every committed live-state transition.
+  - Validate the JSON Schema and semantic governance contract.
+  - Commit explicit paths, push without force, and finish the repository session.
+  history_rule: Never rewrite dated evidence or historical manifests to make them
+    current; supersede them additively and route only through this file.
 current_decision:
-  active_scientific_program_id: null
-  executable_action_id: null
+  active_scientific_program_id: DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE
+  executable_action_id: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: >-
-    HC-DU-201--205 establish Bell formation, matched descent, and that record
-    formation plus inverse do not select a consumer. QND, infrared memory, and
-    direct action select only partial handoff structure. Established theory
-    absorbs it. No selector, prediction, successor, or paper is
-    ready; parked work stays put.
-
+  decision_note: The twenty computational lenses are consolidated into eight Grade-0
+    conditional families rather than forty claims. The active program first tests
+    whether a closed typed transition substrate has any axiom beyond a complete process
+    plus supplied interfaces. Only CTS-A1 is executable; classical composability,
+    record-capability coformation, regional sharding/finality, and geometry recovery
+    remain outcome-gated.
 programs:
-  - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
-    active_work_id: null
-    primary_lane_id: '1'
-    supporting_lane_ids:
-      - '2'
-      - '3'
-      - '4'
-      - '5'
-      - '6'
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-SYN
-      - CH-COLLIDE
-      - CH-EMPIRICAL
-      - CH-FRONTIER
-    target: >-
-      Determine the minimal target-blind physical antecedent, if any, that
-      selects a material, provenance-bearing, observer-indexed record
-      interface; then adjudicate action-relative reconstruction, operational
-      duality, and the smallest physically realizable finite remainder.
-    current_grade: >-
-      HC-DU-165--188 bank prior boundaries. HC-DU-201--205 add Bell formation,
-      task-relative correction, matched descent, and the exact consumer-action
-      nonselection frontier. No complete physical handoff is selected.
-    evidence_grade: 4
-    maximum_grade: >-
-      Grade 5 only after a target-blind selected interface, complete material
-      packet, lawful finite discriminator, and no-refit transfer. A scoped
-      no-section or selection-frontier theorem can earn Grade 4.
-    maximum_evidence_grade: 5
-    premise_status: >-
-      Ontology-neutral and target-blind. Process, instrument, sampler, archive,
-      provenance, observer access, action class, target, and public finality
-      remain separately typed. Charter selection is not scientific evidence.
-    completed_dependencies:
-      - id: HC-DU-063
-        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - id: HC-DU-137
-        evidence_ref: explorations/physical-record-interface-antecedent-completion-boundary-and-campaign-stop-2026-07-29.md
-      - id: HC-DU-159
-        evidence_ref: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
-      - id: HC-DU-172
-        evidence_ref: explorations/stage-local-compositional-instrument-section-triviality-and-marked-cut-boundary-2026-07-30.md
-      - id: HC-DU-175
-        evidence_ref: explorations/relational-reference-symmetry-reduction-embodied-coupling-and-certificate-boundary-2026-07-30.md
-      - id: HC-DU-176
-        evidence_ref: explorations/stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md
-      - id: HC-DU-177
-        evidence_ref: explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
-      - id: HC-DU-178
-        evidence_ref: explorations/bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md
-      - id: HC-DU-179
-        evidence_ref: explorations/nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md
-      - id: HC-DU-180
-        evidence_ref: explorations/gaseous-tpc-oriented-trace-head-tail-information-and-zero-error-boundary-2026-07-30.md
-      - id: HC-DU-181
-        evidence_ref: explorations/selected-interface-round-trip-factorization-and-gu-conditional-bridge-boundary-2026-07-30.md
-      - id: HC-DU-182
-        evidence_ref: explorations/time-resolved-tpc-acquired-packet-clock-depth-rank-and-event-building-boundary-2026-07-30.md
-      - id: HC-DU-183
-        evidence_ref: explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md
-      - id: HC-DU-184
-        evidence_ref: explorations/drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md
-      - id: HC-DU-185
-        evidence_ref: explorations/representational-versus-predictive-absorption-and-response-order-reopener-correction-2026-07-30.md
-      - id: HC-DU-186
-        evidence_ref: explorations/predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md
-      - id: HC-DU-187
-        evidence_ref: explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
-      - id: HC-DU-188
-        evidence_ref: explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
-      - id: HC-DU-201
-        evidence_ref: explorations/heralded-bell-record-action-quotient-resource-boundary-2026-08-31.md
-      - id: HC-DU-202
-        evidence_ref: explorations/action-family-indexed-record-selection-continuation-equivalence-and-blackwell-boundary-2026-08-31.md
-      - id: HC-DU-203
-        evidence_ref: explorations/heralded-bell-prescription-execution-and-deferred-correction-boundary-2026-08-31.md
-      - id: HC-DU-204
-        evidence_ref: explorations/record-consumer-diagonal-descent-relative-handoff-and-physical-gauge-boundary-2026-08-31.md
-      - id: HC-DU-205
-        evidence_ref: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
-    remaining_obligations:
-      - For a GU-conditioned round trip, select the flag/interface target-blindly or prove observer-target descent across the admitted family.
-      - Physically certify common-event membership across prompt and delayed record channels, or freeze the exact completion class and error contract under which it is inferred.
-      - Upgrade the joined DRIFT absolute-depth/head-tail response from ensemble sensitivity to a per-event error or path-polarity certificate.
-      - Make minority-carrier or other absolute-depth association robust on the declared event class and type finite failures explicitly.
-      - Upgrade bounded-error head-tail information to a declared event certificate without treating a known source direction as intrinsic provenance.
-      - Physically select event time semantics and the readout/archive/access quotient.
-      - Keep PRED-DU-005 parked until one source-pinned device packet demonstrates the wide preparation range, complete width-dependent nuisance basis, timing monitor, joined attempt lineage, and finite no-refit shot/error budget; otherwise lock another nonabsorbed finite target.
-      - Keep the QEC custody branch parked behind its source-pinned implementation-complete packet reopener.
-      - Upgrade the heralded Bell packet to an implementation-complete per-attempt archive only when a held-out no-refit target requires accepted, rejected, reset, and controller-memory lineage; never treat conditional fidelity as unconditional capability.
-      - Physically select the observer/access/continuation algebra before using continuation equivalence as a target-blind record; task-minimal certificates cannot supply that algebra after the fact.
-      - Require a named physical consumer before calling a correction-prescribing record action-enabling; terminal frame correction and arbitrary downstream adaptive capability are different contracts.
-      - Select a writer-consumer pair or matched orbit through one target-blind cross-boundary physical law; a formed record, endpoint invariance, and inverse write are insufficient.
-      - Do not activate Wave 3, a remainder, or transfer before both reopener conditions hold.
-    typed_dependencies:
-      - type: extracts_from
-        target: HC-DU-063
-        target_type: result
-      - type: extracts_from
-        target: HC-DU-137
-        target_type: result
-      - type: tests
-        target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
-        target_type: program
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
-    strongest_absorber: >-
-      Standard response/process theory absorbs the host but not every law it
-      represents. Comparison of experiments, sufficiency, data processing,
-      identifiability, and no-refit design absorb the prediction/interface
-      gate. Detector physics absorbs the material-packet boundaries.
-    cheapest_kill: >-
-      Mere encodability or after-fact parameter choice supplies no prediction;
-      a coarse readout can erase real excess; and a single configuration can
-      confound one challenger term with one free nuisance. No observed
-      no-refit response packet closes the loop.
-    stop_rule: >-
-      Do not mistake representability for prediction, require an incumbent
-      fibre to vary before rival exclusion counts, require one mechanism to
-      select law and apparatus, refit after reveal, or promote lawful response
-      into a formed record. No later campaign wave is executable.
-    reopen_rule: >-
-      Reopen Wave 3 only when one joined source-pinned physical contract locks
-      a target not predictively absorbed by the matched incumbent fibre and
-      acquires it through a separately frozen, physically formed interface
-      without target-dependent refit. The QEC branch separately requires its
-      frozen source-pinned complete packet.
-    local_computation_boundary: >-
-      Primary-source reconstruction and formal comparison first. Local
-      computation may verify one exact equivalence, counterexample, or proof
-      boundary. No full field simulation, provider, or external hardware is
-      authorized.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/certified-causal-response-theory-five-wave-conditional-campaign-2026-07-30.md
-      - explorations/stage-resource-persistence-separation-and-causal-response-host-gate-2026-07-30.md
-      - explorations/common-causal-response-object-absorber-and-typed-duty-audit-2026-07-30.md
-      - explorations/bubble-chamber-material-event-record-and-upstream-source-certificate-boundary-2026-07-30.md
-      - explorations/nuclear-emulsion-material-spatial-trace-and-causal-lineage-boundary-2026-07-30.md
-      - explorations/gaseous-tpc-oriented-trace-head-tail-information-and-zero-error-boundary-2026-07-30.md
-      - explorations/selected-interface-round-trip-factorization-and-gu-conditional-bridge-boundary-2026-07-30.md
-      - explorations/time-resolved-tpc-acquired-packet-clock-depth-rank-and-event-building-boundary-2026-07-30.md
-      - explorations/dual-phase-xenon-prompt-delayed-event-pairing-and-accidental-coincidence-boundary-2026-07-30.md
-      - explorations/drift-iid-joined-absolute-depth-head-tail-packet-and-event-certification-boundary-2026-07-30.md
-      - explorations/predictive-excess-trichotomy-interface-channel-preservation-and-conditional-candidate-gate-2026-07-31.md
-      - explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
-      - explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
-      - explorations/heralded-bell-record-action-quotient-resource-boundary-2026-08-31.md
-      - explorations/action-family-indexed-record-selection-continuation-equivalence-and-blackwell-boundary-2026-08-31.md
-      - explorations/concept-register.md
-      - explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-
-  - id: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '1'
-    supporting_lane_ids:
-      - '3'
-      - '4'
-      - '6'
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-SYN
-      - CH-COLLIDE
-      - CH-MODEL
-    target: >-
-      Completed: test Bell-record reconstruction of target noncommutative data
-      and the exact loss under setting erasure.
-    current_grade: >-
-      HC-DU-078 banks conditional Grade-3 self-tested target reconstruction
-      and Grade-4 context-label necessity; self-testing and modular mathematics
-      absorb the components.
-    evidence_grade: 4
-    maximum_grade: >-
-      Completed result capped at Grade 4; a formed setting/separation
-      interface, calibration, and held-out transfer remain independent.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Ontology/foliation-neutral and conditional on the standard Bell model;
-      ports, settings, acquisition, algebra, and targets remain typed.
-    completed_dependencies:
-      - id: HC-DU-078
-        evidence_ref: explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: does_not_block
-        target: DU-PAPER-013-HARDENING
-        target_type: program
-    strongest_absorber: >-
-      Tilted-CHSH self-testing reconstructs target data up to local isometry
-      and junk but not ports, acquisition, ambient algebra, or calibrated time.
-    cheapest_kill: >-
-      The positive route survives under the standard exact self-testing
-      contract. The unlabeled route is killed exactly: a setting-independent
-      classical process has the identical pooled outcome law.
-    stop_rule: >-
-      Do not call unlabeled outcomes self-testing data or repeat Bell fixtures
-      without a selected formed interface and held-out consequence.
-    reopen_rule: >-
-      Require a physical antecedent forming settings/separation with bounded
-      provenance and a calibrated no-refit held-out transfer.
-    local_computation_boundary: >-
-      One exact two-qubit correlation and erasure certificate completes the
-      local boundary. Finite-shot simulation and hardware are unwarranted.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/self-tested-noncommutative-modular-reconstruction-and-context-erasure-gate-2026-07-28.md
-      - docs/quantum-foundations-orientation-surface.md
-
-  - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
-    kind: flagship
-    owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '1'
-    supporting_lane_ids:
-      - '2'
-      - '3'
-      - '4'
-      - '6'
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-MODEL
-      - CH-COLLIDE
-      - CH-SYN
-    target: >-
-      Parked after apparatus and stochastic-selector selection tests.
-    current_grade: >-
-      HC-DU-137--152/156 bank Grade-4 interface/apparatus selection boundaries
-      and the stochastic-selector correction.
-    evidence_grade: 4
-    maximum_grade: >-
-      Grade 4 for selection/nonselection; Grade 5 for lawful remainder or prediction.
-    maximum_evidence_grade: 5
-    premise_status: >-
-      Ontology-neutral; interface, descent, and target remain typed.
-    completed_dependencies:
-      - id: HC-DU-151
-        evidence_ref: explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
-      - id: PDSI-CAMPAIGN-01
-        evidence_ref: explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
-      - id: HC-DU-152
-        evidence_ref: explorations/christodoulou-gie-apparatus-class-selection-and-descent-boundary-2026-07-30.md
-      - id: HC-DU-156
-        evidence_ref: explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: requires
-        target: HC-DU-126
-        target_type: result
-      - type: tests
-        target: PHYSICAL-RECORD-INTERFACE-SELECTION
-        target_type: requirement
-    strongest_absorber: >-
-      Covariant instruments, invariant measures, SSB, and effective-apparatus
-      limits absorb the pieces.
-    cheapest_kill: >-
-      Met. A unique invariant kernel need select no sampler, label, or archive.
-    stop_rule: >-
-      Do not promote a symmetry orbit, kernel, or channel into a formed record.
-    reopen_rule: >-
-      Require a source-pinned apparatus or stochastic instrument selecting its
-      completion class, sampler, accessible archive, and no-refit consequence.
-    local_computation_boundary: >-
-      Exact finite controls close the gate; no scale-up or hardware.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/quantum-gravity-conserved-controller-gauge-completion-and-provenance-boundary-2026-07-30.md
-      - explorations/quantum-gravity-apparatus-twin-influence-phase-and-orthogonality-boundary-2026-07-30.md
-      - explorations/physical-descent-selected-interface-ten-swing-campaign-2026-07-30.md
-      - explorations/christodoulou-gie-apparatus-class-selection-and-descent-boundary-2026-07-30.md
-      - explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
-
-  - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
-    kind: supporting_branch
-    owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
-    primary_lane_id: '4'
-    supporting_lane_ids:
-      - '3'
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-MODEL
-    target: >-
-      Quantify capacity and resolution after a formed interface exists.
-    current_grade: >-
-      HC-DU-136, 140--145, and 153--158 bank Grade-4 resource/capacity,
-      formation/archive, trajectory, reference, and response-rank boundaries.
-      HC-DU-187 adds the three-width response-rank repair; HC-DU-188 shows it
-      is ill-conditioned in the source regime. A selected implementation
-      remains open.
-    evidence_grade: 4
-    maximum_grade: "Scoped Grade 4 supporting result."
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Resource, formation, access, target, and capacity remain typed.
-    completed_dependencies:
-      - id: HC-DU-136
-        evidence_ref: explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
-      - id: HC-DU-158
-        evidence_ref: explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
-      - id: HC-DU-187
-        evidence_ref: explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
-      - id: HC-DU-188
-        evidence_ref: explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
-    remaining_obligations:
-      - Derive a complete physical record and its model-selected capacity.
-    typed_dependencies:
-      - type: requires
-        target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
-        target_type: program
-    strongest_absorber: >-
-      Channel capacity, stochastic thermodynamics, collapse/open-system
-      models, process tensors, QRF/asymmetry theory, recoverability,
-      conditional expectations, and nuisance identifiability.
-    cheapest_kill: >-
-      Met by erasure-family nonfactorization, readout/reversion nonidentity,
-      incompatible Lindbladian records, and matched active system records from
-      collapse versus Bohmian completions.
-    stop_rule: >-
-      No generic probability, energy, capacity, measurement-model,
-      trajectory survey, or force-only collapse scan before a complete
-      physical packet selects and separates their maps.
-    reopen_rule: >-
-      Require one source-selected stable bounded-below/covariant
-      apparatus/archive/access/resource packet and a no-refit capacity or
-      finite-remainder theorem. A retyped bath without a selected archive
-      does not reopen.
-    local_computation_boundary: >-
-      Proof-first local specimen only; no hardware.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/physical-reliability-resource-to-reconstruction-floor-boundary-2026-07-29.md
-      - explorations/quantum-probability-port-completion-odds-and-accessible-capacity-boundary-2026-07-29.md
-      - explorations/nonmarkovian-collapse-bohmian-stable-covariant-realization-boundary-2026-07-30.md
-      - explorations/reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md
-      - explorations/reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md
-      - explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
-
-  - id: DU-PAPER-013-HARDENING
-    kind: publication
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    candidate_id: DU-PAPER-013
-    primary_lane_id: '7'
-    supporting_lane_ids:
-      - A
-    channel_ids:
-      - CH-FORMAL
-      - CH-COLLIDE
-      - CH-PAPER
-    target: >-
-      Published bounded-precursor CSG post-tail classification, without any
-      claim of a new asymptotic method, universal half-power, cosmology, or
-      new physics. Zenodo v0.2.0 recorded the scientific result and v0.2.1
-      corrected only the reader-facing typesetting.
-    current_grade: >-
-      PUBLISHED GRADE-4 BOUNDED THEOREM / ZENODO v0.2.1. General
-      regular-variation and discrete-saddle methods are occupied; a
-      systematic bounded search did not locate the same CSG-specific uniform
-      subscale and proportional-window classification. Publication and the
-      typesetting correction do not increase the evidence grade.
-    evidence_grade: 4
-    maximum_grade: >-
-      PUBLISHED SCOPED CSG COROLLARY. Publication does not increase the
-      scientific grade, and later external review may strengthen a future
-      version without reopening the completed publication program.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      The source theorem, proof repair, proportional-window extension,
-      systematic collision, reproducible probes, and version-bound hostile
-      review are complete. Drafting Factory published Zenodo v0.2.0 and the
-      scientifically identical v0.2.1 PDF/TeX correction. No further external
-      publication action is authorized.
-    completed_dependencies:
-      - id: CSG-POST-TAIL-PROOF-1
-        evidence_ref: explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
-      - id: CSG-POST-TAIL-PROOF-2
-        evidence_ref: explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md
-      - id: CSG-POST-TAIL-PAPER-HARDENING
-        evidence_ref: explorations/csg-post-tail-independent-hardening-and-paper-grade-collision-2026-07-30.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: extracts_from
-        target: CSG-POST-TAIL-PROOF-1
-        target_type: result
-      - type: extracts_from
-        target: CSG-POST-TAIL-PROOF-2
-        target_type: result
-      - type: external_dependency
-        target: DRAFTING-FACTORY-CUSTODY
-        target_type: external_work
-        owner_repo: drafting-factory
-      - type: does_not_block
-        target: CCR-SELF-TESTED-MODULAR-RECONSTRUCTION-GATE
-        target_type: program
-    cheapest_kill: >-
-      Find a proof gap or exact prior-art result covering the same
-      CSG-specific bounded-precursor classification.
-    stop_rule: >-
-      Stop manuscript promotion on a material proof gap or complete prior-art
-      absorption. Preserve a corrected narrower negative or classification
-      result when independently valid.
-    reopen_rule: >-
-      Reopen source work only for a material proof objection, a newly located
-      exact absorber, or a requested later-version extension. Metadata,
-      release, and author-final edits remain Drafting Factory work.
-    local_computation_boundary: >-
-      Source checks are frozen at revision 30aaf36. Dynamic Unity retains
-      Markdown/source evidence; Drafting Factory owns the verified PDF/TeX
-      and Zenodo receipts. Public v0.2.1:
-      https://zenodo.org/records/21724178. No further upload is authorized.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - papers/paper-opportunity-portfolio.json
-      - explorations/csg-post-tail-universality-proof-kill-2026-07-25.md
-      - explorations/csg-post-tail-second-method-proof-and-general-collision-2026-07-25.md
-      - explorations/csg-post-tail-independent-hardening-and-paper-grade-collision-2026-07-30.md
-      - tests/artifacts/du_csg_post_tail_paper_hardening_result.json
-
-  - id: COVARIANT-FINALITY-DYNAMICS
-    kind: theory_branch
-    owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
-    candidate_ids:
-      - PRED-DU-001
-      - PRED-DU-002
-    primary_lane_id: '5'
-    supporting_lane_ids:
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-EMPIRICAL
-      - CH-COLLIDE
-    target: >-
-      Derive observer-accessible covariant finality dynamics with a selected
-      generator, coefficient, and mechanism-specific discriminator.
-    current_grade: >-
-      SEAM ONLY. HC-DU-057 preserves a distinct rate class but no dynamics.
-    evidence_grade: 0
-    maximum_grade: >-
-      PHYSICAL THEORY OR FINITE PREDICTION only after the complete generator
-      and empirical contract exist.
-    maximum_evidence_grade: 5
-    premise_status: >-
-      Mechanism absent; ticks, consensus analogies, and fitted thresholds do
-      not supply it.
-    completed_dependencies:
-      - id: HC-DU-057
-        evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
-    remaining_obligations:
-      - Generator, state space, coefficient, and scale.
-      - Locality, no-signalling, positivity, conservation, and resource accounting.
-      - Mechanism-specific observable, standard-physics null, and existing-bound compatibility.
-    typed_dependencies:
-      - type: requires
-        target: PHYSICAL-FINALITY-GENERATOR
-        target_type: requirement
-      - type: tests
-        target: PRED-DU-001
-        target_type: prediction
-      - type: tests
-        target: PRED-DU-002
-        target_type: prediction
-    cheapest_kill: >-
-      Prove that every proposed observable is reproduced by a smooth standard
-      unitary/open-system memory model over the frozen intervention class.
-    stop_rule: >-
-      Do not spend work on another knee, consensus analogy, provider adapter,
-      or hardware proposal while the generator is absent.
-    reopen_rule: >-
-      Reopen only when one explicit local covariant generator with selected
-      coefficient passes positivity, no-signalling, energy, and
-      mechanism-specific-discriminator checks.
-    local_computation_boundary: >-
-      Generator and absorber work must produce the first learning locally.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/prediction-register.md
-      - explorations/covariant-finality-collapse-synthesis-2026-07-21.md
-      - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
-
-  - id: CORRECTED-UNDERIVABILITY-OBSERVER-BRIDGE
-    kind: moonshot
-    owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
-    candidate_id: SOURCE-IS-OBSERVER-COROLLARY
-    primary_lane_id: '3'
-    supporting_lane_ids:
-      - '2'
-      - '7'
-    channel_ids:
-      - CH-FORMAL
-      - CH-COLLIDE
-    target: >-
-      Determine whether a corrected, physically typed underivability theorem
-      supports a Dynamic Unity becoming corollary after GU's operator-domain
-      and class-realization requirements are satisfied.
-    current_grade: >-
-      SUPERSEDED. Parity-of-flips supplies an internal fixpoint-free
-      involution; current GU evidence establishes no physical externality,
-      sigma-w1 identity, or unique external bit.
-    evidence_grade: 0
-    maximum_grade: >-
-      CONDITIONAL DYNAMIC COROLLARY after an earned substrate theorem and a
-      non-stale physical underivability target.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      The R4-to-monotonicity bridge is refuted; repository custody supplies no
-      replacement physics.
-    completed_dependencies:
-      - id: PARITY-OF-FLIPS-COUNTEREXAMPLE
-        evidence_ref: explorations/record-immutability-forces-external-involution-2026-07-21.md
-    remaining_obligations:
-      - Correct physical definitions and a valid GU operator/domain/end/symmetry packet.
-      - Natural class realization and a theorem target surviving the parity counterexample.
-    typed_dependencies:
-      - type: external_dependency
-        target: GU-SUBSTRATE-BRIDGE-ADJUDICATION
-        target_type: external_work
-        owner_repo: gu-formalization
-    cheapest_kill: >-
-      Construct a physically source-internal, non-disclosure actualization
-      satisfying the corrected domain contract, or prove that the proposed
-      underivability predicate is representation-dependent or target-coded.
-    stop_rule: >-
-      Do not use R4 implies monotone, physical externality, sigma=w1, or
-      exactly-one-external-bit as premises. Do not activate a proof campaign
-      from repository ownership or analogy.
-    reopen_rule: >-
-      Reopen only after GU produces a current theorem-grade physical bridge,
-      or DU states a new corrected underivability proposition with an exact
-      physical domain, smallest counterexample, and non-stale falsifier.
-    local_computation_boundary: >-
-      Counterexample and theorem work only; toy growth cannot supply the bridge.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - CONNECTIONS.md
-      - explorations/record-immutability-forces-external-involution-2026-07-21.md
-      - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
-
-  - id: DU-FOUR-DIMENSIONAL-QFT-COMPLETION
-    kind: research_program
-    owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
-    active_work_id: null
-    primary_lane_id: '6'
-    supporting_lane_ids:
-      - '2'
-      - '3'
-      - '4'
-      - '7'
-    channel_ids:
-      - CH-SYN
-      - CH-FORMAL
-      - CH-COLLIDE
-      - CH-EMPIRICAL
-      - CH-FRONTIER
-    target: >-
-      Complete one delimited four-dimensional QFT sector from local causal
-      algebra and constraints through positive states, dynamics, observables,
-      measurement interfaces, and finite empirical reconstruction.
-    current_grade: >-
-      PROGRAM CHARTER ONLY; no construction, theorem, obstruction, or new
-      empirical content is established.
-    evidence_grade: 0
-    maximum_grade: >-
-      Grade 5 only for a finite nonabsorbed prediction or lawful remainder;
-      scoped constructions, reconstructions, or obstructions stop lower.
-    maximum_evidence_grade: 5
-    premise_status: >-
-      Existing algebraic, constructive, perturbative, effective, and
-      operational QFT remain incumbent; the target is an explicit seam, not a
-      presumed universal missing theory.
-    completed_dependencies: []
-    remaining_obligations:
-      - Freeze one sector, observable class, domain, incumbent map, and acceptance ceiling.
-      - Carry algebra, gauge quotient, states, dynamics, renormalization, preparation, detector, record, and reconstruction through one contract.
-      - Return a scoped construction, reconstruction, obstruction, or finite discriminator that survives incumbent comparison.
-    typed_dependencies:
-      - type: does_not_block
-        target: DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY
-        target_type: program
-    strongest_absorber: >-
-      Algebraic, constructive, perturbative, effective, lattice/continuum, and
-      operational QFT may jointly supply the whole selected chain.
-    cheapest_kill: >-
-      Existing work already supplies the selected algebra-to-record chain, or
-      the alleged gap is only representational.
-    stop_rule: >-
-      Do not claim universal construction or turn elegance into evidence; type
-      the first unowned domain, state, measure, detector, or limit assumption.
-    reopen_rule: >-
-      A dated contract must select one sector and seam, name incumbents, freeze
-      the endpoint, and supply the cheapest-kill comparison.
-    local_computation_boundary: >-
-      Literature, proof, symbolic, exact-small, or bounded numerical work only
-      after selection; no provider or hardware is authorized.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - docs/quantum-foundations-orientation-surface.md
-      - CONNECTIONS.md
-      - lab/process/gu-du-theory-payload-receiver-contract.md
-
-  - id: DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY
-    kind: research_program
-    owner_repo: dynamic-unity
-    portfolio_status: parked
-    execution_status: none
-    wip_slot: none
-    active_work_id: null
-    primary_lane_id: '6'
-    supporting_lane_ids:
-      - '2'
-      - '4'
-      - '7'
-    channel_ids:
-      - CH-SYN
-      - CH-FORMAL
-      - CH-MODEL
-      - CH-COLLIDE
-      - CH-EMPIRICAL
-      - CH-FRONTIER
-    target: >-
-      Reconstruct or falsify accessible-energy quantum-gravitational structure
-      using local covariance, EFT, semiclassical dynamics, clocks, detectors,
-      finite observations, and cosmology without presuming a UV completion.
-    current_grade: >-
-      PROGRAM CHARTER ONLY; no detection, reconstruction, UV theory, or
-      departure from general relativity is established.
-    evidence_grade: 0
-    maximum_grade: >-
-      Grade 5 only for a finite nonabsorbed prediction or lawful remainder;
-      controlled reconstructions, universality results, and no-gos stop lower.
-    maximum_evidence_grade: 5
-    premise_status: >-
-      GR, curved-spacetime QFT, semiclassical gravity, gravitational EFT, and
-      current bounds remain incumbent; infrared effects need not select a UV
-      completion.
-    completed_dependencies: []
-    remaining_obligations:
-      - Freeze one regime, detector class, observable, uncertainty budget, incumbent null, and two-sided verdict.
-      - Separate universal infrared content from UV assumptions and modified-gravity alternatives.
-      - Carry dressing, locality, state, backreaction, clock, detector, and record semantics through one calculation.
-    typed_dependencies:
-      - type: does_not_block
-        target: DU-FOUR-DIMENSIONAL-QFT-COMPLETION
-        target_type: program
-      - type: external_dependency
-        target: GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION
-        target_type: external_work
-        owner_repo: gu-formalization
-    strongest_absorber: >-
-      Curved-spacetime QFT, semiclassical gravity, gravitational EFT, quantum
-      metrology, noise, and modified-gravity fits may absorb every signal.
-    cheapest_kill: >-
-      The observable is definition-dependent, inaccessible under its finite
-      budget, or reproduced by incumbent low-energy theory plus noise.
-    stop_rule: >-
-      Do not infer UV completion from infrared universality or call sensitivity
-      a detection; type the first uncontrolled physical assumption.
-    reopen_rule: >-
-      A dated contract must select one finite window, carry the
-      observable-to-record chain, name confounds, and freeze a verdict table.
-    local_computation_boundary: >-
-      Analytic, literature, and bounded numerical work only after observable
-      selection; no provider or hardware is authorized.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - docs/quantum-foundations-orientation-surface.md
-      - CONNECTIONS.md
-      - lab/process/gu-du-theory-payload-receiver-contract.md
-
-  - id: DU-Q0063-DECOHERENCE-NULL-AUDIT-LAYER-CONFRONTATION
-    kind: confrontation_campaign
-    owner_repo: dynamic-unity
-    portfolio_status: complete
-    execution_status: none
-    wip_slot: none
-    active_work_id: null
-    primary_lane_id: '5'
-    supporting_lane_ids:
-      - '3'
-      - '4'
-    channel_ids:
-      - CH-COLLIDE
-      - CH-FORMAL
-      - CH-MODEL
-      - CH-EMPIRICAL
-    target: >-
-      Adjudicate whether the audit layer -- physically audited access,
-      fragment independence, and provenance over raw environmental
-      redundancy -- adds empirically distinguishable content, or is
-      bookkeeping on one and the same physical process. D1--D3 run under
-      frozen two-sided verdict tables; a null win is a licensed terminal
-      Grade-4 absorption return.
-    current_grade: >-
-      HC-DU-200 / SCOPED GRADE 4 NONIMPLICATION AND NECESSITY CONTROL. A raw
-      QD mutual-information plateau does not certify locally accessible
-      classical record content in the executed finite central-spin class,
-      and BPH/Qi--Ranard genericity does not force that implication for
-      physically selected accessible fragments at physical rates. The
-      physical content is absorbed by strong QD/SBS; no new DU physics.
-    evidence_grade: 4
-    maximum_grade: >-
-      Grade 4, attained for the scoped nonimplication and necessity control.
-      The campaign had no licensed Grade-5 return after D6 was superseded.
-    maximum_evidence_grade: 4
-    premise_status: >-
-      Ontic-neutral operational claims at regional/public scope, disclosure
-      only. The null is steelmanned; banked formal underdetermination is
-      conceded as not yet empirical distinguishability.
-    completed_dependencies:
-      - id: HC-DU-057
-        evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
-      - id: HC-DU-063
-        evidence_ref: explorations/state-only-record-functional-no-go-and-minimum-typed-record-structure-2026-07-27.md
-      - id: Q0063-WAVE-1A-ABSORPTION
-        evidence_ref: explorations/external-mergeable-sector-theorem-spine-and-taf-record-typing-absorption-2026-08-03.md
-      - id: Q0063-CAMPAIGN-SCOPING
-        evidence_ref: explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md
-      - id: Q0063-D1
-        evidence_ref: explorations/classicality-transition-functional-form-d1-literature-check-2026-08-03.md
-      - id: Q0063-D2
-        evidence_ref: explorations/qd-sbs-audit-gap-witness-d2-execution-2026-08-03.md
-      - id: Q0063-WAVE-3-ADJUDICATION
-        evidence_ref: explorations/wave3-adjudication-d1-d2-2026-08-03.md
-      - id: HC-DU-200
-        evidence_ref: explorations/generic-objectivity-transfer-d3-and-q0063-terminal-verdict-2026-08-28.md
-    remaining_obligations: []
-    typed_dependencies:
-      - type: tests
-        target: COVARIANT-FINALITY-DYNAMICS
-        target_type: program
-      - type: extracts_from
-        target: HC-DU-057
-        target_type: result
-      - type: extracts_from
-        target: HC-DU-063
-        target_type: result
-    strongest_absorber: >-
-      Decoherence theory, quantum Darwinism and Spectrum Broadcast
-      Structure, the Brandao--Piani--Horodecki generic-objectivity theorems
-      with the Qi--Ranard strengthening, and standard open-system response
-      theory.
-    cheapest_kill: >-
-      Executed: D2 supplied an exact plateau-with-failed-access witness, so
-      the bookkeeping null died in its frozen form. D3 then showed that the
-      strongest generic-objectivity absorber does not bind accessible-record
-      failure to plateau flatness at physical rates. Standard strong-QD/SBS
-      literature absorbs the surviving physical content.
-    stop_rule: >-
-      Satisfied. D1--D3 returned and the terminal verdict is banked. D6 is
-      superseded by target mismatch and D7 is closed unexecuted. Do not
-      continue this campaign through a relabelled discriminator.
-    reopen_rule: >-
-      Reopen only through a new dated two-sided contract that either proves a
-      physical-rate bound from plateau flatness to access, independence, and
-      provenance uniformly over a physically selected accessible-fragment
-      class, or supplies a finite frozen plateau/audit experiment with a
-      nonabsorbed operational consequence.
-    local_computation_boundary: >-
-      Completed with primary-source theorem reconstruction and the existing
-      exact finite witness. No new simulation, provider, or hardware.
-    next_action: null
-    next_action_ref: null
-    canonical_evidence_refs:
-      - explorations/decoherence-null-audit-layer-confrontation-campaign-scoping-2026-08-03.md
-      - explorations/classicality-transition-functional-form-d1-literature-check-2026-08-03.md
-      - explorations/qd-sbs-audit-gap-witness-d2-execution-2026-08-03.md
-      - explorations/wave3-adjudication-d1-d2-2026-08-03.md
-      - explorations/generic-objectivity-transfer-d3-and-q0063-terminal-verdict-2026-08-28.md
-      - docs/quantum-foundations-orientation-surface.md
-
+- id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
+  kind: flagship
+  owner_repo: dynamic-unity
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  active_work_id: null
+  primary_lane_id: '1'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-FORMAL
+  target: Determine the minimal target-blind physical antecedent, if any, that selects
+    a material, provenance-bearing, observer-indexed record interface; then adjudicate
+    action-relative reconstruction, operational duality, and the smallest physically
+    realizable finite remainder.
+  current_grade: HC-DU-165--205 bank selection, record, Bell, matched-descent, and
+    consumer-action boundaries; no complete handoff is selected.
+  evidence_grade: 4
+  maximum_grade: Grade 5 requires a selected complete physical packet, lawful discriminator,
+    and no-refit transfer; scoped no-section results stop at Grade 4.
+  maximum_evidence_grade: 5
+  premise_status: Ontology-neutral and target-blind; process, interface, archive,
+    access, action, target, and finality remain typed.
+  completed_dependencies:
+  - id: HC-DU-205
+    evidence_ref: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
+  remaining_obligations:
+  - Reopen only with a source-pinned no-refit target and a physically selected complete
+    writer-consumer/access/provenance/resource packet.
+  typed_dependencies:
+  - type: tests
+    target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
+    target_type: program
+  strongest_absorber: Process, sufficiency, identifiability, detector, instrument,
+    and control theory.
+  cheapest_kill: Encodability, target refit, or a coarse record with no complete physical
+    packet supplies no prediction.
+  stop_rule: Do not promote response, endpoint invariance, or record formation into
+    complete handoff.
+  reopen_rule: Require one source-pinned no-refit target and a physically selected
+    complete writer-consumer/access/provenance/resource packet.
+  local_computation_boundary: Formal or exact-small controls only; no provider or
+    hardware.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - explorations/concept-register.md
+  - explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
+- id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
+  kind: flagship
+  owner_repo: dynamic-unity
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  primary_lane_id: '1'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-FORMAL
+  target: Parked after apparatus and stochastic-selector selection tests.
+  current_grade: HC-DU-137--152/156 bank Grade-4 interface/apparatus selection boundaries
+    and the stochastic-selector correction.
+  evidence_grade: 4
+  maximum_grade: Grade 4 for selection/nonselection; Grade 5 for lawful remainder
+    or prediction.
+  maximum_evidence_grade: 5
+  premise_status: Ontology-neutral; interface, descent, and target remain typed.
+  completed_dependencies:
+  - id: HC-DU-156
+    evidence_ref: explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
+  remaining_obligations: []
+  typed_dependencies:
+  - type: tests
+    target: PHYSICAL-RECORD-INTERFACE-SELECTION
+    target_type: requirement
+  strongest_absorber: Covariant instruments, invariant measures, SSB, and effective-apparatus
+    limits absorb the pieces.
+  cheapest_kill: Met. A unique invariant kernel need select no sampler, label, or
+    archive.
+  stop_rule: Do not promote a symmetry orbit, kernel, or channel into a formed record.
+  reopen_rule: Require a source-pinned apparatus or stochastic instrument selecting
+    its completion class, sampler, accessible archive, and no-refit consequence.
+  local_computation_boundary: Exact finite controls close the gate; no scale-up or
+    hardware.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
+- id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
+  kind: supporting_branch
+  owner_repo: dynamic-unity
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  primary_lane_id: '4'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-FORMAL
+  target: Quantify capacity and resolution after a formed interface exists.
+  current_grade: HC-DU-136--158/187--188 bank scoped resource, formation, trajectory,
+    and response-rank boundaries.
+  evidence_grade: 4
+  maximum_grade: Scoped Grade 4 supporting result.
+  maximum_evidence_grade: 4
+  premise_status: Resource, formation, access, target, and capacity remain typed.
+  completed_dependencies:
+  - id: HC-DU-188
+    evidence_ref: explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
+  remaining_obligations:
+  - Select one complete physical record packet and derive its no-refit capacity or
+    remainder.
+  typed_dependencies:
+  - type: requires
+    target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
+    target_type: program
+  strongest_absorber: Capacity, thermodynamics, open systems, process tensors, and
+    nuisance identifiability.
+  cheapest_kill: The proposed capacity depends on an unselected archive, action family,
+    nuisance fit, or resource change.
+  stop_rule: No generic capacity or measurement-model survey before a complete physical
+    packet is selected.
+  reopen_rule: Require one selected apparatus/archive/access/resource packet and a
+    no-refit capacity or remainder theorem.
+  local_computation_boundary: Proof-first local specimen only; no hardware.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - explorations/reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md
+- id: DU-PAPER-013-HARDENING
+  kind: publication
+  owner_repo: dynamic-unity
+  portfolio_status: complete
+  execution_status: none
+  wip_slot: none
+  candidate_id: DU-PAPER-013
+  primary_lane_id: '7'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-PAPER
+  target: Preserve the published bounded CSG classification in historical custody.
+  current_grade: Published scoped Grade-4 bounded theorem; publication does not raise
+    its grade.
+  evidence_grade: 4
+  maximum_grade: Frozen at scoped Grade 4.
+  maximum_evidence_grade: 4
+  premise_status: Proof, collision, review, and publication are complete.
+  completed_dependencies:
+  - id: CSG-POST-TAIL-PAPER-HARDENING
+    evidence_ref: explorations/csg-post-tail-independent-hardening-and-paper-grade-collision-2026-07-30.md
+  remaining_obligations: []
+  typed_dependencies:
+  - type: external_dependency
+    target: DRAFTING-FACTORY-CUSTODY
+    target_type: external_work
+    owner_repo: drafting-factory
+  cheapest_kill: A material proof gap or exact prior-art absorber.
+  stop_rule: No further promotion or upload is authorized here.
+  reopen_rule: Only a material proof objection, exact absorber, or requested extension
+    reopens source work.
+  local_computation_boundary: Dynamic Unity preserves source evidence; Drafting Factory
+    owns release custody.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - papers/paper-opportunity-portfolio.json
+- id: COVARIANT-FINALITY-DYNAMICS
+  kind: theory_branch
+  owner_repo: dynamic-unity
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  candidate_ids:
+  - PRED-DU-001
+  - PRED-DU-002
+  primary_lane_id: '5'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-FORMAL
+  target: Derive covariant finality dynamics with a selected generator, coefficient,
+    and discriminator.
+  current_grade: SEAM ONLY. HC-DU-057 preserves a distinct rate class but no dynamics.
+  evidence_grade: 0
+  maximum_grade: Physical theory or finite prediction only after the complete generator
+    and empirical contract exist.
+  maximum_evidence_grade: 5
+  premise_status: Mechanism absent; ticks, consensus analogies, and fitted thresholds
+    do not supply it.
+  completed_dependencies:
+  - id: HC-DU-057
+    evidence_ref: explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+  remaining_obligations:
+  - Supply a local covariant generator, selected coefficient/scale, consistency checks,
+    and a mechanism-specific observable.
+  typed_dependencies:
+  - type: requires
+    target: PHYSICAL-FINALITY-GENERATOR
+    target_type: requirement
+  cheapest_kill: Prove that every proposed observable is reproduced by a smooth standard
+    unitary/open-system memory model over the frozen intervention class.
+  stop_rule: Do not spend work on another knee, consensus analogy, provider adapter,
+    or hardware proposal while the generator is absent.
+  reopen_rule: Reopen only when one explicit local covariant generator with selected
+    coefficient passes positivity, no-signalling, energy, and mechanism-specific-discriminator
+    checks.
+  local_computation_boundary: Generator and absorber work must produce the first learning
+    locally.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - explorations/regional-finality-excess-audit-rate-mergeability-and-criticality-2026-07-27.md
+- id: CORRECTED-UNDERIVABILITY-OBSERVER-BRIDGE
+  kind: moonshot
+  owner_repo: dynamic-unity
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  candidate_id: SOURCE-IS-OBSERVER-COROLLARY
+  primary_lane_id: '3'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-FORMAL
+  target: Test a corrected physical underivability theorem only after GU domain/class-realization
+    requirements are earned.
+  current_grade: SUPERSEDED. Parity-of-flips supplies an internal fixpoint-free involution;
+    current GU evidence establishes no physical externality, sigma-w1 identity, or
+    unique external bit.
+  evidence_grade: 0
+  maximum_grade: Conditional dynamic corollary after an earned substrate theorem and
+    non-stale physical target.
+  maximum_evidence_grade: 4
+  premise_status: The R4-to-monotonicity bridge is refuted; repository custody supplies
+    no replacement physics.
+  completed_dependencies:
+  - id: PARITY-OF-FLIPS-COUNTEREXAMPLE
+    evidence_ref: explorations/record-immutability-forces-external-involution-2026-07-21.md
+  remaining_obligations:
+  - Supply corrected physical definitions and a GU theorem-grade domain/class-realization
+    bridge surviving the parity counterexample.
+  typed_dependencies:
+  - type: external_dependency
+    target: GU-SUBSTRATE-BRIDGE-ADJUDICATION
+    target_type: external_work
+    owner_repo: gu-formalization
+  cheapest_kill: Construct a physically source-internal, non-disclosure actualization
+    satisfying the corrected domain contract, or prove that the proposed underivability
+    predicate is representation-dependent or target-coded.
+  stop_rule: Do not use R4 implies monotone, physical externality, sigma=w1, or exactly-one-external-bit
+    as premises. Do not activate a proof campaign from repository ownership or analogy.
+  reopen_rule: Reopen only after GU produces a current theorem-grade physical bridge,
+    or DU states a new corrected underivability proposition with an exact physical
+    domain, smallest counterexample, and non-stale falsifier.
+  local_computation_boundary: Counterexample and theorem work only; toy growth cannot
+    supply the bridge.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - explorations/record-immutability-forces-external-involution-2026-07-21.md
+- id: DU-FOUR-DIMENSIONAL-QFT-COMPLETION
+  kind: research_program
+  owner_repo: dynamic-unity
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  active_work_id: null
+  primary_lane_id: '6'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-SYN
+  target: Complete one delimited 4D QFT sector from local causal algebra through states,
+    dynamics, instruments, and finite reconstruction.
+  current_grade: PROGRAM CHARTER ONLY; no construction, theorem, obstruction, or new
+    empirical content is established.
+  evidence_grade: 0
+  maximum_grade: Grade 5 only for a finite nonabsorbed prediction or lawful remainder.
+  maximum_evidence_grade: 5
+  premise_status: Incumbent QFT remains the control; the target is an explicit seam,
+    not a presumed missing theory.
+  completed_dependencies: []
+  remaining_obligations:
+  - Freeze one sector and carry algebra, states, dynamics, measurement, record, and
+    finite reconstruction through one incumbent-tested contract.
+  typed_dependencies:
+  - type: does_not_block
+    target: DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY
+    target_type: program
+  strongest_absorber: Algebraic, constructive, perturbative, effective, lattice/continuum,
+    and operational QFT may jointly supply the whole selected chain.
+  cheapest_kill: Existing work already supplies the selected algebra-to-record chain,
+    or the alleged gap is only representational.
+  stop_rule: Do not claim universal construction or turn elegance into evidence; type
+    the first unowned domain, state, measure, detector, or limit assumption.
+  reopen_rule: A dated contract must select one sector and seam, name incumbents,
+    freeze the endpoint, and supply the cheapest-kill comparison.
+  local_computation_boundary: Literature, proof, symbolic, exact-small, or bounded
+    numerical work only after selection; no provider or hardware is authorized.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - docs/quantum-foundations-orientation-surface.md
+- id: DU-INFRARED-EMPIRICAL-QUANTUM-GRAVITY
+  kind: research_program
+  owner_repo: dynamic-unity
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  active_work_id: null
+  primary_lane_id: '6'
+  supporting_lane_ids: []
+  channel_ids:
+  - CH-SYN
+  target: Reconstruct or falsify accessible-energy quantum-gravity structure without
+    presuming a UV completion.
+  current_grade: PROGRAM CHARTER ONLY; no detection, reconstruction, UV theory, or
+    departure from general relativity is established.
+  evidence_grade: 0
+  maximum_grade: Grade 5 only for a finite nonabsorbed prediction or lawful remainder.
+  maximum_evidence_grade: 5
+  premise_status: GR, curved-spacetime QFT, EFT, and current bounds remain incumbent.
+  completed_dependencies: []
+  remaining_obligations:
+  - Freeze one finite regime, detector, observable, uncertainty budget, incumbent
+    null, and two-sided verdict through the full record chain.
+  typed_dependencies:
+  - type: external_dependency
+    target: GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION
+    target_type: external_work
+    owner_repo: gu-formalization
+  strongest_absorber: Curved-spacetime QFT, semiclassical gravity, gravitational EFT,
+    quantum metrology, noise, and modified-gravity fits may absorb every signal.
+  cheapest_kill: The observable is definition-dependent, inaccessible under its finite
+    budget, or reproduced by incumbent low-energy theory plus noise.
+  stop_rule: Do not infer UV completion from infrared universality or call sensitivity
+    a detection; type the first uncontrolled physical assumption.
+  reopen_rule: A dated contract must select one finite window, carry the observable-to-record
+    chain, name confounds, and freeze a verdict table.
+  local_computation_boundary: Analytic, literature, and bounded numerical work only
+    after observable selection; no provider or hardware is authorized.
+  next_action: null
+  next_action_ref: null
+  canonical_evidence_refs:
+  - docs/quantum-foundations-orientation-surface.md
+- id: DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE
+  kind: conditional_foundations_campaign
+  owner_repo: dynamic-unity
+  portfolio_status: active
+  execution_status: executable
+  wip_slot: scientific_flagship
+  active_work_id: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
+  primary_lane_id: '1'
+  supporting_lane_ids:
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  channel_ids:
+  - CH-SYN
+  - CH-FORMAL
+  - CH-COLLIDE
+  - CH-FRONTIER
+  target: Test whether a closed typed transition system adds structure beyond quantum
+    processes plus supplied interfaces; advance dependent families only if it does.
+  current_grade: Grade 0 conditional campaign; no physical hypothesis is promoted.
+  evidence_grade: 0
+  maximum_grade: Grade 4 for selection or nonselection; Grade 5 only for a later finite
+    no-refit residual.
+  maximum_evidence_grade: 5
+  premise_status: Conditional only; no global classical state, interpreter, fitted
+    consumer, foliation, or computational ontology.
+  completed_dependencies:
+  - id: HC-DU-064
+    evidence_ref: explorations/capability-record-galois-closure-and-non-chain-regional-finality-2026-07-27.md
+  - id: HC-DU-094
+    evidence_ref: explorations/operational-influence-capability-saturation-and-active-wave-geometry-reconstruction-boundary-2026-07-28.md
+  - id: HC-DU-159
+    evidence_ref: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
+  - id: HC-DU-205
+    evidence_ref: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
+  - id: CTS-PORTFOLIO-ADMISSION
+    evidence_ref: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
+  remaining_obligations:
+  - Run Position 1 before dependent positions.
+  - Advance composability or coformation only if an extra axiom survives.
+  - Type sharding/finality before distributed theorems; geometry needs an independent
+    scale anchor.
+  - Terminate in theorem, counterexample, finite discriminator, or absorption.
+  typed_dependencies:
+  - type: extracts_from
+    target: HC-DU-064
+    target_type: result
+  - type: extracts_from
+    target: HC-DU-159
+    target_type: result
+  - type: extracts_from
+    target: HC-DU-205
+    target_type: result
+  - type: tests
+    target: COMPUTATION-FIRST-CLOSED-TRANSITION-PREMISE
+    target_type: premise
+  strongest_absorber: Quantum processes, categorical classical structures, decoherence,
+    causal structures, QEC, and distributed representations.
+  cheapest_kill: Target-independent adapters reduce the candidate to a complete process
+    plus supplied interfaces, or an external interpreter remains.
+  stop_rule: Stop on representation, quantum inconsistency, or external interpretation;
+    no fitted semantic rescue.
+  reopen_rule: After absorption, require a new target-independent axiom that selects
+    an interface, forbids an architecture, imposes no-refit transfer, or yields a
+    finite discriminator.
+  local_computation_boundary: Formal/source comparison and at most one exact finite
+    proof control; no simulation, training, provider, or hardware.
+  next_action: Define the minimal transition object, map it to DU and quantum/classical
+    controls, isolate extra axioms, and return one frozen verdict.
+  next_action_ref: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
+  execution_packet:
+    action_id: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
+    exact_question: Which transition axioms exceed quantum processes and DU's typed
+      kernel without an interpreter or fitted interface?
+    source_locator:
+      path: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
+      heading: '## Position 1 — non-vacuity and translation audit — executable'
+    required_inputs:
+    - path: lab/process/computation-first-closed-transition-hypothesis-portfolio.json
+      role: Eight-family contract and gates.
+    - path: explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
+      role: Duplicate audit and campaign.
+    - path: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
+      role: Interface-selection control.
+    - path: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
+      role: Consumer-freedom control.
+    unchanged_ledger_fields:
+    - all-hypotheses-grade-zero
+    - process-interface-action-type-separation
+    - no-external-interpreter-or-refit
+    - exact-distributed-assumption-matching
+    - independent-metric-scale-anchor
+    arena_roles:
+    - du-typed-kernel
+    - finite-quantum-process-control
+    - classical-event-system-control
+    - hostile-contextual-control
+    expected_return_classes:
+    - PURE_REPRESENTATION_ABSORBED
+    - NONTRIVIAL_AXIOM_WITH_THEOREM_OBLIGATION
+    - INCONSISTENT_WITH_QUANTUM_PROCESS_CONTROL
+    - UNDERDEFINED_EXTERNAL_INTERPRETER_REMAINS
+    observer_index_return_classes:
+    - OBSERVER_INDEX_DERIVES_FROM_SELECTED_ACTION_BOUNDARY
+    - OBSERVER_INDEX_REMAINS_SUPPLIED
+    - OBSERVER_INDEX_IRRELEVANT_TO_SCOPED_TRANSLATION
+    durable_output: One exact adapter, absorber, counterexample, or theorem-obligation
+      verdict plus a routing transition.
+    local_method: Source/formal comparison; one exact finite control only if decisive.
+    uses_program_controls:
+    - premise_status
+    - strongest_absorber
+    - cheapest_kill
+    - stop_rule
+    - local_computation_boundary
+  canonical_evidence_refs:
+  - explorations/computation-first-closed-transition-substrate-portfolio-assessment-2026-08-31.md
+  - lab/process/computation-first-closed-transition-hypothesis-portfolio.json
+  - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
+  - explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
 successor_selection:
-  status: no_ready
-  blocked_by: null
+  status: blocked
+  blocked_by: CTS-A1-NONVACUITY-AND-TRANSLATION-AUDIT
   selected_successor_id: null
   candidate_classes:
-    - gu-du-selected-interface-or-descent-round-trip
-    - common-causal-response-object-audit
-    - hyperbolic-response-tower-first-leak
-    - target-blind-response-record-selector
-    - matched-record-consumer-orbit-selection
-    - cross-boundary-write-read-action-selector
-    - instrument-natural-section-or-no-section
-    - minimal-physical-selection-frontier
-    - material-substitution-response-rank
-    - complete-formed-record-packet
-    - action-relative-record-materialization
-    - law-record-finite-remainder
-    - minimal-physically-realizable-first-leak
-    - no-refit-cross-platform-transfer
-    - layered-regional-finality-composition
-    - covariant-finality-generator-after-finite-residual
-    - no-ready-successor
-  decision_rule: >-
-    HC-DU-200--205 leave no mechanism or prediction. A matched handoff may
-    descend, but record formation, preservation, and inverse write leave the
-    consumer free. No source selects the full material action-bearing orbit;
-    GU and both QFT programs remain parked.
-    Select no successor until a parked reopener or another North-Star admission
-    contract closes.
-
+  - computation-first-closed-transition-substrate
+  - gu-du-selected-interface-or-descent-round-trip
+  - common-causal-response-object-audit
+  - target-blind-response-record-selector
+  - minimal-physical-selection-frontier
+  - law-record-finite-remainder
+  - no-ready-successor
+  decision_rule: CTS-A1 now blocks successor selection. Advance only if it isolates
+    a nontrivial target-independent transition axiom with a theorem obligation. Pure
+    representation, inconsistency, or an external-interpreter remainder terminally
+    absorbs the computation-first campaign. All other programs, GU, and both QFT branches
+    remain parked.
 anomaly_intake:
   status: open_non_wip
   destination_refs:
-    - explorations/concept-register.md
-    - explorations/prediction-register.md
-    - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
-  activation_rule: >-
-    A new anomaly or abductive route may change the portfolio only after it
-    states the exact tension, strongest absorber, smallest discriminator,
-    maximum grade, and which current dependency it changes. Intake never
-    creates a standing parallel lane.
+  - explorations/concept-register.md
+  - explorations/prediction-register.md
+  - COUNTER-ASSUMPTIVE-FINDINGS-REGISTER.md
+  activation_rule: A new anomaly or abductive route may change the portfolio only
+    after it states the exact tension, strongest absorber, smallest discriminator,
+    maximum grade, and which current dependency it changes. Intake never creates a
+    standing parallel lane.
