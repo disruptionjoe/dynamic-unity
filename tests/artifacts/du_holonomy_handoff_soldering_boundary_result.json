@@ -1,0 +1,220 @@
+{
+  "autonomous_transfer": {
+    "-1": {
+      "-1": {
+        "derived_b": 1,
+        "handoff_parity": -1
+      },
+      "1": {
+        "derived_b": -1,
+        "handoff_parity": -1
+      }
+    },
+    "1": {
+      "-1": {
+        "derived_b": -1,
+        "handoff_parity": 1
+      },
+      "1": {
+        "derived_b": 1,
+        "handoff_parity": 1
+      }
+    }
+  },
+  "bijective_alignments": [
+    {
+      "-1": -1,
+      "1": 1
+    },
+    {
+      "-1": 1,
+      "1": -1
+    }
+  ],
+  "checks": {
+    "binary_set_has_two_bijections": true,
+    "distinct_target_has_two_solderings": true,
+    "faithful_z2_homomorphism_is_unique": true,
+    "fixed_soldering_closes_response_conditionally": true,
+    "hc_du_207_and_219_boundaries_preserved": true,
+    "holonomy_drives_autonomous_handoff_without_new_parity_parameter": true,
+    "identity_neutral_faithful_action_is_unique": true,
+    "independent_target_flip_fixes_no_soldering": true,
+    "inverted_bijection_violates_identity_preservation": true,
+    "loop_holonomy_is_vertex_gauge_invariant": true,
+    "removing_fibre_identity_or_soldering_reopens_ambiguity": true,
+    "same_fibre_return_parity_equals_holonomy": true,
+    "signed_cycles_have_two_holonomy_orbits": true,
+    "unsoldered_target_response_remains_ambiguous": true,
+    "z2_has_two_endomorphisms": true
+  },
+  "claim_id": "HC-DU-220",
+  "cycle_orbits": [
+    [
+      [
+        -1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        1
+      ],
+      [
+        -1,
+        1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        1,
+        1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        -1,
+        -1,
+        -1,
+        1
+      ],
+      [
+        -1,
+        -1,
+        1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        -1,
+        -1,
+        -1
+      ],
+      [
+        1,
+        -1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        -1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        -1
+      ]
+    ]
+  ],
+  "distinct_target_responses_with_soldering": {
+    "-1": {
+      "-1": 1,
+      "1": -1
+    },
+    "1": {
+      "-1": -1,
+      "1": 1
+    }
+  },
+  "distinct_target_responses_without_soldering": {
+    "-1": [
+      -1,
+      1
+    ],
+    "1": [
+      -1,
+      1
+    ]
+  },
+  "earned": [
+    "same-fibre return parity derived from holonomy",
+    "distinct-target soldering necessity",
+    "unique faithful identity-preserving Z2 action",
+    "exact composition of HC-DU-207 and HC-DU-219"
+  ],
+  "faithful_identity_neutral_action": {
+    "-1": -1,
+    "1": 1
+  },
+  "not_earned": [
+    "selection of a distinct material target fibre or soldering",
+    "selection of a record, archive, observer, consumer, or ruler",
+    "physical Z2 substrate, GU transfer, issuance, remainder, or new physics"
+  ],
+  "passed": 15,
+  "total": 15,
+  "untyped_binary_functions": [
+    {
+      "-1": -1,
+      "1": -1
+    },
+    {
+      "-1": -1,
+      "1": 1
+    },
+    {
+      "-1": 1,
+      "1": -1
+    },
+    {
+      "-1": 1,
+      "1": 1
+    }
+  ],
+  "verdict": "HOLONOMY_SELECTS_RETURN_PARITY_BUT_DISTINCT_TARGET_REQUIRES_SOLDERING",
+  "z2_homomorphisms": [
+    {
+      "-1": -1,
+      "1": 1
+    },
+    {
+      "-1": 1,
+      "1": 1
+    }
+  ]
+}

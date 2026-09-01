@@ -8441,3 +8441,24 @@ or complete record handoff. Reopen only with a source-pinned derivation of an
 anchored parity/holonomy, a proof that the target anchor is gauge, or a complete
 material handoff. See
 `autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md`.
+
+### 2026-09-01 holonomy-to-handoff return map and soldering boundary
+
+`HC-DU-220` composes the action-selected holonomy of `HC-DU-207` with the
+autonomous handoff parity of `HC-DU-219`. The residual parity is not universal.
+For a closed-loop transport that returns to the same physical fibre, the return
+map is multiplication by the loop holonomy, so the handoff parity is derived
+without another sign parameter. An identity-preserving faithful `Z2` action on
+a physically pointed binary target is likewise unique.
+
+A distinct independently relabelable target is different. It admits two
+source-target solderings/intertwiners, and target relabeling exchanges them
+without a fixed point. Holonomy cannot choose between them. Equality of printed
+`Z2` labels is not a physical bridge.
+
+Future candidates must declare whether they are same-fibre returns, same-bundle
+transport along a physically selected path, or inter-system transfers. The last
+requires a selected soldering and target ruler. Even the positive return theorem
+selects only a response relation, not a material writer, archive, provenance,
+observer access route, consumer, reset, or public-finality rule. See
+`holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md`.

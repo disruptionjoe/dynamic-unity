@@ -94,6 +94,13 @@ engineering experiments as positive controls for conditional formation, not as
 proof that the target symmetry, target ruler, record archive, or observer
 interface selected itself.
 
+`HC-DU-220` sharpens the residual parity rule: holonomy canonically determines
+a return map only when transport returns to the same fibre, or when the target
+already carries a physically established faithful identity-preserving action.
+A distinct independently relabelable target requires a selected soldering or
+intertwiner. Do not import a shared `Z2` notation from GU, TaF, TI, or another
+repo as that physical identification.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

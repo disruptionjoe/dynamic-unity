@@ -5633,3 +5633,31 @@ stability-isospectral nonselection boundary only. It proves no universal
 one-bit theorem, derivation of the coupling signs or target ruler,
 noncommuting quantum effect, complete physical record handoff, issuance,
 remainder, new prediction, or new physics.
+
+## HC-DU-220 holonomy-to-handoff soldering boundary
+
+`du_holonomy_handoff_soldering_boundary_probe.py` composes the exact signed-
+cycle holonomy and autonomous binary-handoff controls. It verifies:
+
+- two vertex-gauge orbits classified by loop holonomy;
+- same-fibre return parity equal to holonomy;
+- two source-target bijections for a distinct unpointed binary target;
+- free exchange of those bijections under independent target relabeling;
+- exactly one faithful identity-preserving `Z2` homomorphism;
+- failure of the inverted bijection to preserve the identity/no-effect case;
+- autonomous convergence with consumer sign derived from holonomy rather than
+  supplied as another parity parameter; and
+- regression preservation of `HC-DU-207` and `HC-DU-219`.
+
+Run:
+
+```bash
+python3 tests/du_holonomy_handoff_soldering_boundary_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_holonomy_handoff_soldering_boundary_result.json` and reports
+`15/15`. Passing establishes a scoped Grade-4 composition theorem and
+distinct-target soldering obstruction only. It proves no physical `Z2`
+substrate, selected material target or record interface, GU transfer,
+issuance, remainder, prediction, or new physics.
