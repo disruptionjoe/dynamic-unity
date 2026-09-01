@@ -74,7 +74,7 @@ EXPECTED_GRADES = {
     4: "selection_or_necessity",
     5: "remainder_or_prediction",
 }
-EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 358
+EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 359
 CURRENT_AUTHORITY_NAME = CURRENT_PATH.name
 
 SEMANTIC_MARKERS = {
@@ -729,14 +729,16 @@ def validate_authority(
         f"required cold-start surfaces total {cold_start_words} words (limit 6000)",
     )
 
-    context_program = active or next(
-        (
-            program
-            for program in programs
-            if program.get("portfolio_status") == "complete"
-            and program.get("kind") == "flagship"
-        ),
-        {},
+    quiescent_context_candidates = [
+        program
+        for program in programs
+        if program.get("kind") != "publication"
+        and program.get("portfolio_status") in {"parked", "complete"}
+    ]
+    context_program = active or max(
+        quiescent_context_candidates,
+        key=lambda program: len(program.get("completed_dependencies", [])),
+        default={},
     )
     dependency_classes = {
         dependency.get("target_type")
@@ -840,11 +842,21 @@ def mutated_state_fixture(current: dict[str, Any]) -> tuple[dict[str, Any], dict
             if program.get("kind") == "publication"
         ),
     )
-    routed_program_id = decision["active_scientific_program_id"] or next(
-        program["id"]
-        for program in current["programs"]
-        if program.get("portfolio_status") == "complete"
-        and program.get("kind") == "flagship"
+    quiescent_program = max(
+        (
+            program
+            for program in current["programs"]
+            if program.get("kind") != "publication"
+            and program.get("portfolio_status") in {"parked", "complete"}
+        ),
+        key=lambda program: len(program.get("completed_dependencies", [])),
+        default=None,
+    )
+    if decision["active_scientific_program_id"] is None and quiescent_program is None:
+        raise AssertionError("mutated_state_fixture: no scientific program to mutate")
+    routed_program_id = (
+        decision["active_scientific_program_id"]
+        or quiescent_program["id"]
     )
     replacements = {
         routed_program_id: "FIXTURE-SCIENTIFIC-PROGRAM",

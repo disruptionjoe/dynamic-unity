@@ -8101,6 +8101,30 @@ holonomy in one unchanged standard-quantum or finite-gauge realization. A
 supplied Wilson, spectral, or QND instrument is absorption. See
 `action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md`.
 
+### 2026-08-31 holonomy-to-material-record interface ambiguity
+
+`HC-DU-208` closes the selected gate. Granting the frustrated oscillator its
+canonical low/high spectral PVM still does not select an instrument. A Lüders
+instrument and a unitary-twisted instrument inside the exact low-band
+degeneracy have identical effects, Born laws, energy distributions, pointer
+values, and pointer probabilities, while one low-band input has orthogonal
+conditional continuations. Both admit exact blank-to-written pointer
+isometries.
+
+Copying the pointer to an observer and using it to control a target remain
+separate optional couplings. The action therefore selects a latent response
+algebra, not sampler, material carrier, provenance, archive, access, consumer,
+resources, public finality, or ruler. This is scoped Grade 4 and fully
+absorbed by standard spectral measurement, QND instruments, degenerate-sector
+unitary freedom, dilation, and controlled-operation theory.
+
+**Reopener:** require a different source-pinned action, constraint, or stable
+interaction that selects a complete writer--consumer--access--provenance--
+resource orbit or produces a finite no-refit remainder. More graph, PVM,
+pointer, Wilson-loop, QND, or consumer variants do not qualify. See
+`action-selected-holonomy-material-record-interface-ambiguity-and-computation-first-stop-2026-08-31.md`.
+
+
 ## CONCEPT-DU-020 — resource-accountable adversarial finality
 
 - **Concept (articulation-invariant).** Compatible local physical records may

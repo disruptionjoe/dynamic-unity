@@ -1,0 +1,173 @@
+{
+  "absorbers": [
+    "spectral quantum measurement",
+    "Luders instruments",
+    "QND measurement",
+    "unitary freedom inside degenerate eigenspaces",
+    "Naimark-Stinespring dilation",
+    "controlled quantum operations"
+  ],
+  "action_id": "CTS-A3-ACTION-SELECTED-HOLONOMY-MATERIAL-RECORD-GATE",
+  "checks": [
+    {
+      "detail": "the unchanged HC-DU-207 source has Z2 holonomy -1",
+      "name": "source_holonomy_is_negative",
+      "passed": true
+    },
+    {
+      "detail": "ordinary oscillator response remains sensitive to holonomy",
+      "name": "balanced_and_frustrated_spectra_differ",
+      "passed": true
+    },
+    {
+      "detail": "the source selects two distinct rank-2 spectral bands",
+      "name": "two_exact_degenerate_bands",
+      "passed": true
+    },
+    {
+      "detail": "the canonical band PVM is orthogonal and complete",
+      "name": "band_projectors_are_complete",
+      "passed": true
+    },
+    {
+      "detail": "the PVM is QND for the one-excitation Hamiltonian",
+      "name": "band_projectors_commute_with_hamiltonian",
+      "passed": true
+    },
+    {
+      "detail": "the hostile continuation is a physical orthogonal/unitary operation",
+      "name": "low_twist_is_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": "the hostile continuation preserves the complete source energy distribution",
+      "name": "low_twist_commutes_with_hamiltonian",
+      "passed": true
+    },
+    {
+      "detail": "Luders and twisted instruments induce the same PVM and all Born laws",
+      "name": "instruments_have_identical_effects",
+      "passed": true
+    },
+    {
+      "detail": "the Luders operations form a normalized quantum instrument",
+      "name": "luders_instrument_is_complete",
+      "passed": true
+    },
+    {
+      "detail": "the twisted operations form a normalized quantum instrument",
+      "name": "twisted_instrument_is_complete",
+      "passed": true
+    },
+    {
+      "detail": "each conditional output remains in its recorded energy band",
+      "name": "both_instruments_are_repeatable",
+      "passed": true
+    },
+    {
+      "detail": "both instruments admit exact blank-to-written two-state pointer isometries",
+      "name": "material_writers_are_isometries",
+      "passed": true
+    },
+    {
+      "detail": "the same generic input gives the same retained archive distribution",
+      "name": "pointer_statistics_are_identical",
+      "passed": true
+    },
+    {
+      "detail": "one low-band input yields orthogonal future system states",
+      "name": "conditional_continuations_are_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": "the continuation ambiguity survives exact source-energy conservation",
+      "name": "conditional_continuations_preserve_energy",
+      "passed": true
+    },
+    {
+      "detail": "both hostile handoffs write the same low-band record value",
+      "name": "same_low_archive_value",
+      "passed": true
+    },
+    {
+      "detail": "the finite writer has an exact blank-to-high material pointer transition",
+      "name": "high_pointer_is_written",
+      "passed": true
+    },
+    {
+      "detail": "copying the same archive to an observer bit changes access without changing the source",
+      "name": "observer_access_requires_extra_coupling",
+      "passed": true
+    },
+    {
+      "detail": "the same archive supports inactive and record-controlled target continuations",
+      "name": "consumer_action_requires_extra_coupling",
+      "passed": true
+    },
+    {
+      "detail": "the result uses one finite proof control and no simulation, training, provider, or hardware",
+      "name": "finite_local_control_only",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-208",
+  "complete_handoff_passport": {
+    "absolute_ruler": "absent",
+    "archive_retention_and_reset": "supplied",
+    "consumer_and_matched_continuation": "not_selected",
+    "material_blank_and_pointer": "supplied",
+    "observer_access_route": "supplied",
+    "occurrence_and_source_provenance": "conditional_on_supplied_write_coupling",
+    "public_finality_and_rival_model": "absent",
+    "resource_horizon": "supplied",
+    "sampler_instrument": "not_selected_two_exact_qnd_realizations",
+    "source_action_and_holonomy": "conditionally_selected",
+    "spectral_band_pvm": "selected_by_functional_calculus",
+    "write_coupling": "supplied"
+  },
+  "evidence_grade": 4,
+  "interface_collision": {
+    "consumer_target_trace_distance": 1.0,
+    "effect_frobenius_differences": [
+      0.0,
+      0.0
+    ],
+    "generic_pointer_probabilities": [
+      0.38686291501,
+      0.61313708499
+    ],
+    "low_conditional_trace_distance": 1.0,
+    "low_energy_before": 1.25928012675,
+    "low_energy_luders": 1.25928012675,
+    "low_energy_twisted": 1.25928012675,
+    "observer_access_trace_distance": 1.0
+  },
+  "maximum_evidence_grade": 4,
+  "observer_index_return": "OBSERVER_INDEX_REMAINS_SUPPLIED",
+  "return_class": "ACTION_SELECTED_HOLONOMY_INTERFACE_AMBIGUITY",
+  "run_id": "RUN-20260831-action-selected-holonomy-material-record-gate",
+  "source": {
+    "band_ranks": [
+      2,
+      2
+    ],
+    "holonomy": -1,
+    "one_excitation_frequencies": [
+      1.25928012675,
+      1.25928012675,
+      2.101002989615,
+      2.101002989615
+    ],
+    "stiffness_eigenvalues": [
+      1.585786437627,
+      1.585786437627,
+      4.414213562373,
+      4.414213562373
+    ]
+  },
+  "summary": {
+    "all_passed": true,
+    "passed": 20,
+    "total": 20
+  }
+}

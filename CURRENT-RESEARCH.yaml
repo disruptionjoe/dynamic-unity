@@ -1,9 +1,9 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 157
+state_revision: 158
 as_of: '2026-08-31'
 authority: Joe direct chat through 2026-08-31 and governed receipts. The latest
-  direction authorizes the CTS-A2 big wave and its evidence-selected successor.
+  direction authorizes and completes CTS-A3; no scientific successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -69,14 +69,15 @@ transition_protocol:
   history_rule: Never rewrite dated evidence or historical manifests to make them
     current; supersede them additively and route only through this file.
 current_decision:
-  active_scientific_program_id: DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE
-  executable_action_id: CTS-A3-ACTION-SELECTED-HOLONOMY-MATERIAL-RECORD-GATE
+  active_scientific_program_id: null
+  executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-207 completes CTS-A2. One signed-cycle action selects a
-    transport gauge orbit, Z2 holonomy, response spectrum, and regional no-section,
-    but not an observer, action bandwidth, material record, consumer, or ruler.
-    Only the bounded holonomy-to-material-record gate is executable.
+  decision_note: HC-DU-208 completes CTS-A3. The action-selected spectral PVM
+    admits exact repeatable energy-preserving instruments with identical Born and
+    archive laws but orthogonal continuations. Material writer, provenance, access,
+    consumer, resources, finality, and ruler remain supplied. The computation-first
+    campaign is parked and the portfolio is explicitly no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -421,10 +422,10 @@ programs:
 - id: DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE
   kind: conditional_foundations_campaign
   owner_repo: dynamic-unity
-  portfolio_status: active
-  execution_status: executable
-  wip_slot: scientific_flagship
-  active_work_id: CTS-A3-ACTION-SELECTED-HOLONOMY-MATERIAL-RECORD-GATE
+  portfolio_status: parked
+  execution_status: none
+  wip_slot: none
+  active_work_id: null
   primary_lane_id: '1'
   supporting_lane_ids:
   - '2'
@@ -440,9 +441,10 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207 banks scoped Grade-4 action selection of a transport
-    orbit/holonomy and an exact regional no-section/interface nonselection boundary;
-    no material record or new physics is selected.
+  current_grade: HC-DU-207--208 bank scoped Grade-4 action selection of a transport
+    orbit, holonomy, response spectrum, and spectral PVM plus exact regional
+    no-section and material-interface nonselection boundaries; no complete record
+    handoff or new physics is selected.
   evidence_grade: 4
   maximum_grade: Grade 4 for selection or nonselection; Grade 5 only for a later finite
     no-refit residual.
@@ -466,15 +468,12 @@ programs:
     evidence_ref: explorations/common-view-selector-forty-lens-linear-quadratic-and-social-distance-vote-2026-08-31.md
   - id: HC-DU-207
     evidence_ref: explorations/action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md
+  - id: HC-DU-208
+    evidence_ref: explorations/action-selected-holonomy-material-record-interface-ambiguity-and-computation-first-stop-2026-08-31.md
   remaining_obligations:
-  - Apply the complete material-handoff passport to the action-selected holonomy
-    without supplying the sampler, archive, observer, consumer, or ruler.
-  - Test one unchanged standard-quantum or finite-gauge realization and one exact
-    null in which the same latent invariant admits inequivalent instruments.
-  - Distinguish latent response visibility from formation, provenance, access,
-    certification, and action-enabling use.
-  - Terminate in a selected material record orbit, exact interface ambiguity, or
-    known-theory absorption; do not proceed to public finality by analogy.
+  - Reopen only with a different source-pinned action, constraint, or stable interaction
+    whose dynamics selects a complete writer-consumer-access-provenance-resource
+    orbit or yields a finite no-refit remainder.
   typed_dependencies:
   - type: extracts_from
     target: HC-DU-064
@@ -506,56 +505,8 @@ programs:
     yields a no-refit finite remainder.
   local_computation_boundary: Formal/source comparison and at most one exact finite
     proof control; no simulation, training, provider, or hardware.
-  next_action: Test whether the HC-DU-207 action-selected holonomy selects a complete
-    material record/action handoff, or return the smallest exact interface ambiguity.
-  next_action_ref: explorations/action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md
-  execution_packet:
-    action_id: CTS-A3-ACTION-SELECTED-HOLONOMY-MATERIAL-RECORD-GATE
-    exact_question: Does the source-selected Z2 holonomy in HC-DU-207 naturally
-      select a material sampler, provenance-bearing archive, observer access, and
-      matched continuation, or do instrument and consumer freedoms survive?
-    source_locator:
-      path: explorations/action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md
-      heading: '# 11. Grade, stops, and successor'
-    required_inputs:
-    - path: explorations/action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md
-      role: Source-selected holonomy, stabilizer obstruction, and regional no-section.
-    - path: explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
-      role: Informative material-instrument no-section control.
-    - path: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
-      role: Complete handoff passport and record-preserving consumer freedom.
-    - path: explorations/complete-cycle-record-graph-cohomology-mincut-first-leak-and-spanning-tree-repair-2026-07-29.md
-      role: Downstream formed-cycle-record reconstruction control; must not supply formation.
-    unchanged_ledger_fields:
-    - process-interface-action-type-separation
-    - no-external-interpreter-or-refit
-    - latent-response-is-not-formed-record
-    - observer-index-remains-physical-not-epistemic
-    - no-public-finality-without-fault-access-and-provenance-contract
-    arena_roles:
-    - du-typed-kernel
-    - signed-cycle-source-control
-    - unchanged-standard-quantum-or-finite-gauge-transfer
-    - same-holonomy-different-instrument-hostile-control
-    expected_return_classes:
-    - ACTION_SELECTED_MATERIAL_RECORD_ORBIT_FOUND
-    - ACTION_SELECTED_HOLONOMY_INTERFACE_AMBIGUITY
-    - LATENT_RESPONSE_ONLY_ABSORBED
-    - TRANSFER_INCONSISTENT
-    observer_index_return_classes:
-    - OBSERVER_INDEX_DERIVES_FROM_SELECTED_ACTION_BOUNDARY
-    - OBSERVER_INDEX_REMAINS_SUPPLIED
-    - OBSERVER_INDEX_IRRELEVANT_TO_SCOPED_TRANSLATION
-    durable_output: One exact holonomy-to-material-record selector or interface
-      ambiguity theorem, with a complete handoff passport and routing transition.
-    local_method: Proof and one exact unchanged physical transfer; no simulation,
-      training, provider, or hardware.
-    uses_program_controls:
-    - premise_status
-    - strongest_absorber
-    - cheapest_kill
-    - stop_rule
-    - local_computation_boundary
+  next_action: null
+  next_action_ref: null
   canonical_evidence_refs:
   - explorations/common-view-closure-four-degree-projector-ruler-and-metric-nonselection-boundary-2026-08-31.md
   - lab/process/computation-first-common-view-relationship-atlas.json
@@ -565,9 +516,10 @@ programs:
   - explorations/instrument-no-section-admission-and-smallest-natural-selection-boundary-2026-07-30.md
   - explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
   - explorations/action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md
+  - explorations/action-selected-holonomy-material-record-interface-ambiguity-and-computation-first-stop-2026-08-31.md
 successor_selection:
-  status: blocked
-  blocked_by: CTS-A3-ACTION-SELECTED-HOLONOMY-MATERIAL-RECORD-GATE
+  status: no_ready
+  blocked_by: null
   selected_successor_id: null
   candidate_classes:
   - computation-first-closed-transition-substrate
@@ -577,10 +529,10 @@ successor_selection:
   - minimal-physical-selection-frontier
   - law-record-finite-remainder
   - no-ready-successor
-  decision_rule: CTS-A3 blocks successor selection. Advance only if the source-selected
-    holonomy selects a complete material handoff or yields an exact interface ambiguity.
-    A supplied measurement, archive, observer, or consumer is absorption. Other programs
-    remain parked.
+  decision_rule: CTS-A3 returned exact interface ambiguity and known-theory absorption.
+    No current candidate supplies a different source-pinned action selecting the complete
+    material handoff or a finite no-refit remainder. Remain quiescent until an explicit
+    reopener changes that dependency; other programs remain parked.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

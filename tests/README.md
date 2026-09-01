@@ -4,6 +4,27 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-208 action-selected holonomy material-record gate
+
+`du_action_selected_holonomy_material_record_gate_probe.py` keeps the
+`HC-DU-207` frustrated oscillator unchanged and grants it the canonical
+low/high PVM of its one-excitation Hamiltonian. It verifies two exact
+repeatable, energy-preserving instruments with identical effects and pointer
+laws but orthogonal conditional continuations inside the low-band degeneracy.
+It also checks independent archive-to-observer and archive-to-consumer forks.
+Run:
+
+```bash
+python3 tests/du_action_selected_holonomy_material_record_gate_probe.py --write-artifact
+```
+
+The deterministic artifact is
+`artifacts/du_action_selected_holonomy_material_record_gate_result.json` and
+reports `20/20`. Passing establishes only the scoped Grade-4 interface
+ambiguity and complete-handoff passport. It proves no source-selected
+material record, observer, provenance, public finality, ruler, universal
+no-go, new physics, empirical prediction, paper, provider, or hardware result.
+
 ## HC-DU-206 common-view closure and metric-ruler boundary
 
 `du_common_view_closure_probe.py` validates the exact finite controls for the
