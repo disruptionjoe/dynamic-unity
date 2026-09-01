@@ -8361,3 +8361,27 @@ RG-quotiented, response-selected, measured, or fitted. This does not weaken the
 complete-handoff gate: writer, archive, provenance, access, consumer, resource,
 and record-conditioned target comparison remain absent. See
 `wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md`.
+
+### 2026-09-01 prepared-instrument and autonomous-interface boundary
+
+`HC-DU-217` applies the preparation-relative selection correction at the
+instrument layer. A standard indirect measurement packet
+
+```text
+probe space + fixed probe state + system-probe coupling + meter
+  -> one CP instrument
+```
+
+is a legitimate physical antecedent for a conditional experiment when it is
+precommitted, calibrated independently, and transferred without target refit.
+This does not make the sample Hamiltonian or PVM select the instrument;
+`HC-DU-208`'s same-effect/different-continuation counterexample remains exact.
+Nor does an operational instrument select one apparatus microrealization or a
+durable archive, causal provenance, observer access route, consumer, reset,
+resource horizon, or finality rule.
+
+Maintain two gates. Conditional laboratory reconstruction may accept a complete
+prepared apparatus packet. Claims about autonomous classicality or natural
+observer-interface emergence must derive or dynamically select the interface
+from source-plus-environment dynamics. See
+`prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md`.

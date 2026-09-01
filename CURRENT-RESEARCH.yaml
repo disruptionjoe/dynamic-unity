@@ -1,11 +1,11 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 166
-as_of: '2026-08-31'
-authority: Joe direct chat through 2026-08-31 and governed receipts. The latest
-  result decomposes the Ising passport into source-, preparation-, RG-, and
-  response-selected fields while leaving complete material handoff selection
-  open; no physical successor is ready.
+state_revision: 167
+as_of: '2026-09-01'
+authority: Joe direct chat through 2026-09-01 and governed receipts. The latest
+  result admits a precommitted calibrated instrument as a legitimate physical
+  antecedent for a conditional experiment while preserving the stronger
+  autonomous-interface and complete-handoff gates; no physical successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -75,12 +75,13 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-216 shows that the Ising passport is not one unselected
-    block. Microscopic action fixes a short-range scalar Z2 RG sector, declared
-    preparation fixes the relevant critical coordinates, RG removes irrelevant
-    microdetail, and bootstrap consistency selects the response island. The
-    critical surface is not a generic attractor and the complete material handoff
-    remains absent, so remain no-ready.
+  decision_note: HC-DU-217 corrects an overstrict instrument gate. A physical
+    probe, fixed probe preparation, interaction, and meter determine one CP
+    instrument relative to a conditional experiment. The source Hamiltonian or
+    PVM alone does not select it, and the instrument does not select its unique
+    microrealization or a complete archive/provenance/access/consumer handoff.
+    Autonomous natural-interface selection remains a stronger open claim, so
+    remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -97,7 +98,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--216 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--217 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -121,10 +122,14 @@ programs:
     evidence_ref: explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
   - id: HC-DU-216
     evidence_ref: explorations/wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md
+  - id: HC-DU-217
+    evidence_ref: explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   remaining_obligations:
-  - Reopen with a source-pinned law plus independently fixed physical preparation
-    that generates rather than target-curates its class, selects a complete material
-    handoff, and yields a non-copy no-refit law-only versus record-conditioned target.
+  - Reopen with a source-pinned law, independently fixed physical preparation,
+    and precommitted calibrated instrument extended through a complete material
+    handoff, then run a non-copy no-refit law/preparation/instrument-only versus
+    record-conditioned target comparison. Autonomous-emergence claims must instead
+    derive or dynamically select the interface.
   typed_dependencies:
   - type: tests
     target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
@@ -135,11 +140,13 @@ programs:
     packet supplies no prediction.
   stop_rule: Do not promote response, endpoint invariance, or record formation into
     complete handoff.
-  reopen_rule: Require one source-pinned law and independently fixed preparation
-    generating a stable physical response class, plus either a selected complete
-    writer-consumer/access/provenance/resource packet or an exact no-section result.
-    The locked comparison must separate law/preparation-only from record-conditioned
-    target sharpening without refit.
+  reopen_rule: For a conditional experiment, admit one source-pinned law,
+    independently fixed preparation, and target-blind calibrated instrument as a
+    physical antecedent; then require a complete writer-consumer/access/provenance/resource
+    packet or exact no-section result. The locked comparison must separate
+    law/preparation/instrument-only from record-conditioned target sharpening without
+    refit. For autonomous classicality, require source-plus-environment selection of
+    the interface itself.
   local_computation_boundary: Formal or exact-small controls only; no provider or
     hardware.
   next_action: null
@@ -153,6 +160,7 @@ programs:
   - explorations/physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md
   - explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
   - explorations/wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md
+  - explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -163,9 +171,11 @@ programs:
   supporting_lane_ids: []
   channel_ids:
   - CH-FORMAL
-  target: Parked after apparatus and stochastic-selector selection tests.
-  current_grade: HC-DU-137--152/156 bank Grade-4 interface/apparatus selection boundaries
-    and the stochastic-selector correction.
+  target: Parked after apparatus, stochastic-selector, and prepared-instrument
+    selection tests.
+  current_grade: HC-DU-137--152/156/217 bank Grade-4 interface/apparatus selection
+    boundaries, the stochastic-selector correction, and the conditional-prepared
+    versus autonomous-interface distinction.
   evidence_grade: 4
   maximum_grade: Grade 4 for selection/nonselection; Grade 5 for lawful remainder
     or prediction.
@@ -174,6 +184,8 @@ programs:
   completed_dependencies:
   - id: HC-DU-156
     evidence_ref: explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
+  - id: HC-DU-217
+    evidence_ref: explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   remaining_obligations: []
   typed_dependencies:
   - type: tests
@@ -184,14 +196,17 @@ programs:
   cheapest_kill: Met. A unique invariant kernel need select no sampler, label, or
     archive.
   stop_rule: Do not promote a symmetry orbit, kernel, or channel into a formed record.
-  reopen_rule: Require a source-pinned apparatus or stochastic instrument selecting
-    its completion class, sampler, accessible archive, and no-refit consequence.
+  reopen_rule: For a conditional claim, require a source-pinned precommitted
+    calibrated instrument plus material archive, provenance, access, consumer, and
+    no-refit consequence. For an autonomous-interface claim, additionally require
+    source-plus-environment dynamics to select the instrument orbit.
   local_computation_boundary: Exact finite controls close the gate; no scale-up or
     hardware.
   next_action: null
   next_action_ref: null
   canonical_evidence_refs:
   - explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
+  - explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
 - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
   kind: supporting_branch
   owner_repo: dynamic-unity
@@ -467,7 +482,7 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--216 bank Grade-4 holonomy/no-section, interface,
+  current_grade: HC-DU-207--217 bank Grade-4 holonomy/no-section, interface,
     GU/Jacobson, QFT-landing, selector-key, anomaly/domain/ruler, and domain-selector
     regress/minimal-stability boundaries plus Ising response and source/preparation
     controls. No GU source action, complete handoff, unique QFT, or new physics is
@@ -513,6 +528,8 @@ programs:
     evidence_ref: explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
   - id: HC-DU-216
     evidence_ref: explorations/wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md
+  - id: HC-DU-217
+    evidence_ref: explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   remaining_obligations:
   - Reopen only with a different source-pinned action, constraint, or stable interaction
     whose dynamics selects a complete writer-consumer-access-provenance-resource
@@ -560,6 +577,9 @@ programs:
   - type: extracts_from
     target: HC-DU-216
     target_type: result
+  - type: extracts_from
+    target: HC-DU-217
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -580,8 +600,9 @@ programs:
     handoffs survive the same antecedent.
   stop_rule: Stop if action-selected holonomy remains only a latent response invariant;
     do not rename a supplied Wilson, spectral, or QND measurement as selected.
-  reopen_rule: Require a selected complete handoff or a source-owned action-indexed
-    minimal stable antecedent passport that generates its physical candidate class,
+  reopen_rule: Require a complete precommitted prepared handoff for a conditional
+    claim, an autonomously selected handoff for an emergence claim, or a source-owned
+    action-indexed minimal stable antecedent passport that generates its physical candidate class,
     survives premise ablation and benign enlargement, and derives an orbit, response,
     coupling/ruler, region/scale net, and proper QFT/EFT subfamily through non-copy
     constraints. Predictive credit requires no-refit locked-target sharpening or rival
@@ -608,6 +629,7 @@ programs:
   - explorations/physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md
   - explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
   - explorations/wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md
+  - explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -622,11 +644,12 @@ successor_selection:
   - no-ready-successor
   decision_rule: HC-DU-211 is the admission spine; HC-DU-212--213 calibrate copied
     versus non-copy selectors; HC-DU-214 repairs the gate; HC-DU-215 validates stable
-    response selection; and HC-DU-216 admits source-plus-preparation selection while
-    withholding autonomous-regime credit. Require a source-pinned prepared response
-    class plus complete-handoff selection, a materially complete no-section result,
-    or a finite record-conditioned remainder. No DU candidate qualifies; remain
-    quiescent.
+    response selection; HC-DU-216 admits source-plus-preparation selection while
+    withholding autonomous-regime credit; and HC-DU-217 admits a precommitted
+    calibrated instrument for conditional experiments while withholding complete-handoff
+    and autonomous-interface credit. Require a source-pinned prepared response class
+    plus complete-handoff selection, a materially complete no-section result, or a
+    finite record-conditioned remainder. No DU candidate qualifies; remain quiescent.
 anomaly_intake:
   status: open_non_wip
   destination_refs:
