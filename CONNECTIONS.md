@@ -101,6 +101,16 @@ A distinct independently relabelable target requires a selected soldering or
 intertwiner. Do not import a shared `Z2` notation from GU, TaF, TI, or another
 repo as that physical identification.
 
+`HC-DU-221` adds the spinor/twistor interface correction. A spin or twistor
+connection may supply real transport structure, but a central spin sign is
+erased on an isolated projective state and becomes observable only relative to
+a physically preserved reference and phase-sensitive readout. A tetrad,
+spinor/twistor incidence relation, `shiab`-like map, shared representation, or
+matching index notation is not by itself a selected inter-system coupling,
+material transducer, archive, or observer-access interface. Import a GU spinor
+or twistor construction only through the versioned receiver and retain every
+arrow in that ladder as a separate burden.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

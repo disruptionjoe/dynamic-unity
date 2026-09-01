@@ -1,12 +1,13 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 170
+state_revision: 171
 as_of: '2026-09-01'
 authority: Joe direct chat through 2026-09-01 and governed receipts. The latest
-  result composes action-selected holonomy with autonomous handoff parity; a
-  same-fibre return derives the parity, while a distinct independently relabelable
-  target still requires a physical soldering/intertwiner. No implementation-
-  complete public physical packet or scientific successor is ready.
+  result realizes the holonomy/handoff seam with an exact spinor control and typed
+  twistor extension. A connection selects a transport orbit, but a central spin
+  sign is erased on one isolated projective state; coherent reference, phase-
+  sensitive readout, and a material archive remain separate physical interfaces.
+  No implementation-complete public physical packet or scientific successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -76,14 +77,15 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-220 proves that the parity left by HC-DU-219 is not a
-    universal selector bit. Closed-loop transport back into the same physical fibre
-    derives the parity exactly from HC-DU-207 holonomy, and a faithful identity-
-    preserving Z2 action is unique. A handoff into a distinct independently
-    relabelable target still admits two solderings and no covariant selector. Reopen
-    only on a physical candidate that types the handoff as same-fibre, same-bundle
-    path transport, or inter-system transfer with a selected intertwiner. Remain
-    no-ready; response transport is still not a material record interface.
+  decision_note: HC-DU-221 sharpens HC-DU-220 with a spinor/twistor realization.
+    Spin transport supplies a real holonomy orbit, but central minus identity is
+    global phase on one isolated spinor ray. A coherent reference makes that sign
+    relative, and a phase-sensitive recombination/readout makes it observable; neither
+    is selected by the connection alone. Distinct independently framed target carriers
+    still require a physical intertwiner, while material record status additionally
+    requires transduction, write, archive, provenance, access, and use. Reopen only
+    with a concrete action or platform selecting this complete typed chain. Remain
+    no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -100,7 +102,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--220 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--221 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -132,20 +134,25 @@ programs:
     evidence_ref: explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
   - id: HC-DU-220
     evidence_ref: explorations/holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md
+  - id: HC-DU-221
+    evidence_ref: explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
   remaining_obligations:
   - Reopen the conditional physical path only with an implementation-complete
     precommitted handoff containing the admitted attempt census, record lineage,
     controller action, held-out response, archive/access/reset/resource semantics,
     and no-refit target. For autonomous emergence, first type the transfer as a
-    same-fibre return, same-bundle path transport, or inter-system handoff. The
-    last requires a source-pinned law that derives/selects the soldering/intertwiner
-    and target ruler rather than equating printed labels.
+    same-fibre return, same-bundle path transport, or inter-system handoff. A
+    spin/twistor realization must separately type the connection, physical path,
+    endpoint intertwiner, coherent reference or dissipative response, readout, and
+    material archive/access packet. The source-pinned law must derive or select these
+    structures rather than equating printed labels.
   typed_dependencies:
   - type: tests
     target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
     target_type: program
   strongest_absorber: Process, sufficiency, identifiability, detector, instrument,
-    Ising/Gibbs, holonomy, torsor, representation, gauge, dissipative-stabilization,
+    Ising/Gibbs, holonomy, torsor, representation, gauge, spin bundles, projective
+    quantum states, interferometry, twistor incidence, dissipative-stabilization,
     and control theory.
   cheapest_kill: Encodability, target refit, a coarse record, or stability-isospectral
     equivalence with opposite anchored handoff parity supplies no complete selection.
@@ -175,6 +182,7 @@ programs:
   - explorations/prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md
   - explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
   - explorations/holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md
+  - explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -497,7 +505,7 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--218 bank Grade-4 holonomy/no-section, interface,
+  current_grade: HC-DU-207--221 bank Grade-4 holonomy/no-section, interface,
     GU/Jacobson, QFT-landing, selector-key, anomaly/domain/ruler, and domain-selector
     regress/minimal-stability boundaries plus Ising response and source/preparation
     controls. No GU source action, complete handoff, unique QFT, or new physics is
@@ -551,10 +559,13 @@ programs:
     evidence_ref: explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
   - id: HC-DU-220
     evidence_ref: explorations/holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md
+  - id: HC-DU-221
+    evidence_ref: explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
   remaining_obligations:
   - Reopen only with a source-pinned action that physically realizes same-fibre
     return or same-bundle route semantics, derives/selects an inter-system
-    soldering and target ruler, selects a complete writer-consumer-access-
+    intertwiner and target ruler, preserves a reference-relative observable through
+    a selected material transducer, selects a complete writer-consumer-access-
     provenance-resource orbit, or yields a finite no-refit remainder.
   typed_dependencies:
   - type: extracts_from
@@ -611,6 +622,9 @@ programs:
   - type: extracts_from
     target: HC-DU-220
     target_type: result
+  - type: extracts_from
+    target: HC-DU-221
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -620,7 +634,8 @@ programs:
     target_type: external_work
     owner_repo: gu-formalization
   strongest_absorber: Quantum instruments and QND measurement, signed/connection
-    Laplacians, cellular sheaves, gauge holonomy, Landau symmetry breaking,
+    Laplacians, cellular sheaves, gauge and spin holonomy, projective phase,
+    interferometry, Schur intertwiners, local twistor incidence, Landau symmetry breaking,
     equivariant bifurcation, Krein/Witt theory, AQFT relative entropy, Jacobson
     equilibrium response, Wilsonian/curved-spacetime EFT, observability, and consumer
     freedom.
@@ -664,6 +679,7 @@ programs:
   - explorations/prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md
   - explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
   - explorations/holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md
+  - explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -682,12 +698,14 @@ successor_selection:
     withholding autonomous-regime credit; HC-DU-217 admits a precommitted calibrated
     instrument; HC-DU-218 proves the conditional-reconstruction/access-capability/
     fixed-disclosure attribution split; HC-DU-219 internalizes the handoff while
-    proving that stability and spectrum leave an anchored parity free; and HC-DU-220
+    proving that stability and spectrum leave an anchored parity free; HC-DU-220
     derives that parity for a same-fibre holonomy return while isolating soldering as
-    the distinct-target obstruction. Require a physically selected bundle/path or
-    inter-system intertwiner, a physically complete handoff, a materially complete
-    no-section result, or a finite record-conditioned remainder. No DU candidate
-    qualifies; remain quiescent.
+    the distinct-target obstruction; and HC-DU-221 shows that spin transport still
+    needs a physical reference and phase-sensitive readout before central holonomy is
+    observable, plus material transduction/archive/access before it is a record.
+    Require a physically selected bundle/path or inter-system intertwiner, a selected
+    reference-relative material handoff, a materially complete no-section result, or
+    a finite record-conditioned remainder. No DU candidate qualifies; remain quiescent.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

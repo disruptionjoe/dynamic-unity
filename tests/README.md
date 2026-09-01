@@ -5661,3 +5661,35 @@ The artifact is
 distinct-target soldering obstruction only. It proves no physical `Z2`
 substrate, selected material target or record interface, GU transfer,
 issuance, remainder, prediction, or new physics.
+
+## HC-DU-221 spinor/twistor transport and readout boundary
+
+`du_spinor_twistor_transport_readout_boundary_probe.py` realizes the
+holonomy/handoff seam in an exact two-component spinor and coherent-reference
+control. It verifies:
+
+- the three quaternion/Pauli holonomy orbits under a finite octahedral
+  spin-frame shadow;
+- equality of the isolated rays and density operators produced by `+I` and
+  `-I`;
+- perfect `X`-basis path discrimination of those central signs after coherent
+  reference-arm transport;
+- failure of a path `Z` readout to distinguish them;
+- erasure of the distinction after deleting/tracing the reference;
+- no fixed source-target alignment under independent finite spin-frame changes;
+- scalar intertwiner rigidity for maps commuting with the generating `X` and
+  `Z` actions; and
+- preservation of the preceding holonomy/handoff result.
+
+Run:
+
+```bash
+python3 tests/du_spinor_twistor_transport_readout_boundary_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_spinor_twistor_transport_readout_boundary_result.json` and reports
+`15/15`. Passing establishes a scoped Grade-4 transport/projective-erasure/
+interference reopener and typed twistor-to-material boundary only. It proves no
+physical spinor or twistor substrate, selected path, reference, detector,
+archive, GU transfer, issuance, remainder, prediction, or new physics.

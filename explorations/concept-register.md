@@ -8462,3 +8462,31 @@ requires a selected soldering and target ruler. Even the positive return theorem
 selects only a response relation, not a material writer, archive, provenance,
 observer access route, consumer, reset, or public-finality rule. See
 `holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md`.
+
+### 2026-09-01 spinor/twistor transport and material-readout boundary
+
+`HC-DU-221` realizes the `HC-DU-220` seam in the smallest exact spinor control.
+The spin connection and path determine a transport map and holonomy orbit. The
+central returns `+I` and `-I`, however, act as opposite vectors but the same
+isolated projective state and density operator. A coherent path reference turns
+the sign into a relative phase; phase-sensitive recombination and readout make
+it perfectly visible, while which-path readout or reference deletion erases it.
+
+Keep the following ladder typed:
+
+```text
+spin/twistor connection + physical path
+  -> transport and holonomy
+  -> same-bundle endpoint OR selected inter-system intertwiner
+  -> reference-relative observable response
+  -> material transduction, write, archive, provenance, access, and use.
+```
+
+Schur rigidity can reduce same-representation intertwiner freedom to a scalar,
+but the surviving phase is still reference-relative. A tetrad/solder form relates
+geometric carriers; it is not automatically a detector or archive. Likewise,
+twistor incidence joins spinorial and conformal/null geometry without selecting a
+material instrument. Reopen only with one concrete action or platform that
+selects the complete chain and survives gauge quotient, selector deletion, and
+no-refit transfer. See
+`spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md`.

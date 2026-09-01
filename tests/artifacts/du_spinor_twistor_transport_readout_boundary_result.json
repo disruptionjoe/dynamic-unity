@@ -1,0 +1,162 @@
+{
+  "checks": {
+    "central_spinors_are_identical_as_rays": true,
+    "central_spinors_differ_as_vectors": true,
+    "coherent_reference_x_readout_separates_central_sign": true,
+    "finite_spin_frame_shadow_has_24_rotations": true,
+    "hc_du_220_boundary_is_preserved": true,
+    "independent_spin_frames_act_transitively_on_alignments": true,
+    "no_alignment_is_fixed_by_independent_frame_changes": true,
+    "noncentral_pi_holonomies_have_zero_x_visibility_in_control": true,
+    "path_z_readout_does_not_separate_central_sign": true,
+    "pauli_irrep_commutant_is_scalar_in_exact_control": true,
+    "projective_phase_is_erased_without_reference": true,
+    "reference_deletion_erases_central_sign_again": true,
+    "relative_phase_is_visible_with_reference": true,
+    "single_spin_density_erases_central_sign": true,
+    "spin_holonomies_split_into_two_central_and_one_axis_orbit": true
+  },
+  "claim_id": "HC-DU-221",
+  "earned": [
+    "spin transport orbit and central-sign type separation",
+    "projective erasure of isolated central phase",
+    "reference-arm and readout-basis necessity for phase visibility",
+    "distinct-spin-frame intertwiner obstruction",
+    "typed twistor-to-material coupling boundary"
+  ],
+  "exact_pauli_commutant": [
+    "((-1, 0), (0, -1))",
+    "((0, 0), (0, 0))",
+    "((1, 0), (0, 1))"
+  ],
+  "finite_frame_alignment_orbit_size": 4,
+  "not_earned": [
+    "physical selection of a spin/twistor connection or path",
+    "physical selection of a reference arm, recombiner, meter, or archive",
+    "full Lorentzian twistor theory, GU transfer, issuance, remainder, or new physics"
+  ],
+  "passed": 15,
+  "path_z_readout": {
+    "+I": [
+      "1/2",
+      "1/2"
+    ],
+    "+iX": [
+      "1/2",
+      "1/2"
+    ],
+    "+iY": [
+      "1/2",
+      "1/2"
+    ],
+    "+iZ": [
+      "1/2",
+      "1/2"
+    ],
+    "-I": [
+      "1/2",
+      "1/2"
+    ],
+    "-iX": [
+      "1/2",
+      "1/2"
+    ],
+    "-iY": [
+      "1/2",
+      "1/2"
+    ],
+    "-iZ": [
+      "1/2",
+      "1/2"
+    ]
+  },
+  "reference_arm_x_readout": {
+    "+I": [
+      "1",
+      "0"
+    ],
+    "+iX": [
+      "1/2",
+      "1/2"
+    ],
+    "+iY": [
+      "1/2",
+      "1/2"
+    ],
+    "+iZ": [
+      "1/2",
+      "1/2"
+    ],
+    "-I": [
+      "0",
+      "1"
+    ],
+    "-iX": [
+      "1/2",
+      "1/2"
+    ],
+    "-iY": [
+      "1/2",
+      "1/2"
+    ],
+    "-iZ": [
+      "1/2",
+      "1/2"
+    ]
+  },
+  "spin_holonomy_orbits": [
+    [
+      [
+        "center",
+        -1
+      ]
+    ],
+    [
+      [
+        "center",
+        1
+      ]
+    ],
+    [
+      [
+        "axis",
+        -1,
+        0
+      ],
+      [
+        "axis",
+        -1,
+        1
+      ],
+      [
+        "axis",
+        -1,
+        2
+      ],
+      [
+        "axis",
+        1,
+        0
+      ],
+      [
+        "axis",
+        1,
+        1
+      ],
+      [
+        "axis",
+        1,
+        2
+      ]
+    ]
+  ],
+  "total": 15,
+  "twistor_type_boundary": {
+    "carrier": "local twistor Z=(omega^A, pi_A')",
+    "finite_spinor_probe_is_full_twistor_construction": false,
+    "incidence_requires": "spacetime point/soldering data omega^A = i x^{AA'} pi_A'",
+    "material_record_requires": "selected coupling, coherent or dissipative transduction, meter, archive, and access",
+    "transport_requires": "conformal spin/twistor connection and path"
+  },
+  "verdict": "SPIN_TRANSPORT_IS_REAL_BUT_PHASE_VISIBILITY_AND_DISTINCT_TARGET_COUPLING_REQUIRE_INTERFACES"
+}
