@@ -8334,3 +8334,30 @@ response selection without requiring unique microdomain selection; retain
 `NO_READY_SUCCESSOR` until a source-owned passport consequence and complete
 physical handoff exist. See
 `ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md`.
+
+### 2026-08-31 Wilson-Fisher source/preparation/passport factorization
+
+`HC-DU-216` decomposes the upstream Ising passport instead of treating it as
+one supplied object. In the established critical-phenomena chain:
+
+```text
+arena supplies d=3
+  + microscopic Hamiltonian selects short range, scalar order parameter, Z2 sector
+  + physical preparation sets h=0 and tunes temperature/mass to the critical surface
+  + RG washes out irrelevant microdetail and selects the universal response class
+  + bootstrap consistency contracts the fixed-point response island.
+```
+
+The Wilson-Fisher fixed point is not a generic attractor in the full coupling
+space. The thermal/even and magnetic/odd coordinates are relevant. Exact `Z2`
+symmetry and `h=0` remove the odd direction; the even direction requires
+critical tuning. Therefore distinguish a valid conditional claim—what follows
+for an independently prepared critical system—from the stronger unearned claim
+that source dynamics autonomously selects criticality.
+
+The North-Star gate now admits source-plus-preparation packets. Each field must
+be labeled law-selected, symmetry-fixed, prepared, arena-supplied,
+RG-quotiented, response-selected, measured, or fitted. This does not weaken the
+complete-handoff gate: writer, archive, provenance, access, consumer, resource,
+and record-conditioned target comparison remain absent. See
+`wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md`.
