@@ -8270,3 +8270,35 @@ handoff. See
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;
 formalizations are tested; only invariant-level falsification closes a
 concept. This prevents losing an idea to a single articulation.
+
+### 2026-08-31 physical domain-selector tournament and reopener correction
+
+`HC-DU-214` tests five established selector families under one anti-smuggling
+contract: anomalies/cobordism, positivity/bootstrap, locality/factorization,
+RG/UV completion, and variational/action selection. Every family is
+domain-relative. Each can make genuine non-copy selections or force
+substantial response structure, but none selects the complete type of object
+on which it acts.
+
+The result corrects rather than closes `CONCEPT-DU-019`. Requiring a
+source-free selector of language, law, domain, equivalence, and target creates
+an unending type regress and is not a finite physical gate. A compact law
+package may instead generate a candidate class relative to a smaller explicit
+antecedent. The live criterion is now an action-indexed **minimal stable
+antecedent frontier**:
+
+```text
+generated, non-target-curated candidate class
+  + independent non-copy constraints or dynamics
+  + inclusion-minimality by premise ablation
+  + stable locked response under declared benign domain enlargement
+  + explicit physical ruler
+  + separately selected complete handoff before any record claim.
+```
+
+Consistency intersection plus RG universality is the strongest surviving
+architecture because it can stabilize an effective response without uniquely
+selecting inaccessible microphysics. No concrete DU candidate yet clears the
+whole contract, so the concept remains open and the portfolio remains
+`NO_READY_SUCCESSOR`. See
+`physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md`.
