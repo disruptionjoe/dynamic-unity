@@ -5577,3 +5577,29 @@ unlabelled-pairing nonselection, region/scale independence, and imported
 pairing-direction regression. It proves no GU source action, Jacobson-from-GU
 derivation, selected algebra or record interface, generation count, new
 physics, prediction, paper, provider, or hardware result.
+
+## HC-DU-218 prepared-handoff cross-program attribution
+
+`du_prepared_handoff_cross_repo_attribution_probe.py` composes existing DU
+record-formation, returned-shot feedback, and consumer-freedom artifacts with a
+small exact prepared-handoff control. It verifies:
+
+- plural law-only target support and singleton full-record target fibres;
+- failure under a coarse summary or omitted target-relevant nuisance;
+- failure of an outcome label as a source-provenance certificate;
+- consumer freedom under one fixed writer and record;
+- matched producer-consumer relabeling descent and unmatched failure;
+- an explicit access-relative action-menu change; and
+- the continued incompleteness of the Peronnin and Rigetti public packets.
+
+Run:
+
+```bash
+python3 tests/du_prepared_handoff_cross_repo_attribution_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_prepared_handoff_cross_repo_attribution_result.json` and reports
+`13/13`. Passing establishes a scoped Grade-4 attribution theorem and reuse
+closure only. It proves no complete public handoff, autonomous interface,
+source issuance, physical remainder, new prediction, or new physics.

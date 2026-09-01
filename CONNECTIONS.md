@@ -3,7 +3,7 @@ title: "Dynamic Unity — Connections (open, sovereign, self-checking)"
 status: active_research
 doc_type: connections
 created: 2026-07-21
-revised: 2026-07-27
+revised: 2026-09-01
 ---
 
 # Connections — open, sovereign, self-checking
@@ -69,6 +69,22 @@ Repository ownership and scientific dependency are different relations.
 
 This is an `external_dependency`, not a standing blocker on unrelated Dynamic
 Unity research.
+
+## Typed TI–TaF–DU handoff boundary
+
+One physical handoff can support different correct claims without those claims
+being interchangeable. Dynamic Unity tests whether a held-out target factors
+through the complete record under a frozen antecedent. Time as Finality tests
+which actions become available relative to record access and finality. Temporal
+Issuance tests whether the source escapes every admitted pre-action completion.
+
+`HC-DU-218` establishes the reusable rule: conditional target reconstruction
+and an access-relative capability delta may both be positive while the process
+remains fixed-source disclosure, lacks autonomous interface selection, and
+contains no same-record/different-target physical remainder. Import sibling
+fixtures as controls at their native grade; never use a TaF capability result
+as TI source action or a TI non-issuance verdict to erase a DU conditional
+reconstruction.
 
 ## GU theory-payload receiver
 

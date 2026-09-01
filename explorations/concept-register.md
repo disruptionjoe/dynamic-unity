@@ -8385,3 +8385,31 @@ prepared apparatus packet. Claims about autonomous classicality or natural
 observer-interface emergence must derive or dynamically select the interface
 from source-plus-environment dynamics. See
 `prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md`.
+
+### 2026-09-01 prepared-handoff attribution and sibling-computation reuse
+
+`HC-DU-218` composes prior Dynamic Unity, Temporal Issuance, and Time as
+Finality results without identifying their claim types. On a complete
+precommitted prepared handoff, a full record may reconstruct a locked separate
+downstream response exactly. Withholding access may also shrink the consumer's
+action menu. Those are legitimate conditional reconstruction and
+access-relative capability results.
+
+Different finite labels do not prove anti-copy independence. The stronger
+credit still requires a physically precommitted consumer and no-refit transfer.
+
+The same finite process remains fixed-source disclosure under TI because no
+pre-action family-noncompletion rule is present. It does not earn autonomous
+interface selection, and plural target support before conditioning is not a
+physical remainder when every full-record fibre has a singleton target image.
+A coarse summary, omitted target-relevant nuisance, or record treated as source
+provenance fails the corresponding factorization.
+
+The Peronnin and Rigetti/Riverlane packets already realize complementary
+physical arrows: the former forms and exposes a one-run trace without
+outcome-conditioned actuation; the latter joins returned-shot record, decoder,
+action, timing, and response data without an all-attempt/controller/archive
+census. Do not rebuild this locally. Reopen the conditional physical path only
+with a materially more complete precommitted packet and locked no-refit target.
+See
+`prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md`.

@@ -1,0 +1,138 @@
+{
+  "access_control": {
+    "classification": "EXPLICIT_ACCESS_RESOURCE_CAPABILITY_DELTA",
+    "with_record_access": [
+      "idle",
+      "phase_kick"
+    ],
+    "without_record_access": [
+      "idle"
+    ]
+  },
+  "checks": {
+    "access_changes_action_menu": true,
+    "coarse_summary_fails": true,
+    "consumer_is_not_selected_by_writer": true,
+    "fixed_source_has_no_preaction_noncompletion": true,
+    "full_record_reconstructs_locked_downstream_target": true,
+    "law_only_image_is_plural": true,
+    "matched_relabeling_descends": true,
+    "omitted_nuisance_fails": true,
+    "prior_exact_consumer_freedom_reused": true,
+    "record_label_is_not_source_provenance": true,
+    "rigetti_packet_lacks_implementation_completeness": true,
+    "sequential_packet_lacks_feedback": true,
+    "unmatched_relabeling_changes_response": true
+  },
+  "checks_passed": 13,
+  "claim_id": "HC-DU-218",
+  "cross_program_attribution": {
+    "autonomous_interface_selection": "NOT_EARNED",
+    "dynamic_unity_conditional_reconstruction": "EARNED_IN_EXACT_PREPARED_HANDOFF_CONTROL",
+    "physical_remainder": "NOT_EARNED_BY_UNCONDITIONED_BRANCH_UNCERTAINTY",
+    "temporal_issuance_source_action": "FIXED_SOURCE_DISCLOSURE_NOT_ISSUANCE",
+    "time_as_finality_capability": "ACCESS_RELATIVE_AND_EXPLICIT_RESOURCE_CONDITIONAL"
+  },
+  "earned": [
+    "exact prepared-handoff target-factorization positive control",
+    "exact coarse-record, hidden-nuisance, and provenance kills",
+    "exact access-relative capability and fixed-source attribution split",
+    "reuse closure over existing DU trace, feedback, and consumer computations",
+    "cross-program claim separation without sibling-repository mutation"
+  ],
+  "kill_controls": {
+    "consumer_signatures": {
+      "blind_high": [
+        5,
+        5
+      ],
+      "blind_low": [
+        2,
+        2
+      ],
+      "locked": [
+        2,
+        5
+      ],
+      "swapped": [
+        5,
+        2
+      ]
+    },
+    "hidden_nuisance_target_images": {
+      "0": [
+        2,
+        3
+      ],
+      "1": [
+        5,
+        6
+      ]
+    },
+    "matched_response": [
+      2,
+      5
+    ],
+    "provenance_source_images": {
+      "0": [
+        0,
+        1
+      ],
+      "1": [
+        0,
+        1
+      ]
+    },
+    "unmatched_response": [
+      5,
+      2
+    ]
+  },
+  "not_earned": [
+    "a complete public physical handoff packet",
+    "autonomous natural-interface selection",
+    "Temporal Issuance source action",
+    "a physical remainder or new quantum prediction",
+    "new physics, ontology priority, or a ready scientific successor"
+  ],
+  "physical_packet_reuse": {
+    "new_detector_build_needed_for_this_attribution": false,
+    "peronnin": "PHYSICAL_TRACE_AND_ACCESS_WITHOUT_OUTCOME_CONDITIONED_ACTION_OR_COMPLETE_PACKET",
+    "rigetti": "RETURNED_SHOT_RECORD_ACTION_RESPONSE_WITHOUT_ALL_ATTEMPT_CONTROLLER_ARCHIVE_COMPLETENESS"
+  },
+  "prepared_handoff_positive_control": {
+    "anti_copy_independence_earned": false,
+    "coarse_summary_target_images": {
+      "summary": [
+        2,
+        5
+      ]
+    },
+    "law_preparation_instrument_consumer_target_image": [
+      2,
+      5
+    ],
+    "literal_record_copy": false,
+    "record_alphabet": [
+      0,
+      1
+    ],
+    "record_conditioned_target_images": {
+      "0": [
+        2
+      ],
+      "1": [
+        5
+      ]
+    },
+    "target_alphabet": [
+      2,
+      5
+    ],
+    "target_constant_on_coarse_summary_fibres": false,
+    "target_constant_on_full_record_fibres": true
+  },
+  "run_id": "RUN-20260901-prepared-handoff-attribution-and-cross-repo-reuse",
+  "status": "PASS",
+  "verdict": "A_COMPLETE_PREPARED_HANDOFF_CAN_EARN_CONDITIONAL_RECONSTRUCTION_WHILE_REMAINING_EXPLICIT_ACCESS_RESOURCE_CAPABILITY_AND_FIXED_SOURCE_DISCLOSURE; EXISTING_PUBLIC_SPECIMENS_REMAIN_INCOMPLETE; NO_REDUNDANT_REBUILD"
+}
