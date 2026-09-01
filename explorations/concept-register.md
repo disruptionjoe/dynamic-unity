@@ -3,7 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
-revised: 2026-08-31
+revised: 2026-09-01
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -8413,3 +8413,31 @@ census. Do not rebuild this locally. Reopen the conditional physical path only
 with a materially more complete precommitted packet and locked no-refit target.
 See
 `prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md`.
+
+### 2026-09-01 autonomous stable handoff and anchored-parity boundary
+
+`HC-DU-219` internalizes the binary writer and consumer rather than choosing a
+downstream policy after the record forms. Every asynchronous local-correction
+path reaches one absorbing matched handoff for each fixed source and action.
+That earns autonomous relation formation relative to the action.
+
+The record label itself remains gauge: flipping the record and both adjacent
+coupling signs changes no complete response. After that quotient, however, the
+product of the two signs survives as one source-to-target handoff parity. All
+four actions have the same path-length profile and the same classical and
+three-qubit spectrum. Stability, gap, convergence, and spectrum therefore do
+not select the parity.
+
+Keep the target-anchor fork explicit. If a target ruler is independently fixed,
+opposite parities are distinct physical response classes. If the target ruler
+and every target observable co-transform, the two classes are gauge. A fixed
+action may conditionally select one class, but the selector is merely relocated
+unless the action derives the cross-boundary parity rather than naming it.
+
+The 2026 Irfan et al. autonomous remote-entanglement experiment supplies a
+physical positive control for engineered distributed steady-relation formation.
+It does not select its own chiral coupling, drive, target symmetry, tomography,
+or complete record handoff. Reopen only with a source-pinned derivation of an
+anchored parity/holonomy, a proof that the target anchor is gauge, or a complete
+material handoff. See
+`autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md`.

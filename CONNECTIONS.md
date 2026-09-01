@@ -86,6 +86,14 @@ fixtures as controls at their native grade; never use a TaF capability result
 as TI source action or a TI non-issuance verdict to erase a DU conditional
 reconstruction.
 
+`HC-DU-219` adds the autonomous-interaction correction. A local writer and
+consumer may converge to a stable matched handoff without external
+measurement-conditioned control, yet stability and spectrum can still leave a
+gauge-invariant source-to-target parity free. Import dissipative or reservoir-
+engineering experiments as positive controls for conditional formation, not as
+proof that the target symmetry, target ruler, record archive, or observer
+interface selected itself.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

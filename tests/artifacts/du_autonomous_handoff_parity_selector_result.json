@@ -1,0 +1,200 @@
+{
+  "checks": {
+    "all_asynchronous_paths_terminate": true,
+    "all_sign_choices_are_isospectral": true,
+    "all_sign_choices_share_convergence_profile": true,
+    "diagonal_quantum_embedding_preserves_boundary": true,
+    "exact_record_target_correlation": true,
+    "exact_source_record_correlation": true,
+    "exact_source_target_parity_response": true,
+    "fixed_action_selects_only_conditionally": true,
+    "handoff_parity_constant_on_record_gauge_orbits": true,
+    "record_label_gauge_leaves_two_orbits": true,
+    "selector_key_relocates_unless_parity_is_derived": true,
+    "stability_does_not_select_handoff_parity": true,
+    "target_relabel_collapses_orbits_only_when_admitted_as_gauge": true,
+    "unique_absorbing_handoff_per_source_and_action": true
+  },
+  "claim_boundaries": {
+    "earned": [
+      "conditional autonomous formation of a matched binary handoff",
+      "record-label gauge quotient",
+      "gauge-invariant handoff parity",
+      "stability/ispectral nonselection of handoff parity",
+      "target-anchor gauge-versus-physical fork"
+    ],
+    "not_earned": [
+      "universal autonomous-interface no-go",
+      "derivation of the coupling signs or target ruler",
+      "noncommuting quantum effect",
+      "source provenance, archive, observer access, or public finality",
+      "issuance, physical remainder, or new law of nature"
+    ]
+  },
+  "claim_id": "HC-DU-219",
+  "convergence": {
+    "a=-1,b=-1": {
+      "absorbing_state_by_source": {
+        "-1": [
+          -1,
+          1,
+          -1
+        ],
+        "1": [
+          1,
+          -1,
+          1
+        ]
+      },
+      "all_path_length_histogram": {
+        "0": 2,
+        "1": 4,
+        "2": 2,
+        "3": 2
+      },
+      "handoff_parity": 1
+    },
+    "a=-1,b=1": {
+      "absorbing_state_by_source": {
+        "-1": [
+          -1,
+          1,
+          1
+        ],
+        "1": [
+          1,
+          -1,
+          -1
+        ]
+      },
+      "all_path_length_histogram": {
+        "0": 2,
+        "1": 4,
+        "2": 2,
+        "3": 2
+      },
+      "handoff_parity": -1
+    },
+    "a=1,b=-1": {
+      "absorbing_state_by_source": {
+        "-1": [
+          -1,
+          -1,
+          1
+        ],
+        "1": [
+          1,
+          1,
+          -1
+        ]
+      },
+      "all_path_length_histogram": {
+        "0": 2,
+        "1": 4,
+        "2": 2,
+        "3": 2
+      },
+      "handoff_parity": -1
+    },
+    "a=1,b=1": {
+      "absorbing_state_by_source": {
+        "-1": [
+          -1,
+          -1,
+          -1
+        ],
+        "1": [
+          1,
+          1,
+          1
+        ]
+      },
+      "all_path_length_histogram": {
+        "0": 2,
+        "1": 4,
+        "2": 2,
+        "3": 2
+      },
+      "handoff_parity": 1
+    }
+  },
+  "passed": 14,
+  "quantum_transfer": {
+    "common_dimensionless_energy_multiplicities": {
+      "-2": 2,
+      "0": 4,
+      "2": 2
+    },
+    "distinct_diagonal_spectra": 1,
+    "hamiltonian": "-J(a Z_S Z_R + b Z_R Z_T)",
+    "noncommuting_quantum_advantage_claimed": false,
+    "record_flip_conjugation": "X_R: (a,b)->(-a,-b), h unchanged",
+    "target_flip_conjugation": "X_T: (a,b)->(a,-b), h flips"
+  },
+  "record_gauge_orbits": [
+    [
+      [
+        -1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    [
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ]
+    ]
+  ],
+  "record_plus_target_label_orbits": [
+    [
+      [
+        -1,
+        -1
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        1,
+        -1
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  ],
+  "thermal_beta_j_ln_2": {
+    "a=-1,b=-1": {
+      "record_target": "-3/5",
+      "source_record": "-3/5",
+      "source_target": "9/25"
+    },
+    "a=-1,b=1": {
+      "record_target": "3/5",
+      "source_record": "-3/5",
+      "source_target": "-9/25"
+    },
+    "a=1,b=-1": {
+      "record_target": "-3/5",
+      "source_record": "3/5",
+      "source_target": "-9/25"
+    },
+    "a=1,b=1": {
+      "record_target": "3/5",
+      "source_record": "3/5",
+      "source_target": "9/25"
+    }
+  },
+  "total": 14,
+  "verdict": "AUTONOMOUS_MATCHED_HANDOFF_FORMS_BUT_STABILITY_DOES_NOT_SELECT_ANCHORED_PARITY"
+}

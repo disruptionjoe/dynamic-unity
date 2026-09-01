@@ -1,11 +1,12 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 168
+state_revision: 169
 as_of: '2026-09-01'
 authority: Joe direct chat through 2026-09-01 and governed receipts. The latest
-  result composes existing DU, Temporal Issuance, and Time as Finality boundaries
-  into an exact prepared-handoff attribution theorem; no implementation-complete
-  public physical packet or scientific successor is ready.
+  result internalizes the writer-consumer handoff in an autonomous stable binary
+  dynamics and isolates one anchored gauge-invariant parity that stability and
+  spectrum do not select; no implementation-complete public physical packet or
+  scientific successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -75,12 +76,14 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-218 proves that one complete precommitted prepared handoff
-    can earn conditional target reconstruction while the same case remains an
-    explicit access/resource capability delta, fixed-source disclosure rather
-    than issuance, and no autonomous-interface or physical-remainder result.
-    Existing Peronnin and Rigetti packets realize complementary arrows but remain
-    physically incomplete, so avoid a redundant local rebuild and remain no-ready.
+  decision_note: HC-DU-219 proves that autonomous local correction can form one
+    stable matched writer-record-consumer handoff relative to a fixed action. After
+    record-label gauge, one source-to-target parity survives; convergence, stability,
+    and the classical/quantum spectrum do not select it, and whether it is physical
+    depends on an independently fixed target ruler. A 2026 autonomous remote-
+    entanglement experiment is a physical positive control for engineered stable
+    relation formation, not a complete naturally selected record handoff. Remain
+    no-ready and do not build another local feedback toy.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -97,7 +100,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--218 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--219 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -125,20 +128,23 @@ programs:
     evidence_ref: explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   - id: HC-DU-218
     evidence_ref: explorations/prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md
+  - id: HC-DU-219
+    evidence_ref: explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
   remaining_obligations:
   - Reopen the conditional physical path only with an implementation-complete
     precommitted handoff containing the admitted attempt census, record lineage,
     controller action, held-out response, archive/access/reset/resource semantics,
-    and no-refit target. Autonomous-emergence claims must instead derive or
-    dynamically select the interface.
+    and no-refit target. Reopen autonomous emergence only with a source-pinned law
+    that derives the anchored cross-boundary parity/holonomy or proves that the
+    target ruler co-transforms so the residual choice is gauge.
   typed_dependencies:
   - type: tests
     target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
     target_type: program
   strongest_absorber: Process, sufficiency, identifiability, detector, instrument,
-    and control theory.
-  cheapest_kill: Encodability, target refit, or a coarse record with no complete physical
-    packet supplies no prediction.
+    Ising/Gibbs, gauge, dissipative-stabilization, and control theory.
+  cheapest_kill: Encodability, target refit, a coarse record, or stability-isospectral
+    equivalence with opposite anchored handoff parity supplies no complete selection.
   stop_rule: Do not promote response, endpoint invariance, or record formation into
     complete handoff.
   reopen_rule: For a conditional experiment, admit one source-pinned law,
@@ -163,6 +169,7 @@ programs:
   - explorations/wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md
   - explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   - explorations/prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md
+  - explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -175,9 +182,10 @@ programs:
   - CH-FORMAL
   target: Parked after apparatus, stochastic-selector, and prepared-instrument
     selection tests.
-  current_grade: HC-DU-137--152/156/217 bank Grade-4 interface/apparatus selection
-    boundaries, the stochastic-selector correction, and the conditional-prepared
-    versus autonomous-interface distinction.
+  current_grade: HC-DU-137--152/156/217/219 bank Grade-4 interface/apparatus
+    selection boundaries, the stochastic-selector correction, the conditional-
+    prepared versus autonomous-interface distinction, and the autonomous stable-
+    handoff parity/anchor boundary.
   evidence_grade: 4
   maximum_grade: Grade 4 for selection/nonselection; Grade 5 for lawful remainder
     or prediction.
@@ -534,10 +542,13 @@ programs:
     evidence_ref: explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   - id: HC-DU-218
     evidence_ref: explorations/prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md
+  - id: HC-DU-219
+    evidence_ref: explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
   remaining_obligations:
-  - Reopen only with a different source-pinned action, constraint, or stable interaction
-    whose dynamics selects a complete writer-consumer-access-provenance-resource
-    orbit or yields a finite no-refit remainder.
+  - Reopen only with a source-pinned action that derives the anchored cross-boundary
+    parity/holonomy rather than listing it, proves the target ruler co-transforms,
+    selects a complete writer-consumer-access-provenance-resource orbit, or yields
+    a finite no-refit remainder.
   typed_dependencies:
   - type: extracts_from
     target: HC-DU-064
@@ -586,6 +597,9 @@ programs:
     target_type: result
   - type: extracts_from
     target: HC-DU-218
+    target_type: result
+  - type: extracts_from
+    target: HC-DU-219
     target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
@@ -638,6 +652,7 @@ programs:
   - explorations/wilson-fisher-source-action-passport-derivation-and-critical-preparation-boundary-2026-08-31.md
   - explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   - explorations/prepared-handoff-attribution-cross-repo-reuse-and-physical-packet-boundary-2026-09-01.md
+  - explorations/autonomous-handoff-parity-stability-isospectral-nonselection-and-anchor-boundary-2026-09-01.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -654,9 +669,10 @@ successor_selection:
     versus non-copy selectors; HC-DU-214 repairs the gate; HC-DU-215 validates stable
     response selection; HC-DU-216 admits source-plus-preparation selection while
     withholding autonomous-regime credit; HC-DU-217 admits a precommitted calibrated
-    instrument; and HC-DU-218 proves the conditional-reconstruction/access-capability/
-    fixed-disclosure attribution split while finding no implementation-complete public
-    packet. Require a source-pinned prepared response class plus a physically complete
+    instrument; HC-DU-218 proves the conditional-reconstruction/access-capability/
+    fixed-disclosure attribution split; and HC-DU-219 internalizes the handoff while
+    proving that stability and spectrum leave an anchored parity free. Require a
+    source-pinned derivation of that cross-boundary anchor, a physically complete
     handoff, a materially complete no-section result, or a finite record-conditioned
     remainder. No DU candidate qualifies; remain quiescent.
 anomaly_intake:

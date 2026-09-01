@@ -5603,3 +5603,33 @@ The artifact is
 `13/13`. Passing establishes a scoped Grade-4 attribution theorem and reuse
 closure only. It proves no complete public handoff, autonomous interface,
 source issuance, physical remainder, new prediction, or new physics.
+
+## HC-DU-219 autonomous handoff parity and target-anchor boundary
+
+`du_autonomous_handoff_parity_selector_probe.py` exhausts the smallest binary
+source--record--target chain under asynchronous local mismatch correction. It
+verifies:
+
+- termination at one absorbing matched handoff for every initial state and
+  update order;
+- removal of absolute record labels by matched gauge transformation;
+- two surviving handoff-parity orbits relative to a fixed target ruler;
+- collapse to one orbit only when target relabeling is admitted as gauge;
+- identical convergence profiles and classical/three-qubit spectra for all
+  sign choices; and
+- exact Gibbs correlations at `beta J = ln 2`, including
+  `<ST> = ab * 9/25`.
+
+Run:
+
+```bash
+python3 tests/du_autonomous_handoff_parity_selector_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_autonomous_handoff_parity_selector_result.json` and reports
+`14/14`. Passing establishes a scoped Grade-4 autonomous-formation and
+stability-isospectral nonselection boundary only. It proves no universal
+one-bit theorem, derivation of the coupling signs or target ruler,
+noncommuting quantum effect, complete physical record handoff, issuance,
+remainder, new prediction, or new physics.
