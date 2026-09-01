@@ -3,7 +3,7 @@ title: "Dynamic Unity concept register — hold a CONCEPT + its invariant + a FA
 status: active_research
 doc_type: register
 created: 2026-07-22
-revised: 2026-08-28
+revised: 2026-08-31
 note: "Frontier ideas arrive as a CONCEPT before a crisp formalization, and several formalizations may be valid. Testing ONE and killing it must NOT kill the concept — the failure may be of the articulation, not the idea. This register captures each concept + its INVARIANT + a FAMILY of candidate formalizations BEFORE testing any of them, so we test the SET and a 'no' is local. Extends 'a kill gets a defense attorney' and 'falsification vs prioritization' to the concept level."
 ---
 
@@ -8100,6 +8100,27 @@ earned.
 holonomy in one unchanged standard-quantum or finite-gauge realization. A
 supplied Wilson, spectral, or QND instrument is absorption. See
 `action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md`.
+
+## CONCEPT-DU-020 — resource-accountable adversarial finality
+
+- **Concept (articulation-invariant).** Compatible local physical records may
+  acquire a representation-invariant replacement margin as independently
+  accountable physical systems incorporate them. Agreement is compatible
+  reconstruction; finality is the least complete physical resource needed to
+  replace the shared invariant under a frozen intervention class.
+- **Concept INVARIANT.** Pure gauge/decoder change and identity subdivision do
+  not alter finality; independently certified physical incorporation may alter
+  it only through resources charged at every crossed boundary.
+- **Formalization FAMILY.** Energy/action barriers, entropy production and
+  irreversible memory, causal-cut capacity, topological sector change,
+  fault-tolerant code distance, and explicitly typed hybrids.
+- **Current status.** `ANOMALY_INTAKE_NON_WIP / GRADE_0 / CTS-A3_DEPENDENT`.
+  The concept does not select a record interface and cannot run beside
+  `CTS-A3`. A selected material handoff permits successor review; interface
+  ambiguity permits only a non-finality obstruction; latent-response
+  absorption or transfer failure leaves it parked.
+- **Passport.** See
+  `resource-accountable-adversarial-finality-candidate-passport-2026-08-31.md`.
 
 ## Boundary
 
