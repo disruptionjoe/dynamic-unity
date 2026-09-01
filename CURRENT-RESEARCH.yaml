@@ -1,9 +1,10 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 160
+state_revision: 161
 as_of: '2026-08-31'
 authority: Joe direct chat through 2026-08-31 and governed receipts. The latest
-  direction completes the bounded Jacobson/GU pairing bridge; no successor is ready.
+  direction completes the complete-handoff and QFT-landing theorem spine; no physical
+  successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -73,11 +74,12 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-210 proves that fixed regional response is blind to microscopic
-    pairing provenance on equal restrictions. Region and RG scale need a separate
-    source law; GU's 0 -> 2 -> 11 ladder closes that pairing channel at restored
-    `Spin(10)`. EFT absorbs unspecified thresholds. No selected joint net or no-refit
-    remainder exists; remain no-ready.
+  decision_note: HC-DU-211 kills the proposed consolidation as one new irreducible
+    theorem and banks it as an ordered selection/landing spine. Complete-handoff
+    orbit selection is exact fibre constancy plus the stabilizer gate. QFT expressibility
+    is compatibility, not redundancy; source-selected structural restriction and
+    locked-target predictive excess are separate. No physical antecedent selects the
+    complete handoff or a no-refit target remainder; remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -94,8 +96,8 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--205 bank selection, record, Bell, matched-descent, and
-    consumer-action boundaries; no complete handoff is selected.
+  current_grade: HC-DU-165--211 bank selection, record, Bell, matched-descent,
+    consumer-action, and QFT-landing boundaries; no complete handoff is selected.
   evidence_grade: 4
   maximum_grade: Grade 5 requires a selected complete physical packet, lawful discriminator,
     and no-refit transfer; scoped no-section results stop at Grade 4.
@@ -105,9 +107,12 @@ programs:
   completed_dependencies:
   - id: HC-DU-205
     evidence_ref: explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
+  - id: HC-DU-211
+    evidence_ref: explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
   remaining_obligations:
-  - Reopen only with a source-pinned no-refit target and a physically selected complete
-    writer-consumer/access/provenance/resource packet.
+  - Reopen only with a source-pinned complete writer-consumer/access/provenance/resource
+    handoff, or a source-selected proper QFT subfamily that sharpens a locked target
+    without refit.
   typed_dependencies:
   - type: tests
     target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
@@ -127,6 +132,7 @@ programs:
   canonical_evidence_refs:
   - explorations/concept-register.md
   - explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
+  - explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -441,11 +447,12 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--210 bank scoped Grade-4 action selection of a transport
+  current_grade: HC-DU-207--211 bank scoped Grade-4 action selection of a transport
     orbit, holonomy, response spectrum, and spectral PVM; a conditional matched
     luminous orbit; and exact regional no-section, 2+1-coupling, material-interface,
-    regional-entropy provenance, and scale/scope nonselection boundaries. No GU
-    source action, complete record handoff, or new physics is selected.
+    regional-entropy provenance, scale/scope nonselection boundaries, and an ordered
+    complete-handoff/QFT-landing theorem spine. No GU source action, complete record
+    handoff, or new physics is selected.
   evidence_grade: 4
   maximum_grade: Grade 4 for selection or nonselection; Grade 5 only for a later finite
     no-refit residual.
@@ -475,6 +482,8 @@ programs:
     evidence_ref: explorations/gu-k77-trace-reversal-2plus1-luminous-polarization-bridge-and-record-boundary-2026-08-31.md
   - id: HC-DU-210
     evidence_ref: explorations/jacobson-regional-entropy-gu-2plus1-pairing-factorization-and-scale-scope-boundary-2026-08-31.md
+  - id: HC-DU-211
+    evidence_ref: explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
   remaining_obligations:
   - Reopen only with a different source-pinned action, constraint, or stable interaction
     whose dynamics selects a complete writer-consumer-access-provenance-resource
@@ -504,6 +513,9 @@ programs:
   - type: extracts_from
     target: HC-DU-210
     target_type: result
+  - type: extracts_from
+    target: HC-DU-211
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -527,7 +539,9 @@ programs:
   reopen_rule: Require either a different source-pinned complete handoff or a GU-owned
     action deriving the broken orbit, curvature response, and imposter coupling. A
     Jacobson bridge also needs a selected region/scale net, reference, real-form-correct
-    pairing, and response beyond GR plus QFT/EFT. Then demand no-refit transfer.
+    pairing, and source-selected proper GR+QFT/EFT completion subfamily. QFT/EFT
+    expressibility is not a kill; demand locked-target sharpening or rival-excluding
+    response without refit for predictive credit.
   local_computation_boundary: Formal/source comparison and at most one exact finite
     proof control; no simulation, training, provider, or hardware.
   next_action: null
@@ -544,6 +558,7 @@ programs:
   - explorations/action-selected-holonomy-material-record-interface-ambiguity-and-computation-first-stop-2026-08-31.md
   - explorations/gu-k77-trace-reversal-2plus1-luminous-polarization-bridge-and-record-boundary-2026-08-31.md
   - explorations/jacobson-regional-entropy-gu-2plus1-pairing-factorization-and-scale-scope-boundary-2026-08-31.md
+  - explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -556,10 +571,11 @@ successor_selection:
   - minimal-physical-selection-frontier
   - law-record-finite-remainder
   - no-ready-successor
-  decision_rule: HC-DU-209 leaves 2+1 response and record selection independent.
-    HC-DU-210 makes regional response provenance-blind, separates region from scale,
-    and finds EFT absorption. GU supplies no joint selector, complete handoff, or
-    no-refit remainder. Remain quiescent until the reopener is met.
+  decision_rule: HC-DU-211 is the standing admission spine. Require either complete-handoff
+    orbit selection, a materially complete no-section result, a source-selected proper
+    QFT completion subfamily, or locked-target sharpening/excess without refit. QFT
+    expressibility alone neither kills nor promotes a candidate. No candidate meets
+    the physical reopener; remain quiescent.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

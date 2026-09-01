@@ -1,0 +1,127 @@
+{
+  "application_ledger": [
+    {
+      "classification": "RELATIONAL_STRUCTURE_SELECTED_HANDOFF_OPEN",
+      "first_open_field": "instrument/material handoff",
+      "selection": "transport orbit, holonomy, response spectrum and coarse bands",
+      "specimen": "HC-DU-207 action-selected holonomy"
+    },
+    {
+      "classification": "PRODUCER_EFFECT_SELECTED_CONTINUATION_OPEN",
+      "first_open_field": "selective instrument and consumer",
+      "selection": "PVM/effect statistics",
+      "specimen": "HC-DU-208 spectral PVM"
+    },
+    {
+      "classification": "CONDITIONAL_STRUCTURAL_SELECTION_NO_SOURCE_ACTION",
+      "first_open_field": "GU-owned source action and QFT parameter relations",
+      "selection": "matched luminous orbit only under supplied conditional action",
+      "specimen": "HC-DU-209 conditional GU K77 2+1"
+    },
+    {
+      "classification": "QFT_EFT_REPRESENTABLE_NO_PROVENANCE_SELECTION",
+      "first_open_field": "provenance-sensitive joint region-scale source law",
+      "selection": "regional response after region/reference/couplings are fixed",
+      "specimen": "HC-DU-210 Jacobson regional response"
+    }
+  ],
+  "checks": [
+    {
+      "detail": "matched relabelings differ as encoded tuples",
+      "name": "absolute_encoding_is_not_selected",
+      "passed": true
+    },
+    {
+      "detail": "the complete matched pair is constant modulo the declared label gauge",
+      "name": "matched_handoff_orbit_is_selected",
+      "passed": true
+    },
+    {
+      "detail": "producer and consumer co-transform",
+      "name": "matched_relabeling_preserves_closed_response",
+      "passed": true
+    },
+    {
+      "detail": "same source and writer support inequivalent closed response handoffs",
+      "name": "writer_does_not_select_consumer_orbit",
+      "passed": true
+    },
+    {
+      "detail": "record-preserving consumers can implement different continuations",
+      "name": "consumer_freedom_changes_target_response",
+      "passed": true
+    },
+    {
+      "detail": "an independently physical alignment coordinate separates the two fibres",
+      "name": "alignment_premise_repairs_selection",
+      "passed": true
+    },
+    {
+      "detail": "a fixed antecedent cannot equivariantly choose either member of a swapped pair",
+      "name": "stabilizer_without_fixed_candidate_blocks_equivariant_point_selector",
+      "passed": true
+    },
+    {
+      "detail": "the stabilizer test admits a genuinely fixed candidate",
+      "name": "stabilizer_fixed_candidate_is_positive_control",
+      "passed": true
+    },
+    {
+      "detail": "the selected law is inside the incumbent language but the incumbent target fibre was nonconstant",
+      "name": "qft_expressibility_allows_predictive_sharpening",
+      "passed": true
+    },
+    {
+      "detail": "an upstream theory can select a QFT input without sharpening this held-out target",
+      "name": "structural_selection_is_distinct_from_target_excess",
+      "passed": true
+    },
+    {
+      "detail": "the frozen incumbent already predicts the selected target",
+      "name": "constant_incumbent_target_is_predictively_absorbed",
+      "passed": true
+    },
+    {
+      "detail": "the challenger target lies outside the frozen incumbent target image",
+      "name": "outside_incumbent_target_is_rival_excluding",
+      "passed": true
+    },
+    {
+      "detail": "target reveal cannot be used to choose the successful completion",
+      "name": "after_fact_selection_gets_no_credit",
+      "passed": true
+    },
+    {
+      "detail": "a resolving channel retains the target difference",
+      "name": "resolving_readout_preserves_raw_excess",
+      "passed": true
+    },
+    {
+      "detail": "parity identifies two distinct raw predictions",
+      "name": "coarse_readout_can_erase_raw_excess",
+      "passed": true
+    },
+    {
+      "detail": "all 16 deterministic producer-consumer pairs preserve closed response under matched swap",
+      "name": "matched_descent_exhaustive_over_binary_handoffs",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-211",
+  "run_id": "RUN-20260831-complete-handoff-selection-landing-spine",
+  "schema_version": "dynamic-unity/complete-handoff-selection-landing/v0.1",
+  "summary": {
+    "maximum_grade": 4,
+    "ordered_theorem_spine": true,
+    "passed": 16,
+    "single_new_mathematical_theorem": false,
+    "total": 16
+  },
+  "theorem_parts": [
+    "selection_up_to_physical_gauge_is_fibre_factorization",
+    "equivariant_point_selection_requires_stabilizer_fixed_candidate",
+    "matched_label_descent_does_not_remove_complete_handoff_duties",
+    "qft_expressibility_is_distinct_from_structural_and_predictive_absorption",
+    "readout_can_preserve_or_erase_but_not_create_raw_excess"
+  ]
+}

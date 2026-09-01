@@ -8170,9 +8170,36 @@ selector of family label, algebra, reference state, record instrument, or
 observer. Ordinary Wilsonian/curved-spacetime EFT absorbs unspecified heavy
 pair contributions through thresholds and renormalized gravitational/matter
 couplings. Reopen only with a GU-owned action selecting the bivariate
-region/scale net, reference, real-form-correct pairing scale/coupling, and one
-regulator-robust no-refit response beyond GR plus QFT/EFT. See
+region/scale net, reference, real-form-correct pairing scale/coupling, and a
+proper frozen GR+QFT/EFT completion subfamily. QFT/EFT expressibility is
+healthy compatibility; predictive credit additionally requires locked-target
+sharpening or rival exclusion without refit. See
 `jacobson-regional-entropy-gu-2plus1-pairing-factorization-and-scale-scope-boundary-2026-08-31.md`.
+
+### 2026-08-31 complete-handoff selection and QFT-landing spine
+
+`HC-DU-211` orders the banked factorization, stabilizer, matched-descent,
+consumer-freedom, and predictive-absorption results into one admission spine.
+For lawful completions `M`, target-blind antecedent `a`, complete handoff `xi`,
+and physical orbit map `q`, the handoff is selected up to gauge exactly when
+`ker(a) <= ker(q o xi)`. Equivariant point selection also requires a fixed
+point under the antecedent stabilizer. A formed writer or matched internal
+relabeling still does not select the consumer, archive, provenance, access, or
+resource envelope.
+
+The proposed consolidation is not one new irreducible mathematical theorem:
+its components are absorbed by factorization/sufficiency, homogeneous-space
+selection, quantum instruments/combs, data processing, system identification,
+and QFT matching. Its durable value is the ordered fail-closed classifier.
+
+The landing correction is load-bearing. An upstream construction landing
+inside QFT is compatible, not thereby redundant. A target-blind proper subset
+of a frozen incumbent QFT completion family earns structural selection. It
+earns predictive sharpening only when the held-out target image contracts;
+an outside value is rival-excluding excess; an after-result fit earns nothing.
+The unchanged DU/GU application finds no source-selected complete handoff or
+locked-target remainder, so the portfolio remains `no_ready`. See
+`complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md`.
 
 
 ## CONCEPT-DU-020 — resource-accountable adversarial finality

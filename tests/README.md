@@ -4,6 +4,25 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-211 complete-handoff selection and QFT landing spine
+
+`du_complete_handoff_selection_landing_probe.py` exhausts all sixteen
+deterministic binary producer-consumer handoffs and checks matched-label gauge
+descent, consumer freedom, an independently fixed alignment repair, stabilizer
+failure and positive controls, five QFT-landing classifications, and readout
+preservation/erasure. Run:
+
+```bash
+python3 tests/du_complete_handoff_selection_landing_probe.py --write-artifact
+```
+
+The deterministic artifact is
+`artifacts/du_complete_handoff_selection_landing_result.json` and reports
+`16/16`. Passing validates only the finite proof boundaries of the ordered
+admission spine. It does not establish a physical selector, new mathematical
+theorem, QFT parameter, GU transfer, new physics, prediction, paper, provider,
+or hardware result.
+
 ## HC-DU-209 GU-K77 luminous-polarization bridge
 
 `du_gu_k77_luminous_polarization_bridge_probe.py` keeps the K77 W/mirror
