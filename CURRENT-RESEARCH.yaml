@@ -1,10 +1,11 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 164
+state_revision: 165
 as_of: '2026-08-31'
 authority: Joe direct chat through 2026-08-31 and governed receipts. The latest
-  result closes the source-free domain-selector reading and replaces it with an
-  action-indexed minimal-stable-antecedent gate; no physical successor is ready.
+  result validates the repaired minimal-stable-antecedent gate on the 3D Ising
+  bootstrap/RG success case while leaving passport and handoff selection open;
+  no physical successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -74,12 +75,11 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-214 finds that five established physical-selection families
-    are domain-relative and that demanding source-free domain selection is an ill-typed
-    regress. Reopen with an action-indexed minimal antecedent frontier that generates
-    its candidate class, survives premise ablation and benign enlargement, and sharpens
-    a locked ruler-complete target without refit; complete handoff selection remains
-    separately required. No candidate qualifies, so remain no-ready.
+  decision_note: HC-DU-215 validates HC-DU-214's repaired gate on the 3D Ising
+    bootstrap/RG success case. A compact passport plus non-copy consistency
+    intersections selects a stable universal response island across distinct
+    microdomains, but the passport and complete material handoff remain unselected.
+    No DU candidate clears both boundaries, so remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -96,9 +96,9 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--214 bank selection, handoff, QFT-landing, selector-key,
-    candidate-domain/ruler, and minimal-stable-antecedent boundaries; no complete
-    handoff is selected.
+  current_grade: HC-DU-165--215 bank selection, handoff, QFT-landing, selector-key,
+    candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
+    boundaries; no complete handoff is selected.
   evidence_grade: 4
   maximum_grade: Grade 5 requires a selected complete physical packet, lawful discriminator,
     and no-refit transfer; scoped no-section results stop at Grade 4.
@@ -116,6 +116,8 @@ programs:
     evidence_ref: explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
   - id: HC-DU-214
     evidence_ref: explorations/physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md
+  - id: HC-DU-215
+    evidence_ref: explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
   remaining_obligations:
   - Reopen with a selected complete handoff, or an action-indexed inclusion-minimal
     antecedent passport that generates rather than target-curates its candidate class,
@@ -147,6 +149,7 @@ programs:
   - explorations/qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md
   - explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
   - explorations/physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md
+  - explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -461,10 +464,11 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--214 bank Grade-4 holonomy/no-section, interface,
+  current_grade: HC-DU-207--215 bank Grade-4 holonomy/no-section, interface,
     GU/Jacobson, QFT-landing, selector-key, anomaly/domain/ruler, and domain-selector
-    regress/minimal-stability boundaries. No GU source action, complete handoff,
-    unique QFT, or new physics is selected.
+    regress/minimal-stability boundaries plus an Ising response-selection positive
+    control. No GU source action, complete handoff, unique QFT, or new physics is
+    selected.
   evidence_grade: 4
   maximum_grade: Grade 4 for selection or nonselection; Grade 5 only for a later finite
     no-refit residual.
@@ -502,6 +506,8 @@ programs:
     evidence_ref: explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
   - id: HC-DU-214
     evidence_ref: explorations/physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md
+  - id: HC-DU-215
+    evidence_ref: explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
   remaining_obligations:
   - Reopen only with a different source-pinned action, constraint, or stable interaction
     whose dynamics selects a complete writer-consumer-access-provenance-resource
@@ -542,6 +548,9 @@ programs:
     target_type: result
   - type: extracts_from
     target: HC-DU-214
+    target_type: result
+  - type: extracts_from
+    target: HC-DU-215
     target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
@@ -589,6 +598,7 @@ programs:
   - explorations/qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md
   - explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
   - explorations/physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md
+  - explorations/ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -602,12 +612,12 @@ successor_selection:
   - law-record-finite-remainder
   - no-ready-successor
   decision_rule: HC-DU-211 is the admission spine; HC-DU-212--213 calibrate copied
-    versus non-copy selectors; HC-DU-214 replaces source-free domain selection with
-    an action-indexed minimal-stable-antecedent frontier. Require complete-handoff
-    selection, a materially complete no-section result, or a generated candidate class
-    that passes premise ablation and benign enlargement and yields non-copy,
-    ruler-complete, no-refit target sharpening. No candidate qualifies; remain
-    quiescent.
+    versus non-copy selectors; HC-DU-214 repairs the gate; and HC-DU-215 proves that
+    compact passport plus consistency intersection and RG universality can select a
+    stable response without unique microdomain selection. Require a source-owned
+    passport consequence plus complete-handoff selection, a materially complete
+    no-section result, or a finite record-conditioned remainder. No DU candidate
+    qualifies; remain quiescent.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

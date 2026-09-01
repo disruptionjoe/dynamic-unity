@@ -8302,3 +8302,35 @@ selecting inaccessible microphysics. No concrete DU candidate yet clears the
 whole contract, so the concept remains open and the portfolio remains
 `NO_READY_SUCCESSOR`. See
 `physical-domain-selector-falsification-tournament-and-minimal-stable-antecedent-boundary-2026-08-31.md`.
+
+### 2026-08-31 3D Ising minimal-stable-antecedent positive control
+
+`HC-DU-215` validates the repaired gate on an established success case. The
+unitary three-dimensional `Z2` CFT passport generates an infinite candidate
+class. Identical and mixed-correlator crossing, unitarity, relevant-spectrum
+gaps, and a single-operator/OPE-ratio condition then contract the allowed
+response from a corner to a closed island to a precision island without
+copying the critical dimensions or exponents into the selector.
+
+Increasing the bootstrap functional cutoff contracts the island approximately
+self-similarly. Independent Ising and Blume-Capel lattice Hamiltonians converge
+on the same universal critical exponents after corrections to scaling are
+controlled. This is the positive pattern Dynamic Unity was missing:
+
+```text
+compact supplied passport
+  + generated infinite class
+  + independent non-copy consistency intersection
+  + numerical-enrichment stability
+  + RG microdomain quotient
+  -> stable ruler-complete dimensionless response island.
+```
+
+The control does not select the passport, prove absolute inclusion-minimality,
+or form a material record. Dimension, symmetry, relevant-spectrum class,
+material-class identification, writer, archive, provenance, access, consumer,
+and resource horizon remain separate antecedents. Credit stable universal
+response selection without requiring unique microdomain selection; retain
+`NO_READY_SUCCESSOR` until a source-owned passport consequence and complete
+physical handoff exist. See
+`ising-bootstrap-rg-minimal-stable-antecedent-positive-control-2026-08-31.md`.
