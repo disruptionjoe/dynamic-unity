@@ -1,10 +1,9 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 159
+state_revision: 160
 as_of: '2026-08-31'
 authority: Joe direct chat through 2026-08-31 and governed receipts. The latest
-  direction authorizes and completes the bounded GU K77 luminous-polarization bridge
-  audit; no scientific successor is ready.
+  direction completes the bounded Jacobson/GU pairing bridge; no successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -74,14 +73,11 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-209 corrects the live GU carrier to K77 (7,7), separates
-    trace reversal, W/mirror grading, 2+1 origin, chirality, luminous status, and
-    material records, and proves a conditional matched-luminous-orbit theorem. A
-    source-owned odd order parameter could select "vacuum-aligned half is luminous"
-    without selecting an absolute half, but current GU does not yet derive that
-    parameter, its broken stationary orbit, curvature law, or imposter coupling.
-    Even a selected luminous projector leaves the HC-DU-208 material-interface
-    ambiguity intact. The portfolio remains explicitly no-ready.
+  decision_note: HC-DU-210 proves that fixed regional response is blind to microscopic
+    pairing provenance on equal restrictions. Region and RG scale need a separate
+    source law; GU's 0 -> 2 -> 11 ladder closes that pairing channel at restored
+    `Spin(10)`. EFT absorbs unspecified thresholds. No selected joint net or no-refit
+    remainder exists; remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -445,11 +441,11 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--209 bank scoped Grade-4 action selection of a transport
+  current_grade: HC-DU-207--210 bank scoped Grade-4 action selection of a transport
     orbit, holonomy, response spectrum, and spectral PVM; a conditional matched
-    luminous orbit; and exact regional no-section, 2+1-coupling, and material-interface
-    nonselection boundaries. No GU source action, complete record handoff, or new
-    physics is selected.
+    luminous orbit; and exact regional no-section, 2+1-coupling, material-interface,
+    regional-entropy provenance, and scale/scope nonselection boundaries. No GU
+    source action, complete record handoff, or new physics is selected.
   evidence_grade: 4
   maximum_grade: Grade 4 for selection or nonselection; Grade 5 only for a later finite
     no-refit residual.
@@ -477,6 +473,8 @@ programs:
     evidence_ref: explorations/action-selected-holonomy-material-record-interface-ambiguity-and-computation-first-stop-2026-08-31.md
   - id: HC-DU-209
     evidence_ref: explorations/gu-k77-trace-reversal-2plus1-luminous-polarization-bridge-and-record-boundary-2026-08-31.md
+  - id: HC-DU-210
+    evidence_ref: explorations/jacobson-regional-entropy-gu-2plus1-pairing-factorization-and-scale-scope-boundary-2026-08-31.md
   remaining_obligations:
   - Reopen only with a different source-pinned action, constraint, or stable interaction
     whose dynamics selects a complete writer-consumer-access-provenance-resource
@@ -503,24 +501,33 @@ programs:
   - type: extracts_from
     target: HC-DU-209
     target_type: result
+  - type: extracts_from
+    target: HC-DU-210
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
     owner_repo: gu-formalization
+  - type: external_dependency
+    target: GU-K77-REGION-SCALE-ENTROPY-RESPONSE
+    target_type: external_work
+    owner_repo: gu-formalization
   strongest_absorber: Quantum instruments and QND measurement, signed/connection
     Laplacians, cellular sheaves, gauge holonomy, Landau symmetry breaking,
-    equivariant bifurcation, Krein/Witt theory, observability, and consumer freedom.
+    equivariant bifurcation, Krein/Witt theory, AQFT relative entropy, Jacobson
+    equilibrium response, Wilsonian/curved-spacetime EFT, observability, and consumer
+    freedom.
   cheapest_kill: The order parameter, broken stationary orbit, curvature law,
-    imposter coupling, instrument, material archive, observer/access boundary, or
-    consumer is supplied; or two inequivalent complete handoffs survive the same
-    antecedent.
+    imposter coupling, region/scale algebra net, reference state, instrument, material
+    archive, observer/access boundary, or consumer is supplied; the response factors
+    only through regional state or ordinary EFT couplings; or two inequivalent complete
+    handoffs survive the same antecedent.
   stop_rule: Stop if action-selected holonomy remains only a latent response invariant;
     do not rename a supplied Wilson, spectral, or QND measurement as selected.
-  reopen_rule: After absorption, require either a different source-pinned invariant
-    whose dynamics selects a complete writer-consumer/access/provenance/resource
-    orbit or a GU-owned full source-action packet deriving the odd order parameter,
-    broken stationary orbit, curvature response, and imposter coupling; then demand
-    a no-refit finite remainder or complete handoff.
+  reopen_rule: Require either a different source-pinned complete handoff or a GU-owned
+    action deriving the broken orbit, curvature response, and imposter coupling. A
+    Jacobson bridge also needs a selected region/scale net, reference, real-form-correct
+    pairing, and response beyond GR plus QFT/EFT. Then demand no-refit transfer.
   local_computation_boundary: Formal/source comparison and at most one exact finite
     proof control; no simulation, training, provider, or hardware.
   next_action: null
@@ -536,6 +543,7 @@ programs:
   - explorations/action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md
   - explorations/action-selected-holonomy-material-record-interface-ambiguity-and-computation-first-stop-2026-08-31.md
   - explorations/gu-k77-trace-reversal-2plus1-luminous-polarization-bridge-and-record-boundary-2026-08-31.md
+  - explorations/jacobson-regional-entropy-gu-2plus1-pairing-factorization-and-scale-scope-boundary-2026-08-31.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -548,14 +556,10 @@ successor_selection:
   - minimal-physical-selection-frontier
   - law-record-finite-remainder
   - no-ready-successor
-  decision_rule: CTS-A3 returned exact interface ambiguity and known-theory absorption.
-    HC-DU-209 shows conditionally how K77 could select a matched luminous orbit while
-    proving that 2+1 response and record selection remain independent. Current GU
-    does not yet supply the full action, stationary vacuum, odd order parameter,
-    curvature law, or derived imposter coupling required to activate that bridge.
-    No current candidate selects the complete material handoff or a finite no-refit
-    remainder. Remain quiescent until an explicit reopener changes that dependency;
-    other programs remain parked.
+  decision_rule: HC-DU-209 leaves 2+1 response and record selection independent.
+    HC-DU-210 makes regional response provenance-blind, separates region from scale,
+    and finds EFT absorption. GU supplies no joint selector, complete handoff, or
+    no-refit remainder. Remain quiescent until the reopener is met.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

@@ -5486,3 +5486,31 @@ Laplacians, cellular sheaves, gauge holonomy, equivariance, observability, and
 quadratic quantization absorb the component mathematics. It proves no
 material record, observer, public finality, metric, universal no-go, new
 physics, empirical prediction, paper, or hardware result.
+
+## HC-DU-210 Jacobson regional-entropy / GU `2+1` pairing boundary
+
+`du_jacobson_regional_entropy_pairing_bridge_probe.py` executes four exact
+controls for the regional-entropy bridge:
+
+- orthogonal Bell completions with the same regional state and opposite global
+  target;
+- three distinct one-of-three removal embeddings with the same entropy
+  spectrum and permutation-invariant response;
+- two joint region/scale laws with identical one-axis marginals and opposite
+  mixed parity; and
+- the imported GU `0 -> 2 -> 11` invariant-pairing direction from high to
+  lower symmetry.
+
+Run:
+
+```bash
+python3 tests/du_jacobson_regional_entropy_pairing_bridge_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_jacobson_regional_entropy_pairing_bridge_result.json` and reports
+`16/16`. Passing establishes only the scoped regional-response factorization,
+unlabelled-pairing nonselection, region/scale independence, and imported
+pairing-direction regression. It proves no GU source action, Jacobson-from-GU
+derivation, selected algebra or record interface, generation count, new
+physics, prediction, paper, provider, or hardware result.

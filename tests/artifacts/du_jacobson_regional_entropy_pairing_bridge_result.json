@@ -1,0 +1,144 @@
+{
+  "all_passed": true,
+  "checks": [
+    {
+      "detail": "the two Bell purifications are perfectly distinguishable globally",
+      "name": "global_completions_are_orthogonal",
+      "passed": true
+    },
+    {
+      "detail": "both global completions restrict to I/2 on the admitted region",
+      "name": "regional_restrictions_are_identical",
+      "passed": true
+    },
+    {
+      "detail": "the regional state has unit trace",
+      "name": "regional_normalization_is_exact",
+      "passed": true
+    },
+    {
+      "detail": "a fixed regional response gives the same value on equal restrictions",
+      "name": "regional_modular_response_is_provenance_blind",
+      "passed": true
+    },
+    {
+      "detail": "an enlarged algebra distinguishes the hidden relative phase",
+      "name": "global_witness_retains_provenance",
+      "passed": true
+    },
+    {
+      "detail": "same regional state does not reconstruct the global completion target",
+      "name": "regional_factorization_has_a_nonzero_remainder",
+      "passed": true
+    },
+    {
+      "detail": "each normalized post-pairing state has rank-two support and unit trace",
+      "name": "each_pairing_choice_leaves_two_slots",
+      "passed": true
+    },
+    {
+      "detail": "all three removal choices have the same spectrum and entropy log(2)",
+      "name": "pairing_choice_has_common_entropy_spectrum",
+      "passed": true
+    },
+    {
+      "detail": "the invariant I/J response agrees for all three unlabelled pairings",
+      "name": "permutation_invariant_response_cannot_name_removed_family",
+      "passed": true
+    },
+    {
+      "detail": "which family was removed remains different on a family-sensitive algebra",
+      "name": "microscopic_pairing_embeddings_are_distinct",
+      "passed": true
+    },
+    {
+      "detail": "the two region marginals agree exactly",
+      "name": "regional_marginals_match_across_joint_completions",
+      "passed": true
+    },
+    {
+      "detail": "the two energy-scale marginals agree exactly",
+      "name": "scale_marginals_match_across_joint_completions",
+      "passed": true
+    },
+    {
+      "detail": "equal one-axis data admit opposite mixed region-scale targets",
+      "name": "region_scale_coupling_is_not_fixed_by_marginals",
+      "passed": true
+    },
+    {
+      "detail": "the imported high-symmetry pairing invariant vanishes",
+      "name": "gu_pairing_is_absent_at_highest_symmetry",
+      "passed": true
+    },
+    {
+      "detail": "the imported invariant count grows down the symmetry-breaking chain",
+      "name": "gu_pairing_appears_after_symmetry_lowering",
+      "passed": true
+    },
+    {
+      "detail": "the invariant pairing channel vanishes at highest symmetry rather than opening there",
+      "name": "high_energy_peeloff_reading_is_reversed_on_current_route",
+      "passed": true
+    }
+  ],
+  "checks_passed": 16,
+  "checks_total": 16,
+  "exact_controls": {
+    "bell_regional_state": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "1/2"
+      ]
+    ],
+    "family_invariant_expectations": [
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ],
+      [
+        "1",
+        "1"
+      ]
+    ],
+    "global_xx_targets": [
+      "1",
+      "-1"
+    ],
+    "imported_pairing_ladder": {
+      "Pati-Salam": 2,
+      "Spin(10)": 0,
+      "Standard Model": 11
+    },
+    "region_scale_parities": [
+      "1",
+      "-1"
+    ]
+  },
+  "probe": "du_jacobson_regional_entropy_pairing_bridge_probe",
+  "run_id": "RUN-20260831-jacobson-regional-entropy-pairing-bridge",
+  "scope": {
+    "does_not_establish": [
+      "a GU source action or physical mass threshold",
+      "Jacobson gravity from GU",
+      "a generation count or distinguished observed family",
+      "a selected causal-diamond algebra, reference state, or record interface",
+      "new physics or an empirical prediction"
+    ],
+    "establishes": [
+      "regional-response provenance blindness for equal regional states",
+      "unlabelled two-of-three pairing-orbit nonselection",
+      "independence of regional-scope and energy-scale axes",
+      "the direction of the imported GU pairing ladder"
+    ]
+  },
+  "verdict": "REGIONAL_RESPONSE_FACTORS_THROUGH_THE_REGIONAL_STATE; PAIRING_PROVENANCE_AND_REGION_SCALE_COUPLING_REMAIN_UNSELECTED"
+}

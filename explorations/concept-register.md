@@ -8146,6 +8146,34 @@ curvature coefficient, or imposter coupling, so transfer is Grade 1 and DU
 remains no-ready. See
 `gu-k77-trace-reversal-2plus1-luminous-polarization-bridge-and-record-boundary-2026-08-31.md`.
 
+### 2026-08-31 Jacobson regional entropy / GU `2+1` scale-scope boundary
+
+`HC-DU-210` formalizes the proposed Jacobson--GU join without identifying
+causal scope with energy scale. A fixed regional geometric response factors
+through the declared regional state, reference, and effective couplings.
+Consequently, equal regional states have equal entropy/modular-energy response
+even when an enlarged algebra distinguishes their global completion or
+microscopic pairing provenance.
+
+The exact controls give three complementary witnesses: orthogonal Bell
+purifications with common regional state; three distinct one-of-three removal
+embeddings with common entropy spectrum and permutation-invariant response;
+and two region/scale joint laws with identical marginals but opposite mixed
+parity. The current GU invariant-pairing ladder is also directionally
+decisive: `0 -> 2 -> 11` as symmetry lowers from `Spin(10)` to Pati--Salam and
+the Standard Model. The paired sector therefore becomes removable below the
+high-symmetry regime, while the specific removal channel vanishes at restored
+`Spin(10)` symmetry.
+
+Jacobson supplies a strong regional constitutive/equilibrium benchmark, not a
+selector of family label, algebra, reference state, record instrument, or
+observer. Ordinary Wilsonian/curved-spacetime EFT absorbs unspecified heavy
+pair contributions through thresholds and renormalized gravitational/matter
+couplings. Reopen only with a GU-owned action selecting the bivariate
+region/scale net, reference, real-form-correct pairing scale/coupling, and one
+regulator-robust no-refit response beyond GR plus QFT/EFT. See
+`jacobson-regional-entropy-gu-2plus1-pairing-factorization-and-scale-scope-boundary-2026-08-31.md`.
+
 
 ## CONCEPT-DU-020 — resource-accountable adversarial finality
 
