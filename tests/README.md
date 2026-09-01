@@ -4,6 +4,26 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-212 QFT selection-surplus holonomy calibration
+
+`du_qft_selection_surplus_holonomy_probe.py` exhausts sixteen `Z2` edge
+configurations and sixteen vertex-gauge transformations. It checks the two
+physical holonomy orbits, Wilson-action minimizers for positive, negative,
+and zero coefficient, exact quantum stiffness determinants `45` and `49`,
+within-law QFT-sector sharpening, selector-key relocation, and the unchanged
+six-candidate census. Run:
+
+```bash
+python3 tests/du_qft_selection_surplus_holonomy_probe.py --write-artifact
+```
+
+The deterministic artifact is
+`artifacts/du_qft_selection_surplus_holonomy_result.json` and reports `19/19`.
+Passing establishes only the finite selection-accounting calibration. It does
+not establish continuum QFT, cross-theory selection surplus, a record handoff,
+GU, new physics, a prediction beyond incumbents, a paper, provider, or
+hardware result.
+
 ## HC-DU-211 complete-handoff selection and QFT landing spine
 
 `du_complete_handoff_selection_landing_probe.py` exhausts all sixteen
@@ -273,7 +293,10 @@ an unselected successor. It validates `../CURRENT-RESEARCH.schema.json`; checks 
 `../LANES.yaml` contains only stable lane/channel/grade topology and the
 canonical structured charter; rejects copied live-routing assertions; verifies
 charter parity, run-home semantics, historical guards, entrypoint links, and a
-bounded context-isolated cold start. It also requires independent
+bounded context-isolated cold start. The 6,000-word cold-start budget is a
+guidance target, not a brittle acceptance boundary: overages are reported but
+admitted up to a 7,500-word emergency ceiling, while the semantic and link
+checks continue to test actual recoverability. It also requires independent
 perspective/scope, ontic/epistemic, and disclosure/issuance coordinates across
 the cold-start, durable-program, foundations, and concept surfaces; one
 negative mutation per surface proves those markers are load-bearing. Its

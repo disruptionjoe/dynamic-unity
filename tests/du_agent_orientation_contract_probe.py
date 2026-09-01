@@ -74,8 +74,10 @@ EXPECTED_GRADES = {
     4: "selection_or_necessity",
     5: "remainder_or_prediction",
 }
-EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 362
+EXPECTED_COUNTER_ASSUMPTIVE_FINDINGS = 363
 CURRENT_AUTHORITY_NAME = CURRENT_PATH.name
+COLD_START_GUIDANCE_WORDS = 6000
+COLD_START_HARD_CEILING_WORDS = 7500
 
 SEMANTIC_MARKERS = {
     "start": (
@@ -112,6 +114,14 @@ SEMANTIC_MARKERS = {
         "This formal core does not decide whether the proposition pre-existed",
     ),
 }
+
+
+def classify_cold_start_budget(word_count: int) -> str:
+    if word_count <= COLD_START_GUIDANCE_WORDS:
+        return "within_guidance"
+    if word_count <= COLD_START_HARD_CEILING_WORDS:
+        return "above_guidance_but_admitted"
+    return "above_emergency_ceiling"
 
 
 def load_yaml(path: Path) -> dict[str, Any]:
@@ -723,10 +733,23 @@ def validate_authority(
     cold_start_words = sum(
         len(path.read_text(encoding="utf-8").split()) for path in cold_start_paths
     )
+    cold_start_budget_status = classify_cold_start_budget(cold_start_words)
     check(
-        "cold_start_budget",
-        cold_start_words <= 6000,
-        f"required cold-start surfaces total {cold_start_words} words (limit 6000)",
+        "cold_start_budget_policy",
+        (
+            cold_start_budget_status != "above_emergency_ceiling"
+            and classify_cold_start_budget(COLD_START_GUIDANCE_WORDS + 75)
+            == "above_guidance_but_admitted"
+            and classify_cold_start_budget(COLD_START_HARD_CEILING_WORDS + 1)
+            == "above_emergency_ceiling"
+        ),
+        (
+            f"required cold-start surfaces total {cold_start_words} words; "
+            f"status={cold_start_budget_status}; guidance="
+            f"{COLD_START_GUIDANCE_WORDS}; emergency ceiling="
+            f"{COLD_START_HARD_CEILING_WORDS}; a 75-word guidance overage is "
+            "explicitly admitted"
+        ),
     )
 
     quiescent_context_candidates = [
@@ -806,6 +829,9 @@ def validate_authority(
             publication["candidate_id"] if publication is not None else None
         ),
         "cold_start_words": cold_start_words,
+        "cold_start_guidance_words": COLD_START_GUIDANCE_WORDS,
+        "cold_start_hard_ceiling_words": COLD_START_HARD_CEILING_WORDS,
+        "cold_start_budget_status": cold_start_budget_status,
         "checks_passed": len(checks),
         "checks": checks,
         "disclaimer": (

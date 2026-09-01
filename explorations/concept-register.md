@@ -8201,6 +8201,27 @@ The unchanged DU/GU application finds no source-selected complete handoff or
 locked-target remainder, so the portfolio remains `no_ready`. See
 `complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md`.
 
+### 2026-08-31 QFT selection-surplus and selector-key relocation
+
+`HC-DU-212` calibrates the `HC-DU-211` landing spine on an exact dynamical
+`Z2` gauge control. Promoting the four signed-cycle couplings to gauge
+variables and adding the Wilson energy `E_kappa=-kappa h` selects exactly one
+holonomy orbit for nonzero `kappa`. The selected orbit remains ordinary
+quantum lattice physics and contracts a locked spectral-determinant target
+from `{45,49}` to one value. QFT expressibility therefore preserves rather
+than kills real within-law selection.
+
+The coefficient sign is nevertheless a one-bit copy of the selected
+holonomy. The result moves the unresolved choice into the action and earns no
+cross-theory selection surplus. Keep four claims separate: dynamics selecting
+a state/sector; upstream theory deriving a QFT input relation; target-image
+sharpening; and material record-handoff selection. The corrected reopener
+requires independently justified upstream structure that derives a proper
+QFT subfamily without inserting an isomorphic selector key, followed by a
+locked-target test without refit. The six-route census finds no current
+candidate passing that gate. See
+`qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md`.
+
 
 ## CONCEPT-DU-020 — resource-accountable adversarial finality
 

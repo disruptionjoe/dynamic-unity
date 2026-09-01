@@ -1,0 +1,166 @@
+{
+  "application_ledger": [
+    {
+      "cross_theory_status": "SELECTOR_KEY_SUPPLIED_NO_UPSTREAM_DERIVATION",
+      "interface_status": "NO_RECORD_HANDOFF",
+      "specimen": "dynamical Z2 Wilson plaquette control",
+      "target_status": "ORDINARY_QUANTUM_SPECTRAL_SHARPENING",
+      "within_law_selection": "one gauge-invariant holonomy orbit for nonzero supplied kappa"
+    },
+    {
+      "cross_theory_status": "HOLONOMY_ALREADY_IN_COUPLING_DATA",
+      "interface_status": "HC-DU-208_HANDOFF_OPEN",
+      "specimen": "HC-DU-207 fixed signed cycle",
+      "target_status": "STANDARD_QUANTUM_RESPONSE",
+      "within_law_selection": "response conditional on fixed edge signs"
+    },
+    {
+      "cross_theory_status": "NO_PROPER_QFT_COMPLETION_SUBFAMILY_YET",
+      "interface_status": "DETECTOR_RESOLUTION_ARCHIVE_ACCESS_SUPPLIED",
+      "specimen": "finite-time infrared memory",
+      "target_status": "NO_LOCKED_HARD_TARGET",
+      "within_law_selection": "symmetry-constrained dressing component after frame and charges are supplied"
+    },
+    {
+      "cross_theory_status": "MEDIATOR_FACTORIZATION_NONUNIQUE",
+      "interface_status": "EVENT_PARTITION_AND_CONSUMER_OPEN",
+      "specimen": "direct-action/source-response branch",
+      "target_status": "ENDPOINT_RESPONSE_ABSORBED",
+      "within_law_selection": "source response after kernel and boundary prescription are supplied"
+    },
+    {
+      "cross_theory_status": "QFT_ANSATZ_REGULATOR_SECTOR_INPUTS_REMAIN_SUPPLIED",
+      "interface_status": "OBSERVER_INSTRUMENT_RECORD_OPEN",
+      "specimen": "causal-action/CFS branch",
+      "target_status": "NO_FROZEN_DISTINCTIVE_TARGET",
+      "within_law_selection": "measure inside a supplied variational problem"
+    },
+    {
+      "cross_theory_status": "HIGHEST_CEILING_SOURCE_ACTION_AND_QFT_MAP_MISSING",
+      "interface_status": "MATERIAL_HANDOFF_OPEN",
+      "specimen": "conditional GU/K77 route",
+      "target_status": "NO_LOCKED_QFT_PARAMETER_RELATION_OR_TARGET",
+      "within_law_selection": "matched luminous orbit only under conditional action"
+    }
+  ],
+  "checks": [
+    {
+      "detail": "every vertex-sign transformation preserves the loop product",
+      "name": "holonomy_is_gauge_invariant",
+      "passed": true
+    },
+    {
+      "detail": "the sixteen edge assignments quotient to trivial and frustrated holonomy",
+      "name": "exactly_two_physical_connection_orbits",
+      "passed": true
+    },
+    {
+      "detail": "the global vertex flip is the gauge-action kernel",
+      "name": "each_holonomy_orbit_has_eight_encodings",
+      "passed": true
+    },
+    {
+      "detail": "the action depends only on the physical holonomy",
+      "name": "wilson_energy_is_gauge_invariant",
+      "passed": true
+    },
+    {
+      "detail": "the supplied positive Wilson coefficient selects one gauge orbit",
+      "name": "positive_kappa_selects_trivial_holonomy",
+      "passed": true
+    },
+    {
+      "detail": "the supplied negative Wilson coefficient selects the other gauge orbit",
+      "name": "negative_kappa_selects_frustrated_holonomy",
+      "passed": true
+    },
+    {
+      "detail": "removing the preference restores both physical sectors",
+      "name": "zero_kappa_is_positive_nonselection_control",
+      "passed": true
+    },
+    {
+      "detail": "selection is physical only after quotienting vertex-sign gauge",
+      "name": "each_nonzero_action_selects_one_orbit_not_one_encoding",
+      "passed": true
+    },
+    {
+      "detail": "the trivial sector has shifted spectrum {1,3,3,5}",
+      "name": "balanced_quantum_stiffness_determinant",
+      "passed": true
+    },
+    {
+      "detail": "the frustrated sector has shifted spectrum {3-sqrt(2),3-sqrt(2),3+sqrt(2),3+sqrt(2)}",
+      "name": "frustrated_quantum_stiffness_determinant",
+      "passed": true
+    },
+    {
+      "detail": "an ordinary quantum spectral functional distinguishes the two sectors",
+      "name": "holonomy_sectors_have_distinct_quantum_targets",
+      "passed": true
+    },
+    {
+      "detail": "within the two-sector lattice quantum family the Wilson action picks one sector",
+      "name": "selected_sector_is_a_proper_incumbent_subfamily",
+      "passed": true
+    },
+    {
+      "detail": "the held-out determinant image contracts from two values to one",
+      "name": "within_law_selection_sharpens_the_spectral_target",
+      "passed": true
+    },
+    {
+      "detail": "the selected target remains ordinary quantum lattice physics",
+      "name": "qft_expressibility_is_preserved",
+      "passed": true
+    },
+    {
+      "detail": "the sign inserted into the action is a one-bit selector key, not a derived upstream relation",
+      "name": "wilson_coefficient_sign_copies_the_selected_holonomy",
+      "passed": true
+    },
+    {
+      "detail": "dynamical sector selection is exact while derivation of the selecting coefficient remains unearned",
+      "name": "within_law_selection_does_not_imply_cross_theory_surplus",
+      "passed": true
+    },
+    {
+      "detail": "choosing kappa after learning whether determinant 45 or 49 is desired would be target fitting",
+      "name": "after_target_choice_is_not_no_refit_selection",
+      "passed": true
+    },
+    {
+      "detail": "the action contains no sampler, blank archive, provenance, access route, consumer, or reset",
+      "name": "sector_selection_does_not_select_a_record_handoff",
+      "passed": true
+    },
+    {
+      "detail": "every current route supplies the selector input, leaves the QFT map open, or lacks a locked target",
+      "name": "existing_candidate_census_has_no_cross_theory_selector",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-212",
+  "exact_control": {
+    "balanced_stiffness_determinant": 45,
+    "edge_configurations": 16,
+    "frustrated_stiffness_determinant": 49,
+    "gauge_transformations": 16,
+    "negative_kappa_minimizers": 8,
+    "physical_orbits": 2,
+    "positive_kappa_minimizers": 8,
+    "zero_kappa_minimizers": 16
+  },
+  "run_id": "RUN-20260831-qft-selection-surplus-calibration",
+  "schema_version": "dynamic-unity/qft-selection-surplus-holonomy/v0.1",
+  "summary": {
+    "cross_theory_selection_surplus": false,
+    "maximum_grade": 4,
+    "passed": 19,
+    "qft_expressibility_preserved": true,
+    "record_handoff_selected": false,
+    "total": 19,
+    "within_law_sector_selection": true
+  },
+  "verdict": "WITHIN_LAW_QFT_SECTOR_SELECTION_POSITIVE; CROSS_THEORY_SELECTION_SURPLUS_UNEARNED; NO_READY_SUCCESSOR"
+}
