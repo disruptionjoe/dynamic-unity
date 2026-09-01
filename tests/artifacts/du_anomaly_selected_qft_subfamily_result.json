@@ -1,0 +1,163 @@
+{
+  "checks": [
+    {
+      "detail": "the primitive chiral five-charge family has 16,258 permutation-quotiented encodings before charge conjugation",
+      "name": "frozen_family_raw_count",
+      "passed": true
+    },
+    {
+      "detail": "simultaneous charge conjugation pairs every encoding into 8,129 physical candidate orbits",
+      "name": "global_sign_quotient_count",
+      "passed": true
+    },
+    {
+      "detail": "an odd nonzero chiral spectrum cannot equal its global-sign conjugate",
+      "name": "global_sign_has_no_fixed_chiral_five_spectrum",
+      "passed": true
+    },
+    {
+      "detail": "(-9,-5,-1,7,8) satisfies both frozen anomaly equations",
+      "name": "known_anomaly_free_solution_control",
+      "passed": true
+    },
+    {
+      "detail": "within the supplied five-field and |q|<=9 domain exactly one anomaly-free chiral orbit survives",
+      "name": "bound_nine_selects_one_orbit",
+      "passed": true
+    },
+    {
+      "detail": "no primitive chiral five-field solution exists with maximum absolute charge at most eight",
+      "name": "bound_eight_empty_control",
+      "passed": true
+    },
+    {
+      "detail": "raising the supplied charge bound by one admits a second inequivalent anomaly-free orbit",
+      "name": "bound_ten_breaks_uniqueness",
+      "passed": true
+    },
+    {
+      "detail": "changing cardinality to six admits a solution already at |q|<=5",
+      "name": "six_field_cardinality_control",
+      "passed": true
+    },
+    {
+      "detail": "changing cardinality to seven admits a solution already at |q|<=4",
+      "name": "seven_field_cardinality_control",
+      "passed": true
+    },
+    {
+      "detail": "the target-blind consistency equations remove 8,128 of 8,129 bounded physical candidates",
+      "name": "anomaly_constraint_selects_proper_subfamily",
+      "passed": true
+    },
+    {
+      "detail": "the bounded B2 image contracts from 313 values to the value 220",
+      "name": "quadratic_target_image_is_sharpened",
+      "passed": true
+    },
+    {
+      "detail": "the separately audited B4 image contracts from 1,075 values to 13,684",
+      "name": "secondary_quartic_audit_is_sharpened",
+      "passed": true
+    },
+    {
+      "detail": "anomalous spectra share B2=220, so the target value is not an anomaly-free label",
+      "name": "held_out_target_does_not_encode_anomaly_status",
+      "passed": true
+    },
+    {
+      "detail": "selection is computed from the linear and cubic charge sums, not from a supplied survivor bit",
+      "name": "selector_has_no_answer_coordinate",
+      "passed": true
+    },
+    {
+      "detail": "uniqueness and minimal charge depend on supplied cardinality and charge range",
+      "name": "finite_uniqueness_is_domain_relative",
+      "passed": true
+    },
+    {
+      "detail": "expanding the charge domain changes the selected B2 image from {220} to {220,250}",
+      "name": "target_value_is_domain_relative",
+      "passed": true
+    },
+    {
+      "detail": "q -> 2q and g -> g/2 preserves the coupling-weighted quadratic response, so bare B2 is not an absolute observable",
+      "name": "charge_normalization_requires_a_coupling_ruler",
+      "passed": true
+    },
+    {
+      "detail": "the anomaly equations select no sampler, archive, provenance, observer access, consumer, reset, or resources",
+      "name": "consistency_selection_does_not_select_record_handoff",
+      "passed": true
+    },
+    {
+      "detail": "the control calibrates a known consistency selector; DU candidates still lack a physically selected domain or complete handoff",
+      "name": "noncopy_positive_does_not_activate_current_candidates",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-213",
+  "frozen_domain": {
+    "fermion_cardinality": 5,
+    "max_abs_charge": 9,
+    "physical_candidate_orbits": 8129,
+    "primitive_normalization": true,
+    "quotient": [
+      "permutation",
+      "global_charge_sign"
+    ],
+    "raw_candidates": 16258,
+    "vectorlike_pairs_excluded": true
+  },
+  "hostile_domain_controls": {
+    "five_fields_bound_10_selected_count": 2,
+    "five_fields_bound_8_selected_count": 0,
+    "seven_fields_bound_4_selected_count": 1,
+    "six_fields_bound_5_selected_count": 1
+  },
+  "run_id": "RUN-20260831-anomaly-selected-qft-subfamily-calibration",
+  "schema_version": "dynamic-unity/anomaly-selected-qft-subfamily/v0.1",
+  "selection": {
+    "candidate_domain_physically_selected": false,
+    "equations": [
+      "sum(q_i)=0",
+      "sum(q_i^3)=0"
+    ],
+    "selected_count": 1,
+    "selected_orbits": [
+      [
+        -9,
+        -5,
+        -1,
+        7,
+        8
+      ]
+    ],
+    "selector_key_supplied": false
+  },
+  "summary": {
+    "bounded_target_sharpening": true,
+    "maximum_grade": 4,
+    "noncopy_structural_selection": true,
+    "passed": 19,
+    "record_handoff_selected": false,
+    "total": 19,
+    "unique_physical_qft_selected": false
+  },
+  "target_images": {
+    "expanded_domain_selected_b2": [
+      220,
+      250
+    ],
+    "incumbent_b2_count": 313,
+    "incumbent_b4_count": 1075,
+    "normalization_note": "g^2 B2 is invariant under q->2q, g->g/2",
+    "selected_b2": [
+      220
+    ],
+    "selected_b4": [
+      13684
+    ]
+  },
+  "verdict": "NONCOPY_QFT_CONSISTENCY_SELECTION_POSITIVE; FINITE_DOMAIN_UNIQUENESS_NOT_PHYSICAL; TARGET_SHARPENING_BOUND_RELATIVE; NO_READY_SUCCESSOR"
+}

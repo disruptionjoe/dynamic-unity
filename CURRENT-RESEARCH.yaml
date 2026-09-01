@@ -1,9 +1,10 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 162
+state_revision: 163
 as_of: '2026-08-31'
 authority: Joe direct chat through 2026-08-31 and governed receipts. The latest
-  result calibrates QFT selection surplus; no physical successor is ready.
+  result calibrates non-copy QFT consistency selection; no physical successor is
+  ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -73,10 +74,10 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-212 calibrates HC-DU-211. A Wilson action selects a gauge
-    orbit and sharpens an ordinary quantum target, but its supplied coefficient is
-    an isomorphic selector key. Within-law selection is not upstream derivation. No
-    candidate derives a proper QFT subfamily or complete handoff; remain no-ready.
+  decision_note: HC-DU-213 proves the gate admits a non-copy anomaly constraint,
+    but bounded uniqueness depends on a supplied candidate domain and bare response
+    weights require a coupling ruler. No candidate selects the domain, ruler, locked
+    physical target, and complete handoff; remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -93,8 +94,8 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--212 bank selection, handoff, QFT-landing, and selector-key
-    boundaries; no complete handoff is selected.
+  current_grade: HC-DU-165--213 bank selection, handoff, QFT-landing, selector-key,
+    and candidate-domain/ruler boundaries; no complete handoff is selected.
   evidence_grade: 4
   maximum_grade: Grade 5 requires a selected complete physical packet, lawful discriminator,
     and no-refit transfer; scoped no-section results stop at Grade 4.
@@ -108,9 +109,12 @@ programs:
     evidence_ref: explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
   - id: HC-DU-212
     evidence_ref: explorations/qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md
+  - id: HC-DU-213
+    evidence_ref: explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
   remaining_obligations:
-  - Reopen with a selected complete handoff, or a non-copy upstream derivation of a
-    proper QFT subfamily and locked-target sharpening without refit.
+  - Reopen with a selected complete handoff, or a physically selected candidate
+    domain and ruler plus a non-copy proper QFT subfamily and no-refit locked-target
+    sharpening.
   typed_dependencies:
   - type: tests
     target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
@@ -122,8 +126,8 @@ programs:
   stop_rule: Do not promote response, endpoint invariance, or record formation into
     complete handoff.
   reopen_rule: Require one source-pinned no-refit target and either a physically selected
-    complete writer-consumer/access/provenance/resource packet or a non-copy upstream
-    derivation of a proper QFT completion subfamily.
+    complete writer-consumer/access/provenance/resource packet or a physically selected
+    domain/ruler plus a non-copy proper QFT completion subfamily.
   local_computation_boundary: Formal or exact-small controls only; no provider or
     hardware.
   next_action: null
@@ -133,6 +137,7 @@ programs:
   - explorations/record-algebra-consumer-action-inverse-write-boundary-and-three-mechanism-selector-frontier-2026-08-31.md
   - explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
   - explorations/qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md
+  - explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -447,9 +452,9 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--212 bank Grade-4 holonomy/no-section, interface,
-    GU/Jacobson, complete-handoff/QFT-landing, and selector-key boundaries. No GU
-    source action, complete handoff, cross-theory QFT surplus, or new physics is selected.
+  current_grade: HC-DU-207--213 bank Grade-4 holonomy/no-section, interface,
+    GU/Jacobson, QFT-landing, selector-key, and anomaly/domain/ruler boundaries. No
+    GU source action, complete handoff, unique QFT, or new physics is selected.
   evidence_grade: 4
   maximum_grade: Grade 4 for selection or nonselection; Grade 5 only for a later finite
     no-refit residual.
@@ -483,6 +488,8 @@ programs:
     evidence_ref: explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
   - id: HC-DU-212
     evidence_ref: explorations/qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md
+  - id: HC-DU-213
+    evidence_ref: explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
   remaining_obligations:
   - Reopen only with a different source-pinned action, constraint, or stable interaction
     whose dynamics selects a complete writer-consumer-access-provenance-resource
@@ -518,6 +525,9 @@ programs:
   - type: extracts_from
     target: HC-DU-212
     target_type: result
+  - type: extracts_from
+    target: HC-DU-213
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -538,10 +548,11 @@ programs:
     handoffs survive the same antecedent.
   stop_rule: Stop if action-selected holonomy remains only a latent response invariant;
     do not rename a supplied Wilson, spectral, or QND measurement as selected.
-  reopen_rule: Require a selected complete handoff or a GU-owned action deriving the
-    orbit, response, coupling, region/scale net, and proper QFT/EFT subfamily without
-    an isomorphic selector key. Predictive credit requires no-refit locked-target
-    sharpening or rival exclusion; QFT expressibility is not a kill.
+  reopen_rule: Require a selected complete handoff or a GU-owned action deriving a
+    physical candidate domain, orbit, response, coupling/ruler, region/scale net, and
+    proper QFT/EFT subfamily through a non-copy constraint. Predictive credit requires
+    no-refit locked-target sharpening or rival exclusion; QFT expressibility is not a
+    kill.
   local_computation_boundary: Formal/source comparison and at most one exact finite
     proof control; no simulation, training, provider, or hardware.
   next_action: null
@@ -560,6 +571,7 @@ programs:
   - explorations/jacobson-regional-entropy-gu-2plus1-pairing-factorization-and-scale-scope-boundary-2026-08-31.md
   - explorations/complete-handoff-selection-and-qft-landing-theorem-spine-2026-08-31.md
   - explorations/qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md
+  - explorations/anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -572,10 +584,11 @@ successor_selection:
   - minimal-physical-selection-frontier
   - law-record-finite-remainder
   - no-ready-successor
-  decision_rule: HC-DU-211 is the admission spine; HC-DU-212 is its calibration.
-    Require complete-handoff selection, a materially complete no-section result, or a
-    non-copy upstream derivation of a proper QFT subfamily. Predictive credit requires
-    no-refit locked-target sharpening/excess. No candidate qualifies; remain quiescent.
+  decision_rule: HC-DU-211 is the admission spine; HC-DU-212--213 calibrate copied
+    versus non-copy selectors. Require complete-handoff selection, a materially complete
+    no-section result, or a physically selected domain/ruler plus a non-copy proper
+    QFT subfamily. Predictive credit requires no-refit locked-target sharpening/excess.
+    No candidate qualifies; remain quiescent.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

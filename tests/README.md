@@ -4,6 +4,27 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-213 anomaly-selected QFT subfamily calibration
+
+`du_anomaly_selected_qft_subfamily_probe.py` exhausts the primitive chiral
+five-charge `U(1)` Weyl spectra with `|q|<=9`, quotients permutations and
+global charge conjugation, and applies the cubic gauge- and linear mixed-
+gravitational-anomaly equations. It checks a non-copy proper-subfamily
+selection, quadratic and quartic target-image contraction, range and
+cardinality hostile controls, and charge-normalization/coupling compensation.
+Run:
+
+```bash
+python3 tests/du_anomaly_selected_qft_subfamily_probe.py --write-artifact
+```
+
+The deterministic artifact is
+`artifacts/du_anomaly_selected_qft_subfamily_result.json` and reports `19/19`.
+Passing establishes only the bounded selection-accounting calibration. It
+does not establish a universal anomaly classification, physical selection of
+the gauge group or candidate domain, a unique QFT, a material record handoff,
+GU, new physics, a prediction, paper, provider, or hardware result.
+
 ## HC-DU-212 QFT selection-surplus holonomy calibration
 
 `du_qft_selection_surplus_holonomy_probe.py` exhausts sixteen `Z2` edge

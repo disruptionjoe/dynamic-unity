@@ -5,7 +5,7 @@
   "cold_start_budget_status": "within_guidance",
   "cold_start_guidance_words": 6000,
   "cold_start_hard_ceiling_words": 7500,
-  "cold_start_words": 5946,
+  "cold_start_words": 5975,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
   "executable_action": null,
   "prepared_publication_candidate": null,

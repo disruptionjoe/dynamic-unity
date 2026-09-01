@@ -8222,6 +8222,27 @@ locked-target test without refit. The six-route census finds no current
 candidate passing that gate. See
 `qft-selection-surplus-accounting-and-dynamical-holonomy-calibration-2026-08-31.md`.
 
+### 2026-08-31 Anomaly-selected QFT subfamily and domain-relative uniqueness
+
+`HC-DU-213` supplies the first exact positive calibration for the non-copy
+side of the QFT landing gate. In the frozen primitive chiral five-charge
+`U(1)` family with `|q|<=9`, standard linear and cubic anomaly cancellation
+reduces 8,129 charge-conjugacy orbits to `(-9,-5,-1,7,8)` without inserting a
+survivor bit. Independent quadratic and quartic representation-target images
+contract exactly. This earns non-copy structural selection inside the stated
+QFT consistency contract.
+
+It does not select a unique physical QFT. Expanding the charge bound to ten
+adds a second anomaly-free orbit; changing fermion cardinality admits other
+lower-charge solutions. Primitive charge normalization also fixes only a
+representative because a charge rescaling can be compensated by the gauge
+coupling. Track the candidate domain, physical quotient, and ruler as
+separate antecedents. The corrected reopener requires their physical
+selection, a non-copy proper-subfamily constraint, a no-refit locked physical
+target, and—before any record claim—a separately selected complete material
+handoff. See
+`anomaly-selected-qft-subfamily-domain-relative-uniqueness-and-ruler-boundary-2026-08-31.md`.
+
 
 ## CONCEPT-DU-020 — resource-accountable adversarial finality
 
