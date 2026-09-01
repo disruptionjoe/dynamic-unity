@@ -1,10 +1,10 @@
 {
-  "active_scientific_program": null,
+  "active_scientific_program": "DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE",
   "authority": "CURRENT-RESEARCH.yaml",
   "checks_passed": 37,
-  "cold_start_words": 5997,
+  "cold_start_words": 5998,
   "disclaimer": "Passing establishes repository routing consistency only; it establishes no scientific result.",
-  "executable_action": null,
+  "executable_action": "CTS-A3-ACTION-SELECTED-HOLONOMY-MATERIAL-RECORD-GATE",
   "prepared_publication_candidate": null,
   "probe": "du_agent_orientation_contract_probe",
   "scope": "current_research_authority_and_cold_start_governance_only",

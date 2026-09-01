@@ -8075,6 +8075,32 @@ See
 and
 `../lab/process/computation-first-common-view-relationship-atlas.json`.
 
+### 2026-08-31 action-selected holonomy and regional no-section
+
+`HC-DU-207` executes the selected `P35 -> P30 -> P33` chain and the
+`P40/P31` negative branch on one frozen signed-cycle quadratic action. The
+action selects the gauge orbit of signed transport, its `Z2` loop holonomy,
+the response spectrum, and low/high spectral subspaces. Its complete residual
+signed symmetry is vertex-transitive, so it selects no observer site or axis
+inside either degenerate band.
+
+Low-band, high-band, and full response families are all covariant functions
+of the same Hessian but induce different sufficient quotients. Propagation and
+holonomy therefore do not select intervention bandwidth. The same unweighted
+action admits external square embeddings with different absolute scales.
+
+For negative holonomy every edge-deleted tree region has a nonzero parallel
+section while the full cycle has none. The obstruction is response-visible
+and transfers unchanged to ordinary quantized harmonic normal modes. This
+selects relational structure before it selects records: no material sampler,
+archive, provenance, observer access, consumer, public finality, or metric is
+earned.
+
+**Selected gate:** apply the complete handoff passport to this source-selected
+holonomy in one unchanged standard-quantum or finite-gauge realization. A
+supplied Wilson, spectral, or QND instrument is absorption. See
+`action-selected-holonomy-common-view-stabilizer-and-regional-no-section-2026-08-31.md`.
+
 ## Boundary
 
 Discovery / Lane-2 instrument. Concepts are *held*, not banked;

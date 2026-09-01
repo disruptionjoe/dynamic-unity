@@ -5410,3 +5410,37 @@ order—`P35 -> P30 -> P33`, with `P40/P31` as the obstruction branch—not a
 scientific winner. Passing proves only the ballot contract and arithmetic.
 Every hypothesis remains Grade 0; no claim, prediction, physical selector,
 novelty judgment, paper, hardware action, or successor is established.
+
+## HC-DU-207 action-selected common-view obstruction
+
+`du_action_selected_common_view_obstruction_probe.py` executes the selected
+`P35 -> P30 -> P33` attempt and the preregistered `P40/P31` obstruction branch
+on one frozen four-site signed-cycle action. It verifies:
+
+- all sixteen coupling-sign assignments split into exactly two gauge orbits,
+  classified by `Z2` holonomy;
+- the Hessian spectrum is constant on each orbit and distinguishes the two;
+- negative holonomy removes the global parallel section while every proper
+  tree region retains one;
+- the complete residual signed symmetry is vertex-transitive and selects no
+  observer site;
+- low/high spectral bands are selected while multiple covariant probe
+  families still induce different sufficient quotients;
+- the unweighted action leaves absolute embedding scale unselected; and
+- the same holonomy distinction transfers to ordinary quantized harmonic
+  normal modes without selecting a record instrument.
+
+Run:
+
+```bash
+python3 tests/du_action_selected_common_view_obstruction_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_action_selected_common_view_obstruction_result.json` and reports
+`18/18`. Passing establishes only the scoped Grade-4 action-selected transport
+orbit and exact common-view no-section/nonselection boundary. Signed graph
+Laplacians, cellular sheaves, gauge holonomy, equivariance, observability, and
+quadratic quantization absorb the component mathematics. It proves no
+material record, observer, public finality, metric, universal no-go, new
+physics, empirical prediction, paper, or hardware result.

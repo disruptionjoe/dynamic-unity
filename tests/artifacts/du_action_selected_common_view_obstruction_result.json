@@ -1,0 +1,260 @@
+{
+  "action_id": "CTS-A2-COMMON-VIEW-CLOSURE-SELECTOR-OR-OBSTRUCTION",
+  "assertions": [
+    {
+      "detail": "Every Hessian is D_sigma^T D_sigma.",
+      "name": "all_signed_actions_are_positive_semidefinite",
+      "passed": true
+    },
+    {
+      "detail": "Vertex sign changes cancel pairwise around the cycle.",
+      "name": "holonomy_is_gauge_invariant",
+      "passed": true
+    },
+    {
+      "detail": "The two orbits are classified by Z2 holonomy.",
+      "name": "sign_assignments_form_exactly_two_gauge_orbits",
+      "passed": true
+    },
+    {
+      "detail": "Gauge-related Hessians are orthogonally conjugate.",
+      "name": "response_spectrum_is_constant_on_each_gauge_orbit",
+      "passed": true
+    },
+    {
+      "detail": "The action-selected loop sign has a finite spectral response.",
+      "name": "response_spectrum_distinguishes_the_two_holonomies",
+      "passed": true
+    },
+    {
+      "detail": "Trivial holonomy leaves one parallel line.",
+      "name": "balanced_cycle_has_one_global_parallel_section",
+      "passed": true
+    },
+    {
+      "detail": "Negative holonomy forces x=-x after one loop.",
+      "name": "frustrated_cycle_has_no_nonzero_global_parallel_section",
+      "passed": true
+    },
+    {
+      "detail": "Deleting any edge removes the loop obstruction.",
+      "name": "every_proper_tree_region_has_a_nonzero_parallel_section",
+      "passed": true
+    },
+    {
+      "detail": "No site is privileged by the frozen action.",
+      "name": "frustrated_action_residual_symmetry_is_vertex_transitive",
+      "passed": true
+    },
+    {
+      "detail": "An equivariant selector cannot return a vertex absent a stabilizer fixed point.",
+      "name": "frustrated_action_selects_no_observer_vertex",
+      "passed": true
+    },
+    {
+      "detail": "The Hessian canonically selects a two-dimensional low band.",
+      "name": "low_spectral_projector_is_exact",
+      "passed": true
+    },
+    {
+      "detail": "Coarse spectral subspaces, unlike sites or axes, are action-selected.",
+      "name": "spectral_bands_descend_under_every_residual_symmetry",
+      "passed": true
+    },
+    {
+      "detail": "Low-band, high-band, and full response families are all functions of the same Hessian.",
+      "name": "multiple_covariant_action_families_survive_one_antecedent",
+      "passed": true
+    },
+    {
+      "detail": "The coarsest sufficient state quotient has rank two or four depending on admitted probes.",
+      "name": "causal_state_quotient_depends_on_action_family",
+      "passed": true
+    },
+    {
+      "detail": "The unweighted action is unchanged while the external ruler perimeter changes.",
+      "name": "principal_response_does_not_select_embedding_scale",
+      "passed": true
+    },
+    {
+      "detail": "The response gap is exact and doubly degenerate.",
+      "name": "frustrated_spectrum_matches_exact_values",
+      "passed": true
+    },
+    {
+      "detail": "The finite response separates it from the balanced zero-mode case.",
+      "name": "frustrated_hessian_determinant_is_four",
+      "passed": true
+    },
+    {
+      "detail": "Adding the same positive mass and quantizing the oscillators preserves the loop-sign discriminator.",
+      "name": "quantized_normal_mode_spectrum_retains_the_holonomy",
+      "passed": true
+    }
+  ],
+  "classification": "COMMON_VIEW_NO_SECTION_OR_AMBIGUITY_OBSTRUCTION",
+  "frozen_antecedent": {
+    "action": "S_sigma(x)=1/2 sum_edges (x_u-sigma_e*x_v)^2",
+    "carrier": "four real site amplitudes on C4",
+    "coupling_signs": [
+      1,
+      1,
+      1,
+      -1
+    ],
+    "gauge": "vertex sign changes co-transform amplitudes and edge signs",
+    "held_fixed": [
+      "cycle graph",
+      "edge couplings",
+      "quadratic action",
+      "Z2 gauge rule",
+      "no observer, archive, action bandwidth, or ruler supplied"
+    ],
+    "hessian": [
+      [
+        2,
+        -1,
+        0,
+        1
+      ],
+      [
+        -1,
+        2,
+        -1,
+        0
+      ],
+      [
+        0,
+        -1,
+        2,
+        -1
+      ],
+      [
+        1,
+        0,
+        -1,
+        2
+      ]
+    ],
+    "stationary_point": "x=0"
+  },
+  "grade": "SCOPED_GRADE_4_ACTION_SELECTED_TRANSPORT_AND_EXACT_NONSELECTION_OBSTRUCTION_COMPONENT_MATHEMATICS_KNOWN",
+  "observer_index_return": "OBSERVER_INDEX_REMAINS_SUPPLIED",
+  "p30_interventional_causal_state": {
+    "covariant_action_family_ranks": {
+      "full_response_space": 4,
+      "high_spectral_band": 2,
+      "low_spectral_band": 2
+    },
+    "quotient_kernel_dimensions": {
+      "full_response_space": 0,
+      "high_spectral_band": 2,
+      "low_spectral_band": 2
+    },
+    "result": "Each frozen action family has a coarsest sufficient linear quotient, but the antecedent admits several covariant families with different quotients.",
+    "verdict": "CAUSAL_STATE_UNIQUE_ONLY_RELATIVE_TO_AN_UNSELECTED_ACTION_FAMILY"
+  },
+  "p33_ruler_closure": {
+    "large_embedding_edge_lengths": [
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "large_perimeter": 12.0,
+    "selected": "dimensionless signed propagation/transport and response gap",
+    "unit_embedding_edge_lengths": [
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "unit_perimeter": 4.0,
+    "verdict": "PROPAGATION_AND_HOLONOMY_SELECTED_ABSOLUTE_RULER_UNSELECTED"
+  },
+  "p35_action_response": {
+    "balanced_spectrum": [
+      -0.0,
+      2.0,
+      2.0,
+      4.0
+    ],
+    "frustrated_spectrum": [
+      0.585786437627,
+      0.585786437627,
+      3.414213562373,
+      3.414213562373
+    ],
+    "globally_fixed_vertices": [],
+    "not_selected": [
+      "one observer site",
+      "one axis inside a degenerate spectral band",
+      "material record or archive",
+      "consumer or complete common-view family"
+    ],
+    "residual_signed_symmetry_count": 16,
+    "selected": [
+      "one gauge orbit of signed transport couplings",
+      "Z2 holonomy -1",
+      "Hessian spectrum and low/high spectral subspaces"
+    ],
+    "verdict": "PARTIAL_ACTION_SELECTED_TRANSPORT_ORBIT_AND_GLOBAL_COMMON_VIEW_SELECTOR_OBSTRUCTION"
+  },
+  "p40_p31_regional_obstruction": {
+    "finite_invariant": "product of edge transport signs = -1",
+    "finite_response": "det(L_sigma)=4 and a nonzero spectral gap",
+    "global_balanced_section_nullity": 1,
+    "global_frustrated_section_nullity": 0,
+    "proper_tree_section_nullities": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1
+    },
+    "verdict": "ACTION_SELECTED_REGIONAL_NO_SECTION_WITH_GAUGE_INVARIANT_HOLONOMY"
+  },
+  "program_id": "DU-COMPUTATION-FIRST-CLOSED-TRANSITION-SUBSTRATE",
+  "quantum_transfer_control": {
+    "balanced_mode_frequencies": [
+      1.0,
+      1.732050807569,
+      1.732050807569,
+      2.2360679775
+    ],
+    "frustrated_mode_frequencies": [
+      1.25928012675,
+      1.25928012675,
+      2.101002989615,
+      2.101002989615
+    ],
+    "grade_effect": "standard quantization transfer only; no new quantum prediction",
+    "hamiltonian": "H=1/2 p^T p + 1/2 q^T (I+L_sigma) q",
+    "result": "The same source-selected holonomy changes ordinary quantum normal-mode frequencies, but the Hamiltonian still does not select a sampler, archive, observer, action bandwidth, or ruler."
+  },
+  "run_id": "RUN-20260831-action-selected-common-view-obstruction",
+  "schema": "dynamic-unity/action-selected-common-view-obstruction/v1",
+  "scope_boundary": {
+    "absorbed_by": [
+      "equivariant selector stabilizer arguments",
+      "signed and connection graph Laplacians",
+      "structural balance and frustration",
+      "cellular-sheaf global sections",
+      "gauge holonomy",
+      "ordinary sufficient-statistic and observability theory"
+    ],
+    "difference_from_hc_du_123": "HC-DU-123 begins with a supplied formed cycle record and characterizes its fibre. This control begins with a source action, derives its transport holonomy and no-section obstruction, and still finds no selected record instrument or consumer.",
+    "not_earned": [
+      "universal common-view no-go",
+      "material record formation",
+      "observer or access selection",
+      "regional public finality",
+      "spacetime metric or physical ruler",
+      "new mathematics, new physics, prediction, or ontology"
+    ]
+  },
+  "summary": {
+    "all_passed": true,
+    "passed": 18,
+    "total": 18
+  }
+}
