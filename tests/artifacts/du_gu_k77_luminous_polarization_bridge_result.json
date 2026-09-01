@@ -1,0 +1,168 @@
+{
+  "absorbers": [
+    "Landau spontaneous symmetry breaking",
+    "Krein and Witt decomposition",
+    "equivariant bifurcation theory",
+    "spectral projectors",
+    "quantum instrument nonuniqueness"
+  ],
+  "action_id": "GU-K77-LUMINOUS-POLARIZATION-BRIDGE-AUDIT",
+  "checks": [
+    {
+      "detail": "the reduced W/mirror control has balanced nondegenerate Witt inertia",
+      "name": "paired_carrier_is_indefinite",
+      "passed": true
+    },
+    {
+      "detail": "the pairing vanishes on each half separately",
+      "name": "individual_halves_are_null",
+      "passed": true
+    },
+    {
+      "detail": "the nondegenerate information lies in the cross-half pairing",
+      "name": "cross_pair_is_full_rank",
+      "passed": true
+    },
+    {
+      "detail": "the parent involution exchanges W and mirror labels",
+      "name": "exchange_flips_half_grading",
+      "passed": true
+    },
+    {
+      "detail": "the 2+1 origin axis is independent of the W/mirror exchange",
+      "name": "exchange_preserves_2plus1_origin",
+      "passed": true
+    },
+    {
+      "detail": "imposter/true origin and luminous/mirror are simultaneous but distinct labels",
+      "name": "origin_and_half_gradings_commute",
+      "passed": true
+    },
+    {
+      "detail": "both halves contain two true slots and one imposter slot",
+      "name": "each_half_contains_two_plus_one",
+      "passed": true
+    },
+    {
+      "detail": "the paired geometry treats the two half projectors symmetrically",
+      "name": "trace_pairing_does_not_choose_half",
+      "passed": true
+    },
+    {
+      "detail": "the even double well selects a conjugate pair of nonzero stable vacua",
+      "name": "low_curvature_has_two_stable_vacua",
+      "passed": true
+    },
+    {
+      "detail": "the symmetric point is not a low-curvature minimum",
+      "name": "unbroken_low_curvature_point_is_unstable",
+      "passed": true
+    },
+    {
+      "detail": "the positive quadratic coefficient has one stable symmetric vacuum",
+      "name": "high_curvature_restores_paired_phase",
+      "passed": true
+    },
+    {
+      "detail": "the parent action remains non-chiral under z -> -z",
+      "name": "action_is_exchange_symmetric",
+      "passed": true
+    },
+    {
+      "detail": "exchanging halves and the vacuum preserves the full response law",
+      "name": "mass_response_is_covariant",
+      "passed": true
+    },
+    {
+      "detail": "the selected vacuum makes one relational half light and its partner heavy",
+      "name": "each_broken_vacuum_has_one_light_half",
+      "passed": true
+    },
+    {
+      "detail": "absolute half labels differ but the light-relative-to-vacuum relation is invariant",
+      "name": "luminous_projector_descends_as_matched_orbit",
+      "passed": true
+    },
+    {
+      "detail": "at the restored point the two halves recouple and no luminous projector is selected",
+      "name": "high_curvature_response_is_half_degenerate",
+      "passed": true
+    },
+    {
+      "detail": "equal and imposter-distinct responses obey the same typed symmetries",
+      "name": "2plus1_coupling_is_not_selected_by_labels",
+      "passed": true
+    },
+    {
+      "detail": "the selected light sector retains a two-true-family continuation freedom",
+      "name": "true_family_symmetry_survives_selected_half",
+      "passed": true
+    },
+    {
+      "detail": "two QND instruments have the same luminous effect but orthogonal true-family continuations",
+      "name": "selected_half_does_not_select_instrument",
+      "passed": true
+    },
+    {
+      "detail": "the run is one exact finite conditional control, not a GU dynamics simulation",
+      "name": "finite_conditional_control_only",
+      "passed": true
+    }
+  ],
+  "claim_id": "HC-DU-209",
+  "evidence_grade": 4,
+  "finite_control": {
+    "broken_vacuum_mass_squared": {
+      "luminous": 1.0,
+      "partner": 3.0
+    },
+    "carrier_dimension": 6,
+    "high_curvature_minimum": 0.0,
+    "hostile_conditional_overlap": 0.0,
+    "instrument_effect_differences": [
+      0.0,
+      0.0
+    ],
+    "krein_inertia": [
+      3,
+      3,
+      0
+    ],
+    "low_curvature_minima": [
+      -1.0,
+      1.0
+    ]
+  },
+  "gu_admission": {
+    "current_k77_does_not_supply": [
+      "full_source_action_and_stationary_background",
+      "action_owned_exchange_odd_order_parameter",
+      "curvature_dependent_double_well_coefficient",
+      "derived_imposter_sensitive_response_coupling",
+      "selected_material_record_instrument",
+      "observer_access_archive_consumer_or_public_finality"
+    ],
+    "current_k77_supplies": [
+      "trace_reversed_indefinite_carrier",
+      "W_mirror_exchange_and_cross_pairing",
+      "source_native_2plus1_label_structure"
+    ]
+  },
+  "gu_transfer_grade": 1,
+  "maximum_evidence_grade": 4,
+  "return_class": "CONDITIONAL_RELATIONAL_LUMINOUS_ORBIT_WITH_UNSELECTED_2PLUS1_COUPLING_AND_RECORD",
+  "run_id": "RUN-20260831-gu-k77-luminous-polarization-bridge",
+  "summary": {
+    "all_passed": true,
+    "passed": 20,
+    "total": 20
+  },
+  "typed_axes": {
+    "W_mirror_half_grading": "null_halves_with_nondegenerate_cross_pair",
+    "fundamental_chirality": "not_identified_with_either_axis",
+    "luminous_status": "lighter_half_relative_to_broken_vacuum",
+    "material_record": "later_instrument_and_archive_not_selected",
+    "trace_reversed_frobenius_carrier": "indefinite_K77_shadow",
+    "two_plus_one_origin": "true_1_true_2_imposter"
+  }
+}

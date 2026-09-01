@@ -4,6 +4,27 @@ Computational checks and machine probes, each mapping to a claim, with
 real-falsifier positive controls. A test that a genuine falsifier can pass is
 not a test; controls are mandatory.
 
+## HC-DU-209 GU-K77 luminous-polarization bridge
+
+`du_gu_k77_luminous_polarization_bridge_probe.py` keeps the K77 W/mirror
+pairing, `2+1` origin grading, luminous status, and material record types
+separate. It checks a conditional exchange-symmetric action whose odd order
+parameter selects one matched light-half orbit at low curvature and restores
+the paired phase at high curvature. It then proves that the `2+1` labels admit
+different response couplings and that the selected half still admits
+identical-effect instruments with orthogonal continuations. Run:
+
+```bash
+python3 tests/du_gu_k77_luminous_polarization_bridge_probe.py --write-artifact
+```
+
+The deterministic artifact is
+`artifacts/du_gu_k77_luminous_polarization_bridge_result.json` and reports
+`20/20`. Passing establishes only the scoped conditional theorem and exact
+type boundary. It proves no GU action, luminous-matter mechanism, observed
+generation, chirality, material record, new physics, prediction, paper,
+provider, or hardware result.
+
 ## HC-DU-208 action-selected holonomy material-record gate
 
 `du_action_selected_holonomy_material_record_gate_probe.py` keeps the

@@ -8124,6 +8124,28 @@ resource orbit or produces a finite no-refit remainder. More graph, PVM,
 pointer, Wilson-loop, QND, or consumer variants do not qualify. See
 `action-selected-holonomy-material-record-interface-ambiguity-and-computation-first-stop-2026-08-31.md`.
 
+### 2026-08-31 K77 `2+1` luminous-polarization bridge
+
+`HC-DU-209` separates six previously entangled types: the K77 trace-reversed
+Frobenius carrier, its W/mirror cross-paired halves, the independent
+true/true/imposter `2+1` origin grading, fundamental chirality,
+regime-relative luminous status, and a material record interface.
+
+The exact conditional theorem shows how an exchange-symmetric non-chiral
+parent can select one matched luminous orbit: an action-owned odd order
+parameter has two conjugate stable low-curvature vacua, each making its aligned
+half light, while a high-curvature sign change restores the symmetric recoupled
+phase. Absolute W/mirror spelling is unselected; “vacuum-aligned is luminous”
+descends.
+
+The `2+1` origin labels do not choose their response coefficients: equal and
+imposter-distinct couplings obey the same typed symmetries. A selected luminous
+projector also retains the `HC-DU-208` instrument ambiguity. Current GU does
+not supply the full action, broken stationary orbit, odd order parameter,
+curvature coefficient, or imposter coupling, so transfer is Grade 1 and DU
+remains no-ready. See
+`gu-k77-trace-reversal-2plus1-luminous-polarization-bridge-and-record-boundary-2026-08-31.md`.
+
 
 ## CONCEPT-DU-020 — resource-accountable adversarial finality
 
