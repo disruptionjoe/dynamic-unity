@@ -1,15 +1,14 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 174
+state_revision: 175
 as_of: '2026-09-02'
 authority: Joe direct chat through 2026-09-02 and governed receipts. The latest
-  result supplies a standard-physics positive for material-record formation before
-  readout. A superconducting ring's nonvanishing order parameter splits into winding
-  sectors; winding is sufficient for its frozen persistent-current branch and can
-  change only through a phase slip. The sector erases microstate and provenance, and
-  the ring, phase, operating window, orientation, and source-to-record coupling remain
-  supplied. It does not complete the preceding electric charge-to-flux handoff. No
-  scientific successor is ready.
+  result finds a physical but quotienting Aharonov--Casher bridge between electric
+  charge and fluxoid memory. Charge parity selects the single-phase-slip rule and,
+  at a symmetric two-path point, whether the winding transition graph splits into
+  protected parity sectors. It does not select one stored value, retain full charge,
+  or choose a signed winding without a time-odd bias. No scientific successor is
+  ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -79,16 +78,16 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-224 positively closes the generic existence question for a
-    pre-readout material record in ordinary gauge matter. In a superconducting ring,
-    winding labels disconnected nonvanishing order-parameter sectors, determines the
-    frozen persistent-current branch, and can change only through a phase slip. The
-    record is strictly compressive and loses formation provenance; signed winding
-    also needs an orientation, and parity is sufficient only in a declared binary
-    window. Because this is magnetic fluxoid memory rather than HC-DU-223's electric
-    Gauss-flux target, it does not supply the missing source-selected transducer or
-    complete handoff. Reopen only at that typed coupling/provenance seam or with a
-    finite record-conditioned remainder. Remain no-ready.
+  decision_note: HC-DU-225 supplies the physical coupling missing between the two
+    preceding controls but shows that its natural type is transition-rule selection,
+    not value copying. In a coherent two-path superconducting circuit, Aharonov--Casher
+    interference makes island-charge parity select whether single fluxon slips are
+    admitted; at the symmetric odd-charge point, only double slips remain and fluxoid
+    parity is protected. The coupling erases full signed charge, one endpoint does not
+    certify charge parity with zero error, exact protection needs path symmetry, and
+    time reversal forbids a charge-only nonzero signed-winding writer. Reopen only
+    with a natural value-selecting/provenance-bearing process packet or a finite
+    record-conditioned remainder. Remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -105,7 +104,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--224 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--225 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -145,6 +144,8 @@ programs:
     evidence_ref: explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
   - id: HC-DU-224
     evidence_ref: explorations/superconducting-fluxoid-topology-selected-material-record-formation-and-provenance-boundary-2026-09-02.md
+  - id: HC-DU-225
+    evidence_ref: explorations/aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md
   remaining_obligations:
   - Reopen the conditional physical path only with an implementation-complete
     precommitted handoff containing the admitted attempt census, record lineage,
@@ -158,16 +159,18 @@ programs:
     the response family without target fitting. HC-DU-223 supplies the natural
     target-sufficient-response positive for total electric charge. HC-DU-224 proves
     that superconducting gauge matter can form a topology-selected persistent record
-    before readout, while also showing that this magnetic fluxoid record does not by
-    itself receive the HC-DU-223 electric response or preserve its provenance. The
-    remaining burden is physical selection of that typed transducer and the complete
+    before readout. HC-DU-225 supplies a real charge-to-fluxoid coupling but shows
+    that it selects the parity-sensitive transition/protection rule rather than one
+    stored value, and retains charge only modulo `2e`. The remaining burden is a
+    natural value-selecting or process-record transducer and the complete
     provenance/access/consumer semantics demanded by the target.
   typed_dependencies:
   - type: tests
     target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
     target_type: program
   strongest_absorber: Process, sufficiency, identifiability, detector, instrument,
-    Ising/Gibbs, holonomy, torsor, representation, gauge, spin bundles, projective
+    Ising/Gibbs, holonomy, torsor, representation, gauge, Aharonov--Casher
+    interference, superconducting charge--phase duality, spin bundles, projective
     quantum states, interferometry, Weyl/Dirac bilinears, Fierz identities, Noether
     currents, EFT operator bases, twistor incidence, dissipative-stabilization, and
     control theory.
@@ -203,6 +206,7 @@ programs:
   - explorations/action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md
   - explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
   - explorations/superconducting-fluxoid-topology-selected-material-record-formation-and-provenance-boundary-2026-09-02.md
+  - explorations/aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -525,7 +529,7 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--224 bank Grade-4 holonomy/no-section, interface,
+  current_grade: HC-DU-207--225 bank Grade-4 holonomy/no-section, interface,
     GU/Jacobson, QFT-landing, selector-key, anomaly/domain/ruler, and domain-selector
     regress/minimal-stability boundaries plus Ising response and source/preparation
     controls. No GU source action, complete handoff, unique QFT, or new physics is
@@ -587,6 +591,8 @@ programs:
     evidence_ref: explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
   - id: HC-DU-224
     evidence_ref: explorations/superconducting-fluxoid-topology-selected-material-record-formation-and-provenance-boundary-2026-09-02.md
+  - id: HC-DU-225
+    evidence_ref: explorations/aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md
   remaining_obligations:
   - Reopen only with a source-pinned action that physically realizes same-fibre
     return or same-bundle route semantics, derives/selects an inter-system
@@ -661,6 +667,9 @@ programs:
   - type: extracts_from
     target: HC-DU-224
     target_type: result
+  - type: extracts_from
+    target: HC-DU-225
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -670,7 +679,8 @@ programs:
     target_type: external_work
     owner_repo: gu-formalization
   strongest_absorber: Quantum instruments and QND measurement, signed/connection
-    Laplacians, cellular sheaves, gauge and spin holonomy, projective phase,
+    Laplacians, cellular sheaves, gauge and spin holonomy, Aharonov--Casher
+    interference, superconducting charge--phase duality, projective phase,
     interferometry, Schur intertwiners, Weyl/Dirac bilinears, Noether currents,
     EFT operator bases, local twistor incidence, Landau symmetry breaking,
     equivariant bifurcation, Krein/Witt theory, AQFT relative entropy, Jacobson
@@ -720,6 +730,7 @@ programs:
   - explorations/action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md
   - explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
   - explorations/superconducting-fluxoid-topology-selected-material-record-formation-and-provenance-boundary-2026-09-02.md
+  - explorations/aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -748,11 +759,13 @@ successor_selection:
     the Dirac--Maxwell current/flux quotient is naturally sufficient for total charge
     while remaining compressive and non-provenance-bearing; and HC-DU-224 shows that
     superconducting topology can form and protect a persistent material record before
-    readout while still losing provenance and requiring a supplied operating packet.
-    Require a physically selected coupling from a natural sufficient response into a
-    target-preserving material record, a selected bundle/path or inter-system
-    intertwiner, a materially complete no-section result, or a finite record-conditioned
-    remainder. No DU candidate qualifies; remain quiescent.
+    readout while still losing provenance and requiring a supplied operating packet;
+    and HC-DU-225 shows that Aharonov--Casher coupling lets charge parity select the
+    fluxoid transition/protection rule, but not one record value or the full charge.
+    Require a physical value-selecting or process-record handoff from a natural
+    response, a selected bundle/path or inter-system intertwiner, a materially
+    complete no-section result, or a finite record-conditioned remainder. No DU
+    candidate qualifies; remain quiescent.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

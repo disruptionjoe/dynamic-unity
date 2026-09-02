@@ -1,0 +1,159 @@
+{
+  "claim_id": "HC-DU-225",
+  "run_id": "RUN-20260902-aharonov-casher-charge-selected-fluxoid-transition-rule",
+  "symmetric_single_slip_rates": {
+    "-4": 4,
+    "-3": 0,
+    "-2": 4,
+    "-1": 0,
+    "0": 4,
+    "1": 0,
+    "2": 4,
+    "3": 0,
+    "4": 4
+  },
+  "no_second_path_rates": {
+    "-4": 1,
+    "-3": 1,
+    "-2": 1,
+    "-1": 1,
+    "0": 1,
+    "1": 1,
+    "2": 1,
+    "3": 1,
+    "4": 1
+  },
+  "asymmetric_path_rates": {
+    "-4": 9,
+    "-3": 1,
+    "-2": 9,
+    "-1": 1,
+    "0": 9,
+    "1": 1,
+    "2": 9,
+    "3": 1,
+    "4": 9
+  },
+  "fluxoid_graphs": {
+    "even_charge_components": [
+      [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "odd_charge_components": [
+      [
+        -4,
+        -2,
+        0,
+        2,
+        4
+      ],
+      [
+        -3,
+        -1,
+        1,
+        3
+      ]
+    ],
+    "odd_charge_asymmetric_components": [
+      [
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ]
+  },
+  "endpoint_laws": {
+    "even": {
+      "0": "1/5",
+      "-2": "1/5",
+      "-1": "1/5",
+      "1": "1/5",
+      "2": "1/5"
+    },
+    "odd": {
+      "0": "1/3",
+      "-2": "1/3",
+      "2": "1/3"
+    },
+    "total_variation": "2/5",
+    "optimal_equal_prior_error": "3/10"
+  },
+  "time_reversal": {
+    "charge_only_equivariant_signed_writer_exists": false,
+    "equivariant_map_count": 0,
+    "oriented_writer_equivariant": true
+  },
+  "checks": [
+    {
+      "name": "symmetric interference suppresses single slips exactly for odd charge",
+      "passed": true
+    },
+    {
+      "name": "charge parity and single-slip rate induce the same source quotient",
+      "passed": true
+    },
+    {
+      "name": "full signed charge does not factor through the parity response",
+      "passed": true
+    },
+    {
+      "name": "even charge admits one connected fluxoid transition component",
+      "passed": true
+    },
+    {
+      "name": "odd charge selects exactly two fluxoid-parity components",
+      "passed": true
+    },
+    {
+      "name": "charge parity selects the transition-graph topology",
+      "passed": true
+    },
+    {
+      "name": "removing the second coherent path erases charge sensitivity",
+      "passed": true
+    },
+    {
+      "name": "path asymmetry removes exact parity protection",
+      "passed": true
+    },
+    {
+      "name": "one realized endpoint does not reconstruct charge parity",
+      "passed": true
+    },
+    {
+      "name": "a parity-changing endpoint is a one-sided even-charge certificate",
+      "passed": true
+    },
+    {
+      "name": "overlapping endpoint laws have nonzero optimal one-shot error",
+      "passed": true
+    },
+    {
+      "name": "time reversal forbids a charge-only signed-winding selector",
+      "passed": true
+    },
+    {
+      "name": "a time-odd orientation makes an equivariant signed response possible",
+      "passed": true
+    }
+  ],
+  "passed": 13,
+  "total": 13,
+  "verdict": "AHARONOV_CASHER_PHYSICAL_COUPLING_FOUND + CHARGE_PARITY_SELECTS_TRANSITION_RULE + FLUXOID_PARITY_PROTECTION_IS_CONDITIONAL + FULL_CHARGE_IS_QUOTIENTED_AWAY + TRANSITION_RULE_IS_NOT_RECORD_VALUE + ONE_ENDPOINT_IS_NOT_ZERO_ERROR_CHARGE_CERTIFICATE + TIME_REVERSAL_FORBIDS_UNBIASED_SIGNED_WRITE + SYMMETRY_AND_ORIENTATION_REMAIN_ANTECEDENTS + NO_COMPLETE_HC-DU-223-TO-224_HANDOFF + NO_READY_SUCCESSOR",
+  "maximum_grade": "Scoped Grade 4 charge-selected transition-rule and equivariant writer obstruction; no new superconducting physics, prediction, complete handoff, issuance, or physical remainder"
+}

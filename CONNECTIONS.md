@@ -147,6 +147,18 @@ and electric Gauss flux remain differently typed. A sibling may import the
 conditional formation/erasure control, but not a universal observer, finality,
 issuance, source-lineage, or substrate claim.
 
+`HC-DU-225` adds a second, differently typed charge-to-fluxoid connection. In
+a coherent two-path superconducting circuit, Aharonov--Casher interference
+makes charge parity select the single-phase-slip rule. At the symmetric
+odd-charge point, only double slips remain and fluxoid parity is protected.
+This is a physical selection of the record's transition/admissibility structure,
+not a copy of total charge into a unique fluxoid value. The bridge loses charge
+outside the modulo-`2e` quotient, needs path coherence and symmetry for exact
+protection, and needs a time-odd orientation to choose signed winding. Sibling
+work may reuse the distinction between value selection and transition-rule
+selection; it may not import public finality, source issuance, provenance, or a
+universal consensus mechanism from it.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

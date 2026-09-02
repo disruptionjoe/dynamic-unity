@@ -5786,3 +5786,36 @@ proves no new superconducting physics, autonomous selection of the ring or
 operating packet, complete electric-charge-to-record handoff, causal
 provenance, observer access, permanent finality, issuance, prediction, or
 physical remainder.
+
+## HC-DU-225 Aharonov--Casher charge-selected fluxoid transition rule
+
+`du_aharonov_casher_charge_fluxoid_transition_rule_probe.py` verifies the
+smallest exact charge-parity/fluxoid-transition control:
+
+- symmetric two-path interference suppresses single fluxon slips exactly for
+  odd integral charge and retains only charge parity;
+- even charge gives one connected winding-transition graph, while protected
+  odd charge gives two components classified by fluxoid parity;
+- deleting the second path removes charge sensitivity;
+- unequal path amplitudes preserve rate information but destroy exact parity
+  protection;
+- one realized endpoint has overlapping charge-parity laws, although a
+  parity-changing endpoint is a one-sided certificate;
+- the frozen illustrative laws have total variation `2/5` and optimal
+  equal-prior one-shot error `3/10`; and
+- time-reversal covariance permits no charge-only map into a nonzero signed
+  winding branch, while an explicit time-odd orientation repairs the type.
+
+Run:
+
+```bash
+python3 tests/du_aharonov_casher_charge_fluxoid_transition_rule_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_aharonov_casher_charge_fluxoid_transition_rule_result.json` and
+reports `13/13`. Passing establishes only a scoped Grade-4 physical
+transition-rule selection, response quotient, endpoint-certification, and
+signed-writer obstruction. It proves no new Aharonov--Casher or superconducting
+physics, total-charge transfer, selected record value, autonomous path symmetry,
+provenance, observer access, issuance, prediction, or physical remainder.

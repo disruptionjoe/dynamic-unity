@@ -8580,3 +8580,33 @@ record mechanism to which a future source-selected transducer might write; it
 does not select that transducer or the complete provenance/access/consumer
 packet. See
 `superconducting-fluxoid-topology-selected-material-record-formation-and-provenance-boundary-2026-09-02.md`.
+
+### 2026-09-02 charge-selected record transition rule
+
+`HC-DU-225` finds a physical bridge between electric charge and fluxoid memory,
+but corrects the expected type of that bridge. In a coherent two-path
+superconducting circuit, Aharonov--Casher phase makes the single-fluxon
+phase-slip amplitude depend on island charge modulo `2e`. At the symmetric
+odd-charge point, single slips cancel while double slips remain, so the
+fluxoid transition graph splits into even and odd winding components.
+
+The source therefore selects whether fluxoid parity is protected. It does not
+select which winding value is occupied. This adds a distinct physical arrow:
+
+```text
+source response
+  -> response quotient
+  -> selected transition/admissibility rule
+  -> conditional record protection
+```
+
+Do not collapse that arrow into a writer. The bridge loses full signed charge;
+one realized endpoint need not reconstruct charge parity; deleting one coherent
+path removes charge sensitivity; path asymmetry destroys exact protection; and
+time-reversal covariance forbids a charge-only map into nonzero signed winding
+without a time-odd bias or orientation.
+
+The current North-Star remainder is a natural value-selecting or process-record
+handoff with causal lineage, not another demonstration that charge changes
+fluxoid dynamics. See
+`aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md`.
