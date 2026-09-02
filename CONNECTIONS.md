@@ -111,6 +111,18 @@ material transducer, archive, or observer-access interface. Import a GU spinor
 or twistor construction only through the versioned receiver and retain every
 arrow in that ladder as a separate burden.
 
+`HC-DU-222` adds the response-family correction. A source action may select a
+carrier-relative family of allowed couplings before any detector is chosen;
+that family defines an operational quotient on states. For a two-component
+Weyl carrier the full current reconstructs the projective state, whereas the
+Dirac vector current is incomplete and the wider bilinear family is needed.
+This permits a GU or other upstream action to export a typed interaction-
+response family without claiming it exported an observer or record. The packet
+must still state which fields, representations, charges, coupling constants,
+and equivalences generate the family. Matching spinor/twistor notation, a
+Noether current, or algebraic completeness never supplies the realized vertex,
+instrument, archive, provenance, access, or use.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

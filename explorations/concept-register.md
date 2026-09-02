@@ -8490,3 +8490,38 @@ material instrument. Reopen only with one concrete action or platform that
 selects the complete chain and survives gauge quotient, selector deletion, and
 no-refit transfer. See
 `spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md`.
+
+### 2026-09-01 action-selected spinor response family and operational quotient
+
+`HC-DU-222` corrects the demand that a source law must select one universal
+detector before it can select accessible distinctions. A field theory's
+carrier, symmetries, field content, and interaction terms can select an
+admissible response family `V`. That family canonically defines
+
+```text
+rho ~V rho' iff every admitted coupling response agrees.
+```
+
+Its sufficiency is carrier-relative. The full Weyl current `(I,X,Y,Z)` spans
+the two-component operator space and reconstructs a projective Weyl state. The
+Dirac vector current spans only four of sixteen operator directions: orthogonal
+Dirac states can share it. The full scalar, pseudoscalar, vector, axial, and
+tensor bilinear family is algebraically complete.
+
+This gives a cleaner forward architecture:
+
+```text
+law selects admissible response family
+  -> family defines the operational quotient
+  -> preparation or environment realizes one interaction
+  -> instrument/transducer writes a material record
+  -> archive/provenance/access/use support a locked target.
+```
+
+Do not call response completeness record formation. A physical reference or
+new mediator enlarges the action/interface envelope; it does not reveal an
+absolute phase hidden inside the unchanged state. Reopen with a natural
+action-derived response family that is sufficient for a locked target while
+remaining noninjective on irrelevant microstructure, or whose source-plus-
+environment dynamics autonomously selects a complete material handoff. See
+`action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md`.

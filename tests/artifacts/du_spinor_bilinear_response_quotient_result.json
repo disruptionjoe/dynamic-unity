@@ -1,0 +1,123 @@
+{
+  "checks": {
+    "another_dirac_bilinear_separates_vector_current_twins": true,
+    "dirac_gamma_clifford_relations_hold": true,
+    "dirac_vector_current_has_rank_four": true,
+    "full_bilinear_operator_remainder_is_zero": true,
+    "hc_du_221_projective_erasure_is_preserved": true,
+    "orthogonal_dirac_states_share_vector_current": true,
+    "pure_weyl_current_is_null": true,
+    "reference_path_reopens_relative_central_phase": true,
+    "sixteen_dirac_covariants_are_full_rank": true,
+    "vector_current_operator_remainder_has_dimension_twelve": true,
+    "weyl_bilinears_erase_global_phase": true,
+    "weyl_current_reconstructs_frozen_projective_states": true,
+    "weyl_current_span_is_operator_complete": true
+  },
+  "claim_id": "HC-DU-222",
+  "dirac_bilinear_channel_dimensions": {
+    "axial_vector": 4,
+    "pseudoscalar": 1,
+    "scalar": 1,
+    "tensor": 6,
+    "total": 16,
+    "vector": 4
+  },
+  "dirac_vector_current": [
+    "1",
+    "0",
+    "0",
+    "0"
+  ],
+  "dirac_vector_current_twin_states": [
+    "upper_spin_up",
+    "upper_spin_down"
+  ],
+  "earned": [
+    "exact Weyl-current projective reconstruction",
+    "exact Dirac vector-current insufficiency and full-bilinear completeness",
+    "action-relative response-family operational quotient",
+    "reference-extension boundary for central phase"
+  ],
+  "first_separating_bilinear_index": 9,
+  "not_earned": [
+    "physical selection of field content, coupling constants, instrument, archive, or observer",
+    "twistor substrate, GU transfer, issuance, remainder, prediction, or new physics"
+  ],
+  "operator_remainder_dimensions": {
+    "dirac_full_bilinears": 0,
+    "dirac_vector_current": 12,
+    "weyl_full_current": 0
+  },
+  "passed": 13,
+  "total": 13,
+  "typed_result": {
+    "response_family_selects": "operational state quotient relative to admitted couplings",
+    "source_action_can_select": "carrier, symmetries, field content, and admitted interaction-response family",
+    "still_required_for_record": "physical vertex realization, preparation, instrument, transducer, archive, provenance, access, and use",
+    "twistor_boundary": "Weyl current/null direction and incidence are geometric-response structure, not material record formation"
+  },
+  "verdict": "ACTION_SELECTED_RESPONSE_FAMILY_DEFINES_OPERATIONAL_QUOTIENT_BUT_NOT_RECORD",
+  "weyl_current_controls": {
+    "+X": {
+      "current": [
+        "1",
+        "1",
+        "0",
+        "0"
+      ],
+      "density_reconstructed": true,
+      "null_current": true
+    },
+    "+Y": {
+      "current": [
+        "1",
+        "0",
+        "1",
+        "0"
+      ],
+      "density_reconstructed": true,
+      "null_current": true
+    },
+    "+Z": {
+      "current": [
+        "1",
+        "0",
+        "0",
+        "1"
+      ],
+      "density_reconstructed": true,
+      "null_current": true
+    },
+    "-X": {
+      "current": [
+        "1",
+        "-1",
+        "0",
+        "0"
+      ],
+      "density_reconstructed": true,
+      "null_current": true
+    },
+    "-Y": {
+      "current": [
+        "1",
+        "0",
+        "-1",
+        "0"
+      ],
+      "density_reconstructed": true,
+      "null_current": true
+    },
+    "-Z": {
+      "current": [
+        "1",
+        "0",
+        "0",
+        "-1"
+      ],
+      "density_reconstructed": true,
+      "null_current": true
+    }
+  }
+}

@@ -5693,3 +5693,37 @@ The artifact is
 interference reopener and typed twistor-to-material boundary only. It proves no
 physical spinor or twistor substrate, selected path, reference, detector,
 archive, GU transfer, issuance, remainder, prediction, or new physics.
+
+## HC-DU-222 spinor bilinear response-family operational quotient
+
+`du_spinor_bilinear_response_quotient_probe.py` uses exact Gaussian-rational
+linear algebra to verify:
+
+- the Weyl-current matrices `(I,X,Y,Z)` span the full two-component operator
+  space and reconstruct the six frozen projective Pauli states;
+- every pure-state Weyl current is null in the frozen controls and erases
+  global phase;
+- an exact Dirac gamma representation satisfies the Clifford relations;
+- the sixteen scalar, pseudoscalar, vector, axial, and tensor covariants have
+  full matrix rank;
+- the Dirac vector-current family has rank four only;
+- two orthogonal Dirac states share the same vector current while another
+  bilinear separates them;
+- the corresponding operator-remainder dimensions are twelve for vector-only
+  Dirac response and zero for the full bilinear span; and
+- a physical path-reference extension preserves the `HC-DU-221` relative-phase
+  reopener.
+
+Run:
+
+```bash
+python3 tests/du_spinor_bilinear_response_quotient_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_spinor_bilinear_response_quotient_result.json` and reports
+`13/13`. Passing establishes a scoped Grade-4 action-relative response-family
+and carrier-dependent sufficiency boundary only. It proves no physical
+selection of field content, coupling constants, detector, archive, observer,
+twistor substrate, GU transfer, issuance, remainder, prediction, or new
+physics.
