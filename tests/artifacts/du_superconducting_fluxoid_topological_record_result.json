@@ -1,0 +1,163 @@
+{
+  "claim_id": "HC-DU-224",
+  "run_id": "RUN-20260902-superconducting-fluxoid-topological-material-record",
+  "carrier": {
+    "modulus": 5,
+    "edge_count": 6,
+    "nonvanishing_state_count": 3125,
+    "winding_values": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "component_sizes": {
+      "-2": 21,
+      "-1": 666,
+      "0": 1751,
+      "1": 666,
+      "2": 21
+    },
+    "normal_blank_winding": null
+  },
+  "factorization": {
+    "full_winding_to_persistent_current": true,
+    "binary_parity_to_current_in_window": true,
+    "binary_parity_to_current_full_family": false
+  },
+  "witnesses": {
+    "same_winding_different_microstate": [
+      [
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        -2,
+        1,
+        0,
+        2,
+        -1,
+        0
+      ]
+    ],
+    "same_winding_different_provenance": [
+      [
+        [
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "passive_quench"
+      ],
+      [
+        [
+          -1,
+          -1,
+          1,
+          0,
+          0,
+          1
+        ],
+        "field_biased_quench"
+      ]
+    ],
+    "same_parity_different_full_family_current": [
+      [
+        -1,
+        -1,
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        2,
+        2,
+        2
+      ]
+    ],
+    "phase_slip_component_jump": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  "checks": [
+    {
+      "name": "nonvanishing local-deformation components equal winding sectors",
+      "passed": true
+    },
+    {
+      "name": "five winding sectors occur in the frozen finite carrier",
+      "passed": true
+    },
+    {
+      "name": "central winding sectors strictly compress phase microstates",
+      "passed": true
+    },
+    {
+      "name": "orientation reversal negates winding",
+      "passed": true
+    },
+    {
+      "name": "winding parity survives orientation reversal",
+      "passed": true
+    },
+    {
+      "name": "winding determines frozen persistent-current response",
+      "passed": true
+    },
+    {
+      "name": "binary winding parity determines response in the two-sector window",
+      "passed": true
+    },
+    {
+      "name": "binary parity fails outside the two-sector operating window",
+      "passed": true
+    },
+    {
+      "name": "winding record does not reconstruct phase microstate",
+      "passed": true
+    },
+    {
+      "name": "winding record does not reconstruct formation provenance",
+      "passed": true
+    },
+    {
+      "name": "phase-slip jump crosses disconnected winding components",
+      "passed": true
+    },
+    {
+      "name": "normal blank has no winding while every admitted condensate does",
+      "passed": true
+    }
+  ],
+  "passed": 12,
+  "total": 12,
+  "verdict": "TOPOLOGY_SELECTS_MATERIAL_RECORD_COORDINATE + BLANK_TO_WRITTEN_FLUXOID_FORMATION + NONZERO_ORDER_PARAMETER_PROTECTS_WINDING + PHASE_SLIP_IS_THE_ERASURE_GATE + BINARY_WINDOW_TARGET_SUFFICIENCY + FULL_SECTOR_AND_PROVENANCE_FIRST_LEAK + READOUT_REVEALS_BUT_DOES_NOT_CREATE_RECORD + CONDITIONAL_MATERIAL_POSITIVE_NOT_UNIVERSAL_SELECTOR + DOES_NOT_COMPLETE_HC-DU-223_CHARGE_HANDOFF + NO_READY_SUCCESSOR",
+  "maximum_grade": "Scoped Grade 4 exact finite topology and target-relative material-record boundary; no universal selector, issuance, permanent finality, prediction, or new physics"
+}

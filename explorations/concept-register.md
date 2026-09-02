@@ -8550,3 +8550,33 @@ amplifier, archive, provenance chain, access route, reset, or consumer.
 Future work should test the response-to-material-write selection seam rather
 than repeat current or Gauss-law sufficiency. See
 `dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md`.
+
+### 2026-09-02 topology-selected superconducting material record
+
+`HC-DU-224` positively answers the narrow question left after the gauge-field
+constraint witness: known physics can form a retained material record before
+an observer reads it. For a superconducting ring with nonzero complex order
+parameter, the normalized phase is a map `S1 -> U(1)`. Its integer winding is
+constant under every continuous deformation that keeps the order parameter
+nonzero. A winding change therefore requires a phase slip through a zero of
+the order parameter.
+
+In a frozen circuit/London window, winding determines the persistent-current
+branch while strictly compressing the microscopic condensate configuration.
+The normal phase has no winding, so a cool-through or engineered transition is
+a genuine blank-to-written event for this record type. A later SQUID or
+transport readout reveals the sector; it need not create it.
+
+Keep the boundary narrow. Reversing ring orientation sends `n` to `-n`, while
+parity survives. Parity determines current only in a declared two-sector
+window and fails on the full winding family. Passive and field-biased writes
+can end in the same sector, so the record does not identify its formation
+route, time, or source. Phase-slip rates also make retention conditional rather
+than absolute.
+
+This result does not finish `HC-DU-223`: electric Gauss flux and magnetic
+fluxoid winding are different typed targets. It establishes a real physical
+record mechanism to which a future source-selected transducer might write; it
+does not select that transducer or the complete provenance/access/consumer
+packet. See
+`superconducting-fluxoid-topology-selected-material-record-formation-and-provenance-boundary-2026-09-02.md`.

@@ -5754,3 +5754,35 @@ reports `11/11`. Passing establishes only a scoped Grade-4 typed composition,
 strictly compressive target-sufficiency result, and upstream/downstream
 first-leak localization. It proves no new QED theorem, selected region or
 detector, autonomous material record, provenance, prediction, or new physics.
+
+## HC-DU-224 superconducting fluxoid topological material record
+
+`du_superconducting_fluxoid_topological_record_probe.py` exhausts a finite
+six-edge nonvanishing phase-ring carrier with 3,125 configurations. It verifies:
+
+- local phase-gradient deformations split the carrier into exactly five
+  connected components indexed by winding `-2,-1,0,1,2`;
+- changing winding requires leaving the admitted nonvanishing deformation
+  graph, the finite analogue of a phase slip;
+- winding strictly compresses microscopic phase configurations and exactly
+  determines the frozen persistent-current response;
+- orientation reversal negates winding while preserving parity;
+- parity determines current in the declared `n in {0,1}` window but fails on
+  the full sector family;
+- the same winding can arise from different formation routes; and
+- the normal blank has no winding while every admitted condensate state does.
+
+Run:
+
+```bash
+python3 tests/du_superconducting_fluxoid_topological_record_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_superconducting_fluxoid_topological_record_result.json` and
+reports `12/12`. Passing establishes a scoped Grade-4 topology-selected
+material-record, erasure-gate, target-sufficiency, and first-leak boundary. It
+proves no new superconducting physics, autonomous selection of the ring or
+operating packet, complete electric-charge-to-record handoff, causal
+provenance, observer access, permanent finality, issuance, prediction, or
+physical remainder.

@@ -3,7 +3,7 @@ title: "Dynamic Unity — Connections (open, sovereign, self-checking)"
 status: active_research
 doc_type: connections
 created: 2026-07-21
-revised: 2026-09-01
+revised: 2026-09-02
 ---
 
 # Connections — open, sovereign, self-checking
@@ -133,6 +133,19 @@ current/flux relation as a response result; it may not use it to claim a
 selected detector, occurrence certificate, lineage, or access interface. A
 downstream material write must independently prove that it preserves the
 sufficient response.
+
+`HC-DU-224` adds a topology-selected material-record positive without turning
+it into a universal interface theorem. In a superconducting ring, a
+nonvanishing `U(1)` order parameter carries integer winding; the sector fixes a
+frozen persistent-current branch and can change only through a phase slip. The
+sector exists before SQUID or transport readout, so known gauge matter can form
+a material record rather than merely a constraint witness. It still erases
+microstate and formation provenance, signed winding needs orientation, and
+binary parity sufficiency depends on a supplied operating window. This is not
+the downstream electric-charge write demanded by `HC-DU-223`: fluxoid winding
+and electric Gauss flux remain differently typed. A sibling may import the
+conditional formation/erasure control, but not a universal observer, finality,
+issuance, source-lineage, or substrate claim.
 
 ## GU theory-payload receiver
 
