@@ -8636,3 +8636,37 @@ new theorem, law, prediction, or standalone paper. Reopen only with a natural
 physical process record preserving its source target and causal lineage, a
 materially complete no-section theorem, or a finite no-refit remainder. See
 `response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md`.
+
+### 2026-09-02 Mott relational-track response and quantum-record boundary
+
+`HC-DU-227` places the Mott cloud-chamber result on the response--record
+ladder. A rotationally symmetric quantum source and interaction can select the
+invariant relation “successive excitations lie on one ray” while selecting no
+absolute direction. In a finite symmetry control, matched and independent
+double-excitation laws have the same uniform local marginals but different
+joint support. No deterministic equivariant selector chooses one direction
+from the symmetric orbit; a uniform stochastic law is equivariant but still
+needs a physical actualization rule to yield one ontic sample.
+
+Direction-conditioned orthogonal chamber sectors can be quantum records before
+classical readout. Their coherent global superposition and dephased mixture
+have the same pointer-track statistics, while a global coherent assay separates
+them. Therefore one material track cannot certify collapse, Everett, Bohmian
+configuration, or another actualization ontology. An ideal track may exactly
+record its direction while erasing source route and formation provenance.
+
+Retain the typed ladder:
+
+```text
+law-selected relational response family
+  != selected orbit member
+  != coherent quantum record carrier
+  != stable classical shadow
+  != one-run material outcome
+  != source-provenance certificate.
+```
+
+The physical and mathematical components are known. The result is a
+standard-physics positive control connecting `HC-DU-222` to `HC-DU-226`, not a
+new law, prediction, paper seed, or successor. See
+`mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md`.

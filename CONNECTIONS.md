@@ -170,6 +170,16 @@ reuse the support/first-leak test, but must not turn exact zero-error into a
 universal evidence standard, infer provenance from a path that did not encode
 it, or report the known statistical theorem as a new physical law.
 
+`HC-DU-227` supplies a standard-quantum positive control for relational-family
+selection. Mott dynamics selects approximately collinear multi-atom excitation
+support from a symmetric source without selecting one absolute track ray. A
+direction-conditioned chamber sector can be a quantum record before classical
+readout, but a coherent global carrier and its dephased mixture have identical
+track-basis statistics. Sibling work may reuse the distinction among selected
+relation, orbit member, quantum carrier, classical shadow, material outcome,
+and provenance. It may not infer collapse, issuance, observer-independent
+single outcome, or source identity from one visible track.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

@@ -1,0 +1,89 @@
+{
+  "claim_id": "HC-DU-227",
+  "status": "PASS",
+  "checks_passed": 16,
+  "checks_total": 16,
+  "direction_count": 4,
+  "matched_support_size": 4,
+  "independent_support_size": 16,
+  "coherent_witness_probability": "1",
+  "mixture_witness_probability": "1/4",
+  "checks": [
+    {
+      "name": "matched response selects only same-direction double excitations",
+      "passed": true
+    },
+    {
+      "name": "matched and independent laws have identical uniform local marginals",
+      "passed": true
+    },
+    {
+      "name": "joint response distinguishes matched geometry from independent response",
+      "passed": true
+    },
+    {
+      "name": "matched response family is rotation invariant",
+      "passed": true
+    },
+    {
+      "name": "the direction orbit has no rotation-fixed member",
+      "passed": true
+    },
+    {
+      "name": "no deterministic equivariant direction selector exists on the symmetric antecedent",
+      "passed": true
+    },
+    {
+      "name": "a uniform stochastic direction law remains symmetry equivariant",
+      "passed": true
+    },
+    {
+      "name": "coherent and dephased carriers have identical pointer track statistics",
+      "passed": true
+    },
+    {
+      "name": "a coherent global witness distinguishes the carrier states",
+      "passed": true
+    },
+    {
+      "name": "dephasing removes every off-diagonal direction coherence",
+      "passed": true
+    },
+    {
+      "name": "an ideal realized direction track has an exact direction decoder",
+      "passed": true
+    },
+    {
+      "name": "a coarse straight-track record does not identify direction",
+      "passed": true
+    },
+    {
+      "name": "response-identical source routes are not certified by the track",
+      "passed": true
+    },
+    {
+      "name": "record support can preserve direction while erasing formation route",
+      "passed": true
+    },
+    {
+      "name": "pointer statistics alone cannot certify coherence loss",
+      "passed": true
+    },
+    {
+      "name": "the local model remains a symmetry and discrimination control only",
+      "passed": true
+    }
+  ],
+  "scope": [
+    "finite direction-permutation symmetry control",
+    "matched-correlation versus local-marginal control",
+    "coherent-carrier versus dephased-shadow discrimination control",
+    "exact support-decoder and provenance counterexamples"
+  ],
+  "not_claimed": [
+    "cloud-chamber simulation",
+    "collapse or single-outcome derivation",
+    "new quantum theorem",
+    "new physical prediction"
+  ]
+}

@@ -5849,3 +5849,35 @@ boundary. Blackwell sufficiency, Shannon zero-error confusability, data
 processing, quantum instruments, and process tensors absorb the mathematics.
 It proves no new law, new quantum theorem, selected complete handoff,
 provenance, prediction, physical remainder, or standalone paper readiness.
+
+## HC-DU-227 Mott relational-track and actualization boundary
+
+`du_mott_relational_track_record_probe.py` verifies a finite exact shadow of
+the Mott cloud-chamber boundary:
+
+- matched double-excitation geometry is present only in the joint response,
+  while local marginals remain uniform;
+- the matched relation is rotation invariant but its direction orbit has no
+  fixed member, so no deterministic equivariant direction selector exists;
+- a uniform stochastic direction law remains symmetry-compatible and is kept
+  distinct from an ontic actualization rule;
+- coherent and dephased matched-pattern carriers give identical classical
+  track-basis statistics;
+- a global coherent witness distinguishes those carriers exactly;
+- ideal realized direction sectors have disjoint support and decode direction;
+  and
+- a coarse straight-track label and response-identical source routes do not
+  decode direction or provenance.
+
+Run:
+
+```bash
+python3 tests/du_mott_relational_track_record_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_mott_relational_track_record_result.json` and reports `16/16`.
+Passing establishes only the scoped symmetry, correlation, quantum/classical-
+shadow, and support-decoding controls. It does not simulate a cloud chamber,
+derive collapse, select an ontology, make a new physical prediction, or create
+paper readiness.
