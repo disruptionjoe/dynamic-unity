@@ -1,0 +1,179 @@
+{
+  "claim_id": "HC-DU-223",
+  "run_id": "RUN-20260902-dirac-maxwell-charge-flux-constraint-witness",
+  "domain": {
+    "completion_count": 80,
+    "charge_flux_class_count": 5,
+    "strictly_compressive": true
+  },
+  "factorization": {
+    "charge_through_noether_current": true,
+    "charge_through_gauss_flux": true,
+    "charge_through_calibrated_write": true,
+    "charge_through_magnitude_only_write": false
+  },
+  "first_leaks": {
+    "spin": [
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "charge": -2,
+        "spin": "down",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          -1
+        ]
+      }
+    ],
+    "interior_distribution": [
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "right",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          -1
+        ]
+      }
+    ],
+    "provenance": [
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "transported",
+        "crossings": [
+          -1,
+          -1
+        ]
+      }
+    ],
+    "crossing_history": [
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          1,
+          -1,
+          -1
+        ]
+      }
+    ],
+    "magnitude_only_write": [
+      {
+        "charge": -2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          -1,
+          -1
+        ]
+      },
+      {
+        "charge": 2,
+        "spin": "up",
+        "distribution": "left",
+        "provenance": "preloaded",
+        "crossings": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "checks": [
+    {
+      "name": "every crossing history has the declared net charge",
+      "passed": true
+    },
+    {
+      "name": "charge factors through action-selected current",
+      "passed": true
+    },
+    {
+      "name": "charge factors through Gauss boundary flux",
+      "passed": true
+    },
+    {
+      "name": "charge response is strictly compressive",
+      "passed": true
+    },
+    {
+      "name": "spin leaks upstream of charge response",
+      "passed": true
+    },
+    {
+      "name": "interior distribution leaks upstream of charge response",
+      "passed": true
+    },
+    {
+      "name": "provenance leaks upstream of endpoint response",
+      "passed": true
+    },
+    {
+      "name": "crossing history leaks upstream of endpoint response",
+      "passed": true
+    },
+    {
+      "name": "calibrated identity write preserves charge target",
+      "passed": true
+    },
+    {
+      "name": "magnitude-only write loses charge sign",
+      "passed": true
+    },
+    {
+      "name": "constraint witness does not identify occurrence",
+      "passed": true
+    }
+  ],
+  "passed": 11,
+  "total": 11,
+  "verdict": "ACTION_SELECTED_CHARGE_RESPONSE + COMPRESSIVE_TARGET_SUFFICIENCY + GAUSS_CONSTRAINT_WITNESS + UPSTREAM_MICROSTATE_AND_PROVENANCE_LEAK + CALIBRATED_WRITE_CAN_PRESERVE_TARGET + DOWNSTREAM_WRITE_CAN_DESTROY_SUFFICIENCY + CONSTRAINT_WITNESS_IS_NOT_MATERIAL_RECORD + NO_READY_SUCCESSOR",
+  "maximum_grade": "Scoped Grade 4 exact typed composition and first-leak localization; no new QED theorem, autonomous material record, empirical excess, prediction, or new physics"
+}

@@ -8525,3 +8525,28 @@ action-derived response family that is sufficient for a locked target while
 remaining noninjective on irrelevant microstructure, or whose source-plus-
 environment dynamics autonomously selects a complete material handoff. See
 `action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md`.
+
+### 2026-09-02 Dirac--Maxwell compressive response and constraint witness
+
+`HC-DU-223` supplies the first exact positive for the target-sufficient branch
+of the `HC-DU-222` reopener. Once the Dirac--Maxwell action, `U(1)`
+representation, normalization, region, orientation, and boundary conditions
+are frozen, the action-selected current and Gauss law give
+
+```text
+matter current -> enclosed charge Q -> boundary flux Phi = Q.
+```
+
+This response is strictly compressive and exactly sufficient for the locked
+total-charge target. It does not reconstruct spin, interior charge
+distribution, source provenance, or boundary-crossing history. A calibrated
+identity write can preserve the sufficient flux; a magnitude-only write loses
+charge sign.
+
+Keep `response`, `constraint witness`, and `material record` separate. The
+gauge field is a real physical witness because it constrains later response,
+but the action does not thereby select a pointer, blank memory, calibration,
+amplifier, archive, provenance chain, access route, reset, or consumer.
+Future work should test the response-to-material-write selection seam rather
+than repeat current or Gauss-law sufficiency. See
+`dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md`.

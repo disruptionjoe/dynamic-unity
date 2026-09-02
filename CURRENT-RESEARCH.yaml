@@ -1,13 +1,14 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 172
-as_of: '2026-09-01'
-authority: Joe direct chat through 2026-09-01 and governed receipts. The latest
-  result shows that a source action can select an admissible interaction-response
-  family before it selects a detector. That family canonically defines an
-  operational state quotient. Its sufficiency depends on carrier type; Weyl current
-  is projectively complete while Dirac vector current is not. Material recording
-  remains a downstream physical handoff. No scientific successor is ready.
+state_revision: 173
+as_of: '2026-09-02'
+authority: Joe direct chat through 2026-09-02 and governed receipts. The latest
+  result supplies the first action-derived, strictly compressive response that is
+  exactly sufficient for a locked target. In frozen Dirac--Maxwell theory, the
+  conserved current and Gauss boundary flux determine total enclosed charge while
+  erasing spin, interior distribution, provenance, and crossing history. This is a
+  physical constraint witness, not an autonomously selected material record. No
+  scientific successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -77,16 +78,15 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-222 corrects an overstrict selector burden. A physical law
-    need not choose one universal detector; its carrier, symmetries, field content,
-    and action can select the admissible interaction-response family, which defines
-    a canonical operational quotient. The exact Weyl current reconstructs its local
-    projective two-spinor, while the Dirac vector current leaves a 12-dimensional
-    operator remainder and needs the wider bilinear family for algebraic completeness.
-    This is response-family selection, not a material record. Reopen with a natural
-    action-derived response family that is sufficient for a locked target without
-    irrelevant microstate injection, or that autonomously selects a material handoff.
-    Remain no-ready.
+  decision_note: HC-DU-223 positively closes the target-sufficient-response branch
+    of the HC-DU-222 reopener at control grade. In frozen Dirac--Maxwell theory, the
+    action-selected current and Gauss boundary flux are a strict quotient of the
+    spinor/field completion and exactly determine total enclosed charge. The same
+    response does not determine spin, interior distribution, occurrence provenance,
+    or crossing history. A calibrated material write can preserve the charge target,
+    while a magnitude-only write loses its sign; neither write is selected by the
+    action. Reopen only at the narrower response-to-material-handoff selection seam,
+    or with a finite record-conditioned remainder. Remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -103,7 +103,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--222 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--223 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -139,6 +139,8 @@ programs:
     evidence_ref: explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
   - id: HC-DU-222
     evidence_ref: explorations/action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md
+  - id: HC-DU-223
+    evidence_ref: explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
   remaining_obligations:
   - Reopen the conditional physical path only with an implementation-complete
     precommitted handoff containing the admitted attempt census, record lineage,
@@ -149,7 +151,10 @@ programs:
     endpoint intertwiner, coherent reference or dissipative response, action-derived
     admissible response family, realized readout, and material archive/access packet.
     The source-pinned law need not choose one universal detector, but it must generate
-    the response family without target fitting.
+    the response family without target fitting. HC-DU-223 supplies the natural
+    target-sufficient-response positive for total electric charge; the remaining
+    burden is physical selection of a material write that preserves the sufficient
+    response and the provenance/access semantics demanded by the target.
   typed_dependencies:
   - type: tests
     target: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
@@ -189,6 +194,7 @@ programs:
   - explorations/holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md
   - explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
   - explorations/action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md
+  - explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -511,7 +517,7 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--222 bank Grade-4 holonomy/no-section, interface,
+  current_grade: HC-DU-207--223 bank Grade-4 holonomy/no-section, interface,
     GU/Jacobson, QFT-landing, selector-key, anomaly/domain/ruler, and domain-selector
     regress/minimal-stability boundaries plus Ising response and source/preparation
     controls. No GU source action, complete handoff, unique QFT, or new physics is
@@ -569,6 +575,8 @@ programs:
     evidence_ref: explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
   - id: HC-DU-222
     evidence_ref: explorations/action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md
+  - id: HC-DU-223
+    evidence_ref: explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
   remaining_obligations:
   - Reopen only with a source-pinned action that physically realizes same-fibre
     return or same-bundle route semantics, derives/selects an inter-system
@@ -637,6 +645,9 @@ programs:
   - type: extracts_from
     target: HC-DU-222
     target_type: result
+  - type: extracts_from
+    target: HC-DU-223
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -694,6 +705,7 @@ programs:
   - explorations/holonomy-to-handoff-return-map-faithful-action-and-soldering-boundary-2026-09-01.md
   - explorations/spinor-twistor-transport-projective-phase-interference-and-material-readout-boundary-2026-09-01.md
   - explorations/action-selected-spinor-bilinear-response-family-operational-quotient-and-record-boundary-2026-09-01.md
+  - explorations/dirac-maxwell-charge-flux-compressive-sufficiency-and-constraint-witness-boundary-2026-09-02.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -718,11 +730,12 @@ successor_selection:
     needs a physical reference and phase-sensitive readout before central holonomy is
     observable, plus material transduction/archive/access before it is a record; and
     HC-DU-222 shows that the action may select an admissible response family and
-    operational quotient without selecting one detector. Require a natural
-    action-derived target-sufficient response family, a physically selected bundle/path
-    or inter-system intertwiner, a selected reference-relative material handoff, a
-    materially complete no-section result, or a finite record-conditioned remainder.
-    No DU candidate qualifies; remain quiescent.
+    operational quotient without selecting one detector; and HC-DU-223 shows that
+    the Dirac--Maxwell current/flux quotient is naturally sufficient for total charge
+    while remaining compressive and non-provenance-bearing. Require a physically
+    selected response-preserving material handoff, a selected bundle/path or
+    inter-system intertwiner, a materially complete no-section result, or a finite
+    record-conditioned remainder. No DU candidate qualifies; remain quiescent.
 anomaly_intake:
   status: open_non_wip
   destination_refs:

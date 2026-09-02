@@ -5727,3 +5727,30 @@ and carrier-dependent sufficiency boundary only. It proves no physical
 selection of field content, coupling constants, detector, archive, observer,
 twistor substrate, GU transfer, issuance, remainder, prediction, or new
 physics.
+
+## HC-DU-223 Dirac--Maxwell charge-flux constraint witness
+
+`du_dirac_maxwell_charge_flux_constraint_witness_probe.py` verifies the frozen
+two-stage factorization boundary on eighty exact finite completions:
+
+- total charge factors through the action-selected current and Gauss boundary
+  flux;
+- five charge/flux classes strictly compress spin, interior distribution,
+  provenance, and crossing-history distinctions;
+- spin, distribution, provenance, and crossing-history targets have exact
+  same-flux/different-target witnesses;
+- a calibrated identity write preserves the charge target; and
+- a magnitude-only material write loses charge sign.
+
+Run:
+
+```bash
+python3 tests/du_dirac_maxwell_charge_flux_constraint_witness_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_dirac_maxwell_charge_flux_constraint_witness_result.json` and
+reports `11/11`. Passing establishes only a scoped Grade-4 typed composition,
+strictly compressive target-sufficiency result, and upstream/downstream
+first-leak localization. It proves no new QED theorem, selected region or
+detector, autonomous material record, provenance, prediction, or new physics.

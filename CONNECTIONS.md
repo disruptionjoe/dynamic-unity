@@ -123,6 +123,17 @@ and equivalences generate the family. Matching spinor/twistor notation, a
 Noether current, or algebraic completeness never supplies the realized vertex,
 instrument, archive, provenance, access, or use.
 
+`HC-DU-223` adds the target-sufficient compression correction. In a frozen
+Dirac--Maxwell theory, the action-selected current and Gauss constraint make
+boundary flux exactly sufficient for total enclosed charge without making the
+response state-complete. Spin, internal distribution, provenance, and crossing
+history remain in the response fibre. This is a lawful physical constraint
+witness, not a formed material archive. An upstream theory may export the
+current/flux relation as a response result; it may not use it to claim a
+selected detector, occurrence certificate, lineage, or access interface. A
+downstream material write must independently prove that it preserves the
+sufficient response.
+
 ## GU theory-payload receiver
 
 The versioned receiver at
