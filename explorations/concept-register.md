@@ -8610,3 +8610,29 @@ The current North-Star remainder is a natural value-selecting or process-record
 handoff with causal lineage, not another demonstration that charge changes
 fluxoid dynamics. See
 `aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md`.
+
+### 2026-09-02 response--record--rule composition boundary
+
+`HC-DU-226` formalizes the exact boundary exposed by `HC-DU-223--225`.
+Selection of a source response, formation of one material record value, and
+selection of the record carrier's transition rule are independent physical
+achievements. For a stochastic record law `P(z|x)`, a held-out target is
+exactly reconstructible iff every pair of target-distinct completions has
+disjoint record support. The same criterion applies to a complete finite path.
+
+This localizes two losses in the charge--fluxoid chain. The Aharonov--Casher
+coupling first quotients total charge to charge parity, so no downstream
+fluxoid record can recover full signed charge. Its parity-conditioned
+transition laws then share the no-slip path at every finite horizon, so
+transition-rule selection does not itself yield a two-sided zero-error parity
+certificate. A single phase slip remains a one-sided certificate in the ideal
+model. Provenance is separately absent when two formation routes induce the
+same path law.
+
+Blackwell sufficiency, Shannon zero-error confusability, data processing,
+quantum instruments, and process tensors absorb the component mathematics.
+Retain the DU typed composition and first-leak audit; do not promote it as a
+new theorem, law, prediction, or standalone paper. Reopen only with a natural
+physical process record preserving its source target and causal lineage, a
+materially complete no-section theorem, or a finite no-refit remainder. See
+`response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md`.

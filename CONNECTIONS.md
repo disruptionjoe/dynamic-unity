@@ -159,6 +159,17 @@ work may reuse the distinction between value selection and transition-rule
 selection; it may not import public finality, source issuance, provenance, or a
 universal consensus mechanism from it.
 
+`HC-DU-226` supplies the exact composition rule for those partial positives.
+A selected response, a formed material value, and a selected transition rule
+are independent. A stochastic endpoint or finite process record reconstructs
+a held-out target exactly iff no target-distinct completions have overlapping
+record support. The Aharonov--Casher bridge therefore has two typed first
+leaks: total charge is lost at the modulo-`2e` response quotient, and finite
+parity-conditioned fluxoid histories share the no-slip path. Sibling work may
+reuse the support/first-leak test, but must not turn exact zero-error into a
+universal evidence standard, infer provenance from a path that did not encode
+it, or report the known statistical theorem as a new physical law.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

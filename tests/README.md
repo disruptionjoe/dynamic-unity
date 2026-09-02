@@ -5819,3 +5819,33 @@ transition-rule selection, response quotient, endpoint-certification, and
 signed-writer obstruction. It proves no new Aharonov--Casher or superconducting
 physics, total-charge transfer, selected record value, autonomous path symmetry,
 provenance, observer access, issuance, prediction, or physical remainder.
+
+## HC-DU-226 response--record--rule composition boundary
+
+`du_response_record_rule_composition_probe.py` verifies the exact finite
+support boundary joining `HC-DU-223--225`:
+
+- all 49 nonempty binary-target/three-output support pairs satisfy the exact
+  decoder iff disjoint-target-support criterion;
+- a target-sufficient response can leave the carrier blank;
+- a formed stable carrier can remain target-insufficient;
+- distinct transition rules can have overlapping endpoint and finite-path
+  supports;
+- the no-slip path prevents finite two-sided zero-error parity certification;
+- a disjoint-support stochastic writer admits an exact decoder;
+- the modulo-`2e` response makes full charge irrecoverable downstream; and
+- two formation routes with the same path law do not yield provenance.
+
+Run:
+
+```bash
+python3 tests/du_response_record_rule_composition_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_response_record_rule_composition_result.json` and reports
+`16/16`. Passing establishes a scoped Grade-4 composition and first-leak
+boundary. Blackwell sufficiency, Shannon zero-error confusability, data
+processing, quantum instruments, and process tensors absorb the mathematics.
+It proves no new law, new quantum theorem, selected complete handoff,
+provenance, prediction, physical remainder, or standalone paper readiness.
