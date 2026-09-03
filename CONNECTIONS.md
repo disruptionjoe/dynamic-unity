@@ -193,6 +193,17 @@ unconditional all-attempt level. Detector nonlinearity, conditioning, source--
 apparatus correlation, and incomplete attempt lineage must be excluded before
 claiming a Born-rule delta.
 
+`HC-DU-229` supplies the mixed-state and composite-system correction. A fixed
+response that factors through a complete density operator and respects ordinary
+classical randomization must be affine. Applying the cutoff to pure ensemble
+members distinguishes the equal `Z` and `X` decompositions of `I/2`; a Bell
+partner can remotely choose those decompositions, so the naive branchwise rule
+signals. A preparation-route variable repairs formal factorization only when it
+is a physically formed, locally accessible process record. Sibling work may
+reuse this affine-or-provenance boundary but must not report a universal no-go
+against nonlinear quantum theory, erase the causal nonlinear escape class, or
+treat inaccessible provenance as a local control variable.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

@@ -1,0 +1,83 @@
+{
+  "claim_id": "HC-DU-229",
+  "prediction_id": "PRED-DU-006",
+  "status": "PASS",
+  "checks_passed": 13,
+  "checks_total": 13,
+  "threshold": "1/4",
+  "fixed_effect_z_average": "1/2",
+  "fixed_effect_x_average": "1/2",
+  "cutoff_z_average": "3/8",
+  "cutoff_x_average": "1/4",
+  "branchwise_steering_contrast": "1/8",
+  "density_level_i_over_2": "1/4",
+  "no_click_probability": "1/2",
+  "checks": [
+    {
+      "name": "the Z and X pure-state ensembles have the same density operator",
+      "passed": true
+    },
+    {
+      "name": "every fixed qubit effect obeys the tested ensemble identity",
+      "passed": true
+    },
+    {
+      "name": "the literal cutoff separates the two pure-state ensembles",
+      "passed": true
+    },
+    {
+      "name": "the branchwise steering contrast is nonzero",
+      "passed": true
+    },
+    {
+      "name": "the density-level rule is invariant under remote decomposition choice",
+      "passed": true
+    },
+    {
+      "name": "the density-level rule conflicts with ordinary Z randomization",
+      "passed": true
+    },
+    {
+      "name": "the three route responses do not factor through density state alone",
+      "passed": true
+    },
+    {
+      "name": "adding the route label restores formal factorization",
+      "passed": true
+    },
+    {
+      "name": "the repair enlarges the state with preparation provenance",
+      "passed": true
+    },
+    {
+      "name": "the offset can be completed with an explicit no-click outcome",
+      "passed": true
+    },
+    {
+      "name": "conditioning on a click changes the reported probability",
+      "passed": true
+    },
+    {
+      "name": "a no-click completion does not remove the ensemble contrast",
+      "passed": true
+    },
+    {
+      "name": "the probe contains no empirical or hardware result",
+      "passed": true
+    }
+  ],
+  "scope": [
+    "four pure qubit preparations and one fixed effect",
+    "density-level versus branchwise cutoff completion",
+    "Bell-state Z/X remote-steering witness",
+    "state-only versus preparation-route factorization",
+    "unconditional versus click-conditioned response"
+  ],
+  "not_claimed": [
+    "universal no-go against nonlinear quantum theories",
+    "physical realization of the cutoff",
+    "observed superluminal signalling",
+    "observed Born-rule violation",
+    "new fundamental law"
+  ]
+}

@@ -1,15 +1,15 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 178
-as_of: '2026-09-02'
-authority: Joe direct chat through 2026-09-02 and governed receipts. The latest
-  result audits the first-droplet proposal against the Mott and physical-record
-  boundaries. A classically definite thermal cluster can seed one track, but then
-  metastability amplifies asymmetric microscopic data rather than deriving a
-  single-run selector. A literal all-attempt low-amplitude offset would violate
-  fixed-instrument convex affinity and has conditional empirical content, but the
-  current proposal and evidence do not clear mixed-state, detector, conditioning,
-  calibration, or attempt-census gates. No scientific successor is ready.
+state_revision: 179
+as_of: '2026-09-03'
+authority: Joe direct chat through 2026-09-03 and governed receipts. The latest
+  result closes the mixed-state and composite-system gate on the first-droplet
+  cutoff. A complete fixed response on density states that preserves ordinary
+  randomization must be affine. A branchwise cutoff distinguishes remotely
+  steerable decompositions of one density state and therefore signals under the
+  standard composite contract. Preparation provenance can repair factoring only
+  as extra physically accessible process structure. The state-only prediction is
+  retired; no scientific successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -79,18 +79,17 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-228 tests whether a barely-subcritical first droplet closes
-    HC-DU-227's orbit-member and actualization gaps. The proposal assumes a classical
-    random thermal cluster population and a deterministic complete chamber, so a
-    particular track inherits its selector from the microscopic completion; an
-    objective stochastic innovation would be an added law, while closed unitary
-    dynamics retains correlated alternatives. A literal offset response
-    max(Tr(P rho)-c,0) is non-affine and cannot be one fixed POVM, but current data
-    do not establish that response or exclude apparatus and selection absorbers.
-    PRED-DU-006 is an imported conditional seam only. Reopen with a fully specified
-    mixed-state/composite law and frozen all-attempt packet, a natural value-selecting
-    provenance-bearing process, or a finite record-conditioned remainder. Remain
-    no-ready.
+  decision_note: HC-DU-229 discharges the mixed-state/composite gate named by
+    HC-DU-228. Ordinary mixing makes every complete fixed state response affine.
+    Applying the offset to pure ensemble members instead gives a 1/8 contrast
+    between equal Z and X decompositions of I/2 at c=1/4; a Bell partner can choose
+    those decompositions remotely, so the naive branchwise rule signals. Applying
+    it to I/2 directly avoids that signal but conflicts with its own randomized
+    pure-state calibration. An accessible preparation-route record or a complete
+    causal nonlinear theory can leave the class, but neither is supplied. Retire
+    the state-only form of PRED-DU-006. Reopen only with a complete source-owned
+    process/composition/locality law, a natural value-selecting provenance-bearing
+    process, or a finite record-conditioned remainder. Remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -107,7 +106,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--228 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--229 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -155,6 +154,8 @@ programs:
     evidence_ref: explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - id: HC-DU-228
     evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
+  - id: HC-DU-229
+    evidence_ref: explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
   remaining_obligations:
   - Reopen the conditional physical path only with an implementation-complete
     precommitted handoff containing the admitted attempt census, record lineage,
@@ -179,8 +180,11 @@ programs:
     HC-DU-228 shows that a classically definite first-droplet microstate can supply
     that orbit member only as inherited disclosure, while an objective stochastic
     innovation would be an added law. Its literal low-amplitude offset has conditional
-    excess only after mixed-state, fixed-instrument, and all-attempt gates. The
-    remaining burden is a natural value-selecting or
+    excess only after mixed-state, fixed-instrument, and all-attempt gates.
+    HC-DU-229 closes the simple mixed-state extensions because density-level response
+    conflicts with ordinary randomization, branchwise response fails remote
+    steering, and a provenance repair requires an accessible process record.
+    The remaining burden is a complete causal process law, a natural value-selecting or
     process-record transducer and the complete provenance/access/consumer semantics
     demanded by the target—not another synthetic support theorem.
   typed_dependencies:
@@ -189,7 +193,8 @@ programs:
     target_type: program
   strongest_absorber: Process, Blackwell sufficiency, zero-error confusability,
     data processing, identifiability, Mott cloud-chamber dynamics, decoherence,
-    detector, instrument, fixed-POVM convex affinity, nonlinear-quantum signalling,
+    detector, instrument, fixed-POVM convex affinity, operational mixtures,
+    HJW steering, Gisin--Polchinski nonlinear-quantum signalling,
     Ising/Gibbs, holonomy, torsor, representation, gauge, Aharonov--Casher
     interference, superconducting charge--phase duality, spin bundles, projective
     quantum states, interferometry, Weyl/Dirac bilinears, Fierz identities, Noether
@@ -231,6 +236,7 @@ programs:
   - explorations/response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
+  - explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
   - explorations/prediction-register.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
@@ -560,7 +566,7 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--228 bank Grade-4 holonomy/no-section, interface,
+  current_grade: HC-DU-207--229 bank Grade-4 holonomy/no-section, interface,
     GU/Jacobson, QFT-landing, selector-key, anomaly/domain/ruler, and domain-selector
     regress/minimal-stability boundaries plus Ising response and source/preparation
     controls. No GU source action, complete handoff, unique QFT, or new physics is
@@ -630,6 +636,8 @@ programs:
     evidence_ref: explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - id: HC-DU-228
     evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
+  - id: HC-DU-229
+    evidence_ref: explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
   remaining_obligations:
   - Reopen only with a source-pinned action that physically realizes same-fibre
     return or same-bundle route semantics, derives/selects an inter-system
@@ -716,6 +724,9 @@ programs:
   - type: extracts_from
     target: HC-DU-228
     target_type: result
+  - type: extracts_from
+    target: HC-DU-229
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -780,6 +791,7 @@ programs:
   - explorations/response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
+  - explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -818,7 +830,11 @@ successor_selection:
     while finding it absorbed by standard physics; and HC-DU-228 shows that a
     classically definite first-droplet seed makes selection inherited disclosure,
     while a literal all-attempt amplitude offset would violate fixed-instrument
-    convex affinity and therefore remains only a conditional prediction seam.
+    convex affinity and therefore remains only a conditional prediction seam;
+    and HC-DU-229 retires that state-only seam because density-level response
+    conflicts with ordinary mixing while branchwise response fails the remote-
+    steering/no-signalling gate. Only a complete causal process law or physically
+    accessible provenance-dependent response can reopen it.
     Require a physical value-selecting or process-record handoff from a natural
     response, a selected bundle/path or inter-system
     intertwiner, a materially complete no-section result, or a finite

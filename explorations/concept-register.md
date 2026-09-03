@@ -8706,3 +8706,36 @@ absorbers.
 is not evidence of a Born-rule anomaly, a DU law, a paper seed, a hardware
 action, or a successor. See
 `first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md`.
+
+### 2026-09-03 low-amplitude affine-or-provenance composition boundary
+
+`HC-DU-229` closes the mixed-state and entangled-composite gate left open by
+the first-droplet audit. If a density operator is the complete operational
+state, a fixed unconditional response respecting ordinary classical
+randomization must be affine. The literal offset therefore cannot be a
+complete state-only response law.
+
+The smallest exact witness uses the equal `Z` and `X` decompositions of `I/2`.
+For `P=|1><1|` and `c=1/4`, the branchwise cutoff gives ensemble-average
+responses `3/8` and `1/4`, while every fixed quantum effect gives equal
+averages. A Bell state realizes both decompositions through a remote `Z/X`
+measurement choice. If the local response follows the remotely selected pure
+ensemble, Bob's unconditional frequency changes by `1/8`, violating the
+standard no-signalling contract.
+
+Keep the live escape typed:
+
+```text
+fixed density-state response + ordinary mixing -> affine
+branchwise decomposition response + standard steering -> signalling
+route-dependent response -> requires a formed, locally accessible process record
+causal nonlinear response -> requires a complete alternative state/composition/update law
+```
+
+This is not a universal no-go against nonlinear quantum mechanics. It retires
+only the simple state-only version of `PRED-DU-006`. The surviving reopener is
+a source-owned complete process law that predicts a nonzero local four-
+preparation contrast, zero remote-choice contrast, and no-refit separation
+from every admitted ordinary quantum process. No anomaly, law, paper, hardware
+action, or successor is established. See
+`low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md`.

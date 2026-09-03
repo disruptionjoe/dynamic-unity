@@ -5914,3 +5914,33 @@ The artifact is
 `16/16`. Passing does not simulate nucleation, validate Schonfeld's mechanism,
 establish a Born-rule violation, select a single-run ontology, or authorize
 hardware. It preserves the exact scope of imported `PRED-DU-006`.
+
+## HC-DU-229 low-amplitude mixture, composition, and steering gate
+
+`du_low_amplitude_mixture_steering_gate_probe.py` checks the exact completion
+boundary for the non-affine cutoff isolated by `HC-DU-228`:
+
+- equal `Z` and `X` pure-state ensembles both average to `I/2`;
+- every fixed qubit effect gives those ensembles the same mean response;
+- the cutoff at `c=1/4` gives `3/8` versus `1/4`;
+- the resulting branchwise Bell-steering contrast is `1/8`;
+- applying the cutoff directly to `I/2` avoids decomposition dependence but
+  conflicts with ordinary randomized pure-state frequencies;
+- the response therefore does not factor through density state alone;
+- adding preparation route repairs formal factorization only by enlarging the
+  state with provenance; and
+- an explicit no-click outcome completes normalization but conditioning on
+  clicks changes the operational contract rather than restoring affinity.
+
+Run:
+
+```bash
+python3 tests/du_low_amplitude_mixture_steering_gate_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_low_amplitude_mixture_steering_gate_result.json` and reports
+`13/13`. Passing establishes only the scoped finite affine, mixture,
+steering, provenance-factorization, and no-click controls. It does not prove a
+universal no-go against nonlinear quantum theories, simulate a detector,
+establish a Born-rule anomaly, or authorize hardware.

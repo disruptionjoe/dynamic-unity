@@ -3,7 +3,7 @@ title: "Dynamic Unity prediction register — Lane 4.2 pre-seed holding state"
 status: active_research
 doc_type: register
 created: 2026-07-21
-revised: 2026-09-02
+revised: 2026-09-03
 note: "Tracks scientific prediction hardening independently from cheap Drafting Factory paper-opportunity intake. Registration, Factory seeding, scientific hardening, drafting, and publication are distinct."
 ---
 
@@ -336,47 +336,63 @@ does not register, harden, duplicate, seed, or promote either prediction.
 
 ### PRED-DU-006 — low-amplitude detector cutoff convex-affinity discriminator
 
-- **State: SEAM / IMPORTED CONDITIONAL DISCRIMINATOR / NOT HARDWARE-AUTHORIZED.**
+- **State: SEAM / STATE-ONLY FORM RETIRED / COMPLETE-PROCESS REOPENER /
+  NOT HARDWARE-AUTHORIZED.**
 - **Source and ownership.** Schonfeld's first-droplet program proposes an
   emergent position-space Born response and a possible detector-dependent
   cutoff or offset at very small wavefunction density. Dynamic Unity owns only
   the exact instrument-affinity audit and experiment contract, not the
   mechanism or prediction.
-- **Conditional claim.** If one frozen detector has an unconditional
-  all-attempt response
+- **Retired state-only claim.** The expression
   \[
   f_c(q)=\max(q-c,0),\qquad q=\operatorname{Tr}(P\rho),\quad c>0,
   \]
-  then its outcome law is not affine in `rho` and cannot be realized by one
-  fixed standard-quantum POVM effect. For `0<c<=1/2`, states with
-  `q=(0,c,2c)` give
+  cannot be a complete response law on density operators while also preserving
+  ordinary classical randomization. Applied to pure ensemble members, it fails
+  the standard remote-steering/no-signalling gate. The source does not supply a
+  complete alternative state, composition, and update law, so this simple form
+  is retired rather than hardened.
+- **Exact witness.** For `P=|1><1|`, `c=1/4`, and the four pure states
+  `|0>`, `|1>`, `|+>`, and `|->`, every fixed effect satisfies
   \[
-  f_c(c)=0\ne\frac{f_c(0)+f_c(2c)}2=\frac c2.
+  \frac{p(0)+p(1)}2=\frac{p(+)+p(-)}2,
   \]
-- **Competing interpretations.** A density-level rule predicts a direct
-  convex-mixture violation. A rule applied to hidden ensemble members predicts
-  preparation-decomposition dependence. A changing detector, source--apparatus
-  correlation, postselection, dead time, saturation, or missing-attempt process
-  can mimic nonlinearity without violating a fixed enlarged quantum instrument.
+  because both ensembles average to `I/2`. The cutoff instead gives `3/8`
+  versus `1/4`, a contrast of `1/8`. If a remote Bell partner's `Z/X` choice
+  selects those decompositions and the local response follows the pure members,
+  the same contrast is a superluminal signal.
+- **Surviving conditional claim.** One source-pinned complete process law must
+  specify pure and mixed preparations, entangled composites, detector coupling,
+  no-click/rejection, and accessible preparation provenance. Under one frozen
+  all-attempt apparatus it must predict the nonzero four-preparation contrast,
+  predict zero spacelike remote-choice contrast, and exclude every admitted
+  ordinary quantum process without refit.
+- **Competing interpretations.** A physically accessible preparation or
+  detector record can lawfully make response depend on route, but then the
+  claim is process/provenance-conditioned rather than state-only. A causal
+  nonlinear completion can also escape the simple no-go only by supplying a
+  different complete state, composition, update, or locality contract.
+  Postselection, dead time, saturation, finite-horizon first-event probability,
+  or missing attempts can mimic the curve without unconditional excess.
 - **Current evidence.** The cloud-chamber data were opportunistic and
   uncontrolled; the cutoff was fitted after an apparent radial deficit. The
   superconducting-qubit extension is a rough extrapolation through a supplied
   analog-to-digital-converter model. No anomaly is registered.
-- **Hardening gate.** Specify how mixed states and entangled composites
-  transform; independently freeze `c`; prepare operationally equivalent
-  density operators by distinct procedures; freeze apparatus, exposure,
-  classifier, resources, and all-attempt census; calibrate ordinary detector
-  nonlinearities; prove the no-signalling guard; and preregister the contrast,
-  uncertainty, falsifier, and retreat cost.
+- **Hardening gate.** Supply the complete process law above; independently
+  freeze `c`; freeze apparatus, exposure, classifier, resources, and all-attempt
+  census; calibrate ordinary detector nonlinearities; prove no-signalling for
+  entangled inputs; and preregister the local four-preparation and remote-choice
+  contrasts, uncertainties, falsifiers, and retreat costs.
 - **Cheap kill.** Absorb the candidate if one fixed enlarged quantum instrument
   plus its attempt-selection process reproduces the all-attempt law. Keep it
   underdefined if the source does not say whether the cutoff acts on the density
   operator, pure ensemble members, or a larger correlated state.
-- **Hardware posture.** The exact local affinity test is complete. No hardware,
-  provider search, or experiment is authorized. A later physical test needs a
-  complete frozen packet and external access, but that is not required for the
-  current learning.
-- **Source pointer.** `first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md`.
+- **Hardware posture.** The exact local mixture/composition gate is complete.
+  No hardware, provider search, or experiment is authorized. More detector
+  modeling cannot advance the seam without the complete law.
+- **Source pointers.**
+  `first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md`;
+  `low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md`.
 
 ---
 
