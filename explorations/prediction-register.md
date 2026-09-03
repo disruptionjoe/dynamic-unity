@@ -3,7 +3,7 @@ title: "Dynamic Unity prediction register — Lane 4.2 pre-seed holding state"
 status: active_research
 doc_type: register
 created: 2026-07-21
-revised: 2026-07-30
+revised: 2026-09-02
 note: "Tracks scientific prediction hardening independently from cheap Drafting Factory paper-opportunity intake. Registration, Factory seeding, scientific hardening, drafting, and publication are distinct."
 ---
 
@@ -333,6 +333,50 @@ does not register, harden, duplicate, seed, or promote either prediction.
   `reversible-pointer-csl-quadratic-kernel-degeneracy-and-breathing-contrast-repair-2026-07-30.md`;
   `reversible-pointer-csl-three-width-strict-convexity-prediction-lock-and-timing-nuisance-boundary-2026-07-31.md`;
   `reversible-pointer-csl-three-width-conditioning-and-local-viability-boundary-2026-07-31.md`.
+
+### PRED-DU-006 — low-amplitude detector cutoff convex-affinity discriminator
+
+- **State: SEAM / IMPORTED CONDITIONAL DISCRIMINATOR / NOT HARDWARE-AUTHORIZED.**
+- **Source and ownership.** Schonfeld's first-droplet program proposes an
+  emergent position-space Born response and a possible detector-dependent
+  cutoff or offset at very small wavefunction density. Dynamic Unity owns only
+  the exact instrument-affinity audit and experiment contract, not the
+  mechanism or prediction.
+- **Conditional claim.** If one frozen detector has an unconditional
+  all-attempt response
+  \[
+  f_c(q)=\max(q-c,0),\qquad q=\operatorname{Tr}(P\rho),\quad c>0,
+  \]
+  then its outcome law is not affine in `rho` and cannot be realized by one
+  fixed standard-quantum POVM effect. For `0<c<=1/2`, states with
+  `q=(0,c,2c)` give
+  \[
+  f_c(c)=0\ne\frac{f_c(0)+f_c(2c)}2=\frac c2.
+  \]
+- **Competing interpretations.** A density-level rule predicts a direct
+  convex-mixture violation. A rule applied to hidden ensemble members predicts
+  preparation-decomposition dependence. A changing detector, source--apparatus
+  correlation, postselection, dead time, saturation, or missing-attempt process
+  can mimic nonlinearity without violating a fixed enlarged quantum instrument.
+- **Current evidence.** The cloud-chamber data were opportunistic and
+  uncontrolled; the cutoff was fitted after an apparent radial deficit. The
+  superconducting-qubit extension is a rough extrapolation through a supplied
+  analog-to-digital-converter model. No anomaly is registered.
+- **Hardening gate.** Specify how mixed states and entangled composites
+  transform; independently freeze `c`; prepare operationally equivalent
+  density operators by distinct procedures; freeze apparatus, exposure,
+  classifier, resources, and all-attempt census; calibrate ordinary detector
+  nonlinearities; prove the no-signalling guard; and preregister the contrast,
+  uncertainty, falsifier, and retreat cost.
+- **Cheap kill.** Absorb the candidate if one fixed enlarged quantum instrument
+  plus its attempt-selection process reproduces the all-attempt law. Keep it
+  underdefined if the source does not say whether the cutoff acts on the density
+  operator, pure ensemble members, or a larger correlated state.
+- **Hardware posture.** The exact local affinity test is complete. No hardware,
+  provider search, or experiment is authorized. A later physical test needs a
+  complete frozen packet and external access, but that is not required for the
+  current learning.
+- **Source pointer.** `first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md`.
 
 ---
 

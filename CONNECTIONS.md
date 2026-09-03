@@ -180,6 +180,19 @@ relation, orbit member, quantum carrier, classical shadow, material outcome,
 and provenance. It may not infer collapse, issuance, observer-independent
 single outcome, or source identity from one visible track.
 
+`HC-DU-228` adds the first-droplet attribution and detector-affinity gate. A
+classically definite thermal cluster can break rotational symmetry and seed one
+track, but then the selection is inherited from the microscopic completion;
+metastable nucleation amplifies rather than originates it. An objective
+stochastic innovation would be a different, added physical antecedent, while
+closed unitary dynamics retains correlated alternatives. Sibling work may
+reuse this trilemma but may not cast ordinary thermal randomness as issuance or
+single-run collapse. The conditional offset response in `PRED-DU-006` exceeds
+a fixed quantum instrument only if it violates convex affinity at the
+unconditional all-attempt level. Detector nonlinearity, conditioning, source--
+apparatus correlation, and incomplete attempt lineage must be excluded before
+claiming a Born-rule delta.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

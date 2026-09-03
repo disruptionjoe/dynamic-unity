@@ -1,15 +1,15 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 177
+state_revision: 178
 as_of: '2026-09-02'
 authority: Joe direct chat through 2026-09-02 and governed receipts. The latest
-  result uses the Mott cloud-chamber problem as a standard-physics positive control.
-  Symmetric quantum dynamics selects the relational geometry of a track-like
-  response family without selecting one absolute ray or single-run outcome. A
-  coherent quantum record carrier and its dephased mixture can have identical
-  classical track statistics, and a realized track can preserve direction while
-  erasing source route and actualization ontology. The components are known; no
-  scientific successor is ready.
+  result audits the first-droplet proposal against the Mott and physical-record
+  boundaries. A classically definite thermal cluster can seed one track, but then
+  metastability amplifies asymmetric microscopic data rather than deriving a
+  single-run selector. A literal all-attempt low-amplitude offset would violate
+  fixed-instrument convex affinity and has conditional empirical content, but the
+  current proposal and evidence do not clear mixed-state, detector, conditioning,
+  calibration, or attempt-census gates. No scientific successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -79,16 +79,18 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-227 tests the HC-DU-222/226 ladder against the Mott
-    cloud-chamber positive control. The symmetric interaction selects approximately
-    collinear joint-excitation support but no absolute ray. Direction-conditioned
-    chamber sectors may be quantum records before classical readout, while coherent
-    and dephased carriers share the same track-basis statistics. One realized track
-    can reconstruct direction without certifying its source route or actualization
-    ontology. Mott, decoherence, symmetry, and sufficiency absorb the components.
-    Reopen only with a natural value-selecting/provenance-bearing process packet, a
-    materially complete no-section theorem, or a finite record-conditioned remainder.
-    Remain no-ready.
+  decision_note: HC-DU-228 tests whether a barely-subcritical first droplet closes
+    HC-DU-227's orbit-member and actualization gaps. The proposal assumes a classical
+    random thermal cluster population and a deterministic complete chamber, so a
+    particular track inherits its selector from the microscopic completion; an
+    objective stochastic innovation would be an added law, while closed unitary
+    dynamics retains correlated alternatives. A literal offset response
+    max(Tr(P rho)-c,0) is non-affine and cannot be one fixed POVM, but current data
+    do not establish that response or exclude apparatus and selection absorbers.
+    PRED-DU-006 is an imported conditional seam only. Reopen with a fully specified
+    mixed-state/composite law and frozen all-attempt packet, a natural value-selecting
+    provenance-bearing process, or a finite record-conditioned remainder. Remain
+    no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -105,7 +107,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--227 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--228 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -151,6 +153,8 @@ programs:
     evidence_ref: explorations/response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md
   - id: HC-DU-227
     evidence_ref: explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
+  - id: HC-DU-228
+    evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
   remaining_obligations:
   - Reopen the conditional physical path only with an implementation-complete
     precommitted handoff containing the admitted attempt census, record lineage,
@@ -172,7 +176,11 @@ programs:
     provenance layers. HC-DU-227 shows that ordinary unitary dynamics can select a
     matched relational track family and conditional quantum record sectors while
     leaving the orbit member, one-run actualization, and source provenance separate.
-    The remaining burden is a natural value-selecting or
+    HC-DU-228 shows that a classically definite first-droplet microstate can supply
+    that orbit member only as inherited disclosure, while an objective stochastic
+    innovation would be an added law. Its literal low-amplitude offset has conditional
+    excess only after mixed-state, fixed-instrument, and all-attempt gates. The
+    remaining burden is a natural value-selecting or
     process-record transducer and the complete provenance/access/consumer semantics
     demanded by the target—not another synthetic support theorem.
   typed_dependencies:
@@ -181,7 +189,7 @@ programs:
     target_type: program
   strongest_absorber: Process, Blackwell sufficiency, zero-error confusability,
     data processing, identifiability, Mott cloud-chamber dynamics, decoherence,
-    detector, instrument,
+    detector, instrument, fixed-POVM convex affinity, nonlinear-quantum signalling,
     Ising/Gibbs, holonomy, torsor, representation, gauge, Aharonov--Casher
     interference, superconducting charge--phase duality, spin bundles, projective
     quantum states, interferometry, Weyl/Dirac bilinears, Fierz identities, Noether
@@ -222,6 +230,8 @@ programs:
   - explorations/aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md
   - explorations/response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
+  - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
+  - explorations/prediction-register.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
   owner_repo: dynamic-unity
@@ -234,7 +244,7 @@ programs:
   - CH-FORMAL
   target: Parked after apparatus, stochastic-selector, and prepared-instrument
     selection tests.
-  current_grade: HC-DU-137--152/156/217/219--220/227 bank Grade-4 interface/apparatus
+  current_grade: HC-DU-137--152/156/217/219--220/227--228 bank Grade-4 interface/apparatus
     selection boundaries, the stochastic-selector correction, the conditional-
     prepared versus autonomous-interface distinction, and the autonomous stable-
     handoff parity/anchor boundary.
@@ -250,6 +260,8 @@ programs:
     evidence_ref: explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   - id: HC-DU-227
     evidence_ref: explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
+  - id: HC-DU-228
+    evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
   remaining_obligations: []
   typed_dependencies:
   - type: tests
@@ -272,6 +284,7 @@ programs:
   - explorations/equivariant-stochastic-interface-selection-normalized-orbit-boundary-and-formed-record-gate-2026-07-30.md
   - explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
+  - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
 - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
   kind: supporting_branch
   owner_repo: dynamic-unity
@@ -547,7 +560,7 @@ programs:
   - CH-FRONTIER
   target: Test whether a closed typed transition system adds structure beyond quantum
     processes plus supplied interfaces; advance dependent families only if it does.
-  current_grade: HC-DU-207--227 bank Grade-4 holonomy/no-section, interface,
+  current_grade: HC-DU-207--228 bank Grade-4 holonomy/no-section, interface,
     GU/Jacobson, QFT-landing, selector-key, anomaly/domain/ruler, and domain-selector
     regress/minimal-stability boundaries plus Ising response and source/preparation
     controls. No GU source action, complete handoff, unique QFT, or new physics is
@@ -615,6 +628,8 @@ programs:
     evidence_ref: explorations/response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md
   - id: HC-DU-227
     evidence_ref: explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
+  - id: HC-DU-228
+    evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
   remaining_obligations:
   - Reopen only with a source-pinned action that physically realizes same-fibre
     return or same-bundle route semantics, derives/selects an inter-system
@@ -698,6 +713,9 @@ programs:
   - type: extracts_from
     target: HC-DU-227
     target_type: result
+  - type: extracts_from
+    target: HC-DU-228
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -761,6 +779,7 @@ programs:
   - explorations/aharonov-casher-charge-parity-selected-fluxoid-transition-rule-and-signed-writer-obstruction-2026-09-02.md
   - explorations/response-record-rule-three-separation-zero-error-composition-and-first-leak-boundary-2026-09-02.md
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
+  - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -796,8 +815,12 @@ successor_selection:
     the full-charge, finite-process, and provenance leaks while finding the theorem
     mathematics absorbed; and HC-DU-227 anchors the response-family/orbit-member/
     quantum-carrier/classical-shadow distinction in the Mott cloud-chamber problem
-    while finding it absorbed by standard physics. Require a physical value-selecting or process-record
-    handoff from a natural response, a selected bundle/path or inter-system
+    while finding it absorbed by standard physics; and HC-DU-228 shows that a
+    classically definite first-droplet seed makes selection inherited disclosure,
+    while a literal all-attempt amplitude offset would violate fixed-instrument
+    convex affinity and therefore remains only a conditional prediction seam.
+    Require a physical value-selecting or process-record handoff from a natural
+    response, a selected bundle/path or inter-system
     intertwiner, a materially complete no-section result, or a finite
     record-conditioned remainder. No DU candidate qualifies; remain quiescent.
 anomaly_intake:

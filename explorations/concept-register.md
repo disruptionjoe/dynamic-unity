@@ -8670,3 +8670,39 @@ The physical and mathematical components are known. The result is a
 standard-physics positive control connecting `HC-DU-222` to `HC-DU-226`, not a
 new law, prediction, paper seed, or successor. See
 `mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md`.
+
+### 2026-09-02 first-droplet actualization and low-amplitude affinity gate
+
+`HC-DU-228` tests the proposed barely-subcritical first-droplet mechanism
+against DU's already banked selector ladder. The proposal supplies a serious
+microphysical amplifier, but it explicitly assumes a classical random thermal
+cluster population and calls the complete chamber deterministic. Once the
+actual microscopic cluster is admitted, the first track is selected by prior
+asymmetric data. Metastability amplifies and retains that seed; it does not
+derive a sampler or one-run ontology from a symmetric unitary state.
+
+Keep the scoped trilemma explicit:
+
+```text
+pre-existing actual microstate -> deterministic disclosure and amplification
+objective stochastic innovation -> one-run actualization through an added law
+closed unitary quantum dynamics -> correlated alternatives; outcome ontology open
+```
+
+The track endpoint can encode seed direction while failing to identify which
+route made the seed actual. Provenance requires an independently formed route
+record.
+
+The same audit extracts one prediction-shaped boundary. Every fixed quantum
+effect has affine probabilities `Tr(E rho)`. A literal all-attempt offset law
+`max(Tr(P rho)-c,0)` is non-affine: at `q=(0,c,2c)`, direct response at the
+midpoint is zero while the randomized response is `c/2`. Applied to density
+operators this predicts convex-mixture violation; applied to hidden ensemble
+members it predicts decomposition dependence. Ordinary inefficiency,
+postselection, changing apparatus, and missing attempts remain the strongest
+absorbers.
+
+`PRED-DU-006` preserves that imported conditional discriminator as a seam. It
+is not evidence of a Born-rule anomaly, a DU law, a paper seed, a hardware
+action, or a successor. See
+`first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md`.

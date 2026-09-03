@@ -5881,3 +5881,36 @@ Passing establishes only the scoped symmetry, correlation, quantum/classical-
 shadow, and support-decoding controls. It does not simulate a cloud chamber,
 derive collapse, select an ontology, make a new physical prediction, or create
 paper readiness.
+
+## HC-DU-228 first-droplet actualization and Born-affinity gate
+
+`du_first_droplet_actualization_affinity_probe.py` checks the exact finite
+boundary between a microscopic chamber seed, metastable amplification, and a
+candidate low-amplitude detector cutoff:
+
+- a uniform microscopic seed law is rotation invariant while a fully specified
+  seed is copied deterministically into one track;
+- a symmetric blank has no deterministic direction selector;
+- coherent and dephased direction carriers have identical track statistics but
+  differ under a coherent global witness;
+- `f_c(q)=max(q-c,0)` violates convex affinity at `q=(0,c,2c)`;
+- fixed detector inefficiency preserves affinity;
+- applying the cutoff to ensemble members distinguishes two decompositions of
+  `I/2`;
+- one ideal track can decode seed direction without decoding whether the seed
+  was a pre-existing microstate, ontic innovation, or monitored trajectory;
+  and
+- an explicit route marker restores provenance only by refining the physical
+  record.
+
+Run:
+
+```bash
+python3 tests/du_first_droplet_actualization_affinity_probe.py --write-artifact
+```
+
+The artifact is
+`artifacts/du_first_droplet_actualization_affinity_result.json` and reports
+`16/16`. Passing does not simulate nucleation, validate Schonfeld's mechanism,
+establish a Born-rule violation, select a single-run ontology, or authorize
+hardware. It preserves the exact scope of imported `PRED-DU-006`.

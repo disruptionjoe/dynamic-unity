@@ -1,0 +1,93 @@
+{
+  "claim_id": "HC-DU-228",
+  "prediction_id": "PRED-DU-006",
+  "status": "PASS",
+  "checks_passed": 16,
+  "checks_total": 16,
+  "cutoff": "1/4",
+  "cutoff_direct_midpoint_response": "0",
+  "cutoff_randomized_response": "1/8",
+  "z_decomposition_response": "3/8",
+  "x_decomposition_response": "1/4",
+  "coherent_witness_probability": "1",
+  "dephased_witness_probability": "1/4",
+  "checks": [
+    {
+      "name": "the symmetric microscopic seed law is rotation invariant",
+      "passed": true
+    },
+    {
+      "name": "the amplifier deterministically copies a fully specified seed",
+      "passed": true
+    },
+    {
+      "name": "the seed-to-track amplifier is equivariant",
+      "passed": true
+    },
+    {
+      "name": "coarse-graining over the seed yields a uniform track law",
+      "passed": true
+    },
+    {
+      "name": "a symmetric blank has no deterministic rotation-fixed direction",
+      "passed": true
+    },
+    {
+      "name": "coherent and dephased carriers have the same track-basis law",
+      "passed": true
+    },
+    {
+      "name": "a global coherent witness separates those carriers",
+      "passed": true
+    },
+    {
+      "name": "the offset cutoff violates convex affinity",
+      "passed": true
+    },
+    {
+      "name": "a fixed inefficient detector preserves convex affinity",
+      "passed": true
+    },
+    {
+      "name": "no fixed effect matches the cutoff at q=0,c,2c",
+      "passed": true
+    },
+    {
+      "name": "a branchwise cutoff distinguishes decompositions of I over 2",
+      "passed": true
+    },
+    {
+      "name": "an ideal track exactly decodes its microscopic seed direction",
+      "passed": true
+    },
+    {
+      "name": "the same track alphabet does not identify actualization route",
+      "passed": true
+    },
+    {
+      "name": "an explicit route marker can restore provenance",
+      "passed": true
+    },
+    {
+      "name": "restored provenance comes from a refined physical record",
+      "passed": true
+    },
+    {
+      "name": "the finite control checks structure rather than nucleation physics",
+      "passed": true
+    }
+  ],
+  "scope": [
+    "finite C4 microscopic-seed and amplifier control",
+    "coherent-carrier versus dephased-shadow control",
+    "exact convex-affinity and ensemble-decomposition witness",
+    "endpoint-provenance support control"
+  ],
+  "not_claimed": [
+    "cloud-chamber or nucleation simulation",
+    "validation of the Schonfeld first-droplet mechanism",
+    "observed Born-rule violation",
+    "single-run ontology selection",
+    "new fundamental law"
+  ]
+}
