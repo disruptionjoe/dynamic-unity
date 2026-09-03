@@ -8739,3 +8739,33 @@ preparation contrast, zero remote-choice contrast, and no-refit separation
 from every admitted ordinary quantum process. No anomaly, law, paper, hardware
 action, or successor is established. See
 `low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md`.
+
+### 2026-09-03 causal nonlinear process and record-selection boundary
+
+`HC-DU-230` audits the explicit nonlinear escape retained by `HC-DU-229`.
+Kaplan--Rajendran demonstrate that a nonlinear class can purchase a
+field-theoretic multi-system law, retarded state-history dependence, and a
+conditional measurement dynamics. It still begins measurement with a chosen
+observable, stable apparatus state, engineered coupling, and pointer family;
+the nonlinear apparatus is generally noisy. Fiorentino--Weigert hold states,
+composition, observables, and Born probabilities fixed and show that multiple
+generalized update rules survive core consistency and no-signalling
+requirements. Lüders is selected only after additional coherence and
+composition-compatibility premises.
+
+Keep the typed boundary explicit:
+
+```text
+causal/no-signalling nonlinear process != selected measurement interface
+consistent state update != formed retained record
+relativistic covariance != operational no-signalling
+class exit != derivation of the retired cutoff
+```
+
+Neither source derives `PRED-DU-006`, a material archive, provenance, or
+observer access. A reopener must supply one source-owned package containing
+state/history, composition, update, locality, apparatus, all attempts,
+provenance, and access, while predicting the local contrast and zero spacelike
+contrast without refit. No paper, hardware action, local model, or successor is
+earned. See
+`causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md`.

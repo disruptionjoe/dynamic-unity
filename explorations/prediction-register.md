@@ -374,6 +374,15 @@ does not register, harden, duplicate, seed, or promote either prediction.
   different complete state, composition, update, or locality contract.
   Postselection, dead time, saturation, finite-horizon first-event probability,
   or missing attempts can mimic the curve without unconditional excess.
+- **Causal nonlinear escape audit.** Kaplan--Rajendran demonstrate a genuine
+  full-state/history-dependent nonlinear QFT escape class, but their
+  measurement construction supplies the observable, apparatus state,
+  interaction, and pointer family. Fiorentino--Weigert demonstrate multiple
+  no-signalling generalized update rules while holding observables and Born
+  probabilities fixed. Neither framework derives this cutoff, `c`, an
+  all-attempt response, or a material provenance-bearing archive. Causality,
+  no-signalling, relativistic covariance, and foliation independence remain
+  separate obligations. The complete-process reopener is therefore not met.
 - **Current evidence.** The cloud-chamber data were opportunistic and
   uncontrolled; the cutoff was fitted after an apparent radial deficit. The
   superconducting-qubit extension is a rough extrapolation through a supplied
@@ -392,7 +401,8 @@ does not register, harden, duplicate, seed, or promote either prediction.
   modeling cannot advance the seam without the complete law.
 - **Source pointers.**
   `first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md`;
-  `low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md`.
+  `low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md`;
+  `causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md`.
 
 ---
 

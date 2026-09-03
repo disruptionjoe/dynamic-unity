@@ -204,6 +204,18 @@ reuse this affine-or-provenance boundary but must not report a universal no-go
 against nonlinear quantum theory, erase the causal nonlinear escape class, or
 treat inaccessible provenance as a local control variable.
 
+`HC-DU-230` audits that escape class rather than assuming it away. Kaplan--
+Rajendran supply a full-state/history-dependent nonlinear field law and a
+multi-system prescription, but measurement still begins with a chosen
+observable, prepared apparatus, engineered interaction, and pointer family.
+Fiorentino--Weigert prove that several generalized update rules survive core
+consistency and no-signalling requirements while holding observables and Born
+probabilities fixed. Sibling work may reuse the distinction among causal law,
+no-signalling update, selected measurement interface, and formed record. It may
+not infer record selection from causal admissibility, treat covariance and
+no-signalling as one property, or claim that either framework derives the
+low-amplitude cutoff.
+
 ## GU theory-payload receiver
 
 The versioned receiver at

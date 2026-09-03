@@ -1,15 +1,14 @@
 current_research_contract_version: '1.2'
 schema_ref: CURRENT-RESEARCH.schema.json
-state_revision: 179
+state_revision: 180
 as_of: '2026-09-03'
 authority: Joe direct chat through 2026-09-03 and governed receipts. The latest
-  result closes the mixed-state and composite-system gate on the first-droplet
-  cutoff. A complete fixed response on density states that preserves ordinary
-  randomization must be affine. A branchwise cutoff distinguishes remotely
-  steerable decompositions of one density state and therefore signals under the
-  standard composite contract. Preparation provenance can repair factoring only
-  as extra physically accessible process structure. The state-only prediction is
-  retired; no scientific successor is ready.
+  result audits the causal nonlinear escape left by the affine/steering gate.
+  Existing frameworks prove the escape class is nonempty, but complete nonlinear
+  dynamics or a no-signalling update does not select a measurement interface,
+  material archive, provenance, or access relation. Neither audited framework
+  derives the retired cutoff, and causality, covariance, foliation independence,
+  and no-signalling remain distinct obligations. No scientific successor is ready.
 scope: Sole mutable authority for Dynamic Unity research priority, work in progress,
   execution status, next actions, stop/reopen rules, and typed cross-repository dependencies.
 non_authorities:
@@ -79,17 +78,16 @@ current_decision:
   executable_action_id: null
   prepared_publication_program_id: null
   selected_successor_id: null
-  decision_note: HC-DU-229 discharges the mixed-state/composite gate named by
-    HC-DU-228. Ordinary mixing makes every complete fixed state response affine.
-    Applying the offset to pure ensemble members instead gives a 1/8 contrast
-    between equal Z and X decompositions of I/2 at c=1/4; a Bell partner can choose
-    those decompositions remotely, so the naive branchwise rule signals. Applying
-    it to I/2 directly avoids that signal but conflicts with its own randomized
-    pure-state calibration. An accessible preparation-route record or a complete
-    causal nonlinear theory can leave the class, but neither is supplied. Retire
-    the state-only form of PRED-DU-006. Reopen only with a complete source-owned
-    process/composition/locality law, a natural value-selecting provenance-bearing
-    process, or a finite record-conditioned remainder. Remain no-ready.
+  decision_note: HC-DU-230 confirms that causal nonlinear and generalized-update
+    theories can leave HC-DU-229's state-only class. Kaplan--Rajendran buy a
+    full-state/history-dependent field law and composition rule but supply the
+    observable, apparatus, interaction, and pointer family. Fiorentino--Weigert
+    hold observables and Born probabilities fixed while several no-signalling
+    update rules remain possible. Completing dynamics or update therefore does
+    not select a physical record interface. Neither source derives PRED-DU-006;
+    its complete-process reopener remains unmet. Reopen only with a source-owned
+    package that also selects the apparatus/provenance/access semantics and passes
+    local-contrast, zero-spacelike-contrast, and no-refit gates. Remain no-ready.
 programs:
 - id: CCR-MINIMAL-PHYSICAL-ANTECEDENT-TO-FINITE-REMAINDER
   kind: flagship
@@ -106,7 +104,7 @@ programs:
     a material, provenance-bearing, observer-indexed record interface; then adjudicate
     action-relative reconstruction, operational duality, and the smallest physically
     realizable finite remainder.
-  current_grade: HC-DU-165--229 bank selection, handoff, QFT-landing, selector-key,
+  current_grade: HC-DU-165--230 bank selection, handoff, QFT-landing, selector-key,
     candidate-domain/ruler, minimal-stable-antecedent, and Ising positive-control
     plus source/preparation/passport boundaries; no complete handoff is selected.
   evidence_grade: 4
@@ -156,6 +154,8 @@ programs:
     evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
   - id: HC-DU-229
     evidence_ref: explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
+  - id: HC-DU-230
+    evidence_ref: explorations/causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md
   remaining_obligations:
   - Reopen the conditional physical path only with an implementation-complete
     precommitted handoff containing the admitted attempt census, record lineage,
@@ -184,6 +184,10 @@ programs:
     HC-DU-229 closes the simple mixed-state extensions because density-level response
     conflicts with ordinary randomization, branchwise response fails remote
     steering, and a provenance repair requires an accessible process record.
+    HC-DU-230 confirms that complete causal/no-signalling nonlinear frameworks are
+    a genuine class exit, but they still supply rather than select the observable,
+    apparatus, update premises, pointer family, archive, provenance, and access
+    semantics, and neither derives the cutoff.
     The remaining burden is a complete causal process law, a natural value-selecting or
     process-record transducer and the complete provenance/access/consumer semantics
     demanded by the target—not another synthetic support theorem.
@@ -237,6 +241,7 @@ programs:
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
   - explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
+  - explorations/causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md
   - explorations/prediction-register.md
 - id: CCR-PHYSICAL-RECORD-INTERFACE-SELECTION
   kind: flagship
@@ -250,7 +255,7 @@ programs:
   - CH-FORMAL
   target: Parked after apparatus, stochastic-selector, and prepared-instrument
     selection tests.
-  current_grade: HC-DU-137--152/156/217/219--220/227--228 bank Grade-4 interface/apparatus
+  current_grade: HC-DU-137--152/156/217/219--220/227--228/230 bank Grade-4 interface/apparatus
     selection boundaries, the stochastic-selector correction, the conditional-
     prepared versus autonomous-interface distinction, and the autonomous stable-
     handoff parity/anchor boundary.
@@ -268,6 +273,8 @@ programs:
     evidence_ref: explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - id: HC-DU-228
     evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
+  - id: HC-DU-230
+    evidence_ref: explorations/causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md
   remaining_obligations: []
   typed_dependencies:
   - type: tests
@@ -291,6 +298,7 @@ programs:
   - explorations/prepared-instrument-admissibility-autonomous-interface-selection-and-record-handoff-boundary-2026-09-01.md
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
+  - explorations/causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md
 - id: CCR-PHYSICAL-RELIABILITY-RECONSTRUCTION-FLOOR
   kind: supporting_branch
   owner_repo: dynamic-unity
@@ -638,6 +646,8 @@ programs:
     evidence_ref: explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
   - id: HC-DU-229
     evidence_ref: explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
+  - id: HC-DU-230
+    evidence_ref: explorations/causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md
   remaining_obligations:
   - Reopen only with a source-pinned action that physically realizes same-fibre
     return or same-bundle route semantics, derives/selects an inter-system
@@ -727,6 +737,9 @@ programs:
   - type: extracts_from
     target: HC-DU-229
     target_type: result
+  - type: extracts_from
+    target: HC-DU-230
+    target_type: result
   - type: external_dependency
     target: GU-K77-SOURCE-ACTION-LUMINOUS-POLARIZATION
     target_type: external_work
@@ -792,6 +805,7 @@ programs:
   - explorations/mott-relational-track-quantum-record-and-single-run-selection-boundary-2026-09-02.md
   - explorations/first-droplet-microstate-actualization-trilemma-and-low-amplitude-affinity-gate-2026-09-02.md
   - explorations/low-amplitude-cutoff-affine-or-provenance-mixture-composition-and-steering-boundary-2026-09-03.md
+  - explorations/causal-nonlinear-complete-process-law-measurement-interface-and-record-selection-boundary-2026-09-03.md
 successor_selection:
   status: no_ready
   blocked_by: null
@@ -833,8 +847,10 @@ successor_selection:
     convex affinity and therefore remains only a conditional prediction seam;
     and HC-DU-229 retires that state-only seam because density-level response
     conflicts with ordinary mixing while branchwise response fails the remote-
-    steering/no-signalling gate. Only a complete causal process law or physically
-    accessible provenance-dependent response can reopen it.
+    steering/no-signalling gate; and HC-DU-230 shows that existing causal nonlinear
+    and generalized-update class exits still supply the measurement and record
+    interface and do not derive the cutoff. Only a source-owned complete process
+    plus selected apparatus/provenance/access semantics can reopen it.
     Require a physical value-selecting or process-record handoff from a natural
     response, a selected bundle/path or inter-system
     intertwiner, a materially complete no-section result, or a finite
